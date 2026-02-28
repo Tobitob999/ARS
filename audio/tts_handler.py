@@ -26,6 +26,7 @@ import logging
 import os
 import re
 import threading
+import unicodedata
 from pathlib import Path
 from typing import Any, Iterator
 
@@ -40,21 +41,29 @@ PIPER_MODEL_DIR = Path(__file__).parent.parent / "data" / "models" / "piper"
 # Satzgrenzen-Regex: trennt nach . ! ? … gefolgt von Leerzeichen/Zeilenumbruch
 SENTENCE_PATTERN = re.compile(r"(?<=[.!?…])\s+")
 
-# Definition der deutschen Stimmen-Bibliothek
+# Alle verfuegbaren deutschen Piper-Stimmen
 VOICE_REGISTRY = {
-    "keeper":   "de_DE-thorsten-high",    # Standard Erzähler
-    "woman":    "de_DE-kerstin-low",      # Weibliche NPCs
-    "monster":  "de_DE-pavoque-low",      # Tiefe, raue Stimme (Antagonisten)
-    "scholar":  "de_DE-amadeus-medium",   # Akademiker / Investigator
-    "mystery":  "de_DE-eva_k-x_low",      # Geister / Traumwesen
+    # --- Kernrollen ---
+    "keeper":       "de_DE-thorsten-high",              # Standard Erzaehler (maennlich, klar)
+    "woman":        "de_DE-kerstin-low",                # Weibliche NPCs
+    "monster":      "de_DE-pavoque-low",                # Tiefe, raue Stimme (Antagonisten)
+    "scholar":      "de_DE-karlsson-low",               # Akademiker / Investigator
+    "mystery":      "de_DE-eva_k-x_low",                # Geister / Traumwesen (weiblich)
+    # --- Erweiterte Stimmen ---
+    "emotional":    "de_DE-thorsten_emotional-medium",   # Emotionaler Erzaehler
+    "narrator":     "de_DE-thorsten-medium",             # Neutraler Erzaehler (medium quality)
+    "villager":     "de_DE-ramona-low",                  # Dorfbewohnerin / Buerger (weiblich)
+    "crowd":        "de_DE-mls-medium",                  # Generische Stimme / Statisten
+    "whisper":      "de_DE-thorsten-low",                # Leise/Fluestern (low quality = rauer)
 }
 DEFAULT_VOICE = "keeper"
 
 # Auswahl an vordefinierten Keeper-Stimmen (Archetypen)
 KEEPER_VOICES = {
-    "standard": "de_DE-thorsten-high",      # Der klassische Erzähler
-    "akademiker": "de_DE-amadeus-medium",  # Präziser, sachlicher
-    "mysterioes": "de_DE-eva_k-x_low",      # Geheimnisvoll, weiblich
+    "standard":   "de_DE-thorsten-high",              # Der klassische Erzaehler
+    "emotional":  "de_DE-thorsten_emotional-medium",   # Emotionaler, dramatischer
+    "mysterioes": "de_DE-eva_k-x_low",                # Geheimnisvoll, weiblich
+    "sachlich":   "de_DE-karlsson-low",                # Praeziser, sachlicher
 }
 
 
@@ -88,7 +97,7 @@ class TTSHandler:
         self._piper_models: dict[str, Any] = {}  # Cache für geladene Modelle
         self._active_piper: Any = None           # Aktuell genutztes Modell
         self._piper_sample_rate: int = 22050
-        self._piper_load_failed: bool = False
+        self._piper_failed_voices: set[str] = set()  # Per-Voice Tracking statt globalem Flag
         # Kokoro config
         self._voice:    str = os.getenv("KOKORO_VOICE", "af_heart")
         self._speed:    float = float(os.getenv("KOKORO_SPEED", "1.0"))
@@ -197,6 +206,9 @@ class TTSHandler:
         Prüft stop_event zwischen Playback-Chunks (Barge-in Granularität).
         Returns True wenn vollständig abgespielt.
         """
+        # NFC-Normalisierung: verhindert dass Umlaute (ü, ö, ä) als
+        # zwei separate Vokale gesprochen werden (NFD → NFC)
+        sentence = unicodedata.normalize("NFC", sentence)
         logger.debug("TTS: '%s…'", sentence[:50])
 
         if self._backend == "piper":
@@ -319,7 +331,7 @@ class TTSHandler:
         Laedt ein spezifisches Piper TTS Modell (lazy).
         Wechselt self._active_piper auf das angeforderte Modell.
         """
-        if self._piper_load_failed:
+        if voice_id in self._piper_failed_voices:
             return
 
         # Check Cache
@@ -335,11 +347,24 @@ class TTSHandler:
 
             # Pfade konstruieren
             # Stimmen-ID zerlegen: de_DE-thorsten-medium → de/de_DE/thorsten/medium
-            parts = voice_id.split("-")
-            lang_code = parts[0]          # de_DE
-            lang_short = lang_code[:2]    # de
-            speaker = parts[1]            # thorsten
-            quality = parts[2] if len(parts) > 2 else "medium"
+            # Beachte: Manche IDs haben Unterstriche im Speaker/Quality,
+            # z.B. de_DE-eva_k-x_low → de/de_DE/eva_k/x_low
+            # Strategie: lang_code ist alles vor dem ersten "-",
+            # dann Quality-Suffix von hinten matchen (bekannte Werte).
+            first_dash = voice_id.index("-")
+            lang_code = voice_id[:first_dash]          # de_DE
+            lang_short = lang_code[:2]                  # de
+            remainder = voice_id[first_dash + 1:]       # thorsten-medium / eva_k-x_low
+
+            # Quality von hinten matchen: x_low, low, medium, high
+            _quality_suffixes = ("-x_low", "-low", "-medium", "-high")
+            speaker = remainder
+            quality = "medium"
+            for suffix in _quality_suffixes:
+                if remainder.endswith(suffix):
+                    quality = suffix[1:]  # ohne führendes "-"
+                    speaker = remainder[: -len(suffix)]
+                    break
 
             model_file = f"{voice_id}.onnx"
             config_file = f"{voice_id}.onnx.json"
@@ -372,7 +397,7 @@ class TTSHandler:
 
         except Exception as exc:
             logger.warning("Piper Laden für '%s' fehlgeschlagen: %s", voice_id, exc)
-            self._piper_load_failed = True
+            self._piper_failed_voices.add(voice_id)
 
     def _ensure_kokoro_loaded(self) -> None:
         """

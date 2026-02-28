@@ -1,0 +1,48 @@
+{
+  "id": "mad_max_world",
+  "schema_version": "1.0.0",
+  "name": "Mad Max World — Die Oede",
+  "compatible_rulesets": ["cthulhu_7e", "add_2e"],
+  "epoch": "Unbestimmt — Jahrzehnte nach dem Kollaps",
+  "description": "Eine erbarmungslose postapokalyptische Wueste. Die Zivilisation ist gefallen, Wasser und Benzin sind die neuen Waehrungen. Warlords herrschen ueber befestigte Siedlungen, Nomadenbanden durchstreifen die endlosen Highways. Fahrzeuge sind Waffen, Ueberlebende sind Jaeger oder Beute. Moral ist Luxus — nur die Ruecksichtslosesten ueberleben. Maschinen werden verehrt, die alte Welt ist Legende. Sandstuerme verschlingen ganze Konvois, und hinter dem Horizont wartet nur noch mehr Oede.",
+  "geography": "Endlose Wuestenebenen, zerfallene Highways, ausgetrocknete Salzseen. Vereinzelte Felsenformationen bieten Schutz. Die 'Citadel' — eine Felsenfestung mit Wasserquelle — dominiert die Region. Gas Town (Raffinerie-Siedlung) und Bullet Farm (Munitionsfabrik) bilden ein Dreiecks-Imperium. Dazwischen: nichts als Oede, Wracks und Knochenwuesten. Am Horizont: das Gruene Land — ein Mythos, an den manche noch glauben.",
+  "culture": "Stammesgesellschaft auf Ruinen der alten Welt. War Boys — fanatische Krieger, die den 'glorreichen Tod' auf dem Highway suchen. Milchmuetter, Zuechter, Schrauber — jeder hat eine Funktion oder stirbt. Alte-Welt-Begriffe werden missverstanden und mystifiziert. Lesen ist selten, muendliche Ueberlieferung dominiert. Taetowierungen und Narben erzaehlen Lebensgeschichten. Koerperbemalung mit weisser Farbe als Kriegsritual.",
+  "technology": "Postapokalyptisch-mechanisch. Verbrennungsmotoren werden angebetet. Fahrzeuge sind aus Schrott zusammengeschweisst — jedes ein Unikat. Schusswaffen existieren, Munition ist kostbar. Armbrueste und Speere als Alternative. Medizin ist primitiv: Bluttransfusionen ('Blood Bags'), Knochenrichten, Kraeuterkunde. Keine Elektronik, kein Funk ausser geplunderter Hardware. Wasseraufbereitung ist Hochtechnologie.",
+  "races_species": "Ausschliesslich Menschen — aber stark differenziert. War Boys (bleiche, kurzlebige Fanatiker), Vuvalini (Kriegerinnen der Wueste), Buzzards (Stachelfahrzeug-Nomaden), Rock Riders (Schluchten-Hinterhaeltler), Gas Town Boys (russ-verschmierte Raffineriearbeiter). Viele sind durch Strahlung oder Inzucht gezeichnet: Tumore, Fehlbildungen, verkuerzte Lebenserwartung.",
+  "atmosphere": "Brutal, staubig, laut. Die Sonne brennt erbarmungslos, der Sand dringt ueberall ein. Motoren heulen, Ketten rasseln, Explosionen hallen ueber die Ebene. Stille bedeutet Gefahr — oder Tod. Wasser rinnt durch die Finger wie Hoffnung. Jeder Tag ist ein Kampf, jede Nacht eine Gnadenfrist. Schoenheit existiert nur in Sonnenuntergaengen ueber der Oede und in seltenen Momenten menschlicher Verbundenheit.",
+  "currency": "Tauschhandel dominiert. Primaere Waehrungen: Wasser (in 'Aqua Cola'-Einheiten), Benzin ('Guzzoline' — literweise), Munition (Stueckweise). Sekundaer: Nahrung, Metall, Reifen, medizinisches Material. Menschenleben hat einen Tauschwert — Sklaven, Blood Bags (lebende Blutreserven), Zuechterinnen.",
+  "language_style": "Abgehackt, reduziert, poetisch-primitiv. Alte-Welt-Woerter werden verzerrt: 'Aqua Cola' (Wasser), 'Guzzoline' (Benzin), 'The Green Place' (Utopie). Schlachtrufe: 'WITNESS ME!', 'Ride eternal, shiny and chrome!', 'Mediocre!' (Beleidigung). Wenige Worte, viel Bedeutung. Stille ist haeufiger als Reden.",
+  "special_rules": "Fahrzeuge sind Lebensversicherung — zu Fuss in der Oede ist ein Todesurteil. Wasser-Rationierung: ohne Wasser stirbt man in 2 Tagen. Benzin ist endlich — jede Fahrt ist kalkuliert. Sandstuerme koennen jederzeit aufziehen (Gefahr + Deckung). Hitze am Tag, Kaelte in der Nacht. Strahlung in manchen Zonen: langfristige Gesundheitsschaeden. Vertrauen ist die seltenste Ressource.",
+  "factions": [
+    {"name": "Die Citadel", "type": "Festung/Diktatur", "attitude": "feindlich-kontrollierend", "description": "Felsenfestung mit der einzigen Wasserquelle der Region. Beherrscht von Immortan Joe (oder seinem Nachfolger). War Boys dienen als fanatische Armee. Kontrolle durch Wassermonopol."},
+    {"name": "Gas Town", "type": "Industriesiedlung", "attitude": "pragmatisch-brutal", "description": "Oelraffinerie in der Wueste. Produziert Guzzoline — den Treibstoff der Oede. Verbuendet mit der Citadel. Arbeiter sind de facto Sklaven. Schwarzer Rauch steigt ewig auf."},
+    {"name": "Bullet Farm", "type": "Waffenfabrik", "attitude": "aggressiv-paranoid", "description": "Munitionsfabrik in einer ehemaligen Bleimine. Bewaffnet die Citadel und Gas Town. Der Anführer ('Bullet Farmer') ist instabil und gewaltbereit."},
+    {"name": "Vuvalini — Viele Muetter", "type": "Nomadenstamm", "attitude": "vorsichtig-solidarisch", "description": "Letzte Ueberlebende einer matriarchalen Gemeinschaft. Alte Kriegerinnen mit Wissen der alten Welt. Hueten Saatgut und Erinnerungen an das Gruene Land."},
+    {"name": "Buzzards", "type": "Raeuber", "attitude": "feindlich", "description": "Nomadische Plünderer in stachelbesetzten Fahrzeugen. Leben von Ueberfaellen auf Konvois. Kein Verhandeln — nur Gewalt."},
+    {"name": "Freie Wanderer", "type": "Einzelgaenger", "attitude": "unberechenbar", "description": "Einsame Ueberlebende ohne Stammeszugehoerigkeit. Manche sind Haendler, manche Soeldner, die meisten verzweifelt. 'Mad' Max ist der Archetyp."}
+  ],
+  "common_locations": [
+    {"name": "Die Citadel", "type": "Festung", "description": "Drei massive Felstuerme in der Wueste. Wasserfall aus dem Felsen — die einzige zuverlaessige Quelle. War Boys leben in Hoehlen, Immortan Joe thront oben. Aufzuege und Ketten verbinden die Ebenen."},
+    {"name": "Gas Town", "type": "Raffinerie", "description": "Ruinenstadt um eine funktionierende Oelraffinerie. Schwarzer Rauch, Hitze, der Gestank von Benzin. Metallgerueste und Flammenwerfer-Tuerme als Verteidigung."},
+    {"name": "Die Oede / Wasteland", "type": "Wildnis", "description": "Endlose Sandwueste mit vereinzelten Felsformationen, verrosteten Wracks und ausgebleichten Knochen. Keine Orientierungspunkte. Die Sonne toetet schneller als jeder Feind."},
+    {"name": "Der Grosse Highway", "type": "Strasse", "description": "Zerfallene Autobahn quer durch die Oede. Schauplatz von Konvoi-Ueberfaellen und Hochgeschwindigkeits-Kaempfen. Wracks saeuemen den Rand wie Grabsteine."},
+    {"name": "Gruenes Land (Mythos)", "type": "Legende", "description": "Angeblich fruchtbares Gebiet jenseits der Oede. Die meisten halten es fuer Legende. Manche Karten zeigen es — keine fuehrt hin. Suche danach ist Hoffnung und Wahnsinn zugleich."},
+    {"name": "Die Schlucht", "type": "Engpass", "description": "Felsenschlucht, kontrolliert von Rock Riders. Idealer Hinterhalt-Punkt. Einziger Durchgang zu den oestlichen Gebieten. Knochen und Wracks auf dem Grund."}
+  ],
+  "time": {
+    "calendar": "Keine formelle Zeitrechnung. Tage werden gezaehlt, nicht benannt. Jahreszeiten: 'Die Heisse' und 'Die Kalte'.",
+    "default_start": "05:00",
+    "day_phases": ["Erste Sonne", "Volle Hitze", "Hochsonne", "Sinkende Sonne", "Daemmerung", "Sternennacht", "Tiefste Nacht"]
+  },
+  "encounters": {
+    "highway": ["Buzzard-Konvoi im Angriff", "Liegengebliebenes Fahrzeug (Falle?)", "Sandstrum am Horizont", "Einsamer Wanderer — bittet um Wasser", "Brennendes Wrack — noch Beute drin?"],
+    "wasteland": ["Verwester Konvoi — lange tot", "Unterirdischer Bunker (verschuettet)", "Krater mit schwacher Strahlung", "Geierkreis — etwas liegt im Sand", "Fata Morgana — oder doch echt?"],
+    "settlement": ["Sklavenhaendler bieten 'Ware' an", "Mechaniker verlangt absurden Preis", "War Boy desertiert — verfolgt", "Wasserrationen werden gekuerzt — Unruhe", "Gladiatorenkaempfe im Thunderdome"]
+  },
+  "survival": {
+    "water_need": "2 Liter pro Tag minimum. Ohne Wasser: nach 1 Tag Erschoepfung, nach 2 Tagen Delirium, nach 3 Tagen Tod.",
+    "fuel_consumption": "Fahrzeuge verbrauchen 1 Einheit Guzzoline pro 50 km. Schwere Fahrzeuge das Doppelte. Leerlauf verbrennt trotzdem.",
+    "heat": "Tagsuebertemperaturen 45-55°C. Metall verbrennt die Haut. Reisen bei Nacht ist sicherer — aber Raubtiere jagen nachts.",
+    "hazards": ["Sandstuerme (reduzieren Sicht auf 0, Fahrzeugschaden)", "Strahlenfelder (langfristige Schaeden)", "Treibsand", "Durst-Wahnsinn"]
+  }
+}

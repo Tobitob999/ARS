@@ -1,0 +1,261 @@
+{
+  "schema_version": "1.0.0",
+  "title": "Guzzoline Run — Die letzte Fuhre",
+  "setting": "Die Oede, rund um Gas Town und die Citadel",
+  "difficulty": "Mittel",
+  "intro": "Der Konvoi wird in drei Stunden aufbrechen. Ein War Rig, beladen mit 3000 Gallonen Guzzoline, muss von Gas Town zur Citadel gebracht werden. Normalerweise Routine — aber diesmal nicht. Die Buzzards haben den Highway blockiert, Rock Riders kontrollieren die Schlucht, und irgendwo da draussen wartet jemand, der das Rig fuer sich will. Eure Aufgabe: Bringt die Fuhre durch. Um jeden Preis.",
+  "hook": "Ein scheinbar einfacher Transportauftrag durch die Oede. Doch die Strasse ist alles andere als sicher — und die Ladung macht euch zum Ziel fuer jeden Plünderer im Umkreis von hundert Meilen.",
+  "keeper_lore": "Der wahre Grund fuer die erhoehte Feindaktivitaet: Immortan Joes Nachfolger hat Gas Town ein Ultimatum gestellt — die naechste Lieferung muss die doppelte Menge enthalten, oder Gas Town verliert seinen Schutzstatus. Der Convoy-Leader (Furiosa-Figur) hat heimlich zusaetzliche Passagiere an Bord — drei Zuechterinnen, die fliehen wollen. Wenn die Spieler das entdecken, muessen sie sich entscheiden: Auftrag oder Menschlichkeit.",
+
+  "start_location": "gas_town_depot",
+
+  "flags": {
+    "auftrag_angenommen": false,
+    "konvoi_gestartet": false,
+    "buzzards_besiegt": false,
+    "schlucht_passiert": false,
+    "passagiere_entdeckt": false,
+    "passagiere_beschuetzt": false,
+    "passagiere_verraten": false,
+    "war_rig_intakt": false,
+    "citadel_erreicht": false,
+    "citadel_umgangen": false
+  },
+
+  "locations": [
+    {
+      "id": "gas_town_depot",
+      "name": "Gas Town — Ladedepot",
+      "description": "Russgeschwaezte Metallhallen. Der Gestank von Rohoel brennt in der Nase. Arbeiter in oelverschmierten Lumpen schleppen Kanister. Das War Rig steht abfahrbereit — ein monstroeser Tanklaster mit Panzerplatten und montierten Waffen. Eure Fahrzeuge werden daneben wie Spielzeug aussehen.",
+      "atmosphere": "Industrielle Hoelle. Hitze, Laerm, der Rhythmus haemmernder Schmiedeeisen. Jeder hier schuldet jemandem etwas.",
+      "npcs_present": ["ace", "rictus"],
+      "clues_available": ["frachtpapiere", "geruecht_buzzards"],
+      "exits": {
+        "highway_west": "Der grosse Highway — Richtung Citadel (200 km).",
+        "gas_town_markt": "Schwarzmarkt von Gas Town — letzte Chance zum Handeln."
+      },
+      "keeper_notes": "Die Spieler sollen die Spannung spueren. Ace ist nervoes — er weiss von den versteckten Passagieren. Rictus ist dort, um sicherzustellen, dass die Lieferung stattfindet.",
+      "sub_locations": [
+        {
+          "id": "gas_town_markt",
+          "name": "Schwarzmarkt",
+          "description": "Ein Labyrinth aus Wellblech-Staenden. Hier gibt es alles — wenn man den Preis zahlt. Wasser, Munition, fragwuerdige Medizin, abgetrennte Finger als Warnung.",
+          "clues": ["karte_alternativroute"],
+          "events": []
+        }
+      ]
+    },
+    {
+      "id": "highway_west",
+      "name": "Der Grosse Highway — Westabschnitt",
+      "description": "Endloser Asphalt, geborsten und sandbedeckt. Wracks saumen den Rand wie Grabsteine. Am Horizont: Hitzeschlieren und Staub. Der Konvoi faehrt in Formation — War Rig in der Mitte, Eskorte rechts und links.",
+      "atmosphere": "Motorengeheul, Wind, brennende Sonne. Die Oede wartet. Jeder Schatten koennte ein Hinterhalt sein.",
+      "npcs_present": ["ace"],
+      "clues_available": [],
+      "exits": {
+        "buzzard_territory": "Buzzard-Territorium (nach ~80 km).",
+        "gas_town_depot": "Zurueck nach Gas Town."
+      },
+      "keeper_notes": "Nach etwa einer Stunde Fahrt: Staubwolke am Horizont. Buzzards.",
+      "sub_locations": []
+    },
+    {
+      "id": "buzzard_territory",
+      "name": "Buzzard-Jagdgrund",
+      "description": "Der Highway wird enger. Felsbrocken ragen aus dem Sand. Von den Huegeln tauchen sie auf — stachelbesetzte Fahrzeuge, Roehren-Karossieren, verrostete Todesfallen auf Raedern. Die Buzzards greifen im Rudel an.",
+      "atmosphere": "Chaos. Reifenquietschen, Metallkreischen, Schreie. Sand und Blut. Adrenalinkick oder Panik — es gibt nichts dazwischen.",
+      "npcs_present": [],
+      "clues_available": [],
+      "exits": {
+        "die_schlucht": "Die Schlucht (nach dem Kampf).",
+        "highway_west": "Zurueck auf den offenen Highway (Flucht)."
+      },
+      "keeper_notes": "5-8 Buzzard-Fahrzeuge. Taktik: Einkreisen, Sideswipe, Enterversuche. Wenn die Spieler clever kaempfen, koennen sie die Buzzards dezimieren. Bei Flucht: Buzzards verfolgen 30 Minuten.",
+      "sub_locations": []
+    },
+    {
+      "id": "die_schlucht",
+      "name": "Die Schlucht",
+      "description": "Roter Fels ragt hundert Meter hoch. Der Highway fuehrt durch einen schmalen Engpass — kaum Platz fuer das War Rig. Oben auf den Felswaenden: Schatten. Rock Riders. Sie kontrollieren diesen Durchgang und verlangen Zoll.",
+      "atmosphere": "Klaustrophobisch nach der Weite der Wueste. Echo verstaerkt jeden Laut. Steine rollen von oben. Das Gefuehl, beobachtet zu werden.",
+      "npcs_present": ["rock_rider_chief"],
+      "clues_available": ["versteckte_passage"],
+      "exits": {
+        "citadel_approach": "Ausgang der Schlucht — Citadel in Sichtweite.",
+        "alternativroute": "Umweg durch die Salzwueste (gefaehrlich, aber keine Rock Riders)."
+      },
+      "keeper_notes": "Die Rock Riders verlangen 500 Liter Guzzoline als Zoll. Verhandlung moeglich (Tauschen-Probe). Kampf in der Schlucht ist gefaehrlich — Felssturz-Risiko. Hier koennen die Spieler auch die versteckten Passagiere entdecken, wenn sie das Rig durchsuchen.",
+      "sub_locations": [
+        {
+          "id": "war_rig_frachtraum",
+          "name": "War Rig — Versteckter Frachtraum",
+          "description": "Hinter den Haupttanks, verborgen unter einer Metallplatte: ein enger Hohlraum. Drei Frauen kauern dort — duenn, vernarbt, verängstigt. Zuechterinnen der Citadel. Sie flehen um Stille.",
+          "clues": ["zuechterinnen_brief"],
+          "events": [
+            {
+              "trigger": "Spieler durchsuchen das War Rig gruendlich",
+              "effect": "Die Spieler finden drei versteckte Passagiere — ehemalige Zuechterinnen von Immortan Joes Nachfolger. Ace wusste davon. Moralisches Dilemma: Auftrag abliefern (Passagiere zurueck in die Sklaverei) oder helfen (Citadel umgehen, Flucht nach Osten).",
+              "sets_flag": "passagiere_entdeckt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "citadel_approach",
+      "name": "Vor den Toren der Citadel",
+      "description": "Drei massive Felstuerme ragen aus der Ebene. Wasserrinnnen laufen die Felswaende herab — kontrolliert, rationiert. War Boys auf den Aussichtsplattformen beobachten den ankommenden Konvoi. Die Tore oeffnen sich langsam.",
+      "atmosphere": "Ehrfurcht und Beklemmung. Die Citadel ist beeindruckend und beaengstigend zugleich. Hier endet der Auftrag — oder beginnt etwas viel Groesseres.",
+      "npcs_present": ["warlord_scrotus"],
+      "clues_available": [],
+      "exits": {},
+      "keeper_notes": "Wenn die Spieler die Passagiere verraten: Belohnung, aber moralischer Tiefpunkt. Wenn sie die Passagiere verstecken: Entdeckungs-Risiko (Entdecken-Probe des Warlords). Wenn sie die Citadel umgangen haben: anderes Ende.",
+      "sub_locations": []
+    }
+  ],
+
+  "npcs": [
+    {
+      "id": "ace",
+      "name": "Ace",
+      "role": "Convoy Leader",
+      "description": "Ehemalige War Boy-Fahrerin, jetzt freie Soeldnerin. Narben im Gesicht, rasierter Kopf, oelverschmierte Haende. Spricht wenig, handelt schnell.",
+      "appearance": "Gross, drahtiger Koerperbau. Schwarze Kriegsbemalung um die Augen. Traegt einen modifizierten Motorrad-Harnisch.",
+      "personality": "Stoisch, loyal gegenueber ihrer Crew. Verachtet die Citadel, arbeitet aber fuer sie, weil es keine Alternative gibt. Bis jetzt.",
+      "knowledge": [
+        "Kennt jeden Kilometer des Highways.",
+        "Weiss von den versteckten Passagieren — hat sie selbst eingeschmuggelt.",
+        "Die Buzzards wurden von jemandem in Gas Town informiert (Verraeter)."
+      ],
+      "secrets": [
+        "Plant, mit den Zuechterinnen nach Osten zu fliehen — das 'Gruene Land' soll dort sein.",
+        "Hat einen Deal mit den Rock Riders: freie Durchfahrt gegen Information ueber Citadel-Schwachstellen."
+      ],
+      "dialogue_hints": [
+        "Fahr. Rede nicht.",
+        "Wasser spart man. Worte auch.",
+        "Wenn wir anhalten, sterben wir. Also halten wir nicht an.",
+        "Es gibt etwas Besseres als die Citadel. Es muss etwas Besseres geben."
+      ]
+    },
+    {
+      "id": "rictus",
+      "name": "Rictus",
+      "role": "Gas Town Aufseher",
+      "description": "Massiger, langsamer Mann mit einem vernarbten Gesicht. Immortan Joes Repraesentant in Gas Town. Nicht clever, aber brutal.",
+      "appearance": "Kahlkopf, tätowierte Arme, traegt eine Kette mit Zaehnen als Trophae.",
+      "personality": "Gehorsam gegenueber der Citadel, grausam zu allen anderen. Versteht nur Staerke.",
+      "knowledge": ["Die Lieferung muss puenktlich sein.", "Wer den Konvoi verlaesst, stirbt."],
+      "secrets": ["Ist selbst suechtig nach Aqua Cola — stiehlt Wasserrationen."],
+      "dialogue_hints": ["Fahr los. Jetzt.", "Der Warlord wartet nicht.", "Mediocre!"]
+    },
+    {
+      "id": "rock_rider_chief",
+      "name": "Vulture",
+      "role": "Rock Rider Anführer",
+      "description": "Alter Mann mit ledernem Gesicht, der die Schlucht seit Jahrzehnten kontrolliert. Pragmatiker — kein Fanatiker.",
+      "appearance": "Duenn, verwittert, Adleraugen. Traegt einen Umhang aus zusammengenaehhten Lederfetzen.",
+      "personality": "Verhandlungsbereit, aber unnachgiebig bei seinem Zoll. Respektiert Staerke und Cleverness.",
+      "knowledge": ["Kennt einen Geheimweg durch die Schlucht.", "Weiss, dass die Citadel schwaecher wird."],
+      "secrets": ["Wuerde sich gegen die Citadel wenden — fuer den richtigen Preis."],
+      "dialogue_hints": ["Jeder zahlt. Auch du.", "Die Schlucht gehoert mir. Der Highway gehoert niemandem.", "Interessant. Erzaehl weiter."]
+    },
+    {
+      "id": "warlord_scrotus",
+      "name": "Warlord Scrotus",
+      "role": "Herrscher der Citadel",
+      "description": "Immortan Joes juengster Sohn und Nachfolger. Grausamer als sein Vater, aber weniger charismatisch. Regiert durch Angst, nicht durch Verehrung.",
+      "appearance": "Muskulos, Narben auf der Brust, traegt einen Totenschaedel-Helm. Bewegt sich wie ein Raubtier.",
+      "personality": "Paranoid, gewaltbereit, impulsiv. Sieht Verrat ueberall — oft zu Recht.",
+      "knowledge": ["Verdaechtigt Ace der Illoyalitaet.", "Weiss, dass Gas Towns Produktion sinkt."],
+      "secrets": ["Die Wasserquelle der Citadel trocknet langsam aus — in 2 Jahren ist sie leer."],
+      "dialogue_hints": ["Kniet.", "Wer hat euch erlaubt, mich anzusehen?", "WITNESS ME!"]
+    }
+  ],
+
+  "clues": [
+    {
+      "id": "frachtpapiere",
+      "location": "gas_town_depot",
+      "name": "Frachtpapiere",
+      "description": "Fettige Papiere mit Mengenangaben und Route.",
+      "probe_required": null,
+      "information": "Die Ladung ist 3000 Gallonen Guzzoline. Standardroute ueber den Highway. Lieferfrist: 12 Stunden.",
+      "sanity_loss": "0/0",
+      "leads_to": ["highway_west"],
+      "sets_flag": "auftrag_angenommen"
+    },
+    {
+      "id": "geruecht_buzzards",
+      "location": "gas_town_depot",
+      "name": "Geruecht ueber Buzzard-Aktivitaet",
+      "description": "Ein Arbeiter fluestert beim Beladen.",
+      "probe_required": "Horchen",
+      "information": "Die Buzzards wurden vorgewarnt — jemand in Gas Town hat den Konvoi verraten. Wer und warum ist unklar.",
+      "sanity_loss": "0/0",
+      "leads_to": ["buzzard_territory"],
+      "sets_flag": null
+    },
+    {
+      "id": "karte_alternativroute",
+      "location": "gas_town_markt",
+      "name": "Handgemalte Karte",
+      "description": "Ein Haendler verkauft eine alte Karte fuer 5 Schuss Munition.",
+      "probe_required": "Verhandeln / Tauschen",
+      "information": "Zeigt einen Umweg durch die Salzwueste — laenger, aber ohne Rock Riders. Warnung: 'Nicht bei Nacht fahren.'",
+      "sanity_loss": "0/0",
+      "leads_to": ["alternativroute"],
+      "sets_flag": null
+    },
+    {
+      "id": "versteckte_passage",
+      "location": "die_schlucht",
+      "name": "Verborgener Seitenweg",
+      "description": "Felsspalte, gerade breit genug fuer ein einzelnes Fahrzeug.",
+      "probe_required": "Entdecken",
+      "information": "Fuehrt an der Rock-Rider-Position vorbei — aber das War Rig passt nicht durch. Nur Motorraeder und kleine Fahrzeuge.",
+      "sanity_loss": "0/0",
+      "leads_to": ["citadel_approach"],
+      "sets_flag": null
+    },
+    {
+      "id": "zuechterinnen_brief",
+      "location": "war_rig_frachtraum",
+      "name": "Verzweifelter Brief",
+      "description": "Ein zerknittertes Stueck Leder mit eingeritzten Worten.",
+      "probe_required": "Alte-Welt-Wissen",
+      "information": "'Wir sind keine Dinge. Wir sind Menschen. Bitte. Das Gruene Land existiert — 400 Meilen nach Osten, hinter dem Salzmeer.' Unterschrieben mit drei Handabdruecken in Blut.",
+      "sanity_loss": "0/1",
+      "leads_to": [],
+      "sets_flag": "passagiere_entdeckt"
+    }
+  ],
+
+  "resolution": {
+    "good_ending": "Die Spieler bringen die Zuechterinnen in Sicherheit — sei es nach Osten zum Gruenen Land oder in den Schutz der Vuvalini. Der Konvoi wurde geopfert, aber Menschlichkeit hat ueberlebt. Ace laechelt zum ersten Mal. 'Vielleicht gibt es doch noch etwas, wofuer es sich zu leben lohnt.'",
+    "neutral_ending": "Die Guzzoline wird geliefert, die Passagiere bleiben unentdeckt oder werden ignoriert. Auftrag erledigt, Bezahlung kassiert. Alles geht weiter wie bisher. Die Oede hat euch nicht gebrochen — aber auch nicht veraendert.",
+    "bad_ending": "Die Spieler verraten die Zuechterinnen an Warlord Scrotus. Belohnung: 100 Liter Aqua Cola und eine Nacht in der Citadel. Die Schreie der Frauen hallen durch den Fels. Ace wird oeffentlich hingerichtet. Ihr habt ueberlebt — aber zu welchem Preis?",
+    "conditions": {
+      "good_requires": ["passagiere_entdeckt", "passagiere_beschuetzt"],
+      "neutral_requires": ["citadel_erreicht", "war_rig_intakt"],
+      "bad_triggers": ["passagiere_verraten"]
+    }
+  },
+
+  "handouts": [
+    {
+      "id": "frachtvertrag",
+      "type": "text",
+      "title": "Frachtvertrag — Gas Town → Citadel",
+      "content": "KONVOI-BEFEHL\n\nLadung: 3000 Gallonen Guzzoline (Standard-Raffinat)\nRoute: Highway West, Passage durch Schlucht, Citadel Nordtor\nFrist: 12 Stunden ab Abfahrt\nBezahlung: 50 Liter Aqua Cola + 200 Schuss Munition (Kaliber gemischt)\n\nBei Verlust der Ladung: Todesstrafe.\n\n— Rictus, im Namen des Warlords",
+      "requires_flag": null
+    },
+    {
+      "id": "zuechterinnen_nachricht",
+      "type": "text",
+      "title": "Eingeritzte Nachricht auf Leder",
+      "content": "WIR SIND KEINE DINGE\n\nDas Gruene Land lebt. 400 Meilen Ost, hinter dem toten Meer.\nAce kennt den Weg. Vertraut ihr.\nWir bitten nicht um Gnade. Wir bitten um Menschlichkeit.\n\n🖐🖐🖐",
+      "requires_flag": "passagiere_entdeckt"
+    }
+  ]
+}

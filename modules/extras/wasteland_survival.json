@@ -1,0 +1,10 @@
+{
+  "id": "wasteland_survival",
+  "schema_version": "1.0.0",
+  "name": "Wasteland Survival",
+  "type": "atmosphere",
+  "compatible_rulesets": ["mad_max"],
+  "description": "Ueberlebensatmosphaere der Oede. Wasser, Hitze, Hunger — der wahre Feind ist die Umgebung.",
+  "prompt_injection": "Die Oede ist der eigentliche Antagonist. Beschreibe IMMER das Wetter: die erbarmungslose Sonne, den beissenden Sand, die Kaelte der Nacht. Wasser ist heilig — jeder Schluck wird beschrieben. Wenn Spieler rasten, beschreibe den Durst. Wenn sie kaempfen, beschreibe den Schweiss. Essen ist selten und eklig — Eidechsen, Kaeferlarven, steinhartes Brot. Schlaf ist leicht und unruhig — die Oede schlaeft nie. Jede Rast hat Kosten: Wasser, Treibstoff, Zeit. Erzaehle die Schoenheit der Oede nur in kurzen Momenten — ein Sonnenuntergang, ein Sternenfeld, das Glueck eines Wasserfunds.",
+  "modifiers": {}
+}

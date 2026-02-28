@@ -13,6 +13,7 @@ Scan-Verzeichnisse:
   modules/extras/*.json      — Optionale Erweiterungen
   modules/characters/*.json  — Charakter-Templates
   modules/parties/*.json     — Party-Zusammenstellungen
+  modules/scenarios/*.json   — Szenarien (Modul-Buendel)
 
 API:
   DiscoveryService(root_path)
@@ -25,6 +26,9 @@ API:
   .list_extras()              — Namen aller Extras
   .list_characters()          — Namen aller Characters
   .list_parties()             — Namen aller Parties
+  .list_scenarios()           — Namen aller Szenarien
+  .get_scenario_info(name)    — Metadata eines Szenarios
+  .get_scenario_data(name)    — Vollstaendige Szenario-Daten (fuer GUI)
 """
 
 from __future__ import annotations
@@ -49,6 +53,7 @@ class DiscoveryService:
         self._extras_dir = self._root / "modules" / "extras"
         self._characters_dir = self._root / "modules" / "characters"
         self._parties_dir = self._root / "modules" / "parties"
+        self._scenarios_dir = self._root / "modules" / "scenarios"
         self._rulesets: dict[str, dict[str, Any]] = {}
         self._adventures: dict[str, dict[str, Any]] = {}
         self._settings: dict[str, dict[str, Any]] = {}
@@ -56,6 +61,7 @@ class DiscoveryService:
         self._extras: dict[str, dict[str, Any]] = {}
         self._characters: dict[str, dict[str, Any]] = {}
         self._parties: dict[str, dict[str, Any]] = {}
+        self._scenarios: dict[str, dict[str, Any]] = {}
         self._scanned = False
 
     # ------------------------------------------------------------------
@@ -71,13 +77,15 @@ class DiscoveryService:
         self._extras = self._scan_dir(self._extras_dir, "extra")
         self._characters = self._scan_dir(self._characters_dir, "character")
         self._parties = self._scan_dir(self._parties_dir, "party")
+        self._scenarios = self._scan_dir(self._scenarios_dir, "scenario")
         self._scanned = True
         logger.info(
             "Discovery abgeschlossen: %d Regelsaetze, %d Abenteuer, "
-            "%d Settings, %d Keeper, %d Extras, %d Characters, %d Parties",
+            "%d Settings, %d Keeper, %d Extras, %d Characters, %d Parties, "
+            "%d Szenarien",
             len(self._rulesets), len(self._adventures),
             len(self._settings), len(self._keepers), len(self._extras),
-            len(self._characters), len(self._parties),
+            len(self._characters), len(self._parties), len(self._scenarios),
         )
 
     def _scan_dir(self, directory: Path, asset_type: str) -> dict[str, dict[str, Any]]:
@@ -156,6 +164,16 @@ class DiscoveryService:
             info["member_count"] = len(data.get("members", []))
             info["compatible"] = data.get("compatible_rulesets", [])
 
+        elif asset_type == "scenario":
+            info["title"] = data.get("name", path.stem)
+            info["description"] = data.get("description", "")
+            info["ruleset"] = data.get("ruleset", "?")
+            info["adventure"] = data.get("adventure", "?")
+            info["setting"] = data.get("setting", "?")
+            info["keeper"] = data.get("keeper", "?")
+            info["character"] = data.get("character", "?")
+            info["extras"] = data.get("extras", [])
+
         return info
 
     # ------------------------------------------------------------------
@@ -174,6 +192,7 @@ class DiscoveryService:
             "extras": dict(self._extras),
             "characters": dict(self._characters),
             "parties": dict(self._parties),
+            "scenarios": dict(self._scenarios),
             "ruleset_count": len(self._rulesets),
             "adventure_count": len(self._adventures),
             "setting_count": len(self._settings),
@@ -181,6 +200,7 @@ class DiscoveryService:
             "extra_count": len(self._extras),
             "character_count": len(self._characters),
             "party_count": len(self._parties),
+            "scenario_count": len(self._scenarios),
         }
 
     def list_rulesets(self) -> list[str]:
@@ -236,6 +256,32 @@ class DiscoveryService:
         if not self._scanned:
             self.scan()
         return self._adventures.get(name)
+
+    def list_scenarios(self) -> list[str]:
+        """Namen aller verfuegbaren Szenarien."""
+        if not self._scanned:
+            self.scan()
+        return list(self._scenarios.keys())
+
+    def get_scenario_info(self, name: str) -> dict[str, Any] | None:
+        """Metadata eines Szenarios nach Name."""
+        if not self._scanned:
+            self.scan()
+        return self._scenarios.get(name)
+
+    def get_scenario_data(self, name: str) -> dict[str, Any] | None:
+        """Vollstaendige Szenario-Daten aus der JSON-Datei (fuer GUI)."""
+        if not self._scanned:
+            self.scan()
+        info = self._scenarios.get(name)
+        if not info:
+            return None
+        try:
+            with open(info["path"], encoding="utf-8-sig") as fh:
+                return json.load(fh)
+        except (json.JSONDecodeError, OSError) as exc:
+            logger.warning("Fehler beim Laden von Szenario '%s': %s", name, exc)
+            return None
 
     def print_manifest(self) -> None:
         """Gibt ein formatiertes Manifest auf stdout aus."""
@@ -300,6 +346,16 @@ class DiscoveryService:
         if self._parties:
             for name, info in self._parties.items():
                 print(f"  [{name}] {info['title']} | {info['member_count']} Mitglieder")
+        else:
+            print("  (keine gefunden)")
+
+        print("\nSzenarien:")
+        if self._scenarios:
+            for name, info in self._scenarios.items():
+                print(
+                    f"  [{name}] {info['title']} "
+                    f"| {info['ruleset']} + {info['adventure']}"
+                )
         else:
             print("  (keine gefunden)")
         print()

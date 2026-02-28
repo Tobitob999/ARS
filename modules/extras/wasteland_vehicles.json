@@ -1,0 +1,18 @@
+{
+  "id": "wasteland_vehicles",
+  "schema_version": "1.0.0",
+  "name": "Wasteland Fahrzeuge",
+  "type": "mechanics",
+  "compatible_rulesets": ["mad_max"],
+  "description": "Fahrzeugregeln fuer die Oede. Jedes Fahrzeug ist ein Unikat — zusammengeschweisst aus Wracks und Hoffnung.",
+  "prompt_injection": "Fahrzeuge sind Charaktere. Beschreibe sie wie Lebewesen: ihr Motorgeraeusch, ihre Macken, ihre Narben. Jedes Fahrzeug hat einen Namen, den sein Fahrer ihm gegeben hat. Beschaedigungen akkumulieren — ein Treffer am Kühler bedeutet Überhitzung in 10 Minuten. Bei Fahrzeugkämpfen: beschreibe die Physik — Metallkreischen, Funkenflug, das Gewicht bei Kollisionen. Treibstoff ist IMMER ein Thema. Erwähne den Tankstand regelmässig.",
+  "modifiers": {
+    "vehicle_types": {
+      "interceptor": { "hp": 30, "armor": 2, "speed": "schnell", "fuel_capacity": 4, "weapons": 1, "description": "Wendiger V8, gebaut fuer Geschwindigkeit." },
+      "war_rig": { "hp": 80, "armor": 5, "speed": "langsam", "fuel_capacity": 20, "weapons": 3, "description": "Gepanzerter Tanklaster. Festung auf Raedern." },
+      "buggy": { "hp": 15, "armor": 0, "speed": "sehr schnell", "fuel_capacity": 2, "weapons": 0, "description": "Leicht, schnell, fragil. Fuer Kundschafter." },
+      "buzzard_car": { "hp": 25, "armor": 1, "speed": "schnell", "fuel_capacity": 3, "weapons": 1, "description": "Stachelbewehrt. Rammen ist die Hauptwaffe." },
+      "motorrad": { "hp": 10, "armor": 0, "speed": "sehr schnell", "fuel_capacity": 1, "weapons": 0, "description": "Minimal. Maximal mobil." }
+    }
+  }
+}

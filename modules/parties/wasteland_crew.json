@@ -1,0 +1,14 @@
+{
+  "id": "wasteland_crew",
+  "name": "Wasteland Crew",
+  "compatible_rulesets": ["mad_max"],
+
+  "members": [
+    "wasteland_driver",
+    "wasteland_mechanic"
+  ],
+
+  "formation": "Driver vorne im Interceptor, Mechanic auf dem War Rig. Bei Kampf: Driver flankt, Mechanic repariert unter Feuer.",
+  "group_funds": "5 Kanister Guzzoline, 8 Liter Wasser, 12 Schuss Shotgun-Munition, 20 Schuss Gewehr",
+  "notes": "Zusammengewuerfelte Crew — der schweigsame Einzelgaenger und der ehemalige Fanatiker. Vertrauen waechst langsam. Gemeinsames Ziel: ueberleben."
+}

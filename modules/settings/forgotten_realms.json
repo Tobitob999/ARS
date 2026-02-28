@@ -4,17 +4,35 @@
   "name": "Vergessene Reiche — Schwertkueste",
   "compatible_rulesets": ["add_2e"],
   "epoch": "Zeitalter der Umwaelzungen (~1360 DR)",
-  "geography": "Schwertkueste: Waterdeep, Baldur's Gate, Neverwinter. Wildes Hinterland mit Goblin-Staemmen, Ork-Horden. Underdark darunter. Neverwinther Wald, Mere of Dead Men, Spine of the World.",
-  "culture": "Feudale Stadtstaaten, maechtige Gilden, Tempelorden. Vielvoelker-Gesellschaft. Magie ist alltaeglich und akzeptiert. Abenteurer sind ein anerkannter Beruf.",
-  "technology": "Mittelalterlich mit magischer Ergaenzung. Schmieden, Segeln, Bergbau. Keine Schusswaffen, keine Druckerpresse. Magische Beleuchtung in reichen Staedten.",
-  "races_species": "Menschen, Elfen (Mond-, Sonnen-, Wald-), Zwerge (Schild-, Gold-), Halblinge, Gnome, Halborks, Halb-Elfen — alle spielbar.",
-  "atmosphere": "Epische High Fantasy. Goetter greifen aktiv ein. Drachen horten Schaetze, Liches planen in Verliesen, verlorene Koenigreiche warten auf Entdecker. Gefahr und Ruhm um jede Ecke.",
-  "currency": "Kupferstuecke (KS), Silberstuecke (SS), Goldstuecke (GS), Platinstuecke (PS). 1 GS = 10 SS = 100 KS. Ein Bier: 1 KS. Ein Schwert: 15 GS. Ein Heiltrank: 50 GS.",
-  "language_style": "Mittelalterlich-fantasievoll. Ehrerbietige Anrede fuer Adel und Kleriker, derb in Tavernen und unter Soeldnern. Elfisch klingt melodisch, Zwergisch rau.",
-  "special_rules": "Magie ist verbreitet. Tempel heilen gegen Spende. Gilden kontrollieren Handel. Waffenrecht variiert nach Stadt. Kopfgelder auf Monster sind ueblich.",
+  "geography": "Schwertkueste: Waterdeep, Baldur's Gate, Neverwinter. Wildes Hinterland mit Goblin-Staemmen, Ork-Horden. Underdark darunter. Neverwinther Wald, Mere of Dead Men, Spine of the World. Handelswege verbinden die Staedte, aber Banditen und Monster lauern abseits der Strassen.",
+  "culture": "Feudale Stadtstaaten, maechtige Gilden, Tempelorden. Vielvoelker-Gesellschaft. Magie ist alltaeglich und akzeptiert. Abenteurer sind ein anerkannter Beruf. Jede Stadt hat eigene Gesetze und Machthaber.",
+  "technology": "Mittelalterlich mit magischer Ergaenzung. Schmieden, Segeln, Bergbau. Keine Schusswaffen, keine Druckerpresse. Magische Beleuchtung in reichen Staedten. Wasserversorgung durch Aquaedukte und Elementarmagie.",
+  "races_species": "Menschen, Elfen (Mond-, Sonnen-, Wald-), Zwerge (Schild-, Gold-), Halblinge, Gnome, Halborks, Halb-Elfen — alle spielbar. Drow existieren im Underdark, werden an der Oberflaeche misstrauisch betrachtet.",
+  "atmosphere": "Epische High Fantasy. Goetter greifen aktiv ein. Drachen horten Schaetze, Liches planen in Verliesen, verlorene Koenigreiche warten auf Entdecker. Gefahr und Ruhm um jede Ecke. Heldenmut wird belohnt, Feigheit bestraft.",
+  "currency": "Kupferstuecke (KS), Silberstuecke (SS), Goldstuecke (GS), Platinstuecke (PS). 1 GS = 10 SS = 100 KS. Ein Bier: 1 KS. Ein Schwert: 15 GS. Ein Heiltrank: 50 GS. Soeldner: 2 GS/Tag. Pferd: 75 GS.",
+  "language_style": "Mittelalterlich-fantasievoll. Ehrerbietige Anrede fuer Adel und Kleriker, derb in Tavernen und unter Soeldnern. Elfisch klingt melodisch, Zwergisch rau. Flueche bei den Goettern: 'Bei Tempus!', 'Mystra steh mir bei!'",
+  "special_rules": "Magie ist verbreitet. Tempel heilen gegen Spende. Gilden kontrollieren Handel. Waffenrecht variiert nach Stadt. Kopfgelder auf Monster sind ueblich. Nekromantie und Daemonenanbetung sind in allen Staedten verboten.",
+  "factions": [
+    {"name": "Lords' Alliance", "type": "Politischer Bund", "attitude": "neutral-ordnend", "description": "Koalition der Stadtstaaten entlang der Schwertkueste. Strebt nach Ordnung und Handelsfreiheit. Maechtiger politischer Einfluss."},
+    {"name": "Harfner", "type": "Geheimorganisation", "attitude": "wohlwollend", "description": "Netzwerk von Spionen und Abenteurern. Bekaempfen Tyrannen und uebermaechtige Organisationen. Subtile Methoden."},
+    {"name": "Zhentarim", "type": "Soeldnernetzwerk", "attitude": "eigennuetzig", "description": "Skrupelloses Handelsnetzwerk mit militaerischer Macht. Bieten Schutz und Dienste — alles hat seinen Preis."},
+    {"name": "Emerald Enclave", "type": "Druidenkreis", "attitude": "naturschuetzend", "description": "Verteidiger der Wildnis. Druiden und Ranger, die das Gleichgewicht der Natur bewahren."},
+    {"name": "Order of the Gauntlet", "type": "Heiliger Orden", "attitude": "rechtschaffen", "description": "Paladinorden der Gerechtigkeit. Bekaempfen Untote, Daemonen und offensichtliches Boeses mit Schwert und Gebet."}
+  ],
+  "common_locations": [
+    {"name": "Waterdeep", "type": "Metropole", "description": "Stadt der Pracht. Groesste Stadt der Schwertkueste. Maskierte Lords regieren, jede Gilde hat Einfluss. Der Unterberg birgt endlose Dungeon-Ebenen."},
+    {"name": "Baldur's Gate", "type": "Grossstadt", "description": "Handelsstadt am Fluss Chionthar. Patriars (Adel) und Flaming Fist (Soeldnermiliz) teilen sich die Macht. Rauer, pragmatischer Charakter."},
+    {"name": "Neverwinter", "type": "Stadt im Wiederaufbau", "description": "Einst 'Juwel des Nordens', durch Vulkanausbruch verwuestet. Wiederaufbau unter Lord Neverember. Ruinen und neue Viertel nebeneinander."},
+    {"name": "Icewind Dale", "type": "Arktische Wildnis", "description": "Zehn-Staedte am Rande der Welt. Ewiger Winter, Barbarenstaemme, Yetis. Nur die Haertesten ueberleben."}
+  ],
   "time": {
     "calendar": "Harptos-Kalender (Dalerecknung, DR)",
     "default_start": "08:00",
     "day_phases": ["Morgengrauen", "Vormittag", "Mittag", "Nachmittag", "Abenddaemmerung", "Nacht", "Tiefe Nacht"]
+  },
+  "encounters": {
+    "urban": ["Taschendieb", "Wanderprediger", "Betrunkener Soeldner", "Haendler mit seltener Ware", "Verkleideter Spion"],
+    "wilderness": ["Goblin-Spaehtrupp", "Wandernder Haendler mit Leibwaechtern", "Verlassenes Lager", "Umgestuerzter Karren", "Wolfsrudel"],
+    "dungeon": ["Fallgrube", "Verfluchte Truhe (Mimic)", "Wanderndes Skelett-Patrouille", "Verborgene Tuer", "Leuchtende Runen an der Wand"]
   }
 }

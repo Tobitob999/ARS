@@ -1,0 +1,57 @@
+{
+  "id": "wasteland_mechanic",
+  "schema_version": "1.0.0",
+  "name": "Nux 'Torque' Benzara",
+  "compatible_rulesets": ["mad_max"],
+
+  "archetype": "Schrauber / War Boy Deserteur",
+  "level": 1,
+  "background": "Geboren in der Citadel, aufgewachsen als War Boy. Sollte auf dem Highway glorreich sterben — aber der Tod wollte ihn nicht. Nach einem missglückten Angriff wurde er zurueckgelassen. Jetzt schraubt er an allem, was einen Motor hat, und traeumt nicht mehr vom Chrome Valhalla. Er traeumt von einer Welt, in der Maschinen fuer Menschen arbeiten — nicht umgekehrt.",
+
+  "characteristics": {
+    "STR": 50,
+    "CON": 45,
+    "SIZ": 55,
+    "DEX": 65,
+    "APP": 35,
+    "INT": 75,
+    "POW": 60,
+    "EDU": 30
+  },
+
+  "derived_stats": {
+    "HP": 10,
+    "SAN": 60,
+    "MP": 12
+  },
+
+  "skills": {
+    "Mechanik": 80,
+    "Schrotten": 70,
+    "Fahren (Auto/Truck)": 55,
+    "Fahren (War Rig)": 40,
+    "Sprengstoffe": 45,
+    "Nahkampf (Improvisation)": 50,
+    "Werfen": 40,
+    "Klettern": 55,
+    "Schiessen (Montiert)": 35,
+    "Erste Hilfe (Feld)": 25,
+    "Entdecken": 35,
+    "Ausweichen": 35,
+    "Ueberleben (Oede)": 40,
+    "Horchen": 30
+  },
+
+  "equipment": [
+    "Schraubenschluessel (Nahkampfwaffe, 1d6+1)",
+    "Schweisspistole (improvisiert, funktioniert nur manchmal)",
+    "Ersatzteile-Beutel (diverse Schrauben, Draehte, Dichtungen)",
+    "2 Molotov-Cocktails",
+    "Verbeulter Helm (leichte Kopfpanzerung)",
+    "Feldflasche (fast leer)",
+    "Alte-Welt-Handbuch: 'Haynes V8 Engine Manual' (unvollstaendig)"
+  ],
+
+  "traits": "Hyperaktiv, optimistisch trotz allem. Redet mit Maschinen wie mit Lebewesen. Hat weisse Farbreste im Gesicht — alte Kriegsbemalung, die er nicht ganz abwascht. Loyal bis zum Exzess, wenn er jemandem vertraut. Hustet manchmal Blut — die Citadel-Krankheit.",
+  "appearance": "Anfang 20, bleiche Haut (Citadel-Aufzucht), kahlrasiert. Tumore am Hals. Oelverschmierte Haende, die nie ganz sauber werden. Ritzt Symbole in sein Werkzeug — halbvergessene War-Boy-Gebete."
+}

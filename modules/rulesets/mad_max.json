@@ -1,0 +1,120 @@
+{
+  "metadata": {
+    "name": "Mad Max — Wasteland Rules",
+    "version": "1.0",
+    "system": "mad_max",
+    "schema_version": "1.0.0",
+    "publisher": "ARS Homebrew",
+    "language": "de"
+  },
+
+  "dice_system": {
+    "default_die": "d100",
+    "bonus_penalty_die": "d100",
+    "notes": "Wuerfle d100 gegen den Fertigkeitswert. Niedriger = besser. Bei Fahrzeugmanoeuvern: Bonus-/Malus-Wuerfel je nach Zustand des Fahrzeugs.",
+    "success_levels": {
+      "critical": 1,
+      "extreme": 0.2,
+      "hard": 0.5,
+      "fumble": 96
+    }
+  },
+
+  "characteristics": {
+    "STR": { "label": "Staerke", "roll": "3d6", "multiplier": 5, "description": "Rohe Muskelkraft. Nahkampf, Heben, Brechen." },
+    "CON": { "label": "Konstitution", "roll": "3d6", "multiplier": 5, "description": "Zaehigkeit, Hitzeresistenz, Dehydrierung." },
+    "SIZ": { "label": "Statur", "roll": "2d6+6", "multiplier": 5, "description": "Koerpergroesse und -masse. Fahrzeugkapazitaet." },
+    "DEX": { "label": "Geschicklichkeit", "roll": "3d6", "multiplier": 5, "description": "Reflexe, Ausweichen, Fahrzeugsteuerung." },
+    "APP": { "label": "Ausstrahlung", "roll": "3d6", "multiplier": 5, "description": "Charisma, Einschuechterung, Autoritaet." },
+    "INT": { "label": "Intelligenz", "roll": "2d6+6", "multiplier": 5, "description": "Taktik, Mechanik-Verstaendnis, Improvisation." },
+    "POW": { "label": "Willenskraft", "roll": "3d6", "multiplier": 5, "description": "Mentale Haerte, Ueberleben, Verzweiflung." },
+    "EDU": { "label": "Erfahrung", "roll": "2d6+3", "multiplier": 5, "description": "Wissen der alten Welt. Je niedriger, desto 'wilder'." },
+    "LCK": { "label": "Glueck", "roll": "3d6", "multiplier": 5, "description": "Findet man Wasser? Springt der Motor an?" }
+  },
+
+  "derived_stats": {
+    "HP": { "label": "Trefferpunkte", "formula": "(CON + SIZ) / 10", "round": "floor" },
+    "SAN": { "label": "Geistige Stabilitaet", "formula": "POW * 5", "max_formula": "99", "notes": "In der Oede gibt es kein Mythos-Wissen, aber Trauma ist allgegenwaertig." },
+    "MP": { "label": "Moralische Punkte", "formula": "POW / 5", "round": "floor", "notes": "Bestimmt wie lange jemand Hoffnung bewahrt. Bei 0: Nihilismus oder Wahnsinn." },
+    "MOV": { "label": "Bewegung", "value": 8, "notes": "Zu Fuss in der Hitze: MOV halbiert nach 4 Stunden ohne Wasser." },
+    "Build": { "label": "Statur", "table": [
+      { "condition": "STR+SIZ <= 64", "value": -2 },
+      { "condition": "STR+SIZ <= 84", "value": -1 },
+      { "condition": "STR+SIZ <= 124", "value": 0 },
+      { "condition": "STR+SIZ <= 164", "value": 1 },
+      { "condition": "STR+SIZ >= 165", "value": 2 }
+    ]}
+  },
+
+  "skills": {
+    "Fahren (Motorrad)": { "base": 20 },
+    "Fahren (Auto/Truck)": { "base": 20 },
+    "Fahren (War Rig)": { "base": 5 },
+    "Mechanik": { "base": 10, "notes": "Fahrzeuge reparieren, Waffen modifizieren." },
+    "Schrotten": { "base": 15, "notes": "Brauchbare Teile aus Wracks bergen." },
+    "Navigation (Wueste)": { "base": 10, "notes": "Orientierung ohne Landmarken." },
+    "Ueberleben (Oede)": { "base": 15, "notes": "Wasser finden, Schutz bauen, Hitze ertragen." },
+    "Schiessen (Handfeuerwaffe)": { "base": 20 },
+    "Schiessen (Gewehr)": { "base": 15 },
+    "Schiessen (Montiert)": { "base": 5, "notes": "Fahrzeugmontierte Waffen." },
+    "Nahkampf (Improvisation)": { "base": 25, "notes": "Ketten, Rohre, Schraubenschluessel." },
+    "Nahkampf (Klinge)": { "base": 15 },
+    "Werfen": { "base": 20, "notes": "Speere, Molotov-Cocktails, Harpunen." },
+    "Ausweichen": { "base_formula": "DEX / 2" },
+    "Einschuechtern": { "base": 15 },
+    "Verhandeln / Tauschen": { "base": 10, "notes": "Tauschhandel ist die einzige Wirtschaft." },
+    "Erste Hilfe (Feld)": { "base": 15, "notes": "Knochen richten, Wunden naehem, Bluttransfusion." },
+    "Spurenlesen": { "base": 10, "notes": "Reifenspuren, Fussspuren im Sand." },
+    "Horchen": { "base": 20 },
+    "Entdecken": { "base": 25 },
+    "Schleichen": { "base": 10 },
+    "Klettern": { "base": 20 },
+    "Sprengstoffe": { "base": 5, "notes": "Benzinbomben, Minen, Sprengfallen." },
+    "Alte-Welt-Wissen": { "base": 5, "notes": "Lesen, Geschichte, Technik der Vorkriegszeit." }
+  },
+
+  "combat": {
+    "damage_bonus_table": [
+      { "condition": "STR+SIZ <= 64", "bonus": "-1" },
+      { "condition": "STR+SIZ <= 84", "bonus": "0" },
+      { "condition": "STR+SIZ <= 124", "bonus": "+1d4" },
+      { "condition": "STR+SIZ <= 164", "bonus": "+1d6" },
+      { "condition": "STR+SIZ >= 165", "bonus": "+2d6" }
+    ],
+    "vehicle_combat": {
+      "ram_damage": "Fahrzeuggewicht / 10 in d6",
+      "sideswipe": "1d6 + Geschwindigkeitsbonus",
+      "mounted_weapons": "Wie Schusswaffe, aber Malus -20 bei voller Fahrt",
+      "notes": "Fahrzeugkampf ist der Kern des Systems. Jedes Fahrzeug hat HP, Panzerung und Treibstoffreserven."
+    },
+    "ammo_tracking": true,
+    "notes": "Munition ist kostbar — jeder Schuss zaehlt. Bei Fumble: Ladehemmung."
+  },
+
+  "survival": {
+    "water": {
+      "daily_need": 2,
+      "unit": "Liter",
+      "dehydration": "Ohne Wasser: -5 CON pro halben Tag. Bei CON 0: Tod."
+    },
+    "fuel": {
+      "unit": "Guzzoline-Kanister",
+      "consumption": "1 Kanister = 50km normal, 25km Kampf/Verfolgung",
+      "notes": "Leerlauf verbrennt 1 Kanister pro Stunde."
+    },
+    "heat": {
+      "day_penalty": "Aktivitaet im Freien bei Hochsonne: CON-Probe jede Stunde oder 1 HP Verlust",
+      "night_cold": "Ohne Unterschlupf in der Nacht: CON-Probe oder 1 HP Verlust"
+    },
+    "radiation": {
+      "zones": "Manche Gebiete sind verstrahlt. Aufenthalt: 1 CON-Verlust pro Stunde.",
+      "long_term": "Kumulative Strahlung fuehrt zu Tumoren, Haarausfall, verkuerzter Lebenserwartung."
+    }
+  },
+
+  "advancement": {
+    "method": "experience_check",
+    "roll_above": "current_skill_value",
+    "notes": "Fertigkeiten steigen durch Erfahrung. Nach jedem ueberlebten Abenteuer: Erfahrungswurf fuer eingesetzte Fertigkeiten."
+  }
+}

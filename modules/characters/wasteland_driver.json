@@ -1,0 +1,59 @@
+{
+  "id": "wasteland_driver",
+  "schema_version": "1.0.0",
+  "name": "Max 'Deadeye' Renko",
+  "compatible_rulesets": ["mad_max"],
+
+  "archetype": "Road Warrior",
+  "level": 1,
+  "background": "Ehemaliger Interceptor-Fahrer der alten Patrol. Als die Welt brannte, fuhr er einfach weiter. Jetzt faehrt er fuer sich — oder fuer den, der genug Guzzoline zahlt. Redet kaum, faehrt schnell, schiesst treffsicher. Die Oede hat ihm alles genommen. Alles ausser seinen V8.",
+
+  "characteristics": {
+    "STR": 55,
+    "CON": 65,
+    "SIZ": 60,
+    "DEX": 75,
+    "APP": 40,
+    "INT": 60,
+    "POW": 55,
+    "EDU": 45
+  },
+
+  "derived_stats": {
+    "HP": 12,
+    "SAN": 55,
+    "MP": 11
+  },
+
+  "skills": {
+    "Fahren (Auto/Truck)": 80,
+    "Fahren (Motorrad)": 50,
+    "Schiessen (Handfeuerwaffe)": 65,
+    "Schiessen (Gewehr)": 55,
+    "Mechanik": 60,
+    "Ausweichen": 45,
+    "Navigation (Wueste)": 50,
+    "Ueberleben (Oede)": 55,
+    "Nahkampf (Improvisation)": 40,
+    "Schrotten": 45,
+    "Spurenlesen": 35,
+    "Horchen": 40,
+    "Entdecken": 45,
+    "Erste Hilfe (Feld)": 30
+  },
+
+  "equipment": [
+    "Sawed-off Shotgun (4 Schuss)",
+    "Kampfmesser",
+    "Lederjacke (leichte Panzerung)",
+    "Interceptor V8 (beschaedigt, aber laeuft)",
+    "2 Kanister Guzzoline",
+    "Feldflasche (halb voll)",
+    "Seil (10m)",
+    "Werkzeugkasten (improvisiert)",
+    "Sonnenbrille (ein Glas fehlt)"
+  ],
+
+  "traits": "Wortkarg bis zur Stummheit. Handelt instinktiv. Vertraut niemandem — aber hilft manchmal trotzdem, ohne zu wissen warum. Hat Albtraeume von der alten Welt. Der Motor seines Interceptors ist das Einzige, was ihn beruhigt.",
+  "appearance": "Ende 30, sonnenverbrannt, Dreitagebart. Narbe ueber dem linken Auge. Traegt eine zerschlissene Lederjacke und schwere Stiefel. Bewegt sich wie jemand, der jederzeit bereit ist zu kaempfen oder zu fliehen."
+}

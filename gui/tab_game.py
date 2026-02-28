@@ -103,8 +103,9 @@ class GameTab(ttk.Frame):
         )
         self._keeper_voice_combo = ttk.Combobox(
             voice_frame, textvariable=self._keeper_voice_var,
-            values=["keeper", "scholar", "mystery", "woman", "monster"],
-            state="readonly", width=10,
+            values=["keeper", "scholar", "mystery", "woman", "monster",
+                    "emotional", "narrator", "villager", "crowd", "whisper"],
+            state="readonly", width=12,
         )
         self._keeper_voice_combo.pack(side=tk.RIGHT, padx=PAD_SMALL)
         self._keeper_voice_combo.bind("<<ComboboxSelected>>", self._on_keeper_voice_change)

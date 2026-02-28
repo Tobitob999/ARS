@@ -1,0 +1,17 @@
+{
+  "id": "guzzoline_run",
+  "schema_version": "1.0.0",
+  "name": "Guzzoline Run — Mad Max Oede",
+  "description": "Postapokalyptischer Konvoi-Run durch die Oede. Bringt 3000 Gallonen Guzzoline von Gas Town zur Citadel — wenn Buzzards, Rock Riders und moralische Dilemmata euch nicht aufhalten.",
+  "ruleset": "mad_max",
+  "adventure": "guzzoline_run",
+  "setting": "mad_max_world",
+  "keeper": "wasteland_prophet",
+  "character": "wasteland_driver",
+  "party": "wasteland_crew",
+  "extras": ["wasteland_vehicles", "wasteland_survival"],
+  "voice": true,
+  "difficulty": "normal",
+  "temperature": 1.0,
+  "atmosphere": "brutal-poetisch"
+}

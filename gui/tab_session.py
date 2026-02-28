@@ -55,8 +55,29 @@ class SessionTab(ttk.Frame):
 
         container = self._scroll_frame
 
+        # ── Szenario-Schnellwahl ──
+        scenario_frame = ttk.LabelFrame(container, text=" Szenario (Schnellstart) ", style="TLabelframe")
+        scenario_frame.pack(fill=tk.X, padx=PAD_LARGE, pady=PAD)
+
+        sc_row = ttk.Frame(scenario_frame, style="TFrame")
+        sc_row.pack(fill=tk.X, padx=PAD, pady=PAD_SMALL)
+        ttk.Label(sc_row, text="Szenario:").pack(side=tk.LEFT)
+        self._scenario_combo = ttk.Combobox(sc_row, state="readonly", width=40)
+        self._scenario_combo.pack(side=tk.LEFT, padx=PAD)
+        self._scenario_combo.bind("<<ComboboxSelected>>", self._on_scenario_select)
+        ttk.Button(sc_row, text="Laden", command=self._load_scenario).pack(
+            side=tk.LEFT, padx=PAD_SMALL,
+        )
+
+        self._scenario_desc = tk.Text(
+            scenario_frame, height=3, bg=BG_PANEL, fg=FG_SECONDARY,
+            font=FONT_NORMAL, wrap=tk.WORD, state=tk.DISABLED,
+            highlightthickness=0, borderwidth=0,
+        )
+        self._scenario_desc.pack(fill=tk.X, padx=PAD, pady=(0, PAD))
+
         # ── Module-Auswahl ──
-        mod_frame = ttk.LabelFrame(container, text=" Module ", style="TLabelframe")
+        mod_frame = ttk.LabelFrame(container, text=" Module (manuell) ", style="TLabelframe")
         mod_frame.pack(fill=tk.X, padx=PAD_LARGE, pady=PAD)
 
         self._combos: dict[str, ttk.Combobox] = {}
@@ -252,6 +273,18 @@ class SessionTab(ttk.Frame):
             preset_names = [p.stem for p in presets_dir.glob("*.json")] if presets_dir.is_dir() else []
             self._combos["preset"]["values"] = ["(keine)"] + preset_names
 
+            # Szenarien laden
+            self._discovery = ds
+            scenarios = ds.list_scenarios()
+            scenario_labels = []
+            for s_id in scenarios:
+                info = ds.get_scenario_info(s_id)
+                label = info["title"] if info else s_id
+                scenario_labels.append(label)
+            self._scenario_ids = scenarios
+            self._scenario_combo["values"] = ["(manuell konfigurieren)"] + scenario_labels
+            self._scenario_combo.current(0)
+
             # Defaults setzen aus Engine-Config
             sc = self.gui.engine.session_config
             if sc:
@@ -319,6 +352,61 @@ class SessionTab(ttk.Frame):
             logger.info("Preset geladen: %s", preset_name)
         except Exception as exc:
             logger.warning("Preset-Load fehlgeschlagen: %s", exc)
+
+    def _on_scenario_select(self, event: Any = None) -> None:
+        """Zeigt Szenario-Beschreibung wenn ein Szenario ausgewaehlt wird."""
+        idx = self._scenario_combo.current()
+        self._scenario_desc.configure(state=tk.NORMAL)
+        self._scenario_desc.delete("1.0", tk.END)
+        if idx <= 0:
+            self._scenario_desc.insert(tk.END, "Kein Szenario — Module manuell konfigurieren.")
+        else:
+            s_id = self._scenario_ids[idx - 1]
+            info = self._discovery.get_scenario_info(s_id)
+            if info:
+                desc = info.get("description", "")
+                modules = f"Regelwerk: {info.get('ruleset', '?')} | Abenteuer: {info.get('adventure', '?')} | Keeper: {info.get('keeper', '?')}"
+                self._scenario_desc.insert(tk.END, f"{desc}\n{modules}")
+        self._scenario_desc.configure(state=tk.DISABLED)
+
+    def _load_scenario(self) -> None:
+        """Laedt ein Szenario und setzt alle Felder automatisch."""
+        idx = self._scenario_combo.current()
+        if idx <= 0:
+            return
+
+        s_id = self._scenario_ids[idx - 1]
+        data = self._discovery.get_scenario_data(s_id)
+        if not data:
+            logger.warning("Szenario '%s' konnte nicht geladen werden.", s_id)
+            return
+
+        # Module-Combos setzen
+        self._set_combo("ruleset", data.get("ruleset"))
+        self._set_combo("adventure", data.get("adventure"))
+        self._set_combo("setting", data.get("setting"))
+        self._set_combo("keeper", data.get("keeper"))
+        self._set_combo("character", data.get("character"))
+        self._set_combo("party", data.get("party"))
+
+        # Feineinstellungen
+        if "difficulty" in data:
+            self._difficulty_var.set(data["difficulty"])
+        if "temperature" in data:
+            self._temperature_var.set(data["temperature"])
+            self._temp_label.configure(text=f"{data['temperature']:.2f}")
+        if "atmosphere" in data:
+            self._atmosphere_var.set(data["atmosphere"])
+
+        # Extras setzen
+        scenario_extras = data.get("extras", [])
+        for name, var in self._extras_vars.items():
+            var.set(name in scenario_extras)
+
+        # Voice-Flag merken fuer Engine-Start
+        self.gui._voice_enabled = data.get("voice", False)
+
+        logger.info("Szenario geladen: %s", data.get("name", s_id))
 
     def _build_session_config(self) -> Any:
         """Baut eine SessionConfig aus den GUI-Werten."""

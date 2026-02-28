@@ -4,17 +4,34 @@
   "name": "Neuengland der 1920er",
   "compatible_rulesets": ["cthulhu_7e"],
   "epoch": "1920er Jahre",
-  "geography": "Neuengland, USA — Arkham, Kingsport, Innsmouth, Dunwich. Abgelegene Kuestenorte, neblige Haefen, verfallene Herrenhaeuser.",
-  "culture": "Puritanisches Erbe, Jazz Age, Prohibition. Rassismus, Klassismus und starre Geschlechterrollen praegen den Alltag. Universitaetsstaedte neben verfallenden Fischerdoerfern.",
-  "technology": "Automobile verbreiten sich, Telefon in Staedten, Telegraf. Keine Computer. Radio als Neuheit. Elektrisches Licht in Staedten, Petroleumlampen auf dem Land.",
+  "geography": "Neuengland, USA — Arkham, Kingsport, Innsmouth, Dunwich. Abgelegene Kuestenorte, neblige Haefen, verfallende Herrenhaeuser. Enge Gassen in alten Stadtkernen, einsame Landstrassen durch Waelder, stuermische Atlantikkueste.",
+  "culture": "Puritanisches Erbe, Jazz Age, Prohibition. Rassismus, Klassismus und starre Geschlechterrollen praegen den Alltag. Universitaetsstaedte neben verfallenden Fischerdoerfern. Geheimbuende und okkulte Zirkel agieren im Verborgenen.",
+  "technology": "Automobile verbreiten sich, Telefon in Staedten, Telegraf. Keine Computer. Radio als Neuheit. Elektrisches Licht in Staedten, Petroleumlampen auf dem Land. Fotografie existiert, Film ist Stummfilm. Zeitungen sind das primaere Nachrichtenmedium.",
   "races_species": "Ausschliesslich Menschen. Mythos-Wesen sind keine spielbaren Rassen — sie sind Bedrohungen jenseits menschlichen Verstaendnisses.",
-  "atmosphere": "Kosmischer Horror. Die Welt ist duenn, dahinter lauert das Unbekannte. Nebel, verrottende Haeuser, misstrauische Einheimische. Die Wahrheit zerstoert den Verstand.",
-  "currency": "US-Dollar der 1920er. Ein Abendessen kostet ~$0.50, ein Hotelzimmer ~$2, ein Auto ~$500, ein Haus ~$5000.",
-  "language_style": "Formelle Anrede, gehobenes Vokabular. Slang der Prohibition-Aera. 'Speak-Easy', 'Giggle Water', 'Flat Tire'.",
-  "special_rules": "Keine Magie fuer Spieler ohne schwere Konsequenzen. Mythos-Wissen kostet SAN. Schusswaffen sind legal aber auffaellig. Polizei ist langsam und korrupt.",
+  "atmosphere": "Kosmischer Horror. Die Welt ist duenn, dahinter lauert das Unbekannte. Nebel, verrottende Haeuser, misstrauische Einheimische. Die Wahrheit zerstoert den Verstand. Stille ist bedrohlicher als Laerm. Das Grauen zeigt sich in Andeutungen, nicht in Splatter.",
+  "currency": "US-Dollar der 1920er. Ein Abendessen kostet ~$0.50, ein Hotelzimmer ~$2, ein Auto ~$500, ein Haus ~$5000. Bestechung ist ueblich: Polizisten $5-$20, Beamte $50+.",
+  "language_style": "Formelle Anrede, gehobenes Vokabular. Slang der Prohibition-Aera: 'Speak-Easy', 'Giggle Water', 'Flat Tire'. Akademiker sprechen gewaehlter als Hafenarbeiter. Lovecraft'sche Prosa: verschachtelte Saetze, archaische Wortwahl, Andeutungen statt Erklaerungen.",
+  "special_rules": "Keine Magie fuer Spieler ohne schwere Konsequenzen. Mythos-Wissen kostet SAN. Schusswaffen sind legal aber auffaellig. Polizei ist langsam und korrupt. Reisen dauern — Zug, Auto, Dampfschiff. Bibliotheksrecherche kann Tage dauern.",
+  "factions": [
+    {"name": "Miskatonic-Universitaet", "type": "Institution", "attitude": "neutral-hilfreich", "description": "Akademische Hochburg in Arkham. Besitzt verbotene Buecher und okkulte Artefakte in der Orne Library. Professoren sind potenzielle Verbindete oder Rivalen."},
+    {"name": "Marshals / Bundespolizei", "type": "Autoritaet", "attitude": "neutral-misstrauisch", "description": "Setzen Prohibition durch. Korrupt aber maechtig. Koennen Ermittler behindern oder unterstuetzen."},
+    {"name": "Esoteric Order of Dagon", "type": "Kult", "attitude": "feindlich", "description": "Geheimkult in Innsmouth. Verehrt die Tiefen Wesen. Mitglieder zeigen den 'Innsmouth-Look' — fischaehnliche Degeneration."},
+    {"name": "Silver Twilight Lodge", "type": "Geheimgesellschaft", "attitude": "truegerisch-freundlich", "description": "Scheinbar respektabler Herrenclub in Arkham. Tatsaechlich okkulte Verschwoerung mit weitreichendem Einfluss."}
+  ],
+  "common_locations": [
+    {"name": "Arkham", "type": "Stadt", "description": "Universitaetsstadt in Massachusetts. Zentrum uebersinnlicher Aktivitaet. Miskatonic-Universitaet, Arkham Sanatorium, historischer Hexendistrikt."},
+    {"name": "Innsmouth", "type": "Dorf", "description": "Verfallener Kuestenort. Bewohner mit seltsamen Gesichtszuegen. Besucher sind unwillkommen. Riecht nach Fisch und Verwesung."},
+    {"name": "Dunwich", "type": "Weiler", "description": "Abgelegenes Bauerndorf in den Huegeln. Inzucht, Aberglauben, verfallene Haeuser. Steinkreise auf den umliegenden Huegeln."},
+    {"name": "Kingsport", "type": "Hafenstadt", "description": "Malerischer Kuestenort mit Kuenstlerkolonie. Nebel bedeckt die Stadt fast jede Nacht. Seltsame Lichter ueber dem Meer."}
+  ],
   "time": {
     "calendar": "Gregorianisch",
     "default_start": "09:00",
     "day_phases": ["Morgengrauen", "Vormittag", "Mittag", "Nachmittag", "Abenddaemmerung", "Nacht", "Tiefe Nacht"]
+  },
+  "encounters": {
+    "urban": ["Betrunkener Matrose", "Nervoeser Professor", "Prohibition-Agent", "Zeitungsjunge", "Mysterioeser Fremder im Trenchcoat"],
+    "rural": ["Misstrauischer Farmer", "Verwilderter Hund", "Verlorener Wanderer", "Seltsame Lichter am Horizont"],
+    "supernatural": ["Ungeklaerliche Geraeusche", "Buecher die sich selbst oeffnen", "Schatten ohne Quelle", "Traeume von fremden Staedten"]
   }
 }

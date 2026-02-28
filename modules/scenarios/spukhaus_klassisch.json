@@ -1,0 +1,17 @@
+{
+  "id": "spukhaus_klassisch",
+  "schema_version": "1.0.0",
+  "name": "Das Spukhaus — Klassischer Cthulhu",
+  "description": "Ein scheinbar harmloser Spukfall in Boston, 1920. Ein verfluchtes Haus, ein toter Okkultist und ein Horror, der im Keller lauert. Klassisches Einsteigerabenteuer fuer Call of Cthulhu.",
+  "ruleset": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "setting": "cthulhu_1920",
+  "keeper": "arkane_archivar",
+  "character": "coc_investigator",
+  "party": null,
+  "extras": ["noir_atmosphere"],
+  "voice": true,
+  "difficulty": "normal",
+  "temperature": 0.9,
+  "atmosphere": "unheilvoll-klassisch"
+}

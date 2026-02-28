@@ -11,6 +11,7 @@ import logging
 import threading
 import tkinter as tk
 import tkinter.ttk as ttk
+from pathlib import Path
 from typing import TYPE_CHECKING, Any
 
 from gui.styles import (
@@ -23,13 +24,22 @@ if TYPE_CHECKING:
 
 logger = logging.getLogger("ARS.gui.audio")
 
+# Persistenter Test-Text
+_TEST_TEXT_FILE = Path(__file__).parent.parent / "data" / ".tts_test_text"
+_DEFAULT_TEST_TEXT = "Willkommen, Ermittler. Die Nacht ist lang."
+
 # TTS Voice Registry (gleich wie in tts_handler.py)
 VOICE_REGISTRY = {
-    "keeper": ("de_DE-thorsten-high", "Erzaehler"),
+    "keeper": ("de_DE-thorsten-high", "Standard Erzaehler"),
     "woman": ("de_DE-kerstin-low", "Weibliche NPCs"),
-    "monster": ("de_DE-pavoque-low", "Antagonisten"),
-    "scholar": ("de_DE-amadeus-medium", "Akademiker"),
-    "mystery": ("de_DE-eva_k-x_low", "Geister/Entitaeten"),
+    "monster": ("de_DE-pavoque-low", "Antagonisten / Tiefe Stimme"),
+    "scholar": ("de_DE-karlsson-low", "Akademiker / Investigator"),
+    "mystery": ("de_DE-eva_k-x_low", "Geister / Traumwesen"),
+    "emotional": ("de_DE-thorsten_emotional-medium", "Emotionaler Erzaehler"),
+    "narrator": ("de_DE-thorsten-medium", "Neutraler Erzaehler"),
+    "villager": ("de_DE-ramona-low", "Dorfbewohnerin / Buerger"),
+    "crowd": ("de_DE-mls-medium", "Statisten / Generisch"),
+    "whisper": ("de_DE-thorsten-low", "Fluestern / Rau"),
 }
 
 
@@ -114,7 +124,7 @@ class AudioTab(ttk.Frame):
         # Voice-Tabelle
         cols = ("role", "voice_id", "description")
         self._voice_tree = ttk.Treeview(
-            tts_frame, columns=cols, show="headings", height=5,
+            tts_frame, columns=cols, show="headings", height=10,
         )
         self._voice_tree.heading("role", text="Rolle")
         self._voice_tree.heading("voice_id", text="Voice-ID")
@@ -132,7 +142,7 @@ class AudioTab(ttk.Frame):
         test_row = ttk.Frame(tts_frame, style="TFrame")
         test_row.pack(fill=tk.X, padx=PAD, pady=PAD)
         ttk.Label(test_row, text="Test-Text:").pack(side=tk.LEFT)
-        self._test_text_var = tk.StringVar(value="Willkommen, Ermittler. Die Nacht ist lang.")
+        self._test_text_var = tk.StringVar(value=self._load_test_text())
         tk.Entry(
             test_row, textvariable=self._test_text_var,
             bg=BG_INPUT, fg=FG_PRIMARY, insertbackground=FG_PRIMARY,
@@ -305,9 +315,10 @@ class AudioTab(ttk.Frame):
             values = self._voice_tree.item(selection[0], "values")
             role = values[0]
 
-        text = self._test_text_var.get()
+        text = self._test_text_var.get().strip()
         if not text:
             return
+        self._save_test_text(text)
 
         def _run():
             try:
@@ -342,3 +353,22 @@ class AudioTab(ttk.Frame):
             info += ")"
         self._last_transcription.insert(tk.END, info)
         self._last_transcription.configure(state=tk.DISABLED)
+
+    # ── Test-Text Persistenz ──
+
+    @staticmethod
+    def _load_test_text() -> str:
+        try:
+            if _TEST_TEXT_FILE.exists():
+                return _TEST_TEXT_FILE.read_text(encoding="utf-8").strip() or _DEFAULT_TEST_TEXT
+        except Exception:
+            pass
+        return _DEFAULT_TEST_TEXT
+
+    @staticmethod
+    def _save_test_text(text: str) -> None:
+        try:
+            _TEST_TEXT_FILE.parent.mkdir(parents=True, exist_ok=True)
+            _TEST_TEXT_FILE.write_text(text, encoding="utf-8")
+        except Exception:
+            pass
