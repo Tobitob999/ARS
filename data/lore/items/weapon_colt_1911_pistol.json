@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Colt M1911 Pistole",
+    "type":  "Weapon",
+    "physical_description":  "Selbstladepistole im Kaliber .45 mit Stahlrahmen und 7-Schuss-Magazin.",
+    "history":  "Militaerischer Ruecklauf nach dem Weltkrieg, in Ermittlerkreisen geschaetzt.",
+    "mechanics":  {
+                      "skill_check":  "Schusswaffen (Pistole)",
+                      "effect":  "Hohe Durchschlagskraft, aber deutliches Rueckstossprofil.",
+                      "combat":  "1W10+2, 7 Schuss."
+                  },
+    "content_summary":  "Zuverlaessige Dienst- und Einsatzwaffe.",
+    "inventory_tags":  [
+                           "waffe",
+                           "pistole",
+                           "munition_45",
+                           "inventar"
+                       ]
+}

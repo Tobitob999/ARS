@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Chinin-Tabletten",
+    "type":  "Medical Supply",
+    "physical_description":  "Bittere Tabletten gegen Fieberzustände.",
+    "history":  "Reise- und Tropenmedikation der Zeit.",
+    "mechanics":  {
+                      "skill_check":  "Medizin",
+                      "effect":  "Mildert bestimmte Fiebersymptome, keine Wunderheilung.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Nützliche Reserve für Feldreisen.",
+    "inventory_tags":  [
+                           "medizin",
+                           "reise",
+                           "inventar"
+                       ]
+}

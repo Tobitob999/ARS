@@ -1,0 +1,26 @@
+﻿{
+    "name":  "global events 1925 - Drucklinie",
+    "type":  "Lore Snippet",
+    "category":  "history",
+    "tags":  [
+                 "generated",
+                 "micro",
+                 "hook",
+                 "wave5",
+                 "creative"
+             ],
+    "primary_conflict":  "ein Verbundener spielt auf Zeit",
+    "dramatic_angle":  "juristisch",
+    "price_of_success":  "zeitliche Kontrolle ueber den Ablauf",
+    "countdown":  "6 Stunden bis zur Eskalation",
+    "fallback_plan":  "Notdeeskalation ueber Dritte",
+    "hook":  "Probe auf Wahrnehmung: Erfolg klaert die Lage, Misserfolg erhoeht den Preis von Erfolg im Folgezug.",
+    "gm_moves":  [
+                     "Zeige den Preis, bevor die Entscheidung faellt",
+                     "Starte den Countdown sichtbar im Raum",
+                     "Lass einen Erfolg zwei neue Probleme oeffnen"
+                 ],
+    "source_seed_file":  "global_events_1925.json",
+    "generation_method":  "microcontent-v6",
+    "deutungskonflikt":  "relevant"
+}

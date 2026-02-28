@@ -1,0 +1,15 @@
+{
+    "name":  "Der unbenennbare Felsen [Erweiterung]",
+    "address":  "Vor der Küste von Kingsport",
+    "atmosphere":  "Ein einzelner, schwarzer Basaltfelsen, der bei Ebbe aus dem Meer ragt. Er ist mit glitschigem Seetang bedeckt und scheint Licht zu absorbieren.",
+    "details":  [
+                    "Seltsame, nicht-menschliche Inschriften, die nur bei Ebbe sichtbar sind.",
+                    "Ein tiefes Loch in der Mitte des Felsens, aus dem bei Flut blubbernde Geräusche kommen.",
+                    "Fischer meiden den Felsen und behaupten, dass manchmal Gesichter im Wasser um ihn herum zu sehen sind."
+                ],
+    "clues":  "Der Fels ist ein Treffpunkt für Tiefe Wesen. Die Inschriften sind eine Warnung in der Sprache von R\u0027lyeh.",
+    "generated_variant":  true,
+    "source_seed_file":  "kingsport_unnamable_rock.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

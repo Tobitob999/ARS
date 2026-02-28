@@ -1,0 +1,17 @@
+{
+    "name":  "necronomicon fragment - Kreuzverbindung",
+    "type":  "Lore Snippet",
+    "category":  "spells",
+    "tags":  [
+                 "generated",
+                 "micro",
+                 "hook",
+                 "wave3"
+             ],
+    "content_summary":  "Ausgeloest durch ein verschobenes Treffen bei misstrauische Nachbarn; die Lage kippt Richtung eine riskante Gelegenheit.",
+    "hook":  "Mit einer Probe auf Schloesser knacken sichern die Investigatoren einen Vorteil; andernfalls verliert die Gruppe Initiative im Schauplatz.",
+    "gm_note":  "Als Twist im laufenden Dialog einbauen; unmittelbar mit einem NSC oder Ort koppeln.",
+    "source_seed_file":  "necronomicon_fragment.json",
+    "generation_method":  "microcontent-v4",
+    "ritualkonsistenz":  "volatil"
+}

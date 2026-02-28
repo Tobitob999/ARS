@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Mauermeissel-Set",
+    "type":  "Field Gear",
+    "physical_description":  "Mehrere Meissel mit Handhammer fuer Steinarbeit.",
+    "history":  "Handwerkerstandard in Altbauten.",
+    "mechanics":  {
+                      "skill_check":  "STR",
+                      "effect":  "Erlaubt kontrolliertes Oeffnen alter Mauerstrukturen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Nutzbar fuer Verstecke und Kellerzugang.",
+    "inventory_tags":  [
+                           "feld",
+                           "breach",
+                           "inventar"
+                       ]
+}

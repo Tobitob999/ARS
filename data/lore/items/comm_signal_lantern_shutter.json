@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Signallaterne mit Blende",
+    "type":  "Communication Gear",
+    "physical_description":  "Laterne mit Schieberblende fuer Morse-Lichtsignale.",
+    "history":  "Nachtkoordination in Hafen- und Feldzonen.",
+    "mechanics":  {
+                      "skill_check":  "Lauschen oder Wahrnehmung",
+                      "effect":  "Kodierte Lichtsignale auf Distanz moeglich.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Silent-Comms bei Funkstille.",
+    "inventory_tags":  [
+                           "kommunikation",
+                           "signal",
+                           "inventar"
+                       ]
+}

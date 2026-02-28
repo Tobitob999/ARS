@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Bankschließfach-Schluessel",
+    "type":  "Utility",
+    "physical_description":  "Messingschluessel mit Nummer ohne Namensgravur.",
+    "history":  "Hinweis auf verstecktes Depot oder Schwarzgeldspur.",
+    "mechanics":  {
+                      "skill_check":  "Recht",
+                      "effect":  "Fuehrt zu externem Lagerort ausserhalb Tatort.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Plot-Hook fuer Nebenstrang oder Finale.",
+    "inventory_tags":  [
+                           "utility",
+                           "schluessel",
+                           "plot",
+                           "inventar"
+                       ]
+}

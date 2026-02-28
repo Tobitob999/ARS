@@ -1,0 +1,13 @@
+{
+  "name": "Diary of Deliverance Hobbs",
+  "type": "Historical Document",
+  "physical_description": "A small, leather-bound diary from the late 17th century. The ink is faded, and the pages smell of woodsmoke and fear.",
+  "history": "The personal account of a woman accused during the Salem witch trials. It was passed down through her family and eventually sold at an estate auction in Arkham.",
+  "mechanics": {
+    "reading_time": "2 hours",
+    "sanity_loss": "0/1d2",
+    "mythos_gain": 1,
+    "skill_check": "History or Language (Old English)"
+  },
+  "content_summary": "Describes folk magic rituals meant to ward off 'The Black Man of the Forest'. The descriptions of this entity bear a disturbing resemblance to modern accounts of Nyarlathotep."
+}

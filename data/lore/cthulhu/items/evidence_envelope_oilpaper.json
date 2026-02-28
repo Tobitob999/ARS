@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Ölpapier-Beweisumschläge",
+    "type":  "Document",
+    "physical_description":  "Ölpapierhüllen für Fasern, Haare und feine Spuren.",
+    "history":  "Labornahe Tatortarbeit.",
+    "mechanics":  {
+                      "skill_check":  "Spurensuche",
+                      "effect":  "Sichert Kleinstspuren ohne Feuchteverlust.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Wichtig für mikroskopische Nachweise.",
+    "inventory_tags":  [
+                           "beweis",
+                           "spuren",
+                           "inventar"
+                       ]
+}

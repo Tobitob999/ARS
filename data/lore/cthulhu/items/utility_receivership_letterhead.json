@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Offizielles Briefpapier (Empfaengerverwaltung)",
+    "type":  "Utility",
+    "physical_description":  "Satz hochwertiger Letterheads mit Siegeldruck.",
+    "history":  "Bürokratische Optik fuer formale Schreiben.",
+    "mechanics":  {
+                      "skill_check":  "Recht",
+                      "effect":  "Erhöht Glaubwürdigkeit schriftlicher Forderungen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Papiermacht in Verhandlungsszenen.",
+    "inventory_tags":  [
+                           "utility",
+                           "recht",
+                           "inventar"
+                       ]
+}

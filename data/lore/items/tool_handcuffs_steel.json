@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Stahlhandschellen",
+    "type":  "Tool",
+    "physical_description":  "Polizeimodell mit Doppelverriegelung und Schluessel.",
+    "history":  "Behördliches Standardmaterial fuer Festsetzungen.",
+    "mechanics":  {
+                      "skill_check":  "Nahkampf (Hieb) oder Recht",
+                      "effect":  "Fixiert Gegner/Zeugen nach Kontrolle.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Kontrollwerkzeug fuer Zugriffsszenen.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "kontrolle",
+                           "rechtslage",
+                           "inventar"
+                       ]
+}

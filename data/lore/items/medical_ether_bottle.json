@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Ätherflasche",
+    "type":  "Medical Supply",
+    "physical_description":  "Flüchtiges Narkotikum in gesicherter Glasflasche.",
+    "history":  "In Kliniken und OP-Umfeldern genutzt.",
+    "mechanics":  {
+                      "skill_check":  "Medizin",
+                      "effect":  "Kann bei korrekter Anwendung sedieren, missbräuchlich gefährlich.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Starkes Mittel mit hoher Verantwortung.",
+    "inventory_tags":  [
+                           "medizin",
+                           "sedierung",
+                           "inventar"
+                       ]
+}

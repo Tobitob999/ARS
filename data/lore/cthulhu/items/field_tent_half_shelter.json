@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Halbzelt-Shelter",
+    "type":  "Field Gear",
+    "physical_description":  "Leichtes Segmentzelt mit Schnueren und Heringen.",
+    "history":  "Feldlagerkomponente fuer mobile Teams.",
+    "mechanics":  {
+                      "skill_check":  "Klettern",
+                      "effect":  "Errichtet schnellen Wetterschutz fuer Beobachtungsposten.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Mobile Basis fuer Umlandoperationen.",
+    "inventory_tags":  [
+                           "feld",
+                           "unterkunft",
+                           "inventar"
+                       ]
+}

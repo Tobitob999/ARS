@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Leitungsreparatur-Spule",
+    "type":  "Communication Gear",
+    "physical_description":  "Spule mit isoliertem Draht und Verbinderklemmen.",
+    "history":  "Telegraphenwartung in Feldlage.",
+    "mechanics":  {
+                      "skill_check":  "Mechanik",
+                      "effect":  "Schnelle Reparatur kurzer Leitungsunterbrechungen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Sichert Kommunikationsachsen im Einsatz.",
+    "inventory_tags":  [
+                           "kommunikation",
+                           "technik",
+                           "inventar"
+                       ]
+}

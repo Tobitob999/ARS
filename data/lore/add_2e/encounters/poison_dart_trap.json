@@ -1,0 +1,7 @@
+{
+    "id":  "poison_dart_trap",
+    "module_type":  "trap",
+    "trigger_condition":  "Tripwire at shin height",
+    "damage":  "1d4",
+    "saving_throw":  "vs. Paralyzation/Poison"
+}

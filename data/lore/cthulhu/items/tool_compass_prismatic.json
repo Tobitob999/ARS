@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Prismatischer Kompass",
+    "type":  "Tool",
+    "physical_description":  "Praezisionskompass im Metallgehäuse mit Visier.",
+    "history":  "Militaerisch und bei Feldvermessung genutzt.",
+    "mechanics":  {
+                      "skill_check":  "Orientierung",
+                      "effect":  "Stabile Navigation ohne Landmarken.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Sichert Routen in Nebel/Wald/Untergrund.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "navigation",
+                           "inventar"
+                       ]
+}

@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Kartenmappe Oeltuch",
+    "type":  "Field Gear",
+    "physical_description":  "Wetterfeste Klappmappe fuer Karten und Notizen.",
+    "history":  "Vermesser und Militärkuriere nutzen sie.",
+    "mechanics":  {
+                      "skill_check":  "Orientierung",
+                      "effect":  "Hält Navigationsmaterial bei Regen nutzbar.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Essentiell für Außen- und Küstenszenen.",
+    "inventory_tags":  [
+                           "feld",
+                           "navigation",
+                           "inventar"
+                       ]
+}

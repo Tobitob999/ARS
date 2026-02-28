@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Chemische Teststreifen",
+    "type":  "Tool",
+    "physical_description":  "Papierstreifen in versiegelter Huelse fuer pH- und Reaktivitaetsproben.",
+    "history":  "Laborrestbestaende, oft von Studenten oder Apothekern beschafft.",
+    "mechanics":  {
+                      "skill_check":  "Wissenschaft (Chemie)",
+                      "effect":  "Liefert schnelle Indizien zu unbekannten Fluessigkeiten.",
+                      "combat":  ""
+                  },
+    "content_summary":  "Schnelltest fuer improvisierte Tatortanalyse.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "chemie",
+                           "analyse",
+                           "inventar"
+                       ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Wetter-Muster für Neuengland",
+  "seasons": [
+    {
+      "name": "Frühling (März-Mai)",
+      "events": [
+        { "type": "Kalter Regen", "description": "Ein feiner, eisiger Nieselregen fällt vom grauen Himmel. Die Luft ist klamm und riecht nach nasser Erde.", "effect": "Leichte Unannehmlichkeit. Sicht leicht reduziert." },
+        { "type": "Plötzlicher Nebel", "description": "Dichte, weiße Nebelschwaden steigen vom Miskatonic River auf und hüllen die Stadt in ein undurchdringliches Leichentuch. Geräusche werden gedämpft.", "effect": "Sichtweite stark reduziert (wenige Meter). Orientierungsproben erschwert." },
+        { "type": "Frühlingsgewitter", "description": "Der Himmel verdunkelt sich schnell. Blitze zucken und Donner grollt über den Hügeln. Der Regen prasselt auf die Dächer.", "effect": "Laute Geräusche können andere Geräusche überdecken. Gefahr durch Blitzeinschlag im Freien." }
+      ]
+    },
+    {
+      "name": "Sommer (Juni-August)",
+      "events": [
+        { "type": "Schwüle Hitze", "description": "Die Luft steht still und ist drückend heiß. Der Asphalt der Straßen scheint zu schmelzen. Insekten summen träge.", "effect": "Erschöpfung. Konstitutionsproben bei Anstrengung." },
+        { "type": "Heftiges Sommergewitter", "description": "Ein kurzer, aber extrem heftiger Wolkenbruch mit Hagel und Sturmböen. Straßen werden zu reißenden Bächen.", "effect": "Gefahr durch Hagel und umstürzende Äste. Überflutungsgefahr in Kellern." },
+        { "type": "Klare Sternennacht", "description": "Nach der Hitze des Tages kühlt die Luft ab. Die Sterne leuchten unheimlich klar und zahlreich am dunklen Himmel.", "effect": "Atmosphärisch. Kann zu SAN-Verlust führen, wenn man zu lange in den Himmel starrt." }
+      ]
+    },
+    {
+      "name": "Herbst (September-November)",
+      "events": [
+        { "type": "Kühler Wind", "description": "Ein scharfer Wind fegt durch die Straßen und wirbelt buntes Laub auf. Der Geruch von Verfall liegt in der Luft.", "effect": "Unbehaglich. Kann lose Gegenstände mitreißen." },
+        { "type": "Dauerregen", "description": "Ein tagelanger, grauer Regen, der die Stimmung drückt und alles durchweicht. Die Stadt wirkt verlassen.", "effect": "Sicht reduziert. Moral sinkt. Alles ist rutschig." },
+        { "type": "Erster Frost", "description": "Die Nacht war eiskalt. Am Morgen sind die Dächer und Wiesen mit einer dünnen Schicht aus weißem Reif überzogen.", "effect": "Rutschgefahr. Kälteschutz erforderlich." }
+      ]
+    },
+    {
+      "name": "Winter (Dezember-Februar)",
+      "events": [
+        { "type": "Schneefall", "description": "Große, leise Flocken fallen vom Himmel und legen eine dicke, weiße Decke über die Stadt. Alle Geräusche sind gedämpft.", "effect": "Sicht reduziert. Spuren sind leicht zu verfolgen (oder zu hinterlassen)." },
+        { "type": "Blizzard", "description": "Ein heulender Schneesturm mit peitschendem Wind. Die Sicht ist gleich null. Reisen ist lebensgefährlich.", "effect": "Extreme Kälte. Orientierung unmöglich. Hohe Gefahr, sich zu verirren und zu erfrieren." },
+        { "type": "Eisige Kälte", "description": "Die Temperatur fällt weit unter den Gefrierpunkt. Die Luft ist so kalt, dass sie in den Lungen schmerzt. Der Miskatonic River ist zugefroren.", "effect": "Konstitutionsproben gegen Erfrierungen erforderlich. Mechanische Geräte können versagen." }
+      ]
+    }
+  ]
+}

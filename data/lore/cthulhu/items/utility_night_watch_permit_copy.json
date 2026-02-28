@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Nachtwache-Genehmigung (Kopie)",
+    "type":  "Utility",
+    "physical_description":  "Kopie einer lokalen Nachtdienstgenehmigung.",
+    "history":  "Von Sicherheitsdiensten als Kontrollnachweis genutzt.",
+    "mechanics":  {
+                      "skill_check":  "Recht",
+                      "effect":  "Kann Nachteinsaetze formal plausibel wirken lassen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Legitimation in Sperrzeiten.",
+    "inventory_tags":  [
+                           "utility",
+                           "recht",
+                           "inventar"
+                       ]
+}

@@ -1,0 +1,15 @@
+{
+    "name":  "St. Mary\u0027s Teaching Hospital [Erweiterung]",
+    "address":  "West College Street, Arkham",
+    "atmosphere":  "Overcrowded and underfunded. The air is thick with the smell of suffering, carbolic acid, and cheap soup. Nurses rush by with grim expressions.",
+    "details":  [
+                    "A long, echoing corridor with peeling paint and flickering gas lights.",
+                    "The chaotic emergency ward, filled with the groans of the sick and injured.",
+                    "The morgue in the basement, unnaturally cold and quiet."
+                ],
+    "clues":  "Patient records of unusual injuries, a doctor who has seen too much, access to the city morgue.",
+    "generated_variant":  true,
+    "source_seed_file":  "st_marys_hospital.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

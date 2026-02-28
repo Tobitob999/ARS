@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Grobes Salzbeutel-Set",
+    "type":  "Occult Utility",
+    "physical_description":  "Mehrere kleine Salzbeutel fuer Markierungen und Kreise.",
+    "history":  "Volksglaube und Okkultistenpraxis in Mischverwendung.",
+    "mechanics":  {
+                      "skill_check":  "Okkultes Wissen",
+                      "effect":  "Kann als psychologischer oder ritueller Marker dienen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Niedrigschwelliges Ritualzubehoer fuer Feldsituationen.",
+    "inventory_tags":  [
+                           "okkult",
+                           "ritual",
+                           "feld",
+                           "inventar"
+                       ]
+}

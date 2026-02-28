@@ -1,0 +1,15 @@
+{
+    "name":  "Jepson\u0027s Gun \u0026 Tackle [Erweiterung]",
+    "address":  "Rivertown, Arkham",
+    "atmosphere":  "Riecht nach Waffenöl und Ködern. Die Wände sind mit Jagdtrophäen und Angelruten behängt. Der Inhaber, Jebediah Jepson, ist ein wortkarger Mann, der keine unnötigen Fragen stellt.",
+    "details":  [
+                    "Eine Glasvitrine mit gebrauchten Revolvern und Pistolen.",
+                    "Ein Ständer mit Schrotflinten und Jagdgewehren.",
+                    "Eine Kiste mit verschiedenster Munition hinter dem Tresen."
+                ],
+    "clues":  "Der beste Ort, um sich (legal oder illegal) zu bewaffnen. Jepson verkauft an jeden, der bezahlen kann, führt aber ein privates Notizbuch über verdächtige Käufe.",
+    "generated_variant":  true,
+    "source_seed_file":  "shop_jepsons_guns.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

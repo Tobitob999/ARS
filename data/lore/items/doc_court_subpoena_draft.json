@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Vorladung-Entwurf",
+    "type":  "Document",
+    "physical_description":  "Vorbereiteter Entwurf fuer gerichtliche Vorladung.",
+    "history":  "Kanzleimaterial fuer Rechtsschritte.",
+    "mechanics":  {
+                      "skill_check":  "Recht",
+                      "effect":  "Druckmittel gegen unkooperative Zeugen/Institutionen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Juristischer Hebel in Verhandlungsszenen.",
+    "inventory_tags":  [
+                           "dokument",
+                           "recht",
+                           "inventar"
+                       ]
+}

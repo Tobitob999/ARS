@@ -1,0 +1,13 @@
+{
+  "name": "Automobile in den 1920ern",
+  "type": "Technology",
+  "common_model": {
+    "name": "Ford Model T ('Tin Lizzie')",
+    "description": "Das häufigste Auto auf Arkhams Straßen. Laut, unzuverlässig und muss oft mit einer Handkurbel gestartet werden. Pannen sind an der Tagesordnung.",
+    "top_speed": "ca. 70 km/h auf einer guten Straße."
+  },
+  "repair_shop": {
+    "name": "Arkham Motors",
+    "description": "Die einzige richtige Autowerkstatt der Stadt. Der Inhaber, 'Greasy' Pete, ist ein fähiger, aber mürrischer Mechaniker."
+  }
+}

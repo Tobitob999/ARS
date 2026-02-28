@@ -1,0 +1,25 @@
+﻿{
+    "name":  "witch trials archive - Brennpunkt",
+    "type":  "Lore Snippet",
+    "category":  "history",
+    "tags":  [
+                 "generated",
+                 "micro",
+                 "hook",
+                 "wave7",
+                 "creative"
+             ],
+    "signal":  "ein leiser Vorfall wird falsch priorisiert",
+    "friction":  "Misstrauen in der Gruppe",
+    "stake":  "Zugang zu gesperrtem Material",
+    "payoff_if_controlled":  "ein sicherer Fluchtkorridor",
+    "hook":  "Probe auf Bibliotheksnutzung: Erfolg nimmt Friktion heraus, Misserfolg verdoppelt den Einsatz auf der Stelle.",
+    "gm_moves":  [
+                     "Leite vom Signal direkt in eine harte Entscheidung",
+                     "Kopple die Friktion an eine bekannte Figur",
+                     "Belohne kluge Vorsicht mit fruehem Informationsvorsprung"
+                 ],
+    "source_seed_file":  "witch_trials_archive.json",
+    "generation_method":  "microcontent-v8",
+    "deutungsdruck":  "mittel"
+}

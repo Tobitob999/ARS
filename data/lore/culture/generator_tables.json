@@ -1,0 +1,28 @@
+{
+  "name": "NPC Generator Tabellen",
+  "first_names_male": ["John", "William", "James", "George", "Charles", "Robert", "Joseph", "Frank", "Henry", "Thomas", "Walter", "Arthur", "Edward", "Clarence", "Paul", "Harold", "Raymond", "Albert", "Harry", "Eugene", "Earl", "Roy", "Lawrence", "Carl", "Ralph", "Russell", "Stanley", "Howard", "Fred", "Louis", "Samuel", "Chester", "Leonard", "Ernest", "Norman", "Lester", "Philip", "Milton", "Bernard", "Floyd", "Virgil", "Clifford", "Alfred", "Herman", "Sidney", "Cecil", "Marvin", "Lloyd", "Theodore", "Oscar"],
+  "first_names_female": ["Mary", "Helen", "Dorothy", "Margaret", "Ruth", "Mildred", "Virginia", "Elizabeth", "Frances", "Evelyn", "Anna", "Marie", "Alice", "Florence", "Lillian", "Rose", "Gladys", "Irene", "Louise", "Edna", "Ruby", "Grace", "Eleanor", "Clara", "Beatrice", "Thelma", "Hazel", "Marion", "Bernice", "Gertrude", "Esther", "Catherine", "Josephine", "Agnes", "Pauline", "Lucille", "Mabel", "Edith", "Pearl", "Ethel", "Vera", "Myrtle", "Bertha", "Viola", "Ann", "Martha", "Doris", "Lois", "Norma", "Blanche"],
+  "last_names": ["Smith", "Johnson", "Williams", "Brown", "Jones", "Miller", "Davis", "Wilson", "Moore", "Taylor", "Anderson", "Thomas", "Jackson", "White", "Harris", "Martin", "Thompson", "Garcia", "Martinez", "Robinson", "Clark", "Rodriguez", "Lewis", "Lee", "Walker", "Hall", "Allen", "Young", "Hernandez", "King", "Wright", "Lopez", "Hill", "Scott", "Green", "Adams", "Baker", "Gonzalez", "Nelson", "Carter", "Mitchell", "Perez", "Roberts", "Turner", "Phillips", "Campbell", "Parker", "Evans", "Edwards", "Collins"],
+  "quirks": [
+    "putzt ständig seine Brille",
+    "stottert bei Stress",
+    "riecht nach billigem Gin",
+    "hat einen nervösen Augenzucken",
+    "knackt mit den Fingerknöcheln",
+    "spricht viel zu laut",
+    "flüstert verschwörerisch",
+    "hat einen schiefen Gang",
+    "kaut auf einem unangezündeten Streichholz",
+    "blickt ständig über die Schulter",
+    "hat Tinte an den Fingern",
+    "summt eine nervtötende Melodie",
+    "hat einen übertrieben festen Händedruck",
+    "vermeidet Augenkontakt",
+    "hat einen chronischen Husten",
+    "riecht nach Mottenkugeln",
+    "gestikuliert übertrieben beim Sprechen",
+    "hat einen Fleck auf dem Hemd",
+    "wiederholt die letzten Worte seines Gegenübers",
+    "schwitzt stark, auch wenn es kalt ist"
+  ]
+}

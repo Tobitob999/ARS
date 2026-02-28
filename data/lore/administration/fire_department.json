@@ -1,0 +1,10 @@
+{
+  "name": "Arkham Fire Department",
+  "type": "Administration",
+  "stations": [
+    { "name": "Central Fire Station", "location": "Downtown, nahe Central Square." }
+  ],
+  "equipment": "Eine Mischung aus alten, von Pferden gezogenen Dampfpumpen und einem neuen, motorisierten Löschfahrzeug von 'American LaFrance'. Die Ausrüstung ist oft schlecht gewartet.",
+  "response_time": "Innerhalb der Stadt ca. 10-15 Minuten. Auf dem Land bis zu einer Stunde oder länger.",
+  "notes": "Die Feuerwehrleute sind mutig, aber schlecht bezahlt und oft die ersten, die bei seltsamen Bränden auf unerklärliche Phänomene stoßen."
+}

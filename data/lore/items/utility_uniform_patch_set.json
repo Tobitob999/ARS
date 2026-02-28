@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Uniformabzeichen-Set",
+    "type":  "Utility",
+    "physical_description":  "Austauschbare Abzeichen fuer verschiedene Dienste.",
+    "history":  "Fälscherware fuer situative Tarnung.",
+    "mechanics":  {
+                      "skill_check":  "Verkleiden",
+                      "effect":  "Kann schnelle Rollenwechsel glaubhafter machen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Hohes Risiko bei Detailprüfung.",
+    "inventory_tags":  [
+                           "utility",
+                           "tarnung",
+                           "inventar"
+                       ]
+}

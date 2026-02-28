@@ -1,0 +1,16 @@
+﻿{
+    "name":  "Munition .22 LR (100)",
+    "type":  "Ammunition",
+    "physical_description":  "Leichtes Randfeuer-Kaliber in Großpackung.",
+    "history":  "Guenstig und in Sportkreisen verbreitet.",
+    "mechanics":  {
+                      "skill_check":  "-",
+                      "effect":  "Geeignet fuer Training und leichte Waffen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Kosteneffizienter Nachschub.",
+    "inventory_tags":  [
+                           "munition",
+                           "inventar"
+                       ]
+}

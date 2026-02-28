@@ -1,0 +1,52 @@
+{
+  "id": "coc_investigator",
+  "schema_version": "1.0.0",
+  "name": "Dr. Henry Walters",
+  "compatible_rulesets": ["cthulhu_7e"],
+
+  "archetype": "Antiquarian",
+  "level": 1,
+  "background": "Ein pensionierter Universitaetsprofessor fuer Alte Geschichte an der Miskatonic University. Seine Neugier fuer das Okkulte hat ihn in Schwierigkeiten gebracht — er weiss mehr, als ihm lieb ist.",
+
+  "characteristics": {
+    "STR": 40,
+    "CON": 50,
+    "SIZ": 60,
+    "DEX": 55,
+    "APP": 65,
+    "INT": 80,
+    "POW": 70,
+    "EDU": 85
+  },
+
+  "derived_stats": {
+    "HP": 11,
+    "SAN": 70,
+    "MP": 14
+  },
+
+  "skills": {
+    "Bibliotheksnutzung": 70,
+    "Verborgen entdecken": 50,
+    "Geschichte": 65,
+    "Okkultismus": 40,
+    "Ueberzeugen": 55,
+    "Psychologie": 45,
+    "Naturwissenschaft (Archaeologie)": 50,
+    "Erste Hilfe": 40,
+    "Muttersprache (Englisch)": 85,
+    "Andere Sprache (Latein)": 35
+  },
+
+  "equipment": [
+    "Lederaktentasche mit Notizbuch",
+    "Lupe",
+    "Taschenmesser",
+    "Taschenlampe",
+    "$25 in bar",
+    "Visitenkarten (Dr. Henry Walters, Miskatonic University)"
+  ],
+
+  "traits": "Neugierig bis zur Selbstgefaehrdung. Spricht in vollstaendigen, wohlueberlegten Saetzen. Kann stundenlang ueber antike Kulturen dozieren. Trinkt zu viel Kaffee.",
+  "appearance": "Mitte 50, graumeliertes Haar, Nickelbrille, Tweed-Jacke mit Lederflicken an den Ellbogen. Leicht gebeugte Haltung vom vielen Lesen."
+}

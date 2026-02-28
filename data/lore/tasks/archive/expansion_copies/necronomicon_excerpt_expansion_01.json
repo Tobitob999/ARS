@@ -1,0 +1,24 @@
+{
+    "schema_version":  "1.1",
+    "name":  "Auszug aus dem Necronomicon (Buch IV) [Erweiterung]",
+    "type":  "Book Excerpt",
+    "category":  "library/excerpts",
+    "source_markdown":  "necronomicon_excerpt.md",
+    "converted_from_markdown":  true,
+    "tags":  [
+                 "library",
+                 "excerpt",
+                 "book",
+                 "mythos"
+             ],
+    "summary":  "\"Und es ist nicht tot, was ewig liegt, und in fremden Äonen mag selbst der Tod sterben. Denn jene, die vor uns waren, sind nicht fort, sondern warten nur in den Zwischenräumen. Cthulhu träumt in R\u0027lyeh, und seine Träume sind der Stoff, aus dem unser Wahnsinn gewebt ist. Wenn die Sterne richtig stehen, werden sie wieder...",
+    "source_text":  "# Auszug aus dem Necronomicon (Buch IV)\r\n\r\n\"Und es ist nicht tot, was ewig liegt, und in fremden Äonen mag selbst der Tod sterben. Denn jene, die vor uns waren, sind nicht fort, sondern warten nur in den Zwischenräumen. Cthulhu träumt in R\u0027lyeh, und seine Träume sind der Stoff, aus dem unser Wahnsinn gewebt ist. Wenn die Sterne richtig stehen, werden sie wieder wandeln, und die Erde wird brennen in einem Feuer der Ekstase und des Schreckens. Yog-Sothoth kennt das Tor. Yog-Sothoth ist das Tor. Yog-Sothoth ist der Schlüssel und der Wächter des Tores. Vergangenheit, Gegenwart, Zukunft, alles ist eins in Yog-Sothoth.\"\r\n\r\n---\r\n**Effekt beim Lesen:**\r\n- **Stabilitätsverlust:** 1d6\r\n- **Cthulhu-Mythos:** +2%",
+    "mechanics":  {
+                      "stability_loss":  "1d6",
+                      "cthulhu_mythos":  "+2%"
+                  },
+    "generated_variant":  true,
+    "source_seed_file":  "necronomicon_excerpt.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

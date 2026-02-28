@@ -1,0 +1,8 @@
+{
+    "id":  "flooded_chamber",
+    "module_type":  "event",
+    "trigger_condition":  "Descending lower cistern stairs",
+    "damage":  "none",
+    "saving_throw":  "none",
+    "effect_description":  "Narrative dungeon dressing or encounter hook."
+}

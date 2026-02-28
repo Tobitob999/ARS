@@ -1,0 +1,13 @@
+{
+    "name":  "Oberschwester Meave [Erweiterung]",
+    "type":  "Sanitarium Staff",
+    "occupation":  "Leitende Krankenschwester, geschlossene Abteilung",
+    "traits":  "Eine strenge, humorlose Frau, die seit 30 Jahren im Sanatorium arbeitet. Sie trägt einen riesigen Schlüsselbund am Gürtel, der bei jedem Schritt klimpert.",
+    "motivation":  "Ordnung und Disziplin. Sie glaubt, dass die Patienten einen festen Rahmen brauchen, um nicht völlig im Chaos zu versinken.",
+    "secret":  "Sie weiß von den Misshandlungen und \u0027Unfällen\u0027 in der Vergangenheit des Sanatoriums und hat gelernt, wegzusehen, um ihren Job zu behalten. Sie hat Angst vor einigen Patienten.",
+    "hook":  "Sie ist das Tor zu den Patienten. Sie kann bestochen oder überredet werden, ein Auge zuzudrücken, aber ihr Misstrauen ist groß.",
+    "generated_variant":  true,
+    "source_seed_file":  "staff_nurse_meave.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

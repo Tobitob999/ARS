@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Blutgruppen-Schnellset",
+    "type":  "Medical Supply",
+    "physical_description":  "Reagenzienkarten und Lanzetten für AB0-Test.",
+    "history":  "Frühe Labormedizin, noch nicht überall verfügbar.",
+    "mechanics":  {
+                      "skill_check":  "Wissenschaft (Biologie)",
+                      "effect":  "Grobe Blutgruppenbestimmung am Schauplatz.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Medizinischer Hinweisgeber bei Verletztenfällen.",
+    "inventory_tags":  [
+                           "medizin",
+                           "diagnostik",
+                           "inventar"
+                       ]
+}

@@ -1,0 +1,17 @@
+{
+    "name":  "abigail whateley - Kreuzverbindung",
+    "type":  "Lore Snippet",
+    "category":  "npcs",
+    "tags":  [
+                 "generated",
+                 "micro",
+                 "hook",
+                 "wave3"
+             ],
+    "content_summary":  "Ausgeloest durch ein ausgeloeschter Registereintrag bei Geruechtewelle in den Kneipen; die Lage kippt Richtung ein taktischer Rueckzug.",
+    "hook":  "Mit einer Probe auf Horchen sichern die Investigatoren einen Vorteil; andernfalls verliert die Gruppe Initiative im Schauplatz.",
+    "gm_note":  "Als Twist im laufenden Dialog einbauen; unmittelbar mit einem NSC oder Ort koppeln.",
+    "source_seed_file":  "abigail_whateley.json",
+    "generation_method":  "microcontent-v4",
+    "vertrauensfenster":  "eng"
+}

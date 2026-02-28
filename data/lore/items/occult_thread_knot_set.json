@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Knotenfaden-Set",
+    "type":  "Occult Utility",
+    "physical_description":  "Mehrfarbige Faeden fuer Bindungs- und Loesungsrituale.",
+    "history":  "Volksmagische Praxis mit vielen lokalen Varianten.",
+    "mechanics":  {
+                      "skill_check":  "Okkultes Wissen",
+                      "effect":  "Visualisiert Bindungen/Schwellen in Ritualarbeit.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Einfaches Material mit narrativem Gewicht.",
+    "inventory_tags":  [
+                           "okkult",
+                           "bindung",
+                           "inventar"
+                       ]
+}

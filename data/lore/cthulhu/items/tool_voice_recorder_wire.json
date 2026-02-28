@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Drahtaufzeichner-Prototyp",
+    "type":  "Tool",
+    "physical_description":  "Fruehes Drahtaufnahmegeraet mit empfindlicher Spule.",
+    "history":  "Seltenes Technikstueck aus Forschungslaboren.",
+    "mechanics":  {
+                      "skill_check":  "Wissenschaft (Physik)",
+                      "effect":  "Kann Zeugenaussagen sichern, aber stoeranfaellig.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Experimentelles Beweiswerkzeug.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "technik",
+                           "beweis",
+                           "inventar"
+                       ]
+}

@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Abreibeset Holzkohle",
+    "type":  "Tool",
+    "physical_description":  "Papierboegen und Holzkohle fuer Relief-/Inschriftabnahmen.",
+    "history":  "Archäologen und Dokumentare nutzen es im Feld.",
+    "mechanics":  {
+                      "skill_check":  "Archäologie",
+                      "effect":  "Sichert Strukturen ohne direkten Ausbau.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Ideal fuer Runen, Siegel, Mauertexturen.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "dokumentation",
+                           "inventar"
+                       ]
+}

@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Rufzeichen-Karten",
+    "type":  "Communication Gear",
+    "physical_description":  "Karten mit wechselnden Team-Rufzeichen.",
+    "history":  "Kurier- und Funkteams zur Fehlerreduktion.",
+    "mechanics":  {
+                      "skill_check":  "Bibliotheksnutzung",
+                      "effect":  "Reduziert Kommunikationsverwechslungen im Stress.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Prozessdisziplin fuer Mehrteam-Szenen.",
+    "inventory_tags":  [
+                           "kommunikation",
+                           "koordination",
+                           "inventar"
+                       ]
+}

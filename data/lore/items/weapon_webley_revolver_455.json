@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Webley Revolver .455",
+    "type":  "Weapon",
+    "physical_description":  "Massiver Top-Break-Revolver mit schneller Auswurfmechanik.",
+    "history":  "Beliebt bei britischen Veteranen und Importhaendlern.",
+    "mechanics":  {
+                      "skill_check":  "Schusswaffen (Pistole)",
+                      "effect":  "Robust bei Schmutz und Feuchtigkeit.",
+                      "combat":  "1W10+1, 6 Schuss."
+                  },
+    "content_summary":  "Schwere Revolveroption mit hoher Zuverlaessigkeit.",
+    "inventory_tags":  [
+                           "waffe",
+                           "revolver",
+                           "inventar"
+                       ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Arkham Transit Hub (Bahnhof & Busstation)",
+  "address": "South Street, Arkham",
+  "atmosphere": "Ein rußgeschwärztes Backsteingebäude. Der Geruch von Kohle, Dampf und billigem Tabak liegt in der Luft. Die große Bahnhofsuhr ist um 7 Minuten stehen geblieben.",
+  "details": [
+    "Eine große, zugige Wartehalle mit harten Holzbänken.",
+    "Ein Fahrkartenschalter hinter einem Messinggitter.",
+    "Ein Kiosk, der Zeitungen, Sandwiches und Fahrpläne verkauft."
+  ],
+  "services": [
+    {
+      "type": "Zug (Arkham Station)",
+      "destinations": "Boston (täglich, 8:00, 14:00, 19:00, Preis: 3.50$), Salem (täglich, 10:00, 16:00, Preis: 2.00$)",
+      "typical_travelers": "Geschäftsleute, Studenten der Miskatonic, Familien auf dem Weg in die Großstadt."
+    },
+    {
+      "type": "Bus (Miskatonic Valley Bus Co.)",
+      "destinations": "Dunwich (Mo, Mi, Fr, 11:00, Preis: 1.50$), Innsmouth (Di, Do, Sa, 9:00, Preis: 1.25$, fährt oft leer ab)",
+      "typical_travelers": "Bauern, Händler, unheimlich stille Passagiere auf dem Weg nach Innsmouth."
+    },
+    {
+      "type": "Autovermietung (Arkham Motors)",
+      "details": "Ein kleiner Schalter am Rande der Station. Vermietet einen einzigen Ford Model T für 10$ pro Tag plus Benzin. Eine hohe Kaution ist erforderlich."
+    }
+  ]
+}

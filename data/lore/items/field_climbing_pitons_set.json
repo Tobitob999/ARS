@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Kletterhaken-Set",
+    "type":  "Field Gear",
+    "physical_description":  "Metallpitons mit Hammer und Karabinern.",
+    "history":  "Berg- und Industriekletterbedarf.",
+    "mechanics":  {
+                      "skill_check":  "Klettern",
+                      "effect":  "Erlaubt sichere Aufstiege an problematischen Fassaden.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Vertikales Bewegungswerkzeug fuer Altstadt und Klippen.",
+    "inventory_tags":  [
+                           "feld",
+                           "klettern",
+                           "inventar"
+                       ]
+}

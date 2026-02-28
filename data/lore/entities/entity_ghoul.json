@@ -1,0 +1,8 @@
+{
+  "name": "Ghoul",
+  "description": "Eine humanoide Gestalt, aber gebückt und hundeartig. Die Haut ist gummiartig und fahl, oft mit Schimmel oder Graberde bedeckt. Das Gesicht ähnelt einer Schnauze, mit spitzen Ohren und Hufen anstelle von Füßen.",
+  "sensory": "Geruch nach feuchter Erde, altem Fleisch und Moschus. Geräusche: Ein meckerndes, jaulendes Lachen ('Meep-Meep').",
+  "behavior": "Aasfresser, die in Tunneln unter Friedhöfen leben. Meiden Licht. Können menschliche Sprache imitieren.",
+  "weakness": "Physisch verletzbar, aber zäh. Helles Licht blendet sie.",
+  "sanity_loss": "0/1d6 (beim Anblick), 1d6 (bei Erkenntnis, dass es einmal ein Mensch war)."
+}

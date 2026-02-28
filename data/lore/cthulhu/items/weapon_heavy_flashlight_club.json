@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Schwere Stablampe",
+    "type":  "Weapon",
+    "physical_description":  "Groesse Metalllampe, gleichzeitig als Schlagwaffe nutzbar.",
+    "history":  "Nachtwaechter und Patrouillen verwenden solche Modelle.",
+    "mechanics":  {
+                      "skill_check":  "Nahkampf (Hieb)",
+                      "effect":  "Kombiniert Licht und Wucht im Nahbereich.",
+                      "combat":  "1W6."
+                  },
+    "content_summary":  "Dual-Use fuer dunkle Orte.",
+    "inventory_tags":  [
+                           "waffe",
+                           "licht",
+                           "nahkampf",
+                           "inventar"
+                       ]
+}

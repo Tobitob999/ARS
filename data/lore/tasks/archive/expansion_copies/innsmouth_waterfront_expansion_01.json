@@ -1,0 +1,15 @@
+{
+    "name":  "Hafenfront von Innsmouth [Erweiterung]",
+    "address":  "Innsmouth, Massachusetts",
+    "atmosphere":  "Der Geruch von verrottendem Fisch und salziger Fäulnis ist überwältigend. Die meisten Gebäude sind baufällig, die Fenster mit Brettern vernagelt. Unheimliche Stille, nur unterbrochen vom Gekreische der Möwen und dem leisen Plätschern des Wassers.",
+    "details":  [
+                    "Zerfallene Piers, die wie knochige Finger ins trübe Wasser ragen.",
+                    "Einheimische mit seltsam ausladenden, starren Augen und feuchter Haut, die Fremde misstrauisch beobachten.",
+                    "Das \u0027Gilman House\u0027, ein heruntergekommenes Hotel, das als einziges noch Zimmer an Außenstehende vermietet."
+                ],
+    "clues":  "Gerüchte über Gold, das von Devil Reef stammt. Die Einheimischen sprechen einen seltsamen, gutturalen Dialekt. Niemand geht nach Einbruch der Dunkelheit nach draußen.",
+    "generated_variant":  true,
+    "source_seed_file":  "innsmouth_waterfront.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

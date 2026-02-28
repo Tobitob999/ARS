@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Dienstrevolver Kaliber .38",
+    "type":  "Weapon",
+    "physical_description":  "Blau bruenierter 6-Schuss-Revolver mit Holzgriff. Robust, wartungsarm, leicht verdeckt tragbar.",
+    "history":  "Standardwaffe vieler Streifenbeamter und Sicherheitsleute in Neuengland der 1920er.",
+    "mechanics":  {
+                      "skill_check":  "Schusswaffen (Pistole)",
+                      "effect":  "Zuengelt zuverlässig auch bei feuchter Witterung; Fehlfunktion nur bei Patzer.",
+                      "combat":  "1W10 Schaden, Reichweite kurz-mittel, 6 Schuss."
+                  },
+    "content_summary":  "Solide Seitenwaffe fuer Bedrohungslagen ohne Spezialausruestung.",
+    "inventory_tags":  [
+                           "waffe",
+                           "pistole",
+                           "munition_38",
+                           "inventar"
+                       ]
+}

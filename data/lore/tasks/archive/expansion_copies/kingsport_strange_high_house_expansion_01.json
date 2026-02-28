@@ -1,0 +1,15 @@
+{
+    "name":  "Das seltsame Haus hoch im Nebel [Erweiterung]",
+    "address":  "Auf einer Klippe über Kingsport, Massachusetts",
+    "atmosphere":  "Ein uraltes, schwarzes Haus, das fast immer von dichtem Meeresnebel umhüllt ist. Es scheint keine Tür auf der Landseite zu haben. Die Fenster sind dunkel und blicken wie tote Augen auf die Stadt herab.",
+    "details":  [
+                    "Ein schmaler, gefährlicher Pfad, der die Klippe hinaufführt.",
+                    "Die Architektur des Hauses widersetzt sich der normalen Geometrie, mit unmöglichen Winkeln und Dachlinien.",
+                    "Ein alter Mann mit langem, weißem Bart, der manchmal auf der Klippe steht und auf das Meer blickt, bevor er im Nebel verschwindet."
+                ],
+    "clues":  "Die Legende besagt, dass das Haus älter ist als Kingsport selbst und dass sein Bewohner mit den \u0027Alten Göttern\u0027 spricht. Die Tür soll sich auf der Seeseite befinden, Hunderte von Metern über dem Abgrund.",
+    "generated_variant":  true,
+    "source_seed_file":  "kingsport_strange_high_house.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

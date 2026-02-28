@@ -1,0 +1,20 @@
+{
+    "schema_version":  "1.1",
+    "name":  "Das Geheime Archiv: Die Hexenprozesse von Arkham (1692) [Erweiterung]",
+    "type":  "Lore Document",
+    "category":  "history",
+    "source_markdown":  "witch_trials_archive.md",
+    "converted_from_markdown":  true,
+    "tags":  [
+                 "history",
+                 "arkham",
+                 "witchcraft"
+             ],
+    "summary":  "Auszüge aus inoffiziellen Aufzeichnungen, die in der Historischen Gesellschaft von Arkham unter Verschluss gehalten werden.",
+    "source_text":  "# Das Geheime Archiv: Die Hexenprozesse von Arkham (1692)\r\n\r\n*Auszüge aus inoffiziellen Aufzeichnungen, die in der Historischen Gesellschaft von Arkham unter Verschluss gehalten werden.*\r\n\r\n## Hingerichtete Personen\r\n\r\n- **Keziah Mason:** Angeklagt, mit dem \u0027Schwarzen Mann\u0027 im Bunde zu stehen und durch \u0027unmögliche Winkel\u0027 zu reisen. Sie entkam auf mysteriöse Weise aus ihrer Zelle vor der Hinrichtung. Ihr vertrauter Geist, ein Rattenwesen mit Menschengesicht namens \u0027Brown Jenkin\u0027, wurde nie gefunden.\r\n- **Asenath Waite:** Eine wohlhabende Witwe, die beschuldigt wurde, durch Gedankentausch den Körper junger Frauen zu übernehmen. Sie wurde gehängt. Ihr Körper wurde in einem unmarkierten Grab auf dem heutigen Gelände des Blackwood Parks beigesetzt.\r\n- **Goody Fowler:** Eine Hebamme, die beschuldigt wurde, Neugeborene an den Teufel zu opfern. Sie wurde auf dem Sentinel Hill verbrannt.\r\n\r\n## Überlieferte Flüche\r\n\r\n- **Der Fluch der Waite:** \"Keiner meiner Blutlinie soll je wieder Reichtum oder Glück finden, bis mein Name reingewaschen und mein Körper in geweihter Erde bestattet ist.\" (Dieser Fluch wird für den Niedergang der Waite-Familie verantwortlich gemacht).\r\n- **Der Fluch der Mason:** \"Wo einst mein Haus stand, soll kein Stein auf dem anderen bleiben, und die Erde selbst soll schreien vor dem, was darunter liegt.\" (Ihr Haus stand an der Stelle, wo heute die Garrison Street Tenements stehen).\r\n\r\n## Verborgene Gräber\r\n\r\n- Die meisten als Hexen verurteilten Personen wurden in ungeweihter Erde außerhalb des alten Stadtfriedhofs begraben. Das Gebiet ist heute als **Blackwood Park** bekannt. Es wird gemunkelt, dass ihre Geister dort noch immer umgehen.\r\n- Das Grab von Asenath Waite soll sich unter einer großen, alten Eiche im Zentrum des Parks befinden.",
+    "mechanics":  null,
+    "generated_variant":  true,
+    "source_seed_file":  "witch_trials_archive.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

@@ -1,0 +1,16 @@
+{
+    "name":  "Diary Entry on a Dream City [Erweiterung]",
+    "type":  "Diary Page",
+    "physical_description":  "A page written in a shaky but elegant hand.",
+    "mechanics":  {
+                      "reading_time":  "15 minutes",
+                      "sanity_loss":  "0/1d2",
+                      "mythos_gain":  1,
+                      "skill_check":  null
+                  },
+    "content_summary":  "Describes a recurring dream of a vast, alien city of green, slimy stone under a black sun. The author speaks of \u0027cyclopean architecture\u0027 and a \u0027gelatinous form\u0027 that resides in the central plaza, a being of \u0027infinite malevolence and antiquity\u0027.",
+    "generated_variant":  true,
+    "source_seed_file":  "diary_entry_dream.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

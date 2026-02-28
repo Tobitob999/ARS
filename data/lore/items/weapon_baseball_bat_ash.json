@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Esche-Baseballschlaeger",
+    "type":  "Weapon",
+    "physical_description":  "Holzschlaeger aus Esche, gut ausbalanciert.",
+    "history":  "Sportgeraet, das oft zweckentfremdet wird.",
+    "mechanics":  {
+                      "skill_check":  "Nahkampf (Hieb)",
+                      "effect":  "Starke Schlagwirkung auf kurze Distanz.",
+                      "combat":  "1W8."
+                  },
+    "content_summary":  "Alltagsgegenstand mit hoher Wucht.",
+    "inventory_tags":  [
+                           "waffe",
+                           "hieb",
+                           "alltag",
+                           "inventar"
+                       ]
+}

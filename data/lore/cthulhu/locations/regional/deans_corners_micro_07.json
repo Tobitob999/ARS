@@ -1,0 +1,25 @@
+﻿{
+    "name":  "deans corners - Brennpunkt",
+    "type":  "Lore Snippet",
+    "category":  "locations\\regional",
+    "tags":  [
+                 "generated",
+                 "micro",
+                 "hook",
+                 "wave7",
+                 "creative"
+             ],
+    "signal":  "eine vertrauliche Quelle fordert sofortige Reaktion",
+    "friction":  "institutioneller Widerstand",
+    "stake":  "politische Handlungsfreiheit",
+    "payoff_if_controlled":  "eine starke Gegenposition im Konflikt",
+    "hook":  "Probe auf Recht: Erfolg nimmt Friktion heraus, Misserfolg verdoppelt den Einsatz auf der Stelle.",
+    "gm_moves":  [
+                     "Leite vom Signal direkt in eine harte Entscheidung",
+                     "Kopple die Friktion an eine bekannte Figur",
+                     "Belohne kluge Vorsicht mit fruehem Informationsvorsprung"
+                 ],
+    "source_seed_file":  "deans_corners.json",
+    "generation_method":  "microcontent-v8",
+    "einsatzmodus":  "reaktiv"
+}

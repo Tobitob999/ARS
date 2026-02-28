@@ -1,0 +1,19 @@
+{
+    "schema_version":  "1.1",
+    "name":  "Gerüchte \u0026 Legenden von Arkham [Erweiterung]",
+    "type":  "Lore Document",
+    "category":  "culture",
+    "source_markdown":  "arkham_rumors.md",
+    "converted_from_markdown":  true,
+    "tags":  [
+                 "culture",
+                 "arkham"
+             ],
+    "summary":  "Eine Sammlung von Stadtklatsch und unheimlichen Geschichten, die in den Salons, Diners und Gassen von Arkham kursieren.",
+    "source_text":  "# Gerüchte \u0026 Legenden von Arkham\r\n\r\n*Eine Sammlung von Stadtklatsch und unheimlichen Geschichten, die in den Salons, Diners und Gassen von Arkham kursieren.*\r\n\r\n1.  \"Man sagt, im Miskatonic River schwimmen Fische mit menschenähnlichen Gesichtern. Die Fischer werfen sie immer sofort zurück, wenn sie einen am Haken haben.\"\r\n\r\n2.  \"Der alte Slocum im Blackwood Park? Der war nicht immer so. Im Krieg hat er was gesehen, drüben in Frankreich. Etwas, das nicht in den Schützengraben gehörte. Seitdem redet er mit den Schatten.\"\r\n\r\n3.  \"Die Herren vom Silver Twilight Lodge... die scheinen nie zu altern. Carl Sanford sieht heute noch genauso aus wie vor zwanzig Jahren. Muss an der guten Luft in Uptown liegen.\"\r\n\r\n4.  \"Geh niemals nachts auf die Uninvited Isle im Fluss. Die alten Steine dort... sie singen, wenn der Mond voll ist. Und wer das Lied hört, kommt nicht zurück.\"\r\n\r\n5.  \"In den Garrison Street Tenements verschwinden Leute. Nicht nur, dass sie wegziehen. Sie sind einfach... weg. Als hätten sie nie existiert. Die Polizei stellt keine Fragen.\"\r\n\r\n6.  \"Dieser neue Leichenbeschauer, Dr. West... er arbeitet zu viel. Manchmal brennt nachts noch Licht im Keller des St. Mary\u0027s. Und Leute haben Schreie von dort gehört. Schreie, die nicht menschlich klangen.\"\r\n\r\n7.  \"Bürgermeister Thornton war vor zehn Jahren noch ein Niemand. Dann hat er plötzlich angefangen, mit den Leuten von der Silver Twilight Lodge zu verkehren. Kurz darauf war er reich. Seltsam, nicht wahr?\"\r\n\r\n8.  \"In Hibb\u0027s Roadhouse spielt die Jukebox manchmal von allein. Immer das gleiche Lied. Eine traurige Melodie ohne Worte, die einem das Blut in den Adern gefrieren lässt.\"\r\n\r\n9.  \"Die Bibliothekare der Miskatonic flüstern, dass die Bücher in der Abteilung für verbotene Schriften manchmal ihre Position im Regal von selbst verändern. Als ob sie gelesen werden wollten.\"\r\n\r\n10. \"Im St. Mary\u0027s Hospital gibt es ein Zimmer im dritten Stock, Zimmer 303. Kein Arzt weist dort noch Patienten ein. Jeder, der dort die Nacht verbrachte, starb schreiend vor Sonnenaufgang.\"",
+    "mechanics":  null,
+    "generated_variant":  true,
+    "source_seed_file":  "arkham_rumors.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

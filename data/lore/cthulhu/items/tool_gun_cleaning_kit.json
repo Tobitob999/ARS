@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Waffenreinigungsset",
+    "type":  "Tool",
+    "physical_description":  "Stange, Buersten, Oel und Lappen im Rolletui.",
+    "history":  "Standard fuer Schießstand und Feldpflege.",
+    "mechanics":  {
+                      "skill_check":  "Mechanik",
+                      "effect":  "Senkt Stoerungsrisiko bei häufig genutzten Waffen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Pflegekit fuer zuverlässige Einsatzwaffen.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "waffe",
+                           "pflege",
+                           "inventar"
+                       ]
+}

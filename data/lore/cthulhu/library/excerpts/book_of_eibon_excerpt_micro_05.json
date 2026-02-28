@@ -1,0 +1,26 @@
+﻿{
+    "name":  "book of eibon excerpt - Drucklinie",
+    "type":  "Lore Snippet",
+    "category":  "library\\excerpts",
+    "tags":  [
+                 "generated",
+                 "micro",
+                 "hook",
+                 "wave5",
+                 "creative"
+             ],
+    "primary_conflict":  "ein Objekt veraendert lokal die Wahrnehmung",
+    "dramatic_angle":  "medizinisch",
+    "price_of_success":  "Vertrauen bei einem Schluessel-NSC",
+    "countdown":  "bis zum naechsten Morgengrauen",
+    "fallback_plan":  "Ablenkung statt Konfrontation",
+    "hook":  "Probe auf Okkultes Wissen: Erfolg klaert die Lage, Misserfolg erhoeht den Preis von Erfolg im Folgezug.",
+    "gm_moves":  [
+                     "Zeige den Preis, bevor die Entscheidung faellt",
+                     "Starte den Countdown sichtbar im Raum",
+                     "Lass einen Erfolg zwei neue Probleme oeffnen"
+                 ],
+    "source_seed_file":  "book_of_eibon_excerpt.json",
+    "generation_method":  "microcontent-v6",
+    "einsatzlage":  "dynamisch"
+}

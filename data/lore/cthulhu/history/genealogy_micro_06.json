@@ -1,0 +1,25 @@
+﻿{
+    "name":  "genealogy - Knotenpunkt",
+    "type":  "Lore Snippet",
+    "category":  "history",
+    "tags":  [
+                 "generated",
+                 "micro",
+                 "hook",
+                 "wave6",
+                 "creative"
+             ],
+    "pressure_line":  "ein stilles Ultimatum im Hintergrund",
+    "turn":  "ein sicherer Kanal bricht weg",
+    "cost":  "temporare Handlungsunfaehigkeit eines NSC",
+    "reward_if_solved":  "sicherer Zugriff auf Kernort",
+    "hook":  "Probe auf Bibliotheksnutzung: Erfolg stabilisiert die Lage, Misserfolg triggert den Turn sofort.",
+    "gm_moves":  [
+                     "Schiebe den Turn einen Schritt vor",
+                     "Lass den Cost sichtbar auf der Szene liegen",
+                     "Biete einen harten, aber fairen Deal an"
+                 ],
+    "source_seed_file":  "genealogy.json",
+    "generation_method":  "microcontent-v7",
+    "narrativkraft":  "mittel"
+}

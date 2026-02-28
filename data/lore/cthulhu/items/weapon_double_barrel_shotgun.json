@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Doppellaeufige Flinte",
+    "type":  "Weapon",
+    "physical_description":  "Klassische Bockflinte mit zwei separaten Abzuegen.",
+    "history":  "In Haushalt und Jagd weit verbreitet.",
+    "mechanics":  {
+                      "skill_check":  "Schusswaffen (Gewehr)",
+                      "effect":  "Schneller Doppelschuss auf kurze Distanz.",
+                      "combat":  "4W6/2, 2 Schuss."
+                  },
+    "content_summary":  "Einfach, brutal, robust.",
+    "inventory_tags":  [
+                           "waffe",
+                           "flinte",
+                           "inventar"
+                       ]
+}

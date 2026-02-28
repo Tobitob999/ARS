@@ -1,0 +1,26 @@
+{
+  "name": "Orne Library Structure",
+  "type": "Architectural Layout",
+  "areas": [
+    {
+      "name": "Großer Lesesaal (Erdgeschoss)",
+      "atmosphere": "Kathedralenartige Stille, nur unterbrochen vom leisen Rascheln umgeblätterter Seiten und dem rhythmischen Ticken einer riesigen Wanduhr. Hohe, bleiverglaste Fenster werfen bunte Lichtflecken auf die langen Eichentische. Es riecht nach altem Papier, Leder und Bohnerwachs."
+    },
+    {
+      "name": "Katalograum (Erdgeschoss)",
+      "atmosphere": "Ein Labyrinth aus hunderten schmalen Schubladen, die den Zettelkatalog enthalten. Der Raum ist enger und geschäftiger als der Lesesaal. Das Personal eilt hin und her, und das leise Klicken der Schubladen ist allgegenwärtig. Es riecht nach frischerer Tinte und dem Staub, der beim Öffnen alter Kästen aufgewirbelt wird."
+    },
+    {
+      "name": "Zeitschriftenarchiv (Erster Stock)",
+      "atmosphere": "Ein heller, offener Raum mit großen Tischen zum Ausbreiten von Zeitungsbänden. Das Licht ist greller, der Geruch von Druckerschwärze liegt in der Luft. Hier wird mehr geflüstert und getuschelt als im Lesesaal."
+    },
+    {
+      "name": "Untergeschoss (Lager & Technik)",
+      "atmosphere": "Kühl und leicht feucht. Ein Gewirr aus freiliegenden Rohren und dem leisen Summen des Heizkessels. Hier lagern weniger gefragte Bücher in dichten Metallregalen. Es riecht nach Moder, Kohlenstaub und Ozon."
+    },
+    {
+      "name": "Die 'Restricted Section' (Tresor im Untergeschoss)",
+      "atmosphere": "Hinter einer schweren, vergitterten Stahltür. Absolute Stille. Die Luft ist trocken und unnatürlich kalt. Es gibt keinen Staub. Es riecht nach nichts, was eine seltsame, sterile Unbehaglichkeit erzeugt. Das Licht einer einzelnen Glühbirne wirft harte Schatten."
+    }
+  ]
+}

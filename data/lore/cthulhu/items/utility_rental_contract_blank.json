@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Blanko-Mietvertrag",
+    "type":  "Utility",
+    "physical_description":  "Vordrucke mit Kautionsfeldern und Objektklauseln.",
+    "history":  "Makler- und Kanzleimaterial.",
+    "mechanics":  {
+                      "skill_check":  "Recht",
+                      "effect":  "Kann Tarnidentitäten als Mieter plausibel machen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Bürokratischer Zugang zu Häusern und Höfen.",
+    "inventory_tags":  [
+                           "utility",
+                           "recht",
+                           "tarnung",
+                           "inventar"
+                       ]
+}

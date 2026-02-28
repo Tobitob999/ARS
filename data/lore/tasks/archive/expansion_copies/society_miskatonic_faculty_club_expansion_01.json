@@ -1,0 +1,13 @@
+{
+    "name":  "The Miskatonic Faculty Club [Erweiterung]",
+    "type":  "Akademischer Club",
+    "public_facade":  "Ein privater Speise- und Lesesaal für die Professoren der Miskatonic University.",
+    "true_purpose":  "Ein Ort für akademische Rivalitäten und geheime Kooperationen. Hier wird über Expeditionen, Forschungsgelder und die Veröffentlichung brisanter Entdeckungen gestritten.",
+    "leader":  "Dekan Waldron von der medizinischen Fakultät.",
+    "headquarters":  "Ein Flügel des Hauptgebäudes der Universität.",
+    "infiltration":  "Nur für Fakultätsmitglieder. Spieler könnten versuchen, einen Professor zu überreden, sie als \u0027Gast\u0027 mitzunehmen, oder sich als Wartungspersonal ausgeben.",
+    "generated_variant":  true,
+    "source_seed_file":  "society_miskatonic_faculty_club.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

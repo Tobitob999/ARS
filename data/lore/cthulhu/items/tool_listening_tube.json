@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Abhoerrohr",
+    "type":  "Tool",
+    "physical_description":  "Metallrohr mit Membran zum Lauschen durch Wände/Türen.",
+    "history":  "Von Ermittlern in Altbau-Umfeldern genutzt.",
+    "mechanics":  {
+                      "skill_check":  "Lauschen",
+                      "effect":  "Verstaerkt Geraeusche hinter dünnen Trennflächen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Low-Tech-Abhörhilfe für verdeckte Beobachtung.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "ueberwachung",
+                           "inventar"
+                       ]
+}

@@ -1,0 +1,15 @@
+{
+    "name":  "Arkham Police Precinct [Erweiterung]",
+    "address":  "Central Square, Arkham",
+    "atmosphere":  "A grim, granite building that seems to absorb the light. Smells of stale cigar smoke, wet wool, and desperation. The holding cells in the basement are a place of profound misery.",
+    "details":  [
+                    "The bustling main desk, where officers ignore the pleas of the public.",
+                    "The evidence lock-up, filled with items from a hundred sordid crimes.",
+                    "Chief Chadwick\u0027s office, with a large map of Arkham dotted with pins."
+                ],
+    "clues":  "Crime reports of strange events, a corrupt officer willing to talk for a price, access to the evidence room.",
+    "generated_variant":  true,
+    "source_seed_file":  "arkham_police_precinct.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

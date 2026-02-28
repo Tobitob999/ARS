@@ -1,0 +1,7 @@
+{
+    "id":  "triple_dart_trap",
+    "module_type":  "trap",
+    "trigger_condition":  "Opening trapped chest latch",
+    "damage":  "3 (1d3 each)",
+    "saving_throw":  "vs. Paralyzation/Poison"
+}

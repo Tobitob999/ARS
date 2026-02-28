@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Gepolsterte Lederjacke",
+    "type":  "Protective Gear",
+    "physical_description":  "Schwere Lederjacke mit gefüttertem Rumpfbereich.",
+    "history":  "Arbeiter- und Motorradkleidung, robust gegen Abrieb.",
+    "mechanics":  {
+                      "skill_check":  "-",
+                      "effect":  "Mildert leichte Hieb-/Sturzfolgen situativ.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Unauffaelliger Schutz fuer Straßenszenen.",
+    "inventory_tags":  [
+                           "schutz",
+                           "kleidung",
+                           "inventar"
+                       ]
+}

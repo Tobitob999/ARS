@@ -1,0 +1,15 @@
+{
+    "name":  "Fakultät für Geschichte [Erweiterung]",
+    "head":  "Professor Wallace Dyer",
+    "focus":  "Kolonialgeschichte von Massachusetts und lokale Folklore.",
+    "atmosphere":  "Bibliotheksartig, ruhig, Stapel von alten Tagebüchern und Karten.",
+    "rumor":  "Dyer besitzt Abschriften der Prozessakten der Hexenprozesse von Salem, die Details enthalten, die aus den offiziellen Berichten getilgt wurden.",
+    "projects":  [
+                     "Genealogie der Gründerfamilien von Arkham",
+                     "Die Legende von Keziah Mason"
+                 ],
+    "generated_variant":  true,
+    "source_seed_file":  "faculty_history.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

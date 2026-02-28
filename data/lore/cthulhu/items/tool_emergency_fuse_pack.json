@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Sicherungs-Notpack",
+    "type":  "Tool",
+    "physical_description":  "Sortiment an Glassicherungen und Drahtsicherungen.",
+    "history":  "Elektrikerbedarf fuer Altinstallationen.",
+    "mechanics":  {
+                      "skill_check":  "Mechanik",
+                      "effect":  "Ermoeglicht provisorische Wiederherstellung von Stromkreisen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Unterschaetztes Utility bei Stromausfallplots.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "elektrik",
+                           "inventar"
+                       ]
+}

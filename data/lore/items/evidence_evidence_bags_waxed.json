@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Wachsbeschichtete Beweisbeutel",
+    "type":  "Document",
+    "physical_description":  "Feuchte-resistente Beutel mit Etikettfeld.",
+    "history":  "Forensische Sicherung bei Nässe/Schmutz.",
+    "mechanics":  {
+                      "skill_check":  "Spurensuche",
+                      "effect":  "Bewahrt Spurenqualität bei Transport.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Saubere Kette in schwieriger Umgebung.",
+    "inventory_tags":  [
+                           "beweis",
+                           "forensik",
+                           "inventar"
+                       ]
+}

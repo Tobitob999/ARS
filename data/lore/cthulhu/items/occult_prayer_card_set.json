@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Gebetskarten-Set",
+    "type":  "Occult Utility",
+    "physical_description":  "Laminiert wirkende Heiligenkarten mit kurzen Litaneien.",
+    "history":  "Kirchliche Massenware, oft als Schutzzeichen getragen.",
+    "mechanics":  {
+                      "skill_check":  "Psychoanalyse",
+                      "effect":  "Kann NSC beruhigen und Panikspiralen abflachen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Sozial-okkulter Brueckengegenstand.",
+    "inventory_tags":  [
+                           "okkult",
+                           "sozial",
+                           "schutz",
+                           "inventar"
+                       ]
+}

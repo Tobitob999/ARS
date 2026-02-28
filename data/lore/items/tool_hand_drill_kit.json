@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Handbohrer-Set",
+    "type":  "Tool",
+    "physical_description":  "Kurbelbohrer mit Wechselbits in Holzbox.",
+    "history":  "Hausmeister und Mechaniker nutzen ihn fuer Praezisionsarbeit.",
+    "mechanics":  {
+                      "skill_check":  "Mechanik",
+                      "effect":  "Ermoeglicht leises Bohren in Holz/duennes Metall.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Feinwerkzeug fuer vorbereitete Zugriffe.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "praezision",
+                           "inventar"
+                       ]
+}

@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Obsidian-Scherben-Set",
+    "type":  "Occult Utility",
+    "physical_description":  "Vier geschliffene schwarze Splitter in Stofftasche.",
+    "history":  "Von Okkultisten für Spiegel-/Grenzrituale genutzt.",
+    "mechanics":  {
+                      "skill_check":  "Okkultes Wissen",
+                      "effect":  "Dient als Fokuspunkt für Abgrenzungsriten.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Kompakter Fokus für Feldrituale.",
+    "inventory_tags":  [
+                           "okkult",
+                           "fokus",
+                           "inventar"
+                       ]
+}

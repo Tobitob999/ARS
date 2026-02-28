@@ -1,0 +1,24 @@
+{
+    "schema_version":  "1.1",
+    "name":  "Auszug aus Der König in Gelb (Akt 1, Szene 2) [Erweiterung]",
+    "type":  "Book Excerpt",
+    "category":  "library/excerpts",
+    "source_markdown":  "king_in_yellow_excerpt.md",
+    "converted_from_markdown":  true,
+    "tags":  [
+                 "library",
+                 "excerpt",
+                 "book",
+                 "mythos"
+             ],
+    "summary":  "\"CAMILLA: Du, mein Herr, solltest die Maske abnehmen.\r\nFREMDER: Wirklich?\r\nCASSILDA: Ja, es ist Zeit. Wir haben alle unsere Verkleidung abgelegt, nur du nicht.\r\nFREMDER: Ich trage keine Maske.\r\nCAMILLA: (Entsetzt) Keine Maske? Keine Maske!\"",
+    "source_text":  "# Auszug aus Der König in Gelb (Akt 1, Szene 2)\r\n\r\n\"CAMILLA: Du, mein Herr, solltest die Maske abnehmen.\r\nFREMDER: Wirklich?\r\nCASSILDA: Ja, es ist Zeit. Wir haben alle unsere Verkleidung abgelegt, nur du nicht.\r\nFREMDER: Ich trage keine Maske.\r\nCAMILLA: (Entsetzt) Keine Maske? Keine Maske!\"\r\n\r\n---\r\n**Effekt beim Lesen:**\r\n- **Stabilitätsverlust:** 1d3 (beim Verstehen der Implikation)\r\n- **Cthulhu-Mythos:** +1%",
+    "mechanics":  {
+                      "stability_loss":  "1d3 (beim Verstehen der Implikation)",
+                      "cthulhu_mythos":  "+1%"
+                  },
+    "generated_variant":  true,
+    "source_seed_file":  "king_in_yellow_excerpt.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

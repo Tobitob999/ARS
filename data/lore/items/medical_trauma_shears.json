@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Trauma-Schere",
+    "type":  "Medical Supply",
+    "physical_description":  "Stabile Schere zum schnellen Auftrennen von Kleidung.",
+    "history":  "Rettungs- und OP-Nebenmaterial.",
+    "mechanics":  {
+                      "skill_check":  "Erste Hilfe",
+                      "effect":  "Beschleunigt Versorgung bei schweren Verletzungen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Kleine Anschaffung, großer Notfallnutzen.",
+    "inventory_tags":  [
+                           "medizin",
+                           "notfall",
+                           "inventar"
+                       ]
+}

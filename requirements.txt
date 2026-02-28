@@ -1,0 +1,40 @@
+# ============================================================
+# ARS — Python-Abhaengigkeiten
+# Installation: pip install -r requirements.txt
+# ============================================================
+
+# ── KI-Backend (Task 02) ────────────────────────────────────
+google-genai>=1.0.0          # Gemini 2.5 Flash API (google-genai Paket)
+python-dotenv>=1.0.0         # .env Datei laden
+
+# ── Audio STT (Task 03) ─────────────────────────────────────
+faster-whisper>=1.0.0        # Faster-Whisper STT (CTranslate2, CPU int8)
+sounddevice>=0.4.6           # Audio I/O fuer Mikrofon + Lautsprecher
+pyaudio>=0.2.14              # Audio-Stream-Backend (Windows: pip install pyaudio)
+
+# Silero VAD — Voice Activity Detection
+# Benoetigt PyTorch. Empfohlene Installation (CPU-only, leichtgewichtig):
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+#   pip install silero-vad
+#
+silero-vad>=5.0
+# Ohne silero-vad pip-Paket: automatischer Fallback auf torch.hub.load()
+
+# ── Audio TTS (Task 03) ─────────────────────────────────────
+# Piper TTS (primaeres Backend, Deutsch):
+piper-tts>=1.4.0
+#
+# Kokoro-82M TTS (Englisch-Fallback, ~300MB):
+#   pip install kokoro-onnx
+#
+# Fallback wenn keines installiert: pyttsx3 (System-TTS)
+#   pip install pyttsx3
+
+# ── GUI Dashboard (Task 09) ──────────────────────────────────
+customtkinter>=5.2.0         # Dark-Mode GUI Framework (CTk)
+Pillow>=10.0.0               # Bildverarbeitung fuer Handout-Anzeige
+
+# ── Zusammenfassung Pflicht-Pakete fuer Voice-Modus ─────────
+# pip install faster-whisper sounddevice silero-vad piper-tts
+# pip install torch --index-url https://download.pytorch.org/whl/cpu
+# ============================================================

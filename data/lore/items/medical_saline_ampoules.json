@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Kochsalz-Ampullen",
+    "type":  "Medical Supply",
+    "physical_description":  "Sterile Salzloesung in kleinen Glasampullen.",
+    "history":  "Fuer Wund- und Augenreinigung im Feld.",
+    "mechanics":  {
+                      "skill_check":  "Erste Hilfe",
+                      "effect":  "Sichere Spuelung bei Staub/Chemie-Reizen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Einfaches aber wichtiges Medizin-Utility.",
+    "inventory_tags":  [
+                           "medizin",
+                           "reinigung",
+                           "inventar"
+                       ]
+}

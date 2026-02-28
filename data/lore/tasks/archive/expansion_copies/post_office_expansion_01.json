@@ -1,0 +1,29 @@
+{
+    "name":  "Arkham Post Office [Erweiterung]",
+    "type":  "Communication",
+    "location":  "Central Square, Arkham",
+    "atmosphere":  "Ein geschäftiger Ort mit langen Schlangen. Es riecht nach Siegellack, Papier und dem nassen Wollmantel des Postboten.",
+    "delivery_times":  [
+                           {
+                               "destination":  "Innerhalb Arkhams",
+                               "duration":  "1 Tag"
+                           },
+                           {
+                               "destination":  "Boston",
+                               "duration":  "1-2 Tage"
+                           },
+                           {
+                               "destination":  "Westküste (z.B. San Francisco)",
+                               "duration":  "5-7 Tage per Zug"
+                           },
+                           {
+                               "destination":  "Europa (z.B. London)",
+                               "duration":  "2-3 Wochen per Schiff"
+                           }
+                       ],
+    "notes":  "Post wird einmal täglich zugestellt. Ein Postfach zu mieten ist eine gute Möglichkeit, anonym Post zu empfangen.",
+    "generated_variant":  true,
+    "source_seed_file":  "post_office.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

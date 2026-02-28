@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Emaille-Feldflasche",
+    "type":  "Field Gear",
+    "physical_description":  "Robuste Feldflasche mit Filzhuelle und Schulterriemen.",
+    "history":  "Militaerischer Klassiker fuer lange Außeneinsaetze.",
+    "mechanics":  {
+                      "skill_check":  "-",
+                      "effect":  "Erhaelt Handlungsfaehigkeit auf langen Fußwegen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Kleines Objekt mit grossem Durchhaltewert.",
+    "inventory_tags":  [
+                           "feld",
+                           "versorgung",
+                           "inventar"
+                       ]
+}

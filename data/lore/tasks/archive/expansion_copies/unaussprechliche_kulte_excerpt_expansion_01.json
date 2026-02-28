@@ -1,0 +1,24 @@
+{
+    "schema_version":  "1.1",
+    "name":  "Auszug aus Unaussprechliche Kulte (Der Schwarze Stein) [Erweiterung]",
+    "type":  "Book Excerpt",
+    "category":  "library/excerpts",
+    "source_markdown":  "unaussprechliche_kulte_excerpt.md",
+    "converted_from_markdown":  true,
+    "tags":  [
+                 "library",
+                 "excerpt",
+                 "book",
+                 "mythos"
+             ],
+    "summary":  "\"Es gibt Steine, die nicht von dieser Erde sind. Sie fallen vom Himmel und bringen Träume mit sich. Wer neben dem Schwarzen Stein schläft, sieht die Stadt unter dem Meer. Er hört den Ruf. Er wird gezeichnet. Das Zeichen ist unsichtbar, aber die anderen spüren es. Die Hunde bellen, die Katzen fauchen. Und in der Nacht k...",
+    "source_text":  "# Auszug aus Unaussprechliche Kulte (Der Schwarze Stein)\r\n\r\n\"Es gibt Steine, die nicht von dieser Erde sind. Sie fallen vom Himmel und bringen Träume mit sich. Wer neben dem Schwarzen Stein schläft, sieht die Stadt unter dem Meer. Er hört den Ruf. Er wird gezeichnet. Das Zeichen ist unsichtbar, aber die anderen spüren es. Die Hunde bellen, die Katzen fauchen. Und in der Nacht kommen die Diener, um den Gezeichneten zu holen. Es gibt kein Entkommen vor dem, was in den Sternen geschrieben steht.\"\r\n\r\n---\r\n**Effekt beim Lesen:**\r\n- **Stabilitätsverlust:** 1d6\r\n- **Cthulhu-Mythos:** +2%",
+    "mechanics":  {
+                      "stability_loss":  "1d6",
+                      "cthulhu_mythos":  "+2%"
+                  },
+    "generated_variant":  true,
+    "source_seed_file":  "unaussprechliche_kulte_excerpt.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

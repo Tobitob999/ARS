@@ -1,0 +1,17 @@
+{
+  "name": "Telefonnetz von Arkham",
+  "type": "Communication",
+  "functionality": {
+    "name": "Vermittlungsstelle ('Fräulein vom Amt')",
+    "description": "Es gibt keine Direktwahl. Man muss die Kurbel am Telefon drehen, um eine Verbindung zur zentralen Vermittlungsstelle herzustellen. Eine Operatorin ('Fräulein vom Amt') fragt nach der gewünschten Nummer und steckt dann manuell ein Kabel um, um die Verbindung herzustellen.",
+    "privacy": "Die Operatorin kann jedes Gespräch mithören."
+  },
+  "directory_excerpt": [
+    { "name": "Arkham Police Department", "number": "15" },
+    { "name": "St. Mary's Hospital", "number": "22" },
+    { "name": "Miskatonic University (Zentrale)", "number": "45" },
+    { "name": "Orne Library (Miskatonic)", "number": "46" },
+    { "name": "Arkham Advertiser (Zeitung)", "number": "31" },
+    { "name": "Arkham Sanitarium", "number": "88" }
+  ]
+}

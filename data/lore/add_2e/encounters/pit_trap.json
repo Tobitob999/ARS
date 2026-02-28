@@ -1,0 +1,7 @@
+{
+    "id":  "pit_trap",
+    "module_type":  "trap",
+    "trigger_condition":  "Pressure plate in narrow hallway",
+    "damage":  "1d6",
+    "saving_throw":  "none"
+}

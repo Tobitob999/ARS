@@ -1,0 +1,11 @@
+{
+    "name":  "Arkham Advertiser: \u0027Sailors Vanish from Docks\u0027 [Erweiterung]",
+    "type":  "Newspaper Article",
+    "date":  "October 17, 1923",
+    "physical_description":  "A clipped article from the local paper, slightly yellowed.",
+    "content_summary":  "Reports on the third disappearance of a dockworker in as many months. Police Chief Chadwick dismisses the events as \u0027unrelated incidents\u0027 and warns against \u0027idle speculation\u0027, but locals whisper of \u0027things\u0027 that crawl out of the Miskatonic River at high tide.",
+    "generated_variant":  true,
+    "source_seed_file":  "advertiser_disappearances.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

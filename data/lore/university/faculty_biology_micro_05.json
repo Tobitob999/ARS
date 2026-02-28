@@ -1,0 +1,26 @@
+﻿{
+    "name":  "faculty biology - Drucklinie",
+    "type":  "Lore Snippet",
+    "category":  "university",
+    "tags":  [
+                 "generated",
+                 "micro",
+                 "hook",
+                 "wave5",
+                 "creative"
+             ],
+    "primary_conflict":  "eine Falschmeldung loest Kettenreaktionen aus",
+    "dramatic_angle":  "okkult",
+    "price_of_success":  "politische Deckung",
+    "countdown":  "bis die Presse Wind bekommt",
+    "fallback_plan":  "Rueckzug mit Teilgewinn",
+    "hook":  "Probe auf Erste Hilfe: Erfolg klaert die Lage, Misserfolg erhoeht den Preis von Erfolg im Folgezug.",
+    "gm_moves":  [
+                     "Zeige den Preis, bevor die Entscheidung faellt",
+                     "Starte den Countdown sichtbar im Raum",
+                     "Lass einen Erfolg zwei neue Probleme oeffnen"
+                 ],
+    "source_seed_file":  "faculty_biology.json",
+    "generation_method":  "microcontent-v6",
+    "fraktionslage":  "stabil"
+}

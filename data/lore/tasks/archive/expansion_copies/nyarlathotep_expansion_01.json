@@ -1,0 +1,15 @@
+{
+    "name":  "Nyarlathotep (Das Kriechende Chaos) [Erweiterung]",
+    "type":  "Outer God",
+    "manifestations":  [
+                           "Das Auftauchen charismatischer, aber unheimlicher Fremder, die neue Technologien oder Lehren predigen.",
+                           "Plötzliche Ausbrüche von Wahnsinn und Gewalt in der Bevölkerung.",
+                           "Seltsame elektrische Phänomene und das Gefühl, beobachtet zu werden."
+                       ],
+    "cult_connection":  "Church of Starry Wisdom (Providence), Der Kult der Schwarzen Pharaonen, diverse Hexenzirkel (als \u0027Der Schwarze Mann\u0027).",
+    "presence_sign":  "Ein hohes, summendes Geräusch und der Geruch von Ozon.",
+    "generated_variant":  true,
+    "source_seed_file":  "nyarlathotep.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

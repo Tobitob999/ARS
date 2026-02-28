@@ -1,0 +1,15 @@
+{
+    "name":  "Devil\u0027s Hop Yard [Erweiterung]",
+    "address":  "Hügel westlich von Arkham",
+    "atmosphere":  "Ein bizarres Feld aus zylindrischen Felsformationen, die wie die Schornsteine der Hölle aus dem Boden ragen. Der Ort ist kahl und leblos. Geräusche hallen auf unnatürliche Weise wider.",
+    "details":  [
+                    "Die Felsen sind mit seltsamen, wabenartigen Löchern übersät.",
+                    "Ein schwacher, chemischer Geruch liegt in der Luft.",
+                    "Bei Nacht kann man manchmal ein schwaches, violettes Leuchten aus den Löchern der Felsen sehen."
+                ],
+    "clues":  "Geologen können die Felsformationen nicht erklären. Legenden der Mi\u0027kmaq-Indianer warnen davor, dass dies ein Ort ist, an dem \u0027die Sternenbrüder landen\u0027.",
+    "generated_variant":  true,
+    "source_seed_file":  "devils_hop_yard.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Trittspur-Gitterrahmen",
+    "type":  "Tool",
+    "physical_description":  "Leichter Rahmen zur Rasterung von Spurfeldern.",
+    "history":  "Forensik-Hilfsmittel fuer strukturierte Dokumentation.",
+    "mechanics":  {
+                      "skill_check":  "Spurensuche",
+                      "effect":  "Verbessert Vergleich und Reihenfolge von Trittabdruecken.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Saubere Methodik am Tatort.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "forensik",
+                           "inventar"
+                       ]
+}

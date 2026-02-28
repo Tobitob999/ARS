@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Dampfbriefoeffner",
+    "type":  "Tool",
+    "physical_description":  "Kleines Dampfraehrchen zum schonenden Oeffnen von Umschlaegen.",
+    "history":  "Spionage- und Archivtrick seit Jahrzehnten.",
+    "mechanics":  {
+                      "skill_check":  "Kunst \u0026 Handwerk",
+                      "effect":  "Kann Siegel/Leim loesen ohne sichtbare Gewalt.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Diskrete Dokumentenbeschaffung.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "dokument",
+                           "inventar"
+                       ]
+}

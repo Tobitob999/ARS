@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Messband 30m",
+    "type":  "Tool",
+    "physical_description":  "Stahlband in Kurbelgehäuse, metrisch und imperial.",
+    "history":  "Vermesser- und Baustellenstandard.",
+    "mechanics":  {
+                      "skill_check":  "Spurensuche",
+                      "effect":  "Verbessert Rekonstruktion von Tatortabstaenden.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Kleines Tool, grosse Klarheit.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "forensik",
+                           "inventar"
+                       ]
+}

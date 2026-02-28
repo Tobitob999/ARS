@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Kurbel-Feldfunkgeraet",
+    "type":  "Communication Gear",
+    "physical_description":  "Kompaktes Funkgeraet mit Handkurbel und Drahtantenne.",
+    "history":  "Fruehe Mobilfunktechnik, begrenzte Reichweite.",
+    "mechanics":  {
+                      "skill_check":  "Wissenschaft (Physik)",
+                      "effect":  "Kurzzeitkommunikation bei Ausfall regulärer Leitungen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Notkommunikation fuer abgelegene Orte.",
+    "inventory_tags":  [
+                           "kommunikation",
+                           "technik",
+                           "inventar"
+                       ]
+}

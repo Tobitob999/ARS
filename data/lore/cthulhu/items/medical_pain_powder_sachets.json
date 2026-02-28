@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Schmerzpulver-Sachets",
+    "type":  "Medical Supply",
+    "physical_description":  "Einzeldosen gegen Kopf- und Muskelschmerz.",
+    "history":  "Apothekenstandard der Zeit.",
+    "mechanics":  {
+                      "skill_check":  "Medizin",
+                      "effect":  "Mildert leichte bis mittlere Beschwerden kurzzeitig.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Alltagsmedizin fuer Ausdauer in langen Faellen.",
+    "inventory_tags":  [
+                           "medizin",
+                           "alltag",
+                           "inventar"
+                       ]
+}

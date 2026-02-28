@@ -1,0 +1,12 @@
+{
+  "name": "Innsmouth Gold Coin",
+  "type": "Mysterious Artifact",
+  "physical_description": "A gold coin of unusual alloy, feeling slightly greasy to the touch. One side shows a fish-like humanoid creature, the other a strange, tiara-like symbol.",
+  "history": "These coins sometimes appear in Arkham, usually spent by furtive-looking sailors. Most shopkeepers refuse to accept them.",
+  "mechanics": {
+    "sanity_loss": "0/1 (if the owner has nightmares of the sea)",
+    "skill_check": "History or Archaeology to realize it matches no known currency.",
+    "effect": "Anyone who carries the coin for more than a week begins to feel a strange pull toward the sea and may develop a sensitivity to sunlight."
+  },
+  "content_summary": "The coin is a token of the Esoteric Order of Dagon, used to mark those with the 'Innsmouth Look'."
+}

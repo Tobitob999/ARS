@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Zugticket-Heft",
+    "type":  "Utility",
+    "physical_description":  "Vorausgekaufte Regionaltickets mit Datumsfeldern.",
+    "history":  "Nützlich für spontane Verfolgungen über Stadtgrenzen.",
+    "mechanics":  {
+                      "skill_check":  "-",
+                      "effect":  "Erlaubt sofortige Mobilität ohne Schalterverlust.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Tempohebel bei Flucht und Verfolgung.",
+    "inventory_tags":  [
+                           "utility",
+                           "reise",
+                           "inventar"
+                       ]
+}

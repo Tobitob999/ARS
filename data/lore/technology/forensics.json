@@ -1,0 +1,26 @@
+{
+  "name": "Forensische Methoden der 1920er",
+  "type": "Technology",
+  "methods": [
+    {
+      "name": "Fingerabdrücke (Daktyloskopie)",
+      "description": "Eine relativ neue Technik. Fingerabdrücke können mit Rußpulver an Tatorten gesichert werden. Der Abgleich mit Verdächtigen erfolgt manuell und ist extrem zeitaufwendig. Eine zentrale Datenbank existiert nicht.",
+      "mechanics": "Erfordert eine erfolgreiche 'Spurensuche'-Probe, um brauchbare Abdrücke zu finden."
+    },
+    {
+      "name": "Blutgruppen-Analyse",
+      "description": "Die Blutgruppen A, B, AB und 0 sind bekannt. Ein Test kann eine Person als Täter ausschließen, aber nicht eindeutig identifizieren. Die Tests werden selten direkt am Tatort durchgeführt.",
+      "mechanics": "Erfordert eine 'Medizin'- oder 'Naturwissenschaften'-Probe."
+    },
+    {
+      "name": "Ballistik",
+      "description": "Der Vergleich von Projektilen ist in den Kinderschuhen. Man kann das Kaliber bestimmen, aber ein direkter Abgleich mit einer Waffe ist ungenau und vor Gericht kaum zulässig.",
+      "mechanics": "Eine 'Handfeuerwaffen'-Probe kann das Kaliber bestimmen."
+    },
+    {
+      "name": "Tatortfotografie",
+      "description": "Fotografien werden mit großen Plattenkameras und Magnesium-Blitzpulver gemacht. Der Blitz ist hell und laut und hinterlässt eine Rauchwolke. Die Entwicklung der Glasplatten dauert Stunden.",
+      "mechanics": "Eine 'Fotografie'-Probe ist nötig, um ein scharfes, aussagekräftiges Bild zu machen."
+    }
+  ]
+}

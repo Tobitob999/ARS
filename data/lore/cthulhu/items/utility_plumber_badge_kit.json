@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Klempner-Ausweis-Set",
+    "type":  "Utility",
+    "physical_description":  "Werkmarke, Formularblock und verschmutzte Arbeitskarte.",
+    "history":  "Unterweltprodukt fuer Service-Zutritt in Hinterhöfe.",
+    "mechanics":  {
+                      "skill_check":  "Verkleiden",
+                      "effect":  "Kann Zugang zu Kellern/Leitungsräumen ermoeglichen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Praktische Cover-Identitaet fuer Hauszugriff.",
+    "inventory_tags":  [
+                           "utility",
+                           "tarnung",
+                           "zugang",
+                           "inventar"
+                       ]
+}

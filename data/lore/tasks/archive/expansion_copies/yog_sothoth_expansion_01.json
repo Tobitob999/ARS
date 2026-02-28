@@ -1,0 +1,15 @@
+{
+    "name":  "Yog-Sothoth (Der Schlüssel und das Tor) [Erweiterung]",
+    "type":  "Outer God",
+    "manifestations":  [
+                           "Zeitverzerrungen: Uhren laufen rückwärts oder bleiben stehen, Tage scheinen Stunden zu dauern.",
+                           "Das Erscheinen von schillernden, schwebenden Sphären, die sich teilen und verschmelzen.",
+                           "Visionen von Vergangenheit und Zukunft, die sich überlagern."
+                       ],
+    "cult_connection":  "Die Whateley-Familie (Dunwich), Hexenmeister, die nach Unsterblichkeit oder Wissen streben.",
+    "presence_sign":  "Ein fauliger Geruch, der nicht von dieser Welt ist, und eine statische Aufladung der Luft.",
+    "generated_variant":  true,
+    "source_seed_file":  "yog_sothoth.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

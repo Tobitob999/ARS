@@ -1,0 +1,194 @@
+{
+  "schema_version": "1.0.0",
+  "title": "Template-Abenteuer",
+  "setting": "Arkham, Massachusetts — 1920er Jahre",
+  "difficulty": "Einstieg",
+  "intro": "Die Herbstluft ist kuhl und feucht, als ihr den Bahnhof von Arkham verlasst. Ein Telegramm hat euch hierher gefuehrt, geschrieben in hastiger Schrift. Die Worte waren knapp: 'Kommt sofort. Es geht um Leben und Tod.' Unterzeichnet von einem alten Bekannten, Professor Elias Warren.",
+  "hook": "Professor Warren hat bei Ausgrabungen auf dem Gelaende einer abgebrannten Kirche etwas gefunden, das ihn zutiefst verstört. Er traut sich nicht, es am Telefon zu erklaeren.",
+  "keeper_lore": "Professor Warren hat ein Fragment einer Steintafel gefunden, auf der eine Beschwörungsformel eingraviert ist. Seit er die Inschrift laut vorgelesen hat, hoert er nachts Stimmen. Die Tafel ist ein Schluessel — sie oeffnet eine Verbindung zu einer Entitaet jenseits unserer Realitaet. Die Stimmen werden staerker. Warren hat nur noch wenige Tage, bevor er den Verstand verliert.",
+
+  "start_location": "bahnhof",
+
+  "flags": {
+    "warren_getroffen": false,
+    "tafel_gesehen": false,
+    "inschrift_uebersetzt": false,
+    "bibliothek_besucht": false,
+    "ritual_bekannt": false,
+    "tafel_zerstoert": false,
+    "warren_wahnsinnig": false,
+    "entitaet_manifestiert": false
+  },
+
+  "locations": [
+    {
+      "id": "bahnhof",
+      "name": "Bahnhof Arkham",
+      "description": "Ein kleiner Backsteinbau mit einem verwitterten Holzschild. Dampf wabert ueber die Gleise. Wenige Reisende hasten durch die Abendkaelte.",
+      "atmosphere": "Kalt, windig. Der Geruch von Kohle und nassem Laub. Eine einzelne Gaslaterne flackert am Ausgang.",
+      "npcs_present": [],
+      "clues_available": [],
+      "exits": {
+        "uni_viertel": "Eine Droschke wartet — 'Zum Universitaetsviertel, bitte.'"
+      }
+    },
+    {
+      "id": "uni_viertel",
+      "name": "Universitaetsviertel",
+      "description": "Kopfsteinpflasterstrassen gesaeumt von alten Ulmen. Die gotischen Gebaeude der Miskatonic University ragen dunkel gegen den Abendhimmel.",
+      "atmosphere": "Akademische Stille. Vereinzelt brennt Licht hinter Fenstern. Irgendwo bellt ein Hund.",
+      "npcs_present": [],
+      "clues_available": [],
+      "exits": {
+        "warren_buero": "Warrens Buero liegt im Nordflügel des Archäologie-Gebaeudes.",
+        "bibliothek": "Die Orne Library steht nur wenige Schritte entfernt.",
+        "bahnhof": "Zurueck zum Bahnhof."
+      }
+    },
+    {
+      "id": "warren_buero",
+      "name": "Professor Warrens Buero",
+      "description": "Ein ueberquellender Raum voller Buecher, Karten und Artefakte. Auf dem Schreibtisch liegt ein in Stoff gewickeltes Fragment — die Steintafel. Warren sieht bleich und uebernaechtigt aus.",
+      "atmosphere": "Stickige Luft, ueberladen mit dem Geruch alter Buecher. Eine Schreibtischlampe wirft scharfe Schatten. Warren zittert leicht.",
+      "npcs_present": ["warren"],
+      "clues_available": ["tafel_fragment", "warrens_notizen"],
+      "exits": {
+        "uni_viertel": "Hinaus ins Universitaetsviertel."
+      },
+      "keeper_notes": "Warren erzaehlt zunaechst nur von der 'seltsamen Inschrift'. Erst wenn die Spieler nachhaken oder eine Psychologie-Probe bestehen, gibt er zu, dass er Stimmen hoert.",
+      "sub_locations": [
+        {
+          "id": "warren_schreibtisch",
+          "name": "Warrens Schreibtisch",
+          "description": "Zwischen Papierbergen liegt die Steintafel, eingewickelt in ein Leinentuch. Daneben ein Notizbuch mit hastigen Kritzeleien.",
+          "clues": ["tafel_fragment", "warrens_notizen"],
+          "events": [
+            {
+              "trigger": "Spieler untersucht die Tafel",
+              "effect": "Die Symbole auf der Tafel scheinen im Lampenlicht zu pulsieren. Ein leises Summen fuellt den Raum.",
+              "sets_flag": "tafel_gesehen"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bibliothek",
+      "name": "Orne Library",
+      "description": "Die grosse Bibliothek der Miskatonic University. Endlose Regalreihen, der Geruch von altem Papier. Im Keller gibt es eine Abteilung fuer seltene Texte.",
+      "atmosphere": "Staubig, still. Das Knarren der Holzboeden ist das lauteste Geraeusch. Vereinzelt husten Studenten.",
+      "npcs_present": ["cole"],
+      "clues_available": ["uebersetzung_buch"],
+      "exits": {
+        "uni_viertel": "Zurueck ins Universitaetsviertel."
+      },
+      "keeper_notes": "Der Bibliothekar Henry Cole kennt die Symbole nicht, aber er weiss, wo die relevanten Buecher stehen. Zugang zur Restricted Section nur mit Genehmigung des Dekans oder einer ueberzeugenden Ueberredungs-Probe."
+    }
+  ],
+
+  "npcs": [
+    {
+      "id": "warren",
+      "name": "Professor Elias Warren",
+      "role": "Auftraggeber, Archaeologe",
+      "description": "Ein hagerer Mann Ende 50 mit schlohweissem Haar und tiefen Augenringen. Seine Haende zittern, wenn er ueber die Tafel spricht.",
+      "appearance": "Tweedjacke mit Lederflicken, ungekämmtes Haar, nervoeser Blick",
+      "personality": "Normalerweise ruhig und methodisch, jetzt verängstigt und fahrig. Versucht rational zu bleiben, obwohl die Stimmen ihn quaelen.",
+      "knowledge": [
+        "Hat die Tafel vor 3 Wochen bei einer Ausgrabung gefunden",
+        "Hat die Inschrift laut vorgelesen — seitdem hoert er die Stimmen",
+        "Weiss, dass die Symbole keiner bekannten Sprache entsprechen"
+      ],
+      "secrets": [
+        "Er hat die Inschrift bereits zweimal vorgelesen, weil er hoffte sie dadurch zu verstehen",
+        "Jedes Mal wurden die Stimmen lauter"
+      ],
+      "dialogue_hints": [
+        "Spricht leise, blickt sich oft um",
+        "Fasst sich immer wieder an die Schlaefe",
+        "Wird aggressiv, wenn man ihm vorwirft sich etwas einzubilden"
+      ]
+    },
+    {
+      "id": "cole",
+      "name": "Henry Cole",
+      "role": "Bibliothekar, Orne Library",
+      "description": "Ein rundlicher, freundlicher Mann mit Nickelbrille und einer Vorliebe fuer Ordnung.",
+      "appearance": "Weste, Fliege, stets eine Leselupe in der Brusttasche",
+      "personality": "Hilfsbereit, aber buchstabengetreu bei den Regeln der Bibliothek.",
+      "knowledge": [
+        "Kennt den Bestand der Bibliothek auswendig",
+        "Weiss, dass es in der Restricted Section Buecher ueber 'vorgeschichtliche Sprachen' gibt"
+      ],
+      "secrets": [],
+      "dialogue_hints": [
+        "Spricht in langen, wohlueberlegten Saetzen",
+        "Fluuestert automatisch, auch ausserhalb der Bibliothek"
+      ]
+    }
+  ],
+
+  "clues": [
+    {
+      "id": "tafel_fragment",
+      "location": "warren_buero",
+      "sub_location": "warren_schreibtisch",
+      "name": "Steintafel-Fragment",
+      "description": "Ein handgrosses Stueck schwarzen Basalts, bedeckt mit feinen, spiralfoermigen Symbolen. Die Oberflaeche fuehlt sich seltsam warm an.",
+      "probe_required": null,
+      "information": "Die Symbole sind in keiner bekannten Schrift verfasst. Bei laengerem Betrachten scheinen sie sich zu bewegen.",
+      "sanity_loss": "0/1",
+      "leads_to": ["uebersetzung_buch"],
+      "sets_flag": "tafel_gesehen"
+    },
+    {
+      "id": "warrens_notizen",
+      "location": "warren_buero",
+      "sub_location": "warren_schreibtisch",
+      "name": "Warrens Notizbuch",
+      "description": "Ein abgegriffenes Notizbuch. Die letzten Seiten sind mit immer wilder werdenden Notizen gefuellt. Wiederholte Worte: 'Sie rufen. Sie kommen naeher.'",
+      "probe_required": "Bibliotheksnutzung",
+      "information": "Warren hat die Symbole teilweise transkribiert. Eine Anmerkung verweist auf ein Buch in der Orne Library: 'Priscilla Waites Uebersetzungen vorkolonialer Artefakte'.",
+      "sanity_loss": null,
+      "leads_to": ["uebersetzung_buch"],
+      "sets_flag": null
+    },
+    {
+      "id": "uebersetzung_buch",
+      "location": "bibliothek",
+      "name": "Waites Uebersetzungen",
+      "description": "Ein vergilbter Band aus dem Jahr 1847. Kapitel 7 enthaelt Abbildungen, die den Symbolen auf der Tafel stark aehneln.",
+      "probe_required": "Bibliotheksnutzung",
+      "information": "Die Symbole sind eine Anrufung — sie oeffnen eine 'Tuer des Geistes' zu einer Entitaet, die in der Dunkelheit zwischen den Sternen lebt. Das Buch beschreibt auch ein Gegenritual zur Versiegelung.",
+      "sanity_loss": "1/1d3",
+      "mythos_gain": 2,
+      "leads_to": [],
+      "sets_flag": "ritual_bekannt"
+    }
+  ],
+
+  "resolution": {
+    "good_ending": "Die Investigatoren fuehren das Gegenritual durch und zerstoeren die Tafel. Die Stimmen verstummen. Warren ist erschoepft, aber gerettet. Die Fragmente der Tafel verglühen zu schwarzem Staub.",
+    "bad_ending": "Warren liest die Inschrift ein drittes Mal. Die Entitaet manifestiert sich als schattenhafter Riss in der Realitaet. Warren wird in den Wahnsinn getrieben. Die Investigatoren muessen fliehen oder werden selbst verschlungen.",
+    "conditions": {
+      "good_requires": ["ritual_bekannt", "tafel_gesehen"],
+      "bad_triggers": ["warren_wahnsinnig", "entitaet_manifestiert"]
+    }
+  },
+
+  "handouts": [
+    {
+      "id": "telegramm",
+      "type": "text",
+      "title": "Telegramm von Professor Warren",
+      "content": "KOMMT SOFORT STOP ES GEHT UM LEBEN UND TOD STOP KANN NICHT AM TELEFON ERKLAEREN STOP BUERO MISKATONIC NORDFLÜGEL STOP WARREN"
+    },
+    {
+      "id": "warrens_skizze",
+      "type": "text",
+      "title": "Warrens Symbolskizze",
+      "content": "Eine hastige Bleistiftzeichnung: Spiralfoermige Linien, die sich in der Mitte zu einem Auge verdichten. Daneben die Notiz: 'Nicht laut vorlesen!'",
+      "requires_flag": "tafel_gesehen"
+    }
+  ]
+}

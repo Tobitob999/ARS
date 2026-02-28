@@ -1,0 +1,34 @@
+{
+  "scenario_seeds": [
+    {
+      "title": "The Disappearing Student",
+      "premise": "A promising folklore student of Professor Upham vanishes after boasting he found a key to the Miskatonic Library's restricted collection. Upham, fearing a scandal that could ruin his tenure application, hires the investigators to find the student discreetly before the university or police get involved.",
+      "involved_npcs": ["Professor Francis Upham", "Abigail Whateley", "Chief Jedediah Chadwick"],
+      "involved_locations": ["Miskatonic University Library", "Garrison Street Tenements", "Blackwood Park"]
+    },
+    {
+      "title": "An Inheritance of Shadow",
+      "premise": "The investigators are named as the sole heirs to a dilapidated mansion by a distant relative they've never met. The will, filed at City Hall, stipulates they must spend one full night in the house to claim the property. The house's architecture seems to defy geometry, and locals, like Old Man Slocum, rave that the house 'has bad angles'.",
+      "involved_npcs": ["Asenath Peabody", "Old Man Slocum"],
+      "involved_locations": ["Arkham City Hall", "The Inherited House (new location)", "Blackwood Park"]
+    },
+    {
+      "title": "The Reanimator's Request",
+      "premise": "Dr. Herbert West, in a panic, hires the investigators for a 'discreet recovery'. He claims a rival stole a 'unique tissue sample' from the morgue. The 'sample' is actually a reanimated human hand that escaped his lab and is now skittering through the hospital's ventilation shafts.",
+      "involved_npcs": ["Dr. Herbert West", "Dr. Alistair Harding", "Sergeant Patrick O'Connell"],
+      "involved_locations": ["St. Mary's Hospital", "Arkham City Morgue"]
+    },
+    {
+      "title": "The Laudanum Trail",
+      "premise": "Dr. Harding's private laudanum supply has run dry. His smuggler, Finn O'Donnell, is missing. Desperate and suffering from withdrawal, Harding hires the investigators to find Finn. The trail leads to Hibb's Roadhouse, where they learn Finn's boat was last seen heading toward the forbidden coast of Innsmouth.",
+      "involved_npcs": ["Dr. Alistair Harding", "Finn O'Donnell", "'Knuckles' Malone"],
+      "involved_locations": ["St. Mary's Hospital", "Hibb's Roadhouse", "The Miskatonic River Docks"]
+    },
+    {
+      "title": "The Collector's Price",
+      "premise": "A wealthy member of the Silver Twilight Lodge, Carl Sanford, hires the investigators to acquire a 'strangely warm glyph stone' from Barnabas Marsh's antique shop, offering an exorbitant price. Marsh, however, refuses to sell, terrified, claiming the stone 'sings to him' at night and must not be moved.",
+      "involved_npcs": ["Barnabas Marsh", "Carl Sanford (from Silver Twilight Lodge org)"],
+      "involved_locations": ["Eibon-Antiquitäten", "The Silver Twilight Lodge"]
+    }
+  ]
+}

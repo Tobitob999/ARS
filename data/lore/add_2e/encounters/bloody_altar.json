@@ -1,0 +1,8 @@
+{
+    "id":  "bloody_altar",
+    "module_type":  "event",
+    "trigger_condition":  "Examining defiled shrine",
+    "damage":  "none",
+    "saving_throw":  "none",
+    "effect_description":  "Narrative dungeon dressing or encounter hook."
+}

@@ -1,0 +1,17 @@
+{
+    "name":  "st marys hospital - Kreuzverbindung",
+    "type":  "Lore Snippet",
+    "category":  "locations",
+    "tags":  [
+                 "generated",
+                 "micro",
+                 "hook",
+                 "wave3"
+             ],
+    "content_summary":  "Ausgeloest durch ein stillgelegter Nebenraum bei akute Ressourcenknappheit; die Lage kippt Richtung eine neue Spur auf einen Mittelsmann.",
+    "hook":  "Mit einer Probe auf Verborgenes Erkennen sichern die Investigatoren einen Vorteil; andernfalls verliert die Gruppe Initiative im Schauplatz.",
+    "gm_note":  "Als Twist im laufenden Dialog einbauen; unmittelbar mit einem NSC oder Ort koppeln.",
+    "source_seed_file":  "st_marys_hospital.json",
+    "generation_method":  "microcontent-v4",
+    "zugriffsmuster":  "tagaktiv"
+}

@@ -1,0 +1,17 @@
+{
+    "name":  "deans corners - Folgespur",
+    "type":  "Lore Snippet",
+    "category":  "locations\\regional",
+    "tags":  [
+                 "generated",
+                 "micro",
+                 "hook",
+                 "wave2"
+             ],
+    "content_summary":  "Im Randbezirk kursiert: ein kurzer Stromausfall in Arkham; Tonlage: dringlich.",
+    "hook":  "Bei gelungener Probe (Erste Hilfe) erhalten die Investigatoren einen Vorsprung; bei Misserfolg entsteht ein stilles Eingreifen einer dritten Partei.",
+    "gm_note":  "Als Anschluss an bestehende Szene nutzen; auf 2-4 Dialogwechsel begrenzen.",
+    "source_seed_file":  "deans_corners.json",
+    "generation_method":  "microcontent-v3",
+    "lore_fokus":  "situativ"
+}

@@ -1,0 +1,7 @@
+{
+    "id":  "alarm_gong_trap",
+    "module_type":  "trap",
+    "trigger_condition":  "Opening trapped bronze door",
+    "damage":  "none",
+    "saving_throw":  "none"
+}

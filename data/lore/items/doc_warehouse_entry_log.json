@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Lagerhaus-Zutrittslog",
+    "type":  "Document",
+    "physical_description":  "Tabellarisches Logbuch mit Zeitstempeln und Signaturfeldern.",
+    "history":  "Industriebetriebe nutzen es zur Schichtkontrolle.",
+    "mechanics":  {
+                      "skill_check":  "Spurensuche",
+                      "effect":  "Ermoeglicht Rekonstruktion von Bewegungsmustern.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Zeitlinie fuer Tatortnahe Analyse.",
+    "inventory_tags":  [
+                           "dokument",
+                           "analyse",
+                           "inventar"
+                       ]
+}

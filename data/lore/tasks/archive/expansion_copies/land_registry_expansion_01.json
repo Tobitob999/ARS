@@ -1,0 +1,12 @@
+{
+    "name":  "Grundbuchamt (Land Registry Office) [Erweiterung]",
+    "type":  "Administration",
+    "location":  "Erdgeschoss des Rathauses (City Hall).",
+    "atmosphere":  "Ein trockener, bürokratischer Raum, gefüllt mit riesigen, in Leder gebundenen Grundbüchern.",
+    "records":  "Enthält Informationen über den aktuellen und alle früheren Besitzer jedes Grundstücks in Arkham. Die Suche ist mühsam und erfordert eine genaue Adresse oder einen Namen.",
+    "access":  "Öffentlich zugänglich, aber die Recherche kann Stunden dauern (erfordert \u0027Bürokratie\u0027 oder \u0027Bibliotheksnutzung\u0027-Probe).",
+    "generated_variant":  true,
+    "source_seed_file":  "land_registry.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

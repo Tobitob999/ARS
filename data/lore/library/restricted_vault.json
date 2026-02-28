@@ -1,0 +1,28 @@
+{
+  "name": "Die Restricted Section der Orne Library",
+  "type": "Secure Vault",
+  "access_rules": {
+    "requirements": "Ein unterzeichnetes Empfehlungsschreiben von zwei Fakultätsleitern, darunter Dr. Armitage. Der Antrag muss den genauen Grund der Forschung darlegen und wird vom Universitätsrat geprüft.",
+    "key_holders": "Dr. Armitage besitzt den einzigen Hauptschlüssel. Der Nacht-Hausmeister (Samuel Hemlock) hat einen Notschlüssel, dessen Benutzung protokolliert wird."
+  },
+  "security_measures": [
+    {
+      "name": "Physische Sicherheit",
+      "description": "Eine schwere Stahltür mit einem komplexen Chubb-Schloss, hinter der sich ein Gitter aus gehärtetem Stahl befindet. Die Wände des Tresors sind aus massivem Granit."
+    },
+    {
+      "name": "Alarm System",
+      "description": "Ein mechanischer Glockenzug ist mit der Tresortür verbunden. Jeder Versuch, die Tür gewaltsam zu öffnen, löst eine laute Glocke im Büro des Sicherheitsdienstes aus. Das System ist alt, aber zuverlässig."
+    }
+  ],
+  "holdings": [
+    { "name": "Necronomicon (Olaus Wormius, Lateinische Übersetzung)", "description": "Das berüchtigtste Buch der Welt. Gilt als das vollständigste Exemplar." },
+    { "name": "Unaussprechliche Kulte (Von Junzt, Deutsche Erstausgabe)", "description": "Ein Buch, das so verstörend ist, dass sein Autor erdrosselt in einem verschlossenen Raum aufgefunden wurde." },
+    { "name": "Cultes des Ghoules (Comte d'Erlette, Französisch)", "description": "Ein blasphemisches Werk über die Rituale und die Gesellschaft von Ghoulen." },
+    { "name": "De Vermis Mysteriis (Ludvig Prinn, Latein)", "description": "Das 'Buch der Würmer-Mysterien', enthält Zauber, die mit Untoten und Insekten zu tun haben." },
+    { "name": "Die Pnakotischen Manuskripte (Abschrift)", "description": "Eine unvollständige Kopie eines Textes, der angeblich aus einer Zeit vor der Menschheit stammt." },
+    { "name": "Das Buch von Eibon (Fragment, Griechisch)", "description": "Ein Fragment, das sich mit dem Gott Tsathoggua und dem Leben im prähistorischen Hyperborea befasst." },
+    { "name": "Regnum Congo (Dritter Band, Pigafetta)", "description": "Der seltenste Band dieses Reiseberichts, der angeblich die Existenz einer Rasse intelligenter Affenmenschen in Afrika beschreibt." },
+    { "name": "Das Tagebuch des Wilbur Whateley", "description": "Ein in einer fremdartigen Schrift verfasstes Tagebuch, das aus Dunwich geborgen wurde. Es ist unentschlüsselt." }
+  ]
+}

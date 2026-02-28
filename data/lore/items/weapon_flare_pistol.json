@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Signalpistole",
+    "type":  "Weapon",
+    "physical_description":  "Einzellader fuer Leuchtmunition, schweres Metallgehäuse.",
+    "history":  "Von Seeleuten und Rettungstrupps genutzt, in Staedten selten gesehen.",
+    "mechanics":  {
+                      "skill_check":  "Schusswaffen (Pistole)",
+                      "effect":  "Kann Position markieren oder Gegner kurzfristig blenden/abschrecken.",
+                      "combat":  "1W6 Brandschaden auf sehr kurze Distanz (situativ)."
+                  },
+    "content_summary":  "Mehr Signalwerkzeug als Feuerwaffe, aber taktisch relevant.",
+    "inventory_tags":  [
+                           "waffe",
+                           "signal",
+                           "licht",
+                           "inventar"
+                       ]
+}

@@ -1,0 +1,135 @@
+{
+  "metadata": {
+    "name": "Call of Cthulhu",
+    "version": "7th Edition",
+    "system": "cthulhu_7e",
+    "schema_version": "1.0.0",
+    "publisher": "Chaosium",
+    "language": "de"
+  },
+
+  "dice_system": {
+    "default_die": "d100",
+    "bonus_penalty_die": "d100",
+    "notes": "Würfle d100 (Zehner + Einzel-W10). Unter Fertigkeitswert = Erfolg.",
+    "success_levels": {
+      "critical": 1,
+      "extreme": 0.2,
+      "hard": 0.5,
+      "fumble": 96
+    }
+  },
+
+  "characteristics": {
+    "STR": { "label": "Stärke",         "roll": "3d6",   "multiplier": 5 },
+    "CON": { "label": "Konstitution",   "roll": "3d6",   "multiplier": 5 },
+    "SIZ": { "label": "Größe",          "roll": "2d6+6", "multiplier": 5 },
+    "DEX": { "label": "Geschicklichkeit","roll": "3d6",  "multiplier": 5 },
+    "APP": { "label": "Aussehen",       "roll": "3d6",   "multiplier": 5 },
+    "INT": { "label": "Intelligenz",    "roll": "2d6+6", "multiplier": 5 },
+    "POW": { "label": "Willenskraft",   "roll": "3d6",   "multiplier": 5 },
+    "EDU": { "label": "Bildung",        "roll": "2d6+6", "multiplier": 5 },
+    "LCK": { "label": "Glück",          "roll": "3d6",   "multiplier": 5 }
+  },
+
+  "derived_stats": {
+    "HP": {
+      "label": "Trefferpunkte",
+      "formula": "(CON + SIZ) / 10",
+      "round": "floor"
+    },
+    "MP": {
+      "label": "Magiepunkte",
+      "formula": "POW / 5",
+      "round": "floor"
+    },
+    "SAN": {
+      "label": "Geistesgesundheit",
+      "formula": "POW * 5",
+      "max_formula": "99 - Cthulhu Mythos"
+    },
+    "MOV": {
+      "label": "Bewegung",
+      "value": 8,
+      "notes": "Reduziert um 1 für jedes Jahrzehnt ab 40"
+    },
+    "Build": {
+      "label": "Statur",
+      "table": [
+        { "condition": "STR+SIZ <= 64",  "value": -2 },
+        { "condition": "STR+SIZ <= 84",  "value": -1 },
+        { "condition": "STR+SIZ <= 124", "value":  0 },
+        { "condition": "STR+SIZ <= 164", "value":  1 },
+        { "condition": "STR+SIZ >= 165", "value":  2 }
+      ]
+    }
+  },
+
+  "skills": {
+    "Anthropologie":          { "base": 1 },
+    "Archäologie":            { "base": 1 },
+    "Ausweichen":             { "base_formula": "DEX / 2" },
+    "Bibliotheksnutzung":     { "base": 20 },
+    "Charme":                 { "base": 15 },
+    "Cthulhu Mythos":         { "base": 0, "notes": "Kann nicht über EDU gesteigert werden" },
+    "Einschüchtern":          { "base": 15 },
+    "Erste Hilfe":            { "base": 30 },
+    "Fahren (Auto)":          { "base": 20 },
+    "Geschichte":             { "base": 5 },
+    "Heimlichkeit":           { "base": 20 },
+    "Klettern":               { "base": 20 },
+    "Kunst & Handwerk":       { "base": 5 },
+    "Lauschen":               { "base": 20 },
+    "Mechanik":               { "base": 10 },
+    "Medizin":                { "base": 1 },
+    "Nahkampf (Hieb)":        { "base": 25 },
+    "Nahkampf (Stich)":       { "base": 25 },
+    "Naturkunde":             { "base": 10 },
+    "Okkultes Wissen":        { "base": 5 },
+    "Orientierung":           { "base": 10 },
+    "Psychologie":            { "base": 10 },
+    "Psychoanalyse":          { "base": 1 },
+    "Recht":                  { "base": 5 },
+    "Reiten":                 { "base": 5 },
+    "Schleichen":             { "base": 20 },
+    "Schusswaffen (Gewehr)":  { "base": 25 },
+    "Schusswaffen (Pistole)": { "base": 20 },
+    "Schwimmen":              { "base": 20 },
+    "Springen":               { "base": 20 },
+    "Spurensuche":            { "base": 25 },
+    "Überreden":              { "base": 10 },
+    "Verkleiden":             { "base": 5 },
+    "Wahrnehmung":            { "base": 25 },
+    "Werfen":                 { "base": 20 },
+    "Wissenschaft (Biologie)":{ "base": 1 },
+    "Wissenschaft (Chemie)":  { "base": 1 },
+    "Wissenschaft (Physik)":  { "base": 1 }
+  },
+
+  "combat": {
+    "damage_bonus_table": [
+      { "condition": "STR+SIZ <= 64",  "damage_bonus": "-2",   "build": -2 },
+      { "condition": "STR+SIZ <= 84",  "damage_bonus": "-1",   "build": -1 },
+      { "condition": "STR+SIZ <= 124", "damage_bonus": "0",    "build":  0 },
+      { "condition": "STR+SIZ <= 164", "damage_bonus": "+1d4", "build":  1 },
+      { "condition": "STR+SIZ <= 204", "damage_bonus": "+1d6", "build":  2 }
+    ],
+    "impalement": {
+      "rules": "Auf 1/5 des Fertigkeitswerts = maximaler Waffenschaden + normaler Wurf"
+    }
+  },
+
+  "sanity": {
+    "starting_san": "POW * 5",
+    "max_san": 99,
+    "indefinite_insanity_threshold": 5,
+    "temporary_insanity_threshold": 0.2,
+    "notes": "Verlust von ≥1/5 der aktuellen SAN in einer Runde = temporärer Wahnsinn"
+  },
+
+  "advancement": {
+    "method": "experience_check",
+    "roll_above": "current_skill_value",
+    "notes": "Nach Verwendung: würfle d100 über Fertigkeitswert → +1d10 Steigerung"
+  }
+}

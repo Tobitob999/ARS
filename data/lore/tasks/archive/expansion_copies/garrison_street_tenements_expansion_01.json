@@ -1,0 +1,15 @@
+{
+    "name":  "Garrison Street Tenements [Erweiterung]",
+    "address":  "Rivertown, Arkham",
+    "atmosphere":  "A block of decaying, overcrowded apartment buildings. The narrow alleyways are filled with refuse and shadows. The sounds of arguments and crying are constant.",
+    "details":  [
+                    "A shared, squalid washroom at the end of a dark hallway.",
+                    "A fire escape that provides a view into dozens of miserable lives.",
+                    "Graffiti of a strange, spiral symbol scrawled on many of the doors."
+                ],
+    "clues":  "A place where people disappear without anyone noticing. A breeding ground for desperation, disease, and strange new cults.",
+    "generated_variant":  true,
+    "source_seed_file":  "garrison_street_tenements.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

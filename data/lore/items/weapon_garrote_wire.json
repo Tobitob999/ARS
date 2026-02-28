@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Drahtgarrotte",
+    "type":  "Weapon",
+    "physical_description":  "Duennes Drahtseil mit Holzgriffen.",
+    "history":  "Von professionellen Taetern fuer lautlose Angriffe genutzt.",
+    "mechanics":  {
+                      "skill_check":  "Nahkampf (Stich)",
+                      "effect":  "Effektiv bei Hinterhalt, riskant in offenem Kampf.",
+                      "combat":  "Spezial, Keeper-Entscheid."
+                  },
+    "content_summary":  "Heikle, verdeckte Nahkampfoption.",
+    "inventory_tags":  [
+                           "waffe",
+                           "lautlos",
+                           "nahkampf",
+                           "inventar"
+                       ]
+}

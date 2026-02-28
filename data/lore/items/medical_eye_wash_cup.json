@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Augenspuelbecher",
+    "type":  "Medical Supply",
+    "physical_description":  "Kleiner Glasbecher mit randweichem Abschluss.",
+    "history":  "Werkstatt- und Laborstandard.",
+    "mechanics":  {
+                      "skill_check":  "Erste Hilfe",
+                      "effect":  "Erleichtert gezielte Augenspuelung bei Reizung.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Nützlich bei Staub, Rauch, Chemie.",
+    "inventory_tags":  [
+                           "medizin",
+                           "reinigung",
+                           "inventar"
+                       ]
+}

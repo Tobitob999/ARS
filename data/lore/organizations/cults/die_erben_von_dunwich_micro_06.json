@@ -1,0 +1,25 @@
+﻿{
+    "name":  "die erben von dunwich - Knotenpunkt",
+    "type":  "Lore Snippet",
+    "category":  "organizations\\cults",
+    "tags":  [
+                 "generated",
+                 "micro",
+                 "hook",
+                 "wave6",
+                 "creative"
+             ],
+    "pressure_line":  "ein Ortswechsel unter Zeitdruck",
+    "turn":  "ein altes Geruecht erweist sich als korrekt",
+    "cost":  "anhaltender psychischer Druck",
+    "reward_if_solved":  "ein glaubhafter Vorwand fuer Infiltration",
+    "hook":  "Probe auf Okkultes Wissen: Erfolg stabilisiert die Lage, Misserfolg triggert den Turn sofort.",
+    "gm_moves":  [
+                     "Schiebe den Turn einen Schritt vor",
+                     "Lass den Cost sichtbar auf der Szene liegen",
+                     "Biete einen harten, aber fairen Deal an"
+                 ],
+    "source_seed_file":  "die_erben_von_dunwich.json",
+    "generation_method":  "microcontent-v7",
+    "szenenwert":  "dynamisch"
+}

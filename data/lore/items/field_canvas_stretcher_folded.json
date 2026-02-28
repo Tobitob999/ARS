@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Faltbare Trage",
+    "type":  "Field Gear",
+    "physical_description":  "Leichte Trage aus Holzgestell und Canvas.",
+    "history":  "Rettungsdienst- und Feldlagerausstattung.",
+    "mechanics":  {
+                      "skill_check":  "Erste Hilfe",
+                      "effect":  "Transportiert Verletzte aus engen Zugängen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Rettungslogistik statt Kampfwert.",
+    "inventory_tags":  [
+                           "feld",
+                           "rettung",
+                           "inventar"
+                       ]
+}

@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Bestechungskuvert (klein)",
+    "type":  "Utility",
+    "physical_description":  "Versiegeltes Kuvert mit kleiner Bargeldsumme.",
+    "history":  "Im Milieu als schneller Reibungsloeser genutzt.",
+    "mechanics":  {
+                      "skill_check":  "Charme",
+                      "effect":  "Kann Blockaden loesen, erzeugt spaetere Verpflichtungen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Abkuerzung mit moralischem Preis.",
+    "inventory_tags":  [
+                           "utility",
+                           "sozial",
+                           "risiko",
+                           "inventar"
+                       ]
+}

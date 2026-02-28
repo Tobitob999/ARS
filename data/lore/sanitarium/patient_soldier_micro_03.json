@@ -1,0 +1,17 @@
+{
+    "name":  "patient soldier - Kreuzverbindung",
+    "type":  "Lore Snippet",
+    "category":  "sanitarium",
+    "tags":  [
+                 "generated",
+                 "micro",
+                 "hook",
+                 "wave3"
+             ],
+    "content_summary":  "Ausgeloest durch ein anonymes Telegramm bei drohende Enttarnung; die Lage kippt Richtung ein Notfall-Intermezzo.",
+    "hook":  "Mit einer Probe auf Rechtskunde sichern die Investigatoren einen Vorteil; andernfalls verliert die Gruppe Initiative im Schauplatz.",
+    "gm_note":  "Als Twist im laufenden Dialog einbauen; unmittelbar mit einem NSC oder Ort koppeln.",
+    "source_seed_file":  "patient_soldier.json",
+    "generation_method":  "microcontent-v4",
+    "triage_prioritaet":  "mittel"
+}

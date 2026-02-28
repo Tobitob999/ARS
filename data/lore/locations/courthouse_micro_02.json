@@ -1,0 +1,17 @@
+{
+    "name":  "courthouse - Folgespur",
+    "type":  "Lore Snippet",
+    "category":  "locations",
+    "tags":  [
+                 "generated",
+                 "micro",
+                 "hook",
+                 "wave2"
+             ],
+    "content_summary":  "Eine anonyme Notiz behauptet: ein unerwarteter Besucher in Arkham; Tonlage: eisig ruhig.",
+    "hook":  "Bei gelungener Probe (Bibliotheksnutzung) erhalten die Investigatoren einen Vorsprung; bei Misserfolg entsteht eine falsche Faehrte fuer die Polizei.",
+    "gm_note":  "Als Anschluss an bestehende Szene nutzen; auf 2-4 Dialogwechsel begrenzen.",
+    "source_seed_file":  "courthouse.json",
+    "generation_method":  "microcontent-v3",
+    "zugangsschwelle":  "offen"
+}

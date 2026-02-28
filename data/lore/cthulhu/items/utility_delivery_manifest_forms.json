@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Lieferschein-Formularsatz",
+    "type":  "Utility",
+    "physical_description":  "Mehrteilige Lieferscheine mit Durchschlagpapier.",
+    "history":  "Standard in Lager und Frachtverkehr.",
+    "mechanics":  {
+                      "skill_check":  "Recht",
+                      "effect":  "Unterstuetzt Zugang unter Lieferantenlegende.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Buerokratischer Eintritt in Hinterhoefe.",
+    "inventory_tags":  [
+                           "utility",
+                           "zugang",
+                           "inventar"
+                       ]
+}

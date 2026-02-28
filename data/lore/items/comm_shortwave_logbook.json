@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Kurzwellen-Logbuch",
+    "type":  "Communication Gear",
+    "physical_description":  "Protokollheft fuer Frequenzen, Uhrzeit, Signalstärke.",
+    "history":  "Funker und Beobachter führen solche Logs.",
+    "mechanics":  {
+                      "skill_check":  "Wissenschaft (Physik)",
+                      "effect":  "Verbessert Mustererkennung in Funkverkehr.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Datengrundlage fuer spätere Auswertung.",
+    "inventory_tags":  [
+                           "kommunikation",
+                           "analyse",
+                           "inventar"
+                       ]
+}

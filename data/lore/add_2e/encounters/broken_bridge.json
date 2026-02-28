@@ -1,0 +1,8 @@
+{
+    "id":  "broken_bridge",
+    "module_type":  "event",
+    "trigger_condition":  "Crossing underground chasm",
+    "damage":  "none",
+    "saving_throw":  "none",
+    "effect_description":  "Narrative dungeon dressing or encounter hook."
+}

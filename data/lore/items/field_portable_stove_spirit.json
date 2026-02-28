@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Spiritus-Kocher mobil",
+    "type":  "Field Gear",
+    "physical_description":  "Kleiner Kocher mit Brenner und Topfaufsatz.",
+    "history":  "Reise- und Feldausruestung fuer lange Einsaetze.",
+    "mechanics":  {
+                      "skill_check":  "-",
+                      "effect":  "Erlaubt warmes Wasser/Nahrung abseits Infrastruktur.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Versorgungsvorteil fuer Nachtoperationen.",
+    "inventory_tags":  [
+                           "feld",
+                           "versorgung",
+                           "inventar"
+                       ]
+}

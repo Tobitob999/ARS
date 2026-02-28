@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Blanko-Durchsuchungsformulare",
+    "type":  "Document",
+    "physical_description":  "Offizielle Formblaetter mit Dienstsiegel-Vordruck.",
+    "history":  "Normalerweise nur in Verwaltung, gelegentlich inoffiziell weitergegeben.",
+    "mechanics":  {
+                      "skill_check":  "Recht",
+                      "effect":  "Ermoeglicht formell wirkendes Auftreten bei Zugriffsszenen.",
+                      "combat":  ""
+                  },
+    "content_summary":  "Buerokratie als Hebel in rechtlich grauen Aktionen.",
+    "inventory_tags":  [
+                           "dokument",
+                           "recht",
+                           "zugriff",
+                           "inventar"
+                       ]
+}

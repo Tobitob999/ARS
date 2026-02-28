@@ -1,0 +1,9 @@
+{
+  "name": "Radioprogramm WMAK Arkham",
+  "broadcasts": [
+    { "time": "Morgens (8:00)", "program": "Arkham Morning News", "content": "Lokale Nachrichten, Wetterbericht und die neuesten Getreidepreise, präsentiert von einem monotonen Sprecher." },
+    { "time": "Nachmittags (15:00)", "program": "Aunt Agatha's Household Tips", "content": "Eine Sendung für die Hausfrau mit Rezepten und Ratschlägen gegen hartnäckige Flecken." },
+    { "time": "Abends (20:00)", "program": "The Shadow over Arkham", "content": "Ein Hörspiel über einen mysteriösen Detektiv, der unheimliche Fälle in der Stadt löst. Oft mit verstörend realistischen Soundeffekten." },
+    { "time": "Spätabends (23:00)", "program": "Miskatonic Midnight Jazz", "content": "Live-Übertragung einer Jazz-Band aus einem Speakeasy in Rivertown. Die Musik ist schnell und wild." }
+  ]
+}

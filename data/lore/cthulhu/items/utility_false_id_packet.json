@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Falsche Ausweispapiere (Paket)",
+    "type":  "Utility",
+    "physical_description":  "Set aus Dienstkarte, Mitgliedsausweis und Besuchsformular in abgenutzter Mappe.",
+    "history":  "Unterweltprodukt aus Bostoner Druckerei-Hinterzimmern.",
+    "mechanics":  {
+                      "skill_check":  "Verkleiden",
+                      "effect":  "Kann situativ Zugang ermoeglichen, scheitert bei tiefer Aktenpruefung.",
+                      "combat":  ""
+                  },
+    "content_summary":  "Riskantes Werkzeug fuer verdeckten Zutritt.",
+    "inventory_tags":  [
+                           "utility",
+                           "deckung",
+                           "infiltration",
+                           "inventar"
+                       ]
+}

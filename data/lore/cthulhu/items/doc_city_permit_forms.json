@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Stadtgenehmigungs-Formulare",
+    "type":  "Document",
+    "physical_description":  "Vordrucke fuer Baustellen, Sperrungen und Nachtarbeit.",
+    "history":  "Amtliches Material aus Verwaltungsarchiven.",
+    "mechanics":  {
+                      "skill_check":  "Recht",
+                      "effect":  "Kann formellen Rahmen fuer temporäre Maßnahmen schaffen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Papiermacht fuer taktische Umwege.",
+    "inventory_tags":  [
+                           "dokument",
+                           "verwaltung",
+                           "inventar"
+                       ]
+}

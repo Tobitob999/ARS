@@ -1,0 +1,12 @@
+{
+    "name":  "Das Blaue Signal von St. Elms [Erweiterung]",
+    "cost":  "1d3 Stabilität, 4 Magiepunkte",
+    "casting_time":  "1 Runde",
+    "duration":  "Augenblicklich",
+    "ritual":  "Der Zaubernde muss ein kleines Stück Metall in der Hand halten und es während eines Gewitters gen Himmel recken, während er einen kurzen Vers aufsagt.",
+    "effect":  "Ein Blitz aus unnatürlich blauem Licht schlägt in einen vom Zaubernden gewählten Punkt innerhalb von 50 Metern ein. Er verursacht 3d6 Schaden an allem, was er trifft, und hinterlässt den Geruch von Ozon und verbranntem Seetang.",
+    "generated_variant":  true,
+    "source_seed_file":  "das_blaue_signal.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

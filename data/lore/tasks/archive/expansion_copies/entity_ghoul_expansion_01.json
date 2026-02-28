@@ -1,0 +1,12 @@
+{
+    "name":  "Ghoul [Erweiterung]",
+    "description":  "Eine humanoide Gestalt, aber gebückt und hundeartig. Die Haut ist gummiartig und fahl, oft mit Schimmel oder Graberde bedeckt. Das Gesicht ähnelt einer Schnauze, mit spitzen Ohren und Hufen anstelle von Füßen.",
+    "sensory":  "Geruch nach feuchter Erde, altem Fleisch und Moschus. Geräusche: Ein meckerndes, jaulendes Lachen (\u0027Meep-Meep\u0027).",
+    "behavior":  "Aasfresser, die in Tunneln unter Friedhöfen leben. Meiden Licht. Können menschliche Sprache imitieren.",
+    "weakness":  "Physisch verletzbar, aber zäh. Helles Licht blendet sie.",
+    "sanity_loss":  "0/1d6 (beim Anblick), 1d6 (bei Erkenntnis, dass es einmal ein Mensch war).",
+    "generated_variant":  true,
+    "source_seed_file":  "entity_ghoul.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

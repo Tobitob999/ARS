@@ -1,0 +1,26 @@
+﻿{
+    "name":  "genealogy - Spannungsfeld",
+    "type":  "Lore Snippet",
+    "category":  "history",
+    "tags":  [
+                 "generated",
+                 "micro",
+                 "hook",
+                 "wave4",
+                 "creative"
+             ],
+    "scene_seed":  "Eine Routinekontrolle foerdert ein altes Symbol zutage",
+    "sensory_detail":  "falsche Uhrzeiten auf allen Uhren",
+    "twist":  "Der Gegner will Zeit, keinen direkten Kampf",
+    "complication":  "Eine falsche Akte taucht im Archiv auf",
+    "payoff":  "ein klarer Zugriffspunkt im naechsten Akt",
+    "hook":  "Probe auf Erste Hilfe: bei Erfolg wird die Komplikation abgefedert, bei Misserfolg verhaertet sich der Konflikt.",
+    "gm_moves":  [
+                     "Druck durch Uhrzeit oder Ort erhoehen",
+                     "Einen neutralen NSC in eine klare Position zwingen",
+                     "Einen scheinbar sicheren Plan mit kleinem Preis versehen"
+                 ],
+    "source_seed_file":  "genealogy.json",
+    "generation_method":  "microcontent-v5",
+    "zeitzeugenwert":  "geruecht"
+}

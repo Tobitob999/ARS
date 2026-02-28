@@ -1,0 +1,20 @@
+{
+    "schema_version":  "1.1",
+    "name":  "Auszug aus Regnum Congo (Die weißen Affen)",
+    "type":  "Book Excerpt",
+    "category":  "library/excerpts",
+    "source_markdown":  "regnum_congo_excerpt.md",
+    "converted_from_markdown":  true,
+    "tags":  [
+                 "library",
+                 "excerpt",
+                 "book",
+                 "mythos"
+             ],
+    "summary":  "\"Tief im Dschungel, wo kein Sonnenstrahl den Boden berührt, leben sie. Weiße Affen, die gehen wie Menschen und Werkzeuge benutzen. Sie bauen Tempel aus Knochen und beten zu einem Gott, der in den Ruinen einer alten Stadt wohnt. Sie sind grausam und schlau. Sie jagen Menschen nicht zur Nahrung, sondern zum Sport. Sie hä...",
+    "source_text":  "# Auszug aus Regnum Congo (Die weißen Affen)\r\n\r\n\"Tief im Dschungel, wo kein Sonnenstrahl den Boden berührt, leben sie. Weiße Affen, die gehen wie Menschen und Werkzeuge benutzen. Sie bauen Tempel aus Knochen und beten zu einem Gott, der in den Ruinen einer alten Stadt wohnt. Sie sind grausam und schlau. Sie jagen Menschen nicht zur Nahrung, sondern zum Sport. Sie häuten ihre Opfer bei lebendigem Leib und tragen die Häute als Trophäen.\"\r\n\r\n---\r\n**Effekt beim Lesen:**\r\n- **Stabilitätsverlust:** 1/1d3\r\n- **Cthulhu-Mythos:** +0% (Eher Kryptozoologie/Horror)",
+    "mechanics":  {
+                      "stability_loss":  "1/1d3",
+                      "cthulhu_mythos":  "+0% (Eher Kryptozoologie/Horror)"
+                  }
+}

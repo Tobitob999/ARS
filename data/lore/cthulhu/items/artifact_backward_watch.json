@@ -1,0 +1,12 @@
+{
+  "name": "The Chronovore Watch",
+  "type": "Mysterious Artifact",
+  "physical_description": "An elegant silver pocket watch. When wound, its hands tick backward, and the date complication counts down. It does not seem to affect local time.",
+  "history": "The prized possession of a Miskatonic University physics professor who vanished in 1919 after claiming to have 'solved time'.",
+  "mechanics": {
+    "sanity_loss": "1/1d3 (when its temporal effect is witnessed)",
+    "skill_check": "Science (Physics) or Mechanical Repair to understand its impossible mechanism.",
+    "effect": "If the watch is allowed to run for more than an hour in one location, time in that area becomes unstable. Objects may briefly appear from the past or future. (e.g., a ghostly image of a former resident, a newspaper from tomorrow)."
+  },
+  "content_summary": "The watch doesn't reverse time; it consumes it, creating a localized temporal paradox."
+}

@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Leder-Blackjack",
+    "type":  "Weapon",
+    "physical_description":  "Kurzer, mit Blei beschwerter Schlagstock aus dickem Leder.",
+    "history":  "In der Unterwelt als unauffaellige Nahkampfwaffe verbreitet.",
+    "mechanics":  {
+                      "skill_check":  "Nahkampf (Hieb)",
+                      "effect":  "Erhoeht Chance auf lautlose Ausschaltung bei Ueberraschung.",
+                      "combat":  "1W6 Schaden, bei erfolgreicher Hinterhaltsszene Zusatzwirkung moeglich."
+                  },
+    "content_summary":  "Kompakt, diskret, effektiv fuer enge Gassen und Hinterzimmer.",
+    "inventory_tags":  [
+                           "waffe",
+                           "hieb",
+                           "diskret",
+                           "inventar"
+                       ]
+}

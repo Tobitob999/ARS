@@ -1,0 +1,16 @@
+{
+    "name":  "Diary Entry with Chant [Erweiterung]",
+    "type":  "Diary Page",
+    "physical_description":  "A blood-stained page, the writing is barely a scrawl.",
+    "mechanics":  {
+                      "reading_time":  "5 minutes",
+                      "sanity_loss":  "1/1d4 (if read aloud)",
+                      "mythos_gain":  1,
+                      "skill_check":  "Occult"
+                  },
+    "content_summary":  "The page contains only a few coherent words amidst mad scribbling: \u0027It is not dead which can eternal lie, and with strange aeons even death may die.\u0027 Below this is a phonetic transcription of a chant: \u0027Ph\u0027nglui mglw\u0027nafh Cthulhu R\u0027lyeh wgah\u0027nagl fhtagn.\u0027",
+    "generated_variant":  true,
+    "source_seed_file":  "diary_entry_chant.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

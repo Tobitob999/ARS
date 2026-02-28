@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Segment-Reinigungsstab",
+    "type":  "Weapon Accessory",
+    "physical_description":  "Schraubsegmente fuer Laufreinigung unterwegs.",
+    "history":  "Von Schuetzenvereinen breit genutzt.",
+    "mechanics":  {
+                      "skill_check":  "Mechanik",
+                      "effect":  "Hält Laufpräzision stabil bei Feldnutzung.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Pflichttool für verlässliche Waffenleistung.",
+    "inventory_tags":  [
+                           "zubehoer",
+                           "waffe",
+                           "inventar"
+                       ]
+}

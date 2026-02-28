@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Harz-Räucherwerk-Pack",
+    "type":  "Occult Utility",
+    "physical_description":  "Harzblöcke mit Kohletabletten für dichten Rauch.",
+    "history":  "In Ritualkreisen zur Fokussierung eingesetzt.",
+    "mechanics":  {
+                      "skill_check":  "Okkultes Wissen",
+                      "effect":  "Kann Ritualatmosphäre stabilisieren oder NSC beeinflussen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Rituelles Hilfsmittel mit sozialer Wirkung.",
+    "inventory_tags":  [
+                           "okkult",
+                           "ritual",
+                           "inventar"
+                       ]
+}

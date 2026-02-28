@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Tresor-Stethoskop",
+    "type":  "Tool",
+    "physical_description":  "Feines Hörgerät mit Kontaktkopf für Kombinationsschlösser.",
+    "history":  "Spezialwerkzeug aus Schlosser- und Unterweltkreisen.",
+    "mechanics":  {
+                      "skill_check":  "Schloesser knacken",
+                      "effect":  "Erleichtert das Abhören mechanischer Schlossrasten.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Präzisions-Tool für leise Öffnungen.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "tresor",
+                           "inventar"
+                       ]
+}

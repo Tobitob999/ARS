@@ -1,0 +1,40 @@
+{
+  "id": "add_mage",
+  "schema_version": "1.0.0",
+  "name": "Elara Sternenschein",
+  "compatible_rulesets": ["add_2e"],
+
+  "archetype": "Mage",
+  "level": 1,
+  "background": "Eine junge Absolventin der Magierakademie in Waterdeep. Voller Wissensdurst und Idealismus. Ihr Mentor verschwand vor einem Jahr spurlos — sie sucht nach Antworten.",
+
+  "characteristics": {
+    "STR": 8,
+    "DEX": 14,
+    "CON": 11,
+    "INT": 17,
+    "WIS": 13,
+    "CHA": 12
+  },
+
+  "derived_stats": {
+    "HP": 4
+  },
+
+  "skills": {},
+
+  "equipment": [
+    "Zauberstab (Fokus)",
+    "Zauberbuch (3 Stufe-1-Zauber)",
+    "Dolch",
+    "Komponentenbeutel",
+    "Rucksack",
+    "Tinte und Federkiel",
+    "10 Blatt Pergament",
+    "Kreide",
+    "8 Goldstuecke"
+  ],
+
+  "traits": "Wissbegierig, leicht ablenkbar durch interessante Phaenomene. Redet schnell wenn sie aufgeregt ist. Notiert alles in ihrem Zauberbuch. Leicht ueberheblich gegenueber Nicht-Magiern.",
+  "appearance": "Schlank, Mitte 20, langes dunkles Haar zu einem praktischen Zopf gebunden. Traegt eine abgenutzte blaue Robe mit Silbernaehten. Immer Tintenflecken an den Fingern."
+}

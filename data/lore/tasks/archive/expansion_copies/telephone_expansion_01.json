@@ -1,0 +1,39 @@
+{
+    "name":  "Telefonnetz von Arkham [Erweiterung]",
+    "type":  "Communication",
+    "functionality":  {
+                          "name":  "Vermittlungsstelle (\u0027Fräulein vom Amt\u0027)",
+                          "description":  "Es gibt keine Direktwahl. Man muss die Kurbel am Telefon drehen, um eine Verbindung zur zentralen Vermittlungsstelle herzustellen. Eine Operatorin (\u0027Fräulein vom Amt\u0027) fragt nach der gewünschten Nummer und steckt dann manuell ein Kabel um, um die Verbindung herzustellen.",
+                          "privacy":  "Die Operatorin kann jedes Gespräch mithören."
+                      },
+    "directory_excerpt":  [
+                              {
+                                  "name":  "Arkham Police Department",
+                                  "number":  "15"
+                              },
+                              {
+                                  "name":  "St. Mary\u0027s Hospital",
+                                  "number":  "22"
+                              },
+                              {
+                                  "name":  "Miskatonic University (Zentrale)",
+                                  "number":  "45"
+                              },
+                              {
+                                  "name":  "Orne Library (Miskatonic)",
+                                  "number":  "46"
+                              },
+                              {
+                                  "name":  "Arkham Advertiser (Zeitung)",
+                                  "number":  "31"
+                              },
+                              {
+                                  "name":  "Arkham Sanitarium",
+                                  "number":  "88"
+                              }
+                          ],
+    "generated_variant":  true,
+    "source_seed_file":  "telephone.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

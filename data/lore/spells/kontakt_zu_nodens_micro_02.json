@@ -1,0 +1,17 @@
+{
+    "name":  "kontakt zu nodens - Folgespur",
+    "type":  "Lore Snippet",
+    "category":  "spells",
+    "tags":  [
+                 "generated",
+                 "micro",
+                 "hook",
+                 "wave2"
+             ],
+    "content_summary":  "Ein Augenzeuge berichtet: ein chaotischer Schichtwechsel in Arkham; Tonlage: kryptisch.",
+    "hook":  "Bei gelungener Probe (Ueberreden) erhalten die Investigatoren einen Vorsprung; bei Misserfolg entsteht ein Zeitfenster von nur 20 Minuten.",
+    "gm_note":  "Als Anschluss an bestehende Szene nutzen; auf 2-4 Dialogwechsel begrenzen.",
+    "source_seed_file":  "kontakt_zu_nodens.json",
+    "generation_method":  "microcontent-v3",
+    "ritualfenster":  "kurz"
+}

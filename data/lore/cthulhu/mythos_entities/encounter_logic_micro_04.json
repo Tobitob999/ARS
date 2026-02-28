@@ -1,0 +1,26 @@
+﻿{
+    "name":  "encounter logic - Spannungsfeld",
+    "type":  "Lore Snippet",
+    "category":  "mythos_entities",
+    "tags":  [
+                 "generated",
+                 "micro",
+                 "hook",
+                 "wave4",
+                 "creative"
+             ],
+    "scene_seed":  "Ein Bote liefert ein Paket ohne Absender",
+    "sensory_detail":  "metallisches Summen aus dem Boden",
+    "twist":  "Eine zweite Fraktion beobachtet alles im Hintergrund",
+    "complication":  "Polizei sperrt den Schauplatz fuer 30 Minuten",
+    "payoff":  "ein taktischer Vorteil fuer die erste Runde",
+    "hook":  "Probe auf Recht: bei Erfolg wird die Komplikation abgefedert, bei Misserfolg verhaertet sich der Konflikt.",
+    "gm_moves":  [
+                     "Druck durch Uhrzeit oder Ort erhoehen",
+                     "Einen neutralen NSC in eine klare Position zwingen",
+                     "Einen scheinbar sicheren Plan mit kleinem Preis versehen"
+                 ],
+    "source_seed_file":  "encounter_logic.json",
+    "generation_method":  "microcontent-v5",
+    "anomaliedruck":  "extrem"
+}

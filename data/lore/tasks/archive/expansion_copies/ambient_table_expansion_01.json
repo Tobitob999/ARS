@@ -1,0 +1,89 @@
+{
+    "name":  "Atmosphärische Ereignisse \u0026 Zufallsbegegnungen [Erweiterung]",
+    "events":  [
+                   {
+                       "trigger":  "Nacht, Stadt",
+                       "description":  "Ein plötzlicher Temperatursturz. Der Atem der Investigatoren gefriert für einen Moment in der Luft, obwohl es nicht kalt genug dafür ist."
+                   },
+                   {
+                       "trigger":  "Gasse, Nacht",
+                       "description":  "Ein Hund in der Ferne beginnt, eine leere Gasse wütend anzubellen, bevor er plötzlich mit einem Wimmern verstummt."
+                   },
+                   {
+                       "trigger":  "Tag, Stadt",
+                       "description":  "Ein kleines Kind auf der Straße summt eine einfache, sich wiederholende Melodie, die unheimlich an ein rituelles Lied erinnert."
+                   },
+                   {
+                       "trigger":  "Bibliothek, Jederzeit",
+                       "description":  "Ein Buch fällt ohne ersichtlichen Grund aus einem hohen Regal im Gang nebenan."
+                   },
+                   {
+                       "trigger":  "Ländlich, Nacht",
+                       "description":  "Ein seltsames, phosphoreszierendes Leuchten scheint für einen Augenblick zwischen den Bäumen auf, bevor es wieder verschwindet."
+                   },
+                   {
+                       "trigger":  "Jederzeit, Innenraum",
+                       "description":  "Alle Uhren im Raum bleiben für exakt eine Sekunde stehen und laufen dann weiter, als wäre nichts geschehen."
+                   },
+                   {
+                       "trigger":  "Jederzeit, Jederort",
+                       "description":  "Ein Schwarm Krähen sammelt sich plötzlich auf einem nahen Dach, starrt die Investigatoren an und fliegt dann synchron davon."
+                   },
+                   {
+                       "trigger":  "Nähe Wasser, Nacht",
+                       "description":  "Der Geruch von Salzwasser und totem Fisch wird plötzlich überwältigend stark, obwohl das Meer weit entfernt ist."
+                   },
+                   {
+                       "trigger":  "Alter Ort, Jederzeit",
+                       "description":  "Ein Investigator hört für einen Moment leises, unverständliches Flüstern direkt hinter sich, doch da ist niemand."
+                   },
+                   {
+                       "trigger":  "Dunwich, Tag",
+                       "description":  "Ein Einheimischer mit den typischen Whateley-Zügen (zurückweichendes Kinn, seltsame Augen) starrt die Investigatoren an, ohne zu blinzeln, während sie vorbeigehen."
+                   },
+                   {
+                       "trigger":  "Innsmouth, Tag",
+                       "description":  "Ein Priester mit einer goldenen Tiara in Form eines Fisches überquert die Straße und nickt den Investigatoren mit einem feuchten Lächeln zu."
+                   },
+                   {
+                       "trigger":  "Jederzeit, Jederort",
+                       "description":  "Ein plötzlicher, unerklärlicher Anfall von Déjà-vu überkommt einen Investigator. Er hat das Gefühl, genau diesen Moment schon einmal erlebt zu haben, aber in einem Traum."
+                   },
+                   {
+                       "trigger":  "Gasse, Nacht",
+                       "description":  "Eine einzelne, nasse Fußspur, die nicht menschlich aussieht, führt in eine dunkle Ecke und hört dort einfach auf."
+                   },
+                   {
+                       "trigger":  "Kingsport, Nebel",
+                       "description":  "Im dichten Nebel scheint die Form eines riesigen, unmöglichen Gebäudes auf, wo keines sein sollte, nur um im nächsten Moment wieder zu verschwinden."
+                   },
+                   {
+                       "trigger":  "Jederzeit, Innenraum",
+                       "description":  "Ein Schatten an der Wand bewegt sich kurz, obwohl sich nichts im Raum bewegt hat, das ihn werfen könnte."
+                   },
+                   {
+                       "trigger":  "Nacht, Ländlich",
+                       "description":  "Die Sterne scheinen für einen Moment zu flackern und ihre Positionen zu verändern, bevor alles wieder normal ist."
+                   },
+                   {
+                       "trigger":  "Jederzeit, Jederort",
+                       "description":  "Ein Bettler murmelt im Vorbeigehen eine kryptische Warnung: \u0027Sie haben Augen in den Wänden. Sie sehen immer zu.\u0027"
+                   },
+                   {
+                       "trigger":  "Alter Ort, Jederzeit",
+                       "description":  "Der Geruch von Ozon und statischer Elektrizität liegt plötzlich in der Luft."
+                   },
+                   {
+                       "trigger":  "Nacht, Stadt",
+                       "description":  "Aus einem Gullydeckel steigt ein seltsamer, grünlicher Dampf auf, der nach verrottendem Seetang riecht."
+                   },
+                   {
+                       "trigger":  "Jederzeit, Jederort",
+                       "description":  "Ein Investigator bemerkt, dass sein Spiegelbild für den Bruchteil einer Sekunde eine andere, hasserfüllte Grimasse schneidet."
+                   }
+               ],
+    "generated_variant":  true,
+    "source_seed_file":  "ambient_table.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

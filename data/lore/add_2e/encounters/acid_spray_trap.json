@@ -1,0 +1,7 @@
+{
+    "id":  "acid_spray_trap",
+    "module_type":  "trap",
+    "trigger_condition":  "Forced lockpick failure",
+    "damage":  "2d4",
+    "saving_throw":  "vs. Breath Weapon for half"
+}

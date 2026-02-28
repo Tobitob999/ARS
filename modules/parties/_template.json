@@ -1,0 +1,16 @@
+{
+  "_comment": "PARTY-TEMPLATE SCHEMA — Platzhalter fuer zukuenftige Multi-Charakter-Unterstuetzung.",
+
+  "id": "PFLICHT — snake_case, eindeutig",
+  "name": "Gruppenname",
+  "compatible_rulesets": ["Ruleset-IDs"],
+
+  "members": [
+    "character_id_1",
+    "character_id_2"
+  ],
+
+  "formation": "Marschordnung oder taktische Aufstellung",
+  "group_funds": "Gemeinsame Kasse",
+  "notes": "Gruppennotizen"
+}

@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Munition .45 ACP (50)",
+    "type":  "Ammunition",
+    "physical_description":  "Schachtel mit 50 .45er Pistolenpatronen.",
+    "history":  "Militaernahe Restposten und zivile Händler.",
+    "mechanics":  {
+                      "skill_check":  "-",
+                      "effect":  "Hohe Stoppwirkung, schwerer zu tragen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Versorgung fuer schwere Kurzwaffen.",
+    "inventory_tags":  [
+                           "munition",
+                           "logistik",
+                           "inventar"
+                       ]
+}

@@ -1,0 +1,17 @@
+﻿{
+    "name":  "12-Gauge Schrotpatronen (25)",
+    "type":  "Ammunition",
+    "physical_description":  "25 Schrotladungen in Papierhülsen.",
+    "history":  "Jagd- und Schutzgebrauch in Vororten.",
+    "mechanics":  {
+                      "skill_check":  "-",
+                      "effect":  "Erlaubt variable Ladungen je nach Zweck.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Nachschub fuer Flinten im Nahbereich.",
+    "inventory_tags":  [
+                           "munition",
+                           "flinte",
+                           "inventar"
+                       ]
+}

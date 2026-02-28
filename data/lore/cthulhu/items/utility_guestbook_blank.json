@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Leeres Gaestebuch",
+    "type":  "Utility",
+    "physical_description":  "Gebundenes Buch mit Datums- und Unterschriftsfeldern.",
+    "history":  "Hotels und Vereine verwenden aehnliche Register.",
+    "mechanics":  {
+                      "skill_check":  "Verkleiden",
+                      "effect":  "Kann Alibis oder Besuchsscheine plausibel machen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Papier-Setup fuer soziale Tarnung.",
+    "inventory_tags":  [
+                           "utility",
+                           "tarnung",
+                           "inventar"
+                       ]
+}

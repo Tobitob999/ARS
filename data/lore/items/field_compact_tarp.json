@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Kompaktplane",
+    "type":  "Field Gear",
+    "physical_description":  "Wasserfeste Plane mit Oesen und Leinen.",
+    "history":  "Feldlager- und Bergungshilfe.",
+    "mechanics":  {
+                      "skill_check":  "Klettern",
+                      "effect":  "Baut schnell Wetterschutz oder Sichtblende.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Flexibles Setup fuer Außenlagen.",
+    "inventory_tags":  [
+                           "feld",
+                           "schutz",
+                           "inventar"
+                       ]
+}

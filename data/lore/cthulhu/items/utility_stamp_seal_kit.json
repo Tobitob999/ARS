@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Stempel- und Siegellack-Set",
+    "type":  "Utility",
+    "physical_description":  "Messingstempel, Lackstangen und kleiner Spiritusbrenner.",
+    "history":  "Kanzleien nutzen es fuer offizielle Beglaubigungen.",
+    "mechanics":  {
+                      "skill_check":  "Recht",
+                      "effect":  "Erzeugt formal wirkende Dokumentabschluesse.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Buerokratischer Hebel fuer Zugang und Glaubwuerdigkeit.",
+    "inventory_tags":  [
+                           "utility",
+                           "dokument",
+                           "recht",
+                           "inventar"
+                       ]
+}

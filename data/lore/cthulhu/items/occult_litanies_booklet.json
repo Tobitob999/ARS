@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Litanien-Heft",
+    "type":  "Occult Utility",
+    "physical_description":  "Duennes Heft mit Schutz- und Banngebeten.",
+    "history":  "Klerikale und laienhafte Praxis vermischt.",
+    "mechanics":  {
+                      "skill_check":  "Psychoanalyse",
+                      "effect":  "Kann Gruppenfokus stabilisieren in Angstlagen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Sozial-psychischer Ritualanker.",
+    "inventory_tags":  [
+                           "okkult",
+                           "schutz",
+                           "inventar"
+                       ]
+}

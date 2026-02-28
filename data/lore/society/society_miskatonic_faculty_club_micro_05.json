@@ -1,0 +1,26 @@
+﻿{
+    "name":  "society miskatonic faculty club - Drucklinie",
+    "type":  "Lore Snippet",
+    "category":  "society",
+    "tags":  [
+                 "generated",
+                 "micro",
+                 "hook",
+                 "wave5",
+                 "creative"
+             ],
+    "primary_conflict":  "eine Routine kippt in Ausnahmezustand",
+    "dramatic_angle":  "moralisch",
+    "price_of_success":  "Zugang zu einem sicheren Rueckzugsort",
+    "countdown":  "3 Szenen bis der Druck kippt",
+    "fallback_plan":  "Beweise sichern und spaeter zuschlagen",
+    "hook":  "Probe auf Ueberreden: Erfolg klaert die Lage, Misserfolg erhoeht den Preis von Erfolg im Folgezug.",
+    "gm_moves":  [
+                     "Zeige den Preis, bevor die Entscheidung faellt",
+                     "Starte den Countdown sichtbar im Raum",
+                     "Lass einen Erfolg zwei neue Probleme oeffnen"
+                 ],
+    "source_seed_file":  "society_miskatonic_faculty_club.json",
+    "generation_method":  "microcontent-v6",
+    "fraktionslage":  "stabil"
+}

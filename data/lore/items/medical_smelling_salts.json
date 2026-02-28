@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Riechsalz-Dose",
+    "type":  "Medical Supply",
+    "physical_description":  "Kleine Metallkapsel mit stechend riechender Ammoniakmischung.",
+    "history":  "Haushalts- und Praxisartikel gegen Ohnmacht.",
+    "mechanics":  {
+                      "skill_check":  "Erste Hilfe",
+                      "effect":  "Kann kurzzeitige Benommenheit unterbrechen und Fokus wiederherstellen.",
+                      "combat":  ""
+                  },
+    "content_summary":  "Einfaches Stabilisierungsmittel fuer akute Schwaeche.",
+    "inventory_tags":  [
+                           "medizin",
+                           "stabilisierung",
+                           "alltag",
+                           "inventar"
+                       ]
+}

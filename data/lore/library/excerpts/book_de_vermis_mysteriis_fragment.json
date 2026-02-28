@@ -1,0 +1,13 @@
+{
+  "name": "Charred Page of 'De Vermis Mysteriis'",
+  "type": "Forbidden Book Fragment",
+  "physical_description": "A single, blackened piece of vellum that feels unnaturally cold. The Latin text is illuminated with strange, non-Euclidean geometry.",
+  "history": "Discovered in the ashes of the Miskatonic University library fire of 1882. Kept in the restricted collection ever since.",
+  "mechanics": {
+    "reading_time": "1 hour",
+    "sanity_loss": "1/1d4",
+    "mythos_gain": 2,
+    "skill_check": "Language (Latin) AND Occult"
+  },
+  "content_summary": "Details a spell, 'The Voorish Sign', which allows the caster to briefly see the unseen and pass through magical barriers. The components required are unsettling."
+}

@@ -1,0 +1,29 @@
+{
+    "name":  "Kinoprogramm des Palace Theater [Erweiterung]",
+    "films":  [
+                  {
+                      "title":  "The Phantom of the Opera (1925)",
+                      "genre":  "Horror",
+                      "description":  "Ein Stummfilm mit Lon Chaney als entstelltes Phantom, das in den Katakomben der Pariser Oper lebt. Die Demaskierungsszene sorgt für Schreie im Publikum."
+                  },
+                  {
+                      "title":  "The Gold Rush (1925)",
+                      "genre":  "Komödie",
+                      "description":  "Charlie Chaplin als einsamer Goldsucher in Alaska. Die Szene, in der er seinen Schuh isst, ist ein großer Lacher."
+                  },
+                  {
+                      "title":  "The Lost World (1925)",
+                      "genre":  "Abenteuer",
+                      "description":  "Ein bahnbrechender Film mit Stop-Motion-Dinosauriern. Eine Expedition findet ein prähistorisches Plateau in Südamerika."
+                  },
+                  {
+                      "title":  "The Jazz Singer (1927, Vorschau)",
+                      "genre":  "Drama/Musical",
+                      "description":  "Eine kommende Attraktion! Ein Film, in dem der Hauptdarsteller tatsächlich spricht und singt! Die Zukunft des Kinos."
+                  }
+              ],
+    "generated_variant":  true,
+    "source_seed_file":  "cinema_program.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

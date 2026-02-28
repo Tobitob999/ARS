@@ -1,0 +1,10 @@
+{
+    "name":  "Cryptic Threatening Letter [Erweiterung]",
+    "type":  "Letter",
+    "physical_description":  "A message constructed from letters cut out from various newspapers and magazines, pasted onto a piece of cardboard.",
+    "content_summary":  "The message is almost nonsensical: \u0027THE STARS ARE NOT RIGHT FOR YOU TO KNOW. THE SILVER TWILIGHT SEES. THE KING WAITS.\u0027",
+    "generated_variant":  true,
+    "source_seed_file":  "threat_letter_2.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

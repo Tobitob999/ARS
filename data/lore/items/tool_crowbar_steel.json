@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Stahl-Brechstange",
+    "type":  "Tool",
+    "physical_description":  "Massive Brechstange mit abgeflachtem Hebelkopf, etwa 60 cm lang.",
+    "history":  "Standardwerkzeug auf Baustellen und in Lagerhaeusern.",
+    "mechanics":  {
+                      "skill_check":  "STR oder Mechanik",
+                      "effect":  "Erleichtert gewaltsames Oeffnen von Kisten, Fenstern, Tueren.",
+                      "combat":  "Nahkampf (Hieb): 1W6+1"
+                  },
+    "content_summary":  "Brute-Force-Option fuer Situationen, in denen Lärm akzeptabel ist.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "hebeln",
+                           "nahkampf",
+                           "inventar"
+                       ]
+}

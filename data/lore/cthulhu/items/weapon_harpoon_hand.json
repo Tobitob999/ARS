@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Handharpune",
+    "type":  "Weapon",
+    "physical_description":  "Kurze Wurfharpune mit Leine und Widerhaken.",
+    "history":  "Aus Fischerkreisen rund um die Kueste bekannt.",
+    "mechanics":  {
+                      "skill_check":  "Werfen",
+                      "effect":  "Kann Ziel fixieren oder zu Boden bringen (situativ).",
+                      "combat":  "1W8 plus Sondereffekt situativ."
+                  },
+    "content_summary":  "Spezialwaffe fuer Hafen/See-Szenen.",
+    "inventory_tags":  [
+                           "waffe",
+                           "werfen",
+                           "hafen",
+                           "inventar"
+                       ]
+}

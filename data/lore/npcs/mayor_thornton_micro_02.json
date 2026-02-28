@@ -1,0 +1,17 @@
+{
+    "name":  "mayor thornton - Folgespur",
+    "type":  "Lore Snippet",
+    "category":  "npcs",
+    "tags":  [
+                 "generated",
+                 "micro",
+                 "hook",
+                 "wave2"
+             ],
+    "content_summary":  "Im Nachtprotokoll steht: eine versiegelte Lieferung in Arkham; Tonlage: nuechtern.",
+    "hook":  "Bei gelungener Probe (Psychologie) erhalten die Investigatoren einen Vorsprung; bei Misserfolg entsteht ein neues Druckmittel gegen einen NPC.",
+    "gm_note":  "Als Anschluss an bestehende Szene nutzen; auf 2-4 Dialogwechsel begrenzen.",
+    "source_seed_file":  "mayor_thornton.json",
+    "generation_method":  "microcontent-v3",
+    "loyalitaetsdrift":  "steigend"
+}

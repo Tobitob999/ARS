@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Nahtset Feldpackung",
+    "type":  "Medical Supply",
+    "physical_description":  "Sterile Nadeln, Faden, Desinfektion und Klemmen.",
+    "history":  "Aus Krankenhauslager oder Armeebestaenden.",
+    "mechanics":  {
+                      "skill_check":  "Medizin",
+                      "effect":  "Erlaubt Wundverschluss bei tieferen Schnitten.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Erweiterung zum Erste-Hilfe-Set.",
+    "inventory_tags":  [
+                           "medizin",
+                           "wundversorgung",
+                           "inventar"
+                       ]
+}

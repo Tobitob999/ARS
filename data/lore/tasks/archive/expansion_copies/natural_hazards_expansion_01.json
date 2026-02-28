@@ -1,0 +1,20 @@
+{
+    "name":  "Gefahren der Wildnis [Erweiterung]",
+    "type":  "Environmental Hazards",
+    "hazards":  [
+                    {
+                        "name":  "Sumpf / Moor",
+                        "description":  "Ein Gebiet mit tückischem, schlammigem Boden, der unter den Füßen nachgibt. Es riecht nach Fäulnis und stehendem Wasser.",
+                        "mechanics":  "Erschwert \u0027Schleichen\u0027-Proben. Ein Patzer bei einer \u0027Geschicklichkeits\u0027-Probe kann bedeuten, dass man bis zur Hüfte im Schlamm versinkt."
+                    },
+                    {
+                        "name":  "Steile Hänge / Klippen",
+                        "description":  "Felsige, rutschige Abhänge, die schwer zu erklimmen sind. Loser Schotter macht jeden Schritt unsicher.",
+                        "mechanics":  "Erfordert \u0027Klettern\u0027-Proben. Ein Misserfolg führt zu Stürzen und physischem Schaden (HP-Verlust)."
+                    }
+                ],
+    "generated_variant":  true,
+    "source_seed_file":  "natural_hazards.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

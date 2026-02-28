@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Bargeldrolle in kleinen Scheinen",
+    "type":  "Utility",
+    "physical_description":  "Gebündelte kleine Noten für schnelle Ausgaben.",
+    "history":  "Praktisch für Bestechung, Spesen, Sofortkäufe.",
+    "mechanics":  {
+                      "skill_check":  "-",
+                      "effect":  "Beschleunigt Verhandlungen in grauen Zonen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Liquidität als stilles Werkzeug.",
+    "inventory_tags":  [
+                           "utility",
+                           "geld",
+                           "inventar"
+                       ]
+}

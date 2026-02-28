@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Roter Ritualfaden",
+    "type":  "Occult Utility",
+    "physical_description":  "Langer roter Faden auf Holzspule für Bindungsmarker.",
+    "history":  "Volksmagische Praxis in mehreren Regionen.",
+    "mechanics":  {
+                      "skill_check":  "Okkultes Wissen",
+                      "effect":  "Markiert Grenzen, Bindungen oder Wegpunkte rituell.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Einfaches Material mit starker Symbolkraft.",
+    "inventory_tags":  [
+                           "okkult",
+                           "bindung",
+                           "inventar"
+                       ]
+}

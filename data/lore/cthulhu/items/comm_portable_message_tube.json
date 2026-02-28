@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Rohrpost-Nachrichtenrohr",
+    "type":  "Communication Gear",
+    "physical_description":  "Metallzylinder fuer schnelle Kurieruebergaben.",
+    "history":  "Behörden und Zeitungen nutzen ähnliche Systeme.",
+    "mechanics":  {
+                      "skill_check":  "-",
+                      "effect":  "Schuetzt Notizen vor Nässe und Blicken.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Kleiner Sicherheitsboost fuer Botschaften.",
+    "inventory_tags":  [
+                           "kommunikation",
+                           "sicherheit",
+                           "inventar"
+                       ]
+}

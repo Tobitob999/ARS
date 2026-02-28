@@ -1,0 +1,35 @@
+{
+  "name": "Die Alten Familien von Arkham",
+  "families": [
+    {
+      "name": "Die Wentworths",
+      "wealth": "Alt, aber verblassend. Besitzen noch einige Immobilien in Uptown.",
+      "reputation": "Respektiert, aber als exzentrisch und zurückgezogen bekannt.",
+      "secret": "Praktizieren seit Generationen Inzucht, um ihre 'reine' Blutlinie zu erhalten. Viele Familienmitglieder leiden an Erbkrankheiten und geistiger Instabilität."
+    },
+    {
+      "name": "Die Derbys",
+      "wealth": "Neureich. Haben ihr Geld mit Textilfabriken gemacht.",
+      "reputation": "Protzen mit ihrem Reichtum, gelten als vulgär, versuchen aber verzweifelt, zur Oberschicht zu gehören.",
+      "secret": "Edward Derby, der Patriarch, hat einen Pakt mit einem Kult geschlossen, um seinen geschäftlichen Erfolg zu sichern. Der Preis dafür war sein erstgeborener Sohn, der offiziell bei einem 'Reitunfall' starb."
+    },
+    {
+      "name": "Die Marshes (Arkham-Zweig)",
+      "wealth": "Unermesslich, aber undurchsichtig. Ihr Reichtum stammt aus der Marsh-Raffinerie in Innsmouth.",
+      "reputation": "Gefürchtet und gemieden. Man munkelt, sie seien nicht ganz menschlich.",
+      "secret": "Sie sind mit den Tiefen Wesen von Innsmouth verwandt und durchlaufen langsam eine Transformation. Sie kontrollieren den Schmuggel zwischen Innsmouth und Arkham."
+    },
+    {
+      "name": "Die Waites",
+      "wealth": "Verloren. Einst eine der mächtigsten Familien, heute verarmt.",
+      "reputation": "Eine Familie im Niedergang, bekannt für ihren Stolz und ihre Bitterkeit.",
+      "secret": "Ihre Vorfahrin, Asenath Waite, war eine mächtige Hexe, die 1692 hingerichtet wurde. Die Familie glaubt, dass ein Fluch auf ihr lastet, der ihren Reichtum vernichtet hat. Sie suchen nach Asenaths Grimoire, um ihre Macht wiederherzustellen."
+    },
+    {
+      "name": "Die Pickerings",
+      "wealth": "Solide, alter Geldadel. Besitzen Anteile an der Miskatonic University und der Bank von Arkham.",
+      "reputation": "Säulen der Gesellschaft, Philanthropen, Gönner der Künste.",
+      "secret": "Die Familie ist der heimliche Kern des Ordens des Silbernen Zwielichts (Silver Twilight Lodge). Sie nutzen ihre gesellschaftliche Stellung, um politische Macht zu erlangen und ihre okkulten Aktivitäten zu verschleiern."
+    }
+  ]
+}

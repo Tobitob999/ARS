@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Zeugenaussage-Formblätter",
+    "type":  "Document",
+    "physical_description":  "Standardisierte Bögen mit Zeit-/Ort-Feldern.",
+    "history":  "Behördenroutine in Ermittlungsverfahren.",
+    "mechanics":  {
+                      "skill_check":  "Psychologie",
+                      "effect":  "Strukturierte Erfassung reduziert Widersprüche.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Bessere Aussagen, weniger Chaos.",
+    "inventory_tags":  [
+                           "beweis",
+                           "zeugen",
+                           "inventar"
+                       ]
+}

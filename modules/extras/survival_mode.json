@@ -1,0 +1,13 @@
+{
+  "id": "survival_mode",
+  "schema_version": "1.0.0",
+  "name": "Survival-Modus",
+  "type": "game_mode",
+  "compatible_rulesets": null,
+  "description": "Harter Ueberlebensmodus. Ressourcen sind knapp, Heilung selten, jede Entscheidung zaehlt.",
+  "prompt_injection": "Ressourcen sind extrem knapp. Fackeln brennen ab und muessen ersetzt werden. Rationen werden verbraucht — verfolge Nahrung und Wasser aktiv. Heiltraenke sind selten und teuer. Muendigkeit und Erschoepfung sind Faktoren. Beschreibe Hunger, Durst und Kaelte wenn relevant.",
+  "modifiers": {
+    "healing_factor": 0.5,
+    "loot_rarity_shift": 1
+  }
+}

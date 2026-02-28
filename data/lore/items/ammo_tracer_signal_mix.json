@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Signal/Tracer-Mix",
+    "type":  "Ammunition",
+    "physical_description":  "Gemischte Signalladungen fuer Markierungsschuesse.",
+    "history":  "Seltenes Spezialmaterial aus Depotbestaenden.",
+    "mechanics":  {
+                      "skill_check":  "-",
+                      "effect":  "Dient Markierung und Abschreckung statt Praezision.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Taktische Sichtbarkeit im Chaos.",
+    "inventory_tags":  [
+                           "munition",
+                           "signal",
+                           "inventar"
+                       ]
+}

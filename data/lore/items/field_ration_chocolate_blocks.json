@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Schokoladen-Riegelration",
+    "type":  "Field Gear",
+    "physical_description":  "Energieblöcke in Wachspapier, lange haltbar.",
+    "history":  "Schicht- und Reiseproviant.",
+    "mechanics":  {
+                      "skill_check":  "-",
+                      "effect":  "Schneller Energie-Boost in Drucksituationen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Mikroversorgung fuer lange Verfolgungen.",
+    "inventory_tags":  [
+                           "feld",
+                           "versorgung",
+                           "inventar"
+                       ]
+}

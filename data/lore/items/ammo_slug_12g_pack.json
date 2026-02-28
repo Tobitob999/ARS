@@ -1,0 +1,17 @@
+﻿{
+    "name":  "12-Gauge Slug-Patronen (10)",
+    "type":  "Ammunition",
+    "physical_description":  "Schwere Einzelgeschoss-Patronen fuer Flinten.",
+    "history":  "Fuer Jagd auf starkes Wild konzipiert.",
+    "mechanics":  {
+                      "skill_check":  "-",
+                      "effect":  "Erhoeht Durchschlagskraft auf kurze Distanz.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Spezialladung mit hoher Wirkung.",
+    "inventory_tags":  [
+                           "munition",
+                           "flinte",
+                           "inventar"
+                       ]
+}

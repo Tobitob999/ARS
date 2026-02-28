@@ -1,0 +1,15 @@
+{
+    "name":  "Hastur (Der König in Gelb) [Erweiterung]",
+    "type":  "Great Old One",
+    "manifestations":  [
+                           "Verbreitung des \u0027Gelben Zeichens\u0027 in Kunst und Graffiti.",
+                           "Künstlerischer Wahnsinn, Dekadenz und Nihilismus in der Gesellschaft.",
+                           "Der ferne Anblick der Stadt Carcosa und des Hali-Sees am Horizont."
+                       ],
+    "cult_connection":  "Die Unaussprechlichen (Arkham), elitäre Künstlerzirkel, die \u0027Bruderschaft des Gelben Zeichens\u0027.",
+    "presence_sign":  "Der Wind scheint Namen zu flüstern, und der Himmel färbt sich krankhaft gelb.",
+    "generated_variant":  true,
+    "source_seed_file":  "hastur.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

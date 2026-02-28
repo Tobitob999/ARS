@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Notsignal-Fackeln (Pack)",
+    "type":  "Field Gear",
+    "physical_description":  "Mehrere Leuchtfackeln fuer Markierung und Rettung.",
+    "history":  "Nachtbetrieb in Hafen/Feld.",
+    "mechanics":  {
+                      "skill_check":  "-",
+                      "effect":  "Setzt sichtbare Marker und schreckt ab.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Koordination und Notfallhilfe zugleich.",
+    "inventory_tags":  [
+                           "feld",
+                           "signal",
+                           "inventar"
+                       ]
+}

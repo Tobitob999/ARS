@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Botenkapsel fuer Brieftaube",
+    "type":  "Communication Gear",
+    "physical_description":  "Leichte Aluminiumkapsel mit Gewinde.",
+    "history":  "Traditioneller Distanzkanal bei Leitungsproblemen.",
+    "mechanics":  {
+                      "skill_check":  "-",
+                      "effect":  "Erlaubt stille, asynchrone Nachrichtenuebertragung.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Fallback-Kommunikation ohne Infrastruktur.",
+    "inventory_tags":  [
+                           "kommunikation",
+                           "fallback",
+                           "inventar"
+                       ]
+}

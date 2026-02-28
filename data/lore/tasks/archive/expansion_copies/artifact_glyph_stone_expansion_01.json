@@ -1,0 +1,16 @@
+{
+    "name":  "The Sentinel Hill Stone [Erweiterung]",
+    "type":  "Mysterious Artifact",
+    "physical_description":  "A smooth, black river stone, about the size of a human heart. It is always warm to the touch, even in freezing temperatures. It is covered in deeply engraved, star-shaped glyphs.",
+    "history":  "Found by a farmer near Sentinel Hill after a meteor shower in 1922. He sold it to an antique dealer, claiming it gave him nightmares.",
+    "mechanics":  {
+                      "sanity_loss":  "0/1 (upon first touching)",
+                      "skill_check":  "Archaeology or Occult to identify the glyphs as non-terrestrial.",
+                      "effect":  "Holding the stone for more than a minute induces vivid, disturbing dreams of a vast, dead city under a black sun during the next sleep."
+                  },
+    "content_summary":  "The stone is a psychic resonator, a fragment of a much larger object that fell from the sky.",
+    "generated_variant":  true,
+    "source_seed_file":  "artifact_glyph_stone.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

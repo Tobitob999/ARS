@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Handschriftproben-Formulare",
+    "type":  "Document",
+    "physical_description":  "Standardboegen fuer Vergleichsschrift.",
+    "history":  "Dokumentenpruefung in Ermittlungen.",
+    "mechanics":  {
+                      "skill_check":  "Psychologie",
+                      "effect":  "Erleichtert systematischen Schriftvergleich.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Nützlich bei Drohbriefen und Fälschung.",
+    "inventory_tags":  [
+                           "beweis",
+                           "dokument",
+                           "inventar"
+                       ]
+}

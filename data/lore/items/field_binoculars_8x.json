@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Feldstecher 8x",
+    "type":  "Field Gear",
+    "physical_description":  "Kompaktes Fernglas mit Lederriemen und Stoffbeutel.",
+    "history":  "Militaerischer Restposten, von Zivilisten breit genutzt.",
+    "mechanics":  {
+                      "skill_check":  "Wahrnehmung",
+                      "effect":  "Erweitert Sichtreichweite fuer Beobachtung ohne Annäherung.",
+                      "combat":  ""
+                  },
+    "content_summary":  "Klassisches Aufklaerungswerkzeug fuer Dachkanten und Uferlinien.",
+    "inventory_tags":  [
+                           "feld",
+                           "aufklaerung",
+                           "optik",
+                           "inventar"
+                       ]
+}

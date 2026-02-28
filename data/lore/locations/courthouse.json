@@ -1,0 +1,20 @@
+{
+  "name": "Justizsystem von Arkham",
+  "type": "Legal System",
+  "courthouse": {
+    "name": "Arkham County Courthouse",
+    "atmosphere": "Ein imposantes neoklassizistisches Gebäude mit hohen Säulen. Im Inneren riecht es nach Staub und der Angst der Angeklagten."
+  },
+  "personnel": [
+    {
+      "name": "Richter Alistair Blackwood",
+      "role": "Vorsitzender Richter",
+      "corruption": "Niedrig. Gilt als streng, aber fair. Ist jedoch anfällig für den politischen Druck der Oberschicht."
+    },
+    {
+      "name": "Staatsanwalt Thaddeus Roach",
+      "role": "Bezirksstaatsanwalt",
+      "corruption": "Hoch. Ist dafür bekannt, Anklagen gegen eine 'Spende' für seinen Wahlkampffonds fallen zu lassen. Arbeitet eng mit der O'Bannion-Gang zusammen."
+    }
+  ]
+}

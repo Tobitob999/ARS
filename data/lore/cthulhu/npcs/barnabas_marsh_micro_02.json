@@ -1,0 +1,17 @@
+{
+    "name":  "barnabas marsh - Folgespur",
+    "type":  "Lore Snippet",
+    "category":  "npcs",
+    "tags":  [
+                 "generated",
+                 "micro",
+                 "hook",
+                 "wave2"
+             ],
+    "content_summary":  "Im Randbezirk kursiert: ein kurzer Stromausfall in einer Schluesselakte; Tonlage: dringlich.",
+    "hook":  "Bei gelungener Probe (Bibliotheksnutzung) erhalten die Investigatoren einen Vorsprung; bei Misserfolg entsteht ein stilles Eingreifen einer dritten Partei.",
+    "gm_note":  "Als Anschluss an bestehende Szene nutzen; auf 2-4 Dialogwechsel begrenzen.",
+    "source_seed_file":  "barnabas_marsh.json",
+    "generation_method":  "microcontent-v3",
+    "loyalitaetsdrift":  "stabil"
+}

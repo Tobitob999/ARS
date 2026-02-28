@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Eisengallus-Ritualtinte",
+    "type":  "Occult Utility",
+    "physical_description":  "Dunkle Tinte fuer dauerhafte Zeichen und Bindungen.",
+    "history":  "Historisch in Kanzleien, hier rituell zweckentfremdet.",
+    "mechanics":  {
+                      "skill_check":  "Kunst \u0026 Handwerk",
+                      "effect":  "Erzeugt belastbare Sigillen auf Papier/Leder.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Nützliche Schnittstelle zwischen Büro und Okkultem.",
+    "inventory_tags":  [
+                           "okkult",
+                           "dokument",
+                           "inventar"
+                       ]
+}

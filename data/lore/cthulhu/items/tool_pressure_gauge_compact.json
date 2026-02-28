@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Kompakt-Druckmesser",
+    "type":  "Tool",
+    "physical_description":  "Manometer fuer Leitungen und Behaelter.",
+    "history":  "In Werkstätten und technischen Anlagen genutzt.",
+    "mechanics":  {
+                      "skill_check":  "Wissenschaft (Physik)",
+                      "effect":  "Erkennt Ueberdruck-/Leckrisiken fruehzeitig.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Sicherheitscheck in Industrieorten.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "technik",
+                           "inventar"
+                       ]
+}

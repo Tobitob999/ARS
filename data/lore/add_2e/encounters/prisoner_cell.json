@@ -1,0 +1,8 @@
+{
+    "id":  "prisoner_cell",
+    "module_type":  "event",
+    "trigger_condition":  "Unlocking rusted barred cell",
+    "damage":  "none",
+    "saving_throw":  "none",
+    "effect_description":  "Narrative dungeon dressing or encounter hook."
+}

@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Telegraphen-Dispatchblatt",
+    "type":  "Document",
+    "physical_description":  "Abschrift eingehender/ausgehender Telegramme.",
+    "history":  "Kommunikationsknoten fuehren solche Listen.",
+    "mechanics":  {
+                      "skill_check":  "Bibliotheksnutzung",
+                      "effect":  "Zeigt Nachrichtenfluesse ueber Zeitfenster.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Nutzt Metadaten statt Inhalt fuer Ermittlungen.",
+    "inventory_tags":  [
+                           "dokument",
+                           "kommunikation",
+                           "inventar"
+                       ]
+}

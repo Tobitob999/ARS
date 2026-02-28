@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Chirurgische Masken (Pack)",
+    "type":  "Medical Supply",
+    "physical_description":  "Packung einfacher OP-Masken aus Stoff/Papier.",
+    "history":  "Krankenhaus- und Laborbedarf.",
+    "mechanics":  {
+                      "skill_check":  "Medizin",
+                      "effect":  "Reduziert Exposition in kontaminierten Raeumen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Basishygiene fuer Teamarbeit.",
+    "inventory_tags":  [
+                           "medizin",
+                           "hygiene",
+                           "inventar"
+                       ]
+}

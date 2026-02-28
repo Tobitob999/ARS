@@ -1,0 +1,17 @@
+﻿{
+    "name":  ".30-06 Patrone auf Ladeclips",
+    "type":  "Ammunition",
+    "physical_description":  "Ladeclips mit Gewehrmunition, sauber verpackt.",
+    "history":  "Aus Jagdvereinen und Veteranenbeständen.",
+    "mechanics":  {
+                      "skill_check":  "-",
+                      "effect":  "Beschleunigt Nachladen bei kompatiblen Gewehren.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Taktischer Vorteil bei Fernkampf.",
+    "inventory_tags":  [
+                           "munition",
+                           "gewehr",
+                           "inventar"
+                       ]
+}

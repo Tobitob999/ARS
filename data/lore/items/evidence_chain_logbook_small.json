@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Kleines Beweisketten-Logbuch",
+    "type":  "Document",
+    "physical_description":  "Fortlaufendes Register mit Übergabe-Signaturen.",
+    "history":  "Interne Praxis in sauberen Ermittlungsgruppen.",
+    "mechanics":  {
+                      "skill_check":  "Recht",
+                      "effect":  "Erhöht juristische Haltbarkeit von Beweisen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Prozessfester Umgang mit Funden.",
+    "inventory_tags":  [
+                           "beweis",
+                           "recht",
+                           "inventar"
+                       ]
+}

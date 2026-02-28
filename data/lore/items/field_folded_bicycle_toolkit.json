@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Fahrrad-Werkzeugset",
+    "type":  "Field Gear",
+    "physical_description":  "Mini-Werkzeugsatz fuer Kette, Speichen und Bremse.",
+    "history":  "Kuriere und Ermittler auf zwei Raedern nutzen es.",
+    "mechanics":  {
+                      "skill_check":  "Mechanik",
+                      "effect":  "Erhaelt Mobilitaet bei Verfolgungen in der Stadt.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Tempo-Absicherung fuer urbane Einsaetze.",
+    "inventory_tags":  [
+                           "feld",
+                           "mobilitaet",
+                           "inventar"
+                       ]
+}

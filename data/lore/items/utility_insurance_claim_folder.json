@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Versicherungs-Schadensmappe",
+    "type":  "Utility",
+    "physical_description":  "Mappenpaket mit Schadensbogen und Bewertungsformularen.",
+    "history":  "Von Versicherungsdetektiven und Agenturen genutzt.",
+    "mechanics":  {
+                      "skill_check":  "Bibliotheksnutzung",
+                      "effect":  "Erlaubt strukturierte Schadensdokumentation am Ort.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Nützlich in Betrugs- und Brandfällen.",
+    "inventory_tags":  [
+                           "utility",
+                           "dokumentation",
+                           "inventar"
+                       ]
+}

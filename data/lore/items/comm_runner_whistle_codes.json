@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Läufer-Pfeifcodeblatt",
+    "type":  "Communication Gear",
+    "physical_description":  "Codeblatt für kurze Signalfolgen mit Pfeife.",
+    "history":  "Kuriernetze nutzen es für stumme Abstimmung.",
+    "mechanics":  {
+                      "skill_check":  "Lauschen",
+                      "effect":  "Verbessert Deutung von Signalfolgen im Feld.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Koordination ohne offene Sprache.",
+    "inventory_tags":  [
+                           "kommunikation",
+                           "code",
+                           "inventar"
+                       ]
+}

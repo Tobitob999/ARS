@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Ammoniak-Inhalator",
+    "type":  "Medical Supply",
+    "physical_description":  "Stiftfoermiger Inhalator fuer schnelle Reizstimulation.",
+    "history":  "In Praxen gegen Ohnmachtsanfaelle genutzt.",
+    "mechanics":  {
+                      "skill_check":  "Erste Hilfe",
+                      "effect":  "Kann kurzfristig Wachheit und Reaktion triggern.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Schneller Reizimpuls im Notfall.",
+    "inventory_tags":  [
+                           "medizin",
+                           "notfall",
+                           "inventar"
+                       ]
+}

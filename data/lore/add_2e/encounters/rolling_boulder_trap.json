@@ -1,0 +1,7 @@
+{
+    "id":  "rolling_boulder_trap",
+    "module_type":  "trap",
+    "trigger_condition":  "Removing idol from pedestal",
+    "damage":  "3d6",
+    "saving_throw":  "vs. Breath Weapon for half"
+}

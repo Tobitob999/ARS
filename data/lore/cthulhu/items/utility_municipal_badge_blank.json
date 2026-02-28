@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Kommunaler Dienstausweis (blanko)",
+    "type":  "Utility",
+    "physical_description":  "Unbeschriebene Ausweiskarte mit Stadtwappenfeld.",
+    "history":  "Amtliche Optik, legal nur intern ausgebbar.",
+    "mechanics":  {
+                      "skill_check":  "Verkleiden",
+                      "effect":  "Erhoeht kurzfristig Amtsglaubwuerdigkeit.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Riskante Cover-Ressource.",
+    "inventory_tags":  [
+                           "utility",
+                           "deckung",
+                           "inventar"
+                       ]
+}

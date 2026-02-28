@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Canvas-Knieschoner",
+    "type":  "Protective Gear",
+    "physical_description":  "Genietete Knieschoner fuer Bodenarbeit.",
+    "history":  "Von Handwerkern und Spurensicherern genutzt.",
+    "mechanics":  {
+                      "skill_check":  "Spurensuche",
+                      "effect":  "Erleichtert lange Arbeit an Tatortboden.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Kleine Hilfe fuer lange Forensikszenen.",
+    "inventory_tags":  [
+                           "schutz",
+                           "forensik",
+                           "inventar"
+                       ]
+}

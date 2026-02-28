@@ -1,0 +1,16 @@
+{
+  "name": "Gefahren der Wildnis",
+  "type": "Environmental Hazards",
+  "hazards": [
+    {
+      "name": "Sumpf / Moor",
+      "description": "Ein Gebiet mit tückischem, schlammigem Boden, der unter den Füßen nachgibt. Es riecht nach Fäulnis und stehendem Wasser.",
+      "mechanics": "Erschwert 'Schleichen'-Proben. Ein Patzer bei einer 'Geschicklichkeits'-Probe kann bedeuten, dass man bis zur Hüfte im Schlamm versinkt."
+    },
+    {
+      "name": "Steile Hänge / Klippen",
+      "description": "Felsige, rutschige Abhänge, die schwer zu erklimmen sind. Loser Schotter macht jeden Schritt unsicher.",
+      "mechanics": "Erfordert 'Klettern'-Proben. Ein Misserfolg führt zu Stürzen und physischem Schaden (HP-Verlust)."
+    }
+  ]
+}

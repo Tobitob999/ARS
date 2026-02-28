@@ -1,0 +1,12 @@
+{
+  "name": "Diary Entry with Chant",
+  "type": "Diary Page",
+  "physical_description": "A blood-stained page, the writing is barely a scrawl.",
+  "mechanics": {
+    "reading_time": "5 minutes",
+    "sanity_loss": "1/1d4 (if read aloud)",
+    "mythos_gain": 1,
+    "skill_check": "Occult"
+  },
+  "content_summary": "The page contains only a few coherent words amidst mad scribbling: 'It is not dead which can eternal lie, and with strange aeons even death may die.' Below this is a phonetic transcription of a chant: 'Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn.'"
+}

@@ -1,0 +1,17 @@
+{
+    "name":  "Unvollständige Abschrift des Necronomicon (Dee-Übersetzung) [Erweiterung]",
+    "type":  "Legendäres Buch",
+    "physical_description":  "Ein schwerer Foliant, gebunden in menschliche Haut. Die Seiten sind aus Vellum, die lateinische Schrift ist die eines manischen Gelehrten. Viele Seiten sind herausgerissen oder durch Wasserflecken unleserlich.",
+    "history":  "Eine von nur fünf bekannten Abschriften von John Dees Übersetzung. Dieses Exemplar wurde aus der Miskatonic-Bibliothek gestohlen und gilt als verschollen.",
+    "mechanics":  {
+                      "reading_time":  "Wochen bis Monate",
+                      "sanity_loss":  "1d10/2d10",
+                      "mythos_gain":  8,
+                      "skill_check":  "Language (Latin) AND Occult (Hard)"
+                  },
+    "content_summary":  "Enthält unvollständige, aber funktionale Anleitungen zu den Zaubern \u0027Zeichen von Koth\u0027 und \u0027Fleischverwurf\u0027. Verweist auf die Existenz von Entitäten wie Yog-Sothoth und die Rituale, um sie zu kontaktieren.",
+    "generated_variant":  true,
+    "source_seed_file":  "necronomicon_fragment.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

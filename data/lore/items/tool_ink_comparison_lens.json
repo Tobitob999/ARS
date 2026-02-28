@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Tintenvergleichs-Lupe",
+    "type":  "Tool",
+    "physical_description":  "Lupe mit Farbskala fuer Tintenunterschiede.",
+    "history":  "Dokumentenpruefer nutzen sie fuer Echtheitschecks.",
+    "mechanics":  {
+                      "skill_check":  "Kunst \u0026 Handwerk",
+                      "effect":  "Entdeckt nachtraegliche Ergaenzungen in Schriftstuecken.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Stark bei Urkunden- und Erpressungsfaellen.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "dokument",
+                           "inventar"
+                       ]
+}

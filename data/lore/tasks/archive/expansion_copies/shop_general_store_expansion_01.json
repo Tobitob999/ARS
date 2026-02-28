@@ -1,0 +1,15 @@
+{
+    "name":  "Arkham General Store [Erweiterung]",
+    "address":  "Downtown, Arkham",
+    "atmosphere":  "Ein vollgestopfter Laden, der alles von Nägeln bis zu Konservendosen verkauft. Es riecht nach Sägemehl, Kaffee und Kerosin. Der Inhaber, Sam, ist freundlich, aber neugierig.",
+    "details":  [
+                    "Ein großes Fass mit Essiggurken, aus dem sich Kunden bedienen können.",
+                    "Eine Theke mit Werkzeugen, Lampen, Seilen und anderen nützlichen Dingen.",
+                    "Ein schwarzes Brett mit Anzeigen und Gesuchen von den Bürgern Arkhams."
+                ],
+    "clues":  "Bester Ort für allgemeine Ausrüstung. Das schwarze Brett kann ein guter Startpunkt für neue Ermittlungen sein.",
+    "generated_variant":  true,
+    "source_seed_file":  "shop_general_store.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

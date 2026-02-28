@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Brandoelflasche",
+    "type":  "Weapon",
+    "physical_description":  "Glasflasche mit leicht entzuendlichem Gemisch und Lappen.",
+    "history":  "Improvisierte Waffe aus Krisensituationen.",
+    "mechanics":  {
+                      "skill_check":  "Werfen",
+                      "effect":  "Erzeugt Flaechenbrand und Panik, schwer kontrollierbar.",
+                      "combat":  "1W6+Brandfolge situativ."
+                  },
+    "content_summary":  "Riskante Eskalationsoption.",
+    "inventory_tags":  [
+                           "waffe",
+                           "improvisiert",
+                           "brand",
+                           "inventar"
+                       ]
+}

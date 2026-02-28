@@ -1,0 +1,15 @@
+{
+    "name":  "Miller\u0027s Fine Tailoring [Erweiterung]",
+    "address":  "French Hill, Arkham",
+    "atmosphere":  "Riecht nach Stoff, Dampf und Nähmaschinenöl. Schaufensterpuppen tragen die neueste Mode. Der Schneider, Mr. Miller, ist ein Klatschmaul.",
+    "details":  [
+                    "Stoffballen in allen Farben und Mustern, die in Regalen gestapelt sind.",
+                    "Ein Maßband, das der Schneider immer um den Hals trägt.",
+                    "Eine Pinnwand mit Skizzen und Notizen über die Maße und Vorlieben seiner wohlhabenden Kunden."
+                ],
+    "clues":  "Eine exzellente Quelle für Gerüchte über die Oberschicht von Arkham. Mr. Miller weiß, wer zugenommen hat, wer sich neue Kleider für eine Reise kauft und wer plötzlich teure Stoffe bestellt.",
+    "generated_variant":  true,
+    "source_seed_file":  "shop_arkham_tailor.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

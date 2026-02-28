@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Kreidebuendel",
+    "type":  "Field Gear",
+    "physical_description":  "Mehrere weisse und rote Kreidestuecke im Stoffbeutel.",
+    "history":  "Von Vermessern, Lehrern und Polizisten genutzt.",
+    "mechanics":  {
+                      "skill_check":  "Orientierung oder Okkultes Wissen",
+                      "effect":  "Markiert Wege, Gefahrenzonen oder Ritualgrenzen sichtbar.",
+                      "combat":  ""
+                  },
+    "content_summary":  "Low-Tech-Helfer fuer Spurhaltung und Raumkontrolle.",
+    "inventory_tags":  [
+                           "feld",
+                           "markierung",
+                           "ritual",
+                           "inventar"
+                       ]
+}

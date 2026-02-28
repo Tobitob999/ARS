@@ -1,0 +1,26 @@
+﻿{
+    "name":  "dream fragments - Drucklinie",
+    "type":  "Lore Snippet",
+    "category":  "documents",
+    "tags":  [
+                 "generated",
+                 "micro",
+                 "hook",
+                 "wave5",
+                 "creative"
+             ],
+    "primary_conflict":  "eine Routine kippt in Ausnahmezustand",
+    "dramatic_angle":  "moralisch",
+    "price_of_success":  "Zugang zu einem sicheren Rueckzugsort",
+    "countdown":  "3 Szenen bis der Druck kippt",
+    "fallback_plan":  "Beweise sichern und spaeter zuschlagen",
+    "hook":  "Probe auf Bibliotheksnutzung: Erfolg klaert die Lage, Misserfolg erhoeht den Preis von Erfolg im Folgezug.",
+    "gm_moves":  [
+                     "Zeige den Preis, bevor die Entscheidung faellt",
+                     "Starte den Countdown sichtbar im Raum",
+                     "Lass einen Erfolg zwei neue Probleme oeffnen"
+                 ],
+    "source_seed_file":  "dream_fragments.json",
+    "generation_method":  "microcontent-v6",
+    "aktenwiderstand":  "offen"
+}

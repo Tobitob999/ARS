@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Reagenzien-Koffer",
+    "type":  "Tool",
+    "physical_description":  "Kleiner Koffer mit Basisreagenzien und Pipetten.",
+    "history":  "Laborfeldset fuer schnelle Reaktivitaetstests.",
+    "mechanics":  {
+                      "skill_check":  "Wissenschaft (Chemie)",
+                      "effect":  "Erlaubt vor-Ort-Hinweise zu Stoffgruppen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Schnelle Chemieindizien ohne Labor.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "chemie",
+                           "inventar"
+                       ]
+}

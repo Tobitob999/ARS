@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Munition .38 Special (50)",
+    "type":  "Ammunition",
+    "physical_description":  "Kartonschachtel mit 50 Patronen, Messinghuelsen.",
+    "history":  "Standardverfuegbarkeit in urbanen Waffenlaeden.",
+    "mechanics":  {
+                      "skill_check":  "-",
+                      "effect":  "Sichert laengere Einsatzfaehigkeit fuer Revolver.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Logistische Basis fuer bewaffnete Ermittlungen.",
+    "inventory_tags":  [
+                           "munition",
+                           "logistik",
+                           "inventar"
+                       ]
+}

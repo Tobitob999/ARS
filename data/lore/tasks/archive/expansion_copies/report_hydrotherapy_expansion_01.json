@@ -1,0 +1,12 @@
+{
+    "name":  "Bericht: Hydrotherapie-Protokolle [Erweiterung]",
+    "type":  "Medical Report",
+    "author":  "Oberschwester Ratched",
+    "content_summary":  "Detaillierte Anweisungen für Dauerbäder. Patienten werden stundenlang in Eiswasser oder extrem heißem Wasser fixiert, um \u0027Erregungszustände\u0027 zu dämpfen.",
+    "details":  "Wird oft eher als Bestrafung denn als Heilmethode eingesetzt. Patienten fürchten \u0027die Wanne\u0027 mehr als alles andere.",
+    "keeper_notes":  "Ein Ort des Schreckens im Keller des St. Mary\u0027s Hospitals.",
+    "generated_variant":  true,
+    "source_seed_file":  "report_hydrotherapy.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

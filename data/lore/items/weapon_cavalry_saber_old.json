@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Alter Kavalleriesaebel",
+    "type":  "Weapon",
+    "physical_description":  "Leicht gebogene Klinge mit Korbgriff.",
+    "history":  "Erbstueck aus Vorkriegszeit, oft dekorativ gelagert.",
+    "mechanics":  {
+                      "skill_check":  "Nahkampf (Hieb)",
+                      "effect":  "Reichweitenvorteil gegen kurze Waffen.",
+                      "combat":  "1W8+1."
+                  },
+    "content_summary":  "Auffaellige Waffe fuer dramatische Auftritte.",
+    "inventory_tags":  [
+                           "waffe",
+                           "klinge",
+                           "nahkampf",
+                           "inventar"
+                       ]
+}

@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Leichenhaus-Freigabeformular",
+    "type":  "Document",
+    "physical_description":  "Formblatt fuer Einsicht und Uebergabeprotokolle.",
+    "history":  "Kriminal- und Klinikschnittstelle.",
+    "mechanics":  {
+                      "skill_check":  "Recht",
+                      "effect":  "Erleichtert legalen Zugriff auf forensisches Material.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Papierhebel im Todesfallstrang.",
+    "inventory_tags":  [
+                           "dokument",
+                           "forensik",
+                           "inventar"
+                       ]
+}

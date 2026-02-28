@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Schwarzer Sand (Phiole)",
+    "type":  "Occult Utility",
+    "physical_description":  "Feiner schwarzer Sand in versiegelter Glasphiole.",
+    "history":  "In Schutz- und Bindungsriten mancher Zirkel genutzt.",
+    "mechanics":  {
+                      "skill_check":  "Okkultes Wissen",
+                      "effect":  "Markiert symbolische Grenzen und Fokuspunkte.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Kleines Ritualmaterial mit klarer Sichtwirkung.",
+    "inventory_tags":  [
+                           "okkult",
+                           "ritual",
+                           "inventar"
+                       ]
+}

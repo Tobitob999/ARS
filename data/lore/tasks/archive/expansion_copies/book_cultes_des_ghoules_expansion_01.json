@@ -1,0 +1,17 @@
+{
+    "name":  "Fragment of \u0027Cultes des Ghoules\u0027 [Erweiterung]",
+    "type":  "Forbidden Book",
+    "physical_description":  "Three charred, brittle pages bound together with gut. The French text is handwritten by a clearly unstable author.",
+    "history":  "Believed to be a transcription of a section from the Comte d\u0027Erlette\u0027s infamous tome, recovered from a burned-down farmhouse outside Arkham in 1908.",
+    "mechanics":  {
+                      "reading_time":  "4 hours",
+                      "sanity_loss":  "1d3/1d6",
+                      "mythos_gain":  2,
+                      "skill_check":  "Language (French) or Occult (Hard)"
+                  },
+    "content_summary":  "Contains rituals for communicating with ghouls and a partial description of their subterranean kingdom.",
+    "generated_variant":  true,
+    "source_seed_file":  "book_cultes_des_ghoules.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Blitzpulver-Set",
+    "type":  "Tool",
+    "physical_description":  "Magnesiumblitz mit Zünder für Innenraumfotografie.",
+    "history":  "Frühe Presse- und Tatorttechnik.",
+    "mechanics":  {
+                      "skill_check":  "Kunst \u0026 Handwerk",
+                      "effect":  "Erlaubt Fotoaufnahme in völliger Dunkelheit, sehr auffällig.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Dokumentation trotz Lichtmangel.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "foto",
+                           "licht",
+                           "inventar"
+                       ]
+}

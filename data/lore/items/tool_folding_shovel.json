@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Klappspaten",
+    "type":  "Tool",
+    "physical_description":  "Stabiler Feldspaten mit verriegelbarem Gelenk.",
+    "history":  "Militaerisches Ueberbleibsel fuer Graben- und Notarbeit.",
+    "mechanics":  {
+                      "skill_check":  "STR",
+                      "effect":  "Schnelles Freilegen von Verstecken/Kellerrandbereichen.",
+                      "combat":  "Nahkampf (Hieb): 1W6."
+                  },
+    "content_summary":  "Nutzbar fuer Feldarbeit und Improvisation.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "feld",
+                           "inventar"
+                       ]
+}

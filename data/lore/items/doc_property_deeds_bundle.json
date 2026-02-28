@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Grundbuchauszuege-Buendel",
+    "type":  "Document",
+    "physical_description":  "Mehrere beglaubigte Kopien alter Eigentumsketten.",
+    "history":  "Aus Registry-Office zusammengetragen.",
+    "mechanics":  {
+                      "skill_check":  "Recht",
+                      "effect":  "Legt Besitzverhältnisse und Konfliktlinien offen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Hebel fuer Druck auf Organisationen/Familien.",
+    "inventory_tags":  [
+                           "dokument",
+                           "recht",
+                           "besitz",
+                           "inventar"
+                       ]
+}

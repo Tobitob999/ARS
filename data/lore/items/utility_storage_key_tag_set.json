@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Schluesselanhänger-Set",
+    "type":  "Utility",
+    "physical_description":  "Nummerierte Tags fuer Schluesselmanagement.",
+    "history":  "Hausmeister- und Lagerpraxis.",
+    "mechanics":  {
+                      "skill_check":  "-",
+                      "effect":  "Ordnet viele Schluessel eindeutig zu.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Verhindert Chaos in langen Einsätzen.",
+    "inventory_tags":  [
+                           "utility",
+                           "organisation",
+                           "inventar"
+                       ]
+}

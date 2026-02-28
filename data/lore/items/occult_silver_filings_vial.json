@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Silberspaene-Phiole",
+    "type":  "Occult Utility",
+    "physical_description":  "Feine Silberspäne in Glasröhrchen.",
+    "history":  "In Abwehr- und Reinigungsriten verwendet.",
+    "mechanics":  {
+                      "skill_check":  "Okkultes Wissen",
+                      "effect":  "Markiert Linien gegen bestimmte Entitäten (situativ).",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Rituelles Verbrauchsmaterial mit Fokuszweck.",
+    "inventory_tags":  [
+                           "okkult",
+                           "abwehr",
+                           "inventar"
+                       ]
+}

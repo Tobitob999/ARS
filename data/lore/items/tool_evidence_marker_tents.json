@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Beweis-Marker (Klappschilder)",
+    "type":  "Tool",
+    "physical_description":  "Nummerierte Klappmarker fuer Tatortfotos und Spurpunkte.",
+    "history":  "Forensikteams nutzen vergleichbare Sets.",
+    "mechanics":  {
+                      "skill_check":  "Spurensuche",
+                      "effect":  "Strukturiert Beweisreihenfolge am Schauplatz.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Ordnung und Klarheit bei komplexen Szenen.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "forensik",
+                           "inventar"
+                       ]
+}

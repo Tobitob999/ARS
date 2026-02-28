@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Desinfektionstuecher",
+    "type":  "Medical Supply",
+    "physical_description":  "Einzeln verpackte Tücher in Metallbox.",
+    "history":  "Feldhygiene bei häufigem Ortswechsel.",
+    "mechanics":  {
+                      "skill_check":  "Erste Hilfe",
+                      "effect":  "Schnelle Oberflaechen- und Hautdesinfektion.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Hygienebasis zwischen Einsätzen.",
+    "inventory_tags":  [
+                           "medizin",
+                           "hygiene",
+                           "inventar"
+                       ]
+}

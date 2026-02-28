@@ -1,0 +1,8 @@
+{
+    "id":  "rival_adventurers",
+    "module_type":  "event",
+    "trigger_condition":  "Long rest in contested zone",
+    "damage":  "none",
+    "saving_throw":  "none",
+    "effect_description":  "Narrative dungeon dressing or encounter hook."
+}

@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Vermesser-Faehnchen-Set",
+    "type":  "Tool",
+    "physical_description":  "Kleine Markierfaehnchen in mehreren Farben.",
+    "history":  "Vermessung und Spurwegmarkierung.",
+    "mechanics":  {
+                      "skill_check":  "Orientierung",
+                      "effect":  "Markiert sichere/unsichere Wege schnell sichtbar.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Navigation und Teamkoordination im Gelände.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "navigation",
+                           "inventar"
+                       ]
+}

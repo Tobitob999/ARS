@@ -1,0 +1,7 @@
+{
+    "id":  "spiked_pit_trap",
+    "module_type":  "trap",
+    "trigger_condition":  "Weighted flagstone",
+    "damage":  "1d6 + 1d4",
+    "saving_throw":  "none"
+}

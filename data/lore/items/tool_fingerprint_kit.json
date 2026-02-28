@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Fingerabdruck-Set",
+    "type":  "Tool",
+    "physical_description":  "Puder, Pinsel, Klebestreifen und Karten fuer Spurensicherung.",
+    "history":  "In den 1920ern zunehmend verbreitet in Polizei und Privatermittlungen.",
+    "mechanics":  {
+                      "skill_check":  "Spurensuche",
+                      "effect":  "Macht latente Fingerabdruecke sichtbar, wenn Oberflaeche geeignet ist.",
+                      "combat":  ""
+                  },
+    "content_summary":  "Kernwerkzeug fuer forensische Szenenarbeit.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "forensik",
+                           "spuren",
+                           "inventar"
+                       ]
+}

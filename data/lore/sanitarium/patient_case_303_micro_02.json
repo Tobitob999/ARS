@@ -1,0 +1,17 @@
+{
+    "name":  "patient case 303 - Folgespur",
+    "type":  "Lore Snippet",
+    "category":  "sanitarium",
+    "tags":  [
+                 "generated",
+                 "micro",
+                 "hook",
+                 "wave2"
+             ],
+    "content_summary":  "Im Nachtprotokoll steht: eine versiegelte Lieferung in einer Schluesselakte; Tonlage: nuechtern.",
+    "hook":  "Bei gelungener Probe (Bibliotheksnutzung) erhalten die Investigatoren einen Vorsprung; bei Misserfolg entsteht ein neues Druckmittel gegen einen NPC.",
+    "gm_note":  "Als Anschluss an bestehende Szene nutzen; auf 2-4 Dialogwechsel begrenzen.",
+    "source_seed_file":  "patient_case_303.json",
+    "generation_method":  "microcontent-v3",
+    "interventionsfenster":  "kritisch"
+}

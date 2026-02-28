@@ -1,0 +1,28 @@
+{
+  "name": "Traum-Fragmente",
+  "type": "Dream Sequence Lore",
+  "description": "Eine Sammlung von Träumen, die Investigatoren nach dem Lesen von Mythos-Büchern oder traumatischen Erlebnissen heimsuchen können.",
+  "dreams": [
+    {
+      "name": "Der Sturz durch den Abgrund",
+      "description": "Du fällst durch eine endlose, kalte Leere. Weit unter dir siehst du Galaxien wie Staubkörner wirbeln. Eine kalte, mathematische Stimme flüstert dir die Gesetze der Schöpfung ins Ohr, und du verstehst sie.",
+      "sanity_effect": "Aufwachen mit dem Gefühl unendlicher Bedeutungslosigkeit. Verlust von 1 Stabilitätspunkt."
+    },
+    {
+      "name": "Die Stadt der Katzen",
+      "description": "Du wanderst durch die Gassen einer alten Stadt, in der keine Menschen leben. Katzen sitzen auf den Dächern und Mauern und beobachten dich mit weisen, alten Augen. Eine von ihnen spricht zu dir, aber nicht mit Worten.",
+      "dreamlands_seed": "Ein vager Hinweis auf Ulthar, die Stadt, in der keine Katze getötet werden darf."
+    },
+    {
+      "name": "Der nasse Kuss",
+      "description": "Du stehst am Ufer eines dunklen, öligen Meeres. Eine Gestalt steigt aus den Wellen, eine Mischung aus Mensch und Fisch. Sie kommt auf dich zu und du kannst dich nicht bewegen. Sie umarmt dich, und du spürst ihre kalten, feuchten Lippen auf deinen.",
+      "sanity_effect": "Aufwachen mit einem salzigen Geschmack im Mund und einem Gefühl der Scham. Verlust von 1d3 Stabilität."
+    },
+    {
+      "name": "Die Onyx-Stadt",
+      "description": "Du siehst eine majestätische Stadt aus schwarzem Onyx, deren Türme die Wolken durchstoßen. Galeeren mit seidenen Segeln gleiten in den Hafen. Du weißt, dass du hier glücklich sein könntest, für immer.",
+      "dreamlands_seed": "Eine Vision von Celephaïs, der Stadt, die von König Kuranes in seinen Träumen erschaffen wurde."
+    }
+  ],
+  "mechanics": "Nach dem Lesen eines Mythos-Buches oder einem schweren Stabilitätsverlust kann der Keeper den Spieler einen Traum aus dieser Liste erleben lassen. Der Stabilitätsverlust tritt am nächsten Morgen beim Aufwachen ein."
+}

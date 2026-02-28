@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Mobiler Morsegeber",
+    "type":  "Communication Gear",
+    "physical_description":  "Kompakter Telegraphenschluessel mit Klemmen.",
+    "history":  "Telegrafiker- und Feldtechnik.",
+    "mechanics":  {
+                      "skill_check":  "Wissenschaft (Physik)",
+                      "effect":  "Kann an passende Leitungen gekoppelt werden.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Direkter Codekanal in Netznaehe.",
+    "inventory_tags":  [
+                           "kommunikation",
+                           "code",
+                           "inventar"
+                       ]
+}

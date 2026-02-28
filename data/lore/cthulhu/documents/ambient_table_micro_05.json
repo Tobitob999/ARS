@@ -1,0 +1,26 @@
+﻿{
+    "name":  "ambient table - Drucklinie",
+    "type":  "Lore Snippet",
+    "category":  "documents",
+    "tags":  [
+                 "generated",
+                 "micro",
+                 "hook",
+                 "wave5",
+                 "creative"
+             ],
+    "primary_conflict":  "ein alter Schwur kollidiert mit der Gegenwart",
+    "dramatic_angle":  "sozial",
+    "price_of_success":  "eine wertvolle Ressource",
+    "countdown":  "90 Minuten bis zur Sperrung",
+    "fallback_plan":  "saubere Trennung der Gruppe in zwei Achsen",
+    "hook":  "Probe auf Psychologie: Erfolg klaert die Lage, Misserfolg erhoeht den Preis von Erfolg im Folgezug.",
+    "gm_moves":  [
+                     "Zeige den Preis, bevor die Entscheidung faellt",
+                     "Starte den Countdown sichtbar im Raum",
+                     "Lass einen Erfolg zwei neue Probleme oeffnen"
+                 ],
+    "source_seed_file":  "ambient_table.json",
+    "generation_method":  "microcontent-v6",
+    "aktenwiderstand":  "blockiert"
+}

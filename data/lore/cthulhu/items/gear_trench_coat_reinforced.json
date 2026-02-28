@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Verstaerkter Trenchcoat",
+    "type":  "Protective Gear",
+    "physical_description":  "Schwerer Mantel mit verdeckten Lederlagen im Rumpfbereich.",
+    "history":  "Von Reportern und Ermittlern als diskrete Schutzkleidung getragen.",
+    "mechanics":  {
+                      "skill_check":  "",
+                      "effect":  "Mildert leichte Schnitt- und Schlagschäden in urbanen Szenen.",
+                      "combat":  "Schutzwirkung situativ nach Keeper-Urteil."
+                  },
+    "content_summary":  "Diskreter Alltags-Schutz ohne offene Militaeraesthetik.",
+    "inventory_tags":  [
+                           "schutz",
+                           "kleidung",
+                           "diskret",
+                           "inventar"
+                       ]
+}

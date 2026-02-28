@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Wachs-Ohrstopfen",
+    "type":  "Protective Gear",
+    "physical_description":  "Wiederverwendbare Wachsstopfen im Blechdöschen.",
+    "history":  "Verwendet in Fabrikhallen und Schießstaenden.",
+    "mechanics":  {
+                      "skill_check":  "Lauschen",
+                      "effect":  "Dämpft laute Reize, erschwert feine Umgebungsgeraeusche.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Nischenschutz bei Schocklärm.",
+    "inventory_tags":  [
+                           "schutz",
+                           "lautstaerke",
+                           "inventar"
+                       ]
+}

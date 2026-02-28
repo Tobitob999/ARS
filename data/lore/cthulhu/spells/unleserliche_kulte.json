@@ -1,0 +1,13 @@
+{
+  "name": "Unaussprechliche Kulte (Deutsche Erstausgabe)",
+  "type": "Legendäres Buch",
+  "physical_description": "Ein in schwarzes Leder gebundenes Buch von Friedrich von Junzt. Der gotische Druck ist eng und schwer zu lesen. Das Buch riecht schwach nach Moder und Weihrauch.",
+  "history": "Eine der wenigen erhaltenen Erstausgaben von 1839, bevor die meisten Exemplare verbrannt wurden. Gilt als eines der gefährlichsten okkulten Werke.",
+  "mechanics": {
+    "reading_time": "48 Stunden",
+    "sanity_loss": "1d8/2d8",
+    "mythos_gain": 6,
+    "skill_check": "Language (German) or Occult"
+  },
+  "content_summary": "Beschreibt detailliert die Praktiken verschiedener Kulte, darunter die Rituale für 'Gedankensplitter' und vage Andeutungen über 'Das Blaue Signal von St. Elms'. Enthält verstörende Illustrationen von Kreaturen, die in den Schatten lauern."
+}

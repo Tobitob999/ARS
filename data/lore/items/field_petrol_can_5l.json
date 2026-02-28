@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Benzinkanister 5L",
+    "type":  "Field Gear",
+    "physical_description":  "Metallkanister mit Ausgießer und Schraubdeckel.",
+    "history":  "Werkstatt- und Garagenstandard.",
+    "mechanics":  {
+                      "skill_check":  "-",
+                      "effect":  "Sichert Reichweite von Fahrzeugen/Geräten.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Kleiner Kanister, große operative Wirkung.",
+    "inventory_tags":  [
+                           "feld",
+                           "logistik",
+                           "inventar"
+                       ]
+}

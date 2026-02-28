@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Siegelabdruck-Set",
+    "type":  "Tool",
+    "physical_description":  "Wachsplatten und Formmasse für Stempelabdrücke.",
+    "history":  "Von Fälschern und Gegenspionage genutzt.",
+    "mechanics":  {
+                      "skill_check":  "Kunst \u0026 Handwerk",
+                      "effect":  "Kopiert Siegelprofile für spätere Rekonstruktion.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Taktisches Werkzeug im Dokumentenkrieg.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "dokument",
+                           "inventar"
+                       ]
+}

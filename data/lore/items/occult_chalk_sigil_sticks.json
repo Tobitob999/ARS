@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Sigillen-Kreide (Set)",
+    "type":  "Occult Utility",
+    "physical_description":  "Farbige Kreidesticks fuer klare Symbolgrenzen.",
+    "history":  "Von Amateur- und Gelehrtenzirkeln genutzt.",
+    "mechanics":  {
+                      "skill_check":  "Okkultes Wissen",
+                      "effect":  "Erleichtert saubere rituelle Markierungen vor Ort.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Pragmatisches Ritualwerkzeug fuer mobile Teams.",
+    "inventory_tags":  [
+                           "okkult",
+                           "ritual",
+                           "markierung",
+                           "inventar"
+                       ]
+}

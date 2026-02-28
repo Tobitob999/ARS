@@ -1,0 +1,16 @@
+{
+    "name":  "Das Italienische Viertel (Little Italy) [Erweiterung]",
+    "type":  "Neighborhood",
+    "atmosphere":  "Lebhafter und lauter als der Rest von Arkham. Es riecht nach Knoblauch, Tomatensauce und frischem Brot. Familien sitzen auf den Stufen vor ihren Häusern, Kinder spielen auf der Straße. Wäscheleinen sind zwischen den Gebäuden gespannt.",
+    "social_dynamics":  "Starker Familienzusammenhalt. Die Autorität des lokalen \u0027Padrone\u0027 wiegt oft mehr als die des Bürgermeisters. Man löst Probleme intern und geht selten zur Polizei.",
+    "key_npc":  {
+                    "name":  "Vincenzo \u0027Enzo\u0027 Costa",
+                    "occupation":  "Besitzer eines kleinen Cafés",
+                    "traits":  "Ein stattlicher Mann mit einem großen Schnurrbart, der jeden in seinem Viertel kennt. Er ist jovial, aber seine Augen sind wachsam.",
+                    "secret":  "Er ist der lokale \u0027Padrone\u0027. Er schlichtet Streitigkeiten, vergibt Kredite und sorgt dafür, dass die O\u0027Bannion-Gang sein Viertel in Ruhe lässt. Dafür erwartet er absolute Loyalität."
+                },
+    "generated_variant":  true,
+    "source_seed_file":  "italian_quarter.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Fernglas-Kompass Kombi",
+    "type":  "Field Gear",
+    "physical_description":  "Kombioptik mit integriertem Kompassring.",
+    "history":  "Aufklaerungsgeraet fuer Beobachterteams.",
+    "mechanics":  {
+                      "skill_check":  "Wahrnehmung",
+                      "effect":  "Verbindet Sicht- und Richtungsinformation in einem.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Effizientes Scout-Werkzeug.",
+    "inventory_tags":  [
+                           "feld",
+                           "aufklaerung",
+                           "inventar"
+                       ]
+}

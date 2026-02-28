@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Skelettschluessel-Bund",
+    "type":  "Utility",
+    "physical_description":  "Ein Ring mit acht universellen Altbauschluesseln.",
+    "history":  "Sammlung aus Schlossernachlass; passt nur auf alte Mechaniken.",
+    "mechanics":  {
+                      "skill_check":  "Schloesser knacken",
+                      "effect":  "Kann einfache historische Schlösser ohne Gewalt oeffnen.",
+                      "combat":  ""
+                  },
+    "content_summary":  "Unspektakulaer, aber in Altbauten oft Gold wert.",
+    "inventory_tags":  [
+                           "utility",
+                           "zugang",
+                           "altbau",
+                           "inventar"
+                       ]
+}

@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Beruhigungstropfen",
+    "type":  "Medical Supply",
+    "physical_description":  "Braune Tropfflasche mit alkoholisierter Sedativmischung.",
+    "history":  "Von Hausaerzten bei Nervenkrisen verschrieben.",
+    "mechanics":  {
+                      "skill_check":  "Medizin oder Psychoanalyse",
+                      "effect":  "Reduziert akute Panikreaktion, senkt aber Reaktionsgeschwindigkeit.",
+                      "combat":  ""
+                  },
+    "content_summary":  "Nervenhilfe fuer brenzlige psychische Situationen.",
+    "inventory_tags":  [
+                           "medizin",
+                           "psyche",
+                           "sedativ",
+                           "inventar"
+                       ]
+}

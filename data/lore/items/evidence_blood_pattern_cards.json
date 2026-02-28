@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Blutmuster-Vergleichskarten",
+    "type":  "Document",
+    "physical_description":  "Illustrationskarten fuer Spritz- und Tropfbilder.",
+    "history":  "Frühe forensische Schulunterlagen.",
+    "mechanics":  {
+                      "skill_check":  "Medizin",
+                      "effect":  "Hilft grobe Rekonstruktion von Gewaltabläufen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Stützt Hypothesen am Tatort.",
+    "inventory_tags":  [
+                           "beweis",
+                           "forensik",
+                           "inventar"
+                       ]
+}

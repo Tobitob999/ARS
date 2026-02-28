@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Polizei-Frequenzblatt",
+    "type":  "Document",
+    "physical_description":  "Uebersicht lokaler Signalcodes und Kurzbefehle.",
+    "history":  "Aus interner Quelle kopiert, nicht fuer Zivilisten gedacht.",
+    "mechanics":  {
+                      "skill_check":  "Bibliotheksnutzung",
+                      "effect":  "Verbessert Interpretation von Funkprotokollen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Informationsvorsprung in Einsatzlagen.",
+    "inventory_tags":  [
+                           "dokument",
+                           "polizei",
+                           "signale",
+                           "inventar"
+                       ]
+}

@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Praezisionswaage mobil",
+    "type":  "Tool",
+    "physical_description":  "Kleine Klappwaage mit Gewichtsset.",
+    "history":  "Nutzt in Apotheke, Chemie und Beweisanalyse.",
+    "mechanics":  {
+                      "skill_check":  "Wissenschaft (Chemie)",
+                      "effect":  "Erlaubt genaue Massenmessung am Feldtisch.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Hilft bei Dosis- und Substanzpruefung.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "messung",
+                           "inventar"
+                       ]
+}

@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0.0",
+  "title": "Goblin Cave",
+  "setting": "Ein verfallener Hoehleneingang am Rande des Waldes",
+  "difficulty": "Einsteiger",
+  "intro": "Geruechte ueber verschwundene Reisende fuehren euch zu einer dunklen Hoehle am Waldrand. Knochen und Fussspuren verheissen nichts Gutes.",
+  "hook": "Ein einfacher Dungeon Crawl: Goblins ausschalten, Fallen ueberwinden, den Ork-Boss besiegen und den Schatz bergen.",
+  "keeper_lore": "Die Hoehle dient einer kleinen Goblin-Bande als Unterschlupf. Ihr Anfuehrer ist ein Ork, der die Goblins durch Einschuechterung kontrolliert. Er hortet gestohlene Reisevorraete und Goldmuenzen in einer Truhe.",
+  "start_location": "cave_entrance",
+  "flags": {
+    "guard_alerted": false,
+    "trap_triggered": false,
+    "boss_dead": false
+  },
+  "locations": [
+    {
+      "id": "cave_entrance",
+      "name": "Hoehleneingang",
+      "description": "Feucht, dunkel, Knochen auf dem Boden. Ein modriger Geruch weht aus der Tiefe.",
+      "atmosphere": "Bedrohlich, feucht, Tropfgeraeusche hallen.",
+      "npcs_present": [],
+      "clues_available": [],
+      "exits": {
+        "guard_room": "Ein schmaler Gang fuehrt tiefer in die Hoehle."
+      },
+      "keeper_notes": "Der Eingang ist unbewacht. Fussspuren (Wahrnehmung) verraten die Anzahl der Bewohner."
+    },
+    {
+      "id": "guard_room",
+      "name": "Wachraum",
+      "description": "Ein niedriger Raum mit zwei schlafenden Goblins an einem erloschenen Lagerfeuer.",
+      "atmosphere": "Stickig, Schnarchgeraeusche, schwacher Feuerschein.",
+      "npcs_present": ["goblin_guard_1", "goblin_guard_2"],
+      "clues_available": [],
+      "exits": {
+        "cave_entrance": "Zurueck zum Eingang.",
+        "trap_corridor": "Ein enger Gang fuehrt weiter nach Osten."
+      },
+      "keeper_notes": "Die Goblins schlafen. Leise Spieler koennen sie umgehen oder ueberraschen. Laerm alarmiert sie und setzt das Flag guard_alerted.",
+      "events": [
+        {
+          "trigger": "Kampf oder Laerm",
+          "effect": "Die Goblins greifen an oder fliehen zum Boss.",
+          "sets_flag": "guard_alerted"
+        }
+      ]
+    },
+    {
+      "id": "trap_corridor",
+      "name": "Fallengang",
+      "description": "Schmaler Gang mit verdaechtigen Bodenplatten. Loechern in den Waenden.",
+      "atmosphere": "Beklemmend eng, der Boden knirscht verdaechtig.",
+      "npcs_present": [],
+      "clues_available": [],
+      "exits": {
+        "guard_room": "Zurueck zum Wachraum.",
+        "boss_lair": "Der Gang oeffnet sich zu einer groesseren Hoehle."
+      },
+      "keeper_notes": "Druckplatten-Falle: Wer unachtsam durchgeht, loest Pfeile aus den Waenden aus (1d6 Schaden). Find/Remove Traps oder vorsichtiges Absuchen entschaerft.",
+      "events": [
+        {
+          "trigger": "Falle ausloesen",
+          "effect": "Pfeile schiessen aus den Waenden. 1d6 Schaden pro Treffer.",
+          "sets_flag": "trap_triggered"
+        }
+      ]
+    },
+    {
+      "id": "boss_lair",
+      "name": "Lager des Ork-Bosses",
+      "description": "Stinkende Hoehle mit einem improvisierten Thron aus Knochen und Fellen. Eine eisenbeschlagene Truhe steht daneben.",
+      "atmosphere": "Uebelriechend, bedrohlich, ein massiger Ork sitzt auf dem Thron.",
+      "npcs_present": ["orc_boss"],
+      "clues_available": [],
+      "exits": {
+        "trap_corridor": "Zurueck durch den Fallengang."
+      },
+      "keeper_notes": "Der Ork-Boss kaempft bis zum Tod. Wenn guard_alerted gesetzt ist, ist er gewarnt und hat Deckung (+1 AC). Die Truhe enthaelt Heiltrank und 50 Goldstuecke.",
+      "events": [
+        {
+          "trigger": "Boss besiegt",
+          "effect": "Der Ork faellt. Die Truhe kann gepluendert werden.",
+          "sets_flag": "boss_dead"
+        }
+      ]
+    }
+  ],
+  "npcs": [
+    {
+      "id": "goblin_guard_1",
+      "name": "Goblin-Wache",
+      "description": "Ein kleiner, drahtiger Goblin mit rostigem Kurzschwert.",
+      "stats": {"ac": 6, "hp": 4, "thac0": 20},
+      "behavior": "Schlaeft. Greift bei Alarm an oder flieht zum Boss."
+    },
+    {
+      "id": "goblin_guard_2",
+      "name": "Goblin-Wache",
+      "description": "Ein zweiter Goblin, der unruhig schlaeft.",
+      "stats": {"ac": 6, "hp": 3, "thac0": 20},
+      "behavior": "Schlaeft. Greift bei Alarm an oder flieht zum Boss."
+    },
+    {
+      "id": "orc_boss",
+      "name": "Grukk der Ork-Boss",
+      "description": "Ein massiger Ork mit einer rostigen Streitaxt und einer Halskette aus Zaehnen.",
+      "stats": {"ac": 5, "hp": 8, "thac0": 19},
+      "behavior": "Kaempft aggressiv. Wenn gewarnt, nutzt er Deckung.",
+      "secrets": "Traegt einen Schluessel zur Truhe am Guertel."
+    }
+  ],
+  "clues": [],
+  "resolution": {
+    "success": "Die Hoehle ist gesaeubert. Die verschwundenen Reisevorraete werden geborgen. Die Dorfbewohner sind dankbar.",
+    "condition": "boss_dead == true"
+  }
+}

@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Notarsiegel (falsch)",
+    "type":  "Tool",
+    "physical_description":  "Prägestempel und rotes Siegelkissen mit imitierter Amtssignatur.",
+    "history":  "Fälscherware aus Druckereimilieu.",
+    "mechanics":  {
+                      "skill_check":  "Verkleiden",
+                      "effect":  "Erhöht Glaubwürdigkeit gefälschter Papiere kurzfristig.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Hochriskantes Täuschungswerkzeug.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "faelschung",
+                           "inventar"
+                       ]
+}

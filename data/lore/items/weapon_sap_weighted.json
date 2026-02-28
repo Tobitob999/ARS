@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Gewichteter Sap",
+    "type":  "Weapon",
+    "physical_description":  "Flaches Ledergewicht fuer kurze harte Schlaege.",
+    "history":  "Polizeinahe und kriminelle Nutzung gleichermaßen.",
+    "mechanics":  {
+                      "skill_check":  "Nahkampf (Hieb)",
+                      "effect":  "Gut verstaubar, effektiv bei Ueberraschung.",
+                      "combat":  "1W6."
+                  },
+    "content_summary":  "Kompakte Zugriffswaffe.",
+    "inventory_tags":  [
+                           "waffe",
+                           "hieb",
+                           "diskret",
+                           "inventar"
+                       ]
+}

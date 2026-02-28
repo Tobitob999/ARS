@@ -1,0 +1,15 @@
+{
+    "name":  "The Silver Twilight Lodge [Erweiterung]",
+    "address":  "Uptown, Arkham",
+    "atmosphere":  "An opulent, exclusive gentlemen\u0027s club. The exterior is pristine white marble. Inside, it is all dark wood, plush leather, and hushed, important conversations.",
+    "details":  [
+                    "The grand foyer, with a large, silver emblem of a setting sun over a pyramid.",
+                    "The private dining rooms, where Arkham\u0027s elite make their deals.",
+                    "A locked door in the basement that members are forbidden to approach."
+                ],
+    "clues":  "A place to interact with Arkham\u0027s powerful and corrupt. Rumors of strange rituals and a secret \u0027Inner Circle\u0027.",
+    "generated_variant":  true,
+    "source_seed_file":  "silver_twilight_lodge.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

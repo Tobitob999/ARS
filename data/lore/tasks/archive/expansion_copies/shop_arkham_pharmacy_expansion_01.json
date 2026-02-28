@@ -1,0 +1,15 @@
+{
+    "name":  "Arkham Pharmacy [Erweiterung]",
+    "address":  "East Main Street, Arkham",
+    "atmosphere":  "Klinisch sauber, riecht nach Chemikalien und Kräutern. Der Apotheker, Mr. Gable, ist ein präziser, humorloser Mann.",
+    "details":  [
+                    "Große Glasgefäße mit farbigen Flüssigkeiten im Schaufenster.",
+                    "Ein Mörser und Stößel auf dem Tresen, mit denen der Apotheker Pulver mischt.",
+                    "Ein Giftschrank, der mit einem schweren Vorhängeschloss gesichert ist."
+                ],
+    "clues":  "Quelle für Verbandsmaterial, Schmerzmittel und Chemikalien. Mr. Gable führt genau Buch über den Verkauf von Giften und verdächtigen Substanzen.",
+    "generated_variant":  true,
+    "source_seed_file":  "shop_arkham_pharmacy.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

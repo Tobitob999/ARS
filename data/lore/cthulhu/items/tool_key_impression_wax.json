@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Schluesselabdruck-Wachs",
+    "type":  "Tool",
+    "physical_description":  "Weiche Masse fuer schnelle Schluesselabdruecke.",
+    "history":  "Von Schlossern und Falschschluesselmachern genutzt.",
+    "mechanics":  {
+                      "skill_check":  "Schloesser knacken",
+                      "effect":  "Erzeugt Vorlage fuer spaetere Duplikate.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Vorbereitungstool statt Sofortzugriff.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "zugang",
+                           "inventar"
+                       ]
+}

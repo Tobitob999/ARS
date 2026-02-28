@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Taschen-Codebuch",
+    "type":  "Communication Gear",
+    "physical_description":  "Kleines Heft mit Chiffrierschluesseln und Ersatztabellen.",
+    "history":  "Von Kuriernetzen und privaten Ermittlerzirkeln genutzt.",
+    "mechanics":  {
+                      "skill_check":  "Bibliotheksnutzung",
+                      "effect":  "Ermoeglicht einfache Verschluesselung von Notizen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Datensicherheit gegen Mitleser.",
+    "inventory_tags":  [
+                           "kommunikation",
+                           "chiffre",
+                           "inventar"
+                       ]
+}

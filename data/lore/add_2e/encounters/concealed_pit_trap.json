@@ -1,0 +1,7 @@
+{
+    "id":  "concealed_pit_trap",
+    "module_type":  "trap",
+    "trigger_condition":  "Stepping on camouflaged floor section",
+    "damage":  "1d8",
+    "saving_throw":  "none"
+}

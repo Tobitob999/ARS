@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Beweismarken-Set",
+    "type":  "Document",
+    "physical_description":  "Nummerierte Tags, Schnur und Quittungsblock fuer Kettennachweis.",
+    "history":  "Aus Polizeibeständen entlehnt, in privaten Ermittlungen selten sauber genutzt.",
+    "mechanics":  {
+                      "skill_check":  "Spurensuche",
+                      "effect":  "Verbessert Nachvollziehbarkeit und Glaubwuerdigkeit gesicherter Beweise.",
+                      "combat":  ""
+                  },
+    "content_summary":  "Formalisiert Beweissicherung und verhindert Durcheinander.",
+    "inventory_tags":  [
+                           "dokument",
+                           "beweis",
+                           "forensik",
+                           "inventar"
+                       ]
+}

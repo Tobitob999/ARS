@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Konservendosen-Ration",
+    "type":  "Field Gear",
+    "physical_description":  "Paket aus Bohnen, Fleischkonserve und Hartkeksen.",
+    "history":  "Typische Notration fuer Schichtarbeit und Nachtwachen.",
+    "mechanics":  {
+                      "skill_check":  "-",
+                      "effect":  "Sichert Energie in langen Observationen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Nutzlast fuer mehrstuendige Einsaetze.",
+    "inventory_tags":  [
+                           "feld",
+                           "versorgung",
+                           "inventar"
+                       ]
+}

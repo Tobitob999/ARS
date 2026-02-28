@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Quittungsblock mit Durchschlag",
+    "type":  "Utility",
+    "physical_description":  "Nummerierter Quittungsblock fuer Bargeldvorgaenge.",
+    "history":  "Haendler- und Agenturalltag.",
+    "mechanics":  {
+                      "skill_check":  "Bibliotheksnutzung",
+                      "effect":  "Saubere Spur fuer Ausgaben/Ankaeufe.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Ordnungswerkzeug fuer Ermittlungslogistik.",
+    "inventory_tags":  [
+                           "utility",
+                           "verwaltung",
+                           "inventar"
+                       ]
+}

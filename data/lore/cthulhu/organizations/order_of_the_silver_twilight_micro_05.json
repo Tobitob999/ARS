@@ -1,0 +1,26 @@
+﻿{
+    "name":  "order of the silver twilight - Drucklinie",
+    "type":  "Lore Snippet",
+    "category":  "organizations",
+    "tags":  [
+                 "generated",
+                 "micro",
+                 "hook",
+                 "wave5",
+                 "creative"
+             ],
+    "primary_conflict":  "ein alter Schwur kollidiert mit der Gegenwart",
+    "dramatic_angle":  "sozial",
+    "price_of_success":  "eine wertvolle Ressource",
+    "countdown":  "90 Minuten bis zur Sperrung",
+    "fallback_plan":  "saubere Trennung der Gruppe in zwei Achsen",
+    "hook":  "Probe auf Okkultes Wissen: Erfolg klaert die Lage, Misserfolg erhoeht den Preis von Erfolg im Folgezug.",
+    "gm_moves":  [
+                     "Zeige den Preis, bevor die Entscheidung faellt",
+                     "Starte den Countdown sichtbar im Raum",
+                     "Lass einen Erfolg zwei neue Probleme oeffnen"
+                 ],
+    "source_seed_file":  "order_of_the_silver_twilight.json",
+    "generation_method":  "microcontent-v6",
+    "fraktionslage":  "bruchnahe"
+}

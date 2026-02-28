@@ -1,0 +1,25 @@
+﻿{
+    "name":  "book salem witch trials diary - Knotenpunkt",
+    "type":  "Lore Snippet",
+    "category":  "library\\excerpts",
+    "tags":  [
+                 "generated",
+                 "micro",
+                 "hook",
+                 "wave6",
+                 "creative"
+             ],
+    "pressure_line":  "eine Anomalie mit unklarer Quelle",
+    "turn":  "ein Schutzmechanismus versagt im falschen Moment",
+    "cost":  "Verlust eines Kontakts",
+    "reward_if_solved":  "belastbarer Hebel gegen Antagonisten",
+    "hook":  "Probe auf Lauschen: Erfolg stabilisiert die Lage, Misserfolg triggert den Turn sofort.",
+    "gm_moves":  [
+                     "Schiebe den Turn einen Schritt vor",
+                     "Lass den Cost sichtbar auf der Szene liegen",
+                     "Biete einen harten, aber fairen Deal an"
+                 ],
+    "source_seed_file":  "book_salem_witch_trials_diary.json",
+    "generation_method":  "microcontent-v7",
+    "szenenwert":  "dynamisch"
+}

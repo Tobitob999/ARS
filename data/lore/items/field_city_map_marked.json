@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Stadtplan mit Markierungen",
+    "type":  "Field Gear",
+    "physical_description":  "Gefalteter Plan mit Bleistiftnotizen, Pfeilen und Uhrzeiten.",
+    "history":  "Von einem frueheren Ermittlerteam hinterlassen.",
+    "mechanics":  {
+                      "skill_check":  "Orientierung",
+                      "effect":  "Schnellere Navigation zwischen relevanten Knotenpunkten.",
+                      "combat":  ""
+                  },
+    "content_summary":  "Taktischer Vorteil bei Verfolgungen und Zeitdruck.",
+    "inventory_tags":  [
+                           "feld",
+                           "navigation",
+                           "planung",
+                           "inventar"
+                       ]
+}

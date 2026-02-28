@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "name": "AD&D",
+    "version": "2nd Edition",
+    "system": "add_2e",
+    "schema_version": "1.0.0",
+    "publisher": "TSR",
+    "language": "de",
+    "game_master_title": "Dungeon Master",
+    "player_character_title": "Abenteurer"
+  },
+
+  "dice_system": {
+    "default_die": "d20",
+    "bonus_penalty_die": "d20",
+    "notes": "d20 roll-under fuer Attributschecks. THAC0-basierter Kampf. Rettungswuerfe roll-under.",
+    "check_mode": "roll_under",
+    "success_levels": {
+      "critical": 1,
+      "extreme": 0.25,
+      "hard": 0.5,
+      "fumble": 20
+    }
+  },
+
+  "characteristics": {
+    "STR": { "label": "Staerke",          "roll": "3d6", "multiplier": 1 },
+    "DEX": { "label": "Geschicklichkeit", "roll": "3d6", "multiplier": 1 },
+    "CON": { "label": "Konstitution",     "roll": "3d6", "multiplier": 1 },
+    "INT": { "label": "Intelligenz",      "roll": "3d6", "multiplier": 1 },
+    "WIS": { "label": "Weisheit",         "roll": "3d6", "multiplier": 1 },
+    "CHA": { "label": "Charisma",         "roll": "3d6", "multiplier": 1 }
+  },
+
+  "skills": {
+    "Pick Pockets":       { "base": 30,  "class": "Rogue" },
+    "Open Locks":         { "base": 35,  "class": "Rogue" },
+    "Find/Remove Traps":  { "base": 25,  "class": "Rogue" },
+    "Move Silently":      { "base": 30,  "class": "Rogue" },
+    "Hide in Shadows":    { "base": 25,  "class": "Rogue" },
+    "Hear Noise":         { "base": 30,  "class": "Rogue" },
+    "Climb Walls":        { "base": 80,  "class": "Rogue" },
+    "Read Languages":     { "base": 0,   "class": "Rogue" }
+  },
+
+  "combat": {
+    "hit_points": "HP",
+    "armor_class": {
+      "label": "AC",
+      "direction": "descending"
+    },
+    "attack_metric": "THAC0",
+    "attack_rule": "Wurf >= THAC0 - Ziel-AC"
+  },
+
+  "saving_throws": [
+    "Paralyzation/Poison",
+    "Petrification/Polymorph",
+    "Rod/Staff/Wand",
+    "Breath Weapon",
+    "Spell"
+  ],
+
+  "classes": {
+    "Fighter": {
+      "base_weapon_proficiencies": ["Longsword", "Battle Axe", "Spear", "Bow"],
+      "thief_skills": {}
+    },
+    "Mage": {
+      "base_weapon_proficiencies": ["Dagger", "Staff", "Dart"],
+      "thief_skills": {}
+    },
+    "Rogue": {
+      "base_weapon_proficiencies": ["Short Sword", "Dagger", "Shortbow"],
+      "thief_skills": {
+        "Pick Pockets": 30,
+        "Open Locks": 35,
+        "Find/Remove Traps": 25,
+        "Move Silently": 30,
+        "Hide in Shadows": 25,
+        "Hear Noise": 30,
+        "Climb Walls": 80,
+        "Read Languages": 0
+      }
+    },
+    "Cleric": {
+      "base_weapon_proficiencies": ["Mace", "Warhammer", "Flail", "Staff", "Sling"],
+      "thief_skills": {}
+    }
+  },
+
+  "advancement": {
+    "method": "experience_points",
+    "notes": "XP durch Kampf, Schatz und Quests. Stufenaufstieg gemaess Klassentabelle."
+  }
+}

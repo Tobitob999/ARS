@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Hotelregister-Kopie",
+    "type":  "Utility",
+    "physical_description":  "Abschrift von Check-ins mit Namen und Zeiten.",
+    "history":  "Diskrete Informationsquelle in Ermittlungen.",
+    "mechanics":  {
+                      "skill_check":  "Bibliotheksnutzung",
+                      "effect":  "Liefert Bewegungs- und Alibiansätze.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Starker Sozial-Intel-Hebel.",
+    "inventory_tags":  [
+                           "utility",
+                           "analyse",
+                           "inventar"
+                       ]
+}

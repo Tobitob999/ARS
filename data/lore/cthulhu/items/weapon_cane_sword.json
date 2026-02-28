@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Degenstock",
+    "type":  "Weapon",
+    "physical_description":  "Spazierstock mit versteckter schlanker Klinge.",
+    "history":  "Von wohlhabenden Reisenden als versteckte Verteidigung getragen.",
+    "mechanics":  {
+                      "skill_check":  "Nahkampf (Stich)",
+                      "effect":  "Unauffaellig bis zum Ziehen der Klinge.",
+                      "combat":  "1W6."
+                  },
+    "content_summary":  "Diskrete Klingenoption in urbanen Szenen.",
+    "inventory_tags":  [
+                           "waffe",
+                           "stich",
+                           "diskret",
+                           "inventar"
+                       ]
+}

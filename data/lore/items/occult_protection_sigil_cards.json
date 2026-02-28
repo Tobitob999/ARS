@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Schutzsigillen-Karten",
+    "type":  "Occult Utility",
+    "physical_description":  "Laminierte Sigillkarten fuer tragbare Schutzmarken.",
+    "history":  "Von Okkultisten als schnelle Barriere genutzt.",
+    "mechanics":  {
+                      "skill_check":  "Okkultes Wissen",
+                      "effect":  "Kann Schutzrituale standardisieren und beschleunigen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Portable Schutzoption im Feld.",
+    "inventory_tags":  [
+                           "okkult",
+                           "schutz",
+                           "inventar"
+                       ]
+}

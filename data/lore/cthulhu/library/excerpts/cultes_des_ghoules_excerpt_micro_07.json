@@ -1,0 +1,25 @@
+﻿{
+    "name":  "cultes des ghoules excerpt - Brennpunkt",
+    "type":  "Lore Snippet",
+    "category":  "library\\excerpts",
+    "tags":  [
+                 "generated",
+                 "micro",
+                 "hook",
+                 "wave7",
+                 "creative"
+             ],
+    "signal":  "ein alter Schauplatz zeigt neue Aktivitaet",
+    "friction":  "Informationsasymmetrie",
+    "stake":  "mentale Stabilitaet der Gruppe",
+    "payoff_if_controlled":  "ein Fenster fuer verdeckte Aktion",
+    "hook":  "Probe auf Okkultes Wissen: Erfolg nimmt Friktion heraus, Misserfolg verdoppelt den Einsatz auf der Stelle.",
+    "gm_moves":  [
+                     "Leite vom Signal direkt in eine harte Entscheidung",
+                     "Kopple die Friktion an eine bekannte Figur",
+                     "Belohne kluge Vorsicht mit fruehem Informationsvorsprung"
+                 ],
+    "source_seed_file":  "cultes_des_ghoules_excerpt.json",
+    "generation_method":  "microcontent-v8",
+    "einsatzmodus":  "reaktiv"
+}

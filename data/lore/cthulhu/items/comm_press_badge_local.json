@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Lokaler Presseausweis",
+    "type":  "Communication Gear",
+    "physical_description":  "Pappausweis mit Foto und Zeitungsstempel.",
+    "history":  "Von kleinen Redaktionen leicht zu bekommen oder zu fälschen.",
+    "mechanics":  {
+                      "skill_check":  "Charme",
+                      "effect":  "Erleichtert Zugang zu Tatorten bei unklarer Lage.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Sozialer Passierschein mit Ablaufdatum.",
+    "inventory_tags":  [
+                           "kommunikation",
+                           "deckung",
+                           "inventar"
+                       ]
+}

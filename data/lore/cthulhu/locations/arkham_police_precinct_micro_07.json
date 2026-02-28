@@ -1,0 +1,25 @@
+﻿{
+    "name":  "arkham police precinct - Brennpunkt",
+    "type":  "Lore Snippet",
+    "category":  "locations",
+    "tags":  [
+                 "generated",
+                 "micro",
+                 "hook",
+                 "wave7",
+                 "creative"
+             ],
+    "signal":  "ein Routinebericht enthaelt einen blinden Fleck",
+    "friction":  "logistische Engpaesse",
+    "stake":  "Kontrolle ueber den naechsten Schauplatz",
+    "payoff_if_controlled":  "eine unerwartete Allianz",
+    "hook":  "Probe auf Lauschen: Erfolg nimmt Friktion heraus, Misserfolg verdoppelt den Einsatz auf der Stelle.",
+    "gm_moves":  [
+                     "Leite vom Signal direkt in eine harte Entscheidung",
+                     "Kopple die Friktion an eine bekannte Figur",
+                     "Belohne kluge Vorsicht mit fruehem Informationsvorsprung"
+                 ],
+    "source_seed_file":  "arkham_police_precinct.json",
+    "generation_method":  "microcontent-v8",
+    "zugriffsfenster":  "offen"
+}

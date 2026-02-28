@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Seriennummern-Logbuch",
+    "type":  "Document",
+    "physical_description":  "Tabellenheft fuer Geldscheinserien und Fundorte.",
+    "history":  "Betrugs- und Erpressungsermittlungen.",
+    "mechanics":  {
+                      "skill_check":  "Recht",
+                      "effect":  "Verknüpft Bargeldfunde über Szenen hinweg.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Finanzspur-Tracking fuer Kriminalfaelle.",
+    "inventory_tags":  [
+                           "beweis",
+                           "finanzen",
+                           "inventar"
+                       ]
+}

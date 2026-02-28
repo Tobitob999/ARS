@@ -1,0 +1,7 @@
+{
+    "id":  "fire_jet_trap",
+    "module_type":  "trap",
+    "trigger_condition":  "Turning wrong wall sconce",
+    "damage":  "2d6",
+    "saving_throw":  "vs. Breath Weapon for half"
+}

@@ -1,0 +1,17 @@
+{
+    "name":  "fire department - Folgespur",
+    "type":  "Lore Snippet",
+    "category":  "administration",
+    "tags":  [
+                 "generated",
+                 "micro",
+                 "hook",
+                 "wave2"
+             ],
+    "content_summary":  "Ein verunsicherter Kontakt meldet: ein verschwundenes Register in einem Nebenstrang; Tonlage: nervoes.",
+    "hook":  "Bei gelungener Probe (Schloesser knacken) erhalten die Investigatoren einen Vorsprung; bei Misserfolg entsteht eine offene Rechnung im Hintergrund.",
+    "gm_note":  "Als Anschluss an bestehende Szene nutzen; auf 2-4 Dialogwechsel begrenzen.",
+    "source_seed_file":  "fire_department.json",
+    "generation_method":  "microcontent-v3",
+    "prozessstabilitaet":  "stoeranfaellig"
+}

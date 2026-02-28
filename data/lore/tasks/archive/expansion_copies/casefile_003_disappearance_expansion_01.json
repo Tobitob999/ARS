@@ -1,0 +1,16 @@
+{
+    "name":  "Ungelöster Fall #003: Das Verschwinden des Hafenarbeiters [Erweiterung]",
+    "type":  "Police Case File",
+    "date":  "28. November 1924",
+    "content_summary":  "Ein Hafenarbeiter namens Joe Slade verschwand während seiner Nachtschicht spurlos von Pier 7. Seine Laterne und seine Brotdose wurden gefunden.",
+    "evidence":  [
+                     "Eine einzelne, große, dreizehige Fußspur im Schlamm neben dem Pier, die abrupt endet.",
+                     "Eine seltsame, schleimige Substanz auf den Holzplanken.",
+                     "Andere Arbeiter berichten von einem \u0027unheimlichen Gesang\u0027, der in dieser Nacht vom Meer kam."
+                 ],
+    "status":  "Ungelöst. Als \u0027Unfall auf See\u0027 zu den Akten gelegt.",
+    "generated_variant":  true,
+    "source_seed_file":  "casefile_003_disappearance.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

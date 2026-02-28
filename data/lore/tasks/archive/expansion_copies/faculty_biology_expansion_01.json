@@ -1,0 +1,15 @@
+{
+    "name":  "Fakultät für Biologie [Erweiterung]",
+    "head":  "Professor Nathaniel Rice",
+    "focus":  "Zoologie, Botanik und vergleichende Anatomie.",
+    "atmosphere":  "Formaldehyd-Geruch. Gläser mit konservierten Exemplaren in den Regalen.",
+    "rumor":  "Im Kühlraum lagern Gewebeproben, die keiner bekannten Tierart zugeordnet werden können. Man sagt, sie pulsieren manchmal noch.",
+    "projects":  [
+                     "Klassifizierung der Fauna des \u0027Blasted Heath\u0027",
+                     "Studie über Degeneration in isolierten Populationen"
+                 ],
+    "generated_variant":  true,
+    "source_seed_file":  "faculty_biology.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

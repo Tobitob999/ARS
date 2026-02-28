@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Loetkolben-Set",
+    "type":  "Tool",
+    "physical_description":  "Elektrischer Loetkolben mit Zinn und Flussmittel.",
+    "history":  "Funk- und Reparaturtechnik der Zeit.",
+    "mechanics":  {
+                      "skill_check":  "Wissenschaft (Physik)",
+                      "effect":  "Erlaubt Reparatur simpler Leitungen/Schalter.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Feinreparatur fuer Kommunikationsgeraete.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "elektrik",
+                           "inventar"
+                       ]
+}

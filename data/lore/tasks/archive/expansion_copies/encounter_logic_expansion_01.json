@@ -1,0 +1,39 @@
+{
+    "name":  "Taktische Begegnungen \u0026 Szenarien [Erweiterung]",
+    "encounters":  [
+                       {
+                           "name":  "Hinterhalt in der Gasse",
+                           "type":  "Combat",
+                           "description":  "Drei Schläger der O\u0027Bannion-Gang blockieren den Ausgang einer engen, dunklen Gasse. Einer hat ein Messer, einer einen Schlagring.",
+                           "environment":  "Enge Wände (kein Ausweichen zur Seite), Mülltonnen (Deckung), Pfützen (Rutschgefahr).",
+                           "tactics":  "Die Gegner versuchen, die Investigatoren einzukesseln. Flucht ist nur durch Klettern über einen Zaun oder Durchbrechen der Linie möglich."
+                       },
+                       {
+                           "name":  "Verfolgungsjagd über die Dächer",
+                           "type":  "Chase",
+                           "description":  "Die Investigatoren werden von einem Kultisten verfolgt, der unnatürlich schnell klettert. Es regnet.",
+                           "environment":  "Rutschige Schindeln (Geschicklichkeits-Proben), Schornsteine (Deckung), Lücken zwischen Häusern (Sprung-Proben).",
+                           "hazards":  "Absturzgefahr (hoher Schaden), lose Ziegel.",
+                           "escape":  "Erreichen einer Feuertreppe oder Verstecken hinter einem Wassertank."
+                       },
+                       {
+                           "name":  "Kampf gegen einen Shoggoth im Keller",
+                           "type":  "Boss Fight",
+                           "description":  "Eine amorphe Masse aus Augen und Mündern füllt den halben Keller aus. Sie bewegt sich walzend vorwärts.",
+                           "environment":  "Enger Raum, keine Deckung. Rohre an der Decke (können zerstört werden, um Dampf freizusetzen).",
+                           "tactics":  "Physische Waffen sind fast nutzlos (halber Schaden, heilt schnell). Feuer oder Elektrizität sind effektiv. Flucht ist die beste Option.",
+                           "sanity_loss":  "1d6/1d20"
+                       },
+                       {
+                           "name":  "Autoverfolgungsjagd (1920er)",
+                           "type":  "Vehicle Chase",
+                           "description":  "Die Investigatoren fliehen in einem Ford Model T vor einem schwarzen Packard voller Gangster, die schießen.",
+                           "environment":  "Schlechte Straßen (Schlaglöcher), Gegenverkehr (Pferdefuhrwerke), scharfe Kurven.",
+                           "mechanics":  "Fahren-Proben für Manöver. Schießen aus dem fahrenden Auto ist erschwert (Strafwürfel)."
+                       }
+                   ],
+    "generated_variant":  true,
+    "source_seed_file":  "encounter_logic.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

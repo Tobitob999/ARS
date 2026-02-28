@@ -1,0 +1,26 @@
+﻿{
+    "name":  "christ church episcopal - Drucklinie",
+    "type":  "Lore Snippet",
+    "category":  "locations",
+    "tags":  [
+                 "generated",
+                 "micro",
+                 "hook",
+                 "wave5",
+                 "creative"
+             ],
+    "primary_conflict":  "eine interne Machtprobe eskaliert",
+    "dramatic_angle":  "taktisch",
+    "price_of_success":  "eine Nacht ohne Erholung",
+    "countdown":  "bis der letzte Zug den Bezirk verlaesst",
+    "fallback_plan":  "einen Deal mit Nebenkosten eingehen",
+    "hook":  "Probe auf Recht: Erfolg klaert die Lage, Misserfolg erhoeht den Preis von Erfolg im Folgezug.",
+    "gm_moves":  [
+                     "Zeige den Preis, bevor die Entscheidung faellt",
+                     "Starte den Countdown sichtbar im Raum",
+                     "Lass einen Erfolg zwei neue Probleme oeffnen"
+                 ],
+    "source_seed_file":  "christ_church_episcopal.json",
+    "generation_method":  "microcontent-v6",
+    "szenendruck":  "kritisch"
+}

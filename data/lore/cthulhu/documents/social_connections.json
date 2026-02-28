@@ -1,0 +1,48 @@
+{
+  "name": "Arkham Social Web",
+  "description": "A map of hidden relationships, debts, and grudges between Arkham's citizens.",
+  "connections": [
+    {
+      "source": "Dr. Alistair Harding",
+      "target": "Finn O'Donnell",
+      "relationship": "Secret Transaction",
+      "details": "Harding buys laudanum from Finn to manage his stress. He is currently in debt to him and getting desperate as Finn has missed their last two meetings."
+    },
+    {
+      "source": "Police Chief Jedediah Chadwick",
+      "target": "Mayor Alistair Thornton",
+      "relationship": "Deep Distrust",
+      "details": "Chadwick knows Thornton is corrupt and tied to the Silver Twilight Lodge, but lacks the evidence or political power to move against him. He resents taking orders from him."
+    },
+    {
+      "source": "Professor Francis Upham",
+      "target": "The Order of the Silver Twilight",
+      "relationship": "Aspiring Member",
+      "details": "Upham is desperate to join the Lodge's inner circle. He would do almost anything for them, including betraying his colleagues at the Miskatonic University."
+    },
+    {
+      "source": "'Whispers' Willy",
+      "target": "The Order of the Silver Twilight",
+      "relationship": "Pathological Fear",
+      "details": "Willy will clam up or flee if the Lodge is mentioned. He saw something he shouldn't have and is convinced they are still watching him."
+    },
+    {
+      "source": "Abigail Whateley",
+      "target": "Professor Wallace Dyer",
+      "relationship": "Unrequited Admiration",
+      "details": "Abigail deeply respects Prof. Dyer's cautious and methodical approach to history. She would go out of her way to help him with his research, perhaps even bending library rules for him."
+    },
+    {
+      "source": "'Knuckles' Malone",
+      "target": "Barnabas Marsh",
+      "relationship": "Intimidation / Extortion",
+      "details": "Malone collects 'protection' money from Marsh for his gang. Marsh hates him but is too scared to go to the police, whom he believes are paid off by the same gang."
+    },
+    {
+      "source": "Sergeant Patrick O'Connell",
+      "target": "Dr. Herbert West",
+      "relationship": "Suspicion",
+      "details": "O'Connell has been called to the morgue several times for 'noise complaints' and finds Dr. West's explanations for strange sounds and missing supplies unconvincing. He thinks West is up to something illegal, but can't prove it."
+    }
+  ]
+}

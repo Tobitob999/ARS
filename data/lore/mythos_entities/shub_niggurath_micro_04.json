@@ -1,0 +1,26 @@
+﻿{
+    "name":  "shub niggurath - Spannungsfeld",
+    "type":  "Lore Snippet",
+    "category":  "mythos_entities",
+    "tags":  [
+                 "generated",
+                 "micro",
+                 "hook",
+                 "wave4",
+                 "creative"
+             ],
+    "scene_seed":  "Ein vertrauter NSC verhaelt sich ploetzlich widerspruechlich",
+    "sensory_detail":  "ozonhaltiger Geruch in den Fluren",
+    "twist":  "Die sicherste Route fuehrt direkt in einen Hinterhalt",
+    "complication":  "Ein NPC fordert sofortige Gegenleistung",
+    "payoff":  "ein belastbares Motiv gegen den Hauptgegner",
+    "hook":  "Probe auf Erste Hilfe: bei Erfolg wird die Komplikation abgefedert, bei Misserfolg verhaertet sich der Konflikt.",
+    "gm_moves":  [
+                     "Druck durch Uhrzeit oder Ort erhoehen",
+                     "Einen neutralen NSC in eine klare Position zwingen",
+                     "Einen scheinbar sicheren Plan mit kleinem Preis versehen"
+                 ],
+    "source_seed_file":  "shub_niggurath.json",
+    "generation_method":  "microcontent-v5",
+    "anomaliedruck":  "hoch"
+}

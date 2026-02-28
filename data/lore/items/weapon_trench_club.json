@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Grabenkeule",
+    "type":  "Weapon",
+    "physical_description":  "Kurze Holzkeule mit Metallkopf aus Altkriegsbestand.",
+    "history":  "Mitbringsel ehemaliger Frontsoldaten nach dem Weltkrieg.",
+    "mechanics":  {
+                      "skill_check":  "Nahkampf (Hieb)",
+                      "effect":  "Effektiv in engen Fluren und Treppenhaeusern.",
+                      "combat":  "1W8 Schaden, lautlose Option bei Hinterhalt."
+                  },
+    "content_summary":  "Kompromiss zwischen Werkzeug und brutaler Nahkampfwaffe.",
+    "inventory_tags":  [
+                           "waffe",
+                           "nahkampf",
+                           "veteran",
+                           "inventar"
+                       ]
+}

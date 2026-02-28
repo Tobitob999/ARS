@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Industrie-Schutzhelm",
+    "type":  "Protective Gear",
+    "physical_description":  "Harter Schutzhelm mit Innenriemen.",
+    "history":  "Baustellen- und Minenstandard.",
+    "mechanics":  {
+                      "skill_check":  "-",
+                      "effect":  "Reduziert Risiko durch herabfallende Truemmer situativ.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Kopfschutz fuer instabile Orte.",
+    "inventory_tags":  [
+                           "schutz",
+                           "baustelle",
+                           "inventar"
+                       ]
+}

@@ -1,0 +1,12 @@
+{
+    "name":  "Arkham Stadtarchiv [Erweiterung]",
+    "type":  "Administration",
+    "location":  "Keller des Rathauses (City Hall).",
+    "atmosphere":  "Staubig, schlecht beleuchtet und vollgestopft mit alten, gebundenen Büchern und Aktenordnern. Es riecht nach Moder und vergilbtem Papier.",
+    "records":  "Baupläne alter Gebäude, Berichte über historische Katastrophen (der große Brand von 1882, die Flut von 1911), alte Stadtkarten.",
+    "access":  "Der Zugang ist öffentlich, aber man muss beim mürrischen Archivar, Mr. Peabody, einen Antrag stellen und oft stundenlang warten.",
+    "generated_variant":  true,
+    "source_seed_file":  "city_archive.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

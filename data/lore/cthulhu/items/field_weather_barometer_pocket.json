@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Taschenbarometer",
+    "type":  "Field Gear",
+    "physical_description":  "Kleines Druckmessgerät mit Schutzkappe.",
+    "history":  "Wetterkundige und Seeleute nutzen es fuer Vorhersagen.",
+    "mechanics":  {
+                      "skill_check":  "Naturkunde",
+                      "effect":  "Früher Hinweis auf Wetterumschwung/Fronten.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Planungsvorteil für Außenoperationen.",
+    "inventory_tags":  [
+                           "feld",
+                           "wetter",
+                           "inventar"
+                       ]
+}

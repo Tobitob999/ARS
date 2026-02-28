@@ -1,0 +1,316 @@
+{
+  "schema_version": "1.0.0",
+  "title": "The Haunting (Spukhaus)",
+  "setting": "Boston, Massachusetts - 1920",
+  "difficulty": "Einsteiger",
+  "intro": "Ihr trefft euch im Buero von Mr. Knott, einem Vertreter der Bostoner Wohnungsagentur. Seit Jahren steht das Corbitt-Haus leer. Mieter fliehen, Makler kuendigen, und jede Besichtigung endet in Panik oder Verletzungen. Knott bittet euch, die Ursache zu finden und das Haus wieder vermietbar zu machen.",
+  "hook": "Ein scheinbar klassischer Spukfall wird schnell zu einem Mythos-Konflikt um Walter Corbitts Grab im Keller.",
+  "keeper_lore": "Walter Corbitt war Mitglied der Church of Contemplation und diente dem Kriechenden Chaos. Nach seinem Tod wurde sein Koerper im Keller des Hauses beigesetzt. Seine unheilige Bindung ermoeglicht telekinetische Angriffe, Albtraeume und partielle Manifestation. Der Spuk endet nur, wenn Corbitts Leichnam durch Feuer zerstoert oder per Bannritual neutralisiert wird.",
+  "start_location": "knott_office",
+  "flags": {
+    "auftrag_angenommen": false,
+    "haus_betreten": false,
+    "zeitungsrecherche": false,
+    "kirchenakten_gesehen": false,
+    "sterbeeintrag_gelesen": false,
+    "tagebuch_gefunden": false,
+    "keller_gefunden": false,
+    "corbitt_manifestiert": false,
+    "banritual_bekannt": false,
+    "corbitt_vernichtet": false,
+    "gruppe_gefluechtet": false
+  },
+  "locations": [
+    {
+      "id": "knott_office",
+      "name": "Buero von Mr. Knott",
+      "description": "Ein ordentliches Agenturbuero mit Aktenstapeln, Mietvertraegen und Grundrissen.",
+      "atmosphere": "Sachlich, trocken, Geschaeftston.",
+      "npcs_present": ["mr_knott"],
+      "clues_available": ["auftrag_dossier"],
+      "exits": {
+        "newspaper_archive": "Zum Zeitungsarchiv in Downtown.",
+        "hall_of_records": "Zu den staedtlichen Registern.",
+        "corbitt_house": "Direkt zur 20 Sheafe Street."
+      },
+      "keeper_notes": "Knott kennt nur Geschaeftsfakten und Geruechte. Er bezahlt bei brauchbarem Ergebnis und druckt auf Diskretion."
+    },
+    {
+      "id": "newspaper_archive",
+      "name": "Zeitungsarchiv",
+      "description": "Mikrofilmrollen, gebundene Jahrgaenge und ein enger Lesesaal.",
+      "atmosphere": "Staubig, leise, konzentriert.",
+      "npcs_present": [],
+      "clues_available": ["zeitung_unfaelle", "zeitung_corbitt"],
+      "exits": {
+        "knott_office": "Zurueck zur Agentur.",
+        "hall_of_records": "Weiter zu den Registern.",
+        "corbitt_house": "Direkt zum Haus."
+      },
+      "keeper_notes": "Bibliotheksnutzung oeffnet den schnellen Zugriff. Ohne Erfolg dauert es laenger und liefert nur Teilinformationen."
+    },
+    {
+      "id": "hall_of_records",
+      "name": "Hall of Records",
+      "description": "Ein Verwaltungsbau mit Sterberegistern, Grundbucheintraegen und Kirchenkorrespondenz.",
+      "atmosphere": "Kuehl, formal, Papiergeruch und Stempelgeraeusche.",
+      "npcs_present": ["archivarin_webb"],
+      "clues_available": ["sterberegister_corbitt", "kirchenprozess"],
+      "exits": {
+        "newspaper_archive": "Zum Zeitungsarchiv.",
+        "corbitt_house": "Direkt zum Haus."
+      },
+      "keeper_notes": "Recht oder Ueberreden beschleunigt den Zugang zu sensiblen Eintraegen."
+    },
+    {
+      "id": "corbitt_house",
+      "name": "Corbitt-Haus",
+      "description": "Ein verwittertes Reihenhaus. Die Fenster sind dunkel, die Luft wirkt still und falsch.",
+      "atmosphere": "Dumpf, drueckend, unnatuerliche Kuehle.",
+      "npcs_present": ["walter_corbitt"],
+      "clues_available": ["seltsame_kratzspuren", "verstecktes_tagebuch", "kellerzugang"],
+      "exits": {
+        "knott_office": "Zurueck zur Agentur.",
+        "newspaper_archive": "Zurueck ins Archiv.",
+        "hall_of_records": "Zurueck zu den Registern."
+      },
+      "keeper_notes": "Das Haus reagiert auf Eindringlinge. Erst subtile Zeichen, dann offene Gewalt.",
+      "sub_locations": [
+        {
+          "id": "upper_floor",
+          "name": "Obergeschoss",
+          "description": "Leere Zimmer, verfaultes Holz, ein enges Treppenhaus.",
+          "clues": ["seltsame_kratzspuren"],
+          "events": [
+            {
+              "trigger": "Erste gruendliche Durchsuchung",
+              "effect": "Ein fliegendes Messer greift den vordersten Investigator an.",
+              "sets_flag": "corbitt_manifestiert"
+            }
+          ]
+        },
+        {
+          "id": "study_room",
+          "name": "Kleines Arbeitszimmer",
+          "description": "Hinter loser Wandverkleidung liegt ein altes Lederbuch.",
+          "clues": ["verstecktes_tagebuch"],
+          "events": []
+        },
+        {
+          "id": "cellar",
+          "name": "Kellergrab",
+          "description": "Ein gemauerter Bereich mit Corbitts Sarg als Zentrum unheiliger Aktivitaet.",
+          "clues": ["kellergrab_inschrift"],
+          "events": [
+            {
+              "trigger": "Sarg geoeffnet oder beschaedigt",
+              "effect": "Corbitt manifestiert sich und greift psychisch und telekinetisch an.",
+              "sets_flag": "corbitt_manifestiert"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "npcs": [
+    {
+      "id": "mr_knott",
+      "name": "Mr. Knott",
+      "role": "Auftraggeber",
+      "description": "Makler mit klarer Agenda: Problem loesen, Objekt vermieten.",
+      "appearance": "Gepflegter Anzug, Notizbuch, nervoeses Laecheln.",
+      "personality": "Pragmatisch, kostenbewusst, diskret.",
+      "knowledge": [
+        "Mehrere Mieter fluechteten innerhalb weniger Naechte.",
+        "Es gab Verletzungen ohne erklaerbare Ursache.",
+        "Die Presse berichtet seit Jahren ueber das Haus."
+      ],
+      "secrets": [
+        "Knott hat den Fall bereits zwei Mal vertuschen wollen.",
+        "Er waere bereit, Extra-Geld fuer eine 'saubere' Loesung zu zahlen."
+      ],
+      "dialogue_hints": [
+        "Ich brauche Resultate, keine Geistergeschichten.",
+        "Wenn das Haus wieder vermietbar ist, zahle ich sofort.",
+        "Bitte halten Sie meinen Namen aus der Zeitung."
+      ]
+    },
+    {
+      "id": "archivarin_webb",
+      "name": "Martha Webb",
+      "role": "Archivarin",
+      "description": "Erfahrene Verwaltungsangestellte mit strengem Blick.",
+      "appearance": "Runder Brillenrahmen, Klemmbrett, Tintenfinger.",
+      "personality": "Regeltreu, aber beeindruckbar durch Kompetenz.",
+      "knowledge": [
+        "Corbitts Begrabnis war kirchenrechtlich umstritten.",
+        "Es existiert ein Prozessprotokoll zur Church of Contemplation."
+      ],
+      "secrets": [
+        "Sie hat privat Aktenkopien angelegt, falls Unterlagen verschwinden."
+      ],
+      "dialogue_hints": [
+        "Ohne Antrag kein Zugang.",
+        "Mit der richtigen Begruendung finde ich vielleicht etwas.",
+        "Der Name Corbitt taucht zu oft in denselben Jahren auf."
+      ]
+    },
+    {
+      "id": "walter_corbitt",
+      "name": "Walter Corbitt",
+      "role": "Antagonist",
+      "description": "Untoter Kultist, gebunden an Grab und Haus.",
+      "appearance": "Verfallener Koerper, starre Mimik, unnatuerlich wache Augen.",
+      "personality": "Sadistisch, geduldig, manipulierend.",
+      "knowledge": [
+        "Kennt die Angstbilder seiner Opfer.",
+        "Greift zuerst indirekt, dann mit roher Gewalt an."
+      ],
+      "secrets": [
+        "Feuer am Leichnam bricht seine Bindung.",
+        "Ein korrektes Bannritual kann ihn langfristig neutralisieren."
+      ],
+      "dialogue_hints": [
+        "Mein Haus. Mein Keller. Mein Recht.",
+        "Ihr seid zu spaet gekommen.",
+        "Die Toten hoeren besser zu als die Lebenden."
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "auftrag_dossier",
+      "location": "knott_office",
+      "name": "Auftragsakte",
+      "description": "Mietabbrueche, Schadensnotizen und Hausadresse.",
+      "probe_required": null,
+      "information": "Der Fall hat Muster: Angsttraeume, Objektschaden, Flucht in der ersten Woche.",
+      "sanity_loss": "0/0",
+      "leads_to": ["zeitung_unfaelle", "corbitt_house"],
+      "sets_flag": "auftrag_angenommen"
+    },
+    {
+      "id": "zeitung_unfaelle",
+      "location": "newspaper_archive",
+      "name": "Unfallmeldungen",
+      "description": "Zeitungsberichte zu Stuerzen, Schnitten und Panik im Haus.",
+      "probe_required": "Bibliotheksnutzung",
+      "information": "Die Ereignisse wiederholen sich ueber Jahrzehnte ohne banale Ursache.",
+      "sanity_loss": "0/0",
+      "leads_to": ["zeitung_corbitt", "corbitt_house"],
+      "sets_flag": "zeitungsrecherche"
+    },
+    {
+      "id": "zeitung_corbitt",
+      "location": "newspaper_archive",
+      "name": "Bericht zur Church of Contemplation",
+      "description": "Ausriss ueber Kultvorwuerfe gegen Corbitt.",
+      "probe_required": "Geschichte",
+      "information": "Corbitt war Schluesselfigur einer okkulten Splittergruppe.",
+      "sanity_loss": "0/1",
+      "leads_to": ["kirchenprozess"],
+      "sets_flag": "kirchenakten_gesehen"
+    },
+    {
+      "id": "sterberegister_corbitt",
+      "location": "hall_of_records",
+      "name": "Sterbeeintrag Corbitt",
+      "description": "Amtlicher Eintrag mit Sondernotiz zur Beisetzung im Haus.",
+      "probe_required": "Recht",
+      "information": "Corbitt wurde absichtlich nicht auf geweihtem Boden bestattet.",
+      "sanity_loss": "0/0",
+      "leads_to": ["kellerzugang"],
+      "sets_flag": "sterbeeintrag_gelesen"
+    },
+    {
+      "id": "kirchenprozess",
+      "location": "hall_of_records",
+      "name": "Protokoll Church of Contemplation",
+      "description": "Gerichtsnahe Akte mit Zeugenaussagen zu Ritualen.",
+      "probe_required": "Bibliotheksnutzung",
+      "information": "Hinweise auf Bannformeln und Corbitts Angst vor Verbrennung.",
+      "sanity_loss": "0/1d3",
+      "mythos_gain": 1,
+      "leads_to": ["kellergrab_inschrift"],
+      "sets_flag": "banritual_bekannt"
+    },
+    {
+      "id": "seltsame_kratzspuren",
+      "location": "corbitt_house",
+      "sub_location": "upper_floor",
+      "name": "Kratzspuren im Holz",
+      "description": "Spuren verlaufen gegen die Schwerkraft, als ob etwas an Waenden kroch.",
+      "probe_required": "Wahrnehmung",
+      "information": "Physikalisch unplausibel; keine Tiererklaerung passt.",
+      "sanity_loss": "0/1",
+      "leads_to": ["verstecktes_tagebuch"],
+      "sets_flag": "haus_betreten"
+    },
+    {
+      "id": "verstecktes_tagebuch",
+      "location": "corbitt_house",
+      "sub_location": "study_room",
+      "name": "Corbitts Tagebuch",
+      "description": "Lederband mit Eintraegen zu Pakt, Furcht und Unsterblichkeitswahn.",
+      "probe_required": "Okkultes Wissen",
+      "information": "Corbitt beschreibt die Bindung an seinen Leichnam und ein Gegenritual.",
+      "sanity_loss": "1/1d4",
+      "mythos_gain": 2,
+      "leads_to": ["kellergrab_inschrift"],
+      "sets_flag": "tagebuch_gefunden"
+    },
+    {
+      "id": "kellerzugang",
+      "location": "corbitt_house",
+      "name": "Verdeckter Kellerzugang",
+      "description": "Hinter Regalbrettern fuehrt eine Stiege in den gemauerten Kellerbereich.",
+      "probe_required": "Spurensuche",
+      "information": "Jemand wollte den Zugang dauerhaft verbergen.",
+      "sanity_loss": "0/0",
+      "leads_to": ["kellergrab_inschrift"],
+      "sets_flag": "keller_gefunden"
+    },
+    {
+      "id": "kellergrab_inschrift",
+      "location": "corbitt_house",
+      "sub_location": "cellar",
+      "name": "Inschrift am Grab",
+      "description": "Runen und lateinische Bruchtexte um den Sarg.",
+      "probe_required": "Okkultes Wissen",
+      "information": "Verbrennung des Koerpers oder Bannung loest die Bindung.",
+      "sanity_loss": "1/1d6",
+      "mythos_gain": 1,
+      "leads_to": [],
+      "sets_flag": "corbitt_manifestiert"
+    }
+  ],
+  "resolution": {
+    "good_ending": "Corbitts Leichnam wird zerstoert oder korrekt gebannt. Der Spuk endet. Das Haus wird still.",
+    "bad_ending": "Die Gruppe flieht oder scheitert im Keller. Corbitt bleibt aktiv und verfolgt Zeugen in Traeumen.",
+    "conditions": {
+      "good_requires": ["keller_gefunden", "corbitt_vernichtet"],
+      "bad_triggers": ["gruppe_gefluechtet"]
+    }
+  },
+  "handouts": [
+    {
+      "id": "telegram_knott",
+      "type": "text",
+      "title": "Nachricht von Mr. Knott",
+      "content": "Diskreter Auftrag. Objekt 20 Sheafe Street. Mehrere Vorfaelle, keine Loesung. Sofortige Untersuchung erbeten."
+    },
+    {
+      "id": "newspaper_clip",
+      "type": "text",
+      "title": "Boston Gazette - Sondernotiz",
+      "content": "Wieder Vorfall im Corbitt-Haus. Mieter berichten von fliegenden Objekten und Schlafparalyse."
+    },
+    {
+      "id": "diary_page",
+      "type": "text",
+      "title": "Seite aus Corbitts Tagebuch",
+      "content": "Mein Fleisch mag fallen, doch mein Wille bleibt an Stein und Haus gebunden.",
+      "requires_flag": "tagebuch_gefunden"
+    }
+  ]
+}

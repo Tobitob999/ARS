@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Signalspiegel",
+    "type":  "Communication Gear",
+    "physical_description":  "Polierter Spiegel mit Zielmarke und Schnurband.",
+    "history":  "Aus Seefahrt und Feldaufklaerung bekannt.",
+    "mechanics":  {
+                      "skill_check":  "Wahrnehmung",
+                      "effect":  "Optische Signale ueber Distanz bei Tageslicht.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Low-Tech-Backup fuer Funkstille.",
+    "inventory_tags":  [
+                           "kommunikation",
+                           "feld",
+                           "inventar"
+                       ]
+}

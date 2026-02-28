@@ -1,0 +1,16 @@
+{
+  "name": "Medizinische Technik der 1920er",
+  "type": "Technology",
+  "technologies": [
+    {
+      "name": "Röntgenstrahlen (X-Rays)",
+      "description": "Eine revolutionäre, aber gefährliche Technik. Das St. Mary's Hospital besitzt ein Röntgengerät. Die Belichtungszeiten sind lang, und die Strahlenbelastung für Patient und Arzt ist hoch. Die Bilder sind oft unscharf.",
+      "use": "Zur Identifizierung von Knochenbrüchen oder verschluckten Gegenständen."
+    },
+    {
+      "name": "Chirurgische Instrumente & Anästhesie",
+      "description": "Die chirurgischen Werkzeuge sind aus Stahl und werden (meistens) sterilisiert. Als Anästhetika werden Äther oder Chloroform verwendet, die per Tropfmaske verabreicht werden. Die Dosierung ist heikel und riskant.",
+      "use": "Operationen sind immer mit einem hohen Infektions- und Komplikationsrisiko verbunden."
+    }
+  ]
+}

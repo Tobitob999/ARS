@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Verbrennungssalbe Dose",
+    "type":  "Medical Supply",
+    "physical_description":  "Metalltin mit fettiger Salbe gegen Brandverletzungen.",
+    "history":  "Haushalts- und Klinikartikel.",
+    "mechanics":  {
+                      "skill_check":  "Erste Hilfe",
+                      "effect":  "Lindert Schmerzen bei leichter/mittlerer Verbrennung.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Nutzerfreundliche Erstversorgung.",
+    "inventory_tags":  [
+                           "medizin",
+                           "verbrennung",
+                           "inventar"
+                       ]
+}

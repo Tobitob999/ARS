@@ -1,0 +1,15 @@
+{
+    "name":  "Arkham Booksellers [Erweiterung]",
+    "address":  "Church Street, Arkham",
+    "atmosphere":  "Ruhig und nach altem Papier duftend. Ein Labyrinth aus hohen Regalen. Der Inhaber, Mr. Abernathy, ist ein gelehrter, aber vergesslicher alter Mann.",
+    "details":  [
+                    "Eine Abteilung für lokale Geschichte mit vielen vergriffenen Büchern.",
+                    "Ein Lesesessel in einer ruhigen Ecke, der immer besetzt zu sein scheint.",
+                    "Eine verschlossene Vitrine mit \u0027seltenen Erstausgaben\u0027, die verdächtig nach Fälschungen aussehen."
+                ],
+    "clues":  "Gute Quelle für allgemeines Wissen und Geschichtsbücher. Mr. Abernathy kauft manchmal Bücher aus Nachlässen und könnte versehentlich ein okkultes Werk im Sortiment haben.",
+    "generated_variant":  true,
+    "source_seed_file":  "shop_arkham_books.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

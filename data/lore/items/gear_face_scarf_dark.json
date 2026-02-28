@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Dunkler Gesichtsschal",
+    "type":  "Protective Gear",
+    "physical_description":  "Langer Wollschal zum Schutz und zur Tarnung.",
+    "history":  "Alltagskleidung mit flexiblem Einsatzzweck.",
+    "mechanics":  {
+                      "skill_check":  "Verkleiden",
+                      "effect":  "Kann Identitaet in Eile teilweise verschleiern.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Einfaches Tarnmittel.",
+    "inventory_tags":  [
+                           "schutz",
+                           "tarnung",
+                           "inventar"
+                       ]
+}

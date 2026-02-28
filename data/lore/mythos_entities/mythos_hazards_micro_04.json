@@ -1,0 +1,26 @@
+﻿{
+    "name":  "mythos hazards - Spannungsfeld",
+    "type":  "Lore Snippet",
+    "category":  "mythos_entities",
+    "tags":  [
+                 "generated",
+                 "micro",
+                 "hook",
+                 "wave4",
+                 "creative"
+             ],
+    "scene_seed":  "Ein Geruecht kippt in offene Panik",
+    "sensory_detail":  "Kreidestriche unter Moebelkanten",
+    "twist":  "Das Problem ist ortsgebunden und folgt niemandem",
+    "complication":  "Regen zerstoert frische Spuren",
+    "payoff":  "ein moralisches Dilemma mit echter Fallhoehe",
+    "hook":  "Probe auf Okkultes Wissen: bei Erfolg wird die Komplikation abgefedert, bei Misserfolg verhaertet sich der Konflikt.",
+    "gm_moves":  [
+                     "Druck durch Uhrzeit oder Ort erhoehen",
+                     "Einen neutralen NSC in eine klare Position zwingen",
+                     "Einen scheinbar sicheren Plan mit kleinem Preis versehen"
+                 ],
+    "source_seed_file":  "mythos_hazards.json",
+    "generation_method":  "microcontent-v5",
+    "anomaliedruck":  "niedrig"
+}

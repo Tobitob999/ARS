@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Leder-Arbeitshandschuhe",
+    "type":  "Protective Gear",
+    "physical_description":  "Dickes Lederpaar mit verstärkter Innenhand.",
+    "history":  "Werkstattstandard, billig und langlebig.",
+    "mechanics":  {
+                      "skill_check":  "Mechanik",
+                      "effect":  "Schuetzt vor Splittern, Hitze und scharfen Kanten bei Improvisationsarbeiten.",
+                      "combat":  ""
+                  },
+    "content_summary":  "Kleine, aber oft entscheidende Schutzausruestung.",
+    "inventory_tags":  [
+                           "schutz",
+                           "werkstatt",
+                           "alltag",
+                           "inventar"
+                       ]
+}

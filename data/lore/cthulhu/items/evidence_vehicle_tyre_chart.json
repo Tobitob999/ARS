@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Reifenprofil-Chart",
+    "type":  "Document",
+    "physical_description":  "Profiltafeln und Messfelder fuer Reifenspuren.",
+    "history":  "Polizeitechnische Auswertungshilfe.",
+    "mechanics":  {
+                      "skill_check":  "Spurensuche",
+                      "effect":  "Verbessert Zuordnung von Fahrzeugspuren.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Stark in Verfolgungs- und Fluchtplots.",
+    "inventory_tags":  [
+                           "beweis",
+                           "fahrzeug",
+                           "inventar"
+                       ]
+}

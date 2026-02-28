@@ -1,0 +1,17 @@
+{
+    "name":  "north end overview - Folgespur",
+    "type":  "Lore Snippet",
+    "category":  "locations\\regional",
+    "tags":  [
+                 "generated",
+                 "micro",
+                 "hook",
+                 "wave2"
+             ],
+    "content_summary":  "Ein Augenzeuge berichtet: ein chaotischer Schichtwechsel in dem Umland; Tonlage: kryptisch.",
+    "hook":  "Bei gelungener Probe (Bibliotheksnutzung) erhalten die Investigatoren einen Vorsprung; bei Misserfolg entsteht ein Zeitfenster von nur 20 Minuten.",
+    "gm_note":  "Als Anschluss an bestehende Szene nutzen; auf 2-4 Dialogwechsel begrenzen.",
+    "source_seed_file":  "north_end_overview.json",
+    "generation_method":  "microcontent-v3",
+    "lore_fokus":  "situativ"
+}

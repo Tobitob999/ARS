@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Mechaniker-Rolltasche",
+    "type":  "Field Gear",
+    "physical_description":  "Schlüssel, Zangen, Schraubendreher als kompaktes Set.",
+    "history":  "Pannenhilfe und Werkstatteinsatz.",
+    "mechanics":  {
+                      "skill_check":  "Mechanik",
+                      "effect":  "Erlaubt schnelle Feldreparaturen an Fahrzeug/Anlage.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Basis für mobile Technikteams.",
+    "inventory_tags":  [
+                           "feld",
+                           "mechanik",
+                           "inventar"
+                       ]
+}

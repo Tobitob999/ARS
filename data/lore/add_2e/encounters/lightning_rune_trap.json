@@ -1,0 +1,7 @@
+{
+    "id":  "lightning_rune_trap",
+    "module_type":  "trap",
+    "trigger_condition":  "Reading warded inscription aloud",
+    "damage":  "3d4",
+    "saving_throw":  "vs. Spell for half"
+}

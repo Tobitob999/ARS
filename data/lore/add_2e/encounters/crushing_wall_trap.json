@@ -1,0 +1,7 @@
+{
+    "id":  "crushing_wall_trap",
+    "module_type":  "trap",
+    "trigger_condition":  "Pulling trapped lever",
+    "damage":  "4d4",
+    "saving_throw":  "vs. Petrification/Polymorph for half"
+}

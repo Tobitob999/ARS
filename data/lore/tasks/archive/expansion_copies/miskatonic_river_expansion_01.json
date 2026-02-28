@@ -1,0 +1,15 @@
+{
+    "name":  "Der Miskatonic River [Erweiterung]",
+    "address":  "Fließt durch Arkham",
+    "atmosphere":  "Ein träger, schlammiger Fluss. Sein Wasser ist dunkel und undurchsichtig. An nebligen Tagen scheint er Geräusche zu verschlucken. Nachts spiegeln sich die Sterne auf seiner Oberfläche wie kalte, ferne Augen.",
+    "details":  [
+                    "Verlassene, halb versunkene Boote am Ufer.",
+                    "Dichte Nebelbänke, die plötzlich aufsteigen können.",
+                    "Die \u0027Uninvited Isle\u0027, eine kleine Insel in der Mitte des Flusses, die von allen gemieden wird."
+                ],
+    "clues":  "Der Fluss ist die Hauptroute für Schmuggler. Fischer berichten von seltsamen Fängen und Dingen, die sie im Wasser gesehen haben.",
+    "generated_variant":  true,
+    "source_seed_file":  "miskatonic_river.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Schulterholster (verstellbar)",
+    "type":  "Weapon Accessory",
+    "physical_description":  "Leder-Schulterholster mit Achselriemen und Magazintasche.",
+    "history":  "Bei Detektiven und Zivilfahndern beliebt.",
+    "mechanics":  {
+                      "skill_check":  "Verkleiden",
+                      "effect":  "Verbessert verdecktes Tragen und schnellen Zugriff.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Trage-Upgrade fuer Kurzwaffen.",
+    "inventory_tags":  [
+                           "zubehoer",
+                           "waffe",
+                           "inventar"
+                       ]
+}

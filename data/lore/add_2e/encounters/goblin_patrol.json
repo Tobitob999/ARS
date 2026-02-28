@@ -1,0 +1,8 @@
+{
+    "id":  "goblin_patrol",
+    "module_type":  "event",
+    "trigger_condition":  "Noise check failure in active tunnels",
+    "damage":  "none",
+    "saving_throw":  "none",
+    "effect_description":  "Narrative dungeon dressing or encounter hook."
+}

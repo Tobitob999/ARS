@@ -1,0 +1,25 @@
+﻿{
+    "name":  "patient soldier - Brennpunkt",
+    "type":  "Lore Snippet",
+    "category":  "sanitarium",
+    "tags":  [
+                 "generated",
+                 "micro",
+                 "hook",
+                 "wave7",
+                 "creative"
+             ],
+    "signal":  "ein bekannter Name taucht am falschen Ort auf",
+    "friction":  "Zeitverlust durch Abstimmung",
+    "stake":  "Sicherheit eines Schluesselzeugen",
+    "payoff_if_controlled":  "ein klarer Schuldpfad",
+    "hook":  "Probe auf Psychologie: Erfolg nimmt Friktion heraus, Misserfolg verdoppelt den Einsatz auf der Stelle.",
+    "gm_moves":  [
+                     "Leite vom Signal direkt in eine harte Entscheidung",
+                     "Kopple die Friktion an eine bekannte Figur",
+                     "Belohne kluge Vorsicht mit fruehem Informationsvorsprung"
+                 ],
+    "source_seed_file":  "patient_soldier.json",
+    "generation_method":  "microcontent-v8",
+    "beobachtungsintervall":  "kurz"
+}

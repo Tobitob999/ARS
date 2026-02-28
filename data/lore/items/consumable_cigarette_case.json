@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Zigarettenetui",
+    "type":  "Consumable",
+    "physical_description":  "Metalletui mit 12 Zigaretten und Feuersteinanzuender.",
+    "history":  "Alltagsgegenstand, sozialer Tueroeffner in Bars und Wartezimmern.",
+    "mechanics":  {
+                      "skill_check":  "Charme",
+                      "effect":  "Kann Gespraeche entschaerfen oder Kontakte auflockern.",
+                      "combat":  ""
+                  },
+    "content_summary":  "Kleines Sozialwerkzeug mit kultureller Akzeptanz der Zeit.",
+    "inventory_tags":  [
+                           "verbrauch",
+                           "sozial",
+                           "alltag",
+                           "inventar"
+                       ]
+}

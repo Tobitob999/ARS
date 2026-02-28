@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Schlagring",
+    "type":  "Weapon",
+    "physical_description":  "Messing-Schlagring mit vier Fingerboegen und glatter Front.",
+    "history":  "In Hafenvierteln und illegalen Boxkellern verbreitet.",
+    "mechanics":  {
+                      "skill_check":  "Nahkampf (Hieb)",
+                      "effect":  "Verstaerkt Wucht auf engem Raum, erhoeht aber Eskalationsrisiko.",
+                      "combat":  "1W3+1 Schaden, unauffaellig tragbar bis Kontrolle."
+                  },
+    "content_summary":  "Kleine Waffe fuer schnelle, rohe Naehe.",
+    "inventory_tags":  [
+                           "waffe",
+                           "nahkampf",
+                           "diskret",
+                           "inventar"
+                       ]
+}

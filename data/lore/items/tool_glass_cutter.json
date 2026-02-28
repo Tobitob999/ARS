@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Glasschneider",
+    "type":  "Tool",
+    "physical_description":  "Kompaktes Werkzeug mit Hartmetallrad und Oelfuellung.",
+    "history":  "Von Glaserbetrieben und Einbrechern genutzt.",
+    "mechanics":  {
+                      "skill_check":  "Kunst \u0026 Handwerk",
+                      "effect":  "Erlaubt kontrolliertes Oeffnen von Fensterscheiben.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Leise Eintrittsoption bei guter Vorbereitung.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "infiltration",
+                           "inventar"
+                       ]
+}

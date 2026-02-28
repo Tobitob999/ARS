@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Klinik-Transferbelege",
+    "type":  "Document",
+    "physical_description":  "Blankobelege fuer Patientenverlegung und Begleitperson.",
+    "history":  "Krankenhausinterner Ablaufstandard.",
+    "mechanics":  {
+                      "skill_check":  "Medizin",
+                      "effect":  "Erlaubt glaubhafte Bewegung durch Klinikbereiche.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Nutzt Routine statt Gewalt fuer Zugriff.",
+    "inventory_tags":  [
+                           "dokument",
+                           "medizin",
+                           "zugang",
+                           "inventar"
+                       ]
+}

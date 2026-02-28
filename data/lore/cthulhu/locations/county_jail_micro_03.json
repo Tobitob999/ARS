@@ -1,0 +1,17 @@
+{
+    "name":  "county jail - Kreuzverbindung",
+    "type":  "Lore Snippet",
+    "category":  "locations",
+    "tags":  [
+                 "generated",
+                 "micro",
+                 "hook",
+                 "wave3"
+             ],
+    "content_summary":  "Ausgeloest durch eine verlorene Schluesselkarte bei soziale Spannung im Viertel; die Lage kippt Richtung eine Entlastung fuer einen Verdachtigen.",
+    "hook":  "Mit einer Probe auf Erste Hilfe sichern die Investigatoren einen Vorteil; andernfalls verliert die Gruppe Initiative im Schauplatz.",
+    "gm_note":  "Als Twist im laufenden Dialog einbauen; unmittelbar mit einem NSC oder Ort koppeln.",
+    "source_seed_file":  "county_jail.json",
+    "generation_method":  "microcontent-v4",
+    "zugriffsmuster":  "wechselhaft"
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Wohnhaus-Architektur (1920er Neuengland)",
+  "types": [
+    {
+      "name": "Victorian Mansion (Uptown)",
+      "materials": "Dunkler Backstein, Schieferdach, Holzschnitzereien am Giebel.",
+      "windows": "Hohe, schmale Schiebefenster, oft mit Buntglas im oberen Teil.",
+      "layout": [
+        { "area": "Erdgeschoss", "rooms": "Eingangshalle mit großer Treppe, Salon, Esszimmer, Bibliothek, Küche, Dienstboteneingang." },
+        { "area": "Obergeschoss", "rooms": "Mehrere Schlafzimmer, Badezimmer, Ankleidezimmer." },
+        { "area": "Dachboden", "rooms": "Staubig, voll mit alten Möbeln unter weißen Tüchern, kleine runde Fenster." },
+        { "area": "Keller", "rooms": "Weinkeller, Vorratskammer, Heizungsraum mit Kohleofen." }
+      ]
+    },
+    {
+      "name": "Tenement (Mietshaus in Rivertown)",
+      "materials": "Billiger, rußgeschwärzter Backstein, flaches Teerdach.",
+      "windows": "Kleine, quadratische Schiebefenster, die auf eine enge Gasse oder einen düsteren Hinterhof blicken.",
+      "layout": [
+        { "area": "Treppenhaus", "rooms": "Eng, dunkel, riecht nach Kohl und feuchtem Putz. Die Holzstufen knarren." },
+        { "area": "Wohnungen", "rooms": "Ein oder zwei kleine Zimmer, winzige Küche mit Gasherd. Oft überbelegt." },
+        { "area": "Flur", "rooms": "Langer, schmaler Korridor. Ein einziges Gemeinschaftsbad für den ganzen Stock." },
+        { "area": "Außen", "rooms": "Rostige Feuertreppe an der Rückseite des Gebäudes." }
+      ]
+    },
+    {
+      "name": "Farmhouse (Ländliches Umland)",
+      "materials": "Verwitterte Holzschindeln, Steinfundament, Blechdach.",
+      "windows": "Einfache Sprossenfenster, oft mit Fensterläden.",
+      "layout": [
+        { "area": "Erdgeschoss", "rooms": "Große Wohnküche mit gusseisernem Herd, Wohnzimmer ('Parlor'), Speisekammer." },
+        { "area": "Obergeschoss", "rooms": "Zwei oder drei kleine Schlafzimmer mit schrägen Wänden." },
+        { "area": "Keller", "rooms": "Kühl, mit Erdboden. Dient zur Lagerung von Eingemachtem und Kartoffeln. Eine schwere, schräge Außentür." },
+        { "area": "Außen", "rooms": "Überdachte Veranda mit Schaukelstuhl." }
+      ]
+    }
+  ]
+}

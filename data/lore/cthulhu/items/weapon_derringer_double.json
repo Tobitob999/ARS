@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Doppel-Derringer",
+    "type":  "Weapon",
+    "physical_description":  "Kleine zweilaeufige Taschenpistole, gut versteckbar.",
+    "history":  "Typische Backup-Waffe in Westen- und Hafenmilieu.",
+    "mechanics":  {
+                      "skill_check":  "Schusswaffen (Pistole)",
+                      "effect":  "Sehr unauffaellig tragbar, geringe Reichweite.",
+                      "combat":  "1W8, 2 Schuss."
+                  },
+    "content_summary":  "Backup fuer letzte Notlage.",
+    "inventory_tags":  [
+                           "waffe",
+                           "pistole",
+                           "backup",
+                           "inventar"
+                       ]
+}

@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Ritual-Klangspiel (Triade)",
+    "type":  "Occult Utility",
+    "physical_description":  "Dreiklang aus kleinen Metallstäben.",
+    "history":  "Spiritistische Sitzungen nutzen definierte Töne.",
+    "mechanics":  {
+                      "skill_check":  "Okkultes Wissen",
+                      "effect":  "Signalisiert Phasenwechsel und stabilisiert Gruppenrhythmus.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Akustischer Taktgeber fuer Rituale.",
+    "inventory_tags":  [
+                           "okkult",
+                           "ritual",
+                           "inventar"
+                       ]
+}

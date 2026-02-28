@@ -1,0 +1,8 @@
+{
+    "id":  "fungus_garden",
+    "module_type":  "event",
+    "trigger_condition":  "Entering humid cavern pocket",
+    "damage":  "none",
+    "saving_throw":  "none",
+    "effect_description":  "Narrative dungeon dressing or encounter hook."
+}

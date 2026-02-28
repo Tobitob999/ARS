@@ -1,0 +1,15 @@
+﻿{
+    "categories":  {
+                       "presets":  [
+                                       "modules/presets/coc_classic.json",
+                                       "modules/presets/add_fantasy.json",
+                                       "modules/presets/add_demo.json"
+                                   ],
+                       "rulesets":  [
+                                        "modules/rulesets/add_2e.json"
+                                    ],
+                       "adventures":  [
+                                          "modules/adventures/goblin_cave.json"
+                                      ]
+                   }
+}

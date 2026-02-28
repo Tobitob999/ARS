@@ -1,0 +1,13 @@
+{
+    "name":  "Patientenakte 109: Sarah Jenkins [Erweiterung]",
+    "type":  "Medical Record",
+    "date":  "04. August 1923",
+    "content_summary":  "Patientin leidet unter extremen Schlafstörungen. Berichtet von \u0027Stimmen unter dem Boden\u0027, die in einer unbekannten Sprache (phonetisch: \u0027Aklo\u0027) zu ihr sprechen.",
+    "diagnosis":  "Hysterie und paranoide Wahnvorstellungen.",
+    "treatment":  "Hydrotherapie (kalte Bäder) zur Beruhigung.",
+    "notes":  "Die Patientin hat begonnen, im Schlaf die gleiche Sprache zu sprechen. Das Pflegepersonal weigert sich, nachts ihr Zimmer zu betreten.",
+    "generated_variant":  true,
+    "source_seed_file":  "patient_case_109.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

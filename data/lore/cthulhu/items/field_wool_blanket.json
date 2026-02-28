@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Wolldecke schwer",
+    "type":  "Field Gear",
+    "physical_description":  "Dicke graue Decke mit hoher Waermeleistung.",
+    "history":  "Armee- und Hospitalstandard.",
+    "mechanics":  {
+                      "skill_check":  "-",
+                      "effect":  "Schuetzt vor Unterkuehlung in feuchten Kellern/Autos.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Einfaches Rettungsmittel fuer kalte Naechte.",
+    "inventory_tags":  [
+                           "feld",
+                           "schutz",
+                           "inventar"
+                       ]
+}

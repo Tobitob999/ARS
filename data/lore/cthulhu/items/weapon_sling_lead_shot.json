@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Schleuder mit Bleikugeln",
+    "type":  "Weapon",
+    "physical_description":  "Leder-Schleuder mit Beutel und Bleigeschossen.",
+    "history":  "Billige Distanzwaffe fuer diskrete Einsaetze.",
+    "mechanics":  {
+                      "skill_check":  "Werfen",
+                      "effect":  "Leise Distanzoption gegen Glas/Lichtquellen.",
+                      "combat":  "1W4."
+                  },
+    "content_summary":  "Nischenwaffe mit Stealth-Nutzen.",
+    "inventory_tags":  [
+                           "waffe",
+                           "werfen",
+                           "leise",
+                           "inventar"
+                       ]
+}

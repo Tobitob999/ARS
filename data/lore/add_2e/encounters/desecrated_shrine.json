@@ -1,0 +1,8 @@
+{
+    "id":  "desecrated_shrine",
+    "module_type":  "event",
+    "trigger_condition":  "Opening cracked chapel door",
+    "damage":  "none",
+    "saving_throw":  "none",
+    "effect_description":  "Narrative dungeon dressing or encounter hook."
+}

@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Abgenutztes Tarot-Deck",
+    "type":  "Occult Utility",
+    "physical_description":  "Vollständiges Kartenset mit handschriftlichen Randnotizen.",
+    "history":  "Wahrsager und Kultisten führen persönliche Decks.",
+    "mechanics":  {
+                      "skill_check":  "Psychologie",
+                      "effect":  "Kann NSC lenken/beruhigen oder als Cold-Reading-Werkzeug dienen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Sozial-okkultes Werkzeug mit erzählerischem Hebel.",
+    "inventory_tags":  [
+                           "okkult",
+                           "sozial",
+                           "inventar"
+                       ]
+}

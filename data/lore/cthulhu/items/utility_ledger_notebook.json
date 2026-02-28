@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Ermittlungs-Notizbuch",
+    "type":  "Utility",
+    "physical_description":  "Hartes Leinenheft mit wasserfestem Bleistift und Indexseiten.",
+    "history":  "Standard unter Journalisten und Detektiven.",
+    "mechanics":  {
+                      "skill_check":  "Bibliotheksnutzung",
+                      "effect":  "Erleichtert saubere Querverweise zwischen Personen, Orten und Zeiten.",
+                      "combat":  ""
+                  },
+    "content_summary":  "Ordnungssystem fuer komplexe Ermittlungsfaeden.",
+    "inventory_tags":  [
+                           "utility",
+                           "dokumentation",
+                           "analyse",
+                           "inventar"
+                       ]
+}

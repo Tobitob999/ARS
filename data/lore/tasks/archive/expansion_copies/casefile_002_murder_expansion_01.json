@@ -1,0 +1,16 @@
+{
+    "name":  "Ungelöster Fall #002: Der Mord an Professor Armitage [Erweiterung]",
+    "type":  "Police Case File",
+    "date":  "03. September 1924",
+    "content_summary":  "Professor Henry Armitage, ehemaliger Leiter der Miskatonic-Bibliothek, wurde tot in seinem Arbeitszimmer aufgefunden. Keine Anzeichen eines Kampfes.",
+    "evidence":  [
+                     "Todesursache: ein seltenes, nicht identifiziertes Gift, das Lähmungen und Halluzinationen verursacht.",
+                     "Ein halb verbrannter Brief mit der Warnung \u0027Lass die Sterne in Ruhe\u0027.",
+                     "Sein persönliches Tagebuch fehlt."
+                 ],
+    "status":  "Ungelöst. Verdächtige: keine.",
+    "generated_variant":  true,
+    "source_seed_file":  "casefile_002_murder.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

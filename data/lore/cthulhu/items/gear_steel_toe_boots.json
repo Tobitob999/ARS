@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Stahlkappenstiefel",
+    "type":  "Protective Gear",
+    "physical_description":  "Lederstiefel mit Stahlkappe und rutschfester Sohle.",
+    "history":  "Industrie- und Lagerarbeitsstandard.",
+    "mechanics":  {
+                      "skill_check":  "Klettern",
+                      "effect":  "Mehr Stabilitaet bei Truemmer- und Werkstattboden.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Nutzwert bei Bewegung durch Gefahrenbereiche.",
+    "inventory_tags":  [
+                           "schutz",
+                           "schuhe",
+                           "feld",
+                           "inventar"
+                       ]
+}

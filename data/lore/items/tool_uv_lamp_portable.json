@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Tragbare UV-Lampe",
+    "type":  "Tool",
+    "physical_description":  "Fruehes Quecksilberlichtgeraet mit Filterglas.",
+    "history":  "Labornahe Sonderausruestung, teuer und fragil.",
+    "mechanics":  {
+                      "skill_check":  "Wissenschaft (Chemie)",
+                      "effect":  "Macht bestimmte Fluessigkeitsrueckstaende sichtbar.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Speziallicht fuer Spurensuche.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "forensik",
+                           "licht",
+                           "inventar"
+                       ]
+}

@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Feldtelefon-Paar",
+    "type":  "Tool",
+    "physical_description":  "Zwei Kurbeltelefone mit Drahtrolle fuer Kurzstrecken.",
+    "history":  "Militaerischer Restposten fuer feste Linien.",
+    "mechanics":  {
+                      "skill_check":  "Wissenschaft (Physik)",
+                      "effect":  "Baut lokale Punkt-zu-Punkt-Verbindung ohne Netz.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Sichere Teamkommunikation in Gebäuden.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "kommunikation",
+                           "inventar"
+                       ]
+}

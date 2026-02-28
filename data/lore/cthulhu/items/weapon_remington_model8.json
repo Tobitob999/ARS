@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Remington Model 8",
+    "type":  "Weapon",
+    "physical_description":  "Halbautomatisches Jagdgewehr mit langem Lauf und 5-Schuss-Magazin.",
+    "history":  "Beliebt bei professionellen Jaegern und Sicherheitsdiensten.",
+    "mechanics":  {
+                      "skill_check":  "Schusswaffen (Gewehr)",
+                      "effect":  "Hohe Folgeschussrate fuer ein Gewehr.",
+                      "combat":  "2W6+2, 5 Schuss."
+                  },
+    "content_summary":  "Starke Langwaffe fuer mobile Feuergefechte.",
+    "inventory_tags":  [
+                           "waffe",
+                           "gewehr",
+                           "inventar"
+                       ]
+}

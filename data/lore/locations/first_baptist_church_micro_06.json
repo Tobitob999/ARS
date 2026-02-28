@@ -1,0 +1,25 @@
+﻿{
+    "name":  "first baptist church - Knotenpunkt",
+    "type":  "Lore Snippet",
+    "category":  "locations",
+    "tags":  [
+                 "generated",
+                 "micro",
+                 "hook",
+                 "wave6",
+                 "creative"
+             ],
+    "pressure_line":  "ein Konflikt zwischen zwei Verbundeten",
+    "turn":  "eine Nebenfigur fordert den Preis ein",
+    "cost":  "rechtliche Verstrickung",
+    "reward_if_solved":  "saubere Initiative fuer den Folgeakt",
+    "hook":  "Probe auf Ueberreden: Erfolg stabilisiert die Lage, Misserfolg triggert den Turn sofort.",
+    "gm_moves":  [
+                     "Schiebe den Turn einen Schritt vor",
+                     "Lass den Cost sichtbar auf der Szene liegen",
+                     "Biete einen harten, aber fairen Deal an"
+                 ],
+    "source_seed_file":  "first_baptist_church.json",
+    "generation_method":  "microcontent-v7",
+    "lagebild":  "instabil"
+}

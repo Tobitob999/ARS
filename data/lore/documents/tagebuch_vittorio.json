@@ -1,0 +1,13 @@
+{
+  "name": "Tagebuch der Familie Vittorio",
+  "type": "Buch / Dokument",
+  "physical_description": "Ein kleines, wasserfleckiges Notizbuch mit schwarzem Einband. Die Schrift ist anfangs ordentlich, wird aber gegen Ende fahrig, zittrig und fast unleserlich.",
+  "history": "Gehörte einer italienischen Einwandererfamilie, die 1918 kurz im Corbitt-Haus wohnte, bevor sie nach einem tragischen 'Unfall' in der Küche fluchtartig auszog.",
+  "mechanics": {
+    "reading_time": "2 Stunden",
+    "sanity_loss": "0/1d3",
+    "mythos_gain": 1,
+    "skill_check": "Sprache (Italienisch) oder Intelligenz (schwer)"
+  },
+  "content_summary": "Beschreibt 'Augen in der Dunkelheit', Klopfgeräusche aus dem Keller und das Gefühl, dass das Haus sich gegen die Bewohner verschwört. Der letzte Eintrag warnt davor, im Erdgeschoss zu schlafen."
+}

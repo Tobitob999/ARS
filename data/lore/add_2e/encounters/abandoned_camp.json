@@ -1,0 +1,8 @@
+{
+    "id":  "abandoned_camp",
+    "module_type":  "event",
+    "trigger_condition":  "Party enters old firepit chamber",
+    "damage":  "none",
+    "saving_throw":  "none",
+    "effect_description":  "Narrative dungeon dressing or encounter hook."
+}

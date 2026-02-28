@@ -1,0 +1,26 @@
+﻿{
+    "name":  "artifact backward watch - Spannungsfeld",
+    "type":  "Lore Snippet",
+    "category":  "items",
+    "tags":  [
+                 "generated",
+                 "micro",
+                 "hook",
+                 "wave4",
+                 "creative"
+             ],
+    "scene_seed":  "Ein vertrauter NSC verhaelt sich ploetzlich widerspruechlich",
+    "sensory_detail":  "ozonhaltiger Geruch in den Fluren",
+    "twist":  "Die sicherste Route fuehrt direkt in einen Hinterhalt",
+    "complication":  "Ein NPC fordert sofortige Gegenleistung",
+    "payoff":  "ein belastbares Motiv gegen den Hauptgegner",
+    "hook":  "Probe auf Spurensuche: bei Erfolg wird die Komplikation abgefedert, bei Misserfolg verhaertet sich der Konflikt.",
+    "gm_moves":  [
+                     "Druck durch Uhrzeit oder Ort erhoehen",
+                     "Einen neutralen NSC in eine klare Position zwingen",
+                     "Einen scheinbar sicheren Plan mit kleinem Preis versehen"
+                 ],
+    "source_seed_file":  "artifact_backward_watch.json",
+    "generation_method":  "microcontent-v5",
+    "artefakt_stabilitaet":  "reaktiv"
+}

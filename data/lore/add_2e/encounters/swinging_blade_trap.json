@@ -1,0 +1,7 @@
+{
+    "id":  "swinging_blade_trap",
+    "module_type":  "trap",
+    "trigger_condition":  "Crossing midpoint of corridor",
+    "damage":  "2d4",
+    "saving_throw":  "vs. Petrification/Polymorph for half"
+}

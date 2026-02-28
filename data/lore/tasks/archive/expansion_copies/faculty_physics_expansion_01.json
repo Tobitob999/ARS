@@ -1,0 +1,15 @@
+{
+    "name":  "Fakultät für Physik [Erweiterung]",
+    "head":  "Professor Evelyn Morgan",
+    "focus":  "Theoretische Physik, Quantenmechanik und Elektromagnetismus.",
+    "atmosphere":  "Tafeln voller unverständlicher Formeln. Summen von experimentellen Generatoren.",
+    "rumor":  "Bei einem Experiment im letzten Monat verschwand ein Assistent für drei Sekunden vollständig. Er weigert sich seitdem, über das Erlebnis zu sprechen.",
+    "projects":  [
+                     "Untersuchung von nicht-euklidischen Raumkrümmungen",
+                     "Messung von Strahlungswerten bei Meteoriten"
+                 ],
+    "generated_variant":  true,
+    "source_seed_file":  "faculty_physics.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

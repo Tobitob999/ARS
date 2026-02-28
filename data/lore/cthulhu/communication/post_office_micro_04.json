@@ -1,0 +1,26 @@
+﻿{
+    "name":  "post office - Spannungsfeld",
+    "type":  "Lore Snippet",
+    "category":  "communication",
+    "tags":  [
+                 "generated",
+                 "micro",
+                 "hook",
+                 "wave4",
+                 "creative"
+             ],
+    "scene_seed":  "Ein kurzer Stromausfall enthuellt verborgene Spuren",
+    "sensory_detail":  "feine Asche in geschlossenen Raeumen",
+    "twist":  "Der vermeintliche Zeuge ist Teil der Inszenierung",
+    "complication":  "Ein Schluesselgegenstand verschwindet",
+    "payoff":  "ein glaubwuerdiger Verbundener im Viertel",
+    "hook":  "Probe auf Psychologie: bei Erfolg wird die Komplikation abgefedert, bei Misserfolg verhaertet sich der Konflikt.",
+    "gm_moves":  [
+                     "Druck durch Uhrzeit oder Ort erhoehen",
+                     "Einen neutralen NSC in eine klare Position zwingen",
+                     "Einen scheinbar sicheren Plan mit kleinem Preis versehen"
+                 ],
+    "source_seed_file":  "post_office.json",
+    "generation_method":  "microcontent-v5",
+    "systemzuverlaessigkeit":  "stoeranfaellig"
+}

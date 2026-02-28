@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Lock-Bypass-Shims",
+    "type":  "Tool",
+    "physical_description":  "Duenne Metallstreifen fuer einfache Riegelmechaniken.",
+    "history":  "Spezialware aus Schlosserkreisen.",
+    "mechanics":  {
+                      "skill_check":  "Schloesser knacken",
+                      "effect":  "Kann primitive Schliessungen schnell passieren.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Schnelles Entry-Tool fuer Nebentueren.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "infiltration",
+                           "inventar"
+                       ]
+}

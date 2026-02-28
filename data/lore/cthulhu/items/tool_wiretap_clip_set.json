@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Leitungsclip-Abgriffset",
+    "type":  "Tool",
+    "physical_description":  "Kontaktclips und Isolierwerkzeug fuer Leitungen.",
+    "history":  "Graubereich-Tool fuer verdeckte Ermittlungen.",
+    "mechanics":  {
+                      "skill_check":  "Mechanik",
+                      "effect":  "Kann einfache Leitungen passiv abgreifen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Informationsgewinn mit Rechtsrisiko.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "abgriff",
+                           "inventar"
+                       ]
+}

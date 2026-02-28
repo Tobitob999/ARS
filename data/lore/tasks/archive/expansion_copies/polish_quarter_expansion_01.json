@@ -1,0 +1,16 @@
+{
+    "name":  "Das Polnische Viertel (The Polack Hill) [Erweiterung]",
+    "type":  "Neighborhood",
+    "atmosphere":  "Ruhiger und abgeschotteter als die anderen Viertel. Es riecht nach geräuchertem Fleisch, Sauerkraut und Kohlenrauch. Die Menschen sind fleißig und halten für sich. Am Sonntag ist die katholische Kirche St. Stanislaus das Zentrum der Welt.",
+    "social_dynamics":  "Die Gemeinschaft ist sehr in sich gekehrt und pflegt die Traditionen der alten Heimat. Man spricht oft Polnisch auf der Straße. Das Misstrauen gegenüber Außenstehenden ist extrem hoch.",
+    "key_npc":  {
+                    "name":  "Jan Kowalski",
+                    "occupation":  "Metzger",
+                    "traits":  "Ein breitschultriger, schweigsamer Mann, dessen Hände immer vom Blut seiner Arbeit befleckt sind. Er verarbeitet seine eigenen Würste.",
+                    "secret":  "Seine Metzgerei ist das inoffizielle Informationszentrum des Viertels. Er hört alle Gerüchte. Er weiß, wer neu in der Gegend ist, wer Geldprobleme hat und wer sich seltsam verhält. Für den richtigen Preis teilt er sein Wissen."
+                },
+    "generated_variant":  true,
+    "source_seed_file":  "polish_quarter.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

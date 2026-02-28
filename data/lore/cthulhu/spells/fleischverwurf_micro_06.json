@@ -1,0 +1,25 @@
+﻿{
+    "name":  "fleischverwurf - Knotenpunkt",
+    "type":  "Lore Snippet",
+    "category":  "spells",
+    "tags":  [
+                 "generated",
+                 "micro",
+                 "hook",
+                 "wave6",
+                 "creative"
+             ],
+    "pressure_line":  "eine Kaskade aus kleinen Fehlentscheidungen",
+    "turn":  "ein NSC wechselt unvermittelt die Seite",
+    "cost":  "oeffentliche Aufmerksamkeit",
+    "reward_if_solved":  "vertrauenswuerdige Zeugenaussage",
+    "hook":  "Probe auf Okkultes Wissen: Erfolg stabilisiert die Lage, Misserfolg triggert den Turn sofort.",
+    "gm_moves":  [
+                     "Schiebe den Turn einen Schritt vor",
+                     "Lass den Cost sichtbar auf der Szene liegen",
+                     "Biete einen harten, aber fairen Deal an"
+                 ],
+    "source_seed_file":  "fleischverwurf.json",
+    "generation_method":  "microcontent-v7",
+    "ritualsteuerung":  "unkalkulierbar"
+}

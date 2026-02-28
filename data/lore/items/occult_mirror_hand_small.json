@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Kleiner Handspiegel",
+    "type":  "Occult Utility",
+    "physical_description":  "Runder Spiegel mit dunklem Rahmen und Stoffhülle.",
+    "history":  "In Wahrsage und Gegenblick-Ritualen verbreitet.",
+    "mechanics":  {
+                      "skill_check":  "Okkultes Wissen",
+                      "effect":  "Kann als Fokus fuer Wahrnehmungsriten dienen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Mobiler Ritualfokus mit starker Symbolik.",
+    "inventory_tags":  [
+                           "okkult",
+                           "fokus",
+                           "inventar"
+                       ]
+}

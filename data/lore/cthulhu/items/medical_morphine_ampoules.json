@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Morphin-Ampullen",
+    "type":  "Medical Supply",
+    "physical_description":  "Braunglasampullen mit Spritzenzubehoer in gepolsterter Dose.",
+    "history":  "In Kliniken gaengig, ausserhalb streng kontrolliert.",
+    "mechanics":  {
+                      "skill_check":  "Medizin",
+                      "effect":  "Lindert massive Schmerzen, kann aber Benommenheit erzeugen.",
+                      "combat":  ""
+                  },
+    "content_summary":  "Starke Schmerztherapie mit Risiko und Nebenwirkung.",
+    "inventory_tags":  [
+                           "medizin",
+                           "schmerzmittel",
+                           "kontrolliert",
+                           "inventar"
+                       ]
+}

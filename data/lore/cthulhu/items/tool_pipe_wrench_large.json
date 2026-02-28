@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Rohrzange gross",
+    "type":  "Tool",
+    "physical_description":  "Schwere Rohrzange mit Zahngriff.",
+    "history":  "Werkstattklassiker fuer Leitungen und Ventile.",
+    "mechanics":  {
+                      "skill_check":  "Mechanik",
+                      "effect":  "Erlaubt Loesen festsitzender Metallverbindungen.",
+                      "combat":  "Nahkampf (Hieb): 1W6."
+                  },
+    "content_summary":  "Hartes Utility-Tool fuer Technikorte.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "mechanik",
+                           "inventar"
+                       ]
+}

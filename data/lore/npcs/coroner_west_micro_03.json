@@ -1,0 +1,17 @@
+{
+    "name":  "coroner west - Kreuzverbindung",
+    "type":  "Lore Snippet",
+    "category":  "npcs",
+    "tags":  [
+                 "generated",
+                 "micro",
+                 "hook",
+                 "wave3"
+             ],
+    "content_summary":  "Ausgeloest durch ein vertauschtes Beweisfoto bei interne Rivalitaet; die Lage kippt Richtung ein Deal mit versteckten Kosten.",
+    "hook":  "Mit einer Probe auf Okkultismus sichern die Investigatoren einen Vorteil; andernfalls verliert die Gruppe Initiative im Schauplatz.",
+    "gm_note":  "Als Twist im laufenden Dialog einbauen; unmittelbar mit einem NSC oder Ort koppeln.",
+    "source_seed_file":  "coroner_west.json",
+    "generation_method":  "microcontent-v4",
+    "vertrauensfenster":  "offen"
+}

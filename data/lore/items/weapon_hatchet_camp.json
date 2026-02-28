@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Camp-Beil",
+    "type":  "Weapon",
+    "physical_description":  "Kompaktes Beil mit Holzstiel und Lederschutz.",
+    "history":  "Standard fuer Lager und Werkstatt.",
+    "mechanics":  {
+                      "skill_check":  "Nahkampf (Hieb)",
+                      "effect":  "Kann Holzarbeit und Nahkampf uebernehmen.",
+                      "combat":  "1W6+1."
+                  },
+    "content_summary":  "Praktisch fuer Feld und Notlage.",
+    "inventory_tags":  [
+                           "waffe",
+                           "beil",
+                           "feld",
+                           "inventar"
+                       ]
+}

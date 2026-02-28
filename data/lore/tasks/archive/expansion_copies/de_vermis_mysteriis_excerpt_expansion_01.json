@@ -1,0 +1,24 @@
+{
+    "schema_version":  "1.1",
+    "name":  "Auszug aus De Vermis Mysteriis (Kapitel: Die Anrufung derer, die unten nagen) [Erweiterung]",
+    "type":  "Book Excerpt",
+    "category":  "library/excerpts",
+    "source_markdown":  "de_vermis_mysteriis_excerpt.md",
+    "converted_from_markdown":  true,
+    "tags":  [
+                 "library",
+                 "excerpt",
+                 "book",
+                 "mythos"
+             ],
+    "summary":  "\"Zeichne das Siegel mit dem Blut eines Neugeborenen, das noch nicht geschrien hat. Sprich die Worte \u0027Sargh\u0027 und \u0027Oth\u0027 dreimal in die Dunkelheit. Du wirst das Kratzen hören, zuerst leise, wie Ratten in der Wand, dann lauter, wie das Brechen von Knochen. Sie kommen von unten, die Diener des Yig, die Väter der Schlangen....",
+    "source_text":  "# Auszug aus De Vermis Mysteriis (Kapitel: Die Anrufung derer, die unten nagen)\r\n\r\n\"Zeichne das Siegel mit dem Blut eines Neugeborenen, das noch nicht geschrien hat. Sprich die Worte \u0027Sargh\u0027 und \u0027Oth\u0027 dreimal in die Dunkelheit. Du wirst das Kratzen hören, zuerst leise, wie Ratten in der Wand, dann lauter, wie das Brechen von Knochen. Sie kommen von unten, die Diener des Yig, die Väter der Schlangen. Sie bringen das Wissen der Erde, aber sie fordern einen Preis. Fleisch für Fleisch. Geist für Geist. Blicke ihnen nicht in die Augen, denn in ihnen spiegelt sich die Leere vor der Zeit.\"\r\n\r\n---\r\n**Effekt beim Lesen:**\r\n- **Stabilitätsverlust:** 1d4\r\n- **Cthulhu-Mythos:** +1%",
+    "mechanics":  {
+                      "stability_loss":  "1d4",
+                      "cthulhu_mythos":  "+1%"
+                  },
+    "generated_variant":  true,
+    "source_seed_file":  "de_vermis_mysteriis_excerpt.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

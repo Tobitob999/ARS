@@ -1,0 +1,19 @@
+{
+    "schema_version":  "1.1",
+    "name":  "Berühmte Kriminalfälle in der Geschichte Arkhams [Erweiterung]",
+    "type":  "Lore Document",
+    "category":  "crime",
+    "source_markdown":  "famous_cases.md",
+    "converted_from_markdown":  true,
+    "tags":  [
+                 "crime",
+                 "arkham"
+             ],
+    "summary":  "Eine Liste historischer Prozesse, die im Stadtgedächtnis geblieben sind.",
+    "source_text":  "# Berühmte Kriminalfälle in der Geschichte Arkhams\r\n\r\n*Eine Liste historischer Prozesse, die im Stadtgedächtnis geblieben sind.*\r\n\r\n### Der Fall des \"Arkham-Würgers\" (1905)\r\nEin Serienmörder, der seine Opfer erwürgte und ein seltsames, vogelähnliches Symbol auf ihrer Stirn hinterließ. Der Landstreicher Thomas Malone wurde für die Taten verurteilt und gehängt, obwohl er bis zuletzt seine Unschuld beteuerte. Viele glauben, der wahre Mörder wurde nie gefasst.\r\n\r\n### Der Keating-Mord (1918)\r\nDer wohlhabende Industrielle Charles Keating wurde in seiner verschlossenen Bibliothek ermordet aufgefunden. Seine junge Frau wurde des Mordes angeklagt, aber in einem aufsehenerregenden Prozess freigesprochen. Der Fall ist bis heute ungelöst und ein beliebtes Thema für Spekulationen.\r\n\r\n### Der Prozess gegen die \"Kinder von Dunwich\" (1924)\r\nMehrere Mitglieder der Whateley-Familie wurden wegen Viehdiebstahls und Grabschändung angeklagt. Der Prozess war eine Farce, da kein Zeuge aus Arkham es wagte, gegen sie auszusagen. Sie wurden aus Mangel an Beweisen freigesprochen.",
+    "mechanics":  null,
+    "generated_variant":  true,
+    "source_seed_file":  "famous_cases.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

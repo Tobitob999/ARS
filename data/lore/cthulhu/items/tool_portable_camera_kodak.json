@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Tragbare Kodak-Kamera",
+    "type":  "Tool",
+    "physical_description":  "Kompakte Balgenkamera mit Glasplattenhalter und Ledertasche.",
+    "history":  "Reporter und Privatdetektive nutzen sie zur Beweissicherung.",
+    "mechanics":  {
+                      "skill_check":  "Wahrnehmung oder Kunst \u0026 Handwerk",
+                      "effect":  "Erzeugt belastbares Bildmaterial, wenn Licht und Fokus stimmen.",
+                      "combat":  ""
+                  },
+    "content_summary":  "Dokumentiert Tatorte und Anomalien fuer spaetere Auswertung.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "dokumentation",
+                           "foto",
+                           "inventar"
+                       ]
+}

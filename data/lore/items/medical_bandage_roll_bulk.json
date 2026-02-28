@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Verbandrollen (Bulk)",
+    "type":  "Medical Supply",
+    "physical_description":  "Mehrpack Gaze- und Kompressionsbinden.",
+    "history":  "Krankenhaus- und Feldversorgungsmaterial.",
+    "mechanics":  {
+                      "skill_check":  "Erste Hilfe",
+                      "effect":  "Erlaubt Versorgung mehrerer Verletzter hintereinander.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Logistik fuer laengere Einsaetze.",
+    "inventory_tags":  [
+                           "medizin",
+                           "verbandsmaterial",
+                           "inventar"
+                       ]
+}

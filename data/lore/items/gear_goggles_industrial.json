@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Industrie-Schutzbrille",
+    "type":  "Protective Gear",
+    "physical_description":  "Dickglas-Schutzbrille mit Lederband.",
+    "history":  "Werkstattstandard gegen Funken und Splitter.",
+    "mechanics":  {
+                      "skill_check":  "Mechanik",
+                      "effect":  "Reduziert Risiko bei Schleif-, Brech- und Chemiearbeiten.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Kleine Investition mit hoher Praeventionswirkung.",
+    "inventory_tags":  [
+                           "schutz",
+                           "werkstatt",
+                           "inventar"
+                       ]
+}

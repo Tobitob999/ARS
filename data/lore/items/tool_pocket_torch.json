@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Taschenlampe mit Ersatzbatterien",
+    "type":  "Tool",
+    "physical_description":  "Metall-Taschenlampe mit fokussierbarem Lichtkegel.",
+    "history":  "Beliebte Ausruestung fuer Nachtwaechter, Mechaniker und Ermittler.",
+    "mechanics":  {
+                      "skill_check":  "Wahrnehmung",
+                      "effect":  "Reduziert Sichtnachteile in dunklen Innenraeumen deutlich.",
+                      "combat":  ""
+                  },
+    "content_summary":  "Basis-Ausruestung fuer Keller, Tunnel und Stromausfaelle.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "licht",
+                           "erkundung",
+                           "inventar"
+                       ]
+}

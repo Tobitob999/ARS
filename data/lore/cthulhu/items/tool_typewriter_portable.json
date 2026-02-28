@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Portable Schreibmaschine",
+    "type":  "Tool",
+    "physical_description":  "Kompaktes Schreibgeraet im Transportkoffer.",
+    "history":  "Reporter und Kanzleien verwenden sie fuer saubere Abschriften.",
+    "mechanics":  {
+                      "skill_check":  "Bibliotheksnutzung",
+                      "effect":  "Beschleunigt strukturierte Berichterstellung/Protokolle.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Dokumentationsmaschine fuer lange Kampagnen.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "dokumentation",
+                           "inventar"
+                       ]
+}

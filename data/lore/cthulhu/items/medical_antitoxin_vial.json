@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Antitoxin-Phiole",
+    "type":  "Medical Supply",
+    "physical_description":  "Kleine Phiole mit begrenzter Haltbarkeit.",
+    "history":  "Aus Labor- und Klinikbeständen beschafft.",
+    "mechanics":  {
+                      "skill_check":  "Medizin",
+                      "effect":  "Kann bestimmte Vergiftungsverläufe verlangsamen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Zeitgewinn bis zur Spezialbehandlung.",
+    "inventory_tags":  [
+                           "medizin",
+                           "gift",
+                           "inventar"
+                       ]
+}

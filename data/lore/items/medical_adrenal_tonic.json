@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Adrenalin-Tonikum",
+    "type":  "Medical Supply",
+    "physical_description":  "Stimulierende Mixtur in Ampullenform.",
+    "history":  "Seltene Notfallmedikation für Schocklagen.",
+    "mechanics":  {
+                      "skill_check":  "Medizin",
+                      "effect":  "Kann kurzfristig Kreislauf stabilisieren, später Einbruch möglich.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Harte Notfalloption im Grenzbereich.",
+    "inventory_tags":  [
+                           "medizin",
+                           "notfall",
+                           "inventar"
+                       ]
+}

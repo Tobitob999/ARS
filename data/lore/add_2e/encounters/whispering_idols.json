@@ -1,0 +1,8 @@
+{
+    "id":  "whispering_idols",
+    "module_type":  "event",
+    "trigger_condition":  "Approaching carved idol alcove",
+    "damage":  "none",
+    "saving_throw":  "none",
+    "effect_description":  "Narrative dungeon dressing or encounter hook."
+}

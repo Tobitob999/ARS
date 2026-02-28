@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Industrie-Inspektionscheckliste",
+    "type":  "Document",
+    "physical_description":  "Checkliste fuer Sicherheits- und Anlagenkontrollen.",
+    "history":  "Von Aufsichtsstellen regelmaessig genutzt.",
+    "mechanics":  {
+                      "skill_check":  "Mechanik",
+                      "effect":  "Lenkt Blick auf typische Fehlerquellen am Ort.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Struktur fuer systematische Ortsbegehung.",
+    "inventory_tags":  [
+                           "dokument",
+                           "technik",
+                           "inventar"
+                       ]
+}

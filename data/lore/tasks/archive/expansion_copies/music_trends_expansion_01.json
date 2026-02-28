@@ -1,0 +1,29 @@
+{
+    "name":  "Populäre Musik der 1920er [Erweiterung]",
+    "trends":  [
+                   {
+                       "genre":  "Ragtime",
+                       "description":  "Schnelle, synkopierte Klaviermusik. Beliebt in Saloons und bei älterem Publikum.",
+                       "example_song":  "Scott Joplin - The Entertainer"
+                   },
+                   {
+                       "genre":  "Hot Jazz",
+                       "description":  "Wild, improvisiert und tanzbar. Gespielt von Bands mit Trompete, Klarinette und Posaune. Die Musik der Jugend und der Speakeasies.",
+                       "example_song":  "Louis Armstrong - West End Blues"
+                   },
+                   {
+                       "genre":  "Blues",
+                       "description":  "Melancholische, gefühlvolle Musik aus dem Süden. Oft nur von einem Sänger mit Gitarre vorgetragen.",
+                       "example_song":  "Bessie Smith - St. Louis Blues"
+                   },
+                   {
+                       "genre":  "Charleston",
+                       "description":  "Ein extrem populärer Tanz und Musikstil, der die \u0027Roaring Twenties\u0027 definiert.",
+                       "example_song":  "James P. Johnson - The Charleston"
+                   }
+               ],
+    "generated_variant":  true,
+    "source_seed_file":  "music_trends.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

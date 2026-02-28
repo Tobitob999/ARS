@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Signalset Pfeife+Leuchtpatrone",
+    "type":  "Weapon",
+    "physical_description":  "Signalpfeife mit Handfackel-Patrone fuer Notlagen.",
+    "history":  "Militärische Restausruestung fuer Feldkoordination.",
+    "mechanics":  {
+                      "skill_check":  "Schusswaffen (Pistole)",
+                      "effect":  "Kann Gegner desorientieren und Teamposition markieren.",
+                      "combat":  "Situativ Blend-/Signalwirkung."
+                  },
+    "content_summary":  "Kontrolle statt Tötungswirkung.",
+    "inventory_tags":  [
+                           "waffe",
+                           "signal",
+                           "koordination",
+                           "inventar"
+                       ]
+}

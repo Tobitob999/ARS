@@ -1,0 +1,15 @@
+{
+    "name":  "Fakultät für Archäologie [Erweiterung]",
+    "head":  "Professor William Lake",
+    "focus":  "Ausgrabungen in Neuengland und Planung einer großen Antarktis-Expedition.",
+    "atmosphere":  "Vitrinen voller Pfeilspitzen und Tonscherben. Geruch nach Staub und Erde.",
+    "rumor":  "Lake hat Artefakte aus dem Miskatonic Valley, die er nicht öffentlich zeigt. Sie sollen älter sein als die Menschheit.",
+    "projects":  [
+                     "Kartierung der \u0027Indianer-Hügel\u0027 westlich von Arkham",
+                     "Analyse von seltsamen, fünfseitigen Steinen"
+                 ],
+    "generated_variant":  true,
+    "source_seed_file":  "faculty_archaeology.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

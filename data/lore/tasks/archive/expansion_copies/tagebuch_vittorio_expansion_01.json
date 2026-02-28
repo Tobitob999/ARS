@@ -1,0 +1,17 @@
+{
+    "name":  "Tagebuch der Familie Vittorio [Erweiterung]",
+    "type":  "Buch / Dokument",
+    "physical_description":  "Ein kleines, wasserfleckiges Notizbuch mit schwarzem Einband. Die Schrift ist anfangs ordentlich, wird aber gegen Ende fahrig, zittrig und fast unleserlich.",
+    "history":  "Gehörte einer italienischen Einwandererfamilie, die 1918 kurz im Corbitt-Haus wohnte, bevor sie nach einem tragischen \u0027Unfall\u0027 in der Küche fluchtartig auszog.",
+    "mechanics":  {
+                      "reading_time":  "2 Stunden",
+                      "sanity_loss":  "0/1d3",
+                      "mythos_gain":  1,
+                      "skill_check":  "Sprache (Italienisch) oder Intelligenz (schwer)"
+                  },
+    "content_summary":  "Beschreibt \u0027Augen in der Dunkelheit\u0027, Klopfgeräusche aus dem Keller und das Gefühl, dass das Haus sich gegen die Bewohner verschwört. Der letzte Eintrag warnt davor, im Erdgeschoss zu schlafen.",
+    "generated_variant":  true,
+    "source_seed_file":  "tagebuch_vittorio.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

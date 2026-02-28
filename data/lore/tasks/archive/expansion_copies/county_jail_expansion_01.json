@@ -1,0 +1,11 @@
+{
+    "name":  "Arkham County Jail [Erweiterung]",
+    "type":  "Detention Facility",
+    "layout_sketch":  "Ein zweistöckiger Backsteinbau hinter dem Gerichtsgebäude. Erdgeschoss: Wachraum, Büro des Direktors, Küche. Obergeschoss: Zwei Zellentrakte (A und B) mit je 10 Zellen, die von einem zentralen Gang abgehen. Ein kleiner, von hohen Mauern umgebener Hof für den \u0027Hofgang\u0027.",
+    "capacity":  "40 Insassen, aber oft mit über 60 belegt.",
+    "security":  "Niedrig. Die Gitter sind alt, die Wärter unterbezahlt und leicht bestechlich. Ein Ausbruch ist schwierig, aber nicht unmöglich.",
+    "generated_variant":  true,
+    "source_seed_file":  "county_jail.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

@@ -1,0 +1,14 @@
+{
+    "name":  "The Miskatonic River Smugglers [Erweiterung]",
+    "type":  "Criminal Network",
+    "public_facade":  "None. They operate in the shadows of Rivertown and the city docks.",
+    "true_purpose":  "A loose coalition of independent bootleggers and criminals who use the Miskatonic River to smuggle liquor from Canada and \u0027other goods\u0027 from the port of Innsmouth.",
+    "leader":  "No single leader. Several \u0027captains\u0027 run their own crews, with Finn O\u0027Donnell being one of the most reliable.",
+    "headquarters":  "No fixed HQ. They meet at Hibb\u0027s Roadhouse or in the back rooms of Rivertown pubs.",
+    "symbols":  "None, but many of the sailors have crude kraken or fish-like tattoos.",
+    "rumors":  "They\u0027re the only ones brave or foolish enough to sail to Innsmouth after dark. Some of their boats come back... different.",
+    "generated_variant":  true,
+    "source_seed_file":  "miskatonic_river_smugglers.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

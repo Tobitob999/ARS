@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Mildes Schlafdraught",
+    "type":  "Medical Supply",
+    "physical_description":  "Kleine Flasche mit pflanzlich-sedierender Mischung.",
+    "history":  "Hausärzte verschreiben es bei Nervosität.",
+    "mechanics":  {
+                      "skill_check":  "Psychoanalyse",
+                      "effect":  "Kann Ruhephase erzwingen, senkt aber Nachtwacheleistung.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Regeneration gegen Preis der Wachsamkeit.",
+    "inventory_tags":  [
+                           "medizin",
+                           "ruhe",
+                           "inventar"
+                       ]
+}

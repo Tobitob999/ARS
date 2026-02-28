@@ -1,0 +1,13 @@
+{
+    "name":  "Dr. Herbert West [Erweiterung]",
+    "age":  29,
+    "occupation":  "Arkham City Coroner",
+    "traits":  "Intense, arrogant, with a chillingly detached and scientific demeanor. Always looks slightly disheveled.",
+    "motivation":  "To conquer death itself through scientific means, regardless of the ethical cost.",
+    "secret":  "He is experimenting with a \u0027re-animation agent\u0027 on the corpses in the city morgue. Some of his experiments have been partially successful, and not all of them have been contained.",
+    "hook":  "The investigators are examining a body at the morgue and notice inconsistencies or signs of post-mortem tampering.",
+    "generated_variant":  true,
+    "source_seed_file":  "coroner_west.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

@@ -1,0 +1,15 @@
+{
+    "name":  "Billington\u0027s Woods [Erweiterung]",
+    "address":  "Nördlich von Arkham",
+    "atmosphere":  "Ein uralter, dunkler Wald. Die Bäume stehen unnatürlich dicht beieinander und blockieren das meiste Sonnenlicht. Es herrscht eine unheimliche Stille; keine Vögel singen. Der Boden ist mit einer dicken Schicht aus fauligem Laub bedeckt.",
+    "details":  [
+                    "Seltsam geschnitzte Symbole auf den Rinden alter Eichen.",
+                    "Die Ruinen eines Steinaltars, der von Moos überwachsen ist.",
+                    "Das Gefühl, von etwas Unsichtbarem aus dem Dickicht beobachtet zu werden."
+                ],
+    "clues":  "Lokale Legenden sprechen von einem \u0027Wächter des Waldes\u0027, einer Kreatur, die Eindringlinge jagt. Holzfäller meiden dieses Gebiet.",
+    "generated_variant":  true,
+    "source_seed_file":  "billingtons_woods.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

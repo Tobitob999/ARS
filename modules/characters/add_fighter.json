@@ -1,0 +1,41 @@
+{
+  "id": "add_fighter",
+  "schema_version": "1.0.0",
+  "name": "Thorgar Eisenfaust",
+  "compatible_rulesets": ["add_2e"],
+
+  "archetype": "Fighter",
+  "level": 1,
+  "background": "Ein ehemaliger Soeldner der Flaming Fist aus Baldur's Gate. Nach einer Meuterei auf eigene Faust unterwegs. Sucht Ruhm, Gold und einen Grund weiterzukaempfen.",
+
+  "characteristics": {
+    "STR": 16,
+    "DEX": 12,
+    "CON": 15,
+    "INT": 10,
+    "WIS": 11,
+    "CHA": 9
+  },
+
+  "derived_stats": {
+    "HP": 10
+  },
+
+  "skills": {},
+
+  "equipment": [
+    "Langschwert",
+    "Schild (mittel)",
+    "Kettenhemd (AC 5)",
+    "Rucksack",
+    "50 Fuss Seil",
+    "Feuerstein und Stahl",
+    "5 Fackeln",
+    "Wasserschlauch",
+    "Eiserne Rationen (1 Woche)",
+    "15 Goldstuecke"
+  ],
+
+  "traits": "Direkt, pragmatisch, loyal gegenueber Kameraden. Misstraut Magiern. Loest Probleme am liebsten mit dem Schwert, aber nicht dumm — weiss, wann Rueckzug klug ist.",
+  "appearance": "Breit gebaut, Narbe quer ueber die linke Wange. Kurzes braunes Haar, stahlgraue Augen. Traegt sein Kettenhemd wie eine zweite Haut."
+}

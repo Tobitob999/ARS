@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Pfarrerkragen-Set",
+    "type":  "Utility",
+    "physical_description":  "Hemdkragen, schwarze Scherpe und Ausweisattrappe.",
+    "history":  "Improvisationskit fuer Zutritt zu Kirchenumfeld.",
+    "mechanics":  {
+                      "skill_check":  "Verkleiden",
+                      "effect":  "Erleichtert sozialen Zugang zu kirchlichen Archiven.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Situative Tarnung mit Risiko bei Nachfragen.",
+    "inventory_tags":  [
+                           "utility",
+                           "tarnung",
+                           "inventar"
+                       ]
+}

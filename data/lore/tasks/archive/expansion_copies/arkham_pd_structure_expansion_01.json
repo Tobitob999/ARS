@@ -1,0 +1,16 @@
+{
+    "name":  "Arkham Police Department (Struktur) [Erweiterung]",
+    "type":  "Behörde",
+    "public_facade":  "Die offizielle Strafverfolgungsbehörde der Stadt Arkham.",
+    "true_purpose":  "Aufrechterhaltung der öffentlichen Ordnung, wobei \u0027Ordnung\u0027 oft bedeutet, die Interessen der Elite zu schützen und unangenehme Wahrheiten zu vertuschen.",
+    "leader":  "Police Chief Jedediah Chadwick",
+    "key_personnel":  [
+                          "Detective Steinberg (Mordkommission, zynisch, aber gründlich)",
+                          "Sergeant O\u0027Connell (Streifenpolizist, korrupt)"
+                      ],
+    "corruption_level":  "Mittel. Niedrigrangige Beamte sind für kleine Bestechungen empfänglich. Die Führungsebene ist anfällig für politischen Druck von Bürgermeister Thornton und der Silver Twilight Lodge.",
+    "generated_variant":  true,
+    "source_seed_file":  "arkham_pd_structure.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

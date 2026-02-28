@@ -1,0 +1,12 @@
+{
+    "name":  "Gedankensplitter [Erweiterung]",
+    "cost":  "1d4 Stabilität, 6 Magiepunkte",
+    "casting_time":  "1 Runde",
+    "duration":  "Augenblicklich",
+    "ritual":  "Der Zaubernde muss Augenkontakt mit dem Ziel haben und sich auf eine schmerzhafte Erinnerung konzentrieren, während er ein einziges, scharfes Wort flüstert.",
+    "effect":  "Ein mentaler Dorn dringt in den Geist des Ziels ein. Das Ziel ist für 1d3 Runden handlungsunfähig, gelähmt von einer plötzlichen, überwältigenden Welle aus Angst, Schmerz oder Trauer. Das Opfer muss eine Stabilitätsprobe (0/1d3) ablegen.",
+    "generated_variant":  true,
+    "source_seed_file":  "gedankensplitter.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

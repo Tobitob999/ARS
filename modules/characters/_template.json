@@ -1,0 +1,39 @@
+{
+  "_comment": "CHARAKTER-TEMPLATE SCHEMA — Diese Datei ist eine Schablone, NICHT ein spielbarer Charakter.",
+
+  "id": "PFLICHT — snake_case, eindeutig (z.B. 'professor_armitage')",
+  "name": "PFLICHT — Anzeigename des Charakters",
+  "compatible_rulesets": ["PFLICHT — Array von Ruleset-IDs, z.B. ['cthulhu_7e']"],
+
+  "archetype": "Klasse / Beruf / Archetyp (z.B. 'Fighter', 'Antiquarian', 'Cleric')",
+  "level": 1,
+  "background": "Kurzer Hintergrund / Motivation (2-3 Saetze, fuer KI-Kontext)",
+
+  "characteristics": {
+    "_comment": "Attribute gemaess Ruleset. Keys muessen mit ruleset.characteristics uebereinstimmen.",
+    "STR": 10,
+    "DEX": 12,
+    "CON": 14
+  },
+
+  "derived_stats": {
+    "_comment": "Abgeleitete Werte. Nur die Stats die das Ruleset kennt (HP immer, SAN/MP nur CoC).",
+    "HP": 11,
+    "SAN": 65,
+    "MP": 13
+  },
+
+  "skills": {
+    "_comment": "Skill-Werte ueberschreiben die Basis-Werte aus dem Ruleset. Nur gelistete Skills werden ueberschrieben.",
+    "Library Use": 60,
+    "Spot Hidden": 45
+  },
+
+  "equipment": [
+    "Gegenstand 1",
+    "Gegenstand 2"
+  ],
+
+  "traits": "Persoenlichkeitsmerkmale (fuer KI-Rollendarstellung)",
+  "appearance": "Aeussere Beschreibung (fuer KI-Beschreibungen)"
+}

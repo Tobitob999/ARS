@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Abdruckset fuer Kistenmarken",
+    "type":  "Document",
+    "physical_description":  "Masse und Rahmen fuer Praegungen auf Frachtkisten.",
+    "history":  "Hafenforensik und Schmuggelermittlung.",
+    "mechanics":  {
+                      "skill_check":  "Spurensuche",
+                      "effect":  "Sichert Herkunftsmarken als Beweis.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Wichtig fuer Lieferkettenfaelle.",
+    "inventory_tags":  [
+                           "beweis",
+                           "hafen",
+                           "inventar"
+                       ]
+}

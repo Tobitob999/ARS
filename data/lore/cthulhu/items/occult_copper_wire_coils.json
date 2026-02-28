@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Kupferdraht-Spulen",
+    "type":  "Occult Utility",
+    "physical_description":  "Feiner Kupferdraht fuer Kreise und Leitmuster.",
+    "history":  "Zwischen Technik und Okkultismus nutzbar.",
+    "mechanics":  {
+                      "skill_check":  "Okkultes Wissen",
+                      "effect":  "Dient als Leiter in improvisierten Schutzmustern.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Hybridmaterial fuer Ritualtechnik.",
+    "inventory_tags":  [
+                           "okkult",
+                           "technik",
+                           "inventar"
+                       ]
+}

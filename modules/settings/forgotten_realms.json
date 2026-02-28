@@ -1,0 +1,20 @@
+{
+  "id": "forgotten_realms",
+  "schema_version": "1.0.0",
+  "name": "Vergessene Reiche — Schwertkueste",
+  "compatible_rulesets": ["add_2e"],
+  "epoch": "Zeitalter der Umwaelzungen (~1360 DR)",
+  "geography": "Schwertkueste: Waterdeep, Baldur's Gate, Neverwinter. Wildes Hinterland mit Goblin-Staemmen, Ork-Horden. Underdark darunter. Neverwinther Wald, Mere of Dead Men, Spine of the World.",
+  "culture": "Feudale Stadtstaaten, maechtige Gilden, Tempelorden. Vielvoelker-Gesellschaft. Magie ist alltaeglich und akzeptiert. Abenteurer sind ein anerkannter Beruf.",
+  "technology": "Mittelalterlich mit magischer Ergaenzung. Schmieden, Segeln, Bergbau. Keine Schusswaffen, keine Druckerpresse. Magische Beleuchtung in reichen Staedten.",
+  "races_species": "Menschen, Elfen (Mond-, Sonnen-, Wald-), Zwerge (Schild-, Gold-), Halblinge, Gnome, Halborks, Halb-Elfen — alle spielbar.",
+  "atmosphere": "Epische High Fantasy. Goetter greifen aktiv ein. Drachen horten Schaetze, Liches planen in Verliesen, verlorene Koenigreiche warten auf Entdecker. Gefahr und Ruhm um jede Ecke.",
+  "currency": "Kupferstuecke (KS), Silberstuecke (SS), Goldstuecke (GS), Platinstuecke (PS). 1 GS = 10 SS = 100 KS. Ein Bier: 1 KS. Ein Schwert: 15 GS. Ein Heiltrank: 50 GS.",
+  "language_style": "Mittelalterlich-fantasievoll. Ehrerbietige Anrede fuer Adel und Kleriker, derb in Tavernen und unter Soeldnern. Elfisch klingt melodisch, Zwergisch rau.",
+  "special_rules": "Magie ist verbreitet. Tempel heilen gegen Spende. Gilden kontrollieren Handel. Waffenrecht variiert nach Stadt. Kopfgelder auf Monster sind ueblich.",
+  "time": {
+    "calendar": "Harptos-Kalender (Dalerecknung, DR)",
+    "default_start": "08:00",
+    "day_phases": ["Morgengrauen", "Vormittag", "Mittag", "Nachmittag", "Abenddaemmerung", "Nacht", "Tiefe Nacht"]
+  }
+}

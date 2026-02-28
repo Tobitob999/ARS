@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Schienen-Set Holz",
+    "type":  "Medical Supply",
+    "physical_description":  "Leichte Holzschienen mit Gurten fuer Gliedmaßenfixierung.",
+    "history":  "In Rettungsdiensten und Bergungsarbeiten ueblich.",
+    "mechanics":  {
+                      "skill_check":  "Erste Hilfe",
+                      "effect":  "Stabilisiert Frakturen bis zur Klinikversorgung.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Wichtig bei Sturz- und Treppenschaden.",
+    "inventory_tags":  [
+                           "medizin",
+                           "trauma",
+                           "inventar"
+                       ]
+}

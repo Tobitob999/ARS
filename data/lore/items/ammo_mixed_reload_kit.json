@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Wiederlade-Set gemischt",
+    "type":  "Ammunition",
+    "physical_description":  "Pulver, Huelsenwerkzeug und Zuendhuetchen in Holzkiste.",
+    "history":  "Fuer geuebte Schuetzen mit Werkbankzugang.",
+    "mechanics":  {
+                      "skill_check":  "Mechanik",
+                      "effect":  "Ermoeglicht begrenztes Nachladen außerhalb von Laeden.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Logistische Reserve fuer lange Kampagnen.",
+    "inventory_tags":  [
+                           "munition",
+                           "wartung",
+                           "inventar"
+                       ]
+}

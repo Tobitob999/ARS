@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Vermittlungs-Patchkabel",
+    "type":  "Communication Gear",
+    "physical_description":  "Satz Leitungen und Stecker für Telefonverteiler.",
+    "history":  "Technikerware aus Vermittlungsstellen.",
+    "mechanics":  {
+                      "skill_check":  "Mechanik",
+                      "effect":  "Erlaubt temporäres Umrouten/Abhören einfacher Leitungen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Technischer Hebel im Kommunikationsnetz.",
+    "inventory_tags":  [
+                           "kommunikation",
+                           "technik",
+                           "inventar"
+                       ]
+}

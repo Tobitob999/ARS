@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Bolzenschneider",
+    "type":  "Tool",
+    "physical_description":  "Schweres Schneidwerkzeug fuer Ketten und Vorhaengeschloesser.",
+    "history":  "Bauhof- und Werkstattgeraet, oft registriert.",
+    "mechanics":  {
+                      "skill_check":  "Mechanik",
+                      "effect":  "Durchtrennt dünne Metallverbindungen ohne Schusslärm.",
+                      "combat":  "Nahkampf (Hieb): 1W6."
+                  },
+    "content_summary":  "Gezieltes Breach-Tool statt roher Gewalt.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "breach",
+                           "inventar"
+                       ]
+}

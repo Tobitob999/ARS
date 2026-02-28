@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Nerventonikum",
+    "type":  "Medical Supply",
+    "physical_description":  "Bitteres Tonikum mit Koffein und Kraeuterextrakten.",
+    "history":  "Beliebt bei Ärzten fuer Erschöpfungszustände.",
+    "mechanics":  {
+                      "skill_check":  "Psychoanalyse",
+                      "effect":  "Kann kurzfristig Konzentration stabilisieren.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Mittel gegen mentale Ermuedung.",
+    "inventory_tags":  [
+                           "medizin",
+                           "psyche",
+                           "inventar"
+                       ]
+}

@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Kleine Werkzeugkiste",
+    "type":  "Field Gear",
+    "physical_description":  "Metallkiste mit Grundsatz Schrauben, Muttern, Draht.",
+    "history":  "Mobile Reparaturbasis fuer Außenteams.",
+    "mechanics":  {
+                      "skill_check":  "Mechanik",
+                      "effect":  "Erlaubt improvisierte Feldinstandsetzungen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Logistikfundament für Technikstränge.",
+    "inventory_tags":  [
+                           "feld",
+                           "technik",
+                           "inventar"
+                       ]
+}

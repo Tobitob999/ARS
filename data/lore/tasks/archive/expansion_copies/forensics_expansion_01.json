@@ -1,0 +1,30 @@
+{
+    "name":  "Forensische Methoden der 1920er [Erweiterung]",
+    "type":  "Technology",
+    "methods":  [
+                    {
+                        "name":  "Fingerabdrücke (Daktyloskopie)",
+                        "description":  "Eine relativ neue Technik. Fingerabdrücke können mit Rußpulver an Tatorten gesichert werden. Der Abgleich mit Verdächtigen erfolgt manuell und ist extrem zeitaufwendig. Eine zentrale Datenbank existiert nicht.",
+                        "mechanics":  "Erfordert eine erfolgreiche \u0027Spurensuche\u0027-Probe, um brauchbare Abdrücke zu finden."
+                    },
+                    {
+                        "name":  "Blutgruppen-Analyse",
+                        "description":  "Die Blutgruppen A, B, AB und 0 sind bekannt. Ein Test kann eine Person als Täter ausschließen, aber nicht eindeutig identifizieren. Die Tests werden selten direkt am Tatort durchgeführt.",
+                        "mechanics":  "Erfordert eine \u0027Medizin\u0027- oder \u0027Naturwissenschaften\u0027-Probe."
+                    },
+                    {
+                        "name":  "Ballistik",
+                        "description":  "Der Vergleich von Projektilen ist in den Kinderschuhen. Man kann das Kaliber bestimmen, aber ein direkter Abgleich mit einer Waffe ist ungenau und vor Gericht kaum zulässig.",
+                        "mechanics":  "Eine \u0027Handfeuerwaffen\u0027-Probe kann das Kaliber bestimmen."
+                    },
+                    {
+                        "name":  "Tatortfotografie",
+                        "description":  "Fotografien werden mit großen Plattenkameras und Magnesium-Blitzpulver gemacht. Der Blitz ist hell und laut und hinterlässt eine Rauchwolke. Die Entwicklung der Glasplatten dauert Stunden.",
+                        "mechanics":  "Eine \u0027Fotografie\u0027-Probe ist nötig, um ein scharfes, aussagekräftiges Bild zu machen."
+                    }
+                ],
+    "generated_variant":  true,
+    "source_seed_file":  "forensics.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

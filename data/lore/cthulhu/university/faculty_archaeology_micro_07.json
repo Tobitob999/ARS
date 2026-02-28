@@ -1,0 +1,25 @@
+﻿{
+    "name":  "faculty archaeology - Brennpunkt",
+    "type":  "Lore Snippet",
+    "category":  "university",
+    "tags":  [
+                 "generated",
+                 "micro",
+                 "hook",
+                 "wave7",
+                 "creative"
+             ],
+    "signal":  "eine Spur wirkt zu sauber, um echt zu sein",
+    "friction":  "interner Loyalitaetskonflikt",
+    "stake":  "Tempo der Ermittlungen",
+    "payoff_if_controlled":  "ein belastbarer Deal",
+    "hook":  "Probe auf Bibliotheksnutzung: Erfolg nimmt Friktion heraus, Misserfolg verdoppelt den Einsatz auf der Stelle.",
+    "gm_moves":  [
+                     "Leite vom Signal direkt in eine harte Entscheidung",
+                     "Kopple die Friktion an eine bekannte Figur",
+                     "Belohne kluge Vorsicht mit fruehem Informationsvorsprung"
+                 ],
+    "source_seed_file":  "faculty_archaeology.json",
+    "generation_method":  "microcontent-v8",
+    "fraktionskohesion":  "poroes"
+}

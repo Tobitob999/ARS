@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Rasterpapier-Fallmappe",
+    "type":  "Tool",
+    "physical_description":  "Mappe mit Rasterboegen, Register und Bleistiftclips.",
+    "history":  "Ermittler nutzen sie fuer Bewegungs- und Zeitlinien.",
+    "mechanics":  {
+                      "skill_check":  "Bibliotheksnutzung",
+                      "effect":  "Erleichtert Mapping von Zusammenhaengen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Analytik-Werkzeug fuer lange Kampagnen.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "analyse",
+                           "inventar"
+                       ]
+}

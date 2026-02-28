@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Spannhebel-Satz",
+    "type":  "Tool",
+    "physical_description":  "Mehrere Spannhebel in verschiedenen Staerken.",
+    "history":  "Ergaenzt Dietrichset fuer präzises Arbeiten.",
+    "mechanics":  {
+                      "skill_check":  "Schloesser knacken",
+                      "effect":  "Verbessert Kontrolle bei feinen Schlossmechaniken.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Kernkomponente fuer stilles Oeffnen.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "zugang",
+                           "inventar"
+                       ]
+}

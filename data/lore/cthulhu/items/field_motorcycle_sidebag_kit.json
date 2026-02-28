@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Motorrad-Seitentaschen-Kit",
+    "type":  "Field Gear",
+    "physical_description":  "Leder-Seitentaschen mit Schnellriemen.",
+    "history":  "Kurier- und Polizeimotorräder nutzen ähnliche Sets.",
+    "mechanics":  {
+                      "skill_check":  "Mechanik",
+                      "effect":  "Erhöht mobile Transportkapazität ohne Fahrzeugwechsel.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Mehr Reichweite für schnelle Ermittlungen.",
+    "inventory_tags":  [
+                           "feld",
+                           "mobilitaet",
+                           "inventar"
+                       ]
+}

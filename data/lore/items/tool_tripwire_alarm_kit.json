@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Stolperdraht-Alarmset",
+    "type":  "Tool",
+    "physical_description":  "Draht, Glocken und kleine Signalpatronen.",
+    "history":  "Improvisationsset fuer Nachtlager und Flursicherung.",
+    "mechanics":  {
+                      "skill_check":  "Mechanik",
+                      "effect":  "Meldet Bewegung an Zugängen ohne Dauerwache.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Sicherung fuer Rückzugsorte.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "sicherung",
+                           "inventar"
+                       ]
+}

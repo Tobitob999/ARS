@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Fiebersenkendes Pulver",
+    "type":  "Medical Supply",
+    "physical_description":  "Einzeldosen in Papierfalten mit bitterem Geschmack.",
+    "history":  "Gaengige Haus- und Reisesubstanz.",
+    "mechanics":  {
+                      "skill_check":  "Medizin",
+                      "effect":  "Senkt Fieber temporär, behandelt nicht Ursache.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Unterstuetzung bei Infekt-/Stresslagen.",
+    "inventory_tags":  [
+                           "medizin",
+                           "fieber",
+                           "inventar"
+                       ]
+}

@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Foto-Maßstab-Lineal",
+    "type":  "Document",
+    "physical_description":  "Kontrastlineal für Tatortfotos mit Maßangaben.",
+    "history":  "Polizei- und Presseforensik nutzen es regelmäßig.",
+    "mechanics":  {
+                      "skill_check":  "Kunst \u0026 Handwerk",
+                      "effect":  "Verbessert Vergleichbarkeit von Spur-Fotos.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Kleines Hilfsmittel für belastbare Doku.",
+    "inventory_tags":  [
+                           "beweis",
+                           "foto",
+                           "inventar"
+                       ]
+}

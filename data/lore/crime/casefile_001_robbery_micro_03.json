@@ -1,0 +1,17 @@
+{
+    "name":  "casefile 001 robbery - Kreuzverbindung",
+    "type":  "Lore Snippet",
+    "category":  "crime",
+    "tags":  [
+                 "generated",
+                 "micro",
+                 "hook",
+                 "wave3"
+             ],
+    "content_summary":  "Ausgeloest durch ein verschobenes Treffen bei misstrauische Nachbarn; die Lage kippt Richtung eine riskante Gelegenheit.",
+    "hook":  "Mit einer Probe auf Bibliotheksnutzung sichern die Investigatoren einen Vorteil; andernfalls verliert die Gruppe Initiative im Schauplatz.",
+    "gm_note":  "Als Twist im laufenden Dialog einbauen; unmittelbar mit einem NSC oder Ort koppeln.",
+    "source_seed_file":  "casefile_001_robbery.json",
+    "generation_method":  "microcontent-v4",
+    "fahndungsintensitaet":  "zugriffsvorbereitung"
+}

@@ -1,0 +1,26 @@
+﻿{
+    "name":  "arkham rumors - Spannungsfeld",
+    "type":  "Lore Snippet",
+    "category":  "culture",
+    "tags":  [
+                 "generated",
+                 "micro",
+                 "hook",
+                 "wave4",
+                 "creative"
+             ],
+    "scene_seed":  "Ein Gewitter schneidet den Bezirk von der Aussenwelt ab",
+    "sensory_detail":  "kaltes Kondenswasser an Innenwaenden",
+    "twist":  "Ein hilfreicher Hinweis ist bewusst unvollstaendig",
+    "complication":  "Die Gruppe wird im Viertel erkannt",
+    "payoff":  "ein sauberes Zeitfenster fuer Infiltration",
+    "hook":  "Probe auf Wahrnehmung: bei Erfolg wird die Komplikation abgefedert, bei Misserfolg verhaertet sich der Konflikt.",
+    "gm_moves":  [
+                     "Druck durch Uhrzeit oder Ort erhoehen",
+                     "Einen neutralen NSC in eine klare Position zwingen",
+                     "Einen scheinbar sicheren Plan mit kleinem Preis versehen"
+                 ],
+    "source_seed_file":  "arkham_rumors.json",
+    "generation_method":  "microcontent-v5",
+    "zeitzeugenwert":  "hinweis"
+}

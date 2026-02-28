@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Mobiler Mikrofilm-Leser",
+    "type":  "Tool",
+    "physical_description":  "Kleines Lesegerät mit Handkurbel und Lupe.",
+    "history":  "Archivtechnik fuer Feldbüros.",
+    "mechanics":  {
+                      "skill_check":  "Bibliotheksnutzung",
+                      "effect":  "Erlaubt Auswertung von Mikrofilm ohne stationären Leser.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Rechercheturbo für Außenteams.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "archiv",
+                           "inventar"
+                       ]
+}

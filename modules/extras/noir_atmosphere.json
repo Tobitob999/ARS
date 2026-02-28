@@ -1,0 +1,10 @@
+{
+  "id": "noir_atmosphere",
+  "schema_version": "1.0.0",
+  "name": "Film Noir",
+  "type": "atmosphere",
+  "compatible_rulesets": ["cthulhu_7e"],
+  "description": "Hardboiled Detektiv-Noir. Innere Monologe, Schatten, Whiskey, Verrat.",
+  "prompt_injection": "Erzaehle im Stil eines Film Noir der 1940er. Jede Szene beginnt mit einem atmosphaerischen Detail: Regen auf Pflaster, Neonlicht durch Jalousien, Zigarettenrauch in stickiger Luft. Der Protagonist denkt in kurzen, zynischen Saetzen. Vertraue niemandem. Jeder hat ein Geheimnis. Die Stadt ist ein Charakter.",
+  "modifiers": {}
+}

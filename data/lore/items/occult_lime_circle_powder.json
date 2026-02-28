@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Kalkpulver fuer Kreisgrenzen",
+    "type":  "Occult Utility",
+    "physical_description":  "Feines Kalkpulver in Stoffbeuteln.",
+    "history":  "Nutzt in improvisierten Schutzkreisen.",
+    "mechanics":  {
+                      "skill_check":  "Okkultes Wissen",
+                      "effect":  "Schnelles Ziehen sichtbarer Ritualgrenzen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Pragmatisches Feldmaterial bei spontanen Riten.",
+    "inventory_tags":  [
+                           "okkult",
+                           "ritual",
+                           "inventar"
+                       ]
+}

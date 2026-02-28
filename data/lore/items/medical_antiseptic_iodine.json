@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Jod-Antiseptikum",
+    "type":  "Medical Supply",
+    "physical_description":  "Braunglasflasche mit konzentrierter Jodlösung.",
+    "history":  "Standarddesinfektion in Praxen und Haushalten.",
+    "mechanics":  {
+                      "skill_check":  "Erste Hilfe",
+                      "effect":  "Reduziert Infektionsrisiko bei offenen Wunden.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Einfacher, essenzieller Hygieneartikel.",
+    "inventory_tags":  [
+                           "medizin",
+                           "desinfektion",
+                           "inventar"
+                       ]
+}

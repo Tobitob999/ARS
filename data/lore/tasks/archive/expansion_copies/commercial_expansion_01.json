@@ -1,0 +1,60 @@
+{
+    "name":  "Gewerbliche Innenräume (1920er Arkham) [Erweiterung]",
+    "types":  [
+                  {
+                      "name":  "Anwaltskanzlei / Büro",
+                      "layout":  [
+                                     {
+                                         "area":  "Vorzimmer/Wartebereich",
+                                         "details":  "Ein einfacher Schreibtisch für eine Sekretärin, ein paar unbequeme Stühle für Klienten, Geruch nach altem Kaffee."
+                                     },
+                                     {
+                                         "area":  "Archivraum",
+                                         "details":  "Hohe Aktenschränke aus Metall, vollgestopft mit vergilbten Akten. Staubig, eng, fensterlos."
+                                     },
+                                     {
+                                         "area":  "Privatbüro",
+                                         "details":  "Ein schwerer Mahagoni- oder Eichenschreibtisch, Ledersessel, eine Wand voller juristischer Bücher, eine Karaffe mit Whiskey auf einem Beistelltisch."
+                                     }
+                                 ]
+                  },
+                  {
+                      "name":  "Einzelhandel / Laden",
+                      "layout":  [
+                                     {
+                                         "area":  "Verkaufsraum",
+                                         "details":  "Eine lange Theke trennt den Kundenbereich vom Rest. Regale voller Waren. Eine Glocke über der Tür, die beim Eintreten klingelt."
+                                     },
+                                     {
+                                         "area":  "Lagerraum (hinten)",
+                                         "details":  "Unordentlich, voll mit Kisten und Kartons. Riecht nach Pappe und Staub. Oft nur durch einen Vorhang abgetrennt."
+                                     },
+                                     {
+                                         "area":  "Keller",
+                                         "details":  "Zugang über eine Falltür hinter der Theke. Dient als zusätzliches Lager. Feucht und spärlich beleuchtet."
+                                     }
+                                 ]
+                  },
+                  {
+                      "name":  "Bank",
+                      "layout":  [
+                                     {
+                                         "area":  "Schalterhalle",
+                                         "details":  "Hohe Decken, Marmorboden, das Klicken von Stempeln hallt wider. Lange Schlangen vor den Schaltern, die durch Messinggitter geschützt sind."
+                                     },
+                                     {
+                                         "area":  "Tresorraum (Keller)",
+                                         "details":  "Zugang über eine Treppe und eine massive, runde Stahltür mit mehreren Schlössern. Der Raum selbst ist klein und von Stahlbeton umgeben."
+                                     },
+                                     {
+                                         "area":  "Manager-Büro (Obergeschoss)",
+                                         "details":  "Ein großes Büro mit Blick auf die Schalterhalle. Teppichboden, schwere Vorhänge, ein Gefühl von Macht und Diskretion."
+                                     }
+                                 ]
+                  }
+              ],
+    "generated_variant":  true,
+    "source_seed_file":  "commercial.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

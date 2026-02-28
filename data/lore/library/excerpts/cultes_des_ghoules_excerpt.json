@@ -1,0 +1,20 @@
+{
+    "schema_version":  "1.1",
+    "name":  "Auszug aus Cultes des Ghoules (Über die Transformation)",
+    "type":  "Book Excerpt",
+    "category":  "library/excerpts",
+    "source_markdown":  "cultes_des_ghoules_excerpt.md",
+    "converted_from_markdown":  true,
+    "tags":  [
+                 "library",
+                 "excerpt",
+                 "book",
+                 "mythos"
+             ],
+    "summary":  "\"Es beginnt mit dem Hunger. Nicht nach Brot oder Fleisch vom Tier, sondern nach dem Fleisch, das einst sprach. Der Geschmack ist süß, wie alter Wein. Die Haut wird grau und fest wie Leder. Die Ohren spitzen sich, um das Flüstern der Toten zu hören. Die Füße werden zu Hufen, um besser durch die Tunnel zu springen. Man v...",
+    "source_text":  "# Auszug aus Cultes des Ghoules (Über die Transformation)\r\n\r\n\"Es beginnt mit dem Hunger. Nicht nach Brot oder Fleisch vom Tier, sondern nach dem Fleisch, das einst sprach. Der Geschmack ist süß, wie alter Wein. Die Haut wird grau und fest wie Leder. Die Ohren spitzen sich, um das Flüstern der Toten zu hören. Die Füße werden zu Hufen, um besser durch die Tunnel zu springen. Man vergisst das Licht der Sonne und lernt, die Dunkelheit zu lieben. Man ist nicht mehr Mensch, man ist Ghoul. Und man ist frei.\"\r\n\r\n---\r\n**Effekt beim Lesen:**\r\n- **Stabilitätsverlust:** 1d4\r\n- **Cthulhu-Mythos:** +1%",
+    "mechanics":  {
+                      "stability_loss":  "1d4",
+                      "cthulhu_mythos":  "+1%"
+                  }
+}

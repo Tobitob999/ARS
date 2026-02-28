@@ -1,0 +1,12 @@
+{
+    "name":  "Deep One (Tiefer Wesen) [Erweiterung]",
+    "description":  "Ein blasphemischer Hybrid aus Mensch, Fisch und Frosch. Glitschige, graugrüne Haut, ein weißer Bauch, Schwimmhäute an Händen und Füßen. Der Kopf ist fischartig mit riesigen, starren Augen, die niemals blinzeln.",
+    "sensory":  "Ein überwältigender Gestank nach Fisch und Fäulnis. Geräusche: Ein gutturales Quaken und feuchtes Patschen beim Gehen.",
+    "behavior":  "Leben im Meer (z.B. vor Innsmouth). Dienen Vater Dagon. Paaren sich mit Menschen, um Hybriden zu zeugen. Unsterblich, solange sie nicht getötet werden.",
+    "weakness":  "Können getötet werden, heilen aber schnell. Trockenheit ist unangenehm, aber nicht tödlich.",
+    "sanity_loss":  "1/1d6.",
+    "generated_variant":  true,
+    "source_seed_file":  "entity_deep_one.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

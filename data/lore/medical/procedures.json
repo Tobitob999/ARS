@@ -1,0 +1,21 @@
+{
+  "name": "Behandlungsmethoden des Arkham Sanitariums",
+  "type": "Medical Procedures",
+  "procedures": [
+    {
+      "name": "Hydrotherapie (Kaltwasser-Bäder)",
+      "description": "Patienten werden für Stunden in Wannen mit eiskaltem Wasser fixiert, um 'hysterische Anfälle' oder 'manische Episoden' zu unterdrücken. Die Prozedur ist erschöpfend und demoralisierend.",
+      "mechanics": "Der Patient muss eine schwere Konstitutionsprobe bestehen, um nicht 1d3 temporäre Konstitutionspunkte zu verlieren. Bei Erfolg gewinnt er 1 Stabilitätspunkt zurück, bei Misserfolg verliert er 1d3 Stabilität."
+    },
+    {
+      "name": "Insulin-Koma-Therapie",
+      "description": "Eine neue, experimentelle Behandlung. Dem Patienten wird eine Überdosis Insulin injiziert, um ein Koma auszulösen. Man hofft, dass das Gehirn beim Aufwachen 'zurückgesetzt' wird.",
+      "mechanics": "Extrem gefährlich. Der Patient gewinnt 1d10 Stabilität zurück, verliert aber permanent 1d6 Intelligenzpunkte. Es besteht die Gefahr, nicht mehr aus dem Koma zu erwachen (Tod oder permanente Katatonie)."
+    },
+    {
+      "name": "Gesprächstherapie (Psychoanalyse)",
+      "description": "Dr. Hardstrom versucht, mit einigen Patienten über ihre Träume und Ängste zu sprechen, basierend auf den Lehren Freuds. Die Methode ist neu und wird vom Personal misstrauisch beäugt.",
+      "mechanics": "Eine erfolgreiche Psychologie-Probe des Therapeuten kann dem Patienten helfen, 1 Stabilitätspunkt zurückzugewinnen. Ein Patzer kann einen traumatischen Rückfall auslösen (Verlust von 1d4 Stabilität)."
+    }
+  ]
+}

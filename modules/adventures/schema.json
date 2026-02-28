@@ -1,0 +1,164 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARS Adventure Schema",
+  "description": "Schema fuer ARS-Abenteuer-Module. Definiert Locations, NPCs, Clues und Flags.",
+  "type": "object",
+  "required": ["title", "setting", "intro", "locations"],
+  "properties": {
+    "title": { "type": "string" },
+    "setting": { "type": "string" },
+    "intro": { "type": "string" },
+    "hook": { "type": "string" },
+    "difficulty": { "type": "string" },
+    "keeper_lore": { "type": "string" },
+
+    "flags": {
+      "type": "object",
+      "description": "Initiale World-Flags. Keys sind Flag-IDs, Values der Startwert.",
+      "additionalProperties": {
+        "oneOf": [
+          { "type": "boolean" },
+          { "type": "integer" },
+          { "type": "string" }
+        ]
+      }
+    },
+
+    "start_location": {
+      "type": "string",
+      "description": "ID der Start-Location"
+    },
+
+    "locations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "description"],
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "description": { "type": "string" },
+          "atmosphere": { "type": "string" },
+          "npcs_present": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "clues_available": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "exits": {
+            "type": "object",
+            "additionalProperties": { "type": "string" }
+          },
+          "sub_locations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["id", "name", "description"],
+              "properties": {
+                "id": { "type": "string" },
+                "name": { "type": "string" },
+                "description": { "type": "string" },
+                "clues": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                },
+                "events": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "trigger": { "type": "string" },
+                      "effect": { "type": "string" },
+                      "sets_flag": { "type": "string" },
+                      "requires_flag": { "type": "string" }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "keeper_notes": { "type": "string" }
+        }
+      }
+    },
+
+    "npcs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name"],
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "role": { "type": "string" },
+          "description": { "type": "string" },
+          "appearance": { "type": "string" },
+          "personality": { "type": "string" },
+          "stats": { "type": "object" },
+          "knowledge": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "secrets": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "dialogue_hints": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      }
+    },
+
+    "clues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name"],
+        "properties": {
+          "id": { "type": "string" },
+          "location": { "type": "string" },
+          "sub_location": { "type": "string" },
+          "name": { "type": "string" },
+          "description": { "type": "string" },
+          "probe_required": { "type": ["string", "null"] },
+          "information": { "type": "string" },
+          "sanity_loss": { "type": "string" },
+          "mythos_gain": { "type": "number" },
+          "leads_to": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "sets_flag": { "type": "string" }
+        }
+      }
+    },
+
+    "resolution": {
+      "type": "object",
+      "properties": {
+        "good_ending": { "type": "string" },
+        "bad_ending": { "type": "string" },
+        "conditions": { "type": "object" }
+      }
+    },
+
+    "handouts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string" },
+          "type": { "type": "string" },
+          "title": { "type": "string" },
+          "content": { "type": "string" },
+          "image": { "type": "string" },
+          "requires_flag": { "type": "string" }
+        }
+      }
+    }
+  }
+}

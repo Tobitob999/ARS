@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Taschenwaermer-Dose",
+    "type":  "Field Gear",
+    "physical_description":  "Metallwaermer mit Kohleeinsatz fuer kalte Nächte.",
+    "history":  "Winterausrüstung in Neuengland üblich.",
+    "mechanics":  {
+                      "skill_check":  "-",
+                      "effect":  "Verbessert Einsatzfaehigkeit in Kältephasen.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Kleines Komforttool mit großem Effekt.",
+    "inventory_tags":  [
+                           "feld",
+                           "wetter",
+                           "inventar"
+                       ]
+}

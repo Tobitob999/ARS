@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Faserpinzetten-Set",
+    "type":  "Tool",
+    "physical_description":  "Feine Pinzetten und Probentuetchen fuer Mikrospuren.",
+    "history":  "Forensik- und Laborstandard.",
+    "mechanics":  {
+                      "skill_check":  "Spurensuche",
+                      "effect":  "Schonende Entnahme kleinster Fasern/Haare.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Verbessert Qualitaet von Kleinstbeweisen.",
+    "inventory_tags":  [
+                           "werkzeug",
+                           "forensik",
+                           "inventar"
+                       ]
+}

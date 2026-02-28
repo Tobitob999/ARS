@@ -1,0 +1,30 @@
+{
+  "name": "Industrielle & Verborgene Räume",
+  "types": [
+    {
+      "name": "Lagerhaus am Fluss (Rivertown)",
+      "layout": [
+        { "area": "Haupthalle", "details": "Ein riesiger, offener Raum mit hohen Decken. Stapel von Kisten und Säcken. Das Licht fällt durch schmutzige Oberlichter." },
+        { "area": "Verladezone", "details": "Große Schiebetore, die direkt zum Pier führen. Ein großer Kranhaken hängt von der Decke. Es riecht nach Flusswasser und Teer." },
+        { "area": "Büro", "details": "Ein kleiner, verglaster Verschlag in einer Ecke der Halle, von dem aus der Vorarbeiter alles überblickt." },
+        { "area": "Dunkle Ecken", "details": "Bereiche hinter den Kistenstapeln, die im permanenten Schatten liegen. Perfekte Verstecke." }
+      ]
+    },
+    {
+      "name": "Kanalisation / Tunnel unter Arkham",
+      "layout": [
+        { "area": "Hauptkanal", "details": "Ein breiter, gewölbter Backsteintunnel. Ein schmaler, rutschiger Sims verläuft neben einem langsam fließenden Strom aus Abwasser." },
+        { "area": "Schleusen & Kontrollräume", "details": "Rostende Metallräder und Hebel zur Steuerung des Wasserflusses. Ein Echo von tropfendem Wasser ist allgegenwärtig." },
+        { "area": "Nischen & Abzweigungen", "details": "Kleinere Seitentunnel oder Nischen in den Wänden, oft mit Schlamm und Unrat gefüllt. Manchmal findet man hier seltsame, weggeworfene Gegenstände." }
+      ]
+    },
+    {
+      "name": "Friedhof / Mausoleum",
+      "layout": [
+        { "area": "Krypta", "details": "Eine unterirdische Grabkammer, zugänglich über eine Steintreppe. Die Luft ist kalt und riecht nach feuchtem Stein und Verwesung." },
+        { "area": "Grabkammern", "details": "Nischen in den Wänden, in denen Särge aufbewahrt werden. Oft mit Steinplatten versiegelt, auf denen Namen und Daten eingraviert sind." },
+        { "area": "Belüftungsschächte", "details": "Schmale, mit Gittern versehene Schächte, die zur Oberfläche führen und für eine minimale Luftzirkulation sorgen. Manchmal hört man Geräusche von oben." }
+      ]
+    }
+  ]
+}

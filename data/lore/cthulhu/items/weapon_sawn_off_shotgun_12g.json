@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Abgesaegte Flinte 12 Gauge",
+    "type":  "Weapon",
+    "physical_description":  "Kurzlauf-Flinte mit starkem Rueckstoss, improvisierter Schaftkuerzung.",
+    "history":  "Typisch fuer Schmuggler, Raubbanden und versteckte Selbstverteidigung in engen Raeumen.",
+    "mechanics":  {
+                      "skill_check":  "Schusswaffen (Gewehr)",
+                      "effect":  "Sehr hohe Stoppwirkung auf kurze Distanz, laut und auffaellig.",
+                      "combat":  "4W6/2 auf sehr kurze Distanz, 2 Schuss."
+                  },
+    "content_summary":  "Brutale Nahbereichswaffe mit klaren Nachteilen bei Diskretion.",
+    "inventory_tags":  [
+                           "waffe",
+                           "flinte",
+                           "nahkampf_distanz",
+                           "inventar"
+                       ]
+}

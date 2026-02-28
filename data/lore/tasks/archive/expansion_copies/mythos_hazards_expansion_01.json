@@ -1,0 +1,30 @@
+{
+    "name":  "Übernatürliche Gefahrenzonen [Erweiterung]",
+    "hazards":  [
+                    {
+                        "name":  "Nicht-euklidische Zone",
+                        "location":  "Bestimmte Hügelkuppen oder alte Ruinen.",
+                        "description":  "Die Winkel scheinen falsch zu sein. Ein Weg, der geradeaus führt, bringt einen zum Ausgangspunkt zurück. Entfernungen sind trügerisch.",
+                        "sensory_warning":  "Schwindelgefühl, Übelkeit, visuelle Verzerrungen am Rande des Sichtfelds.",
+                        "effect":  "Orientierungsproben sind extrem erschwert. Gefahr, sich hoffnungslos zu verirren oder in eine andere Dimension zu stolpern."
+                    },
+                    {
+                        "name":  "Zone der Zeitdehnung",
+                        "location":  "Nahe Steinkreisen oder Ritualplätzen.",
+                        "description":  "Die Zeit vergeht hier anders. Stunden können wie Minuten wirken oder umgekehrt.",
+                        "sensory_warning":  "Geräusche klingen dumpf und verlangsamt. Bewegungen wirken träge, wie unter Wasser.",
+                        "effect":  "Verlust von Zeitgefühl. Man kann Tage verlieren, während man glaubt, nur kurz gerastet zu haben. Nahrung verdirbt schneller."
+                    },
+                    {
+                        "name":  "Das Farblose Licht (Color out of Space)",
+                        "location":  "Einschlagsorte von Meteoriten, verfluchte Brunnen.",
+                        "description":  "Ein fahles, krankes Leuchten, das keine bekannte Farbe hat. Es entzieht der Umgebung das Leben.",
+                        "sensory_warning":  "Pflanzen sind grau und brüchig, Tiere sind missgebildet. Ein metallischer Geschmack im Mund.",
+                        "effect":  "Konstitutionsproben gegen Strahlungsschäden. Langsamer Zerfall von Körper und Geist (Stabilitätsverlust)."
+                    }
+                ],
+    "generated_variant":  true,
+    "source_seed_file":  "mythos_hazards.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

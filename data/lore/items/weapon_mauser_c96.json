@@ -1,0 +1,18 @@
+﻿{
+    "name":  "Mauser C96",
+    "type":  "Weapon",
+    "physical_description":  "Große Selbstladepistole mit festem Magazin und Holsteranschlag.",
+    "history":  "Unter Offizieren und Abenteurern verbreitet.",
+    "mechanics":  {
+                      "skill_check":  "Schusswaffen (Pistole)",
+                      "effect":  "Hohe Reichweite fuer eine Kurzwaffe.",
+                      "combat":  "1W10+1, 10 Schuss."
+                  },
+    "content_summary":  "Ikonische Kurzwaffe fuer markante NSC/PCs.",
+    "inventory_tags":  [
+                           "waffe",
+                           "pistole",
+                           "fernkurz",
+                           "inventar"
+                       ]
+}

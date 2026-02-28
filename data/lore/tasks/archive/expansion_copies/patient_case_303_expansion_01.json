@@ -1,0 +1,13 @@
+{
+    "name":  "Patientenakte 303: Arthur Vane [Erweiterung]",
+    "type":  "Medical Record",
+    "date":  "12. November 1923",
+    "content_summary":  "Patient wurde schreiend in der Universitätsbibliothek aufgefunden. Er behauptet, die Ecken des Raumes seien \u0027falsch\u0027 und würden sich \u0027nach innen falten\u0027.",
+    "diagnosis":  "Akute Schizophrenie mit visuellen Halluzinationen.",
+    "treatment":  "Sedierung mit Morphium, Isolation.",
+    "notes":  "Patient zeichnet ständig geometrische Figuren an die Wände seiner Zelle, die beim Betrachten Übelkeit verursachen.",
+    "generated_variant":  true,
+    "source_seed_file":  "patient_case_303.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

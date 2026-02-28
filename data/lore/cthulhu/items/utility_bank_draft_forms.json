@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Bankwechsel-Formulare",
+    "type":  "Utility",
+    "physical_description":  "Formulare für Zahlungsanweisungen und Verfügungen.",
+    "history":  "Standard in Banken und größeren Firmen.",
+    "mechanics":  {
+                      "skill_check":  "Recht",
+                      "effect":  "Unterstützt glaubhafte finanzielle Deckgeschichten.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Papierhebel im Wirtschaftsmilieu.",
+    "inventory_tags":  [
+                           "utility",
+                           "finanzen",
+                           "inventar"
+                       ]
+}

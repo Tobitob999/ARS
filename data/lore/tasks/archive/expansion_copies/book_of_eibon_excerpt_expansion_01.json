@@ -1,0 +1,24 @@
+{
+    "schema_version":  "1.1",
+    "name":  "Auszug aus dem Buch von Eibon (Das Ritual des Tsathoggua) [Erweiterung]",
+    "type":  "Book Excerpt",
+    "category":  "library/excerpts",
+    "source_markdown":  "book_of_eibon_excerpt.md",
+    "converted_from_markdown":  true,
+    "tags":  [
+                 "library",
+                 "excerpt",
+                 "book",
+                 "mythos"
+             ],
+    "summary":  "\"In der schwarzen Höhle von N\u0027kai schläft der Schläfer. Tsathoggua, der Kröten-Gott, der Formlose. Bringe ihm Opfer, aber keine aus Gold oder Edelstein. Er verlangt Leben. Er verlangt Hingabe. Wenn er erwacht, ist er hungrig. Sein Körper ist wie schwarzer Schleim, der sich ständig verändert. Er kann jede Form annehmen,...",
+    "source_text":  "# Auszug aus dem Buch von Eibon (Das Ritual des Tsathoggua)\r\n\r\n\"In der schwarzen Höhle von N\u0027kai schläft der Schläfer. Tsathoggua, der Kröten-Gott, der Formlose. Bringe ihm Opfer, aber keine aus Gold oder Edelstein. Er verlangt Leben. Er verlangt Hingabe. Wenn er erwacht, ist er hungrig. Sein Körper ist wie schwarzer Schleim, der sich ständig verändert. Er kann jede Form annehmen, aber sein Hunger bleibt immer gleich. Rufe ihn nicht, wenn du nicht bereit bist, gefressen zu werden.\"\r\n\r\n---\r\n**Effekt beim Lesen:**\r\n- **Stabilitätsverlust:** 1d4\r\n- **Cthulhu-Mythos:** +1%",
+    "mechanics":  {
+                      "stability_loss":  "1d4",
+                      "cthulhu_mythos":  "+1%"
+                  },
+    "generated_variant":  true,
+    "source_seed_file":  "book_of_eibon_excerpt.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

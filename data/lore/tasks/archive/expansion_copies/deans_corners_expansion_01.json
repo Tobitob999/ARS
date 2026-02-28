@@ -1,0 +1,15 @@
+{
+    "name":  "Dean\u0027s Corners [Erweiterung]",
+    "address":  "Verlassene Kreuzung im Miskatonic Valley",
+    "atmosphere":  "Ein Geisterdorf. Ein paar verfallene Gebäude, deren leere Fenster wie tote Augen starren. Der Wind pfeift durch die zerbrochenen Dächer. Absolute Trostlosigkeit.",
+    "details":  [
+                    "Ein verrostetes Schild für einen \u0027General Store\u0027, das quietschend im Wind schwingt.",
+                    "Die Ruine einer kleinen Kirche, deren Glockenturm eingestürzt ist.",
+                    "Ein kleiner, verwilderter Friedhof, auf dem alle Grabsteine das gleiche Todesdatum tragen: 1888."
+                ],
+    "clues":  "Die Bewohner starben alle während einer seltsamen \u0027Seuche\u0027. Gerüchte besagen, dass sie etwas aus einem nahegelegenen Brunnen getrunken haben.",
+    "generated_variant":  true,
+    "source_seed_file":  "deans_corners.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

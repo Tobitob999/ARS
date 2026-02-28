@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Passfoto-Bogen",
+    "type":  "Utility",
+    "physical_description":  "Mehrfachabzüge neutraler Identitätsfotos.",
+    "history":  "Nützlich fuer Aliasunterlagen und Akten.",
+    "mechanics":  {
+                      "skill_check":  "Verkleiden",
+                      "effect":  "Unterstützt konsistente Cover-Identitäten.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Kleinteil mit hoher Wirkung bei Tarnung.",
+    "inventory_tags":  [
+                           "utility",
+                           "deckung",
+                           "inventar"
+                       ]
+}

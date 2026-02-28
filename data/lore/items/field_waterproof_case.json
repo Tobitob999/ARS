@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Wasserdichte Dokumentenbox",
+    "type":  "Field Gear",
+    "physical_description":  "Gummidichtende Metallbox fuer Papiere und Filme.",
+    "history":  "Von Kartographen und Reportern eingesetzt.",
+    "mechanics":  {
+                      "skill_check":  "-",
+                      "effect":  "Sichert Beweise gegen Regen und Schmutz.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Schutz fuer kritische Unterlagen.",
+    "inventory_tags":  [
+                           "feld",
+                           "beweisschutz",
+                           "inventar"
+                       ]
+}

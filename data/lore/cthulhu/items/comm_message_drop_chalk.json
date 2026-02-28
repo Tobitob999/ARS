@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Dead-Drop Kreidemarker",
+    "type":  "Communication Gear",
+    "physical_description":  "Kreidestuecke und Symbolkarte fuer tote Briefkaesten.",
+    "history":  "Kuriernetze nutzen markierte Treffpunkte.",
+    "mechanics":  {
+                      "skill_check":  "Bibliotheksnutzung",
+                      "effect":  "Standardisiert geheime Nachrichtenübergabeorte.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Koordination ohne direkten Kontakt.",
+    "inventory_tags":  [
+                           "kommunikation",
+                           "verdeckt",
+                           "inventar"
+                       ]
+}

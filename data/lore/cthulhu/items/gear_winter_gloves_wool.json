@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Wollhandschuhe Winter",
+    "type":  "Protective Gear",
+    "physical_description":  "Dicke Wollhandschuhe mit Lederinnenflaeche.",
+    "history":  "Kalter-Wetter-Standard in Neuengland.",
+    "mechanics":  {
+                      "skill_check":  "-",
+                      "effect":  "Schuetzt vor Kaelte, reduziert Feinmotorik leicht.",
+                      "combat":  "-"
+                  },
+    "content_summary":  "Wetterausruestung fuer Nachtwachen.",
+    "inventory_tags":  [
+                           "schutz",
+                           "wetter",
+                           "inventar"
+                       ]
+}

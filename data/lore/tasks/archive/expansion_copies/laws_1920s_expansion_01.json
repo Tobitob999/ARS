@@ -1,0 +1,19 @@
+{
+    "name":  "Relevante Gesetze der 1920er in Arkham [Erweiterung]",
+    "type":  "Legal Document",
+    "content_summary":  "Eine Zusammenfassung der wichtigsten rechtlichen Bestimmungen für Investigatoren.",
+    "laws":  [
+                 {
+                     "name":  "Prohibition (Volstead Act)",
+                     "description":  "Herstellung, Verkauf und Transport von alkoholischen Getränken (\u003e0.5%) sind illegal. Besitz und Konsum sind eine rechtliche Grauzone, aber der Erwerb ist strafbar."
+                 },
+                 {
+                     "name":  "Waffenrecht (Arkham City Ordinance)",
+                     "description":  "Der Besitz von Handfeuerwaffen erfordert eine Lizenz vom Arkham Police Department, die nur selten an Zivilisten vergeben wird. Langwaffen (Gewehre, Schrotflinten) sind für Jagd- und Sportzwecke weitgehend unreguliert."
+                 }
+             ],
+    "generated_variant":  true,
+    "source_seed_file":  "laws_1920s.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

@@ -1,0 +1,17 @@
+{
+    "name":  "Arkham Fire Department [Erweiterung]",
+    "type":  "Administration",
+    "stations":  [
+                     {
+                         "name":  "Central Fire Station",
+                         "location":  "Downtown, nahe Central Square."
+                     }
+                 ],
+    "equipment":  "Eine Mischung aus alten, von Pferden gezogenen Dampfpumpen und einem neuen, motorisierten Löschfahrzeug von \u0027American LaFrance\u0027. Die Ausrüstung ist oft schlecht gewartet.",
+    "response_time":  "Innerhalb der Stadt ca. 10-15 Minuten. Auf dem Land bis zu einer Stunde oder länger.",
+    "notes":  "Die Feuerwehrleute sind mutig, aber schlecht bezahlt und oft die ersten, die bei seltsamen Bränden auf unerklärliche Phänomene stoßen.",
+    "generated_variant":  true,
+    "source_seed_file":  "fire_department.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

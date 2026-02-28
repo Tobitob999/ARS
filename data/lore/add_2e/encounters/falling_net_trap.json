@@ -1,0 +1,7 @@
+{
+    "id":  "falling_net_trap",
+    "module_type":  "trap",
+    "trigger_condition":  "Breaking hallway tripline",
+    "damage":  "none",
+    "saving_throw":  "vs. Rod/Staff/Wand to avoid restraint"
+}

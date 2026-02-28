@@ -1,0 +1,17 @@
+﻿{
+    "name":  "Luger P08",
+    "type":  "Weapon",
+    "physical_description":  "Selbstladepistole mit markantem Kniegelenkverschluss und 8-Schuss-Magazin.",
+    "history":  "Kriegsbeute und Sammlerstueck, dennoch einsatzfaehig.",
+    "mechanics":  {
+                      "skill_check":  "Schusswaffen (Pistole)",
+                      "effect":  "Praezise, aber empfindlicher gegen Schmutz als Revolver.",
+                      "combat":  "1W10, 8 Schuss."
+                  },
+    "content_summary":  "Historische Pistole mit Stil und Risiko.",
+    "inventory_tags":  [
+                           "waffe",
+                           "pistole",
+                           "inventar"
+                       ]
+}

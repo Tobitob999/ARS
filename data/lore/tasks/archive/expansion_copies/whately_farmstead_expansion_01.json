@@ -1,0 +1,15 @@
+{
+    "name":  "Das Whateley-Gehöft [Erweiterung]",
+    "address":  "Dunwich, Massachusetts",
+    "atmosphere":  "Ein riesiges, baufälliges Farmhaus, das eher wie ein organisches Geschwür als ein Gebäude wirkt. Ein Teil des Hauses ist massiv mit Brettern vernagelt. Ein unbeschreiblicher Gestank hängt in der Luft.",
+    "details":  [
+                    "Der obere Teil des Hauses scheint von innen heraus zu wachsen und zu bersten.",
+                    "Ein ständiges, lautes Stampfen und Krachen aus dem vernagelten Teil des Hauses.",
+                    "Alte Lavinia Whateley, eine albinotische, deformierte Frau, die jeden mit Hass und Furcht anstarrt, der sich nähert."
+                ],
+    "clues":  "Die Whateleys züchten \u0027etwas\u0027 im oberen Stockwerk. Wilbur Whateleys Tagebuch, in einer seltsamen Mischung aus Englisch und Symbolen geschrieben, könnte Aufschluss geben.",
+    "generated_variant":  true,
+    "source_seed_file":  "whately_farmstead.json",
+    "generation_batch":  "lore-expansion-2026-02-27",
+    "erweiterungswert":  "standard"
+}

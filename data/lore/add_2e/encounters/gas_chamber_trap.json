@@ -1,0 +1,7 @@
+{
+    "id":  "gas_chamber_trap",
+    "module_type":  "trap",
+    "trigger_condition":  "Door closes and vents open",
+    "damage":  "1d6 per round",
+    "saving_throw":  "vs. Paralyzation/Poison"
+}
