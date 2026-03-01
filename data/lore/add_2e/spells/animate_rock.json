@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "animate_rock",
+  "name": "Animate Rock",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Animate Rock (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "sixth",
+    "book_pages": [
+      230,
+      231
+    ],
+    "pdf_pages": [
+      231,
+      232
+    ],
+    "raw_block": "Animate Rock (Alteration)\nSphere: Elemental (Earth)\nRange: 40 yards\nComponents: V, S, M\nDuration: 1 round/level\nCasting Time: 1 round\nArea of Effect: 2 cubic feet/level\nSaving Throw: None\nBy employing an animate rock spell, the\ncaster causes a stone object of up to the indi-\ncated size to move (see the 6th-level mimate\nobject spell.) The animated stone object\nmust be separate (not a part of a huge bod-\nder or the like). It follows the desire of the\ncaster-attacking, breaking objects, block-\ning-while the magic lasts. It has no intelli-\ngence or volition of its own, but it follows\ninstructions exactly as spoken. Note that\nonly one set of instructions for one single\naction (the whole being simply worded and\nvery brief-12 words or so) can be given to\nthe animated rock. The rock remains ani-\nmated for one round per experience level of\nthe caster. The volume of rock that can be\nanimated is also based on the experience\nlevel of the caster-two cubic feet of stone\nper level-e.g., 24 cubic feet, a mass of\nabout man-sized, at 12th level.\nWhile the exact details of the animated\nrock are decided by the DM, its Armor\nClass is no worse than 5, and it has ld3 hit\npoints per cubic foot of volume. It uses the\nattack roll of the caster. The maximum dam-\nage it can inflict is Id2 points per caster level\n(thus, a 12th-level caster's rock might inflict\n12 to 24 points of damage). Movement, for\na man-sized rock, is 60 feet per round. A\nrock generally weighs from 100 to 300\npounds per cubic foot.\nThe material components for the spell are\na stone and drop of the caster's blood."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Animate Rock",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "40 yards",
+      "components": "V, S, M",
+      "duration": "1 round/level",
+      "casting_time": "1 round",
+      "area_of_effect": "2 cubic feet/level",
+      "saving_throw": "None",
+      "description_excerpt": "By employing an animate rock spell, the caster causes a stone object of up to the indi- cated size to move (see the 6th-level mimate object spell.) The animated stone object must be separate (not a part of a huge bod- der or the like). It follows the desire of the caster-attacking, breaking objects, block- ing-while the magic lasts. It has no intelli- gence or volition of its own, but it follows instructions exactly as spoken. Note that only one set of instructions for one single action (the whole being simply worded and very brief-12 words or so) can be given to the animated rock. The rock remains ani- mated for one round per experience level of the caster. The volume of rock that can be animated is also based on the experience level of the caster-two cubic feet of stone per level-e.g., 24 cubic feet, a mass of about man-sized, at 12th level. While the exact details of the animated rock"
+    },
+    "quality_flags": []
+  }
+}

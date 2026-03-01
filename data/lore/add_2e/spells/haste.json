@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "haste",
+  "name": "Haste",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Haste (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "third",
+    "book_pages": [
+      149
+    ],
+    "pdf_pages": [
+      150
+    ],
+    "raw_block": "Haste (Alteration)\nRange: 60 yards\nComponents: V, S, M\nDuration: 3 rounds + 1 round/level\nCasting Time: 3\nArea of Effect: 40' cube, 1 creature/level\nSaving Throw: None\nWhen this spell is cast, each affected crea-\nture functions at double its normal move-\nment and attack rates. A hasted creature\ngains a -2 initiative bonus. Thus, a crea-\nture moving at 6 and attacking once per\nround would move at 12 and attack twice\nper round. Spellcasting and spell effects are\nnot sped up. The number of creatures that\ncan be affected is equal to the caster's experi-\nence level; those creatures closest to the ten-\nter of effect are affected first. All affected by\nhaste must be in the designated area of\neffect. Note that this spell negates the effects\nDf a slow spell. Additionally, this spell ages"
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Haste",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "60 yards",
+      "components": "V, S, M",
+      "duration": "3 rounds + 1 round/level",
+      "casting_time": "3",
+      "area_of_effect": "40' cube, 1 creature/level",
+      "saving_throw": "None",
+      "description_excerpt": "When this spell is cast, each affected crea- ture functions at double its normal move- ment and attack rates. A hasted creature gains a -2 initiative bonus. Thus, a crea- ture moving at 6 and attacking once per round would move at 12 and attack twice per round. Spellcasting and spell effects are not sped up. The number of creatures that can be affected is equal to the caster's experi- ence level; those creatures closest to the ten- ter of effect are affected first. All affected by haste must be in the designated area of effect. Note that this spell negates the effects Df a slow spell. Additionally, this spell ages"
+    },
+    "quality_flags": []
+  }
+}

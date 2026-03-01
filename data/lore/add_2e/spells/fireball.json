@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "fireball",
+  "name": "Fireball",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Fireball (Evocation) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "third",
+    "book_pages": [
+      149
+    ],
+    "pdf_pages": [
+      150
+    ],
+    "raw_block": "Fireball (Evocation)\nRange: 10 yards + 10 yards/level\nComponents: V, S, M\nDuration: Instantaneous\nCasting Time: 3\nArea of Effect: 2Sfoot radius\nSaving Throw: 1/2\nA fireball is an explosive burst of flame,\nwhich detonates with a low roar and deliv-\ners damage proportional to the level of the\nwizard who cast it-ld6 points of damage\nfor each level of experience of the spellcaster\n(up to a maximum of 1Od6). The burst of the\nfireball creates little pressure and generally\nconforms to the shape of the area in which it\noccurs. The fireball fills an area equal to its\nnormal spherical volume (roughly 33,000\ncubic feet-thirty-three 10' x 10' x 10'\ncubes). Besides causing damage to crea-\ntures, the fireball ignites all combustible\nmaterials within its burst radius, and the\nheat of the fireball melts soft metals such as\ngold, copper, silver, etc. Exposed items\nrequire saving throws vs. magical fire to\ndetermine if they are affected, but items in\nthe possession of a creature that rolls a suc-\ncessful saving throw are unaffected by the\nfireball.\nThe wizard points his finger and speaks\nthe range (distance and height) at which the\nfireball is to burst. A streak flashes from the\npointing digit and, unless it impacts upon a\nmaterial body or solid barrier prior to\nattaining the prescribed range, blossoms\ninto the fireball (an early impact results in\nan early detonation). Creatures failing their\nsaving throws each suffer full damage from\nthe blast. Those who roll successful saving\nthrows manage to dodge, fall flat, or roll\naside, each receiving half damage (the DM\nrolls the damage and each affected creature\nsuffers either full damage or half damage\n[round fractions down], depending on\nwhether the creature saved or not).\nThe material component of this spell is a\ntiny ball of bat guano and sulphur."
+  },
+  "mechanics": {
+    "school_or_type": "Evocation",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Fireball",
+      "canonical_name_guess": null,
+      "school_or_type": "Evocation",
+      "range": "10 yards + 10 yards/level",
+      "components": "V, S, M",
+      "duration": "Instantaneous",
+      "casting_time": "3",
+      "area_of_effect": "2Sfoot radius",
+      "saving_throw": "1/2",
+      "description_excerpt": "A fireball is an explosive burst of flame, which detonates with a low roar and deliv- ers damage proportional to the level of the wizard who cast it-ld6 points of damage for each level of experience of the spellcaster (up to a maximum of 1Od6). The burst of the fireball creates little pressure and generally conforms to the shape of the area in which it occurs. The fireball fills an area equal to its normal spherical volume (roughly 33,000 cubic feet-thirty-three 10' x 10' x 10' cubes). Besides causing damage to crea- tures, the fireball ignites all combustible materials within its burst radius, and the heat of the fireball melts soft metals such as gold, copper, silver, etc. Exposed items require saving throws vs. magical fire to determine if they are affected, but items in the possession of a creature that rolls a suc- cessful saving throw are unaffected by the fireball. The wizard poin"
+    },
+    "quality_flags": []
+  }
+}

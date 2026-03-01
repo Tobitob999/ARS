@@ -1,15 +1,25 @@
-﻿{
-    "categories":  {
-                       "presets":  [
-                                       "modules/presets/coc_classic.json",
-                                       "modules/presets/add_fantasy.json",
-                                       "modules/presets/add_demo.json"
-                                   ],
-                       "rulesets":  [
-                                        "modules/rulesets/add_2e.json"
-                                    ],
-                       "adventures":  [
-                                          "modules/adventures/goblin_cave.json"
-                                      ]
-                   }
+{
+  "schema_version": "1.2.0",
+  "generated_at": "2026-02-28T16:55:04",
+  "rulesets": [
+    "add_2e"
+  ],
+  "presets": [
+    "add_2e_phb_complete"
+  ],
+  "defaults": {
+    "ruleset": "add_2e",
+    "preset": "add_2e_phb_complete",
+    "character": "add_fighter"
+  },
+  "characters": [
+    "add_fighter",
+    "add_paladin",
+    "add_ranger",
+    "add_mage",
+    "add_cleric",
+    "add_druid",
+    "add_thief",
+    "add_bard"
+  ]
 }

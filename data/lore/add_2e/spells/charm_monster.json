@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "charm_monster",
+  "name": "Charm Monster",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Charm Monster (EnchantmentKhann) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      154
+    ],
+    "pdf_pages": [
+      155
+    ],
+    "raw_block": "Charm Monster (EnchantmentKhann)\nwe: 60 yards\nZomponents: V, S\nhation: Special\nZasting Time: 4\n4rea of Effect: 1 or more creatures in a 20-\nfoot radius\nSaving Throw: Neg.\nThis spell is similar to a charm person\n;pell, but it can affect any living creature-\n)r several low-level creatures. The spell\nlffects 2d4 Hit Dice or levels of creatures,\ndthough it only affects one creature of 4 or\n154\nmore Hit Dice or levels, regardks of the\nnumber rolled.\nAll possible subjects receive saving\nthrows vs. spell, adjusted for Wisdom. Any\ndamage inflicted by the caster or his allies in\nthe round of casting grants the wounded\ncreature another saving throw at a bonus of\n+1 per point of darnage dved. Any\naffected creature regards the spellcaster as\nfriendly, an ally or companion to be treated\nwell or guarded from harm. If communica-\ntion is possible, the charmed creature fd-\nlows reasonable requests, instructium, or\norders most faithfully (see the suggestion\nspell). If communication is not possible, the\ncreature does not harm the caster, but others\nin the vicinity may be subject to its inten-\ntions, hostile or otherwise. Any overtly hos-\ntile act by the caster breaks the spell, or at\nthe very least allows a new saving throw\nagainst the charm. Affected creatures even-\ntually come out from under the influence of\nthe spell. This is a function of the creature’s\nlevel (i.e., its Hit Dice).\nPcrrentch.na!\norHLtDice Bnaking Spa\nMonsterLevel Week of\n1st or up to 2 5%\n2ndorupto3 + 2 10%\n15 %\n4th or up to 6 3%\n5thorupto7+2 35%\n45%\n7th or up to 10 60%\n8th or up to 12 75 %\n9th or over 12 90%\n3rd or up to 4 + 4\n6th or up to 8 +4\nThe exact day of the week and time of day\nis seaetly determined."
+  },
+  "mechanics": {
+    "school_or_type": "EnchantmentKhann",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Charm Monster",
+      "canonical_name_guess": null,
+      "school_or_type": "EnchantmentKhann",
+      "range": null,
+      "components": null,
+      "duration": null,
+      "casting_time": null,
+      "area_of_effect": null,
+      "saving_throw": "Neg.",
+      "description_excerpt": "This spell is similar to a charm person ;pell, but it can affect any living creature- )r several low-level creatures. The spell lffects 2d4 Hit Dice or levels of creatures, dthough it only affects one creature of 4 or 154 more Hit Dice or levels, regardks of the number rolled. All possible subjects receive saving throws vs. spell, adjusted for Wisdom. Any damage inflicted by the caster or his allies in the round of casting grants the wounded creature another saving throw at a bonus of +1 per point of darnage dved. Any affected creature regards the spellcaster as friendly, an ally or companion to be treated well or guarded from harm. If communica- tion is possible, the charmed creature fd- lows reasonable requests, instructium, or orders most faithfully (see the suggestion spell). If communication is not possible, the creature does not harm the caster, but others in the vicinity may be su"
+    },
+    "quality_flags": [
+      "missing_standard_fields"
+    ]
+  }
+}

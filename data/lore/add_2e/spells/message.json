@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "message",
+  "name": "Message",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Message (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": null,
+    "book_pages": [
+      136
+    ],
+    "pdf_pages": [
+      137
+    ],
+    "raw_block": "Message (Alteration)\nRange: 0\nComponents: V, S, M\nDuration: 5 rounds/level\nCasting Time: 1\nArea of Effect: Special\nSaving Throw: None\nWhen this spell is cast, the wizard can\nwhisper messages and receive replies with\nlittle chance of being overheard. When the\nspell IS cast,-the wizard secretly or openly\npoints his finger at each creature to be\nincluded in the spell effect. Up to one crea-\nture per level can be included. When the\nwizard whispers, the whispered message\ntravels in a straight line and is audible to all\nof the involved creatures within 30 feet, plus\n10 feet per level of the caster. The creatures\n-------\nwho receive the message can whisper aieply\nthat is heard by the spellcaster. Note that\nthere must be an unobstructed path between\nthe spellcaster and the recipients of the spell.\nThe message must be in a language the cast-\ner speaks; this spell does not by itself confer\nunderstanding upon the recipients. This\nspell is most often used to conduct quick\nand private conferences when the caster\ndoes not wish to be overheard.\nThe material component of the spell is a\nshort piece of copper drawn fine."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Message",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "0",
+      "components": "V, S, M",
+      "duration": "5 rounds/level",
+      "casting_time": "1",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "When this spell is cast, the wizard can whisper messages and receive replies with little chance of being overheard. When the spell IS cast,-the wizard secretly or openly points his finger at each creature to be included in the spell effect. Up to one crea- ture per level can be included. When the wizard whispers, the whispered message travels in a straight line and is audible to all of the involved creatures within 30 feet, plus 10 feet per level of the caster. The creatures ------- who receive the message can whisper aieply that is heard by the spellcaster. Note that there must be an unobstructed path between the spellcaster and the recipients of the spell. The message must be in a language the cast- er speaks; this spell does not by itself confer understanding upon the recipients. This spell is most often used to conduct quick and private conferences when the caster does not wish to be"
+    },
+    "quality_flags": []
+  }
+}

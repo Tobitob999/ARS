@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "energy_drain",
+  "name": "Energy Drain",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Energy Drain (Evocation, Necromancy) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "ninth",
+    "book_pages": [
+      194,
+      195
+    ],
+    "pdf_pages": [
+      195,
+      196
+    ],
+    "raw_block": "Energy Drain (Evocation, Necromancy)\nRange: Touch $\nComponents: V, S, M\nDuration: Permanent\nCasting Time: 3\nArea of Effect: 1 creature\nSaving Throw: None\nBy casting this spell, the wizard opens a\nchannel between the plane he is in and the\nNegative Material plane, the caster becom-\ning the conductor between the two planes.\nAs soon as he touches (equal to a hit if melee\nis involved) any living creature, the victim\nloses two levels (as if struck by a spectre). A\nmonster loses 2 Hit Dice permanently, both\nfor hit points and attack ability. A character\nloses levels, Hit Dice, hit points, and abili-\nties permanently (until regained through\nadventuring, if applicable).\nThe material component of this spell is\nessence of spectre or vampire dust. Prepara-\ntion requires mere moments, then the mate-\nrial component is cast forth, and upon\ntouching the victim, the wizard speaks the\ntriggering word, causing the spell to take\neffect instantly.\nThe spell remains effective for a single\nround only. Humans or humanoids brought\nbelow zero energy levels by this spell can be\nanimated as juju zombies under the control\nof the caster.\nThe caster always has a 5% (1 in 20)\nchance to be affected by the dust, losing one\npoint of Constitution at the same time as the\nvictim is drained. When the number of Con-\nstitution points lost equals the caster’s origi-\nnal Constitution ability score, the caster\ndies and becomes a shade."
+  },
+  "mechanics": {
+    "school_or_type": "Evocation, Necromancy",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Energy Drain",
+      "canonical_name_guess": null,
+      "school_or_type": "Evocation, Necromancy",
+      "range": "Touch $",
+      "components": "V, S, M",
+      "duration": "Permanent",
+      "casting_time": "3",
+      "area_of_effect": "1 creature",
+      "saving_throw": "None",
+      "description_excerpt": "By casting this spell, the wizard opens a channel between the plane he is in and the Negative Material plane, the caster becom- ing the conductor between the two planes. As soon as he touches (equal to a hit if melee is involved) any living creature, the victim loses two levels (as if struck by a spectre). A monster loses 2 Hit Dice permanently, both for hit points and attack ability. A character loses levels, Hit Dice, hit points, and abili- ties permanently (until regained through adventuring, if applicable). The material component of this spell is essence of spectre or vampire dust. Prepara- tion requires mere moments, then the mate- rial component is cast forth, and upon touching the victim, the wizard speaks the triggering word, causing the spell to take effect instantly. The spell remains effective for a single round only. Humans or humanoids brought below zero energy levels by thi"
+    },
+    "quality_flags": []
+  }
+}

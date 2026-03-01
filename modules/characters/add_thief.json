@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "id": "add_thief",
+  "name": "Thief (AD&D 2e)",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "archetype": "thief",
+  "level": 1,
+  "background": "PHB-konformes Starttemplate",
+  "characteristics": {
+    "STR": 10,
+    "DEX": 16,
+    "CON": 11,
+    "INT": 12,
+    "WIS": 10,
+    "CHA": 11
+  },
+  "derived_stats": {
+    "HP": 6,
+    "AC": 8,
+    "THAC0": 20,
+    "Movement": 12
+  },
+  "skills": {
+    "Pick Pockets": 25,
+    "Open Locks": 20,
+    "Find/Remove Traps": 15,
+    "Move Silently": 10
+  },
+  "equipment": [
+    "bedroll",
+    "waterskin",
+    "rations"
+  ],
+  "notes": "Starttemplate fuer schnelle Session-Initialisierung."
+}

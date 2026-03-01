@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "duo_dlmcnslon",
+  "name": "Duo-Dlmcnslon",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Duo-Dlmcnslon (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "seventh",
+    "book_pages": [
+      184
+    ],
+    "pdf_pages": [
+      185
+    ],
+    "raw_block": "Duo-Dlmcnslon (Alteration)\nRange: 0\nComponents: V, S, M\nDuration: 3 rounds + 1 round/level\nCasting Time: 7\nArea of Effect: The caster\nSaving Throw: None\nA duo-dimension spell causes the caster\nto have only two dimensions, height and\nwidth, but no depth. He is thus invisible\nwhen turned sideways. This invisibility can\nbe detected only by means of a true seeing\nspell or similar methods. In addition, the\nduo-dimensional wizard can pass through\nthe thinnest of spaces as long as these have\nthe proper height-going through the space\nbetween a door and its frame is a simple\nmatter. The wizard can perform all actions\nnormally. He can turn and become invisible,\nmove in this state, and appear again next\nround and cast a spell, disappearing on the\nfollowing round.\nNote that when turned, the wizard cannot\nbe affected by my form of attack, but when\nvisible, he is subject to double the amount of\ndamage normal for an attack form, e.g., a\ndagger thrust would inflict 2d4 points of\ndamage if it struck a duodimensional wiz-\nard. Furthermore, the wizard has a portion\nof his existence in the Astral plane when the\nspell is in effect, and he is subject to possible\nnotice by creatures there. If noticed, it is\n25% probable that the wizard is pulled en-\ntirely into the Astral plane by any attack\nfrom an astral creature. Such an attack (and\nany subsequent attack received on the As-\ntral plane) inflicts normal damage.\nThe material components of this spell are\na flat ivory likeness of the spellcaster (which\nmust be of finest workmanship, gold fili-\ngreed, and enameled and gem-studded at an\naverage cost of 500 to 1,OOO gp) and a strip\nof parchment. As the spell is uttered, the\nparchment is given a half twist and joined at\nthe ends. The figurine is then passed\nthrough the parchme\nappear forever."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Duo-Dlmcnslon",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "0",
+      "components": "V, S, M",
+      "duration": "3 rounds + 1 round/level",
+      "casting_time": "7",
+      "area_of_effect": "The caster",
+      "saving_throw": "None",
+      "description_excerpt": "A duo-dimension spell causes the caster to have only two dimensions, height and width, but no depth. He is thus invisible when turned sideways. This invisibility can be detected only by means of a true seeing spell or similar methods. In addition, the duo-dimensional wizard can pass through the thinnest of spaces as long as these have the proper height-going through the space between a door and its frame is a simple matter. The wizard can perform all actions normally. He can turn and become invisible, move in this state, and appear again next round and cast a spell, disappearing on the following round. Note that when turned, the wizard cannot be affected by my form of attack, but when visible, he is subject to double the amount of damage normal for an attack form, e.g., a dagger thrust would inflict 2d4 points of damage if it struck a duodimensional wiz- ard. Furthermore, the wizard has "
+    },
+    "quality_flags": []
+  }
+}

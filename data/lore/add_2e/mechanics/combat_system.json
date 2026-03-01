@@ -1,0 +1,208 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_subsystem",
+  "id": "add_2e_combat_system",
+  "name": "AD&D 2e Combat System",
+  "tags": [
+    "add_2e",
+    "combat",
+    "thac0",
+    "initiative",
+    "saving_throws"
+  ],
+  "summary": "Ausarbeitung von Kampfablauf, THAC0-System, Initiative, Schaden und Sonderregeln.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "primary_chapter": {
+      "chapter": 9,
+      "slug": "combat",
+      "book_pages": [
+        89,
+        106
+      ]
+    },
+    "chapter_9_page_blocks": [
+      {
+        "book_page": 89,
+        "pdf_page": 90
+      },
+      {
+        "book_page": 90,
+        "pdf_page": 91
+      },
+      {
+        "book_page": 91,
+        "pdf_page": 92
+      },
+      {
+        "book_page": 92,
+        "pdf_page": 93
+      },
+      {
+        "book_page": 93,
+        "pdf_page": 94
+      },
+      {
+        "book_page": 94,
+        "pdf_page": 95
+      },
+      {
+        "book_page": 95,
+        "pdf_page": 96
+      },
+      {
+        "book_page": 96,
+        "pdf_page": 97
+      },
+      {
+        "book_page": 97,
+        "pdf_page": 98
+      },
+      {
+        "book_page": 98,
+        "pdf_page": 99
+      },
+      {
+        "book_page": 99,
+        "pdf_page": 100
+      },
+      {
+        "book_page": 100,
+        "pdf_page": 101
+      },
+      {
+        "book_page": 101,
+        "pdf_page": 102
+      },
+      {
+        "book_page": 102,
+        "pdf_page": 103
+      },
+      {
+        "book_page": 103,
+        "pdf_page": 104
+      },
+      {
+        "book_page": 104,
+        "pdf_page": 105
+      },
+      {
+        "book_page": 105,
+        "pdf_page": 106
+      },
+      {
+        "book_page": 106,
+        "pdf_page": 107
+      }
+    ],
+    "chapter_9_excerpt": "The AD&W game is an adventure game de- \nsigned to give players a feeling of excitement \nand danger. Characters brave the unknown \nperils of moldering dungeons and thorn- \ncovered wilderness, facing off against hid- \neous monsters and evil villains. Thus, it is \nimportant for all players to know the basic \nTo create the proper sense of danger and \nexcitement, the rules for combat must be \nthorough, but they must also be playable \nand exciting enough to create a vivid picture \nin the minds of the players. Combat in the \nADhD game has to allow many different \nactions and outcomes-as many as the \nimagination can produce. Knowing that \nanything could happen next (because the \nrules allow it) creates excitement for every- \none. \n' rules for handling combat. \nMore Than Just Hack-and-Slash \nAs important as \nfighting is to the ADhD game, it isn't the be- \nall and end-all of play. It's just one way for \ncharacters to deal with situations. If charac- \nters could do nothing but fight, the game \nwould quickly get boring-every encounter \nwould be the same. Because there is more to \nthe game than fighting, we'll cover much \nmore than simple hack-and-slash combat in \nthis chapter. \nIn addition to explaining the basic me- \nchanics of hitting and missing, there are \nrules here for turning undead, special ways \nto attack and defend, poison, heroic feats, \nand more. \n, \n1 \nDefinitions \nMany game terms \nare used throughout the combat rules. To \nunderstand the rules, players must under- \nstand these terms, so brief explanations ap- \npear below. Further details are provided \nthroughout this chapter. \nArmor Class (AC) is the protective rating \nof a type of armor. In some circumstances, \nAC is modified by the amount of protection \ngained or lost because of the character's situ- \nation. For instance, crouching behind a \nboulder improves a character's Armor \nClass, while being attacked from behind \nworsens his AC. \nArmor provides protection by reducing \nthe chance that a character is attacked suc- \ncessfully (and suffers damage). Armor does \nnot absorb damage, it prevents it. A fighter \nin full plate mail may be a slow-moving tar- \nget, but penetrating his armor to cause any \ndamage is no small task. \nArmor Class is measured on a scale from \n10, the worst (no armor), to -10, the best \n(very powerful magical armors). The lower \nthe number, the more effective the armor. \nShields can also improve the AC of a char- \nacter (see page 75). \n* \nAbilities and situations can also affect a \ncharacter's Armor Class. High Dexterity \ngives a bonus to Armor Class, for example. \nBut even a character with a Dexterity bonus \ncan have this bonus negated if he is attacked \nfrom the rear. \nDamage is what happens to a character \nwhen an opponent attacks him successfully. \nDamage can also occur as a result of poison, \nfire, falling, acid, and anything even re- \nmotely dangerous in the real world. Dam- \nage from most attacks is measured in hit \npoints. Each time a character is hit, he suf- \nfers points of damage: It could be as little as \n1 point to as many as 80 or more. These \npoints are subtracted from the character's \ncurrent hit point total. When this reaches 0, \nthe character is dead. \nInitiative determines the order in which \nthings happen in a combat round. Like so \nmany things in the world, initiative is deter- \nmined by a combination of ability, situa- \ntion, and chance. \nAt the start of each round of a battle, an \ninitiative roll is made by both sides. This \nroll can be modified by the abilities of the \ncombatants and by the situation. The per- \nson or side with the lower modified die roll \nacts first. \nMelee is any situation in which charac- \nters are battling each other hand-to-hand, \nwhether with fists, teeth, claws, swords, \naxes, pikes, or something else. Strength and \nDexterity are valuable assets in melee. \nMissile combat is defined as any time a \nweapon is shot, thrown, hurled, kicked, or \notherwise propelled. Missile and melee \ncombat have the same basic ru"
+  },
+  "mechanics": {
+    "core_resolution": {
+      "to_hit_formula": "Required roll = THAC0 - target_AC (negative AC wird effektiv addiert).",
+      "always_rules": [
+        "Natural 20 trifft",
+        "Natural 1 verfehlt"
+      ],
+      "attack_roll": "d20 + Modifikatoren (Str, Magie, Situation)"
+    },
+    "round_structure": {
+      "combat_round": "ca. 1 Minute",
+      "turn_relation": "10 Runden = 1 Turn (10 Minuten)",
+      "one_primary_action": [
+        "Angriff",
+        "Zauber wirken",
+        "Trank trinken",
+        "Gegenstand nutzen",
+        "Bewegen bis Bewegungsgrenze",
+        "Wunden versorgen"
+      ],
+      "free_or_minor_actions": [
+        "rufen",
+        "Waffe fallenlassen/ziehen",
+        "Kleinteile fallenlassen"
+      ]
+    },
+    "initiative": {
+      "default": "Seiteninitiative per d10 pro Runde",
+      "order": "niedriger modifizierter Wurf handelt zuerst",
+      "options": [
+        "group initiative",
+        "individual initiative",
+        "weapon speed",
+        "casting time"
+      ]
+    },
+    "combat_modes": {
+      "melee": "Nahkampf mit Waffen/Unarmed",
+      "missile": "Fernkampf mit Reichweitenmodifikatoren",
+      "nonlethal": [
+        "punching",
+        "wrestling",
+        "overbearing"
+      ],
+      "special": [
+        "touch spells",
+        "two-weapon fighting",
+        "parrying (optional)"
+      ]
+    },
+    "defense_and_resistance": {
+      "armor_class_scale": "10 (schlechtest) bis -10 (best)",
+      "saving_throws": [
+        "paralyzation_poison_death_magic",
+        "rod_staff_wand",
+        "petrification_polymorph",
+        "breath_weapon",
+        "spell"
+      ],
+      "magic_resistance": "Separate Resistenzpruefung gegen magische Effekte."
+    },
+    "damage_and_death": {
+      "hp_model": "Abstrakte Trefferpunkte, kumulativer Schaden",
+      "massive_damage": "50+ Schaden aus einem einzelnen Treffer => Save vs Death oder sofort Tod",
+      "falling": "1d6 pro 10 Fuss, max 20d6",
+      "energy_drain": "Levelverlust inkl. HP/Spells/Progressionseinbussen",
+      "poison": [
+        "paralytic",
+        "debilitating",
+        "lethal variants"
+      ],
+      "healing": [
+        "natural healing",
+        "magical healing",
+        "raise dead/resurrection constraints"
+      ]
+    },
+    "turn_undead": {
+      "good_priest": "Untote vertreiben/vernichten je nach Tabelle und Level.",
+      "evil_priest": "Untote befehligen, inkl. Spezialfall Paladin-turning laut Kapiteltext."
+    },
+    "reference_tables": [
+      {
+        "table_number": 51,
+        "title": "COMBAT MODIFIERS"
+      },
+      {
+        "table_number": 52,
+        "title": "WEAPON TYPE VS."
+      },
+      {
+        "table_number": 53,
+        "title": "CALCULATED THACOS"
+      },
+      {
+        "table_number": 56,
+        "title": "OPTIONAL MODIFIERS"
+      },
+      {
+        "table_number": 60,
+        "title": "CHARACTER SAVING THROWS"
+      },
+      {
+        "table_number": 61,
+        "title": "TURNING UNDEAD"
+      }
+    ]
+  }
+}

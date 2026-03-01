@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "transmute_rock_to_mud",
+  "name": "Transmute Rock to Mud",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Transmute Rock to Mud (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      172
+    ],
+    "pdf_pages": [
+      173
+    ],
+    "raw_block": "Transmute Rock to Mud (Alteration)\nReversible\nRange: 10 yardsllevel\nComponents: V, S, M\nDuration: Special\nCasting Time: 5\nArea of Effect: One 20-foot cube/level\nSaving Throw: None\nThis spell turns natural rock of any sort\ninto an equal volume of mud. The depth of\nthe mud can never exceed one-half its length\nor breadth. If it is cast upon a rock, for ex-\nample, the rock affected collapses into mud.\nCreatures unable to levitate, fly, or other-\nwise free themselves from the mud sink at\nthe rate of ten feet per round and suffocate,\nexcept for light-weight creatures that could\nnormally pass across such ground. Brush\nthrown atop the mud can support creatures\nable to climb on top of it, with the amount\nof brush required subject to the DMs discre-\ntion. The mud remains until a dispel magic\nspell or a reverse of this spell, mud to rock,\nrestores its substance-but not necessarily\nits form. Evaporation turns the mud to nor-\nmal dirt, at the rate of ld6 days per ten cubic\nfeet. The mud to rock reverse can harden\nnormal mud into soft stone (sandstone or\nsimilar mineral) permanently unless magi-\ncally changed.\nThe material components for the spell are\nclay and water (or sand, lime, and water for\nthe reverse)."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Transmute Rock to Mud",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "10 yardsllevel",
+      "components": "V, S, M",
+      "duration": "Special",
+      "casting_time": "5",
+      "area_of_effect": "One 20-foot cube/level",
+      "saving_throw": "None",
+      "description_excerpt": "This spell turns natural rock of any sort into an equal volume of mud. The depth of the mud can never exceed one-half its length or breadth. If it is cast upon a rock, for ex- ample, the rock affected collapses into mud. Creatures unable to levitate, fly, or other- wise free themselves from the mud sink at the rate of ten feet per round and suffocate, except for light-weight creatures that could normally pass across such ground. Brush thrown atop the mud can support creatures able to climb on top of it, with the amount of brush required subject to the DMs discre- tion. The mud remains until a dispel magic spell or a reverse of this spell, mud to rock, restores its substance-but not necessarily its form. Evaporation turns the mud to nor- mal dirt, at the rate of ld6 days per ten cubic feet. The mud to rock reverse can harden normal mud into soft stone (sandstone or similar mineral) perman"
+    },
+    "quality_flags": []
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "flame_blade",
+  "name": "Flame Blade",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Flame Blade (Evocation) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "second",
+    "book_pages": [
+      205
+    ],
+    "pdf_pages": [
+      206
+    ],
+    "raw_block": "Flame Blade (Evocation)\nSphere: Elemental (Fire)\nRange: 0\nComponents: V, S, M\nDuration: 4 rounds + 1 round/2 levels\nCasting Time: 4\nArea of Effect: 3’ long, sword-like blade\nSaving Throw: None\nWith this spell, the caster causes a blazing\nray of red-hot fire to spring forth from his\nhand. This blade-like ray is wielded as if it\nwere a scimitar. If the caster successfully hits\nwith the flame blade in melee combat, the\ncreature struck suffers ld4 + 4 points of\ndamage, with a damage bonus of +2 (i.e.,\n7-10 points) if the creature is undead or is\nespecially vulnerable to fire. If the creature\nis protected from fire, the damage inflicted\nis reduced by 2 (i.e., ld4 + 2 points). Fire\ndwellers and those using fire as an innate\nattack form suffer no damage from the\nspell. The flame blade can ignite combusti-\nble materials such as parchment, straw, dry\nsticks, cloth, etc. However, it is not a magi-\ncal weapon in the normal sense of the term,\nso creatures (other than undead) struck only\nby magical weapons are not harmed by it.\nThis spell does not function underwater.\nIn addition to the caster’s holy symbol,\nthe spell requires a leaf of sumac as a materi-\nal component."
+  },
+  "mechanics": {
+    "school_or_type": "Evocation",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Flame Blade",
+      "canonical_name_guess": null,
+      "school_or_type": "Evocation",
+      "range": "0",
+      "components": "V, S, M",
+      "duration": "4 rounds + 1 round/2 levels",
+      "casting_time": "4",
+      "area_of_effect": "3’ long, sword-like blade",
+      "saving_throw": "None",
+      "description_excerpt": "With this spell, the caster causes a blazing ray of red-hot fire to spring forth from his hand. This blade-like ray is wielded as if it were a scimitar. If the caster successfully hits with the flame blade in melee combat, the creature struck suffers ld4 + 4 points of damage, with a damage bonus of +2 (i.e., 7-10 points) if the creature is undead or is especially vulnerable to fire. If the creature is protected from fire, the damage inflicted is reduced by 2 (i.e., ld4 + 2 points). Fire dwellers and those using fire as an innate attack form suffer no damage from the spell. The flame blade can ignite combusti- ble materials such as parchment, straw, dry sticks, cloth, etc. However, it is not a magi- cal weapon in the normal sense of the term, so creatures (other than undead) struck only by magical weapons are not harmed by it. This spell does not function underwater. In addition to the ca"
+    },
+    "quality_flags": []
+  }
+}

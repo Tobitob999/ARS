@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "meld_into_stone",
+  "name": "Meld Into Stone",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Meld Into Stone (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "third",
+    "book_pages": [
+      211
+    ],
+    "pdf_pages": [
+      212
+    ],
+    "raw_block": "Meld Into Stone (Alteration)\nSphere: Elemental (Earth)\nRange: 0\nComponents: V, S, M\nDuration: 8 rounds + Id8 rounds\nCasting Time: 6\nArea of Effect: Caster\nSaving Throw: None\nThis spell enables the priest to\nbody and possessions into a single\nstone. The stone must be lar\naccommodate his body in all t\nsions. When casting is complete, the priest\nand not more than 100 pounds of nonliving\ngear merge with the stone. If either con&-\ntion is violated, the spell fails and is wasted.\nWhile in the stone, the priest remains in\ncontact, however tenuous, with the face of\nthe stone through which he melded. The\npriest remains aware of the passage of time.\nNothing that goes on outside the stone can\nbe seen or heard, however. Minor physical\ndamage to the stone does not harm the\npriest, but its partial destruction, if enough\nso that the caster no longer fits, expels the\npriest with 4d8 points of damage. The\nstone’s destruction expels the priest and\nslays him instantly, unless a successful saw-\ning throw vs. spell is rolled.\nThe magic lasts for ld8+8 rounds, the\nvariable part of the duration rolled secredy\nby the DM. At any time before the duration\nexpires, the priest can step out of thetatme\nthrough the stone surface he entered. If the\nduration runs out, or the effect is dispelled\nbefore the priest exits the stone, then he is\nviolently expelled and suffers 4d8 points of\ndamage.\nThe following spells harm the priest if\ncast upon the stone that he is occupying:\nThe material components are t"
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Meld Into Stone",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "0",
+      "components": "V, S, M",
+      "duration": "8 rounds + Id8 rounds",
+      "casting_time": "6",
+      "area_of_effect": "Caster",
+      "saving_throw": "None",
+      "description_excerpt": "before the priest exits the stone, then he is violently expelled and suffers 4d8 points of damage. The following spells harm the priest if cast upon the stone that he is occupying: The material components are t"
+    },
+    "quality_flags": []
+  }
+}

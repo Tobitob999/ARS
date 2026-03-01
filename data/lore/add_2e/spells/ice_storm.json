@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "ice_storm",
+  "name": "Ice Storm",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Ice Storm (Evocation) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      159
+    ],
+    "pdf_pages": [
+      160
+    ],
+    "raw_block": "Ice Storm (Evocation)\nRange: 10 yarddlevel\nComponents: V, S, M\nDuration: Special\nCasting Time: 4\nArea of Effect: Special\nSaving Throw: None\nThis spell can have one of two effects, at\nthe caster's option: Either great hail stones\npound down for one round in a 40-foot-\ndiameter area and inflict 3d10 points of\ndamage to any creatures within the area of\neffect, or driving sleet falls in an 80-foot-\ndiameter area for one round per caster level.\nThe sleet blinds creatures within its area for\nthe duration of the spell and causes the\n. ground in the area to be icy, thus slowing\n: movement by 50% and making it 50%\nprobable that a creature trying to move in\nthe area slip and falls. The sleet also extin-\nguishes torches and small fires.\nNote that this spell will negate a heat\nmetal spell.\nThe material components for this spell are\na pinch of dust and a few drops of water.\nliiudonary Waii (IIlusionPhantasm)\nRange: 30 yards\nComponents: V, S\nDuration: Permanent\nCasting Time: 4\nArea of Effect: 1' x 10' x 10'\nSaving Throw: None\nThis spell creates the illusion of a wall,\nfloor, ceiling, or similar surface, which is\npermanent until dispelled. It appears abso-\nlutely real when viewed, even magically, as\nwith the clerical spell, true seeing, or its\nequivalent, but physical objects can pass\nthrough it without difficulty. When the spell\nis used to hide pits, traps, or normal doors,\nnormal demihuman and magical detection\nabilities work normally, and touch or prob-\ning searches reveal the true nature of the\nsurface, though they do not cause the illu-\nsion to disappear.\nThe material component is a rare dust\nthat costs at least 400 gp and requires four\ndays to prepare."
+  },
+  "mechanics": {
+    "school_or_type": "Evocation",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Ice Storm",
+      "canonical_name_guess": null,
+      "school_or_type": "Evocation",
+      "range": "10 yarddlevel",
+      "components": "V, S, M",
+      "duration": "Special",
+      "casting_time": "4",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "This spell creates the illusion of a wall, floor, ceiling, or similar surface, which is permanent until dispelled. It appears abso- lutely real when viewed, even magically, as with the clerical spell, true seeing, or its equivalent, but physical objects can pass through it without difficulty. When the spell is used to hide pits, traps, or normal doors, normal demihuman and magical detection abilities work normally, and touch or prob- ing searches reveal the true nature of the surface, though they do not cause the illu- sion to disappear. The material component is a rare dust that costs at least 400 gp and requires four days to prepare."
+    },
+    "quality_flags": [
+      "trimmed_merged_block"
+    ]
+  }
+}

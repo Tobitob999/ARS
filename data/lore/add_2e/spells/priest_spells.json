@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.2.1",
+  "id": "priest_spells",
+  "name": "Priest Spells",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Priest Spells (7th Level) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "sixth",
+    "book_pages": [
+      230
+    ],
+    "pdf_pages": [
+      231
+    ],
+    "raw_block": "Priest Spells (7th Level)\nI\nwood spell lasts for one round for each\nexperience level of the caster.\nThe waves of force continue to sweep\ndown the set path for the spell's duration,\npushing back wooden objects in the area of\neffect at a rate of 40 feet per melee round.\nThe length of the path is 20 feet per level of\nthe caster, thus a 14th-level caster casts a\nturn wood spell with an area of effect 120\nfeet wide by 280 feet long, and the spell lasts\nfor 14 rounds. Note that after casting the\nspell, the path is set and the caster can then\ndo other things or go elsewhere without\naffecting the spell's power."
+  },
+  "mechanics": {
+    "school_or_type": "7th Level",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Priest Spells",
+      "canonical_name_guess": null,
+      "school_or_type": "7th Level",
+      "range": null,
+      "components": null,
+      "duration": null,
+      "casting_time": null,
+      "area_of_effect": null,
+      "saving_throw": null,
+      "description_excerpt": "pushing back wooden objects in the area of effect at a rate of 40 feet per melee round. The length of the path is 20 feet per level of the caster, thus a 14th-level caster casts a turn wood spell with an area of effect 120 feet wide by 280 feet long, and the spell lasts for 14 rounds. Note that after casting the spell, the path is set and the caster can then do other things or go elsewhere without affecting the spell's power."
+    },
+    "quality_flags": [
+      "missing_standard_fields",
+      "trimmed_merged_block"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "spell_immunity",
+  "name": "Spell Immunity",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Spell Immunity (Abjuration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "fourth",
+    "book_pages": [
+      220
+    ],
+    "pdf_pages": [
+      221
+    ],
+    "raw_block": "Spell Immunity (Abjuration)\nSphere: Protection\nRange: Touch\nComponents: V, S, M\nDuration: 1 turdlevel\nCasting Time: 1 round\nArea of Effect: Creature touched\nSaving Throw: None\nBy means of this spell, the priest renders a\ncreature touched immune to the effects of a\nspecified spell of 4th level or lower. It pro-\ntects against spells, spell-like effects of magi-\ncal items, and innate spell-like abilities of\ncreatures. It does not protect against breath\nweapons or gaze attacks of any type. The\nspell has additional limitations. First, the\ncaster must have directly experienced the\neffect of the spell specified. For example, if\nthe caster has been attacked by a fireball\nspell at some time, then he can use spell\nimmunity to provide protection from a fire-\nball. Second, the spell cannot affect a ma-\nture already magically protected by a\npotion, protective spell, ring, or other\ndevice. Third, only a particular spell can be\nprotected against, not a certain sphere of\nspells or a group of spells that are similar in\neffect; thus, a creature given immunity to\nthe lightning bolt spell is still vulnerable to a\nshocking grusp spell.\n220\nThe material component for spell immu-\nnity is the same as that for the spell to be\nprotected against."
+  },
+  "mechanics": {
+    "school_or_type": "Abjuration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Spell Immunity",
+      "canonical_name_guess": null,
+      "school_or_type": "Abjuration",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "1 turdlevel",
+      "casting_time": "1 round",
+      "area_of_effect": "Creature touched",
+      "saving_throw": "None",
+      "description_excerpt": "By means of this spell, the priest renders a creature touched immune to the effects of a specified spell of 4th level or lower. It pro- tects against spells, spell-like effects of magi- cal items, and innate spell-like abilities of creatures. It does not protect against breath weapons or gaze attacks of any type. The spell has additional limitations. First, the caster must have directly experienced the effect of the spell specified. For example, if the caster has been attacked by a fireball spell at some time, then he can use spell immunity to provide protection from a fire- ball. Second, the spell cannot affect a ma- ture already magically protected by a potion, protective spell, ring, or other device. Third, only a particular spell can be protected against, not a certain sphere of spells or a group of spells that are similar in effect; thus, a creature given immunity to the lightning b"
+    },
+    "quality_flags": []
+  }
+}

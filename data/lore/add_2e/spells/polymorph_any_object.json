@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.2.1",
+  "id": "polymorph_any_object",
+  "name": "Polymorph Any Object",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Polymorph Any Object (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "eighth",
+    "book_pages": [
+      191,
+      192
+    ],
+    "pdf_pages": [
+      192,
+      193
+    ],
+    "raw_block": "Polymorph Any Object (Alteration)\nRange: 5 yarddlevel\nComponents: V, S, M\nDuration Variable\nCasting Time: 1 round\nArea of Effect: Special\nSaving Throw: Special\nThis spell changes one object or creature\ninto another. When used as a polymorph\nother or stone to flesh spell, simply treat the\nspell as a more powerful version, with sav-\ning throws made with -4 penalties to the\ndie roll. When it is cast in order to change\nother objects, the duration of the spell will\ndepend on how radical a change it is from\nthe original state to its enchanted state, as\nwell as how different it is in size. This will be\ndetermined by your Dungeon Master by\nusing the following guidelines:\nI\nWizard Spells (8th Level) I\nKingdom Animal, vegetable, mineral\nClass Mammals, bipeds, fungi,\nRelationship Twig is to tree, Ad is to\nSize Smaller, equal, larger\nShape Comparative resemblance of\nthe original to the poly-\nmorphed state\nParticularly with regard to a\nchange in which the end\nproduct is more intelligent\nA change in kingdom makes the spell\nwork for hours or turns-i.e., hours if one\nremoved, turns if two removed. Other\nchanges likewise affect spell duration. Thus,\nchanging a lion to an androsphinx would be\npermanent, but turning a turnip to a purple\nworm would be a change of only hours\nduration; turning a tusk into an elephant\nwould be permanent, but turning a twig\ninto a sword would be a change of only sev-\neral turns duration. All polymorphed\nobjects radiate a strong magic, and if a dis-\npel magic spell is successfully cast upon\nthem, they return to their natural form.\nNote that a stone to flesh, or its reverse, will\naffect objects under this spell. As with other\npolymorph spells, damage sustained in the\nnew form can result in the injury or death of\nthe polymorphed creature. It is possible to\n'polymorph a creature into rock and grind it\nto dust, causing damage, perhaps even\ndeath. If the creature was changed to dust to\nstart with, more creative methods to dam-\nage it would have to be applied-perhaps\nusing a gust of wind spell to scatter the dust\nfar and wide. In general, damage occurs\nwhen the new form is altered through physi-\ncal force, although the DM will have to\nadjudicate many of these situations.\nThe system shock roll must be applied to\nliving creatures, as must the restrictions\nnoted regarding the polymorph others and\nstone to flesh spells. Also note that a poly-\nmorph effect often detracts from an item's\nor creature's powers, but does not add new\npowers-except possibly movement capa-\nbilities not present in the old form. Thus, a\nvorpal sword polymorphed into a dagger\nwould not retain vorpal capability.- Like-\nwise, valueless items cannot be made into\npermanent valuable items.\nThe material components of this spell are\nmercury, gum arabic, and smoke.\nmetals, etc.\nbeach, etc.\nIntelligence\nPower Word, Blind\n(ConjurationlSummo\nRange: 5 yards/level\nComponents: V\nDuration: Special\nCasting Time: 1\nArea of Effect: 15foot-radius sohere\nSaving Throw: None\nWhen a vower word. blind svell is car\none or more creatures within he area\neffect become sightless. The spellcaster\nselects one creature as the target center, and\nthe effect spreads oub\naffecting creatures witt\ntotals first; alternatively, the spell can be\nfocused to affect only an individual crea-\nture. Creatures with a current hit point total\nover 100 hit points are not affected and do\nnot count against the number of creatures\naffected. The spell affects up to 100 hit\npoints of creatures, but the durah\ndepends upon how many hit pointr\naffected. If 25 or fewer hit points are d\ned, the blindness is permanent until cured. If\n26 to 50 hit points are affected, the blindness\nlasts for ld4 +1 turns, if 51 to 100 hit points\nof creatures are affected, the spell duration\nis but ld4 + 1 rounds. An individual crea-\nture cannot be partially affected; if all of its\ncurrent hit points are affected, it is blinded,\notherwise, it is not. Blindness can be\nremoved by a cure blindness or dispel magic\nspell."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Polymorph Any Object",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "5 yarddlevel",
+      "components": "V, S, M",
+      "duration": "Variable",
+      "casting_time": "1 round",
+      "area_of_effect": "Special",
+      "saving_throw": "Special",
+      "description_excerpt": "is but ld4 + 1 rounds. An individual crea- ture cannot be partially affected; if all of its current hit points are affected, it is blinded, otherwise, it is not. Blindness can be removed by a cure blindness or dispel magic spell."
+    },
+    "quality_flags": [
+      "trimmed_merged_block"
+    ]
+  }
+}

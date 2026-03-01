@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "cure_serious_wounds",
+  "name": "Cure Serious Wounds",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Cure Serious Wounds (Necromancy) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "fourth",
+    "book_pages": [
+      217
+    ],
+    "pdf_pages": [
+      218
+    ],
+    "raw_block": "Cure Serious Wounds (Necromancy)\nReversible\nSphere: Healing\nRange: Touch\nComponents: V, S\nDuration: Permanent\nCasting Time: 7\nArea of Effect: Creature touched\nSaving Throw: None\nThis spell is a more potent version of the\ncure light wounds spell. When laying his\nhand upon a creature, the priest heals\n2d8+1 points of wound or other injury\ndamage to the creature's body. This healing\ncannot affect noncorporeal, nonliving, or\nextraplanar creatures.\nCause serious wounds, the reverse of the\nspell, operates similarly to the cause light\nwounds spell, the victim having to be touch-\ned first. If the touch is successful, 2d8+1\npoints of damage are inflicted."
+  },
+  "mechanics": {
+    "school_or_type": "Necromancy",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Cure Serious Wounds",
+      "canonical_name_guess": null,
+      "school_or_type": "Necromancy",
+      "range": "Touch",
+      "components": "V, S",
+      "duration": "Permanent",
+      "casting_time": "7",
+      "area_of_effect": "Creature touched",
+      "saving_throw": "None",
+      "description_excerpt": "This spell is a more potent version of the cure light wounds spell. When laying his hand upon a creature, the priest heals 2d8+1 points of wound or other injury damage to the creature's body. This healing cannot affect noncorporeal, nonliving, or extraplanar creatures. Cause serious wounds, the reverse of the spell, operates similarly to the cause light wounds spell, the victim having to be touch- ed first. If the touch is successful, 2d8+1 points of damage are inflicted."
+    },
+    "quality_flags": []
+  }
+}

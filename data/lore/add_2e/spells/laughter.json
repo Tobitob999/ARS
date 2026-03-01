@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "laughter",
+  "name": "Laughter",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Laughter (EnchantmentKharm) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "second",
+    "book_pages": [
+      146
+    ],
+    "pdf_pages": [
+      147
+    ],
+    "raw_block": "Laughter (EnchantmentKharm)\nRange: 60 yards\nComponents: V, S, M\nDuration: 1 round/level\nCasting Time: 2\nArea of Effect: 1 or more creatures in a\n%foot cube\nSaving Throw: Neg.\nThe victim of this spell perceives every-\nthing as hilariously funny. The effect is not\nimmediate, and the creature feels only a\nslight tingling on the round the spell is cast.\nOn the round immediately following, the\nvictim begins smiling, then giggling, chuck-\nling, tittering, snickering, guffawing, and fi-\nnally collapsing into gales of\nuncontrollable, hideous laughter. Although\nthis magical mirth lasts only a single round,\nthe affected creature must spend the next\nround regaining its feet, and it loses 2 points\nfrom its Strength (or -2 to attack and dam-\nage rolls) for all remaining rounds of the\nspell.\nThe saving throw vs. spell is modified by\nthe Intelhgence of the creature. Creatures\nwith Intelligences of 4 or less (semi-\nintelligent) are totally unaffected. Those\nwith Intelligences of 5-7 (low) save with -6\npenalties. Those with Intelligences of 8-12\n(average to very) save with -4 penalties.\nThose with Intelligences of 13-14 (high) save\nwith -2 penalties. Those with Intelligences\nof 15 or greater (exceptional) have unmodi-\nfied saving throws.\nThe caster can affect one creature for ev-\nery three levels attained-e.g., one at 3rd\nlevel, two at 6th level, three at 9th level, etc.\nAll affected beings must be within 30 feet of\neach other.\nThe material components are a small\nfeather and minute tarts. The tarts are\nhurled at the subjects, while the feather is\nwaved in one hand."
+  },
+  "mechanics": {
+    "school_or_type": "EnchantmentKharm",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Laughter",
+      "canonical_name_guess": null,
+      "school_or_type": "EnchantmentKharm",
+      "range": "60 yards",
+      "components": "V, S, M",
+      "duration": "1 round/level",
+      "casting_time": "2",
+      "area_of_effect": "1 or more creatures in a",
+      "saving_throw": "Neg.",
+      "description_excerpt": "The victim of this spell perceives every- thing as hilariously funny. The effect is not immediate, and the creature feels only a slight tingling on the round the spell is cast. On the round immediately following, the victim begins smiling, then giggling, chuck- ling, tittering, snickering, guffawing, and fi- nally collapsing into gales of uncontrollable, hideous laughter. Although this magical mirth lasts only a single round, the affected creature must spend the next round regaining its feet, and it loses 2 points from its Strength (or -2 to attack and dam- age rolls) for all remaining rounds of the spell. The saving throw vs. spell is modified by the Intelhgence of the creature. Creatures with Intelligences of 4 or less (semi- intelligent) are totally unaffected. Those with Intelligences of 5-7 (low) save with -6 penalties. Those with Intelligences of 8-12 (average to very) save with -4"
+    },
+    "quality_flags": []
+  }
+}

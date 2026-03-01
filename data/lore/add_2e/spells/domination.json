@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "domination",
+  "name": "Domination",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Domination (EhchantmenVCharm) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      168
+    ],
+    "pdf_pages": [
+      169
+    ],
+    "raw_block": "Domination (EhchantmenVCharm)\nRange: 10 yarddlevel\nComponents: V, S\nDuration: Special\nCasting Time: 5\nArea of Effect: 1 person\nSaving Throw: Neg.\nThe domination spell enables the caster to\ncontrol the actions of any person until the\nspell is ended by the subject's Intelligence\n(see the charm person spell). Elves and half-\nelves resist this enchantment as they do all\ncharm-type spells. When the spell is cast,\nthe subject must roll a saving throw vs. spell\nat a penalty of -2, but Wisdom adjust-\nments apply. Failure means the wizard has\nestablished a telepathic link with the sub-\nject's mind. If a common language is shared,\nthe wizard can generally force the subject to\nperform as the wizard desires, within the\nlimits of the subject's body structure and\nStrength. Note that the caster does not re-\nceive direct sensory input from the subject.\nSubjects resist this control, and those\nforced to take actions against their natures\nreceive a new saving throw with a bonus of\n+ 1 to + 4, depending on the type of action\nrequired. Obviously selfdestructive orders\nare not carried out. Once control is estab-\nlished, there is no limit to the range at which\nit can be exercised, as long as the caster and\nsubject are on the same plane.\nA protection from evil spell can prevent\nthe caster from exercising control or using\nthe telepathic link while the subject is so\nwarded, but it cannot prevent the establish-\nment of domination."
+  },
+  "mechanics": {
+    "school_or_type": "EhchantmenVCharm",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Domination",
+      "canonical_name_guess": null,
+      "school_or_type": "EhchantmenVCharm",
+      "range": "10 yarddlevel",
+      "components": "V, S",
+      "duration": "Special",
+      "casting_time": "5",
+      "area_of_effect": "1 person",
+      "saving_throw": "Neg.",
+      "description_excerpt": "The domination spell enables the caster to control the actions of any person until the spell is ended by the subject's Intelligence (see the charm person spell). Elves and half- elves resist this enchantment as they do all charm-type spells. When the spell is cast, the subject must roll a saving throw vs. spell at a penalty of -2, but Wisdom adjust- ments apply. Failure means the wizard has established a telepathic link with the sub- ject's mind. If a common language is shared, the wizard can generally force the subject to perform as the wizard desires, within the limits of the subject's body structure and Strength. Note that the caster does not re- ceive direct sensory input from the subject. Subjects resist this control, and those forced to take actions against their natures receive a new saving throw with a bonus of + 1 to + 4, depending on the type of action required. Obviously selfd"
+    },
+    "quality_flags": []
+  }
+}

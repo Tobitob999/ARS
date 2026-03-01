@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2.0",
+  "id": "table_40",
+  "name": "Table 40: MOVEMENT WHILE TRACKING",
+  "category": "table",
+  "tags": [
+    "add_2e",
+    "table",
+    "player_handbook",
+    "toc_normalized"
+  ],
+  "summary": "PHB Table 40 (MOVEMENT WHILE TRACKING).",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "table_number": 40,
+    "title": "MOVEMENT WHILE TRACKING",
+    "book_page": 64,
+    "pdf_page": 65,
+    "raw_page_token": "64"
+  },
+  "mechanics": {
+    "source": "toc_parse_v3",
+    "confidence": "medium"
+  }
+}

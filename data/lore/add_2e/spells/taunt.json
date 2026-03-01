@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.2.1",
+  "id": "taunt",
+  "name": "Taunt",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Taunt (Enchantment) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": null,
+    "book_pages": [
+      138,
+      139
+    ],
+    "pdf_pages": [
+      139,
+      140
+    ],
+    "raw_block": "Taunt (Enchantment)\nRange: 60 yards\nComponents: V, S, M\nDuration: 1 round\nCasting Time: 1\nArea of Effect: 30-foot radius\nSaving Throw: Neg.\nA taunt spell enables the caster to jape\nand jeer effectively at a single type of crea-\nture with an Intelligence of 2 or greater. The\ncaster need not speak the language of the\ncreatures. His words and sounds have real\nmeaning for the subject creature or crea-\ntures: challenging, insulting, and generally\nirritating and angering the listeners. Those\nfailing to save vs. spell rush forth in fury to\ndo battle with the spellcaster. All affected\ncreatures attack the spellcaster in melee if\nphysically capable of doing so, seeking to\nuse body or hand-held weapons rather than\nmissile weapons or spells. Separation of the\ncaster from the victim by an impenetrable\nor uncrossable boundary (a wall of fire, a\ndeep chasm, a formation of set pikemen)\n138\ncauses the spell to break. If the caster taunts\na mixed group, he must choose the type of\ncreature to be affected. Creatures com-\nmanded by a strong leader (i.e., with a Cha-\nrisma bonus, with higher Hit Dice, etc.)\nmight gain a saving throw bonus of +1 to\n+4, at the DMs discretion. If used in con-\njunction with a ventriloquism spell, the\ncreatures may attack the apparent source,\ndepending upon their Intelligence, a leader’s\npresence, and so on.\nThe material component is a slug, which\nis hurled at the creatures to be taunted.\nI\nTenser’s Floating Disc (Evocation)\nRange: 20 yards\nComponents: V, S, M\nDuration: 3 turns +~ 1 turdlevel\nCasting Time: 1\nArea of Effect: Special\nSaving Throw: None\nWith this spell, the caster creates the\nslightly concave, circular plane of force\nknown as Tenser’s floating disc (after the\nfamed wizard whose greed and ability to\nlocate treasure are well known). The disc is\nthree feet in diameter and holds 100 pounds\nof weight per level of the wizard casting the\nspell. The disc floats at approximately three\nfeet above the ground at all times and\nremains level. It floats along horizontally\nwithin its range of 20 yards at the command\nof the caster, and will accompany him at a\nmovement rate of no more than 6. If\nunguided, it maintains a constant interval of\nsix feet between itself and the wizard. If the\nspellcaster moves beyond range (by moving\nfaster, or by such means as a teleport spell,\nor by trying to take it more than three feet\nfrom the surface beneath it), or if the spell\nduration expires, the floating disc winks out\nof existence and whatever it was supporting\ncrashes to the surface beneath it.\nThe material component of the spell is a\ndrop of mercury."
+  },
+  "mechanics": {
+    "school_or_type": "Enchantment",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Taunt",
+      "canonical_name_guess": null,
+      "school_or_type": "Enchantment",
+      "range": "60 yards",
+      "components": "V, S, M",
+      "duration": "1 round",
+      "casting_time": "1",
+      "area_of_effect": "30-foot radius",
+      "saving_throw": "Neg.",
+      "description_excerpt": "of existence and whatever it was supporting crashes to the surface beneath it. The material component of the spell is a drop of mercury."
+    },
+    "quality_flags": [
+      "trimmed_merged_block"
+    ]
+  }
+}

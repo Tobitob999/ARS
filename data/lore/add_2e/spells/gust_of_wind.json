@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "gust_of_wind",
+  "name": "Gust of Wind",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Gust of Wind (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "third",
+    "book_pages": [
+      149
+    ],
+    "pdf_pages": [
+      150
+    ],
+    "raw_block": "Gust of Wind (Alteration)\nRange: 0\nComponents: V, S, M\nDuration: 1 round\nCasting Time: 3\nArea of Effect: 10-foot wide path, 10\nSaving Throw: None\nWhen this spell is cast, a strong puff of air\noriginates from the wizard and moves in the\ndirection he is facing. The force of this gust\nof wind (about 30 m.p.h) is sufficient to\nextinguish candles, torches, and similar\nunprotected flames. It cauees protected\nflames-such as those of lantern-to dance\nwildly and has a 5% chance per level a)\nexperience of the spellcaster to extinguish\neven such lights. It also fans large fires out-\nward ld6 feet in the direction of the winds\nmovement. It form back small flying ara-\ntures ld6 x 10 yards and causes man-sbd\nbeings to be held motionless if attempting to\nmove against its force. It slows larger-than-\nman-sized flying creatures by 50% for one\nround. It blows over light objects, disperses\nmost vapors, and forces away gaseous or\nunsecured levitating creatures. Its path is 10\nfeet wide by 10 yards long per level of expe-\nrience of the caster (e.g., an 8th-level wizard\ncauses a gust of wind that travels 80 yards).\nThe material component of the spell is a\nlegume seed.\nyarddlevel long"
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Gust of Wind",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "0",
+      "components": "V, S, M",
+      "duration": "1 round",
+      "casting_time": "3",
+      "area_of_effect": "10-foot wide path, 10",
+      "saving_throw": "None",
+      "description_excerpt": "When this spell is cast, a strong puff of air originates from the wizard and moves in the direction he is facing. The force of this gust of wind (about 30 m.p.h) is sufficient to extinguish candles, torches, and similar unprotected flames. It cauees protected flames-such as those of lantern-to dance wildly and has a 5% chance per level a) experience of the spellcaster to extinguish even such lights. It also fans large fires out- ward ld6 feet in the direction of the winds movement. It form back small flying ara- tures ld6 x 10 yards and causes man-sbd beings to be held motionless if attempting to move against its force. It slows larger-than- man-sized flying creatures by 50% for one round. It blows over light objects, disperses most vapors, and forces away gaseous or unsecured levitating creatures. Its path is 10 feet wide by 10 yards long per level of expe- rience of the caster (e.g., a"
+    },
+    "quality_flags": []
+  }
+}

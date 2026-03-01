@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "stone_shape",
+  "name": "Stone Shape",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Stone Shape (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "third",
+    "book_pages": [
+      214
+    ],
+    "pdf_pages": [
+      215
+    ],
+    "raw_block": "Stone Shape (Alteration)\nSphere: Elemental (Earth)\nRange: Touch\nComponents: V, S, M\nDuration: Permanent\nCasting Time: 1 round\nArea of Effect: 3' cube plus 1' cube/level\nSaving Throw: None\nBy means of this spell, the caster can form\nan existing piece of stone into any shape that\nsuits his purposes. For example, a stone\nweapon can be made, a special trapdoor\nfashioned, or a crude idol sculpted. By the\nsame token, it enables the spellcaster to\nreshape a stone door, perhaps so as to\nescape imprisonment, providing the volume\nof stone involved was within the limits d\nthe area of effect. While stone coffers can be\nthus formed, stone doors made, etc., the\nfineness of detail is not great. If the shaping\nhas moving parts, there is a 30% chance\nthey do not work.\nThe material component of this spell is\nsoft clay that must be worked into roughly\nthe desired shape of the stone object, and\nthen touched to the stone when the spell is\nuttered."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Stone Shape",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "Permanent",
+      "casting_time": "1 round",
+      "area_of_effect": "3' cube plus 1' cube/level",
+      "saving_throw": "None",
+      "description_excerpt": "By means of this spell, the caster can form an existing piece of stone into any shape that suits his purposes. For example, a stone weapon can be made, a special trapdoor fashioned, or a crude idol sculpted. By the same token, it enables the spellcaster to reshape a stone door, perhaps so as to escape imprisonment, providing the volume of stone involved was within the limits d the area of effect. While stone coffers can be thus formed, stone doors made, etc., the fineness of detail is not great. If the shaping has moving parts, there is a 30% chance they do not work. The material component of this spell is soft clay that must be worked into roughly the desired shape of the stone object, and then touched to the stone when the spell is uttered."
+    },
+    "quality_flags": [
+      "trimmed_merged_block"
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0.0",
+  "category": "combat_reference",
+  "tags": [
+    "add_2e",
+    "combat",
+    "reference_tables"
+  ],
+  "summary": "Kuratiertes Referenzpaket fuer Combat-Regelabwicklung.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "chapter": 9,
+    "book_pages": [
+      89,
+      106
+    ],
+    "raw_reference_file": "data/lore/add_2e/chapters/chapter_09_combat.json"
+  },
+  "mechanics": {
+    "table_51_combat_modifiers": [
+      {
+        "situation": "attacker_on_higher_ground",
+        "modifier": 1
+      },
+      {
+        "situation": "defender_invisible",
+        "modifier": -4
+      },
+      {
+        "situation": "defender_off_balance",
+        "modifier": 2
+      },
+      {
+        "situation": "defender_sleeping_or_held",
+        "modifier": "automatic_hit_or_kill_if_uncontested"
+      },
+      {
+        "situation": "defender_stunned_or_prone",
+        "modifier": 4
+      },
+      {
+        "situation": "defender_surprised",
+        "modifier": 1
+      },
+      {
+        "situation": "missile_medium_range",
+        "modifier": -2
+      },
+      {
+        "situation": "missile_long_range",
+        "modifier": -5
+      },
+      {
+        "situation": "rear_attack",
+        "modifier": 2
+      }
+    ],
+    "thaco_advancement": {
+      "warrior": "1 point every 1 level",
+      "priest": "1 point every 3 levels",
+      "rogue": "1 point every 2 levels",
+      "wizard": "1 point every 3 levels"
+    },
+    "action_economy": {
+      "primary_action_per_round": 1,
+      "round_duration_minutes": 1,
+      "turn_duration_minutes": 10
+    },
+    "fatality_rules": {
+      "massive_damage_threshold": 50,
+      "massive_damage_save": "save_vs_death",
+      "falling_damage": "1d6 per 10 ft (max 20d6)"
+    }
+  }
+}

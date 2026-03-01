@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2.0",
+  "id": "table_12",
+  "name": "Table 12: AGING EFFECTS",
+  "category": "table",
+  "tags": [
+    "add_2e",
+    "table",
+    "player_handbook",
+    "toc_normalized"
+  ],
+  "summary": "PHB Table 12 (AGING EFFECTS).",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "table_number": 12,
+    "title": "AGING EFFECTS",
+    "book_page": 24,
+    "pdf_page": 25,
+    "raw_page_token": "24"
+  },
+  "mechanics": {
+    "source": "toc_parse_v3",
+    "confidence": "medium"
+  }
+}

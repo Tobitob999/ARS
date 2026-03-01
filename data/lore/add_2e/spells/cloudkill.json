@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "cloudkill",
+  "name": "Cloudkill",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Cloudkill (Evocation) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      166
+    ],
+    "pdf_pages": [
+      167
+    ],
+    "raw_block": "Cloudkill (Evocation)\nRange: 10 yards\nComponents: V, S\nDuration: 1 round/level\nCasting Time: 5\nArea of Effect: 40' wide, 20' high,\n20' deep cloud\nSaving Throw: None\nThis spell generates a billowing cloud of\nghastly yellowish green vapors that is so\ntoxic as to slay any creature with fewer than\n4 + 1 Hit Dice, cause creatures with 4 + 1 to\n5 + 1 Hit Dice to roll saving throws vs. poi-\nson with - 4 penalties or be slain, and crea-\ntures up to 6 Hit Dice (inclusive) to roll\nunmodified saving throws vs. poison or be\nslain. Holding one's breath has no effect on\nthe lethality of the spell. Those above 6th\nlevel (or 6 Hit Dice) must leave the cloud\nimmediately or suffer Id10 points of poison\ndamage each round while in the area of\neffect.\nThe cloudkill moves away from the spell-\ncaster at 10 feet per round, rolling along the\nsurface of the ground. A moderate breeze\ncauses it to alter course (roll for direction),\nbut it does not move back toward its caster.\nA strong wind breaks it up in four rounds,\nand a greater wind force prevents the use of\nthe spell. Very thick vegetation will disperse\nthe cloud in two rounds. As the vapors are\nheavier than air, they sink to the lowest\nlevel of the land, even pour down den or\nsinkhole openings; thus the spell is ideal for\nslaying nests of giant ants, for example. It\ncannot penetrate liquids, nor can it be cast\nunderwater."
+  },
+  "mechanics": {
+    "school_or_type": "Evocation",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Cloudkill",
+      "canonical_name_guess": null,
+      "school_or_type": "Evocation",
+      "range": "10 yards",
+      "components": "V, S",
+      "duration": "1 round/level",
+      "casting_time": "5",
+      "area_of_effect": "40' wide, 20' high,",
+      "saving_throw": "None",
+      "description_excerpt": "This spell generates a billowing cloud of ghastly yellowish green vapors that is so toxic as to slay any creature with fewer than 4 + 1 Hit Dice, cause creatures with 4 + 1 to 5 + 1 Hit Dice to roll saving throws vs. poi- son with - 4 penalties or be slain, and crea- tures up to 6 Hit Dice (inclusive) to roll unmodified saving throws vs. poison or be slain. Holding one's breath has no effect on the lethality of the spell. Those above 6th level (or 6 Hit Dice) must leave the cloud immediately or suffer Id10 points of poison damage each round while in the area of effect. The cloudkill moves away from the spell- caster at 10 feet per round, rolling along the surface of the ground. A moderate breeze causes it to alter course (roll for direction), but it does not move back toward its caster. A strong wind breaks it up in four rounds, and a greater wind force prevents the use of the spell. Ver"
+    },
+    "quality_flags": []
+  }
+}

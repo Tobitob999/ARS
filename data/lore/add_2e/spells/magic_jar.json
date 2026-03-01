@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "magic_jar",
+  "name": "Magic Jar",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Magic Jar (Necromancy) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      169
+    ],
+    "pdf_pages": [
+      170
+    ],
+    "raw_block": "Magic Jar (Necromancy)\nRange: 10 yards/level\nComponents: V, S, M\nDuration: Swcial\nWhile the chest is in the Ethereal\ntive chance of 5% per day t S\nCasting Time: 1 round\nArea of Effect: 1 creature\nSaving Throw: Special\nThe magic jar spell enables the\nshift his life force into a special rec -\ngem or large crystal). From there the caster\ncan force an exchange of life forces between\nthe receptacle and another creature, thus\nenabling the wizard to take over and control\nthe body of another creature, while the life\nforce of the host is confined in the recepta-\ncle. The special life force receptacle must be\nwithin spell range of the wizards body at\nthe time of spellcasting. The wizards life\nforce shifts into the receptacle in the round\n1 69"
+  },
+  "mechanics": {
+    "school_or_type": "Necromancy",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Magic Jar",
+      "canonical_name_guess": null,
+      "school_or_type": "Necromancy",
+      "range": "10 yards/level",
+      "components": "V, S, M",
+      "duration": "Swcial",
+      "casting_time": "1 round",
+      "area_of_effect": "1 creature",
+      "saving_throw": "Special",
+      "description_excerpt": "The magic jar spell enables the shift his life force into a special rec - gem or large crystal). From there the caster can force an exchange of life forces between the receptacle and another creature, thus enabling the wizard to take over and control the body of another creature, while the life force of the host is confined in the recepta- cle. The special life force receptacle must be within spell range of the wizards body at the time of spellcasting. The wizards life force shifts into the receptacle in the round 1 69"
+    },
+    "quality_flags": []
+  }
+}

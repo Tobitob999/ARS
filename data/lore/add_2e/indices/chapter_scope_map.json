@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.2.0",
+  "category": "chapter_scope_map",
+  "tags": [
+    "add_2e",
+    "toc",
+    "coverage"
+  ],
+  "summary": "Abdeckungsmap fuer voll ausmodellierte PHB-Kernkapitel 3,6,7,8,9,10,11,12,13,14.",
+  "source_text": {
+    "covered_subsystems": [
+      {
+        "chapter": 3,
+        "subsystem_file": "data/lore/add_2e/mechanics/character_system.json"
+      },
+      {
+        "chapter": 6,
+        "subsystem_file": "data/lore/add_2e/mechanics/equipment_system.json"
+      },
+      {
+        "chapter": 9,
+        "subsystem_file": "data/lore/add_2e/mechanics/combat_system.json"
+      },
+      {
+        "chapter": 7,
+        "subsystem_file": "data/lore/add_2e/mechanics/magic_system.json"
+      },
+      {
+        "chapter": 8,
+        "subsystem_file": "data/lore/add_2e/mechanics/experience_system.json"
+      },
+      {
+        "chapter": 14,
+        "subsystem_file": "data/lore/add_2e/mechanics/time_movement_system.json"
+      },
+      {
+        "chapter": 10,
+        "subsystem_file": "data/lore/add_2e/treasure/treasure_system.json"
+      },
+      {
+        "chapter": 11,
+        "subsystem_file": "data/lore/add_2e/encounters/encounter_system.json"
+      },
+      {
+        "chapter": 12,
+        "subsystem_file": "data/lore/add_2e/npcs/npc_relations_system.json"
+      },
+      {
+        "chapter": 13,
+        "subsystem_file": "data/lore/add_2e/vision/vision_light_system.json"
+      }
+    ]
+  },
+  "mechanics": {
+    "intent": "Die Kapitel sind nicht nur archiviert, sondern als spielbare Subsysteme strukturiert.",
+    "next_expansion_targets": [
+      "appendix_3_wizard_spells_detail",
+      "appendix_4_priest_spells_detail",
+      "table_normalization_v3"
+    ]
+  }
+}

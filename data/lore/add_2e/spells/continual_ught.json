@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "continual_ught",
+  "name": "Continual Ught",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Continual Ught (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "second",
+    "book_pages": [
+      140
+    ],
+    "pdf_pages": [
+      141
+    ],
+    "raw_block": "Continual Ught (Alteration)\nReversible\nRange: 60 yards\nComponents: V, S\nDuration: Permanent\nCasting Time: 2\nArea of Effect: &foot radius\nSaving Throw: Special\nThis spell is similar to a light spell, except\nthat it is as bright as full daylight and lasts\nuntil negated by magical darkness or by a\ndispel magic spell. Creatures who suffer\npenalties in bright light suffer them in this\nspell's area of effect. As with the light spell,\nit can be cast into the air, onto an object, or\nat a creature. In the third case, the spell af-\nfects the space about one foot behind a crea-\nture that successfully rolls its saving throw\nvs. spell. Note that this spell can also blind a\ncreature if it is successfully cast upon the\nthe creature's attack rolls, saving throws,\nand Armor Class by 4. If the spell is cast on\na small object that is then placed in a light-\nproof covering, the spell's effects are\nblocked until the covering is removed.\nA continual light brought into an area of\nmagical darkness (or vice versa) is tempo-\nrarily negated so that the otherwise prevail-\ning light conditions exist in the overlapping\nareas of effect. A direct casting of continual\nlight against a similar or weaker magical\ndarkness cancels both.\nThis spell eventually consumes the mate-\nrial it is cast upon, but the process takes far\nlonger than the time in the typical cam-\npaign. Extremely hard and expensive mate-\nrials can last hundreds or even thousands of\nyears."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Continual Ught",
+      "canonical_name_guess": "Continual Light",
+      "school_or_type": "Alteration",
+      "range": "60 yards",
+      "components": "V, S",
+      "duration": "Permanent",
+      "casting_time": "2",
+      "area_of_effect": "&foot radius",
+      "saving_throw": "Special",
+      "description_excerpt": "This spell is similar to a light spell, except that it is as bright as full daylight and lasts until negated by magical darkness or by a dispel magic spell. Creatures who suffer penalties in bright light suffer them in this spell's area of effect. As with the light spell, it can be cast into the air, onto an object, or at a creature. In the third case, the spell af- fects the space about one foot behind a crea- ture that successfully rolls its saving throw vs. spell. Note that this spell can also blind a creature if it is successfully cast upon the the creature's attack rolls, saving throws, and Armor Class by 4. If the spell is cast on a small object that is then placed in a light- proof covering, the spell's effects are blocked until the covering is removed. A continual light brought into an area of magical darkness (or vice versa) is tempo- rarily negated so that the otherwise prevail"
+    },
+    "quality_flags": [
+      "canonical_name_guess_applied"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.2.1",
+  "id": "table_05",
+  "name": "Table 5: WISDOM",
+  "category": "table",
+  "tags": [
+    "add_2e",
+    "table",
+    "player_handbook",
+    "toc_curated_fill"
+  ],
+  "summary": "PHB Table 5 (WISDOM) - kuratierter Fill fuer vollst?ndige Tabellenabdeckung.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "table_number": 5,
+    "title": "WISDOM",
+    "book_page": null,
+    "pdf_page": null,
+    "raw_page_token": "unknown"
+  },
+  "mechanics": {
+    "source": "manual_fill_from_toc_context",
+    "confidence": "medium",
+    "note": "Page token konnte OCR-bedingt nicht robust extrahiert werden."
+  }
+}

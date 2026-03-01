@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "feeblemind",
+  "name": "Feeblemind",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Feeblemind (EnchantmentKharm) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      168,
+      169
+    ],
+    "pdf_pages": [
+      169,
+      170
+    ],
+    "raw_block": "Feeblemind (EnchantmentKharm)\nRange: 10 yarddlevel\nComponents: V, S, M\nDuration Permanent\nCasting Time: 5\nArea of Effect: 1 creature\nSaving Throw: Neg.\nThis spell is used solely against people or\ncreatures who use magic spells. Feeblemind\ncauses the subject's intellect to degrwate to\nthat of a moronic child. The subject remains\nin this state until a heal or wish spell is used\nto cancel the effects. Magic-using beings are\nvery vulnerable to this spell, thus their sav-\ning throwesuffer the following penalties:\nSaving Throw\nSpell Use of Target Adjustment\nPriest +1\nWizard (human) -4\nCombination or nonhuman -2\nthrow.\nThe material component of this spell is a\nhandful of clay, crystal, glass, or mineral\nspheres, which disappears when the spell is\ncast."
+  },
+  "mechanics": {
+    "school_or_type": "EnchantmentKharm",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Feeblemind",
+      "canonical_name_guess": null,
+      "school_or_type": "EnchantmentKharm",
+      "range": "10 yarddlevel",
+      "components": "V, S, M",
+      "duration": "Permanent",
+      "casting_time": "5",
+      "area_of_effect": "1 creature",
+      "saving_throw": "Neg.",
+      "description_excerpt": "This spell is used solely against people or creatures who use magic spells. Feeblemind causes the subject's intellect to degrwate to that of a moronic child. The subject remains in this state until a heal or wish spell is used to cancel the effects. Magic-using beings are very vulnerable to this spell, thus their sav- ing throwesuffer the following penalties: Saving Throw Spell Use of Target Adjustment Priest +1 Wizard (human) -4 Combination or nonhuman -2 throw. The material component of this spell is a handful of clay, crystal, glass, or mineral spheres, which disappears when the spell is cast."
+    },
+    "quality_flags": []
+  }
+}

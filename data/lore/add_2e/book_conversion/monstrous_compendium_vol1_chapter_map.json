@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "add_2e",
+    "chapter_map",
+    "toc",
+    "appendix",
+    "monstrous_compendium_v1"
+  ],
+  "summary": "Automatisch erkannte Kapitel- und Appendix-Marker aus dem Monstrous Compendium OCR-Text.",
+  "source_text": {
+    "detected_chapters": [],
+    "detected_appendices": [],
+    "detection_note": "OCR kann Schreibfehler enthalten; Titel wurden 1:1 aus OCR-Text uebernommen."
+  },
+  "mechanics": {
+    "chapter_regex": "\\bChapter\\s+([0-9IVXLC]+)\\s*[:\\-]\\s*([^\\n\\r]{2,120})",
+    "appendix_regex": "\\bAppendix\\s+([0-9IVXLC]+)\\s*[:\\-]\\s*([^\\n\\r]{2,120})",
+    "unique_chapters": 0,
+    "unique_appendices": 0
+  }
+}

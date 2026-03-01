@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "produce_flame",
+  "name": "Produce Flame",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Produce Flame (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "second",
+    "book_pages": [
+      206
+    ],
+    "pdf_pages": [
+      207
+    ],
+    "raw_block": "Produce Flame (Alteration)\nSphere: Elemental (Fire)\nRange: 0\nComponents: V, S\nDuration: 1 round/level\nCasting Time: 5\nArea of Effect: Special\nSaving Throw: None\nA bright flame, equal in brightness to a\ntorch, springs forth from the caster’s palm\nwhen he casts a produce flame spell. The\nflame does not harm the caster, but it is hot\nand it causes the combustion of flammable\nmaterials (paper, cloth, dry wood, oil, etc.).\nThe caster is capable of hurling the magical\nflame as a missile, with a range of 40 yards\n(considered short range). The flame flashes\non impact, igniting combustibles within a\nthree-foot diameter of its center of impact,\nand then it goes out. A creature struck by\nthe flame suffers ld4+1 points of damage\nand, if combustion occurs, must spend a\nround extinguishing the fire or suffer addi-\ntional damage assigned by the DM until the\nfire is extinguished. A miss is resolved as a\ngrenade-like missile. If any duration re-\nmains to the spell, another flame immedi-\nately appears in the caster’s hand. The caster\ncan hurl a maximum of one flame per level,\nbut no more than one flame per round.\nThe caster can snuff out magical flame\nany time he desires, but fire caused by the\nflame cannot be so extinguished. This spell\ndoes not function under water."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Produce Flame",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "0",
+      "components": "V, S",
+      "duration": "1 round/level",
+      "casting_time": "5",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "mains to the spell, another flame immedi- ately appears in the caster’s hand. The caster can hurl a maximum of one flame per level, but no more than one flame per round. The caster can snuff out magical flame any time he desires, but fire caused by the flame cannot be so extinguished. This spell does not function under water."
+    },
+    "quality_flags": []
+  }
+}

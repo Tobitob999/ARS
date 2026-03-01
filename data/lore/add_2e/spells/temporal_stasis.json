@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "temporal_stasis",
+  "name": "Temporal Stasis",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Temporal Stasis (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "ninth",
+    "book_pages": [
+      197
+    ],
+    "pdf_pages": [
+      198
+    ],
+    "raw_block": "Temporal Stasis (Alteration)\nRwemible\nRange: 10 yards\nComponents: V, S, M\nDuration: Permanent\nCasting Time: 9\nArea of Effect: One creature\nSaving Throw: None\nUpon casting this spell, the wizard places\nthe recipient creature into a state of sus-\npended animation. This cessation of time\nmeans that the creature does not grow older.\nIts body functions virtually cease. This state\npersists until the magic is removed by a dis-\npel magic spell or the reverse of the spell\nltemporul reinstatement) is uttered. Note\nthat the reverse requires only a single worc\nand no somatic or material components.\nThe material component of a temporu\nstasis spell is a powder composed of dia.\nmond, emerald, ruby, and sapphire dust,\neach crushed stone of at least 100 gp value"
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Temporal Stasis",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "10 yards",
+      "components": "V, S, M",
+      "duration": "Permanent",
+      "casting_time": "9",
+      "area_of_effect": "One creature",
+      "saving_throw": "None",
+      "description_excerpt": "Upon casting this spell, the wizard places the recipient creature into a state of sus- pended animation. This cessation of time means that the creature does not grow older. Its body functions virtually cease. This state persists until the magic is removed by a dis- pel magic spell or the reverse of the spell ltemporul reinstatement) is uttered. Note that the reverse requires only a single worc and no somatic or material components. The material component of a temporu stasis spell is a powder composed of dia. mond, emerald, ruby, and sapphire dust, each crushed stone of at least 100 gp value"
+    },
+    "quality_flags": []
+  }
+}

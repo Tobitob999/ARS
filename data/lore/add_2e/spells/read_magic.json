@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "read_magic",
+  "name": "Read Magic",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Read Magic (Divination) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": null,
+    "book_pages": [
+      137
+    ],
+    "pdf_pages": [
+      138
+    ],
+    "raw_block": "Read Magic (Divination)\nRange: 0\nComponents: V, S, M\nDuration: 2 rounds/level\nCasting Time: 1 round\nArea of Effect: Special\nSaving Throw: None\nBy means of a read magic spell, the wiz-\nard is able to read magical inscriptions on\nobjects-books, scrolls, weapons, and the\nlike-that would otherwise be totally unin-\ntelligible. (The personal books of the wiz-\n137\nard, and works already magically read, gre\nintelligible.) This deciphering does not nor-\nmally invoke the magic contained in the\nwriting, although it may do so in the case of\na cursed scroll. Furthermore, once the spell\nis cast and the wizard has read the magical\ninscription, he is thereafter able to read that\nparticular writing without recourse to the\nuse of the read magic spell. The duration of\nthe spell is two rounds per level of experi-\nence of the spellcaster; the wizard can read\none page or its equivalent per round.\nThe wizard must have a clear crystal or\nmineral prism, which is not expended, to\ncast the spell."
+  },
+  "mechanics": {
+    "school_or_type": "Divination",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Read Magic",
+      "canonical_name_guess": null,
+      "school_or_type": "Divination",
+      "range": "0",
+      "components": "V, S, M",
+      "duration": "2 rounds/level",
+      "casting_time": "1 round",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "the spell is two rounds per level of experi- ence of the spellcaster; the wizard can read one page or its equivalent per round. The wizard must have a clear crystal or mineral prism, which is not expended, to cast the spell."
+    },
+    "quality_flags": []
+  }
+}

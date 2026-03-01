@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "magical_vestment",
+  "name": "Magical Vestment",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Magical Vestment (Enchantment) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "third",
+    "book_pages": [
+      211
+    ],
+    "pdf_pages": [
+      212
+    ],
+    "raw_block": "Magical Vestment (Enchantment)\nSphere: Protection\nRange: Touch\nComponents: V, S, M\nDuration: 5 rounds/level\nCasting Time: 1 round\nArea of Effect: The caster\nSaving Throw: None\nThis spell enchants the caster’s vestment,\nproviding protection at least the equivalent\nof chain mail (AC 5). The vestment gains a\n+1 enchantment for each three levels of the\npriest beyond 5th level, to a maximum of\nAC 1 at 17th level. The magic lasts for five\nrounds per level of the caster, or until the\ncaster loses consciousness. If the vestment is\nworn with other armors, only the best AC\n(either the armor or the vestment) is ud-\nthis protection is not cumulative with any\nother AC protection.\nment to be enchanted and the pri\nsymbol, which are not expended."
+  },
+  "mechanics": {
+    "school_or_type": "Enchantment",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Magical Vestment",
+      "canonical_name_guess": null,
+      "school_or_type": "Enchantment",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "5 rounds/level",
+      "casting_time": "1 round",
+      "area_of_effect": "The caster",
+      "saving_throw": "None",
+      "description_excerpt": "This spell enchants the caster’s vestment, providing protection at least the equivalent of chain mail (AC 5). The vestment gains a +1 enchantment for each three levels of the priest beyond 5th level, to a maximum of AC 1 at 17th level. The magic lasts for five rounds per level of the caster, or until the caster loses consciousness. If the vestment is worn with other armors, only the best AC (either the armor or the vestment) is ud- this protection is not cumulative with any other AC protection. ment to be enchanted and the pri symbol, which are not expended."
+    },
+    "quality_flags": []
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "schema_version": "1.1.0",
+  "category": "equipment_catalog_raw",
+  "tags": [
+    "add_2e",
+    "equipment",
+    "catalog",
+    "ocr_derived"
+  ],
+  "summary": "Bereinigter, maschinell extrahierter Ausruestungskatalog aus Kapitel 6 (Preiszeilen).",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "chapter": 6,
+    "book_pages": [
+      66,
+      79
+    ],
+    "raw_reference_file": "data/lore/add_2e/chapters/chapter_06_money_and_equipment.json",
+    "entry_count": 34
+  },
+  "mechanics": {
+    "parser": "line_price_pattern_v2",
+    "quality_note": "OCR-bedingte Schreibfehler bleiben moeglich; nur gefilterte Preiszeilen.",
+    "entries": [
+      {
+        "item": "Chain",
+        "price": "500 gp",
+        "raw_line": "Chain 500 gP"
+      },
+      {
+        "item": "Full plate",
+        "price": "2,000 gp",
+        "raw_line": "Full plate 2,000 gP"
+      },
+      {
+        "item": "Full scale",
+        "price": "1,000 gp",
+        "raw_line": "Full scale 1,000 gP"
+      },
+      {
+        "item": "Leather or padded",
+        "price": "150 gp",
+        "raw_line": "Leather or padded 150 gp"
+      },
+      {
+        "item": "Bit and bridle",
+        "price": "15 sp",
+        "raw_line": "Bit and bridle 15 sp"
+      },
+      {
+        "item": "Cart hames",
+        "price": "2 gp",
+        "raw_line": "Cart hames 2gP"
+      },
+      {
+        "item": "Halter",
+        "price": "5 cp",
+        "raw_line": "Halter 5cP"
+      },
+      {
+        "item": "Horseshoes & shoeing",
+        "price": "1 gp",
+        "raw_line": "Horseshoes & shoeing 1 gp Saddle -"
+      },
+      {
+        "item": "Pack",
+        "price": "5 gp",
+        "raw_line": "Pack 5gP"
+      },
+      {
+        "item": "Riding",
+        "price": "10 gp",
+        "raw_line": "Riding 10 gP Saddle bags -"
+      },
+      {
+        "item": "Large",
+        "price": "4 gp",
+        "raw_line": "Large 4gP"
+      },
+      {
+        "item": "Small",
+        "price": "3 gp",
+        "raw_line": "Small 3gP"
+      },
+      {
+        "item": "Saddle blanket",
+        "price": "3 sp",
+        "raw_line": "Saddle blanket 3 SP Yoke -"
+      },
+      {
+        "item": "Horse",
+        "price": "5 gp",
+        "raw_line": "Horse 5gP"
+      },
+      {
+        "item": "ox",
+        "price": "3 gp",
+        "raw_line": "ox 3gP"
+      },
+      {
+        "item": "Sewing needle",
+        "price": "5 sp",
+        "raw_line": "Sewing needle 5 SP"
+      },
+      {
+        "item": "Signal whistle",
+        "price": "8 sp",
+        "raw_line": "Signal whistle 8 SP"
+      },
+      {
+        "item": "personal seal",
+        "price": "5 gp",
+        "raw_line": "personal seal 5 gP"
+      },
+      {
+        "item": "Soap (per lb.)",
+        "price": "5 sp",
+        "raw_line": "Soap (per lb.) 5 SP 1"
+      },
+      {
+        "item": "Pavilion",
+        "price": "100 gp",
+        "raw_line": "Pavilion 100 gP"
+      },
+      {
+        "item": "Small",
+        "price": "5 gp",
+        "raw_line": "Small 5gP 10"
+      },
+      {
+        "item": "Thieves' picks",
+        "price": "30 gp",
+        "raw_line": "Thieves' picks 30 gP 1"
+      },
+      {
+        "item": "Torch",
+        "price": "1 cp",
+        "raw_line": "Torch 1 CP 1"
+      },
+      {
+        "item": "Water clock",
+        "price": "1,000 gp",
+        "raw_line": "Water clock 1,000 gp 200"
+      },
+      {
+        "item": "Whetstone",
+        "price": "2 cp",
+        "raw_line": "Whetstone 2 CP 1"
+      },
+      {
+        "item": "Wineskin",
+        "price": "8 sp",
+        "raw_line": "Wineskin 8 SP 1"
+      },
+      {
+        "item": "Winter blanket",
+        "price": "5 sp",
+        "raw_line": "Winter blanket 5 SP 3"
+      },
+      {
+        "item": "Writing ink (per vial)",
+        "price": "8 gp",
+        "raw_line": "Writing ink (per vial) 8 gp *"
+      },
+      {
+        "item": "Arquebus * * *",
+        "price": "500 gp",
+        "raw_line": "Arquebus * * * 500gp 10 M P"
+      },
+      {
+        "item": "Composite long bow",
+        "price": "100 gp",
+        "raw_line": "Composite long bow 100 gp 3 L 7 -"
+      },
+      {
+        "item": "Light quarrel",
+        "price": "1 sp",
+        "raw_line": "Light quarrel 1 sp $ S P - ld4 ld4"
+      },
+      {
+        "item": "Mourner (per funeral)",
+        "price": "2 sp",
+        "raw_line": "Mourner (per funeral) 2 SP"
+      },
+      {
+        "item": "Sickle",
+        "price": "6 sp",
+        "raw_line": "Sickle 6 SP 3 S S 4 ld4+1 ld4"
+      },
+      {
+        "item": "Long sword",
+        "price": "15 gp",
+        "raw_line": "Long sword 15gp 4 M S 5 Id8 Id12"
+      }
+    ]
+  }
+}

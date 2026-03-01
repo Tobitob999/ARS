@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.2.1",
+  "id": "wish",
+  "name": "Wish",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Wish (ConjurationSummonjng) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "ninth",
+    "book_pages": [
+      197,
+      198
+    ],
+    "pdf_pages": [
+      198,
+      199
+    ],
+    "raw_block": "Wish (ConjurationSummonjng)\nRange: Unlimited\nComponents: V\nDuration: Special\nCasting Time: Special\nArea of Effect: Special\nSaving Throw: Special\nThe wish speN is a more potent version a\na limited wish. If it is used to alter nrlity\nwith respect to damage sustained by a party,\nto bring a dead creature to lik, or to escape\nfrom a difficult situation by lifting the spell-\ncaster (and his party) from one place to\nanother, it will not cause the wizard any die\nability. Other forms of wishes, however,\ncause the spellcaskr to weaken (-3 on\nStrength) and require a days of bed rest\ndue to the stresse6 the wish places upan\ntime, space, and his body. Regarb of\nwhat is wished for, the exact terminology of\nthe wish spell is likely to be carried out.\nCasting a wish spell ages the caster five\nyears.\nThis discretionary power of the DM js\nnecessary in order to maintain &arm bd-\nmce. As wishing another c~hllc dead\nwould be grossly unfair, for example, yoon\nDM might well advance the spelkpsta to a\n:uture period in which the creature is no\nonger alive, effectively putting the wishing\n:haracter out of the campainn.\n/\nhiest Spells Note\nFollowing the name\nof each priest spell, notice that a magical\nschool is given in parentheses. This is #or\nderence purposes only. For instance, Wis-\ndom bonuses apply to saving throws vs.\nenchantment/charm spells. If the appropri-\nate magical school were not listed with\npriest spells, it would be hard to figure out\nwhich spells were considered to be\nenchantment/charms. There are a few other\nreasons one might need to know this infor-\nmation. The priest spells are not really orga-\nnized into magical schools, but rather into\nspheres of influence, as described on page 34\nand in Chapter 7 Magic.\nSee Appendix 2 on page 129 for explana-\ntions of what the spell parameters (Range,\nComponents, etc:) mean.\n6:\nFirstmLevel Spells"
+  },
+  "mechanics": {
+    "school_or_type": "ConjurationSummonjng",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Wish",
+      "canonical_name_guess": null,
+      "school_or_type": "ConjurationSummonjng",
+      "range": "Unlimited",
+      "components": "V",
+      "duration": "Special",
+      "casting_time": "Special",
+      "area_of_effect": "Special",
+      "saving_throw": "Special",
+      "description_excerpt": "The wish speN is a more potent version a a limited wish. If it is used to alter nrlity with respect to damage sustained by a party, to bring a dead creature to lik, or to escape from a difficult situation by lifting the spell- caster (and his party) from one place to another, it will not cause the wizard any die ability. Other forms of wishes, however, cause the spellcaskr to weaken (-3 on Strength) and require a days of bed rest due to the stresse6 the wish places upan time, space, and his body. Regarb of what is wished for, the exact terminology of the wish spell is likely to be carried out. Casting a wish spell ages the caster five years. This discretionary power of the DM js necessary in order to maintain &arm bd- mce. As wishing another c~hllc dead would be grossly unfair, for example, yoon DM might well advance the spelkpsta to a :uture period in which the creature is no onger aliv"
+    },
+    "quality_flags": [
+      "trimmed_merged_block"
+    ]
+  }
+}

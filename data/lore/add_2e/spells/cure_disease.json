@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "cure_disease",
+  "name": "Cure Disease",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Cure Disease (Abjuration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "third",
+    "book_pages": [
+      209,
+      210
+    ],
+    "pdf_pages": [
+      210,
+      211
+    ],
+    "raw_block": "Cure Disease (Abjuration)\nReversible\nSpheld: Necromantic\nRange: Touch\nComponents: V, S\nDuration: Permanent\nCasting Time: 1 round\nArea of Effect: Creature touched\nSaving Throw: None\nThis spell enables the caster to cure most\ndiseases by placing his hand upon the dis-\neased creature. The affliction rapidly disap-\npears thereafter, making the cured creature\nwhole and well in from one turn to 10 days,\ndepending on the type of disease and the\nstate of its advancement when the cure took\nplace. (The DM must adjudicate these con-\nditions.) The spell is also effective against\nparasitic monsters such as green slime, rot\ngrubs, and others. When cast by a priest of\nat least 12th level, this spell cutes lycanthro-\npy if cast within three days of the infection.\nNote that the spell does not prevent reoccur-\nrence of a disease if the recipient is agair\nexposed.\nThe reverse of the cure disease spell is\ncuuse disease. To be effective, the priest\nmust touchthe inknded victim, and the vic-\ntim must fail a saving throw vs. spell, The\nseverity of the disease is decided by\npriest (debilitating or fatal). The\ndetails of the disease are decided by the DM,\nbut the following are typical:\nDebilitating-The disease takes effect in\nld6 turns, after which the creature loses 1\npint of Strength per hour until his Strmgth\nis reduced to 2 or less, at which time the\nrecipient is weak and virtually helpless. If a\ncreature has no Strength rating, it loses 10%\nof its hit points per Strength loss, down to\n10% of its original hit points. If the disease\nalso affects hit points, use the more severe\npenalty. Recovery requires a period of ld3\nWeeks.\nFutaf-This wasting disease is effeaive\nimmediately. Infected creatures receive no\nbenefit from cure wound spells while the\n'7 ... .-\n.. I... I\n.* ..\n111 Priest Spells (3rd Level)\ndisease is in effect; wounds heal at only 10%\nof the natural rate. The disease proves fatal\nwithin ld6 months and can be cured only by\nmagical mans. Each month the disease pro-\ngresses, the creature loses 2 points of Cha-\nrisma, permanently.\nThe inflicted disease can be cured by the\ncure disease spell. Lycanthropy cannot be\ncaused."
+  },
+  "mechanics": {
+    "school_or_type": "Abjuration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Cure Disease",
+      "canonical_name_guess": null,
+      "school_or_type": "Abjuration",
+      "range": "Touch",
+      "components": "V, S",
+      "duration": "Permanent",
+      "casting_time": "1 round",
+      "area_of_effect": "Creature touched",
+      "saving_throw": "None",
+      "description_excerpt": "This spell enables the caster to cure most diseases by placing his hand upon the dis- eased creature. The affliction rapidly disap- pears thereafter, making the cured creature whole and well in from one turn to 10 days, depending on the type of disease and the state of its advancement when the cure took place. (The DM must adjudicate these con- ditions.) The spell is also effective against parasitic monsters such as green slime, rot grubs, and others. When cast by a priest of at least 12th level, this spell cutes lycanthro- py if cast within three days of the infection. Note that the spell does not prevent reoccur- rence of a disease if the recipient is agair exposed. The reverse of the cure disease spell is cuuse disease. To be effective, the priest must touchthe inknded victim, and the vic- tim must fail a saving throw vs. spell, The severity of the disease is decided by priest (debili"
+    },
+    "quality_flags": []
+  }
+}

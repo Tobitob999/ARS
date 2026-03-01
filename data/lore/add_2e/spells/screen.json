@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "screen",
+  "name": "Screen",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Screen (Divinatiodlllusion) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "eighth",
+    "book_pages": [
+      192
+    ],
+    "pdf_pages": [
+      193
+    ],
+    "raw_block": "Screen (Divinatiodlllusion)\nRange: 0\nComponents: V, S\n,mation: 1 hour/level\nIasting Time: 1 turn\nirea of Effect: Wfoot cube/level\nSaving Throw: Special\nThis spell combines several elements to\ncreate a powerful protection from scrying\nand direct observation. When the spell is\ncast, the wizard dictates what will and will\nnot be observed in the area of effect. The il-\nlusion created must be stated in general\nterms. Thus the caster could specify the illu-\nsion of him and another playing chess for\nthe duration of the spell, but he could not\nhave the illusionary chess players take a\nbreak, make dinner, and then resume their\n;ame. He could have a crossroads appear\nquiet and empty even while an army is actu-\nally passing through the area. He could\nspecify that no one be seen (including pass-\ning strangers), that his troops be unde-\ntected, or even that every fifth man or unit\nshould be visible. Once the conditions are\nset, they cannot be changed.\nAttempts to scry the area automatically\nrt the image stated by the caster with no\nsaving throw allowed. Sight and sound are\nappropriate to the illusion created. A band\nof men standing in a meadow could be con-\ncealed as an empty meadow with birds\nchirping, etc. Direct observation may allow\na saving throw (as per a normal illusion), if\nthere is cause to disbelieve what is seen. Cer-\ntainly onlookers in the area would become\nsuspicious if the column of a marching army\nceI the illusion or necessarily allow a saving\nthrow, assuming care is taken by the hidden\nleings to stay out of the way of those af-\nmted by the illusion.\nhalf\namage\nto stone"
+  },
+  "mechanics": {
+    "school_or_type": "Divinatiodlllusion",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Screen",
+      "canonical_name_guess": null,
+      "school_or_type": "Divinatiodlllusion",
+      "range": "0",
+      "components": "V, S",
+      "duration": null,
+      "casting_time": null,
+      "area_of_effect": null,
+      "saving_throw": "Special",
+      "description_excerpt": "have the illusionary chess players take a break, make dinner, and then resume their ;ame. He could have a crossroads appear quiet and empty even while an army is actu- ally passing through the area. He could specify that no one be seen (including pass- ing strangers), that his troops be unde- tected, or even that every fifth man or unit should be visible. Once the conditions are set, they cannot be changed. Attempts to scry the area automatically rt the image stated by the caster with no saving throw allowed. Sight and sound are appropriate to the illusion created. A band of men standing in a meadow could be con- cealed as an empty meadow with birds chirping, etc. Direct observation may allow a saving throw (as per a normal illusion), if there is cause to disbelieve what is seen. Cer- tainly onlookers in the area would become suspicious if the column of a marching army ceI the illusion o"
+    },
+    "quality_flags": [
+      "missing_standard_fields"
+    ]
+  }
+}

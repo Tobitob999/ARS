@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "rainbow",
+  "name": "Rainbow",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Rainbow (Evocation, Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "fourth",
+    "book_pages": [
+      224
+    ],
+    "pdf_pages": [
+      225
+    ],
+    "raw_block": "Rainbow (Evocation, Alteration)\nSphere: Weather, Sun\nRange: 120 yards\nComponents: V, S, M\nDuration: 1 round/level\nCasting Time: 7\nArea of Effect: Special\nSaving Throw: None\nIn order to cast this spell, the priest must\nbe in sight of a rainbow of any sort, or have\na special component (see below). The rain-\nbow spell has two applications, and the\npriest can choose the desired one at the time\nof casting. These applications are as fol-\nlows:\nBow The spell creates a shimmering,\nmulti-layered short composite bow of rain-\nbow hues. It is light and easy to pull, so that\nany character can use it without penalty for\nnon-proficiency. It is magical: Each of its\nshimmering missiles is the equivalent of a\n+2 weapon, including attack and damage\nbonuses. Magic resistance can negate the\neffect of any missile fired from the bow. The\nbow fires seven missiles before disappear-\ning. It can be fired up to four times per\nround. Each time a missile is fired, one hue\nleaves the bow, corresponding to the color\nof arrow that is released. Each color of\narrow has the ability to cause double dam-\nage to certain creatures, as follows:\nRed-firedwellerdusers and fire elementals\nOrange-creatures or constructs of clay,\nsand, earth, stone or similar mate-\nrials, and earth elementals\nYellow-vegetable opponents (including\nfungus creatures, shambling\nmounds, treants, etc.)\nGreen-aquatic creatures and water ele-\nmentals\nBlue-aerial creatures, electricity-using\ncreatures, and air elementals.\nIndigo-acid-using or poison-using crea-\ntures\n224 -7\nViolet-metallic or regenerating creatures\nWhen the bow is drawn, an arrow of the\nappropriate color magically appears,\nnocked and ready. If no color is reqwsted,\nor a color that has already been used is\nasked for, then the next arrow (in the order\nof the spectrum) appears.\nBridge: The caster causes the rainbow to\nform a seven-hued bridge up to three feet\nwide per level of the caster. It must be at\nleast 20 feet long syld can be as long as 1u)\nyards, according to the caster‘s desire. It\nlasts as long as the spell duration or until\nordered out of existence by the caster.\nThe components for this spell are the\npriest’s holy symbol and a vial of holy\nwater. If no rainbow is in the vicinity, the\ncaster can substitute a diamond of not less\nthan LOO0 gp value, specially prepared with\nbless and prpyer spells while in sight of a\nrainbow. The holy water and diamond dis-\nappear when the spell is cast."
+  },
+  "mechanics": {
+    "school_or_type": "Evocation, Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Rainbow",
+      "canonical_name_guess": null,
+      "school_or_type": "Evocation, Alteration",
+      "range": "120 yards",
+      "components": "V, S, M",
+      "duration": "1 round/level",
+      "casting_time": "7",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "ordered out of existence by the caster. The components for this spell are the priest’s holy symbol and a vial of holy water. If no rainbow is in the vicinity, the caster can substitute a diamond of not less than LOO0 gp value, specially prepared with bless and prpyer spells while in sight of a rainbow. The holy water and diamond dis- appear when the spell is cast."
+    },
+    "quality_flags": []
+  }
+}

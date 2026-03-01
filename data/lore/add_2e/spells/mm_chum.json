@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "mm_chum",
+  "name": "Mm Chum",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Mm Chum (EnchantmentKharm) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "eighth",
+    "book_pages": [
+      190
+    ],
+    "pdf_pages": [
+      191
+    ],
+    "raw_block": "Mm Chum (EnchantmentKharm)\nRange: 5 yards/level\nComponent: V\nDuration: Special\nCasting Time: 8\nArea of Effect: Special\nSaving Throw: Neg.\nA mass charm spell affects either persons\nor monsters just as a charm person spell or a\n&arm monster spell. The mass charm spell,\nhowever, affects a number of creatures\nwhose combined levels of experience or Hit\nDice does not exceed twice the level of expe-\nrience of the spellcaster. All affected crea-\ntures must be within the spell range and\nwithin a 30-foot cube. Note that the crea-\ntures' saving throws are unaffected by the\nnumber of recipients (see the charm person\nand charm monster spells), but all target\ncreatures are subject to a penalty of -2 on\ntheir saving throws because of the efficiency\nand power of this spell. The Wisdom bonus\nagainst charm spells does apply."
+  },
+  "mechanics": {
+    "school_or_type": "EnchantmentKharm",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Mm Chum",
+      "canonical_name_guess": null,
+      "school_or_type": "EnchantmentKharm",
+      "range": "5 yards/level",
+      "components": null,
+      "duration": "Special",
+      "casting_time": "8",
+      "area_of_effect": "Special",
+      "saving_throw": "Neg.",
+      "description_excerpt": "A mass charm spell affects either persons or monsters just as a charm person spell or a &arm monster spell. The mass charm spell, however, affects a number of creatures whose combined levels of experience or Hit Dice does not exceed twice the level of expe- rience of the spellcaster. All affected crea- tures must be within the spell range and within a 30-foot cube. Note that the crea- tures' saving throws are unaffected by the number of recipients (see the charm person and charm monster spells), but all target creatures are subject to a penalty of -2 on their saving throws because of the efficiency and power of this spell. The Wisdom bonus against charm spells does apply."
+    },
+    "quality_flags": [
+      "missing_standard_fields"
+    ]
+  }
+}

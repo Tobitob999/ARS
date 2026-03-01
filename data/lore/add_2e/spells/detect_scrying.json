@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "detect_scrying",
+  "name": "Detect Scrying",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Detect Scrying (Divination) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      155
+    ],
+    "pdf_pages": [
+      156
+    ],
+    "raw_block": "Detect Scrying (Divination)\nRange: 0\nComponents: V, S, M\nDuration: ld6 turns + 1 turn/level\nCasting Time: 3\nArea of Effect: 120-foot radius\nSaving Throw: Special\nBy means of this spell, the wizard imme-\ndiately becomes aware of any attempt to\nobserve him by means of clairvoyance,\nclairaudience, or magic mirror. This also\nreveals the use of crystal balls or other magi-\ncal scrying devices, provided the attempt is\nwithin the area of effect of the spell. Since\nthe spell is centered on the spellcaster, it\nmoves with him, enabling him to “sweep”\nareas for the duration of the spell.\nWhen a scrying attempt is detected, the\nscryer must immediately roll a saving\nthrow. If this is faild, the identity and gen-\neral location of the scryer immediately\nbecome known to the wizard who cast this\nspell. The general location is a direction and\nsignificant landmark close to the scryer.\nThus, the caster might learn, ’The wizard\nSniggel spies on us from east, under the\nstairs,” or, ‘You are watched by Asquil in the\ncity of Samarquol.”\nThe material components for this spell are\na small piece of mirror and a miniature brass\nhearing trumpet."
+  },
+  "mechanics": {
+    "school_or_type": "Divination",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Detect Scrying",
+      "canonical_name_guess": null,
+      "school_or_type": "Divination",
+      "range": "0",
+      "components": "V, S, M",
+      "duration": "ld6 turns + 1 turn/level",
+      "casting_time": "3",
+      "area_of_effect": "120-foot radius",
+      "saving_throw": "Special",
+      "description_excerpt": "When a scrying attempt is detected, the scryer must immediately roll a saving throw. If this is faild, the identity and gen- eral location of the scryer immediately become known to the wizard who cast this spell. The general location is a direction and significant landmark close to the scryer. Thus, the caster might learn, ’The wizard Sniggel spies on us from east, under the stairs,” or, ‘You are watched by Asquil in the city of Samarquol.” The material components for this spell are a small piece of mirror and a miniature brass hearing trumpet."
+    },
+    "quality_flags": []
+  }
+}

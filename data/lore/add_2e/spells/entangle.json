@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "entangle",
+  "name": "Entangle",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Entangle (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "ninth",
+    "book_pages": [
+      200
+    ],
+    "pdf_pages": [
+      201
+    ],
+    "raw_block": "Entangle (Alteration)\nSphere: Plant\nRange: 80 yards\nComponents: V, S, M\nDuration: 1 turn\nCasting Time: 4\nArea of Effect: 40-fOOt cube\nSaving Throw: V2\ndanger is approached. The caster learns the\ngeneral nature of the danger (pit, snare, or\ndeadfall) but not its exact operation, nor\nhow to disarm it. Close examination, how-\never, enables the caster to sense what\nintended actions might trigger it. The spell\ndetects certain natural hazards-quicksand\n(snare), sinkholes (pit), or unsafe walls of\nnatural rock (deadfall). Other hazards, such\nas a cavern that floods during rain, an\nunsafe construction, or a naturally poison-\nous plant, are not revealed. The spell does\nnot detect magical traps (save those that\noperate by pit, deadfall, or snaring; see the\n2nd-level spell trip and the 3rd-level spell,\nsnare), nor those that are mechanically\ncomplex, nor does it detect snares or dead-\nfalls that have been rendered safe or inac-\nThe caster must have his holy symbol to\ncomplete the spell."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Entangle",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "80 yards",
+      "components": "V, S, M",
+      "duration": "1 turn",
+      "casting_time": "4",
+      "area_of_effect": "40-fOOt cube",
+      "saving_throw": "V2",
+      "description_excerpt": "danger is approached. The caster learns the general nature of the danger (pit, snare, or deadfall) but not its exact operation, nor how to disarm it. Close examination, how- ever, enables the caster to sense what intended actions might trigger it. The spell detects certain natural hazards-quicksand (snare), sinkholes (pit), or unsafe walls of natural rock (deadfall). Other hazards, such as a cavern that floods during rain, an unsafe construction, or a naturally poison- ous plant, are not revealed. The spell does not detect magical traps (save those that operate by pit, deadfall, or snaring; see the 2nd-level spell trip and the 3rd-level spell, snare), nor those that are mechanically complex, nor does it detect snares or dead- falls that have been rendered safe or inac- The caster must have his holy symbol to complete the spell."
+    },
+    "quality_flags": []
+  }
+}

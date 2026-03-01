@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "phantasmal_force",
+  "name": "Phantasmal Force",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Phantasmal Force (IllusiodPhantasm) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": null,
+    "book_pages": [
+      137
+    ],
+    "pdf_pages": [
+      138
+    ],
+    "raw_block": "Phantasmal Force (IllusiodPhantasm)\nRange: 60 yards + 10 yarddlevel\nComponents: V, S, M\nDuration: Special\nCasting Time: 1\nAreaofEffect:4OOsq.ft. + lOOsq.ft./level\nSaving Throw: Special\nThis spell creates the illusion of any\nobject, creature, or force, as long as it is\nwithin the boundaries of the spell's area of\neffect. The illusion is visual and affects all\nbelieving creatures (undead are immune)\nthat view it. It does not create sound, smell,\nor temperature. Effects that depend on these\nsenses usually fail. The illusion lasts until\nstruck by an opponent-unless the spell-\ncaster causes the illusion to react\nappropriately-or until the wizard ceases\nconcentration upon the spell (due to desire,\nmoving, or a successful attack that causes\ndamage). Saving throws for illusions are\nexplained under Illusion in the Magic chap-\nter (page 80) and on page 130. Creatures\nthat disbelieve the illusion see it for what it\nis and add +4 to dates' saving throws if\nthis knowledge can be communicated effec-\ntively. Creatures believing the illusion are\nsubject to its effects, again as explained\nunder Illusions.\nThe illusionary effect can be moved by\nthe caster within the limits of the areatof\neffect. The DM has to rule on the effective-\nness of this spell; detailed guidelines are out-\nlined on page 130 and in Chapter 7: Magic.\nThe material component of the spell is a\nbit of fleece."
+  },
+  "mechanics": {
+    "school_or_type": "IllusiodPhantasm",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Phantasmal Force",
+      "canonical_name_guess": null,
+      "school_or_type": "IllusiodPhantasm",
+      "range": "60 yards + 10 yarddlevel",
+      "components": "V, S, M",
+      "duration": "Special",
+      "casting_time": "1",
+      "area_of_effect": null,
+      "saving_throw": "Special",
+      "description_excerpt": "This spell creates the illusion of any object, creature, or force, as long as it is within the boundaries of the spell's area of effect. The illusion is visual and affects all believing creatures (undead are immune) that view it. It does not create sound, smell, or temperature. Effects that depend on these senses usually fail. The illusion lasts until struck by an opponent-unless the spell- caster causes the illusion to react appropriately-or until the wizard ceases concentration upon the spell (due to desire, moving, or a successful attack that causes damage). Saving throws for illusions are explained under Illusion in the Magic chap- ter (page 80) and on page 130. Creatures that disbelieve the illusion see it for what it is and add +4 to dates' saving throws if this knowledge can be communicated effec- tively. Creatures believing the illusion are subject to its effects, again as explai"
+    },
+    "quality_flags": [
+      "missing_standard_fields"
+    ]
+  }
+}

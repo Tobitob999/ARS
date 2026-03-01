@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "dust_devil",
+  "name": "Dust Devil",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Dust Devil (ConjuratiodSurnmoning) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "second",
+    "book_pages": [
+      204
+    ],
+    "pdf_pages": [
+      205
+    ],
+    "raw_block": "Dust Devil (ConjuratiodSurnmoning)\nSphere: Elemental (Air)\nRange: 30 yards\nComponents: V, S\nDuration: 2 rounds/level\nCasting Time: 2 rounds\nArea of Effect: Special\nSaving Throw: None\nThis spell enables a priest to conjure up a\nweak air elemental-a dust devil of AC 4,2\nHD, MV 180 feet per round, one attack for\nld4 points of damage, which can be hit by\nnormal weapons. The dust devil appears as\na small whirlwind one foot in diameter at its\nbase, five feet tall, and three to four feet\nacross at the top. It moves as directed by the\npriest, but dissipates if it is ever separated\nfrom the caster by more than 30 yards. Its\nwinds are sufficient to put out torches, small\ncampfires, exposed lanterns, and other\nsmall, open flames of non-magical origin.\nThe dust devil can hold a gas cloud or a\ncreature in gaseous form at bay or push it\naway from the caster (though it cannot\ndamage or disperse such a cloud). If skim-\nming along the ground in an area of loose\ndust, sand, or ash, the dust devil picks up\nthose particles and disperses them in a 11)-\nfootdiameter cloud centered on itself. The\ncloud obscures normal vision, and creatures\ncaught within are blinded while inside and\nfor one round after they emerge. A spell-\ncaster caught in the dust devil or its cloud\nwhile casting must make a saving throw vs.\nspell to keep his concentration, or the spell\nis ruined. Any creature native to the ele-\nmental plane of Air-even another dust\ndevil-can disperse a dust devil with a sin-\ngle hit."
+  },
+  "mechanics": {
+    "school_or_type": "ConjuratiodSurnmoning",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Dust Devil",
+      "canonical_name_guess": null,
+      "school_or_type": "ConjuratiodSurnmoning",
+      "range": "30 yards",
+      "components": "V, S",
+      "duration": "2 rounds/level",
+      "casting_time": "2 rounds",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "This spell enables a priest to conjure up a weak air elemental-a dust devil of AC 4,2 HD, MV 180 feet per round, one attack for ld4 points of damage, which can be hit by normal weapons. The dust devil appears as a small whirlwind one foot in diameter at its base, five feet tall, and three to four feet across at the top. It moves as directed by the priest, but dissipates if it is ever separated from the caster by more than 30 yards. Its winds are sufficient to put out torches, small campfires, exposed lanterns, and other small, open flames of non-magical origin. The dust devil can hold a gas cloud or a creature in gaseous form at bay or push it away from the caster (though it cannot damage or disperse such a cloud). If skim- ming along the ground in an area of loose dust, sand, or ash, the dust devil picks up those particles and disperses them in a 11)- footdiameter cloud centered on itse"
+    },
+    "quality_flags": []
+  }
+}

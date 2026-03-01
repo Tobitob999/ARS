@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "reverse_gravity",
+  "name": "Reverse Gravity",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Reverse Gravity (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "seventh",
+    "book_pages": [
+      186
+    ],
+    "pdf_pages": [
+      187
+    ],
+    "raw_block": "Reverse Gravity (Alteration)\nRange: 5 yarddlevel\nComponents: V, S, M\nDuration: 1 round/level\nCasting Time: 7\nArea of Effect: 30 feet X 30 feet\nSaving Throw: None\nThis spell reverses gravity in the area of\neffect, causing all unattached objects and\ncreatures within it to \"fall\" upward. The\nreverse gravity lasts as long as the caster\ndesires or until the spell expires. If some\nsolid object is encountered in this \"fall,\" the\nobject strikes it in the same manner as it\nwould during a normal downward fall. At\nthe end of the spell duration, the affected\nobjects and creatures fall downward. As the\nspell affects an area, objects tens, hundreds,\nor even thousands of feet in the air above\nthe area can be affected.\nThe material components of this spell are\na lodestone and iron filings.\nsequcst-\n(IllusialdPhantasm, Abjuration)\nRange: Touch\nComponents: V, S, M\nDuration: 1 week + 1 day/level\nCasting Time: 7\nArea of Effect: &foot cube/level\nSaving Throw: Special\nWhen cast, this spell not only prevents\ndetection and location spells from working\nto detect or locate the objects affected by the\nsequester spell, it also renders the affected\nobject(s) invisible to any form of sight or\nseeing. Thus, a sequester spell can mask a\nsecret door, a treasure vault, or whatever.\nOf course, it does not render the subject\nproof from tactile discovery or from\ndevices, such as a robe of eyes or a gem of\nseeing. If cast upon a creature not desiring\nto be affected, a normal saving throw vs.\nspell is given. Living creatures (and even\nundead types) affected by a sequester spell\nbecome comatose and are effectively in a\nstate of suspended animation until the spell\nwears off or is dispelled.\nThe material components of the spell are\na basilisk eyelash, gum arabic, and a dram\nof whitewash.\nShadow Walk @lusion, Enchantment)\nRange: Touch\nComponents: V, S\nDuration: 6 turns/level\nCasting Time: 1\nArea of Effect: Special\nSaving Throw: None\nIn order to use the shadow walk spell, the\nwizard must be in an area of heavy\nshadows. The caster and any creature he\ntouches are then transported to the edge of\nthe Prime Material plane where it borders\nthe plane of Shadow. In this region the wiz-\nard can move at a rate of up to seven miles\nper turn, moving normally on the borders\nof the plane of Shadow but much more rap-\nidly relative to the Prime Material plane.\nThus rapid travel can be accomplished by\nmoving in the plane of Shadow and then\nstepping from the plane of Shadow to the\nPrime Material plane. The wizard knows\nwhere he will come out on the Prime Materi-\nal plane.\nThe shadow walk spell can also be wed to\ntravel to other planes that border on the\nplane of Shadow, but this requires the\npotentially perilous transit of the pkne of\nShadow to arrive at a border with andm\nplane of reality. Any creatures touched by\nthe wizard when shadow walk is cast also\nmake the transition to the borders of the\nplane of Shadow. They may opt to follow\nthe wizard, wander off into Shadowland, or\nstumble back into the Prime Material plane\n(50% chance for either result if\nunwilling to accompany the wiud i#wr tbr\nor abandoned by the wizard).\nplane of Shadow get a saving th.\ning the effect if successful.\n?!!&z!z lr/'\nI'"
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Reverse Gravity",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "5 yarddlevel",
+      "components": "V, S, M",
+      "duration": "1 round/level",
+      "casting_time": "7",
+      "area_of_effect": "30 feet X 30 feet",
+      "saving_throw": "None",
+      "description_excerpt": "In order to use the shadow walk spell, the wizard must be in an area of heavy shadows. The caster and any creature he touches are then transported to the edge of the Prime Material plane where it borders the plane of Shadow. In this region the wiz- ard can move at a rate of up to seven miles per turn, moving normally on the borders of the plane of Shadow but much more rap- idly relative to the Prime Material plane. Thus rapid travel can be accomplished by moving in the plane of Shadow and then stepping from the plane of Shadow to the Prime Material plane. The wizard knows where he will come out on the Prime Materi- al plane. The shadow walk spell can also be wed to travel to other planes that border on the plane of Shadow, but this requires the potentially perilous transit of the pkne of Shadow to arrive at a border with andm plane of reality. Any creatures touched by the wizard when sha"
+    },
+    "quality_flags": []
+  }
+}

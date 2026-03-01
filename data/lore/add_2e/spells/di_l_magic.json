@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "di_l_magic",
+  "name": "DI-l Magic",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "DI-l Magic (Abjuration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "third",
+    "book_pages": [
+      148
+    ],
+    "pdf_pages": [
+      149
+    ],
+    "raw_block": "DI-l Magic (Abjuration)\nRange: 120 yards\nComponents: V, S\nDuration: Instantaneous\nCasting Time: 3\nArea of Effect: 30-foot cube\nSaving Throw: None\nWhen a wizard casts this spell, it has a\nchance to neutralize or negate magic it\ncomes in contact with, as follows:\nFirst, it removes spells and spell-like ef-\nfects (including device effects and innate\nabilities) from creatures or objects. Second,\nit disrupts the casting or use of these in the\narea of effect at the instant the dispel is cast.\nThird, it destroys magical potions (which\nare treated as 12th level for purposes of this\nspell).\nEach effect or potion in the spell’s area is\nchecked to determine if it is dispelled. The\ncaster can always dispel his own magic; oth-\nerwise the chance to dispel depends on the\ndifference in level between the magical ef-\nfect and the caster. The base chance is 50%\n(11 or higher on ldZ0 to dispel). If the caster\nis higher level than the creator of the effect\nto be dispelled, the difference is subtracted\nfrom the number needed on ld20 to dispel\n(thus making it more likely that the dispel\nsucceeds); if the caster is of lower level, then\nthe difference is added to the number\nneeded on Id20 to dispel (making it less\nlikely that the dispel succeeds). A roll of 20\nalways succeeds and a roll of 1 always fails.\nThus, if a caster is 10 levels higher, only a\nroll of 1 prevents the effect from being dis-\npelled.\nA dispel magic spell does not affect a spe-\ncially enchanted item, such as a magical\nscroll, ring, wand, rod, staff, miscellaneous\nitem, weapon, shield, or armor, unless it is\ncast directly upon the item. This renders the\nitem nonoperational for ld4 rounds. An\nitem possessed and carried by a creature\ngains the creature’s saving throw against\nthis effect, otherwise it is automatically ren-\ndered nonoperational. An interdimensional\ninterface (such as a bag of holding) rendered\nnonoperational would be temporarily\nclosed. Note that an item’s physical proper-\nties are unchanged: a nonoperational magi-\ncal sword is still a sword.\nArtifacts and relics are not subject to this\nspell; however, some of their spell-like ef-\nfects may be, at the DMs option.\nNote that this spell can be very effective\nwhen used upon charmed and similarly be-\nguiled creatures. Certain spells or effects\ncannot be dispelled; these are listed in the\nspell descriptions."
+  },
+  "mechanics": {
+    "school_or_type": "Abjuration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "DI-l Magic",
+      "canonical_name_guess": null,
+      "school_or_type": "Abjuration",
+      "range": "120 yards",
+      "components": "V, S",
+      "duration": "Instantaneous",
+      "casting_time": "3",
+      "area_of_effect": "30-foot cube",
+      "saving_throw": "None",
+      "description_excerpt": "When a wizard casts this spell, it has a chance to neutralize or negate magic it comes in contact with, as follows: First, it removes spells and spell-like ef- fects (including device effects and innate abilities) from creatures or objects. Second, it disrupts the casting or use of these in the area of effect at the instant the dispel is cast. Third, it destroys magical potions (which are treated as 12th level for purposes of this spell). Each effect or potion in the spell’s area is checked to determine if it is dispelled. The caster can always dispel his own magic; oth- erwise the chance to dispel depends on the difference in level between the magical ef- fect and the caster. The base chance is 50% (11 or higher on ldZ0 to dispel). If the caster is higher level than the creator of the effect to be dispelled, the difference is subtracted from the number needed on ld20 to dispel (thus mak"
+    },
+    "quality_flags": []
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.2.1",
+  "id": "detect_polson",
+  "name": "Detect Polson",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Detect Polson (Divjnatlon) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "ninth",
+    "book_pages": [
+      199,
+      200
+    ],
+    "pdf_pages": [
+      200,
+      201
+    ],
+    "raw_block": "Detect Polson (Divjnatlon)\nSphere: Divination\nRange: 0\nComponents: V, S, M\nDuration: 1 turn + 1 roun\nCasting Time: 4\nArea of Effect: Special\nSaving Throw: None\npoison is present.\nu,"
+  },
+  "mechanics": {
+    "school_or_type": "Divjnatlon",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Detect Polson",
+      "canonical_name_guess": "Detect Poison",
+      "school_or_type": "Divjnatlon",
+      "range": "0",
+      "components": "V, S, M",
+      "duration": "1 turn + 1 roun",
+      "casting_time": "4",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "poison is present. u,"
+    },
+    "quality_flags": [
+      "canonical_name_guess_applied"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "speak_with_animals",
+  "name": "Speak With Animals",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Speak With Animals (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "second",
+    "book_pages": [
+      207
+    ],
+    "pdf_pages": [
+      208
+    ],
+    "raw_block": "Speak With Animals (Alteration)\nSphere: Animal, Divination\nRange: 0\nComponents: V, S\nDuration: 2 roundsAeve1\nCasting Time: 5\nArea of Effect: 1 animal within\nSaving Throw: None\nThis spell empowers the priest to compre-\nhend and communicate with any warm- or\ncold-blooded normal or giant animal that is\nnot mindless. The priest is able to ask ques-\ntions and receive answers of the creature, al-\nthough friendliness and cooperation are by\nno means assured. Furthermore, terseness\nand evasiveness are likely in basically wary\nand cunnirq creatures (the more stupid ones\nwill instead make inane comments). If the\nanimal is friendly or of the same general\nalignment as the priest, there is a possibility\nthat the animal will do some favor or service\nfor the priest. This possibility is determined\nby the DM. Note that this spell differs from\nthe speak with monsters spell, for this spell\nallows conversation only with normal or gi-\nant, non-fantastic creatures such as apes,\nbears, cats, dogs, elephants, and so on.\n3GfOOt radius of priest"
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Speak With Animals",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "0",
+      "components": "V, S",
+      "duration": "2 roundsAeve1",
+      "casting_time": "5",
+      "area_of_effect": "1 animal within",
+      "saving_throw": "None",
+      "description_excerpt": "This spell empowers the priest to compre- hend and communicate with any warm- or cold-blooded normal or giant animal that is not mindless. The priest is able to ask ques- tions and receive answers of the creature, al- though friendliness and cooperation are by no means assured. Furthermore, terseness and evasiveness are likely in basically wary and cunnirq creatures (the more stupid ones will instead make inane comments). If the animal is friendly or of the same general alignment as the priest, there is a possibility that the animal will do some favor or service for the priest. This possibility is determined by the DM. Note that this spell differs from the speak with monsters spell, for this spell allows conversation only with normal or gi- ant, non-fantastic creatures such as apes, bears, cats, dogs, elephants, and so on. 3GfOOt radius of priest"
+    },
+    "quality_flags": []
+  }
+}

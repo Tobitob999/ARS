@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "feather_fall",
+  "name": "Feather Fall",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Feather Fall (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": null,
+    "book_pages": [
+      134
+    ],
+    "pdf_pages": [
+      135
+    ],
+    "raw_block": "Feather Fall (Alteration)\nRange: 10 yarddlevel\nComponents: V\nDuration: 1 round/level\nCasting Time: 1\nArea of Effect: Special\nSaving Throw: None\nWhen this spell is cast, the creature(s) or\nobject(s) affected immediately assumes the\nmass of a piece of down. Rate of falling is in-\nstantly changed to a mere two feet per sec-\nond (120 feet per round), and no damage is\nincurred upon landing while the spell is in\neffect. However, when the spell duration\nceases, normal rate of fall occurs. The spell\ncan be cast upon the wizard or some other\ncreature or object up to the maximum range\nand lasts for one round for each level of the\nwizard. The feather fall affects one or more\nobjects or creatures in a 10-foot cube, as\nlong as the maximum weight of the crea-\ntures or objects does not exceed a combined\ntotal of 200 pounds plus 200 pounds per\nlevel of the spellcaster.\nFor example, a 2nd-level wizard has a\nrange of 20 yards, a duration of two rounds,\nand a weight limit of 600 pounds when cast-\ning this spell. The spell works only upon\nfree-falling, flying, or propelled objects\n(such as missiles). It does not affect a sword\nblow or a charging creature. Note that the\nspell can be effectively combined with gust\nof wind and similar spells."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Feather Fall",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "10 yarddlevel",
+      "components": "V",
+      "duration": "1 round/level",
+      "casting_time": "1",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "and a weight limit of 600 pounds when cast- ing this spell. The spell works only upon free-falling, flying, or propelled objects (such as missiles). It does not affect a sword blow or a charging creature. Note that the spell can be effectively combined with gust of wind and similar spells."
+    },
+    "quality_flags": []
+  }
+}

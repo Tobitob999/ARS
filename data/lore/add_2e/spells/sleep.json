@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "sleep",
+  "name": "Sleep",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Sleep (EnchantmentKharm) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": null,
+    "book_pages": [
+      138
+    ],
+    "pdf_pages": [
+      139
+    ],
+    "raw_block": "Sleep (EnchantmentKharm)\nRange: 30 yards\nComponents: V, S, M\nDuration: 5 rounds/level\nCasting Time: 1\nArea of Effect: Special\nSaving Throw: None\nWhen a wizard casts a sleep spell, he\ncauses a comatose slumber to come upon\none or more creatures (other than undead\nand certain other creatures specifically\nexcluded from the spell’s effects). All crea-\ntures to be affected by thesleep spell must be\nwithin 30 feet of each other. The number of\ncreatures that can be affected is a function of\nHit Dice or levels. The spell affects 2d4 Hit\nDice of monsters. Monsters with 4+3 Hit\nDice (4 Hit Dice plus 3 hit points) or more\nare unaffected. The center of the area of\neffect is determined by the spellcaster. The\ncreatures with the least Hit Dice are affected\nfirst, and partial effects are ignored,\nFor example, a wizard casts sleep at three\nkobolds, two gnolls, and an ogre. The roll\n(2d4) result is 4. All the kobolds and one\ngnoll are affected (1/z + 1/z + 1/z + 2 = 3%\nHit Dice). Note that the remainder is not\nenough to affect the last gnoll or the ogre.\nSlapping or wounding awakens affected\ncreatures but normal noise does not. Awak-\nening requires one entire round. Magically\nsleeping opponents can be attacked with\nsubstantial bonuses (see Combat, page 90).\nThe material component for this spell is a\npinch of fine sand, rose petals, or a live\ncricket."
+  },
+  "mechanics": {
+    "school_or_type": "EnchantmentKharm",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Sleep",
+      "canonical_name_guess": null,
+      "school_or_type": "EnchantmentKharm",
+      "range": "30 yards",
+      "components": "V, S, M",
+      "duration": "5 rounds/level",
+      "casting_time": "1",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "When a wizard casts a sleep spell, he causes a comatose slumber to come upon one or more creatures (other than undead and certain other creatures specifically excluded from the spell’s effects). All crea- tures to be affected by thesleep spell must be within 30 feet of each other. The number of creatures that can be affected is a function of Hit Dice or levels. The spell affects 2d4 Hit Dice of monsters. Monsters with 4+3 Hit Dice (4 Hit Dice plus 3 hit points) or more are unaffected. The center of the area of effect is determined by the spellcaster. The creatures with the least Hit Dice are affected first, and partial effects are ignored, For example, a wizard casts sleep at three kobolds, two gnolls, and an ogre. The roll (2d4) result is 4. All the kobolds and one gnoll are affected (1/z + 1/z + 1/z + 2 = 3% Hit Dice). Note that the remainder is not enough to affect the last gnoll or t"
+    },
+    "quality_flags": []
+  }
+}

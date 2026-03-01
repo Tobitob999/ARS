@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "imprisonment",
+  "name": "Imprisonment",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Imprisonment (Abjuration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "ninth",
+    "book_pages": [
+      195
+    ],
+    "pdf_pages": [
+      196
+    ],
+    "raw_block": "Imprisonment (Abjuration)\nRevemible\nRange: Touch\nComponents: V, S\nDuration: Permanent\nCasting Time: 9\nArea of Effect: 1 creature\nSaving Throw: None\nWhen an imprisonment spell is cast and\nthe victim is touched, the recipient is\nentombed in a state of suspended animation\n(see the temporal stusis spell) in a small\nsphere far beneath the surface of the earth.\nThe victim remains there unless a reverse of\nthe spell, with the creature‘s name and back-\nground, is cast. Magical search by crystal\nball, a locate object spell, or similar means\nwill not reveal the fact that a creature is\nimprisoned. The imprisonment spell func-\ntions only if the subject creature’s name and\nbackground are known.\nThe reverse spell, freedom, cast upon the\nspot at which a creature was entombed and\nsunk into the earth, causes it to reappear at\nthat spot. If the caster does not perfectly\nintone the name and background of the\ncreature to be freed, there is a 10% chance\nthat 1 to 100 creatures will be freed from\nimprisonment at the same time.\nNote: The exact details of any creatures\nfreed are up to the DM. A random method\nof determining this is to roll percentile dice\ntwice (once for imprisoned creature density\nand once for a base number of creatures at\nmaximum density). The rolls are multiplied\nand rounded to the nearest whole number.\nEach released creature has a 10% chance to\nbe in the area of the spellcaster. If monsters\nare being generated randomly, roll Id20 for\nlevel, with rolls of 9 + considered 9, and the\nexact monsters determined by the random\nencounter tables.\nFor example, if the\nand 60, the number of\n.22 X .60 = .1320 =\nonly 10% of these will\nvicinity of the caster,\nencounter only one or two"
+  },
+  "mechanics": {
+    "school_or_type": "Abjuration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Imprisonment",
+      "canonical_name_guess": null,
+      "school_or_type": "Abjuration",
+      "range": "Touch",
+      "components": "V, S",
+      "duration": "Permanent",
+      "casting_time": "9",
+      "area_of_effect": "1 creature",
+      "saving_throw": "None",
+      "description_excerpt": "When an imprisonment spell is cast and the victim is touched, the recipient is entombed in a state of suspended animation (see the temporal stusis spell) in a small sphere far beneath the surface of the earth. The victim remains there unless a reverse of the spell, with the creature‘s name and back- ground, is cast. Magical search by crystal ball, a locate object spell, or similar means will not reveal the fact that a creature is imprisoned. The imprisonment spell func- tions only if the subject creature’s name and background are known. The reverse spell, freedom, cast upon the spot at which a creature was entombed and sunk into the earth, causes it to reappear at that spot. If the caster does not perfectly intone the name and background of the creature to be freed, there is a 10% chance that 1 to 100 creatures will be freed from imprisonment at the same time. Note: The exact details of "
+    },
+    "quality_flags": []
+  }
+}

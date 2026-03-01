@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "id": "add_paladin",
+  "name": "Paladin (AD&D 2e)",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "archetype": "paladin",
+  "level": 1,
+  "background": "PHB-konformes Starttemplate",
+  "characteristics": {
+    "STR": 16,
+    "DEX": 12,
+    "CON": 13,
+    "INT": 10,
+    "WIS": 14,
+    "CHA": 17
+  },
+  "derived_stats": {
+    "HP": 10,
+    "AC": 5,
+    "THAC0": 20,
+    "Movement": 12
+  },
+  "skills": {
+    "Lay on Hands": 1,
+    "Detect Evil": 1
+  },
+  "equipment": [
+    "bedroll",
+    "waterskin",
+    "rations"
+  ],
+  "notes": "Starttemplate fuer schnelle Session-Initialisierung."
+}

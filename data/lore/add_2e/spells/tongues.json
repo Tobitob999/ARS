@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "tongues",
+  "name": "Tongues",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Tongues (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "fourth",
+    "book_pages": [
+      220,
+      221
+    ],
+    "pdf_pages": [
+      221,
+      222
+    ],
+    "raw_block": "Tongues (Alteration)\nReversible\nSphere: Divination\nRange: 0\nComponents: V, S\nDuration: 1 turn\nCasting Time: 7\nArea of Effect: The caster\nSaving Throw: None\nThis spell enables the caster to speak and\ninderstand additional languages, whether\n:hey are racial tongues or regional dialects,\nPriest Spells (5th Level;\nI\nbut not communications of animals or\nmindless creatures. When the spell is cast,\nthe spellcaster selects the language or lan-\nguages to be understood. The spell then em-\npowers the caster with the ability to speak\nand understand the language desired with\nperfect fluency and accent. The spell enables\nthe priest to be understood by all speakers\nof that language within hearing distance,\nusually 60 feet. This spell does not predis-\npose the subject toward the caster in any\nway. The priest can speak one additional\ntongue for every three levels of experience.\nThe reverse of the spell cancels the effect\nof the tongues spell or confuses verbal com-\nmunication of any sort within the area of ef-\nfect.\nUI\nFifth4evel Spells"
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Tongues",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "0",
+      "components": "V, S",
+      "duration": "1 turn",
+      "casting_time": "7",
+      "area_of_effect": "The caster",
+      "saving_throw": "None",
+      "description_excerpt": "This spell enables the caster to speak and inderstand additional languages, whether :hey are racial tongues or regional dialects, Priest Spells (5th Level; I but not communications of animals or mindless creatures. When the spell is cast, the spellcaster selects the language or lan- guages to be understood. The spell then em- powers the caster with the ability to speak and understand the language desired with perfect fluency and accent. The spell enables the priest to be understood by all speakers of that language within hearing distance, usually 60 feet. This spell does not predis- pose the subject toward the caster in any way. The priest can speak one additional tongue for every three levels of experience. The reverse of the spell cancels the effect of the tongues spell or confuses verbal com- munication of any sort within the area of ef- fect. UI Fifth4evel Spells"
+    },
+    "quality_flags": []
+  }
+}

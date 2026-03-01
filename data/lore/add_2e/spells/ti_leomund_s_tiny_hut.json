@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "ti_leomund_s_tiny_hut",
+  "name": "TI Leomund's Tiny Hut",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "TI Leomund's Tiny Hut (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "third",
+    "book_pages": [
+      151
+    ],
+    "pdf_pages": [
+      152
+    ],
+    "raw_block": "TI Leomund's Tiny Hut (Alteration)\nRange: 0\nComponents: V, S, M\nDuration: 4 hours + 1 houdlevel\nCasting Time: 3\nArea of Effect: 1.5-footdiameter sphere\nSaving Throw: None\nWhen this spell is cast, the wizard creates\nan unmoving, opaque sphere of force of any\ndesired color around his person. Half of the\nsphere projects above the ground, and the\nlower hemisphere passes through the\nground. Up to seven other man-sized crea-\ntures can fit into the field with its creator,\nand these can freely pass into and out of the\nhut without harming it, but if the spellcaster\nremoves himself from it, the spell dissipates.\nThe temperature inside the hut is 70\" F, if\nthe exterior temperature is between 0\" and\n100\" E An exterior temperature below Oo or\nabove 100° lowers or raises, respectively,\nthe interior temperature on a Io-for-l0\nbasis. The tiny hut also provides protection\nagainst the elements, such as rain, dust,\nsandstorms, and the like. The hut can with-\nstand any wind of less than hurricane force\nwithout being harmed, but wind force\ngreater than that destroys it.\nThe interior of the hut is a hemisphere;\nthe spellcaster can illuminate it dimly upon\ncommand, or extinguish the light as desired.\nNote that although the force field is opaque\nfrom the outside, it is transparent from\nwithin. Missiles, weapons, and most spell\neffects can pass through the hut without\naffecting it, although the occupants cannot\nbe seen from outside the hut. The hut can be\ndispelled.\nThe material component for this spell is a\nsmall crystal bead that shatters when the\nspell duration expires or the hut is dispelled."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "TI Leomund's Tiny Hut",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "0",
+      "components": "V, S, M",
+      "duration": "4 hours + 1 houdlevel",
+      "casting_time": "3",
+      "area_of_effect": "1.5-footdiameter sphere",
+      "saving_throw": "None",
+      "description_excerpt": ""
+    },
+    "quality_flags": []
+  }
+}

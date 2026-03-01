@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "telekinesis",
+  "name": "Telekinesis",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Telekinesis (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      171,
+      172
+    ],
+    "pdf_pages": [
+      172,
+      173
+    ],
+    "raw_block": "Telekinesis (Alteration)\nRange: 10 yards/level\nComponents: V, S\nDuration: Special\nCasting Time: 5\nArea of Effect: Special\nSaving Throw: Neg.\nBy means of this spell, the wizard is able\nto move objects by concentrating on mov-\ning them mentally. The spell can provide\neither a gentle, sustained force or a single\nshort, violent thrust.\nA sustained force enables the wizard to\nmove a weight of up to 25 pounds a distance\n171\nI- -\nrd Snells (5th 1\nup to 20 feet per round. The spell lasts two\nrounds, plus one round per caster level. The\nweight can be moved vertically, horizon-\ntally, or both. An object moved beyond the\ncaster's range falls or stops. If the caster\nceases concentration for any reason, the ob-\nject falls or stops. The object can be tele-\nkinetically manipulated as if with one hand.\nFor example, a lever or rope can be pulled, a\nkey can be turned, an object rotated and so\non, if the force required is within the weight\nlimitation. The caster might even be able to\nuntie simple knots, at the discretion of the\nDM.\nAlternatively, the spell energy can be ex-\npended in a single round. The caster can\nhurl one or more objects within range, and\nwithin a ten-foot cube, directly away from\nhimself at high speed, to a distance of up to\nten feet per caster level. This is subject to a\nmaximum weight of 25 pounds per caster\nlevel. Damage caused by hurled objects is\ndecided by the DM, but cannot exceed 1\npoint of damage per caster level. Opponents\nwho fall within the weight capacity of the\nspell can be hurled, but they are allowed a\nsaving throw vs. spell to avoid the effect.\nFurthermore, those able to employ as simple\na counter-measure as an enlarge spell, for\nexample (thus making the body weight go\nover the maximum spell limit), can easily\ncounter the spell. The various Bigby's hand\nspells also counter this spell."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Telekinesis",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "10 yards/level",
+      "components": "V, S",
+      "duration": "Special",
+      "casting_time": "5",
+      "area_of_effect": "Special",
+      "saving_throw": "Neg.",
+      "description_excerpt": "By means of this spell, the wizard is able to move objects by concentrating on mov- ing them mentally. The spell can provide either a gentle, sustained force or a single short, violent thrust. A sustained force enables the wizard to move a weight of up to 25 pounds a distance 171 I- - rd Snells (5th 1 up to 20 feet per round. The spell lasts two rounds, plus one round per caster level. The weight can be moved vertically, horizon- tally, or both. An object moved beyond the caster's range falls or stops. If the caster ceases concentration for any reason, the ob- ject falls or stops. The object can be tele- kinetically manipulated as if with one hand. For example, a lever or rope can be pulled, a key can be turned, an object rotated and so on, if the force required is within the weight limitation. The caster might even be able to untie simple knots, at the discretion of the DM. Alternativel"
+    },
+    "quality_flags": []
+  }
+}

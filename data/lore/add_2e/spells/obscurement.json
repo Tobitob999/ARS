@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "obscurement",
+  "name": "Obscurement",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Obscurement (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "second",
+    "book_pages": [
+      206
+    ],
+    "pdf_pages": [
+      207
+    ],
+    "raw_block": "Obscurement (Alteration)\nSphere: Weather\nRange: 0\nComponents: V, S\nDuration: 4 rounds/level\nCasting Time: 5\nArea of Effect: Special\nSaving Throw: None\nThis spell causes a misty vapor to arise\naround the caster. It persists in this locale\nfor four rounds per caster level and reduces\nthe visibility ranges of all types of vision (in-\ncluding infravision) to 2d4 feet. The ground\narea affected by the spell is a square progres-\nsion based on the caster‘s level: a 10’ x 10’\narea at 1st level, a 20’ x 20 ’ area at 2nd\nlevel, a 30’ x 30‘ area at 3rd level, and so on.\nThe height of the vapor is restricted to 10\nfeet, although the cloud will otherwise ex-\npand to fill confined spaces. A strong wind\n(such as the 3rd-level wizard spelI, gust of\nwind, can cut the duration of an obscure-\nment spell by 75%. This spell does not func-\ntion under water."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Obscurement",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "0",
+      "components": "V, S",
+      "duration": "4 rounds/level",
+      "casting_time": "5",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "ment spell by 75%. This spell does not func- tion under water."
+    },
+    "quality_flags": []
+  }
+}

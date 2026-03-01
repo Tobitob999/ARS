@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "water_breathing",
+  "name": "Water Breathing",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Water Breathing (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "third",
+    "book_pages": [
+      215
+    ],
+    "pdf_pages": [
+      216
+    ],
+    "raw_block": "Water Breathing (Alteration)\nReversible\nSphere: Elemental (Water, Air)\nRange: Touch\nComponents: V, S\nDuration: 1 hour/level\nCasting Time: 6\nArea of meet: creak touched\nSaving Throw: None\nThe recipient of a water breathing spell is\nable to breathe under water freely for the\nduration of the spell-i.e., one hour for\neach experience level of the caster. The\npriest can divide the base duration between\nmultiple characters. Thus an 8th-level priest\ncan confer this ability to two characters for\nfour hours, four for two hours, eight for one\nhour, etc., to a minimum of 1/2 hour per\ncharacter.\nThe reverse, air breathing, enables water-\nbreathing creatures to survive comfortably\nin the atmosphere for an equal duration.\nNote that neither version prevents the recip-\nient creature from breathing in its natural\nelement."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Water Breathing",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "Touch",
+      "components": "V, S",
+      "duration": "1 hour/level",
+      "casting_time": "6",
+      "area_of_effect": null,
+      "saving_throw": "None",
+      "description_excerpt": "Note that neither version prevents the recip- ient creature from breathing in its natural element."
+    },
+    "quality_flags": [
+      "missing_standard_fields"
+    ]
+  }
+}

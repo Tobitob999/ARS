@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "atonement",
+  "name": "Atonement",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Atonement (Abjuration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "fourth",
+    "book_pages": [
+      221,
+      222
+    ],
+    "pdf_pages": [
+      222,
+      223
+    ],
+    "raw_block": "Atonement (Abjuration)\nSphere: All\nRange: Touch\nComponents: V, S, M\nDuration: Permanent\nCasting Time: 1 turn\nArea of Effect: 1 person\nSaving Throw: None\nThis spell is used by the priest to remove\nthe burden of unwilling or unknown deeds\nfrom the person who is the subject of the\natonement. The spell removes the effects of\nmagical alignment change as well. The per-\nson seeking the atonement spell must either\nbe truly repentant or not have been in com-\nmand of his own will when the acts to be\natoned for were committed. Your DM will\njudge this spell in this regard, noting any\npast instances of its use upon the person.\nDeliberate misdeeds and acts of knowing\nand willful nature cannot be atoned for with\nthis spell (see the quest spell). A character\nwho refuses to accept an atonement is auto-\nmatically considered to have committed a\nwillful misdeed.\n22 1\nThe priest needs his religious symbol,\nprayer beads or wheel or book, and burning\nincense."
+  },
+  "mechanics": {
+    "school_or_type": "Abjuration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Atonement",
+      "canonical_name_guess": null,
+      "school_or_type": "Abjuration",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "Permanent",
+      "casting_time": "1 turn",
+      "area_of_effect": "1 person",
+      "saving_throw": "None",
+      "description_excerpt": "This spell is used by the priest to remove the burden of unwilling or unknown deeds from the person who is the subject of the atonement. The spell removes the effects of magical alignment change as well. The per- son seeking the atonement spell must either be truly repentant or not have been in com- mand of his own will when the acts to be atoned for were committed. Your DM will judge this spell in this regard, noting any past instances of its use upon the person. Deliberate misdeeds and acts of knowing and willful nature cannot be atoned for with this spell (see the quest spell). A character who refuses to accept an atonement is auto- matically considered to have committed a willful misdeed. 22 1 The priest needs his religious symbol, prayer beads or wheel or book, and burning incense."
+    },
+    "quality_flags": []
+  }
+}

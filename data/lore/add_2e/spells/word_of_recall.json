@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "word_of_recall",
+  "name": "Word of Recall",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Word of Recall (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "sixth",
+    "book_pages": [
+      230
+    ],
+    "pdf_pages": [
+      231
+    ],
+    "raw_block": "Word of Recall (Alteration)\nSphere: Summoning\nRange: 0\nComponents: V\nDuration: Special\nCasting Time: 1\nArea of Effect: Special\nSaving Throw: None\nThe word of recall spell takes the priest\ninstantly back to his sanctuary when the\nword is uttered. The sanctuary must be spe-\ncifically designated in advance by the priest\nand must be a well-known place. The actual\npoint of arrival is a designated area no larg-\ner than 10' x 10'. The priest can bq trans-\nported any distance, from above or below\nground. Transportation by the word of\nrecall spell is safe within a plane, but for\neach plane the priest is removed, there is a\n230\n10% cumulative chance that the priest is\nirrevocably lost. The priest is able to trans-\nport, in addition to himself, 25 pounds of\nweight per experience level. Thus, a 15th-\nlevel priest could transport his person and\nan additional 375 pounds weight. This extra\nmatter can be equipment, treasure, or even\nliving material, such as another person.\nExceeding this limit causes the spell to fail.\nNote that unusually strong physical fields\n(e.g., magnetic, gravitational) or magical\nforces can, at the DMs option, make the use\nof this spell hazardous or impossible.\nSeventhdevel Spells"
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Word of Recall",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "0",
+      "components": "V",
+      "duration": "Special",
+      "casting_time": "1",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "The word of recall spell takes the priest instantly back to his sanctuary when the word is uttered. The sanctuary must be spe- cifically designated in advance by the priest and must be a well-known place. The actual point of arrival is a designated area no larg- er than 10' x 10'. The priest can bq trans- ported any distance, from above or below ground. Transportation by the word of recall spell is safe within a plane, but for each plane the priest is removed, there is a 230 10% cumulative chance that the priest is irrevocably lost. The priest is able to trans- port, in addition to himself, 25 pounds of weight per experience level. Thus, a 15th- level priest could transport his person and an additional 375 pounds weight. This extra matter can be equipment, treasure, or even living material, such as another person. Exceeding this limit causes the spell to fail. Note that unusually strong "
+    },
+    "quality_flags": []
+  }
+}

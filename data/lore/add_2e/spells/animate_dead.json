@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.2.1",
+  "id": "animate_dead",
+  "name": "Animate Dead",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Animate Dead (Necromancy) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "third",
+    "book_pages": [
+      208,
+      209
+    ],
+    "pdf_pages": [
+      209,
+      210
+    ],
+    "raw_block": "Animate Dead (Necromancy)\nSphere: Necromantic\nRange: 10 yards\nComponqnts: V, S, M\nDuration: Permanent\nCasting Time: 1 round\nArea of Effect: Special\nSaving Throw: None\nThis spell creates the lowest of the undead\nmonsters, skeletons or zombies, usually\nfrom the bones or bodies of dead humans,\ndemihumans, or humanoids. The spell\ncauses these remains to become animated\nand obey the simple verbal commands of\nthe caster, regardless of how they communi-\ncated in life. The skeletons or zombies can\nfollow the caster, remain in an area and at-\ntack any creature (or just a specific type of\ncreature) entering the place, etc. The un-\ndead remain animated until they are de-\nstroyed in combat or are turned; the magic\ncannot be dispelled.\nThe priest can animate one skeleton or\none zombie for each experience level he has\nattained. If creatures with more than 1 + Hit\nDice are animated, the number is deter-\nmined by the monster Hit Dice. Skeletal\nforms have the Hit Dice of the original crea-\nture, while zombie forms have 1 more Hit\nDie. Thus, a 12th-level priest could animate\n12 dwarven skeletons (or six zombies), four\nzombie gnolls, or a single zombie fire giant.\nNote that this is based on the standard racial\nHit Die norm; thus, a high-level adventurer\nwould be animated as a skeleton or zombie\nof 1 or 2 Hit Dice, and without special class\nor racial abilities. The caster can, alterna-\ntively, animate two small animal skeletons\n(1-1 Hit Die or less) for every level of experi-\nence he has achieved.\nThe spell requires a drop of blood, a pie\nof flesh of the type of creature being a\nmated, and a pinch of bone powder or\nbone shard to complete the spell. Casti\nthis spell is not a good act, and only evil\npriests use it frequently."
+  },
+  "mechanics": {
+    "school_or_type": "Necromancy",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Animate Dead",
+      "canonical_name_guess": null,
+      "school_or_type": "Necromancy",
+      "range": "10 yards",
+      "components": null,
+      "duration": "Permanent",
+      "casting_time": "1 round",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "This spell creates the lowest of the undead monsters, skeletons or zombies, usually from the bones or bodies of dead humans, demihumans, or humanoids. The spell causes these remains to become animated and obey the simple verbal commands of the caster, regardless of how they communi- cated in life. The skeletons or zombies can follow the caster, remain in an area and at- tack any creature (or just a specific type of creature) entering the place, etc. The un- dead remain animated until they are de- stroyed in combat or are turned; the magic cannot be dispelled. The priest can animate one skeleton or one zombie for each experience level he has attained. If creatures with more than 1 + Hit Dice are animated, the number is deter- mined by the monster Hit Dice. Skeletal forms have the Hit Dice of the original crea- ture, while zombie forms have 1 more Hit Die. Thus, a 12th-level priest could a"
+    },
+    "quality_flags": [
+      "missing_standard_fields"
+    ]
+  }
+}

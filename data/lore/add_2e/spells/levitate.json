@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "levitate",
+  "name": "Levitate",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Levitate (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "second",
+    "book_pages": [
+      143
+    ],
+    "pdf_pages": [
+      144
+    ],
+    "raw_block": "Levitate (Alteration)\nRange: 20 yards/level\nComponents: V, S, M\nDuration: 1 turn/level\nCasting Time: 2\nArea of Effect: 1 creature or object\nSaving Throw: Neg.\nWhen a levitate spell is cast, the wizard\ncan place it upon his person, upon an ob-\nject, or upon a single creature, subject to a\nmaximum weight limit of 100 pounds per\nlevel of experience (e.g., a 3rd-level wizard\ncan levitate up to 300 pounds maximum). If\nthe spell is cast upon the wizard, he can\nmove vertically up or down at a movement\nrate of 2 per round. If cast upon an object or\nanother creature, the wizard can levitate it\nat the same speed according to his com-\nmand. Horizontal movement is not empow-\nered by this spell, but the recipient could\npush along the face of a cliff, for example, to\nmove laterally. The spellcaster can cancel\nthe spell as desired. If the subject of the spell\nis unwilling, or the object is in the posses-\nsion of a creature, a saving throw vs. spell is\nallowed to determine if the levitate spell af-\nfects it.\nOnce cast, the spell requires no concen-\ntration, except when changing height. A\nlevitating creature attempting to use a mis-\nsile weapon finds himself increasingly un-\nstable; the first attack has an attack roll\npenalty of -1, the second -2, and the third\n-3, etc., up to a maximum of -5. A full\nround spent stabilizing allows the creature\nto begin again at -1. lack of leverage\nmakes it impossible to cock a meclium or\nheavy crossbow.\nThe material component of this speH is ei-\nther a small leather loop or a piece of\nwire bent into a cup shape with a lon\non one end\n' '"
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Levitate",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "20 yards/level",
+      "components": "V, S, M",
+      "duration": "1 turn/level",
+      "casting_time": "2",
+      "area_of_effect": "1 creature or object",
+      "saving_throw": "Neg.",
+      "description_excerpt": "When a levitate spell is cast, the wizard can place it upon his person, upon an ob- ject, or upon a single creature, subject to a maximum weight limit of 100 pounds per level of experience (e.g., a 3rd-level wizard can levitate up to 300 pounds maximum). If the spell is cast upon the wizard, he can move vertically up or down at a movement rate of 2 per round. If cast upon an object or another creature, the wizard can levitate it at the same speed according to his com- mand. Horizontal movement is not empow- ered by this spell, but the recipient could push along the face of a cliff, for example, to move laterally. The spellcaster can cancel the spell as desired. If the subject of the spell is unwilling, or the object is in the posses- sion of a creature, a saving throw vs. spell is allowed to determine if the levitate spell af- fects it. Once cast, the spell requires no concen- tration, e"
+    },
+    "quality_flags": []
+  }
+}

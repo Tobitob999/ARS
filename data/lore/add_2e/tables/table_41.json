@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2.0",
+  "id": "table_41",
+  "name": "Table 41: WEAPON CONSTRUCTION",
+  "category": "table",
+  "tags": [
+    "add_2e",
+    "table",
+    "player_handbook",
+    "toc_normalized"
+  ],
+  "summary": "PHB Table 41 (WEAPON CONSTRUCTION).",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "table_number": 41,
+    "title": "WEAPON CONSTRUCTION",
+    "book_page": 65,
+    "pdf_page": 66,
+    "raw_page_token": "65"
+  },
+  "mechanics": {
+    "source": "toc_parse_v3",
+    "confidence": "medium"
+  }
+}

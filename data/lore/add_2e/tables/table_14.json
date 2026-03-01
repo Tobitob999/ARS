@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2.0",
+  "id": "table_14",
+  "name": "Table 14: WARRIOR EXPERIENCE LEVELS",
+  "category": "table",
+  "tags": [
+    "add_2e",
+    "table",
+    "player_handbook",
+    "toc_normalized"
+  ],
+  "summary": "PHB Table 14 (WARRIOR EXPERIENCE LEVELS).",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "table_number": 14,
+    "title": "WARRIOR EXPERIENCE LEVELS",
+    "book_page": 26,
+    "pdf_page": 27,
+    "raw_page_token": "26"
+  },
+  "mechanics": {
+    "source": "toc_parse_v3",
+    "confidence": "medium"
+  }
+}

@@ -1,0 +1,3384 @@
+{
+  "schema_version": "1.2.1",
+  "category": "spell_index",
+  "tags": [
+    "add_2e",
+    "spells",
+    "catalog",
+    "v3",
+    "normalized"
+  ],
+  "summary": "Normalisierter Spell-Index (v3.1) mit robustem Header-Split und Qualit?tsflags.",
+  "source_text": {
+    "spell_count": 331,
+    "spell_records": [
+      {
+        "id": "abjure",
+        "name": "AbJure",
+        "file": "data/lore/add_2e/spells/abjure.json",
+        "spell_list": "priest",
+        "level_band": "fourth",
+        "school_or_type": "Abjuration",
+        "quality_flags": [
+          "missing_standard_fields",
+          "trimmed_merged_block"
+        ]
+      },
+      {
+        "id": "advanced_illusion",
+        "name": "Advanced Illusion",
+        "file": "data/lore/add_2e/spells/advanced_illusion.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "Musion/Ph.ntarm",
+        "quality_flags": []
+      },
+      {
+        "id": "affect_normal_flrer",
+        "name": "Affect Normal Flrer",
+        "file": "data/lore/add_2e/spells/affect_normal_flrer.json",
+        "spell_list": null,
+        "level_band": null,
+        "school_or_type": "Alteration",
+        "quality_flags": [
+          "canonical_name_guess_applied"
+        ]
+      },
+      {
+        "id": "ai_water",
+        "name": "Ai- Water",
+        "file": "data/lore/add_2e/spells/ai_water.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "aid",
+        "name": "Aid",
+        "file": "data/lore/add_2e/spells/aid.json",
+        "spell_list": "priest",
+        "level_band": "second",
+        "school_or_type": "Necromancy, Conjuration",
+        "quality_flags": []
+      },
+      {
+        "id": "air_walk",
+        "name": "Air Walk",
+        "file": "data/lore/add_2e/spells/air_walk.json",
+        "spell_list": "priest",
+        "level_band": "fourth",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "alarm",
+        "name": "Alarm",
+        "file": "data/lore/add_2e/spells/alarm.json",
+        "spell_list": null,
+        "level_band": null,
+        "school_or_type": "Abjuration, Evocation",
+        "quality_flags": []
+      },
+      {
+        "id": "alter_self",
+        "name": "Alter Self",
+        "file": "data/lore/add_2e/spells/alter_self.json",
+        "spell_list": "wizard",
+        "level_band": "second",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "animal_growth",
+        "name": "Animal Growth",
+        "file": "data/lore/add_2e/spells/animal_growth.json",
+        "spell_list": "priest",
+        "level_band": "fourth",
+        "school_or_type": "Alteration",
+        "quality_flags": [
+          "trimmed_merged_block"
+        ]
+      },
+      {
+        "id": "animate_dead",
+        "name": "Animate Dead",
+        "file": "data/lore/add_2e/spells/animate_dead.json",
+        "spell_list": "priest",
+        "level_band": "third",
+        "school_or_type": "Necromancy",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "animate_object",
+        "name": "Animate ObJect",
+        "file": "data/lore/add_2e/spells/animate_object.json",
+        "spell_list": "priest",
+        "level_band": "sixth",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "animate_rock",
+        "name": "Animate Rock",
+        "file": "data/lore/add_2e/spells/animate_rock.json",
+        "spell_list": "priest",
+        "level_band": "sixth",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "anti_animal_shell",
+        "name": "Anti-Animal Shell",
+        "file": "data/lore/add_2e/spells/anti_animal_shell.json",
+        "spell_list": "priest",
+        "level_band": "sixth",
+        "school_or_type": "Abjwatton",
+        "quality_flags": [
+          "trimmed_merged_block"
+        ]
+      },
+      {
+        "id": "anti_magic_shell",
+        "name": "Anti-Magic Shell",
+        "file": "data/lore/add_2e/spells/anti_magic_shell.json",
+        "spell_list": "wizard",
+        "level_band": "sixth",
+        "school_or_type": "Abjuration",
+        "quality_flags": []
+      },
+      {
+        "id": "anti_plant_shell",
+        "name": "Anti-Plant Shell",
+        "file": "data/lore/add_2e/spells/anti_plant_shell.json",
+        "spell_list": "priest",
+        "level_band": "fourth",
+        "school_or_type": "Abjuration",
+        "quality_flags": []
+      },
+      {
+        "id": "any_creature_at_the_edge",
+        "name": "Any creature at the edge",
+        "file": "data/lore/add_2e/spells/any_creature_at_the_edge.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "within one foot",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "armor",
+        "name": "Armor",
+        "file": "data/lore/add_2e/spells/armor.json",
+        "spell_list": "wizard",
+        "level_band": null,
+        "school_or_type": "Conjuration",
+        "quality_flags": []
+      },
+      {
+        "id": "astd_spell",
+        "name": "Astd Spell",
+        "file": "data/lore/add_2e/spells/astd_spell.json",
+        "spell_list": "priest",
+        "level_band": "sixth",
+        "school_or_type": "Alteration",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "astral_spell",
+        "name": "Astral Spell",
+        "file": "data/lore/add_2e/spells/astral_spell.json",
+        "spell_list": "wizard",
+        "level_band": "ninth",
+        "school_or_type": "Evocation",
+        "quality_flags": []
+      },
+      {
+        "id": "atonement",
+        "name": "Atonement",
+        "file": "data/lore/add_2e/spells/atonement.json",
+        "spell_list": "priest",
+        "level_band": "fourth",
+        "school_or_type": "Abjuration",
+        "quality_flags": []
+      },
+      {
+        "id": "banishment",
+        "name": "Banishment",
+        "file": "data/lore/add_2e/spells/banishment.json",
+        "spell_list": "wizard",
+        "level_band": "seventh",
+        "school_or_type": "Abjuration",
+        "quality_flags": []
+      },
+      {
+        "id": "bankskin",
+        "name": "Bankskin",
+        "file": "data/lore/add_2e/spells/bankskin.json",
+        "spell_list": "priest",
+        "level_band": "second",
+        "school_or_type": "Alteration",
+        "quality_flags": [
+          "canonical_name_guess_applied"
+        ]
+      },
+      {
+        "id": "belaborment",
+        "name": "Belaborment",
+        "file": "data/lore/add_2e/spells/belaborment.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "Enchantment, Evocation",
+        "quality_flags": []
+      },
+      {
+        "id": "bigby_s_ctenched_fist",
+        "name": "Bigby's Ctenched Fist",
+        "file": "data/lore/add_2e/spells/bigby_s_ctenched_fist.json",
+        "spell_list": "wizard",
+        "level_band": "eighth",
+        "school_or_type": "Evocation",
+        "quality_flags": [
+          "canonical_name_guess_applied"
+        ]
+      },
+      {
+        "id": "binding",
+        "name": "Binding",
+        "file": "data/lore/add_2e/spells/binding.json",
+        "spell_list": "wizard",
+        "level_band": "eighth",
+        "school_or_type": "Enchantment, Evocation",
+        "quality_flags": []
+      },
+      {
+        "id": "blindness",
+        "name": "Blindness",
+        "file": "data/lore/add_2e/spells/blindness.json",
+        "spell_list": "wizard",
+        "level_band": "second",
+        "school_or_type": "Illusion/Phantasm",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "blink",
+        "name": "Blink",
+        "file": "data/lore/add_2e/spells/blink.json",
+        "spell_list": "wizard",
+        "level_band": "third",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "blur",
+        "name": "Blur",
+        "file": "data/lore/add_2e/spells/blur.json",
+        "spell_list": "wizard",
+        "level_band": "second",
+        "school_or_type": "IIIusiodPhantasm",
+        "quality_flags": []
+      },
+      {
+        "id": "burning_hands",
+        "name": "Burning Hands",
+        "file": "data/lore/add_2e/spells/burning_hands.json",
+        "spell_list": "wizard",
+        "level_band": null,
+        "school_or_type": "Alteration",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "cali_lightning",
+        "name": "Cali Lightning",
+        "file": "data/lore/add_2e/spells/cali_lightning.json",
+        "spell_list": "priest",
+        "level_band": "third",
+        "school_or_type": "Alteration",
+        "quality_flags": [
+          "canonical_name_guess_applied"
+        ]
+      },
+      {
+        "id": "cantrip",
+        "name": "Cantrip",
+        "file": "data/lore/add_2e/spells/cantrip.json",
+        "spell_list": "wizard",
+        "level_band": null,
+        "school_or_type": "All Schools",
+        "quality_flags": []
+      },
+      {
+        "id": "chain_lightning",
+        "name": "Chain Lightning",
+        "file": "data/lore/add_2e/spells/chain_lightning.json",
+        "spell_list": "wizard",
+        "level_band": "sixth",
+        "school_or_type": "Evocation",
+        "quality_flags": [
+          "trimmed_merged_block"
+        ]
+      },
+      {
+        "id": "change_self",
+        "name": "Change Self",
+        "file": "data/lore/add_2e/spells/change_self.json",
+        "spell_list": "wizard",
+        "level_band": null,
+        "school_or_type": "Illusion/Phantasm",
+        "quality_flags": []
+      },
+      {
+        "id": "changestaff",
+        "name": "Changestaff",
+        "file": "data/lore/add_2e/spells/changestaff.json",
+        "spell_list": "priest",
+        "level_band": "sixth",
+        "school_or_type": "Evocation, Enchantment",
+        "quality_flags": []
+      },
+      {
+        "id": "chant",
+        "name": "Chant",
+        "file": "data/lore/add_2e/spells/chant.json",
+        "spell_list": "priest",
+        "level_band": "second",
+        "school_or_type": "ConjuratiodSummoning",
+        "quality_flags": [
+          "trimmed_merged_block"
+        ]
+      },
+      {
+        "id": "chaos",
+        "name": "Chaos",
+        "file": "data/lore/add_2e/spells/chaos.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "EnchantmentKhann",
+        "quality_flags": []
+      },
+      {
+        "id": "charm_monster",
+        "name": "Charm Monster",
+        "file": "data/lore/add_2e/spells/charm_monster.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "EnchantmentKhann",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "chum_plants",
+        "name": "Chum Plants",
+        "file": "data/lore/add_2e/spells/chum_plants.json",
+        "spell_list": "wizard",
+        "level_band": "seventh",
+        "school_or_type": "EnchantmentKhann",
+        "quality_flags": [
+          "canonical_name_guess_applied"
+        ]
+      },
+      {
+        "id": "clairvoyance",
+        "name": "Clairvoyance",
+        "file": "data/lore/add_2e/spells/clairvoyance.json",
+        "spell_list": "wizard",
+        "level_band": "third",
+        "school_or_type": "Mvination",
+        "quality_flags": []
+      },
+      {
+        "id": "cldraudlencc",
+        "name": "Cldraudlencc",
+        "file": "data/lore/add_2e/spells/cldraudlencc.json",
+        "spell_list": "wizard",
+        "level_band": "third",
+        "school_or_type": "Divination",
+        "quality_flags": []
+      },
+      {
+        "id": "clone",
+        "name": "Clone",
+        "file": "data/lore/add_2e/spells/clone.json",
+        "spell_list": "wizard",
+        "level_band": "eighth",
+        "school_or_type": "Necromancy",
+        "quality_flags": [
+          "trimmed_merged_block"
+        ]
+      },
+      {
+        "id": "cloudkill",
+        "name": "Cloudkill",
+        "file": "data/lore/add_2e/spells/cloudkill.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "Evocation",
+        "quality_flags": []
+      },
+      {
+        "id": "clustecl",
+        "name": "Clustecl",
+        "file": "data/lore/add_2e/spells/clustecl.json",
+        "spell_list": "wizard",
+        "level_band": "eighth",
+        "school_or_type": "Alteration",
+        "quality_flags": [
+          "trimmed_merged_block"
+        ]
+      },
+      {
+        "id": "color_spray",
+        "name": "Color Spray",
+        "file": "data/lore/add_2e/spells/color_spray.json",
+        "spell_list": "wizard",
+        "level_band": null,
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "combine",
+        "name": "Combine",
+        "file": "data/lore/add_2e/spells/combine.json",
+        "spell_list": "priest",
+        "level_band": "ninth",
+        "school_or_type": "Evocation",
+        "quality_flags": []
+      },
+      {
+        "id": "commune",
+        "name": "Commune",
+        "file": "data/lore/add_2e/spells/commune.json",
+        "spell_list": "priest",
+        "level_band": "fourth",
+        "school_or_type": "Divination",
+        "quality_flags": []
+      },
+      {
+        "id": "commune_with_nature",
+        "name": "Commune With Nature",
+        "file": "data/lore/add_2e/spells/commune_with_nature.json",
+        "spell_list": "priest",
+        "level_band": "fourth",
+        "school_or_type": "Divination",
+        "quality_flags": []
+      },
+      {
+        "id": "comprehend_languages",
+        "name": "Comprehend Languages",
+        "file": "data/lore/add_2e/spells/comprehend_languages.json",
+        "spell_list": "wizard",
+        "level_band": null,
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "cone_of_cold",
+        "name": "Cone of Cold",
+        "file": "data/lore/add_2e/spells/cone_of_cold.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "Evocation",
+        "quality_flags": [
+          "trimmed_merged_block"
+        ]
+      },
+      {
+        "id": "confusion",
+        "name": "Confusion",
+        "file": "data/lore/add_2e/spells/confusion.json",
+        "spell_list": "priest",
+        "level_band": "sixth",
+        "school_or_type": "EnchantmenVCharm",
+        "quality_flags": []
+      },
+      {
+        "id": "contaglon",
+        "name": "Contaglon",
+        "file": "data/lore/add_2e/spells/contaglon.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "Necromancy",
+        "quality_flags": []
+      },
+      {
+        "id": "contingency",
+        "name": "Contingency",
+        "file": "data/lore/add_2e/spells/contingency.json",
+        "spell_list": "wizard",
+        "level_band": "sixth",
+        "school_or_type": "Evocation",
+        "quality_flags": [
+          "trimmed_merged_block"
+        ]
+      },
+      {
+        "id": "continual_light",
+        "name": "Continual Light",
+        "file": "data/lore/add_2e/spells/continual_light.json",
+        "spell_list": "priest",
+        "level_band": "third",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "continual_ught",
+        "name": "Continual Ught",
+        "file": "data/lore/add_2e/spells/continual_ught.json",
+        "spell_list": "wizard",
+        "level_band": "second",
+        "school_or_type": "Alteration",
+        "quality_flags": [
+          "canonical_name_guess_applied"
+        ]
+      },
+      {
+        "id": "control_undead",
+        "name": "Control Undead",
+        "file": "data/lore/add_2e/spells/control_undead.json",
+        "spell_list": "wizard",
+        "level_band": "seventh",
+        "school_or_type": "Necromancy",
+        "quality_flags": []
+      },
+      {
+        "id": "control_weather",
+        "name": "Control Weather",
+        "file": "data/lore/add_2e/spells/control_weather.json",
+        "spell_list": "priest",
+        "level_band": "sixth",
+        "school_or_type": "Alteration",
+        "quality_flags": [
+          "trimmed_merged_block"
+        ]
+      },
+      {
+        "id": "control_winds",
+        "name": "Control Winds",
+        "file": "data/lore/add_2e/spells/control_winds.json",
+        "spell_list": "priest",
+        "level_band": "fourth",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "crease",
+        "name": "Crease",
+        "file": "data/lore/add_2e/spells/crease.json",
+        "spell_list": "wizard",
+        "level_band": null,
+        "school_or_type": "Conjuration",
+        "quality_flags": []
+      },
+      {
+        "id": "create_food_b_water",
+        "name": "Create Food b Water",
+        "file": "data/lore/add_2e/spells/create_food_b_water.json",
+        "spell_list": "priest",
+        "level_band": "third",
+        "school_or_type": "Alteration",
+        "quality_flags": [
+          "trimmed_merged_block"
+        ]
+      },
+      {
+        "id": "create_water",
+        "name": "Create Water",
+        "file": "data/lore/add_2e/spells/create_water.json",
+        "spell_list": "priest",
+        "level_band": "ninth",
+        "school_or_type": "Alteration",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "crystalbrittle",
+        "name": "Crystalbrittle",
+        "file": "data/lore/add_2e/spells/crystalbrittle.json",
+        "spell_list": "wizard",
+        "level_band": "ninth",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "cue_reflectlon",
+        "name": "Cue Reflectlon",
+        "file": "data/lore/add_2e/spells/cue_reflectlon.json",
+        "spell_list": "wizard",
+        "level_band": null,
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "cure_critical_wounds",
+        "name": "Cure Critical Wounds",
+        "file": "data/lore/add_2e/spells/cure_critical_wounds.json",
+        "spell_list": "priest",
+        "level_band": "fourth",
+        "school_or_type": "Necmmpncy",
+        "quality_flags": []
+      },
+      {
+        "id": "cure_disease",
+        "name": "Cure Disease",
+        "file": "data/lore/add_2e/spells/cure_disease.json",
+        "spell_list": "priest",
+        "level_band": "third",
+        "school_or_type": "Abjuration",
+        "quality_flags": []
+      },
+      {
+        "id": "cure_light_wounds",
+        "name": "Cure Light Wounds",
+        "file": "data/lore/add_2e/spells/cure_light_wounds.json",
+        "spell_list": "priest",
+        "level_band": "ninth",
+        "school_or_type": "Necromancy",
+        "quality_flags": []
+      },
+      {
+        "id": "cure_serious_wounds",
+        "name": "Cure Serious Wounds",
+        "file": "data/lore/add_2e/spells/cure_serious_wounds.json",
+        "spell_list": "priest",
+        "level_band": "fourth",
+        "school_or_type": "Necromancy",
+        "quality_flags": []
+      },
+      {
+        "id": "darkness_15_radius",
+        "name": "Darkness, 15' Radius",
+        "file": "data/lore/add_2e/spells/darkness_15_radius.json",
+        "spell_list": "wizard",
+        "level_band": "second",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "deafness",
+        "name": "Deafness",
+        "file": "data/lore/add_2e/spells/deafness.json",
+        "spell_list": "wizard",
+        "level_band": "second",
+        "school_or_type": "Illusion/Phantasm",
+        "quality_flags": []
+      },
+      {
+        "id": "death_fog",
+        "name": "Death Fog",
+        "file": "data/lore/add_2e/spells/death_fog.json",
+        "spell_list": "wizard",
+        "level_band": "sixth",
+        "school_or_type": "Alteration, Evocation",
+        "quality_flags": []
+      },
+      {
+        "id": "deeppockets",
+        "name": "Deeppockets",
+        "file": "data/lore/add_2e/spells/deeppockets.json",
+        "spell_list": "wizard",
+        "level_band": "second",
+        "school_or_type": "Alteration, Enchantment",
+        "quality_flags": []
+      },
+      {
+        "id": "delayed_blast_fireball",
+        "name": "Delayed Blast Fireball",
+        "file": "data/lore/add_2e/spells/delayed_blast_fireball.json",
+        "spell_list": "wizard",
+        "level_band": "seventh",
+        "school_or_type": "Evocation",
+        "quality_flags": []
+      },
+      {
+        "id": "delude",
+        "name": "Delude",
+        "file": "data/lore/add_2e/spells/delude.json",
+        "spell_list": "wizard",
+        "level_band": "third",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "detect_evil",
+        "name": "Detect Evil",
+        "file": "data/lore/add_2e/spells/detect_evil.json",
+        "spell_list": "priest",
+        "level_band": "ninth",
+        "school_or_type": "Divination",
+        "quality_flags": []
+      },
+      {
+        "id": "detect_invisibility",
+        "name": "Detect invisibility",
+        "file": "data/lore/add_2e/spells/detect_invisibility.json",
+        "spell_list": "wizard",
+        "level_band": "second",
+        "school_or_type": "Divination",
+        "quality_flags": []
+      },
+      {
+        "id": "detect_lie",
+        "name": "Detect Lie",
+        "file": "data/lore/add_2e/spells/detect_lie.json",
+        "spell_list": "priest",
+        "level_band": "fourth",
+        "school_or_type": "Divination",
+        "quality_flags": []
+      },
+      {
+        "id": "detect_magic",
+        "name": "Detect Magic",
+        "file": "data/lore/add_2e/spells/detect_magic.json",
+        "spell_list": "priest",
+        "level_band": "ninth",
+        "school_or_type": "Divination",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "detect_polson",
+        "name": "Detect Polson",
+        "file": "data/lore/add_2e/spells/detect_polson.json",
+        "spell_list": "priest",
+        "level_band": "ninth",
+        "school_or_type": "Divjnatlon",
+        "quality_flags": [
+          "canonical_name_guess_applied"
+        ]
+      },
+      {
+        "id": "detect_scrying",
+        "name": "Detect Scrying",
+        "file": "data/lore/add_2e/spells/detect_scrying.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "Divination",
+        "quality_flags": []
+      },
+      {
+        "id": "detect_snares_h_pits",
+        "name": "Detect Snares h Pits",
+        "file": "data/lore/add_2e/spells/detect_snares_h_pits.json",
+        "spell_list": "priest",
+        "level_band": "ninth",
+        "school_or_type": "Divination",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "di_l_magic",
+        "name": "DI-l Magic",
+        "file": "data/lore/add_2e/spells/di_l_magic.json",
+        "spell_list": "wizard",
+        "level_band": "third",
+        "school_or_type": "Abjuration",
+        "quality_flags": []
+      },
+      {
+        "id": "dig",
+        "name": "Dig",
+        "file": "data/lore/add_2e/spells/dig.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "Evocation",
+        "quality_flags": []
+      },
+      {
+        "id": "disintegrate",
+        "name": "Disintegrate",
+        "file": "data/lore/add_2e/spells/disintegrate.json",
+        "spell_list": "wizard",
+        "level_band": "sixth",
+        "school_or_type": "Alteration",
+        "quality_flags": [
+          "trimmed_merged_block"
+        ]
+      },
+      {
+        "id": "dismissal",
+        "name": "Dismissal",
+        "file": "data/lore/add_2e/spells/dismissal.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "Abjuration",
+        "quality_flags": []
+      },
+      {
+        "id": "dispel_evil",
+        "name": "Dispel Evil",
+        "file": "data/lore/add_2e/spells/dispel_evil.json",
+        "spell_list": "priest",
+        "level_band": "fourth",
+        "school_or_type": "Abjuration",
+        "quality_flags": []
+      },
+      {
+        "id": "dispel_magic",
+        "name": "Dispel Magic",
+        "file": "data/lore/add_2e/spells/dispel_magic.json",
+        "spell_list": "priest",
+        "level_band": "third",
+        "school_or_type": "Abjuration",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "distance_distortion",
+        "name": "Distance Distortion",
+        "file": "data/lore/add_2e/spells/distance_distortion.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "divination",
+        "name": "Divination",
+        "file": "data/lore/add_2e/spells/divination.json",
+        "spell_list": "priest",
+        "level_band": "fourth",
+        "school_or_type": "Divination",
+        "quality_flags": []
+      },
+      {
+        "id": "domination",
+        "name": "Domination",
+        "file": "data/lore/add_2e/spells/domination.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "EhchantmenVCharm",
+        "quality_flags": []
+      },
+      {
+        "id": "dream",
+        "name": "Dream",
+        "file": "data/lore/add_2e/spells/dream.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "Invocation, IllusiodPhantasm",
+        "quality_flags": []
+      },
+      {
+        "id": "duo_dlmcnslon",
+        "name": "Duo-Dlmcnslon",
+        "file": "data/lore/add_2e/spells/duo_dlmcnslon.json",
+        "spell_list": "wizard",
+        "level_band": "seventh",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "dust_devil",
+        "name": "Dust Devil",
+        "file": "data/lore/add_2e/spells/dust_devil.json",
+        "spell_list": "priest",
+        "level_band": "second",
+        "school_or_type": "ConjuratiodSurnmoning",
+        "quality_flags": []
+      },
+      {
+        "id": "emdquake",
+        "name": "Emdquake",
+        "file": "data/lore/add_2e/spells/emdquake.json",
+        "spell_list": "priest",
+        "level_band": "sixth",
+        "school_or_type": "Alteration",
+        "quality_flags": [
+          "canonical_name_guess_applied"
+        ]
+      },
+      {
+        "id": "emotion",
+        "name": "Emotion",
+        "file": "data/lore/add_2e/spells/emotion.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "Ench.ntment/Charm",
+        "quality_flags": []
+      },
+      {
+        "id": "enchanted_weapon",
+        "name": "Enchanted Weapon",
+        "file": "data/lore/add_2e/spells/enchanted_weapon.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "Enchantment",
+        "quality_flags": []
+      },
+      {
+        "id": "endure_coldhdure_heat",
+        "name": "Endure Coldhdure Heat",
+        "file": "data/lore/add_2e/spells/endure_coldhdure_heat.json",
+        "spell_list": "priest",
+        "level_band": "ninth",
+        "school_or_type": "Alteration",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "energy_drain",
+        "name": "Energy Drain",
+        "file": "data/lore/add_2e/spells/energy_drain.json",
+        "spell_list": "wizard",
+        "level_band": "ninth",
+        "school_or_type": "Evocation, Necromancy",
+        "quality_flags": []
+      },
+      {
+        "id": "enervation",
+        "name": "Enervation",
+        "file": "data/lore/add_2e/spells/enervation.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "Necromancy",
+        "quality_flags": []
+      },
+      {
+        "id": "ensnarement",
+        "name": "Ensnarement",
+        "file": "data/lore/add_2e/spells/ensnarement.json",
+        "spell_list": "wizard",
+        "level_band": "sixth",
+        "school_or_type": "Conjuration/Summoning",
+        "quality_flags": []
+      },
+      {
+        "id": "entangle",
+        "name": "Entangle",
+        "file": "data/lore/add_2e/spells/entangle.json",
+        "spell_list": "priest",
+        "level_band": "ninth",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "enthrall",
+        "name": "Enthrall",
+        "file": "data/lore/add_2e/spells/enthrall.json",
+        "spell_list": "priest",
+        "level_band": "second",
+        "school_or_type": "EnchantmenKharm",
+        "quality_flags": []
+      },
+      {
+        "id": "erase",
+        "name": "Erase",
+        "file": "data/lore/add_2e/spells/erase.json",
+        "spell_list": "wizard",
+        "level_band": null,
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "esp",
+        "name": "ESP",
+        "file": "data/lore/add_2e/spells/esp.json",
+        "spell_list": "wizard",
+        "level_band": "second",
+        "school_or_type": "Divination",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "explosive_runes",
+        "name": "Explosive Runes",
+        "file": "data/lore/add_2e/spells/explosive_runes.json",
+        "spell_list": "wizard",
+        "level_band": "third",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "extension_i",
+        "name": "Extension I",
+        "file": "data/lore/add_2e/spells/extension_i.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "Alteration",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "extension_ii",
+        "name": "Extension II",
+        "file": "data/lore/add_2e/spells/extension_ii.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "fabricate",
+        "name": "Fabricate",
+        "file": "data/lore/add_2e/spells/fabricate.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "Enchantment, Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "faerie_fire",
+        "name": "Faerie Fire",
+        "file": "data/lore/add_2e/spells/faerie_fire.json",
+        "spell_list": "priest",
+        "level_band": "ninth",
+        "school_or_type": "Alteration",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "false_vision",
+        "name": "False Vision",
+        "file": "data/lore/add_2e/spells/false_vision.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "Divination",
+        "quality_flags": []
+      },
+      {
+        "id": "feather_fall",
+        "name": "Feather Fall",
+        "file": "data/lore/add_2e/spells/feather_fall.json",
+        "spell_list": "wizard",
+        "level_band": null,
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "feeblemind",
+        "name": "Feeblemind",
+        "file": "data/lore/add_2e/spells/feeblemind.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "EnchantmentKharm",
+        "quality_flags": []
+      },
+      {
+        "id": "feign_death",
+        "name": "Feign Death",
+        "file": "data/lore/add_2e/spells/feign_death.json",
+        "spell_list": "priest",
+        "level_band": "third",
+        "school_or_type": "Necromancy",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "feu",
+        "name": "Feu",
+        "file": "data/lore/add_2e/spells/feu.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "IlIusiodPhantasm",
+        "quality_flags": []
+      },
+      {
+        "id": "fin_seeds",
+        "name": "Fin Seeds",
+        "file": "data/lore/add_2e/spells/fin_seeds.json",
+        "spell_list": "priest",
+        "level_band": "sixth",
+        "school_or_type": "Conjumthn",
+        "quality_flags": []
+      },
+      {
+        "id": "find_familiar",
+        "name": "Find Familiar",
+        "file": "data/lore/add_2e/spells/find_familiar.json",
+        "spell_list": "wizard",
+        "level_band": null,
+        "school_or_type": "Conjuratiotr/Sumrnoning",
+        "quality_flags": []
+      },
+      {
+        "id": "find_the_path",
+        "name": "Find the Path",
+        "file": "data/lore/add_2e/spells/find_the_path.json",
+        "spell_list": "priest",
+        "level_band": "sixth",
+        "school_or_type": "Divination",
+        "quality_flags": []
+      },
+      {
+        "id": "find_zaps",
+        "name": "Find Zaps",
+        "file": "data/lore/add_2e/spells/find_zaps.json",
+        "spell_list": "priest",
+        "level_band": "second",
+        "school_or_type": "Divination",
+        "quality_flags": []
+      },
+      {
+        "id": "finger_of_death",
+        "name": "Finger of Death",
+        "file": "data/lore/add_2e/spells/finger_of_death.json",
+        "spell_list": "wizard",
+        "level_band": "seventh",
+        "school_or_type": "Necromancy",
+        "quality_flags": []
+      },
+      {
+        "id": "fire_shield",
+        "name": "Fire Shield",
+        "file": "data/lore/add_2e/spells/fire_shield.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "Evocation, Alteration",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "fire_storm",
+        "name": "Fire Storm",
+        "file": "data/lore/add_2e/spells/fire_storm.json",
+        "spell_list": "priest",
+        "level_band": "sixth",
+        "school_or_type": "Evocation",
+        "quality_flags": []
+      },
+      {
+        "id": "fire_zap",
+        "name": "Fire Zap",
+        "file": "data/lore/add_2e/spells/fire_zap.json",
+        "spell_list": "priest",
+        "level_band": "second",
+        "school_or_type": "Abjuration, Evocation",
+        "quality_flags": []
+      },
+      {
+        "id": "fireball",
+        "name": "Fireball",
+        "file": "data/lore/add_2e/spells/fireball.json",
+        "spell_list": "wizard",
+        "level_band": "third",
+        "school_or_type": "Evocation",
+        "quality_flags": []
+      },
+      {
+        "id": "flame_arrow",
+        "name": "Flame Arrow",
+        "file": "data/lore/add_2e/spells/flame_arrow.json",
+        "spell_list": "wizard",
+        "level_band": "third",
+        "school_or_type": "ConjuratiodSumrnoning",
+        "quality_flags": []
+      },
+      {
+        "id": "flame_blade",
+        "name": "Flame Blade",
+        "file": "data/lore/add_2e/spells/flame_blade.json",
+        "spell_list": "priest",
+        "level_band": "second",
+        "school_or_type": "Evocation",
+        "quality_flags": []
+      },
+      {
+        "id": "flame_walk",
+        "name": "Flame Walk",
+        "file": "data/lore/add_2e/spells/flame_walk.json",
+        "spell_list": "priest",
+        "level_band": "third",
+        "school_or_type": "Alteration",
+        "quality_flags": [
+          "trimmed_merged_block"
+        ]
+      },
+      {
+        "id": "flaming_sphere",
+        "name": "Flaming Sphere",
+        "file": "data/lore/add_2e/spells/flaming_sphere.json",
+        "spell_list": "wizard",
+        "level_band": "second",
+        "school_or_type": "Evocation",
+        "quality_flags": []
+      },
+      {
+        "id": "flre_map",
+        "name": "Flre map",
+        "file": "data/lore/add_2e/spells/flre_map.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "Abjuration, Evocation",
+        "quality_flags": []
+      },
+      {
+        "id": "fly",
+        "name": "Fly",
+        "file": "data/lore/add_2e/spells/fly.json",
+        "spell_list": "wizard",
+        "level_band": "third",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "fog_cloud",
+        "name": "Fog Cloud",
+        "file": "data/lore/add_2e/spells/fog_cloud.json",
+        "spell_list": "wizard",
+        "level_band": "second",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "fools_gold",
+        "name": "Fools' Gold",
+        "file": "data/lore/add_2e/spells/fools_gold.json",
+        "spell_list": "wizard",
+        "level_band": "second",
+        "school_or_type": "Alteration, Illusion",
+        "quality_flags": []
+      },
+      {
+        "id": "forcecage",
+        "name": "Forcecage",
+        "file": "data/lore/add_2e/spells/forcecage.json",
+        "spell_list": "wizard",
+        "level_band": "seventh",
+        "school_or_type": "Evocation",
+        "quality_flags": [
+          "trimmed_merged_block"
+        ]
+      },
+      {
+        "id": "foresight",
+        "name": "Foresight",
+        "file": "data/lore/add_2e/spells/foresight.json",
+        "spell_list": "wizard",
+        "level_band": "ninth",
+        "school_or_type": "Divination",
+        "quality_flags": []
+      },
+      {
+        "id": "free_action",
+        "name": "Free Action",
+        "file": "data/lore/add_2e/spells/free_action.json",
+        "spell_list": "priest",
+        "level_band": "fourth",
+        "school_or_type": "Abjuration, Enchantment",
+        "quality_flags": []
+      },
+      {
+        "id": "friends",
+        "name": "Friends",
+        "file": "data/lore/add_2e/spells/friends.json",
+        "spell_list": "wizard",
+        "level_band": null,
+        "school_or_type": "EnchantmenvCharm",
+        "quality_flags": []
+      },
+      {
+        "id": "fumble",
+        "name": "Fumble",
+        "file": "data/lore/add_2e/spells/fumble.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "EnchantmenKharm",
+        "quality_flags": [
+          "trimmed_merged_block"
+        ]
+      },
+      {
+        "id": "fwget",
+        "name": "Fwget",
+        "file": "data/lore/add_2e/spells/fwget.json",
+        "spell_list": "wizard",
+        "level_band": "second",
+        "school_or_type": "EnchantmenVChann",
+        "quality_flags": []
+      },
+      {
+        "id": "gate",
+        "name": "Gate",
+        "file": "data/lore/add_2e/spells/gate.json",
+        "spell_list": "priest",
+        "level_band": "sixth",
+        "school_or_type": "Conjuration6ummoning",
+        "quality_flags": []
+      },
+      {
+        "id": "geao",
+        "name": "Geao",
+        "file": "data/lore/add_2e/spells/geao.json",
+        "spell_list": "wizard",
+        "level_band": "sixth",
+        "school_or_type": "EnchantmenKham",
+        "quality_flags": []
+      },
+      {
+        "id": "giant_insect",
+        "name": "Giant Insect",
+        "file": "data/lore/add_2e/spells/giant_insect.json",
+        "spell_list": "priest",
+        "level_band": "fourth",
+        "school_or_type": "Alteration",
+        "quality_flags": [
+          "trimmed_merged_block"
+        ]
+      },
+      {
+        "id": "glitterdust",
+        "name": "Glitterdust",
+        "file": "data/lore/add_2e/spells/glitterdust.json",
+        "spell_list": "wizard",
+        "level_band": "second",
+        "school_or_type": "Conjuration/Sumrnoning",
+        "quality_flags": []
+      },
+      {
+        "id": "glusee",
+        "name": "Glusee",
+        "file": "data/lore/add_2e/spells/glusee.json",
+        "spell_list": "wizard",
+        "level_band": "sixth",
+        "school_or_type": "Alteration",
+        "quality_flags": [
+          "trimmed_merged_block"
+        ]
+      },
+      {
+        "id": "goodberry",
+        "name": "Goodberry",
+        "file": "data/lore/add_2e/spells/goodberry.json",
+        "spell_list": "priest",
+        "level_band": "second",
+        "school_or_type": "Alteration, Evocation",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "gust_of_wind",
+        "name": "Gust of Wind",
+        "file": "data/lore/add_2e/spells/gust_of_wind.json",
+        "spell_list": "wizard",
+        "level_band": "third",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "haste",
+        "name": "Haste",
+        "file": "data/lore/add_2e/spells/haste.json",
+        "spell_list": "wizard",
+        "level_band": "third",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "hdd_undead",
+        "name": "Hdd Undead",
+        "file": "data/lore/add_2e/spells/hdd_undead.json",
+        "spell_list": "wizard",
+        "level_band": "third",
+        "school_or_type": "Necromancy",
+        "quality_flags": []
+      },
+      {
+        "id": "heat_metal",
+        "name": "Heat Metal",
+        "file": "data/lore/add_2e/spells/heat_metal.json",
+        "spell_list": "priest",
+        "level_band": "second",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "heroes_feast",
+        "name": "Heroes' Feast",
+        "file": "data/lore/add_2e/spells/heroes_feast.json",
+        "spell_list": "priest",
+        "level_band": "sixth",
+        "school_or_type": "Evocation",
+        "quality_flags": []
+      },
+      {
+        "id": "hold_animal",
+        "name": "Hold Animal",
+        "file": "data/lore/add_2e/spells/hold_animal.json",
+        "spell_list": "priest",
+        "level_band": "third",
+        "school_or_type": "EnchantmenffCharm",
+        "quality_flags": []
+      },
+      {
+        "id": "hold_monster",
+        "name": "Hold Monster",
+        "file": "data/lore/add_2e/spells/hold_monster.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "EnchantmenVCharm",
+        "quality_flags": []
+      },
+      {
+        "id": "hold_person",
+        "name": "Hold Person",
+        "file": "data/lore/add_2e/spells/hold_person.json",
+        "spell_list": "priest",
+        "level_band": "second",
+        "school_or_type": "EnchantmentKharm",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "hold_plant",
+        "name": "Hold Plant",
+        "file": "data/lore/add_2e/spells/hold_plant.json",
+        "spell_list": "priest",
+        "level_band": "fourth",
+        "school_or_type": "EnchantmenKham",
+        "quality_flags": [
+          "trimmed_merged_block"
+        ]
+      },
+      {
+        "id": "hold_portal",
+        "name": "Hold Portal",
+        "file": "data/lore/add_2e/spells/hold_portal.json",
+        "spell_list": "wizard",
+        "level_band": null,
+        "school_or_type": "Alteration",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "holy_word",
+        "name": "Holy Word",
+        "file": "data/lore/add_2e/spells/holy_word.json",
+        "spell_list": "priest",
+        "level_band": "sixth",
+        "school_or_type": "ConjuratiodSurnmoning",
+        "quality_flags": []
+      },
+      {
+        "id": "hypnotic_pattern",
+        "name": "Hypnotic Pattern",
+        "file": "data/lore/add_2e/spells/hypnotic_pattern.json",
+        "spell_list": "wizard",
+        "level_band": "second",
+        "school_or_type": "Illusion/Phantasm",
+        "quality_flags": [
+          "missing_standard_fields",
+          "trimmed_merged_block"
+        ]
+      },
+      {
+        "id": "hypnotism",
+        "name": "Hypnotism",
+        "file": "data/lore/add_2e/spells/hypnotism.json",
+        "spell_list": "wizard",
+        "level_band": null,
+        "school_or_type": "EnchantmentKhann",
+        "quality_flags": []
+      },
+      {
+        "id": "i1_wizard_spells",
+        "name": "I1 Wizard Spells",
+        "file": "data/lore/add_2e/spells/i1_wizard_spells.json",
+        "spell_list": "wizard",
+        "level_band": "third",
+        "school_or_type": "3rd Level",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "i_exaction",
+        "name": "I Exaction",
+        "file": "data/lore/add_2e/spells/i_exaction.json",
+        "spell_list": "priest",
+        "level_band": "sixth",
+        "school_or_type": "Evocation, Alteration",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "i_priest_spells",
+        "name": "I Priest Spells",
+        "file": "data/lore/add_2e/spells/i_priest_spells.json",
+        "spell_list": "priest",
+        "level_band": "sixth",
+        "school_or_type": "7th Level",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "i_wizard_spells",
+        "name": "I Wizard Spells",
+        "file": "data/lore/add_2e/spells/i_wizard_spells.json",
+        "spell_list": "wizard",
+        "level_band": "second",
+        "school_or_type": "3rd Level",
+        "quality_flags": [
+          "missing_standard_fields",
+          "trimmed_merged_block"
+        ]
+      },
+      {
+        "id": "ice_storm",
+        "name": "Ice Storm",
+        "file": "data/lore/add_2e/spells/ice_storm.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "Evocation",
+        "quality_flags": [
+          "trimmed_merged_block"
+        ]
+      },
+      {
+        "id": "identify",
+        "name": "Identify",
+        "file": "data/lore/add_2e/spells/identify.json",
+        "spell_list": "wizard",
+        "level_band": null,
+        "school_or_type": "Divination",
+        "quality_flags": []
+      },
+      {
+        "id": "illusionary_script",
+        "name": "Illusionary Script",
+        "file": "data/lore/add_2e/spells/illusionary_script.json",
+        "spell_list": "wizard",
+        "level_band": "third",
+        "school_or_type": "hsion/Phantasm",
+        "quality_flags": []
+      },
+      {
+        "id": "imprisonment",
+        "name": "Imprisonment",
+        "file": "data/lore/add_2e/spells/imprisonment.json",
+        "spell_list": "wizard",
+        "level_band": "ninth",
+        "school_or_type": "Abjuration",
+        "quality_flags": []
+      },
+      {
+        "id": "infravision",
+        "name": "Infravision",
+        "file": "data/lore/add_2e/spells/infravision.json",
+        "spell_list": "wizard",
+        "level_band": "third",
+        "school_or_type": "Alteration",
+        "quality_flags": [
+          "trimmed_merged_block"
+        ]
+      },
+      {
+        "id": "insect_plague",
+        "name": "Insect Plague",
+        "file": "data/lore/add_2e/spells/insect_plague.json",
+        "spell_list": "priest",
+        "level_band": "fourth",
+        "school_or_type": "Conjuration6ummoning",
+        "quality_flags": []
+      },
+      {
+        "id": "invisibility",
+        "name": "Invisibility",
+        "file": "data/lore/add_2e/spells/invisibility.json",
+        "spell_list": "wizard",
+        "level_band": "second",
+        "school_or_type": "Illusion/Phantasrn",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "invisibility_to_animals",
+        "name": "Invisibility to Animals",
+        "file": "data/lore/add_2e/spells/invisibility_to_animals.json",
+        "spell_list": "priest",
+        "level_band": "ninth",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "invisibility_to_undead",
+        "name": "Invisibility to Undead",
+        "file": "data/lore/add_2e/spells/invisibility_to_undead.json",
+        "spell_list": "priest",
+        "level_band": "ninth",
+        "school_or_type": "Abjuration",
+        "quality_flags": []
+      },
+      {
+        "id": "irritation",
+        "name": "Irritation",
+        "file": "data/lore/add_2e/spells/irritation.json",
+        "spell_list": "wizard",
+        "level_band": "second",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "item",
+        "name": "Item",
+        "file": "data/lore/add_2e/spells/item.json",
+        "spell_list": "wizard",
+        "level_band": "third",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "jump",
+        "name": "Jump",
+        "file": "data/lore/add_2e/spells/jump.json",
+        "spell_list": "wizard",
+        "level_band": null,
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "knock",
+        "name": "Knock",
+        "file": "data/lore/add_2e/spells/knock.json",
+        "spell_list": "wizard",
+        "level_band": "second",
+        "school_or_type": "Alteration",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "know_alignment",
+        "name": "Know Alignment",
+        "file": "data/lore/add_2e/spells/know_alignment.json",
+        "spell_list": "priest",
+        "level_band": "second",
+        "school_or_type": "Divination",
+        "quality_flags": []
+      },
+      {
+        "id": "laughter",
+        "name": "Laughter",
+        "file": "data/lore/add_2e/spells/laughter.json",
+        "spell_list": "wizard",
+        "level_band": "second",
+        "school_or_type": "EnchantmentKharm",
+        "quality_flags": []
+      },
+      {
+        "id": "legend_lore",
+        "name": "Legend Lore",
+        "file": "data/lore/add_2e/spells/legend_lore.json",
+        "spell_list": "wizard",
+        "level_band": "sixth",
+        "school_or_type": "Divination",
+        "quality_flags": []
+      },
+      {
+        "id": "leomund_s_trap",
+        "name": "Leomund's Trap",
+        "file": "data/lore/add_2e/spells/leomund_s_trap.json",
+        "spell_list": "wizard",
+        "level_band": "second",
+        "school_or_type": "IllusiodPhantasm",
+        "quality_flags": []
+      },
+      {
+        "id": "levitate",
+        "name": "Levitate",
+        "file": "data/lore/add_2e/spells/levitate.json",
+        "spell_list": "wizard",
+        "level_band": "second",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "light",
+        "name": "Light",
+        "file": "data/lore/add_2e/spells/light.json",
+        "spell_list": "wizard",
+        "level_band": null,
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "lightning_bolt",
+        "name": "Lightning Bolt",
+        "file": "data/lore/add_2e/spells/lightning_bolt.json",
+        "spell_list": "wizard",
+        "level_band": "third",
+        "school_or_type": "Evocation",
+        "quality_flags": [
+          "trimmed_merged_block"
+        ]
+      },
+      {
+        "id": "locate_object",
+        "name": "Locate Object",
+        "file": "data/lore/add_2e/spells/locate_object.json",
+        "spell_list": "priest",
+        "level_band": "third",
+        "school_or_type": "Divination",
+        "quality_flags": []
+      },
+      {
+        "id": "lower_water",
+        "name": "Lower Water",
+        "file": "data/lore/add_2e/spells/lower_water.json",
+        "spell_list": "priest",
+        "level_band": "fourth",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "magic_font",
+        "name": "Magic Font",
+        "file": "data/lore/add_2e/spells/magic_font.json",
+        "spell_list": "priest",
+        "level_band": "fourth",
+        "school_or_type": "Divination",
+        "quality_flags": []
+      },
+      {
+        "id": "magic_jar",
+        "name": "Magic Jar",
+        "file": "data/lore/add_2e/spells/magic_jar.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "Necromancy",
+        "quality_flags": []
+      },
+      {
+        "id": "magic_mirror",
+        "name": "Magic Mirror",
+        "file": "data/lore/add_2e/spells/magic_mirror.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "Enchmhnent, Divination",
+        "quality_flags": []
+      },
+      {
+        "id": "magical_vestment",
+        "name": "Magical Vestment",
+        "file": "data/lore/add_2e/spells/magical_vestment.json",
+        "spell_list": "priest",
+        "level_band": "third",
+        "school_or_type": "Enchantment",
+        "quality_flags": []
+      },
+      {
+        "id": "maglc_mouth",
+        "name": "Maglc Mouth",
+        "file": "data/lore/add_2e/spells/maglc_mouth.json",
+        "spell_list": "wizard",
+        "level_band": "second",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "major_creation",
+        "name": "Major Creation",
+        "file": "data/lore/add_2e/spells/major_creation.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "Illusion/Phantasm",
+        "quality_flags": [
+          "trimmed_merged_block"
+        ]
+      },
+      {
+        "id": "mansion",
+        "name": "Mansion",
+        "file": "data/lore/add_2e/spells/mansion.json",
+        "spell_list": "wizard",
+        "level_band": "seventh",
+        "school_or_type": "Alteration, Conjuration",
+        "quality_flags": []
+      },
+      {
+        "id": "masic_missile",
+        "name": "Masic Missile",
+        "file": "data/lore/add_2e/spells/masic_missile.json",
+        "spell_list": "wizard",
+        "level_band": null,
+        "school_or_type": "Evocation",
+        "quality_flags": []
+      },
+      {
+        "id": "maze",
+        "name": "Maze",
+        "file": "data/lore/add_2e/spells/maze.json",
+        "spell_list": "wizard",
+        "level_band": "eighth",
+        "school_or_type": "Conjuratiodiummoning",
+        "quality_flags": []
+      },
+      {
+        "id": "meld_into_stone",
+        "name": "Meld Into Stone",
+        "file": "data/lore/add_2e/spells/meld_into_stone.json",
+        "spell_list": "priest",
+        "level_band": "third",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "melf_s_acid_arow",
+        "name": "Melf's Acid AROW",
+        "file": "data/lore/add_2e/spells/melf_s_acid_arow.json",
+        "spell_list": "wizard",
+        "level_band": "second",
+        "school_or_type": "Conjuration",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "mending",
+        "name": "Mending",
+        "file": "data/lore/add_2e/spells/mending.json",
+        "spell_list": "wizard",
+        "level_band": null,
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "message",
+        "name": "Message",
+        "file": "data/lore/add_2e/spells/message.json",
+        "spell_list": "wizard",
+        "level_band": null,
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "messenger",
+        "name": "Messenger",
+        "file": "data/lore/add_2e/spells/messenger.json",
+        "spell_list": "priest",
+        "level_band": "second",
+        "school_or_type": "EnchantmenVCharm",
+        "quality_flags": []
+      },
+      {
+        "id": "meteor_swum",
+        "name": "Meteor Swum",
+        "file": "data/lore/add_2e/spells/meteor_swum.json",
+        "spell_list": "wizard",
+        "level_band": "ninth",
+        "school_or_type": "Evocation",
+        "quality_flags": [
+          "trimmed_merged_block"
+        ]
+      },
+      {
+        "id": "mind_blank",
+        "name": "Mind Blank",
+        "file": "data/lore/add_2e/spells/mind_blank.json",
+        "spell_list": "wizard",
+        "level_band": "eighth",
+        "school_or_type": "Abjuration",
+        "quality_flags": [
+          "trimmed_merged_block"
+        ]
+      },
+      {
+        "id": "minor_creation",
+        "name": "Minor Creation",
+        "file": "data/lore/add_2e/spells/minor_creation.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "IllwiodPhantasm",
+        "quality_flags": [
+          "trimmed_merged_block"
+        ]
+      },
+      {
+        "id": "minor_image",
+        "name": "Minor Image",
+        "file": "data/lore/add_2e/spells/minor_image.json",
+        "spell_list": "wizard",
+        "level_band": "second",
+        "school_or_type": "IllusiodPhantasm",
+        "quality_flags": []
+      },
+      {
+        "id": "mislead",
+        "name": "Mislead",
+        "file": "data/lore/add_2e/spells/mislead.json",
+        "spell_list": "wizard",
+        "level_band": "sixth",
+        "school_or_type": "Illusion/Phantasm",
+        "quality_flags": [
+          "trimmed_merged_block"
+        ]
+      },
+      {
+        "id": "mm_chum",
+        "name": "Mm Chum",
+        "file": "data/lore/add_2e/spells/mm_chum.json",
+        "spell_list": "wizard",
+        "level_band": "eighth",
+        "school_or_type": "EnchantmentKharm",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "mnd",
+        "name": "Mnd",
+        "file": "data/lore/add_2e/spells/mnd.json",
+        "spell_list": "wizard",
+        "level_band": "second",
+        "school_or_type": "Enchantment",
+        "quality_flags": []
+      },
+      {
+        "id": "moonbeam",
+        "name": "Moonbeam",
+        "file": "data/lore/add_2e/spells/moonbeam.json",
+        "spell_list": "priest",
+        "level_band": "fourth",
+        "school_or_type": "Evocation, Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "mount",
+        "name": "Mount",
+        "file": "data/lore/add_2e/spells/mount.json",
+        "spell_list": "wizard",
+        "level_band": null,
+        "school_or_type": "ConjuratiotVSuminoning",
+        "quality_flags": []
+      },
+      {
+        "id": "move_earth",
+        "name": "Move Earth",
+        "file": "data/lore/add_2e/spells/move_earth.json",
+        "spell_list": "wizard",
+        "level_band": "sixth",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "mty_food_b_mnk",
+        "name": "Mty Food b Mnk",
+        "file": "data/lore/add_2e/spells/mty_food_b_mnk.json",
+        "spell_list": "priest",
+        "level_band": "ninth",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "muge",
+        "name": "Muge",
+        "file": "data/lore/add_2e/spells/muge.json",
+        "spell_list": "wizard",
+        "level_band": null,
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "non_detection",
+        "name": "Non-Detection",
+        "file": "data/lore/add_2e/spells/non_detection.json",
+        "spell_list": "wizard",
+        "level_band": "third",
+        "school_or_type": "Abjuration",
+        "quality_flags": []
+      },
+      {
+        "id": "obscurement",
+        "name": "Obscurement",
+        "file": "data/lore/add_2e/spells/obscurement.json",
+        "spell_list": "priest",
+        "level_band": "second",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "part_water",
+        "name": "Part Water",
+        "file": "data/lore/add_2e/spells/part_water.json",
+        "spell_list": "wizard",
+        "level_band": "sixth",
+        "school_or_type": "Alteration",
+        "quality_flags": [
+          "trimmed_merged_block"
+        ]
+      },
+      {
+        "id": "pass_plant",
+        "name": "Pass Plant",
+        "file": "data/lore/add_2e/spells/pass_plant.json",
+        "spell_list": "priest",
+        "level_band": "fourth",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "permanency",
+        "name": "Permanency",
+        "file": "data/lore/add_2e/spells/permanency.json",
+        "spell_list": "wizard",
+        "level_band": "eighth",
+        "school_or_type": "Alteration",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "phantasmal_force",
+        "name": "Phantasmal Force",
+        "file": "data/lore/add_2e/spells/phantasmal_force.json",
+        "spell_list": "wizard",
+        "level_band": null,
+        "school_or_type": "IllusiodPhantasm",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "phantasmal_killer",
+        "name": "Phantasmal Killer",
+        "file": "data/lore/add_2e/spells/phantasmal_killer.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "IllusionlPhsntrsm",
+        "quality_flags": []
+      },
+      {
+        "id": "phantom_steed",
+        "name": "Phantom Steed",
+        "file": "data/lore/add_2e/spells/phantom_steed.json",
+        "spell_list": "wizard",
+        "level_band": "third",
+        "school_or_type": "Conjuration, Phantasm",
+        "quality_flags": [
+          "trimmed_merged_block"
+        ]
+      },
+      {
+        "id": "phu_door",
+        "name": "Phu Door",
+        "file": "data/lore/add_2e/spells/phu_door.json",
+        "spell_list": "wizard",
+        "level_band": "seventh",
+        "school_or_type": "Alteration",
+        "quality_flags": [
+          "trimmed_merged_block"
+        ]
+      },
+      {
+        "id": "plane_shift",
+        "name": "Plane Shift",
+        "file": "data/lore/add_2e/spells/plane_shift.json",
+        "spell_list": "priest",
+        "level_band": "fourth",
+        "school_or_type": "Alteration",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "plilnt_growth",
+        "name": "Plilnt Growth",
+        "file": "data/lore/add_2e/spells/plilnt_growth.json",
+        "spell_list": "priest",
+        "level_band": "third",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "poi",
+        "name": "POI-",
+        "file": "data/lore/add_2e/spells/poi.json",
+        "spell_list": "priest",
+        "level_band": "fourth",
+        "school_or_type": "Necromancy",
+        "quality_flags": []
+      },
+      {
+        "id": "polymorph_any_object",
+        "name": "Polymorph Any Object",
+        "file": "data/lore/add_2e/spells/polymorph_any_object.json",
+        "spell_list": "wizard",
+        "level_band": "eighth",
+        "school_or_type": "Alteration",
+        "quality_flags": [
+          "trimmed_merged_block"
+        ]
+      },
+      {
+        "id": "polymorph_other",
+        "name": "Polymorph Other",
+        "file": "data/lore/add_2e/spells/polymorph_other.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "polymorph_self",
+        "name": "Polymorph Self",
+        "file": "data/lore/add_2e/spells/polymorph_self.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "prayer",
+        "name": "Prayer",
+        "file": "data/lore/add_2e/spells/prayer.json",
+        "spell_list": "priest",
+        "level_band": "third",
+        "school_or_type": "Conjuration/Summoning",
+        "quality_flags": []
+      },
+      {
+        "id": "pried_cndlc",
+        "name": "Pried Cndlc",
+        "file": "data/lore/add_2e/spells/pried_cndlc.json",
+        "spell_list": "priest",
+        "level_band": "sixth",
+        "school_or_type": "7th I PVP~",
+        "quality_flags": [
+          "missing_standard_fields",
+          "trimmed_merged_block"
+        ]
+      },
+      {
+        "id": "priest_spells",
+        "name": "Priest Spells",
+        "file": "data/lore/add_2e/spells/priest_spells.json",
+        "spell_list": "priest",
+        "level_band": "sixth",
+        "school_or_type": "7th Level",
+        "quality_flags": [
+          "missing_standard_fields",
+          "trimmed_merged_block"
+        ]
+      },
+      {
+        "id": "produce_fire",
+        "name": "Produce Fire",
+        "file": "data/lore/add_2e/spells/produce_fire.json",
+        "spell_list": "priest",
+        "level_band": "fourth",
+        "school_or_type": "Alteration",
+        "quality_flags": [
+          "trimmed_merged_block"
+        ]
+      },
+      {
+        "id": "produce_flame",
+        "name": "Produce Flame",
+        "file": "data/lore/add_2e/spells/produce_flame.json",
+        "spell_list": "priest",
+        "level_band": "second",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "protection_from_cantrips",
+        "name": "Protection From Cantrips",
+        "file": "data/lore/add_2e/spells/protection_from_cantrips.json",
+        "spell_list": "wizard",
+        "level_band": "second",
+        "school_or_type": "Abjuration",
+        "quality_flags": []
+      },
+      {
+        "id": "protection_from_evll",
+        "name": "Protection From Evll",
+        "file": "data/lore/add_2e/spells/protection_from_evll.json",
+        "spell_list": "priest",
+        "level_band": "ninth",
+        "school_or_type": "Abjuration",
+        "quality_flags": []
+      },
+      {
+        "id": "protection_from_fire",
+        "name": "Protection From Fire",
+        "file": "data/lore/add_2e/spells/protection_from_fire.json",
+        "spell_list": "priest",
+        "level_band": "third",
+        "school_or_type": "Abjuration",
+        "quality_flags": []
+      },
+      {
+        "id": "protectlon_from_evil",
+        "name": "Protectlon From Evil",
+        "file": "data/lore/add_2e/spells/protectlon_from_evil.json",
+        "spell_list": "wizard",
+        "level_band": null,
+        "school_or_type": "Abjuration",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "puswall",
+        "name": "Puswall",
+        "file": "data/lore/add_2e/spells/puswall.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "put_water",
+        "name": "Put Water",
+        "file": "data/lore/add_2e/spells/put_water.json",
+        "spell_list": "priest",
+        "level_band": "sixth",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "pyrotechnics",
+        "name": "Pyrotechnics",
+        "file": "data/lore/add_2e/spells/pyrotechnics.json",
+        "spell_list": "priest",
+        "level_band": "third",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "quest",
+        "name": "Quest",
+        "file": "data/lore/add_2e/spells/quest.json",
+        "spell_list": "priest",
+        "level_band": "fourth",
+        "school_or_type": "EnebnnhnenVChann",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "rainbow",
+        "name": "Rainbow",
+        "file": "data/lore/add_2e/spells/rainbow.json",
+        "spell_list": "priest",
+        "level_band": "fourth",
+        "school_or_type": "Evocation, Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "raise_dead",
+        "name": "Raise Dead",
+        "file": "data/lore/add_2e/spells/raise_dead.json",
+        "spell_list": "priest",
+        "level_band": "fourth",
+        "school_or_type": "Necromancy",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "ratoratlon",
+        "name": "Ratoratlon",
+        "file": "data/lore/add_2e/spells/ratoratlon.json",
+        "spell_list": "priest",
+        "level_band": "sixth",
+        "school_or_type": "Necromancy",
+        "quality_flags": []
+      },
+      {
+        "id": "read_magic",
+        "name": "Read Magic",
+        "file": "data/lore/add_2e/spells/read_magic.json",
+        "spell_list": "wizard",
+        "level_band": null,
+        "school_or_type": "Divination",
+        "quality_flags": []
+      },
+      {
+        "id": "reflecting_pool",
+        "name": "Reflecting Pool",
+        "file": "data/lore/add_2e/spells/reflecting_pool.json",
+        "spell_list": "priest",
+        "level_band": "fourth",
+        "school_or_type": "Divination",
+        "quality_flags": []
+      },
+      {
+        "id": "reincarnate",
+        "name": "Reincarnate",
+        "file": "data/lore/add_2e/spells/reincarnate.json",
+        "spell_list": "priest",
+        "level_band": "sixth",
+        "school_or_type": "Necromancy",
+        "quality_flags": []
+      },
+      {
+        "id": "reincarnqtion",
+        "name": "Reincarnqtion",
+        "file": "data/lore/add_2e/spells/reincarnqtion.json",
+        "spell_list": "wizard",
+        "level_band": "sixth",
+        "school_or_type": "Necromancy",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "remove_curse",
+        "name": "Remove Curse",
+        "file": "data/lore/add_2e/spells/remove_curse.json",
+        "spell_list": "priest",
+        "level_band": "third",
+        "school_or_type": "Abjuration",
+        "quality_flags": []
+      },
+      {
+        "id": "remove_fear",
+        "name": "Remove Fear",
+        "file": "data/lore/add_2e/spells/remove_fear.json",
+        "spell_list": "priest",
+        "level_band": "ninth",
+        "school_or_type": "Abjuration",
+        "quality_flags": []
+      },
+      {
+        "id": "remove_paralysis",
+        "name": "Remove Paralysis",
+        "file": "data/lore/add_2e/spells/remove_paralysis.json",
+        "spell_list": "priest",
+        "level_band": "third",
+        "school_or_type": "Abjuration",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "repel_insects",
+        "name": "Repel Insects",
+        "file": "data/lore/add_2e/spells/repel_insects.json",
+        "spell_list": "priest",
+        "level_band": "fourth",
+        "school_or_type": "Abjuration, Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "repulsion",
+        "name": "Repulsion",
+        "file": "data/lore/add_2e/spells/repulsion.json",
+        "spell_list": "wizard",
+        "level_band": "sixth",
+        "school_or_type": "Abjuration",
+        "quality_flags": []
+      },
+      {
+        "id": "resist_flre_resist_cold",
+        "name": "Resist Flre/Resist Cold",
+        "file": "data/lore/add_2e/spells/resist_flre_resist_cold.json",
+        "spell_list": "priest",
+        "level_band": "second",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "resurrection",
+        "name": "Resurrection",
+        "file": "data/lore/add_2e/spells/resurrection.json",
+        "spell_list": "priest",
+        "level_band": "sixth",
+        "school_or_type": "Necromancy",
+        "quality_flags": []
+      },
+      {
+        "id": "reverse_gravity",
+        "name": "Reverse Gravity",
+        "file": "data/lore/add_2e/spells/reverse_gravity.json",
+        "spell_list": "wizard",
+        "level_band": "seventh",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "rope_trick",
+        "name": "Rope Trick",
+        "file": "data/lore/add_2e/spells/rope_trick.json",
+        "spell_list": "wizard",
+        "level_band": "second",
+        "school_or_type": "Alteration",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "sanctuary",
+        "name": "Sanctuary",
+        "file": "data/lore/add_2e/spells/sanctuary.json",
+        "spell_list": "priest",
+        "level_band": "ninth",
+        "school_or_type": "Abjuration",
+        "quality_flags": []
+      },
+      {
+        "id": "scare",
+        "name": "Scare",
+        "file": "data/lore/add_2e/spells/scare.json",
+        "spell_list": "wizard",
+        "level_band": "second",
+        "school_or_type": "EnchantmenVCharm",
+        "quality_flags": []
+      },
+      {
+        "id": "screen",
+        "name": "Screen",
+        "file": "data/lore/add_2e/spells/screen.json",
+        "spell_list": "wizard",
+        "level_band": "eighth",
+        "school_or_type": "Divinatiodlllusion",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "seeming",
+        "name": "Seeming",
+        "file": "data/lore/add_2e/spells/seeming.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "UusiodPhantasm",
+        "quality_flags": []
+      },
+      {
+        "id": "serten_s_spell_immunity",
+        "name": "Serten's Spell Immunity",
+        "file": "data/lore/add_2e/spells/serten_s_spell_immunity.json",
+        "spell_list": "wizard",
+        "level_band": "eighth",
+        "school_or_type": "Abjuration",
+        "quality_flags": []
+      },
+      {
+        "id": "shades",
+        "name": "Shades",
+        "file": "data/lore/add_2e/spells/shades.json",
+        "spell_list": "wizard",
+        "level_band": "sixth",
+        "school_or_type": "IllusiodPhantasm",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "shadow_door",
+        "name": "Shadow Door",
+        "file": "data/lore/add_2e/spells/shadow_door.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "IllusiodPhantasm",
+        "quality_flags": []
+      },
+      {
+        "id": "shadow_magic",
+        "name": "Shadow Magic",
+        "file": "data/lore/add_2e/spells/shadow_magic.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "Illusion/Phantasm",
+        "quality_flags": []
+      },
+      {
+        "id": "shadow_monsters",
+        "name": "Shadow Monsters",
+        "file": "data/lore/add_2e/spells/shadow_monsters.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "IllusiodPhantasm",
+        "quality_flags": []
+      },
+      {
+        "id": "shape_change",
+        "name": "Shape Change",
+        "file": "data/lore/add_2e/spells/shape_change.json",
+        "spell_list": "wizard",
+        "level_band": "ninth",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "shatter",
+        "name": "Shatter",
+        "file": "data/lore/add_2e/spells/shatter.json",
+        "spell_list": "wizard",
+        "level_band": "second",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "shield",
+        "name": "Shield",
+        "file": "data/lore/add_2e/spells/shield.json",
+        "spell_list": "wizard",
+        "level_band": null,
+        "school_or_type": "Evocation",
+        "quality_flags": []
+      },
+      {
+        "id": "shillelagh",
+        "name": "Shillelagh",
+        "file": "data/lore/add_2e/spells/shillelagh.json",
+        "spell_list": "priest",
+        "level_band": "ninth",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "shocking_grasp",
+        "name": "Shocking Grasp",
+        "file": "data/lore/add_2e/spells/shocking_grasp.json",
+        "spell_list": "wizard",
+        "level_band": null,
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "shout",
+        "name": "Shout",
+        "file": "data/lore/add_2e/spells/shout.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "Evocation",
+        "quality_flags": []
+      },
+      {
+        "id": "sink",
+        "name": "Sink",
+        "file": "data/lore/add_2e/spells/sink.json",
+        "spell_list": "wizard",
+        "level_band": "eighth",
+        "school_or_type": "Enchantment, Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "sleep",
+        "name": "Sleep",
+        "file": "data/lore/add_2e/spells/sleep.json",
+        "spell_list": "wizard",
+        "level_band": null,
+        "school_or_type": "EnchantmentKharm",
+        "quality_flags": []
+      },
+      {
+        "id": "slmulacrum",
+        "name": "Slmulacrum",
+        "file": "data/lore/add_2e/spells/slmulacrum.json",
+        "spell_list": "wizard",
+        "level_band": "seventh",
+        "school_or_type": "Illtlsion/phmt.rm",
+        "quality_flags": []
+      },
+      {
+        "id": "slow_poison",
+        "name": "Slow Poison",
+        "file": "data/lore/add_2e/spells/slow_poison.json",
+        "spell_list": "priest",
+        "level_band": "second",
+        "school_or_type": "Necromancy",
+        "quality_flags": []
+      },
+      {
+        "id": "snare",
+        "name": "Snare",
+        "file": "data/lore/add_2e/spells/snare.json",
+        "spell_list": "priest",
+        "level_band": "third",
+        "school_or_type": "EnchantrnenKhann",
+        "quality_flags": []
+      },
+      {
+        "id": "solid_fog",
+        "name": "Solid Fog",
+        "file": "data/lore/add_2e/spells/solid_fog.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "speak_with_animals",
+        "name": "Speak With Animals",
+        "file": "data/lore/add_2e/spells/speak_with_animals.json",
+        "spell_list": "priest",
+        "level_band": "second",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "speak_with_monsters",
+        "name": "Speak With Monsters",
+        "file": "data/lore/add_2e/spells/speak_with_monsters.json",
+        "spell_list": "priest",
+        "level_band": "sixth",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "speak_with_plants",
+        "name": "Speak With Plants",
+        "file": "data/lore/add_2e/spells/speak_with_plants.json",
+        "spell_list": "priest",
+        "level_band": "fourth",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "spectral_force",
+        "name": "Spectral Force",
+        "file": "data/lore/add_2e/spells/spectral_force.json",
+        "spell_list": "wizard",
+        "level_band": "third",
+        "school_or_type": "Illusion/Phantasm",
+        "quality_flags": []
+      },
+      {
+        "id": "spectral_hand",
+        "name": "Spectral Hand",
+        "file": "data/lore/add_2e/spells/spectral_hand.json",
+        "spell_list": "wizard",
+        "level_band": "second",
+        "school_or_type": "Necromancy",
+        "quality_flags": []
+      },
+      {
+        "id": "spell_immunity",
+        "name": "Spell Immunity",
+        "file": "data/lore/add_2e/spells/spell_immunity.json",
+        "spell_list": "priest",
+        "level_band": "fourth",
+        "school_or_type": "Abjuration",
+        "quality_flags": []
+      },
+      {
+        "id": "spider_climb",
+        "name": "Spider Climb",
+        "file": "data/lore/add_2e/spells/spider_climb.json",
+        "spell_list": "wizard",
+        "level_band": null,
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "spike_growth",
+        "name": "Spike Growth",
+        "file": "data/lore/add_2e/spells/spike_growth.json",
+        "spell_list": "priest",
+        "level_band": "third",
+        "school_or_type": "Alteration, Enchantment",
+        "quality_flags": []
+      },
+      {
+        "id": "spike_stones",
+        "name": "Spike Stones",
+        "file": "data/lore/add_2e/spells/spike_stones.json",
+        "spell_list": "priest",
+        "level_band": "fourth",
+        "school_or_type": "Ateration, Enchantment",
+        "quality_flags": []
+      },
+      {
+        "id": "spiritual_hammer",
+        "name": "Spiritual Hammer",
+        "file": "data/lore/add_2e/spells/spiritual_hammer.json",
+        "spell_list": "priest",
+        "level_band": "second",
+        "school_or_type": "Invocation",
+        "quality_flags": []
+      },
+      {
+        "id": "spook",
+        "name": "Spook",
+        "file": "data/lore/add_2e/spells/spook.json",
+        "spell_list": "wizard",
+        "level_band": null,
+        "school_or_type": "IllusiodPhantasm",
+        "quality_flags": []
+      },
+      {
+        "id": "starshine",
+        "name": "Starshine",
+        "file": "data/lore/add_2e/spells/starshine.json",
+        "spell_list": "priest",
+        "level_band": "third",
+        "school_or_type": "Evocation, Inusion/Phantasm",
+        "quality_flags": []
+      },
+      {
+        "id": "statue",
+        "name": "Statue",
+        "file": "data/lore/add_2e/spells/statue.json",
+        "spell_list": "wizard",
+        "level_band": "seventh",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "sticks_to_snakes",
+        "name": "Sticks to Snakes",
+        "file": "data/lore/add_2e/spells/sticks_to_snakes.json",
+        "spell_list": "priest",
+        "level_band": "fourth",
+        "school_or_type": "Alteration",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "stinking_cloud",
+        "name": "Stinking Cloud",
+        "file": "data/lore/add_2e/spells/stinking_cloud.json",
+        "spell_list": "wizard",
+        "level_band": "second",
+        "school_or_type": "Evocation",
+        "quality_flags": []
+      },
+      {
+        "id": "stone_shape",
+        "name": "Stone Shape",
+        "file": "data/lore/add_2e/spells/stone_shape.json",
+        "spell_list": "priest",
+        "level_band": "third",
+        "school_or_type": "Alteration",
+        "quality_flags": [
+          "trimmed_merged_block"
+        ]
+      },
+      {
+        "id": "stone_tell",
+        "name": "Stone Tell",
+        "file": "data/lore/add_2e/spells/stone_tell.json",
+        "spell_list": "priest",
+        "level_band": "sixth",
+        "school_or_type": "Divination",
+        "quality_flags": []
+      },
+      {
+        "id": "stone_to_flesh",
+        "name": "Stone to Flesh",
+        "file": "data/lore/add_2e/spells/stone_to_flesh.json",
+        "spell_list": "wizard",
+        "level_band": "sixth",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "succor",
+        "name": "Succor",
+        "file": "data/lore/add_2e/spells/succor.json",
+        "spell_list": "priest",
+        "level_band": "sixth",
+        "school_or_type": "Alteration, Enchantment",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "sunray",
+        "name": "Sunray",
+        "file": "data/lore/add_2e/spells/sunray.json",
+        "spell_list": "priest",
+        "level_band": "sixth",
+        "school_or_type": "Evocation, Aheration",
+        "quality_flags": []
+      },
+      {
+        "id": "symbol",
+        "name": "Symbol",
+        "file": "data/lore/add_2e/spells/symbol.json",
+        "spell_list": "priest",
+        "level_band": "sixth",
+        "school_or_type": "Conjuration/Summoning",
+        "quality_flags": []
+      },
+      {
+        "id": "taunt",
+        "name": "Taunt",
+        "file": "data/lore/add_2e/spells/taunt.json",
+        "spell_list": "wizard",
+        "level_band": null,
+        "school_or_type": "Enchantment",
+        "quality_flags": [
+          "trimmed_merged_block"
+        ]
+      },
+      {
+        "id": "telekinesis",
+        "name": "Telekinesis",
+        "file": "data/lore/add_2e/spells/telekinesis.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "teleport",
+        "name": "Teleport",
+        "file": "data/lore/add_2e/spells/teleport.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "teleport_without_error",
+        "name": "Teleport Without Error",
+        "file": "data/lore/add_2e/spells/teleport_without_error.json",
+        "spell_list": "wizard",
+        "level_band": "seventh",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "temporal_stasis",
+        "name": "Temporal Stasis",
+        "file": "data/lore/add_2e/spells/temporal_stasis.json",
+        "spell_list": "wizard",
+        "level_band": "ninth",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "ti_leomund_s_tiny_hut",
+        "name": "TI Leomund's Tiny Hut",
+        "file": "data/lore/add_2e/spells/ti_leomund_s_tiny_hut.json",
+        "spell_list": "wizard",
+        "level_band": "third",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "time_stop",
+        "name": "Time Stop",
+        "file": "data/lore/add_2e/spells/time_stop.json",
+        "spell_list": "wizard",
+        "level_band": "ninth",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "tongues",
+        "name": "Tongues",
+        "file": "data/lore/add_2e/spells/tongues.json",
+        "spell_list": "priest",
+        "level_band": "fourth",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "transmute_metal_to_wood",
+        "name": "Transmute Metal to Wood",
+        "file": "data/lore/add_2e/spells/transmute_metal_to_wood.json",
+        "spell_list": "priest",
+        "level_band": "sixth",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "transmute_rock_to_mud",
+        "name": "Transmute Rock to Mud",
+        "file": "data/lore/add_2e/spells/transmute_rock_to_mud.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "trip",
+        "name": "Trip",
+        "file": "data/lore/add_2e/spells/trip.json",
+        "spell_list": "priest",
+        "level_band": "second",
+        "school_or_type": "EnchantmentKhann",
+        "quality_flags": []
+      },
+      {
+        "id": "true_seeing",
+        "name": "True Seeing",
+        "file": "data/lore/add_2e/spells/true_seeing.json",
+        "spell_list": "wizard",
+        "level_band": "sixth",
+        "school_or_type": "Divination",
+        "quality_flags": []
+      },
+      {
+        "id": "turn_wood",
+        "name": "Turn Wood",
+        "file": "data/lore/add_2e/spells/turn_wood.json",
+        "spell_list": "priest",
+        "level_band": "sixth",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "vacancy",
+        "name": "Vacancy",
+        "file": "data/lore/add_2e/spells/vacancy.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "Alteration, Illusion/Phantasm",
+        "quality_flags": []
+      },
+      {
+        "id": "vampiric_touch",
+        "name": "Vampiric Touch",
+        "file": "data/lore/add_2e/spells/vampiric_touch.json",
+        "spell_list": "wizard",
+        "level_band": "third",
+        "school_or_type": "Necromancy",
+        "quality_flags": []
+      },
+      {
+        "id": "veil",
+        "name": "Veil",
+        "file": "data/lore/add_2e/spells/veil.json",
+        "spell_list": "wizard",
+        "level_band": "sixth",
+        "school_or_type": "Illusior~Phantasrn",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "vemtrlloqulsm",
+        "name": "Vemtrlloqulsm",
+        "file": "data/lore/add_2e/spells/vemtrlloqulsm.json",
+        "spell_list": "wizard",
+        "level_band": null,
+        "school_or_type": "IllusiodPhantasm",
+        "quality_flags": []
+      },
+      {
+        "id": "vision",
+        "name": "Vision",
+        "file": "data/lore/add_2e/spells/vision.json",
+        "spell_list": "wizard",
+        "level_band": "seventh",
+        "school_or_type": "Divination",
+        "quality_flags": [
+          "trimmed_merged_block"
+        ]
+      },
+      {
+        "id": "wall_of_fire",
+        "name": "Wall of Fire",
+        "file": "data/lore/add_2e/spells/wall_of_fire.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "Evocation",
+        "quality_flags": []
+      },
+      {
+        "id": "wall_of_fog",
+        "name": "Wall of Fog",
+        "file": "data/lore/add_2e/spells/wall_of_fog.json",
+        "spell_list": "wizard",
+        "level_band": null,
+        "school_or_type": "Evocation",
+        "quality_flags": []
+      },
+      {
+        "id": "wall_of_force",
+        "name": "Wall of Force",
+        "file": "data/lore/add_2e/spells/wall_of_force.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "Evocation",
+        "quality_flags": []
+      },
+      {
+        "id": "wall_of_ice",
+        "name": "Wall of Ice",
+        "file": "data/lore/add_2e/spells/wall_of_ice.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "Evocation",
+        "quality_flags": []
+      },
+      {
+        "id": "wall_of_stone",
+        "name": "Wall of Stone",
+        "file": "data/lore/add_2e/spells/wall_of_stone.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "Evocation",
+        "quality_flags": []
+      },
+      {
+        "id": "walthform",
+        "name": "Walthform",
+        "file": "data/lore/add_2e/spells/walthform.json",
+        "spell_list": "wizard",
+        "level_band": "third",
+        "school_or_type": "Alteration, Illusion",
+        "quality_flags": []
+      },
+      {
+        "id": "water_breathing",
+        "name": "Water Breathing",
+        "file": "data/lore/add_2e/spells/water_breathing.json",
+        "spell_list": "priest",
+        "level_band": "third",
+        "school_or_type": "Alteration",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "water_walk",
+        "name": "Water Walk",
+        "file": "data/lore/add_2e/spells/water_walk.json",
+        "spell_list": "priest",
+        "level_band": "third",
+        "school_or_type": "Alteration",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "web",
+        "name": "Web",
+        "file": "data/lore/add_2e/spells/web.json",
+        "spell_list": "wizard",
+        "level_band": "second",
+        "school_or_type": "Evocation",
+        "quality_flags": []
+      },
+      {
+        "id": "wind_walk",
+        "name": "Wind Walk",
+        "file": "data/lore/add_2e/spells/wind_walk.json",
+        "spell_list": "priest",
+        "level_band": "sixth",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "wind_wall",
+        "name": "Wind Wall",
+        "file": "data/lore/add_2e/spells/wind_wall.json",
+        "spell_list": "wizard",
+        "level_band": "third",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "wish",
+        "name": "Wish",
+        "file": "data/lore/add_2e/spells/wish.json",
+        "spell_list": "wizard",
+        "level_band": "ninth",
+        "school_or_type": "ConjurationSummonjng",
+        "quality_flags": [
+          "trimmed_merged_block"
+        ]
+      },
+      {
+        "id": "wizard_eye",
+        "name": "Wizard Eye",
+        "file": "data/lore/add_2e/spells/wizard_eye.json",
+        "spell_list": "wizard",
+        "level_band": "fourth",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "wizard_muk",
+        "name": "Wizard Muk",
+        "file": "data/lore/add_2e/spells/wizard_muk.json",
+        "spell_list": "wizard",
+        "level_band": null,
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "wizard_snells",
+        "name": "Wizard Snells",
+        "file": "data/lore/add_2e/spells/wizard_snells.json",
+        "spell_list": "wizard",
+        "level_band": "sixth",
+        "school_or_type": "6th Level",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "wizard_spells",
+        "name": "Wizard Spells",
+        "file": "data/lore/add_2e/spells/wizard_spells.json",
+        "spell_list": "wizard",
+        "level_band": "eighth",
+        "school_or_type": "8th Level",
+        "quality_flags": [
+          "missing_standard_fields"
+        ]
+      },
+      {
+        "id": "wlthdraw",
+        "name": "Wlthdraw",
+        "file": "data/lore/add_2e/spells/wlthdraw.json",
+        "spell_list": "priest",
+        "level_band": "second",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "wlzud_lock",
+        "name": "Wlzud Lock",
+        "file": "data/lore/add_2e/spells/wlzud_lock.json",
+        "spell_list": "wizard",
+        "level_band": "second",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "word_of_recall",
+        "name": "Word of Recall",
+        "file": "data/lore/add_2e/spells/word_of_recall.json",
+        "spell_list": "priest",
+        "level_band": "sixth",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "wup_wood",
+        "name": "Wup Wood",
+        "file": "data/lore/add_2e/spells/wup_wood.json",
+        "spell_list": "priest",
+        "level_band": "second",
+        "school_or_type": "Alteration",
+        "quality_flags": []
+      },
+      {
+        "id": "wyvern_watch",
+        "name": "Wyvern Watch",
+        "file": "data/lore/add_2e/spells/wyvern_watch.json",
+        "spell_list": "priest",
+        "level_band": "second",
+        "school_or_type": "Evocation",
+        "quality_flags": []
+      }
+    ]
+  },
+  "mechanics": {
+    "normalization": "header_block_v3_1",
+    "issues_detected": [
+      {
+        "id": "abjure",
+        "issue": "merged_spell_block_trimmed",
+        "next_header": "Animal Sum- I"
+      },
+      {
+        "id": "animal_growth",
+        "issue": "merged_spell_block_trimmed",
+        "next_header": "Animal Summoning 11"
+      },
+      {
+        "id": "anti_animal_shell",
+        "issue": "merged_spell_block_trimmed",
+        "next_header": "Conjure Fire Elementill"
+      },
+      {
+        "id": "chain_lightning",
+        "issue": "merged_spell_block_trimmed",
+        "next_header": "ConJure Animals"
+      },
+      {
+        "id": "chant",
+        "issue": "merged_spell_block_trimmed",
+        "next_header": "Charm Person or Mammal"
+      },
+      {
+        "id": "clone",
+        "issue": "merged_spell_block_trimmed",
+        "next_header": "Demand"
+      },
+      {
+        "id": "clustecl",
+        "issue": "merged_spell_block_trimmed",
+        "next_header": "Incendiary Cloud"
+      },
+      {
+        "id": "cone_of_cold",
+        "issue": "merged_spell_block_trimmed",
+        "next_header": "Conjure Elemental"
+      },
+      {
+        "id": "contingency",
+        "issue": "merged_spell_block_trimmed",
+        "next_header": "The material components of this spell are"
+      },
+      {
+        "id": "control_weather",
+        "issue": "merged_spell_block_trimmed",
+        "next_header": "Creeplng boom"
+      },
+      {
+        "id": "create_food_b_water",
+        "issue": "merged_spell_block_trimmed",
+        "next_header": "Cure Blindness or Deafness"
+      },
+      {
+        "id": "disintegrate",
+        "issue": "merged_spell_block_trimmed",
+        "next_header": "Enchant an Itern"
+      },
+      {
+        "id": "flame_walk",
+        "issue": "merged_spell_block_trimmed",
+        "next_header": "Glyph of Warding"
+      },
+      {
+        "id": "forcecage",
+        "issue": "merged_spell_block_trimmed",
+        "next_header": "Monster Summoning V"
+      },
+      {
+        "id": "fumble",
+        "issue": "merged_spell_block_trimmed",
+        "next_header": "Hdluclnatory Terrdn"
+      },
+      {
+        "id": "giant_insect",
+        "issue": "merged_spell_block_trimmed",
+        "next_header": "Hallucinatory Forest"
+      },
+      {
+        "id": "glusee",
+        "issue": "merged_spell_block_trimmed",
+        "next_header": "Invisible Stalker"
+      },
+      {
+        "id": "hold_plant",
+        "issue": "merged_spell_block_trimmed",
+        "next_header": "Imbue With Spell Ability"
+      },
+      {
+        "id": "hypnotic_pattern",
+        "issue": "merged_spell_block_trimmed",
+        "next_header": "Improved Phantasmal Force"
+      },
+      {
+        "id": "i_wizard_spells",
+        "issue": "merged_spell_block_trimmed",
+        "next_header": "Whispering Wind"
+      },
+      {
+        "id": "ice_storm",
+        "issue": "merged_spell_block_trimmed",
+        "next_header": "Improved Invisibility"
+      },
+      {
+        "id": "infravision",
+        "issue": "merged_spell_block_trimmed",
+        "next_header": "Invisibility, 10' Radius"
+      },
+      {
+        "id": "lightning_bolt",
+        "issue": "merged_spell_block_trimmed",
+        "next_header": "Melf's Minute Meteors"
+      },
+      {
+        "id": "major_creation",
+        "issue": "merged_spell_block_trimmed",
+        "next_header": "Monster Surnrnoi"
+      },
+      {
+        "id": "meteor_swum",
+        "issue": "merged_spell_block_trimmed",
+        "next_header": "Monster Summoning MI"
+      },
+      {
+        "id": "mind_blank",
+        "issue": "merged_spell_block_trimmed",
+        "next_header": "Monster Summoning VI"
+      },
+      {
+        "id": "minor_creation",
+        "issue": "merged_spell_block_trimmed",
+        "next_header": "Minor Globe of Invulnerabiiity"
+      },
+      {
+        "id": "mislead",
+        "issue": "merged_spell_block_trimmed",
+        "next_header": "Mordenkdnen's Lucubfatlon"
+      },
+      {
+        "id": "part_water",
+        "issue": "merged_spell_block_trimmed",
+        "next_header": "Programmed Illusion"
+      },
+      {
+        "id": "phantom_steed",
+        "issue": "merged_spell_block_trimmed",
+        "next_header": "Protection From Evil, 10' Radius"
+      },
+      {
+        "id": "phu_door",
+        "issue": "merged_spell_block_trimmed",
+        "next_header": "Power Word, Stun"
+      },
+      {
+        "id": "polymorph_any_object",
+        "issue": "merged_spell_block_trimmed",
+        "next_header": "Prismatic Wall"
+      },
+      {
+        "id": "pried_cndlc",
+        "issue": "merged_spell_block_trimmed",
+        "next_header": "Conjrem-"
+      },
+      {
+        "id": "priest_spells",
+        "issue": "merged_spell_block_trimmed",
+        "next_header": "Wall of Thorns"
+      },
+      {
+        "id": "produce_fire",
+        "issue": "merged_spell_block_trimmed",
+        "next_header": "Protection From Ughtnlng"
+      },
+      {
+        "id": "stone_shape",
+        "issue": "merged_spell_block_trimmed",
+        "next_header": "Summon Insects"
+      },
+      {
+        "id": "taunt",
+        "issue": "merged_spell_block_trimmed",
+        "next_header": "Unseen Servant"
+      },
+      {
+        "id": "vision",
+        "issue": "merged_spell_block_trimmed",
+        "next_header": "Antipath y-S ympath y"
+      },
+      {
+        "id": "wish",
+        "issue": "merged_spell_block_trimmed",
+        "next_header": "Animal Friendship"
+      }
+    ],
+    "alias_file": "data/lore/add_2e/indices/spell_alias_map.json"
+  }
+}

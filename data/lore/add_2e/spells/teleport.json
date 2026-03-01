@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "teleport",
+  "name": "Teleport",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Teleport (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      172
+    ],
+    "pdf_pages": [
+      173
+    ],
+    "raw_block": "Teleport (Alteration)\nRange: Touch\nComponents: V\nDuration: Instantaneous\nCasting Time: 2\nArea of Effect: Special\nSaving Throw: None\nWhen this spell is used, the wizard in-\nstantly transports himself, along with a cer-\ntain amount of additional weight that is on\nor being touched by the spellcaster, to a\nwell-known destination. Distance is not a\nfactor, but interplanar travel is not possible\nby means of a teleport spell. The spellcaster\nis able to teleport a maximum weight of 250\npounds, plus an additional 150 pounds for\neach level of experience above the 10th (a\n13th-level wizard can teleport up to 700\npounds). If the destination area is very fa-\nmiliar to the wizard (he has a clear mental\npicture through actual proximity to and\nstudy of the area), it is unlikely that there is\nany error in arriving, although the caster\nhas no control over his facing upon arrival.\nLesser known areas (those seen only magi-\ncally or from a distance) increase the proba-\nbility of error. Unfamiliar areas present\nconsiderable peril (see table).\nProbability of\nTeleporting:\nOn\nDestination Is: High Target Low\nVery familiar 01-02 03-99 00\nStudied carefully 0144 05-98 99-00\nSeen casually 01-08 09-96 97-00\nViewed once 01-16 17-92 93-00\nNever seen 01-32 33-84 85-00\nTeleporting high means the wizard arrives\nten feet above the ground for every 1% he is\nbelow the lowest \"On Target\" probability;\nthis could be as high as 320 feet if the desti-\nnation area was never seen. Any low result\nmeans the instant death of the wizard if the\narea into which he teleports is solid. A wiz-\nard cannot teleport to an area of empty\nspace-a substantial surface must be there,\nwhether a wooden floor, a stone floor, natu-\nral ground, etc. Areas of strong physical or\nmagical energies may make teleportation\nmore hazardous or even impossible."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Teleport",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "Touch",
+      "components": "V",
+      "duration": "Instantaneous",
+      "casting_time": "2",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "When this spell is used, the wizard in- stantly transports himself, along with a cer- tain amount of additional weight that is on or being touched by the spellcaster, to a well-known destination. Distance is not a factor, but interplanar travel is not possible by means of a teleport spell. The spellcaster is able to teleport a maximum weight of 250 pounds, plus an additional 150 pounds for each level of experience above the 10th (a 13th-level wizard can teleport up to 700 pounds). If the destination area is very fa- miliar to the wizard (he has a clear mental picture through actual proximity to and study of the area), it is unlikely that there is any error in arriving, although the caster has no control over his facing upon arrival. Lesser known areas (those seen only magi- cally or from a distance) increase the proba- bility of error. Unfamiliar areas present considerable peril (see tab"
+    },
+    "quality_flags": []
+  }
+}

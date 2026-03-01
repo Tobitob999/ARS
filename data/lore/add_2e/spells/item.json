@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "item",
+  "name": "Item",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Item (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "third",
+    "book_pages": [
+      150
+    ],
+    "pdf_pages": [
+      151
+    ],
+    "raw_block": "Item (Alteration)\nRange: Touch\nComponents: V, S, M\nDuration: 4 hours/level\nCasting Time: 3\nArea of Effect: 2 cu. ft./level\nSaving Throw: Special\nBy means of this spell, the wizard is able\nto shrink one nonmagical item (if it is within\nthe size limit) to 1/12 of its normal size. Op-\ntionally, the caster can also change its now-\nshrunken composition to a cloth-like one.\nAn object in the possession of another crea-\nture is allowed a saving throw vs. spell. Ob-\njects changed by an item spell can be\nreturned to normal composition and size\nmerely by tossing them onto any solid sur-\nface or by a word of command from the\noriginal spellcaster. Note that even a burn-\ning fire and its fuel can be shrunk by this\nspell."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Item",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "4 hours/level",
+      "casting_time": "3",
+      "area_of_effect": "2 cu. ft./level",
+      "saving_throw": "Special",
+      "description_excerpt": "By means of this spell, the wizard is able to shrink one nonmagical item (if it is within the size limit) to 1/12 of its normal size. Op- tionally, the caster can also change its now- shrunken composition to a cloth-like one. An object in the possession of another crea- ture is allowed a saving throw vs. spell. Ob- jects changed by an item spell can be returned to normal composition and size merely by tossing them onto any solid sur- face or by a word of command from the original spellcaster. Note that even a burn- ing fire and its fuel can be shrunk by this spell."
+    },
+    "quality_flags": []
+  }
+}

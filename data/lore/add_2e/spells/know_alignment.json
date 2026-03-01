@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "know_alignment",
+  "name": "Know Alignment",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Know Alignment (Divination) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "second",
+    "book_pages": [
+      206
+    ],
+    "pdf_pages": [
+      207
+    ],
+    "raw_block": "Know Alignment (Divination)\nReversible\nSphere: Divination\nRange: 10 yards\nComponents: V, S\nDuration: 1 turn\nCasting time: 1 round\nArea of Effect: 1 creature or object\nSaving Throw: Neg.\nA know alignment spell enables the priest\nto exactly read the aura of a creature or an\naligned object (unaligned objects reveal\nnothing). The caster must remain stationary\nand concentrate on the subject for a full\nround. If the creature rolls a successful sav-\ning throw vs. spell, the caster learns nothing\nabout that particular creature from the cast-\ning. Certain magical devices negate the\npower of the know alignment spell.\nThe reverse, undetectable alignment,\nconceals the alignment of an object or crea-\nture for 24 hours."
+  },
+  "mechanics": {
+    "school_or_type": "Divination",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Know Alignment",
+      "canonical_name_guess": null,
+      "school_or_type": "Divination",
+      "range": "10 yards",
+      "components": "V, S",
+      "duration": "1 turn",
+      "casting_time": "1 round",
+      "area_of_effect": "1 creature or object",
+      "saving_throw": "Neg.",
+      "description_excerpt": "A know alignment spell enables the priest to exactly read the aura of a creature or an aligned object (unaligned objects reveal nothing). The caster must remain stationary and concentrate on the subject for a full round. If the creature rolls a successful sav- ing throw vs. spell, the caster learns nothing about that particular creature from the cast- ing. Certain magical devices negate the power of the know alignment spell. The reverse, undetectable alignment, conceals the alignment of an object or crea- ture for 24 hours."
+    },
+    "quality_flags": []
+  }
+}

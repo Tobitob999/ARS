@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "extension_ii",
+  "name": "Extension II",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Extension II (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      168
+    ],
+    "pdf_pages": [
+      169
+    ],
+    "raw_block": "Extension II (Alteration)\nRange: 0\nComponents: V\nDuration: Special\nCasting Time: 4\nArea of Effect: Special\nSaving Throw: None\nThis spell is the same as the 4th-level ex-\ntension I spell, except it extends the duration\nof 1st- through 4th-level spells by 50%."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Extension II",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "0",
+      "components": "V",
+      "duration": "Special",
+      "casting_time": "4",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "of 1st- through 4th-level spells by 50%."
+    },
+    "quality_flags": []
+  }
+}

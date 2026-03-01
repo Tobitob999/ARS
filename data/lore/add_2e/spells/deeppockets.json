@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "deeppockets",
+  "name": "Deeppockets",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Deeppockets (Alteration, Enchantment) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "second",
+    "book_pages": [
+      140
+    ],
+    "pdf_pages": [
+      141
+    ],
+    "raw_block": "Deeppockets (Alteration, Enchantment)\nRange: Touch\nComponents: V, S, M\nDuration: 12 hours + 1 hour/level\nCasting Time: 1 turn\nArea of Effect: 1 garment\nSaving Throw: None\nThis spell enables the wizard to specially\nprepare a garment so as to hold far more\nthan it normally could. A finely sewn gown\nor robe of highquality material (at least 50\ngp value) is fashioned so as to contain\nnumerous hand-sized pockets. One dozen is\nthe minimum number. The deeppockets\nspell then enables these pockets to hold a\ntotal of 100 pounds (five cubic feet in vol-\nume) as if it were only 10 pounds of weight.\nFurthermore, there are no discernible bulges\nwhere the special pockets are. At the time of\ncasting, the caster can instead chose to have\n10 pockets each holding 10 pounds (1/2\ncubic foot volume each). If the robe or like\ngarment is sewn with 100 or more pockets\n(200 gp minimum cost), 100 pockets can be\ncreated to contain one pound of weight and\n'/6 cubic foot volume each. Each special\npocket is actually an extradimensional hold-\ning space.\nIf the spell duration expires while there is\nmaterial within the enchanted pockets, or if\na successful dispel magic is cast upon the\nenchanted garment, all the material sudden-\nly appears around the wearer and immedi-\nately falls to the ground. The caster can also\ncause all the pockets to empty with a single\ncommand.\nIn addition to the garment, which is reus-\nable, the material components of this spell\nare a tiny golden needle and a strip of fine\ncloth given a half-twist and fastened at the\nends."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration, Enchantment",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Deeppockets",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration, Enchantment",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "12 hours + 1 hour/level",
+      "casting_time": "1 turn",
+      "area_of_effect": "1 garment",
+      "saving_throw": "None",
+      "description_excerpt": "material within the enchanted pockets, or if a successful dispel magic is cast upon the enchanted garment, all the material sudden- ly appears around the wearer and immedi- ately falls to the ground. The caster can also cause all the pockets to empty with a single command. In addition to the garment, which is reus- able, the material components of this spell are a tiny golden needle and a strip of fine cloth given a half-twist and fastened at the ends."
+    },
+    "quality_flags": []
+  }
+}

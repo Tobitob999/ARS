@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "erase",
+  "name": "Erase",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Erase (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": null,
+    "book_pages": [
+      134
+    ],
+    "pdf_pages": [
+      135
+    ],
+    "raw_block": "Erase (Alteration)\nRange: 30 yards\nComponents: V, S\nDuration: Permanent\nCasting Time: 1\nArea of Effect: 1 scroll or 2 pages\nSaving Throw: Special\nThe erase spell removes writings of either\nmagical or mundane nature from a scroll or\nfrom one to two pages of paper, parchment,\nor similar surfaces. It removes explosive\nrunes, glyphs of warding, sepia snake sigik,\nand wizard marks, but it does not remove iJ-\nJusory script or symbols (see these spells).\nNonmagical writings are automatically\nerased if the caster is touching them, other-\nwise the chance for success is 90%. Magical\nwritings must be touched, and are only 30%\nlikely to be erased, plus 5 % per caster level,\nto a maximum of 90% (e.g., 35% for a 1st-\nlevel caster, 40% for a 2nd-level caster,\netc.).\n."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Erase",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "30 yards",
+      "components": "V, S",
+      "duration": "Permanent",
+      "casting_time": "1",
+      "area_of_effect": "1 scroll or 2 pages",
+      "saving_throw": "Special",
+      "description_excerpt": "The erase spell removes writings of either magical or mundane nature from a scroll or from one to two pages of paper, parchment, or similar surfaces. It removes explosive runes, glyphs of warding, sepia snake sigik, and wizard marks, but it does not remove iJ- Jusory script or symbols (see these spells). Nonmagical writings are automatically erased if the caster is touching them, other- wise the chance for success is 90%. Magical writings must be touched, and are only 30% likely to be erased, plus 5 % per caster level, to a maximum of 90% (e.g., 35% for a 1st- level caster, 40% for a 2nd-level caster, etc.). ."
+    },
+    "quality_flags": []
+  }
+}

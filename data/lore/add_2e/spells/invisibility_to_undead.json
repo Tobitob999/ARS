@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "invisibility_to_undead",
+  "name": "Invisibility to Undead",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Invisibility to Undead (Abjuration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "ninth",
+    "book_pages": [
+      200
+    ],
+    "pdf_pages": [
+      201
+    ],
+    "raw_block": "Invisibility to Undead (Abjuration)\nSphere: Necromantic\nRange: Touch\nComponents: V, S, M\nDuration: 6 rounds\nCasting Time: 4\nArea of Effect: Creature touched\nSaving Throw: Special\nThis spell causes affected undead to lose\ntrack of and ignore the warded creature for the\nduration of the spell. Undead of 4 or fewer Hit\nDice are automatically affected, but those\nwith more Hit Dice receive a saving throw vs.\nspell to avoid the effect. Note that a priest pro-\ntected by this spell cannot turn affected\nundead. The spell ends immediately if the\nrecipient makes any attack, although casting\nspells such as cure light wounds, augury, or\nchant does not end the ward.\nThe material component is the priest's"
+  },
+  "mechanics": {
+    "school_or_type": "Abjuration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Invisibility to Undead",
+      "canonical_name_guess": null,
+      "school_or_type": "Abjuration",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "6 rounds",
+      "casting_time": "4",
+      "area_of_effect": "Creature touched",
+      "saving_throw": "Special",
+      "description_excerpt": "Dice are automatically affected, but those with more Hit Dice receive a saving throw vs. spell to avoid the effect. Note that a priest pro- tected by this spell cannot turn affected undead. The spell ends immediately if the recipient makes any attack, although casting spells such as cure light wounds, augury, or chant does not end the ward. The material component is the priest's"
+    },
+    "quality_flags": []
+  }
+}

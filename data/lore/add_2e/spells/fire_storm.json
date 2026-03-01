@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "fire_storm",
+  "name": "Fire Storm",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Fire Storm (Evocation) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "sixth",
+    "book_pages": [
+      234
+    ],
+    "pdf_pages": [
+      235
+    ],
+    "raw_block": "Fire Storm (Evocation)\nReversible\nSphere: Elemental (Fire)\nRange: 160 yards\nComponents: V, S\nDuration: 1 round\nCasting Time: 1 round\nArea of Effect: 2Sfoot cube/level, mini-\nSaving Throw: 1/2\nWhen a fire storm spell is cast, the whole\narea is shot through with sheets of roaring\nflame that equal a wall offire spell in effect.\nCreatures within the area of fire and 10 feet\nor less hom the edge of the affected area\nreceive 2d8 points of damage plus addition-\nal damage equal to the caster's level (2d8 +\nl/level). Geahtres that roll successful sav-\ning throws vs. spell suffer only one-half\ndamage. The damage is inflicted each round\nthe creat-we stays in the area of effect. The\narea of effect is equal to two 10' x 10' cubes\nper level of the caster-e.g., a 13th-level\ncaster can cast a fire storm measuring 130' x\n20' x 10'. The height of the storm is 10 or 20\nfeet; the balance of its area must be in length\nand width.\nThe reverse spell, fire quench, smothers\ntwice the area of effect of a fire storm with\nrespect to normal fires, and the normal area\nof effect with respect to magical fires. Fire-\nbased creatures, such as elementals, sala-\nmanders, etc., of less than demigod status\nhave a a 5% chance per experience level of\nthe caster of being extinguished. If cast only\nagainst a flumetongue sword, the sword\nmust roll a successful saving throw vs.\ncrushing blow or be rendered nonmagical.\nSuch a sword in the possession of a creature\nfirst receives the creature's saving throw,\nand if this is successful, the second saving\nthrow is automatically successful.\nmum 16 1Gfoot cubes"
+  },
+  "mechanics": {
+    "school_or_type": "Evocation",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Fire Storm",
+      "canonical_name_guess": null,
+      "school_or_type": "Evocation",
+      "range": "160 yards",
+      "components": "V, S",
+      "duration": "1 round",
+      "casting_time": "1 round",
+      "area_of_effect": "2Sfoot cube/level, mini-",
+      "saving_throw": "1/2",
+      "description_excerpt": "When a fire storm spell is cast, the whole area is shot through with sheets of roaring flame that equal a wall offire spell in effect. Creatures within the area of fire and 10 feet or less hom the edge of the affected area receive 2d8 points of damage plus addition- al damage equal to the caster's level (2d8 + l/level). Geahtres that roll successful sav- ing throws vs. spell suffer only one-half damage. The damage is inflicted each round the creat-we stays in the area of effect. The area of effect is equal to two 10' x 10' cubes per level of the caster-e.g., a 13th-level caster can cast a fire storm measuring 130' x 20' x 10'. The height of the storm is 10 or 20 feet; the balance of its area must be in length and width. The reverse spell, fire quench, smothers twice the area of effect of a fire storm with respect to normal fires, and the normal area of effect with respect to magical fire"
+    },
+    "quality_flags": []
+  }
+}

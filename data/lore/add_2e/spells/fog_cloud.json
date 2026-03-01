@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "fog_cloud",
+  "name": "Fog Cloud",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Fog Cloud (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "second",
+    "book_pages": [
+      141
+    ],
+    "pdf_pages": [
+      142
+    ],
+    "raw_block": "Fog Cloud (Alteration)\nRange: 10 yards\nComponents: V, S\nDuration: 4 rounds + 1 round/level\nCasting Time: 2\nArea of Effect: Special\nSaving Throw: None\nThe fog cloud spell can be cast in either\none of two ways, at the caster's option: as a\nlarge, stationary bank of normal fog, or as a\nharmless fog that resembles the 5th-level\nwizard spell, cloudkill.\nAs a fog bank, this spell creates a fog of\nany size and shape up to a maximum 20-foot\ncube per caster level. The fog obscures all\n141\nsight, normal and infravision, beyond two\nfeet.\ninto the vegetation.\nscure vision. A strong breeze\neither effect in one round, whil\nbreeze will reduce the spell\n50%. The spell cannot be cast\nThe only effect of either version is to ob-"
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Fog Cloud",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "10 yards",
+      "components": "V, S",
+      "duration": "4 rounds + 1 round/level",
+      "casting_time": "2",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "The fog cloud spell can be cast in either one of two ways, at the caster's option: as a large, stationary bank of normal fog, or as a harmless fog that resembles the 5th-level wizard spell, cloudkill. As a fog bank, this spell creates a fog of any size and shape up to a maximum 20-foot cube per caster level. The fog obscures all 141 sight, normal and infravision, beyond two feet. into the vegetation. scure vision. A strong breeze either effect in one round, whil breeze will reduce the spell 50%. The spell cannot be cast The only effect of either version is to ob-"
+    },
+    "quality_flags": []
+  }
+}

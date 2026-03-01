@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "teleport_without_error",
+  "name": "Teleport Without Error",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Teleport Without Error (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "seventh",
+    "book_pages": [
+      187
+    ],
+    "pdf_pages": [
+      188
+    ],
+    "raw_block": "Teleport Without Error (Alteration)\nRange Touch\nComponents: V\nDuration: Instantaneous\nCasting Time: 1\nArea of Effect: Special\nSaving Throw: None\nThis spell is similar to the teleport spell.\nThe caster is able to transpart himself, along\nwith the material weight noted for a teleport\nspell, to any known location in his home\nplane with no chance for error. The spell\nalso enables the caster to travel to other\nplanes of existence, but any such plane is, at\nbest, ”studied carefully.” This assumes that\nthe caster has, in fact, actually been to the\nplane and carefully perused an area for an\neventual teleportution without error spell.\nThe table for the teleport spell is used, with\nthe caster’s knowledge of the area to which\ntransportation is desired used to determine\nchance of error. (Exception: See the 9th-\nlevel wizard spell, succor.) The caster can\ndo nothing else the round that he appears\nfrom a teleport.\nVi.mirh (Aheration)\nRange: Touch\nComponents: V\nDuration: Special\nCasting Time: 2\nArea of Effect: 1 object\nSaving Throw: None\nWhen the wizard employs this spell, tw\ncauses an object to vanish (i.e., to be tek-\nported as if by a telsport spell) if it wei+\nno more than 50 pounds per caster level.\nThus a 14th-level caster can vanish, and\ncause to reappear at a desired location, an.\nobject up to 700 pounds in weight. The max-\nimum volume of material that can be af-\nfected is three cubic feet per level of\nexperience. Thus, both weight and volume\nlimit the spell. An object that exceeds either\nlimitation is unaffected and the spell fa&.\nIf desired, a vanished object can be placed\ndeep within the Ethereal plane. Ln this case,\nthe point from which the object vanished re\nmains faintly magical until the item is re-\ntrieved. A successful dispel magic spell cast\non the point will bring the vanished item\nback from the Ethereal plane. Note that\ncreatures and magical forces cannot be\nmade to vanish.\nThere is a 1 % chance that a vanished item\nwill be disintegrated instead. There is also a\n1 % chance that a creature from the Et-\nplane is able to gain access to the Prime Ma-\nterial plane through the vanished item’s con-\nnection."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Teleport Without Error",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "Touch",
+      "components": "V",
+      "duration": "Instantaneous",
+      "casting_time": "1",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "When the wizard employs this spell, tw causes an object to vanish (i.e., to be tek- ported as if by a telsport spell) if it wei+ no more than 50 pounds per caster level. Thus a 14th-level caster can vanish, and cause to reappear at a desired location, an. object up to 700 pounds in weight. The max- imum volume of material that can be af- fected is three cubic feet per level of experience. Thus, both weight and volume limit the spell. An object that exceeds either limitation is unaffected and the spell fa&. If desired, a vanished object can be placed deep within the Ethereal plane. Ln this case, the point from which the object vanished re mains faintly magical until the item is re- trieved. A successful dispel magic spell cast on the point will bring the vanished item back from the Ethereal plane. Note that creatures and magical forces cannot be made to vanish. There is a 1 % chance that "
+    },
+    "quality_flags": []
+  }
+}

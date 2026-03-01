@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "find_zaps",
+  "name": "Find Zaps",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Find Zaps (Divination) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "second",
+    "book_pages": [
+      204
+    ],
+    "pdf_pages": [
+      205
+    ],
+    "raw_block": "Find Zaps (Divination)\nSphere: Divination\nRange: 30 yards\nComponents: V, S\nDuration: 3 turns\nCasting Time: 5\nArea of Effect: IO-foot path\nSaving Throw: None\nWhen a priest casts a find tmps spell, all\ntraps-concealed normally or magieally-\nof magical or mechanical nature become\napparent to him. Note that this spell is direc-\ntional, and the caster must face the desired\ndirection in order to determine if a trap is\nlaid in that particular direction.\nA trap is any device or magical ward that\nmeets three criteria: it can inflict a sudden\nor unexpected result, the spellcaster would\nview the result as undesirable or harmful,\nand the harmful or undesirable result was\nspecifically intended as such by the creator.\nThus traps include alarms, glyphs, and simi-\nlar spells or devices.\nThe caster learns the general nature of the\ntrap (magical or mechanical) but not its\nexact effect, nor how to disarm it. Close\nexamination will, however, enable the cast-\ner to sense what intended actions might trig-\nger it. Note that the caster’s divination is\nlimited to his knowledge of what might be\nunexpected and harmful. The spell cannot\npredict actions of creatures (hence a con-\ncealed murder hole or ambush is not a trap),\nnor are natural hazards considered traps (a\ncavern that floods during rain, a wall weak-\nened by age, a naturally poisonous plant). If\nthe DM is using specific glyphs or sigils to\nidentify magical wards (see the glyph af\nwarding spell), this spell shows the form of\nthe glyph or mark. The spell does not detect\ntraps that have been disarmed or are other-\nwise inactive."
+  },
+  "mechanics": {
+    "school_or_type": "Divination",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Find Zaps",
+      "canonical_name_guess": null,
+      "school_or_type": "Divination",
+      "range": "30 yards",
+      "components": "V, S",
+      "duration": "3 turns",
+      "casting_time": "5",
+      "area_of_effect": "IO-foot path",
+      "saving_throw": "None",
+      "description_excerpt": "When a priest casts a find tmps spell, all traps-concealed normally or magieally- of magical or mechanical nature become apparent to him. Note that this spell is direc- tional, and the caster must face the desired direction in order to determine if a trap is laid in that particular direction. A trap is any device or magical ward that meets three criteria: it can inflict a sudden or unexpected result, the spellcaster would view the result as undesirable or harmful, and the harmful or undesirable result was specifically intended as such by the creator. Thus traps include alarms, glyphs, and simi- lar spells or devices. The caster learns the general nature of the trap (magical or mechanical) but not its exact effect, nor how to disarm it. Close examination will, however, enable the cast- er to sense what intended actions might trig- ger it. Note that the caster’s divination is limited to hi"
+    },
+    "quality_flags": []
+  }
+}

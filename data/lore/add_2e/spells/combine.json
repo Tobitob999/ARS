@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "combine",
+  "name": "Combine",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Combine (Evocation) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "ninth",
+    "book_pages": [
+      198
+    ],
+    "pdf_pages": [
+      199
+    ],
+    "raw_block": "Combine (Evocation)\nSphere: All\nRange: Touch\nComponents: V, S\nDuration: Special\nCasting Time: 1 round\nArea of Effect: The circle of priests\nSaving Throw: None\nUsing this spell, three to five priests com-\nbine their abilities so that one of them casts\nspells and tums undead at an enhanted\nlevel. The highest level priest (or one of\nthem, if two or more are tied for highest)\nstands alone, while the others join hands in\na surrounding circle. The central priest casts\nthe combine spell. He temporarily gains one\nlevel for each priest in the circle, up to a\nmaximum gain of four levels. The level in-\ncrease affects turning undead apd spdl de-\ntails that vary with the caster's level. Note\nthat the central priest gains no additional\nspells and that the group is limited to his\ncurrently memorized spells.\nThe encircling priests must concentrate\non maintaining the combine effect. They\nlose all Armor Class bonuses for shicld and\nDexterity. If any of them has his concentra-\ntion broken, the combine spell did-\nately. If the combine spell is broken while\nthe central priest is in the act of casting a\nspell, that spell is ruined just as if the caster\nwas disturbed. Spells cast in combination\nhave the full enhanced effect, even if the\ncombine is broken before the duration of\nthe enhanced spell ends. Note that the com-\nbination is not broken if only the central\ncaster is disturbed."
+  },
+  "mechanics": {
+    "school_or_type": "Evocation",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Combine",
+      "canonical_name_guess": null,
+      "school_or_type": "Evocation",
+      "range": "Touch",
+      "components": "V, S",
+      "duration": "Special",
+      "casting_time": "1 round",
+      "area_of_effect": "The circle of priests",
+      "saving_throw": "None",
+      "description_excerpt": "the enhanced spell ends. Note that the com- bination is not broken if only the central caster is disturbed."
+    },
+    "quality_flags": []
+  }
+}

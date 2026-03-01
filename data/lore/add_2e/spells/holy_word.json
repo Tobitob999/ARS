@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "holy_word",
+  "name": "Holy Word",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Holy Word (ConjuratiodSurnmoning) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "sixth",
+    "book_pages": [
+      234
+    ],
+    "pdf_pages": [
+      235
+    ],
+    "raw_block": "Holy Word (ConjuratiodSurnmoning)\nReversible\nSphere: Combat\nRange: 0\nComponents: V\nDuration: Special\nCasting Time: 1\nArea of Effect: %foot radius\nSaving Throw: None\nUttering a holy word spell creates magic\nof tremendous power. It drives off evil crea-\ntures from other planes, fordng them to\nreturn to their own planes of existence, pro-\nvided the speaker is in his home plane. Crea-\ntures so banished cannot return for at least a\nday. The spell further affects creatures of\ndiffering alignment as shown on the follow-\ning table:\nRegenerate Ovecromancy)\nReversible\nSphere: Necromantic\nRange: Touch\nComponents: V, S, M\nDuration: Permanent\nCasting Time: 3 rounds\nArea of Effect: Creature touched\nSaving Throw: None\nWhen a regenerute spell is cast, body\nmembers (fingers, toes, hands, feet, arms,\nlegs, tails, or even the heads of multi-headed\ncreatures), bones, and organs grow back.\nThe process of regeneration requires but one\nround if the severed member(s) is (are)\npresent and touching the creahire, kl4 hvns\notherwise. The creature must be living to\nreceive the benefits of this spell. If the sev-\nered member is not present, or if the injury\nis older than one day per caster level, the\nrecipient must roll a successful system shock\ncheck to survive the spell.\nThe reverse, wither, causes the qmnk\nor organ touched to shrivel and cease func-\ntioning in one round, dropping off into dust\nin 2d4 turns. Creak- must be touched for\nthe harmful effect to occur.\nThe material components of this spell are\na prayer device and holy water (or unholy\nwater for the reverse).\nEffects of Holy Word\nCreature's\nHit Dice or Attack\nLevel General Move Dice speils Less than 4 Kills\n4 to 7+ Paralyzes ld4 turns\n8 to 11+ Slows 2d4 rounds -50% -4*\n12 or more Deafens ld4 rounds - 25 % -2 50% chance of failure\n- - - - - - -\nSlowed creatures attack only on even-numbered rounds until the effect wears off.\nAffected creatures are those within the\n30-foot-radius area of effect, which is cen-\ntered on the priest casting the spell. The side\neffects are negated for deafened or silenced\ncreatures, but such are still driven off if\nother-planar.\nThe reverse, unholy word, operates\nexactly the same way but affects creatures\nof good alignment."
+  },
+  "mechanics": {
+    "school_or_type": "ConjuratiodSurnmoning",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Holy Word",
+      "canonical_name_guess": null,
+      "school_or_type": "ConjuratiodSurnmoning",
+      "range": "0",
+      "components": "V",
+      "duration": "Special",
+      "casting_time": "1",
+      "area_of_effect": "%foot radius",
+      "saving_throw": "None",
+      "description_excerpt": "When a regenerute spell is cast, body members (fingers, toes, hands, feet, arms, legs, tails, or even the heads of multi-headed creatures), bones, and organs grow back. The process of regeneration requires but one round if the severed member(s) is (are) present and touching the creahire, kl4 hvns otherwise. The creature must be living to receive the benefits of this spell. If the sev- ered member is not present, or if the injury is older than one day per caster level, the recipient must roll a successful system shock check to survive the spell. The reverse, wither, causes the qmnk or organ touched to shrivel and cease func- tioning in one round, dropping off into dust in 2d4 turns. Creak- must be touched for the harmful effect to occur. The material components of this spell are a prayer device and holy water (or unholy water for the reverse). Effects of Holy Word Creature's Hit Dice or A"
+    },
+    "quality_flags": []
+  }
+}

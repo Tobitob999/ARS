@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2.0",
+  "id": "table_62",
+  "name": "Table 62: VISIBILITY RANGES",
+  "category": "table",
+  "tags": [
+    "add_2e",
+    "table",
+    "player_handbook",
+    "toc_normalized"
+  ],
+  "summary": "PHB Table 62 (VISIBILITY RANGES).",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "table_number": 62,
+    "title": "VISIBILITY RANGES",
+    "book_page": 117,
+    "pdf_page": 118,
+    "raw_page_token": "117"
+  },
+  "mechanics": {
+    "source": "toc_parse_v3",
+    "confidence": "medium"
+  }
+}

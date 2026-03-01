@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "shadow_door",
+  "name": "Shadow Door",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Shadow Door (IllusiodPhantasm) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      171
+    ],
+    "pdf_pages": [
+      172
+    ],
+    "raw_block": "Shadow Door (IllusiodPhantasm)\nRange: 10 yards\nComponents: S\nDuration: 1 round/level\nCasting Time: 2\nArea of Effect: Special\nSaving Throw: None\nBy means of this spell, the wizard creates\nthe illusion of a door. The illusion also per-\nmits the wizard to appear to step through\nthis \"door\" and disappear. In reality he has\ndarted aside and can flee, totally invisible,\nfor the spell duration. Creatures viewing\nthis are deluded into seeing or entering an\nempty 10' x 10' room if they open the\n\"door.\" A true seeing spell, a gem of seeing,\nor similar magical means can discover the\nwizard. Certain high Hit Dice monsters\nmight also notice the wizard (see the invisi-\nbility spell), but only if making an active\nattempt to do so."
+  },
+  "mechanics": {
+    "school_or_type": "IllusiodPhantasm",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Shadow Door",
+      "canonical_name_guess": null,
+      "school_or_type": "IllusiodPhantasm",
+      "range": "10 yards",
+      "components": "S",
+      "duration": "1 round/level",
+      "casting_time": "2",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "this are deluded into seeing or entering an empty 10' x 10' room if they open the \"door.\" A true seeing spell, a gem of seeing, or similar magical means can discover the wizard. Certain high Hit Dice monsters might also notice the wizard (see the invisi- bility spell), but only if making an active attempt to do so."
+    },
+    "quality_flags": []
+  }
+}

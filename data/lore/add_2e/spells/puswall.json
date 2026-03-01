@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "puswall",
+  "name": "Puswall",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Puswall (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      171
+    ],
+    "pdf_pages": [
+      172
+    ],
+    "raw_block": "Puswall (Alteration)\nRange: 30 yards\nComponents: V, S, M\nDuration: 1 hour + 1 turn/level\nCasting Time: 5\nArea of Effect: Special\nSaving Throw: None\nA passwall spell enables the spellcaster to\nopen a passage through wooden, plaster, or\nstone walls, but not other materials. The\nspellcaster and any associates can simply\nwalk through. The spell causes a 5' wide x\n8' high x 10' deep opening. Several of these\nspells can form a continuing passage so that\nvery thick walls can be pierced. If dispelled,\nthe passwall closes away from the dispelling\ncaster, ejecting those in the passage.\nThe material component'of this spell is a\npinch of sesame seeds."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Puswall",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "30 yards",
+      "components": "V, S, M",
+      "duration": "1 hour + 1 turn/level",
+      "casting_time": "5",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "A passwall spell enables the spellcaster to open a passage through wooden, plaster, or stone walls, but not other materials. The spellcaster and any associates can simply walk through. The spell causes a 5' wide x 8' high x 10' deep opening. Several of these spells can form a continuing passage so that very thick walls can be pierced. If dispelled, the passwall closes away from the dispelling caster, ejecting those in the passage. The material component'of this spell is a pinch of sesame seeds."
+    },
+    "quality_flags": []
+  }
+}

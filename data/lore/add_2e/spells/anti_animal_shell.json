@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.2.1",
+  "id": "anti_animal_shell",
+  "name": "Anti-Animal Shell",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Anti-Animal Shell (Abjwatton) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "sixth",
+    "book_pages": [
+      226,
+      227
+    ],
+    "pdf_pages": [
+      227,
+      228
+    ],
+    "raw_block": "Anti-Animal Shell (Abjwatton)\nSpherp: Animal, Protection\nRange: 0\nComponents: V, S, M\nDuration: 1 tUnr/hel\nCasting Time: 1 round\nArea of Effect: 20' diameter hemisphere\nSaving Throw: None\nBy casting this spell, the caster brings into\nbeing a hexnispherid force field that pre\nvents the entrance of any sort of living crea-\nture that is wholly or partially animal (not\nmagical or extraplmar). Thus a sprite, a\ngiant, or a chimera would be kept out, but\nundead or conjured creatures could pass\nthrough the shell of force, as could such\nmonsters as aerial servants, imps, qwsits,\ngolems, elementals, etc. The anti-animal\nshell functions normally against cross-\nbreeds, such as cambions, and lasts for one\nturn for each level of experience the caster\nhas attained. Forcing the barrier against\ncreatures strains and ukimately collapses\nthe field.\nThe spell requires the caster's holy symbol\nand a handful of pepper.\nSphere: Guardian, Creation\nRange: 30 yards\nComponents: V, S\nDuration: 3 rounds/level\nCasting Time: 9\nArea of Effect: Special\nSaving Throw: Special\nThe priest employs this spell to set up a\nwall of circling, razor-sharp blades. These\nwhirl and flash around a central point, cre-\nating an immobile barrier. Any creature\nthat attempts to pass through the blade bar-\nrier suffers 8d8 points of damage in doing\nso. The plane of rotation of the blades can\nbe horizontal, vertical, or in between. Crea-\ntures within the area of the barrier when it is\ninvoked are entitled to a saving throw vs.\nspell. If this is successful, the blades are\navoided and no damage is suffered; the\ncreature escapes the area of the blade barrier\nby the shortest possible route. The barrier\nremains for three rounds for every experi-\nence level of the priest casting it. The barrier\ncan cover any area from as small as five feet\nsquare to as large as 60 feet square.\n(Conjnrat#onBummoning)\nSpke summoning\nRange: 30 yards\nComponents: V, S\nDuration: 2 rounds/level\nCasting Time: 9\nArea of Effect: Special\nSaving Throw: None\nfie conjure animals spell enables the\npriest to magically create one or more mam-\nmals to attack his opponents. The total Hit\nDice of the mammals cannot exceed twice\nhis level, if the creature conjured is deter-\nmined randomly, or his level, if a specific\nanimal type is requested. The DM selects\nthe type of animal that appears if it is ran-\ndomly called. Thus, a pfiest of 12th level\ncould randomly conjure two mammals with\n12 Hit Dice each, four with 6 Hit Dice each,\nsix with 4 Hit Dice each, eight with 3 Hit\nDice each, 12 with 2 Hit Dice each, or 24\nwith 1 Hit Die each. Count every +I hit\npoint added to a creature's Hit Dice as 1/4 of\na Hit Die. Thus a creature with 4+3 Hit\nDice equals a 43/4 Hit Dice creature. The\nconjured animals remain for two rounds for\neach level of the conjuring priest, or until\nslain, and they follow the caster's verbal\ncommands. Conjured animals unfailingly\nattack the priest's opponents, but resist\nbeing used for any other purpose; they do\nnot like it, become noticeably more difficult\nto control, and may refuse any action,\nbreak free, or turn on the caster, depending\non the nature of the creature and the details\nof the situation. The conjured animals die\nappear when slam."
+  },
+  "mechanics": {
+    "school_or_type": "Abjwatton",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Anti-Animal Shell",
+      "canonical_name_guess": null,
+      "school_or_type": "Abjwatton",
+      "range": "0",
+      "components": "V, S, M",
+      "duration": "1 tUnr/hel",
+      "casting_time": "1 round",
+      "area_of_effect": "20' diameter hemisphere",
+      "saving_throw": "None",
+      "description_excerpt": "fie conjure animals spell enables the priest to magically create one or more mam- mals to attack his opponents. The total Hit Dice of the mammals cannot exceed twice his level, if the creature conjured is deter- mined randomly, or his level, if a specific animal type is requested. The DM selects the type of animal that appears if it is ran- domly called. Thus, a pfiest of 12th level could randomly conjure two mammals with 12 Hit Dice each, four with 6 Hit Dice each, six with 4 Hit Dice each, eight with 3 Hit Dice each, 12 with 2 Hit Dice each, or 24 with 1 Hit Die each. Count every +I hit point added to a creature's Hit Dice as 1/4 of a Hit Die. Thus a creature with 4+3 Hit Dice equals a 43/4 Hit Dice creature. The conjured animals remain for two rounds for each level of the conjuring priest, or until slain, and they follow the caster's verbal commands. Conjured animals unfailingly attac"
+    },
+    "quality_flags": [
+      "trimmed_merged_block"
+    ]
+  }
+}

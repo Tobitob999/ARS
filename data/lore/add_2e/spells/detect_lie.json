@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "detect_lie",
+  "name": "Detect Lie",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Detect Lie (Divination) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "fourth",
+    "book_pages": [
+      217
+    ],
+    "pdf_pages": [
+      218
+    ],
+    "raw_block": "Detect Lie (Divination)\nReversible\nI\nSphere: Divination\nRange: 30 yards\nComponents: V, S, M\nDuration 1 round/level\nCasting Time: 7\nArea of Effect: 1 creature\nSaving Throw: Neg.\nA priest who casts this spell is immedi-\nately able to determine if the subject crea-\nture deliberately and knowingly speaks a\nlie. It does not reveal the truth, uncover\nunintentional inaccuracies, or necessarily\nreveal evasions. The subject receives a sav-\ning throw vs. spell, which is adjusted only\nby the Wisdom of the caster-e.g., if the\ncaster has a Wisdom of 18, the subject's sav-\ning throw roll is reduced by 4 (see Table 5).\nThe material component for the detect lie\nspell is one gp worth of gold dust.\nThe spell's reverse; undetectable lie, pre-\nvents the magical detection of lies spoken by\nthe creature for 24 hours.\nThe reverse requires brass dust as its\nmaterial component."
+  },
+  "mechanics": {
+    "school_or_type": "Divination",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Detect Lie",
+      "canonical_name_guess": null,
+      "school_or_type": "Divination",
+      "range": "30 yards",
+      "components": "V, S, M",
+      "duration": "1 round/level",
+      "casting_time": "7",
+      "area_of_effect": "1 creature",
+      "saving_throw": "Neg.",
+      "description_excerpt": "A priest who casts this spell is immedi- ately able to determine if the subject crea- ture deliberately and knowingly speaks a lie. It does not reveal the truth, uncover unintentional inaccuracies, or necessarily reveal evasions. The subject receives a sav- ing throw vs. spell, which is adjusted only by the Wisdom of the caster-e.g., if the caster has a Wisdom of 18, the subject's sav- ing throw roll is reduced by 4 (see Table 5). The material component for the detect lie spell is one gp worth of gold dust. The spell's reverse; undetectable lie, pre- vents the magical detection of lies spoken by the creature for 24 hours. The reverse requires brass dust as its material component."
+    },
+    "quality_flags": []
+  }
+}

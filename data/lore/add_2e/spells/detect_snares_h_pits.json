@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "detect_snares_h_pits",
+  "name": "Detect Snares h Pits",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Detect Snares h Pits (Divination) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "ninth",
+    "book_pages": [
+      200
+    ],
+    "pdf_pages": [
+      201
+    ],
+    "raw_block": "Detect Snares h Pits (Divination)\not path, 40 feet long\ncasting this spell, the caster is able\nt snares, pits, deadfalls and similar\nalong a 10-foot-wide by 40-foot-\nng path. Such hazards include simple pits,\neadfalls, snares of wilderness creatures\n(e.g., trapdoor spiders, giant sundews, ant\nlions, etc.), and primitive traps constructed\nof natural materials (mantraps, missile\ntrips, hunting snares, etc.). The spell is\ndirectional-the caster must face the desired\ndirection to determine if a pit exists or a trap\nis laid in that direction. The caster experi-\nences a feeling of danger from the direction\nof a detected hazard, which increases as the\nmagic, breath weapons, and so on. The can-\ncellation occurs regardless of the applica-\ntion and regardless of whether a heat or cold\neffect hits the character (e.g., an endure cold\nspell is cancelled by magical heat or fire as\nwell as by magical cold). The recipient of\nthe spell does not suffer the first 10 points of\ndamage (after any applicable saving\nthrows) from the heat or cold during the\nround in which the spell is broken. The spell\nends instantly if either resist fire or resist\ncold is cast upon the recipient."
+  },
+  "mechanics": {
+    "school_or_type": "Divination",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Detect Snares h Pits",
+      "canonical_name_guess": null,
+      "school_or_type": "Divination",
+      "range": null,
+      "components": null,
+      "duration": null,
+      "casting_time": null,
+      "area_of_effect": null,
+      "saving_throw": null,
+      "description_excerpt": "ot path, 40 feet long casting this spell, the caster is able t snares, pits, deadfalls and similar along a 10-foot-wide by 40-foot- ng path. Such hazards include simple pits, eadfalls, snares of wilderness creatures (e.g., trapdoor spiders, giant sundews, ant lions, etc.), and primitive traps constructed of natural materials (mantraps, missile trips, hunting snares, etc.). The spell is directional-the caster must face the desired direction to determine if a pit exists or a trap is laid in that direction. The caster experi- ences a feeling of danger from the direction of a detected hazard, which increases as the magic, breath weapons, and so on. The can- cellation occurs regardless of the applica- tion and regardless of whether a heat or cold effect hits the character (e.g., an endure cold spell is cancelled by magical heat or fire as well as by magical cold). The recipient of the spell d"
+    },
+    "quality_flags": [
+      "missing_standard_fields"
+    ]
+  }
+}

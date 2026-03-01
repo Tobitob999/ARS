@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2.0",
+  "id": "table_13",
+  "name": "Table 13: CLASS ABILITY MINIMUMS",
+  "category": "table",
+  "tags": [
+    "add_2e",
+    "table",
+    "player_handbook",
+    "toc_normalized"
+  ],
+  "summary": "PHB Table 13 (CLASS ABILITY MINIMUMS).",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "table_number": 13,
+    "title": "CLASS ABILITY MINIMUMS",
+    "book_page": 25,
+    "pdf_page": 26,
+    "raw_page_token": "25"
+  },
+  "mechanics": {
+    "source": "toc_parse_v3",
+    "confidence": "medium"
+  }
+}

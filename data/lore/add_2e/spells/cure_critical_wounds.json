@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "cure_critical_wounds",
+  "name": "Cure Critical Wounds",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Cure Critical Wounds (Necmmpncy) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "fourth",
+    "book_pages": [
+      222
+    ],
+    "pdf_pages": [
+      223
+    ],
+    "raw_block": "Cure Critical Wounds (Necmmpncy)\nReversible\nSphere: Healing\nRange: Touch\nComponents: V, S\nDuration: Permanent\nCasting Time: 8\nArea of Effect: Creature touched\nSaving Throw: None\nThe cure m*ticd wounds spell is a very\npotent version of the cure light wounds\nspell. The priest lays his hand upon a crea-\nture and heals 3d8+3 points of damage\nfrom wounds or other damage. The spell\ndoes not affect creatures without corporeal\nbodies, those of extraplanar origin, or those\nnot living.\nThe reversed spell, cuuse critical wounds,\noperates in the same fashion as other cuuse\nwounds spells, requiring a successful touch\nto inflict the 3d8+3 points of damage.\nCaused wounds heal via the same mtfrods\nas do wounds of other sorts."
+  },
+  "mechanics": {
+    "school_or_type": "Necmmpncy",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Cure Critical Wounds",
+      "canonical_name_guess": null,
+      "school_or_type": "Necmmpncy",
+      "range": "Touch",
+      "components": "V, S",
+      "duration": "Permanent",
+      "casting_time": "8",
+      "area_of_effect": "Creature touched",
+      "saving_throw": "None",
+      "description_excerpt": "The cure m*ticd wounds spell is a very potent version of the cure light wounds spell. The priest lays his hand upon a crea- ture and heals 3d8+3 points of damage from wounds or other damage. The spell does not affect creatures without corporeal bodies, those of extraplanar origin, or those not living. The reversed spell, cuuse critical wounds, operates in the same fashion as other cuuse wounds spells, requiring a successful touch to inflict the 3d8+3 points of damage. Caused wounds heal via the same mtfrods as do wounds of other sorts."
+    },
+    "quality_flags": []
+  }
+}

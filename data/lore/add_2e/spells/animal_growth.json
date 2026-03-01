@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "animal_growth",
+  "name": "Animal Growth",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Animal Growth (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "fourth",
+    "book_pages": [
+      221
+    ],
+    "pdf_pages": [
+      222
+    ],
+    "raw_block": "Animal Growth (Alteration)\nReversible\nSphere: Animal\nRange: 80 yards\nComponents: V, S, M\nDuration: 2 rounddlevel\nCasting Time: 8\nArea of Effect: Up to 8 animals in a\n20-foot-square area\nSaving Throw: None\nWhen this spell is cast, the caster causes\nall animals, up to a maximum of eight,\nwithin a 20-foot-square area to grow to\ntwice their normal size. The effects of this\ngrowth are doubled Hit Dice (with resultant\nimprovement in attack potential), doubled\nhit points (except hit points added to Hit\nDice), and doubled damage in combat.\nMovement and AC are not affected. The\nspell lasts for two rounds for each level of\nthe caster. The spell is particularly useful in\nconjunction with a charm person or mam-\nmal spell.\nThe reverse reduces animal size by one-\nhalf, and likewise reduces Hit Dice, hit\npoints, attack damage, etc.\nThe material component for this spell and\nits reverse is the caster’s holy symbol and a\nscrap of food."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Animal Growth",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "80 yards",
+      "components": "V, S, M",
+      "duration": "2 rounddlevel",
+      "casting_time": "8",
+      "area_of_effect": "Up to 8 animals in a",
+      "saving_throw": "None",
+      "description_excerpt": "When this spell is cast, the caster causes all animals, up to a maximum of eight, within a 20-foot-square area to grow to twice their normal size. The effects of this growth are doubled Hit Dice (with resultant improvement in attack potential), doubled hit points (except hit points added to Hit Dice), and doubled damage in combat. Movement and AC are not affected. The spell lasts for two rounds for each level of the caster. The spell is particularly useful in conjunction with a charm person or mam- mal spell. The reverse reduces animal size by one- half, and likewise reduces Hit Dice, hit points, attack damage, etc. The material component for this spell and its reverse is the caster’s holy symbol and a scrap of food."
+    },
+    "quality_flags": [
+      "trimmed_merged_block"
+    ]
+  }
+}

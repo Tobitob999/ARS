@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "hold_plant",
+  "name": "Hold Plant",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Hold Plant (EnchantmenKham) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "fourth",
+    "book_pages": [
+      218
+    ],
+    "pdf_pages": [
+      219
+    ],
+    "raw_block": "Hold Plant (EnchantmenKham)\nSphere: Plant\nRange: 80 yards\nComponents: V, S\nDuration: 1 round/level\nCasting Time: 7\nArea of Effect: Special\nSaving Throw: Neg.\nThe hold plant spell affects vegetable\nmatter as follows: 1) it causes ambulatory\nvegetation to cease moving; 2) it prevents\nvegetable matter from entwining, grasping,\nclosing, or growing; 3) it prevents vegetable\nmatter from making any sound or move-\nment that is not caused by wind. The spell\neffects apply to all forms of vegetation, in-\ncluding parasitic and fungoid types, and\nthose magically animated or otherwise mag-\nically empowered. It affects such monsters\nas green slime, molds of any sort, shambling\nmounds, shriekers, treants, etc. The dura-\ntion of a hold plant spell is one round per\nlevel of experience of the caster. It affects\nld4 plants in a 40' X 40' area-or a square\nfour to 16 yards on a side of small ground\ngrowth such as grass or mold. If but one\nplant (or four yards square) is chosen as the\ntarget for the spell by the caster, the saving\nthrow of the plant (or area of plant growth)\nis made with a -4 penalty to the die roll; if\ntwo plants (or eight yards square) are the\ntarget, saving throws suffer a -2 penalty; if\nthree plants (or 12 yards square) are the tar-\nget, saving throws suffer a - 1 penalty; and\nif the maximum of four plants (or 16 yards\nsquare) are the target, saving throws are un-\nmodified."
+  },
+  "mechanics": {
+    "school_or_type": "EnchantmenKham",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Hold Plant",
+      "canonical_name_guess": null,
+      "school_or_type": "EnchantmenKham",
+      "range": "80 yards",
+      "components": "V, S",
+      "duration": "1 round/level",
+      "casting_time": "7",
+      "area_of_effect": "Special",
+      "saving_throw": "Neg.",
+      "description_excerpt": "The hold plant spell affects vegetable matter as follows: 1) it causes ambulatory vegetation to cease moving; 2) it prevents vegetable matter from entwining, grasping, closing, or growing; 3) it prevents vegetable matter from making any sound or move- ment that is not caused by wind. The spell effects apply to all forms of vegetation, in- cluding parasitic and fungoid types, and those magically animated or otherwise mag- ically empowered. It affects such monsters as green slime, molds of any sort, shambling mounds, shriekers, treants, etc. The dura- tion of a hold plant spell is one round per level of experience of the caster. It affects ld4 plants in a 40' X 40' area-or a square four to 16 yards on a side of small ground growth such as grass or mold. If but one plant (or four yards square) is chosen as the target for the spell by the caster, the saving throw of the plant (or area of pla"
+    },
+    "quality_flags": [
+      "trimmed_merged_block"
+    ]
+  }
+}

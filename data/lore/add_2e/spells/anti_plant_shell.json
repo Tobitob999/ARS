@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "anti_plant_shell",
+  "name": "Anti-Plant Shell",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Anti-Plant Shell (Abjuration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "fourth",
+    "book_pages": [
+      221
+    ],
+    "pdf_pages": [
+      222
+    ],
+    "raw_block": "Anti-Plant Shell (Abjuration)\nSphere: Plant, Protection\nRange: 0\nComponents: V, S\nDuration: 1 turn/level\nCasting Time: 8\nArea of Effect: 15’ diameter hemisphere\nSaving Throw: None\nThe anti-plant shell spell creates an invisi-\nble, mobile barrier that keeps out all crea-\ntures or missiles of living vegetable\nmaterial. Thus, the caster (and any crea-\ntures within the shell) is protected from at-\ntackingplants or vegetable creatures such as\nshambling mounds or treants. Any attempt\nto force the barrier against such creatures\nshatters the barrier immediately. The spell\nlasts for one turn for each experiencelevel of\nthe caster."
+  },
+  "mechanics": {
+    "school_or_type": "Abjuration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Anti-Plant Shell",
+      "canonical_name_guess": null,
+      "school_or_type": "Abjuration",
+      "range": "0",
+      "components": "V, S",
+      "duration": "1 turn/level",
+      "casting_time": "8",
+      "area_of_effect": "15’ diameter hemisphere",
+      "saving_throw": "None",
+      "description_excerpt": "The anti-plant shell spell creates an invisi- ble, mobile barrier that keeps out all crea- tures or missiles of living vegetable material. Thus, the caster (and any crea- tures within the shell) is protected from at- tackingplants or vegetable creatures such as shambling mounds or treants. Any attempt to force the barrier against such creatures shatters the barrier immediately. The spell lasts for one turn for each experiencelevel of the caster."
+    },
+    "quality_flags": []
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_page",
+  "tags": [
+    "add_2e",
+    "player_handbook",
+    "fulltext",
+    "pdf_page"
+  ],
+  "summary": "PDF-Seite 71 des AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "pdf_page": 71,
+    "text": "I"
+  },
+  "mechanics": {
+    "conversion": "fulltext_page_dump",
+    "generated_at": "2026-02-28T16:50:14"
+  }
+}

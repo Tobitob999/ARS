@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "finger_of_death",
+  "name": "Finger of Death",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Finger of Death (Necromancy) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "seventh",
+    "book_pages": [
+      184
+    ],
+    "pdf_pages": [
+      185
+    ],
+    "raw_block": "Finger of Death (Necromancy)\nRange: 60 yards\nComponents: V, S\nDuration: Permanent\nCasting Time: 5\nArea of Effect: 1 creature\nSaving Throw: Neg.\nThe finger of death spell snuffs out the\nvictim's life force. If successful, the victim\ncan be neither raised nor resurrected. In ad-\ndition, in human subjects the spell initiates\nchanges to the body such that after three\ndays the caster can, by means of a special\nceremony costing not less than 1,OOO gp plus\n500 gp per body, animate the corpse as a ju-\nju zombie under the control of the caster.\nThe changes can be reversed before anima-\ntion by a limited wish or similar spell cast di-\nrectly upon the body, while a full wish\nrestores the subject to life.\nThe caster utters the finger of death spell\nincantation, points his index finger at the\ncreature to be slain, and unless the victim\nsucceeds in a saving throw vs. spell, death\noccurs. A creature successfully saving still\nreceives 2d8 + 1 points of damage. If the\nsubject dies of damage, no internal changes\noccur and the victim can then be revived\nnormally."
+  },
+  "mechanics": {
+    "school_or_type": "Necromancy",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Finger of Death",
+      "canonical_name_guess": null,
+      "school_or_type": "Necromancy",
+      "range": "60 yards",
+      "components": "V, S",
+      "duration": "Permanent",
+      "casting_time": "5",
+      "area_of_effect": "1 creature",
+      "saving_throw": "Neg.",
+      "description_excerpt": "The finger of death spell snuffs out the victim's life force. If successful, the victim can be neither raised nor resurrected. In ad- dition, in human subjects the spell initiates changes to the body such that after three days the caster can, by means of a special ceremony costing not less than 1,OOO gp plus 500 gp per body, animate the corpse as a ju- ju zombie under the control of the caster. The changes can be reversed before anima- tion by a limited wish or similar spell cast di- rectly upon the body, while a full wish restores the subject to life. The caster utters the finger of death spell incantation, points his index finger at the creature to be slain, and unless the victim succeeds in a saving throw vs. spell, death occurs. A creature successfully saving still receives 2d8 + 1 points of damage. If the subject dies of damage, no internal changes occur and the victim can then be r"
+    },
+    "quality_flags": []
+  }
+}

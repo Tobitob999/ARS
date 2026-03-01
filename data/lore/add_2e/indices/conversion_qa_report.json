@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "qa_report",
+  "tags": [
+    "add_2e",
+    "conversion",
+    "qa"
+  ],
+  "summary": "Qualitaetsbericht nach Autopilot-Komplettkonvertierung des PHB.",
+  "source_text": {
+    "generated_at": "2026-02-28T16:55:04",
+    "counts": {
+      "fulltext_pages": 258,
+      "chapters": 15,
+      "appendices": 9,
+      "spells": 331,
+      "tables": 61
+    },
+    "suspect_spell_names": [
+      {
+        "name": "Darkness, 15' Radius",
+        "id": "darkness_15_radius"
+      },
+      {
+        "name": "I1 Wizard Spells",
+        "id": "i1_wizard_spells"
+      }
+    ]
+  },
+  "mechanics": {
+    "json_parse_validation": "pass (global)",
+    "notes": [
+      "OCR-Artefakte sind moeglich; Rohtexte bleiben verlustfrei in fulltext/page_*.json.",
+      "Spell- und Tabellenparser sind heuristisch und fuer Folge-Normalisierung vorbereitet."
+    ]
+  }
+}

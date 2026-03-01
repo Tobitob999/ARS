@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "mty_food_b_mnk",
+  "name": "Mty Food b Mnk",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Mty Food b Mnk (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "ninth",
+    "book_pages": [
+      202
+    ],
+    "pdf_pages": [
+      203
+    ],
+    "raw_block": "Mty Food b Mnk (Alteration)\nReversible\nSphere: All\nRange: 30 yards\nComponents: V, S\nDuration: Permanent\nCasting Time: 1 round\nArea of Effect: 1 cubic foot/level,\nSaving Throw: None\nWhen cast, this spell makes spoiled, rot-\nten, poisonous, or otherwise contaminated\nfood and water pure and suitable for eating\nand drinking. Up to bne cubic foot of food\nand drink per level can be thus made suit-\nable for consumption. This spell does not\nprevent subsequent natural decay or spoil-\nage. Unholy water and similar food and\ndrink of significance is spoiled by purify\nfood and drink, but the spell has no effect on\ncreatures of any type nor upon magical\npotions.\nThe reverse of the spell is putrefy food\nand drink. This spoils even holv water. It\n1Ckfoot-square area\nlikewise has no r\npotions."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Mty Food b Mnk",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "30 yards",
+      "components": "V, S",
+      "duration": "Permanent",
+      "casting_time": "1 round",
+      "area_of_effect": "1 cubic foot/level,",
+      "saving_throw": "None",
+      "description_excerpt": "When cast, this spell makes spoiled, rot- ten, poisonous, or otherwise contaminated food and water pure and suitable for eating and drinking. Up to bne cubic foot of food and drink per level can be thus made suit- able for consumption. This spell does not prevent subsequent natural decay or spoil- age. Unholy water and similar food and drink of significance is spoiled by purify food and drink, but the spell has no effect on creatures of any type nor upon magical potions. The reverse of the spell is putrefy food and drink. This spoils even holv water. It 1Ckfoot-square area likewise has no r potions."
+    },
+    "quality_flags": []
+  }
+}

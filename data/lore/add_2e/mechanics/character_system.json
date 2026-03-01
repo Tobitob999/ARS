@@ -1,0 +1,331 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_subsystem",
+  "id": "add_2e_character_system",
+  "name": "AD&D 2e Character System",
+  "tags": [
+    "add_2e",
+    "character_creation",
+    "classes",
+    "races",
+    "proficiencies"
+  ],
+  "summary": "Ausarbeitung der Kapitel zu Charaktererschaffung, Klassen, Rassen und Progression.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "primary_chapters": [
+      {
+        "chapter": 1,
+        "slug": "player_character_ability_scores",
+        "book_pages": [
+          13,
+          19
+        ]
+      },
+      {
+        "chapter": 2,
+        "slug": "player_character_races",
+        "book_pages": [
+          20,
+          24
+        ]
+      },
+      {
+        "chapter": 3,
+        "slug": "player_character_classes",
+        "book_pages": [
+          25,
+          45
+        ]
+      },
+      {
+        "chapter": 4,
+        "slug": "alignment",
+        "book_pages": [
+          46,
+          50
+        ]
+      },
+      {
+        "chapter": 5,
+        "slug": "proficiencies_optional",
+        "book_pages": [
+          51,
+          65
+        ]
+      }
+    ],
+    "chapter_3_page_blocks": [
+      {
+        "book_page": 25,
+        "pdf_page": 26
+      },
+      {
+        "book_page": 26,
+        "pdf_page": 27
+      },
+      {
+        "book_page": 27,
+        "pdf_page": 28
+      },
+      {
+        "book_page": 28,
+        "pdf_page": 29
+      },
+      {
+        "book_page": 29,
+        "pdf_page": 30
+      },
+      {
+        "book_page": 30,
+        "pdf_page": 31
+      },
+      {
+        "book_page": 31,
+        "pdf_page": 32
+      },
+      {
+        "book_page": 32,
+        "pdf_page": 33
+      },
+      {
+        "book_page": 33,
+        "pdf_page": 34
+      },
+      {
+        "book_page": 34,
+        "pdf_page": 35
+      },
+      {
+        "book_page": 35,
+        "pdf_page": 36
+      },
+      {
+        "book_page": 36,
+        "pdf_page": 37
+      },
+      {
+        "book_page": 37,
+        "pdf_page": 38
+      },
+      {
+        "book_page": 38,
+        "pdf_page": 39
+      },
+      {
+        "book_page": 39,
+        "pdf_page": 40
+      },
+      {
+        "book_page": 40,
+        "pdf_page": 41
+      },
+      {
+        "book_page": 41,
+        "pdf_page": 42
+      },
+      {
+        "book_page": 42,
+        "pdf_page": 43
+      },
+      {
+        "book_page": 43,
+        "pdf_page": 44
+      },
+      {
+        "book_page": 44,
+        "pdf_page": 45
+      },
+      {
+        "book_page": 45,
+        "pdf_page": 46
+      }
+    ],
+    "chapter_3_excerpt": "Chapter 3: Plaver Character Classes i!? I \nAfter choosing your character's race, you \nselect his character class. A character class is \nlike a profession or career. It is what your \ncharacter has worked and trained at during \nhis younger years. If you wanted to become \na doctor, you could not walk out the door \nand begin work immediately. First you \nwould have to get some training. The same \nis true of character classes in the AD&D@ \ngame. Your character is assumed to have \nsome previous training and guidance before \nbeginning his adventuring career. Now, \narmed with a little knowledge, your charac- \nter is ready to make his name and fortune. \nThe character classes are divided into \nfour groups according to general occupa- \ntions: warrior, wizard, priest, and rogue. \nWithin each group are several similar char- \nacter classes. All classes within a group \nshare the same Hit Dice, as well as combat \nand saving throw progressions. Each char- \nacter class within a group has different spe- \ncial powers and abilities that are available \nonly to that class. Each player must select a \ngroup for his character, then a specific class \nwithin that group. \nWarrior Wizard Priest Rogue \nFighter Mage Cleric Thief \nRanger Illusionist Druid Bard \nPaladin Other Other \nFighter, mage, cleric, and \nstandard classes. They are \nlegendary archetypes that \nto many different cultures. \nappropriate to any sort of \ntional. Your DM may decide that one \nTo hetp you choose your character's class, \neach group and its subordinate classes are \ndescribed briefly. The groups and classes are \ndescribed in detail later in this chapter. \nWarrior. There are three different classes \nwithin the warrior group: fighter, paladin, \nand ranger. All are well-trained in the use of \nweapons and skilled in the martial arts. \nThe fighter is a champion, swordsman, \nsoldier, and brawler. He lives or dies by his \nknowledge of weapons and tactics. Fighters \ncan be found at the front of any battle, con- \ntesting toe-to-toe with monsters and vil- \nlains. A good fighter needs to be strong and \nhealthy if he hopes to survive. \nThe paladin is a warrior bold and pure, the \ne~emplar of everything good and true. Like \nthe fighter, the paladin is a man of combat. \nHowever, the paladin lives for the ideals of \nrighteousness, justice, honesty, piety, and \nchivalry. He strives to be a living example of \nthese virtues so that others m&t learn from \nhim as well as gain by his actions. \nThe ranger is a warrior and a woodsman. \nHe is skilled with weapons and is knowl- \nedgeable in tracking and woodcraft. The \nranger often protects and guides lost trav- \nelers and honest peasant-folk. A ranger \nneeds to be strong and wise to the ways of \nnature to live a full life. \nWizard: The wizard strives to be a master \nof magical energies, shaping them and cast- \ning them as spells. To do so, he studies \nstrange tongues and obscure facts and de- \nvotes much of his time to magical research. \nA wizard must rely on knowledge and wit \nto survive. Wizards are rarely seen adven- \nturing without a retinue of fighters and \nmen-at-arms. \nBecause there are different types (or \nschools) of magic, there are different types \nof wizards. The mage studies all types of \nmagic and learns a wide variety of spells. \nHis broad range makes him well suited to \nthe demands of adventuring. The illusionist \nis an example of how a wizard can specialize \nin a particular school of magic, illusion in \nthis case. \nPriest: A priest sees to the spiritual needs \nof a community or location. Two types of \npriests-clerics and druids-are described \nin the Player's Handbook. Other types can \nbe created by the DM to suit specific cam- \npaigns. \nThe cleric is a generic priest (of any my- \nthos) who tends to the needs of a commu- \nnity. He is both protector and healer. He is \nnot purely defensive, however. When evil \nthreatens, the cleric is well-suited to seek it \nout on its own ground and destroy it. \nThe druid class is optional; it is an exam- \nple"
+  },
+  "mechanics": {
+    "ability_generation": {
+      "default_method": "3d6 pro Attribut (STR, DEX, CON, INT, WIS, CHA)",
+      "alternative_methods": "Siehe Kapitel 1, alternative Wuerfelmethoden.",
+      "ability_checks": "d20 roll-under gegen Attribut, situative Modifikatoren moeglich."
+    },
+    "race_framework": {
+      "playable_races": [
+        "human",
+        "dwarf",
+        "elf",
+        "gnome",
+        "half_elf",
+        "halfling"
+      ],
+      "constraints": [
+        "Racial Ability Minimum/Maximum",
+        "Class Restrictions und Level Limits",
+        "Race-spezifische Sprache/Features"
+      ]
+    },
+    "class_framework": {
+      "groups": {
+        "warrior": [
+          "fighter",
+          "paladin",
+          "ranger"
+        ],
+        "wizard": [
+          "mage",
+          "specialist_wizard",
+          "illusionist"
+        ],
+        "priest": [
+          "cleric",
+          "druid",
+          "priest_of_specific_mythos"
+        ],
+        "rogue": [
+          "thief",
+          "bard"
+        ]
+      },
+      "class_minimums": {
+        "fighter": {
+          "STR": 9
+        },
+        "paladin": {
+          "STR": 12,
+          "CON": 9,
+          "WIS": 13,
+          "CHA": 17
+        },
+        "ranger": {
+          "STR": 13,
+          "DEX": 13,
+          "CON": 14,
+          "WIS": 14
+        },
+        "mage": {
+          "INT": 9
+        },
+        "illusionist": {
+          "INT": 9,
+          "DEX": 16
+        },
+        "cleric": {
+          "WIS": 9
+        },
+        "druid": {
+          "WIS": 12,
+          "CHA": 15
+        },
+        "thief": {
+          "DEX": 9
+        },
+        "bard": {
+          "DEX": 12,
+          "INT": 13,
+          "CHA": 15
+        }
+      },
+      "prime_requisite_xp_bonus": "10% XP-Bonus bei 16+ in allen Prime Requisites.",
+      "warrior_hit_dice": "d10 bis Level 9, danach fixe HP/Level gemaess Klassentabelle.",
+      "multiclass_and_dualclass": {
+        "multiclass": "Nur Demihumans, XP geteilt zwischen Klassen.",
+        "dualclass": "Nur Humans, hohe Prime-Requisite-Anforderungen, temporaere Restriktionen bis neue Klasse alte ueberholt."
+      }
+    },
+    "proficiencies": {
+      "weapon_proficiency": "Klassenabhaengige Slots, Spezialisierung nur Fighter.",
+      "nonweapon_proficiency": "Optionales System mit Attributscheck + Modifikatoren.",
+      "thief_and_bard_skills": [
+        "pick_pockets",
+        "open_locks",
+        "find_remove_traps",
+        "move_silently",
+        "hide_in_shadows",
+        "hear_noise",
+        "climb_walls",
+        "read_languages"
+      ]
+    },
+    "alignment_integration": {
+      "axes": [
+        "law_chaos",
+        "good_evil"
+      ],
+      "mechanical_impacts": [
+        "class eligibility",
+        "paladin code",
+        "role constraints"
+      ]
+    },
+    "reference_tables": [
+      {
+        "table_number": 13,
+        "title": "CLASS ABILITY MINIMUMS"
+      },
+      {
+        "table_number": 15,
+        "title": "WARRIOR MELEE AlTACKS"
+      },
+      {
+        "table_number": 16,
+        "title": "FIGHTER'S FOLLOWERS"
+      },
+      {
+        "table_number": 17,
+        "title": "PALADIN SPELL"
+      },
+      {
+        "table_number": 18,
+        "title": "RANGER ABILITIES"
+      },
+      {
+        "table_number": 21,
+        "title": "WIZARD SPELL PROGRESSION"
+      },
+      {
+        "table_number": 22,
+        "title": "WIZARD SPECIALIST REQUIREMENTS"
+      },
+      {
+        "table_number": 23,
+        "title": "PRIEST EXPERIENCE LEVELS"
+      },
+      {
+        "table_number": 24,
+        "title": "PRIEST SPELL PROGRESSIOP"
+      },
+      {
+        "table_number": 25,
+        "title": "ROGUE EXPERIENCE LEVELS"
+      },
+      {
+        "table_number": 26,
+        "title": "THIEVING SKILL"
+      },
+      {
+        "table_number": 27,
+        "title": "THIEVING SKILL RACIAL ADJUSTMENTS"
+      },
+      {
+        "table_number": 28,
+        "title": "THIEVING SKILL DEXTERITY ADJUSTMENTS"
+      },
+      {
+        "table_number": 26,
+        "title": "Backstab: Thieves are weak in toe-to-toe"
+      },
+      {
+        "table_number": 30,
+        "title": "BACKSW DAMAGE"
+      },
+      {
+        "table_number": 31,
+        "title": "THIFE'S FOWWERS"
+      },
+      {
+        "table_number": 33,
+        "title": "BARD ABILITIES"
+      }
+    ]
+  }
+}

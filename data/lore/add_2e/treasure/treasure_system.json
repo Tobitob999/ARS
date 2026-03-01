@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_subsystem",
+  "id": "add_2e_treasure_system",
+  "name": "AD&D 2e Treasure System",
+  "tags": [
+    "add_2e",
+    "treasure",
+    "magic_items",
+    "loot_distribution"
+  ],
+  "summary": "Ausarbeitung von Schatzarten, Magiegegenstaenden, Verteilung und Verwahrung.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "chapter": {
+      "number": 10,
+      "slug": "treasure",
+      "book_pages": [
+        107,
+        110
+      ]
+    },
+    "chapter_file": "data/lore/add_2e/chapters/chapter_10_treasure.json",
+    "page_refs": [
+      {
+        "book_page": 107,
+        "pdf_page": 108
+      },
+      {
+        "book_page": 108,
+        "pdf_page": 109
+      },
+      {
+        "book_page": 109,
+        "pdf_page": 110
+      },
+      {
+        "book_page": 110,
+        "pdf_page": 111
+      }
+    ]
+  },
+  "mechanics": {
+    "treasure_types": [
+      "coinage",
+      "precious_metals_objects",
+      "gems",
+      "art_objects",
+      "trade_goods",
+      "rare_components"
+    ],
+    "valuation": {
+      "appraisal_needed": [
+        "gems",
+        "art_objects",
+        "nonstandard coinage",
+        "crafted precious metal goods"
+      ],
+      "market_friction": [
+        "brokers/fences",
+        "haggling",
+        "political/economic context",
+        "fraud risk"
+      ]
+    },
+    "magic_item_categories": [
+      "weapons",
+      "armor",
+      "potions_oils",
+      "scrolls",
+      "rings",
+      "wands_staves_rods",
+      "miscellaneous",
+      "artifacts_relics"
+    ],
+    "identification_flow": [
+      "detect_magic_signal",
+      "trial_and_error_or_research",
+      "command_word_or_spell_interaction",
+      "curse_risk_management"
+    ],
+    "party_distribution_guidelines": {
+      "cash": "equal shares baseline (+/- party conventions)",
+      "magic_items": "assign by class utility first, then fairness/rotation/roll-off",
+      "risk_control": "critical utility items distributed across multiple characters"
+    },
+    "storage_security": [
+      "portable wealth",
+      "trusted custodians",
+      "land_goods_chattel as resilient wealth"
+    ],
+    "references": {
+      "equipment_chapter": "data/lore/add_2e/chapters/chapter_06_money_and_equipment.json",
+      "spell_index": "data/lore/add_2e/indices/spell_index.json"
+    }
+  }
+}

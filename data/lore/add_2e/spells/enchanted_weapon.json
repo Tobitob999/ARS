@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "enchanted_weapon",
+  "name": "Enchanted Weapon",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Enchanted Weapon (Enchantment) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      157
+    ],
+    "pdf_pages": [
+      158
+    ],
+    "raw_block": "Enchanted Weapon (Enchantment)\nRange: Touch\nComponents: V, S, M\nDuration: 5 rounds/level\nCasting Time: 1 turn\nArea of Effect: Weapon(s) touched\nSaving Throw: None\nThis spell turns an ordinary weapon into\na magical one. The weapon is the equivalent\nof a +1 weapon, with +1 to attack and\ndamage rolls. Thus arrows, axes, bolts,\nbows, daggers, hammers, maces, spears,\nswords, etc., can be made into temporarily\nenchanted weapons. Two small (arrows,\nbolts, daggers, etc.) or one large (axe, bow,\nhammer, mace, etc.) weapon can beaffected\nby the spell. The spell functions on existing\nmagical weapons as long as the total com-\nbined bonus is +3 or less.\nMissile weapons enchanted in this way\nlose their enchantment when they success-\nfully hit a target, but otherwise the spell\nlasts its full duration. This spell is often used\nin combination with the enchant un item\nand permanency spells to create magical\nweapons, with this spell beii cast once per\ndesired plus of the bonus.\nThe material components of this spell are\npowdered lime and carbon."
+  },
+  "mechanics": {
+    "school_or_type": "Enchantment",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Enchanted Weapon",
+      "canonical_name_guess": null,
+      "school_or_type": "Enchantment",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "5 rounds/level",
+      "casting_time": "1 turn",
+      "area_of_effect": "Weapon(s) touched",
+      "saving_throw": "None",
+      "description_excerpt": "in combination with the enchant un item and permanency spells to create magical weapons, with this spell beii cast once per desired plus of the bonus. The material components of this spell are powdered lime and carbon."
+    },
+    "quality_flags": []
+  }
+}

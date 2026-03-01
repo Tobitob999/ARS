@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.2.1",
+  "id": "hypnotic_pattern",
+  "name": "Hypnotic Pattern",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Hypnotic Pattern (Illusion/Phantasm) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "second",
+    "book_pages": [
+      142
+    ],
+    "pdf_pages": [
+      143
+    ],
+    "raw_block": "Hypnotic Pattern (Illusion/Phantasm)\nRange: 30 yards\nComponents: S, M\nDuration: Special\nCasting Time: 2\nArea of Effect: %foot cube\nSavingThrow: Neg.\nWhen this spell is cast, the wizard Creates\na weaving, twisting pattern of subtle colors\nin the air. This pattern causes any creature\nlooking at it to become fascinated and stand\ngazing at it as long as the spellcaster main\ntains the display, plus two rounds there\nafter. The spell can captivate a maximum o\n24 levels, or Hit Dice, of creatures (e.g., 21\ncreatures with 1 Hit Die each, 12 with 2 Hii\nDice, etc). All creatures affected must bc\nwithin the area of effect, and each is entitlec\nto a saving throw vs. spell. A damage\ninflicting attack on an affected creature fre\nit from the spell immediately.\nThe mage need not utter a sound, but he\nmust gesture appropriately while holding a\nglowing stick of incense or a crystal rod\nfilled with phosphorescent material."
+  },
+  "mechanics": {
+    "school_or_type": "Illusion/Phantasm",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Hypnotic Pattern",
+      "canonical_name_guess": null,
+      "school_or_type": "Illusion/Phantasm",
+      "range": "30 yards",
+      "components": "S, M",
+      "duration": "Special",
+      "casting_time": "2",
+      "area_of_effect": "%foot cube",
+      "saving_throw": null,
+      "description_excerpt": "SavingThrow: Neg. When this spell is cast, the wizard Creates a weaving, twisting pattern of subtle colors in the air. This pattern causes any creature looking at it to become fascinated and stand gazing at it as long as the spellcaster main tains the display, plus two rounds there after. The spell can captivate a maximum o 24 levels, or Hit Dice, of creatures (e.g., 21 creatures with 1 Hit Die each, 12 with 2 Hii Dice, etc). All creatures affected must bc within the area of effect, and each is entitlec to a saving throw vs. spell. A damage inflicting attack on an affected creature fre it from the spell immediately. The mage need not utter a sound, but he must gesture appropriately while holding a glowing stick of incense or a crystal rod filled with phosphorescent material."
+    },
+    "quality_flags": [
+      "missing_standard_fields",
+      "trimmed_merged_block"
+    ]
+  }
+}

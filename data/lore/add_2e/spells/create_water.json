@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "create_water",
+  "name": "Create Water",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Create Water (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "ninth",
+    "book_pages": [
+      199
+    ],
+    "pdf_pages": [
+      200
+    ],
+    "raw_block": "Create Water (Alteration)\nReversible\nSphere: Elemental (Water)\nRange: 30 yards\nComponents V, S, M\nDuration: Permanent\nCasting Time: 1 round\nArea of Effect: Up to 27 cubic feet\nSaving Throw: None\nWhen the priest casts a create water spell,\nup to four gallons of water are generated for\nevery experience level of the caster (e.g., a\n2nd-level priest creates up to eight gallons of\nwater, a 3rd-level up to 12 gallons, etc.).\nThe water is clean and drinkable (it is just\nlike rain water). The created water can be\ndispelled within a round of its creation, oth-\nerwise its magic fades, leaving normal water\nthat can be used, spilled, evaporated, etc.\nReversing the spell, destroy water, obliter-\nates without trace (no vapor, mist, fog, or\nsteam) a like quantity of water. Water can\nbe created or destroyed in an area as small\nas will actually contain the liquid, or in an\narea as large as 27 cubic feet (1 cubic yard).\nThe spell requires at least a drop of water\nto create, or a pinch of dust to destroy, water.\nNote that water can neither be created\nnor destroyed within a creature. For refer-\nence purposes, water weighs about 8 %\npounds per gallon, and a cubic foot of water\nweighs approximately 64 pounds."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Create Water",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "30 yards",
+      "components": null,
+      "duration": "Permanent",
+      "casting_time": "1 round",
+      "area_of_effect": "Up to 27 cubic feet",
+      "saving_throw": "None",
+      "description_excerpt": "When the priest casts a create water spell, up to four gallons of water are generated for every experience level of the caster (e.g., a 2nd-level priest creates up to eight gallons of water, a 3rd-level up to 12 gallons, etc.). The water is clean and drinkable (it is just like rain water). The created water can be dispelled within a round of its creation, oth- erwise its magic fades, leaving normal water that can be used, spilled, evaporated, etc. Reversing the spell, destroy water, obliter- ates without trace (no vapor, mist, fog, or steam) a like quantity of water. Water can be created or destroyed in an area as small as will actually contain the liquid, or in an area as large as 27 cubic feet (1 cubic yard). The spell requires at least a drop of water to create, or a pinch of dust to destroy, water. Note that water can neither be created nor destroyed within a creature. For refer- enc"
+    },
+    "quality_flags": [
+      "missing_standard_fields"
+    ]
+  }
+}

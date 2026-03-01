@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "legend_lore",
+  "name": "Legend Lore",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Legend Lore (Divination) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "sixth",
+    "book_pages": [
+      178
+    ],
+    "pdf_pages": [
+      179
+    ],
+    "raw_block": "Legend Lore (Divination)\nRange: 0\nComponents: V, S, M\nDuration: Special\nCasting Time: Special\nArea of Effect: Special\nSaving Throw: None\nThe legend lore spell is used to determine\nlegendary information regarding a known\nperson, place, or thing. If the person or\nthing is at hand, or if the wizard is in the\nplace in question, the likelihood of the spell\nproducing results is far greater and the cast-\ning time is only ld4 turns. If only detailed\ninformation on the person, place, or thing is\nknown, casting time is Idlo days. If only\nrumors are known, casting time is 2d6\nWeeks.\nDuring the casting, the wizard cannot\nengage in activities other than the routine:\neating, sleeping, etc. When completed, the\ndivination reveals if legendary material is\navailable. It often reveals where this materi-\nal is-by place name, rhyme, or riddle. It\nsometimes gives certain information regard-\ning the person, place, or thing (when the\nobject of the fegend fore is at hand), but this\ndata is always in some cryptic form (rhyme,\nriddle, anagram, cipher, sign, etc.).\nThe spell is cast with incense and strips of\nivory formed into a rectangle, but some\nitem of value to the caster must be sacrificed\nin addition-a potion, magical scroll, magi-\ncal item, etc.\nNaturally, legend fore reveals informa-\ntion only if the person, place, or thing is\nnoteworthy or legendary.\nSuppose Delsenora came across an\nextremely well-made sword. It radiates\nmagic, but when she used an identify spell,\nshe could not leam any information. Even\ngiving it to a trusted fighter didn’t work as\nthe sword did not reveal any special\npowers. Finally, she casts a legend lore spell,\nhoping to gain more hformation. Since the\nsword is at hand, she completes the spell in\nthree turn. In her mind comes the message,\n”Once this was the sword of he who waits\ntill Albion‘s time of greatest peril, when\nunto his hand it shall fly again. Fair was the\nhand that gave me and fair was the hand\nthat reclaimed me.” Clearly, Delsenora rcaE\nizes, this must be a very powerful item,\nsince her spell gave only a cryptic answer.\nBut who is he who waits? And where is\nAlbion? For more information, Delsenora is\ngoing to have to cast more spells. But now\nthe process will take quch longer, since she\nhas only the vaguest of clues to follow."
+  },
+  "mechanics": {
+    "school_or_type": "Divination",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Legend Lore",
+      "canonical_name_guess": null,
+      "school_or_type": "Divination",
+      "range": "0",
+      "components": "V, S, M",
+      "duration": "Special",
+      "casting_time": "Special",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "The legend lore spell is used to determine legendary information regarding a known person, place, or thing. If the person or thing is at hand, or if the wizard is in the place in question, the likelihood of the spell producing results is far greater and the cast- ing time is only ld4 turns. If only detailed information on the person, place, or thing is known, casting time is Idlo days. If only rumors are known, casting time is 2d6 Weeks. During the casting, the wizard cannot engage in activities other than the routine: eating, sleeping, etc. When completed, the divination reveals if legendary material is available. It often reveals where this materi- al is-by place name, rhyme, or riddle. It sometimes gives certain information regard- ing the person, place, or thing (when the object of the fegend fore is at hand), but this data is always in some cryptic form (rhyme, riddle, anagram, ciph"
+    },
+    "quality_flags": []
+  }
+}

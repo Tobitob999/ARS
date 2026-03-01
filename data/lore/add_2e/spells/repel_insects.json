@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "repel_insects",
+  "name": "Repel Insects",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Repel Insects (Abjuration, Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "fourth",
+    "book_pages": [
+      220
+    ],
+    "pdf_pages": [
+      221
+    ],
+    "raw_block": "Repel Insects (Abjuration, Alteration)\nSphere: Animal, Protection\nRange: 0\nComponents: V, S, M\nDuration: 1 turn/level\nCasting Time: 1 round\nArea of Effect: 10-foot radius\nSaving Throw: None\nWhen this spell is cast, the priest creates\nan invisible barrier to all sorts of insects,\nand normal insects do not approach within\n10 feet of the caster while the spell is in\neffect. Giant insects with Hit Dice less than\n1/3 of the caster's experience level are also\nrepelled (e.g., 2 Hit Dice for 7th- to 9th-level\ncasters, 3 Hit Dice at 10th through 12th\nlevel, etc.). Insects with more Hit Dice can\nenter the protected area if the insect is espe-\ncially aggressive and, in addition, rolls a\nsuccessful saving throw vs. spell. Those that\ndo sustain ld6 points of damage from pass-\ning of the magical barrier. Note that the\nspell does not in any way affect arachnids,\nmyriapods, and similar creatures-it affects\nonly true insects.\nThe material components of the repel\ninsects spell include any one of the follow-\ning: several crushed marigold flowers, a\nwhole crushed leek, seven crushed stinging\nnettle leaves, or a small lump of resin from a\ncamphor tree."
+  },
+  "mechanics": {
+    "school_or_type": "Abjuration, Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Repel Insects",
+      "canonical_name_guess": null,
+      "school_or_type": "Abjuration, Alteration",
+      "range": "0",
+      "components": "V, S, M",
+      "duration": "1 turn/level",
+      "casting_time": "1 round",
+      "area_of_effect": "10-foot radius",
+      "saving_throw": "None",
+      "description_excerpt": "When this spell is cast, the priest creates an invisible barrier to all sorts of insects, and normal insects do not approach within 10 feet of the caster while the spell is in effect. Giant insects with Hit Dice less than 1/3 of the caster's experience level are also repelled (e.g., 2 Hit Dice for 7th- to 9th-level casters, 3 Hit Dice at 10th through 12th level, etc.). Insects with more Hit Dice can enter the protected area if the insect is espe- cially aggressive and, in addition, rolls a successful saving throw vs. spell. Those that do sustain ld6 points of damage from pass- ing of the magical barrier. Note that the spell does not in any way affect arachnids, myriapods, and similar creatures-it affects only true insects. The material components of the repel insects spell include any one of the follow- ing: several crushed marigold flowers, a whole crushed leek, seven crushed stinging n"
+    },
+    "quality_flags": []
+  }
+}

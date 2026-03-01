@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "protection_from_evll",
+  "name": "Protection From Evll",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Protection From Evll (Abjuration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "ninth",
+    "book_pages": [
+      201,
+      202
+    ],
+    "pdf_pages": [
+      202,
+      203
+    ],
+    "raw_block": "Protection From Evll (Abjuration)\nReversible\nSphere: Protection\nRange: Touch\nComponents: V, S, M\nDuration: 3 rounddevei\nCasting Time: 4\nArea of Effect: Creature touched\nSaving Throw: None\nWhen this spell is cast, it creates a magical\nbarrier around the recipient at a dmtance of\none foot. The barrier moves with the recipi-\nent and has three major effects:\nFirst, all attacks made by evil or evilly\nenchanted creatures against the protected\ncreature receive a penalty of -2 to each\nattack roll, and any saving throws caused\nby such attacks are made by the protected\ncreature with a +2 bonus.\nSecond, any attempt to exercise mental\ncontrol over the protected creature (if, for\nexample, it had been charmed by a vampire)\nor to invade and take over its mind (as by a\nghost's magic jar attack) is blocked this\nspell. Note that the protection does not prr-\nvent a vampire's charm itself, nor end it, but\nit does prevent the vampire from exercising\nmental control through the barrier. Like-\nwise, an outside life force is merely kept out,\nand would not be expelled if in place before\nthe protection was cast.\nThird, the spell prevents bodily contact\nby creatures of an extraplanar or conjured\nnature (such as aerial servants, elementals,\nimps, invisible stalkers, salamanders, water\nweirds, xorn, and others). This causes the\nnatural (body) weapon attacks of such crea-\ntures to fail and the creature to recoil if such\n20 1\nI.f.2 Priest Spells (2nd Level)\nattacks require touching the protected crea-\nture. Animals or monsters summoned or\nconjured by spells or similar magic are like-\nwise hedged from the character. This pro-\ntection ends if the protected character\nmakes a melee attack against or tries to\nforce the barrier against the blocked crea-\nture.\nTo complete this spell, the priest uses holy\nwater or burning incense.\nThis spell can be reversed to become pro-\ntection from good; the second and third\nbenefits remain unchanged.\nThe material components forsthe reverse\nare a circle of unholy water or smoldering\ndung."
+  },
+  "mechanics": {
+    "school_or_type": "Abjuration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Protection From Evll",
+      "canonical_name_guess": null,
+      "school_or_type": "Abjuration",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "3 rounddevei",
+      "casting_time": "4",
+      "area_of_effect": "Creature touched",
+      "saving_throw": "None",
+      "description_excerpt": "When this spell is cast, it creates a magical barrier around the recipient at a dmtance of one foot. The barrier moves with the recipi- ent and has three major effects: First, all attacks made by evil or evilly enchanted creatures against the protected creature receive a penalty of -2 to each attack roll, and any saving throws caused by such attacks are made by the protected creature with a +2 bonus. Second, any attempt to exercise mental control over the protected creature (if, for example, it had been charmed by a vampire) or to invade and take over its mind (as by a ghost's magic jar attack) is blocked this spell. Note that the protection does not prr- vent a vampire's charm itself, nor end it, but it does prevent the vampire from exercising mental control through the barrier. Like- wise, an outside life force is merely kept out, and would not be expelled if in place before the protec"
+    },
+    "quality_flags": []
+  }
+}

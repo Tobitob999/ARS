@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "phantasmal_killer",
+  "name": "Phantasmal Killer",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Phantasmal Killer (IllusionlPhsntrsm) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      160,
+      161
+    ],
+    "pdf_pages": [
+      161,
+      162
+    ],
+    "raw_block": "Phantasmal Killer (IllusionlPhsntrsm)\nRange: 5 yards/level\nComponents: V, S\nDuration: 1 round/level\nCasting Time: 4\nArea of Effect: 1 creature\nSaving Throw: Special\nWhen this spell is cast, the wizard creates\nthe illusion of the most fearsome thing\nimaginable to the victim, simply by fonnirlg\nthe fears of the victim's subconscious mind\ninto something that its conscious mind can\nvisualize-the most horriblebeast. Only the\nspell recipient can see the phantasmal killer\n(the caster sees only a shadowy shape), but\nif it succeeds in scoring a hit, thesubject dies\nfrom fright. The beast attacks as a 4 Hit Dice\nmonster. It is invulnerable to all attacks,\nand it can pass through any barriers. Once\ncast, it inexorably pursues the subject, for it\nexists only in the subject's mind.\nThe only defenses against a phantasmal\nkiller are an attempt to disbelieve (which\ncan be tried but once), slaying or rendering\nunconscious the wizard who cast the spell,\nor rendering unconscious the target of the\nspell for its duration. To disbelieve the killer,\nthe subject must specifically state the at-\ntempt and then roll an Intelligence check.\nThis roll has a -1 penalty for every four\nlevels of the caster.\n160\ni\nSpedal modifiers apply to this attack:\nCondition Modifier\nsurprise -2\nSubject previously attacked by\nthis spell + 1/\nSubject is an illusionist +2\nSubjm is wearing a helm of telepathy +3\nMagic resistance, bonuses winst fear,\nand Wisdom adjustments also apply. Magic\nresistance is checked first to determine Spes1\noperatioq, and then the fear/Wisdixn bonus\napplies ag a minus to the dice roll to match\nor score 1- than Intelligence.\nIf the su&ct of a phantasmal killer attack\nsucceeds in disbelieving, and he is wearing a\nhelm of telepathy, the beast can be turned\nupon the wizard, who must then disbelieve\nit or be subject to its attack and possible\neffects.\nIf the subject ignores the killer to perform\nother actions, such as attacking the caster,\nthe kiIler may, at the DMs option, gain\nbonuses to hit (for flank or rear attacks,\netc.). Spells such as remove fear and cloak\nof brmery, cast after the killer has attacked,\nant another check to disbelieve the effect.\nI Duration: Casting Time: Permanent 4\nArea of Effect: An area 10’ per side/level\nSaving Throw: None\nWhen a plant growth spell is cast, the wiz-\nard causes normal vegetation to grow,\nentwine, and entangle to form a thicket or\njungle that creatures must hack or force a\nway through at a movement rate of 1 per\nround (or 2 if larger than man-sized). The\narea must contain brush and trees for this\nspell to work. Briars, bushes, creepers,\nlianas, roots, saplings, thistles, thorn, trees,\nvines, and weeds become thick and over-\ngrown so as to form a barrier. The area of\neffect is 10 feet on a side per level of experi-\nence of the caster, in any square or rectangu-\nlar shape that the caster desires. Thus an\n8th-level wizard can affect an 80’ X 80’\nsquare, a 160’ x 40’ rectangle, a 640’ x 10’\nrectangle, etc. Individual plant girth and\nhe& is generally affected less than thick-\nness of brush, branch, and undergrowth.\nThe spell’s effects persist in the area until it is\ncleared by labor, fire, or such magical\nmeans as a dispel magic spell.\nPlant Growth (Alteration\nRange 10 yards/level\nComponents: V, S\n."
+  },
+  "mechanics": {
+    "school_or_type": "IllusionlPhsntrsm",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Phantasmal Killer",
+      "canonical_name_guess": null,
+      "school_or_type": "IllusionlPhsntrsm",
+      "range": "5 yards/level",
+      "components": "V, S",
+      "duration": "1 round/level",
+      "casting_time": "4",
+      "area_of_effect": "1 creature",
+      "saving_throw": "Special",
+      "description_excerpt": "."
+    },
+    "quality_flags": []
+  }
+}

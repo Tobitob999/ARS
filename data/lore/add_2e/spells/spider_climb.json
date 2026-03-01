@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "spider_climb",
+  "name": "Spider Climb",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Spider Climb (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": null,
+    "book_pages": [
+      138
+    ],
+    "pdf_pages": [
+      139
+    ],
+    "raw_block": "Spider Climb (Alteration)\nRange: Touch\nComponents: V, S, M\nDuration: 3 rounds + 1 round/level\nCasting Time: 1\nArea of Effect: Creature touched\nSaving Throw: Neg.\nA spider climb spell enables the recipient\nto climb and travel upon vertical surfaces as\nwell as a giant spider, or even hang upside\ndown from ceilings. Unwilling victims must\nbe touched and are then allowed a saving\nthrow vs. spell to negate the effect. The\naffected creature must have bare hands and\nfeet in order to climb in this manner, at a\nmovement rate of 6 (3 if at all encumbered).\nDuring the course of the spell, the recipient\ncannot handle objects that weigh less than a\ndagger (one pound), for such objects stick to\nhis hands and feet. Thus a wizard will find it\nvirtually impossible to cast spells if under a\nspider climb spell. Sufficient force can pull\nthe recipient free; the DM can assign a sav-\ning throw based on circumstances, the\nstrength of the force, and so on. For exam-\nple, a creature with a Strength of 12 might\npull the subject free if the subject fails a sav-\ning throw vs. paralyzation (a moderately\ndifficult saving throw). The caster can end\nthe spell effect with a word.\nThe material components of this spell are\na drop of bitumen and a live spider, both of\nwhich must be eaten by the spell recipient."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Spider Climb",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "3 rounds + 1 round/level",
+      "casting_time": "1",
+      "area_of_effect": "Creature touched",
+      "saving_throw": "Neg.",
+      "description_excerpt": "A spider climb spell enables the recipient to climb and travel upon vertical surfaces as well as a giant spider, or even hang upside down from ceilings. Unwilling victims must be touched and are then allowed a saving throw vs. spell to negate the effect. The affected creature must have bare hands and feet in order to climb in this manner, at a movement rate of 6 (3 if at all encumbered). During the course of the spell, the recipient cannot handle objects that weigh less than a dagger (one pound), for such objects stick to his hands and feet. Thus a wizard will find it virtually impossible to cast spells if under a spider climb spell. Sufficient force can pull the recipient free; the DM can assign a sav- ing throw based on circumstances, the strength of the force, and so on. For exam- ple, a creature with a Strength of 12 might pull the subject free if the subject fails a sav- ing throw v"
+    },
+    "quality_flags": []
+  }
+}

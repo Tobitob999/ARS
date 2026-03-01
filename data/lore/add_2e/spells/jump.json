@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "jump",
+  "name": "Jump",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Jump (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": null,
+    "book_pages": [
+      135
+    ],
+    "pdf_pages": [
+      136
+    ],
+    "raw_block": "Jump (Alteration)\nRange: Touch\nComponents: V, S, M\nDuration: Id3 rounds + 1 round/level\nCasting Time: 1\nArea of Effect: Creature touched\nSaving Throw: None\nThe individual touched when this spell is I cast is empowered to leap once per round\nfor the e swll. Leaps can be up"
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Jump",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "Id3 rounds + 1 round/level",
+      "casting_time": "1",
+      "area_of_effect": "Creature touched",
+      "saving_throw": "None",
+      "description_excerpt": "The individual touched when this spell is I cast is empowered to leap once per round for the e swll. Leaps can be up"
+    },
+    "quality_flags": []
+  }
+}

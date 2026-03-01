@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "id": "add_ranger",
+  "name": "Ranger (AD&D 2e)",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "archetype": "ranger",
+  "level": 1,
+  "background": "PHB-konformes Starttemplate",
+  "characteristics": {
+    "STR": 15,
+    "DEX": 14,
+    "CON": 14,
+    "INT": 11,
+    "WIS": 14,
+    "CHA": 12
+  },
+  "derived_stats": {
+    "HP": 10,
+    "AC": 6,
+    "THAC0": 20,
+    "Movement": 12
+  },
+  "skills": {
+    "Tracking": 1,
+    "Two-Weapon Style": 1
+  },
+  "equipment": [
+    "bedroll",
+    "waterskin",
+    "rations"
+  ],
+  "notes": "Starttemplate fuer schnelle Session-Initialisierung."
+}

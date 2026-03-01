@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "wind_walk",
+  "name": "Wind Walk",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Wind Walk (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "sixth",
+    "book_pages": [
+      236
+    ],
+    "pdf_pages": [
+      237
+    ],
+    "raw_block": "Wind Walk (Alteration)\nSphere: Elemental (Air)\nRange: Touch\nComponents: V, S, M\nDuration: 1 hour/level\nCasting Time: 1 round\nArea of Effect: Special\nSaving Throw: None\nThis spell enables the priest, and possibly\none or two other persons, to alter the sub-\nstance of his body to a cloud-like vapor. A\nmagical wind then wafts the priest along at a\nmovement rate of 60, or as slow as 6, as the\nspellcaster wills. The wind walk spell lasts\nas long as the priest desires, up to a maxi-\nmum duration of six turns (one hour) per ex-\nperience level of the caster. For every 8\nlevels of experience the priest has attained,\nup to 24, he is able to touch another person\nand carry that person, or those persons,\nalong on the wind walk. Persons wind\nwalking are not invisible, but rather appear\nmisty and translucent. If fully clothed in\nwhite, they are 80% likely to be mistaken\nfor clouds, fog, vapors, etc. The priest can\nregain his physical form as desired, each\nchange to and from vaporous form requir-\ning five rounds. While in vaporous form,\nthe priest and companions are hit only by\nmagic or magical weaponry, though they\nmay be subject to high winds at the DMs\ndiscretion. No spellcasting is possible in va-\nporous form.\nThe material components of this spell are\nfire and holy water."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Wind Walk",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "1 hour/level",
+      "casting_time": "1 round",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "perience level of the caster. For every 8 levels of experience the priest has attained, up to 24, he is able to touch another person and carry that person, or those persons, along on the wind walk. Persons wind walking are not invisible, but rather appear misty and translucent. If fully clothed in white, they are 80% likely to be mistaken for clouds, fog, vapors, etc. The priest can regain his physical form as desired, each change to and from vaporous form requir- ing five rounds. While in vaporous form, the priest and companions are hit only by magic or magical weaponry, though they may be subject to high winds at the DMs discretion. No spellcasting is possible in va- porous form. The material components of this spell are fire and holy water."
+    },
+    "quality_flags": []
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "shape_change",
+  "name": "Shape Change",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Shape Change (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "ninth",
+    "book_pages": [
+      196,
+      197
+    ],
+    "pdf_pages": [
+      197,
+      198
+    ],
+    "raw_block": "Shape Change (Alteration)\nRange: 0\nComponents: V, S, M\nDuration: 1 turn/level\nCasting Time: 9\nArea of Effect: The caster\nSaving Throw: None\nWith this spell, a wizard is able to assume\nthe form of any living thing or creature\nbelow demigod status (greater or lesser dei-\nty, singular dragon type, or the like). The\nspellcaster becomes the creature he wishes,\nand has all of the abilities save those depen-\ndent upon Intelligence, innate magical abili-\nties, and magic resistance, for the mind of\nthe creature is that of the spellcaster. Thus\nhe can change into a griffon and fly away,\nthen to an efreet and fly through a roaring\nflame, and then to a titan to lift up a wagon,\netc. These creatures have whatever hit\npoints the wizard has at the time of the\nshape change. Each alteration in form\nrequires but a second. No system shock is\n1%\nincurred.\nExample: A wizard is in combat and\nassumes the form of a will 0' wisp, and when\nthjs form is no longer useful, the wizard\nchanges into a stone golem and walks away.\nWhen pursued, the golemahape is changed\nto that of a flea, which hides upon a horie\nuntil it can hop off and become a bush. If\ndetected as the latter, the wizard can become\na dragon, an ant, or just about anything he\nis familiar with.\nA wizard adopting another form also\nadops its vulnerabilities. For example, a\nwizard who becomes a spectre is powerless\nin daylight, and is subject to beiig turned,\ncontrolled, or destroyed by opposing cler-\nics. Unlike similar spells, a wizard who is\nkilled in another form does not revert to his\noriginal shape, which may disallow certain\ntypes of revivification.\nThe material component is a jade circlet\nworth no less than 5,OOO gp, which shatters\nat the end of the spell's duration. In the\nmeantime, the circlet is left in the wake of\nthe shape change, and premature shatteriq\nends the spell immediately."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Shape Change",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "0",
+      "components": "V, S, M",
+      "duration": "1 turn/level",
+      "casting_time": "9",
+      "area_of_effect": "The caster",
+      "saving_throw": "None",
+      "description_excerpt": "meantime, the circlet is left in the wake of the shape change, and premature shatteriq ends the spell immediately."
+    },
+    "quality_flags": []
+  }
+}

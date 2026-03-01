@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "id": "add_druid",
+  "name": "Druid (AD&D 2e)",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "archetype": "druid",
+  "level": 1,
+  "background": "PHB-konformes Starttemplate",
+  "characteristics": {
+    "STR": 11,
+    "DEX": 12,
+    "CON": 12,
+    "INT": 12,
+    "WIS": 15,
+    "CHA": 15
+  },
+  "derived_stats": {
+    "HP": 8,
+    "AC": 7,
+    "THAC0": 20,
+    "Movement": 12
+  },
+  "skills": {
+    "Nature Lore": 1,
+    "Spellcasting (Druidic)": 1
+  },
+  "equipment": [
+    "bedroll",
+    "waterskin",
+    "rations"
+  ],
+  "notes": "Starttemplate fuer schnelle Session-Initialisierung."
+}

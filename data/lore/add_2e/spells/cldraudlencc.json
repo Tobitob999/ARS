@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "cldraudlencc",
+  "name": "Cldraudlencc",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Cldraudlencc (Divination) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "third",
+    "book_pages": [
+      147
+    ],
+    "pdf_pages": [
+      148
+    ],
+    "raw_block": "Cldraudlencc (Divination)\nRange: Special\nComponents: V, S, M\nDuration: 1 round/level\nCasting Time: 3\nArea of Effect: Special\nSaving Throw: None\nThe clairaudience spell enables the wizard\nto concentrate upon some locale and hear in\nhis mind any noise within a &foot radius\nof the spell's casting point. Distance is not a\nfactor, but the locale must be known-a\nplace familiar to the spellcaster or an obvi-\nous one (such as behind a door, around a\ncorner, in a copse of trees, etc.). Only\nsounds that are normally detectable by the\nwizard can be heard by use of this spell.\nLead sheeting or magical protections pre-\nvent the operation of the spell, and the wiz-\nard has some indication that the spell is so\nblocked. Note that it functions only on the\nwizard's current plane of existence. The\nspell creates an invisible sensor that can be\nmagically dispelled.\nThe material component of the spell is a\nsmall horn of at least 100 gp value."
+  },
+  "mechanics": {
+    "school_or_type": "Divination",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Cldraudlencc",
+      "canonical_name_guess": null,
+      "school_or_type": "Divination",
+      "range": "Special",
+      "components": "V, S, M",
+      "duration": "1 round/level",
+      "casting_time": "3",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "The clairaudience spell enables the wizard to concentrate upon some locale and hear in his mind any noise within a &foot radius of the spell's casting point. Distance is not a factor, but the locale must be known-a place familiar to the spellcaster or an obvi- ous one (such as behind a door, around a corner, in a copse of trees, etc.). Only sounds that are normally detectable by the wizard can be heard by use of this spell. Lead sheeting or magical protections pre- vent the operation of the spell, and the wiz- ard has some indication that the spell is so blocked. Note that it functions only on the wizard's current plane of existence. The spell creates an invisible sensor that can be magically dispelled. The material component of the spell is a small horn of at least 100 gp value."
+    },
+    "quality_flags": []
+  }
+}

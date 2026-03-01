@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "dig",
+  "name": "Dig",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Dig (Evocation) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      155
+    ],
+    "pdf_pages": [
+      156
+    ],
+    "raw_block": "Dig (Evocation)\nRange: 30 yards\nComponents: V, S, M\nDuration: 1 round/level\nCasting Time: 4\nArea of Effect: 5-foot cube/level\nSaving Throw: Special\nA dig spell enables the caster to excavate\n125 cubic feet of earth, sand, or mud per\nround (i.e., a cubic hole five feet on a side).\nIn later rounds the caster can expand an\nexisting hole or start a new one. The materi-\nal thrown from the excavation scatters\nevenly around the pit. If the wizard con-\ntinues downward past 20 feet in earth, there\nis a 15% chance that the pit collapses. This\ncheck is made for every five feet dug beyond\n20 feet. Sand tends to collapse after 10 feet,\nmud fills in and collapses after five feet, and\nquicksand fills in as rapidly as it is dug."
+  },
+  "mechanics": {
+    "school_or_type": "Evocation",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Dig",
+      "canonical_name_guess": null,
+      "school_or_type": "Evocation",
+      "range": "30 yards",
+      "components": "V, S, M",
+      "duration": "1 round/level",
+      "casting_time": "4",
+      "area_of_effect": "5-foot cube/level",
+      "saving_throw": "Special",
+      "description_excerpt": "A dig spell enables the caster to excavate 125 cubic feet of earth, sand, or mud per round (i.e., a cubic hole five feet on a side). In later rounds the caster can expand an existing hole or start a new one. The materi- al thrown from the excavation scatters evenly around the pit. If the wizard con- tinues downward past 20 feet in earth, there is a 15% chance that the pit collapses. This check is made for every five feet dug beyond 20 feet. Sand tends to collapse after 10 feet, mud fills in and collapses after five feet, and quicksand fills in as rapidly as it is dug."
+    },
+    "quality_flags": []
+  }
+}

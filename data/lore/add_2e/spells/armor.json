@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "armor",
+  "name": "Armor",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Armor (Conjuration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": null,
+    "book_pages": [
+      131
+    ],
+    "pdf_pages": [
+      132
+    ],
+    "raw_block": "Armor (Conjuration)\nRange: Touch\nComponents: V, S, M\nDuration: Special\nCasting Time: 1 round\nArea of Effect: 1 creature\nSaving Throw: None\nBy means of this spell, the wizard creates\na magical field of force that serves as if it\nwere scale mail armor (AC 6). The spell has\nno effect on a person already armored or a\ncreature with Annor Class 6 or better. It is\nnot cumulative with the shield spell, but it is\ncumulative with Dexterity and, in the case\nof fighter/mages, with the shield bonus.\nThe armor spell does not hinder movement,\nadds no weight or encumbrance, nor does it\nprevent spellcasting. It lasts until success-\nfully dispelled or until the wearer sustains\ncumulative damage totaling greater than 8\npoints +1 per level of the caster. (It is im-\nportant to note that the armor does not ab-\nsorb this damage. The armor merely grants\nan AC of 6: the wearer still suffers full dam-\nage from any successful attacks.) Thus, the\nwearer might suffer 8 points from an attack,\nthen several minutes later sustain an addi-\ntional 1 point of damage. Unless the spell\nwere cast by a wizard of 2nd level or higher,\nit would be dispelled at this time. Until it is\ndispelled, the amor spell grants the wearer\nfull benefits of the Armor Class gained.\nThe material component is a piece of\nfinely cured leather that has been blessed by\na priest.\nAudible Glamer (Illusion/Ph\nRange: 60 yards + 10 yards/level\nComponents: V, S, M\nDuration: 3 roundsllevel\nCasting Time: 1\nArea of Effect: Hearing range\nSaving Throw: Special\nWhen the audibleglamer spell is cast,\nwizard causes a volume of sound to arise,\nat whatever distance he desires (within\nrange), and seem to recede, approach, or\nremain at a fixed place as desired. The vol-\nume of sound created, however, is directly\nrelated to the level of the spellcaster. The\nvolume is based upon the lowest level at\nwhich the spell can be cast, 1st level. The\nnoise of the audible glamer at this level is\nthat of four men, maximum. Each addi-\ntional experience level of the wizard adds a\nlike volume, so that at 2nd level the wizard\ncan have the spell cause sound equal to that\nof eight men. Thus, talking, singing,\nshouting, walking, marching, or running\nsounds can be created. The auditory illu-\nsion created by an audible glamer spell can\nbe virtually any type of sound, but the rel-\native volume must be commensurate with\nthe level of the wizard casting the spell. A\nhorde of rats running and squeaking is\nabout the same volume as eight men run-\nning and shouting. A roaring lion is equal\nto the noise volume of 16 men, while a\nroaring dragon is equal to the noise volume\nof no fewer than 24 men.\nA character stating that he does not be-\nlieve the sound receives a saving throw, and\nif it succeeds, the character then hears a\nfaint and obviously false sound, emanating\nfrom the caster's direction. Note that this\nspell can enhance the effectiveness of the\nphantusmal force spell.\nThe material component of the spell is a\nbit of wool or a small lump of wax.\nI"
+  },
+  "mechanics": {
+    "school_or_type": "Conjuration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Armor",
+      "canonical_name_guess": null,
+      "school_or_type": "Conjuration",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "Special",
+      "casting_time": "1 round",
+      "area_of_effect": "1 creature",
+      "saving_throw": "None",
+      "description_excerpt": "When the audibleglamer spell is cast, wizard causes a volume of sound to arise, at whatever distance he desires (within range), and seem to recede, approach, or remain at a fixed place as desired. The vol- ume of sound created, however, is directly related to the level of the spellcaster. The volume is based upon the lowest level at which the spell can be cast, 1st level. The noise of the audible glamer at this level is that of four men, maximum. Each addi- tional experience level of the wizard adds a like volume, so that at 2nd level the wizard can have the spell cause sound equal to that of eight men. Thus, talking, singing, shouting, walking, marching, or running sounds can be created. The auditory illu- sion created by an audible glamer spell can be virtually any type of sound, but the rel- ative volume must be commensurate with the level of the wizard casting the spell. A horde of r"
+    },
+    "quality_flags": []
+  }
+}

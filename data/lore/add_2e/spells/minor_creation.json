@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "minor_creation",
+  "name": "Minor Creation",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Minor Creation (IllwiodPhantasm) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      160
+    ],
+    "pdf_pages": [
+      161
+    ],
+    "raw_block": "Minor Creation (IllwiodPhantasm)\nRange: Touch\nComponents: V, S, M\nDuration: 1 hour/level\nCasting Time: 1 turn\nArea of Effect: Special\nSaving Throw: None\nThis spell enables the wizard to create an\nitem of non-living, vegetable nature-soft\ngoods, rope, wood, etc. The caster actually\npulls wisps of material of the plane of\nShadow from the air and weaves them into\nthe desired item. The volume of the item\ncreated cannot exceed one cubic foot per\nlevel of the spellcaster. The item remains in\nexistence for only as long as the spell's dura-\ntion.\nThe spellcaster must have at least a tiny\npiece of matter of the same type of item he\nplans to create by means of the minor crea-\ntion spell-a bit of twisted hemp to create\nrope, a splinter of wood to create a door,\nand so forth.\nI"
+  },
+  "mechanics": {
+    "school_or_type": "IllwiodPhantasm",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Minor Creation",
+      "canonical_name_guess": null,
+      "school_or_type": "IllwiodPhantasm",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "1 hour/level",
+      "casting_time": "1 turn",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "This spell enables the wizard to create an item of non-living, vegetable nature-soft goods, rope, wood, etc. The caster actually pulls wisps of material of the plane of Shadow from the air and weaves them into the desired item. The volume of the item created cannot exceed one cubic foot per level of the spellcaster. The item remains in existence for only as long as the spell's dura- tion. The spellcaster must have at least a tiny piece of matter of the same type of item he plans to create by means of the minor crea- tion spell-a bit of twisted hemp to create rope, a splinter of wood to create a door, and so forth. I"
+    },
+    "quality_flags": [
+      "trimmed_merged_block"
+    ]
+  }
+}

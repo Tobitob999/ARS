@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.2.1",
+  "id": "chain_lightning",
+  "name": "Chain Lightning",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Chain Lightning (Evocation) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "sixth",
+    "book_pages": [
+      173,
+      174
+    ],
+    "pdf_pages": [
+      174,
+      175
+    ],
+    "raw_block": "Chain Lightning (Evocation)\nRange: 40 yards + 5 yards/level\nComponents: V, S, M\nDuration Instantaneous\nCasting Time: 5\nArea of Effect: Special\nSaving Throw: 1/z\nThis spell creates an electncai arscmrge\nthat begins as a single stroke of lightning,\n2% feet wide, commencing from the finger-\ntips of the caster. Unlike a lightning bolt\nspell, chain lightning strikes one object or\ncreature initially, then arcs to a series of\nother objects or creatures within range, los-\ning energy with each jump.\nThe bolt initially inflicts ld6 points of\ndamage per level of the caster, to a maxi-\nmum of 12d6 (half damage if the object or\ncreature rolls a successful saving throw vs.\nspell). After the first strike, the lightning\narcs to the next nearest object or creature.\nt\nEach jump reduces the strength of the light-\nning by ld6. Each creature or magical object\nhit receives a saving throw vs. spell. Success\non this save indicates the creature suffers\nonly half damage from the bolt.\nThe chain can strike as many times (in-\ncluding the first object or creature) as the\nspell caster has levels, although each crea-\nture or object can be struck only once.\nThus, a bolt cast by a 12th-level wizard can\nstrike up to 12 times, causing less damage\nwith each strike, The bolt continues to arc\nuntil it has struck the appropriate number of\nobjects or creatures, until it strikes an object\nthat grounds it (interconnecting iron bars of\na large cell or cage, a large pool of liquid,\netc.), or until there are no more objects or\ncreatures to strike.\nDirection is not a consideration when\nplotting chain lightning arcs. Distance is a\nfactor-an arc cannot exceed the spell's\nrange. If the only possible arc is greater than\nthe spell's range, the stroke fades into noth-\ningness. Creatures immune to electrical at-\ntack can be struck, even though no damage\nis taken. Note that it is possible for the chain\nto arc back to the caster!\nThe material components are a bit of fur,\na piece of amber, glass, or crystal rod, and\none silver pin for each experience level of\nthe caster."
+  },
+  "mechanics": {
+    "school_or_type": "Evocation",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Chain Lightning",
+      "canonical_name_guess": null,
+      "school_or_type": "Evocation",
+      "range": "40 yards + 5 yards/level",
+      "components": "V, S, M",
+      "duration": "Instantaneous",
+      "casting_time": "5",
+      "area_of_effect": "Special",
+      "saving_throw": "1/z",
+      "description_excerpt": "This spell creates an electncai arscmrge that begins as a single stroke of lightning, 2% feet wide, commencing from the finger- tips of the caster. Unlike a lightning bolt spell, chain lightning strikes one object or creature initially, then arcs to a series of other objects or creatures within range, los- ing energy with each jump. The bolt initially inflicts ld6 points of damage per level of the caster, to a maxi- mum of 12d6 (half damage if the object or creature rolls a successful saving throw vs. spell). After the first strike, the lightning arcs to the next nearest object or creature. t Each jump reduces the strength of the light- ning by ld6. Each creature or magical object hit receives a saving throw vs. spell. Success on this save indicates the creature suffers only half damage from the bolt. The chain can strike as many times (in- cluding the first object or creature) as the sp"
+    },
+    "quality_flags": [
+      "trimmed_merged_block"
+    ]
+  }
+}

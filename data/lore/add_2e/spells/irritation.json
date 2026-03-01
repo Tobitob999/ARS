@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "irritation",
+  "name": "Irritation",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Irritation (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "second",
+    "book_pages": [
+      142
+    ],
+    "pdf_pages": [
+      143
+    ],
+    "raw_block": "Irritation (Alteration)\nRange: 10 yards/level\nComponents: V, S, M\nDuration: Special\nCasting Time: 2\nArea of Effect: 1 to 4 creatures in a 15-foot-\nradius area\nSaving Throw: Neg.\nAn im'fation spell affects the epidermis of\nthe subject creatures. Creatures with very\nihick or insensitive skins (such as buffalo,\nrlephants, scaled Creatures, etc.) are basi-\n:ally unaffected by this. There are two ver-\niions of the spell, either of which can be cast\n'rom the standard preparation:\nItching. When cast, this causes each sub-\nect to feel an instant itching sensation on,\n,ome portion of its body. If one round is not\nrnmediately spent scratching the irritated\nrea, the creatw is so affected that the next\nhree rounds are spent squirming and twist-\nng, effectively worsening its Armor Class by\n1 and its attack rolls by 2 during this time.\nSpell preparations are ruined in the first\nsound this spell is in effect, but not in the fol-\nowing three rounds. Doing nothing but\nmatching the itch for a full round prevents\nhe rest of the effect. If cast at one creature,\nhe saving throw has a -3 penalty; if cast at\nwo creatures, the saving throw has a -1\nmalty; and if cast at three or four Creatures,\nhe saving throw is normal.\nRash. When a rash is cast, the subject no-\nices nothing for ld4 rounds, but thereafter\nts entire skin breaks out in red welts that\ntch. The rash persists until either a cure dis-\nuse or dispel magic spell is cast upon it. It\n3wers Charisma by 1 point per day for each\nf four days (i.e.f maximum Charisma loss\ni 4 points). After one week, Dexterity is\n>wered by 1 point also. Symptoms vanish\nnmediately upon the removal of the rash,\nnd all statistics return to normal. This can\ne cast at one creature only, with a saving\nwow penalty of - 2.\nThe material component for this spell is a\nsaf from poison ivy, oak, or sumac\n142"
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Irritation",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "10 yards/level",
+      "components": "V, S, M",
+      "duration": "Special",
+      "casting_time": "2",
+      "area_of_effect": "1 to 4 creatures in a 15-foot-",
+      "saving_throw": "Neg.",
+      "description_excerpt": "An im'fation spell affects the epidermis of the subject creatures. Creatures with very ihick or insensitive skins (such as buffalo, rlephants, scaled Creatures, etc.) are basi- :ally unaffected by this. There are two ver- iions of the spell, either of which can be cast 'rom the standard preparation: Itching. When cast, this causes each sub- ect to feel an instant itching sensation on, ,ome portion of its body. If one round is not rnmediately spent scratching the irritated rea, the creatw is so affected that the next hree rounds are spent squirming and twist- ng, effectively worsening its Armor Class by 1 and its attack rolls by 2 during this time. Spell preparations are ruined in the first sound this spell is in effect, but not in the fol- owing three rounds. Doing nothing but matching the itch for a full round prevents he rest of the effect. If cast at one creature, he saving throw has "
+    },
+    "quality_flags": []
+  }
+}

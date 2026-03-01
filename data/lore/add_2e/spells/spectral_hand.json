@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "spectral_hand",
+  "name": "Spectral Hand",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Spectral Hand (Necromancy) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "second",
+    "book_pages": [
+      145
+    ],
+    "pdf_pages": [
+      146
+    ],
+    "raw_block": "Spectral Hand (Necromancy)\nRange: 30 yards + 5 yards/level\nComponents: V, S\nDuration: 2 rounddlevel\nCasting Time: 2\nArea of Effect: 1 opponent\nSaving Throw: None\nThis spell causes a ghostly, glowing hand,\nshaped from the caster's life force, to materi-\nalize within the spell range and move as the\ncaster desires. Any touch attack spell of 4th\nlevel or less that is subsequently cast by the\nwizard can be delivered by the spectral\nhand. The spell gives the caster a +2 bonus\nto his attack roll. The caster cannot perfom\nany other actions when attacking with the\nhand; the hand returns to the caster and\nhovers if the caster takes other actions. ' !\nhand lasts the full spell duration unless ais-\nmissed by the caster, and it is possible to use\nmore than one touch attack with it. The\nhand receives flank and rear attack bonuses\nif the caster is in a position to do so. The\nhand is vulnerable to magical attack (but it\nhas an Armor Class of -2). Any damage to\nthe hand ends the spell and inflicts ld4\npoints of damage to the caster.\n."
+  },
+  "mechanics": {
+    "school_or_type": "Necromancy",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Spectral Hand",
+      "canonical_name_guess": null,
+      "school_or_type": "Necromancy",
+      "range": "30 yards + 5 yards/level",
+      "components": "V, S",
+      "duration": "2 rounddlevel",
+      "casting_time": "2",
+      "area_of_effect": "1 opponent",
+      "saving_throw": "None",
+      "description_excerpt": "missed by the caster, and it is possible to use more than one touch attack with it. The hand receives flank and rear attack bonuses if the caster is in a position to do so. The hand is vulnerable to magical attack (but it has an Armor Class of -2). Any damage to the hand ends the spell and inflicts ld4 points of damage to the caster. ."
+    },
+    "quality_flags": []
+  }
+}

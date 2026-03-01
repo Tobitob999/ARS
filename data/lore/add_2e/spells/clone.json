@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "clone",
+  "name": "Clone",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Clone (Necromancy) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "eighth",
+    "book_pages": [
+      189
+    ],
+    "pdf_pages": [
+      190
+    ],
+    "raw_block": "Clone (Necromancy)\nRange: Touch\nComponents: V, S, M\nDuration: Perqanent\nCasting Time: 1 turn\nArea of Effect: Special\nSaving Throw: None\nThis spell creates a duplicate of a human,\ndemihuman, or humanoid creature. This\ndone is in most respects the duplicate of the\nindividual, complete to the level of experi-\nence, memories, etc. However, the dupli-\ncate really is the person, so that if the\noriginal and a duplicate exist at the same\ntime, each knows of the other’s existence;\nand the original person and the clone will\neach desire to do away with the other, for\nsuch an alter-ego is unbearable to both. If\none cannot destroy the other, one will go\ninsane (90% likely to be the clone) and\ndestroy itself, or possibly (2% chance) both\nwill become mad and destroy themselves.\nThese events nearly always occur within\none week of the dual existence. Note that\nthe clone is the person as he existed at the\ntime at which the flesh was taken, and all\nsubsequent knowledge, experience, etc., is\ntotally unknown to the clone. The clone is a\nphysical duplicate, and possessions of the\noriginal are another matter entirely. A clone\ntakes 2d4 months to grow, and on€y after\nthat time is dual existence established.\nFinally, the clone has one less Constitution\npoint than the body it was cloned from, and\nthe cloning fails if the clone would have a\nConstitution of 0.\nThe material component of the spell is a\nsmall piece of the flesh from the person to be\nduplicated.\nThe DM may, in addition, add other stip-\nulations to the success of a cloning effort,\nrequiring that some trace of life must remain\nin the flesh sample, that some means of stor-\ning and preserving the sample must be\ndevised and maintained, etc."
+  },
+  "mechanics": {
+    "school_or_type": "Necromancy",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Clone",
+      "canonical_name_guess": null,
+      "school_or_type": "Necromancy",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "Perqanent",
+      "casting_time": "1 turn",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "This spell creates a duplicate of a human, demihuman, or humanoid creature. This done is in most respects the duplicate of the individual, complete to the level of experi- ence, memories, etc. However, the dupli- cate really is the person, so that if the original and a duplicate exist at the same time, each knows of the other’s existence; and the original person and the clone will each desire to do away with the other, for such an alter-ego is unbearable to both. If one cannot destroy the other, one will go insane (90% likely to be the clone) and destroy itself, or possibly (2% chance) both will become mad and destroy themselves. These events nearly always occur within one week of the dual existence. Note that the clone is the person as he existed at the time at which the flesh was taken, and all subsequent knowledge, experience, etc., is totally unknown to the clone. The clone is a phys"
+    },
+    "quality_flags": [
+      "trimmed_merged_block"
+    ]
+  }
+}

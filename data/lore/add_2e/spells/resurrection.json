@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "resurrection",
+  "name": "Resurrection",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Resurrection (Necromancy) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "sixth",
+    "book_pages": [
+      235
+    ],
+    "pdf_pages": [
+      236
+    ],
+    "raw_block": "Resurrection (Necromancy)\nReversible\nSphere: Necromantic\nRange: Touch\nComponents: V, S, M\nDuration: Permanent\nCasting Time: 1 turn\nArea of Effect: Creature touched\nSaving Throw: None\nThe priest employing this spell is able to\nrestore life and complete strength to any living\ncreature, incluh elves, he bestows the resur-\nrection spell upon. The mature can have been\ndead up to 10 years per level of the priest cast-\ning the spell. Thus a 19th-level priest can res-\nurrect the bones of a apature dead up to 190\nyears. The creature, upon surviving a resur-\nrection survival check, is immediately\nrestored to full hit points and can perfom\nstrenuous activity. The spell cannot bring back\na creature that has ded itsallotted lifespan\n(i.e., died of ~hval causes). Casting this spell\nmakes it impassible for the priest to cast fur-\nther spells or engage in combat until he has\nhad one day of bed rest for each experkm\nlevel or Hit Die of the creature brought back\nto life. Thecasteragesthree years upon cast-\ningthisspell.\nThe reverse, destruction, causes the vic-\ntim of the spell to be instantly dead and\nturned to dust. A wish spell or equivalent is\nrequired for recovery. Destruction requires\na touch, either in combat or otherwise, and\ndoes not age the caster. In addition, the vic-\ntim is allowed a saving throw (with a -4\npenalty). If the save is successful, the victim\nreceives 8d6 points of damage instead.\nThe material components of the spell are\nthe priest's religious symbol and holy water\n(unholy water for the reverse spell). The\nDM may reduce the chances of successful\nresurrection if little of the creature's remains\nare available."
+  },
+  "mechanics": {
+    "school_or_type": "Necromancy",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Resurrection",
+      "canonical_name_guess": null,
+      "school_or_type": "Necromancy",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "Permanent",
+      "casting_time": "1 turn",
+      "area_of_effect": "Creature touched",
+      "saving_throw": "None",
+      "description_excerpt": "The priest employing this spell is able to restore life and complete strength to any living creature, incluh elves, he bestows the resur- rection spell upon. The mature can have been dead up to 10 years per level of the priest cast- ing the spell. Thus a 19th-level priest can res- urrect the bones of a apature dead up to 190 years. The creature, upon surviving a resur- rection survival check, is immediately restored to full hit points and can perfom strenuous activity. The spell cannot bring back a creature that has ded itsallotted lifespan (i.e., died of ~hval causes). Casting this spell makes it impassible for the priest to cast fur- ther spells or engage in combat until he has had one day of bed rest for each experkm level or Hit Die of the creature brought back to life. Thecasteragesthree years upon cast- ingthisspell. The reverse, destruction, causes the vic- tim of the spell to be "
+    },
+    "quality_flags": []
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "messenger",
+  "name": "Messenger",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Messenger (EnchantmenVCharm) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "second",
+    "book_pages": [
+      206
+    ],
+    "pdf_pages": [
+      207
+    ],
+    "raw_block": "Messenger (EnchantmenVCharm)\nSphere: Animal\nRange: 20 yards/level\nComponents: V, S\nDuration: 1 day/level\nCasting Time: 1 round\nArea of Effect: 1 creature\nSaving Throw: Neg.\nThis spell enables the priest to call upon a\ntiny (size T) creature of at least animal intel-\nligence to act as his messenger. The spell\ndoes not affect giant animals and it does not\nwork on creatures of low (i.e., 5) Intelli-\ngence or higher. If the creature is within\nrange, the priest, using some type of food\ndesirable to the animal as a lure, can call the\nanimal to come. The animal is allowed a\nsaving throw vs. spell. If the saving throw is\nfailed, the animal advances toward the\npriest and awaits his bidding. The priest can\ncommunicate with the animal in a crude\nfashion, telling it to go to a certain place,\nbut directions must be simple. The spell-\ncaster can attach some small item or note to\nthe animal. If so instructed, the animal will\nthen wait at that location until the duration\nof the spell expires. (Note that unless the in-\ntended recipient of a message is expecting a\nmessenger in the form of a small animal or\nbird, the carrier may be ignored.) When the\nspell’s duration expires, the animal or bird\nreturns to its normal activities. The in-\ntended recipient of a message gains no com-\nmunication ability."
+  },
+  "mechanics": {
+    "school_or_type": "EnchantmenVCharm",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Messenger",
+      "canonical_name_guess": null,
+      "school_or_type": "EnchantmenVCharm",
+      "range": "20 yards/level",
+      "components": "V, S",
+      "duration": "1 day/level",
+      "casting_time": "1 round",
+      "area_of_effect": "1 creature",
+      "saving_throw": "Neg.",
+      "description_excerpt": "returns to its normal activities. The in- tended recipient of a message gains no com- munication ability."
+    },
+    "quality_flags": []
+  }
+}

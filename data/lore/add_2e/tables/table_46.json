@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2.0",
+  "id": "table_46",
+  "name": "Table 46: ARMOR CLASS RATINGS",
+  "category": "table",
+  "tags": [
+    "add_2e",
+    "table",
+    "player_handbook",
+    "toc_normalized"
+  ],
+  "summary": "PHB Table 46 (ARMOR CLASS RATINGS).",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "table_number": 46,
+    "title": "ARMOR CLASS RATINGS",
+    "book_page": 75,
+    "pdf_page": 76,
+    "raw_page_token": "75"
+  },
+  "mechanics": {
+    "source": "toc_parse_v3",
+    "confidence": "medium"
+  }
+}

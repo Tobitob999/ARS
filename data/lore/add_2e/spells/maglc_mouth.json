@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "maglc_mouth",
+  "name": "Maglc Mouth",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Maglc Mouth (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "second",
+    "book_pages": [
+      143,
+      144
+    ],
+    "pdf_pages": [
+      144,
+      145
+    ],
+    "raw_block": "Maglc Mouth (Alteration)\nRange: 10 yards\nComponents: V, S, M\nDuration: Special\nCasting Time: 2\nArea of Effect: 1 object\nSaving Throw: None\nWhen this spell is cast, the wizard imbues\nthe chosen object with an enchanted mouth\nthat suddenly appears and speaks his mes-\nsage when a specified event occurs. The\nmessage, which must be of 25 words or less,\ncan be in any language known by the spell-\ncaster, and can be delivered over a one-turn\nperiod. The mouth cannot speak magical\nspells or use command words. It does, how-\never, move to the words articulated-if it is\nplaced upon a statue, the mouth of the\nstatue would actually move and appear to\nspeak. Of course, the magic mouth can be\nplaced upon a tree, rock, door, or any other\nobject, excluding intelligent membem of the\nanimal or vegetable kingdoms.\nIr\nIf\nThe spell functions when specific condi-\ntions are fulfilled, according to the com-\nmand of the spellcaster. Some examples are\nto speak \"to the first creature that touches\nyou,\" or \"to the first creature that passes\nwithin 30 feet .\" Commands can be as general\nor as detailed as desired, although only vis-\nual and audible triggers can be used, such as\nthe following: \"Speak only when a venera-\nble female human carrying a sack of groat\nclusters sits crosslegged within one foot.\"\nSuch visual triggers can react to a character\nusing the disguise ability. Command range\nis five yards per level of the wizard, so a 6th-\nlevel wizard can command the magic mouth\nto speak at a maximum encounter range of\n30 yards (\"Speak when a winged creature\ncomes within 30 yards.\"). The spell lasts un-\ntil the speak command can be fulfilled, thus\nthe spell duration is variable. A magic\nmouth cannot distinguish invisible crea-\ntures, alignments, level, Hit Dice, or class,\nexcept by external garb. If desired, the effect\ncan be keyed to a specific noise or spoken\nword.\nThe material component of this spell is a\nsmall bit of honeycomb."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Maglc Mouth",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "10 yards",
+      "components": "V, S, M",
+      "duration": "Special",
+      "casting_time": "2",
+      "area_of_effect": "1 object",
+      "saving_throw": "None",
+      "description_excerpt": "mouth cannot distinguish invisible crea- tures, alignments, level, Hit Dice, or class, except by external garb. If desired, the effect can be keyed to a specific noise or spoken word. The material component of this spell is a small bit of honeycomb."
+    },
+    "quality_flags": []
+  }
+}

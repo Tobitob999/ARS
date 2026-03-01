@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "wyvern_watch",
+  "name": "Wyvern Watch",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Wyvern Watch (Evocation) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "second",
+    "book_pages": [
+      208
+    ],
+    "pdf_pages": [
+      209
+    ],
+    "raw_block": "Wyvern Watch (Evocation)\nSphere: Guardian\nRange: 30 yards\nComponents: V, S, M\nDuration: 8 hours or until strike\nCasting Time: 5\nArea of Effect: 10-foot-radius sphere\nSaving Throw: Neg. '\nThis spell is known as wyvern watch be-\ncause of the insubstantial haze brought\nforth by its casting, which vaguely resem-\nbles a wyvern. It is typically used to guard\nsome area against intrusion. Any creature\napproaching within 10 feet of the guarded\narea may be affected by the \"wyvern.\" Any\ncreature entering the guarded area must roll\na successful saving throw vs. spell or stand\nparalyzed for one round per level of the\ncaster, until freed by the spellcaster, by a\ndispel magic spell, or by a remove paralysis\nspell. A successful saving throw indicates\nthat the subject creature was missed by the\nattack of the wyvern-form, and the spell re-\nmains in place. As soon as a subject creature\nis successfully struck by the wyvern-form,\nthe paralysis takes effect and the force of the\nspell dissipates. The spell force likewise dis-\nsipates if no intruder is struck by the\nwyvern-form for eight hours after the spell\nis cast. Any creature approaching the space\nbeing guarded by the wyvern-form may be\nable to detect its presence before coming\nclose enough to be attacked; this chance of\ndetection is 90% in bright light, 30% in twi-\nlight conditions, and 0% in darkness.\nThe material component is the priest's\nholy symbol.\nBy means of a withdraw spell, the priest\nin effect alters the flow of time with regard\nto himself. While but one round of time\npasses for those not affected by the spell, the\npriest is able to spend two rounds, plus one\nround per level, in contemplation. Thus, a\n5th-level priest can withdraw for seven\nrounds to cogitate on some matter while one\nround passes for all others. (The DM should\nallow the player one minute of real time per\nround withdrawn to ponder some problem\nor question. No discussion with other play-\n208\nThird-Level Spells"
+  },
+  "mechanics": {
+    "school_or_type": "Evocation",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Wyvern Watch",
+      "canonical_name_guess": null,
+      "school_or_type": "Evocation",
+      "range": "30 yards",
+      "components": "V, S, M",
+      "duration": "8 hours or until strike",
+      "casting_time": "5",
+      "area_of_effect": "10-foot-radius sphere",
+      "saving_throw": "Neg. '",
+      "description_excerpt": "This spell is known as wyvern watch be- cause of the insubstantial haze brought forth by its casting, which vaguely resem- bles a wyvern. It is typically used to guard some area against intrusion. Any creature approaching within 10 feet of the guarded area may be affected by the \"wyvern.\" Any creature entering the guarded area must roll a successful saving throw vs. spell or stand paralyzed for one round per level of the caster, until freed by the spellcaster, by a dispel magic spell, or by a remove paralysis spell. A successful saving throw indicates that the subject creature was missed by the attack of the wyvern-form, and the spell re- mains in place. As soon as a subject creature is successfully struck by the wyvern-form, the paralysis takes effect and the force of the spell dissipates. The spell force likewise dis- sipates if no intruder is struck by the wyvern-form for eight hours "
+    },
+    "quality_flags": []
+  }
+}

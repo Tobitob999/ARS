@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.2.1",
+  "id": "hold_person",
+  "name": "Hold Person",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Hold Person (EnchantmentKharm) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "second",
+    "book_pages": [
+      205,
+      206
+    ],
+    "pdf_pages": [
+      206,
+      207
+    ],
+    "raw_block": "Hold Person (EnchantmentKharm)\nSphere: Charm\nRange: 120 yards\nComponents, V, S, M\nDuration: 2 roundsllevel\nCasting Time: 5\nArea of Effect: ld4 persons\nSaving Throw: Neg.\nThis spell holds ld4 humans, denunu-\nmans, or humanoid creatures rigidly immo-\nbile and in place for five or more rounds.\nThe hold person spell affects any bipedal\nhuman, demihuman, or humanoid of man-\nsize or smaller, including brownies, dryads,\ndwarves, elves, gnolls, gnomes, goblins,\nhalf-elves, halflings, half-orcs, hobgoblins,\nhumans, kobolds, lizard men, nixies, orcs,\npixies, sprites, troglodytes, and others. I\nThus, a 10th-level fighter could be held,\nwhile an ogre could not.\nThe effect is centered on a point selected\nby the caster, and it affects persons selected\nby the caster within the area of effect. If the\nspell is cast at three persons, each gets a nor-\nmal saving throw; if only two persons are\nbeing enspelled, each rolls his saving throw\nwith a - 1 penalty; if the spell is cast at but\none person, the saving throw die roll suffers\n-2 penalty. Saving throws are adjusted for\nWisdom. Those who succeed on their sav-\ning throws are totally unaffected by the\nspell. Undead creatures cannot be held.\nin a 20-foot cube\nI\nI\nI\nI\nI\nHeld creatures cannot move or speak, but\nthey remain aware of events around them\nand can use abilities not requiring motion or\nspeech. Being held does not prevent the\nworsening of the subjects’ condition due to\nwounds, disease, or poison. The priestcast-\ning the hold person spell can end the spell\nwith a single utterance at any time; other-\nwise the duration is two rounds at 1st level,\nfour rounds at 2nd level, six rounds at 3rd\nlevel, etc.\nThe spellcaster needs a small, straight\npiece of iron as the material component of\nthis spell."
+  },
+  "mechanics": {
+    "school_or_type": "EnchantmentKharm",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Hold Person",
+      "canonical_name_guess": null,
+      "school_or_type": "EnchantmentKharm",
+      "range": "120 yards",
+      "components": null,
+      "duration": "2 roundsllevel",
+      "casting_time": "5",
+      "area_of_effect": "ld4 persons",
+      "saving_throw": "Neg.",
+      "description_excerpt": "four rounds at 2nd level, six rounds at 3rd level, etc. The spellcaster needs a small, straight piece of iron as the material component of this spell."
+    },
+    "quality_flags": [
+      "missing_standard_fields"
+    ]
+  }
+}

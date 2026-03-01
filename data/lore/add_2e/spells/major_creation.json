@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "major_creation",
+  "name": "Major Creation",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Major Creation (Illusion/Phantasm) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      170
+    ],
+    "pdf_pages": [
+      171
+    ],
+    "raw_block": "Major Creation (Illusion/Phantasm)\nRange: 10 yards\nComponents: V, S, M\nDuration: Special\nCasting Time: 1 turn\nArea of Effect: Special\nSaving Throw: None\nLike the minor creation spell, major crea-\ntion enables the wizard to pull wisps of\nmaterial from the plane of Shadow to create\nan item of nonliving, vegetable nature-soft\ngoods, rope, wood, etc. The wizard can also\ncreate mineral objects-stone, crystal,\nmetal, etc. The item created cannot exceed\none cubic foot per level of the spellcaster in\nvolume. The duration of the created item\nvaries with its relative hardness and rarity:\nVegetable matter 2 hours/level\nStone or crystal 1 hour/level\nPrecious metals 2 turns/level\nGems 1 turn/level\nMithral 2 rounddlevel\nAdamantite 1 round/level\n* Includes similar rare metals.\nAttempting to use any of these as material\ncomponents in a spell will cause the spell to\nfail. The spellcaster must have at least a tiny\npiece of matter of the same type as the item\nhe plans to create-a bit of twisted hemp to\ncreate rope, a chip of stone to create a boul-\nder, and so on."
+  },
+  "mechanics": {
+    "school_or_type": "Illusion/Phantasm",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Major Creation",
+      "canonical_name_guess": null,
+      "school_or_type": "Illusion/Phantasm",
+      "range": "10 yards",
+      "components": "V, S, M",
+      "duration": "Special",
+      "casting_time": "1 turn",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "varies with its relative hardness and rarity: Vegetable matter 2 hours/level Stone or crystal 1 hour/level Precious metals 2 turns/level Gems 1 turn/level Mithral 2 rounddlevel Adamantite 1 round/level * Includes similar rare metals. Attempting to use any of these as material components in a spell will cause the spell to fail. The spellcaster must have at least a tiny piece of matter of the same type as the item he plans to create-a bit of twisted hemp to create rope, a chip of stone to create a boul- der, and so on."
+    },
+    "quality_flags": [
+      "trimmed_merged_block"
+    ]
+  }
+}

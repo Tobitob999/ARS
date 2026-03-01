@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "poi",
+  "name": "POI-",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "POI- (Necromancy) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "fourth",
+    "book_pages": [
+      219
+    ],
+    "pdf_pages": [
+      220
+    ],
+    "raw_block": "POI- (Necromancy)\nReversible\nSphere: Healing\nRange: Touch\nComponents: V, S\nDuration: Permanent\nCasting Time: 7\nArea of Effect: Creature touched or 1 cubic\nSaving Throw: None\nBy means of a neutralize poison spell, the\npriest detoxifies any sort of venom in the\ncreature or substance touched. Note that an\nopponent, such as a poisonous reptile or\nsnake (or even an envenomed weapon of an\nopponent) unwilling to be so touched\nrequires the priest to roll a successful attack\nin combat. This spell can prevent death in a\npoisoned creature if cast before death\noccurs. The effects of the spell are perma-\nnent only with respect to poison existing in\nthe touched creature at the time of the\ntouch, thus creatures (and objects) that gen-\nerate new poison are not permanently\ndetoxified .\nThe reversed spell, poison, likewise\nrequires an attack roll that succeeds, and the\nvictim is allowed a saving throw vs. poison.\nIf the latter is unsuccessful, the victim is\nincapacitated and dies in one turn unless the\npoison is magically neutralized or slowed.\nfoot of substancel2 levels\nnurt Door (Alteration)\nSphere: Plant\nRange: Touch\nComponents: V, S, M\nDuration: Special\nCasting Time: 7\nArea of Effect: Special\nSaving Throw: None\nThe pht door spell opens a magical portal\nor passageway through trees, undergrowth,\nthickets, or any similar growth-even\ngrowth of a magical nature. The plant door\nis open to the caster who cast the spell, cast-\ners of a higher level, or dryads; others must\nbe shown the location of the door. The door\neven enables the caster to enter a solid tree\ntrunk and remain hidden there until the\nspell ends. The spell also enables the passage\nor hiding of any man-sized or smaller crea-\nture; hiding is subject to space consider-\nations. If the tree is cut down or burned,\nthose within must leave before the tree falls\nor is consumed, or else they are killed also.\nThe duration of the spell is one turn per level\nof experience of the caster. If the caster opts\nto stay within an oak, the spell lasts nine\ntimes longer, if in an ash tree, it lasts three\ntimes longer than normal. The path created\nby the spell is up to four feet wide, eight feet\nhigh, and 12 feet long per level of experience\nof the caster. This spell does not function on\nplant-based monsters-e.g., shambling\nmounds, molds, slimes, treants, etc.\nThe material components for this spell are\na piece of charcoal and the caster’s holy\nsymbol."
+  },
+  "mechanics": {
+    "school_or_type": "Necromancy",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "POI-",
+      "canonical_name_guess": null,
+      "school_or_type": "Necromancy",
+      "range": "Touch",
+      "components": "V, S",
+      "duration": "Permanent",
+      "casting_time": "7",
+      "area_of_effect": "Creature touched or 1 cubic",
+      "saving_throw": "None",
+      "description_excerpt": "of experience of the caster. If the caster opts to stay within an oak, the spell lasts nine times longer, if in an ash tree, it lasts three times longer than normal. The path created by the spell is up to four feet wide, eight feet high, and 12 feet long per level of experience of the caster. This spell does not function on plant-based monsters-e.g., shambling mounds, molds, slimes, treants, etc. The material components for this spell are a piece of charcoal and the caster’s holy symbol."
+    },
+    "quality_flags": []
+  }
+}

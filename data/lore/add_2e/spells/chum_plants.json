@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "chum_plants",
+  "name": "Chum Plants",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Chum Plants (EnchantmentKhann) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "seventh",
+    "book_pages": [
+      183
+    ],
+    "pdf_pages": [
+      184
+    ],
+    "raw_block": "Chum Plants (EnchantmentKhann)\nRange: 30 yards\nComponents: V, S, M\nDuration: Permanent\nCasting Time: 1 turn\nArea of Effect: Special\nSaving Throw: Neg.\nThe charm plants spell enables the spell-\ncaster to bring under command vegetable\nlife forms and communicate with them.\nThese plants obey instructions to the best.of\ntheir ability. The spell will charm plants in a\n30’ x 10’ area. While the spell does not en-\ndow the vegetation with new abilities, it\ndoes enable the wizard to command the\nplants to use whatever they have in order to\nfulfill his instructions; if the plants in the\narea of effect do have special or unusual\nabilities, these are used as commanded by\nthe wizard. For example, this spell can gen-\nerally duplicate the effects of the 1st-level\npriest spell entangle, if the caster desires.\nThe saving throw applies only to intelligent\nplants, and it is made with a -- 4 penal6 to\nthe die roll.\nThe material components of the soell are\na pinch of humu\ntwig or leaf.\nr: and a"
+  },
+  "mechanics": {
+    "school_or_type": "EnchantmentKhann",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Chum Plants",
+      "canonical_name_guess": "Charm Plants",
+      "school_or_type": "EnchantmentKhann",
+      "range": "30 yards",
+      "components": "V, S, M",
+      "duration": "Permanent",
+      "casting_time": "1 turn",
+      "area_of_effect": "Special",
+      "saving_throw": "Neg.",
+      "description_excerpt": "The charm plants spell enables the spell- caster to bring under command vegetable life forms and communicate with them. These plants obey instructions to the best.of their ability. The spell will charm plants in a 30’ x 10’ area. While the spell does not en- dow the vegetation with new abilities, it does enable the wizard to command the plants to use whatever they have in order to fulfill his instructions; if the plants in the area of effect do have special or unusual abilities, these are used as commanded by the wizard. For example, this spell can gen- erally duplicate the effects of the 1st-level priest spell entangle, if the caster desires. The saving throw applies only to intelligent plants, and it is made with a -- 4 penal6 to the die roll. The material components of the soell are a pinch of humu twig or leaf. r: and a"
+    },
+    "quality_flags": [
+      "canonical_name_guess_applied"
+    ]
+  }
+}

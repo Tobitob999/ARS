@@ -1,20 +1,19 @@
 {
   "metadata": {
-    "name": "AD&D",
-    "version": "2nd Edition",
+    "name": "Advanced Dungeons & Dragons",
+    "version": "2nd Edition (PHB-converted)",
     "system": "add_2e",
-    "schema_version": "1.0.0",
+    "schema_version": "2.6.2",
     "publisher": "TSR",
-    "language": "de",
+    "language": "en",
     "game_master_title": "Dungeon Master",
-    "player_character_title": "Abenteurer"
+    "player_character_title": "Adventurer"
   },
-
   "dice_system": {
     "default_die": "d20",
-    "bonus_penalty_die": "d20",
-    "notes": "d20 roll-under fuer Attributschecks. THAC0-basierter Kampf. Rettungswuerfe roll-under.",
     "check_mode": "roll_under",
+    "bonus_penalty_die": null,
+    "notes": "Ability checks and many subsystem checks use d20 roll-under target values. Combat attack resolution uses THAC0 vs AC lookup.",
     "success_levels": {
       "critical": 1,
       "extreme": 0.25,
@@ -22,75 +21,841 @@
       "fumble": 20
     }
   },
-
   "characteristics": {
-    "STR": { "label": "Staerke",          "roll": "3d6", "multiplier": 1 },
-    "DEX": { "label": "Geschicklichkeit", "roll": "3d6", "multiplier": 1 },
-    "CON": { "label": "Konstitution",     "roll": "3d6", "multiplier": 1 },
-    "INT": { "label": "Intelligenz",      "roll": "3d6", "multiplier": 1 },
-    "WIS": { "label": "Weisheit",         "roll": "3d6", "multiplier": 1 },
-    "CHA": { "label": "Charisma",         "roll": "3d6", "multiplier": 1 }
-  },
-
-  "skills": {
-    "Pick Pockets":       { "base": 30,  "class": "Rogue" },
-    "Open Locks":         { "base": 35,  "class": "Rogue" },
-    "Find/Remove Traps":  { "base": 25,  "class": "Rogue" },
-    "Move Silently":      { "base": 30,  "class": "Rogue" },
-    "Hide in Shadows":    { "base": 25,  "class": "Rogue" },
-    "Hear Noise":         { "base": 30,  "class": "Rogue" },
-    "Climb Walls":        { "base": 80,  "class": "Rogue" },
-    "Read Languages":     { "base": 0,   "class": "Rogue" }
-  },
-
-  "combat": {
-    "hit_points": "HP",
-    "armor_class": {
-      "label": "AC",
-      "direction": "descending"
+    "STR": {
+      "label": "Strength",
+      "roll": "3d6",
+      "multiplier": 1
     },
-    "attack_metric": "THAC0",
-    "attack_rule": "Wurf >= THAC0 - Ziel-AC"
-  },
-
-  "saving_throws": [
-    "Paralyzation/Poison",
-    "Petrification/Polymorph",
-    "Rod/Staff/Wand",
-    "Breath Weapon",
-    "Spell"
-  ],
-
-  "classes": {
-    "Fighter": {
-      "base_weapon_proficiencies": ["Longsword", "Battle Axe", "Spear", "Bow"],
-      "thief_skills": {}
+    "DEX": {
+      "label": "Dexterity",
+      "roll": "3d6",
+      "multiplier": 1
     },
-    "Mage": {
-      "base_weapon_proficiencies": ["Dagger", "Staff", "Dart"],
-      "thief_skills": {}
+    "CON": {
+      "label": "Constitution",
+      "roll": "3d6",
+      "multiplier": 1
     },
-    "Rogue": {
-      "base_weapon_proficiencies": ["Short Sword", "Dagger", "Shortbow"],
-      "thief_skills": {
-        "Pick Pockets": 30,
-        "Open Locks": 35,
-        "Find/Remove Traps": 25,
-        "Move Silently": 30,
-        "Hide in Shadows": 25,
-        "Hear Noise": 30,
-        "Climb Walls": 80,
-        "Read Languages": 0
-      }
+    "INT": {
+      "label": "Intelligence",
+      "roll": "3d6",
+      "multiplier": 1
     },
-    "Cleric": {
-      "base_weapon_proficiencies": ["Mace", "Warhammer", "Flail", "Staff", "Sling"],
-      "thief_skills": {}
+    "WIS": {
+      "label": "Wisdom",
+      "roll": "3d6",
+      "multiplier": 1
+    },
+    "CHA": {
+      "label": "Charisma",
+      "roll": "3d6",
+      "multiplier": 1
     }
   },
-
-  "advancement": {
-    "method": "experience_points",
-    "notes": "XP durch Kampf, Schatz und Quests. Stufenaufstieg gemaess Klassentabelle."
+  "skills": {
+    "Open Doors": {
+      "base": 0,
+      "category": "ability_check",
+      "group": "Strength"
+    },
+    "Bend Bars/Lift Gates": {
+      "base": 0,
+      "category": "ability_check",
+      "group": "Strength"
+    },
+    "Reaction Adjustment": {
+      "base": 0,
+      "category": "social",
+      "group": "Charisma"
+    },
+    "Missile Attack Adjustment": {
+      "base": 0,
+      "category": "combat",
+      "group": "Dexterity"
+    },
+    "Defensive Adjustment": {
+      "base": 0,
+      "category": "combat",
+      "group": "Dexterity"
+    },
+    "Hit Point Adjustment": {
+      "base": 0,
+      "category": "derived",
+      "group": "Constitution"
+    },
+    "System Shock": {
+      "base": 0,
+      "category": "saving_throw",
+      "group": "Constitution"
+    },
+    "Resurrection Survival": {
+      "base": 0,
+      "category": "saving_throw",
+      "group": "Constitution"
+    },
+    "Spell Immunity Chance": {
+      "base": 0,
+      "category": "magic",
+      "group": "Intelligence"
+    },
+    "Spell Level Learned": {
+      "base": 0,
+      "category": "magic",
+      "group": "Intelligence"
+    },
+    "Max Number of Spells per Level": {
+      "base": 0,
+      "category": "magic",
+      "group": "Intelligence"
+    },
+    "Chance to Learn Spell": {
+      "base": 0,
+      "category": "magic",
+      "group": "Intelligence"
+    },
+    "Magical Defense Adjustment": {
+      "base": 0,
+      "category": "saving_throw",
+      "group": "Wisdom"
+    },
+    "Bonus Priest Spells": {
+      "base": 0,
+      "category": "magic",
+      "group": "Wisdom"
+    },
+    "Max Priest Spell Level": {
+      "base": 0,
+      "category": "magic",
+      "group": "Wisdom"
+    },
+    "Tracking": {
+      "base": 0,
+      "class": "ranger",
+      "category": "wilderness"
+    },
+    "Read Languages": {
+      "base": 0,
+      "class": "thief",
+      "category": "rogue"
+    },
+    "Pick Pockets": {
+      "base": 0,
+      "class": "thief",
+      "category": "rogue"
+    },
+    "Open Locks": {
+      "base": 0,
+      "class": "thief",
+      "category": "rogue"
+    },
+    "Find/Remove Traps": {
+      "base": 0,
+      "class": "thief",
+      "category": "rogue"
+    },
+    "Move Silently": {
+      "base": 0,
+      "class": "thief",
+      "category": "rogue"
+    },
+    "Hide in Shadows": {
+      "base": 0,
+      "class": "thief",
+      "category": "rogue"
+    },
+    "Hear Noise": {
+      "base": 0,
+      "class": "thief",
+      "category": "rogue"
+    },
+    "Climb Walls": {
+      "base": 0,
+      "class": "thief",
+      "category": "rogue"
+    },
+    "Detect Noise": {
+      "base": 0,
+      "category": "perception"
+    },
+    "Direction Sense": {
+      "base": 0,
+      "category": "wilderness"
+    },
+    "Swimming": {
+      "base": 0,
+      "category": "movement"
+    },
+    "Climbing": {
+      "base": 0,
+      "category": "movement"
+    },
+    "Nonweapon Proficiency Check": {
+      "base_formula": "attribute dependent",
+      "category": "proficiency"
+    }
+  },
+  "derived_stats": {
+    "HP": {
+      "label": "Hit Points",
+      "formula": "class_hit_die + constitution_adjustment by level"
+    },
+    "AC": {
+      "label": "Armor Class",
+      "formula": "base 10 modified by armor/shield/dexterity/magic"
+    },
+    "THAC0": {
+      "label": "To Hit Armor Class 0",
+      "formula": "class-level progression table"
+    },
+    "Movement": {
+      "label": "Combat Movement",
+      "formula": "race/base movement modified by encumbrance"
+    },
+    "Saving Throws": {
+      "label": "Class Saving Throw Categories",
+      "formula": "class-level table + modifiers"
+    }
+  },
+  "attribute_bonuses": {
+    "STR": {
+      "table_reference": "PHB Table 1"
+    },
+    "DEX": {
+      "table_reference": "PHB Table 2"
+    },
+    "CON": {
+      "table_reference": "PHB Table 3 + Table 9"
+    },
+    "INT": {
+      "table_reference": "PHB Table 4"
+    },
+    "WIS": {
+      "table_reference": "PHB Table 5"
+    },
+    "CHA": {
+      "table_reference": "PHB Table 6"
+    }
+  },
+  "races": {
+    "dwarf": {
+      "size": "M",
+      "movement": 6,
+      "notes": "Demihuman race with class restrictions and level limits."
+    },
+    "elf": {
+      "size": "M",
+      "movement": 12,
+      "notes": "Keen senses, resistance traits, class restrictions."
+    },
+    "gnome": {
+      "size": "S",
+      "movement": 6,
+      "notes": "Illusion affinity and race-specific traits."
+    },
+    "half_elf": {
+      "size": "M",
+      "movement": 12,
+      "notes": "Hybrid options and broad class access."
+    },
+    "halfling": {
+      "size": "S",
+      "movement": 6,
+      "notes": "Stealth and missile bonuses."
+    },
+    "human": {
+      "size": "M",
+      "movement": 12,
+      "notes": "No level limits in standard PHB baseline."
+    }
+  },
+  "classes": {
+    "warrior": {
+      "group": "warrior",
+      "hit_die": "d10",
+      "subclasses": [
+        "fighter",
+        "paladin",
+        "ranger"
+      ],
+      "core_features": [
+        "best THAC0 progression",
+        "broad weapon/armor access"
+      ]
+    },
+    "wizard": {
+      "group": "wizard",
+      "hit_die": "d4",
+      "subclasses": [
+        "mage",
+        "specialist_wizard",
+        "illusionist"
+      ],
+      "core_features": [
+        "arcane spellcasting",
+        "spellbook and memorization"
+      ]
+    },
+    "priest": {
+      "group": "priest",
+      "hit_die": "d8",
+      "subclasses": [
+        "cleric",
+        "druid",
+        "priest_of_specific_mythos"
+      ],
+      "core_features": [
+        "divine spellcasting by spheres",
+        "turn undead (cleric variants)"
+      ]
+    },
+    "rogue": {
+      "group": "rogue",
+      "hit_die": "d6",
+      "subclasses": [
+        "thief",
+        "bard"
+      ],
+      "core_features": [
+        "thief skills",
+        "backstab",
+        "utility and social breadth"
+      ]
+    },
+    "multi_class": {
+      "notes": "Demihuman characters may combine classes; XP split among classes."
+    },
+    "dual_class": {
+      "notes": "Humans may switch classes under strict progression constraints."
+    }
+  },
+  "combat": {
+    "initiative": {
+      "default": "group initiative by d10 each round (lowest acts first by DM convention where used)",
+      "optional_modes": [
+        "individual initiative",
+        "weapon speed modifiers",
+        "casting time modifiers"
+      ]
+    },
+    "attack_resolution": {
+      "model": "d20 + modifiers vs target number derived from THAC0 and defender AC",
+      "core_terms": [
+        "THAC0",
+        "AC",
+        "attack modifiers",
+        "situational modifiers"
+      ]
+    },
+    "actions_per_round": {
+      "baseline": "one principal action, movement allowed per round with restrictions",
+      "special": [
+        "multiple attacks by class/level",
+        "off-hand attacks",
+        "charge",
+        "retreat"
+      ]
+    },
+    "nonlethal": {
+      "systems": [
+        "punching",
+        "wrestling",
+        "overbearing"
+      ]
+    },
+    "missile_combat": {
+      "fields": [
+        "range categories",
+        "rate_of_fire",
+        "cover modifiers",
+        "firing_into_melee"
+      ]
+    },
+    "saving_throw_in_combat": {
+      "categories": [
+        "paralyzation_poison_death_magic",
+        "rod_staff_wand",
+        "petrification_polymorph",
+        "breath_weapon",
+        "spell"
+      ]
+    },
+    "flow": [
+      "encounter_state_and_surprise",
+      "declare_intentions",
+      "roll_initiative",
+      "resolve_movement",
+      "resolve_actions_attacks_spells_items",
+      "apply_damage_saving_throws_status",
+      "check_morale_and_end_of_round_effects"
+    ],
+    "references": {
+      "subsystem_file": "data/lore/add_2e/mechanics/combat_system.json",
+      "chapter_file": "data/lore/add_2e/chapters/chapter_09_combat.json"
+    }
+  },
+  "saving_throws": {
+    "categories": [
+      "paralyzation_poison_death_magic",
+      "rod_staff_wand",
+      "petrification_polymorph",
+      "breath_weapon",
+      "spell"
+    ],
+    "tables": {
+      "class_progression": "see PHB Table 60 and class tables"
+    }
+  },
+  "magic": {
+    "arcane": {
+      "schools": [
+        "abjuration",
+        "alteration",
+        "conjuration_summoning",
+        "divination",
+        "enchantment_charm",
+        "illusion_phantasm",
+        "invocation_evocation",
+        "necromancy"
+      ],
+      "specialist_wizards": "specialist access and opposition schools apply"
+    },
+    "divine": {
+      "spheres": [
+        "all",
+        "animal",
+        "charm",
+        "combat",
+        "creation",
+        "divination",
+        "elemental",
+        "guardian",
+        "healing",
+        "necromantic",
+        "plant",
+        "protection",
+        "summoning",
+        "sun",
+        "weather"
+      ],
+      "granting": "sphere access by priest type and deity/mythos"
+    },
+    "casting": {
+      "preparation": "memorization from spellbook/prayer",
+      "components": [
+        "verbal",
+        "somatic",
+        "material"
+      ],
+      "casting_time": "round/segment based in combat context",
+      "disruption": "damage before completion disrupts spell by default"
+    },
+    "research": {
+      "wizard": "magical research rules for custom/new spells",
+      "priest": "faith and sphere restrictions on innovation"
+    },
+    "references": {
+      "subsystem_file": "data/lore/add_2e/mechanics/magic_system.json",
+      "chapter_file": "data/lore/add_2e/chapters/chapter_07_magic.json",
+      "spell_index": "data/lore/add_2e/indices/spell_index.json"
+    }
+  },
+  "alignment": {
+    "axes": [
+      "law_chaos",
+      "good_evil"
+    ],
+    "combinations": [
+      "lawful_good",
+      "neutral_good",
+      "chaotic_good",
+      "lawful_neutral",
+      "true_neutral",
+      "chaotic_neutral",
+      "lawful_evil",
+      "neutral_evil",
+      "chaotic_evil"
+    ],
+    "effects": "class and roleplay constraints by ethos"
+  },
+  "movement": {
+    "base_rates": "race and encumbrance determine base movement",
+    "combat": "movement options include melee movement, charge, retreat",
+    "special": [
+      "jogging",
+      "running",
+      "swimming",
+      "climbing"
+    ],
+    "references": {
+      "subsystem_file": "data/lore/add_2e/mechanics/time_movement_system.json",
+      "chapter_file": "data/lore/add_2e/chapters/chapter_14_time_and_movement.json"
+    }
+  },
+  "encumbrance": {
+    "model": "weight carried modifies movement and combat capability",
+    "tables_reference": [
+      "Table 47",
+      "Table 48",
+      "Table 49",
+      "Table 50"
+    ]
+  },
+  "economy": {
+    "currencies": [
+      "cp",
+      "sp",
+      "ep",
+      "gp",
+      "pp"
+    ],
+    "exchange_rates": "see Table 42",
+    "starting_funds": "see Table 43 by class"
+  },
+  "conditions": {
+    "damage_types": [
+      "normal",
+      "critical context via DM adjudication",
+      "nonlethal"
+    ],
+    "status_effects": [
+      "paralysis",
+      "energy_drain",
+      "poison",
+      "fear",
+      "blindness_contextual"
+    ]
+  },
+  "healing": {
+    "natural": "daily natural healing by rest and care",
+    "magical": "priest spells and magical effects",
+    "death_and_return": [
+      "massive_damage",
+      "death_threshold",
+      "raise_dead/resurrection with system shock context"
+    ]
+  },
+  "experience": {
+    "group_awards": "encounter and goal based XP",
+    "individual_awards": "class and roleplay specific XP opportunities",
+    "training": "DM-controlled progression/training requirements optional",
+    "references": {
+      "subsystem_file": "data/lore/add_2e/mechanics/experience_system.json",
+      "chapter_file": "data/lore/add_2e/chapters/chapter_08_experience.json"
+    }
+  },
+  "time": {
+    "combat_round": "1 minute round abstraction in 2e combat model",
+    "turn": "10-minute turn for exploration context",
+    "longer_scales": [
+      "hours",
+      "days",
+      "downtime"
+    ],
+    "references": {
+      "subsystem_file": "data/lore/add_2e/mechanics/time_movement_system.json",
+      "chapter_file": "data/lore/add_2e/chapters/chapter_14_time_and_movement.json"
+    }
+  },
+  "senses": {
+    "vision_limits": "ambient light and distance constraints",
+    "light_sources": "torch/lantern/magic light radii",
+    "infravision": "demihuman low-light perception model",
+    "references": {
+      "subsystem_file": "data/lore/add_2e/vision/vision_light_system.json",
+      "chapter_file": "data/lore/add_2e/chapters/chapter_13_vision_and_light.json"
+    }
+  },
+  "travel": {
+    "overland": "cross-country movement rates by terrain and load",
+    "encounter_integration": "surprise and encounter distance influence opening state"
+  },
+  "henchmen_hirelings": {
+    "hirelings": "paid NPC support",
+    "henchmen": "loyal followers with relationship obligations",
+    "followers": "class features at stronghold tiers"
+  },
+  "downtime": {
+    "training": "level advancement training and cost/time controls",
+    "research": "spell/magical research and related logistics",
+    "maintenance": "equipment, stronghold, and retainer management"
+  },
+  "extensions": {
+    "source_book": "Player's Handbook (2nd Edition)",
+    "conversion_mode": "full_book_conversion_with_lossless_page_archive",
+    "source_archives": {
+      "fulltext_pages": "data/lore/add_2e/fulltext/page_###.json",
+      "chapter_files": [
+        {
+          "chapter": 0,
+          "slug": "intro_and_glossary",
+          "book_page_start": 8,
+          "book_page_end": 12,
+          "file": "data/lore/add_2e/chapters/chapter_00_intro_and_glossary.json"
+        },
+        {
+          "chapter": 1,
+          "slug": "player_character_ability_scores",
+          "book_page_start": 13,
+          "book_page_end": 19,
+          "file": "data/lore/add_2e/chapters/chapter_01_player_character_ability_scores.json"
+        },
+        {
+          "chapter": 2,
+          "slug": "player_character_races",
+          "book_page_start": 20,
+          "book_page_end": 24,
+          "file": "data/lore/add_2e/chapters/chapter_02_player_character_races.json"
+        },
+        {
+          "chapter": 3,
+          "slug": "player_character_classes",
+          "book_page_start": 25,
+          "book_page_end": 45,
+          "file": "data/lore/add_2e/chapters/chapter_03_player_character_classes.json"
+        },
+        {
+          "chapter": 4,
+          "slug": "alignment",
+          "book_page_start": 46,
+          "book_page_end": 50,
+          "file": "data/lore/add_2e/chapters/chapter_04_alignment.json"
+        },
+        {
+          "chapter": 5,
+          "slug": "proficiencies_optional",
+          "book_page_start": 51,
+          "book_page_end": 65,
+          "file": "data/lore/add_2e/chapters/chapter_05_proficiencies_optional.json"
+        },
+        {
+          "chapter": 6,
+          "slug": "money_and_equipment",
+          "book_page_start": 66,
+          "book_page_end": 79,
+          "file": "data/lore/add_2e/chapters/chapter_06_money_and_equipment.json"
+        },
+        {
+          "chapter": 7,
+          "slug": "magic",
+          "book_page_start": 80,
+          "book_page_end": 87,
+          "file": "data/lore/add_2e/chapters/chapter_07_magic.json"
+        },
+        {
+          "chapter": 8,
+          "slug": "experience",
+          "book_page_start": 88,
+          "book_page_end": 88,
+          "file": "data/lore/add_2e/chapters/chapter_08_experience.json"
+        },
+        {
+          "chapter": 9,
+          "slug": "combat",
+          "book_page_start": 89,
+          "book_page_end": 106,
+          "file": "data/lore/add_2e/chapters/chapter_09_combat.json"
+        },
+        {
+          "chapter": 10,
+          "slug": "treasure",
+          "book_page_start": 107,
+          "book_page_end": 110,
+          "file": "data/lore/add_2e/chapters/chapter_10_treasure.json"
+        },
+        {
+          "chapter": 11,
+          "slug": "encounters",
+          "book_page_start": 111,
+          "book_page_end": 113,
+          "file": "data/lore/add_2e/chapters/chapter_11_encounters.json"
+        },
+        {
+          "chapter": 12,
+          "slug": "npcs",
+          "book_page_start": 114,
+          "book_page_end": 116,
+          "file": "data/lore/add_2e/chapters/chapter_12_npcs.json"
+        },
+        {
+          "chapter": 13,
+          "slug": "vision_and_light",
+          "book_page_start": 117,
+          "book_page_end": 118,
+          "file": "data/lore/add_2e/chapters/chapter_13_vision_and_light.json"
+        },
+        {
+          "chapter": 14,
+          "slug": "time_and_movement",
+          "book_page_start": 119,
+          "book_page_end": 125,
+          "file": "data/lore/add_2e/chapters/chapter_14_time_and_movement.json"
+        }
+      ],
+      "appendix_files": [
+        {
+          "appendix": 1,
+          "slug": "spell_use",
+          "book_page_start": 126,
+          "book_page_end": 128,
+          "file": "data/lore/add_2e/appendices/appendix_01_spell_use.json"
+        },
+        {
+          "appendix": 2,
+          "slug": "notes_on_spells",
+          "book_page_start": 129,
+          "book_page_end": 130,
+          "file": "data/lore/add_2e/appendices/appendix_02_notes_on_spells.json"
+        },
+        {
+          "appendix": 3,
+          "slug": "wizard_spells",
+          "book_page_start": 131,
+          "book_page_end": 197,
+          "file": "data/lore/add_2e/appendices/appendix_03_wizard_spells.json"
+        },
+        {
+          "appendix": 4,
+          "slug": "priest_spells",
+          "book_page_start": 198,
+          "book_page_end": 237,
+          "file": "data/lore/add_2e/appendices/appendix_04_priest_spells.json"
+        },
+        {
+          "appendix": 5,
+          "slug": "wizard_spells_by_school",
+          "book_page_start": 238,
+          "book_page_end": 239,
+          "file": "data/lore/add_2e/appendices/appendix_05_wizard_spells_by_school.json"
+        },
+        {
+          "appendix": 6,
+          "slug": "priest_spells_by_sphere",
+          "book_page_start": 240,
+          "book_page_end": 241,
+          "file": "data/lore/add_2e/appendices/appendix_06_priest_spells_by_sphere.json"
+        },
+        {
+          "appendix": 7,
+          "slug": "spell_index",
+          "book_page_start": 242,
+          "book_page_end": 243,
+          "file": "data/lore/add_2e/appendices/appendix_07_spell_index.json"
+        },
+        {
+          "appendix": 8,
+          "slug": "compiled_character_generation_tables",
+          "book_page_start": 244,
+          "book_page_end": 248,
+          "file": "data/lore/add_2e/appendices/appendix_08_compiled_character_generation_tables.json"
+        },
+        {
+          "appendix": 9,
+          "slug": "index",
+          "book_page_start": 249,
+          "book_page_end": 258,
+          "file": "data/lore/add_2e/appendices/appendix_09_index.json"
+        }
+      ],
+      "table_index": "data/lore/add_2e/tables/phb_table_index.json",
+      "spell_index": "data/lore/add_2e/indices/spell_index.json"
+    },
+    "completeness_note": "No source page omitted: every PDF page stored lossless in fulltext/page_*.json and grouped into chapter/appendix files.",
+    "conversion_quality": {
+      "spell_extraction": "v2_header_block_raw_text",
+      "table_extraction": "v2_toc_and_page_excerpt",
+      "qa_report": "data/lore/add_2e/indices/conversion_qa_report.json"
+    },
+    "core_chapter_subsystems": {
+      "character": "data/lore/add_2e/mechanics/character_system.json",
+      "combat": "data/lore/add_2e/mechanics/combat_system.json",
+      "equipment": "data/lore/add_2e/mechanics/equipment_system.json",
+      "scope_map": "data/lore/add_2e/indices/chapter_scope_map.json",
+      "magic": "data/lore/add_2e/mechanics/magic_system.json",
+      "experience": "data/lore/add_2e/mechanics/experience_system.json",
+      "time_movement": "data/lore/add_2e/mechanics/time_movement_system.json",
+      "treasure": "data/lore/add_2e/treasure/treasure_system.json",
+      "encounters": "data/lore/add_2e/encounters/encounter_system.json",
+      "npcs": "data/lore/add_2e/npcs/npc_relations_system.json",
+      "vision_light": "data/lore/add_2e/vision/vision_light_system.json"
+    },
+    "chapter_deep_models": {
+      "class_blueprints": "data/lore/add_2e/characters/class_blueprints.json",
+      "combat_reference": "data/lore/add_2e/combat/combat_reference_tables.json",
+      "equipment_catalog_raw": "data/lore/add_2e/equipment/equipment_catalog_raw.json"
+    },
+    "appendix_normalization_v3": {
+      "spell_index": "data/lore/add_2e/indices/spell_index.json",
+      "spell_alias_map": "data/lore/add_2e/indices/spell_alias_map.json",
+      "table_index": "data/lore/add_2e/tables/phb_table_index.json",
+      "spell_parser": "header_block_v3_1",
+      "table_coverage": "67/67"
+    }
+  },
+  "character_creation": {
+    "ability_generation": {
+      "default": "3d6 per ability",
+      "alternate_methods": "see PHB Chapter 1",
+      "ability_check": "d20 roll-under ability score"
+    },
+    "race_and_class_step_order": [
+      "roll_abilities",
+      "choose_race",
+      "choose_class",
+      "apply_alignment",
+      "assign_proficiencies",
+      "buy_equipment",
+      "finalize_derived_stats"
+    ],
+    "references": {
+      "subsystem_file": "data/lore/add_2e/mechanics/character_system.json",
+      "chapter_file": "data/lore/add_2e/chapters/chapter_03_player_character_classes.json"
+    }
+  },
+  "equipment": {
+    "economy": {
+      "standard_coinage": [
+        "cp",
+        "sp",
+        "ep",
+        "gp",
+        "pp"
+      ],
+      "exchange": {
+        "10cp": "1sp",
+        "5sp": "1ep",
+        "2ep": "1gp",
+        "5gp": "1pp"
+      },
+      "starting_funds": {
+        "warrior": "5d4 x 10 gp",
+        "wizard": "(1d4+1) x 10 gp",
+        "priest": "3d6 x 10 gp",
+        "rogue": "2d6 x 10 gp"
+      }
+    },
+    "encumbrance_model": "table_based_optional",
+    "references": {
+      "subsystem_file": "data/lore/add_2e/mechanics/equipment_system.json",
+      "chapter_file": "data/lore/add_2e/chapters/chapter_06_money_and_equipment.json"
+    }
+  },
+  "treasure": {
+    "references": {
+      "subsystem_file": "data/lore/add_2e/treasure/treasure_system.json",
+      "chapter_file": "data/lore/add_2e/chapters/chapter_10_treasure.json"
+    }
+  },
+  "encounters": {
+    "references": {
+      "subsystem_file": "data/lore/add_2e/encounters/encounter_system.json",
+      "chapter_file": "data/lore/add_2e/chapters/chapter_11_encounters.json"
+    }
+  },
+  "npcs": {
+    "references": {
+      "subsystem_file": "data/lore/add_2e/npcs/npc_relations_system.json",
+      "chapter_file": "data/lore/add_2e/chapters/chapter_12_npcs.json"
+    }
   }
 }

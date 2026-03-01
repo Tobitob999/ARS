@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "time_stop",
+  "name": "Time Stop",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Time Stop (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "ninth",
+    "book_pages": [
+      197
+    ],
+    "pdf_pages": [
+      198
+    ],
+    "raw_block": "Time Stop (Alteration)\nRange: 0\nComponents: V\nDuration: Special\nCasting Time: 9\nArea of Effect: 15-foot-radius sphere\nSaving Throw: None\nUpon casting a time stop spell, the wizard\ncauses the flow of time to stop for one round\nin the area of effect. Outside this area the\nsphere simply seems to shimmer for an\ninstant. Inside the sphere, the caster is free\nto act for ld3 rounds of apparent time. The\nwizard can move and act freely within the\narea where time is stopped, but all other\ncreatures, except for those of demigod and\ngreater status or unique creatures, are fro-\nzen in their actions, for they are literally\nbetween ticks of the time clock. (The spell\nduration is subjective to the caster.) Notlung\ncan enter the area of effect without being\nstopped in time also. If the wizard leaves the\narea, the spell is immediately negated.\nWhen the spell duration ceases, the wizard\nis again operating in normal time.\nNote: It is recommended that the DM use\na stop watch or silently count to time this\nspell. If the caster is unable to complete the\nintended action before the spell duration\nexpires, he will probably be caught in an\nembarrassing situation. The use of a tele-\nuort spell before the expiration of the time\nitop spell is permissible.\nWeird WusionlPhantasrn)\nRange: 30 yards\nZomponents: V, S\nhration: Concentration\nZasting Time: 9\nkea of Effect: 2Gfoot radius\nSaving Throw: Special\nThis spell confronts those affected by it\nvith phantasmal images of their most feared\naemies, forcing an imaginary combat that\nems real, but actually occurs in the blink\npf an eye. When this spell is cast, the wizard\nnust be able to converse with the victim to\niring the spell into being. During the cast-\nng, the wizard must call out to the creatures\nD be affected, informing one or all that their\ninal fate, indeed their doom, is now upon\nhem.\nThe force of the magic is such that even if\nle creatures make their saving throws vs.\nwll, fear will paralyze them for a full\nround, and they will lose ld4 Strength\npoints from this fear (the lost Strength will\nreturn in one turn). Failure to save vs. spell\ncauses the creature or creatures to face their\nnemeses, the opponents most feared and\ninimical to them. Actual combat must then\ntake place, for no magical means of escape is\npossible. The foe fought is real for all intents\nand purposes. Affected creatures that lose,\ndie. If a creature’s phantasmal nemesis from\nthe weird spell is slain, then the creature\nemerges with no damage, no loss of items\nseemingly used in the combat, and no loss of\nspells likewise seemingly expended. Ejcperi-\nence for defeating the weird is gained if\napplicable. Although each round of combat\nseems normal, it takes but 1/10 of a round.\nDuring the course of the spell, the caster\nmust concentrate fully upon maintaining it.\nIf the combat goes beyond ten rounds, thaw\nwho saved against the spell can take action.\nIf the caster is disturbed, the weird spdl\nends immediately. Creatures attacked while\nparalyzed with fear are free of the paralysis\nimmediately."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Time Stop",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "0",
+      "components": "V",
+      "duration": "Special",
+      "casting_time": "9",
+      "area_of_effect": "15-foot-radius sphere",
+      "saving_throw": "None",
+      "description_excerpt": "This spell confronts those affected by it vith phantasmal images of their most feared aemies, forcing an imaginary combat that ems real, but actually occurs in the blink pf an eye. When this spell is cast, the wizard nust be able to converse with the victim to iring the spell into being. During the cast- ng, the wizard must call out to the creatures D be affected, informing one or all that their inal fate, indeed their doom, is now upon hem. The force of the magic is such that even if le creatures make their saving throws vs. wll, fear will paralyze them for a full round, and they will lose ld4 Strength points from this fear (the lost Strength will return in one turn). Failure to save vs. spell causes the creature or creatures to face their nemeses, the opponents most feared and inimical to them. Actual combat must then take place, for no magical means of escape is possible. The foe foug"
+    },
+    "quality_flags": []
+  }
+}

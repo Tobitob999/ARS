@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "sink",
+  "name": "Sink",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Sink (Enchantment, Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "eighth",
+    "book_pages": [
+      192
+    ],
+    "pdf_pages": [
+      193
+    ],
+    "raw_block": "Sink (Enchantment, Alteration)\nRange: 10 yarddlevel\nComponents: V, S\nDuration: Special\nCasting Time: 8\nArea of Effect: 1 creature or 1 object of 1 cu-\nbic foot/level\nSaving Throw: Special\nBy means of this spell, a wizard can force\na creature or object into the very earth or\nfloor upon which it stands. When casting\nthe spell, the wizard must chant the spell for\nthe remainder of the round without inter-\nruption. At that juncture, the subject crea-\nture or object becomes rooted to the spot\nunless a sa4ing throw vs. spell (for a crea-\nture) or a saving throw vs. disintegration\n(for an object with magical properties) is\nsuccessful. (Note: \"magical properties\" in-\nclude those of magical items as listed in the\nDungeon MasterS Guide, those of items en-\nchanted or otherwise of magical origin, and\nthose of items with protection-type spells or\nwith permanent magical properties or simi-\nlar spells upon them.) Items of a nonmagical\nnature are not entitled to a saving throw.\nThe subject becomes of slightly greater den-\nsity than the surface upon which it stands if\nits saving throw was not successful.\nThe spellcaster now has the option of\nceasing his spell and leaving the subject as it\nis, in which case the spell expires in four\nturns, and the subject returns to normal, If\nthe caster proceeds with the spell (into the\nnext round), the subject begins to sink\nslowly into the ground. Before any actions\nare taken in the new round, the subject sinks\nonequarter of its height; after the fit\ngroup acts, another onequarter; after the\nsecond group acts, another; at the end of the\nround, the victim is totally sunken into the\nground.\nThis entombment places a creature or ob-\nject into a state of suspended animation.\nThe cessation of time means that the subject\ndoes not grow older. Bodily and other func-\ntions virtually cease, but the subject is oth-\nerwise unharmed. The subject exists in\nundamaged form in the surface into which it\nwas sunk, its upper point as far beneath the\nsurface as the subject has height-a six-foot-\ntall victim will be six feet beneath the sur-\nface, while a 60-foot-tall subject will have\nits uppermost point 60 feet below ground\nlevel. If the ground around the subject is\nsomehow removed, the spell is broken and\nthe subject returns to normal, but it does not\nrise up. Such spells as dig, transmute rock to\nmud, and freedom (reverse of the 9th-level\nimprisonment spell) will not harm the\nsunken creature or object and will aften be\nhelpful in recovering it. If a detect magic\nspell is cast over an area upon which a sink\nspell was used, it reveals a faint magical\naura of definable nature, even if the sub-\nject is beyond detection rangk. If the subject\nis within range of the detection, the spell's\nschools can be discovered (alteration and\nenchantment).\n1 92\n. .. ..."
+  },
+  "mechanics": {
+    "school_or_type": "Enchantment, Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Sink",
+      "canonical_name_guess": null,
+      "school_or_type": "Enchantment, Alteration",
+      "range": "10 yarddlevel",
+      "components": "V, S",
+      "duration": "Special",
+      "casting_time": "8",
+      "area_of_effect": "1 creature or 1 object of 1 cu-",
+      "saving_throw": "Special",
+      "description_excerpt": "By means of this spell, a wizard can force a creature or object into the very earth or floor upon which it stands. When casting the spell, the wizard must chant the spell for the remainder of the round without inter- ruption. At that juncture, the subject crea- ture or object becomes rooted to the spot unless a sa4ing throw vs. spell (for a crea- ture) or a saving throw vs. disintegration (for an object with magical properties) is successful. (Note: \"magical properties\" in- clude those of magical items as listed in the Dungeon MasterS Guide, those of items en- chanted or otherwise of magical origin, and those of items with protection-type spells or with permanent magical properties or simi- lar spells upon them.) Items of a nonmagical nature are not entitled to a saving throw. The subject becomes of slightly greater den- sity than the surface upon which it stands if its saving throw was "
+    },
+    "quality_flags": []
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "remove_curse",
+  "name": "Remove Curse",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Remove Curse (Abjuration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "third",
+    "book_pages": [
+      213
+    ],
+    "pdf_pages": [
+      214
+    ],
+    "raw_block": "Remove Curse (Abjuration)\nReversible\nSphere: Protection\nRange: Touch\nComponents: V, S\nDuration: Permanent\nCasting Time: 6\nArea of Effect: Special\nSaving Throw: Special\nUpon casting this spell, the priest is usu-\nally able to remove a curse on an object, on\na person, or in the form of some undesired\nsending or evil presence. Note that the re-\nmoue curse spell does not remove the curse\nfrom a cursed shield, weapon, or suit of ar-\nmor, for example, although the spell typi-\ncally enables the person afflicted with any\nsuch cursed item to get rid of it. Certain spe-\ncial curses may not be countered by this\nspell, or may be countered only by a caster\nof a certain level or more. A caster of 12th\nlevel or more can cure lycanthropy with this\nspell by casting it on the animal form. The\nwere-creature receives a saving throw vs.\nspell and, if successful, the spell fails and the\npriest must gain a level before attempting\nthe remedy on this creature again.\nThe reverse of the spell is not permanent;\nthe bestow curse spell lasts for one turn for\nevery experience level of the priest using the\nspell. The curse can have one of the follow-\ning effects (roll percentile dice): 50% of the\ntime it reduces one ability of the victim to 3\n(the DM randomly determines which abil-\nity); 25% of the time it lowers the victim's\nattack and saving throw rolls by -4; 25%\nof the time it makes the victim 50% likely to\ndrop whatever he is holding (or do nothing,\nin the case of creatures not using tools)-\nroll each round.\nIt is possible for a priest to devise his own\ncurse, and it should be similar in power to\nthose given here. Consult your DM. The\nsubject of a bestow curse spell must be\ntouched. If the victim is touched, a saving\nthrow is still applicable; if it is successful,\nthe effect is negated. The bestowed curse\ncannot be dispelled."
+  },
+  "mechanics": {
+    "school_or_type": "Abjuration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Remove Curse",
+      "canonical_name_guess": null,
+      "school_or_type": "Abjuration",
+      "range": "Touch",
+      "components": "V, S",
+      "duration": "Permanent",
+      "casting_time": "6",
+      "area_of_effect": "Special",
+      "saving_throw": "Special",
+      "description_excerpt": "Upon casting this spell, the priest is usu- ally able to remove a curse on an object, on a person, or in the form of some undesired sending or evil presence. Note that the re- moue curse spell does not remove the curse from a cursed shield, weapon, or suit of ar- mor, for example, although the spell typi- cally enables the person afflicted with any such cursed item to get rid of it. Certain spe- cial curses may not be countered by this spell, or may be countered only by a caster of a certain level or more. A caster of 12th level or more can cure lycanthropy with this spell by casting it on the animal form. The were-creature receives a saving throw vs. spell and, if successful, the spell fails and the priest must gain a level before attempting the remedy on this creature again. The reverse of the spell is not permanent; the bestow curse spell lasts for one turn for every experience level "
+    },
+    "quality_flags": []
+  }
+}

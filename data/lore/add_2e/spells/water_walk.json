@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "water_walk",
+  "name": "Water Walk",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Water Walk (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "third",
+    "book_pages": [
+      215
+    ],
+    "pdf_pages": [
+      216
+    ],
+    "raw_block": "Water Walk (Alteration)\nSphere: Elemental (Water)\nRange: Touch\nComponents: V, S, M\nDuration: 1 turn + 1 turn/levei\nCasting Time: 6\nArea of Effect: Special\nSaving Throw None\nBy means of this spell, the caster is able to\nempower one or more creatures to tread\nupon any liquid as if it were firm ground;\nthis includes mud, quicksand, oil, running\nwater, and snow. The recipient's feet do not\ntouch the surface of the liquid, but oval\ndepressions of his appropriate foot size and\ntwo inches deep are left in the mud or snow.\nThe recipient's rate of movement remains\nnormal. If cast underwater, the recipient is\nborne toward the surface.\nFor every level of the caster above the\nminimum required to cast the spell (5th\nlevel), he can affect another creature.\nThe material components for this spell are\na piece of cork and the priest's holy symbol.\nFourth-Level Spells"
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Water Walk",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "1 turn + 1 turn/levei",
+      "casting_time": "6",
+      "area_of_effect": "Special",
+      "saving_throw": null,
+      "description_excerpt": "Saving Throw None By means of this spell, the caster is able to empower one or more creatures to tread upon any liquid as if it were firm ground; this includes mud, quicksand, oil, running water, and snow. The recipient's feet do not touch the surface of the liquid, but oval depressions of his appropriate foot size and two inches deep are left in the mud or snow. The recipient's rate of movement remains normal. If cast underwater, the recipient is borne toward the surface. For every level of the caster above the minimum required to cast the spell (5th level), he can affect another creature. The material components for this spell are a piece of cork and the priest's holy symbol. Fourth-Level Spells"
+    },
+    "quality_flags": [
+      "missing_standard_fields"
+    ]
+  }
+}

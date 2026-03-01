@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "dream",
+  "name": "Dream",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Dream (Invocation, IllusiodPhantasm) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      168
+    ],
+    "pdf_pages": [
+      169
+    ],
+    "raw_block": "Dream (Invocation, IllusiodPhantasm)\nReversible\nRange: Touch\nComponents: V, S\nDuration Spefial\nCasting Time: 1 turn\nArea of Effect: 1 creatu\nSaving Throw: None\nThe dream spell enables the caster, or a\nmessenger touched by the caster, to send\nmessages to others in the form of dreams. At\nthe beginning of the spell, the caster must\nname the recipient or identify him by some\ntitle that leaves no doubt as to his identity.\nAs the caster completes the spell, the per-\nson sending the spell falls into a deep trance-\nlike sleep, and instantaneously projects his\nmind to the recipient. The sender then en-\nters the recipient's dream and delivers the\nmessage unless the recipient is magically\nprotected. If the recipient is awake, the mes-\nsage sender can choose to remain in the\ntrancelike sleep. If the sender is disturbed\nduring this time, the spell is immediately\ncancelled and the sender comes out of the\ntrance. The whereabouts and current activi-\nties of the recipient cannot be learned\nthrough this spell.\nThe sender is unaware of his own sur-\nroundings or the activities around him while\nhe is in his trance. He is totally defenseless,\nboth physically and mentally (i.e., he al-\nways fails any saving throw) while in the\ntrance.\nOnce the recipient's dreams are entered,\nthe sender can deliver a message of any\nlength, which the recipient remembers per-\nfectly upon waking. The communication is\none-way, the recipient cannot ask questions\nor offer information. Nor can the sender\ngain any information by observing the\ndreams of the recipient. Once the message is\ndelivered, the sender's mind returns in-\nstantly to his body. The duration of the spell\nis the time required for the sender to enter\nthe recipient's dream and deliver the mes-\nsage.\nThe reverse of this spell, nightmare, en-\nables the caster to send a hideous and unset-\ntling vision to the recipient, who is allowed\na saving throw vs. spell to avoid the effect.\nThe nightmare prevents restful sleep and\ncauses Id10 hit points of damage. The\nnightmare leaves the recipient fatigued and\nunable to regain spells for the next day. A\ndispel evil spell cast upon the recipient stuns\nthe caster of the nightmare for one turn per\nlevel of the cleric countering this evil send-\ning."
+  },
+  "mechanics": {
+    "school_or_type": "Invocation, IllusiodPhantasm",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Dream",
+      "canonical_name_guess": null,
+      "school_or_type": "Invocation, IllusiodPhantasm",
+      "range": "Touch",
+      "components": "V, S",
+      "duration": "Spefial",
+      "casting_time": "1 turn",
+      "area_of_effect": "1 creatu",
+      "saving_throw": "None",
+      "description_excerpt": "is the time required for the sender to enter the recipient's dream and deliver the mes- sage. The reverse of this spell, nightmare, en- ables the caster to send a hideous and unset- tling vision to the recipient, who is allowed a saving throw vs. spell to avoid the effect. The nightmare prevents restful sleep and causes Id10 hit points of damage. The nightmare leaves the recipient fatigued and unable to regain spells for the next day. A dispel evil spell cast upon the recipient stuns the caster of the nightmare for one turn per level of the cleric countering this evil send- ing."
+    },
+    "quality_flags": []
+  }
+}

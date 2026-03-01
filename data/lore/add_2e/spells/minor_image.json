@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "minor_image",
+  "name": "Minor Image",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Minor Image (IllusiodPhantasm) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "second",
+    "book_pages": [
+      144
+    ],
+    "pdf_pages": [
+      145
+    ],
+    "raw_block": "Minor Image (IllusiodPhantasm)\nRange: 0\nComponents: V, S\nDuration: 3 rounds/level\nCasting Time: 2\nArea of Effect: &foot radius\nSaving Throw: None\nWhen a mirror image spell is invoked, thc\nspellcaster causes from two to eight exac\nduplicates of himself to come into beiq\naround him. These images do exactly whal\nthe wizard does. Since the spell causes i\nblurring and slight distortion when it is cast,\nit is impossible for opponents to be certain\nwhich are the illusions and which is the ac-\ntual wizard. When an image is struck by a\nmelee or missile attack, magical or other-\nwise, it disappears, but any other existing\nimages remain intact until struck. The im-\nages seem to shift from round to round, so\nthat if the actual wizard is struck during one\nround, he cannot be picked out from among\nhis images the next. To determine the num-\nber of images that appear, roll ld4 and add 1\nfor every three levels of experience the wiz-\nard has achieved, to a maximum of eight im-\nages. At the end of the spell duration, all\nsurviving images wink out.\nirection (IllusiodPhPntasm)\nRange: 30 yards\nComponents: V, S\nDuration: 8 hours\nCasting Time: 2\nArea of Effect: 1 creature or object\nSaving Throw: Neg.\nBy means of this spell, the wizard misdi-\nrects the information from a detection spell\n(detect cham, detect mil, detect invisibil-\nity, detect lie, defect magic, detect snares\nand pits, etc.). While the detection spell\nfunctions, it indicates the wrong area, crea-\nture, or the opposite of the truth with re-\nspect to detect evil or detect lie. The wizard\ndirects the spell effect upon the object of the\ndetection spell. If the caster of the detection\nspell fails his saving throw vs. spell, the mis-\ndirection takes place. Note that this spell\ndoes not affect other types of divination\n(know alignment, augury, ESe claimoy-\nance, etc.)."
+  },
+  "mechanics": {
+    "school_or_type": "IllusiodPhantasm",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Minor Image",
+      "canonical_name_guess": null,
+      "school_or_type": "IllusiodPhantasm",
+      "range": "0",
+      "components": "V, S",
+      "duration": "3 rounds/level",
+      "casting_time": "2",
+      "area_of_effect": "&foot radius",
+      "saving_throw": "None",
+      "description_excerpt": "By means of this spell, the wizard misdi- rects the information from a detection spell (detect cham, detect mil, detect invisibil- ity, detect lie, defect magic, detect snares and pits, etc.). While the detection spell functions, it indicates the wrong area, crea- ture, or the opposite of the truth with re- spect to detect evil or detect lie. The wizard directs the spell effect upon the object of the detection spell. If the caster of the detection spell fails his saving throw vs. spell, the mis- direction takes place. Note that this spell does not affect other types of divination (know alignment, augury, ESe claimoy- ance, etc.)."
+    },
+    "quality_flags": []
+  }
+}

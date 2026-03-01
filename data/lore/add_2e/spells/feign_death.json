@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "feign_death",
+  "name": "Feign Death",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Feign Death (Necromancy) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "third",
+    "book_pages": [
+      210
+    ],
+    "pdf_pages": [
+      211
+    ],
+    "raw_block": "Feign Death (Necromancy)\nSphere: Necromantic\nRange: Touch\nComponent: V\nDuration: 1 turn + 1 round/level\nCasting Time: V2\nArea of Effect: Person touched\nSaving Throw: None\nBy means of this spell, the caster or any\nother willing person can be put into a cata-\nleptic state that is impossible to distinguish\nfrom actual death. Although the person\naffected can smell, hear, and know what is\ngoing on, no feeling or sight of any sort is\npossible; thus, any wounding or mistreat-\nment of the body is not felt, no reaction\noccurs, and damage is only one-half nor-\nmal. In addition, paralysis, poison, or\nenergy level drain does not affect a person\nunder the influence of this spell, but poison\ninjected or otherwise introduced into the\nbody becomes effective when the spell recip-\nient is no longer under the influence of this\nspell, although a saving throw is permitted.\nHowever, the spell offers no protection\nfrom causes of certain death-being crushed\nunder a landslide, etc. Only a willing indi-\nvidual can be affected by a feign denth spell.\nThe priest is able to end the spell effect at\nany time, but it requires a full round for\nbodily functions to begin again.\nNote that, unlike the wizard version of\nthis spell, only people can be affected, and\nthat those of any level can be affected by the\npriest casting this spell.\n210"
+  },
+  "mechanics": {
+    "school_or_type": "Necromancy",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Feign Death",
+      "canonical_name_guess": null,
+      "school_or_type": "Necromancy",
+      "range": "Touch",
+      "components": null,
+      "duration": "1 turn + 1 round/level",
+      "casting_time": "V2",
+      "area_of_effect": "Person touched",
+      "saving_throw": "None",
+      "description_excerpt": "By means of this spell, the caster or any other willing person can be put into a cata- leptic state that is impossible to distinguish from actual death. Although the person affected can smell, hear, and know what is going on, no feeling or sight of any sort is possible; thus, any wounding or mistreat- ment of the body is not felt, no reaction occurs, and damage is only one-half nor- mal. In addition, paralysis, poison, or energy level drain does not affect a person under the influence of this spell, but poison injected or otherwise introduced into the body becomes effective when the spell recip- ient is no longer under the influence of this spell, although a saving throw is permitted. However, the spell offers no protection from causes of certain death-being crushed under a landslide, etc. Only a willing indi- vidual can be affected by a feign denth spell. The priest is able to end the s"
+    },
+    "quality_flags": [
+      "missing_standard_fields"
+    ]
+  }
+}

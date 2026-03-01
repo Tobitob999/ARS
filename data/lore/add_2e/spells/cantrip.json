@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "cantrip",
+  "name": "Cantrip",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Cantrip (All Schools) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": null,
+    "book_pages": [
+      131
+    ],
+    "pdf_pages": [
+      132
+    ],
+    "raw_block": "Cantrip (All Schools)\nRange: 10 feet\nComponents: V, S\nDuration: 1 hour/level\nCasting Time: 1\nArea of Effect: Special\nSaving Throw: None\nCantrips are minor spells I idied by I\nards during their apprenticeship, regard\nof school. The cantrip spell is a practice\nmethod for the apprentice, teaching him\nhow to tap minute amounts of m+\nenergy. Once cast, the canttip spell enables\nthe caster to create minor magical effects for\nthe duration of the spell. So minor are these\neffects that they have severe limitations.\nThey are completely unable to cause a loss\nof hit points, cannot affect the concentra-\ntion of spellcasters, and can only create\nsmall, obviously magical materials. Fur-\nthermore, materials created by a cantrip are\nextremely fragile and cannot be used --"
+  },
+  "mechanics": {
+    "school_or_type": "All Schools",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Cantrip",
+      "canonical_name_guess": null,
+      "school_or_type": "All Schools",
+      "range": "10 feet",
+      "components": "V, S",
+      "duration": "1 hour/level",
+      "casting_time": "1",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "effects that they have severe limitations. They are completely unable to cause a loss of hit points, cannot affect the concentra- tion of spellcasters, and can only create small, obviously magical materials. Fur- thermore, materials created by a cantrip are extremely fragile and cannot be used --"
+    },
+    "quality_flags": []
+  }
+}

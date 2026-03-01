@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "fools_gold",
+  "name": "Fools' Gold",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Fools' Gold (Alteration, Illusion) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "second",
+    "book_pages": [
+      141,
+      142
+    ],
+    "pdf_pages": [
+      142,
+      143
+    ],
+    "raw_block": "Fools' Gold (Alteration, Illusion)\nRange: 10 yards\nComponents: V, S, M\nDuration: 1 hour/level\nCasting Time: 1 round\nArea of Effect: 10 cu. in./level\nSaving Throw: Special\nCopper coins can temporarily be changed\nto gold pieces, or brass items turned to solid\ngold, for the spell duration by means of this\nmagic. The area of effect is ten cubic inches\nper level-i.e., a 1\" x 1\" x 10\" volume or\nequivalent, equal to about 150 gold coins.\nAny creature viewing the \"gold is entitled\nto a saving throw vs. spell, which can be\nmodified by the creature's Wisdom; for ev-\nery level of the wizard, the creature must\nsubtract 1 from his dice roll. Thus it is un-\nlikely that fools' gold will be detected if it\nwas created by a high-level caster. If the\n\"gold is struck hard by an object of cold-\nwrought iron, there is a slight chance it will\nrevert to its natural state, depending on the\nmaterial component used to create the -\n\"gold.\" If a 25-gp citrine is powdered and\nsprinkled over the metal as this spell is cast,\nthe chance that cold iron will return it to its\ntrue nature is 30%; if a 50-m amber stone is\npowdered and used, there is a 25% chance\nthat iron will dispel the magic; if a 2Sgp\ntopaz is powdered, the chance drops to\n10%; if a 500-g~ oriental (corundum) topaz\nis powdered, there is only a 1 % chance that\nthe cold iron will reveal that it is fools' gold.\nth .\\\nt I\nWizard Snells (2nd Levd\\"
+  },
+  "mechanics": {
+    "school_or_type": "Alteration, Illusion",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Fools' Gold",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration, Illusion",
+      "range": "10 yards",
+      "components": "V, S, M",
+      "duration": "1 hour/level",
+      "casting_time": "1 round",
+      "area_of_effect": "10 cu. in./level",
+      "saving_throw": "Special",
+      "description_excerpt": "magic. The area of effect is ten cubic inches per level-i.e., a 1\" x 1\" x 10\" volume or equivalent, equal to about 150 gold coins. Any creature viewing the \"gold is entitled to a saving throw vs. spell, which can be modified by the creature's Wisdom; for ev- ery level of the wizard, the creature must subtract 1 from his dice roll. Thus it is un- likely that fools' gold will be detected if it was created by a high-level caster. If the \"gold is struck hard by an object of cold- wrought iron, there is a slight chance it will revert to its natural state, depending on the material component used to create the - \"gold.\" If a 25-gp citrine is powdered and sprinkled over the metal as this spell is cast, the chance that cold iron will return it to its true nature is 30%; if a 50-m amber stone is powdered and used, there is a 25% chance that iron will dispel the magic; if a 2Sgp topaz is powdered,"
+    },
+    "quality_flags": []
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.2.1",
+  "id": "lightning_bolt",
+  "name": "Lightning Bolt",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Lightning Bolt (Evocation) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "third",
+    "book_pages": [
+      151,
+      152
+    ],
+    "pdf_pages": [
+      152,
+      153
+    ],
+    "raw_block": "Lightning Bolt (Evocation)\nRange: 40 yards + 10 yards/level\nComponents: V, S, M\nDuration: Instantaneous\nCasting Time: 3\nArea of Effect: Special\nSaving Throw: 1/z\nUpon casting this spell, the wizard\nreleases a powerful stroke of electrical\nenergy that inflicts ld6 points of damage per\nlevel of the spellcaster (maximum damage of\n1Od6) to each creature within its area of\neffect. A successful saving throw vs. spell\nreduces this damage to half (round fractions\ndown). The bolt begins at a range and\nheight decided by the caster and streaks out-\nward in a direct line from the casting wizard\n(e.g., if a *foot bolt was started at 180 feet\nfrom the wizard, the far end of bolt would\nreach 220 feet (180 + 40). The lightning bolt\nmay set fire to combustibles, sunder wood-\nen doors, splinter up to % foot thickness of\nstone, and melt metals with a low melting\npoint (lead, gold, copper, silver, bronze).\nSaving throws must be rolled for objects\nthat withstand the full force of a stroke (see\nthe fireball spell). If the damage caused to an\ninterposing barrier shatters or breaks\nthrough it (i.e., the saving throw fails), the\nbolt continues. A bolt can breach one inch\nof wood or 112 inch of stone per caster level\nup to a maximum of one foot of wood or 1/z\nfoot of stone.\nThe lightning bolt's area of effect is cho-\nsen by the spellcaster: either a forked bolt\n10 feet wide and 40 feet long or a single bolt\nfive feet wide and 80 feet long. If a bolt can-\nnot reach its full length, because of an\nunyielding barrier (such as a stone wall), the\nlightning bolt rebounds from the barrier\ntoward its caster, ending only when it reach-\nes its full length.\nExample: An 80-foot-long stroke is\nbegun at a range of 40 feet, but it hits a stone\nwall at 50 feet. The bolt travels 10 feet, hits\nthe wall, and rebounds for 70 feet back\ntoward its creator (who is only 50 feet from\nthe wall, and so is caught in his own light-\nning bolt!).\nThe DM might allow reflecting bolts.\nWhen this type of lightning bolt strikes a\nsolid surface, the bolt reflects from the sur-\nface at an angle equal to the angle of inci-\ndence (like light off a mirror). A creature\ncrossed more than once by the bolt must roll\na saving throw for every time it is crossed,\nbut it still suffers either full damage (if one\nsaving throw is missed) or half damage (if\nall saving throws are made).\nThe material components of the spell are\na bit of fur and an amber, crystal, or glass\nrod."
+  },
+  "mechanics": {
+    "school_or_type": "Evocation",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Lightning Bolt",
+      "canonical_name_guess": null,
+      "school_or_type": "Evocation",
+      "range": "40 yards + 10 yards/level",
+      "components": "V, S, M",
+      "duration": "Instantaneous",
+      "casting_time": "3",
+      "area_of_effect": "Special",
+      "saving_throw": "1/z",
+      "description_excerpt": "Upon casting this spell, the wizard releases a powerful stroke of electrical energy that inflicts ld6 points of damage per level of the spellcaster (maximum damage of 1Od6) to each creature within its area of effect. A successful saving throw vs. spell reduces this damage to half (round fractions down). The bolt begins at a range and height decided by the caster and streaks out- ward in a direct line from the casting wizard (e.g., if a *foot bolt was started at 180 feet from the wizard, the far end of bolt would reach 220 feet (180 + 40). The lightning bolt may set fire to combustibles, sunder wood- en doors, splinter up to % foot thickness of stone, and melt metals with a low melting point (lead, gold, copper, silver, bronze). Saving throws must be rolled for objects that withstand the full force of a stroke (see the fireball spell). If the damage caused to an interposing barrier shatte"
+    },
+    "quality_flags": [
+      "trimmed_merged_block"
+    ]
+  }
+}

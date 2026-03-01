@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2.0",
+  "id": "table_33",
+  "name": "Table 33: BARD ABILITIES",
+  "category": "table",
+  "tags": [
+    "add_2e",
+    "table",
+    "player_handbook",
+    "toc_normalized"
+  ],
+  "summary": "PHB Table 33 (BARD ABILITIES).",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "table_number": 33,
+    "title": "BARD ABILITIES",
+    "book_page": 42,
+    "pdf_page": 43,
+    "raw_page_token": "42"
+  },
+  "mechanics": {
+    "source": "toc_parse_v3",
+    "confidence": "medium"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "advanced_illusion",
+  "name": "Advanced Illusion",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Advanced Illusion (Musion/Ph.ntarm) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      164
+    ],
+    "pdf_pages": [
+      165
+    ],
+    "raw_block": "Advanced Illusion (Musion/Ph.ntarm)\nRange: 60 yards + 10 yards/level\nComponents: V, S, M\nDuration: 1 round/level\nCasting Time: 1 round\nArea of Effect: One afoot cube +\na IO-foot cube/level\nSaving Throw: Special\nThis spell is essentially a spectral forces\nspell that operates through a program (simi-\nlar to a programmed illusion spell) deter-\nmined by the caster. It is thus unnecessary\nfor the wiwd to concentrate on the spell for\nlonger than the round of casting it, as the\nprogram has then started and will continue\nwithout supervision. The illusion has vis-\nual, audio, olfactory, and thermal compo-\nnents. If any viewer actively attempts to\ndisbelieve the spell, he gains a saving throw"
+  },
+  "mechanics": {
+    "school_or_type": "Musion/Ph.ntarm",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Advanced Illusion",
+      "canonical_name_guess": null,
+      "school_or_type": "Musion/Ph.ntarm",
+      "range": "60 yards + 10 yards/level",
+      "components": "V, S, M",
+      "duration": "1 round/level",
+      "casting_time": "1 round",
+      "area_of_effect": "One afoot cube +",
+      "saving_throw": "Special",
+      "description_excerpt": "This spell is essentially a spectral forces spell that operates through a program (simi- lar to a programmed illusion spell) deter- mined by the caster. It is thus unnecessary for the wiwd to concentrate on the spell for longer than the round of casting it, as the program has then started and will continue without supervision. The illusion has vis- ual, audio, olfactory, and thermal compo- nents. If any viewer actively attempts to disbelieve the spell, he gains a saving throw"
+    },
+    "quality_flags": []
+  }
+}

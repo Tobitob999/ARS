@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "air_walk",
+  "name": "Air Walk",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Air Walk (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "fourth",
+    "book_pages": [
+      221
+    ],
+    "pdf_pages": [
+      222
+    ],
+    "raw_block": "Air Walk (Alteration)\nSphere: Elemental (Air)\nRange: Touch\nComponents: V, S, M\nDuration: 1 hour + 1 turn/level\nCasting Time: 8\nArea of Effect: Creature touched\nSaving Throw: None\nThis spell enables a creature, which can\nbe as large as the largest giant, to tread upon\nair just as if it were solid ground. Moving\nupward is similar to walking up a hill; a\nmaximum upward angle of 45 degrees is\npossible at one-half the creature‘s move-\nment rate. Likewise, a maximum downward\nangle of 45 degrees at the normal movement\nrate is possible. An air-walking creature is\nalways in control of its movement rate, save\nwhen a wind is blowing. In this case the\ncreature gains or loses 10 feet of movement\nfor every 10 miles per hour of wind velocity.\nThe creature may, at the DMs option, be\nsubject to additional penalties, loss of con-\ntrol, and possible damage in exceptionally\nstrong or turbulent winds.\nThe spell can be placed upon a trained\nmount, so it can be ridden through the air.\nOf course, a mount not accustomed to such\nmovement would certainly need careful and\nlengthy training, the details of which are up\nto the DM.\nThe material components for the spell are\nthe priest’s holy symbol and a bit of thistle-\ndown."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Air Walk",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "1 hour + 1 turn/level",
+      "casting_time": "8",
+      "area_of_effect": "Creature touched",
+      "saving_throw": "None",
+      "description_excerpt": "This spell enables a creature, which can be as large as the largest giant, to tread upon air just as if it were solid ground. Moving upward is similar to walking up a hill; a maximum upward angle of 45 degrees is possible at one-half the creature‘s move- ment rate. Likewise, a maximum downward angle of 45 degrees at the normal movement rate is possible. An air-walking creature is always in control of its movement rate, save when a wind is blowing. In this case the creature gains or loses 10 feet of movement for every 10 miles per hour of wind velocity. The creature may, at the DMs option, be subject to additional penalties, loss of con- trol, and possible damage in exceptionally strong or turbulent winds. The spell can be placed upon a trained mount, so it can be ridden through the air. Of course, a mount not accustomed to such movement would certainly need careful and lengthy training, "
+    },
+    "quality_flags": []
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "lower_water",
+  "name": "Lower Water",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Lower Water (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "fourth",
+    "book_pages": [
+      218
+    ],
+    "pdf_pages": [
+      219
+    ],
+    "raw_block": "Lower Water (Alteration)\nReversible\nSphere: Elemental (Water)\nRange: 120 yards\nComponents: V, S, M\nDuration: 1 turn/level\nCasting Time: 1 turn\nArea of Effect: Special\nSaving Throw: None\nThe lower water spell cau- water or\nsimilar fluid in the area of effect to sink\naway to a minimum depth of one inch. The\ndepth can be lowered by up to two feet for\nevery experience level of the priest. The wa-\nter is lowered within a square area whose\nsides are 10 feet long per caster level. Thus,\nan 8th-level priest affects a volume up to 16'\nx 80' x 80', a 9th-level caster affects a vol-\nume up to 18' x 90' X 90', and so on. In\nextremely large and deep bodies of water,\nsuch as deep ocean, the spell creates a whirl-\npool that sweeps ships and similar craft\ndownward, putting them at risk and render-\ning them unable to leave by normal move-\nment for the duration of the spell. When\ncast on water elementals and other water-\nbased creatures, this spell acts as a slow\ni\n218"
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Lower Water",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "120 yards",
+      "components": "V, S, M",
+      "duration": "1 turn/level",
+      "casting_time": "1 turn",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "cast on water elementals and other water- based creatures, this spell acts as a slow i 218"
+    },
+    "quality_flags": []
+  }
+}

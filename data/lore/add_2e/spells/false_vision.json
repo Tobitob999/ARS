@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "false_vision",
+  "name": "False Vision",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "False Vision (Divination) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      168
+    ],
+    "pdf_pages": [
+      169
+    ],
+    "raw_block": "False Vision (Divination)\nRange: 0\nComponents: V, S, M\nDuration: ld4 rounds + 1 round/level\nCasting Time: 5\nArea of Effect: %foot radius\nSaving Throw: None\nWhen this spell is cast, the wizard is able\nto confound any attempt to scry (by means I\nof either a spell or a magical device) any I\npoint within the area of effect of the spell. To\nuse the spell, he must be aware of the scry- .\ning attempt, although knowledge of the 4\nscryer or the sayer's location is not n-\nsary. Upon casting the spell, the caster and\nall he desires within the radius of the spell\nbecome undetectable to the suying. Fur-\nthermore, the caster is able to send what-\never message he desires, including vision\nand sound, according to the medium of the\nscrying method. To do this, the caster must\nconcentrate op the message he is sending.\nOnce concentration is broken, no further\nimages can be sent, although the caster re-\nmains undetectable for the duration of the\nSpell.\nThe material component for this spell is\nthe ground dust of an emerald worth at least\n500 gp, which is sprinkled into the air when\nthe spell is cast."
+  },
+  "mechanics": {
+    "school_or_type": "Divination",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "False Vision",
+      "canonical_name_guess": null,
+      "school_or_type": "Divination",
+      "range": "0",
+      "components": "V, S, M",
+      "duration": "ld4 rounds + 1 round/level",
+      "casting_time": "5",
+      "area_of_effect": "%foot radius",
+      "saving_throw": "None",
+      "description_excerpt": "Spell. The material component for this spell is the ground dust of an emerald worth at least 500 gp, which is sprinkled into the air when the spell is cast."
+    },
+    "quality_flags": []
+  }
+}

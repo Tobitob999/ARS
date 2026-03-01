@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "chaos",
+  "name": "Chaos",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Chaos (EnchantmentKhann) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      166
+    ],
+    "pdf_pages": [
+      167
+    ],
+    "raw_block": "Chaos (EnchantmentKhann)\nRange: 5 yarddlevel\nComponents: V, S, M\nDuration: 1 round/level\nCasting Time: 5\nArea of Effect: Up to.40-foot cube\nSaving Throw: Special\nThis spell is similar to the 4th-level confu-\nsion spell, but only the following beings\nreceive a saving throw: fighters, wizards\nspecialized in enchantments, monsters that\nuse no magic and have an Intelligence of 4 or\nless, creatures of 21 Intelligence or higher,\nand creatures with more levels or Hit Dice\nthan the caster's level.\nThe spell causes disorientation and severe\nperceptual distortion, creating indecision\nand the inability to take effective action.\nThe spell affects ld4 creatures, plus one\ncreature per caster level. Those allowed sav-\ning throws roll them vs. spell with -2 pen-\nalties, adjusted for Wisdom. Those who\nsuccessfully save are unaffected by the spell.\nAffected creatures react as follows:\nDIORoll Action\n1 Wander away (unless prevented)\nfor duration of spell\n2-6 Stand confused one round\n(then roll again)\n1-3 Attack nearest creature for one\nround (then roll again)\n10 Act normally for one round\n(then roll again)\nThe spell lasts one round for each level of\nthe caster. Those affected are checked by the\nDM for actions each round for the duration\nof the spell, or until the \"wander away for\nthe duration of the spell\" result occurs.\nWandering creatures move as far from the\ncaster as possible using their most typical\nmode of movement (characters walk, fish\nswim, bats fly, etc.). Saving throws and\nactions are checked at the beginning of each\nround. Any confused creature that is\nattacked perceives the attacker as an enemy\nand acts according to its basic nature.\nThe material component for this spell is a\nsmall disc of bronze and a small rod of iron."
+  },
+  "mechanics": {
+    "school_or_type": "EnchantmentKhann",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Chaos",
+      "canonical_name_guess": null,
+      "school_or_type": "EnchantmentKhann",
+      "range": "5 yarddlevel",
+      "components": "V, S, M",
+      "duration": "1 round/level",
+      "casting_time": "5",
+      "area_of_effect": "Up to.40-foot cube",
+      "saving_throw": "Special",
+      "description_excerpt": "Wandering creatures move as far from the caster as possible using their most typical mode of movement (characters walk, fish swim, bats fly, etc.). Saving throws and actions are checked at the beginning of each round. Any confused creature that is attacked perceives the attacker as an enemy and acts according to its basic nature. The material component for this spell is a small disc of bronze and a small rod of iron."
+    },
+    "quality_flags": []
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "crease",
+  "name": "Crease",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Crease (Conjuration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": null,
+    "book_pages": [
+      135
+    ],
+    "pdf_pages": [
+      136
+    ],
+    "raw_block": "Crease (Conjuration)\nRange: 10 yards\nComponents: V, S, M\nDuration: 3 rounds + 1 round/level\nCasting Time: 1\nArea of Effect: 10' x 10' square area\nSaving Throw: Special\nA grease spell covers a material surface\nwith a slippery layer of a fatty, greasy\nnature. Any creature entering the area or\ncaught in it when the spell is cast must save\nvs. spell or slip, skid, and fall. Those who\nsuccessfully save can reach the nearest non-\ngreased surface by the end of the round.\nThose who remain in the area are allowed a\nsaving throw each round until they escape\nthe area. The DM should adjust saving\nthrows by circumstance; for example, a\ncreature charging down an incline that is\nsuddenly greased has little chance to avoid\nthe effect, but its ability to exit the affected\narea is almost assuredl The spell can also be\nused to create a greasy coating on an item-\na rope, ladder rungs, weapon handle, etc.\nMaterial objects not in use are always\naffected by this spell, while creatures wield-\ning or employing items receive a saving\nthrow vs. spell to avoid the effect. If the ini-\ntial saving throw is failed, the creature\nimmediately drops the item. A saving throw\nmust be made each round the creature\nattempts to use the greased item. The caster\ncan end the effect with a single utterance;\notherwise it lasts for three rounds plus one\nround per level.\nThe material component of the spell is a\nbit of pork rind or butter."
+  },
+  "mechanics": {
+    "school_or_type": "Conjuration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Crease",
+      "canonical_name_guess": null,
+      "school_or_type": "Conjuration",
+      "range": "10 yards",
+      "components": "V, S, M",
+      "duration": "3 rounds + 1 round/level",
+      "casting_time": "1",
+      "area_of_effect": "10' x 10' square area",
+      "saving_throw": "Special",
+      "description_excerpt": "A grease spell covers a material surface with a slippery layer of a fatty, greasy nature. Any creature entering the area or caught in it when the spell is cast must save vs. spell or slip, skid, and fall. Those who successfully save can reach the nearest non- greased surface by the end of the round. Those who remain in the area are allowed a saving throw each round until they escape the area. The DM should adjust saving throws by circumstance; for example, a creature charging down an incline that is suddenly greased has little chance to avoid the effect, but its ability to exit the affected area is almost assuredl The spell can also be used to create a greasy coating on an item- a rope, ladder rungs, weapon handle, etc. Material objects not in use are always affected by this spell, while creatures wield- ing or employing items receive a saving throw vs. spell to avoid the effect. If the "
+    },
+    "quality_flags": []
+  }
+}

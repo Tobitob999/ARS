@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "invisibility",
+  "name": "Invisibility",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Invisibility (Illusion/Phantasrn) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "second",
+    "book_pages": [
+      142
+    ],
+    "pdf_pages": [
+      143
+    ],
+    "raw_block": "Invisibility (Illusion/Phantasrn)\ntange: Touch\nComponents: V, S, M\nDuration: Special\nZasting Time: 2\n4rea of Effect: Creature touched\nsaving Throw: None\nThis spell causes the creature touched to\nranish from sight and be undetectable by\niormal vision or even infravision. Of\n:ourse, the invisible creature is not magi-\n:ally silenced, and certain other conditions\n*an render the creature detectable. Even al-\nies cannot see the invisible creature or his\n;ear, unless these allies can normally see in-\nrisible things or employ magic to do so.\ntems dropped or put down by the invisible\nreature become visible, items picked up\n'isappear if tucked into the clotlung or\nouches worn by the creature. Note, how-\nver, that light never becomes invisible, al-\n~ough a source of light can become so (thus\nie effect is that of a light with no visible\nsource).\nThe spell remains in effect until it is magi-\ncally broken or dispelled, until the wizard\nor recipient cancels it, until the recipient at-\ntacks any creature, or until 24 hours have\npassed. Thus the invisible being can open\ndoors, talk, eat, climb stairs, etc., but if he\nattacks, he immediately becomes visible, al-\nthough the invisibility enables him to attack\nfirst. Note that the clerical bless, chmt, and\nprayer spells are not attacks for this pur-\npose. All highly Intelligent (Int 13 or more)\ncreatures with 10 or more Hit Dice or levels\nof experience have a chance to detect invisi-\nble objects (they roll saving throws vs. spell;\nsuccess means they noticed the invisible ob-\nject).\nThe material components of the inuisibil-\nity spell are an eyelash and a bit of gum ara-\nbic, the former encased in the latter."
+  },
+  "mechanics": {
+    "school_or_type": "Illusion/Phantasrn",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Invisibility",
+      "canonical_name_guess": null,
+      "school_or_type": "Illusion/Phantasrn",
+      "range": null,
+      "components": "V, S, M",
+      "duration": "Special",
+      "casting_time": null,
+      "area_of_effect": null,
+      "saving_throw": "None",
+      "description_excerpt": "This spell causes the creature touched to ranish from sight and be undetectable by iormal vision or even infravision. Of :ourse, the invisible creature is not magi- :ally silenced, and certain other conditions *an render the creature detectable. Even al- ies cannot see the invisible creature or his ;ear, unless these allies can normally see in- risible things or employ magic to do so. tems dropped or put down by the invisible reature become visible, items picked up 'isappear if tucked into the clotlung or ouches worn by the creature. Note, how- ver, that light never becomes invisible, al- ~ough a source of light can become so (thus ie effect is that of a light with no visible source). The spell remains in effect until it is magi- cally broken or dispelled, until the wizard or recipient cancels it, until the recipient at- tacks any creature, or until 24 hours have passed. Thus the invisib"
+    },
+    "quality_flags": [
+      "missing_standard_fields"
+    ]
+  }
+}

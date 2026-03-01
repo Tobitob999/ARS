@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "id": "add_cleric",
+  "name": "Cleric (AD&D 2e)",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "archetype": "cleric",
+  "level": 1,
+  "background": "PHB-konformes Starttemplate",
+  "characteristics": {
+    "STR": 12,
+    "DEX": 10,
+    "CON": 13,
+    "INT": 10,
+    "WIS": 15,
+    "CHA": 12
+  },
+  "derived_stats": {
+    "HP": 8,
+    "AC": 5,
+    "THAC0": 20,
+    "Movement": 9
+  },
+  "skills": {
+    "Turn Undead": 1,
+    "Spellcasting (Divine)": 1
+  },
+  "equipment": [
+    "bedroll",
+    "waterskin",
+    "rations"
+  ],
+  "notes": "Starttemplate fuer schnelle Session-Initialisierung."
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_page",
+  "tags": [
+    "add_2e",
+    "player_handbook",
+    "fulltext",
+    "pdf_page"
+  ],
+  "summary": "PDF-Seite 69 des AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "pdf_page": 69,
+    "text": "I \nSealing/candle wax \n1 ** \n* \n(per lb.) 1 gP \nSewing needle 5 SP \nSignal whistle 8 SP \npersonal seal 5 gP \nSoap (per lb.) 5 SP 1 \nSpyglass LOO0 gp 1 \nSignet ring or * \nTent - \n20 \n25gp 50 \nLarge \nPavilion 100 gP \nSmall 5gP 10 \nThieves' picks 30 gP 1 \nTorch 1 CP 1 \nWater clock 1,000 gp 200 \nWhetstone 2 CP 1 \nWineskin 8 SP 1 \nWinter blanket 5 SP 3 \nWriting ink (per vial) 8 gp * \n* These items weigh little individually. \nTen of these items weigh one pound. \n** These items have no appreciable \nweight and should not be considered for en- \ncumbrance unless hundreds are carried. \nu \nBOU \nBull \nCalf \nCamel \nCapon \nCat \nChicken \ncow \nDog \nGuard \nWar \nHUnting \nAnimals \nDonkey, mL.-, or ass \nElephant \nLabor \nWar \nFalcon (trained) \nGoat \nGoose \nGuinea hen \nHorse \nDraft \nHeavy war \nLight war \nMedium war \nRiding \nHunting cat (jaguar, etc.) \nox \nPartridge \nPeacock \nPig \nPigeon \nPigeon, homing \nPony \nRam \nSheep \nSongbird \nSwan \nWeapons \nWeight Speed Damage \nItem Cost (Ib.) Size Type? Factor S-M L \nArquebus * * * 500gp 10 M P \nComposite long bow 100 gp 3 L 7 - \n7 - - \n3 M B 4 ld6 ld3 \nShort bow 3ogP 2 M - \nClub - \nLight quarrel 1 sp $ S P - ld4 ld4 \n8gp 10 L P/B 9 Ida id6 \nServices \nService cost \n3 CP Bath \n2 SP Clerk (per letter) \n3 gP Doctor, leech, or bleeding \n2 SP Guide, in city (per day) \n1 SP Lantern or torchbearer (per night) \n1 CP Laundry (by load) \n1 SP \n3 gP Minstrel (per performance) \nTeamster w/wagon 1 splmile \nf \nMessenger, in city (per message) \nMourner (per funeral) 2 SP \n68"
+  },
+  "mechanics": {
+    "conversion": "fulltext_page_dump",
+    "generated_at": "2026-02-28T16:50:14"
+  }
+}

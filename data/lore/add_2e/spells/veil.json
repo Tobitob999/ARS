@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "veil",
+  "name": "Veil",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Veil (Illusior~Phantasrn) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "sixth",
+    "book_pages": [
+      182
+    ],
+    "pdf_pages": [
+      183
+    ],
+    "raw_block": "Veil (Illusior~Phantasrn)\nRange: 10 yarddlevel\nComponents: V, S\nDuration: 1 turn/level\nCasting Time: 6\nArea of Fffect: 20-foot cube/level\nSaving Throw: None\nThe veil spell enables the d to instantly\nchange the appearance of his surroundhgs\nand party or to atate hallucinatory terrain so\nas to fool even the most dewr creatures unless\nthey have the true seeing spell, a gem of see-\ning, or similar magical aid. The veil m make\na sumptuous room seem a filthy den and even\ntactile impressions conform to the visual illu-\nsion. Likewise, a party might be made to\nresemble a mixed band of brownies, pixies,\nand faeriesled by a treant. If hallucinatory ter-\nrain is created, touch does not cause it to van-\nish.\nd.l\nI'\n3\n1 1\nSeventh-Level Spells"
+  },
+  "mechanics": {
+    "school_or_type": "Illusior~Phantasrn",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Veil",
+      "canonical_name_guess": null,
+      "school_or_type": "Illusior~Phantasrn",
+      "range": "10 yarddlevel",
+      "components": "V, S",
+      "duration": "1 turn/level",
+      "casting_time": "6",
+      "area_of_effect": null,
+      "saving_throw": "None",
+      "description_excerpt": "The veil spell enables the d to instantly change the appearance of his surroundhgs and party or to atate hallucinatory terrain so as to fool even the most dewr creatures unless they have the true seeing spell, a gem of see- ing, or similar magical aid. The veil m make a sumptuous room seem a filthy den and even tactile impressions conform to the visual illu- sion. Likewise, a party might be made to resemble a mixed band of brownies, pixies, and faeriesled by a treant. If hallucinatory ter- rain is created, touch does not cause it to van- ish. d.l I' 3 1 1 Seventh-Level Spells"
+    },
+    "quality_flags": [
+      "missing_standard_fields"
+    ]
+  }
+}

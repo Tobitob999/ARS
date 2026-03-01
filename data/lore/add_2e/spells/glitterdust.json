@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "glitterdust",
+  "name": "Glitterdust",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Glitterdust (Conjuration/Sumrnoning) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "second",
+    "book_pages": [
+      142
+    ],
+    "pdf_pages": [
+      143
+    ],
+    "raw_block": "Glitterdust (Conjuration/Sumrnoning)\nRange: 10 yardsllevel\nComponents: V, S, M\nDuration: Special\nCasting Time: 2\nArea of Effect: 20-foot cube\nSaving Throw: Special\nThis spell creates a cloud of glittering\ngolden particles within the area of effect.\nThose in the area must roll a successful sav-\ning throw vs. spell or be blinded ( - 4 penal-\nties to attack rolls, saving throws, and\nArmor Class) for ld4 + 1 rounds. In addi-\ntion, all within the area are covered by the\ndust, which cannot be removed and con-\ntinues to sparkle until it fades. Note that this\nreveals invisible creatures. The dust fades in\nld4 rounds plus one round per caster level.\nThus glitterdust cast by a 3rd-level wizard\nlasts for four to seven rounds.\nThe material component is ground mica."
+  },
+  "mechanics": {
+    "school_or_type": "Conjuration/Sumrnoning",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Glitterdust",
+      "canonical_name_guess": null,
+      "school_or_type": "Conjuration/Sumrnoning",
+      "range": "10 yardsllevel",
+      "components": "V, S, M",
+      "duration": "Special",
+      "casting_time": "2",
+      "area_of_effect": "20-foot cube",
+      "saving_throw": "Special",
+      "description_excerpt": "This spell creates a cloud of glittering golden particles within the area of effect. Those in the area must roll a successful sav- ing throw vs. spell or be blinded ( - 4 penal- ties to attack rolls, saving throws, and Armor Class) for ld4 + 1 rounds. In addi- tion, all within the area are covered by the dust, which cannot be removed and con- tinues to sparkle until it fades. Note that this reveals invisible creatures. The dust fades in ld4 rounds plus one round per caster level. Thus glitterdust cast by a 3rd-level wizard lasts for four to seven rounds. The material component is ground mica."
+    },
+    "quality_flags": []
+  }
+}

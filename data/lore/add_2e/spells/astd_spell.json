@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "astd_spell",
+  "name": "Astd Spell",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Astd Spell (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "sixth",
+    "book_pages": [
+      231
+    ],
+    "pdf_pages": [
+      232
+    ],
+    "raw_block": "Astd Spell (Alteration)\nSphere: Astral\nRulge: Touch\nComponents: V, S\nDuration: Special\nCasting Time: V2 hour\nArea of Effect: Special\nSaving Throw: None\nBy means of the astral spell, a priest is\nable to project his astral body into the As-\ntral plane, leaving his physical body and\nmaterial possessions behind on the Prime\nMaterial plane. As the Astral plane touches\nupon the first levels of all the outer planes,\nthe priest can travel astrally to the first level\nof any of these outer planes as he wills. The\npriest then leaves the Astral plane, forming\na body on the plane of existence he has cho-\nsen to enter. It is also possible to travel as-\ntrally anywhere in the Prime Material plane\nby means of the astral spell (however, a sec-\nond body cannot be formed on the Prime\nMaterial plane; see following).\nAs a general rule, a person astrally pro-\njected can be seen only by creatures on the\nAstral plane. The astral body is connected\nat all times to the material body by a silvery\ncord. If the cord is broken, the affected per-\nson is killed, astrally and materially, but\ngenerally only the psychic wind can cause\nthe cord to break. When a second body is\nformed on a different plane, the silvery cord\nremains invisibly attached to the new body.\nIf the second body or astral form is slain, the\ncord simply returns to the caster's body\nwhere the body rests on the Prime Material\nplane, reviving it from its state of suspended\nanimation. Although astral projections are\nable to function on the Astral plane, their\nactions affect only creatures existing on the\nAstral plane; a physical body must be mate-\nrialized on other planes.\nThe spell lasts until the priest desires to\nend it, or until it is terminated by some out-\nside means (such as a dispel magic spell or\ndestruction of the priest's body on the Prime\nMaterial plane [which kills the priest]). The\npriest can project the astral forms of up to\nseven other creatures with himself by means\nof the astral spell, providing the creatures\nare linked in a circle with the priest. These\nfellow travelers are dependent upon the\npriest and can be stranded if something hap-\npens to the priest. Travel in the Astral plane\ncan be slow or fast, according to the priest's\ndesire. The ultimate destination arrived at is\nsubject to the desire of the priest."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Astd Spell",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": null,
+      "components": "V, S",
+      "duration": "Special",
+      "casting_time": "V2 hour",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "By means of the astral spell, a priest is able to project his astral body into the As- tral plane, leaving his physical body and material possessions behind on the Prime Material plane. As the Astral plane touches upon the first levels of all the outer planes, the priest can travel astrally to the first level of any of these outer planes as he wills. The priest then leaves the Astral plane, forming a body on the plane of existence he has cho- sen to enter. It is also possible to travel as- trally anywhere in the Prime Material plane by means of the astral spell (however, a sec- ond body cannot be formed on the Prime Material plane; see following). As a general rule, a person astrally pro- jected can be seen only by creatures on the Astral plane. The astral body is connected at all times to the material body by a silvery cord. If the cord is broken, the affected per- son is killed, astral"
+    },
+    "quality_flags": [
+      "missing_standard_fields"
+    ]
+  }
+}

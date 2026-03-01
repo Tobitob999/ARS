@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "deafness",
+  "name": "Deafness",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Deafness (Illusion/Phantasm) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "second",
+    "book_pages": [
+      140
+    ],
+    "pdf_pages": [
+      141
+    ],
+    "raw_block": "Deafness (Illusion/Phantasm)\nRange: 60 yards\nComponents: V, S, M\nDuration: Special\nCasting Time: 2\nArea of Effect: 1 creature\nSaving Throw: Neg.\nThe deafness spell causes the recipient to\nbecome totally deaf and unable to hear any\nsounds. The victim is allowed a saving\nthrow vs. spell. An affected creature has a\n-1 penalty to its surprise rolls unless its\nother senses are unusually keen. Deafened\nspellcasters have a 20% chance to miscast\nany spell with a verbal component. This\ndeafness can be done away with only by\nmeans of a dispel magic spell or by the spell-\ncaster.\nThe material component of this spell is\nbeeswax."
+  },
+  "mechanics": {
+    "school_or_type": "Illusion/Phantasm",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Deafness",
+      "canonical_name_guess": null,
+      "school_or_type": "Illusion/Phantasm",
+      "range": "60 yards",
+      "components": "V, S, M",
+      "duration": "Special",
+      "casting_time": "2",
+      "area_of_effect": "1 creature",
+      "saving_throw": "Neg.",
+      "description_excerpt": "The deafness spell causes the recipient to become totally deaf and unable to hear any sounds. The victim is allowed a saving throw vs. spell. An affected creature has a -1 penalty to its surprise rolls unless its other senses are unusually keen. Deafened spellcasters have a 20% chance to miscast any spell with a verbal component. This deafness can be done away with only by means of a dispel magic spell or by the spell- caster. The material component of this spell is beeswax."
+    },
+    "quality_flags": []
+  }
+}

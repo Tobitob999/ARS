@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "protection_from_fire",
+  "name": "Protection From Fire",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Protection From Fire (Abjuration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "third",
+    "book_pages": [
+      212
+    ],
+    "pdf_pages": [
+      213
+    ],
+    "raw_block": "Protection From Fire (Abjuration)\nSphere: Protection, Elemental (Fire)\nRange: Touch\nComponents: V, S, M\nDuration: Special\nCasting Time: 6\nArea of Effect: Creature touched\nSaving Throw: None\nThe effect of a protection from fire spell\ndiffers according to the recipient of the\nmagic-either the caster or some other crea-\nture. In either case, the spell lasts no longer\nthan one turn per caster level.\n* If the spell is cast upon the caster, it confers\ncomplete invulnerability to normal fires\n(torches, bonfires, oil fires, and the like) and\nto exposure to magical fires such as fiery\ndragon breath, spells such as burning\nhands, fireball, fire seeds, fire storm, flame\nstrike, meteor swarm, hell hound or pyro-\nhydra breath, etc., until the spell has\nabsorbed 12 points of heat or fire damage\nper level of the caster, at which time the spell\nis negated.\n* If the spell is cast upon another creature, it\ngives invulnerability to normal fire, gives a\nbonus of +4 to saving throw die rolls vs.\nfire attacks, and it reduces damage sus-\ntained from magical fires by 50%.\nThe caster's holy symbol is the material\ncomponent."
+  },
+  "mechanics": {
+    "school_or_type": "Abjuration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Protection From Fire",
+      "canonical_name_guess": null,
+      "school_or_type": "Abjuration",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "Special",
+      "casting_time": "6",
+      "area_of_effect": "Creature touched",
+      "saving_throw": "None",
+      "description_excerpt": "The effect of a protection from fire spell differs according to the recipient of the magic-either the caster or some other crea- ture. In either case, the spell lasts no longer than one turn per caster level. * If the spell is cast upon the caster, it confers complete invulnerability to normal fires (torches, bonfires, oil fires, and the like) and to exposure to magical fires such as fiery dragon breath, spells such as burning hands, fireball, fire seeds, fire storm, flame strike, meteor swarm, hell hound or pyro- hydra breath, etc., until the spell has absorbed 12 points of heat or fire damage per level of the caster, at which time the spell is negated. * If the spell is cast upon another creature, it gives invulnerability to normal fire, gives a bonus of +4 to saving throw die rolls vs. fire attacks, and it reduces damage sus- tained from magical fires by 50%. The caster's holy symbol "
+    },
+    "quality_flags": []
+  }
+}

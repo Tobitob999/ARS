@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_subsystem",
+  "id": "add_2e_vision_light_system",
+  "name": "AD&D 2e Vision & Light System",
+  "tags": [
+    "add_2e",
+    "vision",
+    "light",
+    "infravision",
+    "perception"
+  ],
+  "summary": "Ausarbeitung von Sichtweiten, Lichtquellen, Infravision und Spiegelkampf.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "chapter": {
+      "number": 13,
+      "slug": "vision_and_light",
+      "book_pages": [
+        117,
+        118
+      ]
+    },
+    "chapter_file": "data/lore/add_2e/chapters/chapter_13_vision_and_light.json",
+    "page_refs": [
+      {
+        "book_page": 117,
+        "pdf_page": 118
+      },
+      {
+        "book_page": 118,
+        "pdf_page": 119
+      }
+    ],
+    "visibility_samples": [
+      "clear sky: movement 1500, spotted 1000, type 500, id 100, detail 10",
+      "twilight: movement 500, spotted 150, type 30, id 10",
+      "dense fog/blizzard: movement 10, spotted 10, type 5, id 5, detail 3"
+    ],
+    "light_source_samples": [
+      "beacon lantern",
+      "bullseye lantern",
+      "hooded lantern",
+      "torch",
+      "campfire",
+      "candle",
+      "light spell",
+      "continual light"
+    ]
+  },
+  "mechanics": {
+    "visibility_bands": {
+      "movement_detection": "max range where moving man-sized target is noticed",
+      "spotted": "max range where stationary/moving target is noticed",
+      "type_identification": "species/armament broad ID",
+      "individual_identification": "specific individual recognition",
+      "detail": "fine action detail perception"
+    },
+    "condition_modifiers": [
+      "clear sky baseline",
+      "twilight penalties",
+      "fog/blizzard severe collapse"
+    ],
+    "size_scaling": {
+      "small_targets": "one band worse",
+      "large_targets": "major bands improve, often doubled"
+    },
+    "light_sources": {
+      "common_sources": [
+        "torch",
+        "candle",
+        "campfire",
+        "hooded/bullseye/beacon lantern",
+        "light spell",
+        "continual light"
+      ],
+      "operational_tradeoff": "light grants vision but reveals party position to observers outside the light radius"
+    },
+    "infravision": "DM-dependent mode (standard/optional model), nominal range often 60 ft unless noted.",
+    "mirror_use": {
+      "use_case": "gaze hazards (e.g., medusa)",
+      "penalties": [
+        "-2 on ability/proficiency/attack checks when using mirror view",
+        "loss of DEX AC bonus vs mirror-only viewed opponent"
+      ]
+    },
+    "cross_links": {
+      "encounter_distance": "data/lore/add_2e/encounters/encounter_system.json",
+      "movement": "data/lore/add_2e/mechanics/time_movement_system.json"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "polymorph_self",
+  "name": "Polymorph Self",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Polymorph Self (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      161
+    ],
+    "pdf_pages": [
+      162
+    ],
+    "raw_block": "Polymorph Self (Alteration)\nRange: 0\nComponents: V\nDuration: 2 tumdlevel\nCasting Time: 4\nArea of Effect: The caster\nSaving Throw: None\nWhen this spell is cast, the wizard IS auR\nto assume the hrm of any creature, save\nthose that are noncorporeal, from as small\nas a wren to as large as a hippopotamus.\nFurthermore, the wizard gains its physical\nmode of locomotion and breathing as well.\nNo system shock roll is required. The spell\ndoes not give the new form’s other abilities\n(attack. magic, special movement, etc.), nor\n’ 161"
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Polymorph Self",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "0",
+      "components": "V",
+      "duration": "2 tumdlevel",
+      "casting_time": "4",
+      "area_of_effect": "The caster",
+      "saving_throw": "None",
+      "description_excerpt": "When this spell is cast, the wizard IS auR to assume the hrm of any creature, save those that are noncorporeal, from as small as a wren to as large as a hippopotamus. Furthermore, the wizard gains its physical mode of locomotion and breathing as well. No system shock roll is required. The spell does not give the new form’s other abilities (attack. magic, special movement, etc.), nor ’ 161"
+    },
+    "quality_flags": []
+  }
+}

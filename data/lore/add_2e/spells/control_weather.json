@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "control_weather",
+  "name": "Control Weather",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Control Weather (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "sixth",
+    "book_pages": [
+      232
+    ],
+    "pdf_pages": [
+      233
+    ],
+    "raw_block": "Control Weather (Alteration)\nSphere: Weather\nRange: 0\nComponents: V, S, M\nDuration: 4d12 hours\nCasting Time: 1 turn\nArea of Effect: 4d4 square miles\nSaving Throw: None\nThe control weuther spell enables a priest\nto change the weather in the local area. The\nspell affects the weather for 4d12 hours in an\narea of 4d4 square miles. It requires one turn\nto cast the spell, and an additional ld4 turns\nfor the effects of the spell to be felt. The cur-\nrent weather conditions are decided by the\nDM, depending on the climate and season.\nWeather conditions have three components:\nprecipitation, temperature, and wind. The\nspell can change these conditions according\nto the following chart:\nThe upper-case headings represent exist-\ning weather conditions. The lower-case\nheadings below each upper-case heading are\nthe new conditions to which the caster can\nchange the existing conditions. Further-\nmore, the caster can control the direction of\nthe wind. For example, a day that is clear,\nwarm, and with moderate wind can be con-\ntrolled to become hazy, hot, and calm. Con-\ntradictions are not possible-fog and strong\nwind, for example. Multiple control weath-\ner spells can be used only in succession.\nThe material components for this spell are\nthe priest's religious symbol, incense, and\nprayer beads or similar prayer object. Obvi-\nwhere there are appropriate dimatic condi-\ntions.\nIf Weather is a major sphere for the priest\n(as it is for druids), duration and area are\ndoubled, and the caster can change the pre-\nvailing weather by two places (e.g., he can\ncause precipitation to go from partly cloudy\nto heavy sleet, temperature to go from cool\nto arctic, and wind to go from calm to\nstrong).\nously, this spell functions only in areas"
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Control Weather",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "0",
+      "components": "V, S, M",
+      "duration": "4d12 hours",
+      "casting_time": "1 turn",
+      "area_of_effect": "4d4 square miles",
+      "saving_throw": "None",
+      "description_excerpt": "doubled, and the caster can change the pre- vailing weather by two places (e.g., he can cause precipitation to go from partly cloudy to heavy sleet, temperature to go from cool to arctic, and wind to go from calm to strong). ously, this spell functions only in areas"
+    },
+    "quality_flags": [
+      "trimmed_merged_block"
+    ]
+  }
+}

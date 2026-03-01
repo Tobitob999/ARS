@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "contaglon",
+  "name": "Contaglon",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Contaglon (Necromancy) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      155
+    ],
+    "pdf_pages": [
+      156
+    ],
+    "raw_block": "Contaglon (Necromancy)\nRange: 30 yards\nComponents: V, S\nDuration: Permanent\nCasting Time: 4\nArea of Effect: 1 creature\nSaving Throw: Neg.\nThis spell causes a major disease and\nweakness in a creature. The afflicted indi-\nvidual is immediately stricken with painful\nand distracting symptoms: boils, blotches,\nlesions, seeping abscesses, and so on.\nStrength, Dexterity, and Charisma are\nreduced by 2. Attack rolls are decreased by\n2. The effect persists until the character\nreceives a cure diseuse spell or spends Id3\nweeks taking a complete rest to recover.\nCharacters ignoring the contagion for more\nthan a day or so may be susceptible to worse\ndiseases at the discretion of the DM."
+  },
+  "mechanics": {
+    "school_or_type": "Necromancy",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Contaglon",
+      "canonical_name_guess": null,
+      "school_or_type": "Necromancy",
+      "range": "30 yards",
+      "components": "V, S",
+      "duration": "Permanent",
+      "casting_time": "4",
+      "area_of_effect": "1 creature",
+      "saving_throw": "Neg.",
+      "description_excerpt": "This spell causes a major disease and weakness in a creature. The afflicted indi- vidual is immediately stricken with painful and distracting symptoms: boils, blotches, lesions, seeping abscesses, and so on. Strength, Dexterity, and Charisma are reduced by 2. Attack rolls are decreased by 2. The effect persists until the character receives a cure diseuse spell or spends Id3 weeks taking a complete rest to recover. Characters ignoring the contagion for more than a day or so may be susceptible to worse diseases at the discretion of the DM."
+    },
+    "quality_flags": []
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "mind_blank",
+  "name": "Mind Blank",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Mind Blank (Abjuration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "eighth",
+    "book_pages": [
+      190
+    ],
+    "pdf_pages": [
+      191
+    ],
+    "raw_block": "Mind Blank (Abjuration)\nRange: 30 yards\nComponents: V, S\nDuration: 1 day\nCasting Time: 1\nArea of Effect: 1 creature\nSaving Throw: None\nWhen the very powerful mind blank spell\nis cast, the creature is totally protected from\nall devices and spells that detect, influence,\nor read emotions or thoughts. This protects\nagainst augury, charm, command, confu-\nsion, divination, empathy (all forms), ESR\nfear feeblemind, mass suggestion, phantas-\nmal killer, possession, rulership, soul trap-\nping, suggestion, and telepathy. Cloaking\nprotection also extends to the prevention of\ndiscovery or information gathering by crys-\ntal balls or other scrying devices, clairaudi-\nence, clairvoyance, communing, contacting\nother planes, or wish-related methods\n(wish, limited wish). Of course, exceedingly\npowerful deities can penetrate the spell's\nbamer."
+  },
+  "mechanics": {
+    "school_or_type": "Abjuration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Mind Blank",
+      "canonical_name_guess": null,
+      "school_or_type": "Abjuration",
+      "range": "30 yards",
+      "components": "V, S",
+      "duration": "1 day",
+      "casting_time": "1",
+      "area_of_effect": "1 creature",
+      "saving_throw": "None",
+      "description_excerpt": "When the very powerful mind blank spell is cast, the creature is totally protected from all devices and spells that detect, influence, or read emotions or thoughts. This protects against augury, charm, command, confu- sion, divination, empathy (all forms), ESR fear feeblemind, mass suggestion, phantas- mal killer, possession, rulership, soul trap- ping, suggestion, and telepathy. Cloaking protection also extends to the prevention of discovery or information gathering by crys- tal balls or other scrying devices, clairaudi- ence, clairvoyance, communing, contacting other planes, or wish-related methods (wish, limited wish). Of course, exceedingly powerful deities can penetrate the spell's bamer."
+    },
+    "quality_flags": [
+      "trimmed_merged_block"
+    ]
+  }
+}

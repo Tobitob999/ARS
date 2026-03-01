@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2.0",
+  "id": "table_55",
+  "name": "Table 55: STANDARD MODIFIERS TO INITIATIVE",
+  "category": "table",
+  "tags": [
+    "add_2e",
+    "table",
+    "player_handbook",
+    "toc_normalized"
+  ],
+  "summary": "PHB Table 55 (STANDARD MODIFIERS TO INITIATIVE).",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "table_number": 55,
+    "title": "STANDARD MODIFIERS TO INITIATIVE",
+    "book_page": 94,
+    "pdf_page": 95,
+    "raw_page_token": "94"
+  },
+  "mechanics": {
+    "source": "toc_parse_v3",
+    "confidence": "medium"
+  }
+}

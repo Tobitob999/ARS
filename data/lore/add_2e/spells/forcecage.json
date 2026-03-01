@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.2.1",
+  "id": "forcecage",
+  "name": "Forcecage",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Forcecage (Evocation) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "seventh",
+    "book_pages": [
+      184,
+      185
+    ],
+    "pdf_pages": [
+      185,
+      186
+    ],
+    "raw_block": "Forcecage (Evocation)\nRange: 10 yards per 2 levels\nComponents: V, S + special\nDuration: 6 turns + l/level\nCasting Time: 3-4\nArea of Effect: 20-foot cube\nSaving Throw: None\nThis powerful spell enables the caster to\nbring into being a cube of force, but it is un-\nlike the magical item of that name in one im-\nportant respect: The forcecage does not\nhave solid walls of force; it has alternating\nbands of force with 1/2-inch gaps between.\nThus, it is truly a cage rather than an en-\nclosed space with solid walls. Creatures\nwithin the area of effect of the spell are\ncaught and contained unless they are able to\npass through the openings-and of course\nall spells and breath weapons can pass\nthrough the gaps in the bars of force of the\nforcecage.\nA creature with magic resistance has a\nsingle attempt to pass through the walls of\nthe cage. If the resistance check is success-\nful, the creature escapes. If it fails, then the\ncreature is caged. Note that a successful\ncheck does not destroy the cage, nor does it\nenable other creatures (save familiars) to\nflee with the escaping creature. The force-\ncage is also unlike the solid-walled protect-\nive device, cube of force, in that it can be\ngotten rid of only by means of a dispel\nmagic spell or by the expiration of the spell.\nBy means of special preparation at the\ntime of memorization, a forcecage spell can\nbe altered to a forcecube spell. The cube cre-\nated is 10 feet on a side, and the spell then re-\nsembles that of a cube of force in all respects\nsave that of the differences between a cast\nspell and the magic of a device, including\nthe methods of defeating its power.\nAlthough the actual casting of either ap-\nplication of the spell requires no material\ncomponent, the study required to commit it\nto memory does demand that the wizard\npowder a diamond of at least 1,OOO gp\nvalue, using the diamond dust to trace the\noutlines of the cage orcube he desires to cre-\nate via spellcasting at some later time. Thus,\nin memorization, the diamond dust is em-\nployed and expended, for upon completion\n184\n-\nof study, the wizard must then toss the dust\ninto the air and it will disappear.\nLimited Wish (Conjuration/Summoning,\nInvocatiodEvocation)\nRange: Unlimited\nComponents: V\nDuration: Special\nCasting Time: Special\nArea of Effect: Special\nSaving Throw: Special ,\nThe limited wish is a very potent but diffi-\ncult spell. It will fulfill literally, but azdy\npartially or for a limited duration, tb ut&er-\nance of the spellcaster. Thus, the actd@ ad\nthe past, present, or future might be d&e?$d\n(but possibly only for the wizard h th\nwording of the spell is most carefu\nin some limited manner. The use\nwish will not substantially cha\nalities, nor will it bring wealth\nmerely by asking. The spell can, fer rxam-\nple, restore some hit points (or all kh points\nfor a limited duration) lost by the wizard. It\ncan reduce opponent hit probabilities or\ndamage, increase duration of some magical\neffect, cause a creature to be favorably dis-\nposed to the spellcaster, mimic a spell of 7th\nlevel or less, and so on (see the wish spell).\nGreedy desires usually end in disaster for\nthe wisher. Casting time is based on the time\nspent preparing the wording for the me11\n(cleveipliyers &de what thTey want tosay\nbefore using the spell). Normally the casting\ntime is one round (most of it being taken up\nby deciding what to say). Casting this spell\nages the caster one year per 100 years of reg-\nular life span.\nMass Invisibility\nWusion/Phantasm)\nRange: 10 yards/level\nComponents: V, S, M\nDuration: Special\nCasting Time: 7\nArea of Effect: Special\nSaving Throw: None\nThis is a more extensive adaptation of the\ninvisibility spell for battlefield use. It can\nhide creatures in a 60 yd. x 60 yd. area; up\nto 300 to 400 man-sized creatures, 30 to 40\ngiants, or six to eight large dragons. The ef-\nfect is mobile with the unit and is broken\nwhen the unit attacks. Individuals 1\nthe unit become visible. The wizard c\nthis spell upon command.\nThe material component of the mass *\nvisibility spell are an eyelash and a bit\ngum arabic, the former encased in the latt\nI Wirard Cndlc 17th I ewd\\"
+  },
+  "mechanics": {
+    "school_or_type": "Evocation",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Forcecage",
+      "canonical_name_guess": null,
+      "school_or_type": "Evocation",
+      "range": "10 yards per 2 levels",
+      "components": "V, S + special",
+      "duration": "6 turns + l/level",
+      "casting_time": "3-4",
+      "area_of_effect": "20-foot cube",
+      "saving_throw": "None",
+      "description_excerpt": "This is a more extensive adaptation of the invisibility spell for battlefield use. It can hide creatures in a 60 yd. x 60 yd. area; up to 300 to 400 man-sized creatures, 30 to 40 giants, or six to eight large dragons. The ef- fect is mobile with the unit and is broken when the unit attacks. Individuals 1 the unit become visible. The wizard c this spell upon command. The material component of the mass * visibility spell are an eyelash and a bit gum arabic, the former encased in the latt I Wirard Cndlc 17th I ewd\\"
+    },
+    "quality_flags": [
+      "trimmed_merged_block"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_page",
+  "tags": [
+    "add_2e",
+    "player_handbook",
+    "fulltext",
+    "pdf_page"
+  ],
+  "summary": "PDF-Seite 2 des AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "pdf_page": 2,
+    "text": "Ylrl, \non \nA \nThe revised and updated Pfayer's Handbook for the 2nd Edition of the ADbDO game. \nTSR, Inc. \nPOB 756 \nLake Geneva \nw53147 USA \nTSR Ltd. \n120 Church End, Cherry Hinton \nCambridge CBI 3LB \nUnited Kingdom"
+  },
+  "mechanics": {
+    "conversion": "fulltext_page_dump",
+    "generated_at": "2026-02-28T16:50:13"
+  }
+}

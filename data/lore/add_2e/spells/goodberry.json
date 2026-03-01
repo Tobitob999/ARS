@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "goodberry",
+  "name": "Goodberry",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Goodberry (Alteration, Evocation) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "second",
+    "book_pages": [
+      205
+    ],
+    "pdf_pages": [
+      206
+    ],
+    "raw_block": "Goodberry (Alteration, Evocation)\nReversible\nSphere: Plant\nRange: Touch\nComponents: V, S, M\nDuration: 1 day + 1 dayllevel\nCasting Time: 1 round\nArea of Effect: 2d4 fresh berries\n’ Saving Throw: None\nCasting a goodberry spell upon a handful\nof freshly picked berries makes 2d4 of them\nmagical. The caster (as well as any other\ncaster of the same faith and 3rd or higher\nlevel) can immediately discern which berries\nare affected. A detect magic spell discovers\nthis also. Berries with the magic either\nenable a hungry creature of approximately\nman-size to eat one and be as well-\nnourished as if a full normal meal were eat-\nen, or else cure 1 point of physical damage\nfrom wounds or other similar causes, sub-\n, ,.“’$$.\nject to a maximum of 8 points of such curing\nThe reverse of the spell, budberry, causes\n2d4 rotten berries to appear wholesome, but\neach actually delivers 1 point of poison\ndamage (no saving throw) if ingested.\nThe material component of the spell is the\ncaster’s holy symbol passed over the freshly\npicked, edible berries to be enspelled (blue-\nberries, blackberries, raspberries, currants,\ngooseberries, etc.).\nin any 24-hour period."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration, Evocation",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Goodberry",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration, Evocation",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "1 day + 1 dayllevel",
+      "casting_time": "1 round",
+      "area_of_effect": "2d4 fresh berries",
+      "saving_throw": null,
+      "description_excerpt": "Casting a goodberry spell upon a handful of freshly picked berries makes 2d4 of them magical. The caster (as well as any other caster of the same faith and 3rd or higher level) can immediately discern which berries are affected. A detect magic spell discovers this also. Berries with the magic either enable a hungry creature of approximately man-size to eat one and be as well- nourished as if a full normal meal were eat- en, or else cure 1 point of physical damage from wounds or other similar causes, sub- , ,.“’$$. ject to a maximum of 8 points of such curing The reverse of the spell, budberry, causes 2d4 rotten berries to appear wholesome, but each actually delivers 1 point of poison damage (no saving throw) if ingested. The material component of the spell is the caster’s holy symbol passed over the freshly picked, edible berries to be enspelled (blue- berries, blackberries, raspberries,"
+    },
+    "quality_flags": [
+      "missing_standard_fields"
+    ]
+  }
+}

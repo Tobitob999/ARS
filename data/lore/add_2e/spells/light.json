@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "light",
+  "name": "Light",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Light (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": null,
+    "book_pages": [
+      136
+    ],
+    "pdf_pages": [
+      137
+    ],
+    "raw_block": "Light (Alteration)\nRange: 60 yards\nComponents: V, M\nDuration: 1 turn/level\nCasting Time: 1\nArea of Effect: 20-foot-radius globe\nSaving Throw: Special\nThis spell creates a luminous glow, equal\nto torchlight, within a fixed radius of the\nspell’s center. Objects in darkness beyond\nthis sphere can be seen, at best, as vague and\nshadowy shapes. The spell is centered on a\npoint selected by the caster, and he must\nhave a line of sight and unobstructed path\nfor the spell when it is cast. Light can spring\nfrom air, rock, metal, wood, or almost any\nsimilar substance.\nThe effect is immobile unless it is specifi-\ncally centered on a moveable object or\nmobile creature. If this spell is cast upon a\ncreature, the applicable magic resistance\nand saving throw rolls must be made. Suc-\ncessful resistance negates the spell, while a\nsuccessful saving throw indicates that the\nspell is centered immediately behind the\ncreature, rather than upon the creature\nitself. Light taken into an area of magical\ndarkness does not function, but if cast\ndirectly against magical darkness negates it\n(but only for the duration of the light spell,\nif the darkness effect is continual).\nLight centered on the visual organs of a\ncreature blinds it, reducing its attack rolls\nand saving throws by 4 and worsening its\nArmor Class by 4. The caster can end the\nspell at any time by uttering a single word.\nThe material component is a firefly or a\npiece of phosphorescent moss."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Light",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "60 yards",
+      "components": "V, M",
+      "duration": "1 turn/level",
+      "casting_time": "1",
+      "area_of_effect": "20-foot-radius globe",
+      "saving_throw": "Special",
+      "description_excerpt": "if the darkness effect is continual). Light centered on the visual organs of a creature blinds it, reducing its attack rolls and saving throws by 4 and worsening its Armor Class by 4. The caster can end the spell at any time by uttering a single word. The material component is a firefly or a piece of phosphorescent moss."
+    },
+    "quality_flags": []
+  }
+}

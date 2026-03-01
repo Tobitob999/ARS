@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "esp",
+  "name": "ESP",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "ESP (Divination) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "second",
+    "book_pages": [
+      141
+    ],
+    "pdf_pages": [
+      142
+    ],
+    "raw_block": "ESP (Divination)\nRange: 5 yards/level, 90 yards maximum\nComponents: V, S, M\nDuration: 1 round/level\nCasting Time: 2\nArea of Effect: 1 creature per probe\nSaving Thrpw: None\nWhen an ESP spell is used, the caster is\nable to detect the surface thoughts of any\ncreatures in range-except for those of un-\ndead and creatures without minds (as we\nknow them). The ESP is stopped by two or\nmore feet of rock, two or more inches of any\nmetal other than lead, or a thin sheet of lead\nfoil. The wizard employing the spell is able\nto probe the surface thoughts of one crea-\nture per round, getting simple instinctual\nthoughts from lower order creatures.\nProbes can continue on the same creature\nfrom round to round or can move on to\nother creatures. The caster can use the spell\nto help determine if a creature lurks behind\na door, for example, but the ESP does not al-\nways reveal what sort of creature it is. If\nused as part of a program of interrogation,\nan intelligent and wary subject receives an\ninitial saving throw. If successful, the crea-\nture successfully resists and the spell reveals\nno additional information. If the saving\nthrow is failed, the caster may learn addi-\ntional information, according to the DMs\nruling. The creature's Wisdom adjustment\napplies, as may additional bonuses up to\n+4, based on the sensitivity of the informa-\ntion sought.\nThe material component of this spell is a\ncopper piece."
+  },
+  "mechanics": {
+    "school_or_type": "Divination",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "ESP",
+      "canonical_name_guess": null,
+      "school_or_type": "Divination",
+      "range": "5 yards/level, 90 yards maximum",
+      "components": "V, S, M",
+      "duration": "1 round/level",
+      "casting_time": "2",
+      "area_of_effect": "1 creature per probe",
+      "saving_throw": null,
+      "description_excerpt": "Saving Thrpw: None When an ESP spell is used, the caster is able to detect the surface thoughts of any creatures in range-except for those of un- dead and creatures without minds (as we know them). The ESP is stopped by two or more feet of rock, two or more inches of any metal other than lead, or a thin sheet of lead foil. The wizard employing the spell is able to probe the surface thoughts of one crea- ture per round, getting simple instinctual thoughts from lower order creatures. Probes can continue on the same creature from round to round or can move on to other creatures. The caster can use the spell to help determine if a creature lurks behind a door, for example, but the ESP does not al- ways reveal what sort of creature it is. If used as part of a program of interrogation, an intelligent and wary subject receives an initial saving throw. If successful, the crea- ture successfully "
+    },
+    "quality_flags": [
+      "missing_standard_fields"
+    ]
+  }
+}

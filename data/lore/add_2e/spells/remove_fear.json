@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "remove_fear",
+  "name": "Remove Fear",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Remove Fear (Abjuration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "ninth",
+    "book_pages": [
+      202
+    ],
+    "pdf_pages": [
+      203
+    ],
+    "raw_block": "Remove Fear (Abjuration)\nReversible\nSphere: Charm\nRange: 10 yards\nComponents: V, 5\nDuration: Special\nCasting Time: 1\nArea of Effect: 1 creature/4 levels\nSaving Throw: Special\nThe priest instills courage in the spell\nredpient, raising the creature‘s saving throw\nrolls against magical fear attacks by +4 for\none turn. If the recipient has recently (that\nday) failed a saving throw against such an\nattack, the spell immediately grants another\nsaving throw, with a +4 bonus to the die\nroll. For every four levels of the caster, one\ncreature can be affected by the spell (one\ncreature at levels 1 through 4, two creatures\nat levels 5 through 8, etc.).\nThe reverse of the spell, cause fear, causes\none creature to flee in panic at maximum\nmovement speed away from the caster for,\nld4 rounds. A successful saving throw\nagainst the reversed effect negates it, and\nany Wisdom adjustment also applies. Of\ncourse, cause fear can be automatically\ncountered by remove fear and vice versa.\nNeither spell has any effect on undead of\nany sort."
+  },
+  "mechanics": {
+    "school_or_type": "Abjuration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Remove Fear",
+      "canonical_name_guess": null,
+      "school_or_type": "Abjuration",
+      "range": "10 yards",
+      "components": "V, 5",
+      "duration": "Special",
+      "casting_time": "1",
+      "area_of_effect": "1 creature/4 levels",
+      "saving_throw": "Special",
+      "description_excerpt": "The priest instills courage in the spell redpient, raising the creature‘s saving throw rolls against magical fear attacks by +4 for one turn. If the recipient has recently (that day) failed a saving throw against such an attack, the spell immediately grants another saving throw, with a +4 bonus to the die roll. For every four levels of the caster, one creature can be affected by the spell (one creature at levels 1 through 4, two creatures at levels 5 through 8, etc.). The reverse of the spell, cause fear, causes one creature to flee in panic at maximum movement speed away from the caster for, ld4 rounds. A successful saving throw against the reversed effect negates it, and any Wisdom adjustment also applies. Of course, cause fear can be automatically countered by remove fear and vice versa. Neither spell has any effect on undead of any sort."
+    },
+    "quality_flags": []
+  }
+}

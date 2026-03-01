@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "change_self",
+  "name": "Change Self",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Change Self (Illusion/Phantasm) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": null,
+    "book_pages": [
+      132
+    ],
+    "pdf_pages": [
+      133
+    ],
+    "raw_block": "Change Self (Illusion/Phantasm)\nRange: 0\nComponents: V, S\nDuration: 2d6 rounds + 2 rounds/level\nCasting Time: 1\nArea of Effect: The caster\nving Throw: None\ns spell enables the wizard to alter the\nrance of his form-including clothing\nand equipment-to appear one foot shorter\nor taller; thin, fat, or in between; human,\nhumanoid, or any other generally man-\nshaped bipedal creature. The caster cannot\nduplicate a specific individual. The spell\ndoes not provide the abilities or mannerisms\nof the chosen form. The duration of the spell\nis 2d6 rounds plus two additional rounds\nper level of experience of the spellcaster. The\nDM may allow a saving throw for disbelief\nunder certain circumstances: for example,\nif the caster acts in a manner obviously\ninconsistent with his chosen role. The spell\ndoes not alter the perceived tactile (i.e.,\nment, and the rus\n’ Range: 120 yards\nComponents: V, S\nDuration: Special\nCasting Time: 1\nArea of Effect: 1 person\nSaving Throw: Neg.\nThis spell affects any single person it is\ncast upon. The term person includes any\nbipedal human, demihuman, or humanoid\nof man-size or smaller, such as brownies,\ndryads, dwarves, elves, gnolls, gnomes,\ngoblins, half-elves, halflings, half-orcs,\nhobgoblins, humans, kobolds, lizard men,\nnixies, orcs, pixies, sprites, troglodytes, and\nothers. Thus, a 10th-level fighter could be\ncharmed, but an ogre could not.\nThe person receives a saving throw vs.\nspell to avoid the effect, with any adjust-\nment due to Wisdom (see Table 5). If the\nperson receives damage from the caster\ngroup in the same round the charm is cas\nan additional bonus of +1 per hit point c\ndamage received is added to the victim\nsaving throw.\nIf the spell recipient fails his savin\nthrow, he regards the caster as a truste\nfriend and ally to be heeded and protectec\nThe spell does not enable the caster to con\ntrol the charmed creature as if it were a\nautomaton, but any word or action of th\ncaster is viewed in the most favorable wa)\nThus, a charmed person would not obey\nsuicide command, but he might believe th\ncaster if assured that the only chance to sav~\nthe caster‘s life is for the person to hold bacl\nan onrushing red dragon for “just a round o\ntwo.” Note also that the spell does no\nendow the caster with linguistic capabilitie:\nbeyond those he normally possesses (i.e., hc\nmust speak the victim’s language to commu\nnicate his commands).\nThe duration of the spell is a function 01\nthe charmed person’s Intelligence and is tiec\nto the saving throw. The spell may be bro-\nken if a successful saving throw is rolled,\nand this saving throw is checked on a peri-\nodic basis, according to the creature’s Intel-\nligence (see the following table). If the caster\nharms, or attempts to harm, the charmed\nperson by some overt action, or if a dispel\nmagic spell is successfully cast upon the\ncharmed person, the charm spell is broken.\nIf two or more charm effects simultane-\nously affect a creature, the result is decided\nby the DM. This could range from one effect\nbeing clearly dominant, to the subject being\ntom by conflicting desires, to new saving\nthrows that could negate both spells.\nNote that the subject has full memory of\n:he events that took place while he was\n:harmed.\nIntelligence Score Time Between Checks\n3 or less 3 months\n2 months 4 to 6\n7 to 9 1 month\n10 to 12 3 weeks\n13 to 14 2 weeks\n15 to 16 1 week\n17 3 days\n18 2 days\n19 or more 1 day\nNote: The period between checks is the\n[me period during which the check occurs.\nVhen to roll the check during this time is\netermined (randomly or by selection) by\nle DM. The roll is made secretly.\nChill Touch Ovecromancy)\nRange: 0\nComponents: V, S\nDuration: 3 rounds + 1 round/level\nCasting Time: 1\nArea of Effect: The caster\nSaving Throw: Neg.\nWhen the caster completes this spell, a\nblue glow encompasses his hand. This\nenergy attacks the life force of any living\ncreature upon which the wizard makes a\nsuccessful melee attack. The touched ma-\nture must roll a successful saving throw vs.\nspell or suffer ld4 points of damage and lose\n1 point of Strength. If the save is successful,\nthe creature remains unharmed. Creatures\nnot rated for Strength suffer a - 1 penalty to\ntheir attack rolls for every other successful\ntouch. Lost Strength returns at the rate of 1\npoint per hour. Damage must be cured mag-\nically or healed naturally.\nThis spell has a special effect on undead\ncreatures. Undead touched by the caster suf-\nfer no damage or Strength loss, but they\nmust successfully save vs. spell or flee for\nld4 rounds + 1 round per level of the caster."
+  },
+  "mechanics": {
+    "school_or_type": "Illusion/Phantasm",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Change Self",
+      "canonical_name_guess": null,
+      "school_or_type": "Illusion/Phantasm",
+      "range": "0",
+      "components": "V, S",
+      "duration": "2d6 rounds + 2 rounds/level",
+      "casting_time": "1",
+      "area_of_effect": "The caster",
+      "saving_throw": "Neg.",
+      "description_excerpt": "When the caster completes this spell, a blue glow encompasses his hand. This energy attacks the life force of any living creature upon which the wizard makes a successful melee attack. The touched ma- ture must roll a successful saving throw vs. spell or suffer ld4 points of damage and lose 1 point of Strength. If the save is successful, the creature remains unharmed. Creatures not rated for Strength suffer a - 1 penalty to their attack rolls for every other successful touch. Lost Strength returns at the rate of 1 point per hour. Damage must be cured mag- ically or healed naturally. This spell has a special effect on undead creatures. Undead touched by the caster suf- fer no damage or Strength loss, but they must successfully save vs. spell or flee for ld4 rounds + 1 round per level of the caster."
+    },
+    "quality_flags": []
+  }
+}

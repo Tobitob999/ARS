@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "shocking_grasp",
+  "name": "Shocking Grasp",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Shocking Grasp (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": null,
+    "book_pages": [
+      137,
+      138
+    ],
+    "pdf_pages": [
+      138,
+      139
+    ],
+    "raw_block": "Shocking Grasp (Alteration)\nRange: Touch\nComponents: V, S\nDuration: Special\nCasting Time: 1\nArea of Effect: Creature touched\nSaving Throw: None\nWhen the wizard casts this spell, he\ndevekqm a powerful electrical charge tkat\ngives a jolt to the creature toucbi. Thc\nspell remains in effect for one rod act;\nlevel of the caster or until it is diochorgedbg\nthe caster touching another cream. The\nshocking grasp delivers Id8 points of dara\nage, plus 1 point per level of the wizard\n(e.g., a 2nd-level wizard wvuld discharge a\nshock causing Id8 +2 points of damage).\nWhiie the wizard must come close enough\nto his opponent to lay a hand on the oppo-\nnent's body or upon an electrical conductor\nthat touches the opponent's body, a like\ntouchfrom the opponent does not discharge\nthe spell.\n1 a‘ Wizard Spells (1 st Level)"
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Shocking Grasp",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "Touch",
+      "components": "V, S",
+      "duration": "Special",
+      "casting_time": "1",
+      "area_of_effect": "Creature touched",
+      "saving_throw": "None",
+      "description_excerpt": "When the wizard casts this spell, he devekqm a powerful electrical charge tkat gives a jolt to the creature toucbi. Thc spell remains in effect for one rod act; level of the caster or until it is diochorgedbg the caster touching another cream. The shocking grasp delivers Id8 points of dara age, plus 1 point per level of the wizard (e.g., a 2nd-level wizard wvuld discharge a shock causing Id8 +2 points of damage). Whiie the wizard must come close enough to his opponent to lay a hand on the oppo- nent's body or upon an electrical conductor that touches the opponent's body, a like touchfrom the opponent does not discharge the spell. 1 a‘ Wizard Spells (1 st Level)"
+    },
+    "quality_flags": []
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "endure_coldhdure_heat",
+  "name": "Endure Coldhdure Heat",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Endure Coldhdure Heat (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "ninth",
+    "book_pages": [
+      200
+    ],
+    "pdf_pages": [
+      201
+    ],
+    "raw_block": "Endure Coldhdure Heat (Alteration)\nSphere: Protection\ncreature receiving this spell is pro-\nted from normal extremes of cold or heat\n(depending on which application the priest\nselects at the time of casting). The creature\ncan stand unprotected in temperatures as\nlow as - 30° F. or as high as 130° F. (depend-\ning on application) with no ill effect. Tem-\n- peratures beyond these limits inflict 1 point\nof damage per hour of exposure for every\ndegree beyond the limit. The spell is imme-\nBy means of this spell, the caster is aJ1e to\ncause plants in the area of effect to entangle\ncreatures within the area. The grasses,\nweeds, bushes, and even trees wrap, twist,\nand entwine about the creatures, holding\nthem fast for the duration of the spell. Any\ncreature entering the area is subject to this\neffect. A creature that rolls a successful sav-\ning throw vs. spell can escape the area,\nmoving at only 10 feet per round until out of\nthe area. Exceptionally large (gargantuan)\nor strong creatures may suffer little or no\ndistress from this spell, at the DMs option,\nbased on the strength of the entangling\nplants.\nThe material component is the caster's\nholy symbol."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Endure Coldhdure Heat",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": null,
+      "components": null,
+      "duration": null,
+      "casting_time": null,
+      "area_of_effect": null,
+      "saving_throw": null,
+      "description_excerpt": "creature entering the area is subject to this effect. A creature that rolls a successful sav- ing throw vs. spell can escape the area, moving at only 10 feet per round until out of the area. Exceptionally large (gargantuan) or strong creatures may suffer little or no distress from this spell, at the DMs option, based on the strength of the entangling plants. The material component is the caster's holy symbol."
+    },
+    "quality_flags": [
+      "missing_standard_fields"
+    ]
+  }
+}

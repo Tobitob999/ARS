@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "delayed_blast_fireball",
+  "name": "Delayed Blast Fireball",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Delayed Blast Fireball (Evocation) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "seventh",
+    "book_pages": [
+      183
+    ],
+    "pdf_pages": [
+      184
+    ],
+    "raw_block": "Delayed Blast Fireball (Evocation)\nRange: 100 yards + 10 yarddlevel\nComponents: V, S, M\nDuration: Special\nCasting Time: 7\nkea of Effect: 20-foot-radius globe\nSaving Throw: 1/z\nThis spell creates a fireball, with a + 1 bo-\nius to each of its dice of damage, which re-\neases its blast anywhere from instantly to\nive rounds later, according to the command\n:iven by the wizard. In &her respects, the\nlpell is the same as the 3rd-level spell fire-\ntall.\nDrawmij’s Instant Summons\n(ConjuratiodSummonhg)\nRange: Infinite + special\nComponents: V, S, M\nDuration: Instantaneous\nCasting Time: 1\nArea of Effect: 1 small object\nSaving Throw: None\nWhen this spell is cast, the wizard tele-\nports some desired item from virtually any\nlocation directly to his hand. The single ob-\nject can be no longer in any dimension than\na sword, can have no more weight than a\nshield (about eight pounds), and it must be\nnonliving. To prepare this spell, the wizard\nmust hold a gem of not less than 5,000 gp\nvalue in his hand and utter all but the final\nword of the conjuration. He then must\ncrush this gem and utter the final word. The\ndesired item is then transported instantly\ninto the spellcaster‘s right or left hand as he\ndesires. The item must have been previously\ntouched during the initial incantation and\nspecificaIly named; only that particular\nitem is summoned by the spell. The special\nIf the item is in the passessi\ncreature, the spell does not\ncaster knows wh\nthe summons is\nmoned from othe\n(not necessarily the physical grasp) of an-\nother creature. For each level of expaience\nabove the 14th, the wizard is able to sum-\nmon a desired item from one plane farther\nremoved from the plane he is in at the time\nthe spell is cast (one plane away at 14th\nlevel, two planes away at 15th. etc.) Thus, a\nwizard Qf 16th level could cast the spell even\nif the desired item was on the second layer of\none of the outer planes, but at 14th level the\nwizard would be able to summon the item\nonly if it were no farther than one of the in-\nner planes, the Ethereal plane, or the AstraI\nplane (see Manual of the Runes). Note that\nspecial wards or barriers, or factors that\nblock the teleport or plane shift spells, may\nalso block the operation of this spell. Ob-\njects in Leomunds secret chest cannot be re-\ncovered by using this spell.\nNote: If the item is wizard marked, it can\nbe summoned from anywhere on the same\nplane unless special local conditions\nFurthermore, the details of the locat\nthe item are more specific,\nmore easily traceable with\nscrying magic.\n183"
+  },
+  "mechanics": {
+    "school_or_type": "Evocation",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Delayed Blast Fireball",
+      "canonical_name_guess": null,
+      "school_or_type": "Evocation",
+      "range": "100 yards + 10 yarddlevel",
+      "components": "V, S, M",
+      "duration": "Special",
+      "casting_time": "7",
+      "area_of_effect": "1 small object",
+      "saving_throw": "1/z",
+      "description_excerpt": "When this spell is cast, the wizard tele- ports some desired item from virtually any location directly to his hand. The single ob- ject can be no longer in any dimension than a sword, can have no more weight than a shield (about eight pounds), and it must be nonliving. To prepare this spell, the wizard must hold a gem of not less than 5,000 gp value in his hand and utter all but the final word of the conjuration. He then must crush this gem and utter the final word. The desired item is then transported instantly into the spellcaster‘s right or left hand as he desires. The item must have been previously touched during the initial incantation and specificaIly named; only that particular item is summoned by the spell. The special If the item is in the passessi creature, the spell does not caster knows wh the summons is moned from othe (not necessarily the physical grasp) of an- other creatu"
+    },
+    "quality_flags": []
+  }
+}

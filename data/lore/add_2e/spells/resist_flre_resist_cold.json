@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "resist_flre_resist_cold",
+  "name": "Resist Flre/Resist Cold",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Resist Flre/Resist Cold (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "second",
+    "book_pages": [
+      206,
+      207
+    ],
+    "pdf_pages": [
+      207,
+      208
+    ],
+    "raw_block": "Resist Flre/Resist Cold (Alteration)\nSphere: Protection\nRange: Touch\nComponents: V, S, M\nDuration: 1 round/level\nCasting Time: 5\nArea of Effect: Creature touched\nSaving Throw: None\nWhen this spell is placed upon a creature\nby a priest, the creature‘s body is toughened\nto withstand heat or cold, as chosen by the\ncaster. Complete immunity to mild condi-\ntions (standing naked in the snow or reach-\ning into an ordinary fire to pluck out a note)\nis gained. The recipient can somewhat resist\nintense heat or cold (whether natural or\nmagical in origin), such as red-hot charcoal,\na large amount of bu’ming oil, flaming\nswords, fire storms, fireballs, meteor\nswarms, red dragon‘s breath, frostbrand\nswords, ice storms, wands of frost, or white\ndragon’s breath. In all of these cases, the\ntemperature affects the creature to some ex-\ntent. The recipient of the spell gains a bonus\nof +3 to saving throws against such attack\nforms and all damage sustained is reduced\nby 50%; therefore, if the saving throw is\nfailed, the creature sustains one-half dam-\nage, and if the saving throw is successful,\nonly one-quarter damage is sustained. Re-\nsistance to fire lasts for one round for each\nexperience level of the priest placing the\nspell.\nThe caster needs a drop of mercury as the\nmaterial component of this spell.\nSilence, 15’ Radius (Alteration)\nSphere: Guardian\nRange: 120 yards\nComponents: V, S\nDuration: 2 rounds/level\nCasting Time: 5\nArea of Effect: 15-foot-radius sphere\nSaving Throw: None\nUpon casting this spell, complete silence\nprevails in the affected area. All sound is\nstopped: conversation is impossible, spells\ncannot be cast (or at least not those with\nverbal components, if the optional compo-\nnent rule is used), and no noise whatsoever\nissues from or enters the area. The spell can\nbe cast into the air or upon an object, but\nthe effect is stationary unless cast on a mo-\nbile object or creature. The spell lasts two\nrounds for each level of experience of the\npriest. The spell can be centered upon a\ncreature, and the effect then radiates from\nthe creature and moves as it moves. An un-\n206\n-\nPriest Snells (2nd Lekcr\nwilling creature receives a saving throw\nagainst the spell. If the saving throw is suc-\ncessful, the spell effect is centered about one\nfoot behind the position of the subject crea-\nture at the instant of casting. This spell pro-\nvides a defense against sound-based attacks,\nsuch as harpy singing, horn of blasting, etc."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Resist Flre/Resist Cold",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "1 round/level",
+      "casting_time": "5",
+      "area_of_effect": "Creature touched",
+      "saving_throw": "None",
+      "description_excerpt": "Upon casting this spell, complete silence prevails in the affected area. All sound is stopped: conversation is impossible, spells cannot be cast (or at least not those with verbal components, if the optional compo- nent rule is used), and no noise whatsoever issues from or enters the area. The spell can be cast into the air or upon an object, but the effect is stationary unless cast on a mo- bile object or creature. The spell lasts two rounds for each level of experience of the priest. The spell can be centered upon a creature, and the effect then radiates from the creature and moves as it moves. An un- 206 - Priest Snells (2nd Lekcr willing creature receives a saving throw against the spell. If the saving throw is suc- cessful, the spell effect is centered about one foot behind the position of the subject crea- ture at the instant of casting. This spell pro- vides a defense against soun"
+    },
+    "quality_flags": []
+  }
+}

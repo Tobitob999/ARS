@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "snare",
+  "name": "Snare",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Snare (EnchantrnenKhann) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "third",
+    "book_pages": [
+      213,
+      214
+    ],
+    "pdf_pages": [
+      214,
+      215
+    ],
+    "raw_block": "Snare (EnchantrnenKhann)\nSphere: Plant\nRange: Touch\nComponents: V, S, M\nDuration: Permanent until triggered\nCasting Time: 3 rounds\nArea of Effect: 2' diameter circle plus V6' per\nSaving Throw: None\nThis spell enables the caster to make a\nsnare that is 90% undetectable without\nmagical aid. The snare can be made from\nany supple vine, a thong, or a rope. When\nthe snare spell is cast upon it, the cord-\nlike object blends with its surroundings.\nOne end of the snare is tied in a loop that\ncontracts around one or more of the limbs\nof any creature stepping inside the circle\n(note that the head of a worm or snake\ncould be thus ensnared).\nIf a strong and supple tree is nearby, the\nsnare can be fastened to it. The magic of the\nspell causes the tree to bend and then\nstraighten when the loop is triggered, inflict-\ning ld6 points of damage to the creature\ntrapped, and lifting it off the ground by the\ntrapped member(s) (or strangling it if the\nheadheck triggered the snare). If no such\nsapling or tree is available, the cord-lie ob-\nject tightens upon the member(s), then\nwraps around the entire creature, causing\nno damage, but tightly binding it. Under\nwater, the cord coils back upon its anchor\npoint. The snare is magical, so for one hour\nit is breakable only by cloud giant or greater\nStrength (23); each hour thereafter, the\nsnare material loses magic so as to become 1\npoint more breakable per hour-= after\ntwo hours, 21 after three, 20 after four-\nuntil six full hours have elapsed. At that\ntime, 18 Strength will break the bonds. Af-\nlevel of the spellcaster\nL A1\nter 12 hours have elapsed, the materials of\nthe snare lose all magical properties and the\nloop opens, freeing anything it held. The\nsnare can be cut with any magical weapon,\nor with any edged weapon wielded with at\nleast a +2 attack bonus (from Strength, for\nexample).\nThe caster must have a snake skin and a\npiece of sinew from a strong animal to\nweave into the cord-lie object from which\nhe will make the snare. Only the caster's\nholy symbol is otherwise needed.\n213\n--\ndepend on the level of experience of the\npriest. Even if the casting is successful, such\ncreatures are as evasive as possible when\nquestioned. The dead tend to give extremely\nbrief and limited answers, often cryptic, and\nto take questions literally. Furthermore,\ntheir knowledge is often limited to what\nthey knew in life.\nA dead creature of different alignment or\nSphere: Divination\nRange: 1\nComponents: V, S, M\nDuration: Special\nCasting Time: 1 turn\nArea of Effect: 1 creature\nSa* Throw: Swcial Y\nUpon casting a speak with deud spell, the\npriest is able to ask several questions of a\ndead creature in a set period of time and\nreceive answers according to the knowledge\nof that creature. Of course, the priest must\nbe able to converse in the language that the\ndeud creature once used. The length of time\nthe creature bas been dead is a factor, since\nonly higher level priests can converse with a\nlong-ckad creature. The number of ques-\ntions that can be answered and the length of\ntime in which the questions can be asked\nof higher level or Hit Dice than the caster's\nlevel receives a saving throw vs. spell. A\ndead creature that successfully saves can\nrefuse to answer questions, ending the spell.\nAt the DMs option, the casting of this spell\non a given creature might be restricted to\nonce per week.\nThe priest needs a holy symbol and burn-\ning incense in order to cast this spell upon\nthe body, remains, or a portion thereof. The\nremains are not expended. This spell does\nnot function under water.\nNumber\nof Time Dead Questioned Questions\nCaster's Level Maximum Length of\nI\n1 week 2\nof Experience\nup to 7th\n21st and up 1,oOO years 1 hour 7"
+  },
+  "mechanics": {
+    "school_or_type": "EnchantrnenKhann",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Snare",
+      "canonical_name_guess": null,
+      "school_or_type": "EnchantrnenKhann",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "Permanent until triggered",
+      "casting_time": "3 rounds",
+      "area_of_effect": "2' diameter circle plus V6' per",
+      "saving_throw": "None",
+      "description_excerpt": "Sa* Throw: Swcial Y Upon casting a speak with deud spell, the priest is able to ask several questions of a dead creature in a set period of time and receive answers according to the knowledge of that creature. Of course, the priest must be able to converse in the language that the deud creature once used. The length of time the creature bas been dead is a factor, since only higher level priests can converse with a long-ckad creature. The number of ques- tions that can be answered and the length of time in which the questions can be asked of higher level or Hit Dice than the caster's level receives a saving throw vs. spell. A dead creature that successfully saves can refuse to answer questions, ending the spell. At the DMs option, the casting of this spell on a given creature might be restricted to once per week. The priest needs a holy symbol and burn- ing incense in order to cast this s"
+    },
+    "quality_flags": []
+  }
+}

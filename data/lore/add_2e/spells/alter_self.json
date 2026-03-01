@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "alter_self",
+  "name": "Alter Self",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Alter Self (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "second",
+    "book_pages": [
+      139
+    ],
+    "pdf_pages": [
+      140
+    ],
+    "raw_block": "Alter Self (Alteration)\nRange: 0\nComponents: V, S\nDuration: 3d4 rounds + 2 rounddlevel\nCasting Time: 2\nArea of Effect: The caster\nSaving Throw: None\nWhen this spell is cast, the wizard can\nalter his appearance and form-including\nclothing and equipment-to appear taller or\nshorter; thin, fat, or in between; human,\nhumanoid, or any other generally man-\nshaped bipedal creature. The caster‘s body\ncan undergo a limited physical alteration\nandhissizecanbech~edupto509b.Ifthe\nform selected has wings, the wizard can\nactually fly, but at only 1/3 the speed of a\ntrue creature of that type, and with a loss of\ntwo maneuverability classes (to a minimum\nof E). If the form has gills, the caster can\nbreathe underwater as long as the spell lasts.\nHowever, any multiple attack routines or\nadditional damage allowed to an assumed\nform are not gained by the caster.\nThe caster’s attack rolls, Annor Class,\nand saving throws do not-change. The spell\ndoes not confer special abilities, attack\nforms, or defenses. Once the new form is\nchosen, it remains for the duration of the\nspell. The caster can change back into his\nown form at will; this ends the spell immedi-\nately. A caster who is slain automatically\nreturns to his normal form."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Alter Self",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "0",
+      "components": "V, S",
+      "duration": "3d4 rounds + 2 rounddlevel",
+      "casting_time": "2",
+      "area_of_effect": "The caster",
+      "saving_throw": "None",
+      "description_excerpt": "spell. The caster can change back into his own form at will; this ends the spell immedi- ately. A caster who is slain automatically returns to his normal form."
+    },
+    "quality_flags": []
+  }
+}

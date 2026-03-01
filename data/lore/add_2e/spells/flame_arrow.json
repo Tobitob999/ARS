@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "flame_arrow",
+  "name": "Flame Arrow",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Flame Arrow (ConjuratiodSumrnoning) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "third",
+    "book_pages": [
+      149
+    ],
+    "pdf_pages": [
+      150
+    ],
+    "raw_block": "Flame Arrow (ConjuratiodSumrnoning)\nRange: 30 yards + 10 yarddlevel\nComponents: V, S, M\nDuration: 1 round\nCasting Time: 3\nArea of Effect: Special\nSaving Throw: None\nThis spell has two effects. First, the wiz-\nard can cause normal arrows or crossbow\nbolts to become magical flaming missiles for\none round. The missiles must be nocked and\ndrawn (or cocked) at the completion of the\nspell. If they are not loosed within one\nround, they are consumed by the magic. For\nevery five levels the caster has achieved, up\nto 10 arrows or bolts can be affected. The\narrows inflict normal damage, plus 1 point\nof fire damage to any target struck. They\nmay also cause incendiary damage. This\nversion of the spell is used most often in\nlarge battles.\nThe second version of this spell enables\nthe caster to hurl fiery bolts at opponents\nwithin range. Each bolt inflicts ld6 points of\npier- damage, plus 4d6 points of fire\ndamage. Only half of the fire damage is\ninflicted if the creature struck saves vs.\nspell. The caster receives one bolt for every\nfive experience levels (two bolts at 10th\nlevel, three at 15th level, etc.). Bolts must be\nused on creatures within 20 yards of each\nother and in front of the wizard.\nThe material components for this spell are\na drop of oil and a small piece of flint."
+  },
+  "mechanics": {
+    "school_or_type": "ConjuratiodSumrnoning",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Flame Arrow",
+      "canonical_name_guess": null,
+      "school_or_type": "ConjuratiodSumrnoning",
+      "range": "30 yards + 10 yarddlevel",
+      "components": "V, S, M",
+      "duration": "1 round",
+      "casting_time": "3",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "This spell has two effects. First, the wiz- ard can cause normal arrows or crossbow bolts to become magical flaming missiles for one round. The missiles must be nocked and drawn (or cocked) at the completion of the spell. If they are not loosed within one round, they are consumed by the magic. For every five levels the caster has achieved, up to 10 arrows or bolts can be affected. The arrows inflict normal damage, plus 1 point of fire damage to any target struck. They may also cause incendiary damage. This version of the spell is used most often in large battles. The second version of this spell enables the caster to hurl fiery bolts at opponents within range. Each bolt inflicts ld6 points of pier- damage, plus 4d6 points of fire damage. Only half of the fire damage is inflicted if the creature struck saves vs. spell. The caster receives one bolt for every five experience levels (two bol"
+    },
+    "quality_flags": []
+  }
+}

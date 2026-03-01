@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "id": "add_bard",
+  "name": "Bard (AD&D 2e)",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "archetype": "bard",
+  "level": 1,
+  "background": "PHB-konformes Starttemplate",
+  "characteristics": {
+    "STR": 10,
+    "DEX": 14,
+    "CON": 11,
+    "INT": 13,
+    "WIS": 10,
+    "CHA": 16
+  },
+  "derived_stats": {
+    "HP": 6,
+    "AC": 7,
+    "THAC0": 20,
+    "Movement": 12
+  },
+  "skills": {
+    "Bardic Lore": 1,
+    "Inspire": 1,
+    "Detect Noise": 20
+  },
+  "equipment": [
+    "bedroll",
+    "waterskin",
+    "rations"
+  ],
+  "notes": "Starttemplate fuer schnelle Session-Initialisierung."
+}

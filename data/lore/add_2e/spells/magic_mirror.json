@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "magic_mirror",
+  "name": "Magic Mirror",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Magic Mirror (Enchmhnent, Divination) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      159,
+      160
+    ],
+    "pdf_pages": [
+      160,
+      161
+    ],
+    "raw_block": "Magic Mirror (Enchmhnent, Divination)\nRange: Touch\nComponents: V, S, M\nDuration: 1 round/level\nCasting Time: 1 hour\nArea of Effect: Special\nSaving Throw: None\nBy means of this spell, the wizard changes\na normal mirror into a scrying device simi-\nlar to a crystal ball. The details of the use of\nsuch a scrying device are found in the DMG\nunder the description for the crystal ball.\nThe mirror used must be of finely\nwrought and highly polished silver of a min-\nimum cost not less than 1,OOO gp. This mir-\nror is not harmed by casting the spell, but\nthe other material components-the eye of a\nhawk, an eagle, ,or even a roc, and nitric\nacid, copper, and zinc-are used up.\nThe following spells can be cast through a\nmagic mirror: comprihzd languuges, miad\nmagic, tongues, and infrrmision. The fol-\nlowing spells have a 5 % chance per level of\nthe caster of operating correctly: detect\nmagic, detect good or evil, and message.\nThe base chances for the subject to detect\nany crystal ball-like spell is listed in the qs-\ntal ball entry in the DMG (see the \"Miscella-\nneous Magic\" section).\nrn"
+  },
+  "mechanics": {
+    "school_or_type": "Enchmhnent, Divination",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Magic Mirror",
+      "canonical_name_guess": null,
+      "school_or_type": "Enchmhnent, Divination",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "1 round/level",
+      "casting_time": "1 hour",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "By means of this spell, the wizard changes a normal mirror into a scrying device simi- lar to a crystal ball. The details of the use of such a scrying device are found in the DMG under the description for the crystal ball. The mirror used must be of finely wrought and highly polished silver of a min- imum cost not less than 1,OOO gp. This mir- ror is not harmed by casting the spell, but the other material components-the eye of a hawk, an eagle, ,or even a roc, and nitric acid, copper, and zinc-are used up. The following spells can be cast through a magic mirror: comprihzd languuges, miad magic, tongues, and infrrmision. The fol- lowing spells have a 5 % chance per level of the caster of operating correctly: detect magic, detect good or evil, and message. The base chances for the subject to detect any crystal ball-like spell is listed in the qs- tal ball entry in the DMG (see the \"Miscell"
+    },
+    "quality_flags": []
+  }
+}

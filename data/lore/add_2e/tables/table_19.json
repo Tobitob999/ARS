@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2.0",
+  "id": "table_19",
+  "name": "Table 19: RANGERS FOLLOWERS",
+  "category": "table",
+  "tags": [
+    "add_2e",
+    "table",
+    "player_handbook",
+    "toc_normalized"
+  ],
+  "summary": "PHB Table 19 (RANGERS FOLLOWERS).",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "table_number": 19,
+    "title": "RANGERS FOLLOWERS",
+    "book_page": 29,
+    "pdf_page": 30,
+    "raw_page_token": "29"
+  },
+  "mechanics": {
+    "source": "toc_parse_v3",
+    "confidence": "medium"
+  }
+}

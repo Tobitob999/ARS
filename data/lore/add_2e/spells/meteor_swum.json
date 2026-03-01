@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.2.1",
+  "id": "meteor_swum",
+  "name": "Meteor Swum",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Meteor Swum (Evocation) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "ninth",
+    "book_pages": [
+      195,
+      196
+    ],
+    "pdf_pages": [
+      196,
+      197
+    ],
+    "raw_block": "Meteor Swum (Evocation)\nRange: 40 yards + 10 yards/le\nComponents: V, S\nDuration: Instantaneous\nCasting Time: 9\nArea of Effect: Special\nSaving Throw: 1/~\nfrom the outstretched hand of\nthat there are overlapping areas of effect,\nthe outer sides 20 feet long. Note that the\ncenter has four areas of overlapping effect,\nand there are numerous peripheral areas\nthat have two overlapping areas of effect. A\nsaving throw for each area of effect will\nindicate whether full damage or half dam-"
+  },
+  "mechanics": {
+    "school_or_type": "Evocation",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Meteor Swum",
+      "canonical_name_guess": null,
+      "school_or_type": "Evocation",
+      "range": "40 yards + 10 yards/le",
+      "components": "V, S",
+      "duration": "Instantaneous",
+      "casting_time": "9",
+      "area_of_effect": "Special",
+      "saving_throw": "1/~",
+      "description_excerpt": "from the outstretched hand of that there are overlapping areas of effect, the outer sides 20 feet long. Note that the center has four areas of overlapping effect, and there are numerous peripheral areas that have two overlapping areas of effect. A saving throw for each area of effect will indicate whether full damage or half dam-"
+    },
+    "quality_flags": [
+      "trimmed_merged_block"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2.0",
+  "id": "table_36",
+  "name": "Table 36: SECONDARY SKILLS",
+  "category": "table",
+  "tags": [
+    "add_2e",
+    "table",
+    "player_handbook",
+    "toc_normalized"
+  ],
+  "summary": "PHB Table 36 (SECONDARY SKILLS).",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "table_number": 36,
+    "title": "SECONDARY SKILLS",
+    "book_page": 53,
+    "pdf_page": 54,
+    "raw_page_token": "53"
+  },
+  "mechanics": {
+    "source": "toc_parse_v3",
+    "confidence": "medium"
+  }
+}

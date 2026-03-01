@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "wlthdraw",
+  "name": "Wlthdraw",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Wlthdraw (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "second",
+    "book_pages": [
+      208
+    ],
+    "pdf_pages": [
+      209
+    ],
+    "raw_block": "Wlthdraw (Alteration)\nSphere: Protection\nRange: 0\nComponents: V, S\nDuration: Special\nCasting Time: 5\nArea of Effect: The caster\nSaving Throw: None\ners is permitted.) Note that while affected\nby the withdraw spell, the caster can use\nonly the following spells: any divination\nspell or any curing or healing spell, the latter\non himself only. The casting of any of these\nspells in a different fashion (e.g., a cure light\nwounds spell bestowed upon a companion)\nnegates the withdraw spell. Similarly, the\nwithdrawn caster cannot walk or run, be-\ncome invisible, or engage in actions other\nthan thinking, reading, and the like. He can\nbe affected by the actions of others, losing\nany Dexterity or shield bonus. Any success-\nful attack upon the caster breaks the spell."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Wlthdraw",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "0",
+      "components": "V, S",
+      "duration": "Special",
+      "casting_time": "5",
+      "area_of_effect": "The caster",
+      "saving_throw": "None",
+      "description_excerpt": "ers is permitted.) Note that while affected by the withdraw spell, the caster can use only the following spells: any divination spell or any curing or healing spell, the latter on himself only. The casting of any of these spells in a different fashion (e.g., a cure light wounds spell bestowed upon a companion) negates the withdraw spell. Similarly, the withdrawn caster cannot walk or run, be- come invisible, or engage in actions other than thinking, reading, and the like. He can be affected by the actions of others, losing any Dexterity or shield bonus. Any success- ful attack upon the caster breaks the spell."
+    },
+    "quality_flags": []
+  }
+}

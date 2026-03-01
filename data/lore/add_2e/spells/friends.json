@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "friends",
+  "name": "Friends",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Friends (EnchantmenvCharm) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": null,
+    "book_pages": [
+      134,
+      135
+    ],
+    "pdf_pages": [
+      135,
+      136
+    ],
+    "raw_block": "Friends (EnchantmenvCharm)\nRange: 0\nComponents: V, S, M\nDuration: ld4 rounds + 1 round/level\nCasting Time: 1\nArea of Effect: &foot radius\nSaving Throw: Special\nA friends spell causes the wizard to tem-\nporarily gain 2d4 points of Charisma. Intel-\nligent creatures within the area of effect at\nthe time the spell is cast must make immedi-\nate reaction checks based on the character’s\nnew Charisma. Those with favorable reac-\ntions tend to be very impressed with the\nspellcaster and make an effort to be his\nFriends and help him, as appropriate to the\nsituation. Officious bureaucrats might de-\n:ide to become helpful; surly gate guards\nmight wax informative; attacking orcs\nnight spare the caster’s life, taking him cap-\nive instead. When the spell wears off, the\n:reatures realize that they have been influ-\nmced, and their reactions are determined by\nhe DM.\nThe components for this spell are chalk\nor white flour), lampblack (or soot), and\nrermilion applied to the face before casting\nhe spell.\ns"
+  },
+  "mechanics": {
+    "school_or_type": "EnchantmenvCharm",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Friends",
+      "canonical_name_guess": null,
+      "school_or_type": "EnchantmenvCharm",
+      "range": "0",
+      "components": "V, S, M",
+      "duration": "ld4 rounds + 1 round/level",
+      "casting_time": "1",
+      "area_of_effect": "&foot radius",
+      "saving_throw": "Special",
+      "description_excerpt": "A friends spell causes the wizard to tem- porarily gain 2d4 points of Charisma. Intel- ligent creatures within the area of effect at the time the spell is cast must make immedi- ate reaction checks based on the character’s new Charisma. Those with favorable reac- tions tend to be very impressed with the spellcaster and make an effort to be his Friends and help him, as appropriate to the situation. Officious bureaucrats might de- :ide to become helpful; surly gate guards might wax informative; attacking orcs night spare the caster’s life, taking him cap- ive instead. When the spell wears off, the :reatures realize that they have been influ- mced, and their reactions are determined by he DM. The components for this spell are chalk or white flour), lampblack (or soot), and rermilion applied to the face before casting he spell. s"
+    },
+    "quality_flags": []
+  }
+}

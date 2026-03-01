@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2.0",
+  "id": "table_35",
+  "name": "Table 35: SPECIALIST ATTACKS PER ROUND",
+  "category": "table",
+  "tags": [
+    "add_2e",
+    "table",
+    "player_handbook",
+    "toc_normalized"
+  ],
+  "summary": "PHB Table 35 (SPECIALIST ATTACKS PER ROUND).",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "table_number": 35,
+    "title": "SPECIALIST ATTACKS PER ROUND",
+    "book_page": 52,
+    "pdf_page": 53,
+    "raw_page_token": "52"
+  },
+  "mechanics": {
+    "source": "toc_parse_v3",
+    "confidence": "medium"
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "add_2e",
+    "chapter_map",
+    "toc",
+    "appendix"
+  ],
+  "summary": "Automatisch erkannte Kapitel- und Appendix-Marker aus dem PDF-Text.",
+  "source_text": {
+    "detected_chapters": [
+      {
+        "chapter": "1",
+        "title": "Player Character Ability Scores ....... 13",
+        "first_seen_page": 5
+      },
+      {
+        "chapter": "2",
+        "title": "Player Character Races ............. 20",
+        "first_seen_page": 5
+      },
+      {
+        "chapter": "4",
+        "title": "Alignment ...................... 46",
+        "first_seen_page": 5
+      },
+      {
+        "chapter": "5",
+        "title": "Proflciencies (Optlorul) ............ 51",
+        "first_seen_page": 5
+      },
+      {
+        "chapter": "6",
+        "title": "Money and Equipment ............. 66",
+        "first_seen_page": 5
+      },
+      {
+        "chapter": "7",
+        "title": "Magic ......................... 80",
+        "first_seen_page": 6
+      },
+      {
+        "chapter": "8",
+        "title": "Experience ...................... 88",
+        "first_seen_page": 6
+      },
+      {
+        "chapter": "10",
+        "title": "Treasure ..................... 107",
+        "first_seen_page": 6
+      },
+      {
+        "chapter": "11",
+        "title": "Encounters .................... 111",
+        "first_seen_page": 6
+      },
+      {
+        "chapter": "12",
+        "title": "NPCs ........................ 114",
+        "first_seen_page": 6
+      },
+      {
+        "chapter": "14",
+        "title": "Time and Movement ............ 119",
+        "first_seen_page": 6
+      },
+      {
+        "chapter": "I",
+        "title": "Player Character Ability Scores",
+        "first_seen_page": 14
+      },
+      {
+        "chapter": "2",
+        "title": "Player Character Races",
+        "first_seen_page": 21
+      },
+      {
+        "chapter": "9",
+        "title": "Combat for an explanation",
+        "first_seen_page": 22
+      },
+      {
+        "chapter": "3",
+        "title": "Plaver Character Classes i!? I",
+        "first_seen_page": 26
+      },
+      {
+        "chapter": "4",
+        "title": "Alignment",
+        "first_seen_page": 47
+      },
+      {
+        "chapter": "5",
+        "title": "Proficiencies (Optional)",
+        "first_seen_page": 51
+      },
+      {
+        "chapter": "9",
+        "title": "Combat. Bow special-",
+        "first_seen_page": 53
+      },
+      {
+        "chapter": "9",
+        "title": "Combat (page 89).",
+        "first_seen_page": 74
+      },
+      {
+        "chapter": "9",
+        "title": "Combat.",
+        "first_seen_page": 74
+      },
+      {
+        "chapter": "7",
+        "title": "Magic",
+        "first_seen_page": 81
+      },
+      {
+        "chapter": "8",
+        "title": "Experience",
+        "first_seen_page": 89
+      },
+      {
+        "chapter": "6",
+        "title": "Money and Equipment). Char-",
+        "first_seen_page": 100
+      },
+      {
+        "chapter": "14",
+        "title": "Time and Movement",
+        "first_seen_page": 120
+      },
+      {
+        "chapter": "7",
+        "title": "Magic.",
+        "first_seen_page": 138
+      }
+    ],
+    "detected_appendices": [
+      {
+        "appendix": "1",
+        "title": "Spell Usto .................... 126",
+        "first_seen_page": 7
+      },
+      {
+        "appendix": "2",
+        "title": "Notes on Spells ................ 129",
+        "first_seen_page": 7
+      },
+      {
+        "appendix": "5",
+        "title": "Wizard Spells by School ........ 238",
+        "first_seen_page": 7
+      },
+      {
+        "appendix": "6",
+        "title": "hlest Spells by Sphere ......... 240",
+        "first_seen_page": 7
+      },
+      {
+        "appendix": "8",
+        "title": "Compiled Character",
+        "first_seen_page": 7
+      },
+      {
+        "appendix": "2",
+        "title": "Notes on Spells",
+        "first_seen_page": 130
+      },
+      {
+        "appendix": "8",
+        "title": "Compiled Character Generation Tables i",
+        "first_seen_page": 246
+      }
+    ],
+    "detection_note": "OCR/Extraktion kann Schreibfehler enthalten; Titel wurden 1:1 aus PDF-Text uebernommen."
+  },
+  "mechanics": {
+    "chapter_regex": "\\bChapter\\s+([0-9IVXLC]+)\\s*[:\\-]\\s*([^\\n\\r]{2,120})",
+    "appendix_regex": "\\bAppendix\\s+([0-9IVXLC]+)\\s*[:\\-]\\s*([^\\n\\r]{2,120})",
+    "unique_chapters": 25,
+    "unique_appendices": 7
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "add_2e",
+    "manifest",
+    "pipeline",
+    "batch_01"
+  ],
+  "summary": "Batch-Manifest fuer die initiale Volltext-Konvertierung des AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "conversion_scope": "Vollstaendige Seitenextraktion in JSONL + Kapitelindex",
+    "created_files": [
+      "data/lore/add_2e/book_conversion/player_handbook_2e_pages.jsonl",
+      "data/lore/add_2e/book_conversion/conversion_manifest.json",
+      "data/lore/add_2e/book_conversion/chapter_map.json"
+    ]
+  },
+  "mechanics": {
+    "status": "completed",
+    "batch": "01_initial_extraction",
+    "next_steps": [
+      "Phase-Mapping gegen WCR Skeleton verfeinern",
+      "Regelmechaniken pro Kapitel in ruleset-kompatible Bausteine ueberfuehren",
+      "Zauber/Items/Monster in separate Lore-Unterordner splitten"
+    ],
+    "batch_02_complete_ars_conversion": {
+      "status": "completed",
+      "timestamp": "2026-02-28T16:50:22",
+      "generated": {
+        "ruleset": "modules/rulesets/add_2e.json",
+        "preset": "modules/presets/add_2e_phb_complete.json",
+        "fulltext_pages_count": 258,
+        "chapter_files_count": 15,
+        "appendix_files_count": 9,
+        "spell_files_count": 300,
+        "table_index": "data/lore/add_2e/tables/phb_table_index.json"
+      }
+    },
+    "batch_03_quality_normalization": {
+      "status": "completed",
+      "timestamp": "2026-02-28T16:55:04",
+      "changes": {
+        "ruleset_schema_version": "2.1.0",
+        "spell_files": 331,
+        "table_files": 61,
+        "qa_report": "data/lore/add_2e/indices/conversion_qa_report.json"
+      }
+    },
+    "batch_04_core_chapter_engineering": {
+      "status": "completed",
+      "timestamp": "2026-02-28T16:58:00",
+      "generated": {
+        "character_subsystem": "data/lore/add_2e/mechanics/character_system.json",
+        "combat_subsystem": "data/lore/add_2e/mechanics/combat_system.json",
+        "equipment_subsystem": "data/lore/add_2e/mechanics/equipment_system.json",
+        "scope_map": "data/lore/add_2e/indices/chapter_scope_map.json",
+        "ruleset_schema_version": "2.2.0"
+      }
+    },
+    "batch_05_deep_chapter_models": {
+      "status": "completed",
+      "timestamp": "2026-02-28T16:59:22",
+      "generated": {
+        "class_blueprints": "data/lore/add_2e/characters/class_blueprints.json",
+        "combat_reference": "data/lore/add_2e/combat/combat_reference_tables.json",
+        "equipment_catalog_raw": "data/lore/add_2e/equipment/equipment_catalog_raw.json",
+        "character_templates_count": 8,
+        "ruleset_schema_version": "2.3.0"
+      }
+    },
+    "batch_06_magic_xp_movement": {
+      "status": "completed",
+      "timestamp": "2026-02-28T17:00:45",
+      "generated": {
+        "magic_subsystem": "data/lore/add_2e/mechanics/magic_system.json",
+        "experience_subsystem": "data/lore/add_2e/mechanics/experience_system.json",
+        "time_movement_subsystem": "data/lore/add_2e/mechanics/time_movement_system.json",
+        "ruleset_schema_version": "2.4.0"
+      }
+    },
+    "batch_07_treasure_encounter_npc_vision": {
+      "status": "completed",
+      "timestamp": "2026-02-28T17:07:29",
+      "generated": {
+        "treasure_subsystem": "data/lore/add_2e/treasure/treasure_system.json",
+        "encounter_subsystem": "data/lore/add_2e/encounters/encounter_system.json",
+        "npc_subsystem": "data/lore/add_2e/npcs/npc_relations_system.json",
+        "vision_subsystem": "data/lore/add_2e/vision/vision_light_system.json",
+        "ruleset_schema_version": "2.5.0"
+      }
+    },
+    "batch_08_appendix_normalization_v3": {
+      "status": "completed",
+      "timestamp": "2026-02-28T18:19:58",
+      "changes": {
+        "ruleset_schema_version": "2.6.0",
+        "spell_files_normalized": 331,
+        "spell_aliases": 8,
+        "table_files_present": 61,
+        "table_missing_numbers": [
+          1,
+          5,
+          7,
+          11,
+          28,
+          38
+        ],
+        "artifacts": {
+          "spell_index": "data/lore/add_2e/indices/spell_index.json",
+          "spell_alias_map": "data/lore/add_2e/indices/spell_alias_map.json",
+          "table_index": "data/lore/add_2e/tables/phb_table_index.json"
+        }
+      }
+    },
+    "batch_08_1_spell_parser_hotfix": {
+      "status": "completed",
+      "timestamp": "2026-02-28T18:21:22",
+      "changes": {
+        "ruleset_schema_version": "2.6.1",
+        "spell_parser": "header_block_v3_1",
+        "spell_index_schema_version": "1.2.1",
+        "trimmed_merged_blocks": 39
+      }
+    },
+    "batch_08_2_table_coverage_fill": {
+      "status": "completed",
+      "timestamp": "2026-02-28T18:22:29",
+      "changes": {
+        "ruleset_schema_version": "2.6.2",
+        "table_coverage": "67/67",
+        "curated_fill_numbers": [
+          1,
+          5,
+          7,
+          11,
+          28,
+          38
+        ],
+        "table_index": "data/lore/add_2e/tables/phb_table_index.json"
+      }
+    },
+    "batch_09_monstrous_compendium_v1_extraction": {
+      "status": "completed_with_blank_pages",
+      "timestamp": "2026-03-01T02:02:34",
+      "notes": "OCR completed via easyocr; 8 trailing pages yielded <20 chars (likely plates/blank).",
+      "generated": {
+        "pages_jsonl": "data/lore/add_2e/book_conversion/monstrous_compendium_vol1_pages.jsonl",
+        "metadata": "data/lore/add_2e/book_conversion/monstrous_compendium_vol1_metadata.json",
+        "chapter_map": "data/lore/add_2e/book_conversion/monstrous_compendium_vol1_chapter_map.json"
+      },
+      "empty_or_unreadable_pages": [
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153
+      ]
+    },
+    "batch_10_monstrous_compendium_v1_monster_split": {
+      "status": "completed",
+      "timestamp": "2026-03-01T02:18:18",
+      "notes": "Heuristic single-entry page parsing from OCR text; multi-column table pages skipped.",
+      "generated": {
+        "monsters_dir": "data/lore/add_2e/monsters/",
+        "monster_index": "data/lore/add_2e/monsters/index.json"
+      }
+    }
+  }
+}

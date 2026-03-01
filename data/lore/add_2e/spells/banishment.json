@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "banishment",
+  "name": "Banishment",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Banishment (Abjuration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "seventh",
+    "book_pages": [
+      182,
+      183
+    ],
+    "pdf_pages": [
+      183,
+      184
+    ],
+    "raw_block": "Banishment (Abjuration)\nComponents: V, S, M\nDuration: Instantaneous\nCasting Time: 7\nArea of Effect: 1 or more creatures\nRange: 20 yards\nin a @foot radius\nSaving Throw: Special\nA banishment spell enables the caster to\nforce some extrapIanar creature out of the\ncaster's home plane. The effect is instantane-\nous, and the subject cannot come back with-\nout some special summoning or means of\negress from its own plane to the one from\nwhich it was banished. Up to 2 Hit Dice or\nlevels of creature per caster level can be ban-\nished.\nThe caster must both name the type of\ncreature(s) to be sent away and give its\nname and title as well, if any. In any event,\nthe creature's magic resistance must be\ndefeated for the speli to be effective.\nThe material components of the spell are\nsubstances harmfuI, hateful, or opposed to\nthe nature of the subject(s) of the spell. For\nevery such substance included in the cast-\ning, the subject creature(s) loses 5 % from its\nmagic resistance and suffers a - 2 penalty to\nits saving throw vs. spell. For example, if\niron, holy waterv sunstone, and a sprig of\nrosemary were used in casting a banishment\nupon a bemg that hates those things, its sav-\ning throw versus the spell would be made\nI Wizard Snells (7th Level\\\nwith a -8 penalty (four substances timer\nthe factor of -2). Special items, such as hair\nfrom the tail of a ki-rin, or couatl feathers,\ncould also be added to bring the factor up to\n-3 or -4 per item. In contrast, a titan’s hair\nor mistletoe blessed by a druid might lower\nthe factor to -1 with respect to the same\ncreature. If the subject creature successfully\nrolls its saving throw vs. spell, the caster is\nstung by a backlash of energy, suffers 2d6\npoints of damage, and is stunned for one\nround.\nBigby’s Grasping Hand (Evocation)\n*: 10 yards/level\na-ts: V, S, M\nm: I round/level\nsping hand is a superior ver-\n6th-level Bigby’s forceful hand. It\nman-sized (five feet) to gar-\ngan-ed (21 feet) hand that appears\nand grasps a creature designated by the\ncaster, regardless of what the spellcaster\ndoes or how the opponent tries to escape it.\nThe grasping hand can hold motionless a\ncreature or object of up to 1,ooO pounds\nweight, slow movement to 10 feet per round\nif the creature weighs between 1,OOO and\n4,000 pounds, or slow movement by 50% if\nthe creature weighs up to 16,000 pounds.\nThe hand itself inflicts no damage. The\ngrasping hand has an Armor Class of 0, has\nas many hit points as its caster in full health,\nand vanishes when destroyed. The caster\ncan order it to release a trapped opponent or\ncan dismiss it on command.\nThe material component is a leather\nglove."
+  },
+  "mechanics": {
+    "school_or_type": "Abjuration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Banishment",
+      "canonical_name_guess": null,
+      "school_or_type": "Abjuration",
+      "range": "20 yards",
+      "components": "V, S, M",
+      "duration": "Instantaneous",
+      "casting_time": "7",
+      "area_of_effect": "1 or more creatures",
+      "saving_throw": "Special",
+      "description_excerpt": "A banishment spell enables the caster to force some extrapIanar creature out of the caster's home plane. The effect is instantane- ous, and the subject cannot come back with- out some special summoning or means of egress from its own plane to the one from which it was banished. Up to 2 Hit Dice or levels of creature per caster level can be ban- ished. The caster must both name the type of creature(s) to be sent away and give its name and title as well, if any. In any event, the creature's magic resistance must be defeated for the speli to be effective. The material components of the spell are substances harmfuI, hateful, or opposed to the nature of the subject(s) of the spell. For every such substance included in the cast- ing, the subject creature(s) loses 5 % from its magic resistance and suffers a - 2 penalty to its saving throw vs. spell. For example, if iron, holy waterv sunstone, a"
+    },
+    "quality_flags": []
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0.1",
+  "category": "spell_alias_map",
+  "tags": [
+    "add_2e",
+    "spells",
+    "aliases",
+    "ocr_fix_hints"
+  ],
+  "summary": "Alias-/Kanonik-Hinweise f?r OCR-fehlerhafte Spell-Namen (v3.1).",
+  "source_text": {
+    "alias_count": 8,
+    "aliases": [
+      {
+        "id": "affect_normal_flrer",
+        "original_name": "Affect Normal Flrer",
+        "canonical_name_guess": "Affect Normal Fire",
+        "confidence": "high"
+      },
+      {
+        "id": "bankskin",
+        "original_name": "Bankskin",
+        "canonical_name_guess": "Barkskin",
+        "confidence": "high"
+      },
+      {
+        "id": "bigby_s_ctenched_fist",
+        "original_name": "Bigby's Ctenched Fist",
+        "canonical_name_guess": "Bigby's Clenched Fist",
+        "confidence": "high"
+      },
+      {
+        "id": "cali_lightning",
+        "original_name": "Cali Lightning",
+        "canonical_name_guess": "Call Lightning",
+        "confidence": "high"
+      },
+      {
+        "id": "chum_plants",
+        "original_name": "Chum Plants",
+        "canonical_name_guess": "Charm Plants",
+        "confidence": "high"
+      },
+      {
+        "id": "continual_ught",
+        "original_name": "Continual Ught",
+        "canonical_name_guess": "Continual Light",
+        "confidence": "high"
+      },
+      {
+        "id": "detect_polson",
+        "original_name": "Detect Polson",
+        "canonical_name_guess": "Detect Poison",
+        "confidence": "high"
+      },
+      {
+        "id": "emdquake",
+        "original_name": "Emdquake",
+        "canonical_name_guess": "Earthquake",
+        "confidence": "high"
+      }
+    ]
+  },
+  "mechanics": {
+    "policy": "No forced file rename; canonical hints only."
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "speak_with_monsters",
+  "name": "Speak With Monsters",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Speak With Monsters (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "sixth",
+    "book_pages": [
+      229
+    ],
+    "pdf_pages": [
+      230
+    ],
+    "raw_block": "Speak With Monsters (Alteration)\nSphere: Divination\nRange: 30 yards\nComponents: V, S\nDuration: 2 round/level\nCasting Time: 9\nArea of Effect: The caster\nSaving Throw: None\nWhen cast, the speak with monsters spell\nenables the priest to converse with any type\nof creature that has any form of communi-\ncative ability (including empathic, tactile,\npheromonic, etc.). That is, the monster\nunderstands, in its own language or equiva-\nlent, the intent of what is said to it by the\npriest and vice versa. The creature thus spo-\nken to is checked by your DM in order to\ndetermine reaction. All creatures of the\nsame type as that chosen by the priest can\nlikewise understand if they are within\nrange. The priest can speak to different\ntypes of creatures during the spell duration,\nbut he must speak separately to each type.\nThe spell lasts for two rounds per caster\nlevel."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Speak With Monsters",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "30 yards",
+      "components": "V, S",
+      "duration": "2 round/level",
+      "casting_time": "9",
+      "area_of_effect": "The caster",
+      "saving_throw": "None",
+      "description_excerpt": "but he must speak separately to each type. The spell lasts for two rounds per caster level."
+    },
+    "quality_flags": []
+  }
+}

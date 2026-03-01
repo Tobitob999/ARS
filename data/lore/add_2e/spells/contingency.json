@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "contingency",
+  "name": "Contingency",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Contingency (Evocation) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "sixth",
+    "book_pages": [
+      174
+    ],
+    "pdf_pages": [
+      175
+    ],
+    "raw_block": "Contingency (Evocation)\nRange: 0\nComponents: V, S, M\nDuration: 1 day/level\nCasting Time: 1 turn\nArea of Effect: The caster\nSaving Throw: None\nBy means of this spell, the wizard is able\nto place another spell upon his person so\nthat the latter spell will come into effect un-\nder the conditions dictated during the cast-\ning of the contingency spell. The\ncontingency spell and the spell it is to bring\ninto effect are cast at the same time (the one-\nturn casting time indicated is the total for\nboth castings).\nThe spell to be brought into effect by the\nprescribed contingency must be one that af-\nfects the wizards peison (feather fall, levita-\ntion, fly, feign death, etc.) and is of a spell\nlevel no higher than V3 of the caster's experi-\nence level (rounded down), but not higher\nthan the 6th spell level.\nCaster Level Contingency Spell Level\n12th-14th 4th\n15th-17th 5th\n18th + 6th\nOnly one contingency spell can be placed\non the spellcaster at any one time; if a sec-\nond is cast, the first one (if still active) is\ncancelled. The conditions needed to bring\nthe spell into effect must be clear, although\nthey can be rather general. For example, a\ncontingency spell cast with an airy water\nspell might prescribe that any time the wiz-\nard is plunged into or otherwise engulfed in\nwater or similar liquid, the airy water spell\nwill instantly come into effect. Or a contin-\ngency could bring a feather fall spell into ef-\nfect any time the wizard falls more than two\nfeet. In all cases, the contingency immedi-\nately brings into effect the second spell, the\nlatter-being \"cast\" instantaneously when the\nprescribed circumstances occur. Note\nthat if complicated or convoluted condi-\ntions are prescribed, the whole spell com-\nplex (the contingency spell and the cbmpan-\nion magic) may fail when called upon."
+  },
+  "mechanics": {
+    "school_or_type": "Evocation",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Contingency",
+      "canonical_name_guess": null,
+      "school_or_type": "Evocation",
+      "range": "0",
+      "components": "V, S, M",
+      "duration": "1 day/level",
+      "casting_time": "1 turn",
+      "area_of_effect": "The caster",
+      "saving_throw": "None",
+      "description_excerpt": "By means of this spell, the wizard is able to place another spell upon his person so that the latter spell will come into effect un- der the conditions dictated during the cast- ing of the contingency spell. The contingency spell and the spell it is to bring into effect are cast at the same time (the one- turn casting time indicated is the total for both castings). The spell to be brought into effect by the prescribed contingency must be one that af- fects the wizards peison (feather fall, levita- tion, fly, feign death, etc.) and is of a spell level no higher than V3 of the caster's experi- ence level (rounded down), but not higher than the 6th spell level. Caster Level Contingency Spell Level 12th-14th 4th 15th-17th 5th 18th + 6th Only one contingency spell can be placed on the spellcaster at any one time; if a sec- ond is cast, the first one (if still active) is cancelled. The conditi"
+    },
+    "quality_flags": [
+      "trimmed_merged_block"
+    ]
+  }
+}

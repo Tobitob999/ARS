@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "vacancy",
+  "name": "Vacancy",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Vacancy (Alteration, Illusion/Phantasm) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      163
+    ],
+    "pdf_pages": [
+      164
+    ],
+    "raw_block": "Vacancy (Alteration, Illusion/Phantasm)\nRange: 10 yarddlevel\nComponents: V, S, M\nDuration: 1 hour/level\nCasting Time: 4\nArea of Effect: 10-foot radi\nSaving Throw: None\nWhen a vacancy spell is cast, th\ncauses an area to appear to be\nneglected, and unused. Those wh\nthe area see dust on the floor, cobwe\nand other conditions typical of a\nabandoned place. If they pass through the\narea of effect, they seem to leave tracks, tear\naway cobwebs, and so on. Unless they actu-\nally contact some object cloaked by the\nspell, the place appears empty. Merely\nbrushing an invisible object does not cause\nthe vacancy spell to be disturbed: Only\nforceful contact grants a chance to note that\nall is not as it seems.\nIf forceful contact with a cloaked obj&\noccurs, those creatures subject to the spell\ncan penetrate the spell only if they discover\nseveral items that they cannot see; each\nbeing is then entitled to a saving throw vs.\nspell. Failure means they believe that the\nobjects are invisible. A dispel magic spell\ncancels this spell so that the true area is seen.\netrate the deception,\nest black silk to cast this spell. This material\ncomponent must be worth at least 100\nand is used up during spellc"
+  },
+  "mechanics": {
+    "school_or_type": "Alteration, Illusion/Phantasm",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Vacancy",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration, Illusion/Phantasm",
+      "range": "10 yarddlevel",
+      "components": "V, S, M",
+      "duration": "1 hour/level",
+      "casting_time": "4",
+      "area_of_effect": "10-foot radi",
+      "saving_throw": "None",
+      "description_excerpt": "When a vacancy spell is cast, th causes an area to appear to be neglected, and unused. Those wh the area see dust on the floor, cobwe and other conditions typical of a abandoned place. If they pass through the area of effect, they seem to leave tracks, tear away cobwebs, and so on. Unless they actu- ally contact some object cloaked by the spell, the place appears empty. Merely brushing an invisible object does not cause the vacancy spell to be disturbed: Only forceful contact grants a chance to note that all is not as it seems. If forceful contact with a cloaked obj& occurs, those creatures subject to the spell can penetrate the spell only if they discover several items that they cannot see; each being is then entitled to a saving throw vs. spell. Failure means they believe that the objects are invisible. A dispel magic spell cancels this spell so that the true area is seen. etrate the d"
+    },
+    "quality_flags": []
+  }
+}

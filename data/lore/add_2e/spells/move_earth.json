@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "move_earth",
+  "name": "Move Earth",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Move Earth (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "sixth",
+    "book_pages": [
+      179
+    ],
+    "pdf_pages": [
+      180
+    ],
+    "raw_block": "Move Earth (Alteration)\nRange: 10 yards/level\nComponents: V, S, M\nDuration: Permanent\nCasting Time: Special\nArea of Effect: Special\nSaving Throw: None\nWhen cast, the move earth spe~ moves\ndirt (clay, loam, sand) and its other compo-\nnents. Thus embankments can be collapsed,\nhillocks moved, dunes shifted, etc. How-\never, in no event can rock prominences be\ncollapsed or moved. The area to be affected\ndictates the casting time; for every 40 yd. x\n40 yd. surface area and 10 feet of depth, one\nturn of casting time is required. The maxi-\nmum area that can be affected is 240 yd. x\n240 yd., which takes four hours. If terrain\nfeatures are to be moved-as compared to\nsimply caving in banks or walls of earth-it\nis necessary that an earth elemental be sub-\nsequently summoned to assist. All spell\ncasting or summoning must be completed\nbefore any effects occur. As any summoned\nearth elemental will perform most of its\nwork underground, it is unlikely that it will\nbe intercepted or interrupted. Should this\noccur, however, the movement of the earth\nrequiring its services must be stopped until\nthe elemental is once again available.\nShould the elemental be slain or dismisd,\nthe move earth spell is limited to collapsing\nbanks or walls of earth."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Move Earth",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "10 yards/level",
+      "components": "V, S, M",
+      "duration": "Permanent",
+      "casting_time": "Special",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "When cast, the move earth spe~ moves dirt (clay, loam, sand) and its other compo- nents. Thus embankments can be collapsed, hillocks moved, dunes shifted, etc. How- ever, in no event can rock prominences be collapsed or moved. The area to be affected dictates the casting time; for every 40 yd. x 40 yd. surface area and 10 feet of depth, one turn of casting time is required. The maxi- mum area that can be affected is 240 yd. x 240 yd., which takes four hours. If terrain features are to be moved-as compared to simply caving in banks or walls of earth-it is necessary that an earth elemental be sub- sequently summoned to assist. All spell casting or summoning must be completed before any effects occur. As any summoned earth elemental will perform most of its work underground, it is unlikely that it will be intercepted or interrupted. Should this occur, however, the movement of the earth requ"
+    },
+    "quality_flags": []
+  }
+}

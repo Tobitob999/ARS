@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "belaborment",
+  "name": "Belaborment",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Belaborment (Enchantment, Evocation) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      169
+    ],
+    "pdf_pages": [
+      170
+    ],
+    "raw_block": "Belaborment (Enchantment, Evocation)\nRange: 10 yards\nComponents: V\nDuration: Special\nCasting Time: 5\nArea of Effect: 1 or more creatures in a 10-\nfoot radius\nSaving Throw: Special\nThis devious spell distracts the subject\ncreatures by drawing them into an absorb-\ning discussion on topics of interest to them.\nA chain of responses occurs during the next\n11 rounds, with additional saving throws as\ndescribed later. These responses are conver-\nsation (rounds 1-3), possible confusion\n(rounds 44, then either rage or lamenta-\ntion (rounds 7-11). All saving throws are\naffected by the creatures’ Intelligences, as\nnoted later. The subject creatures must be\nable to understand the language in which\nthe spellcaster speaks.\nUpon casting the spell, the wizard begins\ndiscussion of some topic germane to the\ncreature or creatures to be affected. Those\nmaking a successful saving throw vs. spell\nare unaffected. Affected creatures immedi-\nately begin to converse with the spellcaster,\nagreeing or disagreeing, all most politely. As\nlong as the spellcaster chooses, he can main-\ntain the spell by conversing with the sub-\nject(s). If the caster is attacked or otherwise\ndistracted, the subject creatures do not\nnotice."
+  },
+  "mechanics": {
+    "school_or_type": "Enchantment, Evocation",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Belaborment",
+      "canonical_name_guess": null,
+      "school_or_type": "Enchantment, Evocation",
+      "range": "10 yards",
+      "components": "V",
+      "duration": "Special",
+      "casting_time": "5",
+      "area_of_effect": "1 or more creatures in a 10-",
+      "saving_throw": "Special",
+      "description_excerpt": "This devious spell distracts the subject creatures by drawing them into an absorb- ing discussion on topics of interest to them. A chain of responses occurs during the next 11 rounds, with additional saving throws as described later. These responses are conver- sation (rounds 1-3), possible confusion (rounds 44, then either rage or lamenta- tion (rounds 7-11). All saving throws are affected by the creatures’ Intelligences, as noted later. The subject creatures must be able to understand the language in which the spellcaster speaks. Upon casting the spell, the wizard begins discussion of some topic germane to the creature or creatures to be affected. Those making a successful saving throw vs. spell are unaffected. Affected creatures immedi- ately begin to converse with the spellcaster, agreeing or disagreeing, all most politely. As long as the spellcaster chooses, he can main- tain the sp"
+    },
+    "quality_flags": []
+  }
+}
