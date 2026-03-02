@@ -231,12 +231,21 @@ class CharacterManager:
         except (KeyError, IndexError):
             self._xp = 0
 
+        hp_current = self._stats.get("HP", 0)
+        hp_max = self._stats_max.get("HP", 0)
+        # Defensive: ensure integers (some systems use strings)
+        try:
+            hp_current = int(hp_current) if hp_current else 0
+            hp_max = int(hp_max) if hp_max else 0
+        except (ValueError, TypeError):
+            hp_current, hp_max = 0, 0
+
         logger.info(
             "Charakter geladen: %s (ID=%d) | HP: %d/%d | XP: %d",
             self._name,
             self._char_id,
-            self._stats.get("HP", 0),
-            self._stats_max.get("HP", 0),
+            hp_current,
+            hp_max,
             self._xp,
         )
         return True
@@ -636,6 +645,8 @@ class CharacterManager:
 
         # Derived stats from template
         derived = t.get("derived_stats", {})
+        if not isinstance(derived, dict):
+            derived = {}
         self._stats = {}
         self._stats_max = {}
         for key, val in derived.items():
@@ -648,13 +659,17 @@ class CharacterManager:
 
         # Skills: Basis aus Ruleset, dann Template-Overrides
         skills_def = self.ruleset.get("skills", {})
+        if not isinstance(skills_def, dict):
+            skills_def = {}
         base_skills: dict[str, int] = {}
         for skill_name, skill_def in skills_def.items():
             base = skill_def.get("base", 0)
             base_skills[skill_name] = int(base) if isinstance(base, (int, float)) else 0
         # Template-Skills ueberschreiben
-        for skill_name, skill_val in t.get("skills", {}).items():
-            base_skills[skill_name] = skill_val
+        template_skills = t.get("skills", {})
+        if isinstance(template_skills, dict):
+            for skill_name, skill_val in template_skills.items():
+                base_skills[skill_name] = skill_val
         self._skills = base_skills
         self._skills_used = set()
 
@@ -670,7 +685,11 @@ class CharacterManager:
     def _create_from_ruleset_defaults(self) -> None:
         """Erstellt einen Standardcharakter mit Durchschnittswerten aus dem Ruleset."""
         ruleset_chars = self.ruleset.get("characteristics", {})
+        if not isinstance(ruleset_chars, dict):
+            ruleset_chars = {}
         skills_def = self.ruleset.get("skills", {})
+        if not isinstance(skills_def, dict):
+            skills_def = {}
 
         # Charaktereigenschaften berechnen (Durchschnitt)
         char_values: dict[str, int] = {}
@@ -720,8 +739,9 @@ class CharacterManager:
 
         # Fertigkeiten mit Basiswerten aus Ruleset
         base_skills: dict[str, int] = {}
-        for skill_name, skill_def in skills_def.items():
-            base = skill_def.get("base", 0)
-            base_skills[skill_name] = int(base) if isinstance(base, (int, float)) else 0
+        if isinstance(skills_def, dict):
+            for skill_name, skill_def in skills_def.items():
+                base = skill_def.get("base", 0)
+                base_skills[skill_name] = int(base) if isinstance(base, (int, float)) else 0
         self._skills = base_skills
         self._skills_used = set()
