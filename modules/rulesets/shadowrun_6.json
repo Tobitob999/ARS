@@ -9,109 +9,282 @@
     "game_master_title": "Spielleitung",
     "player_character_title": "Runner"
   },
+
   "dice_system": {
     "default_die": "d6",
     "check_mode": "pool_hits",
-    "notes": "Proben nutzen Wuerfelpools aus Attribut + Fertigkeit; Erfolge ueber Schwelle.",
+    "notes": "Proben: Attribut + Fertigkeit = Wuerfelpool (d6). Jede 5 oder 6 = 1 Erfolg. Erfolge gegen Schwelle vergleichen. Kein einzelner Zielwert wie d100/d20 — PROBE-Zielwert gibt die Schwelle (Anzahl benoetiger Erfolge) an, typisch 1-6.",
+    "hit_threshold": 5,
+    "pool_range": {
+      "minimum": 1,
+      "typical": "4-12",
+      "maximum": 20
+    },
     "success_levels": {
-      "critical": 0,
-      "extreme": 0.75,
-      "hard": 0.5,
-      "fumble": 0
-    }
+      "glitch": "Haelfte oder mehr Wuerfel zeigen 1 — unabhaengig von Erfolgen",
+      "critical_glitch": "Glitch und 0 Erfolge — schwerwiegende Fehler",
+      "net_hits": "Eigene Erfolge minus gegnerische Erfolge bei Vergleichsproben"
+    },
+    "probe_protocol_notes": "PROBE-Tag: [PROBE: <Fertigkeit> | <Schwelle>] — Schwelle = Anzahl benoetigter Erfolge (1=einfach, 3=schwer, 5=extrem). NIEMALS d100- oder d20-Zielwerte verwenden."
   },
+
   "characteristics": {
     "KOE": {
       "label": "Koerper",
-      "roll": "1d6",
-      "multiplier": 1
+      "roll": "Kauf oder Metatyp-Grundwert",
+      "range": "1-6 (Menschen), 1-8 (Trolle/Orks)",
+      "notes": "Basis fuer Schadensmonitor und koerperliche Widerstandsproben"
     },
     "GES": {
       "label": "Geschicklichkeit",
-      "roll": "1d6",
-      "multiplier": 1
+      "roll": "Kauf",
+      "range": "1-6 (Menschen)",
+      "notes": "Basis fuer Angriffs- und Heimlichkeitsproben"
     },
     "REA": {
       "label": "Reaktion",
-      "roll": "1d6",
-      "multiplier": 1
+      "roll": "Kauf",
+      "range": "1-6 (Menschen)",
+      "notes": "Teil der Initiative: REA + INT + 1W6"
     },
     "STA": {
       "label": "Staerke",
-      "roll": "1d6",
-      "multiplier": 1
+      "roll": "Kauf",
+      "range": "1-6 (Menschen)",
+      "notes": "Nahkampfschaden und koerperliche Aufgaben"
     },
     "WIL": {
       "label": "Willenskraft",
-      "roll": "1d6",
-      "multiplier": 1
+      "roll": "Kauf",
+      "range": "1-6",
+      "notes": "Basis fuer Widerstandsproben gegen Magie und Manipulation"
     },
     "LOG": {
       "label": "Logik",
-      "roll": "1d6",
-      "multiplier": 1
+      "roll": "Kauf",
+      "range": "1-6",
+      "notes": "Matrix-, Hacking- und Wissensproben"
     },
     "INT": {
       "label": "Intuition",
-      "roll": "1d6",
-      "multiplier": 1
+      "roll": "Kauf",
+      "range": "1-6",
+      "notes": "Teil der Initiative. Wahrnehmung und soziale Einschaetzung"
     },
     "CHA": {
       "label": "Charisma",
-      "roll": "1d6",
-      "multiplier": 1
+      "roll": "Kauf",
+      "range": "1-6",
+      "notes": "Soziale Fertigkeiten und Geisterbeschwoerung"
     },
     "EDGE": {
       "label": "Edge",
-      "roll": "1d6",
-      "multiplier": 1
+      "roll": "Kauf",
+      "range": "1-7",
+      "notes": "Gluecks-Ressource. Wird ausgegeben, regeneriert sich zwischen Szenen"
     },
     "MAG": {
       "label": "Magie",
-      "roll": "1d6",
-      "multiplier": 1
+      "roll": "Kauf (nur Erwachte)",
+      "range": "1-6",
+      "notes": "Nur fuer Magier/Adepten. Bestimmt Magiepunkte und Kraftlimit"
     },
     "RES": {
       "label": "Resonanz",
-      "roll": "1d6",
-      "multiplier": 1
+      "roll": "Kauf (nur Technomancer)",
+      "range": "1-6",
+      "notes": "Nur fuer Technomancer. Ersetzt MAG im Matrix-Kontext"
     }
   },
+
+  "derived_stats": {
+    "HP": {
+      "label": "Physischer Schadensmonitor",
+      "formula": "8 + ceil(KOE / 2)",
+      "notes": "Kaestchen auf dem koerperlichen Schadensmonitor"
+    },
+    "STUN": {
+      "label": "Betaeubungsmonitor",
+      "formula": "8 + ceil(WIL / 2)",
+      "notes": "Kaestchen auf dem Betaeubungsmonitor. Voll = bewusstlos"
+    },
+    "ESSENZ": {
+      "label": "Essenz",
+      "value": 6,
+      "notes": "Wird durch Cyberware reduziert. Auf 0 = Tod. Magie-Attribut kann nicht hoeher als Essenz sein"
+    },
+    "INITIATIVE": {
+      "label": "Initiative",
+      "formula": "REA + INT + 1d6",
+      "notes": "Hoeher = frueher handeln. Cyberware kann weitere Wuerfel addieren"
+    }
+  },
+
   "skills": {
     "Athletik": {
-      "base": 1
+      "base": 1,
+      "attribute": "GES",
+      "notes": "Laufen, Springen, Klettern, Schwimmen"
     },
     "Biotech": {
-      "base": 1
+      "base": 1,
+      "attribute": "LOG",
+      "notes": "Erste Hilfe, Chirurgie, Kybernetik-Implantation"
     },
     "Elektronik": {
-      "base": 1
+      "base": 1,
+      "attribute": "LOG",
+      "notes": "Hardware, Software, Cracking-Grundlagen"
     },
     "Feuerwaffen": {
-      "base": 1
+      "base": 1,
+      "attribute": "GES",
+      "notes": "Pistolen, MPs, Gewehre, Schrotflinten"
     },
     "Heimlichkeit": {
-      "base": 1
+      "base": 1,
+      "attribute": "GES",
+      "notes": "Schleichen, Verbergen, Hinterhalt legen"
     },
     "Nahkampf": {
-      "base": 1
+      "base": 1,
+      "attribute": "GES",
+      "notes": "Klingenwaffen, unbewaffneter Kampf, Schlagwaffen"
     },
     "Ueberreden": {
-      "base": 1
+      "base": 1,
+      "attribute": "CHA",
+      "notes": "Ueberzeugen, Taeuschen, Einschuechtern, Verhandeln"
     },
     "Wahrnehmung": {
-      "base": 1
+      "base": 1,
+      "attribute": "INT",
+      "notes": "Suchen, Lauschen, Spurensuche"
     },
     "Zaubern": {
-      "base": 0
+      "base": 0,
+      "attribute": "MAG",
+      "notes": "Nur Erwachte. Zauber wirken, Kraft = Anzahl Erfolgswuerfel"
     },
     "Beschwoeren": {
-      "base": 0
+      "base": 0,
+      "attribute": "MAG",
+      "notes": "Nur Erwachte/Schamanen. Geister rufen und binden"
     },
     "Hacken": {
-      "base": 1
+      "base": 1,
+      "attribute": "LOG",
+      "notes": "Matrix-Einbruch, Programme nutzen, IC bekampfen"
+    },
+    "Fahrzeuge": {
+      "base": 1,
+      "attribute": "REA",
+      "notes": "Autos, Boote, Drohnen steuern"
+    },
+    "Waffen (Schwer)": {
+      "base": 0,
+      "attribute": "GES",
+      "notes": "Maschinengewehre, Raketenwerfer, Geschuetze"
     }
   },
+
+  "combat": {
+    "system": "d6_pool",
+    "notes": "Shadowrun nutzt Wuerfelpools — kein THAC0, kein d20. Angriff: GES + Feuerwaffen/Nahkampf (Erfolge). Verteidigung: REA + INT (Erfolge). Netto-Erfolge = Schadenserhoehung.",
+    "attack_roll": "GES + relevante Kampffertigkeit (d6-Pool, Erfolge bei 5-6)",
+    "defense_roll": "REA + INT (d6-Pool, Erfolge bei 5-6)",
+    "damage_calculation": "Basisschaden der Waffe + Netto-Angriffserfolge = finaler Schaden",
+    "damage_resistance": "KOE + Ruestungsrang (d6-Pool) — Erfolge reduzieren Schaden",
+    "damage_types": {
+      "physisch": "Tragen Sie Kaestchen im Physischen Monitor ein. Voller Monitor = bewusstlos/sterbend",
+      "betaeubung": "Tragen Sie Kaestchen im Betaeubungsmonitor ein. Voller Monitor = bewusstlos"
+    },
+    "wound_modifiers": {
+      "leicht": "0 Kaestchen (kein Modifikator)",
+      "moderat": "-1 Wuerfel (ab 4 Kaestchen Schaden)",
+      "schwer": "-2 Wuerfel (ab 8 Kaestchen)",
+      "kritisch": "-3 Wuerfel (ab 12 Kaestchen)"
+    },
+    "actions": {
+      "major_action": "Angriff, Zauber wirken, Rennen, Erste Hilfe leisten — verbraucht Hauptaktion",
+      "minor_action": "Bewegung, Nachladen, Item nutzen, Kommunikation — kostet Bonusaktion",
+      "notes": "Jeder Charakter hat pro Initiativerunde 1 Major + 1 Minor Action. Edge-Ausgaben koennen Aktionen erhoehen."
+    },
+    "initiative": {
+      "formula": "REA + INT + 1d6 (Basis)",
+      "cyberware_bonus": "Verdrahtete Reflexe +1d6/+2d6/+3d6 je Stufe",
+      "order": "Hoehere Initiative handelt zuerst. Bei Gleichstand: hoehere REA gewinnt",
+      "passes": "Bei Initiative >= 20: zweiter Durchgang mit -10. Bei >= 30: dritter Durchgang mit -20"
+    },
+    "weapon_examples": {
+      "Ares Predator VI (Pistole)": "Schaden 8P, Angriff 1-15 Meter",
+      "FN HAR (Sturmgewehr)": "Schaden 11P, Angriff 30-100 Meter",
+      "Monofilamentklinge": "Schaden STA+3P",
+      "Schrotflinte (Streuschuss)": "Schaden 8P, Breitseite moeglich"
+    }
+  },
+
+  "edge": {
+    "label": "Edge",
+    "max": "EDGE-Attribut des Charakters",
+    "refresh": "Zu Beginn jeder Szene oder durch besondere Umstaende (SL-Entscheid)",
+    "actions": {
+      "edge_boost": {
+        "cost": 1,
+        "effect": "+1 Wuerfel zu einer beliebigen Probe (nachtraeglich moeglich)"
+      },
+      "push_the_limit": {
+        "cost": 1,
+        "effect": "Explodierende Sechsen: jede 6 wird erneut gewuerfelt und zaehlt als Treffer"
+      },
+      "second_chance": {
+        "cost": 1,
+        "effect": "Alle Nicht-Treffer erneut wuerfeln (einmal pro Probe)"
+      },
+      "close_call": {
+        "cost": 2,
+        "effect": "Angriff der gerade trifft wird zu einem Fehlschlag"
+      },
+      "smackdown": {
+        "cost": 4,
+        "effect": "Maximaler Waffenschaden ohne Wuerfelwurf fuer einen Angriff"
+      }
+    }
+  },
+
+  "matrix": {
+    "notes": "Matrix-Einbrueche nutzen LOG + Hacken (Wuerfelpool). IC (Intrusion Countermeasures) kaempfen mit eigenem Pool. Ueberwachung steigt mit jeder Aktion im heissen Sim-Modus.",
+    "modes": {
+      "ar": "Augmented Reality — Standard-Interface, kein Risiko",
+      "cold_sim": "Cold Sim-Modus: sicherer, aber weniger effektiv",
+      "hot_sim": "Hot Sim-Modus: +2 Wuerfel, aber biometrisches Feedback — ICE-Schaden ist physisch"
+    },
+    "ic_rating": "IC-Rating = Wuerfelpool der Gegenwehr. Schwarzeis verursacht physischen Schaden."
+  },
+
+  "cyberware": {
+    "notes": "Jedes Cyberware-Implantat reduziert Essenz. Essenz kann nie negativ werden (Charakter stirbt). MAG/RES kann nie hoeher als aktueller Essenz-Wert sein. Betroffen: Magier, Schamanen, Technomancer.",
+    "essence_costs": {
+      "Verdrahtete Reflexe 1": 2.0,
+      "Verdrahtete Reflexe 2": 3.0,
+      "Verdrahtete Reflexe 3": 5.0,
+      "Cyberauge Basis": 0.1,
+      "Skelettpanzerung": 1.5
+    }
+  },
+
+  "advancement": {
+    "method": "karma",
+    "notes": "Verbesserungen kosten Karma (Erfahrungspunkte). Neue Fertigkeitsstufe = neue Stufe * 5 Karma. Neues Attribut = neue Stufe * 10 Karma.",
+    "karma_costs": {
+      "neue_fertigkeit_stufe": "neue_stufe * 5",
+      "neues_attribut_stufe": "neue_stufe * 10",
+      "neue_spezialisierung": 5,
+      "neues_kontakt": 2,
+      "initiative_wuerfel": 10
+    }
+  },
+
   "extensions": {
     "content_references": {
       "rules_fulltext_chunks": "data/lore/shadowrun_6/rules_fulltext_chunks/",

@@ -198,6 +198,27 @@ _VALID_SAVE_CATEGORIES = {
 }
 
 # ---------------------------------------------------------------------------
+# Cross-System Tag Boundaries
+# ---------------------------------------------------------------------------
+# Tags that are ONLY valid for specific systems. When the active system is
+# NOT in the allowed set, the tag is blocked and a warning is emitted.
+# This prevents Cthulhu-specific sanity mechanics from leaking into games
+# that have no sanity system (Shadowrun, AD&D, Paranoia, Mad Max).
+
+_CTHULHU_ONLY_TAGS: frozenset[str] = frozenset({
+    "STABILITAET_VERLUST",
+    "SANITY_CHECK",
+    "SAN_LOSS",
+})
+
+# Systems that legitimately support Cthulhu-style sanity tags
+_SANITY_SYSTEMS: frozenset[str] = frozenset({
+    "cthulhu_7e",
+    # Note: mad_max uses 'survival' not 'sanity' — STABILITAET_VERLUST is
+    # Cthulhu-specific and should NOT appear in mad_max sessions either.
+})
+
+# ---------------------------------------------------------------------------
 # RulesEngine
 # ---------------------------------------------------------------------------
 
@@ -594,6 +615,29 @@ class RulesEngine:
                 results.append(vr)
 
         for change_type, value_str in (stat_changes or []):
+            # ── Cross-system tag boundary check ──────────────────────────
+            # Block Cthulhu-only sanity tags when the active system has no
+            # sanity mechanics.  This prevents STABILITAET_VERLUST (and
+            # related tags) from leaking into Shadowrun, Paranoia, AD&D etc.
+            if change_type in _CTHULHU_ONLY_TAGS:
+                if self._system not in _SANITY_SYSTEMS:
+                    msg = (
+                        f"[Cross-System Tag geblockt] Tag '{change_type}' gehoert "
+                        f"zum Cthulhu-Sanity-System und ist fuer '{self._system}' "
+                        f"ungueltig. KI-Anweisung pruefen."
+                    )
+                    logger.warning(msg)
+                    vr = ValidationResult(
+                        tag_type=change_type,
+                        is_valid=False,
+                        severity="error",
+                        message=msg,
+                        original_value=value_str,
+                    )
+                    results.append(vr)
+                    # Do not route to validate_san_loss — tag is fully blocked
+                    continue
+            # ── Normal per-tag routing ────────────────────────────────────
             if change_type == "STABILITAET_VERLUST":
                 vr = self.validate_san_loss(value_str, character_stats)
             elif change_type in ("HP_VERLUST", "HP_HEILUNG"):

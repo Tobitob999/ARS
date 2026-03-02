@@ -67,6 +67,9 @@ MAX_HISTORY_TURNS = 40
 # Monolog-Sperre: max. Saetze bevor ein Hook (Frage/Interaktion) erwartet wird
 MAX_NARRATIVE_SENTENCES = 3
 
+# Hard-Truncation-Limit: Antworten mit mehr Saetzen werden hart abgeschnitten
+MAX_HARD_TRUNCATE_SENTENCES = 5
+
 # Tags die als "Hook" zaehlen (Spieler-Interaktion erzwingen)
 _HOOK_PATTERNS = re.compile(
     r"\[PROBE:|Was tust du|Wohin gehst du|Wie reagierst du|Was machst du|"
@@ -74,8 +77,18 @@ _HOOK_PATTERNS = re.compile(
     re.IGNORECASE | re.MULTILINE,
 )
 
-# Tag-Pattern fuer Bereinigung bei Satz-Zaehlung
+# Tag-Pattern fuer Bereinigung bei Satz-Zaehlung (erfasst alle [...] Tags)
 _TAG_STRIP = re.compile(r"\[[^\]]+\]")
+
+# Tag-Pattern fuer das Extrahieren von Tags am Ende (Trailing-Tags beibehalten)
+_TRAILING_TAGS = re.compile(r"(\s*(?:\[[^\]]+\]\s*)+)$")
+
+# Abkuerzungen die keinen Satzende markieren (kein Split hier)
+_ABBREV_PATTERN = re.compile(
+    r"\b(?:Dr|Mr|Mrs|Ms|Prof|Jr|Sr|St|vs|bzw|usw|ggf|evtl|z\.B|d\.h|u\.a|"
+    r"o\.ae|sog|bspw|inkl|exkl|ca|max|min|Nr|Str|Tel|Ref|bzw|etc|zzgl|abzgl|"
+    r"ggü|bzgl|vgl|m\.E|u\.U|d\.h|z\.T|u\.a|o\.g|u\.U)\."
+)
 
 
 def extract_probes(text: str) -> list[tuple[str, int]]:
@@ -181,6 +194,10 @@ class GeminiBackend:
             full_response = short_msg
             yield short_msg
 
+        # Hard-Truncation: Prosa auf max. 5 Saetze begrenzen (TTS hat bereits gestreamt)
+        # Truncation gilt fuer History + EventBus — TTS-Stream ist bereits gelaufen.
+        full_response = self._truncate_response(full_response)
+
         # Monolog-Sperre + Hook-Zwang validieren
         self._validate_response(full_response)
 
@@ -256,6 +273,86 @@ class GeminiBackend:
         for w in warnings:
             logger.warning("[RESPONSE-CHECK] %s", w)
             bus.emit("keeper", "response_warning", {"warning": w})
+
+    def _truncate_response(self, response: str) -> str:
+        """
+        Begrenzt die Antwort auf MAX_HARD_TRUNCATE_SENTENCES Prosa-Saetze.
+
+        Algorithmus:
+          1. Trailing-Tags ([PROBE:...], [HP_VERLUST:...] etc.) am Ende herausnehmen.
+          2. Reine-Tag-Antworten (kein Prosa-Text) direkt zurueckgeben — kein Truncate.
+          3. Prosa-Text in Saetze aufteilen (Split auf ". " "! " "? ", Abkuerzungen beachten).
+          4. Wenn > MAX_HARD_TRUNCATE_SENTENCES: hart auf 5 Saetze kuerzen, WARNING loggen.
+          5. Wenn > MAX_NARRATIVE_SENTENCES aber <= 5: INFO loggen (soft-limit exceeded).
+          6. Tags wieder ans Ende anhaengen.
+
+        Garantiert: Kein Abschneiden mitten im Wort oder Tag.
+        """
+        if not response or not response.strip():
+            return response
+
+        # 1. Trailing-Tags extrahieren und separat aufbewahren
+        trailing_match = _TRAILING_TAGS.search(response)
+        trailing_tags = ""
+        prose = response
+        if trailing_match:
+            trailing_tags = trailing_match.group(1)
+            prose = response[: trailing_match.start()]
+
+        # 2. Wenn kein Prosa-Text (nur Tags), unveraendert zurueck
+        clean_prose = _TAG_STRIP.sub("", prose).strip()
+        if not clean_prose:
+            return response
+
+        # 3. Saetze zaehlen & splitten
+        # Wir splitten nicht auf rohen Punkt, sondern finden Satzende-Positionen
+        # um Abkuerzungen zu umgehen.
+        # Strategie: Suche alle ". " / "! " / "? " die NICHT auf Abkuerzung folgen.
+        sentence_end_positions: list[int] = []
+        for m in re.finditer(r"[.!?]+(?=\s|$)", prose):
+            # Position des Zeichens NACH dem Punkt-Block
+            end_pos = m.end()
+            # Pruefe ob es sich um eine Abkuerzung handelt
+            before = prose[: m.start()]
+            last_word_match = re.search(r"\b(\w+)$", before)
+            if last_word_match:
+                candidate = last_word_match.group(1)
+                # Bekannte Abkuerzungen ueberspringen
+                if _ABBREV_PATTERN.search(candidate + "."):
+                    continue
+            sentence_end_positions.append(end_pos)
+
+        num_sentences = len(sentence_end_positions)
+
+        if num_sentences <= MAX_NARRATIVE_SENTENCES:
+            # Kein Problem — gib unveraendert zurueck
+            return response
+
+        if num_sentences <= MAX_HARD_TRUNCATE_SENTENCES:
+            # Soft-Limit ueberschritten, aber noch im tolerierten Bereich
+            logger.info(
+                "[MONOLOG-CHECK] Soft-Limit: %d Saetze (Limit: %d, Hard: %d).",
+                num_sentences, MAX_NARRATIVE_SENTENCES, MAX_HARD_TRUNCATE_SENTENCES,
+            )
+            return response
+
+        # 4. Hard-Truncation: kuerze auf MAX_HARD_TRUNCATE_SENTENCES
+        cut_pos = sentence_end_positions[MAX_HARD_TRUNCATE_SENTENCES - 1]
+        truncated_prose = prose[:cut_pos].rstrip()
+        logger.warning(
+            "[MONOLOG-TRUNCATION] Antwort hatte %d Saetze — hart auf %d gekuerzt.",
+            num_sentences, MAX_HARD_TRUNCATE_SENTENCES,
+        )
+        EventBus.get().emit("keeper", "response_truncated", {
+            "original_sentences": num_sentences,
+            "truncated_to": MAX_HARD_TRUNCATE_SENTENCES,
+        })
+
+        # 5. Trailing-Tags wieder anhaengen
+        result = truncated_prose
+        if trailing_tags:
+            result = result + " " + trailing_tags.strip()
+        return result
 
     def reset_history(self) -> None:
         """Setzt die Konversationshistorie zurück (neue Session)."""
@@ -1024,30 +1121,45 @@ Regeln:
   - Bei SAN 0: temporaerer Wahnsinn — spektakulaer, nicht einfach "du bist verrueckt".
 
 ═══ INVESTIGATIV-PROBEN-PROTOKOLL (Call of Cthulhu 7e) ═══
-Probensystem: d100 Roll-under gegen Fertigkeitswert.
+Probensystem: d100 Roll-under. Zielwert 01-99. Wurf <= Zielwert = Erfolg.
 
-Wann Proben setzen:
-- Der Spieler untersucht etwas, recherchiert, schleicht, lauscht, ueberzeugt.
-- Nur wenn Scheitern interessante Konsequenzen haette.
-- NICHT bei trivialen Handlungen (Tuer oeffnen, Licht anmachen).
+!!! PFLICHT: Du MUSST in mindestens 40% deiner Antworten einen [PROBE:]-Tag setzen,
+wenn die Situation eine Fertigkeitspruefung erfordern koennte. Setze lieber eine
+Probe zu viel als zu wenig. Eine Szene ohne Probe ist oft eine verschenkte Chance.
 
-Proben-Beispiele mit typischen Cthulhu-Fertigkeiten:
-  [PROBE: Wahrnehmung | <Fertigkeitswert>]  — Etwas Ungewoehnliches bemerken
-  [PROBE: Bibliotheksnutzung | <Fertigkeitswert>]  — Recherche, Akten, Buecher
-  [PROBE: Psychologie | <Fertigkeitswert>]  — Luegen erkennen, Motive durchschauen
-  [PROBE: Heimlichkeit | <Fertigkeitswert>]  — Schleichen, unbemerkt bleiben
-  [PROBE: Lauschen | <Fertigkeitswert>]  — Geraeusche, Gespraeche mithoren
-  [PROBE: Spurensuche | <Fertigkeitswert>]  — Physische Hinweise finden
-  [PROBE: Erste Hilfe | <Fertigkeitswert>]  — Verletzungen versorgen
-  [PROBE: Schloesser oeffnen | <Fertigkeitswert>]  — Verschlossenes oeffnen
-  [PROBE: Verborgenes erkennen | <Fertigkeitswert>]  — Geheimtueren, versteckte Objekte
-  [PROBE: Ueberzeugen | <Fertigkeitswert>]  — NPCs beeinflussen
-  [PROBE: Cthulhu-Mythos | <Fertigkeitswert>]  — Mythos-Wissen (selten, gefaehrlich)
+Wann Proben setzen (AKTIV suchen, nicht abwarten):
+- Der Spieler untersucht, recherchiert, schleicht, lauscht, ueberzeugt, beobachtet.
+- Der Spieler bemerkt oder sucht etwas — IMMER Wahrnehmungs- oder Spurensuche.
+- Eintreten in eine neue unbekannte Location — Wahrnehmung oder Verborgenes erkennen.
+- Gespräch mit einem NPC ueber sensible Themen — Psychologie oder Ueberzeugen.
+- Nur NICHT bei trivialen Handlungen (Tuer oeffnen, Licht anmachen).
 
-WICHTIG:
-- Zielwert = aktueller Fertigkeitswert des Investigators (aus dem Charakter-Kontext).
+Proben-Beispiele mit echten Zielwerten (d100, Roll-under):
+  [PROBE: Wahrnehmung | 45]             — Etwas Ungewoehnliches bemerken
+  [PROBE: Verborgenes erkennen | 35]    — Geheimtueren, versteckte Objekte entdecken
+  [PROBE: Bibliotheksnutzung | 55]      — Recherche in Archiven, Akten, Buechern
+  [PROBE: Spurensuche | 40]             — Physische Hinweise, Spuren am Tatort finden
+  [PROBE: Lauschen | 50]               — Geraeusche hinter Waenden, Gespraeche belauen
+  [PROBE: Psychologie | 45]            — Luegen erkennen, Motive durchschauen
+  [PROBE: Heimlichkeit | 35]           — Schleichen, unbemerkt vorgehen
+  [PROBE: Ueberzeugen | 50]            — NPCs zu etwas ueberreden, Informationen locken
+  [PROBE: Erste Hilfe | 45]            — Verletzungen versorgen
+  [PROBE: Schloesser oeffnen | 30]     — Verschlossenes oeffnen
+  [PROBE: Okkultismus | 25]            — Verborgenes Wissen, okkulte Symbole deuten
+  [PROBE: Cthulhu-Mythos | 15]         — Mythos-Wissen pruefen (selten, gefaehrlich)
+
+FORMAT (unveraenderlich):
+  [PROBE: <Fertigkeitsname> | <Zielwert>]
+  Beispiel: [PROBE: Wahrnehmung | 45]
+  Der Zielwert ist der aktuelle Fertigkeitswert des Investigators aus dem Charakter-Kontext.
+  Zielwerte liegen immer zwischen 01 und 99 (d100-System!).
+  NIEMALS Werte wie 9, 11, 14 — das waere das falsche System.
+
+PFLICHT-REGELN:
+- Zielwert = aktueller Fertigkeitswert des Investigators (aus dem Charakter-Kontext, 01-99).
 - Nur EINE Probe pro Antwort.
-- Probe kommt IMMER ans Ende, NACH der narrativen Beschreibung."""
+- Probe kommt IMMER ans Ende, NACH der narrativen Beschreibung.
+- KEIN narrativer Text wie "Du musst eine Probe wuerfeln" — einfach den Tag setzen."""
 
         elif is_paranoia:
             # Paranoia 2E — The Computer persona
