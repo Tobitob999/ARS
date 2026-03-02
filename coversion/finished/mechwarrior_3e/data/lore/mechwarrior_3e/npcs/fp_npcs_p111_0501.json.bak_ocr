@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "For example_ character can Simple Action t0 run",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 111,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:29Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p111_0501",
+    "entity_type": "npcs",
+    "name_guess": "For example_ character can Simple Action t0 run",
+    "breadcrumb_path": "Rules Compendium > Page 111 > npcs > For example_ character can Simple Action t0 run",
+    "page_refs": [
+      111
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "TN"
+    ],
+    "excerpt": "For example_ character can Simple Action t0 run into position and then declare that he will use nis second Simple Action make an attack against target of opportunity: the stated conditions do not come up at all in the turn, the character'$ delayed phase moves on into the following turn: does not roll Initiative but continues to delay from the previ- ous turn; phase can be held indefinitely in this way: At the end of any turn; character who is delaying can also choose to stop delaying and roll Initiative normally in the next turn_ When the delaying character takes his phase (or the part of his phase that was delayed), all his Action Checks for that phase have TN modifier of +2 because the character must react using snap judgment: Note that it is impossible for single character take more than one phase in single turn."
+  }
+}

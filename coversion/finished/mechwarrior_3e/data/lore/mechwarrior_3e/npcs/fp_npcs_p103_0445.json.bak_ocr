@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Each Language Skill includes the ability to speak_",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 103,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:26Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p103_0445",
+    "entity_type": "npcs",
+    "name_guess": "Each Language Skill includes the ability to speak_",
+    "breadcrumb_path": "Rules Compendium > Page 103 > npcs > Each Language Skill includes the ability to speak_",
+    "page_refs": [
+      103
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "TN",
+      "damage"
+    ],
+    "excerpt": "Each Language Skill includes the ability to speak_ read and write depending on the skill bonus: +0 confers the ability t0 understand the language and speak well enough to be under- stood but only basic reading and no writing; +1 allows fluent speech and reading_ as well as reasonable writing; +2 or better indicates complete fluency in speaking; reading and writing: Language Skill Checks are only necessary if character IS trying t0 understand an unusual dialect Or read very compli: cated Or technical document; Note that even though languages are considered difficult skills character' native language is not considered difficult for purposes of his skill advancement Aikido This subskill represents various defensive forms such as aikido judo t'ai chi ch uan and karate do concentrates on throwing; locking and attempting neutralize your opponent without striking him: Aikido Dodge (Defense): Your opponent' TN to hit you increased by but your character cannot inflict damage this round of melee Topple (Defense): Your character\" TN to hit is decreased by 2 and you cannot inflict damage this round_ However, if You win the round of melee combat, the attacker is knocked prone Throw (Defense): character must have +2 Skill Bonus or better in Aikido t0 use this maneuver: Costs Fatigue."
+  }
+}

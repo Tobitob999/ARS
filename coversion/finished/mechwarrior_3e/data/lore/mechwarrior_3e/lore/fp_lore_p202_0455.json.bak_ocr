@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "lore_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "lore",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Teb (ob17 COMMAND STRUCTURE Unlike Inner Sphere militaries_",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 202,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:21Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_lore_p202_0455",
+    "entity_type": "lore",
+    "name_guess": "Teb (ob17 COMMAND STRUCTURE Unlike Inner Sphere militaries_",
+    "breadcrumb_path": "Rules Compendium > Page 202 > lore > Teb (ob17 COMMAND STRUCTURE Unlike Inner Sphere militaries_",
+    "page_refs": [
+      202
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Teb (ob17 COMMAND STRUCTURE Unlike Inner Sphere militaries_ the Clans have enlisted personnel but consider all of their warriors officers_ MEM- bers of Kornor sibkos (sibling companies made up of cadets from the same bloodlines) g0 tnrougn grueling training pro gram that prepares Ihem to become Clan warriors_ These train- ing camps teach sibko cadets Clan history and philosophy as well as strategy and taclics_ The average Clan cadet can quote entire passages from Or her Clan' version the cpic Remembrance but he or she often lacks leadership and other interpersonal skills side effect the Clans' might makes rgnt\" philosophy; At the end cadet ' training each undergoes Trial of Position the cadet survives and makes at least one kill; she is officially wartion cadet who fails the Trial or fails at ay other point training reassigned t0 lower casic."
+  }
+}

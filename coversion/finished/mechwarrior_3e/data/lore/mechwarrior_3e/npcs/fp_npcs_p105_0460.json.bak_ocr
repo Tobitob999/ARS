@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Characters attempting t0 use Stealth are detected by",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 105,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:26Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p105_0460",
+    "entity_type": "npcs",
+    "name_guess": "Characters attempting t0 use Stealth are detected by",
+    "breadcrumb_path": "Rules Compendium > Page 105 > npcs > Characters attempting t0 use Stealth are detected by",
+    "page_refs": [
+      105
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Characters attempting t0 use Stealth are detected by the opponent\" s Perception Skill in a Opposed Test: Perception Cnecks give the gamemaster good way to keep story moving and t0 tell the players how much their char acters see and when they see it."
+  }
+}

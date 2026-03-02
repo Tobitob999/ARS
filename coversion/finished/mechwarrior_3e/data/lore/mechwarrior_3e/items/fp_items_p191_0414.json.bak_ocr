@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "The preponderance of trueborns in the war- rior",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 191,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:14Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p191_0414",
+    "entity_type": "items",
+    "name_guess": "The preponderance of trueborns in the war- rior",
+    "breadcrumb_path": "Rules Compendium > Page 191 > items > The preponderance of trueborns in the war- rior",
+    "page_refs": [
+      191
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "The preponderance of trueborns in the war- rior caste is accepted as further evidence of trueborn superior- ity; the only trueborns among the civilian castes are those who wash out Of warrior training: Freeborn genes cannot be used in the breeding program unless the freeborn warrior acquires Bloodname an almost impossible feat for freeborn _ Ironically; the rare inclusion those freeborn genes prevents genetic stagnation in the warrior caste ing and willingness to accept punishment; the strength to admit mistakes and accept the consequences considered virtue in Clan society: Trial of Grlevance When dispute cannot be resolved by other means the Trial of Grievance comes into play: Among warriors _ this Trial is duel; tougnt with without equipment, the winner of which is deemed t0 be in the rght."
+  }
+}

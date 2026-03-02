@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "the gamemaster feels the extra record keeping iS",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 210,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:26Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p210_0839",
+    "entity_type": "npcs",
+    "name_guess": "the gamemaster feels the extra record keeping iS",
+    "breadcrumb_path": "Rules Compendium > Page 210 > npcs > the gamemaster feels the extra record keeping iS",
+    "page_refs": [
+      210
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "the gamemaster feels the extra record keeping iS worth it. XP can be awarded major NPCs after cach adventure they take part this way. the villain who keeps escaping also gets clever er his right hand man becomes better shot and the charac lers will have t0 do more than wait the villain out t0 stop nim; the opposition can keep up with the player characters (at east somewhatl, the campaign will remain more challenging as pro gresses_ Allies and trusted assistants could benefit from XP awards d5 well; the same manner as enemies."
+  }
+}

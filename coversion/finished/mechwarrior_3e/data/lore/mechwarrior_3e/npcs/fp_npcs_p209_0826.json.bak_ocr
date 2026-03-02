@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Few things roleplaying campaign can compare t0 the",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 209,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:25Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p209_0826",
+    "entity_type": "npcs",
+    "name_guess": "Few things roleplaying campaign can compare t0 the",
+    "breadcrumb_path": "Rules Compendium > Page 209 > npcs > Few things roleplaying campaign can compare t0 the",
+    "page_refs": [
+      209
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Few things roleplaying campaign can compare t0 the satistaction of building character Over lhe course of cam Daign until his abilities and fame reach legendary proportions This handled game terms Inrougn the awarding Experience Points (XPI (The use 0f XP t0 improve character iS described on 210.1 Determining how much experience an adventure Korth something that each individual gamemaster Misi decide; this aspect of tne game cruciae to the evolution 0f the player characlers Over lime_ rough guide of Experience Point awards based on select conditions provided below."
+  }
+}

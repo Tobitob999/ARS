@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "CHARACTER_ CREATION Bonus Tralts: Quirk / Stubborn Path",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 32,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:47Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p032_0116",
+    "entity_type": "npcs",
+    "name_guess": "CHARACTER_ CREATION Bonus Tralts: Quirk / Stubborn Path",
+    "breadcrumb_path": "Rules Compendium > Page 032 > npcs > CHARACTER_ CREATION Bonus Tralts: Quirk / Stubborn Path",
+    "page_refs": [
+      32
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "CHARACTER_ CREATION Bonus Tralts: Quirk / Stubborn Path Restrictions: None nized infrastructure exists to support advanced education manufacturing: However; these Periphery characters also tend to be resourceful and have knack for beating the odds."
+  }
+}

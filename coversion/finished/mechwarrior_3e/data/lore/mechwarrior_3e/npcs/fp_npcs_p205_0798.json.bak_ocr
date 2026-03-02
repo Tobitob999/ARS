@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "only t0 find the rest of the party",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 205,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:23Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p205_0798",
+    "entity_type": "npcs",
+    "name_guess": "only t0 find the rest of the party",
+    "breadcrumb_path": "Rules Compendium > Page 205 > npcs > only t0 find the rest of the party",
+    "page_refs": [
+      205
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "only t0 find the rest of the party and the gamemaster had set their Sights on campaign the Clan homeworlds! Setting iS key element choosing the right roles for an adventure performing surgical strikes The risks are great; as such targets usually well-defended_ In fact; an alternative concept for an adventure campaign is for the player characters t0 serve as counter-agents."
+  }
+}

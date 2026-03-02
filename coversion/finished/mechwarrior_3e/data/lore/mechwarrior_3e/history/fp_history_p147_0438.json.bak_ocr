@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "However, number of diagnostic machines are available t0",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 147,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:41Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p147_0438",
+    "entity_type": "history",
+    "name_guess": "However, number of diagnostic machines are available t0",
+    "breadcrumb_path": "Rules Compendium > Page 147 > history > However, number of diagnostic machines are available t0",
+    "page_refs": [
+      147
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "However, number of diagnostic machines are available t0 help- These machines are capable looking inside patient without the need for any incisions and can provide immediate information to the physician temperatures into the realm of comfort for the average human ana even has basic sanitary subsystem attached: Tnis climate controi system uses fair amount of power, requiring either fre- quent rechargings or attachment to constant power surce unit usually runs off satchel battery: bubble tent resilient against cuts and tears They are manufactured in number of different sizes, though the largest can only accommodate max imum 0f dozen occupants (not taking into account personal gear; which can easily take UP occupant space)."
+  }
+}

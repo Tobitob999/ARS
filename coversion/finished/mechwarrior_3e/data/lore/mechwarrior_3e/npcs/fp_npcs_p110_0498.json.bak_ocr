@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "During each character $ phase the char acter",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 110,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:29Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p110_0498",
+    "entity_type": "npcs",
+    "name_guess": "During each character $ phase the char acter",
+    "breadcrumb_path": "Rules Compendium > Page 110 > npcs > During each character $ phase the char acter",
+    "page_refs": [
+      110
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "0 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "During each character $ phase the char acter may take certain number of actions, depending on their complexity Complex Actions Complex Actions require character's full attention_ and when per formed are the only Ihing character can do during that turn (aside from Incidental Actions of course): Disengage (from Melee Combat) Evading Movement Melee Attack Extinguish Fire Recover Fatigue Speak (conversation) Spot for Indirect Fire Sprinting Movement Use Complex Object Use Skill ACTIONS character can only do s0 much in seconds_ To represent character limited to either one Complex Action Or [WO Simple Actions in his phase_ In addition, character can per form any number of Incidental Actions in his phase (within reason}."
+  }
+}

@@ -7,7 +7,7 @@
     "first_pass",
     "entity"
   ],
-  "summary": "Characters attempting t0 use Stealth are detected by",
+  "summary": "Characters attempting to use Stealth are detected by",
   "source_text": {
     "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
     "page": 105,
@@ -21,7 +21,7 @@
   "mechanics": {
     "entity_id": "fp_npcs_p105_0460",
     "entity_type": "npcs",
-    "name_guess": "Characters attempting t0 use Stealth are detected by",
+    "name_guess": "Characters attempting to use Stealth are detected by",
     "breadcrumb_path": "Rules Compendium > Page 105 > npcs > Characters attempting t0 use Stealth are detected by",
     "page_refs": [
       105

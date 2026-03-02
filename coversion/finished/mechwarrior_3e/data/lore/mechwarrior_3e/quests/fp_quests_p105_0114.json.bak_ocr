@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "quests_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "quests",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Be careful not t0 overuse Perception Checks, however;",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 105,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:27Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_quests_p105_0114",
+    "entity_type": "quests",
+    "name_guess": "Be careful not t0 overuse Perception Checks, however;",
+    "breadcrumb_path": "Rules Compendium > Page 105 > quests > Be careful not t0 overuse Perception Checks, however;",
+    "page_refs": [
+      105
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Be careful not t0 overuse Perception Checks, however; Or they will bog down the flow of play: As with everything else, resort t0 game mechanics only when Ine outcome is uncertain_ PILOTINO BUBBKILLB TABLE Aerodyno (Aero): Aerospace fighters DropShips and spacecraft with an aerodyne configuration_ Alrcralt: Conventional fixed-wing aircraft, be it jet or prop driven: VTOL: Conventional rotary-wing aircraft 'Mech: Two-legged humanoid\" BattleMechs _ Quad: Four-legged quad BattleMechs PILOTING\" The Piloting Subskills cover the operation of the various vehicles of the thirty first century; from simple ground cars to the mighty BattleMech; Piloting Skill Checks are required when character attempts difficult or dangerous maneuver: Failure indicates the character has lost control of the vehicle and will crash (or fall in the case of BattleMechs)."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "lore_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "lore",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "which should have won Inemn tne war. Tneir",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 201,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:21Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_lore_p201_0452",
+    "entity_type": "lore",
+    "name_guess": "which should have won Inemn tne war. Tneir",
+    "breadcrumb_path": "Rules Compendium > Page 201 > lore > which should have won Inemn tne war. Tneir",
+    "page_refs": [
+      201
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "which should have won Inemn tne war. Tneir tactics noxcvci ultimately cost thcm victory allowing Inmer Sphere forces stalemate tneu advance Though the Clans are bv na means monolinic_ each Clan employs essentially the same structure and customs ORGANIZATION Much as the Com Guards base their Organization arouna the nmber SiX Nicholas Kerensky Organized his Clans arouna Ihe number IC, The Point the most basic unit Clan mili Janes Toumans; single BattleMech Iwo acrospace fighters vehicles Hve Elementals IClan armnored infantryl Mive intantfy squads (five mnen eachi make up Point."
+  }
+}

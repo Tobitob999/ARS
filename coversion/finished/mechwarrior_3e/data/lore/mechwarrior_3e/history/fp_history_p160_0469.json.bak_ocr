@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "ECHWARRIOR JrD EdItie A BRIEF HISTORY OF THE",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 160,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:56Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p160_0469",
+    "entity_type": "history",
+    "name_guess": "ECHWARRIOR JrD EdItie A BRIEF HISTORY OF THE",
+    "breadcrumb_path": "Rules Compendium > Page 160 > history > ECHWARRIOR JrD EdItie A BRIEF HISTORY OF THE",
+    "page_refs": [
+      160
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "ECHWARRIOR JrD EdItie A BRIEF HISTORY OF THE INNER SPHERE The creation of the great star empires and the formation of throughout the long years of strife , stepped in at the behest of the human society known as the Clans begins with humanity' $ James McKenna; an admiral the Alliance Global Nawy: Using long-ago first steps into space."
+  }
+}

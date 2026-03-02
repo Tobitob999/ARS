@@ -19,6 +19,7 @@ Konfiguration:
 
 from __future__ import annotations
 
+import copy
 import logging
 from typing import Any
 
@@ -72,26 +73,82 @@ class AdventureManager:
     # ------------------------------------------------------------------
 
     def load(self, data: dict[str, Any]) -> None:
-        """Laedt Abenteuer-Daten und indiziert Locations/NPCs/Clues."""
+        """Laedt Abenteuer-Daten und indiziert Locations/NPCs/Clues.
+
+        WICHTIG: Die Daten werden tief kopiert (deep-copy) damit externe
+        Mutationen (z.B. durch ai_backend._load_and_merge_lore) die intern
+        indizierten Strukturen nicht korrumpieren koennen.
+        """
+        # Deep-copy schutzt gegen shared-mutable-state Korrumption:
+        # ai_backend._load_and_merge_lore() mutiert das adventure-Dict in-place
+        # NACHDEM AdventureManager.load() bereits indiziert hat.  Ohne deep-copy
+        # wuerden angehaefte Lore-Items (locations, npcs, etc.) die indizierten
+        # Listen erweitern, aber _locations/_npcs/_clues nicht aktualisiert.
+        # Mit deep-copy arbeitet der AdventureManager auf einem isolierten Snapshot.
+        data = copy.deepcopy(data)
         self._data = data
 
-        # Locations indizieren
+        # Locations indizieren — nur echte dicts mit "id"-Feld aufnehmen
         self._locations = {}
-        for loc in data.get("locations", []):
+        raw_locations = data.get("locations", [])
+        if not isinstance(raw_locations, list):
+            logger.warning(
+                "adventure['locations'] ist kein list (sondern %s) — uebersprungen.",
+                type(raw_locations).__name__,
+            )
+            raw_locations = []
+        for loc in raw_locations:
+            if not isinstance(loc, dict):
+                logger.warning("Location-Eintrag ist kein dict — uebersprungen: %r", loc)
+                continue
+            if "id" not in loc:
+                logger.warning("Location ohne 'id'-Feld — uebersprungen: %r", loc)
+                continue
             self._locations[loc["id"]] = loc
             # Sub-Locations ebenfalls indizieren
             for sub in loc.get("sub_locations", []):
+                if not isinstance(sub, dict) or "id" not in sub:
+                    continue
                 self._locations[sub["id"]] = sub
                 sub["_parent"] = loc["id"]
 
-        # NPCs indizieren
-        self._npcs = {npc["id"]: npc for npc in data.get("npcs", [])}
+        # NPCs indizieren — nur echte dicts mit "id"-Feld aufnehmen
+        raw_npcs = data.get("npcs", [])
+        if not isinstance(raw_npcs, list):
+            logger.warning(
+                "adventure['npcs'] ist kein list (sondern %s) — uebersprungen.",
+                type(raw_npcs).__name__,
+            )
+            raw_npcs = []
+        self._npcs = {
+            npc["id"]: npc
+            for npc in raw_npcs
+            if isinstance(npc, dict) and "id" in npc
+        }
 
-        # Clues indizieren
-        self._clues = {clue["id"]: clue for clue in data.get("clues", [])}
+        # Clues indizieren — nur echte dicts mit "id"-Feld aufnehmen
+        raw_clues = data.get("clues", [])
+        if not isinstance(raw_clues, list):
+            logger.warning(
+                "adventure['clues'] ist kein list (sondern %s) — uebersprungen.",
+                type(raw_clues).__name__,
+            )
+            raw_clues = []
+        self._clues = {
+            clue["id"]: clue
+            for clue in raw_clues
+            if isinstance(clue, dict) and "id" in clue
+        }
 
-        # Flags initialisieren
-        self._initial_flags = dict(data.get("flags", {}))
+        # Flags initialisieren — nur aus echtem dict
+        raw_flags = data.get("flags", {})
+        if not isinstance(raw_flags, dict):
+            logger.warning(
+                "adventure['flags'] ist kein dict (sondern %s) — Flags zurueckgesetzt.",
+                type(raw_flags).__name__,
+            )
+            raw_flags = {}
+        self._initial_flags = dict(raw_flags)
         self._flags = dict(self._initial_flags)
 
         # Start-Location setzen
@@ -257,7 +314,18 @@ class AdventureManager:
         logger.info("Flags zurueckgesetzt auf Initialwerte (%d Flags).", len(self._flags))
 
     def merge_flags_from_world_state(self, world_state: dict[str, Any]) -> None:
-        """Uebernimmt Flags aus dem Archivist-WorldState (Session-Restore)."""
+        """Uebernimmt Flags aus dem Archivist-WorldState (Session-Restore).
+
+        Nur dict-Werte werden akzeptiert — Sicherheitsnetz fuer fehlerhafte
+        Aufrufer (z.B. wenn extract_facts ein unerwartetes Typ liefert).
+        """
+        if not isinstance(world_state, dict):
+            logger.warning(
+                "merge_flags_from_world_state: world_state ist kein dict "
+                "(sondern %s) — uebersprungen.",
+                type(world_state).__name__,
+            )
+            return
         for key, val in world_state.items():
             if key.startswith("flag:"):
                 self._flags[key[5:]] = val

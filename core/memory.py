@@ -46,14 +46,26 @@ def extract_facts(text: str) -> list[dict[str, Any]]:
     """
     Parst alle [FAKT: {...}] Tags aus dem GM-Text.
     Ungueltige JSON-Bloecke werden mit Warnung uebersprungen.
+    Nur dict-Typen werden zurueckgegeben — Listen oder Primitives werden ignoriert.
     Returns list of fact-dicts.
     """
     facts: list[dict[str, Any]] = []
     for m in FAKT_PATTERN.finditer(text):
         try:
-            facts.append(json.loads(m.group(1)))
+            parsed = json.loads(m.group(1))
         except json.JSONDecodeError:
             logger.warning("Ungueltige FAKT-JSON: '%s' — uebersprungen.", m.group(1))
+            continue
+        # Sicherheitscheck: nur dicts als Facts erlaubt
+        # (KI koennte theoretisch ein Array oder Primitiv liefern)
+        if not isinstance(parsed, dict):
+            logger.warning(
+                "FAKT-Tag enthaelt kein dict (sondern %s): '%s' — uebersprungen.",
+                type(parsed).__name__,
+                m.group(1),
+            )
+            continue
+        facts.append(parsed)
     return facts
 
 
@@ -124,16 +136,42 @@ class Archivist:
         """
         Fuegt neue Fakten in den World State ein (merge, nicht replace).
         Persistiert sofort in der DB.
+
+        Nur dict-Werte werden akzeptiert — nicht-dict Argumente werden
+        protokolliert und ignoriert um Datenkorrumption zu verhindern.
+        Verschachtelte dict-Werte (z.B. {"data": {"sub": 1}}) werden
+        als JSON-String gespeichert um die Flat-Struktur zu erhalten und
+        spaetere sorted()-Aufrufe stabil zu halten.
         """
-        self._world_state.update(facts)
+        if not isinstance(facts, dict):
+            logger.warning(
+                "merge_world_state: facts ist kein dict (sondern %s) — uebersprungen.",
+                type(facts).__name__,
+            )
+            return
+
+        # Nur flache Werte speichern — nested dicts als JSON-String serialisieren
+        safe_facts: dict[str, Any] = {}
+        for k, v in facts.items():
+            if isinstance(v, dict):
+                # Nested dict -> JSON-String damit sorted() und str-Formatierung
+                # nicht von der Tiefe der Verschachtelung abhaengen
+                safe_facts[k] = json.dumps(v, ensure_ascii=False)
+            elif isinstance(v, list):
+                # Listen ebenfalls als JSON-String
+                safe_facts[k] = json.dumps(v, ensure_ascii=False)
+            else:
+                safe_facts[k] = v
+
+        self._world_state.update(safe_facts)
         self._save_world_state()
         EventBus.get().emit("archivar", "world_state_updated", {
-            "new_facts": facts,
+            "new_facts": safe_facts,
             "total_facts": len(self._world_state),
         })
         logger.info(
             "World State aktualisiert: %s | Gesamt: %d Fakten.",
-            facts,
+            safe_facts,
             len(self._world_state),
         )
 
@@ -158,10 +196,22 @@ class Archivist:
             )
 
         if self._world_state:
-            facts_text = "\n".join(
-                f"  - {k}: {v}" for k, v in sorted(self._world_state.items())
-            )
-            sections.append(f"=== AKTUELLE FAKTEN ===\n{facts_text}")
+            try:
+                facts_text = "\n".join(
+                    f"  - {k}: {v}" for k, v in sorted(self._world_state.items())
+                )
+            except (AttributeError, TypeError) as exc:
+                # Sicherheitsnetz: _world_state sollte immer ein dict sein,
+                # aber falls es korrumpiert wurde, graceful degradieren
+                logger.warning(
+                    "get_context_for_prompt: _world_state korrumpiert (%s: %s) — "
+                    "World State wird zurueckgesetzt.",
+                    type(exc).__name__, exc,
+                )
+                self._world_state = {}
+                facts_text = ""
+            if facts_text:
+                sections.append(f"=== AKTUELLE FAKTEN ===\n{facts_text}")
 
         return "\n\n".join(sections)
 

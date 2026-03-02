@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "vehicles_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "vehicles",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "You soon moved on t0 advanced studies in",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 71,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:02Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_vehicles_p071_0124",
+    "entity_type": "vehicles",
+    "name_guess": "You soon moved on t0 advanced studies in",
+    "breadcrumb_path": "Rules Compendium > Page 071 > vehicles > You soon moved on t0 advanced studies in",
+    "page_refs": [
+      71
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "You soon moved on t0 advanced studies in vehicle maintenance . while continuing your friendship with your buddies at NAMA Your postgraduate studies took you on tour of the major factories in the Federated Suns that produce civilian and combat vehicles."
+  }
+}

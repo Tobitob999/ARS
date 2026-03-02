@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "vehicles_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "vehicles",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Each field consists of sev- eral skills related",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 25,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:43Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_vehicles_p025_0044",
+    "entity_type": "vehicles",
+    "name_guess": "Each field consists of sev- eral skills related",
+    "breadcrumb_path": "Rules Compendium > Page 025 > vehicles > Each field consists of sev- eral skills related",
+    "page_refs": [
+      25
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Each field consists of sev- eral skills related to particular occupation; The most common fields for MechWarrior characters are shown starting on 52. Fields are used in the Life Path to simplify the assignment of skills For example; rather than listing every Basic Training Skill every time character earns one the path simply awards the Basic Training Field When field is awarded througn the Life Path: the character receives Skill Points toward every skiii that field."
+  }
+}

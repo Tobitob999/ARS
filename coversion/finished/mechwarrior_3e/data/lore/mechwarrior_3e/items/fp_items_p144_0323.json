@@ -7,7 +7,7 @@
     "first_pass",
     "entity"
   ],
-  "summary": "The suit grants STR bonus of +3 t0",
+  "summary": "The suit grants STR bonus of +3 to",
   "source_text": {
     "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
     "page": 144,
@@ -21,7 +21,7 @@
   "mechanics": {
     "entity_id": "fp_items_p144_0323",
     "entity_type": "items",
-    "name_guess": "The suit grants STR bonus of +3 t0",
+    "name_guess": "The suit grants STR bonus of +3 to",
     "breadcrumb_path": "Rules Compendium > Page 144 > items > The suit grants STR bonus of +3 t0",
     "page_refs": [
       144

@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Attribute Minlmums: SOC 7 Elementals BOD 5 Attrlbute",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 36,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:50Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p036_0139",
+    "entity_type": "npcs",
+    "name_guess": "Attribute Minlmums: SOC 7 Elementals BOD 5 Attrlbute",
+    "breadcrumb_path": "Rules Compendium > Page 036 > npcs > Attribute Minlmums: SOC 7 Elementals BOD 5 Attrlbute",
+    "page_refs": [
+      36
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "1 M"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Attribute Minlmums: SOC 7 Elementals BOD 5 Attrlbute Thresholds: BOD RFL +1 CHA -1 SOC +1 Tralts: Quirk /Clan Honor, Slow Learner, choose one: Elemental Phenotype , Fighter Pilot Phenotype or MechWarrior Phenotype Skllls: Interest/Clan Remembrance +1, Swimming +1 Martial Arts /Military +1 Next Path: Trueborn Sibko (2) Trueborn Creche Events Serious training accident [Lost Limb (3) and wash out of training] Training accident [Poor Vision and wash out of training) You just don' have what takes (wash out of training) Your trainers were hard on you, the runt tne sibko (Glass Jaw; Martial Arts / Military +1] You already have rival [Enemy] Boundless pride drives you to learn all you can about the Clans [Academic Clan History +2] true warrior at heart; but very slow on the uptake [STR +1 but lose all skills gained from this path] You take to combat training Ilke duck to water [Martial Arts /Military +1 Blades +1/ Your inquisitive nature is boon but constantly gets you into trouble surat [Fast Learner; Enemy] Your bloodline is renowned, So you have much t0 live up to [SOC +1 Ambidextrous_ Attractive Combat Sense, Enemy: Good Reputation] [Choose event or roll twice and apply both results) BTREET You grew up on the streets of big city: Your parents may have been poor or unemployed_ Or you were an orphan; Life on the streets can be harsh_ which makes you hard-edged Attrlbute Thresholds: BOD -1 RFL +1 WIL +1, EDG +1_ SOC Tratts: Poverty SkllIs: Language_ Affiliation -1_ Scrounge +1 Streetwise_ Affiliation +2 Next Path: High School (21, Street (2) Street Events Nearly killed in street fight [Choose one: Combat Paralysis Lost Limb (21] Tried and sentenced tor crime as an adult; brand ing you convict [Bad Reputation Stigma_ Streetwise Affiliation +1_ and must choose Street Path in Stage 2] Literally grew up the street, without So much as flophouse t0 call home [Language /Affiliation Streetwise /Affiliation +1, Stigma] Scarred in gang war (Blades +1, Unattractive] Ran thriving three-card monte operation [Gambling +1] Hot-wiring novercars paid the bills [Technician /Mechanics +1] Narrowly dodged bullet, but your buddy was killed before your eyes; serious wake-up call [Brave; character may never choose Street Or Ne'er Do Well paths Big score tor such young one (Wealth, Well: Equipped] Adopted by kindly couple [SOC +1 Wealth] Recruited by a interstellar crime ring [Contact, WhITE COLLAR Whether Combine businessmen or Lyran traders_ your family was involved commerce or academia You grew up in high-rise apartment, suburban prefab, perhaps even DropShip plying the space lanes_ In any case you led prive- leged and sheltered early life_ Attrlbute MInlmums: SOC Attrlbute Thresholds: STR -1 Tralts: Wealth Skllls: Academic Any +1, Language /Affiliation +1 Next Path: High School (2), Preparatory School (2), Military School 35"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "vehicles_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "vehicles",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "squat- ted down ad dropped the pistol into",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 11,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:23Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_vehicles_p011_0029",
+    "entity_type": "vehicles",
+    "name_guess": "squat- ted down ad dropped the pistol into",
+    "breadcrumb_path": "Rules Compendium > Page 011 > vehicles > squat- ted down ad dropped the pistol into",
+    "page_refs": [
+      11
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "squat- ted down ad dropped the pistol into Erik Gray's lap_ nope You know which direction to point that thing: was taking chance_ knew: The MechWarrior might decide that risking the surgery for neural implants didn\"t look s0 bad compared with meeting his end in firefight; But like said before at some point your gut instincts can make all the differ- ence_ Erik clasped comfortable grip around the Nakjama_ rose up and squeezed off two hasty shots before dropping back Just as quickly to sit with his back t0 the crates and stare at the feet of the Omni."
+  }
+}

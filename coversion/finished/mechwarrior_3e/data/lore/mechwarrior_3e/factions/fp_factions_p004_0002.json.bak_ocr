@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "factions_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "factions",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "CONTENTS Playing the Game Warriors Damaging Mechwarnor Combat",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 4,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:21Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_factions_p004_0002",
+    "entity_type": "factions",
+    "name_guess": "CONTENTS Playing the Game Warriors Damaging Mechwarnor Combat",
+    "breadcrumb_path": "Rules Compendium > Page 004 > factions > CONTENTS Playing the Game Warriors Damaging Mechwarnor Combat",
+    "page_refs": [
+      4
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "Armor"
+    ],
+    "excerpt": "CONTENTS Playing the Game Warriors Damaging Mechwarnor Combat Heat EQUIPMENT Supply and Demand Equipment Ratings Acquiring Gear UsIng Equipment Equipment Data Encumbrance Repairs Weapons Archaic / Melee Weapons Slug Tntoweis Energy Weapons Support Weapons Explosives Speci Ilized Wcapons Wcapon Accessories Power Packs ad Chargers Armor and Combat Garb Personal Arinor Load Bearing Equipment Combat Uniforms Battle Armor Medical and Survlval Equlpment Basic Equipment Artificiae Limbs Bionic Ear Reniacemieni Bionic Eye Replacement Advanced Medical Tools Medical Monitors Survival Gear Tools and Gear Communications Tools Optics Miscellaneous Equipment Everyday Life Clothing Food Housing Transportation Travel Entertainmeni BrIEF HIBTORY OF THE INNER SpheRE RIse of the Hegemony The Star League Era Centurles of War Steps toward Peace Fourth Succession war Skirmishes and Plots Enemles from Beyond The warriors of Kerensky Clan Invasion Victory and Change The Unlverse Turned Upside Down The Star League Reborn 126 126 WhISTLESTOP TOUR Of THE INNER SPHERE Federated Suns New Avalon Kittery Lyran Alllance Tharkad Hesperus Draconis Combine Luthien Na'ir Free Worlds League Atreus Andurien Capellan Confederation Sian St."
+  }
+}

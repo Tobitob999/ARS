@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "quests_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "quests",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "The gamemaster deter- mines the cost of the",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 81,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:06Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_quests_p081_0089",
+    "entity_type": "quests",
+    "name_guess": "The gamemaster deter- mines the cost of the",
+    "breadcrumb_path": "Rules Compendium > Page 081 > quests > The gamemaster deter- mines the cost of the",
+    "page_refs": [
+      81
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "The gamemaster deter- mines the cost of the trait; based on the following guidelines_ 1 point contact has real power and limited influence but pOs sesses great deal knowledge CUBTOM VEHICLE TABLE about specific field Normally; ths knowledge lirited t0 the events and Polnts Vehlcle Selectlon history 0f specific worild or region of Clan Vahlcle Selectlon Random Assignment in own Affiliation space Examples of ~~point contacts Random Assignment any Affiliation include scientists_ merchants and the Choice of any Vehicle in own Affiliation ubiquitous bartender; Choice of any Stock Vehicle 2-point contact has small Random Assignment, Second-Line Design own Vehicle measure 0f power and influence in Random Assignment, Front Line limited area."
+  }
+}

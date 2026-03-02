@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Instead of adding [0 the damn- age rolled,",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 120,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:31Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p120_0171",
+    "entity_type": "items",
+    "name_guess": "Instead of adding [0 the damn- age rolled,",
+    "breadcrumb_path": "Rules Compendium > Page 120 > items > Instead of adding [0 the damn- age rolled,",
+    "page_refs": [
+      120
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "DAMAGE",
+      "MoS",
+      "damage"
+    ],
+    "excerpt": "Instead of adding [0 the damn- age rolled, that number of dice I5 added t0 the dam age dice for the wcapon_ However, since her character only fired shots this burst, Rachel can only add dice of damage The extra MoS of 2 IS disregarded, SPLASH DAMAGE Some attacks such as flamers spread their effects over wide area splashing over more than one part of the target: Such attacks are noted as splash in the weapon profiles These weapons have specific effects if using the Hit Location rules (p 121)."
+  }
+}

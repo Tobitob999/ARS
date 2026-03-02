@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Modifiers for Action Checks t0 arm explosive devices",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 99,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:24Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p099_0423",
+    "entity_type": "npcs",
+    "name_guess": "Modifiers for Action Checks t0 arm explosive devices",
+    "breadcrumb_path": "Rules Compendium > Page 099 > npcs > Modifiers for Action Checks t0 arm explosive devices",
+    "page_refs": [
+      99
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Modifiers for Action Checks t0 arm explosive devices are based on number of factors ranging from the sensitivity of the explosive used to the complexity of the device detonation mechanism; Truly complex devices may require the use 0f other skills such as Computers_ Electronics or Security Systems_ The character arming the device sets the difficulty modifier to the Demolitions Action Check used t0 arm the device_ (A Iow modifier makes arming the device easy but also enables other characters to disarm the device easily: ) If the arming Action Check succeeds the device has been armed If the roll fails_ the arming attempt fails and the character must make second Demolitions Action Check immediately; using the same modi COMPUTERS The Computers Skill gives the character working knowledge of computer systems_ basic operations and programming When attempting complex task such as searching large database Or writing new program the character must make an Action Check: The gamemaster assigns difficulty modifier appropriate to the complexity of the task, the time available to complete and the hardware and software the character is using: 98"
+  }
+}

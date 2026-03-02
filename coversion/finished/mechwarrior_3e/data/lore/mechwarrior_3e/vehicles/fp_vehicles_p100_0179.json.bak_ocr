@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "vehicles_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "vehicles",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "SKILLS fiers _ If this second roll fails_",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 100,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:24Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_vehicles_p100_0179",
+    "entity_type": "vehicles",
+    "name_guess": "SKILLS fiers _ If this second roll fails_",
+    "breadcrumb_path": "Rules Compendium > Page 100 > vehicles > SKILLS fiers _ If this second roll fails_",
+    "page_refs": [
+      100
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "damage"
+    ],
+    "excerpt": "SKILLS fiers _ If this second roll fails_ the device detonates and causes appropriate damage to the character and any other targets with- the explosive blast radius Disarming explosive device even more dangerous than arming one To disarm an explosive device character must make successful Demolitions Action Check with double the modifier used in the original arming roll, If the disarming roll fails_ the device detonates and causes appropriate damage to the character and all targets within the blast radius kinds of modifications without compromising the design integri- ty of the BattleMech (use this skill instead of Technician Skill when checking for overall design integrity; sce BattleTech Master Rules, 87)."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "vehicles_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "vehicles",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Piloting Skill can also be used t0 quickly",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 105,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:27Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_vehicles_p105_0189",
+    "entity_type": "vehicles",
+    "name_guess": "Piloting Skill can also be used t0 quickly",
+    "breadcrumb_path": "Rules Compendium > Page 105 > vehicles > Piloting Skill can also be used t0 quickly",
+    "page_refs": [
+      105
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Piloting Skill can also be used t0 quickly resolve vehiclc chases_ Tne pilot of each vehicle makes an Opposed Piloting Test: If the vehicles have the same maximum speed (flanking for vehicles or running for `Mechs), only apply the usual modi- fiers If one vehicle is faster than the other, the slower vehicle pilot must add modifier to his target number equal t0 the amount of kph the other vehicle' maximum speed exceeds his own divided by 10 (round down) For example ground car with flanking speed kph being chased light BattleMech with running speed 0f 119 kph."
+  }
+}

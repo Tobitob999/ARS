@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Hefty tuition and other expenses tend t0 drain",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 47,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:54Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p047_0173",
+    "entity_type": "history",
+    "name_guess": "Hefty tuition and other expenses tend t0 drain",
+    "breadcrumb_path": "Rules Compendium > Page 047 > history > Hefty tuition and other expenses tend t0 drain",
+    "page_refs": [
+      47
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Hefty tuition and other expenses tend t0 drain the typical university student' bill accounts but the education is usually well worth it. Because this Path covers SO many possible areas of study; the player chooses the character\" specific major and relevant subskills subject to the gamemaster' approval: The main path represents general study; the character must take Major Subpath next that represents his or her specific focus_ Only one Major Subpath may be taken in pass through this path; to take additional majors the charac: ter must repeat this path."
+  }
+}
