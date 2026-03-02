@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0.0",
+  "category": "setting_lore",
+  "id": "adl_german_states",
+  "tags": ["shadowrun_6", "ADL", "germany", "europe", "SOX", "Hamburg", "Schwarzwald", "AGS", "setting"],
+  "summary": "ADL (Alliierte Deutsche Laender): Geographie, SOX-Sperrzone, Hamburg Freistadt, Schwarzwald und politischer Kontext (2080).",
+  "source_text": {
+    "system": "shadowrun_6",
+    "type": "compiled_lore",
+    "reference": "Shadowrun 6E Deutschland in den Schatten, Nachtfalke"
+  },
+  "mechanics": {
+    "category_type": "geography_politics",
+    "region": "Europa — Mitteleuropa",
+    "overview": "Die ADL (Allierte Deutsche Laender) ist kein einheitlicher Staat mehr — nach dem Magiestuerme des Erwachens und politischen Fragmentierungen ist Deutschland in lose kooperierende Laender aufgeteilt. Saeder-Krupp dominiert die Wirtschaft. Der Corporate Court hat hier ebenso viel Macht wie gewaehlte Regierungen.",
+    "locations": [
+      {
+        "id": "ruhrgebiet",
+        "name": "Ruhrgebiet / Essener Industriedreieck",
+        "description": "Das Herz von Saeder-Krupps Macht. Schwere Industrie, Hochofen-Skylines, Chemiewerke. SK-Konzernzonen sind de facto exterritoriales Gebiet.",
+        "security": "SK-Konzernschutz in SK-Zonen (AAA-Level), ADL-Polizei in Restgebieten",
+        "runner_notes": "SK-Runs hier sind extrem riskant. Lofwyrs langer Arm reicht weit. Lukrativ — SK hat das wertvollste Industriedaten der Welt.",
+        "notable_sites": [
+          "SK Hauptquartier Essen (Lofwyrs Sitz — praktisch unbetretbar)",
+          "Bochum Chemiewerk (Geheimprojekte)",
+          "Duisburg Hafen (wichtiger Frachtumschlagpunkt)"
+        ]
+      },
+      {
+        "id": "sox_zone",
+        "name": "SOX (Saar-Lorraine-Luxemburg Zone)",
+        "also_known_as": "Die Sperrzone, Niemandsland, Radiozonen",
+        "description": "Ein breites radioaktiv-magisch verseuchtes Sperrgebiet entlang der alten Saar-Lothringen-Luxemburg-Grenzregion. Entstanden durch Kombinationskatastrophe aus Reaktorunfall und Mana-Surge. Offiziell unbewohnbar.",
+        "security": "Keine regulaere Sicherheit — sporadische ADL-Grenzpatrouillen. Innen: Niemand.",
+        "actual_inhabitants": [
+          "Ueberlebende Stammes-Gemeinschaften (mutation, Tribals)",
+          "Freie Geister (SOX ist magisch extrem aktiv)",
+          "Schwarzmarkt-Operator nutzen SOX-Routen als sicheren Schmuggelweg",
+          "Schamanische Sekten in magischen Hotspots"
+        ],
+        "runner_notes": "Durch SOX schmuggeln ist riskant aber profitabel. Radioaktive Strahlung, wilde Critter, freie Geister, Zollbeamte von drei Seiten.",
+        "magical_notes": "SOX-Manazonen: Extrem hohe Hintergrundmagie. Vorteilhaft fuer Schamanen, verwirrend fuer Hermetiker.",
+        "threats": ["Radioaktive Strahlung (Wuerfelminus auf Proben ohne Schutz)", "Critter: Toxische Geister, mutierte Tiere", "ADL-Grenzpatrouille", "Tribals mit territorialem Verhalten"]
+      },
+      {
+        "id": "hamburg",
+        "name": "Hamburg Freistadt",
+        "also_known_as": "Hafenmetropole, die Freie Stadt",
+        "description": "Hamburg trat nach politischen Verwerfungen aus dem ADL-Verbund aus und gilt als autonome Freistadt. Riesiger Hafen, Handelsmetropole, internationale Mischbevoelkerung. Konzerneinfluss hoch aber fragmentierter als anderswo.",
+        "security": "Hamburger Senat-Sicherheitsdienst (HSS), Saeder-Krupp Hafenzone (SK-Kontrolle), Yakuza in Hafen-Unterwelt",
+        "districts": [
+          {
+            "name": "Reeperbahn / St. Pauli",
+            "description": "Historisches Rotlichtviertel, transformiert in neonleuchtendes Entertainment-Zentrum. Fixer, Informanten, Clubs.",
+            "notes": "Treffpunkt fuer Runners. Informationshandel hier laeuft fliesend."
+          },
+          {
+            "name": "Hafen Zone Alpha-7 (SK-Kontrolle)",
+            "description": "Saeder-Krupp kontrolliert weite Teile des modernen Containerhafen. SK-Security, nicht HSS.",
+            "notes": "SK-Run-Ziel. Containerumschlag, Logistik-Daten, Schmuggelkontrolle."
+          },
+          {
+            "name": "Hammerbrook / Matrix-Hub",
+            "description": "Digitales Herz Hamburgs. Grosser Knoten des europaeischen Matrix-Grids. Decker-Paradies.",
+            "notes": "GOD-Hotspot. Deckeraktivitaet hier wird genau beobachtet."
+          },
+          {
+            "name": "Wilhelmsburg (Metaviertel)",
+            "description": "Ork- und Troll-Community. Guenstige Wohnraeume, starke Gemeinschaft, misstrauisch gegenueber Konzernen.",
+            "notes": "Gute Basisunterkunfte. Lokale Runner-Netzwerke verfuegbar."
+          }
+        ],
+        "fixers": ["Hannelore 'Hanna' Betz (Information)", "Viktor Zoltan (Waffen, Hafen-Kontakte)", "Meera (Matrix-Dienste)"],
+        "runner_notes": "Hamburg ist eines der besseren Runner-Pflaster in Europa. Weniger repressiv als Konzernstadte, mehr Reibung als Seattle.",
+        "saeder_krupp_presence": "SK kontrolliert Haefen und grosse Teile der Schwerindustrie. Lofwyrs Auge ist auf Hamburg gerichtet."
+      },
+      {
+        "id": "schwarzwald",
+        "name": "Schwarzwald / Schwarzwald-Protektorat",
+        "also_known_as": "Der Alte Wald, Drachen-Territorium",
+        "description": "Der Schwarzwald ist nach dem Erwachen magisch stark aufgeladen. Grosser Drache Kaltenstein gilt als Gebietsherr. Dichter Primaerwald mit magischen Wesen, Geister und druidischen Gemeinschaften.",
+        "security": "Keine ADL-Kontrolle im Inneren. Kaltenstein-Anspruch. Druidische Wachen an Zugangspunkten.",
+        "inhabitants": [
+          "Druidische Gemeinschaften (Verschlossene, alte Tradition)",
+          "Wald-Critter (magisch verstaerkt)",
+          "Geister (stark und territorial)",
+          "Kaltenstein (Grosser Drache — selten, aber praesent)"
+        ],
+        "runner_notes": "Kein freundlicher Ort fuer Runners. Artefaktsuche, Pflanzenbeschaffung fuer Alchemisten oder Informationen ueber Kaltenstein bezahlen gut.",
+        "magical_notes": "Hintergrundzaehler extrem hoch — alle Magie-Proben mit Bonus. Toxische Zonenausreisser an Grenzen jedoch moeglich.",
+        "kaltenstein_note": "Kaltenstein ist unberechenbarer als Lofwyr — eher impulsiv. Eindringlinge werden toleriert bis sie storen."
+      },
+      {
+        "id": "berlin",
+        "name": "Berlin",
+        "description": "Hauptstadt der ADL, politisches Zentrum. Weniger Konzernkontrolle als das Ruhrgebiet, aber staaliche Buerokratie kompensiert. Grossstaedtisches Leben mit starker Kulturszene.",
+        "security": "ADL-Bundespolizei, Matrix-Sicherheit BundesNetz",
+        "notable": [
+          "ADL-Bundestag (politisches Zentrum)",
+          "Technische Universitaet Berlin (TU) — Cyberware-Forschung, Evo-Sponsoring",
+          "Kreuzberg Shadows (Runner-freundliche Gegend mit Unterwelt-Kultur)"
+        ],
+        "runner_notes": "Politische Auftraege: Spionage, Abgeordnete korrumpieren, Staatsgeheimnis-Beschaffung. Gut fuer Faces."
+      }
+    ],
+    "politics": {
+      "adl_structure": "Loser Foederalismus. Laender kooperieren wirtschaftlich aber keine zentrale Militaermacht ausser ADL-Bundespolizei.",
+      "corporate_influence": "Saeder-Krupp dominierend. Evo wachsend im Osten. MCT und Renraku haben Repraesentanzen.",
+      "xenophobia": "Anti-Metahumanen-Stimmung in manchen Teilen ADLs leider noch praevalent — Goblinisierungs-Narben der Gesellschaft.",
+      "relations_with_europe": "ADL ist Mitglied der Europaeischen Gemeinschaft — aber SK setzt viele EU-Regeln durch eigene Konzernnormen ausser Kraft."
+    }
+  }
+}

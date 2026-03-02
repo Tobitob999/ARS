@@ -64,6 +64,10 @@ CACHE_DISPLAY_NAME = "ars-ruleset-cache"
 # Maximale Anzahl gespeicherter Konversationsrunden (aeltere werden abgeschnitten)
 MAX_HISTORY_TURNS = 40
 
+# Lore-Budget: max. Zeichen die aus Lore-Dateien in den Kontext injiziert werden.
+# Entspricht 100% des Sliders. Default-Slider 50% => 250K Zeichen.
+MAX_LORE_CHARS = 500_000
+
 # Monolog-Sperre: max. Saetze bevor ein Hook (Frage/Interaktion) erwartet wird
 MAX_NARRATIVE_SENTENCES = 3
 
@@ -147,6 +151,10 @@ class GeminiBackend:
         }
         self._rules_cache_hash: str = ""   # Hash des Rules-Blocks fuer Change-Detection
         self._pending_feedback: list[str] = []  # Stil-Korrekturen fuer naechsten Turn
+        # Lore-Budget: Prozent von MAX_LORE_CHARS, initialisiert aus session_config
+        self._lore_budget_pct: int = getattr(session_config, "lore_budget_pct", 50)
+        # EventBus: Slider-Aenderungen aus GUI empfangen
+        EventBus.get().on("session.lore_budget_changed", self._on_lore_budget_changed)
         self._system_prompt = self._build_system_prompt()
         self._rules_cache_hash = self._compute_rules_hash()
         self._initialize_client()
@@ -384,6 +392,21 @@ class GeminiBackend:
             self._initialize_cache()
             logger.info("Rules-Cache invalidiert (Hash geaendert), System-Prompt neu gebaut.")
         logger.info("AI-Backend Caches geleert.")
+
+    def _on_lore_budget_changed(self, data: dict[str, Any]) -> None:
+        """Empfaengt session/lore_budget_changed vom EventBus (GUI-Slider)."""
+        pct = data.get("pct", 50)
+        self._lore_budget_pct = max(0, min(100, int(pct)))
+        # System-Prompt neu bauen damit Lore-Budget sofort wirkt
+        self._system_prompt = self._build_system_prompt()
+        self._cache_name = None
+        self._initialize_cache()
+        logger.info("Lore-Budget auf %d%% gesetzt (~%d Zeichen).",
+                    self._lore_budget_pct, self._get_max_lore_chars())
+
+    def _get_max_lore_chars(self) -> int:
+        """Berechnet das effektive Lore-Zeichenlimit basierend auf dem Slider-Prozentsatz."""
+        return int(MAX_LORE_CHARS * self._lore_budget_pct / 100)
 
     def set_adventure(self, adventure: dict[str, Any]) -> None:
         """Aktualisiert den Abenteuern-Kontext (baut System-Prompt + Cache neu)."""
@@ -1812,7 +1835,20 @@ Verfuegbare Fertigkeiten:
                 )
 
         lines.append("")  # Leerzeile vor naechstem Block
-        return "\n".join(lines) + "\n"
+        full_block = "\n".join(lines) + "\n"
+
+        # Lore-Budget-Kappelung: kuerze auf max. erlaubte Zeichen (Slider-Wert)
+        max_chars = self._get_max_lore_chars()
+        if max_chars == 0:
+            logger.info("[LORE-BUDGET] 0%% gesetzt — Lore-Block wird unterdrückt.")
+            return ""
+        if len(full_block) > max_chars:
+            logger.info(
+                "[LORE-BUDGET] Lore-Block %d Zeichen → auf %d Zeichen (=%d%%) gekuerzt.",
+                len(full_block), max_chars, self._lore_budget_pct,
+            )
+            full_block = full_block[:max_chars] + "\n[... Lore-Budget erschoepft ...]\n"
+        return full_block
 
     def _build_setting_block(self) -> str:
         """Baut den Setting-Block fuer den System-Prompt."""

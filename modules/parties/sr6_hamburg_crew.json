@@ -1,0 +1,17 @@
+{
+  "id": "sr6_hamburg_crew",
+  "name": "Hamburg Crew",
+  "compatible_rulesets": ["shadowrun_6"],
+
+  "members": [
+    "sr6_street_samurai_adl",
+    "sr6_decker_elf",
+    "sr6_combat_mage_ork"
+  ],
+
+  "formation": "Stahlberg haelt die Tuer auf und geht rein. Spektrum bleibt im Hintergrund mit Deck aktiv und deaktiviert Kameras und Alarme. Eisenauge unterstuetzt aus mittlerer Distanz mit Schutzschirm und Kampfzaubern bei Eskalation. Bei Rueckzug: Stahlberg deckt, Spektrum navigiert Fluchtroute via Matrix, Eisenauge haelt mit Geist Verfolger auf.",
+
+  "group_funds": "4.200 Nuyen gemeinsame Notfallkasse, 1 Medkit Rating 4 geteilt, 2 Fake-SIN-Sets fuer gemeinsame Cover-Identitaeten ('Bergmann-Baugesellschaft GmbH')",
+
+  "notes": "Drei ungleiche Charaktere mit komplementaeren Faehigkeiten. Stahlberg und Eisenauge respektieren sich professionell, vertrauen sich langsam. Spektrum redet wenig aber liefert immer. Als Team fuer die Hamburger Schatten aufgestellt — Fokus-Run: 'Neonlichter ueber Hamburg' (sr6_neonlichter_hamburg)."
+}

@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0.0",
+  "id": "sr6_street_samurai_adl",
+  "name": "Stahlberg (Street Samurai)",
+  "compatible_rulesets": ["shadowrun_6"],
+  "archetype": "Street Samurai",
+  "metatype": "Human",
+  "gender": "Maennlich",
+  "age": 34,
+  "level": 1,
+  "background": "Ehemaliger Bundeswehr-Soldat der ADL, entlassen nach einem unautorisierten Einsatz in der SOX-Zone. Jetzt Sold-Soldat in Hamburgs Schatten. Hat seinen Ehrenkodex behalten, seine Illusionen ueber staatliche Strukturen aber nicht.",
+  "characteristics": {
+    "KOE": 5,
+    "GES": 5,
+    "REA": 5,
+    "STA": 4,
+    "WIL": 4,
+    "LOG": 3,
+    "INT": 4,
+    "CHA": 3,
+    "EDGE": 3,
+    "MAG": 0,
+    "RES": 0
+  },
+  "derived_stats": {
+    "Initiative": 9,
+    "Essenz": 3.4,
+    "Zustandsmonitor_Koerper": 11,
+    "Zustandsmonitor_Geist": 10
+  },
+  "skills": {
+    "Feuerwaffen": 6,
+    "Nahkampf": 5,
+    "Athletik": 5,
+    "Wahrnehmung": 4,
+    "Heimlichkeit": 3,
+    "Erste_Hilfe": 2,
+    "Fahren_Boden": 3,
+    "Militaerkunde": 4
+  },
+  "cyberware": [
+    { "name": "Wired Reflexes Rating 1", "essenz_kosten": 2.0, "effekt": "+1d6 Initiative" },
+    { "name": "Subdermal Panzerung Rating 2", "essenz_kosten": 0.6, "effekt": "+2 Ruestung" }
+  ],
+  "equipment": [
+    "Heckler & Koch HK 227X (SMG, Smartlink)",
+    "Browning Ultra-Power (Pistole, Backup)",
+    "Einhandmesser (Kampf-Knife)",
+    "Gepanzerte Jacke (Ruestung 12)",
+    "Smartlink-Datenbuchse",
+    "Biomonitor",
+    "Fake SIN Rating 3 ('Klaus Hartmann')",
+    "Medkit Rating 4",
+    "Komm-Link MCT Echo"
+  ],
+  "contacts": [
+    { "name": "Oberfeldwebel Braun (Ret.)", "role": "Militaer-Kontakt, Waffen", "loyalty": 3, "knowledge": 4 },
+    { "name": "Viktor Zoltan", "role": "Fixer", "loyalty": 2, "knowledge": 3 }
+  ],
+  "qualities": {
+    "positive": ["Taktisches Gedaechtnis (+2 Wuerfel auf Kampfplanung)", "Veteran des Lebens (einmalige Neuausfuehrung Probe pro Session)"],
+    "negative": ["Ehrenkodex (Keine Zivilisten angreifen, kein Verrat am Team)", "Sucht: Kampher-Patches (Schmerzdaempfung — mild)"]
+  },
+  "traits": "Schweigsam, direkt, zeigt Respekt durch Kompetenz. Hat eine sehr klare Grenzlinie was er tut und was nicht. Altruismus versteckt hinter Professionalismus.",
+  "appearance": "Breite Schultern, kurz rasiertes braunes Haar, Dreitagbart. Eine vertikale Narbe durch die rechte Augenbraue (SOX). Traegt immer die gepanzerte Jacke — auch beim Essen.",
+  "languages": ["Deutsch (Muttersprache)", "Englisch (Gespraeche)", "Milltaer-Slang ADL"],
+  "homeland": "Dortmund, ADL",
+  "current_base": "Hamburg, Wilhelmsburg"
+}

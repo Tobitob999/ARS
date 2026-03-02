@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0.0",
+  "category": "setting_lore",
+  "id": "runner_archetypes",
+  "tags": ["shadowrun_6", "archetypes", "characters", "street_samurai", "decker", "rigger", "mage", "face", "adept", "technomancer"],
+  "summary": "Shadowrunner-Archetypen: Rollen, Kernattribute, typische Ausruestung und Nischenfunktion im Team.",
+  "source_text": {
+    "system": "shadowrun_6",
+    "type": "compiled_lore",
+    "reference": "Shadowrun 6E Core Rules Kapitel Archetypen"
+  },
+  "mechanics": {
+    "category_type": "character_archetypes",
+    "team_note": "Ein ausgewogenes Runner-Team deckt idealerweise 3-4 der folgenden Rollen ab. Spezialisierung schlaegt Universalismus im Kampf, kostet aber Flexibilitaet.",
+    "archetypes": [
+      {
+        "id": "street_samurai",
+        "name": "Street Samurai",
+        "role_de": "Kampfspezialist / Nahkampf und Fernkampf",
+        "core_attributes": ["KOE (Koerper)", "GES (Geschicklichkeit)", "REA (Reaktion)"],
+        "key_skills": ["Feuerwaffen", "Nahkampf", "Athletik", "Wahrnehmung"],
+        "cyberware_focus": "Wired Reflexes (Initiative), Subdermal Panzerung, Cyberaugen (Smartlink), Kampfdrogen",
+        "team_role": "Frontline-Kaempfer. Geht rein, haut Probleme weg, haelt Feinde in Schach.",
+        "typical_gear": ["Ares Predator VI (Pistole)", "HK 227 (SMG)", "Gepanzerte Jacke", "Biomonitor"],
+        "metatype_notes": "Haeufig Orks (hohe KOE-Boni) oder Trolle. Elfische Samurae nutzen GES-Bonus.",
+        "shadowrun_flavor": "Ex-Konzernsicherheit, ex-Militaer oder einfach ueberlebensfaehiger Strassenkaempfer. Traegt Ehrenkodex oder gar nichts.",
+        "edge_use": "Bietet Edge aus: Aggression im Kampf, Teamschutz"
+      },
+      {
+        "id": "decker",
+        "name": "Decker",
+        "role_de": "Matrix-Spezialist / Hacker",
+        "core_attributes": ["LOG (Logik)", "INT (Intuition)", "WIL (Willenskraft)"],
+        "key_skills": ["Elektronik (Hacking)", "Elektronik (Computer)", "Elektronik (Cybertech)"],
+        "cyberware_focus": "Datenbuchse (direkter Deck-Anschluss), Gehoerverbesserungen, Kommlink-Upgrades",
+        "team_role": "Oeffnet Tore, deaktiviert Sicherheitskameras und Alarme, klaut Daten.",
+        "typical_gear": ["Hermes Chariot Deck", "Microtronics Toolkit", "Kabellose Kopfhoerer"],
+        "metatype_notes": "Elfen (INT-Bonus), Menschen und Zwerge (LOG-Bonus beliebt).",
+        "shadowrun_flavor": "Nerd im Team. Versteht mehr Matrixarchitektur als die eigene Sockenlade. Wird respektiert wenn er Alarme aus macht.",
+        "edge_use": "Bietet Edge aus: Matrix-Siege (Hack erfolgreich), Informationsvorsprung fuer Team"
+      },
+      {
+        "id": "rigger",
+        "name": "Rigger",
+        "role_de": "Fahrzeug- und Drohnen-Spezialist",
+        "core_attributes": ["LOG (Logik)", "REA (Reaktion)", "INT (Intuition)"],
+        "key_skills": ["Fahren (alle Typen)", "Elektronik (Drohnen)", "Mechanik (Fahrzeuge)"],
+        "cyberware_focus": "Riggerkontrollkonsole (RCC), Datenbuchse, Steuerungsrigg-Schnittstelle",
+        "team_role": "Fahrzeugpilot und mobile Feuerbasis per Drohnenschwarm. Holt Team rein und raus.",
+        "typical_gear": ["Ares Duelist Drohne (Bewaffnet)", "MCT Fly-Spy Drohne (Aufklaerung)", "GMC Bulldog Transporter"],
+        "metatype_notes": "Mensch oder Zwerg haeufig wegen REA/LOG-Ausgeglichenheit.",
+        "shadowrun_flavor": "Spricht mehr mit seinen Drohnen als mit dem Team. Liebt Motoren. Riggern ist Leben.",
+        "edge_use": "Bietet Edge aus: Fahrzeug-Stunts, Drohnen-Rettungsaktionen"
+      },
+      {
+        "id": "mage",
+        "name": "Zauberer / Mage",
+        "role_de": "Magiespezialist (Hermetic oder Schamanisch)",
+        "core_attributes": ["MAG (Magie)", "INT (Intuition — fuer Drain CHA oder LOG)"],
+        "key_skills": ["Zaubern", "Beschworen", "Astralwahrnehmung"],
+        "cyberware_focus": "MINIMAL — jedes Cyberware reduziert Essenz und damit Magiestufe. Fokus-Artefakte stattdessen.",
+        "team_role": "Kampfmagie, astrales Aufklaerern, Geisterbeschwoerungs-Support, Heilung.",
+        "typical_gear": ["Zauberfokus", "Beschwoerungsfokus", "Schutzamulett"],
+        "metatype_notes": "Elfen (INT-Bonus hilft Drain), Menschen mit hoher MAG-Investition.",
+        "shadowrun_flavor": "Einziger im Team der die Welt so sieht wie sie wirklich ist. Oder paranoid ist wegen Astralgeister.",
+        "edge_use": "Bietet Edge aus: Magieeinsatz im Notfall, astrales Warnsystem"
+      },
+      {
+        "id": "face",
+        "name": "Face",
+        "role_de": "Sozialspezialist / Verhandlungsfuehrer",
+        "core_attributes": ["CHA (Charisma)", "WIL (Willenskraft)", "INT (Intuition)"],
+        "key_skills": ["Ueberzeugen", "Taeuschen", "Einschuechtern", "Etikette"],
+        "cyberware_focus": "Social ware: Pheromone-Emitter, Stimulationsimplantat, Sprachmodifikator",
+        "team_role": "Handelt Preise aus, beschafft Informationen durch Reden, umgeht Sicherheit durch Sozialmanipulation.",
+        "typical_gear": ["Maskengarderobe (mehrere Identitaeten)", "Fake SIN Rating 4+", "Kommlink mit Fake-ID-Suite"],
+        "metatype_notes": "Elfen (CHA-Bonus dominant), Menschen, Orks mit hohem Charisma.",
+        "shadowrun_flavor": "Warum eindringen wenn man einfach reingelassen wird? Liebt Auftritte. Kennt jeden Fixer in der Stadt.",
+        "edge_use": "Bietet Edge aus: Soziale Siege, Verhandlungsabschluss"
+      },
+      {
+        "id": "adept",
+        "name": "Adept (Physischer Magier)",
+        "role_de": "Kampf-Magier (koerperlich fokussiert)",
+        "core_attributes": ["MAG (Magie)", "GES (Geschicklichkeit)", "REA (Reaktion)"],
+        "key_skills": ["Nahkampf", "Athletik", "Wahrnehmung"],
+        "cyberware_focus": "Kein Cyberware bevorzugt (reduziert Essenz = weniger Adeptkraefte). Fokus-Artefakte zur Kraftverstärkung.",
+        "team_role": "Nahkampf-Experte mit magisch verstaerkten Faehigkeiten. Schneller als Street Samurai, subtiler als Mage.",
+        "typical_gear": ["Monofilament-Peitsche", "Katana", "Minimalausruestung — der Koerper ist die Waffe"],
+        "metatype_notes": "Elfen (GES-Bonus), Menschen, Orks (KOE fuer Kampf-Adepten).",
+        "shadowrun_flavor": "Schreitet durch Laserraeter wie ein Geist, bricht Nacken mit blosser Hand. Philosophisch ueber seinen Weg.",
+        "edge_use": "Bietet Edge aus: Praezision im Kampf, Kampf-Eskapaden"
+      },
+      {
+        "id": "technomancer",
+        "name": "Technomancer",
+        "role_de": "Matrix-Spezialist (ohne Deck, per Resonanz)",
+        "core_attributes": ["RES (Resonanz)", "LOG (Logik)", "INT (Intuition)"],
+        "key_skills": ["Resonanz (Komplexe Formen)", "Elektronik (Hacking)", "Elektronik (Computer)"],
+        "cyberware_focus": "Kein Cyberware — Resonanz funktioniert wie Magie (Essenz-Abhängigkeit)",
+        "team_role": "Matrix-Eindringen ohne physisches Deck. Kann Sprites beschworen (Matrix-Geister-Aequivalent).",
+        "typical_gear": ["Minimales Gear — der Geist ist das Deck"],
+        "metatype_notes": "Selten in allen Metatypen. Nicht bewusst gewählt — Technomancer werden durch Kontakt mit Resonanz-Stuerme 'awakened'.",
+        "shadowrun_flavor": "Von GOD und Konzernen gleichermassen verfolgt und erforscht. Selten und wertvoll.",
+        "edge_use": "Bietet Edge aus: Datensieg, Sprite-Unterstuetzung",
+        "corporate_interest": "Horizon forscht an Technomancern. GOD ueberwacht bekannte Technomancer."
+      }
+    ]
+  }
+}

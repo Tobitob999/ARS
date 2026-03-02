@@ -23,6 +23,7 @@ _DEFAULT_PERSONA = "Mysterioes, detailverliebt, zynisch"
 _DEFAULT_LANGUAGE = "de-DE"
 _DEFAULT_TEMPERATURE = 0.92
 _DEFAULT_RULES_BUDGET = 6000  # chars (~1500 Tokens)
+_DEFAULT_LORE_BUDGET_PCT = 50  # % of MAX_LORE_CHARS (500K chars)
 
 VALID_DIFFICULTIES = ("easy", "normal", "heroic", "hardcore")
 
@@ -44,6 +45,7 @@ class SessionConfig:
     language: str = _DEFAULT_LANGUAGE
     temperature: float = _DEFAULT_TEMPERATURE
     rules_budget: int = _DEFAULT_RULES_BUDGET
+    lore_budget_pct: int = _DEFAULT_LORE_BUDGET_PCT
 
     def __post_init__(self) -> None:
         if self.difficulty not in VALID_DIFFICULTIES:
@@ -54,6 +56,7 @@ class SessionConfig:
             self.difficulty = _DEFAULT_DIFFICULTY
         self.temperature = max(0.0, min(2.0, self.temperature))
         self.rules_budget = max(1000, min(2000000, self.rules_budget))
+        self.lore_budget_pct = max(0, min(100, self.lore_budget_pct))
 
     # -- factory methods ------------------------------------------------------
 
@@ -106,6 +109,8 @@ class SessionConfig:
             cfg.temperature = args.temperature
         if getattr(args, "rules_budget", None) is not None:
             cfg.rules_budget = args.rules_budget
+        if getattr(args, "lore_budget_pct", None) is not None:
+            cfg.lore_budget_pct = args.lore_budget_pct
 
         cfg.__post_init__()
         return cfg

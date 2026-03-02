@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0.0",
+  "id": "sr6_decker_elf",
+  "name": "Spektrum (Decker)",
+  "compatible_rulesets": ["shadowrun_6"],
+  "archetype": "Decker",
+  "metatype": "Elf",
+  "gender": "Weiblich",
+  "age": 26,
+  "level": 1,
+  "background": "In Berlin aufgewachsen als Tochter zweier Konzern-SINner. Fruehzeitig mit Matrix-Systemen in Kontakt — entdeckte mit 17 eine Sicherheitsluecke im ADL-Bundeswehr-Grid und teilte sie anonym. Die Bundespolizei sucht noch nach dem Tipp-Geber. Seitdem auf der anderen Seite der Manabarriere.",
+  "characteristics": {
+    "KOE": 2,
+    "GES": 3,
+    "REA": 4,
+    "STA": 3,
+    "WIL": 4,
+    "LOG": 6,
+    "INT": 5,
+    "CHA": 4,
+    "EDGE": 3,
+    "MAG": 0,
+    "RES": 0
+  },
+  "derived_stats": {
+    "Initiative": 9,
+    "Essenz": 5.0,
+    "Zustandsmonitor_Koerper": 9,
+    "Zustandsmonitor_Geist": 10
+  },
+  "skills": {
+    "Elektronik_Hacking": 7,
+    "Elektronik_Computer": 6,
+    "Elektronik_Cybertech": 4,
+    "Wahrnehmung": 4,
+    "Heimlichkeit": 3,
+    "Ueberzeugen": 3,
+    "Etikette_Matrix": 4
+  },
+  "cyberware": [
+    { "name": "Datenbuchse", "essenz_kosten": 0.1, "effekt": "Direkte Deck-Verbindung, +2 Wuerfel in heisser Sim" },
+    { "name": "Gehoerverstaerker Rating 2", "essenz_kosten": 0.3, "effekt": "Wahrnehmung (Hoeren) +2" }
+  ],
+  "deck": {
+    "name": "Hermes Chariot",
+    "attack": 5,
+    "sleaze": 7,
+    "data_processing": 6,
+    "firewall": 5,
+    "programs": ["Kryptic", "Exploit", "Stealth", "Toolbox"]
+  },
+  "equipment": [
+    "Hermes Chariot Cyberdeck",
+    "Stichwaffe (Taser, Selbstschutz)",
+    "Leichte Sicherheitsjacke (Ruestung 8)",
+    "Fake SIN Rating 4 ('Mira Eberstein')",
+    "Datenbuchse (eingebaut)",
+    "Burner-Kommlinks (3x, fuer Burnup-Identitaeten)",
+    "Microtronics Toolkit",
+    "Fernglas (digital, AR-overlay)"
+  ],
+  "contacts": [
+    { "name": "Ghost", "role": "Decker-Netz, Trace-Dienste", "loyalty": 2, "knowledge": 5 },
+    { "name": "Frau Dr. Kowalski (TU Berlin)", "role": "Matrixforscherin, Infoquelle", "loyalty": 3, "knowledge": 4 }
+  ],
+  "qualities": {
+    "positive": ["Analytischer Geist (+2 Wuerfel auf Analyse-Programme)", "Kontaktflair (Elfen-Charisma im Matrix-Netz)"],
+    "negative": ["Verunsichert (Muss WIL-Probe Schwelle 2 ablegen bei sozialen Begegnungen in der realen Welt)", "Sucht nach Seltenen Matrixdaten (Riskiert OS fuer interessante Daten)"]
+  },
+  "traits": "Introvertiert in der echten Welt, vollkommen in ihrem Element wenn sie ins Deck geht. Sehr praezise in Kommunikation. Nimmt Matrix-Architektur persoenlich — schlecht designte Firewalls beleidigen sie.",
+  "appearance": "Schmal, silberhelle Haare (kurz, hinter dem Ohr), blasse Haut mit schwachen Elf-Markierungen um die Schlaefe. Immer ein Deck dabei, fast immer eine AR-Brille auf. Kleidet sich praktisch-funktional.",
+  "languages": ["Deutsch (Muttersprache)", "Englisch (fliessend)", "Matrix-Slang"],
+  "homeland": "Berlin, ADL",
+  "current_base": "Hamburg, Hammerbrook (Serverfarm-Naehe)"
+}

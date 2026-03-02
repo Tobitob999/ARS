@@ -8,11 +8,13 @@ Aktives Gameplay-Interface:
 - Voice On/Off + Auto-Voice Toggle
 - Charakter-Status (HP/SAN/MP Balken, Inventar)
 - Wuerfelgeraeusch bei Proben
+- Wuerfel-Visualisierung: Dice History Panel mit Farb-Kodierung (B5)
 """
 
 from __future__ import annotations
 
 import logging
+import re
 import threading
 import tkinter as tk
 import tkinter.ttk as ttk
@@ -46,6 +48,12 @@ class GameTab(ttk.Frame):
         self._waiting_for_input = False
         self._streaming = False  # True waehrend Keeper streamt
         self._last_gui_input: str | None = None  # Gegen Doppel-Anzeige
+
+        # Wuerfel-Visualisierung: letzter unverarbeiteter PROBE-Event
+        self._pending_probe: dict[str, Any] | None = None
+        # Wuerfel-History: max. 5 Eintraege (neueste zuerst)
+        self._dice_history: list[dict[str, Any]] = []
+        self._max_dice_history = 5
 
         self._build_ui()
 
@@ -281,6 +289,9 @@ class GameTab(ttk.Frame):
         self._skills_label = ttk.Label(skills_lf, text="—", style="Muted.TLabel", wraplength=200)
         self._skills_label.pack(anchor=tk.W, padx=PAD, pady=PAD_SMALL)
 
+        # ── Wuerfel-History Panel ──
+        self._build_dice_panel(right_frame)
+
         # Location
         loc_lf = ttk.LabelFrame(right_frame, text=" Ort ", style="TLabelframe")
         loc_lf.pack(fill=tk.X, padx=PAD, pady=PAD_SMALL)
@@ -291,6 +302,363 @@ class GameTab(ttk.Frame):
         # Turn-Zaehler
         self._turn_label = ttk.Label(right_frame, text="Turn: 0", style="Muted.TLabel")
         self._turn_label.pack(anchor=tk.W, padx=PAD, pady=PAD_SMALL)
+
+    # ── Wuerfel-Panel ──
+
+    def _build_dice_panel(self, parent: ttk.Frame) -> None:
+        """Erstellt das Dice-History-Panel in der rechten Sidebar."""
+        dice_lf = ttk.LabelFrame(parent, text=" Wuerfelwuerfe ", style="TLabelframe")
+        dice_lf.pack(fill=tk.X, padx=PAD, pady=PAD_SMALL)
+
+        # Leerer Zustand (sichtbar wenn noch keine Wuerfe)
+        self._dice_empty_label = ttk.Label(
+            dice_lf, text="(noch keine Proben)", style="Muted.TLabel",
+        )
+        self._dice_empty_label.pack(anchor=tk.W, padx=PAD, pady=PAD_SMALL)
+
+        # Container fuer Wurf-Karten (max. 5 Eintraege)
+        self._dice_cards_frame = tk.Frame(dice_lf, bg=BG_DARK)
+        self._dice_cards_frame.pack(fill=tk.X, padx=PAD_SMALL, pady=(0, PAD_SMALL))
+
+        # Bis zu 5 Slot-Frames vorab erstellen (werden bei Bedarf befullt)
+        self._dice_card_slots: list[tk.Frame] = []
+        for _ in range(self._max_dice_history):
+            slot = tk.Frame(self._dice_cards_frame, bg=BG_DARK)
+            # Slot nicht packen — erst bei Befuellung einblenden
+            self._dice_card_slots.append(slot)
+
+    def _render_dice_history(self) -> None:
+        """Rendert alle Wuerfel-History-Eintraege neu in die Slot-Frames."""
+        # Alle Slots zunaechst leeren und verstecken
+        for slot in self._dice_card_slots:
+            for widget in slot.winfo_children():
+                widget.destroy()
+            slot.pack_forget()
+
+        if not self._dice_history:
+            self._dice_empty_label.pack(anchor=tk.W, padx=PAD, pady=PAD_SMALL)
+            return
+
+        self._dice_empty_label.pack_forget()
+
+        for idx, entry in enumerate(self._dice_history):
+            if idx >= self._max_dice_history:
+                break
+            slot = self._dice_card_slots[idx]
+            self._fill_dice_card(slot, entry, is_latest=(idx == 0))
+            slot.pack(fill=tk.X, pady=1)
+
+    def _fill_dice_card(self, frame: tk.Frame, entry: dict[str, Any], is_latest: bool) -> None:
+        """
+        Befuellt einen Slot-Frame mit einer Wurf-Karte.
+
+        entry keys:
+          skill        str  — Fertigkeitsname
+          target       int  — Zielwert
+          roll         int  — Gewuerfelter Wert (0 = unbekannt/d6-Pool)
+          is_success   bool
+          success_level str  — "critical"|"extreme"|"hard"|"regular"|"failure"|"fumble"
+          dice_system  str  — "d100"|"d20"|"d6pool"
+          pool_dice    list[int] | None  — Bei d6-Pool: alle Einzelwuerfel
+          hits         int | None  — Bei d6-Pool: Anzahl Treffer (5+)
+          threshold    int | None  — Bei d6-Pool: benoet. Treffer
+          timestamp    str  — HH:MM:SS
+        """
+        is_success = entry.get("is_success", False)
+        success_level = entry.get("success_level", "failure")
+        dice_system = entry.get("dice_system", "d100")
+        skill = entry.get("skill", "?")
+        target = entry.get("target", 0)
+        roll = entry.get("roll", 0)
+        timestamp = entry.get("timestamp", "")
+
+        # Farbschema je Erfolgsgrad
+        _level_colors = {
+            "critical":  "#FFD700",   # Gold
+            "extreme":   "#A6E3A1",   # Gruen hell
+            "hard":      "#A6E3A1",   # Gruen
+            "regular":   "#A6E3A1",   # Gruen (etwas dunkler)
+            "failure":   "#F38BA8",   # Rot
+            "fumble":    "#FF4444",   # Dunkelrot
+        }
+        result_color = _level_colors.get(success_level, RED if not is_success else GREEN)
+        border_color = result_color if is_latest else FG_MUTED
+
+        # Aeuesserer Rahmen mit Farb-Indikator
+        card_bg = BG_PANEL if is_latest else BG_DARK
+        card = tk.Frame(frame, bg=card_bg, highlightbackground=border_color,
+                        highlightthickness=1 if is_latest else 0)
+        card.pack(fill=tk.X, pady=1)
+
+        # ── Zeile 1: Skill + Ergebnis-Badge ──
+        row1 = tk.Frame(card, bg=card_bg)
+        row1.pack(fill=tk.X, padx=PAD_SMALL, pady=(PAD_SMALL, 0))
+
+        tk.Label(
+            row1, text=skill, bg=card_bg, fg=FG_PRIMARY,
+            font=FONT_SMALL, anchor=tk.W,
+        ).pack(side=tk.LEFT)
+
+        # Timestamp (gedimmt, rechts)
+        tk.Label(
+            row1, text=timestamp, bg=card_bg, fg=FG_MUTED,
+            font=FONT_SMALL,
+        ).pack(side=tk.RIGHT)
+
+        # ── Zeile 2: Wuerfeldetails ──
+        row2 = tk.Frame(card, bg=card_bg)
+        row2.pack(fill=tk.X, padx=PAD_SMALL, pady=(0, PAD_SMALL))
+
+        if dice_system == "d6pool":
+            # Shadowrun d6-Pool: Einzelwuerfel + Hits-Anzeige
+            pool_dice = entry.get("pool_dice") or []
+            hits = entry.get("hits", 0)
+            threshold = entry.get("threshold", 1)
+            self._render_d6_pool(row2, card_bg, pool_dice, hits, threshold, result_color)
+        else:
+            # d100 / d20: einfache Roll | Ziel Darstellung
+            self._render_simple_roll(row2, card_bg, roll, target, dice_system, result_color, success_level)
+
+    def _render_simple_roll(
+        self, parent: tk.Frame, bg: str,
+        roll: int, target: int, dice_system: str,
+        result_color: str, success_level: str,
+    ) -> None:
+        """Rendert eine einfache d100/d20-Probe als Zahlen-Anzeige."""
+        die_label = "d100" if dice_system == "d100" else "d20"
+
+        # Wuerfelwert (gross, gefaerbt)
+        tk.Label(
+            parent, text=str(roll), bg=bg, fg=result_color,
+            font=FONT_BOLD,
+        ).pack(side=tk.LEFT)
+
+        tk.Label(
+            parent, text=f" / {target}", bg=bg, fg=FG_SECONDARY,
+            font=FONT_SMALL,
+        ).pack(side=tk.LEFT)
+
+        # Erfolgsgrad-Label
+        _level_labels = {
+            "critical": "KRITISCH",
+            "extreme":  "EXTREM",
+            "hard":     "HART",
+            "regular":  "OK",
+            "failure":  "MISS",
+            "fumble":   "PATZER",
+        }
+        level_text = _level_labels.get(success_level, success_level.upper())
+        tk.Label(
+            parent, text=f"  {level_text}", bg=bg, fg=result_color,
+            font=FONT_BOLD,
+        ).pack(side=tk.LEFT)
+
+        # Die-Typ rechts
+        tk.Label(
+            parent, text=die_label, bg=bg, fg=FG_MUTED,
+            font=FONT_SMALL,
+        ).pack(side=tk.RIGHT)
+
+    def _render_d6_pool(
+        self, parent: tk.Frame, bg: str,
+        pool_dice: list[int], hits: int, threshold: int, result_color: str,
+    ) -> None:
+        """Rendert einen Shadowrun d6-Pool als einzelne Wuerfel-Symbole."""
+        # Einzelwuerfel darstellen (max. 12 Wuerfel anzeigen, Rest "...")
+        for i, d in enumerate(pool_dice[:12]):
+            is_hit = d >= 5
+            die_fg = GREEN if is_hit else FG_MUTED
+            tk.Label(
+                parent, text=str(d), bg=bg, fg=die_fg,
+                font=FONT_SMALL,
+                relief=tk.SOLID, borderwidth=1, padx=2,
+            ).pack(side=tk.LEFT, padx=1)
+
+        if len(pool_dice) > 12:
+            tk.Label(
+                parent, text=f"+{len(pool_dice)-12}", bg=bg, fg=FG_MUTED,
+                font=FONT_SMALL,
+            ).pack(side=tk.LEFT, padx=1)
+
+        # Hits/Threshold-Zusammenfassung
+        tk.Label(
+            parent, text=f"  {hits}/{threshold} Hits", bg=bg, fg=result_color,
+            font=FONT_BOLD,
+        ).pack(side=tk.LEFT, padx=(PAD_SMALL, 0))
+
+    # ── Probe-Parsing ──
+
+    # Parst "[PROBE] Schleichen (Zielwert: 45)" -> ("Schleichen", 45)
+    _RE_PROBE_TEXT = re.compile(
+        r"\[PROBE\]\s+(.+?)\s+\(Zielwert:\s*(\d+)\)", re.IGNORECASE,
+    )
+    # Parst "Wurf: 73 | Ziel: 45 | [!!] Misserfolg" -> (73, 45, False, "failure")
+    _RE_DICE_TEXT = re.compile(
+        r"Wurf:\s*(\d+)\s*\|\s*Ziel:\s*(\d+)\s*\|\s*(\[OK\]|\[!!\])\s+(.+)", re.IGNORECASE,
+    )
+    # Shadowrun Pool-Text: z.B. "d6-Pool [5]: Wuerfel: 2 4 5 6 1 -> 2 Hits (Schwelle: 3)"
+    _RE_D6_POOL_TEXT = re.compile(
+        r"d6-Pool\s*\[(\d+)\].*?Wuerfel:\s*([\d\s]+?)\s*->\s*(\d+)\s*Hits?\s*\(Schwelle:\s*(\d+)\)",
+        re.IGNORECASE,
+    )
+
+    _LEVEL_MAP = {
+        "kritischer erfolg": "critical",
+        "kritisch":          "critical",
+        "extremer erfolg":   "extreme",
+        "extrem":            "extreme",
+        "harter erfolg":     "hard",
+        "hart":              "hard",
+        "regulärer erfolg":  "regular",
+        "regulaerer erfolg": "regular",
+        "regulaer":          "regular",
+        "ok":                "regular",
+        "misserfolg":        "failure",
+        "miss":              "failure",
+        "patzer":            "fumble",
+    }
+
+    def _parse_probe_text(self, text: str) -> dict[str, Any] | None:
+        """
+        Extrahiert Skill und Zielwert aus einem PROBE-Event-Text.
+
+        Erwartet: "[PROBE] Fertigkeitsname (Zielwert: 45)"
+        Returns: {"skill": str, "target": int} oder None
+        """
+        m = self._RE_PROBE_TEXT.search(text)
+        if m:
+            return {"skill": m.group(1).strip(), "target": int(m.group(2))}
+        # Fallback: Zielwert irgendwo im Text
+        m2 = re.search(r"Zielwert:\s*(\d+)", text, re.IGNORECASE)
+        if m2:
+            # Skill-Name: alles zwischen [PROBE] und "(Zielwert"
+            skill_m = re.search(r"\[PROBE\]\s+(.+?)\s+\(", text, re.IGNORECASE)
+            skill = skill_m.group(1).strip() if skill_m else "Probe"
+            return {"skill": skill, "target": int(m2.group(1))}
+        return None
+
+    def _parse_dice_text(self, text: str) -> dict[str, Any] | None:
+        """
+        Extrahiert Wurf, Ziel und Erfolgsgrad aus einem Dice-Event-Text.
+
+        Erwartet: "Wurf: 73 | Ziel: 45 | [!!] Misserfolg"
+        Oder Shadowrun Pool-Format.
+        Returns: dict mit roll, target, is_success, success_level, dice_system
+        """
+        # Shadowrun d6-Pool zuerst pruefen
+        m_pool = self._RE_D6_POOL_TEXT.search(text)
+        if m_pool:
+            pool_size = int(m_pool.group(1))
+            dice_values = [int(x) for x in m_pool.group(2).split() if x.isdigit()]
+            hits = int(m_pool.group(3))
+            threshold = int(m_pool.group(4))
+            return {
+                "roll": 0,
+                "target": threshold,
+                "is_success": hits >= threshold,
+                "success_level": "regular" if hits >= threshold else "failure",
+                "dice_system": "d6pool",
+                "pool_dice": dice_values,
+                "hits": hits,
+                "threshold": threshold,
+            }
+
+        # Standard Probe (d100 / d20)
+        m = self._RE_DICE_TEXT.search(text)
+        if m:
+            roll = int(m.group(1))
+            target = int(m.group(2))
+            is_success = m.group(3).upper() == "[OK]"
+            level_raw = m.group(4).strip().lower()
+            success_level = self._LEVEL_MAP.get(level_raw, "regular" if is_success else "failure")
+            # d20 heuristisch: Zielwert <= 20
+            dice_system = "d20" if target <= 20 else "d100"
+            return {
+                "roll": roll,
+                "target": target,
+                "is_success": is_success,
+                "success_level": success_level,
+                "dice_system": dice_system,
+                "pool_dice": None,
+                "hits": None,
+                "threshold": None,
+            }
+        return None
+
+    def _on_dice_event(self, probe_text: str | None, dice_text: str | None) -> None:
+        """
+        Verarbeitet ein Probe+Dice-Paar und fuegt es der History hinzu.
+
+        Wird aufgerufen wenn beide Events eingegangen sind (oder nur dice_text
+        fuer Systeme ohne vorangehenden PROBE-Event).
+        """
+        timestamp = datetime.now().strftime("%H:%M:%S")
+
+        # Skillname + Zielwert aus probe_text
+        skill = "Probe"
+        target_override: int | None = None
+        if probe_text:
+            parsed_probe = self._parse_probe_text(probe_text)
+            if parsed_probe:
+                skill = parsed_probe["skill"]
+                target_override = parsed_probe["target"]
+
+        # Wuerfeldetails aus dice_text
+        if dice_text:
+            parsed_dice = self._parse_dice_text(dice_text)
+        else:
+            parsed_dice = None
+
+        if parsed_dice is None:
+            # Kein parsbares Wuerfelergebnis — minimal-Eintrag
+            if target_override is None:
+                return
+            parsed_dice = {
+                "roll": 0,
+                "target": target_override,
+                "is_success": False,
+                "success_level": "failure",
+                "dice_system": "d100",
+                "pool_dice": None,
+                "hits": None,
+                "threshold": None,
+            }
+
+        # Zielwert aus PROBE-Text hat Vorrang (praeziser als geclampt in mechanics)
+        if target_override is not None:
+            parsed_dice["target"] = target_override
+
+        entry = {
+            "skill": skill,
+            "timestamp": timestamp,
+            **parsed_dice,
+        }
+
+        # History: neuesten Eintrag vorne einreihen
+        self._dice_history.insert(0, entry)
+        if len(self._dice_history) > self._max_dice_history:
+            self._dice_history = self._dice_history[:self._max_dice_history]
+
+        # Panel neu rendern — via after() in den Main-Thread dispatchen (Thread-Safety)
+        self.after(0, self._render_dice_history)
+
+        # Strukturiertes Event auf EventBus fuer andere Listener (z.B. KI-Monitor)
+        try:
+            from core.event_bus import EventBus
+            EventBus.get().emit("keeper", "dice_roll", {
+                "skill": entry["skill"],
+                "target": entry["target"],
+                "roll": entry.get("roll", 0),
+                "is_success": entry["is_success"],
+                "success_level": entry["success_level"],
+                "dice_system": entry["dice_system"],
+                "pool_dice": entry.get("pool_dice"),
+                "hits": entry.get("hits"),
+                "threshold": entry.get("threshold"),
+                "system": self.gui.engine.module_name if hasattr(self.gui, "engine") else "",
+            })
+        except Exception:
+            pass  # EventBus-Emission ist optional — nie Game-Loop blockieren
 
     # ── Output-Methoden ──
 
@@ -713,11 +1081,17 @@ class GameTab(ttk.Frame):
                     self._append_output("SPIELER: ", "label")
                     self._append_output(text + "\n", "player")
 
-            # ── Wuerfelwurf: Geraeusch abspielen ──
+            # ── Wuerfelwurf: Geraeusch + Visualisierung ──
             elif tag == "dice":
                 self._play_dice_sound()
                 self._append_timestamp()
                 self._append_output(text + "\n", tag)
+                # Dice-Panel updaten: kombiniere mit letztem PROBE-Event
+                probe_text = None
+                if self._pending_probe:
+                    probe_text = self._pending_probe.get("text")
+                    self._pending_probe = None
+                self._on_dice_event(probe_text, text)
 
             elif tag == "combat":
                 self._play_dice_sound()
@@ -748,7 +1122,13 @@ class GameTab(ttk.Frame):
                 self._append_timestamp()
                 self._append_output(text + "\n", "rules_warning")
 
-            elif tag in ("probe", "stat", "fact", "system"):
+            elif tag == "probe":
+                # Probe-Text merken fuer nachfolgendes "dice"-Event
+                self._pending_probe = {"text": text}
+                self._append_timestamp()
+                self._append_output(text + "\n", tag)
+
+            elif tag in ("stat", "fact", "system"):
                 self._append_timestamp()
                 self._append_output(text + "\n", tag)
 

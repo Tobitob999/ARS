@@ -215,6 +215,29 @@ class SessionTab(ttk.Frame):
             style="Muted.TLabel",
         ).pack(side=tk.LEFT, padx=PAD_SMALL)
 
+        # Lore-Budget
+        ttk.Label(fine_frame, text="Lore-Budget").grid(
+            row=6, column=0, sticky=tk.W, padx=PAD, pady=PAD_SMALL,
+        )
+        lore_budget_frame = ttk.Frame(fine_frame, style="TFrame")
+        lore_budget_frame.grid(row=6, column=1, padx=PAD, pady=PAD_SMALL, sticky=tk.EW)
+        self._lore_budget_var = tk.IntVar(value=50)
+        self._lore_budget_scale = ttk.Scale(
+            lore_budget_frame, from_=0, to=100, variable=self._lore_budget_var,
+            orient=tk.HORIZONTAL, length=200,
+            command=self._on_lore_budget_change,
+        )
+        self._lore_budget_scale.pack(side=tk.LEFT)
+        self._lore_budget_label = ttk.Label(
+            lore_budget_frame, text="50% (~250K Zeichen)",
+        )
+        self._lore_budget_label.pack(side=tk.LEFT, padx=PAD)
+        ttk.Label(
+            lore_budget_frame,
+            text="(Lore-Dateien im KI-Kontext, 0=kein Lore, 100=max 500K Zeichen)",
+            style="Muted.TLabel",
+        ).pack(side=tk.LEFT, padx=PAD_SMALL)
+
         fine_frame.columnconfigure(1, weight=1)
 
         # ── Charakter-Uebersicht ──
@@ -324,6 +347,11 @@ class SessionTab(ttk.Frame):
                 budget = getattr(sc, "rules_budget", 6000)
                 self._rules_budget_var.set(budget)
                 self._budget_label.configure(text=f"{budget} (~{budget // 4} Tokens)")
+                lore_pct = getattr(sc, "lore_budget_pct", 50)
+                self._lore_budget_var.set(lore_pct)
+                chars_approx = int(500_000 * lore_pct / 100)
+                chars_str = f"~{chars_approx // 1000}K Zeichen" if chars_approx >= 1000 else f"{chars_approx} Zeichen"
+                self._lore_budget_label.configure(text=f"{lore_pct}% ({chars_str})")
             else:
                 self._combos["ruleset"].current(0)
                 self._combos["adventure"].current(0)
@@ -359,6 +387,20 @@ class SessionTab(ttk.Frame):
         tokens_approx = v // 4
         self._budget_label.configure(text=f"{v} (~{tokens_approx} Tokens)")
 
+    def _on_lore_budget_change(self, value: str) -> None:
+        """Aktualisiert das Lore-Budget-Label und sendet EventBus-Event."""
+        pct = int(float(value))
+        # MAX_LORE_CHARS = 500_000 (matches ai_backend constant)
+        chars_approx = int(500_000 * pct / 100)
+        if chars_approx >= 1_000:
+            chars_str = f"~{chars_approx // 1000}K Zeichen"
+        else:
+            chars_str = f"{chars_approx} Zeichen"
+        self._lore_budget_label.configure(text=f"{pct}% ({chars_str})")
+        # Sofortige Benachrichtigung des AI-Backends via EventBus
+        from core.event_bus import EventBus
+        EventBus.get().emit("session", "lore_budget_changed", {"pct": pct})
+
     def _load_preset(self) -> None:
         preset_name = self._combos["preset"].get()
         if not preset_name or preset_name == "(keine)":
@@ -381,6 +423,11 @@ class SessionTab(ttk.Frame):
             budget = getattr(cfg, "rules_budget", 6000)
             self._rules_budget_var.set(budget)
             self._budget_label.configure(text=f"{budget} (~{budget // 4} Tokens)")
+            lore_pct = getattr(cfg, "lore_budget_pct", 50)
+            self._lore_budget_var.set(lore_pct)
+            chars_approx = int(500_000 * lore_pct / 100)
+            chars_str = f"~{chars_approx // 1000}K Zeichen" if chars_approx >= 1000 else f"{chars_approx} Zeichen"
+            self._lore_budget_label.configure(text=f"{lore_pct}% ({chars_str})")
             logger.info("Preset geladen: %s", preset_name)
         except Exception as exc:
             logger.warning("Preset-Load fehlgeschlagen: %s", exc)
@@ -431,6 +478,12 @@ class SessionTab(ttk.Frame):
             self._rules_budget_var.set(data["rules_budget"])
             self._budget_label.configure(
                 text=f"{data['rules_budget']} (~{data['rules_budget'] // 4} Tokens)")
+        if "lore_budget_pct" in data:
+            lore_pct = int(data["lore_budget_pct"])
+            self._lore_budget_var.set(lore_pct)
+            chars_approx = int(500_000 * lore_pct / 100)
+            chars_str = f"~{chars_approx // 1000}K Zeichen" if chars_approx >= 1000 else f"{chars_approx} Zeichen"
+            self._lore_budget_label.configure(text=f"{lore_pct}% ({chars_str})")
         if "atmosphere" in data:
             self._atmosphere_var.set(data["atmosphere"])
 
@@ -469,6 +522,7 @@ class SessionTab(ttk.Frame):
             language=self._language_var.get(),
             temperature=self._temperature_var.get(),
             rules_budget=self._rules_budget_var.get(),
+            lore_budget_pct=self._lore_budget_var.get(),
         )
 
     # ── Button-Aktionen ──
