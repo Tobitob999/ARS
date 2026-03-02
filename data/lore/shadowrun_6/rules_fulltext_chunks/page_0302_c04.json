@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0302_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 302, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 302,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Fluch für alle Runner, vor allem wenn er in Teams anfliegt. GMC Banshee\nEine Ikone des T-Bird-Designs und der feuchte Traum jedes \nSchmugglers. Hauptsächlich von hochrangigen Militärein-\nheiten und Konzernsicherheitskräften eingesetzt, zischt der \nBanshee mit Überschall über den Boden, um Nachschub \nund Truppen zu transportieren und Aufklärungsflüge und \nÜberraschungsangriffe zu unternehmen, neben einer Viel-\nzahl weiterer krasser Manöver. Northrup W asp\nNorthrup W asp\nNorthrup W asp\nVTOL/VSTOL\nVTOL-(Vertical Take-Off and Landing)- und VSTOL-(Ver-\ntical/Short Take-Off and Landing)-Maschinen verwenden \neine grundlegende Starrflügler-Struktur, die modifiziert \nwird, um ein Starten und Landen mit keiner oder nur we-\nnig Rollbahn zu ermöglichen. VTOL-Maschinen (Senk-\nrechtstarter) benötigen keine Rollbahn, VSTOL-Maschinen \nhäufig eine kurze Rollbahn, um zu starten. Ares Venture\nDer Venture ist eine billige und kleine Vektorschubmaschi-\nne, aber seine Nachteile werden durch seine Beliebtheit und \ndie schier unbegrenzten Ausstattungsoptionen ausgeglichen. Eingesetzt wird er von militärischen und Sicherheitskräf-\nten sowie von den Schmugglern, die von diesen gejagt \nwerden. Der Venture ist immer für eine Überraschung gut \n– man sieht sein schlichtes Äußeres und ahnt nicht, was \nsich darunter an Extras befindet. Dank einer hervorragen-\nAres Venture\nAres Venture\nAres Venture\nSHADOWRUN: SECHSTE EDITION\nF AHRZEUGE UND DROHNEN // Ausrüstung // 301",
+    "topic": "combat.attack",
+    "keywords": [
+      "venture",
+      "ares",
+      "northrup",
+      "vtol",
+      "vstol",
+      "maschinen",
+      "rollbahn",
+      "banshee"
+    ]
+  }
+}

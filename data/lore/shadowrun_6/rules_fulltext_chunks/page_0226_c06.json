@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0226_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 226, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 226,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Na türliche W affe\nART\n HANDLUNG\n REICHWEITE\n DAUER\nP\n Auto\n B\n Sofort\nZähne, Klauen, ein stacheliger Schwanz – der Critter ist von \nder Natur mit einem Werkzeug ausgestattet worden, mit \ndem er anderen Körperlichen Schaden zufügen kann. Die \nArt des Angriffs sowie sein Schadenswert, sein Angriffswert \nund weitere Angaben werden jeweils in der Beschreibung \nder Kraft genauer spezifiziert. Natürliche Waffen können \nentweder für Nah- oder für Fernkampfangriffe verwendet \nwerden, und es gelten die üblichen Kampfregeln. Ein Critter \nverwendet die Fertigkeit Nahkampf für eine natürliche \nNahkampfwaffe und die Fertigkeit Exotische Waffen, um \nmit einer natürlichen Fernkampfwaffe anzugreifen. Die \nmeisten Natürlichen Waffen gelten für die Kraft Immunität \ngegen Normale Waffen als normal; Ausnahmen werden in \nder Beschreibung des Critters erwähnt. Ein dualer Critter mit einer Natürlichen Nahkampfwaffe \nkann diese Kraft gegen astrale Ziele innerhalb seiner Reich-\nweite einsetzen. Dabei werden die Nahkampffertigkeit des \nCritters und der normale körperliche Schadenswert (üblicher-\nweise Stärke ÷ 2, sofern nicht anders angegeben) verwendet. Natürliche Fernkampfwaffen wirken, wie alle Fernkampfan-\ngriffe, nicht im Astralraum. Auch Critter \nohne\n Natürliche \nWaffe können einen Nahkampfangriff unternehmen. Sie \nverwenden dabei ihre Attribute. Na türlicher \n Zauberspruch\nART\n HANDLUNG\n REICHWEITE\n DAUER\nWie Zauber\n H\n Wie Zauber\n Wie Zauber\nDiese Kraft erlaubt es einem Critter, einen ganz bestimmten \nZauber zu wirken. Um die Kraft effektiv einsetzen zu kön-\nnen, sollte der Critter die Fertigkeit Hexerei besitzen, aber \nwenn er sie nicht hat, kann er auch ohne Malus auf Magie \nwürfeln.",
+    "topic": "combat.attack",
+    "keywords": [
+      "critter",
+      "kraft",
+      "natuerliche",
+      "waffen",
+      "zauber",
+      "verwendet",
+      "fertigkeit",
+      "handlung"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0343_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 343, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 343,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "175\nMatrixsignatur löschen \n (Matrixhandlung) ..........................183\nMatrixsuche (Matrixhandlung) .........183\nMatrixwahrnehmung ........................178\nMatrixwahrnehmung \n (Matrixhandlung) ..........................183\nMatrixzugang und PANs ...................173\nMaximum des Magieattributs ...........168\nMaximum des Resonanzattributs .....195\nMCT Gnat (Mikrodrohne) .................302\nMCT Hornet (Minidrohne) ................302\nMCT-Nissan Roto-Drohne \n (mittlere Drohne) ..........................303\nMCT-Sikorsky-Bell Seahawk \n (Flugzeug) .....................................300\nMCT-Sikorsky-Bell Wolfhound \n (Rotormaschine) ...........................301\nMechanik (Fertigkeit) .........................97\nMechaniker (Connection) .................213\nMedkit (Biotech) ..............................282\nMedkit-Nachfüllpack (Biotech) .........282\nMeer (Schutzgeist) ...........................166\nMegakonzern-Audit ............................32\nMegakonzerne ..............................28, 30\nMehrfachangriffe (Handlung) .............43\nMehrfachangriffe ..............................114\nMeistermechaniker (Vorteil) ...............75\nMenschen ..........................................56\nMenschenhandel ................................64\nMenschenkenntnis .............................37\nMenschlich-Metamenschliches \n Vampirisches Virus (MMVV) ...........31\nMenschliches Aussehen (Vorteil) .......75\nMerc (Slang) ........................................9\nMesser (Klingenwaffe) .....................247\nMesserklaue (Slang) ............................9\nMetall Beleben (Zauber) ...................142\nMetall Formen (Zauber) ...................",
+    "topic": "magic",
+    "keywords": [
+      "matrixhandlung",
+      "matrixwahrnehmung",
+      "maximum",
+      "drohne",
+      "sikorsky",
+      "bell",
+      "medkit",
+      "biotech"
+    ]
+  }
+}

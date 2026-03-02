@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0193_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 193, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 193,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Danach kannst du das Aufrechterhalten \nwieder übernehmen, wenn du willst. Sprite neu registrieren: Du kannst versuchen, das Sprite \nneu zu registrieren. Dazu wird eine Aufgabe des Sprites \nverbraucht, und es gelten die normalen Regeln fürs Re-\ngistrieren. Wenn du dafür die letzte Aufgabe des Sprites \nbenutzt, solltest du das lieber nicht versauen. Wenn du \nerfolgreich bist, kannst du die Nettoerfolge zu den noch \noffenen Aufgaben des Sprites (abzüglich der Aufgabe für \ndas erneute Registrieren) addieren. Wenn du scheiterst, \nist die Aufgabe verloren. Wenn es die letzte Aufgabe des \nSprites war, verschwindet es. Standby: Du kannst einem registrierten Sprite befehlen, \nin der Resonanz auf weitere Aufgaben zu warten. Das \nkostet zwar eine Aufgabe, sorgt aber dafür, dass das Sprite \nsicher ist und deine Anwesenheit nicht wegen des Sprites \nbemerkt werden kann. Außerdem wird der Overwatch- \nWert des Sprites auf null zurückgesetzt. Verliehene Aufgabe: Du kannst deinem Sprite befehlen, den \nBefehlen einer anderen Persona zu folgen, selbst wenn \ndiese kein Technomancer ist. Du kannst auswählen, wie \nviele Aufgaben du verleihen willst. Du kannst aber nicht \nfestlegen, was diese Aufgaben sein sollen oder nicht sein \nsollen, also verleihe das Sprite nur an vertrauenswürdige \nLeute. Die Verbindung zwischen\nSprite und Technomancer\nSprites sind mit dem Technomancer verbunden, der sie kom-\npiliert hat, solange er mit der Matrix verbunden ist. Diese \nVerbindung kann zum Übertragen von Worten, Bildern, \nVideos und jeder anderen Kommunikationsform benutzt \nwerden, die gebraucht wird.",
+    "topic": "general",
+    "keywords": [
+      "kannst",
+      "sprite",
+      "aufgabe",
+      "registrieren",
+      "befehlen",
+      "diese",
+      "technomancer",
+      "willst"
+    ]
+  }
+}

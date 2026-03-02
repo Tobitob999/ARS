@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0098_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 98, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 98,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Einsatzzwecke\nFeuerw affen\nSpezialisierungen: Automatikpistolen, Gewehre, Holdout-\nPistolen, Leichte Pistolen, Maschinengewehre, Maschi-\nnenpistolen, Schrotflinten, Schwere Pistolen, Sturm-\nkanonen, Taser\nUngeübt: Ja\nPrimärattribut: Geschicklichkeit\nDu willst auf irgendetwas schießen? Dann ist eine Probe \nauf diese Fertigkeit fällig. Grundsätzlich legst du eine Pro-\nbe auf Feuerwaffen + Geschicklichkeit gegen Reaktion + \nIntuition des Gegners ab. Alle weiteren Details findest du \nim Kapitel Kampf auf Seite 107. Heimlichkeit\nSpezialisierungen: Fingerfertigkeit, Schleichen, Tarnung\nUngeübt: Ja\nPrimärattribut: Geschicklichkeit\nWie der Name schon sagt, sollten Shadowrunner möglichst \nauf Unauffälligkeit bedacht sein. Das macht Heimlichkeit \nzu einer sehr wertvollen Fertigkeit. Sie deckt alle Aktivitäten \nab, die Charaktere unbemerkt von anderen durchführen \nmöchten: Wenn du in eine Forschungsanlage einbrechen \noder einem Mafia-Don einen Credstick unter der Nase weg-\nstehlen möchtest, dann kommt Heimlichkeit zum Einsatz. In der Regel wird zu Beginn eines solchen Unterfangens eine \nProbe auf Heimlichkeit + Geschicklichkeit abgelegt. Die \ndabei erzielten Erfolge bestimmen den Schwellenwert für \nandere, die bemerken wollen, was der Charakter im Schilde \nführt. Manchmal versucht ein Charakter auch spontan, sich \nmöglichst heimlich zu verhalten. In diesem Fall wird eine \nVergleichende Probe auf Heimlichkeit + Geschicklichkeit \ngegen Wahrnehmung + Intuition abgelegt. Unter manchen – aber nicht allen – Umständen kann die \nGröße eines Charakters sich darauf auswirken, wie heimlich \ner vorgehen kann.",
+    "topic": "combat",
+    "keywords": [
+      "geschicklichkeit",
+      "heimlichkeit",
+      "pistolen",
+      "probe",
+      "spezialisierungen",
+      "ungeuebt",
+      "primaerattribut",
+      "dann"
+    ]
+  }
+}

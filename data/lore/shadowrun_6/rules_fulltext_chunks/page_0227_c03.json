@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0227_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 227, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 227,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Schutz\nART HANDLUNG REICHWEITE DAUER\nP H BF Aufrechterhalten\nMit dieser Kraft kann der Critter sich und andere gegen \ndie Critterkraft Unfall sowie gegen die Auswirkungen von \nPatzern schützen. Die Kraft kann gegen eine Anzahl Zie-\nle eingesetzt werden, die dem Magieattribut des Critters \nentspricht. Unter Einwirkung der Kraft Schutz sind Kriti-\nsche Patzer nur einfache Patzer, und Patzer sind lediglich \nmisslungene Proben, es sei denn, die Kraft Unfall wird \neingesetzt. In diesem Fall neutralisiert die Kraft Schutz \nnur die Auswirkungen von Unfall, und alles läuft normal. Suche\nART HANDLUNG REICHWEITE DAUER\nP H Speziell Speziell\nMit dieser Kraft verliert man nie wieder seine Hausschlüs-\nsel. Um ein Ziel zu finden, legt der Critter eine Ausgedehnte \nProbe auf Intuition + Magie (5, 10 Minuten) ab. Vieles kann \ndie Probe erschweren; in der Tabelle Suchmodifikatoren\nsind einige mögliche Modifikatoren angegeben. Der Critter muss das, das er sucht, vor Beginn der Suche \ngesehen haben. Geister können nach allem suchen, von \ndem ihr Beschwörer ihnen ein geistiges Bild liefern kann. Critter, die den Astralraum betreten können, können dort \ndiese Kraft einsetzen, aber sie müssen sich materialisieren, \nwenn sie nach einem unbelebtem Objekt auf der physischen \nEbene suchen wollen. Lebende Objekte mit Auren können \nvon der Astralebene aus gesucht werden. Tierbeherrschung\nART HANDLUNG REICHWEITE DAUER\nM H BF Aufrechterhalten\nEinige Critter können andere Critter manipulieren, vor \nallem (aber nicht nur) mundane. Das Verhalten muss für \ndas beherrschte Tier natürlich sein.",
+    "topic": "magic",
+    "keywords": [
+      "kraft",
+      "critter",
+      "schutz",
+      "handlung",
+      "reichweite",
+      "dauer",
+      "gegen",
+      "unfall"
+    ]
+  }
+}

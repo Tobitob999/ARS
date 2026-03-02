@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0004_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 4, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 4,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "110\nKampfrunde\n ....................................... 110\nÜberraschung\n .................................... 110\nWerte für Waffen \nund Panzerungen\n .................... 111\nAngriffswert/Reichweite\n ..................... 111\nMunition\n ............................................. 112\nVerteidigungswertbonus\n .................... 112\nVerteidigungswert\n .............................. 112\nSchadenswert\n .................................... 112\nFeuermodi\n .......................................... 112\nFertigkeit\n ............................................ 112\nSchadensarten (elementar usw.)\n ........ 112\nKampfoptionen\n ....................... 113\nAngriffe mit der Nebenhand\n ............... 113\nNiederschlag\n ...................................... 113\nRingen\n ............................................... 113\nMehrfachangriffe\n ................................ 114\nBarrieren\n .............................. 115\nDurchbrechen\n .................................... 115\nFallschaden\n ........................... 117\nSchergen-Gruppen\n ................... 117\nSprengstoffe, Gase \nund Sprühangriffe\n.................... 118\nSprengangriffe und Abweichung\n ........ 118\nGasangriffe\n ......................................... 120\nSprühangriffe\n ..................................... 121\nMehr Bums\n ............................ 121\nHeilung\n ................................ 122\nErste Hilfe\n .......................................... 122\nMedkit\n ................................................ 122\nMagie\n ................................................. 123\nNatürliche Genesung/\nMedizinische Hilfe\n .............................. 123\nÜberzähliger Schaden\n ........................",
+    "topic": "combat.attack",
+    "keywords": [
+      "spruehangriffe",
+      "hilfe",
+      "kampfrunde",
+      "ueberraschung",
+      "werte",
+      "waffen",
+      "panzerungen",
+      "angriffswert"
+    ]
+  }
+}

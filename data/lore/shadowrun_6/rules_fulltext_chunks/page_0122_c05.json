@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0122_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 122, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 122,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Ein schwankender Angriff bewegt \nsich etwas hin und her und bedeckt einen Bereich von etwa \ndrei Metern Breite. Ein streichender Angriff bewegt sich über \neinen etwa zehn Meter breiten Bereich. Ein gerader Angriff wird wie üblich behandelt, und es gibt \nkeine Änderungen an Angriffs- oder Schadenswert. Wer sich \nim Weg des Sprühstrahls zum Ziel hin befindet, wird eben-\nfalls getroffen. Einem schwankenden Angriff ist schwerer \nauszuweichen, aber seine Wirkung ist etwas schwächer: Der \nAngriffswert steigt um 2, der Schadenswert sinkt um 1. Ein \nstreichender Angriff verstärkt diese Tendenz: Der Angriffswert \nsteigt um 4, der Schadenswert sinkt um 3. Bei schwankenden und streichenden Angriffen kannst \ndu den Strahl auch besonders schnell bewegen: Ersetze \neinen der Würfel deines Würfelpools durch den Schicksals-\nwürfel. Beispiel: Exotische W affen und Sprühangriffe\nDas Schlimmste an den Redmond Barrens ist das Niveau \nder Verrücktheit seiner Bewohner. Aus seiner Wohnung im \nersten Stockwerk hört der Möchtegern-Halloweener Joseph \nJonas Jones – Trip-J für seine Straßenkumpel – den Aufruhr \nund beschließt, seinen selbstgebastelten Flammenwerfer zu \ntesten. Er geht zum Fenster, sieht unten Carson Aims und \nbetätigt den Abzug. Schritt eins: Schnappt euch die Würfel\nTrip-J nutzt seine Fertigkeit Exotische Waffen (Flammen-\nwerfer) 1 + Geschicklichkeit 2 mit einem beeindruckenden \nWürfelpool von 3. Carson Aims will der heranrasenden Flam-\nme auf jeden Fall ausweichen und würfelt mit Reaktion 5 + \nIntuition 5, um nicht geröstet zu werden.",
+    "topic": "combat.attack",
+    "keywords": [
+      "angriff",
+      "sich",
+      "einen",
+      "schadenswert",
+      "seine",
+      "wuerfel",
+      "bewegt",
+      "etwas"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0122_c08",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 122, chunk 8.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 122,
+    "chunk_index": 8,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Es gibt vier Arten \ndes Einsatzes dieser Probe, bei denen der Schadenswert \nder Sprengwaffen oder kommerziellen Sprengstoffe gegen \neine bestimmte Art von Zielen erhöht wird: Personen oder \nStrukturen. Los geht’s! Um die \nSchadenswirkung von Sprengwaffen gegen Per-\nsonen\n zu erhöhen, lege eine Probe auf Mechanik + Logik \n(2) ab. Jeder Nettoerfolg erhöht den Schadenswert der \nSHADOWRUN: SECHSTE EDITION\nMEHR BUMS // KAMPF // 121",
+    "topic": "combat.damage",
+    "keywords": [
+      "probe",
+      "schadenswert",
+      "sprengwaffen",
+      "gegen",
+      "erhoeht",
+      "gibt",
+      "vier",
+      "arten"
+    ]
+  }
+}

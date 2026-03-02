@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_03_world_of_paranoia_p0042_c03",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_03_world_of_paranoia",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The World of Paranoia page 42, chunk 3.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_03_world_of_paranoia",
+    "source_title": "The World of Paranoia",
+    "page": 42,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "Before each expedition, the gamemaster should take each character aside and privately tive him any information or directives his Secret society wishes him to have during the mission. These might include the society's suspicions about other characters on the ex pedition, any task the saciety would like the \n_5. Secret Societies \ncharacter to perform during the expedition, and any information about the expedition the Society feels might be important. ‘Ac the same time, the character may make requests for information or equipment from his society. These requests may be granted or denied according to the society's resources, the difficulty of yranting the request, the ex: penditure of 1OUs, and how the gamemaster feels that day. Bs | The Origin of Secret Societies Secret societies were the inspiration of an early High Programmer who, realizing that the conspiratorial and rebellious elements of the hhuman personality could not be indefinitely suppressed, tried to come up with a way t0 cchanne! them into relatively harmless pursuits. ‘Thus The Computer created and organized the original secret societies. These original societies are most likely to be loyal to The Computer and heavily infiltrated by Internal Security However, certain unauthorized secret societies have developed as offshoots of the original secret societies. The Computer has varying degrees of influence and control over these other societies, and some societies may exist of which The Computer is completely Unaware. AS anew society’s existence is discovered by The Computer, great effort is made to infiltrate it with loyal patriots. Ifthe society is relatively harmless, itis permitted to continue its existence.",
+    "topic": "combat.defense",
+    "keywords": [
+      "societies",
+      "secret",
+      "society",
+      "computer",
+      "these",
+      "expedition",
+      "character",
+      "information"
+    ]
+  }
+}

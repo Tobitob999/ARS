@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_01_paranoia_for_players_p0022_c01",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_01_paranoia_for_players",
+    "chapter"
+  ],
+  "summary": "Rule chunk from Paranoia for Players page 22, chunk 1.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_01_paranoia_for_players",
+    "source_title": "Paranoia for Players",
+    "page": 22,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "Banc PARANOIA \nis Joshua turns to you witha fanatic gleam in his eye and. says reeing Man from the Machine! One day we all shall be fee!” He points his laser at you. Go to 33 \niG, You made it past Joshua through the door and into the corridor. Joshua fires once more in your direction, wounding you in the hand, He panics, and dashes away. Pursuit is impos ble in the frenzied crowd. Your injured hand begins to throb. if you immediately seek a terminal and \nreport the preceding events to The Computer, \n0109 if you try to lee the avea, searching for a place to hide, go 0 46. ay \n{A.this point the gamemaster would normal ly rll dice and consult his charts to determine the effect of your shot on Fith. Here we will graciously assume that David-R is terrifically lucky) Joshua's shot at Edith misses and hits the wall, Edith finishes Joshua off with a single \n\\wellaimed shot, Howe, since she left herself wide open to your shot, you drill her directly in the temple and she slumps to the floor, killed instantly, Record an L code I you try 10 escape, Ro t0 45. if you give yourself up, explaining that the \ntwo Troubleshooters killed each other, roll the die, (Your con skill number is 4.) U1 you roll 4 oF, less, fo to 53. If you roll 5 of more, go to 53. is ‘With your mutant hypersenses you can see that Joshua is screwing a Green-ringed barrel into his laser pistol. A Green-ringed barrel should not be available toa security clearance Red like Joshua. You have no armor against Green laser weapons, and Edith probably doesn't either. you shouta warning, record an |code and 0.10 30.",
+    "topic": "combat.damage",
+    "keywords": [
+      "joshua",
+      "shot",
+      "laser",
+      "edith",
+      "roll",
+      "green",
+      "into",
+      "more"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0124_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 124, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 124,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Zugriff auf das geschädigte Gewebe erhalten können. Wie bei Medkits können Nettoerfolge benutzt werden, \nWie bei Medkits können Nettoerfolge benutzt werden, \num pro Nettoerfolg ein Kästchen Betäubungsschaden, \num pro Nettoerfolg ein Kästchen Betäubungsschaden, \nKörperlichen oder Überzähligen Schaden zu heilen. Nä-\nKörperlichen oder Überzähligen Schaden zu heilen. Nä-\nheres zu Heilzaubern findest du ab Seite 134. Ein Charakter kann durch Magie nur einmal bei einem \nEin Charakter kann durch Magie nur einmal bei einem \nbestimmten Satz von Verletzungen geheilt werden. Na türliche Genesung/\nMedizinische Hilfe\n(nach Schadensart unterschiedlich)\nWenn alle anderen Optionen ausgereizt wurden und trotz-\nWenn alle anderen Optionen ausgereizt wurden und trotz-\ndem noch Verletzungen bleiben, geht es um Ruhe und \ndem noch Verletzungen bleiben, geht es um Ruhe und \nvielleicht Hilfe von medizinisch ausgebildeten Profis (oder \nvielleicht Hilfe von medizinisch ausgebildeten Profis (oder \ndem Sani des Teams). Ruhe ist einfach dadurch definiert, \ndem Sani des Teams). Ruhe ist einfach dadurch definiert, \ndass man keine anstrengenden körperlichen oder geisti-\ndass man keine anstrengenden körperlichen oder geisti-\ngen Aktivitäten unternimmt – kurz gesagt wird die Ruhe \ngen Aktivitäten unternimmt – kurz gesagt wird die Ruhe \ndurch alles unterbrochen, wofür eine Probe erforderlich \ndurch alles unterbrochen, wofür eine Probe erforderlich \nist. Medizinische Hilfe verleiht einen Bonus auf die Gene-\nist. Medizinische Hilfe verleiht einen Bonus auf die Gene-\nsungsprobe. Wenn eine Person, die in Biotech ausgebildet \nsungsprobe.",
+    "topic": "combat.damage",
+    "keywords": [
+      "ruhe",
+      "hilfe",
+      "koerperlichen",
+      "durch",
+      "verletzungen",
+      "medizinische",
+      "medkits",
+      "nettoerfolge"
+    ]
+  }
+}

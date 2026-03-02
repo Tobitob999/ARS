@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0096_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 96, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 96,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Klettern-\nproben werden mit Athletik + Stärke abgelegt. Für jeden \nNettoerfolg kann man sich 1 Meter nach oben, unten oder \nseitwärts (nach Wahl des Spielers) bewegen. Die Kunst liegt \ndarin, den passenden Schwellenwert festzulegen – Hinweise \ndazu findest du in der Tabelle Klettern- Schwellenwerte. Wenn ein Charakter eine Kletterausrüstung (S. 281) trägt, \nerhält er zu Beginn der Kletterpartie 1 Punkt Edge. In den \ndarauffolgenden Runden erhält er dadurch keine zusätz-\nlichen Edgepunkte mehr. Falls ein Charakter versuchen \nsollte, Edge anzusammeln, indem er zu klettern beginnt, \ndann abspringt und dann einen „neuen“ Kletter versuch am \nselben Hindernis startet, rede ein ernstes Wörtchen mit dem \nSpieler und weise ihn auf den Abschnitt Edge-Missbrauch \nverhindern (S. 46) hin. Schwimmen\nUm zu schwimmen, muss ein Charakter eine Nebenhand-\nlung aufwenden und bewegt sich dann mit einer Grundge-\nschwindigkeit von 3 Metern pro Kampfrunde (dieser Wert \nkann durch Ausrüstung und Bodytech erhöht werden). Durch das Ablegen einer Schwimmenprobe mit Athletik + \nGeschicklichkeit (2) können [Nettoerfolge ÷ 2, abgerun-\ndet] Meter zu der schwimmend zurückgelegten Distanz \naddiert werden. Bei unruhigen Gewässern oder anderweitig \nerschwerten Bedingungen kann der Schwellenwert erhöht \nwerden. Schwimmen ist anstrengend, sodass der Schwel-\nlenwert alle 15 Minuten zusätzlich um 1 steigen sollte. eine Idee für eine neue Fertigkeitsspezialisierung hat, die sie \nsich mit ihrem Charakter gern aneignen würde, dann kann \nsie das tun, solange der Spielleiter zustimmt. Fertigkeiten sind mit einem Attribut verknüpft, das in den \nWürfelpool der Fertigkeitsprobe mit eingeht.",
+    "topic": "skills.physical",
+    "keywords": [
+      "charakter",
+      "dann",
+      "klettern",
+      "sich",
+      "edge",
+      "schwimmen",
+      "athletik",
+      "meter"
+    ]
+  }
+}

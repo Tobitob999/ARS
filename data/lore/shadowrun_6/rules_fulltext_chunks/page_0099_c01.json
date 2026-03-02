@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0099_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 99, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 99,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Dazu wird eine Probe auf Mechanik + Intuition abgelegt, \nderen Schwellenwert mithilfe der Richtlinien für Schwellen-\nwerte auf Seite 37 (nicht mithilfe der Schwellen werte für \nBauen/Reparieren) festgelegt wird. Wenn die Probe gelingt, \nfunktioniert das Gerät für [Nettoerfolge] Minuten normal. Nach Ablauf dieser Zeit kann eine neue Improvisierenprobe \nabgelegt werden, deren Schwellenwert jedoch mindestens \num 1 höher liegen sollte als bei der vorherigen – vielleicht \nsogar noch höher, je nachdem, wie sehr die Maschine durch \nden notdürftigen Flickversuch beschädigt wurde. Mechanik kommt außerdem zum Einsatz, um mechani-\nsche Schlösser und Magschlösser zu knacken (s. Schlösser, \nS. 240). Bei diesen Proben wird Geschicklichkeit als ver-\nknüpftes Attribut genutzt. Der Schwellenwert richtet sich \nnach der Komplexität des Schlosses. Steuern\nSpezialisierungen: Bodenfahrzeuge, Luftfahrzeuge, Wasser-\nfahrzeuge\nUngeübt: Ja\nPrimärattribut: Reaktion\nSteuern kommt immer dann zum Einsatz, wenn ein Cha-\nrakter ein anspruchsvolles Manöver mit einem Fahrzeug \ndurchführen möchte (und ist deshalb eine essenzielle Fä-\nhigkeit für alle Rigger). Generell sind Steuernproben Ein-\nfache Proben auf Steuern + Reaktion. Der Schwellen wert \nist im Regelfall gleich dem Handlingwert des gesteuerten \nFahrzeugs, kann aber in Abhängigkeit von der Komplexität \ndes jeweiligen Manövers auch höher sein (Spielleiterent-\nscheid). Manchmal werden Steuernproben auch eingesetzt, \num Verfolger abzuschütteln, jemanden zu verfolgen oder \nandere Aktionen abzuhandeln, die mehr als ein Fahrzeug \nbetreffen. In diesen Fällen wird eine Vergleichende Probe \nauf Steuern + Reaktion gegen Steuern + Reaktion abgelegt.",
+    "topic": "general",
+    "keywords": [
+      "steuern",
+      "reaktion",
+      "probe",
+      "abgelegt",
+      "schwellenwert",
+      "hoeher",
+      "mechanik",
+      "deren"
+    ]
+  }
+}

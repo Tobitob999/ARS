@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0191_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 191, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 191,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Signalsturm\nSCHWUND DAUER\n3 A\nLege eine Vergleichende Probe auf Elektronik + Resonanz \ngegen Logik + Datenverarbeitung des Ziels ab. Jeder Netto-\nerfolg erhöht den Rauschenwert für das Ziel um 1. Resonanzillusion\nSCHWUND\n DAUER\n4\n A\nDu erschaffst eine Illusion von Matrixaktivität, die op-\ntisch, akustisch und allgemein sensorisch wie ein echter \nMatrix vorgang erscheint. Lege eine Vergleichende Probe auf \nElektronik + Resonanz gegen Intuition + Datenverarbeitung \ndes Ziels ab. Selbst wenn das Ziel gute Gründe hat, das, \nwas es sieht, nicht für real zu halten, muss ihm eine Probe \nauf Matrixwahrnehmung mit einem Schwellenwert gleich \nder Anzahl deiner Nettoerfolge gelingen, um die Illusion \nzu durchschauen. Resonanzkanal\nSCHWUND\n DAUER\n2\n A\nLege eine Probe auf Elektronik + Resonanz ab. Jeder Erfolg \nsenkt den Rauschenwert für dich um 1. Resonanznebel\nSCHWUND\n DAUER\n6\n S\nLege eine einzelne Vergleichende Probe auf Elektronik + \nResonanz gegen Intuition + Datenverarbeitung gegen alle \nZiele ab, die dich entdecken können. Ein Ziel, das keine \nNettoerfolge erzielt, nimmt dich nicht mehr wahr und muss \neine Matrixwahrnehmungsprobe ablegen, um dich wieder \nzu lokalisieren, bevor es irgendwelche Handlungen gegen \ndich unternehmen kann. Resonanzspike\nSCHWUND\n DAUER\n4\n S\nLege eine Probe auf Cracken + Resonanz gegen Willenskraft \n+ Firewall des Ziels ab; jeder Nettoerfolg verursacht beim \nZiel 1 Kästchen Matrixschaden, dem nicht widerstanden \nwerden kann. Signalschleier\nSCHWUND\n DAUER\n3\n A\nLege eine Vergleichende Probe auf Elektronik + Resonanz \ngegen Willenskraft + Firewall oder Firewall × 2 des Hosts \nab.",
+    "topic": "matrix",
+    "keywords": [
+      "probe",
+      "gegen",
+      "schwund",
+      "dauer",
+      "lege",
+      "resonanz",
+      "elektronik",
+      "dich"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0147_c07",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 147, chunk 7.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 147,
+    "chunk_index": 7,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Der erschaffene Diener ist an den Ritualleiter gebunden, \nder höchstens so viele Diener gleichzeitig haben kann, wie \nsein Charismaattribut beträgt. Materielle Verbindung:\n Das Ritual benötigt eine Materi-\nelle Verbindung zum Ziel – etwas, das einmal Teil des Ziels \nwar. Materielle Verbindungen von Lebewesen sind nicht \newig nutzbar. Im Kasten \nMaterielle Verbindungen\n (S. 147) \nfindest du Genaueres dazu. Späher:\n Wenn das Ziel nicht im Blickfeld des Ritualleiters \nist, muss er jemanden auswählen, der das Ziel an seiner \nStelle sehen kann und als Späher dient. Der Späher muss ein \nMitglied der Gruppe sein, die das Ritual durchführt – oder \nein Geist, der einem Teilnehmer dient –, und muss das Ziel \nastral wahrnehmen können. Der Späher muss zu Beginn \ndes Rituals am Ritualplatz sein und danach körperlich oder \nastral zu einem Ort reisen, von dem aus er das Ziel astral \nwahrnehmen kann. Dies ist eine Ausnahme von der Regel \nin Schritt 3, dass Teilnehmer den Ritualplatz nicht verlas-\nsen dürfen. Das Ziel muss nicht astral aktiv sein (was für \nden Späher oft sicherer ist). Der Späher muss es nur astral \nwahrnehmen können, um die nötige mystische Verbindung \naufzubauen. Wenn ein Flächenzauber Teil des Rituals ist, \nmuss der Späher den Zielpunkt astral wahrnehmen können. Während der Dauer des Rituals entsteht dadurch eine Verbin-\ndung zwischen der Aura des Spähers und der Ritualgruppe. Wenn der Späher vom Ziel bemerkt wird, ist es möglich, diese \nmystische Verbindung bis zum physischen Aufenthaltsort der \nRitualgruppe zurückzuverfolgen. Der Späher wirkt bei einer \nTeamworkprobe der anderen Teilnehmer nicht mit, erleidet \naber denselben Entzug wie alle anderen.",
+    "topic": "magic.ritual",
+    "keywords": [
+      "spaeher",
+      "ziel",
+      "astral",
+      "sein",
+      "verbindung",
+      "wahrnehmen",
+      "materielle",
+      "teilnehmer"
+    ]
+  }
+}

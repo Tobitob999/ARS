@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0261_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 261, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 261,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Das Anbringen und \nEntfernen erfordert jeweils eine Haupthandlung. WiFi-Vorteil:\n Der Schalldämpfer unterstützt Systeme \nund einfache Software, die den Schützen per AR alarmie-\nren, wenn sich in der Nähe jemand als Reaktion auf das \nGeräusch der gedämpften Waffe schnell bewegt. Schnelllader\nDer Schnelllader enthält einen Ring von Kugeln, die auf \ndiese Weise schnell in die aufklappbare Trommel (tr) eines \nRevolvers geladen werden können. Jeder Schnelllader ist \nspeziell auf ein bestimmtes Waffenmodell angepasst. Damit \nlässt sich ein Revolver innerhalb einer Nebenhandlung \nvoll aufladen. Schnellziehholster\nDieses Holster kann alle Pistolen (außer MPs) sowie Taser \naufnehmen. Die Verwendung des Schnellziehholsters ge-\nwährt eine zusätzliche Nebenhandlung, wenn die Handlung \nSchockpolster\nEin schockabsorbierendes Polster, das sich auf dem festen \nSchaft eines Gewehrs, einer Schrotflinte oder einer schweren \nWaffe befindet. Es senkt den Angriffswertmalus bei halbau-\ntomatischem, Salven- und vollautomatischem Feuer um 1. Smart-Feuerpla ttform\nDieses robotische Dreibein ist mit einem mechanischen \nDrehzapfen ausgestattet, der einen Feuerwinkel von 180 \nGrad mit einer Neigung von 60 Grad erlaubt. Man kann \nan der Plattform eine mit Smartgunsystem ausgestattete \nWaffe befestigen, die dann von dem Pilotprogramm (Stufe \n3) der Plattform abgefeuert wird. Die Plattform ist mit \neiner Zielerfassungs-Autosoft (Stufe 3) ausgerüstet und \nkann mit zusätzlichen Autosofts – für gewöhnlich einer \nClearsight-Autosoft – upgegradet werden.",
+    "topic": "combat",
+    "keywords": [
+      "einer",
+      "sich",
+      "waffe",
+      "schnelllader",
+      "plattform",
+      "einen",
+      "eines",
+      "nebenhandlung"
+    ]
+  }
+}

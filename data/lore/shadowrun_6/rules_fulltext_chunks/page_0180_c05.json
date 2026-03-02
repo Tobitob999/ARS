@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0180_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 180, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 180,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Ma trixinitia tive\nDie Matrixinitiative wird wie folgt geregelt:\n• \n Initiative in der AR:\n Reaktion + Intuition + 1W6\n• \n Initiative in der VR (kaltes Sim):\n Intuition + \nDatenverarbeitung + 2W6\n• \n Initiative in der VR (heißes Sim):\n Intuition + \nDatenverarbeitung + 3W6\nMa trixhandlungen\nIm Titel jeder Handlung wird der Name der Handlung \nangegeben, ob sie legal oder illegal ist, welche Zugangsstu-\nfe dafür nötig ist (Gast, User oder Admin), welche Probe \nabgelegt wird und welche Handlungsart (Neben- oder \nHaupthandlung) dafür erforderlich ist. Wenn zwei unterschiedliche Würfelpools wie „Intuition + \nFirewall oder Schleicher + Firewall“ angegeben sind, ver-\nwenden Personas mit Geistigen Attributen den Würfelpool, \nin dem ein Geistiges Attribut vorkommt. Drohnen ver-\nwenden ihre Pilotstufe statt des Geistigen Attributs. Eine \nPersona, die aktiv einen Host oder ein Gerät verteidigt, \nkann auch den Würfelpool mit den Geräte- bzw. Host-\nattributen verwenden. Ausstöpseln\n(legal) Elektronik + Willenskraft gegen \nCharisma + Da tenverarbeitung oder Angriff \n+ Da tenverarbeitung (Haupthandlung)\nGast/User/Admin\nDurch diese Handlung wirst du von der Matrix getrennt, \nund dein Zugangsgerät wird neu gestartet. Wenn du in \nder VR warst und nicht zuerst in die AR gewechselt hast, \nerleidest du Auswurfschock. Die Probe ist nur dann eine \nVergleichende Probe, wenn du von jemandem mit einer \nLinksperre belegt wurdest; die Gegenseite bildet in diesem \nFall das Icon, das dafür verantwortlich ist. Wenn dich mehr \nals eine Persona mit einer Linksperre belegt hat, musst du \nalle Gegner besiegen: Du legst eine einzelne Probe ab, und \njeder der Gegner verteidigt sich einzeln dagegen.",
+    "topic": "combat.initiative",
+    "keywords": [
+      "intuition",
+      "probe",
+      "initiative",
+      "handlung",
+      "welche",
+      "dafuer",
+      "datenverarbeitung",
+      "jeder"
+    ]
+  }
+}

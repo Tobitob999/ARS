@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0180_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 180, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 180,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Ma trixschaden\nMatrixschaden wird für gewöhnlich dem Gerät zugefügt, \ndas man für den Zugang zur Matrix benutzt, bei Deckern \nalso das Cyberdeck. Geräte haben einen Matrix-Zustands-\nmonitor mit [8 + (Gerätestufe ÷ 2, aufgerundet)] Kästchen. Alle Proben, bei denen ein beschädigtes Gerät benutzt wird, \nwerden mit einem Würfelpoolmalus von -1 pro drei Käst-\nchen Matrixschaden durchgeführt, bis das Gerät repariert \nwurde. Wenn der Matrix-Zustandsmonitor voll ist, ist das \nGerät lahmgelegt (s. Lahmgelegte Geräte, S. 175). Matrix-\nschaden wird mit Firewall widerstanden. Manchmal hat der Schaden die Gestalt von Biofeed-\nback, das ein Gerät umgeht und direkt den User trifft. Das \nwird als Biofeedback-Schaden bezeichnet und wird bei \nden relevanten Handlungen und Wirkungen angegeben. Biofeedback-Schaden wird mit Willenskraft widerstanden. Ma trixinitia tive\nDie Matrixinitiative wird wie folgt geregelt:\n• Initiative in der AR: Reaktion + Intuition + 1W6\n• Initiative in der VR (kaltes Sim): Intuition + \nDatenverarbeitung + 2W6\n• Initiative in der VR (heißes Sim): Intuition + \nDatenverarbeitung + 3W6\nMa trixhandlungen\nIm Titel jeder Handlung wird der Name der Handlung \nangegeben, ob sie legal oder illegal ist, welche Zugangsstu-\nfe dafür nötig ist (Gast, User oder Admin), welche Probe \nabgelegt wird und welche Handlungsart (Neben- oder \nHaupthandlung) dafür erforderlich ist. Wenn zwei unterschiedliche Würfelpools wie „Intuition + \nFirewall oder Schleicher + Firewall“ angegeben sind, ver-\nwenden Personas mit Geistigen Attributen den Würfelpool, \nin dem ein Geistiges Attribut vorkommt. Drohnen ver-\nwenden ihre Pilotstufe statt des Geistigen Attributs.",
+    "topic": "combat.damage",
+    "keywords": [
+      "geraet",
+      "matrix",
+      "schaden",
+      "intuition",
+      "firewall",
+      "angegeben",
+      "initiative",
+      "welche"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0286_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 286, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 286,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Man kann \nohne Anstrengung mit erhöhter Lautstärke \n(bis zu 100 Dezibel) sprechen oder die Stimme \nverändern, um perfekte Vogelrufe, lieblichen \nGesang oder unheimliche stimmliche Eindrücke \nhervorzubringen. Der Modulator kann außerdem \neine aufgezeichnete Stimme wiedergeben (und mehr \noder weniger perfekt imitieren). Der Benutzer \nerhält 1 Edge für alle auf Schall basierenden \nÜberredenproben, das aber verfällt, wenn es \nnicht für die Probe eingesetzt wird. WiFi-Vorteil: Die Stufe des Stimmenmodu-\nlators wird als Würfelpoolbonus zu Über-\nredenproben hinzuaddiert, die auf Schall \nbasieren. T alentbuchse\nDiese Headware interpretiert Wissens- und \nLinguasofts für das Gehirn, sodass man sie \nnutzen kann, als wären es die eigenen Fä-\nhigkeiten. Sie kann auch Aktionssofts laufen \nlassen, die aber nur als Wissensfertigkeiten \nfunktionieren, solange man keine Talentlei-\ntungen (S. 289) hat. Die Summe der Stufen \naller gleichzeitig laufenden Fertigkeiten auf \nder Talentbuchse kann das Doppelte ihrer \nStufe nicht überschreiten, und die maxima-\nle Stufe einer darauf laufenden Fertigkeit \nist gleich der Stufe der Talentbuchse. Das \nStarten von Fertigkeiten aus dem Speicher \nund das Anhalten von Fertigkeiten erfordern \nkeine Handlung. Für Fertigkeiten, die man durch eine \nTalentbuchse hat, kann man kein Edge einsetzen. WiFi-Vorteil: Der Extraschub aus der Matrix erhöht die \nmaximale Summe der Stufen aller gleichzeitig laufenden \nFertigkeiten auf das Vierfache der Stufe der Talentbuchse, \nund bei entsprechenden Proben kann Edge eingesetzt werden. Ul traschallsensor\nDiese implantierte Version des Ultraschallsensors (S. 278) \nersetzt im aktiven Zustand die normale Sicht.",
+    "topic": "sanity",
+    "keywords": [
+      "stufe",
+      "fertigkeiten",
+      "talentbuchse",
+      "edge",
+      "laufenden",
+      "stimme",
+      "schall",
+      "eingesetzt"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0154_c08",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 154, chunk 8.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 154,
+    "chunk_index": 8,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "SHADOWRUN: SECHSTE EDITION\nVERZAUBERN // MAGIE // 153",
+    "topic": "magic.spells",
+    "keywords": [
+      "shadowrun",
+      "sechste",
+      "edition",
+      "verzaubern",
+      "magie"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0241_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 241, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 241,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Zur Öffnung können die unterschiedlichsten \nMechanismen dienen: eine Magnetkarte, biometrische \nDaten, ein Zahlencode, eine RFID-Karte und vieles mehr. Dementsprechend muss man beim Knacken eines solchen \nSchlosses unterschiedlich vorgehen, allerdings ist der ers-\nte Schritt immer gleich: Das Gehäuse, das den internen \nSchlossmechanismus schützt, muss entfernt werden, wozu \neine Ausgedehnte Probe auf Mechanik + Geschicklichkeit \n(Schlossstufe × 2, 1 Kampfrunde) erforderlich ist. Alternativ \nkann es auch einfach aufgebrochen werden; dabei beträgt \nseine Strukturstufe das Doppelte der Schlossstufe. Der nächste Schritt hängt, wie gesagt, vom Mechanismus \nab. Bei einer Tastatur muss der interne Schaltkreis mit \neiner Ausgedehnten Probe auf Mechanik + Geschicklich-\nkeit (Schlossstufe × 2, 1 Kampfrunde) überbrückt werden. Stattdessen kann auch ein Sequencer verwendet werden, \nwofür eine Vergleichende Probe zwischen der Stufe des \nSequencers und der Stufe des Magschlosses nötig ist. Die \ngleiche Prozedur kann auch bei Kartenlesern angewendet \nwerden, aber dort gibt es noch eine weitere Option – einen \nMagschlossknacker (S. 279) einzusetzen, mit einer Verglei-\nchenden Probe zwischen der Stufe des Magschlossknackers \nund der Stufe des Magschlosses. Biometrische Scanner gibt es in unterschiedlichen Aus-\nführungen, etwa Abdruckscanner, Stimmerkennungs-\nsysteme, Atemscanner, Zellscanner, DNA-Scanner oder \nGesichtserkennungsscanner. Der einfachste Weg, sie zu \nüberlisten, besteht darin, sich eine Probe oder Kopie \ndessen, was gescannt werden soll, zu beschaffen – eine \nGussform für Abdruckhandschuhe (S.",
+    "topic": "combat",
+    "keywords": [
+      "probe",
+      "stufe",
+      "schlossstufe",
+      "einer",
+      "biometrische",
+      "schritt",
+      "mechanik",
+      "kampfrunde"
+    ]
+  }
+}

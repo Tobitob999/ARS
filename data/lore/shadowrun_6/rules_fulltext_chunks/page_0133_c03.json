@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0133_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 133, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 133,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Einige \nZauberer haben das Glück, dass ihnen ganze Bibliotheken \nmit Schriftrollen und Grimoires vererbt wurden. Sie könn-\nten auch ein Erwachtes Familienmitglied haben, das sie \neinen neuen Zauber lehrt. Der Rest der Erwachten kann \nauf Online-Communitys wie SpellSource und Magicknet \nzugreifen, die Sammlungen von Formeln aus verschiedenen \nTraditionen bieten. Diese Netzwerke werden meist von \neinem oder mehreren Konzernen unterstützt, daher muss \nman eine SIN und eine Magielizenz (oder gute Fälschun-\ngen) haben, um sie nutzen können. Etablierte Zauberer \narbeiten manchmal auch im Graubereich und unterrichten \nunlizenzierte Magieanwender, um sich mit der Weitergabe \nvon Wissen an weniger Erfahrene ein paar Nuyen dazu-\nzuverdienen. Wenn du alleine lernen willst, kannst du eine Formel \nkaufen (Preise dafür findest du in der Tabelle Magische \nAusrüstung, S. 170). Wenn du einen lebenden, atmenden \nLehrer haben willst, musst du mit einer Gebühr von etwa \n[Einfluss-Fertigkeit des Lehrers × Kosten der Formel] Nuyen \nrechnen. Das ist teuer, aber meistens jeden einzelnen Nuyen \nwert. In jedem Fall brauchst du für das Lernen von Magie \nein Magisches Refugium deiner eigenen Tradition. Wenn du Zugang dazu und eine Formel oder einen Lehrer \nfür das hast, was du lernen willst, kannst du mit dem Lernen \nbeginnen. Lege dazu eine Probe auf Hexerei + Intuition (bei \nAspektzauberern, die nur Verzaubern beherrschen, Verzau-\nbern + Intuition) ab. Die Zeit zum Lernen beträgt 12 Tage \ngeteilt durch die Erfolge bei dieser Probe. Magische Refugien\nEinige Anhänger der Wicca-Tradition haben magische \nKreise, die Pueblo nutzen Kivas, und hermetische Magier \nhaben ihre Bibliotheken.",
+    "topic": "magic.spells",
+    "keywords": [
+      "lernen",
+      "einen",
+      "nuyen",
+      "dazu",
+      "willst",
+      "formel",
+      "magische",
+      "einige"
+    ]
+  }
+}

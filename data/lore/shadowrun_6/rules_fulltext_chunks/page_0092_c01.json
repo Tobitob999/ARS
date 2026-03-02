@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0092_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 92, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 92,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Strassen-\nschamanin\nNachdem sie in ihrer Jugend in einer dunklen Gasse den \nRuf von Katze vernommen hatte, begann die Straßenscha-\nmanin, ihre Krallen in die Schmutzwäsche anderer Leute \nzu schlagen und ihr Leben mit einem Netz aus Illusionen \nzu schützen. Die Schatten sind ihre natürliche Lebensum-\ngebung, aber viele Leute finden, dass Katze allzu direkt \nvorgeht. Dazu sagt die Straßenschamanin nur: „Papper-\nlapapp.“ Sie kann mit Leichtigkeit ein Zimmer mit einem \nhässlichen Haarball … äh … Feuerball ausräumen, aber \nsie zieht es vor, die Welt durch Illusion und Irreführung so \numzugestalten, wie sie sein sollte.",
+    "topic": "races",
+    "keywords": [
+      "katze",
+      "ihre",
+      "leute",
+      "einem",
+      "strassen",
+      "schamanin",
+      "nachdem",
+      "jugend"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0050_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 50, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 50,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "• Aus der Deckung feuern (Fernkampf-Angriff, Cha-\nrakter muss im Status Deckung sein): Du feuerst \naus dem Hinterhalt und behältst deine Deckung \nbei. Für Angriffe aus der Deckung muss keine Ne-\nbenhandlung ausgegeben werden. Kosten: 2 Edge. • Dramaqueen (Fertigkeit einsetzen [Überreden]):\nWährend du deine Überredungskünste einsetzt, \ngelangst du an einen Punkt, an dem ein bisschen \nzusätzliches Drama angebracht wäre – und du \nlieferst es! Vielleicht ist es eine dramatische Rede, \nvielleicht sind es ein paar Tränen oder herzergrei-\nfende Schauspielkunst, aber was es auch ist, du \nappellierst direkt an das Herz des Ziels und ziehst \nes auf deine Seite. Bei einer spontanen Darbietung \nkann dir das 200 Nuyen von den Umstehenden ein-\nbringen. Wird diese Edge-Handlung als Teil einer \ngrößer angelegten Überredungsaktion eingesetzt, \nkannst du den verlangten Preis um 20 Prozent \nerhöhen, und das Ziel wird einverstanden sein. Kosten: 2 Edge. • Entwinden (Blocken): Wenn du im Nahkampf einen \nAngriff erfolgreich blockst, kannst du mit dieser \nHandlung dem Gegner die Waffe aus der Hand win-\nden. Lege eine Probe auf Nahkampf + Geschicklich-\nkeit ab, mit der Stärke des Gegners als Schwellenwert. Gelingt die Probe, schlägst du ihm die Waffe aus der \nHand und sie fällt zu Boden. Erzielst du Nettoerfolge, \nnimmst du ihm die Waffe ab. Misslingt die Probe, \nbehält der Gegner die Waffe. Kosten: 2 Edge\n• Große Rede (Fertigkeit einsetzen [Einfluss]): Ein \nStrom von Worten verlässt deinen Mund und \nschwingt sich zu Höhen der Beredsamkeit und In-\nspiration auf, wie man es bei Sterblichen selten \nfindet.",
+    "topic": "combat.attack",
+    "keywords": [
+      "deckung",
+      "edge",
+      "waffe",
+      "deine",
+      "kosten",
+      "probe",
+      "angriff",
+      "sein"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0171_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 171, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 171,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Magische Ausrüstung\nFOKI\n BINDUNGSKOSTEN IN KARMA\n VERFÜGBARKEIT\n PREIS\nGeisterfokus\n Kraftstufe\n × \n2\n (Kraftstufe)L\n Kraftstufe\n × \n4.000 ¥\nKraftfokus\n Kraftstufe\n × \n6\n (Kraftstufe + 3)L\n Kraftstufe\n × \n18.000 ¥\nMetamagiefokus\n Kraftstufe\n × \n3\n (Kraftstufe)L\n Kraftstufe\n × \n9.000 ¥\nQi-Fokus\n Kraftstufe\n × \n2\n (Kraftstufe)L\n Kraftstufe\n × \n3.000 ¥\nVerzauberungsfokus\n Kraftstufe\n × \n3\n (Kraftstufe)L\n Kraftstufe\n × \n5.000 ¥\nWaffenfokus\n Kraftstufe\n × \n3\n (Kraftstufe + 3)L\n Kraftstufe\n × \n7.000 ¥\nZauberfokus\n Kraftstufe\n × \n2\n (Kraftstufe)L\n Kraftstufe\n × \n4.000 ¥\nFORMELN\n VERFÜGBARKEIT\n PREIS\nFokusformel\n wie Fokus\n (Fokuskosten\n × \n0,25) ¥\nRitualformel\n 3L\n 1.000 ¥\nZauberformeln\nHeilung\n 2L\n 500 ¥\nIllusion\n 3L\n 1.000 ¥\nKampf\n 3L\n 2.000 ¥\nManipulation\n 3L\n 1.500 ¥\nWahrnehmung\n 2L\n 500 ¥\nMAGISCHE VORRÄTE\n VERFÜGBARKEIT\n PREIS\nMaterialien für Magische Refugien\n (Kraftstufe)L\n Kraftstufe\n × \n500 ¥\nSHADOWRUN: SECHSTE EDITION\n170 // MAGIE // INITIA TION",
+    "topic": "combat",
+    "keywords": [
+      "kraftstufe",
+      "magische",
+      "verfuegbarkeit",
+      "preis",
+      "fokus",
+      "ausruestung",
+      "foki",
+      "bindungskosten"
+    ]
+  }
+}

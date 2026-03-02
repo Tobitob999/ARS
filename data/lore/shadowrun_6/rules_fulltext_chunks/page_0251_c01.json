@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0251_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 251, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 251,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Schlagring\nOb eine Rolle Münzen in der Faust (aber wer hat die schon \nherumliegen?), ein Messing-Schlagring oder Handschuhe \nvom Typ Ares Hardliner – diese Waffen stufen eine Faust \nvon „vielleicht tödlich“ zu „wahrscheinlich tödlich“ hoch, \nindem sie die Hand durch Metall oder Komposit verstärken. Schockhandschuhe\nIsolierte Handschuhe mit einem integrierten System, das in \naktiviertem Zustand bei Kontakt einen elektrischen Schock \nausteilt. Die Handschuhe verursachen beim Ziel zusätzlich \nzum Schaden für 2 Kampfrunden den Status Gebrutzelt (S. 54) und enthalten zehn Ladungen, bevor sie an das Stromnetz \nangeschlossen und neu aufgeladen werden müssen (mit einer \nGeschwindigkeit von einer Ladung pro zehn Sekunden). Die Entladung wird durch einen Muskelbefehl oder ein \nWiFi-Signal ausgelöst, was eine Nebenhandlung erfordert. WiFi-Vorteil: Du erhältst eine zusätzliche Nebenhand-\nlung, wenn du an der Reihe bist und eine Entladung auslöst. Die Schockhandschuhe laden sich durch Induktion wieder \nauf, was mit einer Geschwindigkeit von einer Ladung pro \nhalber Stunde WiFi-Funktionalität geschieht. Projektil- und \nWurfw affen\nAngriffe mit Waffen dieser Kategorie werden mit der Fer-\ntigkeit Athletik durchgeführt. Armbrust\nModerne Armbrüste sind mit automatischen Nachlade-\nvorrichtungen und internen Magazinen versehen, die bis \nzu vier Pfeile aufnehmen können. Es gibt sie in leichter, \nmittlerer und schwerer Ausführung. Leichte Modelle lassen \nsich mit einer Hand bedienen, während man für mittlere \nund schwere Modelle beide Hände braucht. Bogen\nAlles vom traditionellen Langbogen aus Glasfaser oder \nHolz bis zum modernen Kompositbogen.",
+    "topic": "combat",
+    "keywords": [
+      "einer",
+      "handschuhe",
+      "durch",
+      "wifi",
+      "schlagring",
+      "faust",
+      "waffen",
+      "toedlich"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0025_c09",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 25, chunk 9.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 25,
+    "chunk_index": 9,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Allerdings fahren die \nanderen Tochtergesellschaften des Konzerns, die den Marken-\nnamen Shiawase nicht direkt verwenden, meist unterdurch-\nSHADOWRUN: SECHSTE EDITION\n24 // Das Leben in der Sechsten Wel t // DIE MÄCHTIGEN",
+    "topic": "general",
+    "keywords": [
+      "allerdings",
+      "fahren",
+      "anderen",
+      "tochtergesellschaften",
+      "konzerns",
+      "marken",
+      "namen",
+      "shiawase"
+    ]
+  }
+}

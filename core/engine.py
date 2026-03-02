@@ -146,6 +146,7 @@ class SimulatorEngine:
         self.extras_data: list[dict[str, Any]] = []
         self.character_template: dict[str, Any] | None = None
         self.party_data: dict[str, Any] | None = None
+        self.rules_engine = None
         self._voice_enabled = False
         self._orchestrator = None
 
@@ -175,7 +176,28 @@ class SimulatorEngine:
 
         self.ruleset = self.loader.load()
         self.loader.validate(self.ruleset)
+        # Modulnamen in Metadata hinterlegen (fuer Lore-Verzeichnis-Lookup)
+        self.ruleset.setdefault("metadata", {})["module_name"] = self.module_name
         self.dice_config = ModuleLoader.get_dice_config(self.ruleset)
+
+        # Lookup-Tabellen laden (z.B. add_2e_tables.json fuer THAC0, Saves)
+        tables_file = self.ruleset.get("metadata", {}).get("tables_file")
+        if tables_file:
+            tables_path = RULESETS_DIR / tables_file
+            if tables_path.exists():
+                with tables_path.open(encoding="utf-8-sig") as fh:
+                    self.ruleset["tables_data"] = json.load(fh)
+                logger.info("Lookup-Tabellen geladen: %s", tables_file)
+            else:
+                logger.warning("Tabellen-Datei nicht gefunden: %s", tables_path)
+
+        # Rules Engine initialisieren (Regelwerk-Index + Validation)
+        from core.rules_engine import RulesEngine
+        self.rules_engine = RulesEngine(
+            ruleset=self.ruleset,
+            tables_data=self.ruleset.get("tables_data"),
+        )
+        self.rules_engine.index()
 
         # Optionale Module laden (Setting, Keeper, Extras)
         sc = self.session_config
@@ -200,6 +222,12 @@ class SimulatorEngine:
             extras=self.extras_data,
             character_template=self.character_template,
         )
+
+        # Rules Engine an KI-Backend koppeln (fuer dynamische Regel-Injektion)
+        if self.rules_engine:
+            if sc and hasattr(sc, "rules_budget"):
+                self.rules_engine.set_rules_budget(sc.rules_budget)
+            self.ai_backend.set_rules_engine(self.rules_engine)
 
         # Charakter-Persistenz initialisieren
         from core.character import CharacterManager

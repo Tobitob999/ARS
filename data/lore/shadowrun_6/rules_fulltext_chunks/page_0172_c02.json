@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0172_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 172, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 172,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Hacker verdienen ihr \nGeld damit, Alarmsysteme und automatisierte Verteidi-\ngungsanlagen zu deaktivieren, feindliche Kommunikation \nzu stören und alles zu vernichten, was mit der Matrix \nverbunden ist. Sie sind das Kommunikationszentrum des \nTeams und schützen es vor virtuellen Angriffen. Sie sind \nauch die Spezialisten, an die man sich wegen Informations-\nbeschaffung wendet – entweder wegen einer allgemeinen \nSuche oder wegen des Beschaffens bestimmter Daten, die \nverkauft werden können oder mit denen man Lösegeld \nerpressen kann. Die Geschichte \nder Ma trix\nDie Matrix, wie wir sie in der Sechsten Welt kennen, ist die \ndritte Auflage dessen, was einmal als Internet oder World \nWide Web bezeichnet wurde. Etwa um die Jahrtausend-\nwende begann es unglaublich rasant zu wachsen, und fast \ntäglich kamen neue Technologien für mehr Geschwindigkeit \nund Stabilität hinzu. Dann geschah im Jahr 2029 eine Katastrophe. Ein extrem \nmobiler und zerstörerischer Virus, wie ihn die Welt noch nie \ngesehen hatte, brachte große Teil der Netzwerk infrastruktur \nzum Einsturz und vernichtete sowohl Soft- als auch Hard-\nware. Die Vereinigten Staaten organisierten eine Elitetruppe \naus Hackern, Technikern und Netzwerkexperten, rüsteten \nDIE GESCHICHTE DER MA TRIX // MA TRIX // 171",
+    "topic": "combat.attack",
+    "keywords": [
+      "wegen",
+      "trix",
+      "matrix",
+      "geschichte",
+      "welt",
+      "hacker",
+      "verdienen",
+      "geld"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0040_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 40, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 40,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Geschicklichkeit\nDieses Attribut repräsentiert die Gewandtheit, \nDieses Attribut repräsentiert die Gewandtheit, \nSchnelligkeit, Flexibilität und Augen-Hand-Koor-\nSchnelligkeit, Flexibilität und Augen-Hand-Koor-\ndination. Es ist das entscheidende Attribut für den \ndination. Es ist das entscheidende Attribut für den \nKampf, aber auch für viele athletische Aktivitäten. Kampf, aber auch für viele athletische Aktivitäten. Reaktion\nWährend das Geschicklichkeits-Attribut (unter \nWährend das Geschicklichkeits-Attribut (unter \nanderem) die Schnelligkeit eines Charakters be-\nanderem) die Schnelligkeit eines Charakters be-\nschreibt, steht das Attribut Reaktion für Flinkheit, \nschreibt, steht das Attribut Reaktion für Flinkheit, \nfür die Fähigkeit, rasch zu reagieren. Reaktion ist \nfür die Fähigkeit, rasch zu reagieren. Reaktion ist \nein wichtiges Attribut für die Verteidigung und \nein wichtiges Attribut für die Verteidigung und \nwird auch für das Lenken und Kontrollieren von \nwird auch für das Lenken und Kontrollieren von \nFahrzeugen und Drohnen benötigt. St ärke\nStärke ist rohe Muskelkraft, die Fähigkeit, schwere \nStärke ist rohe Muskelkraft, die Fähigkeit, schwere \nDinge zu heben und zu tragen oder kräftig zuzu-\nDinge zu heben und zu tragen oder kräftig zuzu-\nschlagen. Das Attribut wird für einige Athletikpro-\nschlagen. Das Attribut wird für einige Athletikpro-\nben benötigt und ist wichtig im waffenlosen Kampf. ben benötigt und ist wichtig im waffenlosen Kampf.",
+    "topic": "combat",
+    "keywords": [
+      "attribut",
+      "reaktion",
+      "schnelligkeit",
+      "kampf",
+      "faehigkeit",
+      "benoetigt",
+      "dieses",
+      "repraesentiert"
+    ]
+  }
+}

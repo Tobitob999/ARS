@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0202_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 202, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 202,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Initia tive von Drohnen\nUnabhängig agierende Drohnen haben eine Initiative von \nPilot × 2 + 3W6. Drohnen, die von einem hineingesprunge-\nnen Rigger gesteuert werden, handeln mit der VR-Initiative \ndes Riggers. Drohnen im Kampf\nWenn eine drohnenmontierte Waffe durch den Autopilo-\nten der Drohne abgefeuert wird, verwendet die Drohne \nden Angriffswert der montierten Waffe sowie ihre [Waffe] \nZielerfassungs-Autosoft + Sensor für die Angriffsprobe. Wenn ein Rigger in die Drohne hineingesprungen ist, über-\nnimmt er anstelle der Drohne das Feuern, wobei er die \nentsprechende Probe mit Mechanik (ggf. Spezialisierung/\nExpertise Geschütze) + Logik ablegt. Autosofts\nAutosofts sind Programme, \ndie vom Pilotprogramm \neiner Drohne genutzt wer-\nden. Sie fungieren als Fer-\ntigkeiten, die die Leistung \nder Drohne verbessern. Je-\nde Autosoft wird in Kom-\nbination mit einem Attribut \neingesetzt, das in der unten-\nstehenden Liste beschrieben \nist. Denk aber daran, dass \nRigger ihre eigenen Attri-\nbute und Fertigkeiten nutzen, wenn sie in eine Drohne hi-\nneingesprungen sind. Eine Drohne kann so viele Autosofts \nund andere Matrixprogramme verwenden, wie ihrer halben \nPilotstufe (aufgerundet) entspricht. Sie kann allerdings bei \nAutosofts, die sie nicht besitzt, auf das entsprechende Attri-\nbut – 1 ausweichen, als würde sie die entsprechende Autosoft \nungeübt verwenden (siehe S. 95). Wenn die Drohne als Slave \nmit einer Riggerkonsole verbunden ist, kann sie zusätzlich \ndie Programme verwenden, die auf der Riggerkonsole laufen. Auf diese Weise kann eine Drohne mehr Autosofts einsetzen, \nals ihr normalerweise möglich wäre – oder bessere Varianten \nder Autosofts, die sie selbst besitzt.",
+    "topic": "combat.initiative",
+    "keywords": [
+      "drohne",
+      "autosofts",
+      "rigger",
+      "waffe",
+      "entsprechende",
+      "verwenden",
+      "initiative",
+      "einem"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0198_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 198, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 198,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Rigger investieren deshalb einiges an Zeit \nund Mühe, um ihre Ausrüstung zu schützen, was auch \ndie großzügige Verwendung der Handlung Volle Matrix-\nabwehr (S. 184) mit einschließt. In Notfällen ist auch \ndie Handlung Gerät neu starten (S. 181) beliebt, da ein \neindringender Hacker damit aus dem System geworfen \nwerden kann. Man sollte das nur nicht bei Drohnen \nmachen, die sich gerade hoch in der Luft befinden oder \nsich mit hoher Geschwindigkeit bewegen – mit dem, was \ndann von der Drohne übrig bleibt, hat man vermutlich \nnicht mehr viel Spaß. Riggen und Auswurfschocks\nLeider sind auch Hacker mit den Anwendungsmöglich-\nkeiten der Handlung Gerät neu starten vertraut und ver-\nschaffen sich manchmal gerade lange genug Zugang zu \neinem PAN, um es zum Neustart zu zwingen und den \nhineingesprungenen Rigger dadurch auszuwerfen. Und das \nist nicht die einzige Möglichkeit, einen Rigger unfreiwillig \naus seinem Fahrzeug zu katapultieren. Andere Varianten \nbestehen darin, das zur Fernsteuerung genutzte Gerät \nlahmzulegen oder schlicht das Fahrzeug zu zerstören, in \ndas der Rigger hineingesprungen ist. Und bei allen Ver-\ntretern der alten Schule, die sich per Kabel direkt in ihre \nFahrzeuge und Drohnen einstöpseln, muss nur jemand \nden Stecker ziehen, und schon trifft den Rigger ein Aus-\nwurfschock mit einem Biofeedbackschaden in Höhe von \n3B (kaltes Sim) oder 3K (heißes Sim), dem mit Willens-\nkraft widerstanden wird und der für [10 – Willenskraft] \nMinuten den Status Benommen mit sich bringt (s. Seite \n177).",
+    "topic": "movement",
+    "keywords": [
+      "rigger",
+      "sich",
+      "handlung",
+      "geraet",
+      "ihre",
+      "starten",
+      "hacker",
+      "drohnen"
+    ]
+  }
+}

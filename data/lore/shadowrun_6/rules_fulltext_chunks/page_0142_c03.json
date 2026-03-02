@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0142_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 142, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 142,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Der Zaubernde verwendet für seine Befehle dieselben \nHandlungen, die er dem Ziel befiehlt, also ist es für ihn eine \nNebenhandlung, dem Ziel eine Bewegung zu befehlen, und \nein Angriffsbefehl ist eine Haupthandlung. Das heißt auch, \ndass der Zaubernde keine eigenen Handlungen durchführen \nkann, während er das Ziel steuert. Dieser Zauber kann durch die Anpassung Fläche Ver-\ngrößern zu einem Zauber mit Flächenwirkung gemacht \nwerden (beginnend mit 2 Metern Radius für +1 Entzug). Wenn der Zauber gewirkt ist, bleibt seine Wirkung bei Per-\nsonen bestehen, die dem Zauber nicht widerstehen konnten, \nselbst wenn sie sich nach außerhalb des ursprünglichen \nBereichs bewegen. Holz Beleben\nREICHWEITE\n ART\n DAUER\n ENTZUG\nBF\n P\n ZB\n 4\nEin Stück Material der betroffenen Art wird zum Leben \nerweckt und bewegt sich auf Befehl des Zaubernden. Lege \neine Vergleichende Probe auf Hexerei + Magie gegen den \nObjektwiderstand des zu belebenden Materials/Objekts ab. Verwende die Tabelle \nBeispiele für Volumina\n, um zu bestim-\nmen, wie viel Material belebt wird. Das Material kann sich \nentsprechend seiner Form bewegen, sollte aber im Allge-\nmeinen nicht schneller als 5 Meter pro Kampfrunde sein, \nwenn es sich nicht um ein Fahrzeug mit Rädern oder etwas \nanderes mit einer innewohnenden Geschwindigkeit handelt. Das Objekt kann sich im Allgemeinen nicht koordiniert \nbewegen, daher kann man Angriffen von belebten Objekten \nleicht ausweichen, weil sie langsam sind. Das Objekt könnte \naber einem bewegungslosen oder unaufmerksamen Ziel einen \nSchlag versetzen, der bei Metall 4K, bei Stein 3K, bei Holz \n2B und bei Kunststoff 1B Schaden verursacht. Beispiel: Holz Beleben\nKumiho ist in Schwierigkeiten.",
+    "topic": "combat.attack",
+    "keywords": [
+      "sich",
+      "ziel",
+      "zauber",
+      "bewegen",
+      "holz",
+      "material",
+      "seine",
+      "handlungen"
+    ]
+  }
+}

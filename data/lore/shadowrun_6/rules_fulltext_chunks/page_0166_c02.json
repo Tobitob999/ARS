@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0166_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 166, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 166,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Berg ist stur und unnachgiebig und \nlässt sich, wenn er sich einmal eine Meinung gebildet hat, \nnur schwer vom Gegenteil überzeugen. Vorteile\nAllgemein: Edge-Boosts bei Natur-Proben kosten 1 Edge \nweniger als normal\nZauberer: Edge-Boosts bei Antimagieproben und Veranker-\nten Ritualen kosten 1 Edge weniger als normal\nAdept: 2 Stufen Mystischer Panzer gratis\nNachteile\nWenn Berg einen Plan gefasst hat, bleibt er dabei. Dir muss \neine Probe auf Willenskraft + Charisma (3) gelingen, um ein \ngeplantes Vorgehen aufzugeben und einem neuen Plan zu \nfolgen. Wenn die Probe misslingt, musst du dem ursprüng-\nlichen Plan folgen – wenn nötig auch alleine. Außerdem \nmuss dir eine Probe auf Willenskraft + Charisma (3) gelin-\ngen, wenn du ganz ohne Plan vorgehen willst. Ähnliche Archetypen: Ausdauer, Sturheit\nDonnervogel\nDonnervogel ist die majestätische Verkörperung des \nSturms. Seine Schwingen sind dunkle Wolken, sein \nSchnabel und seine Krallen sind Blitze, und sein Schrei \nist Donnergrollen. Donnervogel ist eine Urgewalt – oft \nwild, aber nötig für das Überleben des Landes und das \nAufrechterhalten des Lebenskreislaufs. Man muss diese \nGewalt respektieren und sich ihr vorsichtig nähern, um \nnicht ihren Zorn zu wecken. Vorteile\nAllgemein: Edge-Boosts bei Einfluss-Proben kosten 1 Edge \nweniger als normal\nZauberer: Edge-Boosts beim Herbeirufen von Luftgeistern \nkosten 1 Edge weniger als normal\nAdept: 1 Stufe Kritischer Schlag gratis\nNachteile\nDir muss eine Probe auf Willenskraft + Charisma (3) ge-\nlingen, um auf eine Beleidigung nicht scharf zu reagieren. Ähnliche Archetypen: Krieg, Zorn\nDrachentöter\nDieser heldenhafteste aller Schutzgeister ist zugleich der \nlebenslustigste.",
+    "topic": "magic.spells",
+    "keywords": [
+      "edge",
+      "boosts",
+      "kosten",
+      "weniger",
+      "normal",
+      "plan",
+      "probe",
+      "sich"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0192_c07",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 192, chunk 7.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 192,
+    "chunk_index": 7,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Sie braucht Unterstüt-\nzung, und das schnell, und sie weiß, dass es nichts Bes-\nseres als ein Stör-Sprite gibt, wenn man einen Eispickel \nbraucht, um die Titanic zu retten. Sie entscheidet sich für \nein Stör-Sprite der Stufe 3, würfelt mit Tasken + Reso-\nnanz (12 Würfeln) und erzielt 4 Erfolge. Das Stör-Sprite \nwürfelt mit seiner Spritestufe \n ×\n 2 (6 Würfeln) und er-\nzielt 3 Erfolge, denen Respec als Schwund widerstehen \nmuss. Sie widersteht mit Willenskraft + Logik, erzielt 2 \nErfolge und erleidet 1 Kästchen Betäubungsschaden. Jetzt hat sie für sechs Stunden einen Freund, der sie im \nKampf unterstützt, was hoffentlich genügt, um mit allem \nfertigzuwerden, was ihr dieser Host auf den Hals hetzt. Registrieren eines Sprites\nWenn du ein Sprite vor den Versuchen der Matrix schüt-\nzen willst, es zu zerquetschen, und wenn du mehr als ein \nSprite haben willst, musst du Sprites registrieren. Das ist \nein aufwendiger, zeitraubender Prozess, der eine Anzahl \nvon Stunden gleich der Spritestufe dauert. Weder der \nTechnomancer noch das Sprite können während dieser \nZeit irgendwelche anderen Handlungen durchführen. Die gute Nachricht ist, dass der Overwatch-Wert des \nSprites währenddessen nicht steigt (und auch der des \nTechnomancers nicht). Am Ende dieser Zeitspanne legst \ndu eine Vergleichende Probe auf Tasken + Resonanz gegen \nSpritestufe × 2 ab. Das Registrieren verursacht Schwund \n(siehe S. 189) in Höhe von Erfolge × 2 (nicht Nettoerfolge \n× 2) des Sprites, mindestens aber 2. Wenn du mindestens einen Nettoerfolg bei dieser Probe \nerzielst, ist das Sprite erfolgreich registriert und wird als \nlegitimer Teil der Matrix angesehen.",
+    "topic": "advancement",
+    "keywords": [
+      "sprite",
+      "erfolge",
+      "dieser",
+      "stoer",
+      "einen",
+      "registrieren",
+      "braucht",
+      "wuerfelt"
+    ]
+  }
+}

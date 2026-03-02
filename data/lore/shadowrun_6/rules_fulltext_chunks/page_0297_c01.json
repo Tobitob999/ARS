@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0297_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 297, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 297,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Magische \nAusrüstung\nFoki\nNähere Informationen über Foki und ihre Anwendung \nfindest du auf Seite 156. Geisterfokus\nGeisterfoki unterstützen einen Zauberer beim Umgang mit \nGeistern. Für jede Art von Geistern (Feuer, Luft, Mensch \nusw.) gibt es verschiedene Foki. Kraftfokus\nDieser Fokus wirkt wie ein Riss zwischen der astralen und \nder physischen Welt und erlaubt dem Benutzer, größere \nMengen an Mana zu kanalisieren und sein magisches Po-\ntenzial zu steigern. Met amagiefokus\nDient zur Steigerung diverser metamagischer Fähigkeiten. Für jedes metamagische Talent ist ein separater Fokus er-\nforderlich. Qi-Fokus\nDiese Foki dienen – oft in Form von Tätowierungen – dazu, \nAdeptenfähigkeiten zu steigern. Verzauberungsfokus\nDient zur Unterstützung von Alchemie und Fokusherstellung. W affenfokus\nHierbei handelt es sich um verzauberte Waffen, die so im \nEinklang mit ihrem Besitzer sind, dass sie im Kampf wie eine \nVerlängerung seines Körpers wirken. Waffenfoki steigern \ndie Kampffähigkeiten und bieten die Möglichkeit, einige \nder Schutzmaßnahmen des Geisterreiches zu umgehen. Ein Waffenfokus wird wie eine magische Waffe behandelt. Zauberfokus\nEs gibt vier Unterkategorien von Zauberfoki: Antimagiefo-\nki, Ritualfoki und Zauberspeicher und Zauberspruchfoki. Genauer beschrieben werden sie auf Seite 157. Für jede \nZauberkategorie (Heilung, Illusion, Kampf usw.) müssen \nFoki separat gekauft werden, und jeder Fokus erfüllt nur \ndie Funktionen seiner Unterkategorie. Es gibt keine kate-\ngorienüberschreitenden Zauberfoki. Formeln\nFormeln werden dazu verwendet, Zauber und Rituale zu \nlernen sowie Foki herzustellen.",
+    "topic": "magic.spells",
+    "keywords": [
+      "foki",
+      "fokus",
+      "gibt",
+      "steigern",
+      "magische",
+      "geistern",
+      "jede",
+      "dient"
+    ]
+  }
+}

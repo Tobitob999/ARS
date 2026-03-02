@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0037_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 37, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 37,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Wenn man mehr Erfolge erzielt, als man für \ndas Gelingen der Probe benötigt, werden alle überschüssigen \nErfolge als Nettoerfolge bezeichnet. Bei einigen Gelegenheiten (insbesondere bei der Initiative; \nsiehe S. 40) rechnet man tatsächlich die Augenzahlen aller \ngeworfenen Würfel zusammen, statt die Anzahl der Erfolge \nzu zählen. In solchen Fällen gilt: je höher, desto besser. Woher weiss ich, wie viele \nWürfel ich werfen muss? Die Zahl der Würfel, die man wirft, wird Würfelpool ge-\nnannt. Um ihn zu bestimmen, betrachtet man in den meisten \nFällen eine Fertigkeit (S. 40) und ein damit verknüpftes \nAttribut (S. 39). Beide haben einen bestimmten Zahlenwert. Diese beiden Zahlen werden addiert und ergeben so die \nAnzahl der zu werfenden Würfel. Bei manchen Würfen \nwerden lediglich zwei Attribute addiert, oder es wird das \ngleiche Attribut zweimal genommen. Nun gibt es natürlich Änderungen und Modifikatoren, \ndie durch eine Vielzahl von Umständen hervorgerufen wer-\nden können. Deshalb haben wir ja dieses dicke Buch! Aber \nwenn ihr euch den grundlegenden Weg, einen Würfelpool \nzu bestimmen, merkt, wisst ihr in den meisten Situationen, \nwas ihr tun müsst. Wie bestimme ich anhand \ndes Würfelpools, ob ich \nerfolgreich bin oder nicht? Gute Frage! Um sie zu beantworten, müssen wir uns über \nProben unterhalten. Proben\nWährend eines Shadowrun-Abenteuers möchte man gele-\ngentlich Dinge tun, bei denen einem andere Leute oder die \nNaturgesetze (oder beides) Steine in den Weg legen. Um \nfestzustellen, ob man erfolgreich ist, muss man eine Probe \nablegen, indem man einen Würfelpool bildet, die Würfel \nwürfelt und ermittelt, ob die Probe gelungen ist oder nicht.",
+    "topic": "combat.initiative",
+    "keywords": [
+      "wuerfel",
+      "erfolge",
+      "probe",
+      "einen",
+      "anzahl",
+      "faellen",
+      "bestimmen",
+      "meisten"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0331_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 331, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 331,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "185)\nNEBENHANDLUNGEN\n HAUPTHANDLUNGEN\nHost betreten/verlassen (I)\n Ausstöpseln (J)\nIcon verändern (I)\n Befehl vortäuschen (I)\nInterfacemodus wechseln (J)\n Brute Force (I)\nMatrixattribute austauschen (J)\n Datei cracken (I)\nMatrixwahrnehmung* (J)\n Datei editieren (I)\nNachricht übermitteln (J)\n Datei verschlüsseln (J)\nDatenbombe entschärfen (I)\nDatenbombe legen (J)\nDatenspike (I)\nGerät formatieren (I)\nGerät neu starten (I)\nGerät steuern (I)\nHineinspringen (I)\nHintertür benutzen (I)\nIcon aufspüren (I)\nMatrixsignatur löschen (I)\nMatrixsuche (I)\nMatrixwahrnehmung (J)\nOverwatch-Wert bestimmen (J)\nProgramm abstürzen lassen (I)\nPrüfsummensuche (I)\nSignal stören (I)\nSondieren (I)\nTeergrube (I)\nÜbertragung abfangen (J)\nVerstecken (J)\nVolle Matrixabwehr (J)\n* In VR. Ma trixa ttribute und \nGeistige A ttribute (S. 189)\nMATRIXATTRIBUT\n GEISTIGES ATTRIBUT\nGerätestufe\n Resonanz\nAngriff\n Charisma\nSchleicher\n Intuition\nDatenverarbeitung\n Logik\nFirewall\n Willenskraft\nRiggerk ontrolle (S. 197)\nNORMALES ATTRIBUT\n HINEINGESPRUNGENES \nATTRIBUT\nKonstitution\n Willenskraft\nGeschicklichkeit\n Logik\nReaktion\n Intuition\nStärke\n Charisma\nWürfelpools von \nautonomen Drohnen (S. 201)\nWERT\n BERECHNUNG\nAngriffswert\n Montierte Waffe bzw. Manövrieren + Sensor\nVerteidigungswert\n Manövrieren + Panzerung\nRigger-Initiative\n Datenverarbeitung + Intuition \n+ 2W6/3W6*\nDrohnen-Initiative\n Pilot \n×\n 2 + 3W6\nAngriffs-Würfelpool\n [Waffe] Zielerfassung + \nSensor\nVerteidigungs-Würfelpool\n Ausweichen + Pilot\nHeimlichkeit\n Stealth + Pilot\nWahrnehmung\n Clearsight + Sensor\n* Für das Erteilen von Befehlen (kaltes/heißes Sim) bzw. für in Drohnen hineingesprungene Rigger. SHADOWRUN: SECHSTE EDITION\n330 // T ABELLEN",
+    "topic": "matrix",
+    "keywords": [
+      "datei",
+      "geraet",
+      "attribut",
+      "intuition",
+      "drohnen",
+      "sensor",
+      "pilot",
+      "icon"
+    ]
+  }
+}

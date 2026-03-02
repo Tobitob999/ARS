@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_03_world_of_paranoia_p0047_c04",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_03_world_of_paranoia",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The World of Paranoia page 47, chunk 4.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_03_world_of_paranoia",
+    "source_title": "The World of Paranoia",
+    "page": 47,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "When we gain power, you will be richly rewarded — for the good of the people, of course, \nFriends: Frankenstein Destroyers, Romantics, \nEnemies: Church of Christ Computer-Program- mer, Corpore Metal \norganization has two contacts in the next degiee above and below. All requests, assignments, and communications are passed from member to member down the chain. Qc- casionally meetings will be organized at safe locations; policy may be discussed, of infor- ‘mation and propaganda may be disseminated ‘At these meetings all members wear masks and disguise their voices Members can be recognized by passwords and catechisms which are changed regularly to discourage infiltration, ‘is generally believed at all but the highest levels of the society that the Human Speaker the ttle ofthe citizen at the 32nd degree) is the sole head of the society In fact, there are several independent Humanist organizations, each with its own Human Speaker. This decreases the chance that a catastrophic breach of security could wipe out the entire organization, Unfortunately, some Humanist ‘organizations have been less successful than fathers. in avoiding infiltration by. Internal Security \n‘Advancement: Members. may advance by reprogramming robots or computers 10 espond to Humanist commands, by disabl- ing robots, and by altering The Computer's programming itself, \nSpecial Rules: A number of special sub- programs have been planted in The Computer to serve humans and the Humanists.",
+    "topic": "general",
+    "keywords": [
+      "computer",
+      "members",
+      "humanist",
+      "organization",
+      "meetings",
+      "infiltration",
+      "society",
+      "speaker"
+    ]
+  }
+}

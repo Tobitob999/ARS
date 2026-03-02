@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0156_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 156, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 156,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "in unregelmäßigen Abständen unterschiedlich lange, also \nkannst du auch noch andere Dinge tun. Du kannst aber \ndas Refugium nicht verlassen, sonst scheitert dein Versuch \nder Fokusherstellung. Am Ende dieser Zeit kommt der gefährliche Teil des \nVorgangs: das Aktivieren der Macht des Fokus. Lege dazu \neine Vergleichende Probe auf Verzaubern + Magie gegen \ndie Kraftstufe der Fokusformel + den Objektwiderstand \ndes Telesmas ab. Das gilt als Höhepunkt deiner tagelangen \nArbeit, daher darfst du bei dieser Probe kein Edge ausgeben. Die Nettoerfolge dieser Probe ergeben, wenn sie gelingt, die \ntatsächliche Kraftstufe des Fokus. Bei einem Patzer darfst \ndu im nächsten Schritt dem Entzug nicht widerstehen. Bei \neinem Kritischen Patzer gerät die Magie außer Kontrolle \nund entreißt dir dauerhaft 1 Punkt Essenz. Fokusherstellung \nist nichts für Schwächlinge und Anfänger. Schritt 6:\nEntzugswiderst and\nDer Entzugswert entspricht der Kraftstufe der Fokusformel \nplus 2 pro Erfolg (nicht Nettoerfolg) der Gegenseite bei \nder Vergleichenden Probe in Schritt 5. Wenn du nach dem \nEntzugswiderstand noch bei Bewusstsein bist, kannst du \nKarma in Höhe der tatsächlichen Kraftstufe des Fokus \nausgeben, um den Fokus zu vollenden. Wenn du bewusstlos \nwirst oder mit dem Ergebnis nicht zufrieden bist, behalte \ndas Karma und fang von vorne an (wahrscheinlich nach \neiner Genesungspause). Askennen von Foki\nDie Fertigkeit Verzaubern erlaubt dir, einen Fokus zu \naskennen (sofern du der astralen Wahrnehmung mächtig \nbist) und etwas über dessen Hersteller herauszufinden. Lege eine Vergleichende Probe auf Verzaubern + Magie \ngegen die doppelte Kraftstufe des Fokus ab.",
+    "topic": "magic.spells",
+    "keywords": [
+      "fokus",
+      "probe",
+      "kraftstufe",
+      "kannst",
+      "dieser",
+      "verzaubern",
+      "magie",
+      "schritt"
+    ]
+  }
+}

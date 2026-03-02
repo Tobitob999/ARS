@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0284_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 284, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 284,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "WiFi-Vorteil:\n Der Vitalmonitor teilt Informationen mit \nanderen WiFi-Geräten, die der Nutzer festlegt, und kann \nDocWagon oder einen anderen Notfalldienst alarmieren, \nBodytech\nKa tegorien\nCyberware- und Biowareimplantate sind in fünf unter-\nschiedlichen Kategorien erhältlich: Standard, Alphaware, \nBetaware, Deltaware und Gebraucht. Die in diesem Ab-\nschnitt aufgeführten Preise für Cyberware und Bioware \ngelten für die Kategorie Standard. Beim Kauf von Implan-\ntaten anderer Kategorien kommen die Anpassungen für \nEssenzkosten, Preis und Verfügbarkeit zum Tragen, die in \nder Tabelle \nImplantatkategorien\n angegeben sind. Jegliches \nZubehör und alle Erweiterungen müssen dieselbe Kategorie \nhaben wie das Implantat, zu dem sie hinzugefügt werden. Biotech\nAUSRÜSTUNG\n VERFÜG-\nBARKEIT\n PREIS\nDocWagon-Vertrag\n Standard\n 1\n 500 ¥/Monat oder 5.000 ¥/Jahr\n Gold\n 1\n 2.500 ¥/Monat oder 25.000 ¥/Jahr\n Platin\n 1\n 5.000 ¥/Monat oder 50.000 ¥/Jahr\n Superplatin\n 1\n 10.000 ¥/Monat oder 100.000 ¥/Jahr\nEinweg-Spritze\n 2\n 10 ¥\nErste-Hilfe-Set\n 1\n 50 ¥\nMedkit (Stufe 1–6)\n 3\n Stufe \n×\n 250 ¥\nMedkit-Nachfüllpack\n 1\n 100 ¥\nSlap-Patches\n Antidot-Patch\n 3\n 150 ¥\n Chem-Patch\n 3\n 20 ¥ + Drogen-/Toxinkosten\n Stim-Patch (Stufe 1–6)\n 3\n Stufe \n×\n 25 ¥\n Tranq-Patch (Stufe 1–12)\n 3\n (Stufe \n×\n Stufe) \n×\n 10 ¥\n Trauma-Patch\n 3\n 500 ¥\nVitalmonitor\n 2\n 300 ¥\nImplant a tka tegorien\nKATEGORIE\n ESSENZ\n PREIS\n VERFÜGBARKEIT\nGebraucht\n ×\n 1,1\n ×\n 0,5\n -1\nAlphaware\n ×\n 0,8\n ×\n 1,2\n +1\nBetaware\n ×\n 0,7\n ×\n 1,5\n +2\nDeltaware\n ×\n 0,5\n ×\n 2,5\n +3\nAnmerkung:\n Gebraucht ist eine eigene Kategorie und mod-\niﬁziert keine der anderen Kategorien; es gibt z. B. keine ge-\nbrauchte Alphaware.",
+    "topic": "economy",
+    "keywords": [
+      "stufe",
+      "patch",
+      "kategorie",
+      "monat",
+      "jahr",
+      "anderen",
+      "standard",
+      "alphaware"
+    ]
+  }
+}

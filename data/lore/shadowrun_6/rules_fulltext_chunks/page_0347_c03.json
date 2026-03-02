@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0347_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 347, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 347,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "41\nTelepathie (Zauber)\n .......................... 145\nTeleskopschlagstock (Knüppel)\n ........ 249\nTeleskopstab (Knüppel)\n .................... 249\nTelesma\n ............................................ 151\nTemporäre Magische Refugien\n ......... 156\nTerraFirst!-Schamane (Scherge)\n ...... 204\nTeufelsratte (Critter)\n ......................... 218\nThermit-Brennstab \n (Industriechemikalie)\n .................... 280\nThrombozytenfabrik (Bioware)\n ......... 294\nTierbeherrschung (Critterkraft)\n ........ 226\nTír na nÓg\n .................................... 33, 56\nTír Tairngire\n .................................. 32, 56\nTír-Ghost (Scherge)\n ......................... 210\nTodeskralle (Adeptenkraft)\n ............... 159\nToolbox (Riggerprogramm)\n ............. 198\nToolbox (Standardprogramm)\n .......... 184\nTop-Runner\n ................................ 65, 211\nTop-Spezialeinheiten (Schergen)\n ...... 210\nTotschläger (Knüppel)\n ...................... 249\nToxine\n ...................................... 124, 295\nToxinextraktor (Bioware)\n .................. 294\nToxinresistenz (Vorteil)\n ...................... 76\nToyota Gopher (Lkw/Van)\n................. 299\nTraditionsattribut\n .............................. 131\nTranq-Patch (Biotech)\n ...................... 283\nTransponderschlüssel\n ...................... 240\nTransport\n............................................ 22\nTransys Neuronet\n ............................... 31\nTrauma-Patch (Biotech)\n ................... 283\nTrennen\n ............................................ 155\nTriaden\n ............................................... 26\nTrideo-Trugbild (Zauber)\n .................. 137\nTrideo (Slang)\n ......................................",
+    "topic": "magic.spells",
+    "keywords": [
+      "knueppel",
+      "zauber",
+      "scherge",
+      "bioware",
+      "toolbox",
+      "patch",
+      "biotech",
+      "trideo"
+    ]
+  }
+}

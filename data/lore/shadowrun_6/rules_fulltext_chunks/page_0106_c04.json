@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0106_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 106, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 106,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Die Zeit schien sich zu verlangsamen, und \ner nahm alle Details wahr, als würde er eine Simsinn-Auf-\nzeichnung verfolgen: die Polizeidrohne, die direkt vor dem \nFenster schwebte, das Glas, das unter dem Feuer der Drohne \nund der Sicherheitsleute zersplitterte, Sato, wie er auf die \nDrohne schoss, die Funken, die sprühten, während die Droh-\nne die Angriffe einsteckte. Eine Gestalt, die sich rasant von \nder anderen Straßenseite aus näherte, eine Frau mit einem \nIrokesenschnitt, die sich an der Zipline, die an der Drohne \nbefestigt war, in den Raum schwang und dabei ebenfalls \nmehrere Schüsse abgab. Die Geschosse erwischten die Si-\ncherheitsleute, eine weitere Drohne schwebte von oberhalb \ndes Nachbargebäudes heran. Draht wandte sich ihm zu, \nnachdem Sato gefallen war, sein makelloser Anzug befleckt \nvon der blauen Ladung der Gelgeschosse. Sie streckte ihm \ndie Hand entgegen, er packte irgendwie noch das Poster, und \ndann drehte sich alles und wurde schwarz. • • •\nEr schien auf einer Art grobem Stoff zu liegen. Der Raum \nwar spärlich möbliert. Nackter Beton, erleuchtet von mehre-\nren Leuchtschnüren, die entlang der Wände und der herum-\nliegenden Trümmer gespannt waren und seltsame Schatten \nin eine seltsame Welt warfen. Kage, der mittlerweile ein \nTanktop und eine Armeehose trug, rief durch die Tür nach \nseinen Kameraden. „Er ist wach.“\nHiroki richtete sich auf. In seinem Kopf drehte sich \nnoch immer alles, als Draht den Raum betrat. Sie war der \nArchetyp eines Neo-Tokio-Punks und schritt mit nur in \nNetzstrümpfen gehüllten nackten Füßen über den Beton.",
+    "topic": "combat.attack",
+    "keywords": [
+      "sich",
+      "drohne",
+      "raum",
+      "schien",
+      "schwebte",
+      "sato",
+      "draht",
+      "noch"
+    ]
+  }
+}

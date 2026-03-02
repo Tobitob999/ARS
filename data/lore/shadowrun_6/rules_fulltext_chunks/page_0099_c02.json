@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0099_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 99, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 99,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Nähere Informationen dazu findest du im Kapitel Riggen\nauf Seite 196. T asken\nSpezialisierungen: Dekompilieren, Kompilieren, Regis trieren\nUngeübt: Nein\nPrimärattribut: Resonanz\nDiese Fertigkeit wird von Technomancern für ihre Techno-\nmanceraktivitäten verwendet. Weitere Informationen dazu \nfindest du im Abschnitt Technomancer auf Seite 188. Überreden\nSpezialisierungen: Schauspielern, Verkleiden, Verkörpern, \nVorführen\nUngeübt: Ja\nPrimärattribut: Charisma\nDer Schlüssel zu dieser Fertigkeit ist Überzeugungskraft, \ndenn beim Überreden geht es darum, sich als jemand oder \netwas auszugeben, der oder das man nicht ist. Vielleicht \nwillst du jemanden glauben machen, dass du der lange \nverschollene Erbe eines Teils von Dunkelzahns Hort bist; \nvielleicht tust du auch so, als wärst du ein vom Pech ver-\nfolgter Anzugträger, der es mit einem großen Coup wieder \nzurück an die Spitze schaffen will. Aber ganz egal, wie genau \ndas Szenario aussieht: Überreden ist die Fertigkeit, die zum \nEinsatz kommt, wenn du andere davon überzeugen willst, \ndir deine Rolle abzunehmen. Überredenproben sind Vergleichende Proben. Die Ziel-\nperson würfelt mit Willenskraft + Intuition, um dem Ma-\nnipulationsversuch zu widerstehen. In den meisten Fällen \nentscheidet allein die Frage, ob die Probe erfolgreich war \noder nicht, ob ein Charakter auffliegt. Wurde jedoch eine \nhohe Anzahl von Nettoerfolgen erzielt, kann die Spiellei-\nterin festlegen, dass die Täuschung besonders überzeugend \nwar und dass die Zielperson den Charakter umso eifriger \nunterstützt. Siehe Edge bei sozialen Proben (S. 50) für weitere In-\nformationen darüber, wie du bei sozialen Proben Edge \nerhalten kannst.",
+    "topic": "skills.social",
+    "keywords": [
+      "fertigkeit",
+      "ueberreden",
+      "proben",
+      "informationen",
+      "dazu",
+      "findest",
+      "spezialisierungen",
+      "ungeuebt"
+    ]
+  }
+}

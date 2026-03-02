@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0227_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 227, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 227,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Wenn der Critter am Ende einer \nKampfrunde Schaden auf seinem Zustandsmonitor ver-\nmerkt hat, legt er eine Probe auf Konstitution + Magie ab, \naddiert seine Konstitution zu den erzielten Erfolgen und \nheilt entsprechend viele Schadenskästchen, zuerst Überzäh-\nligen Schaden, dann Körperlichen Schaden und schließlich \nBetäubungsschaden. Wenn der Critter seinen maximalen \nÜberzähligen Schaden überschreitet, ist er noch nicht tot; er \nkann noch eine Regenerationsprobe ablegen. Wenn danach \nder Überzählige Schaden immer noch seine Konstitution × \n2 übersteigt, ist er wirklich tot. Regeneration kann nicht alles heilen. Schäden am Gehirn \ndurch einen angesagten Schuss in den Kopf (Ziel ansagen, S. 44, oder Angesagtes Ziel – Lebenswichtige Organe, S. 48), \nmagischer Schaden durch Waffenfoki, Schaden durch eine \nVerwundbarkeit und Schaden durch Entzug können durch \nRegeneration nicht geheilt werden. Wenn der Critter durch \netwas Schaden erleidet, gegen das er eine Allergie besitzt, so \nkann er zwar mit dieser Kraft den Schaden heilen, darf die \nRegenerationsprobe aber erst ablegen, sobald er nicht mehr \nin Kontakt mit dem Allergen ist. Regeneration ist inkompatibel mit Bodytech. Ein Critter \nmit dieser Kraft kann keine Körpermodifikationen erhalten; \nchirurgische Schnitte schließen sich zu schnell, um irgend-\netwas zu implantieren. Ein Critter, der bereits Modifikati-\nonen hat und in den Besitz dieser Kraft gerät, stößt seine \nImplantate ab, sobald die Kraft beginnt, das ursprüngliche \ngenetische Muster seines Körpers wiederherzustellen.",
+    "topic": "combat.damage",
+    "keywords": [
+      "schaden",
+      "durch",
+      "critter",
+      "kraft",
+      "konstitution",
+      "seine",
+      "noch",
+      "regeneration"
+    ]
+  }
+}

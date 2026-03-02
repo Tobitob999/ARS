@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0160_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 160, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 160,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Du erhältst 1 Edge, wenn du das Ziel \nvon Zaubern bist, gegen die du dich verteidigen musst. Mystische P anzerung\nKosten: 0,25 KP pro Stufe\nAktivierung: –\nMana bildet einen Schild um dich, um dich zu schützen. Pro Stufe in dieser Kraft erhöht sich dein Verteidigungs-\nwert um 1. Dies wirkt kumulativ zu getragener Panzerung. Mystische Panzerung wirkt auch auf der Astralebene. Richtungssinn\nKosten: 0,25 KP\nAktivierung: –\nDu hast einen guten Sinn dafür, wo du warst, wohin \ndu unterwegs bist, und auch für ein paar Hindernisse \nauf dem Weg. Wenn du eine Natur-Probe ablegst, die \nmit Orientierung zu tun hat, erhältst du 1 Edge; dieser \nPunkt muss sofort für die Probe ausgegeben werden, \nsonst verfällt er. Schmerzresistenz\nKosten: 0,25 KP pro Stufe\nAktivierung: –\nSchmerz tut weh, aber du kannst ihn besser ignorieren. Für jede Stufe dieser Kraft treten Verletzungsmodifikatoren \nauf dem Zustandsmonitor erst ein Kästchen später auf. Bei \nStufe 1 würdest du also den Würfelpoolmalus von -1 erst \nbei vier vollen Schadenskästchen erhalten statt bei drei. Die \nKraft wirkt sich sowohl auf den Körperlichen also auch \nauf den Betäubungszustandsmonitor aus. Spurloser Schritt\nKosten: 0,5 KP\nAktivierung: –\nDeine Füße wirbeln Staub, Schmutz, Schnee, Wasser oder \nalles andere nicht auf, wenn sie sich darüber oder hindurch \nbewegen, daher hinterlässt du keine Spuren deiner Bewe-\ngung. Du löst keine Stolperdrähte, Druckplatten oder an-\nderen Fallen aus, die auf der Bewegung der Beine basieren. Bei Wahrnehmungsproben, die dich beim Vorbeigehen mit \ndem Gehör wahrnehmen sollen, oder bei Natur-Proben, die \ndeine Spuren erkennen sollen, kann die Gegenseite Edge \nweder erhalten noch ausgeben.",
+    "topic": "combat.defense",
+    "keywords": [
+      "stufe",
+      "dich",
+      "kosten",
+      "aktivierung",
+      "edge",
+      "dieser",
+      "kraft",
+      "sich"
+    ]
+  }
+}

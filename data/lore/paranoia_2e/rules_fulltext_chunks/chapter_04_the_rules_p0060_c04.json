@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_04_the_rules_p0060_c04",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_04_the_rules",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The Rules page 60, chunk 4.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_04_the_rules",
+    "source_title": "The Rules",
+    "page": 60,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "raw_text": "Failure means he is immediately spotted by any observer When a character attempts to detect hidden ‘objects a successful skill roll means he has done so, When a character uses his stealth skill to try to spot a character using stealth to hide, resolve the conflict as a \"stealthskillversus stealthskil” contest. ‘A character can also use stealth to move quietly oF avoid observation in a crowd ‘Modify a characters skill number forthe cit- ‘cumstances — obviously, someone standing inthe center of aspotlight’s beam is going to find it much harder to hide than someone buried in bushes and dressed in camouflage. Surveillance: Think of this as the high-tech ‘equivalent of “tailing” It allows a character to follow someone unnoticed, but also to install and detect bugging devices, and use monitor- ing systems to observe, clandestinely or open- Iy, target individuals, locations or devices. ‘Make a skill roll when a character checks for bugs, installs bugs, follows a target, and 30 ‘on. A failure means bugs are not found, ofthe target may have noticed the surveillance. If there is a chance that the target may have noticed that he is under surveillance, make a surveillance skill roll for the target; success means he has caught on, while failure means he has not noticed his observer's slip. Modify the skill number depending on whether the target expects to be the target of suneillance, the availability of equipment, and so on. Survival: Most citizens of Alpha Complex have never seen a tree, a body of open water, or an animal larger than a cockroach. Surviving in the Outdoors isa skill which takes some time to master.",
+    "topic": "skills",
+    "keywords": [
+      "skill",
+      "target",
+      "character",
+      "means",
+      "surveillance",
+      "failure",
+      "when",
+      "roll"
+    ]
+  }
+}

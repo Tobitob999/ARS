@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0085_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 85, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 85,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "3K | Angriffswerte \n12/–/–/–/–]\nBogen (Stufe 5) [Bogen | Schaden 3K | Angriffswerte \nBogen (Stufe 5) [Bogen | Schaden 3K | Angriffswerte \n3/5/2/–/– | 20 Pfeile]\n3/5/2/–/– | 20 Pfeile]\nMesser [Klingenwaffe | Schaden 2K | Angriffswerte \nMesser [Klingenwaffe | Schaden 2K | Angriffswerte \n11/1*/–/–/– | *maximale Reichweite 20 m]\n11/1*/–/–/– | *maximale Reichweite 20 m]\nBetäubungsschlagstock [Knüppel | Schaden 5B(e) | \nBetäubungsschlagstock [Knüppel | Schaden 5B(e) | \nAngriffswerte 11/–/–/–/–]\nAngriffswerte 11/–/–/–/–]\nSchockhandschuhe [Waffenlos | Schaden 4B(e) | \nSchockhandschuhe [Waffenlos | Schaden 4B(e) | \n Angriffswerte 10/–/–/–/–]\n Angriffswerte 10/–/–/–/–]\nSchwert [Klingenwaffe | Schaden 3K | Angriffswerte \nSchwert [Klingenwaffe | Schaden 3K | Angriffswerte \n14/–/–/–/–]\n5 Wurfmesser [Wurfwaffe | Schaden 2K | Angriffswerte \n5 Wurfmesser [Wurfwaffe | Schaden 2K | Angriffswerte \n10/9/3/–/–]\nConnections: \nGanger der\nGanger der\n First Nations (E1/L2), \n Sekretärin bei der Salish-Regierung (E2/L2), Sensei (E1/L2), \n Sekretärin bei der Salish-Regierung (E2/L2), Sensei (E1/L2), \nSquatter (E1/L1)\nSquatter (E1/L1)\nLebensstil: \nUnterschicht (1 Monat bezahlt)\nUnterschicht (1 Monat bezahlt)\nStartkapital: \n4.000 ¥\n4.000 ¥\n84 // ARCHETYPEN // ADEPT\nSHADOWRUN: SECHSTE EDITION",
+    "topic": "combat.attack",
+    "keywords": [
+      "angriffswerte",
+      "schaden",
+      "bogen",
+      "klingenwaffe",
+      "stufe",
+      "pfeile",
+      "messer",
+      "maximale"
+    ]
+  }
+}

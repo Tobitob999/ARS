@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0327_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 327, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 327,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "72)\nART\n KARMAKOSTEN\n TRAININGSZEIT\nAktionsfertigkeiten\n neue Stufe \n×\n 5\n [neue Stufe] Monate\nSpezialisierungen\n 5\n 1 Monat\nExpertise\n 5\n 2 Monate\nAttribute\n neue Stufe 5\n [neue Stufe \n×\n 2] Monate\nWissensfertigkeiten\n 3\n 1 Monat\nSprachfertigkeiten\n 3 pro Stufe\n 1 Monat pro Stufe\nNeuer Vorteil\n Karmakosten bei Erschaffung \n×\n 2\n 1 Woche\nNachteil entfernen\n Karmabonus bei Erschaffung \n×\n 2\n 1 Woche\nNeuer Zauber*\n 5 pro Zauber\n siehe S. 132\nNeues Ritual*\n 5 pro Ritual\n siehe S. 132\nNeue Komplexe Form*\n 5 pro Form\n 1 Woche\nInitiation\n 10 + neuer Initiatengrad\n [neuer Initiatengrad + 1] Monate\nWandlung\n 10 + neuer Wandlungsgrad\n [neuer Wandlungsgrad + 1] Wochen\n* kann nicht während der Charaktererschaffung erworben werden\nSHADOWRUN: SECHSTE EDITION\n326 // T ABELLEN",
+    "topic": "magic.spells",
+    "keywords": [
+      "stufe",
+      "neuer",
+      "monate",
+      "woche",
+      "karmakosten",
+      "erschaffung",
+      "zauber",
+      "siehe"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0159_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 159, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 159,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Adeptenkräfte\nDie folgenden Krä fte können von Adepten verwendet werden. Die Beschreibungen fü hren die Kosten in Kraftpunkten und \ndie Art der Handlung zur Aktivierung auf. „–“ bedeutet, dass \ndie Kraft permanent aktiv ist. Einige Adeptenkrä fte haben \nStufen, ihre Wirkung kann also durch hö here Stufen verstä rkt \nwerden. Die Stufe einer Kraft (inkl. eventueller Erhö hungen \ndurch Qi-Foki) darf maximal so hoch sein wie das Magieattri-\nbut des Adepten, wenn ihr Maximum nicht ohnehin geringer \nist. Ein Adept mit Magie 4 darf also Krä fte maximal mit Stufe \nAdrenalinschub\nKosten:\n 0,25 KP pro Stufe\nAktivierung:\n Nebenhandlung\nDu erfährst einen Energieschub, sodass du anderen zuvor-\nkommen kannst. Pro Stufe dieser Kraft kannst du nach der \nAktivierung dein Initiativeergebnis für [Magie] Kampfrun-\nden um 2 erhöhen. Nach diesen Kampfrunden musst du \neinem Entzug in Höhe der Stufe der Kraft widerstehen. Astrale W ahrnehmung\nKosten:\n 1 KP\nAktivierung:\n Nebenhandlung\nDu erhältst die Fähigkeit zur astralen Wahrnehmung \nnach den normalen Regeln (siehe S. 161). Wenn du diese \nKraft einsetzt, wirst du zum Dualwesen und kannst astrale \nGestalten angreifen. A ttributsschub (A ttribut)\nKosten:\n 0,25 KP pro Stufe (max. Stufe 6)\nAktivierung:\n Haupthandlung\nMana fließt in deinen Körper und verstärkt deine natür-\nlichen Fähigkeiten, sodass du ein höheres Niveau erreichst. Beim Erwerb dieser Kraft musst du ein bestimmtes Körper-\nliches Attribut (Konstitution, Geschicklichkeit, Reaktion oder \nStärke) auswählen. Wenn du diese Kraft mehrmals erwirbst, \nkann sie entweder dasselbe Attribut mit höherer Stufe (bis zu \nStufe 6) oder ein neues Attribut betreffen.",
+    "topic": "magic",
+    "keywords": [
+      "stufe",
+      "kraft",
+      "aktivierung",
+      "kosten",
+      "kannst",
+      "attribut",
+      "adepten",
+      "also"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0339_c08",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 339, chunk 8.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 339,
+    "chunk_index": 8,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "155\nDramaqueen (Edge-Handlung)\n ........... 49\nDreibein (Waffenzubehör)\n ................ 259\nDrek (Slang)\n ......................................... 8\nDresden\n ........................................... 312\nDrogen\n ....................................... 64, 126\nDrogen (Tabelle)\n....................... 126, 296\nDrohne befehligen (Handlung)\n ........... 43\nDrohnen\n ........................................... 302\nDrohnen-Initiative\n ............................ 201\nDrohnenkampf\n ................................. 201\nDrohnenriggen\n ................................. 201\nDronecasts\n ......................................... 19\nDrucker (Elektronikzubehör)\n ............ 269\nDruckgeﬂ echt\n ................................... 242\nDruckpolster\n .................................... 241\nDruckwelle (Zauber)\n 138\nDunkelheit (Zauber)\n ......................... 140\nDunkelzahn-Institut \n für Magische Forschung\n ................. 26\nDunkelzahn\n .................................. 15, 23\nDurchbrechen von Barrieren\n ............ 115\ne\nEcho Mirage\n ............................... 30, 172\nEchos\n ............................................... 195\nEchte Gangs (Schergen)\n .................. 205\nEdge (Attribut)\n ............................. 40, 46\nEdge ausgeben\n ........................... 47, 108\nEdge erhalten\n ..................................... 46\nEdge für soziale Proben\n ..................... 49\nEdge und Geister\n .............................. 149\nEdge und laufende Konfrontation\n ....... 46\nEdge verheizen\n ................................... 50\nEdge-Boosts\n ....................................... 47\nEdge-Boosts im Kampf\n ....................",
+    "topic": "combat.initiative",
+    "keywords": [
+      "edge",
+      "handlung",
+      "drogen",
+      "drohnen",
+      "zauber",
+      "dunkelzahn",
+      "boosts",
+      "dramaqueen"
+    ]
+  }
+}

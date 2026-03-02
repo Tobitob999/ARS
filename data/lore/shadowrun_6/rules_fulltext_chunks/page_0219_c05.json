@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0219_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 219, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 219,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Die Dämonenratte ist eine Unterart der Teufelsratte \nTeufelsra tte\nK\n G\n R\n S\n W\n L\n I\n C\n M\n ESS\n1\n 4\n 5\n 1\n 2\n 1\n 5\n 4\n 4\n 6\nInitiative:\n 10 + 1W6\nHandlungen:\n 1 Haupt, 2 Neben\nZustandsmonitor:\n 9\nVerteidigungswert:\n 1\nBewegung:\n 5/10/+1\nFertigkeiten:\n Athletik 3 (Klettern +2), Heimlichkeit 6, \n Nahkampf 5, Wahrnehmung 4\nKräfte:\n Immunität (Toxine), Natürliche Waffe, Tierbeherrschung \n(gewöhnliche Ratten), Verschleierung (selbst)\nSchwächen:\n Allergie (Sonnenlicht, Leicht)\nAngriff:\n Biss: Schaden 1K, Angriffswerte 6/–/–/–/–\nDämonenra tte\nK\n G\n R\n S\n W\n L\n I\n C\n M\n ESS\n3\n 4\n 5\n 3\n 3\n 2\n 5\n 5\n 6\n 6\nInitiative:\n 10 + 2W6\nHandlungen:\n 1 Haupt, 3 Neben\nZustandsmonitor:\n 10\nVerteidigungswert:\n 5\nBewegung:\n 5/10/+1\nFertigkeiten:\n Athletik 3 (Klettern +2), Heimlichkeit 7, \n Nahkampf 6, Wahrnehmung 5\nKräfte:\n Gift, Immunität (Toxine), Natürliche Waffe, Panzer 2, \nTierbeherrschung (gewöhnliche Ratten, Pechratten, Teufels-\nratten), Verschleierung (selbst)\nSchwächen:\n Allergie (Sonnenlicht, Schwer)\nAngriff:\n Biss: Schaden 2K, Angriffswerte 8/–/–/–/–\nPechra tte\nK\n G\n R\n S\n W\n L\n I\n C\n M\n ESS\n1\n 3\n 4\n 0\n 2\n 1\n 3\n 2\n 6\n 6\nInitiative:\n 7 + 1W6\nHandlungen:\n 1 Haupt, 2 Neben\nZustandsmonitor:\n 9\nVerteidigungswert:\n 1\nBewegung:\n 5/10/+1\nFertigkeiten:\n Athletik 3 (Klettern +2), Heimlichkeit 3, \n Nahkampf 3, Wahrnehmung 4\nKräfte:\n Immunität (Toxine), Natürliche Waffe, Tierbeherrschung \n(gewöhnliche Ratten), Unfall, Unglücksbringer*\nSchwächen:\n Allergie (Sonnenlicht, Leicht)\nAngriff:\n Biss: Schaden 0K, Angriffswerte 4/–/–/–/–\nAnmerkung:\n *Einzigartige Fähigkeit. Reichweite: BF (F), Art: M, \nHaupthandlung. Vergleichende Probe auf Reaktion + Magie \ngegen Edge.",
+    "topic": "combat.initiative",
+    "keywords": [
+      "ratten",
+      "initiative",
+      "handlungen",
+      "haupt",
+      "neben",
+      "zustandsmonitor",
+      "verteidigungswert",
+      "bewegung"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0125_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 125, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 125,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Während \nsein Team mit dem Van abhaut, liegt er bewusstlos hinten \n(10 Kästchen Betäubungsschaden, 11 Kästchen Körperli-\nchen Schaden und 2 Kästchen Überzähligen Schaden) und \nwird von Candyman, dem Sanitäter des Teams, und Cotton-\nmouth, der Schlangenschamanin und versierten Heilerin, \nversorgt. Candyman stellt fest, dass Aims in schlechtem \nZustand ist, und beschließt, Erste Hilfe einzusetzen, bevor \ndie Minute vorbei ist, aber der holpernde Wagen wird das \nerschweren. Candyman beginnt mit einer Probe auf Erste Hilfe. Er \nwürfelt mit Biotech 5 + Logik 4 gegen einen Schwellenwert \nvon 2 (5 – Essenz 3). Wegen des Rumpelns bei der Flucht \nbestimmt die Spielleiterin, dass die Situation genügend \nStress verursacht, dass Candyman bei dieser Probe kein \nEdge ausgeben kann. Candyman erzielt mit seinen 9 Würfeln \n4 Erfolge. Mit 2 Nettoerfolgen kann er 1 Kästchen Überzäh-\nligen Schaden heilen. Nach diesem eher bescheidenen Ergebnis will Candy-\nman mit dem Einsatz des Medkits noch warten, bis sie \neinen besser ausgebauten Straßenabschnitt erreichen. Er \nhat eine Stunde Zeit, was ausreichen sollte. Fürs Erste \nverbindet er alle Kabel und bereitet das Medkit vor. Mit \nder Zeit wird die Straße besser, und Candyman kann eine \nweitere Probe auf Biotech 5 + Logik 4 mit Schwellenwert \n2 ablegen. Diesmal will er einen Edge-Boost für 4 Edge-\npunkte einsetzen, um sein Edge-Attribut von 5 als Bonus \nfür den Würfelpool zu nutzen. Er würfelt mit 14 Würfeln \nund erreicht dank der explodierenden 6en 6 Erfolge.",
+    "topic": "combat.damage",
+    "keywords": [
+      "candyman",
+      "kaestchen",
+      "edge",
+      "schaden",
+      "erste",
+      "probe",
+      "einen",
+      "sein"
+    ]
+  }
+}

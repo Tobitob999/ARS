@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0003_c09",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 3, chunk 9.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 3,
+    "chunk_index": 9,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "51\nMatrix\n ................................................... 51\nMagie\n ................................................... 51\nRiggen\n ................................................. 52\nSoziales\n ................................................ 52\nConnections\n ........................... 52\nStatus\n ................................... 53\nStatusschaden\n ..................................... 53\nStatusliste\n ............................................ 53\nCharakter-Metatypen\n ................. 55\nElfen\n ..................................................... 55\nMenschen\n ............................................ 56\nOrks\n ..................................................... 57\nTrolle\n .................................................... 57\nZwerge\n ................................................. 58\nLebensstile\n ............................ 58\nAuf der Straße\n ...................................... 59\nSquatter\n ............................................... 59\nUnterschicht\n ......................................... 59\nMittelschicht\n ........................................ 59\nOberschicht\n .......................................... 59\nLuxus\n ................................................... 59\nCharakter erschaffung\n ... 60\nDeﬁ niere deine Rolle und \nHintergrundgeschichte\n ............... 60\nArkanspezialist\n ..................................... 61\nUnterhändler\n ........................................ 61\nStraßensamurai\n .................................... 61\nTechnologiespezialist\n ........................... 61\nGeschichte\n ........................................... 61\nWähle die Prioritäten aus\n ........... 64\nMetatyp (Anpassungspunkte)\n ..............",
+    "topic": "combat.damage",
+    "keywords": [
+      "charakter",
+      "matrix",
+      "magie",
+      "riggen",
+      "soziales",
+      "connections",
+      "status",
+      "metatypen"
+    ]
+  }
+}

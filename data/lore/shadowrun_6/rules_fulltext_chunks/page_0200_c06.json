@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0200_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 200, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 200,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Ihre derzeitige Geschwindigkeit liegt mit 16 unterhalb \ndes Geschwindigkeitsintervalls von 20, also unterliegen \nihre Steuernproben für das Fahrzeug noch keinem Wür-\nfelpoolmalus – was sich jedoch bald ändern wird. Sie \nerreicht die maximale Beschleunigungsrate von 9, daher \nerhöht sich die Geschwindigkeit des Wagens von 16 auf \n25. Sie bewegt sich 16 + (9 \n÷\n 2) Meter, also 21 Meter. Noch immer fährt sie mit eher langsamer Ge-\nschwindigkeit, aber ihr Fahrzeug ist nicht auf Verfol-\ngungsjagden ausgelegt und sträubt sich gegen ihren \naggressiven Fahrstil. Als vor ihr plötzlich ein Fußgän-\nger auf die Straße läuft, muss sie eine Handlingprobe \nablegen, um ihm auszuweichen. Sie beﬁ ndet sich auf \neiner Straße, also legt sie die Probe mit Steuern + \n Reaktion (4) ab. Ihre Geschwindigkeit beträgt 25, eine \nStufe oberhalb des ersten Geschwindigkeitsintervalls, \ndaher erhält sie auf die Probe einen Würfelpoolmalus \nvon -1. Sie behält die Maximalbeschleunigung von \n9 bei und erreicht damit nach einer weiteren Runde \neine Geschwindigkeit von 43 Metern pro Kampfrunde \n(ungefähr 52 km/h). Damit beﬁ ndet sie sich im zwei-\nten Geschwindigkeitsintervall – wenn sie also in der \nnächsten Kampfrunde erneut Steuern proben ablegen \nmuss, verliert sie dabei bereits 2 Würfel, während sie \ndie ganze Zeit über ihren armen Americar verﬂ ucht, der \nfür solche Eskapaden einfach nicht ausgelegt ist. Riggerhandlungen\nHANDLUNG\n HANDLUNGSART\n WOFÜR? Angriff (S. 44)\n Haupt (I)\n Angriffe mit Fahrzeug oder Fahrzeugwaffe. Drohne befehligen (S. 43)\n Neben (I)\n Senden eines Befehls an eine oder mehrere Drohnen. Fertigkeit einsetzen (S. 44)\n Haupt (I)\n Handling-Proben u. Ä. Gerät neu starten (S.",
+    "topic": "movement",
+    "keywords": [
+      "sich",
+      "geschwindigkeit",
+      "also",
+      "ihre",
+      "fahrzeug",
+      "noch",
+      "erreicht",
+      "daher"
+    ]
+  }
+}

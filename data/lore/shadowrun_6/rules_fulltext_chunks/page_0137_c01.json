@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0137_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 137, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 137,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Schmerzresistenz\nREICHWEITE ART DAUER ENTZUG\nB M A 3\nDieser Zauber gewährt zwar keine Heilung, erlaubt dem \nZiel aber, die Auswirkungen von Schaden zu ignorieren und \nweiterzumachen, als gäbe es keinen Grund für Schmerzen. Lege eine Probe auf Hexerei + Magie (5 – [Essenz, abge-\nrundet]) ab. Für jeden Nettoerfolg kann das Ziel seinen \nVerletzungsmodifikator um 1 senken. St abilisieren\nREICHWEITE ART DAUER ENTZUG\nB M P 3\nDieser Zauber wird benutzt, wenn jemand Überzähligen \nSchaden erlitten hat. Lege eine Probe auf Hexerei + Magie \nmit einem Schwellenwert in Höhe der Anzahl der Kästchen \nan Überzähligem Schaden des Ziels ab. Gelingt die Probe, \nwerden sä mtliche Kä stchen des Ü berzä hligen Schadens \nentfernt. W ärmendes Heilen\nREICHWEITE ART DAUER ENTZUG\nB P P 5\nDieser Zauber hat die gleiche Heilwirkung wie der Zauber \nHeilen. Lege eine Probe auf Hexerei + Magie (5 – [Essenz, \nabgerundet]) ab. Jeder Nettoerfolg heilt 1 Kästchen Über-\nzähligen, Körperlichen oder Betäubungsschaden. Außerdem \nbesitzt diese Variante des Zaubers ein wärmendes Element, \ndas den Status Unterkühlt beim Ziel beendet. Ein Satz \nVerletzungen kann nur einmal mit einem Heilen-Zauber \nbehandelt werden. Illusionszauber\nIllusionszauber sind dafür gedacht, Leute davon zu über-\nzeugen, dass etwas Irreales real ist, dass etwas nicht Vor-\nhandenes vorhanden ist, oder umgekehrt. Sie werden als \nVergleichende Probe auf Hexerei + Magie gegen verschie-\ndene Würfelpools aus Attributen gewirkt, die bei dem je-\nweiligen Zauber angegeben sind. Manaillusionen wirken nur gegen lebende Ziele; phy-\nsische Illusionen wirken auch gegen Kameras und andere \nTechnologie.",
+    "topic": "combat.damage",
+    "keywords": [
+      "zauber",
+      "probe",
+      "hexerei",
+      "magie",
+      "reichweite",
+      "dauer",
+      "entzug",
+      "dieser"
+    ]
+  }
+}

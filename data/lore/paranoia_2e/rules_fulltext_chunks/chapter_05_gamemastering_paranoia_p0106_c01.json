@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_05_gamemastering_paranoia_p0106_c01",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_05_gamemastering_paranoia",
+    "chapter"
+  ],
+  "summary": "Rule chunk from Gamemastering Paranoia page 106, chunk 1.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_05_gamemastering_paranoia",
+    "source_title": "Gamemastering Paranoia",
+    "page": 106,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "Pe \n'* The Quick and Dirty Way: Look at the bot- tom skill names on the skill tree; find the number next to each name. Triple it. That's the character’ skill number with that skill. Exe ample: 4 character with the skill tree above ‘would have laser weapons skill of 9, fast talk. skill of 9, and communications engineering, skill of 9 a character uses any skill not printed on his sheet, calculate his skill base for the governing. attribute, and roll against that number. Okay, 30 now you know how to convert skill trees into second edition skill numbers There's still one problem: some of the skills have been merged or deleted, so when you look ata skill atthe bottom of a tree, you may see an unfamiliar skill name, Here's how to hhandle them: * Weapon Skills: The fist edition broke ‘weapon skills like “laser weapons,” \"projec tile weapons” and \"vehicle launched ‘weapons’ down into individual weapon types ‘0 you may see a skill tre that looks like this: \nBasics (1) \n' \nAimed Weapon Combat (2) \nProjectile Weapons (3) \noes Slugthrower (5) Ice Gun (4) \nJust back up one level on the tree — the skill the character possesses is projectile weapons, Now look back at the bottom of the tree; find the largest skill number of those printed there Lin this case, it's § for the slugthrower). Use. this number when calculating the character's, weapon skill number. (i using the quick-and- dirty method, this character's. projectile weapons skill would be 15.) ‘© Weapon Maintenance Skills: These have been deleted.",
+    "topic": "combat",
+    "keywords": [
+      "skill",
+      "weapons",
+      "number",
+      "character",
+      "tree",
+      "look",
+      "projectile",
+      "quick"
+    ]
+  }
+}

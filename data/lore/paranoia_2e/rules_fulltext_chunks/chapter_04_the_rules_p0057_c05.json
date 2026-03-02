@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_04_the_rules_p0057_c05",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_04_the_rules",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The Rules page 57, chunk 5.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_04_the_rules",
+    "source_title": "The Rules",
+    "page": 57,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "raw_text": "‘Modify the user's skill favorably if his target has good reason to be trusting, or if it would be in his best interest to cooperate; modify the skill number downwards if the reverse is tru. Fast Talk: This sill is sed to confuse a vic~ tim enough that he'll hesitate while the fast talker acts. For example: ‘Troubleshooter: Hi, how are you, nice daycy- cle, hey hey? 57",
+    "topic": "skills",
+    "keywords": [
+      "modify",
+      "skill",
+      "fast",
+      "user",
+      "favorably",
+      "target",
+      "good",
+      "reason"
+    ]
+  }
+}

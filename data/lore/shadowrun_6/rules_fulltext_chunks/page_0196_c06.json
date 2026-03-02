@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0196_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 196, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 196,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Er hat eine spirituel-\nle Suche in den geheimsten Teilen der Matrix auf sich \ngenommen, wo kein bloßer Decker jemals hinkäme. Er \nkommt verändert zurück und entscheidet sich für das \nEcho Neuroﬁ lter, wodurch er weniger anfällig für Schaden \ndurch Biofeedback wird. Er kann es gar nicht erwarten, \ndiese Prozedur mit 12 Karma zu wiederholen! SHADOWRUN: SECHSTE EDITION\nTECHNOMANCER // MA TRIX // 195",
+    "topic": "combat.damage",
+    "keywords": [
+      "sich",
+      "spirituel",
+      "suche",
+      "geheimsten",
+      "teilen",
+      "matrix",
+      "genommen",
+      "kein"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0047_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 47, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 47,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Im Laufe \nder Spielsitzung kann sich dieser Betrag erhöhen, aber nur \nbis zu einem Maximum von 7, einschließlich des Edges, das \nvom Edge-Attribut des Charakters kommt. Jegliches Edge, \ndas ein Charakter oberhalb seines Edge-Attributs erhält, \nverschwindet wieder, wenn eine laufende Konfrontation \nbeendet ist – das kann ein Kampf sein, ein Hack, eine kom-\nplexe soziale Interaktion oder irgendeine andere Situation, \nin der ein Charakter Edge erlangen kann. Liegt der aktuelle \nEdge-Wert eines Charakters am Ende einer Konfrontation \nunter dem Wert seines Edge-Attributs, so bleibt er bei diesem \nniedrigeren Wert. Wenn er mehr Edge haben möchte, muss \ner es sich verdienen. Edge erhal ten\nAusrüstung, Zauber, Vorteile, Umwelt- und Sichtbedin-\ngungen (siehe S. 108) und andere Gegenstände können \neinem Charakter Edge liefern oder Edge anderer Charaktere \nneutralisieren. Bei Beginn einer Angriffs-, Zauberei- (bei \nKampfzaubern) oder Hacking-Handlung werden der An-\ngriffswert des Angreifers und der Verteidigungswert des \nVerteidigers miteinander verglichen (oder wenn es mehrere \nZielpersonen gibt, die jeweils höchsten dieser Werte). Wenn \neiner der beiden um 4 oder mehr größer ist als der ande-\nre, erhält der Charakter mit dem höheren Wert 1 Punkt \nEdge. Wenn der Angriff eine Flächenwirkung hat oder \nmehrere Ziele angegriffen werden, wird mit dem höchsten \nVerteidigungswert der betroffenen Ziele verglichen. Kein \nCharakter kann mehr als 2 Bonuspunkte Edge in einer \nKampfrunde erhalten. Auch soziale Situationen können der einen oder anderen \nSeite Edge bringen, je nach Haltung der Beteiligten zuein-\nander, ihrem Betragen und anderen Faktoren.",
+    "topic": "combat",
+    "keywords": [
+      "edge",
+      "charakter",
+      "wert",
+      "einer",
+      "mehr",
+      "sich",
+      "dieser",
+      "einem"
+    ]
+  }
+}

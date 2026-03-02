@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_01_paranoia_for_players_p0026_c04",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_01_paranoia_for_players",
+    "chapter"
+  ],
+  "summary": "Rule chunk from Paranoia for Players page 26, chunk 4.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_01_paranoia_for_players",
+    "source_title": "Paranoia for Players",
+    "page": 26,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "Do not be swayed by clever tactics Tike: \n“Say, my combat skills and taining make me the perfect one to guard against attack from the rear” or ‘Since | carry the multicorder and must record all our activities, I must stand behind you, Mission Leader, Sir for a panoramic view” \nOf course, if you are not the mission leader, you must try these clever tactics. Some inex perienced or dim-witted mission leaders may fall for them. However, if the mission leader \n26",
+    "topic": "combat.attack",
+    "keywords": [
+      "mission",
+      "must",
+      "leader",
+      "clever",
+      "tactics",
+      "swayed",
+      "tike",
+      "combat"
+    ]
+  }
+}

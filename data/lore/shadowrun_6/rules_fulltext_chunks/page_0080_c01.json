@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0080_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 80, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 80,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "noch einmal dagegen verstößt, addiert jeder dieser Ver-\nstöße zusätzliche 48 Stunden zu den ursprünglichen 24. Wenn gegen ein anderes Gebot verstoßen wird, entstehen \ndadurch neue 24 Stunden ohne Edge, und es gelten die-\nselben Regeln für weitere Verstöße. Beispiele zu Kodizes \nund Geboten siehe Kasten Ehrenkodex. Eingeschränktes (A ttribut)\nEinige Leute haben einfach keine natürliche Begabung. Ein schwaches Knie, schlechte Genetik oder eine Kinder-\nkrankheit haben dich daran gehindert, dasselbe zu errei-\nchen wie deinesgleichen. Bonus: 8 Karma\nAuswirkung: Das Maximum des Charakters im gewähl-\nten Attribut sinkt um 2. Elfenposer\nDein Blut ist vielleicht menschlich oder orkisch, aber dei-\nne Ohren, Wangenknochen und dein geziertes Gehabe \nsind eindeutig elfisch. Ein paar kleine Operationen, viel-\nleicht ein Sperethiel-Kurs über die Matrix, und viele Stun-\nden des Betrachtens von Aufzeichnungen der Tír-Prinzen \nhaben dich darauf vorbereitet, wirklich zu den Elfen zu \ngehören, egal wie rund deine Ohren oder wie massig deine \nHauer bei der Geburt waren. Bonus: 6 Karma\nAuswirkung: Elfen, Orks und Trolle erhalten 1 Edge bei \nProben auf Einfluss (Gebräuche), die sie gegen dich ab-\nlegen. Nur für Menschen und Orks erhältlich. Feindliche Geister/Sprites (Art)\nVielleicht hast du sie durch deine Behandlung verärgert, \nein mächtiges und geehrtes Mitglied dieser Gruppe getö-\ntet oder bist einfach unter schlechten Vorzeichen geboren \nund von Anfang an als ihr Feind gezeichnet. Der Grund ist \nirrelevant. Wichtig ist, dass eine bestimmte Art von Geis-\ntern/Sprites dich einfach nicht mag.",
+    "topic": "edge",
+    "keywords": [
+      "dich",
+      "einfach",
+      "deine",
+      "dieser",
+      "stunden",
+      "gegen",
+      "edge",
+      "bonus"
+    ]
+  }
+}

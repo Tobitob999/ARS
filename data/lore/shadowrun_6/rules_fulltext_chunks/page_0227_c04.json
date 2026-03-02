@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0227_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 227, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 227,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Ein Schwarm Vögel \nbeispielsweise kann kein Motorrad stehlen, aber die Tiere \nkönnte ihre Därme darüber entleeren, es verfolgen oder in \nMassen darauf landen. Neue Befehle können nur erteilt wer-\nden, solange sich der Zielcritter innerhalb des Blickfeldes \ndes beherrschenden Critters befindet, aber bereits erteilten \nBefehlen folgt der Zielcritter für eine Anzahl Minuten, \ndie dem Charismaattribut des beherrschenden Critters \nentspricht. Ein Critter kann so viele kleine Tiere (Katzen, \nRatten usw.) beherrschen, wie seinem Charisma × 5 ent-\nspricht, oder so viele größere Tiere (Wölfe, Löwen, Bären \nusw.), wie seinem Charisma entspricht, oder einen einzigen \nparanormalen Critter. Diese Kraft kann nicht gegen Critter \nmit der Kraft Bewusstsein eingesetzt werden. und Risse dringen. Abwehrsysteme gegen Gase, Bakterien \noder Viren können auch einen Critter in Nebelgestalt auf-\nhalten. In seiner Nebelgestalt besitzt der Critter die Kraft \nImmunität gegen Normale Waffen (siehe S. 224), aber auch \neine Mittlere Allergie gegen Feuer. Wird er einer Substanz \nausgesetzt, gegen die er allergisch oder durch die er ver-\nwundbar ist, so verwandelt er sich sofort in seine normale \nGestalt zurück. In der Nebelgestalt kann der Critter normal \nwahrnehmen, aber keine seiner anderen Kräfte einsetzen, \nbis er sich zurückverwandelt hat. P anzer\nART\n HANDLUNG\n REICHWEITE\n DAUER\nP\n Auto\n Selbst\n Immer\nSchuppen, dermale Knochenablagerungen, eine dicke Haut \noder eine kräftige Schicht Fell und Fett bieten einem Critter \nmit dieser Kraft einen gewissen Schutz gegen physische \nAngriffe.",
+    "topic": "skills.social",
+    "keywords": [
+      "critter",
+      "gegen",
+      "kraft",
+      "tiere",
+      "sich",
+      "einen",
+      "nebelgestalt",
+      "zielcritter"
+    ]
+  }
+}

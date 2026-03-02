@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_04_the_rules_p0082_c02",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_04_the_rules",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The Rules page 82, chunk 2.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_04_the_rules",
+    "source_title": "The Rules",
+    "page": 82,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "raw_text": "Wi Unarmed Bare fists, These don't malfunction, \nWl Brass Knuckles Like the name says, although brass is rare in Alpha Complex — these are more likely 10 bbe made of stee! or aluminum, They. don't ‘malfunction particularly, either. Wi Knife, Club, Sword, Truncheon \nDo you really need definitions of these? Malfunction: It breaks. Remedy: There ain't none. Oh, you can take it home and fix it up with some superglue, | suppose. Wi Neurowhip 5 \n‘Anasly whipshaped weapon which delivers, 2 stinging jolt to the nervous system. Malfunction: Lashes back and hits its wielder; roll damage for him as for a target \nRemedy: None (the weapon didn't break; the user just screwed up). Wi forceSword This weapon is a monofilament fiber en ceased in a force field sheath. Itcan cut through Just about anything short of neutronium. Malfunction: The force field ceases to exist, and the monofilament becomes a loose wire which may whip around and injure its user. In this case, the user makes a skill roll if he succeeds, he avoids injury, fhe fails, he rolls for damage as a target. Remedy: Nothing can prevent the malfunc: tion, A successful weapon roll returns the ‘weapon to normal function. 82",
+    "topic": "combat",
+    "keywords": [
+      "malfunction",
+      "weapon",
+      "these",
+      "remedy",
+      "roll",
+      "user",
+      "brass",
+      "none"
+    ]
+  }
+}

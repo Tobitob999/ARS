@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0202_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 202, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 202,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Die Drohne handelt autonom und schießt daher \nmit ihrer HK-227- Zielerfassungs-Autosoft Stufe 3 + Sen-\nsorstufe 3. Ihr Würfelpool besteht somit aus 6 Würfeln. Der Verteidiger würfelt mit 7 Würfeln, also stehen die \nChancen nicht besonders gut für die Drohne. Die Drohne \nerzielt 2 Erfolge, der Verteidiger hingegen 3. Der Schuss \nder Drohne geht fehl, aber die Kugeln sausen so dicht an \ndem Wachmann vorbei, dass er sich noch einmal genau \nüberlegt, ob er die Verfolgung fortsetzen möchte. Der Angriffswert eines Fahrzeugs setzt sich aus dem Steu-\nern-Wert des Fahrers + Sensor des Fahrzeugs zusammen. Personen verwenden ihren normalen Verteidigungswert; der \nVerteidigungswert anderer Fahrzeuge ergibt sich aus dem \nSteuern-Wert des Fahrers + der Panzerung des Fahrzeugs. Der Rammschaden beträgt (Rumpf ÷ 2, aufgerundet, +1 pro \nerreichtem Geschwindigkeitsintervall)K. Rammt das Fahr-\nzeug ein anderes Fahrzeug, muss es dem gleichen Schaden \nwiderstehen, allerdings mit dem Rumpf des gerammten \nFahrzeugs als Basis. Die Passagiere des gerammten Fahr-\nzeugs widerstehen dem Schaden wie bei einem Crash (s.o.). Rammt das Fahrzeug eine Person, muss es [Konstitution ÷ \n4, aufgerundet] Kästchen Schaden widerstehen. Personen \nwiderstehen dem Rammschaden mit Konstitution, Fahr-\nzeuge mit ihrem Rumpfattribut. Riggen von Drohnen\nDas Riggen von Drohnen unterscheidet sich nicht vom \nFahrzeugriggen, wenn der Rigger hineingesprungen ist. Denk aber daran, dass Rauschen-Modifikatoren zum Tra-\ngen kommen können, wenn die Drohne zu weit von ihrem \nRigger entfernt ist.",
+    "topic": "advancement",
+    "keywords": [
+      "drohne",
+      "sich",
+      "fahrzeugs",
+      "widerstehen",
+      "schaden",
+      "wuerfeln",
+      "verteidiger",
+      "wert"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0296_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 296, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 296,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Der Charakter ignoriert eine \nAnzahl von Schadenskästchen (wahlweise Körperlich, Be-\ntäubung oder eine Kombination der beiden) in Höhe der \nStufe des Kompensators, bevor Verletzungsmodifikatoren \nermittelt werden. Schlafregula tor\nDer Schlafregulator ist eine Modifikation am Hypothalamus, \ndie längere Perioden der Wachheit erlaubt – ein unglaublich \nnützlicher Vorteil für jeden mit irgendeinem Beruf, nicht nur \nfür Shadowrunner. Man braucht weniger Schlaf pro Tag, \nund der Schlaf, den man bekommt, ist tief und erholsam \n(außerdem ist man schwerer aufzuwecken). Der Schlafre-\ngulator lässt den Charakter mit drei Stunden Schlaf pro \nNacht auskommen und doppelt so lange wie normal wach \nbleiben, bevor er den Status \nErschöpft\n (S. 54) erleidet. Die \nErschöpft\n (S. 54) erleidet. Die \nErschöpft\nRuhezeiten für Heilzwecke werden davon nicht beeinflusst. Schmerzeditor\nDieser Klumpen spezialisierten Nervengewebes soll sen-\nsorische Stimuli filtern. Wenn der Schmerzeditor aktiv \nist, ignoriert der Charakter alle Verletzungsmodifikato-\nist. Der Charakter fühlt keine Schmerzen – er ist in se-\nliger, gefährlicher, unbekümmerter Unwissenheit über \ndas Ausmaß des Schadens, den er erlitten hat, sofern er \nsich nicht entweder selbst untersucht (eine Handlung \nGenau beobachten\n ) oder durch einen Vitalmonitor (S. 283) informiert wird. Im aktiven Zustand erhöht der \nSchmerzeditor die Willenskraft des Charakters um 1 \nund senkt seine Intuition um 1; zusätzlich wird bei allen \nWahrnehmungsproben, die auf dem Tastsinn basieren, \nder Schwellenwert um 1 erhöht.",
+    "topic": "combat.damage",
+    "keywords": [
+      "charakter",
+      "schlaf",
+      "erschoepft",
+      "schmerzeditor",
+      "ignoriert",
+      "bevor",
+      "erleidet",
+      "erhoeht"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0122_c07",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 122, chunk 7.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 122,
+    "chunk_index": 7,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Schritt vier: Widersteht dem Schaden\nCarson würfelt mit Konstitution gegen den modiﬁ zierten \nSchadenswert des Flammenwerfers von 3K (3K – 1 wegen \ndes schwankenden Angriffs + 1 Nettoerfolg). Er erzielt 2 \nErfolge. Es sieht nicht gut aus. Der Westwind würfelt mit Rumpf 6 gegen den modiﬁ -\nzierten Schadenswert des Flammenwerfers von 7K (3K – 1 \nwegen des schwankenden Angriffs + 5 Nettoerfolge). Der \nWagen schafft 3 Erfolge. In Schritt fünf sehen wir, wie schlimm es wirklich wird! Schritt fünf: Fühl t den Schmerz\nCarson erleidet 1 Kästchen Körperlichen Schaden und erhält \nden Status \n Brennend\n. Der Westwind erleidet 4 Kästchen \nBrennend\n. Der Westwind erleidet 4 Kästchen \nBrennend\nSchaden und erhält ebenfalls den Status \nBrennend\n. Wirklich \nBrennend\n. Wirklich \nBrennend\nkein guter Tag für Carson. Mehr Bums\nSprengstoffe können so angebracht und entworfen werden, \ndass sie effektiver wirken, indem ihre Sprengwirkung in \neine Richtung konzentriert wird, um einen bestimmten \nEffekt – wie das Entfernen einer Wand oder das Zerfetzen \neiner anstürmenden Truppe – zu erzielen. Sprengwaffen \n– wie zum Beispiel Granaten, Raketen und Lenkraketen \n– wurden so entworfen, dass sie nach einer Explosion \nSchrapnell in Weichziele treiben und damit Schaden verur-\nsachen. Sie sind nicht für Abrissarbeiten gedacht, können \nSprengstoffe. Sie sind nicht dazu gedacht, Personen zu \ntöten, können dies aber mit ein wenig Kreativität be-\nwerkstelligen. All diese Vorhaben werden mit einer Sprengstoffprobe \nauf Mechanik + Logik durchgeführt.",
+    "topic": "combat.attack",
+    "keywords": [
+      "brennend",
+      "schaden",
+      "einer",
+      "schritt",
+      "carson",
+      "westwind",
+      "wirklich",
+      "erleidet"
+    ]
+  }
+}

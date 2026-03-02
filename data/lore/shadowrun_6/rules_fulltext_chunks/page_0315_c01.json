@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0315_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 315, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 315,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "SHADOWRUN: SECHSTE EDITION\n314 // Deutschland in den Scha tten // DIE ALLIANZ DEUTSCHER LÄNDER",
+    "topic": "general",
+    "keywords": [
+      "shadowrun",
+      "sechste",
+      "edition",
+      "deutschland",
+      "scha",
+      "tten",
+      "allianz",
+      "deutscher"
+    ]
+  }
+}

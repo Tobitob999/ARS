@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0278_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 278, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 278,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Audioverst ärkungen\nAudioverstärkungen sind für alle oben aufgeführten Au-\ndiogeräte als installierbare Upgrades erhältlich. Jede Au-\ndioverstärkung kann Audioinput aus der AR und anderen \nQuellen abspielen. Jede Verstärkung hat entsprechende \nKapazitätskosten. Audioverbesserung\nEine Audioverbesserung erlaubt es dem Anwender, ein brei-\nteres Spektrum an Audiofrequenzen zu hören, einschließ-\nlich Infra- und Ultraschall, die außerhalb des normalen \nmetamenschlichen Hörspektrums liegen. Der Anwender \nerkennt außerdem feinste Nuancen und kann ablenkende \nHintergrundgeräusche ausblenden. Dieses System gewährt \neinen Würfelpoolbonus von +1 für alle Wahrnehmungs-\nproben zum Hören. Richtungsdetektor\nDieses Audiozubehör lokalisiert die Quelle eines Geräu-\nsches. Der Benutzer erhält 1 Edge für seine Wahrneh-\nmungsprobe, um die Quelle eines bestimmten Geräusches \nauszumachen, aber wenn er das Edge nicht sofort ausgibt, \nverfällt es. WiFi-Vorteil: Der Charakter erhält einen Würfelpoolbo-\nnus von +1 für seine akustische Wahrnehmungsprobe, um \ndie Quelle eines Geräusches zu lokalisieren. Dieser Bonus \nkann mit anderen Würfelpoolboni kombiniert werden. Selektiver Geräuschfil ter\nDieses Zubehör filtert Hintergrundgeräusche aus und \nerlaubt dem Anwender, sich auf bestimmte Geräusche \noder Geräuschmuster zu konzentrieren. Darüber hinaus \nbietet es Sprach-, Wort- und Geräuschmustererkennung. Das System kann eine Anzahl an ausgewählten Geräusch-\ngruppen bis zu seiner Stufe laden (etwa die Schritte einer \npatrouillierenden Wache, ein bestimmtes Wort oder die \nRotorgeräusche eines näher kommenden Hubschraubers).",
+    "topic": "races",
+    "keywords": [
+      "eines",
+      "anwender",
+      "dieses",
+      "quelle",
+      "alle",
+      "jede",
+      "anderen",
+      "audioverbesserung"
+    ]
+  }
+}

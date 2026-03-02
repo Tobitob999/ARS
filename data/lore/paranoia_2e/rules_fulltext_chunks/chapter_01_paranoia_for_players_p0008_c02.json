@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_01_paranoia_for_players_p0008_c02",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_01_paranoia_for_players",
+    "chapter"
+  ],
+  "summary": "Rule chunk from Paranoia for Players page 8, chunk 2.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_01_paranoia_for_players",
+    "source_title": "Paranoia for Players",
+    "page": 8,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "But as dispensers of propaganda, HPD & MC can, ‘sway the emotions of the masses, making it in, some ways the most powerful \n‘The Armed Forces (Army) protect Alpha Com- plex against external invasion by Commie mu- tant traitors, They also supplement Internal Security against internal threats. Tough, well. trained, well-equipped members of elite units Tike the vaunted Vulture Squadrons frequent ly serve as bodyguards and handle high- priority missions within Alpha Complex. Production, Logistics and Commissary (PLC), is responsible for agricultural and industrial production and allocation of resources. It \nprepares food and stores and distributes all ‘consumer goods. PLC is only marginally more prestigious than HPD & MC. Power Services (Power) maintains the power plants and the primary habitat engineering, systems of Alpha Complex — traffic, ait, water, and waste. Disputes with Technical Services fuel a bitter rivalry between the two groups \nResearch and Design (R&D) develops new technology and equipment for use by The Computer and citizens of Alpha Complex R&D's bold advances are better known for \ntheir imaginative conception than their reliability. The Computer is unrestrained in its enthusiastic support for R&D's visionary projects Central Processing Unit (CPU) is the central supervisory and administrative authority of Alpha Complex. An entrenched bureaucracy handles records, egulations, human resource tengineering, utopian engineering, justice, and executive operations. Certain CPU agents assigned directly by The Computer to projects of special interest enjoy unparalleled autonomy and discretionary powers \nALL TROUBLE SHOOTERS REPORT FOR TERMINATION.",
+    "topic": "treason",
+    "keywords": [
+      "alpha",
+      "complex",
+      "power",
+      "computer",
+      "against",
+      "internal",
+      "well",
+      "production"
+    ]
+  }
+}

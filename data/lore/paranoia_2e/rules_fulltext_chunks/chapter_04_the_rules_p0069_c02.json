@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_04_the_rules_p0069_c02",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_04_the_rules",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The Rules page 69, chunk 2.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_04_the_rules",
+    "source_title": "The Rules",
+    "page": 69,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "raw_text": "Reduction in power is not permanent; t0 recover his power, a character must sleep. Each hour of unintereupted, restful sleep increases ‘acharacter’s power by one point. Obviously, ‘a character's power cannot be increased above its original valve. Example: A trator whose power attribute score is 12 uses his mutant power once, and the gamemaster rules that he spends 5 points in so doing, reducing his power to 7 If he tries touse his power a second time, he rolls against his reduced power of 7, whether his first power tse was sucessful or not. His power remains at 7 until he sleeps; i he gets 5 or more hours, sleep, his power is restored to 12. Guidelines for Mutant Powers \nBecause of the bewildering variety of mu- tant powers, it's hard to come up with rules, to cover them all without giving you more detail than you can remember Instead, we give you rough guidelines, and some examples, \nGi \nthen encourage you to improvise wildly and irresponsibly, ‘AS usual, experienced, iconoclastic, or in- veterately fisky GMs are encouraged to ignore rules and guidelines. WH Duration The effects of mutant powers generally last for one to five minutes, depending on the suc- ‘cess margin of the power roll and the GM's ‘dramatic needs. Of course, with five-second ‘combat founds, a minute is an eternity. And sometimes the effect is over instantaneously, like a teleport for instance, or it gets turned ‘on permanently or something — like when a levitating mutant gets stuck 100 meters in the air as thousands of loyal witnesses report this remarkable event, You never know. WH Range IF not specified, range is line of sight with ‘maximum effectiveness within 5 meters of the character.",
+    "topic": "mutations",
+    "keywords": [
+      "power",
+      "mutant",
+      "character",
+      "sleep",
+      "gets",
+      "guidelines",
+      "second",
+      "more"
+    ]
+  }
+}

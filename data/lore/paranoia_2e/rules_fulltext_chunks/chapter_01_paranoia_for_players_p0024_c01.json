@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_01_paranoia_for_players_p0024_c01",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_01_paranoia_for_players",
+    "chapter"
+  ],
+  "summary": "Rule chunk from Paranoia for Players page 24, chunk 1.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_01_paranoia_for_players",
+    "source_title": "Paranoia for Players",
+    "page": 24,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "BB roe sein PARANOIA \nBa ‘Testing experimental devices is a service to The Computer, The Computer is your friend Will you reconsider and accept assignment of this experimental device? I'yes, record an A code an your character sheet and go to 26. 11 no, record a B code on your character sheet and go 10 50 \n‘cs °° °° °°. Since records clearly indicate that you were with Edith-O and Joshua-R on this mission, it is only a matter of time before Internal Security, finds you, Flight to avoid apprehension is, deemed “sufficient. grounds for summary execution. ‘David R is ambushed and slain by a squad fof Internal Security agents, The agents receive ‘commendations for the prompt and efficient performance of their duties Treason does not pay. Serve The Computer, The Computer is your friend, \n°c °° °° © Internal Security agents, led by repors from loyal citizens concerning a man with a hand injury behaving strangely in KKD Sector, quickly apprehend you, In the absence of con: tradictory testimony, The Computer finds that, your flight to avoid apprehension is sufficient evidence of treason. You are terminated David is dead. Several agents in Internal Security feceive commendations for ther swift and efficient apprehension of a fugitive Treason does not pay. Serve The Computer. ‘The Computer is:your triend, \n7” © Edith-O has Orange reflec armor. Your shots don’t affect hee She finishes you off casually. David. is dead, Edith receives a commen- dation for dispatching. two traitors. Treason does not pay. Serve The Computer \nWiss You hear the sound of several laser discharges, then silence.",
+    "topic": "advancement",
+    "keywords": [
+      "computer",
+      "internal",
+      "security",
+      "agents",
+      "treason",
+      "edith",
+      "apprehension",
+      "david"
+    ]
+  }
+}

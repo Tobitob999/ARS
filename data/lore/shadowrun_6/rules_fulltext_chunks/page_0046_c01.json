@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0046_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 46, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 46,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Gegenst and\naufheben/ablegen (I)\nEin Charakter kann einen Gegenstand innerhalb seiner \nReichweite aufheben oder einen, den er in der Hand hält, \nablegen. Dabei lässt er eine gewisse Sorgfalt walten. Handelt \nes sich bei dem aufgehobenen Gegenstand um eine Waffe, \nso wird sie zugleich bereit gemacht. Geist herbeirufen (I)\nEin Charakter, der die Fertigkeit Beschwören beherrscht, \nkann mit dieser Haupthandlung einen Geist zu seiner Un-\nterstützung herbeirufen. Ein Geist, der bereits herbeigerufen \nwurde, wird mit der Nebenhandlung Geist befehligen (S. 43) kontrolliert. Geist verbannen (I)\nEin Charakter kann mit dieser Haupthandlung den Versuch \nunternehmen, einen Geist zu verbannen (s. Verbannen, S. 149). Genau beobachten (I)\nEin Charakter kann mittels dieser Haupthandlung etwas \ngenau beobachten oder betrachten. Diese Handlung er-\nmöglicht ihm eine Wahrnehmungsprobe (s. Wahrnehmung, \nS. 99) oder eine Askennenprobe (S. 161). Der Charakter \nkann Details wahrnehmen, die aufgrund der Hektik und \nAblenkung des Kampfes normalerweise unbeachtet bleiben. Wir gehen davon aus, dass in einer Kampfsituation jeder \nBeteiligte sich der Anwesenheit aller anderen bewusst ist – \nabgesehen vom Einsatz von Heimlichkeit oder täuschender \nMagie –, aber nicht notwendigerweise der Details ihrer \nAusrüstung und unter besonders hektischen Umständen \nmöglicherweise auch ihrer Identität. Im Kampfgetümmel \nist die Siegerin eines unübersichtlichen Zweikampfes, die \ngerade auf den Charakter zugerannt kommt, manchmal nur \nmit einer Handlung Genau beobachten zu identifizieren.",
+    "topic": "combat",
+    "keywords": [
+      "charakter",
+      "geist",
+      "einen",
+      "dieser",
+      "haupthandlung",
+      "verbannen",
+      "genau",
+      "beobachten"
+    ]
+  }
+}

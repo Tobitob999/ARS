@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0253_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 253, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 253,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Der für diese Modelle optional \nerhältliche Schalldämpfer erhöht den Schwellenwert für \nakustische Wahrnehmungsproben um 3, wenn er aufge-\nsteckt wird, und kostet 750 ¥. Berett a T-Serie\nDie Waffen der T-Serie von Beretta sind die bevorzugten \nSeitenwaffen vieler Sicherheitstruppen der Welt. Sie werden \nals leichte Pistolen klassifiziert, obwohl das Modell 201 \nzu Automatikfeuer fähig ist, was die Waffe besonders in \nLeichte Pistolen\nWAFFE\n SCHADEN\n MODUS\n ANGRIFFSWERTE\n MUNITION\n VERFÜGBARKEIT\n PREIS\nAres Light Fire 70\n 2K\n HM\n 10/7/6/–/–\n 16(s)\n 3L\n 350 ¥\nAres Light Fire 75*\n 2K\n HM\n 10/7/6/–/–\n 16(s)\n 3L\n 400 ¥\nBeretta 101T\n 2K\n HM\n 9/8/6/–/–\n 21(s)\n 2L\n 260 ¥\nBeretta 201T\n 2K\n HM/AM\n 9/8/6/–/–\n 21(s)\n 3L\n 460 ¥\nColt America L36\n 2K\n HM\n 8/8/6/–/–\n 11(s)\n 2L\n 230 ¥\nFichetti Security 600\n 2K\n HM\n 10/9/6/–/–\n 30(s)\n 3L\n 390 ¥\nRuger Redhawk\n 3K\n HM/SM\n 7/10/7/–/–\n 8(tr)\n 2L\n 250 ¥\nCol t America L36\nCol t America L36\nCol t America L36\nFichetti Security 600\nDiese als leichte Seitenwaffe für Sicherheitskräfte entwi-\nckelte Pistole erlaubt dem Benutzer dank ihres 30-Schuss- \nMagazins, wild um sich zu ballern, ohne sich Sorgen um \nseine Munition zu machen. Dadurch ist sie auch eine her-\nvorragende Waffe für Decker. Die Security 600 ist mit einer \nabnehmbaren Schulterstütze und einem Lasermarkierer \nausgestattet. Ruger Redha wk\nDieser robuste Revolver ist der kleine Bruder des legendären \nSuper Warhawk. Der Redhawk wurde im Hinblick auf \nPräzision und Ballerfreude konstruiert und weist einen revo-\nlutionären Single/Double-Action-Auswahlschalter auf.",
+    "topic": "combat.attack",
+    "keywords": [
+      "america",
+      "beretta",
+      "leichte",
+      "waffe",
+      "security",
+      "diese",
+      "serie",
+      "pistolen"
+    ]
+  }
+}

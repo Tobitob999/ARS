@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0196_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 196, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 196,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Maschinenbeherrschung:\n Du erhältst die Vorteile einer \nRiggerkontrolle der Stufe 1 (S. 285). Dieses Echo kann \nnur einmal gewählt werden. Matrixattribut-Upgrade:\n Du kannst eines der Matrixat-\ntribute deiner Lebenden Persona um 1 erhöhen. Dieses \nEcho kann mehrmals gewählt werden, aber jedes Ma-\ntrixattribut darf höchsten zweimal gesteigert werden. Neurofilter:\n Du erhältst einen Würfelpoolbonus von +1 zum \nWiderstand gegen Schaden durch Biofeedback. Dieses \nEcho darf zweimal gewählt werden. Resonanzverbindung:\n Dieses Echo erlaubt dir, mit einem \nanderen Technomancer deiner Wahl eine empathische \nEinweg-Verbindung aufzubauen. Solange ihr verbun-\nden seid, kannst du die Stimmung und Emotionen des \nanderen Technomancers erkennen. Du weißt, wenn \ndieser angegriffen wird oder unter Stress steht, Schmerz \nempfindet oder in Gefahr ist. Diese Verbindung wirkt \nnur in eine Richtung (dein Partner erfährt nichts über \ndich). Wenn aber beide dieses Echo füreinander aus-\nwählen, können sie eine Verbindung in beide Rich-\ntungen haben. Skinlink:\n Du kannst dich mit einem Gerät verbinden, als \nwürdest du ein DNI benutzen, indem du es einfach be-\nrührst. Dieses Echo kann nur einmal gewählt werden. Übertakten:\n Du beschleunigst deine Lebende Persona, \ndamit du in der Matrix schneller handeln kannst. Du \nerhältst für die VR mit heißem Sim einen zusätzlichen \nW6 für Initiative und eine zusätzliche Nebenhandlung. Beispiel: W andlung\nInterlnk hat endlich die 11 Karma, die er für seinen \nersten Wandlungsgrad braucht, um die tiefen, dunklen \nGeheimnisse der Matrix zu lernen.",
+    "topic": "combat.damage",
+    "keywords": [
+      "dieses",
+      "echo",
+      "gewaehlt",
+      "kannst",
+      "erhaeltst",
+      "verbindung",
+      "einmal",
+      "deiner"
+    ]
+  }
+}

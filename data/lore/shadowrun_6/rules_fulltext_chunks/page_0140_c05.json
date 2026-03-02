@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0140_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 140, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 140,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Gegen \nZauber, die unbelebte Dinge als Ziel haben, wird mit deren \nObjektwiderstand (siehe S. 132) widerstanden. Nettoerfolge bei der Hexereiprobe legen die Wirkungs-\ndauer des Zaubers fest – und bei unbelebten Objekten auch, \ngegen wie viel Material der Zauber wirkt. Sofern nicht \nanders angegeben, können Manipulationszauber mit der \nDauer \nZB\n maximal für eine Anzahl von Minuten gleich \nder Anzahl der Nettoerfolge bei der Hexereiprobe auf-\nrechterhalten werden. Die Standardmenge an unbelebtem \nMaterial, auf das der Zauber wirkt, ist gleich ½ Kubikmeter \npro Nettoerfolg. In der Tabelle \n Beispiele für Volumina\nfindest du Richtlinien, wie sich Kubikmeter Material in \ngewöhnliche Objekte übertragen lassen. Beispiele für Volumina\nNETTO -\nERFOLGE\n ERGEBNIS\n BEISPIEL\n1\n ½ Kubikmeter\n Einfacher \nKühlschrank\n2\n 1 Kubikmeter\n Normalgroße Couch\n3\n 1,5 Kubikmeter\n Motorrad\n4\n 2 Kubikmeter\n Müllcontainer\n5\n 2,5 Kubikmeter\n Esstisch mit acht \nStühlen\n6\n 3 Kubikmeter\n Michelangelos David\nAstralp anzerung\nREICHWEITE\n ART\n DAUER\n ENTZUG\nB\n M\n A\n 3\nDeine Magie füllt die Astralgestalt des Ziels, härtet diese \nund lässt sie Schaden besser wegstecken. Lege eine Pro-\nbe auf Hexerei + Magie ab und addiere die Erfolge zum \nSHADOWRUN: SECHSTE EDITION\nZAUBER // MAGIE // 139",
+    "topic": "magic.spells",
+    "keywords": [
+      "kubikmeter",
+      "zauber",
+      "dauer",
+      "material",
+      "magie",
+      "gegen",
+      "nettoerfolge",
+      "hexereiprobe"
+    ]
+  }
+}

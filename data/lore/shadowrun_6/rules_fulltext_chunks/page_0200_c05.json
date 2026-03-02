@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0200_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 200, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 200,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Achtet dabei darauf, dass jeder \nFahrer seinen Würfelpool entsprechend seiner derzeitigen \nGeschwindigkeit (\nGeschwindigkeitsintervall\n, S. 198) an-\npasst. Nach einer Vergleichenden Probe kann der Spielleiter \neine zusätzliche Einfache Probe auf Steuern + Reaktion \nverlangen, mit der sichergestellt wird, dass beide Fahrer \nauch das Nachspiel überstehen. Eine Zusammenfassung von Handlungen, die für Rigger \nwichtig sind, findest du in der Tabelle \nRiggerhandlungen\n. Crashs\nWenn einem Fahrer eine Handlingprobe misslingt, muss \ner sofort eine Crashprobe ablegen. Dabei handelt es sich \nebenfalls um eine Steuernprobe, deren Schwellenwert durch \nBeispiel: F ahrzeugbewegung\nTurbo Bunny beginnt eine Fahrt in ihrem Americar (sogar \ndas Bunny braucht an manchen Tagen einfach ein prak-\ntisches Transportmittel) und beschleunigt zunächst ganz \nsanft – sie erhöht die Geschwindigkeit von 0 Metern pro \nKampfrunde auf 8, da sie relativ entspannt fährt und nicht \nVollgas gibt. Ihre Ausgangsgeschwindigkeit betrug 0 und \nihre Beschleunigung 8, also bewegt sie sich in dieser \nKampfrunde (8 \n÷\n 2) Meter bzw. 4 Meter. Sie behält diese \nBeschleunigungsrate eine weitere Kampfrunde lang bei. In dieser Runde betrug ihre Ausgangsgeschwindigkeit 8, \nebenso wie ihre Beschleunigung, also hat sie sich in die-\nser Runde 8 + (8 \n ÷\n 2) Meter bzw. 12 Meter bewegt. Ihre \nderzeitige Geschwindigkeit beträgt damit 16 Meter pro \nKampfrunde – ungefähr 20 km/h. Allerdings ist Turbo Bunny mit den Zahlungen an ihren \nBTL-Dealer in Verzug, und er hat ein paar Schläger auf sie \nangesetzt, die das Geld eintreiben sollen. Sie bemerkt die \nVerfolger im Rückspiegel und tritt das Gaspedal durch.",
+    "topic": "movement",
+    "keywords": [
+      "ihre",
+      "meter",
+      "kampfrunde",
+      "fahrer",
+      "geschwindigkeit",
+      "sich",
+      "bunny",
+      "dabei"
+    ]
+  }
+}

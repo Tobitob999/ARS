@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0.0",
+  "category": "covert_agenda",
+  "id": "society_op_16",
+  "name": "Frankenstein Destroyers Covert Agenda 16",
+  "tags": [
+    "paranoia_2e",
+    "secret_society",
+    "covert"
+  ],
+  "summary": "Hidden objective package used by Frankenstein Destroyers cells.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "society": "Frankenstein Destroyers",
+    "goal": "frame_rival_society",
+    "cover_story": "maintenance_task",
+    "blowback": "clone_review"
+  }
+}

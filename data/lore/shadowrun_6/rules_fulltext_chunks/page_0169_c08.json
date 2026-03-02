@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0169_c08",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 169, chunk 8.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 169,
+    "chunk_index": 8,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Vielleicht besteht sie aus \nGesang, Schlachtenrufen, rituellen Gesten oder anderem. Solange sie deinen Geist und Körper in Einklang bringt, ist \ndas in Ordnung. Das Durchführen der Zentrierungshand-\nlung erfordert eine Nebenhandlung. Fixierung\nDu lässt Karma in ein alchemistisches Erzeugnis fließen, \num es länger haltbar zu machen. Wenn du das Erzeugnis \nherstellst, kannst du zwischen 1 Karma und [Wirksamkeit \ndes Erzeugnisses] Karma ausgeben. Wenn die Wirksamkeit \ndes Erzeugnisses zu schwinden beginnt, verliert es 1 Stufe \nWirksamkeit pro Tag statt pro [gegenwärtige Wirksamkeit \n× 2] Stunden. Außerdem erhält das Erzeugnis beim Wider-\nSHADOWRUN: SECHSTE EDITION\n168 // MAGIE // INITIA TION",
+    "topic": "sanity",
+    "keywords": [
+      "wirksamkeit",
+      "karma",
+      "erzeugnis",
+      "vielleicht",
+      "besteht",
+      "gesang",
+      "schlachtenrufen",
+      "rituellen"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_07_tips_for_traitors_p0141_c02",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_07_tips_for_traitors",
+    "chapter"
+  ],
+  "summary": "Rule chunk from Tips for Traitors page 141, chunk 2.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_07_tips_for_traitors",
+    "source_title": "Tips for Traitors",
+    "page": 141,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "Destroying or Losing Assigned Equipment Possessing Unauthorized Information or Equipment Refusing the Assignment of Experimental Equipment Being Accused of Treason by Another ‘Ghizen Making a False Accusation of Treason \nRaBss oxous \nLoyal Act \nExecuting a Traitor ‘Turning a Traitor Over to Internal Security Unmasking a Taitor Who is Executed By Someone Else ing a Mission Receiving a Commendation from a Superior Testing Experimental Equipment, Protecting it From Damage, and Filing a Repor of Test Results Being Extemely Happy \nuals the difference in security clearance.",
+    "topic": "combat.damage",
+    "keywords": [
+      "equipment",
+      "experimental",
+      "being",
+      "treason",
+      "traitor",
+      "security",
+      "destroying",
+      "losing"
+    ]
+  }
+}

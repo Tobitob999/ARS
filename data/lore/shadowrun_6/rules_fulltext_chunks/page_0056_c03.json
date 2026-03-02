@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0056_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 56, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 56,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Verschleiert\nEtwas stört deine Verbindung zur Astralebene und macht es \ndir unmöglich, dorthin zu gelangen. Oder noch schlimmer: \nFalls du schon dort bist, kommst du nicht mehr zurück. Ein Charakter in diesem Status ist unfähig, sich zwischen \nder Astralebene und der physischen Ebene hin und her zu \nbewegen. Er kann sich nicht astral projizieren oder mani-\nfestieren. Astral wahrnehmen kann er jedoch noch. Versteinert\nEs hat schon seinen Grund, dass man Basilisken lieber aus \ndem Weg geht, und das ist dieser Status. Der Charakter wird \nin eine feste, starre Substanz verwandelt. Er kann keine \nHandlungen ausführen und erhält einen Verteidigungswert \nvon +10. Dieser Status hebt jeden anderen Schaden ver-\nursachenden Status auf, in dem sich der Charakter zuvor \nbefunden haben mag. Verwirrt #\nFarben, Muster und verrückte Gedanken wirbeln durch \ndeinen Kopf und erschweren deine Konzentration, wo-\ndurch dein Handeln unkoordiniert und ungeschickt wird. Die Zahl hinter dem Namen des Status gibt den Würfel-\npoolmalus für alle Handlungen an, die du auszuführen \nversuchst. Charakter-\nMet a typen\nDie Spielercharaktere im Shadowrun-Universum gehören \neinem von fünf Metatypen an (jedenfalls im Grundregel-\nwerk; weitere spielbare Metatypen werden in zukünftigen \nBüchern vorgestellt). Sie haben unterschiedliche Größen \nund Staturen, aber alle haben sie das Potenzial, für einige \nUnruhe in den Schatten zu sorgen. Es folgen die wichtigsten \nInformationen zu den Metatypen.",
+    "topic": "astral",
+    "keywords": [
+      "status",
+      "charakter",
+      "sich",
+      "metatypen",
+      "deine",
+      "astralebene",
+      "noch",
+      "schon"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0066_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 66, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 66,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Näheres zu Edge und seinen \nEinsatzmöglichkeiten findest du ab Seite 46. A ttribute\nBei der Charaktererschaffung können Attribute Werte von \n1 bis 6 erhalten. Diese Bandbreite wird durch den Metatyp \nund/oder Vor- und Nachteile verändert. Die Tabelle \nAttribu-\nte nach Metatyp\n gibt diese Bandbreiten für alle Metatypen \nsowie die Vorteile (siehe S. 74) an, die gewisse Metatypen \nzusätzlich erhalten. Wenn ein Körperliches oder Geistiges \nAttribut durch Magie oder andere Effekte jemals den Wert \n0 erreicht, bricht der Charakter zusammen und kann erst \nwieder Handlungen durchführen, wenn das betreffende \nAttribut wieder mindestens den Wert 1 erreicht hat. Körperliche und Geistige Attribute sowie Edge beginnen \njeweils bei 1 und werden ab da gesteigert. Bei der Charakter-\nerschaffung kann nur eines der Körperlichen und Geistigen \nAttribute den Höchstwert für den jeweiligen Metatyp errei-\nUnterschiedliche \nSpielniveaus\nDie Regeln dieses Kapitels beschreiben das übliche \nSpielniveau für \n Shadowrun\n, aber das bedeutet nicht, \ndass man nur auf diesem Niveau beginnen kann. Manche Spieler wollen ihren Runnern vielleicht einen \nkleinen Startvorteil verschaffen, sodass sie mit er-\nfahreneren, fähigeren Charakteren beginnen. Andere \nschätzen vielleicht die Herausforderung, mit weniger \nfähigen Charakteren zu beginnen und zu sehen, ob \ndiese lange genug überleben können, um zu Straßen-\nlegenden zu werden. Das Erschaffen von einfachen Straßenrunnern ist \nleicht: Wähle die Prioritäten wie üblich aus, aber ver-\nwende die Werte aus der Zeile unterhalb der gewählten \nPriorität.",
+    "topic": "magic",
+    "keywords": [
+      "beginnen",
+      "attribute",
+      "diese",
+      "metatyp",
+      "edge",
+      "werte",
+      "erhalten",
+      "durch"
+    ]
+  }
+}

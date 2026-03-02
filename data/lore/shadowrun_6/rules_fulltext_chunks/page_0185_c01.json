@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0185_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 185, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 185,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Sondieren\n(illegal) Cracken + Logik gegen Willens-\nkraft + Firew all oder Firew all × 2 (1 Minute)\nGast/User/Admin\nDiese Handlung ist mit dem Attribut Schleicher verbunden. Du suchst nach Schwachpunkten bei einem Gerät, Host \noder PAN, um einen Zugang zu erhalten. Du lässt dir Zeit, \num möglichst unauffällig zu sein, keinen Alarm auszulösen \nund unauffällig eine Hintertür zu schaffen, die du später \nbenutzen kannst. Das heißt, dass du für diese Handlung \netwa 1 Minute brauchst (in der Matrix eine halbe Ewigkeit). Sondieren ist nicht so schnell wie Brute Force, löst dafür \naber auch nicht automatisch Alarm aus. Selbst wenn du mit \ndem ersten Versuch scheiterst, wird kein Alarm ausgelöst, \nwenn dir keine schweren Fehler (lies: ein Patzer) unterlau-\nfen. Systeme und Geräte erkennen deine Gegenwart erst, \nwenn du Zugang zu ihnen erhalten hast. Indem du bei \neinem Gerät Sondieren einsetzt, kannst du eine bleibende \nHintertür ins System einrichten. Sobald du die Hintertür geschaffen hast, kannst du spä-\nter die Handlung Hintertür benutzen durchführen. Net-\ntoerfolge beim Sondieren zählen als Würfelpoolbonus auf \ndie zukünftige Handlung Hintertür benutzen, wenn diese \ngegen das betroffene Gerät abgelegt wird. Wie lange diese \nHintertür erhalten bleibt, hängt von dem Gerät oder Host \nab: Im Allgemeinen bleibt sie für [10 – Host-/Gerätestufe] \nStunden bestehen, oder bis das Gerät/der Host neu gestartet \nwird (je nachdem, was eher passiert). Teergrube\n(illegal) Cracken + Logik gegen Da ten-\nverarbeitung + Firew all oder Logik + \nFirew all (Haupthandlung)\nGast/User/Admin\nDiese Handlung ist mit dem Attribut Angriff verbunden. Manchmal willst du so viel Schmerz zufügen wie mög-\nlich.",
+    "topic": "matrix",
+    "keywords": [
+      "hintertuer",
+      "diese",
+      "handlung",
+      "geraet",
+      "sondieren",
+      "firew",
+      "host",
+      "logik"
+    ]
+  }
+}

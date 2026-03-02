@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0296_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 296, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 296,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Kul tivierte Biow are\nIMPLANTAT\n STUFE\n ESSENZ\n VERFÜGBARKEIT\n PREIS\nMnemoverstärker\n 1–3\n Stufe \n×\n 0,1\n 5\n Stufe \n×\n 9.000 ¥\nReﬂ exrekorder (Fertigkeit)\n –\n 0,1\n 5\n 14.000 ¥\nSchadenskompensator\n 1–12\n Stufe \n×\n 0,1\n 5L\n Stufe \n×\n 2.000 ¥\nSchlafregulator\n –\n 0,1\n 5\n 12.000 ¥\nSchmerzeditor\n –\n 0,3\n 5I\n 48.000 ¥\nSynapsenbeschleuniger\n 1–3\n Stufe \n×\n 0,5\n 5L\n Stufe \n×\n 95.000 ¥\nZerebralbooster\n 1–3\n Stufe \n×\n 0,2\n 5\n Stufe \n×\n 31.500 ¥\nToxine: \nVerfügbarkeit und K osten\nTOXIN\n VERFÜGBARKEIT\n PREIS \n(PRO DOSIS)\n(PRO DOSIS)\nBrechreiz-Gas\n 3L\n 25 ¥\nCS-/Tränengas\n 2L\n 20 ¥\nGamma-Skopolamin\n 7I\n 200 ¥\nNarcoject\n 4L\n 50 ¥\nNeuro-Stun VIII\n 5L\n 60 ¥\nNeuro-Stun XI\n 6L\n 60 ¥\nNeuro-Stun X\n 7L\n 100 ¥\nPepper Punch\n –\n 5 ¥\nSHADOWRUN: SECHSTE EDITION\nTOXINE UND DROGEN // Ausrüstung // 295",
+    "topic": "combat.damage",
+    "keywords": [
+      "stufe",
+      "verfuegbarkeit",
+      "neuro",
+      "stun",
+      "preis",
+      "toxine",
+      "dosis",
+      "tivierte"
+    ]
+  }
+}

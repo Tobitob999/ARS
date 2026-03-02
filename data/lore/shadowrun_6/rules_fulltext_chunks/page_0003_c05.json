@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0003_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 3, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 3,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "69\nKauf deine Ausrüstung ...............69\nDer letzte Schliff ......................70\nConnections .........................................70\nWissens- und Sprachfertigkeiten .........70\nLetzte Berechnungen ............................70\nCharakter entwicklung ................71\nVor- und Nachteile ....................73\nVorteile .................................................74\nNachteile ..............................................77\nARCHETYPEN ...............................83\nAdept ................................... 84\nKampfmagierin ........................85\nSpezialist für \nverdeckte Operationen ...............86\nDeckerin ................................87\nUnterhändler .......................... 88\nRiggerin ................................89\nStraßensamurai .......................90\nStraßenschamanin ....................91\nTechnomancer .........................92\nWaffenspezialistin ....................93\nFERTIGKEITEN ..............................94\nZeig, was du draufhast...............",
+    "topic": "skills",
+    "keywords": [
+      "letzte",
+      "nachteile",
+      "kauf",
+      "deine",
+      "ausruestung",
+      "schliff",
+      "connections",
+      "wissens"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_04_the_rules_p0085_c02",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_04_the_rules",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The Rules page 85, chunk 2.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_04_the_rules",
+    "source_title": "The Rules",
+    "page": 85,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "raw_text": "At shorter wavelengths, they can blanket the earth, while at longer wavelengths they can reach to the horizon or line of sight, They are not portable, and are usually installed in vehicles (e.g, flybots). They are rarely used inside Alpha. Complex, as their signals are strong enough to disrupt regular civilian communications, \nCom IV; The ultimate in communication power. They can broadcast simultaneously on ‘up to 100 different wavelengths. They have in- pput jacks which permit various telemetry devices to be connected. For example, an elec tronic thermometer could be connected, and the unit would then broadcast a signal in- dicating the current temperature on a wave- length chosen by the user. These units are most \noften installed in unmanned probes or in sophisticated robot units, Their transmission rate is extremely high, the equivalent of modern-day space probes, \nStandard Communications \nProcedures \nCharacters are required togemain in com- munication with Alpha Complex at all times, Failure to do so is reason (but more likely to result in treason points than actual execution) ‘On long-range expeditions, each characteris. required to carry a com tl, unless the party is equipped with a flybot or other vehicle with 1 comIl, Il, or IV. In the later case, characters cary com 15; their transmissions are relayed to The Computer by the more powerful unit, ‘Coms eartied by characters transmit con- Linually, so The Computer can monitor what goes on. Com units can be turned off, but a ‘character who wishes to turn his com off must fist obtain permission from The Computer If itis tured off without proper authorization he ears treason points.",
+    "topic": "general",
+    "keywords": [
+      "they",
+      "wavelengths",
+      "their",
+      "units",
+      "characters",
+      "computer",
+      "installed",
+      "alpha"
+    ]
+  }
+}

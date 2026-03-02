@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0285_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 285, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 285,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Das ist für Hacker, die \nviel unterwegs sind, \nsehr praktisch und \nwird deshalb oft von \nG-Men und Militär-\ndeckern verwendet. Das Lahmlegen eines \nHeadware-Decks ver-\nursacht 8K Schaden, gegen \nden mit Konstitution Widerstand \ngeleistet wird. Da tenbuchse\nEine Datenbuchse verleiht dem Benutzer ein direktes \nNeuralinterface (siehe S. 175). Außerdem ist sie mit einer \neinziehbaren Spule Mikrokabel (etwa einen Meter lang) \nausgestattet, mit dem man sich über einen Universal-Daten-\nport direkt mit jedem elektronischen Gerät verbinden kann. Datenbuchsen sind mit ihrem eigenen Speicher ausgestattet, \num Dateien herunterzuladen oder zu speichern. Zwei Da-\ntenbuchsenbesitzer können sich mit einem Glasfaserkabel \nverbinden, um eine private mentale Unterhaltung zu führen, \ndie nicht abgehört werden kann. Da tenschloss\nDiese spezielle Datenbuchse ist bei Kurieren, Spionen, Di-\nplo maten und Verbindungsleuten beliebt. Das Datenschloss \nverwandelt den Charakter praktisch in einen wandelnden \nDatensafe. Es hat eine Gerätestufe in Höhe seiner Stufe \nund schützt die Daten vor allen Unbefugten (was auch \nden Träger des Datenschlosses selbst einschließen kann). Datenschlösser sind nicht WiFi-fähig; auf sie kann nur über \nden Universal-Datenport zugegriffen werden. Tatsächlich \nhat auch der Träger des Implantats keinen mentalen Zugriff \nauf die Daten – er ist nur der Überbringer. Stufe 5\n 8/7\n +2\n 2,6\n 5L\n 140.000 ¥\nStufe 6\n 9/8\n +2\n 3\n 6L\n 210.000 ¥\nÜbersteuern von Bodytech\nCyberware kann über ihr Maximum hinaus belastet wer-\nden, aber das birgt immer das Potenzial für Probleme.",
+    "topic": "combat.damage",
+    "keywords": [
+      "einen",
+      "daten",
+      "stufe",
+      "praktisch",
+      "ausgestattet",
+      "sich",
+      "universal",
+      "verbinden"
+    ]
+  }
+}

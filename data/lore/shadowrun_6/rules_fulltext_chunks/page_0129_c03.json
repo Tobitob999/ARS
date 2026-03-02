@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0129_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 129, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 129,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "75)\nDiese gefährliche Kombination starker Drogen wird von \nTroll-Gangern bevorzugt und ist ein hoch wirksames Sti-\nmulans, das einen Konsumenten leicht töten kann. Nach-\ndem die Wirkung der Droge endet, erleidet der Charakter \n9B Schaden (ohne Widerstandsprobe) und so lange, wie die \nDroge gewirkt hatte, einen Würfelpoolmalus von -2 auf alle \nProben (auch Schadenswiderstandsproben). Nitro-Konsu-\nmenten fühlen sich voller Energie, haben eine verminderte \nAufmerksamkeitsspanne und reden ununterbrochen (auch \nmit sich selbst). Nov acoke\nV ektor: Inhalation, Injektion\nGeschwindigkeit: 1 Kampfrunde\nDauer: [10 – Konstitution] Stunden, mindestens 1 Stunde\nKraft: 12\nWirkung: Reaktion +1, Charisma +1, Wahrnehmung +1, \nHohe Schmerztoleranz (S. 75)\nDas Stimulans Novacoke wird aus Kokapflanzen gewon-\nnen und ist eine höchst suchterzeugende Freizeitdroge. Nach \ndem Ende der Wirkung werden Charisma und Willenskraft \nfür eine Zeitdauer, die der ursprünglichen Wirkungsdauer \nentspricht, auf 0 gesenkt. Psyche\nV ektor: Einnahme\nGeschwindigkeit: 10 Minuten\nDauer: [12 – Konstitution] Stunden, mindestens 1 Stunde\nKraft: 8\nWirkung: Logik +1, Intuition +1\nDiese Designerdroge wird vor allem von Zauberern und \nTechnomancern geschä tzt. Neben der oben beschriebenen \nWirkung wird bei Erwachten und Emergenten der Wü r-\nfelpoolmalus fü r das Aufrechterhalten von Zaubern bzw. Komplexen Formen auf -1 (statt der ü blichen -2) gesenkt. Psyche-Konsumenten sind zugleich extrem aufmerksam \nund entrü ckt, verlieren sich leicht in Details und widmen \nsich zwanghaft bestimmten Tatsachen oder Problemen.",
+    "topic": "combat.damage",
+    "keywords": [
+      "wirkung",
+      "sich",
+      "diese",
+      "einen",
+      "konsumenten",
+      "leicht",
+      "droge",
+      "ektor"
+    ]
+  }
+}

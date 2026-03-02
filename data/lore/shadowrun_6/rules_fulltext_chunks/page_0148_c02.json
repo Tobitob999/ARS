@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0148_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 148, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 148,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Der Fluch kann \ngegen jedes Ziel, innerhalb oder außerhalb der Sichtwei-\nte des Ritualleiters, gewirkt werden, solange die Materielle \nVerbindung vorhanden und brauchbar ist. Wenn der Zauber \nmehrere Opfer treffen soll, muss zu jedem einzelnen Opfer \neine Materielle Verbindung bestehen. Die Materielle Verbindung wird bei Schritt 4 (Reagenzi-\nen ausgeben) verwendet und durch das Ritual vernichtet. Der Zauber wird normal gewirkt (wenn anwendbar, mit \nTeamwork), mit allen erforderlichen Proben und dem ent-\nsprechenden Entzug. Während der Dauer des Rituals besteht eine Verbindung \nzwischen dem Ziel und der Ritualgruppe, solange der Zau-\nber aufrechterhalten wird. Es ist möglich, diese Verbindung \nastral wahrzunehmen und bis zum physischen Aufenthalts-\nort der Ritualgruppe zurückzuverfolgen. Das Ritual braucht zur Vollendung 3 Stunden. Herrschaft\n(Verankert, Zauber)\nSchwellenwert: 6\nDieses Ritual erhält einen Manipulationszauber mit Flä-\nchenwirkung aufrecht. Der Wirkungsbereich des Zaubers \nentspricht einer Kugel mit einem Radius gleich dem Magie-\nattribut des Ritualleiters in Metern. Die Wirkung hängt von \nden Nettoerfolgen beim Besiegeln ab. Die Wirkung hält einen \nGrundzeitraum von 1 Stunde an, der für jeden Nettoerfolg \nbeim Besiegeln verdoppelt wird (also 2, 4, 8 usw.). Das Ritual braucht zur Vollendung 4 Stunden. Hüter\n(Verankert)\nSchwellenwert: 6\nDies ist ein einfaches Ritual, das viele Zauberer lernen. Es erschafft eine Manabarriere (S. 163) mit einer Kraftstufe \ngleich dem Magieattribut des Ritualleiters plus der Anzahl \nder Nettoerfolge beim Besiegeln in Schritt 6.",
+    "topic": "magic.spells",
+    "keywords": [
+      "verbindung",
+      "ritual",
+      "materielle",
+      "zauber",
+      "beim",
+      "besiegeln",
+      "ziel",
+      "gewirkt"
+    ]
+  }
+}

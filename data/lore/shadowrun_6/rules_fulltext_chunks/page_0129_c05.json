@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0129_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 129, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 129,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Kamikaze-Konsumenten sind fast völlig durchgeknallt, voll \neines Gefühls der Unantastbarkeit und Unbesiegbarkeit, \nund kümmern sich fast gar nicht um die eigene Sicherheit. Es kann unterhaltsam sein, sie zu beobachten, solange man \nihnen nicht gegenübersteht. Long Haul\nV ektor:\n Injektion\nGeschwindigkeit:\n 10 Minuten\nDauer:\n 4 Tage\nKraft:\n 11\nWirkung:\n Hebt das Schlafbedürfnis auf. Long Haul ist eine Kombination aus synthetischen Hor-\nmonen und anderen hirnregulierenden Chemikalien, stimu-\nliert das Gehirn und hält den Konsumenten wach, indem \ndas Schlafbedürfnis umgangen wird. Ein Charakter unter \ndem Einfluss von Long Haul kann vier Tage lang wach blei-\nben, ohne unter Malus durch Erschöpfung oder Schwäche \nzu leiden. Nach dieser Zeitspanne wird er allerdings sofort \nohnmächtig und schläft 8W6 Stunden lang tief und fest. Wenn der Charakter in dieser Zeit wach gehalten wird, \nleidet er unter dem Status \nErschöpft I\n (S. 54), weil er Hallu-\nErschöpft I\n (S. 54), weil er Hallu-\nErschöpft I\nzinationen und Konzentrationsstörungen erlebt. Wenn eine \nzweite Dosis genommen wird, nachdem die erste zu wirken \naufgehört hat, kann der Charakter weitere [1W6 ÷ 2] Tage \nwach bleiben, erhält dabei aber den Status \nErschöpft I\n. Eine \ndritte Dosis sorgt für einen einzigen Tag des Wachseins \nund dabei für den Status \n Erschöpft II\n. Eine vierte Dosis \nergibt noch einen Tag und den Status \nErschöpft III\n. Danach \nhaben zusätzliche Dosen keine weitere Wirkung, und der \nKonsument erleidet 12B Schaden (ohne Widerstandsprobe), \nwird wie oben beschrieben ohnmächtig und schläft. Long \nHaul kann einen Charakter nicht über diesen Punkt hinaus \nwach halten, egal, wie viele Dosen er bekommt.",
+    "topic": "movement",
+    "keywords": [
+      "erschoepft",
+      "wach",
+      "long",
+      "haul",
+      "charakter",
+      "status",
+      "tage",
+      "dosis"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0198_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 198, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 198,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Daher kommen seine Körper-\nlichen Attribute bei Proben für hineingesprungen gesteuerte \nGeräte nicht zum Einsatz. Die Tabelle \nRiggerkontrolle\n gibt \nan, welche Attribute stattdessen verwendet werden. Ein per \nVR in ein Fahrzeug oder eine Drohne hineingesprungener \nRigger verwendet also zum Beispiel Steuern + Intuition \nstatt Steuern + Reaktion. Wenn sich ein Rigger während eines Crashs in seinem Fahr-\nzeug befindet, nutzt er allerdings trotzdem sein Konstitutions-\nattribut, um dem Schaden durch den Crash zu widerstehen, \nda sein Körper physisch vor Ort ist. Weitere Informationen \nüber Crashs findest du im Abschnitt \nCrashs\n (S. 200). Riggen über die Ma trix\nEgal ob du in der AR oder der VR riggst: Du nutzt dabei \ndie Matrix, also betreffen dich sämtliche Aspekte, die auch \nsonst für den Umgang mit der Matrix gelten. Sofern du \nnicht hineingesprungen bist, kann das Fahrzeug oder die \nDrohne, das oder die du kontrollierst, gehackt werden. Wenn du hineingesprungen bist, zieht deine Persona die \nganze feindliche Aufmerksamkeit von Gegnern in der Ma-\ntrix auf sich! Wie bei der normalen Matrixnutzung arbeitest du ent-\nweder in der AR oder VR, um mit deiner Hardware zu \ninteragieren. Mit der Handlung \nInterfacemodus wechseln\n(S. 182) kannst du zwischen beiden Modi wechseln. Verteidigung gegen Hacking\nHacker folgen einer einfachen Grundprämisse: Alles, \nwas online ist, kann – und sollte – gehackt werden. Das \nmacht auch geriggte Fahrzeuge und Drohnen zu mög-\nlichen Zielen. Rigger investieren deshalb einiges an Zeit \nund Mühe, um ihre Ausrüstung zu schützen, was auch \ndie großzügige Verwendung der Handlung \nVolle Matrix-\nabwehr\n (S. 184) mit einschließt.",
+    "topic": "combat.damage",
+    "keywords": [
+      "hineingesprungen",
+      "rigger",
+      "crashs",
+      "matrix",
+      "koerper",
+      "lichen",
+      "attribute",
+      "verwendet"
+    ]
+  }
+}

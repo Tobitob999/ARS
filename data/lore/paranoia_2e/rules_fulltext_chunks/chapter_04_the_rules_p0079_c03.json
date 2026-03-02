@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_04_the_rules_p0079_c03",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_04_the_rules",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The Rules page 79, chunk 3.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_04_the_rules",
+    "source_title": "The Rules",
+    "page": 79,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "raw_text": "(if using the malfunction rules, the malfune tion number decreases by 1 each time, so on the seventh shot, the weapon malfunctions on, a skill roll of 19 or 20; on the eighth, on a roll (of 18, 19 oF 20; and so on.) Each laser barrel can shoot a beam of only ‘one color of the security clearance spectrum. The main body of a laser weapon can be ‘mounted with a barrel of any color (although possessing a barrel that shoots a beam of higher clearance than your own is treason). Reflec armor is designed to reflect all laser fire of its wearer's color and below. See page 64 for more details ‘aditionally, each laser barrel is manufac tured with six rings around the snout, each the same color as the barrel’s beam. Each time the ‘weapon is fired, one of the rings changes col- or. Aglance at the weapon reveals how many shots remain, and the barrel’s color \nMalfunction: Ifa laser pistol or rifle malfunc- tions, it emits a high-pitched beeping sound. Within a few combat rounds (roll the die, and halve the number rolled, rounding down, to determine how many) it explodes. The game ‘master must roll on the Damage Table for each being within 3 meters of the weapon at that time; treat the explosion as a “PS” attack. Remedy: A successful weapon skill roll prevents the explosion, but the weapon is ‘unusable thereafter, \n[i ) Slugthrowers and Cone Rifles * Slugthrowers are a development of the modem hand-gun, semi-automatic rifle, and SMG. Cone rifles are neither cone-shaped nor rifles, but a development of the modem ‘bazooka. Both can fire a variety of different shells, Ammunition for both weapons are aalable in these forms * Solid slugs are solid metal slugs which do damage by impact.",
+    "topic": "combat.defense",
+    "keywords": [
+      "weapon",
+      "barrel",
+      "roll",
+      "laser",
+      "color",
+      "time",
+      "beam",
+      "cone"
+    ]
+  }
+}

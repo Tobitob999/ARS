@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0223_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 223, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 223,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Gegen Lebewesen, die nicht von dieser Kraft beeinflusst \nwerden wollen, muss der Critter eine Vergleichende Probe \nauf Willenskraft + Magie gegen Willenskraft + Logik ab-\nlegen. Gelingt die Probe, erhält das Ziel für [Nettoerfolge \ndes Critters] Runden den Status \n Humpelnd\n (S. 54). Diese Kraft gegen Fahrzeuge einzusetzen, ist schwie-\nriger als gegen Critter oder Charaktere. Ist das Ziel ein \nFahrzeug, legt der Critter eine Probe auf Willenskraft + \nMagie mit einem Schwellenwert ab, der der Hälfte des \nRumpfwertes des Fahrzeugs (aufgerundet) entspricht \nund mindestens 2 beträgt. Gelingt die Probe, werden die \nNettoerfolge mit der Beschleunigung des Fahrzeugs mul-\ntipliziert und das Ergebnis in der nächsten Kampfrunde \nzur Fahrzeuggeschwindigkeit hinzuaddiert (oder davon \nsubtrahiert), als würde das Fahrzeug normal beschleu-\nnigen oder abbremsen. Der Critter kann weiter in jeder \nKampfrunde, in der er die Kraft aufrechterhält, Proben \nauf Willenskraft + Magie ablegen, um das Fahrzeug zu \nbeschleunigen oder zu verlangsamen, solange es sich in \nseiner Domäne/seinem Territorium befindet. Je nach Situ-\nation können die plötzlichen Geschwindigkeitsänderungen \neine Crashprobe (S. 200) oder eine Steuern-Probe für das \nFahrzeug erforderlich machen. Bewusstsein\nART\n HANDLUNG\n REICHWEITE\n DAUER\nM\n Auto\n Selbst\n Immer\nCritter mit der Kraft Bewusstsein sind sich ihrer selbst be-\nwusst, werden nicht mehr primär vom Instinkt getrieben und \nbesitzen im Allgemeinen eine ähnliche Intelligenz wie der \nHomo sapiens. Die meisten Critter gelten als ahnungslos\n,\n was \nbedeutet, dass sie keine Proben auf Fertigkeiten ablegen kön-\nnen, die sie nicht besitzen.",
+    "topic": "magic",
+    "keywords": [
+      "critter",
+      "probe",
+      "gegen",
+      "kraft",
+      "willenskraft",
+      "fahrzeug",
+      "magie",
+      "gelingt"
+    ]
+  }
+}

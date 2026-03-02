@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0020_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 20, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 20,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Da sich Technologie und Magie simultan entwickel-\nten, hatten auch alle Nicht-Erwachten die Chance, kon-\nkurrenzfähig zu bleiben. Operationen, die schon damals \nebenso normal waren wie eine Zahnreinigung, wurden \nzur Notwendigkeit, wenn man in dieser neuen Welt nicht \nabgehängt werden wollte. Es ist praktisch unmöglich, ohne \neine Datenbuchse in einem Bürojob zu arbeiten. „Frisch-\nfleisch“ gilt als ineffizient. Wenn die Bodytech so teuer \nist, dass man sie sich nicht direkt leisten kann, dann gibt \nes andere Optionen. Shadowrunner sind der Inbegriff des \nHightech-Abschaums. Besorgt euch gebrauchte Bodytech. Macht einen Deal mit einem Lieferanten oder lokalen \nDoc und arbeitet als Gegenleistung für die Cyberware \nals Schläger. Bietet euch Gruppen wie den Grey Brothers \nals Versuchskaninchen für experimentelle Bodytech an. Cyberware sorgte dafür, dass wieder Chancengleichheit \nherrschte. Und sie gab uns die Möglichkeit, zu etwas \nBesonderem zu werden. Ihr könnt euch entscheiden, Ha-\ncker zu werden, und euch Implantate zulegen, die eure \nFähigkeiten bei der Interaktion mit der Matrix verbessern. Oder ihr beschließt, als Rigger zu arbeiten, und lasst euch \ndas wertvolle Fleisch entlang eurer Wirbelsäule durch \neine Riggerkontrolle ersetzen. Ihr könnt euch ballistische \nPanzerplatten unter die Haut implantieren lassen, um eure \nÜberlebenschancen im Feuergefecht zu erhöhen. Oder \nihr lasst euch federgelagerte Waffen in die Unterarme \neinbauen, um im Nahkampf niemals unbewaffnet zu sein. Vielleicht setzt ihr auf Unauffälligkeit und entscheidet \neuch daher für möglichst menschlich wirkende Cyberware.",
+    "topic": "magic",
+    "keywords": [
+      "euch",
+      "bodytech",
+      "cyberware",
+      "sich",
+      "einem",
+      "arbeiten",
+      "fleisch",
+      "koennt"
+    ]
+  }
+}

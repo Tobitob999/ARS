@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0197_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 197, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 197,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Riggen\nDecker und Technomancer verwenden Code, um Informa-\ntionen zu sammeln und Hardware per Fernzugriff unter \nihre Kontrolle zu bringen. Rigger hingegen verfolgen eine \neher praktische Herangehensweise. Sie verschmelzen ihr \nBewusstsein direkt mit der Hardware – Drohne oder Fahr-\nzeug –, die sie kontrollieren wollen. Ein Rigger steuert ein Fahrzeug nicht nur, er wird zu \ndiesem Fahrzeug. Er spürt jeden Riss im Asphalt unter \nseinen Reifen und jeden Scherwind entlang der Tragflächen \nseines Flugzeugs. Die Grundlagen\nRigger können ihre Fahrzeuge natürlich auch einfach so \nsteuern wie alle normalen Leute. Aber was einen Rigger \nausmacht, ist seine Fähigkeit, direkt in seine Fahrzeuge und \nDrohnen „hineinzuspringen“. Deswegen hat jeder echte \nRigger eine Riggerkontrolle (S. 285) oder ist ein Techno-\nmancer mit dem entsprechenden Echo (S. 195). Rigger \nkönnen sowohl in der AR als auch in der VR riggen, und \nzwar sowohl mit kaltem als auch mit heißem Sim. Dafür \nhaben sie dieselbe Grundanzahl an Initiativewürfeln wie \nDecker, die in VR in die Matrix tauchen. Fahrzeuge und Drohnen können immer nur von einer \nPerson gleichzeitig gesteuert werden, und diese Person kann \nimmer nur eine Steuerungsart (manuell, Fernsteuerung, \nhineingesprungen) gleichzeitig verwenden. Wenn man per \nFernsteuerung riggt (wofür man eine Riggerkonsole, S. 197, \nbraucht), kommen Rauschen-Modifikatoren zum Tragen \n(siehe S. 177). Wie andere Geräte verfügen auch Fahrzeuge und Droh-\nnen über einen einzelnen Zustandsmonitor mit [Rumpf ÷ \n2, aufgerundet] + 8 Kästchen. Für jeweils drei ausgefüllte \nSchadenskästchen steigt ihr Handling (siehe S. 198) um \n+1.",
+    "topic": "matrix",
+    "keywords": [
+      "rigger",
+      "fahrzeuge",
+      "riggen",
+      "decker",
+      "verwenden",
+      "hardware",
+      "ihre",
+      "direkt"
+    ]
+  }
+}

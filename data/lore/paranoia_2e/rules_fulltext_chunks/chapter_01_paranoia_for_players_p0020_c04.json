@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_01_paranoia_for_players_p0020_c04",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_01_paranoia_for_players",
+    "chapter"
+  ],
+  "summary": "Rule chunk from Paranoia for Players page 20, chunk 4.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_01_paranoia_for_players",
+    "source_title": "Paranoia for Players",
+    "page": 20,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "Entering the World of \nSECURITY CLEARANCE RED SECURITY CLEARANCE ORANGE SECURITY CLEARANCE YELLOW SECURITY CLEARANCE GREEN SECURITY CLEARANCE BLUE SECURITY CLEARANCE INDIGO SECURITY CLEARANCE VIOLET ULTRAVIOLET? Beyond? What are they afraid to let you know? BEWARE OF TREASON! THE ENEMY 1S. 20",
+    "topic": "treason",
+    "keywords": [
+      "security",
+      "clearance",
+      "entering",
+      "world",
+      "orange",
+      "yellow",
+      "green",
+      "blue"
+    ]
+  }
+}

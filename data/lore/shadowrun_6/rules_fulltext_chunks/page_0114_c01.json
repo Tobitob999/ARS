@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0114_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 114, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 114,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Beispiel: \nNahkampf und Schergen\nIhr Anführer ist zwar ausgeschaltet, aber der Rest \nder Eye-Fivers will noch nicht aufgeben. Eine Gruppe \nvon drei Gangern nähert sich Oda und will ihn mit \nschweren Motorradketten verprügeln, weil keiner von \nihnen Feuerwaffen hat. Gehen wir die Schritte des \nNahkampfs durch! Schritt eins: \nSchnappt euch die Würfel\nDie Eye-Fivers gelten als Schergen und greifen daher \nals Gruppe statt mit drei einzelnen Angriffen an. Sie \nbenutzen Nahkampf 2 + Geschicklichkeit 2 und erhalten \neinen Bonus von +1 wegen der zusätzlichen Angreifer \nin der Gruppe. Insgesamt beträgt ihr Würfelpool also \n5. Oda verteidigt sich mit Reaktion 6 + Intuition 3, also \neinem Würfelpool von 9. Schritt zwei: Verteil t Edge\nJetzt vergleichen wir den Angriffswert der Motorradketten \nin den Händen der Ganger (9; Angriffswert 5 + Stärke 2 + \n2 für die zusätzlichen Schergen – siehe S. 117) mit Odas \nVerteidigungswert (10; Konstitution 6 + 4 für die Panzer-\njacke) und erkennen, dass dieser nur um 1 größer ist als \nder Angriffswert der Ganger. Oda erhält hier kein Edge. Die Situation der düsteren Gasse hat sich nicht \nverändert, und Oda hat immer noch den Vorteil der \nRestlichtverstärkung auf seiner Seite. Leider beﬁ nden \nwir uns noch in der gleichen Kampfrunde, und Oda hat \nsein Limit von 2 erhaltenen Edgepunkten pro Runde \nbereits ausgeschöpft, als er an der Reihe war. Daher \nerhält er jetzt kein Edge. Schließlich berücksichtigen wir Ausrüstung oder Vor-\nteile, die einer der beiden Seiten helfen könnten, aber \nda ist nichts. Schritt drei: \nWürfel t und gebt Edge aus\nDie Eye-Fivers gehen in den Nahkampf über und erzielen \nmit ihrem Würfelpool von 5 zwei Erfolge.",
+    "topic": "combat.attack",
+    "keywords": [
+      "edge",
+      "nahkampf",
+      "schergen",
+      "fivers",
+      "noch",
+      "gruppe",
+      "drei",
+      "sich"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0188_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 188, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 188,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Das bedeutet, dass eine der Nebenhandlungen \ndes Patrouillen-IC immer für eine Matrixwahrnehmung \nbenutzt wird. Die Probe zur Matrixwahrnehmung wird \nfür das IC einmal pro Minute wiederholt. Säure\nVerteidigung: Willenskraft + Firew all\nSäure versucht, die Verteidigung eines Eindringlings zu \nschwächen, sodass anderes IC leichter mit ihm fertigwird. Wenn Säure im Matrixkampf trifft, wird das Firewall- \nAttribut des Ziels um 1 pro Nettoerfolg gesenkt, was die \nVerteidigung des Ziels schwächt. Verlorene Punkte rege-\nnerieren sich mit einer Geschwindigkeit von 1 Punkt pro \nMinute, nachdem der Eindringling den Host verlassen hat. Schw arzes IC\nVerteidigung: Intuition + Firew all\nSchwarzes IC meint es wirklich ernst. Wenn ein Host dieses \nDing startet, will er dir ganz einfach nur das Hirn rösten. Wenn es auf dich zukommt, wird dir niemand Vorwürfe ma-\nchen, wenn du fliehst. Im Matrixkampf verursacht Schwar-\nzes IC [Hoststufe + Nettoerfolge] Schadenskästchen, und \nzwar gleichzeitig als Matrixschaden und als Biofeed back-\nSchaden. Dem Matrixschaden wird mit Firewall Widerstand \ngeleistet, dem Biofeedback-Schaden mit Willenskraft. Sp arky\nVerteidigung: Intuition + Firew all\nSparky ist ein aggressives IC, das seinen Schaden direkt \nbeim User verursachen und dabei dessen Hardware kom-\nplett umgehen soll. Wenn Sparky im Matrixkampf trifft, \nverursacht es [Hoststufe + Nettoerfolge] Kästchen Biofeed-\nback-Schaden, dem mit Willenskraft widerstanden wird. Störer\nVerteidigung: Willenskraft + Angriff\nStörer ist ein hervorragender Fechter, der mit dir spielt, statt \ndich einfach umzubringen.",
+    "topic": "combat.defense",
+    "keywords": [
+      "verteidigung",
+      "willenskraft",
+      "schaden",
+      "saeure",
+      "firew",
+      "matrixkampf",
+      "matrixwahrnehmung",
+      "minute"
+    ]
+  }
+}

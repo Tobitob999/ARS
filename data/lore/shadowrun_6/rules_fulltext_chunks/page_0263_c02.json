@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0263_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 263, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 263,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Gelmunition\nDiese Gelgeschosse sehen beim Aufprall wie plattgedrückte \nHeidelbeeren aus. Sie werden häufig bei der Aufruhrbe-\nkämpfung oder als nichttödliche Option verwendet und \neignen sich hervorragend, um eine Zielperson aus den \nLatschen zu hauen – wobei man nicht erwarten sollte, \ndass das auch bei Trollen funktioniert. Gelmunition verur-\nsacht Betäubungsschaden. Jemandem, der von Gelmunition \ngetroffen wird, muss eine sofortige Probe auf Geschick-\nlichkeit (2) oder Konstitution (4) (der Getroffene hat die \nWahl) gelingen, ansonsten gerät er in den Status Liegend\n(S. 54). Salvenfeuer und vollautomatisches Feuer erhöhen \nden Schwellenwert dieser Probe um 1. Injektionspfeile\nJeder Injektionspfeil enthält eine Dosis einer Droge oder \neines Toxins (die separat gekauft werden muss). Um dem \nZiel die Ladung erfolgreich zu verabreichen, muss die An-\ngriffsprobe gegen ein ungepanzertes Ziel mindestens 1 \nNettoerfolg, gegen ein Ziel mit Panzerung (getragene oder \nnatürliche) mindestens 2 Nettoerfolge erzielen. Die Wirkung \ndes Pfeils hängt von der geladenen Droge ab und ist ein \nGiftangriff mit einem Injektionsvektor. Schockermunition\nSchockermunition macht aus jeder normalen Waffe einen \nTaser. Die Kugeln verursachen Betäubungsschaden und \nversetzen das Ziel für 2 Kampfrunden in den Status Ge-\nbrutzelt, aber sie sind längst nicht so durchschlagskräftig \nwie normale Kugeln. St andardmunition\nDie klassische Kugel bzw. das moderne Vollmantelgeschoss. Sturmkanonenmunition\nGroße Patronen für große Kanonen. Diese Munition ist das \nEinzige, was Sturmkanonen laden können, und sie kann \nauch nicht mit anderen Munitionsarten modifiziert werden.",
+    "topic": "combat.damage",
+    "keywords": [
+      "ziel",
+      "gelmunition",
+      "diese",
+      "betaeubungsschaden",
+      "probe",
+      "status",
+      "jeder",
+      "droge"
+    ]
+  }
+}

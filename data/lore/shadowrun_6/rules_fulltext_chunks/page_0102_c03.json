@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0102_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 102, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 102,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "12+\n Bester der Besten:\n Wenn man über die Besten der Besten auf diesem Gebiet spricht, dann fällt auch dein Name, \nBester der Besten:\n Wenn man über die Besten der Besten auf diesem Gebiet spricht, dann fällt auch dein Name, \nBester der Besten:\nvielleicht sogar an einer der ersten Stellen. SHADOWRUN: SECHSTE EDITION\nSPRACH FERTIGKEITEN // FERTIGKEITEN // 101",
+    "topic": "skills",
+    "keywords": [
+      "besten",
+      "bester",
+      "diesem",
+      "gebiet",
+      "spricht",
+      "dann",
+      "faellt",
+      "dein"
+    ]
+  }
+}

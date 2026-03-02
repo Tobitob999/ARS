@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "category": "encounter",
+  "id": "false_confession_03",
+  "name": "A bot prints a confession before questioning starts #03",
+  "tags": [
+    "paranoia_2e",
+    "encounter",
+    "batch_06"
+  ],
+  "summary": "A bot prints a confession before questioning starts",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "trigger": "on_timer",
+    "pressure": "medium",
+    "required_checks": [
+      "Bootlicking",
+      "Data Analysis"
+    ],
+    "complication": "treason_point_spike",
+    "payoff": "promotion_note"
+  }
+}

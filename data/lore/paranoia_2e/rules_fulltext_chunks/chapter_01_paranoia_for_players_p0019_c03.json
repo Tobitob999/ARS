@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_01_paranoia_for_players_p0019_c03",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_01_paranoia_for_players",
+    "chapter"
+  ],
+  "summary": "Rule chunk from Paranoia for Players page 19, chunk 3.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_01_paranoia_for_players",
+    "source_title": "Paranoia for Players",
+    "page": 19,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "therapy, personality reconstruction, public censure, oF official reprimand, lols of actions do not prove treason, but lead to a suspicion of treasonous behavior, The sgamemaster keeps track of how much (or lite tle) The Computer trusts you by keeping a treason point total for each character Everytime you fal to fulfil orders, doubt The Computer, speak or act against The Computer, damage or destroy equipment, use a mutant ower, conspire with others, or create susp: clon of membership in a secret society, you reason points. Notes and Conferences Because you'll want to keep the other players in the dark about your activities, you'll often ‘want to communicate with the gamemaster privately. There are two ways to do so: pass him a note, or take him into another room for 1 private conference. Ina private conference, you can speak and exchange ideas freely. However, you are ‘monopolizing the gamemaster’s attention. Do this too much and the other players will re sent it. Moreover, if everyone begins asking for frequent private conferences, you'll spend ‘most of your time waiting for the latest con ference to end, and you'll resent it. Con- ferences slow things dawn, so ask for them sparingly. Note-passing is a more efficient method of secret communication, and doesn't interrupt play. On the other hand, writing a note is slow work, and there's a limit to how much a note can say, Stil, whenever feasible, write notes instead of asking for conferences. ‘The higher your treason point total, the less likely The Computer is to grant you equip- ‘ment, comply with your requests for informa- tion, or believe anything you tel it.",
+    "topic": "combat.damage",
+    "keywords": [
+      "computer",
+      "treason",
+      "much",
+      "conferences",
+      "other",
+      "private",
+      "point",
+      "total"
+    ]
+  }
+}

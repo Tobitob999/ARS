@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0325_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 325, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 325,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Anmerkung: \nWissen einer bestimmten Stufe enthält immer auch das Wissen der darunterliegenden Stufen. Edge bei sozialen Proben (S. 50)\nAllgemein\nEDGE FÜR DEN SPRECHER\n EDGE FÜR DEN ZUHÖRER\nDer Sprecher wird von einer Person \nvorgestellt, der der Zuhörer vertraut. Der Zuhörer wurde vor dem Sprecher gewarnt. Der Zuhörer schenkt Personen \nwie dem Sprecher generell Glauben. Der Sprecher gehört einer Gruppe an, \ngegen die der Zuhörer starke Vorurteile hat. Das Aussehen des Sprechers passt perfekt zu seiner Rolle. Das Aussehen des Sprechers passt überhaupt nicht zu seiner Rolle. Der Zuhörer hegt romantische Gefühle für den Sprecher. Der Zuhörer hat eine starke persönliche \nAbneigung gegen den Sprecher. Der Zuhörer kann eindeutig erkennen, \nwie er durch das Gesagte proﬁ tieren würde. Der Zuhörer sieht ein hohes Risiko in dem, was der Sprecher sagt. Die Gedanken und/oder Gefühle des Zuhörers \nstehen unter magischer Kontrolle. Einschüchtern\nEDGE FÜR DEN SPRECHER\n EDGE FÜR DEN ZUHÖRER\nDer Sprecher ist dem Zuhörer eindeutig körperlich überlegen. Der Zuhörer ist dem Sprecher eindeutig körperlich überlegen. Der Zuhörer kann sich der Situation nicht einfach entziehen. Der Zuhörer weiß, dass bereits Hilfe unterwegs ist. Führen\nEDGE FÜR DEN SPRECHER\n EDGE FÜR DEN ZUHÖRER\nDie Personen, die der Sprecher führen will, vertrauen ihm. Der Zuhörer hat einen Grund, dem Sprecher zu misstrauen. Der Sprecher ist ranghöher als der Zuhörer. Der Zuhörer ist ranghöher als der Sprecher. Gebräuche\nEDGE FÜR DEN SPRECHER\n EDGE FÜR DEN ZUHÖRER\nDer Sprecher hat auf dem betreffenden \nGebiet deutlich mehr Lebenserfahrung. Der Zuhörer hat auf dem betreffenden \nGebiet deutlich mehr Lebenserfahrung.",
+    "topic": "skills.social",
+    "keywords": [
+      "zuhoerer",
+      "sprecher",
+      "edge",
+      "einer",
+      "eindeutig",
+      "wissen",
+      "personen",
+      "gegen"
+    ]
+  }
+}

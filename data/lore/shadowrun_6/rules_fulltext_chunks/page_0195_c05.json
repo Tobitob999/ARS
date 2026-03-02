@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0195_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 195, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 195,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Hash\n(Nebenhandlung, Permanent)\nMit dieser Kraft kann das Sprite eine Datei temporär mit \neinzigartigen Resonanz-Algorithmen schützen, sodass nur \ndas Sprite selbst den Schutz entfernen kann. Wenn das \nSprite die Datei nicht mehr bei sich trägt, kehrt sie in ihren \nNormalzustand zurück. Wenn das Sprite zerstört wird, \nwährend es die Datei trägt, wird diese korrumpiert und \nwertlos. Die Maximalzeit, für die das Sprite diese Kraft \neinsetzen kann, beträgt [Spritestufe × 10] Kampfrunden. Spuk\n(Haupthandlung, Aufrechterhal ten)\nDas Sprite kann eine Persona oder ein Gerät verbergen, \nsodass sie oder es für Matrixsuchen unsichtbar wird. Ver-\nborgene Personas oder Geräte können nur mit einer Matrix-\nwahrnehmungsprobe gefunden werden, die speziell nach \ndem versteckten Icon sucht. Selbst dann kann das Sprite \nnoch eine Probe auf Elektronik + Resonanz ablegen, deren \nErfolge zum Schwellenwert dieser Matrixwahrnehmungs-\nprobe werden. St abilit ä t\n(Nebenhandlung, Aufrechterhal ten)\nEin Sprite kann diese Kraft auf eine Persona oder ein Gerät \nanwenden, bei der oder dem es User- oder Admin-Zugang \nhat. Stabilität verhindert normale Fehlfunktionen oder \nUnfälle beim Ziel (sowohl gewöhnliche Patzer als auch \nPatzer durch die den Nachteil Gremlins oder die Kraft \nUnfall). Normale Patzer werden ignoriert, Kritische Patzer \nwerden zu normalen Patzern. T arnung\n(Nebenhandlung, Aufrechterhal ten)\nDas Sprite kann eine Datei in einer anderen Datei verber-\ngen, sodass sie für Matrixsuchen unsichtbar wird. Getarnte \nDateien können nur mit einer Matrixwahrnehmungspro-\nbe gefunden werden, die speziell nach dieser Datei sucht.",
+    "topic": "combat",
+    "keywords": [
+      "sprite",
+      "datei",
+      "kraft",
+      "patzer",
+      "nebenhandlung",
+      "dieser",
+      "sodass",
+      "aufrechterhal"
+    ]
+  }
+}

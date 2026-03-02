@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0295_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 295, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 295,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Muskelverstärkung addiert ihre Stufe zur Stärke \ndes Charakters. Diese Bioware ist nicht kompatibel mit \nanderer Bodytech, die die Stärke erhöht, wie etwa der Cy-\nberware Kunstmuskeln. Orthoskin\nOrthoskin besteht aus einem Netz von Biofasern in der \nHaut, das das Äquivalent persönlicher Panzerung liefert \nund gleichzeitig praktisch nicht von natürlicher Haut zu \nunterscheiden ist. Orthoskin erhöht den Verteidigungswert \ndes Charakters um ihre Stufe. Orthoskin kann nicht mit \nanderer Bodytech für die Haut kombiniert werden, wie \netwa Dermalpanzerung. Durch den Einbau von Orthoskin \nverlieren Trolle ihre natürlichen Knochenablagerungen \nin der Haut und damit auch ihren Vorteil Dermalabla-\ngerungen. Symbionten\nMaßgeschneiderte Mikroorganismen im Blutkreislauf \nbeschleunigen die Heilung des Charakters dramatisch. Symbionten addieren ihre Stufe als Würfelpoolbonus zu \nHeil- und Genesungsproben (für Körperlichen und Betäu-\nbungsschaden) hinzu. Allerdings haben sie auch ungewöhn-\nliche Nahrungsanforderungen, die erfüllt werden müssen, \num sie am Leben zu erhalten. Der Charakter muss pro \nMonat [Stufe × 200] Nuyen für spezielle Symbiontennah-\nrung ausgeben, es sei denn, er hat einen Oberschicht- oder \nbesseren Lebensstil (da ist die Symbiontennahrung schon \ninklusive). Erhalten die Symbionten keine Spezialnahrung, \nsterben sie nach einem Monat. Synthacardium\nEin künstlich verbesserter Herzmuskel führt dazu, dass \nkardiovaskuläre Funktionen effizienter ausgeführt werden, \nwodurch das Herz das Blut besser mit Sauerstoff versorgen \nkann. Das Synthacardium addiert seine Stufe als Würfel-\npoolbonus zu Athletikproben, um zu laufen, zu schwimmen \noder zu klettern.",
+    "topic": "combat.defense",
+    "keywords": [
+      "stufe",
+      "orthoskin",
+      "ihre",
+      "haut",
+      "charakters",
+      "symbionten",
+      "addiert",
+      "staerke"
+    ]
+  }
+}

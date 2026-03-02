@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "id": "paranoia_media_liaison",
+  "name": "Glim-R-MED-1",
+  "compatible_rulesets": [
+    "paranoia_2e"
+  ],
+  "archetype": "Media Liaison",
+  "background": "Service Group: HPD & MC | Secret Society: Romantics | Mutation: Charm",
+  "characteristics": {
+    "STR": 7,
+    "AGI": 10,
+    "DEX": 12,
+    "END": 8,
+    "MOX": 12,
+    "CHU": 16,
+    "MEC": 9,
+    "POW": 11
+  },
+  "derived_stats": {
+    "HP": "state_track",
+    "Clone Number": 1,
+    "Treason Points": 0
+  },
+  "skills": {
+    "Fast Talk": 10,
+    "Bootlicking": 9,
+    "Oratory": 8,
+    "Con": 8,
+    "Laser Weapons": 4
+  },
+  "equipment": [
+    "com_unit_i",
+    "plasticreds"
+  ],
+  "notes": "Controls narrative spin and public loyalty optics."
+}

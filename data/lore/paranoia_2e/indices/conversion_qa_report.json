@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.5.0",
+  "category": "conversion_qa",
+  "tags": [
+    "paranoia_2e",
+    "qa",
+    "batch_08"
+  ],
+  "summary": "Validierungsreport fuer Paranoia-2E Vollkonvertierung.",
+  "source_text": {
+    "timestamp": "2026-03-01T21:20:58.936225Z",
+    "checks": [
+      "JSON parsing for lore and module outputs",
+      "required ruleset top-level keys",
+      "rules + adventure chunk coverage completeness vs expected pages",
+      "ruleset metadata.schema_version bump validation"
+    ]
+  },
+  "mechanics": {
+    "json_parse_errors": 0,
+    "ruleset_required_keys_present": [
+      "metadata",
+      "dice_system",
+      "characteristics",
+      "skills"
+    ],
+    "counts": {
+      "fulltext": 159,
+      "chapters": 8,
+      "appendices": 6,
+      "service_groups": 8,
+      "secret_societies": 12,
+      "items": 20,
+      "encounters": 6,
+      "tables": 4,
+      "mechanics": 8,
+      "mutations": 15,
+      "skills": 1,
+      "indices": 8,
+      "character_templates": 20,
+      "parties": 6,
+      "adventures": 4,
+      "presets": 10,
+      "encounters_pack": 60,
+      "mission_seeds": 40,
+      "npc_roster": 50,
+      "gm_moves": 30,
+      "service_group_ops": 24,
+      "secret_society_ops": 24,
+      "gear_catalog": 36,
+      "adventure_assets": 32,
+      "rules_fulltext_chunks": 451,
+      "adventure_fulltext_chunks": 117
+    },
+    "ruleset_schema_version": "1.4.0",
+    "rules_chunk_coverage": {
+      "expected_pages": 130,
+      "covered_pages": 130,
+      "missing_pages": [],
+      "empty_pages": [],
+      "uncovered_pages": [],
+      "fully_covered": true
+    },
+    "adventure_chunk_coverage": {
+      "expected_pages": 28,
+      "covered_pages": 28,
+      "missing_pages": [],
+      "empty_pages": [],
+      "uncovered_pages": [],
+      "fully_covered": true
+    },
+    "full_book_chunk_aggregate": {
+      "expected_pages": 158,
+      "covered_pages": 158,
+      "fully_covered": true
+    }
+  }
+}

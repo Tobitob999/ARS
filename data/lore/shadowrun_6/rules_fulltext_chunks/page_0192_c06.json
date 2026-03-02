@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0192_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 192, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 192,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "189) in Höhe der Erfolge \n(nicht Nettoerfolge) des Sprites bei der Probe widerstehen. Du kannst nur ein einzelnes nicht registriertes Sprite \nhaben, das Aufgaben für dich erfüllt (s. Registrieren eines \nSprites\n). Du erteilst dem Sprite mit einer Nebenhandlung \nAufgaben. Die Aufgaben, die ein Sprite erfüllt, müssen klar \ndefiniert und begrenzt sein. Weil Sprites nur ein beschränk-\ntes bis gar kein Bewusstsein haben, dürfen die Aufgaben \nkeine allzu schwierigen Entscheidungen beinhalten. Eine \neinzelne Aufgabe kann folgende Aufträge bezeichnen: \n• \n Ein einzelner Einsatz einer Spritekraft. • \n Eine Kampfrunde an Matrixhandlungen, die alle \nTeil desselben Jobs sind. • \n Teilnahme am Matrixkampf, bis alle Gegner besiegt \nGenerell müssen Aufgaben im selben Host oder System \nerfüllt werden, in dem du dich befindest. Wenn du das Sprite \nin einen anderen Host oder ein anderes System schickst, \nzählt das als eine Fernaufgabe. Wenn eine Fernaufgabe \nerledigt wurde, kehrt das Sprite in die Resonanz zurück, \negal, wie viele Aufgaben noch offen sind. Matrixsysteme erkennen Sprites nicht als legitimen Code \nan und versuchen sie daher zu löschen. Das begrenzt ihre \nLebenszeit (sofern man von Leben sprechen kann). Sie kön-\nnen nur [Spritestufe × 2] Stunden lang existieren, wenn sie \nnicht registriert sind (s. Registrieren eines Sprites\n). Sprites \nsammeln auch OW an. Sollte ein Sprite Fokussierung er-\nleiden, wird der physische Aufenthaltsort seines Techno-\nmancers bekannt. Beispiel: \nK ompilieren eines Sprites\nRespec sitzt in der Klemme, und Killer-IC stürmt auf sie \nzu, nachdem sie ein paar schlechte Lebensentscheidun-\ngen im falschen Host gefällt hat.",
+    "topic": "general",
+    "keywords": [
+      "sprites",
+      "aufgaben",
+      "erfuellt",
+      "eines",
+      "host",
+      "dich",
+      "registrieren",
+      "einer"
+    ]
+  }
+}

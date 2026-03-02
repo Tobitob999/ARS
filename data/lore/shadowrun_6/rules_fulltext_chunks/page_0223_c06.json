@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0223_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 223, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 223,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Critter mit der Kraft Bewusstsein \nhingegen sind nur ungeübt (siehe S. 95); außerdem sind sie \nin der Lage, neue Fertigkeiten zu erlernen, wenn sie wollen. Die meisten Critter mit Bewusstsein sind mundan, aber \nsie können durchaus Erwacht oder Digital Erwacht sein \nund ein Magie- bzw. Resonanzattribut besitzen. Solche \nCritter sind fähig, auf Magie bzw. Resonanz basierende \nFertigkeiten zu erlernen, und unterliegen denselben Regeln \nwie normale Charaktere. Bindung\nART\n HANDLUNG\n REICHWEITE\n DAUER\nP\n H\n Verschieden\n Sofort\nMittels einer Art Spinnennetz, einer klebrigen Substanz, \neiner klebrigen Zunge oder irgendeiner Art magischer \nWirkung kann ein Critter mit dieser Kraft sein Opfer \ndazu bringen, an einer Oberfläche, die es gerade berührt, \nkleben zu bleiben (das kann auch der Critter selbst sein). Die Reichweite dieser Kraft hängt davon ab, wie der \nCritter sein Opfer bindet; er kann etwas abschießen (Reich-\nweite: BF), einen klebrigen Körper haben (Reichweite: B) \noder einfach selbst gut an anderen Dingen kleben (Reich-\nweite: Selbst). Bei der Reichweite BF legt der Critter eine Angriffsprobe \nauf Geschicklichkeit + Magie gegen Athletik + Reaktion \nab. Ein Erfolg reicht aus, um das Opfer in den Status \n Be-\nwegungsunfähig\n zu versetzen. Das Opfer muss, sobald es \nwegungsunfähig\n zu versetzen. Das Opfer muss, sobald es \nwegungsunfähig\nwieder an der Reihe ist, eine Haupthandlung aufwenden, \num einen Befreiungsversuch zu starten. Bei der Reichweite Berührung legt der Critter eine An-\ngriffsprobe auf Geschicklichkeit + Magie gegen Nahkampf \n+ Reaktion seines Opfers ab.",
+    "topic": "magic",
+    "keywords": [
+      "critter",
+      "reichweite",
+      "opfer",
+      "sein",
+      "magie",
+      "einer",
+      "kraft",
+      "klebrigen"
+    ]
+  }
+}

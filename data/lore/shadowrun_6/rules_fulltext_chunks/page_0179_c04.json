@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0179_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 179, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 179,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Cyberbuchsen\nCYBERBUCHSE\n ATTRIBUTE (D/F)\n MATRIXINITIATIVE-\nBONUSWÜRFEL (VR)\nBONUSWÜRFEL (VR)\n VERFÜGBARKEIT\n ESSENZ\n PREIS\nStufe 1\n 4/3\n +1\n 3L\n 1\n 45.000 ¥\nStufe 2\n 5/4\n +1\n 3L\n 1,5\n 65.000 ¥\nStufe 3\n 6/5\n +1\n 3L\n 2\n 80.000 ¥\nStufe 4\n 7/6\n +2\n 4L\n 2,3\n 95.000 ¥\nStufe 5\n 8/7\n +2\n 5L\n 2,6\n 140.000 ¥\nStufe 6\n 9/8\n +2\n 6L\n 3\n 210.000 ¥\nK ommlinks\nKOMMLINK\n GERÄTESTUFE\n ATTRIBUTE (D/F)\n AKTIVE \nPROGRAMMSLOTS\nVERFÜG-\nBARKEIT\n PREIS\nMeta Link\n 1\n 1/0\n 0\n 2\n 100 ¥\nSony Emperor\n 2\n 1/1\n 1\n 2\n 700 ¥\nRenraku Sensei\n 3\n 2/0\n 1\n 2\n 1.000 ¥\nErika Elite\n 4\n 2/1\n 2\n 2\n 2.500 ¥\nHermes Ikon\n 5\n 3/0\n 2\n 3\n 5.000 ¥\nTransys Avalon\n 6\n 3/1\n 3\n 3\n 8.000 ¥\nCyberdecks\nCYBERDECK\n GERÄTESTUFE\n ATTRIBUTE (A/S)\n AKTIVE \nPROGRAMMSLOTS\nVERFÜG-\nBARKEIT\n PREIS\nErika MCD-6\n 1\n 4/3\n 2\n 3I\n 24.750 ¥\nSpinrad Falcon\n 2\n 5/4\n 4\n 3I\n 61.500 ¥\nMCT 360\n 3\n 6/5\n 6\n 3I\n 95.000 ¥\nRenraku Kitsune\n 4\n 7/6\n 8\n 4I\n 107.000 ¥\nShiawase Cyber-6\n 5\n 8/7\n 10\n 5I\n 172.500 ¥\nFairlight Excalibur\n 6\n 9/8\n 12\n 6I\n 410.600 ¥\naus allem herauszuholen, was sie in die Finger bekamen. Das \nsoll nicht heißen, dass ein gutes Cyberdeck nicht sein Gewicht \nin Gold wert ist, aber im Endeffekt kann ein Hacker mit den \nrichtigen Fertigkeiten auch mit einem zusammengeschuster-\nten Deck (oder ganz ohne Deck, wenn er ein Technomancer \nist) Wunder bewirken. Der erste Schritt des Hackens ist es, Zugang zum Ziel zu \nerhalten. Es gibt zwei grundsätzliche Vorgehensweisen dabei: \nBrute Force\n (S. 180), das mit dem Attribut Angriff verbunden \nist, und \nSondieren\n (S. 184), das mit dem Attribut Schleicher \nverbunden ist. Wenn du die Attribute deines Cyberdecks \nverteilst (siehe S.",
+    "topic": "combat.initiative",
+    "keywords": [
+      "stufe",
+      "attribute",
+      "preis",
+      "bonuswuerfel",
+      "geraetestufe",
+      "aktive",
+      "programmslots",
+      "verfueg"
+    ]
+  }
+}

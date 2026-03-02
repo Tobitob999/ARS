@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0267_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 267, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 267,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Die Spezialbeschichtung neutralisiert den Status \nVerätzt für eine Anzahl von Angriffen, die ihrer Stufe ent-\nspricht. Danach ist die Beschichtung so abgenutzt, dass sie \nkeine chemische Isolierung mehr bietet. Chemische Versiegelung\nDie chemische Versiegelung ist nur für Ganzkörperpanze-\nrungen erhältlich. Sie besteht aus einer luftdichten Umwelt-\nsteuerung, die mit einer Haupthandlung aktiviert werden \nkann. Die Versiegelung schützt den Träger vor jedem Status, \nder von Chemikalien mit Kontakt- oder Inhalationsvektor \nUrban Explorer Overall\n +3\n 6\n 2\n 800 ¥\nKunstlederjacke/\n-mantel\nKunstleder ist die Norm auf der Straße, und \ndiese Art der Oberbekleidung (von hüftlang \nbis zum Mantel) kommt nie aus der Mode. Sie bietet sogar ein Mindestmaß an Schutz. P anzerjacke\nSie ist in einer Vielzahl von Stilen erhält-\nlich und bietet guten Schutz, ohne zu \nsehr aufzufallen. Aber denk nicht mal \ndran, sie bei einer Dinnerparty oder in \neinem Regierungsgebäude zu tragen. P anzerkleidung\nDurch ihr leichtes ballistisches Gewebe \nsind diese Kleidungsstücke fast unmöglich \nals Panzerung zu erkennen. Sie bieten zwar \nnicht so viel Schutz wie echte Panzerung, \naber dafür sind sie in so ziemlich jedem Stil \nerhältlich, den man sich wünscht. P anzerweste\nDiese moderne, flexible Weste wurde \ndafür entwickelt, unter normaler Klei-\ndung getragen zu werden, ohne dass \nsie dabei aufträgt. Urban Explorer \nOverall\nDieses speziell für Kuriere, Athleten und Freerunner \nentwickelte Kleidungsstück ist die gepanzerte Versi-\non der „Automatenkleidung“, aber erhältlich in einer \nVielzahl schriller Stile. Und weil er so hip ist, enthält \nder Overall einen eingebauten Musikplayer und einen \nVitalmonitor.",
+    "topic": "combat.attack",
+    "keywords": [
+      "einer",
+      "chemische",
+      "bietet",
+      "versiegelung",
+      "erhaeltlich",
+      "overall",
+      "diese",
+      "schutz"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0271_c07",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 271, chunk 7.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 271,
+    "chunk_index": 7,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Das Entfernen des \nHeadkom-Blockers durch jemanden, der nicht den richtigen \nSchlüssel hat, erfordert eine Ausgedehnte Probe auf Elek-\ntronik + Logik oder Mechanik + Geschicklichkeit (10, 1 \nElektronikzubehör\nZUBEHÖR\n GERÄTESTUFE\n VERFÜGBARKEIT\n PREIS\nAR-Handschuhe\n 3\n 1\n 150 ¥\nBiometrischer Scanner\n 3\n 2\n 200 ¥\nDatenchips (10 Stück)\n 1\n 1\n 5 ¥\nDrucker\n 3\n 1\n 25 ¥\nElektronisches Papier\n 1\n 1\n 5 ¥\nSatellitenverbindung\n 4\n 3\n 500 ¥\nSim-Modul\n 3\n 2\n 100 ¥\nSim-Modul, heißes Sim\n 3\n 2I\n 250 ¥\nSimrig\n 3\n 4\n 1.000 ¥\nSubvokales Mikrofon\n 3\n 2\n 50 ¥\nTrideoprojektor\n 3\n 1\n 200 ¥\nTroden\n 3\n 1\n 70 ¥\nRFID-Chips\nCHIPS (JE 10 STÜCK)\n GERÄTESTUFE\n VERFÜGBARKEIT\n PREIS\nStandard-RFID-Chip\n 1\n 1\n 1 ¥\nSensor-Chip\n 2\n 2\n 40 ¥\nSicherheits-/\nSpionage-Chip\n 3\n 2\n 10 ¥\nSHADOWRUN: SECHSTE EDITION\n270 // Ausrüstung // ELEKTRONIK",
+    "topic": "advancement",
+    "keywords": [
+      "chip",
+      "geraetestufe",
+      "verfuegbarkeit",
+      "preis",
+      "stueck",
+      "modul",
+      "rfid",
+      "entfernen"
+    ]
+  }
+}

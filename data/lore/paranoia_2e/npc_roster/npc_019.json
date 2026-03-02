@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npc",
+  "id": "npc_019",
+  "name": "Torque-T-R-19",
+  "tags": [
+    "paranoia_2e",
+    "npc",
+    "roster"
+  ],
+  "summary": "HPD & MC operative with layered loyalties.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "service_group": "HPD & MC",
+    "secret_society": "Mystics",
+    "mutation": "Cryokinesis",
+    "trait": "nervous",
+    "clearance": "Yellow",
+    "use_in_play": "reluctant_ally"
+  }
+}

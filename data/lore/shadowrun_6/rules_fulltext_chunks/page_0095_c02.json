@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0095_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 95, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 95,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Die Liste der bei den einzelnen Fertigkeiten angegebenen \nSpezialisierungen ist nicht vollständig – wenn eine Spielerin \n94 // FERTIGKEITEN // ZEIG, W AS DU DRAUFHAST",
+    "topic": "skills",
+    "keywords": [
+      "fertigkeiten",
+      "liste",
+      "einzelnen",
+      "angegebenen",
+      "spezialisierungen",
+      "vollstaendig",
+      "spielerin",
+      "zeig"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "category": "gm_move",
+  "id": "gm_move_25",
+  "name": "Introduce an overzealous bot witness",
+  "tags": [
+    "paranoia_2e",
+    "gm_tools"
+  ],
+  "summary": "Introduce an overzealous bot witness",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "timing": "climax",
+    "effect": "raise_tension",
+    "counterplay": "bureaucracy_chain"
+  }
+}

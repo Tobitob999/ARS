@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0260_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 260, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 260,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Ein Dreibein kann an der Unterlaufhalterung befestigt \nwerden, neutralisiert die Angriffswertmodifikatoren für \nhalbautomatisches und Salvenfeuer und senkt den An-\ngriffswertmodifikator für vollautomatisches Feuer (S. 112) \nauf -3, wenn es korrekt ausgeklappt wurde. Ein Dreibein \nanzubringen, erfordert eine Haupthandlung, um es aus- \noder einzuklappen, ist eine Nebenhandlung erforderlich. WiFi-Vorteil: Du erhältst eine zusätzliche Nebenhand-\nlung, wenn du an der Reihe bist und das Dreibein aus-\nklappst, einklappst oder abnimmst. Ersa tzmagazin\nEin ungeladenes Standard-Ersatzmagazin für eine bestimm-\nte Waffe. Ersatzmagazine sind nur für Waffen mit Stangen-\nmagazinen (s) und Trommelmagazinen (t) erhältlich, aber \nnicht für Waffen mit internen Magazinen (i). Gasventilsystem\nGasventil-Rückstoßkompensationssysteme sind laufmon-\ntiert und lassen die Gase des Laufs einer Waffe in einem \nbestimmten Vektor entweichen, um dem Hochschlag des \nLaufs entgegenzuwirken. Ein einmal eingebautes Gasventil \nkann nicht wieder entfernt werden. Gasventilsysteme neu-\ntralisieren den Angriffswertmalus für halbautomatisches \nFeuer und senken ihn für Salvenfeuer auf 2. Gyrost abilisa tor\nAn diesem schweren Oberkörpergeschirr ist ein beweglicher, \nmotorisierter und gyrostabilisierter Arm befestigt, der ein Ge-\nwehr oder Maschinengewehr aufnehmen kann. Das System \nneutralisiert den Angriffswertmalus für halbautomatisches \nFeuer und Salvenfeuer und senkt den Angriffswertmodifika-\nAztechnology Striker\nDer Striker ist tödlich und wegwerfbar – und damit die \nperfekte Analogie zu einem Runner.",
+    "topic": "combat.attack",
+    "keywords": [
+      "dreibein",
+      "halbautomatisches",
+      "salvenfeuer",
+      "feuer",
+      "befestigt",
+      "neutralisiert",
+      "senkt",
+      "waffe"
+    ]
+  }
+}

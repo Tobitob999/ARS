@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0138_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 138, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 138,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Diese Zahl bildet den \nSchwellenwert, wenn andere versuchen, mit einer Probe auf \nWillenskraft + Intuition die Illusion zu durchschauen. Trugbild wirkt gegen jedes Lebewesen, das das Bild sieht. Unsichtbarkeit\n(Monosensorisch)\nREICHWEITE\n ART\n DAUER\n ENTZUG\nB\n M\n A\n 3\nDas Ziel verschwindet aus dem Blick und wird durchsichtig, \nsodass es sich ungesehen bewegen kann. Unsichtbarkeit \nverleiht dem Ziel den Status \n Unsichtbar\n (siehe S. 55) mit \neiner Stufe gleich der Anzahl der Erfolge bei der Hexerei-\nprobe. Diese Zahl dient als Schwellenwert für alle Versuche, \ndas Ziel zu sehen. Verbesserte Unsichtbarkeit\n(Monosensorisch)\nREICHWEITE\n ART\n DAUER\n ENTZUG\nB\n P\n A\n 4\nDieser Zauber funktioniert genauso wie der Zauber Un-\nsichtbarkeit, verursacht aber den Status \n Unsichtbar (Ver-\nVerwirrung\n(Vollsensorisch)\nREICHWEITE\n ART\n DAUER\n ENTZUG\nBF\n M\n A\n 3\nVerwirrung trifft das Ziel mit einem Wirbel von Bildern \nund Emotionen, die es desorientieren und verwirren. Lege \neine Vergleichende Probe auf Hexerei + Magie gegen Wil-\nlenskraft + Logik des Ziels ab. Das Ziel erhält den Status \nVerwirrt\n mit einer Stufe gleich der Anzahl der Netto erfolge \nVerwirrt\n mit einer Stufe gleich der Anzahl der Netto erfolge \nVerwirrt\nbei der Hexereiprobe. Der Würfelpoolmalus aus diesem \nStatus gilt für alle Proben außer Schadenswiderstands-\nproben. Der einfache Zauber wirkt nur gegen ein einzelnes Ziel, \naber die Anpassung Fläche Vergrößern kann verwendet \nwerden, um ihm eine Flächenwirkung zu verleihen (be-\nginnend mit 2 Metern Radius für +1 Entzug). Wenn der \nZauber eine Flächenwirkung erhalten hat, kann auch die \nAnpassung Fläche Verschieben benutzt werden.",
+    "topic": "advancement",
+    "keywords": [
+      "ziel",
+      "einer",
+      "entzug",
+      "status",
+      "zauber",
+      "probe",
+      "gegen",
+      "unsichtbarkeit"
+    ]
+  }
+}

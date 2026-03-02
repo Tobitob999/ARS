@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0198_c07",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 198, chunk 7.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 198,
+    "chunk_index": 7,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Riggerprogramme\nRigger können diverse Programme einsetzen, die denen äh-\nneln, die auch von Deckern verwendet werden. Programme, \ndie für den Einsatz auf einer Riggerkonsole gekauft wurden, \nkönnen aber nicht mit einem Cyberdeck verwendet werden \nund umgekehrt. Wie bei Decks kann auch auf Riggerkon-\nsolen nicht mehr als ein Programm desselben Typs laufen, \nauch dann nicht, wenn es umbenannt wird. Hier ist eine \nRiggerk ontrolle\nNORMALES ATTRIBUT\n HINEINGESPRUNGENES \nATTRIBUT\nKonstitution\n Willenskraft\nGeschicklichkeit\n Logik\nReaktion\n Intuition\nStärke\n Charisma\nDie Riggerk onsole\nDas zweite wichtige Ausrüstungsteil ist die Riggerkonsole. Mit ihr kann ein Rigger mehrere Drohnen oder Fahrzeuge \ngleichzeitig steuern – jeder Rigger, der seine eigene Drohnen-\narmee befehligen möchte, kommt um eine Riggerkonsole \nnicht herum. Eine Riggerkonsole kann gleichzeitig mit \n[Gerätestufe × 3] Slave-Drohnen oder anderen Geräten \nverbunden werden. Mit einer Nebenhandlung kann der \nRigger beliebig vielen Drohnen, die gerade als Slaves mit \nder Riggerkonsole verbunden sind, den gleichen Befehl \nerteilen. Die Drohnen führen den Befehl dann aus, sobald \nsie in der Initiative an der Reihe sind. Eine Riggerkonsole ermöglicht dem Rigger jedoch nicht \nnur die gleichzeitige Steuerung mehrerer Drohnen – sie \nschützt seine Drohnen auch vor Hacking-Angriffen. Jeder \nHacker, der sich Zugriff auf die Drohnen-Slaves verschaffen \nwill, muss zuerst die Riggerkonsole hacken. Zur Verteidi-\ngung gegen Hacking-Angriffe verfügen Riggerkonsolen \nüber ein eigenes Datenverarbeitungs- und Firewallattribut.",
+    "topic": "matrix",
+    "keywords": [
+      "drohnen",
+      "riggerkonsole",
+      "programme",
+      "verwendet",
+      "einer",
+      "dann",
+      "attribut",
+      "gleichzeitig"
+    ]
+  }
+}

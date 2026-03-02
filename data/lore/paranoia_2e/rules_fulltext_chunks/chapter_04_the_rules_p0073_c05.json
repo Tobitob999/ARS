@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_04_the_rules_p0073_c05",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_04_the_rules",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The Rules page 73, chunk 5.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_04_the_rules",
+    "source_title": "The Rules",
+    "page": 73,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "raw_text": "f 2 character's endurance drops to zero, he has Starved to death, Assuming the character isnt dead yet, these poins can be regained at arate ‘oF upto one point per normal meal therfore, at a maximum rate of three points per day Under optimal circumstances). if itis eal hot, a character’ brain may cook. He makes an endurance roll — modify the at tribute number depending on how hot i is I he fails the roll, he becomes delirious and \ndies within ten hours oF so (ol the die to see hhow mar) unless he receives treatment. Teat- ment means getting out ofthe sun and lying around fora Tong time. 2B",
+    "topic": "death",
+    "keywords": [
+      "character",
+      "endurance",
+      "roll",
+      "drops",
+      "zero",
+      "starved",
+      "death",
+      "assuming"
+    ]
+  }
+}

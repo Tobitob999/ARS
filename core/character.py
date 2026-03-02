@@ -38,6 +38,25 @@ SAN_LOSS_PATTERN = re.compile(
 XP_GAIN_PATTERN = re.compile(r"\[XP_GEWINN:\s*(\d+)\s*\]", re.IGNORECASE)
 SKILL_USED_PATTERN = re.compile(r"\[FERTIGKEIT_GENUTZT:\s*([^\]]+)\s*\]", re.IGNORECASE)
 
+# AD&D 2e Erweiterungen: Inventar, Zeit, Wetter
+INVENTAR_PATTERN = re.compile(
+    r"\[INVENTAR:\s*([^\|]+)\|\s*(gefunden|verloren|gekauft|verkauft)\s*\]",
+    re.IGNORECASE,
+)
+ZEIT_PATTERN = re.compile(r"\[ZEIT_VERGEHT:\s*([\d.]+)h?\s*\]", re.IGNORECASE)
+TAGESZEIT_PATTERN = re.compile(r"\[TAGESZEIT:\s*(\d{1,2}):(\d{2})\s*\]", re.IGNORECASE)
+WETTER_PATTERN = re.compile(r"\[WETTER:\s*([^\]]+)\s*\]", re.IGNORECASE)
+
+# AD&D 2e Kampf-Tags
+ANGRIFF_PATTERN = re.compile(
+    r"\[ANGRIFF:\s*([^\|]+)\|\s*(\d+)\s*\|\s*(-?\d+)\s*\|\s*(-?\d+)\s*\]",
+    re.IGNORECASE,
+)
+RETTUNGSWURF_PATTERN = re.compile(
+    r"\[RETTUNGSWURF:\s*([^\|]+)\|\s*(\d+)\s*\]",
+    re.IGNORECASE,
+)
+
 
 def extract_stat_changes(text: str) -> list[tuple[str, str]]:
     """
@@ -57,6 +76,59 @@ def extract_stat_changes(text: str) -> list[tuple[str, str]]:
         results.append(("XP_GEWINN", m.group(1)))
     for m in SKILL_USED_PATTERN.finditer(text):
         results.append(("FERTIGKEIT_GENUTZT", m.group(1).strip()))
+    return results
+
+
+def extract_inventory_changes(text: str) -> list[tuple[str, str]]:
+    """
+    Parst alle INVENTAR-Tags aus dem GM-Text.
+    Returns list of (item_name, action) tuples.
+      action: "gefunden" | "verloren" | "gekauft" | "verkauft"
+    """
+    results: list[tuple[str, str]] = []
+    for m in INVENTAR_PATTERN.finditer(text):
+        results.append((m.group(1).strip(), m.group(2).strip().lower()))
+    return results
+
+
+def extract_combat_tags(text: str) -> list[tuple[str, Any]]:
+    """
+    Parst alle Kampf-Tags aus dem GM-Text (AD&D 2e).
+    Returns list of (tag_type, data) tuples.
+      ("ANGRIFF", {"weapon": str, "thac0": int, "target_ac": int, "modifiers": int})
+      ("RETTUNGSWURF", {"category": str, "target": int})
+    """
+    results: list[tuple[str, Any]] = []
+    for m in ANGRIFF_PATTERN.finditer(text):
+        results.append(("ANGRIFF", {
+            "weapon": m.group(1).strip(),
+            "thac0": int(m.group(2)),
+            "target_ac": int(m.group(3)),
+            "modifiers": int(m.group(4)),
+        }))
+    for m in RETTUNGSWURF_PATTERN.finditer(text):
+        results.append(("RETTUNGSWURF", {
+            "category": m.group(1).strip(),
+            "target": int(m.group(2)),
+        }))
+    return results
+
+
+def extract_time_changes(text: str) -> list[tuple[str, str | tuple[int, int]]]:
+    """
+    Parst alle Zeit/Wetter-Tags aus dem GM-Text.
+    Returns list of (tag_type, value) tuples.
+      ("ZEIT_VERGEHT", "2.0")
+      ("TAGESZEIT", (14, 30))
+      ("WETTER", "starker Regen")
+    """
+    results: list[tuple[str, Any]] = []
+    for m in ZEIT_PATTERN.finditer(text):
+        results.append(("ZEIT_VERGEHT", m.group(1)))
+    for m in TAGESZEIT_PATTERN.finditer(text):
+        results.append(("TAGESZEIT", (int(m.group(1)), int(m.group(2)))))
+    for m in WETTER_PATTERN.finditer(text):
+        results.append(("WETTER", m.group(1).strip()))
     return results
 
 
@@ -99,6 +171,8 @@ class CharacterManager:
         self._stats_max: dict[str, int] = {}
         self._skills: dict[str, int] = {}
         self._skills_used: set[str] = set()
+        self._inventory: list[str] = []
+        self._xp: int = 0
         self._conn: sqlite3.Connection | None = None
 
     # ------------------------------------------------------------------
@@ -147,14 +221,23 @@ class CharacterManager:
         self._skills = json.loads(row["skills"])
         self._skills_used = set(json.loads(row["skills_used"]))
 
+        # Inventar und XP laden (neue Spalten, Fallback fuer alte DBs)
+        try:
+            self._inventory = json.loads(row["inventory"])
+        except (KeyError, IndexError):
+            self._inventory = []
+        try:
+            self._xp = row["xp"]
+        except (KeyError, IndexError):
+            self._xp = 0
+
         logger.info(
-            "Charakter geladen: %s (ID=%d) | HP: %d/%d | SAN: %d/%d",
+            "Charakter geladen: %s (ID=%d) | HP: %d/%d | XP: %d",
             self._name,
             self._char_id,
             self._stats.get("HP", 0),
             self._stats_max.get("HP", 0),
-            self._stats.get("SAN", 0),
-            self._stats_max.get("SAN", 0),
+            self._xp,
         )
         return True
 
@@ -212,6 +295,62 @@ class CharacterManager:
             "Fertigkeit '%s' nicht im Ruleset gefunden — nicht markiert.", skill_name
         )
 
+    # ------------------------------------------------------------------
+    # Inventar
+    # ------------------------------------------------------------------
+
+    def add_item(self, item_name: str) -> None:
+        """Fuegt einen Gegenstand zum Inventar hinzu und persistiert."""
+        self._inventory.append(item_name.strip())
+        self.save()
+        logger.info("Inventar +: '%s' (gesamt: %d)", item_name, len(self._inventory))
+
+    def remove_item(self, item_name: str) -> bool:
+        """
+        Entfernt einen Gegenstand aus dem Inventar (case-insensitive Suche).
+        Returns True wenn gefunden und entfernt, False wenn nicht vorhanden.
+        """
+        needle = item_name.strip().lower()
+        for i, existing in enumerate(self._inventory):
+            if existing.lower() == needle:
+                removed = self._inventory.pop(i)
+                self.save()
+                logger.info("Inventar -: '%s' (gesamt: %d)", removed, len(self._inventory))
+                return True
+        logger.warning("Gegenstand '%s' nicht im Inventar.", item_name)
+        return False
+
+    def get_inventory(self) -> list[str]:
+        """Gibt eine Kopie des aktuellen Inventars zurueck."""
+        return list(self._inventory)
+
+    # ------------------------------------------------------------------
+    # XP
+    # ------------------------------------------------------------------
+
+    def add_xp(self, amount: int) -> dict[str, int]:
+        """
+        Fuegt Erfahrungspunkte hinzu und persistiert sofort.
+        Returns dict mit old_xp, new_xp, gained.
+        """
+        old = self._xp
+        self._xp += amount
+        self.save()
+        logger.info("XP: %d -> %d (+%d)", old, self._xp, amount)
+        return {"old_xp": old, "new_xp": self._xp, "gained": amount}
+
+    @property
+    def xp(self) -> int:
+        return self._xp
+
+    @property
+    def inventory(self) -> list[str]:
+        return list(self._inventory)
+
+    @property
+    def level(self) -> int:
+        return self._level
+
     def save(self) -> None:
         """Persistiert den aktuellen Charakter-Zustand sofort in der DB."""
         if not self._conn:
@@ -223,8 +362,8 @@ class CharacterManager:
             cur = self._conn.execute(
                 """INSERT INTO characters
                    (name, module, stats_current, stats_max, skills, skills_used,
-                    created_at, last_saved)
-                   VALUES (?, ?, ?, ?, ?, ?, ?, ?)""",
+                    inventory, xp, created_at, last_saved)
+                   VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
                 (
                     self._name,
                     self._module,
@@ -232,6 +371,8 @@ class CharacterManager:
                     json.dumps(self._stats_max),
                     json.dumps(self._skills),
                     json.dumps(list(self._skills_used)),
+                    json.dumps(self._inventory),
+                    self._xp,
                     now,
                     now,
                 ),
@@ -243,13 +384,15 @@ class CharacterManager:
             self._conn.execute(
                 """UPDATE characters SET
                    stats_current = ?, stats_max = ?, skills = ?,
-                   skills_used = ?, last_saved = ?
+                   skills_used = ?, inventory = ?, xp = ?, last_saved = ?
                    WHERE id = ?""",
                 (
                     json.dumps(self._stats),
                     json.dumps(self._stats_max),
                     json.dumps(self._skills),
                     json.dumps(list(self._skills_used)),
+                    json.dumps(self._inventory),
+                    self._xp,
                     now,
                     self._char_id,
                 ),
@@ -316,11 +459,15 @@ class CharacterManager:
     # ------------------------------------------------------------------
 
     def status_line(self) -> str:
-        """Kurze Statuszeile: 'HP: 13/13 | SAN: 65/65 | MP: 13/13'."""
+        """Kurze Statuszeile: 'HP: 13/13 | SAN: 65/65 | XP: 150 | Inventar: 5'."""
         parts = []
         for key in ("HP", "SAN", "MP"):
             if key in self._stats:
                 parts.append(f"{key}: {self._stats[key]}/{self._stats_max.get(key, '?')}")
+        if self._xp > 0:
+            parts.append(f"XP: {self._xp}")
+        if self._inventory:
+            parts.append(f"Inventar: {len(self._inventory)}")
         if self._skills_used:
             parts.append(f"Fertigkeiten markiert: {len(self._skills_used)}")
         return " | ".join(parts) if parts else ""
@@ -335,11 +482,13 @@ class CharacterManager:
 
     @property
     def is_dead(self) -> bool:
-        return self._stats.get("HP", 1) <= 0
+        hp = self._stats.get("HP", 1)
+        return hp <= 0 if isinstance(hp, (int, float)) else False
 
     @property
     def is_insane(self) -> bool:
-        return self._stats.get("SAN", 1) <= 0
+        san = self._stats.get("SAN", 1)
+        return san <= 0 if isinstance(san, (int, float)) else False
 
     # ------------------------------------------------------------------
     # Private Helfer
@@ -388,6 +537,8 @@ class CharacterManager:
             ("characters", "stats_max",     "TEXT NOT NULL DEFAULT '{}'"),
             ("characters", "skills",        "TEXT NOT NULL DEFAULT '{}'"),
             ("characters", "skills_used",   "TEXT NOT NULL DEFAULT '[]'"),
+            ("characters", "inventory",     "TEXT NOT NULL DEFAULT '[]'"),
+            ("characters", "xp",            "INTEGER NOT NULL DEFAULT 0"),
             ("characters", "created_at",    "TEXT NOT NULL DEFAULT ''"),
             ("characters", "last_saved",    "TEXT NOT NULL DEFAULT ''"),
             ("sessions",   "character_id",  "INTEGER"),
@@ -507,6 +658,10 @@ class CharacterManager:
         self._skills = base_skills
         self._skills_used = set()
 
+        # Equipment aus Template ins Inventar uebernehmen
+        self._inventory = list(self._equipment)
+        self._xp = t.get("xp", 0)
+
         logger.info(
             "Charakter aus Template: %s (%s, Stufe %d)",
             self._name, self._archetype, self._level,
@@ -535,22 +690,31 @@ class CharacterManager:
             char_values[stat_key] = avg * mult
         self._characteristics = char_values
 
-        # Abgeleitete Werte
-        con  = char_values.get("CON", 65)
-        siz  = char_values.get("SIZ", 65)
-        pow_ = char_values.get("POW", 65)
+        # Abgeleitete Werte — systemabhaengig
+        derived_def = self.ruleset.get("derived_stats", {})
 
-        hp_val  = math.floor((con + siz) / 10)
-        san_val = pow_
-        mp_val  = math.floor(pow_ / 5)
+        if "SIZ" in char_values:
+            # CoC-Stil: HP = (CON + SIZ) / 10
+            con = char_values.get("CON", 65)
+            siz = char_values.get("SIZ", 65)
+            hp_val = math.floor((con + siz) / 10)
+        else:
+            # AD&D-Stil: HP = Hit Die Durchschnitt (d10=5 fuer Fighter)
+            hp_val = 10
 
-        # Stats dynamisch: nur SAN/MP wenn Ruleset diese definiert
         self._stats     = {"HP": hp_val}
         self._stats_max = {"HP": hp_val}
+
+        # SAN nur fuer Rulesets mit Sanity-System (CoC)
         if "sanity" in self.ruleset:
-            self._stats["SAN"] = san_val
-            self._stats_max["SAN"] = min(99, san_val)
-        if "MP" in self.ruleset.get("derived_stats", {}):
+            pow_ = char_values.get("POW", 65)
+            self._stats["SAN"] = pow_
+            self._stats_max["SAN"] = min(99, pow_)
+
+        # MP nur fuer Rulesets die das explizit definieren (CoC)
+        if "MP" in derived_def:
+            pow_ = char_values.get("POW", 65)
+            mp_val = math.floor(pow_ / 5)
             self._stats["MP"] = mp_val
             self._stats_max["MP"] = mp_val
 

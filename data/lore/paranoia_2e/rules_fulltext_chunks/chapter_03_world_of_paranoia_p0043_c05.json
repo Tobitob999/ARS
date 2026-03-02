@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_03_world_of_paranoia_p0043_c05",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_03_world_of_paranoia",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The World of Paranoia page 43, chunk 5.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_03_world_of_paranoia",
+    "source_title": "The World of Paranoia",
+    "page": 43,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "Messing with The Computer is great — challenging, dangerous, and exciting, \nFriends: Pro Tech \nEnemies: First Church of Christ Computer- Programmer. General Description: This secret society isa very loose fraternity of like-souled individu- alists. They seldom meetin the flesh, but have \n43",
+    "topic": "secret_societies",
+    "keywords": [
+      "computer",
+      "messing",
+      "great",
+      "challenging",
+      "dangerous",
+      "exciting",
+      "friends",
+      "tech"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0110_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 110, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 110,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Die Waffe muss mindestens \n1 Kästchen Schaden verursachen, damit ein Zusatzeffekt \nwirken kann. Kampfbeispiele\nEs gibt bei Shadowrun viele Arten, Leuten wehzutun, \nund wir wollten für viele davon Beispiele des Schritt-\nfür-Schritt-Ablaufs zeigen. In diesem Kapitel ﬁ ndest du \nBeispiele für den Einsatz von Feuerwaffen (unten), den \nNahkampf mit Schergen (S. 113), Granaten (S. 118), \nGranatwerfer (S. 119), Gasgranaten (S. 120), Exotische \nWaffen und Sprühangriffe (S. 121) sowie für Heilung \n(S. 124). Beispiel: Feuerw affen\nOda, ein ehrenvoller Straßensamurai, erlebt einen schwe-\nren Tag mit einer Gruppe Eye-Fivers, die glauben, dass \nÜbermacht mehr zählt als Können. Er hat seine bewährte \nPredator VI in der Hand und beschließt, der Schlange \nden Kopf abzuschlagen, indem er den ausschaltet, der \nwie der Anführer aussieht. Gehen wir die Schritte durch! Schritt eins: Schnappt euch die Würfel\nOda schießt mit einer Pistole mit Feuerwaffen 5 + Ge-\nschicklichkeit 7, +1 für ein aktives WiFi-Smartgunsystem \n(er hat keine Angst vor einem Hacker in der Gang), was \ninsgesamt einen Würfelpool von 13 ergibt. Der Eye-Fiver \nverteidigt sich mit Reaktion 4 + Intuition 3, also einem \nWürfelpool von 7. Schritt zwei: Verteil t Edge\nJetzt vergleichen wir den Angriffswert der Ares Predator \nVI (10) mit dem Verteidigungswert des Eye-Fivers (4: \nKonstitution 3 + 1 für Panzerung). Odas Wert ist mehr \nals 4 größer, also erhält er 1 Edge. Dann wenden wir uns der Situation zu. Es ist Nacht in \neiner schlecht beleuchteten Gasse, weil Oda sie alle auf \neinen Haufen haben und von der Restlichtverstärkung \nin seinen Cyberaugen proﬁ tieren wollte, die die Ganger \nnicht haben.",
+    "topic": "combat.attack",
+    "keywords": [
+      "schritt",
+      "einen",
+      "einer",
+      "viele",
+      "beispiele",
+      "feuerwaffen",
+      "fivers",
+      "mehr"
+    ]
+  }
+}

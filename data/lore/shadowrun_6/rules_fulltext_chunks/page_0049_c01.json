@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0049_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 49, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 49,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "einmal gewürfelt werden kann, um möglicherweise \neinen weiteren Erfolg zu erzielen. Gibt es einen Erfolg \n(also eine 5 oder 6), so notiere ihn; fällt wieder eine \n6, kann der Würfel erneut geworfen werden. Wird \nnach einer 6 eine 1 gewürfelt, so zählt sie nicht für \ndie Ermittlung eines Patzers mit. • Heile ein Kästchen Körperlichen Schaden (immer):\nDu radierst ein gefülltes Kästchen auf deinem Körper-\nlichen Zustandsmonitor aus – du bist deinen Gegnern \nso überlegen, dass sie dich doch nicht so hart getroffen \nhaben wie zunächst gedacht. • Würfle mit allen Würfeln neu, die keine Erfolge zei-\ngen (nach): Nach einem Würfelwurf kannst du alle \nWürfel, die keinen Erfolg erzielt haben, neu werfen. Allerdings kann dieser Edge-Boost nicht eingesetzt \nwerden, wenn du einen Patzer oder Kritischen Patzer \nerzielt hast. • Führe eine Edge-Handlung aus (vor): Du kannst eine \nder 4-Edge-Handlungen ausführen, die weiter unten \nbeschrieben werden. 5-Edge-Boosts\n• 2en zählen als Patzer für den Gegner (vor): Es wird \nZeit, zum Gegenangriff überzugehen! Wenn ein Gegner \nwürfelt, zählen sowohl seine 1en als auch seine 2en bei \nder Bestimmung eines Patzers oder Kritischen Patzers. • Rufe einen speziellen Effekt hervor (immer): Setze \ndeine Kreativität ein! Gib 5 Edge aus, und etwas \nSpektakuläres geschieht. Was genau das ist, bleibt \ndir und dem Spielleiter überlassen, aber es sollte das \nGlück auf jeden Fall leicht zu deinen Gunsten wen-\nden. Ein platzendes Wasserrohr, näher kommende \nSirenen, ein plötzlich auftauchender DocWagon, ein \nwütender Geist, irgendetwas, das deiner Seite einen \nkleinen Vorteil verschafft oder die Gegner etwas aus \ndem Konzept bringt.",
+    "topic": "combat.damage",
+    "keywords": [
+      "einen",
+      "edge",
+      "erfolg",
+      "patzers",
+      "gegner",
+      "gewuerfelt",
+      "wuerfel",
+      "eines"
+    ]
+  }
+}

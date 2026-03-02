@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0.0",
+  "category": "covert_agenda",
+  "id": "society_op_13",
+  "name": "Anti-Mutant Covert Agenda 13",
+  "tags": [
+    "paranoia_2e",
+    "secret_society",
+    "covert"
+  ],
+  "summary": "Hidden objective package used by Anti-Mutant cells.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "society": "Anti-Mutant",
+    "goal": "extract_data",
+    "cover_story": "inventory_recount",
+    "blowback": "equipment_confiscation"
+  }
+}

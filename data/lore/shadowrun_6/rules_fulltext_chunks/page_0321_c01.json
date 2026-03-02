@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0321_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 321, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 321,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Skrapland – ganz im Nordwesten von Wildost gelegen \n– ist die Heimat der Schiffszerleger. Ausrangierte Frachter \nund Tankschiffe werden hier ans Ufer gefahren, zerlegt und \nbis auf die letzte Schraube verwertet. Das gesamte Viertel \nbesitzt den Charme eines (am oder auf dem Wasser gele-\ngenen) Schrottplatzes, und kräftige Orks und Trolle sind \nhier die dominierende Spezies. Die Arbeit an den Schiffen \nist hart und gefährlich, die Bezahlung und die Lebenser-\nwartung der Arbeiter gering. Dennoch werden hier (für \nWildost-Verhältnisse) wertvolle Waren umgeschlagen, wes-\nwegen bei jedem neuen Abwrackauftrag ein Kampf darum \nentbrennt, welche Crew den Löwenanteil der Arbeiten für \nsich gewinnen kann. Ein Großteil der mechanischen und \nelektrischen Gerätschaften, die im Slum verwendet werden, \nstammt aus Skrapland, wurde hier aus Elektroschrott ge-\nfertigt oder aus einem Schiff ausgebaut. Im Südosten schließt sich ein Viertel an, das ganz über-\nwiegend auf dem Wasser errichtet wurde und Katschera\ngenannt wird. Hier leben die meisten Bettler- und Diebes-\nbanden, die sich morgens auf den Weg über die Elbe zu \nden „reichen“ Hamburgern aufmachen, und hier landen \nauch die meisten Neuankömmlinge. Wenn sie sich keinen \nfreien Platz zwischen zwei bestehenden Hütten oder Flö-\nßen ertrotzen können, müssen sie ihr neues Zuhause, weit \nin die Elbe hineinragend, „anbauen“. Einige Bewohner \nKatscheras sind so verrückt (und verzweifelt), dass sie gar \nauf der verseuchten Elbe auf Fischfang gehen. Zwischen \nden elenden Bettlern und Fischern haben sich waghal-\nsige Piratencrews ihre wehrhaften Lager errichtet.",
+    "topic": "general",
+    "keywords": [
+      "hier",
+      "sich",
+      "elbe",
+      "skrapland",
+      "ganz",
+      "wildost",
+      "viertel",
+      "wasser"
+    ]
+  }
+}

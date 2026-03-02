@@ -1,0 +1,3990 @@
+{
+  "schema_version": "1.1.0",
+  "category": "rules_chunk_index",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "index",
+    "lossless"
+  ],
+  "summary": "Index of lossless rules injection chunks mapped to source pages.",
+  "source_text": {
+    "included_sources": [
+      {
+        "kind": "chapter",
+        "id": "chapter_00_preface",
+        "title": "Preface",
+        "page_start": 2,
+        "page_end": 4
+      },
+      {
+        "kind": "chapter",
+        "id": "chapter_01_paranoia_for_players",
+        "title": "Paranoia for Players",
+        "page_start": 5,
+        "page_end": 28
+      },
+      {
+        "kind": "chapter",
+        "id": "chapter_02_intro_to_gamemastering",
+        "title": "An Introduction to Gamemastering",
+        "page_start": 29,
+        "page_end": 34
+      },
+      {
+        "kind": "chapter",
+        "id": "chapter_03_world_of_paranoia",
+        "title": "The World of Paranoia",
+        "page_start": 35,
+        "page_end": 52
+      },
+      {
+        "kind": "chapter",
+        "id": "chapter_04_the_rules",
+        "title": "The Rules",
+        "page_start": 53,
+        "page_end": 90
+      },
+      {
+        "kind": "chapter",
+        "id": "chapter_05_gamemastering_paranoia",
+        "title": "Gamemastering Paranoia",
+        "page_start": 91,
+        "page_end": 106
+      },
+      {
+        "kind": "chapter",
+        "id": "chapter_07_tips_for_traitors",
+        "title": "Tips for Traitors",
+        "page_start": 135,
+        "page_end": 145
+      },
+      {
+        "kind": "appendix",
+        "id": "appendix_01_foldout_a_player_charts",
+        "title": "Fold-Out A: Player Charts",
+        "page_start": 146,
+        "page_end": 146
+      },
+      {
+        "kind": "appendix",
+        "id": "appendix_02_foldout_b_gamemaster_charts",
+        "title": "Fold-Out B: Gamemaster Charts",
+        "page_start": 147,
+        "page_end": 147
+      },
+      {
+        "kind": "appendix",
+        "id": "appendix_03_foldout_c_character_sheet_and_forms",
+        "title": "Fold-Out C: Character Sheet and Forms",
+        "page_start": 148,
+        "page_end": 148
+      },
+      {
+        "kind": "appendix",
+        "id": "appendix_04_foldout_d_logc_player_characters",
+        "title": "Fold-Out D: I.O.G.C. Player Characters",
+        "page_start": 149,
+        "page_end": 150
+      },
+      {
+        "kind": "appendix",
+        "id": "appendix_05_foldout_e_logc_handouts",
+        "title": "Fold-Out E: I.O.G.C. Hand-Outs",
+        "page_start": 151,
+        "page_end": 154
+      },
+      {
+        "kind": "appendix",
+        "id": "appendix_06_foldout_f_more_logc",
+        "title": "Fold-Out F: More I.O.G.C. Stuff",
+        "page_start": 155,
+        "page_end": 159
+      }
+    ],
+    "excluded_sources": [],
+    "adventure_chunk_index": "data/lore/paranoia_2e/indices/adventure_chunk_index.json"
+  },
+  "mechanics": {
+    "chunk_count": 451,
+    "coverage": {
+      "expected_pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159
+      ],
+      "covered_pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159
+      ],
+      "missing_pages": [],
+      "empty_pages": [],
+      "uncovered_pages": []
+    },
+    "chunks": [
+      {
+        "id": "chapter_00_preface_p0002_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_00_preface_p0002_c01.json",
+        "source_id": "chapter_00_preface",
+        "page": 2,
+        "chunk_index": 1,
+        "chars": 1194
+      },
+      {
+        "id": "chapter_00_preface_p0003_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_00_preface_p0003_c01.json",
+        "source_id": "chapter_00_preface",
+        "page": 3,
+        "chunk_index": 1,
+        "chars": 1655
+      },
+      {
+        "id": "chapter_00_preface_p0004_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_00_preface_p0004_c01.json",
+        "source_id": "chapter_00_preface",
+        "page": 4,
+        "chunk_index": 1,
+        "chars": 1690
+      },
+      {
+        "id": "chapter_00_preface_p0004_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_00_preface_p0004_c02.json",
+        "source_id": "chapter_00_preface",
+        "page": 4,
+        "chunk_index": 2,
+        "chars": 1498
+      },
+      {
+        "id": "chapter_00_preface_p0004_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_00_preface_p0004_c03.json",
+        "source_id": "chapter_00_preface",
+        "page": 4,
+        "chunk_index": 3,
+        "chars": 1691
+      },
+      {
+        "id": "chapter_00_preface_p0004_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_00_preface_p0004_c04.json",
+        "source_id": "chapter_00_preface",
+        "page": 4,
+        "chunk_index": 4,
+        "chars": 348
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0005_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0005_c01.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 5,
+        "chunk_index": 1,
+        "chars": 80
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0006_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0006_c01.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 6,
+        "chunk_index": 1,
+        "chars": 1697
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0006_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0006_c02.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 6,
+        "chunk_index": 2,
+        "chars": 1685
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0006_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0006_c03.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 6,
+        "chunk_index": 3,
+        "chars": 75
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0007_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0007_c01.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 7,
+        "chunk_index": 1,
+        "chars": 1669
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0007_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0007_c02.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 7,
+        "chunk_index": 2,
+        "chars": 1627
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0007_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0007_c03.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 7,
+        "chunk_index": 3,
+        "chars": 329
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0008_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0008_c01.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 8,
+        "chunk_index": 1,
+        "chars": 1596
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0008_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0008_c02.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 8,
+        "chunk_index": 2,
+        "chars": 1679
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0008_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0008_c03.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 8,
+        "chunk_index": 3,
+        "chars": 1591
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0008_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0008_c04.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 8,
+        "chunk_index": 4,
+        "chars": 1643
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0008_c05",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0008_c05.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 8,
+        "chunk_index": 5,
+        "chars": 374
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0009_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0009_c01.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 9,
+        "chunk_index": 1,
+        "chars": 1651
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0009_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0009_c02.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 9,
+        "chunk_index": 2,
+        "chars": 1700
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0009_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0009_c03.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 9,
+        "chunk_index": 3,
+        "chars": 1047
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0010_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0010_c01.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 10,
+        "chunk_index": 1,
+        "chars": 1586
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0010_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0010_c02.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 10,
+        "chunk_index": 2,
+        "chars": 1541
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0010_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0010_c03.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 10,
+        "chunk_index": 3,
+        "chars": 1367
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0011_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0011_c01.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 11,
+        "chunk_index": 1,
+        "chars": 1543
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0011_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0011_c02.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 11,
+        "chunk_index": 2,
+        "chars": 1609
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0012_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0012_c01.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 12,
+        "chunk_index": 1,
+        "chars": 682
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0013_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0013_c01.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 13,
+        "chunk_index": 1,
+        "chars": 1608
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0013_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0013_c02.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 13,
+        "chunk_index": 2,
+        "chars": 1371
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0013_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0013_c03.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 13,
+        "chunk_index": 3,
+        "chars": 1700
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0013_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0013_c04.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 13,
+        "chunk_index": 4,
+        "chars": 1604
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0013_c05",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0013_c05.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 13,
+        "chunk_index": 5,
+        "chars": 1104
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0014_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0014_c01.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 14,
+        "chunk_index": 1,
+        "chars": 1522
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0014_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0014_c02.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 14,
+        "chunk_index": 2,
+        "chars": 1627
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0014_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0014_c03.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 14,
+        "chunk_index": 3,
+        "chars": 1687
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0014_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0014_c04.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 14,
+        "chunk_index": 4,
+        "chars": 1584
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0014_c05",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0014_c05.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 14,
+        "chunk_index": 5,
+        "chars": 162
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0015_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0015_c01.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 15,
+        "chunk_index": 1,
+        "chars": 1630
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0015_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0015_c02.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 15,
+        "chunk_index": 2,
+        "chars": 1679
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0015_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0015_c03.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 15,
+        "chunk_index": 3,
+        "chars": 941
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0016_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0016_c01.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 16,
+        "chunk_index": 1,
+        "chars": 1487
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0016_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0016_c02.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 16,
+        "chunk_index": 2,
+        "chars": 1683
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0016_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0016_c03.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 16,
+        "chunk_index": 3,
+        "chars": 620
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0017_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0017_c01.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 17,
+        "chunk_index": 1,
+        "chars": 1364
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0017_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0017_c02.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 17,
+        "chunk_index": 2,
+        "chars": 1614
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0017_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0017_c03.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 17,
+        "chunk_index": 3,
+        "chars": 1295
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0018_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0018_c01.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 18,
+        "chunk_index": 1,
+        "chars": 1409
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0018_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0018_c02.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 18,
+        "chunk_index": 2,
+        "chars": 1547
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0018_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0018_c03.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 18,
+        "chunk_index": 3,
+        "chars": 1595
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0019_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0019_c01.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 19,
+        "chunk_index": 1,
+        "chars": 1647
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0019_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0019_c02.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 19,
+        "chunk_index": 2,
+        "chars": 1372
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0019_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0019_c03.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 19,
+        "chunk_index": 3,
+        "chars": 1638
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0019_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0019_c04.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 19,
+        "chunk_index": 4,
+        "chars": 1419
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0020_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0020_c01.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 20,
+        "chunk_index": 1,
+        "chars": 1602
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0020_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0020_c02.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 20,
+        "chunk_index": 2,
+        "chars": 1697
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0020_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0020_c03.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 20,
+        "chunk_index": 3,
+        "chars": 1502
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0020_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0020_c04.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 20,
+        "chunk_index": 4,
+        "chars": 293
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0021_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0021_c01.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 21,
+        "chunk_index": 1,
+        "chars": 1487
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0021_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0021_c02.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 21,
+        "chunk_index": 2,
+        "chars": 1673
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0021_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0021_c03.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 21,
+        "chunk_index": 3,
+        "chars": 1622
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0021_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0021_c04.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 21,
+        "chunk_index": 4,
+        "chars": 229
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0022_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0022_c01.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 22,
+        "chunk_index": 1,
+        "chars": 1590
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0022_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0022_c02.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 22,
+        "chunk_index": 2,
+        "chars": 1668
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0022_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0022_c03.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 22,
+        "chunk_index": 3,
+        "chars": 1053
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0023_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0023_c01.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 23,
+        "chunk_index": 1,
+        "chars": 1566
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0023_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0023_c02.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 23,
+        "chunk_index": 2,
+        "chars": 1700
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0023_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0023_c03.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 23,
+        "chunk_index": 3,
+        "chars": 1684
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0023_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0023_c04.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 23,
+        "chunk_index": 4,
+        "chars": 1225
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0024_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0024_c01.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 24,
+        "chunk_index": 1,
+        "chars": 1601
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0024_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0024_c02.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 24,
+        "chunk_index": 2,
+        "chars": 1612
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0024_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0024_c03.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 24,
+        "chunk_index": 3,
+        "chars": 1482
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0024_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0024_c04.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 24,
+        "chunk_index": 4,
+        "chars": 1186
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0025_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0025_c01.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 25,
+        "chunk_index": 1,
+        "chars": 1013
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0025_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0025_c02.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 25,
+        "chunk_index": 2,
+        "chars": 1347
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0025_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0025_c03.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 25,
+        "chunk_index": 3,
+        "chars": 1299
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0026_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0026_c01.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 26,
+        "chunk_index": 1,
+        "chars": 1460
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0026_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0026_c02.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 26,
+        "chunk_index": 2,
+        "chars": 1680
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0026_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0026_c03.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 26,
+        "chunk_index": 3,
+        "chars": 1553
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0026_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0026_c04.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 26,
+        "chunk_index": 4,
+        "chars": 462
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0027_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0027_c01.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 27,
+        "chunk_index": 1,
+        "chars": 1666
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0027_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0027_c02.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 27,
+        "chunk_index": 2,
+        "chars": 1655
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0027_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0027_c03.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 27,
+        "chunk_index": 3,
+        "chars": 656
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0028_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0028_c01.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 28,
+        "chunk_index": 1,
+        "chars": 1333
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0028_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0028_c02.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 28,
+        "chunk_index": 2,
+        "chars": 1694
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0028_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0028_c03.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 28,
+        "chunk_index": 3,
+        "chars": 930
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0028_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0028_c04.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 28,
+        "chunk_index": 4,
+        "chars": 1354
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0028_c05",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0028_c05.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 28,
+        "chunk_index": 5,
+        "chars": 1602
+      },
+      {
+        "id": "chapter_01_paranoia_for_players_p0028_c06",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_01_paranoia_for_players_p0028_c06.json",
+        "source_id": "chapter_01_paranoia_for_players",
+        "page": 28,
+        "chunk_index": 6,
+        "chars": 858
+      },
+      {
+        "id": "chapter_02_intro_to_gamemastering_p0029_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_02_intro_to_gamemastering_p0029_c01.json",
+        "source_id": "chapter_02_intro_to_gamemastering",
+        "page": 29,
+        "chunk_index": 1,
+        "chars": 177
+      },
+      {
+        "id": "chapter_02_intro_to_gamemastering_p0030_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_02_intro_to_gamemastering_p0030_c01.json",
+        "source_id": "chapter_02_intro_to_gamemastering",
+        "page": 30,
+        "chunk_index": 1,
+        "chars": 1641
+      },
+      {
+        "id": "chapter_02_intro_to_gamemastering_p0030_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_02_intro_to_gamemastering_p0030_c02.json",
+        "source_id": "chapter_02_intro_to_gamemastering",
+        "page": 30,
+        "chunk_index": 2,
+        "chars": 1686
+      },
+      {
+        "id": "chapter_02_intro_to_gamemastering_p0030_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_02_intro_to_gamemastering_p0030_c03.json",
+        "source_id": "chapter_02_intro_to_gamemastering",
+        "page": 30,
+        "chunk_index": 3,
+        "chars": 1549
+      },
+      {
+        "id": "chapter_02_intro_to_gamemastering_p0030_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_02_intro_to_gamemastering_p0030_c04.json",
+        "source_id": "chapter_02_intro_to_gamemastering",
+        "page": 30,
+        "chunk_index": 4,
+        "chars": 548
+      },
+      {
+        "id": "chapter_02_intro_to_gamemastering_p0031_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_02_intro_to_gamemastering_p0031_c01.json",
+        "source_id": "chapter_02_intro_to_gamemastering",
+        "page": 31,
+        "chunk_index": 1,
+        "chars": 1599
+      },
+      {
+        "id": "chapter_02_intro_to_gamemastering_p0031_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_02_intro_to_gamemastering_p0031_c02.json",
+        "source_id": "chapter_02_intro_to_gamemastering",
+        "page": 31,
+        "chunk_index": 2,
+        "chars": 1684
+      },
+      {
+        "id": "chapter_02_intro_to_gamemastering_p0031_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_02_intro_to_gamemastering_p0031_c03.json",
+        "source_id": "chapter_02_intro_to_gamemastering",
+        "page": 31,
+        "chunk_index": 3,
+        "chars": 1645
+      },
+      {
+        "id": "chapter_02_intro_to_gamemastering_p0031_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_02_intro_to_gamemastering_p0031_c04.json",
+        "source_id": "chapter_02_intro_to_gamemastering",
+        "page": 31,
+        "chunk_index": 4,
+        "chars": 947
+      },
+      {
+        "id": "chapter_02_intro_to_gamemastering_p0032_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_02_intro_to_gamemastering_p0032_c01.json",
+        "source_id": "chapter_02_intro_to_gamemastering",
+        "page": 32,
+        "chunk_index": 1,
+        "chars": 1490
+      },
+      {
+        "id": "chapter_02_intro_to_gamemastering_p0032_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_02_intro_to_gamemastering_p0032_c02.json",
+        "source_id": "chapter_02_intro_to_gamemastering",
+        "page": 32,
+        "chunk_index": 2,
+        "chars": 1664
+      },
+      {
+        "id": "chapter_02_intro_to_gamemastering_p0032_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_02_intro_to_gamemastering_p0032_c03.json",
+        "source_id": "chapter_02_intro_to_gamemastering",
+        "page": 32,
+        "chunk_index": 3,
+        "chars": 1608
+      },
+      {
+        "id": "chapter_02_intro_to_gamemastering_p0032_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_02_intro_to_gamemastering_p0032_c04.json",
+        "source_id": "chapter_02_intro_to_gamemastering",
+        "page": 32,
+        "chunk_index": 4,
+        "chars": 905
+      },
+      {
+        "id": "chapter_02_intro_to_gamemastering_p0033_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_02_intro_to_gamemastering_p0033_c01.json",
+        "source_id": "chapter_02_intro_to_gamemastering",
+        "page": 33,
+        "chunk_index": 1,
+        "chars": 1503
+      },
+      {
+        "id": "chapter_02_intro_to_gamemastering_p0033_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_02_intro_to_gamemastering_p0033_c02.json",
+        "source_id": "chapter_02_intro_to_gamemastering",
+        "page": 33,
+        "chunk_index": 2,
+        "chars": 1647
+      },
+      {
+        "id": "chapter_02_intro_to_gamemastering_p0033_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_02_intro_to_gamemastering_p0033_c03.json",
+        "source_id": "chapter_02_intro_to_gamemastering",
+        "page": 33,
+        "chunk_index": 3,
+        "chars": 1604
+      },
+      {
+        "id": "chapter_02_intro_to_gamemastering_p0033_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_02_intro_to_gamemastering_p0033_c04.json",
+        "source_id": "chapter_02_intro_to_gamemastering",
+        "page": 33,
+        "chunk_index": 4,
+        "chars": 1366
+      },
+      {
+        "id": "chapter_02_intro_to_gamemastering_p0034_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_02_intro_to_gamemastering_p0034_c01.json",
+        "source_id": "chapter_02_intro_to_gamemastering",
+        "page": 34,
+        "chunk_index": 1,
+        "chars": 1567
+      },
+      {
+        "id": "chapter_02_intro_to_gamemastering_p0034_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_02_intro_to_gamemastering_p0034_c02.json",
+        "source_id": "chapter_02_intro_to_gamemastering",
+        "page": 34,
+        "chunk_index": 2,
+        "chars": 809
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0035_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0035_c01.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 35,
+        "chunk_index": 1,
+        "chars": 22
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0036_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0036_c01.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 36,
+        "chunk_index": 1,
+        "chars": 1650
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0036_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0036_c02.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 36,
+        "chunk_index": 2,
+        "chars": 1520
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0036_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0036_c03.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 36,
+        "chunk_index": 3,
+        "chars": 1636
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0036_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0036_c04.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 36,
+        "chunk_index": 4,
+        "chars": 626
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0037_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0037_c01.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 37,
+        "chunk_index": 1,
+        "chars": 1469
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0037_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0037_c02.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 37,
+        "chunk_index": 2,
+        "chars": 1657
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0037_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0037_c03.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 37,
+        "chunk_index": 3,
+        "chars": 1442
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0037_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0037_c04.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 37,
+        "chunk_index": 4,
+        "chars": 899
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0038_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0038_c01.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 38,
+        "chunk_index": 1,
+        "chars": 1677
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0038_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0038_c02.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 38,
+        "chunk_index": 2,
+        "chars": 534
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0039_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0039_c01.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 39,
+        "chunk_index": 1,
+        "chars": 1676
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0039_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0039_c02.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 39,
+        "chunk_index": 2,
+        "chars": 1632
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0039_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0039_c03.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 39,
+        "chunk_index": 3,
+        "chars": 1620
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0039_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0039_c04.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 39,
+        "chunk_index": 4,
+        "chars": 1697
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0039_c05",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0039_c05.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 39,
+        "chunk_index": 5,
+        "chars": 92
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0040_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0040_c01.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 40,
+        "chunk_index": 1,
+        "chars": 1467
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0040_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0040_c02.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 40,
+        "chunk_index": 2,
+        "chars": 1696
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0040_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0040_c03.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 40,
+        "chunk_index": 3,
+        "chars": 1651
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0041_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0041_c01.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 41,
+        "chunk_index": 1,
+        "chars": 1699
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0041_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0041_c02.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 41,
+        "chunk_index": 2,
+        "chars": 1649
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0041_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0041_c03.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 41,
+        "chunk_index": 3,
+        "chars": 1531
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0041_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0041_c04.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 41,
+        "chunk_index": 4,
+        "chars": 819
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0042_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0042_c01.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 42,
+        "chunk_index": 1,
+        "chars": 1642
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0042_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0042_c02.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 42,
+        "chunk_index": 2,
+        "chars": 1559
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0042_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0042_c03.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 42,
+        "chunk_index": 3,
+        "chars": 1696
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0042_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0042_c04.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 42,
+        "chunk_index": 4,
+        "chars": 923
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0043_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0043_c01.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 43,
+        "chunk_index": 1,
+        "chars": 1448
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0043_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0043_c02.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 43,
+        "chunk_index": 2,
+        "chars": 1591
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0043_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0043_c03.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 43,
+        "chunk_index": 3,
+        "chars": 1526
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0043_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0043_c04.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 43,
+        "chunk_index": 4,
+        "chars": 1651
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0043_c05",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0043_c05.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 43,
+        "chunk_index": 5,
+        "chars": 291
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0044_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0044_c01.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 44,
+        "chunk_index": 1,
+        "chars": 1377
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0044_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0044_c02.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 44,
+        "chunk_index": 2,
+        "chars": 1418
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0044_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0044_c03.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 44,
+        "chunk_index": 3,
+        "chars": 1645
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0045_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0045_c01.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 45,
+        "chunk_index": 1,
+        "chars": 1684
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0045_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0045_c02.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 45,
+        "chunk_index": 2,
+        "chars": 1688
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0045_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0045_c03.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 45,
+        "chunk_index": 3,
+        "chars": 1594
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0045_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0045_c04.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 45,
+        "chunk_index": 4,
+        "chars": 1689
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0045_c05",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0045_c05.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 45,
+        "chunk_index": 5,
+        "chars": 803
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0046_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0046_c01.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 46,
+        "chunk_index": 1,
+        "chars": 1676
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0046_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0046_c02.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 46,
+        "chunk_index": 2,
+        "chars": 1580
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0046_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0046_c03.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 46,
+        "chunk_index": 3,
+        "chars": 1660
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0046_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0046_c04.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 46,
+        "chunk_index": 4,
+        "chars": 1399
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0046_c05",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0046_c05.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 46,
+        "chunk_index": 5,
+        "chars": 833
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0047_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0047_c01.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 47,
+        "chunk_index": 1,
+        "chars": 1655
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0047_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0047_c02.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 47,
+        "chunk_index": 2,
+        "chars": 1629
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0047_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0047_c03.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 47,
+        "chunk_index": 3,
+        "chars": 1651
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0047_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0047_c04.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 47,
+        "chunk_index": 4,
+        "chars": 1473
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0047_c05",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0047_c05.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 47,
+        "chunk_index": 5,
+        "chars": 1138
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0048_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0048_c01.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 48,
+        "chunk_index": 1,
+        "chars": 1528
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0048_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0048_c02.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 48,
+        "chunk_index": 2,
+        "chars": 1700
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0048_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0048_c03.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 48,
+        "chunk_index": 3,
+        "chars": 1632
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0048_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0048_c04.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 48,
+        "chunk_index": 4,
+        "chars": 1556
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0048_c05",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0048_c05.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 48,
+        "chunk_index": 5,
+        "chars": 317
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0049_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0049_c01.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 49,
+        "chunk_index": 1,
+        "chars": 1679
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0049_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0049_c02.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 49,
+        "chunk_index": 2,
+        "chars": 1576
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0049_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0049_c03.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 49,
+        "chunk_index": 3,
+        "chars": 1674
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0049_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0049_c04.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 49,
+        "chunk_index": 4,
+        "chars": 1456
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0050_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0050_c01.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 50,
+        "chunk_index": 1,
+        "chars": 1679
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0050_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0050_c02.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 50,
+        "chunk_index": 2,
+        "chars": 1636
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0050_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0050_c03.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 50,
+        "chunk_index": 3,
+        "chars": 1671
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0050_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0050_c04.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 50,
+        "chunk_index": 4,
+        "chars": 1685
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0050_c05",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0050_c05.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 50,
+        "chunk_index": 5,
+        "chars": 26
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0051_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0051_c01.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 51,
+        "chunk_index": 1,
+        "chars": 1591
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0051_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0051_c02.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 51,
+        "chunk_index": 2,
+        "chars": 1547
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0051_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0051_c03.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 51,
+        "chunk_index": 3,
+        "chars": 1378
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0052_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0052_c01.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 52,
+        "chunk_index": 1,
+        "chars": 1549
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0052_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0052_c02.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 52,
+        "chunk_index": 2,
+        "chars": 1685
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0052_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0052_c03.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 52,
+        "chunk_index": 3,
+        "chars": 1686
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0052_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0052_c04.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 52,
+        "chunk_index": 4,
+        "chars": 1674
+      },
+      {
+        "id": "chapter_03_world_of_paranoia_p0052_c05",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_03_world_of_paranoia_p0052_c05.json",
+        "source_id": "chapter_03_world_of_paranoia",
+        "page": 52,
+        "chunk_index": 5,
+        "chars": 1513
+      },
+      {
+        "id": "chapter_04_the_rules_p0053_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0053_c01.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 53,
+        "chunk_index": 1,
+        "chars": 82
+      },
+      {
+        "id": "chapter_04_the_rules_p0054_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0054_c01.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 54,
+        "chunk_index": 1,
+        "chars": 1595
+      },
+      {
+        "id": "chapter_04_the_rules_p0054_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0054_c02.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 54,
+        "chunk_index": 2,
+        "chars": 1638
+      },
+      {
+        "id": "chapter_04_the_rules_p0054_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0054_c03.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 54,
+        "chunk_index": 3,
+        "chars": 1516
+      },
+      {
+        "id": "chapter_04_the_rules_p0055_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0055_c01.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 55,
+        "chunk_index": 1,
+        "chars": 1675
+      },
+      {
+        "id": "chapter_04_the_rules_p0055_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0055_c02.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 55,
+        "chunk_index": 2,
+        "chars": 1653
+      },
+      {
+        "id": "chapter_04_the_rules_p0055_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0055_c03.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 55,
+        "chunk_index": 3,
+        "chars": 1402
+      },
+      {
+        "id": "chapter_04_the_rules_p0056_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0056_c01.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 56,
+        "chunk_index": 1,
+        "chars": 1612
+      },
+      {
+        "id": "chapter_04_the_rules_p0056_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0056_c02.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 56,
+        "chunk_index": 2,
+        "chars": 1385
+      },
+      {
+        "id": "chapter_04_the_rules_p0056_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0056_c03.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 56,
+        "chunk_index": 3,
+        "chars": 1268
+      },
+      {
+        "id": "chapter_04_the_rules_p0056_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0056_c04.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 56,
+        "chunk_index": 4,
+        "chars": 1479
+      },
+      {
+        "id": "chapter_04_the_rules_p0056_c05",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0056_c05.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 56,
+        "chunk_index": 5,
+        "chars": 408
+      },
+      {
+        "id": "chapter_04_the_rules_p0057_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0057_c01.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 57,
+        "chunk_index": 1,
+        "chars": 1697
+      },
+      {
+        "id": "chapter_04_the_rules_p0057_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0057_c02.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 57,
+        "chunk_index": 2,
+        "chars": 1633
+      },
+      {
+        "id": "chapter_04_the_rules_p0057_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0057_c03.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 57,
+        "chunk_index": 3,
+        "chars": 1633
+      },
+      {
+        "id": "chapter_04_the_rules_p0057_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0057_c04.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 57,
+        "chunk_index": 4,
+        "chars": 1577
+      },
+      {
+        "id": "chapter_04_the_rules_p0057_c05",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0057_c05.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 57,
+        "chunk_index": 5,
+        "chars": 371
+      },
+      {
+        "id": "chapter_04_the_rules_p0058_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0058_c01.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 58,
+        "chunk_index": 1,
+        "chars": 1583
+      },
+      {
+        "id": "chapter_04_the_rules_p0058_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0058_c02.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 58,
+        "chunk_index": 2,
+        "chars": 1666
+      },
+      {
+        "id": "chapter_04_the_rules_p0058_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0058_c03.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 58,
+        "chunk_index": 3,
+        "chars": 1637
+      },
+      {
+        "id": "chapter_04_the_rules_p0059_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0059_c01.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 59,
+        "chunk_index": 1,
+        "chars": 1693
+      },
+      {
+        "id": "chapter_04_the_rules_p0059_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0059_c02.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 59,
+        "chunk_index": 2,
+        "chars": 1434
+      },
+      {
+        "id": "chapter_04_the_rules_p0059_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0059_c03.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 59,
+        "chunk_index": 3,
+        "chars": 1592
+      },
+      {
+        "id": "chapter_04_the_rules_p0059_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0059_c04.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 59,
+        "chunk_index": 4,
+        "chars": 1168
+      },
+      {
+        "id": "chapter_04_the_rules_p0060_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0060_c01.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 60,
+        "chunk_index": 1,
+        "chars": 1570
+      },
+      {
+        "id": "chapter_04_the_rules_p0060_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0060_c02.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 60,
+        "chunk_index": 2,
+        "chars": 1654
+      },
+      {
+        "id": "chapter_04_the_rules_p0060_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0060_c03.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 60,
+        "chunk_index": 3,
+        "chars": 1505
+      },
+      {
+        "id": "chapter_04_the_rules_p0060_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0060_c04.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 60,
+        "chunk_index": 4,
+        "chars": 1630
+      },
+      {
+        "id": "chapter_04_the_rules_p0060_c05",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0060_c05.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 60,
+        "chunk_index": 5,
+        "chars": 1649
+      },
+      {
+        "id": "chapter_04_the_rules_p0060_c06",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0060_c06.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 60,
+        "chunk_index": 6,
+        "chars": 505
+      },
+      {
+        "id": "chapter_04_the_rules_p0061_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0061_c01.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 61,
+        "chunk_index": 1,
+        "chars": 1598
+      },
+      {
+        "id": "chapter_04_the_rules_p0061_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0061_c02.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 61,
+        "chunk_index": 2,
+        "chars": 1013
+      },
+      {
+        "id": "chapter_04_the_rules_p0061_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0061_c03.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 61,
+        "chunk_index": 3,
+        "chars": 1634
+      },
+      {
+        "id": "chapter_04_the_rules_p0061_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0061_c04.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 61,
+        "chunk_index": 4,
+        "chars": 1671
+      },
+      {
+        "id": "chapter_04_the_rules_p0061_c05",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0061_c05.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 61,
+        "chunk_index": 5,
+        "chars": 1335
+      },
+      {
+        "id": "chapter_04_the_rules_p0061_c06",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0061_c06.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 61,
+        "chunk_index": 6,
+        "chars": 1025
+      },
+      {
+        "id": "chapter_04_the_rules_p0062_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0062_c01.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 62,
+        "chunk_index": 1,
+        "chars": 1601
+      },
+      {
+        "id": "chapter_04_the_rules_p0062_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0062_c02.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 62,
+        "chunk_index": 2,
+        "chars": 1678
+      },
+      {
+        "id": "chapter_04_the_rules_p0062_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0062_c03.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 62,
+        "chunk_index": 3,
+        "chars": 1291
+      },
+      {
+        "id": "chapter_04_the_rules_p0063_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0063_c01.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 63,
+        "chunk_index": 1,
+        "chars": 1641
+      },
+      {
+        "id": "chapter_04_the_rules_p0063_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0063_c02.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 63,
+        "chunk_index": 2,
+        "chars": 1644
+      },
+      {
+        "id": "chapter_04_the_rules_p0063_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0063_c03.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 63,
+        "chunk_index": 3,
+        "chars": 1460
+      },
+      {
+        "id": "chapter_04_the_rules_p0063_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0063_c04.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 63,
+        "chunk_index": 4,
+        "chars": 1591
+      },
+      {
+        "id": "chapter_04_the_rules_p0063_c05",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0063_c05.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 63,
+        "chunk_index": 5,
+        "chars": 543
+      },
+      {
+        "id": "chapter_04_the_rules_p0064_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0064_c01.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 64,
+        "chunk_index": 1,
+        "chars": 1586
+      },
+      {
+        "id": "chapter_04_the_rules_p0064_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0064_c02.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 64,
+        "chunk_index": 2,
+        "chars": 1640
+      },
+      {
+        "id": "chapter_04_the_rules_p0064_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0064_c03.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 64,
+        "chunk_index": 3,
+        "chars": 1633
+      },
+      {
+        "id": "chapter_04_the_rules_p0064_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0064_c04.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 64,
+        "chunk_index": 4,
+        "chars": 1586
+      },
+      {
+        "id": "chapter_04_the_rules_p0064_c05",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0064_c05.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 64,
+        "chunk_index": 5,
+        "chars": 1663
+      },
+      {
+        "id": "chapter_04_the_rules_p0065_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0065_c01.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 65,
+        "chunk_index": 1,
+        "chars": 1403
+      },
+      {
+        "id": "chapter_04_the_rules_p0065_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0065_c02.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 65,
+        "chunk_index": 2,
+        "chars": 1262
+      },
+      {
+        "id": "chapter_04_the_rules_p0065_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0065_c03.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 65,
+        "chunk_index": 3,
+        "chars": 1494
+      },
+      {
+        "id": "chapter_04_the_rules_p0065_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0065_c04.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 65,
+        "chunk_index": 4,
+        "chars": 1690
+      },
+      {
+        "id": "chapter_04_the_rules_p0065_c05",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0065_c05.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 65,
+        "chunk_index": 5,
+        "chars": 1543
+      },
+      {
+        "id": "chapter_04_the_rules_p0066_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0066_c01.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 66,
+        "chunk_index": 1,
+        "chars": 1523
+      },
+      {
+        "id": "chapter_04_the_rules_p0066_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0066_c02.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 66,
+        "chunk_index": 2,
+        "chars": 1624
+      },
+      {
+        "id": "chapter_04_the_rules_p0066_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0066_c03.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 66,
+        "chunk_index": 3,
+        "chars": 1678
+      },
+      {
+        "id": "chapter_04_the_rules_p0066_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0066_c04.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 66,
+        "chunk_index": 4,
+        "chars": 1466
+      },
+      {
+        "id": "chapter_04_the_rules_p0066_c05",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0066_c05.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 66,
+        "chunk_index": 5,
+        "chars": 688
+      },
+      {
+        "id": "chapter_04_the_rules_p0067_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0067_c01.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 67,
+        "chunk_index": 1,
+        "chars": 1680
+      },
+      {
+        "id": "chapter_04_the_rules_p0067_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0067_c02.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 67,
+        "chunk_index": 2,
+        "chars": 1334
+      },
+      {
+        "id": "chapter_04_the_rules_p0067_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0067_c03.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 67,
+        "chunk_index": 3,
+        "chars": 1614
+      },
+      {
+        "id": "chapter_04_the_rules_p0067_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0067_c04.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 67,
+        "chunk_index": 4,
+        "chars": 703
+      },
+      {
+        "id": "chapter_04_the_rules_p0068_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0068_c01.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 68,
+        "chunk_index": 1,
+        "chars": 1583
+      },
+      {
+        "id": "chapter_04_the_rules_p0068_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0068_c02.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 68,
+        "chunk_index": 2,
+        "chars": 1689
+      },
+      {
+        "id": "chapter_04_the_rules_p0068_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0068_c03.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 68,
+        "chunk_index": 3,
+        "chars": 1481
+      },
+      {
+        "id": "chapter_04_the_rules_p0068_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0068_c04.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 68,
+        "chunk_index": 4,
+        "chars": 1645
+      },
+      {
+        "id": "chapter_04_the_rules_p0068_c05",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0068_c05.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 68,
+        "chunk_index": 5,
+        "chars": 234
+      },
+      {
+        "id": "chapter_04_the_rules_p0069_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0069_c01.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 69,
+        "chunk_index": 1,
+        "chars": 1632
+      },
+      {
+        "id": "chapter_04_the_rules_p0069_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0069_c02.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 69,
+        "chunk_index": 2,
+        "chars": 1687
+      },
+      {
+        "id": "chapter_04_the_rules_p0069_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0069_c03.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 69,
+        "chunk_index": 3,
+        "chars": 1682
+      },
+      {
+        "id": "chapter_04_the_rules_p0069_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0069_c04.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 69,
+        "chunk_index": 4,
+        "chars": 1314
+      },
+      {
+        "id": "chapter_04_the_rules_p0069_c05",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0069_c05.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 69,
+        "chunk_index": 5,
+        "chars": 1642
+      },
+      {
+        "id": "chapter_04_the_rules_p0070_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0070_c01.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 70,
+        "chunk_index": 1,
+        "chars": 1641
+      },
+      {
+        "id": "chapter_04_the_rules_p0070_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0070_c02.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 70,
+        "chunk_index": 2,
+        "chars": 1686
+      },
+      {
+        "id": "chapter_04_the_rules_p0070_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0070_c03.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 70,
+        "chunk_index": 3,
+        "chars": 1588
+      },
+      {
+        "id": "chapter_04_the_rules_p0070_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0070_c04.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 70,
+        "chunk_index": 4,
+        "chars": 1614
+      },
+      {
+        "id": "chapter_04_the_rules_p0070_c05",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0070_c05.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 70,
+        "chunk_index": 5,
+        "chars": 1661
+      },
+      {
+        "id": "chapter_04_the_rules_p0070_c06",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0070_c06.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 70,
+        "chunk_index": 6,
+        "chars": 275
+      },
+      {
+        "id": "chapter_04_the_rules_p0071_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0071_c01.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 71,
+        "chunk_index": 1,
+        "chars": 1691
+      },
+      {
+        "id": "chapter_04_the_rules_p0071_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0071_c02.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 71,
+        "chunk_index": 2,
+        "chars": 1595
+      },
+      {
+        "id": "chapter_04_the_rules_p0071_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0071_c03.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 71,
+        "chunk_index": 3,
+        "chars": 1666
+      },
+      {
+        "id": "chapter_04_the_rules_p0071_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0071_c04.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 71,
+        "chunk_index": 4,
+        "chars": 1563
+      },
+      {
+        "id": "chapter_04_the_rules_p0072_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0072_c01.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 72,
+        "chunk_index": 1,
+        "chars": 1216
+      },
+      {
+        "id": "chapter_04_the_rules_p0072_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0072_c02.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 72,
+        "chunk_index": 2,
+        "chars": 1630
+      },
+      {
+        "id": "chapter_04_the_rules_p0072_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0072_c03.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 72,
+        "chunk_index": 3,
+        "chars": 1699
+      },
+      {
+        "id": "chapter_04_the_rules_p0072_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0072_c04.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 72,
+        "chunk_index": 4,
+        "chars": 1154
+      },
+      {
+        "id": "chapter_04_the_rules_p0073_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0073_c01.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 73,
+        "chunk_index": 1,
+        "chars": 1690
+      },
+      {
+        "id": "chapter_04_the_rules_p0073_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0073_c02.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 73,
+        "chunk_index": 2,
+        "chars": 1486
+      },
+      {
+        "id": "chapter_04_the_rules_p0073_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0073_c03.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 73,
+        "chunk_index": 3,
+        "chars": 1681
+      },
+      {
+        "id": "chapter_04_the_rules_p0073_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0073_c04.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 73,
+        "chunk_index": 4,
+        "chars": 1602
+      },
+      {
+        "id": "chapter_04_the_rules_p0073_c05",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0073_c05.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 73,
+        "chunk_index": 5,
+        "chars": 596
+      },
+      {
+        "id": "chapter_04_the_rules_p0074_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0074_c01.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 74,
+        "chunk_index": 1,
+        "chars": 1641
+      },
+      {
+        "id": "chapter_04_the_rules_p0074_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0074_c02.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 74,
+        "chunk_index": 2,
+        "chars": 1100
+      },
+      {
+        "id": "chapter_04_the_rules_p0074_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0074_c03.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 74,
+        "chunk_index": 3,
+        "chars": 1548
+      },
+      {
+        "id": "chapter_04_the_rules_p0074_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0074_c04.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 74,
+        "chunk_index": 4,
+        "chars": 1105
+      },
+      {
+        "id": "chapter_04_the_rules_p0075_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0075_c01.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 75,
+        "chunk_index": 1,
+        "chars": 1580
+      },
+      {
+        "id": "chapter_04_the_rules_p0075_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0075_c02.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 75,
+        "chunk_index": 2,
+        "chars": 1537
+      },
+      {
+        "id": "chapter_04_the_rules_p0075_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0075_c03.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 75,
+        "chunk_index": 3,
+        "chars": 1263
+      },
+      {
+        "id": "chapter_04_the_rules_p0076_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0076_c01.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 76,
+        "chunk_index": 1,
+        "chars": 1698
+      },
+      {
+        "id": "chapter_04_the_rules_p0076_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0076_c02.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 76,
+        "chunk_index": 2,
+        "chars": 782
+      },
+      {
+        "id": "chapter_04_the_rules_p0077_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0077_c01.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 77,
+        "chunk_index": 1,
+        "chars": 24
+      },
+      {
+        "id": "chapter_04_the_rules_p0078_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0078_c01.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 78,
+        "chunk_index": 1,
+        "chars": 1544
+      },
+      {
+        "id": "chapter_04_the_rules_p0078_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0078_c02.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 78,
+        "chunk_index": 2,
+        "chars": 1582
+      },
+      {
+        "id": "chapter_04_the_rules_p0078_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0078_c03.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 78,
+        "chunk_index": 3,
+        "chars": 1692
+      },
+      {
+        "id": "chapter_04_the_rules_p0078_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0078_c04.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 78,
+        "chunk_index": 4,
+        "chars": 1460
+      },
+      {
+        "id": "chapter_04_the_rules_p0078_c05",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0078_c05.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 78,
+        "chunk_index": 5,
+        "chars": 766
+      },
+      {
+        "id": "chapter_04_the_rules_p0079_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0079_c01.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 79,
+        "chunk_index": 1,
+        "chars": 1646
+      },
+      {
+        "id": "chapter_04_the_rules_p0079_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0079_c02.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 79,
+        "chunk_index": 2,
+        "chars": 1657
+      },
+      {
+        "id": "chapter_04_the_rules_p0079_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0079_c03.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 79,
+        "chunk_index": 3,
+        "chars": 1693
+      },
+      {
+        "id": "chapter_04_the_rules_p0079_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0079_c04.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 79,
+        "chunk_index": 4,
+        "chars": 1486
+      },
+      {
+        "id": "chapter_04_the_rules_p0079_c05",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0079_c05.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 79,
+        "chunk_index": 5,
+        "chars": 316
+      },
+      {
+        "id": "chapter_04_the_rules_p0080_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0080_c01.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 80,
+        "chunk_index": 1,
+        "chars": 1699
+      },
+      {
+        "id": "chapter_04_the_rules_p0080_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0080_c02.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 80,
+        "chunk_index": 2,
+        "chars": 1462
+      },
+      {
+        "id": "chapter_04_the_rules_p0080_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0080_c03.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 80,
+        "chunk_index": 3,
+        "chars": 1699
+      },
+      {
+        "id": "chapter_04_the_rules_p0080_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0080_c04.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 80,
+        "chunk_index": 4,
+        "chars": 1520
+      },
+      {
+        "id": "chapter_04_the_rules_p0080_c05",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0080_c05.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 80,
+        "chunk_index": 5,
+        "chars": 305
+      },
+      {
+        "id": "chapter_04_the_rules_p0081_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0081_c01.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 81,
+        "chunk_index": 1,
+        "chars": 1695
+      },
+      {
+        "id": "chapter_04_the_rules_p0081_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0081_c02.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 81,
+        "chunk_index": 2,
+        "chars": 1620
+      },
+      {
+        "id": "chapter_04_the_rules_p0081_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0081_c03.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 81,
+        "chunk_index": 3,
+        "chars": 1395
+      },
+      {
+        "id": "chapter_04_the_rules_p0082_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0082_c01.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 82,
+        "chunk_index": 1,
+        "chars": 1689
+      },
+      {
+        "id": "chapter_04_the_rules_p0082_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0082_c02.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 82,
+        "chunk_index": 2,
+        "chars": 1184
+      },
+      {
+        "id": "chapter_04_the_rules_p0083_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0083_c01.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 83,
+        "chunk_index": 1,
+        "chars": 1660
+      },
+      {
+        "id": "chapter_04_the_rules_p0083_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0083_c02.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 83,
+        "chunk_index": 2,
+        "chars": 1690
+      },
+      {
+        "id": "chapter_04_the_rules_p0083_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0083_c03.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 83,
+        "chunk_index": 3,
+        "chars": 1502
+      },
+      {
+        "id": "chapter_04_the_rules_p0083_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0083_c04.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 83,
+        "chunk_index": 4,
+        "chars": 1395
+      },
+      {
+        "id": "chapter_04_the_rules_p0084_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0084_c01.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 84,
+        "chunk_index": 1,
+        "chars": 1488
+      },
+      {
+        "id": "chapter_04_the_rules_p0084_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0084_c02.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 84,
+        "chunk_index": 2,
+        "chars": 1524
+      },
+      {
+        "id": "chapter_04_the_rules_p0084_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0084_c03.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 84,
+        "chunk_index": 3,
+        "chars": 1093
+      },
+      {
+        "id": "chapter_04_the_rules_p0085_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0085_c01.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 85,
+        "chunk_index": 1,
+        "chars": 1662
+      },
+      {
+        "id": "chapter_04_the_rules_p0085_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0085_c02.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 85,
+        "chunk_index": 2,
+        "chars": 1662
+      },
+      {
+        "id": "chapter_04_the_rules_p0085_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0085_c03.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 85,
+        "chunk_index": 3,
+        "chars": 1661
+      },
+      {
+        "id": "chapter_04_the_rules_p0085_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0085_c04.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 85,
+        "chunk_index": 4,
+        "chars": 512
+      },
+      {
+        "id": "chapter_04_the_rules_p0086_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0086_c01.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 86,
+        "chunk_index": 1,
+        "chars": 1290
+      },
+      {
+        "id": "chapter_04_the_rules_p0086_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0086_c02.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 86,
+        "chunk_index": 2,
+        "chars": 1435
+      },
+      {
+        "id": "chapter_04_the_rules_p0086_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0086_c03.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 86,
+        "chunk_index": 3,
+        "chars": 1509
+      },
+      {
+        "id": "chapter_04_the_rules_p0086_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0086_c04.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 86,
+        "chunk_index": 4,
+        "chars": 1533
+      },
+      {
+        "id": "chapter_04_the_rules_p0086_c05",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0086_c05.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 86,
+        "chunk_index": 5,
+        "chars": 1465
+      },
+      {
+        "id": "chapter_04_the_rules_p0087_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0087_c01.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 87,
+        "chunk_index": 1,
+        "chars": 1613
+      },
+      {
+        "id": "chapter_04_the_rules_p0087_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0087_c02.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 87,
+        "chunk_index": 2,
+        "chars": 1566
+      },
+      {
+        "id": "chapter_04_the_rules_p0087_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0087_c03.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 87,
+        "chunk_index": 3,
+        "chars": 1542
+      },
+      {
+        "id": "chapter_04_the_rules_p0087_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0087_c04.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 87,
+        "chunk_index": 4,
+        "chars": 1630
+      },
+      {
+        "id": "chapter_04_the_rules_p0087_c05",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0087_c05.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 87,
+        "chunk_index": 5,
+        "chars": 1248
+      },
+      {
+        "id": "chapter_04_the_rules_p0088_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0088_c01.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 88,
+        "chunk_index": 1,
+        "chars": 1680
+      },
+      {
+        "id": "chapter_04_the_rules_p0088_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0088_c02.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 88,
+        "chunk_index": 2,
+        "chars": 1339
+      },
+      {
+        "id": "chapter_04_the_rules_p0088_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0088_c03.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 88,
+        "chunk_index": 3,
+        "chars": 1633
+      },
+      {
+        "id": "chapter_04_the_rules_p0088_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0088_c04.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 88,
+        "chunk_index": 4,
+        "chars": 1632
+      },
+      {
+        "id": "chapter_04_the_rules_p0088_c05",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0088_c05.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 88,
+        "chunk_index": 5,
+        "chars": 175
+      },
+      {
+        "id": "chapter_04_the_rules_p0089_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0089_c01.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 89,
+        "chunk_index": 1,
+        "chars": 1605
+      },
+      {
+        "id": "chapter_04_the_rules_p0089_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0089_c02.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 89,
+        "chunk_index": 2,
+        "chars": 1693
+      },
+      {
+        "id": "chapter_04_the_rules_p0089_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0089_c03.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 89,
+        "chunk_index": 3,
+        "chars": 1627
+      },
+      {
+        "id": "chapter_04_the_rules_p0089_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0089_c04.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 89,
+        "chunk_index": 4,
+        "chars": 1286
+      },
+      {
+        "id": "chapter_04_the_rules_p0090_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0090_c01.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 90,
+        "chunk_index": 1,
+        "chars": 1676
+      },
+      {
+        "id": "chapter_04_the_rules_p0090_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0090_c02.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 90,
+        "chunk_index": 2,
+        "chars": 1638
+      },
+      {
+        "id": "chapter_04_the_rules_p0090_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0090_c03.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 90,
+        "chunk_index": 3,
+        "chars": 1604
+      },
+      {
+        "id": "chapter_04_the_rules_p0090_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0090_c04.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 90,
+        "chunk_index": 4,
+        "chars": 1651
+      },
+      {
+        "id": "chapter_04_the_rules_p0090_c05",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_04_the_rules_p0090_c05.json",
+        "source_id": "chapter_04_the_rules",
+        "page": 90,
+        "chunk_index": 5,
+        "chars": 1395
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0091_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0091_c01.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 91,
+        "chunk_index": 1,
+        "chars": 26
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0092_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0092_c01.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 92,
+        "chunk_index": 1,
+        "chars": 1563
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0092_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0092_c02.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 92,
+        "chunk_index": 2,
+        "chars": 1316
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0092_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0092_c03.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 92,
+        "chunk_index": 3,
+        "chars": 1639
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0092_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0092_c04.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 92,
+        "chunk_index": 4,
+        "chars": 1094
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0093_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0093_c01.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 93,
+        "chunk_index": 1,
+        "chars": 1678
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0093_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0093_c02.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 93,
+        "chunk_index": 2,
+        "chars": 1671
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0093_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0093_c03.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 93,
+        "chunk_index": 3,
+        "chars": 1695
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0093_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0093_c04.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 93,
+        "chunk_index": 4,
+        "chars": 1342
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0093_c05",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0093_c05.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 93,
+        "chunk_index": 5,
+        "chars": 396
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0094_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0094_c01.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 94,
+        "chunk_index": 1,
+        "chars": 1601
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0094_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0094_c02.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 94,
+        "chunk_index": 2,
+        "chars": 1468
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0094_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0094_c03.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 94,
+        "chunk_index": 3,
+        "chars": 1686
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0094_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0094_c04.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 94,
+        "chunk_index": 4,
+        "chars": 992
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0095_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0095_c01.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 95,
+        "chunk_index": 1,
+        "chars": 1503
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0095_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0095_c02.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 95,
+        "chunk_index": 2,
+        "chars": 1673
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0095_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0095_c03.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 95,
+        "chunk_index": 3,
+        "chars": 1358
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0095_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0095_c04.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 95,
+        "chunk_index": 4,
+        "chars": 1655
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0095_c05",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0095_c05.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 95,
+        "chunk_index": 5,
+        "chars": 1672
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0096_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0096_c01.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 96,
+        "chunk_index": 1,
+        "chars": 1695
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0096_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0096_c02.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 96,
+        "chunk_index": 2,
+        "chars": 1590
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0096_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0096_c03.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 96,
+        "chunk_index": 3,
+        "chars": 1589
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0096_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0096_c04.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 96,
+        "chunk_index": 4,
+        "chars": 1645
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0096_c05",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0096_c05.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 96,
+        "chunk_index": 5,
+        "chars": 1510
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0097_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0097_c01.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 97,
+        "chunk_index": 1,
+        "chars": 1664
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0097_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0097_c02.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 97,
+        "chunk_index": 2,
+        "chars": 1465
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0097_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0097_c03.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 97,
+        "chunk_index": 3,
+        "chars": 1596
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0097_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0097_c04.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 97,
+        "chunk_index": 4,
+        "chars": 1432
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0097_c05",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0097_c05.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 97,
+        "chunk_index": 5,
+        "chars": 1591
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0097_c06",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0097_c06.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 97,
+        "chunk_index": 6,
+        "chars": 880
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0098_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0098_c01.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 98,
+        "chunk_index": 1,
+        "chars": 1630
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0098_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0098_c02.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 98,
+        "chunk_index": 2,
+        "chars": 1280
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0098_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0098_c03.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 98,
+        "chunk_index": 3,
+        "chars": 1611
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0098_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0098_c04.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 98,
+        "chunk_index": 4,
+        "chars": 1635
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0098_c05",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0098_c05.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 98,
+        "chunk_index": 5,
+        "chars": 447
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0099_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0099_c01.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 99,
+        "chunk_index": 1,
+        "chars": 1648
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0099_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0099_c02.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 99,
+        "chunk_index": 2,
+        "chars": 1607
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0099_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0099_c03.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 99,
+        "chunk_index": 3,
+        "chars": 1539
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0099_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0099_c04.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 99,
+        "chunk_index": 4,
+        "chars": 1223
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0099_c05",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0099_c05.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 99,
+        "chunk_index": 5,
+        "chars": 988
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0100_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0100_c01.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 100,
+        "chunk_index": 1,
+        "chars": 1477
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0100_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0100_c02.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 100,
+        "chunk_index": 2,
+        "chars": 1585
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0100_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0100_c03.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 100,
+        "chunk_index": 3,
+        "chars": 1635
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0100_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0100_c04.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 100,
+        "chunk_index": 4,
+        "chars": 1685
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0100_c05",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0100_c05.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 100,
+        "chunk_index": 5,
+        "chars": 265
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0101_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0101_c01.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 101,
+        "chunk_index": 1,
+        "chars": 1661
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0101_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0101_c02.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 101,
+        "chunk_index": 2,
+        "chars": 1661
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0101_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0101_c03.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 101,
+        "chunk_index": 3,
+        "chars": 1587
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0101_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0101_c04.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 101,
+        "chunk_index": 4,
+        "chars": 1655
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0101_c05",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0101_c05.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 101,
+        "chunk_index": 5,
+        "chars": 1297
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0102_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0102_c01.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 102,
+        "chunk_index": 1,
+        "chars": 1598
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0102_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0102_c02.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 102,
+        "chunk_index": 2,
+        "chars": 1659
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0102_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0102_c03.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 102,
+        "chunk_index": 3,
+        "chars": 1678
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0102_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0102_c04.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 102,
+        "chunk_index": 4,
+        "chars": 520
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0103_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0103_c01.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 103,
+        "chunk_index": 1,
+        "chars": 1288
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0103_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0103_c02.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 103,
+        "chunk_index": 2,
+        "chars": 1558
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0103_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0103_c03.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 103,
+        "chunk_index": 3,
+        "chars": 1678
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0103_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0103_c04.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 103,
+        "chunk_index": 4,
+        "chars": 1079
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0104_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0104_c01.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 104,
+        "chunk_index": 1,
+        "chars": 1515
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0104_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0104_c02.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 104,
+        "chunk_index": 2,
+        "chars": 1629
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0104_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0104_c03.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 104,
+        "chunk_index": 3,
+        "chars": 1616
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0104_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0104_c04.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 104,
+        "chunk_index": 4,
+        "chars": 832
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0105_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0105_c01.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 105,
+        "chunk_index": 1,
+        "chars": 1652
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0105_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0105_c02.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 105,
+        "chunk_index": 2,
+        "chars": 1622
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0105_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0105_c03.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 105,
+        "chunk_index": 3,
+        "chars": 1615
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0105_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0105_c04.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 105,
+        "chunk_index": 4,
+        "chars": 1478
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0106_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0106_c01.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 106,
+        "chunk_index": 1,
+        "chars": 1513
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0106_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0106_c02.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 106,
+        "chunk_index": 2,
+        "chars": 1633
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0106_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0106_c03.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 106,
+        "chunk_index": 3,
+        "chars": 1572
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia_p0106_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_05_gamemastering_paranoia_p0106_c04.json",
+        "source_id": "chapter_05_gamemastering_paranoia",
+        "page": 106,
+        "chunk_index": 4,
+        "chars": 1599
+      },
+      {
+        "id": "chapter_07_tips_for_traitors_p0135_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_07_tips_for_traitors_p0135_c01.json",
+        "source_id": "chapter_07_tips_for_traitors",
+        "page": 135,
+        "chunk_index": 1,
+        "chars": 1408
+      },
+      {
+        "id": "chapter_07_tips_for_traitors_p0135_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_07_tips_for_traitors_p0135_c02.json",
+        "source_id": "chapter_07_tips_for_traitors",
+        "page": 135,
+        "chunk_index": 2,
+        "chars": 332
+      },
+      {
+        "id": "chapter_07_tips_for_traitors_p0136_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_07_tips_for_traitors_p0136_c01.json",
+        "source_id": "chapter_07_tips_for_traitors",
+        "page": 136,
+        "chunk_index": 1,
+        "chars": 925
+      },
+      {
+        "id": "chapter_07_tips_for_traitors_p0137_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_07_tips_for_traitors_p0137_c01.json",
+        "source_id": "chapter_07_tips_for_traitors",
+        "page": 137,
+        "chunk_index": 1,
+        "chars": 1639
+      },
+      {
+        "id": "chapter_07_tips_for_traitors_p0137_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_07_tips_for_traitors_p0137_c02.json",
+        "source_id": "chapter_07_tips_for_traitors",
+        "page": 137,
+        "chunk_index": 2,
+        "chars": 1382
+      },
+      {
+        "id": "chapter_07_tips_for_traitors_p0137_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_07_tips_for_traitors_p0137_c03.json",
+        "source_id": "chapter_07_tips_for_traitors",
+        "page": 137,
+        "chunk_index": 3,
+        "chars": 1126
+      },
+      {
+        "id": "chapter_07_tips_for_traitors_p0138_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_07_tips_for_traitors_p0138_c01.json",
+        "source_id": "chapter_07_tips_for_traitors",
+        "page": 138,
+        "chunk_index": 1,
+        "chars": 1007
+      },
+      {
+        "id": "chapter_07_tips_for_traitors_p0139_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_07_tips_for_traitors_p0139_c01.json",
+        "source_id": "chapter_07_tips_for_traitors",
+        "page": 139,
+        "chunk_index": 1,
+        "chars": 1530
+      },
+      {
+        "id": "chapter_07_tips_for_traitors_p0140_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_07_tips_for_traitors_p0140_c01.json",
+        "source_id": "chapter_07_tips_for_traitors",
+        "page": 140,
+        "chunk_index": 1,
+        "chars": 1166
+      },
+      {
+        "id": "chapter_07_tips_for_traitors_p0141_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_07_tips_for_traitors_p0141_c01.json",
+        "source_id": "chapter_07_tips_for_traitors",
+        "page": 141,
+        "chunk_index": 1,
+        "chars": 1188
+      },
+      {
+        "id": "chapter_07_tips_for_traitors_p0141_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_07_tips_for_traitors_p0141_c02.json",
+        "source_id": "chapter_07_tips_for_traitors",
+        "page": 141,
+        "chunk_index": 2,
+        "chars": 574
+      },
+      {
+        "id": "chapter_07_tips_for_traitors_p0141_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_07_tips_for_traitors_p0141_c03.json",
+        "source_id": "chapter_07_tips_for_traitors",
+        "page": 141,
+        "chunk_index": 3,
+        "chars": 1350
+      },
+      {
+        "id": "chapter_07_tips_for_traitors_p0142_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_07_tips_for_traitors_p0142_c01.json",
+        "source_id": "chapter_07_tips_for_traitors",
+        "page": 142,
+        "chunk_index": 1,
+        "chars": 1317
+      },
+      {
+        "id": "chapter_07_tips_for_traitors_p0143_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_07_tips_for_traitors_p0143_c01.json",
+        "source_id": "chapter_07_tips_for_traitors",
+        "page": 143,
+        "chunk_index": 1,
+        "chars": 1689
+      },
+      {
+        "id": "chapter_07_tips_for_traitors_p0143_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_07_tips_for_traitors_p0143_c02.json",
+        "source_id": "chapter_07_tips_for_traitors",
+        "page": 143,
+        "chunk_index": 2,
+        "chars": 810
+      },
+      {
+        "id": "chapter_07_tips_for_traitors_p0144_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_07_tips_for_traitors_p0144_c01.json",
+        "source_id": "chapter_07_tips_for_traitors",
+        "page": 144,
+        "chunk_index": 1,
+        "chars": 156
+      },
+      {
+        "id": "chapter_07_tips_for_traitors_p0145_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/chapter_07_tips_for_traitors_p0145_c01.json",
+        "source_id": "chapter_07_tips_for_traitors",
+        "page": 145,
+        "chunk_index": 1,
+        "chars": 1472
+      },
+      {
+        "id": "appendix_01_foldout_a_player_charts_p0146_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/appendix_01_foldout_a_player_charts_p0146_c01.json",
+        "source_id": "appendix_01_foldout_a_player_charts",
+        "page": 146,
+        "chunk_index": 1,
+        "chars": 1367
+      },
+      {
+        "id": "appendix_01_foldout_a_player_charts_p0146_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/appendix_01_foldout_a_player_charts_p0146_c02.json",
+        "source_id": "appendix_01_foldout_a_player_charts",
+        "page": 146,
+        "chunk_index": 2,
+        "chars": 697
+      },
+      {
+        "id": "appendix_02_foldout_b_gamemaster_charts_p0147_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/appendix_02_foldout_b_gamemaster_charts_p0147_c01.json",
+        "source_id": "appendix_02_foldout_b_gamemaster_charts",
+        "page": 147,
+        "chunk_index": 1,
+        "chars": 1536
+      },
+      {
+        "id": "appendix_02_foldout_b_gamemaster_charts_p0147_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/appendix_02_foldout_b_gamemaster_charts_p0147_c02.json",
+        "source_id": "appendix_02_foldout_b_gamemaster_charts",
+        "page": 147,
+        "chunk_index": 2,
+        "chars": 1663
+      },
+      {
+        "id": "appendix_02_foldout_b_gamemaster_charts_p0147_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/appendix_02_foldout_b_gamemaster_charts_p0147_c03.json",
+        "source_id": "appendix_02_foldout_b_gamemaster_charts",
+        "page": 147,
+        "chunk_index": 3,
+        "chars": 1602
+      },
+      {
+        "id": "appendix_02_foldout_b_gamemaster_charts_p0147_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/appendix_02_foldout_b_gamemaster_charts_p0147_c04.json",
+        "source_id": "appendix_02_foldout_b_gamemaster_charts",
+        "page": 147,
+        "chunk_index": 4,
+        "chars": 1148
+      },
+      {
+        "id": "appendix_03_foldout_c_character_sheet_and_forms_p0148_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/appendix_03_foldout_c_character_sheet_and_forms_p0148_c01.json",
+        "source_id": "appendix_03_foldout_c_character_sheet_and_forms",
+        "page": 148,
+        "chunk_index": 1,
+        "chars": 1515
+      },
+      {
+        "id": "appendix_03_foldout_c_character_sheet_and_forms_p0148_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/appendix_03_foldout_c_character_sheet_and_forms_p0148_c02.json",
+        "source_id": "appendix_03_foldout_c_character_sheet_and_forms",
+        "page": 148,
+        "chunk_index": 2,
+        "chars": 1671
+      },
+      {
+        "id": "appendix_03_foldout_c_character_sheet_and_forms_p0148_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/appendix_03_foldout_c_character_sheet_and_forms_p0148_c03.json",
+        "source_id": "appendix_03_foldout_c_character_sheet_and_forms",
+        "page": 148,
+        "chunk_index": 3,
+        "chars": 1665
+      },
+      {
+        "id": "appendix_03_foldout_c_character_sheet_and_forms_p0148_c04",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/appendix_03_foldout_c_character_sheet_and_forms_p0148_c04.json",
+        "source_id": "appendix_03_foldout_c_character_sheet_and_forms",
+        "page": 148,
+        "chunk_index": 4,
+        "chars": 1359
+      },
+      {
+        "id": "appendix_04_foldout_d_logc_player_characters_p0149_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/appendix_04_foldout_d_logc_player_characters_p0149_c01.json",
+        "source_id": "appendix_04_foldout_d_logc_player_characters",
+        "page": 149,
+        "chunk_index": 1,
+        "chars": 1604
+      },
+      {
+        "id": "appendix_04_foldout_d_logc_player_characters_p0149_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/appendix_04_foldout_d_logc_player_characters_p0149_c02.json",
+        "source_id": "appendix_04_foldout_d_logc_player_characters",
+        "page": 149,
+        "chunk_index": 2,
+        "chars": 577
+      },
+      {
+        "id": "appendix_04_foldout_d_logc_player_characters_p0150_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/appendix_04_foldout_d_logc_player_characters_p0150_c01.json",
+        "source_id": "appendix_04_foldout_d_logc_player_characters",
+        "page": 150,
+        "chunk_index": 1,
+        "chars": 1681
+      },
+      {
+        "id": "appendix_04_foldout_d_logc_player_characters_p0150_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/appendix_04_foldout_d_logc_player_characters_p0150_c02.json",
+        "source_id": "appendix_04_foldout_d_logc_player_characters",
+        "page": 150,
+        "chunk_index": 2,
+        "chars": 190
+      },
+      {
+        "id": "appendix_05_foldout_e_logc_handouts_p0151_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/appendix_05_foldout_e_logc_handouts_p0151_c01.json",
+        "source_id": "appendix_05_foldout_e_logc_handouts",
+        "page": 151,
+        "chunk_index": 1,
+        "chars": 175
+      },
+      {
+        "id": "appendix_05_foldout_e_logc_handouts_p0152_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/appendix_05_foldout_e_logc_handouts_p0152_c01.json",
+        "source_id": "appendix_05_foldout_e_logc_handouts",
+        "page": 152,
+        "chunk_index": 1,
+        "chars": 50
+      },
+      {
+        "id": "appendix_05_foldout_e_logc_handouts_p0153_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/appendix_05_foldout_e_logc_handouts_p0153_c01.json",
+        "source_id": "appendix_05_foldout_e_logc_handouts",
+        "page": 153,
+        "chunk_index": 1,
+        "chars": 20
+      },
+      {
+        "id": "appendix_05_foldout_e_logc_handouts_p0154_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/appendix_05_foldout_e_logc_handouts_p0154_c01.json",
+        "source_id": "appendix_05_foldout_e_logc_handouts",
+        "page": 154,
+        "chunk_index": 1,
+        "chars": 139
+      },
+      {
+        "id": "appendix_06_foldout_f_more_logc_p0155_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/appendix_06_foldout_f_more_logc_p0155_c01.json",
+        "source_id": "appendix_06_foldout_f_more_logc",
+        "page": 155,
+        "chunk_index": 1,
+        "chars": 913
+      },
+      {
+        "id": "appendix_06_foldout_f_more_logc_p0156_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/appendix_06_foldout_f_more_logc_p0156_c01.json",
+        "source_id": "appendix_06_foldout_f_more_logc",
+        "page": 156,
+        "chunk_index": 1,
+        "chars": 995
+      },
+      {
+        "id": "appendix_06_foldout_f_more_logc_p0156_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/appendix_06_foldout_f_more_logc_p0156_c02.json",
+        "source_id": "appendix_06_foldout_f_more_logc",
+        "page": 156,
+        "chunk_index": 2,
+        "chars": 1431
+      },
+      {
+        "id": "appendix_06_foldout_f_more_logc_p0157_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/appendix_06_foldout_f_more_logc_p0157_c01.json",
+        "source_id": "appendix_06_foldout_f_more_logc",
+        "page": 157,
+        "chunk_index": 1,
+        "chars": 1621
+      },
+      {
+        "id": "appendix_06_foldout_f_more_logc_p0157_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/appendix_06_foldout_f_more_logc_p0157_c02.json",
+        "source_id": "appendix_06_foldout_f_more_logc",
+        "page": 157,
+        "chunk_index": 2,
+        "chars": 1525
+      },
+      {
+        "id": "appendix_06_foldout_f_more_logc_p0157_c03",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/appendix_06_foldout_f_more_logc_p0157_c03.json",
+        "source_id": "appendix_06_foldout_f_more_logc",
+        "page": 157,
+        "chunk_index": 3,
+        "chars": 317
+      },
+      {
+        "id": "appendix_06_foldout_f_more_logc_p0158_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/appendix_06_foldout_f_more_logc_p0158_c01.json",
+        "source_id": "appendix_06_foldout_f_more_logc",
+        "page": 158,
+        "chunk_index": 1,
+        "chars": 1696
+      },
+      {
+        "id": "appendix_06_foldout_f_more_logc_p0158_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/appendix_06_foldout_f_more_logc_p0158_c02.json",
+        "source_id": "appendix_06_foldout_f_more_logc",
+        "page": 158,
+        "chunk_index": 2,
+        "chars": 909
+      },
+      {
+        "id": "appendix_06_foldout_f_more_logc_p0159_c01",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/appendix_06_foldout_f_more_logc_p0159_c01.json",
+        "source_id": "appendix_06_foldout_f_more_logc",
+        "page": 159,
+        "chunk_index": 1,
+        "chars": 1570
+      },
+      {
+        "id": "appendix_06_foldout_f_more_logc_p0159_c02",
+        "file": "data/lore/paranoia_2e/rules_fulltext_chunks/appendix_06_foldout_f_more_logc_p0159_c02.json",
+        "source_id": "appendix_06_foldout_f_more_logc",
+        "page": 159,
+        "chunk_index": 2,
+        "chars": 461
+      }
+    ]
+  }
+}

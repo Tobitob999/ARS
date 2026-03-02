@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0241_c09",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 241, chunk 9.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 241,
+    "chunk_index": 9,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Biometrische Scanner\n gibt es in unterschiedlichen Aus-\nführungen, etwa Abdruckscanner, Stimmerkennungs-\nsysteme, Atemscanner, Zellscanner, DNA-Scanner oder \nGesichtserkennungsscanner. Der einfachste Weg, sie zu \nüberlisten, besteht darin, sich eine Probe oder Kopie \nSHADOWRUN: SECHSTE EDITION\n240 // Spielleiterhinweise // SICHERHEIT, SENSOREN UND SCANNER",
+    "topic": "general",
+    "keywords": [
+      "scanner",
+      "biometrische",
+      "gibt",
+      "unterschiedlichen",
+      "fuehrungen",
+      "etwa",
+      "abdruckscanner",
+      "stimmerkennungs"
+    ]
+  }
+}

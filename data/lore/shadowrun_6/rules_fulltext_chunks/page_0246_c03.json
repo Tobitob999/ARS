@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0246_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 246, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 246,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Die Anga-\nben in diesem Buch sind typisch fü r Städte der westlichen \nIndustrienationen wie etwa Seattle oder Hamburg. Als \nSpielleiter kannst du diese Werte gerne so anpassen, wie \nes zu deiner Runde passt. Aktive Progammslots\nDieser Wert gibt an, wie viele Programme gleichzeitig auf \neinem elektronischen Gerät laufen können. Angriffswerte\nDies sind die Angriffswerte, die eine Waffe verwendet. Der \nWert ist eine Abstraktion verschiedener Waffencharakte-\nristika, die sie für den Angriff effizienter und effektiver \nmachen. Der Angriffswert wird in Form von 5 Zahlen \nangegeben, die – in dieser Reihenfolge – den jeweiligen \nAngriffswert für die Reichweiten Sehr nah, Nah, Mittel, \nWeit und Sehr weit angeben. Nahkampfwaffen addieren \ndie Stärke des Charakters zu ihrem Angriffswert. Essenzk osten\nDieser Wert gibt bei Cyberware und Bioware an, um wie \nviel die Essenz eines Charakters sinkt, wenn der Gegenstand \nimplantiert wird. F ahrzeugwerte\nFahrzeuge haben eine Reihe von Werten, die auf Seite 198 \nerläutert werden. Gerä testufe\nEin allgemeiner Wert für elektronische Geräte, der ihre Leis-\ntungsfähigkeit und Qualität angibt. Wenn nicht anders ange-\ngeben, liegt die Gerätestufe zwischen 1 und 3 und deckt damit \nalles von Haushaltsgeräten bis hin zu Alphaware-Cyberware \nab. Gerätestufen ab 4 gibt es erst bei High-End-Geräten und \neines anderen Geräts ist) gehackt werden und hat keine sepa-\nraten Matrixattribute, so ist seine Gerätestufe gleich seinem \nDatenverarbeitungs- und Firewallattribut. Hal terung\nDie Stelle, an der ein Zubehörteil an einer Waffe montiert \nwerden kann; Näheres dazu findest du auf Seite 259.",
+    "topic": "combat.attack",
+    "keywords": [
+      "wert",
+      "dieser",
+      "gibt",
+      "angriffswert",
+      "waffe",
+      "sehr",
+      "weit",
+      "charakters"
+    ]
+  }
+}

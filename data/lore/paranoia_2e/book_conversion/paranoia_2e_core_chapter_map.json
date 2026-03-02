@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.1.0",
+  "category": "book_conversion",
+  "tags": [
+    "paranoia_2e",
+    "chapter_map",
+    "toc",
+    "manual_range_map"
+  ],
+  "summary": "Kapitel- und Appendix-Map aus TOC + Seitenbereich-Mapping fuer Paranoia 2E.",
+  "source_text": {
+    "detected_chapters": [
+      {
+        "id": "chapter_00_preface",
+        "title": "Preface",
+        "page_start": 2,
+        "page_end": 4
+      },
+      {
+        "id": "chapter_01_paranoia_for_players",
+        "title": "Paranoia for Players",
+        "page_start": 5,
+        "page_end": 28
+      },
+      {
+        "id": "chapter_02_intro_to_gamemastering",
+        "title": "An Introduction to Gamemastering",
+        "page_start": 29,
+        "page_end": 34
+      },
+      {
+        "id": "chapter_03_world_of_paranoia",
+        "title": "The World of Paranoia",
+        "page_start": 35,
+        "page_end": 52
+      },
+      {
+        "id": "chapter_04_the_rules",
+        "title": "The Rules",
+        "page_start": 53,
+        "page_end": 90
+      },
+      {
+        "id": "chapter_05_gamemastering_paranoia",
+        "title": "Gamemastering Paranoia",
+        "page_start": 91,
+        "page_end": 106
+      },
+      {
+        "id": "chapter_06_into_the_outdoors_with_gun_and_camera",
+        "title": "Into the Outdoors with Gun and Camera",
+        "page_start": 107,
+        "page_end": 134
+      },
+      {
+        "id": "chapter_07_tips_for_traitors",
+        "title": "Tips for Traitors",
+        "page_start": 135,
+        "page_end": 145
+      }
+    ],
+    "detected_appendices": [
+      {
+        "id": "appendix_01_foldout_a_player_charts",
+        "title": "Fold-Out A: Player Charts",
+        "page_start": 146,
+        "page_end": 146
+      },
+      {
+        "id": "appendix_02_foldout_b_gamemaster_charts",
+        "title": "Fold-Out B: Gamemaster Charts",
+        "page_start": 147,
+        "page_end": 147
+      },
+      {
+        "id": "appendix_03_foldout_c_character_sheet_and_forms",
+        "title": "Fold-Out C: Character Sheet and Forms",
+        "page_start": 148,
+        "page_end": 148
+      },
+      {
+        "id": "appendix_04_foldout_d_logc_player_characters",
+        "title": "Fold-Out D: I.O.G.C. Player Characters",
+        "page_start": 149,
+        "page_end": 150
+      },
+      {
+        "id": "appendix_05_foldout_e_logc_handouts",
+        "title": "Fold-Out E: I.O.G.C. Hand-Outs",
+        "page_start": 151,
+        "page_end": 154
+      },
+      {
+        "id": "appendix_06_foldout_f_more_logc",
+        "title": "Fold-Out F: More I.O.G.C. Stuff",
+        "page_start": 155,
+        "page_end": 159
+      }
+    ],
+    "detection_note": "Rangemap wurde aus TOC-Inhalt + Seitenstruktur konsolidiert."
+  },
+  "mechanics": {
+    "unique_chapters": 8,
+    "unique_appendices": 6,
+    "page_span": [
+      1,
+      159
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0289_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 289, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 289,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Kunstmuskeln\nLaborgezüchtete synthetische Muskeln ersetzen oder ver-\nstärken die eigenen, und Calciumbehandlungen und Skelett-\nverstärkungen tragen zur Gesamtstärke bei. Kunstmuskeln \nerhöhen sowohl die Stärke als auch die Geschicklichkeit um \nihre Stufe. Sie sind nicht kompatibel mit anderer Bodytech \nfür die Muskeln wie etwa der Bioware Muskelverstärkung \noder Muskelstraffung. Reaktionsverbesserung\nDiese Bodyware beschleunigt die Reaktion, indem bestimm-\nte, isolierte Wirbel in der Wirbelsäule durch supraleitendes \nMaterial ersetzt werden. Die Reaktionsverbesserung erhöht \ndas Reaktionsattribut um ihre Stufe (der Initiativewert \nändert sich entsprechend). Reaktionsverbesserung ist nicht \nkompatibel mit anderer Bodytech, die die Reaktion verbes-\nsert, wie zum Beispiel einem Reflexbooster. WiFi-Vorteil: Reaktionsverbesserung ist kompatibel mit \neinem kabellosen Reflexbooster. In diesem Fall ist auch eine \nErhöhung der Reaktion um mehr als +4 möglich. Reflexbooster\nDiese hochinvasive, schmerzhafte und lebensverändernde \nOperation implantiert eine Vielzahl von Neuralboostern und \nAdrenalinstimulatoren an strategischen Stellen im ganzen \nTitan\n +2\n +2\n +2K\n +3\nBodyw are\nDermalp anzerung\nHartkunststoff- und Keramikfaserplatten werden \nin die Haut implantiert. Die Platten sind deutlich \nsichtbar und noch deutlicher fühlbar, aber sie \nkönnen im Hinblick auf Farbe und Ober-\nflächenstruktur kosmetisch angepasst \nwerden. Dermalpanzerung gewährt ei-\nnen Bonus auf den Verteidigungswert \nin Höhe ihrer Stufe. Dermalpanzerung \nist nicht mit anderer Bodytech für die \nHaut kompatibel, die einen Verteidi-\ngungswertbonus gewährt, wie etwa \nOrthoskin.",
+    "topic": "advancement",
+    "keywords": [
+      "kompatibel",
+      "reaktionsverbesserung",
+      "stufe",
+      "anderer",
+      "bodytech",
+      "reflexbooster",
+      "kunstmuskeln",
+      "muskeln"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0052_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 52, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 52,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Wichtige A ttribute\nGeschicklichkeit für die Zielerfassung, Intuition und Re-\naktion für schnelles Handeln und Ausweichen, Stärke für \nden waffenlosen Kampf, Konstitution für das Einstecken \nvon Schaden. Wichtige Fertigkeiten\nFeuerwaffen und Nahkampf für den Angriff, Athletik, um \nProjektilwaffen abzuschießen und Wurfwaffen zu werfen \nund ihnen auszuweichen, Mechanik zum Abfeuern von \nfahrzeugmontierten Waffen. Vielleicht ein bisschen Biotech, \num Wunden zusammenzuflicken. Heimlichkeit, um nicht \ngesehen zu werden, Wahrnehmung, um Gegner zu erspähen, \ndie sich anzuschleichen versuchen. W as man sonst noch braucht\nGeld wäre nicht schlecht, um die richtigen Waffen, Panze-\nrungen und Bodytech zu kaufen. Vorteile wie Mut können \nsich im Kampf als nützlich erweisen. Ma trix\nDas cloudbasierte Netzwerk elektronischer Geräte ist im \nLeben der Sechsten Welt allgegenwärtig. Es beeinflusst, \nwie die Leute fahren, arbeiten, spielen, kommunizieren \nund ihre Freizeit gestalten. Das bedeutet, dass jeder, der an \nund in der Matrix herumhantiert, die Möglichkeit hat, auf \nalle Aspekte des Lebens einer Person einzuwirken. Deshalb \nsind Decker und Technomancer gleichermaßen begehrt wie \ngefürchtet. Sie können den Verkehr umleiten, die Überwa-\nchungskameras eines Gebäudes täuschen, die Waffen der \nWachposten dazu bringen, ihre Munition auszuwerfen, \noder allen möglichen sonstigen Unfug anrichten. Und sie \nsind diejenigen, die es mit den Online-Sicherheitskräften \naustragen müssen, die für Sicherheit und Ordnung zu sor-\ngen versuchen. Mehr zu dem Thema findest du im Kapitel \nMatrix (S. 171). Wichtige A ttribute\nLogik für die meisten Hackingproben, Intuition für die gele-\ngentliche Eingebung.",
+    "topic": "combat.attack",
+    "keywords": [
+      "wichtige",
+      "waffen",
+      "ttribute",
+      "intuition",
+      "kampf",
+      "sich",
+      "versuchen",
+      "ihre"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0094_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 94, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 94,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "W affenspezialistin\nWenn man jemanden mit etwas töten, verletzen oder um-\nhauen kann, hat die Waffenspezialistin es wahrscheinlich \nschon benutzt. Eine praktische Waffensammlung, ein biss-\nchen notwendige Bodytech und die Fertigkeiten, um das \nalles einzusetzen, sorgen dafür, dass kein Runnerteam auf \nsie verzichten kann. Sie macht sich nicht so viele Gedanken \nüber Ehre wie andere Straßenkrieger, also kann man davon \nausgehen, dass sie harte Entscheidungen nicht scheut, wenn \nharte Entscheidungen gefällt werden müssen. Mit Blei.",
+    "topic": "combat",
+    "keywords": [
+      "harte",
+      "entscheidungen",
+      "affenspezialistin",
+      "jemanden",
+      "etwas",
+      "toeten",
+      "verletzen",
+      "hauen"
+    ]
+  }
+}

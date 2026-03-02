@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0227_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 227, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 227,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Wenn der Critter durch \netwas Schaden erleidet, gegen das er eine Allergie besitzt, so \nkann er zwar mit dieser Kraft den Schaden heilen, darf die \nRegenerationsprobe aber erst ablegen, sobald er nicht mehr \nin Kontakt mit dem Allergen ist. Regeneration ist inkompatibel mit Bodytech. Ein Critter \nmit dieser Kraft kann keine Körpermodifikationen erhalten; \nchirurgische Schnitte schließen sich zu schnell, um irgend-\netwas zu implantieren. Ein Critter, der bereits Modifikati-\nonen hat und in den Besitz dieser Kraft gerät, stößt seine \nSchutz\nART\n HANDLUNG\n REICHWEITE\n DAUER\nP\n H\n BF\n Aufrechterhalten\nMit dieser Kraft kann der Critter sich und andere gegen \ndie Critterkraft Unfall sowie gegen die Auswirkungen von \nPatzern schützen. Die Kraft kann gegen eine Anzahl Zie-\nle eingesetzt werden, die dem Magieattribut des Critters \nentspricht. Unter Einwirkung der Kraft Schutz sind Kriti-\nsche Patzer nur einfache Patzer, und Patzer sind lediglich \nmisslungene Proben, es sei denn, die Kraft Unfall wird \neingesetzt. In diesem Fall neutralisiert die Kraft Schutz \nnur die Auswirkungen von Unfall, und alles läuft normal. Suche\nART\n HANDLUNG\n REICHWEITE\n DAUER\nP\n H\n Speziell\n Speziell\nMit dieser Kraft verliert man nie wieder seine Hausschlüs-\nsel. Um ein Ziel zu finden, legt der Critter eine Ausgedehnte \nProbe auf Intuition + Magie (5, 10 Minuten) ab. Vieles kann \ndie Probe erschweren; in der Tabelle \n Suchmodifikatoren\nsind einige mögliche Modifikatoren angegeben. Der Critter muss das, das er sucht, vor Beginn der Suche \ngesehen haben. Geister können nach allem suchen, von \ndem ihr Beschwörer ihnen ein geistiges Bild liefern kann.",
+    "topic": "combat.damage",
+    "keywords": [
+      "kraft",
+      "critter",
+      "dieser",
+      "gegen",
+      "schutz",
+      "unfall",
+      "patzer",
+      "etwas"
+    ]
+  }
+}

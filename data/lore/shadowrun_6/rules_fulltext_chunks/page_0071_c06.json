@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0071_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 71, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 71,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Letzte Berechnungen\nSobald alle Käufe und Anpassungen vorgenommen sind, \nAngriffswert\nIm Kampf ist der Angriffswert ein Maßstab für die Präzisi-\non, Effizienz und grundlegende Gewandtheit des Angriffs. Meistens hängt er von einer Waffe ab, aber manchmal \ngreifst du mit bloßen Händen an, also braucht der Charak-\nter einen grundlegenden Angriffswert. Er beträgt Reaktion \n+ Stärke in der Reichweite Sehr nah und ist für die anderen \nReichweiten nicht anwendbar (s. Angriffswert/Reichweite\n, \nS. 111). Einige Vor- und Nachteile können sich darauf \nauswirken. Verteidigungswert\nDieser Wert gibt an, wie gut du im Kampf einen Schlag \nwegstecken oder dafür sorgen kannst, dass er dich nicht \nwirklich trifft. Er ergibt sich aus der Addition von Kons-\ntitution + dem Verteidigungswertbonus durch Panzerung. Einige Vor- und Nachteile sowie Bodytech und/oder Magie \nkönnen sich darauf auswirken. Initia tive\nInitiative wird verwendet, um im Kampf festzustellen, wer \nzuerst handelt. Die Basis bildet die Summe aus Reaktion + \nIntuition; dazu kommt noch eine Anzahl von Initiativewür-\nfeln. Zu Beginn besitzt ein Charakter 1 Initiativewürfel; \ndiese Anzahl kann aber durch Modifikationen erhöht wer-\nden. Aufgeschrieben würde die Initiative eines Charakters \nmit Reaktion 4 und Intuition 5 und ohne Modifikationen \nso aussehen: 9 + 1W6. St artkapit al\nHast du noch Geld von der Charaktererschaffung übrig? Großartig. Das ist dein Startkapital. Wenn es mehr als \n5.000 Nuyen beträgt, kauf noch etwas ein (zum Beispiel \neinen Lebensstil), weil du nicht mehr als 5.000 Nuyen ins \nSpiel mitnehmen kannst. Wenn es weniger ist, dann leg los \nund verdiene etwas mehr!",
+    "topic": "combat.attack",
+    "keywords": [
+      "angriffswert",
+      "kampf",
+      "einen",
+      "reaktion",
+      "sich",
+      "noch",
+      "mehr",
+      "betraegt"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0193_c07",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 193, chunk 7.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 193,
+    "chunk_index": 7,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Jeder Nettoerfolg entfernt eine offene Aufgabe \ndes Sprites. Wenn die Zahl der offenen Aufgaben auf null \nsinkt, ist das Sprite dekompiliert und kehrt in die Resonanz \nzurück, die es geboren hat. Das Dekompilieren verursacht \nSchwund (siehe S. 189) in Höhe der Erfolge × 2 (nicht \nNettoerfolge × 2) des Sprites, mindestens aber 2. Beispiel: \nDek ompilieren eines Sprites\nNetcat ﬁ ndet ein Inﬁ ltrator-Sprite, das um ihren Heimat-\nhost herumschleicht und versucht, einzudringen. Sie will \ngar nicht wissen, was das Sprite will, und beschließt, es \naus der Matrix und zurück in die Resonanz zu werfen, \nwo es herkam. Sie würfelt auf Tasken + Resonanz mit \nihrem Würfelpool von 12; das Inﬁ ltrator-Sprite würfelt \nmit seiner Stufe von 4. Netcat erzielt 5 Erfolge, das Sprite \nnur 1 Erfolg. Das senkt die Anzahl der offenen Aufgaben \ndes Inﬁ ltrator-Sprites um 4, sodass -2 Aufgaben üb-\nrig bleiben und es wie Staub vom elektronischen Wind \nverweht wird. Werte von Sprites\nDie Gerätestufe, die Resonanz, die Geistigen Attribute und \ndie Fertigkeitswerte von Sprites sind gleich ihrer Spritestufe. Matrixattribute, Initiative, Matrix-Zustandsmonitor und \nFertigkeiten hängen von Art und Stufe des Sprites ab (s. Arten \nvon Sprites\n, S. 193). Ihr Matrix-Zustandsmonitor hat [8 + \n(Spritestufe ÷ 2, aufgerundet)] Kästchen. Sprites haben die \nResonanzsignatur des Technomancers, der sie kompiliert hat. Sie sammeln OW nach den normalen Regeln an. Wenn sie \nZiel einer Fokussierung werden, verschwinden sie mitsamt \nallen noch offenen Aufgaben. Dabei wird der physische \nAufenthaltsort ihres Technomancers enthüllt.",
+    "topic": "matrix",
+    "keywords": [
+      "sprites",
+      "aufgaben",
+      "resonanz",
+      "offenen",
+      "ltrator",
+      "matrix",
+      "zurueck",
+      "erfolge"
+    ]
+  }
+}

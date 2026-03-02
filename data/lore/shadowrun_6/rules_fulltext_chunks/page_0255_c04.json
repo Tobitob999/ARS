@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0255_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 255, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 255,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Schwere Pistolen\nWAFFE\n SCHADEN\n MODUS\n ANGRIFFSWERTE\n MUNITION\n VERFÜGBARKEIT\n PREIS\nAres Predator VI\n 3K\n HM/SM\n 10/10/8/–/–\n 15(s)\n 2L\n 750 ¥\nAres Viper Slivergun\n 3K\n HM/SM\n 12/8/6/–/–\n 30(s)\n 4L\n 610 ¥\nBrowning Ultra Power\n 3K\n HM\n 10/9/6/–/–\n 10(s)\n 2L\n 315 ¥\nColt Government 2076\n 3K\n HM\n 10/8/6/–/–\n 14(s)\n 3L\n 275 ¥\nColt Manhunter\n 3K\n HM\n 11/9/7/–/–\n 14(s)\n 3L\n 500 ¥\nRuger Super Warhawk\n 4K\n HM\n 8/11/8/–/–\n 6(tr)\n 3L\n 400 ¥\nRuger Super W arha wk\nRuger Super W arha wk\nRuger Super W arha wk\nMaschinenpistolen\nMaschinenpistolen können mit lauf- und aufmontiertem \nZubehör versehen werden. Col t Cobra TZ\nColt liebt die Vielfalt, und die Cobra-TZ-Serie bietet tat-\nsächlich verschiedene Optionen. Die TZ-100 ist das Ba-\nFN P93 Praetor\nFN P93 Praetor\nFN P93 Praetor\nHK-227\nHeckler & Koch weiß, wie man eine Maschinenpistole baut, \ndenn die 227 basiert seit über einem Jahrhundert auf dem \ngleichen Rahmen (der altehrwürdigen MP5). Diese gern \nvon Konzern- und Militärsicherheitstrupps verwendete \nWaffe bietet eine einziehbare Schulterstütze, ein integriertes \nSmartgunsystem und einen eingebauten laufmontierten \nSchalldämpfer. Ingram Smartgun XI\nIngram Smartgun XI\nIngram Smartgun XI\nSHADOWRUN: SECHSTE EDITION\n254 // Ausrüstung // FEUERW AFFEN",
+    "topic": "combat.attack",
+    "keywords": [
+      "ruger",
+      "super",
+      "colt",
+      "arha",
+      "praetor",
+      "ingram",
+      "smartgun",
+      "waffe"
+    ]
+  }
+}

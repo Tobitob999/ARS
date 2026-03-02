@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_01_paranoia_for_players_p0021_c01",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_01_paranoia_for_players",
+    "chapter"
+  ],
+  "summary": "Rule chunk from Paranoia for Players page 21, chunk 1.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_01_paranoia_for_players",
+    "source_title": "Paranoia for Players",
+    "page": 21,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "PARANOIA Player Section A \nUsually Paranoia adventures require a gamemaster and one or more players. A special kind of Paranoia adventure, called a “solitaire, lets you play by yourself. This solitaire adventure is provided to introduce you to Paranoia, Fach section describes a situation, then asks you to choose among two or more courses of action, When you choose your action, follow the directions and go tothe section indicated [As you go through the adventure, you will occasionally be asked to record certain codes. ‘Write these on a piece of paper. When you get to the end of the adventure, the significance of the codes you recorded will be explained, After you complete this adventure, ry itagain. This time, ry making different choices and ‘see how they affect the outcome, Even if you are successful, try the adventure again and see ‘what happens if you do foolish things, The adventure will give a good idea of the problems, decisions, and consequences a Troubleshooter must face in performing missions for The Computer \na7 You receive a mission alert from The Computer. It says: saaeeeses*MISSION ALERT* \nTroubleshooters David-RURK+1, Technical Services; Joshua-RIHR-2, Technical Services; Edith-O-OFX2, Technical Services. Rendezvous at 6 headquarters at 1300 hours. Investigate suspected. surveillance systems malfunction in residence quarters of Lonnie-KKD-3 and VirglKKD-4, Residence ‘coordinates F6-117/KKD. Do you accept the mission? If yes, go to 7 ito, go to 14 \n@?",
+    "topic": "races",
+    "keywords": [
+      "adventure",
+      "paranoia",
+      "mission",
+      "technical",
+      "services",
+      "more",
+      "solitaire",
+      "choose"
+    ]
+  }
+}

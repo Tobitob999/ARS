@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0337_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 337, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 337,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "33, 306\nAmazonien\n ......................................... 33\nAnalytischer Geist (Vorteil)\n ................ 74\nAnfangsausrüstung\n .......................... 246\nAngesagtes Ziel – Entwaffnen \n (Edge-Handlung)\n ............................. 48\nAngesagtes Ziel – Lebenswichtige \n Organe (Edge-Handlung)\n ................ 48\nAngriff (Handlung)\n ............................. 44\nAngriff (Matrixattribut)\n ..................... 175\nAngriffe mit der Nebenhand\n ............. 113\nAngriffe mit Fahrzeugen\n ................... 200\nAngriffswert\n ......................... 41, 70, 245\nAngriffswert/Reichweite\n ................... 111\nAngriffswerte von Granaten\n ............. 263\nAnpassungspunkte für Metatypen\n ...... 64\nAnti-Fahrzeug-Rakete/-Lenkrakete\n ... 264\nAntidot-Patch (Biotech)\n .................... 283\nAntimagie (Handlung)\n ........................ 44\nAntimagie\n ................................. 145, 156\nAntimagiefokus\n ................................ 158\nAPDS-Munition\n ................................ 262\nAR-Desorientierung (Nachteil)\n ........... 78\nAR-Handschuhe \n (Elektronikzubehör)\n ....................... 269\nAres Alpha (Sturmgewehr)\n ............... 256\nAres Antioch II (Granatwerfer)\n ......... 258\nAres Black Sky (große Drohne)\n ........ 304\nAres Crusader II \n (Automatikpistole)\n ........................ 253\nAres Desert Strike \n (Scharfschützengewehr)\n ............... 257\nAres Dragon (Rotormaschine)\n ......... 300\nAres Light Fire (leichte Pistole)\n ........ 252\nAres Packmule (große Drohne)\n ........ 304\nAres Predator VI (schwere Pistole)\n .. 253\nAres Roadmaster (Lkw/Van)\n ............ 299\nAres S-III Super Squirt \n (spezielle Waffe)\n ............................",
+    "topic": "combat.attack",
+    "keywords": [
+      "ares",
+      "handlung",
+      "angesagtes",
+      "ziel",
+      "edge",
+      "angriff",
+      "antimagie",
+      "grosse"
+    ]
+  }
+}

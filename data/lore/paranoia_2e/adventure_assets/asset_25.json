@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0.0",
+  "category": "adventure_asset",
+  "id": "asset_25",
+  "name": "Briefing Card 25",
+  "tags": [
+    "paranoia_2e",
+    "asset",
+    "briefing_card"
+  ],
+  "summary": "Reusable mission-facing artifact for scene setup.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "asset_type": "briefing_card",
+    "scene_role": "evidence",
+    "truthfulness": "fabricated",
+    "play_hook": "adds_timer"
+  }
+}

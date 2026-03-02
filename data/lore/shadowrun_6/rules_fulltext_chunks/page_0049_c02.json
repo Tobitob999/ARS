@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0049_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 49, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 49,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "• Führe eine Edge-Handlung aus (vor): Du kannst eine \nder 5-Edge-Handlungen ausführen, die weiter unten \nbeschrieben werden. Edge-Handlungen\nDiese Handlungen kosten selbst keine Neben- oder Haupt-\nhandlung, aber sie müssen zusammen mit einer solchen \nHandlung ausgeführt werden. Bei jeder Edge-Handlung ist \nin Klammern angegeben, welche Handlung zur gleichen Zeit \nausgeführt werden muss. In allen Fällen muss die Entschei-\ndung, die Edge-Handlung auszuführen, getroffen werden, \nbevor die mit der zugehörigen Handlung verbundene Probe \nabgelegt wird. Wurden die Würfel für die Handlung bereits \ngeworfen, kann man nicht im Nachhinein eine Edge-Hand-\nlung ausführen. • Abstechen (Ziel ansagen, Nahkampf-Angriff): Beim \nAngriff mit einer Klingenwaffe landest du einen ge-\nzielten Treffer. Der Würfelpoolmalus für Ziel ansagen\nverringert sich auf -2. Kosten: 1 Edge. • Angesagtes Ziel – Entwaffnen (jede Art von Angriff):\nEin erfolgreicher Treffer fügt der Zielperson keinen \nSchaden zu, sondern reißt ihr die Waffe aus der Hand. Kosten: 5 Edge. • Angesagtes Ziel – Lebenswichtige Organe (jede Art \nvon Angriff): Der Angriff geht gezielt gegen die le-\nbenswichtigen Organe und fügt bei Erfolg 3 Punkte \nzusätzlichen Schaden zu (zusätzlich zu den Netto-\nerfolgen der Probe). Kosten: 5 Edge. einmal gewürfelt werden kann, um möglicherweise \neinen weiteren Erfolg zu erzielen. Gibt es einen Erfolg \n(also eine 5 oder 6), so notiere ihn; fällt wieder eine \n6, kann der Würfel erneut geworfen werden. Wird \nnach einer 6 eine 1 gewürfelt, so zählt sie nicht für \ndie Ermittlung eines Patzers mit.",
+    "topic": "edge",
+    "keywords": [
+      "edge",
+      "handlung",
+      "angriff",
+      "kosten",
+      "ziel",
+      "einer",
+      "einen",
+      "erfolg"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_01_paranoia_for_players_p0008_c05",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_01_paranoia_for_players",
+    "chapter"
+  ],
+  "summary": "Rule chunk from Paranoia for Players page 8, chunk 5.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_01_paranoia_for_players",
+    "source_title": "Paranoia for Players",
+    "page": 8,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "Itis classified Red, and lists the most common secret societies. Traitors ‘Mutants and members of secret societies ae traitors. All good citizens should report traitors to The Computer. You are a mutant and a member of a secret society. Good citizens ‘would be quite eager to report you to The Computer, Thanks to The Computer, you will often be surrounded by good citizens.",
+    "topic": "classes",
+    "keywords": [
+      "secret",
+      "traitors",
+      "good",
+      "citizens",
+      "computer",
+      "societies",
+      "report",
+      "itis"
+    ]
+  }
+}

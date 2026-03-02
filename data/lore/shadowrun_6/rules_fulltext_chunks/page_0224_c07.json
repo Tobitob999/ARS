@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0224_c07",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 224, chunk 7.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 224,
+    "chunk_index": 7,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Sofern in der Beschreibung des Critters nicht anders an-\ngegeben, ist diese Kraft immer wirksam und kann nicht \nEssenzentzug\nART\n HANDLUNG\n REICHWEITE\n DAUER\nP\n H\n B\n Permanent\nDiese Kraft ermöglicht einem Critter, einem anderen Lebe-\nwesen permanent Essenz zu rauben und zu seiner eigenen \nhinzuzufügen. Essenzentzug kann nur physische, intelligente \nLebewesen betreffen (Charaktere oder nicht astrale Critter \nmit der Kraft Bewusstsein). Das Opfer muss von Natur aus \nüber Bewusstsein verfügen, nicht durch irgendeine andere \nKraft, Magie oder Technologie damit ausgestattet worden \nsein. Essenz kann nicht entzogen werden, wenn das Opfer \nsich aktiv körperlich wehrt. Es muss entweder freiwillig \nteilnehmen oder unterworfen werden (gefesselt, gelähmt, \nunter geistiger Kontrolle usw.). Der Essenztransfer kann \nnur über eine starke emotionale Verbindung erfolgen, das \nkann Leidenschaft, Hass oder Entsetzen sein. Und die Emo-\ntion muss sich auf den Critter konzentrieren, der die Kraft \neinsetzt. Abstraktes Entsetzen reicht nicht; das Opfer muss \nspeziell vor seinem Angreifer Todesangst haben, damit ihm \nEssenz entzogen werden kann. Bei einem Essenzentzug-An-\ngriff wird zwar oft körperliches Material übertragen (wenn \nein Vampir zum Beispiel das Blut seines Opfers trinkt), doch \nfür das Wirken der Kraft ist im Grunde nur die emotionale \nVerbindung erforderlich. Einen Punkt Essenz zu entziehen, \nerfordert eine Ausgedehnte Probe auf Charisma + Magie \n(10 – Essenz des Opfers, 1 Minute). Das Opfer erhält den \nStatus \nErschöpft\n, dessen Stufe der Anzahl der entzogenen \nEssenzpunkte entspricht.",
+    "topic": "cyberware",
+    "keywords": [
+      "kraft",
+      "essenz",
+      "opfer",
+      "einem",
+      "critter",
+      "diese",
+      "permanent",
+      "bewusstsein"
+    ]
+  }
+}

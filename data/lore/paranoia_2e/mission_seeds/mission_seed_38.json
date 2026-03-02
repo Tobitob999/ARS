@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "category": "mission_seed",
+  "id": "mission_seed_38",
+  "name": "Mission Seed 38",
+  "tags": [
+    "paranoia_2e",
+    "mission",
+    "seed"
+  ],
+  "summary": "Troubleshooter cell must test anti-mutant scanner.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "objective": "test anti-mutant scanner",
+    "assigned_by": "HPD & MC",
+    "hidden_agenda": "Psion",
+    "twist": "orders_conflict",
+    "countdown": 3,
+    "failure_cost": "clone_loss"
+  }
+}

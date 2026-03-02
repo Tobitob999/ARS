@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0149_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 149, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 149,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "142/143) mit einer Strukturstufe gleich \nManabarriere (S. 142/143) mit einer Strukturstufe gleich \ndem Magieattribut des Ritualleiters + Nettoerfolge beim \ndem Magieattribut des Ritualleiters + Nettoerfolge beim \nBesiegeln. Die Manabarriere ist dual. Der Schutzkreis bleibt für eine Anzahl von Stunden gleich \nDer Schutzkreis bleibt für eine Anzahl von Stunden gleich \nden Nettoerfolgen beim Besiegeln bestehen. Alles, was sich \nden Nettoerfolgen beim Besiegeln bestehen. Alles, was sich \ninnerhalb der Barriere befindet, ist vor physischen und magi-\ninnerhalb der Barriere befindet, ist vor physischen und magi-\nschen Angriffen von außen geschützt. Wenn etwas die Barriere \nschen Angriffen von außen geschützt. Wenn etwas die Barriere \nvon innen her durchdringt, endet die Wirkung. Das Ritual \nvon innen her durchdringt, endet die Wirkung. Das Ritual \nbraucht zur Vollendung 4 Stunden. W a tcher\n(Diener)\nSchwellenwert:\n 4\nWatcher sind Geistern ähnlich, sind aber tatsächlich Wesen, \nWatcher sind Geistern ähnlich, sind aber tatsächlich Wesen, \ndie aus dem Geist des Ritualleiters geboren werden und nicht \ndie aus dem Geist des Ritualleiters geboren werden und nicht \nvon den Metaebenen kommen. Sie sind Geschöpfe aus Mana, \nvon den Metaebenen kommen. Sie sind Geschöpfe aus Mana, \ndas durch die Persönlichkeiten der Ritualteilnehmer zusam-\ndas durch die Persönlichkeiten der Ritualteilnehmer zusam-\nmengewoben wird. Ein Watcher kann alle Sprachen sprechen, \nmengewoben wird. Ein Watcher kann alle Sprachen sprechen, \ndie seine Erschaffer (Ritualleiter und Teilnehmer) sprechen \ndie seine Erschaffer (Ritualleiter und Teilnehmer) sprechen \nkönnen.",
+    "topic": "magic.ritual",
+    "keywords": [
+      "gleich",
+      "ritualleiters",
+      "beim",
+      "barriere",
+      "watcher",
+      "sprechen",
+      "besiegeln",
+      "stunden"
+    ]
+  }
+}

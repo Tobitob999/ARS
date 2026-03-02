@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_07_tips_for_traitors_p0137_c01",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_07_tips_for_traitors",
+    "chapter"
+  ],
+  "summary": "Rule chunk from Tips for Traitors page 137, chunk 1.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_07_tips_for_traitors",
+    "source_title": "Tips for Traitors",
+    "page": 137,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "SKILL SUMMARY -— \nAGILITY SKILLS \nForce Sword: A combat skill. Roll against this number when you attempt to whack someone with a force sword. Grenade: Another combat skill. When you hurl a grenade at something, roll against this to see if it goes where you want it you roll a 20, maybe you threw the pin instead of the grenade. Boom, Neurowhip: Another combat skill. Also a very nasty weapon. Primitive Melee Weapon: It is rumored (rumors are treason) that Outside there are people who, not having been exposed to the benefits of The Computer's benign instruction, are cave-man types and use antiquated weapons called knives, swords Clubs, and stuff like that. These weapons are rae in Alpha Complex, but sometimes Armed Forces personnel are trained t0 deal with them. ‘Truncheon: IntSec’s al: purpose weapon. Good for keeping Infrared scum in line Unarmed: What you use if you don't have a force sword, neurowhip or truncheon lying around, \nCHUTZPAM SKILLS [Note that you can't use any of these skills (except Forgery) against other player characters. jootlicking: How to ingratiate yourself with superiors Bribery: A way to ingratiate yourself with almost anyone. By the way, using this skill is treasonous. ‘Con: A way to persuacle someone to let you do what you want when he probably oughtn' Fast Talks Like con, only you talk andl move rapidly and hope to get away fast. If you “con” someone, he may never know he was zapped if you fast tlk him, he will, but fast talking doesn't take as long, Forgery: Sometimes applying for those pesky termination vouchers through channels just ist worth the hassle, Using this Skills treason, too.",
+    "topic": "combat",
+    "keywords": [
+      "skill",
+      "fast",
+      "force",
+      "sword",
+      "combat",
+      "roll",
+      "against",
+      "when"
+    ]
+  }
+}

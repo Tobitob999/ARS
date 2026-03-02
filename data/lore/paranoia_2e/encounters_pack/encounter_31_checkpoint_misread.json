@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "category": "encounter",
+  "id": "checkpoint_misread_31",
+  "name": "Clearance scanner mislabels one clone as Ultraviolet #31",
+  "tags": [
+    "paranoia_2e",
+    "encounter",
+    "batch_06"
+  ],
+  "summary": "Clearance scanner mislabels one clone as Ultraviolet",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "trigger": "on_accusation",
+    "pressure": "medium",
+    "required_checks": [
+      "Bootlicking",
+      "Con"
+    ],
+    "complication": "friendly_fire_risk",
+    "payoff": "temporary_clearance"
+  }
+}

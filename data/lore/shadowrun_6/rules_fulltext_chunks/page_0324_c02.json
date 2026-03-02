@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0324_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 324, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 324,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "42)\nNEBENHANDLUNGEN\n HAUPTHANDLUNGEN\nAbfangen (J)\n Angriff (I)\nAufstehen (I)\n Antimagie (J)\nAusweichen (J)\n Astrale Projektion (I)\nBewegen (I)\n Einfaches Gerät verwenden* (I)\nBlocken (J)\n Fertigkeit einsetzen (I)\nDrohne befehligen (I)\n Gegenstand aufheben/ablegen (I)\nFokus aktivieren/\ndeaktivieren (I)\n Geist herbeirufen (I)\nGegenstand fallen lassen (J)\n Geist verbannen (I)\nGeist befehligen (I)\n Genau beobachten (I)\nGeist entlassen (I)\n Hineinspringen (I)\nGerätemodus ändern (J)\n Manifestieren (I)\nIn Deckung gehen (I)\n Reinigen (I)\nMehrfachangriffe (I)\n Sprinten (I)\nSchnellziehen (I)\n Unterstützen (I)\nSich hinwerfen (I)\n Volle Abwehr (J)\nSmartgun nachladen (I)\n Waffe bereit machen (I)\nVolle Deckung (J)\n Waffe nachladen (I)\nWahrnehmung verlagern (I)\n Zauber wirken (I)\nWeghechten (J)\nZiel ansagen (I)\nZielen (I)\nZu Fall bringen (I)\n*Mit DNI: Nebenhandlung\nAusweichenmalus (S. 44)\nENTFERNUNG\n WÜRFELPOOLMALUS\nEinschlagsort\n -6\nSehr Nah\n -4\nNah\n -2\nEdge-Handlungen \nnach K osten (S. 48)\n1 Edge\nAbstechen\n (Ziel ansagen, Nahkampf-Angriff)\nPlötzliche Erkenntnis\n (beliebig)\nTaktische Rolle\n (Volle Deckung)\nUmwerfen\n (Nahkampf-Angriff)\n2 Edge\nAus der Deckung feuern\n (Fernkampf-Angriff, Cha-\nrakter muss im Status \nDeckung\n sein)\nDeckung\n sein)\nDeckung\nDramaqueen\n (Fertigkeit einsetzen [Überreden])\nEntwinden\n (Blocken)\nK.-o.-Schlag\n (Nahkampf-Angriff)\n4 Edge\nGroße Rede\n (Fertigkeit einsetzen [Einﬂ uss])\nVorausschau\n (Mehrfachangriffe, Fernkampf-Angriff)\n5 Edge\nAngesagtes Ziel – Entwaffnen\n (jede Art von Angriff)\nAngesagtes Ziel – Lebenswichtige Organe\n (jede \nArt von Angriff)\nEdge-Boosts im Kampf (S.",
+    "topic": "combat.attack",
+    "keywords": [
+      "angriff",
+      "deckung",
+      "edge",
+      "geist",
+      "ziel",
+      "fertigkeit",
+      "einsetzen",
+      "volle"
+    ]
+  }
+}

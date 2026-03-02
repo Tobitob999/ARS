@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0288_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 288, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 288,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Audioverbesserung\nEine implantierte Version der Audioverbesserung (S. 277). Audioverbindung\nDie Audioverbindung, das Audioäquivalent zur Bildverbin-\ndung, kann Audiodaten (Aufnahmen, Soundtracks, Musik \nusw.) aus Quellen innerhalb des PANs des Benutzers (oder \naus einer Datenbuchse) direkt in seine Cyberohren abspie-\nlen. Eine Audioverbindung ist eine häufige Komponente von \nAR-Umgebungen und fügt eine Audiokomponente hinzu. Balanceverst ärker\nDer Balanceverstärker verstärkt den natürlichen Gleich-\ngewichtssinn des Innenohrs. Der Charakter erhält einen \nWürfelpoolbonus von +1 für alle Proben, bei denen es um \ndas Gleichgewicht geht, wie etwa Klettern, das Gehen über \neinen schmalen Steg, das Landen nach einem Sprung usw. Dämpfer\nDieses Implantat schützt den Nutzer sowohl vor plötzlichen \nLautstärkeanstiegen als auch vor schädigenden Geräusch-\npegeln. Wenn der Charakter den Status Ertaubt erleidet, \nsenkt der Dämpfer diesen um 1 Stufe. Richtungsdetektor\nEine implantierte Version des Richtungsdetektors (S. 277). Selektiver Geräuschfil ter\nEine implantierte Version des Selektiven Geräuschfilters \n(S. 277), mit dem Unterschied, dass die maximal erhältliche \nStufe 6 statt 3 beträgt. Audioverbesserung\nEine implantierte Version der Audioverbesserung (S. 277). Audioverbindung\nDie Audioverbindung, das Audioäquivalent zur Bildverbin-\ndung, kann Audiodaten (Aufnahmen, Soundtracks, Musik \nusw.) aus Quellen innerhalb des PANs des Benutzers (oder \naus einer Datenbuchse) direkt in seine Cyberohren abspie-\nlen. Eine Audioverbindung ist eine häufige Komponente von \nAR-Umgebungen und fügt eine Audiokomponente hinzu.",
+    "topic": "cyberware",
+    "keywords": [
+      "audioverbindung",
+      "audioverbesserung",
+      "implantierte",
+      "version",
+      "audioaequivalent",
+      "bildverbin",
+      "dung",
+      "audiodaten"
+    ]
+  }
+}

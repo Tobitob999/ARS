@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0045_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 45, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 45,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Kommt der Charakter in \neiner Kampfrunde an die Reihe und führt keine Handlung \nZielen oder Angriff aus, verfallen Boni aus früheren Run-\nden. Der maximale Würfelpool, der durch diese Handlung \nangesammelt werden kann, ist gleich der Willenskraft des \nCharakters. Ein Charakter kann mit einer schussbereiten \nFeuerwaffe, einer Armbrust, einem Bogen, einer exotischen \nFernkampfwaffe oder einer Wurfwaffe zielen. Ausweichenmalus\nENTFERNUNG\n WÜRFELPOOLMALUS\nDetonationspunkt (DP)\n -6\nSehr nah\n -4\nNah\n -2\nVolle Deckung (J)\nEin Charakter kann sich zu Defensivzwecken flach auf den \nBoden fallen lassen, was ihm einen Würfelpoolbonus von +2 \nfür die Verteidigungsprobe gegen einen gegen ihn gerichte-\nten Angriff verschafft. Er gelangt in den Status \nLiegend\n (S. Liegend\n (S. Liegend\n54) und erleidet wegen der überstürzten Deckungnahme bis \nzum Ende der folgenden Runde, oder bis er die Handlung \nAufstehen\n ausführt, einen Würfelpoolmalus von -2 auf jede \nProbe mit Aktionsfertigkeiten. W ahrnehmung verlagern (I)\nEin Charakter, der der astralen Wahrnehmung mächtig ist, \nkann seine Wahrnehmung in den Astralraum oder zurück \nverlagern. Weghechten (J)\nEin Charakter kann diese Handlung ausführen, wenn er \nnicht an der Reihe ist, um sich vor einem Spreng- oder \nGas angriff in Sicherheit zu bringen. Für diese Handlung \nlegt der Spieler eine Probe auf Athletik + Reaktion – Aus-\nweichenmalus (s. Kasten \nAusweichenmalus\n) ab. Der Cha-\nrakter kann sich so viele Meter, wie er Erfolge bei der Probe \nerzielt, in eine Richtung seiner Wahl bewegen, wobei er \ndas Ergebnis der Richtungsabweichung des Angriffs erst \nerfährt, \nnachdem\n er sich für eine Fluchtrichtung entschieden \nhat.",
+    "topic": "combat.attack",
+    "keywords": [
+      "charakter",
+      "einer",
+      "handlung",
+      "sich",
+      "angriff",
+      "diese",
+      "einen",
+      "liegend"
+    ]
+  }
+}

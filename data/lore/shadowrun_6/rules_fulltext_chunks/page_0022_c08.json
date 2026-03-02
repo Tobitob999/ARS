@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0022_c08",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 22, chunk 8.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 22,
+    "chunk_index": 8,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Ein Hacker, den man auf einen Host loslässt, damit \ner dort eine bestimmte Datei stiehlt, könnte dabei noch über \ndiverse andere Dateien stolpern, die er auf dem Schwarzmarkt \nzu Geld machen kann. Mehr mitgehen zu lassen, als man laut \nAuftragsbeschreibung stehlen sollte, wird von den Auftragge-\nbern meist nicht gern gesehen, allerdings lassen sich solche \nDinge unglaublich schwer nachverfolgen oder beweisen. Für die \nmeisten Runner ist es einfach ein lukratives Nebeneinkommen, \nein bisschen Beute extra mitgehen zu lassen. Da tendiebst ahl\nDie Konzerne arbeiten ständig am nächsten und neuesten Proto-\ntyp. Oft ist es einfacher und billiger, Shadowrunner anzuwerben, \ndie einen Prototyp und alle dazugehörigen Forschungsdaten von \nder Konkurrenz stehlen, als selbst etwas Neues zu erforschen. Die Prinzipien der Redundanz und der Untergliederung in Teil-\neinheiten sorgen dafür, dass die Daten oftmals von mehr als \neinem Ort beschafft werden müssen. Beispielsweise arbeitet ein \nForschungsteam an einem Standort an einem speziellen Teil des \nPrototyps, während sich der Rest des Geräts in einer anderen \nForschungseinrichtung beﬁ ndet. Und besonders sensible Da-\nten werden vielleicht an einem wieder anderen Standort ohne \nVerbindung zur Außenwelt aufbewahrt. Manchmal geht diese \nArt von Auftrag gleichzeitig mit einer Extraktion einher, falls \neuer Auftraggeber der Ansicht ist, dass er die dazugehörigen \nWissenschaftler ebenfalls benötigt. Wetwork\nWetwork ist ein anderer Begriff für Mord. Oftmals erfordert \ndiese Art von Arbeit besondere Diskretion und das Talent, alles \nnach einem Unfall aussehen zu lassen.",
+    "topic": "matrix",
+    "keywords": [
+      "einem",
+      "lassen",
+      "einen",
+      "mehr",
+      "mitgehen",
+      "stehlen",
+      "sich",
+      "dazugehoerigen"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0202_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 202, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 202,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "In den meisten Fällen erfolgt das Riggen von Drohnen \nüber Fernlenkkommandos, bei deren Ausführung sich der \nRigger auf die Pilotstufe der Drohne verlässt. Um einer \nDrohne einen Befehl zu erteilen, muss der Rigger die Ne-\nbenhandlung Drohne befehligen durchführen. Sobald der \nBefehl erteilt wurde, verwendet die Drohne sämtliche ihrer \ngerade aktiven Autosofts als Fertigkeiten und die jeweils \nbei den Autosofts angegebenen Attribute. Drohnen haben die gleichen Attribute wie Fahrzeuge. Für \nHackingversuche entspricht ihre Gerätestufe ihrer Sensor-\nstufe, sofern sie nicht als Slaves mit einer Riggerkonsole \nverbunden sind. Initia tive von Drohnen\nUnabhängig agierende Drohnen haben eine Initiative von \nPilot × 2 + 3W6. Drohnen, die von einem hineingesprunge-\nnen Rigger gesteuert werden, handeln mit der VR-Initiative \ndes Riggers. Drohnen im Kampf\nWenn eine drohnenmontierte Waffe durch den Autopilo-\nten der Drohne abgefeuert wird, verwendet die Drohne \nden Angriffswert der montierten Waffe sowie ihre [Waffe] \nZielerfassungs-Autosoft + Sensor für die Angriffsprobe. Wenn ein Rigger in die Drohne hineingesprungen ist, über-\nnimmt er anstelle der Drohne das Feuern, wobei er die \nentsprechende Probe mit Mechanik (ggf. Spezialisierung/\nExpertise Geschütze) + Logik ablegt. Autosofts\nAutosofts sind Programme, \ndie vom Pilotprogramm \neiner Drohne genutzt wer-\nden. Sie fungieren als Fer-\ntigkeiten, die die Leistung \nder Drohne verbessern. Je-\nde Autosoft wird in Kom-\nbination mit einem Attribut \neingesetzt, das in der unten-\nstehenden Liste beschrieben \nbute und Fertigkeiten nutzen, wenn sie in eine Drohne hi-\nneingesprungen sind.",
+    "topic": "skills",
+    "keywords": [
+      "drohne",
+      "rigger",
+      "autosofts",
+      "einer",
+      "waffe",
+      "befehl",
+      "verwendet",
+      "ihrer"
+    ]
+  }
+}

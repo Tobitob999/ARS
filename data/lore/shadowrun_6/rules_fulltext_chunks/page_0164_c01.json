@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0164_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 164, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 164,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Die zweite Möglichkeit ist der waffenlose Kampf. In diesem \nFall ist es eine Vergleichende Probe auf Astral + Willenskraft \ngegen Logik + Intuition des Verteidigers. Der Schadenswert \nwaffenloser astraler Angriffe ist normalerweise gleich dem \nTraditionsattribut ÷ 2 (aufgerundet) des Angreifers. Netto-\nerfolge erhöhen den Schaden um jeweils 1. Die dritte Möglichkeit ist der Angriff mit einem Waf-\nfenfokus. Du setzt die Fertigkeit Nahkampf ein, aber mit \nWillenskraft statt mit Geschicklichkeit (weil deine kör-\nperlichen Voraussetzungen keine Rolle spielen). Lege eine \nVergleichende Probe auf Nahkampf + Willenskraft gegen \nLogik + Intuition ab. Der Schaden entspricht der physi-\nschen Version der Waffe, und Nettoerfolge erhöhen ihn \njeweils um 1. Da Waffenfoki Nahkampfwaffen sein müssen, gibt es \nkeine Fernkampfangriffe mit Waffen im Astralkampf. Wenn \ndu aus der Ferne angreifen willst, musst du einen Zauber \neinsetzen. Nach einem erfolgreichen Angriff widersteht ein astraler \nCharakter dem Schaden mit Willenskraft. Der Angreifer \nkann festlegen, ob er Körperlichen oder Betäubungsschaden \nverursachen will. Manabarrieren können nur durch Körper-\nlichen Schaden beschädigt werden. Der Kasten Astralkampf fasst Fertigkeiten und Attribute \nzusammen, die im Astralkampf eingesetzt werden. Astrales Spurenlesen\nFast alles Magische (Geister, Zauber, Rituale, Foki und \nMagische Refugien) hat eine astrale Verbindung zu dem, \nder für es verantwortlich ist. Aktive Zauber sind mit dem \nZauberer verbunden, Geister mit ihrem Beschwörer, astral \nprojizierende Zauberer sind mit ihren Körpern verbunden, \nund Foki und Magische Refugien sind mit den Zauberern \nverbunden, die sie aktiviert haben.",
+    "topic": "combat.attack",
+    "keywords": [
+      "willenskraft",
+      "schaden",
+      "astralkampf",
+      "zauber",
+      "magische",
+      "verbunden",
+      "moeglichkeit",
+      "vergleichende"
+    ]
+  }
+}

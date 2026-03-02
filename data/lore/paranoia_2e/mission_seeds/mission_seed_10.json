@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "category": "mission_seed",
+  "id": "mission_seed_10",
+  "name": "Mission Seed 10",
+  "tags": [
+    "paranoia_2e",
+    "mission",
+    "seed"
+  ],
+  "summary": "Troubleshooter cell must catalog forbidden pamphlets.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "objective": "catalog forbidden pamphlets",
+    "assigned_by": "Power Services",
+    "hidden_agenda": "Mystics",
+    "twist": "friendly_npc_is_traitor",
+    "countdown": 4,
+    "failure_cost": "clone_loss"
+  }
+}

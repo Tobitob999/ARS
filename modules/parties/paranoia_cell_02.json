@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0.0",
+  "id": "paranoia_cell_02",
+  "name": "Paranoia Cell 02",
+  "members": [
+    "paranoia_hygiene_officer",
+    "paranoia_media_liaison",
+    "paranoia_template_01",
+    "paranoia_template_02"
+  ],
+  "compatible_rulesets": [
+    "paranoia_2e"
+  ]
+}

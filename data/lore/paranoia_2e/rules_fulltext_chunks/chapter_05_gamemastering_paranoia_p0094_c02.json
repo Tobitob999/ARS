@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_05_gamemastering_paranoia_p0094_c02",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_05_gamemastering_paranoia",
+    "chapter"
+  ],
+  "summary": "Rule chunk from Gamemastering Paranoia page 94, chunk 2.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_05_gamemastering_paranoia",
+    "source_title": "Gamemastering Paranoia",
+    "page": 94,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "Thank you for your cooperation, \n‘Messengers: Ifthe PCs encounter a circum: stance not specifically covered in thelr orders, or find some annoyingly clever way 10 warp tr ignore the intentions oftheir orders, send 4 messenger (a breathless infrared, perhaps, ora flustered jackobot, ora gleaming duralloy combot the size of a caboose) with an urgent mission update clarifying The Computers ex- act wishes in the matter. igh-Status NPCs: The timely arrival of an NPC with a higher security clearance than the ranking PC is a perfect channeling device Failure to obey a higher clearance citizen is, alte all, teason. Even when PCs whine about having priority orders from higher authority (But The Computer told us todo this. t is mysteriously difficult to get oficial confir- mation of such orders (\"Pardon me, but the Tine is busy, he's away from his desk, and you have the wrong number. Will you hold?’ \nBots: Assign a bot to the party. Store al infor mation ertcal othe mission's success in the bots bran. Then prohibit the PCs from access- ing that information. (\"'m sory. That infor ‘mation isnot available at your security clear \nPARANOIA \nance, nosy human.\") Now the PCs have to follow the bot around and do what t tells them to do when it feels like telling them, (Of course the PCs should also have signed an intimidating form when the bot was issued to them, clearly indicating how valuable the bot is and how tragic it would be ifthe bot were to come to harm.",
+    "topic": "clearance",
+    "keywords": [
+      "orders",
+      "higher",
+      "when",
+      "mation",
+      "them",
+      "ifthe",
+      "mission",
+      "security"
+    ]
+  }
+}

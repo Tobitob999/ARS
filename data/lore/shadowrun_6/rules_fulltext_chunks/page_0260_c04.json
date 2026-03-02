@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0260_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 260, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 260,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Das Abschussrohr \nkann wiederverwendet werden, was angesichts der jüngsten \nPreisanstiege nicht unerfreulich ist. WiFi-Vorteil:\n Eine Verbindung des Werfers zur örtlichen Ma-\ntrix liefert einen Würfelpoolbonus von +1, sofern nicht bereits \nandere Systeme in Anwendung sind, die einen Bonus liefern. Onot ari Interceptor\nSaeder-Krupp hat diesen Mehrzweckraketenwerfer für mi-\nlitärische Zwecke entwickelt. Der Werfer hat zwei separate \nLäufe und kann damit zwei Raketen gleichzeitig laden, die \nauch nicht vom gleichen Typ sein müssen. Die Läufe können \nnicht gleichzeitig abgefeuert werden, aber man hat schon \nvon Fällen gehört, in denen diese Sicherheitsvorrichtung \nüberbrückt wurde, sehr zum Leidwesen des Ziels – und \ndes Schützen, wie sich herausstellte. Der Werfer hat ein \ninternes Smartgunsystem, mit dem das Sicherheitssystem \nüberbrückt werden kann; werden beide Läufe abgefeuert, \nwird der Angriffswürfelpool aufgeteilt, und die Angriffe \nbeider Raketen werden separat ausgewürfelt. Der Schütze \nmuss gegen einen Feuerschaden von 6K Widerstand leisten, \nwenn er beide Läufe gleichzeitig abfeuert. WiFi-Vorteil:\n Das Sicherheitssystem kann nicht abge-\nschaltet werden, aber der Schütze erhält den Smartlink- \nWiFi-Bonus. WiFi-Zünder\nNormalerweise explodieren Granaten in diesen Regeln, \nsobald sie geworfen/abgefeuert wurden und ihr Ziel er-\nreichen (siehe S. 118). Das kann unter Umständen (zum \nBeispiel, wenn sich derjenige, der die Granate geworfen/\nabgefeuert hat, selbst innerhalb des Radius der Spreng-\nwirkung beﬁ ndet oder bei der Probe einen Patzer erzielt) \nproblematisch sein. Dieses Problem kann man mit einem WiFi-Zünder um-\ngehen.",
+    "topic": "sanity",
+    "keywords": [
+      "wifi",
+      "einen",
+      "laeufe",
+      "abgefeuert",
+      "gleichzeitig",
+      "vorteil",
+      "bonus",
+      "diesen"
+    ]
+  }
+}

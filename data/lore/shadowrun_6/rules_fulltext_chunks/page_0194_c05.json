@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0194_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 194, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 194,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Wenn das Sprite zum Zeit-\npunkt des Transfers nicht in der Matrix ist, löscht sich das \nCookie. Man kann Cookies mit einer erfolgreichen Matrix-\nwahrnehmungsprobe auf der Zielpersona entdecken. Sobald \nSHADOWRUN: SECHSTE EDITION\nTECHNOMANCER // MA TRIX // 193",
+    "topic": "matrix",
+    "keywords": [
+      "matrix",
+      "sprite",
+      "zeit",
+      "punkt",
+      "transfers",
+      "loescht",
+      "sich",
+      "cookie"
+    ]
+  }
+}

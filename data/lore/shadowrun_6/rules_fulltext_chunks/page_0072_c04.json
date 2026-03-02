@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0072_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 72, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 72,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Die Kosten für die Entwicklung \nin allen Kategorien sind zusammen mit Vorschlägen zu \nTrainingszeiten in der Tabelle \nEntwicklungskosten\n (S. 72) \nangegeben. Diese Trainingszeiten sind aber wirklich nur \nVorschläge. Der tatsächliche Zeitaufwand muss von der \nSpielleiterin festgelegt werden, so wie er am besten zu der \nGeschichte passt, die sie erzählen will. Während dieser Zeit-\nspannen geht man davon aus, dass der Runner mindestens \n4 Stunden pro Tag mit dem Training verbringt. Ausgehend \nvon 8 Stunden Schlaf und 4 Stunden für unterschiedliche \nLebensaktivitäten bleiben 12 Stunden pro Tag für Training \nübrig, was bedeutet, dass man an drei unterschiedlichen \nVerbesserungen gleichzeitig arbeiten kann. Es ist allerdings \nnicht möglich, mehrere 4-Stunden-Zeiträume pro Tag für \ndieselbe Fähigkeit aufzuwenden und dadurch die Trainings-\nzeit zu verringern. A ttribute\nAlle Attribute werden durch Training gesteigert. Das kann \nin Form von Krafttraining oder einer rigorosen Abfolge von \nMatrix-Rätseln geschehen, aber an jedem Attribut muss ge-\narbeitet werden, um es zu verbessern. Um die Verbesserung \nabzuschließen, musst du außerdem [neue Stufe × 5] Karma \nausgeben, und zwar für jede Steigerung einzeln: Wenn du \nalso ein Attribut von 4 auf 6 erhöhen willst, kostet das 55 \nKarma: 25 Karma für Stufe 5 (5 × 5) und 30 Karma für \nStufe 6 (6 × 5). In der Tabelle \nEntwicklung von Attributen \nund Fertigkeiten\n findest du die Kosten für die Erhöhung \nvon einer Stufe zu einer anderen. Aktionsfertigkeiten\nAlle Aktionsfertigkeiten brauchen Training.",
+    "topic": "general",
+    "keywords": [
+      "stunden",
+      "training",
+      "stufe",
+      "karma",
+      "einer",
+      "kosten",
+      "entwicklung",
+      "tabelle"
+    ]
+  }
+}

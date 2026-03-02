@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0162_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 162, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 162,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Astrale Signa turen\nDas Askennen von Auren gewirkter Zauber kann eine \nwichtige Technik sein, um Informationen zu sammeln. Alle Erwachten Wesen haben eine astrale Signatur, und die \nkann in den Zaubern, die sie wirken, den Gegenständen, \ndie sie verzaubern und/oder benutzen, und den Ritualen, \ndie sie durchführen, gesehen werden. Das bedeutet, dass \ndie Spuren, die von Individuen im Astralraum hinterlassen \nwerden, von aufmerksamen Beobachtern zu ihnen zurück-\nverfolgt werden können. Einige davon verblassen mit der \nZeit: Das astrale Leuchten eines Zaubers bleibt für eine \nAnzahl von Stunden gleich dem Magieattribut des Zau-\nAskennen\nANZAHL DER \nERFOLGE\n INFORMATIONEN\n0\n Keine\n1\nAllgemeiner Gesundheitszustand des Ziels (gesund oder krank). Allgemeine Gefühlslage des Ziels (glücklich, traurig, wütend usw.). Ob das Ziel Erwacht oder mundan ist. 2\nVorhandensein und Lage von Standard-Cyberware. Vorhandensein und generelle Art von aktiver Magie (Feuergeist, Manipulationszauber, Kraftfokus usw.). Wenn die Aura bereits gesehen wurde, kann sie, auch wenn sie verborgen oder verkleidet ist, mit einer Probe \n \n auf Erinnerungsvermögen (S. 37) erkannt werden. 3\nVorhandensein und Lage von Alpha-Cyberware. Ob Essenz und Magie des Ziels höher, niedriger oder gleich der Magie des Wahrnehmenden sind. Ob die Kraftstufe des Ziels höher, niedriger oder gleich der Magie des Wahrnehmenden ist. Eine allgemeine Diagnose über gesundheitliche Beeinträchtigungen, an denen das Ziel leidet, wie zum Beispiel \n Krankheiten oder Toxinwirkungen\nAstrale Signaturen, die auf dem Ziel liegen. 4\nVorhandensein und Lage von Beta-Cyberware und Bioware. Exakte Essenz, Magie und/oder Kraftstufe des Ziels.",
+    "topic": "magic.spells",
+    "keywords": [
+      "ziels",
+      "magie",
+      "astrale",
+      "vorhandensein",
+      "gleich",
+      "lage",
+      "cyberware",
+      "askennen"
+    ]
+  }
+}

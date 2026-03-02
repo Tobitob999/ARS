@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0090_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 90, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 90,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Riggerin\nNichts ist besser als das Gefühl, in eine Maschine mit 1.000 \nPS hineinzuspringen oder mit einer Geschwindigkeit da-\nhinzurasen, die einem die Haut von den Knochen schälen \nwürde. Und die Riggerin erlebt das jeden Tag. Sie steuert ihre \nDrohnen und Fahrzeuge mit ihrem Geist, und das hebt sie \nvon allen anderen Piloten ab, die auf ihre Reflexe angewiesen \nsind. Sie denkt einfach daran, und es passiert; und sie kann \nsofort reagieren, ohne die lästige Verzögerung einer elekt-\nronischen Fernsteuerung ertragen zu müssen. Das Problem \nist nur, dass Drohnen Geld kosten. Und das ist schwer zu \nbekommen, wenn man nicht bereit ist, für gewisse Leute \nzu arbeiten, die ein bisschen Vorkasse anbieten – solange \nman dafür sorgt, dass es sich mit Zins und Zinseszins lohnt.",
+    "topic": "movement",
+    "keywords": [
+      "riggerin",
+      "einer",
+      "ihre",
+      "drohnen",
+      "nichts",
+      "besser",
+      "gefuehl",
+      "maschine"
+    ]
+  }
+}

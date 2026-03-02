@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npc",
+  "id": "npc_033",
+  "name": "Glint-H-R-33",
+  "tags": [
+    "paranoia_2e",
+    "npc",
+    "roster"
+  ],
+  "summary": "Internal Security operative with layered loyalties.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "service_group": "Internal Security",
+    "secret_society": "Purge",
+    "mutation": "Chameleon",
+    "trait": "eager",
+    "clearance": "Yellow",
+    "use_in_play": "checkpoint_antagonist"
+  }
+}

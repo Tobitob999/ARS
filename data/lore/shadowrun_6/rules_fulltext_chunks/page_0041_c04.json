@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0041_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 41, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 41,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Mit Fertigkeiten feuert man Waffen \nab, schleicht sich an Wachposten vorbei, schmeichelt sich \nbei einem mürrischen Sicherheitsoffizier ein, fährt einen \nFluchtwagen und vieles mehr – so viel, dass es ein eigenes \nKapitel über Fertigkeiten gibt, das auf Seite 94 beginnt. Fertigkeiten haben einen Wert von 1 bis 9. Sie können durch \nZauber, Ausrüstung und andere Effekte modifiziert werden, \naber grundsätzlich gilt, dass die modifizierte Fertigkeit eines \nCharakters nie höher sein kann als seine unmodifizierte \nFertigkeit +4. Initia tive\nIn einem Rollenspiel ereignen sich die Dinge häufig in einer \nlockeren Abfolge, bei der die Spielercharaktere Handlungen \nunternehmen, wie sie gerade erforderlich werden, ohne \ndass es eine festgelegte Reihenfolge oder Ähnliches gibt. Manchmal jedoch, vor allem im Kampf, ist eine strenge \nzeitliche Abfolge unumgänglich, und die Initiative ist ein \nMittel, um festzulegen, wie diese Abfolge aussieht. Körperlicher Zustandsmonitor\n-1\n-2\n-3\n-4\nLogik\nDieses Attribut steht für den kalten, berechnenden Teil \ndes Geistes, den rationalen, analytischen, rätsellösenden \nAspekt. Decker und Technomancer verwenden es häufig, \naber bei Tätigkeiten, die Mustererkennung oder Ähnliches \nerfordern, kann es für jeden nützlich sein. Intuition\nAls das Yin zum Yang der Logik (oder vielleicht auch um-\ngekehrt) steht die Intuition für das Bauchgefühl, die plötz-\nliche Inspiration, den Geistesblitz, der im ersten Moment \nkeinen Sinn zu ergeben scheint, aber trotzdem funktioniert. Intuition hilft einem Charakter, Gefahrensituationen zu \nerkennen und gegen einige magische Bedrohungen Wider-\nstand zu leisten.",
+    "topic": "combat",
+    "keywords": [
+      "fertigkeiten",
+      "sich",
+      "einem",
+      "abfolge",
+      "intuition",
+      "einen",
+      "gibt",
+      "sein"
+    ]
+  }
+}

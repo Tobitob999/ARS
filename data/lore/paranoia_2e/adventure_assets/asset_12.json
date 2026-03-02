@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0.0",
+  "category": "adventure_asset",
+  "id": "asset_12",
+  "name": "Debrief Form 12",
+  "tags": [
+    "paranoia_2e",
+    "asset",
+    "debrief_form"
+  ],
+  "summary": "Reusable mission-facing artifact for scene setup.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "asset_type": "debrief_form",
+    "scene_role": "setup",
+    "truthfulness": "partial",
+    "play_hook": "creates_false_target"
+  }
+}

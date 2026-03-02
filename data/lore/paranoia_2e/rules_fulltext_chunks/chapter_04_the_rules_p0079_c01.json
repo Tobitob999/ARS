@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_04_the_rules_p0079_c01",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_04_the_rules",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The Rules page 79, chunk 1.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_04_the_rules",
+    "source_title": "The Rules",
+    "page": 79,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "raw_text": "PARANOIA cocataatecHlll \nDying repeatedly can sometimes get a lit tle dull, That's why you need to give the players lots of entertaining, unusual and different ways to die, ‘Weapons in Alpha Complex are deadly — to their users as well as their targets. You know how everyone says the American work ethic, {sn’t what it used to be? Well, in Alpha Com- pilex they don't even have a work ethic. The few citizens who work in Alpha Complex’s automated factories turning out mass procluced weapons are more concerned with fulfilling their quotas than with quality, As a result, even the most reliable weapons ‘malfunction with alarming frequency. Ifyou like, you can use the optional malfunc- tion rules (page 67) to determine when a weapon malfunctions. Or, you can be insou- ciantly cavalier, and have weapons malfuction whenever you like — when things are mov- ing too slowly, for example, or when a ‘weapon's failure will add to the usual slapstick. atmosphere of Paranoia combat. Each weapon, of course, malfunctions in its ‘own charming fashion, Moreover, the user of ‘a weapon usually has one chance to try to remedy the malfunction before It proves dead- ly — by making a weapons skill roll. The descriptions below say how weapons malfunc- tion, and what happens when a user tries to “eomedy\" the problem. Hl Weapon Types, Different weapons kill ou indifferent ways, Lasers puncture you with beams of coherent light, flamethrowers cover you with burning, liquid, and grenades send lots of little jagged pieces of metal through you. While the distinc tion at first might seem unimportant — Dead, is dead, right? Who cares how you got that, ‘way?",
+    "topic": "combat",
+    "keywords": [
+      "weapons",
+      "when",
+      "alpha",
+      "their",
+      "work",
+      "tion",
+      "dead",
+      "paranoia"
+    ]
+  }
+}

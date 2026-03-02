@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0293_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 293, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 293,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "37) misslingt; ansonsten kann man sie mit einer Nebenhand-\nlung aktivieren. Während die Pumpe aktiv ist, ignoriert der \nCharakter Verletzungsmodifikatoren, wird nicht bewusstlos, \nselbst wenn sein Betäubungszustandsmonitor ausgefüllt ist, \nkann sich nicht ausruhen, und die Stufe der Adrenalinpumpe \nwird zu seiner Stärke, Geschicklichkeit, Reaktion und Wil-\nlenskraft hinzuaddiert. Die Pumpe arbeitet für [Stufe × 1W6] \nKampfrunden und kann auch nicht vorzeitig abgeschaltet \nwerden. Wenn die Zeit um ist, bricht der Charakter zusammen \nund erleidet Betäubungsschaden in Höhe der halben Anzahl \nan Kampfrunden (aufgerundet), in denen die Pumpe aktiv war \n(gegen diesen Schaden wird mit der natürlichen Konstitution \nWiderstand geleistet). Wenn die Wirkung aufhört, kehren die \nHärtung\nDurch diesen Prozess wird die Haut/Gliedmaße gehärtet, \ndamit man effektiver zuschlagen kann. Bei einem waffen-\nlosen Angriff hat der Benutzer einen Schadenswert von 3K \nund einen Angriffswert (Sehr nah) von 6. Nagelmesser\nNagelmesser sitzen unter den Fingernägeln oder ersetzen \nsie ganz und können wie Krallen eingesetzt werden. Wie \nbei der Handklinge hat das einziehbare Modell eine Tarn-\nbarkeit von 8. Schockgliedmasse\nAn strategischen Punkten werden Elektroden eingebaut, die \neiner Zielperson taserartige Stromstöße versetzen können. Normalerweise wird dazu die Hand benutzt, aber in letzter \nZeit erfreut sich der Schocktritt bei einigen Straßenkämp-\nfern zunehmender Beliebtheit, und es gibt Geschichten von \nKämpfern, die ihren Gegnern elektrisierende Kopfstöße \nverpassen.",
+    "topic": "combat",
+    "keywords": [
+      "pumpe",
+      "einer",
+      "aktiv",
+      "charakter",
+      "sich",
+      "stufe",
+      "kampfrunden",
+      "zeit"
+    ]
+  }
+}

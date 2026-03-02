@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0097_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 97, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 97,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Das Intervall beträgt 1 Stunde, und zur Durch-\nführung der Probe ist mindestens ein Biotech- Laden nötig. Cracken\nSpezialisierungen: Elektronische Kriegsführung, Hacken, \nMatrixkampf\nUngeübt: Nein\nPrimärattribut: Logik\nIn der Matrix hat man grundsätzlich die Wahl zwischen \nzwei Arten von Aktivitäten: legalen und illegalen. Cracken \nkommt immer dann zum Einsatz, wenn es um die illegalen \nAktivitäten geht. Genaue Informationen zum Einsatz von \nCracken findest du im Kapitel Matrix auf Seite 176. Einfluss\nSpezialisierungen: Einschüchtern, Führen, Gebräuche, Un-\nterrichten, Verhandeln\nUngeübt: Ja\nPrimärattribut: Charisma\nSekundärattribut: Logik (bei sachlichen Argumentationen; \ndann hauptsächlich beim Verhandeln, situationsabhängig \nauch beim Führen)\nDiese Fertigkeit ist neben Überreden die zweite Möglich-\nkeit, die Meinung anderer Leute zu beeinflussen. Man könn-\nte sagen, dass Einfluss die „ehrlicheren“ Varianten dieses \nVorhabens in sich vereint, aber das würde vielen aufrechten \nBetrügern unrecht tun und die Integrität von Verhandlungs-\nführern aus der Wirtschaftswelt weit über ihren Scheffel \nstellen. Letztlich gilt: Wann immer du versuchst, deinen \nRunnerkollegen Mut zu machen, Mr Johnson noch ein paar \nNuyen mehr abzuluchsen oder jemandem unmissverständlich \nklarzumachen, dass er dir besser nicht in die Quere kommen \nsollte, wenn er nicht ganz neue Dimensionen von Schmerz \nkennenlernen möchte, dann ist Einfluss die richtige Fertigkeit. In den meisten Fällen werden Einflussproben mit Einfluss + \nCharisma abgelegt. Wenn ein Charakter sich jedoch auf reine \nVernunft beruft, um seinen Standpunkt klarzumachen, dann \nkann auch auf Einfluss + Logik gewürfelt werden.",
+    "topic": "combat",
+    "keywords": [
+      "einfluss",
+      "dann",
+      "cracken",
+      "logik",
+      "spezialisierungen",
+      "ungeuebt",
+      "primaerattribut",
+      "matrix"
+    ]
+  }
+}

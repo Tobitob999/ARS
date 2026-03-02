@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0008_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 8, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 8,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Bei Shadowrun 6 wirst \ndu deine Würfel häufiger brauchen als in Anarchy und \nhast gleichzeitig mehr Möglichkeiten, die Chancen zu \ndeinen Gunsten zu beeinflussen. Zusätzlich kannst du \nauf sämtlichen Gebieten – Ausrüstung, Zauber, Bodytech, \nusw. – aus einer größeren Anzahl von Optionen wäh-\nlen. Wir hoffen, dass damit keinem Shadowrun-Spieler \nlangweilig wird – und dass alle möglichst schnell in die \nAction starten können! Wenn du noch keine Erfahrung mit Shadowrun hast, \nist die einleitende Kurzgeschichte Vier ist eine runde Zahl\nvielleicht ein hilfreicher Einstieg. Danach empfiehlt sich \nein Blick in das Kapitel Das Leben in der Sechsten Welt, \ndas einen Überblick über die Spielwelt, ihre Geschichte \nund vor allem die Rolle gibt, die die Spielercharaktere \nin ihr einnehmen. Das Kapitel Spielkonzepte stellt an-\nschließend die wichtigsten Informationen zusammen, die \nnötig sind, um das Spiel zu spielen. Natürlich finden sich \nauch in allen anderen Kapiteln wertvolle Informationen, \naber diese Übersicht verschafft dir ein grundlegendes \nVerständnis dafür, worum es beim Spiel und der Spiel-\nwelt geht. Erfahrene Spieler wollen das Kapitel Spielkonzepte viel-\nleicht einfach überspringen und direkt mit den Grundlagen \ndes Spiels weitermachen. Hier findest du eine Kurz übersicht \nüber die wichtigsten Änderungen:\nEinleitung\nEinleitung // 7",
+    "topic": "magic.spells",
+    "keywords": [
+      "shadowrun",
+      "spiel",
+      "hast",
+      "sich",
+      "welt",
+      "wichtigsten",
+      "informationen",
+      "uebersicht"
+    ]
+  }
+}

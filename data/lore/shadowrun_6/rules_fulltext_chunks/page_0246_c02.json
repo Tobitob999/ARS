@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0246_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 246, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 246,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Soll ein Gerät (das kein Slave \neines anderen Geräts ist) gehackt werden und hat keine sepa-\nraten Matrixattribute, so ist seine Gerätestufe gleich seinem \nDatenverarbeitungs- und Firewallattribut. Hal terung\nDie Stelle, an der ein Zubehörteil an einer Waffe montiert \nwerden kann; Näheres dazu findest du auf Seite 259. Kap azit ä t\nManche Gegenstände können mit Modifikationen, Erwei-\nterungen und dergleichen ausgestattet werden und besitzen \neine Kapazitätsstufe, die den Platz angibt, der für solche \nSachen zur Verfügung steht. Andere Gegenstände hingegen \nfüllen diesen Platz aus – sie haben eine Kapazitätsstufe, die \nin eckigen Klammern [ ] angegeben ist. Ma trixa ttribute\nBei Matrixgeräten geben diese Werte an, welche Stufe das \nGerät in den Kategorien Angriff (A), Schleicher (S), Daten-\nverarbeitung (D) und Firewall (F) hat. Üblicherweise treten \ndie ersten beiden und die letzten beiden jeweils paarweise auf. Modus\nDie möglichen Feuermodi einer Feuerwaffe; Näheres dazu \nfindest du auf Seite 112. Munition\nDieser Wert gibt die Munitionskapazität und die Muniti-\nonsform einer Waffe an – (k) für Klapplademechanismus, \n(s) für Stangenmagazin, (i) für internes Magazin, (t) für \nTrommelmagazin, (g) für Gurtmunition, (tr) für aufklapp-\nbare Trommel, (v) für Vorderlader. Schadenswert\nDieser Wert steht bei Waffen und bezeichnet den Grund-\nschaden, den die Waffe anrichtet, wenn sie trifft. Dahinter \nkann noch ein Buchstabe stehen, der angibt, ob es sich \num speziellen Schaden handelt, zum Beispiel (e) für Elek-\nDie Legalität eines Gegenstandes hängt von den örtlichen \nGesetzen ab. Was in den UCAS legal ist, muss es im Freistaat \nKalifornien nicht unbedingt sein und umgekehrt.",
+    "topic": "combat",
+    "keywords": [
+      "einer",
+      "waffe",
+      "geraet",
+      "eines",
+      "naeheres",
+      "dazu",
+      "findest",
+      "gegenstaende"
+    ]
+  }
+}

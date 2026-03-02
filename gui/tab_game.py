@@ -13,6 +13,7 @@ Aktives Gameplay-Interface:
 from __future__ import annotations
 
 import logging
+import threading
 import tkinter as tk
 import tkinter.ttk as ttk
 from datetime import datetime
@@ -92,6 +93,15 @@ class GameTab(ttk.Frame):
             ctrl_frame, text="Load", command=self._on_load,
         ).pack(side=tk.LEFT, padx=PAD_SMALL)
 
+        ttk.Separator(ctrl_frame, orient=tk.VERTICAL).pack(
+            side=tk.LEFT, fill=tk.Y, padx=PAD,
+        )
+
+        ttk.Button(
+            ctrl_frame, text="Reset", style="Danger.TButton",
+            command=self._on_reset,
+        ).pack(side=tk.LEFT, padx=PAD_SMALL)
+
         # Voice-Controls (rechte Seite der Control-Leiste)
         voice_frame = ttk.Frame(ctrl_frame, style="TFrame")
         voice_frame.pack(side=tk.RIGHT)
@@ -158,7 +168,12 @@ class GameTab(ttk.Frame):
         self._output_text.tag_configure("probe", foreground=STREAM_PROBE, font=FONT_BOLD)
         self._output_text.tag_configure("dice", foreground=STREAM_PROBE)
         self._output_text.tag_configure("stat", foreground=YELLOW)
+        self._output_text.tag_configure("combat", foreground=RED, font=FONT_BOLD)
+        self._output_text.tag_configure("combat_hit", foreground=ORANGE, font=FONT_BOLD)
+        self._output_text.tag_configure("combat_miss", foreground=FG_MUTED, font=FONT_BOLD)
+        self._output_text.tag_configure("combat_state", foreground=FG_SECONDARY)
         self._output_text.tag_configure("fact", foreground=STREAM_TAG)
+        self._output_text.tag_configure("rules_warning", foreground=ORANGE)
         self._output_text.tag_configure("archivar", foreground=STREAM_ARCHIVAR)
         self._output_text.tag_configure("timestamp", foreground=FG_MUTED, font=FONT_SMALL)
         self._output_text.tag_configure("label", foreground=FG_MUTED, font=FONT_SMALL)
@@ -188,6 +203,39 @@ class GameTab(ttk.Frame):
         )
         self._btn_send.pack(side=tk.RIGHT, padx=PAD_SMALL, pady=PAD_SMALL)
         self._btn_send.state(["disabled"])
+
+        # ── Mic-Level + STT-Text Anzeige ──
+        mic_frame = tk.Frame(left_frame, bg=BG_PANEL)
+        mic_frame.pack(fill=tk.X, pady=(PAD_SMALL, 0))
+
+        tk.Label(
+            mic_frame, text="Mic:", bg=BG_PANEL, fg=FG_MUTED,
+            font=FONT_SMALL, padx=PAD_SMALL,
+        ).pack(side=tk.LEFT)
+
+        self._mic_level_bar = ttk.Progressbar(
+            mic_frame, orient=tk.HORIZONTAL, length=120,
+            mode="determinate", maximum=100,
+        )
+        self._mic_level_bar.pack(side=tk.LEFT, padx=PAD_SMALL, pady=2)
+        self._mic_level_bar["value"] = 0
+
+        self._mic_vad_label = tk.Label(
+            mic_frame, text="", bg=BG_PANEL, fg=FG_MUTED,
+            font=FONT_SMALL, width=3,
+        )
+        self._mic_vad_label.pack(side=tk.LEFT, padx=(0, PAD))
+
+        tk.Label(
+            mic_frame, text="STT:", bg=BG_PANEL, fg=FG_MUTED,
+            font=FONT_SMALL,
+        ).pack(side=tk.LEFT, padx=(PAD_SMALL, 0))
+
+        self._stt_text_label = tk.Label(
+            mic_frame, text="—", bg=BG_PANEL, fg=STREAM_PLAYER,
+            font=FONT_SMALL, anchor=tk.W,
+        )
+        self._stt_text_label.pack(side=tk.LEFT, fill=tk.X, expand=True, padx=PAD_SMALL)
 
         # ── Rechte Seite: Character Sidebar ──
         right_frame = ttk.Frame(main_paned, style="TFrame")
@@ -357,6 +405,58 @@ class GameTab(ttk.Frame):
         self._btn_stop.state(["disabled"])
         self._set_input_state(False)
 
+    def _on_reset(self) -> None:
+        """Reset: stoppt Engine, leert Chat + History, wechselt zum Session-Tab."""
+        from tkinter import messagebox
+        if not messagebox.askokcancel(
+            "Session Reset",
+            "Session zuruecksetzen?\n\n"
+            "Chat-Verlauf, KI-History, Kampf- und Zeit-Tracker\n"
+            "werden geloescht. Ungespeicherter Fortschritt geht verloren.",
+            parent=self.gui.root,
+        ):
+            return
+
+        # 1. Engine stoppen
+        self._on_stop()
+
+        # 2. Chat-Output leeren
+        self._output_text.configure(state=tk.NORMAL)
+        self._output_text.delete("1.0", tk.END)
+        self._output_text.configure(state=tk.DISABLED)
+
+        # 3. KI-History zuruecksetzen
+        engine = self.gui.engine
+        if hasattr(engine, "ai_backend") and engine.ai_backend:
+            engine.ai_backend.reset_history()
+
+        # 4. Orchestrator-Session-History leeren
+        if hasattr(engine, "_orchestrator") and engine._orchestrator:
+            engine._orchestrator._session_history.clear()
+
+        # 5. Combat-Tracker zuruecksetzen
+        if hasattr(engine, "combat_tracker") and engine.combat_tracker:
+            engine.combat_tracker.end_combat()
+
+        # 6. Time-Tracker zuruecksetzen
+        if hasattr(engine, "time_tracker") and engine.time_tracker:
+            tt = engine.time_tracker
+            tt._hour, tt._minute, tt._day = 8, 0, 1
+            tt._weather = "klar"
+
+        # 7. KI-Monitor Injection-Log leeren
+        if hasattr(self.gui, "tab_ki_monitor"):
+            monitor = self.gui.tab_ki_monitor
+            if hasattr(monitor, "_rules_injection_log"):
+                monitor._rules_injection_log.clear()
+
+        # 8. Status-Meldung
+        self._append_timestamp()
+        self._append_output("Session zurueckgesetzt. Druecke [Start] fuer neue Session.\n", "system")
+
+        # 9. Zum Session-Tab wechseln
+        self.gui.notebook.select(self.gui.tab_session)
+
     def _on_save(self) -> None:
         engine = self.gui.engine
         if engine.character:
@@ -436,13 +536,21 @@ class GameTab(ttk.Frame):
         engine = self.gui.engine
         if self._voice_on:
             if not hasattr(engine, "_tts") or not engine._tts:
-                try:
-                    engine.enable_voice(barge_in=False)
-                except Exception as exc:
-                    logger.warning("Voice-Aktivierung fehlgeschlagen: %s", exc)
-                    self._voice_var.set(False)
-                    self._voice_on = False
-                    return
+                # Voice-Init im Hintergrund um GUI nicht zu blockieren
+                self._voice_status.configure(text="Mic: Loading...", style="Muted.TLabel")
+                self._voice_cb.state(["disabled"])
+                import threading
+
+                def _init_voice():
+                    try:
+                        engine.enable_voice(barge_in=False)
+                        self.after(0, self._on_voice_ready)
+                    except Exception as exc:
+                        logger.warning("Voice-Aktivierung fehlgeschlagen: %s", exc)
+                        self.after(0, self._on_voice_failed)
+
+                threading.Thread(target=_init_voice, daemon=True).start()
+                return
             engine._voice_enabled = True
             self._voice_status.configure(text="Mic: On", style="Green.TLabel")
             self.gui.status_bar.set_mic_state("listening")
@@ -452,6 +560,25 @@ class GameTab(ttk.Frame):
             self._auto_voice = False
             self._voice_status.configure(text="Mic: Off", style="Muted.TLabel")
             self.gui.status_bar.set_mic_state("off")
+
+    def _on_voice_ready(self) -> None:
+        """Callback wenn Voice-Init im Hintergrund fertig ist."""
+        self._voice_cb.state(["!disabled"])
+        self.gui.engine._voice_enabled = True
+        self._voice_on = True
+        self._voice_status.configure(text="Mic: On", style="Green.TLabel")
+        self.gui.status_bar.set_mic_state("listening")
+        self._append_timestamp()
+        self._append_output("Voice aktiviert (TTS + STT bereit)\n", "system")
+
+    def _on_voice_failed(self) -> None:
+        """Callback wenn Voice-Init fehlschlaegt."""
+        self._voice_cb.state(["!disabled"])
+        self._voice_var.set(False)
+        self._voice_on = False
+        self._voice_status.configure(text="Mic: Off", style="Muted.TLabel")
+        self._append_timestamp()
+        self._append_output("Voice-Aktivierung fehlgeschlagen!\n", "system")
 
     def _on_keeper_voice_change(self, event: Any) -> None:
         """Wechselt die Keeper-Stimme live."""
@@ -485,6 +612,13 @@ class GameTab(ttk.Frame):
         for stat, (bar, lbl) in self._stat_bars.items():
             cur = char._stats.get(stat, 0)
             mx = char._stats_max.get(stat, 1)
+            # Handle non-numeric stats (e.g. Paranoia "state_track")
+            if not isinstance(cur, (int, float)):
+                bar["value"] = 100
+                lbl.configure(text=str(cur))
+                continue
+            if not isinstance(mx, (int, float)) or mx <= 0:
+                mx = 1
             pct = (cur / mx * 100) if mx > 0 else 0
             bar["value"] = pct
             lbl.configure(text=f"{cur}/{mx}")
@@ -571,6 +705,35 @@ class GameTab(ttk.Frame):
                 self._append_timestamp()
                 self._append_output(text + "\n", tag)
 
+            elif tag == "combat":
+                self._play_dice_sound()
+                self._append_timestamp()
+                for line in text.split("\n"):
+                    if not line.strip():
+                        continue
+                    if "TREFFER" in line or "GERETTET" in line:
+                        self._append_output(line + "\n", "combat_hit")
+                    elif "VERFEHLT" in line or "FEHLSCHLAG" in line or "PATZER" in line:
+                        self._append_output(line + "\n", "combat_miss")
+                    elif "Schaden:" in line or "[TOT]" in line:
+                        self._append_output(line + "\n", "combat")
+                    elif "->" in line and "(" in line:
+                        # Header: Angreifer -> Ziel (Waffe)
+                        self._append_output(line + "\n", "combat_state")
+                    else:
+                        self._append_output(line + "\n", "dice")
+
+            elif tag == "initiative":
+                self._append_timestamp()
+                self._append_output(text + "\n", "combat_state")
+
+            elif tag == "combat_state":
+                self._append_output(text + "\n", "combat_state")
+
+            elif tag == "rules_warning":
+                self._append_timestamp()
+                self._append_output(text + "\n", "rules_warning")
+
             elif tag in ("probe", "stat", "fact", "system"):
                 self._append_timestamp()
                 self._append_output(text + "\n", tag)
@@ -597,3 +760,24 @@ class GameTab(ttk.Frame):
         elif event == "archivar.world_state_updated":
             # Inventar koennte sich geaendert haben
             self._refresh_stats()
+
+        # ── Audio-Events (Mic-Level + STT-Text) ──
+        elif event == "audio.mic_level":
+            level = data.get("level", 0)
+            vad = data.get("vad", 0)
+            speech = data.get("speech", False)
+            self._mic_level_bar["value"] = level
+            if speech:
+                self._mic_vad_label.configure(text="REC", fg=RED)
+            elif vad > 0.2:
+                self._mic_vad_label.configure(text="...", fg=YELLOW)
+            else:
+                self._mic_vad_label.configure(text="", fg=FG_MUTED)
+
+        elif event == "audio.stt_text":
+            text = data.get("text", "")
+            if text:
+                display = text if len(text) <= 80 else text[:77] + "..."
+                self._stt_text_label.configure(text=display)
+                # Reset nach 5 Sekunden
+                self.after(5000, lambda: self._stt_text_label.configure(text="—"))

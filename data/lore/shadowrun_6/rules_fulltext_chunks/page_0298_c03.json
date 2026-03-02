@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0298_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 298, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 298,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "F ahrzeuge \n und Drohnen\nWir listen hier nicht alle Fahrzeuge und Drohnen auf, die \nes im \n Shadowrun\n-Universum gibt, sondern nur ein paar \nBeispiele. Ihr könnt gerne die Namen oder Spielwerte mo-\ndifizieren, wenn es besser zu euren Vorlieben oder zur \nGeschichte passt. F ahrzeugmodifika tionen\nRiggerinterf ace\nJedes Fahrzeug bei \nShadowrun\n ist mit GridGuide und einem \nautonomen Fahrsystem ausgestattet, sogar Motorräder. Das Riggerinterface erlaubt einem Rigger, in ein Fahrzeug \nhineinzuspringen und das Gefühl zu haben, als wäre er das \nFahrzeug und kein Metamensch. Hände und Füße werden \nzu Rädern, Flügeln oder Rotoren; Sicht, Gehör, Berührung \nund Geschmack werden zu Sensoren; ein hochdrehender \nMotor ist ein rasendes Herz. Alle Drohnen sind standard-\nmäßig mit einem Riggerinterface ausgerüstet, bei Fahrzeu-\ngen muss es zusätzlich eingebaut werden (falls nicht anders \nangegeben). Ohne ein Riggerinterface kann ein Rigger zwar \nein Fahrzeug von seinem Kommandositz aus lenken, aber \ner fühlt sich nicht, als wäre er das Fahrzeug. W affenhal terungen\nFahrzeuge können mit einer Anzahl von Waffenhalte-\nrungen in Höhe ihres nicht verstärkten Rumpfes ÷ 3 \n(abgerundet) ausgestattet werden. Standard-Waffen-\nhalterungen können eine maximal sturmgewehrgroße \nWaffe und 250 Schuss Munition aufnehmen. Schwere \nWaffenhalterungen beanspruchen den Platz von zwei \nStandard-Waffenhalterungen und können jede Art von \nWaffe und bis zu 500 Schuss Gurtmunition oder bis zu \n[Rumpf] (Lenk-)Raketen aufnehmen. Alle Waffenhalte-\nrungen sind ferngesteuert und können einen (vertikalen \nund horizontalen) Feuerbereich von 90 Grad bestreichen.",
+    "topic": "rigger",
+    "keywords": [
+      "fahrzeug",
+      "drohnen",
+      "alle",
+      "einem",
+      "riggerinterface",
+      "standard",
+      "shadowrun",
+      "ausgestattet"
+    ]
+  }
+}

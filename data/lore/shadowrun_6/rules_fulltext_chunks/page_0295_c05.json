@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0295_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 295, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 295,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Symbionten addieren ihre Stufe als Würfelpoolbonus zu \nHeil- und Genesungsproben (für Körperlichen und Betäu-\nbungsschaden) hinzu. Allerdings haben sie auch ungewöhn-\nliche Nahrungsanforderungen, die erfüllt werden müssen, \num sie am Leben zu erhalten. Der Charakter muss pro \nMonat [Stufe × 200] Nuyen für spezielle Symbiontennah-\nrung ausgeben, es sei denn, er hat einen Oberschicht- oder \nbesseren Lebensstil (da ist die Symbiontennahrung schon \ninklusive). Erhalten die Symbionten keine Spezialnahrung, \nsterben sie nach einem Monat. Synthacardium\nEin künstlich verbesserter Herzmuskel führt dazu, dass \nkardiovaskuläre Funktionen effizienter ausgeführt werden, \nwodurch das Herz das Blut besser mit Sauerstoff versorgen \nkann. Das Synthacardium addiert seine Stufe als Würfel-\npoolbonus zu Athletikproben, um zu laufen, zu schwimmen \noder zu klettern. Thrombozytenf abrik\nEine Thrombozytenfabrik steigert die Fähigkeit des Kör-\npers, mit Körperlichem Schaden fertigzuwerden, indem sie \ndie Produktion von Blutplättchen und ihre Konzentration \nim Blut erhöht, was dabei hilft, Blutungen schneller zu \nstoppen. Jedes Mal, wenn der Charakter 2 oder mehr \nKästchen Schaden auf seinem Körperlichen Zustandsmo-\nnitor erleiden würde, wird der Schaden um 1 Kästchen \ngesenkt. Toxinextraktor\nEin speziell kultivierter Zellklumpen in der Leber verbes-\nsert ihre Filterfähigkeiten. Der Toxinextraktor senkt den \nSchwellenwert einer Toxinwiderstandsprobe (s. Toxine und \nDrogen\n, S. 125) um seine Stufe.",
+    "topic": "combat.damage",
+    "keywords": [
+      "stufe",
+      "ihre",
+      "schaden",
+      "symbionten",
+      "koerperlichen",
+      "erhalten",
+      "charakter",
+      "monat"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_04_the_rules_p0059_c04",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_04_the_rules",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The Rules page 59, chunk 4.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_04_the_rules",
+    "source_title": "The Rules",
+    "page": 59,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "raw_text": "vulturecraf, Make a skill roll when: A character performs a difficult maneuver hile driving a vehicle, Modify the character's skill number forthe difficulty of the maneuver the state of the vehicle, and his own mental and physical condition. 4 filed rll may mean an accident. * A player wants to know about a vehicle's capabilities, A successful roll means the character knows the fact in question, \"Yup. This model flybot is equipped with emergen: ¢y eect: A character attempts to repair a vehicle, Modify his skill number for time and tools -nailable, difficulty of repait, and so on A character attempts to booby-trap a vehi- cle, or check to see whether it is booby- trapped. Moxie Skills Biochemical Therapy: Ths sil involves the Understanding of biochemical supplements commonly used in Alpha Complex to alter ‘mood, thought, and physical capacities, Make 2 skill oll when: * A character requests drugs from The Com- puter, Success means the diagnosis is approv fed and drugs distributed; otherwise, the re- ‘quest is denied. A character dispenses drugs. Success means the proper dose is selected, efects are properly understood, and harmful side effects are an-",
+    "topic": "skills",
+    "keywords": [
+      "character",
+      "skill",
+      "vehicle",
+      "means",
+      "drugs",
+      "make",
+      "roll",
+      "when"
+    ]
+  }
+}

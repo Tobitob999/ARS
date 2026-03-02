@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npc",
+  "id": "npc_024",
+  "name": "Mirth-Y-R-24",
+  "tags": [
+    "paranoia_2e",
+    "npc",
+    "roster"
+  ],
+  "summary": "CPU operative with layered loyalties.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "service_group": "CPU",
+    "secret_society": "Sierra Club",
+    "mutation": "Machine Empathy",
+    "trait": "smug",
+    "clearance": "Orange",
+    "use_in_play": "reluctant_ally"
+  }
+}

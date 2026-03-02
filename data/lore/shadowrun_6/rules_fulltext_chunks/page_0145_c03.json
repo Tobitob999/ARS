@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0145_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 145, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 145,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Erfolge bei der Hexereiprobe werden zu seinem Verteidi-\ngungswert und dem Würfelpool für Überraschungsproben \n(siehe S. 110) addiert, solange der Zauber aufrechterhalten \nwird. Leben Entdecken\nREICHWEITE ART DAUER ENTZUG\nB M A 3\nVerstecken sich Leute in diesem Geröllhaufen? Oder im \nWald? Dieser Zauber zeigt sie dir. Trotz des allgemein klin-\ngenden Namens entdeckt er nicht jedes Lebewesen, sondern \nzielt auf Wesen mit Bewusstsein ab. Magie Anal ysieren\nREICHWEITE ART DAUER ENTZUG\nB P A 3\nManchmal will man wissen, was ein bestimmter magi-\nscher Vorgang bewirkt, ohne die Astralebene zu nutzen. Dieser Zauber bietet dieselben Informationen wie das \nAskennen (siehe S. 161), nur dass man dazu nicht astral \nwahrzunehmen braucht. Bei der Vergleichenden Probe für \ndiesen Zauber kommt als Würfelpool der Gegenseite die \ndoppelte Anzahl der Erfolge (nicht Nettoerfolge) bei der \nursprünglichen Probe (Beschwören, Verzaubern oder He-\nxerei) zum Einsatz, die den zu analysierenden magischen \nEffekt erschaffen hat. Feinde Entdecken\nREICHWEITE\n ART\n DAUER\n ENTZUG\nB\n M\n A\n 3\nDieser Zauber lässt den Beobachter wissen, ob jemand \ninnerhalb der Sinnesreichweite ihm gegenüber feindliche \nAbsichten hegt. Das funktioniert nur in Bezug auf Lebe-\nwesen – nicht bei Gegenständen. Der Zauber deckt auch \nnur Feindseligkeit auf, die sich spezifisch gegen den Beob-\nachter richtet, nicht einen generellen Hass auf die gesamte \nMetamenschheit (wäre das so, müsste jeder in einem Slum \nhell aufleuchten). Großartig für das Entdecken von Hin-\nterhalten.",
+    "topic": "magic.spells",
+    "keywords": [
+      "zauber",
+      "entdecken",
+      "reichweite",
+      "dauer",
+      "entzug",
+      "dieser",
+      "erfolge",
+      "wuerfelpool"
+    ]
+  }
+}

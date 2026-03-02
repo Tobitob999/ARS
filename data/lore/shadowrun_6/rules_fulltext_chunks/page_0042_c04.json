@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0042_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 42, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 42,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Wenn eine Spielerin an die Reihe kommt und beschreibt, \nwas ihr Charakter tut, finden dessen Handlungen im Rah-\nmen einer Kampfrunde statt. Eine Kampfrunde entspricht \netwa drei Sekunden im Spieluniversum. Jeder, Spielercha-\nraktere wie Nichtspielercharaktere, ist einmal während \ndieser Kampfrunde an der Reihe. Für jede Kampfrunde erhält ein Charakter eine bestimm-\nte Anzahl an Handlungen zugewiesen, die er verwenden \nkann, wenn er an der Reihe ist. Es gibt zwei Arten von \nHandlungen: Haupthandlungen und Nebenhandlungen. Grundsätzlich bekommt jeder Charakter 1 Nebenhand-\nlung und 1 Haupthandlung pro Kampfrunde zugewiesen. Die Initiative besteht aus zwei Komponenten: Die erste \nZahl ist der \n Initiativewert\n, der sich aus der Summe der \nReaktion und der Intuition ergibt (er kann durch andere \nFaktoren wie etwa Bodytech noch erhöht werden). Die \nzweite Komponente sind die \nInitiativewürfel\n, eine Anzahl \nW6, die die Spielerin zu Beginn eines Kampfes wirft, um \nihr Initiativeergebnis zu bestimmen. In diesem Fall zählt die \nSpielerin nicht die Erfolge, sondern addiert die Augen auf \nihren Initiativewürfeln zu ihrem Initiativewert und erhält \nso das \n Initiativeergebnis\n für diesen Kampf. Die Anzahl \nder Initiativewürfel eines Charakters beginnt bei 1 und \nkann durch Modifikationen, Zauber oder andere Effekte \nerhöht werden. Ein Charakter kann niemals mehr als 5W6 \nInitiativewürfel haben. Angriffswert\nWenn ein Charakter in die Offensive geht, hat seine Waffe \neine Kombination aus Eigenschaften, die ihre Effektivi-\ntät bestimmt.",
+    "topic": "combat",
+    "keywords": [
+      "charakter",
+      "kampfrunde",
+      "spielerin",
+      "reihe",
+      "handlungen",
+      "anzahl",
+      "initiativewuerfel",
+      "etwa"
+    ]
+  }
+}

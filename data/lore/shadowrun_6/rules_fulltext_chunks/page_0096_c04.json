@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0096_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 96, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 96,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Das Primärat-\ntribut der Fertigkeit ist in der Beschreibung angegeben. Wenn die Fertigkeit zudem über ein sekundäres verknüpftes \nAttribut verfügt, ist auch dieses angegeben. In der Liste ist weiterhin vermerkt, ob eine Fertigkeit \nungeübt\n angewendet werden kann oder nicht. Wichtig: \nBeim ungeübten Einsatz einer Fertigkeit würfelst du auf \n[verknüpftes Attribut – 1]. Astral\nSpezialisierungen:\n Astrale Signaturen, Astralkampf, Ge-\nfühlszustände, Geisterarten\nUngeübt:\n Nein\nPrimärattribut:\n Intuition\nSekundärattribut: \nWillenskraft (für Astralkampf)\nDiese Fertigkeit kann nur von Voll- und Aspektzauberern \nsowie von Adepten und Magieradepten, die die Adepten-\nkraft Astrale Wahrnehmung beherrschen, eingesetzt werden. Sie verfügt über zwei hauptsächliche Einsatzgebiete – zum \neinen das Askennen astraler Auren (siehe S. 161), zum \nanderen den Astralkampf (siehe S. 162). A thletik\nSpezialisierungen:\n Akrobatik, Entfesseln, Fliegen, Freier Fall, \nKlettern, Projektilwaffen, Schwimmen, Sprinten, Tauchen, \nWerfen\nUngeübt:\n Ja\nPrimärattribut:\n Geschicklichkeit\nSekundärattribut:\n Stärke (bei Proben, bei denen es zusätz-\nlichen Widerstand zu überwinden gilt, wie beispielsweise \nbeim Rennen durch Schlamm o./uni00A0Ä.)\nDie Fertigkeit Athletik umfasst alles, was mit körperlicher \nLeistungsfähigkeit und Anmut zu tun hat. Als vielseitig ver-\nwendbare Fertigkeit kann Athletik auf unterschiedliche Art \nund Weise eingesetzt werden. Sie kommt bei Sprinten- Proben \n(S. 45) und beim Ausweichen (S. 42) zum Einsatz und ist \nim Fall von Projektil- und Wurfwaffen auch eine Angriffs-\nfertigkeit.",
+    "topic": "combat",
+    "keywords": [
+      "fertigkeit",
+      "ungeuebt",
+      "beim",
+      "astralkampf",
+      "angegeben",
+      "verknuepftes",
+      "attribut",
+      "verfuegt"
+    ]
+  }
+}

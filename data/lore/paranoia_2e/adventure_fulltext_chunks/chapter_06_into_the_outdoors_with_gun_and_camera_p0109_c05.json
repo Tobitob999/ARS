@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "category": "adventure_chunk",
+  "id": "chapter_06_into_the_outdoors_with_gun_and_camera_p0109_c05",
+  "tags": [
+    "paranoia_2e",
+    "adventure",
+    "injection_chunk",
+    "chapter_06_into_the_outdoors_with_gun_and_camera",
+    "chapter"
+  ],
+  "summary": "Adventure chunk from Into the Outdoors with Gun and Camera page 109, chunk 5.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_06_into_the_outdoors_with_gun_and_camera",
+    "source_title": "Into the Outdoors with Gun and Camera",
+    "page": 109,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "adventure",
+    "raw_text": "srup, Various other service groups and secret Societies with axes to grind threw in with HPD & MC along the way. The final mission group personnel repre sents a patchwork of uneasy alliances and secret pacts among many interest groups. The personnel themselves, of course, are expen dable, justin case something goes wrong and HPD & MC and the other groups need to disavow any knowledge of the operation. 109"
+  }
+}

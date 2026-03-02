@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0121_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 121, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 121,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Die vier Eye-Fivers erleiden jeweils 7 Kästchen Schaden \nund geben den Kampf auf. Gasangriffe\nGasangriffe haben drei Regelwerte: Radius, Konzentration \nund Schadenswert. Sie breiten sich aus, verlieren im Zuge \ndessen an Effektivität und wirken über einen längeren Zeit-\nraum. Das Gas hat einen Konzentrationswert, der sich in \neinem Radius auswirkt und die Effektivität verstärkt, aber \nnicht davon aufgehalten oder verlangsamt wird, sich um \nBarrieren herum zu bewegen. Wenn das Gas einen Raum \nmit mangelhafter Belüftung füllt, baut sich die Konzent-\nration auf. Die Verteilung des Gases hängt von der vergangenen \nZeit und der Entfernung vom Freisetzungspunkt ab. Der \nWert Radius gibt an, wo das Gas seine volle Wirkung ent-\nfaltet. Über diesen Radius hinaus sinkt die Wirkung – auf \ndie Hälfte, auf ein Viertel oder auf null. Hier wird immer \nabgerundet. Die Tabelle \nRadius, Wirkung und Dauer von \nGasangriffen\n gibt an, wo das Gas eine Wirkung hat, wie \nstark sie ist und wie lange sie anhält. Die Kampfrunden, \ndie in dieser Tabelle angegeben sind, beziehen sich auf \ndie Anzahl an Kampfrunden nach dem Einschlag des \nersten Angriffs. Wenn der Gasangriff durch eine massive Barriere auf-\ngehalten wird, baut sich die Konzentration in den ersten \n5 Runden bis zur vollen Wirkung auf und sinkt erst in \nRunde 9 und 10. Wenn das Gas in einem versiegelten \nBereich aufgehalten wird, baut sich die Konzentration \nbis Runde 5 auf und sinkt nicht, bis es in Runde 11 seine \nWirkung verliert. Beispiel: \nGasgrana te\nEs war wieder einer dieser Tage für Oda, und er ﬁ ndet \nsich mitten in einer Demonstration auf der Straße wieder.",
+    "topic": "combat.attack",
+    "keywords": [
+      "sich",
+      "wirkung",
+      "radius",
+      "konzentration",
+      "einen",
+      "baut",
+      "sinkt",
+      "runde"
+    ]
+  }
+}

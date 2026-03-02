@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "category": "operation_profile",
+  "id": "service_op_04",
+  "name": "Armed Forces Operation Profile 04",
+  "tags": [
+    "paranoia_2e",
+    "service_group",
+    "operation"
+  ],
+  "summary": "Operational doctrine for Armed Forces under stress.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "service_group": "Armed Forces",
+    "mission_bias": "security",
+    "standard_assets": [
+      "red_reflec_armor",
+      "multicorder",
+      "com_unit_i"
+    ],
+    "political_risk": "low"
+  }
+}

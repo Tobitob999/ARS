@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_03_world_of_paranoia_p0036_c01",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_03_world_of_paranoia",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The World of Paranoia page 36, chunk 1.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_03_world_of_paranoia",
+    "source_title": "The World of Paranoia",
+    "page": 36,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "PARANOIA \nAll characters are bor and raised as citizens of Alpha Complex —a gigantic, self-conjained Underground (and underwater) urban com: pilex, The Computer watches aver the citizens ff Alpha Complex and provides for their every need. The citizens of Alpha Complex are therefore happy — so happy they can barely stand it \nBirth, Childhood, and Adolescence {All human citizens are brought into the world by the technicians of the clone banks. Under the careful scrutiny of The Computer, centuries-old precepts of genetic engineering, established in the venerable core programm: ing are applied to produce ever-more-suitabl Citizens, Ancient stocks of genetic material are supplemented by sperm and egg samples, taken from selected citizens with desirable traits ‘Most citizens are unaware of the human capacity for biological reproduction, The City’s food contains hormone suppressants and other biochemical supplements which cause temporary sterility and eliminate lustul im pulses, Citizens receive no official sexual in- struction or training, so any such knowledge is obviously acquired through teasonous channels. The Computer avoids public pro- \nouncements on this subject, but it discour ‘ages unauthorized sexual contact through routine surveillance, Computer interviews, and long cold showers Both sex and natura childbith are extremely rare, but not impossible. Citizens who venture into the Outdoors may be deprived of food. (and drugs) from Alpha Complex. After a time, the hormane suppressants and sterilization agents wear off, and sex and pregnancy may ‘occur Also, natural birth and traditional family ‘organization may prevail in.",
+    "topic": "races",
+    "keywords": [
+      "citizens",
+      "alpha",
+      "complex",
+      "computer",
+      "happy",
+      "birth",
+      "human",
+      "into"
+    ]
+  }
+}

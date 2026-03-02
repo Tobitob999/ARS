@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0277_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 277, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 277,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Sichtverst ärkungen\nVERSTÄRKUNG\n KAPAZITÄTS-\nKOSTEN\nVERFÜG-\nBARKEIT\n PREIS\nBildverbindung\n [1]\n 1\n +25 ¥\nBlitzkompensation\n [1]\n 1\n +250 ¥\nInfrarotsicht\n [1]\n 2\n +500 ¥\nRestlichtverstärkung\n [1]\n 2\n +500 ¥\nSichtverbesserung\n [2]\n 1\n +500 ¥\nSichtvergrößerung\n [1]\n 1\n +250 ¥\nSmartlink\n [2]\n 2\n +2.000 ¥\nUltraschallverbindung\n [1]\n 1\n +300 ¥\nOhrstöpsel\nOhrstöpsel\nOhrstöpsel\nRichtmikrofon\nMit diesem Mikrofon kann man Unterhaltungen in bis zu \n100 Metern Entfernung belauschen. Das Mikrofon muss \nauf das gewünschte Abhörziel gerichtet sein, und feste \nObjekte oder laute Geräusche innerhalb der Abhörlinie \nstören den Effekt. SHADOWRUN: SECHSTE EDITION\n276 // Ausrüstung // AUDIOGERÄ TE & -VERST ÄRKUNGEN",
+    "topic": "economy",
+    "keywords": [
+      "ohrstoepsel",
+      "aerkungen",
+      "mikrofon",
+      "sichtverst",
+      "verstaerkung",
+      "kapazitaets",
+      "kosten",
+      "verfueg"
+    ]
+  }
+}

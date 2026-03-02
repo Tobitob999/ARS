@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_05_gamemastering_paranoia_p0105_c02",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_05_gamemastering_paranoia",
+    "chapter"
+  ],
+  "summary": "Rule chunk from Gamemastering Paranoia page 105, chunk 2.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_05_gamemastering_paranoia",
+    "source_title": "Gamemastering Paranoia",
+    "page": 105,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "clown is 6, so Gone-R’s weapon skill is6 \nAttribute Rolls: Atribute rolls used to use a different system. If an adventure say make this ‘make this modify the kind of kind of characters tribute attribute roll or roll \nextremely easy 110 easy 2010 dificult 3010 very dificult 4010 outrageous 510 \nand then make an attribute roll against the ‘modified attribute number. Example: The adventure says “make an easy attribute roll” for \"make a 2010 attribute rll.” Instead, just roll against the character’s unmodified at tribute to see whether he succeeds oF not \nChecks: Adventures sometimes say “make an attribute check\" or \"make a skill check.” \n‘Check’ is just the old term for “roll.” Make an attute or skill roll instead. Armor and Laser Barrel Colors: We used to have a complex system whereby armor and barrels came in multiple colors, So you may see something like “1 ROY reflec armor.” That ‘means the armor was supposed to reflect Red, ‘Orange and Yellow laser fire, but not higher levels, Well, gosh — thats the same thing that Yellow reflec does in the new version of the game, So just look at the rightmost color in the description of reflec armor or laser barrels in this case, “V\" for Yellow. That's the ac tual color of the iter, \nPregenerated Characters \n‘Okay, that’s all you need to understand 0 hhandle all of the problems that arise in the main text of an adventure. However, in the ‘middle of each adventure, you'l find a pull ‘out printed with pregenerated player characters, Almost everything printed on these sheets is mechanics stuf, So alot of it needs to be modified ‘Modifying PCs isa bit of a pain.",
+    "topic": "combat",
+    "keywords": [
+      "make",
+      "attribute",
+      "roll",
+      "armor",
+      "adventure",
+      "skill",
+      "characters",
+      "easy"
+    ]
+  }
+}

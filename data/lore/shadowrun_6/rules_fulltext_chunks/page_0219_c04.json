@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0219_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 219, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 219,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Schreckhähne sind weltweit als Sicherheitscritter beliebt. Dabei werden sie gleich beim Schlüpfen auf ihren Abrichter \ngeprägt, den sie bis an ihr Lebensende verbissen schützen. Natürlicher Lebensraum/Verbreitung:\n Der ursprünglich \naus offenem Gras- und Buschland in Westeuropa stammen-\nde Schreckhahn ist mittlerweile weltweit in unterschied-\nlichsten Lebensräumen zu finden. Schreckhahn\nK\n G\n R\n S\n W\n L\n I\n C\n M\n ESS\n3\n 4\n 3\n 3\n 3\n 1\n 2\n 1\n 5\n 6\nInitiative:\n 5 + 2W6\nHandlungen:\n 1 Haupt, 3 Neben\nZustandsmonitor:\n 10\nVerteidigungswert:\n 4\nBewegung:\n 10/25/+2\nFertigkeiten:\n Athletik 7, Heimlichkeit 5, Nahkampf 7, Wahr-\nnehmung 3\nKräfte:\n Immunität (eigene Berührung), Lähmende Berührung \n(Schwanz), Natürliche Waffe, Panzer 1\nAngriff:\n Klauen: Schaden 2K, Angriffswerte 6/–/–/–/–\nTeufelsra tte/\nDämonenra tte/Pechra tte\nDie Teufelsratte ist komplett haarlos und erreicht inklusive \nSchwanz etwa einen Meter Länge. Ihr Gewicht bewegt \nsich normalerweise irgendwo zwischen drei und vier Kilo-\ngramm.",
+    "topic": "combat.initiative",
+    "keywords": [
+      "weltweit",
+      "schreckhahn",
+      "beruehrung",
+      "schwanz",
+      "schreckhaehne",
+      "sicherheitscritter",
+      "beliebt",
+      "dabei"
+    ]
+  }
+}

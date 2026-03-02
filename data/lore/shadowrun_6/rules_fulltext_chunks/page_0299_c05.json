@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0299_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 299, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 299,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Seit andere Hersteller von Luxusautos \nsich Ingenieure und Konstruktionsunterlagen von Eurocar \nunter den Nagel gerissen haben, ist die Konkurrenz größer ge-\nworden, daher brachte der Konzern das Modell X80 auf den \nMarkt, das die Grenzen der Leistungsfähigkeit und dessen, \nwas auf der Straße noch legal ist, bis aufs Äußerste auslotet. Eurocar Westwind X80\nEurocar Westwind X80\nEurocar Westwind X80\nSHADOWRUN: SECHSTE EDITION\n298 // Ausrüstung // F AHRZEUGE UND DROHNEN",
+    "topic": "rigger",
+    "keywords": [
+      "eurocar",
+      "westwind",
+      "seit",
+      "andere",
+      "hersteller",
+      "luxusautos",
+      "sich",
+      "ingenieure"
+    ]
+  }
+}

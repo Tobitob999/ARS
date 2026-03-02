@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_01_paranoia_for_players_p0022_c03",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_01_paranoia_for_players",
+    "chapter"
+  ],
+  "summary": "Rule chunk from Paranoia for Players page 22, chunk 3.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_01_paranoia_for_players",
+    "source_title": "Paranoia for Players",
+    "page": 22,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "Go t0 33 \nMas Joshua-R's toolkit contains nothing unusual. Edith-O's toolkit immediately starts beeping ‘when you touch it. The voice inthe next room stops instantly, it you ty to silence the alarm using your mechanical engineering skill, go to 37 if you Teave the room immediately, goto 54 \n[arya a You have been assigned Experimental Ant Personnel Device X324-09. It is called a neurostunne. Its used like a laser pistol. It requires less skill to target than a laser pistol. ‘You will be rewarded for your loyalty to The Computer Record the serial number of the experimen- tal device on your character sheet. The device has no user's manual. Do you ask for more information on the device? If yes, go to 38. I n0, Bo to 20, \n| Yana Sime \n‘This paragraph is not part of the solitaire adventure. Therefore, if you are reading this {ou have not followed The Computer's instruc tions. Give yourself 1 treason point. M28 \nYou duck Joshua and almost make it to the door. A searing pain flashes through your chest. You fll tothe ground. As the light seems \n2",
+    "topic": "skills",
+    "keywords": [
+      "device",
+      "joshua",
+      "toolkit",
+      "immediately",
+      "room",
+      "skill",
+      "laser",
+      "pistol"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_04_the_rules_p0061_c02",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_04_the_rules",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The Rules page 61, chunk 2.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_04_the_rules",
+    "source_title": "The Rules",
+    "page": 61,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "raw_text": "‘The Computer's Response: Break down of probabilities: * Probability One — (Classified): 65% Probability Two — (Classified): 23% Probability Three — They met with over whelming opposition from traitors: 10% * Probability Four — They are lost: 2% ‘The Computers Thinking: Here’ whats real ly going on in the mind of The Computer. There is a 65% chance that the Trouble shooters have killed each other in a typical Paranoia snafu and bloodbath, There is a 23% chance that the area in question is inhabited by traitors, and. that some or all of the ‘Troubleshooters have joined the traitors. The ‘Computer suppresses these unpleasant details to avoid frightening the character (and to avoid siving him unhealthy ideas) Fear and ignorance, Data Search: This skill is used to retrieve in- formation from databases, find poorly catalogued information, evade security Clearance restrictions on information, etc ‘Make a skill roll when a character tequests information directly through Computer ter mminals or data links.",
+    "topic": "classes",
+    "keywords": [
+      "computer",
+      "probability",
+      "traitors",
+      "information",
+      "classified",
+      "they",
+      "there",
+      "chance"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "appendix_02_foldout_b_gamemaster_charts_p0147_c01",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "appendix_02_foldout_b_gamemaster_charts",
+    "appendix"
+  ],
+  "summary": "Rule chunk from Fold-Out B: Gamemaster Charts page 147, chunk 1.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "appendix",
+    "source_id": "appendix_02_foldout_b_gamemaster_charts",
+    "source_title": "Fold-Out B: Gamemaster Charts",
+    "page": 147,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "PC# A: \nMutant Power(s \nAttributes Strength \n= | Asilty = | Chutzpah Dexterity Endurance Mechanical Apt — Moxie Power. Mutant Power(s): \nEd-R-MRO-1 \nSecret Society: PSION \nSecret Society Rank: 1 \nPyrokinesis (registered), Telepathy (unregistered) \n10 \nPC# 2: Steve-R-STN-1 \nSecret Society: Sierra Club \nSecret Society Rank: 1 \nSkill Bases!Bonuses Macho Bonus 0 Damage Bonus — 0 Canying Cap. 25 \nSkill Bases 2 1 2 \n2 3 \nEnergy Field \nAttributes Skill Bases!Bonuses Strength 20. Macho Bonus 2 \nMutant Powers): \nLevitate \nsccrbites =gh__16 \npechanical ADL \nPARANOIA \nagility a9 rutzpah 11 Dexterity. 3 ndurance 15 sechanical Apt — 4 toxie 5 Power. 7 \nPC# 3: Mick-RTHY-2 \nSecret Society: Free Enterprise \nSecret Society Rank: 1 \n8 7 \nDamage Bonus 2 Carrying Cap. 65 \nSkill Bases/Bonuses Macho Bonus 1 Damage Bonus —— 1 Canying Cap. 45 \nSkill Bases \nBackground: \"Uh, excuse me, What were we talk- ing about? Oh, yeab. | was just, jus, juss * Zane, “What? What? Oh. Sorry about that, you stat ted me. Here, let me help you... Say, daes anybody kknow if there's a burn unit around here?” Being a registered mutant isnt easy. People star- ing and cursing at you; your superiors at HPD & MC ignoring you for months at atime or giving you the most dangerous assignments; and the weird ‘medicines those psychos in R&D Mutant Studies keep testing on you, Ler’s face it: Lite sucks, But then again, the alternative doesn't look so ‘800d either. So you'll put up with the abuse, and maybe occasionally even get alittle of your own back on the others.",
+    "topic": "combat.damage",
+    "keywords": [
+      "secret",
+      "society",
+      "bonus",
+      "mutant",
+      "skill",
+      "bases",
+      "power",
+      "rank"
+    ]
+  }
+}

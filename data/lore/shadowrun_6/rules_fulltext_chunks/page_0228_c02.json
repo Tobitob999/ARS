@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0228_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 228, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 228,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Eine erfolgreiche Probe bedeutet, dass \ndas versteckte Ziel von diesem Charakter gesehen wird, bis \nder Critter es wieder verstecken kann oder der Charakter \ndas nächste Mal an der Reihe gewesen ist (je nachdem, \nwas später kommt). Die Verschleierung kann gleichzeitig auf eine Anzahl Ziele \nvon durchschnittlicher Metamenschengröße (Konstituti-\non bis 5; Konstitution über 5 zählt als zwei Zielobjekte) \nangewendet werden, die dem Magieattribut des Critters \nentspricht, oder auf eine Anzahl sehr viel kleinerer Objekte \n(Katzen, Babys, Ratten usw.), die dem Magieattribut × 5 \ndes Critters entspricht. Verschleierte Zielobjekte können \neinander sehen, wenn der Critter es erlaubt. Die Wirkung \nhält an, bis der Critter aufhört, die Kraft aufrechtzuerhalten. Verschlingen\nART HANDLUNG REICHWEITE DAUER\nP H B Aufrechterhalten\nDiese Kraft ermöglicht einem Critter, ein Opfer in sich selbst \noder in das von ihm beherrschte Terrain hineinzuziehen, es \nzu verschlingen oder zu ersticken und ihm dadurch Schaden \nzuzufügen. Es handelt sich um einen Nahkampfangriff mit \neinem Schadenswert von (Magie)K (Schadensart) sowie \nspeziellen Auswirkungen je nach Element; der Angriffswert \nerhöht sich um die Magie des Critters, und der Critter hält \ndas Opfer fest umschlungen. Nettoerfolge bei der Nah-\nkampfprobe erhöhen den Schaden wie üblich, und das Op-\nfer kann eine normale Schadenswiderstandsprobe ablegen. Aber selbst wenn das Opfer sämtlichen Schaden abwendet, \nbleibt es trotzdem umschlungen und befindet sich im Sta-\ntus Bewegungsunfähig.",
+    "topic": "magic",
+    "keywords": [
+      "critter",
+      "sich",
+      "opfer",
+      "schaden",
+      "charakter",
+      "anzahl",
+      "zielobjekte",
+      "magieattribut"
+    ]
+  }
+}

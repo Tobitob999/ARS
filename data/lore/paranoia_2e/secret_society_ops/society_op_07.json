@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0.0",
+  "category": "covert_agenda",
+  "id": "society_op_07",
+  "name": "Mystics Covert Agenda 07",
+  "tags": [
+    "paranoia_2e",
+    "secret_society",
+    "covert"
+  ],
+  "summary": "Hidden objective package used by Mystics cells.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "society": "Mystics",
+    "goal": "sabotage_audit",
+    "cover_story": "morale_campaign",
+    "blowback": "clearance_demotion"
+  }
+}

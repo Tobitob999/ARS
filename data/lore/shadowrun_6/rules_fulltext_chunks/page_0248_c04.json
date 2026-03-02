@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0248_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 248, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 248,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Immer \nwenn ein Zwerg oder Troll einen Gegenstand benutzt, \nder nicht entsprechend modifiziert ist, erleidet er einen \nWürfelpoolmalus von -2 auf alle Handlungen mit diesem \nGegenstand – Panzerung lässt sich nicht richtig schließen, \nWaffen lassen sich nicht richtig halten, Kommlinks nicht \nso leicht benutzen usw. Nahkampfw affen\nWillkommen im Land der Nahkampffertigkeit. Die hier \naufgeführten Waffen reichen von den klassischen, einfachen \nund primitiven Kampfwerkzeugen bis hin zu den eleganten \nfuturistischen Designs der schlauen Köpfe bei Evo, aber sie \nalle richten ihren Schaden direkt und brutal an. Klingenw affen\nScharfe Schneiden machen den tödlichen Vorteil all der \nWaffen aus, die eine Klinge haben. Rohe Kraft kann nütz-\nlich sein, aber ein eleganter Stil ist ebenso effektiv, wenn \nman ein rasiermesserscharfes Instrument in Händen hält. Kampf axt\nOb du nun Neal, der Feuerwehrmann, oder Neil, der Ork-\nbarbar, bist – eine Axt kann ein Werkzeug oder eine tödliche \nWaffe sein. Die Kampfaxt hat eine einfache oder doppelte \nKlinge und eine gehärtete, mit einer Sprungfeder versehene \nStoßspitze am Stielende, um Glasscheiben einzuschlagen \noder dem Gegner eine unangenehme Überraschung zu \nbereiten. In den übermuskulösen Händen eines Straßen-\nkämpfers der 2080er kann diese Waffe tödlicher sein als \neine Feuerwaffe.",
+    "topic": "combat",
+    "keywords": [
+      "waffen",
+      "sein",
+      "einen",
+      "gegenstand",
+      "alle",
+      "sich",
+      "richtig",
+      "affen"
+    ]
+  }
+}

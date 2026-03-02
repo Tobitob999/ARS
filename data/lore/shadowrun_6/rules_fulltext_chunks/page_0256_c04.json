@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0256_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 256, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 256,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Remington Roomsweeper\nIhr doppelter Lauf und der Pistolengriff lassen sofort er-\nahnen, dass es Ärger gibt, wenn sie aus der Tasche gezogen \nwird. Wer kein Fan von Flechettemunition ist, lädt Munition \nfür schwere Pistolen in die Roomsweeper und erhält eine \nziemlich ungenaue Handkanone. Maschinenpistolen\nWAFFE\n SCHADEN\n MODUS\n ANGRIFFSWERTE\n MUNITION\n VERFÜGBARKEIT\n PREIS\nColt Cobra TZ-100\n 3K\n HM/SM\n 9/9/6/–/–\n 32(s)\n 2L\n 730 ¥\nColt Cobra TZ-110\n 3K\n HM/SM\n 10/10/7/–/–\n 32(s)\n 2L\n 785 ¥\nColt Cobra TZ-120\n 3K\n HM/SM\n 10/10/7/–/–\n 32(s)\n 3L\n 840 ¥\nFN P93 Praetor\n 4K\n HM/SM/AM\n 9/12/7/–/–\n 50(s)\n 4L\n 925 ¥\nHK-227\n 3K\n HM/SM\n 10/11/8/–/–\n 28(s)\n 3L\n 825 ¥\nIngram Smartgun XI\n 3K\n HM/SM\n 11/9/6/–/–\n 32(s)\n 3L\n 750 ¥\nSCK Modell 100\n 3K\n HM/SM\n 10/10/7/–/–\n 30(s)\n 3L\n 725 ¥\nUzi V\n 3K\n HM/SM/AM\n 8/8/7/–/–\n 24(s)\n 2L\n 455 ¥\nSchrotflinten\nWAFFE\n SCHADEN\n MODUS\n ANGRIFFSWERTE\n MUNITION\n VERFÜGBARKEIT\n PREIS\nDeﬁ ance T-250\n 4K\n EM/HM\n 7/10/6/–/–\n 5(i)\n 2L\n 330 ¥\nDeﬁ ance T-250 kurz\n 3K\n EM/HM\n 8/8/4/–/–\n 5(i)\n 2L\n 330 ¥\nMossberg CMDT\n 4K\n HM/SM\n 4/11/7/–/–\n 10(s) o. 24(t)\n 4L\n 700 ¥\nPJSS Modell 55\n 4K\n HM/\nSM(kurz)\n 3/12/8/–/–\n 2(k)\n 5L\n 825 ¥\nRemington Roomsweeper\nRemington Roomsweeper\nRemington Roomsweeper\nSHADOWRUN: SECHSTE EDITION\nFEUERW AFFEN // Ausrüstung // 255",
+    "topic": "combat.attack",
+    "keywords": [
+      "roomsweeper",
+      "remington",
+      "munition",
+      "colt",
+      "cobra",
+      "waffe",
+      "schaden",
+      "modus"
+    ]
+  }
+}

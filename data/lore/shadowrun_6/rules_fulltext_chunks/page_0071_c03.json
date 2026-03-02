@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0071_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 71, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 71,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Verteidigungswert\nDieser Wert gibt an, wie gut du im Kampf einen Schlag \nwegstecken oder dafür sorgen kannst, dass er dich nicht \nwirklich trifft. Er ergibt sich aus der Addition von Kons-\ntitution + dem Verteidigungswertbonus durch Panzerung. Einige Vor- und Nachteile sowie Bodytech und/oder Magie \nkönnen sich darauf auswirken. Initia tive\nInitiative wird verwendet, um im Kampf festzustellen, wer \nzuerst handelt. Die Basis bildet die Summe aus Reaktion + \nIntuition; dazu kommt noch eine Anzahl von Initiativewür-\nfeln. Zu Beginn besitzt ein Charakter 1 Initiativewürfel; \ndiese Anzahl kann aber durch Modifikationen erhöht wer-\nden. Aufgeschrieben würde die Initiative eines Charakters \nmit Reaktion 4 und Intuition 5 und ohne Modifikationen \nso aussehen: 9 + 1W6. St artkapit al\nHast du noch Geld von der Charaktererschaffung übrig? Großartig. Das ist dein Startkapital. Wenn es mehr als \n5.000 Nuyen beträgt, kauf noch etwas ein (zum Beispiel \neinen Lebensstil), weil du nicht mehr als 5.000 Nuyen ins \nSpiel mitnehmen kannst. Wenn es weniger ist, dann leg los \nund verdiene etwas mehr! Beispiel: Der letzte Schliff\nTom und Alyson wählen zuerst die Connections sowie \nWissens- und Sprachfertigkeiten ihrer Charaktere aus. Toms Zauberer hat 12 Punkte für Connections und kann \n4 Wissens- und Sprachfertigkeiten auswählen. Tom ent-\nscheidet sich für einen Taliskrämer (Einﬂ ussstufe 2, \nLoyalitätsstufe 2), einen Schieber (Einﬂ ussstufe 2, Loya-\nlitätsstufe 2) und einen magischen Heiler (Einﬂ ussstufe \n2, Loyalitätsstufe 2). Als Wissensfertigkeiten wählt er \nCombatbiking, Geister und Magietheorie aus, dazu die \nSprachfertigkeit Sperethiel 1.",
+    "topic": "combat.initiative",
+    "keywords": [
+      "einen",
+      "sich",
+      "noch",
+      "mehr",
+      "ussstufe",
+      "kampf",
+      "kannst",
+      "durch"
+    ]
+  }
+}

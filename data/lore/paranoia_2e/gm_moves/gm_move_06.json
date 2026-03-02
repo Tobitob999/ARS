@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "category": "gm_move",
+  "id": "gm_move_06",
+  "name": "Escalate clearance protocol",
+  "tags": [
+    "paranoia_2e",
+    "gm_tools"
+  ],
+  "summary": "Escalate clearance protocol",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "timing": "debrief",
+    "effect": "punish_stall",
+    "counterplay": "frame_rival"
+  }
+}

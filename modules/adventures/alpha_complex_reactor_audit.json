@@ -1,0 +1,204 @@
+{
+  "schema_version": "1.0.0",
+  "id": "alpha_complex_reactor_audit",
+  "name": "Alpha Complex Reactor Audit",
+  "summary": "A routine audit that spirals into sabotage, clone churn, and contradictory orders.",
+  "compatible_rulesets": [
+    "paranoia_2e"
+  ],
+  "locations": [
+    {
+      "id": "briefing_room_red_7",
+      "name": "Briefing Room RED-7",
+      "description": "The Computer assigns impossible objectives and warns against knowing too much.",
+      "atmosphere": "sterile, cheerful, threatening",
+      "npcs_present": [
+        "officer_harmonia",
+        "intsec_monitor"
+      ],
+      "exits": [
+        "rnd_checkout",
+        "transit_lock"
+      ]
+    },
+    {
+      "id": "rnd_checkout",
+      "name": "R&D Checkout Bay",
+      "description": "Experimental hardware is issued with mutually incompatible instructions.",
+      "atmosphere": "noisy, rushed, unstable",
+      "npcs_present": [
+        "rnd_technician"
+      ],
+      "exits": [
+        "reactor_corridor",
+        "briefing_room_red_7"
+      ]
+    },
+    {
+      "id": "reactor_corridor",
+      "name": "Reactor Corridor 3",
+      "description": "Security checkpoints, false alarms, and hidden sabotage signs.",
+      "atmosphere": "flickering, tense, bureaucratic",
+      "npcs_present": [
+        "sec_guard_pair"
+      ],
+      "exits": [
+        "reactor_core",
+        "maintenance_duct",
+        "rnd_checkout"
+      ]
+    },
+    {
+      "id": "reactor_core",
+      "name": "Reactor Core Platform",
+      "description": "Critical failures trigger countdown events and loyalty tests.",
+      "atmosphere": "hot, loud, chaotic",
+      "npcs_present": [
+        "core_supervisor"
+      ],
+      "exits": [
+        "debrief_chamber",
+        "reactor_corridor"
+      ]
+    },
+    {
+      "id": "debrief_chamber",
+      "name": "Debrief Chamber",
+      "description": "Survivors are rewarded, blamed, and recycled.",
+      "atmosphere": "formal, accusatory, absurd",
+      "npcs_present": [
+        "officer_harmonia",
+        "intsec_monitor"
+      ],
+      "exits": []
+    }
+  ],
+  "npcs": [
+    {
+      "id": "officer_harmonia",
+      "name": "Officer Harmonia-R-7",
+      "role": "HPD & MC Liaison",
+      "description": "Smiling bureaucrat with lethal paperwork."
+    },
+    {
+      "id": "intsec_monitor",
+      "name": "Monitor Vex-R-INT",
+      "role": "Internal Security Observer",
+      "description": "Collects statements and contradictions."
+    },
+    {
+      "id": "rnd_technician",
+      "name": "Patch-O-RND",
+      "role": "R&D Issuing Tech",
+      "description": "Insists every malfunction is user error."
+    },
+    {
+      "id": "sec_guard_pair",
+      "name": "PLC Guard Pair",
+      "role": "Checkpoint Security",
+      "description": "Follows protocol until bribed by authority cues."
+    },
+    {
+      "id": "core_supervisor",
+      "name": "Coremaster-Y-3",
+      "role": "Reactor Operator",
+      "description": "Demands impossible simultaneous tasks."
+    }
+  ],
+  "flags": {
+    "mission_assigned": false,
+    "prototype_issued": false,
+    "sabotage_discovered": false,
+    "reactor_stabilized": false,
+    "false_traitor_executed": false,
+    "team_fragmented": false,
+    "core_meltdown": false,
+    "debrief_complete": false
+  },
+  "clues": [
+    {
+      "id": "clue_forged_work_order",
+      "name": "Forged Work Order",
+      "location_id": "reactor_corridor",
+      "description": "Maintenance order signed with wrong clearance code.",
+      "reveals": [
+        "sabotage_discovered"
+      ]
+    },
+    {
+      "id": "clue_overclocked_coolant",
+      "name": "Overclocked Coolant Settings",
+      "location_id": "reactor_core",
+      "description": "Controller values exceed safe operational limits.",
+      "reveals": [
+        "sabotage_discovered",
+        "core_meltdown"
+      ]
+    },
+    {
+      "id": "clue_missing_seal",
+      "name": "Broken Security Seal",
+      "location_id": "rnd_checkout",
+      "description": "Prototype case opened before mission issuance.",
+      "reveals": [
+        "prototype_issued"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "event_briefing",
+      "trigger": "enter:briefing_room_red_7",
+      "description": "The Computer issues three contradictory objectives.",
+      "sets_flag": "mission_assigned"
+    },
+    {
+      "id": "event_prototype_issue",
+      "trigger": "first_visit:rnd_checkout",
+      "description": "R&D hands over an unstable diagnostic drone.",
+      "requires_flag": "mission_assigned",
+      "sets_flag": "prototype_issued"
+    },
+    {
+      "id": "event_alarm_spike",
+      "trigger": "turn:6",
+      "description": "Sector alarm escalates to orange; IntSec demands immediate arrests.",
+      "sets_flag": "team_fragmented"
+    },
+    {
+      "id": "event_core_resolution",
+      "trigger": "reactor_action",
+      "description": "Final technical/social resolution at the reactor controls.",
+      "requires_flag": "sabotage_discovered",
+      "sets_flag": "reactor_stabilized"
+    },
+    {
+      "id": "event_debrief",
+      "trigger": "enter:debrief_chamber",
+      "description": "Debrief allocates promotions and treason penalties.",
+      "sets_flag": "debrief_complete"
+    }
+  ],
+  "resolution": {
+    "success": {
+      "conditions": [
+        "reactor_stabilized",
+        "debrief_complete"
+      ],
+      "outcome": "Team gains commendation and temporary clearance favors."
+    },
+    "partial": {
+      "conditions": [
+        "debrief_complete"
+      ],
+      "outcome": "Reactor survives but scapegoats are executed."
+    },
+    "failure": {
+      "conditions": [
+        "core_meltdown"
+      ],
+      "outcome": "Facility loss; surviving clones reassigned for disciplinary service."
+    }
+  },
+  "title": "Alpha Complex Reactor Audit"
+}

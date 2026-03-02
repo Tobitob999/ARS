@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0037_c07",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 37, chunk 7.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 37,
+    "chunk_index": 7,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Eine Einfache Probe wird folgendermaßen notiert:\nVergleichende Proben\nBei einer Vergleichenden Probe leistet ein anderer Charakter, \nein Gegenstand, ein Gerät oder eine Wesenheit aktiven (oder \npassiven) Widerstand gegen die Bemühungen des Spielercha-\nrakters. Beide Seiten würfeln ihren jeweiligen Würfelpool \nund vergleichen die Anzahl ihrer Erfolge. Wer die meisten \nErfolge hat, gewinnt. Bei Gleichstand gewinnt üblicherweise \nder Aggressor, allerdings kann sich das ändern, wenn Net-\ntoerfolge benötigt werden, um eine bestimmte Wirkung zu \nerzielen. Die Anzahl der Nettoerfolge ergibt sich bei einer \nVergleichenden Probe aus der Differenz zwischen der höhe-\nren Zahl an Erfolgen und der niedrigeren Zahl, und häufig \nkommen sie auf eine bestimmte Weise bei der Handlung zur \nAnwendung – zum Beispiel werden beim Kampf die Net-\ntoerfolge des Angreifers (soweit vorhanden) zum Schaden \ndes Angriffs hinzuaddiert. Eine Vergleichende Probe wird folgendermaßen notiert:\nAusgedehnte Proben\nBei Einfachen und Vergleichenden Proben geht es um \nHandlungen, die rasch durchgeführt werden, meistens \ninnerhalb weniger Sekunden. Ausgedehnte Proben dauern \ndeutlich länger und kommen bei komplexeren Aktivitäten \nzur Anwendung, etwa bei der Reparatur eines Fahrzeugs \noder einer Matrixsuche. Ausgedehnte Proben haben ge-\nnau wie Einfache Proben einen Würfelpool und einen \nFertigkeit\n Verknüpftes \nA ttribut\nSchwellenwert\nNa tur + Intuition (3)\nFertigkeit und A ttribut \ndes handelnden \nCharakters\nFertigkeit und A ttribut \ndes verteidigenden \nCharakters\nHeimlichkeit + \nGeschicklichkeit\n gegeN\n W ahrnehmung + \nIntuition\nSHADOWRUN: SECHSTE EDITION\n36 // SPIELKONZEPTE // PROBEN",
+    "topic": "equipment",
+    "keywords": [
+      "proben",
+      "einer",
+      "vergleichenden",
+      "ausgedehnte",
+      "fertigkeit",
+      "ttribut",
+      "einfache",
+      "folgendermassen"
+    ]
+  }
+}

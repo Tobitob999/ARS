@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0032_c10",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 32, chunk 10.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 32,
+    "chunk_index": 10,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Der Konzern musste heftig bluten und \nverlor zahlreiche Leben und Aktivposten, bis ihm schließlich \nSHADOWRUN: SECHSTE EDITION\nEINE KURZE GESCHICHTE DER SECHSTEN WEL T // Das Leben in der Sechsten Wel t // 31",
+    "topic": "general",
+    "keywords": [
+      "leben",
+      "sechsten",
+      "konzern",
+      "musste",
+      "heftig",
+      "bluten",
+      "verlor",
+      "zahlreiche"
+    ]
+  }
+}

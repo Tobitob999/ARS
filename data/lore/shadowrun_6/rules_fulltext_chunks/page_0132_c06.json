@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0132_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 132, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 132,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Hermetische Tradition\nTraditionsa ttribut: Logik\nDie Interpretationen der Hermetik haben sich im Laufe der \nJahrhunderte leicht verändert, aber die hermetischen Glau-\nbenssätze der Sechsten Welt fußen auf einer einzigen gemein-\nsamen Grundlage: Magie ist zwar noch nicht vollständig \nverstanden, sie kann aber verstanden werden. Hermetiker \nwählen einen wissenschaftlichen Zugang zur Magie. Sie führen \neinen Versuch und ein Laborexperiment nach dem ande-\nren durch, um die logischen Grundlagen besser begreifen zu \nkönnen. Es sollte nicht überraschen, dass die Fakultäten der \nprominentesten thaumaturgischen Universitäten der Welt vor \nallem Hermetiker als Lehrende beschäftigen. Hermetiker sehen sich als Angehörige einer langen, \nstolzen Tradition des Strebens nach dem Begreifen der \ngrundlegenden Gesetze der Welt und der Möglichkeiten \nihrer Manipulation. Sie weisen nur zu gerne darauf hin, \ndass die alchemistischen Studien von Isaac Newton viel \nmehr von seiner Lebenszeit beansprucht haben als seine \nStudien der Physik, und dass Leute wie John Dee und \nAleister Crowley, die an die Ränder der akademischen \nWelt gedrängt wurden, nach dem Erwachen eine verspätete \nRehabilitierung erfuhren. Weil Hermetiker meinen, dass sie \ndie Magie verstehen, glauben sie, dass sie dadurch allen an-\nderen Akademikern überlegen sind, weil deren Verständnis \nnur in der physischen Welt begründet ist. Das trägt viel zu \nihrem Ruf als arrogante Snobs bei – ein Ruf, den sie gerne \nakzeptieren, denn schließlich ist es keine Arroganz, wenn \nman wirklich so gut ist.",
+    "topic": "magic",
+    "keywords": [
+      "welt",
+      "hermetiker",
+      "magie",
+      "tradition",
+      "sich",
+      "einer",
+      "verstanden",
+      "einen"
+    ]
+  }
+}

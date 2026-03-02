@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0071_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 71, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 71,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Während der Charaktererschaffung kannst du insge-\nsamt [Charisma × 6] Punkte für Einfluss- und Loyalitäts-\nstufen deiner Connections ausgeben. Zu diesem Zeitpunkt \nkann keine der beiden Stufen höher sein als das Charisma \ndes Charakters. Wissens- und \n Sprachfertigkeiten\nDie Dinge, die du weißt, wirken sich darauf aus, wer du \nbist. Vielleicht bist du Experte für Popkultur, Kenner von \nelfischen Weinen oder von ungelösten Mathematikproblemen \nbegeistert. Wissensfertigkeiten verleihen deinem Charakter \nzusätzliche Tiefe und Optionen. Charaktere erhalten bei \nder Erschaffung eine Anzahl an Wissens- und Sprachfertig-\nkeiten (nähere Informationen über die Fertigkeiten siehe S. 100) gleich ihrer Logik, und zusätzlich eine Muttersprache. Charaktere können weitere Stufen von Sprachfertigkeiten \nerwerben, als wären diese zusätzliche Wissensfertigkeiten, \naber keine Sprache kann dadurch die Stufe Muttersprachler \nerreichen. Letzte Berechnungen\nSobald alle Käufe und Anpassungen vorgenommen sind, \ngibt es noch ein paar Berechnungen, die deinen Charakter \nstartklar machen. Und das sind sie:\nAngriffswert\nIm Kampf ist der Angriffswert ein Maßstab für die Präzisi-\non, Effizienz und grundlegende Gewandtheit des Angriffs. Meistens hängt er von einer Waffe ab, aber manchmal \ngreifst du mit bloßen Händen an, also braucht der Charak-\nter einen grundlegenden Angriffswert. Er beträgt Reaktion \n+ Stärke in der Reichweite Sehr nah und ist für die anderen \nReichweiten nicht anwendbar (s. Angriffswert/Reichweite, \nS. 111). Einige Vor- und Nachteile können sich darauf \nauswirken.",
+    "topic": "skills.social",
+    "keywords": [
+      "angriffswert",
+      "stufen",
+      "charisma",
+      "keine",
+      "wissens",
+      "sprachfertigkeiten",
+      "sich",
+      "darauf"
+    ]
+  }
+}

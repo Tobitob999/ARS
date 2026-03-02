@@ -1,7 +1,7 @@
 """
 gui/tech_gui.py — ARS TechGUI Hauptfenster
 
-Entwickler-GUI mit 5 Tabs + persistenter Statusleiste.
+Entwickler-GUI mit 8 Tabs + persistenter Statusleiste.
 Kommuniziert mit der Engine ueber EventBus (Observer Pattern).
 Engine laeuft in eigenem Thread — GUI im Tkinter Main-Thread.
 """
@@ -84,11 +84,15 @@ class TechGUI:
         from gui.tab_ki_monitor import KIMonitorTab
         from gui.tab_ki_connection import KIConnectionTab
         from gui.tab_gamestate import GameStateTab
+        from gui.tab_injector import InjectorTab
+        from gui.tab_responder import ResponderTab
 
         self.tab_session = SessionTab(self.notebook, self)
         self.tab_game = GameTab(self.notebook, self)
         self.tab_audio = AudioTab(self.notebook, self)
         self.tab_ki_monitor = KIMonitorTab(self.notebook, self)
+        self.tab_injector = InjectorTab(self.notebook, self)
+        self.tab_responder = ResponderTab(self.notebook, self)
         self.tab_ki_connection = KIConnectionTab(self.notebook, self)
         self.tab_gamestate = GameStateTab(self.notebook, self)
 
@@ -96,6 +100,8 @@ class TechGUI:
         self.notebook.add(self.tab_game, text="  Game  ")
         self.notebook.add(self.tab_audio, text="  Audio  ")
         self.notebook.add(self.tab_ki_monitor, text="  KI-Monitor  ")
+        self.notebook.add(self.tab_injector, text="  Injector  ")
+        self.notebook.add(self.tab_responder, text="  Responder  ")
         self.notebook.add(self.tab_ki_connection, text="  KI-Connection  ")
         self.notebook.add(self.tab_gamestate, text="  Spielstand  ")
 
@@ -187,6 +193,9 @@ class TechGUI:
             self.status_bar.set_engine_state("Running")
             self.tab_session.on_engine_ready()
             self.tab_game.on_engine_ready()
+            self.tab_ki_monitor.on_engine_ready()
+            self.tab_injector.on_engine_ready()
+            self.tab_responder.on_engine_ready()
             self.tab_ki_connection.on_engine_ready()
             self.tab_gamestate.on_engine_ready()
             # Zum Game-Tab wechseln
@@ -197,12 +206,18 @@ class TechGUI:
             self.status_bar.set_engine_state("Error")
             return
 
+        if event == "game.player_dead":
+            self._show_death_dialog(data.get("message", "Der Charakter ist gefallen!"))
+            return
+
         # StatusBar bekommt alles
         self.status_bar.handle_event(data)
 
         # An die einzelnen Tabs weiterleiten
         self.tab_game.handle_event(data)
         self.tab_ki_monitor.handle_event(data)
+        self.tab_injector.handle_event(data)
+        self.tab_responder.handle_event(data)
         self.tab_ki_connection.handle_event(data)
         self.tab_gamestate.handle_event(data)
 
@@ -230,6 +245,56 @@ class TechGUI:
                     pass
                 return
             widget = widget.master
+
+    # ── Tod-Dialog ──
+
+    def _show_death_dialog(self, message: str) -> None:
+        """Zeigt ein Popup bei Spielertod mit Optionen zum Neustarten."""
+        self.stop_engine()
+        self.status_bar.set_engine_state("Dead")
+
+        dialog = tk.Toplevel(self.root)
+        dialog.title("Charakter gefallen!")
+        dialog.configure(bg=BG_DARK)
+        dialog.geometry("420x200")
+        dialog.resizable(False, False)
+        dialog.transient(self.root)
+        dialog.grab_set()
+
+        # Zentrieren
+        dialog.update_idletasks()
+        x = self.root.winfo_x() + (self.root.winfo_width() - 420) // 2
+        y = self.root.winfo_y() + (self.root.winfo_height() - 200) // 2
+        dialog.geometry(f"+{x}+{y}")
+
+        # Totenkopf + Nachricht
+        tk.Label(
+            dialog, text="\u2620", bg=BG_DARK, fg="#FF4444",
+            font=("Consolas", 36),
+        ).pack(pady=(16, 4))
+        tk.Label(
+            dialog, text=message, bg=BG_DARK, fg=FG_ACCENT,
+            font=FONT_HEADER, wraplength=380,
+        ).pack(pady=(0, 16))
+
+        btn_frame = tk.Frame(dialog, bg=BG_DARK)
+        btn_frame.pack(pady=(0, 16))
+
+        def _restart() -> None:
+            dialog.destroy()
+            self.tab_game._on_stop()
+            # Zum Session-Tab wechseln
+            self.notebook.select(self.tab_session)
+
+        def _close() -> None:
+            dialog.destroy()
+
+        ttk.Button(btn_frame, text="Neue Session", command=_restart).pack(
+            side=tk.LEFT, padx=8,
+        )
+        ttk.Button(btn_frame, text="Schliessen", command=_close).pack(
+            side=tk.LEFT, padx=8,
+        )
 
     # ── Lifecycle ──
 

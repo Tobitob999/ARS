@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0176_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 176, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 176,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Wenn der Matrix-Zustandsmonitor eines Geräts voll ist, \nist es \nlahmgelegt\n (s. Lahmgelegte Geräte\n). Wenn du ein Technomancer bist, benutzt du die Matrix \nmit deiner \nLebenden Persona\n statt mit einem Gerät. Eine \nLebende Persona hat dieselben vier Matrixattribute wie \nein Gerät, aber ihre Werte hängen von deinen Geistigen \nAttributen ab (s. Die Lebende Persona\n, S. 188). Weil Tech-\nnomancer keine Geräte benutzen, haben sie auch keinen \nMatrix-Zustandsmonitor. Jeglicher Matrixschaden, den sie \nerleiden, wird auf ihren eigenen Zustandsmonitoren fest-\ngehalten: Meistens handelt es sich um Betäubungsschaden, \nwenn nicht anders angegeben (sofern der Betäubungszu-\nstandsmonitor noch nicht voll ist). Virtuelle Realit ä t\nDurch die Simsinn-Technologie können User vollständig \nin die Matrix eintauchen und all ihre Freuden genießen. Das läuft natürlich nicht ohne Risiken ab. Je schneller und \nkomplexer das Erlebnis der Matrix laufen darf, desto ge-\nfährlicher wird die VR. Ohne Filter kann gefährliches Bio-\nfeedback zu Gehirnblutungen und Schlimmerem führen. Aber das hält viele nicht davon ab, so tief einzutauchen. VR mit \nkaltem Sim\n wurde als Antwort auf die Risiken \nder Matrix mit voller VR entwickelt. Hier kommt ein Sim-\nsinn-Filter zum Einsatz, der die schlimmsten potenziellen \nBiofeedback-Schäden abwehrt, aber das Erleben der Matrix \nist weniger intensiv und langsamer. VR mit \nheißem Sim\n wird ohne Simsinn-Filter betrieben. Damit lässt sich die VR wesentlich schneller benutzen, ist \naber auch viel riskanter.",
+    "topic": "combat.damage",
+    "keywords": [
+      "matrix",
+      "persona",
+      "ohne",
+      "filter",
+      "zustandsmonitor",
+      "voll",
+      "geraete",
+      "lebende"
+    ]
+  }
+}

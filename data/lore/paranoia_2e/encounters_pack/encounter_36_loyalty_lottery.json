@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "category": "encounter",
+  "id": "loyalty_lottery_36",
+  "name": "Randomized loyalty check selects the team medic #36",
+  "tags": [
+    "paranoia_2e",
+    "encounter",
+    "batch_06"
+  ],
+  "summary": "Randomized loyalty check selects the team medic",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "trigger": "on_enter",
+    "pressure": "extreme",
+    "required_checks": [
+      "Laser Weapons",
+      "Interrogation"
+    ],
+    "complication": "friendly_fire_risk",
+    "payoff": "temporary_clearance"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0081_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 81, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 81,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Du darfst Inkompetenz nicht für eine Fertig-\nkein Magieattribut hast, und nicht Tasken wählen, wenn \ndu keine Resonanz besitzt. Dieser Nachteil kann nur \neinmal gewählt werden. Kampflähmung\nEgal, wie oft dich der Straßensamurai zum Schießstand \nmitnimmt – du kannst nichts dagegen tun, dass du zusam-\nmenzuckst und einfrierst, sobald die Schießerei losgeht. Du kannst das zwar überwinden, aber im Kampf bist du \nimmer einen halben Schritt hinterher. Bonus:\n 8 Karma\nAuswirkung:\n Dein Initiativeergebnis wird zu Kampfbe-\nginn halbiert. Du kannst die Handlungen \nBewegen\n und \nSprinten\n in der ersten Runde nicht durchführen, und du \nhandelst in dieser Runde als Letzter. Deine Bewegungs-\nfähigkeit wird nach der ersten Runde wiederhergestellt, \naber das Initiativeergebnis bleibt unverändert halbiert. Niedrige Schmerztoleranz\nDu hast empfindliche Nerven oder ein allgemein empfind-\nliches Wesen. Aus irgendeinem Grund wirken Verletzungen \nund Unannehmlichkeiten stärker auf dich. Bonus:\n 10 Karma\nAuswirkung:\n Alle Verletzungsmodifikatoren werden ver-\ndoppelt. Orkposer\nDein Blut ist vielleicht menschlich oder elfisch, aber deine \nOhren, Wangenknochen und dein hartes Auftreten sind \neindeutig orkisch. Ein paar kleine Operationen, vielleicht \nein Or’zet-Kurs über die Matrix, und viele Stunden des \nBetrachtens von Dokumentationen über den Seattler Un-\ntergrund haben dich darauf vorbereitet, wirklich zu den \nOrks zu gehören, egal wie rund deine Ohren oder wie dürr \ndeine Gestalt bei der Geburt waren. Bonus:\n 6 Karma\nAuswirkung:\n Elfen, Orks und Trolle erhalten 1 Edge bei \nProben auf Einfluss (Gebräuche), die sie gegen dich ab-\nlegen. Nur für Elfen und Menschen erhältlich.",
+    "topic": "combat.initiative",
+    "keywords": [
+      "dich",
+      "deine",
+      "kannst",
+      "bonus",
+      "karma",
+      "auswirkung",
+      "runde",
+      "hast"
+    ]
+  }
+}

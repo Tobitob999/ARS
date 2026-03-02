@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0126_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 126, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 126,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Toxine mit dem Vektor Inhalation sind Aerosole oder Gase \nund müssen vom Ziel eingeatmet werden. Gasmasken, che-\nmische Versiegelung und aktive interne Lufttanks gewähren \nImmunität gegen diese Toxine. Ziele können auch für Kons-\ntitution × 10 Kampfrunden die Luft anhalten. Toxine mit dem Vektor Injektion müssen in den Blut-\nkreislauf des Ziels gelangen. Das kann durch einen Pfeil, \neine Injektionsnadel oder einen Schnitt geschehen. Sie \nkönnen auch benutzt werden, um eine Nahkampfwaffe mit \nKlinge zu überziehen, aber sie wirken auf ein getroffenes \nZiel nur dann, wenn ein erfolgreicher Nahkampfangriff \nauch Körperlichen Schaden verursacht. Geschwindigkeit\nGeschwindigkeit gibt an, wie schnell ein Opfer unter der \nWirkung eines Toxins leidet. Die Wirkungen treten immer \nam Ende einer Kampfrunde ein. Sofort bedeutet, dass die \nWirkung am Ende der Kampfrunde beginnt, in der dem Op-\nfer die Substanz verabreicht wurde. Eine Geschwindigkeit \nvon 1 Kampfrunde bedeutet, dass die Wirkung am Ende \nder nächsten Kampfrunde beginnt, und so weiter. Dauer\nDie Dauer gibt an, wie lange die Substanz im Blutkreislauf \nwirkt und für die Frage der Konzentration effektiv bleibt. Kraft\nKraft gibt an, wie stark das Toxin wirkt. Wenn Toxine \nKörperlichen oder Betäubungsschaden verursachen, dient \ndie Kraft als Schadenswert des Angriffs. Eine Toxinwider-\nstandsprobe (Konstitution + Willenskraft + Stufe schützen-\nder Ausrüstung/Systeme) wird abgelegt, um den Schaden \nzu senken. Erfolge bei dieser Widerstandsprobe werden \nvon der Kraft abgezogen.",
+    "topic": "combat",
+    "keywords": [
+      "toxine",
+      "kampfrunde",
+      "kraft",
+      "geschwindigkeit",
+      "gibt",
+      "wirkung",
+      "ende",
+      "vektor"
+    ]
+  }
+}

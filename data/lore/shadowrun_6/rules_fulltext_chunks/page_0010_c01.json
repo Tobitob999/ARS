@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0010_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 10, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 10,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Halber Subst. (vulgär) – Ein Zwerg. Hauer Subst. (vulgär) – Ein Ork oder Troll. Hoi Interj. (niederländisch) – Hi, eine vertraute Begrüßung. Jing Subst. – Geld, üblicherweise in Form von Bargeld. KobunSubst. (japanisch) – Ein Mitglied eines Yakuza- Clans. Komm Subst. – Kurz für Kommlink. Dein Telefon, Com-\nputer, Musikplayer, deine Spielekonsole und mehr im \nTaschenformat. Kon Subst. – Kurz für Konzern. Lohnmagier Subst. – Ein Zauberer (normalerweise ein \nMagier), der für einen Konzern arbeitet. Löwenzahnfresser Subst. (vulgär) – Ein Elf. Merc Subst. – Ein Söldner. Messerklaue Subst. – Eine Person mit umfassender Kampf- \nBodytech. Mojo Subst. (karibisch) – Magie. Ein Zauber. Mr Johnson Subst. – Bezeichnet einen anonymen Auftrag-\ngeber oder Konzernagenten. Geschlechts- und nationali-\ntätsunabhängig. In Deutschland auch „Herr Schmidt“. mundan Adj. – Nicht magisch. Mundaner Subst. – Nicht-Zauberer. Nutrisoy Subst. – Ein billig produziertes Lebensmittelpro-\ndukt aus Sojabohnen. Nuyen Subst. – Die weltweite Standardwährung. Omae Subst. – Ein enger Freund. Kann auch sarkastisch \ngebraucht werden. Organschmuggel Subst. – Der Handel mit Organen oder \nCyberware, die (vor dem Eingriff noch) lebendigen Per-\nsonen entnommen wurden. OyabunSubst. (japanisch) – Der Anführer eines Yakuza-Clans. Paydata Subst. – Daten, die auf dem Schwarzmarkt Geld \nbringen. Pixie Subst. (vulgär) – Ein Elf. Ein Elfenposer. Plex Subst. – Abkürzung für Metroplex (großer städtischer \nKomplex). Samurai Subst. (japanisch) – Söldner oder mietbarer Kämp-\nfer. Impliziert einen Ehrenkodex oder einen guten Ruf. Sararimann Subst. (japanisch) – Ein Konzernangestellter.",
+    "topic": "magic.spells",
+    "keywords": [
+      "subst",
+      "vulgaer",
+      "japanisch",
+      "einen",
+      "geld",
+      "eines",
+      "yakuza",
+      "clans"
+    ]
+  }
+}

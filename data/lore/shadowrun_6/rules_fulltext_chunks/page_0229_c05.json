@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0229_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 229, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 229,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Wetterbeherrschung\nART\n HANDLUNG\n REICHWEITE\n DAUER\nP\n H\n BF\n Aufrechterhalten\nMit dieser Kraft kann ein Critter in gewissem Ausmaß \ndie örtlichen Wetterbedingungen manipulieren. Das ge-\nwünschte Wetter muss unter normalen Bedingungen in \nder Umgebung möglich sein. Das Wetter verändert sich \nallmählich und erreicht seinen Höhepunkt, wenn der Critter \nseine Ausgedehnte Probe auf Willenskraft + Magie (10, \n30 Minuten) vollendet. Genau genommen beherrscht der \nCritter nicht wirklich das Wetter, er beschwört es nur und \nschiebt es in die gewünschte Richtung. Ein Critter kann \nbeispielsweise ein Gewitter heraufbeschwören, aber nicht \ndie Blitze gezielt einsetzen. Zw ang\nART\n HANDLUNG\n REICHWEITE\n DAUER\nM\n H\n BF\n Aufrechterhalten\nDiese Kraft ermöglicht einem Critter, ein Opfer zu einer \nbestimmten Handlung zu zwingen, auch wenn diese Hand-\nlung nicht zum Vorteil des Opfers, ja sogar schädlich für \ndas Opfer oder andere ist. Der Critter legt eine Verglei-\nchende Probe auf Charisma + Magie gegen Willenskraft \n+ Logik des Opfers ab. Verliert das Opfer, muss es den \nZwang in seiner nächsten verfügbaren Handlung ausfüh-\nren, bevor es irgendetwas anderes tut. Der Critter muss \ndie Kraft aufrechterhalten, bis die Handlung ausgeführt \nist, kann sie aber auch jederzeit fallen lassen, wodurch das \nOpfer aus dem Zwang entlassen wird. Sobald diese Kraft \nangewendet wurde, ist dem Opfer unmittelbar bewusst, \ndass es einem Zwang unterlag. Die Kraft kann nicht dazu \nverwendet werden, dem Opfer zukünftige erzwungene \nHandlungen einzupflanzen.",
+    "topic": "magic",
+    "keywords": [
+      "critter",
+      "opfer",
+      "handlung",
+      "kraft",
+      "aufrechterhalten",
+      "wetter",
+      "diese",
+      "zwang"
+    ]
+  }
+}

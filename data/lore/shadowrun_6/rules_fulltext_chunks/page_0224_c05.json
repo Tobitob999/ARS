@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0224_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 224, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 224,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Einfluss\nART\n HANDLUNG\n REICHWEITE\n DAUER\nM\n H\n BF\n Sofort\nDiese Kraft verleiht einem Critter die Fähigkeit, Suggestionen \nin den Geist eines Opfers zu projizieren. Dazu wird eine Ver-\ngleichende Probe auf Charisma + Magie des Critters gegen \nWillenskraft + Logik des Opfers abgelegt. Ist der Critter \nerfolgreich, verhält sich das Opfer, als wäre die Suggestion \nsein eigener Gedanke. Wird dem Opfer klargemacht, dass \nes im Begriff steht, etwas Schlimmes zu tun („Schieß deinem \nEhepartner ins Gesicht!“), kann es versuchen, die Suggestion \nmittels einer Probe auf Willenskraft + Logik (Magie des \nCritters) zu überwinden. Nettoerfolge bei dieser Probe liefern \neinen Würfelpoolmalus auf die Handlungen, die unter dem \nSuggestionszwang ausgeführt werden müssen. Misslingt die \nWillenskraftprobe, kann noch Edge ausgegeben werden, also \netwa 4 Edge, um Edge vom Würfelpool abzuziehen, oder \n5 Edge, um ein Ereignis herbeizuführen wie vielleicht eine \nLadehemmung. Grundsätzlich kann das Opfer mit dieser \nKraft nicht dazu gebracht werden, etwas zu tun, was es \noffensichtlich in Gefahr bringt. Element arer Angriff\nART\n HANDLUNG\n REICHWEITE\n DAUER\nP\n H\n BF\n Sofort\nEin Critter mit dieser Kraft kann einen tödlichen Strahl ele-\nmentarer Energie projizieren, der aus einem Flammenstoß, \neinem Eisspeer, einem Lichtblitz, einem glibbrigen Klumpen \nätzender Substanz oder Ähnlichem bestehen kann. Die Kraft \nentspricht immer einem bestimmten Element: Elektrizität, \nFeuer, Chemie oder Kälte. Der Critter legt eine Fernkampfangriffsprobe auf Geschick-\nlichkeit + Magie ab.",
+    "topic": "magic",
+    "keywords": [
+      "einem",
+      "kraft",
+      "critter",
+      "edge",
+      "probe",
+      "magie",
+      "opfer",
+      "dieser"
+    ]
+  }
+}

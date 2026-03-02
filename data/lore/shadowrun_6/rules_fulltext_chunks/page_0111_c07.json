@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0111_c07",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 111, chunk 7.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 111,
+    "chunk_index": 7,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Dazu werden jeweils die Gesamtergebnisse der Initi-\nativewürfel zu den Initiativewerten addiert. Das sieht \nwie folgt aus:\nOda hat Reaktion 6 und Intuition 3, was ihm einen \nInitiativewert von 9 verschafft. Er hat 1 Initiativewürfel, \nmit dem er eine 1 würfelt. Nach Addition dieser 1 zu \nseinem Initiativewert von 9 hat er ein Initiativeergebnis \nvon 10. Carson Aims hat Reaktion 5 und Intuition 5. Er hat \ndank seines Reﬂ exboosters 2 Initiativewürfel und wür-\nfelt eine 9. Die Addition dieser 9 zu seinem Initiativewert \nvon 10 ergibt für ihn ein Initiativeergebnis von 19. Crimson-Crush-Ganger A hat Reaktion 2 und Intuition \n2, also einen Initiativewert von 4. Er hat 1 Initiativewür-\nfel, mit dem er eine 6 würfelt. Die Addition dieser 6 zu \nseinem Initiativewert von 4 ergibt ein Initiativeergebnis \nvon 10. Crimson-Crush-Ganger B, C und D werden als Scher-\ngen-Gruppe mit Reaktion 2 und Intuition 2 behandelt, \nwas einen Initiativewert von 4 ergibt. Sie haben 1 Ini-\ntiativewürfel, der eine 4 zeigt. Die Addition dieser 4 zu \nihrem Initiativewert von 4 ergibt für sie ein Initiative-\nergebnis von 8. Der Kampf beginnt mit Carson Aims bei 19. Bei 10 besteht ein Gleichstand zwischen Oda und dem \nCrimson-Crush-Ganger, daher müssen wir ERIM (Edge, \nReaktion, Intuition, Münzwurf) bemühen. Bereits beim \nVergleich von Edge sehen wir, dass Oda 5 besitzt, der \nGanger aber nur 3 durch seine Professionalitätsstufe. Der Gleichstand ist aufgelöst, und Oda ist zuerst am \nZug, gefolgt vom Ganger. Die Schergen-Gruppe der Crimson-Crush-Ganger \nkommt mit 8 zuletzt an die Reihe. Überraschung\nEin Kampf kann auch beginnen, ohne dass alle Teilnehmer \ndavon wissen.",
+    "topic": "combat.initiative",
+    "keywords": [
+      "initiativewert",
+      "ganger",
+      "reaktion",
+      "intuition",
+      "addition",
+      "dieser",
+      "ergibt",
+      "crimson"
+    ]
+  }
+}

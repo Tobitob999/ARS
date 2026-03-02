@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_04_the_rules_p0072_c01",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_04_the_rules",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The Rules page 72, chunk 1.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_04_the_rules",
+    "source_title": "The Rules",
+    "page": 72,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "raw_text": "| ee PARANOIA \nIntelligent, seltaware beings may always ‘change the course of the future — any time the gamemaster wants, So don't sweat details like ‘self-consistency, time paradoxes, and reliable prophecy. Further, the fundamental elements of this mutant power are deeply connected to the un- conscious and subconscious mind of the character; therefore, precognition may com ‘monly suggest “rightness” or \"wrongness” in ‘ways that are dificult for the conscious mind, to interpret. For example, a character with deep-rooted guilt about his mutant power and his treasonous association with a secrel society might consider crawling down a missile launch tube a rightness.\" Fach character will have to learn to interpret the ambiguous prophecies ‘of his gamemaster as best he can. ‘Assuccessful power roll means the precogni- tion is more of less helpful and accurate. An Unsuccessful roll means the GM can feed the player any line of hooey he likes. “You have this unquestionable certainty tha it is perfectly safe for you to put your hand in that slot. Go ahead. Perfectly safe” This power sometimes triggers itself spon- taneously In-situations of grave potential ‘danger. The gamemaster makes a secret power roll.",
+    "topic": "races",
+    "keywords": [
+      "power",
+      "gamemaster",
+      "character",
+      "roll",
+      "time",
+      "mutant",
+      "conscious",
+      "mind"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0247_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 247, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 247,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "trizität. Bei Sprengwaffen wird der Schadenswert für die \nReichweiten Detonationspunkt (DP), Sehr nah (1–3 m) \nund Nah (4–50 m) angegeben. Sprengwirkung\nGibt die Ausdehnung der Sprengwirkung einer Explosion \nan. Stufe\nWenn ein Gegenstand in verschiedenen Stufen erhältlich \nist, werden diese in dieser Spalte oder hinter dem Namen \ndes Gegenstands aufgeführt. Verteidigungswert\nGibt an, inwieweit der Gegenstand den Verteidigungswert \neines Charakters erhöht. WiFi-Funktionalit ä t\nFast jedes Gerät ist WiFi-fähig. Die WiFi-Revolution begann \nursprünglich als nützliches Hilfsmittel zur Beobachtung \nvon Kundenverhalten. Außerdem fanden die Konzerne die \nWiFi-Funktionalität ganz praktisch für die Inventarver-\nwaltung, und um zu beobachten, wie die Leute ihre Waren \neinsetzten. Das Problem war nur, die Leute auch dazu zu \nbringen, dass sie die WiFi-Funktionalität ihrer Geräte stän-\ndig eingeschaltet ließen. Und das führte zum WiFi-Vorteil! WiFi-Vorteile\nViele Ausrüstungsgegenstände genießen bestimmte Vor-\nteile, wenn sie mit der Matrix verbunden sind. Für den \nGroßteil der Bevölkerung ist das normalerweise eine kleine \nnützliche Hilfe im täglichen Leben, doch für Shadowrun-\nner ist es häufig eine Leben-oder-Tod-Entscheidung, denn \nseine Smartgun XI mit der Matrix verbunden zu lassen, \nkönnte der kleine entscheidende Vorteil sein, den man \nbraucht, oder aber das Verhängnis bedeuten, wenn man \ngehackt wird und die aufgemotzte, mit Elektronik voll-\ngestopfte MP nur noch toter Ballast ist.",
+    "topic": "combat.defense",
+    "keywords": [
+      "wifi",
+      "sprengwirkung",
+      "gibt",
+      "gegenstand",
+      "verteidigungswert",
+      "funktionalitaet",
+      "leute",
+      "vorteil"
+    ]
+  }
+}

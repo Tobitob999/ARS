@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0284_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 284, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 284,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Medkit-Nachfüllp ack\nEin Medkit-Nachfüllpack muss nach jeder \nVerwendung des Medkits gekauft werden; \nes ist auch möglich, Nachfüllpacks auf \nVorrat zu kaufen. Bis zu fünf Nachfüll-\npacks können in der Medkitbox verwahrt \nwerden. Weitere Packs müssen woanders \naufbewahrt werden. Slap-P a tches\nSlap-Patches sind selbstklebende Medi-\nkamentenpflaster, die direkt auf die Haut \ngeklebt werden. Das Anbringen eines Slap-\nPatches auf der Haut eines unwilligen \n„Patienten“ erfordert einen erfolgreichen \nNahkampfangriff (der keinen Schaden ver-\nursacht); das kann knifflig sein, wenn die \nZielperson nicht viel nackte Haut zeigt, und \neine Nebenhandlung Ziel ansagen erfordern. Antidot-P a tch\nDas Antidot-Patch neutralisiert oder hebt den Status Vergiftet\nfür eine große Auswahl an Toxinen auf. Ist ein Toxin oder \neine Droge besonders selten, kann der Spielleiter verlangen, \ndass ein spezielles Antidot-Patch nur für dieses Toxin oder \ndiese Droge verwendet wird (s. Toxine und Drogen, S. 124). Chem-P a tch\nDies ist ein leeres Slap-Patch. Man kann es mit einer Dosis \neiner Chemikalie oder eines Toxins (S. 124) füllen und \nspäter bei einem Patienten (oder sich selbst) anwenden. Stim-P a tch\nDieses Patch entfernt eine Anzahl Kästchen Betäubungsscha-\nden in Höhe seiner Stufe und hebt den Status Benommen\nauf. Die Wirkung hält für [Stufe × 10] Minuten an – nach \ndieser Zeit erleidet der Patient (Stufe + 1)B Schaden, dem \nnicht widerstanden werden kann (und der auch auf den Kör-\nperlichen Zustandsmonitor überlaufen kann). Während ein \nStim-Patch wirkt, kann der Charakter sich nicht ausruhen.",
+    "topic": "economy",
+    "keywords": [
+      "patch",
+      "slap",
+      "haut",
+      "eines",
+      "antidot",
+      "stufe",
+      "medkit",
+      "packs"
+    ]
+  }
+}

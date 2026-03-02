@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0271_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 271, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 271,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Sensor-Chip\nEin Sensor-Chip zeichnet 24 Stunden lang die Daten eines \neinzelnen Sensors (der separat gekauft werden muss) mit \nmaximal Stufe 2 auf (s. Sensoren\n, S. 277). Nach diesen 24 \nStunden schaltet er sich entweder ab oder überschreibt \nDaten, die älter sind als 24 Stunden – je nachdem, wie \nman ihn programmiert. Abrufen lassen sich die Daten nur \ninnerhalb eines Meters Entfernung zum Chip, es sei denn, \nseine WiFi-Funktionalität wurde aktiviert. WiFi-Vorteil:\n Der Besitzer des Chips kann die Daten in \nEchtzeit abfragen. Die Aufzeichnungen können auf ein \nanderes Speichermedium übertragen werden. Sicherheits-Chip/Spionage-Chip\nSicherheits-Chips werden dazu verwendet, Personen oder \nDinge zu verfolgen und aufzuspüren; dazu werden sie un-\nter die Haut (oder die Oberfläche) implantiert. Megakons \nbenutzen sie, um ihre Bürger zu tracken (um sie zu schützen \nund zu überwachen – na ja, meistens, um sie zu überwa-\nchen), Gefängniskonzerne überwachen damit inhaftierte \nGefangene und Freigänger, und Eltern und Schulen behalten \ndamit Schüler im Auge. Sicherheits-Chips sind gegen EMP \ngeschützt und können deshalb nicht mit einem RFID-Lö-\nscher gelöscht werden. Wenn ein Chip unter der Haut \nDie Variante des Spionage-Chips läuft immer auf \nSchleichfahrt (siehe S. 178) und würfelt mit 10 Würfeln \nbei einer Vergleichenden Probe auf Matrixwahrnehmung. Spionage-Chips übertragen ihre Daten nur zu bestimmten \nvoreingestellten Zeiten in einem kurzen Sendeimpuls. Oft werden sie als andere Objekte getarnt oder darin \nversteckt.",
+    "topic": "advancement",
+    "keywords": [
+      "chip",
+      "daten",
+      "stunden",
+      "sicherheits",
+      "spionage",
+      "sensor",
+      "eines",
+      "wifi"
+    ]
+  }
+}

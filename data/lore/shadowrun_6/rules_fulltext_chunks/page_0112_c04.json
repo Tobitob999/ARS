@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0112_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 112, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 112,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Es gibt fünf Reichweitenkategorien:\nSehr nah: 0 bis 3 Meter\nJede Schusswaffe kann auf diese Reichweite benutzt wer-\nden, auch wenn manche hier weniger effektiv sind, weil \nsie so massig sind. Nah: 4 bis 50 Meter\nHier haben die meisten Waffen ihre größte Effektivität. Alle \nFernkampfwaffen können auf diese Reichweite benutzt wer-\nden. Wie effektiv sie dabei sind, ist eine ganz andere Frage. Mittel: 51 bis 250 Meter\nHier braucht man eine gewisse Lauflänge, um wirksam zu \nsein. Einige kleinere Waffen können in diese Reichweite \nvordringen, aber hier ein Ziel zu treffen, ist eher Tricks und \nMagie zuzuschreiben als großem Können. SHADOWRUN: SECHSTE EDITION\nWERTE FÜR W AFFEN UND P ANZERUNGEN // KAMPF // 111",
+    "topic": "combat",
+    "keywords": [
+      "hier",
+      "meter",
+      "diese",
+      "reichweite",
+      "benutzt",
+      "effektiv",
+      "waffen",
+      "gibt"
+    ]
+  }
+}

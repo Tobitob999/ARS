@@ -33,7 +33,12 @@ _CONTROL_PREFIXES = (
     "TAGESZEIT",
     "WETTER",
     "WUERFELERGEBNIS",
+    "WÜRFELERGEBNIS",
     "STIMME",
+    "ANGRIFF",
+    "RETTUNGSWURF",
+    "Runde",
+    "TOT",
 )
 
 _TAG_RE = re.compile(

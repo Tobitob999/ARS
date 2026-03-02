@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0289_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 289, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 289,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Reaktionsverbesserung\nDiese Bodyware beschleunigt die Reaktion, indem bestimm-\nte, isolierte Wirbel in der Wirbelsäule durch supraleitendes \nMaterial ersetzt werden. Die Reaktionsverbesserung erhöht \ndas Reaktionsattribut um ihre Stufe (der Initiativewert \nändert sich entsprechend). Reaktionsverbesserung ist nicht \nkompatibel mit anderer Bodytech, die die Reaktion verbes-\nsert, wie zum Beispiel einem Reflexbooster. WiFi-Vorteil:\n Reaktionsverbesserung ist kompatibel mit \neinem kabellosen Reflexbooster. In diesem Fall ist auch eine \nErhöhung der Reaktion um mehr als +4 möglich. Reflexbooster\nDiese hochinvasive, schmerzhafte und lebensverändernde \nOperation implantiert eine Vielzahl von Neuralboostern und \nAdrenalinstimulatoren an strategischen Stellen im ganzen \nK ompositknochen\nMATERIAL\n SCHADENS-\nWIDERSTAND\n VERTEIDIGUNGSWERT\n WAFFENLOSER \nSCHADENSWERT\nWAFFENLOSER \nANGRIFFSWERT\nKunststoff\n +1\n +1\n +1K\n +1\nAluminium\n +2\n +1\n +2K\n +2\nSHADOWRUN: SECHSTE EDITION\n288 // Ausrüstung // BODYTECH",
+    "topic": "combat.initiative",
+    "keywords": [
+      "reaktionsverbesserung",
+      "reflexbooster",
+      "diese",
+      "material",
+      "kompatibel",
+      "bodytech",
+      "einem",
+      "waffenloser"
+    ]
+  }
+}

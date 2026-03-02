@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0044_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 44, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 44,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Der Gegenstand \n(oder die Gegenstände) fällt zu Boden und kann dabei je \nnach Fallhöhe und Bodenbeschaffenheit beschädigt werden \n(Entscheidung des Spielleiters). Geist befehligen (I)\nMit dieser Handlung befiehlt der Charakter einem einzelnen \nGeist oder einer Gruppe von Geistern unter seiner Kontrolle \neinen Dienst oder entlässt sie. Der Dienst muss für alle Geis-\nter der gleiche sein. Sollen verschiedene Geister verschiedene \nDienste leisten, muss diese Handlung mehrfach durchgeführt \nwerden (was jedes Mal eine eigene Nebenhandlung ist). Gerä temodus ändern (J)\nEin Charakter kann eine Nebenhandlung aufwenden, um \nden Modus eines Gerätes, mit dem er durch ein direktes \nNeuralinterface (verdrahtet oder per WiFi) verbunden ist, \nzu aktivieren, zu deaktivieren oder umzuschalten. Das kann \ndas Aktivieren oder Deaktivieren von Cyberware sein, das \nÄndern der Einstellungen einer Smartgun, das Umschalten \neines Cyberdecks auf versteckten Modus, das Abschalten \nder WiFi-Funktion eines Gerätes usw. In Deckung gehen (I)\nDer Charakter nutzt irgendetwas in seiner Umgebung, \num Deckung zu suchen, muss dafür aber auch die Ein-\nschränkungen beachten, die die Deckung mit sich bringt. Durch diese Handlung gelangt der Charakter in den Status \nDeckung I, II, III\n oder \nDeckung I, II, III\n oder \nDeckung I, II, III\n IV\n (siehe S. 54). IV\n (siehe S. 54). IV\nMehrf achangriffe (I)\nEin Charakter kann mehr als einen Gegner angreifen, sofern \nMunition, Reichweite und Feindpositionen es zulassen. Dabei \nteilt der Spieler seinen Würfelpool gleichmäßig auf die Gegner \nauf. Verwendet er zwei verschiedene Angriffsarten, weist er \njeder die Hälfte des jeweiligen Würfelpools (abgerundet) zu.",
+    "topic": "equipment",
+    "keywords": [
+      "deckung",
+      "charakter",
+      "handlung",
+      "verschiedene",
+      "eines",
+      "dabei",
+      "geist",
+      "einer"
+    ]
+  }
+}

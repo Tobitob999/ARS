@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "category": "mechanic",
+  "id": "damage_and_clone_cycle",
+  "name": "Damage and Clone Cycle",
+  "tags": [
+    "paranoia_2e",
+    "clones",
+    "mortality",
+    "replacement"
+  ],
+  "summary": "Tod beendet den Charakterbogen nicht: naechster Klon uebernimmt mit gleichem Profil.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "pages": [
+      16,
+      17,
+      63
+    ]
+  },
+  "mechanics": {
+    "clone_family_size": 6,
+    "replacement": "On death, advance clone number and re-enter when fiction allows.",
+    "hard_end_condition": "Death of clone #6 requires a new character.",
+    "play_effect": "Encourages bold decisions and lethal slapstick pacing."
+  }
+}

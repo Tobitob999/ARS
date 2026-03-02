@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "category": "conversion_qa",
+  "tags": [
+    "shadowrun_6",
+    "qa",
+    "batch_01"
+  ],
+  "summary": "Validierungsreport fuer Shadowrun 6 Vollkonvertierung.",
+  "source_text": {
+    "timestamp": "2026-03-01T21:30:11.620351Z",
+    "checks": [
+      "JSON parsing for all generated files",
+      "required ruleset top-level keys",
+      "full page coverage in rules chunks"
+    ]
+  },
+  "mechanics": {
+    "json_parse_errors": 0,
+    "ruleset_required_keys_present": [
+      "metadata",
+      "dice_system",
+      "characteristics",
+      "skills"
+    ],
+    "counts": {
+      "book_conversion": 3,
+      "fulltext": 354,
+      "chapters": 52,
+      "rules_fulltext_chunks": 2040,
+      "indices": 3
+    },
+    "rules_chunk_coverage": {
+      "expected_pages": 354,
+      "covered_pages": 354,
+      "uncovered_pages": [],
+      "fully_covered": true
+    }
+  }
+}

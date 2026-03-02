@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "category": "encounter",
+  "id": "telemetry_desync_30",
+  "name": "Mission telemetry diverges from visible reality #30",
+  "tags": [
+    "paranoia_2e",
+    "encounter",
+    "batch_06"
+  ],
+  "summary": "Mission telemetry diverges from visible reality",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "trigger": "on_timer",
+    "pressure": "medium",
+    "required_checks": [
+      "Intimidation",
+      "Spurious Logic"
+    ],
+    "complication": "friendly_fire_risk",
+    "payoff": "temporary_clearance"
+  }
+}

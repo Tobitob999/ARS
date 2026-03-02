@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0111_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 111, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 111,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Wenn der \nTeilnehmer mit dem niedrigsten Initiativeergebnis gehandelt \nhat, endet die Kampfrunde, und die nächste Kampfrun-\nde beginnt wieder mit dem höchsten Initiativeergebnis. Wenn bei Initiativeergebnissen ein Gleichstand besteht, \nwird er aufgelöst, indem man bestimmte Attribute der \nbetroffenen Charaktere vergleicht. Die Reihenfolge dieser \nVergleiche wird mit ERIM abgekürzt: Edge, Reaktion, \nIntuition, Münzwurf. Wenn bei einem dieser Vergleiche \nfestgestellt wird, dass einer der Charaktere einen höheren \nWert im betreffenden Attribut hat, darf er zuerst handeln. Der Münzwurf am Ende wird auf jeden Fall dafür sorgen, \ndass der Gleichstand aufgelöst wird. Zwischen den Kampfrunden wird die Initiative nicht \ndurch neues Würfeln festgelegt. Die Reihenfolge aus der \nvorigen Runde bleibt bestehen – bis auf Veränderungen \ndes Initiativeergebnisses, die durch Verletzungen, spezielle \nEffekte usw. entstehen. Kampfrunde\nEine Kampfrunde dauert in der Spielwelt von Shadowrun\netwa 3 Sekunden. In einer Kampfrunde erhält jeder Teil-\nnehmer die Möglichkeit, eine bestimmte Anzahl an Hand-\nlungen durchzuführen. Grundsätzlich darf jeder Charakter \n1 Nebenhandlung und 1 Haupthandlung pro Kampfrunde \ndurchführen. Pro Initiativewürfel erhält ein Charakter 1 \nzusätzliche Nebenhandlung. Man darf Haupt- und Nebenhandlungen mit gewissen \nEinschränkungen austauschen: Eine Haupthandlung kann \nman ganz einfach für eine Nebenhandlung verwenden. Ein Charakter kann auch 4 Nebenhandlungen gegen 1 \nHaupthandlung eintauschen. Charaktere können ihren Zug in einer Runde nie mit \nmehr als 5 Nebenhandlungen beginnen.",
+    "topic": "combat.initiative",
+    "keywords": [
+      "kampfrunde",
+      "charaktere",
+      "einer",
+      "darf",
+      "nebenhandlung",
+      "haupthandlung",
+      "initiativeergebnis",
+      "gleichstand"
+    ]
+  }
+}

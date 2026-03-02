@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0171_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 171, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 171,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Für jeweils einen \nWürfelpoolmalus von -1 auf deine Zauberprobe kannst \ndu die Flächenwirkung des Zaubers um 1 Meter Radius \nausdehnen, verringern oder eine Kugel von 1 Meter Radi-\nus erschaffen, die nicht von der Zauberwirkung betroffen \nist (denk daran, dass einige Critter und Metatypen grö-\nßere „Schutzblasen“ brauchen als andere). Du musst den \nEinsatz dieser Metamagie beim Wirken des Flächenzau-\nbers ansagen. Du darfst keinen höheren Würfelpoolmalus \nin Kauf nehmen, als dein Magieattribut beträgt. Anders \nals die Anpassung Fläche Vergrößern hat diese Metama-\ngie keine Auswirkung auf den Entzugswert des Zaubers. Zentrierung\nEin Zauberer, der die Zentrierung beherrscht, kann Ent-\nzug besser widerstehen. Indem du eine mundane Hand-\nlung durchführst, die zu deiner Tradition passt, deinen \nGeist beruhigt und Störungen ausblendet, erhältst du bei \nallen Entzugswiderstandsproben einen Würfelpoolbonus \nin Höhe deines Initiatengrads. Die Zentrierung ist eine \nNebenhandlung. Die genaue Technik kannst du selbst be-\nstimmen. Sie muss natürlich zu deiner Tradition passen. Es könnte sich um lateinische Sprechgesänge, das Spie-\nlen eines Instruments, Tanz, Gesang, geheimnisvolle Ges-\nten, das Anrufen uralter Götter oder Ähnliches handeln \n– Hauptsache, es ist auffällig. Wenn du die Zentrierung \nnicht durchführen kannst (weil du zum Beispiel gefesselt \nbist und keine Gesten machen kannst), kannst du diese \nMetamagie nicht einsetzen.",
+    "topic": "magic.spells",
+    "keywords": [
+      "kannst",
+      "zentrierung",
+      "einen",
+      "wuerfelpoolmalus",
+      "zaubers",
+      "meter",
+      "metamagie",
+      "diese"
+    ]
+  }
+}

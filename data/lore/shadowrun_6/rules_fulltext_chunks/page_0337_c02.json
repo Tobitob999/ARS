@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0337_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 337, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 337,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "158\nAfrika .................................................33\nAG Chemie .......................306, 308, 311\nÄgypten ..............................................33\nAirburst-Verbindung \n (Waffenzubehör) ...........................259\nAK-97 (Sturmgewehr) ......................256\nAktionssofts (Software) ...................272\nAktive Programmslots ......................245\nAlabama Space City ...........................34\nAlamais ........................................15, 23\nAlarmanlagen ...................................241\nAlchemie ..........................................152\nAlchemiefokus .................................157\nAlchemistisches Erzeugnis .......151, 156\nAlgerien ..............................................33\nAlgonkin-Manitu-Rat ..........................32\nAlkohol (Droge) ................................126\nAllergie (Critterschwäche) ................228\nAllergie (Nachteil) ..............................78\nAllianz Deutscher Länder ...........33, 306\nAmazonien .........................................33\nAnalytischer Geist (Vorteil) ................74\nAnfangsausrüstung ..........................246\nAngesagtes Ziel – Entwaffnen \n (Edge-Handlung) .............................48\nAngesagtes Ziel – Lebenswichtige \n Organe (Edge-Handlung) ................48\nAngriff (Handlung) .............................44\nAngriff (Matrixattribut) .....................175\nAngriffe mit der Nebenhand .............113\nAngriffe mit Fahrzeugen ...................200\nAngriffsprobe ...................................107\nAngriffswert .........................41, 70, 245\nAngriffswert/Reichweite ...................111\nAngriffswerte von Granaten .............",
+    "topic": "combat",
+    "keywords": [
+      "handlung",
+      "allergie",
+      "angesagtes",
+      "ziel",
+      "edge",
+      "angriff",
+      "afrika",
+      "chemie"
+    ]
+  }
+}

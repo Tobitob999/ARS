@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_00_preface_p0004_c02",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_00_preface",
+    "chapter"
+  ],
+  "summary": "Rule chunk from Preface page 4, chunk 2.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_00_preface",
+    "source_title": "Preface",
+    "page": 4,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "An adventure is a story which the gamemaster puts your characters through. If you know all the surprises and the details of the plot in advance, it's not going to be very interesting when you play. Attention, Gamemaster! Oh, fortunate one! Beloved of The Computer, you are cleared forall data, Read Paranoia for Players’ so you know what your players know. Then, ead the rest ofthe book Don\" feel that you have to memorize ‘everything; Paranoia is a game of freeavheeting improvisation, and if you forget a rule or miss an important detail, we suggest you just blll itout If you're a novice, “An Introduction to Gamemastering” (pages 29 though 34) teaches YOU the basics. If you're experienced, \"Game: mastering Paranoia’ (pages 91 through 106) provides advanced suggestions and advice for how to maintain the proper atmosphere of ignorance and fear, and reduce your players to quivering submission. Rookies don't need to worry about the advanced stuff, though; learn the basics, and get going. ‘We include rules for character generation in “Paranoia for Players” However, the first few times you play, we suggest you use pregenerated characters Fold-Out D provides Six pregenerated character sheets; fold it out, Cutoff, hack up the sheets, and hand them ‘out to your players. If you dont want to ruin this great work of art, trusting that it will one day have the same resale value asa Shakespeare fist folio or Fantastic Four 8, fel free to photocopy the character sheets and cut up your copies.",
+    "topic": "combat.initiative",
+    "keywords": [
+      "players",
+      "paranoia",
+      "know",
+      "character",
+      "sheets",
+      "gamemaster",
+      "through",
+      "going"
+    ]
+  }
+}

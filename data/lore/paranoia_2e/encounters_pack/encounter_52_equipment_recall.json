@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "category": "encounter",
+  "id": "equipment_recall_52",
+  "name": "R&D remotely recalls a mission-critical prototype #52",
+  "tags": [
+    "paranoia_2e",
+    "encounter",
+    "batch_06"
+  ],
+  "summary": "R&D remotely recalls a mission-critical prototype",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "trigger": "on_accusation",
+    "pressure": "low",
+    "required_checks": [
+      "Data Analysis",
+      "Laser Weapons"
+    ],
+    "complication": "friendly_fire_risk",
+    "payoff": "temporary_clearance"
+  }
+}

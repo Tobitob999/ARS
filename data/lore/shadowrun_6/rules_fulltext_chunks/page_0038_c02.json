@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0038_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 38, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 38,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Wenn du \nauf die Datenbank deiner Erinnerung zugreifen willst, legt \nder Spielleiter einen Schwellenwert fest, der von Alter und \nKomplexität der Information abhängt, und dann kannst \ndu eine Probe ablegen, um zu erkennen, ob du dich an die \ngewünschte Information erinnern kannst. Es kann darum \ngehen, sich an ein Gesicht zu erinnern, an eine wichtige \nInformation, an ein Detail aus der Vergangenheit, das beim \nVerstehen dessen hilft, was in diesem Moment passiert, oder \num andere geistige Leistungen. Heben/Tragen \n(K onstitution + Willenskraft)\nWie jeder professionelle Kraftdreikämpfer oder CrossFit- \nChampion dir sagen kann, geht es nicht nur um Muskeln. Man braucht den Willen zum Durchhalten, um dieses letzte \nBisschen für die großen Leistungen herauszukitzeln. Wenn es \ndarum geht, einen Kollegen aus der Gefahrenzone zu ziehen \noder ein Auto umzuwerfen, um von der Flucht abzulenken, \nkommt diese Probe zum Einsatz, um festzulegen, ob es funk-\ntioniert. Charaktere können von Natur aus Stärke × Stärke × \n10 Kilogramm heben. Wenn sie ein Gewicht über den Kopf \nheben oder tragen müssen, beträgt der Multiplikator nur 5 \nstatt 10. Durch eine Probe auf Heben/Tragen steigt die Stärke \nfür diese Berechnung um 1 pro Erfolg. Außerdem wird durch \ndiese Probe 1 Kästchen Betäubungsschaden verursacht, dem \nmit Konstitution widerstanden wird. Der Schaden steigt pro \nKampfrunde, in der man das Gewicht hält oder trägt, um 1. Menschenkenntnis \n(Willenskraft + Intuition)\nManchmal ist es einfach nötig, jemanden einschätzen zu \nkönnen. Dazu ist die Probe auf Menschenkenntnis hervor-\nragend geeignet.",
+    "topic": "astral",
+    "keywords": [
+      "probe",
+      "heben",
+      "information",
+      "tragen",
+      "diese",
+      "staerke",
+      "einen",
+      "kannst"
+    ]
+  }
+}

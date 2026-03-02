@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0181_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 181, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 181,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Befehl vort äuschen\n(illegal) Cracken + Logik gegen Da ten-\nverarbeitung + Firew all oder Pilot +\nFirew all (Haupthandlung)\nGast/User/Admin\nDu sendest einem Gerät ein Signal mit einem Befehl, von \ndem es glaubt, er käme von seinem Besitzer. Das Gerät \nversucht dann automatisch, die befohlene Handlung als \nseine nächste verfügbare Haupthandlung durchzuführen. Brute Force\n(illegal) Cracken + Logik gegen Willenskraft \n+ Firew all oder Firew all \n×\n 2 (Haupthandlung)\nGast/User/Admin\nDiese Handlung ist mit dem Attribut Angriff verbunden. Du greifst ein Gerät direkt an und überflutest es mit \nAnfragen, Befehlen, Abfragen und anderem Müllcode, um \neine Sicherheitslücke zu schaffen, über die du Zugang er-\nhalten kannst. Brute Force\n ist mit Abstand der schnellste \nWeg, um illegalen Zugang zu einem Gerät zu erhalten, \naber auch ziemlich riskant. Der Einsatz von \n Brute Force\nalarmiert immer das Gerät, zu dem du Zugang zu erhal-\nten versuchst, daher steigt dein Overwatch-Wert mit jeder \nBrute- Force\n-Probe. Solltest du bei einem Versuch scheitern, \nmit \nBrute Force\n Zugang zu erhalten, kannst du in der \nnächsten Kampfrunde einen neuen unternehmen. Wenn du versuchst, als Gast einen User-Zugang oder als \nUser einen Admin-Zugang zu erhalten, besteht der Würfel-\npool der Gegenseite aus Willenskraft + Firewall. Wenn du \nversuchst, einen Admin-Zugang zu erhalten, ohne zuvor \neinen User-Zugang erhalten zu haben, besteht der Würfel-\npool der Gegenseite aus Willenskraft + Firewall + 2, und \nDa tei cracken\n(illegal) Cracken + Logik gegen Ver-\nschlüsselungsstufe \n×\n 2 (Haupthandlung)\nUser/Admin\nDu entfernst den Schutz einer Datei, wodurch sie lesbar wird.",
+    "topic": "general",
+    "keywords": [
+      "zugang",
+      "user",
+      "admin",
+      "geraet",
+      "brute",
+      "force",
+      "erhalten",
+      "einen"
+    ]
+  }
+}

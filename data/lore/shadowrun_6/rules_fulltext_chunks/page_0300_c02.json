@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0300_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 300, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 300,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Dank seiner eingebauten Panzerung \nist er weltweit einer der meistverkauften Lieferwagen und \nwird gerne von Runnern gewählt, die den Schutz und die \nAnonymität dieses allgegenwärtigen Transportfahrzeugs \nschätzen. Der Bulldog bietet reichlich Platz für Ausrüstung, \nDrohnen, Pakete oder ein paar Trolle. Und mit der richtigen \nLackierung fällt er nirgends auf. Mitsubishi Nightsky\nDiese gepanzerte Limousine wird von Konzernmanagern, \nMedienstars und Mr Johnsons verwendet, um zu demons-\ntrieren, wie der wohlhabende Teil der Bevölkerung lebt. Schnittig, stylish und leistungsstark, ist der Nightsky ein \ngefährliches Ziel und ein dekadentes Transportmittel. Range Rover Model 2080\nAuch wenn ihn sein Preis für die meisten zu einem Status-\nsymbol macht, kann doch niemand leugnen, dass der Ge-\ngenwert des Model 2080 in Gestalt von Annehmlichkeiten \nund Optionen seinem Preis voll und ganz entspricht. In \nden meisten Fällen rollt er zwar durch keine gefährlicheren \nGegenden als Gated Communities, aber er \nist absolut geeignet für einen Run im Dreck \nund in der Wildnis. Aufgrund seiner Größe, \nder Ausstattung und der Anonymität in rei-\nchen Wohngegenden wurden der Wagen und \nseine Vorgängermodelle häufig von Sicher-\nheitsfirmen verwendet, was bedeutet, dass es \nmittlerweile einige auf dem Secondhandmarkt \ngibt – wenn es einem nichts ausmacht, ein \nbisschen Blut aufzuwischen und einige Ein-\nschusslöcher zu stopfen. Aber das gehört ja \nfür einen Runner zum täglichen Brot. Ares Roadmaster\nDieser Transport-Lkw ist gebaut wie ein Panzer. Der Road-\nmaster wird auf der ganzen Welt auf Überlandstrecken \neingesetzt, wo es oft nur so von Go-Gangs und nomadischen \nJägern wimmelt.",
+    "topic": "rigger",
+    "keywords": [
+      "seiner",
+      "anonymitaet",
+      "nightsky",
+      "verwendet",
+      "model",
+      "preis",
+      "meisten",
+      "einem"
+    ]
+  }
+}

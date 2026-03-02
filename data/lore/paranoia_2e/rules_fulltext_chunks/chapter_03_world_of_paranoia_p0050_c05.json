@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_03_world_of_paranoia_p0050_c05",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_03_world_of_paranoia",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The World of Paranoia page 50, chunk 5.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_03_world_of_paranoia",
+    "source_title": "The World of Paranoia",
+    "page": 50,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "JUST SAY “NO TO SECRET \n50",
+    "topic": "general",
+    "keywords": [
+      "just",
+      "secret"
+    ]
+  }
+}

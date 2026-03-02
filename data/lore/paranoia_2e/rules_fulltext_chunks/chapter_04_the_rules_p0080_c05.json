@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_04_the_rules_p0080_c05",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_04_the_rules",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The Rules page 80, chunk 5.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_04_the_rules",
+    "source_title": "The Rules",
+    "page": 80,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "raw_text": "Remedy: A successful weapon skill roll prevents the ice gun from shattering, but the ‘weapon cannot be repaired, \nI Energy Weapons The principles by which the blaster and cenerpy pistol work are so secret that virtually no one knows them. The blaster is a large (2foot long) weapon fired with one hand \n80",
+    "topic": "combat",
+    "keywords": [
+      "weapon",
+      "blaster",
+      "remedy",
+      "successful",
+      "skill",
+      "roll",
+      "prevents",
+      "shattering"
+    ]
+  }
+}

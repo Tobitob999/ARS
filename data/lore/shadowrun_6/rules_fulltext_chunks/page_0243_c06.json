@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0243_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 243, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 243,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Manche Schalldetekto-\nren sind darauf programmiert, nur dann ein Alarmsignal \nabzugeben, wenn sie bestimmte Geräusche erkennen, wie \nzum Beispiel Schüsse (dabei kann durch Triangulation \nmehrerer Detektoren möglicherweise sogar die Quelle des \nGeräusches festgestellt werden). Überwachungskameras\n gibt es in vielen Varianten, von \nden normalen visuellen Kameras bis hin zu Restlichtver-\nstärkungs-, Infrarot- oder Ultraviolettkameras oder -sen-\nstärkungs-, Infrarot- oder Ultraviolettkameras oder -sen-\nsoren. Kameras unterstützen in belebten Bereichen die \nsoren. Kameras unterstützen in belebten Bereichen die \npatrouillierenden Wachen und behalten Bereiche im Auge, \npatrouillierenden Wachen und behalten Bereiche im Auge, \ndie gerade nicht physisch oder astral kontrolliert werden. die gerade nicht physisch oder astral kontrolliert werden. Infrarotkameras reagieren auf die Wärmesignaturen leben-\nInfrarotkameras reagieren auf die Wärmesignaturen leben-\nder Körper (können jedoch eventuell durch den Zauber \nder Körper (können jedoch eventuell durch den Zauber \nVerbesserte Unsichtbarkeit überlistet werden). Ein beliebter \nVerbesserte Unsichtbarkeit überlistet werden). Ein beliebter \nÜberwachungstrick besteht darin, Infrarotlicht reflektieren-\nÜberwachungstrick besteht darin, Infrarotlicht reflektieren-\nde Oberflächen so in Ecken anzubringen, dass eine Kamera \nde Oberflächen so in Ecken anzubringen, dass eine Kamera \ndie Eindringlinge quasi um die Ecke herum entdecken kann, \ndie Eindringlinge quasi um die Ecke herum entdecken kann, \nohne selbst gesehen zu werden. Restlichtverstärkungssen-\nohne selbst gesehen zu werden.",
+    "topic": "clearance",
+    "keywords": [
+      "durch",
+      "kameras",
+      "staerkungs",
+      "infrarot",
+      "ultraviolettkameras",
+      "soren",
+      "unterstuetzen",
+      "belebten"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0176_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 176, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 176,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "• \n Schleicher\n ist das Heimlichkeits-Attribut einer Per-\nsona und steht dafür, wie leicht sie sich verbergen \nund an ihre Umgebung anpassen kann, sodass sie \nwie ein normales Icon unter normalen Icons aussieht \nund damit im Prinzip verschwindet. • \n Datenverarbeitung\n ist die pure Rechenleistung einer \nPersona und bestimmt, wie schnell sie Informationen \nverarbeiten kann. Außerdem steht Datenverarbei-\ntung für die Zahl der Geräte, die als Slaves der ent-\nsprechenden Persona eingebunden werden können. • \n Firewall\n ist das Verteidigungsattribut einer Persona. Es steht dafür, wie gut die Persona gegen Angriffe \nund nicht autorisierte Zugriffsversuche geschützt ist. Wenn du ein Decker bist, hängen die Matrixattribute \ndeiner Persona von den Geräten ab, mit denen du die Ma-\ntrix benutzt. Um einen vollen Satz an Matrixattributen zu \nhaben, brauchst du ein Kommlink (oder besser noch eine \nCyberbuchse) für Datenverarbeitung und Firewall und ein \nCyberdeck für Angriff und Schleicher. Du kannst bei deiner \nPersona alle Attribute austauschen, die nicht 0 betragen, \nauch wenn sie von unterschiedlichen Geräten stammen (s. Matrixattribute austauschen\n, S. 182). Du kannst also zum \nBeispiel aus ASDF 7631 (die du von deinem Kommlink \nTyp Transys Avalon und deinem Cyberdeck Typ Renraku \nKitsune bekommst) ASDF 1637 machen, falls du gerade in \neinem Host herumschleichst und dich gegen IC schützen \nwillst. Geräte haben einen Matrix-Zustandsmonitor mit \n[8 + (Gerätestufe ÷ 2, aufgerundet)] Kästchen. Alle Proben, \nbei denen ein beschädigtes Gerät benutzt wird, werden mit \neinem Würfelpoolmalus von -1 pro drei Kästchen Mat-\nrixschaden durchgeführt, bis das Gerät repariert wurde.",
+    "topic": "general",
+    "keywords": [
+      "persona",
+      "einer",
+      "steht",
+      "schleicher",
+      "dafuer",
+      "datenverarbeitung",
+      "geraete",
+      "firewall"
+    ]
+  }
+}

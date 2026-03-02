@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0.0",
+  "category": "item",
+  "id": "gear_27_doctrine_projector",
+  "name": "Doctrine Projector",
+  "tags": [
+    "paranoia_2e",
+    "item",
+    "gear_catalog"
+  ],
+  "summary": "Experimental field gear with bureaucratic side effects.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "clearance_required": "Red",
+    "use_case": "surveillance",
+    "risk": "self_report",
+    "charges": 8
+  }
+}

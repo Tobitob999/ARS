@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0122_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 122, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 122,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Er würfelt \nmit seinen 3 Würfeln, erzielt einen normalen Erfolg und einen \nmit dem Schicksalswürfel (der drei Erfolge wert ist), dann \nbenutzt er seine 2 zusätzlichen Edgepunkte, um den Würfel \nohne Erfolg neu zu werfen. Er erzielt eine 5, was insgesamt \n5 Erfolge bedeutet. Carson würfelt mit 10 Würfeln und erzielt 3 Erfolge. Er \nhatte eigentlich nicht vor, von einem Flammenwerfer ge-\ntroffen zu werden, und nutzt sein gesamtes Edge von 4, um \ndie 7 Würfel ohne Erfolge neu zu werfen, erzielt aber nur \n1 Erfolg mehr. Das bedeutet, dass Trip-J gegenüber Carson 1 und ge-\ngenüber dem Westwind 5 Nettoerfolge hat. Schritt vier: Widersteht dem Schaden\nCarson würfelt mit Konstitution gegen den modiﬁ zierten \nSchadenswert des Flammenwerfers von 3K (3K – 1 wegen \ndes schwankenden Angriffs + 1 Nettoerfolg). Er erzielt 2 \nErfolge. Es sieht nicht gut aus. Der Westwind würfelt mit Rumpf 6 gegen den modiﬁ -\nzierten Schadenswert des Flammenwerfers von 7K (3K – 1 \nwegen des schwankenden Angriffs + 5 Nettoerfolge). Der \nWagen schafft 3 Erfolge. In Schritt fünf sehen wir, wie schlimm es wirklich wird! Schritt fünf: Fühl t den Schmerz\nCarson erleidet 1 Kästchen Körperlichen Schaden und erhält \nden Status Brennend. Der Westwind erleidet 4 Kästchen \nSchaden und erhält ebenfalls den Status Brennend. Wirklich \nkein guter Tag für Carson. Mehr Bums\nSprengstoffe können so angebracht und entworfen werden, \ndass sie effektiver wirken, indem ihre Sprengwirkung in \neine Richtung konzentriert wird, um einen bestimmten \nEffekt – wie das Entfernen einer Wand oder das Zerfetzen \neiner anstürmenden Truppe – zu erzielen.",
+    "topic": "edge",
+    "keywords": [
+      "erfolge",
+      "erzielt",
+      "carson",
+      "wuerfelt",
+      "einen",
+      "westwind",
+      "schritt",
+      "schaden"
+    ]
+  }
+}

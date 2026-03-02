@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0136_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 136, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 136,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Er kann \nentscheiden, wie viele Nettoerfolge er wirklich benutzen \nwill, um pro Nettoerfolg sowohl den Initiativewert um \n1 Punkt als auch die Anzahl der Initiativewürfel um 1 \nWürfel zu steigern. Für jeden Nettoerfolg ab dem zweiten, \nder für die Steigerung benutzt wird, steigt der Entzug des \nZaubers kumulativ um 1. Ein Charakter kann insgesamt \nniemals mehr als 5W6 Initiativewürfel haben. SHADOWRUN: SECHSTE EDITION\nZAUBER // MAGIE // 135",
+    "topic": "combat.initiative",
+    "keywords": [
+      "nettoerfolg",
+      "initiativewuerfel",
+      "entscheiden",
+      "viele",
+      "wirklich",
+      "benutzen",
+      "sowohl",
+      "initiativewert"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0224_c08",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 224, chunk 8.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 224,
+    "chunk_index": 8,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Wird der Critter vor Beendigung der Probe gestört oder \nunterbrochen, so wird keine Essenz entzogen. Verlorene \nEssenz wirkt sich auf das Magie- oder Resonanzattribut des \nOpfers aus (s. Essenz\n, S. 40). Sinkt die Essenz des Opfers \nauf 0, so stirbt es. Ein Critter kann seine Essenz maximal auf das Doppelte \nseines natürlichen Maximums erhöhen. Jede Essenz, die \ndarüber hinaus entzogen wird, geht verloren. Ein Critter, der Essenz entzieht, kann mit einer Neben-\nhandlung die gestohlene Lebenskraft in andere Attribute \npumpen, auch in sein Magieattribut. Jeder so verwendete \nPunkt Essenz kann ein Körperliches oder Geistiges Attri-\nbut oder die Magie vorübergehend um +1 steigern. Auf \ndiese Weise können auch mehrere Essenzpunkte in ein \nund dasselbe Attribut gepumpt werden, aber immer nur \nein Punkt pro Nebenhandlung. Die maximale Steigerung, \ndie ein Attribut auf diese Weise erfahren kann, beträgt \n+4. Der Steigerungseffekt hält 12 Stunden lang an, und \ndie eingesetzten Essenzpunkte sind anschließend verloren. Gedankensprache\nART\n HANDLUNG\n REICHWEITE\n DAUER\nM\n Auto\n BF\n Sofort\nEinige intelligente Critter, insbesondere Drachen, besitzen \nkeine komplexen Stimmbänder. Diese Critter sind mittels \ndieser Kraft in der Lage, auf telepathischem Wege mit an-\nderen Lebewesen innerhalb ihres Blickfelds zu kommunizie-\nren. Für diese Kraft existieren keine Sprachbarrieren. Diese \ntelepathische Kommunikation kann nicht mit technischen \nMitteln übertragen werden, wenn diese Critter also mithilfe \nmoderner Technologie kommunizieren wollen, müssen sie \neinen Metamenschen als „Übersetzer“ verwenden.",
+    "topic": "magic",
+    "keywords": [
+      "essenz",
+      "critter",
+      "diese",
+      "keine",
+      "entzogen",
+      "magie",
+      "opfers",
+      "verloren"
+    ]
+  }
+}

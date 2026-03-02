@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0169_c07",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 169, chunk 7.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 169,
+    "chunk_index": 7,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Metamagische Techniken \nsind Prozesse, die deine Interaktion mit der Magie ver-\nbessern. Wenn nicht anders angegeben, kann man jede \nMetamagie nur einmal auswählen. Einige sind nur für \nAdepten (d. h. auch für Magieradepten) zugänglich, und \nandere haben für Adepten nur sehr wenig Nutzen, also \nwähle mit Bedacht! Met amagie\nEs folgt eine Auswahl metamagischer Techniken, die Cha-\nraktere bei einer Initiation auswählen können. Abschirmung\nEin Charakter mit der Metamagie Abschirmung kann sich \nund andere besser vor feindlichen Zaubern schützen. Wenn \nder Zauberer Zauberabwehr ansagt (S. 145), kann er dafür \nzusätzliche Würfel bis zu seinem Initiatengrad verwenden. Diese Zusatzwürfel sind nicht für andere Arten der Anti-\nmagie, wie zum Beispiel das Bannen von Zaubern, nutzbar. Adeptenzentrierung \n(nur Adepten)\nAdeptenzentrierung erlaubt dir, mögliche Nachteile \ndurch schlechte Umgebungsbedingungen wie schlechte \nBeleuchtung, eine herausfordernde Umwelt oder sogar \nherumschwirrende Illusionen zu überwinden. Indem du \neine Zentrierungshandlung durchführst, behältst du deine \nKonzentration bei, sodass Gegner dir gegenüber keinen \nVorteil herausholen können. Wenn sie dich angreifen, kön-\nnen Gegner kein Edge durch Umweltbedingungen erhalten; \nebenso können sie kein Edge durch Veränderungen der \nAngriffs- oder Verteidigungswerte durch Illusionszauber \nerhalten, wenn du dran bist und eine Zentrierungshandlung \ndurchführst, oder wenn sie dran sind, nachdem du diese \nHandlung durchgeführt hast. Die Zentrierungshandlung \nkann sehr einfach sein, sollte aber für jeden aufmerksamen \nBeobachter offensichtlich sein.",
+    "topic": "magic",
+    "keywords": [
+      "durch",
+      "adepten",
+      "andere",
+      "zentrierungshandlung",
+      "techniken",
+      "deine",
+      "magie",
+      "metamagie"
+    ]
+  }
+}

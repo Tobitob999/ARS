@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_01_paranoia_for_players_p0018_c03",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_01_paranoia_for_players",
+    "chapter"
+  ],
+  "summary": "Rule chunk from Paranoia for Players page 18, chunk 3.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_01_paranoia_for_players",
+    "source_title": "Paranoia for Players",
+    "page": 18,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "Having a skill number greater than 19 may not seem real useful, since oll of 20 is always a failure, but remember that your gamemaster will sometimes subtract points or even halve your skill if you are at. tempting something real difficult — and half (of 26, sa, is easier to roll than half of 20. No, you can't save up skill points, Spend ‘em or lose ‘em \nWh Credits \nEvery citizen has a credit balance — the ‘numberof credits he has (or owes) at present. ‘The Computer maintains and stores ths infor. mation. An ‘updated accounting. is always available upon request from The Computer, land is always completely accurate. Always, The value of the credit is something of a mystery to Alpha Complex economists. The standard of exchange is a secret so carefully ‘guarded that The Computer is rumored not to know it, (Rumors are treason.) Upon one prin- Ciple all economists agree — the value fluc: tuates wildly and with no apparent pattern. Fortunately, citizens are rarely permitted to purchase anything with their credits, so the issue is somewhat academic. Occasionally PLC will have a sale on some overstocked item: (Brunton compasses, drill presses, bits of sting, and so forth, but generally The Computer pro- vides — and anything The Computer hasn't provided, you shouldn't be interested in. Now and then esteemed citizens will be offered nice perks (personal autocars, designer jumpsuits, lavish vacations in remote sectors) if they have enough credits to pay for them. And credits are useful for paying fines for offenses like ‘damaging Computer property, vagrancy, and high-sticking \n18",
+    "topic": "skills",
+    "keywords": [
+      "computer",
+      "credits",
+      "always",
+      "skill",
+      "real",
+      "useful",
+      "points",
+      "something"
+    ]
+  }
+}

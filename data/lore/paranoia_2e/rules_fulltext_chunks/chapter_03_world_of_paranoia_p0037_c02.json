@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_03_world_of_paranoia_p0037_c02",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_03_world_of_paranoia",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The World of Paranoia page 37, chunk 2.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_03_world_of_paranoia",
+    "source_title": "The World of Paranoia",
+    "page": 37,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "Their occupations keep them busy and stimulated during the day They have plenty of leisure to spend in the \n‘company of one another and in viewing the charming but bland video entertainments created and produced by The Computer From infancy, citizens are carefully educated in how to be happy. When education fails, drugs are used extensively (0 prevent unhappiness or discomfort Utopia, The daily routine of an Infrared citizen is, something like ths: Rise with hundreds of athers in the barracks. Take a couple of Wakey-wakey pills. Wash and ‘eat a leisurely breakfast. Go to workin the food vats. Have a leisurely lunch with coworkers Work some more in the food. vats. Down a hand{ul of Mello-daze caplets. Return to the barracks, Have a leisurely dinner. Gather with friends in the communal view lounges to view Teela O'Malley adventires. Chat, Relax. Turn in with hundreds of others™Drink a cup of Sleepy:tyme relaxant, Sleep soundly. Alpha Complex society is distinctly and rigidly stratified. Each citizen has a security clearance which ranges. from Infrared to Ultraviolet, A citizen of one security clearance is considered superior to all citizens of lower security clearance and inferior to all higher citizens, A citizen must defer to all superiors at all times. ‘Occasionally a citizen may be assigned to lead a group of other citizens who have the same security clearance. In this case, The Computer designates one member of the ‘group as the group leader and temporarily, authorizes him to give orders to the other members of the mission team as though he were a higher security clewrance. This author ty does not extend to any other citizens.",
+    "topic": "clearance",
+    "keywords": [
+      "citizens",
+      "security",
+      "clearance",
+      "leisurely",
+      "group",
+      "other",
+      "computer",
+      "infrared"
+    ]
+  }
+}

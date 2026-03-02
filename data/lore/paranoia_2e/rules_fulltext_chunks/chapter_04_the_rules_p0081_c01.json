@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_04_the_rules_p0081_c01",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_04_the_rules",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The Rules page 81, chunk 1.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_04_the_rules",
+    "source_title": "The Rules",
+    "page": 81,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "raw_text": "PARANOIA \nwhich has flashy fins and is styled like a Cor- vette; the energy pistol is much smaller, and tends in an antenna surrounded by rings. ‘Malfunction: Rol the die. On an even roll, the ‘weapon stops working. On an odd roll it heats, up suddenly then vaporizes. In the latter case, the holder suffers damage; rll on the Damage Table — treat it as an \"EB\" attack \nRemedy: A successful weapon skill roll prevents vaporization, but the weapon is useless \nWW Needle Guns Needle guns look much like modern automatic hand guns, but appear to be made ‘of plastic. When the User presses a button on the handle, adoor opens to reveal a rol of tiny plastic flechettes, The weapon Is reloaded by removing the spool on which this roll is mounted and replacing it with a new one (much like replacing a typewriter or printer rib bon). When fired, the weapon separates the flechettes, and fires them in a steady stream. Malfunction: The plastic ammunition jams in the pressure chamber and the weapon may ex: plode. Roll the die. On an even roll, the ‘weapon is unusable, On an odd roll, it ex- plodes. In this case, rll for all beings within 1 meter on the Damage Table (reat it as a‘\"P9\" attack) \nRemedy: A successful weapon skill oll clears the jam and prevents an explosion, but the ‘weapon malfunction number decreases by 1 to 18) whenever fired thereafter \nWi Hand Flamer Sort ofa mini-flamethrower; i fires a thin jet of flaming liquid at high velocity \nMalfunction: It may explode. Roll the die; if \nthe rol is even, the weapon stops working. If the roll is odd, the weapon explodes; rol ‘damage for its wielder on the Damage Table (teat it as an “F8\" attack), \nA traitor demonstrates the tangle.",
+    "topic": "combat.attack",
+    "keywords": [
+      "weapon",
+      "roll",
+      "damage",
+      "malfunction",
+      "like",
+      "much",
+      "even",
+      "attack"
+    ]
+  }
+}

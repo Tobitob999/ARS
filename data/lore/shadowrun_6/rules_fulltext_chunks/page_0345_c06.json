@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0345_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 345, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 345,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "32\nSalvenmodus (SM)\n .......................... 112\nSamurai (Slang)\n ................................... 9\nSamuvani-Criscraft Otter (Boot)\n ....... 300\nSaotome-Aquakuppeln\n ....................... 34\nSararimann (Slang)\n .............................. 9\nSatellitenverbindung \n (Elektronikzubehör)\n ....................... 269\nSäure (IC-Art)\n .................................. 187\nSäurestrahl (Zauber)\n ........................ 139\nSäurewelle (Zauber)\n ......................... 139\nScanner\n ............................................ 241\nSchaden, Chemischer\n ...................... 112\nSchaden, Elektrizitäts-\n ...................... 112\nSchaden, Feuer-\n ............................... 112\nSchaden, Kälte-\n ................................ 113\nSchadensarten (elementare usw.)\n .... 112\nSchadenskompensator (Bioware)\n .... 295\nSchadenswert\n .................. 108, 112, 245\nSchadenswiderstand\n ........................ 109\nSchalldämpfer (Waffenzubehör)\n 260\nSchamanische Tradition\n ................... 131\nScharfschützengewehre\n ................... 257\nSchergen\n .......................................... 203\nSchergen-Gruppen\n ........................... 117\nSchicksalswürfel\n ................................ 51\nSchieber (Connection)\n ............... 20, 214\nSchilde\n ............................................. 267\nSchlaﬂ osigkeit (Nachteil)\n ................... 80\nSchlafregulator (Bioware)\n ................ 295\nSchlägertypen und Mobs \n (Schergen)\n .................................... 204\nSchlagring (Nahkampfwaffe)\n ............ 250\nSchlange (Schutzgeist)\n .................... 167\nSchleicher (Matrixattribut)\n ............... 175\nSchleichfahrt\n ....................................",
+    "topic": "magic.spells",
+    "keywords": [
+      "schaden",
+      "schergen",
+      "slang",
+      "zauber",
+      "bioware",
+      "salvenmodus",
+      "samurai",
+      "samuvani"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0094_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 94, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 94,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Met a typ: Troll\nK G R S W L I C EDG ESS\n6 4(5) 3(4) 4 2 2 3 2 3 3,6\nInitiative: 7 + 2W6\nHandlungen: 1 Haupt, 3 Neben\nZustandsmonitor (K/B): 13/9\nVerteidigungswert: 11\nVorteile: Fotograﬁsches Gedächtnis, Infrarotsicht (Meta-\ntypeigenschaft), Magieresistenz, Mut, Robust Gebaut 2 \n(Metatypeigenschaft)\nNachteile: Allergie (Erdbeeren, Mittel), Verpﬂichtungen 2 \n(Partner)\nAktionsfertigkeiten: Athletik 4, Biotech 2 (Erste Hilfe +2), \nElektronik 1, Exotische Waffen (Werfer) 5, Feuerwaffen 6, \nHeimlichkeit 3, Mechanik 2 (Waffenbau +2), Nahkampf 5, \nNatur 2, Wahrnehmung 3\nWissensfertigkeiten: Geograﬁe (Seattler Untergrund),\nSeattler Verbrechersyndikate\nSprachfertigkeiten: Englisch M, Neo-Nahuatl 1, Portugie-\nsisch 1\nBodytech: Cyberaugen [Stufe 4; Bildverbindung, Blitzkom-\npensation, Infrarotsicht, Kamera, Restlichtverstärkung, \nSichtverbesserung, Sichtvergrößerung, Smartlink], \nDermalpanzerung [Stufe 2], Muskelstraffung [Stufe 1], \nReﬂexbooster [Stufe 1], Thrombozytenfabrik\nAusrüstung: gefälschte SIN [Stufe 2; Lizenzen: Cyberware, \nFührerschein, verborgenes Tragen], gefälschte SIN \n [Stufe 3; Lizenzen: Cyberware, Führerschein, verborgenes \nTragen], Gefütterter Mantel [+3], Kommlink [Erika Elite, \nGerätestufe 4; AR-Handschuhe, Troden], Medkit [Stufe 4] \nmit 4 Nachfüllpacks, 2 Schnellziehholster, 10 Stim-Patches \n[Stufe 6]\nWaffen:\nArmtech MGL-6 [Granatwerfer | Schaden wie Granate | \nHM | Angriffswerte –/8/8/3– | 12(s) | Smartgunsystem, \n6 Betäubungsgranaten, 6 Rauchgranaten, 6 Splitter-\ngranaten, 6 Sprenggranaten]\n2 Mossberg CMDT [Schrotﬂinte | Schaden 4K | HM/SM | \nAngriffswerte 5/12/8/–/– | 10(s) | Smartgunsystem, 5 \nErsatzmagazine, 50 Schuss Explosivmunition, \n 50 Schuss Flechettemunition, 50 Schuss Gelmunition, \n50 Schuss Schockermunition, 50 Schuss Standard-\nmunition]\n2 Ruger Super Warhawk [Schwere Pistole | Schaden 4K | \nHM | 10/13/10/–/– | 6(tr) | Smartgunsystem, \n 5 Schnelllader, 20 Schuss APDS-Munition, 20 Schuss \nExplosivmunition, 20 Schuss Gelmunition, 20 Schuss \nSchockermunition, 20 Schuss Standardmunition]\n5 Flash-Packs [Granate | Schaden Geblendet III/Geblendet \nII/Geblendet I | Angriffswerte 8/7/2/–/– | Sprengwirkung \n10 m]\nConnections: Barkeeper (E1/L1), Schieber (E2/L1), \n Troll-Ganger (E1/L2), Waffenhändler (E2/L2)\nLebensstil: Unterschicht (1 Monat bezahlt)\nStartkapital: 4.549 ¥\nW affenspezialistin\nW affenspezialistin\nWenn man jemanden mit etwas töten, verletzen oder um-\nWenn man jemanden mit etwas töten, verletzen oder um-\nhauen kann, hat die Waffenspezialistin es wahrscheinlich \nhauen kann, hat die Waffenspezialistin es wahrscheinlich \nschon benutzt.",
+    "topic": "combat.initiative",
+    "keywords": [
+      "schuss",
+      "stufe",
+      "schaden",
+      "angriffswerte",
+      "smartgunsystem",
+      "geblendet",
+      "troll",
+      "infrarotsicht"
+    ]
+  }
+}

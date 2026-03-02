@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_04_the_rules_p0060_c05",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_04_the_rules",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The Rules page 60, chunk 5.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_04_the_rules",
+    "source_title": "The Rules",
+    "page": 60,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "raw_text": "The survival skill encompasses all aspects of dealing with the wildemess knowledge of plants, animals, terain, naviga- tion, weather, and so forth — Boy Scout Hand- book stuff ‘Make a skill roll whenever a citizen faces critical challenge from Nature, for example when: ‘= Swimming with bulky electronic gear '* Crossing a river gorge on an improvised bridge of lashed saplings. |= * Looking for wild food (dysentery, anyone? ice, tasty mushrooms?) Dealing with cold and hot weather. ‘© Making friends with woodland creatures (yellowjackets, rattlesnakes, and skunks, 10 name a few). Wi Engineering Skills ‘Asa general rule, these skills are used in two ways: to operate the equipment and technologies associated with the specific fields listed (biosciences, chemical, electronic, mechanical or nuclear; and when a player wants to know what his character knows about 4 particular field, When a player asks for information, make a skill oll forthe relevant field, Ifthe skill roll ‘succeeds, give the player the information re- ‘quested. Of course, modify skill numbers for the difficulty of the task and the obscurity of the information, ‘Also make skill rolls when a character tries to operate, repair or sabotage a device associated with a particular type of ‘engineering, Player: Oh my God. What do | know about fuclear power plants? GM: What's your nuclear skil? Player: Unrgh. Six. I don't suppose | know how {o shut tis thing downt you make a skill roll? h, Sure. (Clater) GM: Well, what did you roll? Player: 'm not going to tell you \"mon, e/mon, Player (Hides eyes): Twenty. ‘GM: Aha. Well, you seem to recall something ‘about graphite rods.",
+    "topic": "skills.physical",
+    "keywords": [
+      "skill",
+      "player",
+      "make",
+      "roll",
+      "when",
+      "what",
+      "know",
+      "about"
+    ]
+  }
+}

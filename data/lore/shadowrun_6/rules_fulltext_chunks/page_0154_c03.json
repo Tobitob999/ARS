@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0154_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 154, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 154,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Verwenden \neines alchemistischen \nErzeugnisses\nDas Auslösen eines Erzeugnisses ähnelt dem Wirken ei-\nnes Zaubers, ist aber etwas anders. Statt einer Probe auf \nHexerei + Magie legst du eine Probe auf Wirksamkeit des \nErzeugnisses + Magie des Verzauberers ab. Es gibt keinen \nzusätzlichen Entzug beim Auslösen des Zaubers, denn \nder wurde bereits bei der Herstellung des Erzeugnisses \nabgehandelt. Beispiel: Herstellung eines alchemistischen Erzeugnisses\nAgbele Oku kennt die Gefahren des Runnerlebens, und \nsie weiß, wie wertvoll es ist, einen schnell einsetzbaren \nHeilzauber zu haben, wenn ein Run losgeht. Sie hat einen \nbesonderen purpurnen Minigolfball, den sie mit Vorliebe für \ndiesen Zweck einsetzt. Sie hat ihn ausgehöhlt und benutzt \neinen Trichter, um das nötige Reagens in die Mitte des Balls \nzu füllen. In Schritt 1 muss sie einen Zauber auswählen. Manchmal \nbenutzt sie gerne eine Variante von Heilen (wie Kühlendes \noder Wärmendes Heilen), aber diesmal will sie es direkt \nangehen und wählt einfach nur Heilen aus. Der Entzug dieses \nZaubers beträgt 3. In Schritt 2 legt sie den Auslöser fest, aber weil es sich \num einen Heilzauber handelt, muss sie Befehl auswählen. Dadurch steigt der Entzug um 2 auf 5. Sie hat es bis Schritt 3 geschafft – jetzt muss sie das \nErzeugnis herstellen. Im Moment beträgt der Entzug 5, also \nhat sie fünf Stunden Arbeit vor sich. Das ist ziemlich viel \nEntzug – zum Glück hat Agbele Oku ein paar Reagenzien in \nGestalt getrockneter Haut eines Erwachten Pythons, daher \nverwendet sie 1 Dram, um den Entzug auf 4 zu senken. Der \nZeitaufwand zur Herstellung des Erzeugnisses bleibt bei 5 \nStunden.",
+    "topic": "magic.spells",
+    "keywords": [
+      "erzeugnisses",
+      "entzug",
+      "einen",
+      "eines",
+      "zaubers",
+      "herstellung",
+      "schritt",
+      "heilen"
+    ]
+  }
+}

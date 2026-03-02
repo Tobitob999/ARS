@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0114_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 114, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 114,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Oda will kein Edge ausgeben, wodurch er seine Ver-\nteidigungsprobe mit dem üblichen Würfelpool von 9 \n(Reaktion 6 + Intuition 3) ablegt; er versagt kläglich und \nerzielt 0 Erfolge. Deshalb beschließt er, jetzt doch Edge \nauszugeben, um einen einzelnen Würfel neu zu würfeln, \nund kann aus einer 1 eine 5 machen, wodurch er einen \neinzigen Erfolg bei der Probe hat. Die Ganger haben 1 Nettoerfolg (2 Erfolge – 1 Erfolg) \nund machen mit Schritt 4 weiter. Schritt vier: Widersteht dem Schaden\nOda würfelt mit Konstitution gegen den modiﬁ zierten \nSchadenswert von 3B (Schadenswert der Kette + 1 \nNettoerfolg). Er erzielt 2 Erfolge, was den Schaden auf \n1B senkt. Schritt fünf: Fühl t den Schmerz\nJetzt wird 1 Schadenskästchen auf Odas Betäubungs-\nzustandsmonitor vermerkt; dann vergleichen wir den \nSchaden mit Odas Konstitution von 6, um festzustellen, \nob er niedergeschlagen wurde. Zum Ärger der Ganger \nkann er sich auf den Beinen halten. Käl te\nNiemand hat es gerne, wenn ihm kalt ist. Das Zittern, die \nklappernden Zähne, die Unterkühlung und der Gewebe-\nschaden sind nur einige der Dinge, die einem das Leben \nschwerer machen, wenn man von einem Angriff mit Käl-\nteschaden getroffen wurde. Wenn man durch einen solchen \nAngriff Schaden erleidet, erhält man für 3 Kampfrunden \nden Status Unterkühlt. Außerdem wird der Verteidigungs-\nwert einer Panzerung nach einem solchen Angriff perma-\nnent um 1 gesenkt, wenn der modifizierte Schadenswert \nihren Verteidigungswert übersteigt. Kampfoptionen\nMit Edge-Handlungen (S. 48) hat man zusätzliche Optio-\nnen, die im Kampf genutzt werden können, aber es gibt auch \neinige Optionen, für die man kein Edge ausgeben muss.",
+    "topic": "combat.damage",
+    "keywords": [
+      "schaden",
+      "edge",
+      "erfolge",
+      "einen",
+      "machen",
+      "schritt",
+      "einem",
+      "angriff"
+    ]
+  }
+}

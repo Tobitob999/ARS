@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0101_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 101, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 101,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Im Folgenden findest du eine Liste einiger – aber längst \nnicht aller – möglicher Wissensfertigkeiten. Die Spieler \nkönnen ihre Wissensfertigkeiten in Absprache mit der Spiel-\nleiterin frei bestimmen. • \n Arkana\n• \n Automodelle\n• \n Combatbiking\n• \n Gangs von [Gebiet]\n• \n Geisterarten\n• \n Geschichte der Sechsten Welt\n• \n Geschichte von/des [Region/Geschichtsperiode]\n• \n Hackergruppen\n• \n Konzernpersönlichkeiten\n• \n Luftfahrttechnik\n• \n Magische Gesellschaften\n• \n Magische Traditionen\n• \n Metaebenen\n• \n Ork-Küche\n• \n Orxploitation-Musik\n• \n Politik in [Land]\n• \n Polizeikonzerne\n• \n Sicherheitssysteme\n• \n Spionagetechniken\n• \n Straßen von [Sprawl]\n• \n Tech-Konzerne\n• \n Trideoserien\n• \n Troll-Trashrock\n• \n Urban Brawl\n• \n Virtuelle Nachtclubs\n• \n Waffenhersteller\nSprach-\nfertigkeiten\nDie Sechste Welt ist die Heimat einer Vielzahl von Sprachen. Alle Sprachen, die wir aus unserer Welt kennen, existie-\nren auch weiterhin, aber dazu kommen noch einige neue, \nbeispielsweise Sperethiel, die Sprache der Elfen, Or’zet, \ndie Sprache der Orks, und Stadtsprech, die Sprache der \nStraßen. Zu wissen, welche Sprache man wählen muss, \nkann entscheidend sein, wenn man jemandem eine geheime \nInformation entlocken oder eine gute Beziehung zu einer \nwichtigen Connection aufbauen möchte. Sprachfertigkeiten sind Wissensfertigkeiten mit Spezia-\nlisierungsstufen. Für jede Sprachfertigkeit existieren vier \ndieser Stufen, am Beispiel:\n• \n Sperethiel\n• \n Sperethiel (Spezialist)\n• \n Sperethiel (Experte)\n• \n Sperethiel (Muttersprachler)\nAuf der ersten Stufe erhältst du die Fähigkeit, mithilfe \nvon Wahrnehmungsproben einzelne Fetzen der jeweiligen \nSprache zu verstehen, was dir bisher nicht möglich war.",
+    "topic": "combat",
+    "keywords": [
+      "sperethiel",
+      "sprache",
+      "wissensfertigkeiten",
+      "welt",
+      "geschichte",
+      "magische",
+      "strassen",
+      "einer"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_03_world_of_paranoia_p0046_c04",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_03_world_of_paranoia",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The World of Paranoia page 46, chunk 4.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_03_world_of_paranoia",
+    "source_title": "The World of Paranoia",
+    "page": 46,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "This is \nbecause the society by and large accepts the rules of The Computer as justified. However, the group gives its members whatever information it can to help them ad- vance in security clearance. I it believes that 2 characteris a member of an enemy secret \n46 \nsociety, it will often inform its own congregants of his membership, and encourage them to eliminate him. ‘A Typical FCCP Conversation: FCCCP: Do you believe in The Computer? Citizen: Uh... yes! Certainly. FCCCP: Do you accept the Lord as your per- sonal savior? Citizen: | don't know. What's his security clearance? i Frankenstein Destroyers \nMan has a soul to guide his in- teligence, Robots and computers have no soul, and are therefore evil and amoral. Machines are tools for Man's use Intelligent mechanisms (bionic or mechanical) are a perversion ofthe natural onder, and cannot distinguish between right and wrong, They must be destroyed. Friends: Humanists, PURGE. Enemies: Corpore Metal, Pro Tech, First ‘Church of Christ Computer Programmer. General Description: Each member has an Immediate superior to whom he reports, ‘generally one degree higher than himself. Members ofthe 2nd degree or higher have one ‘or more subordinates who report to them, Orders are relayed down the chain of com- mand, and information and requests relayed up, A’ member is sometimes approached by ther members with whom he is not ac- quainted.",
+    "topic": "clearance",
+    "keywords": [
+      "computer",
+      "members",
+      "them",
+      "society",
+      "information",
+      "security",
+      "clearance",
+      "fcccp"
+    ]
+  }
+}

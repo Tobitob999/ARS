@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0.0",
+  "category": "adventure_asset",
+  "id": "asset_05",
+  "name": "Wanted Bulletin 05",
+  "tags": [
+    "paranoia_2e",
+    "asset",
+    "wanted_bulletin"
+  ],
+  "summary": "Reusable mission-facing artifact for scene setup.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "asset_type": "wanted_bulletin",
+    "scene_role": "setup",
+    "truthfulness": "reliable",
+    "play_hook": "adds_timer"
+  }
+}

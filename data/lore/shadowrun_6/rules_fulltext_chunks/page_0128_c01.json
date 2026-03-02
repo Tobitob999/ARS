@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0128_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 128, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 128,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Alkohol in seinen verschiedenen Formen von Wein \noder Bier bis hin zu Schnaps und Bränden oder verschie-\ndenen wohlschmeckenden Mixgetränken wird in aller \nWelt konsumiert. Heutzutage handelt es sich meistens um \nSyn thahol, der synthetisch hergestellt wird, weil Fermen-\ntierung und Destillation Zeit und damit Nuyen kosten. Bliss\nV ektor: Inhalation, Injektion\nGeschwindigkeit: 1 Kampfrunde\nDauer: [6 – Konstitution] Stunden, mindestens 1 Stunde\nKraft: 8\nWirkung: Reaktion -1, Willenskraft -1, Hohe Schmerz-\ntoleranz (S. 75)\nBliss ist ein beruhigendes Opiat, das aus Schlafmohn \ngewonnen und synthetisiert wird. Es hat seinen Namen \nvon der euphorisierenden Wirkung, die Konsumenten \nverspüren. Wenn du als Spieler einen Bliss-Konsumenten \ndarstellen willst, konzentriere dich auf die Entrücktheit, \nweil die Droge dazu dient, die chaotische, unbefriedigende \nWelt auszusperren. Cram\nV ektor: Einnahme, Inhalation\nGeschwindigkeit: 10 Minuten\nDauer: [12 – Konstitution] Stunden, mindestens 1 Stunde\nKraft: 8\nWirkung: Reaktion +1, +1 Initiativewü rfel\nCram ist ein höchst populäres Stimulans. Wenn die Wir-\nkung endet, bricht der Konsument zusammen und erleidet \n6B Schaden (ohne Widerstandsprobe). Cram-Konsumenten \nsind übermäßig wachsam – fast bis hin zur Paranoia. Sie \nreagieren schnell, oft ohne nachzudenken, und neigen zu \nirrationalen Ausbrüchen. Andere häufige Nebenwirkungen \nsind Nervosität und Zappeligkeit.",
+    "topic": "combat",
+    "keywords": [
+      "bliss",
+      "wirkung",
+      "konsumenten",
+      "cram",
+      "seinen",
+      "welt",
+      "weil",
+      "ektor"
+    ]
+  }
+}

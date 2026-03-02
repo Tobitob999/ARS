@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0348_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 348, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 348,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "9\nZauber\n ................................ 73, 129, 133\nZauber (Ritualmerkmal)\n ................... 146\nZauber anpassen\n .............................. 133\nZauber wirken (Handlung)\n ................. 46\nZauber wirken\n .................................. 133\nZauberabwehr\n .................................. 145\nZauberarten\n ...................................... 134\nZauberbannung\n ................................ 145\nZauberbeschreibungen\n ..................... 134\nZauberdauer\n ..................................... 134\nZauberprobe\n ..................................... 133\nZauberfokus \n (Magische Ausrüstung)\n ......... 157, 296\nZauberformeln \n (Magische Ausrüstung)\n ......... 170, 296\nZauberformung (Metamagie)\n ........... 170\nZauberkategorien\n ............................. 134\nZauberreichweite\n .............................. 134\nZauberspeicher\n ................................ 158\nZauberspruchfokus\n .......................... 158\nZen (Droge)\n ...................................... 128\nZentrierung (Metamagie)\n ................. 170\nZentrierungsfokus\n ............................ 157\nZerberus (Critter)\n ............................. 219\nZerebralbooster (Bioware)\n ............... 295\nZiel ansagen (Handlung)\n .................... 44\nZielen (Handlung)\n .............................. 44\nZielerfassung (Autosoft)\n .................. 201\nZielfernrohr (optisches Gerät)\n .......... 275\nZielfernrohr (Waffenzubehör)\n ........... 261\nZu Fall bringen (Handlung)\n ................ 44\nZugang zu den Metaebenen\n ............. 168\nZürich-Orbital Gemeinschaftsbank\n ..... 22\nZürich-Orbital-Habitat\n ........................ 34\nZusammenﬂ icken (Komplexe Form)\n ...",
+    "topic": "magic.spells",
+    "keywords": [
+      "zauber",
+      "handlung",
+      "wirken",
+      "magische",
+      "ausruestung",
+      "metamagie",
+      "zielfernrohr",
+      "zuerich"
+    ]
+  }
+}

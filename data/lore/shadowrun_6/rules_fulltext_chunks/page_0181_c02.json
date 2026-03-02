@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0181_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 181, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 181,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Da tei cracken\n(illegal) Cracken + Logik gegen Ver-\nschlüsselungsstufe × 2 (Haupthandlung)\nUser/Admin\nDu entfernst den Schutz einer Datei, wodurch sie lesbar wird. Da tei editieren\n(legal) Elektronik + Logik gegen Intuition + \nFirew all oder Schleicher + Firew all \n(Haupthandlung)\nUser/Admin\nDatei editieren erlaubt es, Dateien zu erstellen, zu ändern, \nzu kopieren oder zu löschen. Der Verteidiger ist entweder \nder Host, auf dem die Datei liegt, oder der Besitzer der \nDatei (wenn sie nicht auf einem Host liegt). Mit jeder \nHandlung kann ein Detail der Datei verändert werden: ein \nkurzer Absatz Text, ein Detail eines Bilds oder zwei bis drei \nSekunden Video oder Audio (du musst gemeinsam mit der \nSpielleiterin festlegen, was genau „ein Detail“ bedeutet). Die \nSpielleiterin kann einen Würfelpoolmalus für diese Probe \nfestlegen, wenn du komplizierte oder schwierige Ände-\nrungen vornehmen willst. Wenn du eine Datei fortlaufend \nändern (also etwa dein Team aus einer Videoübertragung \nentfernen) willst, musst du diese Handlung einmal pro \nKampfrunde durchführen, solange du diese Änderungen \nlaufen lassen willst. Wenn du diese Handlung benutzt, um \neine Datei zu kopieren, wirst du zum Besitzer der neuen \nDatei. Wenn die Datei, die du kopieren willst, geschützt \nist (s. Datei cracken), misslingt die Handlung automatisch. Wenn die Datei eine Datenbombe enthält, wird diese ge-\nzündet (denk also daran, Dateien zu überprüfen, bevor du \nsie öffnest).",
+    "topic": "advancement",
+    "keywords": [
+      "datei",
+      "diese",
+      "handlung",
+      "willst",
+      "cracken",
+      "kopieren",
+      "detail",
+      "logik"
+    ]
+  }
+}

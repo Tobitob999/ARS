@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0117_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 117, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 117,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Er steckt \ndie Ladung in das Loch in der Wand und plant die \nSprengung mit einer Probe auf Mechanik 6 + Logik 5; er \nerzielt mit 11 Würfeln 4 Erfolge. Dadurch steigt die Stufe \ndes Sprengstoffs auf 16. Der Vergleich zwischen dem \nSchadenswert von 16 und der Strukturstufe von 15 der \nzustürmt, immer noch ziemlich intakt ist. Schließlich muss der Spielleiter festlegen, ob das entstan-\ndene Loch groß genug ist, um die statische Integrität eines \ngrößeren Abschnitts zu beeinträchtigen, sodass vielleicht \ndie gesamte Struktur nachgibt. Das könnte bedeuten, dass \nTüren bersten, eine Wand einbricht, oder sogar, dass ein \nganzes Gebäude in sich zusammenstürzt, weil tragende \nTeile zerstört wurden. Beispiel: \nSchiessen auf Barrieren - \nFeuerw affe und Holztür\nCottonmouth braucht Sicht auf einige heranstürmende \nWachen, aber Carson Aims hat gerade die Tür geschlos-\nsen. Zum Glück ist Cottonmouth eine kreative Schlangen-\nschamanin. Sie zieht ihren Ruger Super Warhawk und \nschießt einmal auf die massive Holztür zwischen dem \nTeam und den Sicherheitsleuten. Wir vergleichen den \nSchadenswert des Warhawks (4K) mit der Strukturstufe \nder Tür (7) und erkennen, dass er über deren Hälfte liegt. Cottonmouth erhält also ein Guckloch mit 1 Zentimeter \nDurchmesser. Beispiel: \nSchiessen auf Barrieren - \nVollautoma tischer Modus \nund Holztür\nWeiter vorne trifft Grizzly auf eine andere Tür, die aber \nversperrt ist. Er hat keine Lust, Codey B darum zu bitten, \nsich um das Magschloss zu kümmern, oder Carson \ndarum, es zu knacken, also zieht er sein bewährtes AK-\n97 und kümmert sich auf seine Weise um die Tür: mit \neinigen wohlplatzierten vollautomatischen Angriffen.",
+    "topic": "combat.damage",
+    "keywords": [
+      "sich",
+      "holztuer",
+      "cottonmouth",
+      "loch",
+      "wand",
+      "zwischen",
+      "schadenswert",
+      "strukturstufe"
+    ]
+  }
+}

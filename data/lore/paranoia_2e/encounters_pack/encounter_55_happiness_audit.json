@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "category": "encounter",
+  "id": "happiness_audit_55",
+  "name": "Mandatory happiness audit interrupts combat #55",
+  "tags": [
+    "paranoia_2e",
+    "encounter",
+    "batch_06"
+  ],
+  "summary": "Mandatory happiness audit interrupts combat",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "trigger": "on_failure",
+    "pressure": "low",
+    "required_checks": [
+      "Intimidation",
+      "Laser Weapons"
+    ],
+    "complication": "gear_malfunction",
+    "payoff": "equipment_credit"
+  }
+}

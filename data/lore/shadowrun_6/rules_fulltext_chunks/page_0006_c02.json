@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0006_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 6, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 6,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "323\nIndex ..............................................336\nCharakterbogen ...............348\nPegasus Spiele GmbH, Am Straßbach 3, 61169 Friedberg, unter Lizenz von Catalyst Game Labs und Topps Company, Inc. © 2024 Topps Company, Inc. Alle Rechte vorbehalten. Shadowrun und Topps sind Handelsmarken und/oder eingetragene Marken von Topps Company, Inc. in den USA, in Deutschland \nund/oder anderen Staaten. Catalyst Game Labs ist eine Handelsmarke von InMediaRes Productions, LLC. Erratierte Neuausgabe\nISBN 978-3-95789-439-7\nBesuchen Sie uns im Internet:\nWWW.PEGASUS.DE\nWWW.PEGASUSDIGIT AL.DE\nRegeldesign: Brooke Chang, Kevin \nCzarnecki, Jeff Halket, Alexander \nKadar, Michael Messmer, O.C. Presley, \nScott Schletz, Dylan Stangel, Robert \nVolbrecht\nTexte: Kevin Czarnecki, Jason M. Hardy, \nJeff Halket, Michael Messmer, Scott \nSchletz, RJ Thomas, Malik Toms, \nRobert Volbrecht, CZ Wright\nRedaktion: Brooke Chang, Jason Hawks, \nPhilip A. Lee\nCover-Illustration: Benjamin Giletti\nIllustrationen: Andreas „AAS“ Schroth, \nAlyssa Menold, Brian McCranie, Bruno \nBalixa, Celeste Hansen, Daniel Reneau, \nDavid Hovey, Derek Poole, Gareth \nKeenan, Ian King, Jack Hoyle, James \nMosingo, John Stanko, Kat Hardy, \nMarco Mazzoni, Monte Moore, Péter \nTikos, Sarah Lindstrom, Takashi Tan, \nTyler Clark, Victor Moreno\nDesign: Matt Heerdt\nArt Direction: Brent Evans, James \nMosingo\nShadowrun Line Developer: Jason M. Hardy\nExecutive Troubleshooter: Randall N. Bills\nLektorat: Ghislain Bonnotte, Chuck \nBurhanna, Raymond Croteau, Bruce \nFord, Mason Hart, J. Keith Henry, \nFrancis Jose, Philip A.",
+    "topic": "economy",
+    "keywords": [
+      "topps",
+      "company",
+      "jason",
+      "hardy",
+      "pegasus",
+      "catalyst",
+      "game",
+      "labs"
+    ]
+  }
+}

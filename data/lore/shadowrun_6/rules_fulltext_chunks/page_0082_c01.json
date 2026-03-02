@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0082_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 82, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 82,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "es könnte aber auch eine echte Grippe oder Schlimmeres \nsein – jedenfalls hast du noch nie eine Infektion getroffen, \ndie du nicht mit nach Hause genommen und einige Zeit \nbeherbergt hättest. Bonus: 8 Karma\nAuswirkung: Du kannst kein Edge ausgeben, um der Wir-\nkung einer Infektion zu widerstehen. Der Schwellenwert \nfür den Widerstand gegen eine Infektion, der du ausge-\nsetzt bist, steigt um 1. Wenn du unter der Wirkung einer \nInfektion leidest, erhältst du einen Würfelpoolmalus von \n-1 auf alle Proben. Simsinn-Desorientierung\nIrgendwo in den Tiefen deines Gehirns sind ein paar Drähte \nvertauscht. Immer, wenn du die Matrix mit VR benutzt, \nverursacht dir die Desorientierung Unwohlsein. Bonus: 6 Karma\nAuswirkung: Du kannst kein Edge erhalten oder ausgeben, \nwenn du die Matrix über VR benutzt. Außerdem erhältst \ndu den Status Übelkeit (S. 55) eine Stunde lang, nachdem \ndu aus der Matrix ausloggst. SIN-Mensch\nAnders als viele Runner, die entweder keine oder eine kri-\nminelle SIN haben, hast du eine legitime, mit biometrischen \nDaten verknüpfte SIN. Du bist mit ihr – aus eigenem An-\ntrieb oder wegen deiner Familie – stark genug verbunden, \ndass du sie nicht einfach verbrennen kannst. Bonus: 8 Karma\nAuswirkung: Du bezahlst Steuern an die Körperschaft, von \nder du die SIN hast – Megakonzern oder Nation. Das \näußert sich in einer Erhöhung der Lebensstilkosten, die \nmit dieser SIN verknüpft sind, um 10/uni00A0%. Wegen der Daten in der Globalen SIN-Registratur \nbist du leichter zu verfolgen oder zu identifizieren, was \nGegnern 1 Edge verschafft, wenn sie die Handlung Icon \naufspüren gegen dich versuchen.",
+    "topic": "edge",
+    "keywords": [
+      "infektion",
+      "hast",
+      "bonus",
+      "karma",
+      "auswirkung",
+      "kannst",
+      "edge",
+      "einer"
+    ]
+  }
+}

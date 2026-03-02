@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_05_gamemastering_paranoia_p0091_c01",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_05_gamemastering_paranoia",
+    "chapter"
+  ],
+  "summary": "Rule chunk from Gamemastering Paranoia page 91, chunk 1.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_05_gamemastering_paranoia",
+    "source_title": "Gamemastering Paranoia",
+    "page": 91,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "d \nGamemastering \nParanoia",
+    "topic": "general",
+    "keywords": [
+      "gamemastering",
+      "paranoia"
+    ]
+  }
+}

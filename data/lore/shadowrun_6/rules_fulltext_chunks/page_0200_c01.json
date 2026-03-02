@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0200_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 200, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 200,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Als Zweites solltest du wissen, wie die Geschwindigkeit pro \nKampfrunde in den gängigen Geschwindigkeits-Vergleichs-\nwert Kilometer pro Stunde übersetzt wird. Um Meter pro \nKampfrunde in Kilometer pro Stunde umzurechnen, multi-\npliziere den ersten Wert mit 1,2. Eine Geschwindigkeit von \n30 Metern pro Kampfrunde entspricht also 36 km/h, eine Ge-\nschwindigkeit von 50 Metern pro Kampfrunde 60 km/h usw. F ahren und Proben\nFür den normalen Betrieb eines Fahrzeugs sind – wie oben \nbereits erwähnt – weder eine Probe noch das Aufwenden einer \nHandlung erforderlich. Eine Probe muss nur dann abgelegt \nwerden, wenn ein Fahrer mit seinem Fahrzeug etwas Schwieri-\nges tun möchte – zum Beispiel unbemerkt die Verfolgung eines \nanderen Fahrzeugs aufnehmen, bei hoher Geschwindigkeit \ndurch eine Haarnadelkurve rauschen, über eine noch im Bau be-\nfindliche Brücke springen oder andere vergleichbare Manöver. Die wichtigste Probe hierfür ist die Handlingprobe, für die \ndu eine Haupthandlung aufwenden musst und die du ablegst, \num zu bestimmen, ob du das Fahrzeug dazu bringen kannst, \ndas zu tun, was du willst. Der Würfelpool für die Handling-\nprobe setzt sich aus Steuern + Reaktion zusammen (beachte \nhierbei die Tabelle Würfelpools und Werte für Rigger und \nihre Fahrzeuge, S. 200, für Proben im hineingesprungenen \nZustand). Der Grund-Schwellenwert ist der Handlingwert \ndes Fahrzeugs. Denk daran, dass Bodenfahrzeuge zwei Hand-\nlingwerte haben – einen für die Straße und einen für das \nGelände. Der Spielleiter kann diesen Schwellenwert je nach \nSchwierigkeit des Manövers erhöhen oder senken. Wenn zwei Fahrer direkt gegeneinander antreten, kann \nauch eine Vergleichende Probe erforderlich sein.",
+    "topic": "combat",
+    "keywords": [
+      "probe",
+      "kampfrunde",
+      "geschwindigkeit",
+      "fahrzeugs",
+      "wert",
+      "kilometer",
+      "stunde",
+      "metern"
+    ]
+  }
+}

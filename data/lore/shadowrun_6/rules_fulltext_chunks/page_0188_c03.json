@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0188_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 188, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 188,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Verlorene Punkte regenerieren sich mit einer \nGeschwindigkeit von 1 Punkt pro Minute, nachdem der \nEindringling den Host verlassen hat. Teerbaby\nVerteidigung: Logik + Firew all\nTeerbaby geht es darum, dich zu verlangsamen, sodass du \nvon anderem IC erwischt werden kannst oder den Host \nfrustriert verlässt. Wenn Teerbaby im Matrixkampf trifft, \nbelegt es das Ziel mit einer Linksperre. Wirbel\nVerteidigung: Willenskraft + Firew all\nWirbel ist es egal, wie sehr du beschädigt oder verletzt \nwirst – es will dich einfach loswerden. Wenn dieses IC im \nMatrixkampf trifft, zwingt es das Ziel zu einem Neustart, \nwenn das Ziel das nächste Mal am Zug ist und nicht mit \neiner Linksperre belegt ist. Beispiel: \nHostsicherheit und IC\nMungo hat endlich seine Hintertür in den Host des \nHauptquartiers von Stuffer Shack, aber die Spinne, die \nim System ist, schöpft Verdacht. Also startet sie ein \nPatrouillen-IC, das in diesem System wie ein herun-\ntergekommener Hausmeister aussieht, der langsam \nden verchromten Boden des Hosts schrubbt. Mungo \nversucht eine Prüfsummensuche nach den Daten, die \nMr Johnson aus dem Host haben will, und sucht in \njeder Ecke nach der Nadel im Nadelhaufen. Inzwischen \nlegt das Patrouillen-IC eine Vergleichende Probe mit 8 \nWürfeln (Hoststufe 4 × 2) gegen Mungos Willenskraft + \nSchleicher ab und erzielt erstaunliche 8 Erfolge. Das ist \nmehr als ausreichend, um Mungos 4 Erfolge zu schlagen. Die Spinne wird von dem Hausmeister mit müder Geste \nauf Mungos Icon aufmerksam gemacht und startet ein \nKiller-IC, um Mungo ein wenig Matrixschaden zuzufügen, \ndas als schwer bewaffneter Stuffer-Shack-Angestellter \nmit Aztechnologys neuester Maschinenpistole auftritt.",
+    "topic": "combat.defense",
+    "keywords": [
+      "host",
+      "einer",
+      "teerbaby",
+      "ziel",
+      "mungo",
+      "verteidigung",
+      "firew",
+      "dich"
+    ]
+  }
+}

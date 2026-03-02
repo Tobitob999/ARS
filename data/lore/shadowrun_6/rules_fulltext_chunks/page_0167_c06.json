@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0167_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 167, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 167,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Vorteile\nAllgemein:\n Edge-Boosts bei Athletik- oder Heimlich-\nkeits-Proben (nach Wahl der Spielerin) kosten 1 Edge \nweniger als normal\nZauberer:\n Edge-Boosts bei Zaubern, alchemistischen Er-\nzeugnissen und Ritualen der Kategorie Illusion kosten \n1 Edge weniger als normal\nAdept:\n Kraft Spurloser Schritt gratis\nNachteile\nKatzenzauberer spielen mit ihren Opfern. Wenn dir zu \nKampfbeginn eine Probe auf Willenskraft + Charisma (3) \nmisslingt, kannst du keine Angriffe durchführen, die dein \nZiel handlungsunfähig machen würden. Wenn du Körper-\nlichen Schaden erleidest, hört dieses Herumspielen aller-\ndings sofort auf. Ähnliche Archetypen:\n Heimlichkeit, Mysterium\nK ojote\nKojote ist ein Meister der Streiche: der Geist, der nie dort \nist, wo man ihn sucht, und einem immer einen Schritt voraus \nist. Die besten Streiche sind die, von denen niemand weiß, \ndass er sie gespielt hat. Sie sind perfekte Betrügereien, bei \ndenen das Opfer das Gefühl hat, einfach Pech zu haben, \nund nicht weiß, wie übel man ihm mitgespielt hat. Die \nStreiche von Kojote sind nicht immer bösartig, aber auch \nnicht immer unschuldig. Sie sind das, was er haben will, \nund seine Trickkiste ist unerschöpflich.",
+    "topic": "combat.attack",
+    "keywords": [
+      "edge",
+      "streiche",
+      "immer",
+      "boosts",
+      "kosten",
+      "weniger",
+      "normal",
+      "schritt"
+    ]
+  }
+}

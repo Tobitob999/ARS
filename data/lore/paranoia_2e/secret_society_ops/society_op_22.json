@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0.0",
+  "category": "covert_agenda",
+  "id": "society_op_22",
+  "name": "Pro Tech Covert Agenda 22",
+  "tags": [
+    "paranoia_2e",
+    "secret_society",
+    "covert"
+  ],
+  "summary": "Hidden objective package used by Pro Tech cells.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "society": "Pro Tech",
+    "goal": "sabotage_audit",
+    "cover_story": "security_drill",
+    "blowback": "clearance_demotion"
+  }
+}

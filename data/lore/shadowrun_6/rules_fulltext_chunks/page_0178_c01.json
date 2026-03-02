@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0178_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 178, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 178,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Overw a tch-Wert \nund Fokussierung\nSchaut beim Durchführen einer Matrixhandlung nach, ob \nsie legal oder illegal ist. Wenn sie illegal ist, notiert die \nAnzahl der Erfolge des Verteidigers. Hier geht es nicht um \nNettoerfolge, sondern um alle Erfolge der verteidigenden \nSeite. Diese Summe wird zum Overwatch-Wert (OW). Wenn der OW 40 erreicht, kommt es zur Fokussierung. Fokussierung bedeutet, dass GOD deinen Aufenthaltsort \nfeststellt. Wenn das passiert, wird das Gerät, mit dem du die \nletzte illegale Handlung durchgeführt hast – im Regelfall also \ndein Cyberdeck –, lahmgelegt (siehe S. 175). Bei Technoman-\ncern füllt sich ihr Betäubungszustandsmonitor. Außerdem \nwirst du aus der Matrix ausgeworfen, erleidest Auswurf-\nschock (s. u.), und dein physischer Aufenthaltsort wird den \nBehörden mitgeteilt, sodass sie ihre Leute schicken können, \num dich zu schnappen. Der Overwatch-Wert lässt sich nur \nzurücksetzen, wenn man sich aus der Matrix ausloggt. Dinge, die den Overwatch-Wert erhöhen, sind die Fol-\ngenden:\n• Verwendung von Hacking-Programmen: Der OW \nsteigt um 1 für jede Matrixhandlung, die durch ein \nHacking-Programm modifiziert wird. (Das Pro-\ngramm nur geladen zu haben, ohne es aktiv zu \nbenutzen, steigert den OW nicht.)\n• Aufrechterhalten eines illegalen Zugangs zu irgend-\netwas in der Matrix: Der OW steigt um 1 pro Runde \nfür jeden Host, jedes Gerät usw., zu dem du illegalen \nUser-Zugang aufrechterhältst; er steigt um 3 pro \nRunde für jeden Host, jedes Gerät usw., zu dem du \nillegalen Admin-Zugang aufrechterhältst. • Durchführen illegaler Handlungen (s./uni00A0o.): Der OW \nsteigt um 1 pro Erfolg der Gegenseite, unabhängig \ndavon, ob sie sich erfolgreich verteidigt hat.",
+    "topic": "matrix",
+    "keywords": [
+      "wert",
+      "sich",
+      "steigt",
+      "fokussierung",
+      "overwatch",
+      "geraet",
+      "matrix",
+      "illegalen"
+    ]
+  }
+}

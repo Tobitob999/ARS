@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "category": "mission_seed",
+  "id": "mission_seed_07",
+  "name": "Mission Seed 07",
+  "tags": [
+    "paranoia_2e",
+    "mission",
+    "seed"
+  ],
+  "summary": "Troubleshooter cell must secure transit choke point.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "objective": "secure transit choke point",
+    "assigned_by": "PLC",
+    "hidden_agenda": "FCCCP",
+    "twist": "objective_already_completed",
+    "countdown": 8,
+    "failure_cost": "clone_loss"
+  }
+}

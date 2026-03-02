@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0150_c07",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 150, chunk 7.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 150,
+    "chunk_index": 7,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Dieser 1 Nettoerfolg löscht 1 Dienst, was der \neinzige Dienst des Geistes war, sodass dieser auf seine \nHeimatebene zurückkehrt. Kumiho muss jetzt einem \nEntzug in Höhe der Erfolge des Geistes \n×\n 2, also 6, wi-\nderstehen. Sie erzielt mit 11 Würfeln 5 Erfolge, sodass \n1 Kästchen Betäubungsschaden übrig bleibt. Geisterarten\nIn diesem Buch gibt es sechs Geisterarten: Erd-\ngeister, Feuergeister, Luftgeister, Geister des Men-\nschen, Geister des Tieres und Wassergeister. Vier \nvon ihnen sind Elementargeister, die anderen \nbeiden ähneln Tieren und Personen. Ihre \nWerte sind in den folgenden Tabellen an-\ngegeben, die aufgeführten Kräfte findest \ndu ab Seite 221. Jeder Geist erhält eine Zusätzliche Kraft \nfür jeweils drei volle Kraftstufen (keine bis \nKraftstufe 2, eine von 3 bis 5, zwei von 6 \nbis 8 und so weiter). Der Beschwörer wählt \ndie Zusätzlichen Kräfte zum Zeitpunkt des \nHerbeirufens aus, und diese Kräfte können \nnach dem Herbeirufen nicht mehr verän-\ndert werden. Die Attribute von Geistern können \nnicht niedriger als 1 sein, selbst wenn \ndas durch die Berechnung so wäre. Alle \nFertigkeiten, die ein Geist besitzt, haben \neine Stufe gleich seiner Kraftstufe. SHADOWRUN: SECHSTE EDITION\nBESCHWÖREN // MAGIE // 149",
+    "topic": "combat.damage",
+    "keywords": [
+      "geister",
+      "kraefte",
+      "dieser",
+      "dienst",
+      "geistes",
+      "sodass",
+      "erfolge",
+      "kraftstufe"
+    ]
+  }
+}

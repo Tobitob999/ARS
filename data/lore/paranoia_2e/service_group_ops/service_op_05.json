@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "category": "operation_profile",
+  "id": "service_op_05",
+  "name": "PLC Operation Profile 05",
+  "tags": [
+    "paranoia_2e",
+    "service_group",
+    "operation"
+  ],
+  "summary": "Operational doctrine for PLC under stress.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "service_group": "PLC",
+    "mission_bias": "logistics",
+    "standard_assets": [
+      "red_reflec_armor",
+      "docbot_model_v",
+      "multicorder"
+    ],
+    "political_risk": "medium"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0241_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 241, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 241,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Verschlossene Türen \nund andere Mechanismen\nEs gibt verschiedene Möglichkeiten, es Shadowrunnern zu \nerschweren, an Orte zu gelangen, an die sie nicht sollen. Türen und Fenster\nTüren haben eine Strukturstufe von 5 aufwärts; in besseren \nWohngegenden und Büros beträgt sie eher 7 bis 9. Bei Glas \nbeginnt die Strukturstufe bei 2, aber das gilt nur für sehr her-\nuntergekommene Gegenden; wenn sich wirklich interessante \nDinge dahinter befinden, liegt die Strukturstufe bei 9 bis 11. Alle Fenster mit Stufe 4 und höher haben eine reflektierende \nBeschichtung, die per WiFi ein- und ausgeschaltet werden \nkann und hauptsächlich dazu dient, Zauberern den Blick \nauf alles im Inneren zu blockieren. Schlösser\nMechanische Standardschlösser, wie man sie nur in kaum \ntechnisierten, einkommensschwachen Gebieten findet, wer-\nden von den meisten Leuten als kurios betrachtet und als \n„leicht aufzuschießen“ von den anderen. Dennoch können \nsie jemanden für ein paar Sekunden aufhalten. Knacken \nkann man sie mit einem Dietrich-Set und einer Probe auf \nMechanik + Geschicklichkeit mit der Stufe des Schlosses \nals Schwellenwert. Ein Automatischer Dietrich liefert +1 \nWürfel für die Probe. Ein kleines bisschen komplizierter sind Transponder-\nschlüssel, die einen speziell kalibrierten Widerstand ent-\nhalten, mit dem ein Stromkreis im Schloss geschlossen \nwird. Eine Elektronik-Werkzeugkiste wird benötigt, um das \nSchloss zu knacken, ebenfalls mit einer Probe auf Mechanik \n+ Geschicklichkeit (Schlossstufe). Magschlösser sind die am weitesten verbreiteten Schlös-\nser in der Sechsten Welt. Sie sind häufig mit einem Sys-\ntem verbunden, das jedes Öffnen und Schließen der Tür \naufzeichnet.",
+    "topic": "sanity",
+    "keywords": [
+      "tueren",
+      "strukturstufe",
+      "probe",
+      "fenster",
+      "stufe",
+      "knacken",
+      "einem",
+      "dietrich"
+    ]
+  }
+}

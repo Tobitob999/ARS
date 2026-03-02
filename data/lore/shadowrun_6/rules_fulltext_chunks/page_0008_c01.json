@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0008_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 8, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 8,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Willkommen bei Shadowrun, Sechste Edition! Shadowrun, eines der langlebigsten Rollenspielsysteme \nist eine explosive Mischung aus allem, was verschiede-\nne Rollenspielgenres cool macht. Intrigante Bösewichte? Gefährliche Monster? Feuerspuckende Drachen? All das \nwartet auf dich – aber die Bösewichte schleudern mit der \neinen Hand Feuerbälle und verschießen mit der anderen \nExplosivmunition, während die Monster streng geheime \nKonzern-Forschungsanlagen bewachen. Und der Drache? Tja, ihm gehört die Anlage. Bei Shadowrun wirst du all \ndiesen Gefahren ins Auge blicken, während du versuchst, \nin der dystopischen Sechsten Welt zu überleben. Eine neue Edition ist eine Gelegenheit, Bewährtes zu \nverfeinern und gleichzeitig mit Neuem zu experimentieren. Was also hält diese Edition für dich bereit? Die grundlegenden Ziele sind schnell zusammengefasst: \nDie klassischen Kernelemente von Shadowrun – Mensch, \nMagie und Maschine – sollen zu einem flüssigeren Gan-\nzen verschmolzen werden. Die Regeln sollen schneller \nwerden, dir als Spieler jedoch weiterhin eine breite Palette \nan Individualisierungsoptionen und Taktiken bieten. Dieses Shadowrun-Buch ist weniger umfangreich als die \nGrundregelwerke der letzten Editionen, enthält aber den-\nnoch zahlreiche Optionen. Für Spieler, die sich ein noch \ndynamischeres und vor allem erzählerisch getriebenes \nSpiel wünschen, lohnt sich ein Blick auf Shadowrun: An-\narchy, das auch in Zukunft fortgeführt wird. Shadowrun, \nSechste Edition richtet sich an alle Spieler, die sich einen \nhöheren Detailgrad wünschen.",
+    "topic": "sanity",
+    "keywords": [
+      "shadowrun",
+      "edition",
+      "sich",
+      "spieler",
+      "sechste",
+      "allem",
+      "boesewichte",
+      "monster"
+    ]
+  }
+}

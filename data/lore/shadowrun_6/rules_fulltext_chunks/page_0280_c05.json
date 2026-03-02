@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0280_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 280, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 280,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Magnetkarten-K opierer\nDer Magnetkarten-Kopierer ermöglicht es dem Benutzer, \ninnerhalb von Sekunden eine Magnetkarte zu kopieren. Anschließend kann eine neue Magnetkarte mit einer Aus-\ngedehnten Probe auf Elektronik + Logik (2, 10 Minuten) \nangefertigt werden. Die Magnetkarte funktioniert genauso \ngut wie das Original, allerdings reagieren manche Sicher-\nheitssysteme auf ungewöhnliche Doppelverwendungen von \nMagnetkarten – etwa, wenn sich „Dr. Wissenschaftler“ \nZugang zu einem Labor verschafft, in das er bereits zuvor \ngegangen ist, ohne es wieder zu verlassen. Magschlossknacker\nDiese Magschloss-„Rohkarte“ kann in den Kartenleser \njedes Magschlosses eingeschoben werden und lässt ihn \nglauben, dass eine legitime Zugangskarte benutzt wird (s. Magschlösser\n, S. 240). WiFi-Vorteil:\n Der Magschlossknacker erhält einen Bonus \nvon +1 auf seine Stufe. Sicherheitsgerä te \nund Handschellen\nGEGENSTAND\n VERFÜG-\nBARKEIT\n PREIS\nCyberwareblocker\n 3\n 250 ¥\nMagschloss (Stufe 1–9)\n 3\n Stufe \n×\n 100 ¥\n Biometrischer Scanner\n 2\n 200 ¥\n Kartenleser\n 1\n 50 ¥\n Tastatur\n 1\n 50 ¥\nMetall-Handschellen\n 1\n 20 ¥\nPlasstahl-Handschellen\n 2\n 50 ¥\nPlastikstreifen (10 Stück)\n 1\n 5 ¥\nSchloss (Stufe 1–6)\n 2\n Stufe \n×\n 10 ¥\nMagschlossknacker\nMagschlossknacker\nMagschlossknacker\nSHADOWRUN: SECHSTE EDITION\nSICHERHEITSGERÄ TE UND HANDSCHELLEN // Ausrüstung // 279",
+    "topic": "general",
+    "keywords": [
+      "magschlossknacker",
+      "stufe",
+      "handschellen",
+      "magnetkarten",
+      "kartenleser",
+      "sicherheitsgerae",
+      "opierer",
+      "kopierer"
+    ]
+  }
+}

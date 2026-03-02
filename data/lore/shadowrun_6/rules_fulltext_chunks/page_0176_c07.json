@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0176_c07",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 176, chunk 7.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 176,
+    "chunk_index": 7,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Biofeedback-Schaden kann einen \nUser körperlich verletzen oder sogar töten, und das Erleben \neiner virtuellen Welt, die „echter als echt“ ist, hat seine \neigene gefährliche Anziehungskraft. Better-Than-Life-Chips \n(BTLs) nutzen eine ähnliche Technik, um die hyperinten-\nsive und extrem suchterzeugende Erfahrung des Lebens \neiner anderen Person zu ermöglichen. Heißes Sim ist in den \nmeisten Ländern illegal, aber Decker haben oft das Gefühl, \ndass es notwendig ist, um das letzte bisschen Vorsprung \ngegenüber einem Ziel herauszuholen. Lahmgelegte Gerä te\nEin lahmgelegtes Gerät verliert seine komplexe Funktiona-\nlität und hat nur noch die Funktion eines Klumpens funk-\ntionslosen Materials. Einfach gesagt: Es funktioniert nicht, \nweil sein Zustandsmonitor voll ist. In der Fleischwelt kann \nman bei einem lahmgelegten Gerät meistens erkennen, dass \netwas nicht stimmt: Funken sprühen, es knackt und knistert, \nund Rauch steigt auf – alles Anzeichen für ein Problem. Ein \nUser wird, wenn sein Gerät lahmgelegt wird, aus der Matrix \nausgeworfen, und ein User, der in der VR unterwegs war, \nmuss mit Auswurfschock (S. 177) fertigwerden. Das Gerät \nfunktioniert erst wieder, wenn es repariert worden ist. Rep arieren von \n Ma trixschaden\nWas kaputt ist, kann oft repariert werden, wenn man die \nrichtigen Werkzeuge, die nötige Zeit und das Können dafür \nhat. Das Reparieren eines beschädigten Geräts erfordert \neine Ausgedehnte Probe auf Mechanik + Logik (Anzahl der \nSchadenskästchen, 1 Stunde). Das Gerät kann während der \nReparatur nicht benutzt werden, und man braucht für die \nReparatur eine Werkzeugkiste.",
+    "topic": "combat.damage",
+    "keywords": [
+      "geraet",
+      "user",
+      "einer",
+      "seine",
+      "einem",
+      "eines",
+      "funktioniert",
+      "repariert"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0158_c08",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 158, chunk 8.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 158,
+    "chunk_index": 8,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "In \naktiviertem Zustand kannst du ihn auch auf die Astralebene \nmitnehmen. Der Schaden ist beim Astralkampf genauso \nhoch wie beim Kampf auf der physischen Ebene, nur dass \ndu wählen kannst, ob du Körperlichen oder Betäubungs-\nschaden verursachen willst (s. Astralkampf\n, S. 162). Astralkampf\n, S. 162). Astralkampf\nZauberfoki\nZauberfoki verstärken Hexerei. Jeder Zauberfokus ist auf \nRitualzauberei oder eine Zauberkategorie (Heilung, Illu-\nsion, Kampf, Manipulation oder Wahrnehmung) einge-\nstimmt, und diese Kategorie kann nicht verändert werden. Es gibt vier Arten von Zauberfoki:\nSHADOWRUN: SECHSTE EDITION\nFOKI // MAGIE // 157",
+    "topic": "combat.damage",
+    "keywords": [
+      "astralkampf",
+      "zauberfoki",
+      "kannst",
+      "schaden",
+      "beim",
+      "kampf",
+      "aktiviertem",
+      "zustand"
+    ]
+  }
+}

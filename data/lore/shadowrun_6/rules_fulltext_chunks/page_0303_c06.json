@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0303_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 303, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 303,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "MCT Hornet\n(Flugzeugdrohne)\nDank ihrer etwas robusteren Konstruktion kann die Hor-\nnet, eine Verwandte der altehrwürdigen Fly-Spy, größere \nHöhen erreichen und als fliegendes Auge für Runner die-\nnen, die ihre Absichten nicht verraten wollen, sich aber \n MCT Hornet \n MCT Hornet \n MCT Hornet \nSHADOWRUN: SECHSTE EDITION\n302 // Ausrüstung // F AHRZEUGE UND DROHNEN",
+    "topic": "treason",
+    "keywords": [
+      "hornet",
+      "flugzeugdrohne",
+      "dank",
+      "ihrer",
+      "etwas",
+      "robusteren",
+      "konstruktion",
+      "verwandte"
+    ]
+  }
+}

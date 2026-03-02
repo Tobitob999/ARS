@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0243_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 243, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 243,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Induktionsmelder sind Geräte, die die elektrische Ladung \neines metamenschlichen (oder tierischen) Körpers innerhalb \nvon 2 Metern Entfernung messen können. Sie werden häufig \nan der Umzäunung eines Gebäudes, in besonders gesicher-\nten Durchgängen oder an speziellen Objekten angebracht, \nwo sie entweder einen normalen Alarm auslösen oder Si-\ncherheitskameras bzw. andere Maßnahmen aktivieren. Sie \nkönnen aus Redundanzgründen mit Bewegungsmeldern \nkombiniert werden. Schall- und Vibrationsdetektoren verwenden empfind-\nliche Mikrofone, um Geräusche bzw. Vibrationen aufzu-\nspüren. Sie können mit Mustererkennungs-Algorithmen \nprogrammiert werden, um bestimmte Geräusche oder Vi-\nbrationen zu ignorieren, während sie alles aufspüren, was \nnicht innerhalb der vorgegebenen Parameter liegt. Einem \nCharakter, der an einem ihm bekannten Schalldetektor \nvorbeischleichen will, muss eine Probe auf Heimlichkeit \n+ Geschicklichkeit (3) gelingen (der Zauber Stille kann \ndabei hilfreich eingesetzt werden). Manche Schalldetekto-\nren sind darauf programmiert, nur dann ein Alarmsignal \nabzugeben, wenn sie bestimmte Geräusche erkennen, wie \nzum Beispiel Schüsse (dabei kann durch Triangulation \nmehrerer Detektoren möglicherweise sogar die Quelle des \nGeräusches festgestellt werden). Überwachungskameras gibt es in vielen Varianten, von \nden normalen visuellen Kameras bis hin zu Restlichtver-\nstärkungs-, Infrarot- oder Ultraviolettkameras oder -sen-\nsoren. Kameras unterstützen in belebten Bereichen die \npatrouillierenden Wachen und behalten Bereiche im Auge, \ndie gerade nicht physisch oder astral kontrolliert werden.",
+    "topic": "races",
+    "keywords": [
+      "geraeusche",
+      "eines",
+      "innerhalb",
+      "normalen",
+      "programmiert",
+      "bestimmte",
+      "einem",
+      "dabei"
+    ]
+  }
+}

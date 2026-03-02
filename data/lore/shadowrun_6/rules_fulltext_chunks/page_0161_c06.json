@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0161_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 161, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 161,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Vielleicht zaubern \nsie nicht so gut wie Vollzauberer oder haben nicht ganz die \nphysischen Kräfte reiner Adepten, aber ihre Art, diese Fä-\nhigkeiten zu kombinieren, macht sie tödlich – und wertvoll. Bei der Charaktererschaffung teilen Magieradepten ihre \nMagie zwischen Zaubern und Kraftpunkten auf. Sie erhalten \nSHADOWRUN: SECHSTE EDITION\n160 // MAGIE // MAGIERADEPTEN",
+    "topic": "magic.spells",
+    "keywords": [
+      "zaubern",
+      "ihre",
+      "magieradepten",
+      "vielleicht",
+      "vollzauberer",
+      "ganz",
+      "physischen",
+      "kraefte"
+    ]
+  }
+}

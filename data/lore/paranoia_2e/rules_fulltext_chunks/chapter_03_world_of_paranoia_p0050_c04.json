@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_03_world_of_paranoia_p0050_c04",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_03_world_of_paranoia",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The World of Paranoia page 50, chunk 4.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_03_world_of_paranoia",
+    "source_title": "The World of Paranoia",
+    "page": 50,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "Sierra Club members are generally better educated about the natural aspects of the Out- doors, though until they gain firsthand ex- perience with animals, terain, and weathe they tend to be somewhat naive, Members fanatically protect plant and animal life (in- Cluding pests like insects and fungi) wherever it is found — in the Outdoors or in the Complex. . ‘Advancement: Clubs are fairly loosely organ- ized. Sometimes a higher status member re= {quests assistance on a project, but there is no penalty for refusing to help. The higher the member's degree, the greater his knowledge ‘of Nature and the Oudoor, and the more like- ly he will receive assistance when he requests it Characters may advance by introducing tlements of Nature into the complex, by establishing ready access to the Outdoors, per mitting other Club members to visit, and by learning more about the Natural world themselves \nSpecial Rules: Characters can purchase the survival skill at half the normal cost. That is, for every skill point spent on the skill, the characters sill level goes up by two instead (of one. Also, members have generous access to information and Outdoor gear through the society. Though requests generally should be made well in advance, even a request on short notice may yield some response. A Typical Sierra Club Conversation: Citizen: Eeew, yuk. Get it away from me! Sierra Clubber: But look how shiny its arapace is Citizen: | don't care, i's a disgusting slimy thing Sierra Clubber: No it’s not, really snot slimy ‘tall, Look at how he wiggles his litle legs See how brave he ist Citizen: Squash it! Squash itt Sierra Clubber: No! Isn't Nature serene and beautiful? Citizen: Gah.",
+    "topic": "advancement",
+    "keywords": [
+      "sierra",
+      "members",
+      "citizen",
+      "club",
+      "nature",
+      "characters",
+      "skill",
+      "generally"
+    ]
+  }
+}

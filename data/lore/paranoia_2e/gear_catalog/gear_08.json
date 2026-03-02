@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0.0",
+  "category": "item",
+  "id": "gear_08_micro_drone_logger",
+  "name": "Micro Drone Logger",
+  "tags": [
+    "paranoia_2e",
+    "item",
+    "gear_catalog"
+  ],
+  "summary": "Experimental field gear with bureaucratic side effects.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "clearance_required": "Yellow",
+    "use_case": "comms",
+    "risk": "self_report",
+    "charges": 4
+  }
+}

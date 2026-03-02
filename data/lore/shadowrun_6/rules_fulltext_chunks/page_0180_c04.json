@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0180_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 180, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 180,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Mungo braucht \nmehr Glück, wenn er eine Hintertür in dieses überwachte \nSystem öffnen will. Ma trixkampf\nMatrixkampf ähnelt dem normalen Hacken, nur dass die \nHandlungen gegen ein anderes Icon (wie IC oder die Per-\nsona eines Sicherheitsdeckers) durchgeführt werden. Der \nAngriffswert ist gleich der Summe aus Angriff + Schleicher \nder Persona. Der Verteidigungswert ist gleich der Summe \naus Datenverarbeitung + Firewall des Ziels. In diesem Grundregelwerk gibt es zwei Arten des Angriffs \ngegen einen Feind: Datenspike und Teergrube. Angriffe sind \nals Handlungen definiert, die einem Icon direkt Schaden \nzufügen sollen. Ma trixschaden\nMatrixschaden wird für gewöhnlich dem Gerät zugefügt, \ndas man für den Zugang zur Matrix benutzt, bei Deckern \nalso das Cyberdeck. Geräte haben einen Matrix-Zustands-\nmonitor mit [8 + (Gerätestufe ÷ 2, aufgerundet)] Kästchen. Alle Proben, bei denen ein beschädigtes Gerät benutzt wird, \nwerden mit einem Würfelpoolmalus von -1 pro drei Käst-\nchen Matrixschaden durchgeführt, bis das Gerät repariert \nwurde. Wenn der Matrix-Zustandsmonitor voll ist, ist das \nGerät lahmgelegt (s. Lahmgelegte Geräte\n, S. 175). Matrix-\nschaden wird mit Firewall widerstanden. Manchmal hat der Schaden die Gestalt von Biofeed-\nback, das ein Gerät umgeht und direkt den User trifft. Das \nwird als \n Biofeedback-Schaden\n bezeichnet und wird bei \nden relevanten Handlungen und Wirkungen angegeben. Biofeedback-Schaden wird mit Willenskraft widerstanden.",
+    "topic": "combat.attack",
+    "keywords": [
+      "schaden",
+      "geraet",
+      "matrix",
+      "handlungen",
+      "gegen",
+      "icon",
+      "durchgefuehrt",
+      "gleich"
+    ]
+  }
+}

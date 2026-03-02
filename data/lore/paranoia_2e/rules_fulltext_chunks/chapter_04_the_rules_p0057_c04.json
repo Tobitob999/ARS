@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_04_the_rules_p0057_c04",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_04_the_rules",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The Rules page 57, chunk 4.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_04_the_rules",
+    "source_title": "The Rules",
+    "page": 57,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "raw_text": "Modify the user's skill number according 10 his finesse and per suasiveness, and according tothe value ofthe bribe offered. Other factors might be the fanaticism of the target, the chances of detec- tion, and how much danger accepting the boribe puts the target in, \nCon: This skill is used to convince someone to perform an act that is not in his own best Interests Fit fails, the victim is usually con Vinced that the user is slime and not to be trusted under any circumstances ‘A.con relies on the victims acceptance of false logic or information and his belief that he can trust the player character. In this way, itis different from the fst ak skill (ee below, When someone is conned, he is atleast tem- porarily satisfied that the conner is his friend, ‘When someone is fast talked, he is not con vinced, but rather confused and uncertain ‘enough to hesitate while the fast talker gets ‘away with something The victim of a fas talker knows he's been duped; ifa con is successful, its victim may never suspect. ‘Often, getting a victim to do what you want ‘means making several con skill rolls. For ex- ‘ample, suppose a Troubleshooter meets some- ‘ane who knows the location of a cache of an- clent magnetic tapes. The Toubleshooter wants to persuade the citizen to: 1, put down, his gun, 2, cooperate, and 3, lead the PCs to the magnetic tapes, That requires the citizen to make three separate decisions; three con rolls must be made. If, say, the second roll failed, the citizen would balk, and might simp ly tefuse to help, flee, or try to snatch up his gun and fight.",
+    "topic": "skills",
+    "keywords": [
+      "skill",
+      "victim",
+      "someone",
+      "citizen",
+      "user",
+      "according",
+      "might",
+      "target"
+    ]
+  }
+}

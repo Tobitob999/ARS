@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0223_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 223, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 223,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Der Critter kann weiter in jeder \nKampfrunde, in der er die Kraft aufrechterhält, Proben \nauf Willenskraft + Magie ablegen, um das Fahrzeug zu \nbeschleunigen oder zu verlangsamen, solange es sich in \nseiner Domäne/seinem Territorium befindet. Je nach Situ-\nation können die plötzlichen Geschwindigkeitsänderungen \neine Crashprobe (S. 200) oder eine Steuern-Probe für das \nFahrzeug erforderlich machen. Bewusstsein\nART HANDLUNG REICHWEITE DAUER\nM Auto Selbst Immer\nCritter mit der Kraft Bewusstsein sind sich ihrer selbst be-\nwusst, werden nicht mehr primär vom Instinkt getrieben und \nbesitzen im Allgemeinen eine ähnliche Intelligenz wie der \nHomo sapiens. Die meisten Critter gelten als ahnungslos, was \nbedeutet, dass sie keine Proben auf Fertigkeiten ablegen kön-\nnen, die sie nicht besitzen. Critter mit der Kraft Bewusstsein \nhingegen sind nur ungeübt (siehe S. 95); außerdem sind sie \nin der Lage, neue Fertigkeiten zu erlernen, wenn sie wollen. Die meisten Critter mit Bewusstsein sind mundan, aber \nsie können durchaus Erwacht oder Digital Erwacht sein \nund ein Magie- bzw. Resonanzattribut besitzen. Solche \nCritter sind fähig, auf Magie bzw. Resonanz basierende \nFertigkeiten zu erlernen, und unterliegen denselben Regeln \nwie normale Charaktere. Bindung\nART HANDLUNG REICHWEITE DAUER\nP H Verschieden Sofort\nMittels einer Art Spinnennetz, einer klebrigen Substanz, \neiner klebrigen Zunge oder irgendeiner Art magischer \nWirkung kann ein Critter mit dieser Kraft sein Opfer \ndazu bringen, an einer Oberfläche, die es gerade berührt, \nkleben zu bleiben (das kann auch der Critter selbst sein).",
+    "topic": "combat",
+    "keywords": [
+      "critter",
+      "kraft",
+      "bewusstsein",
+      "einer",
+      "magie",
+      "selbst",
+      "besitzen",
+      "fertigkeiten"
+    ]
+  }
+}

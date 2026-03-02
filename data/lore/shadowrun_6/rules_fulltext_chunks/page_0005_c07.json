@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0005_c07",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 5, chunk 7.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 5,
+    "chunk_index": 7,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "247\nKnüppel\n .............................................. 248\nAndere Nahkampfwaffen\n .................... 249\nProjektil- und Wurfwaffen\n .......... 250\nFeuerwaffen\n .......................... 251\nTaser\n .................................................. 251\nHoldout-Pistolen\n ................................ 251\nLeichte Pistolen\n .................................. 252\nAutomatikpistolen\n .............................. 253\nSchwere Pistolen\n ............................... 253\nMaschinenpistolen\n ............................. 254\nSchrotﬂ inten\n ...................................... 255\nJagdgewehre\n ...................................... 256\nSturmgewehre\n ................................... 256\nScharfschützengewehre\n ..................... 257\nMaschinengewehre\n ............................ 257\nExotische Waffen\n .................... 258\nSpezielle Waffen\n ................................. 258\nGranat- und Raketenwerfer\n ................ 258\nWaffenzubehör\n ....................... 259\nMunition\n ............................... 261\nAlles, was BUMM macht\n............ 262\nGranaten\n ............................................ 262\nRaketen und Lenkraketen\n ................... 263\nSprengstoffe\n ...................................... 264\nKleidung und Panzerung\n ............ 265\nKleidung\n ............................................. 265\nPanzerung\n .......................................... 265\nPanzerungs modiﬁ kationen\n ................. 266\nHelme\n ................................................. 267\nSchilde\n ............................................... 267\nElektronik\n ............................. Elektronik\n .............................",
+    "topic": "combat",
+    "keywords": [
+      "pistolen",
+      "waffen",
+      "kleidung",
+      "panzerung",
+      "elektronik",
+      "knueppel",
+      "andere",
+      "nahkampfwaffen"
+    ]
+  }
+}

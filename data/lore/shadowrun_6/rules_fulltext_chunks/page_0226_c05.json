@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0226_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 226, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 226,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Ma terialisierung\nART\n HANDLUNG\n REICHWEITE\n DAUER\nM\n H\n Selbst\n Aufrechterhalten\nDiese Kraft ermöglicht astralen Wesen, in der physischen \nWelt Gestalt anzunehmen und einen vorübergehenden \n„Körper“ zu erschaffen, den sie während ihres Aufenthalts \nbewohnen. Dadurch können sie mit der physischen Welt \ninteragieren. Ihre körperliche Gestalt setzt sich aus vor \nOrt befindlichen Materialien zusammen, die der Art des \nGeistes entsprechen – aber man beachte, dass dadurch \nkeine Regelschlupflöcher möglich sind: Man kann bei-\nspielsweise nicht einen Geist beschwören, um ein Loch \nin einer Wand zu erzeugen, aus deren Material er sich \nzusammensetzt. Ein Critter mit dieser Kraft erlangt zu-\ndem eine Immunität gegen Normale Waffen (siehe S. 224), solange er materialisiert ist. Die Materialisierung \nerfordert eine Haupthandlung, das Entmaterialisieren \nzur Rückkehr auf die Astralebene hingegen nur eine Ne-\nbenhandlung. Während der Critter materialisiert ist, ist \ner ein Dualwesen. Mimikry\nART\n HANDLUNG\n REICHWEITE\n DAUER\nP\n N\n Selbst\n Aufrechterhalten\nMit dieser Kraft kann ein Critter Geräusche exakt imi-\ntieren, inklusive menschlicher Sprache und der Jagdrufe \nanderer Kreaturen, die er schon einmal gehört hat. Um zu \nerkennen, dass ein nachgeahmtes Geräusch falsch ist, ist \neine Vergleichende Probe auf Wahrnehmung + Intuition \ngegen Charisma + Magie erforderlich. Mystischer P anzer\nART\n HANDLUNG\n REICHWEITE\n DAUER\nM\n Auto\n Selbst\n Immer\nDiese Kraft funktioniert genauso wie die Kraft Panzer, mit \ndem Unterschied, dass sie nur Schutz gegen Angriffe auf \nder Astralebene gewährt.",
+    "topic": "astral",
+    "keywords": [
+      "kraft",
+      "handlung",
+      "reichweite",
+      "dauer",
+      "selbst",
+      "critter",
+      "gegen",
+      "aufrechterhalten"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0262_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 262, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 262,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Zweibein\nDieser zweibeinige Ständer befindet sich unter der Waf-\nfe, wodurch sie nah am Boden abgefeuert werden kann, \nwährend sich der Schütze in einer liegenden oder sitzenden \nHaltung befindet. Ein Zweibein kann an der Unterlauf-\nhalterung einer Waffe befestigt werden und erhöht den \nAngriffswert um +2, wenn es vollständig ausgeklappt ist. Ein Zweibein an der Waffe anzubringen erfordert eine \nHaupthandlung. Um es aus- oder einzuklappen, ist eine \nNebenhandlung erforderlich. WiFi-Vorteil: Der Bonus auf den Angriffswert erhöht sich \nauf +3, wenn liegend oder sitzend gefeuert wird. Munition\nMunition definiert sich durch ihre Art (Standard, Gel, APDS \nusw.) und die Feuerwaffenklasse, für die sie gedacht ist \n(leichte Pistole, schwere Pistole, Gewehr usw.). Näheres da-\nzu findest du in den Tabellen auf Seite 262. Wähle zuerst in \nder Tabelle Munitionskosten nach Waffenart die Waffenart \naus, für die du Munition kaufen willst, und multipliziere \ndiesen Preis dann mit dem Preis-Multiplikator in der Tabelle \nMunitionsarten. Es handelt sich immer um Hülsenmunition, \nsofern nicht explizit die hülsenlose Option gewählt wird. Wenn nicht anders angegeben, kann eine Waffe entweder \nHülsenmunition oder hülsenlose Munition abfeuern, aber \nnicht beides. Waffen einer Klasse können ihre Munition mit \nZweibein\n Unter\n 1\n 200 ¥\nHülsenlose und\nHülsenmunition\nHülsenlose Munition ﬁ ndet man heutzutage nur noch \nselten, seit die Konzerne verstärkt Wert darauf legen, \nnachzuverfolgen, wer was gegen wen unternimmt. Und ohne eine Patronenhülse hat man eine Möglich-\nkeit weniger, einen Übeltäter aufzuspüren.",
+    "topic": "combat.attack",
+    "keywords": [
+      "munition",
+      "sich",
+      "zweibein",
+      "huelsenlose",
+      "einer",
+      "waffe",
+      "huelsenmunition",
+      "befindet"
+    ]
+  }
+}

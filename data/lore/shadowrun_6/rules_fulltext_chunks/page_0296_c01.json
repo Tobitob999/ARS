@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0296_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 296, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 296,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Kul tivierte Biow are\nKultivierte Bioware wird speziell für den Körper, in den sie \nimplantiert werden soll, gezüchtet und genetisch angepasst. Deshalb gibt es sie auch nicht gebraucht. Mnemoverst ärker\nDiese hochkonzentrierte Ballung von grauer Substanz \nwird mit den Gedächtniszentren des Gehirns verbunden \nund verbessert sowohl das Kurz- als auch das Langzeit-\ngedächtnis. Die Stufe des Mnemoverstärkers addiert sich \nals Würfelpoolbonus zu Proben auf Sprachfertigkeiten, zu \nProben, die mit Wissensfertigkeiten zusammenhängen, und \nzu gedächtnisbezogenen Proben. Reflexrek order\nZusätzliches Nervengewebe wird mit bestimmten Körperre-\ngionen verbunden, um das Muskelgedächtnis zu verbessern. Der Reflexrekorder erhöht die Stufe einer Fertigkeit, die \nmit einem Körperlichen Attribut verknüpft ist, um 1. Es \nkönnen mehrere Reflexrekorder für verschiedene Fertig-\nkeiten implantiert werden, aber nicht zwei Reflexrekorder \nfür dieselbe Fertigkeit. Schadensk ompensa tor\nSchadenskompensatoren sind im Wesentlichen Blockade-\nvorrichtungen in den Nervenbahnen, die Schmerzen vom \nKörper ans Gehirn melden. Der Charakter ignoriert eine \nAnzahl von Schadenskästchen (wahlweise Körperlich, Be-\ntäubung oder eine Kombination der beiden) in Höhe der \nStufe des Kompensators, bevor Verletzungsmodifikatoren \nermittelt werden. Schlafregula tor\nDer Schlafregulator ist eine Modifikation am Hypothalamus, \ndie längere Perioden der Wachheit erlaubt – ein unglaublich \nnützlicher Vorteil für jeden mit irgendeinem Beruf, nicht nur \nfür Shadowrunner. Man braucht weniger Schlaf pro Tag, \nund der Schlaf, den man bekommt, ist tief und erholsam \n(außerdem ist man schwerer aufzuwecken).",
+    "topic": "skills",
+    "keywords": [
+      "stufe",
+      "proben",
+      "reflexrekorder",
+      "koerper",
+      "implantiert",
+      "verbunden",
+      "fertigkeit",
+      "schlaf"
+    ]
+  }
+}

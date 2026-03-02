@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0093_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 93, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 93,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Met a typ: Zwerg\nK\n G\n R\n S\n W\n L\n I\n C\n EDG\n R\n ESS\n4\n 2\n 3\n 5\n 7\n 5\n 5\n 5\n 3\n 6\n 6\nInitiative: \n8 + 1W6\nMatrix-Initiative:\n 10 + 3W6 (nur heißes Sim)\n 10 + 3W6 (nur heißes Sim)\nHandlungen:\n 1 Haupt, 2 Neben\n 1 Haupt, 2 Neben\nZustandsmonitor (K/B): \n10/12\n10/12\nVerteidigungswert: \n8\nVorteile:\n Analytischer Geist, Erhöhte Konzentrationsfähigkeit \n Analytischer Geist, Erhöhte Konzentrationsfähigkeit \n2, Härtung, Infrarotsicht (Metatypeigenschaft), Toxinresis-\n2, Härtung, Infrarotsicht (Metatypeigenschaft), Toxinresis-\ntenz (Metatypeigenschaft)\ntenz (Metatypeigenschaft)\nNachteile:\n Allergie (Gras, Mittel), Sozialstress (gesellschaftliche \n Allergie (Gras, Mittel), Sozialstress (gesellschaftliche \nZusammenkünfte)\nAktionsfertigkeiten: \nCracken 3 (Hacken +2), Elektronik 2 \nCracken 3 (Hacken +2), Elektronik 2 \n(Computer +2), Feuerwaffen 1, Steuern 2, Tasken 6 \n(Computer +2), Feuerwaffen 1, Steuern 2, Tasken 6 \n(Kompilieren +2)\nWissensfertigkeiten: \nDrachen,\nDrachen,\n Geograﬁe (Tacoma), \n Hostdesign,\n Kommlinkdesign, Seattler Gangs, \nKommlinkdesign, Seattler Gangs, \n Technomancer-Kneipen\nSprachfertigkeiten: \nEnglisch M\nEnglisch M\nLebende Persona:\n Gerätestufe 6, Angriff 5, Schleicher 5, \n Gerätestufe 6, Angriff 5, Schleicher 5, \nDatenverarbeitung 5, Firewall 7 (plus 6 frei konﬁgurierbare \nDatenverarbeitung 5, Firewall 7 (plus 6 frei konﬁgurierbare \nZusatzpunkte für diese Matrixattribute)\nZusatzpunkte für diese Matrixattribute)\nKomplexe Formen: \nAngriff-Steigerung, Firewall-Senkung, \nAngriff-Steigerung, Firewall-Senkung, \nResonanzspike, Schleicher-Steigerung, Signalsturm, \nResonanzspike, Schleicher-Steigerung, Signalsturm, \nZusammenﬂicken\nAusrüstung: \nBereichs-Störsender [Stufe 4], gefälschte SIN \nBereichs-Störsender [Stufe 4], gefälschte SIN \n[Stufe 2], Kommlink [Meta Link, Gerätestufe 1], \n[Stufe 2], Kommlink [Meta Link, Gerätestufe 1], \n Panzer jacke [+4; Elektrische Isolierung 4], 3 Stim-Patches \n Panzer jacke [+4; Elektrische Isolierung 4], 3 Stim-Patches \n[Stufe 4], Tarnholster\nWaffen:\nWalther Palm Pistol [Holdout-Pistole | Schaden 2K | \nWalther Palm Pistol [Holdout-Pistole | Schaden 2K | \nEM/SM | Angriffswerte 12/7/–/–/– | 6(k) | 50 Schuss \nEM/SM | Angriffswerte 12/7/–/–/– | 6(k) | 50 Schuss \nStandardmunition]\nConnections: \nBarkeeper (E1/L3), Decker (E2/L3), \nBarkeeper (E1/L3), Decker (E2/L3), \n Konzern-Exec (E4/L4), Kopfgeldjäger (E2/L5), \n Konzern-Exec (E4/L4), Kopfgeldjäger (E2/L5), \n Squatter (E1/L2), Taxifahrer (E2/L1)\n Squatter (E1/L2), Taxifahrer (E2/L1)\nLebensstil: \nUnterschicht (1 Monat bezahlt)\nUnterschicht (1 Monat bezahlt)\nStartkapital: \n1.280 ¥\n92 // ARCHETYPEN // TECHNOMANCER\nSHADOWRUN: SECHSTE EDITION",
+    "topic": "combat.initiative",
+    "keywords": [
+      "stufe",
+      "metatypeigenschaft",
+      "geraetestufe",
+      "angriff",
+      "schleicher",
+      "firewall",
+      "steigerung",
+      "initiative"
+    ]
+  }
+}

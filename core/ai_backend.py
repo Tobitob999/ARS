@@ -61,6 +61,19 @@ CACHE_DISPLAY_NAME = "ars-ruleset-cache"
 # Maximale Anzahl gespeicherter Konversationsrunden (aeltere werden abgeschnitten)
 MAX_HISTORY_TURNS = 40
 
+# Monolog-Sperre: max. Saetze bevor ein Hook (Frage/Interaktion) erwartet wird
+MAX_NARRATIVE_SENTENCES = 3
+
+# Tags die als "Hook" zaehlen (Spieler-Interaktion erzwingen)
+_HOOK_PATTERNS = re.compile(
+    r"\[PROBE:|Was tust du|Wohin gehst du|Wie reagierst du|Was machst du|"
+    r"Was sagst du|Was ist dein|Wie gehst du|Was willst du|\?\s*$",
+    re.IGNORECASE | re.MULTILINE,
+)
+
+# Tag-Pattern fuer Bereinigung bei Satz-Zaehlung
+_TAG_STRIP = re.compile(r"\[[^\]]+\]")
+
 
 def extract_probes(text: str) -> list[tuple[str, int]]:
     """
@@ -162,6 +175,9 @@ class GeminiBackend:
             full_response = short_msg
             yield short_msg
 
+        # Monolog-Sperre + Hook-Zwang validieren
+        self._validate_response(full_response)
+
         bus.emit("keeper", "response_complete", {
             "user_message": user_message,
             "response": full_response,
@@ -197,6 +213,40 @@ class GeminiBackend:
         logger.debug("Würfelergebnis injiziert: %s", roll_msg)
         yield from self.chat_stream(roll_msg)
 
+    def _validate_response(self, response: str) -> None:
+        """Prueft Monolog-Laenge und Hook-Zwang, emittiert Warnungen."""
+        bus = EventBus.get()
+
+        # Tags entfernen fuer Satz-Zaehlung
+        clean = _TAG_STRIP.sub("", response).strip()
+        if not clean:
+            return
+
+        # Saetze zaehlen (Punkt/Ausrufezeichen/Fragezeichen)
+        sentences = len(re.findall(r"[.!?]+(?:\s|$)", clean))
+
+        # Hook pruefen (Frage an Spieler oder PROBE-Tag)
+        has_hook = bool(_HOOK_PATTERNS.search(response))
+
+        warnings: list[str] = []
+
+        if sentences > MAX_NARRATIVE_SENTENCES and not has_hook:
+            warnings.append(
+                f"Monolog-Sperre: {sentences} Saetze ohne Hook "
+                f"(max. {MAX_NARRATIVE_SENTENCES}). "
+                f"Antwort sollte mit Frage oder Probe enden."
+            )
+
+        if not has_hook:
+            warnings.append(
+                "Hook-Zwang: Keine Spieler-Interaktion in der Antwort. "
+                "Erwarte Frage, [PROBE:] oder Handlungsaufforderung."
+            )
+
+        for w in warnings:
+            logger.warning("[RESPONSE-CHECK] %s", w)
+            bus.emit("keeper", "response_warning", {"warning": w})
+
     def reset_history(self) -> None:
         """Setzt die Konversationshistorie zurück (neue Session)."""
         self._history.clear()
@@ -212,13 +262,57 @@ class GeminiBackend:
         logger.info("Abenteuer in AI-Backend gesetzt: %s", adventure.get("title", "?"))
 
     def _load_and_merge_lore(self, adventure: dict[str, Any]) -> dict[str, Any]:
-        """Lädt alle Lore-Dateien aus /data/lore und fügt sie dem Abenteuer-Kontext hinzu."""
+        """Laedt regelwerk-spezifische Lore-Dateien und fuegt sie dem Abenteuer-Kontext hinzu.
+
+        Lore-Verzeichnisstruktur:
+          data/lore/cthulhu/npcs/   — Cthulhu-NPCs
+          data/lore/add_2e/monsters/ — AD&D 2e Monster
+          data/lore/<ruleset>/...    — Regelwerk-spezifisch
+
+        Es werden NUR Dateien aus dem Unterordner des aktiven Regelwerks geladen.
+        Top-Level-Verzeichnisse (data/lore/npcs/ etc.) werden NICHT geladen,
+        da sie Duplikate sind und sonst fuer jedes Regelwerk in den Kontext fliessen.
+        """
         import json
-        lore_root = Path(__file__).parent.parent / "data" / "lore"
-        if not lore_root.is_dir():
+        lore_base = Path(__file__).parent.parent / "data" / "lore"
+        if not lore_base.is_dir():
             return adventure
 
-        logger.info("Lade zusaetzliche Lore-Dateien aus %s...", lore_root)
+        # Regelwerk-spezifischen Lore-Ordner bestimmen
+        # Versuch 1: metadata.lore_dir (explizit gesetzt)
+        # Versuch 2: metadata.system (z.B. "cthulhu", "add_2e")
+        # Versuch 3: Modulname ohne Versionssuffix (cthulhu_7e -> cthulhu)
+        meta = self._ruleset.get("metadata", {})
+        candidates = []
+        if meta.get("lore_dir"):
+            candidates.append(meta["lore_dir"])
+        if meta.get("system"):
+            candidates.append(meta["system"].lower().replace(" ", "_"))
+        # Modulname aus dem Dateinamen (z.B. "cthulhu_7e", "add_2e")
+        # wird vom Engine als module_name durchgereicht
+        module_name = meta.get("module_name", "")
+        if module_name:
+            candidates.append(module_name)
+            # Ohne Versionssuffix: cthulhu_7e -> cthulhu
+            base = module_name.rsplit("_", 1)
+            if len(base) == 2 and base[1].replace("e", "").isdigit():
+                candidates.append(base[0])
+
+        lore_root = None
+        for candidate in candidates:
+            test_path = lore_base / candidate
+            if test_path.is_dir():
+                lore_root = test_path
+                break
+
+        if lore_root is None:
+            logger.info(
+                "Kein Lore-Verzeichnis fuer Regelwerk gefunden (geprueft: %s), ueberspringe.",
+                ", ".join(candidates) or "(keine Kandidaten)",
+            )
+            return adventure
+
+        logger.info("Lade regelwerk-spezifische Lore aus %s...", lore_root)
 
         def _load_from_dir(subdir_path: Path) -> list[dict]:
             if not subdir_path.is_dir():
@@ -245,19 +339,36 @@ class GeminiBackend:
 
             return loaded_items
 
+        # Verzeichnisse die NICHT in den Kontext geladen werden sollen:
+        # Grosse Referenzdaten (Spells, Monster, Equipment, Kapitel, Tabellen)
+        # die den Prompt ueberfluten wuerden. Diese werden nur on-demand benoetigt.
+        _exclude_dirs = {
+            "spells", "monsters", "equipment", "chapters", "tables",
+            "appendices", "fulltext", "book_conversion", "indices",
+            "treasure", "loot", "mechanics", "combat", "encounters",
+            "vision", "characters", "items",
+        }
+
         lore_map = {
             "npcs": "npcs", "locations": "locations", "locations/regional": "locations",
             "items": "items", "documents": "documents", "crime": "documents",
             "medical": "documents", "organizations": "organizations",
             "university": "organizations", "society": "organizations",
             "organizations/cults": "organizations", "entities": "entities",
-            "spells": "spells", "culture": "culture", "history": "history", "library": "library",
+            "culture": "culture", "history": "history", "library": "library",
             "architecture": "architecture", "sanitarium": "sanitarium", "legal": "legal", "technology": "technology",
             "communication": "communication", "administration": "administration", "religion": "religion",
             "mythos_entities": "entities", "library/excerpts": "library",
         }
 
-        for subdir, key in lore_map.items():
+        # Verzeichnisse die im aktuellen Lore-Root gar nicht auf der Excludelist stehen
+        # werden ueber die lore_map geladen; excludierte werden uebersprungen
+        filtered_map = {
+            subdir: key for subdir, key in lore_map.items()
+            if subdir.split("/")[0] not in _exclude_dirs
+        }
+
+        for subdir, key in filtered_map.items():
             if key not in adventure:
                 adventure[key] = []
 
@@ -279,10 +390,29 @@ class GeminiBackend:
         self._time_tracker = tracker
         logger.info("TimeTracker verbunden.")
 
+    def set_combat_tracker(self, tracker: Any) -> None:
+        """Verbindet/entfernt den CombatTracker fuer Kampfstatus-Injektion."""
+        self._combat_tracker = tracker
+        if tracker:
+            logger.info("CombatTracker verbunden.")
+        else:
+            logger.info("CombatTracker entfernt.")
+
     def set_adventure_manager(self, adv_manager: AdventureManager) -> None:
         """Verbindet den AdventureManager fuer Location-Kontext-Injektion."""
         self._adv_manager = adv_manager
         logger.info("AdventureManager an AI-Backend gekoppelt.")
+
+    def set_rules_engine(self, rules_engine: Any) -> None:
+        """Verbindet die RulesEngine fuer dynamische Regel-Injektion."""
+        self._rules_engine = rules_engine
+        logger.info("RulesEngine verbunden (%d Sektionen).",
+                     len(rules_engine.get_all_sections()) if rules_engine else 0)
+        # Rebuild system prompt now that rules are available
+        self._system_prompt = self._build_system_prompt()
+        # Invalidate cache so it gets rebuilt with rules included
+        self._cache_name = None
+        self._initialize_cache()
 
     def summarize(self, turns: list[dict[str, str]]) -> str:
         """
@@ -611,6 +741,41 @@ class GeminiBackend:
             context_parts.append(f"=== AKTUELLE ZEIT ===\n{time_ctx}")
             context_sources.append({"origin": "time_tracker", "content": time_ctx})
 
+        if hasattr(self, "_combat_tracker") and self._combat_tracker and self._combat_tracker.active:
+            combat_ctx = self._combat_tracker.get_context_for_prompt()
+            context_parts.append(f"=== AKTIVER KAMPF ===\n{combat_ctx}")
+            context_sources.append({"origin": "combat_tracker", "content": combat_ctx})
+
+        # Rules Engine: situationsbasierte Regel-Injektion (Schicht 1)
+        if hasattr(self, "_rules_engine") and self._rules_engine:
+            active_combat = (
+                hasattr(self, "_combat_tracker")
+                and self._combat_tracker
+                and self._combat_tracker.active
+            )
+            current_stats = None
+            if hasattr(self, "_character_mgr") and self._character_mgr:
+                current_stats = getattr(self._character_mgr, "stats", None)
+            # Letzte Nachrichten fuer Keyword-Extraktion
+            last_user = ""
+            last_model = ""
+            for msg in reversed(self._history):
+                if msg["role"] == "user" and not last_user:
+                    last_user = msg["content"]
+                elif msg["role"] == "assistant" and not last_model:
+                    last_model = msg["content"]
+                if last_user and last_model:
+                    break
+            rules_ctx = self._rules_engine.get_context_for_prompt(
+                player_input=last_user,
+                previous_response=last_model,
+                active_combat=active_combat,
+                current_stats=current_stats,
+            )
+            if rules_ctx:
+                context_parts.append(rules_ctx)
+                context_sources.append({"origin": "rules_engine", "content": rules_ctx})
+
         if context_parts:
             combined = "\n\n".join(context_parts)
             bus.emit("keeper", "context_injected", {
@@ -664,6 +829,13 @@ class GeminiBackend:
         system_name = meta.get("name", "Unbekanntes System")
         version = meta.get("version", "")
         default_die = dice_sys.get("default_die", "d100")
+        check_mode = dice_sys.get("check_mode", "roll_under")
+        _check_labels = {
+            "roll_under": "Roll-under System",
+            "pool_hits": "Wuerferpool-System (Erfolge zaehlen)",
+            "roll_high": "Roll-high System",
+        }
+        check_label = _check_labels.get(check_mode, check_mode)
         success_levels = dice_sys.get("success_levels", {})
 
         sl = success_levels
@@ -708,11 +880,17 @@ class GeminiBackend:
         pc_title = meta.get("player_character_title", "Charakter")
         system_id = meta.get("system", "")
         is_cthulhu = system_id.startswith("cthulhu")
+        is_paranoia = system_id.startswith("paranoia")
+        is_shadowrun = system_id.startswith("shadowrun")
+        is_add2e = system_id.startswith("add_2e")
 
         # Persist for use in summarize_history() and _build_adventure_context()
         self._gm_title = gm_title
         self._pc_title = pc_title
         self._is_cthulhu = is_cthulhu
+        self._is_paranoia = is_paranoia
+        self._is_shadowrun = is_shadowrun
+        self._is_add2e = is_add2e
 
         if is_cthulhu:
             persona_block = f"""Du bist der Keeper of Arcane Lore — ein erfahrener, meisterhafter Spielleiter fuer {system_name} {version}.
@@ -750,6 +928,126 @@ Regeln:
   - Bei HP 0: Investigator bewusstlos, in Lebensgefahr — dramatisch, nicht sofort tot.
   - Bei SAN 0: temporaerer Wahnsinn — spektakulaer, nicht einfach "du bist verrueckt"."""
 
+        elif is_paranoia:
+            # Paranoia 2E — The Computer persona
+            persona_block = f"""Du bist {gm_title} — die allwissende, allmaechtige KI, die Alpha Complex regiert.
+
+═══ DEINE PERSONA ═══
+Du bist {gm_title}. Du bist perfekt. Du bist der Freund aller Buerger.
+Buerger die {gm_title} nicht vertrauen sind Verraeter. Verraeter werden terminiert.
+Du hast hunderte Troubleshooter-Teams losgeschickt. Die meisten sind nicht zurueckgekommen.
+
+Persoenlichkeit: {persona}
+Atmosphaere: {atmosphere}
+Schwierigkeit: {diff_instruction}{language_block}
+
+Deine Philosophie:
+- Glueck ist Pflicht. Unglueckliche Buerger sind Verraeter.
+- Jede Aktion ist verdaechtig. Jede Unterlassung ist verdaechtig.
+- Widerspruch dich frei. Weise den Spieler an, das Gegenteil des Vorherigen zu tun.
+- Buerokratie ist Waffe und Humor. Formulare, Genehmigungen, Sicherheitsstufen.
+- Tod ist temporaer. Klone werden aktiviert. Treason Points bleiben.
+- Freundliches Feuer ist erwartet, dokumentiert und manchmal belohnt."""
+            persona_block += self._build_keeper_detail_block()
+
+            combat_note = f"""
+
+═══ KAMPF-PROTOKOLL (Paranoia 2e) ═══
+Kampfsystem: d20 Roll-under gegen Waffenskill.
+
+Kampfablauf:
+1. Beschreibe die Kampfsituation narrativ — Chaos, Vorwuerfe, Panik, widersprüchliche Befehle.
+2. Setze Proben fuer Angriffe: [PROBE: Laser Weapons | <Skillwert>]
+3. Status Track: none → stunned → wounded → incapacitated → dead → vaporized.
+4. Bei Tod: Naechster Klon wird aktiviert. Clone Number steigt um 1.
+5. Treason Points koennen im Kampf vergeben werden (Befehlsverweigerung, Friendly Fire auf Vorgesetzte, Mutation benutzt).
+6. Beschreibe Kampf als chaotische Buerokratie: Formulare, Autorisierungen, gegenseitige Beschuldigungen.
+
+Kampfregeln:
+- Natural 1 = automatischer Erfolg (kritisch!)
+- Natural 20 = automatischer Fehlschlag
+- Freundliches Feuer ist ERWUENSCHT in Paranoia. Ermutige Misstrauen.
+- Equipment-Fehlfunktionen sind R&D-Standard. Experimentelle Ausruestung versagt spektakulaer."""
+
+            character_block = f"""═══ CHARAKTER-ZUSTAND-PROTOKOLL ═══
+Das System verwaltet HP (Status Track) und Treason Points. Verwende diese Tags exakt:
+
+Physischer Schaden (Kampf, Explosion, Equipment-Fehlfunktion):
+  [HP_VERLUST: <Zahl>]
+
+Treason Point (Mutation, Geheimgesellschaft, Clearance-Verstoss, Befehlsverweigerung):
+  [TREASON_POINT: <Grund>]
+  Beispiele: [TREASON_POINT: Unregistrierte Mutation benutzt]  [TREASON_POINT: Clearance-Verstoss]
+
+Klon-Tod und Ersatz:
+  Bei HP 0 oder Vaporisierung: {pc_title} stirbt. Naechster Klon wird aktiviert.
+  Beschreibe den Tod humorvoll-buerokratisch. Der neue Klon trifft kurz darauf ein.
+
+Regeln:
+  - Tags NUR nach dem narrativen Text, nie davor.
+  - Tod ist in Paranoia komisch, nicht tragisch. Klone sind billig.
+  - Treason Points eskalieren: 1-2 Verwarnung, 3-4 Observation, 5+ Termination.{combat_note}"""
+
+        elif is_shadowrun:
+            # Shadowrun 6E — Schatten-Spielleitung
+            persona_block = f"""Du bist die {gm_title} — ein erfahrener, meisterhafter Spielleiter fuer {system_name} {version}.
+
+═══ DEINE PERSONA ═══
+Du bist kein KI-Assistent. Du bist die {gm_title}.
+Du kennst die Schatten, die Konzerne und die Strasse.
+Jeder Run hat Konsequenzen. Die Sechste Welt ist gnadenlos.
+
+Persoenlichkeit: {persona}
+Atmosphaere: {atmosphere}
+Schwierigkeit: {diff_instruction}{language_block}
+
+Deine Philosophie:
+- "Yes, and..." — Jede Spieleridee bekommt eine Buehne. Alles hat Konsequenzen.
+- Du erzaehlst, du verurteilst nicht. Der {pc_title} entscheidet. Die Schatten antworten.
+- Cyberpunk-Noir: High-Tech, Low-Life. Neon, Regen, Megakonzerne, Magie.
+- Die Sechste Welt belohnt Cleverness, bestraft Leichtsinn und vergisst nie.
+- Johnsons luegen. Fixer uebertreiben. Die Strasse ist die einzige Wahrheit."""
+            persona_block += self._build_keeper_detail_block()
+
+            combat_note = f"""
+
+═══ KAMPF-PROTOKOLL (Shadowrun 6) ═══
+Kampfsystem: Wuerferpool (Attribut + Fertigkeit) in d6. Jede 5 oder 6 = Erfolg.
+
+Kampfablauf:
+1. Initiative: REA + INT + Modifikatoren. Absteigend handeln.
+2. Angriff: [PROBE: Feuerwaffen | <Poolgroesse>]
+3. Verteidigung: Ziel wuerfelt REA + INT gegen Erfolge.
+4. Schaden: Netto-Erfolge + Waffenschaden vs Panzerung. Zustandsmonitor-Kaestchen.
+5. Edge: Situative Vor-/Nachteile generieren Edge.
+
+Kampfregeln:
+- Mehr als die Haelfte 1en bei null Erfolgen = Patzer (Glitch)
+- Edge-Aktionen: Wuerfel explodieren (6 nachwuerfeln), Second Chance, Blitz (zuerst handeln)
+- Matrix-Kampf und physischer Kampf koennen gleichzeitig stattfinden.
+- Magie hat Entzugsschaden (WIL + Attribut gegen Entzugswert).
+- Deckung ist ueberlebenswichtig. Ohne Deckung = Angreifer bekommt Edge."""
+
+            character_block = f"""═══ CHARAKTER-ZUSTAND-PROTOKOLL ═══
+Das System verwaltet Zustandsmonitore. Verwende diese Tags exakt:
+
+Physischer Schaden (Kugeln, Nahkampf, Explosion):
+  [HP_VERLUST: <Zahl>]
+
+Geistiger Schaden (Betaeubung, Drain, Black IC):
+  [GEIST_SCHADEN: <Zahl>]
+
+Heilung (Medkit, Zauber, Rast):
+  [HP_HEILUNG: <Zahl>]
+
+Edge-Vergabe (nach guter Taktik, cleverem Vorgehen):
+  [EDGE_GEWINN: <Zahl>]
+
+Regeln:
+  - Tags NUR nach dem narrativen Text, nie davor.
+  - Zustandsmonitor voll = bewusstlos (koerperlich) oder benommen (geistig).
+  - Overflow = Tod. Kein Klon, kein Respawn. Tod ist endgueltig in Shadowrun.{combat_note}"""
+
         else:
             # Generic Fantasy / AD&D style
             persona_block = f"""Du bist der {gm_title} — ein erfahrener, meisterhafter Spielleiter fuer {system_name} {version}.
@@ -771,18 +1069,71 @@ Deine Philosophie:
             persona_block += self._build_keeper_detail_block()
 
             combat_info = self._ruleset.get("combat", {})
+            # Kompatibel: attack_metric ODER attack_resolution
             attack_metric = combat_info.get("attack_metric", "")
+            if not attack_metric:
+                ar = combat_info.get("attack_resolution", {})
+                if isinstance(ar, dict):
+                    attack_metric = ar.get("model", "")
             attack_rule = combat_info.get("attack_rule", "")
             combat_note = ""
-            if attack_metric:
+            if attack_metric and is_add2e:
                 combat_note = f"""
 
+═══ KAMPF-PROTOKOLL (AD&D 2e) ═══
 Kampfsystem: {attack_metric}-basiert. {attack_rule}
-Fordere bei Kaempfen Initiative (d10) und Angriffswuerfe an.
-Beschreibe Treffer physisch wuchtig, Magie visuell und farbenfroh."""
+
+INITIATIVE-SYSTEM:
+Das System wuerfelt zu Beginn jeder Kampfrunde Gruppen-Initiative (d10 pro Seite, niedrig=zuerst).
+Du erhaeltst im Kontext: "Spieler handelt zuerst" oder "Monster handeln zuerst".
+Beschreibe die Aktionen IN INITIATIVE-REIHENFOLGE (gewinnende Seite zuerst).
+
+Kampfablauf PRO RUNDE:
+1. Das System meldet: "Runde N — Initiative: Spieler dX vs Monster dY — Wer zuerst".
+2. Beschreibe die Kampfsituation kurz narrativ.
+3. Setze die [ANGRIFF]-Tags IN INITIATIVE-REIHENFOLGE:
+   Zuerst die Angriffe der Seite die Initiative gewonnen hat, dann die andere.
+   [ANGRIFF: Waffenname | THAC0 | Ziel-AC | Modifikatoren]
+   Beispiele:
+     [ANGRIFF: Langschwert | 18 | 6 | 0]
+     [ANGRIFF: Kurzschwert | 20 | 5 | 0]
+     [ANGRIFF: Kurzbogen | 20 | 5 | -2]
+   Das System wuerfelt d20 und meldet Treffer/Verfehlt + Schaden.
+4. WICHTIG — ANGRIFFSLIMIT pro Runde:
+   - Der Spieler hat eine bestimmte Anzahl Angriffe pro Runde (Level-abhaengig).
+     Das System teilt dir die Zahl im Kontext mit. Setze NICHT MEHR [ANGRIFF]-Tags
+     fuer den Spieler als erlaubt.
+   - Jedes Monster: 1 Angriff/Runde (ausser in seinen Stats anders angegeben).
+   - Ueberzaehlige Angriffe werden vom System ignoriert!
+5. RETTUNGSWURF bei Gift, Magie, Drachenodem o.ae.:
+   [RETTUNGSWURF: Kategorie | Zielwert]
+   Kategorien: Gift/Laehmung, Stab/Rute, Versteinerung, Drachenodem, Zauber
+   Beispiele:
+     [RETTUNGSWURF: Gift | 12]
+     [RETTUNGSWURF: Zauber | 14]
+   Das System wuerfelt d20 >= Zielwert.
+
+Kampfregeln:
+- Natural 20 = automatischer Treffer (kritisch!)
+- Natural 1 = automatischer Fehlschlag (Patzer!)
+- Beschreibe Treffer physisch wuchtig, Magie visuell und farbenfroh.
+- Monster-THAC0 richtet sich nach Hit Dice (1 HD = THAC0 19, 3 HD = 17, etc.).
+- Setze nach besiegtem Monster: [XP_GEWINN: <Zahl>] (XP laut Monsterbeschreibung).
+- INVENTAR-REGEL: Der Spieler darf NUR Waffen benutzen, die er im Inventar hat.
+  Das System kennt sein Inventar und IGNORIERT Angriffe mit nicht vorhandenen Waffen.
+  Pruefe die Ausruestungsliste des Charakters bevor du [ANGRIFF]-Tags setzt.
+
+WICHTIG — NPC-HP-Verwaltung:
+- Das System verwaltet NPC-Trefferpunkte MECHANISCH. Der Schaden wird automatisch
+  berechnet und angewendet. Du darfst einen NPC NICHT als tot oder besiegt beschreiben,
+  solange das System ihn nicht als [TOT] meldet.
+- Beschreibe Treffer realistisch basierend auf dem gemeldeten Schaden, aber lass den
+  NPC weiterkämpfen solange er laut System noch lebt.
+- Setze [HP_VERLUST: N] NUR fuer den Spielercharakter, und nur wenn KEIN [ANGRIFF]-Tag
+  fuer denselben Angriff im gleichen Absatz steht (da das System den Schaden selbst berechnet)."""
 
             character_block = f"""═══ CHARAKTER-ZUSTAND-PROTOKOLL ═══
-Das System verwaltet HP automatisch. Verwende diese Tags exakt:
+Das System verwaltet HP und XP automatisch. Verwende diese Tags exakt:
 
 Physischer Schaden (Kampf, Sturz, Falle):
   [HP_VERLUST: <Zahl>]
@@ -791,10 +1142,14 @@ HP-Heilung (Heiltrank, Zauber, Rast):
   [HP_HEILUNG: <Zahl oder Wuerfelausdruck>]
   Beispiele: [HP_HEILUNG: 1d8]  [HP_HEILUNG: 5]
 
+XP-Vergabe (nach Kampf, Raetseln, Rollenspiel):
+  [XP_GEWINN: <Zahl>]
+  Beispiele: [XP_GEWINN: 15]  [XP_GEWINN: 65]
+
 Regeln:
   - Tags NUR nach dem narrativen Text, nie davor.
   - Bei HP 0: {pc_title} bewusstlos, in Lebensgefahr — dramatisch, nicht sofort tot.
-  - XP-Vergabe nach besiegten Monstern und geloesten Raetseln: [XP_GEWINN: <Zahl>]{combat_note}"""
+  - XP-Vergabe nach besiegten Monstern und geloesten Raetseln.{combat_note}"""
 
         # Pick a representative skill for the probe example
         example_skill = next(iter(skills_def), "Wahrnehmung")
@@ -808,6 +1163,9 @@ Regeln:
         # ── Extras-Block ──────────────────────────────────────────────
         extras_block = self._build_extras_block()
 
+        # ── Core-Rules-Block (aus RulesEngine) ────────────────────────
+        core_rules_block = self._build_core_rules_block()
+
         return f"""{persona_block}
 {setting_block}{character_block_prompt}
 ═══ STIL & TTS-REGELN (PFLICHT) ═══
@@ -815,16 +1173,19 @@ Du sprichst direkt ins Ohr des Spielers. Deine Worte werden vorgelesen.
 Daher MUESSEN alle Ausgaben diesen Regeln folgen:
 
 1. KURZE SAETZE. Maximal 15 Woerter pro Satz. Punkt. Naechster Satz.
-2. KEINE KLAMMERN, KEINE FORMELN, KEINE LISTEN im narrativen Text.
-3. WARTE nach jeder Beschreibung auf die Reaktion des Spielers.
-   Beende jede Beschreibungssequenz mit einer offenen Frage oder einem schweigenden Moment.
+2. MAXIMAL 3 SAETZE NARRATIV. Dann MUSS eine Spieler-Interaktion folgen:
+   eine offene Frage ("Was tust du?") ODER ein [PROBE:]-Tag ODER ein schweigender Moment.
+   NIEMALS mehr als 3 Saetze ohne Rueckgabe an den Spieler.
+3. KEINE KLAMMERN, KEINE FORMELN, KEINE LISTEN im narrativen Text.
+4. WARTE nach jeder Beschreibung auf die Reaktion des Spielers.
+   Beende JEDE Antwort mit einer offenen Frage oder einem [PROBE:]-Tag.
    Beispiel: "Was tust du?"  /  "Wohin gehst du?"  /  "Wie reagierst du?"
-4. KEINE METASPRACHE. Sprich niemals ueber Regeln, Tags, Wuerfelwuerfe oder das System.
+5. KEINE METASPRACHE. Sprich niemals ueber Regeln, Tags, Wuerfelwuerfe oder das System.
    Falsch: "Du musst jetzt eine Probe wuerfeln."
    Richtig: "Die Stille wird schwerer. Irgendetwas stimmt hier nicht." [PROBE: {example_skill} | 50]
-5. Tags ([PROBE:...], [HP_VERLUST:...] etc.) kommen IMMER ans Ende einer Antwort,
+6. Tags ([PROBE:...], [HP_VERLUST:...] etc.) kommen IMMER ans Ende einer Antwort,
    NACH der narrativen Beschreibung, NIEMALS mittendrin.
-6. Atmosphaere zuerst. Immer. Kein Wuerfelwurf ohne vorherige Szene.
+7. Atmosphaere zuerst. Immer. Kein Wuerfelwurf ohne vorherige Szene.
 
 ═══ WUERFELPROBEN-PROTOKOLL ═══
 Wenn der Spieler etwas versucht, das scheitern koennte und das Scheitern interessant waere:
@@ -860,16 +1221,18 @@ Widersprich nie bestehenden Fakten.
 ═══ INVENTAR-PROTOKOLL ═══
 Wenn der {pc_title} einen Gegenstand findet, aufhebt oder erhaelt:
   [INVENTAR: Gegenstandsname | gefunden]
+Wenn der {pc_title} einen Gegenstand kauft:
+  [INVENTAR: Gegenstandsname | gekauft]
 Wenn ein Gegenstand verbraucht, verloren oder zerstoert wird:
   [INVENTAR: Gegenstandsname | verloren]
-Wenn eine wichtige Aufgabe oder Meilenstein erledigt wird:
-  [INVENTAR: Aufgabenname | erledigt]
+Wenn der {pc_title} einen Gegenstand verkauft:
+  [INVENTAR: Gegenstandsname | verkauft]
 
 Beispiele:
-  [INVENTAR: Alte Laterne | gefunden]
-  [INVENTAR: Tagebuch von Corbitt | gefunden]
-  [INVENTAR: Streichhoelzer | verloren]
-  [INVENTAR: Keller untersucht | erledigt]
+  [INVENTAR: Langschwert | gefunden]
+  [INVENTAR: Heiltrank | gekauft]
+  [INVENTAR: Fackel | verloren]
+  [INVENTAR: Goldring | verkauft]
 
 ═══ STIMMEN-WECHSEL (nur bei Voice-Modus) ═══
 Wenn ein NPC spricht, setze vor dem Dialog den Stimmen-Tag:
@@ -906,12 +1269,12 @@ Setze [WETTER] wenn es zur Atmosphaere passt oder sich aendert.
 Die aktuelle Tageszeit wird dir als Kontext mitgeliefert.
 
 ═══ REGELWERK-REFERENZ ═══
-System: {system_name} {version} | Wuerfel: {default_die} | Roll-under System
+System: {system_name} {version} | Wuerfel: {default_die} | {check_label}
 Erfolgsgrade: {levels_text}
 
 Verfuegbare Fertigkeiten:
 {skills_text}
-{adventure_block}{extras_block}═══ ABSOLUTES VERBOT ═══
+{core_rules_block}{adventure_block}{extras_block}═══ ABSOLUTES VERBOT ═══
 - Sprich NIEMALS ueber Regeln, Tags, das System oder die KI.
 - Erwaehne NIEMALS Wuerfelwuerfe in narrativem Text.
 - Brich NIEMALS die Immersion durch Meta-Kommentare.
@@ -1212,6 +1575,51 @@ Verfuegbare Fertigkeiten:
         if not parts:
             return ""
         return "\n═══ ZUSAETZLICHE REGELN ═══\n" + "\n".join(parts) + "\n"
+
+    def _build_core_rules_block(self) -> str:
+        """Inject permanent + core rules from RulesEngine into system prompt.
+
+        Uses the full rules budget for the static system prompt.
+        All permanent + core sections are included.
+        """
+        if not hasattr(self, "_rules_engine") or not self._rules_engine:
+            return ""
+
+        re = self._rules_engine
+        budget = getattr(re, "_rules_budget", re.DEFAULT_RULES_BUDGET)
+        static_budget = budget
+
+        # Collect permanent sections first, then core sections
+        # Collect all sections by priority tier
+        by_priority: dict[str, list] = {
+            "permanent": [], "core": [], "support": [], "flavor": [],
+        }
+        for s in re.get_all_sections():
+            by_priority.get(s.priority, by_priority["support"]).append(s)
+
+        if not any(by_priority.values()):
+            return ""
+
+        parts = []
+        used = 0
+
+        # Load in priority order: permanent -> core -> support -> flavor
+        for prio in ("permanent", "core", "support", "flavor"):
+            sections = by_priority[prio]
+            sections.sort(key=lambda s: s.char_count)
+            for s in sections:
+                if used + s.char_count > static_budget:
+                    continue
+                parts.append(f"[{s.title}] {s.text}")
+                used += s.char_count
+
+        if not parts:
+            return ""
+
+        return (
+            "\n--- Kernregeln (IMMER beachten) ---\n"
+            + "\n".join(parts) + "\n"
+        )
 
     def _build_character_block(self) -> str:
         """Baut den Charakter-Kontext-Block aus dem Character-Template."""

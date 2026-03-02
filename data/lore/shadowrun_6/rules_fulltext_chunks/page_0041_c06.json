@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0041_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 41, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 41,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Es beginnt mit dem \nWert 6 und ist ein Maß dafür, wie viel Cyberware, Bioware \nund andere Modifikationen ein Charakter haben kann. Der \nmetamenschliche Körper kann nun mal nur ein bestimmtes \nMaß an Veränderungen ertragen, bevor der winzige Funke \nerlischt, der ein lebendes Wesen von einer Maschine trennt. Sinkt die Essenz z.B. durch exzessiven Bodytecheinbau auf \n0, stirbt der Charakter. Auf Magie und Resonanz hat die Essenz einen beson-\nders starken Einfluss: Jedes Mal, wenn die Essenz einen \nganzzahligen Wert unterschreitet, verliert man einen Punkt \nAdepten verlieren in diesem Fall auch die mit dem jewei-\nligen Magiepunkt verbundenen Adeptenkräfte. Und manche \nMagie, insbesondere Heilmagie, ist weniger wirkungsvoll, \nje mehr Körpermodifikationen man hat. Die Zust andsmonitore\nEin Zustandsmonitor misst den gesundheitlichen Zustand \neines Charakters. Jeder Charakter hat zwei dieser Monitore: \neinen für Körperlichen Schaden und einen für Betäubungs-\nschaden. Ein Zustandsmonitor besteht aus einer Anzahl \nKästchen, die jeweils in Dreierreihen angeordnet sind (s. Beispielgrafik). Der Körperliche Zustandsmonitor hat [Kon-\nstitution ÷ 2, aufgerundet] + 8 Kästchen, der Zustandsmo-\nnitor für Betäubungsschaden hingegen [Willenskraft ÷ 2, \naufgerundet] + 8 Kästchen. Ist eine Dreierreihe Kästchen \nauf einem Monitor ausge-\nfüllt, erleidet der Charak-\nter einen Würfelpoolmalus \nvon -1 auf alle Proben, mit \nAusnahme von Schadens-\nwiderstandsproben. Jede \nweitere ausgefüllte Reihe \nerhöht den Malus um ei-\nnen weiteren Punkt.",
+    "topic": "magic",
+    "keywords": [
+      "einen",
+      "kaestchen",
+      "charakter",
+      "essenz",
+      "zustandsmonitor",
+      "wert",
+      "einer",
+      "magie"
+    ]
+  }
+}

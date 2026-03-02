@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0127_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 127, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 127,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Drogen haben dieselben Spielwerte \nwie Toxine. Drogen: \nVerfügbarkeit und K osten\nDROGE\n VERFÜGBARKEIT\n PREIS \n(PRO DOSIS)\n(PRO DOSIS)\nAlkohol\n –\n 5 – 500 ¥\nBliss\n 2I\n 15 ¥\nCram\n 2L\n 10 ¥\nDeepweed\n 4I\n 400 ¥\nJazz\n 2L\n 75 ¥\nKamikaze\n 3L\n 100 ¥\nLong Haul\n –\n 50 ¥\nNitro\n 2L\n 50 ¥\nNovacoke\n 2L\n 10 ¥\nPsyche\n –\n 200 ¥\nZen\n 3L\n 5 ¥\nAlk ohol\nVektor:\n Einnahme\nGeschwindigkeit:\n 1 Minute\nDauer:\n [8 – Konstitution] Stunden, mindestens 1 Stunde\nKraft:\n 6\nWirkung:\n Reaktion -1, Logik -1, Hohe Schmerztoleranz \n(S. 75)\nSHADOWRUN: SECHSTE EDITION\n126 // KAMPF // TOXINE UND DROGEN",
+    "topic": "economy",
+    "keywords": [
+      "drogen",
+      "toxine",
+      "verfuegbarkeit",
+      "dosis",
+      "dieselben",
+      "spielwerte",
+      "osten",
+      "preis"
+    ]
+  }
+}

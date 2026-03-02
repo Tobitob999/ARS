@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "category": "encounter",
+  "id": "loyalty_lottery_26",
+  "name": "Randomized loyalty check selects the team medic #26",
+  "tags": [
+    "paranoia_2e",
+    "encounter",
+    "batch_06"
+  ],
+  "summary": "Randomized loyalty check selects the team medic",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "trigger": "on_enter",
+    "pressure": "medium",
+    "required_checks": [
+      "Intimidation",
+      "Bootlicking"
+    ],
+    "complication": "gear_malfunction",
+    "payoff": "intel_packet"
+  }
+}

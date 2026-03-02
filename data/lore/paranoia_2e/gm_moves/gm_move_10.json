@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "category": "gm_move",
+  "id": "gm_move_10",
+  "name": "Reward obvious incompetence",
+  "tags": [
+    "paranoia_2e",
+    "gm_tools"
+  ],
+  "summary": "Reward obvious incompetence",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "timing": "mid_scene",
+    "effect": "raise_tension",
+    "counterplay": "bureaucracy_chain"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0201_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 201, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 201,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Beim \nNahkampf zwischen zwei sich in gleicher Richtung bewe-\ngenden Fahrzeugen wird der Schadenswert um die Differenz \nzwischen den Geschwindigkeitsintervallen der beiden Fahr-\nzeuge erhöht; bewegen sie sich aufeinander zu, wird er um \ndie Summe der beiden Geschwindigkeitsintervalle erhöht. Ist das Ziel des Waffenangriffs ein anderes Fahrzeug, gilt \nals Verteidigungswert des Fahrzeugs Steuern + Panzerung, \nund der Fahrer des angegriffenen Fahrzeugs kann ver-\nsuchen, mit Steuern + Reaktion (Achtung: Geschwindig-\nkeitsintervall berücksichtigen) auszuweichen. Wird sein \nFahrzeug getroffen, widersteht es dem Schaden mit seinem \nRumpfattribut. Anmerkung: Mit Ausnahme von Elektrizitätsschaden \n(S. 112) sind Fahrzeuge immun gegen jeglichen Betäu-\nbungsschaden, dessen Schadenswert nicht größer ist als \nihr Rumpfattribut. Angriffe mit F ahrzeugen\nWenn ein Charakter versucht, mit seinem Fahrzeug eine \nPerson oder ein Fahrzeug zu rammen, wird eine Verglei-\nchende Probe abgelegt. Ist das Ziel des Rammen-Angriffs \nein anderes Fahrzeug, wird eine Vergleichende Probe auf \nSteuern + Reaktion gegen Steuern + Reaktion abgelegt. Soll eine Person gerammt werden, wird eine Vergleichende \nProbe auf Steuern + Reaktion gegen Reaktion + Intuition \nabgelegt. In beiden Fällen gilt der Würfelpoolmalus für das \nGeschwindigkeitsintervall (S. 198). Nimmt an, dass der Rigger per Kabel mit dem Fahrzeug verbunden ist. Wenn er per WiFi hineingesprungen ist, beträgt die Initiative \nDatenverarbeitung + Intuition + 2W6/3W6. das Handling bestimmt wird, für die der Fahrer aber kei-\nne Handlung aufwenden muss. Auch für diese Probe gilt \nder Würfelpoolmalus durch das Geschwindigkeitsintervall \ndes Fahrzeugs.",
+    "topic": "combat.attack",
+    "keywords": [
+      "fahrzeug",
+      "steuern",
+      "reaktion",
+      "probe",
+      "beiden",
+      "gilt",
+      "gegen",
+      "abgelegt"
+    ]
+  }
+}

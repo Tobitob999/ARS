@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0222_c08",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 222, chunk 8.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 222,
+    "chunk_index": 8,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Natürliche Kräfte wie Klauen oder eine besonders \nzähe Haut sind angeboren und gehören zur natürlichen \nAusstattung eines Critters, während magische Kräfte wie \netwa das Lähmende Heulen eines Barghests eher wie Zauber \nSHADOWRUN: SECHSTE EDITION\nCRITTERKRÄFTE // Das wilde Leben // 221",
+    "topic": "magic.spells",
+    "keywords": [
+      "kraefte",
+      "eines",
+      "natuerliche",
+      "klauen",
+      "besonders",
+      "zaehe",
+      "haut",
+      "angeboren"
+    ]
+  }
+}

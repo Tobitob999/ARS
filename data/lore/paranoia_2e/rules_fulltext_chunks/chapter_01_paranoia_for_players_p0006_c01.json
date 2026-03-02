@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_01_paranoia_for_players_p0006_c01",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_01_paranoia_for_players",
+    "chapter"
+  ],
+  "summary": "Rule chunk from Paranoia for Players page 6, chunk 1.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_01_paranoia_for_players",
+    "source_title": "Paranoia for Players",
+    "page": 6,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "PARANOIA \n&) —_ \nTHE FOLLOWING IS SECURITY CLEARANCE INFRARED — CLEARED FOR ALL CITIZENS. May | be of assistance? Sure. Why don't you tell me how this game works? ''m sorry, citizen, That information is not available at this time. What do you mean, it’s not available? You are not yet a Troubleshooter. Therefore your security clearance is infrared. The rules fare security clearance Red. You are not cleared to know the rules, At your service, \nHuh? Most games are real eager to teach you the rules. ‘Not Paranoia. in Paranoia, you don't know who your friends are. You don't know who your enemies are. You don't know how your equipment works, You don't know the rules ‘One thing you know: everyone is out to get you. Stay alert! Trust no one! Keep your laser handy! Ignorance and fear; fear and ignorance. Those are our watchwords. The back cover copy says something about a computer. The Computer is your friend! Trust The Computer, In Paranoia, you play a Toubleshooter in ser= Vice to The Computer. You are The Computer's trusted agent \nHow did't get to be a Troubleshooter? You turned in a friend for treason, He was ‘executed for betraying The Computer. The ‘Computer rewarded you for your loyalty \nWhat is a Troubleshooter supposed to do? Your jb isto root outall traitors and execute them, In other words, to find trouble... and then to shoot I \nWhat's a “traitor?” \nA traitor is an evil and malevolent human ‘who has betrayed his friend The Computer and seeks to destroy The Computer, humanity, ‘Alpha Complex and life as we know it. Titors must be unmasked and destroyed, ‘All mutants are traitors. They are genetical- ly imperfect. They have no place in utopia ‘They must be eliminated.",
+    "topic": "clearance",
+    "keywords": [
+      "computer",
+      "know",
+      "paranoia",
+      "security",
+      "clearance",
+      "what",
+      "troubleshooter",
+      "friend"
+    ]
+  }
+}

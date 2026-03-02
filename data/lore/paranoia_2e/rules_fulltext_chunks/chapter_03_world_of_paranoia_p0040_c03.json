@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_03_world_of_paranoia_p0040_c03",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_03_world_of_paranoia",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The World of Paranoia page 40, chunk 3.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_03_world_of_paranoia",
+    "source_title": "The World of Paranoia",
+    "page": 40,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "HPD: Look, | can't do a thing. ZAPZAPZAP, Citizen: What a senseless waste of human life. aes \nThe Armed Forces This isthe military arm of Alpha Complex ‘This service group is glamorously depicted in HPD & MC's vidshows as constantly at war with Commies, bu the tuthis that The Com- puter lacks the resources to sustain any pro tracted military operations. The Armed Forces spend most of thei time in drill, training, and ‘guard duty, with only occasional missions in to the Outdoors. [Armed Forces personnel are often assigned to other service groups fr security duty In ade dition, Internal Security may supplement its troopers with Armed Forces personnel in emergencies. \"Aimed Forces unitsshave generally high morale. Army personnel have litle fear of In- ternal Security; the Armed Forces have a reputation for dealing with their own prob- lems “Troopers from elite units like the Vulture Squadrons are the cultural heroes of Alpha Complex. They receive the finest and most distinctive uniforms and equipment, and are always treated with respect and deference. ‘There is considerable friction between Intemal Security andthe Armed. Forces, because of the Armed Forces’ unwillingness to cooperate with intemal Security's aggressive ‘monitoring of political orthodoxy. The Armed Forces also consider themselves to be better trained and skilled in police functions than the Internal Security goons ‘All other services are beneath Armed Forces contempt, with the exception of Research & DDesign, which provides the Armed Fortes with fancy technology In any interservice conflict, Armed Forces and Research & Design usually tend up on the same side. 40",
+    "topic": "races",
+    "keywords": [
+      "armed",
+      "forces",
+      "security",
+      "personnel",
+      "military",
+      "alpha",
+      "complex",
+      "service"
+    ]
+  }
+}

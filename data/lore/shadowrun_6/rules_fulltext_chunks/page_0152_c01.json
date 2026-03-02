@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0152_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 152, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 152,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Geister des Tieres\nW assergeister\nVerbindung zum Geist\nEin beschworener Geist ist mit seinem Beschwörer in einer \nWeise verbunden, die Sprache als Kommunikationsmittel \nunnötig macht. Die beiden haben eine mentale Verbin-\ndung zueinander, die jede physische Entfernung überwin-\nden kann, aber nicht von einer Metaebene zur anderen \nfunktioniert. Die Kommunikation verläuft konzeptuell, \nwas bedeutet, dass mit ihr keine Bilder, Videos oder Au-\ndio-Eindrücke übertragen werden können. Die Verbindung \nsorgt dafür, dass ein Beschwörer sofort erfährt, wenn sein \nGeist verdrängt oder verbannt wurde. Geister und Entfernung\nGeister versuchen, nahe bei ihren Beschwörern zu bleiben. Wenn sie weiter als [Magie des Beschwörers × 100] Meter \nentfernt sind, versuchen sie, wieder in diese Entfernung \nzurückzukehren, wenn sie nicht das Gegenteil befohlen \nbekommen haben. Umgang mit Geistern\nMan sollte immer daran denken, dass Geister Wesen \nsind, die durch magische Macht in Dienste gezwungen \nwerden, bei denen sie keine Mitsprache haben. Egal, ob \ndie Handlungen, die sie durchführen, moralisch, illegal, \nschmerzhaft oder verletzend sind – sie müssen gehorchen. Wenn etwas Unangenehmes oder Schmerzhaftes Teil des \nDienstes ist, müssen sie ihn trotzdem erfüllen. Das kann \nihre Einstellung gegenüber dem Beschwörer beeinflussen, \nund es kann – was vielleicht noch wichtiger ist – den Ruf \ndes Beschwörers bei Geistern beeinflussen. Weil Geister \neinander bekanntlich ihre Gedanken freimütig mitteilen, \nkann sich dieser Ruf verbreiten.",
+    "topic": "astral",
+    "keywords": [
+      "geister",
+      "beschwoerer",
+      "entfernung",
+      "verbindung",
+      "einer",
+      "macht",
+      "keine",
+      "versuchen"
+    ]
+  }
+}

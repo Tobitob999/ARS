@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_01_paranoia_for_players_p0021_c04",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_01_paranoia_for_players",
+    "chapter"
+  ],
+  "summary": "Rule chunk from Paranoia for Players page 21, chunk 4.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_01_paranoia_for_players",
+    "source_title": "Paranoia for Players",
+    "page": 21,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "You can put them back together if you like, but who knaws what will happen if you use it? Record an E code and go to 50. i \nFailure to accept a mission is treason. Repeat. Do you accept the mission? Ik yes, go to 7 Iho, go to \n21",
+    "topic": "treason",
+    "keywords": [
+      "accept",
+      "mission",
+      "them",
+      "back",
+      "together",
+      "like",
+      "knaws",
+      "what"
+    ]
+  }
+}

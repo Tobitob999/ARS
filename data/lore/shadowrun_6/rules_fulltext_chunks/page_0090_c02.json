@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0090_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 90, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 90,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Met a typ: Mensch\nK G R S W L I C EDG ESS\n2 3 4 2 2 4 6 1 5 3\nInitiative: 10 + 1W6\nRigger-Initiative: 12 + 2W6/3W6 (kaltes/heißes Sim)\nHandlungen: 1 Haupt, 2 Neben\nZustandsmonitor (K/B): 10/9\nVerteidigungswert: 6\nVorteile: Meistermechaniker, Talentiert (Steuern), \n Technisches Improvisationstalent\nNachteile: Berüchtigt, Elfenposer, Verpﬂichtungen 1 \n (entfremdetes Kind)\nAktionsfertigkeiten: Biotech 1 (Erste Hilfe +2), Elektronik \n2 (Hardware +2), Feuerwaffen 3, Mechanik 4 (Flugzeug-\nmechanik +2), Steuern 7 (Flugzeuge +2), Wahrnehmung \n3 (Stadt +2)\nWissensfertigkeiten: Australische Legenden, Desert Wars, \nDrohnendesigner, Riggerclubs\nSprachfertigkeiten: Deutsch 3, Englisch M\nBodytech: Cyberarm [links, offensichtlich; Geschicklichkeit \n3, Stärke 2; implantierte MP], Cyberaugen [Stufe 4; \nBildverbindung, Blitzkompensation, Infrarotsicht, Kamera, \nRestlichtverstärkung, Sichtverbesserung, Sichtvergröße-\nrung, Smartlink], Riggerkontrolle [Alphaware, Stufe 2]\nAusrüstung: gefälschte SIN [Stufe 4; Lizenzen: Cyberware, \nRiggerkonsole], Kommlink [Hermes Ikon, Gerätestufe 5; \nBiometrischer Scanner], Panzerjacke [+4], Riggerkonsole \n[Vulcan Liegelord, Gerätestufe 5, D/F 6/5; Biometrischer \nScanner; Autosofts: Clearsight 4, Elektronische Kriegs-\nführung 4], Werkstatt [Flugzeuge]\nDrohnen: Chrysler-Nissan Pursuit V [Autosofts: Auswei-\nchen 4, Manövrieren 4], Cyberspace Designs Dalmatian \n[Autosofts: Ausweichen 4, Manövrieren 4], 2 Cyberspace \nDesigns Quadrotor [Autosofts: Ausweichen 4, Manövrie-\nren 4], 3 GMC Micromachine [Autosofts: Manövrieren 4], \nGM-Nissan Dobermann [Waffenhalterung mit AK-97 und \n250 Schuss Standardmunition; Autosofts: Zielerfassung \n[AK-97] 5], 2 MCT Hornet [Autosofts: Manövrieren 4], \nMCT-Nissan Roto-Drohne [Waffenhalterung mit AK-97 und \n250 Schuss Standardmunition; Autosofts: Manövrieren 4, \nZielerfassung [AK-97] 5], 3 Sikorsky-Bell Microskimmer \nXXS [Autosofts: Manövrieren 4]\nFahrzeuge: GMC Bulldog Step-Van [Riggerinterface], Suzuki \nMirage [Riggerinterface], Toyota Gopher [Riggerinterface]\nWaffen:\nBrowning Ultra Power [Schwere Pistole | Schaden 3K | \n HM | Angriffswerte 10/9/6/–/– | 14(s) | Lasermarkierer, \n 100 Schuss Standardmunition]\nUzi V (implantiert) [MP | Schaden 3K | HM/SM | Angriffs-\nwerte 8/8/7/–/– | 24(s) | 100 Schuss Standardmunition]\nConnections: Drohnenrennfahrerin (E1/L1), Mechanikerin \n(E1/L1), Squatter (E1/L1)\nLebensstil: Mittelschicht (1 Monat bezahlt)\nStartkapital: 1.930 ¥\nRiggerin\nNichts ist besser als das Gefühl, in eine Maschine mit 1.000 \nNichts ist besser als das Gefühl, in eine Maschine mit 1.000 \nPS hineinzuspringen oder mit einer Geschwindigkeit da-\nPS hineinzuspringen oder mit einer Geschwindigkeit da-\nhinzurasen, die einem die Haut von den Knochen schälen \nhinzurasen, die einem die Haut von den Knochen schälen \nwürde.",
+    "topic": "combat.initiative",
+    "keywords": [
+      "autosofts",
+      "manoevrieren",
+      "schuss",
+      "standardmunition",
+      "stufe",
+      "nissan",
+      "riggerinterface",
+      "initiative"
+    ]
+  }
+}

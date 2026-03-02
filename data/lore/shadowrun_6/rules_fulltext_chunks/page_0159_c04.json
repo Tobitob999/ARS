@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0159_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 159, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 159,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Beschleunigte Heilung\nKosten: 0,5 KP pro Stufe\nAktivierung: –\nDie Magie, die durch dich fließt, hilft dir dabei, deine \nKnochen und dein Fleisch schneller wieder zusammen-\nwachsen zu lassen, wodurch du schneller heilst. Pro Stufe \ndieser Kraft erhältst du einen zusätzlichen Erfolg bei Hei-\nlungs-Proben, die abgelegt werden, um dich zu heilen, sowie \nbei deinen Genesungsproben. Erhöhte Präzision\nKosten: 0,5 KP\nAktivierung: –\nWaffen sind in deinen Händen tödlicher und präziser \nals in denen normaler Leute. Erhöhe den Angriffswert bei \njeder Waffe, die du benutzt, um 2. Gef ahrensinn\nKosten: 0,5 KP\nAktivierung: –\nDu hast einen sechsten Sinn für Gefahren und weißt \ninstinktiv, wann sie drohen und wann du dich auf sie vorbe-\nreiten musst. Du erhältst 1 Edge vor Überraschungsproben; \ndieser Punkt muss sofort für die Probe ausgegeben werden, \nsonst verfällt er. Antimagiefokus:\n Ein Antimagiefokus addiert bei allen \nProben zum Zwecke des Bannens von Zaubern seine \nKraftstufe als Würfelpoolbonus, sofern der zu bannende \nZauber der Kategorie des Fokus entspricht. Außerdem \ngilt die Kraftstufe des Fokus als Würfelpoolbonus, wenn \ndu Zauberabwehr (S. 145) einsetzt. Ritualfokus:\n Ein Ritualfokus addiert seine Kraftstufe als \nWürfelpoolbonus bei Proben für Ritualzauberei (sowohl \nals Ritualleiter als auch als Teilnehmer). Wenn das Ritual \nkeinen Zauberanteil hat, kann der Fokus trotzdem ge-\nnutzt werden, aber nicht, wenn das Ritual einen Zauber \neiner anderen Kategorie enthält. Zauberspeicher:\n Wenn du einen Zauber durch einen Zauber-\nspeicher wirkst, kann der Fokus ihn für dich aufrechter-\nhalten, wodurch du den Würfelpoolmalus dafür umgehen \nkannst.",
+    "topic": "combat",
+    "keywords": [
+      "einen",
+      "dich",
+      "zauber",
+      "fokus",
+      "kosten",
+      "aktivierung",
+      "proben",
+      "kraftstufe"
+    ]
+  }
+}

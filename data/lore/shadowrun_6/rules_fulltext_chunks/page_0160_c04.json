@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0160_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 160, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 160,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Geschärfter Sinn\nKosten:\n 0,25 KP\nAktivierung:\n –\nWähle einen Sinn (Gesichtssinn, Gehör, Tastsinn, Ge-\nruchs- oder Geschmackssinn) aus, wenn du diese Kraft \nerwirbst. Bei jeder Probe, die diesen Sinn betrifft, erhältst \ndu 1 Edge; dieser Punkt muss für diese Probe ausgegeben \nwerden, sonst verfällt er. Durch diese Kraft kann nur 1 \nEdge pro Begegnung und beteiligtem Sinn erhalten werden. Diese Kraft kann mehr als einmal, jeweils für einen anderen \nSinn, gewählt werden. Kampfsinn\nKosten:\n 0,5 KP pro Stufe\nAktivierung:\n –\nDiese Kraft verleiht dir die Fähigkeit, Schwierigkei-\nten vorherzusehen und zu vermeiden. Du erhältst einen \nWürfelpoolbonus von +1 pro Stufe der Kraft bei allen \nVerteidigungsproben. Dieser Bonus gilt auch für alle Über-\nraschungsproben (S. 110), die du ablegst. K örpersprache\nKosten:\n 0,25 KP\nAktivierung:\n –\nDeine Beherrschung der Körpersprache und nonverbalen \nKommunikation ist … einfach magisch, und das hilft dir \nauch, selbst sehr schwer zu deuten zu sein. Wenn du dich \ngegen soziale Proben und Proben wehrst, mit denen deine \nEmotionen gelesen, deine Vorhaben durchschaut oder deine \nWahrhaftigkeit eingeschätzt werden sollen, erhältst du 1 \nEdge. Pro Begegnung kannst du nur einmal durch diese \nKraft Edge erhalten. Kritischer Schlag\nKosten:\n 1 KP pro Stufe\nAktivierung:\n –\nDer Schadenswert deiner Nahkampfangriffe steigt um \n1 pro Stufe dieser Kraft. Diese Kraft ist kompatibel mit \nanderen Verbesserungen durch Waffen oder Adeptenkräfte, \nsofern nicht anders angegeben. Magieresistenz\nKosten:\n 0,5 KP\nAktivierung:\n –\nZauber haben die Tendenz, eher von dir abzuprallen, als \nauf dich zu wirken.",
+    "topic": "combat",
+    "keywords": [
+      "kraft",
+      "diese",
+      "sinn",
+      "kosten",
+      "aktivierung",
+      "edge",
+      "stufe",
+      "deine"
+    ]
+  }
+}

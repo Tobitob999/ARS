@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0068_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 68, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 68,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Vollzauberer erhalten Zugriff auf alle \nmagischen Fertigkeiten (Hexerei, Be-\nschwören und Verzaubern) und vollen \nZugang zur Astralebene mit astraler \nWahrnehmung (S. 161) und astra-\nler Projektion (S. 162). Während \nder Charaktererschaffung erhalten \nVollzauberer eine Gesamtanzahl \nvon kostenlosen Zaubern und/oder \nRitualen gleich ihrer Magie × 2. Der \nMagiewert, der für diese Berechnung \nbenutzt wird, ist der laut Prioritä-\ntentabelle – also vor jeder Erhöhung \ndurch Anpassungspunkte, Karma oder \nandere Möglichkeiten. Aspektzauberer können nur einen \nder drei Aspekte der Magie betreiben: \nHexerei, Beschwören oder Verzaubern. Sie können die Astralebene mit astraler \nWahrnehmung und Projektion erreichen. Hexer erhalten eine Gesamtanzahl an \nkostenlosen Zaubern und/oder Ritualen \ngleich ihrer Magie × 2, Verzauberer er-\nhalten eine Anzahl an kostenlosen alche-\nmistischen Zaubern gleich ihrer Magie × 2. Auch hier ist der Magiewert, der für diese Berechnung \nbenutzt wird, der laut Prioritätentabelle vor jeder Erhöhung \ndurch Anpassungspunkte, Karma oder andere Möglich-\nkeiten. Adepten konzentrieren ihre Magie nach innen und \nunterstützen ihre Fähigkeiten mit der natürlichen Gabe, \nMana in sich hinein statt nach außen zu kanalisieren. Wegen dieser physischen Verbundenheit mit der Magie \nkönnen Adepten nicht astral projizieren und erhalten \ndie Fähigkeit zur astralen Wahrnehmung nur durch Aus-\nbildung. Adepten haben eine Anzahl von Kraftpunkten \ngleich ihrem Magieattribut, mit denen sie Adeptenkräfte \nerwerben können. Das heißt, dass sie (anders als Magier-\nadepten) durch eine Erhöhung ihres Magieattributs mit \nAnpassungspunkten zusätzliche Kraftpunkte erhalten.",
+    "topic": "magic.spells",
+    "keywords": [
+      "magie",
+      "erhalten",
+      "gleich",
+      "durch",
+      "adepten",
+      "wahrnehmung",
+      "kostenlosen",
+      "zaubern"
+    ]
+  }
+}

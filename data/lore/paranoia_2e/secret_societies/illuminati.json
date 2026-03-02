@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "category": "secret_society",
+  "id": "illuminati",
+  "name": "Illuminati",
+  "tags": [
+    "paranoia_2e",
+    "secret_society",
+    "treason"
+  ],
+  "summary": "Verbotene Untergrundorganisation: Illuminati.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "pages": [
+      14,
+      42
+    ]
+  },
+  "mechanics": {
+    "membership_is_treason": true,
+    "rank_track": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "play_hook": "Secret missions conflict with official Computer orders."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_04_the_rules_p0067_c03",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_04_the_rules",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The Rules page 67, chunk 3.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_04_the_rules",
+    "source_title": "The Rules",
+    "page": 67,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "raw_text": "ia character wishes to replace the weapon he has at hand with another one, he may either drop the weapon he's holding and draw a new o7 one round) or put it away and draw another one {taking a total of two combat rounds), In a round that a characteris drawing or replacing ‘weapon, he may not-make an attack, although hee may dodge or move (but not at sprint speed) \nEl Ammunition and Reloading ‘Most ranged weapons come with a limited supply of ammunition, and must be periodically reloaded. The Weapon Chart (see Fold-Out 8) indicates the number of rounds a weapon may be used before reloading is necessary. Each time a player fire a weapon, he notes it as been fed once. When the total ‘number of ings equals the number of rounds ‘of ammunition indicated on the table, the ‘weapon is unloaded and must be reloaded \nbefore it may fire again. Reloading a weapon takes the same time as drawing a weapon (ie. ‘one round) — assuming, that is, that a spare reload is readily available. If not, reloading ‘means running down to PLC for ammunition, and that’s likely to take considerably more time. aa Malfunctions \nWeapons are divided into three types depending on how thoroughly tested they are: Standarduissue, experimental. and really experimental 3 Al the weapons listed on the Weapons CChart (see Fold Out 8) are ether standardissue Cr experimental (asthe table indicates; note that melee weapons'and primitive weapons are considered non-experimental for these pu poses) Anything R&D issues to Troubleshooter Br0Ups specifically forthe purpose of being tested (ee 78) is really experimental Whenever anyone fires.",
+    "topic": "combat.attack",
+    "keywords": [
+      "weapon",
+      "experimental",
+      "ammunition",
+      "reloading",
+      "round",
+      "number",
+      "time",
+      "another"
+    ]
+  }
+}

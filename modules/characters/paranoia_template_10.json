@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "id": "paranoia_template_10",
+  "name": "Template-R-10",
+  "compatible_rulesets": [
+    "paranoia_2e"
+  ],
+  "archetype": "Doctrine Verifier",
+  "background": "Service Group: PLC | Secret Society: FCCCP | Mutation: Precognition",
+  "characteristics": {
+    "STR": 16,
+    "AGI": 9,
+    "DEX": 8,
+    "END": 9,
+    "MOX": 14,
+    "CHU": 14,
+    "MEC": 16,
+    "POW": 16
+  },
+  "derived_stats": {
+    "HP": "state_track",
+    "Clone Number": 1,
+    "Treason Points": 0
+  },
+  "skills": {
+    "Laser Weapons": 7,
+    "Bootlicking": 9,
+    "Mechanical Engineering": 8,
+    "Data Analysis": 8,
+    "Unarmed": 5
+  },
+  "equipment": [
+    "multicorder",
+    "laser_pistol",
+    "stun_gun",
+    "red_reflec_armor"
+  ],
+  "notes": "Batch-generated playable template."
+}

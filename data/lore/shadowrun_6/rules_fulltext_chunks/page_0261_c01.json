@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0261_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 261, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 261,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "tor für vollautomatisches Feuer (S. 112) auf -3. Außerdem \nändern sich die Stärkevoraussetzungen für mittlere und \nschwere Maschinengewehre auf 2 oder mehr bzw. 4 oder \nmehr. Das Befestigen oder Entfernen einer Waffe erfordert \neine Nebenhandlung. Das Anlegen des Geschirrs dauert etwa \neine Minute, während das Ablegen dank des Schnellöffners \ninnerhalb einer Haupthandlung erfolgen kann. WiFi-Vorteil: Das Aktivieren des Schnellöffners per Wi-\nFi-Signal, um das Geschirr abzuwerfen, erfordert nur eine \nNebenhandlung. Lasermarkierer\nDieses Gerät verwendet einen Laserstrahl, um einen (mit \nNormalsicht, Restlichtverstärkung oder Infrarotsicht) sicht-\nbaren Punkt auf das Ziel zu projizieren. Das erhöht die \nAngriffswerte der Waffe für alle verfügbaren Reichweiten \num 1, was jedoch nicht mit Modifikatoren aus Smartgun-\nsystemen kumulativ ist. Der Lasermarkierer kann auf dem \nLauf oder unter dem Lauf montiert werden. Ihn ein- oder \nauszuschalten erfordert eine Nebenhandlung. Bei Waffen, zu deren Grundausstattung ein Lasermar-\nkierer gehört, ist dieser Bonus bereits in den Angriffswert \neingerechnet. WiFi-Vorteil: Die Angriffswerte werden um 2 erhöht. Du erhältst eine Nebenhandlung, wenn du an der Reihe \nbist und den Lasermarkierer aktivierst oder deaktivierst. Perisk op\nDieses justierbare Sichtgerät wird aufmontiert und erlaubt \nes, mit einer Waffe um die Ecke zu zielen, wodurch der \nWürfelpoolmalus für Angriffe aus voller Deckung (Status \nDeckung IV) auf -1 sinkt. Ein Periskop hat eine Kapazi-\ntät von 3 und kann mit allen ab Seite 275 beschriebenen \nSichtverstärkungen ausgerüstet werden.",
+    "topic": "combat",
+    "keywords": [
+      "nebenhandlung",
+      "einer",
+      "waffe",
+      "erfordert",
+      "lasermarkierer",
+      "mehr",
+      "schnelloeffners",
+      "wifi"
+    ]
+  }
+}

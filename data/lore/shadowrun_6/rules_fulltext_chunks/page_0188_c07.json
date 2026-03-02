@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0188_c07",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 188, chunk 7.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 188,
+    "chunk_index": 7,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Die Spinne wird von dem Hausmeister mit müder Geste \nauf Mungos Icon aufmerksam gemacht und startet ein \nKiller-IC, um Mungo ein wenig Matrixschaden zuzufügen, \ndas als schwer bewaffneter Stuffer-Shack-Angestellter \nmit Aztechnologys neuester Maschinenpistole auftritt. Mungo erkennt, dass heute nicht sein Tag ist, und stöp-\nselt sich schnell aus. Schnell, aber elegant. SHADOWRUN: SECHSTE EDITION\nHOSTS // MA TRIX // 187",
+    "topic": "combat.damage",
+    "keywords": [
+      "mungo",
+      "schnell",
+      "spinne",
+      "hausmeister",
+      "mueder",
+      "geste",
+      "icon",
+      "aufmerksam"
+    ]
+  }
+}

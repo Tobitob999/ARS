@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0183_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 183, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 183,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Diese Handlung \nkann nur nach erfolgreicher Durchführung der Handlung \nSondieren\n bei diesem Ziel benutzt werden. Die Nettoerfolge \ndes Sondierens zählen als Würfelpoolbonus für diese Probe. Gelingt die Probe, erhältst du einen Admin-Zugang zum \nZiel, der nicht als illegaler Zugang gilt. Das Durchführen \nillegaler Matrixhandlungen erhöht deinen Overwatch-Wert \nallerdings wie üblich. Misslingt die Probe, wurde die Hintertür entdeckt und \nentfernt, und du kannst die Handlung \nHintertür\n benutzen \nim selben System erst wieder durchführen, wenn du mit \nder Handlung \nSondieren\n eine neue Hintertür eingerichtet \nhast. Ein Misslingen der Probe löst nicht sofort Alarm aus, \naber dein OW steigt wie üblich. Host betreten/verlassen\n(legal) Keine Probe (Nebenhandlung)\nAbhängig von der Einstellung des Hosts\nDu betrittst oder verlässt einen Host. Dazu ist keine Pro-\nbe nötig, aber verschiedene Hosts haben unterschiedliche \nZugangsstufen, also braucht man den richtigen Zugang, \num reinzukommen. Um einen Host zu verlassen, ist keine \nZugangsstufe nötig, weil die Matrix Eindringlinge immer \nIcon aufspüren\n(illegal) Cracken + Intuition gegen \n Willenskraft + Schleicher oder Firew all + \nSchleicher (Haupthandlung)\nAdmin\nDiese Handlung ist mit dem Attribut Schleicher verbunden. Du spürst den physischen Aufenthaltsort eines Geräts \noder einer Persona auf. Wenn du mit dieser Handlung Er-\nfolg hast, kennst du den Aufenthaltsort des Ziels, solange \ndu Zugriff darauf hast. Diese Handlung funktioniert nicht \nbei IC oder Hosts ohne physischen Ort.",
+    "topic": "matrix",
+    "keywords": [
+      "handlung",
+      "probe",
+      "diese",
+      "einen",
+      "zugang",
+      "hintertuer",
+      "hast",
+      "host"
+    ]
+  }
+}

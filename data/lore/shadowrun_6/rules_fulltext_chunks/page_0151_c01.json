@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0151_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 151, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 151,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Erdgeister\n (KS\n × \n2) + 1/–/–/–/–]\nFeuergeister\nLuftgeister\nGeister des Menschen\nFäuste [Schaden ([KS \n÷\n 2] – 1)B, Angriffswerte (KS\n × \n2)/–/–/–/–]\nErdgeister\nVerwendete Abkürzungen und Erläuterungen\nK\n Konstitution\nG\n Geschicklichkeit\nR\n Reaktion\nS\n Stärke\nW\n Willenskraft\nL\n Logik\nI\n Intuition\nC\n Charisma\nM\n Magie\nESS\n Essenz\nKS\n Kraftstufe\nHandlungen\n Die zur Verfügung stehenden Handlungen pro Kampfrunde. Zustandsmonitor\n Die Anzahl der Kästchen des Zustandsmonitors. Bewegung\n Zurückgelegte Entfernungen mit den Handlungen Bewegen und \nSprinten sowie die Erhöhung pro Erfolg bei der Sprinten-Probe. Verteidigungswert\n Dieser Wert besteht aus drei Werten. Der erste ist der astrale Verteidigungswert, der zweite der physische \nVerteidigungswert gegen magische Angriffe, der dritte der physische Verteidigungswert gegen normale Waffen.",
+    "topic": "combat.attack",
+    "keywords": [
+      "verteidigungswert",
+      "handlungen",
+      "erdgeister",
+      "sprinten",
+      "physische",
+      "gegen",
+      "feuergeister",
+      "luftgeister"
+    ]
+  }
+}

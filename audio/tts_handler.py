@@ -238,6 +238,15 @@ class TTSHandler:
                 # Downgrade zu Kokoro
                 return self._kokoro_speak(sentence, stop_event)
 
+            # Sonderzeichen entfernen die Pipers Phoneme-Map nicht kennt
+            import unicodedata
+            sentence = unicodedata.normalize("NFC", sentence)
+            sentence = "".join(
+                c for c in sentence
+                if unicodedata.category(c) != "Mn"  # Combining marks entfernen
+                or c in ("\u0308", "\u0300", "\u0301")  # Umlaute/Akzente behalten
+            )
+
             chunks = list(self._active_piper.synthesize(sentence))
             if not chunks:
                 return True

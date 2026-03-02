@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0290_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 290, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 290,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Wenn der Reflexbooster aktiv ist, gewährt er pro \nStufe +1 Reaktion (mit einer entsprechenden Erhöhung des \nInitiativewerts) und 1 zusätzlichen Initiativewürfel (mit der \nentsprechenden zusätzlichen Nebenhandlung). Reflexbooster \nkönnen nicht mit irgendeiner anderen Form von Reaktions- \noder Initiativeverbesserung kombiniert werden. WiFi-Vorteil:\n Das System ist kompatibel mit kabelloser \nReaktionsverbesserung (in diesem Fall ist auch eine Erhö-\nhung der Reaktion um mehr als +4 möglich). Das Aktivieren \noder Deaktivieren erfordert nur eine Nebenhandlung. Schmuggelbehäl ter\nFür Gegenstände, die nicht in eine Fingerspitze passen, \naber trotzdem nicht gefunden werden sollen, kann man \nSchmuggelbehälter an Stellen im Körper implantieren, die \nleicht ausgehöhlt oder ersetzt werden können. Dazu gehö-\nren die Rippen und der Platz zwischen ihnen, Hüftknochen, \nSchulterblätter usw. Diese Behälter können kleine und Mi-\nniaturgegenstände aufnehmen (normalerweise nichts, was \ngrößer ist als eine leichte Pistole; der Spielleiter wird schon \nBescheid sagen, wenn etwas zu groß ist). Der Behälter hat \neine Tarnbarkeit von 8. Einen Gegenstand hineinzulegen \noder herauszunehmen, erfordert eine Haupthandlung. WiFi-Vorteil:\n Einen Gegenstand hineinzulegen oder her-\nauszunehmen, erfordert nur eine Nebenhandlung. T alentleitungen\nTalentleitungen sind ein System von neuromuskulären Steu-\nereinheiten, die das natürliche Nervensystem des Körpers \nüberbrücken. Sie können mithilfe des „Muskelgedächt-\nnisses“, das durch eine Talentbuchse (S. 285) eingespielt \nwird, Muskelbewegungen unterstützen oder vollständig \nüberbrücken.",
+    "topic": "combat.initiative",
+    "keywords": [
+      "nebenhandlung",
+      "erfordert",
+      "reflexbooster",
+      "reaktion",
+      "entsprechenden",
+      "zusaetzlichen",
+      "wifi",
+      "vorteil"
+    ]
+  }
+}

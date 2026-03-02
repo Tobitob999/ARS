@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0289_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 289, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 289,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Bodyw are\nDermalp anzerung\nHartkunststoff- und Keramikfaserplatten werden \nin die Haut implantiert. Die Platten sind deutlich \nsichtbar und noch deutlicher fühlbar, aber sie \nkönnen im Hinblick auf Farbe und Ober-\nflächenstruktur kosmetisch angepasst \nwerden. Dermalpanzerung gewährt ei-\nnen Bonus auf den Verteidigungswert \nin Höhe ihrer Stufe. Dermalpanzerung \nist nicht mit anderer Bodytech für die \nHaut kompatibel, die einen Verteidi-\ngungswertbonus gewährt, wie etwa \nOrthoskin. Durch den Einbau von \nDermalpanzerung verlieren Trolle \nihre natürlichen Knochenablagerun-\ngen in der Haut und damit auch \nihren Vorteil Dermalablagerungen. Enterhaken-\nkanone\nDies ist eine implantierte Version \nder Enterhakenkanone (S. 280). Ihr interner Stauraum enthält 60 \nMeter Microwire. Fingerkuppen behäl ter\nDieser Behälter ist im ausgehöhlten letzten Glied eines \nFingers versteckt. Er hat eine Arretierung, bei der entweder \nnur der Fingernagel angehoben werden kann, um auf den \nBehälter zuzugreifen, oder die ganze Fingerspitze entfernt \nwerden kann. Ein Fingerkuppenbehälter kann mikrogro-\nße Gegenstände aufnehmen wie etwa eine Mikrodrohne, \neinen RFID- oder einen Datenchip. Einen Gegenstand \ndarin zu verstauen oder herauszunehmen, erfordert eine \nHaupthandlung. Gegenstände, die im Fingerkuppenbehäl-\nter verwahrt werden, sind vollständig verborgen, und der \nBehälter selbst hat eine Tarnbarkeit von 8. Ein beliebter \nTrick ist es, im Fingerkuppenbehälter eine Monofilament-\npeitsche (S. 249) aufzubewahren, wobei die Fingerspitze \nals beschwerte Schnurspitze dient.",
+    "topic": "combat.defense",
+    "keywords": [
+      "einen",
+      "haut",
+      "dermalpanzerung",
+      "behaelter",
+      "gewaehrt",
+      "etwa",
+      "fingerspitze",
+      "fingerkuppenbehaelter"
+    ]
+  }
+}

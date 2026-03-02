@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0100_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 100, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 100,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Manchmal geht es bei Wahrnehmung allerdings nicht \ndarum, Details in der Umgebung zu entdecken oder Ver-\nborgenes zu finden, sondern darum, Verbindungen zwi-\nschen verschiedenen Informationen zu analysieren oder \nMuster in bestimmten Ereignissen oder Bewegungen zu \nerkennen. In diesen Fällen kann der Spielleiter einem Cha-\nrakter eine Probe auf Wahrnehmung + Logik gestatten. Der Schwellenwert richtet sich nach der Komplexität der \nInformationen, die zu einem Gesamtbild zusammengefügt \nwerden sollen. Verzaubern\nSpezialisierungen:\n Alchemie, Entzaubern, Fokusherstellung\nUngeübt:\n Nein\nPrimärattribut:\n Magie\nVerzaubern wird genutzt, um alchemistische Erzeugnisse, \nFoki, Fetische und andere magische Gegenstände herzu-\nstellen – und bisweilen auch, um sie zu zerstören. Weitere \nInformationen dazu findest du im Abschnitt \n Verzaubern\nim Kapitel \nMagie\n auf Seite 151. W ahrnehmung\nSpezialisierungen: \nHören, Riechen, Schmecken, Sehen, Tas-\nten, verschiedene Umgebungen (Wald, Wüste, Stadt usw.)\nUngeübt:\n Ja\nPrimärattribut: \nIntuition\nSekundärattribut:\n Logik (zur Mustererkennung)\nSchleicht da vorne jemand durch den Smog? Ist im Schreibtisch dieses Execs ein Geheim-\nfach verborgen? Wo ist der Lichtschalter? Dies sind Beispiele für Fragen, die sich mit \neiner Wahrnehmungsprobe beantworten las-\nsen. Wenn der Zweck der Probe eine genaue \nUntersuchung der Umgebung ist, wird eine \nEinfache Probe auf Wahrnehmung + Intuition \nabgelegt. Den Schwellenwert legt der Spiel-\nleiter in Abhängigkeit davon fest, wie schwer \ndas Gesuchte zu entdecken ist (Beispielwer-\nte findest du in der Tabelle \n Schwellenwerte \nfür Wahrnehmungsproben\n ).",
+    "topic": "movement",
+    "keywords": [
+      "wahrnehmung",
+      "informationen",
+      "probe",
+      "verzaubern",
+      "darum",
+      "umgebung",
+      "entdecken",
+      "einem"
+    ]
+  }
+}

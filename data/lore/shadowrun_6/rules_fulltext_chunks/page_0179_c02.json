@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0179_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 179, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 179,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Das \nsoll nicht heißen, dass ein gutes Cyberdeck nicht sein Gewicht \nin Gold wert ist, aber im Endeffekt kann ein Hacker mit den \nrichtigen Fertigkeiten auch mit einem zusammengeschuster-\nten Deck (oder ganz ohne Deck, wenn er ein Technomancer \nist) Wunder bewirken. Der erste Schritt des Hackens ist es, Zugang zum Ziel zu \nerhalten. Es gibt zwei grundsätzliche Vorgehensweisen dabei: \nBrute Force (S. 180), das mit dem Attribut Angriff verbunden \nist, und Sondieren (S. 184), das mit dem Attribut Schleicher \nverbunden ist. Wenn du die Attribute deines Cyberdecks \nverteilst (siehe S. 182), haben die Werte, die du auswählst, \nEinfluss darauf, wie gut gewisse Matrixhandlungen gelingen \nkönnen. Wenn du mit dem Hacken begonnen hast, kannst \ndu die Werte der Attribute Angriff und Schleicher nicht mehr \nverändern, solange du Zugang zu dem Ziel hast, in das du \ndich gehackt hast. Die Attribute Datenverarbeitung und Fire-\nwall können wie üblich verändert werden. Einige Matrixhandlungen sind mit Angriff oder Schlei-\ncher verbunden. Wenn du eine Handlung durchführst, die \nmit dem niedrigeren der beiden Attribute verbunden ist \n(z. B., wenn du Brute Force benutzt, das mit Angriff ver-\nbunden ist, aber Schleicher höher als Angriff ist), erhältst \ndu für diese Handlung einen Würfelpoolmalus gleich der \nDifferenz zwischen dem höheren und dem niedrigeren \nAttribut. Du kannst diese Handlungen auch durchfünren, \nwenn du das jeweilige Attribut nicht besitzt. Cyberdeck ermöglichen.",
+    "topic": "combat.attack",
+    "keywords": [
+      "angriff",
+      "attribut",
+      "verbunden",
+      "schleicher",
+      "hast",
+      "cyberdeck",
+      "deck",
+      "zugang"
+    ]
+  }
+}

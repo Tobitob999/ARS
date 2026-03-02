@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0.0",
+  "category": "adventure_asset",
+  "id": "asset_32",
+  "name": "Clearance Notice 32",
+  "tags": [
+    "paranoia_2e",
+    "asset",
+    "clearance_notice"
+  ],
+  "summary": "Reusable mission-facing artifact for scene setup.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "asset_type": "clearance_notice",
+    "scene_role": "setup",
+    "truthfulness": "partial",
+    "play_hook": "adds_timer"
+  }
+}

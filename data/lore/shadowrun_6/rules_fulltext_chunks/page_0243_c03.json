@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0243_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 243, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 243,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Infrarotkameras reagieren auf die Wärmesignaturen leben-\nder Körper (können jedoch eventuell durch den Zauber \nVerbesserte Unsichtbarkeit überlistet werden). Ein beliebter \nÜberwachungstrick besteht darin, Infrarotlicht reflektieren-\nde Oberflächen so in Ecken anzubringen, dass eine Kamera \ndie Eindringlinge quasi um die Ecke herum entdecken kann, \nohne selbst gesehen zu werden. Restlichtverstärkungssen-\nsoren verstärken das Umgebungslicht und können so auch \nin dunklen Bereichen ein Bild liefern (während die Kamera \nnur schwer zu sehen ist), allerdings werden sie leicht durch \nhelles Licht überlastet. Shadowrunner können das eventuell \nzu ihrem Vorteil nutzen, indem sie Betäubungsgranaten (S. 263) einsetzen. Wie gut man eine Kamera oder einen Sensor \nentdecken kann, hängt natürlich davon ab, wie gut sie oder \ner verborgen ist. Typische Überwachungskameras auf festen \noder drehbaren Aufhängungen sind leicht zu entdecken, \nwenn man danach sucht. Kleinere Mikrokameras erfordern \neine erfolgreiche Probe auf Wahrnehmung + Intuition (3). Wenn die Kamera verborgen ist, ist ein höherer Schwel-\nlenwert erforderlich. Geruchsscanner, auch als chemische Detektorsysteme\noder Chemsniffer bekannt, analysieren die Moleküle der \nLuft nach stickstoffreichen Partikeln, wie sie vor allem \nvon Sprengstoff oder Feuerwaffenmunition abgegeben \nwerden. Sie werden hauptsächlich dort eingesetzt, wo \nFeuerwaffen verboten sind und das Sicherheitspersonal \nmit Tasern und Betäubungsschlagstöcken ausgerüstet ist.",
+    "topic": "magic.spells",
+    "keywords": [
+      "kamera",
+      "entdecken",
+      "eventuell",
+      "durch",
+      "leicht",
+      "verborgen",
+      "infrarotkameras",
+      "reagieren"
+    ]
+  }
+}

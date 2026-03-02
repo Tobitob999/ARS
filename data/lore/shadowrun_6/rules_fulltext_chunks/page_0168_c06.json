@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0168_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 168, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 168,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Vorteile\nAllgemein:\n Edge-Boosts bei Einfluss-Proben kosten 1 Edge \nweniger als normal\nZauberer:\n Edge-Boosts bei Zaubern, alchemistischen Er-\nzeugnissen und Ritualen der Kategorie Kampf kosten 1 \nEdge weniger als normal\nAdept:\n 1 Stufe Verbesserte Fertigkeit für eine Kampffertig-\nSHADOWRUN: SECHSTE EDITION\nSCHUTZGEISTER // MAGIE // 167",
+    "topic": "combat",
+    "keywords": [
+      "edge",
+      "boosts",
+      "kosten",
+      "weniger",
+      "normal",
+      "vorteile",
+      "allgemein",
+      "einfluss"
+    ]
+  }
+}

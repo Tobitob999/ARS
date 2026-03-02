@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0080_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 80, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 80,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Bonus: 12 Karma\nAuswirkung: Bei Auswahl dieses Nachteils wählst du eine \nArt von Geistern oder Sprites aus. Geister/Sprites die-\nser Kategorie erhalten einen Edgepunkt, wenn du eine \nProbe auf Beschwören bzw. Tasken gegen sie ablegst. Dieser Nachteil kann mehrmals gewählt werden, wo-\nbei du jedes Mal eine andere Art von Geistern/Sprites \nauswählst. Im Kampf greifen Geister/Sprites dieser Art dich zu-\nerst an und lassen nicht von dir ab, was so weit ge-\nhen kann, dass sie deine Leiche verstümmeln oder dein \nDeck zerstören, wenn sie nichts anderes zu tun haben. Gezeichnet\nEine Erfahrung mit der Matrix, mit Simsinn oder BTL hat \ndeine Neuronen so sehr gebrutzelt, dass sie andauernd \nFunken sprühen und Schwierigkeiten verursachen, wenn \ndu eingeloggt bist, sogar wenn es nur um die AR geht. Bonus: 6 Karma\nAuswirkung: Du kannst kein Edge ausgeben, wenn du \ndie Matrix benutzt. Das betrifft auch den Einsatz von \nKommlinks, Smartlinks und allen anderen Quellen für \nDaten, die über den Äther kommen. Ehrenk odex\nEs folgen Beispiele für Kodizes, die mit dem Nachteil Ehrenkodex \ngewählt werden könnten. Black Ha t\nEin herausfordernder Kodex, der nur mit Zustimmung der Gruppe \ngewählt werden sollte, mit der du zusammenspielst – sowohl \nSpieler als auch Spielleiter sollten zustimmen. Der Charakter glaubt \ndaran, dass er nur auf sich selbst achten sollte. Wenn er durch \neine Handlung keinen Vorteil für sich sieht, lässt er sie bleiben. Altruismus ist für Deppen. Das bedeutet nicht, dass er die anderen \nTeammitglieder automatisch im Stich lassen oder verraten muss, \nweil Loyalität über längere Zeit beträchtlichen Gewinn einbringen \nkann.",
+    "topic": "combat",
+    "keywords": [
+      "sprites",
+      "gewaehlt",
+      "bonus",
+      "karma",
+      "auswirkung",
+      "geistern",
+      "dieser",
+      "nachteil"
+    ]
+  }
+}

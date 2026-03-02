@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0077_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 77, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 77,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Resistenz gegen (Element)\nDurch deine genetische Ausstattung oder Training hast \ndu eine starke Widerstandskraft gegenüber gewisse Arten \nschädigender Energie (oder im Fall von Kälte gegenüber \nEnergiemangel) entwickelt. Kosten: 12 Karma\nAuswirkung: Bei Auswahl dieses Vorteils wählst du eine \nelementare Schadensart (S. 112) aus. Wenn du durch eine \nWaffe oder einen Zauber (auch durch den waffenlosen \nAngriff eines Geistes) mit dieser Schadensart angegriffen \nwirst, erhältst du 1 Edge, bevor du deine Verteidigungs-\nprobe ablegst. Restlichtverst ärkung\nDank einer größeren Zahl an Stäbchenzellen in deinen \nnatürlichen Augen, einer implantierten größeren Anzahl \ndieser Zellen oder einer Modifikation, die die Lichtstärke \nwahrgenommener Daten erhöht, kannst du bei Lichtver-\nhältnissen agieren, die andere im Grunde blind sein ließen. Kosten: 6 Karma\nAuswirkung: Du kannst bei schlechten Lichtverhältnissen \ndeutlich sehen, außer in totaler Dunkelheit (s. Umgebung \nund Sichtverhältnisse, S. 108). Robust Gebaut (Stufe 1 bis 4)\nDu bist gebaut wie eine Plasbetonwand. Du kannst leicht \nein paar Treffer mehr einstecken, bevor die Lichter aus-\ngehen. Kosten: 4 Karma pro Stufe\nAuswirkung: Du erhältst eine Anzahl zusätzlicher Kästchen \ngleich der Stufe dieses Vorteils auf dem Körperlichen \nZustandsmonitor. Schnellheilung\nDu erholst dich von Verletzungen schneller als andere Leute, \nwas in einem Beruf unglaublich wertvoll ist, bei dem du \ndeinen Körper immer wieder ins Schussfeld bringst. Kosten: 8 Karma\nAuswirkung: Das Intervall bei Proben für natürliche Gene-\nsung (S.",
+    "topic": "combat.attack",
+    "keywords": [
+      "kosten",
+      "karma",
+      "auswirkung",
+      "durch",
+      "einer",
+      "kannst",
+      "stufe",
+      "deine"
+    ]
+  }
+}

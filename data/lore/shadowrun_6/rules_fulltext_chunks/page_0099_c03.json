@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0099_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 99, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 99,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Nahkampf\nSpezialisierungen: Klingenwaffen, Knüppel, Waffenloser \nKampf\nUngeübt: Ja\nPrimärattribut: Geschicklichkeit\nStehst du direkt neben jemandem? Versuchst du, ihm weh-\nzutun? Dann nutze diese Fertigkeit! Egal, ob du schlägst, \nstichst, knüppelst oder eine andere Variante wählst, du legst \neine Vergleichende Probe auf Nahkampf + Geschicklichkeit \ngegen Reaktion + Intuition ab. Der Grundschaden im waffenlosen Kampf beträgt 2B. Genauere Informationen zum Kampf findest du im Kapitel \nKampf auf Seite 107. Na tur\nSpezialisierungen: Navigation, Spurenlesen, Survival, Tierfüh-\nrung, verschiedene Umgebungen (Wald, Wüste, Stadt usw.)\nUngeübt: Ja\nPrimärattribut: Intuition\nEs gibt schlechtere Dinge, als die eigenen vier Wände nie \nzu verlassen, vor dem Trideo zu sitzen und Whomp Snappers \nin sich hineinzustopfen, aber manchmal lassen sich Ausflüge \nin die Außenwelt nicht vermeiden. Für diese Gelegenheiten \ngibt es die Fertigkeit Natur. Sie kommt zum Einsatz, wenn \ndu einer Spur folgst, Nahrung auftreiben willst oder den \nkürzesten Weg zu deinem Ziel finden möchtest. Normal-\nweise werden Naturproben als Einfache Probe auf Natur \n+ Intuition abgelegt. Der Schwellen wert wird mithilfe der \nRichtlinien für Schwellenwerte (S. 37) festgelegt. Alterna-\ntiv kann der Schwellenwert für Spurenlesenproben auch \nanhand der Anstrengungen bestimmt werden, die beim \nVerbergen der Spuren unternommen wurden. Dazu wird eine Probe auf Mechanik + Intuition abgelegt, \nderen Schwellenwert mithilfe der \nRichtlinien für Schwellen-\nwerte\n auf Seite 37 (\n nicht\n mithilfe der Schwellen werte für \nnicht\n mithilfe der Schwellen werte für \nnicht\nBauen/Reparieren) festgelegt wird.",
+    "topic": "combat.damage",
+    "keywords": [
+      "kampf",
+      "intuition",
+      "schwellen",
+      "mithilfe",
+      "probe",
+      "werte",
+      "nahkampf",
+      "spezialisierungen"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0284_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 284, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 284,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Implant a tchirurgie\nund Genesungszeit\nSich Cyberware oder Bioware einbauen zu lassen, erfordert \neinen chirurgischen Eingriff und geht mit Schaden einher. Wenn man sich Bodytech implantieren lässt, erleidet man \nsowohl auf dem Körperlichen Zustandsmonitor als auch \nauf dem Betäubungszustandsmonitor eine Anzahl von Scha-\ndenskästchen gleich den Essenzkosten × 3 des Implantats \n(aufgerundet; allerdings führt dieser Schaden niemals zu \nÜberzähligem Schaden). Die meisten Cyberkliniken und \nBodyshops bieten Erholungsräume für ihre Patienten, in \ndenen sie sich nach dem Eingriff ausruhen und genesen \nkönnen, aber Vorsicht bei der Sterilität und Sauberkeit der \nweniger seriösen Chopshops! Der Preis des Eingriffs ist \nnicht im Preis der Bodytech enthalten und sollte von der \nSpielleiterin hinzugefügt werden, wenn der Runner diese \nDienstleistung in Anspruch nehmen möchte. Medkit-Nachfüllp ack\nEin Medkit-Nachfüllpack muss nach jeder \nVerwendung des Medkits gekauft werden; \nes ist auch möglich, Nachfüllpacks auf \nVorrat zu kaufen. Bis zu fünf Nachfüll-\npacks können in der Medkitbox verwahrt \nwerden. Weitere Packs müssen woanders \naufbewahrt werden. Slap-P a tches\nSlap-Patches sind selbstklebende Medi-\nkamentenpflaster, die direkt auf die Haut \ngeklebt werden. Das Anbringen eines Slap-\nPatches auf der Haut eines unwilligen \n„Patienten“ erfordert einen erfolgreichen \nNahkampfangriff (der keinen Schaden ver-\nursacht); das kann knifflig sein, wenn die \nZielperson nicht viel nackte Haut zeigt, und \neine Nebenhandlung \nZiel ansagen\n erfordern. Antidot-P a tch\nDas Antidot-Patch neutralisiert oder hebt den Status \nVergiftet\nfür eine große Auswahl an Toxinen auf.",
+    "topic": "combat.damage",
+    "keywords": [
+      "schaden",
+      "sich",
+      "slap",
+      "haut",
+      "erfordert",
+      "einen",
+      "eingriff",
+      "bodytech"
+    ]
+  }
+}

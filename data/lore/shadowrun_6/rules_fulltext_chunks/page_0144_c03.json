@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0144_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 144, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 144,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "W ahrnehmungszauber\nIn dieser Kategorie geht es darum, die Sinne zu verbessern \nund damit große Distanzen oder Hindernisse zu über-\nwinden, um Informationen zu erhalten, die man sonst \nnicht hätte. Wahrnehmungszauber werden meistens auf einen Beob-\nachter gewirkt, der auch der Zaubernde sein kann (Reich-\nweite: Berührung). Die Sinnesverbesserung findet oft in \nBereichen statt, die vom Beobachter getrennt sind. Anders \nals bei vielen Zaubern, die eine Sichtverbindung zum Ziel \nverlangen, kann der Wahrnehmungsbereich auch durch \nWä nde und Ähnliches vom Beobachter abgeschirmt sein. Die Sinnesreichweite, innerhalb derer dieser Wahrneh-\nmungsbereich liegen kann, beträgt [Magie des Zaubernden \n+ Nettoerfolge bei der Hexereiprobe] Meter. Wenn nicht \nanders angegeben, beginnt die Größe des Bereichs bei einer \nKugel mit einem Radius von 2 Metern, kann aber mit Fläche \nVergrößern vergrößert werden. Bei Wahrnehmungszaubern findet für gewöhnlich eine \nVergleichende Probe auf Hexerei + Magie gegen Kons-\ntitution + Willenskraft bei Zielen mit Bewusstsein bzw. Objektwiderstand bei anderen Zielen statt. Das heißt, der \nBeobachter kann den Sinn gegen jedes Ziel im Wirkungs-\nbereich einsetzen, dem die Widerstandsprobe gegen die \nHexereiprobe misslingt. Die Menge an Informationen, die man durch Wahrneh-\nmungszauber erhalten kann, ist in der Tabelle Ergebnisse \nvon Wahrnehmungszaubern angegeben. der Zauber wurde von einem mächtigen Zauberer gewirkt. Physische Barriere\nREICHWEITE\n ART\n DAUER\n ENTZUG\nBF (F)\n P\n A\n 6\nManchmal willst du Magie von dir fernhalten, und manchmal \nwillst du absolut alles auf der physischen Ebene von dir fern-\nhalten, was du kannst.",
+    "topic": "magic.spells",
+    "keywords": [
+      "beobachter",
+      "magie",
+      "gegen",
+      "dieser",
+      "informationen",
+      "erhalten",
+      "gewirkt",
+      "sein"
+    ]
+  }
+}

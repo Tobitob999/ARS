@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0339_c10",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 339, chunk 10.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 339,
+    "chunk_index": 10,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "269\nElementarer Angriff (Critterkraft)\n...... 223\nElementarpanzerung (Zauber)\n .......... 140\nElfen\n ............................................. 26, 55\nElfenposer (Nachteil)\n 79\nSHADOWRUN: SECHSTE EDITION\n338 // Index",
+    "topic": "combat.attack",
+    "keywords": [
+      "elementarer",
+      "angriff",
+      "critterkraft",
+      "elementarpanzerung",
+      "zauber",
+      "elfen",
+      "nachteil",
+      "shadowrun"
+    ]
+  }
+}

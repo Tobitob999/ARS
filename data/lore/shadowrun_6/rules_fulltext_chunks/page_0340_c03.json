@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0340_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 340, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 340,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "170\nFluch (Ritual) ...................................147\nFlugzeuge .........................................300\nFN HAR (Sturmgewehr) ...................256\nFN P93 Praetor (MP) ........................254\nFokus (Foki) .............151, 156, 170, 296\nFokus aktivieren/deaktivieren \n (Handlung) ......................................43\nFokusarten .......................................157\nFokus-Boost (Zauber) ......................140\nFokusformeln \n (Magische Ausrüstung) .........170, 296\nFokusherstellung ......................154, 156\nFokusmaterialien beschaffen ............154\nFokussierung ...................................177\nFord Americar (Auto) .......................299\nFormungsfokus ................................157\nFotograﬁ sches Gedächtnis (Vorteil) ...74\nFrag (Slang) .........................................8\nFrankfurter Bankenverein \n (FBV) .............................306, 308, 311\nFreistaat Kalifornien ...........................32\nFreistaat Westphalen ........................313\nFreundliche Geister (Vorteil) ..............74\nFreundliche Sprites (Vorteil) ..............74\nFuchi ..................................................30\nG\nGabel (Hacking-Programm) .............185\nGagarin Prime ....................................19\nGamma-Skopolamin (Toxin) ............126\nGangmitglieder und \n Maﬁ aschläger (Schergen) .............205\nGanzkörperpanzerung (Panzerung) ..265\nGasangriffe .......................................120\nGasgranate .......................................263\nGasmaske (Überlebensausrüstung) ...281\nGasrakete/-lenkrakete .......................264\nGast-Zugang (Matrix) .......................179\nGasventilsystem (Waffenzubehör) ...259\nGeblendet I, II, III (Status) .................",
+    "topic": "magic.spells",
+    "keywords": [
+      "fokus",
+      "vorteil",
+      "freistaat",
+      "freundliche",
+      "fluch",
+      "ritual",
+      "flugzeuge",
+      "sturmgewehr"
+    ]
+  }
+}

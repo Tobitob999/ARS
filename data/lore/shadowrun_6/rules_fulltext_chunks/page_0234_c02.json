@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0234_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 234, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 234,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Es geschieht das genaue Gegenteil von \ndem, was du tun wolltest. Du bemerkst den \nFehlschlag nicht, es sei denn, er wirkt sich \nunmittelbar aus. FERNKAMPFPATZER\nLadehemmung. Visier verstellt sich (-1 auf alle \nAngriffe für den Rest des Kampfes). Magazin verkantet sich. Die Waffe fällt dir aus der Hand. Die Waffe feuert verfrüht (du triffst dich \nselbst oder einen anderen Charakter \ninnerhalb eines Meters mit der Hälfte des \nGrundschadens). Explosivgeschoss erleidet Fehlzündung. KRITISCHER FERNKAMPFPATZER\nDie Waffe explodiert \n(du verlierst deine Haupthand). Die Waffe explodiert. Ein Trümmerstück \nschlägt dir ein Auge aus. Du erleidest 2K \nSchaden (ohne Widerstandsprobe) und \nerhältst den Status \nGeblendet I\n. Du schießt daneben und triffst einen \nUnbeteiligten, der dein Feind wird. Falls keine \nUnbeteiligten vor Ort sind, schlägt die Kugel \ndurch eine Wand und trifft dahinter jemanden. Ein Querschläger trifft dich. Voller Schaden \nplus 3 „Erfolge“. Keine Verteidigungsprobe, \nnur eine Schadenswiderstandsprobe. Permanente Narbe als Erinnerung. Feuerwaffe: Sämtliche Munition in der \nWaffe explodiert. Jeder in Reichweite \nwird mit einem Angriff getroffen. Grundschaden, keine Verteidigungsprobe, \nnur Schadenswiderstandsprobe. Bogen: \nWaffe zersplittert. Augen zerstört. Geblendet \nIII. Cyberware-, Bioware- oder organischer \nErsatz nötig. Querschläger trifft Teamgefährten. Voller Schaden plus 3 „Erfolge“. Keine Verteidigungsprobe, nur \nSchadenswiderstandsprobe. Permanente \nNarbe als Erinnerung. NAHKAMPFPATZER\nDie Waffe verrutscht dir in der Hand \n(-1 auf nächsten Angriff). Du verlierst deine Waffe \n(sie fällt dir vor die Füße). Waffe beschädigt (Schadenswert -1).",
+    "topic": "combat.attack",
+    "keywords": [
+      "waffe",
+      "keine",
+      "sich",
+      "explodiert",
+      "schaden",
+      "trifft",
+      "verteidigungsprobe",
+      "fernkampfpatzer"
+    ]
+  }
+}

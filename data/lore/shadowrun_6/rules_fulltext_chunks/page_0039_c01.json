@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0039_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 39, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 39,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "die Probe ab, ob du bei der Sache bleiben kannst oder durch-\ndrehst. Wenn man mehrmals gewissen Situationen ausgesetzt \nist, kann das den Bedarf nach Selbstbeherrschungsproben in \nsolchen Situationen senken. Teamworkproben\nTeamworkproben unterscheiden sich ein wenig von anderen \nProben, da sie dazu dienen, eine andere Probe zu unterstüt-\nzen. Shadowrunner arbeiten als Team, und Teamworkproben \ngeben ihnen die Gelegenheit, einander zu helfen. Für die Ausführung einer Teamworkprobe wird zu-\nnächst einer der Beteiligten als Anführer ausgewählt; die \nanderen sind seine Helfer. Alle legen die gleiche Probe \nab – natürlich die Probe, die sie gemeinsam zu beste-\nhen versuchen. Nehmen wir mal an, die Runner wollen \nzusammen den Bulldog Step-Van des Teams reparieren, \ndann legen sie alle eine Probe auf Mechanik + Logik ab. Die Helfer würfeln zuerst; alle Erfolge, die sie erzielen, \nwerden als zusätzliche Würfel zum Würfelpool des An-\nführers hinzugefügt. Dabei darf die Gesamtzahl der von \nden Helfern gelieferten Zusatzwürfel nicht größer sein \nals der für die Probe herangezogene Fertigkeitswert des \nAnführers (oder das höhere der beiden Attribute, falls es \neine Probe auf zwei Attribute ist). Ein Patzer beim Wurf eines Helfers sollte für eine nicht \nunbeträchtliche Störung bei der nächsten Handlung oder \nden nächsten Handlungen des Teams sorgen und verhin-\ndern, dass die Runner für eine bis drei Kampfrunden Edge \nerhalten oder ausgeben können. Teamworkproben \nbei der Initia tive\nUm einem anderen Teammitglied zu helfen, während die \nBeteiligten in der Initiativereihenfolge (siehe S.",
+    "topic": "races",
+    "keywords": [
+      "probe",
+      "teamworkproben",
+      "anderen",
+      "alle",
+      "situationen",
+      "helfen",
+      "einer",
+      "beteiligten"
+    ]
+  }
+}

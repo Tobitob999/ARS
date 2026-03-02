@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0308_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 308, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 308,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Die Politik kapituliert vor \nder Fülle an Problemen, ein Bundeswehrputsch (2008) \nder Fülle an Problemen, ein Bundeswehrputsch (2008) \nunter General Horst Stöckter kann zeitweilig Ordnung in \nunter General Horst Stöckter kann zeitweilig Ordnung in \ndas Chaos bringen – doch der Schaden ist vollbracht und \ndas Chaos bringen – doch der Schaden ist vollbracht und \ndas Vertrauen in das föderale System der Bundesrepublik \ndas Vertrauen in das föderale System der Bundesrepublik \nerschüttert, als 2014 wieder normale Wahlen stattfinden. erschüttert, als 2014 wieder normale Wahlen stattfinden. Die vollmundigen Solidaritätsversprechungen aus Frie-\nDie vollmundigen Solidaritätsversprechungen aus Frie-\ndenszeiten sind vergessen. Jedes Bundesland ist sich in \ndenszeiten sind vergessen. Jedes Bundesland ist sich in \nder Krise selbst am nächsten und fühlt sich gleichzeitig \nder Krise selbst am nächsten und fühlt sich gleichzeitig \nvon allen anderen allein gelassen. Während die Welt sich noch vom ersten Matrix-Crash \nWährend die Welt sich noch vom ersten Matrix-Crash \nvon 2029 erholt, brechen 2031 und 2034 die beiden \nvon 2029 erholt, brechen 2031 und 2034 die beiden \nals Eurokriege bekannten Angriffe von Russland und \nals Eurokriege bekannten Angriffe von Russland und \nder Allianz für Allah über den europäischen Kontinent \nder Allianz für Allah über den europäischen Kontinent \nherein. Die Angreifer werden zwar zurückgeschlagen, \nherein.",
+    "topic": "combat.damage",
+    "keywords": [
+      "sich",
+      "fuelle",
+      "problemen",
+      "bundeswehrputsch",
+      "general",
+      "horst",
+      "stoeckter",
+      "zeitweilig"
+    ]
+  }
+}

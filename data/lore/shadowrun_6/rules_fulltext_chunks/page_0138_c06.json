@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0138_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 138, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 138,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Kampfzauber\nVereinfacht ausgedrückt tun Kampfzauber Leuten weh. Du \nwirkst sie, wenn du Feinden Angst einjagen, sie kampfun-\nfähig machen oder sie töten willst. Bei Kampfzaubern gibt es einen zusätzlichen Schritt, der \nnach dem ersten Schritt des Zauberwirkens durchgeführt \nwird, nachdem das Ziel ausgewählt wurde. Wenn das Ziel \nbekannt ist, werden der Angriffswert des Zaubernden und \nder Verteidigungswert des Ziels verglichen, um zu bestim-\nmen, ob jemand Edge erhält. Im Falle mehrerer Ziele kommt \ndabei der höchste Verteidigungswert aller Ziele zur Anwen-\ndung. Der Angriffswert eines Zauberers für diesen Vergleich \nentspricht seiner Magie + seinem Traditionsattribut. Der \nVerteidigungswert wird wie gewohnt bestimmt, wenn sich \nder Verteidiger auf der physischen Ebene befindet. Befindet \ner sich auf der Astralebene, beträgt der Verteidigungswert \nIntuition + natürliche Panzerung + Panzerungseffekte (siehe \nS. 163). Zusätzlich zu den üblichen Zaubermerkmalen ist bei \nKampfzaubern angegeben, ob sie Betäubungsschaden (B) \noder Körperlichen Schaden (K) verursachen. Es gibt zwei grundlegende Arten von Kampfzaubern: \ndirekte\n und \nindirekte\n Kampfzauber. Direkte Kampfzauber\nDirekte Kampfzauber beruhen darauf, dass du Mana in \neiner Weise formst, die direkt den Gegner schädigt – die \nMagie ist der Schaden. Lege eine Vergleichende Probe auf \nHexerei + Magie gegen Willenskraft + Intuition (gegen \nPilot bei Drohnen) des Ziels ab. Erzielt das Ziel mehr \nErfolge als du, verpufft der Zauber wirkungslos (aber du \nmusst natürlich immer noch dem Entzug widerstehen).",
+    "topic": "combat.attack",
+    "keywords": [
+      "kampfzauber",
+      "verteidigungswert",
+      "ziel",
+      "magie",
+      "direkte",
+      "gibt",
+      "schritt",
+      "angriffswert"
+    ]
+  }
+}

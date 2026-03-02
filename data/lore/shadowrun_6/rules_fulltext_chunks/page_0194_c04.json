@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0194_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 194, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 194,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "ANGRIFF\n SCHLEICHER\n DATENVER-\nARBEITUNG\n FIREWALL\n INI\n RES\nS + 1\n S\n S + 3\n S + 2\n (S \n×\n 2) + 3 \n+ 4W6\n S\nFertigkeiten:\n Elektronik, Mechanik\nKräfte:\n Diagnose, Stabilität, Übernehmen\nStör-Sprite\nDas Stör-Sprite hat man gern im Kampf an der Seite. Es ist \nkalt wie IC, doppelt so stur und zerfetzt deine Feinde im \nAufblitzen eines Icons. ANGRIFF\n SCHLEICHER\n DATENVER-\nARBEITUNG\n FIREWALL\n INI\n RES\nS + 3\n S\n S + 1\n S + 2\n (S \n×\n 2) + 1 \n+ 4W6\n S\nSpritekräfte\nSpritekräfte\nDie folgenden Kräfte sind nur Sprites zugänglich. Sprites \nerleiden keine Modifikatoren für das Aufrechterhalten \neiner Kraft. Cookie\n(Haupthandlung, Sofort)\nEin Sprite kann diese Kraft benutzen, um eine Persona mit \neinem Cookie zu „markieren“ und deren Aktivität in der \nMatrix zu verfolgen. Dazu muss ihm eine Vergleichende \nProbe auf Cracken + Resonanz gegen Intuition + Firewall \ndes Ziels gelingen. Gelingt die Probe, wird das Ziel mit dem \nCookie belegt, ohne es zu bemerken. Das Cookie läuft auf \nSchleichfahrt und ist mit der Stufe des Sprites verschlüsselt. Es zeichnet alles auf, was das Icon tut: zum Beispiel jeden \nHost, den es betritt, mit wem es wann kommuniziert (aber \nnicht den Inhalt), Programme, die das Icon benutzt, und so \nweiter. Verwende die Nettoerfolge als Messgröße der Infor-\nmationstiefe (1 Nettoerfolg liefert grobe Umrisse, 4 oder mehr \nliefern einen detaillierten Bericht). Am Ende der Laufzeit, die \nvon Sprite oder Besitzer beim Einsatz der Kraft bestimmt \nwird, transferiert sich das Cookie mit den gesammelten Daten \nzum Sprite. Sobald das Sprite es hat, kann es das Cookie an \nden Technomancer übermitteln.",
+    "topic": "combat.attack",
+    "keywords": [
+      "sprite",
+      "cookie",
+      "firewall",
+      "kraft",
+      "angriff",
+      "schleicher",
+      "datenver",
+      "arbeitung"
+    ]
+  }
+}

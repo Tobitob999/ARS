@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "service_group",
+  "id": "internal_security",
+  "name": "Internal Security (IntSec)",
+  "tags": [
+    "paranoia_2e",
+    "service_group",
+    "law_enforcement",
+    "secret_police",
+    "interrogation"
+  ],
+  "summary": "Counter-treason, policing, surveillance",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "pages": [
+      8,
+      42
+    ]
+  },
+  "mechanics": {
+    "access_grants": [
+      "equipment requisition",
+      "contacts",
+      "mission leverage"
+    ],
+    "risks": [
+      "inter-group rivalry",
+      "political obligations"
+    ],
+    "play_hook": "Use this group to request support, favors, and cover stories."
+  }
+}

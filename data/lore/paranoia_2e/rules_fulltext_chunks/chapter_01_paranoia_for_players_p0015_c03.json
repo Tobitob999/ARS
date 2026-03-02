@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_01_paranoia_for_players_p0015_c03",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_01_paranoia_for_players",
+    "chapter"
+  ],
+  "summary": "Rule chunk from Paranoia for Players page 15, chunk 3.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_01_paranoia_for_players",
+    "source_title": "Paranoia for Players",
+    "page": 15,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "yourselt Medical: How to heal the injured and cure the. sick. Security: Jiggering locks and alarms. Stealth: The art of not being seen. Surveillance: How to bug things. How 10 debug things \nSurvival: How not to drown or de of exposure: how to find things to eat in the Outdoors, avoid ‘camping. in a stream bed; and other useful things. ENGINEERING SKILLS \n8 \n1: How to use TNT without killing \nences: How to produce mutant rosities in Alpha Complen’s biolabs. Chemical: Lots of uses for this, but somehow PCs always seem to want to use it to make explosives. Electroni together. Mechanical: How to make really neat Rube Goldberg-type contraptions. Nuclear: How to operate a reactor without flooding half the sector with radioactive waste \nCOMPUTER SKILLS \nData Analysis: How to look at Computer. printed stuff and make head or tail of it. Data Search: How to find something useful using The Computer. How to string transistors and stuff \n15",
+    "topic": "skills",
+    "keywords": [
+      "things",
+      "make",
+      "computer",
+      "find",
+      "useful",
+      "skills",
+      "without",
+      "data"
+    ]
+  }
+}

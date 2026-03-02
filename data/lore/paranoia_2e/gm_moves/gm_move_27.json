@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "category": "gm_move",
+  "id": "gm_move_27",
+  "name": "Split team with security gates",
+  "tags": [
+    "paranoia_2e",
+    "gm_tools"
+  ],
+  "summary": "Split team with security gates",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "timing": "mid_scene",
+    "effect": "redirect_scene",
+    "counterplay": "frame_rival"
+  }
+}

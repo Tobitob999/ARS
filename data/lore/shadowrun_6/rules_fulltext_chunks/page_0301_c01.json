@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0301_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 301, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 301,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Boote\nSamuv ani-Criscraft Otter\nDieses fünf Meter lange Boot ist hübsch, aber auch so \nlangweilig, wie der Tag lang ist. Es wird ab Werk für \nverschiedene Verwendungszwecke ausgestattet, etwa für \nAusflüge, zum Angeln, als leichtes Transportboot oder für \nWartungsarbeiten, aber die offene Konstruktion lässt nur \nPlatz für eine kleine Kabine, um sich bei schlechtem Wet-\nter zurückzuziehen. Das Beste, was man über dieses Boot \nsagen kann, ist, dass man es auf jedem Gewässer dieser \nWelt zuhauf findet. Aztechnology\nSunrunner/Nightrunner\nNachdem sich der Nightrunner einen etwas zu zwielichtigen \nRuf erworben hatte, wurde das Modell gründlich überholt \nund bekam einige günstige Regierungsverträge in Gegen-\nden, in denen man Aztechnology freundlich gegenübersteht, \nwie etwa Aztlan. Das Boot wurde in Sunrunner umgetauft, \naber es hat das gleiche auffällige versiegelbare Verdeck und \nden großzügigen Laderaum (in dem man zahlreiche Kojen \nunterbringen kann, wenn man das Boot für Ausflugsreisen \nverwenden möchte). GMC Riverine\nGroße Knarren und gute Sensoren halten die Wasserwege \nder Welt sicher. Dieser Pott ist ein Kanonenboot, da gibt es \nnichts zu leugnen, aber etliche Leute schätzen vor allem den \ngepanzerten Rumpf und halten die Waffen lieber versteckt, \num nicht wie die Wasserschutzpolizei auszusehen. U-Boote\nProteus Lamprey/Sea Snake\nDie Meere sind längst kein so großes Rätsel mehr. Seit es \nüberall auf der Welt immer mehr Aquakologien und Arko-\nblocks gibt, sind auch Wasserfahrzeuge, mit denen man sie \nerreichen kann, ein immer häufigerer Anblick geworden. Der Lamprey ist ein Unterwasserschlitten, der für Inspek-\ntions- und Transportzwecke eingesetzt wird.",
+    "topic": "general",
+    "keywords": [
+      "boot",
+      "welt",
+      "dieses",
+      "etwa",
+      "sich",
+      "dieser",
+      "aztechnology",
+      "sunrunner"
+    ]
+  }
+}

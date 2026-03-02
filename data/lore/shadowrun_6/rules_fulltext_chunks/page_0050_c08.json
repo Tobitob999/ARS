@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0050_c08",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 50, chunk 8.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 50,
+    "chunk_index": 8,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Die folgende Tabelle führt einige Möglichkeiten \nauf, wie man in sozialen Situationen Edge erhalten kann, \njeweils aufgeschlüsselt nach verschiedenen Arten von Si-\ntuationen (Unterrichten ist nicht aufgeführt, da man da-\nbei in der Regel nicht gegeneinander arbeitet). Allgemein \ngesprochen wird Edge nur einmal vergeben, entweder zu \nBeginn einer Begegnung oder wenn bestimmte Umstände \neintreten. Danach wird in derselben Begegnung kein Edge \nmehr vergeben. SHADOWRUN: SECHSTE EDITION\nEDGE // SPIELK ONZEPTE // 49",
+    "topic": "skills.social",
+    "keywords": [
+      "edge",
+      "vergeben",
+      "begegnung",
+      "folgende",
+      "tabelle",
+      "fuehrt",
+      "einige",
+      "moeglichkeiten"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_00_preface_p0004_c04",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_00_preface",
+    "chapter"
+  ],
+  "summary": "Rule chunk from Preface page 4, chunk 4.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_00_preface",
+    "source_title": "Preface",
+    "page": 4,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "Failure to be happy is treason, The Computer is your friend, \na ae Paranoia is played using a 20-sided die. i you bought the boxed version ofthe dame, you got one with it, If you bought the book ver- \nSion, you can get 20-sded dice at most hob- ty stores — or you can send us one dollar for postage and handling and well send you one (see page 135)",
+    "topic": "treason",
+    "keywords": [
+      "bought",
+      "send",
+      "failure",
+      "happy",
+      "treason",
+      "computer",
+      "friend",
+      "paranoia"
+    ]
+  }
+}

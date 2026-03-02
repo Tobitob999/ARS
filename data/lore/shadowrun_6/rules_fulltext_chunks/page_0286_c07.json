@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0286_c07",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 286, chunk 7.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 286,
+    "chunk_index": 7,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "WiFi-Vorteil: \nDer Extraschub aus der Matrix erhöht die \nmaximale Summe der Stufen aller gleichzeitig laufenden \nFertigkeiten auf das Vierfache der Stufe der Talentbuchse, \nund bei entsprechenden Proben kann Edge eingesetzt werden. Ul traschallsensor\nDiese implantierte Version des Ultraschallsensors (S. 278) \nersetzt im aktiven Zustand die normale Sicht. Mit einer \nNebenhandlung kann zwischen aktivem Sonar, \nSHADOWRUN: SECHSTE EDITION\nBODYTECH // Ausrüstung // 285",
+    "topic": "skills",
+    "keywords": [
+      "wifi",
+      "vorteil",
+      "extraschub",
+      "matrix",
+      "erhoeht",
+      "maximale",
+      "summe",
+      "stufen"
+    ]
+  }
+}

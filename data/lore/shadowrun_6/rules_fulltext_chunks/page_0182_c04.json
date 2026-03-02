@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0182_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 182, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 182,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Wenn du dieses Gerät \nüber VR verwendest und das Gerät ein Körperliches Attribut \nbenötigt, ersetze das entsprechende Attribut durch das \npassende Geistige Attribut für diese Probe (Konstitution = \nWillenskraft, Geschicklichkeit = Logik, Reaktion = Intuition, \nStärke = Charisma). Da tei verschlüsseln\n(legal) Elektronik + Logik (Haupthandlung)\nUser/Admin\nDie Erfolge bei dieser Probe erzeugen eine Verschlüsselungs-\nstufe, die bei zukünftigen Versuchen mit der Handlung \nDatei \ncracken\n den Würfelpool der Verteidigung festlegt. Da tenbombe entschärfen\n(legal) Elektronik + Logik gegen Stufe der \nDa tenbombe \n×\n 2 (Haupthandlung)\nUser/Admin\nDu versuchst, eine Datenbombe zu entschärfen, die du \n(meistens als Ergebnis einer Matrixwahrnehmung) entdeckt \nhast. Wenn du Nettoerfolge erzielst, wird die Datenbombe \nentschärft und entfernt. Wenn nicht, wird sie aktiviert, \nverursacht Schaden und löscht wahrscheinlich die Datei, \nin die sie eingepflanzt wurde (sofern das in ihrem Code \nvorgesehen war). Da tenbombe legen\n(illegal) Cracken + Logik gegen Gerä te-\nstufe \n×\n 2 (Haupthandlung)\nAdmin\nDu platzierst eine Datenbombe in einer Datei. Lege die \nStufe der Datenbombe fest, die maximal so hoch sein kann \nwie die Anzahl deiner Nettoerfolge. Außerdem musst du \nfestlegen, ob die Datenbombe die verminte Datei löschen \nsoll, wenn sie aktiviert wird. Und du musst ein Passwort \nfür die Deaktivierung festlegen. Eine Datei kann nur eine \nDatenbombe gleichzeitig haben.",
+    "topic": "skills.social",
+    "keywords": [
+      "datenbombe",
+      "datei",
+      "logik",
+      "stufe",
+      "attribut",
+      "haupthandlung",
+      "admin",
+      "tenbombe"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0279_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 279, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 279,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Man kann ihn in \nden passiven Modus schalten, sodass er keine Ultraschall-\nimpulse emittiert, sondern nur Ultraschall aus anderen \nQuellen aufnimmt, wie etwa von Bewegungsmeldern oder \nanderen Ultraschallsensoren im aktiven Modus (oder von \nFledermäusen). Bewegungsmelder\nBewegungsmelder\nBewegungsmelder\nSensorfunktionen\nFUNKTION\n MAXIMALE REICHWEITE\nAtmosphärensensor\n –\nBewegungsmelder\n 25 m\nCyberwarescanner\n 15 m\nGeigerzähler\n –\nGeruchsscanner\n –\nKamera\n Blickfeld\nLaser-Entfernungsmesser\n 1.000 m\nLasermikrofon\n 100 m\nMAD-Scanner\n 5 m\nMikrofon\n 100 m\nRichtmikrofon\n 100 m\nSHADOWRUN: SECHSTE EDITION\n278 // Ausrüstung // SENSOREN",
+    "topic": "movement",
+    "keywords": [
+      "bewegungsmelder",
+      "modus",
+      "ultraschall",
+      "anderen",
+      "passiven",
+      "schalten",
+      "sodass",
+      "keine"
+    ]
+  }
+}

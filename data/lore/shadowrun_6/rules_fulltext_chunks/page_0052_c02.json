@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0052_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 52, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 52,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Willenskraft, um sich zu verteidigen und \nonline gegen Schaden Widerstand zu leisten. Technomancer \nbenötigen zwingend Resonanz. Wichtige Fertigkeiten\nCracken und Elektronik natürlich. Mechanik kann nützlich \nsein, damit die Ausrüstung wunschgemäß funktioniert. Tech-\nnomancer benötigen Tasken. W as man sonst noch braucht\nDecker sollten ihr Geld für ein ordentliches Cyberdeck (S. 178) und eine Cyberbuchse (S. 177) ausgeben. Spart nicht \nam falschen Ende! Außerdem braucht ein Decker eine gute \nAuswahl an Programmen (S. 184). Technomancer benötigen \nkein Cyberdeck, sollten aber einige Komplexe Formen (S. 189) lernen. Magie\nDie Magie bietet eine Möglichkeit, alle Regeln der Sechsten \nWelt zu brechen – außer natürlich die Regeln der Magie. Feuer kann sich in der leeren Luft entzünden, Gegenstände \nkönnen umgewandelt oder zum Schweben gebracht werden, \nPersonen können unsichtbar gemacht werden und vieles \nsein, die deinen stockwerketiefen Fall abbremst, oder das \nimplantierte Cyberdeck in deinem Kopf, das die Kugel \ngerade genug ablenkt, um deinen sofortigen Tod zu ver-\nhindern. Irgendetwas gestattet dir in einer eigentlich töd-\nlichen Situation, noch ein bisschen weiterzuleben.",
+    "topic": "combat.damage",
+    "keywords": [
+      "benoetigen",
+      "cyberdeck",
+      "magie",
+      "sich",
+      "technomancer",
+      "natuerlich",
+      "sein",
+      "noch"
+    ]
+  }
+}

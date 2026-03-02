@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_01_paranoia_for_players_p0017_c01",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_01_paranoia_for_players",
+    "chapter"
+  ],
+  "summary": "Rule chunk from Paranoia for Players page 17, chunk 1.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_01_paranoia_for_players",
+    "source_title": "Paranoia for Players",
+    "page": 17,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "PARANOIA \nBefore you begin to play, the gamemaster may call you aside for a brief private con- ference. (fhe doesn't, and you have any ques tions you want to ask him, grab him yourself.) This conference is an opportunity to find out ‘whether your secret society has any informa tion or useful equipment for you, what rumors ‘are floating about, and the like. Obviously, you don't want to talk about this kind of stuff with the other players around, since most of what youll be asking is lreasonous. ‘Adventures usually begin when your ‘character receives a mission alert —a message from The Computer telling him to show up, somewhere for a briefing, At the briefing, in- formation vital to the completion of the adven- {ure is sometimes imparted. (Sometimes it is not imparted, which can be too bad if it real ly was vital.) In any event, filing to follow The ‘Computer's orders is treason, so naturally you will eagerly speed to the briefing room with the greatest alacrity ‘After the briefing, you usually amble on down to PLC for outfitting. At PIC, you can requisition any equipment you think you'll ‘need. You probably won't get it, but you can ask, Next stop is R&D, where you'll be given the ‘opportunity to test spiffy new equipment R&D has just developed. Volunteering to test ex- \nperimental equipment is a good way to get in ‘The Computer's good graces.",
+    "topic": "races",
+    "keywords": [
+      "equipment",
+      "briefing",
+      "computer",
+      "begin",
+      "want",
+      "opportunity",
+      "what",
+      "about"
+    ]
+  }
+}

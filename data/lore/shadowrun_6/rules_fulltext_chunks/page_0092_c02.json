@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0092_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 92, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 92,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Met a typ: Mensch\nK G R S W L I C EDG M ESS\n3 3 2 2 5 2 3 5 7 6 6\nInitiative: 5 + 1W6\nAstrale Initiative: 5 + 3W6\nHandlungen: 1 Haupt, 2 Neben\nZustandsmonitor (K/B): 10/11\nVerteidigungswert: 6\nVorteile: Erhöhte Konzentrationsfähigkeit 1, Freundliche \nGeister (Geister des Tieres), Schutzgeist (Katze)\nNachteile: Allergie (Insektenstiche, Leicht), Auffälliger Stil, \nFeindliche Geister (Feuergeister)\nAktionsfertigkeiten: Astral 2, Athletik 2, Beschwören 5 \n(Herbeirufen +2), Hexerei 6 (Spruchzauberei +2), \nNahkampf 2, Wahrnehmung 2\nWissensfertigkeiten: Kellerbars, Seattler Schamanen\nSprachfertigkeiten: Englisch M\nZauber: Betäubungsblitz, Chaos, Dunkelheit, Feuerball, \nHeilen, Hellhören, Levitieren, Trideo-Trugbild\nAusrüstung: Kommlink [Meta Link, Gerätestufe 1; Troden], \nPanzerweste [+3], Suzuki Mirage\nWaffen:\nKampfmesser [Klingenwaffe | Schaden 3K | Angriffswerte \n10/2*/–/–/– | *maximale Reichweite 20 m]\nColt Government 2076 [Schwere Pistole | Schaden 3K | \nHM | Angriffswerte 10/8/6/–/– | 14(s) | Lasermarkierer, \n100 Schuss Standardmunition]\nConnections: Schmuggler (E3/L3), Straßenjunge (E1/L4), \nStreifenpolizist (E2/L3), Taliskrämerin (E5/L4), Yakuza- \nSoldat (E1/L4)\nLebensstil: Unterschicht (1 Monat bezahlt)\nStartkapital: 2.485 ¥\nStrassen-\nschamanin\nNachdem sie in ihrer Jugend in einer dunklen Gasse den \nNachdem sie in ihrer Jugend in einer dunklen Gasse den \nRuf von Katze vernommen hatte, begann die Straßenscha-\nRuf von Katze vernommen hatte, begann die Straßenscha-\nmanin, ihre Krallen in die Schmutzwäsche anderer Leute \nmanin, ihre Krallen in die Schmutzwäsche anderer Leute \nzu schlagen und ihr Leben mit einem Netz aus Illusionen \nzu schlagen und ihr Leben mit einem Netz aus Illusionen \nzu schützen.",
+    "topic": "combat.initiative",
+    "keywords": [
+      "geister",
+      "katze",
+      "initiative",
+      "schaden",
+      "angriffswerte",
+      "nachdem",
+      "ihrer",
+      "jugend"
+    ]
+  }
+}

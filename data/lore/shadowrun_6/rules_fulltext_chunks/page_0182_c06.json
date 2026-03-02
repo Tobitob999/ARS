@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0182_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 182, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 182,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Ein Gerät, das sich auf diese \nWeise ausgeschaltet hat, verliert all seine WiFi-Vorteile, kann \naber weiter als normaler Mechanismus benutzt werden (eine \nTür mit Klinke kann geöffnet werden, eine Waffe mit Abzug \nkann abgefeuert werden usw.). Außerdem ist es nicht mehr \nüber die Matrix erreichbar. Das Reparieren eines formatier-\nten Geräts folgt denselben Regeln wie das Reparieren eines \nlahmgelegten Geräts (s. Lahmgelegte Geräte\n, S. 175). Bei die-\nser Probe ist eine Anzahl von Erfolgen gleich der Gerätestufe \ndes Geräts nötig, um den beschädigten Bootcode zu ersetzen. Gerä t neu st arten\n(legal) Elektronik + Logik gegen \nWillenskraft + Firew all oder Firew all \n×\n 2 (Haupthandlung)\nAdmin\nDas Zielgerät, -PAN oder die Zielpersona geht offline und \nist am Ende der folgenden Kampfrunde wieder online. Der \nOverwatch-Wert des Ziels und jeglichen Zugriff, den es \nhatte, wird zurückgesetzt. Durch den Neustart wird kein \nAuswurfschock verursacht. Du kannst nicht neu starten, \nwenn du Opfer einer Linksperre bist. Gerä t steuern\n(legal) Elektronik + Logik gegen Willenskraft \n+ Firew all oder Firew all \n×\n 2 (Haupthandlung)\nUser/Admin \n(je nach gew ähl ter Handlung des Gerä ts)\nDiese Handlung erlaubt eine erweiterte Fernsteuerung eines \nGeräts. Du behältst die Kontrolle über das Gerät, bis du \nsie abgibst oder aus dem System geworfen wirst. Solange \ndu die Kontrolle hast, kannst du das Gerät mit gewöhnli-\nchen Proben benutzen, als wärst du der Besitzer. Wenn du \neinen Admin-Zugang hast, kannst du es sogar ausschalten. Wenn mit dem Gerät, das du verwenden möchtest, keine \nProbe verbunden ist, verwendest du Cracken + Logik gegen \nWillenskraft + Firewall.",
+    "topic": "combat",
+    "keywords": [
+      "geraet",
+      "firew",
+      "eines",
+      "logik",
+      "gegen",
+      "willenskraft",
+      "admin",
+      "kannst"
+    ]
+  }
+}

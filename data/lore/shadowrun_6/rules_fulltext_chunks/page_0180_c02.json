@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0180_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 180, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 180,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Eine \nPersona, die aktiv einen Host oder ein Gerät verteidigt, \nkann auch den Würfelpool mit den Geräte- bzw. Host-\nattributen verwenden. Ausstöpseln\n(legal) Elektronik + Willenskraft gegen \nCharisma + Da tenverarbeitung oder Angriff \n+ Da tenverarbeitung (Haupthandlung)\nGast/User/Admin\nDurch diese Handlung wirst du von der Matrix getrennt, \nund dein Zugangsgerät wird neu gestartet. Wenn du in \nder VR warst und nicht zuerst in die AR gewechselt hast, \nerleidest du Auswurfschock. Die Probe ist nur dann eine \nVergleichende Probe, wenn du von jemandem mit einer \nLinksperre belegt wurdest; die Gegenseite bildet in diesem \nFall das Icon, das dafür verantwortlich ist. Wenn dich mehr \nals eine Persona mit einer Linksperre belegt hat, musst du \nalle Gegner besiegen: Du legst eine einzelne Probe ab, und \njeder der Gegner verteidigt sich einzeln dagegen. Du kannst \nnur dich selbst ausstöpseln. Du kannst niemand anderen \nauswerfen, außer wenn du ihn durch Matrixschaden außer \nGefecht setzt. User- und Admin-Zugang\nIn jedem System in der Matrix gibt es drei Zugangsstufen: \nGast, User und Admin. Der Gast-Zugang ist die Zugangs-\nstufe, die man erhält, sobald man sich in die Matrix als \nGanzes einloggt. In Systemen, die Gast-Zugänge gewähren, \nkann man mit ihm nicht mehr machen, als sich dort ein \nwenig umzusehen und mit anderen innerhalb des Systems \nzu interagieren. Ein User-Zugang gestattet es, Informationen \nzu sichten, Dateien zu lesen, einfache Funktionen auszu-\nführen und dergleichen. Ein Admin-Zugang ermöglicht das \nVerändern der Konfiguration, das Ein- und Ausschalten von \nGeräten und noch mehr.",
+    "topic": "combat.attack",
+    "keywords": [
+      "gast",
+      "user",
+      "admin",
+      "zugang",
+      "matrix",
+      "probe",
+      "mehr",
+      "sich"
+    ]
+  }
+}

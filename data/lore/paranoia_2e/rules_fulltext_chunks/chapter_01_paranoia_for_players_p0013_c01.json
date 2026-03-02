@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_01_paranoia_for_players_p0013_c01",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_01_paranoia_for_players",
+    "chapter"
+  ],
+  "summary": "Rule chunk from Paranoia for Players page 13, chunk 1.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_01_paranoia_for_players",
+    "source_title": "Paranoia for Players",
+    "page": 13,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "PARANOIA a | \n‘quickness and coordination. It also affects the ccharacter’s ability o hit an opponent in hand- tochand combat, Agility 20 is Bruce Lee. Agility TT can juggle nso objects, and can sometimes ‘manage three, Agility 1 falls down a lot. Dexterity measures hand-eye coordination, patience, and manual dexterity. It determines, hhow good a characteris at fine hand work, and, in particular it affects a character's abili ty to hit an opponent with an aimed weapon. Dexterity 20 assembles Swiss watches blind: folded. Dexterity 11 threads a needlé on the second or third try: Dexterity thas trouble with buttons, \nEndurance measures stamina and ability 10 ‘withstand pain and physical injury. Endurance 20 jogs blithely along with gaping wounds. En- ‘durance 11 pants when climbing lots of stairs, and whines when hurt. Endurance 1 passes ‘out when discomfort is mentioned, \nMoxie measures ability to comprehend Unusual phenomena, lean new modes of communication, perceive Important details, ‘and correctly choose the right course of ac: tion in unexpected situations. Moxie affects a character's skills in diseiplines. which em phasize intelligence and wit, Moxie 20 is a combination of David Letterman and Henry Kissinger, Moxie 11 can understand wargame rules — in time, Moxie 1 gets lost in a closet. Chutzpah is defined as the quality of a man, ‘who kills both his parents and then pleads (or mercy because he is an orphan. Chutzpah af- \nfects @ character's bureaucractic and com- ‘munication skills. Chutzpah 20s a bom-again politician, Chutzpah 1! occasionally slips something over on his Mom.",
+    "topic": "combat.attack",
+    "keywords": [
+      "dexterity",
+      "moxie",
+      "chutzpah",
+      "affects",
+      "ability",
+      "hand",
+      "agility",
+      "measures"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0303_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 303, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 303,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Sie wird normalerweise für Über-\nwachungszwecke verwendet, und eine Version mit einem \neingebauten Flash-Pack oder einer Rauchgranate kostet \n500 ¥ zusätzlich. Das Flash-Pack kann wie üblich nach-\ngeladen werden; die Rauchgranate zerstört die Drohne. Die Rauchgranate kann auch gegen eine andere Granate \nausgetauscht werden, was die Drohne (natürlich) eben-\nfalls zerstört. MCT Hornet\n(Flugzeugdrohne)\nDank ihrer etwas robusteren Konstruktion kann die Hor-\nnet, eine Verwandte der altehrwürdigen Fly-Spy, größere \nHöhen erreichen und als fliegendes Auge für Runner die-\nnen, die ihre Absichten nicht verraten wollen, sich aber \nalle Optionen offenhalten wollen. Normalerweise sieht \nsie äußerlich wie eine Tarantula-Wespe aus, und sie trägt \nShia w ase Kanmushi\nShia w ase Kanmushi\nShia w ase Kanmushi\n MCT Hornet \n MCT Hornet \n MCT Hornet \nFedera ted-Boeing \nCommuter/Osprey X\nDas Design dieses Modellpaares erinnert an das alte \nC-130-Hercules/AC-130-Spectre-Konzept, nur umgekehrt. Man nehme etwas, das für einen bestimmten Zweck kons-\ntruiert wurde, und reiße sich ein Bein aus, um es für einen \nanderen Zweck umzufunktionieren. Der Commuter ist ein \nzweimotoriges Kippflügel-Passagierflugzeug, das Manager \nund Konzern-Sararimänner befördert. Der Osprey X ist \nder neueste Entwurf eines kampferprobten Rotorflüglers, \nder für Transport, Luftnahunterstützung und Aufklärung \neingesetzt wird. Fed-Boeing hat einen Osprey genommen \nund ihn für den Transport von Offizieren umgebaut, und \nfertig war der Commuter.",
+    "topic": "rigger",
+    "keywords": [
+      "hornet",
+      "rauchgranate",
+      "shia",
+      "kanmushi",
+      "commuter",
+      "osprey",
+      "einen",
+      "normalerweise"
+    ]
+  }
+}

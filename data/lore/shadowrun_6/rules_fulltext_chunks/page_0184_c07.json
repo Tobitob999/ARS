@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0184_c07",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 184, chunk 7.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 184,
+    "chunk_index": 7,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Wenn diese folgende Probe gelingt, wird \ndie Anzahl der potenziellen Treffer halbiert; Nettoerfolge \nhalbieren wie üblich weiter. Signal stören\n(illegal) Cracken + Logik (Haupthandlung)\nAdmin\nDiese Handlung verwandelt das Gerät, das du benutzt, in \neinen kleinen Störsender. Solange du das Gerät nicht für an-\ndere Matrixhandlungen benutzt, addiert es alle Erfolge, die \ndu bei der Probe erzielst, zum Rauschenwert für Matrix-\nhandlungen mit oder gegen Geräte in einem Umkreis von \nSHADOWRUN: SECHSTE EDITION\nMA TRIXHANDLUNGEN // MA TRIX // 183",
+    "topic": "combat.attack",
+    "keywords": [
+      "diese",
+      "probe",
+      "geraet",
+      "benutzt",
+      "folgende",
+      "gelingt",
+      "anzahl",
+      "potenziellen"
+    ]
+  }
+}

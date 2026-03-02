@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0207_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 207, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 207,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Mitglied der Söhne Saurons \n(inklusive Ork-Met a typ anp assungen)\nK\n G\n R\n S\n W\n L\n I\n C\n ESS\n3\n 2\n 2\n 4\n 2\n 1\n 2\n 1\n 6\nInitiative:\n 4 + 1W6\nHandlungen:\n 1 Haupt, 2 Neben\nZustandsmonitor:\n 10\nVerteidigungswert:\n 5\nFertigkeiten:\n Athletik 2, Einﬂuss 5 (Einschüchtern +2), \n Feuerwaffen 3, Nahkampf 4, Wahrnehmung 3\nAusrüstung:\n Kommlink [GS 2], Panzerkleidung [+2]\nWaffen:\nSchlagring [Waffenlos | Schaden 3K | Angriffswerte 10/–/–/–/–]\nBeretta 101T [Leichte Pistole | Schaden 2K | HM | Angriffswerte \n9/8/6/–/– | 21(s)]\nDa tenbeschaffer der Cutters (Decker)\nK\n G\n R\n S\n W\n L\n I\n C\n ESS\n3\n 2\n 3\n 1\n 4\n 4\n 4\n 1\n 4,9\nInitiative:\n 7 + 1W6\nMatrix-Initiative:\n 9 + 3W6/4W6 (kaltes/heißes Sim)\nHandlungen:\n 1 Haupt, 2 Neben\nZustandsmonitor:\n 12\nVerteidigungswert:\n 4\nFertigkeiten:\n Cracken 3, Einﬂuss 1, Elektronik 3, Feuerwaffen 2, \n Cracken 3, Einﬂuss 1, Elektronik 3, Feuerwaffen 2, \nHeimlichkeit 1, Nahkampf 2, Überreden 1, Wahrnehmung 2\nBodytech:\n Cyberaugen [Stufe 1; Bildverbindung, Kamera, \nRestlichtverstärkung], Cyberbuchse 1 [GS 1, D/F 4/3, +1 \nMatrix-Initiativewürfel]\nAusrüstung:\n Cyberdeck [Erika MCD-6, GS 1, A/S 4/3], \n Kommlink [GS 3], Lederkluft in Gangfarben [+1]\nWaffen:\nKampfmesser [Klingenwaffe | Schaden 3K | Angriffswerte \n9/2*/–/–/– | *maximale Reichweite 20 Meter]\nFichetti Security 600 [Leichte Pistole | Schaden 2K | HM | \nAngriffswerte 10/9/6/–/– | 30(s) | abnehmbare Schulterstütze, \nAngriffswerte 10/9/6/–/– | 30(s) | abnehmbare Schulterstütze, \nLasermarkierer]\nLone-St ar-Streifenpolizist\nK\n G\n R\n S\n W\n L\n I\n C\n ESS\n3\n 3\n 3\n 3\n 3\n 2\n 3\n 2\n 6\nInitiative:\n 6 + 1W6\nHandlungen:\n 1 Haupt, 2 Neben\nZustandsmonitor:\n 10\nSHADOWRUN: SECHSTE EDITION\n206 // Das wilde Leben // NICHTSPIELER CHARAKTERE",
+    "topic": "combat.initiative",
+    "keywords": [
+      "angriffswerte",
+      "initiative",
+      "schaden",
+      "handlungen",
+      "haupt",
+      "neben",
+      "zustandsmonitor",
+      "feuerwaffen"
+    ]
+  }
+}

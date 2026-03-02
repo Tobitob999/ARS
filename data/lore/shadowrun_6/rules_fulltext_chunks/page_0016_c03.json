@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0016_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 16, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 16,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Ein Bericht über ein abgebranntes \nLagerhaus in Renton, danach ein Einbruch in eine von \nDas Leben in der Sechsten Wel t // 15",
+    "topic": "general",
+    "keywords": [
+      "bericht",
+      "abgebranntes",
+      "lagerhaus",
+      "renton",
+      "danach",
+      "einbruch",
+      "leben",
+      "sechsten"
+    ]
+  }
+}

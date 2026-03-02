@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0199_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 199, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 199,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Wenn du dich also zu Beginn der Kampfrunde mit einer \nGeschwindigkeit von 30 Metern pro Kampfrunde fortbe-\nwegst und um 10 Meter pro Kampfrunde beschleunigst, \ndann bewegst du dich in dieser Runde 30 + (10 ÷ 2) Meter, \nalso insgesamt 35 Meter. Wenn du dich mit 30 Metern pro \nKampfrunde bewegst und um 10 Meter pro Kampfrunde ab-\nbremst, dann bewegst du dich 30 – (10 ÷ 2) Meter weit, also \n25 Meter. Und wenn du weder beschleunigst noch bremst, \ndann bewegst du dich so viele Meter, wie durch deine aktuelle \nGeschwindigkeit angegeben. Für das Beschleunigen oder \nBremsen an sich ist keine separate Handlung erforderlich. Panzerung:\n +2 auf den Verteidigungswert gegen Angriffe \nin der Matrix. Das Programm gewährt zudem einen \nWürfelpoolbonus von +2 auf alle Schadenswiderstands-\nproben des Riggers in der Matrix, während dieser in der \nVR mit heißem Sim ist. Signalreiniger: \nSenkt den Rauschenwert um 2. Tarnkappe:\n Wenn du die Matrixhandlung \n Verstecken\ndurchführst, erhältst du 1 Punkt Edge; dieser Punkt \nmuss sofort für diese Handlung ausgegeben werden, \nsonst verfällt er. Toolbox:\n +1 auf Datenverarbeitung. Virtuelle Maschine:\n 2 zusätzliche Programmslots; bei An-\ngriffen erleidest du 1 zusätzliches Kästchen Matrixscha-\nden, gegen das kein Widerstand geleistet werden kann. Riggen von \nF ahrzeugen\nDu hast also eine Riggerkontrolle. Lass uns nun darüber \nsprechen, wie du ein Fahrzeug dazu bringst, das zu tun, \nwas du willst. Sehen wir uns zuerst die Werte an, die aus-\nschlaggebend dafür sind, wie sich ein Fahrzeug bewegt. Das \nHandling\n dient als Schwellenwert für Proben, die \nbeim Steuern des Fahrzeugs abgelegt werden.",
+    "topic": "combat",
+    "keywords": [
+      "meter",
+      "dich",
+      "kampfrunde",
+      "also",
+      "bewegst",
+      "dann",
+      "dieser",
+      "geschwindigkeit"
+    ]
+  }
+}

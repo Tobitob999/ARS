@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_05_gamemastering_paranoia_p0104_c01",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_05_gamemastering_paranoia",
+    "chapter"
+  ],
+  "summary": "Rule chunk from Gamemastering Paranoia page 104, chunk 1.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_05_gamemastering_paranoia",
+    "source_title": "Gamemastering Paranoia",
+    "page": 104,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "PARANOIA \n‘coherent speeches. PCs should get smart and interrupt speeches with weapontire. My Laser is Quick \nMission: A series of unexplained Terminations Without Proper Documents have been discovered in the nighicycle corridors of Alpha ‘Complex — and the victims are all igh status, citizens, The PCs are put on the case \n‘Complications: Also put on the case are a cou pile of pushy IntSec goons with a tendency to incinerate witnesses and evidence alike in their loyal fervor ~ that is, unless the PCs beat them t0 it PCs drop by R&D and pick up the Acme A-T Experimental Clue Detector and Ratiocinatory Analyzer Mark XIl, Everything is a clue, especially if it is something dangerous. Every five minutes it broadcasts is latest hypotheses and: percentage breakdowns — lots of absurd theories and wildly varying probabilities PCs are sent to CPU Central compnode to get temporary authorization to enter highs Clearance areas, \"Sorry, we're out of temp jumpsuits in the right colors.” Lots of PCs get shot in high-status corridors, Some PCs reach the various scenes of the ‘crimes, The Acme A-1 Experimental Clue Detector and Ratiocinatory Analyzer Mark Xi is-a big help, Victims all died the same way apparently picked up by throat and shaken until tissues gave way. (Ugheh.) \nResolution: PCs check security videos, eyewitnesses, black market contacts, oF entire population of Alpha Complex. Data is fed in to Analyzer and one common factor in all kill ings pops up — a deliverybot. Deliverybot is, \nbrought in.",
+    "topic": "combat",
+    "keywords": [
+      "clue",
+      "analyzer",
+      "speeches",
+      "corridors",
+      "alpha",
+      "complex",
+      "victims",
+      "status"
+    ]
+  }
+}

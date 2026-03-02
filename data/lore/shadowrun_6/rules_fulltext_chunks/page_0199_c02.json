@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0199_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 199, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 199,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Man sollte seine aktuelle \nGeschwindigkeit immer im Blick behalten: Wann immer \nman ein neues Geschwindigkeitsintervall erreicht, steigt \nder kumulative Würfelpoolmalus auf alle Handlingproben \nmit dem Fahrzeug sowie auf alle aus dem Fahrzeug heraus \ndurchgeführten Angriffsproben um -1. Wenn man also ein \nFahrzeug mit einem Geschwindigkeitsintervall von 20 fährt, \nerhält man ab einer Geschwindigkeit von 20 einen Würfel-\npoolmalus von -1, ab 40 einen Würfelpoolmalus von -2 usw. Die Höchstgeschwindigkeit gibt die maximale Anzahl an \nMetern an, die sich das Fahrzeug innerhalb einer Kampf-\nrunde bewegen kann. Neben den Geschwindigkeitswerten verfügen Fahrzeuge \nüber das Attribut Rumpf, das angibt, wie stark und robust \nihr Rahmen ist, und das Attribut Panzerung, das beschreibt, \nmit wie viel zusätzlichem Schutz dieser Rahmen versehen \nwurde. Die Attribute Pilot und Sensor repräsentieren die \neingebauten Programmroutinen, mit denen sich das Fahrzeug \neigenständig bewegen und auf seine Umwelt reagieren kann. Das Attribut Sitze gibt an, wie viele Personen das Fahrzeug \nunter normalen Bedingungen befördern kann. Dazu verfügen \nFahrzeuge auch über die gängigen Angaben zu Verfügbarkeit \nund Preis. Sofern in der Beschreibung nicht anders angegeben, \nkönnen alle Fahrzeuge und Drohnen sechs Stunden lang \nin Betrieb sein, bevor sie auftanken oder aufladen müssen. Die Bewegung \nvon F ahrzeugen\nWie sieht das mit der Bewegung nun genau aus? Grund-\nsätzlich gilt: Die pro Kampfrunde zurückgelegte Distanz \nist gleich der Geschwindigkeit zu Beginn der Runde ± \n(Beschleunigungsrate ÷ 2) [sofern beschleunigt oder ab-\ngebremst wird].",
+    "topic": "combat.attack",
+    "keywords": [
+      "fahrzeug",
+      "geschwindigkeit",
+      "alle",
+      "attribut",
+      "seine",
+      "immer",
+      "wuerfelpoolmalus",
+      "einer"
+    ]
+  }
+}

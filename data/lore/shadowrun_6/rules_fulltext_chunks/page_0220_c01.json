@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0220_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 220, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 220,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "V ampir\nEin Vampir ist ein Mensch (und seltener ein Angehöriger \neines anderen Metatyps), der mit Stamm I des MMVV, dem \nHarz-Greenbaum-Stamm des Virus, infiziert ist. Vampire \nbehalten im Allgemeinen ihre geistige Gesundheit und ih-\nre Intelligenz, und einige bemühen sich sogar, sich in die \nmetamenschliche Gesellschaft zu integrieren, ohne anderen \nzu schaden. Anfangs war das auch gar nicht so schwer, da \nVampire durchaus in der Lage sind, ihren Durst im Zaum \nzu halten. Doch leider haben bislang unerklärliche Verän-\nderungen, die bei allen Infizierten auf der Welt aufgetreten \nsind, dazu geführt, dass ihr Appetit sich verstärkt hat, und \nmittlerweile erliegen immer mehr von ihnen ihrem Hunger \nnach metamenschlichem Blut und metamenschlichen Seelen \nund dem Rausch, Schmerzen zuzufügen, um so ihre Un-\nsterblichkeit zu sichern. Aufgrund ihres Regenerationsver-\nmögens und ihrer Fähigkeit, eine Nebelgestalt anzunehmen, \nsind sie äußerst gefährliche Jäger. Insgesamt wird ihr Aussehen durch die Umwandlung \nkaum verändert, allerdings sind Vampire häufig sehr blass, \nsofern sie nicht gerade Blut zu sich genommen haben. Bei \nemotionalem Stress oder wenn sie hungrig sind, leuchten \nihre Augen oft rot, und ihre Eckzähne verlängern sich zu \nspitzen Vampirzähnen, mit denen sie ihre Beute beißen \nund aussaugen. Vampire müssen mindestens alle paar Tage metamenschli-\nches Blut zu sich nehmen, außerdem müssen sie einmal pro \nMondmonat ihren Opfern einen Punkt Essenz entziehen. Der Versuch, etwas anderes zu sich zu nehmen, führt zu \ndeutlichen körperlichen Krankheitssymptomen innerhalb \neiner Stunde, woraufhin sie die mundane Nahrung wie-\nder von sich geben.",
+    "topic": "combat.damage",
+    "keywords": [
+      "sich",
+      "ihre",
+      "vampire",
+      "blut",
+      "anderen",
+      "stamm",
+      "nehmen",
+      "ampir"
+    ]
+  }
+}

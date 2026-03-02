@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_03_world_of_paranoia_p0052_c01",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_03_world_of_paranoia",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The World of Paranoia page 52, chunk 1.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_03_world_of_paranoia",
+    "source_title": "The World of Paranoia",
+    "page": 52,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "ee PARANOIA \n‘equivalent crimes, so long as the citizen's in- tentions were above reproach, and the error in judgment was the result of haste, despera- tion, or innocent ignorance while earnestly serving The Computer and Alpha Complex For example, if citizen accidentally collapses, a residential block while testing an R&D. Gravitronic Ray device, well, he was just following orders. Reckless or premeditated ‘crimes, on the other hand, receive harsher treatment (see below) ‘ \nPublic Censure The citizen's offense is made public and ‘other citizens are encouraged to gently chide the miscreant for his carelessness, Public an- ouncements may be made over com units, louelspeakers, and public vidscreens, and the offender may be requited to wear a sign or some other indication of his careless error This citizen carelessly allowed hhis jump- suit to become soiled. Shame! Encourage this thoughtless but earnest citizen to express a more diligent commitment ta personal hygiene, Thank you for your cooperation,’ \nOfficial Reprimand {An official reprimand means that a report fof misconduct is entered in the citizen’s Per: sonal File (and that means a treason point. Generally some other minor punishment — restriction to quarters, marching up and down, polishing the High Programmer's Delta 88 ‘Autotacht, scrubbing the latrine, and so on is also assigned. The offender may be put on probation, with the punishment held in reserve against any further errors In judgment, ©, “inexcusable, citizen Dopey. You knew that residence block was inhabited.",
+    "topic": "matrix",
+    "keywords": [
+      "citizen",
+      "other",
+      "public",
+      "crimes",
+      "error",
+      "judgment",
+      "while",
+      "block"
+    ]
+  }
+}

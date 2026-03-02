@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0304_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 304, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 304,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Nissan Samurai/Oni\n(Läuferdrohne)\nZwei Beine sind nicht besser als vier, wenn es ums Droh-\nnendesign geht. Die Nissan Shogun übernahm als Erste \nde jedoch weiterhin von ihrem metamenschenähnlichen \nRahmen eingeschränkt. Die Samurai und die Oni mischen \ndas Metamenschliche mit … nun, etwas anderem. Die \nNissan Samurai gehört in die Kategorie der mittleren \nDrohnen, während die Oni eine große Drohne ist. Beide \nwerden serienmäßig mit einziehbaren Klingen an den \nArmen und Fersen (Schaden 3K, Angriffswerte 6/–/–/–/–) \nausgeliefert. An jedem der Arme der Samurai kann eine \nMaschinenpistole oder eine kleinere Feuerwaffe mit 50 \nSchuss Munition montiert werden; die Oni kann ein Ge-\nwehr und 100 Schuss Munition an jedem Arm aufnehmen. Der große Vorteil des Designs ist die Geschwindigkeit, \nwas jedoch etwas zulasten der Kampffähigkeiten geht. Beide Drohnenmodelle können sich auch vierbeinig (auf \nArmen und Beinen) fortbewegen, haben währenddessen \naber keinen Zugriff auf Waffen. MCT-Nissan Roto-Drohne\n(Rotordrohne)\nMCT-Nissan hat dieses Modell schon vor so langer Zeit \ngenau richtig konstruiert, dass man nie viel daran ändern \nmusste. Sie besteht aus einem Rotor und einem Rumpf, der \nspeziell auf Modifikation und schnellen Umbau konstru-\niert wurde. Eine Kameradrohne kann in weniger als einer \nMinute in eine Kampfdrohne umgebaut werden. Um zu \nermitteln, wie viele Waffenhalterungen oder Zubehör die \nDrohne aufnehmen kann, gilt ihr Rumpfattribut als um 3 \nhöher, als es tatsächlich ist.",
+    "topic": "combat.damage",
+    "keywords": [
+      "nissan",
+      "samurai",
+      "drohne",
+      "geht",
+      "jedoch",
+      "etwas",
+      "grosse",
+      "beide"
+    ]
+  }
+}

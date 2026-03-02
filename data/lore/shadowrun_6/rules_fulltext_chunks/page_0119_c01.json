@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0119_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 119, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 119,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Sprengstoffe, \nGase und \nSprühangriffe\nExplosionen oder Waffen, die größere Bereiche treffen, \nbrauchen spezielle Regeln. Es gibt drei Arten von Angriffen \nmit Flächenwirkung: Sprühangriffe, Explosionen und Gas. Sprühangriffe werden zum Beispiel mit Flammenwerfern \noder Feuerlöschern durchgeführt. Zu den Explosivwaf-\nfen gehören Granaten, Mörser, Raketen und alles andere, \nwas explodiert. Gaswaffen geben über gewisse Zeiträume \nhinweg Gas in die unmittelbare Umgebung ab. Wie man \nSprengstoffe für spezielle Zwecke – zum Beispiel zum Ab-\nsprengen von Türangeln – einsetzt, wird im Abschnitt Mehr \nBums (S. 121) behandelt. Sprengangriffe \nund Abweichung\nAngriffe mit Sprengwirkung verursachen in unterschiedli-\ncher Entfernung vom Detonationspunkt unterschiedliche \nMengen an Schaden. Jeder dieser Angriffe hat eine Scha-\ndenswirkung am Detonationspunkt (DP; innerhalb von 1 \nMeter), in Sehr naher (1-3 Meter) und Naher Entfernung \n(4-50 Meter). Mittel, Weit und Sehr weit liegen außerhalb \nder Bandbreite der geworfenen und von der Schulter ab-\ngefeuerten Sprengkörper in diesem Buch. Bei den meisten \nSprengstoffen ist ein maximaler Explosionsradius angege-\nben. Wenn kein Maximum angegeben ist, wirkt die Explo-\nsion innerhalb eines Radius von 50 Metern. Angriffe werden mit einer Probe auf Waffenfertigkeit + \nGeschicklichkeit durchgeführt, die die Explosionswaffe ins \nZiele bringen soll. Zusätzliche Erfolge verringern die Distanz \nder Abweichung vom Einschlagsort. Um die Abweichung zu \nbestimmen, würfelt der Spielleiter mit 2W6 und zieht die Ta-\nbelle Abweichung heran. In dieser Tabelle ist aufgeführt, wie \nviele Meter die Explosionswaffe abweicht, weil z./uni00A0B.",
+    "topic": "combat.attack",
+    "keywords": [
+      "abweichung",
+      "meter",
+      "spruehangriffe",
+      "angriffe",
+      "sprengstoffe",
+      "explosionen",
+      "spezielle",
+      "beispiel"
+    ]
+  }
+}

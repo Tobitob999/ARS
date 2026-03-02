@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0133_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 133, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 133,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Wenn du es verlegen willst, \nbrauchst du einen Tag zum Abbau. Die Materialien, die du \ndadurch erhältst, kannst du anschließend anderswo zum \nErrichten eines neuen Refugiums benutzen. Wenn du dein \nRefugium verbessern willst, musst du weitere Materialien \nheranschaffen, sie zu den vorhandenen hinzufügen und \ndann eine Anzahl von Tagen gleich der neuen Kraftstufe \nmit der Verbesserung verbringen – nicht nur gleich der \nDifferenz zwischen der alten und neuen Kraftstufe. Magie lernen\nNeue Zauber oder Rituale können durch das Studieren \nder entsprechenden Formeln oder von einem Lehrer (einer \nErwachten Person oder einem Geist) erlernt werden. Einige \nZauberer haben das Glück, dass ihnen ganze Bibliotheken \nmit Schriftrollen und Grimoires vererbt wurden. Sie könn-\nten auch ein Erwachtes Familienmitglied haben, das sie \neinen neuen Zauber lehrt. Der Rest der Erwachten kann \nauf Online-Communitys wie SpellSource und Magicknet \nzugreifen, die Sammlungen von Formeln aus verschiedenen \nTraditionen bieten. Diese Netzwerke werden meist von \neinem oder mehreren Konzernen unterstützt, daher muss \nman eine SIN und eine Magielizenz (oder gute Fälschun-\ngen) haben, um sie nutzen können. Etablierte Zauberer \narbeiten manchmal auch im Graubereich und unterrichten \nunlizenzierte Magieanwender, um sich mit der Weitergabe \nvon Wissen an weniger Erfahrene ein paar Nuyen dazu-\nzuverdienen. Wenn du alleine lernen willst, kannst du eine Formel \nkaufen (Preise dafür findest du in der Tabelle \n Magische \nAusrüstung\n, S. 170). Wenn du einen lebenden, atmenden \nLehrer haben willst, musst du mit einer Gebühr von etwa \n[Einfluss-Fertigkeit des Lehrers × Kosten der Formel] Nuyen \nrechnen.",
+    "topic": "magic.spells",
+    "keywords": [
+      "willst",
+      "neuen",
+      "einen",
+      "einem",
+      "materialien",
+      "kannst",
+      "musst",
+      "gleich"
+    ]
+  }
+}

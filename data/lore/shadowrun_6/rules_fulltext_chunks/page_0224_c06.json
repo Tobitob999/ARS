@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0224_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 224, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 224,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Der Angriff hat einen Schadenswert von \n(Magie)K (Schadensart), die Angriffswerte sind Magie × 2/\n(Magie × 2) – 2/(Magie × 2) – 8/(Magie × 2) – 10/–. Fällt der \nAngriffswert auf 0 oder weniger, kann der Elementare Angriff \ndiese Reichweite nicht erreichen. Das Opfer gelangt in den \nStatus, der der Angriffs- und damit Schadensart (siehe S. 112) \nentspricht: \nGebrutzelt\n (Elektrizität), \nGebrutzelt\n (Elektrizität), \nGebrutzelt\n Brennend\n (Feuer), \nBrennend\n (Feuer), \nBrennend\n Verätzt\n(Chemisch) oder \nUnterkühlt\n (Kälte). Unterkühlt\n (Kälte). Unterkühlt\nEnergieaura\nART\n HANDLUNG\n REICHWEITE\n DAUER\nP\n Auto\n Selbst\n Immer\nDer Critter ist von einem Feld zerstörerischer Energie um-\ngeben, die die Form von Feuer, Kälte, Elektrizität oder einer \nätzenden chemischen Substanz haben kann. Die Kraft bezieht \nsich immer auf ein bestimmtes Element. Der Critter erhöht \nden Schadenswert jedes Nahkampfangriffs, den er ausführt, \num sein halbes Magieattribut (aufgerundet). Die Schadensart \n(S. 112) der Energieaura versetzt das Opfer in den entspre-\nchenden Status – \nGebrutzelt\n (Elektrizität), \nGebrutzelt\n (Elektrizität), \nGebrutzelt\n Brennend\n (Feuer), \nBrennend\n (Feuer), \nBrennend\nVerätzt\n (Chemisch) oder \nVerätzt\n (Chemisch) oder \nVerätzt\n Unterkühlt\n (Kälte) – und erhöht den \nUnterkühlt\n (Kälte) – und erhöht den \nUnterkühlt\nAngriffswert um das Magieattribut des Critters. Erfolgreiche waffenlose Nahkampfangriffe gegen einen \nCritter mit einer Energieaura fügen dem Angreifer ebenfalls \nSchaden zu. Der Angreifer legt eine Schadenswiderstands-\nprobe gegen einen Schadenswert von (Magie des Critters)\nK ab und erhält den Status, der der Schadensart entspricht.",
+    "topic": "combat.attack",
+    "keywords": [
+      "magie",
+      "gebrutzelt",
+      "brennend",
+      "unterkuehlt",
+      "elektrizitaet",
+      "feuer",
+      "kaelte",
+      "schadensart"
+    ]
+  }
+}

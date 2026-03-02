@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0153_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 153, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 153,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Der Vorgang hinterlässt an dem Objekt Veränderungen \noder Zeichen, die von jemandem mit der Wissensfertigkeit \nArkana (oder einer hinreichend ähnlichen Wissensfertig-\nkeit) mit einer erfolgreichen Probe auf Wahrnehmung + \nIntuition (3) erkannt werden können. Murmeln, Tränke, \nKugeln, Projektile und kleine Büroartikel gehören zu den \nbeliebtesten Objekten, die zu alchemistischen Erzeugnissen \ngemacht werden. Herstellung \neines alchemistischen \nErzeugnisses\nWenn das Objekt ausgewählt ist, folge den vier Schritten \ndes folgenden Prozesses:\nSchritt 1:\nZauber ausw ählen\nWenn du willst, dass ein alchemistisches Erzeugnis einen \nZauber auslöst, musst du zuerst den Zauber auswählen. Du kannst dafür nur einen Zauber wählen, den du kennst. Wenn du die Anpassungen Hochdrehen oder Fläche Ver-\ngrößern einsetzen willst, lege jetzt fest, wie viele davon du \nbenutzen willst (was sich auch auf den Entzug in Schritt \n4 auswirkt). Fläche Verschieben kann bei alchemistischen \nErzeugnissen nicht eingesetzt werden. Schritt 2:\nAuslöser ausw ählen\nWenn das Erzeugnis jemals seinen eingebetteten Zauber \nloslassen soll, braucht es einen Auslöser. Es gibt drei grund-\nlegende Arten: Befehl, Kontakt und Zeitzünder. Alchemie\nDie uralte Kunst der Alchemie beschäftigte sich damit, \nBlei in Gold zu verwandeln, Tränke zu brauen oder Steine \nzu schaffen, die Unsterblichkeit verleihen. Manche Ziele \nder modernen Alchemie sind sehr ähnlich, aber die Tech-\nniken sind viel raffinierter und die Einsatzmöglichkeiten \ndeutlich vielfältiger. In der Sechsten Welt geht es in der \nAlchemie um das Herstellen von Erzeugnissen: Objekten, \nin die Zauber eingebettet sind.",
+    "topic": "skills",
+    "keywords": [
+      "zauber",
+      "alchemie",
+      "alchemistischen",
+      "erzeugnissen",
+      "schritt",
+      "willst",
+      "einen",
+      "objekt"
+    ]
+  }
+}

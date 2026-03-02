@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0050_c07",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 50, chunk 7.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 50,
+    "chunk_index": 7,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Edge-Handlungen \nnach K osten\n1 Edge\nAbstechen\n (Ziel ansagen, Nahkampf-Angriff)\nPlötzliche Erkenntnis\n (beliebig)\nTaktische Rolle\n (Volle Deckung)\nUmwerfen\n (Nahkampf-Angriff)\n2 Edge\nAus der Deckung feuern\n (Fernkampf-Angriff, \n Charakter muss im Status \nDeckung\n sein)\nDeckung\n sein)\nDeckung\nDramaqueen\n (Fertigkeit einsetzen [Überreden])\nEntwinden\n (Blocken)\nK.-o.-Schlag\n (Nahkampf-Angriff)\n4 Edge\nGroße Rede\n (Fertigkeit einsetzen [Einﬂ uss])\nVorausschau\n (Mehrfachangriffe, Fernkampf-Angriff)\n5 Edge\nAngesagtes Ziel – Entwaffnen\n (jede Art von Angriff)\nAngesagtes Ziel – Lebenswichtige Organe\n (jede \nArt von Angriff)\nEdge für soziale Proben\nEinige der besten Shadowrunner im Geschäft sind gleich-\nzeitig auch ausgesprochen geschickte Redner. Sie sind in \nder Lage, ihre Aufträge zu erfüllen, ohne dass ein einziger \nSchuss fällt. Dafür braucht man eine flinke und redege-\nwandte Zunge, und wie im Kampf können auch hier die \näußeren Umstände großen Einfluss darauf haben, wie \nerfolgreich ein Überredungs- oder Beeinflussungsversuch \nverläuft. Die Rahmenbedingungen einer sozialen Probe können \nes einer der beiden Seiten erlauben, Edge zu erhalten. Die \nRegeln dafür sind weniger zahlenbasiert als im Kampf – \ndie Spielleiterin muss abwägen, wann Edge vergeben wird \nund wann nicht. Die grundlegende Frage lautet dabei \nstets: Verfügt eine der beiden Seiten über einen ausrei-\nchend großen Vorteil, der die Vergabe von Edge recht-\nfertigt?",
+    "topic": "combat.attack",
+    "keywords": [
+      "edge",
+      "angriff",
+      "deckung",
+      "ziel",
+      "nahkampf",
+      "fernkampf",
+      "sein",
+      "fertigkeit"
+    ]
+  }
+}

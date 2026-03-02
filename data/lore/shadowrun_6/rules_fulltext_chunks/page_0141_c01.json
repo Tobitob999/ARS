@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0141_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 141, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 141,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Donnerknall\nREICHWEITE ART DAUER ENTZUG\nBF (F) P A 3\nEine große, laute Ablenkung kann nützlich sein, und dieser \nZauber bietet genau das. Der Zaubernde verändert Schall-\nwellen zu einem Lärm seiner Wahl: Er kann wie der Name \ndes Zaubers klingen, das Rauschen des Verkehrs zur Stoß-\nzeit nachahmen, aber auch wie das ferne Durcheinander \nvon Schreien oder andere verstörende Geräusche klingen. Die Grundversion des Zaubers betrifft einen kugelförmi-\ngen Bereich mit zwei Metern Radius; dieser kann durch \ndie Anpassung Fläche Vergrößern vergrößert werden. Pro \nErfolg bei der Probe auf Hexerei + Magie hält der Lärm \nfür 1 Kampfrunde weiter an, nachdem der Zauber fallen \ngelassen wurde. Die Erfolge dienen auch als Würfelpool-\nmalus für Personen, die versuchen, andere Geräusche im \nWirkungsbereich zu hören. Dunkelheit\nREICHWEITE ART DAUER ENTZUG\nBF (F) P A 3\nDieser Zauber verändert die Lichtverhältnisse deiner \nUmgebung nach deinen Vorstellungen. Für jeden Erfolg \nkannst du die Beleuchtung der Umgebung um eine Ab-\nstufung (s. Tabelle Umgebung und Lichtverhältnisse, S. 108) senken, was dabei helfen kann, durch Umgebung \nund Lichtverhältnisse Edge zu erhalten. Es handelt sich \num einen Zauber mit Flächenwirkung, der mit Fläche \nVergrößern und Fläche Verschieben angepasst werden \nkann. Element arp anzerung\nREICHWEITE ART DAUER ENTZUG\nB M A 5\nDeine Magie füllt den Körper des Ziels, härtet ihn und \nlässt ihn Schaden besser wegstecken. Lege eine Probe auf \nHexerei + Magie ab und addiere die Erfolge zum Verteidi-\ngungswert des Ziels. Wenn du den Zauber wirkst, wählst du außerdem einen \nElementareffekt aus, gegen den der Zauber schützen soll.",
+    "topic": "magic.spells",
+    "keywords": [
+      "zauber",
+      "umgebung",
+      "reichweite",
+      "dauer",
+      "entzug",
+      "dieser",
+      "einen",
+      "flaeche"
+    ]
+  }
+}

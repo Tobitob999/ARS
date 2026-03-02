@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0153_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 153, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 153,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Herstellung \neines alchemistischen \nErzeugnisses\nWenn das Objekt ausgewählt ist, folge den vier Schritten \ndes folgenden Prozesses:\nSchritt 1:\nZauber ausw ählen\nWenn du willst, dass ein alchemistisches Erzeugnis einen \nZauber auslöst, musst du zuerst den Zauber auswählen. Du kannst dafür nur einen Zauber wählen, den du kennst. Wenn du die Anpassungen Hochdrehen oder Fläche Ver-\ngrößern einsetzen willst, lege jetzt fest, wie viele davon du \nbenutzen willst (was sich auch auf den Entzug in Schritt \n4 auswirkt). Fläche Verschieben kann bei alchemistischen \nErzeugnissen nicht eingesetzt werden. Schritt 2:\nAuslöser ausw ählen\nWenn das Erzeugnis jemals seinen eingebetteten Zauber \nloslassen soll, braucht es einen Auslöser. Es gibt drei grund-\nlegende Arten: Befehl, Kontakt und Zeitzünder. SHADOWRUN: SECHSTE EDITION",
+    "topic": "magic.spells",
+    "keywords": [
+      "zauber",
+      "schritt",
+      "willst",
+      "einen",
+      "alchemistischen",
+      "ausw",
+      "aehlen",
+      "erzeugnis"
+    ]
+  }
+}

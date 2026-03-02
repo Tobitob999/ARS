@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0054_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 54, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 54,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Der Spielleiter legt eine Probe \nauf Einflussstufe + Einflussstufe ab; die Tabelle \nBeinarbeit\nbeschreibt, wie viel die Connection weiß. Sobald der Spielleiter herausgefunden hat, wie viel die \nConnection weiß, wird die \nLoyalitätsstufe\n verwendet, um \nfestzulegen, wie viel die Connection bereit ist, dem Spie-\nlercharakter mitzuteilen. Dazu legt der Spielercharakter \neine Probe auf Einfluss + Charisma ab, wofür er die Loya-\nlitätsstufe der Connection als Würfelpoolbonus erhält. Die \nAnzahl der Erfolge dieser Probe gibt an, welches Level an \nInformationen aus der Tabelle \nBeinarbeit\n die Connection \nBeinarbeit\n die Connection \nBeinarbeit\ndem Charakter kostenlos mitzuteilen bereit ist. Wissen, \ndas darüber hinausgeht, kostet den Charakter Geld, übli-\ncherweise um die 100 Nuyen pro Level an Informationen, \nwobei die höchsten Informationslevel ruhig schon mal mehr \nkosten können. Natürlich kann die Connection maximal \ndas mitteilen, was sie auch weiß – nur weil der Charak-\nter einen brillanten Wurf bei der Loyalitätsprobe hinlegt \nund die Connection bereit ist, eine Menge Informationen \npreiszugeben, heißt das ja nicht, dass sie plötzlich mehr \nweiß als vorher. Connections können darüber hinaus recht hilfreich dabei \nsein, an schwer zu beschaffende Ausrüstung heranzukom-\nmen. Siehe \nVerfügbarkeit\n auf Seite 244. Verfügbarkeit\n auf Seite 244. Verfügbarkeit\nSt a tus\nManchmal tun Shadowrunner Dinge; manchmal werden \nihnen Dinge angetan. Beide Fälle können damit enden, dass \nsie sich in einem oder mehreren Zuständen oder Status be-\nfinden, der Auswirkungen auf ihre weiteren Aktivitäten hat \n– in der Regel temporär, bis der Status irgendwann abklingt \noder etwas ihn aufhebt.",
+    "topic": "skills.social",
+    "keywords": [
+      "connection",
+      "beinarbeit",
+      "weiss",
+      "probe",
+      "viel",
+      "bereit",
+      "informationen",
+      "verfuegbarkeit"
+    ]
+  }
+}

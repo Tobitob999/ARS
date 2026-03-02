@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0039_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 39, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 39,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Die normale \nReaktion wäre, es noch einmal zu versuchen, solange man \nnicht gerade von den Bullen gejagt, von Gangmitgliedern \nbeschossen oder sonst wie abgelenkt wird. Das ist tatsäch-\nlich erlaubt, aber die Wiederholung einer Probe, wenn die \näußeren Umstände sich nicht geändert haben, führt zu \neinem Würfelpoolmalus von -2 für den Charakter. Jeder \nweitere neue Versuch bringt einen zusätzlichen Würfelpool-\nmalus von -2. Nur durch eine ausreichend lange Pause (die \nSpielleiterin entscheidet, was „ausreichend lange“ heißt) \nwird der Würfelpool wiederhergestellt. Dieser Malus kommt nicht bei Kampfhandlungen zur \nAnwendung, da jeder Angriff als neue und separate Aktion \ngilt, nicht als neuer Versuch. P a tzer und \nKritische P a tzer\nWenn mehr als die Hälfte der Würfel einer Probe eine 1 \nzeigen, hast du einen Patzer gewürfelt. Hast du zu allem \nÜberfluss auch noch keinen einzigen Erfolg erzielt, handelt \nes sich um einen Kritischen Patzer. P a tzer\nEin Patzer bedeutet, dass etwas schiefgegangen ist. Das sollte \nim Allgemeinen etwas sein, das lästig ist, aber nicht katas-\ntrophal – der Charakter lässt seine Waffe fallen, während \ner damit herumfuchtelt, oder er vergisst seinen falschen \nNamen, nachdem sich jemand von seiner Verkleidung hat \ntäuschen lassen. Wenn bei der Probe genug Erfolge erzielt \nwerden, kann ein Wurf, der ein Patzer ist, gleichzeitig eine \ngelungene Probe sein. Der Patzer lässt die Probe in dem Fall \nnicht misslingen, sondern verursacht nur in der Folge ein \nProblem, mit dem der Charakter sich befassen muss. Kritischer P a tzer\nEin Kritischer Patzer ist schon deutlich übler als ein normaler \nPatzer.",
+    "topic": "general",
+    "keywords": [
+      "patzer",
+      "probe",
+      "sich",
+      "tzer",
+      "charakter",
+      "einen",
+      "noch",
+      "einer"
+    ]
+  }
+}

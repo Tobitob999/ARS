@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0101_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 101, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 101,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "• Arkana\n• Automodelle\n• Combatbiking\n• Gangs von [Gebiet]\n• Geisterarten\n• Geschichte der Sechsten Welt\n• Geschichte von/des [Region/Geschichtsperiode]\n• Hackergruppen\n• Konzernpersönlichkeiten\n• Luftfahrttechnik\n• Magische Gesellschaften\n• Magische Traditionen\n• Metaebenen\n• Ork-Küche\n• Orxploitation-Musik\n• Politik in [Land]\n• Polizeikonzerne\n• Sicherheitssysteme\n• Spionagetechniken\n• Straßen von [Sprawl]\n• Tech-Konzerne\n• Trideoserien\n• Troll-Trashrock\n• Urban Brawl\n• Virtuelle Nachtclubs\n• Waffenhersteller\nSprach-\nfertigkeiten\nDie Sechste Welt ist die Heimat einer Vielzahl von Sprachen. Alle Sprachen, die wir aus unserer Welt kennen, existie-\nren auch weiterhin, aber dazu kommen noch einige neue, \nbeispielsweise Sperethiel, die Sprache der Elfen, Or’zet, \ndie Sprache der Orks, und Stadtsprech, die Sprache der \nStraßen. Zu wissen, welche Sprache man wählen muss, \nkann entscheidend sein, wenn man jemandem eine geheime \nInformation entlocken oder eine gute Beziehung zu einer \nwichtigen Connection aufbauen möchte. Sprachfertigkeiten sind Wissensfertigkeiten mit Spezia-\nlisierungsstufen. Für jede Sprachfertigkeit existieren vier \ndieser Stufen, am Beispiel:\n• Sperethiel\n• Sperethiel (Spezialist)\n• Sperethiel (Experte)\n• Sperethiel (Muttersprachler)\nAuf der ersten Stufe erhältst du die Fähigkeit, mithilfe \nvon Wahrnehmungsproben einzelne Fetzen der jeweiligen \nSprache zu verstehen, was dir bisher nicht möglich war. Die Sprachfertigkeit wird dabei genauso eingesetzt wie alle \nanderen Wissensfertigkeiten. Auf der zweiten Stufe erhältst \ndu einen Würfelpoolbonus von +2 auf alle Proben, die mit \ndem Verstehen der Sprache zusammenhängen.",
+    "topic": "combat",
+    "keywords": [
+      "sprache",
+      "sperethiel",
+      "welt",
+      "alle",
+      "geschichte",
+      "magische",
+      "strassen",
+      "einer"
+    ]
+  }
+}

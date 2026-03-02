@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0111_c08",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 111, chunk 8.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 111,
+    "chunk_index": 8,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "In diesen Fällen könnten Charaktere über-\nrascht sein, was anderen die Chance gibt, über sie herzu-\nSHADOWRUN: SECHSTE EDITION\n110 // KAMPF // INITIA TIVE",
+    "topic": "combat",
+    "keywords": [
+      "diesen",
+      "faellen",
+      "koennten",
+      "charaktere",
+      "rascht",
+      "sein",
+      "anderen",
+      "chance"
+    ]
+  }
+}

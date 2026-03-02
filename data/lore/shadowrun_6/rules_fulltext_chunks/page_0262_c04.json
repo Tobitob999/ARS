@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0262_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 262, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 262,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Die Nebenhandlung \n Zielen\n muss ausgeführt \nwerden, um die Vorteile eines Zielfernrohrs nutzen zu kön-\nnen, allerdings gilt der Würfelpoolbonus dieser Handlung \nnoch nicht beim ersten Ausführen der Handlung. Wenn \nder Schütze ein Zielfernrohr benutzt, kann seine Zielper-\nson kein Edge dadurch erhalten, dass sie einen höheren \nVerteidigungswert hat. WiFi-Vorteil:\n Das Blickfeld des Zielfernrohrs kann geteilt \nwerden, sodass das, was das Zielfernrohr sieht, auch vom \nRest des Teams gesehen werden kann (und vom Charakter, \nfalls er es benutzt, um damit um die Ecke zu schauen). Zweibein\nDieser zweibeinige Ständer befindet sich unter der Waf-\nfe, wodurch sie nah am Boden abgefeuert werden kann, \nwährend sich der Schütze in einer liegenden oder sitzenden \nHaltung befindet. Ein Zweibein kann an der Unterlauf-\nhalterung einer Waffe befestigt werden und erhöht den \nAngriffswert um +2, wenn es vollständig ausgeklappt ist. Ein Zweibein an der Waffe anzubringen erfordert eine \nHaupthandlung. Um es aus- oder einzuklappen, ist eine \nNebenhandlung erforderlich. WiFi-Vorteil:\n Der Bonus auf den Angriffswert erhöht sich \nauf +3, wenn liegend oder sitzend gefeuert wird. Munition\nMunition definiert sich durch ihre Art (Standard, Gel, APDS \nusw.) und die Feuerwaffenklasse, für die sie gedacht ist \n(leichte Pistole, schwere Pistole, Gewehr usw.). Näheres da-\nzu findest du in den Tabellen auf Seite 262. Wähle zuerst in \nder Tabelle \nMunitionskosten nach Waffenart\n die Waffenart \nMunitionskosten nach Waffenart\n die Waffenart \nMunitionskosten nach Waffenart\naus, für die du Munition kaufen willst, und multipliziere \ndiesen Preis dann mit dem Preis-Multiplikator in der Tabelle \nMunitionsarten\n.",
+    "topic": "combat.defense",
+    "keywords": [
+      "waffenart",
+      "sich",
+      "zweibein",
+      "munition",
+      "nebenhandlung",
+      "zielfernrohrs",
+      "dieser",
+      "handlung"
+    ]
+  }
+}

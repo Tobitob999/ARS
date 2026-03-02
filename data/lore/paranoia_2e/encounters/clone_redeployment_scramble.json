@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "id": "clone_redeployment_scramble",
+  "module_type": "event",
+  "trigger_condition": "GM pacing trigger",
+  "description": "Dead clone replacement arrives with conflicting directives.",
+  "monsters": [],
+  "damage": "contextual",
+  "saving_throw": "none",
+  "effect_description": "Escalates paranoia, treason pressure, and inter-player conflict.",
+  "loot": [],
+  "xp_reward": 0
+}

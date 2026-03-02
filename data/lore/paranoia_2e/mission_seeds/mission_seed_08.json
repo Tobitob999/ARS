@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "category": "mission_seed",
+  "id": "mission_seed_08",
+  "name": "Mission Seed 08",
+  "tags": [
+    "paranoia_2e",
+    "mission",
+    "seed"
+  ],
+  "summary": "Troubleshooter cell must test anti-mutant scanner.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "objective": "test anti-mutant scanner",
+    "assigned_by": "Power Services",
+    "hidden_agenda": "Anti-Mutant",
+    "twist": "primary_target_is_innocent",
+    "countdown": 7,
+    "failure_cost": "demotion_risk"
+  }
+}

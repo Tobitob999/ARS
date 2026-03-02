@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_03_world_of_paranoia_p0042_c04",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_03_world_of_paranoia",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The World of Paranoia page 42, chunk 4.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_03_world_of_paranoia",
+    "source_title": "The World of Paranoia",
+    "page": 42,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "If the society is dangerous to The Computer its eliminated \nSecret Society Rank \n‘Most societies have more-or-less hierarchical structures, with new members having relatively litle information oF privilege, while higher status. members may wield considerable \npower. A beginning character normally stats fut at the lowest level of status in his organiza- tion. He can advance by performing special service for the society The “advancement” section of each socie- ty description mentions the kinds of special services the society is likey to reward. Other services may also resultin promotion, at your whim; these are intended to be illustrative, on- ly; you are the final judge of how a society views the actions of one of its members. Generally speaking, a new member of a society is called a “Ist degree member” although some societies have their own special terminology. The highest members belong to the 32nd degree. a2",
+    "topic": "advancement",
+    "keywords": [
+      "society",
+      "members",
+      "special",
+      "societies",
+      "status",
+      "services",
+      "degree",
+      "dangerous"
+    ]
+  }
+}

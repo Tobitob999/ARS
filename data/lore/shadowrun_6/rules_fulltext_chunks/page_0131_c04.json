@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0131_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 131, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 131,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Adepten, \nSpruchzauberer, Beschwörer, Verzauberer und alle anderen, \ndie das Mana fließen lassen können, finden einen indivi-\nduellen Zugang dazu, ihre Konzentration zu bündeln, um \nso effektiv wie möglich zu sein. Das bedeutet, dass Worte \nund Gesten zwar nicht zwingend nötig sind, um Magie zu \nwirken, aber manche Leute sie dennoch benutzen, weil sie \nsich dann besser konzentrieren können. Jede Person reagiert auch anders auf Magie, was an \nden unterschiedlichen Annahmen und Weltsichten liegt, \ndie sie mit sich bringt. Das ist nur natürlich: Jede Person \nauf der Welt filtert Eindrücke immer durch ihre eigenen \nLebenserfahrungen und Glaubensgrundsätze, was ihr einen \nRahmen gibt, um mit der Welt umzugehen. Viele Dinge \nbeeinflussen diese Filter – darunter die Kulturen, in denen \nLeute aufwachsen, oder die Kulturen, denen sie irgendwann \nim Leben begegnen, und die sie ansprechen und ihnen dabei \nhelfen, die Welt zu verstehen. Im Reich der Magie werden diese Filter für gewöhnlich \nals Traditionen bezeichnet. Eine Tradition ist für Erwachte \nwichtig, die lernen wollen, wie sie Mana kanalisieren und \ndamit interagieren können. Wenn man die Welt durch die \nBrille einer religiösen Tradition betrachtet, könnte man \nder Magie, durch sorgfältige Untersuchungen dieser Ebene \nInformationen erhalten zu können und zu lernen, wie \nman das eigene Bewusstsein in Gänze in den Astralraum \nprojizieren konnte. Beschwören:\n Die Entdeckungen der Sechsten Welt haben \nbeinahe unvermeidlich eine oder mehrere weitere Schichten.",
+    "topic": "magic.spells",
+    "keywords": [
+      "welt",
+      "magie",
+      "durch",
+      "mana",
+      "einen",
+      "ihre",
+      "leute",
+      "sich"
+    ]
+  }
+}

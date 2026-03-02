@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0111_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 111, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 111,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Sie haben 1 Ini-\ntiativewürfel, der eine 4 zeigt. Die Addition dieser 4 zu \nihrem Initiativewert von 4 ergibt für sie ein Initiative-\nergebnis von 8. Der Kampf beginnt mit Carson Aims bei 19. Bei 10 besteht ein Gleichstand zwischen Oda und dem \nCrimson-Crush-Ganger, daher müssen wir ERIM (Edge, \nReaktion, Intuition, Münzwurf) bemühen. Bereits beim \nVergleich von Edge sehen wir, dass Oda 5 besitzt, der \nGanger aber nur 3 durch seine Professionalitätsstufe. Der Gleichstand ist aufgelöst, und Oda ist zuerst am \nZug, gefolgt vom Ganger. Die Schergen-Gruppe der Crimson-Crush-Ganger \nkommt mit 8 zuletzt an die Reihe. Überraschung\nEin Kampf kann auch beginnen, ohne dass alle Teilnehmer \ndavon wissen. In diesen Fällen könnten Charaktere über-\nrascht sein, was anderen die Chance gibt, über sie herzu-\nfallen. Wenn eine Seite die andere zu überraschen versucht, \nkommen Überraschungsproben zum Einsatz. Schritt vier: Widersteht dem Schaden\nWir addieren zum normalen Schadenswert der Ares \nPredator VI (3K) die 5 Nettoerfolge und erhalten als \nmodiﬁ zierten Schadenswert insgesamt 8K. Der An-\nführer der Eye-Fivers würfelt mit seiner Konstitution \nvon 3, um dem Schaden zu widerstehen, und erzielt 1 \nErfolg, was dazu führt, dass er 7 Kästchen Körperlichen \nSchaden erleidet. Schritt fünf: Fühl t den Schmerz\nJetzt tragen wir den Schaden auf dem Zustandsmonitor \ndes Anführers der Eye-Fivers ein, der 10 Kästchen hat, \nwodurch ihm nur noch 3 übrig bleiben. Hätte der Angriff \neinen Zusatzeffekt, käme dieser jetzt zur Anwendung, \naber das ist hier nicht der Fall.",
+    "topic": "combat.initiative",
+    "keywords": [
+      "ganger",
+      "schaden",
+      "dieser",
+      "kampf",
+      "gleichstand",
+      "crimson",
+      "crush",
+      "edge"
+    ]
+  }
+}

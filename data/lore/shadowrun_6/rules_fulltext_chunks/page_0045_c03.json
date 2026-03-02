@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0045_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 45, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 45,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Dieser Prozess erfolgt in dem Augenblick, in dem \ndie Handlung angekündigt wird, der Charakter befindet \nsich also augenblicklich auf der Astralebene (bzw. wieder \nzurück), insbesondere auch für den Rest der Kampfrunde. Einf aches Gerä t verwenden (I)\nMit dieser Haupthandlung kann der Charakter ein einfa-\nches Gerät benutzen. Einfache Geräte sind solche, die mit \neiner einfachen Bewegung aktiviert werden können, etwa \nmit einem Daumenschalter, einem einfachen Tastendruck \noder dem Antippen eines Icons. Die Bedienung komplexerer Geräte dauert länger, wobei \ndie benötigte Zeit vom Spielleiter bestimmt wird oder in \nder Beschreibung des Gerätes angegeben ist. Man beachte, dass ein Gerät, das über ein direktes Neuralin-\nterface (S. 175) kontrolliert wird, mit einer Nebenhandlung \naktiviert werden kann. Fertigkeit einsetzen (I)\nEin Charakter kann mit dieser Haupthandlung eine seiner \nFertigkeiten einsetzen (s. Fertigkeiten, S. 94). Ziel ansagen (I)\nDurch diese Handlung erhöht man den Schaden eines An-\ngriffs um 2, indem man einen Würfelpoolmalus von -4 auf \ndie Angriffsprobe hinnimmt. Diese Handlung muss mit der \nHandlung Angriff kombiniert werden. Durch Einsatz von \nEdge kann der Malus verringert oder völlig aufgehoben \nwerden (siehe S. 48). Zielen (I)\nDurch diese Handlung erhält der Charakter einen Wür-\nfelpoolbonus von +1. Die Handlung kann nur einmal pro \nKampfrunde ausgeführt werden, aber wenn der Bonus \nnicht verwendet wird, wird er auf die nächste Kampfrunde \nübertragen; dadurch ist es möglich, Boni über mehrere \nKampfrunden anzusammeln.",
+    "topic": "combat",
+    "keywords": [
+      "handlung",
+      "charakter",
+      "dieser",
+      "kampfrunde",
+      "durch",
+      "haupthandlung",
+      "geraet",
+      "einer"
+    ]
+  }
+}

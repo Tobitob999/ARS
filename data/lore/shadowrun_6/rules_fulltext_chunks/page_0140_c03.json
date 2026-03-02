@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0140_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 140, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 140,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "In der Tabelle Beispiele für Volumina\nfindest du Richtlinien, wie sich Kubikmeter Material in \ngewöhnliche Objekte übertragen lassen. Astralp anzerung\nREICHWEITE ART DAUER ENTZUG\nB M A 3\nDeine Magie füllt die Astralgestalt des Ziels, härtet diese \nund lässt sie Schaden besser wegstecken. Lege eine Pro-\nbe auf Hexerei + Magie ab und addiere die Erfolge zum \nVerteidigungswert des Ziels im Astralkampf und gegen \nMana-Kampfzauber. Energieblitz\n(Direkter Kampfzauber)\nREICHWEITE\n ART\n DAUER\n ENTZUG\n SCHADEN\nBF\n P\n S\n 4\n K\nEnergieblitz ist die härtere Version von Betäubungsblitz \nund trifft ein einzelnes Ziel mit Körperlichem Schaden. Feuerball\n(Indirekter Kampfzauber, Flächenwirkung)\nREICHWEITE\n ART\n DAUER\n ENTZUG\n SCHADEN\nBF (F)\n P\n S\n 6\n K, Speziell\nDieser Zauber ist die Flächenversion von Flammenstoß. Flammenstoss\n(Indirekter Kampfzauber)\nREICHWEITE\n ART\n DAUER\n ENTZUG\n SCHADEN\nBF\n P\n S\n 5\n K, Speziell\nEin Klassiker. Wenn man daran denkt, Leuten mit Magie \nwehzutun, fällt einem als Erstes ein, ihnen Feuer ins Gesicht \nzu schleudern. Dies ist der Zauber, der das möglich macht. Flammenstoß verursacht Feuerschaden (S. 112). Das Ziel \nerhält den Status \n Brennend\n (S. 53) mit einer Stufe gleich \nBrennend\n (S. 53) mit einer Stufe gleich \nBrennend\nder Anzahl der Nettoerfolge bei der Hexereiprobe. Kugelblitz\n(Indirekter Kampfzauber, Flächenwirkung)\nREICHWEITE\n ART\n DAUER\n ENTZUG\n SCHADEN\nBF (F)\n P\n S\n 6\n K, Speziell\nDieser Zauber ist die Flächenversion von Blitzstrahl (S. 138). Manaball\n(Direkter Kampfzauber, Flächenwirkung)\nREICHWEITE\n ART\n DAUER\n ENTZUG\n SCHADEN\nBF (F)\n M\n S\n 5\n K\nDieser Zauber ist die Flächenversion von Manablitz.",
+    "topic": "combat.defense",
+    "keywords": [
+      "schaden",
+      "reichweite",
+      "dauer",
+      "entzug",
+      "kampfzauber",
+      "zauber",
+      "magie",
+      "indirekter"
+    ]
+  }
+}

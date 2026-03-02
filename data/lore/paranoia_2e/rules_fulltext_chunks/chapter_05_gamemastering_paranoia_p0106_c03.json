@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_05_gamemastering_paranoia_p0106_c03",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_05_gamemastering_paranoia",
+    "chapter"
+  ],
+  "summary": "Rule chunk from Gamemastering Paranoia page 106, chunk 3.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_05_gamemastering_paranoia",
+    "source_title": "Gamemastering Paranoia",
+    "page": 106,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "However, something like it does, “Communications engineering” becomes electronic engineering; “organic commodities” and \"‘cyborging” become bio- sciences; “plastiforming” becomes chemical engineering; and “industrial” and ‘civil’ become mechanical engineering, \nWiWeapons SS Still with us? Just a couple of steps more. Fach character sheet has a \"weapons\" sec- tion, which lists the weapons the character c ries and some data about their use. Well, he still cartes the same weapons, but some the data is out of date. * To Hit: the first edition used a percentage system to determine whether a firer hit his target, Now, it's all part of the skill system, Gross out the “to-hit” number, and write in tive character’ sill with the weapon (which you've calculated according tothe procedure Dutlined under “sills” above), * Type: No change, except all type “'S\" weapons are now type “F,\"and all \"M4\" and. ms” weapons are now type.\" ange: No change. + Reload: No change, although this is now optional ‘ Malint: The malfunction rules ate now op- tional, and work differently anyhow. Just i- note this section, \nAlso, it might be helpful to look up the ‘weapon's damage rating, and write this on the sheet \nWH Mutant Powers \nInthe first edition, most mutant powers were much less powerful than the ones in the sec- cond edition, We merged a bunch of older powers into more powerful new ones (like \nPARANOIA \nTelepathic Sense and Telepathic Projection become Telepathy), and we deleted some of the lamer ones. Some older adventures men- tion powers no longer included in the game.",
+    "topic": "combat",
+    "keywords": [
+      "weapons",
+      "engineering",
+      "some",
+      "type",
+      "powers",
+      "become",
+      "character",
+      "edition"
+    ]
+  }
+}

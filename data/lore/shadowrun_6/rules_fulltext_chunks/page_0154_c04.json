@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0154_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 154, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 154,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Wenn diese 5 Stunden vorbei sind, legt sie eine \nVergleichende Probe auf Verzaubern 4 + Magie 5 (also 9 \nWürfel) gegen den gesenkten Entzug von 4 ab. Sie erzielt \n4 Erfolge, die Spielleiterin 1, also hat das alchemistische \nErzeugnis eine Wirksamkeit von 3. Sie hat Wirksamkeit\n× 2 – also 6 – Stunden, bis das Erzeugnis anfängt, seine \nMacht zu verlieren. Sie könnte ihre Mission allerdings mit einem Handicap \nbeginnen, falls der Entzug ihr Schaden zufügt. Das Attribut \nihrer Tradition ist Logik (5), und ihre Willenskraft beträgt \n6. Gegen den Entzug von 4 erzielt sie mit ihren 11 Würfeln \n3 Erfolge. Ein Kästchen Betäubungsschaden – damit kann \nsie leben. Es ist Zeit, das Erzeugnis mitzunehmen und es \nfür ein Teammitglied einzusetzen, das Hilfe braucht. Wenn \nes eingesetzt wird, solange es noch die volle Wirksamkeit \nhat, würfelt es mit Wirksamkeit 3 + Magie 5, also mit 8 \nWürfeln Heilkraft. Befehl:\n Der Zauberer, der das Erzeugnis hergestellt hat, \nkann es durch seinen Willen auslösen. Er muss sich auf \nder physischen Ebene befinden und wie bei der Spruch-\nzauberei eine Sichtverbindung zum Erzeugnis haben, \num diesen Auslöser zu benutzen. Das Auslösen des Er-\nzeugnisses ist eine Nebenhandlung. Ein Befehlsauslöser \nerhöht den Entzug des Erzeugnisses um 2, und er ist der \neinzige für Heilzauber zulässige Auslöser. Kontakt:\n Der vielleicht einfachste Auslöser wirkt, sobald \ndas Erzeugnis mit dem nächsten materiellen Lebewesen \nin Berührung kommt. Ein Kontaktauslöser erhöht den \nEntzug des Erzeugnisses um 1. Zeitzünder:\n Für diesen Auslöser legt der Charakter eine \nZeitspanne fest; sobald das Erzeugnis fertig ist, beginnt \ndiese Zeitspanne zu laufen.",
+    "topic": "combat.damage",
+    "keywords": [
+      "erzeugnis",
+      "entzug",
+      "also",
+      "wirksamkeit",
+      "ausloeser",
+      "diese",
+      "stunden",
+      "legt"
+    ]
+  }
+}

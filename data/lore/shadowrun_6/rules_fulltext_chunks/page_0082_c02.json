@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0082_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 82, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 82,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Sozialstress\nEs gibt eine gesellschaftliche Situation, mit der du ein-\nfach nicht zurechtkommst. Dabei kann es sich um große \nGruppen, Sprechen mit noch Unbekannten, das Stehen im \nRampenlicht oder zahllose andere Situationen handeln, \ndie manche Leute völlig normal finden, die du aber als \nungemein herausfordernd empfindest. Bonus: 8 Karma\nAuswirkung: Wähle einen bestimmten gesellschaftlichen \nStressreiz aus. Wenn du diesem Reiz ausgesetzt bist, \nmusst du als Nebenhandlung eine Probe auf Charisma \n(2) ablegen. Misslingt die Probe, kannst du Edge we-\nder erhalten noch ausgeben, bis du Erfolg hast oder die \nstressende Situation vorüber ist. Du kannst diese Probe \nverweigern, aber dann erhält jeder, der eine Probe gegen \ndich ablegt, 1 Edge. Ungebildet\nVielleicht war das Lernen noch nie dein Ding, vielleicht \nwurdest du aber auch einfach nie einer großen Menge von \nInformation ausgesetzt, die nur dazu diente, dich zu bilden. Jedenfalls mangelt es dir an grundlegender Bildung. Bonus: 6 Karma\nAuswirkung: Du kannst kein Edge bei Proben ausgeben, die \nLogik verwenden (gilt nicht für Entzugs- und Schwund-\nwiderstandsproben). Ungehobel t\nIrgendwann in deinem Leben verschwand der Filter zwi-\nschen deinen Gedanken und deinem Mundwerk. Du be-\ntrachtest dich als ehrlich, hart, aber fair; andere Leute sehen \ndich eher als unhöflich und grob. Bonus: 6 Karma\nAuswirkung: Du kannst kein Edge bei Proben ausgeben, \ndie Charisma verwenden (gilt nicht für Entzugswider-\nstandsproben). Unglück\nDu wurdest unter einem üblen Stern geboren, hast einen \nSpiegel zerbrochen, Salz verstreut, wurdest vom Bösen Blick \ngetroffen oder hast einfach niemals Glück.",
+    "topic": "skills.social",
+    "keywords": [
+      "probe",
+      "kannst",
+      "edge",
+      "dich",
+      "noch",
+      "bonus",
+      "karma",
+      "auswirkung"
+    ]
+  }
+}

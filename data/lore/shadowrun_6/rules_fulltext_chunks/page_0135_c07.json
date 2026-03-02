@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0135_c07",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 135, chunk 7.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 135,
+    "chunk_index": 7,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Entzugswert (Entzug):\n Das ist der Grundschaden, dem ein \nZauberer widerstehen muss, wenn er einen Zauber wirkt. Er \nkann erhöht werden, wenn der Zauberer seinen Zauber durch \nHochdrehen oder Fläche Vergrößern anpasst. Dies sind die gemeinsamen Merkmale aller Zauber. In jeder \nLaufende K osten\nMagie ist anstrengend und erfordert Konzentration. Wenn du also einen Zauber aufrechterhalten und wäh-\nrenddessen etwas anderes tun willst, musst du für die \nKonzentration und Energie, die du dafür benötigst, einen \nPreis bezahlen. Wann immer ein Zauberer einen Zauber \naufrechterhält, erhält er pro aufrechterhaltenem Zauber \neinen Würfelpoolmalus von -2 auf alle Handlungsproben \n(dazu gehören keine Schadens-, Entzugs- oder sonstigen \nWiderstandsproben). Heilzauber\nDiese Zauber sorgen dafür, dass Magie von den Händen \ndes Zaubernden in den Körper des Ziels fließt, um Schaden \nzu heilen oder auf andere Weise eine (meistens positive) \nkörperliche Veränderung zu bewirken. Eine niedrige Essenz \nerschwert Heilzauber oft, weil Magie und Technologie \ngenerell schlecht zusammenwirken und die Magie, die bio-\nlogische Wesen heilen kann, keine Wirkung auf Kunststoff, \nMetall und Elektronik hat. Die Wirkung der Essenz ist \njeweils in der Beschreibung der Zauber angegeben. Falls \ndie Essenz des Ziels bei einem Zauber eine Rolle spielt, \nerzielt der Zaubernde unabhängig vom Erfolg bei der He-\nxereiprobe einen automatischen Erfolg, wenn das Ziel zu \nhundert Prozent natürlich ist (also Essenz 6 hat).",
+    "topic": "combat.damage",
+    "keywords": [
+      "zauber",
+      "einen",
+      "magie",
+      "essenz",
+      "konzentration",
+      "also",
+      "dafuer",
+      "keine"
+    ]
+  }
+}

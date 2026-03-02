@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0154_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 154, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 154,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Und das ist einfach nicht \nakzeptabel. In diesem Schritt kannst du auch Reagenzien einsetzen, \num Mana in das Erzeugnis zu kanalisieren und es dir ein \nwenig leichter zu machen. Reagenzien können benutzt \nwerden, um den Entzug um die Anzahl an eingesetzten \nDram (maximal aber um 2) zu senken. Dies verringert nicht \ndie für die Fertigstellung des Erzeugnisses benötigte Zeit. Am Ende dieses Schritts legst du eine Vergleichende Probe \nauf Verzaubern + Magie gegen den (möglicherweise durch \nReagenzien gesenkten) Entzugswert des Erzeugnisses ab. Die Nettoerfolge bei dieser Probe werden zur Wirksamkeit \ndes alchemistischen Erzeugnisses und sollten festgehalten \nwerden. Schritt 4:\nEntzugswiderst and\nDie Detailarbeit an dem Erzeugnis, kombiniert mit der \nAnstrengung des Kanalisierens von Mana in ein Objekt, \nist erschöpfend. Der gesamte Entzugswert eines alchemisti-\nschen Erzeugnisses ist gleich dem Entzugswert des Zaubers \n(inklusive Anpassungen) + Entzugswert des Auslösers – \nAnzahl (maximal 2) an Dram verwendeter Reagenzien. Du verwendest dein Traditionsattribut + Willenskraft, um \ndem Entzug zu widerstehen. Das fertige Erzeugnis\nDer Zauber, der Auslöser und die Wirksamkeit des Erzeug-\nnisses sollten zusammen mit eventuellen Anpassungen des \nZaubers festgehalten werden. Das Erzeugnis behält seine \nvolle Wirksamkeit für [Wirksamkeit × 2] Stunden, danach \nbeginnt seine Macht zu schwinden. Jeweils nach einem wei-\nteren Intervall von [gegenwärtige Wirksamkeit × 2] Stunden \nsinkt die Wirksamkeit um 1. Wenn sie 0 erreicht hat, versagt \ndas Erzeugnis, und der Zauber darin ist verloren.",
+    "topic": "magic.spells",
+    "keywords": [
+      "wirksamkeit",
+      "erzeugnis",
+      "reagenzien",
+      "entzugswert",
+      "schritt",
+      "mana",
+      "anzahl",
+      "dram"
+    ]
+  }
+}

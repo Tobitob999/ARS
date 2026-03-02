@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0120_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 120, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 120,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Schritt drei: \nWürfel t und gebt Edge aus\nOda hebt sich sein Edge für später auf, falls sein Vor-\ngehen die Ganger nicht vertreibt. Er legt seine Angriffs-\nprobe ab und erzielt 4 Erfolge mit seinen 10 Würfeln. Weil es sich um einen Wurf auf ein Zielgebiet handelt, \ngibt es die Möglichkeit der Abweichung. Bei diesem \nAngriff in der Reichweite Nah beträgt die Abweichung \n2W6 – 2 – Erfolge Meter. Die Spielleiterin würfelt ver-\ndeckt für die Abweichung und erzielt eine 7, von der \nsie 6 abzieht, was eine Abweichung von 1 Meter ergibt. Ein weiterer Würfelwurf mit 2W6 ergibt laut Abwei-\nchungsdiagramm, dass die Granate mit einer 11 einen \nMeter zu kurz und zu weit rechts von Ziel landet. Aber \ndas ist nah genug für die Motorräder und die beiden \nGanger, die in Reserve stehen. Diese Eye-Fivers rennen in Richtungen ihrer Wahl \nauseinander. Einer bewegt sich auf die Prügelei zu, der \nandere rennt zu den Motorrädern und schreit „Neeein!“, \nweil er voraussieht, was passieren wird, und hofft, sein \nMotorrad retten zu können. Beide bewegen sich mehr \nals 2 Meter weit und erhalten gemäß den Regeln der \nNebenhandlung \n Weghechten\n den Status \nWeghechten\n den Status \nWeghechten\n Liegend\n bei \nLiegend\n bei \nLiegend\nder Schadenswiderstandsprobe. Schritt vier: Widersteht dem Schaden\nBei Explosionen müssen wir den Schaden für alle \nBetroffenen separat ermitteln. Sprenggranaten haben \neinen Schadenswert von 16K/10K/4K (Detonations-\npunkt, Sehr nah und Nah) und einen Explosionsra-\ndius von 15 Metern. Innerhalb des Explosionsradius \nbeﬁ nden sich sechs Motorräder und ein Ganger (der \nandere, der in Richtung Kampf gelaufen ist, ist in \nSicherheit).",
+    "topic": "combat.attack",
+    "keywords": [
+      "sich",
+      "einen",
+      "abweichung",
+      "meter",
+      "sein",
+      "ganger",
+      "weghechten",
+      "liegend"
+    ]
+  }
+}

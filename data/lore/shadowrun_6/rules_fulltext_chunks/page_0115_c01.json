@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0115_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 115, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 115,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Charakter treffen kann, der ihn festhält. Dieser muss \ndann eine Verteidigungsprobe gegen die Angriffsprobe \nablegen, als wäre er selbst das Ziel gewesen. Es folgen einige Handlungen, die nach dem Festhalten \ngeschehen können. Sie alle sind Haupthandlungen. Für \ndie Verteilung von Edge wird der waffenlose Angriffs-\nwert des Angreifers verwendet, sofern nichts anderes \nangegeben ist. Angreifer\nFesthalten: Der Angreifer kann einfach beschließen, den \nVerteidiger weiter festzuhalten. Dafür legt er eine Ver-\ngleichende Probe auf Nahkampf + Stärke gegen Nah-\nkampf + Stärke ab. Der Verteidiger unterliegt auch hier \ndem Würfelpoolmalus von -4. Schaden zufügen: Der Angreifer kann versuchen, dem \nVerteidiger Schaden zuzufügen, indem er eine Verglei-\nchende Probe auf Nahkampf + Stärke gegen Reaktion \n+ Stärke ablegt. Der Verteidiger hat den Würfelpool-\nmalus von -4, weil er festgehalten wird. Gelingt der \nAngriff, verursacht der Angreifer den Schaden eines \nwaffenlosen Angriffs (2B) plus Nettoerfolge. Gegner zu Boden werfen: Der Angreifer kann versuchen, \nden Gegner zu Boden zu werfen. Das geschieht durch \neine Vergleichende Probe auf Nahkampf + Stärke gegen \nKonstitution + Stärke. Der Verteidiger hat hier nicht den \nWürfelpoolmalus von -4, denn er wird ja nicht mehr \nfestgehalten. Gelingt der Angriff, wird der Verteidiger zu \nBoden geworfen, erhält den Status Liegend und erleidet \n(Konstitution des Angreifers + Nettoerfolge)B Schaden, \ndem er mit Konstitution widersteht. Verteidiger\nSich losreißen: Der Verteidiger versucht, sich aus dem \nGriff zu befreien.",
+    "topic": "combat.attack",
+    "keywords": [
+      "verteidiger",
+      "staerke",
+      "angreifer",
+      "gegen",
+      "schaden",
+      "probe",
+      "nahkampf",
+      "boden"
+    ]
+  }
+}

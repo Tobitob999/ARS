@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0154_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 154, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 154,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Der gesamte Entzugswert eines alchemisti-\nschen Erzeugnisses ist gleich dem Entzugswert des Zaubers \n(inklusive Anpassungen) + Entzugswert des Auslösers – \nAnzahl (maximal 2) an Dram verwendeter Reagenzien. Du verwendest dein Traditionsattribut + Willenskraft, um \ndem Entzug zu widerstehen. Das fertige Erzeugnis\nDer Zauber, der Auslöser und die Wirksamkeit des Erzeug-\nnisses sollten zusammen mit eventuellen Anpassungen des \nZaubers festgehalten werden. Das Erzeugnis behält seine \nvolle Wirksamkeit für [Wirksamkeit × 2] Stunden, danach \nbeginnt seine Macht zu schwinden. Jeweils nach einem wei-\nteren Intervall von [gegenwärtige Wirksamkeit × 2] Stunden \nsinkt die Wirksamkeit um 1. Wenn sie 0 erreicht hat, versagt \ndas Erzeugnis, und der Zauber darin ist verloren. Verwenden \neines alchemistischen \nErzeugnisses\nDas Auslösen eines Erzeugnisses ähnelt dem Wirken ei-\nnes Zaubers, ist aber etwas anders. Statt einer Probe auf \nHexerei + Magie legst du eine Probe auf Wirksamkeit des \nErzeugnisses + Magie des Verzauberers ab. Es gibt keinen \nzusätzlichen Entzug beim Auslösen des Zaubers, denn \nder wurde bereits bei der Herstellung des Erzeugnisses \nBeispiel: Herstellung eines alchemistischen Erzeugnisses\nAgbele Oku kennt die Gefahren des Runnerlebens, und \nsie weiß, wie wertvoll es ist, einen schnell einsetzbaren \nHeilzauber zu haben, wenn ein Run losgeht. Sie hat einen \nbesonderen purpurnen Minigolfball, den sie mit Vorliebe für \ndiesen Zweck einsetzt. Sie hat ihn ausgehöhlt und benutzt \neinen Trichter, um das nötige Reagens in die Mitte des Balls \nzu füllen. In Schritt 1 muss sie einen Zauber auswählen.",
+    "topic": "magic.spells",
+    "keywords": [
+      "erzeugnisses",
+      "wirksamkeit",
+      "eines",
+      "zaubers",
+      "einen",
+      "entzugswert",
+      "anpassungen",
+      "seine"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0165_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 165, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 165,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Es gibt Dutzende, wenn \nnicht Hunderte Zauber, Geisterarten, die noch nicht voll-\nständig gezählt und klassifiziert sind, und immer mehr \nErwachte Critter und Pflanzen, die entdeckt und unter-\nsucht werden. Bei all dieser Magie ist es hilfreich, eine Art \nFührung und Hilfestellung zu haben: jemanden, der dich \nnicht nur den Einsatz der Magie lehrt, sondern dir auch \neine Art Kodex vorgibt, der der Macht, die du besitzt, \neinen Sinn verleiht. Erwachte Personen wenden sich zu diesem Zweck oft an \nSchutzgeister. Schutzgeister sind oft tief in der Mythologie \nund Tradition vieler Kulturen verankert, und sie haben diese \nKulturen geprägt (und sind von ihnen geprägt worden). Seit \ndem Erwachen sind sie zu mehr als bloßen Glaubenssätzen \ngeworden und helfen dabei, die Magie der Leute zu formen \nund zu kanalisieren, die ihnen folgen. Ein Schutzgeist ist anderen Geistern insofern ähnlich, \nals er eine eigene Persönlichkeit hat, aber er wird weder \nbeschworen noch verbannt. Er kann, wenn er es will, sicht- \nund hörbar erscheinen und mit seinen Anhängern sogar \nkörperlich interagieren. Der Schutzgeist eines Erwachten \nkann starken Einfluss auf ihn ausüben und Vorteile bieten, \nwenn dieser ihm treu bleibt – oder ihn strafen, wenn er \nvom Weg abweicht (meistens mit einer vorübergehenden \nSenkung des Magieattributs). Schutzgeister können verschiedenste Formen haben. Meistens hat jemand seine eigene Verbindung zu seinem \nSchutzgeist, aber es gibt auch Erwachte Gilden oder Gesell-\nschaften, die als Gruppe einem Schutzgeist folgen.",
+    "topic": "magic.spells",
+    "keywords": [
+      "schutzgeist",
+      "erwachte",
+      "magie",
+      "gibt",
+      "noch",
+      "mehr",
+      "dieser",
+      "kulturen"
+    ]
+  }
+}

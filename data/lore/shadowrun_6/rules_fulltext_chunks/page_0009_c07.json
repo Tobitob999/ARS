@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0009_c07",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 9, chunk 7.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 9,
+    "chunk_index": 7,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Ausruf\n (vulgär) – Gebräuchliches Schimpfwort, ab-\nAusruf\n (vulgär) – Gebräuchliches Schimpfwort, ab-\nAusruf\ngeleitet vom Geschlechtsakt. geeken\n V. – Töten. gefraggt\n Adj. (vulgär) – Kaputt, in Schwierigkeiten. Go-Gang\n Subst. – Eine Bikergang. Hacker\n Subst. – Eine Person, die auf illegale Weise mit der \nMatrix interagiert, entweder durch die Verwendung eines \nCyberdecks (als Decker) oder kraft ihres Verstandes (als \nTechnomancer). SHADOWRUN: SECHSTE EDITION\n8 // Einleitung // SCHA TTENSLANG",
+    "topic": "matrix",
+    "keywords": [
+      "ausruf",
+      "vulgaer",
+      "gebraeuchliches",
+      "schimpfwort",
+      "subst",
+      "geleitet",
+      "geschlechtsakt",
+      "geeken"
+    ]
+  }
+}

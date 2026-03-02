@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0032_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 32, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 32,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "KFS ist eine digital \nübertragene Krankheit, die sich mithilfe von Nanobrü-\ntern und Gentech verbreitet, sodass jeder, der über diese \nArt von Bodytech verfügt, besonders anfällig dafür ist. Grundsätzlich funktioniert die Krankheit so: Infizierte Na-\nniten interagieren mit dem Gehirn des Wirts, woraufhin die \nPersönlichkeit des Wirts durch die einer KI überschrieben \nwird. Zu Beginn der Krise nannten wir diese Opfer „Frag-\nmentierte“. Sie sahen wie Menschen aus, die wir kannten \nund liebten, und sie fühlten sich auch so an. Aber am Steuer \nsaß jemand anderes. Die Infizierten gaben sich selbst den \nNamen „Monaden“, ein Begriff, der aus den Programmier-\nsprachen der Hacker entlehnt war. Auf dem Höhepunkt der Krise griff der mit KFS infizierte \nDrache Eliohann (lange Geschichte) die Hauptniederlassung \nvon NeoNET in Boston an, wurde jedoch durch einen \nVerbund aus Konzern- und Militärstreitkräften zurückge-\nschlagen. Die Ankunft des Drachen markierte den Beginn \neines KFS-Ausbruchs in der Stadt. Das Krisenkomitee des \nKonzerngerichtshofs (Corporate Court Crisis Coordinati-\non Committee, kurz C5) wurde aktiv und riegelte Boston \ninnerhalb kürzester Zeit sowohl physisch als auch in der \nMatrix ab. Überall, wo die Megas präsent waren, schossen \nKonzernkliniken aus dem Boden, in denen man sich kos-\ntenfrei auf KFS testen lassen konnte. Auf den ersten Blick \nversuchten die Konzerne, alle Infizierten zu lokalisieren. Allerdings verfolgten sie damit gleichzeitig das Ziel, alle \nmit KFS infizierten Patienten zu sammeln, die sie in die \nFinger bekommen konnten, um so die Kontrolle über den \nVirus zu gewinnen.",
+    "topic": "races",
+    "keywords": [
+      "sich",
+      "infizierten",
+      "krankheit",
+      "diese",
+      "wirts",
+      "durch",
+      "beginn",
+      "krise"
+    ]
+  }
+}

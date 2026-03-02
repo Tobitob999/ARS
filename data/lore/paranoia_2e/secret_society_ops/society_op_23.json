@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0.0",
+  "category": "covert_agenda",
+  "id": "society_op_23",
+  "name": "Romantics Covert Agenda 23",
+  "tags": [
+    "paranoia_2e",
+    "secret_society",
+    "covert"
+  ],
+  "summary": "Hidden objective package used by Romantics cells.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "society": "Romantics",
+    "goal": "frame_rival_society",
+    "cover_story": "maintenance_task",
+    "blowback": "clone_review"
+  }
+}

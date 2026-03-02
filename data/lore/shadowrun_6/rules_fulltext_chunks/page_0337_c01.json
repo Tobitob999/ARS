@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0337_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 337, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 337,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Index\nA\nAbfangen (Handlung) .........................42\nAbhängigkeit (Nachteil) ......................77\nAblenkung ..........................................21\nAbschirmung (Metamagie) ..............168\nAbseilhandschuhe \n(Überlebensausrüstung) ..................280\nAbstechen (Edge-Handlung) ..............48\nAbsturz (IC-Art) ............................... 186\nAbweichung .....................................118\nActioneer Geschäftsanzug \n (Panzerung) ..................................265\nAden .............................................23, 28\nAdept (Archetyp) ................................84\nAdepten ......................................67, 158\nAdeptenkräfte ...........................127, 158\nAdeptenzentrierung (Metamagie) .....168\nAdler (Schutzgeist) ..........................164\nAdmin-Zugang (Matrix) ....................179\nAdrenalinpumpe (Bioware) ..............292\nAdrenalinschub (Adeptenkraft) ........",
+    "topic": "magic",
+    "keywords": [
+      "handlung",
+      "metamagie",
+      "index",
+      "abfangen",
+      "abhaengigkeit",
+      "nachteil",
+      "ablenkung",
+      "abschirmung"
+    ]
+  }
+}

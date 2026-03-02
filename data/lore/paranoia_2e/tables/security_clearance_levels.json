@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0",
+  "id": "security_clearance_levels",
+  "name": "Security Clearance Levels",
+  "die": "n/a",
+  "entries": [
+    {
+      "roll": "1",
+      "result": "Infrared"
+    },
+    {
+      "roll": "2",
+      "result": "Red"
+    },
+    {
+      "roll": "3",
+      "result": "Orange"
+    },
+    {
+      "roll": "4",
+      "result": "Yellow"
+    },
+    {
+      "roll": "5",
+      "result": "Green"
+    },
+    {
+      "roll": "6",
+      "result": "Blue"
+    },
+    {
+      "roll": "7",
+      "result": "Indigo"
+    },
+    {
+      "roll": "8",
+      "result": "Violet"
+    },
+    {
+      "roll": "9",
+      "result": "Ultraviolet"
+    }
+  ]
+}

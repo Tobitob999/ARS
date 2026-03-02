@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0227_c07",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 227, chunk 7.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 227,
+    "chunk_index": 7,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Critter, die den Astralraum betreten können, können dort \ndiese Kraft einsetzen, aber sie müssen sich materialisieren, \nwenn sie nach einem unbelebtem Objekt auf der physischen \nEbene suchen wollen. Lebende Objekte mit Auren können \nvon der Astralebene aus gesucht werden. Suchmodifika toren\nUMSTAND\n SCHWELLENWERT-\nMODIFIKATOR\nEntfernung\n +1 pro km\nHinter einem Hüter\n +(Kraftstufe des Hüters\n × \n5)\nKraft Verschleierung \naktiv\n +(Magie des Verschleiernden\n × \n3)\nUnbelebter \nGegenstand oder Ort\n +5\nTierbeherrschung\nART\n HANDLUNG\n REICHWEITE\n DAUER\nM\n H\n BF\n Aufrechterhalten\nEinige Critter können andere Critter manipulieren, vor \nallem (aber nicht nur) mundane. Das Verhalten muss für \ndas beherrschte Tier natürlich sein. Ein Schwarm Vögel \nbeispielsweise kann kein Motorrad stehlen, aber die Tiere \nkönnte ihre Därme darüber entleeren, es verfolgen oder in \nMassen darauf landen. Neue Befehle können nur erteilt wer-\nden, solange sich der Zielcritter innerhalb des Blickfeldes \ndes beherrschenden Critters befindet, aber bereits erteilten \nBefehlen folgt der Zielcritter für eine Anzahl Minuten, \ndie dem Charismaattribut des beherrschenden Critters \nentspricht. Ein Critter kann so viele kleine Tiere (Katzen, \nRatten usw.) beherrschen, wie seinem Charisma × 5 ent-\nspricht, oder so viele größere Tiere (Wölfe, Löwen, Bären \nusw.), wie seinem Charisma entspricht, oder einen einzigen \nparanormalen Critter. Diese Kraft kann nicht gegen Critter \nSHADOWRUN: SECHSTE EDITION\n226 // Das wilde Leben // CRITTERKRÄFTE",
+    "topic": "magic",
+    "keywords": [
+      "critter",
+      "kraft",
+      "tiere",
+      "diese",
+      "sich",
+      "einem",
+      "zielcritter",
+      "beherrschenden"
+    ]
+  }
+}

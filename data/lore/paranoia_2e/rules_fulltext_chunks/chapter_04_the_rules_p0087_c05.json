@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_04_the_rules_p0087_c05",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_04_the_rules",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The Rules page 87, chunk 5.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_04_the_rules",
+    "source_title": "The Rules",
+    "page": 87,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "raw_text": "Make sure the action {s (usually) atleast plausible, though an occa- sional implausibility is common fare in all adventure action. And don't overdo the \"Crash- you're-dead” stuff. That can be amusing once ina while, but a steady diet of it will drive your players back to TV, \nAttacking Vehicles and Their Occupants When attacking a vehicle andior its occu- ‘pants with a weapon, the attacker has two op- tions: he may either shoot at the occupants or the vehicle, (Area attack weapons may only be fired at vehicles, not at the occupants themselves) In either event, first determine whether he hits. Modify his weapon skill number in ace cordance with circumstances and whim: if you like, you may use the optional Combat Modifiers Chart (Fold-Out B) and the Vehicle Combat Modifiers Chart (Fold-Out B) as guidelines for how to modify the skill number. However, don't spend a lot of time looking things up; get on with the fun. After modifying the skill number, make a skill roll, just as in regular combat. Ifthe roll is a success, the firer has hit something. Vehicles can have armor, jst like characters. ‘Whether the firer is shooting atthe vehicle or its occupants, subtract the vehicle’s armor rating from the weapon rating if appropriate) \n87",
+    "topic": "combat.attack",
+    "keywords": [
+      "vehicle",
+      "occupants",
+      "skill",
+      "weapon",
+      "number",
+      "combat",
+      "make",
+      "action"
+    ]
+  }
+}

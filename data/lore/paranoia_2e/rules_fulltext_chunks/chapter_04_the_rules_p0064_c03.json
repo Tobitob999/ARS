@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_04_the_rules_p0064_c03",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_04_the_rules",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The Rules page 64, chunk 3.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_04_the_rules",
+    "source_title": "The Rules",
+    "page": 64,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "raw_text": "Dif ferent kinds of armor have different names, but teach type has a armor rating. An armor rating, consists of a letter, followed by a number ‘Armor only protects against weapons of the same type. An armor’s type is determined by the letter of is armor rating, For example, reflec armor’s rating is L4, That means it only pro- tects agains { (laser) weapons. If a target is wearing reflec and someone shoots a slugthrower at him, he’s out of luck If the target is wearing armor of the same type as the attacking weapon, subtract its ar- ‘mor rating the number part) from the damage number. Some armor protects against all weapons; such armor’ rating is the word “All” follow: ed by a number (eg, “All2\"), When a character wearing such armor is the target of any attack, subtract the number from the damage rating (in this case, 2 would be subtracted), Example: A laser pistol is fired at a character ‘whose macho bonus is 1 and who is wearing, reflec, A laser pistol’s damage rating is LB; minus 1 for the macho rating and 4 for the ar= ‘mor yields a modified damage rating of 3. Roll ‘on the 3” column of the Damage Table to determine what damage (if any) is suffered \nWH Lasers and Reflec \n‘Oops, one last rule for armor, and then we ‘can go'on. You see, different lasers shoot beams of different colors — Infrared, Red, Orange, Yellow...— yes, that’s right the same Colors as the security clearance spectrum. A citizen can only use a laser of his clearance color or below. Uy, rather he can use a higher- clearance laser, but it’s treason if he does. ‘Actually, it isnt lasers that come in different colors, but their ammunition.",
+    "topic": "combat.defense",
+    "keywords": [
+      "armor",
+      "rating",
+      "damage",
+      "number",
+      "laser",
+      "different",
+      "type",
+      "reflec"
+    ]
+  }
+}

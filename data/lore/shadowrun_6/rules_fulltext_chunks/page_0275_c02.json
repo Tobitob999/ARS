@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0275_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 275, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 275,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Einige der Geräte werden getragen, während \nandere externe Sensorgeräte sind oder sogar an Waffen \nbefestigt werden. Brille\nBrillen sind Linsen in einem Leichtbaurahmen, der auf der \nNase getragen wird. Sie sind in zahlreichen Stilen erhältlich, \nund eine Brille mit Sichtverstärkungen ist auf den ersten Blick \nnur schwer von einer normalen Brille oder Sonnenbrille zu \nunterscheiden. Werkstatt\n 7\n 50.000 ¥\nWerkzeuge\nDas Bauen und Reparieren von Gegenständen erfordert die \nrichtigen Werkzeuge. Werkzeuge müssen separat für eine be-\nstimmte Fertigkeit gekauft werden (zum Beispiel eine Elektro-\nnik-Kiste, ein Biotech-Laden, eine Mechanik-Werkstatt usw.). Kiste\nEine Kiste ist tragbar und enthält das grundlegende Werk-\nzeug für Standardreparaturen. Ohne zumindest eine Kiste \nist eine Fertigkeit unter Umständen gar nicht anwendbar. Laden\nEinen Laden kann man hinten in einem Lieferwagen trans-\nportieren. Er enthält kompliziertere Werkzeuge für Bau \nund Reparatur. Ein Laden gewährt einen Würfelpoolbonus \nvon +1 für entsprechende Proben vor Ort und enthält die \nwichtigsten Standardersatzteile. Werkst a tt\nEine Werkstatt muss in einem Gebäude untergebracht wer-\nden und ist wegen der schweren und unhandlichen Maschi-\nnen, die sie enthält, nicht transportabel, aber dafür kann \nsie auch für sehr komplizierte Bauten und Modifikationen \nverwendet werden. Eine Werkstatt bietet den gleichen Bonus \nund die gleichen Ersatzteile wie ein Laden, dazu 1 Edge für \nBauen/Reparieren-Proben. ist (I), gibt es keine Lizenzen. Lizenzen werden daher nur für \nGegenstände benötigt, bei denen das ausdrücklich vermerkt \nist (L). Jede Art von Gegenstand oder Aktivität erfordert eine \nseparate Lizenz.",
+    "topic": "combat",
+    "keywords": [
+      "laden",
+      "werkstatt",
+      "werkzeuge",
+      "kiste",
+      "enthaelt",
+      "brille",
+      "einem",
+      "getragen"
+    ]
+  }
+}

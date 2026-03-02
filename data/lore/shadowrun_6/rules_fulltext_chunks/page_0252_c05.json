@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0252_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 252, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 252,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Defiance Super Shock\nDieser schwere Taser kann bis zu 4 Pfeile mit 20 Meter \nlangen Drähten abfeuern. Die Drahtverbindung zur Bat-\nterie ermöglicht einen stärkeren Schock, begrenzt aber \ndie Reichweite. Die Waffe kann auch im Nahkampf im \nDirektkontakt eingesetzt werden und richtet dabei den \ngleichen Schaden an. Wenn das Opfer nach einem er-\nfolgreichen Treffer nicht die Drähte abreißt, kann der \nAngreifer eine Haupthandlung aufwenden, um erneut \nden Basisschaden der Waffe zuzufügen, indem er einen \nweiteren Satz Kondensatoren aktiviert. WiFi-Vorteil:\n Ein erfolgreicher Treffer informiert den \nBenutzer über den allgemeinen Gesundheitszustand des \nGetroffenen im Sinne der Zustandsmonitore (ganz allge-\nmein, nicht die genaue Anzahl der noch freien Kästchen). Y amaha Pulsar I/II\nDiese Waffe verwendet drahtlose Kondensatoren, was dem \nPulsar eine höhere Reichweite verleiht als Tasern, die über \nDrahtverbindungen arbeiten. Der Nachteil ist, dass der \nSchock etwas schwächer ausfällt als bei den verdrahteten \nModellen, aber dafür kann er schneller und mehrfach \nfeuern. Der Pulsar I hat keine Nahkampfkontakte, doch \nder Pulsar II besitzt am unteren Griffende zwei solcher \nKontakte (ein Nahkampfangriff wie mit einem Knüppel). WiFi-Vorteil:\n Ein erfolgreicher Treffer informiert den \nBenutzer über den allgemeinen Gesundheitszustand des \nGetroffenen im Sinne der Zustandsmonitore (ganz allge-\nmein, nicht die genaue Anzahl der noch freien Kästchen). Holdout-Pistolen\nHoldout-Pistolen können nicht mit Zubehör oder Modi-\nfikationen versehen werden. Fichetti Tiff ani Needler\n„Hübsch“ und „tödlich“ müssen einander nicht ausschlie-\nßen.",
+    "topic": "combat.attack",
+    "keywords": [
+      "pulsar",
+      "waffe",
+      "treffer",
+      "einen",
+      "schock",
+      "reichweite",
+      "einem",
+      "kondensatoren"
+    ]
+  }
+}

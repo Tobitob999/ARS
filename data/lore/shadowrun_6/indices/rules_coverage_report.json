@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_coverage_report",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "coverage"
+  ],
+  "summary": "Coverage report for complete Shadowrun 6 extraction into chunks.",
+  "source_text": {
+    "timestamp": "2026-03-01T21:30:11.437341Z"
+  },
+  "mechanics": {
+    "expected_page_count": 354,
+    "covered_page_count": 354,
+    "chunk_count": 2040,
+    "fully_covered": true,
+    "uncovered_pages": [],
+    "empty_page_chunks": 4
+  }
+}

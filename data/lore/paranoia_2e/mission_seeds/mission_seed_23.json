@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "category": "mission_seed",
+  "id": "mission_seed_23",
+  "name": "Mission Seed 23",
+  "tags": [
+    "paranoia_2e",
+    "mission",
+    "seed"
+  ],
+  "summary": "Troubleshooter cell must recover missing briefing tape.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "objective": "recover missing briefing tape",
+    "assigned_by": "CPU",
+    "hidden_agenda": "Mystics",
+    "twist": "orders_conflict",
+    "countdown": 5,
+    "failure_cost": "treason_points"
+  }
+}

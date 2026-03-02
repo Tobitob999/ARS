@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0109_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 109, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 109,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Wenn \nsie das noch nicht wissen, wird es Zeit, es zu lernen! Denkt daran, dass ihr nicht mehr als 2 Edge in einer \nKampfrunde erhalten könnt, Edge aber über mehrere \nKampfrunden hinweg bis zum Maximum von 7 Edge-\npunkten ansparen könnt, wenn ihr etwas wirklich Großes \nvorhabt! Und wenn ihr so viel Edge angesammelt habt, \ndenkt auch daran, euer Edge im Kampf wirklich auszuge-\nben, denn jegliches Edge, das ein Charakter oberhalb seines \nEdge-Attributs erhalten hat, verschwindet wieder, wenn eine \nlaufende Konfrontation (in diesem Fall also der Kampf) \nbeendet ist. Wenn das Edge verteilt ist, geht es ans Würfeln! Umgebung und\nSichtverhäl tnisse\nBeleuchtung und Umgebung können sich auf den Kampf \nauswirken. Ein Charakter könnte den anderen besser se-\nhen, sich in erhöhter Position beﬁ nden oder auf sichere-\nrem Grund stehen. Wenn ein Charakter seinem Gegner \ngegenüber eindeutig im Vorteil ist, erhält er 1 Edge. Es \ngibt keine umfassende Liste der Umstände, durch die man \nEdge erhalten kann. Nimm als Richtlinie eine Situation mit \nschlechter Beleuchtung, in der ein Charakter Restlichtver-\nstärkung oder Infrarotsicht hat und der andere nicht. Der \nCharakter mit der Sichtverbesserung sollte in diesem Fall 1 \nEdge erhalten. Immer, wenn ein Kämpfer einen ähnlichen \nVorteil hat, sollte er 1 Edge erhalten (bis zum Maximum \nvon 2 Edge pro Kampfrunde). Schritt 3: Würfel t \nund gebt Edge aus\nBeide Seiten entscheiden, ob und zu welchem Zweck sie \nEdge ausgeben wollen.",
+    "topic": "combat",
+    "keywords": [
+      "edge",
+      "erhalten",
+      "charakter",
+      "kampf",
+      "denkt",
+      "daran",
+      "koennt",
+      "maximum"
+    ]
+  }
+}

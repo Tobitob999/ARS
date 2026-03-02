@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0143_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 143, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 143,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Manabarriere\nREICHWEITE ART DAUER ENTZUG\nBF (F) M A 5\nDu möchtest einen geisterfreien Raum? Du möchtest, dass \n„Keine Foki!“ in deiner Bar wirklich gilt? Dann empfiehlt \nsich eine Manabarriere. Diese unsichtbare (nur auf der \nAstralebene sichtbare) Wand schränkt die körperliche Be-\nwegung von Lebewesen oder mundanen Gegenständen \nnicht ein, hält aber Geister, aktivierte Foki, Dualwesen, \nalchemistische Erzeugnisse, Reagenzien und Zauber auf \nder Ebene auf, auf der sie gewirkt wurde (physisch oder \nastral). Wenn die Barriere im Astralraum gewirkt wird, hält \nsie dort auch astrale Gestalten auf und behindert die Sicht. Lege eine Probe auf Hexerei + Magie ab. Die Strukturstufe \nder Wand, die dadurch entsteht, ist gleich Magie + Erfolge \nbei der Hexereiprobe. Der einfache Zauber erschafft eine Barriere von zwei \nmal zwei Metern. Der Zauber kann mit Fläche Vergrößern \nangepasst werden, was jeweils zwei Meter Breite und Höhe \nhinzuaddiert (aber nicht mehr Dicke). Die Barriere kann \nvom Zaubernden nach Belieben geformt werden. Näheres \nzu Manabarrieren findest du auf Seite 163. Met all Beleben\nREICHWEITE ART DAUER ENTZUG\nBF P ZB 6\nDieser Zauber funktioniert genauso wie der Zauber Holz \nBeleben (S. 141), wirkt aber gegen Metall. Met all Formen\nREICHWEITE ART DAUER ENTZUG\nBF P A 5\nDieser Zauber funktioniert genauso wie der Zauber Holz \nFormen, wirkt aber gegen Metall. P anzerung\nREICHWEITE ART DAUER ENTZUG\nB P A 4\nDeine Magie füllt den Körper des Ziels, härtet ihn und \nlässt ihn Schaden besser wegstecken. Lege eine Probe auf \nHexerei + Magie ab und addiere die Erfolge zum Verteidi-\ngungswert des Ziels. Das Kommandieren der belebten Substanz erfordert eine \nNebenhandlung.",
+    "topic": "magic.spells",
+    "keywords": [
+      "zauber",
+      "reichweite",
+      "dauer",
+      "entzug",
+      "magie",
+      "barriere",
+      "zwei",
+      "manabarriere"
+    ]
+  }
+}

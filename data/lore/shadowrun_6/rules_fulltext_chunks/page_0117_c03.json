@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0117_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 117, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 117,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Beispiel: \nDurchbrechen einer Barriere - \nAxt und Met all tür\nMit der Axt in der Hand kümmert sich Grizzly um den \nMetallkern der Tür. Weil die Axt speziell für das Durch-\nbrechen von Gegenständen gedacht ist, kann Grizzly \neine Stärkeprobe ablegen. Er erzielt 2 Erfolge mit seinen \n6 Würfeln. Diese 2 Erfolge erhöhen den Schadenswert \nder Axt gegen die Tür von 5K auf 7K. Wenn wir den \nSchadenswert von 7K mit der Strukturstufe von 11 ver-\ngleichen, sehen wir, dass er zwischen der Hälfte und der \nvollen Höhe liegt. Grizzly schafft es trotz des Metallkerns, \nein weiteres Loch mit fünf Zentimetern Durchmesser \nneben das Schloss zu schlagen, und das Team hat wieder \nein Hindernis überwunden. Beispiel:\nDurchbrechen einer Barriere - \nSprengstoff und Beton\nDank einiger falscher Aufklärungsergebnisse, die die \nRunner von Mr Johnson bekommen haben, haben \nsie eine Sackgasse erreicht und werden von einem \nRudel Wachleuten verfolgt. Die Schießwütigen küm-\nmern sich darum, die Verfolger fernzuhalten, während \nsich Byom, der verrückte russische Bombenbastler, \ndie Wand ansieht, von der er glaubt, dass sie entwe-\nder eine Außenwand ist oder in eine Tiefgarage führt. Jedenfalls können die Runner weiterkommen, wenn \ner ein Loch hineinmacht. Byom leiht sich von Grizzly \ndie Axt aus und schlägt mit Leichtigkeit ein Loch von \n10 Zentimetern Durchmesser in die Gipskartonplatte \n(Schadenswert 6K gegen Strukturstufe 6), mit der die \nWand verkleidet ist, ohne auch nur hart zuzuschlagen. Das reicht aus, um den Beton dahinter sichtbar zu \nmachen. Byom kennt sich mit Materialien aus und greift \nnach einem Sprengstoffpaket mit Stufe 12.",
+    "topic": "combat.damage",
+    "keywords": [
+      "sich",
+      "grizzly",
+      "schadenswert",
+      "loch",
+      "byom",
+      "beispiel",
+      "durchbrechen",
+      "einer"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0282_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 282, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 282,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Geckotape-Handschuhe sind nutzlos, wenn sie nass sind. WiFi-V orteil: Die äußere Haftschicht kann per WiFi- \nSignal zeitweise neutralisiert werden, was nützlich ist, um \ndie Handschuhe an- und auszuziehen, ohne dass sie an der \neigenen Person oder aneinander kleben bleiben. Hazma t-Anzug\nDer Hazmat-Anzug bedeckt den ganzen Körper und ent-\nhält einen internen Lufttank mit einer Luftversorgung für \n4 Stunden. Er bietet eine chemische Versiegelung (S. 266) \nund schützt vor Toxinangriffen mit Kontakt- und Inhalati-\nonsvektor (s. Toxine und Drogen, S. 124). Hazmat-Anzüge \nsind serienmäßig mit Platz für einen Sensor ausgestattet, \nder in den meisten Fällen ein Geigerzähler (S. 278) ist. Der \nSensor muss separat gekauft werden. WiFi-V orteil: Der Hazmat-Anzug analysiert und übermit-\ntelt Informationen über die Umgebung, die der Charakter \nnicht atmet oder berührt. Kletterausrüstung\nDies ist ein Rucksack mit 100 Metern Seil (Tragkraft 400 \nkg), einem Klettergeschirr, Handschuhen, Karabinern, Steig-\neisen, Kletterhaken und weiteren Dingen, die für das Klet-\ntern mit Ausrüstung benötigt werden (s. Klettern, S. 95). Leuchtst ab\nWenn man den Leuchtstab knickt und schüttelt, erhält man \nfür 3 Stunden eine sanfte chemische Beleuchtung, die einen \nRadius von 10 Metern erhellt. Magnesiumf ackel\nDie angezündete Fackel liefert für 5 Minuten helles Fa-\nckellicht, das 20 Meter weit reicht. Wenn man jemanden \nmit dem brennenden Ende schlägt, verursacht das 3K Feu-\nerschaden.",
+    "topic": "combat.attack",
+    "keywords": [
+      "wifi",
+      "anzug",
+      "hazmat",
+      "einen",
+      "handschuhe",
+      "orteil",
+      "stunden",
+      "chemische"
+    ]
+  }
+}

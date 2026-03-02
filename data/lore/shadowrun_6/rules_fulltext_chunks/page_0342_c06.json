@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0342_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 342, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 342,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "295\nKunstlederjacke/-mantel \n (Panzerung)\n .................................. 266\nKunstmuskeln (Cyberware)\n .............. 288\nKunststoff Beleben (Zauber)\n ............ 142\nKunststoff Formen (Zauber)\n ............. 142\nKurier-Sprite (Spriteart)\n 193\nL\nLabyrinth\n .......................................... 313\nLaden (Werkzeug)\n ............................ 274\nLaesa\n ................................................. 26\nLähmende Berührung (Critterkraft)\n .. 224\nLähmendes Heulen (Critterkraft)\n ...... 225\nLahmgelegte Geräte\n ......................... 175\nLaser-Entfernungsmesser \n (Sensorfunktion)\n ........................... 278\nLasermarkierer (Waffenzubehör)\n...... 260\nLasermikrofon (Audiogerät)\n ............. 276\nLeben Entdecken (Zauber)\n ............... 144\nLebende Persona\n ............................. 188\nLebendes Netzwerk (Echo)\n ............... 195\nLebensstile\n ................................... 41, 58\nLegalität\n ........................................... 244\nLehrsofts (Software)\n ........................ 272\nLeichte Pistolen\n ................................ 252\nLeipzig-Halle\n .................................... 312\nLeuchtspur (IC-Art)\n .......................... 187\nLeuchtstab (Überlebensausrüstung)\n ... 281\nLevitieren (Zauber)\n ........................... 142\nLicht (Zauber)\n .................................. 142\nLichtschranke\n ................................... 241\nLiegend (Status)\n ................................ 54\nLinguasofts (Software)\n .................... 272\nLinksperre\n ........................................ 177\nLkw/Vans\n ......................................... 299\nLockheed Optic-X2 (kleine Drohne)\n ...",
+    "topic": "magic.spells",
+    "keywords": [
+      "zauber",
+      "kunststoff",
+      "critterkraft",
+      "software",
+      "kunstlederjacke",
+      "mantel",
+      "panzerung",
+      "kunstmuskeln"
+    ]
+  }
+}

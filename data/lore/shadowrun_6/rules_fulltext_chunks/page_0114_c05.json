@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0114_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 114, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 114,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Die Situation der düsteren Gasse hat sich nicht \nverändert, und Oda hat immer noch den Vorteil der \nRestlichtverstärkung auf seiner Seite. Leider beﬁ nden \nwir uns noch in der gleichen Kampfrunde, und Oda hat \nsein Limit von 2 erhaltenen Edgepunkten pro Runde \nbereits ausgeschöpft, als er an der Reihe war. Daher \nerhält er jetzt kein Edge. Schließlich berücksichtigen wir Ausrüstung oder Vor-\nteile, die einer der beiden Seiten helfen könnten, aber \nda ist nichts. Schritt drei: \nWürfel t und gebt Edge aus\nDie Eye-Fivers gehen in den Nahkampf über und erzielen \nmit ihrem Würfelpool von 5 zwei Erfolge. Oda will kein Edge ausgeben, wodurch er seine Ver-\nteidigungsprobe mit dem üblichen Würfelpool von 9 \n(Reaktion 6 + Intuition 3) ablegt; er versagt kläglich und \nerzielt 0 Erfolge. Deshalb beschließt er, jetzt doch Edge \nauszugeben, um einen einzelnen Würfel neu zu würfeln, \nund kann aus einer 1 eine 5 machen, wodurch er einen \neinzigen Erfolg bei der Probe hat. Die Ganger haben 1 Nettoerfolg (2 Erfolge – 1 Erfolg) \nund machen mit Schritt 4 weiter. Schritt vier: Widersteht dem Schaden\nOda würfelt mit Konstitution gegen den modiﬁ zierten \nSchadenswert von 3B (Schadenswert der Kette + 1 \nNettoerfolg). Er erzielt 2 Erfolge, was den Schaden auf \n1B senkt. Schritt fünf: Fühl t den Schmerz\nJetzt wird 1 Schadenskästchen auf Odas Betäubungs-\nzustandsmonitor vermerkt; dann vergleichen wir den \nSchaden mit Odas Konstitution von 6, um festzustellen, \nob er niedergeschlagen wurde. Zum Ärger der Ganger \nKäl te\nNiemand hat es gerne, wenn ihm kalt ist.",
+    "topic": "combat",
+    "keywords": [
+      "edge",
+      "schritt",
+      "erfolge",
+      "jetzt",
+      "schaden",
+      "noch",
+      "kein",
+      "einer"
+    ]
+  }
+}

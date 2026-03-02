@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0221_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 221, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 221,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "den „jüngeren Rassen“, wie sie die Metamenschen nennen, \nvermeiden. Einige Drachen haben jedoch in den letzten Jah-\nren eine stärkere Rolle in der Öffentlichkeit übernommen. Ob sich das zum Vorteil der Metamenschheit auswirken \nwird, bleibt abzuwarten. Unser Wissen über Drachen ist noch immer gering, hat \naber im Laufe der Jahre deutlich zugenommen. Was wir \nwissen, verdanken wir zum größten Teil den Interviews mit \ndem Großen Drachen Dunkelzahn sowie den Autopsieer-\ngebnissen der Gefiederten Schlange Dzitbalchén, die 2064 in \nder Matrix veröffentlicht wurden, nachdem die Regierung \nvon Aztlan den Drachen hinrichten ließ. Alle Drachen besitzen bestimmte Kräfte, die allen Varia-\ntionen ihrer Spezies gemein sind. Einzelne Drachen weisen \ndarüber hinaus spezielle Kräfte auf, die offenbar nicht alle \nDrachen besitzen. Alle Drachen sind mächtige und fähige \nZauberer, die eine magische Tradition praktizieren, die älter \nist als die Metamenschheit. Es sind keine drachischen Adep-\nten bekannt, aber das heißt nicht, dass es unmöglich wäre. Das angegebene Magieattribut enthält keine Steigerungen \ndurch Initiation – und es wäre dumm, anzunehmen, dass \nein Drache nicht mindestens ein Initiat mittleren Grades ist. Die in der Liste angegebenen Fertigkeitswerte sind Durch-\nschnittswerte für einen typischen erwachsenen Drachen. Einzelne Individuen können höhere oder niedrigere Werte \nhaben. Außerdem ist die Liste der Drachenfertigkeiten \nkeinesfalls vollständig.",
+    "topic": "races",
+    "keywords": [
+      "drachen",
+      "alle",
+      "metamenschheit",
+      "wissen",
+      "besitzen",
+      "kraefte",
+      "einzelne",
+      "keine"
+    ]
+  }
+}

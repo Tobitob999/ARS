@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0132_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 132, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 132,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Es sollte nicht überraschen, dass die Fakultäten der \nprominentesten thaumaturgischen Universitäten der Welt vor \nallem Hermetiker als Lehrende beschäftigen. Hermetiker sehen sich als Angehörige einer langen, \nstolzen Tradition des Strebens nach dem Begreifen der \ngrundlegenden Gesetze der Welt und der Möglichkeiten \nihrer Manipulation. Sie weisen nur zu gerne darauf hin, \ndass die alchemistischen Studien von Isaac Newton viel \nmehr von seiner Lebenszeit beansprucht haben als seine \nStudien der Physik, und dass Leute wie John Dee und \nAleister Crowley, die an die Ränder der akademischen \nWelt gedrängt wurden, nach dem Erwachen eine verspätete \nRehabilitierung erfuhren. Weil Hermetiker meinen, dass sie \ndie Magie verstehen, glauben sie, dass sie dadurch allen an-\nderen Akademikern überlegen sind, weil deren Verständnis \nnur in der physischen Welt begründet ist. Das trägt viel zu \nihrem Ruf als arrogante Snobs bei – ein Ruf, den sie gerne \nakzeptieren, denn schließlich ist es keine Arroganz, wenn \nman wirklich so gut ist. Schamanische Tradition\nTraditionsa ttribut: Charisma\nSchamanen empfinden den Wunsch der Hermetiker da-\nnach, alles in eine kalte, berechnende Ordnung zu pressen, \nabwechselnd als amüsant und als äußerst ärgerlich. Sie \nübernehmen in leicht abgewandelter Form eine alte Weis-\nheit, indem sie sagen, dass das Schreiben über Magie so ist, \nals würde man über Architektur tanzen. Magie soll gefühlt \nund erlebt, nicht in spartanischen Labors und langweiligen \nSchulungsräumen studiert werden.",
+    "topic": "combat.defense",
+    "keywords": [
+      "welt",
+      "hermetiker",
+      "magie",
+      "tradition",
+      "gerne",
+      "studien",
+      "viel",
+      "weil"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0114_c07",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 114, chunk 7.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 114,
+    "chunk_index": 7,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Er muss die Nebenhandlung \nAufstehen\n durchführen, wenn er die Wirkung dieses Status \naufheben will. Ringen\nEin körperlicher Angriff kann auch bedeuten, dass du ei-\nnen Gegner zu Boden werfen oder versuchen willst, ihn \nfestzuhalten, sodass er sich nicht bewegen kann. Wenn \ndu mit einem Gegner ringen willst, sag der Spielleiterin \nBescheid und greife ohne Waffe wie gewohnt mit Nah-\nkampf + Geschicklichkeit an. Der Gegner verteidigt wie \ngewohnt. Gelingt der Angriff, legst du eine Vergleichende \nProbe auf Stärke + Nettoerfolge gegen die Stärke des Geg-\nners ab. Gelingt diese Probe, hast du den Gegner im Griff. Der Gegner kann dann keine körperlichen Handlungen \nmehr durchführen, außer zu versuchen, sich loszureißen. Zauberer und Technomancer können aber weiter ihre mit \nMagie bzw. Resonanz verknüpften Fertigkeiten einsetzen. Alle Angreifer, auch der Ringer, erhalten automatisch 1 Edge \nim Kampf gegen den Verteidiger, der sich in diesem Griff \nbefindet, und der Verteidiger erhält einen Würfelpoolmalus \nSHADOWRUN: SECHSTE EDITION\nKAMPFOPTIONEN // KAMPF // 113",
+    "topic": "combat.attack",
+    "keywords": [
+      "gegner",
+      "sich",
+      "kampf",
+      "durchfuehren",
+      "ringen",
+      "angriff",
+      "versuchen",
+      "willst"
+    ]
+  }
+}

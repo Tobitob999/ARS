@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0185_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 185, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 185,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Net-\ntoerfolge beim Sondieren zählen als Würfelpoolbonus auf \ndie zukünftige Handlung \nHintertür benutzen\n, wenn diese \ngegen das betroffene Gerät abgelegt wird. Wie lange diese \nHintertür erhalten bleibt, hängt von dem Gerät oder Host \nab: Im Allgemeinen bleibt sie für [10 – Host-/Gerätestufe] \nStunden bestehen, oder bis das Gerät/der Host neu gestartet \nwird (je nachdem, was eher passiert). Teergrube\n(illegal) Cracken + Logik gegen Da ten-\nverarbeitung + Firew all oder Logik + \nFirew all (Haupthandlung)\nGast/User/Admin\nDiese Handlung ist mit dem Attribut Angriff verbunden. Manchmal willst du so viel Schmerz zufügen wie mög-\nlich. Und manchmal willst du nur ein bisschen Schmerz \nzufügen und den Gegner ein bisschen verlangsamen, damit \ndeine nächsten Schläge leichter treffen. Wenn dir dieser \nAngriff gelingt, fügst du dem angegriffenen Icon 1 + Netto-\nerfolge Matrixschaden zu (dem mit Firewall widerstanden \nwird) und senkst das Attribut Datenverarbeitung des Icons \num dieselbe Summe. Wenn das Attribut Datenverarbeitung \neines Geräts auf 0 gesenkt wird, kann der Benutzer erst \nwieder Matrixhandlungen durchführen, wenn es mindes-\ntens wieder einen Wert von 1 hat. Datenverarbeitung rege-\nneriert sich um 1 am Ende jeder Kampfrunde, beginnend \nmit der Kampfrunde nach derjenigen, in der der Angriff \ndurchgeführt wurde. Übertragung abf angen\n(illegal) Cracken + Logik gegen Logik + \nFirew all oder Da tenverarbeitung + \nFirew all (Haupthandlung)\nAdmin\nDiese Handlung lässt dich Matrixübertragungen, die von \nund zu deinem Ziel gesendet werden, abfangen, solange \ndu Zugang hast.",
+    "topic": "advancement",
+    "keywords": [
+      "diese",
+      "logik",
+      "firew",
+      "handlung",
+      "gegen",
+      "geraet",
+      "host",
+      "attribut"
+    ]
+  }
+}

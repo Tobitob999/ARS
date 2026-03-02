@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0290_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 290, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 290,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Gliedmaßen können unterschiedliche Attribute haben, aber \nein Würfelpool basiert immer auf dem niedrigsten Attribut \naller Gliedmaßen, es sei denn, bei der Probe wird tatsächlich \nnur die eine Gliedmaße eingesetzt (Entscheidung der Spiel-\nleiterin). Diverse Modifikationen, die zusammen mit der \nGliedmaße erworben werden können, erlauben den Einsatz \nbestimmter Fertigkeiten mit einem erhöhten Attribut. Standardcybergliedmaßen werden mit Geschicklichkeit \nund Stärke auf 2 installiert. Jede ganze Cybergliedmaße \nvergrößert den Körperlichen Zustandsmonitor des Cha-\nrakters um 1 Kästchen (Hände und Füße werden ignoriert, \npartielle Cybergliedmaßen (Unterarm und -schenkel) gelten \nals halbe Gliedmaßen). Schädel\nDer Cyberschädel ersetzt die Knochen und Muskeln des \nKopfes, Gesichts und Halses. Einen Cyberschädel zu haben \nbedeutet auch, dass man über Cyberkiefer (S. 291) verfügt, \ndie wirklich kraftvoll zubeißen können. Torso\nDer Cybertorso ersetzt die Knochen und Muskeln des Kör-\nperkerns unterhalb des Halses bis zu den Genitalien. Offen-\nsichtliche Cybertorsos entfernen die Genitalien und deren \nFunktion (bis auf die Ausscheidung). Die inneren Organe \nwerden nicht ersetzt, aber sie sind alle durch abgetrenn-\nKörper, um den Benutzer in eine neue Welt zu katapultieren, \nin der sich alles um ihn herum in Zeitlupe zu bewegen scheint. Das System umfasst sowohl manuelle als auch WiFi-Trigger, \num die Reflexbooster ein- und auszuschalten. Den Trigger \nzu aktivieren oder zu deaktivieren, erfordert eine Haupt-\nhandlung.",
+    "topic": "skills",
+    "keywords": [
+      "gliedmassen",
+      "ersetzt",
+      "attribut",
+      "cyberschaedel",
+      "knochen",
+      "muskeln",
+      "halses",
+      "genitalien"
+    ]
+  }
+}

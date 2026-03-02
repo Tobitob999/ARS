@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0028_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 28, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 28,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Die Medien sortierten diese Abweichungen rasch in Kate-\ngorien mit eingängigen Namen, die aus dem Fantasy-Genre \nentlehnt waren: Zwerge und Elfen. Wenig später kamen mit \ndem als „Goblinisierung“ bekannten Phänomen auch Orks \nund Trolle hinzu. Wie auch im Fall von VITAS gab es welt-\nweit niemanden, der nicht zumindest jemanden kannte, der \nvon diesen Veränderungen betroffen war. Die Entstehung \nder neuen Metatypen scherte sich nicht um gesellschaftliche \nKlassen. Heute wird das anders dargestellt, aber nicht alle \nElfen waren Kinder reicher Eltern, und nicht alle Trolle und \nOrks wurden in die Slums abgeschoben. Mein Vater wurde \nin eine reiche Ölfamilie aus Texas geboren, die ihn vor der \nÖffentlichkeit versteckte, weil er ein Ork war. Die Goblinisierung ließ die Angst aufkommen, dass es \nsich bei diesem Phänomen um einen Nebeneffekt oder \nsogar die nächste Welle von VITAS handeln könnte. Aber \nSHADOWRUN: SECHSTE EDITION\nEINE KURZE GESCHICHTE DER SECHSTEN WEL T // Das Leben in der Sechsten Wel t // 27",
+    "topic": "classes",
+    "keywords": [
+      "waren",
+      "elfen",
+      "goblinisierung",
+      "phaenomen",
+      "orks",
+      "trolle",
+      "vitas",
+      "sich"
+    ]
+  }
+}

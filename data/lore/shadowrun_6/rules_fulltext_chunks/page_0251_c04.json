@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0251_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 251, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 251,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Bogen\nAlles vom traditionellen Langbogen aus Glasfaser oder \nHolz bis zum modernen Kompositbogen. Diese archaischen \nWaffen findet man in den 2080ern nicht sehr oft auf den \nStraßen. Einen Pfeil einzulegen erfordert eine Haupthand-\nlung \nWaffe bereit machen\n (S. 46). Bögen haben eine Stufe, \ndie die Mindeststärke angibt, die man braucht, um die \nWaffe bedienen zu können. Außerdem hängt der Schaden \nder Waffe von der Stufe ab (die Maximalstufe beträgt 14). Auch Pfeile haben eine Stufe, und diese muss mindestens \nso hoch wie die Stufe des Bogens sein. Injektionspfeil/-bolzen\nDer Injektionspfeil oder -bolzen verursacht seinen Basis-\nschaden und injiziert gleichzeitig eine Dosis des enthaltenen \nMedikaments oder Giftes. Ein erfolgreicher Treffer muss \nmindestens ein Kästchen Schaden (nach der Schadenswi-\nderstandsprobe) verursachen. Injektionspfeile haben übli-\ncherweise eine Stufe von 8. Höherstufige Modelle sind für \nschwerere Bögen erhältlich, aber Pfeile mit geringerer Stufe \nsind nicht stabil genug, um die schwere Nutzlast zuverlässig \nins Ziel zu bringen. WiFi-Vorteil:\n Die Injektion kann verzögert werden, bis \nein WiFi-Signal ausgeschickt wird. Außerdem benötigt die \nInjektion kein Kästchen Schaden; es ist nur mindestens 1 \nNettoerfolg bei der Angriffsprobe erforderlich. Wurfmesser/Shuriken\nDie angegebenen Werte gelten für eine breite Auswahl an \nkleinen, muskelbetriebenen Wurfwaffen wie Wurfster-\nne, Wurfdorne und Ähnliches. Mit einer Haupthandlung \nWaffe bereit machen\n können gleichzeitig bis zu [Geschick-\nlichkeit ÷ 2] Stück dieser Waffen für den Wurf bereit \ngemacht werden.",
+    "topic": "combat.damage",
+    "keywords": [
+      "stufe",
+      "waffe",
+      "schaden",
+      "bereit",
+      "mindestens",
+      "diese",
+      "machen",
+      "boegen"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0120_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 120, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 120,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Zwei Motorräder beﬁ nden sich am Deto-\nnationspunkt, die anderen vier in der Reichweite Sehr \nnah, und der andere Ganger beﬁ ndet sich durch seine \ndumme Aktion ebenfalls am Detonationspunkt. Die \nMotorräder widerstehen dem Schaden mit Rumpf 4. Die Spielleiterin beschließt, für sie alle nur eine Probe \nabzulegen, die 3 Erfolge erzielt. Der Ganger widersteht \ndem Schaden mit Konstitution 3 und erzielt 1 Erfolg. Weiter mit Schritt 5. Schritt fünf: Fühl t den Schmerz\nDie beiden Motorräder am Detonationspunkt erleiden \n13 Kästchen Schaden und sind zerstört. Die vier in der \nReichweite Sehr nah erhalten 7 Kästchen Schaden. Der \nGanger erleidet 15 Kästchen Schaden und macht sich \nauf zum Großen Gangkrieg im Himmel. Beispiel: Grana twerfer\nEine witzige Sache passierte, als diese Granate explo-\ndierte: Ein paar Schrapnelle kratzten den Lack eines \nEurocar Westwind in der Nähe an, der niemand ande-\nrem als Carson Aims gehört – einem durchaus nicht \nunbedeutenden Runner. Carson ist gar nicht glücklich, \ndass bei einem unbedeutenden Streit in Redmond sein \nLack angekratzt wird, und beschließt, den Kampf für alle \nTeilnehmer zu beenden. Er geht zum Kofferraum, holt \nseinen MGL-6 (einen Granatwerfer) heraus und setzt \neine Splittergranate zwischen den Eingang der Gasse \nund die Motorräder. Schritt eins: \nSchnappt euch die Würfel\nCarson Aims hat insgesamt einen Würfelpool von 7: die \nFertigkeit Exotische Waffen (Granatwerfer) 3 + Geschick-\nlichkeit 3 + 1 (wegen eines Smartgunsystems mit akti-\nviertem WiFi im MGL-6). Eine Splittergranate hat einen \nExplosionsradius von 20 Metern, was alle Personen in \nder Gasse und wieder alle Motorräder bedrohen kann.",
+    "topic": "combat.damage",
+    "keywords": [
+      "motorraeder",
+      "schaden",
+      "alle",
+      "sich",
+      "ganger",
+      "schritt",
+      "kaestchen",
+      "carson"
+    ]
+  }
+}

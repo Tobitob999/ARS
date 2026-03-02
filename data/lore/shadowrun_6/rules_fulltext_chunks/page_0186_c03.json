@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0186_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 186, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 186,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Andere Sicherheitsmaßnahmen haben mehr mit der \nHostarchitektur als mit Killerprogrammen zu tun. Meh-\nrere Hosts können verschachtelt angelegt sein, sodass der \ninnerste Host die höchste Datensicherheit bietet. Weil man \nsich von außen in einen Host nach dem anderen hinein-\nhacken muss, ist es wertvoll, Zugang zu einem System mit \ndirekter Verbindung zum innersten Host zu haben (wenn es \nein solches System gibt). Das gilt besonders, weil der Over-\nwatch-Wert für alle Hosts steigt, zu denen du gleichzeitig \nZugang hast, nicht nur für den, in dem du gerade arbeitest. Diese Hoststruktur sieht so aus:\nEine andere Struktur könnte Aufgaben auf verschiedene \nHosts verteilen: zum Beispiel einen für die Büroarbeit, einen \nfür die Sicherheit und einen für den öffentlichen Auftritt. Diese Beziehung könnte so aussehen:\nMATRIX Öﬀ entlicher Host\nSicherheitshost\nBürohost\nHoststruktur verteil t\nHackingprogramme\nAufspüren:\n Wenn du die Handlung \nIcon aufspüren\n durch-\nführst, erhältst du 1 Edge; dieser Punkt muss sofort für \ndiese Handlung ausgegeben werden, sonst verfällt er. Ausnutzen:\n Der Verteidigungswert der Gegenseite sinkt bei \ndeinen Hacking-Versuchen um 2. Biofeedback:\n Verursacht bei einem Matrixangriff Betäu-\nbungsschaden (gegen ein Ziel in der VR mit kaltem Sim) \nbzw. Körperlichen Schaden (gegen ein Ziel in der VR mit \nheißem Sim) statt Matrixschaden. Biofeedbackfilter:\n Du kannst Biofeedback-Schaden mit \nGerätestufe oder Konstitution statt mit Willenskraft \nwiderstehen. Blackout:\n Ähnlich wie das Programm Biofeedback, kann \naber nur Betäubungsschaden verursachen. Entschärfen:\n +2 Würfel für die Handlung \n Datenbombe \nentschärfen.",
+    "topic": "matrix",
+    "keywords": [
+      "host",
+      "einen",
+      "diese",
+      "handlung",
+      "biofeedback",
+      "andere",
+      "weil",
+      "zugang"
+    ]
+  }
+}

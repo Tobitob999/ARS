@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0133_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 133, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 133,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Die andere wichtige Auswirkung ist, dass es schwieriger \nwird, etwas magisch zu beeinflussen, wenn es viel Techno-\nlogie enthält oder stark bearbeitet wurde. Inwiefern das so \nist, wird mit dem \nObjektwiderstand\n gemessen, der oft als \nMaßstab dafür dient, wie erfolgreich Zauber sind, die auf \nein Objekt gewirkt werden. Die Tabelle \nObjektwiderstand\ngibt Richtlinien für diesen Wert an. • \n Magie lernen \n(s.u.)\n• \n Rituale durchführen \n(S. 145)\n• \n Funktion als Manabarriere\n (S. 163)\nDie Menge an Macht, die ein solches Refugium für diese \nFunktionen bietet – und damit der Preis des Refugiums –, \nhängt von der Kraftstufe des Refugiums ab. Charaktere \nkönnen mit Reagenzien ein temporäres Refugium (siehe S. 156) errichten, oder sie können ein permanentes Magisches \nRefugium einrichten. Um dein eigenes Refugium einzurich-\nten, benötigst du Materialien, die zu deiner Tradition pas-\nsen, im Wert von 500 Nuyen pro Kraftstufe. Sobald du die \nMaterialien hast, such dir einen passenden Ort (z./uni00A0B. deine \nWohnung, eine Höhle in der Wildnis oder einen geheimen \nverlassenen Tunnel in der Kanalisation), an dem du dich \ngerne aufhältst und wo du relativ sicher und unbeobach-\ntet bist. Dann musst du eine Anzahl von Tagen gleich der \nKraftstufe des Magischen Refugiums damit verbringen, den \nOrt zu weihen, die Gegenstände günstig zu verteilen, seine \nastrale Gestalt aufzubauen, Barrieren zu errichten und alles \nmit deiner Aura in Einklang zu bringen. Wenn du damit \nfertig bist, ist dein Refugium fertig und aktiv. Ein aktives \nMagisches Refugium funktioniert als Manabarriere (S. 163) \nund hat deine astrale Signatur. Ein Refugium ist nicht mobil.",
+    "topic": "magic.spells",
+    "keywords": [
+      "refugium",
+      "damit",
+      "kraftstufe",
+      "objektwiderstand",
+      "wert",
+      "manabarriere",
+      "errichten",
+      "magisches"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0235_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 235, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 235,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Ein platter Reifen, ein defektes Gebläse, ein \ngebrochenes Querruder, ein Motoraussetzer \noder Ähnliches zwingt dich, in sehr naher \nZukunft anzuhalten. Ein Stein durchschlägt die Batterie oder den \nTank. Die Leistung verpufft innerhalb der \nnächsten 10 Kampfrunden. Eine Reparatur \nerfordert eine Ausgedehnte Probe auf \nDu bist abgelenkt. Alle Proben erhalten \neinen Würfelpoolmalus von -2 bis zum \nEnde der Szene. Ein Gegenstand zerschmettert die \nWindschutzscheibe. Alle, die vorne sitzen, \nmüssen mit ihrer Konstitution gegen 3K \nSchaden Widerstand leisten, alle auf dem \nRücksitz mit Konstitution gegen 2K. Die \nSHADOWRUN: SECHSTE EDITION\n234 // Spielleiterhinweise // P A TZER UND KRITISCHE P A TZER",
+    "topic": "combat",
+    "keywords": [
+      "alle",
+      "konstitution",
+      "gegen",
+      "tzer",
+      "platter",
+      "reifen",
+      "defektes",
+      "geblaese"
+    ]
+  }
+}

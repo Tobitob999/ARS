@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0113_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 113, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 113,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Weit: 251 bis 500 Meter\nWillkommen im Reich der Gewehre. Hier kommt es tatsächlich \nauf die Größe an – oder zumindest auf die Länge des Laufs. Sehr weit: 501+ Meter\nNatürlich kann ein aufgemotztes Colt M23 so weit schießen, \naber ein Ranger Arms fühlt sich hier erst so richtig wohl. Munition\nDie maximale Anzahl an Geschossen, die eine Waffe fassen \nkann, und der Lademechanismus, den sie benutzt. Die \nKategorien in diesem Bereich sind: (k) für Klapplademecha-\nnismus, (s) für Stangenmagazin, (i) für internes Magazin, \n(t) für Trommelmagazin, (g) für Gurtmunition, (tr) für \naufklappbare Trommel, (v) für Vorderlader. Verteidigungswertbonus\nDieser Wert einer Panzerung erhöht den Verteidigungswert \neines Charakters. Er wirkt im Regelfall nicht kumulativ, \naber es gibt Vorteile, Bodytech und Zusatzpanzerung wie \nHelme, Schilde und Schutzpolster, die eine leichte zusätz-\nliche Erhöhung bieten können. Verteidigungswert\nDieser Wert gibt an, wie zäh diese Blechbüchse oder Spin-\nnenseide-Kevlar-Kombination ist, die du trägst. Er ist eine \nZusammenfassung von Panzerungswert und Konstitution \nund kann von Vor- und Nachteilen sowie Ausrüstung beein-\nflusst werden. Er wird mit dem Angriffswert verglichen, um \nfestzulegen, ob jemand einen ausreichend großen Vorsprung \nhat, um Edge zu erhalten. Schadenswert\nDas ist der unmodifizierte Schaden, der mit einem erfolg-\nreichen Angriff verursacht wird. Diese Zahl wird durch die \nNettoerfolge bei der Angriffsprobe verändert und kann sich \nauch durch unterschiedliche Munition leicht verändern. Der Schadenswert bei waffenlosen Nahkampfangriffen \nbeträgt 2B.",
+    "topic": "combat",
+    "keywords": [
+      "weit",
+      "meter",
+      "hier",
+      "sich",
+      "munition",
+      "dieser",
+      "wert",
+      "verteidigungswert"
+    ]
+  }
+}

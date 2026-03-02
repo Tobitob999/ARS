@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npc",
+  "id": "npc_014",
+  "name": "Mirth-O-R-14",
+  "tags": [
+    "paranoia_2e",
+    "npc",
+    "roster"
+  ],
+  "summary": "Power Services operative with layered loyalties.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "service_group": "Power Services",
+    "secret_society": "FCCCP",
+    "mutation": "Telekinesis",
+    "trait": "eager",
+    "clearance": "Orange",
+    "use_in_play": "briefing_authority"
+  }
+}

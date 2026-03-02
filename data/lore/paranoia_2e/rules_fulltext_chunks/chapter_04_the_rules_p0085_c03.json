@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_04_the_rules_p0085_c03",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_04_the_rules",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The Rules page 85, chunk 3.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_04_the_rules",
+    "source_title": "The Rules",
+    "page": 85,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "raw_text": "(Rumors that some com units explode violently if turned off without prior Computer authorization are teeason.) \nall-purpose detection Multicorders are devices, Each is fitted with a variety of sensors, They are operated with the use of multicorder programs which come in the form of plastic Casettes, Programs permit the multicorders 10 process and display sensor data in various useful ways. There are four models of multicorders, increasing in sophistication as the model number rises. Some programs can only be used with the more sophisticated models \nMulticorder Models \nMulticorder I: This portable device is often carried on missions into the Outdoors, or as, backup on other missions. Only one program, ‘may operate at any one time. Multicorder I: This is available as a rather bulky portable model, and is often installed \n5. Multicorders \nin vehicles. It can run three programs at one time. Multicorder Il: This is only installed in vehicles or large bots. Upto five programs may run at once. Multicorder IV: This is the most powerful multicorder; itis only installed in vehicles or large bots. Up to ten programs may run at \nMulticorder Programs: \nRadar: Available in all models, Displays a variety of processed radar images in various, scales. The effective range of the radar varies with multicorder number: model 1 — 1 km model Il — 10 km; made! Ill — 100 km; model IV — 1000 km. (The maximum range is never greater than line-of-sight.) \nInfrared: Available in all models. Displays a \\ariety of processed infrared images in various degrees of magnification with overlays inter. preting temperature levels. Hot areas appear brighter than coo! areas.",
+    "topic": "advancement",
+    "keywords": [
+      "multicorder",
+      "programs",
+      "models",
+      "only",
+      "various",
+      "available",
+      "installed",
+      "vehicles"
+    ]
+  }
+}

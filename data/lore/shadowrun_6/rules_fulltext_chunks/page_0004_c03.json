@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0004_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 4, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 4,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "124\nToxine und Drogen\n ................... 124\nVektor\n ................................................ 124\nGeschwindigkeit\n ................................. 125\nDauer\n ................................................. 125\nKraft\n ................................................... 125\nWirkung\n ............................................. 125\nKonzentration\n ..................................... 125\nGegenmittel\n ........................................ 125\nToxine\n ................................................ 125\nDrogen\n ............................................... 126\nMAGIE\n ............................................... 129\nMagie wirken für Spaß und Geld\n .... 129\nGrundlagen der Magie\n .............. 130\nFertigkeiten\n ........................................ 130\nEntzug\n ................................................ 130\nTraditionen\n ......................................... 130\nWie man Magie erkennt\n ..................... 131\nMagie, Technologie und Widerstand\n ..... 132\nMagische Refugien\n ............................ 132\nMagie lernen\n ...................................... 132\nZauber\n ................................. 133\nWie man Zauber wirkt\n ........................ 133\nZauberbeschreibungen\n ....................... 134\nHeilzauber\n .......................................... 134\nIllusionszauber\n ................................... 136\nKampfzauber\n 137\nWahrnehmungszauber\n ....................... 143\nAntimagie\n ............................. 145\nZauberabwehr\n .................................... 145\nZauberbannung\n .................................. 145\nRitualzauberei\n ........................ 145\nRitualleiter bestimmen\n .......................",
+    "topic": "movement",
+    "keywords": [
+      "magie",
+      "toxine",
+      "drogen",
+      "zauber",
+      "vektor",
+      "geschwindigkeit",
+      "dauer",
+      "kraft"
+    ]
+  }
+}

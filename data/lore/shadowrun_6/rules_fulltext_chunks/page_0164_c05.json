@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0164_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 164, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 164,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Manabarrieren können nur durch Körper-\nlichen Schaden beschädigt werden. Der Kasten \nAstralkampf\n fasst Fertigkeiten und Attribute \nAstralkampf\n fasst Fertigkeiten und Attribute \nAstralkampf\nzusammen, die im Astralkampf eingesetzt werden. Astrales Spurenlesen\nFast alles Magische (Geister, Zauber, Rituale, Foki und \nMagische Refugien) hat eine astrale Verbindung zu dem, \nder für es verantwortlich ist. Aktive Zauber sind mit dem \nZauberer verbunden, Geister mit ihrem Beschwörer, astral \nprojizierende Zauberer sind mit ihren Körpern verbunden, \nund Foki und Magische Refugien sind mit den Zauberern \nverbunden, die sie aktiviert haben. Erwachte Wesen, die \ndie astrale Signatur eines solchen Ziels askennen, können \ndiese Verbindungen durch die Astralebene zu ihrem Ur-\nsprung verfolgen. Das Verfolgen einer astralen Verbindung \nerfordert eine Ausgedehnte Probe auf Astral + Intuition (5, \n1 Stunde). Modifikatoren dazu findest du in der Tabelle \nManabarrieren\nManabarrieren sind magische Wände, die Magie und as-\ntrale Gestalten bremsen oder aufhalten. Manabarrieren \nkönnen entweder auf der physischen oder der Astralebene \nerschaffen werden; manche sind auch dual und existieren \nauf beiden Ebenen. Die Tabelle \n Manabarrieren\n gibt an, \nauf welche Arten man nach den Regeln in diesem Buch \nManabarrieren erschaffen kann. Manabarrieren auf der physischen Ebene sind (außer \ndurch astrale Wahrnehmung) unsichtbar. Sie bilden aber \nfür Zauber, manifestierte Wesen, Geister, Dualwesen und \naktivierte Foki feste Barrieren.",
+    "topic": "combat.damage",
+    "keywords": [
+      "manabarrieren",
+      "astralkampf",
+      "magische",
+      "durch",
+      "geister",
+      "zauber",
+      "foki",
+      "astrale"
+    ]
+  }
+}

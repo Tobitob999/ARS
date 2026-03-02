@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0228_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 228, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 228,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Unf all\nART HANDLUNG REICHWEITE DAUER\nP H BF Sofort\nCritter mit dieser Kraft können scheinbar normale Unfälle \nverursachen. Die genaue Art des Unfalls bleibt der Spiel-\nleiterin überlassen und hängt davon ab, was das Opfer \ngerade tut und was um es herum vorgeht. Diese Kraft ist \nvon Haus aus nicht unbedingt gefährlich, kann aber je nach \nUmständen und Umgebung gefährliche Folgen haben. Wenn \neinem beispielsweise vor einem heranrasenden Sattelzug ein \nReifen platzt und der eigene Wagen ins Schleudern gerät, \nkönnte sich das durchaus gesundheitsschädlich auswirken. Wenn ein Critter diese Kraft auf jemanden anwendet, \nwird eine Vergleichende Probe auf Willenskraft + Magie des \nCritters gegen Reaktion + Charisma des Opfers abgelegt. Gewinnt der Critter, wird die Situation so behandelt, als \nhätte der Charakter bei einer Probe einen Patzer gewürfelt \n– die Spielleiterin kann dabei gerne auf die Tabelle Ideen \nfür Patzer (S. 233) zurückgreifen. Gelingen dem Critter gar \n4 oder mehr Nettoerfolge, so entspricht der Unfall einem \nKritischen Patzer – er ist nicht nur ein peinlicher Ausrut-\nscher, sondern eine potenzielle Katastrophe. Verschleierung\nART HANDLUNG REICHWEITE DAUER\nP H BF Aufrechterhalten\nEin Critter mit dieser Kraft kann sich selbst, andere oder \nDinge, die von anderen gesucht werden, auf mysteriöse \nWeise verstecken. Diese Kraft aktiviert den Status Unsicht-\nbar (Verbessert) in Höhe des Magieattributs des Critters. Im Kampf muss eine Haupthandlung Genau beobachten\ndurchgeführt werden, um eine Wahrnehmungsprobe able-\ngen zu dürfen, mit der versucht werden kann, die Verschlei-\nerung zu überwinden.",
+    "topic": "general",
+    "keywords": [
+      "critter",
+      "kraft",
+      "diese",
+      "einem",
+      "patzer",
+      "handlung",
+      "reichweite",
+      "dauer"
+    ]
+  }
+}

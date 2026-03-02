@@ -1,0 +1,438 @@
+{
+  "metadata": {
+    "name": "Paranoia 2nd Edition",
+    "version": "2nd Edition",
+    "system": "paranoia_2e",
+    "schema_version": "1.4.0",
+    "publisher": "West End Games",
+    "language": "en",
+    "game_master_title": "The Computer",
+    "player_character_title": "Troubleshooter"
+  },
+  "dice_system": {
+    "default_die": "d20",
+    "check_mode": "roll_under",
+    "notes": "Core checks use d20 <= attribute or skill; 1 is automatic success, 20 automatic failure.",
+    "success_levels": {
+      "critical": 1,
+      "extreme": 0.25,
+      "hard": 0.5,
+      "fumble": 20
+    }
+  },
+  "characteristics": {
+    "STR": {
+      "label": "Strength",
+      "roll": "2d10",
+      "multiplier": 1
+    },
+    "AGI": {
+      "label": "Agility",
+      "roll": "2d10",
+      "multiplier": 1
+    },
+    "DEX": {
+      "label": "Dexterity",
+      "roll": "2d10",
+      "multiplier": 1
+    },
+    "END": {
+      "label": "Endurance",
+      "roll": "2d10",
+      "multiplier": 1
+    },
+    "MOX": {
+      "label": "Moxie",
+      "roll": "2d10",
+      "multiplier": 1
+    },
+    "CHU": {
+      "label": "Chutzpah",
+      "roll": "2d10",
+      "multiplier": 1
+    },
+    "MEC": {
+      "label": "Mechanical Aptitude",
+      "roll": "2d10",
+      "multiplier": 1
+    },
+    "POW": {
+      "label": "Power",
+      "roll": "2d10",
+      "multiplier": 1
+    }
+  },
+  "skills": {
+    "Force Sword": {
+      "base": 3,
+      "category": "agility",
+      "group": "combat"
+    },
+    "Grenades": {
+      "base": 3,
+      "category": "agility",
+      "group": "combat"
+    },
+    "Neurowhip": {
+      "base": 3,
+      "category": "agility",
+      "group": "combat"
+    },
+    "Primitive Melee Weapons": {
+      "base": 3,
+      "category": "agility",
+      "group": "combat"
+    },
+    "Truncheon": {
+      "base": 3,
+      "category": "agility",
+      "group": "combat"
+    },
+    "Unarmed": {
+      "base": 3,
+      "category": "agility",
+      "group": "combat"
+    },
+    "Bootlicking": {
+      "base": 3,
+      "category": "chutzpah",
+      "group": "social"
+    },
+    "Bribery": {
+      "base": 3,
+      "category": "chutzpah",
+      "group": "social"
+    },
+    "Con": {
+      "base": 3,
+      "category": "chutzpah",
+      "group": "social"
+    },
+    "Fast Talk": {
+      "base": 3,
+      "category": "chutzpah",
+      "group": "social"
+    },
+    "Forgery": {
+      "base": 3,
+      "category": "chutzpah",
+      "group": "social"
+    },
+    "Interrogation": {
+      "base": 3,
+      "category": "chutzpah",
+      "group": "social"
+    },
+    "Intimidation": {
+      "base": 3,
+      "category": "chutzpah",
+      "group": "social"
+    },
+    "Motivation": {
+      "base": 3,
+      "category": "chutzpah",
+      "group": "social"
+    },
+    "Oratory": {
+      "base": 3,
+      "category": "chutzpah",
+      "group": "social"
+    },
+    "Psychescan": {
+      "base": 3,
+      "category": "chutzpah",
+      "group": "social"
+    },
+    "Spurious Logic": {
+      "base": 3,
+      "category": "chutzpah",
+      "group": "social"
+    },
+    "Energy Weapons": {
+      "base": 3,
+      "category": "dexterity",
+      "group": "combat"
+    },
+    "Field Weapons": {
+      "base": 3,
+      "category": "dexterity",
+      "group": "combat"
+    },
+    "Laser Weapons": {
+      "base": 3,
+      "category": "dexterity",
+      "group": "combat"
+    },
+    "Projectile Weapons": {
+      "base": 3,
+      "category": "dexterity",
+      "group": "combat"
+    },
+    "Demolition": {
+      "base": 3,
+      "category": "mechanical",
+      "group": "technical"
+    },
+    "Medical": {
+      "base": 3,
+      "category": "mechanical",
+      "group": "technical"
+    },
+    "Data Analysis": {
+      "base": 3,
+      "category": "moxie",
+      "group": "computer"
+    },
+    "Data Search": {
+      "base": 3,
+      "category": "moxie",
+      "group": "computer"
+    },
+    "Computer Programming": {
+      "base": 0,
+      "category": "moxie",
+      "group": "computer"
+    },
+    "Computer Security": {
+      "base": 0,
+      "category": "moxie",
+      "group": "computer"
+    },
+    "Vehicle Operation": {
+      "base": 3,
+      "category": "mechanical",
+      "group": "vehicle"
+    },
+    "Habitat Engineering": {
+      "base": 3,
+      "category": "mechanical",
+      "group": "engineering"
+    },
+    "Robot Op. & Maint.": {
+      "base": 3,
+      "category": "mechanical",
+      "group": "engineering"
+    },
+    "Electronic Engineering": {
+      "base": 3,
+      "category": "mechanical",
+      "group": "engineering"
+    },
+    "Mechanical Engineering": {
+      "base": 3,
+      "category": "mechanical",
+      "group": "engineering"
+    },
+    "Old Reckoning Cultures": {
+      "base": 0,
+      "category": "moxie",
+      "group": "forbidden"
+    },
+    "Communist Propaganda": {
+      "base": 0,
+      "category": "forbidden",
+      "group": "treason"
+    }
+  },
+  "derived_stats": {
+    "Macho Bonus": {
+      "label": "Macho Bonus",
+      "formula": "derived_from_strength",
+      "notes": "Used as damage modifier in combat."
+    },
+    "Damage Bonus": {
+      "label": "Damage Bonus",
+      "formula": "derived_from_strength",
+      "notes": "Added to attack damage rating."
+    },
+    "Carrying Capacity": {
+      "label": "Carrying Capacity",
+      "formula": "derived_from_strength",
+      "notes": "Encumbrance and hauling limit."
+    },
+    "Treason Points": {
+      "label": "Treason Points",
+      "formula": "0 + penalties",
+      "notes": "Escalating penalties and execution risk."
+    },
+    "Clone Number": {
+      "label": "Clone Number",
+      "formula": "1..6",
+      "notes": "Troubleshooters belong to six-clone families."
+    }
+  },
+  "races": {
+    "human_clone": {
+      "name": "Human Clone",
+      "description": "Standard Alpha Complex citizen clone template.",
+      "ability_modifiers": {},
+      "size": "M",
+      "base_movement": 12,
+      "special_abilities": [
+        "Clone replacement",
+        "Security clearance identity"
+      ]
+    }
+  },
+  "classes": {
+    "Troubleshooter": {
+      "hit_die": "n/a",
+      "prime_requisite": [
+        "MOX",
+        "CHU",
+        "DEX"
+      ],
+      "special_abilities": [
+        "Mission authority from The Computer",
+        "Access to assigned equipment",
+        "Rapid replacement through clone family"
+      ],
+      "progression": [
+        {
+          "level": 1,
+          "xp_required": 0,
+          "title": "Red Troubleshooter"
+        },
+        {
+          "level": 2,
+          "xp_required": 500,
+          "title": "Trusted Troubleshooter"
+        },
+        {
+          "level": 3,
+          "xp_required": 1500,
+          "title": "Sector Specialist"
+        },
+        {
+          "level": 4,
+          "xp_required": 4000,
+          "title": "Clearance Candidate"
+        }
+      ]
+    }
+  },
+  "combat": {
+    "hit_points": "state_track",
+    "armor_class": {
+      "label": "Damage Protection",
+      "direction": "ascending"
+    },
+    "attack_metric": "skill_roll_under",
+    "attack_rule": "Roll d20 <= weapon skill (with modifiers) to hit; then roll damage table.",
+    "initiative": {
+      "method": "narrative_rounds",
+      "die": "n/a",
+      "modifiers": "GM pace and declarations"
+    },
+    "actions_per_round": {
+      "default": 1
+    },
+    "critical_hits": "Roll 1 on attack checks is automatic success.",
+    "fumbles": "Roll 20 on checks is automatic failure.",
+    "status_track": [
+      "none",
+      "stunned",
+      "wounded",
+      "incapacitated",
+      "dead",
+      "vaporized"
+    ],
+    "weapon_types": [
+      "L",
+      "P",
+      "E",
+      "F",
+      "N",
+      "S",
+      "I"
+    ],
+    "damage_notes": "Damage rating cross-referenced against d20 on damage table."
+  },
+  "conditions": {
+    "stunned": "Cannot act for several rounds.",
+    "wounded": "-4 on checks until healed.",
+    "incapacitated": "Cannot act; further damage may kill.",
+    "dead": "Clone replacement required.",
+    "vaporized": "Total destruction; immediate clone activation."
+  },
+  "healing": {
+    "natural": "Hospital treatment under The Computer recovers over time.",
+    "field_medicine": "Medical skill can stabilize and recover wounded/incapacitated characters.",
+    "death_and_replacement": "Next clone enters play with reset treason baseline."
+  },
+  "economy": {
+    "currency": "credits and plasticreds",
+    "fines": "Lower-clearance citizens may be fined for infractions.",
+    "rewards": "Mission bonuses, bounties, promotions"
+  },
+  "time": {
+    "combat_round": "~5 seconds",
+    "notes": "Fast pace; hesitation has in-fiction consequences."
+  },
+  "experience": {
+    "sources": [
+      "Mission completion",
+      "Loyal service",
+      "Bounties",
+      "Commendations"
+    ],
+    "advancement": "Promotions and clearance gains by GM adjudication"
+  },
+  "extensions": {
+    "security_clearance_system": {
+      "levels": [
+        "Infrared",
+        "Red",
+        "Orange",
+        "Yellow",
+        "Green",
+        "Blue",
+        "Indigo",
+        "Violet",
+        "Ultraviolet"
+      ],
+      "rule": "Access to information, gear, and sectors is strictly clearance-gated."
+    },
+    "service_groups": {
+      "count": 8,
+      "notes": "Service allegiance grants training and political hooks."
+    },
+    "secret_societies": {
+      "notes": "Characters secretly belong to illegal factions with hidden goals."
+    },
+    "mutant_powers": {
+      "notes": "Powers are treasonous unless registered; usage consumes Power points."
+    },
+    "tone_and_play": {
+      "notes": "GM-driven dramatic tactical system, satire, betrayal, and lethal comedy."
+    },
+    "content_references": {
+      "mechanics": [
+        "data/lore/paranoia_2e/mechanics/attribute_and_skill_resolution.json",
+        "data/lore/paranoia_2e/mechanics/combat_resolution.json",
+        "data/lore/paranoia_2e/mechanics/damage_and_clone_cycle.json",
+        "data/lore/paranoia_2e/mechanics/treason_and_clearance.json",
+        "data/lore/paranoia_2e/mechanics/mission_structure.json",
+        "data/lore/paranoia_2e/mechanics/equipment_rnd_requisition.json",
+        "data/lore/paranoia_2e/mechanics/social_conflict_and_chutzpah.json",
+        "data/lore/paranoia_2e/mechanics/vehicle_combat_and_hazards.json"
+      ],
+      "mutations_index": "data/lore/paranoia_2e/indices/mutation_index.json",
+      "skills_index": "data/lore/paranoia_2e/skills/skill_catalog.json",
+      "encounters_pack": "data/lore/paranoia_2e/encounters_pack/",
+      "mission_seeds": "data/lore/paranoia_2e/mission_seeds/",
+      "npc_roster": "data/lore/paranoia_2e/npc_roster/",
+      "gm_moves": "data/lore/paranoia_2e/gm_moves/",
+      "service_group_ops": "data/lore/paranoia_2e/service_group_ops/",
+      "secret_society_ops": "data/lore/paranoia_2e/secret_society_ops/",
+      "gear_catalog": "data/lore/paranoia_2e/gear_catalog/",
+      "adventure_assets": "data/lore/paranoia_2e/adventure_assets/",
+      "rules_fulltext_chunks": "data/lore/paranoia_2e/rules_fulltext_chunks/",
+      "rules_chunk_index": "data/lore/paranoia_2e/indices/rules_chunk_index.json",
+      "rules_coverage_report": "data/lore/paranoia_2e/indices/rules_coverage_report.json",
+      "adventure_fulltext_chunks": "data/lore/paranoia_2e/adventure_fulltext_chunks/",
+      "adventure_chunk_index": "data/lore/paranoia_2e/indices/adventure_chunk_index.json",
+      "adventure_coverage_report": "data/lore/paranoia_2e/indices/adventure_coverage_report.json"
+    }
+  }
+}

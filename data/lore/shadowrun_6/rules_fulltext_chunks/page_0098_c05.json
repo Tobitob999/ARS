@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0098_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 98, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 98,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Mechanik\nSpezialisierungen: \nFahrzeugmechanik, Geschütze, Indus-\ntriemechanik, Luftfahrtmechanik, Schlösser knacken, \nSeefahrtmechanik, Sprengstoffe, Waffenbau\nUngeübt:\n Ja\nPrimärattribut:\n Logik\nSekundärattribute:\n Geschicklichkeit (Schlösser knacken), \nIntuition (Improvisieren)\nBei Mechanik geht es darum, Gegenstände dazu zu \nbringen, dass sie tun, was du willst – Autos sollen fahren, \nFlugzeuge fliegen, Boote schwimmen, Maschinen sollen \nanspringen und rattern und das tun, wofür sie gebaut \nwurden, und Waffen sollen gefälligst ihren Zweck erfüllen. Wie sich aus den Spezialisierungen erkennen lässt, werden \nmit dieser Fertigkeit teils sehr breite Themengebiete abge-\ndeckt, aber im Grunde beschäftigt sich Mechanik mit vier \ngrundlegenden Tätigkeiten: Bauen, Reparieren, Impro-\nvisieren und dem Einsatz fahrzeugmontierter Geschütze \n(s. hierzu den Abschnitt \n Fahrzeugkampf\n, S. 200). Bauen \nFahrzeugkampf\n, S. 200). Bauen \nFahrzeugkampf\nund Reparieren werden auf die gleiche Art abgehandelt: \nDu legst eine Ausgedehnte Probe auf Mechanik + Logik \nab, deren Schwellenwert von der Art und Komplexität \ndes zu bauenden/reparierenden Gegenstands abhängig \nist (s. Tabelle \nSchwellenwerte für Bauen/Reparieren\n ). Das \nIntervall richtet sich nach der Komplexität der Tätigkeit \n(Beispiele hierfür findest du in der Tabelle \n Intervalle für \nBauen/Reparieren\n ). Improvisieren ist eine Einfache Probe, die dazu dient, ein \nGerät mit einer schnellen Anpassung – oder manchmal auch \neinem gezielten Tritt – kurzfristig zum Laufen zu bringen.",
+    "topic": "combat",
+    "keywords": [
+      "bauen",
+      "mechanik",
+      "reparieren",
+      "sollen",
+      "sich",
+      "fahrzeugkampf",
+      "spezialisierungen",
+      "geschuetze"
+    ]
+  }
+}

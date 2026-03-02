@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_03_world_of_paranoia_p0044_c02",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_03_world_of_paranoia",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The World of Paranoia page 44, chunk 2.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_03_world_of_paranoia",
+    "source_title": "The World of Paranoia",
+    "page": 44,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "Any request which requires research ay be slow in receiving a response, since ‘most phreaks have their own pet projects that, ‘occupy their time, and searching for informa tion in The Computer can take a long lime and, a lot of creative thinking, \nA Typical Computer Phreak Conversation: Computer Phreak: Password, please, huh ‘give you a password! (Hysterical giggle.) \nHave you heard about the new $X76B VLSI microprocessor’ I's orthogonal Hey, pass the algae chips. WH Communists \nBeliefs: Smash The Computer and its corrupt capitalist lackeys! All power to the Infrared rmasces! The masses are the creators of al wealth; high security clearance citizens are parasites fattening on the blood of the people! Al wealth to the creators of wealth, Death to the oppressor! From each according to his abilities; to each according to his needs. The Computer is the highest stage of capitalism; it must be destroyed so a People’s State can be created, and all may live in equali- ty and harmony, Inequality is evil property is ‘wrong: power fo the people! Strive valiantly forthe triumph of the masses! Never betray the Revolution! Smash The Computer! Friends: None. Enemies: Everyone, \nGeneral Description: The Commies don’t really know much about historical Com- munism, which was a dead doctrine by the time Year One of The Computer began However, The Computer's intense persecution fof Communism has led to its revival.",
+    "topic": "general",
+    "keywords": [
+      "computer",
+      "wealth",
+      "people",
+      "which",
+      "their",
+      "time",
+      "phreak",
+      "password"
+    ]
+  }
+}

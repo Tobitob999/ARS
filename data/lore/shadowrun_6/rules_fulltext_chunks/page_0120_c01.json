@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0120_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 120, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 120,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Schritt zwei: Verteil t Edge\nWir vergleichen den Angriffswert von Oda mit der Gra-\nnate (Reaktion 6 + Stärke 6 – 1 = 11) mit dem Vertei-\ndigungswert der Motorräder (Rumpf 4 + Panzerung 2 \n= 6), was Oda eine Differenz von über 4 und damit 1 \nEdge verschafft. Die Situation der schlecht beleuchteten Gasse hat \nsich nicht verändert, aber das bedeutet nur, dass er sein \nZielgebiet sehen kann. Er bekämpft die Ganger nicht \ndirekt, also müssen wir sie gar nicht weiter beachten. Schließlich berücksichtigen wir Ausrüstung oder Vor-\nteile, die helfen könnten, aber da ist nichts. Schritt drei: \nWürfel t und gebt Edge aus\nOda hebt sich sein Edge für später auf, falls sein Vor-\ngehen die Ganger nicht vertreibt. Er legt seine Angriffs-\nprobe ab und erzielt 4 Erfolge mit seinen 10 Würfeln. Weil es sich um einen Wurf auf ein Zielgebiet handelt, \ngibt es die Möglichkeit der Abweichung. Bei diesem \nAngriff in der Reichweite Nah beträgt die Abweichung \n2W6 – 2 – Erfolge Meter. Die Spielleiterin würfelt ver-\ndeckt für die Abweichung und erzielt eine 7, von der \nsie 6 abzieht, was eine Abweichung von 1 Meter ergibt. Ein weiterer Würfelwurf mit 2W6 ergibt laut Abwei-\nchungsdiagramm, dass die Granate mit einer 11 einen \nMeter zu kurz und zu weit rechts von Ziel landet. Aber \ndas ist nah genug für die Motorräder und die beiden \nGanger, die in Reserve stehen. Diese Eye-Fivers rennen in Richtungen ihrer Wahl \nauseinander. Einer bewegt sich auf die Prügelei zu, der \nandere rennt zu den Motorrädern und schreit „Neeein!“, \nweil er voraussieht, was passieren wird, und hofft, sein \nMotorrad retten zu können.",
+    "topic": "combat.attack",
+    "keywords": [
+      "edge",
+      "sich",
+      "sein",
+      "abweichung",
+      "ganger",
+      "meter",
+      "schritt",
+      "motorraeder"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0.0",
+  "category": "item",
+  "id": "gear_28_audit_spike",
+  "name": "Audit Spike",
+  "tags": [
+    "paranoia_2e",
+    "item",
+    "gear_catalog"
+  ],
+  "summary": "Experimental field gear with bureaucratic side effects.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "clearance_required": "Orange",
+    "use_case": "control",
+    "risk": "power_drain",
+    "charges": 2
+  }
+}

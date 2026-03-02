@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_04_the_rules_p0080_c03",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_04_the_rules",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The Rules page 80, chunk 3.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_04_the_rules",
+    "source_title": "The Rules",
+    "page": 80,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "raw_text": "Each combat round a human remains in the gas cloud, he must make an endurance oll; if he ‘ails, the hallucinogen begins to take effect, All skill numbers are halved for the next dayeycle because the human cannot be sure whether anything is real or Imaginary. Note: Non-organic beings (., bots) are not affected by poison, vomit or hallucinogenic tas. Characters wearing gas masks are similarly immune to these gases, as are characters in environment and combat suits \nTriggers for Cone Rifle Ammunition Cone rifle shells are usually equipped with ‘contact fuses, which explode upon impact, but other types of fuses are also available. (All slugthrower ammunition uses contact fuses.) ‘Any type of shell may be equipped with any type of fuse, Other fuse types are: * Heat fuses activate a shell when it gets hot. How hot is hot? That varies from shell to shell some activate at 30°C, some at 100 degrees, some the moment they feel body heat, some only in the midst of a thermonuclear explo sion. When a character requisitions a shell with a heat trigger he should specify the heat level he wants, and pray that PLC doesnt screw up. * Gauss fuses activate when subject to violent electromagnetic fux. This flux can be caused by gauss or energy weapons, powerful radio signals, lightning, et; Remote fuses are designed to activate upon reception of a coded radio signal. They are usually used with com units. modified to transmit the appropriate code. The user fires the shell, lets it fll, and waits. When he wants to activate the shell, he transmits the code. If the remote fuse isin an area blanketed by ECM jamming, it will not activate. * Timers activate a certain amount of time ater boeing fred.",
+    "topic": "combat",
+    "keywords": [
+      "shell",
+      "activate",
+      "fuses",
+      "heat",
+      "when",
+      "some",
+      "combat",
+      "human"
+    ]
+  }
+}

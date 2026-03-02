@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0111_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 111, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 111,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Zwischen den Kampfrunden wird die Initiative nicht \ndurch neues Würfeln festgelegt. Die Reihenfolge aus der \nvorigen Runde bleibt bestehen – bis auf Veränderungen \ndes Initiativeergebnisses, die durch Verletzungen, spezielle \nEffekte usw. entstehen. Kampfrunde\nEine Kampfrunde dauert in der Spielwelt von \nShadowrun\netwa 3 Sekunden. In einer Kampfrunde erhält jeder Teil-\nnehmer die Möglichkeit, eine bestimmte Anzahl an Hand-\nlungen durchzuführen. Grundsätzlich darf jeder Charakter \n1 Nebenhandlung und 1 Haupthandlung pro Kampfrunde \ndurchführen. Pro Initiativewürfel erhält ein Charakter 1 \nMan darf Haupt- und Nebenhandlungen mit gewissen \nEinschränkungen austauschen: Eine Haupthandlung kann \nman ganz einfach für eine Nebenhandlung verwenden. Ein Charakter kann auch 4 Nebenhandlungen gegen 1 \nHaupthandlung eintauschen. Charaktere können ihren Zug in einer Runde nie mit \nmehr als 5 Nebenhandlungen beginnen. Falls sie durch be-\nliebige Umstände mehr als diese Zahl an Nebenhandlungen \nerhalten haben, wird diese Zahl auf 5 gesenkt. Die verschiedenen Handlungen werden ab Seite 41 be-\nschrieben. Beispiel: Initia tive\nAn einem anderen schlechten Tag wollen Carson Aims \nund Oda bei einem Drink ihre Differenzen beilegen, \nnachdem sie knapp ihre unglückliche Begegnung mit \nden Eye-Fivers und Trip-J überstanden haben. Weil sie \neine strahlende Zukunft erwarten, werden sie unvor-\nsichtig und ziehen die Aufmerksamkeit einer Gruppe \nOrks der Gang Crimson Crush auf sich. Die Orks sagen \nihnen, dass sie sich verpissen sollen, Oda sagt den \nOrks, dass sie sich verpissen sollen, und schon beginnt \nder Kampf. Zu Beginn würfelt jeder seine Initiative.",
+    "topic": "combat.initiative",
+    "keywords": [
+      "kampfrunde",
+      "nebenhandlungen",
+      "durch",
+      "einer",
+      "jeder",
+      "charakter",
+      "haupthandlung",
+      "orks"
+    ]
+  }
+}

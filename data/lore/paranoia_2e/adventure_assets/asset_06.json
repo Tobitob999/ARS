@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0.0",
+  "category": "adventure_asset",
+  "id": "asset_06",
+  "name": "Order Packet 06",
+  "tags": [
+    "paranoia_2e",
+    "asset",
+    "order_packet"
+  ],
+  "summary": "Reusable mission-facing artifact for scene setup.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "asset_type": "order_packet",
+    "scene_role": "setup",
+    "truthfulness": "reliable",
+    "play_hook": "creates_false_target"
+  }
+}

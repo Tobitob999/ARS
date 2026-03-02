@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_07_tips_for_traitors_p0144_c01",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_07_tips_for_traitors",
+    "chapter"
+  ],
+  "summary": "Rule chunk from Tips for Traitors page 144, chunk 1.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_07_tips_for_traitors",
+    "source_title": "Tips for Traitors",
+    "page": 144,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "PARANOIA Character Sheet \n(Secret StuFF) \nName. Player \nSecret Society Degree \nMutant Power: \nDamage Status Credits Personal Equipment \nPARANOIA Foldout C 2",
+    "topic": "combat.damage",
+    "keywords": [
+      "paranoia",
+      "secret",
+      "character",
+      "sheet",
+      "stuff",
+      "name",
+      "player",
+      "society"
+    ]
+  }
+}

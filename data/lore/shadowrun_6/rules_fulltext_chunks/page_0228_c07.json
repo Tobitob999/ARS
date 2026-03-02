@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0228_c07",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 228, chunk 7.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 228,
+    "chunk_index": 7,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Verschlingen durch Feuer:\n Das Opfer leistet Widerstand \ngegen (Magie + 2)K Schaden und erhält den Status \nBren-\nnend\n, solange es umschlungen ist, sowie noch eine weitere \nKampfrunde lang. Verschlingen durch Luft:\n Das Opfer leistet Widerstand \ngegen (Magie + 2)B Schaden. Wird das Opfer durch den \nSchaden bewusstlos, erleidet es weiter Schaden, wobei \nder überzählige Betäubungsschaden wie üblich zu Kör-\nperlichem Schaden wird. Das Opfer erhält den Status \nErschöpft I\n. Verschlingen durch Wasser:\n Das Opfer leistet Widerstand \ngegen (Magie + 2)B Schaden. Dies ist übler als norma-\nles Ertrinken, denn der Critter kann großen Druck auf \ndas Opfer ausüben. Wird das Opfer durch den Betäu-\nbungsschaden bewusstlos, erleidet es weiter Schaden, \nwobei der Betäubungsschaden wie üblich in Körperlichen \nSchaden überfließt. Das Opfer erhält die Status \n Nass\nund \nErschöpft I\n. Verst ärkter \n Mystischer P anzer\nART\n HANDLUNG\n REICHWEITE\n DAUER\nM\n Auto\n Selbst\n Immer\nDiese Kraft bietet Schutz gegen alle Angriffe auf der Astral-\nebene wie etwa Zauber oder andere Critterkräfte. Ansonsten \nfunktioniert sie genauso wie die Kraft Verstärkter Panzer. Verst ärkter P anzer\nART\n HANDLUNG\n REICHWEITE\n DAUER\nP\n Auto\n Selbst\n Immer\nDiese Kraft ist der Grund, weshalb man sich nicht mit einer \nPistole auf Drachenjagd begibt. Sie erhöht den Verteidi-\ngungswert des Critters um ihre Stufe. Außerdem liefert sie \nautomatische Erfolge bei der Schadenswiderstandsprobe in \nHöhe ihrer Stufe. Und wenn der modifizierte Schadenswert \neines Angriffs kleiner ist als die Stufe des Verstärkten Pan-\nzers, richtet der Angriff überhaupt keinen Schaden an.",
+    "topic": "combat.damage",
+    "keywords": [
+      "schaden",
+      "opfer",
+      "durch",
+      "gegen",
+      "verschlingen",
+      "leistet",
+      "widerstand",
+      "magie"
+    ]
+  }
+}

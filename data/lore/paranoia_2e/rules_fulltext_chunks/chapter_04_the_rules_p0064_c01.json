@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_04_the_rules_p0064_c01",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_04_the_rules",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The Rules page 64, chunk 1.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_04_the_rules",
+    "source_title": "The Rules",
+    "page": 64,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "raw_text": "ene PARANOIA \ncumstances make a character's: attack par ticularly easy or difficult. There are four cir cumstances that are suificiently common to warrant actual rules: \nPoint-Blank Range ‘Most Paranoia combat occurs at fairly short range, as Aipha Complex has few open spaces. However, you obviously have a befter chance ‘of hitting someone if your laser is pressed in- to his bellybutton, When firing at someone at point-blank range, add 4:10 the skill number. Do not apply this modifier when using a force sword, ineuroship or other melee weapon. Wounds When a wounded character makes an at tack, subtract 4 from his skill number \nDodging During a combat round, any character may ‘declare that he is “dodging” This term encom- passes ducking for cover, evasive maneuver ing and wriggling around a lot. A dodging character cannot attack, but when anyone tacks him, subtract from the attackers skill number \n‘Other Modifiers ‘That's it for basic combat. In the optional rules (starting on page 66) we list some other modifiers you can use if they sult you. Damage Every weapon has a_damage number, printed on the Weapon Chart (see Fold-Out, 8), When a weapon hits, look its damage ‘number up (or ask the player whose character attacked — damage numbers are usually listed fon character sheets). Basically, what you do is refer to the Damage Table (also on Fold-OutB). Each column of the table has a number printed at its top. Find the column that’s printed with the attacking ‘weapon's damage number, Then, roll the die. Find the number you \nrolled under the damage number, inthe same.",
+    "topic": "combat.attack",
+    "keywords": [
+      "number",
+      "damage",
+      "character",
+      "when",
+      "weapon",
+      "range",
+      "combat",
+      "skill"
+    ]
+  }
+}

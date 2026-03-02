@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0169_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 169, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 169,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Nachteile\nWenn du dich (absichtlich oder unabsichtlich) ehrlos oder \nunhöflich verhältst, erhältst du einen Würfelpoolmalus von \n-1 auf alle Handlungen, bis du dein Verhalten gesühnt hast. Ähnliche Archetypen: Pflicht, Weisheit\nWolf\nWolf wird auf der ganzen Welt als Jäger und Krieger ge-\nachtet. Er widmet sich hingebungsvoll seinem Rudel. Wolf \ngewinnt jeden Kampf seines Lebens – außer den, in dem er \nstirbt. Wolfszauberer sind ihrer Familie und ihren Freunden \ngegenüber bis in den Tod loyal. Sie zeigen im Kampf niemals \nFeigheit und halten immer ihr Wort. Vorteile\nAllgemein: Edge-Boosts bei Antimagie-Proben kosten 1 \nEdge weniger als normal\nZauberer: Edge-Boosts bei Zaubern, alchemistischen Er-\nzeugnissen und Ritualen der Kategorie Kampf kosten 1 \nEdge weniger als normal\nAdept: 2 Stufen Attributsschub (Geschicklichkeit) gratis\nNachteile\nDir muss eine Probe auf Willenskraft + Charisma (3) gelin-\ngen, um dich aus einem Kampf zurückzuziehen. Ähnliche Archetypen: Jagd, Kameradschaft\nInitia tion\nWenn Erwachte ihr Handwerk ausüben, werden sie nicht \nnur versierter in den grundlegenden Künsten der Magie, \nsondern bauen auch eine tiefere Verbindung zu den Wegen \nder Magie auf, die ihnen zu neuer Machtfülle verhelfen. Diese Weiterentwicklung geschieht nicht von selbst. Sie ist \neher das Ergebnis eines hingebungsvollen Vorgangs, eines \nAkts der Meditation und Konzentration, der neue Stärke \nin dir aufbaut. Dieser Vorgang ist als Initiation bekannt. Die Initiation kann viele verschiedene Formen annehmen. Sie kann das Eintauchen in alte, staubige Texte voraussetzen, \nwie man sie nicht in der Matrix finden kann.",
+    "topic": "combat",
+    "keywords": [
+      "kampf",
+      "edge",
+      "wolf",
+      "nachteile",
+      "dich",
+      "aehnliche",
+      "archetypen",
+      "boosts"
+    ]
+  }
+}

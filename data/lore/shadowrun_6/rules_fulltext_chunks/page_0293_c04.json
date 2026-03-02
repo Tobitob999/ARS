@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0293_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 293, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 293,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Adrenalinpumpe\nDiese verbesserte Drüse wird im Unterleib implantiert und \nmit beiden Nebennieren verbunden. Im Ruhezustand ist \ndie Pumpe lediglich ein Adrenalinreservoir. Wenn sie akti-\nviert wird, kontrahiert ein kleiner Muskelsack und sendet \neinen Stoß konzentrierten Adrenalins in den Blutkreislauf. Körperlicher und emotionaler Stress können die Pumpe un-\nbewusst aktivieren, wenn eine Selbstbeherrschungsprobe (S. 37) misslingt; ansonsten kann man sie mit einer Nebenhand-\nlung aktivieren. Während die Pumpe aktiv ist, ignoriert der \nCharakter Verletzungsmodifikatoren, wird nicht bewusstlos, \nselbst wenn sein Betäubungszustandsmonitor ausgefüllt ist, \nkann sich nicht ausruhen, und die Stufe der Adrenalinpumpe \nwird zu seiner Stärke, Geschicklichkeit, Reaktion und Wil-\nlenskraft hinzuaddiert. Die Pumpe arbeitet für [Stufe × 1W6] \nKampfrunden und kann auch nicht vorzeitig abgeschaltet \nwerden. Wenn die Zeit um ist, bricht der Charakter zusammen \nund erleidet Betäubungsschaden in Höhe der halben Anzahl \nan Kampfrunden (aufgerundet), in denen die Pumpe aktiv war \nSHADOWRUN: SECHSTE EDITION\n292 // Ausrüstung // BODYTECH",
+    "topic": "conditions",
+    "keywords": [
+      "pumpe",
+      "adrenalinpumpe",
+      "aktivieren",
+      "charakter",
+      "stufe",
+      "kampfrunden",
+      "diese",
+      "verbesserte"
+    ]
+  }
+}

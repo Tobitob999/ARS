@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_02_intro_to_gamemastering_p0033_c03",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_02_intro_to_gamemastering",
+    "chapter"
+  ],
+  "summary": "Rule chunk from An Introduction to Gamemastering page 33, chunk 3.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_02_intro_to_gamemastering",
+    "source_title": "An Introduction to Gamemastering",
+    "page": 33,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "Keep these things in mind when determin- ing the actions of The Computer. Sometimes ‘one element of The Computer's programming ‘will supersede another element. For example, ‘one High Programmer might manipulate The Computer into ordering the Troubleshooters + perform a mission which tve basic prosrarn- ming of The Computer does not wish to be \nperformed. On such a mission, the informa- tion and instructions received by the players ‘might be full of sel/-contradictory directions. ‘As you read this book, you'll discover zillions of ways in which various competing, elements of The Computer and its High Pro- srammer priesthood will interact to produce charmingly iresolvable dilemmas for the dedicated Troubleshooters \nWi Communicating with The \nComputer The Computer communicates with citizens in two ways: through its trusted servants, and through its numerous terminals. Normally all requests and reports are chan- reeled through one’s immediate superior However, itis possible to step into a confes: sion booth at any time and speak directly (and secretly) with The Computer. Confession booths can be found everywhere along the corridors of Alpha Complex, and. all work places, cafeterias, and residential units have corveniently-located booths. ‘Speaking to The Computer is always a fun experience, The Computer pleasantly discus ses all requests, and is always eager to hear reports of treasonous behavior or to assist in rooting out traitors, The Computer is ‘exquisitely skilled in analyzing the speaker's statements, facial expressions, and voice for any trace of unhappiness (or duplicity).",
+    "topic": "matrix",
+    "keywords": [
+      "computer",
+      "through",
+      "element",
+      "high",
+      "might",
+      "into",
+      "troubleshooters",
+      "mission"
+    ]
+  }
+}

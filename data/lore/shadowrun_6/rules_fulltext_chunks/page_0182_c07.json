@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0182_c07",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 182, chunk 7.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 182,
+    "chunk_index": 7,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Diese Handlung geht davon aus, \ndass du das Gerät direkt verwendest und nicht einem Gerät \nbefiehlst, ein anderes zu benutzen (z./uni00A0B. einer Drohne be-\nGerä te, AR und VR\nDie Attribute, die du für Proben zur Steuerung eines Geräts \nverwendest, können sich je nachdem, ob du dich während \nder Verwendung in AR oder VR beﬁ ndest, ändern. Wenn \ndu ein Gerät über AR verwendest und das Gerät ein Kör-\nperliches Attribut benötigt, verwendest du für diese Probe \ndein normales Körperliches Attribut. Wenn du dieses Gerät \nüber VR verwendest und das Gerät ein Körperliches Attribut \nbenötigt, ersetze das entsprechende Attribut durch das \npassende Geistige Attribut für diese Probe (Konstitution = \nWillenskraft, Geschicklichkeit = Logik, Reaktion = Intuition, \nStärke = Charisma). SHADOWRUN: SECHSTE EDITION\nMA TRIXHANDLUNGEN // MA TRIX // 181",
+    "topic": "rigger",
+    "keywords": [
+      "geraet",
+      "verwendest",
+      "attribut",
+      "diese",
+      "benoetigt",
+      "probe",
+      "koerperliches",
+      "handlung"
+    ]
+  }
+}

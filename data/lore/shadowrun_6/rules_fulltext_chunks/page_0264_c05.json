@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0264_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 264, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 264,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Das Gerät kann sich per Induktion mit einer Geschwindig-\nkeit von 1 Ladung pro Stunde wieder aufladen. Gasgrana ten\nMit diesen Granaten können Chemikalien oder \nToxine verteilt werden (s. Toxine und Drogen\n, \nS. 124). Die Gaswolke hat einen Anfangsra-\ndius von 5 Metern und hält sich für etwa 10 \nKampfrunden. Näheres dazu findest du in \nden Regeln zu Gasangriffen auf Seite 120. Rauch-/\nIR-Rauchgrana te\nÄhnlich wie eine Gasgranate gibt eine Rauch-\ngranate eine Wolke ab, die jedoch aus Rauch be-\nsteht statt aus giftigem Gas. Die Wolke schränkt \ndie Sicht ein und verursacht den Status \nGeblendet \nI\n bei jedem, der etwas durch die Wolke hindurch \nI\n bei jedem, der etwas durch die Wolke hindurch \nI\ntun will (etwa feuern), und \n Geblendet II\n bei jedem, \nGeblendet II\n bei jedem, \nGeblendet II\nder sich innerhalb der Wolke befindet. Rauchgranaten \nschränken normale Sicht (inklusive Restlichtverstärkung) \nein, IR-Rauchgranaten auch Infrarotsicht. Die Wolke hat \neinen Anfangsradius von 5 Metern und hält sich für etwa \n10 Kampfrunden. Näheres dazu findest du in den Regeln \nzu Gasangriffen auf Seite 120. Splittergrana te\nDie klassische Splittergranate verteilt tödliche Schrapnell-\nsplitter über einen weiten Bereich. Sprenggrana te\nDiese Granaten verursachen eine heftige Explosion, vor \nallem in geringer Entfernung. Raketen und Lenkraketen\nRaketen sind Projektile mit Stabilisierungsflossen, einem \nAntriebssystem und einem Sprengkopf. Lenkraketen sind \nRaketen mit internen Zielführungssystemen, wodurch \nsie teurer sind als die üblichen „dummen“ Raketen, \nda sie während des Fluges selbstständig ihre Flugbahn \nändern können (was sich in ihrem Angriffswert wider-\nspiegelt).",
+    "topic": "combat.attack",
+    "keywords": [
+      "wolke",
+      "sich",
+      "geblendet",
+      "jedem",
+      "raketen",
+      "einen",
+      "etwa",
+      "rauch"
+    ]
+  }
+}

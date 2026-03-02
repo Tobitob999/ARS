@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0009_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 9, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 9,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "– Eine Person, die auf illegale Weise mit der \nMatrix interagiert, entweder durch die Verwendung eines \nCyberdecks (als Decker) oder kraft ihres Verstandes (als \nTechnomancer). • \n Erweiterte Edge-Regeln. Im Vergleich zu vorheri-\ngen Editionen erhältst du mehr Edge und setzt es \nhäufiger ein. Auch einige andere Funktionen wer-\nden nun über Edge abgebildet. Zu wissen, wie man \nEdge erhält und ausgibt, ist ein wichtiger Teil deiner \nTaktiken als Runner. • \n Vereinfachte Waffenwerte. Durchschlagskraft und \nRückstoßkompensation wurden zu einem abstrakte-\nren Wert, dem Angriffswert, zusammengefasst. Der \nAngriffswert wird eingesetzt, um Edge zu erhalten. • \n Panzerung geht nicht in Schadenswiderstandsproben \nein. Panzerung erhöht den Verteidigungswert eines \nCharakters, was dafür sorgen kann, dass du Edge \nerhältst oder verhinderst, dass dein Gegner Edge \nerhält. Bei Schadenswiderstandsproben kommt \nPanzerung jedoch nicht zum Einsatz. Diese Proben \nwerden ausschließlich mit Konstitution abgelegt. • \n Keine Limits mehr. Limits waren ein Balancing-Me-\nchanismus und Teil eines komplizierteren Systems, \naber da das aktuelle System mit weniger Variablen \nauskommt (und sich schneller spielen lassen soll), \nkam den Limits keine wichtige Bedeutung mehr zu, \nsodass sie wegfallen konnten. • \n Vereinfachtes Handlungssystem. Es gibt zwei grund-\nsätzliche Arten von Handlungen: Nebenhandlungen \nund Haupthandlungen. Im Zusammenspiel mit ei-\nnem vereinfachten Initiativesystem liegt der Fokus \ndarauf, den Kampf möglichst flüssig zu gestalten \nund den Unterschied zwischen schnellen Charak-\nteren und allen anderen teilweise auszugleichen. • \n Zauber haben keine Kraftstufe mehr.",
+    "topic": "combat",
+    "keywords": [
+      "edge",
+      "mehr",
+      "eines",
+      "panzerung",
+      "keine",
+      "limits",
+      "erhaeltst",
+      "teil"
+    ]
+  }
+}

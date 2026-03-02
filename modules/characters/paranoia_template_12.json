@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "id": "paranoia_template_12",
+  "name": "Template-R-12",
+  "compatible_rulesets": [
+    "paranoia_2e"
+  ],
+  "archetype": "Checkpoint Scribe",
+  "background": "Service Group: Research & Design | Secret Society: Frankenstein Destroyers | Mutation: Telekinesis",
+  "characteristics": {
+    "STR": 16,
+    "AGI": 16,
+    "DEX": 15,
+    "END": 13,
+    "MOX": 14,
+    "CHU": 16,
+    "MEC": 15,
+    "POW": 7
+  },
+  "derived_stats": {
+    "HP": "state_track",
+    "Clone Number": 1,
+    "Treason Points": 0
+  },
+  "skills": {
+    "Laser Weapons": 7,
+    "Bootlicking": 10,
+    "Mechanical Engineering": 6,
+    "Data Analysis": 8,
+    "Unarmed": 10
+  },
+  "equipment": [
+    "red_reflec_armor",
+    "com_unit_i",
+    "laser_pistol",
+    "multicorder"
+  ],
+  "notes": "Batch-generated playable template."
+}

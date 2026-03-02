@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0303_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 303, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 303,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Mikrodrohnen\nGMC Micromachine\n(Bodendrohne)\nEin sehr hochentwickeltes Kinderspielzeug mit austausch-\nbarem Rumpf und übergroßen Rädern, mit denen sich die \nDrohne selbst aufrichten kann. Winzig, harmlos und das \nperfekte Spielzeug, um damit auf kleinen Rennstrecken \nzu fahren. Shia w ase Kanmushi\n(Läuferdrohne)\nDiese vierbeinige Krabbeldrohne sieht auf den ersten Blick \nwie ein normales Insekt aus. Dank ihrer mit Geckospitzen \nausgestatteten Extremitäten und ihres geringen Gewichts \neignet sie sich hervorragend, um in gesicherte Bereiche \neinzudringen. Sie hat eine verringerte Reichweite, um Trans-\nmissionen zu minimieren, aber das macht sie durch ihr \nüberdurchschnittlich gutes Pilotsystem wieder wett. Sie ist \nsehr empfindlich; ein Finger oder ein kurzer Puls aus einem \nRFID-Löscher reichen, um sie außer Gefecht zu setzen. Sik orsky-Bell \nMicroskimmer XXS\n(Rotordrohne)\nDiese Drohne, die etwa die Größe und Form eines Flaschen-\ndeckels hat, fliegt mit schwachen Hoverjets. Ihre etwas \ngrößeren Schwestern, die frisbeegroße Miniskimmer und \ndie mülltonnendeckelgroße Skimmer, sind in einem inter-\nessanten Stapeldesign gebaut, das es ermöglicht, alle drei \nin einer einzigen Drohnenhalterung unterzubringen, in der \ndie größte der drei Platz hat. MCT Gna t\n(Flugzeugdrohne)\nDie Gnat ist winzig, aber ohne ein Mikroskop oder Sichtver-\ngrößerung nicht von einem Insekt zu unterscheiden. Sie wird \noft in MCTs Nullzonen eingesetzt, wo sich ein Schwarm \nvon ihnen mit DMSO/Narcoject-Mini-Slap-Patches an den \nFüßen massenhaft auf eine Zielperson stürzt.",
+    "topic": "rigger",
+    "keywords": [
+      "sich",
+      "einem",
+      "sehr",
+      "drohne",
+      "winzig",
+      "diese",
+      "insekt",
+      "drei"
+    ]
+  }
+}

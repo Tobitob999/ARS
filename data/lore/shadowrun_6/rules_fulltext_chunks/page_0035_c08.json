@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0035_c08",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 35, chunk 8.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 35,
+    "chunk_index": 8,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "SHADOWRUN: SECHSTE EDITION\n34 // Das Leben in der Sechsten Wel t // WIE ES WEITERGEHT",
+    "topic": "general",
+    "keywords": [
+      "shadowrun",
+      "sechste",
+      "edition",
+      "leben",
+      "weitergeht"
+    ]
+  }
+}

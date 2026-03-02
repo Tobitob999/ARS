@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0115_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 115, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 115,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Schaden zufügen:\n Der Angreifer kann versuchen, dem \nVerteidiger Schaden zuzufügen, indem er eine Verglei-\nchende Probe auf Nahkampf + Stärke gegen Reaktion \n+ Stärke ablegt. Der Verteidiger hat den Würfelpool-\nmalus von -4, weil er festgehalten wird. Gelingt der \nAngriff, verursacht der Angreifer den Schaden eines \nwaffenlosen Angriffs (2B) plus Nettoerfolge. Gegner zu Boden werfen:\n Der Angreifer kann versuchen, \nden Gegner zu Boden zu werfen. Das geschieht durch \neine Vergleichende Probe auf Nahkampf + Stärke gegen \nKonstitution + Stärke. Der Verteidiger hat hier nicht den \nWürfelpoolmalus von -4, denn er wird ja nicht mehr \nfestgehalten. Gelingt der Angriff, wird der Verteidiger zu \nBoden geworfen, erhält den Status \nLiegend\n und erleidet \nLiegend\n und erleidet \nLiegend\n(Konstitution des Angreifers + Nettoerfolge)B Schaden, \ndem er mit Konstitution widersteht. Verteidiger\nSich losreißen:\n Der Verteidiger versucht, sich aus dem \nGriff zu befreien. Dies ist eine Vergleichende Probe auf \nNahkampf + Stärke, der die waffenlosen Angriffswerte \nverwendet, und es gilt nicht der Würfelpoolmalus von \n-4. Gelingt die Probe, verursacht der Verteidiger keinen \nSchaden, befreit sich aber aus dem Griff. Mehrf achangriffe\nManchmal gibt es Zeiten, in denen du mehr als einen \nGegner auf einmal angreifen willst. Bei Angriffen gegen \nmehrere Gegner musst du deinen Würfelpool für den \nAngriff durch die Anzahl der Angriffe dividieren und \ndie Würfel dabei so gleichmäßig wie möglich verteilen.",
+    "topic": "combat.attack",
+    "keywords": [
+      "verteidiger",
+      "schaden",
+      "staerke",
+      "probe",
+      "gegner",
+      "angreifer",
+      "nahkampf",
+      "gegen"
+    ]
+  }
+}

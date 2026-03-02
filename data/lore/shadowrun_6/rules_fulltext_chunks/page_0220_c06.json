@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0220_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 220, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 220,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "V ampir\nK\n G\n R\n S\n W\n L\n I\n C\n M\n ESS\n3\n 2\n 4\n 3\n 3\n 2\n 3\n 4\n *\n 2W6\nInitiative:\n 7 + 2W6\nHandlungen:\n 1 Haupt, 3 Neben\nZustandsmonitor:\n 10/10\nVerteidigungswert:\n 3 (+ getragene Panzerung)\nBewegung:\n 15/20/+2\nFertigkeiten:\n Athletik 7, Heimlichkeit 7, Nahkampf 7, Wahr-\nnehmung 8\nKräfte:\n Bewusstsein, Dualwesen, Essenzentzug, Gesteigerte \nSinne (Gehör, Geruch, Infrarotsicht), Immunität (Alter, \nPathogene, Toxine), Infektion, Natürliche Waffe, Nebelgestalt, \nRegeneration\nSchwächen:\n Allergie (Holz, Schwer), Allergie (Sonnenlicht, \nSchwer), Erzwungener Schlaf (Luftmangel, [Essenz] Minuten), \n Essenzverlust, Nahrungsbedarf (metamenschliches Blut)\nAngriff:\n Biss: Schaden 3K, Angriffswerte 7/–/–/–/–\nAnmerkungen:\n Einige Vampire können Adepten, Zauberer \noder Magieradepten sein. Einen Magiewert haben sie jedoch \nimmer, ob sie magisch aktiv sind oder nicht. * Der Magie-Anfangswert ist gleich 6 oder der Essenz des Vam-\npirs (der niedrigere der beiden Werte). Vampire können nur \nBlut verzehren und erleiden innerhalb einer Minute den Status \nÜbelkeit\n (S. 55), wenn sie etwas anderes zu sich nehmen. Übelkeit\n (S. 55), wenn sie etwas anderes zu sich nehmen. Übelkeit\nVampire haben einen geringeren Auftrieb als nicht inﬁzierte \nMetamenschen und erleiden einen Würfelpoolmalus von \n-4 auf alle Proben, die mit Schwimmen zusammenhängen. Schaden, den sie aufgrund ihrer Allergie gegen Sonnenlicht \nerleiden, kann nicht mit ihrer Regenerationskraft geheilt \nwerden, auch wenn sie der Schadensursache nicht länger \nausgesetzt sind. Normale und magische Heilung hingegen \nsind möglich.",
+    "topic": "combat.initiative",
+    "keywords": [
+      "allergie",
+      "vampire",
+      "einen",
+      "erleiden",
+      "uebelkeit",
+      "schwer",
+      "sonnenlicht",
+      "essenz"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0175_c08",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 175, chunk 8.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 175,
+    "chunk_index": 8,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Praktische Grundlagen\nSo viel zur Landschaft. Jetzt sehen wir uns an, was sich \ndarin tummelt. Gerä te\nDie meisten Leute erreichen die Matrix mit einem Gerät. Heutzutage hat jeder ein \nKommlink\n: ein Gerät, das in die \nHosentasche passt und mit der Matrix kommunizieren \nkann. Einige sind in Brillen integriert oder sogar als Body-\ntech implantiert, andere haben nach wie vor das vertraute \nAussehen eines Bildschirms, den man in der Hand hält. Sie \nwerden für den alltäglichen Zugang benutzt, meistens für \nGespräche und Matrixsuchen und als einfache Firewall \nfür Geräte im PAN des Users. Sie bieten auch integrierte \nKameras, Musik- und Videoplayer und ähnliche Optio-\nnen. Kommlinks haben meistens ein ASIST-Modul (oder \nSim-Modul\n), das die Benutzung von AR und VR mit kaltem \nSim erlaubt. Jeder Clown mit einem Kommlink kann die grund-\nlegenden Funktionen der Matrix benutzen, aber wenn \nman sie wirklich beherrschen will, braucht man ein \nCyber-\ndeck\n. Cyberdecks oder einfach Decks haben im letzten \nJahr eine Designveränderung erlebt, sodass sie zu kleinen \nGeräten geworden sind, die man wie einen Handschuh \ntragen kann. Die älteren Modelle haben noch eine Tasta-\ntur, aber diese manuelle Funktionalität ist zugunsten von \nAR-Interfaces und vollständigem Eintauchen in die VR \naufgegeben worden. Regeltechnisch besteht der Unterschied zwischen einem \nKommlink und einem Cyberdeck darin, dass ein Cyberdeck \ndie Matrixattribute hat, die man zum Hacken braucht (s. Personas und Attribute\n). Personas und A ttribute\nPersonas sind die „Bewohner“ der Matrix.",
+    "topic": "matrix",
+    "keywords": [
+      "matrix",
+      "einem",
+      "kommlink",
+      "personas",
+      "darin",
+      "geraet",
+      "jeder",
+      "meistens"
+    ]
+  }
+}

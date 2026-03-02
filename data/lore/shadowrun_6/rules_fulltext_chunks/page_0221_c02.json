@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0221_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 221, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 221,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Übliche Fertigkeiten: Astral 9, Athletik 7 (Fliegen +2), Be-\nschwören 7, Hexerei 9, Nahkampf 7, Wahrnehmung 8\nÜbliche Kräfte: Bewusstsein, Dualwesen, Elementarer Angriff \n(meistens Feuer), Gedankensprache, Gesteigerte Sinne \n(Breitbandhören, Geruch, Infrarotsicht, Restlichtverstär-\nkung), Natürliche Waffe, Verstärkter Panzer (= Magie-\nattribut), Verstärkter Mystischer Panzer (= Magieattribut)\nSpezielle Kräfte: Ätzender Speichel, Einfluss, Gift, Gift-\nhauch, Grauen, Tierbeherrschung, Zwang\nAnmerkung: Alle Drachen haben ein Magieattribut und \nbeherrschen mehrere Zauber. Gefiederte Schlange\nGefiederte Schlangen spielen eine wichtige Rolle in den \nMythen ihrer Heimat Süd- und Mittelamerika, aber auch \nin Teilen Afrikas. Wie der Name schon andeutet, sind sie \nlang und schlangenförmig, durchschnittlich etwa 20 Meter \nlang, und sie haben nur zwei Paar Gliedmaßen: ihre Flügel \nund ein Paar Beine. Der Bauch ist mit Schuppen bedeckt, \nder Rest des Körpers jedoch mit Federn. Diese Konturfe-\ndern weisen, ebenso wie die auffälligen Halsfedern und die \nFlügel, alle Farben des Regenbogens auf. Die Flügel haben \neine Spannweite von 15 bis 18 Metern. Die Beine enden \nin Pfoten mit fünf Fingern, von denen einer ein opponier-\nbarer Daumen ist, was dem Drachen eine ausreichende \nmanuelle Geschicklichkeit verleiht. Gefiederte Schlangen \nhaben häufig einen Schwanzstachel oder Fangzähne mit \neinem starken Gift. Östlicher Drache\nÖstliche Drachen sind in Ostasien heimisch. Sie messen \netwa 30 Meter von der Nase bis zum Schwanz und haben \neine Schulterhöhe von 2,5 Metern. Sie sind schlangenförmig \nund oft sehr farbenprächtig.",
+    "topic": "combat.attack",
+    "keywords": [
+      "gift",
+      "drachen",
+      "gefiederte",
+      "fluegel",
+      "uebliche",
+      "kraefte",
+      "verstaerkter",
+      "panzer"
+    ]
+  }
+}

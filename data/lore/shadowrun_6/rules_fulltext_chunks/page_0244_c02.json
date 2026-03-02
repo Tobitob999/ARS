@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0244_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 244, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 244,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Wenn der Schwellenwert \nerreicht wird, findet der Scanner die entsprechenden Ge-\ngenstände/Implantate und zeichnet ihre grobe Lage und Art \nauf; Nettoerfolge liefern weitere Einzelheiten (Funktion, \nModell, Kategorie usw.). Belohnungen \nfür Runs\nSo kennt man sie, diese Runner – kaum sind sie mit einem \nJob fertig, wollen sie dafür bezahlt werden. Als wären sie \nganz normale Angestellte oder so was. Echt anspruchsvoll! Tja, aber so sind nun mal die Erwartungen, deshalb muss der \nSpielleiter – als Vertreter von Mr Johnson – den Runnern die \nAufwandsentschädigung zukommen lassen, die sie verlangen. Die Frage ist nur: Wie viel soll es sein? Belohnungen gibt es grundsätzlich in zwei Formen (von \nVeränderungen der Fahndungsstufe, der Reputation und der \nConnections einmal abgesehen, die wir weiter oben diskutiert \nhaben): Karma und Geld. Karma\nKarma sollte am Ende jeder Spielsitzung verteilt werden. Doch \nwie groß soll die Belohnung sein? Die wichtigste Zahl beim Karma, die man sich merken muss, \nist die 5. Das ist der Multiplikator pro Stufe eines Attributs \noder einer Fertigkeit, das ist der Preis für Spezialisierungen \nund Expertise, für neue Zauber und Komplexe Formen. Jedes \nMal, wenn ein Charakter 5 Karma verdient, bekommt er die \nChance, seinen Charakter zu verbessern oder einen Schritt zur \nnächsten Attributs- oder Fertigkeitsstufe zu machen. Deshalb \nkann sich der Spielleiter am Ende einer Spielsitzung eine einfache \nFrage stellen: Wie viel Charakterverbesserung haben sich die \nSpielercharaktere in dieser Spielsitzung verdient? Sind sie nur mit Mühe vorangekommen? Dann dürfte viel-\nleicht eine Belohnung von 1 oder 2 Karma für diese Spielsitzung \nangemessen sein.",
+    "topic": "cyberware",
+    "keywords": [
+      "karma",
+      "spielsitzung",
+      "viel",
+      "sein",
+      "sich",
+      "belohnungen",
+      "diese",
+      "deshalb"
+    ]
+  }
+}

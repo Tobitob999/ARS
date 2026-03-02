@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0055_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 55, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 55,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Es kann neuer Schaden ver-\nursacht werden, aber eventuelle anhaltende Effekte kommen \nwegen dieses Status nicht zum Tragen. Ert aubt I, II, III\nDu warst zu nahe an einem lauten, ohrenbetäubenden \nKnall, oder jemand hat dir die Ohren mit watteähnlichem \nMana verstopft – auf jeden Fall kommen nicht genug \nSchallwellen durch, um deinem Gehirn zu verraten, was \nsie bedeuten. Auf den ersten beiden Stufen dieses Status \nerhält der Charakter jeweils einen Würfelpoolmalus von \n-3 auf alle Proben, bei denen Hören eine Rolle spielt. Auf \nder dritten Stufe misslingt jede Probe, bei der Hören eine \nGeblendet I, II, III\nGrelles Licht, spezielle Chemikalien oder die reine Macht \nder Magie – es gibt viele Möglichkeiten, einem Shadowrun-\nner das Sehen zu erschweren oder unmöglich zu machen. Auf den ersten beiden Stufen dieses Status erhält der Cha-\nrakter jeweils einen Würfelpoolmalus von -3 auf alle Pro-\nben, bei denen Sehen eine Rolle spielt. Auf der dritten \nStufe misslingt jede Probe, bei der Sehen eine Rolle spielt, \nautomatisch. Gebrutzel t\nEin heftiger Stromstoß hat dich getroffen und deine \nNervenbahnen zerrüttet. Auch deine Muskeln arbeiten \nnicht mehr richtig. Der Charakter erleidet einen Malus \nvon -2 auf sein Initiativeergebnis, ist außerstande zu \nsprinten und erhält einen Würfelpoolmalus von -1 auf \nalle Handlungen. Geräuschlos #\nDer Charakter gibt so gut wie keine Geräusche von sich. Die Zahl hinter dem Statusnamen gibt den Schwellenwert \nan, den ein Beobachter bei einer Wahrnehmungsprobe \nerreichen muss, um einen Charakter in diesem Status zu \nhören. Mikrofone und andere anorganische Methoden \nakustischer Wahrnehmung können jemanden in diesem \nStatus ganz normal hören.",
+    "topic": "combat.damage",
+    "keywords": [
+      "status",
+      "einen",
+      "charakter",
+      "hoeren",
+      "dieses",
+      "erhaelt",
+      "wuerfelpoolmalus",
+      "alle"
+    ]
+  }
+}

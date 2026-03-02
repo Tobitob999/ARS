@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0155_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 155, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 155,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Sonst trifft der Zauber das nächste passende Ziel inner-\nhalb des Blickfelds. Die Reichweite des Zaubers ist auf \n[Wirksamkeit × Magie] Meter begrenzt. Flächenzauber:\n Das Erzeugnis ist das Zentrum des Wir-\nkungsbereichs des Zaubers. Die Kugel hat einen Radius \nvon zwei Metern plus zwei Meter für jede Anpassung \nFläche Vergrößern. Die Ziele des Zaubers widerstehen wie üblich. Aufrecht-\nerhaltene Zauber wirken nach dem Auslösen für [verblei-\nbende Wirksamkeit] Minuten. Fokusherstellung\nEin Teil des Verzauberns ist die Kunst, die fundamentale \nMacht anzuzapfen, die latent in natürlichen Materialien \nvorhanden ist, und Gegenstände mit Magie zu erfüllen, um \ndie Fähigkeiten eines Zauberers zu unterstützen. Der Vorgang \ndes Herstellens eines magischen Fokus ist als Fokusherstel-\nlung bekannt. Weitere Informationen über Foki findest du \nauf Seite 156. Anders als ein alchemistisches Erzeugnis ist \nein Fokus sehr mächtig, mehrfach einsetzbar und eng an \nseinen Besitzer gebunden. Ein Fokus ist ein Gegenstand, der \nmit einer komplexen, permanenten Verzauberung belegt ist, \ndie langsam aufgebaut und mit Karma vollendet wird. Alle \nFoki werden auf die gleiche Weise hergestellt: Zuerst benö-\ntigt man die Fokusformel, dann wird ein passendes Telesma \n(der Gegenstand, der verzaubert werden soll) ausgewählt. Danach wird die eigentliche Verzauberung gewirkt, und zum \nAbschluss wird der Fokus mit Karma gebunden. Der Prozess läuft in den folgenden sechs Schritten ab:\nSchritt 1:\nFokusformel ausw ählen\nDas Herstellen eines Fokus setzt ein komplexes arkanes \nRezept voraus: die Fokusformel.",
+    "topic": "magic.spells",
+    "keywords": [
+      "fokus",
+      "zaubers",
+      "eines",
+      "wirksamkeit",
+      "magie",
+      "meter",
+      "erzeugnis",
+      "zwei"
+    ]
+  }
+}

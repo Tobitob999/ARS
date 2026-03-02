@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0146_c07",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 146, chunk 7.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 146,
+    "chunk_index": 7,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Die Teil-\nnehmer müssen das Ritual nicht selbst gelernt haben; \nsie müssen nur zur Teilnahme bereit sein. Alle Wirkun-\ngen des Rituals tragen die astrale Signatur (S. 161) des \nRitualleiters. Jeder Teilnehmer, der nicht der Tradition \ndes Ritualleiters angehört, erhält bei allen Handlungen \nwährend des Rituals einen Würfelpoolmalus von -2. Wenn \ndu ein Ritual alleine durchführst, bist du automatisch \nder Ritualleiter. Schritt 2:\nRitual ausw ählen\nDer Ritualleiter wählt das Ritual aus, das durchgeführt \nwerden soll. Wenn nötig, wählt er auch den Zauber aus, der \nzum Teil des Rituals wird. Wenn das Ritual die Kenntnis \neines Zaubers voraussetzt, muss nur der Ritualleiter diesen \nSHADOWRUN: SECHSTE EDITION\nANTIMAGIE // MAGIE // 145",
+    "topic": "magic.ritual",
+    "keywords": [
+      "ritual",
+      "teil",
+      "waehlt",
+      "nehmer",
+      "selbst",
+      "gelernt",
+      "bereit",
+      "sein"
+    ]
+  }
+}

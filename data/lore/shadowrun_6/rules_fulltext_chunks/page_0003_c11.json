@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0003_c11",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 3, chunk 11.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 3,
+    "chunk_index": 11,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "96\nElektronik\n ............................................. 96\nExotische Waffen\n ................................. 97\nFeuerwaffen\n ......................................... 97\nHeimlichkeit\n ......................................... 97\nHexerei\n ................................................. 97\nMechanik\n ............................................. 97\nNahkampf\n ............................................. 98\nNatur\n .................................................... 98\nSteuern\n ................................................ 98\nTasken\n .................................................. 98\nÜberreden\n ............................................ 98\nVerzaubern\n ........................................... 99\nWahrnehmung\n ..................................... 99\nWissens fertigkeiten\n ................. 100\nSprach fertigkeiten\n ................... 100\nDer Weg nach oben\n ........... 102\nKAMPF\n ............................................ 107\nKampfablauf\n .......................... 107\nSchritt 1: Schnappt euch die Würfel\n ..... 107\nSchritt 2: Verteilt Edge\n .......................... 108\nSchritt 3: Würfelt und gebt Edge aus\n .... 108\nSHADOWRUN: SECHSTE EDITION\n2 // INHAL T //",
+    "topic": "combat",
+    "keywords": [
+      "schritt",
+      "fertigkeiten",
+      "edge",
+      "elektronik",
+      "exotische",
+      "waffen",
+      "feuerwaffen",
+      "heimlichkeit"
+    ]
+  }
+}

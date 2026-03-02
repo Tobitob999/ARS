@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0272_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 272, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 272,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Alle Wahrnehmungsproben, um eine Unterhaltung inner-\nhalb von [Stufe] Metern von einem White-Noise-Generator \nmitzuhören, erhalten einen Würfelpoolmalus in Höhe der \nStufe des Generators. Werden mehrere Generatoren einge-\nsetzt, zählt nur die höchste Stufe. In einer lauten Umgebung \n(etwa einem Nachtclub oder bei einer Schießerei) ist ein \nWhite-Noise-Generator überflüssig. White-Noise-Generatoren gibt es in Stufen von 1 bis 6. WiFi-Vorteil: Das Gerät scannt lokale Geräusche und \nfiltert sie heraus, wodurch sich seine effektive Reichweite \nauf das Dreifache erhöht. Softw are\nSoftware kann per Matrixdownload oder (seltener) auf ei-\nnem Datenchip in einem physischen Laden gekauft werden. Datensofts, Kartensofts, Shopsofts und Lehrsofts können \nleicht auf einem Kommlink, Datenterminal oder Cyberdeck \ngespeichert und genutzt werden. Autosofts\nProgramme, die zum Betrieb von Drohnen verwendet wer-\nden. Mehr dazu auf Seite 201. Da tensofts\nDatensofts sind vergleichbar mit den Abteilungen von Mi-\nni-Bibliotheken. Jede Datensoft enthält eine Datenbank zu \neinem bestimmten Thema (will heißen: einer bestimmten \nWissensfertigkeit). Eine Datensoft versorgt den Benutzer mit \neiner etwas eingeschränkten Version einer Wissensfertigkeit \n– Beispiel: Da „Gangs in Seattle“ eine Wissensfertigkeit \nist, kann eine Datensoft Informationen über die Ancients \noder die Halloweeners enthalten, aber sie kann sich auch \nauf Gangs in Puyallup konzentrieren. Eine Datensoft wird \ngenauso eingesetzt wie eine Wissensfertigkeit (S. 100). Kartensofts\nKartensofts sind heruntergeladene Daten, die detaillierte In-\nformationen über ein bestimmtes Gebiet von etwa 5.000 Qua-\ndratkilometern enthalten.",
+    "topic": "advancement",
+    "keywords": [
+      "einem",
+      "einer",
+      "datensoft",
+      "wissensfertigkeit",
+      "stufe",
+      "white",
+      "noise",
+      "kartensofts"
+    ]
+  }
+}

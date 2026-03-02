@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0.0",
+  "id": "paranoia_cell_01",
+  "name": "Paranoia Cell 01",
+  "members": [
+    "paranoia_team_leader",
+    "paranoia_loyal_enforcer",
+    "paranoia_tech_specialist",
+    "paranoia_insec_observer"
+  ],
+  "compatible_rulesets": [
+    "paranoia_2e"
+  ]
+}

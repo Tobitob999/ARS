@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0228_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 228, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 228,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Verst ärkter \n Mystischer P anzer\nART HANDLUNG REICHWEITE DAUER\nM Auto Selbst Immer\nDiese Kraft bietet Schutz gegen alle Angriffe auf der Astral-\nebene wie etwa Zauber oder andere Critterkräfte. Ansonsten \nfunktioniert sie genauso wie die Kraft Verstärkter Panzer. Verst ärkter P anzer\nART HANDLUNG REICHWEITE DAUER\nP Auto Selbst Immer\nDiese Kraft ist der Grund, weshalb man sich nicht mit einer \nPistole auf Drachenjagd begibt. Sie erhöht den Verteidi-\ngungswert des Critters um ihre Stufe. Außerdem liefert sie \nautomatische Erfolge bei der Schadenswiderstandsprobe in \nHöhe ihrer Stufe. Und wenn der modifizierte Schadenswert \neines Angriffs kleiner ist als die Stufe des Verstärkten Pan-\nzers, richtet der Angriff überhaupt keinen Schaden an. Der \nCritter muss in dem Fall keine Schadenswiderstandsprobe \nablegen, da der Angriff wirkungslos von seinem Panzer \nabprallt. Dem Angreifer steht es frei, seinem Unmut verbal \nLuft zu machen. Unf all\nART\n HANDLUNG\n REICHWEITE\n DAUER\nP\n H\n BF\n Sofort\nCritter mit dieser Kraft können scheinbar normale Unfälle \nverursachen. Die genaue Art des Unfalls bleibt der Spiel-\nleiterin überlassen und hängt davon ab, was das Opfer \ngerade tut und was um es herum vorgeht. Diese Kraft ist \nvon Haus aus nicht unbedingt gefährlich, kann aber je nach \nUmständen und Umgebung gefährliche Folgen haben. Wenn \neinem beispielsweise vor einem heranrasenden Sattelzug ein \nReifen platzt und der eigene Wagen ins Schleudern gerät, \nkönnte sich das durchaus gesundheitsschädlich auswirken. Wenn ein Critter diese Kraft auf jemanden anwendet, \nwird eine Vergleichende Probe auf Willenskraft + Magie des \nCritters gegen Reaktion + Charisma des Opfers abgelegt.",
+    "topic": "combat.attack",
+    "keywords": [
+      "kraft",
+      "diese",
+      "handlung",
+      "reichweite",
+      "dauer",
+      "stufe",
+      "critter",
+      "verst"
+    ]
+  }
+}

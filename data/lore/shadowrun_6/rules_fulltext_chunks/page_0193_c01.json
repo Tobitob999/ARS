@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0193_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 193, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 193,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Beispiel: \nRegistrieren eines Sprites\nRespec mag den Stil im Quellcode ihres Stör-Sprites und \nbeschließt, es zu registrieren, damit es nicht im Äther der \nMatrix verschwindet. Sie reserviert drei Stunden Freizeit \ndafür und kann währenddessen nicht anderes tun als zu \nversuchen, die Matrix dazu zu bringen, das Sprite als \nTeil von sich zu akzeptieren. Sie würfelt mit 12 Würfeln \nfür Tasken + Resonanz, das Sprite mit 6 Würfeln für \nseine Spritestufe × 2. Respec erzielt 1 Nettoerfolg, was \nausreicht, dass die Matrix das Stör-Sprite akzeptiert, aber \ndas Sprite erzielt 4 Erfolge, wodurch Respec 8 Punkten \nSchwundschaden widerstehen muss. Respec widersteht \nmit Willenskraft + Logik (11 Würfeln), erzielt 4 Erfolge \nund erleidet 4 Kästchen Betäubungsschaden wegen der \ngroßen Anstrengung. Sie zieht sich aus der Matrix zurück \nund öffnet eine Flasche Wein, um sich eine oder zwei \nStunden lang zu entspannen und zu versuchen, von ein \nbisschen Betäubungsschaden zu genesen. Aufgaben für \nregistrierte Sprites\nRegistrierte Sprites können die folgenden Aufgaben aus-\nführen:\nAufgaben für kompilierte Sprites: Ein registriertes Sprite \nkann alle Aufgaben eines unregistrierten Sprites ebenfalls \nausführen. Fernaufgabe: Wenn du ein registriertes Sprite zu einer Fern-\naufgabe ausschickst, verschwindet es danach nicht in der \nResonanz. Es kehrt zu dir zurück. Komplexe Form aufrechterhalten: Ein registriertes Sprite \nkann für dich eine Komplexe Form aufrechterhalten \nund den Würfelpoolmalus dafür auf sich nehmen. Je-\nde Aufgabe, die du dafür benutzt, lässt das Sprite eine \nKomplexe Form für bis zu [Spritestufe] Kampfrunden \naufrechterhalten.",
+    "topic": "advancement",
+    "keywords": [
+      "sprite",
+      "respec",
+      "matrix",
+      "sich",
+      "aufgaben",
+      "dafuer",
+      "wuerfeln",
+      "erzielt"
+    ]
+  }
+}

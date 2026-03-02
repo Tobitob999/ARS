@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_03_world_of_paranoia_p0048_c04",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_03_world_of_paranoia",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The World of Paranoia page 48, chunk 4.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_03_world_of_paranoia",
+    "source_title": "The World of Paranoia",
+    "page": 48,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "‘Advancement: Members might gain prestige inthe eyes of ather Mystics by discovering new ‘ways to achieve enlightenment — new drugs, ew transcendental disciplines, unusually holy ‘or wise men, insightful Mystic texts like Win- fing Through Intimidation or Jonathan Liv- ingston Seagull, ec. They can also advance by surviving potentially deadly experiences and living to contemplate them, and by turn= ing non-Mystics on to their own Inner Light. Special Rules: The Mystics are the direct descendants of the riginal Old Reckoning Californians, and as such, many of their sacred \n‘texts contain casual references to Old Reckon- \ning cultures. For this reason, Mystics may learn \nthe treasonous Old Reckoning Cultures skill \n(see page 60). ‘A Typical Mystic Conversation Mystic: Hey, man, | grok your Like, totally cosmic. Pro Tech \nBeliefs: Encouraging research and the develop- ment of new technologies will enable Man to return to the Eayth’s surface and to the stars beyond. All problems can be solved with abet ter gadget. Research and design has been com pletely stifled in recent centuries. We must emerge from the Dark Age and into the light of the Machine Age. Robots and computers can transform the world into a playground for Man, giving him unlimited leisure, \nFriends: Corpore Meta \nEnemies: PURGE, Frankenstein Destroyers, \nGeneral Description: Pro Tech has no hierar- chy, Many independent groups work on their ‘own secret projects; part ofeach member's job is the procurement of the scarce resources, needed to carry on these secret projects.",
+    "topic": "advancement",
+    "keywords": [
+      "mystics",
+      "their",
+      "texts",
+      "like",
+      "light",
+      "reckoning",
+      "many",
+      "cultures"
+    ]
+  }
+}

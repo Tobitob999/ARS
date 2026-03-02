@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "category": "mission_seed",
+  "id": "mission_seed_20",
+  "name": "Mission Seed 20",
+  "tags": [
+    "paranoia_2e",
+    "mission",
+    "seed"
+  ],
+  "summary": "Troubleshooter cell must catalog forbidden pamphlets.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "objective": "catalog forbidden pamphlets",
+    "assigned_by": "Armed Forces",
+    "hidden_agenda": "Romantics",
+    "twist": "objective_already_completed",
+    "countdown": 6,
+    "failure_cost": "demotion_risk"
+  }
+}

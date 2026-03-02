@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_04_the_rules_p0055_c02",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_04_the_rules",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The Rules page 55, chunk 2.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_04_the_rules",
+    "source_title": "The Rules",
+    "page": 55,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "raw_text": "* Figure out how an electronic device works ithout a circuit diagram, * Fix his chute, which failed to open when it, should have, in the final ten seconds before impact Etc, \nMake a power roll when: ‘© A character tries to use his mutant power. * If you need a “luck” roll — that is, none of the character's other skills or attributes seem to have any bearing on the problem at hand. este ee Difficulty ‘Whenever a character uses an attribute — cor a skill, for that matter — the gamemaster should decide how easy or difficult the task is ifthe task is particulary dificult, he should reduce the character’ attibute or skill number before the rolls made; if particularly easy, he should increase it Difficulty isn't the only factor you should take into account when modifying a character’ attribute numbers, The charm and relative wit of the players presentation is im- portant, to0. The purpose of the fame is to fave fun, and ifthe player is being amusing, witty and intelligent, he should be rewarded. ‘On the other hand, If he's being dull as dishwater, he must suffer the consequences. Those who contribute t others’ enjoyment of the game tumph; dullads die, Here are some rules of thumbs Player Wit Attribute Difficulty: & Charm: Modification: easy scintillating x2 normal acceptable no change tough Uunremarkable x Ys difficult dull xh \nAttributes and Skill Bases Consider this a character's agility is 15, That ‘means his agility skill base is 4, So if he hasn't spent any skill points on a particular agility based skill — neurowhip, say — his skill \nnumber is 4. I he uses the skill, he’s only got 4 chances out of 20 of doing so successfully.",
+    "topic": "skills",
+    "keywords": [
+      "skill",
+      "should",
+      "character",
+      "when",
+      "difficulty",
+      "attribute",
+      "easy",
+      "agility"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0097_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 97, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 97,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Biotech\nSpezialisierungen:\n Biotechnologie, Cybertechnologie, Erste \nHilfe, Medizin\nUngeübt:\n Nein\nPrimärattribut: \nLogik\nSekundärattribut:\n Intuition (selten – immer dann, wenn \nein Charakter etwas versucht, was so nicht in den Lehr-\nbüchern steht)\nDiese Fertigkeit ist das Einsatzgebiet aller Charakte-\nre, die in der metamenschlichen Biologie versiert sind. In der Sechsten Welt gehen damit auch Kenntnisse über \ndie Wechselwirkungen zwischen dieser Biologie und ver-\nschiedenen Bodytech-Implantaten und Ausrüstungsgegen-\nständen einher. Die Fertigkeit Biotech kommt bei Erste \nHilfe und sonstigen Heilungsproben (S. 122) zum Einsatz, \nkann aber auch bei der Untersuchung und Reparatur von \nCyber ware, Bioware und anderer Bodytech verwendet \nwerden. Außerdem kann diese Fertigkeit genutzt werden, \num Cyberware – aber keine anderen Arten von Bodytech \n– zu implantieren. Abseits der Ersten Hilfe oder Heilung ist Biotech in der \nRegel eine Einfache Probe, bei der der Charakter auf Bio-\ntech + Logik würfelt und auf Basis der erzielten Nettoerfolge \nErkenntnisse gewinnt oder eine Reparatur durchführt. Die \nSpielleiterin sollte die Tabelle \nRicht linien für Schwellenwerte\n(S. 37) zu Rate ziehen, um den Schwellen wert dieser Proben \nfestzulegen. Der Einbau von Cyberware erfordert eine Ausgedehnte \nProbe. Der Schwellenwert dieser Probe beträgt Stufe x 3; \nwenn die Cyberware nicht über Stufen verfügt, gehe von \nStufe 2 aus. Das Intervall beträgt 1 Stunde, und zur Durch-\nführung der Probe ist mindestens ein Biotech- Laden nötig.",
+    "topic": "skills",
+    "keywords": [
+      "biotech",
+      "probe",
+      "hilfe",
+      "fertigkeit",
+      "dieser",
+      "bodytech",
+      "cyberware",
+      "erste"
+    ]
+  }
+}

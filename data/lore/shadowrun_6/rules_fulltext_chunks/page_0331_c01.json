@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0331_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 331, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 331,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Astralkampf (S. 163)\nAngriffswert:\n Magie + Traditionsattribut\nVerteidigungswert:\n Intuition + natürliche Panzerung +\nPanzerungseffekte\nInitiative:\n Logik + Intuition + 2W6\nWürfelpools\nWaffenloser Kampf\n Astral + Willenskraft\nWaffenfoki\n Nahkampf + Willenskraft\nSpruchzauberei\n Hexerei + Magie\nVerteidigung\n Logik + Intuition\nSchadenswiderstand\n Willenskraft\n Schadenswerte\n*\nWaffenlos\n Traditionsattribut \n÷\n 2 \n(aufgerundet)\nWaffenfokus\n nach Waffe\n* Der Angreifer wählt aus, ob er Körperlichen \n oder Betäubungsschaden verursacht. Astrales \nSpurenlesen (S. 163)\nSITUATION\n SCHWELLENWERT-\nMODIFIKATOR\nPro Stunde, seit die astrale \nVerbindung aktiv war\n +1\nZiel beﬁ ndet sich hinter \neiner Manabarriere\n +(Kraftstufe der Barriere)\nAufﬁ nden des Beschwörers \ndurch Geist\n +2\nRauschen (S. 177)\nPHYSISCHE ENTFERNUNG \nZUM ZIEL/HINDERNISSE\n RAUSCHENWERT\nDirektverbindung (jede \nEntfernung)\n 0\nBis 100 m\n 0\n101 – 1.000 m\n 1\n1.001 – 10.000 m\n 3\n10.001 m – 100 km\n 5\nMehr als 100 km\n 8\nDichtes Laubwerk\n 1 pro 5 m\nFaradaykäﬁ g\n kein Signal, keine Handlung\nSüßwasser\n 1 pro 10 cm\nStörsender\n 1 pro Erfolg bei der \nHandlung Signal stören\nMetallüberzogene Erde oder \nMauer\n 1 pro 0,5 m\nSalzwasser\n 1 pro cm\nSpam-Zone oder Matrixloch\n Stufe\nWiFi-Abschirmung \n(z. B. Tapete oder Farbe)\n Stufe\nMa trixhandlungen (S.",
+    "topic": "combat.initiative",
+    "keywords": [
+      "intuition",
+      "willenskraft",
+      "magie",
+      "traditionsattribut",
+      "logik",
+      "ziel",
+      "entfernung",
+      "signal"
+    ]
+  }
+}

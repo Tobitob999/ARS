@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_03_world_of_paranoia_p0046_c01",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_03_world_of_paranoia",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The World of Paranoia page 46, chunk 1.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_03_world_of_paranoia",
+    "source_title": "The World of Paranoia",
+    "page": 46,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "Peres PARANOIA \n‘Advancement: Imaginative mischief that in- volves litle rs might get a character noticed by the society if performed frequently over a long time. The way to advance quickly is to engage in largescale public craziness which presents serious risk of exposure and execu- tion for treason, Failure to respond to challenges or orders from higherstatus members is a good way to lose status. Special Rules: Because o their frivolous nature and their primitive degree of social organiza tion, Death Leopard members have little a ess to information or equipment from other members. However, a lowerstatus member ‘must ender assistance if it is required or lose face, Additionally, because of the chaotic nature of Death Leopard projects, various odd items of equipment and information may become available from time to time. if a ‘member plans a project, and spreads news of it along the grapevine, he will sometimes be fated with totaly unexpected (and perhaps totally inappropriate) resources, like plasma uns, or passwords that permit access to The Computer's most secret data banks, or stolen, reprogrammed, and souped-up scrubots with full combat capabilites \n‘A Typical Death Leopard Conversation: Death Leopard: That's nothing, man! That’, Tike, diddy squat! ‘Another Death Leopard: Sez you! | thought it was, like, prety classy! Death Leopard: Huh! Lemme tell ou what | did, You know that jerk Nevo-U-MYN? Other Death Leopard: The High Programmer Like the head of PLC? Death Leopard: Yeah, yeah, him. | put fizz- wizz in his shower head, ‘Other Death Leopard: You put... Oh ho ho. When he takes a... Hyuck. /d sure like to see his face, A High Programmer. Wow.",
+    "topic": "skills.social",
+    "keywords": [
+      "death",
+      "leopard",
+      "like",
+      "time",
+      "members",
+      "other",
+      "tion",
+      "lose"
+    ]
+  }
+}

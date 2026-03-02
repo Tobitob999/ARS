@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_03_world_of_paranoia_p0052_c03",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_03_world_of_paranoia",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The World of Paranoia page 52, chunk 3.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_03_world_of_paranoia",
+    "source_title": "The World of Paranoia",
+    "page": 52,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "When Trouble- ‘hooters are on a mission, charges for serious ‘offenses may be deferred until after the mis sion is completed, o, if the presence of the ‘tfende inthe mission group may be a hazard to the success ofthe mission, afield hearing ‘may be requested I the charges are deferred, the hearing usu ally follows the mission. The Computer ap- ‘proves a field hearing, the ranking citizen pre- Sent and The Computer preside over a brief and. informal. review of the charges, the tevidence, and the statement of the accused. Ineither case, the Troubleshooters may be call- ‘ed upon to assist in detaining the accused for the hearing, and later may be requested to deliver a convicted offender to intemal Securi- ty for guidance and counseling (or, if treason is proved, to execute him summarily) Here's description of several corrective measures commonly scheduled for citizens convicted of serious offenses, \nDrug Therapy This is standard treatment ifthe team is on 4 mission and the convicted Troubleshooter ‘eannot be readily replaced by a clone or other Troubleshooter. Biochemical supplements are prescribed and supervised by The Computer, happiness officer, or ranking Tioubleshooter, subject to current availability of various drugs Ifthe citizen survives the biochemical sup- plements and the mission, additional correc tive measures may be’ assigned during debriefing, \nRetraining ‘This may be a simple training program in Corrective Loyalty, administered by HPD & Mind Control, and resulting ina reduction in the characters treason point total, accom panied perhaps by severe memory loss, hallucinations, oF minor psychosis ‘Or it may be a euphemism for major brain- washing.",
+    "topic": "general",
+    "keywords": [
+      "mission",
+      "hearing",
+      "charges",
+      "computer",
+      "convicted",
+      "serious",
+      "offenses",
+      "deferred"
+    ]
+  }
+}

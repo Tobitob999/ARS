@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "id": "paranoia_template_07",
+  "name": "Template-R-07",
+  "compatible_rulesets": [
+    "paranoia_2e"
+  ],
+  "archetype": "Clone Handler",
+  "background": "Service Group: Technical Services | Secret Society: Romantics | Mutation: Machine Empathy",
+  "characteristics": {
+    "STR": 7,
+    "AGI": 14,
+    "DEX": 8,
+    "END": 12,
+    "MOX": 16,
+    "CHU": 13,
+    "MEC": 16,
+    "POW": 13
+  },
+  "derived_stats": {
+    "HP": "state_track",
+    "Clone Number": 1,
+    "Treason Points": 0
+  },
+  "skills": {
+    "Laser Weapons": 9,
+    "Bootlicking": 9,
+    "Mechanical Engineering": 9,
+    "Data Analysis": 7,
+    "Unarmed": 4
+  },
+  "equipment": [
+    "multicorder",
+    "laser_pistol",
+    "com_unit_ii",
+    "com_unit_i"
+  ],
+  "notes": "Batch-generated playable template."
+}

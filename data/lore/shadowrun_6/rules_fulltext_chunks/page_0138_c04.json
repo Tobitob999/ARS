@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0138_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 138, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 138,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Indirekte Kampfzauber\nStatt die Magie den Schaden direkt verursachen zu las-\nsen, erschaffen indirekte Kampfzauber einen Effekt, der \nden Schaden verursacht – indem sie zum Beispiel einen \nFeuerball oder einen Blitzstrahl loslassen. Lege eine Ver-\ngleichende Probe auf Hexerei + Magie gegen Reaktion + \nnur Kameras, Sensoren und Ähnliches? Sensortäuschung ist \ngenau der richtige Zauber dafür. Durch ihn erhält das Ziel \neine Version des Status \nUnsichtbar (Verbessert)\n mit einer \nStufe gleich der Anzahl der Erfolge der Hexereiprobe, aber \nder Zauber hat keine Wirkung auf Lebewesen, sondern nur \nauf technologiebasierte Sensoren. Stille\n(Monosensorisch)\nREICHWEITE\n ART\n DAUER\n ENTZUG\nB\n P\n A\n 4\nDieser Zauber funktioniert genauso wie der Zauber Schwei-\ngen, verursacht aber den Status \nGeräuschlos (Verbessert)\n, \nsodass auch Mikrofone und andere Technologie das Ziel \nnicht hören können. Trideo-Trugbild\n(Vollsensorisch)\nREICHWEITE\n ART\n DAUER\n ENTZUG\nBF (F)\n P\n A\n 4\nDieser Zauber funktioniert genauso wie der Zauber Trug-\nbild, wirkt aber auch gegen Kameras, Mikrofone und an-\ndere Technologie. Trugbild\n(Vollsensorisch)\nREICHWEITE\n ART\n DAUER\n ENTZUG\nBF (F)\n M\n A\n 3\nMit diesem Zauber projizierst du ein bestimmtes Bild (be-\ngleitet von dazugehörigen Geräuschen und Gerüchten) in \neinen bestimmten Wirkungsbereich. Vielleicht ist es das Bild \neines angreifenden Drachen, eines friedlichen Gartens oder \neiner bestimmten Person. Jedenfalls muss es etwas darstellen, \nwas du bereits gesehen hast, und das Trugbild muss in deiner \nSichtlinie bleiben. Lege eine Probe auf Hexerei + Magie ab \nund notiere die Anzahl der Erfolge.",
+    "topic": "combat.damage",
+    "keywords": [
+      "zauber",
+      "einen",
+      "magie",
+      "reichweite",
+      "dauer",
+      "entzug",
+      "trugbild",
+      "bild"
+    ]
+  }
+}

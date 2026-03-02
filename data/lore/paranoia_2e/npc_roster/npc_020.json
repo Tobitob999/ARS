@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npc",
+  "id": "npc_020",
+  "name": "Echo-U-R-20",
+  "tags": [
+    "paranoia_2e",
+    "npc",
+    "roster"
+  ],
+  "summary": "Armed Forces operative with layered loyalties.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "service_group": "Armed Forces",
+    "secret_society": "Psion",
+    "mutation": "Density Control",
+    "trait": "subversive",
+    "clearance": "Green",
+    "use_in_play": "checkpoint_antagonist"
+  }
+}

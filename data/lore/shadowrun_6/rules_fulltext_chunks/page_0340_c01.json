@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0340_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 340, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 340,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Elite-Konzernsicherheit (Schergen) ..208\nElite-Spezialeinheiten (Schergen) .....210\nEndoskop (optisches Gerät) .............275\nEnergieaura (Critterkraft) .................223\nEnergieball (Zauber) .........................138\nEnergieblitz (Zauber) ........................139\nEnge Salve .......................................112\nEnterhakenkanone (Cyberware) .......288\nEnterhakenkanone \n (Überlebensausrüstung) ...............280\nEntfernung und Geister ....................151\nEntfesseln ..........................................95\nEntschärfen (Hacking-Programm) ...185\nEntschlüsselung \n (Hacking-Programm) ..........................185\nEntwicklungskosten (Tabelle) .............72\nEntwinden (Edge-Handlung) ..............49\nEntzaubern .......................................155\nEntzauberungsfokus .........................157\nEntzug ..............................................130\nEntzugswert bei Zaubern ..................134\nEntzugswiderstand ...................130, 133\nErdgeister .........................................150\nErfolge kaufen ....................................38\nErhöhte Konzentrationsfähigkeit \n (Vorteil) ...........................................74\nErhöhte Präzision (Adeptenkraft) .....158\nErinnerungsvermögen ........................37\nErsatzmagazin (Waffenzubehör) .......259\nErschöpft I, II, III (Status) ..................54\nErstarrt (Status) .................................54\nErste Hilfe ........................................122\nErste-Hilfe-Set (Biotech) ..................282\nErster Eindruck (Vorteil) .....................74\nErtaubt I, II, III (Status) ......................54\nErwachte Critter ...............................216\nErwachte ......................................17, 32\nErwachtes Outback ............................34\nErweiterte Realität ............................172\nErzwungener Schlaf \n (Critterschwäche) ..........................228\nEssenz (Attribut) ................................40\nEssenzentzug (Critterkraft) ...............223\nEssenzkosten ...................................245\nEssenzverlust (Critterschwäche) ......228\nEurocar Westwind X80 (Auto) ..........298\nEuropa ...............................................33\nEvo ...............................................25, 34\nExec (Slang) .........................................8\nExotische Waffen (Fertigkeit) .............97\nExotische Waffen .............................258\nExpertise ......................................72, 94\nExplosivmunition .............................262\nExterritorialität .............................28, 30\nExtraktion ...........................................21\nF\nFahndungsstufe ...............................235\nFahndungsstufe, Auswirkungen ......",
+    "topic": "magic.spells",
+    "keywords": [
+      "status",
+      "elite",
+      "schergen",
+      "critterkraft",
+      "zauber",
+      "enterhakenkanone",
+      "hacking",
+      "programm"
+    ]
+  }
+}

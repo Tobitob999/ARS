@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_05_gamemastering_paranoia_p0100_c02",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_05_gamemastering_paranoia",
+    "chapter"
+  ],
+  "summary": "Rule chunk from Gamemastering Paranoia page 100, chunk 2.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_05_gamemastering_paranoia",
+    "source_title": "Gamemastering Paranoia",
+    "page": 100,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "Can't you share?” \nUnfortunately, PLC's inventory is often \ndepleted by ciecumstances beyond their con- \ntrol, Everything is often: * around here somewhere, « temporarily unavailable (permanently lost, + broken oF defective, * awaiting, healthisafety/securty inspection, * reserved for high-status citizens, # withdrawn for preventive maintenance, * discontinued, * already issued, ‘withheld for security reasons, + recalled for modifications, * or right here, but we don’t feel like giving it to you. Even ifthe item you want is available, that \ndoesn’t mean that it will work, And the staff is always trying to substitute useless or over. stocked stuff for the requested item. “Look, \nwe don't have the autorifle you requested, but we do have these swell chapsticks...\" And they won't take no for an answer, Particular \nly when a high status supervisor is present. Or When the automatic laser security systems seem to lock onto uncooperative customers. ‘Of course, Troubleshooters on a mission \nhave priority over other citizens on purely per- sonal business. They can march right to the \nhead of the line and demand immediate serv- \nice in the name of The Computer — along with the dozens of other citizens professing priori- ty of some kind. Sometimes fights break out. (Often Troubleshooters may be among the best armed of the combatants.) And there are Certain forms to be filled out when you declare 4 priority mission, And stafers’ palms to prease. ‘We wouldn't want to suggest that PLC staf- fers are corrupt, We want to state definitively thal PLC staffers are corrupt ‘Okay.",
+    "topic": "equipment",
+    "keywords": [
+      "often",
+      "citizens",
+      "want",
+      "when",
+      "here",
+      "high",
+      "status",
+      "security"
+    ]
+  }
+}

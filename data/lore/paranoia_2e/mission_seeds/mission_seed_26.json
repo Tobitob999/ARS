@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "category": "mission_seed",
+  "id": "mission_seed_26",
+  "name": "Mission Seed 26",
+  "tags": [
+    "paranoia_2e",
+    "mission",
+    "seed"
+  ],
+  "summary": "Troubleshooter cell must contain rumor outbreak.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "objective": "contain rumor outbreak",
+    "assigned_by": "HPD & MC",
+    "hidden_agenda": "Psion",
+    "twist": "friendly_npc_is_traitor",
+    "countdown": 8,
+    "failure_cost": "clone_loss"
+  }
+}

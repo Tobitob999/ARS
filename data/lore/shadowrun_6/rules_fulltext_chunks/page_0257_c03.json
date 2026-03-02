@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0257_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 257, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 257,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Ares Alpha\nBerühmt gemacht durch die Ares-Firewatch-Teams, wurde \ndas Ares Alpha rasch ein Erfolg bei Spezialeinheiten der \nUCAS und CAS sowie bei unzähligen Desert-Wars-Teams. Der integrierte Unterlauf-Granatwerfer, das Smartgun-\nsystem und ein innovatives benutzerfreundliches Design \nmachen diese Waffe zu etwas Besonderem. Col t M23\nBillig, massenproduziert und unendlich anpassungsfähig – das \nM23 findet seinen Weg in die Hände von so ziemlich jedem, \nvon Straßengangs über Piraten bis hin zu hochgezüchteten \nRegierungsspezialeinheiten. Das M23 kann zwei zusätzliche \nUnterlauf-Zubehörteile aufnehmen (insgesamt also drei). FN HAR\nVor dem Namen Fabrique Nationale muss man sich in Acht \nnehmen, wenn man irgendwo auf der Welt Konzernsicher-\nheitstrupps oder HTR-Teams gegenübersteht. Denn FN hat \ndiese Waffe entwickelt, die mit einem Lasermarkierer und \neinem Gasventilsystem geliefert wird. Y amaha Raiden\nWährend Ares das Alpha produzierte, entwickelten die Ja-\npanokons – durch Yamaha – das Raiden. Ein elektronischer \nFeuermechanismus und eine außergewöhnliche Zielgenau-\nigkeit sind die wichtigsten Merkmale dieses Modells. Ja-\npanische Sicherheitskräfte und die Kaiserliche Japanische \nMarine schwören auf das Raiden.",
+    "topic": "combat",
+    "keywords": [
+      "ares",
+      "alpha",
+      "teams",
+      "raiden",
+      "durch",
+      "unterlauf",
+      "diese",
+      "waffe"
+    ]
+  }
+}

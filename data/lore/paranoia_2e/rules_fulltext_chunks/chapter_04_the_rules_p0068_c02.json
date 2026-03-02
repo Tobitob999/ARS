@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_04_the_rules_p0068_c02",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_04_the_rules",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The Rules page 68, chunk 2.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_04_the_rules",
+    "source_title": "The Rules",
+    "page": 68,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "raw_text": "Hey, if you like that kind of combat, we publish a whole bunch of fine tactical simulations like Tank leader and Fire Team which allow you to spend hours and hours doing this stuf, and you should buy them all right now and make Us wealthy beyond the dreams of avarice. Seriously, if you like to use miniatures and scale layouts to help visualize the action, bully for you. In fact, there's a magnificent line of Paranoia metal miniatures ~ from Grenadier in USA and CND Sectors and from Citadel Miniatures in UKB and EUR Sectors, So now ‘you can run sight back out and get them. We'll wait : \nWH scale \nIt’s traditional whed using miniatures 10 know what the game scale is, so you can carefully measure everything down tothe last millimeter, So what's Paranoia’s scale? Here it is: three veal world centimeters = two Paranoia meters, So now you know. Every player character has a mutant power, In theory, his power lets him do something nif- \nty, something special that can help him sur- Vive in Alpha Complex. Of course, nothing is, \nas simple as that, Mutants are traitor, afterall, land subject to immediate execution, ‘Which leads toa question: if The Computer {is so careful to make sure that is citizens are \n‘normal humans bereft of weird alterations in, DNA — indeed, so careful that it executes. “anyone out of the norm — how did mutation ‘come to be so widespread? And why are only, favorable mutations prevalent? | mean, if you randomly expose people to high doses of radiation, you'll eta lot of miscarriages, birth, defects and such, but favorable mutations will be extremely rare. Obviously, something, strange is going on. So what's the source of all these mutations anyway?",
+    "topic": "combat",
+    "keywords": [
+      "miniatures",
+      "scale",
+      "like",
+      "paranoia",
+      "what",
+      "something",
+      "mutations",
+      "which"
+    ]
+  }
+}

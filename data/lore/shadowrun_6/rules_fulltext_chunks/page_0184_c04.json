@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0184_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 184, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 184,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Solange du das Gerät nicht für an-\ndere Matrixhandlungen benutzt, addiert es alle Erfolge, die \ndu bei der Probe erzielst, zum Rauschenwert für Matrix-\nhandlungen mit oder gegen Geräte in einem Umkreis von \n100 Metern. Wenn du nur bestimmte Frequenzen oder Ziele \nstören willst, kauf dir einen Störsender – dafür sind die da. Ma trixsigna tur löschen\n(illegal) Cracken + Logik gegen \nWillenskraft + Firew all oder Firew all \n×\n 2 (Haupthandlung)\nUser/Admin\nDu löschst eine Matrixsignatur, die von einem Resonanz-\nwesen wie einem Technomancer oder Sprite hinterlassen \nwurde. Gelingt die Probe, verschwindet die Signatur. Du \nmusst das Attribut Resonanz besitzen, um diese Handlung \ndurchführen zu können. Anders als andere Handlungen, \ndie Resonanz voraussetzen, ist dies eine echte Matrixhand-\nlung, die auch noch illegal ist, also kann dabei der Over-\nwatch-Wert steigen. Ma trixsuche\n(legal) Elektronik + Intuition (Ausgedehnt, \n10 Minuten)\nGast/User/Admin\nDu suchst in der öffentlich zugänglichen Matrix nach In-\nformationen. Abhängig von der Anzahl der Erfolge erhältst \ndu unterschiedlich viele Informationen über das Thema. Verwende die Tabelle \n Beinarbeit \n (S. 53) als allgemeine \nRichtlinie für die enthüllten Informationen. Ma trixw ahrnehmung\n(legal) Elektronik + Intuition gegen \nWillenskraft + Schleicher oder Firew all + \nSchleicher (Haupthandlung)\nGast/User/Admin\nEine erfolgreiche Probe gibt dir Informationen über das \nZiel. Bei einem Unentschieden kannst du das Icon des Ziels \nwahrnehmen. Ein einzelner Nettoerfolg gibt dir grundle-\ngende Informationen, wie zum Beispiel die Gerätestufe \noder den Namen, den das Gerät oder Icon sich gibt.",
+    "topic": "matrix",
+    "keywords": [
+      "einem",
+      "informationen",
+      "probe",
+      "gegen",
+      "firew",
+      "user",
+      "admin",
+      "resonanz"
+    ]
+  }
+}

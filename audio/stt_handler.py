@@ -17,6 +17,7 @@ Konfiguration via .env:
 from __future__ import annotations
 
 import logging
+import math
 import os
 import queue
 import threading
@@ -95,8 +96,8 @@ class STTHandler:
             import numpy as np
             import torch
         except ImportError as exc:
-            logger.error("Abhängigkeit fehlt: %s — Fallback auf Stub", exc)
-            return self._stub_listen()
+            logger.error("Abhaengigkeit fehlt: %s", exc)
+            return None
 
         self._ensure_models_loaded()
 
@@ -113,7 +114,6 @@ class STTHandler:
         max_chunks = MAX_SPEECH_SECONDS * SAMPLE_RATE // CHUNK_SIZE
 
         logger.info("Hoere zu...")
-        print("[STT] Ich hoere... (sprich jetzt)")
 
         try:
             with sd.InputStream(
@@ -138,6 +138,12 @@ class STTHandler:
                     with torch.no_grad():
                         confidence: float = self._vad_model(tensor, SAMPLE_RATE).item()
 
+                    # Mic-Level via EventBus fuer GUI
+                    rms = float(np.sqrt(np.mean(chunk_flat ** 2)))
+                    db = max(20 * math.log10(rms + 1e-10), -60)
+                    level_pct = min(max((db + 60) / 60 * 100, 0), 100)
+                    self._emit_mic_level(level_pct, confidence, in_speech)
+
                     is_speech = confidence >= VAD_THRESHOLD
 
                     if is_speech:
@@ -153,14 +159,47 @@ class STTHandler:
 
         except Exception as exc:
             logger.error("Mikrofon-Fehler: %s", exc)
-            return self._stub_listen()
+            return None
 
         if not speech_chunks:
             logger.info("Keine Sprache erkannt.")
+            self._emit_mic_level(0, 0, False)
             return None
 
         audio = np.concatenate(speech_chunks)
         return self._transcribe(audio)
+
+    # ------------------------------------------------------------------
+    # EventBus Emitters
+    # ------------------------------------------------------------------
+
+    _last_mic_emit: float = 0.0
+
+    def _emit_mic_level(self, level_pct: float, vad_confidence: float, in_speech: bool) -> None:
+        """Sendet Mic-Level an die GUI (throttled: ~10 Hz)."""
+        import time
+        now = time.monotonic()
+        if now - self._last_mic_emit < 0.1 and not in_speech:
+            return  # Throttle: max 10 Updates/s im Idle
+        self._last_mic_emit = now
+        try:
+            from core.event_bus import EventBus
+            EventBus.get().emit("audio", "mic_level", {
+                "level": level_pct,
+                "vad": vad_confidence,
+                "speech": in_speech,
+            })
+        except Exception:
+            pass
+
+    @staticmethod
+    def _emit_stt_text(text: str) -> None:
+        """Sendet erkannten STT-Text an die GUI."""
+        try:
+            from core.event_bus import EventBus
+            EventBus.get().emit("audio", "stt_text", {"text": text})
+        except Exception:
+            pass
 
     # ------------------------------------------------------------------
     # Transkription
@@ -177,6 +216,8 @@ class STTHandler:
             )
             text = " ".join(s.text for s in segments).strip()
             logger.info("STT: '%s'", text[:80])
+            if text:
+                self._emit_stt_text(text)
             return text or None
         except Exception as exc:
             logger.error("Faster-Whisper Transkriptionsfehler: %s", exc)

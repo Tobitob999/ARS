@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.0.0",
+  "title": "Testkampf",
+  "setting": "Eine steinerne Arena in den Ruinen einer vergessenen Festung",
+  "difficulty": "Einsteiger",
+  "intro": "Ein alter Zwerg hat euch zu einer verfallenen Arena gefuehrt. 'Hier koennt Ihr Euren Stahl pruefen', knurrt er. Hinter dem rostigen Gittertor hoert ihr Knurren und das Klirren von Waffen.",
+  "hook": "Direkter Kampftest: Goblins besiegen, Oger bezwingen, Beute einsammeln. Alle Kampfmechaniken durchspielen.",
+  "keeper_lore": "Dies ist ein Testkampf-Szenario. Ziel ist es, alle Kampf-Tags systematisch zu testen. Starte SOFORT mit Kampf, kein langer Aufbau. Nutze konsequent ALLE verfuegbaren Tags: [ANGRIFF: Waffe | THAC0 | Ziel-AC | Modifikatoren] fuer jeden Angriff (Spieler UND Monster), [RETTUNGSWURF: Kategorie | Zielwert] wenn der Oger seinen Betaeubungsschlag einsetzt, [HP_VERLUST: N] bei jedem Treffer gegen den Spieler, [XP_GEWINN: N] nach jedem besiegten Gegner, [INVENTAR: Gegenstand | gefunden] fuer Beute. Beschreibe Initiative narrativ (kein Tag). Der Goblin-Bogenschuetze soll Fernkampf nutzen (Modifikator -2 fuer mittlere Reichweite). Der Oger soll mindestens einmal seinen Betaeubungsschlag einsetzen, der einen Rettungswurf erfordert.",
+  "start_location": "arena_entrance",
+  "flags": {
+    "goblins_dead": false,
+    "oger_dead": false,
+    "player_saved": false,
+    "loot_collected": false
+  },
+  "locations": [
+    {
+      "id": "arena_entrance",
+      "name": "Eingang zur Arena",
+      "description": "Ein breiter Torbogen fuehrt in eine runde, steinerne Arena. Der Boden ist mit Sand bedeckt, dunkle Flecken zeugen von frueheren Kaempfen. Fackeln an den Waenden werfen flackerndes Licht.",
+      "atmosphere": "Gespannte Stille, das Knistern der Fackeln, entferntes Knurren.",
+      "npcs_present": [],
+      "clues_available": [],
+      "exits": {
+        "arena_goblins": "Das Gittertor oeffnet sich knarrend zur Kampfarena."
+      },
+      "keeper_notes": "Kurze Einfuehrung, dann direkt weiter zur Arena. Der Spieler kann sich kurz umsehen, aber es gibt nichts zu entdecken. Draenge zum Kampf."
+    },
+    {
+      "id": "arena_goblins",
+      "name": "Die Kampfarena",
+      "description": "Eine runde Arena, etwa zwanzig Schritt im Durchmesser. Zwei Goblins stehen kampfbereit: einer mit rostigem Kurzschwert, der andere mit einem Kurzbogen auf einer erhoehten Plattform.",
+      "atmosphere": "Aggressive Spannung, die Goblins kreischen und fuchteln mit ihren Waffen.",
+      "npcs_present": ["goblin_krieger", "goblin_schuetze"],
+      "clues_available": [],
+      "exits": {
+        "arena_entrance": "Zurueck zum Eingang (Gittertor faellt zu — kein Zurueck!).",
+        "arena_oger": "Ein schweres Steintor auf der gegenueberliegenden Seite."
+      },
+      "keeper_notes": "Sofort Kampf! Der Goblin-Krieger greift im Nahkampf an, der Bogenschuetze schiesst von der Plattform (mittlere Reichweite, Modifikator -2). Nach dem Sieg: [XP_GEWINN: 30] fuer beide Goblins zusammen. Beim toten Krieger liegt ein Heiltrank: [INVENTAR: Heiltrank | gefunden]. Dann oeffnet sich das Steintor zum naechsten Raum. [ZEIT_VERGEHT: 0.5h] nach dem Kampf.",
+      "events": [
+        {
+          "trigger": "Spieler betritt die Arena",
+          "effect": "Das Gittertor faellt zu. Die Goblins greifen sofort an. Initiative narrativ beschreiben.",
+          "sets_flag": null
+        },
+        {
+          "trigger": "Beide Goblins besiegt",
+          "effect": "Das Steintor oeffnet sich knarrend. Ein uebler Gestank dringt heraus.",
+          "sets_flag": "goblins_dead"
+        }
+      ]
+    },
+    {
+      "id": "arena_oger",
+      "name": "Die Ogergrube",
+      "description": "Ein groesserer, dunklerer Raum. In der Mitte steht ein massiger Oger mit einer gewaltigen Keule. Knochen liegen verstreut auf dem Boden. In einer Ecke steht eine verschlossene Truhe.",
+      "atmosphere": "Bestialischer Gestank, dumpfes Grollen, der Boden bebt bei jedem Schritt des Ogers.",
+      "npcs_present": ["oger"],
+      "clues_available": [],
+      "exits": {
+        "arena_goblins": "Zurueck zur Goblin-Arena."
+      },
+      "keeper_notes": "Der Oger ist der Endgegner. Er kaempft aggressiv mit seiner Keule. Nach 1-2 normalen Angriffen setzt er seinen Betaeubungsschlag ein: [RETTUNGSWURF: Betaeubung | 14]. Bei Fehlschlag ist der Spieler eine Runde betaeubt (Oger bekommt +4 auf naechsten Angriff). Nach dem Sieg: [XP_GEWINN: 120]. Die Truhe enthaelt: [INVENTAR: 25 Goldstuecke | gefunden] und [INVENTAR: Langschwert +1 | gefunden]. [ZEIT_VERGEHT: 1h] nach dem Kampf. Falls der Spieler den Heiltrank hat, kann er ihn hier einsetzen: [HP_HEILUNG: 1d4+1].",
+      "events": [
+        {
+          "trigger": "Spieler betritt den Raum",
+          "effect": "Der Oger bruellt und greift an. Kein Verhandeln moeglich.",
+          "sets_flag": null
+        },
+        {
+          "trigger": "Rettungswurf bestanden",
+          "effect": "Der Spieler weicht dem Betaeubungsschlag aus.",
+          "sets_flag": "player_saved"
+        },
+        {
+          "trigger": "Oger besiegt",
+          "effect": "Der Oger faellt. Die Truhe kann gepluendert werden. Der alte Zwerg klatscht von der Tribuene.",
+          "sets_flag": "oger_dead"
+        }
+      ]
+    }
+  ],
+  "npcs": [
+    {
+      "id": "goblin_krieger",
+      "name": "Goblin-Krieger",
+      "description": "Ein drahtiger Goblin in zerlumpter Lederruestung, bewaffnet mit einem rostigen Kurzschwert.",
+      "stats": {
+        "ac": 6,
+        "hp": 5,
+        "thac0": 20,
+        "damage": "1d6",
+        "hd": 1,
+        "weapon": "Kurzschwert"
+      },
+      "behavior": "Greift sofort im Nahkampf an. Kaempft bis zum Tod."
+    },
+    {
+      "id": "goblin_schuetze",
+      "name": "Goblin-Bogenschuetze",
+      "description": "Ein kleiner Goblin auf einer erhoehten Plattform, zielt mit einem kurzen Bogen.",
+      "stats": {
+        "ac": 7,
+        "hp": 4,
+        "thac0": 20,
+        "damage": "1d6",
+        "hd": 1,
+        "weapon": "Kurzbogen",
+        "range_modifier": -2
+      },
+      "behavior": "Schiesst aus der Entfernung (mittlere Reichweite, -2 Modifikator). Flieht wenn der Krieger faellt."
+    },
+    {
+      "id": "oger",
+      "name": "Brutus der Oger",
+      "description": "Ein massiger Oger, fast drei Meter gross, mit einer gewaltigen Holzkeule. Seine Haut ist grau und ledrig.",
+      "stats": {
+        "ac": 5,
+        "hp": 26,
+        "thac0": 17,
+        "damage": "1d10",
+        "hd": 4,
+        "weapon": "Grosse Keule",
+        "special": "Betaeubungsschlag: Rettungswurf vs. Betaeubung (Zielwert 14) oder 1 Runde betaeubt"
+      },
+      "behavior": "Kaempft aggressiv. Setzt nach 1-2 Runden den Betaeubungsschlag ein. Kaempft bis zum Tod."
+    }
+  ],
+  "clues": [],
+  "resolution": {
+    "success": "Der alte Zwerg nickt anerkennend. 'Nicht schlecht, nicht schlecht. Ihr habt Stahl in den Knochen.' Die Arena hat ihren Zweck erfuellt — alle Kampfmechaniken wurden getestet.",
+    "condition": "oger_dead == true"
+  }
+}

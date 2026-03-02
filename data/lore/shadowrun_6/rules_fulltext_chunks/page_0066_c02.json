@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0066_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 66, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 66,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Bei der Charakter-\nerschaffung kann nur eines der Körperlichen und Geistigen \nAttribute den Höchstwert für den jeweiligen Metatyp errei-\nUnterschiedliche \nSpielniveaus\nDie Regeln dieses Kapitels beschreiben das übliche \nSpielniveau für Shadowrun, aber das bedeutet nicht, \ndass man nur auf diesem Niveau beginnen kann. Manche Spieler wollen ihren Runnern vielleicht einen \nkleinen Startvorteil verschaffen, sodass sie mit er-\nfahreneren, fähigeren Charakteren beginnen. Andere \nschätzen vielleicht die Herausforderung, mit weniger \nfähigen Charakteren zu beginnen und zu sehen, ob \ndiese lange genug überleben können, um zu Straßen-\nlegenden zu werden. Das Erschaffen von einfachen Straßenrunnern ist \nleicht: Wähle die Prioritäten wie üblich aus, aber ver-\nwende die Werte aus der Zeile unterhalb der gewählten \nPriorität. Wenn du also Priorität B für Attribute auswählst, \nerhältst du tatsächlich nur die 12 Attributspunkte für \nPriorität C. Weil es nicht tiefer als E geht, erhält man die \nWerte aus zwei Spalten dieser Zeile (für die Prioritäten \nD und E). Das andere Ende des Spektrums bilden Top-Runner. Wenn du auf diesem fortgeschrittenen Niveau beginnen \nwillst, verdopple die Menge an Individualisierungskarma \n(siehe S. 69) von 50 auf 100. Einfach ausgeben und das \nLeben unter den Besten beginnen! chen. Punkte für Attribute aus der Prioritätentabelle werden \neins zu eins ausgegeben: Jeder Punkt erhöht das betreffende \n(Körperliche oder Geistige) Attribut um 1. Achtung: Edge \nkann nur mit Anpassungspunkten erhöht werden.",
+    "topic": "astral",
+    "keywords": [
+      "beginnen",
+      "attribute",
+      "prioritaet",
+      "diesem",
+      "niveau",
+      "vielleicht",
+      "charakteren",
+      "andere"
+    ]
+  }
+}

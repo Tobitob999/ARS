@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0177_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 177, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 177,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Beispiel: Rep arieren \nvon Ma trixschaden\nGlitch erhält ein Cyberdeck von Mungo dem Decker, \nder behauptet, „der magische Rauch“ sei daraus aufge-\nstiegen. Es ist noch nicht ganz lahmgelegt, aber kaum \nnoch als Cyberdeck zu bezeichnen. Glitch legt eine Aus-\ngedehnte Probe auf Mechanik + Logik mit 12 Würfeln \nab und erzielt 4 Erfolge. Das repariert 4 der 8 Kästchen \nSchaden, die Mungos Cyberdeck erlitten hat. Eine Stunde \nspäter würfelt Glitch erneut (diesmal mit 11 Würfeln) \nund erzielt 3 Erfolge. Eine weitere Stunde später würfelt \nGlitch erneut (diesmal mit 10 Würfeln) und erzielt 1 \nErfolg. Nach drei Stunden ist Mungos Cyberdeck wieder \nso gut wie neu. Wie man die \nMa trix benutzt\nIn der Matrix geht es nicht nur darum, mit Code zu schleu-\ndern und IC-Berge zu knacken. Einige Leute wollen bloß \nwissen, wie es beim Urban Brawl steht. Diese Leute be-\nnutzen vielleicht einfach ein Schmöker-Programm, um zu \nfinden, was sie suchen. Andere wollen einfach nur ihre \nRuhe haben und machen sich in der Matrix für normale \nUser praktisch unsichtbar. In diesem Abschnitt wenden \nwir uns vor allem dem zu, was Hacker zu tun versuchen, \nwährend andere (aktiv oder passiv) versuchen, genau das \nzu verhindern. Die Schritte zur Benutzung der Matrix ähneln dem \nKampfsystem. Die Ma trix benutzen: \nSchritt für Schritt\n1. Schnappt euch die Würfel\n2. Verteilt Edge\n3. Würfelt und gebt Edge aus\n4. Bestimmt die Wirkung\nSchritt eins: \nSchnappt euch die Würfel\nBeim Benutzen der Matrix werden alle Proben mit Fertig-\nkeit + Attribut abgelegt. Die folgenden Fertigkeiten und \nAttribute bilden die benutzten Würfelpools:\n• Legale Proben werden im Allgemeinen mit Elek-\ntronik + Logik abgelegt.",
+    "topic": "combat.damage",
+    "keywords": [
+      "glitch",
+      "cyberdeck",
+      "matrix",
+      "wuerfeln",
+      "erzielt",
+      "wuerfelt",
+      "schritt",
+      "noch"
+    ]
+  }
+}

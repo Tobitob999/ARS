@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0157_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 157, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 157,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Das Errichten des \nRefugiums dauert eine Stunde pro Punkt Kraftstufe; \ndas Refugium bleibt bis zum nächsten Sonnenaufgang \noder Sonnenuntergang bestehen. Foki\nFoki (Singular: Fokus) sind speziell hergestellte Gegen-\nstände, die mit magischer Macht erfüllt sind. Sie sind \nastrale Konstrukte, die in physische Objekte eingebettet \nsind. Wenn es aktiv ist, sammelt das Konstrukt magische \nEnergie, sodass der Besitzer, an den es gebunden ist, die \nEnergie für einen bestimmten magischen Zweck nutzen \nkann. Die physische Gestalt von Foki kann unterschied-\nlich sein (Amulette, Gürtel, Stäbe, Spazierstöcke, Becher, \nKronkorken, Dolche, Hüte, Feldflaschen, Füllfedern und \nso weiter und so fort), passt aber meist zur Tradition \ndes Besitzers. Ein Fokus hat eine Kraftstufe, die seine \nMacht misst. Du kannst einen Fokus nur benutzen, wenn er an \ndich gebunden ist (und du kannst Foki nur an dich \nbinden, wenn du Erwacht bist – was solltest du sonst \nauch damit anfangen können?). Das Binden eines Fokus \nkostet je nach Fokus unterschiedlich viel Karma (s. Tabelle Magische Ausrüstung, S. 170). Das Binden des \nFokus dauert [Kraftstufe des Fokus] Stunden, die du \nin Kontemplation und mit dem Synchronisieren deiner \nAura mit dem Objekt verbringst. Wenn du das Karma \nausgegeben und die Zeit aufgewendet hast, steht dir \ndie Macht des Fokus zur Verfügung. Ein Fokus kann \nimmer nur an eine Person gebunden sein. Der Vorgang \ndes Bindens bricht die Bindung zu einem früheren Ei-\ngentümer (falls es einen gab). Reagenzien sind überraschend häufig zu finden, aber \nnicht alle Reagenzien sind für jede Tradition passend. Ein \nnicht alle Reagenzien sind für jede Tradition passend.",
+    "topic": "advancement",
+    "keywords": [
+      "fokus",
+      "foki",
+      "kraftstufe",
+      "macht",
+      "gebunden",
+      "einen",
+      "tradition",
+      "binden"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0043_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 43, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 43,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Handlungen\nNEBENHANDLUNGEN\n HAUPTHANDLUNGEN\nAbfangen (J)\n Angriff (I)\nAufstehen (I)\n Antimagie (J)\nAusweichen (J)\n Astrale Projektion (I)\nBewegen (I)\n Einfaches Gerät verwenden* (I)\nBlocken (J)\n Fertigkeit einsetzen (I)\nDrohne befehligen (I)\n Gegenstand aufheben/\nablegen (I)\nFokus aktivieren/\ndeaktivieren (I)\n Geist herbeirufen (I)\nGegenstand fallen lassen (J)\n Geist verbannen (I)\nGeist befehligen (I)\n Genau beobachten (I)\nGeist entlassen (I)\n Hineinspringen (I)\nGerätemodus ändern (J)\n Manifestieren (I)\nIn Deckung gehen (I)\n Reinigen (I)\nMehrfachangriffe (I)\n Sprinten (I)\nSchnellziehen (I)\n Unterstützen (I)\nSich hinwerfen (I)\n Volle Abwehr (J)\nSmartgun nachladen (I)\n Waffe bereit machen (I)\nVolle Deckung (J)\n Waffe nachladen (I)\nWahrnehmung verlagern (I)\n Zauber wirken (I)\nWeghechten (J)\nZiel ansagen (I)\nZielen (I)\nZu Fall bringen (I)\n* Mit direktem Neuralinterface (DNI): Nebenhandlung\n Für jeden Initiativewürfel, den er hat, bekommt er 1 zu-\nsätzliche Nebenhandlung. Neben- und Haupthandlungen \nkönnen gegeneinander ausgetauscht werden, indem man \neine Haupthandlung aufwendet, um eine Nebenhandlung \nauszuführen, oder 4 Nebenhandlungen aufwendet, um \neine Haupthandlung auszuführen (was unter Umständen \neinen zusätzlichen Angriff ermöglichen kann). Bei jeder \nHandlung in der folgenden Auflistung ist angegeben, wann \nsie ausgeführt werden kann: Initiative (I) oder Jederzeit (J).",
+    "topic": "combat.attack",
+    "keywords": [
+      "geist",
+      "nebenhandlung",
+      "haupthandlungen",
+      "angriff",
+      "befehligen",
+      "gegenstand",
+      "deckung",
+      "volle"
+    ]
+  }
+}

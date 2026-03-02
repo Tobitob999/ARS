@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0238_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 238, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 238,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Es steht der Spielleiterin frei, es so \nzu organisieren, wie es ihr am besten ins Konzept passt, oder \nsie greift einfach auf die einzelne Fahndungsstufe zurück, die \nfür alle Gelegenheiten gilt. Werden mehrfache Fahndungsstufen verwendet, gilt der \nWürfelwurf am Ende der Spielsitzung nur für Organisati-\nonen oder Kategorien, die bei dem Run auch tatsächlich \neine Rolle gespielt haben. Wenn die Runner zum Beispiel in \nSeattle aktiv waren und die Spielleiterin die Fahndungsstufe \ngeografisch unterteilt, würde eine Erhöhung der Fahndungs-\nstufe nur die Fahndungsstufe der Runner in Nordamerika \nbetreffen und nicht die in anderen Teilen der Welt. Wenn mehrere Fahndungsstufen verwendet werden, sollte \ndie Spielleiterin eventuell die Schritte in der Tabelle \n Aus-\nwirkungen der Fahndungsstufe\n verkleinern, zum Beispiel \nSHADOWRUN: SECHSTE EDITION\nREPUT A TION UND F AHNDUNGSSTUFE // Spielleiterhinweise // 237",
+    "topic": "advancement",
+    "keywords": [
+      "fahndungsstufe",
+      "spielleiterin",
+      "gilt",
+      "verwendet",
+      "runner",
+      "beispiel",
+      "steht",
+      "frei"
+    ]
+  }
+}

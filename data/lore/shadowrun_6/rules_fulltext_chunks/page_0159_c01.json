@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0159_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 159, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 159,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Antimagiefokus: Ein Antimagiefokus addiert bei allen \nProben zum Zwecke des Bannens von Zaubern seine \nKraftstufe als Würfelpoolbonus, sofern der zu bannende \nZauber der Kategorie des Fokus entspricht. Außerdem \ngilt die Kraftstufe des Fokus als Würfelpoolbonus, wenn \ndu Zauberabwehr (S. 145) einsetzt. Ritualfokus: Ein Ritualfokus addiert seine Kraftstufe als \nWürfelpoolbonus bei Proben für Ritualzauberei (sowohl \nals Ritualleiter als auch als Teilnehmer). Wenn das Ritual \nkeinen Zauberanteil hat, kann der Fokus trotzdem ge-\nnutzt werden, aber nicht, wenn das Ritual einen Zauber \neiner anderen Kategorie enthält. Zauberspeicher: Wenn du einen Zauber durch einen Zauber-\nspeicher wirkst, kann der Fokus ihn für dich aufrechter-\nhalten, wodurch du den Würfelpoolmalus dafür umgehen \nkannst. Ein Zauber, der aufrechterhalten werden soll, \ndarf keinen höheren modifizierten Entzugswert (nach \nAnpassungen) als die Kraftstufe des Fokus haben, und \ndie Kategorien von Fokus und Zauber müssen überein-\nstimmen. Wenn der Zauber, den der Fokus aufrechterhält, \n(zum Beispiel durch Antimagie) endet, bleibt der Fokus \nweiter aktiv und an seinen Besitzer gebunden, erhält aber \nkeinen Zauber mehr aufrecht. Ein Zauberspeicher kann \nkeine Ritualzauber aufrechterhalten. Zauberspruchfokus: Ein Zauberspruchfokus addiert \nseine Kraftstufe als Würfelpoolbonus bei Proben für \nSpruchzauberei, wenn der Zauber zur richtigen Kate-\ngorie gehört. Adepten\nAdepten kanalisieren Mana anders als Zauberer. Statt mit \nFormeln die Magie zu einer externen Zauberwirkung zu \nformen, nehmen Adepten das Mana in sich selbst auf, lassen \nes durch ihren Körper fließen und ihre Fähigkeiten verstär-\nken.",
+    "topic": "magic.spells",
+    "keywords": [
+      "zauber",
+      "fokus",
+      "kraftstufe",
+      "wuerfelpoolbonus",
+      "addiert",
+      "proben",
+      "seine",
+      "keinen"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0134_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 134, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 134,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Während du lernst, musst du acht Stunden am Tag für \ndas Studium aufwenden, sonst scheitert der Lernversuch \nund du musst von vorn beginnen. Wenn du keine Erfolge \nbei der Lernprobe erzielst, scheitert der Lernversuch. Wenn \nder Versuch scheitert, musst du kein Karma ausgeben, \naber das ganze Geld, das du eventuell für den Unterricht \nausgegeben hast, ist verloren. Zauber\nWenn Leute an Magie denken, fallen ihnen meistens zu-\nerst Zauber ein. Zauber sind der Vorgang, der Magie zum \nWirken bringt, das Kanalisieren der Magie in einen Effekt, \nder die Welt aufhorchen lässt – oder verhindert, dass man \nüberhaupt bemerkt wird. Und so funktionieren sie:\nWie man Zauber wirkt\nDas Wirken von Zaubern besteht aus drei grundlegenden \nSchritten (wobei Kampfzauber noch einen vierten brauchen):\n1. Den Zauber anpassen\n2. Zauberprobe (Hexerei + Magie) ablegen\n3. Dem Entzug widerstehen\nDen Zauber anp assen\nDas Anpassen von Zaubern ist nicht immer nötig und \nmanchmal auch gar nicht möglich. Für die Anpassung gibt \nes die folgenden Möglichkeiten:\nHochdrehen:\n Nur bei Kampfzaubern möglich. Für jeden \nPunkt Grundschaden, der dem Zauber hinzugefügt werden \nsoll, steigt der Entzug des Zaubers um 2. Fläche Vergrößern:\n Der Wirkungsbereich von Zaubern \nmit Flächenwirkung ist normalerweise eine Kugel mit 2 \nMetern Radius. Pro Vergrößerung dieses Radius um 2 \nMeter steigt der Entzug des Zaubers um 1. Die maximale Anzahl an Anpassungen ist gleich dem \nWert des Charakters in Magie oder Hexerei (der höhere \nder beiden Werte). Fläche Verschieben\nDiese Option ist nur bei manchen Zaubern mit Flächen-\nwirkung möglich.",
+    "topic": "magic.spells",
+    "keywords": [
+      "zauber",
+      "magie",
+      "musst",
+      "scheitert",
+      "entzug",
+      "moeglich",
+      "lernversuch",
+      "wirken"
+    ]
+  }
+}

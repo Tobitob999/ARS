@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0275_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 275, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 275,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Sie sind in zahlreichen Stilen erhältlich, \nund eine Brille mit Sichtverstärkungen ist auf den ersten Blick \nnur schwer von einer normalen Brille oder Sonnenbrille zu \nunterscheiden. Werkzeuge\nWERKZEUG\n VERFÜGBARKEIT\n PREIS\nKiste\n 1\n 500 ¥\nLaden\n 4\n 5.000 ¥\nWerkstatt\n 7\n 50.000 ¥\nIdentifizierung\nID\n VERFÜG-\nBARKEIT\n PREIS\nGefälschte SIN (Stufe 1–6)\n 4I\n Stufe \n×\n 2.500 ¥\nGefälschte Lizenz (Stufe 1–6)\n 4I\n Stufe \n×\n 200 ¥\nWerkzeuge\nDas Bauen und Reparieren von Gegenständen erfordert die \nDas Bauen und Reparieren von Gegenständen erfordert die \nrichtigen Werkzeuge. Werkzeuge müssen separat für eine be-\nrichtigen Werkzeuge. Werkzeuge müssen separat für eine be-\nstimmte Fertigkeit gekauft werden (zum Beispiel eine Elektro-\nstimmte Fertigkeit gekauft werden (zum Beispiel eine Elektro-\nnik-Kiste, ein Biotech-Laden, eine Mechanik-Werkstatt usw.). nik-Kiste, ein Biotech-Laden, eine Mechanik-Werkstatt usw.). Kiste\nEine Kiste ist tragbar und enthält das grundlegende Werk-\nEine Kiste ist tragbar und enthält das grundlegende Werk-\nzeug für Standardreparaturen. Ohne zumindest eine Kiste \nzeug für Standardreparaturen. Ohne zumindest eine Kiste \nist eine Fertigkeit unter Umständen gar nicht anwendbar. Laden\nEinen Laden kann man hinten in einem Lieferwagen trans-\nEinen Laden kann man hinten in einem Lieferwagen trans-\nportieren. Er enthält kompliziertere Werkzeuge für Bau \nportieren. Er enthält kompliziertere Werkzeuge für Bau \nund Reparatur. Ein Laden gewährt einen Würfelpoolbonus \nund Reparatur. Ein Laden gewährt einen Würfelpoolbonus \nvon +1 für entsprechende Proben vor Ort und enthält die \nvon +1 für entsprechende Proben vor Ort und enthält die \nwichtigsten Standardersatzteile.",
+    "topic": "advancement",
+    "keywords": [
+      "werkzeuge",
+      "kiste",
+      "laden",
+      "enthaelt",
+      "stufe",
+      "einen",
+      "werkstatt",
+      "fertigkeit"
+    ]
+  }
+}

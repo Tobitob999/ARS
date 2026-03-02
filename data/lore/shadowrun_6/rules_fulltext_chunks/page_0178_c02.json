@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0178_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 178, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 178,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Beispiel: \nOW und Fokussierung\nMungo hat mit seinem reparierten Cyberdeck 10 Kampf-\nrunden mit illegalem Admin-Zugang in einem Host ver-\nbracht und endlich beschlossen, seinen Overwatch-Wert\n(OW) zu überprüfen. Er hat OW 30, weil er illegal Admin \nim Host war, und OW 6 für die Erfolge der Firewall des \nHosts, was insgesamt einen OW von 36 ergibt. Weil die \nFokussierung bei 40 geschieht, stöpselt sich Mungo aus, \nso schnell er kann. Er loggt sich allerdings nicht elegant \naus, daher erleidet er Auswurfschock (s. u.). Auswurfschock \nund Linksperre\nWenn du dich aus der Matrix ausstöpselst und dabei nicht \nzuerst von der VR in die AR wechselst, erleidest du einen \nhässlichen Schock, weil dein Sim-Modul sich abschaltet. Das passiert Hackern so häufig, dass es dafür einen eige-\nnen Namen gibt: Auswurfschock. Der Schadenswert für \nAuswurfschock beträgt 3B mit kaltem Sim und 3K mit \nheißem Sim. Auswurfschock ist Schaden durch Biofeedback, \nalso wird ihm mit Willenskraft widerstanden. Zu allem \nÜberfluss erhältst du auch noch für [10 – Willenskraft] \nMinuten den Status Benommen, selbst wenn du allem \nSchaden widerstanden hast. Eine andere Gefahr in der Matrix ist die Linksperre. Das passiert, wenn eine andere Persona oder ein Gerät \ndeinem Deck (oder einem anderen Gerät) fortwährend \nSignale schickt, die es daran hindern, die Matrix zu ver-\nlassen. Wenn du unter einer Linksperre stehst, kannst du \ndie Handlungen Host betreten/verlassen, Interfacemodus \nwechseln und Gerät neu starten mit dem Gerät (wahr-\nscheinlich deinem Deck), auf dem deine Persona läuft, \nnicht durchführen. Du kannst mit einer erfolgreichen \nHandlung Ausstöpseln (S. 179) entkommen.",
+    "topic": "combat",
+    "keywords": [
+      "auswurfschock",
+      "geraet",
+      "host",
+      "weil",
+      "einen",
+      "sich",
+      "linksperre",
+      "matrix"
+    ]
+  }
+}

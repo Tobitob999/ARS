@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0268_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 268, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 268,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Ballistischer \nSchild\nDieser beeindruckende schwar-\nze Schild wird von SWAT-Teams \nund im Stadtkampf verwen-\ndet. Er hat ein durchsichtiges \nPlasstahl-Fenster und einen ein-\ngebauten Leiterrahmen an der \nInnenseite, sodass er zum Über-\nklettern kleinerer Hindernisse \nbenutzt werden kann. Schutzschild\nDieser aus durchsichtigem Plas-\nstahl bestehende Cousin des bal-\nlistischen Schilds bietet zusätzlich \neine elektrische Angriffsoption. Der Angriff erfolgt mit der Fertigkeit Nahkampf und den \nAngriffscharakteristika eines Betäubungsschlagstocks. Der \nSchild enthält 10 elektrische Ladungen; ans Stromnetz \nangeschlossen, lädt er sich mit einer Geschwindigkeit von \n1 Ladung pro 10 Sekunden wieder auf. WiFi-V orteil: Der Schutzschild lädt sich per Induktion \nauf, was mit einer Geschwindigkeit von 1 Ladung pro \nStunde geschieht. verursacht wird, allerdings reicht der begrenzte Luftvorrat \nnur für eine Stunde. Zusätzlich neutralisiert die chemische \nVersiegelung den Status \nVerätzt\n für insgesamt 6 Angriffe; \nVerätzt\n für insgesamt 6 Angriffe; \nVerätzt\ndanach ist die Beschichtung so angegriffen, dass sie keine \nchemische Versiegelung mehr bietet. WiFi-V orteil:\n Zum Aktivieren der chemischen Versiege-\nlung ist nur eine Nebenhandlung erforderlich. Elektrische Isolierung\nElektrische Isolierung und nichtleitende Materialien schüt-\nzen den Träger. Diese Modifikation neutralisiert den Status \nGebrutzelt\n so viele Male, wie ihrer Stufe entspricht; danach \nGebrutzelt\n so viele Male, wie ihrer Stufe entspricht; danach \nGebrutzelt\nist die spezielle Beschichtung so angegriffen, dass sie keine \nResistenz gegen Elektrizität mehr bietet.",
+    "topic": "combat.attack",
+    "keywords": [
+      "elektrische",
+      "schild",
+      "bietet",
+      "veraetzt",
+      "danach",
+      "gebrutzelt",
+      "dieser",
+      "schutzschild"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0083_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 83, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 83,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Misslingt die Probe, kannst du wä hrend der gesamten \nBegegnung kein Edge erhalten oder ausgeben. Vorurteile (Gruppe)\nDu hast tief sitzende Ansichten und Vorstellungen über \neine gewisse Gruppe, von denen dich niemand abbringen \nkann, und diese sind nicht freundlich. Deine Meinung \nvon dieser Gruppe ist so negativ und ablenkend, dass du \ndich in ihrer Gegenwart auf nichts anderes konzentrieren \nkannst. Bonus:\n 8 Karma\nAuswirkung:\n Wähle eine bestimmte Gruppe oder Art von \nPersonen aus. Du kannst kein Edge erhalten oder ausge-\nben, wenn die Objekte deiner Vorurteile in deiner Nähe \nsind (außer, wenn du dich gegen sie wendest). Anmerkung:\n Spielleiter und Spieler sollten diesen Nachteil \nvorsichtig einsetzen. Alle in der Spielergruppe sollten \ndamit einverstanden sein, dass er benutzt wird, und er \nsollte nie als Ausrede dafür dienen, tatsächliche Vorur-\nteile auszuleben oder andere Spieler direkt oder indirekt \nverbal zu attackieren. SHADOWRUN: SECHSTE EDITION",
+    "topic": "edge",
+    "keywords": [
+      "gruppe",
+      "kannst",
+      "dich",
+      "kein",
+      "edge",
+      "erhalten",
+      "vorurteile",
+      "deiner"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "category": "encounter",
+  "id": "telemetry_desync_50",
+  "name": "Mission telemetry diverges from visible reality #50",
+  "tags": [
+    "paranoia_2e",
+    "encounter",
+    "batch_06"
+  ],
+  "summary": "Mission telemetry diverges from visible reality",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "trigger": "on_accusation",
+    "pressure": "medium",
+    "required_checks": [
+      "Data Analysis",
+      "Intimidation"
+    ],
+    "complication": "clone_separation",
+    "payoff": "intel_packet"
+  }
+}

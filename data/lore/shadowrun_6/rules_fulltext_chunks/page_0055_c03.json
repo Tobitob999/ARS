@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0055_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 55, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 55,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Auf den ersten beiden Stufen dieses Status erhält der Cha-\nrakter jeweils einen Würfelpoolmalus von -3 auf alle Pro-\nben, bei denen Sehen eine Rolle spielt. Auf der dritten \nStufe misslingt jede Probe, bei der Sehen eine Rolle spielt, \nautomatisch. Gebrutzel t\nEin heftiger Stromstoß hat dich getroffen und deine \nNervenbahnen zerrüttet. Auch deine Muskeln arbeiten \nnicht mehr richtig. Der Charakter erleidet einen Malus \nvon -2 auf sein Initiativeergebnis, ist außerstande zu \nsprinten und erhält einen Würfelpoolmalus von -1 auf \nalle Handlungen. Geräuschlos #\nDer Charakter gibt so gut wie keine Geräusche von sich. Die Zahl hinter dem Statusnamen gibt den Schwellenwert \nan, den ein Beobachter bei einer Wahrnehmungsprobe \nerreichen muss, um einen Charakter in diesem Status zu \nhören. Mikrofone und andere anorganische Methoden \nakustischer Wahrnehmung können jemanden in diesem \nStatus ganz normal hören. Geräuschlos (Verbessert) #\nDas Gleiche wie Geräuschlos, allerdings sind Mikrofone \nund andere akustische Technologie ebenfalls betroffen. Humpelnd\nJede Bewegung zu Fuß, ob durch die Handlung Bewegen, \nSprinten oder Weghechten, wird halbiert (aufgerundet). Liegend\nEiner der Klassiker – man wirft sich zu Boden, um eine \nstabilere Schussposition zu bekommen und ein weniger \nleichtes Ziel abzugeben. Die Bewegungsrate des Charak-\nters ist auf 2 Meter gesenkt, und er kann nicht Sprinten. Er erhält einen Würfelpoolbonus von +2 auf Verteidi-\ngungsproben gegen Fernkampfangriffe aus Mittlerer \noder größerer Entfernung, aber einen Würfelpoolmalus \nvon -2 bei Angriffen aus Naher oder Sehr naher Ent-\nfernung, da er sich nur eingeschränkt bewegen kann.",
+    "topic": "combat.initiative",
+    "keywords": [
+      "einen",
+      "status",
+      "erhaelt",
+      "wuerfelpoolmalus",
+      "charakter",
+      "sprinten",
+      "geraeuschlos",
+      "sich"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0112_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 112, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 112,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Dabei wird eine Probe auf Reaktion + Intuition (3) ab-\ngelegt. Der Schwellenwert dieser Probe kann je nach dem \nInformationsgrad der verschiedenen Gruppen über die \nallgemeine Situation, ihrem Überblick über das Gebiet, \nVorbereitungen für den Hinterhalt usw. modifiziert werden. Charaktere, die selbst einen Hinterhalt gelegt haben, müssen \nkeine Überraschungsprobe ablegen. Wem diese Probe gelingt, der kann wie üblich Initiative \nwürfeln und normal in der Initiativereihenfolge handeln. Wem die Probe misslingt, der würfelt ebenfalls wie üblich \nInitiative, kann aber in der ersten Kampfrunde weder Hand-\nlungen durchführen noch Edge ausgeben. Diese Charaktere \nlegen zwar Verteidigungsproben ab und widerstehen Schaden, \nkönnen aber selbst keine Handlungen durchführen. Wenn \ndie erste Kampfrunde vorbei ist, können sie normal handeln. Beispiel: Überraschung\nDie Crimson-Crush-Ganger waren nicht sehr begeistert \ndavon, in einer Bar in ihrem eigenen Territorium zusam-\nmengeschlagen zu werden. Ein paar von ihnen sehen \nOda auf der Straße und rufen ein paar Chummer an, die \nweiter die Straße runter einen kleinen Hinterhalt legen. Als Oda näher kommt, lassen sie die Falle zuschnappen, \nund eine Überraschungsprobe wird fällig. Oda hat einen \nWürfelpool von 9 (Reaktion 6 + Intuition 3), erzielt 3 \nErfolge und schafft damit den Schwellenwert der Probe. Er wird nicht überrascht. Wäre er überrascht worden, \nhätte er in der ersten Kampfrunde keine Handlungen \nzur Verfügung gehabt und hoffen müssen, dass ihn die \nGanger nicht allzu übel verprügeln.",
+    "topic": "combat.initiative",
+    "keywords": [
+      "probe",
+      "hinterhalt",
+      "einen",
+      "keine",
+      "kampfrunde",
+      "reaktion",
+      "intuition",
+      "gelegt"
+    ]
+  }
+}

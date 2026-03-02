@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_03_world_of_paranoia_p0038_c01",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_03_world_of_paranoia",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The World of Paranoia page 38, chunk 1.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_03_world_of_paranoia",
+    "source_title": "The World of Paranoia",
+    "page": 38,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "PARANOIA \nThe Troubleshooters are an elite class of citizens of proven merit, (That is to say, they consist largely of former Infrareds who proved their loyalty by turning comrades in to The Computer as traitors) Troubleshooters are formally assigned to service groups for trai ing, but in fact they are under the direct con- tual of The Computer. Most mission groups in- clude Troubleshooters from several service jroups, providing each team with an effective mixture of various backgrounds, skills, and, abilities, Troubleshooters are assigned the challeng- ing missions for which none of the other sere ice group staffs are particularly well-suited (or eager). Betause oftheir preven loyalty, they are foften assigned to missions where sensitive issues of security and public policy are concerned \nIndividual Troubleshooters are organized in- to mission groups. Sometimes a successful mmission group remains together for a series of missions, Sometimes Troubleshooters are reas- signed to new groups for no apparent reason. Sometimes individual Troubleshooters are assigned to solo missions, Usually The Computer selects a group's mis- sion, though successful groups are sometimes offered a choice of missions. Mission leaders are usually designated at the mission briefing, ‘along with minor staff roles like loyalty officer, \nTH WILL BE VE SAFE AND LOTS OF FUN FOR ALL OF yOu, \n‘weapons offices vehicle officer, robotics officer, ‘medical officer, hygiene officer, and so on. Mis- sion briefings are usually conducted by an i ‘mediate superior, though they are sometimes ‘conducted by The Computer through one of its many terminals or by courierdelivered writ- ten orders.",
+    "topic": "skills",
+    "keywords": [
+      "troubleshooters",
+      "groups",
+      "missions",
+      "sometimes",
+      "officer",
+      "they",
+      "computer",
+      "assigned"
+    ]
+  }
+}

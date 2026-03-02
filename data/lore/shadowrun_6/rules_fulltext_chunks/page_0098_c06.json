@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0098_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 98, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 98,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Schwellenwerte \nfür Bauen/Rep arieren\nSITUATION\n SCHWELLENWERT\nBasis-Schwellenwert\n 3\nART DES GEGENSTANDS\n SCHWELLENWERT-\nMODIFIKATOR\nNormales Fahrzeug\n +4\nIndustriefahrzeug\n +6\nMilitärfahrzeug\n +8\nUnterhaltungselektronik\n –\nCyberdeck\n s. Reparieren von \nMatrixschaden \n(S. 175)\nLizenzpﬂ ichtige Elektronik\n +1\nIllegale Elektronik\n +2\nWeit verbreitet\n –\nNur für spezielle \nEinsatzzwecke\n +1\nBeispiele für W affenarten\n• \nHandgemenge-Waffen (z.B. Kriegsfächer, Garotte)\n• \nPeitschen (z.B.Bullenpeitsche, Manriki)\n• \nKettensägen\n• \nWerfer (Granat- und Raketenwerfer)\n• \nDruckluftwaffen (z.B. Ares Super Squirt, Pfeilwaffen)\n• \nSprühwaffen (z.B. Flammenwerfer)\n• \nLaserwaffen\n• \nEnergiewaffen (z.B. Pulse)\nFeuerw affen\nSpezialisierungen:\n Automatikpistolen, Gewehre, Holdout-\nPistolen, Leichte Pistolen, Maschinengewehre, Maschi-\nnenpistolen, Schrotflinten, Schwere Pistolen, Sturm-\nkanonen, Taser\nUngeübt: \nJa\nPrimärattribut:\n Geschicklichkeit\nDu willst auf irgendetwas schießen? Dann ist eine Probe \nauf diese Fertigkeit fällig. Grundsätzlich legst du eine Pro-\nbe auf Feuerwaffen + Geschicklichkeit gegen Reaktion + \nIntuition des Gegners ab. Alle weiteren Details findest du \nim Kapitel \nKampf\n auf Seite 107. Kampf\n auf Seite 107. Kampf\nHeimlichkeit\nSpezialisierungen: \nFingerfertigkeit, Schleichen, Tarnung\nUngeübt:\n Ja\nPrimärattribut:\n Geschicklichkeit\nWie der Name schon sagt, sollten Shadowrunner möglichst \nauf Unauffälligkeit bedacht sein. Das macht Heimlichkeit \nzu einer sehr wertvollen Fertigkeit.",
+    "topic": "combat.damage",
+    "keywords": [
+      "schwellenwert",
+      "pistolen",
+      "geschicklichkeit",
+      "kampf",
+      "elektronik",
+      "spezialisierungen",
+      "ungeuebt",
+      "primaerattribut"
+    ]
+  }
+}

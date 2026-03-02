@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0288_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 288, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 288,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Balanceverst ärker\nDer Balanceverstärker verstärkt den natürlichen Gleich-\ngewichtssinn des Innenohrs. Der Charakter erhält einen \nWürfelpoolbonus von +1 für alle Proben, bei denen es um \ndas Gleichgewicht geht, wie etwa Klettern, das Gehen über \neinen schmalen Steg, das Landen nach einem Sprung usw. Dämpfer\nDieses Implantat schützt den Nutzer sowohl vor plötzlichen \nLautstärkeanstiegen als auch vor schädigenden Geräusch-\npegeln. Wenn der Charakter den Status \n Ertaubt \nerleidet, \nsenkt der Dämpfer diesen um 1 Stufe. Richtungsdetektor\nEine implantierte Version des Richtungsdetektors (S. 277). Selektiver Geräuschfil ter\nEine implantierte Version des Selektiven Geräuschfilters \n(S. 277), mit dem Unterschied, dass die maximal erhältliche \nStufe 6 statt 3 beträgt. Augen-Cyberw are\nIMPLANTAT\n ESSENZ\n KAPAZITÄT\n VERFÜGBARKEIT\n PREIS\nCyberaugen\n Stufe 1\n 0,1\n 1\n 2\n 1.000 ¥\n Stufe 2\n 0,2\n 4\n 2\n 4.000 ¥\n Stufe 3\n 0,3\n 8\n 3\n 6.000 ¥\n Stufe 4\n 0,4\n 12\n 3\n 10.000 ¥\n Stufe 5\n 0,5\n 16\n 3\n 16.000 ¥\nAugendrohne\n 0,3\n [6]\n 3\n 6.000 ¥\nBildverbindung\n 0,1\n –*\n 2\n 800 ¥\nBlitzkompensation\n 0,1\n [1]\n 2\n 1.000 ¥\nInfrarotsicht\n 0,1\n [2]\n 2\n 2.000 ¥\nRestlichtverstärkung\n 0,1\n [2]\n 2\n 1.500 ¥\nRetinaduplikat (Stufe 1–6)\n 0,1\n [1]\n 5I\n Stufe \n×\n 20.000 ¥\nSichtverbesserung\n 0,1\n [2]\n 3\n 4.000 ¥\nSichtvergrößerung\n 0,1\n [2]\n 3\n 2.000 ¥\nSmartlink\n 0,2\n [3]\n 3L\n 4.000 ¥\n* In Cyberaugen serienmäßig enthalten.",
+    "topic": "skills.physical",
+    "keywords": [
+      "stufe",
+      "charakter",
+      "einen",
+      "daempfer",
+      "implantat",
+      "implantierte",
+      "version",
+      "cyberaugen"
+    ]
+  }
+}

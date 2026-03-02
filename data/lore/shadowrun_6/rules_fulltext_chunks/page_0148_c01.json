@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0148_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 148, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 148,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Fernw ahrnehmung\n(Sp äher, Zauber)\nSchwellenwert: 5\nDieses Ritual erlaubt dir, Wahrnehmungszauber mit noch \ngrößerer Reichweite zu wirken. Der Wirkungsbereich des \nZaubers steigt auf [Magieattribut des Ritualleiters + Erfolge \nbei der Hexereiprobe in Schritt 6] × 100 Meter. Derjenige, \nauf den der Zauber gewirkt wird, muss sich während des \nRituals am Ritualplatz aufhalten, kann danach aber seinen \nneuen Sinn außerhalb davon einsetzen, während die Ritu-\nalteilnehmer den Zauber aufrechterhalten. Alle Teilnehmer \nnehmen das wahr, was das Ziel mithilfe des Zaubers wahr-\nnimmt. Wenn der Zauber ein Ziel hat (wie Telepathie oder \nGeistessonde), muss ein Späher dieses Ziel beobachten. Das Ritual braucht zur Vollendung 3 Stunden. Wenn \ndanach auch nur ein einziger der Teilnehmer den Zauber \nfallen lässt, endet die Wirkung. Fernzauber\n(Sp äher, Zauber)\nSchwellenwert: 6\nDieses Ritual gestattet dir, Kampfzauber auf entfernte \nZiele zu wirken, die sich nicht im Blickfeld deiner Ritu-\nalgruppe befinden. Damit können direkte und indirekte \nKampfzauber gewirkt werden. Direkte Kampfzauber reisen \ndurch den Astralraum zum Ziel. Indirekte Kampfzauber \nreisen durch die physische Welt, wozu sie einen freien (aber \nnicht unbedingt geraden) Weg zwischen dem Ritualplatz \nund dem Ziel brauchen, um es zu erreichen. Der Zauber \nfliegt vom Ritualplatz aus zum Ziel und weicht dabei selbst-\ntätig Hindernissen aus. Das Ritual braucht zur Vollendung 4 Stunden. Fluch\n(Ma terielle Verbindung, Zauber)\nSchwellenwert: 5\nEin Fluch erlaubt, ein Opfer mit einem Illusionszauber \ndurch eine Materielle Verbindung statt durch eine Mystische \nVerbindung über einen Späher zu treffen.",
+    "topic": "magic.spells",
+    "keywords": [
+      "zauber",
+      "ziel",
+      "ritual",
+      "kampfzauber",
+      "durch",
+      "schwellenwert",
+      "dieses",
+      "verbindung"
+    ]
+  }
+}

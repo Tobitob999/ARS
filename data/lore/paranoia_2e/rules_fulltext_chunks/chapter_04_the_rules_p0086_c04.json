@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_04_the_rules_p0086_c04",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_04_the_rules",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The Rules page 86, chunk 4.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_04_the_rules",
+    "source_title": "The Rules",
+    "page": 86,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "raw_text": "These vehicles are ex- tremely powerful, and olten heavily armed Unfortunately the Tioubleshooters do not have the requisite security clearance to access the Users’ manual, and The Computer is not about to permit such a drastic breach of regulations. Tying to operate a vehicle with no knawlerlge ofits capabilities can be frustrating: Troubleshooter: Okay, | ease the flybot into Beat Gamemaster: With a dramatic WHUMP, the steam cannon launches you out the tubes {at Mach 3. Gone-R is sucked out his win- dow by the slip stream. ‘Troubleshooter: | hit the ‘close windows” ‘switch, ‘Gamemaster: Which switch is that? ‘Troubleshooter: Ah — the one by my arm rest? Bot Damage Analysis: Runs a series of tests designed for each specific type and model of robot to determine nature and extent of any ‘damage or malfunction, Note: Does nat in- dicate alterations in software or frankensteins. Available for all models. ; \nDisease Analysis: Analyzes tissue and blood ‘samples for foreign bacteria, vir, etc. as well as chemical imbalances, genetic disorders, and 50 forth, Standard installation on many doc bot models. Available for all models, \nRecorder: Available for all models. May ‘operate like a sound of video tape recorder, and can also record data, images, and inter- pretations from any other multicorder program. ‘The recorder program is routinely loaded in- to the portable or vehicle-insalled multicorder assigned 10 each Troubleshogier mission, The recorder program may thus provide a complete record of a party’ activities.",
+    "topic": "clearance",
+    "keywords": [
+      "models",
+      "recorder",
+      "troubleshooter",
+      "available",
+      "program",
+      "operate",
+      "vehicle",
+      "gamemaster"
+    ]
+  }
+}

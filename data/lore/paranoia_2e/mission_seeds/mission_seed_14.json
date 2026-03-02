@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "category": "mission_seed",
+  "id": "mission_seed_14",
+  "name": "Mission Seed 14",
+  "tags": [
+    "paranoia_2e",
+    "mission",
+    "seed"
+  ],
+  "summary": "Troubleshooter cell must verify food-vat purity.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "objective": "verify food-vat purity",
+    "assigned_by": "Research & Design",
+    "hidden_agenda": "Illuminati",
+    "twist": "objective_is_fabricated",
+    "countdown": 7,
+    "failure_cost": "demotion_risk"
+  }
+}

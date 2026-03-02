@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0253_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 253, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 253,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Mit einem laufmontierten Schalldämpfer \nsind die beiden Modelle fast schon trideotauglich leise. Die 75 ist ab Werk mit einem Smartgunsystem und zuge-\nhöriger Software ausgestattet, und beide Modelle verfügen \nüber einen Lasermarkierer. Der für diese Modelle optional \nerhältliche Schalldämpfer erhöht den Schwellenwert für \nakustische Wahrnehmungsproben um 3, wenn er aufge-\nsteckt wird, und kostet 750 ¥. Berett a T-Serie\nDie Waffen der T-Serie von Beretta sind die bevorzugten \nSeitenwaffen vieler Sicherheitstruppen der Welt. Sie werden \nals leichte Pistolen klassifiziert, obwohl das Modell 201 \nzu Automatikfeuer fähig ist, was die Waffe besonders in \n* Bei Verwendung des Smartgunsystems steigen die Angriffswerte für alle verfügbaren Reichweiten jeweils um 1. Fichetti Security 600\nDiese als leichte Seitenwaffe für Sicherheitskräfte entwi-\nckelte Pistole erlaubt dem Benutzer dank ihres 30-Schuss- \nMagazins, wild um sich zu ballern, ohne sich Sorgen um \nseine Munition zu machen. Dadurch ist sie auch eine her-\nvorragende Waffe für Decker. Die Security 600 ist mit einer \nabnehmbaren Schulterstütze und einem Lasermarkierer \nausgestattet. Ruger Redha wk\nDieser robuste Revolver ist der kleine Bruder des legendären \nSuper Warhawk. Der Redhawk wurde im Hinblick auf \nPräzision und Ballerfreude konstruiert und weist einen revo-\nlutionären Single/Double-Action-Auswahlschalter auf. Die \nW al ther P alm Pistol\nWalther hat mit der Palm Pistol den klassischen doppelläu-\nfigen Derringer mit übereinander angeordneten Läufen in \ndie zweite Hälfte des 21. Jahrhunderts hinübergerettet.",
+    "topic": "combat",
+    "keywords": [
+      "einem",
+      "modelle",
+      "schalldaempfer",
+      "ausgestattet",
+      "einen",
+      "lasermarkierer",
+      "diese",
+      "serie"
+    ]
+  }
+}

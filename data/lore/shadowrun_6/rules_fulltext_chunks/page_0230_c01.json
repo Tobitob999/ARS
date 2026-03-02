@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0230_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 230, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 230,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Nahrungsbedarf\nCritter mit dieser Schwäche müssen etwas Außergewöhn-\nliches oder Exotisches in ihrem Nahrungsplan berücksich-\ntigen. Typische Beispiele sind Giftmüll, Erdöl, Gold oder \nmetamenschliches Fleisch. Soweit in der Beschreibung des \nCritters nicht anders angegeben, benötigt er mindestens \neine solche Mahlzeit pro Tag, je nach Größe und Meta-\nbolismus. An jedem Tag, an dem er seinen Nahrungsbe-\ndarf nicht decken kann, erleidet er einen (kumulativen) \nWürfelpoolmalus von -2 auf alle Handlungen, und sein \nKonstitutionsattribut sinkt um 1. Fällt die Konstitution \nauf 0, stirbt der Critter. Ungebildet\nDiese Schwäche funktioniert genauso wie der Nachteil \nUngebildet (siehe S. 81). Verwundbarkeit\nManche Critter haben einen wunden Punkt, der ihnen mehr \nschadet als andere Dinge oder gegen den sie keine Vertei-\ndigung besitzen. Manchmal handelt es sich dabei um eine \nSubstanz. Diese Substanz, beispielsweise Holz oder Gold \noder Stahlbeton, verursacht zusätzlichen Schaden, wenn sie \nals Waffe gegen den Critter eingesetzt wird. Der Schadenswert \naller Angriffe mit dieser Substanz ist um das Magieattribut \ndes Critters oder um 3 erhöht (der höhere der beiden Werte). Waffen, die aus einer solchen Substanz bestehen, umgehen \neventuelle Immunitäten, die der Critter besitzt. Schaden von \neiner solchen Substanz kann nicht durch Regeneration oder \nHeilmagie geheilt werden, sondern nur auf natürliche Weise. Einige Verwundbarkeiten sind keine Substanzen, sondern \nBedingungen. Zum Beispiel ist ein Basilisk durch seine eigene \nVersteinerungskraft verwundbar.",
+    "topic": "races",
+    "keywords": [
+      "critter",
+      "substanz",
+      "dieser",
+      "schwaeche",
+      "gold",
+      "einen",
+      "ungebildet",
+      "gegen"
+    ]
+  }
+}

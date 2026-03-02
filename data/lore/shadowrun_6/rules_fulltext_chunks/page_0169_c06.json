@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0169_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 169, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 169,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Bei der ersten Initiation erhält ein Charakter \nden Spielwert Initiatengrad, der (natürlich) mit 1 beginnt. Dieser Wert steigt bei jeder zukünftigen Initiation um 1. Dein \nInitiatengrad kann niemals höher sein als dein Magieattribut. Wenn etwas dazu führt, dass dein Magieattribut sinkt, sodass \nes niedriger ist als dein Initiatengrad, sinkt dieser automatisch \nso weit, dass er gleich deiner Magie ist, und du verlierst alle \ndadurch erhaltenen Verbesserungen. Um eine Initiation durchzufü hren, lege eine Ausgedehn-\nte Probe auf deine hö chste magische Fertigkeit + Magie \n(neuer Initiatengrad, 1 Monat) ab und gib [10 + neuer \nInitiatengrad] Karma aus. Adepten verwenden für diese \nProbe die höchste Fertigkeit, die mit einer ihrer Adepten-\nkräfte verknüpft ist (also z.B. Nahkampf, wenn der Adept \nTodeskralle hat). Du musst dich mindestens 8 Stunden \npro Tag mit deiner Initiation beschäftigen. Misslingt die \nProbe, hast du nur Zeit verschwendet, nicht aber das Kar-\nma. Sobald der Schwellenwert erreicht und das Intervall \nDas Maximum deines Magieattributs steigt um 1. Das \nMaximum deines Magieattributs beträgt 6 + Initiatengrad \n(-1 für jeden angefangenen verlorenen Essenzpunkt), daher \nkannst du es nach einer Initiation möglicherweise steigern. Diese Steigerung entsteht aber nicht automatisch mit der \nInitiation: Du musst sie (wie jede Attributserhöhung) mit \nKarma bezahlen. Du erhältst Zugang zu den Metaebenen. Wenn du In-\nitiatengrad 1 erreichst, erhältst du die Fähigkeit, andere \nMetaebenen zu besuchen, wenn du astral projizieren \nkannst. Metaebenen sind die Heimat von Geistern und \nbesitzen dieselben allgemeinen Charakteristika wie ihre \nBewohner. Du lernst eine Metamagie.",
+    "topic": "magic",
+    "keywords": [
+      "initiation",
+      "initiatengrad",
+      "dein",
+      "probe",
+      "metaebenen",
+      "dieser",
+      "steigt",
+      "magieattribut"
+    ]
+  }
+}

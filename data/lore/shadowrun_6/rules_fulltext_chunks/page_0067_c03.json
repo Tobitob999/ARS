@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0067_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 67, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 67,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Nur eine Fertigkeit kann bei der \nCharaktererschaffung mit diesem maximalen Wert (6 oder \n7) erworben werden. Im Spielverlauf können Fertigkeiten \nden Wert 9 (10 mit dem Vorteil Talentiert) erreichen. Fer-\ntigkeiten beginnen beim Wert 0. Punkte für Fertigkeiten \naus der Prioritätentabelle werden eins zu eins ausgegeben: \nJeder Punkt erhöht die betreffende Fertigkeit um 1. Die \nBeschreibungen der einzelnen Fertigkeiten findest du im \nKapitel Fertigkeiten (S. 94). Du kannst bei der Charaktererschaffung auch Spezi-\nalisierungen (Beschreibung siehe S. 94) auswählen. Eine \nSpezialisierung kostet bei der Charaktererschaffung einen \nFertigkeitspunkt. Bei der Charaktererschaffung kannst du \nnicht mehr als eine Spezialisierung pro Fertigkeit erwerben; \neine Expertise steht noch nicht zur Verfügung. A ttribute nach Met a typ\nMETATYP\n KONSTITUTION\n GESCHICKLICHKEIT\n REAKTION\n STÄRKE\n WILLENSKRAFT\n LOGIK\n INTUITION\n CHARISMA\n EDGE\nMensch\n 1–6\n 1–6\n 1–6\n 1–6\n 1–6\n 1–6\n 1–6\n 1–6\n 1–7\nVorteile durch Metatyp:\n Keine\nElf\n 1–6\n 1–7\n 1–6\n 1–6\n 1–6\n 1–6\n 1–6\n 1–8\n 1–6\nVorteile durch Metatyp:\n Restlichtverstärkung\nOrk\n 1–8\n 1–6\n 1–6\n 1–8\n 1–6\n 1–6\n 1–6\n 1–5\n 1–6\nVorteile durch Metatyp:\n Restlichtverstärkung, Robust Gebaut 1\nTroll\n 1–9\n 1–5\n 1–6\n 1–9\n 1–6\n 1–6\n 1–6\n 1–5\n 1–6\nVorteile durch Metatyp:\n Dermalablagerungen, Infrarotsicht, Robust Gebaut 2\nZwerg\n 1–7\n 1–6\n 1–5\n 1–8\n 1–7\n 1–6\n 1–6\n 1–6\n 1–6\nVorteile durch Metatyp: \nInfrarotsicht, Toxinresistenz\nBeispiel: Ausw ahl von Priorit ä ten\nTom und Alyson wollen Charaktere für ein Spiel erschaffen, \nin dem sie zusammen spielen werden, also wollen sie, dass \ndie beiden einander ergänzen.",
+    "topic": "skills",
+    "keywords": [
+      "metatyp",
+      "vorteile",
+      "durch",
+      "charaktererschaffung",
+      "fertigkeiten",
+      "wert",
+      "eins",
+      "kannst"
+    ]
+  }
+}

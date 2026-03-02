@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0165_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 165, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 165,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Du musst sie schnell durch-\nbrechen, da sich die Barriere am Ende jeder Kampfrunde \nwieder zu ihrer vollen Strukturstufe regeneriert. Der Er-\nschaffer einer Manabarriere wird sich jedes Angriffs gegen \nsie sofort bewusst. Erwachte haben aber auch noch eine andere Möglich-\nkeit als brutale Gewalt gefunden, sich mit Manabarrieren \nauseinanderzusetzen. Du kannst versuchen, dich mit ei-\nner Vergleichenden Probe auf Charisma + Magie gegen \nStrukturstufe × 2 der Manabarriere durchzudrücken. Wenn \ndu Nettoerfolge erzielst, diffundierst du durch die Barri-\nere und kommst auf der anderen Seite heraus. Du kannst \npro Nettoerfolg über den ersten hinaus je einen Freund, \nGeist, aktivierten Fokus, aufrechterhaltenen Zauber oder \neine andere astrale Gestalt mitnehmen. Wenn die Barriere \nmindestens genauso viele Erfolge erzielt wie du, scheitert \ndieser Versuch. Der Erschaffer der Manabarriere bemerkt \nnichts von einem erfolgreichen Versuch dieser Art, wird \nsich aber eines erfolglosen Versuchs wie bei einem Angriff \nsofort bewusst. Schutzgeister\nMagie ist nicht leicht zu verstehen. Es gibt Dutzende, wenn \nnicht Hunderte Zauber, Geisterarten, die noch nicht voll-\nständig gezählt und klassifiziert sind, und immer mehr \nErwachte Critter und Pflanzen, die entdeckt und unter-\nsucht werden. Bei all dieser Magie ist es hilfreich, eine Art \nFührung und Hilfestellung zu haben: jemanden, der dich \nnicht nur den Einsatz der Magie lehrt, sondern dir auch \neine Art Kodex vorgibt, der der Macht, die du besitzt, \neinen Sinn verleiht. Erwachte Personen wenden sich zu diesem Zweck oft an \nSchutzgeister.",
+    "topic": "combat.attack",
+    "keywords": [
+      "sich",
+      "magie",
+      "manabarriere",
+      "erwachte",
+      "dieser",
+      "durch",
+      "barriere",
+      "strukturstufe"
+    ]
+  }
+}

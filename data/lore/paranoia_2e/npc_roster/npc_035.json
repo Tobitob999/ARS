@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npc",
+  "id": "npc_035",
+  "name": "Rook-J-R-35",
+  "tags": [
+    "paranoia_2e",
+    "npc",
+    "roster"
+  ],
+  "summary": "HPD & MC operative with layered loyalties.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "service_group": "HPD & MC",
+    "secret_society": "Romantics",
+    "mutation": "Density Control",
+    "trait": "opportunistic",
+    "clearance": "Green",
+    "use_in_play": "double_agent"
+  }
+}

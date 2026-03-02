@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0222_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 222, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 222,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Ein Critter kann \neine Anzahl Kräfte aufrechterhalten (oder die gleiche \nKraft mehrfach), die seinem Magieattribut entspricht. Die \nAusnahme ist die Kraft Natürlicher Zauberspruch, bei \nder Hexerei verwendet wird, um den Zauber zu wirken. Der Natürliche Zauberspruch muss entsprechend den He-\nxereiregeln auf Seite 134 aufrechterhalten werden, aber \nein Critter kann bei Benutzung dieser Regeln mehrere \nZauber gleichzeitig aufrechterhalten. Permanente\n Kräfte \nmüssen über einen bestimmten Zeitraum aufrechterhalten \nwerden, bevor ihre Wirkung permanent wird – siehe \nBeschreibung der jeweiligen Kraft. Bei einigen Kräften \nist als Dauer \nSpeziell\n angegeben, was in der Beschreibung \nSpeziell\n angegeben, was in der Beschreibung \nSpeziell\ndieser Kräfte genauer erläutert wird. Astrale Gest al t\nART\n HANDLUNG\n REICHWEITE\n DAUER\nM\n Auto\n Selbst\n Immer\nEin Critter mit dieser Kraft existiert nur auf der Astralebene. Nur astrale Angriffe und Manazauber oder -kräfte können \nihn verletzen; physische Angriffe haben keine Wirkung. Um-\ngekehrt kann ein astraler Critter auch nur auf Dualwesen \noder Wesen einwirken, die sich (durch astrale Projektion \noder astrale Wahrnehmung) auf der Astralebene befinden. Critter mit dieser Kraft können sich auf der physischen \nEbene auf die gleiche Weise manifestieren wie astral pro-\njizierende Zauberer (S. 162). Östlicher Drache\nK\n G\n R\n S\n W\n L\n I\n C\n M\n ESS\n16\n 7\n 7\n 30\n 9\n 10\n 8\n 9\n 10\n 10\nInitiative:\n 15 + 3W6\nHandlungen:\n 2 Haupt, 4 Neben\nZustandsmonitor:\n 16/13\nVerteidigungswert:\n 26 Phys./19 Myst.",
+    "topic": "magic.spells",
+    "keywords": [
+      "critter",
+      "kraft",
+      "kraefte",
+      "aufrechterhalten",
+      "dieser",
+      "astrale",
+      "beschreibung",
+      "speziell"
+    ]
+  }
+}

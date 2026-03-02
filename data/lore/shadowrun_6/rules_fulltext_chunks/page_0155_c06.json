@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0155_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 155, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 155,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Diese Formeln sind zu \nkomplex, als dass ein metamenschlicher Zauberer sie sich \nmerken könnte, und müssen daher irgendwie festgehalten \nwerden. Man kann Fokusformeln in Magieläden und bei \nTaliskrämern kaufen. Alle Fokusformeln legen die Art des Fokus (Zauber-, \nGeister-, Kraft-, Waffenfokus usw.), seine Gestalt (hölzerner \nStab, goldener Ring, Vibromesser usw.) und seine Tradition \n(hermetisch oder schamanisch) fest. Die Formeln, die man \nbei Taliskrämern erwerben kann, geben meist traditionelle \nGestalten (wie Stäbe, Amulette, Runenschwerter usw.) vor. Daher entwickeln viele Zauberer ihre eigenen Formeln \n(wobei es sich um fortgeschrittene Magie handelt, die in \neinem zukünftigen Buch behandelt wird). Die Kraftstufe der \nFokusformel darf nicht hö her sein als dein Magieattribut, \nund die Kraftstufe des Fokus in Schritt 5 kann nicht höher \nsein als die der Fokusformel. Schritt 2:\nTelesma beschaffen\nBevor du einen Fokus herstellen kannst, musst du einen Ge-\nvorbereitet wird, wird als Telesma bezeichnet. Das Beschaffen \ndes Objekts kann einfach oder kompliziert sein. Wenn die \nFormel ein Messer verlangt, kannst du es einfach im nächsten \nWeapons World kaufen. Wenn du eine Flöte brauchst, die aus \nden Knochen eines Kalifornischen Kondors geschnitzt ist, \nkann das einiges an Aufwand bedeuten. Grundsätzlich kann \njedes unbelebte Objekt ein Telesma sein: ein Holzstab, ein \nJuwelenamulett, eine Waffe, ein Auto, ein seltsam geformter \nStein und so weiter. Je natürlicher und weniger bearbeitet ein \nTelesma ist (oder je mehr Arbeit du selbst in die Herstellung \ndes Telesmas investierst), desto leichter ist es zu verzaubern.",
+    "topic": "combat",
+    "keywords": [
+      "sein",
+      "telesma",
+      "formeln",
+      "fokus",
+      "zauberer",
+      "sich",
+      "daher",
+      "taliskraemern"
+    ]
+  }
+}

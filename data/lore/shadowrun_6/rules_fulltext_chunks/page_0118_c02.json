@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0118_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 118, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 118,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Wenn vier Lone-Star-Bullen ihre Knüppel gezogen \nhaben und zwei ihre Pistolen, arbeiten die vier Knüppelträger \nzusammen, und die beiden Schützen widmen sich als Paar dem \nVerdächtigen ihrer Wahl. Bei einer Schergen-Gruppe gelten der höchste Angriffs-\nwert und der höchste Würfelpool unter den Mitgliedern. Das sind die Grundwerte der Gruppe. Jedes Mitglied der \nGruppe über das erste hinaus erhöht den Angriffswert \num 1. Jedes ungerade Mitglied ab dem dritten erhöht den \nWürfelpool für den Angriff um 1. Mit diesen modifizier-\nten Werten legen sie als Gruppe eine einzelne Angriffs-\nprobe ab (und verursachen auch nur einmal Schaden). Aus logistischen Erwägungen sollte eine angreifende \nSchergen-Gruppe nicht mehr als 5 Mitglieder haben, weil \ngrößere Gruppen einander eher im Weg stehen. Beispiel: \nSchergen-Gruppe\nVier Streifenpolizisten von Lone Star mit Knüppeln \nwollen einen armen Ganger verprügeln. Sie haben alle \nähnliche Werte, aber der Ork unter ihnen ist etwas mus-\nkulöser, wodurch sie einen Angriffswert von 8 und einen \nWürfelpool von 6 (Nahkampf 4 + Geschicklichkeit 2) \nhaben. Weil sie als Schergen-Gruppe handeln, beträgt \nder modiﬁ zierte Angriffswert 11 (8 + 3 für zusätzliche \nMitglieder) und ihr Würfelpool 7 (6 + 1 für das dritte \nMitglied). Wären es 5 Streifenpolizisten, würden sie noch \n1 weiteren Punkt auf ihren Angriffswert und noch einen \nWürfel für ihre Angriffsprobe erhalten. Betonwand zeigt ein Überschreiten der Strukturstufe um \n1. Das erzeugt ein Loch von 1 Meter Durchmesser, weil \ndie Strukturstufe erreicht ist, und zusätzlich 0,5 Meter \nDurchmesser, weil die Strukturstufe um 1 überschritten \nwurde, insgesamt also 1,5 Meter Durchmesser.",
+    "topic": "combat.attack",
+    "keywords": [
+      "gruppe",
+      "schergen",
+      "wuerfelpool",
+      "angriffswert",
+      "weil",
+      "einen",
+      "vier",
+      "ihre"
+    ]
+  }
+}

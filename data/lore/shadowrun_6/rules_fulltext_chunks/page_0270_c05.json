@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0270_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 270, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 270,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Sa tellitenverbindung\nDamit kann sich der User mit Kommunikationssatelliten \nim niedrigen Orbit verbinden und von den wenigen Orten \naus mit der Matrix interagieren, an denen es kein Wi-\nFi-Netzwerk gibt. Die Verbindung beschränkt das Rauschen \naufgrund von Entfernung auf maximal -5. Eine tragbare \nSatellitenschüssel ist im Lieferumfang enthalten. Sim-Modul\nDieses interne Upgrade gibt dem Benutzer die volle Sim-\nsinn-Erfahrung. Es ermöglicht ihm, Simsinn-Programme, \nvollsensorische AR und VR direkt zu erleben. Auf ein \nSim-Modul muss über ein direktes Neuralinterface zuge-\ngriffen werden (Troden, Datenbuchse oder implantiertes \nKommlink). Sim-Module können für heißes Sim modifiziert \nwerden, was einem die volle Bandbreite der VR-Erfahrung \neröffnet (und das Risiko, sich das Hirn zu rösten). Simrig\nDieser Simsinn-Rekorder kann sensorische und emotionale \nDaten seines Trägers aufzeichnen. Mit Simrigs werden die \nmeisten Simsinn-Chips aufgezeichnet, die man auf dem \nMarkt findet. Für eine Aufzeichnung braucht man ein funk-\ntionierendes Sim-Modul (mit DNI). Subvokales Mikrofon\nDieser hautfarbene Aufkleber, der am Hals befestigt wird, \nenthält ein Mikrofon, das eine subvokale Kommunikation \nohne erkennbare Lippenbewegungen erlaubt. Wer versucht, \ndie Unterhaltung mitzuhören, kann für seine Wahrneh-\nmungsprobe weder Edge erhalten noch ausgeben. Trideoprojektor\nDieses Gerät projiziert ein Trideohologramm in einen \nfünf Meter durchmessenden Würfel neben oder über dem \nGerät.",
+    "topic": "advancement",
+    "keywords": [
+      "modul",
+      "simsinn",
+      "sich",
+      "gibt",
+      "dieses",
+      "volle",
+      "erfahrung",
+      "dieser"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "id": "commie_mutant_false_flag",
+  "module_type": "combat",
+  "trigger_condition": "GM pacing trigger",
+  "description": "Faked commie incursion triggers crossfire and blame game.",
+  "monsters": [],
+  "damage": "contextual",
+  "saving_throw": "none",
+  "effect_description": "Escalates paranoia, treason pressure, and inter-player conflict.",
+  "loot": [],
+  "xp_reward": 0
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npc",
+  "id": "npc_021",
+  "name": "Vex-V-R-21",
+  "tags": [
+    "paranoia_2e",
+    "npc",
+    "roster"
+  ],
+  "summary": "PLC operative with layered loyalties.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "service_group": "PLC",
+    "secret_society": "Purge",
+    "mutation": "Empathy",
+    "trait": "zealous",
+    "clearance": "Green",
+    "use_in_play": "reluctant_ally"
+  }
+}

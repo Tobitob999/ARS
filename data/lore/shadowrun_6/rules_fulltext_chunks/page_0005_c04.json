@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0005_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 5, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 5,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "216\nErwachte Critter\n ................................. 216\nDracoformen\n ...................................... 219\nCritterkräfte\n ........................... 221\nAstrale Gestalt\n .................................... 221\nÄtzender Speichel\n .............................. 222\nBewegung\n .......................................... 222\nBewusstsein\n ....................................... 222\nBindung\n ............................................. 222\nDualwesen\n ......................................... 222\nEinﬂ uss\n .............................................. 223\nElementarer Angriff\n ............................ 223\nEnergieaura\n ........................................ 223\nEssenzentzug\n ..................................... 223\nGedankensprache\n ............................... 223\nGesteigerte Sinne\n ............................... 224\nGift\n ..................................................... 224\nGifthauch\n ........................................... 224\nGrauen\n ............................................... 224\nImmunität\n .......................................... 224\nInfektion\n ............................................. 224\nLähmende Berührung\n ........................ 224\nLähmendes Heulen\n ............................ 225\nMaterialisierung\n 225\nMystischer Panzer\n .............................. 225\nNatürliche Waffe\n ................................. 225\nNatürlicher Zauberspruch\n .................. 225\nNebelgestalt\n ....................................... 225\nPanzer\n ................................................ 226\nPsychokinese\n ..................................... 226\nRegeneration\n ......................................",
+    "topic": "movement",
+    "keywords": [
+      "panzer",
+      "erwachte",
+      "critter",
+      "dracoformen",
+      "astrale",
+      "gestalt",
+      "aetzender",
+      "speichel"
+    ]
+  }
+}

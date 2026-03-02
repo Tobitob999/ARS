@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0138_c07",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 138, chunk 7.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 138,
+    "chunk_index": 7,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Gelingt dein Zauber, ist sein Schaden gleich deinen Net-\ntoerfolgen und wird zu eventuellem zusätzlichem Schaden \ndurch Hochdrehen des Zaubers addiert. Ist der Zauber \nerfolgreich, aber du erzielst keine Nettoerfolge, ist der \nSchaden des Zaubers gleich dem Schaden durch Hoch-\ndrehen (sofern du diese Anpassung zuvor gewählt hast). Dem Schaden durch direkte Kampfzauber kann nicht \nwiderstanden werden. Indirekte Kampfzauber\nStatt die Magie den Schaden direkt verursachen zu las-\nsen, erschaffen indirekte Kampfzauber einen Effekt, der \nden Schaden verursacht – indem sie zum Beispiel einen \nSHADOWRUN: SECHSTE EDITION\nZAUBER // MAGIE // 137",
+    "topic": "combat.damage",
+    "keywords": [
+      "schaden",
+      "zauber",
+      "durch",
+      "kampfzauber",
+      "gleich",
+      "indirekte",
+      "magie",
+      "einen"
+    ]
+  }
+}

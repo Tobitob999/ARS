@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0113_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 113, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 113,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Er wirkt im Regelfall nicht kumulativ, \naber es gibt Vorteile, Bodytech und Zusatzpanzerung wie \nHelme, Schilde und Schutzpolster, die eine leichte zusätz-\nliche Erhöhung bieten können. Verteidigungswert\nDieser Wert gibt an, wie zäh diese Blechbüchse oder Spin-\nnenseide-Kevlar-Kombination ist, die du trägst. Er ist eine \nZusammenfassung von Panzerungswert und Konstitution \nund kann von Vor- und Nachteilen sowie Ausrüstung beein-\nflusst werden. Er wird mit dem Angriffswert verglichen, um \nfestzulegen, ob jemand einen ausreichend großen Vorsprung \nhat, um Edge zu erhalten. Schadenswert\nDas ist der unmodifizierte Schaden, der mit einem erfolg-\nreichen Angriff verursacht wird. Diese Zahl wird durch die \nNettoerfolge bei der Angriffsprobe verändert und kann sich \nauch durch unterschiedliche Munition leicht verändern. Der Schadenswert bei waffenlosen Nahkampfangriffen \nbeträgt 2B. Feuermodi\nJede Fernkampfwaffe kann im Einzelschuss-Modus (EM) \nfeuern, selbst wenn diese Option nicht ausdrücklich auf-\ngeführt ist. Viele Feuerwaffen können zusätzlich im Hal-\nbautomatischen Modus (HM), Salvenmodus (SM) und/\noder Vollautomatischen Modus (AM) feuern. Diese Feu-\nermodi bieten taktische Optionen, allerdings auf Kosten \nder Schussgenauigkeit. Sie erfordern nicht den Einsatz der \nNebenhandlung \nMehrfachangriffe\n (S. 43). EM:\n Du feuerst eine einzelne Kugel ab. An den Werten der \nWaffe ändert sich in diesem Feuermodus nichts. HM:\n Du feuerst durch zweimaliges Ziehen des Abzugs \nschnell hintereinander zwei Kugeln ab. Der Angriffswert \nder Waffe sinkt dadurch um 2, der Schadenswert steigt \num 1. Alle HM-fähigen Waffen können auch im Einzel-\nschuss-Modus feuern.",
+    "topic": "combat.attack",
+    "keywords": [
+      "diese",
+      "modus",
+      "schadenswert",
+      "durch",
+      "feuern",
+      "gibt",
+      "bieten",
+      "angriffswert"
+    ]
+  }
+}

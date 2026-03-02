@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0074_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 74, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 74,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Vor- und \nNachteile können auch nach der Charaktererschaffung er-\nSHADOWRUN: SECHSTE EDITION\nVOR- UND NACHTEILE // Charakter erschaffung // 73",
+    "topic": "general",
+    "keywords": [
+      "nachteile",
+      "charaktererschaffung",
+      "shadowrun",
+      "sechste",
+      "edition",
+      "erschaffung"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0187_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 187, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 187,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Stattdessen bringt es ein zufällig ausgewähltes Pro-\ngramm des Ziels zum Absturz. Dieses Programm \nkann bis zu einem Neustart des Geräts, auf dem es \nlief, nicht mehr gestartet werden. Aufspüren\nVerteidigung: Willenskraft + Schleicher\nAufspüren verursacht keinen direkten Schaden. Es \nsoll Informationen sammeln, die nützlich sein kön-\nnen, wenn später Schaden verursacht werden soll. Wenn Aufspüren im Matrixkampf trifft, entdeckt es \nden physischen Aufenthaltsort des Ziels. Blaster\nVerteidigung: Logik + Firew all\nBlaster ist nicht auf die leichte Schulter zu nehmen, \nhat es aber nicht so sehr auf deinen Tod abgesehen \nwie Schwarzes IC. Klar will es dich mit allem foltern, \nwas die Matrix an Qualen zu bieten hat, aber man \nmuss wenigstens am Leben sein, um Schmerzen zu \nerleiden. So viel zum Positiven. Im Matrixkampf ver-\nursacht Blaster [Hoststufe + Nettoerfolge] Kästchen \nMatrixschaden (dem mit Firewall widerstanden wird) \nund belegt das Ziel mit einer Linksperre. Bremse\nVerteidigung: Willenskraft + \nDa tenverarbeitung\nBremse will deine Abläufe verlangsamen und dafür \nsorgen, dass du nicht so viele Programme aktiv haben \nkannst, wie du möchtest. Wenn Bremse im Matrix-\nkampf trifft, wird das Attribut Datenverarbeitung des \nZiels um 1 pro Nettoerfolg gesenkt. Wenn Datenver-\narbeitung auf 0 sinkt, können keine Matrixhandlun-\ngen durchgeführt werden, bis es wieder mindestens 1 \nbeträgt. Verlorene Punkte regenerieren sich mit einer \nGeschwindigkeit von 1 Punkt pro Minute, nachdem \nder Eindringling den Host verlassen hat. SHADOWRUN: SECHSTE EDITION",
+    "topic": "combat.defense",
+    "keywords": [
+      "ziels",
+      "aufspueren",
+      "verteidigung",
+      "blaster",
+      "bremse",
+      "willenskraft",
+      "verursacht",
+      "schaden"
+    ]
+  }
+}

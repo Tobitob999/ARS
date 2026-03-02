@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0340_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 340, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 340,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "54\nGebrutzelt (Status) .............................54\nGeckotape-Handschuhe \n (Überlebensausrüstung) ...............281\nGedanken Beherrschen (Zauber) ......140\nGedankensprache (Critterkraft) ........223\nGeeken (Slang) ....................................8\nGefahrensinn (Adeptenkraft) ............158\nGefälschte Lizenz .............................273\nGefälschte SIN .................................273\nGeﬁ ederte Schlange .........................220\nGefraggt (Slang) ..................................8\nGefütterter Mantel (Panzerung) ........265\nGegenmittel (Zauber) .......................135\nGegenstand aufnehmen/ablegen \n (Handlung) ......................................45\nGegenstand fallen lassen (Handlung) ...43\nGeigerzähler (Sensorfunktion) .........278\nGeist befehligen (Handlung) ...............43\nGeist herbeirufen (Handlung) .............45\nGeist verbannen (Handlung) ..............45\nGeister .............................................149\nGeister des Menschen ......................150\nGeister des Tieres ............................151\nGeister und Edge ..............................149\nGeister und Entfernung ....................151\nGeisterarten .....................................150\nGeisterdienste ..................................149\nElite-Konzernsicherheit (Schergen)\n .. 208\nElite-Spezialeinheiten (Schergen)\n ..... 210\nEndoskop (optisches Gerät)\n ............. 275\nEnergieaura (Critterkraft)\n ................. 223\nEnergieball (Zauber)\n ......................... 138\nEnergieblitz (Zauber)\n ........................ 139\nEnge Salve\n ....................................... 112\nEnterhakenkanone (Cyberware)\n .......",
+    "topic": "magic.spells",
+    "keywords": [
+      "handlung",
+      "geister",
+      "zauber",
+      "critterkraft",
+      "slang",
+      "gefaelschte",
+      "gegenstand",
+      "elite"
+    ]
+  }
+}

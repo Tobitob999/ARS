@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0147_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 147, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 147,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Wenn ein Teilnehmer (abgesehen \nvom Späher) den Ritualplatz nach Schritt 3, aber vor der \nVollendung des Rituals, verlässt, scheitert es sofort. Wenn der \nRitualleiter vor Schritt 6 ohnmächtig wird oder stirbt, schei-\ntert es ebenfalls sofort. Wenn der Ritualplatz nach Schritt 3 \nverdrängt oder zerstört wird, scheitert es ebenfalls. Wenn ein Ritual scheitert, müssen alle Teilnehmer sofort \ndem Entzug widerstehen. Dazu wird eine Probe mit einer \nAnzahl von Würfeln gleich dem Schwellenwert des Rituals \nabgelegt. Der Entzug entspricht dem Doppelten der Anzahl \nder Erfolge. Alle Reagenzien, die in Schritt 4 ausgegeben \nwurden, sind verloren. P a tzer bei Ritualen\nEin Patzer in einem beliebigen Schritt eines Rituals kann \nzu zusätzlichem Entzug (zum Beispiel +2) oder einer Er-\nhöhung des Schwellenwerts führen oder den Ritualleiter \nzwingen, das Ritual alleine zu besiegeln. Ein Kritischer \nPatzer kann alles Mögliche bewirken: Ein Diener könnte \nabtrünnig werden und eliminiert werden müssen, das Ziel \nkönnte verfehlt werden, ein Kreis der Heilung könnte zu \neinem Astralen Tor werden und alle Teilnehmer in einer \nseltsamen Metaebene abladen, oder der Spielleiter könnte \nsich etwas ähnlich Hässliches einfallen lassen. Rituale\nEs folgt eine Beschreibung der Rituale, die du lernen und \ndurchführen kannst. Du lernst Rituale genauso wie Zauber \n(S. 132). Einige Rituale haben Merkmale, für die Spezialre-\ngeln gelten, wie das auch bei Zaubern vorkommt. Diener:\n Das Ritual erschafft ein halbautonomes Wesen, \nmeist zur Unterstützung des Zauberers, der es geschaffen \nhat.",
+    "topic": "magic.ritual",
+    "keywords": [
+      "schritt",
+      "koennte",
+      "rituale",
+      "teilnehmer",
+      "rituals",
+      "scheitert",
+      "sofort",
+      "alle"
+    ]
+  }
+}

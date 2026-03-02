@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0028_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 28, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 28,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Wenn man an den richtigen Fäden \nzieht, kann man das Leben, das man heute führt, bis ganz \nzum Anfang zurückverfolgen. Alles begann mit einer Epidemie. VIT AS und UGE\nDas Virusinduzierte Toxische Allergiesyndrom (VITAS) \nfegte in zwei Wellen über die Welt hinweg. Der erste Aus-\nbruch der Krankheit ereignete sich 2010 in einem bevölke-\nrungsreichen Teil von Neu-Delhi. Die Epidemie entfachte \neinen Flächenbrand und breitete sich über den gesamten \nPlaneten aus. Bis 2011 war jeder vierte Mensch auf dem \nPlaneten an der Krankheit gestorben oder lag im Sterben. Am schwersten traf es die am dichtesten bevölkerten Länder \nder Welt wie China, Bahrain und Bangladesch. Mexiko war \ndas erste Land, in dem die Regierung unter dem Druck der \nEpidemie zusammenbrach. Wenig überraschend flohen \ndie Bürger des Landes in der Hoffnung auf medizinische \nVersorgung nach Norden. Über das, was als nächstes geschah, wird noch immer viel \nspekuliert. Die Ungeklärte Genetische Expression (UGE) \nberührte zehn Prozent der verbliebenen Bevölkerung. Es \nwurden Kinder geboren, die signifikante physiologische Ab-\nweichungen von sogenannten normalen Kindern aufwiesen. Die Medien sortierten diese Abweichungen rasch in Kate-\ngorien mit eingängigen Namen, die aus dem Fantasy-Genre \nentlehnt waren: Zwerge und Elfen. Wenig später kamen mit \ndem als „Goblinisierung“ bekannten Phänomen auch Orks \nund Trolle hinzu. Wie auch im Fall von VITAS gab es welt-\nweit niemanden, der nicht zumindest jemanden kannte, der \nvon diesen Veränderungen betroffen war. Die Entstehung \nder neuen Metatypen scherte sich nicht um gesellschaftliche \nKlassen.",
+    "topic": "races",
+    "keywords": [
+      "epidemie",
+      "welt",
+      "sich",
+      "vitas",
+      "erste",
+      "krankheit",
+      "planeten",
+      "wenig"
+    ]
+  }
+}

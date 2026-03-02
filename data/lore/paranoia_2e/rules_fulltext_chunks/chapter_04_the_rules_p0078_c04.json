@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_04_the_rules_p0078_c04",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_04_the_rules",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The Rules page 78, chunk 4.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_04_the_rules",
+    "source_title": "The Rules",
+    "page": 78,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "raw_text": "‘Of course the list of available equipment is not expected to be'exhaustive. Don't hesitate to add your own items, or delete ones you dislike. Don't be too fussy about prices or security clearances. i the players ask for something reasonable, be accommodating. On the other hand, don't hesitate to refuse even the most reasonable requests from time {o time. I's a crazy world, Sometimes things ‘get lost. Sometimes: things get. broken Sometimes the inventory gets confused. Some- times The Computer gets confused, Some- times you can’t even get a laser barrel, Or a ‘ase of room fresheners gets mistakenly label- ‘ed as grenades. That's the way it goes in the wacky world of Paranoia ‘The Personal Equipment Chart (see FoktOut 8) lists all equipment which Troubleshooters may purchase themselves. with their own credits, Italo ists a security clearance for each piece of equipment; that clearance’ is the security clearance at which the equipment becomes available. At the indicated clearance, the Troubleshooter will receive the equipment it he requests it and can pay the cost in credits. ‘At any lower clearance, his request will be refused However, the chart itself is clearance Ultraviolet! The player characters themselves are never told what equipment is available at their clearance. The only way to find out is to ask ‘The Miscellaneous Equipment Chart (Fold- (Out B) lists equipment that players can never purchase, that can only be assigned to them.",
+    "topic": "advancement",
+    "keywords": [
+      "equipment",
+      "clearance",
+      "available",
+      "security",
+      "sometimes",
+      "gets",
+      "chart",
+      "hesitate"
+    ]
+  }
+}

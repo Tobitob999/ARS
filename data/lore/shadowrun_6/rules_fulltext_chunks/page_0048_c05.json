@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0048_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 48, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 48,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "„Explodie-\nren“ bedeutet, dass eine 6 als Erfolg zählt und noch \nSHADOWRUN: SECHSTE EDITION",
+    "topic": "advancement",
+    "keywords": [
+      "explodie",
+      "bedeutet",
+      "erfolg",
+      "zaehlt",
+      "noch",
+      "shadowrun",
+      "sechste",
+      "edition"
+    ]
+  }
+}

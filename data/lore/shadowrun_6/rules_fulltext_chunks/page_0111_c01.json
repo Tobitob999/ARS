@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0111_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 111, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 111,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Schritt vier: Widersteht dem Schaden\nWir addieren zum normalen Schadenswert der Ares \nPredator VI (3K) die 5 Nettoerfolge und erhalten als \nmodiﬁ zierten Schadenswert insgesamt 8K. Der An-\nführer der Eye-Fivers würfelt mit seiner Konstitution \nvon 3, um dem Schaden zu widerstehen, und erzielt 1 \nErfolg, was dazu führt, dass er 7 Kästchen Körperlichen \nSchaden erleidet. Schritt fünf: Fühl t den Schmerz\nJetzt tragen wir den Schaden auf dem Zustandsmonitor \ndes Anführers der Eye-Fivers ein, der 10 Kästchen hat, \nwodurch ihm nur noch 3 übrig bleiben. Hätte der Angriff \neinen Zusatzeffekt, käme dieser jetzt zur Anwendung, \naber das ist hier nicht der Fall. Jetzt wird außerdem \ndie Anzahl der erlittenen Schadenskästchen mit der \nProfessionalitätsstufe des Gangers verglichen, um zu \nbestimmen, ob er den Kampf weiterführt. Der Anführer \nder Eye-Fivers hat eine Professionalitätsstufe von 3 und \n7 Kästchen Schaden, was bedeutet, dass er entweder \nblutend auf dem Boden sitzen bleibt oder davonstolpert, \nweil er genug hat. Initia tive\nJetzt, wo wir wissen, wie man jemandem wehtut, wenden \nwir uns der Frage zu, wer zuerst damit drankommt. Zu \nBeginn des Kampfes würfelt jeder Teilnehmer mit seinen \nInitiativewürfeln und addiert das Ergebnis (also die Gesamt-\nsumme der erwürfelten Zahlen; hier geht es nicht um Erfol-\nge) zu seinem Initiativewert (also der Summe aus Reaktion + \nIntuition), um festzulegen, wer in welcher Reihenfolge dran \nist. Der Teilnehmer mit dem höchsten Initiativeergebnis ist \nals Erster dran, dann der mit dem nächsthöheren und so \nweiter bis hin zum niedrigsten Initiativeergebnis.",
+    "topic": "combat.damage",
+    "keywords": [
+      "schaden",
+      "jetzt",
+      "fivers",
+      "kaestchen",
+      "schritt",
+      "wuerfelt",
+      "hier",
+      "professionalitaetsstufe"
+    ]
+  }
+}

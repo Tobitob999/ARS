@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0109_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 109, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 109,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Es gibt einige Edge-Handlungen, \ndie im Vorhinein ausgewählt werden, und einige Einsatz-\nmöglichkeiten für Edge, die im Nachhinein geschehen \nkönnen, aber Edge kann nur einmal pro Handlung aus-\ngegeben werden, also nutzt es weise. Die Einsatzmög-\nlichkeiten für Edge findet ihr im Kasten Edge im Kampf. Die ausführlichen Beschreibungen dieser Optionen dazu \nfindet ihr im Kapitel Spielkonzepte auf Seite 46. Wer vor \ndem Würfeln eine Edge-Option einsetzen will, sollte das \njetzt ansagen, damit sie sich mit dem Würfelwurf sofort \nauswirkt. Jetzt würfelt mit euren Würfelpools! Zählt alle 5en \nund 6en als Erfolge und haltet fest, wie viele 1en ihr ge-\nwürfelt habt, um einen eventuellen Patzer zu bestimmen. Vergleicht die Anzahl der Erfolge von Angreifer und Ver-\nteidiger, um zu ermitteln, ob der Angriff erfolgreich war. Bei einem Unentschieden ist der Angreifer erfolgreich. Um \neinen Patzer zu ermitteln, zählt die 1en (und 2en, wenn \nEdge ausgegeben wurde, um diese zählen zu lassen). Wenn \ndie Anzahl an 1en größer ist als die Hälfte des Würfelpools, \nist es ein Patzer. Wenn jemand einen Patzer und außerdem \nnoch keinen einzigen Erfolg (keine 5en und 6en) erzielt \nhat, ist es ein Kritischer Patzer! Gratulation. Du hast dem \nSpielleiter gerade den Tag versüßt. Weitere Informationen \nüber Patzer sind auf Seite 38 zu finden. Aber Moment! Lasst die Würfel noch liegen, weil Edge \nvielleicht noch einmal zum Einsatz kommt. Wenn jemand \njetzt noch Edge ausgeben will, kann er das tun. Wenn alle Erfolge gezählt sind, gilt der Angriff – je \nnachdem, wer mehr Erfolge erzielen konnte – als gelun-\ngen oder misslungen.",
+    "topic": "combat",
+    "keywords": [
+      "edge",
+      "patzer",
+      "erfolge",
+      "noch",
+      "jetzt",
+      "einen",
+      "einige",
+      "einsatz"
+    ]
+  }
+}

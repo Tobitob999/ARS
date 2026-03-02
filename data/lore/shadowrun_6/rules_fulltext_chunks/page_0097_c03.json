@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0097_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 97, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 97,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Kommt \nCharisma als verknüpftes Attribut zum Einsatz, würfelt die \nZielperson mit Willenskraft + Intuition. Wenn Logik als \nverknüpftes Attribut genutzt wird, würfelt die Zielperson \nmit Willenskraft + Logik. Einfluss kommt auch bei Proben auf Unterrichten zum \nEinsatz und kann die Zeitdauer zum Erlernen neuer Fertig-\nkeiten verkürzen (siehe S. 71). Der Lehrer muss mindestens \neinen Fertigkeitswert von 4 in der Fertigkeit besitzen, \ndie er weitergeben möchte. Zum Unterrichten legt der \nLehrer eine Probe auf Einfluss + Charisma ab. Die Zeit \nzum Erlernen der Fertigkeit sinkt um 1 Tag pro Erfolg. Siehe Edge bei sozialen Proben (S. 50) für weitere In-\nformationen darüber, wie du bei sozialen Proben Edge \nerhalten kannst. Elektronik\nSpezialisierungen: Computer, Hardware, Komplexe \nFormen, Software\nUngeübt: Ja\nPrimärattribut: Logik\nSekundärattribut: Intuition (für schnelle Bastellösungen)\nDiese Fertigkeit kommt bei der legalen Seite der Matrix-\naktivitäten zum Einsatz. Egal, ob du ein Kommlink oder \neinen Computer benutzt, mit einem schnellen, nicht un-\nbedingt eleganten Fix ein Programm wieder zum Laufen \nbringst, deine Hardware frisierst oder andere ähnliche Tä-\ntigkeiten ausführst – Elektronik ist die passende Fertigkeit. Weitere Informationen zum Einsatz von Elektronik findest \ndu im Kapitel Matrix auf Seite 176. Beschwören\nSpezialisierungen: \nHerbeirufen, Verbannen\nUngeübt:\n Nein\nPrimärattribut: \nMagie\nDiese Fertigkeit erlaubt das Herbeirufen und Verbannen \nvon Geistern. Für weitere Informationen siehe \nBeschwören\n, \nS. 148.",
+    "topic": "skills.social",
+    "keywords": [
+      "fertigkeit",
+      "einsatz",
+      "kommt",
+      "logik",
+      "proben",
+      "siehe",
+      "weitere",
+      "elektronik"
+    ]
+  }
+}

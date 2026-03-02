@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0161_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 161, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 161,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Verbesserte Reflexe\nKosten: 1 KP pro Stufe\nAktivierung: –\nDiese Kraft verleiht dir schnelle Reflexe und eine \nArt Vorausahnung, was dich viel schneller agieren \nund reagieren lässt als die Normalsterblichen. Für \njede Stufe dieser Kraft erhältst du 1 zusätzlichen \nInitiativewürfel und eine Erhöhung der Reaktion um \n1. Die maximale Stufe dieser Kraft beträgt 4, und sie \nkann mit keinen anderen Steigerungen von Initiative \noder Reaktion kombiniert werden. Verbesserte \nW ahrnehmung\nKosten: 0,5 KP\nAktivierung: –\nDeine Sinne sind höchst scharf, sodass du Infor-\nmationen schnell genug erhältst, um etwas damit \nanfangen zu können. Du erhältst 1 Edge, wenn \ndu die Handlung Genau beobachten durchführst \noder eine Wahrnehmungsprobe ablegst, um etwas \nVerstecktes zu finden oder etwas zu hören, was \ndu nicht hören solltest. Dieser Punkt muss sofort \nfür die Probe ausgegeben werden, sonst verfällt er. Verbessertes \nK örperliches A ttribut\nKosten: 1 KP pro Stufe\nAktivierung: –\nLege beim Erwerb dieser Kraft ein Körperliches At-\ntribut (Konstitution, Geschicklichkeit, Reaktion oder \nStärke) fest. Dieses Attribut erhält eine permanente \nSteigerung in Höhe der Stufe dieser Kraft. Das Attri-\nbut kann maximal auf das 1,5-Fache (aufgerundet) \nder gegenwärtigen Stufe oder um +4 erhöht werden \n(je nachdem, was niedriger ist). für die Magierseite × 2. Jedes Mal, wenn ein Magieradept \nsein Magieattribut mit Karma steigert, erhält er auch einen \nkostenlosen Kraftpunkt. Wann immer ein Magieradept einen \nPunkt Magie verliert, verliert er auch einen Kraftpunkt und \ndie entsprechenden Adeptenkräfte. Magieradepten können keine Aspektzauberer sein.",
+    "topic": "combat.initiative",
+    "keywords": [
+      "stufe",
+      "kraft",
+      "dieser",
+      "kosten",
+      "aktivierung",
+      "erhaeltst",
+      "reaktion",
+      "etwas"
+    ]
+  }
+}

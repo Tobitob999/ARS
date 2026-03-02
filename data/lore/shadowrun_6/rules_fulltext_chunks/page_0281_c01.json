@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0281_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 281, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 281,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Mini-Schweissgerä t\nDieses tragbare Gerät erzeugt einen kleinen Lichtbogen, um \nMetalle zu schmelzen, entweder um durch Metall zu schnei-\nden oder es zusammenzuschweißen. Seine Energiequelle \nreicht für 30 Minuten Betrieb. Der Lichtbogen erzeugt zwar \neine große Hitze, ist aber viel zu klein, um eine gute Waffe \nabzugeben (das wäre, als würde man versuchen, jemanden \nmit einem Feuerzeug zu stechen). Das Mini-Schweißgerät \nhat einen Schadenswert von 6, wenn man es verwendet, \num durch Barrieren zu schneiden. Monofilamentkettensäge\nDie obere Seite jedes Kettensegments dieser tragbaren Mo-\ntorsäge ist mit Monofilamentdraht bedeckt. Dadurch ist \ndie Säge ideal zum Durchsägen von Bäumen, Türen und \nanderen unbeweglichen Objekten. Eine Monofilamentket-\ntensäge ist zu unhandlich, um eine gute Waffe abzugeben, \nund es gibt auch keine passende Fertigkeit dafür. Beim \nEinsatz gegen Barrieren hat die Monofilamentkettensäge \neinen Schadenswert von 8. Sequencer\nEin elektronisches Gerät, das benötigt wird, um Magschlös-\nser mit Tastatur zu knacken (s. Magschlösser, S. 240). WiFi-Vorteil: Der Sequencer erhält einen Bonus von +1 \nauf seine Stufe. Thermit-Brennst ab\nThermit ist ein entzündliches Material, das mit einer extrem \nhohen Temperatur brennt. Appliziert wird es mithilfe eines \nBrennstabs – einer Stange aus Thermit und Sauerstoff mit \neinem Griff und in einer Halterung –, der verwendet wer-\nden kann, um Löcher in Eisen, Stahl und sogar Plasstahl zu \nbrennen. Der Thermit-Brennstab verursacht Feuerschaden \nmit einem Schadenswert von 10K.",
+    "topic": "combat.damage",
+    "keywords": [
+      "einen",
+      "thermit",
+      "einem",
+      "schadenswert",
+      "einer",
+      "mini",
+      "geraet",
+      "erzeugt"
+    ]
+  }
+}

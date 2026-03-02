@@ -97,6 +97,9 @@ class DiscoveryService:
         for path in sorted(directory.glob("*.json")):
             if path.stem == "schema":
                 continue
+            # Hilfsdateien ueberspringen (z.B. add_2e_tables.json)
+            if asset_type == "ruleset" and path.stem.endswith("_tables"):
+                continue
             try:
                 with path.open(encoding="utf-8-sig") as fh:
                     data = json.load(fh)

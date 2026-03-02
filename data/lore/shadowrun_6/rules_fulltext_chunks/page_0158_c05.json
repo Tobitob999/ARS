@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0158_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 158, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 158,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Die maximale Anzahl an Foki, die du an dich binden \nkannst, ist gleich deinem Magieattribut, keiner deiner Foki \ndarf eine Kraftstufe haben, die höher ist als dein Magieat-\ntribut, und die Summe aller Kraftstufen der an dich gebun-\ndenen Foki darf deine Magie × 5 nicht überschreiten. Egal, \nwie viele gebundene Foki du besitzt: Bei einem Würfelpool \nfür eine Probe kann immer nur ein einziger Fokus seine \nKraftstufe als Bonus zur Verfügung stellen. Die maximale Anzahl an Foki, die du an dich binden \nkannst, ist gleich deinem Magieattribut. Die Summe aller \nKraftstufen der an dich gebundenen Foki darf deine Magie \n× 5 nicht überschreiten. Egal, wie viele gebundene Foki du \nbesitzt: Bei einem Würfelpool für eine Probe kann immer \nnur ein einziger Fokus seine Kraftstufe als Bonus zur Ver-\nfügung stellen. Foki haben auch Kosten in Nuyen, die in der Tabelle \nMagische Ausrüstung\n (S. 170) angegeben sind. Magische Ausrüstung\n (S. 170) angegeben sind. Magische Ausrüstung\nFokusarten\nEs gibt sieben Kategorien von Foki: Geister-, Kraft-, Me-\ntamagie-, Qi-, Verzauberungs-, Waffen- und Zauberfoki. Foki kosten so viel wie die anderen Foki innerhalb ihrer \nKategorie, aber sie haben nicht alle dieselbe Wirkung. Geisterfoki\nGeisterfoki verstärken die Fertigkeit Beschwören. Jeder \nGeisterfokus muss auf eine bestimmte Art von Geist einge-\nstimmt werden, die nicht verändert werden kann. Herbeirufungsfokus:\n Ein Herbeirufungsfokus addiert bei \nProben für das Herbeirufen seine Kraftstufe als Würfel-\npoolbonus, wenn die Art des Geistes zum Fokus passt.",
+    "topic": "magic",
+    "keywords": [
+      "foki",
+      "dich",
+      "kraftstufe",
+      "darf",
+      "fokus",
+      "seine",
+      "magische",
+      "ausruestung"
+    ]
+  }
+}

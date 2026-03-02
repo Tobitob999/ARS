@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_04_the_rules_p0086_c05",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_04_the_rules",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The Rules page 86, chunk 5.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_04_the_rules",
+    "source_title": "The Rules",
+    "page": 86,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "raw_text": "Often the data recorded Is simultaneously broadcast direct: ly to The Computer to permit it to monitor the mission's progress, Iisa treasonous act to pre= vent the multicorder from maintaining a conv plete record of a mission's activities \nSelf-Destruct: Loading this program into a ‘multicorder causes the unit to wipe all cur rently loaded or recorded programs. The hard- ‘ware is not damaged, but new program cas- settes will be required before the multicorder can be used again. (a ET \nre) 6. Vehicles \nGamemasters Ah, the emergency eject. ‘Another WHUMP: the explosive bolt fire land the doors and roof fly off. Did you have your seatbelt ont Troubleshooter: What seatbelt? Gamemaster: Aha. Your chair launches up- ‘ward with tremendous velocity — you tum- ble out of it. You are thrust suddenly into a. Mach 3 wind (tolls dice) — a wound, Okay, you're falling. Below you crazily tumbies a green-blue-and-brown object — it fills an entire hemisphere. Troubleshooter: The Eartht Gamemaster: That's right. Nearby, you hear ‘third WHUMP — and a parachute opens. ‘The empty chair descends slowly at the ‘end of chute, The green blue-and+-brown abject is approaching apily. What do you dot Troubleshooter: Spread my arms real wide Gamemaster: Right. Whammo, New clones. Briefing. Outfiting, R&D. Your clones are conducted to the Experimental Fiybot Launch Station. The duty officer shakes his head sadly and says, “Sure hope you do better than that last bunch.” \n86",
+    "topic": "combat.damage",
+    "keywords": [
+      "multicorder",
+      "troubleshooter",
+      "gamemaster",
+      "recorded",
+      "mission",
+      "program",
+      "into",
+      "whump"
+    ]
+  }
+}

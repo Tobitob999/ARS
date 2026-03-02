@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0040_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 40, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 40,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Es gibt drei Arten von Attributen: Körperliche, Geis-\nEs gibt drei Arten von Attributen: Körperliche, Geis-\ntige und Spezialattribute. Attribute können unter gewissen Umständen mo-\nAttribute können unter gewissen Umständen mo-\ndifiziert werden, etwa durch Zauber oder bestimmte \ndifiziert werden, etwa durch Zauber oder bestimmte \nAusrüstungsgegenstände, aber grundsätzlich gilt, \nAusrüstungsgegenstände, aber grundsätzlich gilt, \ndass das modifizierte Attribut eines Charakters nie \ndass das modifizierte Attribut eines Charakters nie \nhöher sein kann als sein unmodifiziertes Attribut +4. höher sein kann als sein unmodifiziertes Attribut +4. K örperliche A ttribute\nDie Körperlichen Attribute sind:\nK onstitution\nDieses Attribut steht für die allgemeine Robustheit, \nDieses Attribut steht für die allgemeine Robustheit, \nZähigkeit und Gesundheit eines Charakters. Es gibt \nZähigkeit und Gesundheit eines Charakters. Es gibt \neinen gewissen Zusammenhang mit der Körpergröße \neinen gewissen Zusammenhang mit der Körpergröße \n– Trolle (siehe S. 57) haben in der Regel hohe Konstitu-\n– Trolle (siehe S. 57) haben in der Regel hohe Konstitu-\ntionswerte –, aber auch nicht immer, da auch Zwerge \ntionswerte –, aber auch nicht immer, da auch Zwerge \nim Allgemeinen eine höhere Konstitution haben als \nim Allgemeinen eine höhere Konstitution haben als \nMenschen. Wichtig ist die Konstitution etwa beim \nMenschen. Wichtig ist die Konstitution etwa beim \nWiderstand gegen Schaden oder Gifte.",
+    "topic": "magic.spells",
+    "keywords": [
+      "attribut",
+      "gibt",
+      "gewissen",
+      "etwa",
+      "eines",
+      "charakters",
+      "sein",
+      "konstitution"
+    ]
+  }
+}

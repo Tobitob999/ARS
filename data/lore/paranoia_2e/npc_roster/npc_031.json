@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npc",
+  "id": "npc_031",
+  "name": "Vex-F-R-31",
+  "tags": [
+    "paranoia_2e",
+    "npc",
+    "roster"
+  ],
+  "summary": "Research & Design operative with layered loyalties.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "service_group": "Research & Design",
+    "secret_society": "Mystics",
+    "mutation": "Adrenaline Control",
+    "trait": "smug",
+    "clearance": "Orange",
+    "use_in_play": "reluctant_ally"
+  }
+}

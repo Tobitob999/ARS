@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0004_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 4, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 4,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "158\nMagieradepten\n ....................... 160\nAspektzauberer\n ....................... 160\nDie Astralebene\n ...................... 161\nAskennen\n ........................................... 161\nAstrale Projektion\n ............................... 162\nAstralkampf\n ........................................ 162\nAstrales Spurenlesen\n ......................... 163\nManabarrieren\n .................................... 163\nSchutzgeister\n ......................... 164\nArchetypen von Schutzgeistern\n .......... 164\nInitiation\n .............................. 168\nMetamagie\n ......................................... 168\nMA TRIX\n ............................................. 171\nDie Geschichte der Matrix\n .......... 171\nDie Matrix im Alltag\n ................. 172\nMatrixsicherheit: \nGrid Overwatch Division\n..................... 173\nElemente der Matrix\n ................. 173\nDie digitale Landschaft\n ....................... 173\nPraktische Grundlagen\n ....................... 174\nVirtuelle Realität\n ................................. 175\nLahmgelegte Geräte\n ........................... 175\nReparieren von Matrixschaden\n 175\nDie Matrix benutzen: \nSchritt für Schritt\n ............................... 176\nOverwatch-Wert und Fokussierung\n .... 177\nAuswurfschock und Linksperre\n .......... 177\nRauschen\n ........................................... 177\nCyberbuchsen\n .................................... 177\nMatrixwahrnehmung\n .......................... 178\nDie Matrix hacken\n .............................. 178\nMatrixkampf\n ....................................... 179\nMatrixhandlungen\n ................... 179\nAusstöpseln\n .......................................",
+    "topic": "combat",
+    "keywords": [
+      "matrix",
+      "overwatch",
+      "schritt",
+      "magieradepten",
+      "aspektzauberer",
+      "astralebene",
+      "askennen",
+      "projektion"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0260_c07",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 260, chunk 7.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 260,
+    "chunk_index": 7,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Das System \n Grana t- und Raketenwerfer\nWAFFE\n SCHADEN\n MODUS\n ANGRIFFSWERTE\n MUNITION\n VERFÜGBARKEIT\n PREIS\nAres Antioch II\n Granate\n EM\n –/6/8/6/5\n 8(i)\n 3I\n 5.900 ¥\nArmTech MGL-6\n Granate\n EM\n –/8/8/3/–\n 6(s)\n 4I\n 1.800 ¥\nArmTech MGL-12\n Granate\n EM\n –/8/9/6/2\n 12(s)\n 4I\n 5.000 ¥\nAztechnology Striker\n Rakete\n EM\n –/4/10/9/6\n 1(v)\n 5I\n 7.000 ¥\nOnotari Interceptor\n Rakete\n EM\n –/5/9/10/8\n 2(v)\n 5I\n 9.000 ¥\nSHADOWRUN: SECHSTE EDITION\nW AFFENZUBEHÖR // Ausrüstung // 259",
+    "topic": "combat.attack",
+    "keywords": [
+      "granate",
+      "armtech",
+      "rakete",
+      "system",
+      "waffe",
+      "schaden",
+      "modus",
+      "angriffswerte"
+    ]
+  }
+}

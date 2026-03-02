@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0211_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 211, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 211,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Professionalit ä tsstufe 10: \nElite-Spezialeinheiten\nNormalerweise reicht schon einer von diesen Typen aus, \num die meisten Probleme aus der Welt zu schaffen, aber \ndennoch operieren sie in Teams. Hier, ganz oben an der \nSpitze, finden wir Namen wie die Sioux Wildcats. Sie gel-\nten als die Besten der Welt, und in ihnen kombinieren sich \nknallharte Ausbildung, äußerste Loyalität, schärfste Diszi-\nplin und absoluter Fanatismus zu einer der gefürchtetsten \nKampftruppen der Welt.",
+    "topic": "combat",
+    "keywords": [
+      "welt",
+      "einer",
+      "professionalit",
+      "tsstufe",
+      "elite",
+      "spezialeinheiten",
+      "normalerweise",
+      "reicht"
+    ]
+  }
+}

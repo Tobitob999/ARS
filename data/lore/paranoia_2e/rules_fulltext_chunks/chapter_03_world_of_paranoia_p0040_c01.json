@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_03_world_of_paranoia_p0040_c01",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_03_world_of_paranoia",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The World of Paranoia page 40, chunk 1.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_03_world_of_paranoia",
+    "source_title": "The World of Paranoia",
+    "page": 40,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "PARANOIA \nDevelopment and Mind Control HPD & Mind Control provides for the hous- ing, entertainment, and political education of the Infareds. They also provide most of the Clerical services and low-level administration in Alpha Complex. Of al the service groups, this has the least status, since itis most often in direct contact with the masses. Internal Security looks upon their entertainment and propaganda. with scorn, and. the more technically skilled service groups regard HPD & Mind Control personnel as uneducated ‘lerks. However, HPD & MC's propaganda Sways the emotions of the people; properly- Coordinated propaganda is often decisive in imer-group conflicts, so other groups are Careful not to antagonize HPD & MC too thoroughly Discipline and morale is poor, and a certain carelessness of political onhodoxy is tolerated a5 a result, Internal Security regards HPD & ‘Mind Control as beneath contempt. The only ther service where treason is less aggressively persecuted is Research & Design. HPD & Mind Control personnel are often less than strict in their observance of The Com. pter’s rules, Their garments are often of poor Quality, poorly maintained, and worn with a Casual indifference to regulations, HPD. & ‘Mind Control personnel have a reputation for being “free thinkers” in. Alpha Complex, though the implication is of scorn rather than respect. HPD & MC is a massive bureaucracy, even mote procedure-bound and red-tape ridden than the others.",
+    "topic": "skills",
+    "keywords": [
+      "mind",
+      "control",
+      "often",
+      "service",
+      "groups",
+      "their",
+      "propaganda",
+      "personnel"
+    ]
+  }
+}

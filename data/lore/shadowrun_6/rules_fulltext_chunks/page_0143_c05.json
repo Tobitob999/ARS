@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0143_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 143, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 143,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Kunststoff Formen\nREICHWEITE\n ART\n DAUER\n ENTZUG\nBF\n P\n A\n 2\nDieser Zauber funktioniert genauso wie der Zauber Holz \nFormen, wirkt aber gegen Kunststoff. Levitieren\nREICHWEITE\n ART\n DAUER\n ENTZUG\nBF\n P\n A\n 6\nVielleicht nicht ganz dasselbe wie Fliegen, aber immerhin \nüberwindet man die Schwerkraft – und es macht Spaß! Lege \neine Probe auf Hexerei + Magie ab. Jeder Erfolg ermöglicht \ndir das Levitieren von 50 Kilogramm Material oder Per-\nsonen. Wenn es sich um Personen handelt und diese nicht \nbesonders viel Lust auf das Levitieren haben, können sie \neine Probe auf Konstitution + Stärke ablegen, wobei jeder \nErfolg die Anzahl deiner Erfolge um 1 senkt. Das Ziel muss in Sicht bleiben, wenn es in der Luft blei-\nben soll; sobald es außer Sicht gerät, beginnt der Absturz. Das hat – neben einer gewissen Vorsicht, weil der Zauber \nunterbrochen werden könnte – dazu geführt, dass sich die \nDas Ziel muss nicht auf der Stelle schweben. Es kann \nvom Zaubernden mit einer Bewegungsrate von [Magie \ndes Zaubernden] Metern pro Runde bewegt werden. Diese \nBewegung ist eine Nebenhandlung. Licht\nREICHWEITE\n ART\n DAUER\n ENTZUG\nBF (F)\n P\n A\n 3\nDieser Zauber verändert die Lichtverhältnisse deiner Um-\ngebung nach deinen Vorstellungen. Für jeden Erfolg kannst \ndu die Beleuchtung der Umgebung um eine Abstufung (s. Tabelle \nUmgebung und Lichtverhältnisse\n, S. 108) erhöhen, \nwas dabei helfen kann, durch Umgebung und Lichtverhält-\nnisse Edge zu erhalten. Es handelt sich um einen Zauber \nmit Flächenwirkung, der mit Fläche Vergrößern und Fläche \nVerschieben angepasst werden kann. Manabarriere\nREICHWEITE\n ART\n DAUER\n ENTZUG\nBF (F)\n M\n A\n 5\nDu möchtest einen geisterfreien Raum?",
+    "topic": "magic.spells",
+    "keywords": [
+      "zauber",
+      "reichweite",
+      "dauer",
+      "entzug",
+      "levitieren",
+      "erfolg",
+      "sich",
+      "umgebung"
+    ]
+  }
+}

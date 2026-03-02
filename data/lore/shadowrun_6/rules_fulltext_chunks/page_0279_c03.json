@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0279_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 279, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 279,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Ul traschallsensor\nDer Ultraschallsensor besteht aus einem Emitter, der kon-\ntinuierlich Ultraschallimpulse ausstrahlt, und einem Emp-\nfänger, der die Echos der Impulse aufnimmt, um daraus \neine topografische Ultraschallkarte zu erstellen. Ultraschall \neignet sich hervorragend, um Oberflächenstrukturen zu \nerfassen, Entfernungen zwischen Objekten zu berechnen \nund Dinge wahrzunehmen, die für das nackte Auge unsicht-\nbar sind (nimm das, Unsichtbarkeitszauber!). Der Sensor \nkann weder Farben noch Helligkeitsstufen unterscheiden, \nfunktioniert dafür aber auch bei absoluter Dunkelheit. Er \nkann auch keine Materialien wie Glas durchdringen, die \nfür optische Sensoren transparent sind. Man kann ihn in \nden passiven Modus schalten, sodass er keine Ultraschall-\nimpulse emittiert, sondern nur Ultraschall aus anderen \nQuellen aufnimmt, wie etwa von Bewegungsmeldern oder \nanderen Ultraschallsensoren im aktiven Modus (oder von \nFledermäusen). Ultraschall\n 50 m\neinen von den Kapazitätskosten (s. Tabelle \nSensoren\n, S. 277), \nzum anderen vom Gerätetyp (s. Tabelle \nSensorpakete\n, S. 277) \nab. Zum Beispiel könnte ein tragbares Gehäuse entweder \nein Sensorarray der Stufe 3 oder bis zu drei Einzelsensoren \naufnehmen, die aber ebenfalls maximal Stufe 3 haben dürfen. Ein stationäres Gehäuse wiederum könnte zum Beispiel ent-\nweder ein Sensorarray der Stufe 4 und zwei Einzelsensoren \nmit maximal Stufe 4 oder bis zu sechs Einzelsensoren mit ma-\nximal Stufe 4 aufnehmen. Sensorarrays und Einzelsensoren \nmit höheren Stufen können gemäß der Tabelle \nSensorpakete\nnur in größeren Ausrüstungsgegenständen verbaut werden.",
+    "topic": "magic.spells",
+    "keywords": [
+      "stufe",
+      "ultraschall",
+      "einzelsensoren",
+      "anderen",
+      "tabelle",
+      "einem",
+      "impulse",
+      "aufnimmt"
+    ]
+  }
+}

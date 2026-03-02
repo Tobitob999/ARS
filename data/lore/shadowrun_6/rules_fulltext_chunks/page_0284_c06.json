@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0284_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 284, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 284,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Implant a tchirurgie\nund Genesungszeit\nSich Cyberware oder Bioware einbauen zu lassen, erfordert \neinen chirurgischen Eingriff und geht mit Schaden einher. Wenn man sich Bodytech implantieren lässt, erleidet man \nsowohl auf dem Körperlichen Zustandsmonitor als auch \nauf dem Betäubungszustandsmonitor eine Anzahl von Scha-\ndenskästchen gleich den Essenzkosten × 3 des Implantats \n(aufgerundet; allerdings führt dieser Schaden niemals zu \nÜberzähligem Schaden). Die meisten Cyberkliniken und \nBodyshops bieten Erholungsräume für ihre Patienten, in \ndenen sie sich nach dem Eingriff ausruhen und genesen \nkönnen, aber Vorsicht bei der Sterilität und Sauberkeit der \nweniger seriösen Chopshops! Der Preis des Eingriffs ist \nnicht im Preis der Bodytech enthalten und sollte von der \nSHADOWRUN: SECHSTE EDITION\nBODYTECH // Ausrüstung // 283",
+    "topic": "combat.damage",
+    "keywords": [
+      "sich",
+      "schaden",
+      "bodytech",
+      "eingriff",
+      "preis",
+      "implant",
+      "tchirurgie",
+      "genesungszeit"
+    ]
+  }
+}

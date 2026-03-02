@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0250_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 250, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 250,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Diese \nschweren Metallketten sind brutale Waffen, vor allem wenn \nsie vom fahrenden Motorrad aus geschwungen werden. Du \nKlingenw affen\nWAFFE\n SCHADEN\n ANGRIFFSWERTE\n VERFÜGBARKEIT\n PREIS\nKampfaxt\n 5K\n 9/–/–/–/–\n 4\n 500 ¥\nKampfmesser\n 3K\n 8/2*/–/–/–\n 2\n 220 ¥\nKatana\n 4K\n 10/–/–/–/–\n 3\n 350 ¥\nMesser\n 2K\n 6/1*/–/–/–\n 1\n 20 ¥\nSchwert\n 3K\n 9/–/–/–/–\n 3\n 320 ¥\nStangenwaffe\n 4K\n 8/–/–/–/–\n 2\n 210 ¥\nÜberlebensmesser\n 3K\n 8/2*/–/–/–\n 2\n 220 ¥\nUnterarmschnappklingen\n 3K\n 6/–/–/–/–\n 3\n 185 ¥\n* Maximale Reichweite 20 m. Knüppel\nWAFFE\n SCHADEN\n ANGRIFFSWERTE\n VERFÜGBARKEIT\n PREIS\nBetäubungsschlagstock\n 5B(e)\n 6/–/–/–/–\n 2\n 600 ¥\nKnüppel\n 3B\n 6/–/–/–/–\n 1\n 65 ¥\nStab\n 4B\n 8/–/–/–/–\n 1\n 150 ¥\nTeleskopschlagstock\n 2B\n 5/–/–/–/–\n 2\n 50 ¥\nTeleskopstab\n 4B\n 8/–/–/–/–\n 2\n 250 ¥\nTotschläger\n 2B\n 6/–/–/–/–\n 1\n 75 ¥\nSHADOWRUN: SECHSTE EDITION\nNAHKAMPFW AFFEN // Ausrüstung // 249",
+    "topic": "combat.attack",
+    "keywords": [
+      "affen",
+      "waffe",
+      "schaden",
+      "angriffswerte",
+      "verfuegbarkeit",
+      "preis",
+      "knueppel",
+      "diese"
+    ]
+  }
+}

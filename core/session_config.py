@@ -22,6 +22,7 @@ _DEFAULT_ATMOSPHERE = "1920s Cosmic Horror"
 _DEFAULT_PERSONA = "Mysterioes, detailverliebt, zynisch"
 _DEFAULT_LANGUAGE = "de-DE"
 _DEFAULT_TEMPERATURE = 0.92
+_DEFAULT_RULES_BUDGET = 6000  # chars (~1500 Tokens)
 
 VALID_DIFFICULTIES = ("easy", "normal", "heroic", "hardcore")
 
@@ -42,6 +43,7 @@ class SessionConfig:
     keeper_persona: str = _DEFAULT_PERSONA
     language: str = _DEFAULT_LANGUAGE
     temperature: float = _DEFAULT_TEMPERATURE
+    rules_budget: int = _DEFAULT_RULES_BUDGET
 
     def __post_init__(self) -> None:
         if self.difficulty not in VALID_DIFFICULTIES:
@@ -51,6 +53,7 @@ class SessionConfig:
             )
             self.difficulty = _DEFAULT_DIFFICULTY
         self.temperature = max(0.0, min(2.0, self.temperature))
+        self.rules_budget = max(1000, min(2000000, self.rules_budget))
 
     # -- factory methods ------------------------------------------------------
 
@@ -101,6 +104,8 @@ class SessionConfig:
             cfg.party = args.party
         if getattr(args, "temperature", None) is not None:
             cfg.temperature = args.temperature
+        if getattr(args, "rules_budget", None) is not None:
+            cfg.rules_budget = args.rules_budget
 
         cfg.__post_init__()
         return cfg

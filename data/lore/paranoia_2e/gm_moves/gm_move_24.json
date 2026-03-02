@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "category": "gm_move",
+  "id": "gm_move_24",
+  "name": "Trigger mandatory morale chant",
+  "tags": [
+    "paranoia_2e",
+    "gm_tools"
+  ],
+  "summary": "Trigger mandatory morale chant",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "timing": "opening",
+    "effect": "force_choice",
+    "counterplay": "spurious_logic"
+  }
+}

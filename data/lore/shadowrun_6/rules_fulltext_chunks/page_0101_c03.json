@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0101_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 101, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 101,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Auf der drit-\nten Stufe erhöht sich der Würfelpoolbonus zum Verstehen \nder Sprache auf +3. Muttersprachler müssen keine Proben \nablegen, um die Sprache zu verstehen. In der späteren Charakterentwicklung ist die höchste er-\nreichbare Stufe in einer Sprache die des Experten. Sprachen, \ndie du auf dem Niveau eines Muttersprachlers beherrschst, \nkannst du ausschließlich während der Charaktererschaffung \nerhalten – eine Muttersprache erhält dein Charakter bei \nseiner Erschaffung kostenfrei. Ein Charakter muss niemals \neine Probe ablegen, um etwas in seiner Muttersprache zu \nverstehen. Die Schwellenwerte für Proben zum Verstehen von Sprachen \nbasieren auf der Tabelle Richtlinien für Schwellenwerte auf \nSeite 37. Faktoren wie die Lautstärke und Geschwindigkeit \nder gesprochenen Worte oder der Anteil an Slang/Fachsprache \nkönnen sich auf den Schwellenwert auswirken. Beispiel: Sprachfertigkeiten\nCass Wandering Horse hat sich ein wenig Sperethiel angeeignet. Das ist \nihm bei seiner Arbeit als Ermittler durchaus eine Hilfe, aber er ist noch nicht \ngut genug, um ein Spezialist zu sein. Während er Informationen über einen \nDrogenschmuggler-Ring sammelt, belauscht er ein paar Mitglieder der An-\ncients, die sich auf Sperethiel unterhalten. Er hört genauer hin, um heraus-\nzuﬁ nden, wie viel er verstehen kann. Sie sprechen mit gedämpfter Stimme, \nalso legt die Spielleiterin den Schwellenwert auf 4 fest. Wandering Horse \nverfügt über Wahrnehmung 4 und Intuition 5, also wirft er 9 Würfel, um zu \nermitteln, ob er versteht, was sie sagen.",
+    "topic": "advancement",
+    "keywords": [
+      "verstehen",
+      "sich",
+      "sprache",
+      "seiner",
+      "stufe",
+      "proben",
+      "ablegen",
+      "waehrend"
+    ]
+  }
+}

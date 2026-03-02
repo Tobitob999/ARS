@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0157_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 157, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 157,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Der Vorgang \ndes Bindens bricht die Bindung zu einem früheren Ei-\ndes Bindens bricht die Bindung zu einem früheren Ei-\nSHADOWRUN: SECHSTE EDITION",
+    "topic": "general",
+    "keywords": [
+      "bindens",
+      "bricht",
+      "bindung",
+      "einem",
+      "frueheren",
+      "vorgang",
+      "shadowrun",
+      "sechste"
+    ]
+  }
+}

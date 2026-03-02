@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_03_world_of_paranoia_p0047_c03",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_03_world_of_paranoia",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The World of Paranoia page 47, chunk 3.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_03_world_of_paranoia",
+    "source_title": "The World of Paranoia",
+    "page": 47,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "Wasting resources lacking initiative ‘nd imagination, careless use of violence — any of these may get a member demoted or worse Special Rules: Free Enierprise does not pro- vide assets for fee, However, if there's a fast Credit to be made, they'll give you anything {you need, If you can set up a deal and cut a higheralegree member in for apiece ofthe ac- tion, he'll happily provide equipment, ‘weapons, and muscle to make the deal work Free Enterprise frequently asks Troubleshooter members 1o execute enemies ofthe organiza- tion, because Troubleshooters have the train- ing, equipment, and excuse necessary to kill just about anyone, AA Typical Free Enterprise Conversatio Free Enterprise: Hey, hey, hey! Lemme make ‘you an offer you can't refuse. It's practical Ty brand-new, only fred once in the line of duty, For you, only 16 credits, | don’ ‘make moral judgments, 'm a businessman, \nHumanists \nBeliefs: Alpha Complex ought to bea utopia ‘everyone's needs and desires are taken care ‘of But something has gone disasrously wrong, People are executed at random; the innocent are condemned along, with the gully Everyone's constantly involved in a witche hunt fr Commies, There are no Commies; no ‘one is plotting to destroy Alpha Complex. The Computer is insane. The Computer must be brought back under the control of human beings {All power tothe people! The system is con- trolled by greedy High Programmers who con- trol everything and enrich themselves, They are evil and bad. Our leaders are wise and good. ‘They know what is best forthe people. That is why they should contol everything. Join us, \nand help us make Alpha Complex a utopia.",
+    "topic": "combat.initiative",
+    "keywords": [
+      "free",
+      "they",
+      "make",
+      "enterprise",
+      "alpha",
+      "complex",
+      "people",
+      "member"
+    ]
+  }
+}

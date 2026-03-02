@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0218_c07",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 218, chunk 7.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 218,
+    "chunk_index": 7,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Die \nUmwandlung, die Tage dauern kann, ist äußerst schmerz-\nGhul\nK\n G\n R\n S\n W\n L\n I\n C\n M\n ESS\n6\n 2\n 4\n 5\n 4\n 1\n 3\n 1\n 1\n 5\nInitiative:\n 7 + 2W6\nHandlungen:\n 1 Haupt, 3 Neben\nZustandsmonitor:\n 13/10\nVerteidigungswert:\n 7 (+ getragene Panzerung)\nBewegung:\n 12/18/+1\nFertigkeiten:\n Astral 5, Athletik 4, Heimlichkeit 6, Nahkampf 7, \nWahrnehmung 5\nKräfte:\n Bewusstsein, Dualwesen, Gesteigerte Sinne (Gehör, \nGeruch), Natürliche Waffe, Panzer 1, Robust Gebaut 2\nSchwächen:\n Allergie (Sonnenlicht, Mittel), Geschwächter Sinn \n(blind), Nahrungsbedarf (metamenschliches Fleisch)\nAngriff:\n Klauen: Schaden 3K, Angriffswerte 9/–/–/–/–; Biss: \nSchaden 4K, Angriffswert 9/–/–/–/–, Infektion\nAnmerkungen:\n Die Werte gelten für einen menschlichen Ghul, \nder den größten Teil seiner Intelligenz behalten hat; für andere \nMetatypen s. Tabelle \nAttributsmodiﬁkatoren nach Metatyp \n(S. 212); abgeleitete Werte müssen ggf. neu berechnet wer-\nden. Einige Ghule können Zauberer oder (Magier-)Adepten \nsein. Andere sind „wild“, was ihre Körperlichen Attribute um \n1 erhöht und ihre Geistigen Attribute um 1 senkt. Die Kraft \nInfektion wirkt, wenn ein Ziel durch den Bissangriff des Ghuls \nKörperlichen Schaden erleidet. Höllenhund\nDer Höllenhund ist eine Metavariante des Schäferhundes. Er hat eine Schulterhöhe von etwa 90 cm und ein Gewicht \num die 70 kg. Sein Fell ist pechschwarz, seine Augen rot-\nglühend. Höllenhunde sind Rudeljäger, die normalerweise \nin Gruppen von vier bis sieben Hunden kleinere Tiere bis \nzur Größe eines Rehs jagen, aber auch Aas fressen, wenn \nBeute rar ist.",
+    "topic": "combat.initiative",
+    "keywords": [
+      "schaden",
+      "ghul",
+      "infektion",
+      "werte",
+      "andere",
+      "sein",
+      "ihre",
+      "koerperlichen"
+    ]
+  }
+}

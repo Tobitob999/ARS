@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0116_c09",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 116, chunk 9.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 116,
+    "chunk_index": 9,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Das Schrapnell dieser Explosion hat einen \nSchadenswert gleich dem Schadenswert des Sprengstoffs mi-\nSHADOWRUN: SECHSTE EDITION\nBARRIEREN // KAMPF // 115",
+    "topic": "combat.damage",
+    "keywords": [
+      "schadenswert",
+      "schrapnell",
+      "dieser",
+      "explosion",
+      "einen",
+      "gleich",
+      "sprengstoffs",
+      "shadowrun"
+    ]
+  }
+}

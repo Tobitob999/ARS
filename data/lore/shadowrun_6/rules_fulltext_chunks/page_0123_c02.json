@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0123_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 123, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 123,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Ob man mit dieser Probe einen Schwachpunkt \nfinden oder die Sprengladung in eine Dose mit Nägeln plat-\nzieren will, hängt davon ab, was der Charakter erreichen \nwill. Das muss im Vorhinein festgelegt werden – beides \nzugleich geht nicht. Der Schadenswert von Sprengstoff hängt von seiner \nStufe ab, die eine Zusammenfassung von Menge und \nSprengkraft darstellt, wobei keiner der beiden Faktoren \ngenau definiert wird. Diese Stufe wird als unmodifizier-\nter Schadenswert gegen Strukturen eingesetzt. Als Waf-\nfe gegen Personen haben Sprengladungen die folgenden \nSchadenswerte: Detonationspunkt: Stufe, Sehr nah: Stufe \n÷ 2, Nah: Stufe ÷ 4. Der Explosionsradius entspricht der \nStufe in Metern. Heilung\nWir haben erklärt, wie man jemandem Schaden zufügt; \nkommen wir jetzt dazu, wie man den Schaden wieder heilt. Heilung bei Shadowrun ist eine Mischung aus Erster Hilfe \nim Feld, wundertätiger Magie, futuristischer Technologie \nund heroischen Phasen natürlicher Genesung. Es macht viel \nmehr Spaß, wieder in den Kampf zu ziehen, als Wochen \noder Monate im Krankenhausbett zu verbringen. Als Erstes widmen wir uns der Reihenfolge des Einsatzes \nverschiedener Heilmethoden. Muss man Erste Hilfe vor \ndem Einsatz von Magie benutzen oder danach? Kann man \njemanden magisch heilen, der bereits mit einem Medkit \nbehandelt wurde? Die Antwort ist einfach: Die Reihenfolge \nspielt keine Rolle – bis auf die Regel, dass Überzähliger \nSchaden zuerst geheilt wird. Jeder Charakter hat mehre-\nre Chancen, zusammengeflickt zu werden, bevor er seine \nWunden tagelang mitschleppen muss. Die Schlüsselfrage \nist, wie schnell die einzelnen Methoden angewendet werden \nmüssen.",
+    "topic": "combat.damage",
+    "keywords": [
+      "stufe",
+      "schaden",
+      "haengt",
+      "charakter",
+      "gegen",
+      "heilung",
+      "wieder",
+      "hilfe"
+    ]
+  }
+}

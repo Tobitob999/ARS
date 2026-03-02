@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0120_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 120, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 120,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Beide bewegen sich mehr \nals 2 Meter weit und erhalten gemäß den Regeln der \nNebenhandlung Weghechten den Status Liegend bei \nder Schadenswiderstandsprobe. Schritt vier: Widersteht dem Schaden\nBei Explosionen müssen wir den Schaden für alle \nBetroffenen separat ermitteln. Sprenggranaten haben \neinen Schadenswert von 16K/10K/4K (Detonations-\npunkt, Sehr nah und Nah) und einen Explosionsra-\ndius von 15 Metern. Innerhalb des Explosionsradius \nbeﬁ nden sich sechs Motorräder und ein Ganger (der \nandere, der in Richtung Kampf gelaufen ist, ist in \nSicherheit). Zwei Motorräder beﬁ nden sich am Deto-\nnationspunkt, die anderen vier in der Reichweite Sehr \nnah, und der andere Ganger beﬁ ndet sich durch seine \ndumme Aktion ebenfalls am Detonationspunkt. Die \nMotorräder widerstehen dem Schaden mit Rumpf 4. Die Spielleiterin beschließt, für sie alle nur eine Probe \nabzulegen, die 3 Erfolge erzielt. Der Ganger widersteht \ndem Schaden mit Konstitution 3 und erzielt 1 Erfolg. Weiter mit Schritt 5. Schritt fünf: Fühl t den Schmerz\nDie beiden Motorräder am Detonationspunkt erleiden \n13 Kästchen Schaden und sind zerstört. Die vier in der \nReichweite Sehr nah erhalten 7 Kästchen Schaden. Der \nGanger erleidet 15 Kästchen Schaden und macht sich \nauf zum Großen Gangkrieg im Himmel. Beispiel: Grana twerfer\nEine witzige Sache passierte, als diese Granate explo-\ndierte: Ein paar Schrapnelle kratzten den Lack eines \nEurocar Westwind in der Nähe an, der niemand ande-\nrem als Carson Aims gehört – einem durchaus nicht \nunbedeutenden Runner.",
+    "topic": "combat.damage",
+    "keywords": [
+      "schaden",
+      "sich",
+      "motorraeder",
+      "ganger",
+      "schritt",
+      "vier",
+      "sehr",
+      "kaestchen"
+    ]
+  }
+}

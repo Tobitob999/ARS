@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0268_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 268, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 268,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Der \nSchild enthält 10 elektrische Ladungen; ans Stromnetz \nangeschlossen, lädt er sich mit einer Geschwindigkeit von \n1 Ladung pro 10 Sekunden wieder auf. WiFi-V orteil:\n Der Schutzschild lädt sich per Induktion \nauf, was mit einer Geschwindigkeit von 1 Ladung pro \nStunde geschieht. P anzerungsmodifika tionen\nMODIFIKATION\n KAPAZITÄT\n VERFÜG-\nBARKEIT\n PREIS\nChemische \nIsolierung\n [Stufe]\n 3\n Stufe \n×\n 250 ¥\nChemische \nVersiegelung\n 6\n 5\n 3.000 ¥\nElektrische \nIsolierung\n [Stufe]\n 3\n Stufe \n×\n 250 ¥\nFeuerresistenz\n [Stufe]\n 3\n Stufe \n×\n 250 ¥\nKälteresistenz\n [Stufe]\n 3\n Stufe \n×\n 250 ¥\nHelme und Schilde\nHELME UND SCHILDE\n VERTEIDIGUNGSWERT\n KAPAZITÄT\n VERFÜGBARKEIT\n PREIS\nHelm\n +1\n 4\n 1\n 200 ¥\nBallistischer Schild\n +2\n 2\n 4\n 900 ¥\nSchutzschild\n +2\n 2\n 4\n 1.200 ¥\nWAFFE\n ART\n SCHADEN\n ANGRIFFSWERTE\nBallistischer Schild\n Nahkampf\n 2B\n 4/–/–/–/–\nSchutzschild\n Nahkampf\n 4B(e)\n 4/–/–/–/–\nSHADOWRUN: SECHSTE EDITION\nKLEIDUNG UND P ANZERUNG // Ausrüstung // 267",
+    "topic": "advancement",
+    "keywords": [
+      "stufe",
+      "schild",
+      "schutzschild",
+      "elektrische",
+      "laedt",
+      "sich",
+      "einer",
+      "geschwindigkeit"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.5.0",
+  "category": "lore_index",
+  "tags": [
+    "paranoia_2e",
+    "index",
+    "full_conversion"
+  ],
+  "summary": "Paranoia 2E Vollkonvertierung: Ruleset + Fulltext + Kapitel + strukturiertes Lore.",
+  "source_text": {
+    "system_id": "paranoia_2e",
+    "paths": {
+      "fulltext": "data/lore/paranoia_2e/fulltext/",
+      "chapters": "data/lore/paranoia_2e/chapters/",
+      "appendices": "data/lore/paranoia_2e/appendices/",
+      "service_groups": "data/lore/paranoia_2e/service_groups/",
+      "secret_societies": "data/lore/paranoia_2e/secret_societies/",
+      "items": "data/lore/paranoia_2e/items/",
+      "encounters": "data/lore/paranoia_2e/encounters/",
+      "tables": "data/lore/paranoia_2e/tables/",
+      "indices": "data/lore/paranoia_2e/indices/",
+      "book_conversion": "data/lore/paranoia_2e/book_conversion/",
+      "mechanics": "data/lore/paranoia_2e/mechanics/",
+      "mutations": "data/lore/paranoia_2e/mutations/",
+      "skills": "data/lore/paranoia_2e/skills/",
+      "encounters_pack": "data/lore/paranoia_2e/encounters_pack/",
+      "mission_seeds": "data/lore/paranoia_2e/mission_seeds/",
+      "npc_roster": "data/lore/paranoia_2e/npc_roster/",
+      "gm_moves": "data/lore/paranoia_2e/gm_moves/",
+      "service_group_ops": "data/lore/paranoia_2e/service_group_ops/",
+      "secret_society_ops": "data/lore/paranoia_2e/secret_society_ops/",
+      "gear_catalog": "data/lore/paranoia_2e/gear_catalog/",
+      "adventure_assets": "data/lore/paranoia_2e/adventure_assets/",
+      "rules_fulltext_chunks": "data/lore/paranoia_2e/rules_fulltext_chunks/",
+      "adventure_fulltext_chunks": "data/lore/paranoia_2e/adventure_fulltext_chunks/"
+    }
+  },
+  "mechanics": {
+    "counts": {
+      "fulltext": 159,
+      "chapters": 8,
+      "appendices": 6,
+      "service_groups": 8,
+      "secret_societies": 12,
+      "items": 20,
+      "encounters": 6,
+      "tables": 4,
+      "indices": 8,
+      "book_conversion": 3,
+      "mechanics": 8,
+      "mutations": 15,
+      "skills": 1,
+      "encounters_pack": 60,
+      "mission_seeds": 40,
+      "npc_roster": 50,
+      "gm_moves": 30,
+      "service_group_ops": 24,
+      "secret_society_ops": 24,
+      "gear_catalog": 36,
+      "adventure_assets": 32,
+      "rules_fulltext_chunks": 451,
+      "adventure_fulltext_chunks": 117
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0180_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 180, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 180,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Du kannst \nnur dich selbst ausstöpseln. Du kannst niemand anderen \nauswerfen, außer wenn du ihn durch Matrixschaden außer \nGefecht setzt. User- und Admin-Zugang\nIn jedem System in der Matrix gibt es drei Zugangsstufen: \nGast, User \nund \nAdmin\n. Der Gast-Zugang ist die Zugangs-\nstufe, die man erhält, sobald man sich in die Matrix als \nGanzes einloggt. In Systemen, die Gast-Zugänge gewähren, \nkann man mit ihm nicht mehr machen, als sich dort ein \nwenig umzusehen und mit anderen innerhalb des Systems \nzu interagieren. Ein User-Zugang gestattet es, Informationen \nzu sichten, Dateien zu lesen, einfache Funktionen auszu-\nführen und dergleichen. Ein Admin-Zugang ermöglicht das \nVerändern der Konfiguration, das Ein- und Ausschalten von \nGeräten und noch mehr. Er gewährt zwar größere Rechte \nals der User-Zugang, bedeutet aber nicht, dass du wirklich \nAdministrator oder Besitzer des Systems bist – du benutzt \ntrotz allem einen illegalen Zugang. Bei jeder Matrixhand-\nlung ist eine Zugangsstufe angegeben, die mit ihr verbun-\nden ist. Manchmal muss der Spielleiter festlegen, welche \nZugangsstufe ein bestimmter Einsatz einer Matrixhandlung \nbenötigt. Um User- oder Admin-Zugang durch das Hacken \neines Systems zu erhalten, benötigt man die Handlungen \nBrute Force \n(S. 180) oder \nSondieren\n (S. 184). Beispiel: \nHacken eines Hosts\nJack führt unter dem wachsamen Auge seines Vaters \nSlamm-0! die Handlung \nSondieren\n im Matrix-Host von \nSondieren\n im Matrix-Host von \nSondieren\nRatt-onna-stick in der AR durch. Er hat einen Würfelpool \naus Cracken + Logik von 8 gegen einen Würfelpool von \n4 (Firewall 2 \n×\n 2) des nicht überwachten Hosts.",
+    "topic": "combat.damage",
+    "keywords": [
+      "zugang",
+      "user",
+      "admin",
+      "matrix",
+      "sondieren",
+      "durch",
+      "gast",
+      "systems"
+    ]
+  }
+}

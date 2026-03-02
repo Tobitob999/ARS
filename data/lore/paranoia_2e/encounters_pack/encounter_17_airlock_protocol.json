@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "category": "encounter",
+  "id": "airlock_protocol_17",
+  "name": "Two contradictory airlock protocols execute at once #17",
+  "tags": [
+    "paranoia_2e",
+    "encounter",
+    "batch_06"
+  ],
+  "summary": "Two contradictory airlock protocols execute at once",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "trigger": "on_accusation",
+    "pressure": "extreme",
+    "required_checks": [
+      "Interrogation",
+      "Spurious Logic"
+    ],
+    "complication": "treason_point_spike",
+    "payoff": "temporary_clearance"
+  }
+}

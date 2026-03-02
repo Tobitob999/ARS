@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0118_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 118, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 118,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Betonwand zeigt ein Überschreiten der Strukturstufe um \n1. Das erzeugt ein Loch von 1 Meter Durchmesser, weil \ndie Strukturstufe erreicht ist, und zusätzlich 0,5 Meter \nDurchmesser, weil die Strukturstufe um 1 überschritten \nwurde, insgesamt also 1,5 Meter Durchmesser. Das \nwird für Grizzly ziemlich eng, aber alle werden ohne \ngroße Probleme durchkommen. Anmerkung: Bevor er die Sprengung ausgelöst hat, \nhat Byom alle auf seiner Seite gewarnt, dass sie in \nDeckung gehen oder sich hinwerfen sollen, um nicht \ndurch den Explosionsdruck oder Trümmer Schaden \nzu erleiden. Wäre die Strukturstufe zu hoch oder der \nSchadenswert des Sprengstoffs zu niedrig gewesen, um \nein Durchbrechen zu ermöglichen, hätte die Explosion \nin den Raum hinein gewirkt, wodurch das Runnerteam \nSchadenswiderstandsproben hätte ablegen müssen. F allschaden\nWenn ein Charakter tiefer als drei Meter fällt, erleidet er \nKörperlichen Schaden mit einem Schadenswert gleich der \nHälfte der gefallenen Meter, dem er mit Konstitution wider-\nsteht. Der Spielleiter sollte den Schaden je nach relevanten \nUmständen (Beschaffenheit des Bodens usw.) anpassen. Schergen-Gruppen\nUm den Ablauf von Kämpfen zu beschleunigen, empfehlen wir, \nSchergen als Gruppen statt als Reihe von Individuen angreifen zu \nlassen. Das erspart einige Würfelwürfe und bildet auch ab, dass \neine Gruppe durch Zusammenarbeit größere Erfolgschancen \nhat. Die Spielleiterin legt die Größe dieser Gruppen fest, indem \nsie sie nach ihren Angriffszielen und/oder ihren Angriffsarten zu-\nsammenfasst.",
+    "topic": "advancement",
+    "keywords": [
+      "meter",
+      "strukturstufe",
+      "durchmesser",
+      "schaden",
+      "gruppen",
+      "weil",
+      "alle",
+      "haette"
+    ]
+  }
+}

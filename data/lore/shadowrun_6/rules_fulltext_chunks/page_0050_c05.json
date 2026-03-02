@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0050_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 50, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 50,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Kosten: 2 Edge. • \n Entwinden (Blocken):\n Wenn du im Nahkampf einen \nAngriff erfolgreich blockst, kannst du mit dieser \nHandlung dem Gegner die Waffe aus der Hand win-\nden. Lege eine Probe auf Nahkampf + Geschicklich-\nkeit ab, mit der Stärke des Gegners als Schwellenwert. Gelingt die Probe, schlägst du ihm die Waffe aus der \nHand und sie fällt zu Boden. Erzielst du Nettoerfolge, \nnimmst du ihm die Waffe ab. Misslingt die Probe, \nbehält der Gegner die Waffe. Kosten: 2 Edge\n• \n Große Rede (Fertigkeit einsetzen [Einfluss]):\n Ein \nStrom von Worten verlässt deinen Mund und \nschwingt sich zu Höhen der Beredsamkeit und In-\nspiration auf, wie man es bei Sterblichen selten \nfindet. Lege zweimal eine Probe auf Einfluss + Cha-\nrisma ab; die erste Probe gilt als Teamworkprobe, \nd./uni00A0h. du kannst deine Erfolge als Würfelpoolbonus \nbei der zweiten Probe verwenden. Das Ergebnis \nder zweiten Probe liefert die Erfolge deiner Probe. Kosten: 4 Edge. • \n K.-o.-Schlag (Nahkampf-Angriff):\n Du nutzt deinen \nVorteil, um deinen Gegner mit einem Schlag auszu-\nschalten. Ist der zugefügte (Körperliche oder Betäu-\nbungs-)Schaden größer als die Willenskraft des Ziels, \nwird dessen Zustandsmonitor für Betäubungsschaden \nsofort vollständig ausgefüllt. Das Ziel ist bewusstlos. Auf den Körperlichen Zustandsmonitor fließt kein \nSchaden über. Kosten: 2 Edge. • \n Plötzliche Erkenntnis (beliebig):\n Führe ohne Malus \neine Handlung aus, in der du keinen Fertigkeitswert \nhast. Das ermöglicht dir nicht, Fertigkeiten einzu-\nsetzen, die nicht ohne Übung verwendet werden \nkönnen. Kosten: 1 Edge.",
+    "topic": "combat.attack",
+    "keywords": [
+      "probe",
+      "kosten",
+      "edge",
+      "waffe",
+      "nahkampf",
+      "gegner",
+      "deinen",
+      "angriff"
+    ]
+  }
+}

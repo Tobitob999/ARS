@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0182_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 182, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 182,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Die Datenbombe wird ausgelöst, wenn jemand ohne \nBenutzung des Passworts versucht, die Datei zu lesen, zu \neditieren, zu kopieren, zu verschlüsseln, zu löschen oder \neine andere Datenbombe darin zu platzieren, ohne die \nbereits existierende Datenbombe zu entschärfen. Wenn \neine Datenbombe hochgeht, verursacht sie [Stufe × 2] \nKästchen Matrixschaden (dem mit Firewall widerstanden \nwird) beim auslösenden Icon, löscht die Datei (wenn sie \nso eingestellt ist) und anschließend sich selbst. Wenn das \nPasswort benutzt wird, wird die Datenbombe nicht akti-\nviert. Stattdessen bleibt sie in der Datei und wartet auf den \nnächsten Zugriff. Eine Datenbombe kann mit der Handlung \nMatrixwahr-\nnehmung\n entdeckt werden. Wenn sie entdeckt ist, kann \nsie mit der Handlung \nDatenbombe entschärfen\n unschäd-\nlich gemacht werden. Eine entschärfte Datenbombe wird \ngelöscht. Da tenspike\n(illegal) Cracken + Logik gegen Da tenver-\narbeitung + Firew all oder Logik + Firew all \n(Haupthandlung)\nGast/User/Admin\nDiese Handlung ist mit dem Attribut Angriff verbunden. Du schickst Schadcode gegen eine Persona oder ein Ge-\nrät, was beim Ziel zu Matrixschaden führt. Dein Angriff \nhat einen Schadenswert in Höhe deines Angriffsattributs ÷ \n2 (aufgerundet); pro Nettoerfolg erhöht sich der Schaden \num 1. Ihm wird mit Firewall Widerstand geleistet. Gerä t forma tieren\n(legal) Elektronik + Logik gegen \nWillenskraft + Firew all oder Firew all \n×\n 2 (Haupthandlung)\nAdmin\nDu schreibst den Bootsektor eines Geräts neu. Beim nächsten \nNeustart schaltet sich das Gerät einfach dauerhaft aus, bis \nseine Software ersetzt wurde.",
+    "topic": "combat.damage",
+    "keywords": [
+      "datenbombe",
+      "firew",
+      "datei",
+      "beim",
+      "sich",
+      "handlung",
+      "logik",
+      "gegen"
+    ]
+  }
+}

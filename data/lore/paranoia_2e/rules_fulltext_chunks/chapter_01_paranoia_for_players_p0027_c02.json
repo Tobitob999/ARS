@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_01_paranoia_for_players_p0027_c02",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_01_paranoia_for_players",
+    "chapter"
+  ],
+  "summary": "Rule chunk from Paranoia for Players page 27, chunk 2.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_01_paranoia_for_players",
+    "source_title": "Paranoia for Players",
+    "page": 27,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "Never assign anyone with a powerful area \\weapon to a position on the periphery of the group. The temptation to turn and wipe out the rest of the party in one shot is just too seductive, Place him in the middle, where you can keep an eye on him, \n[eae Don’t Start Anything You Can't Finish — Preferably, to Component \n‘Atoms Inexperienced Troubleshooters haul out their lasers and open fire the moment someone says ‘or does something that might be construed as treason. This is dumb, You ate not looking for an excuse to execute someone, You are look: ing for an opportunity to execute someone in such a thorough and risk-free fashion that he is dead before his weapon can clear his holster. Given the generally poor marksmanship of Troubleshooters, the unreliable killing power of their weapons, and the substantial protec tion of armor, the: chances of nailing a prospec tive traitor before he gets off several shots is diminishingly small; thus, you ae as likely to die as your victim, Dumb, \nThe coveted position in mission deployment is at the rea. Bide your time, build your case, then plug, him when he is relatively unable to return your fire. An ideal time is when he has his hands full of some other kind of trouble, like attack ing hastiles or a malfunctioning weapon or a berserk bot. AL very least his weapon should sli be in its holster and his attention engaged tekewhere Ideally he should never even know you attacked him, Whenever possible, attack when you have superior firepower, or when Circumstances ensure that you will hit your target — for instance, when you are standing, behind him with your slugthrower pressed against his tors.",
+    "topic": "combat",
+    "keywords": [
+      "when",
+      "weapon",
+      "someone",
+      "never",
+      "position",
+      "troubleshooters",
+      "their",
+      "fire"
+    ]
+  }
+}

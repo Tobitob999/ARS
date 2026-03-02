@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0233_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 233, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 233,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "nur dabei, den Spielfluss aufrechtzuerhalten, sondern \nermöglicht dem Spielleiter auch, im Voraus potenzielle \nProbleme oder Hindernisse zu identifizieren, die im Laufe \ndes Abenteuers auftreten können. Zum Beispiel ist ein \nAbenteuer mit heftigen Kampfszenen vielleicht nicht ge-\nrade das geeignetste Abenteuer für ein Runnerteam, das \nnur über sehr geringe Kampffertigkeiten verfügt. Wenn \ner das weiß, kann der Spielleiter das Abenteuer oder die \nKampfszenen ein bisschen modifizieren, sodass sie besser \nzur Dynamik des Teams passen. Und wo wir gerade von \nShadowrunner-Teams sprechen …\nPunkt 2: \nKenne deine Runner\nAuch wenn es vielleicht nicht immer möglich ist, ist es doch \nsehr empfehlenswert, wenn der Spielleiter vorher weiß, wel-\nche Charaktere die Spieler mit an den Tisch bringen. Wenn \ner über die Werte und Ausrüstung der Spielercharaktere im \nBilde ist, kann er den Spielern bei der Verkörperung dieser \nCharaktere helfen und Fragen beantworten, die unweiger-\nlich aufkommen werden. Spielma terial\nMan mag häuﬁ g den Eindruck haben, dass das Spielen \nvon Shadowrun – oder irgendeinem anderen Rollen-\nspiel – recht komplex ist und eine Menge an Material \nerfordert. Aber wenn man es sich einmal genau ansieht, \nkommt man in den meisten Fällen mit wenig Material \naus: Würfel für Spielleiter und Spieler, Charakterbögen \nfür die Spieler und irgendwelche Schreibutensilien, um \nVeränderungen wie etwa verbrauchte Munition oder \nVerletzungen der Spielercharaktere zu notieren. Auch \nein Grundregelwerk und eventuelle weitere Quellen-\nbücher können während des Spiels für Spielleiter und \nSpieler hilfreich sein.",
+    "topic": "combat",
+    "keywords": [
+      "spielleiter",
+      "spieler",
+      "abenteuer",
+      "kampfszenen",
+      "vielleicht",
+      "sehr",
+      "weiss",
+      "teams"
+    ]
+  }
+}

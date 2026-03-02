@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0199_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 199, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 199,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Das Handling \nvon Bodenfahrzeugen setzt sich aus zwei Bestandteilen zu-\nsammen: Der erste gilt für die Bewegung des Fahrzeugs auf \nbefestigten Straßen, der zweite für alle Fahrten abseits davon. Beschleunigung\n gibt an, wie viele Meter pro Kampfrunde \ndas Fahrzeug maximal beschleunigen oder abbremsen kann. Bleiben noch die Geschwindigkeitswerte. Das \nGeschwin-\ndigkeitsintervall\n (in Metern pro Kampfrunde) ist ein Richt-\nwert dafür, wie schwierig es ist, das Fahrzeug zu steuern – je \nschneller es sich bewegt, desto schwieriger ist es, das Fahr-\nzeug unter Kontrolle zu halten. Man sollte seine aktuelle \nGeschwindigkeit immer im Blick behalten: Wann immer \nman ein neues Geschwindigkeitsintervall erreicht, steigt \ndurchgeführten Angriffsproben um -1. Wenn man also ein \nFahrzeug mit einem Geschwindigkeitsintervall von 20 fährt, \nerhält man ab einer Geschwindigkeit von 20 einen Würfel-\npoolmalus von -1, ab 40 einen Würfelpoolmalus von -2 usw. Die \nHöchstgeschwindigkeit \ngibt die maximale Anzahl an \nMetern an, die sich das Fahrzeug innerhalb einer Kampf-\nrunde bewegen kann. Neben den Geschwindigkeitswerten verfügen Fahrzeuge \nüber das Attribut \nRumpf\n, das angibt, wie stark und robust \nihr Rahmen ist, und das Attribut \nPanzerung\n, das beschreibt, \nmit wie viel zusätzlichem Schutz dieser Rahmen versehen \nwurde. Die Attribute \nPilot \nund \nSensor\n repräsentieren die \neingebauten Programmroutinen, mit denen sich das Fahrzeug \neigenständig bewegen und auf seine Umwelt reagieren kann. Das Attribut \nSitze\n gibt an, wie viele Personen das Fahrzeug \nunter normalen Bedingungen befördern kann. Dazu verfügen \nFahrzeuge auch über die gängigen Angaben zu \nVerfügbarkeit \nund \nPreis\n.",
+    "topic": "combat",
+    "keywords": [
+      "fahrzeug",
+      "sich",
+      "gibt",
+      "attribut",
+      "viele",
+      "kampfrunde",
+      "metern",
+      "seine"
+    ]
+  }
+}

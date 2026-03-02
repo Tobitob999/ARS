@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "category": "mission_seed",
+  "id": "mission_seed_01",
+  "name": "Mission Seed 01",
+  "tags": [
+    "paranoia_2e",
+    "mission",
+    "seed"
+  ],
+  "summary": "Troubleshooter cell must audit reactor diagnostics.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "objective": "audit reactor diagnostics",
+    "assigned_by": "Research & Design",
+    "hidden_agenda": "Pro Tech",
+    "twist": "orders_conflict",
+    "countdown": 6,
+    "failure_cost": "demotion_risk"
+  }
+}

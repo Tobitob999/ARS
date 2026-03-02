@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "category": "encounter",
+  "id": "food_voucher_riot_19",
+  "name": "Cafeteria voucher mismatch escalates into faction conflict #19",
+  "tags": [
+    "paranoia_2e",
+    "encounter",
+    "batch_06"
+  ],
+  "summary": "Cafeteria voucher mismatch escalates into faction conflict",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "trigger": "on_timer",
+    "pressure": "medium",
+    "required_checks": [
+      "Interrogation",
+      "Data Analysis"
+    ],
+    "complication": "friendly_fire_risk",
+    "payoff": "promotion_note"
+  }
+}

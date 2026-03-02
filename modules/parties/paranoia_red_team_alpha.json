@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0.0",
+  "id": "paranoia_red_team_alpha",
+  "name": "Red Team Alpha",
+  "members": [
+    "paranoia_team_leader",
+    "paranoia_loyal_enforcer",
+    "paranoia_tech_specialist",
+    "paranoia_insec_observer"
+  ],
+  "notes": "Default four-clone cell for fast mission start.",
+  "compatible_rulesets": [
+    "paranoia_2e"
+  ]
+}

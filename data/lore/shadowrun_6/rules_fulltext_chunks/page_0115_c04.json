@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0115_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 115, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 115,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Wenn du zwei unterschiedliche Arten von Angriffen \ndurchführst (zum Beispiel mit einer Pistole in der einen \nund einem Messer in der anderen Hand), dividiere die \nbeiden normalerweise dafür verwendeten Würfelpools \njeweils durch zwei und runde ab, bevor du sie wieder \ndurch die Anzahl der mit dem jeweiligen Angriffstyp \nangegriffenen Ziele teilst. Die Verteidiger legen wie ge-\nwohnt Verteidigungsproben ab. SHADOWRUN: SECHSTE EDITION",
+    "topic": "combat.attack",
+    "keywords": [
+      "zwei",
+      "durch",
+      "unterschiedliche",
+      "arten",
+      "angriffen",
+      "beispiel",
+      "einer",
+      "pistole"
+    ]
+  }
+}

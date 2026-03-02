@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_04_the_rules_p0080_c01",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_04_the_rules",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The Rules page 80, chunk 1.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_04_the_rules",
+    "source_title": "The Rules",
+    "page": 80,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "raw_text": "devices which rely on the broadcast or recep- tion of electromagnetic signals become in- operative, The shell’s radius of effect is listed fon the Weapon Chart. * Tacnuke shells are available only for cone rifles, They are small nuclear devices, and can. be quite devastating, * Gas shells spread a cloud of gas over the radius indicated on the Weapons Chart. The effect of gas depends on the specific type used Poison gas does damage to any living be- ing within the gas radius. Roll for damage for teach such being; Weat it as an “F3\" allack, ‘smoke reduces visibility and scatters laser fire. When a character fires any weapon at @ target visible through smoke, halve his skill number. In addition, treat the smoke as Lar mor when laser fire is directed through it Corrosion gas does damage 10 all metallic beings {ie,, bots) within the area of the gas. ‘Teal as poison gas, but it affects only inorganic and not organic beings. It also reduces the damage protection abilities of metal armor (eg,, plate); reduce the armor rating by 1 for ‘each round the armor is exposed to the gas, Vomit gas causes organic beings in the area fof the gas fo vomit. Each round, each being ‘must make ay endurance rol. fhe fails, he begins to vomit, and may take no other action for several combat rounds (toll the die and hhalve the number rolled to determine how many). ‘Gauss gas isa substance which dramatical- ly increases the permittivity of free space ‘within the area of the gas cloud. Ifa gauss or \n‘Rermitviy of fee space” avaiable used In enim equations dealing wth lectomagnetic fadiation. The speed of Tigh vres with the medium ‘ough whieh ire light moves faster in 3 “acum than tough ai Yor example.",
+    "topic": "combat.damage",
+    "keywords": [
+      "damage",
+      "radius",
+      "within",
+      "smoke",
+      "beings",
+      "area",
+      "armor",
+      "vomit"
+    ]
+  }
+}

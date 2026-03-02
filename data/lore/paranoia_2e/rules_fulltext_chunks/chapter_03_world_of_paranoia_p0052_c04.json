@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_03_world_of_paranoia_p0052_c04",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_03_world_of_paranoia",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The World of Paranoia page 52, chunk 4.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_03_world_of_paranoia",
+    "source_title": "The World of Paranoia",
+    "page": 52,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "The gamemaster may take. the player's character sheet, and return it to him, radically altered, atthe beginning of the next \nDemot A citizen may have his security clearance lowered, or he may be stripped of certain duties and privileges (mission leader, loyalty officer, safety supervisor etc). This is a com- mon practice for admonishing powertrippers \nand fractious subordinates and making them more tractable, I's amazing how a field demo- tion can improve a citizen's manners and temperment. For exceptional incompetence or poor performance, a citizen may be demoted to Infrared level — right out of the Trouble- shooting business and back to the food vats and waste recycling. Retirement ‘When a citizen fails an insanity check (see page 74), or when the stress of a mission ‘causes a citizen to foam at the mouth and Scrabble around on all fours, he may be assign- eed to Permanent Recreation in HPD & Mind Control's Retirement Gulags. His clone is activated. Note: Sometimes characters with psychotic tendencies get pramoted rather than retired, ‘The Computer works in mysterious ways \nWien s—~S For enemies of The Computer and Alpha Complex, there is only one appropriate cor- rective measure — termination, When suff- cient evidence ts produced to prove that an individual sa traitor, The Computer issues ter- mination vouchers to. Troubleshooters. and dispatches them on Summary Execution mis- sions: find the traitor and terminate him. The ‘Computer may also make a public announce- ment calling upon all loyal citizens to aid in the apprehension and termination ofthe traitor, and offering bounties to stimulate enthusiastic cooperation — “Wanted, Dead or Alive!",
+    "topic": "clearance",
+    "keywords": [
+      "citizen",
+      "computer",
+      "when",
+      "traitor",
+      "mission",
+      "them",
+      "retirement",
+      "termination"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_03_world_of_paranoia_p0036_c04",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_03_world_of_paranoia",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The World of Paranoia page 36, chunk 4.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_03_world_of_paranoia",
+    "source_title": "The World of Paranoia",
+    "page": 36,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "These must be prepared and eaten in secrecy, since possession of such foods is treason. The most important feature of life support for Tost citizens is the generous ration of biochemical supplements aallable on request ‘A wide variety of tranquilizers, stimulants, ‘opatifics, and mood elevators are available in cafeterias, in personal quarters, and from public dispensaries throughout the complex. ‘Through these biochemical supplements The Computer ensures the happiness of each citizen, Any citizen who avoids his medica- tion is viewed with suspicion. That the medica- tion occasionally interferes with the sae opera- \n36",
+    "topic": "treason",
+    "keywords": [
+      "these",
+      "biochemical",
+      "supplements",
+      "citizen",
+      "medica",
+      "tion",
+      "must",
+      "prepared"
+    ]
+  }
+}

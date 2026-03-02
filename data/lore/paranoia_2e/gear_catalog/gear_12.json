@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0.0",
+  "category": "item",
+  "id": "gear_12_memo_burst_printer",
+  "name": "Memo Burst Printer",
+  "tags": [
+    "paranoia_2e",
+    "item",
+    "gear_catalog"
+  ],
+  "summary": "Experimental field gear with bureaucratic side effects.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "clearance_required": "Orange",
+    "use_case": "detection",
+    "risk": "self_report",
+    "charges": 4
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_05_gamemastering_paranoia_p0100_c04",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_05_gamemastering_paranoia",
+    "chapter"
+  ],
+  "summary": "Rule chunk from Gamemastering Paranoia page 100, chunk 4.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_05_gamemastering_paranoia",
+    "source_title": "Gamemastering Paranoia",
+    "page": 100,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "Anti-gravty is just a matter of getting atoms to spin upside down, or in- side out, or something lke that. And ray guns. ‘And plasma bottles. And hyper drives. And time machines. And fusion cannons, And X- ray lasers the size of ball-point pens. ‘Of course, the introduction of such ineredi- ble technology would produce fundamental ‘changes in any society, changes we are too lazy to imagine and account for. So this super. technology is not available to most citizens in Alpha Complex. Itis only in the experimen- tal stages, Such experimental technology is often assigned to Troubleshooters for two-reasons: ‘one, because The Computer believes it will bbe particularly useful in a given mission, despite its untested status, and two, because the R&D boys aré always eager to have their \n‘equipment field-tested — ideally, far away \nfrom R&D, where only innocent citizens will be hurt Experienced Troubleshooters know: that \nR&D devices are exceptionally dangerous, However, refusal to accept assignment of an ‘experimental device may be perceived as doubting the wisdom and generosity of The Computer. “Citizen, please accept the un- \nparalleled honor of testing the Mark IX Port- \nable Nova Cannon. Appropriate protective igear would normally be issued at this time, but our designers assure us that the weapon is perfectly safe. Perfectly. 'm sure we can ‘count on your cooperation.\" ‘Methods of assigning experimental devices vary from adventure to adventure. R&D staf- fers come and go (often in small plastic bags), \nand R&D facilites often undergo extensive alterations as a result of unanticipated test results, so Troubleshooters might not visit the same R&D facility twice.",
+    "topic": "general",
+    "keywords": [
+      "technology",
+      "experimental",
+      "often",
+      "troubleshooters",
+      "time",
+      "such",
+      "would",
+      "changes"
+    ]
+  }
+}

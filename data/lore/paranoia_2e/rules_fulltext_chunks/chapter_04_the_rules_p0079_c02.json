@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_04_the_rules_p0079_c02",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_04_the_rules",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The Rules page 79, chunk 2.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_04_the_rules",
+    "source_title": "The Rules",
+    "page": 79,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "raw_text": "— some armor protects against certain forms of damage and not against others (see \"atmor’” in the “Combat” section). It is therefore helpful to know what kind of damage ‘weapons inflict upon you. So, weapons are divided into “types” according to the damage they do (see the Weapons Chart \nLaser Weapons (L): These send beams of ‘coherent light through you. Shiny, mirrored surfaces provide some protection, as does ar- ‘mor reflecting light of the same color as the laser's beam. Projectile Weapons (P): These send pieces of metal, plastic, ice, or other hard substances, through you, To offer protection against pro~ jectiles, armor has to be able to withstand high impact over a small surface area. ‘Armor Piercing Weapons (AP): A tot like pro jectile weapons, except that these punch through armor better \n, 2. Weapons \nField Weapons (Pi: These attack areas, not specific points (e.g, flamethrowers cover you with flames). Armor must cover you entirely {o protect you against these things. Impact Weapons (1): These crush you or cut you, Stuff like plate mail or lots of heavy sweaters protects you from impact damage. Energy Weapons (E): These shoot beams of electrons or other high-tech molecular junk at you, As you might expect, only high-tech ‘armor protects against this stuf \nLasers \n‘A laser weapon's barrel can be unscrewed and removed from the main body of the gun, then replaced with another barrel. Replacing ‘a barrel takes one combat round, during which the user can take no other action, Each barrel may be fired with reasonable safety up to six times. If fired more than six times, there is an, increasing chance of malfunction each time.",
+    "topic": "combat.defense",
+    "keywords": [
+      "weapons",
+      "these",
+      "armor",
+      "against",
+      "damage",
+      "barrel",
+      "protects",
+      "laser"
+    ]
+  }
+}

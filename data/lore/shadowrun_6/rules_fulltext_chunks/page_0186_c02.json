@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0186_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 186, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 186,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Sie reprä-\nsentieren Systeme, die viele andere Systeme hinter sich \nvernetzen. Wenn man einen Host von außen betrachtet, \nist er meistens ein größeres Icon, das als Ort oder Ge-\nbäude gestaltet ist. Einige Hosts existieren rein virtuell \nund scheinen über der schwarzen Ebene der Matrix zu \nschweben; andere sind mit physischer Hardware an einen \nbestimmten Ort gebunden. Der virtuelle Raum in einem Host ist von der Matrix ge-\ntrennt, und alle Icons in diesem Host sind nur dann zu errei-\nchen, wenn sie sich in einem öffentlich zugänglichen Bereich \ndes Hosts befinden. Der Zugang zu einem Host erlaubt die \nInteraktion mit den Icons und Geräten, die sich darin befinden. Hosts haben eine Stufe, die die Grundlage für ihre Ma-\ntrixattribute bildet. Diese Stufe kann 1 bis 12 betragen. Hosts haben eine Attributsreihe, die meist Hoststufe, Host-\nstufe + 1, Hoststufe + 2 und Hoststufe + 3 in beliebiger An-\nordnung beträgt. Ein Host der Stufe 4 könnte also Angriff \n5, Schleicher 4, Datenverarbeitung 7 und Firewall 6 haben. Die Attribute eines Hosts gelten auch für dessen IC. Hostsicherheit und \nHost architektur\nDie grundlegende Sicherheitsmaßnahme in Hosts besteht \nmeistens aus Patrouillen-IC, das Icons scannt, die sich im \nHost bewegen. Wenn eine unerlaubte Präsenz entdeckt \nwird, kann der Host weiteres IC starten und die Sicherheit \nüber das Eindringen informieren. Ein Host kann in jeder \nKampfrunde als Teil seiner Handlungen ein IC starten und \neine Anzahl von IC-Programmen gleich seiner Hoststufe \ngleichzeitig laufen lassen. Hosts dürfen nur eine Kopie jeder \nArt von IC gleichzeitig aktiv haben.",
+    "topic": "matrix",
+    "keywords": [
+      "host",
+      "sich",
+      "stufe",
+      "einem",
+      "icons",
+      "systeme",
+      "andere",
+      "einen"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_02_intro_to_gamemastering_p0030_c04",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_02_intro_to_gamemastering",
+    "chapter"
+  ],
+  "summary": "Rule chunk from An Introduction to Gamemastering page 30, chunk 4.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_02_intro_to_gamemastering",
+    "source_title": "An Introduction to Gamemastering",
+    "page": 30,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "In the wake of the chaos caused by the planetoid, the surviving sub-systems were in \\arying states of confusion and dysfunction, ‘and wore justifiably bewildered by the con flicting messages. Within a decade, broadcasts from over 100 active computer complexes had been recorded, each claiming to be the only tuntampered remnant of the Alpha Prime complex, each protecting ‘its citizens by declaring, war on all the other Commie- dominated computer complexes This is the world of Paranoia, \n‘An awesome weapon of the Old Reckoning — a Hoover 216. 30",
+    "topic": "general",
+    "keywords": [
+      "computer",
+      "complexes",
+      "wake",
+      "chaos",
+      "caused",
+      "planetoid",
+      "surviving",
+      "systems"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0095_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 95, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 95,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "FERTIGKEITEN\nFertigkeitenliste\nFertigkeit Ungeübt? Astral Nein\nAthletik Ja\nBeschwören Nein\nBiotech Nein\nCracken Nein\nEinﬂ uss Ja\nElektronik Ja\nExotische Waffen Nein\nFeuerwaffen Ja\nHeimlichkeit Ja\nHexerei Nein\nMechanik Ja\nNahkampf Ja\nNatur Ja\nSteuern Ja\nTasken Nein\nÜberreden Ja\nVerzaubern Nein\nWahrnehmung Ja\nZeig, w as du \ndraufhast\nDieses Kapitel listet alle Fertigkeiten in Shadowrun, Sechste \nEdition, auf und beschreibt, wie sie eingesetzt werden. Es ist \ndetailliert, aber nicht umfassend – früher oder später werden \ndie Spieler auf kreative Ideen kommen, und ihre Charaktere \nwerden Dinge tun, die hier nicht explizit aufgeführt sind. Die Richtlinien in diesem Kapitel zeigen dir jedoch, welche \nHandlungen welchen Fertigkeiten zugeordnet werden – so \nkannst du eine passende Probe festlegen, mit der ihr heraus-\nfinden könnt, ob die Shadowrunner einen glorreichen Sieg \nerringen oder grandios scheitern. Fertigkeiten haben Werte zwischen 1 und 9 (10 mit dem \nVorteil Talentiert). Bei jeder Fertigkeitsbeschreibung sind \nzusätzlich mehrere Spezialisierungen für die Fertigkeit \nangegeben. Wenn ein Charakter über eine Spezialisie-\nrung verfügt, erhält er einen Würfelpoolbonus von +2 \nbei Fertigkeitsproben auf das entsprechende Spezialge-\nbiet. Nach dem Kauf einer Spezialisierung kann diese \nzu einer Expertise verfeinert werden, wodurch sich der \nBonus auf +3 erhöht. Ein Charakter mit einer Expertise \ndarf zudem eine zweite Spezialisierung für die jeweilige \nFertigkeit wählen. Insgesamt kann ein Charakter also \nmaximal eine Expertise und eine Spezialisierung in einer \nFertigkeit haben.",
+    "topic": "combat",
+    "keywords": [
+      "nein",
+      "fertigkeiten",
+      "einer",
+      "charakter",
+      "spezialisierung",
+      "expertise",
+      "einen",
+      "ungeuebt"
+    ]
+  }
+}

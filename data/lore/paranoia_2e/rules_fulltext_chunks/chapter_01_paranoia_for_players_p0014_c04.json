@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_01_paranoia_for_players_p0014_c04",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_01_paranoia_for_players",
+    "chapter"
+  ],
+  "summary": "Rule chunk from Paranoia for Players page 14, chunk 4.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_01_paranoia_for_players",
+    "source_title": "Paranoia for Players",
+    "page": 14,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "IF you roll higher, you fal ‘Any unmodified roll of 20 is always a failure; any roll of 1 is always a success. Even if your ‘kill number is 0, you can stil attempt to use the skill; a roll of 1 is still a success. Even if your skill number is 20, a roll of 20 is still a failure Remember that you \"possess\" al skis; even if you haven't spent any skill points on a skill, you can still use it at your skill base. ‘When you try to do something especially difficult or especially easy, the gamemaster may modify your skill or attribute number before you rll, Obviously, shooting something at point blank range is easier than shooting something a mile away. Sometimes, though, the gamemaster won't tel you he’s modifying, your skill or attribute number; sometimes, a factor that you know nothing about affects your chances of succeeding. So don’t be surprised if you roll under your skill or attribute number but the gamemaster tells you that you fail anyway. 4. Attributes and Skills \nWhat Can Skills Do? ‘You can guess what most skills do from the name. Obviously “laser weapons’ is used to fire laser weapons, right? And when you shoot your laser pistol at someone, you roll against your laser weapons skill to see if you hit. But what is “psychescant” Here's a ‘‘cleared for Red-level bozos\" description of the not-so-obvious skills. If you want more detail, feel free to incriminate ‘yourself and turn to pages 57 through 61, \nWi Agility skills Force Sword: A combat ski. Roll against this number when you attempt to whack someone \nwith a force sword. Grenades: Another combat skill.",
+    "topic": "skills",
+    "keywords": [
+      "skill",
+      "roll",
+      "number",
+      "laser",
+      "even",
+      "still",
+      "when",
+      "something"
+    ]
+  }
+}

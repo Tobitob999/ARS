@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0336_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 336, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 336,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Modifika toren für \nChemische Detektoren (S. 243)\nSITUATION\n WÜRFELPOOL-\nMODIFIKATOR\nPro 10 Schuss Munition\n +1\nPro Granate\n +1\nPro 2 Stufen Standard-\n(Nicht-Plastik-)Sprengstoff\n +1\nPro 4 Stufen Plastiksprengstoff\n +1\nSprengstoff/Munition in \ngeschlossenem Plastikbehälter\n -1\nCyberw arescanner (S. 243)\nGEGENSTAND\n SCHWELLENWERT\nStandard-Cyberware, Waffen\n 1\nAlphaware, andere Gegenstände\n 2\nBetaware\n 3\nDeltaware\n 5\nSITUATION\n SCHWELLENWERT-\nMODIFIKATOR\n1 oder 2 Implantate/Gegenstände\n +3\n3 oder 4 Implantate/Gegenstände\n +2\n5 oder 6 Implantate/Gegenstände\n +1\n7+ Implantate/Gegenstände\n –\nVerfügbarkeit (S. 245)\nSTUFE\n BEDEUTUNG\n1\n Diese Sachen kriegt man praktisch überall. Wenn man sich in einer halbwegs zivilisierten Gegend beﬁ ndet, muss man \nschlimmstenfalls ein paar Straßen weit gehen, um einen Laden zu ﬁ nden, der so etwas verkauft. 2\n Diese Dinge sind schon etwas spezieller, was aber eigentlich nur bedeutet, dass man einen Laden suchen muss, der auf \nsolche Waren spezialisiert ist, statt einfach in den nächsten Stuffer Shack oder so zu spazieren. 3\nHierfür braucht man schon ein Fachgeschäft, es sind Sachen für Liebhaber oder Dinge, die in relativ kleiner Stückzahl \nhergestellt werden. Sie sind nicht wirklich selten, aber man muss in einem Sprawl schon suchen, um einen Laden dafür zu \nﬁ nden. 4\n Diese Dinge ﬁ ndet man nur bei Spezialhändlern. Sie sind nicht für den Massenmarkt gedacht, und ihre spezialisierte \nFunktion ist auch nichts für jeden. Nur wenige Leute im Sprawl besitzen sie, und ihre Vorräte sind begrenzt. 5\n Wirklich spezielle Sachen.",
+    "topic": "combat",
+    "keywords": [
+      "gegenstaende",
+      "implantate",
+      "diese",
+      "sachen",
+      "einen",
+      "laden",
+      "dinge",
+      "schon"
+    ]
+  }
+}

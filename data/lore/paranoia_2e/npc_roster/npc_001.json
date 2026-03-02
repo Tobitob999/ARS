@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npc",
+  "id": "npc_001",
+  "name": "Vex-B-R-01",
+  "tags": [
+    "paranoia_2e",
+    "npc",
+    "roster"
+  ],
+  "summary": "Internal Security operative with layered loyalties.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "service_group": "Internal Security",
+    "secret_society": "Anti-Mutant",
+    "mutation": "Adrenaline Control",
+    "trait": "pedantic",
+    "clearance": "Green",
+    "use_in_play": "double_agent"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0192_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 192, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 192,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Matrixsysteme erkennen Sprites nicht als legitimen Code \nan und versuchen sie daher zu löschen. Das begrenzt ihre \nLebenszeit (sofern man von Leben sprechen kann). Sie kön-\nnen nur [Spritestufe × 2] Stunden lang existieren, wenn sie \nnicht registriert sind (s. Registrieren eines Sprites). Sprites \nsammeln auch OW an. Sollte ein Sprite Fokussierung er-\nleiden, wird der physische Aufenthaltsort seines Techno-\nmancers bekannt. Beispiel: \nK ompilieren eines Sprites\nRespec sitzt in der Klemme, und Killer-IC stürmt auf sie \nzu, nachdem sie ein paar schlechte Lebensentscheidun-\ngen im falschen Host gefällt hat. Sie braucht Unterstüt-\nzung, und das schnell, und sie weiß, dass es nichts Bes-\nseres als ein Stör-Sprite gibt, wenn man einen Eispickel \nbraucht, um die Titanic zu retten. Sie entscheidet sich für \nein Stör-Sprite der Stufe 3, würfelt mit Tasken + Reso-\nnanz (12 Würfeln) und erzielt 4 Erfolge. Das Stör-Sprite \nwürfelt mit seiner Spritestufe × 2 (6 Würfeln) und er-\nzielt 3 Erfolge, denen Respec als Schwund widerstehen \nmuss. Sie widersteht mit Willenskraft + Logik, erzielt 2 \nErfolge und erleidet 1 Kästchen Betäubungsschaden. Jetzt hat sie für sechs Stunden einen Freund, der sie im \nKampf unterstützt, was hoffentlich genügt, um mit allem \nfertigzuwerden, was ihr dieser Host auf den Hals hetzt. Registrieren eines Sprites\nWenn du ein Sprite vor den Versuchen der Matrix schüt-\nzen willst, es zu zerquetschen, und wenn du mehr als ein \nSprite haben willst, musst du Sprites registrieren. Das ist \nein aufwendiger, zeitraubender Prozess, der eine Anzahl \nvon Stunden gleich der Spritestufe dauert.",
+    "topic": "advancement",
+    "keywords": [
+      "sprites",
+      "stunden",
+      "registrieren",
+      "eines",
+      "stoer",
+      "erfolge",
+      "versuchen",
+      "respec"
+    ]
+  }
+}

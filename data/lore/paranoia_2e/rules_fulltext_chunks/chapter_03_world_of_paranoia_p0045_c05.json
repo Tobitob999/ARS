@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_03_world_of_paranoia_p0045_c05",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_03_world_of_paranoia",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The World of Paranoia page 45, chunk 5.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_03_world_of_paranoia",
+    "source_title": "The World of Paranoia",
+    "page": 45,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "In fact, this isa common way fora lower level member to rise in prestige — by assisting (and thereby coming to the attention of) a well-known Death Leopard hero, “Missions” are generally initiated at the Head Honcho level. Worms and Real Persons receive challenges from thei leaders, generally requiring some minor act of mischief or rebellion. Lieutenants and Head Honchos have to prove themselves from time to time ‘with more ambitious projects, and occasional- ly, stars will plan large scale activities requit- ing the cooperation of a number of gangs. Nor- mally, however, such projects are spur-olthe- ‘moment inspirations, A lower level member will suddenly receive a challenge from a star- level celebrity; he must respond immediately to the challenge, or lose face and status in the society. 45",
+    "topic": "death",
+    "keywords": [
+      "level",
+      "lower",
+      "member",
+      "generally",
+      "head",
+      "receive",
+      "time",
+      "projects"
+    ]
+  }
+}

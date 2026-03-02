@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "appendix_04_foldout_d_logc_player_characters_p0150_c02",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "appendix_04_foldout_d_logc_player_characters",
+    "appendix"
+  ],
+  "summary": "Rule chunk from Fold-Out D: I.O.G.C. Player Characters page 150, chunk 2.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "appendix",
+    "source_id": "appendix_04_foldout_d_logc_player_characters",
+    "source_title": "Fold-Out D: I.O.G.C. Player Characters",
+    "page": 150,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "binoculars winfrared snooperscope 1 com unit | 1 stylus and 3 notebooks \nskill Weapon Number \naser Pistol \nType \nTruncheon 3 \nPARANOIA \n2 ‘= \nDamage Rating \n8 \nRange Damage Status \nFoldout D",
+    "topic": "combat.damage",
+    "keywords": [
+      "damage",
+      "binoculars",
+      "winfrared",
+      "snooperscope",
+      "unit",
+      "stylus",
+      "notebooks",
+      "skill"
+    ]
+  }
+}

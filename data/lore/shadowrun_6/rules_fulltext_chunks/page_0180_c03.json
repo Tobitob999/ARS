@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0180_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 180, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 180,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Er gewährt zwar größere Rechte \nals der User-Zugang, bedeutet aber nicht, dass du wirklich \nAdministrator oder Besitzer des Systems bist – du benutzt \ntrotz allem einen illegalen Zugang. Bei jeder Matrixhand-\nlung ist eine Zugangsstufe angegeben, die mit ihr verbun-\nden ist. Manchmal muss der Spielleiter festlegen, welche \nZugangsstufe ein bestimmter Einsatz einer Matrixhandlung \nbenötigt. Um User- oder Admin-Zugang durch das Hacken \neines Systems zu erhalten, benötigt man die Handlungen \nBrute Force (S. 180) oder Sondieren (S. 184). Beispiel: \nHacken eines Hosts\nJack führt unter dem wachsamen Auge seines Vaters \nSlamm-0! die Handlung Sondieren im Matrix-Host von \nRatt-onna-stick in der AR durch. Er hat einen Würfelpool \naus Cracken + Logik von 8 gegen einen Würfelpool von \n4 (Firewall 2 × 2) des nicht überwachten Hosts. Jack hat \nGlück und erzielt 6 Erfolge bei seinem Versuch, eine Hin-\ntertür ins System zu öffnen; die Firewall erzielt 0 Erfolge. Jack erhält dadurch einen Overwatch-Wert von 0, den \nSlamm-0! mit seinem Babymonitor-Programm festhält. Inzwischen hackt Mungo am anderen Ende von Seattle \nein viel härteres System: das Hauptquartier von Stuffer \nShack in Seattle. Die ASDF-Werte seiner Cyberbuchse \nund seines Cyberdecks sind auf 3 4 3 4 eingestellt. Er \nversucht ebenfalls ein Sondieren. Mungo hat einen Wür-\nfelpool aus Cracken + Logik von 10; das HQ von Stuffer \nShack hat Firewall 3 und eine Sicherheitsspinne mit \nWillenskraft 5, also einen Würfelpool von 8. Mungo hat \nPech und erzielt nur 2 Erfolge, die Spinne samt Firewall \nhingegen erzielt 4 Erfolge. Durch die 4 Erfolge der Spinne \nsteigt Mungos Overwatch-Wert auf 4.",
+    "topic": "advancement",
+    "keywords": [
+      "einen",
+      "erfolge",
+      "firewall",
+      "erzielt",
+      "zugang",
+      "durch",
+      "sondieren",
+      "jack"
+    ]
+  }
+}

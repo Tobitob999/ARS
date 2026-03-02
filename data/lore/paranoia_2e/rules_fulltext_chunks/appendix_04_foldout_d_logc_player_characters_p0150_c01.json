@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "appendix_04_foldout_d_logc_player_characters_p0150_c01",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "appendix_04_foldout_d_logc_player_characters",
+    "appendix"
+  ],
+  "summary": "Rule chunk from Fold-Out D: I.O.G.C. Player Characters page 150, chunk 1.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "appendix",
+    "source_id": "appendix_04_foldout_d_logc_player_characters",
+    "source_title": "Fold-Out D: I.O.G.C. Player Characters",
+    "page": 150,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "PC#1:_Ed-R-MRO-1 Service Group: HPD & MC \nSecurity, Clearance: RED. Player Name: 7 \nImproved Skills \nAgility Skill Base Unarmed. 6 \nChutzpah Skill Base Bootlicking 6 Con 6 \nDexterity Skil Base Laser Weapons. 0 \nMechanical Skill Base. Habitat Engineering (Communications)__ 6 Robot Op. & Maint. (Jackoboo — \n2 Moxie Skill Base__3 Fist Aid. Personal Equipment 1 laser pistol 1 Red laser barrel 1 Red reflec armor 1 Red jumpsuit wiutilty belt & pouches 1 com unit | 1 stylus and notebook \npills 10 applications Morphie burn \n1 autographed Teela O'Malley plasticup \nWeapon \nLaser Pistol \nDamage Experi Rating Range mental? 8 50 N \nPC#2: Steve-R-STN-1 \n‘Service - Group: Tech. Services \n‘Damage Status \nGrearance: RED Name: \n24 Mutego mutation suppression \nTmproved Skills, \nAgility Skill Base. Grenades________8 Primitive Melee Weapons — 10 \nChutzpah Skil Base. Intimidation \nDexterity Skill Base Laser Weapons — Projectile Weapons \n‘Mechanical Skill Base Robot Opt. & Maint (Docbo_ 6 \n5 — Moxie Skill Base 1 Elecironic Engineering 2 Mechanical Engineering 4 \n3 \n3 \n1 \nPersonal Equipment \n1 laser pistol 1 Red laser barrel 1 Red reflec armor 1 Red jumpsuit wut pouches 1 com unit | 1 stylus and notebook \nbelt & \npliers, screwdrivers, wire nuts Soldering iron, duct tape, and hose clamps 1 extra-large monkey wrench Robot Opt. & Maint \\Vackobo) \nDamage Experi- ‘Weapon Number Type Rating Range mental? Laser Pistol z L a _s0 N \nMonkey Wrench wo 8 = 2N \n1 big red toolcase with wrenches, \nSpurious Logic Dexterity Skill Base Laser Weapons \nMechanical Skill Base \nMoxie Skill Base Suneillance \nPC# 3: Mick-RTHY-2 Group: HPD Player Name: \n= oo \npouches 1 pr customized Red jackboots 1 pr.",
+    "topic": "combat.defense",
+    "keywords": [
+      "base",
+      "skill",
+      "laser",
+      "weapons",
+      "mechanical",
+      "pistol",
+      "group",
+      "name"
+    ]
+  }
+}

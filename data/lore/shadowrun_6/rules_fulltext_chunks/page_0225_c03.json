@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0225_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 225, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 225,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Infektion\nART HANDLUNG REICHWEITE DAUER\nP Auto B Permanent\nDiese Kraft ist der Vektor, durch den das Menschlich-Meta-\nmenschliche Vampirische Virus (MMVV) übertragen wird. Wenn ein Critter, der die Kraft Infektion besitzt, mittels der \nKraft Essenzentzug die Essenz eines Opfers auf 0 senkt, \nso versucht diese Kraft, die Infektion des Critters auf das \nOpfer zu übertragen. Um festzustellen, ob das Opfer infi-\nziert wird, ist eine Vergleichende Probe auf Magie + Magie \ndes Critters gegen Konstitution + Willenskraft des Opfers \nerforderlich. Gewinnt der Critter, so ist das Opfer infiziert \nund fällt in einen komaartigen Zustand, während das Virus \ndas Opfer körperlich, geistig und seelisch verändert. 24 \nStunden später erhebt sich das Opfer als neuer Infizierter \nCritter (entsprechend seiner ursprünglichen Metaspezies) \nmit einem einzigen Punkt Essenz und einem unstillbaren, \nbestialischen Hunger nach mehr. Der neue Infizierte Critter \nmuss sofort alles in seiner Macht Stehende tun, um einem \nanderen Lebewesen Essenz zu entziehen. Spielercharaktere, die durch die Kraft Infektion trans-\nformiert werden, mutieren, wenn sie ins Koma fallen, \nautomatisch zu NSC und werden fortan von der Spiel-\nleiterin kontrolliert (jedenfalls für den Augenblick, mua-\nhahahahaha!). Lähmende Berührung\nART HANDLUNG REICHWEITE DAUER\nP H B Speziell\nDiese Kraft ist die Berührungsversion des Lähmenden \nHeulens. Der Critter muss das Opfer berühren. Wird das \nOpfer überrascht oder ist es nicht in der Lage, den Critter \nzu bemerken, ist die Berührung automatisch erfolgreich. Bemerkt das Opfer den Critter, wird die Berührung wie \nein Nahkampfangriff behandelt, der keinen Schaden ver-\nursacht.",
+    "topic": "magic",
+    "keywords": [
+      "opfer",
+      "critter",
+      "kraft",
+      "infektion",
+      "diese",
+      "essenz",
+      "einem",
+      "beruehrung"
+    ]
+  }
+}

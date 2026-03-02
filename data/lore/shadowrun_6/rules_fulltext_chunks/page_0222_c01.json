@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0222_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 222, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 222,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Sirrush: Der Sirrush ist in Kleinasien heimisch und ähnelt \ndem Östlichen Drachen. Er hat jedoch längere Gliedma-\nßen und ist mit 25 Metern insgesamt etwas kleiner, wobei \nder Längenunterschied hauptsächlich durch den kürzeren \nSchwanz des Sirrush zustande kommt. Der Sirrush hat au-\nßerdem einen längeren und schmaleren Kopf ohne die Kinn- \nund Schnurrbarthaare seines östlichen Verwandten. Und er \nist nicht so farbenprächtig wie der Östliche Drache; seine \nSchuppen haben meist eher erdige Töne wie Braun, Grau, \nGold oder Terrakotta. Spieltechnisch gesehen ist ein Sirrush \njedoch identisch mit einem Östlichen Drachen. funktionieren. Um eine Critterkraft gegen (oder für) ein Ziel \neinzusetzen, müssen Critter und Ziel sich auf der gleichen \nEbene befinden, astral oder physisch. Astrale Gestalten \nkönnen nicht auf physische Objekte oder Wesen einwirken \nund umgekehrt (s. Die Astralebene, S. 161). Astrale Crit-\nter mit der Kraft Materialisierung können auf physische \nZiele einwirken, wenn sie zunächst diese Kraft anwenden, \num auf die physische Ebene zu gelangen. Critter mit der \nKraft Dualwesen können mit beiden Ebenen interagieren \nund Ziele in der Astralebene ebenso leicht angreifen oder \nunterstützen wie in der physischen Ebene. In den Beschreibungen der Kräfte werden vier Charak-\nteristika aufgeführt:\nArt: Critterkräfte können Manakräfte (M) oder Physische \nKräfte (P) sein. Manakräfte wirken nicht auf unbelebte \nZiele, während Physische Kräfte nicht im Astralraum \noder gegen astrale Gestalten eingesetzt werden können. Handlung: Die meisten Kräfte erfordern eine bestimmte \nForm von Handlung (Haupthandlung [H] oder Neben-\nhandlung [N]), um sie zu aktivieren.",
+    "topic": "conditions",
+    "keywords": [
+      "sirrush",
+      "physische",
+      "kraefte",
+      "oestlichen",
+      "ebene",
+      "astrale",
+      "kraft",
+      "ziele"
+    ]
+  }
+}

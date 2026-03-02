@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0225_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 225, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 225,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Der Critter legt dann eine Vergleichende Probe auf \nGeschicklichkeit + Magie gegen Reaktion + Willenskraft \ndes Opfers ab. Die Auswirkungen sind die gleichen wie \nbeim Lähmenden Heulen. Gesteigerte Sinne\nART\n HANDLUNG\n REICHWEITE\n DAUER\nP\n Auto\n Selbst\n Immer\nDiese Kraft umfasst alle verbesserten oder geschärften Sin-\nne, die über die normale menschliche Wahrnehmungsband-\nbreite hinausgehen. Dazu gehören Restlichtverstärkung und \nInfrarotsicht, verbessertes Hören und Sehen, wärmeemp-\nfindliche Organe, natürliches Sonar und einiges mehr. Der \nSinn, der tatsächlich gesteigert ist, wird in der Beschrei-\nbung des Critters mit angegeben. Die Auswirkungen der \ngesteigerten Sinne entsprechen denen ihrer technologischen \nEntsprechungen im Kapitel \nAusrüstung\n (S. 275/277). Ausrüstung\n (S. 275/277). Ausrüstung\nGift\nART\n HANDLUNG\n REICHWEITE\n DAUER\nP\n Auto\n B\n Sofort\nDer Critter sondert ein Toxin (siehe S. 125) ab, das für ande-\nre gefährlich und schädlich ist. Die typischen Attribute eines \nsolchen Giftes sind: Vektor: Injektion; Geschwindigkeit: 1 \nKampfrunde; Kraft: Magie; Wirkung: Benommen, Vergiftet \n(Magie)K. Einige Critter besitzen Gifte mit anderen Cha-\nrakteristika – etwa den Vektor Kontakt –, die dann in der \nBeschreibung des Critters angegeben werden. Gifthauch\nART\n HANDLUNG\n REICHWEITE\n DAUER\nP\n H\n Speziell\n Sofort\nEin Critter mit dieser Kraft kann seine Opfer mit einem ekel-\nerregenden Gestank außer Gefecht setzen. Spieltechnisch ist \ndies eine Sprühangriffsprobe (S. 121) auf Geschicklichkeit \n+ Magie des Critters mit den Angriffswerten Magie × 2/\nMagie/–/–/–.",
+    "topic": "magic",
+    "keywords": [
+      "magie",
+      "critter",
+      "handlung",
+      "reichweite",
+      "dauer",
+      "kraft",
+      "ausruestung",
+      "dann"
+    ]
+  }
+}

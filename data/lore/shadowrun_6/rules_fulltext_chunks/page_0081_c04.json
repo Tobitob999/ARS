@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0081_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 81, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 81,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Du musst an jedem Tag eine erfolgreiche Probe auf Kon-\nstitution + Willenskraft (3) ablegen, um eine erholsame \nNacht lang zu schlafen. Misslingt die Probe, kannst du \nam folgenden Tag nicht mehr als insgesamt 2 Edge er-\nhalten, egal aus welcher Quelle. Außerdem kannst du an \ndiesem Tag bei keiner Probe mehr als 2 Edge ausgeben. Die Verwendung eines Schlafregulators (S. 295) senkt \nden Schwellenwert der Probe auf 1. Medikamente (für \n50 Nuyen pro Dosis) senken den Schwellenwert auf 2. Schw aches Immunsystem\nDein dauerndes Schniefen ist für dich und dein Team lästig, \naber ein Niesen zur falschen Zeit oder ein plötzlicher Drang \nzur Toilette könnten einen guten Run versauen. Du bist fast \nandauernd krank. Manchmal ist es ein einfacher Schnupfen, \nGlaskinn\nEs braucht nicht viel, um dich auf die Matte zu schicken. Du konntest noch nie einen Schlag wegstecken. Bonus:\n 4 Karma pro Stufe\nAuswirkung:\n Du hast pro Stufe dieses Nachteils 1 Kästchen \nfür Betäubungsschaden weniger , bis zu einem Minimum \nvon 2 Kästchen. Gremlins\nKommlinks stürzen ab, Waffen bekommen Ladehemmung, \nAutoreifen explodieren, elektrische Systeme bekommen \nKurzschlüsse. Absolut alles, was mit empfindlichen tech-\nnischen Gegenständen schiefgehen kann, ist irgendwann \nin deinem Leben schiefgegangen. Bonus:\n 6 Karma\nAuswirkung:\n Immer , wenn du ein Gerät benutzt, musst du \nmit 2W6 würfeln. Wenn einer der beiden Würfel eine \n1 zeigt, funktioniert das Gerät nicht richtig, so als ob \ndu einen Patzer gewürfelt hast. Du kannst das Gerät \nmit einer Nebenhandlung schnell resetten und wieder \nbenutzen. Wenn du zwei Einsen würfelst, versagt das \nGerät katastrophal, so als ob du einen Kritischen Patzer \ngewürfelt hast.",
+    "topic": "edge",
+    "keywords": [
+      "probe",
+      "einen",
+      "geraet",
+      "kannst",
+      "hast",
+      "musst",
+      "mehr",
+      "edge"
+    ]
+  }
+}

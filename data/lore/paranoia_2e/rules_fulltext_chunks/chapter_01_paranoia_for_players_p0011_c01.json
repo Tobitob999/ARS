@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_01_paranoia_for_players_p0011_c01",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_01_paranoia_for_players",
+    "chapter"
+  ],
+  "summary": "Rule chunk from Paranoia for Players page 11, chunk 1.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_01_paranoia_for_players",
+    "source_title": "Paranoia for Players",
+    "page": 11,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "PARANOIA ve sea \na) We tell the gamemaster that the first time he runs Paranoia he should use the regenerated characters printed in Fold,Out D. Also in all the adventures we publish for use with’ Paranoia, we include pregenerated characters tailored to the adventure. So don’t bbe surprised if your gamemaster hands you a \nregenerated character sheet and asks you to \nplay that character Sometimes, however, the gamemaster will tell you to generate your own character. Here's hhow you do so. Names \n‘The first thing you need to do is choose a name for your character. In Alpha Complex, ‘names look like this: \n‘Anne-R-KEY \n‘The first part i just a name — in this case, “anne” The second part (the letter) is the character's security clearance, like this R = Red Blue 0 = Orange | = Indigo Y = Yellow V = Violet G = Green = Ultraviolet \n| 3. Character Creation \nBaby production n Alpha Compe s much les mesy and gusting than the fashioned way. “infrared” has the same first leter as “In digo,\" so Infrared characters omit the clearance letter — Fred-LLKRs| is Indigo, but Fred-LKR- is Infrared Next cores a three letter code, representing the name of the sector of Alpha Complex ‘where the character lives. Anne lives in KEY sector. Don't worry about what sector you ‘come from — just pick any three letters you want Last is a number; it's the current clone number. Anne is on clone number 1; she's never been killed. When she is, Anne-R-KE¥2 will take over her job. Now that you know how names work in ‘Alpha Complex, you can make up your own.",
+    "topic": "combat.initiative",
+    "keywords": [
+      "character",
+      "anne",
+      "first",
+      "alpha",
+      "paranoia",
+      "gamemaster",
+      "names",
+      "complex"
+    ]
+  }
+}

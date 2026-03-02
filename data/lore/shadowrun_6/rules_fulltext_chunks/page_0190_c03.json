@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0190_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 190, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 190,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Schaden durch Schwund kann weder durch Magie noch \ndurch Erste Hilfe oder Medkits geheilt werden; im Grunde \nbleibt nur die natürliche Genesung (S. 123). Edge kann \nallerdings auch für die Heilung von Schwundschaden ver-\nwendet werden (siehe S. 47/48). K omplexe Formen\nBei der Charaktererschaffung erhalten Technomancer eine \nAnzahl Komplexer Formen gleich ihrer Resonanz laut Pri-\noritätentabelle × 2. Zusätzliche Komplexe Formen können \nmit Karma während der Charakterentwicklung (S. 73) er-\nworben werden. Der Angriffswert bei der Verwendung Komplexer For-\nmen ist gleich Elektronik + Resonanz des Technomancers. Wenn nicht anders angegeben, erfordert der Einsatz einer \nKomplexen Form eine Haupthandlung. Der Einsatz von \nKomplexen Formen verursacht Schwund (s. o.), wie bei \njeder Komplexen Form angegeben. Die Dauer von Komple-\nxen Formen ist entweder Sofort (S), was bedeutet, dass die \nWirkung sofort eintritt und nicht anhält; Aufrechterhalten\n(A), was bedeutet, dass der Technomancer geistige Kapazität \neinsetzen muss, um die Komplexe Form und ihre Wirkung \naktiv zu halten; oder Permanent (P), was bedeutet, dass \ndie Wirkung eintritt und ab dann ein permanenter Teil der \nMatrixlandschaft ist. Jede Komplexe Form, die ein Tech-\nnomancer aufrechterhält, führt zu einem Würfelpoolmalus \nvon -2 bei jeder Handlung. Beispiel: \nEin Technomancer mit Logik 5 und Resonanz \n4 könnte seine Datenverarbeitung auf 8 erhöhen, indem er \n3 Punkte (die aufgerundete Hälfte seiner Logik 5) ausgibt. Den letzten Zusatzpunkt könnte er dann für die Erhöhung \neines anderen Matrixattributs ausgeben. Die Erhöhung der \nMatrixattribute durch die Zusatzpunkte ist variabel.",
+    "topic": "combat.damage",
+    "keywords": [
+      "formen",
+      "durch",
+      "technomancer",
+      "resonanz",
+      "komplexe",
+      "bedeutet",
+      "wirkung",
+      "schwund"
+    ]
+  }
+}

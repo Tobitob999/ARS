@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0261_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 261, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 261,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "WiFi-Vorteil:\n Das Aktivieren des Schnellöffners per Wi-\nFi-Signal, um das Geschirr abzuwerfen, erfordert nur eine \nNebenhandlung. Lasermarkierer\nDieses Gerät verwendet einen Laserstrahl, um einen (mit \nNormalsicht, Restlichtverstärkung oder Infrarotsicht) sicht-\nbaren Punkt auf das Ziel zu projizieren. Das erhöht die \nAngriffswerte der Waffe für alle verfügbaren Reichweiten \num 1, was jedoch nicht mit Modifikatoren aus Smartgun-\nsystemen kumulativ ist. Der Lasermarkierer kann auf dem \nLauf oder unter dem Lauf montiert werden. Ihn ein- oder \nauszuschalten erfordert eine Nebenhandlung. Bei Waffen, zu deren Grundausstattung ein Lasermar-\nkierer gehört, ist dieser Bonus bereits in den Angriffswert \neingerechnet. WiFi-Vorteil:\n Die Angriffswerte werden um 2 erhöht. Du erhältst eine Nebenhandlung, wenn du an der Reihe \nbist und den Lasermarkierer aktivierst oder deaktivierst. Perisk op\nDieses justierbare Sichtgerät wird aufmontiert und erlaubt \nes, mit einer Waffe um die Ecke zu zielen, wodurch der \nWürfelpoolmalus für Angriffe aus voller Deckung (Status \nDeckung IV\n) auf -1 sinkt. Ein Periskop hat eine Kapazi-\ntät von 3 und kann mit allen ab Seite 275 beschriebenen \nSichtverstärkungen ausgerüstet werden. WiFi-Vorteil:\n Der Würfelpoolmalus für Angriffe aus vol-\nler Deckung (Status \nDeckung IV\n) sinkt auf 0. Schalldämpfer\nEin laufmontiertes Zubehörteil, das das Geräusch und den \nMündungsblitz einer Waffe dämpft; nicht kompatibel mit \nRevolvern und Schrotflinten. Der Schalldämpfer erhöht \nbei einer Wahrnehmungsprobe, mit der die Benutzung der \nWaffe bemerkt oder der Standort des Schützen bestimmt \nwerden soll, den Schwellenwert um 2.",
+    "topic": "combat.attack",
+    "keywords": [
+      "waffe",
+      "deckung",
+      "wifi",
+      "vorteil",
+      "nebenhandlung",
+      "lasermarkierer",
+      "erhoeht",
+      "einer"
+    ]
+  }
+}

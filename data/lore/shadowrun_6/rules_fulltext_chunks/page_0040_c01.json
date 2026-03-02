@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0040_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 40, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 40,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "A ttribute\nDies sind die grundlegenden Werte eines Charakters. Sie umfassen die Fähigkeiten, mit denen ein Charak-\nter geboren wird und die er sich durch harte Arbeit \nangeeignet hat, sein Rüstzeug, das er mit seinen \nindividuellen Fertigkeiten kombiniert, um bestimmte \nAufgaben zu erledigen. Weitere Details zu Attribu-\nten, etwa die möglichen Wertebereiche für Attribute, \nfindest du im Kapitel Charakter erschaffung (S. 60). Es gibt drei Arten von Attributen: Körperliche, Geis-\ntige und Spezialattribute. Attribute können unter gewissen Umständen mo-\ndifiziert werden, etwa durch Zauber oder bestimmte \nAusrüstungsgegenstände, aber grundsätzlich gilt, \ndass das modifizierte Attribut eines Charakters nie \nhöher sein kann als sein unmodifiziertes Attribut +4. K örperliche A ttribute\nDie Körperlichen Attribute sind:\nK onstitution\nDieses Attribut steht für die allgemeine Robustheit, \nZähigkeit und Gesundheit eines Charakters. Es gibt \neinen gewissen Zusammenhang mit der Körpergröße \n– Trolle (siehe S. 57) haben in der Regel hohe Konstitu-\ntionswerte –, aber auch nicht immer, da auch Zwerge \nim Allgemeinen eine höhere Konstitution haben als \nMenschen. Wichtig ist die Konstitution etwa beim \nWiderstand gegen Schaden oder Gifte. Geschicklichkeit\nDieses Attribut repräsentiert die Gewandtheit, \nSchnelligkeit, Flexibilität und Augen-Hand-Koor-\ndination. Es ist das entscheidende Attribut für den \nKampf, aber auch für viele athletische Aktivitäten. Reaktion\nWährend das Geschicklichkeits-Attribut (unter \nanderem) die Schnelligkeit eines Charakters be-\nschreibt, steht das Attribut Reaktion für Flinkheit, \nfür die Fähigkeit, rasch zu reagieren.",
+    "topic": "skills",
+    "keywords": [
+      "attribut",
+      "eines",
+      "charakters",
+      "sein",
+      "etwa",
+      "ttribute",
+      "durch",
+      "bestimmte"
+    ]
+  }
+}

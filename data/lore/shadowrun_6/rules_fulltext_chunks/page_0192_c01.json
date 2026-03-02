@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0192_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 192, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 192,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Spiegelpersona\nSCHWUND DAUER\n3 A\nDu erschaffst eine Pseudo-Persona, die in der Matrix so \naussieht und sich genauso verhält wie du. Lege eine Probe \nauf Elektronik + Resonanz ab; die Werte der Matrixattribu-\nte der zusätzlichen Persona, die du erschaffst, entsprechen \nder Anzahl der Erfolge bei dieser Probe. Die Anzahl der \nErfolge dient außerdem als Schwellenwert für Matrix-\nwahrnehmungsproben von anderen, um dich von deiner \nSpiegelpersona unterscheiden zu können. Wenn dem Gegner die Probe misslingt, wählt er als Ziel \nseiner Matrixhandlungen die Spiegelpersona, woraufhin \ndie Komplexe Form endet. Zusammenflicken\nSCHWUND DAUER\n4 P\nLege eine Probe auf Elektronik + Resonanz ab. Jeder Er-\nfolg repariert 1 Kästchen Matrixschaden. Diese Komplexe \nForm wirkt nur gegen Objekte, die sich ausschließlich in \nder Matrix aufhalten, nicht gegen Hardware. Sprites\nNeben ihren beträchtlichen Hackerkräften können Tech-\nnomancer auch auf die Dienste von Matrixwesen zurück-\ngreifen, die als Sprites bezeichnet werden. Wie bei Geistern \ngibt es auch bei den Sprites hitzige Debatten über ihre \nNatur. Sind sie Lebewesen, die nur darauf warten, dass \nein Technomancer sie ruft? Oder beginnt ihre Existenz \nerst dann, wenn ein Technomancer sie kompiliert? Man \nkann spät nachts bei einem netten Synthahol-Drink seine \nLieblingstheorie verfechten, aber draußen auf der Straße \ngilt nur, dass sie funktionieren. Technomancer wissen, wie \nman sie kompiliert und dazu bringt, Befehlen zu folgen. Sie \nkönnen die gewünschten Resultate erzielen, und solange das \nso ist, ist das genaue Wesen der Sprites irrelevant.",
+    "topic": "matrix",
+    "keywords": [
+      "probe",
+      "sprites",
+      "spiegelpersona",
+      "matrix",
+      "technomancer",
+      "schwund",
+      "dauer",
+      "erschaffst"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_04_the_rules_p0058_c01",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_04_the_rules",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The Rules page 58, chunk 1.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_04_the_rules",
+    "source_title": "The Rules",
+    "page": 58,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "raw_text": "PARANOIA \nGuard: Whaddaya want? ‘Troubleshooter: Hey, whiy so unfriendly, got- ta keep smiling, you know, what's the Com. plex coming to, anyway? Hey, | got orders from Comp U-SRV himself to visit my bud: dy, my buddy's waiting for me in there, Ill be just a sec, no prob, right? Keep smiling, that's what | say. (Waltzes around barrier and into room.) Guard: Hey, you can’t go in there HEY! Someone who is fast talked hesitates out of Uncertainty and indecision in the face of a high-pressure verbal assault, He rapidly over comes his indecision, and resents being manipulated, The fast talker must act quickly and decisively to do what he wants. ‘Modify the user’ skill number if his target has particular reason to tust or distrust the User, is of higher or lower clearance, or has strict orders to prevent exactly what the fast, talker wants, \nForgery: Warning! Warning! This Js a pro hibited activity! Olfenders may face summary cexpeution! This skill allows the user to produce or alter forms, authorizations, identifications, and records that pass casual scrutiny ‘When a citizen ties to pass a doctored document, make a skill roll, Success means the document is passed. Failure means that some incorrect detail immediately reveals the document as a forgery, oF results in a more. Careful examination and check of the docu: rment’s validity, Increase the user's skill number ifthe doc ment is given only a cursory inspection; if it is easily forged (ey, a typewritten letter rather than a dollar bill); and if the user has plenty \nof time and the right tools 10 do a good job.",
+    "topic": "races",
+    "keywords": [
+      "user",
+      "what",
+      "skill",
+      "fast",
+      "document",
+      "guard",
+      "keep",
+      "smiling"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0017_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 17, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 17,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Centurion bewachte Lagereinrichtung, und schließlich \nein tragischer Unfall nur wenige Tage später, bei dem ein \nbekannter Mitsuhama-Wissenschaftler ertrank: Alle drei \nwaren Teil desselben Shadowruns, der alle Beweise für ein \nForschungsprojekt von Mitsuhama beseitigen sollte. Über \nden Matrixangriff auf ein Mitsuhama-Speicherzentrum \nhabt ihr nichts gehört, denn diese Information konnten \nsie erfolgreich vertuschen. Und auch darüber, wie die \nKonzernsicherheit in den Redmond Barrens Jagd auf die \nRunner machte, die den Job durchgezogen hatten, gab \nes keine Berichte, denn die Leute in den Barrens sind \nzu arm, als dass die Medien ihnen Beachtung schenken \nwürden. Das ist das Leben, das wir führen – geprägt von \nAnonymität. Und vertraut mir, es ist besser, anonym zu sein als etwas \nBesonderes. Das Leben in der Sechsten Welt ist wie das \nSpiel King of the Hill, bei dem jeder versucht, die Spitze \ndes Hügels zu erobern – und sobald man das geschafft \nhat, kommt sofort jemand und versucht, einen wieder hin-\nunterzustoßen. Wenn man diese Kämpfe verfolgt, erkennt \nman mit der Zeit, wie die Hackordnung beschaffen ist. Die größten Kinder sind am schwersten zu stürzen, und \nden kleineren bleibt nicht viel Zeit, um herauszufinden, \nwie der Hase läuft. Ich meine: Unsere Welt macht sogar \nleibhaftigen Drachen den Garaus – welche Chancen haben \nda Leute wie ihr und ich, sich an der Spitze zu behaupten? Newsflash für euch, Chummer: Ihr seid der kleine Fisch, \nund euch bleibt nicht viel Zeit, um die Antwort auf diese \nFrage zu finden. Fangt jetzt an.",
+    "topic": "combat.attack",
+    "keywords": [
+      "mitsuhama",
+      "diese",
+      "zeit",
+      "alle",
+      "denn",
+      "barrens",
+      "leute",
+      "leben"
+    ]
+  }
+}

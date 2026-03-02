@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0229_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 229, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 229,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Geschw ächte Sinne\nEinige oder alle fünf Basissinne des Critters können in \nihrer Leistungsfähigkeit eingeschränkt sein. Typischerweise \nfunktionieren geschwächte Sinne nur noch mit der halben \nReichweite oder Effektivität, können in Einzelfällen aber \nnoch weiter geschwächt sein, bis hin zum völligen Fehlen \neines Sinnes. Versteinerung\nART\n HANDLUNG\n REICHWEITE\n DAUER\nP\n H\n BF\n Aufrechterhalten\nMit dieser Kraft kann ein Critter sein Opfer buchstäblich \nversteinern. Der Critter legt eine Vergleichende Probe auf \nIntuition + Magie gegen Reaktion + Willenskraft des Opfers \nab. Gewinnt der Critter, erhält das Opfer den Status \nBewe-\ngungsunfähig\n. Erzielt der Critter 4 oder mehr Nettoerfolge, \nerhält das Opfer den Status \nVersteinert\n. Durch wiederholte \nAngriffe mit dieser Kraft können zwischen den Angriffen \nNettoerfolge angesammelt werden. Solange das Opfer ver-\nwandelt ist, bekommt es nichts von seiner Umgebung und \nallem, was dort geschieht, mit. Diese Kraft wird häufig \nmehrmals nacheinander eingesetzt, um ein Opfer so lange \nzu verlangsamen, bis es schließlich versteinert ist. Verwirrung\nART\n HANDLUNG\n REICHWEITE\n DAUER\nM\n H\n BF\n Aufrechterhalten\nDiese Kraft sorgt dafür, dass das Opfer unentschlossen, \nvergesslich und verwirrt wird. Der Critter legt eine Verglei-\nchende Probe auf Willenskraft + Magie gegen Willenskraft \n+ Logik des Opfers ab. Erzielt der Critter Nettoerfolge, so \nerhält das Opfer den Status \nVerwirrt\n mit einer Stufe in Höhe \nVerwirrt\n mit einer Stufe in Höhe \nVerwirrt\nder Nettoerfolge sowie den Status \nBenommen\n.",
+    "topic": "races",
+    "keywords": [
+      "opfer",
+      "critter",
+      "kraft",
+      "status",
+      "nettoerfolge",
+      "verwirrt",
+      "sein",
+      "reichweite"
+    ]
+  }
+}

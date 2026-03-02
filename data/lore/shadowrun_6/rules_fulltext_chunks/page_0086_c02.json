@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0086_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 86, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 86,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Met a typ: Ork\nK G R S W L I C EDG M ESS\n6 3 4 7 5 3 3 5 3 6 6\nInitiative: 7 + 1W6\nAstrale Initiative: 6 + 3W6\nHandlungen: 1 Haupt, 2 Neben\nZustandsmonitor (K/B): 12/11\nVerteidigungswert: 10\nVorteile: Erhöhte Konzentrationsfähigkeit 2, Restlichtverstär-\nkung (Metatypeigenschaft), Robust Gebaut 1 (Metatyp-\neigenschaft), Talentiert (Hexerei)\nNachteile: Allergie (Gras, Leicht), AR-Desorientierung, \n Astrales Leuchtfeuer, Feindliche Geister (Wassergeister)\nAktionsfertigkeiten: Astral 3 (Astralkampf +2), Beschwören 5 \n(Herbeirufen +2), Heimlichkeit 1, Hexerei 7 (Spruchzaube-\nrei +2), Nahkampf 1, Wahrnehmung 2\nWissensfertigkeiten: Magiegeschichte, Orkische Kultur, \nWizzer-Gangs\nSprachfertigkeiten: Englisch M, Or’zet 1\nZauber: Feinde Entdecken, Flammenstoß, Heilen, Levitieren, \nPanzerung, Physische Barriere\nAusrüstung: Chrysler-Nissan Jackrabbit, 3 gefälschte SINs \n[Stufe 1], Kommlink [Renraku Sensei, Gerätestufe 3; \nTroden], Panzerjacke [+4], 20 Dram Reagenzien\nWaffen:\nSchockhandschuhe [Waffenlos | Schaden 4B(e) | \n Angriffswerte 12/–/–/–/–]\nConnections: Barkeeper (E1/L3), Clubbesitzer (E3/L3),\nGanger der Crimson Crush (E2/L2), Konzern-Lohnmagier \n(E2/L3), Schieber (E4/L3), Taliskrämer (E2/L2)\nLebensstil: Unterschicht (1 Monat bezahlt)\nStartkapital: 1.640 ¥\nKampfmagierin\nDie Kraft des Manas kann auf verschiedene Weise geformt \nDie Kraft des Manas kann auf verschiedene Weise geformt \nwerden. Sie kann Heimlichkeit oder Hinterlist unterstüt-\nwerden.",
+    "topic": "combat.initiative",
+    "keywords": [
+      "initiative",
+      "hexerei",
+      "heimlichkeit",
+      "kraft",
+      "manas",
+      "verschiedene",
+      "weise",
+      "geformt"
+    ]
+  }
+}

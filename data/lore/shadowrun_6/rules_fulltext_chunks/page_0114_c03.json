@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0114_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 114, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 114,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Angriffe mit \nder Nebenhand\nJeder Runner (außer denen, die den Vorteil Beidhändigkeit, \nS. 74, besitzen) hat eine Hand, die er für Angriffe bevor-\nzugt, aber manchmal ist diese Hand nicht frei. Vielleicht \nist deine Haupthand verletzt, gefesselt oder muss etwas \nwirklich Wichtiges halten, sodass du mit deiner Nebenhand \nangreifen musst. Wenn du mit der Nebenhand angreifst, \nkannst du Edge weder erhalten noch ausgeben. Wenn du \nmit zwei Händen angreifst, kannst du für den Angriff mit \ndeiner Haupthand allerdings immer noch Edge erhalten \nund ausgeben. Andere Regeln dazu findest du unten bei \nMehrfachangriffe. Niederschlag\nManchmal will man einen Gegner einfach zu Boden schla-\ngen – und manchmal passiert das auch, ohne dass du es \nvorhattest. Wenn ein Charakter Schaden erleidet, wird \nder erlittene Schaden nach der Widerstandsprobe mit \nseiner Konstitution verglichen. Ist der Schaden höher als \ndieses Attribut, wird der Charakter niedergeschlagen und \nerhält den Status Liegend. Er muss die Nebenhandlung \nAufstehen durchführen, wenn er die Wirkung dieses Status \naufheben will. Ringen\nEin körperlicher Angriff kann auch bedeuten, dass du ei-\nnen Gegner zu Boden werfen oder versuchen willst, ihn \nfestzuhalten, sodass er sich nicht bewegen kann. Wenn \ndu mit einem Gegner ringen willst, sag der Spielleiterin \nBescheid und greife ohne Waffe wie gewohnt mit Nah-\nkampf + Geschicklichkeit an. Der Gegner verteidigt wie \ngewohnt. Gelingt der Angriff, legst du eine Vergleichende \nProbe auf Stärke + Nettoerfolge gegen die Stärke des Geg-\nners ab. Gelingt diese Probe, hast du den Gegner im Griff.",
+    "topic": "combat.attack",
+    "keywords": [
+      "gegner",
+      "nebenhand",
+      "manchmal",
+      "angriff",
+      "schaden",
+      "hand",
+      "diese",
+      "haupthand"
+    ]
+  }
+}

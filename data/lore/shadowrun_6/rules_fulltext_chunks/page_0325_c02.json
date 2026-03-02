@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0325_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 325, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 325,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Der Sprecher wird von einer Person \nvorgestellt, der der Zuhörer vertraut. Der Sprecher steht mit Personen in Verbindung, \ndie der Zuhörer nicht mag oder denen er misstraut. Überreden\nEDGE FÜR DEN SPRECHER\n EDGE FÜR DEN ZUHÖRER\nDer Zuhörer ist verzweifelt. Der Zuhörer beﬁ ndet sich in einer \nsicheren Position und scheut Risiken. Der Sprecher hat überzeugende \nBeweise für seine Behauptungen. Der Sprecher wurde bei einer offensichtlichen Lüge ertappt. Verhandeln\nEDGE FÜR DEN SPRECHER\n EDGE FÜR DEN ZUHÖRER\nDer Zuhörer ist verzweifelt. Dem Sprecher mangelt es an Erfahrung \noder Expertise für den Auftrag. Der Sprecher teilt wichtige Informationen mit \ndem Zuhörer, die diesem zuvor unbekannt waren. Der Sprecher teilt Informationen mit dem Zuhörer, \ndie für diesen belanglos oder schädlich sind. Beinarbeit (S. 53)\nERFOLGE\n ERGEBNIS\n0\n Keine brauchbaren Informationen\n1\n Grundlegende, allgemein verfügbare Hintergrundinformationen\n2\n Ein paar Informationsbröckchen durch ﬂ üchtige Beschäftigung mit der Materie\n3\n Informationen durch frühere Kurse oder Seminare oder einfaches professionelles Wissen\n4\n Schon tiefschürfenderes Wissen, ein bisschen Klatsch\n5\n Tiefgehendes akademisches Wissen, fundierte professionelle Kenntnisse, \ngute Vertrautheit mit dem, was hinter den Kulissen vor sich geht\n6\n Wissen über Geheimnisse und verborgene Informationen\n7\n Hochkarätiges Wissen, fundiertes Verständnis der historischen Hintergründe\n8\n Fast schon enzyklopädisches Wissen, darunter einige tief verborgene Geheimnisse\n9\n Rares Wissen, das nur wenigen Eingeweihten bekannt ist\n10\n Tief verborgene Geheimnisse, die andere aktiv zu verbergen versuchen\nSHADOWRUN: SECHSTE EDITION\n324 // T ABELLEN",
+    "topic": "economy",
+    "keywords": [
+      "sprecher",
+      "zuhoerer",
+      "wissen",
+      "informationen",
+      "edge",
+      "einer",
+      "geheimnisse",
+      "verborgene"
+    ]
+  }
+}

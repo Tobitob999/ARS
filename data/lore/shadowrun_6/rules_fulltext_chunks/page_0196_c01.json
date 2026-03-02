@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0196_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 196, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 196,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "W andlung\nTechnomancer erhalten ihre Fähigkeit zur Verbindung mit \nder Matrix durch eine mysteriöse Macht, die als Resonanz \nbekannt ist. Das Wesen der Resonanz wird noch nicht ein-\nmal von denen vollständig verstanden, die sie kanalisieren \nkönnen. Aber Technomancer wissen, dass sie die Resonanz \nnicht verstehen müssen, um sie zu nutzen und selbst stärker \nzu werden. Sie können eine stärkere Verbindung zur Reso-\nnanz aufbauen, indem sie sich ihrer reinen Macht stellen \nund die Wandlung durchlaufen. Die Wandlung ist eher eine \nspirituelle als eine technologische Erfahrung. Wenn du die \nWandlung durchmachst, wird dein Selbst herausgefordert, \ndein Bewusstsein wird erweitert, und du schließt diesen \nProzess selten ohne eine Veränderung ab. Aber du erhältst \neine engere Verbindung zur Resonanz, die dir auch mehr \nMacht verleiht. Bei der ersten Wandlung erhältst du den \nSpielwert Wandlungsgrad, der (natürlich) mit 1 beginnt. Dieser Wert steigt bei jeder zukünftigen Wandlung um \n1. Jeder neue Wandlungsgrad kostet [10 + neuer Grad] \nKarma. Dein Wandlungsgrad kann niemals höher sein als \ndein Resonanzattribut. Wenn etwas dazu führt, dass dein \nResonanzattribut sinkt, sodass es niedriger ist als dein \nWandlungsgrad, sinkt dieser automatisch so weit, dass er \ngleich deiner Resonanz ist, und du verlierst alle dadurch \nerhaltenen Verbesserungen. Du erhältst kein Karma zurück, \nkannst aber später neue Grade erwerben, wenn deine Reso-\nnanz wieder hoch genug ist. Eine Wandlung gibt dir auch \ndie Möglichkeit, ein neues Echo zu lernen (s./uni00A0u.).",
+    "topic": "matrix",
+    "keywords": [
+      "wandlung",
+      "dein",
+      "resonanz",
+      "verbindung",
+      "macht",
+      "erhaeltst",
+      "technomancer",
+      "selbst"
+    ]
+  }
+}

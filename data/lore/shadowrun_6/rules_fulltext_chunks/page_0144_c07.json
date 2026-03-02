@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0144_c07",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 144, chunk 7.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 144,
+    "chunk_index": 7,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "3\n Spezifische Details\nBeispiele:\n Die Tiere sind Hunde, das Gerät führt einen internen Scan \nBeispiele:\n Die Tiere sind Hunde, das Gerät führt einen internen Scan \nBeispiele:\nüber mögliche Verletzungen durch, der Zauber ist Verwirrung. 4\n Entscheidende Details auch über \nEmotionen und Funktionen\nBeispiele:\n Die Hunde sind wütend und hungrig, \nBeispiele:\n Die Hunde sind wütend und hungrig, \nBeispiele:\ndas Gerät scheint nur teilweise zu funktionieren, \nder Zauber wurde von einem mächtigen Zauberer gewirkt. SHADOWRUN: SECHSTE EDITION\nZAUBER // MAGIE // 143",
+    "topic": "magic.spells",
+    "keywords": [
+      "beispiele",
+      "hunde",
+      "geraet",
+      "zauber",
+      "details",
+      "tiere",
+      "fuehrt",
+      "einen"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0179_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 179, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 179,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Cyberdeck ermöglichen. Sie können als einfache Daten-\nbuchsen benutzt werden, haben aber auch die Funktion, \ndas ASIST-Interface direkter zu integrieren, was überlegene \nMa trixw ahrnehmung\nMatrixwahrnehmung kommt zum Einsatz, wenn du her-\nausfinden willst, was für Icons in der Nähe sind, oder Icons \nentdecken willst, die versuchen, sich zu verstecken. Für beides \nwird eine Vergleichende Probe auf Elektronik + Intuition ge-\ngen Willenskraft + Schleicher des Ziels durchgeführt (weitere \nInformationen s. Matrixwahrnehmung, S. 183). Schleichf ahrt\nManchmal will ein User alle öffentlich verfügbaren Infor-\nmation abschneiden und nur auf direkte Anfragen reagieren, \nwodurch er in der Matrix mehr oder weniger unsichtbar \nwird. Seine WiFi-Signale und sein PAN existieren noch – aber \nsie müssen gefunden werden. Ein User kann auf Schleich-\nfahrt gehen, indem er diesen Modus bei seinem Gerät mit \neiner Nebenhandlung aktiviert. Man kann ihn durch eine \nVergleichende Probe auf Matrixwahrnehmung wie oben \nbeschrieben entdecken. Die Ma trix hacken\nFrüher musste man einen beträchtlichen finanziellen Auf-\nwand in Gestalt eines Cyberdecks auf sich nehmen, wenn \nman die Matrix hacken wollte. Die technologische Entwick-\nlung hat nichts an Fahrt verloren, aber mit der Zeit fanden \nsubversive Elemente Möglichkeiten, starke Rechenleistung \nReaktionszeiten und Geschwindigkeit ermöglicht. Man \nkann allerdings nicht alleine mit einer Cyberbuchse in die \nMatrix gehen. aus allem herauszuholen, was sie in die Finger bekamen.",
+    "topic": "matrix",
+    "keywords": [
+      "matrixwahrnehmung",
+      "willst",
+      "icons",
+      "entdecken",
+      "sich",
+      "vergleichende",
+      "probe",
+      "user"
+    ]
+  }
+}

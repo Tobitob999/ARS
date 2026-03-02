@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_04_the_rules_p0075_c01",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_04_the_rules",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The Rules page 75, chunk 1.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_04_the_rules",
+    "source_title": "The Rules",
+    "page": 75,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "raw_text": "PARANOIA saintly \n‘Whacko: Berserk, Bonkers. Both oars not in the water. Elevator doesn't go to the top floor, Ding-dongnobody-home. Amateur psycholo- gists are invited to be more specific and Clinical about neuroses and psychoses, but it is sufficient to tell the player that his character is completely nuts, and let him improvise from there \nWH Recovery from Insanity \nRecovery from “stunned” or “anxiety attack” is automatic, since the condition is only tem- porary, “Paranoia/Personality Disorder’ and “Whacko\" persist until treated. Fortunately, Alpha Complex has excellent facilities for the treatment of insane Troubleshooters. In fact, ‘The Computer has some fairly enlightened ideas about mental health Ifthe character gets back to Alpha Complex in ane piece, he will ‘get pumped full of drugs and given plenty of \n‘Computer therapy. The character will be com- pletely cured in time for the next adventure, Completely. Optional Rule: The character is completely cured... except for this litle quirk. The character retains a minor but permanent mental disorder even ater successul drug-and- therapy sessions. Maybe a nervous tic in his eye. Or a fear of darkness. Or a funny habit of whistling “Smoke Gets in Your Eyes” t0 himself whenever he's nervous. The nature of the disorder is left to the gamemaster’s and player's discretion \nTreason Points Every player character has a treason point total, This is a number between 0 (usted im> plicitly by The Computer) and 20 (dead, or Close to 10, Everyone begins with 1 point Points are gained and lost in the course of play.",
+    "topic": "combat.attack",
+    "keywords": [
+      "character",
+      "player",
+      "completely",
+      "disorder",
+      "computer",
+      "paranoia",
+      "whacko",
+      "about"
+    ]
+  }
+}

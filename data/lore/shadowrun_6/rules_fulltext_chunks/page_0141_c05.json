@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0141_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 141, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 141,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Das Ziel kann zwar Schaden durch \neine Waffe oder einen Zauber erleiden, durch die oder \nden Schaden der betreffenden Art verursacht wird – zum \nBeispiel kann es mit kühlender Panzerung Schaden durch \neinen Feuerball erhalten, wenn es ihm nicht vollständig \nwidersteht –, erhält aber nicht den Status (in diesem Fall \nBrennend\n), der dadurch verursacht würde. F ahrzeugp anzerung\nREICHWEITE\n ART\n DAUER\n ENTZUG\nB\n P\n A\n 6\nViele Runner lernen zu spät, dass Autotüren keine undurch-\ndringlichen Schilde gegen Kugeln sind. Aber mit diesem \nZauber können sie es sein! Lege eine Vergleichende Probe \nauf Hexerei + Magie gegen den Objektwiderstand des \nFahrzeugs ab. Das Fahrzeug erhält pro Nettoerfolg 1 Punkt \nVerstärkter Panzer (S. 227). Fokus-Boost\nREICHWEITE\n ART\n DAUER\n ENTZUG\nB\n M\n ZB\n 7\nFoki können für Zauberer eine mächtige Unterstützung sein, \naber wer wollte noch nie ab und zu ein bisschen mehr Macht \naus ihnen herausquetschen? Mit Fokus-Boost kannst du ein \nwenig mehr aus deinem Fokus herausholen oder den Fokus \neines anderen unterstützen. Lege eine Vergleichende Probe auf \nHexerei + Magie gegen Kraftstufe × 2 des Fokus ab. Wenn du \nNettoerfolge erzielst, steigt die Kraftstufe des Fokus um 1. Ein \nKritischer Patzer bei der Hexereiprobe senkt die Kraftstufe \ndes Fokus permanent um 2. Gedanken Beherrschen\nREICHWEITE\n ART\n DAUER\n ENTZUG\nBF\n M\n ZB\n 4\nDieser Zauber ist Handlungen Beherrschen ähnlich, aber \nnoch hinterhältiger, weil er den Zaubernden in den Kopf \ndes Ziels eindringen lässt und ihn entscheiden lässt, was es \nzu denken hat. Lege eine Vergleichende Probe auf Hexerei \n+ Magie gegen Willenskraft + Logik des Ziels ab.",
+    "topic": "combat.damage",
+    "keywords": [
+      "fokus",
+      "gegen",
+      "schaden",
+      "durch",
+      "zauber",
+      "reichweite",
+      "dauer",
+      "entzug"
+    ]
+  }
+}

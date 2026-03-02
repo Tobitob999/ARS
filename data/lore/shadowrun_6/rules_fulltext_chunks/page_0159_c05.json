@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0159_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 159, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 159,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Ein Zauber , der aufrechterhalten werden soll, \ndarf keinen höheren modifizierten Entzugswert (nach \nAnpassungen) als die Kraftstufe des Fokus haben, und \ndie Kategorien von Fokus und Zauber müssen überein-\nstimmen. Wenn der Zauber , den der Fokus aufrechterhält, \n(zum Beispiel durch Antimagie) endet, bleibt der Fokus \nweiter aktiv und an seinen Besitzer gebunden, erhält aber \nkeinen Zauber mehr aufrecht. Ein Zauberspeicher kann \nkeine Ritualzauber aufrechterhalten. Zauberspruchfokus:\n Ein Zauberspruchfokus addiert \nseine Kraftstufe als Würfelpoolbonus bei Proben für \nSpruchzauberei, wenn der Zauber zur richtigen Kate-\ngorie gehört. Adepten\nAdepten kanalisieren Mana anders als Zauberer. Statt mit \nFormeln die Magie zu einer externen Zauberwirkung zu \nformen, nehmen Adepten das Mana in sich selbst auf, lassen \nes durch ihren Körper fließen und ihre Fähigkeiten verstär-\nken. Das kann sie stärker, schneller, gesünder, charmanter \nmachen oder sie anders unterstützen, aber in jedem Fall \nmacht es sie zu enorm effektiven Runnern. Adepten müssen manchmal Entzug widerstehen, was sie \nmit Konstitution + Willenskraft tun. Kraftpunkte\nDie wichtigste Messgröße der Macht eines Adepten bil-\nden seine Kraftpunkte. Diese Punkte werden von Adepten \nbenutzt, um die Kräfte zu erwerben, die ihre Fähigkeiten \nverbessern. Jedes Mal, wenn ein Adept sein Magieattribut \nsteigert, erhält er auch einen kostenlosen Kraftpunkt. Wann \nimmer ein Adept einen Punkt Magie verliert, verliert er auch \neinen Kraftpunkt und die entsprechenden Adeptenkräfte. Kraftpunkte müssen nicht sofort ausgegeben werden, wenn \nman sie erhält. Der Charakter kann sie auch sparen und \ndann einsetzen, wenn er dafür bereit ist.",
+    "topic": "magic.spells",
+    "keywords": [
+      "adepten",
+      "zauber",
+      "fokus",
+      "erhaelt",
+      "kraftpunkte",
+      "einen",
+      "aufrechterhalten",
+      "keinen"
+    ]
+  }
+}

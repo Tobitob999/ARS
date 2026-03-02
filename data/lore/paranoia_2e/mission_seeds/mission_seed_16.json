@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "category": "mission_seed",
+  "id": "mission_seed_16",
+  "name": "Mission Seed 16",
+  "tags": [
+    "paranoia_2e",
+    "mission",
+    "seed"
+  ],
+  "summary": "Troubleshooter cell must contain rumor outbreak.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "objective": "contain rumor outbreak",
+    "assigned_by": "Research & Design",
+    "hidden_agenda": "Purge",
+    "twist": "primary_target_is_innocent",
+    "countdown": 7,
+    "failure_cost": "equipment_ban"
+  }
+}

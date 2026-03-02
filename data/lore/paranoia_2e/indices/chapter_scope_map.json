@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0.0",
+  "category": "chapter_scope_map",
+  "tags": [
+    "paranoia_2e",
+    "mapping",
+    "wcr"
+  ],
+  "summary": "Buchkapitel auf ARS-Skeleton gemappt.",
+  "source_text": {
+    "mapping": [
+      {
+        "chapter": "Paranoia for Players",
+        "pages": [
+          5,
+          28
+        ],
+        "skeleton_fields": [
+          "metadata",
+          "extensions.security_clearance_system",
+          "extensions.service_groups",
+          "extensions.secret_societies"
+        ]
+      },
+      {
+        "chapter": "The World of Paranoia",
+        "pages": [
+          35,
+          52
+        ],
+        "skeleton_fields": [
+          "economy",
+          "extensions.service_groups",
+          "extensions.secret_societies"
+        ]
+      },
+      {
+        "chapter": "The Rules",
+        "pages": [
+          53,
+          90
+        ],
+        "skeleton_fields": [
+          "dice_system",
+          "characteristics",
+          "skills",
+          "combat",
+          "conditions",
+          "healing",
+          "time"
+        ]
+      },
+      {
+        "chapter": "Gamemastering Paranoia",
+        "pages": [
+          91,
+          106
+        ],
+        "skeleton_fields": [
+          "experience",
+          "extensions.tone_and_play"
+        ]
+      },
+      {
+        "chapter": "Adventure",
+        "pages": [
+          107,
+          134
+        ],
+        "skeleton_fields": [
+          "encounters",
+          "tables"
+        ]
+      },
+      {
+        "chapter": "Tips for Traitors",
+        "pages": [
+          135,
+          145
+        ],
+        "skeleton_fields": [
+          "extensions.secret_societies",
+          "extensions.mutant_powers"
+        ]
+      }
+    ]
+  },
+  "mechanics": {
+    "unmapped_pages": [
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159
+    ],
+    "note": "Foldouts als Appendix-Dateien separat extrahiert."
+  }
+}

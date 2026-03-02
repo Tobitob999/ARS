@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_01_paranoia_for_players_p0028_c01",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_01_paranoia_for_players",
+    "chapter"
+  ],
+  "summary": "Rule chunk from Paranoia for Players page 28, chunk 1.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_01_paranoia_for_players",
+    "source_title": "Paranoia for Players",
+    "page": 28,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "_ PARANOIA \nSuper Joyal, heroic types can usually be talked, into geting involved in risky ventures that will either kill them or distract them enough to give you a good shot at them, Naive eager types, who throw themselves whole-heartedly into mission won't have time to notice the sneaky Stutf you're doing to them. Scapegoats should be of lower clearance than you, sa you can give them arders which, set them up as fall guys when your schemes backfire or blow up in your face. For example, just before you test an experimental weapon, always ask a lowerstalus tech fo inspect i first If something goes wrong, obviously the tech damaged itduring his inspection. (Of course, keep an eye on the tech at all times to make sure he isn’t really sabotaging the weapon.) ‘Absent scapegoats (either deceased, miss: ing, or imaginary) te preferable to scapegoats ‘who can stand up at the debriefing and de- fend themselves, The alltime favorite scape- ‘goat i the hypothetical Commiesmutantraitor always lurking just out of sight. The Computer san easy mark for the impassioned, melodramatic speech which conjures sinister images: evil agents hidden under benign, loyal smiles; demonic criminals hovering. behind, every back; tiny, gremlinclike presences. of unimaginable malevolence and almost magical power to avoid detection. As long as.",
+    "topic": "clearance",
+    "keywords": [
+      "them",
+      "scapegoats",
+      "tech",
+      "types",
+      "into",
+      "either",
+      "give",
+      "which"
+    ]
+  }
+}

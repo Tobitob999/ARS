@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "id": "sr6_street_samurai",
+  "name": "Razor (Street Samurai)",
+  "compatible_rulesets": ["shadowrun_6"],
+  "archetype": "Street Samurai",
+  "level": 1,
+  "background": "Ex-Konzernsicherheit, mit Cyberware vollgestopft und auf der Flucht vor seinem ehemaligen Arbeitgeber. Lebt im Schatten der Megacorps.",
+  "characteristics": {
+    "KOE": 6,
+    "GES": 5,
+    "REA": 5,
+    "STA": 5,
+    "WIL": 3,
+    "LOG": 3,
+    "INT": 4,
+    "CHA": 2,
+    "EDGE": 4,
+    "MAG": 0,
+    "RES": 0
+  },
+  "derived_stats": {
+    "Initiative": 9,
+    "Essenz": 2.3,
+    "Zustandsmonitor_Koerper": 11,
+    "Zustandsmonitor_Geist": 10
+  },
+  "skills": {
+    "Feuerwaffen": 6,
+    "Nahkampf": 5,
+    "Athletik": 4,
+    "Wahrnehmung": 4,
+    "Heimlichkeit": 3,
+    "Biotech": 1
+  },
+  "equipment": [
+    "Ares Predator VI",
+    "Katana",
+    "Gepanzerte Jacke",
+    "Cyberbein (links)",
+    "Cyberaugen (Rating 3)",
+    "Wired Reflexes (Rating 2)",
+    "Komm-Link (Meta Link)",
+    "Fake SIN (Rating 4)"
+  ],
+  "traits": "Lakonisch, praezise, misstrauisch. Redet wenig, handelt schnell. Alte Gewohnheiten aus der Konzernsicherheit.",
+  "appearance": "Drahtiger Ork, kurz geschorener Schaedel, leuchtende Cyberaugen mit rotem Schimmer. Narbe am Hals. Traegt immer eine abgewetzte gepanzerte Jacke."
+}

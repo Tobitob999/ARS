@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0320_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 320, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 320,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Wildost\nVielleicht ist es bezeichnend für das Jahr 2080, dass ausge-\nrechnet in der „Perle des Nordens“ Deutschlands größter \nSlum zu finden ist. Das „Wildost“ genannte Elendsviertel \nerstreckt sich entlang des südlichen Elbufers, direkt angren-\nzend an Harburg und vis-à-vis zum eigentlichen Hamburger \nStadtgebiet auf der nördlichen Flussseite. Nur wenige der \narmseligen Unterkünfte sind auf festem Grund errichtet, der \ngrößte Teil des Slums wurde in die Elbe hineingebaut und \nschwimmt auf ihr. „Die hässlichste Marina der Welt“, wie \ndie Hamburger spöttisch und herablassend, aber nicht ganz \nunzutreffend sagen – eine Aussage, in der die Verachtung \nund der Hass, den die Bürger im Norden für den Slum und \nseine Bewohner empfinden, deutlich wird. (Met a-)Menschen-Müll? Wie viele Bewohner es in Wildost genau gibt, weiß man \nnicht – die Schätzungen gehen weit auseinander und \nliegen zwischen 200.000 und 400.000 (Meta-)Menschen, \ndie hier unter unwürdigsten Bedingungen hausen sollen. Offizielle Zahlen gibt es nicht, denn die Behörden be-\ntrachten den Slum als illegal. Es gibt sehr wohl Bestrebun-\ngen seitens der Politik, den gesamten Slum aufzulösen, \ndoch ein solches Unterfangen würde schon an der schie-\nren Größe der Siedlung scheitern. So beschränkt sich die \nStadtverwaltung darauf, den illegalen Uferbewohnern \ndas Leben so schwer wie möglich zu machen. Landseitig \nist der Slum von einem Sicherheitszaun eingedämmt, \nwasserseitig zerstören die Patrouillenboote der HanSec \njene Unterkünfte, die zu weit in die Elbe hineinragen. Wildost entstand während der beiden Eurokriege der \n2030er-Jahre.",
+    "topic": "skills.physical",
+    "keywords": [
+      "slum",
+      "wildost",
+      "gibt",
+      "sich",
+      "hamburger",
+      "unterkuenfte",
+      "elbe",
+      "bewohner"
+    ]
+  }
+}

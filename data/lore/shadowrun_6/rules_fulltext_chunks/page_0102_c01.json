@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0102_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 102, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 102,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Fertigkeitswerte\nHinweis:\n Die Zahlen in dieser Tabelle entsprechen der Summe aus Fertigkeitswert + Spezialisierung oder Expertise. WERT\n BESCHREIBUNG\n0\n Ungeübt:\n Du hast das hier noch nie gemacht. Jedenfalls nicht ernsthaft. Ungeübt:\n Du hast das hier noch nie gemacht. Jedenfalls nicht ernsthaft. Ungeübt:\n1\n Anfänger:\n Du hattest ein bisschen Unterricht oder hast dir etwas Wissen angelesen, \nAnfänger:\n Du hattest ein bisschen Unterricht oder hast dir etwas Wissen angelesen, \nAnfänger:\naber du bist trotzdem noch ein Neuling auf diesem Gebiet. 2\n Fortgeschrittener Anfänger:\n Du hast bereits einiges an Zeit und Übung investiert, und das macht sich bemerkbar. Fortgeschrittener Anfänger:\n Du hast bereits einiges an Zeit und Übung investiert, und das macht sich bemerkbar. Fortgeschrittener Anfänger:\nTrotzdem kennst du viele Leute, die dich mit Leichtigkeit überﬂ ügeln. 3\n Geselle:\n Langsam erkennen andere dein Können an. Man sieht, dass deine Erfahrung wächst. Geselle:\n Langsam erkennen andere dein Können an. Man sieht, dass deine Erfahrung wächst. Geselle:\n4\n Proﬁ :\n Wenn man auf der Suche nach einem Experten auf diesem Gebiet ist, dann sucht man nach jemandem wie dir. Proﬁ :\n Wenn man auf der Suche nach einem Experten auf diesem Gebiet ist, dann sucht man nach jemandem wie dir. Proﬁ :\n5\n Erfahrener Proﬁ :\n Selbst andere Proﬁ s erkennen an, dass du besser geworden bist, und wenn sie nicht aufpassen, \nErfahrener Proﬁ :\n Selbst andere Proﬁ s erkennen an, dass du besser geworden bist, und wenn sie nicht aufpassen, \nErfahrener Proﬁ :\nwirst du sie bald abgehängt haben.",
+    "topic": "skills",
+    "keywords": [
+      "hast",
+      "anfaenger",
+      "erkennen",
+      "andere",
+      "ungeuebt",
+      "noch",
+      "bist",
+      "diesem"
+    ]
+  }
+}

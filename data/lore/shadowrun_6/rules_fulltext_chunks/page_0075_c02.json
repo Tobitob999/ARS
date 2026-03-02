@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0075_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 75, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 75,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Kosten: 4 Karma\nAuswirkung: Im Gegensatz zu anderen Charakteren kannst \ndu beim Einsatz einer Waffe mit der Nebenhand (S. 113) \nEdge erhalten und ausgeben. Dermalablagerungen\nDu hast Kalkablagerungen, die auf deinem oder durch dein \nFleisch wachsen, was dich zäher macht und dir eine raue \nSchale verleiht. Buchstäblich. Kosten: 7 Karma\nAuswirkung: Du erhältst eine natürliche Panzerung mit \nVerteidigungswert 1, die kumulativ mit anderer Pan-\nzerung ist. Deine Angriffe im Waffenlosen Nahkampf \nverursachen Körperlichen Schaden. Erhöhte K onzentra tions-\nf ähigkeit (Stufe 1 bis 3)\nDu verstehst es, deinen Geist verschiedene Aufgaben gleich-\nzeitig erledigen zu lassen und deine arkanen oder techno-\nmantischen Manipulationen aufrechtzuerhalten, ohne dich \nzu überanstrengen. Kosten: 12 Karma pro Stufe\nAuswirkung: Pro Stufe dieses Vorteils kannst du einen \nZauber oder eine Komplexe Form aufrechterhalten, \nohne den entsprechenden Würfelpoolmalus (s. Kasten \nLaufende Kosten, S. 134) dafür in Kauf zu nehmen. Der modifizierte Entzugs- bzw. Schwundwert des \nZaubers bzw. der Komplexen Form darf nicht höher \nals 6 sein. Erster Eindruck\nDu weißt, wie man einen Auftritt hinlegt, sodass das erste \nTreffen das beste Treffen wird. Dein Witz, dein Charme, \ndeine subtile Schmeichelei wickeln jeden ein und lassen \ndich aus dem ersten Treffen alles rausholen. Kosten: 12 Karma\nAuswirkung: Du erhältst bei ersten Zusammentreffen mit \njemandem 2 Edge für soziale Proben, und sowohl deine \nFahndungsstufe als auch deine Reputation (S. 235) wer-\nden für dieses Treffen ignoriert.",
+    "topic": "combat.attack",
+    "keywords": [
+      "kosten",
+      "deine",
+      "karma",
+      "auswirkung",
+      "treffen",
+      "dich",
+      "stufe",
+      "kannst"
+    ]
+  }
+}

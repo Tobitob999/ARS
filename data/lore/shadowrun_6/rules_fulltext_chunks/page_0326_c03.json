@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0326_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 326, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 326,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Verätzt #\n (#)K Schaden, dem jede Runde widerstanden werden muss, solange Status aktiv; \nStatus beenden mit Hilfsmitteln nach Maßgabe des Spielleiters; Status \nNass\n hebt \nNass\n hebt \nNass\n Verätzt\n evtl. auf. Verätzt\n evtl. auf. Verätzt\nVergiftet #\n (#)B o. (#)K Schaden, dem jede Runde widerstanden werden muss, solange Status aktiv; \nSchaden verringert sich pro Runde um 1; Gegengift kann den Status beenden. Verschleiert\n Kein Wechsel zwischen Astral- und physischer Ebene möglich; nur astrale Wahrnehmung möglich. Versteinert\n Keine Handlungen möglich; Verteidigungswert +10; \nStatus hebt jeden anderen Schaden verursachenden Status auf. Verwirrt #\n # = Würfelpoolmalus für alle Handlungen\nLebensstilk osten (S. 59)\nLEBENSSTIL\n KOSTEN PRO MONAT\nAuf der Straße\n 0 ¥\nSquatter\n 500 ¥\nUnterschicht\n 2.000 ¥\nMittelschicht\n 5.000 ¥\nOberschicht\n 10.000 ¥\nLuxus\n 100.000 ¥\nSHADOWRUN: SECHSTE EDITION\nT ABELLEN // 325",
+    "topic": "combat.damage",
+    "keywords": [
+      "status",
+      "veraetzt",
+      "schaden",
+      "runde",
+      "nass",
+      "hebt",
+      "moeglich",
+      "jede"
+    ]
+  }
+}

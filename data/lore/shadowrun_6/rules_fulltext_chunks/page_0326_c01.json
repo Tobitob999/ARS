@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0326_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 326, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 326,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "St a tusliste (S. 53)\nSTATUS\n INFORMATION\nBenommen\n Initiativeergebnis -4; Edge kann weder erhalten noch ausgegeben werden. Bewegungsunfähig\n Keine Handlung, für die die Füße bewegt werden müssen; Angriffswert -3; \nWürfelpoolmalus -3 auf alle Angriffe; kein Einsatz von Reaktion bei Verteidigungsproben. Brennend #\n(#)K Schaden, dem jede Runde widerstanden werden muss, solange Status aktiv; \nStatus beenden z. B. mit Probe auf Geschicklichkeit + Reaktion (2); Status \nNass\n und/oder \nNass\n und/oder \nNass\nUnterkühlt\n heben \nUnterkühlt\n heben \nUnterkühlt\n Brennend\n auf und umgekehrt. Brennend\n auf und umgekehrt. Brennend\nDeckung I–IV\nVerteidigungswert +1/Stufe; Würfelpoolbonus +1/Stufe für Verteidigungsproben; \nAngriff aus Deckung erfordert zusätzliche Nebenhandlung; kein Edge erhalten bei Angriff aus Deckung; \nWürfelpoolmalus -2 für Angriff aus \nDeckung IV. Erschöpft I–III\n Würfelpoolmalus -2/Stufe für alle Proben außer Schadenswiderstandsproben; Bewegung 5/10 Meter. Erstarrt\nKeine Bewegung möglich; keine Handlungen möglich außer Wahrnehmung & geistige Kommunikation; \nVerteidigungswert -10; keine Verteidigungsproben, nur Schadenswiderstandsproben; \nalle anderen Status usw. werden aufgehoben. Ertaubt I–III\n I/II: Würfelpoolmalus -3/Stufe auf alle Proben, bei denen Hören eine Rolle spielt; \nIII: jede Probe, bei der Hören eine Rolle spielt, misslingt automatisch. Geblendet I–III\n I/II: Würfelpoolmalus -3/Stufe auf alle Proben, bei denen Sehen eine Rolle spielt; \nIII: jede Probe, bei der Sehen eine Rolle spielt, misslingt automatisch. Gebrutzelt\n Initiativeergebnis -2; kein Sprinten möglich; Würfelpoolmalus -1 auf alle Handlungen.",
+    "topic": "combat.initiative",
+    "keywords": [
+      "wuerfelpoolmalus",
+      "alle",
+      "status",
+      "stufe",
+      "keine",
+      "brennend",
+      "deckung",
+      "rolle"
+    ]
+  }
+}

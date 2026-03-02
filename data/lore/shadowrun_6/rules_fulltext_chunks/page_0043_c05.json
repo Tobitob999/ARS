@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0043_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 43, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 43,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Initiativehandlungen können nur dann ausgeführt werden, \nwenn der Charakter während einer Kampfrunde an der \nReihe ist, während Jederzeithandlungen jederzeit während \nder Kampfrunde möglich sind – wobei Letzteres natürlich \nnur möglich ist, wenn dem Charakter noch eine Handlung \nfür diese Kampfrunde zur Verfügung steht. Wenn er zu dem \nZeitpunkt, an dem er regulär an der Reihe ist, bereits alle \nHandlungen aufbraucht, kann er später in der Runde keine \nmehr ausführen. Deshalb kann es sich manchmal lohnen, \nwenn man früh in der Kampfrunde an der Reihe ist, eine \nHandlung für einen späteren Zeitpunkt aufzusparen. Man \nbeachte, dass im Allgemeinen keine Handlungen von einer \nKampfrunde in die nächste aufgeschoben werden können, \nes sei denn, eine spezielle Regel erlaubt dies ausdrücklich. Neben diesen Handlungen können noch so viele Wor-\nte gesprochen oder Unterhaltungen geführt werden, wie \ninnerhalb von drei Sekunden möglich sind. Falls Zweifel \nbestehen, wie viel man in drei Sekunden sagen kann, dann \nnehmt euch eine Stoppuhr und probiert es aus! Spezielle Matrixhandlungen werden auf Seite 179 be-\nschrieben. Beispiel für Handlungen\nYu, ein Spezialist für verdeckte Operationen, schleicht \nsich in ein Konzern-Forschungslabor, um einen brand-\nheißen Prototypen zu stehlen. Einige Sicherheitsleute \nbeﬁ nden sich zwischen ihm und dem Gebäude, in das \ner hinein möchte, und er muss sich überlegen, wie er \nan ihnen vorbeikommt, ohne einen Alarm auszulösen. Er entscheidet, dass ein Angriff aus dem Hinterhalt \nam erfolgversprechendsten sein dürfte, also lässt die \nSpielleiterin Yu und die Sicherheitsleute ihre Initiative \nermitteln.",
+    "topic": "combat.initiative",
+    "keywords": [
+      "kampfrunde",
+      "handlungen",
+      "sich",
+      "waehrend",
+      "reihe",
+      "moeglich",
+      "einen",
+      "dann"
+    ]
+  }
+}

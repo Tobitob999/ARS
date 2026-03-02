@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0117_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 117, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 117,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Die Schießwütigen küm-\nmern sich darum, die Verfolger fernzuhalten, während \nsich Byom, der verrückte russische Bombenbastler, \ndie Wand ansieht, von der er glaubt, dass sie entwe-\nder eine Außenwand ist oder in eine Tiefgarage führt. Jedenfalls können die Runner weiterkommen, wenn \ner ein Loch hineinmacht. Byom leiht sich von Grizzly \ndie Axt aus und schlägt mit Leichtigkeit ein Loch von \n10 Zentimetern Durchmesser in die Gipskartonplatte \n(Schadenswert 6K gegen Strukturstufe 6), mit der die \nWand verkleidet ist, ohne auch nur hart zuzuschlagen. Das reicht aus, um den Beton dahinter sichtbar zu \nmachen. Byom kennt sich mit Materialien aus und greift \nnach einem Sprengstoffpaket mit Stufe 12. Er steckt \ndie Ladung in das Loch in der Wand und plant die \nSprengung mit einer Probe auf Mechanik 6 + Logik 5; er \nerzielt mit 11 Würfeln 4 Erfolge. Dadurch steigt die Stufe \ndes Sprengstoffs auf 16. Der Vergleich zwischen dem \nSchadenswert von 16 und der Strukturstufe von 15 der \nBeispiel:\nSchiessen auf Barrieren -\nVollautoma tischer Modus \nund Met all tür\nGrizzly rennt schnell durch die erste Tür, sieht eine weite-\nre, hebt das AK und schießt wieder im Vollautomatischen \nModus auf die gleiche Stelle. Das AK hat einen Scha-\ndenswert von 5K, aber Grizzly erkennt nicht, dass die \nnächste Tür einen Metallkern hat, was ihre Strukturstufe \nauf 11 erhöht. Der Schadenswert des Angriffs ist kleiner \nals die Hälfte der Strukturstufe, und Grizzly erhält nur \neinen Haufen Querschläger, während die Tür, auf die er \nzustürmt, immer noch ziemlich intakt ist. Beispiel: \nDurchbrechen einer Barriere - \nAxt und Met all tür\nMit der Axt in der Hand kümmert sich Grizzly um den \nMetallkern der Tür.",
+    "topic": "combat.damage",
+    "keywords": [
+      "sich",
+      "grizzly",
+      "strukturstufe",
+      "byom",
+      "wand",
+      "loch",
+      "schadenswert",
+      "einen"
+    ]
+  }
+}

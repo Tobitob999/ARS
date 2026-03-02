@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0100_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 100, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 100,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Verzaubern\nSpezialisierungen: Alchemie, Entzaubern, Fokusherstellung\nUngeübt: Nein\nPrimärattribut: Magie\nVerzaubern wird genutzt, um alchemistische Erzeugnisse, \nFoki, Fetische und andere magische Gegenstände herzu-\nstellen – und bisweilen auch, um sie zu zerstören. Weitere \nInformationen dazu findest du im Abschnitt Verzaubern\nim Kapitel Magie auf Seite 151. W ahrnehmung\nSpezialisierungen: Hören, Riechen, Schmecken, Sehen, Tas-\nten, verschiedene Umgebungen (Wald, Wüste, Stadt usw.)\nUngeübt: Ja\nPrimärattribut: Intuition\nSekundärattribut: Logik (zur Mustererkennung)\nSchleicht da vorne jemand durch den Smog? Ist im Schreibtisch dieses Execs ein Geheim-\nfach verborgen? Wo ist der Lichtschalter? Dies sind Beispiele für Fragen, die sich mit \neiner Wahrnehmungsprobe beantworten las-\nsen. Wenn der Zweck der Probe eine genaue \nUntersuchung der Umgebung ist, wird eine \nEinfache Probe auf Wahrnehmung + Intuition \nabgelegt. Den Schwellenwert legt der Spiel-\nleiter in Abhängigkeit davon fest, wie schwer \ndas Gesuchte zu entdecken ist (Beispielwer-\nte findest du in der Tabelle Schwellenwerte \nfür Wahrnehmungsproben). Wahrnehmung \nkommt außerdem immer dann zum Einsatz, \nwenn man jemanden entdecken möchte, der nicht gese-\nhen werden will. In diesem Fall wird eine Vergleichende \nProbe auf Wahrnehmung + Intuition gegen Heimlichkeit \n+ Geschicklichkeit abgelegt (diese Proben werden unter \nUmständen nicht gleichzeitig durchgeführt; siehe dazu \nden Abschnitt Heimlichkeit, S. 97).",
+    "topic": "magic.spells",
+    "keywords": [
+      "verzaubern",
+      "intuition",
+      "probe",
+      "wahrnehmung",
+      "spezialisierungen",
+      "ungeuebt",
+      "primaerattribut",
+      "magie"
+    ]
+  }
+}

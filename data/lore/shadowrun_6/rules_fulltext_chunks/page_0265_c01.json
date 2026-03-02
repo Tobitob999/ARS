@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0265_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 265, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 265,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "raketen werden scharfgemacht, wenn sie 10 Meter weit \ngeflogen sind, und explodieren beim Aufprall (es sei \ndenn, man verwendet eine Airburst-Verbindung, S. 259). Diese Sicherheitseinstellung kann mit einer Ausgedehnten \nProbe auf Mechanik + Logik (4, 5 Minuten) deaktiviert \nwerden. Wie bei Granaten verringert sich der zugefügte Schaden \nmit zunehmender Entfernung vom Detonationspunkt. Die \nReichweiten hängen von der Waffe ab, mit der die (Lenk-)\nRakete abgefeuert wird, und sind dort jeweils aufgeführt. WiFi-Vorteil: Alle Raketen und Lenkraketen haben fol-\ngenden WiFi-Vorteil: Man kann für die (Lenk-)Rakete den \nWiFi-Zünder verwenden, selbst wenn man kein direktes \nNeuralinterface hat. Anti-F ahrzeug-Rakete\nAF-(Lenk-)Raketen enthalten eine Hohlladung, die sich ih-\nren Weg durch ein Fahrzeug oder eine Barriere brennt oder \nschlägt. Der Aufprall erzeugt zwar eine Sprengwirkung, \ndie aber im Vergleich zu einer Sprengrakete begrenzt ist. Gasrakete\nMit diesen Raketen können Chemikalien oder Toxine ver-\nteilt werden (s. Toxine und Drogen, S. 124). Die Gaswolke \nhält sich für etwa 10 Kampfrunden. Näheres dazu findest \ndu in den Regeln zu Gasangriffen auf Seite 120. Rauch-/IR-Rauchrakete\nÄhnlich wie eine Gasrakete gibt eine Rauchrakete eine \nWolke ab, die jedoch aus Rauch besteht statt aus giftigem \nGas. Die Wolke schränkt die Sicht ein und verursacht den \nStatus Geblendet I bei jedem, der etwas durch die Wolke \nhindurch tun will (etwa feuern), und Geblendet II bei je-\ndem, der sich innerhalb der Wolke befindet. Rauchraketen \nschränken normale Sicht (inklusive Restlichtverstärkung) \nein, IR-Rauchraketen auch Infrarotsicht. Die Wolke hält \nsich für etwa 10 Kampfrunden.",
+    "topic": "combat.damage",
+    "keywords": [
+      "sich",
+      "wolke",
+      "raketen",
+      "lenk",
+      "wifi",
+      "etwa",
+      "aufprall",
+      "einer"
+    ]
+  }
+}

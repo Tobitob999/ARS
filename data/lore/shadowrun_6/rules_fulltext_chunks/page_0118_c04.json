@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0118_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 118, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 118,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Die Spielleiterin legt die Größe dieser Gruppen fest, indem \nsie sie nach ihren Angriffszielen und/oder ihren Angriffsarten zu-\nsie sie nach ihren Angriffszielen und/oder ihren Angriffsarten zu-\nsammenfasst. Wenn vier Lone-Star-Bullen ihre Knüppel gezogen \nsammenfasst. Wenn vier Lone-Star-Bullen ihre Knüppel gezogen \nhaben und zwei ihre Pistolen, arbeiten die vier Knüppelträger \nhaben und zwei ihre Pistolen, arbeiten die vier Knüppelträger \nStrukturstufen\nSTUFE\n ART\n1\n Papier (dünn)\n2\n Glas (dünn)\n3\n Papierstapel (1 cm)\n4\n Glas (1 cm)\n5\n Mörtel, hohle Holztür, Leichtbaumöbel\n6\n Gipskarton\n7\n Massive Holztür, Massivholzmöbel\n8\n Elektronische Ausrüstung, Absperrkette\n9\n Sicherheitsglas, Blech\n10\n Densiplast, dünner Baum\n11\n Holztür mit Metallkern oder -verkleidung, \nPanzerglas\n12\n Ziegel, dicker Baum\n13\n Kevlar-Wandplatte\n14\n Plasbeton\n15\n Beton\n16\n Sicherheitstür\n17\n Metallträger, dicke Metallplatte\n18\n Verkleidung aus abgereichertem Uran\n19\n Stahlbeton\n20\n Bunker\nBei einer Schergen-Gruppe gelten der höchste Angriffs-\nwert und der höchste Würfelpool unter den Mitgliedern. Das sind die Grundwerte der Gruppe. Jedes Mitglied der \nGruppe über das erste hinaus erhöht den Angriffswert \num 1. Jedes ungerade Mitglied ab dem dritten erhöht den \nWürfelpool für den Angriff um 1. Mit diesen modifizier-\nten Werten legen sie als Gruppe eine einzelne Angriffs-\nprobe ab (und verursachen auch nur einmal Schaden). Aus logistischen Erwägungen sollte eine angreifende \nSchergen-Gruppe nicht mehr als 5 Mitglieder haben, weil \ngrößere Gruppen einander eher im Weg stehen. Beispiel: \nSchergen-Gruppe\nVier Streifenpolizisten von Lone Star mit Knüppeln \nwollen einen armen Ganger verprügeln.",
+    "topic": "combat.attack",
+    "keywords": [
+      "gruppe",
+      "vier",
+      "ihren",
+      "lone",
+      "star",
+      "holztuer",
+      "schergen",
+      "angriffszielen"
+    ]
+  }
+}

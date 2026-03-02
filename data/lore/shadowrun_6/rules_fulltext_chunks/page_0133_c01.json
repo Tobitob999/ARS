@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0133_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 133, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 133,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Spielinforma tionen\nDas Erkennen von Magie erfordert eine Probe auf Wahr-\nnehmung + Intuition; der Schwellenwert entspricht dem \nMagieattribut der Magie wirkenden Person. Das gilt aber \nnur für das Erkennen von Magie in der physischen Welt. Auf der Astralebene ist sie leichter wahrzunehmen, aber \ndas ist eine ganz andere Nummer, die wir später behandeln \n(siehe S. 161). Magie, Technologie \n und Widerst and\nMagie und Technologie kamen noch nie gut miteinander aus. Warum? Frag einen Professor vom MIT&T, wenn du dir ein \npaar Stunden Zeit vertreiben musst – dann hörst du mehr \nüber das Wesen des Manas, als du jemals wissen wolltest. Egal, ob du den Grund verstehst oder nicht: Es gibt diese \nSpaltung, und sie spielt bei der Frage, wie Erwachte mit der \nWelt interagieren können, eine wichtige Rolle. Eine wichtige Auswirkung ist, dass Erwachte Charaktere \nCyberware, Bioware und andere Implantate meiden. Diese \nDinge verringern ihre Essenz, was wiederum ihre Fähigkeit \neinschränkt, Mana zu kanalisieren – etwas, das nur wenige \nErwachte wollen. Die andere wichtige Auswirkung ist, dass es schwieriger \nwird, etwas magisch zu beeinflussen, wenn es viel Techno-\nlogie enthält oder stark bearbeitet wurde. Inwiefern das so \nist, wird mit dem Objektwiderstand gemessen, der oft als \nMaßstab dafür dient, wie erfolgreich Zauber sind, die auf \nein Objekt gewirkt werden. Die Tabelle Objektwiderstand\ngibt Richtlinien für diesen Wert an. • Magie lernen (s.u.)\n• Rituale durchführen (S. 145)\n• Funktion als Manabarriere (S. 163)\nDie Menge an Macht, die ein solches Refugium für diese \nFunktionen bietet – und damit der Preis des Refugiums –, \nhängt von der Kraftstufe des Refugiums ab.",
+    "topic": "magic",
+    "keywords": [
+      "magie",
+      "andere",
+      "diese",
+      "erwachte",
+      "wichtige",
+      "erkennen",
+      "welt",
+      "technologie"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0193_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 193, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 193,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Werte von Sprites\nDie Gerätestufe, die Resonanz, die Geistigen Attribute und \ndie Fertigkeitswerte von Sprites sind gleich ihrer Spritestufe. Matrixattribute, Initiative, Matrix-Zustandsmonitor und \nFertigkeiten hängen von Art und Stufe des Sprites ab (s. Arten \nvon Sprites, S. 193). Ihr Matrix-Zustandsmonitor hat [8 + \n(Spritestufe ÷ 2, aufgerundet)] Kästchen. Sprites haben die \nResonanzsignatur des Technomancers, der sie kompiliert hat. Sie sammeln OW nach den normalen Regeln an. Wenn sie \nZiel einer Fokussierung werden, verschwinden sie mitsamt \nallen noch offenen Aufgaben. Dabei wird der physische \nAufenthaltsort ihres Technomancers enthüllt. Das Sprite selbst hat keinen physischen Aufenthaltsort, \naber weil es die Matrixsignatur seines Technomancers trägt, \nist es mit ihm verbunden. Das bedeutet, dass jemand, der \nerfolgreich die Handlung Icon aufspüren gegen das Sprite \ndurchführt, stattdessen den Technomancer findet, der es \nkompiliert hat. Beispiel: \nRegistrieren eines Sprites\nRespec mag den Stil im Quellcode ihres Stör-Sprites und \nbeschließt, es zu registrieren, damit es nicht im Äther der \nMatrix verschwindet. Sie reserviert drei Stunden Freizeit \ndafür und kann währenddessen nicht anderes tun als zu \nversuchen, die Matrix dazu zu bringen, das Sprite als \nTeil von sich zu akzeptieren. Sie würfelt mit 12 Würfeln \nfür Tasken + Resonanz, das Sprite mit 6 Würfeln für \nseine Spritestufe \n×\n 2. Respec erzielt 1 Nettoerfolg, was \nausreicht, dass die Matrix das Stör-Sprite akzeptiert, aber \ndas Sprite erzielt 4 Erfolge, wodurch Respec 8 Punkten \nSchwundschaden widerstehen muss.",
+    "topic": "combat.initiative",
+    "keywords": [
+      "sprites",
+      "matrix",
+      "technomancers",
+      "respec",
+      "resonanz",
+      "zustandsmonitor",
+      "kompiliert",
+      "aufenthaltsort"
+    ]
+  }
+}

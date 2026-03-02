@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0188_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 188, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 188,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Mungo erkennt, dass heute nicht sein Tag ist, und stöp-\nselt sich schnell aus. Schnell, aber elegant. Killer\nVerteidigung: Intuition + Firew all\nKiller wird von einem Host gestartet, der sich nicht mit aus-\ngefallenen Taktiken aufhalten will, sondern dir direkt an die \nKehle geht. Wenn Killer im Matrixkampf trifft, verursacht \nes [Hoststufe + Nettoerfolge] Kästchen Matrixschaden, dem \nmit Firewall widerstanden wird. Leuchtspur\nVerteidigung: Willenskraft + Schleicher\nLeuchtspur ist die Antwort auf immer mehr Hintertüren: \nWenn Hacker lieber mit Schleicher arbeiten und sich \nHintertüren in Hosts sichern wollen, müssen die Hosts \ndafür sorgen, dass sie nicht zu hohe Werte in Schleicher \nhaben. Wenn Leuchtspur im Matrixkampf trifft, wird \ndas Schleicher-Attribut des Ziels um 1 pro Nettoerfolg \ngesenkt. Wenn der Wert für Schleicher auf 0 gesunken ist, \nkönnen keine Handlungen mehr durchgeführt werden, \ndie mit Schleicher verbunden sind, bis der Wert wieder \nmindestens 1 erreicht hat. Verlorene Punkte regenerieren \nsich mit einer Geschwindigkeit von 1 Punkt pro Minute, \nnachdem der Eindringling den Host verlassen hat. P a trouille\nDieses IC ist meistens die erste Verteidigungslinie eines \nHosts, weil es Konfrontationen nicht eskalieren lässt und \nstattdessen dem Besitzer des Hosts einen guten Eindruck \ndavon vermittelt, was sich tut. Wenn es aktiviert wird, führt \nder Spielleiter eine Handlung \nMatrixwahrnehmung\n für das \nMatrixwahrnehmung\n für das \nMatrixwahrnehmung\nIC durch. Die Erfolge dieser Probe gelten für jede Handlung \nMatrixwahrnehmung\n, die das IC innerhalb einer Minute \ndurchführt.",
+    "topic": "combat.defense",
+    "keywords": [
+      "schleicher",
+      "sich",
+      "hosts",
+      "matrixwahrnehmung",
+      "killer",
+      "leuchtspur",
+      "schnell",
+      "verteidigung"
+    ]
+  }
+}

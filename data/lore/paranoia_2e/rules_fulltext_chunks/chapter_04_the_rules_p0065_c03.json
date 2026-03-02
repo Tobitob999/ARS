@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_04_the_rules_p0065_c03",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_04_the_rules",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The Rules page 65, chunk 3.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_04_the_rules",
+    "source_title": "The Rules",
+    "page": 65,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "raw_text": "Recenery without the benefit of such help can be performed with the aid of docbots (see 84) Cor the medical skill (ee 60), but ths is time- ‘consuming and fraught with peril ‘Of course, many biotechnological wonders are wrought by Research and Design, and ome biochemical supplements are capable ff permitting horsbly injured Troubleshooters to foxtrot on a pair of broken legs, but the side effects ofthese medical marvels are oftersmore ‘appalling than the origina injuries, \nStun: No medical aid necessary. The character is stunned for one round, After one round, he an again aet normally — without penalties. Wound: The character is stunned for one round, Thereafter he may perform most nor ‘mal actions, but subject toa modifier to all Skill and atebute roll. Ths penalty reflects the ffecls of bleeding, shock, pain, and trauma if a wounded characteris not treated by someone with medical skill or a docbot (or carted off to a medical center) within a day, hhe becomes incapacitated. See page 60 for what happens if he is treated. Incapacitated: ncapacitaion is a_ severe wound that, unless treated, results in death ‘An incapacitated character can take no action Lunt! healed to wounded status. if an_ incapacitated character does. not receive medical care — tended by a docbot, Character with medical skill, or in a medical Center — he must make an endurance roll tevery hour. A failed roll means he dies, (See also page 60.) Kill and Vaporize: Recovery from these statuses is uncommon.",
+    "topic": "skills",
+    "keywords": [
+      "medical",
+      "character",
+      "skill",
+      "incapacitated",
+      "round",
+      "roll",
+      "treated",
+      "without"
+    ]
+  }
+}

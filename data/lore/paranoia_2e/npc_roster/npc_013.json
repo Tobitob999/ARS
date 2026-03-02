@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npc",
+  "id": "npc_013",
+  "name": "Glint-N-R-13",
+  "tags": [
+    "paranoia_2e",
+    "npc",
+    "roster"
+  ],
+  "summary": "PLC operative with layered loyalties.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "service_group": "PLC",
+    "secret_society": "Anti-Mutant",
+    "mutation": "Pyrokinesis",
+    "trait": "nervous",
+    "clearance": "Green",
+    "use_in_play": "checkpoint_antagonist"
+  }
+}

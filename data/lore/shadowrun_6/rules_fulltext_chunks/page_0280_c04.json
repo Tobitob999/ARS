@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0280_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 280, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 280,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Weitere Informationen \nüber Magschlösser und ihre Optionen findest du unter \nMagschlösser\n auf Seite 240. Magschlösser haben Stufen \nvon 1 bis 9. Schloss\nMetallschlüssel, Schlüssellöcher und eine Menge Verwir-\nrung für den Hacker mit dem Sequencer in der Hand – \nZylinder- und Kombinationsschlösser sind altmodisch und \nwerden dort verwendet, wo die technische Entwicklung \nnicht Schritt halten konnte oder der Boss ein Pfennigfuchser \nist. Sie sind ein Relikt aus der Vergangenheit und werden \nhäufig nur deshalb noch verwendet, weil sie billig sind. Um ein solches Schloss zu knacken, ist eine erfolgreiche \nProbe auf Mechanik + Geschicklichkeit (Stufe) erforderlich. Schlösser gibt es in Stufen von 1 bis 6. Einbruchs-\nwerkzeug\nAutoma tischer Dietrich\nDiese Sperrpistole ist eine schnelle und effektive Methode, \num mechanische Schlösser zu umgehen. Der automatische \nDietrich gewährt einen Würfelpoolbonus von +1 für die \nProbe zum Knacken eines Schlosses. Brecheisen\nDiese lange, kräftige Metallstange verdoppelt die effektive \nStärke eines Charakters, wenn er versucht, eine Tür, ein \nSchloss oder einen Behälter aufzubrechen. Dietrich-Set\nDiese klassischen mechanischen Einbruchswerkzeuge haben \nsich den letzten Jahrhunderten nur marginal verändert. Sie \nsind notwendig für das Knacken von mechanischen Schlös-\nsern, sofern man keinen automatischen Dietrich einsetzt. Gussform für \nAbdruckhandschuh\nDieses Gerät nimmt einen Finger- oder Handabdruck und \nformt einen „Handschuh“, den man tragen kann, um den \nAbdruck zu imitieren und damit einige biometrische Schlös-\nser zu überlisten (s. Magschlösser\n, S. 240).",
+    "topic": "advancement",
+    "keywords": [
+      "magschloesser",
+      "dietrich",
+      "einen",
+      "schloss",
+      "knacken",
+      "diese",
+      "stufen",
+      "verwendet"
+    ]
+  }
+}

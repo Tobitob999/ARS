@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "category": "encounter",
+  "id": "sector_blackout_34",
+  "name": "Power fluctuation triggers emergency doctrine #34",
+  "tags": [
+    "paranoia_2e",
+    "encounter",
+    "batch_06"
+  ],
+  "summary": "Power fluctuation triggers emergency doctrine",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "trigger": "on_success",
+    "pressure": "extreme",
+    "required_checks": [
+      "Mechanical Engineering",
+      "Bootlicking"
+    ],
+    "complication": "friendly_fire_risk",
+    "payoff": "promotion_note"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "category": "content_index",
+  "tags": [
+    "paranoia_2e",
+    "index",
+    "batch_06"
+  ],
+  "summary": "Index for mass-generated Paranoia 2E content packs.",
+  "source_text": {
+    "generated": true
+  },
+  "mechanics": {
+    "paths": {
+      "encounters_pack": "data/lore/paranoia_2e/encounters_pack/",
+      "mission_seeds": "data/lore/paranoia_2e/mission_seeds/",
+      "npc_roster": "data/lore/paranoia_2e/npc_roster/",
+      "gm_moves": "data/lore/paranoia_2e/gm_moves/",
+      "service_group_ops": "data/lore/paranoia_2e/service_group_ops/",
+      "secret_society_ops": "data/lore/paranoia_2e/secret_society_ops/",
+      "gear_catalog": "data/lore/paranoia_2e/gear_catalog/",
+      "adventure_assets": "data/lore/paranoia_2e/adventure_assets/"
+    },
+    "counts": {
+      "encounters_pack": 60,
+      "mission_seeds": 40,
+      "npc_roster": 50,
+      "gm_moves": 30,
+      "service_group_ops": 24,
+      "secret_society_ops": 24,
+      "gear_catalog": 36,
+      "adventure_assets": 32
+    }
+  }
+}

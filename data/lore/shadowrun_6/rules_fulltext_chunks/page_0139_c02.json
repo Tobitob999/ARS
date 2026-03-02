@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0139_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 139, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 139,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Cass würfelt mit Hexerei 5 + Magie 6 und erreicht mit \ndiesen 11 Würfeln solide 5 Erfolge. Die Spielleiterin legt \neine Probe für alle drei Verteidiger ab, und sie erzielen 3 \nErfolge. Cass hat alle drei Wachen getroffen. Der Grundschaden des Feuerballs beträgt die Hälfte \nvon Cass’ Magie, und ein Feuerball verursacht Körperli-\nchen Schaden, also sind das zunächst einmal 3K Scha-\nden. Cass hat 2 Nettoerfolge, daher steigt der Schaden \nauf 5K. Die Wachen widerstehen mit ihrer Konstitution, \ndie 3 beträgt, und erzielen 2 Erfolge. Das bedeutet, dass \njede von ihnen 3K Schaden erleidet. Der Feuerball sorgt außerdem für den Status Brennend\nmit einer Stufe gleich der Anzahl der Nettoerfolge, also \nerhalten die drei Wachen den Status Brennend 2. Wenn \nsie das Feuer nicht löschen, wird der Status weiteren \nSchaden verursachen. Jetzt muss Cass den Preis für das Wirken des Feuer-\nballs bezahlen. Der Entzugswert beträgt 6, und das Ver-\ngrößern der Fläche erhöht ihn auf 7. Cass hat Charisma \n5 und Willenskraft 5, also würfelt er mit 10 Würfeln. Mit \nnur 3 Erfolgen müsste er 4 Kästchen Betäubungsschaden \nhinnehmen, und das erscheint ihm zu schmerzhaft. Er \ngibt Edge aus, um einen Würfel noch mal zu würfeln, \nund erzielt einen Erfolg. Mit insgesamt 4 Erfolgen erleidet \nCass nur 3 Kästchen Betäubungsschaden. Das tut weh, \naber das Feuer, das an seinen Gegnern schwelt, wird \nihnen mehr wehtun. Bet äubungsball\n(Direkter Kampfzauber, Flächenwirkung)\nREICHWEITE ART DAUER ENTZUG SCHADEN\nBF (F) M S 4 B\nDieser Zauber ist die Flächenversion von Betäubungsblitz.",
+    "topic": "combat.damage",
+    "keywords": [
+      "cass",
+      "schaden",
+      "wuerfeln",
+      "erfolge",
+      "drei",
+      "wachen",
+      "betraegt",
+      "also"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0224_c09",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 224, chunk 9.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 224,
+    "chunk_index": 9,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Die \nKraft ermöglicht einem Critter, Sprache zu projizieren, die \nZielperson kann jedoch nicht auf gleiche Weise antworten, \nohne selbst telepathisch begabt zu sein. SHADOWRUN: SECHSTE EDITION\nCRITTERKRÄFTE // Das wilde Leben // 223",
+    "topic": "general",
+    "keywords": [
+      "kraft",
+      "ermoeglicht",
+      "einem",
+      "critter",
+      "sprache",
+      "projizieren",
+      "zielperson",
+      "jedoch"
+    ]
+  }
+}

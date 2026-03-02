@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0006_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 6, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 6,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "IMPRESSUM\nSicherheitsgeräte \nund Handschellen....................279\nEinbruchswerkzeug ..................279\nIndustrie chemikalien ................280\nÜberlebens ausrüstung ..............280\nBiotech ................................282\nBodytech ..............................283\nHeadware ...........................................284\nAugen-Cyberware...............................286\nOhren-Cyberware ...............................286\nBodyware ...........................................288\nCybergliedmaßen ...............................289\nCyberimplantatwaffen ........................291\nStandard-Bioware ..............................292\nKultivierte Bioware .............................295\nToxine und Drogen ...................295\nMagische Ausrüstung ...............296\nFoki ....................................................296\nFormeln ..............................................296\nMaterialien für Magische Refugien .....296\nReagenzien .........................................297\nFahrzeuge und Drohnen.............297\nFahrzeugmodiﬁ kationen .....................297\nMotorräder .........................................297\nAutos .................................................298\nLkw und Vans ....................................299\nBoote .................................................300\nU-Boote ..............................................300\nFlugzeuge ...........................................300\nRotormaschinen .................................300\nVTOL/VSTOL ......................................301\nMikrodrohnen ....................................302\nMinidrohnen .......................................302\nKleine Drohnen ..................................303\nMittlere Drohnen ................................303\nGroße Drohnen ..................................304\nDeutschland \nin den Scha tten ...................306\nDie Allianz Deutscher Länder ......306\n„ADL verpﬂ ichtet“ ..............................306\nKürzeste Geschichte der ADL .............307\nDie ADL aus der \nDrachen ﬂ ugperspektive......................308\nBrennpunkt: Hamburg ...............315\nDas Venedig des Nordens ..................315\nWildost ...............................................319\nT abellen ...................................",
+    "topic": "cyberware",
+    "keywords": [
+      "drohnen",
+      "ausruestung",
+      "cyberware",
+      "bioware",
+      "magische",
+      "boote",
+      "impressum",
+      "sicherheitsgeraete"
+    ]
+  }
+}

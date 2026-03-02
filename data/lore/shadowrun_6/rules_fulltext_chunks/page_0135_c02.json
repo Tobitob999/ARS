@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0135_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 135, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 135,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Blickfeld mit Flächenwirkung \n(BF (F)) bedeutet, dass der Zauber die Reichweite Blickfeld \nhat und eine Flächenwirkung besitzt, die ohne Anpassung 2 \nMeter Radius hat. Speziell bedeutet, dass die Reichweite des \nZaubers in seiner Beschreibung angegeben ist. Dauer: Damit wird festgehalten, wie lange die Wirkung des \nZauber anhält. Häufig ist die Dauer Sofort (S), was bedeutet, \ndass die Wirkung sofort einsetzt und der Zauber damit endet. Aufrechterhalten (A) bedeutet, dass die Wirkung so lange an-\nhält, wie der Zaubernde sie aufrechterhält (das Fallenlassen \neines aufrechterhaltenen Zaubers benötigt keine Handlung, \nder Zauberer lässt ihn einfach enden). Zeitlich Begrenzt (ZB)\nbedeutet, dass der Zauber eine maximale Dauer besitzt, über \ndie hinaus er nicht aufrechterhalten werden, aber wenn \ngewünscht auch früher fallen gelassen werden kann (der \nübliche Würfelpoolmalus für aufrechterhaltene Zauber gilt \nauch hier). Permanent (P) bedeutet, dass die Wirkung nicht \nendet und ohne jeden Aufwand des Zaubernden bestehen \nbleibt – sie wird zu einem vollwertigen Bestandteil der Welt. Art: Es gibt zwei Arten von Zaubern: Manazauber (M)\nund Physische Zauber (P). Manazauber interagieren mit \nallem, was eine astrale Komponente hat (z./uni00A0B. auch mit \nLebewesen, weil diese eine Aura und damit eine astrale \nKomponente haben). Sie können auch auf der Astralebene \ngewirkt werden, aber sie haben keine Wirkung gegen unbe-\nlebte Ziele, die keine astrale Komponente haben. Physische \nZauber können nur auf der physischen Ebene gewirkt \nwerden und dort lebende und unbelebte Ziele beeinflussen.",
+    "topic": "magic.spells",
+    "keywords": [
+      "zauber",
+      "bedeutet",
+      "wirkung",
+      "dauer",
+      "damit",
+      "keine",
+      "astrale",
+      "komponente"
+    ]
+  }
+}

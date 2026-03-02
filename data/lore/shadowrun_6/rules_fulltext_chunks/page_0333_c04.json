@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0333_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 333, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 333,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Fehler beim Herbeirufen (Geist der falschen \nSorte erscheint; Spielleiterin entscheidet). Fehler beim Herbeirufen (Geist leistet \nWiderstand, als hätte er 1 Kraftstufe mehr, \nerscheint aber mit der gewählten Kraftstufe). Geist erscheint frei, führt keine Dienste aus. Spielleiterin entscheidet über sein Verhalten. Ein weiterer Geist benutzt die Öffnung, \num dem herbeigerufenen Geist zu folgen. Spielleiterin entscheidet über die Art des \nGeistes und sein Verhalten. Fehler beim Herbeirufen \n(Geist leistet Widerstand, als hätte er \ndie doppelte Kraftstufe). SHADOWRUN: SECHSTE EDITION\n332 // T ABELLEN",
+    "topic": "advancement",
+    "keywords": [
+      "geist",
+      "fehler",
+      "beim",
+      "herbeirufen",
+      "erscheint",
+      "spielleiterin",
+      "entscheidet",
+      "kraftstufe"
+    ]
+  }
+}

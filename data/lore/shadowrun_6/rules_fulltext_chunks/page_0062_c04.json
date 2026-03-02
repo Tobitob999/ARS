@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0062_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 62, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 62,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Ob du als Decker oder Tech-\nnomancer die Matrix hackst oder alles Automatisierte \nals Rigger oder Drohnomancer beherrschst – du bist ein \nwichtiger Teil jedes Runnerteams. Zumindest für jedes \nRunnerteam, das überleben will, um seine Bezahlung \nauszugeben. Hacker benutzen ihre technischen Fähigkeiten, um die \nFirewalls der Welt zu knacken. Sie brechen durch die elektro-\nnische Sicherheit oder schleichen sich daran vorbei – egal, ob \nbei einem Kommlink, einer Smartgun oder dem Zentralhost \nvon Aztechnology – und sichern für ihr Team die Kontrolle \noder schnappen sich wertvolle Daten. Du kannst das als \nDecker mit einem Cyberdeck machen oder als Technomancer \nmit deinem Geist, aber jedenfalls sollte sich die Welt davor \nhüten, wenn du durch die Matrix flitzt. Rigger halten die Welt am Laufen. Laien sehen den au-\ntomatisch laufenden Verkehr und die Gebäudefunktionen \nauf dem Planeten und erkennen nicht, dass hinter jedem \nautomatisierten Netzwerk ein Rigger steckt, der nur auf \ndie Chance wartet, hineinzuspringen und die Grenzen der \nMaschinen auszureizen. In den Schatten kümmern sich die \nRigger um Transport, Logistik und Feuerunterstützung – \nentweder aus dem komfortablen Rigger-Kokon oder aus dem \nFahrersitz ihres aufgemotzten Eurocar Westwind heraus. Wie \nbeim Hacken braucht man auch als Rigger nicht unbedingt \ntechnische Ausstattung. Spezialisierte Technomancer, die auf \nder Straße „Drohnomancer“ genannt werden, weben das \nNetz ihrer Kontrolle mit ihrem Geist und behandeln ihre \nDrohnen, als wären sie ihre Freunde.",
+    "topic": "matrix",
+    "keywords": [
+      "rigger",
+      "sich",
+      "ihre",
+      "welt",
+      "decker",
+      "matrix",
+      "drohnomancer",
+      "jedes"
+    ]
+  }
+}

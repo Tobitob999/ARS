@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0145_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 145, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 145,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Feinde Entdecken\nREICHWEITE ART DAUER ENTZUG\nB M A 3\nDieser Zauber lässt den Beobachter wissen, ob jemand \ninnerhalb der Sinnesreichweite ihm gegenüber feindliche \nAbsichten hegt. Das funktioniert nur in Bezug auf Lebe-\nwesen – nicht bei Gegenständen. Der Zauber deckt auch \nnur Feindseligkeit auf, die sich spezifisch gegen den Beob-\nachter richtet, nicht einen generellen Hass auf die gesamte \nMetamenschheit (wäre das so, müsste jeder in einem Slum \nhell aufleuchten). Großartig für das Entdecken von Hin-\nterhalten. Geistessonde\nREICHWEITE ART DAUER ENTZUG\nB P A 5\nDer Beobachter kann in den Geist eines Ziels eindringen \nund versuchen, möglichst viele von dessen Gedanken zu er-\nkennen – und dabei auch herauszufinden, was davon wahr \nund was reine Selbsttäuschung ist. Lege eine Probe auf \nHexerei + Magie gegen Willenskraft + Logik des Ziels ab. Die Nettoerfolge legen fest, ob der Beobachter überhaupt \nin Reichweite des Ziels ist und wie viele Informationen er \naus dem Kopf des Ziels holen kann. Die Tabelle Ergebnisse \nder Geistessonde gibt die Art von Informationen an, die \ndurch den Zauber gewonnen wird. Gerä t Anal ysieren\nREICHWEITE ART DAUER ENTZUG\nB P A 2\nNatürlich weißt du, wie ein Kommlink aussieht, aber das \nheißt nicht, dass du die Funktion der seltsamen schwarzen \nBox mit der einzelnen Buchse identifizieren kannst. Und \ndie Geister mögen dir beistehen, wenn es um eine Maschi-\nne aus den 50ern oder Ähnliches geht. Gerät Analysieren \nverschafft dir, basierend auf den Nettoerfolgen (gegen den \nObjektwiderstand), Informationen über das unbekannte \nGerät.",
+    "topic": "magic.spells",
+    "keywords": [
+      "reichweite",
+      "ziels",
+      "dauer",
+      "entzug",
+      "zauber",
+      "beobachter",
+      "gegen",
+      "informationen"
+    ]
+  }
+}

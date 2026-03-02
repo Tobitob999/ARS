@@ -1,0 +1,17 @@
+{
+  "id": "testkampf",
+  "schema_version": "1.0.0",
+  "name": "Testkampf — AD&D 2e Kampftest",
+  "description": "Kampftest-Szenario fuer AD&D 2e. Testet alle Kampfmechaniken: THAC0-Angriffe, Rettungswuerfe, HP-Tracking, XP-Vergabe, Inventar und Zeitverlauf. Drei Gegner in einer Arena: zwei Goblins und ein Oger.",
+  "ruleset": "add_2e",
+  "adventure": "testkampf",
+  "setting": "forgotten_realms",
+  "keeper": "epischer_barde",
+  "character": "add_fighter",
+  "party": null,
+  "extras": [],
+  "voice": false,
+  "difficulty": "normal",
+  "temperature": 0.8,
+  "atmosphere": "kampfbetont-direkt"
+}

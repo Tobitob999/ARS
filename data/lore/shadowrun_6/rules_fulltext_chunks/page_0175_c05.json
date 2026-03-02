@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0175_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 175, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 175,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Die Fertigkeiten, die du in der \nFleischwelt hast, werden in der Matrix übernommen, sind \naber nicht immer nützlich (vielleicht sieht deine Persona \naus, als würde sie ein Waffe abfeuern, aber die Fertigkeit \nFeuerwaffen hat in der Matrix wenig Nutzen – was aus-\nsieht wie ein Angriff, ist eine Handlung mit einer anderen \nFertigkeit; s. Matrixhandlungen, S. 179). Usergruppen zu bremsen. Ihre Sicherheitsmaßnahmen \nsind verlässlicher, und die Kundenfallen sind unauffäl-\nliger. Es gibt genug Bandbreite für alle und genügend \nUserdaten, die man für gezielte Werbung ausnutzen kann, \nsodass die früher übliche Flut an Spam in der Matrix \nzurückgegangen ist. Die wenigen Unterschiede, die man bei verschiedenen \nZugangspunkten feststellen kann, liegen in der reinen sen-\nsorischen Qualität der Konzernzugänge. Hier ist die Grafik \nschärfer, der Sound ist klarer, und die Gerüche (wenn man \nsie in der Matrix haben will) sind appetitlicher. Die Matrix \nfunktioniert für alle, aber wie immer können sie die Leute \nan der Spitze der globalen Nahrungskette mit mehr Luxus \ngenießen. Sie haben Angestellte, die als Sicherheitsspinnen \nbekannt sind und ihre Investitionen in der Matrix schützen \nsollen. In den letzten Jahren sind die Zugangswege der \nMatrix verschmolzen und in ihrer globalen Vernetztheit \nkaum noch voneinander zu unterscheiden, aber es gibt \nimmer noch sporadische Verbindungsprobleme in dünn \nbesiedelten Gebieten. Auf der Seite der User ist die Matrix um das Personal Area \nNetwork (PAN) herum aufgebaut. Das sind Netzwerke, die \nzum Beispiel ein Kommlink als Zentrum haben, dem eine \nkleine Anzahl an Geräten als Slaves zugeordnet ist.",
+    "topic": "combat.attack",
+    "keywords": [
+      "matrix",
+      "immer",
+      "sieht",
+      "fertigkeit",
+      "ihre",
+      "gibt",
+      "alle",
+      "globalen"
+    ]
+  }
+}

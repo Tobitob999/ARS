@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0303_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 303, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 303,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Minidrohnen\nGM-Nissan Flip-Flop\n(Bodendrohne)\nDiese Drohne ist etwa so groß wie ein ferngesteuertes Spiel-\nzeugauto und hat einen Kettenantrieb. Die Ketten ragen \nüberall über den Rumpf hinaus, und in der Mitte des Chas-\nsis befindet sich ein gyroskopisches Zentrum, das immer \naufrecht bleibt, während die Drohne beliebig rollen und sich \nüberschlagen kann. Sie ist ideal für unwegsames Gelände \nund kann auf gerader, flacher Strecke eine erstaunliche \nGeschwindigkeit erreichen. Shia w ase Inu\n(Läuferdrohne)\nEin kleiner vierbeiniger Freund mit einer fellartigen Außen-\nhülle, mit dem die Drohne fast wie ein echter Hund aussieht \nund sich auch fast so anfühlt. Es sind noch bessere Außen-\nhüllen erhältlich (500 ¥), mit denen die Drohne tatsächlich \nwie ein richtiger Hund erscheint, aber ihre Bewegungen \nbleiben immer ein bisschen roboterartig. Horizon Fl ying Eye\n(Rotordrohne)\nDiese kugelförmige Flugdrohne ist etwa so groß wie \nein Augapfel und verwendet omnidirektionale Schub-\ndüsen, um sich in der Luft zu halten, kann aber auch \nüber den Boden rollen. Sie wird normalerweise für Über-\nwachungszwecke verwendet, und eine Version mit einem \neingebauten Flash-Pack oder einer Rauchgranate kostet \n500 ¥ zusätzlich. Das Flash-Pack kann wie üblich nach-\ngeladen werden; die Rauchgranate zerstört die Drohne. Die Rauchgranate kann auch gegen eine andere Granate \nausgetauscht werden, was die Drohne (natürlich) eben-\nfalls zerstört.",
+    "topic": "sanity",
+    "keywords": [
+      "drohne",
+      "sich",
+      "rauchgranate",
+      "diese",
+      "etwa",
+      "gross",
+      "immer",
+      "rollen"
+    ]
+  }
+}

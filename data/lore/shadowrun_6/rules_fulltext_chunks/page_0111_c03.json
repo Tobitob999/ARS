@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0111_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 111, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 111,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Falls sie durch be-\nliebige Umstände mehr als diese Zahl an Nebenhandlungen \nerhalten haben, wird diese Zahl auf 5 gesenkt. Die verschiedenen Handlungen werden ab Seite 41 be-\nschrieben. Beispiel: Initia tive\nAn einem anderen schlechten Tag wollen Carson Aims \nund Oda bei einem Drink ihre Differenzen beilegen, \nnachdem sie knapp ihre unglückliche Begegnung mit \nden Eye-Fivers und Trip-J überstanden haben. Weil sie \neine strahlende Zukunft erwarten, werden sie unvor-\nsichtig und ziehen die Aufmerksamkeit einer Gruppe \nOrks der Gang Crimson Crush auf sich. Die Orks sagen \nihnen, dass sie sich verpissen sollen, Oda sagt den \nOrks, dass sie sich verpissen sollen, und schon beginnt \nder Kampf. Zu Beginn würfelt jeder seine Initiative. Dazu werden jeweils die Gesamtergebnisse der Initi-\nativewürfel zu den Initiativewerten addiert. Das sieht \nwie folgt aus:\nOda hat Reaktion 6 und Intuition 3, was ihm einen \nInitiativewert von 9 verschafft. Er hat 1 Initiativewürfel, \nmit dem er eine 1 würfelt. Nach Addition dieser 1 zu \nseinem Initiativewert von 9 hat er ein Initiativeergebnis \nvon 10. Carson Aims hat Reaktion 5 und Intuition 5. Er hat \ndank seines Reﬂ exboosters 2 Initiativewürfel und wür-\nfelt eine 9. Die Addition dieser 9 zu seinem Initiativewert \nvon 10 ergibt für ihn ein Initiativeergebnis von 19. Crimson-Crush-Ganger A hat Reaktion 2 und Intuition \n2, also einen Initiativewert von 4. Er hat 1 Initiativewür-\nfel, mit dem er eine 6 würfelt. Die Addition dieser 6 zu \nseinem Initiativewert von 4 ergibt ein Initiativeergebnis \nvon 10. Crimson-Crush-Ganger B, C und D werden als Scher-\ngen-Gruppe mit Reaktion 2 und Intuition 2 behandelt, \nwas einen Initiativewert von 4 ergibt.",
+    "topic": "general",
+    "keywords": [
+      "initiativewert",
+      "reaktion",
+      "intuition",
+      "orks",
+      "crimson",
+      "crush",
+      "sich",
+      "wuerfelt"
+    ]
+  }
+}

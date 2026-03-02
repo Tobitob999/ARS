@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0278_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 278, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 278,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Die meisten Fahrzeuge und Drohnen sind \nserienmäßig mit einem Sensorarray ausgestattet (dessen \nStufe in ihren Spielwerten angegeben ist). Auch wand-\nmontierte Sensorgehäuse und solche für den Handbetrieb \nsind erhältlich. Nicht jede Art von Sensorpaket ist in der Lage, jeden \nSensor aufzunehmen. Welche Sensorstufe in welcher Art \nvon Gehäuse bzw. Gerät eingebaut werden kann, hängt zum \n(Stufe 1–3)\n Gebäude, Gebäudekomplex\n 8\nAudioverst ärkungen\nAudioverstärkungen sind für alle oben aufgeführten Au-\ndiogeräte als installierbare Upgrades erhältlich. Jede Au-\ndioverstärkung kann Audioinput aus der AR und anderen \nQuellen abspielen. Jede Verstärkung hat entsprechende \nKapazitätskosten. Audioverbesserung\nEine Audioverbesserung erlaubt es dem Anwender, ein brei-\nteres Spektrum an Audiofrequenzen zu hören, einschließ-\nlich Infra- und Ultraschall, die außerhalb des normalen \nmetamenschlichen Hörspektrums liegen. Der Anwender \nerkennt außerdem feinste Nuancen und kann ablenkende \nHintergrundgeräusche ausblenden. Dieses System gewährt \neinen Würfelpoolbonus von +1 für alle Wahrnehmungs-\nproben zum Hören. Richtungsdetektor\nDieses Audiozubehör lokalisiert die Quelle eines Geräu-\nsches. Der Benutzer erhält 1 Edge für seine Wahrneh-\nmungsprobe, um die Quelle eines bestimmten Geräusches \nauszumachen, aber wenn er das Edge nicht sofort ausgibt, \nverfällt es. WiFi-Vorteil:\n Der Charakter erhält einen Würfelpoolbo-\nnus von +1 für seine akustische Wahrnehmungsprobe, um \ndie Quelle eines Geräusches zu lokalisieren. Dieser Bonus \nkann mit anderen Würfelpoolboni kombiniert werden.",
+    "topic": "advancement",
+    "keywords": [
+      "jede",
+      "quelle",
+      "eines",
+      "stufe",
+      "erhaeltlich",
+      "alle",
+      "anderen",
+      "audioverbesserung"
+    ]
+  }
+}

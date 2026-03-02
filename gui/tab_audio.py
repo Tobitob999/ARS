@@ -51,6 +51,9 @@ class AudioTab(ttk.Frame):
         self.gui = gui
         self.configure(style="TFrame")
 
+        self._tts_stop_event = threading.Event()
+        self._tts_playing = False
+
         self._build_ui()
         self._refresh_devices()
 
@@ -148,9 +151,18 @@ class AudioTab(ttk.Frame):
             bg=BG_INPUT, fg=FG_PRIMARY, insertbackground=FG_PRIMARY,
             font=FONT_NORMAL, width=35,
         ).pack(side=tk.LEFT, padx=PAD)
-        ttk.Button(test_row, text="Play", command=self._play_voice_test).pack(
-            side=tk.LEFT, padx=PAD_SMALL,
+        self._btn_play = ttk.Button(test_row, text="Play", command=self._play_voice_test)
+        self._btn_play.pack(side=tk.LEFT, padx=PAD_SMALL)
+        self._btn_stop_tts = ttk.Button(
+            test_row, text="Stop", command=self._stop_voice_test,
         )
+        self._btn_stop_tts.pack(side=tk.LEFT, padx=PAD_SMALL)
+        self._btn_stop_tts.state(["disabled"])
+
+        self._tts_status_label = tk.Label(
+            test_row, text=" Idle ", bg=BG_DARK, fg=FG_MUTED, font=FONT_BOLD,
+        )
+        self._tts_status_label.pack(side=tk.LEFT, padx=PAD)
 
         # ── STT Einstellungen ──
         stt_frame = ttk.LabelFrame(container, text=" STT Einstellungen ", style="TLabelframe")
@@ -308,6 +320,9 @@ class AudioTab(ttk.Frame):
 
     def _play_voice_test(self) -> None:
         """Spielt den Test-Text mit der ausgewaehlten Stimme."""
+        if self._tts_playing:
+            return
+
         selection = self._voice_tree.selection()
         if not selection:
             role = "keeper"
@@ -320,6 +335,9 @@ class AudioTab(ttk.Frame):
             return
         self._save_test_text(text)
 
+        self._tts_stop_event.clear()
+        self._set_tts_status("playing")
+
         def _run():
             try:
                 tts = self._get_or_create_tts()
@@ -328,11 +346,31 @@ class AudioTab(ttk.Frame):
                     text=f"{backend} (geladen)", style="Green.TLabel",
                 ))
                 tts.set_voice(role)
-                tts.speak(text)
+                tts.speak(text, stop_event=self._tts_stop_event)
             except Exception as exc:
                 logger.warning("Voice-Test fehlgeschlagen: %s", exc)
+            finally:
+                self._set_tts_status("idle")
 
         threading.Thread(target=_run, daemon=True).start()
+
+    def _stop_voice_test(self) -> None:
+        """Stoppt die laufende TTS-Wiedergabe."""
+        self._tts_stop_event.set()
+
+    def _set_tts_status(self, status: str) -> None:
+        """Aktualisiert Play/Stop-Buttons und Status-Label."""
+        def _update():
+            self._tts_playing = (status == "playing")
+            if status == "playing":
+                self._btn_play.state(["disabled"])
+                self._btn_stop_tts.state(["!disabled"])
+                self._tts_status_label.configure(text=" Playing... ", fg=GREEN)
+            else:
+                self._btn_play.state(["!disabled"])
+                self._btn_stop_tts.state(["disabled"])
+                self._tts_status_label.configure(text=" Idle ", fg=FG_MUTED)
+        self.after(0, _update)
 
     # ── VAD-Meter Update ──
 

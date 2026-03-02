@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0137_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 137, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 137,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Wenn der Zauber fallen gelassen wird, endet \ndie Wirkung des Schmerzes sofort. Der einfache Zauber wirkt nur gegen ein einzelnes Ziel, \naber die Anpassung Fläche Vergrößern kann verwendet \nwerden, um ihm eine Flächenwirkung zu verleihen (begin-\nnend mit 2 Metern Radius für +1 Entzug). Schweigen\n(Monosensorisch)\nREICHWEITE ART DAUER ENTZUG\nB M A 3\nMagische Stille senkt sich auf das Ziel und macht es ihm \nunmöglich, ein Geräusch zu verursachen, selbst wenn \nes das versucht. Das kann für Leute sehr praktisch sein, \ndie sich an jemandem vorbeischleichen wollen – oder es \nkann eine gute Möglichkeit sein, um die Kommunikation \nvon anderen zu stören, die auf Sprechen angewiesen sind. Schweigen verleiht dem Ziel den Status Geräuschlos (siehe \nS. 54) mit einer Stufe gleich der Anzahl der Erfolge bei der \nHexereiprobe. Diese Zahl dient als Schwellenwert für alle \nVersuche, das Ziel zu hören. Sensort äuschung\n(Vollsensorisch)\nREICHWEITE ART DAUER ENTZUG\nB P A 2\nVerbesserte Unsichtbarkeit, Physische Maske und ähnliche \nZauber sind hervorragend dazu geeignet, sowohl neugierige \nAugen als auch Technologie zu täuschen, aber was ist mit \neiner Situation, in der keine Lebewesen präsent sind, sondern \nSchmerzresistenz\nREICHWEITE\n ART\n DAUER\n ENTZUG\nB\n M\n A\n 3\nDieser Zauber gewährt zwar keine Heilung, erlaubt dem \nZiel aber, die Auswirkungen von Schaden zu ignorieren und \nweiterzumachen, als gäbe es keinen Grund für Schmerzen. Lege eine Probe auf Hexerei + Magie (5 – [Essenz, abge-\nrundet]) ab. Für jeden Nettoerfolg kann das Ziel seinen \nVerletzungsmodifikator um 1 senken.",
+    "topic": "magic.spells",
+    "keywords": [
+      "ziel",
+      "zauber",
+      "entzug",
+      "reichweite",
+      "dauer",
+      "schweigen",
+      "sich",
+      "sein"
+    ]
+  }
+}

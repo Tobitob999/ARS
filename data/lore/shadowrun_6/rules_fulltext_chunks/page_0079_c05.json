@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0079_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 79, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 79,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Leicht:\n Du erhältst einen Würfelpoolmalus von -2 auf alle \nProben, bei denen ein Körperliches Attribut beteiligt ist, \nwenn du unter dem Einfluss des Allergens stehst. Mittel:\n Du erhältst einen Würfelpoolmalus von -4 auf alle \nProben, bei denen ein Körperliches Attribut beteiligt ist, \nwenn du unter dem Einfluss des Allergens stehst. Schwer:\n Du erhältst einen Würfelpoolmalus von -4 auf \nalle Proben, bei denen ein Körperliches Attribut beteiligt \nist, wenn du unter dem Einfluss des Allergens stehst. Außerdem erleidest du jede Minute 1 Kästchen Körper-\nlichen Schaden ohne Widerstandsprobe, solange du dem \nAllergen ausgesetzt bist. Extrem:\n Du erhältst einen Würfelpoolmalus von -6 auf \nalle Proben und erleidest alle 30 Sekunden 1 Kästchen \nKörperlichen Schaden ohne Widerstandsprobe, solange \ndu dem Allergen ausgesetzt bist. Astrales Leuchtfeuer\nWenn die Leute davon reden, dass jemand eine „strahlende \nSeele“ hat, lassen sie das wie etwas Gutes klingen. Du weißt, \ndass es das nicht ist. Deine strahlende Aura lässt dich im \nAstralraum auffallen wie einen bunten Hund. Du hast es \nschwer, deine Aura zu verbergen oder zu maskieren, du \nkannst deine Gefühle überhaupt nicht verstecken, und einen \nVersuch, dich magisch zu orten, kann sogar ein Schulab-\nbrecher nach dem ersten Jahr des Studienprogramms für \nArkanes an der Volkshochschule schaffen. Bonus:\n 10 Karma\nAuswirkung:\n Bei allen Proben mit Heimlichkeit auf der \nAstralebene giltst du als Ungeübt. Du kannst niemals \ndie Metamagie Maskierung erlernen. Askennen-Proben \ngegen dich werden mit 1 Edge zusätzlich durchgeführt, \nund alle Schwellenwerte dabei werden um 1 (bis auf \nein Minimum von 1) reduziert.",
+    "topic": "general",
+    "keywords": [
+      "einen",
+      "alle",
+      "proben",
+      "erhaeltst",
+      "wuerfelpoolmalus",
+      "denen",
+      "koerperliches",
+      "attribut"
+    ]
+  }
+}

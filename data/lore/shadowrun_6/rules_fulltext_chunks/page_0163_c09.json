@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0163_c09",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 163, chunk 9.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 163,
+    "chunk_index": 9,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Astralkampf kann auf drei grundlegende Arten statt-\nfinden: Die erste ist die Spruchzauberei, die genauso wie \nSHADOWRUN: SECHSTE EDITION\n162 // MAGIE // DIE ASTRALEBENE",
+    "topic": "combat",
+    "keywords": [
+      "astralkampf",
+      "drei",
+      "grundlegende",
+      "arten",
+      "statt",
+      "finden",
+      "erste",
+      "spruchzauberei"
+    ]
+  }
+}

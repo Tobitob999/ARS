@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0055_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 55, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 55,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Außerdem erleidet er einen Würfelpoolmalus von -4 \nauf Nahkampfangriffe oder Angriffe mit Bögen. Der \nAngriffswert jeder Feuerwaffe oder Projektilwaffe (außer \nBögen) erhöht sich um 2. Nass\nDurch strömenden Regen, eine plötzliche Welle oder das \nWirken eines tobenden Wassergeistes wirst du bis auf die \nHaut durchnässt. Du erleidest einen Würfelpoolmalus von \n-6 auf Schadenswiderstandsproben gegen Kälte- und Elek-\ntrizitätsschaden. Dieser Status hebt den Status Brennend auf und wird \nseinerseits von diesem aufgehoben, außerdem kann er unter \nUmständen Auswirkungen auf den Status Verätzt haben. Der Status wird immer mit einer Zahl zusammen genannt, \ndie die Höhe des Körperlichen Schadens angibt, dem der \nCharakter in jeder Runde widerstehen muss, solange der \nStatus aktiv ist. Es gibt mehrere Möglichkeiten, diesen Status zu beenden. Der Charakter kann eine Haupthandlung ausführen und \neine Probe auf Geschicklichkeit + Reaktion (2) ablegen; \ngelingt die Probe, wird das Feuer gelöscht und der Status \nbeendet. Es ist aber auch möglich, ins Wasser zu springen, \num den Status ohne eine Probe zu beenden. Erhält der Charakter den Status \n Nass\n und/oder \nUnter-\nkühlt\n, wird der Status \n Brennend\n aufgehoben. Umgekehrt \nBrennend\n aufgehoben. Umgekehrt \nBrennend\nhebt der Status \n Brennend\n aber auch die Status \nBrennend\n aber auch die Status \nBrennend\n Nass\n und \nUnterkühlt\n auf. Unterkühlt\n auf. Unterkühlt\nDeckung I, II, III, IV\nDu nimmst hinter einer Mauer, einem Müllcontainer, einer \nLeiche oder irgendetwas anderem Deckung. Dieser Status \nschützt dich vor feindlichem Feuer.",
+    "topic": "combat.attack",
+    "keywords": [
+      "status",
+      "brennend",
+      "nass",
+      "aufgehoben",
+      "einer",
+      "charakter",
+      "probe",
+      "unterkuehlt"
+    ]
+  }
+}

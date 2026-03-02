@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_01_paranoia_for_players_p0014_c01",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_01_paranoia_for_players",
+    "chapter"
+  ],
+  "summary": "Rule chunk from Paranoia for Players page 14, chunk 1.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_01_paranoia_for_players",
+    "source_title": "Paranoia for Players",
+    "page": 14,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "eee \nSecret Societies Look atthe Secret Society Table on the same Fold-Out. Roll the die yet again, find the roll €n the left ofthe table, and read the entry on the same line — presto! That's your secret society Te’ Important that you know something about your society, You have the same two options as with your mutant power: you can 35k your gamemaster, or you can be 5 traitor fd read pages 42 through 50. See Ra Skills Next step: skills. There are a whole bunch of diferent skills: they're listed on your ‘character sheet, Each character has a ski ‘number between 1 and 20 in each skill. The higher your skill number, the beter the chance you can use a skill successfully \nWH Skill Bases ‘On your sheet, the skills ae listed beneath attribute names. For instance, “Force Sword” is listed under “Agility” That's because each skill is “controlled” by one of your five skill bases, A skill base is the starting skill number for all of the skills it controls, Examples If your agility is 15, your agility skill, base is 4, That means your skill number is 4 In all agility skills, including force sword \nWi skill Points \nYou also begin with 30 skill points, which you can use to increase your skill numbers Basically, you divvy up your skill points any ‘way you like; each point you spend ona skill increases that skill number by one. You may ‘not increase any skill number above 12, unless you receive special training (see below) Example: If your agility skill base is 4, your starting force sword skill number is also 4.",
+    "topic": "skills",
+    "keywords": [
+      "skill",
+      "number",
+      "agility",
+      "secret",
+      "society",
+      "same",
+      "listed",
+      "force"
+    ]
+  }
+}

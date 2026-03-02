@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0194_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 194, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 194,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Arten von Sprites\nTechnomancer können die folgenden Arten von Sprites \nkompilieren. Die Abkürzung S in den Tabellen steht für \ndie Spritestufe. Da ten-Sprite\nDatensprites sind Meister des Findens und Manipulierens \nvon Daten. Sie sind großartige Bibliothekare, Suchbots \nund Quizchampions. ANGRIFF SCHLEICHER DATENVER-\nARBEITUNG FIREWALL INI RES\nS – 1 S S + 4 S + 1 (S × 2) + 4 \n+ 4W6 S\nFertigkeiten: Cracken, Elektronik\nKräfte: Tarnung, Wasserzeichen\nInfil tra tor-Sprite\nWenn du ein leises Sprite suchst, das sich unauffällig bewe-\ngen kann, ist dieses hier genau das Richtige. ANGRIFF SCHLEICHER DATENVER-\nARBEITUNG FIREWALL INI RES\nS S + 3 S + 2 S + 1 (S × 2) + 2 \n+ 4W6 S\nFertigkeiten: Cracken, Elektronik\nKräfte: Spuk, Unterdrücken\nKurier-Sprite\nKurier-Sprites sind großartig für das sichere Übermitteln \nvon Nachrichten und für Überwachungsaufgaben geeignet. ANGRIFF SCHLEICHER DATENVER-\nARBEITUNG FIREWALL INI RES\nS S + 3 S + 1 S + 2 (S × 2) + 1 \n+ 4W6 S\nFertigkeiten: Cracken, Elektronik\nKräfte: Cookie, Hash\nMaschinen-Sprite\nDas Maschinen-Sprite interagiert von allen Sprites am \nwahrscheinlichsten mit der physischen Welt, wenn auch \nnur durch Geräte. Maschinen-Sprites sind Experten aller \nArt von Elektronik. ANGRIFF SCHLEICHER DATENVER-\nARBEITUNG FIREWALL INI RES\nS + 1 S S + 3 S + 2 (S × 2) + 3 \n+ 4W6 S\nFertigkeiten: Elektronik, Mechanik\nKräfte: Diagnose, Stabilität, Übernehmen\nStör-Sprite\nDas Stör-Sprite hat man gern im Kampf an der Seite. Es ist \nkalt wie IC, doppelt so stur und zerfetzt deine Feinde im \nAufblitzen eines Icons.",
+    "topic": "combat.attack",
+    "keywords": [
+      "sprite",
+      "elektronik",
+      "angriff",
+      "schleicher",
+      "datenver",
+      "arbeitung",
+      "firewall",
+      "fertigkeiten"
+    ]
+  }
+}

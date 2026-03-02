@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "id": "paranoia_template_05",
+  "name": "Template-R-05",
+  "compatible_rulesets": [
+    "paranoia_2e"
+  ],
+  "archetype": "Transit Interceptor",
+  "background": "Service Group: CPU | Secret Society: Purge | Mutation: Energy Field",
+  "characteristics": {
+    "STR": 12,
+    "AGI": 13,
+    "DEX": 8,
+    "END": 11,
+    "MOX": 16,
+    "CHU": 14,
+    "MEC": 15,
+    "POW": 11
+  },
+  "derived_stats": {
+    "HP": "state_track",
+    "Clone Number": 1,
+    "Treason Points": 0
+  },
+  "skills": {
+    "Laser Weapons": 4,
+    "Bootlicking": 5,
+    "Mechanical Engineering": 9,
+    "Data Analysis": 3,
+    "Unarmed": 3
+  },
+  "equipment": [
+    "com_unit_i",
+    "com_unit_ii",
+    "stun_gun",
+    "red_reflec_armor"
+  ],
+  "notes": "Batch-generated playable template."
+}

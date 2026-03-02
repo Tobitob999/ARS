@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0164_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 164, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 164,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Erwachte Wesen, die \ndie astrale Signatur eines solchen Ziels askennen, können \ndiese Verbindungen durch die Astralebene zu ihrem Ur-\nsprung verfolgen. Das Verfolgen einer astralen Verbindung \nerfordert eine Ausgedehnte Probe auf Astral + Intuition (5, \n1 Stunde). Modifikatoren dazu findest du in der Tabelle \nAstrales Spurenlesen. Manabarrieren\nManabarrieren sind magische Wände, die Magie und as-\ntrale Gestalten bremsen oder aufhalten. Manabarrieren \nkönnen entweder auf der physischen oder der Astralebene \nerschaffen werden; manche sind auch dual und existieren \nauf beiden Ebenen. Die Tabelle Manabarrieren gibt an, \nauf welche Arten man nach den Regeln in diesem Buch \nManabarrieren erschaffen kann. Manabarrieren auf der physischen Ebene sind (außer \ndurch astrale Wahrnehmung) unsichtbar. Sie bilden aber \nfür Zauber, manifestierte Wesen, Geister, Dualwesen und \naktivierte Foki feste Barrieren. Wer versucht, einen Zauber \ndurch die Barriere hindurch zu wirken, muss mit der Kraft-\nstufe der Barriere fertigwerden, die als Würfelpoolbonus \nzu Verteidigungsproben addiert wird. Wenn der Zauber \nnormalerweise nicht mit einer Vergleichenden Probe ab-\ngewickelt wird, wird die Zauberprobe zur Vergleichenden \nProbe gegen die Kraftstufe der Barriere × 2. Manabarrieren im Astralraum sehen aus wie feste, ver-\nschwommen undurchsichtige Wände. Solche Barrieren \nhalten astrale Bewegung auf und erzeugen einen Würfel-\npoolmalus auf Sicht gleich ihrer Kraftstufe. Astrale Mana-\nbarrieren widerstehen Zaubern, Dualwesen und astralen \nGestalten genauso, wie es Manabarrieren auf der physi-\nschen Ebene tun.",
+    "topic": "magic",
+    "keywords": [
+      "manabarrieren",
+      "astrale",
+      "durch",
+      "probe",
+      "zauber",
+      "barrieren",
+      "wesen",
+      "verfolgen"
+    ]
+  }
+}

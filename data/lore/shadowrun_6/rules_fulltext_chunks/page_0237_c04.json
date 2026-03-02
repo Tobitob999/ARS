@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0237_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 237, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 237,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Das mag \nnicht fair oder gerecht erscheinen, aber so funktioniert nun \neinmal die Wahrnehmung der Leute. Anwendungen \nder F ahndungsstufe\nDie Auswirkungen der Fahndungsstufe werden in der \nfolgenden Tabelle beschrieben. Wenn die Runner eines \nTeams unterschiedliche Fahndungsstufen haben, gilt die \nhöchste. Die F ahndungsstufe senken\nWenn man zunehmend dem Interesse der Gesetzeshüter \nausgesetzt ist, ist es nur natürlich, dass man nach Mög-\nlichkeiten sucht, aus dem Fadenkreuz der Ermittlungen zu \nentkommen. Zum Glück gibt es ein paar Möglichkeiten, \ndie Fahndungsstufe zu senken. SHADOWRUN: SECHSTE EDITION\n236 // Spielleiterhinweise // REPUT A TION UND F AHNDUNGSSTUFE",
+    "topic": "advancement",
+    "keywords": [
+      "ahndungsstufe",
+      "fahndungsstufe",
+      "senken",
+      "fair",
+      "gerecht",
+      "erscheinen",
+      "funktioniert",
+      "einmal"
+    ]
+  }
+}

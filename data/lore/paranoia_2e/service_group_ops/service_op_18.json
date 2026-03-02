@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "category": "operation_profile",
+  "id": "service_op_18",
+  "name": "Technical Services Operation Profile 18",
+  "tags": [
+    "paranoia_2e",
+    "service_group",
+    "operation"
+  ],
+  "summary": "Operational doctrine for Technical Services under stress.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "service_group": "Technical Services",
+    "mission_bias": "enforcement",
+    "standard_assets": [
+      "multicorder",
+      "red_reflec_armor",
+      "com_unit_i"
+    ],
+    "political_risk": "low"
+  }
+}

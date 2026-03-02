@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_04_the_rules_p0057_c01",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_04_the_rules",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The Rules page 57, chunk 1.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_04_the_rules",
+    "source_title": "The Rules",
+    "page": 57,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "raw_text": "PARANOIA \nAll characters can use all the skills in the game (see page 14), A character has a skill ‘number with each skill between O,and 20, When a character uses a skill, his player (or the gamemasten rolls the die;’if the number rolled is less than or equal to his skill number, he succeeds. However, a roll of 1 is an, automatic success and a roll of 20 is an Automatic failure, \nDifficulty AAs with attributes, a characters skill number may be modified if the task he’s performing, {is especially easy or tough — or if the player is being especially amusing or a pain in the ‘neck, The modifications suggested on page 55 apply to skill as well as attribute rolls, In some skill descriptions (see below), we suggest circumstances which would make us- ing a skill easier or more difficult the situas tion makes using a skill easy, increase the user's skill number appropriately — doubling, is. common, but increase the skill number by more o less, as you feel appropriate. Again, when the situation makes using a skill tough, it is common to halve the skill number, but modify as you wish, ‘As always, don't hesitate to modify skill numbers in’ accordance with the player's charm. Roleplay It Out In many cases, a skill can be used to resolve a situation which really Ought tobe rleplyed for example, ia character is ying to wet the Intec sector supervisor to authorize Rim to cary a tactical nuclear device, you may want fo take the ole ofthe supervisor and hagale vith the player Dont et he payer got away With saying. “Well, ub, use my bootlicking Sil\" Tel him he's got to whine and eajle Make the skill yourself, surreptitiously, and let the numbers you rol affect the out ome ofthe contest.",
+    "topic": "skills",
+    "keywords": [
+      "skill",
+      "number",
+      "player",
+      "character",
+      "when",
+      "rolls",
+      "less",
+      "automatic"
+    ]
+  }
+}

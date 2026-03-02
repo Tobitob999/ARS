@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_04_the_rules_p0076_c02",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_04_the_rules",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The Rules page 76, chunk 2.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_04_the_rules",
+    "source_title": "The Rules",
+    "page": 76,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "raw_text": "Skill levels can be Increased above 12 or 14 (or indeed above 20); the limits on skill levels apply only to design: ing characters \nSea Credits You might also consider credit bonuses or fines at the end of an adventure. Generally bonuses should be provided at the end of suc- ‘cessful missions, although they might also be ‘warded to individuals forthe apprehension ‘or execution of traitors oF other mertorious services. Fines should generally be imposed for the loss or destruction of equipment or Computer property, We consider any award or fine of 1000 credits or less r@asonable, but if you really want to put someone in debt to the tne of 1000000 credits, fine by us. Also, dont be shy about awarding huge amounts of ‘money, as you can't buy much in Alpha Come plex anyway. 76",
+    "topic": "skills",
+    "keywords": [
+      "credits",
+      "also",
+      "skill",
+      "levels",
+      "above",
+      "might",
+      "consider",
+      "bonuses"
+    ]
+  }
+}

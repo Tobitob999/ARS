@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_03_world_of_paranoia_p0047_c05",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_03_world_of_paranoia",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The World of Paranoia page 47, chunk 5.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_03_world_of_paranoia",
+    "source_title": "The World of Paranoia",
+    "page": 47,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "Conse- quently members at higher degrees have ac- cess to information not normally accessible to characters, and members’ requests for infor- ‘mation are often productive, However, because communication between the numerous degrees of the society is notoriously slow, response to a character’s question may take ‘a week or more. ‘The society maintains a stockpile of illicit weapons and equipment which may be available to a member if he can show good Cause (ie, explain how it will further the ob- jectives of the society). Response to these re- {quests is also notoriously slow. A Typical Humanist Conversation: ‘Ist Degree Humanist: Master, The Computer, ‘oppresses Infrareds, forcing them to labor for the benefit of others. How shall it be when we gain power? 6th Degree Humanist: Everything will be dif: ferent! Society will be organized with the best at the top and those fitted only for ‘work atthe bottom. Each will gladly serve for the benefit of all ‘Ist Degree: And we will direct others, for the benefit of all? 6th Degree: It shall be so. ‘st Degree: Truly, the people shal rejoice at their liberation when we gain power. 47",
+    "topic": "combat",
+    "keywords": [
+      "degree",
+      "society",
+      "humanist",
+      "benefit",
+      "members",
+      "notoriously",
+      "slow",
+      "response"
+    ]
+  }
+}

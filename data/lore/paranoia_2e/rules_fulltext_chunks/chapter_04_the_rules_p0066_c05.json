@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_04_the_rules_p0066_c05",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_04_the_rules",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The Rules page 66, chunk 5.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_04_the_rules",
+    "source_title": "The Rules",
+    "page": 66,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "raw_text": "Medium range is be- tween one-third and two-thirds of the max- imum range, Long range is anything greater than medium range, up to the maximum range, Example: When a laser pistol is fired at a target 0 to 5 meters away, itis firing at point-blank range. Targets 5 to 16% meters away are at short range. Targets at 16% to 33% meters are ‘at medium range. Targets between 33% and 50 meters are at long range. When a character fires at medium range, reduce his skill number by 2. At long range, reduce it by 4. Cover Ifa target is protected by cover — a stone wall, a tre trunk, heavy Vegetation, whatever the fre’ skill number is reduced. Deter Tine approximately what proportion of the \n66",
+    "topic": "skills",
+    "keywords": [
+      "range",
+      "medium",
+      "meters",
+      "long",
+      "targets",
+      "when",
+      "away",
+      "reduce"
+    ]
+  }
+}

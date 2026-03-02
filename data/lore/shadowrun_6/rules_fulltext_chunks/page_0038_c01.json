@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0038_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 38, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 38,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "gar nicht möglich ist). Der Spieler kann seinen Würfelpool \nmehrfach werfen, wobei mit jedem Mal der Pool um 1 \nWürfel kleiner wird, bis er genügend Erfolge erzielt hat \n(die Summe der Erfolge aus den einzelnen Würfen), um \nden Schwellenwert zu erreichen oder zu übertreffen – oder \nbis ihm die Würfel ausgehen. Bei jedem Wurf vergeht eine \nbestimmte Zeitspanne, das Intervall, das bei der Notation \nder Ausgedehnten Probe mit angegeben wird. Als Orien-\ntierung kann dabei die Tabelle Intervalle für Ausgedehnte \nProben dienen. Eine Ausgedehnte Probe wird folgendermaßen notiert:\n Fertigkeit Schwellenwert\nMechanik + Logik (9, 1 Stunde)\n Verknüpftes A ttribut Interv all\nProben mit A ttributen\nDie meisten Proben bei Shadowrun werden mit einem \nWürfelpool aus Fertigkeit + Attribut abgelegt, aber es gibt \nein paar fixe Proben, die nur mit Attributen durchgeführt \nwerden und oft genug vorkommen, dass du dir sie auf-\nschreiben solltest, um die Würfelpools schneller vorbereiten \nzu können. Erinnerungsvermögen \n(Logik + Intuition)\nDie meisten von uns erinnern sich nicht mit hundertprozen-\ntiger Klarheit an ihr Leben. Wir werden von der Stimmung \nzum Zeitpunkt des Bildens einer Erinnerung beeinflusst, \nvon der gegenwärtigen Stimmung, der Anwesenheit oder \nAbwesenheit von erinnerungswürdigen Reizen oder sogar \nvon leichten Merkwürdigkeiten im Detail. Dann gibt es noch \ndie Streiche, die unser Geist uns spielt, indem er Erinnerun-\ngen verändert, sodass wir zu Helden unserer eigenen Storys \nwerden – und dann wird alles wirklich seltsam.",
+    "topic": "general",
+    "keywords": [
+      "proben",
+      "wuerfelpool",
+      "jedem",
+      "erfolge",
+      "schwellenwert",
+      "ausgedehnte",
+      "fertigkeit",
+      "logik"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0264_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 264, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 264,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Die Regeln für das Abfeuern von Raketen und Lenk-\nraketen befinden sich auf Seite 118. Raketen und Lenk-\nGrana ten\nGRANATE\n SCHADEN DP\n SCHADEN \nSEHR NAH\n SCHADEN NAH\n SPRENG-\nWIRKUNG\n VERFÜGBARKEIT\n PREIS\nBetäubungsgranate\n 10B\n 8B\n 6B\n 15 m\n 4L\n 100 ¥\nFlash-Pack*\n Geblendet III\n Geblendet II\n Geblendet I\n 10 m\n 4L\n 125 ¥\nGasgranate\n –\n –\n –\n –\n 4I\n 50 ¥ + 20 Dosen \nder Chemikalie\nIR-Rauchgranate\n –\n –\n –\n –\n 4I\n 50 ¥\nRauchgranate\n –\n –\n –\n –\n 4I\n 50 ¥\nSplittergranate\n 16K\n 12K\n 8K\n 20 m\n 4I\n 150 ¥\nSprenggranate\n 16K\n 10K\n 4K\n 15 m\n 4I\n 150 ¥\n* Der Status \nGeblendet\n basiert auf Normalsicht. Bei Restlichtverstärkung gilt die nächsthöhere Stufe, bei Blitzkompensation die nächst-\nGeblendet\n basiert auf Normalsicht. Bei Restlichtverstärkung gilt die nächsthöhere Stufe, bei Blitzkompensation die nächst-\nGeblendet\nniedrigere, bei Infrarotsicht oder Ultraschall tritt keine Wirkung ein. SHADOWRUN: SECHSTE EDITION\nALLES, W AS BUMM MACHT // Ausrüstung // 263",
+    "topic": "combat.damage",
+    "keywords": [
+      "geblendet",
+      "raketen",
+      "schaden",
+      "lenk",
+      "wirkung",
+      "rauchgranate",
+      "basiert",
+      "normalsicht"
+    ]
+  }
+}

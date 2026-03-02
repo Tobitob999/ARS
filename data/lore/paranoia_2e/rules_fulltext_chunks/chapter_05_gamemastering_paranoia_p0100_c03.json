@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_05_gamemastering_paranoia_p0100_c03",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_05_gamemastering_paranoia",
+    "chapter"
+  ],
+  "summary": "Rule chunk from Gamemastering Paranoia page 100, chunk 3.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_05_gamemastering_paranoia",
+    "source_title": "Gamemastering Paranoia",
+    "page": 100,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "Let’s suppose the Troubleshooters ‘manage to request some equipment that is ac- tually available and offered to them. They have to sign for the equipment, making them ever-so-incredibly responsible for its safety. Equipment lost or darmaged may result in fines, and reprimands, Shrewd Troubleshooters always test the equipment before they sign for it, Testing automatic weapons and grenades in the PLC distribution centers is always ex \nCiting for the busy shoppers standing about, \nA visit to R&D is always an exciting experience. R&D \nIn PLC Outfitting the characters are routinely assigned inoperative, inappropriate, oF per= \nversely intelligent equipment by surly, un- cooperative clerks. In R&D they are routinely assigned excep- tionally dangerous inoperative, inappropriate, ‘or perversely intelligent equipment by inspired psychotics. \"Better Living through Science\" is the motto ‘of Research and Design. The cheerful, over- \nstimulated, and under-supervised technicians and geniuses of R&D labor long hours to pro- ‘duce the scientific and technological innova: \ntions that will catapult Alpha Complex into \nfuture of unimagined luxury, productivity, and \nfreedom from care (or, more likely, into a \nshowy display of fireworks in the lower atmosphere). These boys are playing with all the potent \nresources of superscience — that amalgam of \nsemi-plausible, semi-stupid, semi-scientific ideas that are the heritage of pulp sf novels, \nsuperhero mutant-power comic books, and \ntrashy sf films. In such literary traditions, everything — personal shields, glove warmers, toothbrushes — is powered by miniature \nnuclear reactors.",
+    "topic": "combat",
+    "keywords": [
+      "equipment",
+      "they",
+      "always",
+      "semi",
+      "troubleshooters",
+      "them",
+      "sign",
+      "routinely"
+    ]
+  }
+}

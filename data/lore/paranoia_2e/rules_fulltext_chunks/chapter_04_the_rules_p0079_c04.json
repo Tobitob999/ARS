@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_04_the_rules_p0079_c04",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_04_the_rules",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The Rules page 79, chunk 4.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_04_the_rules",
+    "source_title": "The Rules",
+    "page": 79,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "raw_text": "‘= Dum-dums are solid slugs designed to fly apart upon impact, Dum-dum shells have lower range than solid slugs, but do more damage. * HE or high explosive shells explode on con: tact. For slugthrowers, these are explosive bullets, which do more damage than solid shells or dum-dlums; for cone rifles, these are explosive shells which can affect a 5 meter radius. AP or armor piercing shells are designed to penetrate armor. For slugthrowers, these are “greased” bullets designed to penetrate kevlar ‘or other body armor, For cone rifles, these are ‘explosive shells designed to penetrate tank or flybot armor ‘HEAT or high explosive antitank shells are similar to AP shells, but are somewhat more effective (and costly * Napalm shells are designed to explode on contact, spreading jellied petroleum or white phosphorus over the skin of the target (or, in the case of cone rifle shells, over the surround= ing area), Napalm continues to bur for some rounds after contact (rol the die to determine how many), doing damage tothe target each round. Since both jellied petroleum and white phosphorus contain their own supply of oxy en, napalm cannot be extinguished with water or by suffocation, but can only be remoy ed by scraping the stuff off the skin. * Flare shells are designed to illuminate rather than cause injury. Flare shells fired. by slugthrowers are tracer bullets — they produce streaks of light which light up the area within the radius listed on the Weapon Ch Fold-Out 8).",
+    "topic": "combat.defense",
+    "keywords": [
+      "shells",
+      "designed",
+      "explosive",
+      "these",
+      "armor",
+      "solid",
+      "more",
+      "damage"
+    ]
+  }
+}

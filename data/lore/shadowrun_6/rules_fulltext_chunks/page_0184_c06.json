@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0184_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 184, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 184,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Du \nkannst mit Matrixwahrnehmung herausfinden, welche Pro-\ngramme das Ziel laufen hat – oder indem du das Programm \nin Aktion siehst. Gelingt die Probe, stürzt das Programm ab: \nEs wird beendet und kann erst wieder gestartet werden, wenn \ndas zugehörige Gerät neu gestartet wird. Prüfsummensuche\n(illegal) Cracken + Logik (1 oder 4; s. Text) \n(Haupthandlung)\nUser/Admin\nDiese Handlung ist eine spezialisierte Matrixsuche, die da-\ndurch illegal wird, dass sie nach einer verschlüsselten Datei \nsucht, indem sie diese mit einer Prüfsumme vergleicht (und \nGOD mag es nicht, wenn sich jemand an einer Verschlüsselung \nvorbeischmuggeln will). Du kannst durch die Suche nach \neiner bestimmten Prüfsumme ein verschlüsseltes Dokument \nin einem Host oder Gerät finden, ohne zuvor alle Dokumente \nentschlüsseln zu müssen, um das Richtige zu finden. Das \nfunktioniert am besten, wenn Mr Johnson die Prüfsumme \nzur Verfügung stellt, aber wenn es nicht anders geht, kannst \ndu auch versuchen, diese zu schätzen. Der Schwellenwert \nbeträgt 1, wenn du eine Prüfsumme von Mr Johnson oder \naus einer anderen Quelle hast, und 4, wenn du es alleine \nversuchen musst. Das Erreichen des Schwellenwerts bedeutet, \ndass du die Zahl potenziell übereinstimmender Dateien auf \n32 begrenzen kannst. Jeder Nettoerfolg halbiert diese Anzahl \n(auf 16 Dateien mit 1 Nettoerfolg, auf 8 mit 2 Nettoerfolgen \nusw.). Wenn die Anzahl an potenziellen Treffern nach der \nersten Probe noch zu groß erscheint, kann die Probe mit einem \nWürfelpoolmalus von -2 für einen neuen Versuch (siehe S. 38) \nwiederholt werden.",
+    "topic": "matrix",
+    "keywords": [
+      "einer",
+      "kannst",
+      "diese",
+      "pruefsumme",
+      "probe",
+      "indem",
+      "programm",
+      "gestartet"
+    ]
+  }
+}

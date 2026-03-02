@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_04_the_rules_p0057_c03",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_04_the_rules",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The Rules page 57, chunk 3.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_04_the_rules",
+    "source_title": "The Rules",
+    "page": 57,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "raw_text": "Note that the only chutepah skill that is effective against robots and computers is spurious logic, \nBootlicking: This skill is used to influence superiors by fawning and grovelling. Overt displays of eagerness to please and acceptance ‘of authority may be insincere, but must be convincing, ‘Make a skill roll when a citizen tres to solicit a favor from or avoid the wrath of a citizen of higher clearance. Success indicates that the fgroveller has_made a good impression; whether the favor is granted or the wrath voided depends on the circumstances, but the groveller at least gets the benefit of the doubt. Failure means the greveller has made a poor impression, that no favor is forthcoming, that ‘wrath will fall unabated or even intensified on the groveller, and that the superior has con tempt and distaste for the grovellet \nBribery: Warning! Warning! This is a pro- hibited activity! Offenders may face summary execution! Bootlicking only works with superiors and intimidation (see below) with in- feriors, but bribery works with everyone. Well, \neveryone except fanatics, or when The Com- puters monitors are looking. Of course, i's Also treason. also has the major drawback that you need something to bribe with, you ask The Com puter to tansfer 10,000 credits from your ac- Count to another citizen's, The Computer may want to know why. Sure, you could go to a money machine and take away 10,000 credits in little plastic tokens; but i's hard to slip someone 20 kilograms of plastic surreptitious ly. Weapons, drugs or other items of value may prove more useful When a character tres to bribe someone, make a skill roll.",
+    "topic": "skills",
+    "keywords": [
+      "skill",
+      "when",
+      "citizen",
+      "favor",
+      "wrath",
+      "only",
+      "bootlicking",
+      "superiors"
+    ]
+  }
+}

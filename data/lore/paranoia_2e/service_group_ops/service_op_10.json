@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "category": "operation_profile",
+  "id": "service_op_10",
+  "name": "Technical Services Operation Profile 10",
+  "tags": [
+    "paranoia_2e",
+    "service_group",
+    "operation"
+  ],
+  "summary": "Operational doctrine for Technical Services under stress.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "service_group": "Technical Services",
+    "mission_bias": "security",
+    "standard_assets": [
+      "com_unit_i",
+      "laser_pistol",
+      "red_reflec_armor"
+    ],
+    "political_risk": "low"
+  }
+}

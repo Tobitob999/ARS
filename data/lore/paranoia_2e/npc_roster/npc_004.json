@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npc",
+  "id": "npc_004",
+  "name": "Mirth-E-R-04",
+  "tags": [
+    "paranoia_2e",
+    "npc",
+    "roster"
+  ],
+  "summary": "Armed Forces operative with layered loyalties.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "service_group": "Armed Forces",
+    "secret_society": "Frankenstein Destroyers",
+    "mutation": "Cryokinesis",
+    "trait": "smug",
+    "clearance": "Red",
+    "use_in_play": "briefing_authority"
+  }
+}

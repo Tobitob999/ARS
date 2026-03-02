@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0057_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 57, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 57,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Diese Menschen wissen, dass \nihnen die körperliche Kraft und der soziale Zusammenhalt \neiniger der anderen Metatypen fehlt, deshalb formen sie sich \ndie Welt auf eine Weise, die jene Individuen, die sie nicht \nmögen, davon abhält zu erkennen, wozu sie in der Lage \nsind und was sie aus sich machen könnten. Der Nebeneffekt dessen ist natürlich, dass sich viele \nMenschen in der demoralisierenden Maschinerie, die die \nherrschende Konzernklasse aufgebaut hat, verfangen, weil \nsie nicht in dieses künstliche Mittelmaß passen. Sie sind \ndas Korn, das in dieser Mühle gemahlen wird, sie sind \ndiejenigen, die durchgekaut und ausgespuckt werden, damit \ndie Leute an der Spitze noch mehr Reichtum und Macht \nSHADOWRUN: SECHSTE EDITION",
+    "topic": "skills.social",
+    "keywords": [
+      "sich",
+      "menschen",
+      "diese",
+      "wissen",
+      "ihnen",
+      "koerperliche",
+      "kraft",
+      "soziale"
+    ]
+  }
+}

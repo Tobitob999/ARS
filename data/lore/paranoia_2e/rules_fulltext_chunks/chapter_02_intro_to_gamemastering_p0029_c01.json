@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_02_intro_to_gamemastering_p0029_c01",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_02_intro_to_gamemastering",
+    "chapter"
+  ],
+  "summary": "Rule chunk from An Introduction to Gamemastering page 29, chunk 1.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_02_intro_to_gamemastering",
+    "source_title": "An Introduction to Gamemastering",
+    "page": 29,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "BANsia GAMEMASTER SECTION \nSecurity Clearance ULTRAVIOLET. Cleared for all Gamemasters. \nObey the \nGamemaster, The \nGamemaster is your Friend. \nAn Introduction \nto Gamemastering",
+    "topic": "clearance",
+    "keywords": [
+      "gamemaster",
+      "bansia",
+      "security",
+      "clearance",
+      "ultraviolet",
+      "cleared",
+      "obey",
+      "friend"
+    ]
+  }
+}

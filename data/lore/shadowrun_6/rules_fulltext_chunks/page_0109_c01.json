@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0109_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 109, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 109,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Der Verteidiger bildet den Würfelpool für seine Vertei-\ndigungsprobe aus Reaktion + Intuition. Beide Würfelpools \nwerden durch Verletzungsmodifikatoren, Vor- und Nachteile \nusw. modifiziert. Wenn das alles berücksichtigt wurde, haben beide Seiten \nihre Würfelpools. Schritt 2: Verteil t Edge\nDieser Schritt ist ein bisschen komplexer. Ihr müsst ein paar \nWerte vergleichen und einen Blick auf Situation, Vor- und \nNachteile sowie Ausrüstung werfen, um zu bestimmen, wer \nwie viel Edge erhält. Zuerst vergleicht ihr den Angriffswert des Angreifers mit \ndem Verteidigungswert des Verteidigers. Zur Erinnerung: \nBei Angriffen mit einer Waffe ist dies der Angriffswert \nder Waffe, bei waffenlosen Angriffen ist der Angriffswert \ngleich der Summe aus Reaktion + Stärke des Angreifers. Wenn einer der Werte um mindestens 4 höher ist als der \nandere, erhält die Seite mit dem höheren Wert 1 Edge. Bei Angriffswert 8 gegen Verteidigungswert 4 würde der \nAngreifer also beispielsweise 1 Edge erhalten. Danach schaut ihr euch die Situation an. Regnet es, ist es \nwindig, dunkel, neblig, extrem hell, voller Leute usw.? Hat \neine der beiden Seiten Sichtverbesserungen oder Ausrüstung, \num diese Umstände zu kompensieren? Wenn nur eine Seite \ndiese Kompensation hat, erhält sie 1 Edge. Wenn beide oder \nkeine der Seiten die Situation kompensieren können, erhält \nniemand Edge. Siehe dazu auch den Kasten Umgebung und \nSichtverhältnisse. Danach solltet ihr überprüfen, ob Ausrüstung oder Vor- \nund Nachteile die Verteilung von Edge beeinflussen können. Meistens kennen die Spieler ihre Charaktere gut genug, um \nzu wissen, wann sie potenziell Edge erhalten können.",
+    "topic": "edge",
+    "keywords": [
+      "edge",
+      "erhaelt",
+      "angriffswert",
+      "beide",
+      "nachteile",
+      "seiten",
+      "situation",
+      "ausruestung"
+    ]
+  }
+}

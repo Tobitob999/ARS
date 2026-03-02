@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0201_c07",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 201, chunk 7.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 201,
+    "chunk_index": 7,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Würfelpools und Werte für Rigger und ihre F ahrzeuge\nWÜRFELPOOL/WERT\n MANUELLE/AR-STEUERUNG\n HINEINGESPRUNGEN (VR)\nHINEINGESPRUNGEN (VR)\n†\nInitiative\n Reaktion + Intuition + 1W6*\n Intuition + Intuition + 2W6/3W6 (kaltes/heißes Sim)\n††\nAngriffswert\n Steuern + Sensor\n Steuern + Sensor\nVerteidigungswert\n Steuern + Panzerung\n Steuern + Panzerung\nHandlingprobe\n Steuern + Reaktion*\n Steuern** + Intuition\nAngriffsprobe (Fahrzeug als Waffe)\n Steuern + Reaktion*\n Steuern** + Intuition\nAngriffsprobe (Fahrzeugwaffe)\n Mechanik + Logik\n Mechanik** + Logik\nVerteidigungsprobe\n Steuern + Reaktion*\n Steuern** + Intuition\nHeimlichkeit\n Heimlichkeit + Geschicklichkeit\n Heimlichkeit** + Logik\nWahrnehmung\n Wahrnehmung + Intuition\n Wahrnehmung** + Sensor\nSchadenswiderstandsprobe\n Rumpf\n Rumpf\nZustandsmonitor\n [Rumpf ÷ 2, aufgerundet] + 8 Kästchen\n [Rumpf ÷ 2, aufgerundet] + 8 Kästchen\n* Bei manueller Steuerung gelten eventuelle Boni auf Reaktion und Initiative durch Bodytech. ** +/uni00A0Stufe der Riggerkontrolle\n† \nNicht separat aufgeführt: Steuern in VR ohne Riggerkontrolle; hier gelten die gleichen Würfelpools wie bei Hineingesprungen (VR), \nallerdings ohne Boni durch eine Riggerkontrolle\n†† \nNimmt an, dass der Rigger per Kabel mit dem Fahrzeug verbunden ist. Wenn er per WiFi hineingesprungen ist, beträgt die Initiative \nSHADOWRUN: SECHSTE EDITION\n200 // Riggen // RIGGEN VON F AHRZEUGEN",
+    "topic": "combat.initiative",
+    "keywords": [
+      "steuern",
+      "intuition",
+      "reaktion",
+      "hineingesprungen",
+      "rumpf",
+      "initiative",
+      "sensor",
+      "logik"
+    ]
+  }
+}

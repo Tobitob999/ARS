@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0237_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 237, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 237,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Zum Glück gibt es ein paar Möglichkeiten, \ndie Fahndungsstufe zu senken.\n\nF ahndungsstufen-Modifika toren\nSTEIGERNDE UMSTÄNDE\n MODIFIKATOR FÜR \nFAHNDUNGSSTUFENPROBE\nSpielsitzung beinhaltete exzessive Gewalt\n +1\nSpielsitzung beinhaltete Mord\n +1\nSpielsitzung beinhaltete feindseligen Kontakt mit reichen und/oder prominenten Individuen\n +1\nSpielsitzung beinhaltete direkten Kontakt mit einem erwachsenen Drachen\n +1\nSpielsitzung beinhaltete direkten Kontakt mit einem Großen Drachen\n +2\nSpielsitzung beinhaltete Medienberichte (inklusive Matrixstream) über die Runneraktivitäten\n +1\nTeam hat einen oder mehrere Runner mit einer Reputation größer als +10 oder kleiner als -10\n +1\nSENKENDE UMSTÄNDE\n MODIFIKATOR FÜR \nFAHNDUNGSSTUFENPROBE\nDie Runner sind illegalen Aktivitäten nachgegangen, ohne Aufmerksamkeit zu erregen\n -1\nMr Johnson hat seine Beziehungen spielen lassen, \num einige Aspekte des Runs zu vertuschen\n -1\nDie Runner haben ausreichend Bestechungsgelder gezahlt, um die Sache zu vertuschen\n -1\nDie Runner haben eine Connection bei der Polizei gewonnen \noder genutzt, um ihre Spuren zu verwischen\n -1\nDen Runnern wird genug Wohlwollen entgegengebracht, \num ihre Beteiligung an schlimmen Dingen unwahrscheinlich erscheinen zu lassen\n -1\nTeam hat einen oder mehrere Runner mit einer Reputation \ngrößer als -5 und keine Runner mit einer Reputation größer als +5\n -1\nAuswirkungen der F ahndungsstufe\nFAHNDUNGSSTUFE\n AUSWIRKUNG\n0–3\n Keine Auswirkungen\n4–6\n Reaktionszeiten der Polizei um 25 % verringert\n7–9\n Reaktionszeiten der Polizei um 50 % verringert\n10\n Sobald die Runner diesen Wert erreichen, gilt diejenige SIN der Runner mit der niedrigsten Stufe als \nverbrannt; sie ist als kriminell im System erfasst und löst einen Alarm aus, sobald sie verwendet wird.",
+    "topic": "advancement",
+    "keywords": [
+      "runner",
+      "spielsitzung",
+      "beinhaltete",
+      "kontakt",
+      "einen",
+      "einer",
+      "reputation",
+      "groesser"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0216_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 216, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 216,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Taliskrämer mit einem gewissen Talent – oder \nzumindest einem gewissen Talent in der Alchemie und \ndem Verzaubern – sind oft selbst Verzauberer, was sie \nzu einer hervorragenden Quelle für individuelle magi-\nsche Ausrüstung macht. Und oft kann man auch mit \ndiesem funkelnden kleinen Ding, das man dem Kon-\nzernmagier abgeluchst hat, zu ihnen kommen, und sie \nsagen einem, ob man da etwas Wertvolles hat oder nur \nSchnickschnack. Magisches Hintergrundwissen, Metallverarbeitung\nStrassendoc\nDienste:\n Medizinische Versorgung, Informationen, andere \nConnections, Ausrüstung (Medikamente/Drogen)\nTreffpunkte:\n Örtliche Klinik, Bodyshop\nÄhnliche Connections:\n Rettungssanitäter, Krankenwagen-\nfahrer, Straßenmagier/-schamane\nDiese lästigen Gesetze über Schussverletzungen, die dem \nzuständigen örtlichen Polizeikonzern gemeldet werden müs-\nsen, machen es für Shadowrunner etwas unpraktisch, sich \ntraditionelle medizinische Versorgung zu beschaffen. Wenn \nman dann noch den ganzen Papierkram dazunimmt und die \ndabei zurückbleibenden Spuren (ja, ja, wir wissen, dass es \nalles elektronisch ist), dann hat man prompt ein ARO, das \ndirekt auf einen zeigt, sobald die Ermittlungen beginnen. Aber um in den Genuss von Schattenmedizin zu kommen, \nmuss man einen Straßendoc kennen. Die meisten arbeiten in \nörtlichen Kliniken oder Bodyshops und schleusen blutende \nRunner durch den Hintereingang ein.",
+    "topic": "magic.spells",
+    "keywords": [
+      "einem",
+      "gewissen",
+      "talent",
+      "ausruestung",
+      "kommen",
+      "etwas",
+      "strassendoc",
+      "medizinische"
+    ]
+  }
+}

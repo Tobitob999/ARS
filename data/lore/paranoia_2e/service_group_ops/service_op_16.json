@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "category": "operation_profile",
+  "id": "service_op_16",
+  "name": "CPU Operation Profile 16",
+  "tags": [
+    "paranoia_2e",
+    "service_group",
+    "operation"
+  ],
+  "summary": "Operational doctrine for CPU under stress.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "service_group": "CPU",
+    "mission_bias": "propaganda",
+    "standard_assets": [
+      "red_reflec_armor",
+      "multicorder",
+      "laser_pistol"
+    ],
+    "political_risk": "medium"
+  }
+}

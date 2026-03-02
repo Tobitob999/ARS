@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0228_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 228, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 228,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Die Wirkung \nhält an, bis der Critter aufhört, die Kraft aufrechtzuerhalten. Verschlingen\nART\n HANDLUNG\n REICHWEITE\n DAUER\nP\n H\n B\n Aufrechterhalten\nDiese Kraft ermöglicht einem Critter, ein Opfer in sich selbst \noder in das von ihm beherrschte Terrain hineinzuziehen, es \nzu verschlingen oder zu ersticken und ihm dadurch Schaden \nzuzufügen. Es handelt sich um einen Nahkampfangriff mit \neinem Schadenswert von (Magie)K (Schadensart) sowie \nspeziellen Auswirkungen je nach Element; der Angriffswert \nerhöht sich um die Magie des Critters, und der Critter hält \ndas Opfer fest umschlungen. Nettoerfolge bei der Nah-\nkampfprobe erhöhen den Schaden wie üblich, und das Op-\nfer kann eine normale Schadenswiderstandsprobe ablegen. Aber selbst wenn das Opfer sämtlichen Schaden abwendet, \nbleibt es trotzdem umschlungen und befindet sich im Sta-\ntus \nBewegungsunfähig\n. Immer, wenn der Critter in einer \nKampfrunde an der Reihe ist, verursacht er automatisch \nden gleichen Schaden wie oben am umschlungenen Opfer, \nund das Opfer kann jedes Mal eine Schadenswiderstand-\nsprobe ablegen. Ist das Opfer an der Reihe, kann es eine \nHaupthandlung aufwenden, um einen Befreiungsversuch \nzu unternehmen, indem es eine Vergleichende Probe auf \nAthletik + Stärke gegen Konstitution + Magie des Critters \nablegt. Ist das Opfer erfolgreich, kann es sich befreien und \nerleidet keinen weiteren Schaden durch den Angriff. Einige \nVerschlingen-Kräfte verursachen einen anderen Schaden \nund haben sekundäre Effekte:\nVerschlingen durch Erde:\n Das Opfer leistet Widerstand \ngegen (Magie + 2)K Schaden. Es erhält den Status \n Er-\nschöpft I\n.",
+    "topic": "combat.attack",
+    "keywords": [
+      "opfer",
+      "schaden",
+      "sich",
+      "critter",
+      "verschlingen",
+      "magie",
+      "einen",
+      "haelt"
+    ]
+  }
+}

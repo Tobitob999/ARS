@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0200_c07",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 200, chunk 7.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 200,
+    "chunk_index": 7,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "181)\n Haupt (I)\n Auswerfen eines Hackers. Hineinspringen (S. 45/182)\n Haupt (I)\n Das, was nur ein Rigger kann. Interfacemodus wechseln (S. 182)\n Neben (I)\n Wechsel zwischen Riggen in AR und VR. Matrixattribute austauschen (S. 182)\n Neben (J)\n Austauschen von Datenverarbeitung und Firewall \nauf der Riggerkonsole. Verstecken (S. 184)\n Haupt (J)\n Verstecken der eigenen Persona und/oder der \nPersona eines Fahrzeugs/einer Drohne. SHADOWRUN: SECHSTE EDITION\nRIGGEN VON F AHRZEUGEN // Riggen // 199",
+    "topic": "matrix",
+    "keywords": [
+      "haupt",
+      "riggen",
+      "eines",
+      "neben",
+      "austauschen",
+      "verstecken",
+      "persona",
+      "auswerfen"
+    ]
+  }
+}

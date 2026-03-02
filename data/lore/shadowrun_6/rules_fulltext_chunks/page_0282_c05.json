@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0282_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 282, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 282,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Wenn man das Set trägt, \ngelten die Regeln für Klettern mit Ausrüstung (S. 95). Geckotape-Handschuhe sind nutzlos, wenn sie nass sind. WiFi-V orteil:\n Die äußere Haftschicht kann per WiFi- \nSignal zeitweise neutralisiert werden, was nützlich ist, um \ndie Handschuhe an- und auszuziehen, ohne dass sie an der \neigenen Person oder aneinander kleben bleiben. Hazma t-Anzug\nDer Hazmat-Anzug bedeckt den ganzen Körper und ent-\nhält einen internen Lufttank mit einer Luftversorgung für \n4 Stunden. Er bietet eine chemische Versiegelung (S. 266) \nund schützt vor Toxinangriffen mit Kontakt- und Inhalati-\nonsvektor (s. Toxine und Drogen\n, S. 124). Hazmat-Anzüge \nsind serienmäßig mit Platz für einen Sensor ausgestattet, \nder in den meisten Fällen ein Geigerzähler (S. 278) ist. Der \nSensor muss separat gekauft werden. WiFi-V orteil:\n Der Hazmat-Anzug analysiert und übermit-\ntelt Informationen über die Umgebung, die der Charakter \nnicht atmet oder berührt. Kletterausrüstung\nDies ist ein Rucksack mit 100 Metern Seil (Tragkraft 400 \nkg), einem Klettergeschirr, Handschuhen, Karabinern, Steig-\neisen, Kletterhaken und weiteren Dingen, die für das Klet-\ntern mit Ausrüstung benötigt werden (s. Klettern\n, S. 95). Leuchtst ab\nWenn man den Leuchtstab knickt und schüttelt, erhält man \nfür 3 Stunden eine sanfte chemische Beleuchtung, die einen \nRadius von 10 Metern erhellt. Magnesiumf ackel\nDie angezündete Fackel liefert für 5 Minuten helles Fa-\nckellicht, das 20 Meter weit reicht. Wenn man jemanden \nmit dem brennenden Ende schlägt, verursacht das 3K Feu-\nerschaden.",
+    "topic": "skills.physical",
+    "keywords": [
+      "wifi",
+      "anzug",
+      "hazmat",
+      "einen",
+      "klettern",
+      "ausruestung",
+      "handschuhe",
+      "orteil"
+    ]
+  }
+}

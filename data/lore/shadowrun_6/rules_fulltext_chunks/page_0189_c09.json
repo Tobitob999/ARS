@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0189_c09",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 189, chunk 9.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 189,
+    "chunk_index": 9,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "SHADOWRUN: SECHSTE EDITION\n188 // MA TRIX // TECHNOMANCER",
+    "topic": "general",
+    "keywords": [
+      "shadowrun",
+      "sechste",
+      "edition",
+      "trix",
+      "technomancer"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_04_the_rules_p0088_c05",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_04_the_rules",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The Rules page 88, chunk 5.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_04_the_rules",
+    "source_title": "The Rules",
+    "page": 88,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "raw_text": "The gas reservoir allows the ‘weapon to continue operation for 10 combat rounds, \nAnticMissile Lasers: This isa battery of several dozen low-power lasers which fire all in the",
+    "topic": "combat",
+    "keywords": [
+      "lasers",
+      "reservoir",
+      "allows",
+      "weapon",
+      "continue",
+      "operation",
+      "combat",
+      "rounds"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_03_world_of_paranoia_p0037_c04",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_03_world_of_paranoia",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The World of Paranoia page 37, chunk 4.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_03_world_of_paranoia",
+    "source_title": "The World of Paranoia",
+    "page": 37,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "Security Clearance \nto enter any room or corridor marked with the color ofa security clearance higher than their ‘own (ie., a character of Orange clearance may enter orange, red, or black areas, but not yellow, green, blue, indigo, violet, or white areas) In certain circumstances, The Computer may authorize a character to enter of move through an area of higher security clearance than normally permitted, In this case, the citizen receives. appropriate authorization documents lif time permits), a temporary color. coded garment (if in stock), and/or an escort ‘of appropriate security clearance (if available), The security clearances are’ \nINFRARED \nRED \nORANGE \nYELLOW \nGREEN \nBLUE \nINDIGO \nVIOLET \nULTRAVIOLET \n‘A mnemonic may help the gamemaster recall the sequence of security clearances — ROY G. BIV. Each letter in the mnemonic cor- responds to security clearances Red through Violet, \n37",
+    "topic": "clearance",
+    "keywords": [
+      "security",
+      "clearance",
+      "enter",
+      "orange",
+      "violet",
+      "color",
+      "higher",
+      "character"
+    ]
+  }
+}

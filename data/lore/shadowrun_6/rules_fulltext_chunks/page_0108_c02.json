@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0108_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 108, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 108,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Bei ei-\nnem Schlag, einem Tritt oder einem Angriff mit Messer, \nSchwert, Axt, zerbrochener Flasche, Eisenstange oder \neinem Kerzenleuchter wäre das Nahkampf. Bei einer \nPistole, einem Gewehr, einer Schrotflinte, einem Scharf-\nschützengewehr oder einer selbstgebastelten Pistole wäre \nes Feuerwaffen. Bei einem Blasrohr, einer Laserpistole, \nStrahlenwaffe, einem Granat- oder Raketenwerfer wäre es \nExotische Waffen. Wurfmesser, Shuriken, Handgranaten, \nArmbrüste und Bögen verlangen Athletik, eine Fahrzeug-\nwaffe Mechanik. Wobei die letzte Fertigkeit mit Logik statt \nmit Geschicklichkeit verbunden ist (um all die Winkel \nund Bewegungen besser berechnen zu können, die beim \nSchießen von einem Fahrzeug aus zu berücksichtigen sind). KAMPF ABLAUF // KAMPF // 107",
+    "topic": "combat.attack",
+    "keywords": [
+      "einem",
+      "einer",
+      "waere",
+      "pistole",
+      "fahrzeug",
+      "kampf",
+      "schlag",
+      "tritt"
+    ]
+  }
+}

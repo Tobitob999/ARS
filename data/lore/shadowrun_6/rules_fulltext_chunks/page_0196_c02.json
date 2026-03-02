@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0196_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 196, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 196,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Gesteigertes \nMaximum der Resonanz\nDas natürliche Maximum deiner Resonanz beträgt 6 + \nWandlungsgrad (-1 für jeden angefangenen verlorenen \nEssenzpunkt). Eine Steigerung dieses Maximums bedeutet \nnicht, dass das Attribut automatisch steigt. Du musst eine \nSteigerung der Resonanz immer noch mit Karma bezahlen. Echos\nTechnomancer lernen bei der Wandlung neue Kräfte: die \nEchos. Jeder Wandlungsgrad verschafft dir ein zusätzliches \nEcho. Du kannst, wenn nicht anders angegeben, dasselbe \nEcho nicht mehrmals erwerben. Wenn Echos mehrfach ge-\nwählt werden können, sind ihre Boni kumulativ. Lebendes Netzwerk: Deine Lebende Persona kann Teil \neines PANs sein. Dieses Echo kann nur einmal gewählt \nwerden. Maschinenbeherrschung: Du erhältst die Vorteile einer \nRiggerkontrolle der Stufe 1 (S. 285). Dieses Echo kann \nnur einmal gewählt werden. Matrixattribut-Upgrade: Du kannst eines der Matrixat-\ntribute deiner Lebenden Persona um 1 erhöhen. Dieses \nEcho kann mehrmals gewählt werden, aber jedes Ma-\ntrixattribut darf höchsten zweimal gesteigert werden. Neurofilter: Du erhältst einen Würfelpoolbonus von +1 zum \nWiderstand gegen Schaden durch Biofeedback. Dieses \nEcho darf zweimal gewählt werden. Resonanzverbindung: Dieses Echo erlaubt dir, mit einem \nanderen Technomancer deiner Wahl eine empathische \nEinweg-Verbindung aufzubauen. Solange ihr verbun-\nden seid, kannst du die Stimmung und Emotionen des \nanderen Technomancers erkennen. Du weißt, wenn \ndieser angegriffen wird oder unter Stress steht, Schmerz \nempfindet oder in Gefahr ist. Diese Verbindung wirkt \nnur in eine Richtung (dein Partner erfährt nichts über \ndich).",
+    "topic": "cyberware",
+    "keywords": [
+      "echo",
+      "dieses",
+      "gewaehlt",
+      "resonanz",
+      "deiner",
+      "kannst",
+      "maximum",
+      "wandlungsgrad"
+    ]
+  }
+}

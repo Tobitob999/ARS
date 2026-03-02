@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0146_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 146, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 146,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Mit mindestens 1 Nettoerfolg wird diese Einsicht \nmöglich. Der Beobachter muss die fragliche Aussage selbst \nhören. Geschriebenes, Aufzeichnungen oder Übertragungen \nkönnen dazu nicht benutzt werden – was natürlich daran \nliegt, dass es sich um einen Manazauber handelt. Antimagie\nAntimagie ist die entgegengesetzte Reaktion auf Spruchzau-\nberei. Zauberer erzeugen durch Zauber Vorteile, während \nandere Zauberer ihre Gabe nutzen, um diese Vorteile zu \nentfernen. Antimagie ist die Verteidigung eines Zauberers, \nund sie hat zwei Formen: Zauberabwehr und das Bannen \nvon Zaubern. Zauberabwehr\nDas ist eine prophylaktische Art der Verteidigung, bei \nder ein Zauberer versucht, einen eintreffenden Zauber \nzu blockieren. Um sie aufzubauen, führt der Charakter \ndie Haupthandlung Antimagie durch und legt eine Probe \nauf Hexerei + Magie ab. Die Grundform dieser Hand-\nlung wirkt auf eine Kugel im Blickfeld des Zaubernden \nmit zwei Metern Radius. Pro Dram Reagenzien (siehe \nS. 155), die eingesetzt werden, kann dieser Radius um 1 \nMeter erhöht werden. Die Erfolge dieser Probe werden \nzum Würfelpool aller Ziele addiert, die sich innerhalb des \nWirkungsbereichs gegen Zauber verteidigen müssen. Die \nZauberabwehr hält für eine Anzahl von Kampfrunden \ngleich dem Magieattribut des Zaubernden an. Zauberbannung\nDiese Methode wird gegen aufrechterhaltene Zauber oder \nandere Zauber verwendet, die eine länger anhaltende \nWirkung haben. Der Charakter führt die Haupthandlung \nAntimagie durch und legt dann eine Vergleichende Probe \nauf Hexerei + Magie gegen den Entzug des gegnerischen \nZaubers × 2 ab (dabei werden alle Entzugserhöhungen \ndurch Anpassungen mitgezählt).",
+    "topic": "combat.defense",
+    "keywords": [
+      "antimagie",
+      "zauber",
+      "durch",
+      "diese",
+      "probe",
+      "gegen",
+      "sich",
+      "einen"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0176_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 176, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 176,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Du kannst also zum \nBeispiel aus ASDF 7631 (die du von deinem Kommlink \nTyp Transys Avalon und deinem Cyberdeck Typ Renraku \nKitsune bekommst) ASDF 1637 machen, falls du gerade in \neinem Host herumschleichst und dich gegen IC schützen \nwillst. Geräte haben einen Matrix-Zustandsmonitor mit \n[8 + (Gerätestufe ÷ 2, aufgerundet)] Kästchen. Alle Proben, \nbei denen ein beschädigtes Gerät benutzt wird, werden mit \neinem Würfelpoolmalus von -1 pro drei Kästchen Mat-\nrixschaden durchgeführt, bis das Gerät repariert wurde. Wenn der Matrix-Zustandsmonitor eines Geräts voll ist, \nist es lahmgelegt (s. Lahmgelegte Geräte). Wenn du ein Technomancer bist, benutzt du die Matrix \nmit deiner Lebenden Persona statt mit einem Gerät. Eine \nLebende Persona hat dieselben vier Matrixattribute wie \nein Gerät, aber ihre Werte hängen von deinen Geistigen \nAttributen ab (s. Die Lebende Persona, S. 188). Weil Tech-\nnomancer keine Geräte benutzen, haben sie auch keinen \nMatrix-Zustandsmonitor. Jeglicher Matrixschaden, den sie \nerleiden, wird auf ihren eigenen Zustandsmonitoren fest-\ngehalten: Meistens handelt es sich um Betäubungsschaden, \nwenn nicht anders angegeben (sofern der Betäubungszu-\nstandsmonitor noch nicht voll ist). Virtuelle Realit ä t\nDurch die Simsinn-Technologie können User vollständig \nin die Matrix eintauchen und all ihre Freuden genießen. Das läuft natürlich nicht ohne Risiken ab. Je schneller und \nkomplexer das Erlebnis der Matrix laufen darf, desto ge-\nfährlicher wird die VR. Ohne Filter kann gefährliches Bio-\nfeedback zu Gehirnblutungen und Schlimmerem führen. Aber das hält viele nicht davon ab, so tief einzutauchen.",
+    "topic": "combat.damage",
+    "keywords": [
+      "matrix",
+      "geraet",
+      "einem",
+      "zustandsmonitor",
+      "persona",
+      "asdf",
+      "deinem",
+      "kaestchen"
+    ]
+  }
+}

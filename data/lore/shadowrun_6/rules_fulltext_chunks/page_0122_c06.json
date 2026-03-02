@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0122_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 122, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 122,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Im Angriffsbereich \nbeﬁ ndet sich ein weiteres Ziel: Carsons geliebtes Auto, das \nleider nicht ausweichen kann und erst in Schritt vier würfeln \ndarf. Schritt zwei: Verteil t Edge\nDer Flammenwerfer hat einen Angriffswert von 9, aber \nTrip-J will einen schwankenden Angriff durchführen, um \nden Angriffswert um 2 auf 11 zu erhöhen. Carson Aims hat \neinen Verteidigungswert von 7 (Konstitution 5 + Panzerung \n2). Trip-J erhält also durch die Differenz von 4 zu seinen \nGunsten 1 Edge. Der überraschende Angriff von oben erscheint als ver-\nnünftiger Grund dafür, dass Trip-J noch 1 Edge erhält und \ndamit insgesamt 2 hat. Wieder wirken sich Ausrüstung oder Vorteile für nieman-\nden aus – besonders nicht für diesen Anfänger mit seiner \nselbstgebauten Flambiermaschine. Schritt drei: Würfel t und gebt Edge aus\nTrip-J setzt alles auf eine Karte und bewegt die Waffe be-\nsonders schnell, wodurch einer seiner Würfel durch einen \nSchicksalswürfel ersetzt wird. Alles oder nichts! Er würfelt \nmit seinen 3 Würfeln, erzielt einen normalen Erfolg und einen \nmit dem Schicksalswürfel (der drei Erfolge wert ist), dann \nbenutzt er seine 2 zusätzlichen Edgepunkte, um den Würfel \nohne Erfolg neu zu werfen. Er erzielt eine 5, was insgesamt \n5 Erfolge bedeutet. Carson würfelt mit 10 Würfeln und erzielt 3 Erfolge. Er \nhatte eigentlich nicht vor, von einem Flammenwerfer ge-\ntroffen zu werden, und nutzt sein gesamtes Edge von 4, um \ndie 7 Würfel ohne Erfolge neu zu werfen, erzielt aber nur \n1 Erfolg mehr. Das bedeutet, dass Trip-J gegenüber Carson 1 und ge-\ngenüber dem Westwind 5 Nettoerfolge hat.",
+    "topic": "combat.attack",
+    "keywords": [
+      "einen",
+      "edge",
+      "trip",
+      "wuerfel",
+      "erzielt",
+      "erfolge",
+      "schritt",
+      "carson"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0291_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 291, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 291,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Eine Erhöhung der Panzerung erhöht dauerhaft den \nVerteidigungswert des Charakters – die Cybergliedmaße \nist Teil der allgemeinen Schutzmechanismen des Cha-\nrakters, die sich im Verteidigungswert widerspiegeln. Erhöhungen von Geschicklichkeit oder Stärke kommen \nnur zum Tragen, wenn die Gliedmaße auch tatsächlich \neingesetzt wird. Wenn eine Aktivität dem gesunden Men-\nschenverstand zufolge im Allgemeinen den ganzen Körper \nbeansprucht (z. B. Rennen, Klettern, Schwimmen), dann \nkommt die Attributserhöhung der Cybergliedmaße nicht \nzur Anwendung. Übrigens haben Stärke- und Geschicklichkeitserhöhun-\ngen keine Wirkungen, wenn sie in einem Cyberschädel \nenthalten sind. te Fächer geschützt. Synthetisches Cybertorsodesign gibt \nsich alle Mühe, so natürlich wie nur möglich auszusehen. Manche Kunden entscheiden sich gegen den geformten \nLook und wählen eine schlankere, straffere Erscheinung, \nwährend andere einen „durchschnittlichen“ Körpertypus \nvorziehen, um weniger aufzufallen. Arme\nBei einem Standardcyberarm wird alles von der Schulter \nabwärts ersetzt, aber es gibt auch die Möglichkeit eines Teil-\nersatzes des Unterarms oder nur der Hand. Eine teilweise \nCybergliedmaße muss Attribute haben, die mindestens so \nhoch sind wie der Rest der Gliedmaße. Beine\nBei einem Standardcyberbein wird alles von der Hüfte \nabwärts ersetzt, aber es gibt auch die Möglichkeit eines \nTeilersatzes des Unterschenkels oder nur des Fußes. Eine \nteilweise Cybergliedmaße muss Attribute haben, die min-\ndestens so hoch sind wie der Rest der Gliedmaße.",
+    "topic": "combat.defense",
+    "keywords": [
+      "cybergliedmasse",
+      "sich",
+      "gliedmasse",
+      "einem",
+      "gibt",
+      "verteidigungswert",
+      "teil",
+      "allgemeinen"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0073_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 73, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 73,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Resultate und Verbesserungen zu erreichen, die du haben \nwillst. Wegen dieser Voraussetzungen an Trainingsein-\nrichtungen und Trainingszeit kann die Spielleiterin auch \neinen Preis festlegen, der für Mitgliedsbeiträge, Miete \nfür Einrichtungen oder andere Zusatzkosten steht. 50 \nNuyen pro Monat wäre eine gute Ausgangsbasis, aber die \nSpielleiterin kann diese Kosten je nach ihrer Kampagne \nanpassen, und Charaktere können diese Kosten senken, \nwenn sie von ihren Teamkollegen oder Connections Hilfe \nbekommen. Eine Verbesserung kostet [neue Stufe × 5] Karma, und \nzwar für jede Steigerung einzeln: Wenn du also eine Fer-\ntigkeit von 4 auf 6 erhöhen willst, musst du 25 Karma für \nStufe 5 (5 × 5) und 30 Karma für Stufe 6 (6 × 5) ausgeben, \ninsgesamt also 55 Karma. In der Tabelle Entwicklung von \nAttributen und Fertigkeiten findest du die Kosten für die \nErhöhung von einer Stufe zu einer anderen. Wissens- und \nSprachfertigkeiten\nDurch Studium, Schule, Matrixkurse oder einfach täg-\nliche Bibliotheksbesuche kannst du lernen. Der Erwerb \nvon Wissens- und Sprachfertigkeiten setzt Lernen vor-\naus. Die Trainingszeit beträgt einen \nMonat für eine Wissensfertigkeit \nbzw. einen Monat pro Stufe für \neine Sprachfertigkeit. Auch hier \nwird davon ausgegangen, dass du \nmindestens 4 Stunden pro Tag mit \ndem Lernen verbringst. Neue Wis-\nsensfertigkeiten kosten 3 Karma, \nneue Sprachfertigkeiten kosten pro \nStufe 3 Karma. Spezialisierungen \nund Expertise\nWie Aktionsfertigkeiten brau-\nchen auch Spezialisierungen und \nExpertisen (S. 94) Trainingszeit.",
+    "topic": "economy",
+    "keywords": [
+      "stufe",
+      "karma",
+      "kosten",
+      "trainingszeit",
+      "einen",
+      "monat",
+      "neue",
+      "sprachfertigkeiten"
+    ]
+  }
+}

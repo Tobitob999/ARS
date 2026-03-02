@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_04_the_rules_p0088_c01",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_04_the_rules",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The Rules page 88, chunk 1.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_04_the_rules",
+    "source_title": "The Rules",
+    "page": 88,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "raw_text": "eres PARANOIA \nShooting at Occupants If the firer was shooting at an occupant, also subtract the occupant’ armor tating from the \ndamage number (if appropriate) — that is, ‘occupants are protected both by the vehicle's \narmor and their own. Then, roll on the Damage Table (Fold-Out B) to determine what \ndamage the occupant suflers. Shooting at Vehicles Roll on the Damage Table (Fold-Out B) to determine what damage the vehicle suffers \nDamage results translate as follows: \nStun = Insignificant Damage: Bullet-holes, dents, scratches on the paint job. Describe ap- propriately to the players \nWound - Minor Damage: Some vehicle systems may be disabled; repair is possible us \ning the vehicle maintenance and operation Skill. Occupants not affected unless a crash occurs \nIncapacitated = Major Damage: Vehicle systems shot t hell. Repair would be difficule thalve skill number or worse). Occupants not affected unless a crash occurs \n= Destroyed: Vehicle is a total loss, A ‘rash occurs. Vaporized ~ Vaporized: Rol forall characters ‘on the Damage Table; damage number is 19, \nli the vehicle crashes as a result ofits damage (this automatically occurs on a “destroyed” result, rll on the Vehicular Accidents and Fall. ing from Great Heights Table (see Fold-Out B) for each occupant ofthe vehicle o determine ‘what damage he suffers, Normally the deter- mining factor isthe speed ofthe crashing vehi- \nCle, which must be estimated by the game- \nmaster. However, the gamemaster may permit, \na sleength, agility or power roll for a character to jump froma crashing vehicle or alrcrat. In \nthat case, the yamemaster may, at his discre tion, permit rolling on a more favorable column.",
+    "topic": "combat.defense",
+    "keywords": [
+      "damage",
+      "vehicle",
+      "occupants",
+      "occurs",
+      "shooting",
+      "number",
+      "roll",
+      "fold"
+    ]
+  }
+}

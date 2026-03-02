@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npc",
+  "id": "npc_023",
+  "name": "Glint-X-R-23",
+  "tags": [
+    "paranoia_2e",
+    "npc",
+    "roster"
+  ],
+  "summary": "Research & Design operative with layered loyalties.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "service_group": "Research & Design",
+    "secret_society": "Romantics",
+    "mutation": "Hypnotism",
+    "trait": "pedantic",
+    "clearance": "Red",
+    "use_in_play": "double_agent"
+  }
+}

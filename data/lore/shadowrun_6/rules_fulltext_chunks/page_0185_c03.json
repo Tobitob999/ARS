@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0185_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 185, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 185,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Du kannst dich nicht vor einem \nIcon verstecken, das bei irgendeinem Gerät in deinem PAN \nUser- oder Admin-Zugang erhalten hat. Volle Ma trixabwehr\n(legal) siehe Beschreibung (Haupthandlung)\nGast/User/Admin\nDiese Handlung ist das Matrix-Äquivalent zu Volle Ab-\nwehr (S. 46). Addiere bis zum Ende der Kampfrunde deine \nFirewall zu allen Verteidigungsproben in der Matrix. Dies \nist eine Jederzeit-Handlung, die du auch durchführen \nkannst, wenn du nicht am Zug bist. Programme\nEs folgen verbreitete Matrixprogramme mit Beschreibungen \nihrer Wirkung. Der Wert für aktive Programmslots deines \nGeräts gibt an, wie viele Programme du gleichzeitig laufen \nlassen kannst, aber du kannst noch weitere Programme \nspeichern. Bei einer Persona aus mehreren Geräten gilt die \nSumme ihrer aktiven Programmslots. Der Start oder die \nBeendigung eines Programms erfordern keine Handlung, \ndas Laden/Entfernen eines Programms in einen/aus einem \naktiven Programmslot erfordern eine Nebenhandlung. Standardprogramme sind ziemlich harmlos und fast \nüberall erhältlich. Hackingprogramme sind gefährlicher \nund ohne Lizenz illegal. Durch ihre Anwendung steigt in \nder Regel der OW (siehe S. 177). Auf Geräten kann nicht mehr als ein Programm desselben \nTyps laufen, auch dann nicht, wenn es umbenannt wird. St andardprogramme\nBabymonitor: Gibt dir deinen gegenwärtigen Overwatch- \nWert an, ohne dass dafür eine Handlung nötig ist. Editieren: Wenn du eine Handlung Datei editieren durch-\nführst, erhältst du 1 Edge; dieser Punkt muss sofort für \ndiese Handlung ausgegeben werden, sonst verfällt er.",
+    "topic": "combat.defense",
+    "keywords": [
+      "handlung",
+      "kannst",
+      "programme",
+      "einem",
+      "user",
+      "admin",
+      "volle",
+      "siehe"
+    ]
+  }
+}

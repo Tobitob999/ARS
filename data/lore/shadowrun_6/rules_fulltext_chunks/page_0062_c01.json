@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0062_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 62, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 62,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Arkanspezialist\nZauber zu wirken oder Geister herbeizurufen, sollte einem \nCharakter in jeder Runnertruppe eine stabile Position ver-\nschaffen. Magie ist ein großer Teil dessen, was die Sechste \nWelt so Furcht einflößend macht; und sie hilft einem Runner \nauch dabei, etwas Besonderes zu sein. Klar könnte der Kleine \nda vorne mit einer MP rumfuchteln und wirklich aggressiv \nsein, weil die Halloweeners gerade sein Mädel umgelegt ha-\nben. Aber der andere da drüben, von dem die Halloweeners \ngerade glauben, er wäre das perfekte Ziel für einen brennen-\nden Kürbis ... der wird sich gleich in Gestalt eines Feuerballs \nrevanchieren und diese Anfänger daran erinnern, was passiert, \nwenn man den Magier nicht zuerst umlegt. Auf dem Feld der Magie gibt es viele Optionen, und die \nVollzauberer bilden mit ihren Fähigkeiten zum Beschwören \nund Zaubern den Großteil der gefährlichen Kerle. Man \nkann auch den Weg eines Aspektzauberers einschlagen und \nsich zwischen Zaubern und dem Beschwören mächtiger \nVerbündeter entscheiden. Und schließlich könnte man einige \nAdeptenfähigkeiten dazunehmen und ein Magieradept sein, \nder Zauber wirken und Geister beschwören kann, zugleich \naber auch einen Teil seiner Magie nach innen kanalisiert, \num seine natürlichen Fähigkeiten zu verstärken. Jedenfalls \nwirst du Zerstörung über die Feinde bringen, während der \nUnterhändler des Teams, der lieber subtil vorgeht, dich ein \nbisschen scheel anschaut, weil du so auffällig bist. Unterhändler\nNur Reden, keine Action? Ich bin dabei! Action führt dazu, \ndass man angeschossen wird und blutet, oder dass man \nspürt, wie es ist, wenn einem das Gehirn von innen geröstet \nwird, weil ein Zauber einschlägt.",
+    "topic": "magic.spells",
+    "keywords": [
+      "sein",
+      "zauber",
+      "einem",
+      "magie",
+      "weil",
+      "beschwoeren",
+      "wirken",
+      "geister"
+    ]
+  }
+}

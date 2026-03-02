@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0182_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 182, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 182,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Wenn das \nPasswort benutzt wird, wird die Datenbombe nicht akti-\nviert. Stattdessen bleibt sie in der Datei und wartet auf den \nnächsten Zugriff. Eine Datenbombe kann mit der Handlung Matrixwahr-\nnehmung entdeckt werden. Wenn sie entdeckt ist, kann \nsie mit der Handlung Datenbombe entschärfen unschäd-\nlich gemacht werden. Eine entschärfte Datenbombe wird \ngelöscht. Da tenspike\n(illegal) Cracken + Logik gegen Da tenver-\narbeitung + Firew all oder Logik + Firew all \n(Haupthandlung)\nGast/User/Admin\nDiese Handlung ist mit dem Attribut Angriff verbunden. Du schickst Schadcode gegen eine Persona oder ein Ge-\nrät, was beim Ziel zu Matrixschaden führt. Dein Angriff \nhat einen Schadenswert in Höhe deines Angriffsattributs ÷ \n2 (aufgerundet); pro Nettoerfolg erhöht sich der Schaden \num 1. Ihm wird mit Firewall Widerstand geleistet. Gerä t forma tieren\n(legal) Elektronik + Logik gegen \nWillenskraft + Firew all oder Firew all \n× 2 (Haupthandlung)\nAdmin\nDu schreibst den Bootsektor eines Geräts neu. Beim nächsten \nNeustart schaltet sich das Gerät einfach dauerhaft aus, bis \nseine Software ersetzt wurde. Ein Gerät, das sich auf diese \nWeise ausgeschaltet hat, verliert all seine WiFi-Vorteile, kann \naber weiter als normaler Mechanismus benutzt werden (eine \nTür mit Klinke kann geöffnet werden, eine Waffe mit Abzug \nkann abgefeuert werden usw.). Außerdem ist es nicht mehr \nüber die Matrix erreichbar. Das Reparieren eines formatier-\nten Geräts folgt denselben Regeln wie das Reparieren eines \nlahmgelegten Geräts (s. Lahmgelegte Geräte, S. 175). Bei die-\nser Probe ist eine Anzahl von Erfolgen gleich der Gerätestufe \ndes Geräts nötig, um den beschädigten Bootcode zu ersetzen.",
+    "topic": "matrix",
+    "keywords": [
+      "datenbombe",
+      "firew",
+      "geraets",
+      "handlung",
+      "logik",
+      "gegen",
+      "sich",
+      "eines"
+    ]
+  }
+}

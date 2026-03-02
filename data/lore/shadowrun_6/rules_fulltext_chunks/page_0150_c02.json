@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0150_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 150, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 150,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Um einen Geist zu verban-\nnen, verwendest du eine Haupthandlung und legst eine Ver-\ngleichende Probe auf Beschwören + Magie gegen Kraftstufe \ndes Geistes × 2 ab. Jeder Nettoerfolg senkt die Anzahl der \noffenen Dienste dieses Geistes um 1. Wenn diese Dienste \nauf 0 gesenkt worden sind, verschwindet der Geist auf \nseine Heimatebene. Du kannst diese Probe ohne Malus \nwiederholen, sooft es nötig ist (musst aber für jede Probe \neine Haupthandlung verwenden). Wie das Herbeirufen erzeugt auch das Ver-\nbannen Entzug – und zwar in Höhe des \nDoppelten der Anzahl der Erfolge (nicht \nNettoerfolge), die der Geist bei der Ver-\ngleichenden Probe erzielt hatte. Du kannst so viele Dram Reagenzien \nausgeben, wie die Kraftstufe des Geis-\ntes beträgt, den du verbannen \nwillst, um für das Verban-\nnen 1 Edge zu erhalten. Geister \nund Edge\nGeister können für sich selbst oder ihren Be-\nschwörer kein Edge erhalten, aber sie haben \neinen Angriffswert, um zu bestimmen, ob der \nVerteidiger eventuell Edge erhält. Der Beschwö-\nrer oder seine Verbündeten können nach den üb-\nlichen Regeln 2 Edge ausgeben, um dem Geist \n1 Edge zu geben, das der Geist dann wie \nüblich ausgeben kann. Der Geist muss sich \ninnerhalb von [Kraftstufe × 10] Metern von \njemandem befinden, der ihm Edge geben will. Beispiel: \nHerbeirufen und Verbannen\nManchmal braucht man einen Runner, um gegen ei-\nnen Runner zu kämpfen. Deshalb rasen Cass Wande-\nring Horse und Kumiho gerade um die Wette zu einem \nRenraku-Exec, den sie beide extrahieren sollen. Cass \nbeschließt, dass ein Geist am besten geeignet ist, um \nseine Konkurrentin zu stören.",
+    "topic": "magic",
+    "keywords": [
+      "geist",
+      "edge",
+      "probe",
+      "einen",
+      "kraftstufe",
+      "seine",
+      "ausgeben",
+      "verban"
+    ]
+  }
+}

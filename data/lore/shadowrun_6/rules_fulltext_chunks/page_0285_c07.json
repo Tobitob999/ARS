@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0285_c07",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 285, chunk 7.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 285,
+    "chunk_index": 7,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Das ist für Hacker, die \nviel unterwegs sind, \nsehr praktisch und \nDas Lahmlegen eines \nHeadware-Decks ver-\nursacht 8K Schaden, gegen \nden mit Konstitution Widerstand \ngeleistet wird. Da tenbuchse\nEine Datenbuchse verleiht dem Benutzer ein direktes \nCyberbuchsen\nCYBERBUCHSE\n ATTRIBUTE (D/F)\n MATRIXINITIATIVE-\nBONUSWÜRFEL (VR)\nBONUSWÜRFEL (VR)\n ESSENZ\n VERFÜGBARKEIT\n PREIS\nStufe 1\n 4/3\n +1\n 1\n 3L\n 45.000 ¥\nStufe 2\n 5/4\n +1\n 1,5\n 3L\n 65.000 ¥\nStufe 3\n 6/5\n +1\n 2\n 3L\n 80.000 ¥\nStufe 4\n 7/6\n +2\n 2,3\n 4L\n 95.000 ¥\nStufe 5\n 8/7\n +2\n 2,6\n 5L\n 140.000 ¥\nSHADOWRUN: SECHSTE EDITION\n284 // Ausrüstung // BODYTECH",
+    "topic": "combat.initiative",
+    "keywords": [
+      "stufe",
+      "bonuswuerfel",
+      "hacker",
+      "viel",
+      "unterwegs",
+      "sehr",
+      "praktisch",
+      "lahmlegen"
+    ]
+  }
+}

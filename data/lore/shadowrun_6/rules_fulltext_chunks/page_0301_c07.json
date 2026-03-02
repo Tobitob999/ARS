@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0301_c07",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 301, chunk 7.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 301,
+    "chunk_index": 7,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Ares Dragon\nSHADOWRUN: SECHSTE EDITION\n300 // Ausrüstung // F AHRZEUGE UND DROHNEN",
+    "topic": "rigger",
+    "keywords": [
+      "ares",
+      "dragon",
+      "shadowrun",
+      "sechste",
+      "edition",
+      "ausruestung",
+      "ahrzeuge",
+      "drohnen"
+    ]
+  }
+}

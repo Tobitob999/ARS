@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "id": "paranoia_template_04",
+  "name": "Template-R-04",
+  "compatible_rulesets": [
+    "paranoia_2e"
+  ],
+  "archetype": "Propaganda Runner",
+  "background": "Service Group: Research & Design | Secret Society: Psion | Mutation: Empathy",
+  "characteristics": {
+    "STR": 7,
+    "AGI": 9,
+    "DEX": 9,
+    "END": 16,
+    "MOX": 7,
+    "CHU": 8,
+    "MEC": 11,
+    "POW": 14
+  },
+  "derived_stats": {
+    "HP": "state_track",
+    "Clone Number": 1,
+    "Treason Points": 0
+  },
+  "skills": {
+    "Laser Weapons": 9,
+    "Bootlicking": 7,
+    "Mechanical Engineering": 10,
+    "Data Analysis": 10,
+    "Unarmed": 9
+  },
+  "equipment": [
+    "com_unit_ii",
+    "com_unit_i",
+    "red_reflec_armor",
+    "laser_pistol"
+  ],
+  "notes": "Batch-generated playable template."
+}

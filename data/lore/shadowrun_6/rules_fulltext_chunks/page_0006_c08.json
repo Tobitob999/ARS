@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0006_c08",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 6, chunk 8.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 6,
+    "chunk_index": 8,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Ross Babcock III, \nSam Lewis, and Dave Wylie\nMEHR INFOS, MEHR NEWS, MEHR MATERIAL! Du möchtest über Shadowrun 6 auf dem Laufenden bleiben? Möchtest News, Gratis-Goodies, \nCharakterbögen und Spielhilfen? Willst kostenlose Abenteuer und Zugriff auf Fan-Material? Dann checke \nSHADOWRUN6.DE \nDu willst mehr über Shadowrun und die Sechste Welt wissen? Bist über einen Konzern oder Namen gestolpert, \nder dir nichts sagt? Suchst einen Überblick über frühere Shadowrun-Publikationen? Die Shadowhelix hilft dir weiter! SHADOWHELIX.PEGASUS.DE\nSHADOWRUN: SECHSTE EDITION\nIMPRESSUM // INHAL T // 5",
+    "topic": "general",
+    "keywords": [
+      "shadowrun",
+      "mehr",
+      "news",
+      "material",
+      "moechtest",
+      "willst",
+      "sechste",
+      "einen"
+    ]
+  }
+}

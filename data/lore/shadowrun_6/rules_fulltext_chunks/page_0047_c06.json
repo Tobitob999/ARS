@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0047_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 47, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 47,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Oder der spätere Herrscher \nBabur, der in der Schlacht bei Panipat die Schnelligkeit und \nhervorragende Ausbildung seiner zahlenmäßig unterlege-\nnen Streitmacht nutzte, um den Gegner mürbe zu machen, \nbis er ihn mit einem entscheidenden Angriff zerschlagen \nkonnte. Es ist die Kombination aus einem guten Plan und \ndem unerwarteten Moment, in dem man eine günstige \nGelegenheit erkennt und nutzt. Edge wird auf dem Charakterbogen verzeichnet, aber \nda sich der Wert im Laufe des Spiels immer wieder ändern \nkann, ist es am einfachsten, ihn durch irgendwelche Marken \nnachzuhalten, etwa durch Münzen, Pokerchips oder gar \nBonbons. Die Bonbons kann man sogar aufessen, wenn \nEdge ausgegeben wird! Ein Charakter darf pro Handlung nur einmal Edge aus-\ngeben. Dabei darf er keine verschiedenen Edge-Boosts oder \nEdge-Handlungen ausführen, wohl aber denselben Boost \nmehrfach (z./uni00A0B. erlaubt das Ausgeben von 1 Edge dem Cha-\nrakter, einen Würfel neu zu werfen; er kann auch 2 Edge \nausgeben, um 2 Würfel neu zu werfen). In diesem Fall darf \nEdge aber nur für ein und denselben Wurf aufgewendet \nwerden. Um im Beispiel zu bleiben: Die Spielerin kann also \nnicht einen Würfel ihrer Probe und einen der Probe ihres \nGegners neu würfeln. Jeder Charakter beginnt eine Spielsitzung mit einer Anzahl \nvon Edge-Punkten in Höhe seines Edge-Attributs. Im Laufe \nder Spielsitzung kann sich dieser Betrag erhöhen, aber nur \nbis zu einem Maximum von 7, einschließlich des Edges, das \nvom Edge-Attribut des Charakters kommt.",
+    "topic": "combat.attack",
+    "keywords": [
+      "edge",
+      "einem",
+      "darf",
+      "einen",
+      "wuerfel",
+      "sich",
+      "laufe",
+      "durch"
+    ]
+  }
+}

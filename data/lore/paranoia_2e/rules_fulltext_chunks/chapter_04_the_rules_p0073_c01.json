@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_04_the_rules_p0073_c01",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_04_the_rules",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The Rules page 73, chunk 1.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_04_the_rules",
+    "source_title": "The Rules",
+    "page": 73,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "raw_text": "PARANOIA a \nWi teleport This power creates a field around the user {along the contours of his body, six inches from the skin) which instantaneously transport him from ane location to another. Any objects or garments within the feld ae also transported most of the time, anyway. This mutation works both as a voluntary action and as an involuntary response. AS a Noluntary action, the character must fist Visualize the location to which he wishes to teleport. it may either be a location inline of sight or one he knows intimately. The closer the location, the beter the chances of reaching it intact, but with very suecessul power ols, mutants have been known to teleport huge distances and arrive more or less unscathed. ’S successful power roll means the mutant is teleported; the more successful the rll the more likely the mutant reaches his destination in good working order. ithe rll is unsuccessful, the teleport may rot oceur, oF it may occur In such a way that the mutant wishes it hada’. Sometimes the ‘mutant parted fom his garments and posses- Sions. Sometimes he pops in right infront of ‘8 Vulture Squadron on maneuvers, Sometimes hhe ends up in dark, mysterious, unfamiliar and Lnriendly places. Sometimes he arrives with his elbow sticking out of his ear. Sometimes he winds up in Oz ‘As an involuntary response, the character automatically teleport from any situation that presents a eal and immediate threat of death, This happens whether the player wants to \nVehicular Accidents and Falling \nfrom Great Heights \n‘Occasionally characters fall off something tall, or ae inside something moving very fas, thal suddenly comes to a halt against some: thing relatively massive.",
+    "topic": "mutations",
+    "keywords": [
+      "teleport",
+      "sometimes",
+      "location",
+      "mutant",
+      "power",
+      "more",
+      "which",
+      "garments"
+    ]
+  }
+}

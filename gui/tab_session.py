@@ -194,6 +194,27 @@ class SessionTab(ttk.Frame):
             style="Muted.TLabel",
         ).pack(side=tk.LEFT, padx=PAD_SMALL)
 
+        # Regel-Budget
+        ttk.Label(fine_frame, text="Regel-Budget").grid(
+            row=5, column=0, sticky=tk.W, padx=PAD, pady=PAD_SMALL,
+        )
+        budget_frame = ttk.Frame(fine_frame, style="TFrame")
+        budget_frame.grid(row=5, column=1, padx=PAD, pady=PAD_SMALL, sticky=tk.EW)
+        self._rules_budget_var = tk.IntVar(value=6000)
+        self._budget_scale = ttk.Scale(
+            budget_frame, from_=1000, to=2000000, variable=self._rules_budget_var,
+            orient=tk.HORIZONTAL, length=200,
+            command=self._on_budget_change,
+        )
+        self._budget_scale.pack(side=tk.LEFT)
+        self._budget_label = ttk.Label(budget_frame, text="6000 (~1500 Tokens)")
+        self._budget_label.pack(side=tk.LEFT, padx=PAD)
+        ttk.Label(
+            budget_frame,
+            text="(Zeichen Regeln pro KI-Runde)",
+            style="Muted.TLabel",
+        ).pack(side=tk.LEFT, padx=PAD_SMALL)
+
         fine_frame.columnconfigure(1, weight=1)
 
         # ── Charakter-Uebersicht ──
@@ -300,6 +321,9 @@ class SessionTab(ttk.Frame):
                 self._language_var.set(getattr(sc, "language", "de-DE"))
                 self._temperature_var.set(getattr(sc, "temperature", 0.92))
                 self._temp_label.configure(text=f"{getattr(sc, 'temperature', 0.92):.2f}")
+                budget = getattr(sc, "rules_budget", 6000)
+                self._rules_budget_var.set(budget)
+                self._budget_label.configure(text=f"{budget} (~{budget // 4} Tokens)")
             else:
                 self._combos["ruleset"].current(0)
                 self._combos["adventure"].current(0)
@@ -330,6 +354,11 @@ class SessionTab(ttk.Frame):
     def _on_temp_change(self, value: str) -> None:
         self._temp_label.configure(text=f"{float(value):.2f}")
 
+    def _on_budget_change(self, value: str) -> None:
+        v = int(float(value))
+        tokens_approx = v // 4
+        self._budget_label.configure(text=f"{v} (~{tokens_approx} Tokens)")
+
     def _load_preset(self) -> None:
         preset_name = self._combos["preset"].get()
         if not preset_name or preset_name == "(keine)":
@@ -349,6 +378,9 @@ class SessionTab(ttk.Frame):
             self._language_var.set(cfg.language)
             self._temperature_var.set(cfg.temperature)
             self._temp_label.configure(text=f"{cfg.temperature:.2f}")
+            budget = getattr(cfg, "rules_budget", 6000)
+            self._rules_budget_var.set(budget)
+            self._budget_label.configure(text=f"{budget} (~{budget // 4} Tokens)")
             logger.info("Preset geladen: %s", preset_name)
         except Exception as exc:
             logger.warning("Preset-Load fehlgeschlagen: %s", exc)
@@ -395,6 +427,10 @@ class SessionTab(ttk.Frame):
         if "temperature" in data:
             self._temperature_var.set(data["temperature"])
             self._temp_label.configure(text=f"{data['temperature']:.2f}")
+        if "rules_budget" in data:
+            self._rules_budget_var.set(data["rules_budget"])
+            self._budget_label.configure(
+                text=f"{data['rules_budget']} (~{data['rules_budget'] // 4} Tokens)")
         if "atmosphere" in data:
             self._atmosphere_var.set(data["atmosphere"])
 
@@ -432,6 +468,7 @@ class SessionTab(ttk.Frame):
             keeper_persona=self._persona_var.get(),
             language=self._language_var.get(),
             temperature=self._temperature_var.get(),
+            rules_budget=self._rules_budget_var.get(),
         )
 
     # ── Button-Aktionen ──

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0145_c04",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 145, chunk 4.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 145,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Geistessonde\nREICHWEITE\n ART\n DAUER\n ENTZUG\nB\n P\n A\n 5\nDer Beobachter kann in den Geist eines Ziels eindringen \nund versuchen, möglichst viele von dessen Gedanken zu er-\nkennen – und dabei auch herauszufinden, was davon wahr \nund was reine Selbsttäuschung ist. Lege eine Probe auf \nHexerei + Magie gegen Willenskraft + Logik des Ziels ab. Die Nettoerfolge legen fest, ob der Beobachter überhaupt \nin Reichweite des Ziels ist und wie viele Informationen er \naus dem Kopf des Ziels holen kann. Die Tabelle \nErgebnisse \nder Geistessonde\n gibt die Art von Informationen an, die \ndurch den Zauber gewonnen wird. Ergebnisse der Geistessonde\nNETTO-\nERFOLGE\n ERGEBNIS\n1–2\n Der Beobachter kann nur die oberﬂ ächlichen \nGedanken des Ziels lesen. 3–4\nDer Beobachter kann alles herausﬁ nden, \nwas das Ziel bewusst weiß, \nund Erinnerungen aus den letzten \n72 Stunden lesen. 5+\nDer Beobachter kann ins Unterbewusstsein \ndes Ziels eindringen und Informationen \nerhalten, die dem Ziel selbst nicht \nbewusst sind, wie z. B. psychologische \nEigenheiten, tiefe Ängste oder verschüttete \nErinnerungen. Gerä t Anal ysieren\nREICHWEITE\n ART\n DAUER\n ENTZUG\nB\n P\n A\n 2\nNatürlich weißt du, wie ein Kommlink aussieht, aber das \nheißt nicht, dass du die Funktion der seltsamen schwarzen \nBox mit der einzelnen Buchse identifizieren kannst. Und \ndie Geister mögen dir beistehen, wenn es um eine Maschi-\nne aus den 50ern oder Ähnliches geht. Gerät Analysieren \nverschafft dir, basierend auf den Nettoerfolgen (gegen den \nObjektwiderstand), Informationen über das unbekannte \nGerät.",
+    "topic": "magic",
+    "keywords": [
+      "ziels",
+      "beobachter",
+      "informationen",
+      "geistessonde",
+      "reichweite",
+      "dauer",
+      "entzug",
+      "eindringen"
+    ]
+  }
+}

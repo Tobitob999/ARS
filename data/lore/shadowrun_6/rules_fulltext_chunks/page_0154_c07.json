@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0154_c07",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 154, chunk 7.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 154,
+    "chunk_index": 7,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Manchmal \nbenutzt sie gerne eine Variante von Heilen (wie Kühlendes \noder Wärmendes Heilen), aber diesmal will sie es direkt \nangehen und wählt einfach nur Heilen aus. Der Entzug dieses \nZaubers beträgt 3. In Schritt 2 legt sie den Auslöser fest, aber weil es sich \num einen Heilzauber handelt, muss sie Befehl auswählen. Dadurch steigt der Entzug um 2 auf 5. Sie hat es bis Schritt 3 geschafft – jetzt muss sie das \nErzeugnis herstellen. Im Moment beträgt der Entzug 5, also \nhat sie fünf Stunden Arbeit vor sich. Das ist ziemlich viel \nEntzug – zum Glück hat Agbele Oku ein paar Reagenzien in \nGestalt getrockneter Haut eines Erwachten Pythons, daher \nverwendet sie 1 Dram, um den Entzug auf 4 zu senken. Der \nZeitaufwand zur Herstellung des Erzeugnisses bleibt bei 5 \nStunden. Wenn diese 5 Stunden vorbei sind, legt sie eine \nVergleichende Probe auf Verzaubern 4 + Magie 5 (also 9 \nWürfel) gegen den gesenkten Entzug von 4 ab. Sie erzielt \n4 Erfolge, die Spielleiterin 1, also hat das alchemistische \nErzeugnis eine Wirksamkeit von 3. Sie hat Wirksamkeit\n× \n2 – also 6 – Stunden, bis das Erzeugnis anfängt, seine \nMacht zu verlieren. Sie könnte ihre Mission allerdings mit einem Handicap \nbeginnen, falls der Entzug ihr Schaden zufügt. Das Attribut \nihrer Tradition ist Logik (5), und ihre Willenskraft beträgt \n6. Gegen den Entzug von 4 erzielt sie mit ihren 11 Würfeln \n3 Erfolge. Ein Kästchen Betäubungsschaden – damit kann \nsie leben. Es ist Zeit, das Erzeugnis mitzunehmen und es \nfür ein Teammitglied einzusetzen, das Hilfe braucht. Wenn \nes eingesetzt wird, solange es noch die volle Wirksamkeit \nhat, würfelt es mit Wirksamkeit 3 + Magie 5, also mit 8 \nWürfeln Heilkraft.",
+    "topic": "magic.spells",
+    "keywords": [
+      "entzug",
+      "also",
+      "erzeugnis",
+      "stunden",
+      "wirksamkeit",
+      "heilen",
+      "betraegt",
+      "schritt"
+    ]
+  }
+}

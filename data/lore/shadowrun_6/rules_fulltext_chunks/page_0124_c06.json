@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0124_c06",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 124, chunk 6.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 124,
+    "chunk_index": 6,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Das heißt, die Ruhestunden für die Genesung von \nBetäubungsschaden zählen gegen den Tag, den man sich \nBetäubungsschaden zählen gegen den Tag, den man sich \nzur Genesung von Körperlichem Schaden ausruhen muss. zur Genesung von Körperlichem Schaden ausruhen muss. Genesungsproben werden ohne Verletzungsmodifikatoren \nGenesungsproben werden ohne Verletzungsmodifikatoren \nabgelegt. SHADOWRUN: SECHSTE EDITION",
+    "topic": "combat.damage",
+    "keywords": [
+      "genesung",
+      "betaeubungsschaden",
+      "zaehlen",
+      "gegen",
+      "sich",
+      "koerperlichem",
+      "schaden",
+      "ausruhen"
+    ]
+  }
+}

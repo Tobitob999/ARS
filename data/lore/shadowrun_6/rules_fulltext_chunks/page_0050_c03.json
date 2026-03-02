@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0050_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 50, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 50,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Wenn der Schaden, den du deinem Ziel \nzufügst, vor der Schadenswiderstandsprobe größer \nist als die Konstitution des Ziels, fällt es hin und \ngelangt in den Status Liegend. Kosten: 1 Edge. • Vorausschau (Mehrfachangriffe, Fernkampf- Angriff):\nDu führst diesen Kampf wie eine Schachpartie und \nbist deinen Gegnern mehrere Züge voraus. Wenn \ndu diese Edge-Handlung mit einem Mehrfachangriff \ndurchführst, verdoppelst du deinen Würfelpool und \nteilst ihn dann so gleichmäßig wie möglich zwischen \nden einzelnen Zielen auf. Kosten: 4 Edge. Edge-Handlungen \nnach K osten\n1 Edge\nAbstechen (Ziel ansagen, Nahkampf-Angriff)\nPlötzliche Erkenntnis (beliebig)\nTaktische Rolle (Volle Deckung)\nUmwerfen (Nahkampf-Angriff)\n2 Edge\nAus der Deckung feuern (Fernkampf-Angriff, \n Charakter muss im Status Deckung sein)\nDramaqueen (Fertigkeit einsetzen [Überreden])\nEntwinden (Blocken)\nK.-o.-Schlag (Nahkampf-Angriff)\n4 Edge\nGroße Rede (Fertigkeit einsetzen [Einﬂ uss])\nVorausschau (Mehrfachangriffe, Fernkampf-Angriff)\n5 Edge\nAngesagtes Ziel – Entwaffnen (jede Art von Angriff)\nAngesagtes Ziel – Lebenswichtige Organe (jede \nArt von Angriff)\nEdge für soziale Proben\nEinige der besten Shadowrunner im Geschäft sind gleich-\nzeitig auch ausgesprochen geschickte Redner. Sie sind in \nder Lage, ihre Aufträge zu erfüllen, ohne dass ein einziger \nSchuss fällt. Dafür braucht man eine flinke und redege-\nwandte Zunge, und wie im Kampf können auch hier die \näußeren Umstände großen Einfluss darauf haben, wie \nerfolgreich ein Überredungs- oder Beeinflussungsversuch \nverläuft. Die Rahmenbedingungen einer sozialen Probe können \nes einer der beiden Seiten erlauben, Edge zu erhalten.",
+    "topic": "combat.attack",
+    "keywords": [
+      "edge",
+      "angriff",
+      "ziel",
+      "fernkampf",
+      "nahkampf",
+      "deckung",
+      "faellt",
+      "status"
+    ]
+  }
+}

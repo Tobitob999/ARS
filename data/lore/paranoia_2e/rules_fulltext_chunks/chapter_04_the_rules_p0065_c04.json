@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_04_the_rules_p0065_c04",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_04_the_rules",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The Rules page 65, chunk 4.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_04_the_rules",
+    "source_title": "The Rules",
+    "page": 65,
+    "chunk_index": 4,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "raw_text": "For eamples, see Mary Shelley's Frankenstein, George Romero's Night of the Living Dead, and Paramount’s The Search for Spock \nHl Clone Replacement When a player character dies during an adventure, a clone replacement cannot be ac- tivated until The Computer is aware of the character's death. Normally, death would be reported by another Troubleshooter or loyal citizen, Failure to report such information im- mediately is a serious act of treason. The Computer may also discover the \ncharacter's death by monitoring communica- tions or surveillance devices or by question- ing remote robot agents. ‘When The Computer leas of a Trouble- shooter's demise, it immediately contacts and activates a member of his clone family As soon as possible the clone is briefed and dispatched as replacement for the dead Troubleshooter. If transpon is not available, or ifthe mission jroup is ina remote or inaccessible area, the replacement clone is transported at the first ‘opportunity ‘What've Those Clone Brothers Been Up (0, Anyway? While the activated clone is out shooting trouble for The Computes, the rest of the clone family may ether continue performing routine tasks filing papers, polishing corridor walls, bullying infrared) for their nyn service group, ‘or they may be sent to special Monitor Centers to observe their counterparts during the course Of the mission, Wherever they are, they receive ‘regular reports on the ongoing mission by com ‘unit so that, in case of disaster, they can step into their ‘brother's. boots and carry on effectively Preparing the Clone Replacement’s Char- acter Sheet Take the dead characters sheet, change the character's clone number (Pyle-O-ASH| becomes.",
+    "topic": "death",
+    "keywords": [
+      "clone",
+      "replacement",
+      "character",
+      "they",
+      "dead",
+      "computer",
+      "death",
+      "mission"
+    ]
+  }
+}

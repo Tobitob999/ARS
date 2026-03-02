@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npc",
+  "id": "npc_046",
+  "name": "Sable-U-R-46",
+  "tags": [
+    "paranoia_2e",
+    "npc",
+    "roster"
+  ],
+  "summary": "Power Services operative with layered loyalties.",
+  "source_text": {
+    "book": "Paranoia 2E",
+    "confidence": "derived"
+  },
+  "mechanics": {
+    "service_group": "Power Services",
+    "secret_society": "Pro Tech",
+    "mutation": "Adrenaline Control",
+    "trait": "zealous",
+    "clearance": "Orange",
+    "use_in_play": "reluctant_ally"
+  }
+}

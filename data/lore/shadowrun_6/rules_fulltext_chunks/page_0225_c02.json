@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0225_c02",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 225, chunk 2.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 225,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Grauen\nART HANDLUNG REICHWEITE DAUER\nM H BF Speziell\nDiese Kraft ermöglicht einem Critter, seine Opfer mit einem \nüberwältigenden Entsetzen zu erfüllen. Das Opfer flieht \nvoller Panik und bleibt nicht eher stehen, bis es in Sicherheit \nund außer Sicht des Critters ist; es erhält die Status Panisch\nund Verängstigt. Der Critter legt eine Vergleichende Probe \nauf seine Willenskraft + Magie gegen Willenskraft + Logik \ndes Opfers ab. Das Grauen hält 1 Kampfrunde pro Net-\ntoerfolg des Critters an, die Status halten doppelt so lange \nan. Und auch wenn das Entsetzen verflogen ist, muss dem \nOpfer eine Probe auf Willenskraft + Logik (halbe Magie des \nCritters; aufgerundet) gelingen, um genug Mut zu haben, \ndem Critter erneut gegenüberzutreten. Immunit ä t\nART HANDLUNG REICHWEITE DAUER\nP Auto Selbst Immer\nEin Critter mit der Kraft Immunität besitzt eine verstärkte \nResistenz gegen bestimmte Arten von Angriffen oder sons-\ntigen Beeinträchtigungen. Die Wirkung entspricht einem \nVerstärkten Panzer mit einer Stufe in Höhe der Essenz des \nCritters (aber nur gegen diese bestimmte Art von Schaden). Siehe Verstärkter Panzer, S. 227. Immunität gegen Alter: Diese Immunität stoppt die Aus-\nwirkungen des Alterns und macht den Critter praktisch \nunsterblich – es sei denn, er lebt ein gefährliches Leben. Immunität gegen Normale Waffen: Gilt für alle Angriffe, \ndie nicht magischer Natur sind; Waffenfoki, Zauber, \nAdepten- und Critterkräfte funktionieren wie gehabt. Hat der Critter gleichzeitig die Schwäche Allergie oder \nVerwundbarkeit, dann wirkt die Immunität auch nicht \ngegen nichtmagische Angriffe mittels des Allergens oder \nder Verwundbarkeit.",
+    "topic": "combat",
+    "keywords": [
+      "critter",
+      "gegen",
+      "immunitaet",
+      "diese",
+      "einem",
+      "opfer",
+      "willenskraft",
+      "grauen"
+    ]
+  }
+}

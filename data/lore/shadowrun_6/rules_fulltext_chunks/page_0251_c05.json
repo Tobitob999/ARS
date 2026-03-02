@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0251_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 251, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 251,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "WiFi-Vorteil:\n Bei einem Treffer bleiben WiFi-fähige \nWurfwaffen im Ziel stecken und können verwendet wer-\nden, um Bewegungsmuster vorherzusagen und den Ort \nzu bestimmen. Ein Treffer liefert jemandem, der per WiFi \nAndere Nahkampfw affen\nWAFFE\n ART\n SCHADEN\n ANGRIFFSWERTE\n VERFÜGBARKEIT\n PREIS\nBullenpeitsche*\n Exotisch\n 1K\n 6/–/–/–/–\n 4\n 255 ¥\nMonoﬁ lamentpeitsche*\n Exotisch\n 6K\n 14/–/–/–/–\n 6I\n 1.300 ¥\nMotorradkette\n Nahkampf\n 2B\n 5/–/–/–/–\n 1\n 15 ¥\nSchlagring\n Nahkampf\n 3K\n 6/–/–/–/–\n 1\n 100 ¥\nSchockhandschuhe\n Nahkampf\n 4B(e)\n 5/–/–/–/–\n 4\n 790 ¥\n* Peitschen addieren die Reaktion des Charakters statt seiner Stärke zu ihrem Angriffswert. Projektil- und Wurfw affen\nWAFFE\n SCHADEN\n ANGRIFFSWERTE\n VERFÜGBARKEIT\n PREIS\nArmbrust, leicht\n 2K\n 6/8/2/–/–\n 3\n 150 ¥\nArmbrust, mittel\n 3K\n 2/10/4/2/–\n 3L\n 290 ¥\nArmbrust, schwer\n 4K\n 2/8/6/4/–\n 4L\n 425 ¥\n Bolzen\n –\n –\n 2\n 5 ¥\n Injektionsbolzen\n –\n –\n 4\n 50 ¥*\nBogen (Stufe 1–14)\n (Stufe \n÷\n 2)K\n (Stufe \n÷\n 2)/(Stufe)/\n(Stufe \n÷\n 4)/–/–\n (Stufe \n÷\n 3)L\n (Stufe \n×\n 10) + 100 ¥\n Pfeil (Stufe 1–14)\n –\n –\n (Stufe \n÷\n 3)\n (Stufe \n×\n 2) ¥\n Injektionspfeil (Stufe 1–14)\n –\n –\n 4\n (Stufe \n×\n 20) ¥*\nShuriken\n 2K\n 9/11/5/–/–\n 2\n 160 ¥\nWurfmesser\n 2K\n 10/9/3/–/–\n 2\n 155 ¥\nSHADOWRUN: SECHSTE EDITION\n250 // Ausrüstung // PROJEKTIL- UND WURFW AFFEN",
+    "topic": "combat.attack",
+    "keywords": [
+      "stufe",
+      "wifi",
+      "affen",
+      "nahkampf",
+      "armbrust",
+      "treffer",
+      "waffe",
+      "schaden"
+    ]
+  }
+}

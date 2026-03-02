@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0277_c03",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 277, chunk 3.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 277,
+    "chunk_index": 3,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Richtmikrofon\nMit diesem Mikrofon kann man Unterhaltungen in bis zu \n100 Metern Entfernung belauschen. Das Mikrofon muss \nauf das gewünschte Abhörziel gerichtet sein, und feste \nObjekte oder laute Geräusche innerhalb der Abhörlinie \nstören den Effekt. Infrarotsicht\nDiese Sichtverstärkung ermöglicht das Sehen im infraroten \nSpektrum, wodurch man Hitzemuster erkennen kann. Das \nist eine sehr praktische Methode, um Lebewesen in völliger \nDunkelheit zu entdecken, um zu prüfen, ob ein Motor oder \neine Maschine vor Kurzem gelaufen ist, und für ähnliche \nZwecke. Infrarotsicht gewährt 1 Edge, wenn die Gegenseite \nkeine Sichtverstärkung hat, um schwaches Licht oder sogar \nvöllige Dunkelheit auszugleichen. Restlichtverst ärkung\nDieses Zubehör erlaubt es einem, sogar dann noch nor-\nmal zu sehen, wenn die Sterne die einzige Lichtquelle am \nHimmel sind. Restlichtverstärkung gewährt 1 Edge, wenn \ndie Gegenseite keine Sichtverstärkung hat, die schwaches \nLicht ausgleicht. Sichtverbesserung\nDieses Zubehör schärft die Sicht eines Charakters auf alle \nEntfernungen und bietet ihm eine Sehschärfe, die eher der \neines durchschnittlichen Falken als der eines durchschnitt-\nlichen Metamenschen ähnelt. Das System gewährt einen \nWürfelpoolbonus von +1 auf alle visuellen Wahrnehmungs-\nproben. Sichtvergrößerung\nDiese Zoomfunktion vergrößert die Sicht digital um das bis \nzu 50-Fache, wodurch man weit entfernte Ziele besser sehen \nkann. Die Angriffswerte für die Entfernungen Mittel, Weit \nund Sehr weit erhöhen sich um 2, sofern der verwendete \nAngriff überhaupt einen Angriffswert in der betreffenden \nEntfernung hat. Smartlink\nDies ist die benutzerseitige Komponente des Smartgun-\nsystems (S. 260).",
+    "topic": "general",
+    "keywords": [
+      "sichtverstaerkung",
+      "sehen",
+      "gewaehrt",
+      "eines",
+      "weit",
+      "mikrofon",
+      "entfernung",
+      "infrarotsicht"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_04_the_rules_p0078_c05",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_04_the_rules",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The Rules page 78, chunk 5.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_04_the_rules",
+    "source_title": "The Rules",
+    "page": 78,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "raw_text": "Nonetheless, credit costs and security clear ‘ances are included, The listed costs the sug- gested fine for loss or damage tothe indicated item, The security clearance is the level at which a player character can requisition the item witha reasonable expectation of his re- quest being granted. When equipment is re- uisitioned in this way, a character must ex- plain why he needs the item, and must sign documents accepting responsibilty frit. His request may be refused if The Computer doesn't think he needs it, or if other (non- player characters have already requisitioned. all aailable items. In other words, notwith- standing the printed security clearance, fee! free to refuse a request if you wish. These charts are, of course, also clearance Ultraviolet. ~",
+    "topic": "combat.damage",
+    "keywords": [
+      "security",
+      "item",
+      "clearance",
+      "costs",
+      "player",
+      "character",
+      "must",
+      "needs"
+    ]
+  }
+}

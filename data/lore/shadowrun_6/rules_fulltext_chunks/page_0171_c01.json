@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0171_c01",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 171, chunk 1.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 171,
+    "chunk_index": 1,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Flexible Signa tur\nDu kannst deine astrale Signatur (S. 161) nach Belieben \nändern. Du kannst sie so verändern, dass sie nicht zu \ndeiner Identifizierung taugt, oder du kannst die astrale \nSignatur eines anderen Zauberers vortäuschen, den du as-\nkennt hast. Oder du kannst einfach das Schwinden deiner \nSignatur beschleunigen. Wenn jemand versucht, die ver-\nfälschte Signatur zu askennen, steigt der Schwellenwert \num deinen Initiatengrad. Wenn also ein Initiat mit Initia-\ntengrad 2 eine verfälschte Signatur hinterließe, könnte ein \nanderer Zauberer sie mit 3 Erfolgen wie üblich askennen, \naber erst mit 5 Erfolgen die Wahrheit hinter der Fälschung \nsehen. Du kannst nur astrale Signaturen nachahmen, die \ndu selbst askennt hast, und die Spielleiterin kann dafür \neine Probe auf Erinnerungsvermögen (S. 37) verlangen. Du kannst auch die Haltbarkeit deiner astralen Signatur \num deinen Initiatengrad in Stunden reduzieren. Intensivierung\nDu kannst einen aufrechterhaltenen Zauber in eine Art \nSchleife zwingen, sodass er sich selbst ohne dein Zutun \naufrechterhält. Um einen Zauber zu intensivieren, führe ei-\nne Haupthandlung durch und gib Karma aus, während du \nden Zauber aufrechterhältst. Du musst mindestens 1 Kar-\nma ausgeben, kannst aber maximal so viel Karma ausge-\nben, wie du Erfolge bei der Zauberprobe für diesen Zauber \nerzielt hast. Der Zauber wird permanent und erhält gegen \nVersuche, ihn zu bannen (S. 145), einen Würfelpoolbonus \nin Höhe des Karmas, das du für ihn ausgegeben hast. Kraftpunkt (nur Adepten)\nWenn du ein Adept bist, kannst du statt einer Metamagie \neinen Kraftpunkt erhalten. Du kannst das jedes Mal ma-\nchen, wenn du einen neuen Initiatengrad erreichst.",
+    "topic": "magic.spells",
+    "keywords": [
+      "kannst",
+      "signatur",
+      "einen",
+      "zauber",
+      "hast",
+      "astrale",
+      "deiner",
+      "initiatengrad"
+    ]
+  }
+}

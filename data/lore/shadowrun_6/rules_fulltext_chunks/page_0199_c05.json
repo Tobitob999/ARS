@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "page_0199_c05",
+  "tags": [
+    "shadowrun_6",
+    "rules",
+    "injection_chunk"
+  ],
+  "summary": "Shadowrun 6 chunk page 199, chunk 5.",
+  "source_text": {
+    "book": "Shadowrun_6_Downloadversion_2024.pdf",
+    "page": 199,
+    "chunk_index": 5,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "core",
+    "empty_page": false,
+    "raw_text": "Sofern in der Beschreibung nicht anders angegeben, \nkönnen alle Fahrzeuge und Drohnen sechs Stunden lang \nin Betrieb sein, bevor sie auftanken oder aufladen müssen. Die Bewegung \nvon F ahrzeugen\nWie sieht das mit der Bewegung nun genau aus? Grund-\nsätzlich gilt: \nDie pro Kampfrunde zurückgelegte Distanz \nist gleich der Geschwindigkeit zu Beginn der Runde ± \n(Beschleunigungsrate ÷ 2) [sofern beschleunigt oder ab-\ngebremst wird]. Wenn du dich also zu Beginn der Kampfrunde mit einer \nGeschwindigkeit von 30 Metern pro Kampfrunde fortbe-\nwegst und um 10 Meter pro Kampfrunde beschleunigst, \ndann bewegst du dich in dieser Runde 30 + (10 ÷ 2) Meter, \nalso insgesamt 35 Meter. Wenn du dich mit 30 Metern pro \nKampfrunde bewegst und um 10 Meter pro Kampfrunde ab-\nbremst, dann bewegst du dich 30 – (10 ÷ 2) Meter weit, also \n25 Meter. Und wenn du weder beschleunigst noch bremst, \ndann bewegst du dich so viele Meter, wie durch deine aktuelle \nSHADOWRUN: SECHSTE EDITION\n198 // Riggen // RIGGEN VON F AHRZEUGEN",
+    "topic": "combat",
+    "keywords": [
+      "meter",
+      "kampfrunde",
+      "dich",
+      "bewegst",
+      "also",
+      "dann",
+      "sofern",
+      "bewegung"
+    ]
+  }
+}

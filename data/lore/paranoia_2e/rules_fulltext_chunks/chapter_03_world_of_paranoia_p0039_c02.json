@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rule_chunk",
+  "id": "chapter_03_world_of_paranoia_p0039_c02",
+  "tags": [
+    "paranoia_2e",
+    "rules",
+    "injection_chunk",
+    "chapter_03_world_of_paranoia",
+    "chapter"
+  ],
+  "summary": "Rule chunk from The World of Paranoia page 39, chunk 2.",
+  "source_text": {
+    "book": "Paranoia-2E-Core-Rulebook_text.pdf",
+    "source_kind": "chapter",
+    "source_id": "chapter_03_world_of_paranoia",
+    "source_title": "The World of Paranoia",
+    "page": 39,
+    "chunk_index": 2,
+    "extraction_mode": "lossless_page_segment"
+  },
+  "mechanics": {
+    "injection_priority": "support",
+    "raw_text": "However, ifan IntSec agent and a regular citizen mutually accuse each ‘other of treason, all else being equal, The Computer is more likely to believe the agent. Inaddition to plainclothes agents (ie, spies), IntSec maintains uniformed police. At the bot. tom of the scale are the omnipresent Red clearance goons. Selected for size and coarseness of intellect, they wear distinctive tight leather-like pants and jackets, and silvered reflective riot helmets. They routinely carry truncheons, neurowhips, stun guns, tanglers, and laser pistols or rifles. Their main task is, to break up brawls, riots, and food fights which ‘occur frequently among the Infrareds. More widely feared among higher-clearance characters are the Blue clearance Tioopers, commonly called “Blues” These are the police of each sector, called in to deal with Serious crimes or unrest. They are well disciplined, highly trained, totally merciless, ‘and possess rly awesome firepower. Their ar- ‘mor is at the pinnacle of Alpha Complex technology, and totally impervious to most of the weapons carried by Red clearance ‘Troubleshooters. (For more information about this elite group, see West End’s HIL Sector Blues, a supplement for Paranoia.) ‘A summons to an interview with Internal Security is seldom a pleasant experience, and the assignment of an observer from Internal Security to any project is reason for serious paranoia, \n‘A Typical IntSec Conversation IntSec Agent: Citizen! | notice that your sneakers are unlaced, Citizen: Yes, citizen, you ae entirely comrect. IntSec Agent: May | ask why your sneakers are Uunlaced? Citizen: Yes, citizen, you may.",
+    "topic": "treason",
+    "keywords": [
+      "citizen",
+      "intsec",
+      "agent",
+      "clearance",
+      "more",
+      "they",
+      "police",
+      "their"
+    ]
+  }
+}
