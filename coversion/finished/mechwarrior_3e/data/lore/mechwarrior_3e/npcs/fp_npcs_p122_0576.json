@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Resolve the secondary attack against the new target",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 122,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:32Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p122_0576",
+    "entity_type": "npcs",
+    "name_guess": "Resolve the secondary attack against the new target",
+    "breadcrumb_path": "Rules Compendium > Page 122 > npcs > Resolve the secondary attack against the new target",
+    "page_refs": [
+      122
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "4 M"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [
+      "TN",
+      "damage"
+    ],
+    "excerpt": "Resolve the secondary attack against the new target using all thc normal rules as if the attacker were making an attack against that target: addition to the normal modifiers appiy an additional +4 Modifier t0 the TN for the second character. If the attack hits resolve damage normally misses, will only nave chance ot striking another character there is another potential target Iying the same direction from the Original target as the secondary target."
+  }
+}

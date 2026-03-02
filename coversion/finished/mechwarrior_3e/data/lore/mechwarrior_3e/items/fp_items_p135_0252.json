@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "tew schools and societics still teach the art",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 135,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:37Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p135_0252",
+    "entity_type": "items",
+    "name_guess": "tew schools and societics still teach the art",
+    "breadcrumb_path": "Rules Compendium > Page 135 > items > tew schools and societics still teach the art",
+    "page_refs": [
+      135
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "tew schools and societics still teach the art ot swordsmanship, however; and swords are sometimes used in shipboard combat to avoid the chance of breaching the hull, Clubs club\" can be anything from tree limb to specially manufactured blackjack: Law enforcement and security officers commonly carry collapsible batons while on duty: ARCHAICMMELEE WEAPONS These are among the least expensive and most readily avail: able weapons existence They are also the east regulated Vibroblades Though on first glance vibroblade looks Iike bulkier ver- sion of standard bladed weapon; actually high-tech and Iethal."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "but Inev erabled his forces scizc hali of",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 201,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:20Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p201_0743",
+    "entity_type": "history",
+    "name_guess": "but Inev erabled his forces scizc hali of",
+    "breadcrumb_path": "Rules Compendium > Page 201 > history > but Inev erabled his forces scizc hali of",
+    "page_refs": [
+      201
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "but Inev erabled his forces scizc hali of the Capellan Confederation. The appearance of the Clans prompted almost every major military force t0 Ihrow Out tnc commonly accepted princinles 0f Wdl From the beginning of tne Clan invasion_ was clcar that Ihs new encmy had its own methods 0f Waging war. wnich In Ine end provided the Clans only weak point."
+  }
+}

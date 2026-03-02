@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Yakuza Draconis Combine Affiliation only) Postgraduate Studies Events",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 50,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:55Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p050_0206",
+    "entity_type": "npcs",
+    "name_guess": "Yakuza Draconis Combine Affiliation only) Postgraduate Studies Events",
+    "breadcrumb_path": "Rules Compendium > Page 050 > npcs > Yakuza Draconis Combine Affiliation only) Postgraduate Studies Events",
+    "page_refs": [
+      50
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Yakuza Draconis Combine Affiliation only) Postgraduate Studies Events Switching of critical samples causes death of per- sonnel; you get fired [Bad Reputation (21, Poverty; -1 t0 all skills gained from Post Graduate Studies Path; may not enter University or Post-Graduate Studies paths again] Your field study team gets caught in border raid [Disabled_ Timid] Your studies frequently take you to poorly-lit places [Poor Vision] Caught falsifying records t0 cover for friend [Bad Reputation] You take stimulants keep Up with the long hours (Addiction] You Bet by on adequate skills [+1 to any skill from this path] Your leadership ability puts you in teaching posi tion (Leadership +1 Training +25 Your studies frequently force you to work alone in the field [Piloting /Hover Navigation / Ground +2, Comms Conv; Survival +1] Because your studies involve extensive ad legiti: mate travel; You recruited as government informant (Alternate Identity; Contact (31."
+  }
+}

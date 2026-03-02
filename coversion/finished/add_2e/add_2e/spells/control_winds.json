@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "control_winds",
+  "name": "Control Winds",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Control Winds (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "fourth",
+    "book_pages": [
+      222
+    ],
+    "pdf_pages": [
+      223
+    ],
+    "raw_block": "Control Winds (Alteration)\nSphere: Weather\nRange: 0\nComponents: V, S\nDuration: 1 turn/level\nCasting Time: 8\nArea of Effect: 40-foot/level radius\nSaving Throw: None\nBy means of a control winds spell, the\ncaster is able to alter wind force in the area\nof effect. For every three levels of experi-\nence, the caster can increase or decrease\nwind force by one level of strength. Wind\nstrengths are as follows:\nWind Force Miles Per Hour\nModerate Breeze 8-18\nLight Breeze 2-7\nStrong Breeze 19-31\nGale 32-54\nstorm 55-72\nHurricane 73-176\nWinds in excess of 19 miles per hour drive\nsmall flying creatures (those eagle-sized and\nunder) from the skies, severely affect missile\naccuracy, and make sailing difficult. Winds\nin excess of 32 miles per hour drive even\nman-sized flying creatures from the skies\nand cause minor ship damage. Winds in ex-\ncess of 55 miles per hour>drive all flying\ncreatures from the skies, uproot trees of\nsmall size, knock down wooden structures,\ntear off roofs, etc., and endanger ships.\nWinds in excess of 73 miles per hour are of\nhurricane force.\nAn \"eye\" of @foot radius, in which the\nwind is calm, exists around the caster. Note\nthat while the spell can be used in under-\nground places, the eye shrinks one foot for\nevery foot of confinement, if the spell is cast\nin an area smaller than the area of effect.\n(For example, if the area of effect is a 360-\nfoot radius, and the space only allows a 350-\nfoot area, the eye shrinks by 10 feet to a\n30-foot radius; a space under 320 feet in ra-\ndius would eliminate the eye and subject the\nspellcaster to the effects of the wind.)\nOnce the spell is cast, the wind force in-\ncreases (or decreases) by 3 miles per hour\nper round until the maximum (or minimum)\nspeed is attained. The caster, with one\nround of complete concentration, can stabi-\nlize the wind at its current strength, or set it\nto increase or decrease, althoGgh the rate of\nthe change cannot be altered. The spell re-\nmains in force for one turn for each level of\nexperience of the caster. When the spell is\nexhausted, the force of the wind wanes (or\nwaxes) at the same rate, until it reaches the\nlwel it was at before the spell took effect.\nAnother caster can use a control winds spell\nto counter the effects of a like spell up to the\nlimits of his own ability."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Control Winds",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "0",
+      "components": "V, S",
+      "duration": "1 turn/level",
+      "casting_time": "8",
+      "area_of_effect": "40-foot/level radius",
+      "saving_throw": "None",
+      "description_excerpt": "By means of a control winds spell, the caster is able to alter wind force in the area of effect. For every three levels of experi- ence, the caster can increase or decrease wind force by one level of strength. Wind strengths are as follows: Wind Force Miles Per Hour Moderate Breeze 8-18 Light Breeze 2-7 Strong Breeze 19-31 Gale 32-54 storm 55-72 Hurricane 73-176 Winds in excess of 19 miles per hour drive small flying creatures (those eagle-sized and under) from the skies, severely affect missile accuracy, and make sailing difficult. Winds in excess of 32 miles per hour drive even man-sized flying creatures from the skies and cause minor ship damage. Winds in ex- cess of 55 miles per hour>drive all flying creatures from the skies, uproot trees of small size, knock down wooden structures, tear off roofs, etc., and endanger ships. Winds in excess of 73 miles per hour are of hurricane force."
+    },
+    "quality_flags": []
+  }
+}

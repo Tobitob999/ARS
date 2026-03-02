@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Rerolling the he gets anotheri and [nen 1.",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 116,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:30Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p116_0149",
+    "entity_type": "items",
+    "name_guess": "Rerolling the he gets anotheri and [nen 1.",
+    "breadcrumb_path": "Rules Compendium > Page 116 > items > Rerolling the he gets anotheri and [nen 1.",
+    "page_refs": [
+      116
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "Damage",
+      "Wound",
+      "armor",
+      "damage"
+    ],
+    "excerpt": "Rerolling the he gets anotheri and [nen 1. His tota damage; Or Damage Factor; is (8 6 + 1 =) 38. checks the Wouna Table ana sees that Damage Factor of 38 equivalent [0 Critical Wound: His weapon Type B (ballistic) weapon with armor penetration of 4 The target wearng flak vest; which nas ballistic armor value 0f 5."
+  }
+}

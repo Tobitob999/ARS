@@ -1,0 +1,133 @@
+{
+  "module": "cthulhu_7e",
+  "session_id": 76,
+  "total_turns": 10,
+  "total_latency_ms": 15348.3,
+  "avg_latency_ms": 1534.8,
+  "avg_response_chars": 231.9,
+  "total_probes": 0,
+  "total_combat_tags": 0,
+  "total_rules_warnings": 0,
+  "turns": [
+    {
+      "turn": 1,
+      "latency_ms": 2761.1,
+      "response_chars": 266,
+      "probes": 0,
+      "combat_tags": 0,
+      "stat_changes": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": 0
+    },
+    {
+      "turn": 2,
+      "latency_ms": 2609.5,
+      "response_chars": 260,
+      "probes": 0,
+      "combat_tags": 0,
+      "stat_changes": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": 0
+    },
+    {
+      "turn": 3,
+      "latency_ms": 2386.8,
+      "response_chars": 225,
+      "probes": 0,
+      "combat_tags": 0,
+      "stat_changes": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": 0
+    },
+    {
+      "turn": 4,
+      "latency_ms": 1081.2,
+      "response_chars": 237,
+      "probes": 0,
+      "combat_tags": 0,
+      "stat_changes": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": 0
+    },
+    {
+      "turn": 5,
+      "latency_ms": 1112.2,
+      "response_chars": 188,
+      "probes": 0,
+      "combat_tags": 0,
+      "stat_changes": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": 0
+    },
+    {
+      "turn": 6,
+      "latency_ms": 1301.6,
+      "response_chars": 212,
+      "probes": 0,
+      "combat_tags": 0,
+      "stat_changes": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": 0
+    },
+    {
+      "turn": 7,
+      "latency_ms": 822.4,
+      "response_chars": 202,
+      "probes": 0,
+      "combat_tags": 0,
+      "stat_changes": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": 0
+    },
+    {
+      "turn": 8,
+      "latency_ms": 1224.3,
+      "response_chars": 332,
+      "probes": 0,
+      "combat_tags": 0,
+      "stat_changes": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": 0
+    },
+    {
+      "turn": 9,
+      "latency_ms": 1128.2,
+      "response_chars": 155,
+      "probes": 0,
+      "combat_tags": 0,
+      "stat_changes": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": 0
+    },
+    {
+      "turn": 10,
+      "latency_ms": 921.0,
+      "response_chars": 242,
+      "probes": 0,
+      "combat_tags": 0,
+      "stat_changes": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": 0
+    }
+  ]
+}

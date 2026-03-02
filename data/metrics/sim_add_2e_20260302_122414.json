@@ -1,0 +1,226 @@
+{
+  "module": "add_2e",
+  "adventure": "goblin_cave",
+  "total_turns": 10,
+  "total_latency_ms": 29888.585399999898,
+  "avg_latency_ms": 2988.8585399999897,
+  "avg_response_chars": 391.6,
+  "avg_sentences": 7.1,
+  "total_probes": 4,
+  "total_combat_tags": 0,
+  "total_stat_changes": 1,
+  "total_rules_warnings": 4,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich betrete die Taverne und schaue mich um.",
+      "keeper_response": "Ein kalter Hauch umspielt dich. Feuchte Luft füllt deine Lungen. Der Geruch von feuchter Erde und Verwesung liegt schwer in der modrigen Stille. Dein Blick schweift über tropfende Felsen und die verstreuten Knochen am Boden.\n\nDu stehst am Eingang einer dunklen Höhle. Was tust du hier?\n[ZEIT_VERGEHT: 0.1h]",
+      "response_chars": 306,
+      "response_sentences": 6,
+      "latency_ms": 3010.021599999959,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich spreche den Wirt an und bestelle ein Bier.",
+      "keeper_response": "Du öffnest den Mund, um eine Bestellung aufzugeben. Doch kein Wirt steht vor dir. Deine Stimme verhallt in der feuchten Dunkelheit.\n\nStattdessen hallt nur das leise Tropfen von Wasser von den Höhlenwänden wider. Der modrige Geruch wird intensiver. Die Knochen auf dem Boden scheinen im Dämmerlicht zu grinsen.\n\nDu bist immer noch am Eingang dieser bedrohlichen Höhle. Was hast du wirklich vor?\n[ZEIT_VERGEHT: 0.1h]",
+      "response_chars": 414,
+      "response_sentences": 8,
+      "latency_ms": 2226.3024999999743,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich frage nach Geruechten ueber die Goblin-Hoehle.",
+      "keeper_response": "Deine Worte sind nur ein Flüstern. Sie hallen von den feuchten Felsen zurück. Die Höhle antwortet dir nicht mit Gerüchten.\n\nNur das monotone Tropfen des Wassers durchbricht die Stille. Keine Goblins sind hier. Kein Wirt, der Geschichten kennt. Du bist allein in dieser feuchten Dunkelheit.\n\nWas suchst du wirklich in dieser vergessenen Grotte?\n[ZEIT_VERGEHT: 0.1h]",
+      "response_chars": 364,
+      "response_sentences": 8,
+      "latency_ms": 2464.220800000021,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich pruefe meine Ausruestung und breche auf.",
+      "keeper_response": "Deine Finger prüfen die Schnallen und Riemen. Alles sitzt fest und ist bereit. Der modrige Geruch der Tiefe zieht dich an.\n\nDu trittst in den schmalen Gang. Die Dunkelheit schluckt das letzte Tageslicht. Dein Blick sucht nach Anzeichen von Leben.\n[PROBE: Wahrnehmung | 50]\n[FAKT: {\"ort\": \"wachraum_hoehele\"}]\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 329,
+      "response_sentences": 6,
+      "latency_ms": 11721.83419999999,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT",
+        "FAKT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": [
+        "[REGELCHECK] PROBE: Fertigkeit 'Wahrnehmung' nicht im Regelwerk gefunden."
+      ],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich untersuche den Eingang der Hoehle.",
+      "keeper_response": "Du kniest nieder, dein Blick folgt den seltsamen Spuren. Der Eingang selbst birgt jedoch keine weiteren Geheimnisse. Er ist nur ein schwarzes Loch im Fels.\n\nDie Luft wird kälter. Ein schwacher Luftzug weht aus der Tiefe. Die kratzen Spuren der Krallenwesen sind deutlich zu sehen.\n\nFolgt dein Weg diesen unheimlichen Fährten?\n[FAKT: {\"ort\": \"hoehleneingang_untersucht\"}]\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 391,
+      "response_sentences": 7,
+      "latency_ms": 2209.4813999999587,
+      "tags_found": [
+        "ZEIT_VERGEHT",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 6,
+      "player_input": "Ich ziehe mein Schwert und gehe vorsichtig hinein.",
+      "keeper_response": "Das kalte Metall des Schwertes liegt schwer in deiner Hand. Es ist eine vertraute Geste, die dir Sicherheit gibt. Jeder deiner Schritte ist bedacht.\n\nDu folgst den Spuren tiefer in den schmalen Gang. Die Höhlenwände scheinen sich zu verengen. Der modrige Geruch wird erstickender.\n[PROBE: Heimlichkeit | 40]\n[FAKT: {\"ort\": \"wachraum_hoehele\"}]\n[INVENTAR: Schwert | genutzt]\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 394,
+      "response_sentences": 6,
+      "latency_ms": 2488.5986000000457,
+      "tags_found": [
+        "PROBE",
+        "INVENTAR",
+        "ZEIT_VERGEHT",
+        "FAKT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 1,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": [
+        "[REGELCHECK] PROBE: Fertigkeit 'Heimlichkeit' nicht im Regelwerk gefunden."
+      ],
+      "error": null
+    },
+    {
+      "turn": 7,
+      "player_input": "Ich lausche an der naechsten Tuer.",
+      "keeper_response": "Du pirschst dich näher an den Eingang des Wachraums heran. Dein Ohr presst sich an den kalten Fels. Die gutturalen Laute dringen deutlicher zu dir.\n\nSie sind rau und unmelodisch. Es ist eine primitive Sprache, die du nicht verstehst. Das Knacken von Knochen und leises Schmatzen begleiten die Stimmen.\n\nWas machst du als Nächstes, während du an der Öffnung lauschst?\n[PROBE: Lauschen | 40]\n[ZEIT_VERGEHT: 0.1h]",
+      "response_chars": 410,
+      "response_sentences": 7,
+      "latency_ms": 1401.3811999999461,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [
+        "[REGELCHECK] PROBE: Fertigkeit 'Lauschen' nicht im Regelwerk gefunden."
+      ],
+      "error": null
+    },
+    {
+      "turn": 8,
+      "player_input": "Ich oeffne die Truhe.",
+      "keeper_response": "Du bist noch immer im Gang. Keine Truhe ist in Sicht. Die Gnolle unterhalten sich weiterhin in dem Wachraum.\n\nDie Laute sind unangenehm, voller Roheit. Ihre Worte von \"Beute\" und \"Meister\" hallen nach. Ihre Stimmen sind gefährlich nah.\n\nWas willst du wirklich tun?\n[ZEIT_VERGEHT: 0.1h]",
+      "response_chars": 285,
+      "response_sentences": 7,
+      "latency_ms": 1328.2215000000406,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 9,
+      "player_input": "Ich greife den Goblin an!",
+      "keeper_response": "Ein kalter Entschluss festigt sich in dir. Du schiebst dich aus dem Schatten hervor. Dein Schwert saust mit einem zischenden Geräusch durch die feuchte Luft.\n\nDie erste Kreatur, ein zotteliger Gnoll, wird überrascht. Deine Klinge trifft ihren mageren Körper. Blut spritzt an die Höhlenwand.\n\nDie Kreatur schreit auf. Ihr Gefährte dreht sich mit einem Knurren um.\n[PROBE: Nahkampf (Hieb) | 50]\n[FAKT: {\"kampf_begonnen\": true, \"gegner_anzahl\": 2, \"gegner_typ\": \"gnolle\"}]\n[HP_VERLUST: 1d6]\n[ZEIT_VERGEH...",
+      "response_chars": 508,
+      "response_sentences": 8,
+      "latency_ms": 1635.2364000000534,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT",
+        "FAKT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": [
+        "[REGELCHECK] PROBE: Fertigkeit 'Nahkampf (Hieb)' nicht im Regelwerk gefunden."
+      ],
+      "error": null
+    },
+    {
+      "turn": 10,
+      "player_input": "Ich durchsuche den Raum nach Schaetzen.",
+      "keeper_response": "Deine Klinge zuckt mit tödlicher Präzision. Sie durchbohrt die erste Kreatur mit brutaler Effizienz. Ein schrecklicher Schrei entweicht der Kehle des Gnolls.\n\nEr bricht zusammen. Ein lebloser Sack Fleisch, der in seinem eigenen Blut liegt. Der andere Gnoll blickt dich mit blutunterlaufenen Augen an.\n\nSeine primitiven Züge verzerren sich zu einem wilden Knurren. Er zieht eine rostige Axt.\n[FERTIGKEIT_GENUTZT: Nahkampf (Hieb)]\n[HP_VERLUST: 6]\n[FAKT: {\"gegner_anzahl\": 1, \"gnoll_1_tot\": true}]\n[ZEIT...",
+      "response_chars": 515,
+      "response_sentences": 8,
+      "latency_ms": 1403.2871999999088,
+      "tags_found": [
+        "HP_VERLUST",
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 1,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

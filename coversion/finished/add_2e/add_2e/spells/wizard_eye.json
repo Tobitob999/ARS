@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "wizard_eye",
+  "name": "Wizard Eye",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Wizard Eye (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      164
+    ],
+    "pdf_pages": [
+      165
+    ],
+    "raw_block": "Wizard Eye (Alteration)\nRange: 0\nComponents: V, S, M\nDuration: 1 round/level\nCasting Time: 1 turn\nArea of Effect: Special\nSaving Throw: None\nWhen this spell is employed, the wizard\ncreates an invisible sensory organ that sends\nhim visual information. The wizard eye\ntravels at 30 feet per round if viewing an\narea ahead as a human would (i.e., primari-\nly looking at the floor), or 10 feet per round\nif examining the ceiling and walls as well as\nthe floor ahead. The wizard eye can see with\ninfravision up to 10 feet, and with normal\nvision up to 60 feet away in brightly lit\nareas. The wizard eye can travel in any\ndirection as as long as the spell lasts. It has\nsubstance and a form that can be detected\n(by a detect invisibility spell, for instance).\nSolid barriers prevent the passage of a wiz-\nard eye, although it can pass through a\n!pace no smaller than a small mouse hole\n[one inch in diameter).\nUsing the eye requires the wizard to con-\n:entrate. However, if his concentration is\nwoken the spell does not end-the eye\nnerely becomes inert until the wizard again\n:oncentrates, subject to the duration of the\nipell. The powers of the eye cannot be\n?nhanced by other spells or items. The cast-\n!r is subject to any gaze attack met by the\n:ye. A successful dispel cast on the wizard\nor eye ends the spell. With respect to blind-\nness, magical darkness, and so on, the wiz-\nard eye is considered an independent sen-\nsory organ of the caster.\nThe material component of the spell is a\nbit of bat fur.\nof damage inflicted to creatures\nc\nFitth-Level Spells"
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Wizard Eye",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "0",
+      "components": "V, S, M",
+      "duration": "1 round/level",
+      "casting_time": "1 turn",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "ipell. The powers of the eye cannot be ?nhanced by other spells or items. The cast- !r is subject to any gaze attack met by the :ye. A successful dispel cast on the wizard or eye ends the spell. With respect to blind- ness, magical darkness, and so on, the wiz- ard eye is considered an independent sen- sory organ of the caster. The material component of the spell is a bit of bat fur. of damage inflicted to creatures c Fitth-Level Spells"
+    },
+    "quality_flags": []
+  }
+}

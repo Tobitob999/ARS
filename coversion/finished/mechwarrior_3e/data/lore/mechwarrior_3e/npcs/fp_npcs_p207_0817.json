@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "the gamemaster should note tnese as well: Make",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 207,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:24Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p207_0817",
+    "entity_type": "npcs",
+    "name_guess": "the gamemaster should note tnese as well: Make",
+    "breadcrumb_path": "Rules Compendium > Page 207 > npcs > the gamemaster should note tnese as well: Make",
+    "page_refs": [
+      207
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "the gamemaster should note tnese as well: Make sure the basic motivations each minor NPC are figured out before the player characters meet them; that way making consistent decisions for them will be easier; For exam: you know ahead ot time that particular merchant iS money grubbing penny pincher but iS also collector of Star League relics, YOU will know that he iS unlikely t0 be flexible haegling unless tne player characters bnng piece of lostech t0 the bargaining table Rarely does significant threat lie in single individual with henchmen ."
+  }
+}

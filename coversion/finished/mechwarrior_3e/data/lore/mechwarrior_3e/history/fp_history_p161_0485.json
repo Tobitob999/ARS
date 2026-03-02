@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "These were jealously Guarded by the Holy Order",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 161,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:57Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p161_0485",
+    "entity_type": "history",
+    "name_guess": "These were jealously Guarded by the Holy Order",
+    "breadcrumb_path": "Rules Compendium > Page 161 > history > These were jealously Guarded by the Holy Order",
+    "page_refs": [
+      161
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [
+      "3020",
+      "3022"
+    ],
+    "stat_tokens": [],
+    "excerpt": "These were jealously Guarded by the Holy Order of ComStar, founded by Star League Minister of Communications Jerome Blake in order to preserve communications during the coming years of war: The Organization gradually evolved into cult that worshiped Blake'$ writings and dedicated itself guarding technology' = secrets: STEPS TOWARD PEACE the turn of the thirty-first century; common wisdom among Successor State militaries held that conquest of Inner Sphere through conventional war fare was impossible_ Those who wished to found second Star League had to find another way; 3020, Archon Katrina Steiner of the Lyran Commonwealth sent peace proposal to her fellow Successor Lords_ but only Prince Hanse Davion of the Federated Suns showed any interest: In 3022, the Archon and the prince con: cluded secret allliance that would bind their realms together through Hanse Davion's marriage Katrina\" daugnter and heir, Melissa Steiner This union joined two families ad two nations into single strong realm, combining the prosperous Lyran Commonwealth with the militarily powertui Federated Suns_ also put the Draconis Combine in a uncomfortable position between two of its greatest enemies and led the small: Capellan Confederation and Free Worlds League to fear con: quest by the emerging Federated Commonwealth; After months secret negotiations among the Capellan Confederation; the Draconis Combine and tne Free Worids League three signed the Concord of Kapetyn in 3024_ Intended as counter to the Federated Commonwealth, this triple alliance provided for mutual support and defense also guaranteed that any renewed war would engulf the entire Inner Sphere_ The first decades of the new century also saw the begin: nings of technological renaissance set in motion by the unex- 1B0"
+  }
+}

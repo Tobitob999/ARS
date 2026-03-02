@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Name Well-Connected Trader Mech MHRRIOR Atiliation Lyran Alliance",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 78,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:04Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p078_0267",
+    "entity_type": "history",
+    "name_guess": "Name Well-Connected Trader Mech MHRRIOR Atiliation Lyran Alliance",
+    "breadcrumb_path": "Rules Compendium > Page 078 > history > Name Well-Connected Trader Mech MHRRIOR Atiliation Lyran Alliance",
+    "page_refs": [
+      78
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [
+      "89 kg"
+    ],
+    "range_mentions": [
+      "93 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [
+      "Armor",
+      "TN"
+    ],
+    "excerpt": "Name Well-Connected Trader Mech MHRRIOR Atiliation Lyran Alliance Age 23 Height 93 m Weight 89 kg Characteg Recoud Sheet THIRD EDITIO ATTRIBUTES TRAITS Value Mod Max_ Contact; Mafia on Califar in LA Wealth (7) Contact (2): Word of Blake Precentor Well-Connected (2): Lyran Alliance Strength Cortact (3): Duke Jacob Ling Il, Well-Equipped (2 Body CEO of Shengli Arms Dexterity Glass Jaw [All wounds value] Reflexes Good Reputation (21: Intelligence Freedom Theater of LA Willpower Charisma COMBAT INFORMATION IT Location dlagrAM Edge Fill in Armor Type (A, Armor and Wounds per Location Social Standing Type A: Lealhet Jacket AV (MB/EIX) /1 /0 /1 Type B: Ledinem Shoes AV (MBIEIX) /1 /0 /1 SKILLS Type C: AV (MBIEJX) Type D: AV (MBHE/X) Name Bonus Academic/ International Commerce Fatigue Academic' Linguistics Fatigues WIL KIXILE Academic/ Medieval Japanese History +1 TN per Fatigue> WIL MKMM 12-1J Unconcious raiique (2 * WIL) Meddican Appraisal Career/ Pilot Wounds Commsi Conv Computer Grazing Wounds (WV 1: Languager German Minor Wounds (WV 212 TN ea, Languagel English Serious Wounds (WV 41 +2 TN ea Language/ Japanese Critical Wounds (WV 81."
+  }
+}

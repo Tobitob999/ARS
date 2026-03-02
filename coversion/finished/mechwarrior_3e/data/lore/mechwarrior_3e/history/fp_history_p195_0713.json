@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Abiding by them was the only way the",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 195,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:17Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p195_0713",
+    "entity_type": "history",
+    "name_guess": "Abiding by them was the only way the",
+    "breadcrumb_path": "Rules Compendium > Page 195 > history > Abiding by them was the only way the",
+    "page_refs": [
+      195
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "armor"
+    ],
+    "excerpt": "Abiding by them was the only way the hybrid of the two: soldiers, wearing potent killing machines like Successor Lords could wage war hope prevent giant suits Of armor; now engage their foes in deadly duel; humanity' general descent Jnto primitive chaos The Succession Wars ground on until the early years of the BATTLEMECHS thirty-first century when key events radically altered the Since its creation more than six hundred years ago, face of the Inner Sphere: an unprecedented alliance between BattleMech has been the favored weapon of lords ad generals the Federated Suns and tne Lyran Commonwealth; and tne dis giant wal king robot bristling with sophisticated weapons_ tne covery Of Star League-era memory core Mech has yet to lose its place as King of the battlefield The alliance of two supremely powerful nations redrew tne entire social ciass lormed around those who piloted these political Man prompting the remaining tnree Successor States increasingly important machines These 50 called to sign aggression pact that divided the Inner Sphere into MechWarriors tne modern incarnation of knights were given two rather than five spheres of influence."
+  }
+}

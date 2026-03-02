@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "They are not easily portable at least without",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 147,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:41Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p147_0338",
+    "entity_type": "items",
+    "name_guess": "They are not easily portable at least without",
+    "breadcrumb_path": "Rules Compendium > Page 147 > items > They are not easily portable at least without",
+    "page_refs": [
+      147
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "They are not easily portable at least without the use of vehicle life-support unit can supply oxygen_ trans planted blood and medicines t0 patient and has the capabili- ty to deliver both cardiac ad neural shocks; hopefully keeping the patient alive until better-trained medica personnel can treat him 0r her: Use of life-support unit extends the time dying character can survive (see Emergency Care 123)to WIL minutes used conjunction with portable medical monitor; medtechs working in the field suffer no skill penalties for Lack of Proper Equipment ond actually gain bonus to any med skill TNs_ Resplrator Where filter masks simply make the air morc breathable respirators draw oxygen from their own internal supply: allowing person t0 operate vacuum; at extremely high altitudes even underwater."
+  }
+}

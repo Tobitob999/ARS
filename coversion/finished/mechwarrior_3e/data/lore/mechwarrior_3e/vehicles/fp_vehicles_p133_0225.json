@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "category": "vehicles_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "vehicles",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Cost: The cost of the item in C",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 133,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:36Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_vehicles_p133_0225",
+    "entity_type": "vehicles",
+    "name_guess": "Cost: The cost of the item in C",
+    "breadcrumb_path": "Rules Compendium > Page 133 > vehicles > Cost: The cost of the item in C",
+    "page_refs": [
+      133
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "Armor",
+      "Damage",
+      "armor",
+      "damage"
+    ],
+    "excerpt": "Cost: The cost of the item in C bills Crew: The number of trained personnel needed t0 operate the equipment: more tnan one person is required the equip ment not truly portable ad should be fixed t0 static mount vehicle Damage: Tne damage inflicted Dy the weapon in D6. Patch: The cost in C-bills for materia repair point 0i armor value (see Armor Repairs, 1331. This does not include the cost of labor: Power Usage (Pwr use): The number of standard power points the item consures per use Or per the listed interval of time ."
+  }
+}

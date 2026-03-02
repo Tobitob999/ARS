@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "The ground car is slower; so the TN",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 105,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:27Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p105_0463",
+    "entity_type": "npcs",
+    "name_guess": "The ground car is slower; so the TN",
+    "breadcrumb_path": "Rules Compendium > Page 105 > npcs > The ground car is slower; so the TN",
+    "page_refs": [
+      105
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "TN",
+      "armor"
+    ],
+    "excerpt": "The ground car is slower; so the TN for its Piloting Roll is raised by +3 ([119 86] 10 3.31. If the chasing vehicle has the higher Margin of Success_ the fleeing vehicle caught: If the fleeing vehicle has higher MoS_ It escapes If neither pilot succeeded at their Piloting Rolls both vehicles must roll again_ but the faster vehicle gains Modifier to Its TN: Battlesult: All types of battle armor: Hover: Hovercraft. Naval: Surface naval vessels including hydrofoils."
+  }
+}

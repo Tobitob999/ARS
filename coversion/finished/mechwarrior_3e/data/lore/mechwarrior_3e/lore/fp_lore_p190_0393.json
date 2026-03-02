@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "lore_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "lore",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Tnis caste operates outs Ide traditional Warrior Caste",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 190,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:14Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_lore_p190_0393",
+    "entity_type": "lore",
+    "name_guess": "Tnis caste operates outs Ide traditional Warrior Caste",
+    "breadcrumb_path": "Rules Compendium > Page 190 > lore > Tnis caste operates outs Ide traditional Warrior Caste",
+    "page_refs": [
+      190
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Tnis caste operates outs Ide traditional Warrior Caste Clan society ad is generally ignored attacked for what their The warrior caste protects and rules each Clan: Their pre fellow Clansmen see as their dishonorable behavior Warriors eminence came in the wake of the Exodus Civil War; after two spoiling tor fight frequently target dark caste settlements and decades of vicious fighting had bludgeoned the civilian popula bases worthier foes are unavailable: tion into accepting ay conditions to ensure peace_ In every Clan; the warrior caste subdivided into MechWarriors aero- freeborn vs."
+  }
+}

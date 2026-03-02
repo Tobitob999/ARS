@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "This section describes the process involved treating wounds",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 124,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:32Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p124_0585",
+    "entity_type": "npcs",
+    "name_guess": "This section describes the process involved treating wounds",
+    "breadcrumb_path": "Rules Compendium > Page 124 > npcs > This section describes the process involved treating wounds",
+    "page_refs": [
+      124
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "TN",
+      "damage"
+    ],
+    "excerpt": "This section describes the process involved treating wounds and what happens to characters their wounds are improperly or incompletely treated Deadly: Arm severed (WV 10; Knockout Check at +6 TN: Lost Limb (31 Trait: bleeds every turn] Chest Minor: Broken ribs [WV 2; +1 to all TNs] Serlous: Minor organ damage [WV 4; Knockout Check; +1 to all TNs] Crltical: Major organ damage ad internal bleeding (WV 8; Knockout Check at +2 TN; +2 t0 all TNs; bleeds every minute] Deadly: Chest cavity crushed heart and lungs destroyed [character instantly killed] FAILED TREATMENT character fumbles any treatment roll (i.e."
+  }
+}

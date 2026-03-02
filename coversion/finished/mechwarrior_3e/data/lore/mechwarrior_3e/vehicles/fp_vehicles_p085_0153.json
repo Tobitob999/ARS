@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "vehicles_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "vehicles",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Vehicle Costs Owning vehicle can be an expensive",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 85,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:09Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_vehicles_p085_0153",
+    "entity_type": "vehicles",
+    "name_guess": "Vehicle Costs Owning vehicle can be an expensive",
+    "breadcrumb_path": "Rules Compendium > Page 085 > vehicles > Vehicle Costs Owning vehicle can be an expensive",
+    "page_refs": [
+      85
+    ],
+    "_ref": [],
+    "cost_mentions": [
+      "100 C-bills"
+    ],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Vehicle Costs Owning vehicle can be an expensive proposition_ Without the Owns Vehicle Trait, these expenses are taken care of by the unit that owns the vehicle With this trait, the responsibility of maintenance and upkeep falls on the player character' shoul: ders Basic maintenance for any vehicle except spacecraft costs 100 C-bills per week not counting the costs of repairs Or ammunition; the upkeep of DropShips and JumpShips costs 500 Cbills per week; In addition, every vehicle needs tO be attended by trained technician to stay in working order: If the owning character actually trained in the appropriate Technician Field(s) for his vehi: cle, he can take care of this himself provided he has enough free time."
+  }
+}

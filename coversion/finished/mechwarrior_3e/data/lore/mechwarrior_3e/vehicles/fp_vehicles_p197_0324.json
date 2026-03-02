@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "vehicles_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "vehicles",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "however; and their treads are often difficult to",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 197,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:17Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_vehicles_p197_0324",
+    "entity_type": "vehicles",
+    "name_guess": "however; and their treads are often difficult to",
+    "breadcrumb_path": "Rules Compendium > Page 197 > vehicles > however; and their treads are often difficult to",
+    "page_refs": [
+      197
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "0 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "however; and their treads are often difficult to repair Or replace. Cheaper and easier t0 main- tain wheeled vehicles more common than their tracked cousins They tear uUp the roadways much less than tracked vehicles."
+  }
+}

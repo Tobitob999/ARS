@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "remove_paralysis",
+  "name": "Remove Paralysis",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Remove Paralysis (Abjuration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "third",
+    "book_pages": [
+      213
+    ],
+    "pdf_pages": [
+      214
+    ],
+    "raw_block": "Remove Paralysis (Abjuration)\nSphere: Protection\nRange 10 yarddlevel\nComponents: V, S\nDuration: Permanent\nCasting Time: 6\nArea of Effect: ld4 creatures in a 20' cube\nSaving Throw: None\nBy the use of this spell, the priest can free\none or more creatures from the effects of\nany paralyzation or from related magic\n(such as a ghoul touch, or a hold or slow\nspell). If the spell is cast on one creature, the\nparalyzation is negated. If cast on two crea-\ntures, each receives another saving throw\nvs. the effect that afflicts it, with a +4 bo-\nnus. If cast on three or four creatures, each\nreceives another saving throw with a +2\nbonus. There must be no physical or magi-\ncal bamer between the caster and the crea-\ntures to be affected, or the spell fails and is\nwasted."
+  },
+  "mechanics": {
+    "school_or_type": "Abjuration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Remove Paralysis",
+      "canonical_name_guess": null,
+      "school_or_type": "Abjuration",
+      "range": null,
+      "components": "V, S",
+      "duration": "Permanent",
+      "casting_time": "6",
+      "area_of_effect": "ld4 creatures in a 20' cube",
+      "saving_throw": "None",
+      "description_excerpt": "By the use of this spell, the priest can free one or more creatures from the effects of any paralyzation or from related magic (such as a ghoul touch, or a hold or slow spell). If the spell is cast on one creature, the paralyzation is negated. If cast on two crea- tures, each receives another saving throw vs. the effect that afflicts it, with a +4 bo- nus. If cast on three or four creatures, each receives another saving throw with a +2 bonus. There must be no physical or magi- cal bamer between the caster and the crea- tures to be affected, or the spell fails and is wasted."
+    },
+    "quality_flags": [
+      "missing_standard_fields"
+    ]
+  }
+}

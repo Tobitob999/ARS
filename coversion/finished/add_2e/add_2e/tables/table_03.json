@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2.0",
+  "id": "table_03",
+  "name": "Table 3: CONSTITUTION",
+  "category": "table",
+  "tags": [
+    "add_2e",
+    "table",
+    "player_handbook",
+    "toc_normalized"
+  ],
+  "summary": "PHB Table 3 (CONSTITUTION).",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "table_number": 3,
+    "title": "CONSTITUTION",
+    "book_page": 15,
+    "pdf_page": 16,
+    "raw_page_token": "15"
+  },
+  "mechanics": {
+    "source": "toc_parse_v3",
+    "confidence": "medium"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "stone_to_flesh",
+  "name": "Stone to Flesh",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Stone to Flesh (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "sixth",
+    "book_pages": [
+      181,
+      182
+    ],
+    "pdf_pages": [
+      182,
+      183
+    ],
+    "raw_block": "Stone to Flesh (Alteration)\nReversible\nRange: 10 yards/level\nComponents: V, S, M\nDuration: Permanent\nCasting Time: 6\nArea of Effect: 1 creature\nSaving Throw: Special\nThe stone to flesh spell turns any sort of\nstone into flesh. If the recipient stone object\nwas formerly living, this spell, restores life\n(and goods), although the survival of the\ncreature is subject to the usual system shock\nsurvival roll. Any formerly living creature,\nregardless of size, can be thus returned to\nflesh. ordinary stone can be turned to flesh\nin a volume of nine cubic feet per leva of\nexperience of the spellcaster. Such flesh is\ninert, lacking a vital life force, unless a life\nforce or magical energy is available (for\nexample, this speli would turn a stone golem\ninto a flesh golem, but an ordinary siatue\nwould become a body). If cast upon stone,\nthe wizard can create a cylinder of fleshy\nmaterial from one to three feet in &meter\nand up to 10 feet long, allowing a pq to\nbe made.\nThe material components are a pinch of\nearth and a drop of blood.\nThe reverse, flesh to srm, turns flesh of\nany sort to stone. All possessions on theper-\nson of the creature likewise turn to stoae.\nThe intended subject of the spell dves a\npaving throw vs. spell to avoid the effect. If\na statue created by this spell is subjected to\nbreakage or weathering, the being (if ever\nreturned to his original, fleshy state) win\nhave similar damage, deformities, etc. The\nDM may allow such damage to be repaked\nby various high-level clerical spells, such as\nregenerate.\nThe ma'terial components of the spell are\nlime, water, and earth.\n(Alterafion, jn)\nRange: 0\nComponents: V, S, M\nDuration: 1 roundllevel\nCasting Tie: 6\nArea of Effect: The caster\nSaving Throw: None\nTenser's transformation is a sight guw-\n:eed to astound any creature not aware of its\n>ewer, for when the wizard casts the 4,\nle undergoes a startling transformation.\nIhe size and strength of the wizard in-\no heroic proportions, so he becomes a for-\nnidable fighting machine; the spell causes-\nhe caster to become a berserk fighter! The\nMs hit points double, and all damage\n\\e sustains comes first from the magical\nmints gained; once these points are elhi-\nc.- PI Wizard Spells (7th Level)\nnated, all subsequent damage (to his true hit\npoints) is doubled. The Armor Class of the\nwizard is 4 better than that he possessed pri-\nor to casing the spell (AC 10 goes to 6, AC 9\nto 5, AC 8 to 4, etc.), to a maximum Armor\nClass of -10.\nAU attacks are as a fighter of the same\nlevel as the wizard (Le., the wizard uses the\ncombat values normally reserved for fight-\ners). The wizard can use either a dagger or a\nstaff when attacking. A dagger can be used\ntwice per roFd, and each successful attack\ninflicts an additional 2 points of damage. A\nstaff can be used only once per round, but\nwith a +2 bonus to attack and damage\nrolls. The wizard fights in melee in prefer-\nence to all other forms of attack, and con-\ntinues attacking until all opponents are\nslain, he is killed, the magic is dispelled, or\nthe spell duration expires.\nThe material component for casting this\nspell is a potion of heroism (or superhero-\nism) that the wizard must consume during\nthe course of uttering the spell.\nlkansmute Water to Dust (Alteration)\nRevetsibk\nRange: 60 yards\nComponents: V, S, M\nDurah: Permanent\nCasting Time 5\nArea of Effect: One 10-foot cube/level\nSaving Throw: None (special)\nWhen this spell is cast, the subject area\ninstantly undergoes a change from liquid to\npowdery dust. Note that if the water is\nalready muddy, the area of effect is doubled,\nwhile if wet mud is being transmuted, the\narea of effect is quadrupled. If water\nremains in contact with the transmuted\ndust, the former quickly soaks the latter,\nturning the dust into silty mud, if a suffi-\ncient quantity of water exists to do so, oth-\nerwise soaking or dampening the dust\naccordingly.\nOnly liquid actually in the area of effect\nat the moment of spellcasting is affected.\nLiquids that are only partially water are\naffected only insofar as the actual water\ncontent is concerned, except that potions\ncontaining water are rendered useless. Liv-\ning creatures are unaffected, except for\nthose native to the elemental plane of Water.\nSuch creatures receive saving throws vs.\nspell. Failure inflicts ld6 points of damage\nper caster level upon the subject, while suc-\ncess means the creature receives but half\ndamage. Only one such creature can be\naffected by any single casting of this spell,\nregardless of the creature's size or the size of\nthe spell's area of effect.\nThe reverse of the spell is simply a very\nhigh-powered create water spell that\nrequires a pinch of normal dust as an add- .\ntional material component.\n1\n'\nFor either usage of the spell, other compo-\nnents required are diamond dust of at least\n500 gp value and a bit of seashell."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Stone to Flesh",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "10 yards/level",
+      "components": "V, S, M",
+      "duration": "Permanent",
+      "casting_time": "6",
+      "area_of_effect": "1 creature",
+      "saving_throw": "Special",
+      "description_excerpt": "When this spell is cast, the subject area instantly undergoes a change from liquid to powdery dust. Note that if the water is already muddy, the area of effect is doubled, while if wet mud is being transmuted, the area of effect is quadrupled. If water remains in contact with the transmuted dust, the former quickly soaks the latter, turning the dust into silty mud, if a suffi- cient quantity of water exists to do so, oth- erwise soaking or dampening the dust accordingly. Only liquid actually in the area of effect at the moment of spellcasting is affected. Liquids that are only partially water are affected only insofar as the actual water content is concerned, except that potions containing water are rendered useless. Liv- ing creatures are unaffected, except for those native to the elemental plane of Water. Such creatures receive saving throws vs. spell. Failure inflicts ld6 points of da"
+    },
+    "quality_flags": []
+  }
+}

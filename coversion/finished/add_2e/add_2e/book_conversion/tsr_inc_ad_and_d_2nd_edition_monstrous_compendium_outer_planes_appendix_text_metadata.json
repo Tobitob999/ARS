@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "add_2e",
+    "source_book",
+    "pdf_conversion",
+    "tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_outer_planes_appendix_text"
+  ],
+  "summary": "Metadaten der PDF-zu-JSON-Konvertierung fuer TSR Inc - AD&D 2nd Edition - Monstrous Compendium - Outer Planes Appendix_text.pdf.",
+  "source_text": {
+    "source_file": "TSR Inc - AD&D 2nd Edition - Monstrous Compendium - Outer Planes Appendix_text.pdf",
+    "source_path": "g:\\meine ablage\\add2e\\tsr inc - ad&d 2nd edition - monstrous compendium - outer planes appendix_text.pdf",
+    "format": "pdf",
+    "page_count": 102,
+    "extracted_characters": 437482,
+    "extraction_timestamp": "2026-03-02T11:04:39",
+    "toc_candidate_pages": [
+      6
+    ],
+    "empty_or_unreadable_pages": [
+      1,
+      98,
+      99,
+      100
+    ]
+  },
+  "mechanics": {
+    "extractor": "pypdf.PdfReader.extract_text",
+    "output_files": [
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_outer_planes_appendix_text_pages.jsonl",
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_outer_planes_appendix_text_chapter_map.json",
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_outer_planes_appendix_text_metadata.json"
+    ]
+  }
+}

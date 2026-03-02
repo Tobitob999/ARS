@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "add_2e",
+    "source_book",
+    "pdf_conversion",
+    "tsr_inc_ad_and_d_2nd_edition_dmgr8_sages_and_specialists"
+  ],
+  "summary": "Metadaten der PDF-zu-JSON-Konvertierung fuer TSR Inc - AD&D 2nd Edition - DMGR8 - Sages and Specialists.pdf.",
+  "source_text": {
+    "source_file": "TSR Inc - AD&D 2nd Edition - DMGR8 - Sages and Specialists.pdf",
+    "source_path": "g:\\meine ablage\\add2e\\tsr inc - ad&d 2nd edition - dmgr8 - sages and specialists.pdf",
+    "format": "pdf",
+    "page_count": 130,
+    "extracted_characters": 335153,
+    "extraction_timestamp": "2026-03-02T10:50:47",
+    "toc_candidate_pages": [
+      103
+    ],
+    "empty_or_unreadable_pages": [
+      1,
+      61,
+      69,
+      73,
+      117
+    ]
+  },
+  "mechanics": {
+    "extractor": "pypdf.PdfReader.extract_text",
+    "output_files": [
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dmgr8_sages_and_specialists_pages.jsonl",
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dmgr8_sages_and_specialists_chapter_map.json",
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dmgr8_sages_and_specialists_metadata.json"
+    ]
+  }
+}

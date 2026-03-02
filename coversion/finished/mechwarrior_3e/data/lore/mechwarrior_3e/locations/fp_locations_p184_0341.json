@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "locations_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "locations",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Like smaller-scale ass0 ciated press organizations on most",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 184,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:11Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_locations_p184_0341",
+    "entity_type": "locations",
+    "name_guess": "Like smaller-scale ass0 ciated press organizations on most",
+    "breadcrumb_path": "Rules Compendium > Page 184 > locations > Like smaller-scale ass0 ciated press organizations on most",
+    "page_refs": [
+      184
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Like smaller-scale ass0 ciated press organizations on most planets ISAP sifts through local news for pieces that might be of interest to other worlds and then places them on the wire."
+  }
+}

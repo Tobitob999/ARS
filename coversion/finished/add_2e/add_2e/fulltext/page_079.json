@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_page",
+  "tags": [
+    "add_2e",
+    "player_handbook",
+    "fulltext",
+    "pdf_page"
+  ],
+  "summary": "PDF-Seite 79 des AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "pdf_page": 79,
+    "text": "Equipment (Encumbrance) 1- - - \nEncumbrance \nurnament Rule) \ned, Light, Moderate, Heavy, an \ne Encumbrance. \nalculate your character's en \ncategory, first figure out the \nhe is carrying (including \nfor clothing). Then look a \nter's carried weight. The heading at \ntop of that column shows his level of \ncumbrance . \nUse Table 49 to figure out the e \nbrance category of your chara \nmount or beast of burden. \nThe Max. Carried Wgt. c \nthe most weight (in pounds) y \nThe basic encumbrance rule gives \nfactor at a time. \na given load, find the row on \nwith his Strength score. Read \nuntil you find the first column \nthe number of pounds listed \nthan your character's current \nthe top of that column are two row \nappropriate upper row is you \nter's modified movement rate. \nbase movement rates. Characters wi \nbase movement rate of 12 use the \nrow; those with a base movement rate \n6 use the bottom row. The number in t \nTam (a human with a base mouemen \nof 12) has a Strength of 17and is carryin2 \na 140-pound load. Looking across on thc \n17 row shows that 140 falls between 133 \nTable 48: MODIFIED MOVEMENT RATES \nBase \nMove Modified Movement Rate \nStrength 12 11 10 9 8 7 6 5 4 3 2 1 \nScore 655443222113 \n0-7 LU L3 Lb ;LY 32 35 38 41 44 47 50 53 \n8-9 35 40 45 50. 55 60 65 70 75 80 85 89 \n10-11 40 46 52 58 64 70 76 82 88 94 lOn 1Iu \n18 110 123 136 149 162 175 188 201 214 227 240 %& __. ___ \n18/01-50 135 148 161 174 187 200 213 226 239 252 265 278 \nHorse, medim 0-220 IbG \nHorse. ridina __ 0-180 Ibs \nMull , @-m1bs- \nable 50: STOWAGE WACITY"
+  },
+  "mechanics": {
+    "conversion": "fulltext_page_dump",
+    "generated_at": "2026-02-28T16:50:14"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "lore_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "lore",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "POISON RESISTANCE Cost: The character has developed an",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 86,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:09Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_lore_p086_0154",
+    "entity_type": "lore",
+    "name_guess": "POISON RESISTANCE Cost: The character has developed an",
+    "breadcrumb_path": "Rules Compendium > Page 086 > lore > POISON RESISTANCE Cost: The character has developed an",
+    "page_refs": [
+      86
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "2 M"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "POISON RESISTANCE Cost: The character has developed an exceptional resistance to poison , including alcohol and other intoxicants Most often use barroom drinking contests this also helps the character resist the kind of drugs used by certain interrogators in the Capellan Confederation any cases where the gamemaster feels this trait would help the character receives 2 Modifier to appropriate target numbers QUIRK (multiple trait) Value: 1-2 The character has code of behavior mental disorder that affects his conduct in certain situations."
+  }
+}

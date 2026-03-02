@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "GAME CONCEPTS 58). the Link Attributes for Security",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 18,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:41Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p018_0035",
+    "entity_type": "npcs",
+    "name_guess": "GAME CONCEPTS 58). the Link Attributes for Security",
+    "breadcrumb_path": "Rules Compendium > Page 018 > npcs > GAME CONCEPTS 58). the Link Attributes for Security",
+    "page_refs": [
+      18
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "TN"
+    ],
+    "excerpt": "GAME CONCEPTS 58). the Link Attributes for Security Systems Skill are DEX and INT. The character has DEX and 5 INT; the modifiers for these Attributes are ~l and 0, respectively; This means the character will apply modifier the TN for related Attributes_ addition t0 the usual modifiers TARGET NUMBER MODIFIERS TABLE Actlon Check Type Skill Check; Base Difficulty SkIlI Check vs."
+  }
+}

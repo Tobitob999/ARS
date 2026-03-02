@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "dismissal",
+  "name": "Dismissal",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Dismissal (Abjuration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      167
+    ],
+    "pdf_pages": [
+      168
+    ],
+    "raw_block": "Dismissal (Abjuration)\nRange: 10 yards\nComponents: V, S, M\nDuration: Permanent\nCasting Time: 1 round\nArea of Effect: 1 creature\nSaving Throw: Neg.\nBy means of this spell, a wizard on the\nPrime Material plane seeks to force or to\nenable a creature from another plane of\nexistence to return to its proper plane. Mag-\nic resistance, if any, is checked if this spell is\nused to force a being home. If the resistance\nfails, the caster's level is compared to the\ncreature's level or Hit Dice. If the wizard's\nlevel is higher, the difference is subtracted\nfrom the creature's die roll for its saving\nthrow vs. spell. If the creature's level w Hit\nDice is higher, the difference is added to the\nsaving throw roll.\nIf the creature desires to be returned to its\nhome plane, no saving throw is necessary (it\nchooses to fail the roll).\nIf the spell is successful, the creature is\ninstantly whisked away, but the spell has a\n20% chance of actually sending the subject\nto a plane other than its own.\nThe material component is any item that\nis distasteful to the subject creature."
+  },
+  "mechanics": {
+    "school_or_type": "Abjuration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Dismissal",
+      "canonical_name_guess": null,
+      "school_or_type": "Abjuration",
+      "range": "10 yards",
+      "components": "V, S, M",
+      "duration": "Permanent",
+      "casting_time": "1 round",
+      "area_of_effect": "1 creature",
+      "saving_throw": "Neg.",
+      "description_excerpt": "By means of this spell, a wizard on the Prime Material plane seeks to force or to enable a creature from another plane of existence to return to its proper plane. Mag- ic resistance, if any, is checked if this spell is used to force a being home. If the resistance fails, the caster's level is compared to the creature's level or Hit Dice. If the wizard's level is higher, the difference is subtracted from the creature's die roll for its saving throw vs. spell. If the creature's level w Hit Dice is higher, the difference is added to the saving throw roll. If the creature desires to be returned to its home plane, no saving throw is necessary (it chooses to fail the roll). If the spell is successful, the creature is instantly whisked away, but the spell has a 20% chance of actually sending the subject to a plane other than its own. The material component is any item that is distasteful to the"
+    },
+    "quality_flags": []
+  }
+}

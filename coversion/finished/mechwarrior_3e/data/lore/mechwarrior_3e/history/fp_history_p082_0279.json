@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Elementals are huge compared with other warriors, standing",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 82,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:06Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p082_0279",
+    "entity_type": "history",
+    "name_guess": "Elementals are huge compared with other warriors, standing",
+    "breadcrumb_path": "Rules Compendium > Page 082 > history > Elementals are huge compared with other warriors, standing",
+    "page_refs": [
+      82
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "2.5 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Elementals are huge compared with other warriors, standing from 2 to 2.5 meters tall and disproportionately muscular, mak- ing them massively heavy as well_ Elementals primarily act as elite intantry shock troops; but they also serve in variety of other roles, such as security and marines."
+  }
+}

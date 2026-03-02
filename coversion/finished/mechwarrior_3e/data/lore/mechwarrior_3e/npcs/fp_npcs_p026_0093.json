@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Your character' lucky break reduces his or her",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 26,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:43Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p026_0093",
+    "entity_type": "npcs",
+    "name_guess": "Your character' lucky break reduces his or her",
+    "breadcrumb_path": "Rules Compendium > Page 026 > npcs > Your character' lucky break reduces his or her",
+    "page_refs": [
+      26
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Your character' lucky break reduces his or her Edge threshold by 1_ Because no Attribute threshold can drop below 2, this reduction limits the number of times player may avoid prerequisites character' Edge threshold is already 2_ the player may not use these rules Linda new character, Delilah Morgan, going to bookish technician with knacks for computers and for getting into trouble Linda has pretty good idea of what she wants her character to be like. Starting on the Farm Path (p."
+  }
+}

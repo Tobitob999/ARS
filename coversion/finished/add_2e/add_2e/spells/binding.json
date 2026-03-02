@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "binding",
+  "name": "Binding",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Binding (Enchantment, Evocation) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "eighth",
+    "book_pages": [
+      188,
+      189
+    ],
+    "pdf_pages": [
+      189,
+      190
+    ],
+    "raw_block": "Binding (Enchantment, Evocation)\nRange: 10 yards\nComponents: V, S, M\nDuration: Special\nCasting Time: Special\nArea of Effect: 1 creature\nSaving Throw: Special\nA binding spell creates a magical m#mht\nto hold a creature, usually from e\nplane of existence. Extra- dllrr\nmust be confined bv a CirrrJr\nactually uttered. The compr--kw\naccording to the form of the spel. bmt dwy\ninclude a continuous chanting mce\nread from the scroll or book page giving the\nspell; gestures appropriate to the form of\nbinding; and materials such as miniature\nchains of special metal (silver for lycan-\nthropes, etc.), soporific herbs of the rarest\nsort, a corundum or diamond gem of great\nsize (1,OOO gp value per Hit Die of the sub-\nject creature), and a vellum depiction or\ncarved statuette of the subject to be cap\ntured.\nMagic resistance applies unless the sub-\nject's true name is used. A saving throw is\nnot applicable as long as the experience level\nof the caster is at least twice as great as the\nHit Dice of the subject. The caster's level can\nbe augmented by one-third of the levels of\neach assisting wizard of 9th level or higher,\nand by one level for each assistant of 4th\nthrough 8th level. No more than six other\ner's level is less than twice the Hit Dice of the\nsubject, then the subject gains a saving\nthrow vs. spell, modified by the form of\nbinding being attempted. The various forms\nof binding are these:\nChaining: The subject is confined by\nrestraints that generate an untipathy affect-\ning all creatures who approach the subject,\nexcept the caster. Duration is as long as one\nyear per level of the caster(s). The subject of\nthis form of binding (as well as in the slum-\nber and bound slumber versions) remains\nwithin the restraining barrier.\nSlumber: Brings a comatose sleep upon\nthe subject for a duration of up to one year\nper level of the caster(s).\nBound Slumber: A combination of chain-\ning and slumber that lasts for up to one\nmonth per level of the caster(s).\nHedged Prison: The subject is transported\nto or otherwise brought within a confined\nwizards can dst with this ell. If the cast-\na"
+  },
+  "mechanics": {
+    "school_or_type": "Enchantment, Evocation",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Binding",
+      "canonical_name_guess": null,
+      "school_or_type": "Enchantment, Evocation",
+      "range": "10 yards",
+      "components": "V, S, M",
+      "duration": "Special",
+      "casting_time": "Special",
+      "area_of_effect": "1 creature",
+      "saving_throw": "Special",
+      "description_excerpt": "per level of the caster(s). Bound Slumber: A combination of chain- ing and slumber that lasts for up to one month per level of the caster(s). Hedged Prison: The subject is transported to or otherwise brought within a confined wizards can dst with this ell. If the cast- a"
+    },
+    "quality_flags": []
+  }
+}

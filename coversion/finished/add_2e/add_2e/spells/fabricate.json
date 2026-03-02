@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "fabricate",
+  "name": "Fabricate",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Fabricate (Enchantment, Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      168
+    ],
+    "pdf_pages": [
+      169
+    ],
+    "raw_block": "Fabricate (Enchantment, Alteration)\nRange: 5 yarddlevel\nComponents: V, S, M\nDuration: Permanent\nCasting Time: Special\nArea of Effect: 1 cubic yd./level\nSaving Throw: None\nBy means of this spell, the wizard is able\nto convert material of one sort into a\nproduct that is of the same material. Thus\nthe spellcaster can fabricate a wooden\nbridge from a clump of trees, a rope from a\npatch of hemp, clothes from flax or wool,\nand so forth. Magical or living thw can-\nnot be created or altered by a fabricate spell.\nThe quality of items made by this spell is\ncommensurate with the quality of material\nused as the basis for the new fabrication. If a\n168\nmineral is worked with, the area of effect is\nreduced by a factor of 27-one cubic foot\nper level instead of one cubic yard.\nArticles requiring a high degree of crafts-\nmanship (jewelry, swords, glass, crystal,\netc.) cannot be fabricated unless the wizard\notherwise has great skill in the appropriate\ncraft.\nCasting requires one full round per cubic\nyard (or foot) or material to be affected by\nthe spell."
+  },
+  "mechanics": {
+    "school_or_type": "Enchantment, Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Fabricate",
+      "canonical_name_guess": null,
+      "school_or_type": "Enchantment, Alteration",
+      "range": "5 yarddlevel",
+      "components": "V, S, M",
+      "duration": "Permanent",
+      "casting_time": "Special",
+      "area_of_effect": "1 cubic yd./level",
+      "saving_throw": "None",
+      "description_excerpt": "By means of this spell, the wizard is able to convert material of one sort into a product that is of the same material. Thus the spellcaster can fabricate a wooden bridge from a clump of trees, a rope from a patch of hemp, clothes from flax or wool, and so forth. Magical or living thw can- not be created or altered by a fabricate spell. The quality of items made by this spell is commensurate with the quality of material used as the basis for the new fabrication. If a 168 mineral is worked with, the area of effect is reduced by a factor of 27-one cubic foot per level instead of one cubic yard. Articles requiring a high degree of crafts- manship (jewelry, swords, glass, crystal, etc.) cannot be fabricated unless the wizard otherwise has great skill in the appropriate craft. Casting requires one full round per cubic yard (or foot) or material to be affected by the spell."
+    },
+    "quality_flags": []
+  }
+}

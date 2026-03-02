@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "including bleeding effects_ exceeds his BOD WIL: character",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 124,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:33Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p124_0589",
+    "entity_type": "npcs",
+    "name_guess": "including bleeding effects_ exceeds his BOD WIL: character",
+    "breadcrumb_path": "Rules Compendium > Page 124 > npcs > including bleeding effects_ exceeds his BOD WIL: character",
+    "page_refs": [
+      124
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "Wound"
+    ],
+    "excerpt": "including bleeding effects_ exceeds his BOD WIL: character will die equally quickly he has suffered Deadly Wound (using the standard rules- the hit location rules have dif: ferent effects, see 121). character in this condition has only minutes to Iive (106 BOD minutes_ to be precise): and there is Iittle chance he can be saved without skilled treatment and more Inan little luck."
+  }
+}

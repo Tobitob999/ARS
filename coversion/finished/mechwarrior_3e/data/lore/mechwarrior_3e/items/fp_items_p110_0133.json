@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "not 'real-world accurate: Above all; fast fun was",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 110,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:29Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p110_0133",
+    "entity_type": "items",
+    "name_guess": "not 'real-world accurate: Above all; fast fun was",
+    "breadcrumb_path": "Rules Compendium > Page 110 > items > not 'real-world accurate: Above all; fast fun was",
+    "page_refs": [
+      110
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "0 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [
+      "armor",
+      "wound"
+    ],
+    "excerpt": "not 'real-world accurate: Above all; fast fun was the main design goa of the Mw3 combat system and close second was making flexible enough t0 deal with the Mide range weapons and armor available to MW3 characters. 6 the specific wound results of specific gun against specit: armor at specific range just don' seem t0 match actual bal: listics data , the designer hopes that you will forgive the inaccu: racy favor of playability. THE COMBAT TURN order to keep things organized combat action is broken up into series [urns each of which represents approxi- mately seconds of real time."
+  }
+}

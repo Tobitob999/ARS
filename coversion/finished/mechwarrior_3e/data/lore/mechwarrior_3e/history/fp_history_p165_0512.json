@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Aided by Katherine neutrallty and unit: ed by",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 165,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:59Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p165_0512",
+    "entity_type": "history",
+    "name_guess": "Aided by Katherine neutrallty and unit: ed by",
+    "breadcrumb_path": "Rules Compendium > Page 165 > history > Aided by Katherine neutrallty and unit: ed by",
+    "page_refs": [
+      165
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Aided by Katherine neutrallty and unit: ed by their hatred for House Davion_ Marik and Liao prosecuted their war against the Federated Commonwealth with surprising speed and success As the threat of wider war in the Inner Sphere loomed political infighting among the Clans intensified The Clans had long been divided into two camps: the Crusaders _ who sought to restore the Star League through conquest, ad the Wardens (which included Wolf s Dragoons) , who believed their responsi- bility Iay sateguarding the Inner Sphere until the Great Houses re established the Star League."
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_subsystem",
+  "id": "add_2e_experience_system",
+  "name": "AD&D 2e Experience System",
+  "tags": [
+    "add_2e",
+    "experience",
+    "advancement",
+    "training"
+  ],
+  "summary": "Ausarbeitung des XP- und Level-Advancement-Systems.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "primary_chapter": {
+      "chapter": 8,
+      "slug": "experience",
+      "book_pages": [
+        88,
+        88
+      ]
+    },
+    "chapter_file": "data/lore/add_2e/chapters/chapter_08_experience.json"
+  },
+  "mechanics": {
+    "xp_sources": [
+      "group_awards",
+      "individual_class_awards",
+      "objective_completion"
+    ],
+    "class_bias": "Jede Klasse hat priorisierte XP-Trigger gemaess Klassenrolle.",
+    "advancement_flow": [
+      "gain_xp",
+      "compare_with_class_table",
+      "apply_level_up_changes",
+      "optional_training_phase"
+    ],
+    "tables_link": [
+      "Table 14",
+      "Table 20",
+      "Table 23",
+      "Table 25",
+      "Table 53/54 for combat scaling"
+    ]
+  }
+}

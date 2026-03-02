@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "This item allows character t0 use the Survivae",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 147,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:42Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p147_0343",
+    "entity_type": "items",
+    "name_guess": "This item allows character t0 use the Survivae",
+    "breadcrumb_path": "Rules Compendium > Page 147 > items > This item allows character t0 use the Survivae",
+    "page_refs": [
+      147
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "This item allows character t0 use the Survivae Skill without suffering Lack of Proper Equipment Modifier: Bubble Tent Relatively lightweignt and easy to set up, bubble tents pro vide shelter even in the harshest environments_ The tent must be set Up in an environment which human can breathe The tent contains climate-control system that can bring extreme 148"
+  }
+}

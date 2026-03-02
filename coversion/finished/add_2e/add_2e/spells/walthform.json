@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "walthform",
+  "name": "Walthform",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Walthform (Alteration, Illusion) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "third",
+    "book_pages": [
+      154
+    ],
+    "pdf_pages": [
+      155
+    ],
+    "raw_block": "Walthform (Alteration, Illusion)\nRange: 0\nComponents: S, M\nDuration: 2 rounds/level\nCasting Time: 1\nArea of Effect: The caster\nSaving Throw: None\nWhen this spell is cast, the wizard and all\nof his gear become insubstantial. The caster\nis subject only to magical or special attacks,\nincluding those by weapons of + 1 or better,\nor by creatures otherwise able to affect\nthose struck only by magical weapons.\nUndead of most sorts will ignore an individ-\nwl in wraithform, believing him to be a\nwraith or spectre, though a lich or special\nundead may save vs. spell with a - 4 penal-\nty to recognize the spell.\nThe wizard can pass through small holes\nor narrow openings, even mere cracks, with\nall he wears or holds in his hands, as long as\nthe spell persists. Note, however, that the\nthe caster cannot fly without additional\nmagic. No form of attack is possible when in\nwraithform, except against creatures that\nexist on the Ethereal plane, where all attacks\n(both ways) are nod. A successful dispel\nmagic spell forces the wizard in wraithform\nback to normal form. The spellcaster can\nend the spell with a single word.\nThe material components for the spell are\na bit of gauze and a wisp of smoke.\nii if!!\nI\nFourth-Level Spells"
+  },
+  "mechanics": {
+    "school_or_type": "Alteration, Illusion",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Walthform",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration, Illusion",
+      "range": "0",
+      "components": "S, M",
+      "duration": "2 rounds/level",
+      "casting_time": "1",
+      "area_of_effect": "The caster",
+      "saving_throw": "None",
+      "description_excerpt": "When this spell is cast, the wizard and all of his gear become insubstantial. The caster is subject only to magical or special attacks, including those by weapons of + 1 or better, or by creatures otherwise able to affect those struck only by magical weapons. Undead of most sorts will ignore an individ- wl in wraithform, believing him to be a wraith or spectre, though a lich or special undead may save vs. spell with a - 4 penal- ty to recognize the spell. The wizard can pass through small holes or narrow openings, even mere cracks, with all he wears or holds in his hands, as long as the spell persists. Note, however, that the the caster cannot fly without additional magic. No form of attack is possible when in wraithform, except against creatures that exist on the Ethereal plane, where all attacks (both ways) are nod. A successful dispel magic spell forces the wizard in wraithform back t"
+    },
+    "quality_flags": []
+  }
+}

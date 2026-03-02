@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Make sure to account for traits purchased after",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 62,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:00Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p062_0265",
+    "entity_type": "npcs",
+    "name_guess": "Make sure to account for traits purchased after",
+    "breadcrumb_path": "Rules Compendium > Page 062 > npcs > Make sure to account for traits purchased after",
+    "page_refs": [
+      62
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Make sure to account for traits purchased after the Life Path: If the char- acter has ay Contact Traits_ details about those contacts can form the basis of interesting relationships for the character Likewise enemies can become the basis for ongoing plots_ creative as you can; your character'$ background determines who he or she really is Character Personality Finally; you need personality for your character something that makes him or her distinct individual: If you don\"t have one in mind you can use the Life Path to flesh out various personali- ty aspects_ How did your character respond to events in the Life Path?"
+  }
+}

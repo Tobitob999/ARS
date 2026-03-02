@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "seeming",
+  "name": "Seeming",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Seeming (UusiodPhantasm) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      171
+    ],
+    "pdf_pages": [
+      172
+    ],
+    "raw_block": "Seeming (UusiodPhantasm)\nRange: 1Moot radius\nComponents: V, S\nDuration: 12 hours\nCasting Time: 5\nArea of Effect: 1 person/2 levels\nSaving Throw: None\nThis spell enables the caster to alter the\nappearance of one person for every two\nlevels of experience he has attained. The\nchange includes clothing and equipment.\nThe caster can make the recipients appear as\nany generally man-shaped bipedal creature,\neach up to one foot shorter or taller than his\nnormal height, and thin or fat or in\nbetween. All those affected must resemble\nthe same general type of creature: human,\norc, ogre, etc. Each remains a recognizable\nindividual. The effect fails for an individual\nif the illusion chosen by the caster cannot be\naccomplished within the spell parameters\n[for example, a halfling could not be made\nto look like a centaur, but he might be made\nto look like a short, young ogre). Unwilling\npersons receive saving throws vs. spell to\navoid the effect. Affected persons resume\ntheir normal appearances if slain. The spell\nis not precise enough to duplicate the\nappearance of a specific individual.\n5ending (Evocation)\nRange: Special\nComponents: V, S, M\nDuration: Special\nCasting Time: 1 turn\nArea of Effect: 1 creature\nSaving Throw: None\nBy means of this spell, the caster can con-\ntact a single creature with whom he is famil-\niar and whose name and appearance are\nknown. If the creature in question is not on\nthe same plane of existence as the spellcast-\ner, there is a base 5% chance that the send-\ning does not amve. Local conditions on oth-\ner planes may worsen this chance\nconsiderably at the option of the DM. The\nsending, if successful, can be understood\neven by a creature with an Intelligence as\nlow as 1 (animal Intelligence).\nThe wizard can send a short message of 25\nwords or less to the recipient. Also the recip-\nient can answer in like manner immediately.\nEven if the sending is received, the subject\ncreature is not obligated to act upon it in\nany manner.\nThe material component for this spell\nconsists of two tiny cylinders, each with one\nopen end, connected by a short piece of fine\ncopper wire."
+  },
+  "mechanics": {
+    "school_or_type": "UusiodPhantasm",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Seeming",
+      "canonical_name_guess": null,
+      "school_or_type": "UusiodPhantasm",
+      "range": "1Moot radius",
+      "components": "V, S",
+      "duration": "12 hours",
+      "casting_time": "5",
+      "area_of_effect": "1 person/2 levels",
+      "saving_throw": "None",
+      "description_excerpt": "By means of this spell, the caster can con- tact a single creature with whom he is famil- iar and whose name and appearance are known. If the creature in question is not on the same plane of existence as the spellcast- er, there is a base 5% chance that the send- ing does not amve. Local conditions on oth- er planes may worsen this chance considerably at the option of the DM. The sending, if successful, can be understood even by a creature with an Intelligence as low as 1 (animal Intelligence). The wizard can send a short message of 25 words or less to the recipient. Also the recip- ient can answer in like manner immediately. Even if the sending is received, the subject creature is not obligated to act upon it in any manner. The material component for this spell consists of two tiny cylinders, each with one open end, connected by a short piece of fine copper wire."
+    },
+    "quality_flags": []
+  }
+}

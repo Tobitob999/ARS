@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "mnd",
+  "name": "Mnd",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Mnd (Enchantment) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "second",
+    "book_pages": [
+      139,
+      140
+    ],
+    "pdf_pages": [
+      140,
+      141
+    ],
+    "raw_block": "Mnd (Enchantment)\nRange: 30 yards\nComponents: V, S, M\nDuration: 1 round/level\nCasting Time: 2\nArea of Effect: Special\nSaving Throw: None\nWhen this spell is employed, the wizard\ncan command any non-living ropelike\nobject, including string, yarn, cord, line,\nrope, or wen a cable. The spell affects 50\nfeet of normal rope (one-inch diameter),\nplus five feet per caster level. This length is\nreduced by 50% for wery additional inch of\nthickness and increases by 50% for each ’/a\ninch less. The possible commands are Coil\n(form a neat, coiled stack), Coil & Knot,\nLoop, Loop & Knot, Tie 8t Knot, and the\nreverses of all of the above (Uncoil, etc.).\nOne command can be given each round.\nThe rope can only enwrap a creature or\nan object within one foot of it-it does not\nsnake outward-so it must be thrown or\nhurled near the intended target. Note that\nthe rope itself, and any knots tied in it, are\nnot magical. A typical rope might be AC 6\nand take 4 points of slashing damage before\nbreaking. The rope does not inflict damage\nof any type, but it can be used as a trip line\nor to entangle a single opponent who fails a\nsaving throw vs. spell."
+  },
+  "mechanics": {
+    "school_or_type": "Enchantment",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Mnd",
+      "canonical_name_guess": null,
+      "school_or_type": "Enchantment",
+      "range": "30 yards",
+      "components": "V, S, M",
+      "duration": "1 round/level",
+      "casting_time": "2",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "When this spell is employed, the wizard can command any non-living ropelike object, including string, yarn, cord, line, rope, or wen a cable. The spell affects 50 feet of normal rope (one-inch diameter), plus five feet per caster level. This length is reduced by 50% for wery additional inch of thickness and increases by 50% for each ’/a inch less. The possible commands are Coil (form a neat, coiled stack), Coil & Knot, Loop, Loop & Knot, Tie 8t Knot, and the reverses of all of the above (Uncoil, etc.). One command can be given each round. The rope can only enwrap a creature or an object within one foot of it-it does not snake outward-so it must be thrown or hurled near the intended target. Note that the rope itself, and any knots tied in it, are not magical. A typical rope might be AC 6 and take 4 points of slashing damage before breaking. The rope does not inflict damage of any type, bu"
+    },
+    "quality_flags": []
+  }
+}

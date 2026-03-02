@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "locations_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "locations",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Oftentimes group will find fame in remote region",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 153,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:55Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_locations_p153_0198",
+    "entity_type": "locations",
+    "name_guess": "Oftentimes group will find fame in remote region",
+    "breadcrumb_path": "Rules Compendium > Page 153 > locations > Oftentimes group will find fame in remote region",
+    "page_refs": [
+      153
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Oftentimes group will find fame in remote region with their first release years Or even decades alter was first recorded_ More than once music company has even tried sign one of these groups, only to find that its members were long since dead_ Interstellar concert tours are rare because the expense of JumpShip travel, but Iocal orchestras and pop bands can be found on every major world. The most common form music takes is the ubiquitous musi chip fingernail sized cnip holding up t0 two hours of high quality sound."
+  }
+}

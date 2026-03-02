@@ -1,0 +1,200 @@
+{
+  "schema_version": "1.1.0",
+  "category": "conversion_qa",
+  "tags": [
+    "mechwarrior_3e",
+    "conversion",
+    "qa",
+    "autopilot"
+  ],
+  "summary": "Verbindlicher QA-Report fuer Volltiefen-Conversion mit 12-Phasen-Gate.",
+  "source_text": {
+    "generated_at": "2026-03-02T20:48:52Z",
+    "bundle": "G:\\Meine Ablage\\ARS\\coversion\\finished\\mechwarrior_3e",
+    "lore_root": "G:\\Meine Ablage\\ARS\\coversion\\finished\\mechwarrior_3e\\data\\lore\\mechwarrior_3e",
+    "ruleset_path": "G:\\Meine Ablage\\ARS\\coversion\\finished\\mechwarrior_3e\\modules\\rulesets\\mechwarrior_3e.json"
+  },
+  "mechanics": {
+    "validation_status": "pass",
+    "required_dirs": [
+      "book_conversion",
+      "fulltext",
+      "chapters",
+      "appendices",
+      "spells",
+      "tables",
+      "indices",
+      "mechanics",
+      "characters",
+      "combat",
+      "equipment",
+      "treasure",
+      "encounters",
+      "npcs",
+      "vision",
+      "monsters",
+      "rules_fulltext_chunks",
+      "derived_rules"
+    ],
+    "counts": {
+      "book_conversion": 4,
+      "fulltext": 246,
+      "chapters": 2,
+      "appendices": 1,
+      "spells": 4,
+      "tables": 9,
+      "indices": 3,
+      "mechanics": 1,
+      "characters": 1,
+      "combat": 1,
+      "equipment": 1,
+      "treasure": 1,
+      "encounters": 1,
+      "npcs": 882,
+      "vision": 1,
+      "monsters": 22,
+      "rules_fulltext_chunks": 23,
+      "derived_rules": 8
+    },
+    "phases": [
+      {
+        "phase": 1,
+        "name": "skeleton_mapping",
+        "status": "done",
+        "reason": null
+      },
+      {
+        "phase": 2,
+        "name": "metadata",
+        "status": "done",
+        "reason": null
+      },
+      {
+        "phase": 3,
+        "name": "dice_system",
+        "status": "done",
+        "reason": null
+      },
+      {
+        "phase": 4,
+        "name": "characteristics",
+        "status": "done",
+        "reason": null
+      },
+      {
+        "phase": 5,
+        "name": "attribute_bonuses",
+        "status": "na_with_reason",
+        "reason": "Nicht direkt im Ruleset/Artefakt nachweisbar; als N/A markiert."
+      },
+      {
+        "phase": 6,
+        "name": "races",
+        "status": "na_with_reason",
+        "reason": "Nicht direkt im Ruleset/Artefakt nachweisbar; als N/A markiert."
+      },
+      {
+        "phase": 7,
+        "name": "classes_progression",
+        "status": "na_with_reason",
+        "reason": "Nicht direkt im Ruleset/Artefakt nachweisbar; als N/A markiert."
+      },
+      {
+        "phase": 8,
+        "name": "skills",
+        "status": "done",
+        "reason": null
+      },
+      {
+        "phase": 9,
+        "name": "combat",
+        "status": "done",
+        "reason": null
+      },
+      {
+        "phase": 10,
+        "name": "magic",
+        "status": "na_with_reason",
+        "reason": "Nicht direkt im Ruleset/Artefakt nachweisbar; als N/A markiert."
+      },
+      {
+        "phase": 11,
+        "name": "remaining_sections",
+        "status": "done",
+        "reason": null
+      },
+      {
+        "phase": 12,
+        "name": "extensions",
+        "status": "done",
+        "reason": null
+      }
+    ],
+    "autofill_files_created": [],
+    "ocr_quality": {
+      "empty_pages": 246,
+      "total_pages": 246,
+      "empty_ratio": 1.0
+    },
+    "entity_index": {
+      "exists": true,
+      "path": "G:\\Meine Ablage\\ARS\\coversion\\finished\\mechwarrior_3e\\data\\lore\\mechwarrior_3e\\indices\\entity_index.json"
+    },
+    "snippet_quality": {
+      "warnings": 1447,
+      "checked": 4255,
+      "sample_artifacts": [
+        {
+          "file": "fp_npcs_p006_0004.json",
+          "name": "And the Clans_ born and bred a5 warriors,",
+          "dir": "npcs"
+        },
+        {
+          "file": "fp_npcs_p007_0008.json",
+          "name": "INTRODUCTION sents the setting and situation; through their",
+          "dir": "npcs"
+        },
+        {
+          "file": "fp_npcs_p014_0015.json",
+          "name": "CHWARRIOR JrD Edi GAME CONCEPTS This section describes",
+          "dir": "npcs"
+        },
+        {
+          "file": "fp_npcs_p016_0021.json",
+          "name": "GAME CONCEPTS rerolling each die that scores 6",
+          "dir": "npcs"
+        },
+        {
+          "file": "fp_npcs_p016_0023.json",
+          "name": "For example_ there is no question that your",
+          "dir": "npcs"
+        },
+        {
+          "file": "fp_npcs_p016_0025.json",
+          "name": "For example_ ranged attack against moving character would",
+          "dir": "npcs"
+        },
+        {
+          "file": "fp_npcs_p017_0027.json",
+          "name": "character has WIL of 6 then the base",
+          "dir": "npcs"
+        },
+        {
+          "file": "fp_npcs_p017_0032.json",
+          "name": "For example _ two characters decide settle their",
+          "dir": "npcs"
+        },
+        {
+          "file": "fp_npcs_p017_0033.json",
+          "name": "63}, roll 4010 and use the lowest two",
+          "dir": "npcs"
+        },
+        {
+          "file": "fp_npcs_p017_0034.json",
+          "name": "Apply this total to the TN for the",
+          "dir": "npcs"
+        }
+      ]
+    }
+  }
+}

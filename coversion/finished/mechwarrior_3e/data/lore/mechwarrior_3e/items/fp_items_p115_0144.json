@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "base damage The winner'$ STR added to tnis",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 115,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:30Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p115_0144",
+    "entity_type": "items",
+    "name_guess": "base damage The winner'$ STR added to tnis",
+    "breadcrumb_path": "Rules Compendium > Page 115 > items > base damage The winner'$ STR added to tnis",
+    "page_refs": [
+      115
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "Damage",
+      "Wound",
+      "damage"
+    ],
+    "excerpt": "base damage The winner'$ STR added to tnis damage as are the damagc dice of any relee weapon used; the winner are severa steps t0 this process each described below: First, was using ranged weapon; use the damage of that weapon determine the amouni ol damage, also called the Damage and do not add STR, Factor Then consult the Wound Table t0 determine the damage the characters tied. damage Benerated witn no addition effects."
+  }
+}

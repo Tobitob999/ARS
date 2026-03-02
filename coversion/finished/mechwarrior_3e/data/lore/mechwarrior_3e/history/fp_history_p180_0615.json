@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "The Federated Suns Is also home Three House",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 180,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:09Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p180_0615",
+    "entity_type": "history",
+    "name_guess": "The Federated Suns Is also home Three House",
+    "breadcrumb_path": "Rules Compendium > Page 180 > history > The Federated Suns Is also home Three House",
+    "page_refs": [
+      180
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "The Federated Suns Is also home Three House Entertainment; the only agency of its kind with licenses for travel into and out of the Federated Commonwealth_ the Draconis Combine and the Capellan Confederation New Avalon Publishers, the Inner Sphere single largest book publisher; has its home office on the FedSuns capital with remote pub lishing and distribution centers in every nation_ In the Combine the NAP office loose affiliate of Luthien Press The Lyran Alliance has always maintained a impressive mass entertainment industry: Alliance producers are into every thing; from music and sensory discs holovid dramas Surprisingly, rather than offering escape from the usual grind politics and war fare the Alliance capitalizes on it."
+  }
+}

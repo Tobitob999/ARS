@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_2",
+    "tsr_inc_ad_and_d_2nd_edition_dragonlance_dls3_oak_lords",
+    "attribute_bonuses"
+  ],
+  "summary": "Phase-2 Regelchunk: attribute_bonuses aus TSR Inc - AD&D 2nd Edition - Dragonlance_ DLS3 - Oak Lords.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLS3 - Oak Lords",
+    "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLS3 - Oak Lords.pdf",
+    "text": "[PDF_PAGE 36 | score=3] Serinda Sevenstar 5th-Level Fighter/8th-Level Silvanesti MageTasslehoff Burrfoot 12th Level Kender Thief STR 9 DEX 13 CON 10 THAC0 16 INT 16 WIS 15 CHR 15 AL LG HP 28 Armor Class: 4 (leather +2, +2 Dexterity Bonus). Weapons: hoopak +2 [combination of bullet staff sling (1d4+1/ 1d6+1) and quarterstaff (1d6/1d6)]; dagger (1d4/1d3). Equipment: thieves’ picks, leather map case, and 500 stl miscellaneous. Languages: all well known languages and 50% of rare ones. See back of card for more information. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Goldmoon 11th-Level Human Cleric Armor Class: –2 (elven chain +2, shield +2, +2 Dexterity bonus). Weapons: long sword\n[PDF_PAGE 6 | score=1] 4 characters were specifically chosen because of their backgrounds, so be sure to have all players familiarize themselves with their char- acters before beginning play. An important el- ement of the DRAGONLANCE ® saga setting involves detailed characters with intriguing and complex relationships. Assist your play- ers to fully develop their characters’ personal- ities and backgrounds along the campaign trail. There is also the option of allowing your players to use their own characters in this module. If this is done, be sure to meet with each player and discuss personal histories which will tie in with the existing adventure. It would be useful if at least one of the PCs was a Qualinesti el\n[PDF_PAGE 23 | score=1] chairs are two high ranking members of the minotaur race. They are Menthon, a 10th- level fighter, and Menas, a 9th-level wizard, here to represent their race in the Chaow- Gunosh. The minotaurs will not immediately notice the PCs, due to their attention to the Chaow- Gunosh. It is possible that only one PC will be here at first; the others may still be back in #S4 or #S5 or may even be making for the arched bridge with a crystal shard. If any PC attacks Menthon or Menas, they will both retaliate. If the PCs are otherwise dis- covered, use table 59: encounter reactions, in the DMG with a +5 penalty. If the reaction is neutral or friendly, Menthon will challenge one of the PCs to a life-or-de\n[PDF_PAGE 37 | score=1] Name THAC0 AC #AT Dmg HD/hp MV SA SD MR A L SZ XP 7 6 3 2d4+1/2d4+1/3d8 12+12/89. 9, SW—9 Y Y 20% N H—20’ 8,000 17 5(10) 1 2d4 or W 3+1/15 9 Y N N CE L—7’ 120 15 2 2 or 1 1d8/W or 1d8 6/31. 18 N Y 20% CG M—7’ 270 17 5 2 or 1 1d6/W or 1d6 4/18 18 N Y N CG/NG M—5’ 120 15 3 3 2d4/2d4/2d6 5/23 12 Y Y N LE M—6’ 975 17 4 1 1d4 or W 3/20. 6, R—15, Y N 20% LE M—6’ 650 GL—18 5 –5 6 3d20(x4)/1d100(x2) 35/158.** 15, FL—48(B) Y Y 95% N G—50’ 40,000 Beast, Undead—Stahnk Bugbear Centaur (Ebonocg) Centaur (of Krynn) Disir Draconian, Kapak Dragon, Astral—Mated Pr. Dragon, Astral—Unmated Dragon, Kodragon Elemental, Air Elemental, Water Elf, High—Qualinesti Fetch Fire Minion Fireshadow Golem, Greater—Stone Ho"
+  },
+  "mechanics": {
+    "topic": "attribute_bonuses",
+    "keywords": [
+      "add_2e",
+      "attribute_bonuses",
+      "bonus",
+      "penalty",
+      "tsr_inc_ad_and_d_2nd_edition_dragonlance_dls3_oak_lords"
+    ],
+    "injection_priority": "support",
+    "confidence": 0.15,
+    "page_refs": [
+      6,
+      23,
+      36,
+      37
+    ],
+    "raw_text": "[PDF_PAGE 36 | score=3] Serinda Sevenstar 5th-Level Fighter/8th-Level Silvanesti MageTasslehoff Burrfoot 12th Level Kender Thief STR 9 DEX 13 CON 10 THAC0 16 INT 16 WIS 15 CHR 15 AL LG HP 28 Armor Class: 4 (leather +2, +2 Dexterity Bonus). Weapons: hoopak +2 [combination of bullet staff sling (1d4+1/ 1d6+1) and quarterstaff (1d6/1d6)]; dagger (1d4/1d3). Equipment: thieves’ picks, leather map case, and 500 stl miscellaneous. Languages: all well known languages and 50% of rare ones. See back of card for more information. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Goldmoon 11th-Level Human Cleric Armor Class: –2 (elven chain +2, shield +2, +2 Dexterity bonus). Weapons: long sword\n[PDF_PAGE 6 | score=1] 4 characters were specifically chosen because of their backgrounds, so be sure to have all players familiarize themselves with their char- acters before beginning play. An important el- ement of the DRAGONLANCE ® saga setting involves detailed characters with intriguing and complex relationships. Assist your play- ers to fully develop their characters’ personal- ities and backgrounds along the campaign trail. There is also the option of allowing your players to use their own characters in this module. If this is done, be sure to meet with each player and discuss personal histories which will tie in with the existing adventure. It would be useful if at least one of the PCs was a Qualinesti el\n[PDF_PAGE 23 | score=1] chairs are two high ranking members of the minotaur race. They are Menthon, a 10th- level fighter, and Menas, a 9th-level wizard, here to represent their race in the Chaow- Gunosh. The minotaurs will not immediately notice the PCs, due to their attention to the Chaow- Gunosh. It is possible that only one PC will be here at first; the others may still be back in #S4 or #S5 or may even be making for the arched bridge with a crystal shard. If any PC attacks Menthon or Menas, they will both retaliate. If the PCs are otherwise dis- covered, use table 59: encounter reactions, in the DMG with a +5 penalty. If the reaction is neutral or friendly, Menthon will challenge one of the PCs to a life-or-de\n[PDF_PAGE 37 | score=1] Name THAC0 AC #AT Dmg HD/hp MV SA SD MR A L SZ XP 7 6 3 2d4+1/2d4+1/3d8 12+12/89. 9, SW—9 Y Y 20% N H—20’ 8,000 17 5(10) 1 2d4 or W 3+1/15 9 Y N N CE L—7’ 120 15 2 2 or 1 1d8/W or 1d8 6/31. 18 N Y 20% CG M—7’ 270 17 5 2 or 1 1d6/W or 1d6 4/18 18 N Y N CG/NG M—5’ 120 15 3 3 2d4/2d4/2d6 5/23 12 Y Y N LE M—6’ 975 17 4 1 1d4 or W 3/20. 6, R—15, Y N 20% LE M—6’ 650 GL—18 5 –5 6 3d20(x4)/1d100(x2) 35/158.** 15, FL—48(B) Y Y 95% N G—50’ 40,000 Beast, Undead—Stahnk Bugbear Centaur (Ebonocg) Centaur (of Krynn) Disir Draconian, Kapak Dragon, Astral—Mated Pr. Dragon, Astral—Unmated Dragon, Kodragon Elemental, Air Elemental, Water Elf, High—Qualinesti Fetch Fire Minion Fireshadow Golem, Greater—Stone Ho"
+  }
+}

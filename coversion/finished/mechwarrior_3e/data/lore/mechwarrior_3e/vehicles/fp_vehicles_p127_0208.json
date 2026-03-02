@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "vehicles_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "vehicles",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "They should be assigned Gunnery and Piloting Skills",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 127,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:34Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_vehicles_p127_0208",
+    "entity_type": "vehicles",
+    "name_guess": "They should be assigned Gunnery and Piloting Skills",
+    "breadcrumb_path": "Rules Compendium > Page 127 > vehicles > They should be assigned Gunnery and Piloting Skills",
+    "page_refs": [
+      127
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "They should be assigned Gunnery and Piloting Skills as described the BMR (p 108) as appropriate to tne scenario as deter mined by the gamemaster Player characters as well as NPCs that have pregenerated Mw3 stats_ can be quickly converted tor use BattleTech using the rules below: Skills Mw3 character\" = various Piloting ad Gunnery Skills are converted BattleTech terms using thc Battle -Tech Skills Conversion Table Find the character's skill bonus the left hand column and tollow to the appropriate column find tne BattleTech Piloting or Gurnery Skill the case of Piloting Skills MW3 characters will have distinct skill for each type Of vehicle they can operate The skill appropriate t0 the vehicle being used Ine BattleTech game shoula converted For example_ character has Piloting BattleMech and Piloting /Tracked +2 and iS driving tank tne current battle."
+  }
+}

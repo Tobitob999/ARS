@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "locations_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "locations",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "HISTORY and honor intact Under other circumstances Pryde",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 166,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:59Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_locations_p166_0233",
+    "entity_type": "locations",
+    "name_guess": "HISTORY and honor intact Under other circumstances Pryde",
+    "breadcrumb_path": "Rules Compendium > Page 166 > locations > HISTORY and honor intact Under other circumstances Pryde",
+    "page_refs": [
+      166
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "HISTORY and honor intact Under other circumstances Pryde might have refused but with the Wolf Khan making clear his intent to attack her Clan\" holdings she could not afford leave those worlds defended by mere garrison troops_ She accepted hegira; and the Jade Falcons left Coventry without another shot being fired."
+  }
+}

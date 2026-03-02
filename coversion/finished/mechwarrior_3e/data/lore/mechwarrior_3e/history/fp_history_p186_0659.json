@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "The Federated Suns was the birthplace 0f the",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 186,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:12Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p186_0659",
+    "entity_type": "history",
+    "name_guess": "The Federated Suns was the birthplace 0f the",
+    "breadcrumb_path": "Rules Compendium > Page 186 > history > The Federated Suns was the birthplace 0f the",
+    "page_refs": [
+      186
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "The Federated Suns was the birthplace 0f the Unfinished Book movement; which has made great strides in blurring the boundaries among disparate faiths The Lyran Alliance also promises religious freedom and has oiten promoted religious harmony: The Interfaitn Congress that produced the Unfinished Book movement was modeled after the Lyran Commonwealth Religious Council, founded in 2590_ The council analyzes incidents with religious overtones and edu: cates the masses about various religions large part of the counci' success comes from the average Lyran citizen' prac tical nature."
+  }
+}

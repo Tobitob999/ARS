@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "category": "lore_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "lore",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "This attack cannot be used against character in",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 104,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:26Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_lore_p104_0178",
+    "entity_type": "lore",
+    "name_guess": "This attack cannot be used against character in",
+    "breadcrumb_path": "Rules Compendium > Page 104 > lore > This attack cannot be used against character in",
+    "page_refs": [
+      104
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "0 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [
+      "armor",
+      "damage"
+    ],
+    "excerpt": "This attack cannot be used against character in full-coverage armor Navigation / Air This is the Srili of plotting ad following course through the atmosphere of planet; whether traveling VTOL_ stan- dard aircraft, an aerospace fighter or DropShip: Navigation / Space This is the skill of plotting and tollowing course through interplanetary space whether traveling in an aerospace fighter; DropShip or WarShip Navigation / Ground Also called orienteering this is the skill of plotting and fol: lowing course on the Iand surface of planet; whether travel- ing on foot Or in ground vehicle Navigation/ Jump Drive This the skill of plotting course ior venicles that use the Kearny-Fuchida hyperspace jump drve It is rare and difficult-to Iearn skill that requires lengthy calculations and very accurate star maps This skill is only used t0 plot hyperspace jump points; use the Navigation / Space Subskill when moving jump capable vessels trom point to point in space using standard drives_ Tae Kwon Do This Martial Arts Subskill represents tae kwon do and other forms that focus on kicks such as savate and muay thai: It is most renowned for its emphasis power; practitioners can destroy wood planks and bricks with their bare hands and feet, not t0 mention what this does t0 their human opponents Block (Defense): Your opponent\" : damage is divided in half (round down) but you cannot inflict damage this round Roundhouse Kick (Attack): character must have at least +2 Skill Bonus in Tae Kwon Do to use this maneuver: Costs Fatigue."
+  }
+}

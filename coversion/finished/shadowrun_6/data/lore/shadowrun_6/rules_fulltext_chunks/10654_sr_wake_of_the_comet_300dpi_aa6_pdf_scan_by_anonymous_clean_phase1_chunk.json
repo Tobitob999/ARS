@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "shadowrun_6",
+    "phase_1",
+    "10654_sr_wake_of_the_comet_300dpi_aa6_pdf_scan_by_anonymous_clean"
+  ],
+  "summary": "Phase-1 Skeleton-Mapping-Chunk.",
+  "source_text": {
+    "book": "10654.sr.wake.of.the.comet.300dpi.aa6.pdf - Scan by Anonymous. Clean",
+    "source_file": "10654.sr.wake.of.the.comet.300dpi.aa6.pdf - Scan by Anonymous. Clean.pdf",
+    "text": ""
+  },
+  "mechanics": {
+    "topic": "phase_1_skeleton_mapping",
+    "keywords": [
+      "10654_sr_wake_of_the_comet_300dpi_aa6_pdf_scan_by_anonymous_clean",
+      "extensions",
+      "shadowrun_6"
+    ],
+    "injection_priority": "core",
+    "mapped_skeleton_fields": [
+      "extensions"
+    ],
+    "raw_text": ""
+  }
+}

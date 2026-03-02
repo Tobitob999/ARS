@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "add_2e",
+    "chapter_map",
+    "toc",
+    "appendix",
+    "tsr_inc_ad_and_d_2nd_edition_wizards_spell_compendium_volume_3"
+  ],
+  "summary": "Automatisch erkannte Kapitel- und Appendix-Marker aus TSR Inc - AD&D 2nd Edition - Wizards Spell Compendium Volume 3.pdf.",
+  "source_text": {
+    "detected_chapters": [
+      {
+        "chapter": "7",
+        "title": "Magic and under \"Adjudi-",
+        "first_seen_page": 85
+      },
+      {
+        "chapter": "7",
+        "title": "Magic and under \"Adjudicating Illusions\" at the",
+        "first_seen_page": 85
+      },
+      {
+        "chapter": "9",
+        "title": "Combat).",
+        "first_seen_page": 251
+      }
+    ],
+    "detected_appendices": [],
+    "detection_note": "Extraktion kann Schreibfehler enthalten; Titel wurden 1:1 aus PDF-Text uebernommen."
+  },
+  "mechanics": {
+    "chapter_regex": "\\bChapter\\s+([0-9IVXLC]+)\\s*[:\\-]\\s*([^\\n\\r]{2,120})",
+    "appendix_regex": "\\bAppendix\\s+([0-9IVXLC]+)\\s*[:\\-]\\s*([^\\n\\r]{2,120})",
+    "unique_chapters": 3,
+    "unique_appendices": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "burst-fire weapon can fire single shot if desired,",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 119,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:31Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p119_0164",
+    "entity_type": "items",
+    "name_guess": "burst-fire weapon can fire single shot if desired,",
+    "breadcrumb_path": "Rules Compendium > Page 119 > items > burst-fire weapon can fire single shot if desired,",
+    "page_refs": [
+      119
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "burst-fire weapon can fire single shot if desired, which case it iS used Iike ay other ranged weapon_ Weapons with burst-fire capability are rated by their maxi- mun rate of fire ad their recoil rating: On the Weapon Table (p. 153), this is summarized the Notes column as two num: bers separated by slash; For example standard SMG is list- ed as having burst (10/2}."
+  }
+}

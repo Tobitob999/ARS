@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "locations_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "locations",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Slow Learner] Drougnt devastated family and your health",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 35,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:49Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_locations_p035_0051",
+    "entity_type": "locations",
+    "name_guess": "Slow Learner] Drougnt devastated family and your health",
+    "breadcrumb_path": "Rules Compendium > Page 035 > locations > Slow Learner] Drougnt devastated family and your health",
+    "page_refs": [
+      35
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Slow Learner] Drougnt devastated family and your health [Scrounge BOD Poverty] Family killed in BattleMech crossfire_ you haven' been the same since [Combat Paralysis] Least successful farm on the planet (Poverty) Pa takes you hunting all the time (Rifles +1] You start t0 earn the family business [Administration +1] Already earning how to fix the tractor [Natural Aptitude / Technician/ICE] Home planet had long day /night cycle [Night Vision] Most successful farm on the planet (Wealth] Family killed in BattleMech crossfire; sympathetic mercenary adopted you (may enter Mercenary Brat Path] [Choose one event or roll twice ad apply both results] NOBILITY Most Inner Sphere and Periphery societies maintain rul ing noble class_ into which you were born: Living life of privi- lege_ you have somewhat neglected your physica development in tavor of more cerebral pursuits_ Attrlbute Minimums: SOC Attrlbute Thresholds: STR -1 BOD -13 RFL -1, INT +1_ CHA +1, SOC +1 Tralts: Wealth, Well-Equipped, Enemy Skills: Language /Affiliation +1, Protocol/Affiliation +2 Next Path: Preparatory School (2), Military School Nobillty Events You survive an assassination attempt barely [Choose one: Combat Paralysis, Lost Limb (21] Your parents betrayed the crown costing them their 34"
+  }
+}

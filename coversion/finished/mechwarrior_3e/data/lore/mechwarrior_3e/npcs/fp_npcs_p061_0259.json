@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "FINISHING TOUCHES Now it' time (0 give your",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 61,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:59Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p061_0259",
+    "entity_type": "npcs",
+    "name_guess": "FINISHING TOUCHES Now it' time (0 give your",
+    "breadcrumb_path": "Rules Compendium > Page 061 > npcs > FINISHING TOUCHES Now it' time (0 give your",
+    "page_refs": [
+      61
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "FINISHING TOUCHES Now it' time (0 give your character his Or her final polish; The following paragraphs describe rules for finalizing thc char acter age and choosing your character\" starting equipment and vehicle assignment, if any: After completing these steps your character IS ready t0 play!"
+  }
+}

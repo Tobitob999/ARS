@@ -1,0 +1,207 @@
+{
+  "module": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "total_turns": 10,
+  "total_latency_ms": 16293.635700000323,
+  "avg_latency_ms": 1629.3635700000323,
+  "avg_response_chars": 231.9,
+  "avg_sentences": 5.5,
+  "total_probes": 0,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich schaue mich im Raum um.",
+      "keeper_response": "Das Buero von Mr. Knott ist zweckmaessig eingerichtet. Akten stapeln sich ordentlich auf einem grossen Schreibtisch. Grundrisse von Haeusern liegen unter Glasplatten.\n\nDer Raum atmet den Geruch alten Papiers. Was moechtest du genauer betrachten? [ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 266,
+      "response_sentences": 6,
+      "latency_ms": 2761.424799999986,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich untersuche die Buecher auf dem Schreibtisch.",
+      "keeper_response": "Du siehst juristische Fachliteratur und Abhandlungen ueber Immobilienrecht. Dazu liegen Bilanzen und Mietvertraege. Alles wirkt sehr trocken und geschaeftlich.\n\nEin dicker Ordner mit dem Titel \"20 Sheafe Street\" sticht hervor. Was tust du? [ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 260,
+      "response_sentences": 5,
+      "latency_ms": 2609.771400000227,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich oeffne die Tuer zum Keller.",
+      "keeper_response": "Du suchst nach einer Kellertuer. Doch hier, im Buero von Mr. Knott, gibt es keine solche Passage. Nur eine schwere Holztuer fuehrt hinaus.\n\nMeinst du vielleicht einen anderen Ort? Was tust du stattdessen? [ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 225,
+      "response_sentences": 6,
+      "latency_ms": 2387.0489000000816,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich leuchte mit der Taschenlampe in die Dunkelheit.",
+      "keeper_response": "Du schwenkst deine Taschenlampe durch den Raum. Ihr Strahl trifft auf die Ruecken der Fachbuecher und die Glasplatte. Es gibt keine verborgene Dunkelheit hier.\n\nDieses Buero ist hell und sauber. Was moechtest du tun? [ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 237,
+      "response_sentences": 5,
+      "latency_ms": 1081.4565999999104,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich rufe nach meinen Begleitern.",
+      "keeper_response": "Deine Stimme hallt leise im sachlichen Buero wider. Du bist allein hier. Mr. Knott hat dich empfangen.\n\nDie anderen sind noch nicht eingetroffen. Was moechtest du tun? [ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 188,
+      "response_sentences": 6,
+      "latency_ms": 1112.4314999997296,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 6,
+      "player_input": "Ich pruefe die Schriftrollen genauer.",
+      "keeper_response": "Welche Schriftrollen meinst du? Auf Knotts Schreibtisch liegen keine solchen Gegenstaende. Nur staubige Akten und buerokratische Dokumente.\n\nBitte sei praeziser. Was moechtest du untersuchen? [ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 212,
+      "response_sentences": 5,
+      "latency_ms": 1301.8957000003866,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 7,
+      "player_input": "Ich versuche das Schloss zu knacken.",
+      "keeper_response": "Das Buero von Mr. Knott ist offen. Es gibt kein Schloss, das du knacken koenntest. Du bist bereits im Raum.\n\nMeinst du vielleicht die verschlossenen Aktenordner? Oder etwas anderes? [ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 202,
+      "response_sentences": 6,
+      "latency_ms": 1414.1583000000537,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 8,
+      "player_input": "Ich spreche den alten Mann an.",
+      "keeper_response": "[STIMME:keeper] Mr. Knott sitzt dir gegenueber. Er ist kein alter Mann. Seine Augen sind scharf.\n\n[STIMME:keeper] Er raeumt ein paar Papiere beiseite. [STIMME:scholar] \"Sie sind also bereit, die Sache an der Sheafe Street zu untersuchen?\" [STIMME:keeper] Er sieht dich erwartungsvoll an.\n\nWas antwortest du ihm? [ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 332,
+      "response_sentences": 7,
+      "latency_ms": 1575.7128000000193,
+      "tags_found": [
+        "ZEIT_VERGEHT",
+        "STIMME"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 9,
+      "player_input": "Ich fluechte aus dem Raum.",
+      "keeper_response": "Du stehst auf und gehst zur Tuer. Mr. Knott blickt dir verwundert nach. Du oeffnest die Tuer und betrittst den Flur.\n\nWas hast du vor? [ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 155,
+      "response_sentences": 5,
+      "latency_ms": 1128.5047999999733,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 10,
+      "player_input": "Ich schreibe meine Erkenntnisse auf.",
+      "keeper_response": "Du hast bisher nur eine Ansammlung von juristischer Fachliteratur und Bilanzen gesehen. Auch den Ordner \"20 Sheafe Street\" hast du nur bemerkt. Es gibt noch keine tieferen Erkenntnisse.\n\nWas genau moechtest du festhalten? [ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 242,
+      "response_sentences": 4,
+      "latency_ms": 921.230899999955,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

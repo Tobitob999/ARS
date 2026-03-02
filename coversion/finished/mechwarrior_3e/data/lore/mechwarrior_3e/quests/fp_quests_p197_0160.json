@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "category": "quests_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "quests",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Most major militaries and mercenary forces so assign",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 197,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:18Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_quests_p197_0160",
+    "entity_type": "quests",
+    "name_guess": "Most major militaries and mercenary forces so assign",
+    "breadcrumb_path": "Rules Compendium > Page 197 > quests > Most major militaries and mercenary forces so assign",
+    "page_refs": [
+      197
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "Armor",
+      "armor"
+    ],
+    "excerpt": "Most major militaries and mercenary forces so assign armor and infantry units support BattleMech operations Armor units include tanks. VTOLs; armored personne riers and any Other type of vehicle tnat can mount wcapon and 196"
+  }
+}

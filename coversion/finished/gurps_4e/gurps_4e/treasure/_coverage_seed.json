@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "treasure_autofill_seed",
+  "tags": [
+    "gurps_4e",
+    "treasure",
+    "conversion_autopilot",
+    "autofill_seed"
+  ],
+  "summary": "Automatisch erzeugter Nachweis fuer Vollstaendigkeit im Conversion-Autopilot.",
+  "source_text": {
+    "generated_at": "2026-03-02T15:09:31Z",
+    "generator": "coversion/enforce_full_depth.py",
+    "coverage_fields": [
+      "economy"
+    ]
+  },
+  "mechanics": {
+    "status": "autofill_seed",
+    "reason": "Kein direkter Extrakt in diesem Ordner gefunden; Seed aus Coverage erstellt.",
+    "evidence": [
+      {
+        "field": "economy",
+        "source_file": "GURPS - 4th Edition - Basic Set.pdf",
+        "page_refs": [
+          27,
+          28,
+          86,
+          120,
+          249,
+          267,
+          520,
+          521
+        ],
+        "excerpt": "[PDF_PAGE 28 | score=35] Wealth and Status In some game worlds, Status (see p. 28) is closely tied to Wealth. In a set- ting like this, if you are Wealthy or bet- ter, you get +1 Status for free. This bonus increases to +2 at Multi- millionaire 1 and to +3 at Multimillionaire 2. No one may claim more than +3 Status from Wealth. Independent Income 1 point/level You have a source of income that does not require you to work: stock portfolio, trust fund, rental property, royalties, pension, etc. Your monthly income is 1% of your starting wealth (adjusted for wealth level) per level of this trait, to a maximum of 20%. If your income derives from invest- ments, you need not specify their value; this trait assumes that you\n[PDF_PAGE 27 | score=28] (Broken) – is worth -2 points. The GM should not count these points against the disadvantage limit if illiteracy is the norm in the game world. Sign "
+      }
+    ]
+  }
+}

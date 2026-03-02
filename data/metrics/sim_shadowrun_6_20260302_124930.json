@@ -1,0 +1,212 @@
+{
+  "module": "shadowrun_6",
+  "adventure": null,
+  "total_turns": 10,
+  "total_latency_ms": 29640.595499998653,
+  "avg_latency_ms": 2964.0595499998653,
+  "avg_response_chars": 328.0,
+  "avg_sentences": 5.1,
+  "total_probes": 6,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich scanne die Matrix nach Infos ueber den Auftraggeber.",
+      "keeper_response": "Die feine Elektronik deines Cyberdecks schnurrt leise. Deine Finger tanzen über die Projektionen auf deinem Unterarm. Datenströme rauschen vorbei, ein unsichtbares Meer aus Informationen. Du konzentrierst dich auf die Spuren, die dein Auftraggeber hinterlassen haben könnte.\n\n[ZEIT_VERGEHT: 0.5h]\n[PROBE: Elektronik | X]",
+      "response_chars": 320,
+      "response_sentences": 4,
+      "latency_ms": 3032.165099999929,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich betrete den Club und suche den Kontakt.",
+      "keeper_response": "Die schwere Holztür quietscht leise, als du sie öffnest. Ein Wirbel aus Rauch und billigem Parfüm schlägt dir entgegen. Dumpfe Jazzmusik dringt durch den Lärm der Gespräche und klirrenden Gläser. Schatten tanzen an den Wänden.\n\nDu lässt deinen Blick durch den überfüllten Raum schweifen. Überall sind Menschen, die sich in ihren eigenen kleinen Welten verlieren. Du suchst nach einem bekannten Gesicht oder einem diskreten Zeichen.\n\n[ZEIT_VERGEHT: 0.5h]\n[PROBE: Wahrnehmung | X]",
+      "response_chars": 478,
+      "response_sentences": 7,
+      "latency_ms": 2525.0074999999015,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich aktiviere meine Cyberaugen und scanne den Raum.",
+      "keeper_response": "Du aktivierst deine Cyberaugen. Die chaotische Szene des Clubs wird sofort schärfer, Farben leuchten intensiver. Einzelne Gesichter treten aus dem Dunst hervor, jede Bewegung wird klarer. Dein Blick schneidet durch das Gedränge.\n\n[ZEIT_VERGEHT: 0.5h]\n[PROBE: Wahrnehmung | X]",
+      "response_chars": 275,
+      "response_sentences": 4,
+      "latency_ms": 6636.595999999827,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich versuche die Sicherheitstuer zu hacken.",
+      "keeper_response": "Deine Finger fliegen über das Interface deines Cyberdecks. Die Sicherheitstür vor dir scheint massiv und undurchdringlich. Doch für dich ist sie nur eine weitere Datenbarriere, ein Schloss aus Bits und Bytes. Du spürst, wie die Systeme des Gebäudes sich gegen deinen Eindringversuch wehren.\n\n[ZEIT_VERGEHT: 0.5h]\n[PROBE: Cracken | X]",
+      "response_chars": 333,
+      "response_sentences": 4,
+      "latency_ms": 2253.346699999838,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich ziehe meine Waffe und gebe Deckungsfeuer.",
+      "keeper_response": "Du ziehst deine Waffe. Das kalte Metall liegt vertraut in deiner Hand. Die Mündung hebt sich, zielt auf die Bedrohung. Du feuerst eine Salve ab, die den Raum mit ohrenbetäubendem Lärm erfüllt. Kugeln schlagen in Deckung ein, Staub und Splitter fliegen.\n\nWas ist dein nächster Schritt?",
+      "response_chars": 284,
+      "response_sentences": 6,
+      "latency_ms": 1497.8854000000865,
+      "tags_found": [],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 0,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 6,
+      "player_input": "Ich rufe einen Geist zur Unterstuetzung.",
+      "keeper_response": "Die Luft im Club verdichtet sich um dich herum. Ein kalter Windhauch streicht durch den Raum, obwohl alle Fenster geschlossen sind. Dein Geist wagt sich vor, greift nach den unsichtbaren Strömungen zwischen den Welten.\n\nWelcher Art und Stärke soll dieses Wesen sein, das du herbeirufen willst? [ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 314,
+      "response_sentences": 4,
+      "latency_ms": 5375.0999999997475,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 7,
+      "player_input": "Ich untersuche den Tatort auf magische Spuren.",
+      "keeper_response": "Du schliesst die Augen, konzentrierst dich. Ein seltsames Kribbeln breitet sich in deinen Fingerspitzen aus. Du versuchst, die feinen, unsichtbaren Fäden der Magie zu erspüren, die hier vielleicht gewebt wurden. Die Luft scheint schwerer, fast zäh. Ein Hauch von etwas Uraltem und Falschem schwebt im Raum.\n\n[ZEIT_VERGEHT: 1h]\n[PROBE: Cthulhu Mythos | X]",
+      "response_chars": 354,
+      "response_sentences": 5,
+      "latency_ms": 3072.782599999755,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 8,
+      "player_input": "Ich verhandle mit dem Schieber.",
+      "keeper_response": "Du findest den Schieber in einem rauchigen Hinterzimmer, abseits der Blicke neugieriger Gäste. Der Raum riecht nach abgestandenem Bier und feuchtem Holz. Er ist ein korpulenter Mann mit wachsamen Augen. Sein Blick mustert dich unauffällig.\n\n[STIMME:man] \"Was kann ich für Sie tun, Fremder?\" [STIMME:keeper] Seine Stimme ist rau, aber nicht unfreundlich.\n\n[ZEIT_VERGEHT: 0.5h]\nWie beginnst du die Verhandlung?",
+      "response_chars": 408,
+      "response_sentences": 6,
+      "latency_ms": 2891.25439999998,
+      "tags_found": [
+        "ZEIT_VERGEHT",
+        "STIMME"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 9,
+      "player_input": "Ich fluechte ueber die Daechter.",
+      "keeper_response": "Du entscheidest dich für die Dächer. Dein Herz pocht in deinen Ohren. Unter dir verschwimmt die Stadt im Dunkel. Die kalte Nachtluft peitscht dir ins Gesicht. Vorsichtig setzt du den ersten Schritt auf das rutschige Geröll.\n\n[ZEIT_VERGEHT: 0.5h]\n[PROBE: Klettern | X]",
+      "response_chars": 267,
+      "response_sentences": 5,
+      "latency_ms": 1295.6217999999353,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 10,
+      "player_input": "Ich melde den Job als erledigt.",
+      "keeper_response": "Du kontaktierst Mr. Knott. Dein Comlink summt einmal kurz. Dann hörst du seine trockene, geschäftige Stimme.\n\n[STIMME:keeper] \"Ergebnisse?\" [STIMME:keeper] Seine Tonlage ist erwartungsvoll, aber emotionslos.\n\n[ZEIT_VERGEHT: 0.5h]\nWas sagst du ihm?",
+      "response_chars": 247,
+      "response_sentences": 6,
+      "latency_ms": 1060.8359999996537,
+      "tags_found": [
+        "ZEIT_VERGEHT",
+        "STIMME"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

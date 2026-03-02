@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Each type of armor has four ratings, corresponding",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 116,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:30Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p116_0361",
+    "entity_type": "history",
+    "name_guess": "Each type of armor has four ratings, corresponding",
+    "breadcrumb_path": "Rules Compendium > Page 116 > history > Each type of armor has four ratings, corresponding",
+    "page_refs": [
+      116
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "2 M"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [
+      "Armor",
+      "armor",
+      "damage"
+    ],
+    "excerpt": "Each type of armor has four ratings, corresponding to the four general damage types: melee_ ballistic, energy and explosive- Armor rated at 2/5/1/1 would function as AV against melee attacks against ballistic attacks_ and AV against energy and explosive attacks_ Effects of Fatigue Once the amount of Fatigue the character has suffered exceeds nis WIL; all of his Action Check target numbers increased by the amount of Fatigue he has suffered excess of his WIL For example character with WIL wno has suf- tered Fatigue would have +2 Modifier t0 all of his TNs_ The more Fatigue character suffers the more susceptible t0 being stunned knocked out and knocked down AIso the character becomes more susceptible wounding from unarmed attacks_ and nis Fatigue subtracted from Initiative ."
+  }
+}

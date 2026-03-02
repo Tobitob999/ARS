@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Under the standard rules hits from splash weapons",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 120,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:31Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p120_0365",
+    "entity_type": "history",
+    "name_guess": "Under the standard rules hits from splash weapons",
+    "breadcrumb_path": "Rules Compendium > Page 120 > history > Under the standard rules hits from splash weapons",
+    "page_refs": [
+      120
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "armor"
+    ],
+    "excerpt": "Under the standard rules hits from splash weapons are worked oul normally except the armor penetration the weapon IS increased by to represent the weapon\" aility to work its way around armor and strike unprotected areas: This does not apply if the target wearing full-coverage armor such as battle armor: BUPPRESSING FIRE Weapons capable of burst fire can be used to saturate a area with projectiles in the hopes of hitting several targets simply discouraging the enemy'$ advance into the area of fire Such attacks are incredibly inaccurate and consume Iarge quan- tltles of ammunition; but they can be effective against massed formations of enemy Or as a intimidation tactic; suppressing-fire attack Is Complex Action."
+  }
+}

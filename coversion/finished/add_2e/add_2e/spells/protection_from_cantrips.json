@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "protection_from_cantrips",
+  "name": "Protection From Cantrips",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Protection From Cantrips (Abjuration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "second",
+    "book_pages": [
+      144
+    ],
+    "pdf_pages": [
+      145
+    ],
+    "raw_block": "Protection From Cantrips (Abjuration)\nRange: Touch\nComponents: V, S\nDuration: 5 hours + 1 hour/level\nCasting Time: 1 round\nArea of Effect: Creature or object touched\nSaving Throw: None\nBy casting this spell, the wizard receives\nimmunity to the effects of cantrips cast by\nother wizards, apprentices, or creatures that\n144\nuse the cantrfp spell. The spell protects the\ncaster, or one item or person that he touches\n(such as a spell book or a drawer containing\nspell components). Any cantrip cast against\nthe protected person or item dissipates with\nan audible popping sound. This spell is of-\nten used by a wizard who has mischievous\napprentices, or one who wishes apprentices\nto clean or shine an area using elbow grease\nrather than magic. Any unwilling target of\nthis spell must be touched (via an attack\nroll) and is allowed a saving throw vs. spell\nto escape the effect."
+  },
+  "mechanics": {
+    "school_or_type": "Abjuration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Protection From Cantrips",
+      "canonical_name_guess": null,
+      "school_or_type": "Abjuration",
+      "range": "Touch",
+      "components": "V, S",
+      "duration": "5 hours + 1 hour/level",
+      "casting_time": "1 round",
+      "area_of_effect": "Creature or object touched",
+      "saving_throw": "None",
+      "description_excerpt": "By casting this spell, the wizard receives immunity to the effects of cantrips cast by other wizards, apprentices, or creatures that 144 use the cantrfp spell. The spell protects the caster, or one item or person that he touches (such as a spell book or a drawer containing spell components). Any cantrip cast against the protected person or item dissipates with an audible popping sound. This spell is of- ten used by a wizard who has mischievous apprentices, or one who wishes apprentices to clean or shine an area using elbow grease rather than magic. Any unwilling target of this spell must be touched (via an attack roll) and is allowed a saving throw vs. spell to escape the effect."
+    },
+    "quality_flags": []
+  }
+}

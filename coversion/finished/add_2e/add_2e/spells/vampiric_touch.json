@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "vampiric_touch",
+  "name": "Vampiric Touch",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Vampiric Touch (Necromancy) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "third",
+    "book_pages": [
+      153
+    ],
+    "pdf_pages": [
+      154
+    ],
+    "raw_block": "Vampiric Touch (Necromancy)\nRange: 0\nComponents: V, S\nDuration: One touch\nCasting Time: 3\nArea of Effect: The caster\nSaving Throw: None\nWhen the caster touches an opponent in\nmelee with a successful attack roll, the\nopponent loses Id6 hit points for every two\ncaster levels, to a maximum drain of 6d6 for\na 12th-level caster. The spell is expended\nwhen a successful touch is made or one turn\npasses. The hit points are added to the cast-\ner's total, with any hit points over the cast-\ner's normal total treated as temporary\nadditional hit points. Any damage to the\ncaster is subtracted from the temporary hit\npoints first. After one hour, any extra hit\npoints above the caster's normal total are\nlost. The creature originally losing hit\npoints through this spell can regain them by\nmagical or normal healing. Undead mea-\ntures are unaffected by this spell.\nl"
+  },
+  "mechanics": {
+    "school_or_type": "Necromancy",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Vampiric Touch",
+      "canonical_name_guess": null,
+      "school_or_type": "Necromancy",
+      "range": "0",
+      "components": "V, S",
+      "duration": "One touch",
+      "casting_time": "3",
+      "area_of_effect": "The caster",
+      "saving_throw": "None",
+      "description_excerpt": "When the caster touches an opponent in melee with a successful attack roll, the opponent loses Id6 hit points for every two caster levels, to a maximum drain of 6d6 for a 12th-level caster. The spell is expended when a successful touch is made or one turn passes. The hit points are added to the cast- er's total, with any hit points over the cast- er's normal total treated as temporary additional hit points. Any damage to the caster is subtracted from the temporary hit points first. After one hour, any extra hit points above the caster's normal total are lost. The creature originally losing hit points through this spell can regain them by magical or normal healing. Undead mea- tures are unaffected by this spell. l"
+    },
+    "quality_flags": []
+  }
+}

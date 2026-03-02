@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Game Material Primary Language: Japanese Secondary Languages: Swedenese,",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 27,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:44Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p027_0104",
+    "entity_type": "npcs",
+    "name_guess": "Game Material Primary Language: Japanese Secondary Languages: Swedenese,",
+    "breadcrumb_path": "Rules Compendium > Page 027 > npcs > Game Material Primary Language: Japanese Secondary Languages: Swedenese,",
+    "page_refs": [
+      27
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Game Material Primary Language: Japanese Secondary Languages: Swedenese, Arabic, English Bonus Skllls: Art/Oral Traditions +3_ Martial Arts Karate choose one: Staffs +1, Archery +1 or Throwing Weapons +2 Bonus Traits: Quirk /Xenophobia; Pain Resistance and Combat Sense traits each cost one Character Point less than normal (2 and 3 points respectively) because most Combine characters are so highly disciplined. Path Restrictions: Draconis Combine characters cannot enter the High School Path."
+  }
+}

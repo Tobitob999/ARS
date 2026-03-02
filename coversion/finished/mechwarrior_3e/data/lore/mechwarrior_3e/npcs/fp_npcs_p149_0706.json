@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Two dishes provide the means for orbital microwave",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 149,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:53Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p149_0706",
+    "entity_type": "npcs",
+    "name_guess": "Two dishes provide the means for orbital microwave",
+    "breadcrumb_path": "Rules Compendium > Page 149 > npcs > Two dishes provide the means for orbital microwave",
+    "page_refs": [
+      149
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "0 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [
+      "armor"
+    ],
+    "excerpt": "Two dishes provide the means for orbital microwave Or laser communications offering effectively unlimited range though characters must attach support laser t0 the kitin order t0 make Iaser transmissions t0 orbiting cratt. metal such armor plates and structural pieces tns has become standard gear for many pilots and soldiers In cutting mode; the Iaser torch expends its power usC rating every turn_ and in that time can make ten centimeter-long cut through centimeterthick piece steel."
+  }
+}

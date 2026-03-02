@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_page",
+  "tags": [
+    "gurps_4e",
+    "fulltext",
+    "pdf_page"
+  ],
+  "summary": "PDF-Seite 278 aus GURPS - 4th Edition - Basic Set.pdf.",
+  "source_text": {
+    "book": "GURPS - 4th Edition - Basic Set",
+    "pdf_page": 278,
+    "text": "CROSSBOW (DX-4)\nTL Weapon Damage Acc Range Weight RoF Shots Cost ST Bulk Notes\n2 Crossbow thr+4 imp 4 ¥20/¥25 6/0.06 1 1(4) $150 7† -6 [3]\n3 Pistol Crossbow thr+2 imp 1 ¥15/¥20 4/0.06 1 1(4) $150 7 -4 [2, 3]\n3 Prodd thr+4 pi 2 ¥20/¥25 6/0.06 1 1(4) $150 7† -6 [3]\n3 “Goat’s Foot” – – – 2 – (20) $50 7† – [5]\nLASSO (No default)\nTL Weapon Damage Acc Range Weight RoF Shots Cost ST Bulk Notes\n1 Lariat spec. 0 spec. 3 1 T(spec.) $40 7† -2 [4]\nNET (Cloak-5)\nTL Weapon Damage Acc Range Weight RoF Shots Cost ST Bulk Notes\n0 Large Net spec. 1 spec. 20 1 T(1) $40 11 -6 [4, 6]\n2 Melee Net spec. 1 spec. 5 1 T(1) $20 8 -4 [4, 6]\nSLING (DX-6)\nTL Weapon Damage Acc Range Weight RoF Shots Cost ST Bulk Notes\n0 Sling sw pi 0 ¥6/¥10 0.5/0.05 1 1(2) $20 6 -4 [2, 3, 7]\n1 Staff Sling sw+1 pi 1 ¥10/¥15 2/0.05 1 1(2) $20 7† -6 [3, 7]\nSPEAR THROWER (DX-5 or Thrown Weapon (Spear)-4)\nTL Weapon Damage Acc Range Weight RoF Shots Cost ST Bulk Notes\n0 Atlatl – – – 1 1 1(1) $20 – – [2]\nwith Dart sw-1 imp 1 ¥3/¥4 1 – – $20 5 -3\nwith Javelin sw+1 imp 3 ¥2/¥3 2 – – $30 6 -4\nTHROWN WEAPON (AXE/MACE) (DX-4)\nTL Weapon Damage Acc Range Weight RoF Shots Cost ST Bulk Notes\n0 Hatchet sw cut 1 ¥1.5/¥2.5 2 1 T(1) $40 8 -2\n0 Throwing Axe sw+2 cut 2 ¥1/¥1.5 4 1 T(1) $60 11 -3\n2 Mace sw+3 cr 1 ¥0.5/¥1 5 1 T(1) $50 12 -4\n2 Small Mace sw+2 cr 1 ¥1/¥1.5 3 1 T(1) $35 10 -3\nTHROWN WEAPON (HARPOON) (DX-4 or Thrown Weapon (Spear)-2)\nTL Weapon Damage Acc Range Weight RoF Shots Cost ST Bulk Notes\n2 Harpoon thr+5 imp 2 ¥1/¥1.5 6 1 T(1) $60 11 -6 [8]\nTHROWN WEAPON (KNIFE) (DX-4)\nTL Weapon Damage Acc Range Weight RoF Shots Cost ST Bulk Notes\n0 Large Knife thr imp 0 ¥0.8/¥1.5 1 1 T(1) $40 6 -2\n0 Small Knife thr-1 imp 0 ¥0.5/¥1 0.5 1 T(1) $30 5 -1\n0 Wooden Stake thr(0.5) imp 0 ¥0.5/¥1 0.5 1 T(1) $4 5 -2\n1 Dagger thr-1 imp 0 ¥0.5/¥1 0.25 1 T(1) $20 5 -1\nTHROWN WEAPON (SHURIKEN) (DX-4 or Throwing-2)\nTL Weapon Damage Acc Range Weight RoF Shots Cost ST Bulk Notes\n3 Shuriken thr-1 cut 1 ¥0.5/¥1 0.1 1 T(1) $3 5 0\nTHROWN WEAPON (SPEAR) (DX-4, Spear Thrower-4, or Thrown Weapon (Harpoon)-2)\nTL Weapon Damage Acc Range Weight RoF Shots Cost ST Bulk Notes\n0 Spear thr+3 imp 2 ¥1/¥1.5 4 1 T(1) $40 9 -6\n1 Javelin thr+1 imp 3 ¥1.5/¥2.5 2 1 T(1) $30 6 -4\n276 EQUIPMENT\nNotes\n[1] Follow-up drug or poison attack if damage penetrates\nDR. Effects depend on the poison used; see Poison (p. 437).\n[2] Requires two hands to ready, but only one hand to\nattack.\n[3] An arrow or bolt for a bow or crossbow is $2. A dart\nfor a blowpipe, or a lead pellet for a prodd or sling, is $0.1.\nSling stones are free.\n[4] May entangle or ensnare the target; see Special Ranged\nWeapons (p. 411).\n[5] Cocking lever to reload a high-ST crossbow or prodd.\nYou can reload a weapon up to 4 ST over your own with 20\none-second Ready maneuvers.\n[6] A net has no 1/2D range. Max range is (ST/2 + Skill/5)\nfor a large net and (ST + Skill/5) for a melee net.\n[7] Can fire stones (TL0) or lead bullets (TL2). Lead \nbullets give +1 damage and double range.\n[8] Tethered. Requires a Ready maneuver and a success-\nful ST roll to pull out (if you fail, you may try again next\nturn). Doeshalf the damage coming out that it did going in."
+  },
+  "mechanics": {
+    "conversion": "fulltext_page_dump",
+    "generated_at": "2026-03-02T15:00:00"
+  }
+}

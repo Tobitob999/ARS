@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Name Freelance Technician Tich JHHRRIOR Aitiliation Federated Suns",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 72,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:02Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p072_0288",
+    "entity_type": "npcs",
+    "name_guess": "Name Freelance Technician Tich JHHRRIOR Aitiliation Federated Suns",
+    "breadcrumb_path": "Rules Compendium > Page 072 > npcs > Name Freelance Technician Tich JHHRRIOR Aitiliation Federated Suns",
+    "page_refs": [
+      72
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [
+      "67 kg"
+    ],
+    "range_mentions": [
+      "1.70 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [
+      "Armor",
+      "TN"
+    ],
+    "excerpt": "Name Freelance Technician Tich JHHRRIOR Aitiliation Federated Suns Age 33 Height 1.70 m Weight 67 kg c4adt Recoud Sheet TBIR D EDITION ATTRIBUTES TRAITS Value Mod_ Max_ Brave Strength Disabled (2): Problems with sunlight Enemy: minor Baronet of the FS Body Wealth Dexterity Well-Connected: New Avalon in FS Reflexes Intelligence Willpower Charisma COMBAT INFORMATION BIT Locatiow DIAGRAM Edge Fill in Armor Type (A, Armor Social Standing and Wounds per Location Type A: Flak Jacket AV (MIB/EIX) /5 /1 /3 Type B: Ablalive Jacket AV (MBIEIX) 3 /1 /6 /1 SKILLS Type C; Combat Boots AV (MBIEIX) 2 /3 /3 /1 Type D: AV (MB/EIX) Name Bonus Academic Literature Fatigue Academic Federated Suns Politics Fatigues WIL Kl B JaxzrE Appraisal +1 TN per Fatique > WIL Ar Poetry Unconscious Fatique (2 * WIL) Nb Bureaucracy Federated Suns Career Technician Wounds Comms Conv: Grazing Wounds (WV 1J: Computer Minor Wounds (WV 21."
+  }
+}

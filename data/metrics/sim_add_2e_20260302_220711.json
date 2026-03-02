@@ -1,0 +1,112 @@
+{
+  "module": "add_2e",
+  "adventure": null,
+  "total_turns": 5,
+  "total_latency_ms": 20671.470600005705,
+  "avg_latency_ms": 4134.294120001141,
+  "avg_response_chars": 257.2,
+  "avg_sentences": 4.6,
+  "total_probes": 0,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich betrete die Taverne und schaue mich um.",
+      "keeper_response": "Du schiebst die schwere Holztür auf. Ein abgestandener Geruch von Bier und Rauch schlägt dir entgegen. Das Morgenlicht dringt nur spärlich durch die schmutzigen Fenster. Ein paar Gestalten sitzen schweigend an der Theke.\n\nWas ist dein erster Schritt?\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 271,
+      "response_sentences": 5,
+      "latency_ms": 2483.1256000034045,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich spreche den Wirt an und bestelle ein Bier.",
+      "keeper_response": "Der Wirt, ein untersetzter Mann mit speckiger Schürze, wischt träge Gläser. Er nickt wortlos, als du dein Bier bestellst. Ein kühles, herbes Gebräu wird dir hingestellt.\n\nWas möchtest du ihn fragen oder beobachten?\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 235,
+      "response_sentences": 4,
+      "latency_ms": 1660.514900002454,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich frage nach Geruechten ueber die Goblin-Hoehle.",
+      "keeper_response": "[STIMME:keeper] Der Wirt blickt dich fragend an. \"Eine Goblin-Höhle, sagen Sie?\" Er schüttelt den Kopf, ein amüsiertes Raunen. \"Habe ich hier noch nie gehört.\"\n\nWas möchtest du ihn als Nächstes fragen?\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 222,
+      "response_sentences": 3,
+      "latency_ms": 5052.930199999537,
+      "tags_found": [
+        "ZEIT_VERGEHT",
+        "STIMME"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich pruefe meine Ausruestung und breche auf.",
+      "keeper_response": "Du nimmst einen letzten Schluck. Dann schulterst du deine Tasche und überprüfst den Sitz deines Mantels. Die Gegenstände in deinen Taschen fühlen sich vertraut an. Du lässt die düstere Taverne hinter dir. Die frische Luft Arkhams empfängt dich.\n\nWohin führt dich dein Weg jetzt?\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 299,
+      "response_sentences": 6,
+      "latency_ms": 3323.911200001021,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich untersuche den Eingang der Hoehle.",
+      "keeper_response": "Du machst dich auf die Suche nach dieser \"Goblin-Höhle\". Deine Schritte führen dich durch die staubigen Gassen Arkhams. Du untersuchst schattige Winkel und alte Mauern. Doch die Stadt gibt nichts dergleichen preis.\n\nWohin zieht es dich nun?\n[ZEIT_VERGEHT: 1h]",
+      "response_chars": 259,
+      "response_sentences": 5,
+      "latency_ms": 8150.988699999289,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

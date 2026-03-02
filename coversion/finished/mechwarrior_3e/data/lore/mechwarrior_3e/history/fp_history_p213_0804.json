@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "194 Campaign award 208-9 Campaigns 204 Capellan Confederation",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 213,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:27Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p213_0804",
+    "entity_type": "history",
+    "name_guess": "194 Campaign award 208-9 Campaigns 204 Capellan Confederation",
+    "breadcrumb_path": "Rules Compendium > Page 213 > history > 194 Campaign award 208-9 Campaigns 204 Capellan Confederation",
+    "page_refs": [
+      213
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "armor"
+    ],
+    "excerpt": "194 Campaign award 208-9 Campaigns 204 Capellan Confederation Ares Conventions 159-60 Tech Field; 54 Clan aerospace pilot, 37_ apprenticeship_ 36-37 battle armor, 143 bloodnames 190 comdo igns, 204 caste system 189-90 characters , 33_ civilian caste contacts 208 culture 192-93 economy 192 Elemental Ficld, 37 , 39, 53 Fignter Pilot Field. 53 formation 0, 162 Free Rasalhague Republic Abdomen wounds, 122, 125 126 Ablative armor; 140-41 Academic; 35 36. 37 ."
+  }
+}

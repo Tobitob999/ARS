@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "63}, roll 4010 and use the lowest two",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 17,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:41Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p017_0033",
+    "entity_type": "npcs",
+    "name_guess": "63}, roll 4010 and use the lowest two",
+    "breadcrumb_path": "Rules Compendium > Page 017 > npcs > 63}, roll 4010 and use the lowest two",
+    "page_refs": [
+      17
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "TN"
+    ],
+    "excerpt": "63}, roll 4010 and use the lowest two dice for the result: both of the lowest dice come up as 10s_ tne player can reroll and add the results to the total as an open ended suc cess_ These extra rolls are not considered when determining which dice came up the lowest; only the original three dice (or four in the case of difficult skills) are considered Characters with exceptionally good (or bad) Attributes might have an easier (or harder) time when attempting tasks they are not trained for: This represents the concept that, all other fac tors being equal, smart person would have better chance of per forming a INT-based task than dumb person if both of them were completely untrained represent the edge that Attributes give characters untrained skill use use the untrained TN modifiers shown on the Target Number Modifiers Table_ Add together the modifiers for both of the Link Attributes for the skill question."
+  }
+}

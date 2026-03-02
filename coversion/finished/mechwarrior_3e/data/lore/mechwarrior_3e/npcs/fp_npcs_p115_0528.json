@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "the character wearing armor; these effects may be",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 115,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:30Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p115_0528",
+    "entity_type": "npcs",
+    "name_guess": "the character wearing armor; these effects may be",
+    "breadcrumb_path": "Rules Compendium > Page 115 > npcs > the character wearing armor; these effects may be",
+    "page_refs": [
+      115
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "MoS",
+      "Mos",
+      "armor",
+      "damage"
+    ],
+    "excerpt": "the character wearing armor; these effects may be for MoS; Each attacker adds his own STR and weapon damage moditied The specific effects, including Fatigue_ wounds, stun; dice as appropriate knockout and knockdown are applied as detailed below: For example. melee combat Ule character has an MoS of and the other has an MoS 0f 1. The net Mos 3 in favor = of the first character, 50 nis dam age will be based on an MoS 0f 3."
+  }
+}

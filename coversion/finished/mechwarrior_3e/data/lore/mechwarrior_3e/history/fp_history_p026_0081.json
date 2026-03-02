@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Also character repeats path or subpath that awards",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 26,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:43Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p026_0081",
+    "entity_type": "history",
+    "name_guess": "Also character repeats path or subpath that awards",
+    "breadcrumb_path": "Rules Compendium > Page 026 > history > Also character repeats path or subpath that awards",
+    "page_refs": [
+      26
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Also character repeats path or subpath that awards field, that character receives an additional +3 Skill Points to all the skills in that field_ UBING EDGE IN THE Life PATH Because every player character iS unique individual, play: ers will most Vlkely want to sidestep the standard rules at some point during the Life Path_ Use the following special Edge rules when you want your character to go somewhere that the Life Path technically doesn allow, when the dice conspire against you_ Edge and Path Restrictions Sometimes character can get into path through sheer Iuck , even he lacks the appropriate prerequisites To do this_ however; the character must use up some luck."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "along with brief looks at few of the",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 176,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:05Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p176_0588",
+    "entity_type": "history",
+    "name_guess": "along with brief looks at few of the",
+    "breadcrumb_path": "Rules Compendium > Page 176 > history > along with brief looks at few of the",
+    "page_refs": [
+      176
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [
+      "3024",
+      "3039",
+      "3058"
+    ],
+    "stat_tokens": [],
+    "excerpt": "along with brief looks at few of the most Important technological breakthroughs the past millennium: humanity s fall We had little hope of stopping the downward spiral, which continued t0 accelerate RECOVERY From The Universe Today; Dr. Andrea Paliwoda _ ComStar Archives, 3058 The 3030s and 3040s were almost entirely devoted to the recovery of lostech, made possible by the discovery of the Star League memory core O Helm in 3024. With few exceptions most notably Prince Hanse Davion' war 3039 the Successor States concentrated all their efforts on unlocking the technological secrets of the past."
+  }
+}

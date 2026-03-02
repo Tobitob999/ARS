@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "category": "lore_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "lore",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "The acade my is infamous for its harsh",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 45,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:53Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_lore_p045_0088",
+    "entity_type": "lore",
+    "name_guess": "The acade my is infamous for its harsh",
+    "breadcrumb_path": "Rules Compendium > Page 045 > lore > The acade my is infamous for its harsh",
+    "page_refs": [
+      45
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "2, M"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [
+      "mos"
+    ],
+    "excerpt": "The acade my is infamous for its harsh and bruta regimen; its cadets are steeped in bushido ad instilled with intense loyalty to House Kurita Combined with exceptional resources and the finest teachers available the SZMA produces some of the most respected and privileged soldiers in known space_ Tlme: years Attribute MInimums: INT 4 WIL SOC Attribute Thresholds: RFL +1 WIL +2, SOC +1 Tralts: Brave, Well-Equipped, Quirk /Loyalty to House Kurita Skllls: Academic Any Military Science +2, Martial Arts/Military +2 Blades +2 Fields: Basic Training Next Path: Advanced Individual Training Subpath (mandatory; part of this pass) POLICE ACADEMY Law enforcement officers are needed on mos planets_ and so there always demand for trained police."
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "leomund_s_trap",
+  "name": "Leomund's Trap",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Leomund's Trap (IllusiodPhantasm) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "second",
+    "book_pages": [
+      143
+    ],
+    "pdf_pages": [
+      144
+    ],
+    "raw_block": "Leomund's Trap (IllusiodPhantasm)\nRange: Touch\nComponents: V, S, M\nDuration: Permanent\nCasting Time: 3 rounds\nArea of Effect: Object touched\nSaving Throw: None\nThis false trap is designed to fool a thief or\nother character attempting to pilfer the\nspellcaster's goods. The wizard places the\nspell upon any small mechanism or device,\nsuch as a lock, hinge, hasp, screw-on cap,\nratchet, etc. Any character able to detect\ntraps, or who uses any spell or device ena-\nbling trap detection, is 100% certain a real\ntrap exists. Of course, the spell is illusory\nand nothing happens if the trap is sprung; its\nprimary purpose is to friiten away thieves\nor make them waste precious time.\nThe material component of the spell is a\npiece of iron pyrite touched to the object to\nbe trapped while the object is sprinkled with\na special dust requiring 200 gp to prepare. If\nanother LeomundS trap is within 50 feet\nwhen the spell is cast, then the casting fails."
+  },
+  "mechanics": {
+    "school_or_type": "IllusiodPhantasm",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Leomund's Trap",
+      "canonical_name_guess": null,
+      "school_or_type": "IllusiodPhantasm",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "Permanent",
+      "casting_time": "3 rounds",
+      "area_of_effect": "Object touched",
+      "saving_throw": "None",
+      "description_excerpt": "This false trap is designed to fool a thief or other character attempting to pilfer the spellcaster's goods. The wizard places the spell upon any small mechanism or device, such as a lock, hinge, hasp, screw-on cap, ratchet, etc. Any character able to detect traps, or who uses any spell or device ena- bling trap detection, is 100% certain a real trap exists. Of course, the spell is illusory and nothing happens if the trap is sprung; its primary purpose is to friiten away thieves or make them waste precious time. The material component of the spell is a piece of iron pyrite touched to the object to be trapped while the object is sprinkled with a special dust requiring 200 gp to prepare. If another LeomundS trap is within 50 feet when the spell is cast, then the casting fails."
+    },
+    "quality_flags": []
+  }
+}

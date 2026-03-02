@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Over the next several centuries the planet suffered",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 170,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:02Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p170_0556",
+    "entity_type": "history",
+    "name_guess": "Over the next several centuries the planet suffered",
+    "breadcrumb_path": "Rules Compendium > Page 170 > history > Over the next several centuries the planet suffered",
+    "page_refs": [
+      170
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [
+      "2674"
+    ],
+    "stat_tokens": [],
+    "excerpt": "Over the next several centuries the planet suffered wide-scale strip min- Antallos prosperous trade world following Its colonization in 2674, Antallos was sacked several times during the Succession Wars After particularly savage attack by the Draconis Combine_ which resulted In unprecedented civilian casualties_ the planel fragmented into city-states_ each of which has since attempted t0 subjugate its neighbors."
+  }
+}

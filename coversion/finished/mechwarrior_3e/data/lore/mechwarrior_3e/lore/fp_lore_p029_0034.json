@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "lore_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "lore",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "The Succession Wars have colored the League relation",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 29,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:45Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_lore_p029_0034",
+    "entity_type": "lore",
+    "name_guess": "The Succession Wars have colored the League relation",
+    "breadcrumb_path": "Rules Compendium > Page 029 > lore > The Succession Wars have colored the League relation",
+    "page_refs": [
+      29
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "The Succession Wars have colored the League relation ships with its neighbors, though the Iate 3050s saw detente with its historical enemies the Capellan Confederation and the Lyran Alliance. While relations remain good with Katherine Steiner- Davion' realm; recent events have soured relations with the Capellan Confederation. Historically on good terms, the League ties to the Federated Suns were shattered by the formation of the Federated Commonwealth and the Fourth Succession War."
+  }
+}

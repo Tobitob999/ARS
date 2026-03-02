@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "War followed war in the wake of Kerensky",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 6,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:21Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p006_0012",
+    "entity_type": "history",
+    "name_guess": "War followed war in the wake of Kerensky",
+    "breadcrumb_path": "Rules Compendium > Page 006 > history > War followed war in the wake of Kerensky",
+    "page_refs": [
+      6
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "War followed war in the wake of Kerensky dramatic departure_ For nearly three centures; the Houses of the Inner Sphere fought vain for the right t0 rule: These Succession Wars forged new alliances and cost the Inner Sphere precious irreplaceable technolo gy: Constantly maneuvering for position, the House Lords assumed that the greatest enemy they would ever face was each other They were Wtong; While the Inner Sphere sank into barbarism, Kerensky'$ followers built new society in the harsh environs beyond known space: They developed rigid caste system based on eugenics and martial ideals, designed to produce the ultimate warriors For nearly three hundred years they were unified by one burning goal: that when the time was right; they would return home ad conquer the Inner Sphere They planned t0 be the saviors of humanity and t0 rebuild the Star League in their own image."
+  }
+}

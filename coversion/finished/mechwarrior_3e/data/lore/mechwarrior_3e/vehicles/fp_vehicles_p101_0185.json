@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "vehicles_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "vehicles",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "character may use Gunnery Subskill with category in",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 101,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:25Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_vehicles_p101_0185",
+    "entity_type": "vehicles",
+    "name_guess": "character may use Gunnery Subskill with category in",
+    "breadcrumb_path": "Rules Compendium > Page 101 > vehicles > character may use Gunnery Subskill with category in",
+    "page_refs": [
+      101
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [
+      "3010"
+    ],
+    "stat_tokens": [],
+    "excerpt": "character may use Gunnery Subskill with category in which he has no skill by rolling 3010 ad using the worst two results as per the Untrained Skill Use rule (p_ 16), but he can apply his Gunnery Skill Bonus rather than Untrained Use Modifiers for Attributes_ AeroSpace (Aero): This category includes space and atmospheric craft that fire their weapons from fixed wing ad INTERESTS\" This group of subskills covers all miscellaneous interests and hobbies that are not covered other skills, sucn a5 holovid shows Solaris duelists and various sports Like Career Skills the potential Iist of Interests is infinite_ INTERROGATION character with Interrogation Skill can attempt to obtain information from any unwilling NPC_ making Skill Check to determine whether he IS able t0 extract the desired information: This Skill differs from Fast Talk in that the interrogation process takes more time and can extract far more information_ The tar get number for an Interrogation Check based on the subject'$ INT and WIL unless torture is being used in which case the tar 10O"
+  }
+}

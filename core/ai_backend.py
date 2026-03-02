@@ -25,10 +25,12 @@ Fakten-Protokoll (Task 05):
 
 from __future__ import annotations
 
+import hashlib
 import logging
 import os
 from pathlib import Path
 import re
+import traceback
 from typing import TYPE_CHECKING, Any, Iterator
 
 if TYPE_CHECKING:
@@ -36,6 +38,7 @@ if TYPE_CHECKING:
     from core.adventure_manager import AdventureManager
 
 from core.event_bus import EventBus
+from core.lore_adapter import adapt_lore
 
 logger = logging.getLogger("ARS.ai_backend")
 
@@ -129,7 +132,10 @@ class GeminiBackend:
             "cached_tokens": 0,
             "total_tokens": 0,
         }
+        self._rules_cache_hash: str = ""   # Hash des Rules-Blocks fuer Change-Detection
+        self._pending_feedback: list[str] = []  # Stil-Korrekturen fuer naechsten Turn
         self._system_prompt = self._build_system_prompt()
+        self._rules_cache_hash = self._compute_rules_hash()
         self._initialize_client()
         self._initialize_cache()                   # Task 05: Context Caching versuchen
 
@@ -158,7 +164,7 @@ class GeminiBackend:
                 full_response += chunk
                 yield chunk
         except Exception as exc:
-            logger.error("Gemini-API Fehler: %s", exc)
+            logger.error("Gemini-API Fehler: %s\n%s", exc, traceback.format_exc())
             # Kurzer, sauberer Hinweis an UI/TTS (kein roher JSON-Dump).
             err_str = str(exc)
             if "free_tier" in err_str:
@@ -214,7 +220,7 @@ class GeminiBackend:
         yield from self.chat_stream(roll_msg)
 
     def _validate_response(self, response: str) -> None:
-        """Prueft Monolog-Laenge und Hook-Zwang, emittiert Warnungen."""
+        """Prueft Monolog-Laenge und Hook-Zwang, speichert Feedback fuer naechsten Turn."""
         bus = EventBus.get()
 
         # Tags entfernen fuer Satz-Zaehlung
@@ -230,18 +236,22 @@ class GeminiBackend:
 
         warnings: list[str] = []
 
-        if sentences > MAX_NARRATIVE_SENTENCES and not has_hook:
-            warnings.append(
-                f"Monolog-Sperre: {sentences} Saetze ohne Hook "
-                f"(max. {MAX_NARRATIVE_SENTENCES}). "
-                f"Antwort sollte mit Frage oder Probe enden."
+        if sentences > MAX_NARRATIVE_SENTENCES:
+            fb = (
+                f"STIL-VERSTOSS: Du hast {sentences} Saetze geschrieben "
+                f"(Limit: {MAX_NARRATIVE_SENTENCES}). "
+                f"Kuerze deine naechste Antwort auf maximal {MAX_NARRATIVE_SENTENCES} Saetze."
             )
+            warnings.append(fb)
+            self._pending_feedback.append(fb)
 
         if not has_hook:
-            warnings.append(
-                "Hook-Zwang: Keine Spieler-Interaktion in der Antwort. "
-                "Erwarte Frage, [PROBE:] oder Handlungsaufforderung."
+            fb = (
+                "STIL-VERSTOSS: Keine Spieler-Interaktion. "
+                "Beende deine naechste Antwort mit einer Frage oder [PROBE:]."
             )
+            warnings.append(fb)
+            self._pending_feedback.append(fb)
 
         for w in warnings:
             logger.warning("[RESPONSE-CHECK] %s", w)
@@ -251,6 +261,32 @@ class GeminiBackend:
         """Setzt die Konversationshistorie zurück (neue Session)."""
         self._history.clear()
         logger.info("Konversationshistorie zurückgesetzt.")
+
+    def _compute_rules_hash(self) -> str:
+        """Berechnet SHA256 des System-Prompts fuer Change-Detection."""
+        return hashlib.sha256(self._system_prompt.encode("utf-8")).hexdigest()[:16]
+
+    def clear_caches(self) -> None:
+        """Leert alle in-memory Caches (fuer Session-Reset)."""
+        self._history.clear()
+        self._cache_name = None
+        self._pending_feedback.clear()
+        self._usage_total = {
+            "requests": 0,
+            "prompt_tokens": 0,
+            "candidates_tokens": 0,
+            "thoughts_tokens": 0,
+            "cached_tokens": 0,
+            "total_tokens": 0,
+        }
+        # System-Prompt nur neu bauen wenn sich Rules geaendert haben
+        new_hash = self._compute_rules_hash()
+        if new_hash != self._rules_cache_hash:
+            self._system_prompt = self._build_system_prompt()
+            self._rules_cache_hash = new_hash
+            self._initialize_cache()
+            logger.info("Rules-Cache invalidiert (Hash geaendert), System-Prompt neu gebaut.")
+        logger.info("AI-Backend Caches geleert.")
 
     def set_adventure(self, adventure: dict[str, Any]) -> None:
         """Aktualisiert den Abenteuern-Kontext (baut System-Prompt + Cache neu)."""
@@ -287,7 +323,12 @@ class GeminiBackend:
         if meta.get("lore_dir"):
             candidates.append(meta["lore_dir"])
         if meta.get("system"):
-            candidates.append(meta["system"].lower().replace(" ", "_"))
+            sys_name = meta["system"].lower().replace(" ", "_")
+            candidates.append(sys_name)
+            # Ohne Versionssuffix: cthulhu_7e -> cthulhu
+            base = sys_name.rsplit("_", 1)
+            if len(base) == 2 and base[1].replace("e", "").isdigit():
+                candidates.append(base[0])
         # Modulname aus dem Dateinamen (z.B. "cthulhu_7e", "add_2e")
         # wird vom Engine als module_name durchgereicht
         module_name = meta.get("module_name", "")
@@ -339,16 +380,37 @@ class GeminiBackend:
 
             return loaded_items
 
-        # Verzeichnisse die NICHT in den Kontext geladen werden sollen:
-        # Grosse Referenzdaten (Spells, Monster, Equipment, Kapitel, Tabellen)
-        # die den Prompt ueberfluten wuerden. Diese werden nur on-demand benoetigt.
-        _exclude_dirs = {
+        # ── Per-System Exclude-Konfiguration (R8) ─────────────────────
+        # Basis-Excludes: grosse Referenzdaten die den Prompt ueberfluten.
+        # Systeme koennen Dirs von der Exclude-Liste ENTFERNEN (include_override).
+        _base_exclude_dirs = {
             "spells", "monsters", "equipment", "chapters", "tables",
             "appendices", "fulltext", "book_conversion", "indices",
             "treasure", "loot", "mechanics", "combat", "encounters",
             "vision", "characters", "items",
+            # Paranoia Bulk-Dirs (default excluded, included per override)
+            "adventure_fulltext_chunks", "rules_fulltext_chunks",
         }
 
+        # System-spezifische Overrides: welche Basis-Excludes aufgehoben werden
+        _system_include_overrides: dict[str, set[str]] = {
+            "paranoia_2e": {
+                "items",       # items/ hat 20 spielbare Dateien
+                "encounters",  # 6 Basis-Encounters sind nuetzlich
+            },
+            "add_2e": set(),
+            "cthulhu_7e": {"items"},
+            "shadowrun_6": set(),
+            "mad_max": set(),
+        }
+
+        # Aktives System bestimmen
+        system_id = meta.get("system", meta.get("module_name", "")).lower()
+        include_override = _system_include_overrides.get(system_id, set())
+        _exclude_dirs = _base_exclude_dirs - include_override
+
+        # ── Lore-Map: Verzeichnis → Adventure-Key (R1) ───────────────
+        # Generische Mappings (alle Systeme)
         lore_map = {
             "npcs": "npcs", "locations": "locations", "locations/regional": "locations",
             "items": "items", "documents": "documents", "crime": "documents",
@@ -360,6 +422,25 @@ class GeminiBackend:
             "communication": "communication", "administration": "administration", "religion": "religion",
             "mythos_entities": "entities", "library/excerpts": "library",
         }
+
+        # Paranoia-spezifische Verzeichnisse (R1: ~332 Dateien werden sichtbar)
+        _paranoia_lore_map = {
+            "mission_seeds": "missions",           # 40 Missionskeime
+            "secret_societies": "organizations",   # 12 Geheimgesellschaften
+            "secret_society_ops": "missions",      # 24 Covert Agendas
+            "service_groups": "organizations",     # 8 Service Groups
+            "service_group_ops": "missions",       # 24 Service-Group Ops
+            "gm_moves": "documents",               # 30 Keeper-Mechaniken
+            "mutations": "entities",               # 15 Mutantenkraefte
+            "encounters_pack": "encounters",       # 60 fertige Encounters
+            "npc_roster": "npcs",                  # 50 NPCs
+            "gear_catalog": "items",               # 36 Items
+            "adventure_assets": "documents",       # 32 Briefing Cards etc.
+            "skills": "documents",                 # 1 Skill-Katalog
+        }
+
+        if system_id.startswith("paranoia"):
+            lore_map.update(_paranoia_lore_map)
 
         # Verzeichnisse die im aktuellen Lore-Root gar nicht auf der Excludelist stehen
         # werden ueber die lore_map geladen; excludierte werden uebersprungen
@@ -378,6 +459,10 @@ class GeminiBackend:
                 for item in new_items:
                     if item.get("name") not in existing_names:
                         adventure[key].append(item)
+
+        # Lore-Adapter: Raw-Felder → Engine-kompatible Felder (R2)
+        adapt_lore(adventure, system_id)
+
         return adventure
 
     def set_archivist(self, archivist: Archivist) -> None:
@@ -724,7 +809,7 @@ class GeminiBackend:
                 ctx_chr = f"=== CHRONIK DER BISHERIGEN EREIGNISSE ===\n{chronicle}"
                 context_parts.append(ctx_chr)
                 context_sources.append({"origin": "archivar_chronik", "content": ctx_chr})
-            if ws:
+            if ws and isinstance(ws, dict):  # Typprüfung: nur dicts
                 facts_text = "\n".join(f"  - {k}: {v}" for k, v in sorted(ws.items()))
                 ctx_ws = f"=== AKTUELLE FAKTEN ===\n{facts_text}"
                 context_parts.append(ctx_ws)
@@ -775,6 +860,16 @@ class GeminiBackend:
             if rules_ctx:
                 context_parts.append(rules_ctx)
                 context_sources.append({"origin": "rules_engine", "content": rules_ctx})
+
+        # Stil-Korrekturen aus vorherigem Turn injizieren
+        if self._pending_feedback:
+            feedback_text = "\n".join(self._pending_feedback)
+            context_parts.append(
+                f"=== STIL-KORREKTUR (PFLICHT) ===\n{feedback_text}\n"
+                f"Korrigiere diese Verstoesse in deiner naechsten Antwort SOFORT."
+            )
+            context_sources.append({"origin": "stil_korrektur", "content": feedback_text})
+            self._pending_feedback.clear()
 
         if context_parts:
             combined = "\n\n".join(context_parts)
@@ -926,7 +1021,33 @@ Regeln:
   - SAN-Verlust sparsam — ein erschreckender Moment, nicht jede dunkle Ecke.
   - SAN-Verlust eskaliert: erste Begegnung mild (0/1), spaeter schlimmer (1/1d6).
   - Bei HP 0: Investigator bewusstlos, in Lebensgefahr — dramatisch, nicht sofort tot.
-  - Bei SAN 0: temporaerer Wahnsinn — spektakulaer, nicht einfach "du bist verrueckt"."""
+  - Bei SAN 0: temporaerer Wahnsinn — spektakulaer, nicht einfach "du bist verrueckt".
+
+═══ INVESTIGATIV-PROBEN-PROTOKOLL (Call of Cthulhu 7e) ═══
+Probensystem: d100 Roll-under gegen Fertigkeitswert.
+
+Wann Proben setzen:
+- Der Spieler untersucht etwas, recherchiert, schleicht, lauscht, ueberzeugt.
+- Nur wenn Scheitern interessante Konsequenzen haette.
+- NICHT bei trivialen Handlungen (Tuer oeffnen, Licht anmachen).
+
+Proben-Beispiele mit typischen Cthulhu-Fertigkeiten:
+  [PROBE: Wahrnehmung | <Fertigkeitswert>]  — Etwas Ungewoehnliches bemerken
+  [PROBE: Bibliotheksnutzung | <Fertigkeitswert>]  — Recherche, Akten, Buecher
+  [PROBE: Psychologie | <Fertigkeitswert>]  — Luegen erkennen, Motive durchschauen
+  [PROBE: Heimlichkeit | <Fertigkeitswert>]  — Schleichen, unbemerkt bleiben
+  [PROBE: Lauschen | <Fertigkeitswert>]  — Geraeusche, Gespraeche mithoren
+  [PROBE: Spurensuche | <Fertigkeitswert>]  — Physische Hinweise finden
+  [PROBE: Erste Hilfe | <Fertigkeitswert>]  — Verletzungen versorgen
+  [PROBE: Schloesser oeffnen | <Fertigkeitswert>]  — Verschlossenes oeffnen
+  [PROBE: Verborgenes erkennen | <Fertigkeitswert>]  — Geheimtueren, versteckte Objekte
+  [PROBE: Ueberzeugen | <Fertigkeitswert>]  — NPCs beeinflussen
+  [PROBE: Cthulhu-Mythos | <Fertigkeitswert>]  — Mythos-Wissen (selten, gefaehrlich)
+
+WICHTIG:
+- Zielwert = aktueller Fertigkeitswert des Investigators (aus dem Charakter-Kontext).
+- Nur EINE Probe pro Antwort.
+- Probe kommt IMMER ans Ende, NACH der narrativen Beschreibung."""
 
         elif is_paranoia:
             # Paranoia 2E — The Computer persona
@@ -1014,9 +1135,15 @@ Deine Philosophie:
 ═══ KAMPF-PROTOKOLL (Shadowrun 6) ═══
 Kampfsystem: Wuerferpool (Attribut + Fertigkeit) in d6. Jede 5 oder 6 = Erfolg.
 
+POOL-BERECHNUNG (KRITISCH):
+- Poolgroesse = Attribut + Fertigkeit. Typisch 4-15 Wuerfel, Maximum realistisch 30.
+- NIEMALS d100-Werte (50, 60, 70) verwenden! Shadowrun benutzt d6-Pools, KEIN d100-System.
+- Beispiele: Firearms 5 + AGI 4 = Pool 9. Stealth 6 + AGI 5 = Pool 11.
+- Der Zielwert im [PROBE:]-Tag ist IMMER die Poolgroesse, nicht der Fertigkeitswert allein.
+
 Kampfablauf:
 1. Initiative: REA + INT + Modifikatoren. Absteigend handeln.
-2. Angriff: [PROBE: Feuerwaffen | <Poolgroesse>]
+2. Angriff: [PROBE: Firearms | <Poolgroesse>] — z.B. [PROBE: Firearms | 9]
 3. Verteidigung: Ziel wuerfelt REA + INT gegen Erfolge.
 4. Schaden: Netto-Erfolge + Waffenschaden vs Panzerung. Zustandsmonitor-Kaestchen.
 5. Edge: Situative Vor-/Nachteile generieren Edge.
@@ -1046,7 +1173,15 @@ Edge-Vergabe (nach guter Taktik, cleverem Vorgehen):
 Regeln:
   - Tags NUR nach dem narrativen Text, nie davor.
   - Zustandsmonitor voll = bewusstlos (koerperlich) oder benommen (geistig).
-  - Overflow = Tod. Kein Klon, kein Respawn. Tod ist endgueltig in Shadowrun.{combat_note}"""
+  - Overflow = Tod. Kein Klon, kein Respawn. Tod ist endgueltig in Shadowrun.{combat_note}
+
+═══ SYSTEM-GRENZEN (Shadowrun 6) ═══
+Du spielst Shadowrun 6th Edition. Verwende NUR Shadowrun-Fertigkeiten:
+Athletik, Beschwoeren, Biotech, Elektronik, Feuerwaffen, Hacken, Heimlichkeit,
+Nahkampf, Ueberreden, Wahrnehmung, Zaubern.
+VERBOTEN: SAN/Stabilitaet (Cthulhu), Geschichte (Cthulhu), Bibliotheksnutzung (Cthulhu),
+Cracken/Cracking (heisst 'Hacken'), THAC0 (AD&D), Rettungswurf (AD&D).
+Bei Proben: Zielwert = Poolgroesse (Attribut + Fertigkeit), NICHT d100-Werte."""
 
         else:
             # Generic Fantasy / AD&D style
@@ -1149,10 +1284,18 @@ XP-Vergabe (nach Kampf, Raetseln, Rollenspiel):
 Regeln:
   - Tags NUR nach dem narrativen Text, nie davor.
   - Bei HP 0: {pc_title} bewusstlos, in Lebensgefahr — dramatisch, nicht sofort tot.
-  - XP-Vergabe nach besiegten Monstern und geloesten Raetseln.{combat_note}"""
+  - XP-Vergabe nach besiegten Monstern und geloesten Raetseln.{combat_note}
 
-        # Pick a representative skill for the probe example
+═══ SYSTEM-GRENZEN (AD&D 2e) ═══
+Du spielst AD&D 2nd Edition. Verwende NUR AD&D-Fertigkeiten aus dem Charakter-Bogen.
+Typisch: Wahrnehmung, Heimlichkeit, Klettern, Lauschen, Geschick, Mechanik, Ueberreden.
+VERBOTEN: Geschichte/Bibliotheksnutzung/Psychologie (Cthulhu), SAN/Stabilitaet (Cthulhu),
+Hacken/Elektronik/Feuerwaffen (Shadowrun), Treason Points (Paranoia).
+Wuerfelsystem: d20, THAC0-basiert. KEINE d100-Proben, KEINE Wuerfelpools."""
+
+        # Pick a representative skill and target for the probe example
         example_skill = next(iter(skills_def), "Wahrnehmung")
+        example_target = 10 if check_mode == "pool_hits" else 50
 
         # ── Setting-Block ─────────────────────────────────────────────
         setting_block = self._build_setting_block()
@@ -1173,26 +1316,30 @@ Du sprichst direkt ins Ohr des Spielers. Deine Worte werden vorgelesen.
 Daher MUESSEN alle Ausgaben diesen Regeln folgen:
 
 1. KURZE SAETZE. Maximal 15 Woerter pro Satz. Punkt. Naechster Satz.
-2. MAXIMAL 3 SAETZE NARRATIV. Dann MUSS eine Spieler-Interaktion folgen:
-   eine offene Frage ("Was tust du?") ODER ein [PROBE:]-Tag ODER ein schweigender Moment.
+2. ABSOLUTES LIMIT: MAXIMAL 3 SAETZE. Dann MUSS eine Spieler-Interaktion folgen:
+   eine offene Frage ("Was tust du?") ODER ein [PROBE:]-Tag.
    NIEMALS mehr als 3 Saetze ohne Rueckgabe an den Spieler.
+   Bei Verstoss erhaeltst du eine STIL-KORREKTUR im naechsten Turn.
 3. KEINE KLAMMERN, KEINE FORMELN, KEINE LISTEN im narrativen Text.
 4. WARTE nach jeder Beschreibung auf die Reaktion des Spielers.
    Beende JEDE Antwort mit einer offenen Frage oder einem [PROBE:]-Tag.
    Beispiel: "Was tust du?"  /  "Wohin gehst du?"  /  "Wie reagierst du?"
 5. KEINE METASPRACHE. Sprich niemals ueber Regeln, Tags, Wuerfelwuerfe oder das System.
    Falsch: "Du musst jetzt eine Probe wuerfeln."
-   Richtig: "Die Stille wird schwerer. Irgendetwas stimmt hier nicht." [PROBE: {example_skill} | 50]
+   Richtig: "Die Stille wird schwerer. Irgendetwas stimmt hier nicht." [PROBE: {example_skill} | {example_target}]
 6. Tags ([PROBE:...], [HP_VERLUST:...] etc.) kommen IMMER ans Ende einer Antwort,
    NACH der narrativen Beschreibung, NIEMALS mittendrin.
 7. Atmosphaere zuerst. Immer. Kein Wuerfelwurf ohne vorherige Szene.
 
 ═══ WUERFELPROBEN-PROTOKOLL ═══
 Wenn der Spieler etwas versucht, das scheitern koennte und das Scheitern interessant waere:
-  - Beschreibe die Szene atmosphaerisch (2-4 kurze Saetze).
+  - Beschreibe die Szene atmosphaerisch (2-3 kurze Saetze).
   - Setze ans Ende EXAKT: [PROBE: <Fertigkeitsname> | <Zielwert>]
   - Nur eine Probe pro Antwort.
-  - Zielwert = aktueller Fertigkeitswert des {pc_title}s (aus dem Kontext).
+{"" if check_mode == "pool_hits" else f"  - Zielwert = aktueller Fertigkeitswert des {pc_title}s (aus dem Kontext)."}{"" if check_mode != "pool_hits" else f"""  - ZIELWERT = POOLGROESSE (Attribut + Fertigkeit), NICHT der Fertigkeitswert allein.
+  - Typische Poolgroessen: 4-15 Wuerfel. Maximum realistisch 30. NIEMALS Werte ueber 30.
+  - NIEMALS d100-Werte (50, 60, 70) als Zielwert verwenden! Das ist das FALSCHE System.
+  - Beispiel: Fertigkeit Firearms 5 + Attribut AGI 4 = Poolgroesse 9 → [PROBE: Firearms | 9]"""}
 
 Wenn du [WUERFELERGEBNIS: Fertigkeit | Wurf: N | Ziel: N | Grad] erhaeltst:
   - Reagiere NUR narrativ. Kein Zahlen-Kommentar.
@@ -1371,6 +1518,44 @@ Verfuegbare Fertigkeiten:
                 org_name = org.get("name", "?")
                 org_purpose = org.get("true_purpose", org.get("public_facade", ""))
                 lines.append(f"  [{org_name}] — {org_purpose[:150]}")
+
+        # Missions (Paranoia: mission_seeds, society_ops, service_ops)
+        missions = adv.get("missions", [])
+        if missions:
+            lines.append("\nMISSIONEN & AUFTRAEGE:")
+            for mis in missions:
+                mis_name = mis.get("name", "?")
+                mis_summary = mis.get("summary", "")
+                mech = mis.get("mechanics", {})
+                objective = mech.get("objective", mech.get("goal", ""))
+                twist = mech.get("twist", mech.get("hidden_agenda", ""))
+                line = f"  [{mis_name}]"
+                if objective:
+                    line += f" — Ziel: {objective}"
+                if twist:
+                    line += f" (Twist: {twist})"
+                if not objective and mis_summary:
+                    line += f" — {mis_summary[:150]}"
+                lines.append(line)
+
+        # Encounters (Paranoia: encounters_pack + base encounters)
+        encounters = adv.get("encounters", [])
+        if encounters:
+            lines.append("\nENCOUNTERS:")
+            for enc in encounters:
+                enc_name = enc.get("name", "?")
+                enc_summary = enc.get("summary", "")
+                mech = enc.get("mechanics", {})
+                trigger = mech.get("trigger", "")
+                checks = mech.get("required_checks", [])
+                line = f"  [{enc_name}]"
+                if enc_summary:
+                    line += f" — {enc_summary[:120]}"
+                if trigger:
+                    line += f" (Trigger: {trigger})"
+                if checks:
+                    line += f" [Checks: {', '.join(checks)}]"
+                lines.append(line)
 
         # Spells
         spells = adv.get("spells", [])
@@ -1643,7 +1828,7 @@ Verfuegbare Fertigkeiten:
 
         # Charakteristiken
         chars = c.get("characteristics", {})
-        if chars:
+        if chars and isinstance(chars, dict):  # Typprüfung
             char_parts = [f"{k}: {v}" for k, v in chars.items()]
             lines.append(f"Attribute: {', '.join(char_parts)}")
 

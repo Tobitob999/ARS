@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2.0",
+  "id": "table_45",
+  "name": "Table 45: MISSILE WEAPON RANGES",
+  "category": "table",
+  "tags": [
+    "add_2e",
+    "table",
+    "player_handbook",
+    "toc_normalized"
+  ],
+  "summary": "PHB Table 45 (MISSILE WEAPON RANGES).",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "table_number": 45,
+    "title": "MISSILE WEAPON RANGES",
+    "book_page": 69,
+    "pdf_page": 70,
+    "raw_page_token": "69"
+  },
+  "mechanics": {
+    "source": "toc_parse_v3",
+    "confidence": "medium"
+  }
+}

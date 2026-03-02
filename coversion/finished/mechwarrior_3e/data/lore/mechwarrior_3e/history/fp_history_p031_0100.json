@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "CHARACTER CREATION dial relations but the hardships of",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 31,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:45Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p031_0100",
+    "entity_type": "history",
+    "name_guess": "CHARACTER CREATION dial relations but the hardships of",
+    "breadcrumb_path": "Rules Compendium > Page 031 > history > CHARACTER CREATION dial relations but the hardships of",
+    "page_refs": [
+      31
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "CHARACTER CREATION dial relations but the hardships of the Clan war telt most keenly by the Lyrans placed huge strains on the hybrid nation The Archon Princess eventually withdrew the Lyran Alliance from the Commonwealth, though the Federated Suns half stiii retus to formally recognize the Lyran secession_ Now that the Archon Princess has assumed the throne of the Federated Suns as well, many attitudes are in flux."
+  }
+}

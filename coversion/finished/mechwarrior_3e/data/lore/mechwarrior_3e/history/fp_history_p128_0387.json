@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Armor: character piloting Mech only wear armorcd vest;",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 128,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:34Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p128_0387",
+    "entity_type": "history",
+    "name_guess": "Armor: character piloting Mech only wear armorcd vest;",
+    "breadcrumb_path": "Rules Compendium > Page 128 > history > Armor: character piloting Mech only wear armorcd vest;",
+    "page_refs": [
+      128
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "Armor",
+      "armor",
+      "damage"
+    ],
+    "excerpt": "Armor: character piloting Mech only wear armorcd vest; the cockpit too confined ad the temperature t0O high t0 wear any other armor However; tne MechWarrior\" TCuIC helmet counis as combat helmet for any damage Ihat strikes the head. Characters in other types of vchicles can wear any Jimor desired."
+  }
+}

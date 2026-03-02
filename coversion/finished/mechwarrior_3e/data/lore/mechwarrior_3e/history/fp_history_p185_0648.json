@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Despite the government's neavy hand some Capellan artists",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 185,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:11Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p185_0648",
+    "entity_type": "history",
+    "name_guess": "Despite the government's neavy hand some Capellan artists",
+    "breadcrumb_path": "Rules Compendium > Page 185 > history > Despite the government's neavy hand some Capellan artists",
+    "page_refs": [
+      185
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Despite the government's neavy hand some Capellan artists manage produce alternative work_ at their own expense and often at Great risk: Such works are huge demand outside the Confederation: Nohkabu theater; one of the Draconis Combine finest art forms_ unfortunately deemed the private possession of that realm. On rare occasions gifted troupe allowed perform for outsiders; permission t0 do 50 considered among the highest compliments_ official holovids of these perform- ances have been released, though bootleg copies exist."
+  }
+}

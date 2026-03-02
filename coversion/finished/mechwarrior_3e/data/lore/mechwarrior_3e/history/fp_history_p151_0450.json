@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "EQUIPMENT MIBCELLANEOUB EOUIPMENT Disgulse / Make-up Klt This",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 151,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:54Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p151_0450",
+    "entity_type": "history",
+    "name_guess": "EQUIPMENT MIBCELLANEOUB EOUIPMENT Disgulse / Make-up Klt This",
+    "breadcrumb_path": "Rules Compendium > Page 151 > history > EQUIPMENT MIBCELLANEOUB EOUIPMENT Disgulse / Make-up Klt This",
+    "page_refs": [
+      151
+    ],
+    "_ref": [],
+    "cost_mentions": [
+      "250 C-bills"
+    ],
+    "weight_mentions": [],
+    "range_mentions": [
+      "2 M"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [
+      "TN"
+    ],
+    "excerpt": "EQUIPMENT MIBCELLANEOUB EOUIPMENT Disgulse / Make-up Klt This includes all of the basic materials make-up artist needs to create prosthetic pieces ad wigs Attempts t0 dis- guise someone as specific person are impossible without such kit: Making disguise that simply alters character' appearance easier, and the kit gives 2 Modifier to the TN of such Disguise Skill Check. The kit includes enough supplies create four disguises before needs t0 be replenished at cost of 250 C-bills_ Lock Plcks Lock picks have come ong way over the years."
+  }
+}

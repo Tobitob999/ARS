@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_page",
+  "tags": [
+    "gurps_4e",
+    "fulltext",
+    "pdf_page"
+  ],
+  "summary": "PDF-Seite 288 aus GURPS - 4th Edition - Basic Set.pdf.",
+  "source_text": {
+    "book": "GURPS - 4th Edition - Basic Set",
+    "pdf_page": 288,
+    "text": "Horse Armor (Barding) Table\nTL Armor Location DR Cost Weight LC Notes\nFace Masks\n1 Leather & Cloth face 2 $40 3 4 [1]\n2 Mail face 4/2* $60 7 3 [1, 2]\n2 Scale face 4 $200 12 3 [1]\n3 Plate face 5 $200 12 3 [1]\nHead/Neck Armor\n2 Leather & Cloth neck, skull 2 $80 4 4\n2 Mail neck, skull 4/2* $100 15 3 [2]\n2 Scale neck, skull 4 $320 20 3\n3 Plate neck, skull 5 $330 18 3\nPartial Barding\n1 Leather & Cloth torso 2F $260 12 4\n2 Mail torso 4/2F* $440 20 3 [2]\n2 Scale torso 4F $480 60 3\nFull Barding\n2 Leather & Cloth torso, groin 2 $345 30 4\n3 Mail torso, groin 4/2* $670 59 3 [2]\n3 Plate torso, groin 5 $1,650 90 3\nLeggings\n3 Plate legs 5 $400 20 3 [3]\nNotes\n[1] Gives mount the No Peripheral Vision disadvantage (p. 151) while worn.\n[2] Split DR: use the lower DR against crushing attacks.\n[3] Weight and cost are per pair of legs protected. Each pair gives -1 to Move.\n286 EQUIPMENT\nWEARING ARMOR\nThere are some social and practical\nrestrictions on wearing armor.\nReaction Penalty\nA fully armored individual is some-\none who is expecting trouble . . . or\nlooking to make trouble. He is unlikely\nto receive a warm welcome! In a \nnoncombat situation, armor that cov-\ners the face or entire head gives -2 to\nreaction rolls. Nonconcealable armor\nwith DR 2+ anywhere else (except the\nhands or feet) gives -1, or -2 if it isn’t\nflexible and covers the torso. These\npenalties are cumulative: plate armor\nand a full helm would give you -4!\nHowever, there is no reaction penal-\nty if the NPC making the reaction roll\nrecognizes the wearer’s need or right to\nwear armor in the situation. Examples\nof socially acceptable armor include a\nknight on campaign or at a tourney; an\nastronaut wearing a vacc suit in space;\nor a soldier, paramedic, or journalist\nwearing body armor in a war zone.\nDonning and Removing\nArmor\nIt takes three seconds per piece to\ndon or remove most armor. It takes 30\nseconds per piece for vacc suits or bat-\ntlesuits, except for their helmets.\nException: TL8+ flexible armor with\ninsert panels and all TL9+ nonflexible\narmor have some form of “quick\nrelease” mechanism to drop the insert\npanel or let the user step out of the\narmor in only one second.\nCombining and Layering\nArmor\nYou can freely combine multiple\npieces of armor that don’t cover the\nsame hit location, but you can only\nlayer armor if the inner layer is both\nflexible and concealable. Add the DR of\nboth layers. Wearing an extra layer of\narmor anywhere but on the head gives\n-1 to DX and DX-based skills.\n"
+  },
+  "mechanics": {
+    "conversion": "fulltext_page_dump",
+    "generated_at": "2026-03-02T15:00:00"
+  }
+}

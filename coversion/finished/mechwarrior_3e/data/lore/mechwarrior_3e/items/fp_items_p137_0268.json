@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "They are often favored Ovem standard slug-throwers pecause",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 137,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:38Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p137_0268",
+    "entity_type": "items",
+    "name_guess": "They are often favored Ovem standard slug-throwers pecause",
+    "breadcrumb_path": "Rules Compendium > Page 137 > items > They are often favored Ovem standard slug-throwers pecause",
+    "page_refs": [
+      137
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "0 m",
+      "2 M"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [
+      "damage"
+    ],
+    "excerpt": "They are often favored Ovem standard slug-throwers pecause of their quiet operation and high damage potential, Ranges are also significantly increased because gyrojet projectiles do not drop off in velocity until tncy reach their maximum effective range_ Gyrojet weapons are expensive t0 buy and operate limiting their use to wealthy col: lectors and elite special operations teams An identifiable char- acteristic of the weapon is its cone-shaped exhaust plume bright light the projectile exhaust trail can be seen: characters familiar with the weapon need only t0 make Perception Check with +2 Modifier; in addition to all other appropriate modifiers t0 detect the approximate location of the shooter."
+  }
+}

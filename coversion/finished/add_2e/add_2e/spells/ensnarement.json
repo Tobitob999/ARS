@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "ensnarement",
+  "name": "Ensnarement",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Ensnarement (Conjuration/Summoning) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "sixth",
+    "book_pages": [
+      176
+    ],
+    "pdf_pages": [
+      177
+    ],
+    "raw_block": "Ensnarement (Conjuration/Summoning)\nRange: 10 yards\nComponents: V, S, M\nDuration: Special\nCasting Time: 1 turn\nArea of Effect: Special\nSaving Throw: Neg.\nCasting this spell attempts a dangerous\nact: to lure a powerful creature from\nanother plane to a specially prepared trap,\nwhere it will be held until It agrees to.per-\nform one service in return for freedom from\nthe ensnarement spell. The type of creature\nto be ensnared must be known and stated,\nand if it has a specific, proper, or given\nname, this must be used in casting the\nensnarement spell. The spell causes an\nawareness of a gate-like opening on the\nplane of the creature to be ensnared. A spe-\ncial saving throw is then made to determine\nif the creature detects the nature of the pla-\nnar opening as a trap or believes it to be a\ngate. To save, the creature must roll equal to\nor less than its Intelligence score on ld20.\nThe score is modified by the difference\nbetween the creature's Intelligence and that\nof the spellcaster. If the creature has a lugher\nscore, the difference is subtracted from its\ndice roll to save. If the spellcaster has a high-\ner score, the difference is added to the dice\nroll.\nIf the saving throw succeeds, the creature\nignores the spell-created opening, and the\nspell fails. If the saving throw fails, the crea-\nture steps into the opening and is ensnared.\nWhen so trapped, the other-planar crea-\nture can freely attack the ensnaring wizard,\nunless the caster has created a warding cir-\ncle. Such circles may be temporary (drawn\nby hand) or permanent (inlaid or carved).\nEven with such protection, the entrapped\ncreature may break free and wreak its\nvengeance upon the spellcaster.\nA hand-drawn circle has a base failure\nchance of 20 % , while one inlaid or carved\nhas a base of 10% (and that is for the first\ntime it is used, to determine whether or not\nthe job was done properly). The base\nchance is modified by the difference.\nbetween the wizard's combined Intelligence\nand experience level and the Intelligence and\nthe experience level or Hit Dice of the crea-\nture ensnared. If the spellcaster has a higher\ntotal, that difference in percentage points is\nsubtracted from the chance for the creature\nto break free. If the creature has a higher\ntotal, that difference is added to 2s chance\nto break free.\nThe chance can be further reduced by\ncareful preparation of the circle. If the hand:\nmade circle is drawn over a longer period d\ntime, using specially prepared pigments\n(1,OOO gp value per turn spent drawing), the\nchance of breaking free is reduced by 1 % for\nevery turn spent iq preparation. This can\nbring the base chance to 0%.\nSimilarly, an inlaid or carved design can\na minimum of one full month of time and\nadd not less than 50,OOO gp to the basic cost\nof having the circle inlaid or carved into\nstone. Any break in the circle spoils the effi-\ncacy of the spell and enables the creature to\nbreak free automatically. Even a straw\ndropped across the line of a magic circle\ndestroys its power. Fortunately, the creature\nwithin cannot so much as place a straw\nupon any portion of the inscribed ward, for\nthe magic of the barrier absolutely prevents\nit.\nOnce safely ensnared, the creature can be\nkept for as long as the spellcaster dares.\n(Remember the danger of something break-\ning the ward!) The creature cannot leave the\ncircle, nor can any of its attacks or powers\npenetrate the barrier. The caster can offer\nbribes, use promises, or make threats in\norder to exact one service from the zaptive\ncreature.\nThe DM will then assign a value to what\nthe wizard has said to the ensnared creature,\nrating it from 0 to 6 (with 6 being the most\npersuasive). This rating is then subtracted\nfrom the Intelligence score of the cream. If\nthe creature rolls a successful Intelligence\ncheck against its adjusted Intelligence, it\nrefuses service. New offers, bribes, etc., can\nbe made, or the old ones re-offered 24 hours\nlater, when the creature's Intelligence has\ndropped by 1 point due to confinement.\nThis can be repeated until the creature\npromises to serve, until it breaks free, or\nuntil the caster decides to get rid of it by\nmeans of some riddance spell. Impossible\ndemands or unreasonable commands are\nnever agreed to.\nOnce the single service is completed, the\ncreature need only so inform the spellcaster\nto be instantly sent from whence it came.\nThe creature might later seek revenge.\n176"
+  },
+  "mechanics": {
+    "school_or_type": "Conjuration/Summoning",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Ensnarement",
+      "canonical_name_guess": null,
+      "school_or_type": "Conjuration/Summoning",
+      "range": "10 yards",
+      "components": "V, S, M",
+      "duration": "Special",
+      "casting_time": "1 turn",
+      "area_of_effect": "Special",
+      "saving_throw": "Neg.",
+      "description_excerpt": "Casting this spell attempts a dangerous act: to lure a powerful creature from another plane to a specially prepared trap, where it will be held until It agrees to.per- form one service in return for freedom from the ensnarement spell. The type of creature to be ensnared must be known and stated, and if it has a specific, proper, or given name, this must be used in casting the ensnarement spell. The spell causes an awareness of a gate-like opening on the plane of the creature to be ensnared. A spe- cial saving throw is then made to determine if the creature detects the nature of the pla- nar opening as a trap or believes it to be a gate. To save, the creature must roll equal to or less than its Intelligence score on ld20. The score is modified by the difference between the creature's Intelligence and that of the spellcaster. If the creature has a lugher score, the difference is subtracted"
+    },
+    "quality_flags": []
+  }
+}

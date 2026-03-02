@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "cue_reflectlon",
+  "name": "Cue Reflectlon",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Cue Reflectlon (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": null,
+    "book_pages": [
+      135
+    ],
+    "pdf_pages": [
+      136
+    ],
+    "raw_block": "Cue Reflectlon (Alteration)\nRange: 0\nComponents: V, S\nDuration: 2 rounds + 1 round/level\nCasting Time: 1\nArea of Effect: Special\nSaving Throw: None\nThe gaze reflection spell creates a shim-\nmering, mirror-like area of air before the\nwizard that moves with the caster. Any gaze\nattack, such as that of a basilisk, eyes of\ncharming, a vampire's gaze, the 6th-level\neyebite spell, and so on, is reflected back\nupon the gazer if the gazer tries to make eye\ncontact with the spellcaster (the spellcaster\nsuffers no effects from the gaze attack).\nSuch creatures receive a saving throw vs.\ntheir own gaze effect. The spell does not\naffect vision or lighting and is not effective\nagainst creatures whose effect comes from\nbeing gazed upon (such as a medusa). Only\nactive gaze attacks are blocked by this spell."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Cue Reflectlon",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "0",
+      "components": "V, S",
+      "duration": "2 rounds + 1 round/level",
+      "casting_time": "1",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "The gaze reflection spell creates a shim- mering, mirror-like area of air before the wizard that moves with the caster. Any gaze attack, such as that of a basilisk, eyes of charming, a vampire's gaze, the 6th-level eyebite spell, and so on, is reflected back upon the gazer if the gazer tries to make eye contact with the spellcaster (the spellcaster suffers no effects from the gaze attack). Such creatures receive a saving throw vs. their own gaze effect. The spell does not affect vision or lighting and is not effective against creatures whose effect comes from being gazed upon (such as a medusa). Only active gaze attacks are blocked by this spell."
+    },
+    "quality_flags": []
+  }
+}

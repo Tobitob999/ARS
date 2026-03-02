@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "quests_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "quests",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Untrained Target Number Modifier This Attribute is related",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 56,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:58Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_quests_p056_0059",
+    "entity_type": "quests",
+    "name_guess": "Untrained Target Number Modifier This Attribute is related",
+    "breadcrumb_path": "Rules Compendium > Page 056 > quests > Untrained Target Number Modifier This Attribute is related",
+    "page_refs": [
+      56
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Untrained Target Number Modifier This Attribute is related t0 skills that require sharp response shows how well character can perform tasks for which he iS times such as Piloting and Quickdraw: Many combat skills are totally untrained For rules on using this target number. see related to Reflexes and this Attribute also serves as the basis Untrained Skill Use; 16."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "GET OUTTA YER 'MECH: _ #AND INTO THE",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 225,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:32Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p225_0880",
+    "entity_type": "npcs",
+    "name_guess": "GET OUTTA YER 'MECH: _ #AND INTO THE",
+    "breadcrumb_path": "Rules Compendium > Page 225 > npcs > GET OUTTA YER 'MECH: _ #AND INTO THE",
+    "page_refs": [
+      225
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "0 M"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "GET OUTTA YER 'MECH: _ #AND INTO THE ACTION? It Is the 3st century: Across the Vast- ness ol Interstellar space wesome powers vic for supremacy Amidst this swirl of unending confllct stride BattleMMechsi huge robotic weapons of war piloted by elite MechWarriorsm. Ioin the; action;, taking on any onc of an endless varicry of roles from spy (0 smugglet mercenary t0 MechWarrior charcter fromathe Inner Sphere, the Clans Or the Perlpliery."
+  }
+}

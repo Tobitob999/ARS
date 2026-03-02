@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "the Free Rasalhague Republic and ComStar have made",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 169,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:02Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p169_0549",
+    "entity_type": "history",
+    "name_guess": "the Free Rasalhague Republic and ComStar have made",
+    "breadcrumb_path": "Rules Compendium > Page 169 > history > the Free Rasalhague Republic and ComStar have made",
+    "page_refs": [
+      169
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "3057 M"
+    ],
+    "year_mentions": [
+      "3057"
+    ],
+    "stat_tokens": [],
+    "excerpt": "the Free Rasalhague Republic and ComStar have made impressive strides restoring the world. CHAOS MARCH Originally Capellan territory annexed by the Federated Suns the Fourth Succession War the 3ica immediately rmward of Terra was thrown into confusion by the Marik-Liao assault on the Federated Commonwealth 3057 Many planets became de facto independent, though the Confederation has made Giot but sure Bains among the rimward worlds During the past four years_ the coreward worlds within thirty-nine light-years of Terra have slowly come under the influence of Word Blake."
+  }
+}

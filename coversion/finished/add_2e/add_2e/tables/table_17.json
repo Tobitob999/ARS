@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2.0",
+  "id": "table_17",
+  "name": "Table 17: PALADIN SPELL PROGRESSION",
+  "category": "table",
+  "tags": [
+    "add_2e",
+    "table",
+    "player_handbook",
+    "toc_normalized"
+  ],
+  "summary": "PHB Table 17 (PALADIN SPELL PROGRESSION).",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "table_number": 17,
+    "title": "PALADIN SPELL PROGRESSION",
+    "book_page": 28,
+    "pdf_page": 29,
+    "raw_page_token": "28"
+  },
+  "mechanics": {
+    "source": "toc_parse_v3",
+    "confidence": "medium"
+  }
+}

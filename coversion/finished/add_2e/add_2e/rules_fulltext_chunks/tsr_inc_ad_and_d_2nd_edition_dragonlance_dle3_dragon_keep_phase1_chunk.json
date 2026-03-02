@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_1_mapping",
+    "tsr_inc_ad_and_d_2nd_edition_dragonlance_dle3_dragon_keep"
+  ],
+  "summary": "Abgeleiteter Phase-1-Chunk aus Kapitelmarkern fuer TSR Inc - AD&D 2nd Edition - Dragonlance_ DLE3 - Dragon Keep.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLE3 - Dragon Keep",
+    "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLE3 - Dragon Keep.pdf",
+    "chapter_map_file": "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dragonlance_dle3_dragon_keep_chapter_map.json",
+    "text": "Chapter I: P ARTNERS (first_seen_pdf_page=15)\nChapter 2: L UNITARI (first_seen_pdf_page=27)\nChapter 3: T HE  A STRAL  D RAGON (first_seen_pdf_page=49)\nAppendix I: S ELECTED NPCs . . . . . . . . . . . . .. . . . . . . . . . . . . . . 5 5 (first_seen_pdf_page=3)\nAppendix I: S ELECTED  NPCs (first_seen_pdf_page=57)\nAppendix 2: N EW M ONSTERS (first_seen_pdf_page=58)\nAppendix 3: L UNITARI  M AP  K EY (first_seen_pdf_page=60)\nAppendix 4: D RAGON  M ISCELLANY (first_seen_pdf_page=61)"
+  },
+  "mechanics": {
+    "topic": "phase_1_skeleton_mapping",
+    "keywords": [
+      "add_2e",
+      "book_conversion",
+      "henchmen_hirelings",
+      "npc",
+      "tsr_inc_ad_and_d_2nd_edition_dragonlance_dle3_dragon_keep"
+    ],
+    "injection_priority": "core",
+    "mapped_skeleton_fields": [
+      "henchmen_hirelings"
+    ],
+    "raw_text": "Chapter I: P ARTNERS (first_seen_pdf_page=15)\nChapter 2: L UNITARI (first_seen_pdf_page=27)\nChapter 3: T HE  A STRAL  D RAGON (first_seen_pdf_page=49)\nAppendix I: S ELECTED NPCs . . . . . . . . . . . . .. . . . . . . . . . . . . . . 5 5 (first_seen_pdf_page=3)\nAppendix I: S ELECTED  NPCs (first_seen_pdf_page=57)\nAppendix 2: N EW M ONSTERS (first_seen_pdf_page=58)\nAppendix 3: L UNITARI  M AP  K EY (first_seen_pdf_page=60)\nAppendix 4: D RAGON  M ISCELLANY (first_seen_pdf_page=61)",
+    "derived_from": [
+      "detected_chapters",
+      "detected_appendices"
+    ]
+  }
+}

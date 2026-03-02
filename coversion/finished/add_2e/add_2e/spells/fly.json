@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "fly",
+  "name": "Fly",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Fly (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "third",
+    "book_pages": [
+      149
+    ],
+    "pdf_pages": [
+      150
+    ],
+    "raw_block": "Fly (Alteration)\nRange: Touch\nComponents: V, S, M\nDuration: 1 turn/level + ld6 turns\nCasting Time: 3\nArea of Effect: Creature touched\nSaving Throw: None\nThis spell enables the wizard to bestow\nthe power of magical flight. The creature\naffected is able to move vertically and hor-\nizontally at a rate of 18 (half that if ascend-\ning, twice that if descending in a dive). The\nmaneuverability class of the creature is B.\nUsing the fly spell requires as much concen-\ntration as walking, so most spells can be cast\n1 49\nwhile hovering or moving slowly (move-\nment of 3). Possible combat penalties while\nflying are known to the DM (in the \"Aerial\nCombat\" section of the DMG). The exact\nduration of the spell is always unknown to\nthe spellcaster, as the variable addition 4\ndetermined secretly by the DM.\nThe material component of the fly spell is\na wing feather"
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Fly",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "1 turn/level + ld6 turns",
+      "casting_time": "3",
+      "area_of_effect": "Creature touched",
+      "saving_throw": "None",
+      "description_excerpt": "the spellcaster, as the variable addition 4 determined secretly by the DM. The material component of the fly spell is a wing feather"
+    },
+    "quality_flags": []
+  }
+}

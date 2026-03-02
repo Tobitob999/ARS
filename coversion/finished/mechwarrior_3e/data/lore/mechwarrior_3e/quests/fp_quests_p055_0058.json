@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "quests_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "quests",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "CHARAGTER CREATION Otficor Tralnlng Prerequisite: Basic Training Administration",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 55,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:57Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_quests_p055_0058",
+    "entity_type": "quests",
+    "name_guess": "CHARAGTER CREATION Otficor Tralnlng Prerequisite: Basic Training Administration",
+    "breadcrumb_path": "Rules Compendium > Page 055 > quests > CHARAGTER CREATION Otficor Tralnlng Prerequisite: Basic Training Administration",
+    "page_refs": [
+      55
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "CHARAGTER CREATION Otficor Tralnlng Prerequisite: Basic Training Administration Bureaucracy / Affiliation Leadership Pistols Tactics / Any Training Detectlve Career /Detective Computers Cryptography Fast Talk Interrogation Perception Scrounge Security Systems Police Offlcer Academic /Law Career /Police Officer First Aid Intimidation Martial Arts /Military Pistols Shotguns Streetwise/ Any Shlp\"9 Crew Career / Ship\"5 Crew Gunnery /Ballistic / Space Gunnery /Laser /Space Gunnery /Missile / Space Technician/Ballistics Technician/Lasers Technician /Missile Zero G Operations Doctor Prerequisite: Scientist Administration Bureaucracy / Any Career / Doctor First Aid MedTech Surgery Police Tactical Officer Prerequisite; Police Officer climbing Demolitions Rifles Running Submachine Guns Support Weapons Tactics / Infantry Spoclal Forcos Prerequisite: Infantry Blades Demolitions Free Fall Stealth Submnachine Guns Survival Tracking DropShlp Pllot Career/Pilot Comms Conv; Navigation / Space Piloting - Kero Piloting /Spheroid Sensor Operations Zero G Operations Polltician Acting Bureaucracy/Any Career/Politician Fast Talk Leadership Negotiation Protocol/Any Engineer Prerequisite Civilian Tech Basic Technician Appraisal Computers Engineering Perception Technician/ Fusion echnician Support WarShip Pllot Prerequisite: JumpShip Pilot Bureaucracy / Affiliation Leadership Strategy Tactics Space Scientlst Career /Scientist Computers Perception Academic Any Training CIVILIAN FIELDS Scout Comms Conv: Disguise Scrounge Security Systems Stealth Streetwise / Any Tracking Jumpship Pilot Prerequisite: DropShip Pilot Administration Computers Navigation/ Jump Drive Technician/ Jump Drive AeroSpace Technlclan Prerequisite: Basic Technician Civillan Tech Technician/Aeronautics Technician/Fusion Technician / Interplanetary echnician / Jet Technician / Jump Drive Technician /Support Zero G Operations Merchant Administration Appraisal Bureaucracy/Any Career /Merchant Negotiation Scrounge Vehlcle Technician Prerequisite: Basic Technician Civilian Tech Technician/ Fusion Technician/ICE Technician/Rotor Technician /Support Civillan Alrcratt Pilot Career /Pilot Comms Conv; Navigation /Air Piloting / choose one Sensor Operations Aircraft; VTOL Planetary Surveyor Prerequisite: Scientist Appraisal Demolitions Navigation /Ground Piloting / choose one Survival Tracking Hover, Naval, Sub, Wheeled Clvillan Tech Career / Technician Technician/Comms Technician/ Electronics Technician/ Mechanics 54"
+  }
+}

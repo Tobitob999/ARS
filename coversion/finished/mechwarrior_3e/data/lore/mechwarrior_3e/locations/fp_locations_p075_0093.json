@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "locations_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "locations",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "CHARACTER CREATION BRASH TANKER Greenvale_ the sleepy little",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 75,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:03Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_locations_p075_0093",
+    "entity_type": "locations",
+    "name_guess": "CHARACTER CREATION BRASH TANKER Greenvale_ the sleepy little",
+    "breadcrumb_path": "Rules Compendium > Page 075 > locations > CHARACTER CREATION BRASH TANKER Greenvale_ the sleepy little",
+    "page_refs": [
+      75
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [
+      "3051"
+    ],
+    "stat_tokens": [],
+    "excerpt": "CHARACTER CREATION BRASH TANKER Greenvale_ the sleepy little village of your birth, was razed by the Thirty-seventh Striker Cluster of Clan Wolf\" Delta Galaxy when tney invaded the world of Memmingen in late 3051. Though you hooked up with the fleeing Third Drakons_ the fighting left you an orphan at the age of eight."
+  }
+}

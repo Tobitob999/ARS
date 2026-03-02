@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "category": "vehicles_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "vehicles",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Combat Sense: Characters with the Combat Sense Trait",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 111,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:29Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_vehicles_p111_0203",
+    "entity_type": "vehicles",
+    "name_guess": "Combat Sense: Characters with the Combat Sense Trait",
+    "breadcrumb_path": "Rules Compendium > Page 111 > vehicles > Combat Sense: Characters with the Combat Sense Trait",
+    "page_refs": [
+      111
+    ],
+    "_ref": [],
+    "cost_mentions": [
+      "0 ke"
+    ],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [
+      "3010"
+    ],
+    "stat_tokens": [],
+    "excerpt": "Combat Sense: Characters with the Combat Sense Trait roll 3010 and choose the best two dice when rolling Initiative Combat Paralysis: Characters with the Combat Paralysis Trait roll 3010 ad choose the worst two dice when rolling for Initiative_ Tactics: Characters with the Tactics Skill may add their skill bonus to their Initiative score provided the combat situation is appropriate t0 their Tactics knowledge For example character with only Tactics/ BattleMech would gain no bonus to Initiative in combat outside his Mech: Leadershlp: one character with the Leadership Skill is designated the leader of team of characters and he has some way t0 keep in touch with nis team (such as microcom municators)."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Roll hit location normally for splash attack_ but",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 123,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:32Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p123_0188",
+    "entity_type": "items",
+    "name_guess": "Roll hit location normally for splash attack_ but",
+    "breadcrumb_path": "Rules Compendium > Page 123 > items > Roll hit location normally for splash attack_ but",
+    "page_refs": [
+      123
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [
+      "2010",
+      "2171"
+    ],
+    "stat_tokens": [
+      "armor"
+    ],
+    "excerpt": "Roll hit location normally for splash attack_ but the attack may not hit that Iocation; It will actually bc resolved against that Ioca- tion Or any location adjacent t0 on tne bod} (as shown on the Hit Location Diagram on the Character Record Sheet, 2171, whichever has the lowest armor value_ Hit LOCATION TABLE 2010 Roll Hit Locatlon Critical Hit\"* Left Foot Left Leg Left Hand Left Arm Chest Abdomen Right Arm Right Hand Right Leg Right Foot Head 4-5 7-8 9-11 12-13 14-15 An elemental tires nis neavy flamer al Combine tOot soldier wearing (lak suit; ballistic plate vest and combar helmet: Ihe hit location roll is [0 the left drm The adjacent locations are the chest and the left narid."
+  }
+}

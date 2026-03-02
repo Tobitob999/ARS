@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Poor Middle Class Merchant Caste Mw3, Attributes mainly",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 56,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:57Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p056_0218",
+    "entity_type": "history",
+    "name_guess": "Poor Middle Class Merchant Caste Mw3, Attributes mainly",
+    "breadcrumb_path": "Rules Compendium > Page 056 > history > Poor Middle Class Merchant Caste Mw3, Attributes mainly",
+    "page_refs": [
+      56
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "damage"
+    ],
+    "excerpt": "Poor Middle Class Merchant Caste Mw3, Attributes mainly aftect the Fair Upper Class Technician Caste improvement skills Characters with Good Baronet Scientist Caste higher Attributes will advance more quick- Advanced Baron Freeborn Warrior related skills (han characters with Remarkable Count Trueborn Warrior\" llower Attributes Attributes nave various Excellent Marquess Trueborn Warrior+ other effects well; example; the Astounding Duke Trueborn Warrior* Strength Attribute helps determine how Unbelievable Sovereign much damage character can inflict in unarmed combal: Higher Social Standing values denote more prestigious bloodlines_ The Attribute Table shows the relative values of Attributes and what they mean."
+  }
+}

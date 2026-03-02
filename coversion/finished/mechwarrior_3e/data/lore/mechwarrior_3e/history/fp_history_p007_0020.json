@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Following that is an Equipment guide that takes",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 7,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:22Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p007_0020",
+    "entity_type": "history",
+    "name_guess": "Following that is an Equipment guide that takes",
+    "breadcrumb_path": "Rules Compendium > Page 007 > history > Following that is an Equipment guide that takes",
+    "page_refs": [
+      7
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "armor"
+    ],
+    "excerpt": "Following that is an Equipment guide that takes you through the process of acquiring gear for your characters special rules regarding equipment, and comprehensive cross section of the most useful and common weapons armor; elec tronics and other gear used in the thirty-first century: Though there wide variety BattleTech universe source material in separately available books Mw3 contains wealth of information so any player or gamemaster has all tney need to get started with only this book: The sourcebook section contains number essays various aspects the Battle Tech universe_ including Brief History of the Inner Sphere; Whistlestop Tour of the Inner Sphere; Government & Law; Society & Culture; The Clans and War and its Makers_ Along with these essays scrapbook describing the major affil- iations of the BattleTech universe provided in the color pages giving players complete overview of the vast tapestry of the universe_ Every gamemaster will find the Running the Game section useful, as it gives suggestions adventure and campaign frameworks selection of ready-made non-player characters and rules for awarding Experience Points t0 the player charac ters after their adventures At the end of the book iS selection of charts and tables that will be useful t0 character creation and game play; as well as blank character record sheet and char- acter creation worksheet."
+  }
+}

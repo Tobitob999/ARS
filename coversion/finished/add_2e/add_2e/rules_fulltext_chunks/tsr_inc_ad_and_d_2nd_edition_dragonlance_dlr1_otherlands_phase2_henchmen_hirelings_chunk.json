@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_2",
+    "tsr_inc_ad_and_d_2nd_edition_dragonlance_dlr1_otherlands",
+    "henchmen_hirelings"
+  ],
+  "summary": "Phase-2 Regelchunk: henchmen_hirelings aus TSR Inc - AD&D 2nd Edition - Dragonlance_ DLR1 - Otherlands.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLR1 - Otherlands",
+    "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLR1 - Otherlands.pdf",
+    "text": "[PDF_PAGE 46 | score=2] THE M ISCHTA to freely converse and visit them in their hatchery over the course of many centu- ries. Once, one of the largest gold dragons even allowed her to ride him. Salandra is a gentle girl who is filled with love with all things. She is usually quite happy and joyous; more like an Irda than a Mischta. She also has frightening dreams, which sometimes come true. Sa- landra usually keeps them to herself. In appearance Salandra is a typical Mis- chta female, with pale blue skin. She is not extraordinarily beautiful, but she has a lovely singing voice. Kreala Igrani 8th-Level Cleric High King Mischta Female Now approaching the ripe old age of 300, Kreala is the respected figurehead of the "
+  },
+  "mechanics": {
+    "topic": "henchmen_hirelings",
+    "keywords": [
+      "add_2e",
+      "henchmen_hirelings",
+      "tsr_inc_ad_and_d_2nd_edition_dragonlance_dlr1_otherlands"
+    ],
+    "injection_priority": "support",
+    "confidence": 0.05,
+    "page_refs": [
+      46
+    ],
+    "raw_text": "[PDF_PAGE 46 | score=2] THE M ISCHTA to freely converse and visit them in their hatchery over the course of many centu- ries. Once, one of the largest gold dragons even allowed her to ride him. Salandra is a gentle girl who is filled with love with all things. She is usually quite happy and joyous; more like an Irda than a Mischta. She also has frightening dreams, which sometimes come true. Sa- landra usually keeps them to herself. In appearance Salandra is a typical Mis- chta female, with pale blue skin. She is not extraordinarily beautiful, but she has a lovely singing voice. Kreala Igrani 8th-Level Cleric High King Mischta Female Now approaching the ripe old age of 300, Kreala is the respected figurehead of the "
+  }
+}

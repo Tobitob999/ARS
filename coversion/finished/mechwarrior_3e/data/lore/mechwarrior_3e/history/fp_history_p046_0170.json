@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Civilian pilot schools also fall under this category:",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 46,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:54Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p046_0170",
+    "entity_type": "history",
+    "name_guess": "Civilian pilot schools also fall under this category:",
+    "breadcrumb_path": "Rules Compendium > Page 046 > history > Civilian pilot schools also fall under this category:",
+    "page_refs": [
+      46
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "211 M"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Civilian pilot schools also fall under this category: Entry requirements are fair- ly lenient; and tuition affordable or paid for by the government: Because this path covers So many possible careers_ the player chooses his or her character'$ specific course (field) and relevant subskills, subject to the gamemaster' approval: Tlme: years Attrlbute Minimums: DEX 3, INT 3 Skills: Academic / Any Relevant +3, Computers +2 Fields: Choose one: Civilian Tech DropShip Pilot or Civilian Aircraft Pilot Next Path: Ne'er-Do-Well (4), Civilian Job (4), Vehicle Technician Training Subpath (3, Civilian Tech Field only; part of this pass), JumpShip Pilot Training Subpath (3 DropShip Pilot Field only; part of this pass), Free Trader (4_ DropShip Pilot Field only) Mandatory Subpath: Advanced Individual Training (AIT) Basic Training graduates only Tlme: years Tralts: Promotion Skllls: Tactics/Any +2, +1 t0 any three relevant skills any one field skii Flelds: Choose one of the following fields subject the listed restrictions: MechWarrior (minimum DEX 4, RFL 4) Aerospace Pilot (minimum DEX 4, RFL 4) Armored Infantry (minimum STR 6, BOD 5) Events: Do not roll events for Advanced Individual Training Next Path: Tour of Duty or DEST Training Subpath (3, part of this pass take if character enters the MechWarrior Or Armored Infantry fields) Technical College Events Serious shop accident (Add one year t0 the time this path takes and choose one: Poor Vision Lost Limb Poor Hearingl Needed help to get through [Addiction (211 Missed lot 0f classes |-1 t0 all skills granted by the field taken] Switched majors mid-course [Add one year to the time this path takes] Lots of all-nighters [Addiction, +1 t0 any skill] Spent time space ( lechnician/Interplanetary +1."
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "hold_monster",
+  "name": "Hold Monster",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Hold Monster (EnchantmenVCharm) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      169
+    ],
+    "pdf_pages": [
+      170
+    ],
+    "raw_block": "Hold Monster (EnchantmenVCharm)\nRange: 5 yards/level\nComponents: V, S, M\nDuration: 1 round/level\nCasting Time: 5\nArea of Effect: 1 to 4 creatures in a\n40-fOOt cube\nSaving Throw: Neg.\nThis spell immobilizes from one to four\ncreatures of any type within spell range and\nin sight of the spellcaster. He can opt to hold\none, two, three, or four creatures. If three or\nfour are attacked, each saving throw is nor-\nmal; if two are attacked, each saving throw\nsuffers a - 1 penalty; if only one is attacked,\nthe saving throw suffers a -3 penalty.\nThe material component for this spell is\none hard metal bar or rod for each monster\nto be held. The bar or rod can be as small as\na three-penny nail.\nLeomund’s Lamentable"
+  },
+  "mechanics": {
+    "school_or_type": "EnchantmenVCharm",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Hold Monster",
+      "canonical_name_guess": null,
+      "school_or_type": "EnchantmenVCharm",
+      "range": "5 yards/level",
+      "components": "V, S, M",
+      "duration": "1 round/level",
+      "casting_time": "5",
+      "area_of_effect": "1 to 4 creatures in a",
+      "saving_throw": "Neg.",
+      "description_excerpt": "This spell immobilizes from one to four creatures of any type within spell range and in sight of the spellcaster. He can opt to hold one, two, three, or four creatures. If three or four are attacked, each saving throw is nor- mal; if two are attacked, each saving throw suffers a - 1 penalty; if only one is attacked, the saving throw suffers a -3 penalty. The material component for this spell is one hard metal bar or rod for each monster to be held. The bar or rod can be as small as a three-penny nail. Leomund’s Lamentable"
+    },
+    "quality_flags": []
+  }
+}

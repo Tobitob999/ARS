@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Damage Dice Whenever weanon is successtully Msed attack",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 115,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:30Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p115_0146",
+    "entity_type": "items",
+    "name_guess": "Damage Dice Whenever weanon is successtully Msed attack",
+    "breadcrumb_path": "Rules Compendium > Page 115 > items > Damage Dice Whenever weanon is successtully Msed attack",
+    "page_refs": [
+      115
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "Damage",
+      "damage"
+    ],
+    "excerpt": "Damage Dice Whenever weanon is successtully Msed attack sine one roll the weapon s damage dice (see Equipment Data; 132 and Weapon Table, 153) and add to the base dam age. Unarmed attacks roll no damage dice unless the special maneuver used indicates extra damage dice; When rolling damage the dice are considered open ended as in a Action Check (see 131."
+  }
+}

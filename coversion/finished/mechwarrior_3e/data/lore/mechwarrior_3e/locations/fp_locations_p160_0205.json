@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "category": "locations_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "locations",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Deimos produced the first Konrad' disgrace left McKenna",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 160,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:56Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_locations_p160_0205",
+    "entity_type": "locations",
+    "name_guess": "Deimos produced the first Konrad' disgrace left McKenna",
+    "breadcrumb_path": "Rules Compendium > Page 160 > locations > Deimos produced the first Konrad' disgrace left McKenna",
+    "page_refs": [
+      160
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [
+      "2108",
+      "2339",
+      "2351"
+    ],
+    "stat_tokens": [],
+    "excerpt": "Deimos produced the first Konrad' disgrace left McKenna without an heir to take his Kearny-Fuchida drive , which created space warp around star- place Upon McKenna death in 2339 the Hegemony's Hien ship through which the craft could \"jump distances of up t0 Council passed the leadership of the Hegemony his third thirty light-years_ December 2108 Terra launched the first cousin Michael Cameron_ Tne new director general immediate so-called JumpShip the TAS Pathfinder, on its famous round Iy began efforts tO cement good relations with the allied colony trip between Terra and the Tau Ceti system_ worlds which had by this time formed independent nations The ability to travel between star systems in the blink of an 2351 _ Cameron made decision whose cultura reper- eye led t0 an unparalleled expansion to other worlds."
+  }
+}

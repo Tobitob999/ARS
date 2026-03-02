@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "add_2e",
+    "source_book",
+    "pdf_conversion",
+    "tsr_inc_ad_and_d_2nd_edition_wizards_spell_compendium_volume_4"
+  ],
+  "summary": "Metadaten der PDF-zu-JSON-Konvertierung fuer TSR Inc - AD&D 2nd Edition - Wizards Spell Compendium Volume 4.pdf.",
+  "source_text": {
+    "source_file": "TSR Inc - AD&D 2nd Edition - Wizards Spell Compendium Volume 4.pdf",
+    "source_path": "g:\\meine ablage\\add2e\\tsr inc - ad&d 2nd edition - wizards spell compendium volume 4.pdf",
+    "format": "pdf",
+    "page_count": 290,
+    "extracted_characters": 968055,
+    "extraction_timestamp": "2026-03-02T11:12:40",
+    "toc_candidate_pages": [
+      41,
+      139,
+      159,
+      184,
+      190,
+      289
+    ],
+    "empty_or_unreadable_pages": [
+      1,
+      3,
+      274,
+      281,
+      290
+    ]
+  },
+  "mechanics": {
+    "extractor": "pypdf.PdfReader.extract_text",
+    "output_files": [
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_wizards_spell_compendium_volume_4_pages.jsonl",
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_wizards_spell_compendium_volume_4_chapter_map.json",
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_wizards_spell_compendium_volume_4_metadata.json"
+    ]
+  }
+}

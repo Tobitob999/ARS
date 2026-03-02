@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "wlzud_lock",
+  "name": "Wlzud Lock",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Wlzud Lock (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "second",
+    "book_pages": [
+      147
+    ],
+    "pdf_pages": [
+      148
+    ],
+    "raw_block": "Wlzud Lock (Alteration)\nRange: Touch\nComponents: V, S\nDuration: Permanent\nCasting Time: 2\nArea of Effect: 30 square feet/level\nSaving Throw: None\nA wizard lock spell cast upon a door,\nhest, or portal magically locks it. The\naster can freely pass his own lock without\nffecting it; otherwise, the wizard-locked\nor or object can be opened only by break-\nthe one casting the spell. Note\nother planes cannot burst a wizard lock as\nthey can a held portal (see the hold portal\nspell).\nThird-Level Spells"
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Wlzud Lock",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "Touch",
+      "components": "V, S",
+      "duration": "Permanent",
+      "casting_time": "2",
+      "area_of_effect": "30 square feet/level",
+      "saving_throw": "None",
+      "description_excerpt": "A wizard lock spell cast upon a door, hest, or portal magically locks it. The aster can freely pass his own lock without ffecting it; otherwise, the wizard-locked or or object can be opened only by break- the one casting the spell. Note other planes cannot burst a wizard lock as they can a held portal (see the hold portal spell). Third-Level Spells"
+    },
+    "quality_flags": []
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "lore_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "lore",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "DAILY LIFE Throughout human-occupied space the basics of",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 177,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:07Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_lore_p177_0316",
+    "entity_type": "lore",
+    "name_guess": "DAILY LIFE Throughout human-occupied space the basics of",
+    "breadcrumb_path": "Rules Compendium > Page 177 > lore > DAILY LIFE Throughout human-occupied space the basics of",
+    "page_refs": [
+      177
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "DAILY LIFE Throughout human-occupied space the basics of daily life remain the same On every world people get up in the morning; go t0 school work take personal or family time and usually spend less than five minutes contemplating their place in the larger scheme of things_ The details, however; can make all the difterence the technologically advanced core worlds of each Inner Sphere nation_ technology is taken for granted even if especially if_it vulnerable JumpShips HPG communica tions holovision_ barely understood computers all of these are easily ost and impossible to replace nard truth hidden beneath carefully crafted facade of superiority: For citizens of these worlds politics and military concerns arc more topics tor civil debate than for Iife-Or-death decisions."
+  }
+}

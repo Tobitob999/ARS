@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_1_mapping",
+    "tsr_inc_ad_and_d_2nd_edition_player_s_option_combat_and_tactics"
+  ],
+  "summary": "Abgeleiteter Phase-1-Chunk aus Kapitelmarkern fuer TSR Inc - AD&D 2nd Edition - Player's Option - Combat & Tactics.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - Player's Option - Combat & Tactics",
+    "source_file": "TSR Inc - AD&D 2nd Edition - Player's Option - Combat & Tactics.pdf",
+    "chapter_map_file": "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_player_s_option_combat_and_tactics_chapter_map.json",
+    "text": "Chapter 6: Money and Equipment. (first_seen_pdf_page=17)\nChapter 14: Time and Movement for (first_seen_pdf_page=30)\nChapter 14: Time and (first_seen_pdf_page=32)\nChapter 9: Com- (first_seen_pdf_page=32)\nChapter 9: Combat in the PHB and (first_seen_pdf_page=32)\nChapter 14: Time and Move- (first_seen_pdf_page=63)\nChapter 14: Time and Movement in the Player's Handbook. (first_seen_pdf_page=69)\nChapter 14: Time and Movement in the (first_seen_pdf_page=69)\nChapter 9: Combat under the optional rule Aerial Combat in the (first_seen_pdf_page=69)\nChapter 6: Money and Equipment in the (first_seen_pdf_page=149)"
+  },
+  "mechanics": {
+    "topic": "phase_1_skeleton_mapping",
+    "keywords": [
+      "add_2e",
+      "book_conversion",
+      "combat",
+      "economy",
+      "equipment",
+      "money",
+      "movement",
+      "time",
+      "tsr_inc_ad_and_d_2nd_edition_player_s_option_combat_and_tactics"
+    ],
+    "injection_priority": "permanent",
+    "mapped_skeleton_fields": [
+      "combat",
+      "economy",
+      "movement",
+      "time"
+    ],
+    "raw_text": "Chapter 6: Money and Equipment. (first_seen_pdf_page=17)\nChapter 14: Time and Movement for (first_seen_pdf_page=30)\nChapter 14: Time and (first_seen_pdf_page=32)\nChapter 9: Com- (first_seen_pdf_page=32)\nChapter 9: Combat in the PHB and (first_seen_pdf_page=32)\nChapter 14: Time and Move- (first_seen_pdf_page=63)\nChapter 14: Time and Movement in the Player's Handbook. (first_seen_pdf_page=69)\nChapter 14: Time and Movement in the (first_seen_pdf_page=69)\nChapter 9: Combat under the optional rule Aerial Combat in the (first_seen_pdf_page=69)\nChapter 6: Money and Equipment in the (first_seen_pdf_page=149)",
+    "derived_from": [
+      "detected_chapters",
+      "detected_appendices"
+    ]
+  }
+}

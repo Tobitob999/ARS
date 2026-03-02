@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "character has WIL of 6 then the base",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 17,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:41Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p017_0027",
+    "entity_type": "npcs",
+    "name_guess": "character has WIL of 6 then the base",
+    "breadcrumb_path": "Rules Compendium > Page 017 > npcs > character has WIL of 6 then the base",
+    "page_refs": [
+      17
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "TN"
+    ],
+    "excerpt": "character has WIL of 6 then the base TN of WIL Check for him would be (15 are used t0 represent the effects the conditions surrounding the action have on the TN: Action Modifiers Characters can take certain special actions that affect the target numbers of their actions_ such as taking extra time t0 be careful and thorough In addition other characters can lend hand t0 help with the action_ These actions are represented by the aptly named action modifiers two Attributes are used in the Check the base TN is 20 character with BOD of and STR minus both Attributes would have base TN of 10 for BOD/STR Check (20 101."
+  }
+}

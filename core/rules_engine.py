@@ -201,6 +201,79 @@ _VALID_SAVE_CATEGORIES = {
 # RulesEngine
 # ---------------------------------------------------------------------------
 
+# ---------------------------------------------------------------------------
+# Skill Aliases — maps common AI-generated wrong names to canonical skill names
+# ---------------------------------------------------------------------------
+
+SKILL_ALIASES: dict[str, dict[str, str]] = {
+    "shadowrun_6": {
+        # English / cross-system contamination → canonical German Shadowrun names
+        "Cracking": "Hacken",
+        "Cracken": "Hacken",
+        "Hacking": "Hacken",
+        "Computer": "Elektronik",
+        "Electronics": "Elektronik",
+        "Firearms": "Feuerwaffen",
+        "Shooting": "Feuerwaffen",
+        "Schiessen": "Feuerwaffen",
+        "Schusswaffen": "Feuerwaffen",
+        "Stealth": "Heimlichkeit",
+        "Schleichen": "Heimlichkeit",
+        "Perception": "Wahrnehmung",
+        "Close Combat": "Nahkampf",
+        "Melee": "Nahkampf",
+        "Sorcery": "Zaubern",
+        "Conjuring": "Beschwoeren",
+        "Persuasion": "Ueberreden",
+        "Athletics": "Athletik",
+        "Medicine": "Biotech",
+        "First Aid": "Biotech",
+        "Erste Hilfe": "Biotech",
+        # Cross-system contamination
+        "SAN": "",             # Shadowrun hat keine Sanity
+        "Geschichte": "",      # Cthulhu-Skill, gibt es nicht in Shadowrun
+        "Bibliotheksnutzung": "",  # Cthulhu-Skill
+        "Psychologie": "",     # Cthulhu-Skill
+    },
+    "add_2e": {
+        # Cross-system contamination → canonical AD&D names
+        "Geschichte": "",           # Cthulhu-Skill, gibt es nicht in AD&D
+        "Bibliotheksnutzung": "",   # Cthulhu-Skill
+        "Psychologie": "",          # Cthulhu-Skill
+        "Cthulhu Mythos": "",       # Cthulhu-only
+        "SAN": "",                  # AD&D hat keine Sanity
+        "Stealth": "Heimlichkeit",
+        "Perception": "Wahrnehmung",
+        "Persuasion": "Ueberreden",
+        "Hacken": "",               # Shadowrun-Skill
+        "Elektronik": "",           # Shadowrun-Skill
+        "Feuerwaffen": "",          # Shadowrun-Skill
+    },
+    "cthulhu_7e": {
+        # English → German canonical
+        "Spot Hidden": "Wahrnehmung",
+        "Library Use": "Bibliotheksnutzung",
+        "Listen": "Lauschen",
+        "Psychology": "Psychologie",
+        "First Aid": "Erste Hilfe",
+        "Stealth": "Heimlichkeit",
+        "Dodge": "Ausweichen",
+        # Cross-system contamination
+        "Hacken": "",               # Shadowrun-Skill
+        "Feuerwaffen": "",          # Shadowrun-Skill
+        "Elektronik": "",           # Shadowrun-Skill
+    },
+    "paranoia_2e": {
+        # Cross-system contamination
+        "Geschichte": "",
+        "Bibliotheksnutzung": "",
+        "SAN": "",
+        "Hacken": "",
+        "Feuerwaffen": "",
+    },
+}
+
+
 class RulesEngine:
     """
     Offline rules index with search and validation capabilities.
@@ -379,6 +452,34 @@ class RulesEngine:
             self._skill_names = set(skills.keys())
         return self._skill_names
 
+    def resolve_skill_alias(self, skill_name: str) -> tuple[str, bool]:
+        """Resolve a potentially wrong skill name via SKILL_ALIASES.
+
+        Returns (canonical_name, was_aliased).
+        If alias maps to empty string → skill is invalid for this system.
+        If no alias found → returns original name unchanged.
+        """
+        aliases = SKILL_ALIASES.get(self._module_name, {})
+        if skill_name in aliases:
+            canonical = aliases[skill_name]
+            if canonical:
+                logger.info("Skill-Alias aufgeloest: '%s' -> '%s'", skill_name, canonical)
+                return canonical, True
+            else:
+                logger.warning("Skill '%s' existiert nicht in %s (Cross-System Kontamination)",
+                               skill_name, self._module_name)
+                return skill_name, False
+        # Case-insensitive fallback
+        for alias_key, canonical in aliases.items():
+            if alias_key.lower() == skill_name.lower():
+                if canonical:
+                    logger.info("Skill-Alias aufgeloest (fuzzy): '%s' -> '%s'", skill_name, canonical)
+                    return canonical, True
+                else:
+                    logger.warning("Skill '%s' existiert nicht in %s", skill_name, self._module_name)
+                    return skill_name, False
+        return skill_name, False
+
     def get_stat_names(self) -> set[str]:
         if self._stat_names is None:
             ds = self._ruleset.get("derived_stats", {})
@@ -535,6 +636,11 @@ class RulesEngine:
         target_value: int,
         character_skills: dict[str, int] | None = None,
     ) -> ValidationResult:
+        # Alias resolution first
+        resolved, was_aliased = self.resolve_skill_alias(skill_name)
+        if was_aliased:
+            skill_name = resolved
+
         valid_skills = self.get_skill_names()
 
         # Fuzzy match: case-insensitive, substring

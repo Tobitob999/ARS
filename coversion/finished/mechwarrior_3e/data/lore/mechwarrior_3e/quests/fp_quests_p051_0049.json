@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "quests_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "quests",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "You will either prove your mettle Or show",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 51,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:56Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_quests_p051_0049",
+    "entity_type": "quests",
+    "name_guess": "You will either prove your mettle Or show",
+    "breadcrumb_path": "Rules Compendium > Page 051 > quests > You will either prove your mettle Or show",
+    "page_refs": [
+      51
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "You will either prove your mettle Or show yourself unworthy of the legacy of Kerensky It is all up to you: Tlme: years SkllIs: +2 t0 any three skills in Military Field_ choose one: Interest/Clan Remembrance +2, Academic Clan History +1 Tactics Any +1 Next Path: Tour of Duty: Clan (4), To Serve and Protect (4, freeborn warriors only) Tour of Duty: Inner Sphere Events While on an objective raid _ one your Own sells you out [Combat Paralysis; Quirk /Paranoia] Capturedl (Escape Artist +2, Scrounge +1 Survival add two years t0 the time this path takes and Tour of Duty: Clan Events dezgra ambush cuts you off from your unit; but you survived (+2 t0 any two skills in character' 50"
+  }
+}

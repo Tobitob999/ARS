@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "slmulacrum",
+  "name": "Slmulacrum",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Slmulacrum (Illtlsion/phmt.rm) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "seventh",
+    "book_pages": [
+      186
+    ],
+    "pdf_pages": [
+      187
+    ],
+    "raw_block": "Slmulacrum (Illtlsion/phmt.rm)\nRange: Touch\nComponents: V, S, M\nDuration: Permangt\nCasting Time: Special\nArea of Effect: 1 creature\nSaving Throw: None\nBy means of this spell, the wizard is able\nto create a duplicate of any creature. The\nduplicate appears to be exactly the same as\nthe original, but there are differences; the\nsimulacrum has only 51% to 60% (50% +\nIdlo%) of the hit points of the real creature,\nthere are personality differences, there are\nareas of knowledge that the duplicate does\nnot have, and a detect magic spell will\ninstantly reveal it as a simulacrum, as wiil a\ntrue seeing spell. At all times the simula-\ncrum remains under the absolute command\nof the wizard who created it. No special tele-\npathic link exists, so command must be\nexercised in some other manner. The spell\ncreates the form of the creature, but it is\nonly a zombie-like creation. A reincarna-\ntion spell must be used to give the duplicate\na vital force, and a limited wish spell must\nbe used to empower the duplicate with 40%\nto 65% (35% + 5 to 30%) of the knowledge\nand personality of the original. The level, if\nany, of the simulacrum is from 20% to 50%\nof that of the original creature.\nThe duplicate creature is formed from ice\nor snow. The spell is cast over the rough\nform ahd some piece of the creature to be\nduplicated must be placed inside the snow\nor ice. Additionally, the spell requires pow-\ndered ruby.\nThe simulacrum has no ability to become\nmorepowerful: it cannot increase its level or\nabilities. If destroyed, it reverts to snow and\nmelts into nothingness. Damage to the simula-\naum can be repaid by a complex process\nreguiringat least one day, lOOgp per hit point,\nand a fully equipped laboratory.\nE\n186"
+  },
+  "mechanics": {
+    "school_or_type": "Illtlsion/phmt.rm",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Slmulacrum",
+      "canonical_name_guess": null,
+      "school_or_type": "Illtlsion/phmt.rm",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "Permangt",
+      "casting_time": "Special",
+      "area_of_effect": "1 creature",
+      "saving_throw": "None",
+      "description_excerpt": "By means of this spell, the wizard is able to create a duplicate of any creature. The duplicate appears to be exactly the same as the original, but there are differences; the simulacrum has only 51% to 60% (50% + Idlo%) of the hit points of the real creature, there are personality differences, there are areas of knowledge that the duplicate does not have, and a detect magic spell will instantly reveal it as a simulacrum, as wiil a true seeing spell. At all times the simula- crum remains under the absolute command of the wizard who created it. No special tele- pathic link exists, so command must be exercised in some other manner. The spell creates the form of the creature, but it is only a zombie-like creation. A reincarna- tion spell must be used to give the duplicate a vital force, and a limited wish spell must be used to empower the duplicate with 40% to 65% (35% + 5 to 30%) of the kno"
+    },
+    "quality_flags": []
+  }
+}

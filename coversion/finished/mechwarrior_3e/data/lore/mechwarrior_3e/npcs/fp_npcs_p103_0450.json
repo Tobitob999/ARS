@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Block (Defense): Your opponent\" damage is divided in",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 103,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:26Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p103_0450",
+    "entity_type": "npcs",
+    "name_guess": "Block (Defense): Your opponent\" damage is divided in",
+    "breadcrumb_path": "Rules Compendium > Page 103 > npcs > Block (Defense): Your opponent\" damage is divided in",
+    "page_refs": [
+      103
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "3 M"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [
+      "damage"
+    ],
+    "excerpt": "Block (Defense): Your opponent\" damage is divided in half (round down) but you cannot inflict damage this round. Precision Hit (Attack): character must have +2 Skili Bonus or better in Karate to use this maneuver. When making an aimed shot at specific location, the target number receives 3 Modifier."
+  }
+}

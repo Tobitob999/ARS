@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "TRAITS Vehicle ABBIONMENT TABLE 1_INNER SPHERE 'MECHS Llght",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 91,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:22Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p091_0307",
+    "entity_type": "history",
+    "name_guess": "TRAITS Vehicle ABBIONMENT TABLE 1_INNER SPHERE 'MECHS Llght",
+    "breadcrumb_path": "Rules Compendium > Page 091 > history > TRAITS Vehicle ABBIONMENT TABLE 1_INNER SPHERE 'MECHS Llght",
+    "page_refs": [
+      91
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [
+      "100 tons",
+      "35 tons",
+      "55 tons",
+      "75 tons"
+    ],
+    "range_mentions": [
+      "0 M",
+      "1M",
+      "3M",
+      "5M",
+      "7M",
+      "9M"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "TRAITS Vehicle ABBIONMENT TABLE 1_INNER SPHERE 'MECHS Llght 'Mechs (20-35 tons) 206 Draconls Comblne Capellan Confederatlon Free Worlds League HM-1 Hitman [30] JA KL-1532 Jackal [30] ZPH-1A Tarantula (25]\" JR7-D Jenner [35] 09 G9 Duan Gung [25] EGL1M Eagle [25] OW-1 Owens (35] RVN-3L Raven [35] JA-KL-1532 Jackal [30] PNT-1OK Panther [35] UMR63 UrbanMech [30] HER-3S Hermes [30] RTX1-0 Raptor [25] FS9 S Firestarter [35] SDR-7M Spider [30] RTX1-0 Raptor [25] RVN-3L Raven [35] HMR-3M Hammer [30] KBO- TA Kabuto [25] SDR-Sv Spider [30] HMR-3M Hammer (30] JR7-K Jenner (35] UMR63 UrbanMech [30] JR7-D Jenner [35] SDR-7M Spider [30] ZPH-1A Tarantula (25]\" EGL ZM Eagle [25] SDR-9K Venom [35] JVN-ION Javelin [30] FNHK 9K Falcon Hawk [35] PNT C Panther [35] UM-RGO UrbanMech [30] ZPH-1A Tarantula [25]* Medlum Mechs (40-55 tons) 206 Draconis Comblne Capellan Confederatlon Free Worlds League KTO C Kintaro [55] MS1 0 Men Shen [55] FS9 0 Firestarter [45] WFT-1 Wolt Trop [45] SNK-IV Snake [45] APL 25 Apollo (55] DMO-1K Daimyo [40] HUR-WO R4L Huron Warrior [50] CDA 3M Cicada [40] SR1-0 Strider [40] VND-3L Vindicator [45] HER-2S Hermes [40] BJ2 0 Blackjack [50] DV-7D Dervish [55] TBT-7M Trebuchet (50] FS9 0 Firestarter [45] VND- 3L Vindicator [45] HER-5S Hermes [40] SR1-0 Strider [40] BJ 2 Blackjack [45] HBK-SM Hunchback [50] KIM 2 Komodo [45] CLNT 2-3U Clint [40] APL-IR Apollo [55] BSN-3K Bishamon [45] * SNK-1V Snake (45] BCN-3R Buccaneer (55] BSN-4K Bishamon [50]* HUR-WO RAL Huron Warrior [50| TRI Wraith [55] LNX-9C Lynx [55] MS1-0 Men Shen [55] 8J2-0 Blackjack (50] Heavy 'Mechs (60-75 tons) 206 Draconis Combine DGR-3F Dragon Fire [75] AV1-0 Avatar [70] SJA-7C Shugenja (75] BHKU 0 Black Hawk KU [60] DAI 01 Daikyu (701 DRG 5K Grand Dragon [60] QKD 5K Quickdraw [60] CPLT K2 Catapult [65] MTR-SK Maclstrom [75] SJA-7C Shugenja [75] NDA-1K No Dachi [70] Capellan Confederation THR-1L Thunder (70] ONI K Orion [75] JN GBA Jinggau [65] TSG 9H Ti Ts\" ang 651 CPLT -C3 Catapult 65] CTF-3L Cataphract (70] GHR 5J Grasshopper [70] JN GBA Jinggau [65] ANV 3M Anvil [60] GHR SH Grasshopper [70] WR-DG 02FC War Dog [75] Free Worlds League ANV-SQ Anvil [60] WR- DG 02FC War Dog [75] YMN 6Y Yeoman [60] TMP 3M Tempest [65] ONI M Orion [75] ONI-M Orion [75] CPLT-C1 Catapult [65] GLT-SM Guillotine [70] YMN-GY Yeoman (60] HRCLS-90OO Hercules (70] P1 Perseus [75] Assault 'Mechs (80-100 tons) 206 Draconis Combine OBK M1O Bakemono (80] NG C34 Naginata [95] TSH-7S Tai-sho [85] SD1-0 Sunder [90] AS7-C Atlas (100] HTM27T Hatamoto chi 80] MAL-IR Mauler [90] CRK 5003-2 Katana [85] CGR-3K Charger [80] Capellan Confederation STC-20 Striker [80] AWS-9M Awesome [80] MR-V2 Cerberus [95] AS7 K Atlas [100| Y-HIOG Yu Huang (90] STK 3F Stalker [85] Y-HIG Yu Huang (90] AS7- K Atlas [100| AWS 8Q Awesomc [80] Free Worlds League ALB-3U Albatross [951 CGR-IAI Charger [80] T-ITNIOM Grand Titan [100] STK S5M Stalker [85] 4S7-D Atlas (100] AWS 9M Awesomc [80] MRV2 Cerberus [95] SRC 5C Sirocco [95]\" MR-V2 Cerberus [95] 90"
+  }
+}

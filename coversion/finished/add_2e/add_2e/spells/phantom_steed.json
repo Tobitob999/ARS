@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.2.1",
+  "id": "phantom_steed",
+  "name": "Phantom Steed",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Phantom Steed (Conjuration, Phantasm) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "third",
+    "book_pages": [
+      152,
+      153
+    ],
+    "pdf_pages": [
+      153,
+      154
+    ],
+    "raw_block": "Phantom Steed (Conjuration, Phantasm)\nRange: Touch\nComponents: V, S\nDuration: 1 hour/level\nCasting Time: 1 turn\nArea of Effect: Special\nSaving Throw: None\nWhen this spell is cast, the wizard creates\na quasi-real, horse-like creature. The steed\ncan be ridden only by the wizard who cre-\nated it, or by any person for whom the wiz-\nard specifically creates such a mount. A\nphantom steed has a black head and body,\ngray mane and tail, and smoke-colored, in-\nsubstantial hooves that make no sound. Its\neyes are milky-colored. It does not fight,\nbut all normal animals shun it and only\nmonstrous ones will attack. The mount has\nan Armor Class of 2 and 7 hit points, plus 1\nper level of the caster. If it loses all of its hit\npoints, the phantom steed disappears. A\nphantom steed moves at a movement rate of\n4 per level of the spellcaster, to a maximum\nmovement rate of 48. It has what seems to\nbe a saddle and a bit and bridle. It can bear\nits rider's weight, plus up to 10 pounds per\ncaster level.\nThese mounts gain certain powers ac-\ncording to the level of the wizard who cre-\nated them:\n8th Level: The ability to pass over sandy,\nmuddy, or even swampy ground without\ndifficulty.\n10th Level: The ability to pass over water\nas if it were firm, dry ground.\n12th Level: The ability to travel in the air\nas if it were firm land, so chasms and the like\ncan be crossed without benefit of a bridge.\nNote, however, that the mount cannot casu-\nally take off and fly; the movement must be\nbetween points of similar altitude.\n14th Level: The ability to perform as if it\nwere a pegasus; it flies at a rate of 48 per\nround upon command.\nNote that a mount's abilities include those\nof lower levels; thus a 12th-level mount has\nthe 8th-, loth-, and 12th-level abilities."
+  },
+  "mechanics": {
+    "school_or_type": "Conjuration, Phantasm",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Phantom Steed",
+      "canonical_name_guess": null,
+      "school_or_type": "Conjuration, Phantasm",
+      "range": "Touch",
+      "components": "V, S",
+      "duration": "1 hour/level",
+      "casting_time": "1 turn",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "When this spell is cast, the wizard creates a quasi-real, horse-like creature. The steed can be ridden only by the wizard who cre- ated it, or by any person for whom the wiz- ard specifically creates such a mount. A phantom steed has a black head and body, gray mane and tail, and smoke-colored, in- substantial hooves that make no sound. Its eyes are milky-colored. It does not fight, but all normal animals shun it and only monstrous ones will attack. The mount has an Armor Class of 2 and 7 hit points, plus 1 per level of the caster. If it loses all of its hit points, the phantom steed disappears. A phantom steed moves at a movement rate of 4 per level of the spellcaster, to a maximum movement rate of 48. It has what seems to be a saddle and a bit and bridle. It can bear its rider's weight, plus up to 10 pounds per caster level. These mounts gain certain powers ac- cording to the level of "
+    },
+    "quality_flags": [
+      "trimmed_merged_block"
+    ]
+  }
+}

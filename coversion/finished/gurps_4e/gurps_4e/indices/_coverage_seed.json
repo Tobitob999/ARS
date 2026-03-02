@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "indices_autofill_seed",
+  "tags": [
+    "gurps_4e",
+    "indices",
+    "conversion_autopilot",
+    "autofill_seed"
+  ],
+  "summary": "Automatisch erzeugter Nachweis fuer Vollstaendigkeit im Conversion-Autopilot.",
+  "source_text": {
+    "generated_at": "2026-03-02T15:09:30Z",
+    "generator": "coversion/enforce_full_depth.py",
+    "coverage_fields": [
+      "extensions"
+    ]
+  },
+  "mechanics": {
+    "status": "autofill_seed",
+    "reason": "Kein direkter Extrakt in diesem Ordner gefunden; Seed aus Coverage erstellt.",
+    "evidence": [
+      {
+        "field": "extensions",
+        "source_file": "GURPS - 4th Edition - Basic Set.pdf",
+        "page_refs": [
+          6,
+          35,
+          177,
+          332,
+          421,
+          490,
+          492,
+          493
+        ],
+        "excerpt": "[PDF_PAGE 493 | score=14] and agree with this principle, and to cooperate in telling the story. GURPS includes some rules that can help – but everyone must realize that an epic story is apt to transcend the rules. Cinematic Power Level It is possible to run a cinematic game at any power level. Cinematic games are frequently high-powered games – and vice versa – but “cine- matic” is a style, not a point level. Crack commandos in a grimly realis- tic campaign might have huge point totals, while many of Robin Hood’s Merry Men would come in under 100 points yet be quite at home in a cine- matic campaign. Still, cinematic heroes should be markedly more capable than ordinary people . . . and perhaps even more tal- ented th\n[PDF_PAGE 421 | score=8] SPECIAL COMBAT SITUATIONS 417 The following rules are shameless- ly unrealistic and strictly optional, but can be fun in larger-than-life games! Bul"
+      }
+    ]
+  }
+}

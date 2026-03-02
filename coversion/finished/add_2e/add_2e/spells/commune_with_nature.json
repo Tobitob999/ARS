@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "commune_with_nature",
+  "name": "Commune With Nature",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Commune With Nature (Divination) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "fourth",
+    "book_pages": [
+      222
+    ],
+    "pdf_pages": [
+      223
+    ],
+    "raw_block": "Commune With Nature (Divination)\nSphere: Divination\nRange: 0\nComponents: V, S\nDuration: Special\nCasting Time: 1 turn\nArea of Effect: Special\nSaving Throw: None\nThis spell enables the caster to become\none with nature in the area, thus being em-\npowered with knowledge of the surround-\ning temtory. For each level of experience of\nthe caster, he can \"know\" one fact: the\nground ahead, left or right; the plants\nahead, left or right; the minerals ahead, left\nor right; the water courses/bodies of water\nahead, left or right; the people dwelling\nahead, left or right; the general animal pop\nulation, left or right; the presence of wood-\nland creatures, left or right; etc. The\n1\npresence of powerful unnatural creatures\ncan also be detected, as can the general state\nof the naturil setting. The spell is most ef-\nfective in outdoor settings, operating in a\nradius of onehalf mile for each level of the\ncaster. In natural underground settings-\ncaves, caverns, etc.-the range is limited to\n10 yards per caster level. In constructed set-\ntings (dungeons and towns), the spell will\nnot function. The DM may limit the casting\nof this spell to once per month."
+  },
+  "mechanics": {
+    "school_or_type": "Divination",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Commune With Nature",
+      "canonical_name_guess": null,
+      "school_or_type": "Divination",
+      "range": "0",
+      "components": "V, S",
+      "duration": "Special",
+      "casting_time": "1 turn",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "This spell enables the caster to become one with nature in the area, thus being em- powered with knowledge of the surround- ing temtory. For each level of experience of the caster, he can \"know\" one fact: the ground ahead, left or right; the plants ahead, left or right; the minerals ahead, left or right; the water courses/bodies of water ahead, left or right; the people dwelling ahead, left or right; the general animal pop ulation, left or right; the presence of wood- land creatures, left or right; etc. The 1 presence of powerful unnatural creatures can also be detected, as can the general state of the naturil setting. The spell is most ef- fective in outdoor settings, operating in a radius of onehalf mile for each level of the caster. In natural underground settings- caves, caverns, etc.-the range is limited to 10 yards per caster level. In constructed set- tings (dungeons and towns), t"
+    },
+    "quality_flags": []
+  }
+}

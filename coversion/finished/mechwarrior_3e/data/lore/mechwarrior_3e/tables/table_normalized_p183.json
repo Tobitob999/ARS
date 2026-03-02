@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "category": "table_snippet_normalized",
+  "tags": [
+    "mechwarrior_3e",
+    "table",
+    "normalized",
+    "header_replicated"
+  ],
+  "summary": "Tabellen-Teilsnippet Seite 183 mit repliziertem Header.",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "generated_at": "2026-03-02T18:24:29Z",
+    "page": 183
+  },
+  "mechanics": {
+    "table_id": "equipment_power_pack_recharger",
+    "header": "EQUIPMENT POWER PACK RECHARGER TABLE",
+    "header_replicated": true,
+    "page_ref": 183,
+    "rows_excerpt": "SOCIETY AND CULTURL pr HpB, canIeaaty HEB ny Ma In hur transport impor orden upto Follou publc Kivent 0f tha HPG , people relled on & pony syotams; which olten took months O even HPG nnsmissbns could rellably reach the remotest regkons 0f know space In a fraction thzt tme, enabling povernments to Cry out operatlons efficlantly and ordlnary people to communien triends and relatives on far-distant worlds. Immediately after the first successtul test of the technology; the Star Leaqua began t0 build HPG stations on planets across know space: ComStar still operates most of the functioning HPGs, almost all ot which trace their origins to Star League tmes. ComStar inherited the HPG network following the fall of the Star League; It held monopoly on interstellar communicatlons for almost two Fand = half centuries, until the events of recent years sundered the organization. The Word ot Blake, ComStars rival splinter group , currently controls sizable portion of the HPG network The HPG network consists ol transmitreceive stations on most inhabited worlds. Stations receive \"A or \"B status; based malnly upon the size Of world's population: Class stations are the network $ main hubs, while Class stations form the nodes. Each station transmits all the messages has been paid send to all other stations within its range. Those stations then add their own messages to the batch and pass them on to the next stations Iine, and so on, until the messages reach their final destination. Though sending hundreds and thousands of copies of the same message around the galaxy may appear inefficient, ensures that messages reach their destinations as swiftly as poS- sible. To avoid confusion, each station automatically deletes messages that have ready passed through its system: Each station normally transmits on set schedule_ Messages are processed serially and placed in queue until they can be transmitted. Class stations transmit the most often, usually once every six hours. Class stations transmit far less frequently: During Star League times_ they transmitted once every twelve hours; today most stations average transmissions only once every few days. The actual schedule depends Mainly on the",
+    "_ref": []
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2.0",
+  "id": "table_30",
+  "name": "Table 30: BACKSTAB DAMAGE MULTIPLIERS",
+  "category": "table",
+  "tags": [
+    "add_2e",
+    "table",
+    "player_handbook",
+    "toc_normalized"
+  ],
+  "summary": "PHB Table 30 (BACKSTAB DAMAGE MULTIPLIERS).",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "table_number": 30,
+    "title": "BACKSTAB DAMAGE MULTIPLIERS",
+    "book_page": 40,
+    "pdf_page": 41,
+    "raw_page_token": "40"
+  },
+  "mechanics": {
+    "source": "toc_parse_v3",
+    "confidence": "medium"
+  }
+}

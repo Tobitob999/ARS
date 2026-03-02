@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "i1_wizard_spells",
+  "name": "I1 Wizard Spells",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "I1 Wizard Spells (3rd Level) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "third",
+    "book_pages": [
+      150
+    ],
+    "pdf_pages": [
+      151
+    ],
+    "raw_block": "I1 Wizard Spells (3rd Level)\nthe recipient by one year, because of sped-\nup metabolic processes. This spell is not cu-\nmulative with itself or with other similar\nmagic.\nIts material component is a shaving of lic-\norice root."
+  },
+  "mechanics": {
+    "school_or_type": "3rd Level",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "I1 Wizard Spells",
+      "canonical_name_guess": null,
+      "school_or_type": "3rd Level",
+      "range": null,
+      "components": null,
+      "duration": null,
+      "casting_time": null,
+      "area_of_effect": null,
+      "saving_throw": null,
+      "description_excerpt": "the recipient by one year, because of sped- up metabolic processes. This spell is not cu- mulative with itself or with other similar magic. Its material component is a shaving of lic- orice root."
+    },
+    "quality_flags": [
+      "missing_standard_fields"
+    ]
+  }
+}

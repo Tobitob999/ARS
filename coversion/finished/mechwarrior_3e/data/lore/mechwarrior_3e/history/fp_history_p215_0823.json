@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "150 JumpShip, 159_ 186-87 , 196-97 JumpShip Pilot",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 215,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:29Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p215_0823",
+    "entity_type": "history",
+    "name_guess": "150 JumpShip, 159_ 186-87 , 196-97 JumpShip Pilot",
+    "breadcrumb_path": "Rules Compendium > Page 215 > history > 150 JumpShip, 159_ 186-87 , 196-97 JumpShip Pilot",
+    "page_refs": [
+      215
+    ],
+    "_ref": [],
+    "cost_mentions": [
+      "163.164 Ke",
+      "164 Ke"
+    ],
+    "weight_mentions": [],
+    "range_mentions": [
+      "141 m",
+      "167 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "150 JumpShip, 159_ 186-87 , 196-97 JumpShip Pilot Field, 45_ Jump suit, 141 makeud 167 media, 183 profile religion 185 Star League and 160 Succession Wars. 161 titles /nobility; 171-72 Fipedomn 189-90 Freeborn sioko, 37 Fugitives Fumbles. 15 Karate , 102 Karmic backlash; Kell, Phelan 161, 164 Kell Hounds_ 161_ 163.164 Kentares Massacie Kerensky Aleksandr; 31."
+  }
+}

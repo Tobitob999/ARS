@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "CLAN INVASION In March of 3050,the Clans struck",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 163,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:58Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p163_0382",
+    "entity_type": "items",
+    "name_guess": "CLAN INVASION In March of 3050,the Clans struck",
+    "breadcrumb_path": "Rules Compendium > Page 163 > items > CLAN INVASION In March of 3050,the Clans struck",
+    "page_refs": [
+      163
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [
+      "3050"
+    ],
+    "stat_tokens": [],
+    "excerpt": "CLAN INVASION In March of 3050,the Clans struck in force hammering the Draconis Combine, the Free Rasalhague Republic and the Lyran side of the Federated Commonwealth Wave after wave of Clan attacks followed, executed with blinding speed and ruthless efficiency: Using their technologically superior OmniMechs ad tenacious armored infantry; known as Elementals Clan warriors cut down their Inner Sphere opponents like wheat before scythe. Four Clans rolled across the Inner Sphere the first wave: Smoke Jaguar, Ghost Bear, Jade Falcon ad Wolf."
+  }
+}

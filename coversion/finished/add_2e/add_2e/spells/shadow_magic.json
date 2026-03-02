@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "shadow_magic",
+  "name": "Shadow Magic",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Shadow Magic (Illusion/Phantasm) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      171
+    ],
+    "pdf_pages": [
+      172
+    ],
+    "raw_block": "Shadow Magic (Illusion/Phantasm)\nRange: 50 yards + 10 yards/level\nComponents: V, S\nDuration: Special\nCasting Time: 5\nArea of Effect: Special\nSaving Throw: Special\nThe shadow magic spell enables the wiz-\nard to tap energy from the Shadow plane to\ncast a quasi-real wizard evocation spell of\n3rd level or less. For example, this spell can\nbe magic missile, fireball, lightning bolt, or\nso on, and has normal effects upon crea-\ntures in the area of effect if they fail their\nsaving throws vs. spell. Thus a creature fail-\ning to save against a shadow magic fireball\nmust roll another saving throw, suffering\nhalf of the normal fireball damage if suc-\ncessful and full normal fireball damage if the\nsaving throw is failed. If the first saving\nthrow was successful, the shadow magic\nnature is detected and only 20% of the\nrolled damage is received (rounding down\nbelow fractions below .4 and rounding up\nI\nfractions of .4 and above)."
+  },
+  "mechanics": {
+    "school_or_type": "Illusion/Phantasm",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Shadow Magic",
+      "canonical_name_guess": null,
+      "school_or_type": "Illusion/Phantasm",
+      "range": "50 yards + 10 yards/level",
+      "components": "V, S",
+      "duration": "Special",
+      "casting_time": "5",
+      "area_of_effect": "Special",
+      "saving_throw": "Special",
+      "description_excerpt": "The shadow magic spell enables the wiz- ard to tap energy from the Shadow plane to cast a quasi-real wizard evocation spell of 3rd level or less. For example, this spell can be magic missile, fireball, lightning bolt, or so on, and has normal effects upon crea- tures in the area of effect if they fail their saving throws vs. spell. Thus a creature fail- ing to save against a shadow magic fireball must roll another saving throw, suffering half of the normal fireball damage if suc- cessful and full normal fireball damage if the saving throw is failed. If the first saving throw was successful, the shadow magic nature is detected and only 20% of the rolled damage is received (rounding down below fractions below .4 and rounding up I fractions of .4 and above)."
+    },
+    "quality_flags": []
+  }
+}

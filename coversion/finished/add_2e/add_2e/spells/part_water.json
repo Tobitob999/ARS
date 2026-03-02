@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.2.1",
+  "id": "part_water",
+  "name": "Part Water",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Part Water (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "sixth",
+    "book_pages": [
+      180,
+      181
+    ],
+    "pdf_pages": [
+      181,
+      182
+    ],
+    "raw_block": "Part Water (Alteration)\nRange: 10 yards/level\nComponents: V, S, M\nDuration: 5 rounds/level\nCasting Time: 1 turn\nArea of Effect: Special\nSaving Throw: None\nBy employing a part water spell, the wiz-\nard is able to cause water or similar liquid to\nmove apart, thus forming a 20-foot-wide\ntrough. The depth and length of the trough\nare dependent upon the level of the wizard,\nand a trough three feet deep by 10 yards\nlong is created per level. For example, at\n12th level the wizard would part water 36\nfeet deep by 20 feet wide by 120 yards long.\nThe trough remains as long as the spell lasts\nor until the wizard who cast it opts to end its\neffects. If cast underwater, this spell creates\nan air cylinder of appropriate length and\ndiameter. If cast directly on a water elemen-\ntal or other water-based creature, the crea-\nture receives 4d8 damage and must roll a\nsuccessful saving throw vs. spell or flee in\npanic for 3d4 rounds.\nThe material components for the spell are\ntwo small sheets of crystal or glass.\nPermanent Illusion @lusion/Phantasm)\nRange: 10 yards/level\n.Components: V, S, M\nDuration: Permanent\nCasting Time: 6\nArea of Effect: 20’ cube + 10’ cube/level\nSaving Throw: Special\nWhen this spell is cast, the wizard creates\nan illusion with visual, auditory, olfactory,\nand thermal elements. The spell can create\nthe illusion of any object, creature, or force,\nas long as it is within the boundaries of the\nspell’s area of effect. It affects all creatures\nthat view the illusion, even to the extent of\nthem suffering damage from falling into an\nillusory pit full of sharp spikes.\nCreatures that attempt to disbelieve the\nillusion gain a saving throw vs. spell and, if\nsuccessful, they see it for what it is and add\n+4 bonuses to associates’ saving throws, if\nthis knowledge can be communicated effec-\ntively. Creatures not sensing the spell effect\nare immune until they become aware of it.\nThe permanent illusion is subject to a dispel\nmagic spell, of course.\nThe material component of the spell is a\nbit of fleece."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Part Water",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "10 yards/level",
+      "components": "V, S, M",
+      "duration": "5 rounds/level",
+      "casting_time": "1 turn",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "When this spell is cast, the wizard creates an illusion with visual, auditory, olfactory, and thermal elements. The spell can create the illusion of any object, creature, or force, as long as it is within the boundaries of the spell’s area of effect. It affects all creatures that view the illusion, even to the extent of them suffering damage from falling into an illusory pit full of sharp spikes. Creatures that attempt to disbelieve the illusion gain a saving throw vs. spell and, if successful, they see it for what it is and add +4 bonuses to associates’ saving throws, if this knowledge can be communicated effec- tively. Creatures not sensing the spell effect are immune until they become aware of it. The permanent illusion is subject to a dispel magic spell, of course. The material component of the spell is a bit of fleece."
+    },
+    "quality_flags": [
+      "trimmed_merged_block"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_page",
+  "tags": [
+    "gurps_4e",
+    "fulltext",
+    "pdf_page"
+  ],
+  "summary": "PDF-Seite 422 aus GURPS - 4th Edition - Basic Set.pdf.",
+  "source_text": {
+    "book": "GURPS - 4th Edition - Basic Set",
+    "pdf_page": 422,
+    "text": "The life of an adventurer is not all song and glory. You get tired. You\nget your clothes dirty. You might actually get hurt – or even worse,\nkilled!\nFortunately, all these problems can be cured. Even death.\nRead on . . .\nINJURIES\nWounds and ailments cause “injury”: a (usually) tempo-\nrary loss of Hit Points. Thus, your HP score measures your\nability to sustain injury; seeHit Points (p. 16).\nInjury often results from “penetrating damage”: the\ndamage left after Damage Resistance is subtracted from\nthe basic damage of an attack. However, disease, overex-\nertion, and the like can cause injurywithout damage.\nIf any injury reduces you to 0 or fewer HP, you will soon fall\nunconscious. You can even go tonegative HP . . . but if you go\ntoo far, you risk death. For the average man, the difference\nbetween full HP and negative HP is one or two sword\nblows or bullets. This is realistic . . . and dramatic.\nEven in cinematic battles, heroes rarely shrug off\ndozens of blows. Instead, they avoid being hit.\nArmor helps . . . but fights can be deadly, so think\nbefore you act!\nThe life of an adventurer is not\nall song and glory. You get tired.\nYou get your clothes dirty. You\nmight actually get hurt – or even\nworse, killed! Fortunately, all \nthese problems can be cured. \nEven death.\n418 I NJURIES, ILLNESS, AND FATIGUE\nCHAPTER FOURTEEN\nINJURIES,\nILLNESS, AND\nFATIGUE"
+  },
+  "mechanics": {
+    "conversion": "fulltext_page_dump",
+    "generated_at": "2026-03-02T15:00:00"
+  }
+}

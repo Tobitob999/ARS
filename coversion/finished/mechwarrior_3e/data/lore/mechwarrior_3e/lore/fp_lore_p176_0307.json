@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "lore_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "lore",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "This technological resurgence breathed new life into the",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 176,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:06Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_lore_p176_0307",
+    "entity_type": "lore",
+    "name_guess": "This technological resurgence breathed new life into the",
+    "breadcrumb_path": "Rules Compendium > Page 176 > lore > This technological resurgence breathed new life into the",
+    "page_refs": [
+      176
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "This technological resurgence breathed new life into the shat: tered economies of the Successor States, which stimulated fur- ther research and development programs_ The dark ages were slowly fading as institutions Iike the NAIS almost daily announced the development of another new vaccine Or device Or technique tor building something lighter and stronger. By 3050_ the Inner Sphere had unlocked most of the technological secrets ost aiter the fall the Star League (though many 0f these technologies were still in their prototype stages and years away from practica everyday use)."
+  }
+}

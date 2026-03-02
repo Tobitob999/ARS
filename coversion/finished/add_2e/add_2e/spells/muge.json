@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "muge",
+  "name": "Muge",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Muge (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": null,
+    "book_pages": [
+      133,
+      134
+    ],
+    "pdf_pages": [
+      134,
+      135
+    ],
+    "raw_block": "Muge (Alteration)\nReversible\nRange: 5 yarddlevel\nComponents: V, S, M\nDuration: 5 rounds/level\nCasting Time: 1\nArea of Effect: 1 creature or object\nSaving Throw: Neg.\nThis spell causes instant growth of a crea-\nture or object, increasing both size and\nweight. It can be cast only upon a slngle\ncreature (or a symbiotic or community enti-\nty) or upon a single object that does not\nexceed ten cubic feet in volume per caster\nlevel. The object or creature must be seen to\nbe affected. It grows by up to 10% per level\nof experience of the wizard, increasing this\namount in height, width, and weight.\nAll equipment worn or carried by a crea-\nture is enlarged by the spell. Unwilling vic-\ntims are entitled to a saving throw vs. spell.\nA successful saving throw means the spell\nfails. If insufficient room is available for the\ndesired growth, the creature or object\nattains the maximum possible size, bursting\nweak enclosures in the process, but it is con-\nstrained without harm by stronger\nmaterials-the spell cannot be used to crush\na creature by growth.\nMagical properties are not increased by\nthis spell-a huge sword + 1 is still only + 1,\na staff-sized wand is still only capable of its\nnormal functions, a giant-sized potion\nmerely requires a greater fluid intake to\nmake its magical effects operate, etc.\nWeight, mass, and strength are affected,\nthough. Thus, a table blocking a door\nwould be heavier and more effective, a\nhurled stone would have more mass (and\ncause more damage), chains would be more\nmassive, doors thicker, a thin line turned to\na sizeable, longer rope, and so on. A crea-\nture's hit points, Armor Class, and attack\nrolls do not change, but damage rolls\nincrease proportionately with size. For\nexample, a fighter at 160% normal size hits\nwith his long sword and rolls a 6 for dam-\nage. The adjusted damage roll is 10 (that is,\n6 x 1.6 9.6, rounded up). Bonuses due to\nStrength; class, and magic are not altered.\nThe reverse spell, reduce, negates the\nenlarge spell or makes creatures or objects\nsmaller. The creature or object loses 10% of\nits original size for every level of the caster,\nto a minimum of 10% of the original size.\nThereafter, the size shrinks by one-foot\nincrements to less than one foot, by one-\ninch increments to one inch, and by ~10-\ninch increments to a minimum of 1/10 of an\ninch-the recipient cannot dwindle away to\nnothingness. For example, a 16-foot-tall\ngiant reduced by a 15th-level wizard (15\nsteps) would be reduced to 1.6 feet (in nine\nsteps), then to 6/10 of a foot or 7.2 inches (in\none step), and finally to 2.2 inches (in the\n133\nlast five steps). A shrinking object mal\ndamage weaker materials affixed to it, bui\nan object will shrink only as long as the ob.\nject itself is not damaged. Unwilling crea-\ntures are allowed a saving throw vs. spell.\nThe material component of this spell is a\npinch of powdered iron."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Muge",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "5 yarddlevel",
+      "components": "V, S, M",
+      "duration": "5 rounds/level",
+      "casting_time": "1",
+      "area_of_effect": "1 creature or object",
+      "saving_throw": "Neg.",
+      "description_excerpt": "This spell causes instant growth of a crea- ture or object, increasing both size and weight. It can be cast only upon a slngle creature (or a symbiotic or community enti- ty) or upon a single object that does not exceed ten cubic feet in volume per caster level. The object or creature must be seen to be affected. It grows by up to 10% per level of experience of the wizard, increasing this amount in height, width, and weight. All equipment worn or carried by a crea- ture is enlarged by the spell. Unwilling vic- tims are entitled to a saving throw vs. spell. A successful saving throw means the spell fails. If insufficient room is available for the desired growth, the creature or object attains the maximum possible size, bursting weak enclosures in the process, but it is con- strained without harm by stronger materials-the spell cannot be used to crush a creature by growth. Magical properti"
+    },
+    "quality_flags": []
+  }
+}

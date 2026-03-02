@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "category": "lore_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "lore",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "In Iate 2780 the power-hungry Council Lords stripped",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 161,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:57Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_lore_p161_0219",
+    "entity_type": "lore",
+    "name_guess": "In Iate 2780 the power-hungry Council Lords stripped",
+    "breadcrumb_path": "Rules Compendium > Page 161 > lore > In Iate 2780 the power-hungry Council Lords stripped",
+    "page_refs": [
+      161
+    ],
+    "_ref": [],
+    "cost_mentions": [
+      "2784 Ke"
+    ],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [
+      "2780",
+      "2781",
+      "2784"
+    ],
+    "stat_tokens": [],
+    "excerpt": "In Iate 2780 the power-hungry Council Lords stripped Kerensky of his title as Protector of the Realm and ordered him to disperse all SLDF units to their peacetime locations_ Bereft ol centra leadership the member states of the Star League vied with one another for control of the League Unable t0 agree on which of them snould become the Jet First Lord the ords officially dissolved the High Council in August of 2781, left Terra and began build their power bases When the various lords attempted to persuade SLDF units to back their bids for power, General Kerensky took drastic action_ On 14 February 2784 Kerensky proposed to his troops that the SLDF should eave the Inner Sphere and found new society based on the ideals of the now-defunct Star League_ In Iate November 2784_ more than 80 percent of the SLDF departed with Kerensky' $ Operation Exodus The bewildered people of the Inner Sphere, mourning the loss of their hero comforted themselves with the belief that Kerensky and his people would return when humani: needed them: CENTURIES OF WAR In the resulting power vacuum, the rulers of the realms now called the Successor States fought endless_ brutal wars each seeking t0 L~establish the Star League under his own leader- ship."
+  }
+}

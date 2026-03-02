@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "repulsion",
+  "name": "Repulsion",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Repulsion (Abjuration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "sixth",
+    "book_pages": [
+      181
+    ],
+    "pdf_pages": [
+      182
+    ],
+    "raw_block": "Repulsion (Abjuration)\nRange: 10 yards/level\nComponents: V, S, M\nDuration: 1 round/2 levels\nCasting Time: 6\nArea of Effect: Creatures in a\nSaving Throw: None\nWhen this spell is cast, the wizard is able\nto cause all creatures in the path of the area\nof effect to move directly away from his per-\nson. Repulsion occurs at the speed of the\ncreature attempting to move toward the\nspellcaster. The repelled creature continues\nto move away for a complete round even if\nthis takes it beyond spell range. The caster\ncan designate a new direction each round,\nbut use of this power counts as the caster's\nprincipal action in the round. The caster\ncan, of course, choose to do something else\ninstead of using the repulsion attack.\nThe material component for this spell is a\npair of small magnetized iron bars attached\nto two small canine statuettes, one ivory\nand one eboqy.\nlefoot-wide path"
+  },
+  "mechanics": {
+    "school_or_type": "Abjuration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Repulsion",
+      "canonical_name_guess": null,
+      "school_or_type": "Abjuration",
+      "range": "10 yards/level",
+      "components": "V, S, M",
+      "duration": "1 round/2 levels",
+      "casting_time": "6",
+      "area_of_effect": "Creatures in a",
+      "saving_throw": "None",
+      "description_excerpt": "When this spell is cast, the wizard is able to cause all creatures in the path of the area of effect to move directly away from his per- son. Repulsion occurs at the speed of the creature attempting to move toward the spellcaster. The repelled creature continues to move away for a complete round even if this takes it beyond spell range. The caster can designate a new direction each round, but use of this power counts as the caster's principal action in the round. The caster can, of course, choose to do something else instead of using the repulsion attack. The material component for this spell is a pair of small magnetized iron bars attached to two small canine statuettes, one ivory and one eboqy. lefoot-wide path"
+    },
+    "quality_flags": []
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "i_exaction",
+  "name": "I Exaction",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "I Exaction (Evocation, Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "sixth",
+    "book_pages": [
+      233
+    ],
+    "pdf_pages": [
+      234
+    ],
+    "raw_block": "I Exaction (Evocation, Alteration)"
+  },
+  "mechanics": {
+    "school_or_type": "Evocation, Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "I Exaction",
+      "canonical_name_guess": null,
+      "school_or_type": "Evocation, Alteration",
+      "range": null,
+      "components": null,
+      "duration": null,
+      "casting_time": null,
+      "area_of_effect": null,
+      "saving_throw": null,
+      "description_excerpt": ""
+    },
+    "quality_flags": [
+      "missing_standard_fields"
+    ]
+  }
+}

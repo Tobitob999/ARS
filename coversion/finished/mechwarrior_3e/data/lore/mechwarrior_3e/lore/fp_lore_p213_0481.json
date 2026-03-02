@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "lore_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "lore",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "132 Armored Infantry Field_ 53. 196 Arm wounds",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 213,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:28Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_lore_p213_0481",
+    "entity_type": "lore",
+    "name_guess": "132 Armored Infantry Field_ 53. 196 Arm wounds",
+    "breadcrumb_path": "Rules Compendium > Page 213 > lore > 132 Armored Infantry Field_ 53. 196 Arm wounds",
+    "page_refs": [
+      213
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "126 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "132 Armored Infantry Field_ 53. 196 Arm wounds 122.125_ 126 military: 200-1 occupation zone 168-69 phenotypes politics, 192 ann? society; 192-93 technology 192 Tour duty: 49-50 trials 190-91 vehicle assignment, 92-93 orphan_ 33-34 warrior caste , 31-32 Year Peace; 163 Climbing: Climbirg / rappelling kit; 147 Clothing; 151 Cloud Cobra Clan; 193 Clubs."
+  }
+}

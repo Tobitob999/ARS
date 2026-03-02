@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "slow_poison",
+  "name": "Slow Poison",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Slow Poison (Necromancy) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "second",
+    "book_pages": [
+      207
+    ],
+    "pdf_pages": [
+      208
+    ],
+    "raw_block": "Slow Poison (Necromancy)\nSphere: Healing\nRange: Touch\nComponents: V, S, M\nDuration: 1 hour/level\nCasting Time: 1\nArea of Effect: Creature touched\nSaving Throw: None\nWhen this spell is placed upon a poisoned\nindividual, it greatly slows the effects of\nvenom, if it is cast upon the victim before\nthe poison takes full effect. (This period,\nknown as the onset time, is known to the\nDM.) While this spell does not neutralize\nthe venom, it does prevent it from substan-\ntially harming the individual for the dura-\ntion of its magic in hopes that, during that\nperiod, a full cure can be accomplished.\nThe material components of the slow poi-\nson spell are the priest’s holy symbol and a\nbud of garlic that must be crushed and\nsmeared on the wound (or eaten if poison\nwas ingested).\n! Lharm (EnchantmenVCharm)\nSphere: Animal\nRange: 30 yards\nComponents: V, S\nDuration: Special\nCasting Time: 5\nArea of Effect: =foot cube\nSaving Throw: None\nWhen this spell is cast, a hypnotic pattern\nis set up that causes one or more snakes to\ncease all activity except a semi-erect, swaying\nmovement. If the snakes are charmed while\nin a torpor, the duration of the spell is ld4 +2\nturns; if the snakes are not torpid, but are not\naroused and angry, the charm lasts Id3 turns;\nif the snakes are angry or attacking, the\nsnake charm spell lasts ld4 + 4 rounds. The\npriest casting the spell can charm snakes\nwhose total hit points are less than or equal\nto those of the priest. On the average, a 1st-\nlevel priest could charm snakes with a total\nof 4 or 5 hit points; a 2nd-level priest could\ncharm 9 hit points, etc. The hit points can be\nthose of a mgle snake or those of several of\nthe reptiles, but the total hit points cannot ex-\nceed those of the priest casting the spell. A\n23-hit point caster charming a dozen &hit\npoint snakes would charm 11 of them. Ti$s\nspell is also effective against any ophidian or\nophidianoid monster, such as naga, cowtl,\netc., subject to magic resistance, hit points,\nand so foyth.\nVariations of this spell may exist, allow-\ning other creatures significant to a particular\nmythos to be affected. Your DM will inform\nyou if such spells exist."
+  },
+  "mechanics": {
+    "school_or_type": "Necromancy",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Slow Poison",
+      "canonical_name_guess": null,
+      "school_or_type": "Necromancy",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "1 hour/level",
+      "casting_time": "1",
+      "area_of_effect": "Creature touched",
+      "saving_throw": "None",
+      "description_excerpt": "turns; if the snakes are not torpid, but are not aroused and angry, the charm lasts Id3 turns; if the snakes are angry or attacking, the snake charm spell lasts ld4 + 4 rounds. The priest casting the spell can charm snakes whose total hit points are less than or equal to those of the priest. On the average, a 1st- level priest could charm snakes with a total of 4 or 5 hit points; a 2nd-level priest could charm 9 hit points, etc. The hit points can be those of a mgle snake or those of several of the reptiles, but the total hit points cannot ex- ceed those of the priest casting the spell. A 23-hit point caster charming a dozen &hit point snakes would charm 11 of them. Ti$s spell is also effective against any ophidian or ophidianoid monster, such as naga, cowtl, etc., subject to magic resistance, hit points, and so foyth. Variations of this spell may exist, allow- ing other creatures signif"
+    },
+    "quality_flags": []
+  }
+}

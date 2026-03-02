@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "vehicles_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "vehicles",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "things necomc bit more complicated; Characters the Tield",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 128,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:34Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_vehicles_p128_0213",
+    "entity_type": "vehicles",
+    "name_guess": "things necomc bit more complicated; Characters the Tield",
+    "breadcrumb_path": "Rules Compendium > Page 128 > vehicles > things necomc bit more complicated; Characters the Tield",
+    "page_refs": [
+      128
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "armor"
+    ],
+    "excerpt": "things necomc bit more complicated; Characters the Tield considered conventional intantry units corisisting 0 one trooper; parts of existing bat tle-armor or intantry Dlatoon units in BattleTech game AII bat- tle armored characters must bc assigncd t0 battle-armor unit: Similarly, unarmorco characters must be assigned t0 standard infantry platoons Character units are categorized by their mode oftrans- portation Units are considered motorized infantry if ther travel with enough small vehicles (such as cars motorcycles) t0 transport all members 0f the Unil."
+  }
+}

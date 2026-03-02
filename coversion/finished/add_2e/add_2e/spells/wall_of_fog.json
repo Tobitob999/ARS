@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "wall_of_fog",
+  "name": "Wall of Fog",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Wall of Fog (Evocation) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": null,
+    "book_pages": [
+      139
+    ],
+    "pdf_pages": [
+      140
+    ],
+    "raw_block": "Wall of Fog (Evocation)\nRange: 30 yards\nComponents: V, S, M\nDuration: 2d4 rounds + 1 round/level\nCasting Time: 1\nArea of Effect: 20’ cube + 10’ cube/level\nSaving Throw: None\nBy casting this spell, the wizard creates a\nbillowing wall of misty vapors in any area\nwithin the spell range. The wall of fog\nobscures all sight, normal and infravision,\nbeyond two feet. The caster may create less\nvapor if he wishes. The wall must be a\nroughly cubic or rectangular mass, at least\nten feet wide in its smallest dimension. The\nmisty vapors persist for three or more\nrounds. Their duration can be halved by a\nmoderate wind, and they can be blown\naway by a strong wind.\nThe material component is a pinch of split\ndried peas."
+  },
+  "mechanics": {
+    "school_or_type": "Evocation",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Wall of Fog",
+      "canonical_name_guess": null,
+      "school_or_type": "Evocation",
+      "range": "30 yards",
+      "components": "V, S, M",
+      "duration": "2d4 rounds + 1 round/level",
+      "casting_time": "1",
+      "area_of_effect": "20’ cube + 10’ cube/level",
+      "saving_throw": "None",
+      "description_excerpt": "moderate wind, and they can be blown away by a strong wind. The material component is a pinch of split dried peas."
+    },
+    "quality_flags": []
+  }
+}

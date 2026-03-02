@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "locations_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "locations",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Technician Subskills These subskills are not strictly vehicular;",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 108,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:28Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_locations_p108_0141",
+    "entity_type": "locations",
+    "name_guess": "Technician Subskills These subskills are not strictly vehicular;",
+    "breadcrumb_path": "Rules Compendium > Page 108 > locations > Technician Subskills These subskills are not strictly vehicular;",
+    "page_refs": [
+      108
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Technician Subskills These subskills are not strictly vehicular; tne Technician / Ballistics Skill covers the repair of slug-throwing personal weapons well BattleMech autocannon. Aeronautics: Fixed-wing flight Sys tems found on fighters and aerodyne DropShips and spacecraft_ Ballistics: Includes machine gun, Gauss rifle autocannon and tube artillery weapon systems Communications Comms): Sensors and communications gear, including ECM and probe systems."
+  }
+}

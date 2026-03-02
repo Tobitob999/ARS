@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "lore_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "lore",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "ThE CLANS remains widespread among the Clans_ Classic",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 194,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:16Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_lore_p194_0418",
+    "entity_type": "lore",
+    "name_guess": "ThE CLANS remains widespread among the Clans_ Classic",
+    "breadcrumb_path": "Rules Compendium > Page 194 > lore > ThE CLANS remains widespread among the Clans_ Classic",
+    "page_refs": [
+      194
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "ThE CLANS remains widespread among the Clans_ Classic religions exist tOgether with strange , hybrid creeds that have developed since the Exodus The doctrines of many; however Buddhism'$ pro hibition on taking llife or the Judeo-Christian-Muslim belief in an almighty God are incompatible with the martial: genetically engineered supremely self-confident Clan society preventing their widespread acceptance."
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "cure_light_wounds",
+  "name": "Cure Light Wounds",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Cure Light Wounds (Necromancy) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "ninth",
+    "book_pages": [
+      199
+    ],
+    "pdf_pages": [
+      200
+    ],
+    "raw_block": "Cure Light Wounds (Necromancy)\nReversible\nSphere: Healing\nRange: Touch\nComponents: V, S\nDuration: Permanent\nCasting Time: 5\nArea of Effect: Creature touched\nSaving Throw: None\nWhen casting this spell and laying his\nhand upon a creature, the priest causes Id8\npoints of wound or other injury damage to\nthe creature’s body to be healed. This heal-\ning cannot affect creatures without corpo-\nreal bodies, nor can it cure wounds of\ncreatures not living or of extraplanar origin.\nThe reversed spell, cause light wounds,\noperates in the same manner, inflicting Id8\npoints of damage. If a creature is avoiding\nthis touch, an attack roll is needed to deter-\nmine if the priest’s hand strikes tht oppo-\nnent and causes such a wound.\nCuring is permanent only insofar as the\ncreature does not sustain further damage;\ncaused wounds will heal-or can be cured-\njust as any normal injury."
+  },
+  "mechanics": {
+    "school_or_type": "Necromancy",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Cure Light Wounds",
+      "canonical_name_guess": null,
+      "school_or_type": "Necromancy",
+      "range": "Touch",
+      "components": "V, S",
+      "duration": "Permanent",
+      "casting_time": "5",
+      "area_of_effect": "Creature touched",
+      "saving_throw": "None",
+      "description_excerpt": "When casting this spell and laying his hand upon a creature, the priest causes Id8 points of wound or other injury damage to the creature’s body to be healed. This heal- ing cannot affect creatures without corpo- real bodies, nor can it cure wounds of creatures not living or of extraplanar origin. The reversed spell, cause light wounds, operates in the same manner, inflicting Id8 points of damage. If a creature is avoiding this touch, an attack roll is needed to deter- mine if the priest’s hand strikes tht oppo- nent and causes such a wound. Curing is permanent only insofar as the creature does not sustain further damage; caused wounds will heal-or can be cured- just as any normal injury."
+    },
+    "quality_flags": []
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_subsystem",
+  "id": "add_2e_npc_relations_system",
+  "name": "AD&D 2e NPC Relations System",
+  "tags": [
+    "add_2e",
+    "npcs",
+    "hirelings",
+    "followers",
+    "henchmen"
+  ],
+  "summary": "Ausarbeitung der NPC-Beziehungsregeln inkl. Verpflichtungen und Loyalitaetslogik.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "chapter": {
+      "number": 12,
+      "slug": "npcs",
+      "book_pages": [
+        114,
+        116
+      ]
+    },
+    "chapter_file": "data/lore/add_2e/chapters/chapter_12_npcs.json",
+    "page_refs": [
+      {
+        "book_page": 114,
+        "pdf_page": 115
+      },
+      {
+        "book_page": 115,
+        "pdf_page": 116
+      },
+      {
+        "book_page": 116,
+        "pdf_page": 117
+      }
+    ]
+  },
+  "mechanics": {
+    "npc_groups": {
+      "hirelings": {
+        "motivation": "payment/contract",
+        "risk_profile": "limited risk appetite",
+        "management": [
+          "wages",
+          "term/task definition",
+          "morale checks in high risk or bribery contexts"
+        ]
+      },
+      "followers": {
+        "motivation": "reputation + compensation",
+        "arrival": "attracted by stronghold/reputation",
+        "profile": "elite troops, usually not party-delve companions"
+      },
+      "henchmen": {
+        "motivation": "loyalty/alliance",
+        "constraints": [
+          "usually lower level than patron PC",
+          "expects fair shares and respect",
+          "strong personal bond"
+        ],
+        "retention": "abuse/betrayal erodes loyalty and can trigger rupture"
+      }
+    },
+    "pc_obligations": [
+      "boarding_meals",
+      "equipment replacement in campaign service",
+      "transport/logistics costs",
+      "ransom norms",
+      "funerary and recovery responsibilities"
+    ],
+    "charisma_link": "PC Charisma constrains max henchmen capacity.",
+    "campaign_effect": "NPC treatment materially changes reputation, recruitment quality, and strategic resilience."
+  }
+}

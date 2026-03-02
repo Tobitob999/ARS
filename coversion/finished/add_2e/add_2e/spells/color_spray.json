@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "color_spray",
+  "name": "Color Spray",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Color Spray (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": null,
+    "book_pages": [
+      132,
+      133
+    ],
+    "pdf_pages": [
+      133,
+      134
+    ],
+    "raw_block": "Color Spray (Alteration)\nRange: 0\nComponents: V, S, M\nDuration: Instantaneous\nCasting Time: 1\nArea of Effect: 5’ x 20’ x 20’ wedge\nSaving Throw: Special\nUpon casting this spell, the wizard causes\na vivid, fan-shaped spray of clashing colors\no spring forth from his hand. From one to\n;ix creatures (ld6) within the area are affect-\n!d in order of increasing distance from the\nvizard. All creatures above the level of the\npellcaster and all those of 6th level or 6 Hit\nlice or more are entitled to a saving throw\n‘s. spell. Blind or unseeing creatures are not\nlffected by the spell.\nCreatures not allowed or failing saving\nhrows, and whose Hit Dice or levels are less\nhan or equal to the spellcaster’s level, are\ntruck unconscious for 2d4 rounds; those\nrith Hit Dice or levels 1 or 2 greater than\nbe wizard’s level are blinded for ld4\nmnds; those with Hit Dice or levels 3 or\nmore greater than that of the spellcaster are\nstunned (reeling and unable to think or act\ncoherently) for one round.\nThe material components of this spell are\na pinch each of powder or sand that is col-\nored red, yellow, and blue.\n132\n4"
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Color Spray",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "0",
+      "components": "V, S, M",
+      "duration": "Instantaneous",
+      "casting_time": "1",
+      "area_of_effect": "5’ x 20’ x 20’ wedge",
+      "saving_throw": "Special",
+      "description_excerpt": "Upon casting this spell, the wizard causes a vivid, fan-shaped spray of clashing colors o spring forth from his hand. From one to ;ix creatures (ld6) within the area are affect- !d in order of increasing distance from the vizard. All creatures above the level of the pellcaster and all those of 6th level or 6 Hit lice or more are entitled to a saving throw ‘s. spell. Blind or unseeing creatures are not lffected by the spell. Creatures not allowed or failing saving hrows, and whose Hit Dice or levels are less han or equal to the spellcaster’s level, are truck unconscious for 2d4 rounds; those rith Hit Dice or levels 1 or 2 greater than be wizard’s level are blinded for ld4 mnds; those with Hit Dice or levels 3 or more greater than that of the spellcaster are stunned (reeling and unable to think or act coherently) for one round. The material components of this spell are a pinch each of powd"
+    },
+    "quality_flags": []
+  }
+}

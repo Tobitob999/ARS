@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "If you re having trouble with details try",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 62,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:00Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p062_0267",
+    "entity_type": "npcs",
+    "name_guess": "If you re having trouble with details try",
+    "breadcrumb_path": "Rules Compendium > Page 062 > npcs > If you re having trouble with details try",
+    "page_refs": [
+      62
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "If you re having trouble with details try basing the character one from favorite book or movie_ But don't sweat it too much; roleplaying the character iS bound t0 draw out parts of the character' per- sona that yoU wouldn' have thought up otherwise SAMPLE CHARACTERS Following this section are eight sample characters New players can use them to start playing right away; without going through the character creation process Players can also base their own characters the samples; customizing them exchanging some of the listed skills and traits for ones of equal value (with the Bamemaster' $ permission)."
+  }
+}

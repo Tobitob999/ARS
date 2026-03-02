@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "web",
+  "name": "Web",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Web (Evocation) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "second",
+    "book_pages": [
+      146
+    ],
+    "pdf_pages": [
+      147
+    ],
+    "raw_block": "Web (Evocation)\nRange: 5 yarddlevel\nComponents: V, S, M\nDuration: 2 turndlevel\nCasting Time: 2\nArea of Effect: Special\nSaving Throw: Neg. or */z\nA web spell creates a many-layered mass\nof strong, sticky strands similar to spider\nwebs but far larger and tougher. These\nmasses must be anchored to two or more\nsolid and diametrically opposed points-\nfloor and ceiling, opposite walls, etc., or the\nweb collapses upon itself and disappears.\nThe we& spell covers a maximum area of\neight 10’ x 10’ x 10’ cubes and the webs must\nbe at least 10 feet thick, so a mass 40 feet\nhigh, 20 feet wide, and 10 feet deep may be\ncast. Creatures caught within webs, or sim-\nply touching them, become stuck among the\ngluey fibers.\nAnyone in the area when the spell is cast\nmust roll a saving throw vs. spell with a -2\npenalty. If the saving throw is successful,\ntwo things may have occurred. If the crea-\nture has room to escape the area, then it is\nper round. If the webs\nthese rates are doubled\nto great strength in thi\nof large mass hardly notice webs.) Strong\nand huge creatures can break through 10\nfeet of webs per round.\nFurthermore, the strands of a we& spell\nare flammable. A magical flaming sword\ncan slash them away as easily as a hand\nbrushes away cobwebs. Any fire-torch,\nflaming oil, flaming sword, etc.-can set\nthem alight and burn them away in a single\nround. All creatures within flaming webs\nsuffer 2d4 points of damage from the\nflames, but those free of the strands are not\nharmed.\nThe material component of this spell is a\nbit of spider web.\n146"
+  },
+  "mechanics": {
+    "school_or_type": "Evocation",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Web",
+      "canonical_name_guess": null,
+      "school_or_type": "Evocation",
+      "range": "5 yarddlevel",
+      "components": "V, S, M",
+      "duration": "2 turndlevel",
+      "casting_time": "2",
+      "area_of_effect": "Special",
+      "saving_throw": "Neg. or */z",
+      "description_excerpt": "A web spell creates a many-layered mass of strong, sticky strands similar to spider webs but far larger and tougher. These masses must be anchored to two or more solid and diametrically opposed points- floor and ceiling, opposite walls, etc., or the web collapses upon itself and disappears. The we& spell covers a maximum area of eight 10’ x 10’ x 10’ cubes and the webs must be at least 10 feet thick, so a mass 40 feet high, 20 feet wide, and 10 feet deep may be cast. Creatures caught within webs, or sim- ply touching them, become stuck among the gluey fibers. Anyone in the area when the spell is cast must roll a saving throw vs. spell with a -2 penalty. If the saving throw is successful, two things may have occurred. If the crea- ture has room to escape the area, then it is per round. If the webs these rates are doubled to great strength in thi of large mass hardly notice webs.) Strong a"
+    },
+    "quality_flags": []
+  }
+}

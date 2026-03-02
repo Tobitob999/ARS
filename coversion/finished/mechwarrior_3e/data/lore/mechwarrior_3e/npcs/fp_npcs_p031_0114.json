@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Lyran characters who follow the Free Trader Path",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 31,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:45Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p031_0114",
+    "entity_type": "npcs",
+    "name_guess": "Lyran characters who follow the Free Trader Path",
+    "breadcrumb_path": "Rules Compendium > Page 031 > npcs > Lyran characters who follow the Free Trader Path",
+    "page_refs": [
+      31
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "1 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Lyran characters who follow the Free Trader Path may add +1 modifier t0 their event die rolls THE PERIPHERY Beyond the boundaries of the Inner Sphere lie the endless reaches of the Periphery; traditionally home to the independent- minded souls who sought escape from the often-repressive regimes of the Great Houses The Periphery is the galaxy' s fron: tier; keeping the spirit of exploration and discovery alive and well. The less savory aspects of frontier living are equally abun- dant; numerous pirate bands and petty bandit kingdoms thrive this almost lawless region of space."
+  }
+}

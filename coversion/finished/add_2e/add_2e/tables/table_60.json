@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2.0",
+  "id": "table_60",
+  "name": "Table 60: CHARACTER SAVING THROWS",
+  "category": "table",
+  "tags": [
+    "add_2e",
+    "table",
+    "player_handbook",
+    "toc_normalized"
+  ],
+  "summary": "PHB Table 60 (CHARACTER SAVING THROWS).",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "table_number": 60,
+    "title": "CHARACTER SAVING THROWS",
+    "book_page": 101,
+    "pdf_page": 102,
+    "raw_page_token": "101"
+  },
+  "mechanics": {
+    "source": "toc_parse_v3",
+    "confidence": "medium"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Any die that scores picked Up ad rolled",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 115,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:30Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p115_0147",
+    "entity_type": "items",
+    "name_guess": "Any die that scores picked Up ad rolled",
+    "breadcrumb_path": "Rules Compendium > Page 115 > items > Any die that scores picked Up ad rolled",
+    "page_refs": [
+      115
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "DAMAGE",
+      "damage"
+    ],
+    "excerpt": "Any die that scores picked Up ad rolled again; the additiona points added t0 the total: that die again rolls picked up and rolled again and 50 on Strength In the casc 0f melee attacks add the STR of the attacking cnaracter the damage the melee attack was made with ranged weapon. nowever: the character' $ STR i5 not added t0 the damage DAMAGE Once an attack is determined to have nit the target, the effects the attack or its damage. MuSL be determined There 114"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_page",
+  "tags": [
+    "gurps_4e",
+    "fulltext",
+    "pdf_page"
+  ],
+  "summary": "PDF-Seite 81 aus GURPS - 4th Edition - Basic Set.pdf.",
+  "source_text": {
+    "book": "GURPS - 4th Edition - Basic Set",
+    "pdf_page": 81,
+    "text": "they really did. This requires one turn of absolute concentration (the GM \nmay require more elaborate preparations to recall very ancient memories).\n40 points.\nRadiation Tolerance 31\nVariable\nYour cells or circuits are resistant to radiation. The cost of\nthis advantage depends on the divisor of the effective dose of\nradiation you receive – after dividing by the Protection\nFactor (PF) of artificial protection such as armor.\nDivisor Cost\n2 5 points\n5 10 points\n10 15 points\n20 20 points\n50 25 points\n100 30 points\n200 35 points\n500 40 points\n1,000 45 points\nRank\nsee p. 29\nRapid Healing 3\n5 or 15 points\nYour wounds heal quickly. This trait comes in two levels:\nRapid Healing: Whenever you roll to recover lost HP or to see if you\ncan get over a crippling injury, you get +5 to your effective HT.\nPrerequisite: HT 10+. 5 points.\nVery Rapid Healing:As above, but when you roll to recover lost HT, a\nsuccessful HT roll means you heal two HP, not one. Prerequisite: HT 12+. \n15 points.\nNote that this advantage does not hasten recovery from the\nshort-term effects of injury, such as stunning and knockout; get\nRecovery (p. 80) for that.\nRapier Wit 2\n5 points\nYou can use witty repartee to stun your foes in combat. This does\nnot require a combat maneuver – talking is a free action (p. 363). Roll\na Quick Contest of Public Speaking skill vs. your opponent’s Will.\nModifiers: -2 if your target has the Clueless or No Sense of\nHumor disadvantage; any modifier the GM assigns based on\nyour description of the verbal attack; -1 per opponent beyond\nthe first to affect a group (and you must know something the\nentire group has in common; e.g., they’re all flunkies of the\nsame household or members of the same military unit).\nOpponents with the Unfazeable advantage (p. 95) are\nimmune to Rapier Wit.\nIf you win, your opponent is mentally stunned (see\np. 420). A critical success causes one HP of physical dam-\nage as well – your victim injures himself accidentally (drops\nsomething on his foot, chokes on his own tongue, etc.). If\nyou lose, there is no effect. On a critical failure, you enrage\nyour opponent, possibly triggering such disadvantages as\nBerserk and Bloodlust!\nThis advantage is usually only appropriate in asilly campaign!\nADVANTAGES 79"
+  },
+  "mechanics": {
+    "conversion": "fulltext_page_dump",
+    "generated_at": "2026-03-02T15:00:00"
+  }
+}

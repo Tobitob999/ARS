@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "The character gets these points every time the",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 25,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:43Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p025_0075",
+    "entity_type": "history",
+    "name_guess": "The character gets these points every time the",
+    "breadcrumb_path": "Rules Compendium > Page 025 > history > The character gets these points every time the",
+    "page_refs": [
+      25
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "The character gets these points every time the field is awarded even the character repeats path: SkIlL BONUSES skill bonus represents character' = degree of ability in particular skill. This number is applied to the die roll result for any Action Check involving that skill_ Beginners in skill have +0 Skill Bonus_ Low as that is_ they are still better at the skill than characters who do not have it at all (see Untrained Skill Use; p. 16)."
+  }
+}

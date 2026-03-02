@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "category": "vision_autofill_seed",
+  "tags": [
+    "gurps_4e",
+    "vision",
+    "conversion_autopilot",
+    "autofill_seed"
+  ],
+  "summary": "Automatisch erzeugter Nachweis fuer Vollstaendigkeit im Conversion-Autopilot.",
+  "source_text": {
+    "generated_at": "2026-03-02T15:09:31Z",
+    "generator": "coversion/enforce_full_depth.py",
+    "coverage_fields": [
+      "conditions",
+      "travel"
+    ]
+  },
+  "mechanics": {
+    "status": "autofill_seed",
+    "reason": "Kein direkter Extrakt in diesem Ordner gefunden; Seed aus Coverage erstellt.",
+    "evidence": [
+      {
+        "field": "conditions",
+        "source_file": "GURPS - 4th Edition - Basic Set.pdf",
+        "page_refs": [
+          30,
+          31,
+          122,
+          168,
+          267,
+          268,
+          364,
+          520
+        ],
+        "excerpt": "[PDF_PAGE 30 | score=35] All the time: ¥1. Sometimes (roll of 10 or less): ¥1/2 (round down). Occasionally (roll of 7 or less): ¥1/3 (round down). Of course, your reputation extends only within a certain area. If you trav- el far enough away, the GM may require you to “buy off” the disadvan- tage points you received for a bad rep- utation. (There is no corresponding bonus for losing a good reputation.) Multiple Reputations You may have more than one repu- tation, and your reputations can over- lap. The GM should check each one before determining how an NPC reacts to you. Your total reaction modifier from reputations cannot be better than +4 or worse than -4 in a given situation. Multifaceted Reputations A single rep\n[PDF_PAGE 31 | score=35] in conjunction with the Social Stigma of a criminal record. The interaction of Status, Social Stigma, and Reputation can give inter- esting results. "
+      },
+      {
+        "field": "travel",
+        "source_file": "GURPS - 4th Edition - Basic Set.pdf",
+        "page_refs": [
+          54,
+          391,
+          398,
+          399,
+          467,
+          470,
+          526,
+          554
+        ],
+        "excerpt": "[PDF_PAGE 470 | score=43] Convoys: Multiple vehicles travel- ing in convoy or formation move at 80% of the speed of the slowest vehi- cle, due to the need for station keep- ing. On a successful Leadership roll, use 100% of the speed of the slowest vehicle. For long journeys, roll daily. Control Rolls A vehicle operator must make a “control roll” – against Boating, Driving, Piloting, etc., as appropriate – in any potentially hazardous situation. The GM may require a roll every few hours in an ongoing situation such as a fierce storm, or every fewseconds in combat! Modifiers: The vehicle’s Handling (Hnd) statistic modifies all control rolls. For sudden deceleration or tight turns, see Pushing the Envelope (p. 395). Vis\n[PDF_PAGE 391 | score=22] TACTICAL COMBAT 387 You can also “sidestep” into a front hex (C) while keeping your original facing. This is allowed during an All- Out attack (as "
+      }
+    ]
+  }
+}

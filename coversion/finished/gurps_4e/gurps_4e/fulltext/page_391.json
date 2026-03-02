@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_page",
+  "tags": [
+    "gurps_4e",
+    "fulltext",
+    "pdf_page"
+  ],
+  "summary": "PDF-Seite 391 aus GURPS - 4th Edition - Basic Set.pdf.",
+  "source_text": {
+    "book": "GURPS - 4th Edition - Basic Set",
+    "pdf_page": 391,
+    "text": "TACTICAL COMBAT 387\nYou can also “sidestep” into a front\nhex (C) while keeping your original\nfacing. This is allowed during an All-\nOut attack (as well as on a Move, etc.).\nIt also coststwo movement points.\nFacing Changes \nand Movement\nAt the end of your turn, if you took\na Move or Move and Attack maneuver\nand used no more than half of your\nmovement points – or if you chose the\nAll-Out Defense (Increased Dodge)\nmaneuver – you may turn to face in\nany direction.\nIf you took a Move or Move and\nAttack and used more than halfof your\nmovement points, you may change\nyour facing by one hex-side.\nYou may also change facing before\nor during your movement on a Move,\nMove and Attack, or All-Out Defense\n(Increased Dodge) maneuver, but this\ncosts movement points. Each hex-side\nof facing change counts as one yard of\nmovement; e.g., turning 180° costs\nthree movement points.\nMovement Point Costs\nDirection of Travel\nForward: 1 movement point per hex.\nSidestep or backward: 2 movement points per hex.\nPosture\nCrouching: +1/2 movement point per hex.\nKneeling: +2 movement points per hex.\nCrawling: +2 movement points per hex.\nLying down: All movement points to move one hex.\nSitting: Cannot move!\nFacing Changes\nChange facing before or during a move: +1 move-\nment point per hex-side of change.\nChange facing at end of move: Free! You may face\nany direction if you used no more than half your move-\nment points; otherwise, you may opt to\nchange facing byone hex-side.\nObstructions\nMinor obstruction in hex (e.g., an ally, or a body on\nthe ground):+1 movement point per obstruction.\nSevere obstruction in hex (several bodies, a barricade,\netc.): You must either bypass the hex or jump over (see\nJumping, p. 352).\nEnemy in hex: You must evade (see Evading,\np. 368).\nBad Footing\nTreacherous ground (mud, waxed floors, etc.): +1\nmovement point per hex (or more, at the GM’s option).\nStairs (up or down):+1 movement point per hex.\nShallow water (no more than 1/6 your height): +1\nmovement point per hex.\nDeeper water: All movement points to move 1 hex.\nUse these movement point costs when you take a Move, Move and Attack, All-Out Attack, or All-Out Defense\n(Increased Dodge) maneuver. You canalways move at least one hex per turn, no matter how severe the penalties.\nMost other maneuvers allow a step (see Step, p. 368). In this case, “cost” does not matter – you can move your\nfull step (usually one hex), regardless of facing, posture, or terrain.\n"
+  },
+  "mechanics": {
+    "conversion": "fulltext_page_dump",
+    "generated_at": "2026-03-02T15:00:00"
+  }
+}

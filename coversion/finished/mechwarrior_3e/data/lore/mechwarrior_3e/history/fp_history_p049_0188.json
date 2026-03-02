@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Interrogation +3 Language /Any +3, Leadership +2 Martial",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 49,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:55Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p049_0188",
+    "entity_type": "history",
+    "name_guess": "Interrogation +3 Language /Any +3, Leadership +2 Martial",
+    "breadcrumb_path": "Rules Compendium > Page 049 > history > Interrogation +3 Language /Any +3, Leadership +2 Martial",
+    "page_refs": [
+      49
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "2 M"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Interrogation +3 Language /Any +3, Leadership +2 Martial Arts / Any +2, Pistols +2 Protocol/ Any Seduction +3 Streetwise; Any +2 Tactics / Infantry +2 Next Path: Ne'er-Do-Well (4), Travel (4), Tour of Duty: Inner Sphere (4), Yakuza (4 Draconis Combine Affiliation only) Free Trader Events Caught smuggling contraband (Streetwise, (Any but add years t0 the time this path takes and choose two: Stigma/ Drug Runner; Bad Reputation Poverty."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "vehicles_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "vehicles",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Luxury Sulte: Most of the top hotels have",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 152,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:55Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_vehicles_p152_0256",
+    "entity_type": "vehicles",
+    "name_guess": "Luxury Sulte: Most of the top hotels have",
+    "breadcrumb_path": "Rules Compendium > Page 152 > vehicles > Luxury Sulte: Most of the top hotels have",
+    "page_refs": [
+      152
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Luxury Sulte: Most of the top hotels have their uppermost floors dedicated t0 luxury suites_ suite nas large living room; Sklmmer Tne skimmer personal hovercraft shaped much like three- or four-wheeled motorcycle. It is capable of much greater speeds however; and can traverse just about ay kind of ter- rain , Skimmers are favorites of military scouts and adolescents. Compact Electric Ground Car An electric car needs t0 be plugged in' few hours recharge its batteries."
+  }
+}

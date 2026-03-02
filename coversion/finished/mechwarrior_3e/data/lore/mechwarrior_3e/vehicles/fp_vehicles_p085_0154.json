@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "vehicles_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "vehicles",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "If no such character is available_ one will",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 85,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:09Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_vehicles_p085_0154",
+    "entity_type": "vehicles",
+    "name_guess": "If no such character is available_ one will",
+    "breadcrumb_path": "Rules Compendium > Page 085 > vehicles > If no such character is available_ one will",
+    "page_refs": [
+      85
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "If no such character is available_ one will have to be kept on retainer; at an additional cost of 250 Cbills per week Of course; this is vast simplification of the process of vehicle upkeep; Detailed rules for creating and maintaining military unit can found the BattleTech Field Manual: MECHWARRIOR PHENOTYPE Cost: Clan trueborn MechWarriors appear physically identical to normal\" humans but this appearance misleading: Generations of selective breeding ad subtle genetic manipula: tion have increased their reflexes and improved their adaptabil: ity to the neurohelmet interface So vital t0 BattleMech control, The primary advantages MechWarriors receive are modified Attribute thresholds in the Life Path (DEX +1_ RFL +1) and mod: ified Attribute maximums as noted on the Attribute Maximums Table (p."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "34) in Stage 1, Linda rolls a 8",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 26,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:43Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p026_0094",
+    "entity_type": "npcs",
+    "name_guess": "34) in Stage 1, Linda rolls a 8",
+    "breadcrumb_path": "Rules Compendium > Page 026 > npcs > 34) in Stage 1, Linda rolls a 8",
+    "page_refs": [
+      26
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "34) in Stage 1, Linda rolls a 8 the event table: Already learning how t0 fix the trac tor This gives Delilah Natural Aptitude with Technician/ICE Skill; which makes Derfect sense; she keeps it Moving on to High School (p. 381, she rolls Local Sports Hero This doesn't really fit her vision of the character at all; but the gamemaster offers her the chance t0 come Up with her Own varia tion on the event instead."
+  }
+}

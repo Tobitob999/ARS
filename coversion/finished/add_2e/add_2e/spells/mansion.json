@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "mansion",
+  "name": "Mansion",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Mansion (Alteration, Conjuration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "seventh",
+    "book_pages": [
+      185
+    ],
+    "pdf_pages": [
+      186
+    ],
+    "raw_block": "Mansion (Alteration, Conjuration)\nRange: 10 yards\nComponents: V, S, M\nDuration: 1 hour/level\nCasting Time: 7 rounds\nArea of Effect: 300 sq. ft./level\nSaving Throw: None\nBy means of this spell, the wizard con-\njures up an extradimensional dwelling, en-\ntrance to which can be gained only at a\nsingle point of space on the plane from\nwhich the spell was cast. From the entry\npoint, those creatures observing the area see\nonly a faint shimmering in the air, in an area\nfour feet wide and eight feet high. The caster\nof the spell controls entry to the mansion,\nand the portal is shut and made invisible be-\nhind him when he enters. He may open it\nagain from his own side at will. Once ob-\nservers have passed beyond the entrance,\nthey behold a magnificent foyer and numer-\nous chambers beyond. The place is fur-\nnished and contains sufficient foodstuffs to\nserve a nine-course banquet to as many\ndozens of people as the spellcaster has levels\nof experience. There is a staff of near-\ntransparent servants, liveried and obedient,\nthere to wait upon all who enter. The atmos-\nphere is clean, fresh, and warm.\nSince the place can be entered only\nthrough its special portal, outside condi-\ntions do not affect the mansion, nor do con-\nditions inside it pass to the plane beyond.\nRest and relaxation within the place is nor-\nmal, but the food is not. It seems excellent\nand quite filling as long as one is within the\nplace. Once outside, however, its effects dis-\nappear immediately, and if L-.DS~ resting\nhave not eaten real food within a reasonable\ntime span, ravenous hunger strikes. Failure\nto eat normal food immediately results in\nthe onset of fatigue or starvation penalties\nas decided by the DM.\nThe material components of this spell are\na miniature portal carved from ivory, a\nsmall piece of polished marble, and a tiny\nsilver spoon. These are utterly destroyed\nwhen the spell is cast.\n(It is worth mentioning that this spell has\nbeen used in conjunction with a normal por-\ntal, as well as with illusion magic. There is\nevidence that the design and interior of the\nspace created can be altered to suit the cast-\ner’s wishes.)\nMordenkainen’s Sword (Evocation)\nRange: 30yards .\nComponents: V, S, M\nDuration: 1 round/level\nCasting Time: 7\nArea of Effect: Special\nSaving Throw: None\nUpon casting this spell, the wizard brings\ninto being a shimmering, sword-like plane\nof force. The spellcaster is able to mentally\nwield this weapon (to the exclusion of all ac-\ntivities other than movement), causing it to\nmove and strike as if it were being used by a\nfighter. The basic chance for Mor-\ndenkainen‘s sword to hit is the same as the\nchance for a sword wielded by a fighter of\none-half the level of the spellcaster, e:g., if\ncast by a 14th-level wizard, the weapon has\nthe same hit probability as a sword wielded\nby a 7th-level fighter. The sword has no\nmagical attack bonuses, but it can hit nearly\nany sort of opponent, even those normally\nstruck only by +3 weapons or those astral,\netherea1,or out of phase. It hits any Armor\nClass on a roll of 19 or 20. It infiicts 5d4\npoints of damage to opponents of man-size\nor smaller, and 5d6 to opponents larger than\nman-sized. It lasts until the spell duration\nexpires, a dispel magic is used successfully\nupon it, or its caster no longer desires it.\nThe material component is a miniature\nplatinum sword with a grip and pommel of\ncopper and zinc, which costs 500 gp to con-\nstruct, and which disappears after the spell’s\ncompletion."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration, Conjuration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Mansion",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration, Conjuration",
+      "range": "10 yards",
+      "components": "V, S, M",
+      "duration": "1 hour/level",
+      "casting_time": "7 rounds",
+      "area_of_effect": "300 sq. ft./level",
+      "saving_throw": "None",
+      "description_excerpt": "expires, a dispel magic is used successfully upon it, or its caster no longer desires it. The material component is a miniature platinum sword with a grip and pommel of copper and zinc, which costs 500 gp to con- struct, and which disappears after the spell’s completion."
+    },
+    "quality_flags": []
+  }
+}

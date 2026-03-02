@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Strength Body Dexterity Reflexes Intelligence Willpower Charisma COMBAT",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 219,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:31Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p219_0479",
+    "entity_type": "items",
+    "name_guess": "Strength Body Dexterity Reflexes Intelligence Willpower Charisma COMBAT",
+    "breadcrumb_path": "Rules Compendium > Page 219 > items > Strength Body Dexterity Reflexes Intelligence Willpower Charisma COMBAT",
+    "page_refs": [
+      219
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "Armor",
+      "TN",
+      "Wound"
+    ],
+    "excerpt": "Strength Body Dexterity Reflexes Intelligence Willpower Charisma COMBAT INFORMATION AIT LOCATION DLAGRAM Edge Filu In Arotor Type (A Armor and Wounds per Location Social Standing Type A: AV (MBVEX) Type AV (WB/EIX) SKILLS Type AV (WB/EX) Type D: AV (MBVE/X) Name Bonus Fatigue Fatlques +1WApar Fatlque> 12-IJ Unconsclous Iuque > (2 Wounds Grazing Wounds (WV I: Minot Wounds (WV 21\" Serious Wounds (WV 4: TN ea +2 TM ex Critical Wounds (WV 81: Deadly Wounds (WV 161: Tolal Wound Value Wounds total Wound Value BOD+WIL)."
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "schema_version": "1.0.0",
+  "category": "class_blueprints",
+  "tags": [
+    "add_2e",
+    "classes",
+    "character_generation"
+  ],
+  "summary": "Kanonische Klassen-Blueprints aus PHB Kapitel 3 fuer schnelle Charaktererstellung.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "chapter": 3,
+    "book_pages": [
+      25,
+      45
+    ],
+    "raw_reference_file": "data/lore/add_2e/chapters/chapter_03_player_character_classes.json"
+  },
+  "mechanics": {
+    "class_groups": {
+      "warrior": {
+        "hit_die": "d10",
+        "classes": {
+          "fighter": {
+            "requirements": {
+              "STR": 9
+            },
+            "prime_requisites": [
+              "STR"
+            ],
+            "alignment": "any",
+            "special": [
+              "weapon specialization",
+              "stronghold followers"
+            ]
+          },
+          "paladin": {
+            "requirements": {
+              "STR": 12,
+              "CON": 9,
+              "WIS": 13,
+              "CHA": 17
+            },
+            "prime_requisites": [
+              "STR",
+              "CHA"
+            ],
+            "alignment": "lawful_good",
+            "special": [
+              "lay_on_hands",
+              "disease_immunity",
+              "detect_evil",
+              "aura/protection",
+              "warhorse at higher level"
+            ]
+          },
+          "ranger": {
+            "requirements": {
+              "STR": 13,
+              "DEX": 13,
+              "CON": 14,
+              "WIS": 14
+            },
+            "prime_requisites": [
+              "STR",
+              "DEX",
+              "WIS"
+            ],
+            "alignment": "good",
+            "special": [
+              "tracking",
+              "species enemy bonuses",
+              "limited priest/wizard spells high level"
+            ]
+          }
+        }
+      },
+      "wizard": {
+        "hit_die": "d4",
+        "classes": {
+          "mage": {
+            "requirements": {
+              "INT": 9
+            },
+            "prime_requisites": [
+              "INT"
+            ],
+            "alignment": "any",
+            "special": [
+              "broad arcane access",
+              "spellbook memorization"
+            ]
+          },
+          "illusionist": {
+            "requirements": {
+              "INT": 9,
+              "DEX": 16
+            },
+            "prime_requisites": [
+              "INT",
+              "DEX"
+            ],
+            "alignment": "any",
+            "special": [
+              "illusion school focus"
+            ]
+          }
+        }
+      },
+      "priest": {
+        "hit_die": "d8",
+        "classes": {
+          "cleric": {
+            "requirements": {
+              "WIS": 9
+            },
+            "prime_requisites": [
+              "WIS"
+            ],
+            "alignment": "mythos dependent",
+            "special": [
+              "turn undead",
+              "divine spheres"
+            ]
+          },
+          "druid": {
+            "requirements": {
+              "WIS": 12,
+              "CHA": 15
+            },
+            "prime_requisites": [
+              "WIS",
+              "CHA"
+            ],
+            "alignment": "true_neutral",
+            "special": [
+              "nature focus",
+              "druidic hierarchy"
+            ]
+          }
+        }
+      },
+      "rogue": {
+        "hit_die": "d6",
+        "classes": {
+          "thief": {
+            "requirements": {
+              "DEX": 9
+            },
+            "prime_requisites": [
+              "DEX"
+            ],
+            "alignment": "any",
+            "special": [
+              "thief skills",
+              "backstab"
+            ]
+          },
+          "bard": {
+            "requirements": {
+              "DEX": 12,
+              "INT": 13,
+              "CHA": 15
+            },
+            "prime_requisites": [
+              "DEX",
+              "CHA"
+            ],
+            "alignment": "any",
+            "special": [
+              "bardic lore",
+              "inspire/countersong",
+              "limited wizard spells"
+            ]
+          }
+        }
+      }
+    },
+    "progression_notes": {
+      "xp_tables": [
+        "Table 14",
+        "Table 20",
+        "Table 23",
+        "Table 25"
+      ],
+      "attacks_per_round": [
+        "Table 15",
+        "Table 35"
+      ],
+      "spell_progression": [
+        "Table 17",
+        "Table 21",
+        "Table 24",
+        "Table 32"
+      ],
+      "thief_bard_skills": [
+        "Table 26",
+        "Table 27",
+        "Table 28",
+        "Table 29",
+        "Table 33"
+      ]
+    }
+  }
+}

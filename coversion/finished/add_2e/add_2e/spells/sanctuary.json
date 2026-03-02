@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "sanctuary",
+  "name": "Sanctuary",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Sanctuary (Abjuration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "ninth",
+    "book_pages": [
+      202
+    ],
+    "pdf_pages": [
+      203
+    ],
+    "raw_block": "Sanctuary (Abjuration)\nSphere: Protection\nRange: Touch\nComponents: V, S, M\nDuration: 2 rounds + 1 round/level\nCasting Time: 4\nArea of Effect: Creature touched\nSaving Throw: None\nWhen the priest casts a sanctuary spell,\nany opponent attempting to strike or other-\nwise directly attack the protected creature\nmust roll a saving throw vs. spell. If the sav-\ning throw is successful, the opponent can\nattack normally and is unaffected by that\ncasting of the spell. If the saving throw is\nfailed, the opponent loses track of and total-\nly ignores the warded creature for the dura-\ntion of the spell. Those not attempting to\nattack the subject remain unaffected. Note\nthat this spell does not prevent the opera-\ntion of area attacks (fireball, ice storm,\netc.). While protected by this spell, the sub-\nject cannot take direct offensive action with-\nout breaking the spell, but may use\nnon-attack spells or otherwise act in any\nway that does not violate the prohibition\nagainst offensive action. This allows a\nwarded priest to heal wounds, for example,\nor to bless, perform an augury, chant, cast a\nlight in the area (not upon an opponentl),\nand so on.\nThe components of the spell include the\npriest’s holy symbol and a small silver mir-\nror."
+  },
+  "mechanics": {
+    "school_or_type": "Abjuration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Sanctuary",
+      "canonical_name_guess": null,
+      "school_or_type": "Abjuration",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "2 rounds + 1 round/level",
+      "casting_time": "4",
+      "area_of_effect": "Creature touched",
+      "saving_throw": "None",
+      "description_excerpt": "When the priest casts a sanctuary spell, any opponent attempting to strike or other- wise directly attack the protected creature must roll a saving throw vs. spell. If the sav- ing throw is successful, the opponent can attack normally and is unaffected by that casting of the spell. If the saving throw is failed, the opponent loses track of and total- ly ignores the warded creature for the dura- tion of the spell. Those not attempting to attack the subject remain unaffected. Note that this spell does not prevent the opera- tion of area attacks (fireball, ice storm, etc.). While protected by this spell, the sub- ject cannot take direct offensive action with- out breaking the spell, but may use non-attack spells or otherwise act in any way that does not violate the prohibition against offensive action. This allows a warded priest to heal wounds, for example, or to bless, perform an augury, "
+    },
+    "quality_flags": []
+  }
+}

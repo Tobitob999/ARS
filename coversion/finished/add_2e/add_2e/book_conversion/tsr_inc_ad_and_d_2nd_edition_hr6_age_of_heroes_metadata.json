@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "add_2e",
+    "source_book",
+    "pdf_conversion",
+    "tsr_inc_ad_and_d_2nd_edition_hr6_age_of_heroes"
+  ],
+  "summary": "Metadaten der PDF-zu-JSON-Konvertierung fuer TSR Inc - AD&D 2nd Edition - HR6 - Age of Heroes.pdf.",
+  "source_text": {
+    "source_file": "TSR Inc - AD&D 2nd Edition - HR6 - Age of Heroes.pdf",
+    "source_path": "g:\\meine ablage\\add2e\\tsr inc - ad&d 2nd edition - hr6 - age of heroes.pdf",
+    "format": "pdf",
+    "page_count": 106,
+    "extracted_characters": 278126,
+    "extraction_timestamp": "2026-03-02T11:02:55",
+    "toc_candidate_pages": [
+      3,
+      11,
+      86
+    ],
+    "empty_or_unreadable_pages": [
+      1,
+      6,
+      16,
+      29,
+      69,
+      81,
+      97,
+      98,
+      104
+    ]
+  },
+  "mechanics": {
+    "extractor": "pypdf.PdfReader.extract_text",
+    "output_files": [
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_hr6_age_of_heroes_pages.jsonl",
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_hr6_age_of_heroes_chapter_map.json",
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_hr6_age_of_heroes_metadata.json"
+    ]
+  }
+}

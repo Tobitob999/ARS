@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_2_fallback",
+    "tsr_inc_ad_and_d_2nd_edition_phbr12_the_complete_paladin_s_handbook",
+    "skills"
+  ],
+  "summary": "Fallback Phase-2 Regelchunk: skills aus TSR Inc - AD&D 2nd Edition - PHBR12 - The Complete Paladin's Handbook.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - PHBR12 - The Complete Paladin's Handbook",
+    "source_file": "TSR Inc - AD&D 2nd Edition - PHBR12 - The Complete Paladin's Handbook.pdf",
+    "text": "TSR Inc - AD&D 2nd Edition - PHBR12 - The Complete Paladin's Handbook.pdf"
+  },
+  "mechanics": {
+    "topic": "skills",
+    "keywords": [
+      "add_2e",
+      "complete",
+      "edition",
+      "fallback",
+      "handbook",
+      "paladin",
+      "phbr",
+      "skills",
+      "tsr_inc_ad_and_d_2nd_edition_phbr12_the_complete_paladin_s_handbook"
+    ],
+    "injection_priority": "core",
+    "confidence": 0.2,
+    "page_refs": [
+      1
+    ],
+    "raw_text": "TSR Inc - AD&D 2nd Edition - PHBR12 - The Complete Paladin's Handbook.pdf"
+  }
+}

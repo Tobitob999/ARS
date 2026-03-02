@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "invisibility_to_animals",
+  "name": "Invisibility to Animals",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Invisibility to Animals (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "ninth",
+    "book_pages": [
+      200
+    ],
+    "pdf_pages": [
+      201
+    ],
+    "raw_block": "Invisibility to Animals (Alteration)\nSphere: Animal\nRange: Touch\nComponents: S, M\nDuration: 1 turn + 1 round/level\nCasting Time: 4\nArea of Effect: 1 creature touched/level\nSaving Throw: None\nWhen an invisibility to animals spell is\ncast, the creature touched becomes totally\nundetectable by normal animals with Intel-\nligences under 6. N.od animals includes\ngiant-sized varieties, but it excludes any\nwith magical abilities or powers. The\nenchanted individual is able to walk among\nsuch animals or pass through them as if he\ndid not exist. For example, this individual\ncould stand before the hungriest of lions or a\ntyrannosaurus rex and not be molested or\neven noticed. However, a nightmare, hell\nhound, or winter wolf would certainly be\naware of the individual. For every level the\ncaster has achieved, one creature can be ren-\ndered invisible. Any recipient attacking\nwhile this spell is in effect ends the spell\nimmediately (for himself only).\nThe material component of this spell is\nholly rubbed over the recipient."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Invisibility to Animals",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "Touch",
+      "components": "S, M",
+      "duration": "1 turn + 1 round/level",
+      "casting_time": "4",
+      "area_of_effect": "1 creature touched/level",
+      "saving_throw": "None",
+      "description_excerpt": "When an invisibility to animals spell is cast, the creature touched becomes totally undetectable by normal animals with Intel- ligences under 6. N.od animals includes giant-sized varieties, but it excludes any with magical abilities or powers. The enchanted individual is able to walk among such animals or pass through them as if he did not exist. For example, this individual could stand before the hungriest of lions or a tyrannosaurus rex and not be molested or even noticed. However, a nightmare, hell hound, or winter wolf would certainly be aware of the individual. For every level the caster has achieved, one creature can be ren- dered invisible. Any recipient attacking while this spell is in effect ends the spell immediately (for himself only). The material component of this spell is holly rubbed over the recipient."
+    },
+    "quality_flags": []
+  }
+}

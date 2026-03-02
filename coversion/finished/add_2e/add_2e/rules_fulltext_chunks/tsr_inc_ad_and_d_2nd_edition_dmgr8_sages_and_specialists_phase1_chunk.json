@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_1_mapping",
+    "tsr_inc_ad_and_d_2nd_edition_dmgr8_sages_and_specialists"
+  ],
+  "summary": "Abgeleiteter Phase-1-Chunk aus Kapitelmarkern fuer TSR Inc - AD&D 2nd Edition - DMGR8 - Sages and Specialists.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - DMGR8 - Sages and Specialists",
+    "source_file": "TSR Inc - AD&D 2nd Edition - DMGR8 - Sages and Specialists.pdf",
+    "chapter_map_file": "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dmgr8_sages_and_specialists_chapter_map.json",
+    "text": "Chapter 7: The Healer........,.................. (first_seen_pdf_page=4)\nChapter 9: The Scribe . (first_seen_pdf_page=4)\nChapter 10: The Seer........... (first_seen_pdf_page=4)\nChapter 11: Using Specialists............. . ......120 (first_seen_pdf_page=4)"
+  },
+  "mechanics": {
+    "topic": "phase_1_skeleton_mapping",
+    "keywords": [
+      "add_2e",
+      "book_conversion",
+      "extensions",
+      "tsr_inc_ad_and_d_2nd_edition_dmgr8_sages_and_specialists"
+    ],
+    "injection_priority": "support",
+    "mapped_skeleton_fields": [
+      "extensions"
+    ],
+    "raw_text": "Chapter 7: The Healer........,.................. (first_seen_pdf_page=4)\nChapter 9: The Scribe . (first_seen_pdf_page=4)\nChapter 10: The Seer........... (first_seen_pdf_page=4)\nChapter 11: Using Specialists............. . ......120 (first_seen_pdf_page=4)",
+    "derived_from": [
+      "detected_chapters",
+      "detected_appendices"
+    ]
+  }
+}

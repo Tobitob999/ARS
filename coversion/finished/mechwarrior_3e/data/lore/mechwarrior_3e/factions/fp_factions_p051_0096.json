@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "factions_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "factions",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Character must take Tour of Duty: Inner Sphere",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 51,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:56Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_factions_p051_0096",
+    "entity_type": "factions",
+    "name_guess": "Character must take Tour of Duty: Inner Sphere",
+    "breadcrumb_path": "Rules Compendium > Page 051 > factions > Character must take Tour of Duty: Inner Sphere",
+    "page_refs": [
+      51
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Character must take Tour of Duty: Inner Sphere as next path] An honor duel with your commander goes against you (Demotion, Enemy (21] Your opponent takes your rivalry beyond the battle tield (Enemy] the occupation zones you found Inner Sphere ways too tempting to ignore (Bad Reputation (2), choose one- Gambling +1 , Seduction +1 or Streetwise /Any +1| Garrison duty on backwater planet [+1 to any one skill] Assigned to planet where raids are common [actics Any +1 +1 t0 any three the character'$ Military Field skills| Exemplary service lands you leading position in planetary assault (Vehicle Custom Vehicle Strategy +1_ 72 t0 any twO of tne character\" Military Field skills] Victory in Trial of Position brings nonor and added responsibility (Commission (Rank 11, Leadership character already has the Commission Trait, take Promotion insteadl Your heroic exploits rate brief mention in your Clan's Remembrance [SOC +1 Brave , Good Reputation (2), Vehicle_ Enemy; +2 t0 any one skill] [Choose one event or roll twice and apply both results] To Serve and Protect Events Captured by crime syndicate while undercover not good place to be [DEX -1 Pain Resistance , Enemy (21."
+  }
+}

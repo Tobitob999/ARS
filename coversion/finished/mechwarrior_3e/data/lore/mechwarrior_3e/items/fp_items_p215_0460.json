@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "123, 125 126 Forgery: 48, 99-100 Forgery kit;",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 215,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:29Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p215_0460",
+    "entity_type": "items",
+    "name_guess": "123, 125 126 Forgery: 48, 99-100 Forgery kit;",
+    "breadcrumb_path": "Rules Compendium > Page 215 > items > 123, 125 126 Forgery: 48, 99-100 Forgery kit;",
+    "page_refs": [
+      215
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "123, 125 126 Forgery: 48, 99-100 Forgery kit; 150 Forge iveness_ Rite of. 190 Fossil fuel recharger; 140 Free Fall, 100 Free Rasalhague Republic contacts."
+  }
+}

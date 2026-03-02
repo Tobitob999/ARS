@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2.0",
+  "id": "table_57",
+  "name": "Table 57: ARMOR MODIFIERS FOR WRESTLING",
+  "category": "table",
+  "tags": [
+    "add_2e",
+    "table",
+    "player_handbook",
+    "toc_normalized"
+  ],
+  "summary": "PHB Table 57 (ARMOR MODIFIERS FOR WRESTLING).",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "table_number": 57,
+    "title": "ARMOR MODIFIERS FOR WRESTLING",
+    "book_page": 97,
+    "pdf_page": 98,
+    "raw_page_token": "97"
+  },
+  "mechanics": {
+    "source": "toc_parse_v3",
+    "confidence": "medium"
+  }
+}

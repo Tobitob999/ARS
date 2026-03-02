@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "vehicles_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "vehicles",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Theodore' troops and various mercenary groups joined the",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 162,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:57Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_vehicles_p162_0267",
+    "entity_type": "vehicles",
+    "name_guess": "Theodore' troops and various mercenary groups joined the",
+    "breadcrumb_path": "Rules Compendium > Page 162 > vehicles > Theodore' troops and various mercenary groups joined the",
+    "page_refs": [
+      162
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [
+      "3039"
+    ],
+    "stat_tokens": [],
+    "excerpt": "Theodore' troops and various mercenary groups joined the Republic's KungsArme in battle against the ronin; but poor contracts negotiated in haste paid most of the mercenar ies too much money for too little fighting: Free Rasalhague won its freedom_ but its citizens learned t0 loathe mercenaries_ In April 3039 Hanse Davion set in motion the second great wave of his to unite the Inner Sphere under his rule launched two-front attack the Dieron district the Draconis Combine_ The first assault wave succeeded brilliantly; but before Hanse could Iaunch second wave, the Combine counterattacked and threw the Commonwealth on the defen- sive Aided by the Star League Mechs ComStar had provided_ Theodore Kurita gambled with the fate of his nation and won."
+  }
+}

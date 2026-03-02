@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "polymorph_other",
+  "name": "Polymorph Other",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Polymorph Other (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      161
+    ],
+    "pdf_pages": [
+      162
+    ],
+    "raw_block": "Polymorph Other (Alteration)\nRange: 5 yards/lwel\nComponents: V, S, M\nDuration: Permanent\nCasting Time: 4\nArea of Effect: 1 creature\nSaving Throw: Neg.\nmagic that completely alters the form and\nability, and possibly the personality and\nmentality, of the recipient. of course, while\na creature with a lower Intelligence can be\npolymorphed in form into something with a\nhigher Intelligence, it will not gain that crea-\nture’s mental ability. The reverse-poly-\nmorphing a higher Intelligence creature into\none of significantly lower Intelligence-\nresults in a creature much more intelligent\nthan appearances would lead one to believe.\nThe polymorphed creature must succeed on\na system shock (see Table 3) roll to see if it\nsurvives the change. After this, it must\nmake a special Intelligence check to see if it\nretains its personality (see following).\nThe polymorphed creature acquires the\nfm4 apd physical abilities of the creature it\nbe& polymorphed into, while retaining\nnd. Form indudeo-natural Annor\ndue to skin toughness, but not\ndue t~ quickness, magical nature, etc.),\nphysic81 movement abilities (walking,\nswimming, fiishr with +, but not plane\nshifting, blinking, teleporting, etc.), and\nattack routines (daw/claw/bite, swoop,\nrake, constriction, but not petrifitation,\nbreath weapons, energy drain, etc.). Hit\npoints and saving throws do not change\nfrom the original form. Noncorporeal forms\ncannot be assumed. Natural shapeshifters\n(lycanthropes, dopplegangers, higher level\ndruids, etc.) are affected for but one round,\nand can then resume their normal form.\nIf slain, the polymorphed creature reverts\nto its original form (it‘s still dead, though).\n(Note that most creatures generally prefer\ntheir own form and will not willingly stand\nthe risk of being subjected to this spell!) As\nclass and level are not attributes of form,\nabilities derived from either cannot be\ngained by this spell, nor can exact ability\nscores be specified.\nWhen the polymorph occurs, the crea-\nture‘s equipment, if any, melds into the new\nform (in particularly challenging cam-\npaigns, the DM may allow protective\ndevices, such as a ring of protection, to con-\ntinue operating effectively). The creature\nretains its mental abilities, including spell\nuse, assuming the new form allows comple-\ntion of the proper verbal and somatic com-\nponents and the material components are\navailable. Creatures not used to a new form\nmight be penalized at the DM’s option (e.g.,\n-2 to attack rolls) until they practice suffi-\nciently to master it.\nThe polymoTph other spell is a pow\nWhen the physical changeomim, then is\na base 100% chance that the subjects per-\nsonality and mentality cbngc into that of\nnew form (i.e., a roll of 20 or less on I-).\nFor each 1 point of IntelligeMc of the sub-\nject, subtract 1 from the base chance on\nI-. Additionally, for every Hit Die of dif-\nkrenue between the original form and the\nform it is assuming, add or sub- 1\n(depending on whether polJnnorpbed fwm\nhas more Hit Dice [or leveis) or fewer Hit\nDice [or levels] than orisinal/ respetively).\nThe chance for assumption of the personali-\nty and mentality of the nrwJorm is checked\ndaily until the drange t9kes.place.\nA subject acquiring the mentality of the\nnew form has effectively become the crea-\nture whose form was assumed pnd comes\nunder the control of the DM until recovered\nby a wish SpeH or similar magic. Once this\nfinal change takes place, the creature\nacquires the new form‘s full range of magi-\ncal and special abilities.\nExample: If a 1 Hit Die orc of 8 Ink&-\ngence is polymorph4 into a white dragon\nwith 6 Hit Dice, for example, it is 8596 (20-\n8 Intelligence + 5 level d&kence 16-11 = 17\nout of 20 = 85%) likely to actud€y become\none in allrespects, but in any case it has the\ndragon‘s physical and mental capabilities. If\nit daw not aalume the personality and men-\ntality of a white dragon, it ~QWS what it\nformerly hew as well.\nThe wizd can use a dispsi magic spell to\nchange the polymorphed creature back to\nits anginal from, and this requires a system\nshock roll. Those who have lost their indi-\nviduality and are then converted back main-\ntain the belief that they are actually the\npolymorphed creature and attempt to\nreturn to that form. Thus the orc who co~8\nto believe he is a white dragon, when con-\nverted back to his orc form, ste-y\nmaintains he is really a white dragon poly-\nmorphed into the shape of an orc. His am-\npanions will most likely consider him mad.\nThe material component of this spell b a\ncaterpillar cocoon."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Polymorph Other",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "5 yards/lwel",
+      "components": "V, S, M",
+      "duration": "Permanent",
+      "casting_time": "4",
+      "area_of_effect": "1 creature",
+      "saving_throw": "Neg.",
+      "description_excerpt": "magic that completely alters the form and ability, and possibly the personality and mentality, of the recipient. of course, while a creature with a lower Intelligence can be polymorphed in form into something with a higher Intelligence, it will not gain that crea- ture’s mental ability. The reverse-poly- morphing a higher Intelligence creature into one of significantly lower Intelligence- results in a creature much more intelligent than appearances would lead one to believe. The polymorphed creature must succeed on a system shock (see Table 3) roll to see if it survives the change. After this, it must make a special Intelligence check to see if it retains its personality (see following). The polymorphed creature acquires the fm4 apd physical abilities of the creature it be& polymorphed into, while retaining nd. Form indudeo-natural Annor due to skin toughness, but not due t~ quickness, m"
+    },
+    "quality_flags": []
+  }
+}

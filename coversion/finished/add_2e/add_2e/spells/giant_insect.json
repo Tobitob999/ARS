@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.2.1",
+  "id": "giant_insect",
+  "name": "Giant Insect",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Giant Insect (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "fourth",
+    "book_pages": [
+      217,
+      218
+    ],
+    "pdf_pages": [
+      218,
+      219
+    ],
+    "raw_block": "Giant Insect (Alteration)\nReversible\nSphere: Animal\nRange: 20 yards\nComponents: V, S, M\nDuration: Special\nCasting Time: 7\nArea of Effect: 1 to 6 insects\nSaving Throw: None\ngrown to the same size. The number of\ninsects and the size to which they can be\ngrown depend upon the priest's level:\nFor example, an 8th-level priest can grow\nthree insects to 3 Hit Dice, four insects to 2\nHit Dice, or nine insects to 1 hit die. Hying\ninsects of 3 Hit Dice or more can carry a\nrider of human size (assume that such can\ncarry 80 pounds per Hit Die).\nIf the casting is interrupted for any rea-\nson, OF if the insects are currently subject to\nany other magical effect (including this\none), the insects die and the spell is ruined.\nThe DM decides how many normal insects\nof what type are available; this is often a\ngreater limitation on the spell than the limits\nabove.\nIf the insect created by this spell matches\nL, one attack, and inflicts Id4\nlamage per Hit Die.\ni\nExample: A 14th-level priest uses the gi-\nant insect spell to enlarge one beetle (all that\nis available) to 6 HD size. The DM decides\nthe beetle has AC 5 and bites once for 6d4\npoints of damage.\nNote that the spell works only on actual\ninsects. Arachnids, crustaceans, and other\ntypes of small creatures are not affected.\nAny giant insects created by this spell do not\nattempt to harm the priest, but the priest's\ncontrol of such creatures is limited to simple\ncommands (\"attack,\" \"defend,\" \"guard,\" and\nso forth). Orders to attack a certain creature\nwhen it appears or guard against a particu-\nlar occurrence are too complex. Unless com-\nmanded to do otherwise, the giant insects\nattempt to attack whoever or whatever is\nnear them.\nThe reverse of the spell, shrink insect, re-\nduces any giant insect to normal insect size.\nThe number of Hit Dice affected by the\npriest is subtracted from the number of Hit\nDice of the insects, and any insect reduced\nto 0 Hit Dice has been shrunk. Partial\nshrinking is ignored; an insect is either\nshrunk or unaffected. Thus, a 9th-level\npriest attacked by giant ants could shrink\nthree warrior ants or four worker ants to\nnormal insect size with no saving throw.\nThis spell has no effect on intelligent insect-\nlike creatures.\nThe priest must use his holy symbol for\neither version of the spell."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Giant Insect",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "20 yards",
+      "components": "V, S, M",
+      "duration": "Special",
+      "casting_time": "7",
+      "area_of_effect": "1 to 6 insects",
+      "saving_throw": "None",
+      "description_excerpt": "grown to the same size. The number of insects and the size to which they can be grown depend upon the priest's level: For example, an 8th-level priest can grow three insects to 3 Hit Dice, four insects to 2 Hit Dice, or nine insects to 1 hit die. Hying insects of 3 Hit Dice or more can carry a rider of human size (assume that such can carry 80 pounds per Hit Die). If the casting is interrupted for any rea- son, OF if the insects are currently subject to any other magical effect (including this one), the insects die and the spell is ruined. The DM decides how many normal insects of what type are available; this is often a greater limitation on the spell than the limits above. If the insect created by this spell matches L, one attack, and inflicts Id4 lamage per Hit Die. i Example: A 14th-level priest uses the gi- ant insect spell to enlarge one beetle (all that is available) to 6 HD size."
+    },
+    "quality_flags": [
+      "trimmed_merged_block"
+    ]
+  }
+}

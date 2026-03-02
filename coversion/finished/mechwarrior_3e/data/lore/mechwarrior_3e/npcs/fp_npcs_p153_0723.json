@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "vid-chip and watch prerecorded movie cuME variety of",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 153,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:55Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p153_0723",
+    "entity_type": "npcs",
+    "name_guess": "vid-chip and watch prerecorded movie cuME variety of",
+    "breadcrumb_path": "Rules Compendium > Page 153 > npcs > vid-chip and watch prerecorded movie cuME variety of",
+    "page_refs": [
+      153
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "vid-chip and watch prerecorded movie cuME variety of sizes show: Tri-vid sets Personal Music Set Characters both play and record musi-chips on tnis small device, Tiny earpieces are included the listener does not want t0 bother others: Publlc Transport Buses ad trains are usually found only in large cities_ ning on set routes and schedules Holovids Holovids refer t0 either feature movies regular broadcast programming Because of tne vast distances and times involved in transmitting holovids across the Inner Sphere each nation and region (and sometimes even each planet) produces its Own programs Vids are imported from other regions however; and result popular programs can often make the rounds the Inner Sphere over the course of months years Holovids can be viewed at public theater or rented or purchased on data chip for home viewing: Taxl Rlde Taxis can be found in most large cities and can ferry char- acters just about aywhere they want t0 go in that city (at much higher price than standard public transportation}."
+  }
+}

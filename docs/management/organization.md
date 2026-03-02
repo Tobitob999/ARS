@@ -87,7 +87,7 @@
 | **Verantwortung** | Spielsessions ausfuehren, Regelkonsistenz pruefen, Edge Cases finden |
 | **Staerken** | Automatisierte Wiederholung, Konsistenz-Checks, Metriken-Erfassung |
 | **Outputs** | Test-Reports, Bug-Meldungen, Regelwerk-Inkonsistenzen |
-| **Status** | Geplant — noch nicht implementiert |
+| **Status** | Implementiert (Session 5) — `scripts/virtual_player.py`, N-Zug-Simulation, Metriken-Export nach `data/metrics/` |
 
 ---
 

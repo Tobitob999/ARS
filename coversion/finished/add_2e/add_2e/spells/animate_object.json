@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "animate_object",
+  "name": "Animate ObJect",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Animate ObJect (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "sixth",
+    "book_pages": [
+      226
+    ],
+    "pdf_pages": [
+      227
+    ],
+    "raw_block": "Animate ObJect (Alteration)\nSphere: Creation, Summoning\nRange: 30 yards\nComponents: V, S\nDuration: 1 round/level\nCasting Time: 9\nArea of Effect: 1 cubic foot/level\nSaving Throw: None\nThis powerful spell enables the priest\ncasting it to imbue inanimate objects with\nmobility and a semblance of life. The ani-\nmated object, or objects, then attacks\nwhomever or whatever the priest first desig-\nnates. The animated object can be of any\nnonmagical material whatsoever-wood,\nmetal, stone, fabric, leather, ceramic, glass,\netc. Attempting to animate an object in\nsomeone's possession grants that person a\nsaving throw to prevent the spell's effect.\nThe speed of movement of the object\ndepends on its means of propulsion and its\nweight. A large wooden table would be\nrather heavy, but its legs would give it\nspeed. A rug could only slither along. A jar\nwould roll. Thus a large stone pedestal\nwould rock forward at 10 feet per round, a\nstone statue would move ht 40 feet per\nround, a wooden statue 80 feet per round,\nan ivory stool of light weight would move at\n226\n120 feet per round. Slithering movement is\nabout 10 feet to 20 feet per round; rolling is\n3q feet to 60 feet per round. The damage\ncaused by the attack of an animated object\ndepends on its form and composition. tight,\nsupple objects can only obscure vision,\nobstruct movement, bind, trip, smother,\netc. Light, hard objects can fall upon or oth-\nerwise strike for I& points of damage or\npossibly obstruct and trip, as do light, sup\nple objects. Hard, medium-wcfi5ht objects\ncan crush or strike for 2d4 points of dam-\nage, while larger and heavier * may\ninflict 3d4,4d4, or even 5d4 points of dam-\nage.\nThe frequency of attack of animated\nobjects depends on their method of locomo-\ntion, appendages, and method of attack.\nThis varies from as seldom as once every\nfive melee rounds to as frequently as once\nper round. The Armor Class of the object\nanimated is basically a function of ma&\nand movement ability. Damage depends on\nthe type of weapon and the object struck. A\nsharp cutting weapon is effective against\nfabric, leathe, wood, and like substansdg.\nHeavy smashing and crushing weapons are\nuseful against wood, stone, and metal\nobjects. Your DM will determine all of these\nfactors, as well as how much damage the\nanimated object can sustain before being\ndestroyed. The priest can animate one cubic\nfoot of material for each experience level he\nhas attained. Thus, a 14th-level priest could\nanimate one or more objects whose solid\nvolume did not exd 14 cubic feet-a large\nstatue, two rugs, three chairs, or a dozen\naverage crocks."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Animate ObJect",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "30 yards",
+      "components": "V, S",
+      "duration": "1 round/level",
+      "casting_time": "9",
+      "area_of_effect": "1 cubic foot/level",
+      "saving_throw": "None",
+      "description_excerpt": "This powerful spell enables the priest casting it to imbue inanimate objects with mobility and a semblance of life. The ani- mated object, or objects, then attacks whomever or whatever the priest first desig- nates. The animated object can be of any nonmagical material whatsoever-wood, metal, stone, fabric, leather, ceramic, glass, etc. Attempting to animate an object in someone's possession grants that person a saving throw to prevent the spell's effect. The speed of movement of the object depends on its means of propulsion and its weight. A large wooden table would be rather heavy, but its legs would give it speed. A rug could only slither along. A jar would roll. Thus a large stone pedestal would rock forward at 10 feet per round, a stone statue would move ht 40 feet per round, a wooden statue 80 feet per round, an ivory stool of light weight would move at 226 120 feet per round. Slit"
+    },
+    "quality_flags": []
+  }
+}

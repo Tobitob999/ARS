@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "The MoS is not added to the damage",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 119,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:31Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p119_0169",
+    "entity_type": "items",
+    "name_guess": "The MoS is not added to the damage",
+    "breadcrumb_path": "Rules Compendium > Page 119 > items > The MoS is not added to the damage",
+    "page_refs": [
+      119
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "MoS",
+      "Mos",
+      "damage"
+    ],
+    "excerpt": "The MoS is not added to the damage roll for burst-fire attacks Instead the attack successful, the damage for the attack is increased by number of dice equa to the Mos maximum number of extra dice equal to the number of shots fired Any excess Mos disregarded BURBT FIRE Some weapons such as submachine euns fire stream of multiple projectiles rather than single projectile when the trig; 118"
+  }
+}

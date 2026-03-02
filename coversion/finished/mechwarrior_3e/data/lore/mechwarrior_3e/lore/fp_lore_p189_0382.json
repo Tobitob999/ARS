@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "lore_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "lore",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Most trips Iast between tour and ighteen days,",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 189,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:13Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_lore_p189_0382",
+    "entity_type": "lore",
+    "name_guess": "Most trips Iast between tour and ighteen days,",
+    "breadcrumb_path": "Rules Compendium > Page 189 > lore > Most trips Iast between tour and ighteen days,",
+    "page_refs": [
+      189
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Most trips Iast between tour and ighteen days, with an eight-day avcrage AVERAOE BUBTAINED OFF-ROAD MOVEMENT RATES Mode of Transport Walking Mule /elephant /raxx Camel Horse /tabiranth Speed kph 15 kph 20 kph 25 kph Heavy transport Jeep Jet sled Ground car Skimmer Speeder 50 kph 75 kph 80 kph 95 kph 100 kph 185 kph Lithium-Fusion Batteries Hand-offs and Command Circuits The need t0 recharge the JumpShip's drive cote slows down most interstellar journeys; which routinely take week per thirty-light-year jump At that rate crossing Ine Inner Sphere would take tnirty-Tour wccks_ To cut down that time numans have developed severa strategies."
+  }
+}

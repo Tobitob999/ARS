@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "lore_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "lore",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "The Inner Sphere powers have been manufacturing their",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 143,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:40Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_lore_p143_0198",
+    "entity_type": "lore",
+    "name_guess": "The Inner Sphere powers have been manufacturing their",
+    "breadcrumb_path": "Rules Compendium > Page 143 > lore > The Inner Sphere powers have been manufacturing their",
+    "page_refs": [
+      143
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "armor"
+    ],
+    "excerpt": "The Inner Sphere powers have been manufacturing their own battle armor designs decade but the Successor States have only enough ser- vice to equip few of their elite regiments and special-forces units_ Power-armor troopers have special systems_ For example , all suits are environmentally sealed, allowing them to function space 0r underwater: heads up display (HUD) with infrared capabilities projects data t0 the trooper'$ screen: Advanced short-range tactica communications systems are built into every suit; while others can be easily fitted with longer-range and even satellite comm systems (though in the latter case_ portable dish would need to be set up)."
+  }
+}

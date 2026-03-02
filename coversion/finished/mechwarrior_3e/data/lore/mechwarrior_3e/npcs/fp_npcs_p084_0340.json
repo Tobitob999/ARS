@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "TRAITS character with Good Reputation iS as well",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 84,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:07Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p084_0340",
+    "entity_type": "npcs",
+    "name_guess": "TRAITS character with Good Reputation iS as well",
+    "breadcrumb_path": "Rules Compendium > Page 084 > npcs > TRAITS character with Good Reputation iS as well",
+    "page_refs": [
+      84
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "TN"
+    ],
+    "excerpt": "TRAITS character with Good Reputation iS as well known to his adversaries a5 t0 his friends result, the character receives +3 TN Modifier on all Skill Checks that involve concealing his identity. such as Disguise_ beyond the scope of this book: If the players really want to por- tray landed nobles in MW3, the simp est way for the gamemas ter t0 deal with is t0 assume that the additional income gen- erated by the land holding is almost entirely offset by the addi- tional costs associated with its operation (such as hiring lack eys t0 the holding while the player character is off adven- turingi."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "In practice _ however; this ratio often reduced",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 191,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:15Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p191_0693",
+    "entity_type": "history",
+    "name_guess": "In practice _ however; this ratio often reduced",
+    "breadcrumb_path": "Rules Compendium > Page 191 > history > In practice _ however; this ratio often reduced",
+    "page_refs": [
+      191
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "In practice _ however; this ratio often reduced by bidding among the defenders for the honor upholding the decision; Severa restrictions apply to the Trial of Refusal: chal: lenge must come from within the appropriate body for exam ple , Inal Refusal against Grand Council decision must be made by member of tne Grand Council by someone cited the decision No one can challenge the outcome of Trial of Refusal, though additional concerned parties can stage addi- tional Refusals_ which usually occur simultaneously: Clansmen also cannot challenge Satarra_ the Clan Council' right of veto regarding disputes between castes_ CLAN TRIALS: THE HONOR ROAD Honor guides relationships between individuals and Clans, through rituals that limit the effects of conflict in Clan society."
+  }
+}

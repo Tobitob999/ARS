@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Characters must take off just as with the",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 151,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:54Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p151_0717",
+    "entity_type": "npcs",
+    "name_guess": "Characters must take off just as with the",
+    "breadcrumb_path": "Rules Compendium > Page 151 > npcs > Characters must take off just as with the",
+    "page_refs": [
+      151
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "150 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Characters must take off just as with the assisted Jump and can travel up t0 one hundred meters in that first turn: Instead of land ing: however, they choose t0 remain in the air Once airborne, the character can fly up to 150 meters per turn but must make suc cessful Jump Pack Check to maintain controlled flight: unsuccessful roll means the character careens out of control, If the MoF was less he or she simply loses control and must expend Complex Action and make successful Control Check next turn to regain control, If the MoF was or more the char- acter slams into the ground some other obstacle) and suffers falling damage_ Characters can also hover and can Iand at any time Each of flight (or hovering requires Simple Action."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "factions_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "factions",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "In truth, though militarism is central to the",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 33,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:48Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_factions_p033_0059",
+    "entity_type": "factions",
+    "name_guess": "In truth, though militarism is central to the",
+    "breadcrumb_path": "Rules Compendium > Page 033 > factions > In truth, though militarism is central to the",
+    "page_refs": [
+      33
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "In truth, though militarism is central to the Clan way of Iife Clan warriors form less than one percent of the population Those deemed unsuitable for warrior life , or who flunk out Of warrior training_ are assigned t0 the four civilian castes_ The work of these laborers merchants scien tists and technicians allows Clan society to function_ By Inner Sphere standards, Clan civilians are second-class citizens."
+  }
+}

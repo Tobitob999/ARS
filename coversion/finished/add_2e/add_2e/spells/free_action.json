@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "free_action",
+  "name": "Free Action",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Free Action (Abjuration, Enchantment) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "fourth",
+    "book_pages": [
+      217
+    ],
+    "pdf_pages": [
+      218
+    ],
+    "raw_block": "Free Action (Abjuration, Enchantment)\nSphere: Charm\nRange: Touch\nComponents: V, S, M\nDuration: 1 turn/level\nCasting Time: 7\nArea of Effect: Creature touched\nSaving Throw: None\nThis spell enables the creature touched to\nmove and attack normally for the duration\nJf the spell, even under the influence of\n217\nbreathing without further appropriate\nic.\nThe material component is a leather\nthong, bound around the arm or similar\nappendage, which disintegrates when th6\nspell expires."
+  },
+  "mechanics": {
+    "school_or_type": "Abjuration, Enchantment",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Free Action",
+      "canonical_name_guess": null,
+      "school_or_type": "Abjuration, Enchantment",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "1 turn/level",
+      "casting_time": "7",
+      "area_of_effect": "Creature touched",
+      "saving_throw": "None",
+      "description_excerpt": "Jf the spell, even under the influence of 217 breathing without further appropriate ic. The material component is a leather thong, bound around the arm or similar appendage, which disintegrates when th6 spell expires."
+    },
+    "quality_flags": []
+  }
+}

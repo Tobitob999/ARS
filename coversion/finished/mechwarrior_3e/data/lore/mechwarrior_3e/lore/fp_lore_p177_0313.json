@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "lore_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "lore",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "BattleMechs are designed for combat and can mount",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 177,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:07Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_lore_p177_0313",
+    "entity_type": "lore",
+    "name_guess": "BattleMechs are designed for combat and can mount",
+    "breadcrumb_path": "Rules Compendium > Page 177 > lore > BattleMechs are designed for combat and can mount",
+    "page_refs": [
+      177
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "BattleMechs are designed for combat and can mount sev- weapons andor electronics packages. Some are built with jump jets that allow them to jump over obstacles new development, introduced to the Inner Sphere by the Clans, permits technicians to quickly modify the configuration of specially designed BattleMechs series of common con- nections and mounting hardpoints allows these OmniMechs to carry wide variety of weapons and otnet equipment, which can be easily attached and disconnected ."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "In fact, they all make virtual copies of",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 137,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:38Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p137_0413",
+    "entity_type": "history",
+    "name_guess": "In fact, they all make virtual copies of",
+    "breadcrumb_path": "Rules Compendium > Page 137 > history > In fact, they all make virtual copies of",
+    "page_refs": [
+      137
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "In fact, they all make virtual copies of the same Star League-era rifle, the 5I-445 designed Heston, Laser Weapons The Iaser is the staple of the technologically superior army; with superior range ad powerful punch. However; lasers are expensive. placing them well out of the price range most prospective users In fact, some estimate that slug-throwers outnumber lasers in the Inner Sphere by more than 20 to (25 in tne Periphery)."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Electronics: Includes tar geting systems computers and control",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 108,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:28Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p108_0130",
+    "entity_type": "items",
+    "name_guess": "Electronics: Includes tar geting systems computers and control",
+    "breadcrumb_path": "Rules Compendium > Page 108 > items > Electronics: Includes tar geting systems computers and control",
+    "page_refs": [
+      108
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "armor"
+    ],
+    "excerpt": "Electronics: Includes tar geting systems computers and control systems for most modern components_ Fusion: Fusion engines including extra light (XL), for ground-based vehicles and aero space fighters_ ICE: Internal combustion engines for ground vehicles_ Interplanetary: Large reaction dri- ves found DropShips and WarShips including the fusion engines that power them; Jet: Jet-drive systems including fighter engines and BattleMech jump jets Jump Drive: KF jump drive systems_ including Iithium-fusion batteries_ Lasers: Laser weapon systems including pulse laser and PPC weapon systems_ Mechanics: Includes internal struc turc; armor and ground vehicle drive systems Missile: Includes missile and missile artillery weapon systems Myomer: BattleMech and battle armor musculature_ including actua tors Tactics Subskills The Tactics Subskills are based on the various theaters ofbattle in the thirty-first century; summa rized below: Alr: Combat in the atmosphere of a planet; whether in aerospace conventional fighters_ DropShips and VTOLs when used conjunction with air forces 'Mech: Any combat involving BattleMechs in any environment; Infantry: Combat involving con- ventional and/or battle-armored Intantry: Space: Combat in space_ includ\" aerospace fighters, DropShips_ JumpShips and WarShips Ground: Vehicular combat land, including tank, hovercraft and Wheeled vehicles well VTOLs wen used conjunction with ground forces_ Naval: Vehicular combat on the surface and underwater; including conventional naval vessels hydrofoils and submarines_ TECHNICIAN\" The Technician Subskills cover the repair, maintenance and construc ton of all types of mechanical and technological devices, including com- bat vehicles and weapons Technicians need wide range of subskills depending the types things they build and repair Each skill area covers certain group of compo 107"
+  }
+}

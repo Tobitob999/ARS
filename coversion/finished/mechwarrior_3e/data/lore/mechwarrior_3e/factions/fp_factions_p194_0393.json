@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "factions_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "factions",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "This practice is almost solely responsible for limiting",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 194,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:16Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_factions_p194_0393",
+    "entity_type": "factions",
+    "name_guess": "This practice is almost solely responsible for limiting",
+    "breadcrumb_path": "Rules Compendium > Page 194 > factions > This practice is almost solely responsible for limiting",
+    "page_refs": [
+      194
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "This practice is almost solely responsible for limiting the Scorpions' progress. The Arts Most people of the Inner Sphere see Clan culture as drab utilitarian and military, bent solely on conquest: They might be surprised learn that the Clans have well developed artistic traditions The visual arts are widely practiced by Clansmen of every caste. warrior is as likely as merchant to be painter sculptor Certain cratts, however; are closely tied t0 specific castes For example , pottery most common among the arti- san subclass of the merchant caste."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "create_food_b_water",
+  "name": "Create Food b Water",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Create Food b Water (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "third",
+    "book_pages": [
+      209
+    ],
+    "pdf_pages": [
+      210
+    ],
+    "raw_block": "Create Food b Water (Alteration)\nSphere: Creation\nRange: 10 yards\nComponents: V, S\nDuration: Special\nCasting Time: 1 turn\nArea of Effect: 1 cubic foot/level\nSaving Throw: None\nWhen this spell is cast, the priest causes\nfood and water to appear. The food thus\ncreated is highly nourishing if rather bland;\neach cubic foot of the material sustains three\nhuman-sized creatures or one homized\ncreature for a full day. The food decays and\nbecomes inedible within 24 hours, although\nit can be restored for another 24 hours by\ncasting a purify food and wuter spell upon\nit. The water created by this spell is the same\nas that created by the 1st-level priest spell\ncreate wuter. For each experience level the\npriest has attained, one cubic foot of food or\nwater is created by the spell. A 2nd-level\npriest could create one cubic foot of food\nand one cubic foot of water."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Create Food b Water",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "10 yards",
+      "components": "V, S",
+      "duration": "Special",
+      "casting_time": "1 turn",
+      "area_of_effect": "1 cubic foot/level",
+      "saving_throw": "None",
+      "description_excerpt": "When this spell is cast, the priest causes food and water to appear. The food thus created is highly nourishing if rather bland; each cubic foot of the material sustains three human-sized creatures or one homized creature for a full day. The food decays and becomes inedible within 24 hours, although it can be restored for another 24 hours by casting a purify food and wuter spell upon it. The water created by this spell is the same as that created by the 1st-level priest spell create wuter. For each experience level the priest has attained, one cubic foot of food or water is created by the spell. A 2nd-level priest could create one cubic foot of food and one cubic foot of water."
+    },
+    "quality_flags": [
+      "trimmed_merged_block"
+    ]
+  }
+}

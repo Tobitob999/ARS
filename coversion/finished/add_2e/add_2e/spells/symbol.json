@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "symbol",
+  "name": "Symbol",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Symbol (Conjuration/Summoning) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "sixth",
+    "book_pages": [
+      236
+    ],
+    "pdf_pages": [
+      237
+    ],
+    "raw_block": "Symbol (Conjuration/Summoning)\nSphere: Guardian\nRange: Touch\nComponents: V, S, M\nDuration: 1 turn/level\nCasting Time: 3\nArea of Effect: Special\nSaving Throw: Neg.\nThe priest casting this spell inscribes a\nglowing symbol in the air or upon any sur-\nface, according to his desire. Any creature\nlooking at the completed symbol within 60\nfeet must roll a successful saving throw vs.\nspell or suffer the effect. The symbol glows\nfor one turn for each experience level of the\ncaster. The particular symbol used is se-\nlected by the caster at the time of casting.\nThe caster will not be affected by his own\nsymbol. One of the following effects is cho-\nsen by the caster:\nHopelessness: Creatures seeing it must turn\nback in dejection or surrender to capture\nor attack unless they roll successful sav-\ning throws vs. spell. Its effects last for\n3d4 turns.\nPain: Creatures affected suffer -4 penalties\nto their attack rolls and -2 penalties to\ntheir Dexterity ability scores due to\nwracking pains. The effects last for 2d10\nturns.\nPersuasion: Creatures seeing the symbol be-\ncome of the same alignment as and\nfriendly to the priest who scribed the\nsymbol for ld20 turns unless a saving\nthrow vs. spell is successful.\nThe material components of this spell are\nmercury and phosphorus (see 8th-level wiz-\nard spell, symbol)."
+  },
+  "mechanics": {
+    "school_or_type": "Conjuration/Summoning",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Symbol",
+      "canonical_name_guess": null,
+      "school_or_type": "Conjuration/Summoning",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "1 turn/level",
+      "casting_time": "3",
+      "area_of_effect": "Special",
+      "saving_throw": "Neg.",
+      "description_excerpt": "The priest casting this spell inscribes a glowing symbol in the air or upon any sur- face, according to his desire. Any creature looking at the completed symbol within 60 feet must roll a successful saving throw vs. spell or suffer the effect. The symbol glows for one turn for each experience level of the caster. The particular symbol used is se- lected by the caster at the time of casting. The caster will not be affected by his own symbol. One of the following effects is cho- sen by the caster: Hopelessness: Creatures seeing it must turn back in dejection or surrender to capture or attack unless they roll successful sav- ing throws vs. spell. Its effects last for 3d4 turns. Pain: Creatures affected suffer -4 penalties to their attack rolls and -2 penalties to their Dexterity ability scores due to wracking pains. The effects last for 2d10 turns. Persuasion: Creatures seeing the symbol be"
+    },
+    "quality_flags": []
+  }
+}

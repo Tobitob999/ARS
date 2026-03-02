@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_page",
+  "tags": [
+    "add_2e",
+    "player_handbook",
+    "fulltext",
+    "pdf_page"
+  ],
+  "summary": "PDF-Seite 247 des AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "pdf_page": 247,
+    "text": "It \nTables: WISDOM \nMagical Chance \nAbility Defense Bonus ofspell Spell \nScore Adjustment Spells Failure Immunity \n%o% - \n60% - \n-3 - 50% - \n1 -6 - \n2 -4 - \n7 \n8 \n30% - \n25% - \n-1 - \n- 0 \n9 0 0 20% - \nt 13 0 1st 0% - \n&Me& CHARISMA I \n1Qf Loy.lty \nIkfAximwl \nslrorcIauK!bm \n1 0 -8 -7 \n2 1 -7 -6 \n3 1 -6 -5 c \n8 3 -1 \n9-- --- age \niecialist* Var Var Var Var Var Var \nPriadinC 12 - 9- 13 17 \n* 13 13 14 - 14 - \nerir ... :A \n9---- * Maximum percentile score \n12 - ** Maximum spell ability 13 - 15 \nnwu* - - - - \nj Ttdef - , Bard* - \nI * Optional character class. Specialist \nI includes illusionist."
+  },
+  "mechanics": {
+    "conversion": "fulltext_page_dump",
+    "generated_at": "2026-02-28T16:50:16"
+  }
+}

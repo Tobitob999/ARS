@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "locations_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "locations",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Thus far; humanity has yet to encounter other",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 175,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:05Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_locations_p175_0297",
+    "entity_type": "locations",
+    "name_guess": "Thus far; humanity has yet to encounter other",
+    "breadcrumb_path": "Rules Compendium > Page 175 > locations > Thus far; humanity has yet to encounter other",
+    "page_refs": [
+      175
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Thus far; humanity has yet to encounter other sen: galaxy struggling colonies enslaved by monolithic bureaucra tient life forms. cy might rejoice_ The truth rests somewhere between: Where native life compatible with Terran life whole new array of problems arises. Though digestible, some native flora PLANETARY CONDITIONS and fauna willl Mirely be poisonous t0 humans and Terran ani Humankind occupies more than twO thousand worlds in the mals."
+  }
+}

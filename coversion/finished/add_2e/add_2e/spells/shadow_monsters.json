@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "shadow_monsters",
+  "name": "Shadow Monsters",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Shadow Monsters (IllusiodPhantasm) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      162,
+      163
+    ],
+    "pdf_pages": [
+      163,
+      164
+    ],
+    "raw_block": "Shadow Monsters (IllusiodPhantasm)\nRange: 30 yards\nComponents: V, S\nDuration: 1 round/level\nCasting Time: 4\nArea of Effect: 20-foot cube\nSaving Throw: Special\nA wizard casting the shadow monsters\nspell uses material from the plane of\nShadow to shape semi-real illusions of one\nor more monsters. The total Hit Dice of the\nshadow monster or monsters thus created\ncannot exceed the level of experience of the\nwizard; thus a 10th-level wizard can create\none creature that has 10 Hit Dice, two that\nhave 5 Hit Dice, etc. All shadow monsters\ncreated by one spell must be of the same\nsort. The actual hit point total for each\nmonster is 20% of the hit point total it\nwould normally have. (To determine ’this,\nroll the appropriate Hit Dice and multiply\nthe hit points by .2. Any remainder less than\n.4 is dropped-in the case of monsters with\n1 or fewer Hit Dice, this indicates the mon-\nster was not successfully created-and\nscores between .4 and 1 are rounded up to 1\nhit point.)\nThose viewing the shadow monsters are\nallowed to disbelieve as per normal illu-\nsions, although there is a -2 penalty to the\nattempt. The shadow monsters perform as\nthe real monsters with respect to Armor\ni\ni\n-"
+  },
+  "mechanics": {
+    "school_or_type": "IllusiodPhantasm",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Shadow Monsters",
+      "canonical_name_guess": null,
+      "school_or_type": "IllusiodPhantasm",
+      "range": "30 yards",
+      "components": "V, S",
+      "duration": "1 round/level",
+      "casting_time": "4",
+      "area_of_effect": "20-foot cube",
+      "saving_throw": "Special",
+      "description_excerpt": "A wizard casting the shadow monsters spell uses material from the plane of Shadow to shape semi-real illusions of one or more monsters. The total Hit Dice of the shadow monster or monsters thus created cannot exceed the level of experience of the wizard; thus a 10th-level wizard can create one creature that has 10 Hit Dice, two that have 5 Hit Dice, etc. All shadow monsters created by one spell must be of the same sort. The actual hit point total for each monster is 20% of the hit point total it would normally have. (To determine ’this, roll the appropriate Hit Dice and multiply the hit points by .2. Any remainder less than .4 is dropped-in the case of monsters with 1 or fewer Hit Dice, this indicates the mon- ster was not successfully created-and scores between .4 and 1 are rounded up to 1 hit point.) Those viewing the shadow monsters are allowed to disbelieve as per normal illu- sions,"
+    },
+    "quality_flags": []
+  }
+}

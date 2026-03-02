@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "quests_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "quests",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "almost dozen different designs are already in service",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 197,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:17Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_quests_p197_0159",
+    "entity_type": "quests",
+    "name_guess": "almost dozen different designs are already in service",
+    "breadcrumb_path": "Rules Compendium > Page 197 > quests > almost dozen different designs are already in service",
+    "page_refs": [
+      197
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "armor"
+    ],
+    "excerpt": "almost dozen different designs are already in service Many are specialized for particu- types of missions: tew can handle any combat environment; Each major Inner Sphere power fields several regiments of battle armor These units are never deployed as regiments_ now ever. because each House military Owns relatively few armor suits."
+  }
+}

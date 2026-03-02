@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "locations_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "locations",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "160 cantacts 208 cuttency of. 181 education in;",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 213,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:27Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_locations_p213_0396",
+    "entity_type": "locations",
+    "name_guess": "160 cantacts 208 cuttency of. 181 education in;",
+    "breadcrumb_path": "Rules Compendium > Page 213 > locations > 160 cantacts 208 cuttency of. 181 education in;",
+    "page_refs": [
+      213
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "armor"
+    ],
+    "excerpt": "160 cantacts 208 cuttency of. 181 education in; 179-80 entertainment in; 179 Federated Suns and, 27 Free Worlds League and, game material, 28 Iegal system, 173 Lyran Allance and Magistracy Canopus and; Back woods Bad Reputation_ 39. 79 Ballistic plate armor; 141 Bandits, 189 205 Baron /baroness 172 Baronet; 172 Barriers 121 Base officer /enlisted quarters, 151 Base target number; 15-16_ 111 113 Basic field kit, 146 Basic Technician Field; 53 Basic Training Field , 24 _ 37 ."
+  }
+}

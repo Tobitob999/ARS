@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_2",
+    "tsr_inc_ad_and_d_2nd_edition_dragonlance_heroes_of_defiance",
+    "henchmen_hirelings"
+  ],
+  "summary": "Phase-2 Regelchunk: henchmen_hirelings aus TSR Inc - AD&D 2nd Edition - Dragonlance_ Heroes of Defiance.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Heroes of Defiance",
+    "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Heroes of Defiance.pdf",
+    "text": "[PDF_PAGE 94 | score=1] Eventually, the commander of the force attempted to explain to the kender what the Grand Master found offensive about the Knights of Balif. The kind- hearted kender realized they had hurt the Grand Masters feelings, and so they disbanded their knighthood, which was beginning to bore them anyway. The Solamnic force returned home without a single life lost. The Third Dragon War was far more bloody, however. The kender had managed to gather roughly a dozen of the dragon eggs Thoradins dwarves had mistaken for gems. Most of these wound up in underpopulated areas, but three had been taken to the citadel at the center of Hylo. When these three eggs hatched, the kender tried keeping the dragons\n[PDF_PAGE 127 | score=1] Scene Four: A Talk with Lord Sivaan After bluffing their way into the Bas- tion of Darkness in Scene Three, the heroes come face to face with one of Khellendross chief henchmen. Overview Their escort leads the heroes to Lord Sivaan, a Sivak draconian. After a brief conversation, the Sivak has Dark Knights attempt to subdue the heroes and throw them in with the potential spawn. Getting Started The Narrator can reference the Book of the Fifth Age, Chapter Six, for back- ground on Sivak draconians. First Impressions From the entrance, the heroes follow their Dark Knight escort into a twisting maze of tunnels that existalmost impossiblywithin the loose black sand. The floor beneath your feet "
+  },
+  "mechanics": {
+    "topic": "henchmen_hirelings",
+    "keywords": [
+      "add_2e",
+      "henchmen",
+      "henchmen_hirelings",
+      "tsr_inc_ad_and_d_2nd_edition_dragonlance_heroes_of_defiance"
+    ],
+    "injection_priority": "support",
+    "confidence": 0.05,
+    "page_refs": [
+      94,
+      127
+    ],
+    "raw_text": "[PDF_PAGE 94 | score=1] Eventually, the commander of the force attempted to explain to the kender what the Grand Master found offensive about the Knights of Balif. The kind- hearted kender realized they had hurt the Grand Masters feelings, and so they disbanded their knighthood, which was beginning to bore them anyway. The Solamnic force returned home without a single life lost. The Third Dragon War was far more bloody, however. The kender had managed to gather roughly a dozen of the dragon eggs Thoradins dwarves had mistaken for gems. Most of these wound up in underpopulated areas, but three had been taken to the citadel at the center of Hylo. When these three eggs hatched, the kender tried keeping the dragons\n[PDF_PAGE 127 | score=1] Scene Four: A Talk with Lord Sivaan After bluffing their way into the Bas- tion of Darkness in Scene Three, the heroes come face to face with one of Khellendross chief henchmen. Overview Their escort leads the heroes to Lord Sivaan, a Sivak draconian. After a brief conversation, the Sivak has Dark Knights attempt to subdue the heroes and throw them in with the potential spawn. Getting Started The Narrator can reference the Book of the Fifth Age, Chapter Six, for back- ground on Sivak draconians. First Impressions From the entrance, the heroes follow their Dark Knight escort into a twisting maze of tunnels that existalmost impossiblywithin the loose black sand. The floor beneath your feet "
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "category": "locations_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "locations",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Ian Cameron, who became director gen: eral in",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 161,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:56Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_locations_p161_0208",
+    "entity_type": "locations",
+    "name_guess": "Ian Cameron, who became director gen: eral in",
+    "breadcrumb_path": "Rules Compendium > Page 161 > locations > Ian Cameron, who became director gen: eral in",
+    "page_refs": [
+      161
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [
+      "2549",
+      "2556",
+      "2558",
+      "2567",
+      "2569"
+    ],
+    "stat_tokens": [],
+    "excerpt": "Ian Cameron, who became director gen: eral in 2549, expanded the Hegemony'$ peacemaking role and negotiated an end t0 number of conflicts In 2556 Ian per- suaded the leaders of the Free Worlds League ad the Capellan Confederation t0 sign the Treaty of Geneva; this famous docu- ment Iaid the groundwork for the formation of the Star League_ the interstellar alliance that all too briefly ended wars and advanced the general welfare humanity The Lyran Commonwealth signed the treaty in 2558; the Federated Suns_ 2567 With the inclusion of the Draconis Combine in 2569 Ian Cameron achieved his dream uniting vir tually all humanity under one leader: Led by the enlightened Cameron dynasty, the Star League gave its citizens peace and prosperity for nearly two hundred years."
+  }
+}

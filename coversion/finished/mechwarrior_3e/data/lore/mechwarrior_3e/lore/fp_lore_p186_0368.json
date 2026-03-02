@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "lore_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "lore",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "years ago_ they conquered Terra in brilliantly planned",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 186,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:12Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_lore_p186_0368",
+    "entity_type": "lore",
+    "name_guess": "years ago_ they conquered Terra in brilliantly planned",
+    "breadcrumb_path": "Rules Compendium > Page 186 > lore > years ago_ they conquered Terra in brilliantly planned",
+    "page_refs": [
+      186
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "years ago_ they conquered Terra in brilliantly planned military campaign and they continuing t0 expand tneir politica power base the Inner Sphere and Periphery: RELIGIOUS TOLERANCE Generalizations are dangerous thing; especially with regard religious tolerance within given Inner Sphere Periphery nation; However; certain generalities can be made about the practice and acceptance Of religion various realms The Federated Suns half of the Commonwealth is bizarre blend of religious freedoms and hypocrisy The state has never actively suppressed any relligion; but its people have risen UD on occasion t0 strike at perceived threat, as in the Oriental Purge."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "As character\" abili- ty increases so does or",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 25,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:43Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p025_0083",
+    "entity_type": "npcs",
+    "name_guess": "As character\" abili- ty increases so does or",
+    "breadcrumb_path": "Rules Compendium > Page 025 > npcs > As character\" abili- ty increases so does or",
+    "page_refs": [
+      25
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "As character\" abili- ty increases so does or her skill bonus_ Characters can have skill bonuses as high as +10, though few starting charac ters display even half this level of ability. EVENTS Everybody grows up. Many kids in the thirty-first century grow up on the streets_ But how many street kids were taken group of mercenaries and taught how t0 drive tank?"
+  }
+}

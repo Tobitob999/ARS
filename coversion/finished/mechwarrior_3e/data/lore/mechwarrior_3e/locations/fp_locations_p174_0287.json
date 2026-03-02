@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "locations_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "locations",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "without calling the nationai arnv contract stipulations valid",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 174,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:05Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_locations_p174_0287",
+    "entity_type": "locations",
+    "name_guess": "without calling the nationai arnv contract stipulations valid",
+    "breadcrumb_path": "Rules Compendium > Page 174 > locations > without calling the nationai arnv contract stipulations valid",
+    "page_refs": [
+      174
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "without calling the nationai arnv contract stipulations valid in one nation may not apply to anoth: National agencies exist t0 ensure stability within reali. er; though most cases the parties can fird common ground. and 50 trained work across tne often divergent lega SyS Regional variations often wrcak navoc with nation' llegal tems of various regions_ Many are closely linked t0 statc intelli: system."
+  }
+}

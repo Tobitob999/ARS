@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Arms_ Legs Jorso 6.3 9.8 kg 3.2 kE",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 155,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:55Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p155_0374",
+    "entity_type": "items",
+    "name_guess": "Arms_ Legs Jorso 6.3 9.8 kg 3.2 kE",
+    "breadcrumb_path": "Rules Compendium > Page 155 > items > Arms_ Legs Jorso 6.3 9.8 kg 3.2 kE",
+    "page_refs": [
+      155
+    ],
+    "_ref": [],
+    "cost_mentions": [
+      "3.2 kE"
+    ],
+    "weight_mentions": [
+      "1.2 kg",
+      "2 kg",
+      "22 kg",
+      "8,8 Kg",
+      "9.8 kg"
+    ],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "Armor"
+    ],
+    "excerpt": "Arms_ Legs Jorso 6.3 9.8 kg 3.2 kE D/C/D 4/6/5/4 1,600/50 600/50 22 kg 8,8 Kg Torso Aris, Legs Encumbering Torso Vest Leather (or synthetic) A/A/A Jacket Vest Shoes Work Gloves Heavy Combat Gloves C/B/B Load-Bearng Equipment Vest B/A/A Pack B/A/A Packframe C/NA Humo Suit B/A/A Fatigues B/AA Combat Boots B/A/A Parka C/nA Snow Suit (ATA Elemental Battle Armor F/C/F Inner Sphere Battle Armor E/E/F Combat Helmet C/A/B 1/1/0/1 2 kg 1.2 kg Torso , Arms Tarso Feet Hands Hands 3/4/4/3 125/15 DEXrelated TNs 1/5/1/1 400 100 Torso Encumbering 300 500 Torso, Armc Legs Torso, Arms Legs Feet Fcad Torso."
+  }
+}

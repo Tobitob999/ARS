@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_2_fallback",
+    "tsr_inc_ad_and_d_2nd_edition_dragonlance_battle_lines_adventure_2_rise_of_the_titans",
+    "combat"
+  ],
+  "summary": "Fallback Phase-2 Regelchunk: combat aus TSR Inc - AD&D 2nd Edition - Dragonlance_ Battle Lines Adventure 2 - Rise of the Titans.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Battle Lines Adventure 2 - Rise of the Titans",
+    "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Battle Lines Adventure 2 - Rise of the Titans.pdf",
+    "text": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Battle Lines Adventure 2 - Rise of the Titans.pdf"
+  },
+  "mechanics": {
+    "topic": "combat",
+    "keywords": [
+      "add_2e",
+      "adventure",
+      "battle",
+      "combat",
+      "dragonlance",
+      "edition",
+      "fallback",
+      "lines",
+      "rise",
+      "titans",
+      "tsr_inc_ad_and_d_2nd_edition_dragonlance_battle_lines_adventure_2_rise_of_the_titans"
+    ],
+    "injection_priority": "permanent",
+    "confidence": 0.2,
+    "page_refs": [
+      1
+    ],
+    "raw_text": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Battle Lines Adventure 2 - Rise of the Titans.pdf"
+  }
+}

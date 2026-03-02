@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "hdd_undead",
+  "name": "Hdd Undead",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Hdd Undead (Necromancy) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "third",
+    "book_pages": [
+      150
+    ],
+    "pdf_pages": [
+      151
+    ],
+    "raw_block": "Hdd Undead (Necromancy)\nRange: 60'\nComponents: V, S, M\nDuration: ld4 rounds + 1 round/level\nCasting Time: 5\nArea of Effect: ld3 undead\nSaving Throw: Neg.\nWhen cast, this spell renders immobile\nld3 undead creatures whose total Hit Dice\nare equal to or less than the caster's level. No\nmore than three undead can be affected by a\nsingle spell. To cast, the wizard aims the\nspell at a point within range and the three\nundead closest to this are considered to be in\nthe area of effect, provided all are within the\nfield of vision and spell range of the caster.\nUndead of a mindless nature (skeletons,\nzombies, or ghouls) are automatically af-\nfected. Other forms of undead are allowed a\nsaving throw to negate the effect. If the spell\nis successful, it renders the undead immobile\nfor the duration of the spell.\nThe material component for this spell is a\npinch of sulphur and powdered garlic."
+  },
+  "mechanics": {
+    "school_or_type": "Necromancy",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Hdd Undead",
+      "canonical_name_guess": null,
+      "school_or_type": "Necromancy",
+      "range": "60'",
+      "components": "V, S, M",
+      "duration": "ld4 rounds + 1 round/level",
+      "casting_time": "5",
+      "area_of_effect": "ld3 undead",
+      "saving_throw": "Neg.",
+      "description_excerpt": "The material component for this spell is a pinch of sulphur and powdered garlic."
+    },
+    "quality_flags": []
+  }
+}

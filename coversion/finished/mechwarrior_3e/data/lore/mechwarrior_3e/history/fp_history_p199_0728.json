@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Others_ like the Northwind Highlanders have roots deep",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 199,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:18Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p199_0728",
+    "entity_type": "history",
+    "name_guess": "Others_ like the Northwind Highlanders have roots deep",
+    "breadcrumb_path": "Rules Compendium > Page 199 > history > Others_ like the Northwind Highlanders have roots deep",
+    "page_refs": [
+      199
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Others_ like the Northwind Highlanders have roots deep history and have consistently shown unflagging courage battle Less-reputable units are those that break their contracts for various rcasons violate the Ares Conventions."
+  }
+}

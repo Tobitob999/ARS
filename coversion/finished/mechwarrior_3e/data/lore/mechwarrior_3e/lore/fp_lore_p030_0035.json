@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "lore_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "lore",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Path Restrlctlons: None their politica and religious views",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 30,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:45Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_lore_p030_0035",
+    "entity_type": "lore",
+    "name_guess": "Path Restrlctlons: None their politica and religious views",
+    "breadcrumb_path": "Rules Compendium > Page 030 > lore > Path Restrlctlons: None their politica and religious views",
+    "page_refs": [
+      30
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Path Restrlctlons: None their politica and religious views freely: Work _ trade and profit are tne centra concerns of most Lyrans _ who have grown accus tomed to high standards of living_ The life of luxury even extends to the Lyran military; where power, privilege ad pres tige are derived from rank earned as often as not by whom one knows rather than what one knows or has done_ Though animosities forged during the three centuries of the Succession Wars remain the Clan war ad its aftermath have changed the political views of many in the Alliance Combined with the efforts of Archon Princess Katherine Steiner-Davion (popularly referred to as Katrina), these factors have drastically changed relationships between the Alliance and some of its neighbors Relations with its ages old foe _ the Free Worlds League, are currently quite amicable while those with the Draconis Combine remain strained Dealings with the Capellan Confederation_ never regarded highly by the Lyrans_ are largely neutral, though attitudes vary depending on whom one talks to_ Relations with the Alliance former companion state, the Federated Suns remain awkward The formation the Federated Commonwealth generation ago once made for cOr- LYRAN ALLIANCE (HOUBE STEINER) Tne Lyran Alliance, formerly known the Lyran Commonwealth has never been regarded as military power; remains political and economic force to be reckoned with: Though governed by teudal system like most of the other Successor States the Alliance maintains loose control over member worlds and business interests while actively encourag; thriving capitalist economy: This; along with the fact that its terrtory includes some of the Inner Sphere richest and most heavily industrialized worlds made the Lyran realm a economic superpower almost since its inception."
+  }
+}

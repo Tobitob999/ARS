@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "causing the character embarrassment or even injury: Although",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 20,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:41Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p020_0047",
+    "entity_type": "npcs",
+    "name_guess": "causing the character embarrassment or even injury: Although",
+    "breadcrumb_path": "Rules Compendium > Page 020 > npcs > causing the character embarrassment or even injury: Although",
+    "page_refs": [
+      20
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "causing the character embarrassment or even injury: Although the failure will hurt the character in the short term; he will at least regain some lost Edgel Live and Learn The most mechanical\" way t0 recover Edge but the only method open t0 characters who are both amoral and lucky; I5 t0 simply spend accumulated Experience Points (XPI This repre sents character learning from his mistakes ad applying that knowledge general competence rather than specific skill. This competence and preparedness come across the untrained eye as luck, and the game it is represented by Edge ."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "lore_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "lore",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "from the Capellan Confederation 3005 Resistance was ini;",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 167,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:00Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_lore_p167_0255",
+    "entity_type": "lore",
+    "name_guess": "from the Capellan Confederation 3005 Resistance was ini;",
+    "breadcrumb_path": "Rules Compendium > Page 167 > lore > from the Capellan Confederation 3005 Resistance was ini;",
+    "page_refs": [
+      167
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [
+      "3005"
+    ],
+    "stat_tokens": [],
+    "excerpt": "from the Capellan Confederation 3005 Resistance was ini; Ives Compact and the petty nations 0f the Chaos March. tially tierce= the Kittery Tong; guerrilla band_ took every oppOr- The Outer Rim, more often called the Periphery; lies just tunity target FedSuns personnel; The secession of the St, outside the Inner Sphere."
+  }
+}

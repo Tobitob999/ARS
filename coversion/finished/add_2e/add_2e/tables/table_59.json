@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2.0",
+  "id": "table_59",
+  "name": "Table 59: COVER AND CONCEALMENT MODIFIERS",
+  "category": "table",
+  "tags": [
+    "add_2e",
+    "table",
+    "player_handbook",
+    "toc_normalized"
+  ],
+  "summary": "PHB Table 59 (COVER AND CONCEALMENT MODIFIERS).",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "table_number": 59,
+    "title": "COVER AND CONCEALMENT MODIFIERS",
+    "book_page": 99,
+    "pdf_page": 100,
+    "raw_page_token": "99"
+  },
+  "mechanics": {
+    "source": "toc_parse_v3",
+    "confidence": "medium"
+  }
+}

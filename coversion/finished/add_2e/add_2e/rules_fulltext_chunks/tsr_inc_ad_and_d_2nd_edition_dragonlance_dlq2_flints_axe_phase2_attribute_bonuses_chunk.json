@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_2",
+    "tsr_inc_ad_and_d_2nd_edition_dragonlance_dlq2_flints_axe",
+    "attribute_bonuses"
+  ],
+  "summary": "Phase-2 Regelchunk: attribute_bonuses aus TSR Inc - AD&D 2nd Edition - Dragonlance_ DLQ2 - Flints Axe.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLQ2 - Flints Axe",
+    "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLQ2 - Flints Axe.pdf",
+    "text": "[PDF_PAGE 21 | score=1] Random Encounters When the player characters travel outside town, there is a chance they will run into some form of wildlife or NPC. The following encounters can oc- cur anywhere outside of town except within the caverns, where the PCs meet the gully dwarves, derro, and the tyin. The DM can make any of the following into a set encounter, using them to flesh out the adventure for more combat-oriented groups. Or he may roll 1d10 for a random encounter, with a roll of 1 or 2 indicating that an encounter occurs. The DM should then roll 1d8 to determine which encount- er occurs. Numbers of monsters may be adjusted for the strength of the party. 1. Baaz Draconians (2): Int Average; AL LE; AC 4; MV\n[PDF_PAGE 23 | score=1] make it warm and cozy inside. Old furs, ratty blan- kets and cloaks, and large hunks of grass decorate the floor of the cave. Sludgy and Mudface are quite happy to see company, and offer “food” to the PCs. This in- cludes a bowl of worms, a roasted rat, and a pile of algae. The gully dwarves are mildly offended un- less the PCs at least pretend to sample the food. After the meal, which Skabris enjoys whole- heartedly, Sludgy relates some news. If the PCs in- sist on moving along toward their goal, Sludgy accompanies them and tells his story on the way. Two days ago, he saw a magic cow. Since “two” means “more than one” to a gully dwarf, this could be any time in the last week (his memory doe"
+  },
+  "mechanics": {
+    "topic": "attribute_bonuses",
+    "keywords": [
+      "add_2e",
+      "attribute_bonuses",
+      "tsr_inc_ad_and_d_2nd_edition_dragonlance_dlq2_flints_axe"
+    ],
+    "injection_priority": "support",
+    "confidence": 0.05,
+    "page_refs": [
+      21,
+      23
+    ],
+    "raw_text": "[PDF_PAGE 21 | score=1] Random Encounters When the player characters travel outside town, there is a chance they will run into some form of wildlife or NPC. The following encounters can oc- cur anywhere outside of town except within the caverns, where the PCs meet the gully dwarves, derro, and the tyin. The DM can make any of the following into a set encounter, using them to flesh out the adventure for more combat-oriented groups. Or he may roll 1d10 for a random encounter, with a roll of 1 or 2 indicating that an encounter occurs. The DM should then roll 1d8 to determine which encount- er occurs. Numbers of monsters may be adjusted for the strength of the party. 1. Baaz Draconians (2): Int Average; AL LE; AC 4; MV\n[PDF_PAGE 23 | score=1] make it warm and cozy inside. Old furs, ratty blan- kets and cloaks, and large hunks of grass decorate the floor of the cave. Sludgy and Mudface are quite happy to see company, and offer “food” to the PCs. This in- cludes a bowl of worms, a roasted rat, and a pile of algae. The gully dwarves are mildly offended un- less the PCs at least pretend to sample the food. After the meal, which Skabris enjoys whole- heartedly, Sludgy relates some news. If the PCs in- sist on moving along toward their goal, Sludgy accompanies them and tells his story on the way. Two days ago, he saw a magic cow. Since “two” means “more than one” to a gully dwarf, this could be any time in the last week (his memory doe"
+  }
+}

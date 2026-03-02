@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "+2 TN Modifier applies to the Surgery Check.",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 146,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:41Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p146_0333",
+    "entity_type": "items",
+    "name_guess": "+2 TN Modifier applies to the Surgery Check.",
+    "breadcrumb_path": "Rules Compendium > Page 146 > items > +2 TN Modifier applies to the Surgery Check.",
+    "page_refs": [
+      146
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "TN"
+    ],
+    "excerpt": "+2 TN Modifier applies to the Surgery Check. successful roll indicates the implantation succeeds failed roll indicates that the replacement surgery unsuccess full and additiona attempts will not succeed ADVANCED MEDICAL TOOLS The tools Iisted below are designed for doctors ad other highly trained medical professionals Type 3: Prosthesis Type replacement shaped and operates like the orig: Wmb but is made from dull, flesh-colored plastic."
+  }
+}

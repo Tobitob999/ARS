@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "hypnotism",
+  "name": "Hypnotism",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Hypnotism (EnchantmentKhann) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": null,
+    "book_pages": [
+      135
+    ],
+    "pdf_pages": [
+      136
+    ],
+    "raw_block": "Hypnotism (EnchantmentKhann)\nRange: 5 yards\nComponents: V, S\nDuration: 1 round + 1 round/level\nCasting Time: 1\nArea of Effect: 30-foot cube\nSaving Throw: Neg.\nThe gestures of the wizard, along with his\ndroning incantation, cause ld6 creatures\nwithin the area to become susceptible to a\nsuggestion-a brief and reasonable-\nsounding request (see the 3rd-level wizard\nsuggestion spell). The request must be given\nafter the hypnotism spell is cast. Until that\ntime the success of the spell is unknown.\nNote that the subsequent suggestion is not a\nspell, but simply a vocalized urging (the\ncaster must speak a language the creature\nunderstands for this spell to work). Crea-\ntures that successfully roll their saving\nthrows are not under hypnotic influence.\nThose who are exceptionally wary or hostile\nsave with +1 to +3 bonuses. If the spell is\ncast afan individual creature that meets the\ncaster's gaze, the saving throw is made with\na penalty of -2. A creature that fails its sav-\ning throw does not remember that the caster\nenspelled it."
+  },
+  "mechanics": {
+    "school_or_type": "EnchantmentKhann",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Hypnotism",
+      "canonical_name_guess": null,
+      "school_or_type": "EnchantmentKhann",
+      "range": "5 yards",
+      "components": "V, S",
+      "duration": "1 round + 1 round/level",
+      "casting_time": "1",
+      "area_of_effect": "30-foot cube",
+      "saving_throw": "Neg.",
+      "description_excerpt": "The gestures of the wizard, along with his droning incantation, cause ld6 creatures within the area to become susceptible to a suggestion-a brief and reasonable- sounding request (see the 3rd-level wizard suggestion spell). The request must be given after the hypnotism spell is cast. Until that time the success of the spell is unknown. Note that the subsequent suggestion is not a spell, but simply a vocalized urging (the caster must speak a language the creature understands for this spell to work). Crea- tures that successfully roll their saving throws are not under hypnotic influence. Those who are exceptionally wary or hostile save with +1 to +3 bonuses. If the spell is cast afan individual creature that meets the caster's gaze, the saving throw is made with a penalty of -2. A creature that fails its sav- ing throw does not remember that the caster enspelled it."
+    },
+    "quality_flags": []
+  }
+}

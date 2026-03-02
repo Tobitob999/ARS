@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "prayer",
+  "name": "Prayer",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Prayer (Conjuration/Summoning) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "third",
+    "book_pages": [
+      212
+    ],
+    "pdf_pages": [
+      213
+    ],
+    "raw_block": "Prayer (Conjuration/Summoning)\nSphere: Combat\nRange: 0\nComponents: V, S, M\nDuration: 1 round/level\nCasting Time: 6\nArea of Effect: 60-foot radius\nSaving Throw: None\nBy means of the prayer spell, the priest\nbrings special favor upon himself and his\nparty and causes harm to his enemies.\nThose in the area at the instant the spell is\ncompleted are affected for the duration of\nthe spell. When the spell is completed, all\nattack and damage rolls and saving throws\nmade by those in the area of effect who are\nfriendly to the priest gain +1 bonuses,\nwhile those of the priest's enemies suffer - 1\npenalties. Once the prayer spell is uttered,\nthe priest can do other things, unlike a\nchant, which he must continue to make the\nspell effective. If another priest of the same\nreligious persuasion (not merely the same\nalignment) is chanting when a prayer is cast,\nthe effects combine to +2 and -2, as long\nas both are in effect at once.\nThe priest needs a silver holy symbol,\nprayer beads, or a similar device as the\nmaterial component of this spell."
+  },
+  "mechanics": {
+    "school_or_type": "Conjuration/Summoning",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Prayer",
+      "canonical_name_guess": null,
+      "school_or_type": "Conjuration/Summoning",
+      "range": "0",
+      "components": "V, S, M",
+      "duration": "1 round/level",
+      "casting_time": "6",
+      "area_of_effect": "60-foot radius",
+      "saving_throw": "None",
+      "description_excerpt": "the spell. When the spell is completed, all attack and damage rolls and saving throws made by those in the area of effect who are friendly to the priest gain +1 bonuses, while those of the priest's enemies suffer - 1 penalties. Once the prayer spell is uttered, the priest can do other things, unlike a chant, which he must continue to make the spell effective. If another priest of the same religious persuasion (not merely the same alignment) is chanting when a prayer is cast, the effects combine to +2 and -2, as long as both are in effect at once. The priest needs a silver holy symbol, prayer beads, or a similar device as the material component of this spell."
+    },
+    "quality_flags": []
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_page",
+  "tags": [
+    "gurps_4e",
+    "fulltext",
+    "pdf_page"
+  ],
+  "summary": "PDF-Seite 169 aus GURPS - 4th Edition - Basic Set.pdf.",
+  "source_text": {
+    "book": "GURPS - 4th Edition - Basic Set",
+    "pdf_page": 169,
+    "text": "A “skill” is a particular kind of knowledge; for instance,\njudo, physics, auto mechanics, or a death spell. Every skill is\nseparate, though some skills help you to learn others.\nJust as in real life, you start your career with some\nskills and can learn more if you spend time training.\nA number called “skill level” measures your ability with\neach of your skills: the higher the number, the greater your\nskill. For instance, “Shortsword-17” means a skill level of 17 with\nthe shortsword. When you try to do something, you (or the GM) roll\n3d against the appropriate skill, modified for that particular sit-\nuation. If the number you roll is less than or equal toyour mod-\nified score for that skill, you succeed! But a roll of 17 or 18\nis an automatic failure. For more on skill rolls, modifiers,\nsuccess, and failure, see Chapter 10.\nEach skill is qualified in several ways to indicate\nwhat basic attribute represents talent with that skill, how\neasy the skill is to learn, any special restrictions on who can\nlearn the skill, and whether the skill is broad or narrow in\nfocus.\nCONTROLLING ATTRIBUTE\nEach skill is based on one of the four basic attributes or, more\nrarely, on Perception or Will. Your skill level is calculated direct-\nly from this “controlling attribute”: the higher your attribute score,\nthe more effective you are with every skill based on it! If your char-\nacter concept calls formany skills based on a given attribute, you\nshould consider starting with a high level in that attribute, as\nthis will be most cost-effective in the long run.\nSKILLS 167\nCHAPTER FOUR\nSKILLS\nChoosing Your \nBeginning Skills\nLike attributes and advantages, skills cost points. You should spend\nat least a few of your starting character points on skills. It would be\nextraordinarily unusual for anyone – even a young child – to have no\nskills at all!\nYour starting skills must suit your background. The greater your\nWealth and Status, the more leeway the GM will allow you in skill\nchoice – the rich and powerful can arrange to learn the most surpris-\ning things. You cannot start with inappropriate skills, however. The\nGM is free to forbid any skill that simply would not be available to\nsomeone of your background. For instance, a stone-age hunter could\nnot be a jet pilot, a Victorian gentleman would need an excellent expla-\nnation (and an Unusual Background) to start out as a skilled sorcerer,\nand a futuristic adventurer would have difficulty finding training in\n“archaic” weapon skills . . . though a military background would help."
+  },
+  "mechanics": {
+    "conversion": "fulltext_page_dump",
+    "generated_at": "2026-03-02T15:00:00"
+  }
+}

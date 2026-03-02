@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "heat_metal",
+  "name": "Heat Metal",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Heat Metal (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "second",
+    "book_pages": [
+      205
+    ],
+    "pdf_pages": [
+      206
+    ],
+    "raw_block": "Heat Metal (Alteration)\nReversible\nSphere: Elemental (Fire)\nRange: 40 yards\nComponents: V, S, M\nDuration: 7 rounds\nCasting Time: 5\nArea of Effect: Special\nSaving Throw: Special\nBy means of the heat metal spell, the cast-\ner is able to make ferrous metal (iron, iron\nalloys, steel) extremely hot. Elven chain\nmail is not affected, and magical metal\narmor receives an item saving throw vs.\nmagical fire. If this is successful, the heat\nmetal spell does not affect it.\nOn the first round of the spell, the metal\nmerely becomes very warm and uncomfor-\ntable to touch (this is also the effect on the\nlast melee round of the spell’s duration).\nDuring the second and sixth (next to the\nlast) rounds, heat causes blisters and dam-\nage; in the third, fourth, ad fifth rounds,\nthe metal becomes searing hot, causing\ndamage to exposed flesh, as shown below:\nMetal Temperature Damage per Round\nvery warm none\nhot ld4 points\nsearing* 2d4 points\n(*) On the final round of searing, the\nafflicted creature must roll a successful sav-\ning throw vs. spell or suffer one of the fol-\nlowing disabilities: hand or foot-unusable\nfor 2d4 days, body-disabled ld4 days,\nhead-unconscious ld4 turns. This effect\ncan be completely removed by the 5th-level\npriest heal spell or by normal rest.\nNote also that materials such as wood,\nleather, or flammable cloth smolder and\nbum if exposed to searing hot metal. Such\nmaterials cause searing damage to exposed\nflesh on the next round. Fire resistance\n(spell, potion, or ring) or a protection from\nfire spell totally negates the effects of a heat\nmetal spell, as does immersion in water or\nsnow, or exposure to a cold or ice storm\nspell. This version of the spell does not func-\ntion underwater. For every two experience\nlevels of the caster, the metal of one man-\nsized creature can be affected (i.e., arms and\n205\narmor, or a single mass of metal equal to 50\npounds weight). Thus, a 3rd-level caster\nwould affect one such creature, a 4th- or\n5th-level caster two, etc.\nThe reverse of the spell, chill metal,\ncounters a heat metal spell or else causes\nmetal to act as follows:\nMetal Temperature Damage per Round\ncold none\nicy 1-2 hit points\nfreezing* ld4 hit points\n(*) On the final round of freezing, the\nafflicted creature must roll a successful sav-\ning throw vs. spell or suffer from the numb-\ning effects of the cold. This causes the loss of\nall feeling in a hand (or hands, if the DM\nrules the saving throw was failed badly) for\nld4 days. During this time, the character’s\ngrip is extremely weak and he cannot use\nthat hand for fighting or any other activity\nrequiring a firm grasp.\nThe chill metal spell is countered by a\nresist cold spell, or by any great heat-\nproximity to a blazing fire (not a mere\ntorch), a magical fluming sword, a wall of\nfire spell, etc. Underwater, this version of\nthe spell inflicts no damage, but ice immedi-\nately forms around the affected metal,\nexerting an upward buoyancy."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Heat Metal",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "40 yards",
+      "components": "V, S, M",
+      "duration": "7 rounds",
+      "casting_time": "5",
+      "area_of_effect": "Special",
+      "saving_throw": "Special",
+      "description_excerpt": "During the second and sixth (next to the last) rounds, heat causes blisters and dam- age; in the third, fourth, ad fifth rounds, the metal becomes searing hot, causing damage to exposed flesh, as shown below: Metal Temperature Damage per Round very warm none hot ld4 points searing* 2d4 points (*) On the final round of searing, the afflicted creature must roll a successful sav- ing throw vs. spell or suffer one of the fol- lowing disabilities: hand or foot-unusable for 2d4 days, body-disabled ld4 days, head-unconscious ld4 turns. This effect can be completely removed by the 5th-level priest heal spell or by normal rest. Note also that materials such as wood, leather, or flammable cloth smolder and bum if exposed to searing hot metal. Such materials cause searing damage to exposed flesh on the next round. Fire resistance (spell, potion, or ring) or a protection from fire spell totally nega"
+    },
+    "quality_flags": []
+  }
+}

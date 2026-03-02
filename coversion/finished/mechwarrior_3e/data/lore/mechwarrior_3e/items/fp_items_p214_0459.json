@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "22, 33-36 Economy; 192 Edge (EDG} 18-19 events",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 214,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:29Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p214_0459",
+    "entity_type": "items",
+    "name_guess": "22, 33-36 Economy; 192 Edge (EDG} 18-19 events",
+    "breadcrumb_path": "Rules Compendium > Page 214 > items > 22, 33-36 Economy; 192 Edge (EDG} 18-19 events",
+    "page_refs": [
+      214
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "22, 33-36 Economy; 192 Edge (EDG} 18-19 events and_ Life Path restrictions and; recovery; 19, 210 Education, 179-80 Electric ground car; 151 Electric motor bike; 151 Electronic compass, 147 Electronic funds 182 Fiectranics 148 49 Electronic security bypass kit, Elemental Phenotype_ 35, 81 Emergency care, 123-24 Emergency flares_ 138 213"
+  }
+}

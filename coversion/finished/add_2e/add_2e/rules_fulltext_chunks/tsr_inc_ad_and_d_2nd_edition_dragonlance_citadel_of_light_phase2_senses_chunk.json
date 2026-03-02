@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_2_fallback",
+    "tsr_inc_ad_and_d_2nd_edition_dragonlance_citadel_of_light",
+    "senses"
+  ],
+  "summary": "Fallback Phase-2 Regelchunk: senses aus TSR Inc - AD&D 2nd Edition - Dragonlance_ Citadel of Light.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Citadel of Light",
+    "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Citadel of Light.pdf",
+    "text": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Citadel of Light.pdf"
+  },
+  "mechanics": {
+    "topic": "senses",
+    "keywords": [
+      "add_2e",
+      "citadel",
+      "dragonlance",
+      "edition",
+      "fallback",
+      "light",
+      "senses",
+      "tsr_inc_ad_and_d_2nd_edition_dragonlance_citadel_of_light"
+    ],
+    "injection_priority": "support",
+    "confidence": 0.2,
+    "page_refs": [
+      1
+    ],
+    "raw_text": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Citadel of Light.pdf"
+  }
+}

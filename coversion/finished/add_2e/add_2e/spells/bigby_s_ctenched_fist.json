@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "bigby_s_ctenched_fist",
+  "name": "Bigby's Ctenched Fist",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Bigby's Ctenched Fist (Evocation) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "eighth",
+    "book_pages": [
+      188
+    ],
+    "pdf_pages": [
+      189
+    ],
+    "raw_block": "Bigby's Ctenched Fist (Evocation)\nRange: 5 yards/level\nComponents: V, S, M\nDuration: 1 round/level\nCasting Time: 8\nArea of Effect: Special\nSaving Throw: None\nThe Bigby's clenchedfist spell brings torth\na huge, disembodied hand that is balled into\na fist. This magical member is under the\nmental control of the spellcaster, who can\ncause it to strike one opponent each round.\nNo concentration is required once the spell\nis cast. The clenched fist never misses, but it\ncan only strike as directed by the caster.\nThus it can be fooled by invisibility or other\nmethods of concealment and misdirection.\nThe effectiveness of its blows varies from\nround to round.\nDZO\nRoll Result\n13-16 solid punch-2d6 hp\n17-19 hard punch-3d6 hp and opponent\nis stunned next round\n20 Crushing blow*-4d6 hp and\nopponent is stunned for next three\nrounds\n1-12 glancing blow-ld6 hp\nThe wizard adds +4 to the die rolls of\nsubsequent attacks if the opponent is\nstunned, as the opponent is not capable of\ndodging or defending against the attack\neffectively.\nThe fist has an Armor Class of 0, and is\ndestroyed by damage equal to the hit points\nof its caster at full health.\nThe material component of this spell is a\nleather glove and a small device consisting\nof four rings joined so as to form a slightly\ncurved lie, with an \"I\" upon which the bot-\ntoms of the rings rest, the whole fashioned\nof an alloy of copper and zinc."
+  },
+  "mechanics": {
+    "school_or_type": "Evocation",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Bigby's Ctenched Fist",
+      "canonical_name_guess": "Bigby's Clenched Fist",
+      "school_or_type": "Evocation",
+      "range": "5 yards/level",
+      "components": "V, S, M",
+      "duration": "1 round/level",
+      "casting_time": "8",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "The Bigby's clenchedfist spell brings torth a huge, disembodied hand that is balled into a fist. This magical member is under the mental control of the spellcaster, who can cause it to strike one opponent each round. No concentration is required once the spell is cast. The clenched fist never misses, but it can only strike as directed by the caster. Thus it can be fooled by invisibility or other methods of concealment and misdirection. The effectiveness of its blows varies from round to round. DZO Roll Result 13-16 solid punch-2d6 hp 17-19 hard punch-3d6 hp and opponent is stunned next round 20 Crushing blow*-4d6 hp and opponent is stunned for next three rounds 1-12 glancing blow-ld6 hp The wizard adds +4 to the die rolls of subsequent attacks if the opponent is stunned, as the opponent is not capable of dodging or defending against the attack effectively. The fist has an Armor Class of "
+    },
+    "quality_flags": [
+      "canonical_name_guess_applied"
+    ]
+  }
+}

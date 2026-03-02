@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "This commu nicator can also act as repeater,",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 149,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:49Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p149_0352",
+    "entity_type": "items",
+    "name_guess": "This commu nicator can also act as repeater,",
+    "breadcrumb_path": "Rules Compendium > Page 149 > items > This commu nicator can also act as repeater,",
+    "page_refs": [
+      149
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "This commu nicator can also act as repeater, receiving specific coded sig; nals and automatically re transmitting them, either on the same frequency Or on different one up t0 twenty-five kilometers Long-Range Communicatlons Kit: Normally used comoany and higher; long-range kits not only have the best overland range of any man-portable communications device but can also make contact with spaceborne vessels and satellites This long-range kit can simultaneously monitor more than two dozen frequencies and can transmit and receive video signals, in addition to all of the other capabilities 0f the field communi cator."
+  }
+}

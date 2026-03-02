@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_profile",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "rules_profile",
+    "tsr_inc_ad_and_d_2nd_edition_dragonlance_fifth_age",
+    "fallback"
+  ],
+  "summary": "Fallback-Regelprofil (Metadata/Chapter-Map) fuer TSR Inc - AD&D 2nd Edition - Dragonlance_ Fifth Age.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Fifth Age",
+    "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Fifth Age.pdf",
+    "pages_jsonl": "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dragonlance_fifth_age_pages.jsonl",
+    "chapter_map": "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dragonlance_fifth_age_chapter_map.json",
+    "page_count_detected": 228
+  },
+  "mechanics": {
+    "extraction_mode": "fallback_title_chaptermap_inference",
+    "detected_fields": [
+      {
+        "field": "extensions",
+        "score": 1,
+        "confidence": 0.1,
+        "priority": "flavor",
+        "page_refs": [
+          1
+        ],
+        "keyword_matches": [
+          "edition",
+          "dragonlance",
+          "fifth"
+        ],
+        "evidence_excerpt": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Fifth Age.pdf"
+      }
+    ]
+  }
+}

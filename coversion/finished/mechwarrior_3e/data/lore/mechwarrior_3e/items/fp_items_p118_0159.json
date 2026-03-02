@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Attacks that barely hit barely get through the",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 118,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:31Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p118_0159",
+    "entity_type": "items",
+    "name_guess": "Attacks that barely hit barely get through the",
+    "breadcrumb_path": "Rules Compendium > Page 118 > items > Attacks that barely hit barely get through the",
+    "page_refs": [
+      118
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "Wound",
+      "armor",
+      "wound"
+    ],
+    "excerpt": "Attacks that barely hit barely get through the target' armor will inflict this kind of wound Examples include minor flesh wound_ bleeding cut, deep and paintul bruise and 50 on The only immediate effect of Grazing Wound is that the character is stunned (see 1161. number 0f Grazing Wounds can add up to serious problem through bleeding and shock; represented the wound value ."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "The attacker must expend shots per 1-meter-long line'",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 120,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:31Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p120_0173",
+    "entity_type": "items",
+    "name_guess": "The attacker must expend shots per 1-meter-long line'",
+    "breadcrumb_path": "Rules Compendium > Page 120 > items > The attacker must expend shots per 1-meter-long line'",
+    "page_refs": [
+      120
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "2 M"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "The attacker must expend shots per 1-meter-long line' to fill with weapon the length of the line limited by the weapon'$ maximum rate of fire. Then make separate attack roll against every char- xter along the line of attack; as well as any character wno enters crosses the line ot attack before the attacking char acter\" next phase begins_ Apply a additional +2 Modifier t0 the norma burst-fire modifier fortnese attacks, but resolve eacn standard single-shot attack Ki e ."
+  }
+}

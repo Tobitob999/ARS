@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "locations_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "locations",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "On many worlds, particularly those run by large",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 180,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:09Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_locations_p180_0318",
+    "entity_type": "locations",
+    "name_guess": "On many worlds, particularly those run by large",
+    "breadcrumb_path": "Rules Compendium > Page 180 > locations > On many worlds, particularly those run by large",
+    "page_refs": [
+      180
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "On many worlds, particularly those run by large agro com: bines _ even secondary schooi considered luxury: Other worlds while valuing education_ lack proper schools and com- petent teachers. Governments almost always acknowledge that these problems must be addressed but often fail to fix them: 179"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "stone_tell",
+  "name": "Stone Tell",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Stone Tell (Divination) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "sixth",
+    "book_pages": [
+      229
+    ],
+    "pdf_pages": [
+      230
+    ],
+    "raw_block": "Stone Tell (Divination)\nSphere: Elemental (Earth), Divination\nRange: Touch\nComponents: V, S, M\nDuration: 1 turn\nCasting Time: 1 turn\nArea of Effect: 1 cubic yard of stone\nSaving Throw: None\nWhen the priest casts a stone teff spell\nupon an area, the very stones speak and\nrelate to the caster who or what has touched\nthem as well as telling what is covered; con-\ncealed, or simply behind them. The stones\nrelate complete descriptions, if asked. Note\nthat a stone’s perspective, perception, and\nknowledge may hinder this divination; such\ndetails, if any, are decided by the DM.\nThe material components for this spell are\na drop of mercury and a bit of clay.\nlkansmute Water to Dust (Alteration)\nReversible\nSphere: Elemental (Water, Earth)\nRange: 60 yards\nComponents: V, S, M\nDuration: Permanent\nCasting Time: 8\nArea of Effect: 1 cubic yard/level\nSaving Throw: Special\nWhen this spell is cast, the subject area\ninstantly undergoes a change from liquid to\npowdery dust. Note that if the water is\nalready muddy, the area of effect is doubled,\nwhile if wet mud is present, the area of effect\nis quadrupled. If water remains in contact\nwith the transmuted dust, the former quick-\nly permeates the latter, turning the dust into\nsilty mud, if a sufficient quantity of water\nexists to do so, otherwise soaking or damp-\nening the dust accordingly.\nOnly the liquid actually in the area of\neffect at the moment of spellcasting is affect-\ned. Potions that contain water as a compo-\nnent part are rendered useless. Living\ncreatures are unaffected, except for those\nnative to the elemental plane of Water. Such\ncreatures must roll a successful saving\nthrows vs. death or be slain; however, only\none such creature can be affected by any sin-\ngle casting of this spell, regardless of the\ncreature’s size or the size of the spell’s area of\neffect.\nThe reverse of this spell is simply a very\nhigh-powered create water spell that\nrequires a pinch of normal dust as an addi-\ntional material component.\nFor either usage of the spell, other compo-\nnents required are diamond dust of at least\n500 gp value, a bit of seashell, and the cast-\ner’s holy.symbo1.\nlkansport Vir Plants (Alteration)\nSphere: Plant\nRange: Touch\nComponents: V, S\nDuration: Special\nCasting Time: 4\nArea of Effect: Special\nSaving Throw: None\nBy means of this spell, the caster is able to\nenter any large plant (human-sized or 1,\ner) and pass any distance to a plant of\nsame species in a single round, regardla\nthe distance, separating the two. The c11\nplant must be alive. The destination p\nneed not be familiar to the caster, but it ab0\nmust be alive. If the caster is uncertain of the\ndestination plant, he need merely determine\ndirection and distance, and the transport via\nplants spell moves him as close as possible\nto the desired location. There is a basic 20%\nchance, reduced by 1% per level of experi-\nence of the caster, that the transport delivers\nthe caster to a similar species of plant from 1\nto 100 miles away from the desired destina-\ntion plant. If a particular destination plant is\ndesired, but the plant is not living, the spell\nfails and the caster must come forth from\nthe entrance plant within 24 hours. Note\nthat this spell does not function with pla;m-\nlike creatures-e.g., shambling md,\ntreants, etc. The destruction of an OcGUpicd\nplant slays the caster (see the plant door\nspell)."
+  },
+  "mechanics": {
+    "school_or_type": "Divination",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Stone Tell",
+      "canonical_name_guess": null,
+      "school_or_type": "Divination",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "1 turn",
+      "casting_time": "1 turn",
+      "area_of_effect": "1 cubic yard of stone",
+      "saving_throw": "None",
+      "description_excerpt": "By means of this spell, the caster is able to enter any large plant (human-sized or 1, er) and pass any distance to a plant of same species in a single round, regardla the distance, separating the two. The c11 plant must be alive. The destination p need not be familiar to the caster, but it ab0 must be alive. If the caster is uncertain of the destination plant, he need merely determine direction and distance, and the transport via plants spell moves him as close as possible to the desired location. There is a basic 20% chance, reduced by 1% per level of experi- ence of the caster, that the transport delivers the caster to a similar species of plant from 1 to 100 miles away from the desired destina- tion plant. If a particular destination plant is desired, but the plant is not living, the spell fails and the caster must come forth from the entrance plant within 24 hours. Note that this sp"
+    },
+    "quality_flags": []
+  }
+}

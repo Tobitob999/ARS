@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "lore_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "lore",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "SOCIety AND CuLtURE pisoEL pound subdivided into 100",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 182,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:10Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_lore_p182_0346",
+    "entity_type": "lore",
+    "name_guess": "SOCIety AND CuLtURE pisoEL pound subdivided into 100",
+    "breadcrumb_path": "Rules Compendium > Page 182 > lore > SOCIety AND CuLtURE pisoEL pound subdivided into 100",
+    "page_refs": [
+      182
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "SOCIety AND CuLtURE pisoEL pound subdivided into 100 pence. though some Francophone regions of the Federated Suns use the term centime instead Coins exist in 1, 2, and 10 pence denominations (aluminum) and 20 and 50 pence (silver alloy). Each coin bears the First Prince' head on one side and either the Davion insignia that of the March capital where was minted on the other Notes exist tor 100 500 and 000 pound denominations The material used for these notes varies mint."
+  }
+}

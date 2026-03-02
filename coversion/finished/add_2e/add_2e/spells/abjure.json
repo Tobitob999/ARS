@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.2.1",
+  "id": "abjure",
+  "name": "AbJure",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "AbJure (Abjuration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "fourth",
+    "book_pages": [
+      215,
+      216,
+      217
+    ],
+    "pdf_pages": [
+      216,
+      217,
+      218
+    ],
+    "raw_block": "AbJure (Abjuration)\nSphere: Summoning\nRange: 10 yards\nComponents: V, S, M\nDuration: Special\nCasting Time: 1 round\nArea of W: 1 creature\nsaving mow: special\nThis spell can send an extrapmar crea-\nture back to its own plane of existence. The\nspell fails against entities of demigod status\nor greater, but their servants or midons can\nbe abjured. If the creature has a specific\n(proper) name, then that must be known\nand used. Any magic reaicrtance ofthesub-\nject must be overcome, or the spell fails. lk\npriest has a 50% chance of success (a roll of\n11 or better on ld20). The roll is adjusted by\nthe difference in level or Hit Dice\nthe caster and the creature being &jd:\nthe number needed is decreased if the priest\nhas more Hit Dice and increased if the crea-\nture has more Hit Dice. If the spell is suc-\ncessful, the creature is instantly hrvkd back\nto its own plane. The afkatd meatwe must\ns&ve a system shodc check. If the ape-\nture does not have a Conetitutian score, the\nrequiredroll is 70% + 2%/Hit Dieor Icvcl.\nThe caster has no control over where in the\ncreature's plane the abjured mature\narrives. If tkc attempt fails, the priest must\ngain another level before another attempt\ncan be made on that particular creature.\nThe spell requires the pdt's holy sym-\nbol, holy water, and some material inimical\nto the creatup.\n. .....\na"
+  },
+  "mechanics": {
+    "school_or_type": "Abjuration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "AbJure",
+      "canonical_name_guess": null,
+      "school_or_type": "Abjuration",
+      "range": "10 yards",
+      "components": "V, S, M",
+      "duration": "Special",
+      "casting_time": "1 round",
+      "area_of_effect": null,
+      "saving_throw": null,
+      "description_excerpt": "Area of W: 1 creature saving mow: special This spell can send an extrapmar crea- ture back to its own plane of existence. The spell fails against entities of demigod status or greater, but their servants or midons can be abjured. If the creature has a specific (proper) name, then that must be known and used. Any magic reaicrtance ofthesub- ject must be overcome, or the spell fails. lk priest has a 50% chance of success (a roll of 11 or better on ld20). The roll is adjusted by the difference in level or Hit Dice the caster and the creature being &jd: the number needed is decreased if the priest has more Hit Dice and increased if the crea- ture has more Hit Dice. If the spell is suc- cessful, the creature is instantly hrvkd back to its own plane. The afkatd meatwe must s&ve a system shodc check. If the ape- ture does not have a Conetitutian score, the requiredroll is 70% + 2%/Hit Dieor Icv"
+    },
+    "quality_flags": [
+      "missing_standard_fields",
+      "trimmed_merged_block"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "quests_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "quests",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "bonus XP is offered for character play that",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 210,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:25Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_quests_p210_0191",
+    "entity_type": "quests",
+    "name_guess": "bonus XP is offered for character play that",
+    "breadcrumb_path": "Rules Compendium > Page 210 > quests > bonus XP is offered for character play that",
+    "page_refs": [
+      210
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "8 M"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "bonus XP is offered for character play that was especially ertertaining t0 the group_ even wasn particular- ly in character: Ihe gamemaster likes_ this can be awarded by vote of the players themselves the most entertaining char acter 0f each adventure_ EXPERIENCE AWARDB Actlon Mission (Group) Total failure Partial success Total success Campaign (Group) Adventure off-track Advanced minor campaign goais Advanced major campaign goals Roleplaying (Individual) Totally out of character Often out of character Usually in character Always in character In character despite danger Entertained the group Miscellaneous (Individual) Minor subplot started / resolved Major subplot started /resolved Devised clever pian Critical feat accomplished XP Award 0/1/2 1/3/5 2/5/8 Miscellaneous This category covers any olner kind awards the gamemaster wants eive ."
+  }
+}

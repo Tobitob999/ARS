@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "locations_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "locations",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "These effects are summarized on the Equipment Table-This",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 90,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:22Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_locations_p090_0112",
+    "entity_type": "locations",
+    "name_guess": "These effects are summarized on the Equipment Table-This",
+    "breadcrumb_path": "Rules Compendium > Page 090 > locations > These effects are summarized on the Equipment Table-This",
+    "page_refs": [
+      90
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "These effects are summarized on the Equipment Table-This trait iS used only dur- ing character creation; gear acquired Iater in the game can have any level of equipment ratings WELL-E CONNECTED Cost: 2/4/6 well connected character possesses large number friends, acquaintances and foes Such character can call on contacts for information and help but must also watch out for enemies The cost of this advantagc is based on the area in which the character has potential contacts The player must choose the specific area when purchasing this trait; For 2 points the cnaracter may use this advantage on single important world- such as New Avalon or Solaris VII within small state such as the St."
+  }
+}

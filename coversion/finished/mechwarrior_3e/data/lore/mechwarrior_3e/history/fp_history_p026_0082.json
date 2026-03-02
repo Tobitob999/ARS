@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "You may ignore all the prerequisites for any",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 26,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:43Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p026_0082",
+    "entity_type": "history",
+    "name_guess": "You may ignore all the prerequisites for any",
+    "breadcrumb_path": "Rules Compendium > Page 026 > history > You may ignore all the prerequisites for any",
+    "page_refs": [
+      26
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "You may ignore all the prerequisites for any path; or enter path not listed your Next Path options by following the procedure outlined below First, and most important; come up with story about how your character avoided the prerequisites_ Tell the gamemaster and write into your character' $ history: For example, your character grew Up on the street, but you want her to proceed directly to military school , you will need to explain how she man ages this, since the Military School Path requires the White Collar or Nobility Path: You might decide that your character befriended ocal mercenary: who turned out t0 be an alumnus of the school in question_ He saw your character' potential and sponsored her for scholarship."
+  }
+}

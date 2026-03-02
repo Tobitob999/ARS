@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "locations_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "locations",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Those stations then add their own messages to",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 183,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:10Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_locations_p183_0332",
+    "entity_type": "locations",
+    "name_guess": "Those stations then add their own messages to",
+    "breadcrumb_path": "Rules Compendium > Page 183 > locations > Those stations then add their own messages to",
+    "page_refs": [
+      183
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Those stations then add their own messages to the batch and pass them on to the next stations Iine, and so on, until the messages reach their final destination. Though sending hundreds and thousands of copies of the same message around the galaxy may appear inefficient, ensures that messages reach their destinations as swiftly as poS- sible. To avoid confusion, each station automatically deletes messages that have ready passed through its system: Each station normally transmits on set schedule_ Messages are processed serially and placed in queue until they can be transmitted."
+  }
+}

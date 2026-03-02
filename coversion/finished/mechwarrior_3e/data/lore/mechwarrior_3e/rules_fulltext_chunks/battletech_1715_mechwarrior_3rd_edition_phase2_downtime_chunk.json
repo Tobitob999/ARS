@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_chunk",
+  "tags": [
+    "mechwarrior_3e",
+    "phase2",
+    "downtime"
+  ],
+  "summary": "Phase2 Chunk fuer downtime aus OCR-Text.",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "generated_at": "2026-03-02T16:50:58Z"
+  },
+  "mechanics": {
+    "topic": "downtime",
+    "injection_priority": "support",
+    "keywords": [
+      "downtime",
+      "maintenance",
+      "between missions"
+    ],
+    "page_refs": [
+      71,
+      101,
+      85,
+      136,
+      108,
+      96,
+      9,
+      8
+    ],
+    "raw_text": "[PDF_PAGE 71 | score=3] CHARACTER CREATION FREELANCE TECHNICIAN Born on the planet Layover; you grew privileged; your father was the count/CEO of the local division of Quickscell Company: Your family sent you t0 preparatory school, where you let them down by falling in love with commoner: Though you stood by him_ you earned the enmity Of fellow noble student dis: gusted by your slumming: In a attempt to raise your standards your parents sent you t0 the prestigious New Avalon Institute Science_ Having grown around vehicles you had natural fascination with machines, so you majored in that subject: School went well; your professor excelled in his field, and you went shooting weekends with your friends at Ine New Avalon Military Academy: You also indulged your love poetry visiting Avalon City's famed Ink District. You soon moved on t0 advanced studies in vehicle maintenance . while continuing your friendship with your buddies at NAMA Your postgraduate studies took you on tour of the major factories in the Federated Suns that produce civilian and combat vehicles. teaching you many skills you never thought you' possess; In anticipation of one day stepping into your father\"' place you took job as vehicle maintenance specialist at Kallon Industries on Nanking: Much to your shock, you hated it; Your lackluster performance ended in horrible coolant accident that permanently damaged most of your skin; You cannot tolerate direct sunlight without complete coverage for more than few hours_ Somewhat disillusioned about civil: ian jobs_ but with Iot of money from the accident settlement, you threw yourself into your first love vehicle maintenance and mastered every aspect of it. With plenty of money and no desire for standard job, you have become adept at fixing just about any vehicle and are look- ing for an\n[PDF_PAGE 101 | score=2] SKILLS Margin of Failure used as positive modifier t0 increase the Forgery Skill Check\" Characters who lack a appropriate Career Skill or Specia Interest must make an untrained Action Check, so their forgeries are unlikely to be convincing nose mounts opposed turrets and emplacements; Includes aerospace and conventional fighters, VTOLS, aerodyne DropShips and other aerodyne spacecraft. Conventional (Conv): This category includes all conven tional ground and naval vehicles (except VTOLs) . including stat ic emplacements Humanoid: This category represents weapons built-in on humanoid body; which includes BattleMechs and battle armor: Space= This category includes spacecraft that fire theii weapons from turrets and emplacements as opposed t0 fixec mounts includes JumpShips WarShips and spheroic DropShips_ FREE FALL This skill is used to safely steer and land in ay free fall situation, including parachuting and Battlel Mecn combat drops_ Modifiers should be applied to the roll for lighting conditions as well as conditions of the area to be landed in (use this skill in place of Piloting when using the Dropping Troops rules Battle Tech Master Rules 72). successful Skill Check results in an on-target landing with no injury: Failure results in off-target landing and damage as trom fall from number of meters equal to the Margin of Failure see Falling; 120). Gunnery / Ballistic This subskill is used for direct-fire weapons that inflict theil damage using bullet or shell_ including autocannons gauss rifles and machine guns Tube artillery uses the Artillery Skill; not this subskill: GAMBLING The Gambling Skill gives character working knowledge of games of chance and helps him cheat or detect cheating tnem; successful Gambling Action Check enables character to cheat during such game"
+  }
+}

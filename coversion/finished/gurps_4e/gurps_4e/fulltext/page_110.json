@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_page",
+  "tags": [
+    "gurps_4e",
+    "fulltext",
+    "pdf_page"
+  ],
+  "summary": "PDF-Seite 110 aus GURPS - 4th Edition - Basic Set.pdf.",
+  "source_text": {
+    "book": "GURPS - 4th Edition - Basic Set",
+    "pdf_page": 110,
+    "text": "Rapid Fire 6\nVariable\nAn Innate Attack’s base Rate of Fire\n(RoF) is 1. Consult the table below to\nfind the cost for a higher RoF:\nRoF Cost\n2 +40%\n3 +50%\n4-7 +70%\n8-15 +100%\n16-30 +150%\n31-70 +200%\n71-150 +250%\n151-300 +300%\nTwo special options are available\nfor attacks with this enhancement:\nMultiple Projectile:Each shot splits\ninto multiple projectiles after you\nattack, like a shotgun blast or forked\nlightning. Express this as a multiplier\nfollowing RoF; for instance, RoF 3¥4\nmeans each of three shots fired\ndivides into four individual projectiles.\nModifier cost is based on the RoF\ntimes the multiplier; e.g., RoF 3¥4\ncosts the same as RoF 12.\nSelective Fire: You may designate a\nRoF 5+ attack as Selective Fire, allow-\ning it to fire as if it had RoF 1-3. This\ncosts an extra +10%.\nReduced Fatigue Cost\n+20%/level\nYou may only take this enhance-\nment for abilities that cost FP, and\nnever in conjunction with the special\nmodifier “Usually On.” You can take it\nany number of times. Each level cuts\nthe cost to use the ability by 1 FP. If\nyou must “maintain” the ability by\nspending FP on a regular basis, reduce\nthis maintenance cost by a like\namount.\nReduced Time\n+20%/level\nYou may only add this enhance-\nment to abilities that require time to\nactivate. You can take it any number\nof times. Each level halves the time\nrequired to use the ability (round up).\nOnce time is reduced to one second, a\nfurther level of Reduced Time makes\nthe abilityinstantaneous – using it is a\nfree action.\nNote that you cannot add Reduced\nTime to attack powers, to traits that\nlist any kind of special modifier that\naffects activation time, or to Magery\n(to reduce casting times).\nRespiratory Agent 6\n+50%\nYour attack must be inhaled to\nhave any effect, but it ignores all DR.\nOnly Doesn’t Breathe and Filter Lungs\nprotect completely – although a victim\nwho makes a Sense roll to notice the\nattack in time may hold his breath\n(see Holding Your Breath, p. 351). To\nmake your attack less noticeable, take\nLow Signature (p. 106).\nYou may only add this enhance-\nment to an Affliction or to an Innate\nAttack that inflicts toxic or fatigue\ndamage, and you must combine it\nwith one of Area Effect (p. 102), Cone\n(p. 103), or Jet (p. 106). Persistent\n(p. 107) is common but not required.\nRespiratory Agent is a “penetration\nmodifier”; you cannot combine it with\nother penetration modifiers, such as\nFollow-Up (p. 105).\nSelective Area 6\n+20%\nYou may add this enhancement to\nany Area Effect (p. 102) or Cone\n(p. 103) attack. It lets you choose\nwhich targets within your area are\nactually affected.\nSelectivity\n+10%\nThis enhancement lets you turn a\ntrait’s other enhancements off and on\nat will. For instance, if you had an\nattack with Area Effect, you could\nturn this enhancement off to affect\nonly one other person. You must spec-\nify which enhancements you wish to\nignore before you activate the ability.\nThe default assumption is that you are\nalways using all of your enhance-\nments.\nBy allowing you to select which\nenhancements you use, Selectivity\npermits you to have multiple versions\nof the same ability without having to\nbuy the ability multiple times. This\ncan be extremely useful when creating\ncomic-book supers!\n108 ADVANTAGES\n"
+  },
+  "mechanics": {
+    "conversion": "fulltext_page_dump",
+    "generated_at": "2026-03-02T15:00:00"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "wind_wall",
+  "name": "Wind Wall",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Wind Wall (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "third",
+    "book_pages": [
+      154
+    ],
+    "pdf_pages": [
+      155
+    ],
+    "raw_block": "Wind Wall (Alteration)\nRange: 10 yards/level\nComponents: V, S, M\nDuration: 1 round/level\nCasting Time: 3\nArea of Effect: A 10’ wide x 5‘ high area\nper caster level\nSaving Throw: Special\nThis spell brings forth an invisible vertical\ncurtain of wind two feet thick and of consid-\nerable strength-a strong breeze sufficient\nto blow away any bird smaller than an eagle\nor to tear papers and like materials from\nunsuspecting hands. (If in doubt, a saving\nthrow vs. spell determines whether the sub-\nject maintains its grasp.) Normal insects\ncannot pass such a barrier. Loose materials,\neven cloth garments, fly upward when\ncaught in a wind wall. Arrows and bolts are\ndeflected upward and miss, while sling\nstones and other missiles under two pounds\nin weight receive a -4 penalty to a first shot\nand -2 penalties thereafter. Gases, most\nbreath weapons, and creatures in gaseous\nform cannot pass this wall, although it is no\nbarrier to noncorporeal creatures.\nThe material components are a tiny fan\nand a feather of exotic origin."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Wind Wall",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "10 yards/level",
+      "components": "V, S, M",
+      "duration": "1 round/level",
+      "casting_time": "3",
+      "area_of_effect": "A 10’ wide x 5‘ high area",
+      "saving_throw": "Special",
+      "description_excerpt": "This spell brings forth an invisible vertical curtain of wind two feet thick and of consid- erable strength-a strong breeze sufficient to blow away any bird smaller than an eagle or to tear papers and like materials from unsuspecting hands. (If in doubt, a saving throw vs. spell determines whether the sub- ject maintains its grasp.) Normal insects cannot pass such a barrier. Loose materials, even cloth garments, fly upward when caught in a wind wall. Arrows and bolts are deflected upward and miss, while sling stones and other missiles under two pounds in weight receive a -4 penalty to a first shot and -2 penalties thereafter. Gases, most breath weapons, and creatures in gaseous form cannot pass this wall, although it is no barrier to noncorporeal creatures. The material components are a tiny fan and a feather of exotic origin."
+    },
+    "quality_flags": []
+  }
+}

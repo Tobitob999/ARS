@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "blur",
+  "name": "Blur",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Blur (IIIusiodPhantasm) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "second",
+    "book_pages": [
+      140
+    ],
+    "pdf_pages": [
+      141
+    ],
+    "raw_block": "Blur (IIIusiodPhantasm)\nRange: 0\nComponents: V, S\nDuration: 3 rounds + 1 rounaiievei\nCasting Time: 2\nArea of Effect: The caster\nSaving Throw: None\nWhen a blur spell is cast, the wizard\ncauses the outline of his form to become\nblurred, shifting and wavering. This distor-\ntion causes all missile and melee combat\nattacks against the caster to be made with\n-4 penalties on the first attempt and -2\npenalties on all successive attacks. It also\ngrants the wizard a + 1 bonus to his saving\nthrow for any direct magical attack. A\ndetect invisibility spell will not counter this\neffect, but the 5th-level clerical spell true\nseeing and similar magic will."
+  },
+  "mechanics": {
+    "school_or_type": "IIIusiodPhantasm",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Blur",
+      "canonical_name_guess": null,
+      "school_or_type": "IIIusiodPhantasm",
+      "range": "0",
+      "components": "V, S",
+      "duration": "3 rounds + 1 rounaiievei",
+      "casting_time": "2",
+      "area_of_effect": "The caster",
+      "saving_throw": "None",
+      "description_excerpt": "When a blur spell is cast, the wizard causes the outline of his form to become blurred, shifting and wavering. This distor- tion causes all missile and melee combat attacks against the caster to be made with -4 penalties on the first attempt and -2 penalties on all successive attacks. It also grants the wizard a + 1 bonus to his saving throw for any direct magical attack. A detect invisibility spell will not counter this effect, but the 5th-level clerical spell true seeing and similar magic will."
+    },
+    "quality_flags": []
+  }
+}

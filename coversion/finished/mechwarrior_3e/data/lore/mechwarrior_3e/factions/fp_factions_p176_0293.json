@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "factions_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "factions",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Each; of course hoped to be the first",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 176,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:06Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_factions_p176_0293",
+    "entity_type": "factions",
+    "name_guess": "Each; of course hoped to be the first",
+    "breadcrumb_path": "Rules Compendium > Page 176 > factions > Each; of course hoped to be the first",
+    "page_refs": [
+      176
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Each; of course hoped to be the first to redevelop the one weapon that would let them con- quer their neighbors and re-create the Star League under their leadership. Though reinventing the wheel took time by the fifth decade of the thirty-first century: the people of the Inner Sphere were beginning t0 reap the benefits of the rediscoveries_ The stan- dard of Wving rose a5 new medicines were introduced and fac- tories were repaired and upgraded after centuries of neglect."
+  }
+}

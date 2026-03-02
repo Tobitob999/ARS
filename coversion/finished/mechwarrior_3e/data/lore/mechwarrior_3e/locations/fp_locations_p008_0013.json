@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "locations_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "locations",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "BY THE NUMBERS Ive face into the to",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 8,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:22Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_locations_p008_0013",
+    "entity_type": "locations",
+    "name_guess": "BY THE NUMBERS Ive face into the to",
+    "breadcrumb_path": "Rules Compendium > Page 008 > locations > BY THE NUMBERS Ive face into the to",
+    "page_refs": [
+      8
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "BY THE NUMBERS Ive face into the to field the OmniMech For fourteen years been pushing the games answer blades Blackstar Stable renegade Smoke Jaguar warrior and the was sixteen when lied about my age t0 the recruiter and Diamond Shark castoff now fighting for Lion City: It would place scratched my mark on the dotted line_ traded in my plow and Stroud in serious running for prime time broadcast rights_ which staring at the business end norse and in amounted t0 Iot of money and even more influence among the lifetime was handed Federated Long Rifle and life as seen other owners_ We were there to deprive Stroud of his new toy return set of iron sights was what they promised me, and before its debut on the morrow: tew cut wires, well placed over delivered explosive charge or three from the pack carried it should what Iney That was the day kicked the dirt of Issaba free from my have been easy: I've never looked back never once regretted my decision; should have known better: heels."
+  }
+}

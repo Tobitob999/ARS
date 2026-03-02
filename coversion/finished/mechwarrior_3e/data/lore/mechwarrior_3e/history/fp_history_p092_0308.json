@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "TRAITS Aataul Mocht (80-100 tons) 206 Draconls Comblne",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 92,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:23Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p092_0308",
+    "entity_type": "history",
+    "name_guess": "TRAITS Aataul Mocht (80-100 tons) 206 Draconls Comblne",
+    "breadcrumb_path": "Rules Compendium > Page 092 > history > TRAITS Aataul Mocht (80-100 tons) 206 Draconls Comblne",
+    "page_refs": [
+      92
+    ],
+    "_ref": [],
+    "cost_mentions": [
+      "9 $"
+    ],
+    "weight_mentions": [
+      "100 tons",
+      "35 tons",
+      "55 tons",
+      "75 tons"
+    ],
+    "range_mentions": [
+      "3M",
+      "5M",
+      "6M",
+      "7M",
+      "97 M"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "TRAITS Aataul Mocht (80-100 tons) 206 Draconls Comblne TSH-7S Tal-sho [85] AKU-1X Akuma [90] Capollan Confederation CP-11-A Cyclops [90] T4T-NIOM Grand Titan (100] Free Worlds League LGB 7Q Longbow [85] GRN-DO1 Grand Crusader [80] VEHICLE ABBIGNMENT TABLE 2-INNER SPHERE 'MECHS Ugnt 'Mechs (20--35 tons) 208 Fedoratod Suns RTX1 0 Raptor [25] GRM-O1B Garm [35] ALM-7D Fireball [20] GRM O1B Garm [35] WLF-2 Wolfhound [35] JVN-IOP Javelin [30] COM-5S Commando [25] JR7-D Jenner [35] DRT-3S Dart [25] BH- 305 Battle Hawk [30] SPR-SF Spector [35] Lyran Alliance NTK-2Q Night Hawk [35] WLF-2 Wolfhound [35] BZK-F3 Hollander [35] SDR-SV Spider (30] COM5S Commando [25] FS9 $ Firestarter [35] COM-SS Commando (25] JVN 1OP Javelin [30] JR7-D Jenner [35] COM ZD Commando [25] TLN-SW Talon [35] Rasalhague HSR-200-D Hussar [30] SDR 7M Spider [30] HER-1S Hermes [30] JRT-K Jenner (35] PNT-1OK Panther (35] COM 5S Commando [25] FS9-S Firestarter [35] THE N Thorn [20] JVN-IOP Javelin [30] SDR-9K Venom [35] MCY 97 Mercury [20] Medlum 'Mechs (40-55 tons) 206 Federated Suns FS9 0 Firestarter [45] ASN- 23 Assassin [40] STH-ID Stealth [45] BJ-2 Blackjack (45] SNT-04 Sentry (40] ENF 6M Enforcer III (50] HCT 5S Hatchetman [45] CN9-D Centurion [50] NGS 45 Nightsky [50] ENF 6M Enforcer III [50] SR1-0 Strider [40] Lyran Alliance END 6Q Enfield [50] BTZ-3F Blitzkrieg 50] HCT 5S Hatchetman (45] CLNT-2-3U Clint [40] CBR 02 Cobra [45] HCT-3F Hatchetman [45| NGS-4T Nightsky [50] VL SS Vulcan [40] CN9-D Centurion [50] BSW-S2 Bushwacker [55] STY-3C Starslayer [55] Rasalhague WFT-1 Wolf Trap [45] STN-3M Sentinel [40] ASN 23 Assassin [40] HBK-SM Hunchback [50] WHT-2 Whitworth [40] HBK 5M Hunchback (50] WTSS Vulcan [40] KTO 20 Kintaro [55] CRB-27 Crab [50] WVE-SN Wyvern [45] KIM 2 Komodo [45] Heavy 'Mechs (60-75 tons) 206 Federated Suns FLC-8R Falconer [75] MDG 14 Rakshasa [75] AXM-IN Axman (65] BNDR-O1A Bandersnatch [75] CES- 3R Caesar [70] JM6-D3 JagerMech III [65] FLC 8R Falconer [75] JM6 DD JagerMech [65] MDG-1A Rakshasa [65] CTF- 3D Cataphract [70] PTR-6M Penetrator [75] Lyran Alliance CTS GY Cestus [65] GHR-5J Grasshopper [70] CES-3R Caesar [70] GAL-IGLS Gallowglas [70] PTR 6S Penetrator [75] CES-3R Caesar [70] BGS 1T Barghest [70]* AXM IN Axman (65] BGS-2T Barghest [70]\" MTR-SK Maelstrom [75] DGR 4F Dragon Fire [75] Rasalhague GAL-IGLS Gallowglas [70] ONI-K Orion [75] BMB 12D Bombardier 65] DRG-SK Grand Dragon [60] DRG SN Dragon [60] DRG SN Dragon [60] DRG 5K Grand Dragon [65] CPLT K2 Catapult [65] FLS 8K Flashman [75] CHP-IN Champion [60] BL 6 KNT Black Knight (75] This four-leeged Iquad) BattleMech: 91"
+  }
+}

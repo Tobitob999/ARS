@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Whether the equipment question even available will course",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 133,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:36Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p133_0643",
+    "entity_type": "npcs",
+    "name_guess": "Whether the equipment question even available will course",
+    "breadcrumb_path": "Rules Compendium > Page 133 > npcs > Whether the equipment question even available will course",
+    "page_refs": [
+      133
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Whether the equipment question even available will course be Up t0 the gamemaster: then the gamemaster should establish cost based upon its equipment ratings gen- eral, commonly available items can be had for far less than retail price that drum of lubricant just fell out of the DropShip' while rare and highly restricted items can command more than twenty or thirty times the normae going rate Of course_ Eood Negotiation Skills could help t0 bring down the price_ Characters need to exercise some discretion with their new tOys_ Most Iaw enforcement officials do not treat black market dealings lightly: characters are caught with such illega Items_ they coula be slapped with stiff fines even imprsoned depend: ing on what they are apprehended with."
+  }
+}

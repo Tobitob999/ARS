@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.2.1",
+  "id": "disintegrate",
+  "name": "Disintegrate",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Disintegrate (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "sixth",
+    "book_pages": [
+      175,
+      176
+    ],
+    "pdf_pages": [
+      176,
+      177
+    ],
+    "raw_block": "Disintegrate (Alteration)\nRange: 5 yarddlevel\nComponents: V, S, M\nDuration: Instantaneous\nCasting Time: 6\nArea of Effect: Special\nSaving Throw: Neg.\nThis spell causes matter to vanish. It\naffects even matter (or energy) of a magical\nnature, such as Bigby’s forceful hand, but\nnot a globe of invulnerability or an anti-\nmagic shell. Disintegration is instmtane-\nous, and its effects are permanent. Any\nsingle creature can be affected, even\nundead. Nonliving matter, up to a 10’ x 10’\nx 10’ cube, can be obliterated by the spell.\nThe spell creates a thin, green ray that\ncauses physical material touched to glow\nand vanish, leaving traces of fine dust,\nCreatures that successfully save vs. spell\nhave avoided the ray (materid items have\nresisted the magic) and are not affected.\nOnly the first creature or object struck can\nbe affected.\nThe material components are a lodestone\nand a pinch of dust.\nI"
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Disintegrate",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "5 yarddlevel",
+      "components": "V, S, M",
+      "duration": "Instantaneous",
+      "casting_time": "6",
+      "area_of_effect": "Special",
+      "saving_throw": "Neg.",
+      "description_excerpt": "This spell causes matter to vanish. It affects even matter (or energy) of a magical nature, such as Bigby’s forceful hand, but not a globe of invulnerability or an anti- magic shell. Disintegration is instmtane- ous, and its effects are permanent. Any single creature can be affected, even undead. Nonliving matter, up to a 10’ x 10’ x 10’ cube, can be obliterated by the spell. The spell creates a thin, green ray that causes physical material touched to glow and vanish, leaving traces of fine dust, Creatures that successfully save vs. spell have avoided the ray (materid items have resisted the magic) and are not affected. Only the first creature or object struck can be affected. The material components are a lodestone and a pinch of dust. I"
+    },
+    "quality_flags": [
+      "trimmed_merged_block"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "lore_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "lore",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Despite recent losses the Ghost Bears and Hell",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 169,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:02Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_lore_p169_0275",
+    "entity_type": "lore",
+    "name_guess": "Despite recent losses the Ghost Bears and Hell",
+    "breadcrumb_path": "Rules Compendium > Page 169 > lore > Despite recent losses the Ghost Bears and Hell",
+    "page_refs": [
+      169
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [
+      "3052"
+    ],
+    "stat_tokens": [],
+    "excerpt": "Despite recent losses the Ghost Bears and Hell s Horses the latterof which have established three-world enclave between Wolf ad Ghost Bear territory Clan Wolf con trols the largest swath ot Clan-occupied territory: Clan Wolf lead: ers have made point of establishing Eood relations between the Wolves and the native population, allowing both to prosper: The Wolf Clan regional capital is Tamar; The Ghost Bears shocked their fellow Clans and the Inner Sphere by relocating their Inner Sphere holdings, region mostly Combine planets centered on Alshain and now known as the Ghost Bear Dominion, Factions within the Combine regard the Bears as a occupying force and are blocking efforts toward official recognition of the Dominion as nation_ Tukayyid Until 3052, Tukayyid was backwater agricultural world, known for its high-quality grain and spectacular scenery Then Clans and ComStar agreed fight proxy battle Tukayyid to determine control of Terra, vaulting the sleepy Iittle planet into the pages of history: After twenty-one days of bitter conflict ComStar won fifteen-year truce from the Clans Native farmers returned t0 find their lands devastated, littered with tne debris war Over tne past decade, however."
+  }
+}

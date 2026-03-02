@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "lore_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "lore",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Latter Day Saints_ Evangelists Scientologists, Jehovah' Witnesses, Lutnerans",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 185,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:12Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_lore_p185_0361",
+    "entity_type": "lore",
+    "name_guess": "Latter Day Saints_ Evangelists Scientologists, Jehovah' Witnesses, Lutnerans",
+    "breadcrumb_path": "Rules Compendium > Page 185 > lore > Latter Day Saints_ Evangelists Scientologists, Jehovah' Witnesses, Lutnerans",
+    "page_refs": [
+      185
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Latter Day Saints_ Evangelists Scientologists, Jehovah' Witnesses, Lutnerans and Baptists are just iew of the popular Christian sects that have survived the centuries Many believe that Jesus Christ was the son of the one true God_ though other sects see Jesus as simply holy man whose ideals and philosophies were divinely inspired_ Judaism Despite the vast changes in human society over the mil Iennia_ Judaism has remained remarkably Ioyal to its acient foundations different movements which Reform; Conservative and Liberal Judaism are the most common: vary more custom and practices than in any alterations t0 the divine teachings of the Torah; Judaism exists in every Inner Sphere nation_ though underground the Draconis Combine."
+  }
+}

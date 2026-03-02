@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "neither cnaracter = roll succccdcd thc round of",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 114,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:30Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p114_0142",
+    "entity_type": "items",
+    "name_guess": "neither cnaracter = roll succccdcd thc round of",
+    "breadcrumb_path": "Rules Compendium > Page 114 > items > neither cnaracter = roll succccdcd thc round of",
+    "page_refs": [
+      114
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "0 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [
+      "TN",
+      "Wound",
+      "damage"
+    ],
+    "excerpt": "neither cnaracter = roll succccdcd thc round of compat iS draw and no damage inflicted at all: MeLEE COMBAT MODIFIERS TABLE Target Is: Base TN Aware Of attack Opponent's INT RFL Surprised Lower of opponent's INT or RFL Disengaging or stopping attempt to disengage Opponent'$ STR RFL Inanimate or completely immobile Conditlonal Modllors TN Modlfor Character'$ Fatigue exceeds WIL +(excess Fatigue) Character is wounded Each Minor Wound Each Serious Wound Each Critica Wound Character is stunned Character prone Good conditions (on higher ground than opponent) Poor conditions (unsteady footing) Bad conditions (very unsteady footing) +2 Using weapon in off hand Using pistol Using SMG Using rifle Or shotgun Engagement and Disengagement order t0 engage target mcico combat, attack must move t0 meler or closer range and declare his intention attack."
+  }
+}

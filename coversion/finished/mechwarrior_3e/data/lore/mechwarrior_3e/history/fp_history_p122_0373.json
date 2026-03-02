@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "bringing greater detail for armor coverage and wound",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 122,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:32Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p122_0373",
+    "entity_type": "history",
+    "name_guess": "bringing greater detail for armor coverage and wound",
+    "breadcrumb_path": "Rules Compendium > Page 122 > history > bringing greater detail for armor coverage and wound",
+    "page_refs": [
+      122
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "armor",
+      "damage",
+      "wound"
+    ],
+    "excerpt": "bringing greater detail for armor coverage and wound effects at the expense of simplicity: word 0f caution; while more realistic and descriptive tnan the standard abstract damage system; the use of hit Iocation can make the game much deadlier. Since few characters wear total-coverage armor; there will otten be attacks tnat strike unar- mored locations otherwise armored character; resulting more common wounding and death The gamemaster should be clear about this with the players, and hit Iocation should only be used everyone the game agrees."
+  }
+}

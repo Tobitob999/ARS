@@ -1,0 +1,200 @@
+{
+  "schema_version": "1.1.0",
+  "category": "conversion_qa",
+  "tags": [
+    "add_2e",
+    "conversion",
+    "qa",
+    "autopilot"
+  ],
+  "summary": "Verbindlicher QA-Report fuer Volltiefen-Conversion mit 12-Phasen-Gate.",
+  "source_text": {
+    "generated_at": "2026-03-02T20:46:21Z",
+    "bundle": "G:\\Meine Ablage\\ARS\\coversion\\finished\\add_2e",
+    "lore_root": "G:\\Meine Ablage\\ARS\\coversion\\finished\\add_2e\\add_2e",
+    "ruleset_path": "G:\\Meine Ablage\\ARS\\coversion\\finished\\add_2e\\add_2e.json"
+  },
+  "mechanics": {
+    "validation_status": "fail_empty_ocr",
+    "required_dirs": [
+      "book_conversion",
+      "fulltext",
+      "chapters",
+      "appendices",
+      "spells",
+      "tables",
+      "indices",
+      "mechanics",
+      "characters",
+      "combat",
+      "equipment",
+      "treasure",
+      "encounters",
+      "npcs",
+      "vision",
+      "monsters",
+      "rules_fulltext_chunks",
+      "derived_rules"
+    ],
+    "counts": {
+      "book_conversion": 287,
+      "fulltext": 258,
+      "chapters": 15,
+      "appendices": 9,
+      "spells": 331,
+      "tables": 68,
+      "indices": 4,
+      "mechanics": 6,
+      "characters": 1,
+      "combat": 1,
+      "equipment": 1,
+      "treasure": 1,
+      "encounters": 1,
+      "npcs": 1,
+      "vision": 1,
+      "monsters": 83,
+      "rules_fulltext_chunks": 2251,
+      "derived_rules": 149
+    },
+    "phases": [
+      {
+        "phase": 1,
+        "name": "skeleton_mapping",
+        "status": "done",
+        "reason": null
+      },
+      {
+        "phase": 2,
+        "name": "metadata",
+        "status": "done",
+        "reason": null
+      },
+      {
+        "phase": 3,
+        "name": "dice_system",
+        "status": "done",
+        "reason": null
+      },
+      {
+        "phase": 4,
+        "name": "characteristics",
+        "status": "done",
+        "reason": null
+      },
+      {
+        "phase": 5,
+        "name": "attribute_bonuses",
+        "status": "done",
+        "reason": null
+      },
+      {
+        "phase": 6,
+        "name": "races",
+        "status": "done",
+        "reason": null
+      },
+      {
+        "phase": 7,
+        "name": "classes_progression",
+        "status": "done",
+        "reason": null
+      },
+      {
+        "phase": 8,
+        "name": "skills",
+        "status": "done",
+        "reason": null
+      },
+      {
+        "phase": 9,
+        "name": "combat",
+        "status": "done",
+        "reason": null
+      },
+      {
+        "phase": 10,
+        "name": "magic",
+        "status": "done",
+        "reason": null
+      },
+      {
+        "phase": 11,
+        "name": "remaining_sections",
+        "status": "done",
+        "reason": null
+      },
+      {
+        "phase": 12,
+        "name": "extensions",
+        "status": "done",
+        "reason": null
+      }
+    ],
+    "autofill_files_created": [],
+    "ocr_quality": {
+      "empty_pages": 258,
+      "total_pages": 258,
+      "empty_ratio": 1.0
+    },
+    "entity_index": {
+      "exists": false,
+      "path": "G:\\Meine Ablage\\ARS\\coversion\\finished\\add_2e\\add_2e\\indices\\entity_index.json"
+    },
+    "snippet_quality": {
+      "warnings": 18,
+      "checked": 412,
+      "sample_artifacts": [
+        {
+          "file": "npc_relations_system.json",
+          "name": "AD&D 2e NPC Relations System",
+          "dir": "npcs"
+        },
+        {
+          "file": "lycanthropez_werebear.json",
+          "name": "Lycanthropez_Werebear",
+          "dir": "monsters"
+        },
+        {
+          "file": "lycanthrope_wererat.json",
+          "name": "Lycanthrope,_Wererat",
+          "dir": "monsters"
+        },
+        {
+          "file": "lycanthrope_weretiger.json",
+          "name": "Lycanthrope,_Weretiger_",
+          "dir": "monsters"
+        },
+        {
+          "file": "lycanthrope_werewolf.json",
+          "name": "Lycanthrope,_Werewolf",
+          "dir": "monsters"
+        },
+        {
+          "file": "mind_flayer_subterranean.json",
+          "name": "Mind Flayer_ subterranean",
+          "dir": "monsters"
+        },
+        {
+          "file": "dragon_copper.json",
+          "name": "Dragon;_Copper_",
+          "dir": "monsters"
+        },
+        {
+          "file": "dragon_green.json",
+          "name": "Dragon;_Green_",
+          "dir": "monsters"
+        },
+        {
+          "file": "dragon_silver.json",
+          "name": "Dragon,_Silver_",
+          "dir": "monsters"
+        },
+        {
+          "file": "dragon_white.json",
+          "name": "Dragon,_White",
+          "dir": "monsters"
+        }
+      ]
+    }
+  }
+}

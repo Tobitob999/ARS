@@ -1,7 +1,7 @@
 """
 gui/tech_gui.py — ARS TechGUI Hauptfenster
 
-Entwickler-GUI mit 8 Tabs + persistenter Statusleiste.
+Entwickler-GUI mit 9 Tabs + persistenter Statusleiste.
 Kommuniziert mit der Engine ueber EventBus (Observer Pattern).
 Engine laeuft in eigenem Thread — GUI im Tkinter Main-Thread.
 """
@@ -86,6 +86,7 @@ class TechGUI:
         from gui.tab_gamestate import GameStateTab
         from gui.tab_injector import InjectorTab
         from gui.tab_responder import ResponderTab
+        from gui.tab_conversion_monitor import ConversionMonitorTab
 
         self.tab_session = SessionTab(self.notebook, self)
         self.tab_game = GameTab(self.notebook, self)
@@ -95,6 +96,7 @@ class TechGUI:
         self.tab_responder = ResponderTab(self.notebook, self)
         self.tab_ki_connection = KIConnectionTab(self.notebook, self)
         self.tab_gamestate = GameStateTab(self.notebook, self)
+        self.tab_conversion = ConversionMonitorTab(self.notebook, self)
 
         self.notebook.add(self.tab_session, text="  Session Setup  ")
         self.notebook.add(self.tab_game, text="  Game  ")
@@ -104,6 +106,7 @@ class TechGUI:
         self.notebook.add(self.tab_responder, text="  Responder  ")
         self.notebook.add(self.tab_ki_connection, text="  KI-Connection  ")
         self.notebook.add(self.tab_gamestate, text="  Spielstand  ")
+        self.notebook.add(self.tab_conversion, text="  Conversion  ")
 
         # Statusleiste
         self.status_bar = StatusBar(self.root)
@@ -198,6 +201,7 @@ class TechGUI:
             self.tab_responder.on_engine_ready()
             self.tab_ki_connection.on_engine_ready()
             self.tab_gamestate.on_engine_ready()
+            self.tab_conversion.on_engine_ready()
             # Zum Game-Tab wechseln
             self.notebook.select(self.tab_game)
             return
@@ -220,6 +224,7 @@ class TechGUI:
         self.tab_responder.handle_event(data)
         self.tab_ki_connection.handle_event(data)
         self.tab_gamestate.handle_event(data)
+        self.tab_conversion.handle_event(data)
 
     # ── Mausrad ──
 

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Energy weapons Iist power usage in the Shots",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 133,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:36Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p133_0238",
+    "entity_type": "items",
+    "name_guess": "Energy weapons Iist power usage in the Shots",
+    "breadcrumb_path": "Rules Compendium > Page 133 > items > Energy weapons Iist power usage in the Shots",
+    "page_refs": [
+      133
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Energy weapons Iist power usage in the Shots column of Weapon Table , 153 Power Capacity: The maximum number of standard power units power pack can hold with cnarge- As items usC Up power points, this number will decrease until it is recharged or the current charge reaches zero ad the item ceases to function: Range: The short/medium /long/extreme ranges Used New Not everything character picks up the course cam paign will be hot off the assembly Iline. Goods bought from private citizens and objects confiscated scavenged off the battlefield probably will have seen previous use."
+  }
+}

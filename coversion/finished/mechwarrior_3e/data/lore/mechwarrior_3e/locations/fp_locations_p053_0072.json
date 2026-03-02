@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "locations_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "locations",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "CHARACTER CREATION passes the time by teaching YOu",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 53,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:57Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_locations_p053_0072",
+    "entity_type": "locations",
+    "name_guess": "CHARACTER CREATION passes the time by teaching YOu",
+    "breadcrumb_path": "Rules Compendium > Page 053 > locations > CHARACTER CREATION passes the time by teaching YOu",
+    "page_refs": [
+      53
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "CHARACTER CREATION passes the time by teaching YOu what ne knows (Technician/ Interplanetary +1 Technician / Aeronautics +1] You make many important friends Youi travels [Well Connected, Language /Any +2] You are the right place at the right time t0 stop the assassination of duke [Good Reputation (21. Contact (21. character with military rank gets Promotion; otherwisC, take Wealth] planet' back country: you stumble on an ancient Star League warenouse (Choose Owns Vehicle or twO of the following: Custom Vehicle (21, Good Reputation (21."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Prerequisites for each path are shown in italics",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 23,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:42Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p023_0069",
+    "entity_type": "history",
+    "name_guess": "Prerequisites for each path are shown in italics",
+    "breadcrumb_path": "Rules Compendium > Page 023 > history > Prerequisites for each path are shown in italics",
+    "page_refs": [
+      23
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Prerequisites for each path are shown in italics directly below the path title _ ATTRIBUTES AND THE LIFE PATH character's life can have serious impact on his physi- cal, mental and emotional development, The Life Path reflects this through the modification of character' $ Attribute mini- mums and thresholds: These affect the purchasing and assign: ing of Attributes set of numbers that represent character' basic physical and mental abilities_ general fortunes and social standing: (For more detailed information on Attributes ad how to use them; see 54, Players can keep track of their Attribute minimums and thresholds on the Character Creation Worksheet in the back of the book (p 218)."
+  }
+}

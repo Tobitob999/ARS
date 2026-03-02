@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_1_mapping",
+    "tsr_inc_ad_and_d_2nd_edition_dragonlance_heroes_of_sorcery"
+  ],
+  "summary": "Abgeleiteter Phase-1-Chunk aus Kapitelmarkern fuer TSR Inc - AD&D 2nd Edition - Dragonlance_ Heroes of Sorcery.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Heroes of Sorcery",
+    "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Heroes of Sorcery.pdf",
+    "chapter_map_file": "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dragonlance_heroes_of_sorcery_chapter_map.json",
+    "text": ""
+  },
+  "mechanics": {
+    "topic": "phase_1_skeleton_mapping",
+    "keywords": [
+      "add_2e",
+      "book_conversion",
+      "extensions",
+      "tsr_inc_ad_and_d_2nd_edition_dragonlance_heroes_of_sorcery"
+    ],
+    "injection_priority": "support",
+    "mapped_skeleton_fields": [
+      "extensions"
+    ],
+    "raw_text": "",
+    "derived_from": [
+      "detected_chapters",
+      "detected_appendices"
+    ]
+  }
+}

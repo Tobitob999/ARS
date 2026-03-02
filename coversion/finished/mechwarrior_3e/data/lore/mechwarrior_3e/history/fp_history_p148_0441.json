@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Almost every industrialized world and certainly most mili-",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 148,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:42Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p148_0441",
+    "entity_type": "history",
+    "name_guess": "Almost every industrialized world and certainly most mili-",
+    "breadcrumb_path": "Rules Compendium > Page 148 > history > Almost every industrialized world and certainly most mili-",
+    "page_refs": [
+      148
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "2 M"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Almost every industrialized world and certainly most mili- tary bases_ will also have wireless network connected to the wired network , giving people the ability to talk to just about any- one on the planet; However, characters might find that the com municators they buy on one world do not work with the network in place on another Most military units and many corporations use an inde pendent system for their communications The equipment can vary from simple radios which work only on line-of-sight basis to advanced models that combine laser, microwave and low--fre quency transceivers Many of these communicators use some form of encryption scrambling to help ensure that even their enemies intercept their transmissions_ the data cannot be decoded_ Climbing /Rappelllng Klt The contains one hundred meters of high-tensile strength cord; harness_ ascenders ad descenders pitons_ hand and foot spikes and other minor components These kits must be replenished (pitons are left behind spikes are worn down and so on) after each use for 15 C bills: Any equipped character making Climbing Action Check applies 2 Modifier Excellent Equipment on Hand) to the target number: Civillan Equipment Civilian communications equipment is cheap and readily avail: able on most modern worlds However; cannot interface with the advanced systems used by military and corporate agencies Civlllan Communicator: Pocket-sized ad relatively inex- pensive civilian communicators are standard They transmit only on the radio spectrum and for the most part they are only capable of voice transmissions Some exorbitantly priced mod els do_ however, have camera and vid-screen built in and are available for five times the cost; These normally make use of public communications network: Alternatively; members group communicate directly with one another by simply choosing different setting forgoing use the comm net entirely: Use this mode limited to range of only ten kilo meters Clvlllan Mlcrocommunlcator: These operate the same as the civilian communicator, except they are much smaller."
+  }
+}

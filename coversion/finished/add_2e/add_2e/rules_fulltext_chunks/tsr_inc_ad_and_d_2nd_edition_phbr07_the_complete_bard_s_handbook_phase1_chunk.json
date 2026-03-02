@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_1_mapping",
+    "tsr_inc_ad_and_d_2nd_edition_phbr07_the_complete_bard_s_handbook"
+  ],
+  "summary": "Abgeleiteter Phase-1-Chunk aus Kapitelmarkern fuer TSR Inc - AD&D 2nd Edition - PHBR07 - The Complete Bard's Handbook.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - PHBR07 - The Complete Bard's Handbook",
+    "source_file": "TSR Inc - AD&D 2nd Edition - PHBR07 - The Complete Bard's Handbook.pdf",
+    "chapter_map_file": "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_phbr07_the_complete_bard_s_handbook_chapter_map.json",
+    "text": "Chapter 14: Time and Movement. It is impor- (first_seen_pdf_page=70)\nChapter 14: Time and Move- (first_seen_pdf_page=71)\nChapter 2: Experience), bards gain ex- (first_seen_pdf_page=102)"
+  },
+  "mechanics": {
+    "topic": "phase_1_skeleton_mapping",
+    "keywords": [
+      "add_2e",
+      "book_conversion",
+      "experience",
+      "movement",
+      "time",
+      "tsr_inc_ad_and_d_2nd_edition_phbr07_the_complete_bard_s_handbook"
+    ],
+    "injection_priority": "core",
+    "mapped_skeleton_fields": [
+      "experience",
+      "movement",
+      "time"
+    ],
+    "raw_text": "Chapter 14: Time and Movement. It is impor- (first_seen_pdf_page=70)\nChapter 14: Time and Move- (first_seen_pdf_page=71)\nChapter 2: Experience), bards gain ex- (first_seen_pdf_page=102)",
+    "derived_from": [
+      "detected_chapters",
+      "detected_appendices"
+    ]
+  }
+}

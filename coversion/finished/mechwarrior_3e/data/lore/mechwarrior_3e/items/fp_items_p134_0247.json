@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Note that each time armor degraded all 0f",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 134,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:37Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p134_0247",
+    "entity_type": "items",
+    "name_guess": "Note that each time armor degraded all 0f",
+    "breadcrumb_path": "Rules Compendium > Page 134 > items > Note that each time armor degraded all 0f",
+    "page_refs": [
+      134
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "armor"
+    ],
+    "excerpt": "Note that each time armor degraded all 0f its AVs are reduced at tne same time . For examiple_ ablative arinor IS rated 3/1/6/1 After one degradation Its AVs decomc 2/0/5/0 alter [w0 degradations /0/4/0. Each point of degradation rastored damaged arnior affects all four AVs well: so that 133"
+  }
+}

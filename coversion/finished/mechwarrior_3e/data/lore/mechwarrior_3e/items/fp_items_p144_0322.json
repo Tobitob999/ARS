@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Tne suit cquipped with strong claw for climbing",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 144,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:40Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p144_0322",
+    "entity_type": "items",
+    "name_guess": "Tne suit cquipped with strong claw for climbing",
+    "breadcrumb_path": "Rules Compendium > Page 144 > items > Tne suit cquipped with strong claw for climbing",
+    "page_refs": [
+      144
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "AP",
+      "Armor",
+      "armor"
+    ],
+    "excerpt": "Tne suit cquipped with strong claw for climbing or rID ping the armor plates Irom 'Mech vehicle Tne battlesuit erants t0 tne STR of the wcarcr and makes melee attacks with AP The suit also features integral jump jets. Attributes: STR +4. DEX -1; RFL -1 until SRM pack tisoned then normal RFL Movement: m to all movement rates until SRM pack is jettisoned Inner Sphere Standard Battle Armor Though modeled on the elementa pattle dmul the Inner Sphere version can carry either one primary wcapon Or two sec ondary weapons does not mount a SRM pack."
+  }
+}

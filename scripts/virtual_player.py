@@ -7,10 +7,17 @@ Fuehrt N Zuege gegen die KI aus und protokolliert:
   - Regelcheck-Warnungen
   - Timing-Metriken (Latenz pro Zug)
 
+Test Cases (--case):
+  1 = Generic (Default, bisheriges Verhalten)
+  2 = Investigation (Recherche, Hinweise, PROBE-Tags)
+  3 = Combat (Angriff, HP, XP)
+  4 = Horror/Sanity (nur Cthulhu: Stabilitaet, Atmosphaere)
+  5 = Social/NPC (Dialog, STIMME-Tags)
+
 Verwendung:
   py -3 scripts/virtual_player.py --module cthulhu_7e --turns 10
-  py -3 scripts/virtual_player.py --module paranoia_2e --adventure alpha_complex_01 --turns 5
-  py -3 scripts/virtual_player.py --module add_2e --turns 10 --actions "Ich betrete die Taverne" "Ich spreche den Wirt an"
+  py -3 scripts/virtual_player.py --module cthulhu_7e -a spukhaus --case 2 -t 8 --save
+  py -3 scripts/virtual_player.py --module add_2e -a testkampf --case 3 -t 8 --save
   py -3 scripts/virtual_player.py --module cthulhu_7e --turns 3 --dry-run
 """
 
@@ -29,6 +36,13 @@ from typing import Any
 # ARS-Root in sys.path einfuegen
 _ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(_ROOT))
+
+# .env laden (API-Keys etc.)
+try:
+    from dotenv import load_dotenv
+    load_dotenv(_ROOT / ".env")
+except ImportError:
+    pass
 
 from core.event_bus import EventBus
 
@@ -105,6 +119,129 @@ DEFAULT_ACTIONS["_fallback"] = [
 
 
 # ──────────────────────────────────────────────────────────────
+# Test Cases
+# ──────────────────────────────────────────────────────────────
+
+@dataclass
+class TestCaseConfig:
+    """Konfiguration fuer einen gezielten Testfall."""
+    case_id: int
+    name: str
+    description: str
+    actions: dict[str, list[str]]       # system -> action list
+    adventures: dict[str, str | None]   # system -> empfohlenes adventure
+    expected_tags: dict[str, int]        # tag_name -> min_count
+
+
+TEST_CASES: dict[int, TestCaseConfig] = {
+    1: TestCaseConfig(
+        case_id=1,
+        name="generic",
+        description="Generischer Test — bisheriges Verhalten, Baseline",
+        actions={},  # Leer = DEFAULT_ACTIONS verwenden
+        adventures={},
+        expected_tags={},  # Keine spezifischen Erwartungen
+    ),
+    2: TestCaseConfig(
+        case_id=2,
+        name="investigation",
+        description="Recherche-Loop: PROBE-Tags, Hinweis-Kette, Fakten",
+        actions={
+            "cthulhu_7e": [
+                "Ich nehme den Auftrag an und gehe ins Zeitungsarchiv.",
+                "Ich recherchiere alte Berichte ueber das Corbitt-Haus.",
+                "Ich pruefe die Sterberegister nach Walter Corbitt.",
+                "Ich untersuche die Kirchenakten auf Hinweise.",
+                "Ich betrete das Corbitt-Haus und schaue mich im Erdgeschoss um.",
+                "Ich suche nach versteckten Tueren oder Zugaengen.",
+                "Ich oeffne die Kellertuer und steige hinab.",
+                "Ich untersuche den Sarkophag genauer.",
+            ],
+            "add_2e": [
+                "Ich untersuche den Hoehleneingang auf Spuren.",
+                "Ich lausche an der Hoehle nach Geraueschen.",
+                "Ich schleiche vorsichtig in den ersten Raum.",
+                "Ich suche nach Fallen am Boden.",
+                "Ich pruefe die Truhe auf Fallen bevor ich sie oeffne.",
+                "Ich untersuche die Wandinschriften genauer.",
+            ],
+        },
+        adventures={"cthulhu_7e": "spukhaus", "add_2e": "goblin_cave"},
+        expected_tags={"PROBE": 3, "FERTIGKEIT_GENUTZT": 1, "FAKT": 1},
+    ),
+    3: TestCaseConfig(
+        case_id=3,
+        name="combat",
+        description="Kampf-Szenario: ANGRIFF, HP_VERLUST, XP_GEWINN",
+        actions={
+            "add_2e": [
+                "Ich gehe durch das Gittertor in die Arena.",
+                "Ich ziehe mein Langschwert und greife den Goblin-Krieger an!",
+                "Ich wende mich dem Bogenschuetzen zu und greife an!",
+                "Ich trinke den Heiltrank.",
+                "Ich gehe durch das Steintor zum naechsten Raum.",
+                "Ich greife den Oger mit meinem Schwert an!",
+                "Ich weiche seinem Schlag aus und schlage zurueck!",
+                "Ich durchsuche die Truhe nach Beute.",
+            ],
+            "cthulhu_7e": [
+                "Ich gehe direkt ins Corbitt-Haus und steige in den Keller.",
+                "Ich naehre mich dem Sarkophag vorsichtig.",
+                "Ich versuche den Deckel zu oeffnen.",
+                "Ich wehre mich gegen die unsichtbare Kraft!",
+                "Ich greife nach dem Tagebuch auf dem Boden.",
+            ],
+        },
+        adventures={"add_2e": "testkampf", "cthulhu_7e": "spukhaus"},
+        expected_tags={"ANGRIFF": 2, "HP_VERLUST": 1},
+    ),
+    4: TestCaseConfig(
+        case_id=4,
+        name="horror",
+        description="Horror/Sanity — Stabilitaetsverlust, atmosphaerische Dichte (nur Cthulhu)",
+        actions={
+            "cthulhu_7e": [
+                "Ich betrete das Corbitt-Haus bei Nacht alleine.",
+                "Ich hoere seltsame Geraeusche und folge ihnen.",
+                "Ich oeffne die Tuer aus der die Geraeusche kommen.",
+                "Ich starre in die Dunkelheit des Kellers.",
+                "Ich steige die Treppe hinab obwohl alles in mir schreit.",
+                "Ich sehe etwas im Sarkophag. Ich schaue genauer hin.",
+                "Ich lese die alten Texte an der Wand laut vor.",
+                "Ich versuche zu verstehen was hier geschehen ist.",
+            ],
+        },
+        adventures={"cthulhu_7e": "spukhaus"},
+        expected_tags={"STABILITAET_VERLUST": 1, "PROBE": 2, "FAKT": 1},
+    ),
+    5: TestCaseConfig(
+        case_id=5,
+        name="social",
+        description="Social/NPC — Dialog, STIMME-Tags, Informationsgewinn",
+        actions={
+            "cthulhu_7e": [
+                "Ich frage Mr. Knott nach den frueheren Mietern.",
+                "Ich frage nach der Geschichte des Hauses.",
+                "Ich bitte die Archivarin Webb um Hilfe bei der Suche.",
+                "Ich versuche sie zu ueberzeugen mir die gesperrten Akten zu zeigen.",
+                "Ich befrage Nachbarn des Corbitt-Hauses.",
+                "Ich kehre zu Mr. Knott zurueck und berichte.",
+            ],
+            "add_2e": [
+                "Ich spreche den Wirt an und frage nach Geruechten.",
+                "Ich versuche den Wirt zu ueberzeugen mir mehr zu erzaehlen.",
+                "Ich frage die anderen Gaeste nach der Goblin-Hoehle.",
+                "Ich verhandle mit dem Haendler ueber Ausruestung.",
+                "Ich versuche den gefangenen Goblin auszufragen.",
+            ],
+        },
+        adventures={"cthulhu_7e": "spukhaus", "add_2e": "goblin_cave"},
+        expected_tags={"STIMME": 1, "PROBE": 1},
+    ),
+}
+
+
+# ──────────────────────────────────────────────────────────────
 # Datenstrukturen fuer Metriken
 # ──────────────────────────────────────────────────────────────
 
@@ -133,6 +270,9 @@ class SessionMetrics:
     """Aggregierte Metriken fuer die gesamte Simulation."""
     module: str = ""
     adventure: str | None = None
+    case_id: int = 1
+    case_name: str = "generic"
+    expected_tags: dict[str, int] = field(default_factory=dict)
     total_turns: int = 0
     total_latency_ms: float = 0.0
     avg_latency_ms: float = 0.0
@@ -207,23 +347,44 @@ class VirtualPlayer:
         max_turns: int = 10,
         dry_run: bool = False,
         preset: str | None = None,
+        turn_delay: float = 2.0,
+        case_id: int = 1,
     ) -> None:
         self.module_name = module_name
-        self.adventure = adventure
         self.max_turns = max_turns
         self.dry_run = dry_run
         self.preset = preset
+        self.turn_delay = turn_delay  # Verzögerung zwischen Zügen (Sekunden)
 
-        # Aktionen bestimmen
+        # Test Case laden
+        self._case = TEST_CASES.get(case_id, TEST_CASES[1])
+
+        # Aktionen bestimmen: CLI --actions > Case-Aktionen > DEFAULT_ACTIONS
         if actions:
             self._actions = actions
+        elif self._case.case_id != 1 and module_name in self._case.actions:
+            self._actions = self._case.actions[module_name]
         else:
             self._actions = DEFAULT_ACTIONS.get(
                 module_name, DEFAULT_ACTIONS["_fallback"]
             )
 
+        # Adventure: CLI --adventure > Case-Empfehlung > None
+        if adventure is not None:
+            self.adventure = adventure
+        elif self._case.adventures.get(module_name):
+            self.adventure = self._case.adventures[module_name]
+        else:
+            self.adventure = None
+
         self._engine = None
-        self._metrics = SessionMetrics(module=module_name, adventure=adventure)
+        self._metrics = SessionMetrics(
+            module=module_name,
+            adventure=self.adventure,
+            case_id=self._case.case_id,
+            case_name=self._case.name,
+            expected_tags=dict(self._case.expected_tags),
+        )
         self._rules_warnings: list[str] = []
 
         # EventBus-Listener
@@ -255,11 +416,12 @@ class VirtualPlayer:
         orchestrator.set_gui_mode(enabled=True)
 
         # EventBus: Regelcheck-Warnungen abfangen
-        self._bus.on("game", self._on_game_event)
+        self._bus.on("game.output", self._on_game_event)
 
         logger.info(
-            "VirtualPlayer bereit: %s (Adventure: %s, Turns: %d)",
-            self.module_name, self.adventure or "keins", self.max_turns,
+            "VirtualPlayer bereit: %s (Adventure: %s, Case: %d-%s, Turns: %d)",
+            self.module_name, self.adventure or "keins",
+            self._case.case_id, self._case.name, self.max_turns,
         )
 
     def _on_game_event(self, data: Any) -> None:
@@ -307,6 +469,11 @@ class VirtualPlayer:
                 self._metrics.character_alive = False
                 break
 
+            # Verzögerung zwischen Zügen (zur Vermeidung von Systemüberlastung)
+            if turn_idx < self.max_turns - 1:
+                logger.info("Warte %.1fs vor nächstem Zug...", self.turn_delay)
+                time.sleep(self.turn_delay)
+
         # Session sauber beenden
         orchestrator.submit_input("quit")
         game_thread.join(timeout=5.0)
@@ -328,18 +495,12 @@ class VirtualPlayer:
         response_event = threading.Event()
         collected_response = {"text": ""}
 
-        def on_stream_end(data: Any) -> None:
-            if isinstance(data, dict):
+        def _listener(data: Any) -> None:
+            if isinstance(data, dict) and data.get("tag") == "stream_end":
                 collected_response["text"] = data.get("text", str(data))
-            else:
-                collected_response["text"] = str(data)
-            response_event.set()
+                response_event.set()
 
-        self._bus.on("game", lambda d: (
-            on_stream_end(d)
-            if isinstance(d, dict) and d.get("tag") == "stream_end"
-            else None
-        ))
+        self._bus.on("game.output", _listener)
 
         # Input abschicken + Timer starten
         t0 = time.perf_counter()
@@ -347,10 +508,13 @@ class VirtualPlayer:
 
         # Auf Antwort warten (Timeout: 120s)
         if not response_event.wait(timeout=120.0):
+            self._bus.off("game.output", _listener)
             tm.error = "Timeout: Keine Antwort innerhalb von 120 Sekunden."
             tm.latency_ms = 120_000.0
             logger.error("Turn %d: %s", turn_num, tm.error)
             return tm
+
+        self._bus.off("game.output", _listener)
 
         t1 = time.perf_counter()
         tm.latency_ms = (t1 - t0) * 1000.0
@@ -390,7 +554,12 @@ class VirtualPlayer:
         print(f"\n{'='*60}")
         print(f"  TROCKENLAUF — {self.module_name}")
         print(f"  Abenteuer: {self.adventure or 'keins'}")
+        print(f"  Test Case: {self._case.case_id} — {self._case.name}")
+        print(f"  Beschreibung: {self._case.description}")
         print(f"  Geplante Zuege: {self.max_turns}")
+        if self._case.expected_tags:
+            tags_str = ", ".join(f"{k}>={v}" for k, v in self._case.expected_tags.items())
+            print(f"  Erwartete Tags: {tags_str}")
         print(f"{'='*60}\n")
 
         for i in range(self.max_turns):
@@ -431,6 +600,7 @@ class VirtualPlayer:
         print(f"  SIMULATIONS-REPORT: {m.module}")
         if m.adventure:
             print(f"  Abenteuer: {m.adventure}")
+        print(f"  Test Case: {m.case_id} — {m.case_name}")
         print(f"{'='*60}")
         print(f"  Zuege gespielt:        {m.total_turns}")
         print(f"  Charakter lebt:        {'Ja' if m.character_alive else 'NEIN'}")
@@ -466,14 +636,12 @@ class VirtualPlayer:
         """Speichert den Report als JSON."""
         if path is None:
             ts = time.strftime("%Y%m%d_%H%M%S")
-            path = _ROOT / "data" / "metrics" / f"sim_{self.module_name}_{ts}.json"
+            case_name = self._case.name
+            path = _ROOT / "data" / "test_results" / f"test_{self.module_name}_{case_name}_{ts}.json"
         path.parent.mkdir(parents=True, exist_ok=True)
 
         data = asdict(self._metrics)
-        # Antworten kuerzen fuer lesbaren Export
-        for t in data["turns"]:
-            if len(t.get("keeper_response", "")) > 500:
-                t["keeper_response"] = t["keeper_response"][:500] + "..."
+        # Volle Keeper-Response speichern (kein Truncation)
 
         with path.open("w", encoding="utf-8") as fh:
             json.dump(data, fh, ensure_ascii=False, indent=2)
@@ -511,16 +679,24 @@ def main() -> None:
         help="Benutzerdefinierte Aktionen (ueberschreibt Defaults)",
     )
     parser.add_argument(
+        "--case", "-c", type=int, default=1, choices=[1, 2, 3, 4, 5],
+        help="Test Case: 1=generic, 2=investigation, 3=combat, 4=horror, 5=social (Default: 1)",
+    )
+    parser.add_argument(
         "--dry-run", action="store_true",
         help="Trockenlauf: zeigt Aktionen ohne KI-Aufruf",
     )
     parser.add_argument(
         "--save", action="store_true",
-        help="Report als JSON in data/metrics/ speichern",
+        help="Report als JSON in data/test_results/ speichern",
     )
     parser.add_argument(
         "--verbose", "-v", action="store_true",
         help="Debug-Logging aktivieren",
+    )
+    parser.add_argument(
+        "--turn-delay", type=float, default=2.0,
+        help="Verzögerung zwischen Zügen in Sekunden (Default: 2.0)",
     )
 
     args = parser.parse_args()
@@ -540,6 +716,8 @@ def main() -> None:
         max_turns=args.turns,
         dry_run=args.dry_run,
         preset=args.preset,
+        turn_delay=args.turn_delay,
+        case_id=args.case,
     )
 
     if not args.dry_run:

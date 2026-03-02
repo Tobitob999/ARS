@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.2.1",
+  "id": "glusee",
+  "name": "Glusee",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Glusee (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "sixth",
+    "book_pages": [
+      177,
+      178
+    ],
+    "pdf_pages": [
+      178,
+      179
+    ],
+    "raw_block": "Glusee (Alteration)\nComponents: V, S, M\nDuration: 1 round/level\nCasting Time: 1 round\nArea of Effect: Special\nSaving Throw: None\nBy means of this spell, the wizard is able\nto make a section of metal, stom, or wood\nas transparent as glass to his gaze, or even\nmake it into transparent material as\nexplained hereafter. Normally, up to four\ninches of metal can be seen through, stone\nup to six inches thick can be made transpar-\nby the g&ssee spell. The spell will not work\non lead, gold, or platinum. The wizard can\nopt to make the glassee work only for him-\nself for the duration of the @, or he can\nactually make a transparent area, a one-\nway window, in the materid affected.\nEther case gives a viewing area 3' wideby 2'\nhigh. If a window is created, it has the\nstrength of the original material.\nThe material component of the Spen ie a\nsmall piece of crystal or glass.\nRange: Touch\nent, and 20 inches of wood can be affected\nGla -\nRange: 0\nComponents: V, S, M\nDuration: 1 round/ld\nCasting Time: 1 round\nArea of Effect: 5-foot-radius Sphe\nSaving Throw: None\nThis spell creates an immobile, faintly\nshimmering, magical sphere around the\ncaster that prwents any 1st; 2nd-, 3rd-, or\n4th-level spell effects from penetrating.\nThus the area of effect of any such spell does\nnot include the area of the globe of invUlntIc\nability. This includes innate spen-like am-\nties and effects from devices. However, any\nsphere, and these pass from the caster of the\nglobe to the subject without effect upon the\nglobe. Fifth and high= level Spevs are not\naffected by the &be. The globe can be\nbrought down by a successful dispef magic\nSpell.\nThe material component of the spell is a\nglass or crystal bead that shatters at the\nexpiration of the spell.\nof Invulnerability FAbluntion)\nI\ntype of spell can be cast out of the magical\nI\nI\n177\nGuards and Wards (Evocation,\nAlteration, EnchantmentICharm)\nRange: 0\nComponents: V, S, M\nDuration: 1 hour/level\nCasting Time: 3 turns\nArea of Effect: Special\nSaving Throw: None\nThis special and powerful spell is primari-\nly used to defend the wizards stronghold.\n. The ward protects a one-storey stronghold,\nwith a base dimension of 400‘ X 400’. The\nwizard can ward a multi-storey area by\nreducing the base area proportionately. The\nfollowing take place in the warded area\nupon casing of the spell:\n1. All corridors become misty, and visibil-\nity is reduced to 10 feet.\n2. All doors are wizard locked.\n3. Stairs are filled with webs from top to\nbottom. These act as the 2nd-level web\nspell, except that they regrow within one\nturn if destroyed.\n4. Where there are choices in direction-\nsuch as a cross or side passage-a minor\nconfusion-type spell functions so as to\nmake it 50% probable that intruders\nbelieve they are going in the exact oppo-\nsite direction.\n5. The whole area radiates magic. The nor-\nmal use of the detect magic spell becomes\nimpossible for those of less than the cast-\ner’s level and difficult for others.\n6. One door per level of experience of the\nwizard is covered by an illusion to\nappear as if it were a plain wall.\n7. The wizard can place one of the follow-\ning additional magical effects:\nA. Dancing fights in four corridors\nB. Magic mouth in two places\nC. Stinking cloud in two places\nD. Gust of wind in one corridor or room\nE. Suggestion in one place.\nNote that items 6 and 7 function only\nwhen the wizard is totally familiar with the\narea of the spell’s effect. &pel magic can\nremove one effect, at random, per casting.\nA remove curse spell will not work.\nThe material components of the spell are\nburning incense, a small measure of sulphur\nand oil, a knotted string, a small amount of\number hulk blood, and a small silver rod.\nA\nA"
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Glusee",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "1 round/level",
+      "casting_time": "1 round",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "This special and powerful spell is primari- ly used to defend the wizards stronghold. . The ward protects a one-storey stronghold, with a base dimension of 400‘ X 400’. The wizard can ward a multi-storey area by reducing the base area proportionately. The following take place in the warded area upon casing of the spell: 1. All corridors become misty, and visibil- ity is reduced to 10 feet. 2. All doors are wizard locked. 3. Stairs are filled with webs from top to bottom. These act as the 2nd-level web spell, except that they regrow within one turn if destroyed. 4. Where there are choices in direction- such as a cross or side passage-a minor confusion-type spell functions so as to make it 50% probable that intruders believe they are going in the exact oppo- site direction. 5. The whole area radiates magic. The nor- mal use of the detect magic spell becomes impossible for those of less tha"
+    },
+    "quality_flags": [
+      "trimmed_merged_block"
+    ]
+  }
+}

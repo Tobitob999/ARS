@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Only characters with Surgery Skill Bonus of +4",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 146,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:41Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p146_0693",
+    "entity_type": "npcs",
+    "name_guess": "Only characters with Surgery Skill Bonus of +4",
+    "breadcrumb_path": "Rules Compendium > Page 146 > npcs > Only characters with Surgery Skill Bonus of +4",
+    "page_refs": [
+      146
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Only characters with Surgery Skill Bonus of +4 or higner can implant these devices_ and they must do sO hospital: successful Surgery Action Check means the ear replacement succeeds failed roll indicates that the replacement surgery unsuccessful ad additional attempts will not succeed_ Type 2: Useful Limb These replacements pertorm more tunctions For example Type hand might be mechanical clav, and Type leg might nave springs t0 aid movement: character with Type hand cannot use some equipment, such as guns; because fin- ger holes might be t00 small."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "lore_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "lore",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "religions and eth: nic groups any human-inhabited planet;",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 169,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:02Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_lore_p169_0273",
+    "entity_type": "lore",
+    "name_guess": "religions and eth: nic groups any human-inhabited planet;",
+    "breadcrumb_path": "Rules Compendium > Page 169 > lore > religions and eth: nic groups any human-inhabited planet;",
+    "page_refs": [
+      169
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [
+      "3059"
+    ],
+    "stat_tokens": [],
+    "excerpt": "religions and eth: nic groups any human-inhabited planet; Terra serves as touch- stone for humans other planets, regardless of how many thou: sands of light-ycars and hundreds of centuries separate them: CLAN OCCUPATION ZONE The Clan invasion placed large sections of the Federated Commonwealth_ Free Rasalhague Republic and Draconis Combine under Clan rule_ The spinward region occupied by the Smoke Jaguars and Nova Cats, was liberated in 3059 and returned t0 the Combine."
+  }
+}

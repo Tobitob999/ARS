@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "factions_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "factions",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Prince Victor has so far made no attempt",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 166,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:59Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_factions_p166_0241",
+    "entity_type": "factions",
+    "name_guess": "Prince Victor has so far made no attempt",
+    "breadcrumb_path": "Rules Compendium > Page 166 > factions > Prince Victor has so far made no attempt",
+    "page_refs": [
+      166
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "0 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Prince Victor has so far made no attempt to regain his lost throne, unwilling to inflict civil war on his people_ Tine fact remains however, that Precentor Martial Steiner Davion has crack military force at his dispos- al, and increasing numbers in the Federated Commonwealth are beginning t0 view him hero for his defeat of the Clans_ Archon Katherine sits uneasily on the throne of New Avalon and may yet be provoked into rash action_ Meanwhile Clans Jade Falcon ad Wolf remain committed to renewing the invasion_ Clan Wolf formally repudiated the results of the Strana Mechty Trial, and Clan Jade Falcon is unlikely to abide by a outcome so offensive t0 its pride Neither Clan has the strength t0 move in force yet, but each is rebuilding at swift pace_ The Capellan Confederation has begun military action against the indepen- dent St."
+  }
+}

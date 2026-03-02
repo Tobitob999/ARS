@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Poor Vision, Lost Limb Unattractive ] You feel",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 38,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:50Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p038_0144",
+    "entity_type": "npcs",
+    "name_guess": "Poor Vision, Lost Limb Unattractive ] You feel",
+    "breadcrumb_path": "Rules Compendium > Page 038 > npcs > Poor Vision, Lost Limb Unattractive ] You feel",
+    "page_refs": [
+      38
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Poor Vision, Lost Limb Unattractive ] You feel you are in the wrong caste_ but the Clan won reassign you (Brave but lose all skills gained from this path and flee to the bandit caste; take Ne er-Do-Well (4) or Civilian Job (4) as next path] Frequently beaten for your mistakes (Timid] Fall in with the wrong\" crowd [Streetwise /Clan +1, Addiction] Your master was slave driver, but he made sure you learned your trade [+ t0 any two skills] Like freebirth, YOu waste your time reading books [Academic /Any +2, choose one; Computers +2 First Aid +2, Language /Any +2, Interest/Any +3 Technician/ Any +2| You have an affinity for this work [Natural Aptitude for ay one skill gained on this path] The bandit caste attacked your settlement, Your heroic actions helped drive off the invaders [Brave Good Reputation, Tactics / Infantry +1; yoU may choose Freeborn Sibko as your next path and SO your character leaves Stage at age eighteen rather than sixteen] Lucky break."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Other specific effects of each type of wound",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 117,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:31Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p117_0543",
+    "entity_type": "npcs",
+    "name_guess": "Other specific effects of each type of wound",
+    "breadcrumb_path": "Rules Compendium > Page 117 > npcs > Other specific effects of each type of wound",
+    "page_refs": [
+      117
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "TN",
+      "Wound",
+      "wound"
+    ],
+    "excerpt": "Other specific effects of each type of wound are described in the following sections_ Glass Jaw: Characters with the Glass Jaw Trait add to the wound value of all wounds except the Fatigue Only result, which still has value of Pain Reslstance: Characters with Pain Resistance are not stunned by Grazing Wounds, and the total TN modifiers for all wounds taken by the character are reduced by For example_ character with Pain Resistance who has suffered Minor Wounds and Serious Wound would have total TN modifier of rather than +4 Toughness: Characters with the Toughness Trait reduce the wourid value ot all wounds by This has no effect on the wound value increases from bleeding: Knockout the character suffers Serious Wound Or worse, he might be overcome by pain or shock and knocked out."
+  }
+}

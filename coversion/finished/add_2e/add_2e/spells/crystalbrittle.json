@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "crystalbrittle",
+  "name": "Crystalbrittle",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Crystalbrittle (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "ninth",
+    "book_pages": [
+      194
+    ],
+    "pdf_pages": [
+      195
+    ],
+    "raw_block": "Crystalbrittle (Alteration)\nRange: Touch\nComponents: V, S\nDuration: Permanent\nCasting Time: 9\nArea of Effect: 2 cubic ft./level\nSaving Throw: Special\nThe magic of this spell causes metal,\nwhether as soft as gold or as hard as ada-\nmantite, to turn to a crystalline substance as\nbrittle and fragile as crystal. Thus a sword,\n1 04\ngolem can be changed to a delicate, glass-\nlike material easily shattered by any forceful\nblow. Furthermore, this change is unalter-\nable short of a-wish spell; a dispel magic will\nnot reverse the spell.\nThe caster must physically touch the\nitem-if it is an opponent or something an\nopponent is using or wearing, the wizard\nmust get into melee add roll a successful\nattack roll. Any single metal item can be\naffected by the spell. Thus a suit of armor\nworn by a creature can be changed to crys-\ntal, but the creature’s shield would not be\naffected, or vice versa. All items gain a sav-\ning throw equal to their magical bonus val-\nue or protection (the DM has this\ninformation). A +1/ +3 sword would get a\n10% (average of the two pluses) chance to\nsave; + 5 magical armor has a 25 % chance\nto be unaffected; an iron golem has a 15%\nchance to save (for it is hit only by magical\nweapons of +3 or better quality). Artifacts\nand relics constructed of metal may be\naffected at the discretion of the DM (this is\nhighly unlikely). Affected items not imme-\ndiately protected are shattered and perma-\nnently destroyed if struck by a normal blow\nfrom a metal tool or any weighty weapon,\nincluding a staff."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Crystalbrittle",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "Touch",
+      "components": "V, S",
+      "duration": "Permanent",
+      "casting_time": "9",
+      "area_of_effect": "2 cubic ft./level",
+      "saving_throw": "Special",
+      "description_excerpt": "The magic of this spell causes metal, whether as soft as gold or as hard as ada- mantite, to turn to a crystalline substance as brittle and fragile as crystal. Thus a sword, 1 04 golem can be changed to a delicate, glass- like material easily shattered by any forceful blow. Furthermore, this change is unalter- able short of a-wish spell; a dispel magic will not reverse the spell. The caster must physically touch the item-if it is an opponent or something an opponent is using or wearing, the wizard must get into melee add roll a successful attack roll. Any single metal item can be affected by the spell. Thus a suit of armor worn by a creature can be changed to crys- tal, but the creature’s shield would not be affected, or vice versa. All items gain a sav- ing throw equal to their magical bonus val- ue or protection (the DM has this information). A +1/ +3 sword would get a 10% (average of "
+    },
+    "quality_flags": []
+  }
+}

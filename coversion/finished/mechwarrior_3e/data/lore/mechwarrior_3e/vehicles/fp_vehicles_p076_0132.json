@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "category": "vehicles_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "vehicles",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Name Brash Tanker Mtcu JHHPIIOR Mtiliation Free Rasalhague",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 76,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:03Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_vehicles_p076_0132",
+    "entity_type": "vehicles",
+    "name_guess": "Name Brash Tanker Mtcu JHHPIIOR Mtiliation Free Rasalhague",
+    "breadcrumb_path": "Rules Compendium > Page 076 > vehicles > Name Brash Tanker Mtcu JHHPIIOR Mtiliation Free Rasalhague",
+    "page_refs": [
+      76
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [
+      "74 kg"
+    ],
+    "range_mentions": [
+      "1.8 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [
+      "Armor"
+    ],
+    "excerpt": "Name Brash Tanker Mtcu JHHPIIOR Mtiliation Free Rasalhague Republic Ige 19 Height 1.8 m Weight 74 kg character Recoud Sheet THIR D EDITIQE KTTRIBUTES TRAITS Value Mod_ Max _ Quirk Paranoia Well-Equipped Strength Rank (21: Menig Stigma: Mercenary brat Body Stigma: Orphan Dexterity Vehicle (2); Rellexes Hunter Light Support Tank [35] Intelligence Wealth Willpower Charisma coMbaT INFORMATION AI LocaTIon DIAGRAM Edge Fill in Armor Type (A, B."
+  }
+}

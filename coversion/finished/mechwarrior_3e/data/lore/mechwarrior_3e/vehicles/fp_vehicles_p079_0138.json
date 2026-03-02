@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "vehicles_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "vehicles",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "MECHWARRIOR JRD EDITION TRAITS Traits are special abilities",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 79,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:04Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_vehicles_p079_0138",
+    "entity_type": "vehicles",
+    "name_guess": "MECHWARRIOR JRD EDITION TRAITS Traits are special abilities",
+    "breadcrumb_path": "Rules Compendium > Page 079 > vehicles > MECHWARRIOR JRD EDITION TRAITS Traits are special abilities",
+    "page_refs": [
+      79
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "MECHWARRIOR JRD EDITION TRAITS Traits are special abilities or drawbacks character has character with two Alternate Identity Traits would have two that are beyond the scope of Attributes and skills Traits do not separate forged identities_ each with different name and set necessarily represent inborn abilities; in many cases they rep ot identification credentials In some cases these traits may resent learned abilities whose use simply doesn' fit the way only be taken more than once with gamemaster permission: skills work in the MW3 rules Some traits are used during char- these traits are noted as such in the descriptions acter creation t0 represent things like money ad equipment."
+  }
+}

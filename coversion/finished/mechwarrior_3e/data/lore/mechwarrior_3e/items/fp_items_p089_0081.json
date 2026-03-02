@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Descriptions, illustrations and To find the specific vehicle",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 89,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:22Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p089_0081",
+    "entity_type": "items",
+    "name_guess": "Descriptions, illustrations and To find the specific vehicle",
+    "breadcrumb_path": "Rules Compendium > Page 089 > items > Descriptions, illustrations and To find the specific vehicle",
+    "page_refs": [
+      89
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Descriptions, illustrations and To find the specific vehicle assignment for BattleMechs roll BattleTech game statistics for these vehicles can be found in the the appropriate column the appropriate Vehicle various BattleTech Techrical Readouts and Field Manuals 4ssi ignment Table (beginning on 901 corresponding to the character\" affiliation: use the Vehicle coluinn the same WEALTH table for vehicles and the Aerospace and DropShip tables character with the Wealth Trait has more starting money fighters and DropShips The player may choose the maximum than usual, which can be used to buy equipment or banked for 88"
+  }
+}

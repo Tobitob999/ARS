@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "WOUND TypE8 The wound types listed on the",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 118,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:31Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p118_0549",
+    "entity_type": "npcs",
+    "name_guess": "WOUND TypE8 The wound types listed on the",
+    "breadcrumb_path": "Rules Compendium > Page 118 > npcs > WOUND TypE8 The wound types listed on the",
+    "page_refs": [
+      118
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "WOUND",
+      "Wound",
+      "wound"
+    ],
+    "excerpt": "WOUND TypE8 The wound types listed on the Wound Table have the fol: owing effects Fatlgue Only Included here for the sake of completeness_ Fatigue Only result not actually wound_ In this case the character only scraped_ bruised or winded by the attack and suffers no last- ing effects_ All the attack does inflict Fatigue point on the target. Grazlng Wound Wound Value: This the classic \"it' $ only flesh wound result."
+  }
+}

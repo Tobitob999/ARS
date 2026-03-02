@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "The surgica assistant counts as skilled character helping",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 125,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:33Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p125_0596",
+    "entity_type": "npcs",
+    "name_guess": "The surgica assistant counts as skilled character helping",
+    "breadcrumb_path": "Rules Compendium > Page 125 > npcs > The surgica assistant counts as skilled character helping",
+    "page_refs": [
+      125
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "0 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "The surgica assistant counts as skilled character helping he has Surgery Skill. If the Surgery Check succeeds, the target character longer in immediate danger of dying: Continuing attention from character with MedTech necessary t0 maintain stable con: dition until the wounds themselves are actually treated (see below) Every hours_ MedTech Check is required to keep the character from \"crashing and returning to critical condition (in which case the whole process must be started over again at First Aid, 991."
+  }
+}

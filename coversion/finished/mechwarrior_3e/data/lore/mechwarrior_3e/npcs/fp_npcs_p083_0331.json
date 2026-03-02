@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "but they should not dominate the group plot",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 83,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:06Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p083_0331",
+    "entity_type": "npcs",
+    "name_guess": "but they should not dominate the group plot",
+    "breadcrumb_path": "Rules Compendium > Page 083 > npcs > but they should not dominate the group plot",
+    "page_refs": [
+      83
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "but they should not dominate the group plot lines- After all, only one character took on the Enemy Trait; so that character shouldn make the whole group pay for it; If, however, the gamemaster planned on having cer- tain enemy act as nemesis for the entire group through much of the campaign_ all the characters the group could take tne same Enemy Trait to represent it."
+  }
+}

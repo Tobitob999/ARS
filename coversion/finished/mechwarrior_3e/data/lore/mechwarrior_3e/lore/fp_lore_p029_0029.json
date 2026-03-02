@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "lore_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "lore",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Child Iabor is lega in most parts of",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 29,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:44Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_lore_p029_0029",
+    "entity_type": "lore",
+    "name_guess": "Child Iabor is lega in most parts of",
+    "breadcrumb_path": "Rules Compendium > Page 029 > lore > Child Iabor is lega in most parts of",
+    "page_refs": [
+      29
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Child Iabor is lega in most parts of the Confederation; if character cannot qualify for any Stage Stage 3 paths he can go to Stage and enter the workforce, taking Civilian Job and ignoring the prerequisites_ CAPELLAN CONFEDERATION (HOUSE LIAO) The Capellan Confederation survivor; thanks greatest asset Its people_ Capellan citizen sees it as his or her duly to serve the nation first and himself second; individual rights are therefore subordinate the needs otthe state Regarded as repressive by most other Successor States and smaller political entities this simple trait has allowed the Capellan nation t0 survive and prosper even after the Federated Commonwealth broke its back in the Fourth Succession War: As always adversity merely strengthens the Capellan Confederation."
+  }
+}

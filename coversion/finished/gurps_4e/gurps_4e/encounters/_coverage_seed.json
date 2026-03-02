@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "category": "encounters_autofill_seed",
+  "tags": [
+    "gurps_4e",
+    "encounters",
+    "conversion_autopilot",
+    "autofill_seed"
+  ],
+  "summary": "Automatisch erzeugter Nachweis fuer Vollstaendigkeit im Conversion-Autopilot.",
+  "source_text": {
+    "generated_at": "2026-03-02T15:09:31Z",
+    "generator": "coversion/enforce_full_depth.py",
+    "coverage_fields": [
+      "travel",
+      "combat"
+    ]
+  },
+  "mechanics": {
+    "status": "autofill_seed",
+    "reason": "Kein direkter Extrakt in diesem Ordner gefunden; Seed aus Coverage erstellt.",
+    "evidence": [
+      {
+        "field": "travel",
+        "source_file": "GURPS - 4th Edition - Basic Set.pdf",
+        "page_refs": [
+          54,
+          391,
+          398,
+          399,
+          467,
+          470,
+          526,
+          554
+        ],
+        "excerpt": "[PDF_PAGE 470 | score=43] Convoys: Multiple vehicles travel- ing in convoy or formation move at 80% of the speed of the slowest vehi- cle, due to the need for station keep- ing. On a successful Leadership roll, use 100% of the speed of the slowest vehicle. For long journeys, roll daily. Control Rolls A vehicle operator must make a “control roll” – against Boating, Driving, Piloting, etc., as appropriate – in any potentially hazardous situation. The GM may require a roll every few hours in an ongoing situation such as a fierce storm, or every fewseconds in combat! Modifiers: The vehicle’s Handling (Hnd) statistic modifies all control rolls. For sudden deceleration or tight turns, see Pushing the Envelope (p. 395). Vis\n[PDF_PAGE 391 | score=22] TACTICAL COMBAT 387 You can also “sidestep” into a front hex (C) while keeping your original facing. This is allowed during an All- Out attack (as "
+      },
+      {
+        "field": "combat",
+        "source_file": "GURPS - 4th Edition - Basic Set.pdf",
+        "page_refs": [
+          326,
+          328,
+          329,
+          369,
+          373,
+          378,
+          381,
+          382
+        ],
+        "excerpt": "[PDF_PAGE 378 | score=84] Rapid fire may score multiple hits from a single attack. A successful attack means you scored at least one hit – and possibly a number of extra hits, up to a maximum equal to the number of shots you fired. To find the number of hits you scored, compare your margin of success on the attack roll to your weapon’s Recoil. An attack scores one extra hit for every full multiple of Recoil by which you make your attack roll. The total number of hits cannot exceed shots fired. For instance, if your attack had Rcl 2, success by 0-1 would mean one hit; success by 2-3, one extra hit; suc- cess by 4-5, two extra hits; success by 6-7, three extra hits; and so on. High-RoF weapons (those with RoF 5+) can a\n[PDF_PAGE 328 | score=78] 326 COMBAT LITE RANGED ATTACKS A “ranged attack” is any attack with a weapon used at a distance, from a thrown rock to a laser rifle to a specified"
+      }
+    ]
+  }
+}

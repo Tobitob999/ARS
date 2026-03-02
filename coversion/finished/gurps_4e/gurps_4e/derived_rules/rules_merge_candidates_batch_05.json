@@ -1,0 +1,159 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_merge_candidates",
+  "tags": [
+    "gurps_4e",
+    "merge",
+    "batch_05"
+  ],
+  "summary": "Merge-Kandidaten pro Feld fuer GURPS Basic Set.",
+  "source_text": {
+    "digest_file": "data/lore/gurps_4e/derived_rules/rules_field_digest_batch_05.json",
+    "timestamp": "2026-03-02T15:20:00"
+  },
+  "mechanics": {
+    "fields": {
+      "magic": [
+        {
+          "source_file": "GURPS - 4th Edition - Basic Set.pdf",
+          "profile_file": "data/lore/gurps_4e/derived_rules/gurps_4th_edition_basic_set_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Anyone can learn most spells – although in some worlds, you must be a mage to use the spells you know.",
+            "Some spells specify a particular level of Magery as a prerequisites: if you lack the required Magery level, you cannot learn the spell.",
+            "Each magic spell is a separate skill, learned just like any other skill.",
+            "Most spells are IQ/Hard skills, but a few potent spells are IQ/Very Hard."
+          ]
+        }
+      ],
+      "characteristics": [
+        {
+          "source_file": "GURPS - 4th Edition - Basic Set.pdf",
+          "profile_file": "data/lore/gurps_4e/derived_rules/gurps_4th_edition_basic_set_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "When you choose an optional spe- cialty, write down the skill and its spe- cialty just as if you were selecting a required specialty.",
+            "You learn the spe- cialized skill as if it were one level eas- ier.",
+            "Unless otherwise noted, prerequi- sites are unchanged.",
+            "The general skill defaults to the specialized one at -2; roll against this whenever you must answer questions outside your field."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "source_file": "GURPS - 4th Edition - Basic Set.pdf",
+          "profile_file": "data/lore/gurps_4e/derived_rules/gurps_4th_edition_basic_set_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Most skills have a “default level”: the level at which you use the skill if you have no training.",
+            "A skill has a default level if it is something that everybody can do .",
+            "As a general rule, a skill defaults to its controlling attribute at -4 if Easy, -5 if Average, or -6 if Hard.",
+            "There are exceptions to this, but not many."
+          ]
+        }
+      ],
+      "combat": [
+        {
+          "source_file": "GURPS - 4th Edition - Basic Set.pdf",
+          "profile_file": "data/lore/gurps_4e/derived_rules/gurps_4th_edition_basic_set_rules_profile.json",
+          "priority": "permanent",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Rapid fire may score multiple hits from a single attack.",
+            "A successful attack means you scored at least one hit – and possibly a number of extra hits, up to a maximum equal to the number of shots you fired.",
+            "To find the number of hits you scored, compare your margin of success on the attack roll to your weapon’s Recoil.",
+            "An attack scores one extra hit for every full multiple of Recoil by which you make your attack roll."
+          ]
+        }
+      ],
+      "healing": [
+        {
+          "source_file": "GURPS - 4th Edition - Basic Set.pdf",
+          "profile_file": "data/lore/gurps_4e/derived_rules/gurps_4th_edition_basic_set_rules_profile.json",
+          "priority": "permanent",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Running long distances, using extra effort, being suffocated, casting magic spells, and many other things can cause “fatigue”: a temporary loss of Fatigue Points.",
+            "Your Fatigue Points (FP) score starts out equal to your HT, but you can modify this; see Fatigue Points (p.",
+            "Just as injury represents physical trauma and comes off of HP, fatigue represents lost energy and reduces FP.",
+            "When you lose FP, keep track of it on your character sheet."
+          ]
+        }
+      ],
+      "economy": [
+        {
+          "source_file": "GURPS - 4th Edition - Basic Set.pdf",
+          "profile_file": "data/lore/gurps_4e/derived_rules/gurps_4th_edition_basic_set_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Wealth and Status In some game worlds, Status (see p.",
+            "In a set- ting like this, if you are Wealthy or bet- ter, you get +1 Status for free.",
+            "This bonus increases to +2 at Multi- millionaire 1 and to +3 at Multimillionaire 2.",
+            "No one may claim more than +3 Status from Wealth."
+          ]
+        }
+      ],
+      "henchmen_hirelings": [
+        {
+          "source_file": "GURPS - 4th Edition - Basic Set.pdf",
+          "profile_file": "data/lore/gurps_4e/derived_rules/gurps_4th_edition_basic_set_rules_profile.json",
+          "priority": "support",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Commercial Transactions Roll when the PCs try to buy or sell goods, find a job, or hire someone.",
+            "If no bargaining is involved, no roll is necessary – unless there is a chance that the merchant won’t deal with the PCs at all.",
+            "As used below, “fair price” means the normal price, at that particular time and place, for the goods or serv- ices in question.",
+            "The PCs can try to get a better price, at a -1 penalty for every 10% difference."
+          ]
+        }
+      ],
+      "extensions": [
+        {
+          "source_file": "GURPS - 4th Edition - Basic Set.pdf",
+          "profile_file": "data/lore/gurps_4e/derived_rules/gurps_4th_edition_basic_set_rules_profile.json",
+          "priority": "flavor",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "and agree with this principle, and to cooperate in telling the story.",
+            "GURPS includes some rules that can help – but everyone must realize that an epic story is apt to transcend the rules.",
+            "Cinematic Power Level It is possible to run a cinematic game at any power level.",
+            "Cinematic games are frequently high-powered games – and vice versa – but “cine- matic” is a style, not a point level."
+          ]
+        }
+      ],
+      "travel": [
+        {
+          "source_file": "GURPS - 4th Edition - Basic Set.pdf",
+          "profile_file": "data/lore/gurps_4e/derived_rules/gurps_4th_edition_basic_set_rules_profile.json",
+          "priority": "support",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Convoys: Multiple vehicles travel- ing in convoy or formation move at 80% of the speed of the slowest vehi- cle, due to the need for station keep- ing.",
+            "On a successful Leadership roll, use 100% of the speed of the slowest vehicle.",
+            "Control Rolls A vehicle operator must make a “control roll” – against Boating, Driving, Piloting, etc., as appropriate – in any potentially hazardous situation.",
+            "The GM may require a roll every few hours in an ongoing situation such as a fierce storm, or every fewseconds in combat!"
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "source_file": "GURPS - 4th Edition - Basic Set.pdf",
+          "profile_file": "data/lore/gurps_4e/derived_rules/gurps_4th_edition_basic_set_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Sometimes (roll of 10 or less): ¥1/2 (round down).",
+            "Occasionally (roll of 7 or less): ¥1/3 (round down).",
+            "Of course, your reputation extends only within a certain area.",
+            "If you trav- el far enough away, the GM may require you to “buy off” the disadvan- tage points you received for a bad rep- utation."
+          ]
+        }
+      ]
+    },
+    "total_candidate_statements": 40
+  }
+}

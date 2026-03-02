@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "factions_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "factions",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Since then you 've lived on the street",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 34,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:49Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_factions_p034_0066",
+    "entity_type": "factions",
+    "name_guess": "Since then you 've lived on the street",
+    "breadcrumb_path": "Rules Compendium > Page 034 > factions > Since then you 've lived on the street",
+    "page_refs": [
+      34
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Since then you 've lived on the street and in orphanages_ You ve had hard life_ but at east you could turn for help to government-run orphanages for victims of the Clans Attribute Thresholds: BOD -1 WIL +1, EDG +1 _ SOC -1 Tralts: Poverty, Stigma /Orphan SkllIs: Streetwise/Affiliation +1- Perception +1 Back Woods Events Serious hunting accident IChoose one: BOD Lost Limo, Sion Learner] Caught rare virus [Glass Jaw] Hunting accident (Choose one: Poor Hearing, Poor Vision , Unattractive] Family captured by bandits: only you escaped [Escape Artist +1 Stealth +1, Enemy] Made time for hobby [Interest/Any +1] Started using weapons early [Rifle +1] 33"
+  }
+}

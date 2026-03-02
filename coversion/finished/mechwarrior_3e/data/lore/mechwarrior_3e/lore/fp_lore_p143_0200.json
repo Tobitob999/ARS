@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "category": "lore_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "lore",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "armored infantry trooper must possess the skills pilot",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 143,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:40Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_lore_p143_0200",
+    "entity_type": "lore",
+    "name_guess": "armored infantry trooper must possess the skills pilot",
+    "breadcrumb_path": "Rules Compendium > Page 143 > lore > armored infantry trooper must possess the skills pilot",
+    "page_refs": [
+      143
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "10 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [
+      "TN",
+      "Wound",
+      "armor"
+    ],
+    "excerpt": "armored infantry trooper must possess the skills pilot the suit (Piloting/Battlesuit) and tne physica strength and stamina needed t0 work it (BOD STR 6 -1 Characters without the appropriate Piloting Skill and/or high enough STR or BOD who are trying to pilot suit will have difticult time of it: Such character will suffer point of Fatigue every turn ne moves faster than walking speed Or fights in melee combat: In addi: tion, if the character uses sprinting evading movement; uses jump jets or fires any kind of support weapon from the suit, he must make BOD Check sufter Grazing Wound from the stress the suit puts on nis body: Battlesuits are custom fitted t0 their pilots, potential problem to characters looking to simply put one on ad run with it Most suits can af course, be readjusted for new pilot: This process can be completed 106 10 minutes, though the assistance unarmored character with tne Piloting/Battlesuit Skill will cut the time required half, Using suit not custom fitted or adjusted inflicts +2 TN Modifier t0 all Action Checks Standard Cian and Inner Sphere battle armor suits have severa universal hardpoints, allowing troopers t0 custom-con\" figure their suits with weapons_ Two different classes can be mounted: heavy armor-defeating weapons such missiles and lasers and lighter secondary weapons for anti-infantry use_ Each battlesuit can usually carry one primary and one ondary weapon; though some can carry more -tne text for each suit will specify nov many of each it can carry: Rechargeable power packs are provided for energy weapons_ while mounting points and pouches are available for extra ammunition maga 142"
+  }
+}

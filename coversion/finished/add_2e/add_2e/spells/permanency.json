@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.2.1",
+  "id": "permanency",
+  "name": "Permanency",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Permanency (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "eighth",
+    "book_pages": [
+      190,
+      191
+    ],
+    "pdf_pages": [
+      191,
+      192
+    ],
+    "raw_block": "Permanency (Alteration)\nRange; Special\nComponents: V, S\nDuration: Permanent\nCasting Time: 2 rounds\nArea of Effect: Special\nSaving Throw: None\nThis spell affects the duration of certain\nother spells, making the duration perma-\nnent. The personal spells upon which a per-\nmanency is known to be effective are as\nfollows:\ncomprehend\ndetect evil protection from\ndetect invisibility no& missiles\ndetect magic read magic\ninfrmision , tongues\nprotection from unseen servant\nprotection from evil ~ansuases\ncanttips\nThe wizard casts the desired spell and\nthen follows with the permanency spell.\nEach permanency spell lowers the wizards\nConstitution by 1 point. The wizard cannot\ncast these spells upon other creatures. This\n1\ni\n1\napplication of permanency can be dispelled\nonly by a wizard of greater level than the\nspellcaster was when he cast the spell.\nIn addition to personal use, the perma-\nnency spell can be used to make the follow-\ning object/creature or area-effect spells\npermanent:\nenlarge prismatic sphere\nfear stinking cloud\ngust of wind\ninvisibility wall of force\nmagic mouth web\nwall of fire\nAdditionally, the following spells can be\ncast upon objects or areas only and ren-\ndered permanent:\nalarm wall of fire\naudible glamer distance distortion\ndancing lights teleport\nsolid fog\nThese applications to other spells allow it\nto be cast simultaneously with any of the\nlatter when no living creature is the target,\nbut the entire spell complex then can be dis-\npelled normally, and thus negated.\nThe permanency spell is also used in the\nfabrication of magical items (see the 6th-\nlevel enchant an item spell). At the DMs\noption, permanency might become unstable\nor fail after a long period, at least 1,ooO\nyears. Unstable effects might operate inter-\nmittently or fail altogether.\nThe DM may allow other selected spells\nto be made permanent. Researching this\npossible application of a spell costs as much\ntime and money as independently research-\ning the selected spell. If the DM has already\ndetermined that the application is not possi-\nble, the research automatically fails. Note\nthat the wizard never learns what is possi-\nble, except by the success or failure of his\nresearch."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Permanency",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": null,
+      "components": "V, S",
+      "duration": "Permanent",
+      "casting_time": "2 rounds",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "nent. The personal spells upon which a per- manency is known to be effective are as follows: comprehend detect evil protection from detect invisibility no& missiles detect magic read magic infrmision , tongues protection from unseen servant protection from evil ~ansuases canttips The wizard casts the desired spell and then follows with the permanency spell. Each permanency spell lowers the wizards Constitution by 1 point. The wizard cannot cast these spells upon other creatures. This 1 i 1 application of permanency can be dispelled only by a wizard of greater level than the spellcaster was when he cast the spell. In addition to personal use, the perma- nency spell can be used to make the follow- ing object/creature or area-effect spells permanent: enlarge prismatic sphere fear stinking cloud gust of wind invisibility wall of force magic mouth web wall of fire Additionally, the following "
+    },
+    "quality_flags": [
+      "missing_standard_fields"
+    ]
+  }
+}

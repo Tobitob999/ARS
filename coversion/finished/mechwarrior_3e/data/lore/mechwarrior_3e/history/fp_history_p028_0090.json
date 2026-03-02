@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "With leader whom many citizens consider usurper, tensions",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 28,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:44Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p028_0090",
+    "entity_type": "history",
+    "name_guess": "With leader whom many citizens consider usurper, tensions",
+    "breadcrumb_path": "Rules Compendium > Page 028 > history > With leader whom many citizens consider usurper, tensions",
+    "page_refs": [
+      28
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "With leader whom many citizens consider usurper, tensions are high and relations with this realm\" tormer Lyran allies have cooled considerably: Most people in the Federated Suns consider the war hero Victor Steiner-Davion former ruler ine Federated Commonwealth and known for defeating the Clans to be their rightful ruler in exile and they eagerly await his return; The Federated Suns armed torces are known for their pro ficiency; but many overlook the enormous personal freedoms granted t0 the realm's people_ Citizens of the Federated Suns may choose just about any course for their lives; with great rewards awaiting those who prove themselves_ Citizens of mem: ber worlds, though possessing no voice in their government per may petition for the removal of unjust or incompetent lead: ers The education provided by institutions such as the New Avalon Institute of Science second t0 none and is available to any deserving citizen."
+  }
+}

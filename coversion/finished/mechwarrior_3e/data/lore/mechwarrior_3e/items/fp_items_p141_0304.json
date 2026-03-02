@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Soldiers have Ablatlve _ Flak Armor Ablative flak",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 141,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:39Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p141_0304",
+    "entity_type": "items",
+    "name_guess": "Soldiers have Ablatlve _ Flak Armor Ablative flak",
+    "breadcrumb_path": "Rules Compendium > Page 141 > items > Soldiers have Ablatlve _ Flak Armor Ablative flak",
+    "page_refs": [
+      141
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "Armor",
+      "armor"
+    ],
+    "excerpt": "Soldiers have Ablatlve _ Flak Armor Ablative flak armor combines effectiveness of those types into single style: making popular for its versatility; 140"
+  }
+}

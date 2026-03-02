@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "i_priest_spells",
+  "name": "I Priest Spells",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "I Priest Spells (7th Level) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "sixth",
+    "book_pages": [
+      233
+    ],
+    "pdf_pages": [
+      234
+    ],
+    "raw_block": "I Priest Spells (7th Level)\ncommands. The creeping doom slays any\ncreature subject to nod attacks, as each\nof the small horrors inflicts 1 point of dam-\nage (each then dies after its attack), so that\nup to 1,ooO points of damage can be in-\nfiicted on creatures within the path of the\ncreeping doom. If the creeping doom goes\nmore than 80 yards away from the sum-\nmoner, it loses 50 of its number for each 10\nyards beyond 80 yards (e.g., at 100 yards,\nits number has shrunk by 100). There are a\nnumber of ways to thwart or destroy the\ncreatures forming the swarm. The solutions\nare left to the imaginations of players and\nDMs.\nSolidly built structures with foundations\nreaching down to bedrock sustain one-half\ndamage; one-quarter damage if they score\nabove 50% on a saving throw. An earth ele-\nmental opposed to the caster in the area of\neffect can negate 10% to 100% (roll Idlo,\n0 = 100%) of the effect. Other magical\nprotections and wards allowed by the DM\nmay also reduce or negate this effect. If cast\nundersea, this spell may, at the discretion of\nthe DM, create a tsunami or tidal wave.\nThe material components for this spell are\na pinch of dirt, a piece of rock, and a lump\nof clay."
+  },
+  "mechanics": {
+    "school_or_type": "7th Level",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "I Priest Spells",
+      "canonical_name_guess": null,
+      "school_or_type": "7th Level",
+      "range": null,
+      "components": null,
+      "duration": null,
+      "casting_time": null,
+      "area_of_effect": null,
+      "saving_throw": null,
+      "description_excerpt": "commands. The creeping doom slays any creature subject to nod attacks, as each of the small horrors inflicts 1 point of dam- age (each then dies after its attack), so that up to 1,ooO points of damage can be in- fiicted on creatures within the path of the creeping doom. If the creeping doom goes more than 80 yards away from the sum- moner, it loses 50 of its number for each 10 yards beyond 80 yards (e.g., at 100 yards, its number has shrunk by 100). There are a number of ways to thwart or destroy the creatures forming the swarm. The solutions are left to the imaginations of players and DMs. Solidly built structures with foundations reaching down to bedrock sustain one-half damage; one-quarter damage if they score above 50% on a saving throw. An earth ele- mental opposed to the caster in the area of effect can negate 10% to 100% (roll Idlo, 0 = 100%) of the effect. Other magical protectio"
+    },
+    "quality_flags": [
+      "missing_standard_fields"
+    ]
+  }
+}

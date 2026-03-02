@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "speak_with_plants",
+  "name": "Speak With Plants",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Speak With Plants (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "fourth",
+    "book_pages": [
+      220
+    ],
+    "pdf_pages": [
+      221
+    ],
+    "raw_block": "Speak With Plants (Alteration)\nSphere: Plant\nRange: 0\nComponents: V, S, M\nDuration: 1 round/level\nCasting Time: 1 turn\nArea of Effect: do-foot radius\nSaving Throw: None\nWhen cast, a speak with plants spell\nenables the priest to converse, in very rudi-\nmentary terms, with all sorts of living vege-\ntables (including fungi, molds, and\nplant-like monsters, such as shambling\nmounds) and to exercise limited control\nover normal plants (i.e., not monsters or\nplant-like creatures). Thus, the caster can\nquestion plants as to whether or not crea-\ntures have passed through them, cause\nthickets to part to enable easy passage,\nrequire vines to entangle pursuers, and com-\nmand similar services. The spell does not\nenable plants to uproot themselves and\nmove about, but any movements within the\nplants' normal capabilities are possible.\nCreatures entangled by the 1st-level spell of\nthat name can be released. The power of the\nspell lasts for one round for each experience\nlevel of the casting priest. All vegetation\nwithin the area of effect is affected by the\nspell.\nThe material components for this spell are\na drop of water, a pinch of dung, and a\nflame."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Speak With Plants",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "0",
+      "components": "V, S, M",
+      "duration": "1 round/level",
+      "casting_time": "1 turn",
+      "area_of_effect": "do-foot radius",
+      "saving_throw": "None",
+      "description_excerpt": "When cast, a speak with plants spell enables the priest to converse, in very rudi- mentary terms, with all sorts of living vege- tables (including fungi, molds, and plant-like monsters, such as shambling mounds) and to exercise limited control over normal plants (i.e., not monsters or plant-like creatures). Thus, the caster can question plants as to whether or not crea- tures have passed through them, cause thickets to part to enable easy passage, require vines to entangle pursuers, and com- mand similar services. The spell does not enable plants to uproot themselves and move about, but any movements within the plants' normal capabilities are possible. Creatures entangled by the 1st-level spell of that name can be released. The power of the spell lasts for one round for each experience level of the casting priest. All vegetation within the area of effect is affected by the spell. The mat"
+    },
+    "quality_flags": []
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "magic_font",
+  "name": "Magic Font",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Magic Font (Divination) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "fourth",
+    "book_pages": [
+      223
+    ],
+    "pdf_pages": [
+      224
+    ],
+    "raw_block": "Magic Font (Divination)\nSphere: Divination\nRange: Touch\nComponents: V, S, M\nDuration: Special\nCasting Time: 1 hour\nArea of Effect: Special\nSaving Throw: None\nThe spell causes a holy water font to serve\nas a scrying device. The spell does not func-\ntion unless the priest is in good standing\nwith his deity. The basin of holy water be-\ncomes similar to a crystal bull. For each vial\nof capacity of the basin, the priest may scry\nfor one round, up to a maximum of one\nhour; thus, the duration of the mugic font\nspell is directly related to the size of the holy\nwater receptacle. The DM will know the\nchances of a character being able to detect\nSnying.\nThe priest’s holy symbol and the font and\nits trappings are not consumed by the spell."
+  },
+  "mechanics": {
+    "school_or_type": "Divination",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Magic Font",
+      "canonical_name_guess": null,
+      "school_or_type": "Divination",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "Special",
+      "casting_time": "1 hour",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "spell is directly related to the size of the holy water receptacle. The DM will know the chances of a character being able to detect Snying. The priest’s holy symbol and the font and its trappings are not consumed by the spell."
+    },
+    "quality_flags": []
+  }
+}

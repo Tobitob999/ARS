@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "add_2e",
+    "chapter_map",
+    "toc",
+    "appendix",
+    "tsr_inc_ad_and_d_2nd_edition_dmgr2_castle_guide"
+  ],
+  "summary": "Automatisch erkannte Kapitel- und Appendix-Marker aus TSR Inc - AD&D 2nd Edition - DMGR2 - Castle Guide.pdf.",
+  "source_text": {
+    "detected_chapters": [
+      {
+        "chapter": "6",
+        "title": "Unusual Castles .. 69",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "7",
+        "title": "Warfare l ........ 76",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "3",
+        "title": "The Thurnament .38 Reduction ........ . ...... 80",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "4",
+        "title": "The Evolution Of Breac hin g th e Walls . ...... 84",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "5",
+        "title": "Cas tle Tricke ry and Cor ruption .... 89",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "8",
+        "title": "Quick Resolution",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "9",
+        "title": "Generic Castles .118",
+        "first_seen_page": 3
+      }
+    ],
+    "detected_appendices": [],
+    "detection_note": "Extraktion kann Schreibfehler enthalten; Titel wurden 1:1 aus PDF-Text uebernommen."
+  },
+  "mechanics": {
+    "chapter_regex": "\\bChapter\\s+([0-9IVXLC]+)\\s*[:\\-]\\s*([^\\n\\r]{2,120})",
+    "appendix_regex": "\\bAppendix\\s+([0-9IVXLC]+)\\s*[:\\-]\\s*([^\\n\\r]{2,120})",
+    "unique_chapters": 7,
+    "unique_appendices": 0
+  }
+}

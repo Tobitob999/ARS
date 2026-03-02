@@ -1,0 +1,262 @@
+{
+  "metadata": {
+    "name": "GURPS",
+    "version": "4th Edition (Basic Set derived)",
+    "system": "gurps_4e",
+    "schema_version": "1.0.0",
+    "publisher": "Steve Jackson Games",
+    "language": "en",
+    "game_master_title": "Game Master",
+    "player_character_title": "Character"
+  },
+  "dice_system": {
+    "default_die": "3d6",
+    "check_mode": "roll_under",
+    "bonus_penalty_die": null,
+    "notes": "Core task resolution in GURPS 4e is 3d6 roll-under effective skill/attribute.",
+    "success_levels": {
+      "critical": 4,
+      "extreme": 0.25,
+      "hard": 0.5,
+      "fumble": 17
+    }
+  },
+  "characteristics": {
+    "ST": {
+      "label": "Strength",
+      "roll": "3d6",
+      "multiplier": 1
+    },
+    "DX": {
+      "label": "Dexterity",
+      "roll": "3d6",
+      "multiplier": 1
+    },
+    "IQ": {
+      "label": "Intelligence",
+      "roll": "3d6",
+      "multiplier": 1
+    },
+    "HT": {
+      "label": "Health",
+      "roll": "3d6",
+      "multiplier": 1
+    }
+  },
+  "skills": {
+    "Default Skill Check": {
+      "base_formula": "attribute/skill target",
+      "category": "core"
+    },
+    "Melee Weapon": {
+      "base": 10,
+      "category": "combat"
+    },
+    "Ranged Weapon": {
+      "base": 10,
+      "category": "combat"
+    },
+    "Stealth": {
+      "base": 10,
+      "category": "adventuring"
+    },
+    "First Aid": {
+      "base": 10,
+      "category": "medical"
+    }
+  },
+  "derived_stats": {
+    "HP": {
+      "label": "Hit Points",
+      "formula": "based on ST with modifiers"
+    },
+    "FP": {
+      "label": "Fatigue Points",
+      "formula": "based on HT with modifiers"
+    },
+    "Basic Speed": {
+      "label": "Basic Speed",
+      "formula": "(DX+HT)/4 with modifiers"
+    },
+    "Basic Move": {
+      "label": "Basic Move",
+      "formula": "derived from Basic Speed"
+    }
+  },
+  "combat": {
+    "initiative": {
+      "default": "Turn sequence based on Basic Speed and maneuver declaration"
+    },
+    "attack_resolution": {
+      "model": "3d6 roll-under effective weapon skill"
+    },
+    "defense_resolution": {
+      "active_defenses": [
+        "dodge",
+        "parry",
+        "block"
+      ],
+      "model": "3d6 roll-under defense value"
+    },
+    "damage": {
+      "types": [
+        "cr",
+        "cut",
+        "imp",
+        "pi",
+        "burn",
+        "tox"
+      ],
+      "effects": "wounding modifiers apply by damage type"
+    },
+    "references": {
+      "source_book": "data/lore/gurps_4e/book_conversion/gurps_4th_edition_basic_set_pages.jsonl",
+      "derived_digest_top_sources": [
+        {
+          "source_file": "GURPS - 4th Edition - Basic Set.pdf",
+          "profile_file": "data/lore/gurps_4e/derived_rules/gurps_4th_edition_basic_set_rules_profile.json",
+          "priority": "permanent",
+          "score": 4845,
+          "confidence": 1.0,
+          "page_refs": [
+            326,
+            328,
+            329,
+            369,
+            373,
+            378,
+            381,
+            382
+          ],
+          "excerpt": "[PDF_PAGE 378 | score=84] Rapid fire may score multiple hits from a single attack. A successful attack means you scored at least one hit – and possibly a number of extra hits, up to a maximum equal to the number of shots you fired. To find the number of hits you scored, compare your margin of success on the attack roll to your weapon’s Recoil. An attack scores one extra hit for every full multiple of Recoil by which you make your attack roll. The total number of hits cannot exceed shots fired. For instance, if your attack had Rcl 2, success by 0-1 would mean one hit; success by 2-3, one extra hit; suc- cess by 4-5, two extra hits; success by 6-7, three extra hits; and so on. High-RoF weapons (those with RoF 5+) can a\n[PDF_PAGE 328 | score=78] 326 COMBAT LITE RANGED ATTACKS A “ranged attack” is any attack with a weapon used at a distance, from a thrown rock to a laser rifle to a specified"
+        }
+      ],
+      "derived_digest": "data/lore/gurps_4e/derived_rules/rules_field_digest_batch_05.json"
+    }
+  },
+  "healing": {
+    "natural": "Recovery by rest and treatment over time",
+    "medical": "First aid and medical care stabilize and restore",
+    "references": {
+      "derived_digest_top_sources": [
+        {
+          "source_file": "GURPS - 4th Edition - Basic Set.pdf",
+          "profile_file": "data/lore/gurps_4e/derived_rules/gurps_4th_edition_basic_set_rules_profile.json",
+          "priority": "permanent",
+          "score": 1753,
+          "confidence": 1.0,
+          "page_refs": [
+            18,
+            330,
+            361,
+            423,
+            425,
+            428,
+            430,
+            562
+          ],
+          "excerpt": "[PDF_PAGE 430 | score=63] Running long distances, using extra effort, being suffocated, casting magic spells, and many other things can cause “fatigue”: a temporary loss of Fatigue Points. Your Fatigue Points (FP) score starts out equal to your HT, but you can modify this; see Fatigue Points (p. 16). Just as injury represents physical trauma and comes off of HP, fatigue represents lost energy and reduces FP. When you lose FP, keep track of it on your character sheet. LOST FATIGUE POINTS The chart below summarizes the effects of being at low or negative FP. All effects are cumulative. Less than 1/3 your FP left – You are very tired. Halve your Move, Dodge, and ST (round up). This does not affect ST-based quantities, s\n[PDF_PAGE 423 | score=55] INJURIES, ILLNESS, AND FATIGUE 419 GENERAL INJURY: LOST HIT POINTS Repeated wounding eventually causes anyone or anything to weaken and collapse, e"
+        }
+      ],
+      "derived_digest": "data/lore/gurps_4e/derived_rules/rules_field_digest_batch_05.json"
+    }
+  },
+  "magic": {
+    "system": "Spell-based magic supported as optional/setting-dependent subsystem",
+    "references": {
+      "derived_digest_top_sources": [
+        {
+          "source_file": "GURPS - 4th Edition - Basic Set.pdf",
+          "profile_file": "data/lore/gurps_4e/derived_rules/gurps_4th_edition_basic_set_rules_profile.json",
+          "priority": "core",
+          "score": 1029,
+          "confidence": 1.0,
+          "page_refs": [
+            69,
+            236,
+            237,
+            238,
+            240,
+            242,
+            244,
+            485
+          ],
+          "excerpt": "[PDF_PAGE 237 | score=53] Anyone can learn most spells – although in some worlds, you must be a mage to use the spells you know. Some spells specify a particular level of Magery as a prerequisites: if you lack the required Magery level, you cannot learn the spell. Each magic spell is a separate skill, learned just like any other skill. Most spells are IQ/Hard skills, but a few potent spells are IQ/Very Hard. Spells have no default – you can only cast spells you know. Add your Magery to IQ when you learn spells. For instance, if you have IQ 12 and Magery 3, you learn spells as if you had IQ 15. In addition, reduce the time required to learn spells (but not the point cost) by 10% per Magery level, to a minimum of 60% t\n[PDF_PAGE 244 | score=47] The subject then attempts a resist- ance roll. A character resists using the attribute or other trait indicated in the spell description – usually "
+        }
+      ],
+      "derived_digest": "data/lore/gurps_4e/derived_rules/rules_field_digest_batch_05.json"
+    }
+  },
+  "movement": {
+    "base": "Basic Move derived from attributes and modifiers",
+    "references": {
+      "derived_digest_top_sources": [
+        {
+          "source_file": "GURPS - 4th Edition - Basic Set.pdf",
+          "profile_file": "data/lore/gurps_4e/derived_rules/gurps_4th_edition_basic_set_rules_profile.json",
+          "priority": "support",
+          "score": 892,
+          "confidence": 1.0,
+          "page_refs": [
+            54,
+            391,
+            398,
+            399,
+            467,
+            470,
+            526,
+            554
+          ],
+          "excerpt": "[PDF_PAGE 470 | score=43] Convoys: Multiple vehicles travel- ing in convoy or formation move at 80% of the speed of the slowest vehi- cle, due to the need for station keep- ing. On a successful Leadership roll, use 100% of the speed of the slowest vehicle. For long journeys, roll daily. Control Rolls A vehicle operator must make a “control roll” – against Boating, Driving, Piloting, etc., as appropriate – in any potentially hazardous situation. The GM may require a roll every few hours in an ongoing situation such as a fierce storm, or every fewseconds in combat! Modifiers: The vehicle’s Handling (Hnd) statistic modifies all control rolls. For sudden deceleration or tight turns, see Pushing the Envelope (p. 395). Vis\n[PDF_PAGE 391 | score=22] TACTICAL COMBAT 387 You can also “sidestep” into a front hex (C) while keeping your original facing. This is allowed during an All- Out attack (as "
+        }
+      ],
+      "derived_digest": "data/lore/gurps_4e/derived_rules/rules_field_digest_batch_05.json"
+    }
+  },
+  "economy": {
+    "model": "Point-buy character system plus equipment/wealth costs",
+    "references": {
+      "derived_digest_top_sources": [
+        {
+          "source_file": "GURPS - 4th Edition - Basic Set.pdf",
+          "profile_file": "data/lore/gurps_4e/derived_rules/gurps_4th_edition_basic_set_rules_profile.json",
+          "priority": "core",
+          "score": 1466,
+          "confidence": 1.0,
+          "page_refs": [
+            27,
+            28,
+            86,
+            120,
+            249,
+            267,
+            520,
+            521
+          ],
+          "excerpt": "[PDF_PAGE 28 | score=35] Wealth and Status In some game worlds, Status (see p. 28) is closely tied to Wealth. In a set- ting like this, if you are Wealthy or bet- ter, you get +1 Status for free. This bonus increases to +2 at Multi- millionaire 1 and to +3 at Multimillionaire 2. No one may claim more than +3 Status from Wealth. Independent Income 1 point/level You have a source of income that does not require you to work: stock portfolio, trust fund, rental property, royalties, pension, etc. Your monthly income is 1% of your starting wealth (adjusted for wealth level) per level of this trait, to a maximum of 20%. If your income derives from invest- ments, you need not specify their value; this trait assumes that you\n[PDF_PAGE 27 | score=28] (Broken) – is worth -2 points. The GM should not count these points against the disadvantage limit if illiteracy is the norm in the game world. Sign "
+        }
+      ],
+      "derived_digest": "data/lore/gurps_4e/derived_rules/rules_field_digest_batch_05.json"
+    }
+  },
+  "extensions": {
+    "source_book": "GURPS - 4th Edition - Basic Set.pdf",
+    "conversion_mode": "full_book_conversion_with_lossless_page_archive",
+    "derivation_artifacts": {
+      "phase1_mapping": "data/lore/gurps_4e/book_conversion/phase1_skeleton_mapping_batch_03.json",
+      "rules_profile": "data/lore/gurps_4e/derived_rules/gurps_4th_edition_basic_set_rules_profile.json",
+      "skeleton_coverage": "data/lore/gurps_4e/derived_rules/ars_skeleton_coverage_batch_05.json",
+      "rules_field_digest": "data/lore/gurps_4e/derived_rules/rules_field_digest_batch_05.json",
+      "rules_merge_candidates": "data/lore/gurps_4e/derived_rules/rules_merge_candidates_batch_05.json"
+    },
+    "rules_engine_injection": {
+      "chunk_count": 11,
+      "priority_tiers": [
+        "permanent",
+        "core",
+        "support",
+        "flavor"
+      ]
+    }
+  }
+}

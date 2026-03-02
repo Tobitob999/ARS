@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "trip",
+  "name": "Trip",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Trip (EnchantmentKhann) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "second",
+    "book_pages": [
+      207
+    ],
+    "pdf_pages": [
+      208
+    ],
+    "raw_block": "Trip (EnchantmentKhann)\nSphere: Plant\nRange: Touch\nComponents: V, S\nDuration: 1 turn/level\nCasting Time: 5\nArea of Effect: 1 object up to 10 feet long\nSaving Throw: Neg.\nThis magic must be cast upon a normal\nobject-a length of vine, a stick, a pole, a\nrope, or a simh object. The spell causes\nthe object to rise slightly off the ground or\nfloor it is resting on to trip most creatures\ncrossing it, if they fail their saving throws\nvs. spell. Note that only as many creatures\ncan be tripped as are actually stepping\nacross the enchanted object. Thus a three-\nfoot-long piece of rope could trip only one\nman-sized creature. Creatures moving at a\nvery rapid pace (running) when tripped suf-\nfer 1 point of damage and are std for\nld4 + 1 rounds if the surface they fall upon is\nvery hard (if it is turf or other soft material,\nthey are merely stunned for the rest of that\nround). Very large creatures, such as ek-\nphants, are not at all affected by a trip. Tlw\nobject continues to trip all creatures passins\nover it, including the spellcaster, for as 10%\nas the spell duration Iasts. A creature aware\nof the object and its potential adds a +4 bo-\nnus to its saving throw roll when crossing\nthe object. The enchanted object is 80% un-\ndetectable unless a means that detects magi-\ncal traps is employed or the operation of the\nspell is obseived. This spell does not func-\ntion under water.\n207"
+  },
+  "mechanics": {
+    "school_or_type": "EnchantmentKhann",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Trip",
+      "canonical_name_guess": null,
+      "school_or_type": "EnchantmentKhann",
+      "range": "Touch",
+      "components": "V, S",
+      "duration": "1 turn/level",
+      "casting_time": "5",
+      "area_of_effect": "1 object up to 10 feet long",
+      "saving_throw": "Neg.",
+      "description_excerpt": "of the object and its potential adds a +4 bo- nus to its saving throw roll when crossing the object. The enchanted object is 80% un- detectable unless a means that detects magi- cal traps is employed or the operation of the spell is obseived. This spell does not func- tion under water. 207"
+    },
+    "quality_flags": []
+  }
+}

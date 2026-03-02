@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Another possibility each team roll single Initiative Note",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 111,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:29Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p111_0353",
+    "entity_type": "history",
+    "name_guess": "Another possibility each team roll single Initiative Note",
+    "breadcrumb_path": "Rules Compendium > Page 111 > history > Another possibility each team roll single Initiative Note",
+    "page_refs": [
+      111
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Another possibility each team roll single Initiative Note that this might not be all the characters on one side and all the characters on the other; it is likely in large bat: Ile that the sides would be divided into tactical units such as squads this case_ each squad would generate Its Own Initiative_ either case only bonuses due t0 leaders who have Leadership and Tactics Skills apply; no other Initiative bonuses apply when generating 'mass\" Initiative_ Add only the lowest RFL from among all members of each side (or team) to its Initiative_ Delaying character need not take his phase when ne nas the opportunity but can instead delay his phase until later in the lurn The character must tell the gamemaster under what con- ditions he will take his action such as wait until see tar- get come around the corner; then want t0 shoot at it."
+  }
+}

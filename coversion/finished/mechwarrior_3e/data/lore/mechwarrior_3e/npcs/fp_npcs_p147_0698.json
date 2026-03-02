@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "character with this kit can use the Survival",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 147,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:42Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p147_0698",
+    "entity_type": "npcs",
+    "name_guess": "character with this kit can use the Survival",
+    "breadcrumb_path": "Rules Compendium > Page 147 > npcs > character with this kit can use the Survival",
+    "page_refs": [
+      147
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "character with this kit can use the Survival Skill without suffering Lack 0l Proper Equipment Modifier: Environment Suits Environment suits seal the wearer in an airtight suit that protects against hostile environments and biological and chem- ical agents They do not restrict the wearer' motions, and they afford an unobstructed view from polarized faceplate."
+  }
+}

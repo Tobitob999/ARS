@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "As such; the wound value ot all wounds",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 88,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:20Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p088_0384",
+    "entity_type": "npcs",
+    "name_guess": "As such; the wound value ot all wounds",
+    "breadcrumb_path": "Rules Compendium > Page 088 > npcs > As such; the wound value ot all wounds",
+    "page_refs": [
+      88
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "Damage",
+      "Wound",
+      "wound"
+    ],
+    "excerpt": "As such; the wound value ot all wounds is reduced by against character with this trait; For example_ Minor Wound against character with Toughness has wound value of rather than 2 (this does not affect the wound type_ only the wound value). Note this has effect on the Fatigue Only result , which has usual effects (see Damage. p."
+  }
+}

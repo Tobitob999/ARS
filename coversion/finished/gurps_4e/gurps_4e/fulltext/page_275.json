@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_page",
+  "tags": [
+    "gurps_4e",
+    "fulltext",
+    "pdf_page"
+  ],
+  "summary": "PDF-Seite 275 aus GURPS - 4th Edition - Basic Set.pdf.",
+  "source_text": {
+    "book": "GURPS - 4th Edition - Basic Set",
+    "pdf_page": 275,
+    "text": "RAPIER (DX-5, Broadsword-4, Main-Gauche-3, Saber-3, or Smallsword-3)\nTL Weapon Damage Reach Parry Cost Weight ST Notes\n4 Rapier thr+1 imp 1, 2 0F $500 2.75 9\nSABER (DX-5, Broadsword-4, Main-Gauche-3, Rapier-3, Shortsword-4, or Smallsword-3)\nTL Weapon Damage Reach Parry Cost Weight ST Notes\n4 Saber sw-1 cut 1 0F $700 2 8\nor thr+1 imp 1 0F – – 8\nSHIELD (DX-4)\nTL Weapon Damage Reach Parry Cost Weight ST Notes\n0 Shield Bash thr cr 1 No var. var. –\n1 Shield Bash w. Spike thr+1 cr 1 No +$20 +5 –\nSHORTSWORD (DX-5, Broadsword-2, Force Sword-4, Jitte/Sai-3, \nKnife-4, Saber-4, Smallsword-4, or Tonfa-3)\nTL Weapon Damage Reach Parry Cost Weight ST Notes\n0 Baton sw cr 1 0 $20 1 6\nor thr cr 1 0 – – 6\n2 Shortsword sw cut 1 0 $400 2 8\nor thr imp 1 0 – – 8\n4 Cutlass sw cut 1 0 $300 2 8 [10]\nor thr imp 1 0 – – 8\n7 Cattle Prod 1d-3 burn 1 0 $50 2 3\nlinked HT-3(0.5) aff – – – – – [5]\nSMALLSWORD (DX-5, Main-Gauche-3, Rapier-3, Saber-3, or Shortsword-4)\nTL Weapon Damage Reach Parry Cost Weight ST Notes\n0 Short Staff sw cr 1 0F $20 1 6\nor thr cr 1 0F – – 6\n4 Smallsword thr+1 imp 1 0F $400 1.5 5\nSPEAR (DX-5, Polearm-4, or Staff-2)\nTL Weapon Damage Reach Parry Cost Weight ST Notes\n0 Spear thr+2 imp 1* 0 $40 4 9 [1]\ntwo hands thr+3 imp 1, 2* 0 – – 9†\n1 Javelin thr+1 imp 1 0 $30 2 6 [1]\n2 Long Spear thr+2 imp 2, 3* 0U $60 5 10\ntwo hands thr+3 imp 2, 3* 0 – – 10†\nSTAFF (DX-5, Polearm-4, or Spear-2)\nTL Weapon Damage Reach Parry Cost Weight ST Notes\n0 Quarterstaff sw+2 cr 1, 2 +2 $10 4 7†\nor thr+2 cr 1, 2 +2 – – 7†\n2 Naginata sw+2 cr 1, 2 0U $100 6 9† Blunt end.\nor thr+2 cr 1, 2 0 – – 9†\nEQUIPMENT 273\n"
+  },
+  "mechanics": {
+    "conversion": "fulltext_page_dump",
+    "generated_at": "2026-03-02T15:00:00"
+  }
+}

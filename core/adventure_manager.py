@@ -197,19 +197,23 @@ class AdventureManager:
             for cid in clue_ids:
                 clue = self._clues.get(cid)
                 if clue:
-                    req_flag = clue.get("requires_flag")
-                    if req_flag and not self._flags.get(req_flag):
+                    req = clue.get("requires_flag") or clue.get("condition")
+                    if req and not self.evaluate_condition(req):
                         continue
                     probe = clue.get("probe_required", "frei")
                     clue_lines.append(f"  - {clue.get('name', cid)} (Probe: {probe})")
             if clue_lines:
                 parts.append("Moegliche Hinweise:\n" + "\n".join(clue_lines))
 
-        # Exits
+        # Exits (dict {id: desc} oder list [id, ...])
         exits = loc.get("exits", {})
         if exits:
-            exit_lines = [f"  - {self._locations.get(eid, {}).get('name', eid)}: {desc}"
-                          for eid, desc in exits.items()]
+            if isinstance(exits, dict):
+                exit_lines = [f"  - {self._locations.get(eid, {}).get('name', eid)}: {desc}"
+                              for eid, desc in exits.items()]
+            else:
+                exit_lines = [f"  - {self._locations.get(eid, {}).get('name', eid)}"
+                              for eid in exits]
             parts.append("Ausgaenge:\n" + "\n".join(exit_lines))
 
         # Keeper Notes
@@ -265,6 +269,65 @@ class AdventureManager:
         return {f"flag:{k}": v for k, v in self._flags.items()}
 
     # ------------------------------------------------------------------
+    # Multi-Flag Condition Evaluation (AND / OR / NOT)
+    # ------------------------------------------------------------------
+
+    def evaluate_condition(self, condition: Any) -> bool:
+        """
+        Wertet eine Flag-Bedingung aus. Unterstuetzt:
+          - str: einfacher Flag-Name (truthy-Check)
+          - dict mit Operatoren:
+            {"AND": [cond1, cond2, ...]}   — alle muessen wahr sein
+            {"OR":  [cond1, cond2, ...]}   — mindestens eine muss wahr sein
+            {"NOT": cond}                  — Negation
+            {"flag": "name", "eq": value}  — Gleichheits-Check
+            {"flag": "name"}               — truthy-Check (Kurzform)
+
+        Verschachtelung ist erlaubt:
+          {"AND": [{"NOT": "door_locked"}, {"OR": ["has_key", "has_lockpick"]}]}
+        """
+        if condition is None or condition is True:
+            return True
+        if condition is False:
+            return False
+
+        # Einfacher String: Flag truthy?
+        if isinstance(condition, str):
+            return bool(self._flags.get(condition))
+
+        if not isinstance(condition, dict):
+            logger.warning("Unbekannter Condition-Typ: %s", type(condition))
+            return False
+
+        # AND
+        if "AND" in condition:
+            sub = condition["AND"]
+            if not isinstance(sub, list):
+                sub = [sub]
+            return all(self.evaluate_condition(c) for c in sub)
+
+        # OR
+        if "OR" in condition:
+            sub = condition["OR"]
+            if not isinstance(sub, list):
+                sub = [sub]
+            return any(self.evaluate_condition(c) for c in sub)
+
+        # NOT
+        if "NOT" in condition:
+            return not self.evaluate_condition(condition["NOT"])
+
+        # Equality check: {"flag": "name", "eq": value}
+        if "flag" in condition:
+            flag_val = self._flags.get(condition["flag"])
+            if "eq" in condition:
+                return flag_val == condition["eq"]
+            return bool(flag_val)
+
+        logger.warning("Unbekannter Condition-Operator: %s", list(condition.keys()))
+        return False
+
+    # ------------------------------------------------------------------
     # NPC / Clue Zugriff
     # ------------------------------------------------------------------
 
@@ -287,8 +350,8 @@ class AdventureManager:
         for cid in loc.get("clues_available", []):
             clue = self._clues.get(cid)
             if clue:
-                req = clue.get("requires_flag")
-                if req and not self._flags.get(req):
+                req = clue.get("requires_flag") or clue.get("condition")
+                if req and not self.evaluate_condition(req):
                     continue
                 result.append(clue)
         return result

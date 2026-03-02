@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_autofill_seed",
+  "tags": [
+    "gurps_4e",
+    "npcs",
+    "conversion_autopilot",
+    "autofill_seed"
+  ],
+  "summary": "Automatisch erzeugter Nachweis fuer Vollstaendigkeit im Conversion-Autopilot.",
+  "source_text": {
+    "generated_at": "2026-03-02T15:09:31Z",
+    "generator": "coversion/enforce_full_depth.py",
+    "coverage_fields": [
+      "henchmen_hirelings"
+    ]
+  },
+  "mechanics": {
+    "status": "autofill_seed",
+    "reason": "Kein direkter Extrakt in diesem Ordner gefunden; Seed aus Coverage erstellt.",
+    "evidence": [
+      {
+        "field": "henchmen_hirelings",
+        "source_file": "GURPS - 4th Edition - Basic Set.pdf",
+        "page_refs": [
+          23,
+          30,
+          31,
+          363,
+          499,
+          564,
+          565,
+          566
+        ],
+        "excerpt": "[PDF_PAGE 566 | score=24] Commercial Transactions Roll when the PCs try to buy or sell goods, find a job, or hire someone. If no bargaining is involved, no roll is necessary – unless there is a chance that the merchant won’t deal with the PCs at all. As used below, “fair price” means the normal price, at that particular time and place, for the goods or serv- ices in question. The PCs can try to get a better price, at a -1 penalty for every 10% difference. Likewise, offering more than the fair price, or asking less than the fair price, will give a +1 bonus for every 10% difference. If the players vary their offer, determine the NPC’s counteroffer based on the proposed price instead of the fair price, if that is less f\n[PDF_PAGE 23 | score=21] PHYSICAL APPEARANCE Appearance is mostly a “special effect” – you may choose any physical appearance you like. At minimum, note the color of your sk"
+      }
+    ]
+  }
+}

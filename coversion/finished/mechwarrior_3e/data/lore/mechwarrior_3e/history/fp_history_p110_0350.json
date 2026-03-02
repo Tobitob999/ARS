@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "GCHWARRIOR 3Rd EDItIG COMBAT In the war-torn BattleTech",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 110,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:29Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p110_0350",
+    "entity_type": "history",
+    "name_guess": "GCHWARRIOR 3Rd EDItIG COMBAT In the war-torn BattleTech",
+    "breadcrumb_path": "Rules Compendium > Page 110 > history > GCHWARRIOR 3Rd EDItIG COMBAT In the war-torn BattleTech",
+    "page_refs": [
+      110
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "GCHWARRIOR 3Rd EDItIG COMBAT In the war-torn BattleTech universe _ combat is constant fact of Iife. Sooner or later; as much as they might try to avoid It; MechWarrior characters will inevitably get into situation that words won get them out of; then the guns start blazing_ and all bets are off."
+  }
+}

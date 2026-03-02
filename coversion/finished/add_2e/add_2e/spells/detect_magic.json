@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "detect_magic",
+  "name": "Detect Magic",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Detect Magic (Divination) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "ninth",
+    "book_pages": [
+      199
+    ],
+    "pdf_pages": [
+      200
+    ],
+    "raw_block": "Detect Magic (Divination)\nSphere: Divination\nRange: 30 yards\nCotlnponents: V, S, M\nDuration: 1 turn\nCasting Time: 1 round\nArea of Effect: 10-foot path\nSaving Throw: None\nWhen the detect magic\nate, strong, overwhelming). The caster has\na 10% chance per level to determine the\nsphere of the magic, but unlike the wiwd\nthickness, solid metal of\nholy symbol."
+  },
+  "mechanics": {
+    "school_or_type": "Divination",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Detect Magic",
+      "canonical_name_guess": null,
+      "school_or_type": "Divination",
+      "range": "30 yards",
+      "components": null,
+      "duration": "1 turn",
+      "casting_time": "1 round",
+      "area_of_effect": "10-foot path",
+      "saving_throw": "None",
+      "description_excerpt": "When the detect magic ate, strong, overwhelming). The caster has a 10% chance per level to determine the sphere of the magic, but unlike the wiwd thickness, solid metal of holy symbol."
+    },
+    "quality_flags": [
+      "missing_standard_fields"
+    ]
+  }
+}

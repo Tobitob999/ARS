@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Clan Characters: Trueborn characters must begin Stage Clan",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 34,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:49Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p034_0125",
+    "entity_type": "history",
+    "name_guess": "Clan Characters: Trueborn characters must begin Stage Clan",
+    "breadcrumb_path": "Rules Compendium > Page 034 > history > Clan Characters: Trueborn characters must begin Stage Clan",
+    "page_refs": [
+      34
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Clan Characters: Trueborn characters must begin Stage Clan Creche; Freeborn characters start the Life Path based on their caste scientist and merchant caste characters start on the White Collar Path_ technician caste on Blue Collar, laborer caste on Blue Collar Farm (player' s choice), and dark caste on the Back Woods, Farm; Street or Blue Collar paths_ If you want your character t0 be freeborn warrior, he or she must pegin the Life Path in one of the civilian castes Free Skills: Regardless of Life Path; all player characters automatically receive Skill Points to be divided as the play ers choose among their affiliation' primary and secondary Language Skills_ Characters also receive 3 Skill Points toward Language /English (all Skill Points can go to the Language /English Skill, if the player desires)."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Where path grants skill; the numbers listed after",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 25,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:43Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p025_0073",
+    "entity_type": "history",
+    "name_guess": "Where path grants skill; the numbers listed after",
+    "breadcrumb_path": "Rules Compendium > Page 025 > history > Where path grants skill; the numbers listed after",
+    "page_refs": [
+      25
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Where path grants skill; the numbers listed after rep resent the Skill Points the character earns toward advancement that Skill: negative number decreases the number of Skill Points earned for that skill, to minimum of Skill Point once that skill is awarded path awards points toward any skill; the player can add those points any skill the character already has_ but not to new Skill Upon finishing the Life Path, the player adds Up the totab points earned for each skill to find its skill bonus using the Skill Points Table (p. 57)."
+  }
+}

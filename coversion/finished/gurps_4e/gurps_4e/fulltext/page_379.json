@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_page",
+  "tags": [
+    "gurps_4e",
+    "fulltext",
+    "pdf_page"
+  ],
+  "summary": "PDF-Seite 379 aus GURPS - 4th Edition - Basic Set.pdf.",
+  "source_text": {
+    "book": "GURPS - 4th Edition - Basic Set",
+    "pdf_page": 379,
+    "text": "If a single rapid-fire attack scores\nmultiple hits, a successful Dodge roll\nlets you avoid one hit, plus additional\nhits equal to your margin of success. A\ncritical success lets you dodge all hits\nyou took from that attack.\nExample: A machine gun gets four\nhits against you. Your Dodge is 10.\nYou roll an 8, succeeding by 2. You\ndodge three of the hits; only one bullet\nstrikes you.\nYou only get one active defense\nagainst each attack, unless you use All-\nOut Defense (Double Defense), but\nthere is no limit to the number of\ntimes you may dodge different attacks\nduring your turn.\nAcrobatic Dodge\nIf you have put at least one point\ninto the Acrobatics skill, you can try a\n“fancy” dodge once during your turn.\nYou may define this as jumping over a\nsword blow, cartwheeling away, or\nwhatever else you like. Make an\nAcrobatics roll before you attempt\nyour Dodge roll. (If flying, roll against\nAerobatics instead.) On a success, you\nget +2 to that Dodge roll. On a failure,\nyou get -2.\nYou can combine this option with a\nretreat (see Retreat, p. 377).\nSacrificial Dodge\nYou can defend a friend by throw-\ning yourself into the path of an attack\nagainst him. To do so, you must be\nclose enough to interpose yourself\nbetween your friend and his attacker\nby taking a step (see Step, p. 368).\nAnnounce this after the enemy makes\nhis attack roll but before your friend\nattempts his defense roll.\nUse the ordinary rules for a dodge,\nexcept that you cannot combine this\nwith a retreat (see Retreat, p. 377). If\nyou succeed,you are hit by the attack.\nIf you fail, you didn’t move in time,\nbut your friend still gets his normal\ndefense roll. In either case, since you\nmoved, you cannot retreat if you are\nattacked before your next turn.\nVehicular Dodge\nAn evasively maneuvering vehicle\ngets a Dodge roll. Instead of Basic\nSpeed + 3, use half the operator’s skill\n(Driving, Piloting, etc.), rounded\ndown, modified by the vehicle’s\nHandling statistic. For example, a\nbiker with Driving (Motorcycle)-14 on\na motorcycle with Handling +1 would\nhave a Dodge of 8.\nBLOCKING\nA “block” is an attempt to interpose\na shield, cloak, or similar large object\nbetween yourself and an attack. This\nrequires a ready shield or cloak. (If\nyou’re strong enough to grab and lift\nsomeone, you can block with his\nbody!)\nYour Block active defense is 3 +\nhalf your Shield or Cloak skill, drop-\nping all fractions. For instance,\nShield-11 would give a Block of 3 +\n(11/2) = 8.5, which rounds down to 8.\nIn general, you can block any\nmelee attack, thrown weapon, project-\ned liquid, or muscle-powered missile\nweapon. You cannot block bullets or\nbeam weapons . . . these come too fast\nto be stopped this way.\nYou may attempt to block only one\nattack per turn.\nCOMBAT 375\n"
+  },
+  "mechanics": {
+    "conversion": "fulltext_page_dump",
+    "generated_at": "2026-03-02T15:00:00"
+  }
+}

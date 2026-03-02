@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "factions_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "factions",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Note that this trait does not mean every",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 83,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:07Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_factions_p083_0144",
+    "entity_type": "factions",
+    "name_guess": "Note that this trait does not mean every",
+    "breadcrumb_path": "Rules Compendium > Page 083 > factions > Note that this trait does not mean every",
+    "page_refs": [
+      83
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Note that this trait does not mean every single person in the area knows about the character; but rather that there is chance they might. Characters with the Good Reputation Trait receive moditier Negotiation Protocol and Seduction Checks in the affected region_ The gamemaster can also apply this modifier to other TNs as he deems appropriate. FIGHTER PILOT PHENOTYPE Cost: Clan scientists have put considerable effort into the fight- pilot phenotype resulting in the most radical, but ironically least effective of the Clan trueborn strains."
+  }
+}

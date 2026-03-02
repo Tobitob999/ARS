@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "SKILLS get number is based on the subject'$",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 102,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:25Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p102_0440",
+    "entity_type": "npcs",
+    "name_guess": "SKILLS get number is based on the subject'$",
+    "breadcrumb_path": "Rules Compendium > Page 102 > npcs > SKILLS get number is based on the subject'$",
+    "page_refs": [
+      102
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "2 M"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [
+      "TN"
+    ],
+    "excerpt": "SKILLS get number is based on the subject'$ BOD and Wil If the tOr- ture subject has the Brave or Pain Resistance traits each one applies +2 Modifier to the interrogator'$ TN, Simple questioning may eventually reveal the information the character is seeking but it is time-consuming and difficult: more ruthless methods are used, failed Action Check means the subject dies before the interrogator can extract any useful information; Whatever the case use only single die roll t0 resolve the entire interrogation process When both the subject of the interrogation and the charac ter conducting the questioning possess the Interrogation Skill_ Opposed Tests are made_ desired_ the gamemaster may determine what; if any; information is revealed based on the Quality of Success/Failure Table (p."
+  }
+}

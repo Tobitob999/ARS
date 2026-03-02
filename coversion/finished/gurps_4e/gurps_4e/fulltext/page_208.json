@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_page",
+  "tags": [
+    "gurps_4e",
+    "fulltext",
+    "pdf_page"
+  ],
+  "summary": "PDF-Seite 208 aus GURPS - 4th Edition - Basic Set.pdf.",
+  "source_text": {
+    "book": "GURPS - 4th Edition - Basic Set",
+    "pdf_page": 208,
+    "text": "Lockpicking/TL\nIQ/Average\nDefault: IQ-5.\nThis is the ability to open locks\nwithout the key or combination.\nEach attempt requires\none minute. \nIf you make the roll and open the lock,\neach point by which you succeeded\nshaves five seconds off the required\ntime. (Safecracking and similar \nchallenges can take more time, at the\nGM’s discretion.)\nNote that if the lock has a trap or\nalarm attached, you must make a sep-\narate Traps roll to circumvent it.\nModifiers: Equipment modifiers\n(p. 345); -5 if working by touch (e.g., in\ntotal darkness). Inside information\ngives a bonus at GM’s discretion. If the\nGM requires a DX-based roll (for\ninstance, to work with a particularly\ndelicate mechanism), modifiers for\nHigh Manual Dexterity (p. 59) or\nHam-Fisted (p. 138) will apply.\nMachinist/TL\nIQ/Average\nDefaults:IQ-5 or Mechanic (any)-5.\nThis is the skill of making and\nmodifying mechanical parts and tools.\nA successful skill roll lets you build\nparts from raw materials, manufac-\nture tools for use with another skill\n(such as Armoury or Lockpicking), or\nmodify any simple mechanical device\nnot explicitly covered by another skill.\nThe GM may require an inventor to\nmake one or more Machinist rolls\nbefore attempting an Engineer roll to\nassemble a gadget.\nMaterials and component size vary\nsignificantly with tech level. A TL5\nmachinist works mainly with brass\nand steel components that can be seen\nwith the naked eye; a TL10 machinist\nmight work with carbon nanotubes.\nModifiers: Equipment modifiers\n(p. 345).\nMain-Gauche\nsee Melee Weapon, p. 208\nMakeup/TL\nIQ/Easy\nDefaults:IQ-4 or Disguise-2.\nThis is the skill of using theatrical\nmakeup to enhance a performer’s\nappearance. It is not just the ability to\nmake someone look “pretty” – you can\nmake yourself or others look older,\nyounger, or of a different race or\nnationality. At TL6+, you can use pros-\nthetics to further enhance the effect.\nHowever, you cannot make someone\nlook taller or shorter than he actually\nis.\n206 SKILLS"
+  },
+  "mechanics": {
+    "conversion": "fulltext_page_dump",
+    "generated_at": "2026-03-02T15:00:00"
+  }
+}

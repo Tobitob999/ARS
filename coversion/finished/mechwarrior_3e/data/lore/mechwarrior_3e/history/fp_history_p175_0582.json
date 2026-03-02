@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Later; years in diameter; comprising some two thousand",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 175,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:05Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p175_0582",
+    "entity_type": "history",
+    "name_guess": "Later; years in diameter; comprising some two thousand",
+    "breadcrumb_path": "Rules Compendium > Page 175 > history > Later; years in diameter; comprising some two thousand",
+    "page_refs": [
+      175
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Later; years in diameter; comprising some two thousand colonized enterprising inventors developed cheap purification units worlds contested by five major nations_ the invading Clans and Dependent on processing equipment as they are_ many worlds host ot petty states_ These worlds range from marginal agri- remain at the mercy 0f mechanical breakdowns even in the cultural colonies t0 cosmopolitan centers of industry: thirty-first century: Holding together this interstellar society is daunting task: Atmospheric composition another key element of plane- requires efficient travel between worlds well-established lines tary environments Oxygen essential for numans and other communication and centralized bureaucracy; without these Terran Iife forms but too much is aS dangerous as too little things, society will inevitably fragment into isolated_ disparate Gases such as nitrogen are also required Carbon dioxide (COz) worlds."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_2_fallback",
+    "tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_fiend_folio_appendix",
+    "extensions"
+  ],
+  "summary": "Fallback Phase-2 Regelchunk: extensions aus TSR Inc - AD&D 2nd Edition - Monstrous Compendium - Fiend Folio Appendix.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - Monstrous Compendium - Fiend Folio Appendix",
+    "source_file": "TSR Inc - AD&D 2nd Edition - Monstrous Compendium - Fiend Folio Appendix.pdf",
+    "text": "TSR Inc - AD&D 2nd Edition - Monstrous Compendium - Fiend Folio Appendix.pdf"
+  },
+  "mechanics": {
+    "topic": "extensions",
+    "keywords": [
+      "add_2e",
+      "appendix",
+      "compendium",
+      "edition",
+      "extensions",
+      "fallback",
+      "fiend",
+      "folio",
+      "monstrous",
+      "tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_fiend_folio_appendix"
+    ],
+    "injection_priority": "flavor",
+    "confidence": 0.1,
+    "page_refs": [
+      1
+    ],
+    "raw_text": "TSR Inc - AD&D 2nd Edition - Monstrous Compendium - Fiend Folio Appendix.pdf"
+  }
+}

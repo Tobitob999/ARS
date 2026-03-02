@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "locations_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "locations",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "141 Packframe 141 Pain Resistance 45, 85 116",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 216,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:30Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_locations_p216_0410",
+    "entity_type": "locations",
+    "name_guess": "141 Packframe 141 Pain Resistance 45, 85 116",
+    "breadcrumb_path": "Rules Compendium > Page 216 > locations > 141 Packframe 141 Pain Resistance 45, 85 116",
+    "page_refs": [
+      216
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "180 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "141 Packframe 141 Pain Resistance 45, 85 116 Parachute. 150 Parka_ 141 Patch, 132 Peer List, 159 Pentagon Worlds. 162 Perception 42, 46 103 Periphery, 30-31 _ 166 184 contacts_ 208 education in; 180 makeup of, 169 Quality of success/failure Quickdraw."
+  }
+}

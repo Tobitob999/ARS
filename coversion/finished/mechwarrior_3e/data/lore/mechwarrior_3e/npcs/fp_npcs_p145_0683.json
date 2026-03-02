@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "The dose will prevent the character from being",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 145,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:40Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p145_0683",
+    "entity_type": "npcs",
+    "name_guess": "The dose will prevent the character from being",
+    "breadcrumb_path": "Rules Compendium > Page 145 > npcs > The dose will prevent the character from being",
+    "page_refs": [
+      145
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "TN",
+      "wound"
+    ],
+    "excerpt": "The dose will prevent the character from being stunned ad will allow him to ignore all TN modifiers caused by Minor Wounds or less (Serious Wounds worse have their usual effects) The wound value of all wounds still counts as usual."
+  }
+}

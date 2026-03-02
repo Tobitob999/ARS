@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "lore_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "lore",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "The Clan LSSU functions like the medipack (above),",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 145,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:41Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_lore_p145_0205",
+    "entity_type": "lore",
+    "name_guess": "The Clan LSSU functions like the medipack (above),",
+    "breadcrumb_path": "Rules Compendium > Page 145 > lore > The Clan LSSU functions like the medipack (above),",
+    "page_refs": [
+      145
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "The Clan LSSU functions like the medipack (above), except contains twice as many doses of medication; Advanced Medical Kit This includes more extensive array of equipment; includ- ing various drugs ad basic monitoring equipment; and can be used by combat medic t0 treat critically wounded character. character performing MedTech Skill needs such Kit t0 avoid Lack Proper Equipment Modifier. Preserving Sleeve Medics and doctors use the preserving sleeve t0 treat seri: ous injuries to limb until full care can be given."
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "changestaff",
+  "name": "Changestaff",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Changestaff (Evocation, Enchantment) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "sixth",
+    "book_pages": [
+      231
+    ],
+    "pdf_pages": [
+      232
+    ],
+    "raw_block": "Changestaff (Evocation, Enchantment)\nSphere: Plant, Creation\nRange: Touch\nComponents: V, S, M\nDuration: Special\nCasting Time: 4\nArea of Effect: The caster's staff\nSaving Throw: None\nBy means of this spell, the caster is able to\nchange a specially prepared staff into a\ntreant-like creature of the largest size (about\n24 feet tall). When the priest plants the end\nof the staff in the ground and speaks a spe-\ncial command and invocation, the staff\nturns into a treant-like creature with 12 Hit\nDice, 40 hit points, and Armor Class 0. It at-\ntacks twice per round, inflicting 4d6 points\nof damage with every successful attack. The\nstaff-treant defends the caster and obeys\nany spoken commands. However, it is by no\nmeans a true treant; it cannot converse with\nactual treants or control trees. The transfor-\nmation lasts either for as many turns as the\ncaster has experience levels, until the caster\ncommands the staff to return to its true\nform, or until the staff is destroyed, which-\never occurs first. If the staff-treant is re-\nduced to 0 hit points or less, it crumbles to a\nsawdust-like powder and the staff is de-\nstroyed. Otherwise, the staff can be used\nagain after 24 hours and the staff-treant is at\nfull strength.\nTo cast a changestaff spell, the caster must\nhave either his holy symbol or leaves (ash,\noak, or yew) of the same sort as the staff.\nThe staff for the changestaff spell must be\nspecially prepared. The staff must be a\nsound limb cut from an ash, oak, or yew\ntree struck by lightning no more than 24\nhours before the limb is cut. The limb must\nthen be cured by sun drymg and special\nsmoke for 28 days. Then it must be shaped,\ncarved, and polished for another days.\nThe caster cannot adventure or engage in\nother strenuous activity during either of\nthese periods. The finished staff, engraved\nwith woodland scenes, is then rubbed with\nthe juice of holly berries, and the end of it is\nthrust into the earth of the caster's grove\nwhile he casts a speak with plant spefl, call-\ning upon the staff to assist in time of need.\nThe item is then charged with a magic that\nwill last for many changes from staff to\ntreant and back again.\nChariot Of Sustarre\nSphere: Elemental (Fire\nRange: 10 yards\nComponents: V, S, M\nDuration: 12 hours\nCasting Time: 1 turn\nArea of Effect: Special\nSaving Throw: None\nWhen this spell is cast, it brings forth a\nlarge, flaming chariot pulled by two fiery\nhorses from the elemental plane of Fire.\nThese appear in a clap of thunder amid a\ncloud of smoke. The vehicle moves at 24 on\nthe ground, 48 flying, and can cahy the\ncaster and up to seven other creatures of\nman-size or less (the passengers must be\ntouched by the caster to protect them from\nthe flames of the chariot). Creatures other\nthan the caster and his designated passen-\ngers sustain 2d4 points of fire damage each\nround if they come within five feet of the\nhorses or chariot. Such creatures suffer no\ndamage if they evade the area by rolling suc-\ncessful saving throws vs. petrification, with\nDexterity adjustments.\nThe caster controls the chariot by verbal\ncommand, causing the flaming steeds to\nstop or go, walk, trot, run or fly, and turn\nleft or right as he desires. Note that the char-\niot of Sustarre is a physical manifestation\nand can sustain damage. The vehicle and\nsteeds are struck only by magical weapons\nor by water (one quart of which inflicts 1\npoint of damage), they are Armor Class 2,\nand each requires 30 points of damage to\ndispel. Naturally, fire has absolutely no ef-\nfect upon either the vehicle or its steeds, but\nmagical fires other than thoae of the chariot\ncan affect the riders. Other spells, such as a\nsuccessful dispel magic or holy word, will\nforce the chariot back to its home plane,\nwithout its passengers. The chariot can be\nsummoned only once per week.\nThe material components are\npiece of wood, two holly berries,\nsource at least equal to a torch."
+  },
+  "mechanics": {
+    "school_or_type": "Evocation, Enchantment",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Changestaff",
+      "canonical_name_guess": null,
+      "school_or_type": "Evocation, Enchantment",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "Special",
+      "casting_time": "4",
+      "area_of_effect": "The caster's staff",
+      "saving_throw": "None",
+      "description_excerpt": "When this spell is cast, it brings forth a large, flaming chariot pulled by two fiery horses from the elemental plane of Fire. These appear in a clap of thunder amid a cloud of smoke. The vehicle moves at 24 on the ground, 48 flying, and can cahy the caster and up to seven other creatures of man-size or less (the passengers must be touched by the caster to protect them from the flames of the chariot). Creatures other than the caster and his designated passen- gers sustain 2d4 points of fire damage each round if they come within five feet of the horses or chariot. Such creatures suffer no damage if they evade the area by rolling suc- cessful saving throws vs. petrification, with Dexterity adjustments. The caster controls the chariot by verbal command, causing the flaming steeds to stop or go, walk, trot, run or fly, and turn left or right as he desires. Note that the char- iot of Sustarre"
+    },
+    "quality_flags": []
+  }
+}

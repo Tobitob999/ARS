@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "faerie_fire",
+  "name": "Faerie Fire",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Faerie Fire (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "ninth",
+    "book_pages": [
+      200
+    ],
+    "pdf_pages": [
+      201
+    ],
+    "raw_block": "Faerie Fire (Alteration)\nSphere: Weather\nRange: 80 yards\nComponent: V, M\nDuration: 4 roundsAeve1\nCasting Time: 4\nArea of Effect: 10 sq. feet/level within\nSaving Throw: None\na 40-foot radius\nThis spell enables the caster to outline one\nor more objects or creatures with a pale\nglowing light. The number of subjects out-\nlined depends upon the number of square\nfeet the caster can affect. Sufficient footage\nenables several objects or creatures to be\noutlined by the faehe fire spell, but one\nmust be fully outlined before the next is\nbegun, and all must be within the area of\neffect. Outlined objects or creatures are visi-\nble at 80 yards in the dark, 40 yards if the\nviewer is near a bright light source. Out-\nlined creatures are easier to strike, thus\nopponents gain a +2 bonus to attack rolls in\ndarkness (including moonlit nights) and a\noutlining can render otherwise invisible\ncreatures visible. However, it cannot out-\nline noncorporeal, ethereal, or gaseous\ncreatures. Nor does the light come any-\nwhere close to sunlight. Therefore it has no\nspecial effect on undead or darkdwelling\ncreatures. The faerie fire can be blue, green,\nor violet according to the word of the caster\nat the time of casting. The faerie fire does\nnot cause any harm to the object or creature\nthus outlined.\nThe material component is a small piece\nof foxfire."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Faerie Fire",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "80 yards",
+      "components": null,
+      "duration": "4 roundsAeve1",
+      "casting_time": "4",
+      "area_of_effect": "10 sq. feet/level within",
+      "saving_throw": "None",
+      "description_excerpt": "a 40-foot radius This spell enables the caster to outline one or more objects or creatures with a pale glowing light. The number of subjects out- lined depends upon the number of square feet the caster can affect. Sufficient footage enables several objects or creatures to be outlined by the faehe fire spell, but one must be fully outlined before the next is begun, and all must be within the area of effect. Outlined objects or creatures are visi- ble at 80 yards in the dark, 40 yards if the viewer is near a bright light source. Out- lined creatures are easier to strike, thus opponents gain a +2 bonus to attack rolls in darkness (including moonlit nights) and a outlining can render otherwise invisible creatures visible. However, it cannot out- line noncorporeal, ethereal, or gaseous creatures. Nor does the light come any- where close to sunlight. Therefore it has no special effect on undea"
+    },
+    "quality_flags": [
+      "missing_standard_fields"
+    ]
+  }
+}

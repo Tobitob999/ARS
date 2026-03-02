@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "This exchange referred round melee combat. The character",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 114,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:30Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p114_0519",
+    "entity_type": "npcs",
+    "name_guess": "This exchange referred round melee combat. The character",
+    "breadcrumb_path": "Rules Compendium > Page 114 > npcs > This exchange referred round melee combat. The character",
+    "page_refs": [
+      114
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "MoS",
+      "damage"
+    ],
+    "excerpt": "This exchange referred round melee combat. The character with the higher Margin of Success iS considered the winner 0f tnal round combat; and as such will inflict damage on the other character: both characters score the same MoS both characters inflict damage each other."
+  }
+}

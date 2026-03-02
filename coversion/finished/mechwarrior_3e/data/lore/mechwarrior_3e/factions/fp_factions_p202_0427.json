@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "factions_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "factions",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "where his ner skills can better serve the",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 202,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:21Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_factions_p202_0427",
+    "entity_type": "factions",
+    "name_guess": "where his ner skills can better serve the",
+    "breadcrumb_path": "Rules Compendium > Page 202 > factions > where his ner skills can better serve the",
+    "page_refs": [
+      202
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "where his ner skills can better serve the Clan: Some eressive Clans have begun to allow secondary Trials of Position for placement in second line units, Clan rank structure i5 simple Warriors with rank called by their professional title: MechWarrior, Elemental, Pilot and So on. Point Commander Ine owest standard rank (all MechWarriors definition are Point Commanders_ though only tnc vainest would use that title). Star Commander leads Star; the case 0f Nova Star."
+  }
+}

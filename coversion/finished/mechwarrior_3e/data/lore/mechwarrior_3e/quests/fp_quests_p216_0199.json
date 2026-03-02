@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "category": "quests_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "quests",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "31 Minor Wound_ 117.125 Missed shots 120-21 Missile",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 216,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:30Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_quests_p216_0199",
+    "entity_type": "quests",
+    "name_guess": "31 Minor Wound_ 117.125 Missed shots 120-21 Missile",
+    "breadcrumb_path": "Rules Compendium > Page 216 > quests > 31 Minor Wound_ 117.125 Missed shots 120-21 Missile",
+    "page_refs": [
+      216
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "11 M",
+      "110 m",
+      "112 M",
+      "117.125 M",
+      "135 M",
+      "137 M",
+      "152 M",
+      "159 M",
+      "208 M",
+      "21 M"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [
+      "armor"
+    ],
+    "excerpt": "31 Minor Wound_ 117.125 Missed shots 120-21 Missile launcher, 137 Mission award, 208 Modifiers , Initiative 110 melee combat 113 ranged combat, 112 Money; 180-82 Movement; 110-11 Multiple traits Music, 152 Mydron 135 Mvome bundles_ 159 Myomet replacement; 145 religion 186 vehicle assignment, 93 Personal armor; 140-41 Personal computer, 148 Personal Cnviron bag: 146-47 Personal gear, 151 156-57 Personal music set, 152 Piloting 104 Pilot phenotype _ Pirates_ 205 Pistols, 37-39, 48. 104, 135."
+  }
+}

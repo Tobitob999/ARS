@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "This trait is only used during initia character",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 90,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:22Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p090_0396",
+    "entity_type": "npcs",
+    "name_guess": "This trait is only used during initia character",
+    "breadcrumb_path": "Rules Compendium > Page 090 > npcs > This trait is only used during initia character",
+    "page_refs": [
+      90
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "0 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "This trait is only used during initia character creation and cannoi be acquired Iater. Characters need t0 make money the old fashioned way after play begins EQUIPMENT TABLE Wel-Equlpped Maxlmum Maximum Maxlmum Character Polnts Tech Level Avallability Legality +1 WELL-EQUIPPED Cost: 2/4/6/8 Through connections, good fortune Or other circumstances well equipped character has access t0 rare equipment: This iS represented in game terms by access t0 gear with higher equip ment ratings (see Equipment; p. 1291."
+  }
+}

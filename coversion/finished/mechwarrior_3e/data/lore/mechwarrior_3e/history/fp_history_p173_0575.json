@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "known vam order oftten bestowed ously counties earldoms",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 173,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:04Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p173_0575",
+    "entity_type": "history",
+    "name_guess": "known vam order oftten bestowed ously counties earldoms",
+    "breadcrumb_path": "Rules Compendium > Page 173 > history > known vam order oftten bestowed ously counties earldoms",
+    "page_refs": [
+      173
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "known vam order oftten bestowed ously counties earldoms may reward battlefield perfor- range from city (0 continent, Or mance, though many orders exist occasionally entire world_ Some nll that recognize civil achievements powerful counts style themselves in the media, science or litcrature. archcount' ~landgrave, with Despite the romanticized authority rivaling tnat mar- associations of the word \"knight: quess Tne rank of count is heredi- nood; most people in the Inner tary."
+  }
+}

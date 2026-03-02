@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "factions_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "factions",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "SOCIETY AND CULTURE dreams held by many to",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 176,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:05Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_factions_p176_0291",
+    "entity_type": "factions",
+    "name_guess": "SOCIETY AND CULTURE dreams held by many to",
+    "breadcrumb_path": "Rules Compendium > Page 176 > factions > SOCIETY AND CULTURE dreams held by many to",
+    "page_refs": [
+      176
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "SOCIETY AND CULTURE dreams held by many to be mere legends from the long ago glory days of the Star League_ Others could be manufactured only by automated factories, the secrets of their underlying tech- nologies long forgotten. complete account of the events behind the change is beyond the scope of this work: The following excerpts offer a overview of humanity $ technological reversals of fortune."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Tne gamemastcr should feel free t0 increase ine",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 210,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:26Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p210_0838",
+    "entity_type": "npcs",
+    "name_guess": "Tne gamemastcr should feel free t0 increase ine",
+    "breadcrumb_path": "Rules Compendium > Page 210 > npcs > Tne gamemastcr should feel free t0 increase ine",
+    "page_refs": [
+      210
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Tne gamemastcr should feel free t0 increase ine award and even award sole points t0 the Other characters in the Broup the resolution of subplot was particularly dan Berous Or important; part in an ongoing campaign: represents the part Inis adven ture took in the campaign'$ ongoing story If the adventure played key part in the campaign, thanks t0 the characters actions_ award herc is appropriate Note that single point awarded Cver the adventure was completely offtrack; Ihis represents the minimum XP award for participation the adventure: This award given t0 all characters group equally: NPC EXPERIENCE Not only player characters get better with age."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Navigation/Space +1] The unit'$ scout platoon took you",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 39,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:51Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p039_0031",
+    "entity_type": "items",
+    "name_guess": "Navigation/Space +1] The unit'$ scout platoon took you",
+    "breadcrumb_path": "Rules Compendium > Page 039 > items > Navigation/Space +1] The unit'$ scout platoon took you",
+    "page_refs": [
+      39
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "1 M"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Navigation/Space +1] The unit'$ scout platoon took you under their wing (Cnoose two: Demolitions +1 Jump Packs +2_ Perception +2, Streetwise /Any +1, Scrounge +1_ Survival +1] You tested so well that YOu began your training early [Choose one of the following fields but receive + 1 Skill Point in each of its skills rather than the usual +3: Basic Training: Infantry; Cavalry; Aircraft Pilot , Basic Technician_ Ship' Crew, Scout] Your adoptive family grants you the finest gift of all on your sixteenth birthday (Choose either Wealth (4) and Well Equipped or Owns Vehicle and Vehicle (2)1 Mercenaries rely on luck more than most, but YOu can in your favor [Roll three times and choose two results, discarding the thira] HIOH BCHOOL You attended one of the many schools that give teenagers basic education, participating in academic studies as well as healthy dose of athletic ad other extracurricular activities Tralts: Contact Skllls: Academic _ Any +1, Computers +1 Interest/Any +2 Streetwise Affiliation +1 Next Path: Trade School (3), Technical College (3), Police Academy (3), Military Enlistment (3), Ne'er-Do-Well (4), Civilian Job (4) Hlgh School Events Caught school shooting crossfire (Disabled _ Poor Hearingi Gave in to peer pressure [Addiction (2)."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.2.1",
+  "id": "chant",
+  "name": "Chant",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Chant (ConjuratiodSummoning) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "second",
+    "book_pages": [
+      203,
+      204
+    ],
+    "pdf_pages": [
+      204,
+      205
+    ],
+    "raw_block": "Chant (ConjuratiodSummoning)\nSphere: Combat\nRange: 0\nComponents: V, S\nDuration: Time of chanting\nCasting Time: 2 rounds\nArea of Effect: 30-fOOt radius\nSaving Throw: None\nBy means of the chant spell, the priest\nbrings special favor upon himself and his\nparty, and causes harm to his enemies.\nWhen the chant spell is completed, all\nattack and damage rolls and saving throws\nmade by those in the area of effect who are\nfriendly to the priest gain +1 bonuses,\nwhile those of the priest's enemies suffer - 1\npenalties. This bonus/penalty continues as\nlong as the caster continues to chant the\nmystic syllables and is stationary. An inter-\nruption, however, such as an attack that\nsucceeds and causes damage, grappling the\nchanter, or a silence spell, breaks the spell.\nMultiple chants are not cumulative; how-\never, if the 3rd-level prayer spell is spoken.\nwhile a priest of the same religious persua-\nsion (not merely alignment!) is chanting, the\neffect is increased to +2 and -2."
+  },
+  "mechanics": {
+    "school_or_type": "ConjuratiodSummoning",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Chant",
+      "canonical_name_guess": null,
+      "school_or_type": "ConjuratiodSummoning",
+      "range": "0",
+      "components": "V, S",
+      "duration": "Time of chanting",
+      "casting_time": "2 rounds",
+      "area_of_effect": "30-fOOt radius",
+      "saving_throw": "None",
+      "description_excerpt": "By means of the chant spell, the priest brings special favor upon himself and his party, and causes harm to his enemies. When the chant spell is completed, all attack and damage rolls and saving throws made by those in the area of effect who are friendly to the priest gain +1 bonuses, while those of the priest's enemies suffer - 1 penalties. This bonus/penalty continues as long as the caster continues to chant the mystic syllables and is stationary. An inter- ruption, however, such as an attack that succeeds and causes damage, grappling the chanter, or a silence spell, breaks the spell. Multiple chants are not cumulative; how- ever, if the 3rd-level prayer spell is spoken. while a priest of the same religious persua- sion (not merely alignment!) is chanting, the effect is increased to +2 and -2."
+    },
+    "quality_flags": [
+      "trimmed_merged_block"
+    ]
+  }
+}

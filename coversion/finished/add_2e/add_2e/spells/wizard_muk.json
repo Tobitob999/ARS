@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "wizard_muk",
+  "name": "Wizard Muk",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Wizard Muk (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": null,
+    "book_pages": [
+      139
+    ],
+    "pdf_pages": [
+      140
+    ],
+    "raw_block": "Wizard Muk (Alteration)\nRange: Touch\nComponents: V, S, M\nDuration: Permanent\nCasting Time: 1\nArea of Effect: Up to 1 square foot\nSaving Throw: None\nWhen this spell is cast, the wizard is able\nto inscribe, visibly or invisibly, his personal\nrune or mark, as well as up to six additional\ncharacters of smaller size. A wizard mark\nspell enables the caster to etch the rune upon\nstone, metal, or any softer substance with-\nout harm to the material upon which the\nmark is placed. If an invisible mark is made,\na detect magic spell will cause it to glow and\nbe visible (though not necessarily under-\nstandable). Detect invisibility, true seeing, a\ngem of seeing, or a robe of eyes will likewise\nexpose an invisible wizard mark. A read\nmagic spell will reveal the maker’s words, if\nany. The mark cannot be dispelled, but it\ncan be removed by the caster or by an eruse\nspell. If cast on a living being, normal wear\ngradually causes the mark to fade.\nThe material components for this spell are\na pinch of diamond dust (about 100 gp\nworth) and a pigment or pigments for the\ncoloration of the mark. If the mark is to be\ninvisible, the pigments are still used, but the\ncaster uses a stylus of some sort rather than\nhis finger.\n139\nSecond-Level Spells"
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Wizard Muk",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "Permanent",
+      "casting_time": "1",
+      "area_of_effect": "Up to 1 square foot",
+      "saving_throw": "None",
+      "description_excerpt": "When this spell is cast, the wizard is able to inscribe, visibly or invisibly, his personal rune or mark, as well as up to six additional characters of smaller size. A wizard mark spell enables the caster to etch the rune upon stone, metal, or any softer substance with- out harm to the material upon which the mark is placed. If an invisible mark is made, a detect magic spell will cause it to glow and be visible (though not necessarily under- standable). Detect invisibility, true seeing, a gem of seeing, or a robe of eyes will likewise expose an invisible wizard mark. A read magic spell will reveal the maker’s words, if any. The mark cannot be dispelled, but it can be removed by the caster or by an eruse spell. If cast on a living being, normal wear gradually causes the mark to fade. The material components for this spell are a pinch of diamond dust (about 100 gp worth) and a pigment or p"
+    },
+    "quality_flags": []
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_page",
+  "tags": [
+    "gurps_4e",
+    "fulltext",
+    "pdf_page"
+  ],
+  "summary": "PDF-Seite 481 aus GURPS - 4th Edition - Basic Set.pdf.",
+  "source_text": {
+    "book": "GURPS - 4th Edition - Basic Set",
+    "pdf_page": 481,
+    "text": "modifier for a Simple gadget, -2 for\nan Average one, -6 for a Complex\none, and -10 for an Amazing one. On\na success, the total cost for the proj-\nect is only (1d-1) ¥ $100, with a roll\nof 1 indicating no cost.\nIf the gadgeteer must buy the need-\ned items, calculate facilities and proto-\ntype costs as for a regular gadgeteer,\nand then divide by 100.\nA critical failure on the Prototype\nroll ruins the parts – the gadgeteer\nmust find new ones before construc-\ntion can resume.\nGADGETEERING\nDURING\nADVENTURES\nGadgeteers can also analyze and\nmodify gadgets encountered during\nadventures.\nAnalysis\nTo figure out a mysterious piece of\nequipment, the gadgeteer rolls as if he\nwere making a Concept roll to invent\nthe item from scratch, using the same\nskills and modifiers. This takes 1d¥10\nminutes for a regular gadgeteer, or 1d\nminutes for a quick gadgeteer.\nModification\nAfter successfully analyzing a gadg-\net, the gadgeteer may attempt to mod-\nify it. He rolls as if he were making a\nPrototype roll, using the same skills\nand modifiers. This takes 1d hours for\na regular gadgeteer, or 1d¥10 minutes\nfor a quick gadgeteer. All modifica-\ntions in function are subject to GM\napproval!\nTECHNOLOGY AND ARTIFACTS 477\nGadgets for \nNon-Gadgeteers\nAnyone can own and use gadgets. Only those who can alter their\ncapabilities or invent new ones must buy the Gadgeteer advantage. But\nit would be unfair to let non-gadgeteers have gadgets for free –\nGadgeteer costs points as much for the gadgets themselves as for the\nability to build them. The GM should adopt one of the following rules\nto maintain game balance.\nGadgets Cost Money\nThe GM may permit the PCs to hire a gadgeteer to design and built\ngadgets for them. Finding such a hireling should be an adventure in\nitself! In addition to the hireling’s pay, the PCs must pay the standard\nfacilities cost for development and 150% of the prototype cost per item.\nWork out these costs as described for regular (not quick) gadgeteering.\nThis option has a “hidden” point cost: to cover these expenses, the\nheroes almost certainly need to take high Wealth (p. 25) or trade points\nfor money (see Trading Points for Money,p. 26).\nGadgets Require an Unusual Background\nThe GM might require gadget users to have one of these Unusual\nBackgrounds:\nUnusual Background (Gadgeteer Friend): If an adventurer has a gad-\ngeteer friend who equips him with useful inventions, he has an Unusual\nBackground. This is an unabashed game-balance measure – it isunbal-\nancing to let a single gadgeteer outfit an entire party at no point cost,\nhowever realistic that might be.15 points.\nUnusual Background (Invention): The character possesses one spe-\ncific gadget without being a gadgeteer. This must be a unique invention;\nif it weren’t, it would just be Signature Gear (p. 85). The player must\nexplain how his character came to have the item: he invented it through\na lucky accident, his inventor grandfather left it to him, aliens planted\nthe blueprints in his head telepathically, etc. The points in this trait buy\na single, bug-free item. The owner can copy it, but he must pay the\nusual production costs. 5 points if the gadget is Simple, 15 points if\nAverage, 30 points if Complex, or 50 points if Amazing."
+  },
+  "mechanics": {
+    "conversion": "fulltext_page_dump",
+    "generated_at": "2026-03-02T15:00:00"
+  }
+}

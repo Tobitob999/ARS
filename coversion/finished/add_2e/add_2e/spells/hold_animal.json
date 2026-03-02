@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "hold_animal",
+  "name": "Hold Animal",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Hold Animal (EnchantmenffCharm) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "third",
+    "book_pages": [
+      211
+    ],
+    "pdf_pages": [
+      212
+    ],
+    "raw_block": "Hold Animal (EnchantmenffCharm)\nSphere: Animal\nRange: 80 yards\nComponents: V, S\nDuration: 2 rounds/levei\nCasting Time: 6\nArea of Effect: 1 to 4 animals in a\nSaving Throw: Neg.\n4(rfOOt Cube\nBy means of this spell, the caster holds\none to four animals rigid. Animals affected\nare normal or giant-sized mammals, birds,\nor reptiles, but not monsters such as cen-\ntaurs, gorgons, harpies, naga, etc. Apes,\nbears, crocodiles, dogs, eagles, foxes, giant\nbeavers, and similar animals are subject to\nthis spell. The hold lasts for two rounds per\ncaster level. The caster decides how many\nanimals can be affected, but the greater the\nnumber, the better chance each has to suc-\ncessfully save against the spell. Each animal\ngets a saving throw: if only one is the subject"
+  },
+  "mechanics": {
+    "school_or_type": "EnchantmenffCharm",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Hold Animal",
+      "canonical_name_guess": null,
+      "school_or_type": "EnchantmenffCharm",
+      "range": "80 yards",
+      "components": "V, S",
+      "duration": "2 rounds/levei",
+      "casting_time": "6",
+      "area_of_effect": "1 to 4 animals in a",
+      "saving_throw": "Neg.",
+      "description_excerpt": ""
+    },
+    "quality_flags": []
+  }
+}

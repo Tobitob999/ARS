@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0.0",
+  "category": "fulltext_page",
+  "tags": [
+    "mechwarrior_3e",
+    "fulltext",
+    "page_012"
+  ],
+  "summary": "OCR Volltextseite 12",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 12,
+    "extraction": "easyocr"
+  },
+  "mechanics": {
+    "text": "BY thE NUMBERS\nLill"
+  }
+}

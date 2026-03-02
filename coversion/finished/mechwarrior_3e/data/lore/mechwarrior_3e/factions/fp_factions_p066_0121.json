@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "category": "factions_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "factions",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Name Rebel Fighter Pilot VEch MHRIRIOP Attiliation Free",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 66,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:01Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_factions_p066_0121",
+    "entity_type": "factions",
+    "name_guess": "Name Rebel Fighter Pilot VEch MHRIRIOP Attiliation Free",
+    "breadcrumb_path": "Rules Compendium > Page 066 > factions > Name Rebel Fighter Pilot VEch MHRIRIOP Attiliation Free",
+    "page_refs": [
+      66
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [
+      "49 kg"
+    ],
+    "range_mentions": [
+      "57 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Name Rebel Fighter Pilot VEch MHRIRIOP Attiliation Free Worlds League Age 26 Height 1,.57 m Weight 49 kg charadtot Rogood Sheet TBIRD EDITIO ATTRIBUTES TRAITS Value Mod Max."
+  }
+}

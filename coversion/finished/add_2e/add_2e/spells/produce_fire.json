@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "produce_fire",
+  "name": "Produce Fire",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Produce Fire (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "fourth",
+    "book_pages": [
+      219
+    ],
+    "pdf_pages": [
+      220
+    ],
+    "raw_block": "Produce Fire (Alteration)\nReversible\nSphere: Elemental (Fire)\nRange: 40 yards\nComponents: V, S, M\nDuration: 1 round\nCasting Time: 7\nArea of Effect: 12-\nSaving Throw: None\nBy means of this spell, the caster causes a\ncommon fire of up to 12 feet per side in area.\nThough it lasts but a single round, unless it\nignites additional flammable material, the\nfire produced by the spell inflicts ld4 points\nof damage plus 1 point per caster level (ld4\n+ Mevel) upon creatures within its area. It\nignites combustible materials, such as cloth,\noil, paper, parchment, wood, and the like,\nso as to cause continued burning.\nThe reverse, quench fire, extinguishes\nany normal fire (coals, oil, tallow, wax,\nwood, etc.) within the area of effect.\nThe material component for either ver-\nsion is a paste of sulfur and wax, formed\ninto a ball and thrown at the target.\nProtection From Evll, 10’ Radius\n(Abjuration)\nReversible\nSphere: Protection\nRange: Touch\nComponents: V, S, M\nDuration: 1 turn/level\nCasting Time: 7\nArea of Effect: 10-foot-radius sphere\nSaving Throw: None\nThe globe of protection of this spell is\nidentical in all respects to that of a protec-\ntion from evil spell, except that it encom-\npasses a much larger area and its duration is\ngreater. The effect is centered on and moves\nwith the creature touched. Any protected\nI\ncreature within the circle will break the\nwarding against enchanted/summoned\nmonsters if he attacks those monsters. A\ncreature unable to fit completely into the\narea of effect (for example, a 21-foot-tall\ntitan) remains partially exposed and subject\nto whatever penalties the DM decides. If\nsuch a creature is the recipient of the spell,\nthe spell acts as a normal protection from\nevil spell for that creature only.\nThe reverse, protection from good, 10’\nradius, wards against good creatures.\nTo complete this spell, the priest must\ntrace a circle 20 feet in diameter using holy\n(or unholy) water and incense (or smolder-\ning dung), according to the protection from\nevil spell."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Produce Fire",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "40 yards",
+      "components": "V, S, M",
+      "duration": "1 round",
+      "casting_time": "7",
+      "area_of_effect": "12-",
+      "saving_throw": "None",
+      "description_excerpt": "greater. The effect is centered on and moves with the creature touched. Any protected I creature within the circle will break the warding against enchanted/summoned monsters if he attacks those monsters. A creature unable to fit completely into the area of effect (for example, a 21-foot-tall titan) remains partially exposed and subject to whatever penalties the DM decides. If such a creature is the recipient of the spell, the spell acts as a normal protection from evil spell for that creature only. The reverse, protection from good, 10’ radius, wards against good creatures. To complete this spell, the priest must trace a circle 20 feet in diameter using holy (or unholy) water and incense (or smolder- ing dung), according to the protection from evil spell."
+    },
+    "quality_flags": [
+      "trimmed_merged_block"
+    ]
+  }
+}

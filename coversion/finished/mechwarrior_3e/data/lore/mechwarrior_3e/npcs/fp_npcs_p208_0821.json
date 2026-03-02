@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "RUNNING THE GAME Soldier Tnis character professional fighter;",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 208,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:24Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p208_0821",
+    "entity_type": "npcs",
+    "name_guess": "RUNNING THE GAME Soldier Tnis character professional fighter;",
+    "breadcrumb_path": "Rules Compendium > Page 208 > npcs > RUNNING THE GAME Soldier Tnis character professional fighter;",
+    "page_refs": [
+      208
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "RUNNING THE GAME Soldier Tnis character professional fighter; be military, police criminal; He nas been trained and well-equipped_ Use this kind opposition when you want t0 give the players real challenge_ as the eader 01 group Inucs band 0f thugs Or soldiers groups of elite might be found guard: ing major installations and high-ranking crime bosses or nobles They are often match for the player characters one 0n one, only clever plan and Iittle luck will beat them an even fight."
+  }
+}

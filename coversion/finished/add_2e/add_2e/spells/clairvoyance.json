@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "clairvoyance",
+  "name": "Clairvoyance",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Clairvoyance (Mvination) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "third",
+    "book_pages": [
+      147
+    ],
+    "pdf_pages": [
+      148
+    ],
+    "raw_block": "Clairvoyance (Mvination)\nRange: Special\nComponents: V, S, M\nDuration: 1 round/level\nCasting Time: 3\nArea of Effect: Special\nSaving Throw: None\nSimilar to the clairaudience spell, the\nclairvoyance spell empowers the wizard to\nsee in his mind whatever is within sight\nrange from the spell locale chosen. Distance\nfrom the wizard is not a factor, but the lo-\ncale must be known-familiar or obvious.\nFurthermore, light is a factor, as the spell\ndoes not enable the use of infravision or\n147"
+  },
+  "mechanics": {
+    "school_or_type": "Mvination",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Clairvoyance",
+      "canonical_name_guess": null,
+      "school_or_type": "Mvination",
+      "range": "Special",
+      "components": "V, S, M",
+      "duration": "1 round/level",
+      "casting_time": "3",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "Similar to the clairaudience spell, the clairvoyance spell empowers the wizard to see in his mind whatever is within sight range from the spell locale chosen. Distance from the wizard is not a factor, but the lo- cale must be known-familiar or obvious. Furthermore, light is a factor, as the spell does not enable the use of infravision or 147"
+    },
+    "quality_flags": []
+  }
+}

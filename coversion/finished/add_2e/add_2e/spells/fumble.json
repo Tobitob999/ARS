@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.2.1",
+  "id": "fumble",
+  "name": "Fumble",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Fumble (EnchantmenKharm) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      158,
+      159
+    ],
+    "pdf_pages": [
+      159,
+      160
+    ],
+    "raw_block": "Fumble (EnchantmenKharm)\nRange: 10 yards/level\nComponents: V, S, M\nDuration: 1 round/level\nCasting Time: 4\nArea of Effect: 30-foot cube\nSaving Throw: Special\nWhen a fumble spell is cast, the wizard\ncreates an area in which all creatures sud-\ndenly become clumsy and awkward. Run-\nning creatures trip and fall, those reaching\nfor an item drop it, those employing weap-\nons likewise awkwardly drop them, etc.\nRecovery from a fall or to pick up a fumbled\nobject typically requires a successful saving\nthrow and takes one round. Note that\nbreakable items might suffer damage when\ndropped. A subject succeeding with his sav-\ning throw can act freely that round, but if he\nis in the area at the beginning of the next\nround, another saving throw is required.\nAlternatively, the spell can be cast at an\nindividual creature. Failure to save means\nthe creature is affected for the spell’s entire\nduration; success means the creature is\nslowed (see the 3rd-level spell).\nThe material component of this spell is a\ndab of solidified milk fat."
+  },
+  "mechanics": {
+    "school_or_type": "EnchantmenKharm",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Fumble",
+      "canonical_name_guess": null,
+      "school_or_type": "EnchantmenKharm",
+      "range": "10 yards/level",
+      "components": "V, S, M",
+      "duration": "1 round/level",
+      "casting_time": "4",
+      "area_of_effect": "30-foot cube",
+      "saving_throw": "Special",
+      "description_excerpt": "slowed (see the 3rd-level spell). The material component of this spell is a dab of solidified milk fat."
+    },
+    "quality_flags": [
+      "trimmed_merged_block"
+    ]
+  }
+}

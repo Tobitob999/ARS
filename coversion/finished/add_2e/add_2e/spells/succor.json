@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "succor",
+  "name": "Succor",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Succor (Alteration, Enchantment) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "sixth",
+    "book_pages": [
+      235
+    ],
+    "pdf_pages": [
+      236
+    ],
+    "raw_block": "Succor (Alteration, Enchantment)\n: Touch\nComponents: V, S, M\nDuration: Special\nCasting Time: 1 day\nArea of Effect: Special\nSaving Throw: None\nBy casting this spell, the priest creates a\npowerful magic in some speciaIly prepared\nobject-a string of prayer beads, a small\nclay tablet, an ivory baton, etc. This object\nradiates magic, for it contains the power to\ninstantaneously transport its possessor to\nthe sanctuary of the priest who created its\nmagic. Once the item is enchanted, the\npriest must give it willingly to an individual,\nat the same time informing him of a com-\nmand word to be spoken when the item is to\nbe used. To make use of the item, the recipi-\nent must speak the command word at the\nsame time that he rends or breaks the item.\nWhen this is done, the individual and all\nthat he is wearing and carrying (up to the\nmaximum encumbrance limit for the char-\nacter) are instantly transported to the sanc-\ntuary of the priest, just as if the individual\nwere capable of speaking a word of recall\nspell. No other creatures can be affected.\nThe reversed application of the spen\ncauses the priest to be transported to the\nimmediate vicinity of the possessor of th*\nitem when it is broken and the command\nword said. The priest has a general idea of\nthe location and situation of the item's pok\nsessor, and can choose not to be affected by\nthis summons. This decision is made at the\ninstant when the transportation is to take\nplace, but if he chooses not to go, then the\nopportunity is gone forever and the spell ia\nwasted.\nThe cost of preparing the special item (for\neither version of the spell) varies from 2,000\nto 5,000 gp. The more costly items can\ntransport the subject from one plane of\nexistence to another, if the DM allows. Note\nthat the same factors that can prevent the\noperation of the plune shift and teleport\nspells can also prevent the use of this spell."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration, Enchantment",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Succor",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration, Enchantment",
+      "range": null,
+      "components": "V, S, M",
+      "duration": "Special",
+      "casting_time": "1 day",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "By casting this spell, the priest creates a powerful magic in some speciaIly prepared object-a string of prayer beads, a small clay tablet, an ivory baton, etc. This object radiates magic, for it contains the power to instantaneously transport its possessor to the sanctuary of the priest who created its magic. Once the item is enchanted, the priest must give it willingly to an individual, at the same time informing him of a com- mand word to be spoken when the item is to be used. To make use of the item, the recipi- ent must speak the command word at the same time that he rends or breaks the item. When this is done, the individual and all that he is wearing and carrying (up to the maximum encumbrance limit for the char- acter) are instantly transported to the sanc- tuary of the priest, just as if the individual were capable of speaking a word of recall spell. No other creatures can be af"
+    },
+    "quality_flags": [
+      "missing_standard_fields"
+    ]
+  }
+}

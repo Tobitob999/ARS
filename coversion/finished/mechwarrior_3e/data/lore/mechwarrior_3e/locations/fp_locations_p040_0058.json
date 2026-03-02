@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "locations_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "locations",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Well: Equipped; Security Systems +1_ Streetwise /Affiliation Joined",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 40,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:52Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_locations_p040_0058",
+    "entity_type": "locations",
+    "name_guess": "Well: Equipped; Security Systems +1_ Streetwise /Affiliation Joined",
+    "breadcrumb_path": "Rules Compendium > Page 040 > locations > Well: Equipped; Security Systems +1_ Streetwise /Affiliation Joined",
+    "page_refs": [
+      40
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Well: Equipped; Security Systems +1_ Streetwise /Affiliation Joined crime syndicate (In For Life."
+  }
+}

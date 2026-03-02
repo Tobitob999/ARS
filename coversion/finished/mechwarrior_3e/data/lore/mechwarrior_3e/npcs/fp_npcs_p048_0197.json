@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Tour of Duty (4) CIVILIAN JOB Your job",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 48,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:55Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p048_0197",
+    "entity_type": "npcs",
+    "name_guess": "Tour of Duty (4) CIVILIAN JOB Your job",
+    "breadcrumb_path": "Rules Compendium > Page 048 > npcs > Tour of Duty (4) CIVILIAN JOB Your job",
+    "page_refs": [
+      48
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "0 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Tour of Duty (4) CIVILIAN JOB Your job in the private sector may be dull; but countless trillions of civilians do this t0 make living and keep the war machines of the Inner Sphere going: This path also represents non-combat civil-service jobs Because this path covers SO many possible careers the player chooses his or her character'$ job ad relevant sub- skills with the gamemaster'$ approval. Subpath: Fleld Scientist School Sciences Major required Tlme: years Skllls: Add +1 t0 any two skills Flelds: Planetary Surveyor 47"
+  }
+}

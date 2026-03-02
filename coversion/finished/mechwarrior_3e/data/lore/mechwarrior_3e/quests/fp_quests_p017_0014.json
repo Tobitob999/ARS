@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "quests_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "quests",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "This is normally due to the complexity of",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 17,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:41Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_quests_p017_0014",
+    "entity_type": "quests",
+    "name_guess": "This is normally due to the complexity of",
+    "breadcrumb_path": "Rules Compendium > Page 017 > quests > This is normally due to the complexity of",
+    "page_refs": [
+      17
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "This is normally due to the complexity of the task_ Remember that there are other modifiers for conditions and special actions taken by the character or the target The difficulty modifiers are used when the raw difficulty of the task is harder or easier than normal."
+  }
+}

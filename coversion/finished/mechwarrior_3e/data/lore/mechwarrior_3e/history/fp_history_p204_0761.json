@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "with hundreds worlds and different from that of",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 204,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:23Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p204_0761",
+    "entity_type": "history",
+    "name_guess": "with hundreds worlds and different from that of",
+    "breadcrumb_path": "Rules Compendium > Page 204 > history > with hundreds worlds and different from that of",
+    "page_refs": [
+      204
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "with hundreds worlds and different from that of the players themselves; presenting details nearly as many starting points for adventures bit over- tnat convey this fact during gameplay serves ground the whelming for both novice and experienced gamemasters_ The group more firmly the reality\" of the BattleTech universe obvious first step in starting ay roleplaying adventure_ after Lirewse larger events based on the background of the complex selecting brave soui t0 serve a5 gamemaster get all the universe may also have an cffect on tne cnaracters War and players maxe up their starting characters_ as described ear political intrgue On grand scale often have effects on even the lier in this book Before the actual natures the characters are smallest and most independent of worlds in one way Or anoth- chosen nowever the players should answer simple question: er; Even usi report in the evening newsvids_ the poli- what kind game are you going run?"
+  }
+}

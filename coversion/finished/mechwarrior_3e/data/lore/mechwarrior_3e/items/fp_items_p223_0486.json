@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "BARRIER ARMOR RATINGS Barrier Type Window; Standard Glass",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 223,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:32Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p223_0486",
+    "entity_type": "items",
+    "name_guess": "BARRIER ARMOR RATINGS Barrier Type Window; Standard Glass",
+    "breadcrumb_path": "Rules Compendium > Page 223 > items > BARRIER ARMOR RATINGS Barrier Type Window; Standard Glass",
+    "page_refs": [
+      223
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "ARMOR",
+      "Armor",
+      "TN"
+    ],
+    "excerpt": "BARRIER ARMOR RATINGS Barrier Type Window; Standard Glass Window; Safety Glass Interior Wall, Residential Commercial Interior Wall, Industrial, Military or Shipboard Exterior Wall Residential Commercial Window, Ship' Viewport Exterior Wall; Industrial Military Armored Wall or Vault Ship'$ External Bulkhead Armor Actlon Modlflers Friendly character within m of opponent TN Modlfler 1/character (max."
+  }
+}

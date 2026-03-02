@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_2",
+    "tsr_inc_ad_and_d_2nd_edition_dmgr5_creative_campaigning_text",
+    "movement"
+  ],
+  "summary": "Phase-2 Regelchunk: movement aus TSR Inc - AD&D 2nd Edition - DMGR5 - Creative Campaigning_text.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - DMGR5 - Creative Campaigning_text",
+    "source_file": "TSR Inc - AD&D 2nd Edition - DMGR5 - Creative Campaigning_text.pdf",
+    "text": "[PDF_PAGE 74 | score=2] Multiple Dice Using several dice instead of a single one allows you to manipulate the odds, but it does take a little more familiarity with proba- bilities. For example, let's consider a Constitu- tion check of d8+6. Another way to make a similar roll would be 3d4+3; the average roll is the same, but using multiple dice in this example achieves two effec! First, the minimum and maximum rolls are extended, so now someone with a 6 Constitu- tion has a chance at success (about 1.5% chance) instead of none, and someone with a 14 Constitution has a chance to fail (again, 1.5%) instead of enjoying automatic success. Second, the roll is heavily weighted to the center, so that lower scores are penal"
+  },
+  "mechanics": {
+    "topic": "movement",
+    "keywords": [
+      "add_2e",
+      "movement",
+      "tsr_inc_ad_and_d_2nd_edition_dmgr5_creative_campaigning_text"
+    ],
+    "injection_priority": "core",
+    "confidence": 0.05,
+    "page_refs": [
+      74
+    ],
+    "raw_text": "[PDF_PAGE 74 | score=2] Multiple Dice Using several dice instead of a single one allows you to manipulate the odds, but it does take a little more familiarity with proba- bilities. For example, let's consider a Constitu- tion check of d8+6. Another way to make a similar roll would be 3d4+3; the average roll is the same, but using multiple dice in this example achieves two effec! First, the minimum and maximum rolls are extended, so now someone with a 6 Constitu- tion has a chance at success (about 1.5% chance) instead of none, and someone with a 14 Constitution has a chance to fail (again, 1.5%) instead of enjoying automatic success. Second, the roll is heavily weighted to the center, so that lower scores are penal"
+  }
+}

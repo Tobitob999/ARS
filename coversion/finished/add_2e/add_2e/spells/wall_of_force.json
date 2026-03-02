@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "wall_of_force",
+  "name": "Wall of Force",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Wall of Force (Evocation) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      172,
+      173
+    ],
+    "pdf_pages": [
+      173,
+      174
+    ],
+    "raw_block": "Wall of Force (Evocation)\nRange: 30 yards\nComponents: V, S, M\nDuration: 1 turn + 1 round/level\nCasting Time: 5\nArea of Effect: Up to 10-foot square/level\nSaving Throw: None\nA wall of force spell creates an invisible\nbarrier in the locale desired by the caster, up\nto the spell's range. The wall of force cannot\nmove and is totally unaffected by most\nspells, including dispel magic. But a disinte-\ngrate spell will immediately destroy it, as\nwill a rod of cancellation or a sphere of anni-\nhilation. Likewise, the wall of force is not\naffected by blows, missiles, cold, heat, elec-\ntricity, etc. Spells and breath weapons can-\nnot pass through it in either direction,\nalthough dimension door, teleport, and\nsimilar effects can bypass the barrier.\nThe wizard can, if desired, form the wall\ninto a spherical shape with a radius up to\none foot per level or to an open hemispheri-\ncal shape of 1.5-foot radius per caster level.\nThe wall of force must be continuous and\nunbroken when formed; if its surface is bro-\nken by any object or creature, the spell fails.\nThe caster can end the spell on command.\nThe material component for this spell is a\npinch of powdered diamond worth 5,000\ngP.\nWall of\nRange: 5 yards/level\nComponents: V, S, M\nDuration: Permanent\nCasting Time: 5\nArea of Effect: 15 square feet/level or\nSaving Throw: None\nWhen this spell is cast, the wizard causes\na vertical iron wall to spring into being. This\nwall can be used to seal off a passage or\nclose a breach, for the wall inserts itself into\nany surrounding nonliving material if its\narea is sufficient to do so. The wall of iron is\n1/4 inch thick per level of experience of the\nspellcaster. The wizard is able to create an\narea of iron wall up to 15 square feet for\neach of his experience levels, so at 12th level\na wall of iron 180 square feet in area can be\ncreated. The wizard can double the wall's\narea by halving its thickness.\nIf the caster desires, the wall can be cre-\nated vertically resting on a flat surface, SO\nthat it can be tipped over, to fall on and\ncrush any creature beneath it. The wall is\n50% likely to tip in either direction. This\nchance can be modified by a force of not less\nthan 30 Strength and 400 pounds mass-\neach pound over 400 or Strength point over\n30 alters the chance by 1% in favor of the\nstronger side. Creatures with room to flee\nthe falling wall may do so by making suc-\n172\ncessful saving throws vs. death. Those\nfail are killed. Huge and gargantuan crea-\ntures cannot be crushed by the wall.\nThe wall is permanent, unless success-\nfully dispelled, but it is subject to all forces a\nnod iron wall is subject to-rust, perfo-\nration, etc.\nThe material component of this spell is a\nsmall piece of sheet iron."
+  },
+  "mechanics": {
+    "school_or_type": "Evocation",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Wall of Force",
+      "canonical_name_guess": null,
+      "school_or_type": "Evocation",
+      "range": "30 yards",
+      "components": "V, S, M",
+      "duration": "1 turn + 1 round/level",
+      "casting_time": "5",
+      "area_of_effect": "Up to 10-foot square/level",
+      "saving_throw": "None",
+      "description_excerpt": "When this spell is cast, the wizard causes a vertical iron wall to spring into being. This wall can be used to seal off a passage or close a breach, for the wall inserts itself into any surrounding nonliving material if its area is sufficient to do so. The wall of iron is 1/4 inch thick per level of experience of the spellcaster. The wizard is able to create an area of iron wall up to 15 square feet for each of his experience levels, so at 12th level a wall of iron 180 square feet in area can be created. The wizard can double the wall's area by halving its thickness. If the caster desires, the wall can be cre- ated vertically resting on a flat surface, SO that it can be tipped over, to fall on and crush any creature beneath it. The wall is 50% likely to tip in either direction. This chance can be modified by a force of not less than 30 Strength and 400 pounds mass- each pound over 400 or"
+    },
+    "quality_flags": []
+  }
+}

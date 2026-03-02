@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "wizard_snells",
+  "name": "Wizard Snells",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Wizard Snells (6th Level) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "sixth",
+    "book_pages": [
+      177
+    ],
+    "pdf_pages": [
+      178
+    ],
+    "raw_block": "Wizard Snells (6th Level)"
+  },
+  "mechanics": {
+    "school_or_type": "6th Level",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Wizard Snells",
+      "canonical_name_guess": null,
+      "school_or_type": "6th Level",
+      "range": null,
+      "components": null,
+      "duration": null,
+      "casting_time": null,
+      "area_of_effect": null,
+      "saving_throw": null,
+      "description_excerpt": ""
+    },
+    "quality_flags": [
+      "missing_standard_fields"
+    ]
+  }
+}

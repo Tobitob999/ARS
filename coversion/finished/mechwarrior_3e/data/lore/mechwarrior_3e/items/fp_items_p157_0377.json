@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "EQUIPMENT MISCELLANEOUS EQUIPMENT Equlpment Ratings Cost Welght Notes",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 157,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:55Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p157_0377",
+    "entity_type": "items",
+    "name_guess": "EQUIPMENT MISCELLANEOUS EQUIPMENT Equlpment Ratings Cost Welght Notes",
+    "breadcrumb_path": "Rules Compendium > Page 157 > items > EQUIPMENT MISCELLANEOUS EQUIPMENT Equlpment Ratings Cost Welght Notes",
+    "page_refs": [
+      157
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [
+      "175 kg",
+      "200 kg",
+      "310 kg",
+      "6,5 Kg"
+    ],
+    "range_mentions": [
+      "10 km",
+      "2,500 km",
+      "200 M",
+      "25 km",
+      "385 km",
+      "430 km",
+      "50 km",
+      "600 km",
+      "850 km",
+      "900 km"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [
+      "TN"
+    ],
+    "excerpt": "EQUIPMENT MISCELLANEOUS EQUIPMENT Equlpment Ratings Cost Welght Notes Item Communlcatlons Civlian Communicator Civlllan Microcommunicator Field Communicator Long-Range Communications Kit Military Communicator Military Microcommunicator Standard Vid Phone Tools Basic Tool Kit Deluxe Tool Kit Hand-Held Laser Torch Noteputer Persona Computer Scanalyzer Repalr Klts Aerospace Repair Kit Cutting / Joining Kit Demolition Kit Electronics Repalr Kit Energy Weapon Clean /Repair Kit Myomer Actuator Repair Kit Slug-thrower Clean/Repair Kit Vehicle Repair Kit WEapon Repair Kit Optlcs Night Vision Goegles Rangefinder Binoculars Miscellaneous Basic Lock Pick Set Disguise/Make-up Kit Electronic Security Bypass Kit Emergency Flares Forgery Kit Parachute Verigraph Vibro Lock Pick Set C/n/a D/A/A D/A/B D/C/8 DZA/B D/B/B D/A/A 100 g Pvr use 2/hr; range: 10 km (LOS} Pwr UsC: 2/nr; range: km (LOS) Pwr use; 1/hr; range: 25 km Pwr usC: 5/hr; range; 50 km ground/2,500 km t0 satellite Pwr use: 1/hr; range: 10 km Pwr use: 1/hr; rarge: 175 200 400 100 200 400 & C/a/A 250 750 Encumbering Encumbering Pwt use: Vlrn Pvr use; ,1/hr Pwr use: 1/hr Pvr use; 1/tur D/ATA 950 500 500 D/C/B OOO D/B/A C/AA C/B/D 500 310 kg 250 175 kg LOOO 850 OOO 260 OOO 500 225 200 kg D/NTA D/B/A D/B/A 600 500 No night TN mods see 112 200 B/A/C C/B/A D/B/D B/A/A DZC/E C/A/A D/A/a D/D/D 100 0OO 200 365 6,5 Kg 290 600 Pwr use: 225 Encumbering 360 000 520 Pwr use; PERSONAL VeHICLES Vehicle Equipment Ratings Cost Refueling Cost Range Electric Bike C/A/B 675 385 km Jump Pack D/A/C 3.100 200 Motor Bike B/A/B 745 385 km Skimmer D/B/B 2,200 430 km Compact Electric Ground Car C/A/B 385 850 km Hovercan 700 600 km Truck C/A/C 500 900 km Heavy Cargo Hauler C/A/C 23.200 500 Speed (KPH) 80/135 Notes Encumbering 80/135 115/190* 110/180\" 160/240* 110/170* 70/160* Loaded 115 kpn flank Loaded 100 kph flank This renresents the Cruise and Flank speeds respectively: kilometers per hour: See the rules for Jump Pack (p."
+  }
+}

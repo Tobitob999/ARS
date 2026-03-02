@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "alarm",
+  "name": "Alarm",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Alarm (Abjuration, Evocation) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": null,
+    "spell_list": null,
+    "level_band": null,
+    "book_pages": [
+      131
+    ],
+    "pdf_pages": [
+      132
+    ],
+    "raw_block": "Alarm (Abjuration, Evocation)\nRange: 10 yards\nComponents: V, S, M\nDuration: 4 hours + V2 hour/level\nCasting Time: 1 round\nArea of Effect: Up to a 2Gfoot cube\nSaving Throw: None\nWhen an alarm spell is cast, the wizard\ncauses a selected area to react to the pres-\nence of any creature larger than a normal\nrat-anything larger than about one-half\ncubic foot in volume or more than about\nthree pounds in weight. The area of effect\ncan be a portal, a section of floor, stairs, etc.\nAs soon as any creature enters the warded\narea, touches it, or otherwise contacts it\nwithout speaking a password established by\nthe caster, the ah spell lets out a loud\nringing that can be heard clearly within a\nafoot radius. (Reduce the radius by 10 feet\nfor each interposing door and by 20 feet for\neach substantial interposing wall.) The\nsound lasts for one round and then ceases.\nEthereal or astrally projected creatures do\nnot trigger an alarm, but flying or levitating\ncreatures, invisible creatures, or incorpor-\neal or gaseous creatures do. The caster can\ndismiss the alarm with a single word.\nThe material components of this spell are\na tiny bell and a piece of very fine silver\n- endix 3: Wizard Spells"
+  },
+  "mechanics": {
+    "school_or_type": "Abjuration, Evocation",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Alarm",
+      "canonical_name_guess": null,
+      "school_or_type": "Abjuration, Evocation",
+      "range": "10 yards",
+      "components": "V, S, M",
+      "duration": "4 hours + V2 hour/level",
+      "casting_time": "1 round",
+      "area_of_effect": "Up to a 2Gfoot cube",
+      "saving_throw": "None",
+      "description_excerpt": "When an alarm spell is cast, the wizard causes a selected area to react to the pres- ence of any creature larger than a normal rat-anything larger than about one-half cubic foot in volume or more than about three pounds in weight. The area of effect can be a portal, a section of floor, stairs, etc. As soon as any creature enters the warded area, touches it, or otherwise contacts it without speaking a password established by the caster, the ah spell lets out a loud ringing that can be heard clearly within a afoot radius. (Reduce the radius by 10 feet for each interposing door and by 20 feet for each substantial interposing wall.) The sound lasts for one round and then ceases. Ethereal or astrally projected creatures do not trigger an alarm, but flying or levitating creatures, invisible creatures, or incorpor- eal or gaseous creatures do. The caster can dismiss the alarm with a single word"
+    },
+    "quality_flags": []
+  }
+}

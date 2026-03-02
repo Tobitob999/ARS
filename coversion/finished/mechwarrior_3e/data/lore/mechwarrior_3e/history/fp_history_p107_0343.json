@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Successful Streetwise Checks may enable characters correctly interpret",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 107,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:28Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p107_0343",
+    "entity_type": "history",
+    "name_guess": "Successful Streetwise Checks may enable characters correctly interpret",
+    "breadcrumb_path": "Rules Compendium > Page 107 > history > Successful Streetwise Checks may enable characters correctly interpret",
+    "page_refs": [
+      107
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Successful Streetwise Checks may enable characters correctly interpret veiled messages or other hidden comments in the speech of criminal and underworld figures, identify crimi- nal hierarchies and deal effectively with street-level contacts such as panhandlers arug dealers and prostitutes Streetwise is regional skill, and as such character must choose particular area subskill for his knowledge such as Streetwise /Draconis Combine_ SHOTGUNS This weapon skill used to make attacks with all shotguns and shotgun-like weapons including needler rifles."
+  }
+}

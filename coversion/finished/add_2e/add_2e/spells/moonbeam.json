@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "moonbeam",
+  "name": "Moonbeam",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Moonbeam (Evocation, Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "fourth",
+    "book_pages": [
+      223
+    ],
+    "pdf_pages": [
+      224
+    ],
+    "raw_block": "Moonbeam (Evocation, Alteration)\nSphere: Sun\nRange: 60 yards + 10 yards/level\nComponents: V, S, M\nDuration: 1 round/level\nCasting Time: 7\nSaving Throw: None\nArea of Effect: 5-foot-radius sphere\n(plus special)\nSaving Throw: None\nBy means of this spell, the caster is able to\ncause a beam of soft, pale light to strike\ndownward from overhead and illuminate\nwhatever area he is pointing at. The light is\nexactly the same as moonlight, so that col-\nors other than shades of black, gray, or\nwhite are vague. The spellcaster can easily\nmake the moonbeam move to any area that\nhe can see and point to. This makes the spell\nan effective way to spotlight something, an\nopponent, for example. While the moon-\nbeam spell does not eliminate all shadows, a\ncreature centered in a moonbeam is most\ncertainly visible. The reflected light from\nthis spell enables dim visual perception 10\nyards beyond the area of effect, but it does\nnot shed a telltale glow that would negate\nsurprise. The light does not adversely affect\ninfravision. The caster can dim the beam to\nnear darkness if desired. The beam has, in\naddition, all the properties of true moon-\nlight and can induce a lywthropic change\n(while in the beam), unless your DM rules\notherwise.\nThe material components are several\nseeds of any moonseed plant and a piece of\nopalescent feldspar (moonstone)."
+  },
+  "mechanics": {
+    "school_or_type": "Evocation, Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Moonbeam",
+      "canonical_name_guess": null,
+      "school_or_type": "Evocation, Alteration",
+      "range": "60 yards + 10 yards/level",
+      "components": "V, S, M",
+      "duration": "1 round/level",
+      "casting_time": "7",
+      "area_of_effect": "5-foot-radius sphere",
+      "saving_throw": "None",
+      "description_excerpt": "By means of this spell, the caster is able to cause a beam of soft, pale light to strike downward from overhead and illuminate whatever area he is pointing at. The light is exactly the same as moonlight, so that col- ors other than shades of black, gray, or white are vague. The spellcaster can easily make the moonbeam move to any area that he can see and point to. This makes the spell an effective way to spotlight something, an opponent, for example. While the moon- beam spell does not eliminate all shadows, a creature centered in a moonbeam is most certainly visible. The reflected light from this spell enables dim visual perception 10 yards beyond the area of effect, but it does not shed a telltale glow that would negate surprise. The light does not adversely affect infravision. The caster can dim the beam to near darkness if desired. The beam has, in addition, all the properties of tru"
+    },
+    "quality_flags": []
+  }
+}

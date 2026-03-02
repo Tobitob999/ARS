@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "COMBAT SCATTER DIAGRAM INTENDED POINT OF IMPACT DiRECTION",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 121,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:32Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p121_0566",
+    "entity_type": "npcs",
+    "name_guess": "COMBAT SCATTER DIAGRAM INTENDED POINT OF IMPACT DiRECTION",
+    "breadcrumb_path": "Rules Compendium > Page 121 > npcs > COMBAT SCATTER DIAGRAM INTENDED POINT OF IMPACT DiRECTION",
+    "page_refs": [
+      121
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "AP",
+      "damage",
+      "wound"
+    ],
+    "excerpt": "COMBAT SCATTER DIAGRAM INTENDED POINT OF IMPACT DiRECTION OF SCATTER No Grid Hex Grid Square Grid D1O an unconscious character Or one who is restrained such that he cannot move at all: meter high. Resolve the attack by rolling number of damage dice equal t0 the meters fallen with an AP of 0 and melee dam age type (M} If the falling character has Acrobatics or Free Fall Skill; successful Skill Check lowers the effect of the fall by one wound level (from Minor to Grazing; for example)."
+  }
+}

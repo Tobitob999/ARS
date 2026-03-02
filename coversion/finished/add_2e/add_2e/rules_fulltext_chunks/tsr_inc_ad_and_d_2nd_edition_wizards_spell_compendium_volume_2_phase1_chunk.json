@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_1_mapping",
+    "tsr_inc_ad_and_d_2nd_edition_wizards_spell_compendium_volume_2"
+  ],
+  "summary": "Abgeleiteter Phase-1-Chunk aus Kapitelmarkern fuer TSR Inc - AD&D 2nd Edition - Wizards Spell Compendium Volume 2.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - Wizards Spell Compendium Volume 2",
+    "source_file": "TSR Inc - AD&D 2nd Edition - Wizards Spell Compendium Volume 2.pdf",
+    "chapter_map_file": "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_wizards_spell_compendium_volume_2_chapter_map.json",
+    "text": "Appendix 3: Magical Item Descriptioits. under (first_seen_pdf_page=245)"
+  },
+  "mechanics": {
+    "topic": "phase_1_skeleton_mapping",
+    "keywords": [
+      "add_2e",
+      "book_conversion",
+      "magic",
+      "tsr_inc_ad_and_d_2nd_edition_wizards_spell_compendium_volume_2"
+    ],
+    "injection_priority": "core",
+    "mapped_skeleton_fields": [
+      "magic"
+    ],
+    "raw_text": "Appendix 3: Magical Item Descriptioits. under (first_seen_pdf_page=245)",
+    "derived_from": [
+      "detected_chapters",
+      "detected_appendices"
+    ]
+  }
+}

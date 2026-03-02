@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Other situations that cause Fatigue are stated in",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 116,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:30Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p116_0155",
+    "entity_type": "items",
+    "name_guess": "Other situations that cause Fatigue are stated in",
+    "breadcrumb_path": "Rules Compendium > Page 116 > items > Other situations that cause Fatigue are stated in",
+    "page_refs": [
+      116
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "Armor",
+      "armor"
+    ],
+    "excerpt": "Other situations that cause Fatigue are stated in the particular rules relating to them; Armor Value Armor is numerically rated with an armor value (AV) from to 10. The numbers correspond t0 the overall size ad strength of the armor; representing the ability 0f the armor t0 disperse tne force of an attack and reduce its effect against the wearer."
+  }
+}

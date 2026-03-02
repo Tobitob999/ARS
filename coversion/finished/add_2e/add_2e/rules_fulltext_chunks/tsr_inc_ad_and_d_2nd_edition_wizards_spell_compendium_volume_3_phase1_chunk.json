@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_1_mapping",
+    "tsr_inc_ad_and_d_2nd_edition_wizards_spell_compendium_volume_3"
+  ],
+  "summary": "Abgeleiteter Phase-1-Chunk aus Kapitelmarkern fuer TSR Inc - AD&D 2nd Edition - Wizards Spell Compendium Volume 3.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - Wizards Spell Compendium Volume 3",
+    "source_file": "TSR Inc - AD&D 2nd Edition - Wizards Spell Compendium Volume 3.pdf",
+    "chapter_map_file": "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_wizards_spell_compendium_volume_3_chapter_map.json",
+    "text": "Chapter 7: Magic and under \"Adjudi- (first_seen_pdf_page=85)\nChapter 7: Magic and under \"Adjudicating Illusions\" at the (first_seen_pdf_page=85)\nChapter 9: Combat). (first_seen_pdf_page=251)"
+  },
+  "mechanics": {
+    "topic": "phase_1_skeleton_mapping",
+    "keywords": [
+      "add_2e",
+      "book_conversion",
+      "combat",
+      "magic",
+      "tsr_inc_ad_and_d_2nd_edition_wizards_spell_compendium_volume_3"
+    ],
+    "injection_priority": "permanent",
+    "mapped_skeleton_fields": [
+      "combat",
+      "magic"
+    ],
+    "raw_text": "Chapter 7: Magic and under \"Adjudi- (first_seen_pdf_page=85)\nChapter 7: Magic and under \"Adjudicating Illusions\" at the (first_seen_pdf_page=85)\nChapter 9: Combat). (first_seen_pdf_page=251)",
+    "derived_from": [
+      "detected_chapters",
+      "detected_appendices"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Mandatory subpaths such as military Advanced Individual Training",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 23,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:42Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p023_0060",
+    "entity_type": "npcs",
+    "name_guess": "Mandatory subpaths such as military Advanced Individual Training",
+    "breadcrumb_path": "Rules Compendium > Page 023 > npcs > Mandatory subpaths such as military Advanced Individual Training",
+    "page_refs": [
+      23
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Mandatory subpaths such as military Advanced Individual Training (AIT) and University Majors are not considered separate paths purposes ofthis rule_ However; elective subpaths such as military Special Training and University Schools are con- sidered separate. path'$ status is unclear; the gamemaster decides whether specific subpath counts mandatory elective based on the path and character in question; character can exceed the given limit with the gamemas ter'$ permission, but the gamemaster should keep in mind that longer career will result in more skilled (though older) char acter."
+  }
+}

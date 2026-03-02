@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "factions_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "factions",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Bame material Bovernment; 170 legal system, 173 Lyran",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 214,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:28Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_factions_p214_0459",
+    "entity_type": "factions",
+    "name_guess": "Bame material Bovernment; 170 legal system, 173 Lyran",
+    "breadcrumb_path": "Rules Compendium > Page 214 > factions > Bame material Bovernment; 170 legal system, 173 Lyran",
+    "page_refs": [
+      214
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "167 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Bame material Bovernment; 170 legal system, 173 Lyran Alliance and; marelp 167 media 183 profile religion in, 184, 185 Star League and; work in, 177 DropShip; 152, 187-88, 196-97 DropShip Pilot Field, 54 Duke / cuchess 171 Emergency rations. Encumbrance 133 Enemy; 34_ 48, 82 Energy weapons 136 Engineer Field, 53."
+  }
+}

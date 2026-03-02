@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "factions_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "factions",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "outraged that Kerensky's descendants had detiled tneir spiritual",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 186,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:12Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_factions_p186_0354",
+    "entity_type": "factions",
+    "name_guess": "outraged that Kerensky's descendants had detiled tneir spiritual",
+    "breadcrumb_path": "Rules Compendium > Page 186 > factions > outraged that Kerensky's descendants had detiled tneir spiritual",
+    "page_refs": [
+      186
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "outraged that Kerensky's descendants had detiled tneir spiritual dream , joined the Lyran military to fight the Clans_ The remaining believers incorporated the Clans into their dogma and now welcome the chance bring them into the fold_ The Word of Blake radical splinter @roup ComStar; tne Word of Blake holds fast to ComStar\" historical tradition of mysticism. As tne Holy Order of ComStar did before its recent retorm_ the Word of Blake sees technology as sacred and regards the keeping of technological secrets spiritual obligation."
+  }
+}

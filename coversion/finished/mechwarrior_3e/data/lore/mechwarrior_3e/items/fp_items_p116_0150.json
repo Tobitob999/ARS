@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "The AV is point higher than the (ne",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 116,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:30Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p116_0150",
+    "entity_type": "items",
+    "name_guess": "The AV is point higher than the (ne",
+    "breadcrumb_path": "Rules Compendium > Page 116 > items > The AV is point higher than the (ne",
+    "page_refs": [
+      116
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "Wound",
+      "armor",
+      "wound"
+    ],
+    "excerpt": "The AV is point higher than the (ne wound levei reduced by One level, making the result Of the attack Serious Wound and Doint of Fatigue_ After the attack; all the flak vest $ AVs are reduced by 1, since the attack caused wound: the target had been wearing heavier armor; the attack would have been even ess effective: Had the AV been the attack would not have caused wound but still would have inflicted point of Fatigue."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "lore_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "lore",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "many people teel more than evem the need",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 185,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:12Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_lore_p185_0364",
+    "entity_type": "lore",
+    "name_guess": "many people teel more than evem the need",
+    "breadcrumb_path": "Rules Compendium > Page 185 > lore > many people teel more than evem the need",
+    "page_refs": [
+      185
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "many people teel more than evem the need for spiritual Buidance and support: Four major interstellar wars and several smaller-scale \"isolated actions have taken their toll on religious belief, though not to the extent many had predicted While some people have become disenchanted with religion, more have turned precepts Of one Or several religions and philosophies to nelp Hinduism collection beliefs and practices more than single defined religion, Hinduism nas survived and tlourished over the millennia because something for everyone appeal."
+  }
+}

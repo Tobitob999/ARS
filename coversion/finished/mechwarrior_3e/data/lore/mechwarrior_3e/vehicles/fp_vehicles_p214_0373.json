@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "category": "vehicles_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "vehicles",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "176-79 Damage amount of, 114 annor 115-16 dice",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 214,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:28Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_vehicles_p214_0373",
+    "entity_type": "vehicles",
+    "name_guess": "176-79 Damage amount of, 114 annor 115-16 dice",
+    "breadcrumb_path": "Rules Compendium > Page 214 > vehicles > 176-79 Damage amount of, 114 annor 115-16 dice",
+    "page_refs": [
+      214
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "132 M",
+      "27 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [
+      "Damage",
+      "wound"
+    ],
+    "excerpt": "176-79 Damage amount of, 114 annor 115-16 dice , 114 effect of, 114-15 equipment: 132 MechWarrior; 126-27 mnclce comnat 114 Aucu 117 wounds 116-17 Dark caste, 189 Davion. Hanse, 27 . 160 161, 163 Deadly wound 117, 125-26 Death."
+  }
+}

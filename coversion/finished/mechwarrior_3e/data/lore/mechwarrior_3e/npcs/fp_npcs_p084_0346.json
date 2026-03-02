@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "INTROVERT Value: character with this trait is not",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 84,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:07Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p084_0346",
+    "entity_type": "npcs",
+    "name_guess": "INTROVERT Value: character with this trait is not",
+    "breadcrumb_path": "Rules Compendium > Page 084 > npcs > INTROVERT Value: character with this trait is not",
+    "page_refs": [
+      84
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "INTROVERT Value: character with this trait is not very outgoing and has lim- ited insight into the feelings of others_ Naturally; this IS hin drance in interpersonal dealings such that any target numbers where (he gamemaster feels this trait would interfere are increased by LOST LIMB (multiple troit) Value: 1/3/5 Either through birth defect Or injury; this character has ost all or part 0i one Of his limbs_ The value of this trait is based on the limb lost. Loss of one Or more fingers is 1-point trait; loss single hand or foot is 3 point trait: loss of single arm or leg is 5-point trait."
+  }
+}

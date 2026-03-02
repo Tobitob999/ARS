@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "RUNNING THE GAME their Clan; Of course once",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 206,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:23Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p206_0767",
+    "entity_type": "history",
+    "name_guess": "RUNNING THE GAME their Clan; Of course once",
+    "breadcrumb_path": "Rules Compendium > Page 206 > history > RUNNING THE GAME their Clan; Of course once",
+    "page_refs": [
+      206
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "RUNNING THE GAME their Clan; Of course once the characters arrive back in Clan space there are many ssues t0 deal with most notably the potential loss honor for being captured in the first place _ The characters may then have t0 work twice as hard t0 regain their positions Regular Military Every affiliation operates standing military; and the char- acters are part 0f it strict chain 0i command provides less freedom than some types of campaigns, but as member of Varge ana Organized army supply and repair are less of prob- Tem Characters can worry less about paying the bills and con- centrate on accomplishing the mission at hand This setup ideal for NOvice gamemasters and ones with limited time since the NPC commanders hand on spe- cific Orders (your adventures which the player characters are obliged to follow: Since the mission can stray little from the patn you sel."
+  }
+}

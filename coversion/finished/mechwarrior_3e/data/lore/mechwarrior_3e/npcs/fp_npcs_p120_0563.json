@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "there chance for increased damage due to Mos",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 120,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:31Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p120_0563",
+    "entity_type": "npcs",
+    "name_guess": "there chance for increased damage due to Mos",
+    "breadcrumb_path": "Rules Compendium > Page 120 > npcs > there chance for increased damage due to Mos",
+    "page_refs": [
+      120
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "Mos",
+      "TN",
+      "damage"
+    ],
+    "excerpt": "there chance for increased damage due to Mos burning character also very distracted by the pain and smoke created Dy tne fire _ suffering target number modifiers for Bad Visibility and Bad Conditions_ total TN Modifier 0f +5_ Of course burning character may want tO put himself out. This Complex Action and automatically successful: However; the character ends the action in prone position and suffers Fatigue from the vigorous effort: character within meter of the burning character may extinguish the fire ne has fire extinguisher or other appropriate equipment."
+  }
+}

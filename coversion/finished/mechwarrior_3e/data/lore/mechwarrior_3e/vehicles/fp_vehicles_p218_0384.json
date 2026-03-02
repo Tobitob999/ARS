@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "category": "vehicles_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "vehicles",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Max_ Strength Body Dexterity Reflexes Intelligence Willpower Charisma",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 218,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:31Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_vehicles_p218_0384",
+    "entity_type": "vehicles",
+    "name_guess": "Max_ Strength Body Dexterity Reflexes Intelligence Willpower Charisma",
+    "breadcrumb_path": "Rules Compendium > Page 218 > vehicles > Max_ Strength Body Dexterity Reflexes Intelligence Willpower Charisma",
+    "page_refs": [
+      218
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "AP",
+      "Armor",
+      "TN",
+      "Wound"
+    ],
+    "excerpt": "Max_ Strength Body Dexterity Reflexes Intelligence Willpower Charisma combAT INFORMATION RIT LocaTION DLAGRAM Edge Fill in Armor Type (A, C DI Armor Wounds per Location Social Standing Type A: AV (MB/EIX) Type AV (MBEIX) SKILLS Type AV (MIB/E/X) Type D: AV (MB/EX) Name Bonus Faligue Fatique +1 WNpar Fatlque> Unconsc Ious 5 Fatlpue > Wounds Grazing Wounds (WV 1); Minor Wounds (WV 21\" Serious Wounds (WV 41: Critical Wounds (Wv 81' Deadly Wounds (WV 161: Total Wound Value of all Wounds: total Wound Value BOD+WIL , Dying TN ea +2 TN ea TN ea Knockout Ft Locarion roIl 0\" 2 Crtica| Hut AV-| Weapons AP-Dmg Type Range Shots Notes MISCELLANEOUS EQUIPMENT AND INFORMATION Movement (W/RIS): Experience Points: Perrission given to photocopy: MECHWAARIORO is Registered Trademark of FASA Corporation @ 1999 FASA Corporation"
+  }
+}

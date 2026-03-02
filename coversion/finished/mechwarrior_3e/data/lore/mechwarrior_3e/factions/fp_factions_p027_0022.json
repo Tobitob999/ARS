@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "factions_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "factions",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Historically, the neighboring Federated Suns and Lyran Alliance",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 27,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:44Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_factions_p027_0022",
+    "entity_type": "factions",
+    "name_guess": "Historically, the neighboring Federated Suns and Lyran Alliance",
+    "breadcrumb_path": "Rules Compendium > Page 027 > factions > Historically, the neighboring Federated Suns and Lyran Alliance",
+    "page_refs": [
+      27
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Historically, the neighboring Federated Suns and Lyran Alliance have been the Combine\" principal foes The Combine has had infrequent contact with the Free Worlds League and Capellan Confederation , and it tends to regard both with con tempt, if somewhat lesser enmity: The past several decades have exposed distinct demarca tion lines in the Combine concerning the status quo of seven centuries, Led by (he current Coordinator, Theodore Kurita_ numerous reforms have relaxed the rigid social structure while fostering alliances with other Great Houses The underworld yakuza also have greater leeway for their activities and Many of these changes stem from the Coordinator\" efforostto rid his realm of the Clans ad retake the worlds they conquered, However; some Combine nobles oppose these changes and seek to return t0 traditional ways _ They have formed secret society known as the Black Dragons and will stop at nothing to reverse the Combine course USING AFFILIATIONS Every player must choose an affiliation for each character at the start of character creation The gamemaster may want to restrict access to certain affiliations based on the direction his campaign will take For example; Clan characters may notfit into certain Inner Sphere-based campaigns Each affiliation description begins with brief background sketch to give you sense of its history and culture (see also the color pages for each affiliation)."
+  }
+}

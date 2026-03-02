@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "factions_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "factions",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "WHISTLESTOP TOUR military hardware_ Less than twenty years",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 169,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:01Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_factions_p169_0263",
+    "entity_type": "factions",
+    "name_guess": "WHISTLESTOP TOUR military hardware_ Less than twenty years",
+    "breadcrumb_path": "Rules Compendium > Page 169 > factions > WHISTLESTOP TOUR military hardware_ Less than twenty years",
+    "page_refs": [
+      169
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "WHISTLESTOP TOUR military hardware_ Less than twenty years later; the Clan jug gernaut swallowed up all but seven Rasalhague worlds Only the intervention of ComStar and the Battle of Tukayyid prevented nation from disappearing entirely Rasalhague remains essentially ComStar protectorate; Ithe order relocated its headquarters there after the Word of Blake conquered Terra ComStar\" pervasive presence has drawn opposition from Rasalhague'$ ner leader: Elected Prince Regent Christian Mansdotter: staunch advocate of Rasalhagian nationalism; Mansdotter has begun make trouble what terms ComStar'$ occupying force."
+  }
+}

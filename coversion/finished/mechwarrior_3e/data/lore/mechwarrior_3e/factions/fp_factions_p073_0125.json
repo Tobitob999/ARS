@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "factions_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "factions",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Ives Lancers on Indicass in early 3061, earning",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 73,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:03Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_factions_p073_0125",
+    "entity_type": "factions",
+    "name_guess": "Ives Lancers on Indicass in early 3061, earning",
+    "breadcrumb_path": "Rules Compendium > Page 073 > factions > Ives Lancers on Indicass in early 3061, earning",
+    "page_refs": [
+      73
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [
+      "3061"
+    ],
+    "stat_tokens": [],
+    "excerpt": "Ives Lancers on Indicass in early 3061, earning you field commission. Your elite status gives you remark- able degree of personal flexibility; yoU can take any job that does not directly oppose the Confederation_ and YoU always welcome challenge_ Affiliation: Capellan Confederation (p_ 281; Stage 1: Early Childhood (Blue Color) Event Roll (p. 331."
+  }
+}

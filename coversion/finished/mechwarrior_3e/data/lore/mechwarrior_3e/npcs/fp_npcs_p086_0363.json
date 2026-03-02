@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "1-point Quirk is serious _ but the character",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 86,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:09Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p086_0363",
+    "entity_type": "npcs",
+    "name_guess": "1-point Quirk is serious _ but the character",
+    "breadcrumb_path": "Rules Compendium > Page 086 > npcs > 1-point Quirk is serious _ but the character",
+    "page_refs": [
+      86
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "1-point Quirk is serious _ but the character can force himself to set aside with successful WIL Check at cost of Fatigue If the Quirk is less severe than this Ie . no WIL Check would be required to bypass it), i5 t0o minor t0 be worth Character Points. POOR HEARING Value: 1-5 The character has bad hearing and cannot make oul sounds as well as most people_ Each point of Poor Hearing adds Modifier t0 all hearing-based target numbers Poor Hearing rated at points represents total deafness, making all hearing based Action Checks impossible."
+  }
+}

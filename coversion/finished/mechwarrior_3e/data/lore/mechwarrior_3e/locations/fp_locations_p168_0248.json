@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "locations_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "locations",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "The Chancellor'5 summer palace lies at the southern",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 168,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:01Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_locations_p168_0248",
+    "entity_type": "locations",
+    "name_guess": "The Chancellor'5 summer palace lies at the southern",
+    "breadcrumb_path": "Rules Compendium > Page 168 > locations > The Chancellor'5 summer palace lies at the southern",
+    "page_refs": [
+      168
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "Armor"
+    ],
+    "excerpt": "The Chancellor'5 summer palace lies at the southern end of the Wunan continent and nas been closely guarded ever since Federated Suns forces raided the world 3029_ Al Na'Ir The Al Na'ir system has not yet developed habitable plan: but its mineral-rich asteroid fields have encouraged the Combine to establish asteroid colonies and construct space stations Luthien Armor Works operates an orbital BattleMech factory the system; detended by numerous Wcadons plat- forms."
+  }
+}

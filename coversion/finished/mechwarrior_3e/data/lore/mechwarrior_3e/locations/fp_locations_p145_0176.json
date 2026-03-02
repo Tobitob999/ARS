@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "category": "locations_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "locations",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Additionally; character using stimpatch will apply 2 TN",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 145,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:41Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_locations_p145_0176",
+    "entity_type": "locations",
+    "name_guess": "Additionally; character using stimpatch will apply 2 TN",
+    "breadcrumb_path": "Rules Compendium > Page 145 > locations > Additionally; character using stimpatch will apply 2 TN",
+    "page_refs": [
+      145
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "10 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [
+      "TN"
+    ],
+    "excerpt": "Additionally; character using stimpatch will apply 2 TN Modifier t0 any Knockout Checks Characters can gain the benefits from only one stimpatch at time The effects of stimpatch will wear off after 10 minutes_ An unconscious character can be awakened with stim- patch which requires only Simple Action_ However; the shock to the system means the character receives none of the other usual benefits of the patch: ARTIFICIAL LImBS preindustrial times simple hooks pegs served replacement limbs: Now; prosthetic limbs perform all the func tions of the original limbs Despite advances modern medical technology; artificia limbs cannot be made stronger than the original limb."
+  }
+}

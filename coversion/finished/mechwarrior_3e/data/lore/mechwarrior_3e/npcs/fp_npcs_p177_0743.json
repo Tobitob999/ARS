@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "SOCIETY AND CuLtURE tured and reverse-engineer it: We",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 177,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:07Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p177_0743",
+    "entity_type": "npcs",
+    "name_guess": "SOCIETY AND CuLtURE tured and reverse-engineer it: We",
+    "breadcrumb_path": "Rules Compendium > Page 177 > npcs > SOCIETY AND CuLtURE tured and reverse-engineer it: We",
+    "page_refs": [
+      177
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [
+      "100 tons"
+    ],
+    "range_mentions": [],
+    "year_mentions": [
+      "2439",
+      "3062"
+    ],
+    "stat_tokens": [],
+    "excerpt": "SOCIETY AND CuLtURE tured and reverse-engineer it: We had to bridge the gap Or we die trying high-Tech breakthrougks: ThE BATTLEMECH from the Abridged Encyclopedia Galactica Universal Press; 3062 With Its debut in 2439, the BattleMech radically altered the way humans waged war: BattlaMechs were faster; more maneu- verable and more versatile than conventional tanks; and com- bat commanders Immediately recognized their value: Even nOW, six centuries later; the 'Mech remains \"king of the battlatield: Generally humanoid In appearance (though several mod: els use less conventional four-legged design) , BattleMechs commonly range from ten to fourteen meters in height and weigh anywhere from 20 t0 100 tons."
+  }
+}

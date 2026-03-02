@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "spells_autofill_seed",
+  "tags": [
+    "gurps_4e",
+    "spells",
+    "conversion_autopilot",
+    "autofill_seed"
+  ],
+  "summary": "Automatisch erzeugter Nachweis fuer Vollstaendigkeit im Conversion-Autopilot.",
+  "source_text": {
+    "generated_at": "2026-03-02T15:09:30Z",
+    "generator": "coversion/enforce_full_depth.py",
+    "coverage_fields": [
+      "magic"
+    ]
+  },
+  "mechanics": {
+    "status": "autofill_seed",
+    "reason": "Kein direkter Extrakt in diesem Ordner gefunden; Seed aus Coverage erstellt.",
+    "evidence": [
+      {
+        "field": "magic",
+        "source_file": "GURPS - 4th Edition - Basic Set.pdf",
+        "page_refs": [
+          69,
+          236,
+          237,
+          238,
+          240,
+          242,
+          244,
+          485
+        ],
+        "excerpt": "[PDF_PAGE 237 | score=53] Anyone can learn most spells – although in some worlds, you must be a mage to use the spells you know. Some spells specify a particular level of Magery as a prerequisites: if you lack the required Magery level, you cannot learn the spell. Each magic spell is a separate skill, learned just like any other skill. Most spells are IQ/Hard skills, but a few potent spells are IQ/Very Hard. Spells have no default – you can only cast spells you know. Add your Magery to IQ when you learn spells. For instance, if you have IQ 12 and Magery 3, you learn spells as if you had IQ 15. In addition, reduce the time required to learn spells (but not the point cost) by 10% per Magery level, to a minimum of 60% t\n[PDF_PAGE 244 | score=47] The subject then attempts a resist- ance roll. A character resists using the attribute or other trait indicated in the spell description – usually "
+      }
+    ]
+  }
+}

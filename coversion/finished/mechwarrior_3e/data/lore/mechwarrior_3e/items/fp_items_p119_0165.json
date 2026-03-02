@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "This means the attacker can choose to fire",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 119,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:31Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p119_0165",
+    "entity_type": "items",
+    "name_guess": "This means the attacker can choose to fire",
+    "breadcrumb_path": "Rules Compendium > Page 119 > items > This means the attacker can choose to fire",
+    "page_refs": [
+      119
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "AP"
+    ],
+    "excerpt": "This means the attacker can choose to fire Up to 10 rounds in single burst, ad its recoil rating BLAST Some weapons_ most notably explosives_ affect all the tar gets in a area around the point of impact: Such weapons are designated blast weapons in MW3. Weapons with blast radius use their full AP ad darage against targets within meter of the point of impact."
+  }
+}

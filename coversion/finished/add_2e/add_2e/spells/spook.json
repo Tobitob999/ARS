@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "spook",
+  "name": "Spook",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Spook (IllusiodPhantasm) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": null,
+    "book_pages": [
+      138
+    ],
+    "pdf_pages": [
+      139
+    ],
+    "raw_block": "Spook (IllusiodPhantasm)\nRange: 0\nComponents: V, S\nDuration: Special\nCasting Time: 1\nArea of Effect: 1 creature within 30 feet\nSaving Throw: Neg.\nA spook spell enables the wizard to play\nupon natural fears to cause the target crea-\nture to perceive the spellcaster as someone\nor something inimical. Without actually\nknowing what this is, the wizard merely\nadvances threateningly upon the creature. If\na successful saving throw vs. spell is not\nmade, the creature turns and flees at maxi-\nmum speed as far from the wizard as possi-\nble, though items carried are not dropped.\nThe creature has a saving throw penalty of\n-1 for every two experience levels of the\nthe caster, to a maximum of -6 at 12th\nlevel. Note that a natural (unmodified) roll\nof 20 automatically succeeds, regardless of\nsaving throw penalties. Although the caster\ndoes not actually pursue the fleeing crea-\nture, a phantasm from its own mind does.\nEach round after the initial casting, the crea-\nture receives another saving throw, without\npenalty, until it successfully saves and the\nspell is broken. In any event, the spell func-\ntions only against creatures with Intelli-\ngences of 2 or more, and undead are not\naffected at all."
+  },
+  "mechanics": {
+    "school_or_type": "IllusiodPhantasm",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Spook",
+      "canonical_name_guess": null,
+      "school_or_type": "IllusiodPhantasm",
+      "range": "0",
+      "components": "V, S",
+      "duration": "Special",
+      "casting_time": "1",
+      "area_of_effect": "1 creature within 30 feet",
+      "saving_throw": "Neg.",
+      "description_excerpt": "A spook spell enables the wizard to play upon natural fears to cause the target crea- ture to perceive the spellcaster as someone or something inimical. Without actually knowing what this is, the wizard merely advances threateningly upon the creature. If a successful saving throw vs. spell is not made, the creature turns and flees at maxi- mum speed as far from the wizard as possi- ble, though items carried are not dropped. The creature has a saving throw penalty of -1 for every two experience levels of the the caster, to a maximum of -6 at 12th level. Note that a natural (unmodified) roll of 20 automatically succeeds, regardless of saving throw penalties. Although the caster does not actually pursue the fleeing crea- ture, a phantasm from its own mind does. Each round after the initial casting, the crea- ture receives another saving throw, without penalty, until it successfully saves an"
+    },
+    "quality_flags": []
+  }
+}

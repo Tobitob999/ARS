@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "211 Navigatian, 37 _ 39, 103 Neck jab",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 216,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:30Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p216_0867",
+    "entity_type": "npcs",
+    "name_guess": "211 Navigatian, 37 _ 39, 103 Neck jab",
+    "breadcrumb_path": "Rules Compendium > Page 216 > npcs > 211 Navigatian, 37 _ 39, 103 Neck jab",
+    "page_refs": [
+      216
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "211 Navigatian, 37 _ 39, 103 Neck jab maneuver; 103 Needlers 136 Ne erdo well, 48 49 Negotiation. 36, 38 103 New Avalon 166 New Avalon Institute of Science (NAISI . 27 28, 42-43 advanced studies, 42 College of Military Sclences_ major, 42 Night Blinaness Night Vision Night vision devices; 149 Night vision scopes, 139 Nobility: 22, 34-35, 171-72 Non-player characters 205 8 Kotepulel 148 Nova Cat Cian_ 163."
+  }
+}

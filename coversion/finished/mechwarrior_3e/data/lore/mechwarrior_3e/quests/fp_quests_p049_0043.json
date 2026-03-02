@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "quests_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "quests",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Choose one: Academic /Any Relevant +2_ Administration +2-",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 49,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:55Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_quests_p049_0043",
+    "entity_type": "quests",
+    "name_guess": "Choose one: Academic /Any Relevant +2_ Administration +2-",
+    "breadcrumb_path": "Rules Compendium > Page 049 > quests > Choose one: Academic /Any Relevant +2_ Administration +2-",
+    "page_refs": [
+      49
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "2, M"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Choose one: Academic /Any Relevant +2_ Administration +2- Bureaucracy / Affiliation +2- Computers +1, Leadership +1_ or Protocol /Affiliation +2 Next Path: Ne' er-Do Well (4), Civilian Job (4), Travel (4) Covert Ops Events Captured and thrown in prison for treason: you escape after several years (Escape Artist +3_ Disabled (2), add 206 years t0 the time this path takes] Captured and forced to become double agent (Bad Reputation, Enemy (3), add 106 years t0 the time this path takesE Nosy reporter uncovers your identity [Good Reputation (21, Enemy; lose Alternate Identity Trait] close call leaves you scarred and shaken [Timid Unattractive] Bungled operation Gets you desk assignment [-1 to all skills receiving Skill Points this path] Uneventful operations T+1 to any skill] Extensive training reveals hidden talent [Choose one' Ambidextrous; Brave , Exceptional Attrbute Any; Natural Aptitude Any] Numerous successful missions prove your dedica- tion and skill [+1 to all skills receiving Skill Points in this Covert Ops Path; any four other skills Promotion] You become master of persuasion [First Aid +2_ Interrogation +3, Intimidation +2, MedTech +2, Bad Reputation; Pain Resistance] You are Instrumental in setting up criticae detec tion [Contact (3), Promotion (21."
+  }
+}

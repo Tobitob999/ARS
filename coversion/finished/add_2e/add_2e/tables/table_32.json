@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2.0",
+  "id": "table_32",
+  "name": "Table 32: BARD SPELL PROGRESSION",
+  "category": "table",
+  "tags": [
+    "add_2e",
+    "table",
+    "player_handbook",
+    "toc_normalized"
+  ],
+  "summary": "PHB Table 32 (BARD SPELL PROGRESSION).",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "table_number": 32,
+    "title": "BARD SPELL PROGRESSION",
+    "book_page": 42,
+    "pdf_page": 43,
+    "raw_page_token": "42"
+  },
+  "mechanics": {
+    "source": "toc_parse_v3",
+    "confidence": "medium"
+  }
+}

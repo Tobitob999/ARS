@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_page",
+  "tags": [
+    "gurps_4e",
+    "fulltext",
+    "pdf_page"
+  ],
+  "summary": "PDF-Seite 388 aus GURPS - 4th Edition - Basic Set.pdf.",
+  "source_text": {
+    "book": "GURPS - 4th Edition - Basic Set",
+    "pdf_page": 388,
+    "text": "These rules let you resolve combat using counters or figures on a hexago-\nnal grid. They assume you have already mastered the combat system in\nChapter 11, and cover only the exceptions and special cases that arise when\nusing that system on a map.\nFIGURES\nYou need a marker or miniature figure to represent each combatant.\nThis can be metal, plastic . . . even cardboard. These rules assume one-\ninch hexes, or a 50mm scale, formaps – but 25mm figures are easier to\nhandle. Of course, you need not use figures!Any counter will do, as long\nas it has a “front” to indicate facing and some way to show when the\nfighter it represents is prone.\nGamers who want the fun of detailed figures at the cost of card-\nboard counters should consider Cardboard Heroes, SJ Games’\nline of upright cardboard figures.\nCHAPTER TWELVE\nTACTICAL\nCOMBAT\nYou need not use figures! Any counter will do, as long\nas it has a “front” to indicate facing and some way to\nshow when the fighter it represents is prone.\n384 T ACTICAL COMBAT\nTHE\nCOMBAT MAP\nTactical combat uses a “combat map” marked off in hexagons, orhexes. Each\none-inch hex on the map represents an area one yard across. At the start of com-\nbat, pick a suitable map, typically one you have drawn on a blank sheet of hexa-\ngon paper.\nHEXES\nOne hex on the combat map represents one yard of distance. It is also the basic\nunit of movement: each hex a fighter moves represents one yard of movement.\nThe number of hexes you can move on your turn depends on your Move score\nand your maneuver (seeManeuvers in Tactical Combat,p. 385).\nEach human-sized or smaller fighter must occupy one hex. Exceptions include\nclose combat (see Close Combat,p. 391), swarms (see Swarm Attacks,p. 461), and\nsituations in which people are crowded together but not fighting (you could cram\nup to four ordinary-sized humans into a single hex, if they were friendly)."
+  },
+  "mechanics": {
+    "conversion": "fulltext_page_dump",
+    "generated_at": "2026-03-02T15:00:00"
+  }
+}

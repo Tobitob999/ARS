@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_chunk",
+  "tags": [
+    "mechwarrior_3e",
+    "phase2",
+    "metadata"
+  ],
+  "summary": "Phase2 Chunk fuer metadata aus OCR-Text.",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "generated_at": "2026-03-02T16:50:58Z"
+  },
+  "mechanics": {
+    "topic": "metadata",
+    "injection_priority": "support",
+    "keywords": [
+      "edition",
+      "publisher",
+      "copyright",
+      "isbn",
+      "fasa"
+    ],
+    "page_refs": [
+      5,
+      74,
+      72,
+      68,
+      64,
+      6,
+      225,
+      224
+    ],
+    "raw_text": "[PDF_PAGE 5 | score=7] CREDItS CREDITS Cover Art Marc Gabbana Cover Design John Bridegroom Illustrations Tom Baxa Doug Chaffee Les Dorschied Mark Gibbons Scott James Dave McKay Jim Nelson Matthew Plog Matt wilson Color Section Kevin McCann Additiona Work: Joel Biske John Bridegroom Les Dorschied Fred Hooper Jeff Laubenstein David Martin Chris Moeller Jim Nelson Mike Nielsen Matt Wilson Graphic Design John Bridegroom Jim Nelson BattleTech: Camille The Godmothe \" Kicin Dave Goliball\" Mescher Hen IckY Jonnson Damon Nnjar Burrus, Ed Ronin @enrensen Rod Rice ILamal Noiwcog David Walker; Kitrdatck Pack: Herbert Beas_ JJamc' Jamon Amig qu Ie Fletchi- Fletcher, Kevin Daeiley Heatner Tonnsion David CelticRogue' Shenidan: 3ovenin AnMl Grovo SLDF: Nadin Brzezinski, Unomas ApboTt Solornton Goren Franx Darbe . Eric Swan Gub Jim Apolegarth: The Simgapore Longshoremen sDOnsored Adveniure Gan CS Plus- Drew Collis. Fvans Scolt Hopkins Wonn Kelman Gary Larson Dcick Mancnester Tnomas Mchanon: City Mechivarrirs Lencaril Rich Darr; Brian Golightly Pnil Glottelty Game Design Bryan Nystul Writing Game and Source Material Bryan Nystul Christoffer Trossen Chris Hartford Loren Coleman Diane Piron-Gelman Randall N_ Bills Christopher Hussey Dan Flake Grendell Herbert A. Beas Brief History of the Inner Sphere Michael Stackpole Diane Piron-Gelman By The Numbers Loren Coleman Spoclal Thanks the creaiors BartieTech; Jordan Wcismar Ross Bubcocr and tne olner desirners Lhe first nd Second editons Alchwarnoc Walicr Funt Evan Jamieson Ricnard MelerMiae Nsit _ Lesier Smith and Kevin Stein. Tnis would? nail OceM cossinle mnoui You BatlleTech anc Mechwarnor novelists Khose thrilling stories @o *ell 02,onc board game and really bring Mniveisu Robeft Cnanele Loren Coleman Unomas Gressman_ Andrer Keith, #illam Keitn Stephen ~Lnson Ch\n[PDF_PAGE 74 | score=3] Name Special Forces Operative Tich MARRIOR Afliliation Capellan Confederation Age 23 Height 1.72 m Weight 74 kg character Recod Seet THIRD EDITION ATTRIBUTES TRAITS Value Mod_ Max: Alternate Identity Fast earner Brave Good Repulation: Indicass in CC Strength Commission/Rank (1/: Sao wei olerance Body Contact In For Lite ; Death Commandos Dexterity Enery: Triad on Betelgeuse Wealin Reflexes Enery (3): FS MIIO (Intelligerce) Well-Equipped (2) Intelligence Exceptiona Amtribute: Edge Willpower Charisma GoMBAT INFORMATION BIT Location DIAGRAM Edge Fill in Armor Type (A B. Armor and Wounds per L ocation Social Standing Type A: Ballistic Plare Vest AV (MBIEIX) 4 /6 /5 /4 ype B: Corna: Helmer AV (MBVEIX) 5 /6 /5 /2 8\" SKILLS Type AV (MBIEIX) Type D: AV (MB/EIX) Name Bonus # Blzte Faligue Career Soldier Fatigues WIL KW CareerfTri- D Projector Salesman TN per Fatigue> WIL KIXC Unconscious Fatique = (2 * WIL) 7 Demolitions Disguise Wounds Fast Talk 17-18 Llog First Aid Grazing Wounds (WV 11: Free all Minor Wounds (WV 21; TN ea Gunnery Laser /Space Serious Wounds (WV 4: +2 TN ea Irxeres Entettainment Critical Wounds (WV 8): +3 TN ea Jump Pack Deadly Wounds (WV 161: Knockout Language English Total Wound Value ol all Wounds: LanguagelMandarin (Chinese} total Wound Value (BOD+WIL , Dying Language Russian Hi Locaiion fIl 0i Crtical Hit AV-T Warlal Arts Gung Fu Dodge Sweep Weapon Style Weapons AP-Dmg Type Range Shots Notes Martial Aris Military Aulc-Pistol 406 ( 20 / 45 /105 Neck Jab F Jamanafumile Haymaker : Federared Long Rille '506 / 85 /205 0450 NavigationvGround Feception Knite C8 Blasling Bloc-$ 006 Biast (hall (adius) Pistols Submachine Gun 306 7 16 Jan ona Ilinjle. Cuickdraw Riles ~Burst | 10v31 Recoil Compensalion icluded Sequrily Systems MiSCELLaNEOUS EQUIPMENT AND INFORMATION"
+  }
+}

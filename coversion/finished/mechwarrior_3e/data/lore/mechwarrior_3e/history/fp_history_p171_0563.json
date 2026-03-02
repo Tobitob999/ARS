@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Likewise the Free Rasalhague Republic technically resentative democracy",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 171,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:04Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p171_0563",
+    "entity_type": "history",
+    "name_guess": "Likewise the Free Rasalhague Republic technically resentative democracy",
+    "breadcrumb_path": "Rules Compendium > Page 171 > history > Likewise the Free Rasalhague Republic technically resentative democracy",
+    "page_refs": [
+      171
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Likewise the Free Rasalhague Republic technically resentative democracy even though much of the government' $ OLIGARCHYIAUTOCRACY power rests with an individual, the Elected Prince. The key element t0 oligarchies and autocracies that gov- ernance restricted tO a individual (autocracy) or small sub DiRECT DEMOCRACY set of the population (oligarchy). with no direct participation by In direct democracies, the general populace has direcl the general public."
+  }
+}

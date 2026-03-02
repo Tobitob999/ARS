@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "COMBAT Modifiers based the condition Or actions of",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 115,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:30Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p115_0525",
+    "entity_type": "npcs",
+    "name_guess": "COMBAT Modifiers based the condition Or actions of",
+    "breadcrumb_path": "Rules Compendium > Page 115 > npcs > COMBAT Modifiers based the condition Or actions of",
+    "page_refs": [
+      115
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "DF",
+      "TN",
+      "WOUND",
+      "Wound"
+    ],
+    "excerpt": "COMBAT Modifiers based the condition Or actions of the opponent are always con sidered based on whatever the opponent did last; even the opponent has not acted vet in thc current turn (in such case; the character' = action from the last turn would apply). WOUND TABLE Wound Value DF+ Wound Type Fatigue Only Grazing Wound Minor Wound Serious Wound Critical Wound Combat Effects Summary +1 to all TNs per pt: of Fatigue above WIL Stunned Stunned; +1 to all TNs Stunned; Knockout Check; +2 to all TN?"
+  }
+}

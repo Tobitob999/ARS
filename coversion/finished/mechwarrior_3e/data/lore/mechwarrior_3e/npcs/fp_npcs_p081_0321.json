@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Random Mech and vehicle assignment tables can be",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 81,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:06Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p081_0321",
+    "entity_type": "npcs",
+    "name_guess": "Random Mech and vehicle assignment tables can be",
+    "breadcrumb_path": "Rules Compendium > Page 081 > npcs > Random Mech and vehicle assignment tables can be",
+    "page_refs": [
+      81
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Random Mech and vehicle assignment tables can be found on pp Additional tables can be found in the various BattleTech Field Manual sourcebooks_ Randorn Assignment any Affiliation allows the player choose an affiliation other than the character' chosen affilia tion when assigning the vehicle, but the precise type is still CONTACT (multiple trait) Cost: 1-3 The Contact Trait provides player character with a ally Or acquaintance who can supply information and aid_ Tne player character purchasing the trait determines the identity of the con tact , subject to gamemaster approval."
+  }
+}

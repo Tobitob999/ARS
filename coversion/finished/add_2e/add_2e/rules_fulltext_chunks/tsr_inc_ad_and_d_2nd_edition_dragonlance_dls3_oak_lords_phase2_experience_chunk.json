@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_2",
+    "tsr_inc_ad_and_d_2nd_edition_dragonlance_dls3_oak_lords",
+    "experience"
+  ],
+  "summary": "Phase-2 Regelchunk: experience aus TSR Inc - AD&D 2nd Edition - Dragonlance_ DLS3 - Oak Lords.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLS3 - Oak Lords",
+    "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLS3 - Oak Lords.pdf",
+    "text": "[PDF_PAGE 35 | score=2] Serinda Sevenstar Serinda’s family met death at the hands of a Dragon army early in the War of the Lance. Since then, she has been cheered by the lightheartedness of kenders. Serinda began this adventure half for the company of Tas and half because she represents a group of Silvanesti elves seeking safe passage across southern Ansalon and home; her people will only trust one of their own kind. Serinda is very attracted to Tas and will attempt to turn their friendship into something deeper. She will become both jealous of and frustrated with Tas’s fondness for Asheena. Serinda does not trust Jasper and wants to keep him away from Tas. She is initially irritated by the attention of Gilthanas, \n[PDF_PAGE 32 | score=1] Don’t forget that the PCs must find their way out of Qualinost. See #E7. The stone Sla- Mori may connect with the wooden Sla-Mori, too. ASSISTANCE AND E PILOGUE If the PCs become confused during the latter part of this adventure, Porthios can assist them. He can manifest himself as a searcher spectral minion, but only once or twice. If the PCs return to the awaiting Qualinesti people, the elves will all re-enter Qualinost. If the PCs explain to the kodragons what they have done, they will be rewarded with many thanks and a promise: if ever they need assist- ance in the future, each can speak the words, “Astinus, help me,” and five kodragons will appear. This favor will work once per mem- ber\n[PDF_PAGE 37 | score=1] Name THAC0 AC #AT Dmg HD/hp MV SA SD MR A L SZ XP 7 6 3 2d4+1/2d4+1/3d8 12+12/89. 9, SW—9 Y Y 20% N H—20’ 8,000 17 5(10) 1 2d4 or W 3+1/15 9 Y N N CE L—7’ 120 15 2 2 or 1 1d8/W or 1d8 6/31. 18 N Y 20% CG M—7’ 270 17 5 2 or 1 1d6/W or 1d6 4/18 18 N Y N CG/NG M—5’ 120 15 3 3 2d4/2d4/2d6 5/23 12 Y Y N LE M—6’ 975 17 4 1 1d4 or W 3/20. 6, R—15, Y N 20% LE M—6’ 650 GL—18 5 –5 6 3d20(x4)/1d100(x2) 35/158.** 15, FL—48(B) Y Y 95% N G—50’ 40,000 Beast, Undead—Stahnk Bugbear Centaur (Ebonocg) Centaur (of Krynn) Disir Draconian, Kapak Dragon, Astral—Mated Pr. Dragon, Astral—Unmated Dragon, Kodragon Elemental, Air Elemental, Water Elf, High—Qualinesti Fetch Fire Minion Fireshadow Golem, Greater—Stone Ho"
+  },
+  "mechanics": {
+    "topic": "experience",
+    "keywords": [
+      "add_2e",
+      "experience",
+      "tsr_inc_ad_and_d_2nd_edition_dragonlance_dls3_oak_lords",
+      "xp"
+    ],
+    "injection_priority": "core",
+    "confidence": 0.1,
+    "page_refs": [
+      32,
+      35,
+      37
+    ],
+    "raw_text": "[PDF_PAGE 35 | score=2] Serinda Sevenstar Serinda’s family met death at the hands of a Dragon army early in the War of the Lance. Since then, she has been cheered by the lightheartedness of kenders. Serinda began this adventure half for the company of Tas and half because she represents a group of Silvanesti elves seeking safe passage across southern Ansalon and home; her people will only trust one of their own kind. Serinda is very attracted to Tas and will attempt to turn their friendship into something deeper. She will become both jealous of and frustrated with Tas’s fondness for Asheena. Serinda does not trust Jasper and wants to keep him away from Tas. She is initially irritated by the attention of Gilthanas, \n[PDF_PAGE 32 | score=1] Don’t forget that the PCs must find their way out of Qualinost. See #E7. The stone Sla- Mori may connect with the wooden Sla-Mori, too. ASSISTANCE AND E PILOGUE If the PCs become confused during the latter part of this adventure, Porthios can assist them. He can manifest himself as a searcher spectral minion, but only once or twice. If the PCs return to the awaiting Qualinesti people, the elves will all re-enter Qualinost. If the PCs explain to the kodragons what they have done, they will be rewarded with many thanks and a promise: if ever they need assist- ance in the future, each can speak the words, “Astinus, help me,” and five kodragons will appear. This favor will work once per mem- ber\n[PDF_PAGE 37 | score=1] Name THAC0 AC #AT Dmg HD/hp MV SA SD MR A L SZ XP 7 6 3 2d4+1/2d4+1/3d8 12+12/89. 9, SW—9 Y Y 20% N H—20’ 8,000 17 5(10) 1 2d4 or W 3+1/15 9 Y N N CE L—7’ 120 15 2 2 or 1 1d8/W or 1d8 6/31. 18 N Y 20% CG M—7’ 270 17 5 2 or 1 1d6/W or 1d6 4/18 18 N Y N CG/NG M—5’ 120 15 3 3 2d4/2d4/2d6 5/23 12 Y Y N LE M—6’ 975 17 4 1 1d4 or W 3/20. 6, R—15, Y N 20% LE M—6’ 650 GL—18 5 –5 6 3d20(x4)/1d100(x2) 35/158.** 15, FL—48(B) Y Y 95% N G—50’ 40,000 Beast, Undead—Stahnk Bugbear Centaur (Ebonocg) Centaur (of Krynn) Disir Draconian, Kapak Dragon, Astral—Mated Pr. Dragon, Astral—Unmated Dragon, Kodragon Elemental, Air Elemental, Water Elf, High—Qualinesti Fetch Fire Minion Fireshadow Golem, Greater—Stone Ho"
+  }
+}

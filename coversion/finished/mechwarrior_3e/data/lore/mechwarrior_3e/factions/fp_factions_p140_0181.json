@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "factions_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "factions",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "JAF-05 Flash Suppressor The JAF 05 was developed",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 140,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:39Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_factions_p140_0181",
+    "entity_type": "factions",
+    "name_guess": "JAF-05 Flash Suppressor The JAF 05 was developed",
+    "breadcrumb_path": "Rules Compendium > Page 140 > factions > JAF-05 Flash Suppressor The JAF 05 was developed",
+    "page_refs": [
+      140
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "JAF-05 Flash Suppressor The JAF 05 was developed during the Star League era as standard accessory that could be mounted t0 any SLDF infantry rifle laser slug-thrower: Utilizing number advanced technologies, the JAF05 can all but eliminate tne muzzle flashes from slug-throwing rifles and even the chromat: ourst from laser rifle. As an added benefit, sonic damp ener reduces the report from slug-throwing rifles soldier equipped with JAF 05 can operate at night with little chance of an enemy picking up on the sound or sight of his weapon fire."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "mount",
+  "name": "Mount",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Mount (ConjuratiotVSuminoning) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": null,
+    "book_pages": [
+      136,
+      137
+    ],
+    "pdf_pages": [
+      137,
+      138
+    ],
+    "raw_block": "Mount (ConjuratiotVSuminoning)\nRange: 10 yards\nComponents: V, S, M\nDuration: 2 hours + 1 hour/level\nCasting Time: 1 turn\nArea of Effect: 1 mount\nSaving Throw: None\nBy means of this spell, the caster conjures\na normal animal to serve him as a mount.\nThe animal serves willingly and well, but at\nthe expiration of the spell duration it disap-\npears, returning to its own place. The type\nof mount gained by this spell depends on the\nlevel of the caster; of course, a caster can\nchoose a lesser mount if desired. Available\nmounts include the following:\nCaster Level Mount\nlstdrd level\n4th-7th level Draft horse or\n8th-12th level Camel\n13th-14th level Elephant (and\n15th level & up\nMule or light horse\nwar horse\nhowdah at 18th level)\nGriffon (and saddle at\n18th level)\nThe mount does not come with any riding\ngear, unless it is of a class lower than the\ncaster would normally be entitled to; thus a\n4th-level wizard can gain a war horse with-\nout saddle and harness, or a light horse with\nsaddle and harness. The statistics of the ani-\nmal gained are typical of all creatures of the\nsame class. The mount disappears when\nslain.\nThe material component of the spell is a\nbit of hair from the type of animal to be con-\njured.\nNystul’s Magical Aura\n(IIlusion/Phantasm)\nRange: Touch\nComponents: V, S, M\nDuration: 1 dayllevel\nCasting Time: 1 round\nArea of Effect: Special\nSaving Throw: Special\nBy means of this spell, any one item of no\nmore than five pounds weight per level of\nthe spellcaster can be given an aura that is\n136\nnoticed by someone using magic detection.\nFurthermore, the caster can specify the type\nof magical aura that is detected (alteration,\nconjuration, etc.) and this effectively masks\nthe item's actual aura, if any, unless the\nitem's own aura is exceptionally powerful (if\nit is an artifact, for instance). If the object\nbearing Nystulk magical aura has an iden-\ntify spell cast on it or is similarly examined,\nthe examiner has a 50 % chance of recogniz-\ning that the aura has been placed to mislead\nthe unwary. Otherwise, the aura is believed\nand no amount of testing reveals what the\ntrue magic is.\nThe component for this spell is a small\nsquare of silk, which must be passed over\nthe object that receives the aura."
+  },
+  "mechanics": {
+    "school_or_type": "ConjuratiotVSuminoning",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Mount",
+      "canonical_name_guess": null,
+      "school_or_type": "ConjuratiotVSuminoning",
+      "range": "10 yards",
+      "components": "V, S, M",
+      "duration": "2 hours + 1 hour/level",
+      "casting_time": "1 turn",
+      "area_of_effect": "1 mount",
+      "saving_throw": "None",
+      "description_excerpt": "By means of this spell, any one item of no more than five pounds weight per level of the spellcaster can be given an aura that is 136 noticed by someone using magic detection. Furthermore, the caster can specify the type of magical aura that is detected (alteration, conjuration, etc.) and this effectively masks the item's actual aura, if any, unless the item's own aura is exceptionally powerful (if it is an artifact, for instance). If the object bearing Nystulk magical aura has an iden- tify spell cast on it or is similarly examined, the examiner has a 50 % chance of recogniz- ing that the aura has been placed to mislead the unwary. Otherwise, the aura is believed and no amount of testing reveals what the true magic is. The component for this spell is a small square of silk, which must be passed over the object that receives the aura."
+    },
+    "quality_flags": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "category": "locations_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "locations",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "WHISTLESTOP TOUR For centuries Twycross was regional capital",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 170,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:02Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_locations_p170_0260",
+    "entity_type": "locations",
+    "name_guess": "WHISTLESTOP TOUR For centuries Twycross was regional capital",
+    "breadcrumb_path": "Rules Compendium > Page 170 > locations > WHISTLESTOP TOUR For centuries Twycross was regional capital",
+    "page_refs": [
+      170
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [
+      "3050"
+    ],
+    "stat_tokens": [
+      "damage"
+    ],
+    "excerpt": "WHISTLESTOP TOUR For centuries Twycross was regional capital in the Lyran Commonwealth; until the Jade Falcons conquered it June of 3050. Though the Federated Commonwealth briefly recaptured it in September of that same year; the Falcons quickly repulsed tne FedCom forces and the planet remains firmly under Falcon control: ing, which left soil erosion and ecological damage in its wake. Radical shifts in the planet's wcather pattern have begun to appear in recent decades and many naturalists fear that past practices have irreparably damaged the planetary ecosystem."
+  }
+}

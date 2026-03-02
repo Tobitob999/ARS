@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "quests_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "quests",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "He rolls again, and the an Action Check",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 14,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:40Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_quests_p014_0004",
+    "entity_type": "quests",
+    "name_guess": "He rolls again, and the an Action Check",
+    "breadcrumb_path": "Rules Compendium > Page 014 > quests > He rolls again, and the an Action Check",
+    "page_refs": [
+      14
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "He rolls again, and the an Action Check is based upon the use of an Attribute (an dice come Up and 10. Now his total stands at 33, Attribute Check) skill (a Skill Check) To determine whether and he can pick up the die that scored 10 and roll it the action succeeds the character rolls some dice and follows again. This time it comes Up which ends his rolling the procedure described under Task Resolution (p."
+  }
+}

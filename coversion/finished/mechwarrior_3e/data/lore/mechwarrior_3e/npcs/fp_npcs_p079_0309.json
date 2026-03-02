@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "complete with travel documents and other identifica character",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 79,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:05Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p079_0309",
+    "entity_type": "npcs",
+    "name_guess": "complete with travel documents and other identifica character",
+    "breadcrumb_path": "Rules Compendium > Page 079 > npcs > complete with travel documents and other identifica character",
+    "page_refs": [
+      79
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "complete with travel documents and other identifica character wants t0 acquire one he must first eliminate the other; tion; It will hold up under norma circumstances_ but if the char- Multiple Traits: Some traits can be taken by character acter' identity is brought into question for any reason the more than once with each trait representing separate exam investigating character will have make Action Check ple: these are indicated following the trait name. For example depending on the situation; For example, Forgery Skill Check would be used to identify talse documents_ or Interrogation Or 78"
+  }
+}

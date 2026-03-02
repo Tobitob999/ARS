@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Name Special Forces Operative Tich MARRIOR Afliliation Capellan",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 74,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:03Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p074_0066",
+    "entity_type": "items",
+    "name_guess": "Name Special Forces Operative Tich MARRIOR Afliliation Capellan",
+    "breadcrumb_path": "Rules Compendium > Page 074 > items > Name Special Forces Operative Tich MARRIOR Afliliation Capellan",
+    "page_refs": [
+      74
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [
+      "74 kg"
+    ],
+    "range_mentions": [
+      "1.72 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [
+      "Armor"
+    ],
+    "excerpt": "Name Special Forces Operative Tich MARRIOR Afliliation Capellan Confederation Age 23 Height 1.72 m Weight 74 kg character Recod Seet THIRD EDITION ATTRIBUTES TRAITS Value Mod_ Max: Alternate Identity Fast earner Brave Good Repulation: Indicass in CC Strength Commission/Rank (1/: Sao wei olerance Body Contact In For Lite ; Death Commandos Dexterity Enery: Triad on Betelgeuse Wealin Reflexes Enery (3): FS MIIO (Intelligerce) Well-Equipped (2) Intelligence Exceptiona Amtribute: Edge Willpower Charisma GoMBAT INFORMATION BIT Location DIAGRAM Edge Fill in Armor Type (A B."
+  }
+}

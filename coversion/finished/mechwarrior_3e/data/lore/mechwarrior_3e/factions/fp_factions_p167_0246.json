@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "factions_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "factions",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "CHWARRIOR Jrd EDItk A WHISTLESTOP TOUR OF THE",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 167,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:00Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_factions_p167_0246",
+    "entity_type": "factions",
+    "name_guess": "CHWARRIOR Jrd EDItk A WHISTLESTOP TOUR OF THE",
+    "breadcrumb_path": "Rules Compendium > Page 167 > factions > CHWARRIOR Jrd EDItk A WHISTLESTOP TOUR OF THE",
+    "page_refs": [
+      167
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "CHWARRIOR Jrd EDItk A WHISTLESTOP TOUR OF THE INNER SPHERE Cartographers divide the known universe into several Inner Sphere- the iur ot the silver ice snake-weasel, predator regions The best known the Inner Sphere, the densely popu- native to the New Scotland region, is highly prized as trim on lux- lated swath of worlds ocated roughly within five hundred light- Wry clothing: years Of Terra Five Successor States make up this region -the Federated Suns the Capcllan Confederation the Free Worlds Kittery League, the Lyran Alliance and the Draconis Combine along The Federated Suns seized the agricultural world 0f Kittery with such minor states as the Free Rasalhague Republic, the St."
+  }
+}

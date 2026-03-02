@@ -189,6 +189,11 @@ Extrahiere: Initiative-System, Ueberraschung, Aktionen pro Runde, Angriffsregeln
 - `henchmen_hirelings` ← Gefolge, Soeldner
 - `downtime` ← Zwischen-Abenteuer-Aktivitaeten
 
+**Cross-Reference-Resolution (PFLICHT in Phase 11):**
+- Textliche Querverweise (z.B. "siehe S. 50", "see page 50") muessen bei der Extraktion gegen den Entity-Index aufgeloest werden.
+- Wenn ein Zielobjekt im Index identifiziert wird, MUSS im Snippet ein `_ref`-Feld mit der referenzierten `entity_id` gespeichert werden.
+- Nicht aufloesbare Verweise muessen als unresolved-Referenz im QA-Report dokumentiert werden.
+
 ### Phase 12: extensions
 
 **Buch-Quelle:** Alles was in keine vorherige Phase passt
@@ -198,6 +203,10 @@ Sammle System-spezifische Mechaniken:
 - Mechaniken die nur dieses System hat
 - Optionale Regel-Varianten
 - Subsysteme (z.B. Psionics, Schiffskaempfe, Massenschlachten)
+
+**Cross-Reference-Resolution (PFLICHT in Phase 12):**
+- Verweise innerhalb optionaler Regeln/Subsysteme sind ebenfalls auf `entity_id` aufloesen.
+- Das `_ref`-Feld ist fuer verknuepfte Snippets verpflichtend, damit RAG-Abfragen referenzierbar bleiben.
 
 ---
 

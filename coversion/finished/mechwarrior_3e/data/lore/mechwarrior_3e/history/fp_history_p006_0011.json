@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "In the chaos that followed_ the Council Lords",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 6,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:21Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p006_0011",
+    "entity_type": "history",
+    "name_guess": "In the chaos that followed_ the Council Lords",
+    "breadcrumb_path": "Rules Compendium > Page 006 > history > In the chaos that followed_ the Council Lords",
+    "page_refs": [
+      6
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "In the chaos that followed_ the Council Lords were each determined to step in as First Lord. Despite the efforts of Kerensky to hold together; the Star League dissolved in thirty years later: Unable to halt the conflict; Kerensky appealed to his soldiers to join him eaving the Inner Sphere. Nearly 80 percent of the Star League army heeded Kerensky call t0 build new Star League somewhere far beyond explored space Kerensky and his followers abandoned their homes ad headed into uncharted areas Of the galaxy; presumably never tO return."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Leg Minor: Leg broken [WV 2 half movement;",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 124,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:33Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p124_0590",
+    "entity_type": "npcs",
+    "name_guess": "Leg Minor: Leg broken [WV 2 half movement;",
+    "breadcrumb_path": "Rules Compendium > Page 124 > npcs > Leg Minor: Leg broken [WV 2 half movement;",
+    "page_refs": [
+      124
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "TN",
+      "wound"
+    ],
+    "excerpt": "Leg Minor: Leg broken [WV 2 half movement; +1 TN t0 all RFL\" linked Skill Checks] Serous: Leg tendon severed [WV 4; nalf movement and no sprinting evading; +2 TN to all RFL-linked Skill Checks] Cntlcal: Com pound fracture , leg nearly severed (WV 8; Knockout Check; half movement and no sprinting or evading; +3 TN to all RFL-linked Skill Checks: bleeds every minute] First Aid The first thing that must be done t0 save the character is an immediate application of the First Aid Skill by aother char- acter: This is considered Complex Action The difficulty modifier for the First Aid Skill Check i5 equal to the total wound value of all wounds suffered by the target minus the character = BOD WIL (in other words, the amount 123"
+  }
+}

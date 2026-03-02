@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_page",
+  "tags": [
+    "add_2e",
+    "player_handbook",
+    "fulltext",
+    "pdf_page"
+  ],
+  "summary": "PDF-Seite 242 des AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "pdf_page": 242,
+    "text": "Protection \nEndure Cold/Endure Heat ($st) \nProtection From Evil (1st) \nsanctuary (1st) \nBarkskin (2nd) \nResist Fire/Resist Cold (2nd) \nWithdraw (2nd) \nDispel Magic (3rd) \nMagical Vestment (3rd) \nNegative Plane Protection (3rd) \nProtection From Fire (3rd) \nRemove Curse (3rd) \nRemove Paralysis (3rd) \nProtection From Evil, 10' Evil (4th) \nProtection From Lightning (4th) \nRepel Insects (4th) \nSpeU Immunity (4th) \nAnti-Plant Shell (5th) \nDispel Evil (5th) \nAnti-Animal Shell (6th) \nSummoning \nAbjure (4th) \nAnimal Summoning I (4th) \nCall Woodland Beings (4th) \nAnimal Summoning I1 (5th) \nDispel Evil (5th) \nAerial Servant (6th) \nAnimal Summoning I11 (6th) \nAnimate Object (6th) \nConjure Animals (6th) \nWall of Thorns (6th) \nWeather Summoning (6th) \nWord of Recall (6th) \nConjure Earth Elemental (7th) \nCreeping Doom (7th) \nExaction (7th) \nGate (7th) \nSuccor (7th) \nSun \nLight (1st) \nContinual Light (3rd) \nStarshine (3rd) \nMoo~tbeam (5th) \nRainbow (5th) \nSunray (7th) \nWeather \nFaerie Fire (1st) \nObscurement (2nd) \nCall Lightning (3rd) \nControl Temperature, 10' Radius (4th) \nProtection From Lightning (4th) \nControl Winds (5th) \nRainbow (5th) \nWeather Summoning (6th) \nControl Weather (7th) \nI. \nA \n24 1"
+  },
+  "mechanics": {
+    "conversion": "fulltext_page_dump",
+    "generated_at": "2026-02-28T16:50:16"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "vehicles_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "vehicles",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "CHARAGTER CREATIOL You have rival [Enemy] Accidentally destroyed",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 40,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:51Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_vehicles_p040_0062",
+    "entity_type": "vehicles",
+    "name_guess": "CHARAGTER CREATIOL You have rival [Enemy] Accidentally destroyed",
+    "breadcrumb_path": "Rules Compendium > Page 040 > vehicles > CHARAGTER CREATIOL You have rival [Enemy] Accidentally destroyed",
+    "page_refs": [
+      40
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "CHARAGTER CREATIOL You have rival [Enemy] Accidentally destroyed school property [Poverty] Make friends with the commandant (Contact] Training works almost too well [CHA Brave] Extensive nighttime training [Night Vision_ Stealth -1] Qualified for accelerated training program [You gain one 0f the following fields: Basic Training; Basic Technician Military Scientist] Relative dies and eaves you his vehicle (Vehicle 31."
+  }
+}

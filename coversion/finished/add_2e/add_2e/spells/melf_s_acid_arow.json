@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "melf_s_acid_arow",
+  "name": "Melf's Acid AROW",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Melf's Acid AROW (Conjuration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "second",
+    "book_pages": [
+      144
+    ],
+    "pdf_pages": [
+      145
+    ],
+    "raw_block": "Melf's Acid AROW (Conjuration)\nRange 180 yards\nComponents: V, S, M\nDuration: Special\nCasting Time: 2\nArea of Effect: 1 target\nSaving Throw: Special\nBy means of this spell, the wizard creates\na magical arrow that speeds to its target as if\nfired from the bow of a fighter of the same\nlevel as the wizard. No modifiers for range,\nnon-proficiency, or specialization are used.\nThe arrow has no attack or damage bonus,\nbut it inflicts 2d4 points of acid damage\n(with saving throws for items on the target).\n(There is no splash damage.) For every three\nlevels that the caster has achieved, the acid\nlasts for another round, unless somehow\nneutralized, inflicting another 2d4 points of\ndamage each round. So at 3rd-5th level, the\nacid lasts two rounds, at 6th-8th level, the\nacid lasts for three rounds, etc.\nThe material components of the spell are\na dart, powdered rhubarb leaf, and an ad-\nder's stomach.\nbw"
+  },
+  "mechanics": {
+    "school_or_type": "Conjuration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Melf's Acid AROW",
+      "canonical_name_guess": null,
+      "school_or_type": "Conjuration",
+      "range": null,
+      "components": "V, S, M",
+      "duration": "Special",
+      "casting_time": "2",
+      "area_of_effect": "1 target",
+      "saving_throw": "Special",
+      "description_excerpt": "By means of this spell, the wizard creates a magical arrow that speeds to its target as if fired from the bow of a fighter of the same level as the wizard. No modifiers for range, non-proficiency, or specialization are used. The arrow has no attack or damage bonus, but it inflicts 2d4 points of acid damage (with saving throws for items on the target). (There is no splash damage.) For every three levels that the caster has achieved, the acid lasts for another round, unless somehow neutralized, inflicting another 2d4 points of damage each round. So at 3rd-5th level, the acid lasts two rounds, at 6th-8th level, the acid lasts for three rounds, etc. The material components of the spell are a dart, powdered rhubarb leaf, and an ad- der's stomach. bw"
+    },
+    "quality_flags": [
+      "missing_standard_fields"
+    ]
+  }
+}

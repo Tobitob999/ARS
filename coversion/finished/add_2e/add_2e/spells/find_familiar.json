@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "find_familiar",
+  "name": "Find Familiar",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Find Familiar (Conjuratiotr/Sumrnoning) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": null,
+    "book_pages": [
+      134
+    ],
+    "pdf_pages": [
+      135
+    ],
+    "raw_block": "Find Familiar (Conjuratiotr/Sumrnoning)\nRange: 1 mile/level\nComponents: V, S, M\nDuration: Special\nCasting Time: 2d12 hours\nArea of Effect: 1 familiar\nSaving Throw: Special\nThis spell enables the caster to attempt to\nsummon a familiar to act as his aide and\ncompanion. Familiars are typically small\ncreatures, such as cats, frogs, ferrets, crows,\nhawks, snakes, owls, ravens, toads, wea-\nsels, or even mice. A creature acting as a fa-\nmiliar can benefit a wizard, conveying its\nsensory powers to its master, conversing\nwith him, and serving as a guard/scout/spy\nas well. A wizard can have only one familiar\nat a time, however, and he has no control\nover what sort of creature answers the sum-\nmoning, if any at all come.\nThe creature is always more intelligent\nthan others of its type (typically 2 or 3 Int\npoints), and its bond with the wizard con-\nfers upon it an exceptionally long life. The\nwizard receives the heightened senses of his\nfamiliar, which grants the wizard a +1 bo-\nnus to all surprise die rolls. Normal famil-\niars have 2-4 hit points plus 1 hit point per\ncaster level, and an Armor Class of 7 (due to\nsize, speed, etc.).\nThe wizard has an empathic link with the\nfamiliar and can issue it mental commands\nat a distance of up to one mile. Note that\nempathic responses from the familiar are\ngenerally fairly basic-while able to com-\nmunicate simple thoughts, these are often\noverwhelmed by instinctual responses.\nThus a ferret familiar spying on a band of\norcs in the woods might lose its train of\nthought upon sighting a mouse. Certainly\nits communications to its master would be\ntinged with fear of the “big ones” it was spy-\ning on! The caster cannot see through the fa-\nmiliar’s eyes.\nIf separated from the caster, the familiar\nloses 1 hit point each day, and dies if re-\nduced to 0 hit points. When the familiar is in\nphysical contact with its wizard, it gains the\nwizards saving throws against special at-\nbacks. If a special attack would normally\n:ause damage, the familiar suffers no dam-\nage if the saving throw is successful and half\nlamage if the saving throw is failed. If the\n:amiliar dies, the wizard must successfully\n-011 an immediate system shock check or\niie. Even if he survives this check, the wiz-\nird loses 1 point from his Constitution\nvhen the familiar dies.\nThe power of the conjuration is such that\nt can be attempted but once per year. When\nhe wizard decides to find a familiar, he\nnust load a brass brazier with charcoal.\nVhen this is burning well, he adds 1,ooO g~\nworth of incense and herbs. The spell incan-\nation is then begun and must be continued\n134\nuntil the familiar comes or the casting time\nis finished. The DM secretly determines all\nresults. Note that most familiars are not in-\nherently magical, nor does a dispel magic\nspell send them away.\nDeliberate mistreatment, failure to feed\nand care for the familiar, or continuous un-\nreasonable demands have adverse effects on\nthe familiar’s relationship with its master.\nPurposely arranging the death of one‘s own\nfamiliar incurs great disfavor from certain\npowerful entities, with dire results.\nRoll Familiar * Sensory Powers\n1-5 Cat, black Excellent night vision &\nsuperior hearing\n6-7 Crow Excellent vision\n8-9 Hawk Very superior distance\nvision\n10-11 owl Night vision equals hu-\nman daylight vision, su-\nperior hearing\nSuperior hearing & very\nsuperior olfactory power\nD20\n12-13 Toad Wide-angle vision\n14-15 Weasel\n16-20 No familiar available within\n* The referee can substitute other small anl-\nmals suitable to the area.\nspell range"
+  },
+  "mechanics": {
+    "school_or_type": "Conjuratiotr/Sumrnoning",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Find Familiar",
+      "canonical_name_guess": null,
+      "school_or_type": "Conjuratiotr/Sumrnoning",
+      "range": "1 mile/level",
+      "components": "V, S, M",
+      "duration": "Special",
+      "casting_time": "2d12 hours",
+      "area_of_effect": "1 familiar",
+      "saving_throw": "Special",
+      "description_excerpt": "This spell enables the caster to attempt to summon a familiar to act as his aide and companion. Familiars are typically small creatures, such as cats, frogs, ferrets, crows, hawks, snakes, owls, ravens, toads, wea- sels, or even mice. A creature acting as a fa- miliar can benefit a wizard, conveying its sensory powers to its master, conversing with him, and serving as a guard/scout/spy as well. A wizard can have only one familiar at a time, however, and he has no control over what sort of creature answers the sum- moning, if any at all come. The creature is always more intelligent than others of its type (typically 2 or 3 Int points), and its bond with the wizard con- fers upon it an exceptionally long life. The wizard receives the heightened senses of his familiar, which grants the wizard a +1 bo- nus to all surprise die rolls. Normal famil- iars have 2-4 hit points plus 1 hit point per"
+    },
+    "quality_flags": []
+  }
+}

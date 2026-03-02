@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "vemtrlloqulsm",
+  "name": "Vemtrlloqulsm",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Vemtrlloqulsm (IllusiodPhantasm) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": null,
+    "book_pages": [
+      139
+    ],
+    "pdf_pages": [
+      140
+    ],
+    "raw_block": "Vemtrlloqulsm (IllusiodPhantasm)\nRange: 10 yards/lwel, maximum 90 yards\nComponents: V, M\nDuration: 4 rounds + 1 round/level\nCasting Time: 1\nArea of Effect: 1 creature or object\nSaving Throw: Special\nThis spell enables the wizard to make his\nvoice-or someone else’s voice-or a simi-\nlar sound seem to issue from someplace else,\nsuch as from another creature, a statue,\nfrom behind a door, down a pa-, etc.\nThe spellcaster can speak in any language\nthat he knows, or make any sound that he\ncan normally make. With respect to such\nvoices and sounds, anyone rolling a success-\nful saving throw vs. spell with a -2 penalty\ndetects the ruse. If cast in conjunction with\nother illusions, the DM may rule greater\npenalties or disallow an independent saving\nthrow against this spell in consideration of\nits contribution to the total effect of the\ncombined illusion.\nThe material component of this spell is a\nparchment rolled up into a small cone."
+  },
+  "mechanics": {
+    "school_or_type": "IllusiodPhantasm",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Vemtrlloqulsm",
+      "canonical_name_guess": null,
+      "school_or_type": "IllusiodPhantasm",
+      "range": "10 yards/lwel, maximum 90 yards",
+      "components": "V, M",
+      "duration": "4 rounds + 1 round/level",
+      "casting_time": "1",
+      "area_of_effect": "1 creature or object",
+      "saving_throw": "Special",
+      "description_excerpt": "This spell enables the wizard to make his voice-or someone else’s voice-or a simi- lar sound seem to issue from someplace else, such as from another creature, a statue, from behind a door, down a pa-, etc. The spellcaster can speak in any language that he knows, or make any sound that he can normally make. With respect to such voices and sounds, anyone rolling a success- ful saving throw vs. spell with a -2 penalty detects the ruse. If cast in conjunction with other illusions, the DM may rule greater penalties or disallow an independent saving throw against this spell in consideration of its contribution to the total effect of the combined illusion. The material component of this spell is a parchment rolled up into a small cone."
+    },
+    "quality_flags": []
+  }
+}

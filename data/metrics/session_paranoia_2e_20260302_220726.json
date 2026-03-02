@@ -1,0 +1,73 @@
+{
+  "module": "paranoia_2e",
+  "session_id": 96,
+  "total_turns": 5,
+  "total_latency_ms": 24282.3,
+  "avg_latency_ms": 4856.5,
+  "avg_response_chars": 347.8,
+  "total_probes": 0,
+  "total_combat_tags": 0,
+  "total_rules_warnings": 0,
+  "turns": [
+    {
+      "turn": 1,
+      "latency_ms": 4841.9,
+      "response_chars": 394,
+      "probes": 0,
+      "combat_tags": 0,
+      "stat_changes": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": 0
+    },
+    {
+      "turn": 2,
+      "latency_ms": 2301.8,
+      "response_chars": 366,
+      "probes": 0,
+      "combat_tags": 0,
+      "stat_changes": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": 0
+    },
+    {
+      "turn": 3,
+      "latency_ms": 9915.7,
+      "response_chars": 296,
+      "probes": 0,
+      "combat_tags": 0,
+      "stat_changes": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": 0
+    },
+    {
+      "turn": 4,
+      "latency_ms": 5873.4,
+      "response_chars": 337,
+      "probes": 0,
+      "combat_tags": 0,
+      "stat_changes": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": 0
+    },
+    {
+      "turn": 5,
+      "latency_ms": 1349.5,
+      "response_chars": 346,
+      "probes": 0,
+      "combat_tags": 0,
+      "stat_changes": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": 0
+    }
+  ]
+}

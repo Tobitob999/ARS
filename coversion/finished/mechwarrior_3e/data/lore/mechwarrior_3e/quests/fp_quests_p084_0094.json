@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "quests_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "quests",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Clearly: this can cramp your style at the",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 84,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:07Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_quests_p084_0094",
+    "entity_type": "quests",
+    "name_guess": "Clearly: this can cramp your style at the",
+    "breadcrumb_path": "Rules Compendium > Page 084 > quests > Clearly: this can cramp your style at the",
+    "page_refs": [
+      84
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Clearly: this can cramp your style at the worst possible times is up to the gamemaster t0 decide when this trait comes into play; but he should not force the character t0 work constantly for the secret organization_ especially since the other characters in the group will probably be drawn into the missions as well; LEMON Value: There always seems t0 be one vehicle in every unit that is cursed and this time it'$ yours."
+  }
+}

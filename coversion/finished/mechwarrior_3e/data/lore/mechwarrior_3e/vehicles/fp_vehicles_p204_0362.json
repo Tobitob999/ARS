@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "vehicles_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "vehicles",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "These details make the story more realistic, and",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 204,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:22Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_vehicles_p204_0362",
+    "entity_type": "vehicles",
+    "name_guess": "These details make the story more realistic, and",
+    "breadcrumb_path": "Rules Compendium > Page 204 > vehicles > These details make the story more realistic, and",
+    "page_refs": [
+      204
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "0 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "These details make the story more realistic, and Ihus fictional background skillful gamemasters Iearn t0 make game more engrossing and fun experience: mechanics so transparent that the story being crcated Ihrougn Because the story unfolds both from gamemaster 5 roleplaying takes center stage base plot-Iine and through actions the player characters This chapter contains material desi igned help tne make in response t0 whatever challenges they face the adven gamemaster accomplish these goals Included discussion ture can quickly take on Its Own If the story is dramat of the Role of the Gamemaster, plus tips on Getting Started and enougn, this living adventure can take path that none of the Non-Pllayer Characters Of prime interest t0 the players will be players aticipated, making for an extremely rewarding roleplay: tne sections on Rewards and Character Advancement; ing campaign."
+  }
+}

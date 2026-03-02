@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2.0",
+  "id": "table_37",
+  "name": "Table 37: NONWEAPON PROFICIENCY GROUPS",
+  "category": "table",
+  "tags": [
+    "add_2e",
+    "table",
+    "player_handbook",
+    "toc_normalized"
+  ],
+  "summary": "PHB Table 37 (NONWEAPON PROFICIENCY GROUPS).",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "table_number": 37,
+    "title": "NONWEAPON PROFICIENCY GROUPS",
+    "book_page": 54,
+    "pdf_page": 55,
+    "raw_page_token": "54"
+  },
+  "mechanics": {
+    "source": "toc_parse_v3",
+    "confidence": "medium"
+  }
+}

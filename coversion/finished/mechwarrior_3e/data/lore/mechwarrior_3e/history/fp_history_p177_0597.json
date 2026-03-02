@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "LOOKING TOWARD DAWN From Putting Down the Bully",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 177,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:07Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p177_0597",
+    "entity_type": "history",
+    "name_guess": "LOOKING TOWARD DAWN From Putting Down the Bully",
+    "breadcrumb_path": "Rules Compendium > Page 177 > history > LOOKING TOWARD DAWN From Putting Down the Bully",
+    "page_refs": [
+      177
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [
+      "3062"
+    ],
+    "stat_tokens": [],
+    "excerpt": "LOOKING TOWARD DAWN From Putting Down the Bully , Andrea Paliwoda; ComStar Archives, 3062 The reborn Star League defeated the most powerful Crusader Clan on its own homeworld because we finally bridged the technology gap: Clan weapons are still more powerful and more efficient than ours_ and the Clans have far better produc- tion capabilities_ But more and more of our factories are retool ing their assembly lines every day to build advanced weapons and the vehicles to carry them into battle."
+  }
+}

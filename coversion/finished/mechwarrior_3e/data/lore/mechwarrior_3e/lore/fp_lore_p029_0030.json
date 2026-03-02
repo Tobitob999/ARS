@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "lore_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "lore",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "While may be forbidden to question the state",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 29,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:44Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_lore_p029_0030",
+    "entity_type": "lore",
+    "name_guess": "While may be forbidden to question the state",
+    "breadcrumb_path": "Rules Compendium > Page 029 > lore > While may be forbidden to question the state",
+    "page_refs": [
+      29
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "While may be forbidden to question the state or the author ity of the ruling House Liao_ Capellan citizens enjoy great deal of freedom their personal lives Humankind' various religions and philosophies live together more harmoniously the Confederation than in any other nation. Racia and sexual dis- crimination are virtually unneard caste system exists for those who are not warriors nobility; but it acts more as means of improving the quality of life for each caste rather than as the kind of rigid stratifier that exists among the Clans and in the Draconis Combine."
+  }
+}

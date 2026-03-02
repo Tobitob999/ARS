@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_1_mapping",
+    "tsr_inc_ad_and_d_2nd_edition_hr4_a_mighty_fortress_text"
+  ],
+  "summary": "Abgeleiteter Phase-1-Chunk aus Kapitelmarkern fuer TSR Inc - AD&D 2nd Edition - HR4 - A Mighty Fortress_text.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - HR4 - A Mighty Fortress_text",
+    "source_file": "TSR Inc - AD&D 2nd Edition - HR4 - A Mighty Fortress_text.pdf",
+    "chapter_map_file": "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_hr4_a_mighty_fortress_text_chapter_map.json",
+    "text": "Chapter 6: The New World .......... 85 (first_seen_pdf_page=3)\nChapter 1: A Stirring History ......... 4 Chapter 7: Folklore and Fantasy ...... 86 (first_seen_pdf_page=3)\nChapter 2: The Pattern of Daily Life .. 19 Monsters . . (first_seen_pdf_page=3)\nChapter 8: Adventuring ............. 93 (first_seen_pdf_page=3)\nChapter 3: Characters .......... an pr (first_seen_pdf_page=3)\nChapter 4: The Military Life ......... 56 ADVANCED DUNGEONS & DRAGONS, AD&D, FORGOTTEN REALMS, and Armor and Weapons ...... PERSE d (first_seen_pdf_page=3)\nChapter 5: Four Wars ............... gd Aes (first_seen_pdf_page=3)"
+  },
+  "mechanics": {
+    "topic": "phase_1_skeleton_mapping",
+    "keywords": [
+      "add_2e",
+      "armor",
+      "book_conversion",
+      "combat",
+      "extensions",
+      "monster",
+      "tsr_inc_ad_and_d_2nd_edition_hr4_a_mighty_fortress_text",
+      "weapon"
+    ],
+    "injection_priority": "permanent",
+    "mapped_skeleton_fields": [
+      "combat",
+      "extensions"
+    ],
+    "raw_text": "Chapter 6: The New World .......... 85 (first_seen_pdf_page=3)\nChapter 1: A Stirring History ......... 4 Chapter 7: Folklore and Fantasy ...... 86 (first_seen_pdf_page=3)\nChapter 2: The Pattern of Daily Life .. 19 Monsters . . (first_seen_pdf_page=3)\nChapter 8: Adventuring ............. 93 (first_seen_pdf_page=3)\nChapter 3: Characters .......... an pr (first_seen_pdf_page=3)\nChapter 4: The Military Life ......... 56 ADVANCED DUNGEONS & DRAGONS, AD&D, FORGOTTEN REALMS, and Armor and Weapons ...... PERSE d (first_seen_pdf_page=3)\nChapter 5: Four Wars ............... gd Aes (first_seen_pdf_page=3)",
+    "derived_from": [
+      "detected_chapters",
+      "detected_appendices"
+    ]
+  }
+}

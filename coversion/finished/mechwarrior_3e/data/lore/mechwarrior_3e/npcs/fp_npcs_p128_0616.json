@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "COMBAT Consciousness Rolls Mw3 characters not have t0",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 128,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:34Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p128_0616",
+    "entity_type": "npcs",
+    "name_guess": "COMBAT Consciousness Rolls Mw3 characters not have t0",
+    "breadcrumb_path": "Rules Compendium > Page 128 > npcs > COMBAT Consciousness Rolls Mw3 characters not have t0",
+    "page_refs": [
+      128
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "0 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [
+      "damage"
+    ],
+    "excerpt": "COMBAT Consciousness Rolls Mw3 characters not have t0 make consciousness rolls like BattleTech warriors; they suffer similar effects when knocked-out Or stunned from damage knocked out character' 5 vehicle I5 treated just Iike character' $ wno failed consciousness roiiin BattleTech."
+  }
+}

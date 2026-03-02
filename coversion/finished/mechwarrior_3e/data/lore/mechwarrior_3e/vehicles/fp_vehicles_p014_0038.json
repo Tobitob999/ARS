@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "vehicles_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "vehicles",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "ROLLING THE DICE Bix-BIDED DICe (DB) MechWarrior uses",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 14,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:40Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_vehicles_p014_0038",
+    "entity_type": "vehicles",
+    "name_guess": "ROLLING THE DICE Bix-BIDED DICe (DB) MechWarrior uses",
+    "breadcrumb_path": "Rules Compendium > Page 014 > vehicles > ROLLING THE DICE Bix-BIDED DICe (DB) MechWarrior uses",
+    "page_refs": [
+      14
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "damage"
+    ],
+    "excerpt": "ROLLING THE DICE Bix-BIDED DICe (DB) MechWarrior uses two different kinds of dice to resolve all Six-sided dice are mainly used for generating damage from actions: ten-sided dice, called D10 for short; and six-sided dice attacks and are also used for certain random tables_ called D6 for short: Each player should have two D1O handy; Note that rolls involving D6 are not normally subject t0 the open-ended and the group should have at east twelve D6 available t0 share results rule among all players_ However; rolling damage for attacks is open-ended; each die that scores 6 iS rolled again and added to the total."
+  }
+}

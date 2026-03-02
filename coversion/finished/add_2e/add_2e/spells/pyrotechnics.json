@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "pyrotechnics",
+  "name": "Pyrotechnics",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Pyrotechnics (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "third",
+    "book_pages": [
+      212,
+      213
+    ],
+    "pdf_pages": [
+      213,
+      214
+    ],
+    "raw_block": "Pyrotechnics (Alteration)\nSphere: Elemental (Fire)\nRange: 160 yards\nComponents: V, S, M\nDuration: Special\nCasting Time: 6\nArea of Effect: 10 or 100 times\nSaving Throw: Special\nA pyrotechnics spell draws on an existing\nfire source to produce either of two effects,\nat the option of the caster.\n* First, it can produce a flashing and fiery\nburst of glowing, colored aerial fireworks\nthat lasts one round. This effect temporarily\nblinds those creatures in, under, or within\n120 feet of the area that also have an unob-\nstructed line of sight to the effect, for ld4 +1\nrounds unless the creatures roll successful\nsaving throws vs. spell. The fireworks fill a\nvolume ten times greater than the original\nf ire source.\n* Second, it can cause a thick, writhing\nstream of smoke to arise from the source\nand form a choking cloud that lasts for one\nround per experience level of the caster. This\ncovers a roughly hemispherical volume\nfrom the ground or floor up (or conforming\nto the shape of a confined area) that totally\nobscures vision beyond two feet. The smoke\na single fire source\n212\nfills a volume 100 times that of the fire\nsource.\nThe spell uses one fire source within the\narea of effect, which is immediately extin-\nguished. An extremely large fire can be used\nas the source, and it is only partially extin-\nguished by the casting. Magical fires are not\nextinguished, although a fire-based creature\n(such as a fire elemental) used as a source\nsuffers ld4 points of damage, plus 1 point of\ndamage per caster level. This spell does not\nfunction under water."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Pyrotechnics",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "160 yards",
+      "components": "V, S, M",
+      "duration": "Special",
+      "casting_time": "6",
+      "area_of_effect": "10 or 100 times",
+      "saving_throw": "Special",
+      "description_excerpt": "A pyrotechnics spell draws on an existing fire source to produce either of two effects, at the option of the caster. * First, it can produce a flashing and fiery burst of glowing, colored aerial fireworks that lasts one round. This effect temporarily blinds those creatures in, under, or within 120 feet of the area that also have an unob- structed line of sight to the effect, for ld4 +1 rounds unless the creatures roll successful saving throws vs. spell. The fireworks fill a volume ten times greater than the original f ire source. * Second, it can cause a thick, writhing stream of smoke to arise from the source and form a choking cloud that lasts for one round per experience level of the caster. This covers a roughly hemispherical volume from the ground or floor up (or conforming to the shape of a confined area) that totally obscures vision beyond two feet. The smoke a single fire source "
+    },
+    "quality_flags": []
+  }
+}

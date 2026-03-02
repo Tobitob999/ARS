@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_profile",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "rules_profile",
+    "tsr_inc_ad_and_d_2nd_edition_dragonlance_tm3_world_of_krynn_trail_map_text"
+  ],
+  "summary": "Automatische Regelprofil-Ableitung aus Volltext fuer TSR Inc - AD&D 2nd Edition - Dragonlance_ TM3 - World of Krynn Trail Map_text.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - Dragonlance_ TM3 - World of Krynn Trail Map_text",
+    "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ TM3 - World of Krynn Trail Map_text.pdf",
+    "pages_jsonl": "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dragonlance_tm3_world_of_krynn_trail_map_text_pages.jsonl",
+    "chapter_map": "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dragonlance_tm3_world_of_krynn_trail_map_text_chapter_map.json",
+    "page_count_detected": 15
+  },
+  "mechanics": {
+    "extraction_mode": "keyword_scored_page_evidence",
+    "detected_fields": [
+      {
+        "field": "extensions",
+        "score": 1,
+        "confidence": 0.05,
+        "priority": "flavor",
+        "page_refs": [
+          1
+        ],
+        "keyword_matches": [],
+        "evidence_excerpt": "== “gaagenjas ANCE. — ۱ Official Game Accessory The World of Krynn"
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "- 31 Atacker walking Attacker running Target evading",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 222,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:31Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p222_0877",
+    "entity_type": "npcs",
+    "name_guess": "- 31 Atacker walking Attacker running Target evading",
+    "breadcrumb_path": "Rules Compendium > Page 222 > npcs > - 31 Atacker walking Attacker running Target evading",
+    "page_refs": [
+      222
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [
+      "3010"
+    ],
+    "stat_tokens": [
+      "TN"
+    ],
+    "excerpt": "- 31 Atacker walking Attacker running Target evading #(target' $ Acrobatics Skill Bonus *1 Totgel stunned Target daone Oelaved aclion Special Weapons Burst-fice attack Suppressing fire Grenade altack Indirect fire attacl spotter Indirect fire attack without spotter Aimied Shots (I Hit Location rules are erfect) Chesi Aimt aodomen Head; hand foot Action Modifiers Acting Character Walking Acting Character Running Skilled Character helping (per cnaracter) Extra Time (pet doubling base time) Rush Job per nalving base time| TN Modlfier each (max each (max each (max +6) Untralned SkilI Use Standard skill: roll 3010, use worst 2 Dilficull skill: roli 4D10, use worst Apply modifiers for both Link Attributes; TN Modlfler 2-3 46 Kat mret mncoile[ Deders DiE rECOI talina UeMnHmoma stoly lired; per ] Yholy Iited: unJ Difficulty modifiers do not apply the TN derived from the target's Attributes."
+  }
+}

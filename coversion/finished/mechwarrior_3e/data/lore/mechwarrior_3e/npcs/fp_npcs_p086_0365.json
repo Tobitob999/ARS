@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "The more points in the trait, the worse",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 86,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:09Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p086_0365",
+    "entity_type": "npcs",
+    "name_guess": "The more points in the trait, the worse",
+    "breadcrumb_path": "Rules Compendium > Page 086 > npcs > The more points in the trait, the worse",
+    "page_refs": [
+      86
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "The more points in the trait, the worse tne char- acter vision: for points of Poor Vision the character suffers +1 target number modifier for all sight-based Action Checks lincluding ranged attacks), though this can be corrected with glasses or contact lenses points represents very poor vision resulting +3 t0 all signt-based TNs that iS reduced to +1 the character wears corrective lenses."
+  }
+}

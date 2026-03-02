@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_page",
+  "tags": [
+    "gurps_4e",
+    "fulltext",
+    "pdf_page"
+  ],
+  "summary": "PDF-Seite 347 aus GURPS - 4th Edition - Basic Set.pdf.",
+  "source_text": {
+    "book": "GURPS - 4th Edition - Basic Set",
+    "pdf_page": 347,
+    "text": "Whenever a character attempts to\nperform an action (e.g., use a skill),\nroll three dice to determine the out-\ncome. This is called a success roll. The\ntask in question succeeds if the total rolled\non the dice is less than or equal tothe num-\nber that governs the action – most often a\nskill or an attribute. Otherwise, it fails.\nExample: If you attempt to pick a lock\nwith a Lockpicking skill of 9, you must roll\n9 or less on 3d to succeed. On a roll of 10\nor more, you fail.\nRegardless of the score you are rolling\nagainst, a roll of 3 or 4 is always a success,\nwhile a roll of 17 or 18 is always a failure.\nIn general, the player makes the die rolls\nfor his character’s actions. However, the GM\nmay always choose to roll the dice in secret\n– see When the GM Rolls (p. 344).\nWHEN TO ROLL\nTo avoid bogging down the game in endless\ndie rolls, the GM should only require a suc-\ncess roll if there is a chance ofmeaning-\nful failure or gainful success. In par-\nticular, the GMshould require suc-\ncess rolls when . . .\n• A PC’s health, wealth, friends, reputation, or equipment are\nat risk. This includes chases, combat (even if the target is stationary\nand at point-blank range!), espionage, thievery, and similar “adventur-\ning” activities.\n• A PC stands to gain allies, information, new abilities, social stand-\ning, or wealth.\nThe GM should not require rolls for . . .\n• Utterly trivial tasks, such as crossing the street, driving into town,\nfeeding the dog, finding the corner store, or turning on the computer.\n• Daily work at a mundane, nonadventuring job. (To evaluate job\nperformance, make monthly “job rolls”; seeJobs, p. 516.)\nSUCCESS ROLLS 343\nCHAPTER TEN\nSUCCESS ROLLS\nRegardless of the score you are \nrolling against, a roll of 3 or 4 is always\na success, while a roll of 17 or 18 is\nalways a failure.\n"
+  },
+  "mechanics": {
+    "conversion": "fulltext_page_dump",
+    "generated_at": "2026-03-02T15:00:00"
+  }
+}

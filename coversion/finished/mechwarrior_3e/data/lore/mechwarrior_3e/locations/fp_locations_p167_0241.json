@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "locations_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "locations",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "English and German Sphere_ spinward and rimward of",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 167,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:00Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_locations_p167_0241",
+    "entity_type": "locations",
+    "name_guess": "English and German Sphere_ spinward and rimward of",
+    "breadcrumb_path": "Rules Compendium > Page 167 > locations > English and German Sphere_ spinward and rimward of",
+    "page_refs": [
+      167
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "English and German Sphere_ spinward and rimward of Terra; incorporates hun: are the official anguages of the Alliance_ dreds of worlds _ ranging from agrarian idylls to planets bristling with nign-tech megacities_ Tne official language tne Tharkad Federated Suns English: much ot the past tnirty odd The Lyran capital iS cold; rocky world with harsh winters years, the Federated Suns and the Lyran Commonwealth togeth: and a arctic zone that extends down to the thirtieth parallel: made up the Federated Commonwealth; nation vast mil: The original colonists imported many Terran plants and animals, Mtary and economic power."
+  }
+}

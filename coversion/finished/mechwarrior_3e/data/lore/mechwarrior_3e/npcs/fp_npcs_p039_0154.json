@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Bureaucracy /Mercenary +2, Negotiation +2 Pistols +1 Tactics_",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 39,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:51Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p039_0154",
+    "entity_type": "npcs",
+    "name_guess": "Bureaucracy /Mercenary +2, Negotiation +2 Pistols +1 Tactics_",
+    "breadcrumb_path": "Rules Compendium > Page 039 > npcs > Bureaucracy /Mercenary +2, Negotiation +2 Pistols +1 Tactics_",
+    "page_refs": [
+      39
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Bureaucracy /Mercenary +2, Negotiation +2 Pistols +1 Tactics_ Any +1, Technician/Any +1, Training +2 , Brawling +1 Next Path: Trade School (3), Techical College (3), Police Academy (3), Military Enlistment (3), Military Academy (3 represents the Outreach Mercenary Training Command) , Ne'er-Do-Well (4), Civilian Job (4), Yakuza (4_ Draconis Combine Affiliation only) Military School Events Involved in terrible hazing incident [Glass Jaw] Training accident [Choose one: Lost Limb Poor Hearing; Poor Vision] You re just not cut out for the military (Timid; may not enter an Academy) Mercenary Brat Events Caught in the crossfire [Choose two: Lost Limb, Combat Paralysis Timid] 38"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "flaming_sphere",
+  "name": "Flaming Sphere",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Flaming Sphere (Evocation) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "second",
+    "book_pages": [
+      141
+    ],
+    "pdf_pages": [
+      142
+    ],
+    "raw_block": "Flaming Sphere (Evocation)\nRange: 10 yards\nComponents: V, S, M\nDuration: 1 round/level\nCasting Time: 2\nArea of Effect: 3-foot-radius sphere\nSaving Throw: Neg.\nA flaming sphere spell creates a burning\nglobe of fire within ten yards of the caster.\nThis sphere rolls in whichever direction the\nwizard points, at a rate of 30 feet per round.\nIt rolls over barriers less than four feet tall,\nsuch as furniture, low walls, etc. Flammable\nsubstances are set afire by contact with the\nsphere. Creatures in contact with the globe\nmust successfully save vs. spell or suffer 2d4\npoints of fire damage. Those within five feet\nof the sphere's surface must also save or suf-\nfer ld4 points of heat damage. A successful\nsaving throw means no damage is suffered.\nThe DM may adjust the saving throws if\nthere is little or no room to dodge the\nsphere.\nThe sphere moves as long as the spell-\ncaster actively directs it, otherwise it merely\nstays at rest and bums. It can be extin-\nguished by the same means as any normal\nfire of its size. The surface of the sphere has\na spongy, yielding consistency and so does\nnot cause damage except by its flame. It can-\nnot push unwilling creatures aside or batter\ndown large obstacles.\nThe material components are a bit of tal-\nlow, a pinch of sulphur, and a dusting of\npowdered iron."
+  },
+  "mechanics": {
+    "school_or_type": "Evocation",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Flaming Sphere",
+      "canonical_name_guess": null,
+      "school_or_type": "Evocation",
+      "range": "10 yards",
+      "components": "V, S, M",
+      "duration": "1 round/level",
+      "casting_time": "2",
+      "area_of_effect": "3-foot-radius sphere",
+      "saving_throw": "Neg.",
+      "description_excerpt": "A flaming sphere spell creates a burning globe of fire within ten yards of the caster. This sphere rolls in whichever direction the wizard points, at a rate of 30 feet per round. It rolls over barriers less than four feet tall, such as furniture, low walls, etc. Flammable substances are set afire by contact with the sphere. Creatures in contact with the globe must successfully save vs. spell or suffer 2d4 points of fire damage. Those within five feet of the sphere's surface must also save or suf- fer ld4 points of heat damage. A successful saving throw means no damage is suffered. The DM may adjust the saving throws if there is little or no room to dodge the sphere. The sphere moves as long as the spell- caster actively directs it, otherwise it merely stays at rest and bums. It can be extin- guished by the same means as any normal fire of its size. The surface of the sphere has a spongy,"
+    },
+    "quality_flags": []
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "one-piece unitorm popularized pilots and Fatigues Fatigues_ with",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 142,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:39Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p142_0675",
+    "entity_type": "npcs",
+    "name_guess": "one-piece unitorm popularized pilots and Fatigues Fatigues_ with",
+    "breadcrumb_path": "Rules Compendium > Page 142 > npcs > one-piece unitorm popularized pilots and Fatigues Fatigues_ with",
+    "page_refs": [
+      142
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "one-piece unitorm popularized pilots and Fatigues Fatigues_ with their multiple pockets and resilient fabric are two piece uniform (shirt and trousers), They can be found just about ay exchange or even many large civilian clothing stores; Leather Clothing Leather coats vests_ shoes and gloves are made either from genuine anima hide or from synthetic substitutes_ Combat Boots These are heavy boots designed to protect the wearer'S feet against the lements_ They are tough enough to deflect sorne weapol attacks and also provide enough stability to pre- vent most common sprains and breaks Heavy Combat Gloves Too bulky be commonly worn_ these gloves are combi- nation flak and ablative plates."
+  }
+}

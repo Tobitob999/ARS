@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "affect_normal_flrer",
+  "name": "Affect Normal Flrer",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Affect Normal Flrer (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": null,
+    "spell_list": null,
+    "level_band": null,
+    "book_pages": [
+      131
+    ],
+    "pdf_pages": [
+      132
+    ],
+    "raw_block": "Affect Normal Flrer (Alteration)\nRange: 5 yarddlevel\nComponents: V, S\nDuration: 2 roundsllevel\nCasting Time: 1\nArea of Effect: 10-foot radius\nSaving Throw: None\nThis spell enables the wizard to cause\nnonmagical fires-from as small as a torch\nor lantern to as large as the area of effect-\nto reduce in size and brightness to become\nmere coals or increase in light to become as\nbnght as full daylight and increase the illu-\nmination to double the normal radius. Note\nthat this does not affect either fuel consump-\ntion or damage caused by the fire. The\ncaster can affect any or all fires in the spell's\narea. He can alter their intensities with a sin-\ngle gesture as long as the spell is in effect.\nThe spell lasts until the caster cancels it, all\nfuel is burned, or the duration expires. The\ncaster can also extinguish all flames in the\narea, which expends the spell immediately.\nThe spell does not affect fire elementals or\nsimilar creatures."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Affect Normal Flrer",
+      "canonical_name_guess": "Affect Normal Fire",
+      "school_or_type": "Alteration",
+      "range": "5 yarddlevel",
+      "components": "V, S",
+      "duration": "2 roundsllevel",
+      "casting_time": "1",
+      "area_of_effect": "10-foot radius",
+      "saving_throw": "None",
+      "description_excerpt": "caster can also extinguish all flames in the area, which expends the spell immediately. The spell does not affect fire elementals or similar creatures."
+    },
+    "quality_flags": [
+      "canonical_name_guess_applied"
+    ]
+  }
+}

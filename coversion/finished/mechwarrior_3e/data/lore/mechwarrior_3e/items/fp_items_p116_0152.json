@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "This effect is determined by comparing the armor",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 116,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:30Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p116_0152",
+    "entity_type": "items",
+    "name_guess": "This effect is determined by comparing the armor",
+    "breadcrumb_path": "Rules Compendium > Page 116 > items > This effect is determined by comparing the armor",
+    "page_refs": [
+      116
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "AP",
+      "armor",
+      "damage",
+      "wound"
+    ],
+    "excerpt": "This effect is determined by comparing the armor penetration (API value of the weapon being used (see Equipment Data; 132 and Weapon Table, 153) t0 the armor value (AV) of the target: If the AP is equal to higher than the AV; the armor has no effect and the wound result stands_ If the AV is higher than the AP; each point by which the AV is higher than the AP reduces the wound effect by one level o the table If armor reduces the damage down past the 'Fatigue Only level; the attacknas no effect at all Unless the target's armor reduces the effect below the Fatigue Only level, any successful attack inflicts point Fatigue on the target, in addition to any wound effects."
+  }
+}

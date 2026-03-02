@@ -237,7 +237,17 @@ class Archivist:
         row2 = cur2.fetchone()
         if row2 and row2[0]:
             try:
-                self._world_state = json.loads(row2[0])
+                ws = json.loads(row2[0])
+                # Sicherheitscheck: nur dicts erlaubt (keine lists)
+                if isinstance(ws, dict):
+                    self._world_state = ws
+                else:
+                    logger.warning(
+                        "world_state ist keine dict (sondern %s). "
+                        "Setze auf leeres dict.",
+                        type(ws).__name__,
+                    )
+                    self._world_state = {}
             except json.JSONDecodeError:
                 self._world_state = {}
         else:

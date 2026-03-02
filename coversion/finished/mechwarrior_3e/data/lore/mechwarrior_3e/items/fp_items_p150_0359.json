@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "EQUIPMENT FCDO popular with engineers and scientists wno",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 150,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:54Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p150_0359",
+    "entity_type": "items",
+    "name_guess": "EQUIPMENT FCDO popular with engineers and scientists wno",
+    "breadcrumb_path": "Rules Compendium > Page 150 > items > EQUIPMENT FCDO popular with engineers and scientists wno",
+    "page_refs": [
+      150
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "EQUIPMENT FCDO popular with engineers and scientists wno work extensively in tne scanalyzer hand offers Modifier field. Having Excellent Equipment on Hand) to any relevant Skill Check."
+  }
+}

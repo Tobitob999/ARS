@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.2.1",
+  "id": "flame_walk",
+  "name": "Flame Walk",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Flame Walk (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "third",
+    "book_pages": [
+      210,
+      211
+    ],
+    "pdf_pages": [
+      211,
+      212
+    ],
+    "raw_block": "Flame Walk (Alteration)\nSphere: Elemental (Fire)\nRange: Touch\nComponents: V, S, M\nDuration: 1 round + l/level\nCasting Time: 5\nArea of Effect: Creature(s) touched\nSaving Throw: None\n1 By means of this spell, the caster I\nempowers one or more creatures to with- I\nstand nonmagical fires of temperatures up /\nto 2,OOOO E (enabling them to walk upon ,\nmolten lava). It also confers a +2 bonus to\nsaving throws against magi4 fire and ,\nreduces damage from such fires by one-half,\neven if the saving throw is failed. For every 1 experience level above the minimum 1\nrequired to cast the spell (5th), the priest can 1\naffect an additional creature. This spell is 1\nnot cumulative with resist fire spells or\nlar protections.\nThe material components of the spell\nthe priest's holy symbol and at least 500\nof powdered ruby per affected creature."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Flame Walk",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "1 round + l/level",
+      "casting_time": "5",
+      "area_of_effect": "Creature(s) touched",
+      "saving_throw": "None",
+      "description_excerpt": "1 By means of this spell, the caster I empowers one or more creatures to with- I stand nonmagical fires of temperatures up / to 2,OOOO E (enabling them to walk upon , molten lava). It also confers a +2 bonus to saving throws against magi4 fire and , reduces damage from such fires by one-half, even if the saving throw is failed. For every 1 experience level above the minimum 1 required to cast the spell (5th), the priest can 1 affect an additional creature. This spell is 1 not cumulative with resist fire spells or lar protections. The material components of the spell the priest's holy symbol and at least 500 of powdered ruby per affected creature."
+    },
+    "quality_flags": [
+      "trimmed_merged_block"
+    ]
+  }
+}

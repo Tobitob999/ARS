@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "dollars 1999.1 The Black Market On occasion; character",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 132,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:36Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p132_0399",
+    "entity_type": "history",
+    "name_guess": "dollars 1999.1 The Black Market On occasion; character",
+    "breadcrumb_path": "Rules Compendium > Page 132 > history > dollars 1999.1 The Black Market On occasion; character",
+    "page_refs": [
+      132
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "dollars 1999.1 The Black Market On occasion; character MIgnt want t0 purchase gear that Legal Means illegal. Without the proper credentials, this equipment could Most of the time, character will make purchases legiti- be impossible t0 legally obtain; Perhaps the character doesn mately, just as in real life_ General clothing and personal goods Want to jump through ail of the hoops needed t0 get the cre- can be found at department\" stores small shops_ venicles dentials eaving paper trail car be dargerous."
+  }
+}

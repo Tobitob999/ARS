@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "but do not apply the Attribute threshold modifiers",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 49,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:55Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p049_0186",
+    "entity_type": "history",
+    "name_guess": "but do not apply the Attribute threshold modifiers",
+    "breadcrumb_path": "Rules Compendium > Page 049 > history > but do not apply the Attribute threshold modifiers",
+    "page_refs": [
+      49
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "0 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "but do not apply the Attribute threshold modifiers listed for that path and assume the training takes four years] You hate your job ad daydream the hours away (-1 to all skills gained from this path] Standard worker drone [+1 to any one skill] You get raise [Wealth] Hard work pays off with raise and promotion [Wealth (2), Administration +1- Leadership +1] Your dedication gets you noticed by government officials_ who approve you for advanced training (Wealth, Protocol / Affiliation +2; may choose any Higher Education Path next] You become primary interstellar representative for your company [Well Connected (2), Wealth_ Language /Any +1, Negotiation +2, Zero G Operations +1] [Choose one event or roll twice and apply both results] FREE TRADER Though interstellar cartels dominate shipping and trade in the thirty-first century; the independent free trader is nonethe less common sight across the Inner Sphere especially in war-torn or remote areas where larger corporations are reluc tant to operate_ In these regions resourceful person can make serious profit, Tlme: years Attribute Minlmums: CHA Skllls: Zero G Operations +1 Appraisal +2, Negotiation +2, choose one; Fast Talk +2, Interest/ Any +2, Protocol /Any +2, Scrounge +1_ Language Any Next Path: Ne'er-Do-Well (4), Civilian Job (4), Free Trader (4 only if character has the Wealth Trait; takes money t0 make money) COVERT Ops Your nation summons YOU to perform well beyond the call of duty: You will earn significant rewards if you survive The player determines the specific duty covered by this path, rang ing from sabotage ad infiltration to assassination ad fomenting rebellion."
+  }
+}

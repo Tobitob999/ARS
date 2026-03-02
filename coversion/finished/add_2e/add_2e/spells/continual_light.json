@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "continual_light",
+  "name": "Continual Light",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Continual Light (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "third",
+    "book_pages": [
+      209
+    ],
+    "pdf_pages": [
+      210
+    ],
+    "raw_block": "Continual Light (Alteration)\nReversible\nSphere: Sun\nRange: 12oyards\nComponents: V, S\nDuration: Permanent\nCasting Time: 6\nArea of Effect: *foot-radius globe\nsaving Throw: special\nThis spell is similar to a fight spell, except\nthat it is as bright as full daylight and lasts\nuntil negated by magical darkness or by a\ndispe2 mgic spell. Creatures with penalties\nin bright light suffer them in this spell's area\nof effect. As with the light spell, this can be\ncast into air, onto an object, or at a creature.\nIn the third case, the continual light affects\nthe space about one foot behind a creature\nthat successfully rolls its saving throw vs.\nspell (a failed saving throw means the con-\ntinual light is centered on the creature and\nmoves as it moves). Note that this spell as0\nblinds a creature if it is successfully cast\nupon the creature's visual organs. If the spell\nis cast on a small object that is then placed in\na light-proof covering, the spell effects are\nblocked until the covering is removed.\nContinual light brought into an area of\nmagical darkness (or vice versa) cancels the\ndarkness so that the otherwise prevailing\nlight conditions exist in the overlapping\nareas of effect. A direct casting of a contin-\nuuf fight spell against a similar or weaker\nmagical darkness cancels both.\nThis spell eventually consumes the mate-\nrial it is cast upon, but the process takes far\nlonger than the time in a typical campaign.\nExtremely hard and expensive materials\nmight last hundreds or even thousands of\nyears.\nThe reverse spell, continual darkness,\ncauses complete absence of light (pitch\nblackness), similar to the darkness spell but\nof greater duration and area."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Continual Light",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "12oyards",
+      "components": "V, S",
+      "duration": "Permanent",
+      "casting_time": "6",
+      "area_of_effect": "*foot-radius globe",
+      "saving_throw": "special",
+      "description_excerpt": ""
+    },
+    "quality_flags": []
+  }
+}

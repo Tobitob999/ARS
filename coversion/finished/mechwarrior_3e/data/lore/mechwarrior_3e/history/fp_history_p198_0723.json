@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Only recertly have the Successor States recovered the",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 198,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:18Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p198_0723",
+    "entity_type": "history",
+    "name_guess": "Only recertly have the Successor States recovered the",
+    "breadcrumb_path": "Rules Compendium > Page 198 > history > Only recertly have the Successor States recovered the",
+    "page_refs": [
+      198
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "armor"
+    ],
+    "excerpt": "Only recertly have the Successor States recovered the necessary knowledge ad started t0 rebuild their WarShip fleets ORGANIZATIONAL STRUCTURE OF INNER BPHERE MILITARIE8 GROUND UNITS Formatlon Compositlon Number Units Squad troopers Lance vehicles Platoon squads 28 troopers Company lances platoons 12 vehicles 84 troopers Battalion companies 36 vehicles/252 troopers Regiment battalions 108 vehicles/756 troopers AEROSPACE UNITS Formatlon Compositlon Lance Squadron lances wing squadrons Regiment more wings Number of Units fighters fighters 18 fighters 54+ fighters FORCES OF WAR With exceptions_ armed lorces acioss Ihe Inner Sphere employ Similar organizational and commard slruc- tures, Even ComSlar and its splintcr groud; the Word Blake structure that most professional soldiers would recognize_ Only the Clans Organize their forces complelely different way Star League formations of the 5aMc namc the RCT com- Dincs BattleMech rcgiment with three armor ad five infartry regiments and other supportirg elements; inciuding Iwo dero space wings House militaries use no standard formations Iarg er than an RCT, though occasionally they assemble Iarge task force for Ine duration of military operation; Support staff for large formalions includes such essential personnel as medics; tecnnicians."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "quests_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "quests",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "CLAN MILITARY ORGANIZATIONAL STRUCTURE Formation Point Star Binary",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 201,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:20Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_quests_p201_0173",
+    "entity_type": "quests",
+    "name_guess": "CLAN MILITARY ORGANIZATIONAL STRUCTURE Formation Point Star Binary",
+    "breadcrumb_path": "Rules Compendium > Page 201 > quests > CLAN MILITARY ORGANIZATIONAL STRUCTURE Formation Point Star Binary",
+    "page_refs": [
+      201
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "CLAN MILITARY ORGANIZATIONAL STRUCTURE Formation Point Star Binary Trinary Cluster Galaxy Composition Points Stars Stars Binaries / Trinaries 3-5 Clusters powCl . especiailly Assauts AEainst for tificatior s M Con stricted terrain units |arcer Inan Star. Clan organization becomes moro compler and icss rgid Bmnaries Made Stars and Trinaries; Wada three TeIded almosi Fd numeers Unrouehout the Cilns Volg emnplo.ed thc same unes missions Sunemova Binaries and Trinaries rcplace theit standard 5ta'a wth Nova Su5 ."
+  }
+}

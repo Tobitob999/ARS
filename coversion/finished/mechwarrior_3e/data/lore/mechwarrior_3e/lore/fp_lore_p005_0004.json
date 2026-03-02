@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "lore_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "lore",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Beas Brief History of the Inner Sphere Michael",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 5,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:21Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_lore_p005_0004",
+    "entity_type": "lore",
+    "name_guess": "Beas Brief History of the Inner Sphere Michael",
+    "breadcrumb_path": "Rules Compendium > Page 005 > lore > Beas Brief History of the Inner Sphere Michael",
+    "page_refs": [
+      5
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Beas Brief History of the Inner Sphere Michael Stackpole Diane Piron-Gelman By The Numbers Loren Coleman Spoclal Thanks the creaiors BartieTech; Jordan Wcismar Ross Bubcocr and tne olner desirners Lhe first nd Second editons Alchwarnoc Walicr Funt Evan Jamieson Ricnard MelerMiae Nsit _ Lesier Smith and Kevin Stein. Tnis would?"
+  }
+}

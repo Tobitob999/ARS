@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "maze",
+  "name": "Maze",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Maze (Conjuratiodiummoning) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "eighth",
+    "book_pages": [
+      190
+    ],
+    "pdf_pages": [
+      191
+    ],
+    "raw_block": "Maze (Conjuratiodiummoning)\nRange: 5 yarddlevel\nComponents: V, S\nDuration: Special\nCasting Time: 3\nArea of Effect: 1 creature\nSaving Throw: None\nAn extradimensional space is brow.: into\nbeing upon utterance of a maze spell. The sub-\nject vanishes into the shifhng labyrinth of\nforce planes for a period of time that is totally\ndependent upon its Inwce. (Note: Mino-\ntaw are not affected by this spell.)\nIntelligence of\nMazed Creqture\nunder 3\n3 to 5\n6 to 8\n9 to 11\n12 to 14\n15 to 17\n18 and up\nTime Trapped\nin Maze\n2d4 turns\nld4 turns\n5d4 rounds\n4d4 rounds\n3d4 rounds\n2d4 rounds\nld4 rounds\nNote that teleport and dimension door\nspells will not help a character escape a\nmaze spell, although a plane shifting spell\nwill."
+  },
+  "mechanics": {
+    "school_or_type": "Conjuratiodiummoning",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Maze",
+      "canonical_name_guess": null,
+      "school_or_type": "Conjuratiodiummoning",
+      "range": "5 yarddlevel",
+      "components": "V, S",
+      "duration": "Special",
+      "casting_time": "3",
+      "area_of_effect": "1 creature",
+      "saving_throw": "None",
+      "description_excerpt": "An extradimensional space is brow.: into being upon utterance of a maze spell. The sub- ject vanishes into the shifhng labyrinth of force planes for a period of time that is totally dependent upon its Inwce. (Note: Mino- taw are not affected by this spell.) Intelligence of Mazed Creqture under 3 3 to 5 6 to 8 9 to 11 12 to 14 15 to 17 18 and up Time Trapped in Maze 2d4 turns ld4 turns 5d4 rounds 4d4 rounds 3d4 rounds 2d4 rounds ld4 rounds Note that teleport and dimension door spells will not help a character escape a maze spell, although a plane shifting spell will."
+    },
+    "quality_flags": []
+  }
+}

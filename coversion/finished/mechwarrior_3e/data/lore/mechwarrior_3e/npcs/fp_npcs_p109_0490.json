@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "211) for com: plete rules on the use",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 109,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:28Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p109_0490",
+    "entity_type": "npcs",
+    "name_guess": "211) for com: plete rules on the use",
+    "breadcrumb_path": "Rules Compendium > Page 109 > npcs > 211) for com: plete rules on the use",
+    "page_refs": [
+      109
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "211) for com: plete rules on the use of this skill THROWING WEAPONS The Throwing Weapons Skill confers expertise with throwing weapons including knives_ spears tomahawks and even grenades_ WhiPS This combat skill covers the use of all whip-like and articu lated melee weapons including chains and flails TRACKING The Tracking Skill enables characters t0 follow the trail left character or creature Gamemasters should modify Tracking target numbers based on the environment and the sub ject being tracked If the subject has the Tracking Skill and is trying to cover his trail; determine success using an Opposed Skill Test."
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "module": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "total_turns": 5,
+  "total_latency_ms": 6363.763399996969,
+  "avg_latency_ms": 1272.7526799993939,
+  "avg_response_chars": 219.8,
+  "avg_sentences": 5.2,
+  "total_probes": 0,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich schaue mich im Raum um.",
+      "keeper_response": "Du stehst in einem aufgeräumten Büro. Aktenstapel türmen sich auf einem massiven Schreibtisch. Der Geruch von altem Papier liegt in der Luft. Eine staubige Gaslampe steht auf einem Beistelltisch.\n\nWas suchst du? [ZEIT_VERGEHT: 0.1h]",
+      "response_chars": 232,
+      "response_sentences": 5,
+      "latency_ms": 1440.3821999949287,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich untersuche die Buecher auf dem Schreibtisch.",
+      "keeper_response": "Auf dem Schreibtisch liegen dicke Wälzer. Es sind hauptsächlich juristische Texte. Einige behandeln Immobilienrecht. Andere sind Register über alte Bostoner Familien.\n\nWas möchtest du als Nächstes tun? [ZEIT_VERGEHT: 0.1h]",
+      "response_chars": 222,
+      "response_sentences": 5,
+      "latency_ms": 1003.9824999985285,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich oeffne die Tuer zum Keller.",
+      "keeper_response": "Du suchst nach einer Kellertür. Im Büro von Mr. Knott gibt es jedoch keine solche Tür. Nur die schwere Holztür, durch die du hereingekommen bist, unterbricht die Wand.\n\nWas möchtest du stattdessen untersuchen? [ZEIT_VERGEHT: 0.1h]",
+      "response_chars": 230,
+      "response_sentences": 5,
+      "latency_ms": 1989.9535000004107,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich leuchte mit der Taschenlampe in die Dunkelheit.",
+      "keeper_response": "Es gibt keine Dunkelheit in Mr. Knotts Büro. Das Tageslicht fällt durch das Fenster. Die Gaslampe wirft ein warmes Licht. Der Raum ist gut ausgeleuchtet.\n\nWo möchtest du mit deiner Taschenlampe hinleuchten? [ZEIT_VERGEHT: 0.1h]",
+      "response_chars": 227,
+      "response_sentences": 6,
+      "latency_ms": 1061.287299999094,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich rufe nach meinen Begleitern.",
+      "keeper_response": "Du rufst in den Raum hinein. Deine Worte verhallen in der Stille. Es sind keine Begleiter hier. Nur das leise Ticken einer Uhr ist zu hören.\n\nWas tust du als Nächstes? [ZEIT_VERGEHT: 0.1h]",
+      "response_chars": 188,
+      "response_sentences": 5,
+      "latency_ms": 868.1579000040074,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

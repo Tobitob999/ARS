@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "EQUIPMENT Wcnnon in meters_ For vehicles range detines",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 134,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:36Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p134_0650",
+    "entity_type": "npcs",
+    "name_guess": "EQUIPMENT Wcnnon in meters_ For vehicles range detines",
+    "breadcrumb_path": "Rules Compendium > Page 134 > npcs > EQUIPMENT Wcnnon in meters_ For vehicles range detines",
+    "page_refs": [
+      134
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "EQUIPMENT Wcnnon in meters_ For vehicles range detines how tar can uavel before needing t0 be refueled_ Recharge Rate: The standard number of power points recharger can produce each hour Refueling Cost: The C-bill cost to refuel venicle 0r item. Reload Cost: The C bill cost of ammunition rounds to fully reload thc weapon. The cost of an individual round can be found oy dividing the Reload Cost by the weapon\" = Snots Shots: The rounds weapon magazine holds (and; extension_ tne number of standard shots character can make before needing to reload}."
+  }
+}

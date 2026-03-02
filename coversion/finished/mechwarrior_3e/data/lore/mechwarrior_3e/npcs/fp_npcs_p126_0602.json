@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "COMBAT treatment and recovery times can be found",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 126,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:33Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p126_0602",
+    "entity_type": "npcs",
+    "name_guess": "COMBAT treatment and recovery times can be found",
+    "breadcrumb_path": "Rules Compendium > Page 126 > npcs > COMBAT treatment and recovery times can be found",
+    "page_refs": [
+      126
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "WOUND",
+      "Wound",
+      "wound"
+    ],
+    "excerpt": "COMBAT treatment and recovery times can be found the Wound Treatment Table 1251. Wound nealing WOUND TAEATMENT TABLE tires are consecutive, nol simuitancous and less wounds heal first . Wound SklII Treatment Rocovery Untreated Once wound is treated the character still suf- Type Requlred Tlme Tlme Heallng Tlme fers half the effects of the wound until the wound IS Bleeding Frst Ald turn fully healed."
+  }
+}

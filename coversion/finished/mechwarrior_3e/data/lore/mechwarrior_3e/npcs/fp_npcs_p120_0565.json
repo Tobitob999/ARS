@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Each attack that hits resoived as stan dard",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 120,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:32Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p120_0565",
+    "entity_type": "npcs",
+    "name_guess": "Each attack that hits resoived as stan dard",
+    "breadcrumb_path": "Rules Compendium > Page 120 > npcs > Each attack that hits resoived as stan dard",
+    "page_refs": [
+      120
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "3 M",
+      "6 M"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [
+      "TN"
+    ],
+    "excerpt": "Each attack that hits resoived as stan dard single-shot attack; any additional characters enter cross the line Of fire before Jack starts his next phase, they would each be attacked: INDIRECT FIRE Some kinds attacks can be launched over intervening obstacles at targets the attacker can\" see _ such as grenades and mortars These attacks are called indirect attacks_ there i5 friendly character who has LOS the target; and that character has some Wav communicale witn the attacking character, tnen the friendly character can act as spotter for the attack by spending Complex Action; In this case, the TN has +3 Modifier: there no spotter for an indi\" attack; the TN has +6 Modifier."
+  }
+}

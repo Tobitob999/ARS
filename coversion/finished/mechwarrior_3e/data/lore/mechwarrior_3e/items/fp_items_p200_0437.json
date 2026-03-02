@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "When large forces did clash, they rarely tought",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 200,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:20Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p200_0437",
+    "entity_type": "items",
+    "name_guess": "When large forces did clash, they rarely tought",
+    "breadcrumb_path": "Rules Compendium > Page 200 > items > When large forces did clash, they rarely tought",
+    "page_refs": [
+      200
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "When large forces did clash, they rarely tought the death. Units that were clearly outmatched with no chance of safe withdrawal simply capitulated_ The commander 0f the vic torious force would then allow the defeated force t0 withdraw from the planet exchange for ransom; usually lance of equipment per battalion allowed to retreat;: Objective raids became popular substitute for planetary assaults during the Succession Wars With the costs of plane- 199"
+  }
+}

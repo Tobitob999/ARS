@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Continued Capellan aggression including inter- ference in the",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 28,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:44Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p028_0088",
+    "entity_type": "history",
+    "name_guess": "Continued Capellan aggression including inter- ference in the",
+    "breadcrumb_path": "Rules Compendium > Page 028 > history > Continued Capellan aggression including inter- ference in the",
+    "page_refs": [
+      28
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Continued Capellan aggression including inter- ference in the Suns disastrous twenty-sixth-century civil war; cemented deep hatred that has burned between the two nations for centuries."
+  }
+}

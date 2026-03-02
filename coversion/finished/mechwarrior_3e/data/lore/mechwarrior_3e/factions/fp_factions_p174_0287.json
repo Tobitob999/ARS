@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "factions_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "factions",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "For example_ many of the legal prerog and",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 174,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:05Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_factions_p174_0287",
+    "entity_type": "factions",
+    "name_guess": "For example_ many of the legal prerog and",
+    "breadcrumb_path": "Rules Compendium > Page 174 > factions > For example_ many of the legal prerog and",
+    "page_refs": [
+      174
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "For example_ many of the legal prerog and administrative support Some local forces also maintain atives Capellan Combinc nobles would be regarded as tactical units. trained t0 handle small scale combat situations infringing on civil liberties in the Free Worlds League. Similarly."
+  }
+}

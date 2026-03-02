@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Freeborn warriors can choose To Serve and Protect",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 48,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:55Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p048_0196",
+    "entity_type": "npcs",
+    "name_guess": "Freeborn warriors can choose To Serve and Protect",
+    "breadcrumb_path": "Rules Compendium > Page 048 > npcs > Freeborn warriors can choose To Serve and Protect",
+    "page_refs": [
+      48
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Freeborn warriors can choose To Serve and Protect instead_ Scientist caste characters can choose Civilian Job or Postgraduate Studies; technicians can choose Civilian Job or serve 0n the front lines Tour of Duty: Clan; most mer- chants will follow the Free Trader Path but can also choose Civilian Job; and aborer caste characters toil away at the Civilian Job Path, with no other prospects_ Mandatory Subpath: Other Majors University Path required Create your Own major using the following guidelines Tlme: years Skllls: Academic / Any Relevant 4 add any two skills: Choose three: Academic / Any +3, Acting Art / Any Relevant +3, Administration Career / Any Relevant Computers +2, Language; Any +3 or Training +3 Events: Do not roll events for Other Majors Next Path: Civilian Job (4), Ne'er-Do-Well (4), Postgraduate Studies (41 Subpath: Medical School Sciences Major required Tlme: years Attribute Minimums: DEX WIL Skllls: Add +1 to any three skills Flelds: Doctor Next Path: Civilian Job (4), Ne'er-Do-Well (4), Postgraduate Studies (4)."
+  }
+}

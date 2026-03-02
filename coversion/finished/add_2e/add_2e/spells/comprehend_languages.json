@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "comprehend_languages",
+  "name": "Comprehend Languages",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Comprehend Languages (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": null,
+    "book_pages": [
+      133
+    ],
+    "pdf_pages": [
+      134
+    ],
+    "raw_block": "Comprehend Languages (Alteration)\nReversible\nRange: Touch\nComponents: V, S, M\nDuration: 5 rounds/level\nCasting Time: 1 round\nArea of Effect: 1 speaking creature or\nwritten object\nSaving Throw: None\nWhen this spell is cast, the wizard is able\nto understand the spoken words of a crea-\nture or read an otherwise incomprehensible\nwritten message (such as writing in another\nlanguage). In either case, the wizard must\ntouch the creature or the writing. Note that\nthe ability to read does not necessarily\nimpart understanding of the material, nor\ndoes the spell enable the caster to speak or\nwrite an unknown language. Written mate-\nrial can be read at the rate of one page or\nequivalent per round. Magical writing can-\nnot be read, other than to know it is magi-\ncal, but the spell is often useful when\ndeciphering treasure maps. This spell can be\nfoiled by certain warding magics (the 3rd-\nlevel secret page and illusionary script\nspells) and it does not reveal messages con-\ncealed in otherwise normal text.\nThe material components of this spell are\na pinch of soot and a few grains of salt.\nThe reverse of this spell, confuse languag-\nes, cancels a comprehend languages spell or\nrenders a writing or a creature's speech\nincomprehensible, for the same duration as\nabove.\ncing L; : Uteration)\nRange: 40 yards + 10 yards/le\nComponents: V, S, M\nDuration: 2 rounds/level\nCasting Time: 1\nArea of Effect: Special\nSaving Throw: None\nWhen a dancing lights spell is cast, the\nwizard creates, at his option, from one to\nfour lights that resemble either torches or\nlanterns (and cast that amount of light),\nglowing spheres of light (such as evidenced\nby willswisps), or one faintly glowing,\nvaguely man-like shape, somewhat similar\nto that of a creature from the elemental\nplane of Fire. The dancing lights move as the\nspellcaster desires, forward or back,\nstraight or turning comers, without concen-\ntration upon such movement by the wizard.\nThe spell cannot be used to cause blindness\n(see 1st-level light spell), and it winks out if\nthe range or duration is exceeded.\nThe material component of this spell is\neither a bit of phosphorus or wychwood, or\na glowworm."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Comprehend Languages",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "5 rounds/level",
+      "casting_time": "1 round",
+      "area_of_effect": "1 speaking creature or",
+      "saving_throw": "None",
+      "description_excerpt": "The material component of this spell is either a bit of phosphorus or wychwood, or a glowworm."
+    },
+    "quality_flags": []
+  }
+}

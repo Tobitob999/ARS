@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "CHARACTER CREATION wealth ad title (if not their",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 36,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:50Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p036_0130",
+    "entity_type": "history",
+    "name_guess": "CHARACTER CREATION wealth ad title (if not their",
+    "breadcrumb_path": "Rules Compendium > Page 036 > history > CHARACTER CREATION wealth ad title (if not their",
+    "page_refs": [
+      36
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "CHARACTER CREATION wealth ad title (if not their lives} (Lose your Wealth and Well-Equipped Traits; for your next path_ You are limited t0 Farm_ High School or Street] You have younger sibling who covets your inheri: tance [Enemy] Another childhood wasted on holovids IInterest /Holovid Shows +2, Protocol/Affiliation Your family' reputation precedes You and you must live up t0 [Good Reputation] Your family immersed you in culture [Art/Any +1_ Language /Any +1] Your family was stinking rich [Wealth Well- Equipped] Power play elevates your family\" status but attracts powerful rivals [SOC +1, Enemy; Wealth (2)] Yours was soldier\"s family [BOD +1 RFL +1_ CHA character must take Military School Or Mercenary Brat next] Relative dies and leaves you his vehicle [Vehicle (21, Owns Vehicle] (Choose one event Or roll twice and apply both results Wealth; Streetwise / Affiliation +2] [Choose one event or roll twice and apply both results] TRUEBORN CRECHE Clan Affiliation only Born and bred to become great warrior, you gestated in an iron womb and started life in Clan creche_ You have been in warrior training since birth."
+  }
+}

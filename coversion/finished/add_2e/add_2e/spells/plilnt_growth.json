@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "plilnt_growth",
+  "name": "Plilnt Growth",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Plilnt Growth (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "third",
+    "book_pages": [
+      212
+    ],
+    "pdf_pages": [
+      213
+    ],
+    "raw_block": "Plilnt Growth (Alteration)\nSphere: Plant\nRange: 160 yards\nComponents: V, S, M\nDuration: Permanent\nCasting Time: 1 round\nArea of Effect: Special\nSaving Throw: Special\nThe plant growth spell enables the caster\nto choose either of two different uses. The\nfirst causes normal vegetation to grow,\nentwine, and entangle to form a thicket or\njungle that creatures must hack or force a\nway through at a movement rate of 10 feet\nper round (or 20 feet per round for larger-\nthan-man-sized creatures). Note that the\narea must have brush and trees in it in order\nfor this spell to take effect. Briars, bushes,\ncreepers, lianas, roots, saplings, thistles,\nthorn, trees, vines, and weeds become so\nthick and overgrown in the area of effect as\nto form a barrier. The area of effect is a\nsquare 20 feet on a side per level of experi-\nence of the caster, in any square or rectangu-\nlar shape that the caster decides upon at the\ntime of the spellcasting. Thus an 8th-level\ncaster can affect a maximum area of 160'\nX 160' square, a 320' X 80' rectangle, a\n640' X 40' rectangle, a 1,280' X 20' rec-\ntangle, etc. The spell's effects persist in the\narea until it is cleared by labor, fire, or such\nmagical means as a dispel magic spell.\nThe second use of the spell affects a one-\nmile square area. The DM secretly makes a\nsaving throw (based on the caster's level) to\nsee if the spell takqs effect. If successful, the\nspell renders plants more vigorous, fruitful,\nand hardy, increasing yields by 20% to SO%\n([ld4+1] X lo%), given a normal growing\nseason. The spell does not prevent disaster\nin the form of floods, drought, fire, or\ninsects, although even in these cases the\nplants survive better than expected. This\neffect lasts only for the life cycle of one sea-\nson, the winter \"death marking the end of a\nlife cycle even for the sturdiest of trees. In\nmany farming communities, this spell is\nnormally cast at planting time as part of the\nspring festivals."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Plilnt Growth",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "160 yards",
+      "components": "V, S, M",
+      "duration": "Permanent",
+      "casting_time": "1 round",
+      "area_of_effect": "Special",
+      "saving_throw": "Special",
+      "description_excerpt": "The plant growth spell enables the caster to choose either of two different uses. The first causes normal vegetation to grow, entwine, and entangle to form a thicket or jungle that creatures must hack or force a way through at a movement rate of 10 feet per round (or 20 feet per round for larger- than-man-sized creatures). Note that the area must have brush and trees in it in order for this spell to take effect. Briars, bushes, creepers, lianas, roots, saplings, thistles, thorn, trees, vines, and weeds become so thick and overgrown in the area of effect as to form a barrier. The area of effect is a square 20 feet on a side per level of experi- ence of the caster, in any square or rectangu- lar shape that the caster decides upon at the time of the spellcasting. Thus an 8th-level caster can affect a maximum area of 160' X 160' square, a 320' X 80' rectangle, a 640' X 40' rectangle, a 1,280"
+    },
+    "quality_flags": []
+  }
+}

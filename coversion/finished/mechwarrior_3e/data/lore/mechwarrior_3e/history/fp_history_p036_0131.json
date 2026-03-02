@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "This intense training produces strong warriors with unsurpassed",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 36,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:50Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p036_0131",
+    "entity_type": "history",
+    "name_guess": "This intense training produces strong warriors with unsurpassed",
+    "breadcrumb_path": "Rules Compendium > Page 036 > history > This intense training produces strong warriors with unsurpassed",
+    "page_refs": [
+      36
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "This intense training produces strong warriors with unsurpassed skills but drums the individu- ality out of them. Few Clan warriors rise from the pack_ and even fewer excel outside their assigned fields (represented by the Slow Learner Trait) ."
+  }
+}

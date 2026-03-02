@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Jury-rig ging or building bow requires basic tools",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 97,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:24Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p097_0092",
+    "entity_type": "items",
+    "name_guess": "Jury-rig ging or building bow requires basic tools",
+    "breadcrumb_path": "Rules Compendium > Page 097 > items > Jury-rig ging or building bow requires basic tools",
+    "page_refs": [
+      97
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "8 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Jury-rig ging or building bow requires basic tools and takes about tnir: ty minutes_ Make an Archery Check at the end of this period: success means the bow is functional, though attacks made with suffer target number modifier equal to 8 minus the Margin of Success of the Check (to minimum of +1)."
+  }
+}

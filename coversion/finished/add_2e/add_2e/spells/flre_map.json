@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "flre_map",
+  "name": "Flre map",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Flre map (Abjuration, Evocation) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      158
+    ],
+    "pdf_pages": [
+      159
+    ],
+    "raw_block": "Flre map (Abjuration, Evocation)\nRange: Touch\nComponents: V, S, M\nDuration: Permanent until discharged\nCasting Time: 1 turn\nArea of Effect: Object touched\nSaving Throw: 112\nAny closeable item (book, box, bottle,\nchest, coffer, coffin, door, drawer, and so\nforth) can be warded by a fire trap spell. The\nspell is centered on a point selected by the\nspellcaster. The item so trapped cannot have\na second closure or warding spell placed\nupon it (if such is attempted, the result is\n25% first spell fails, 25% second spell fails,\nor 50% both spells fail). A knock spell does\nnot afkct a fire trap in any way-as soon as\nthe offending party enters or touches the\nitem, the trap discharges. Thieves and oth-\ners have only 1/2 of their normal chance to\ndetect a fire trap (by noticing the character-\nistic markings required to cast the spell).\nThey have only 1h their normal chance to\nmove the trap (failure detonates the trap\nimmediately). An unsuccessful dispel does\nnot detonate the spell. The caster can use the\ntrapped object without discharging it, as\ncan any individual to whom the sue11 was\nspecifically attuned when cast (the exact\nmethod usually involves a keyword). When\nthe trap is discharged, there is an explosion\nof five-foot radius from the spell’s center; all\ncreatures within this area must roll saving\nthrows vs. spell. Damage is ld4 points plus\n1 point per level of the caster; half this\n(round up) for creatures successfully saving.\n(Underwater, this ward inflicts half damage\nand creates a large cloud of steam.) The item\ntrapped is not harmed by this explosion.\nTo place this spell, the caster must trace\nthe outline of the closure with a bit of sul-\nphur or saltpeter and touch the center of the\neffect. Attunement to another individual\nrequires a hair or similar object from that\nperson."
+  },
+  "mechanics": {
+    "school_or_type": "Abjuration, Evocation",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Flre map",
+      "canonical_name_guess": null,
+      "school_or_type": "Abjuration, Evocation",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "Permanent until discharged",
+      "casting_time": "1 turn",
+      "area_of_effect": "Object touched",
+      "saving_throw": "112",
+      "description_excerpt": "Any closeable item (book, box, bottle, chest, coffer, coffin, door, drawer, and so forth) can be warded by a fire trap spell. The spell is centered on a point selected by the spellcaster. The item so trapped cannot have a second closure or warding spell placed upon it (if such is attempted, the result is 25% first spell fails, 25% second spell fails, or 50% both spells fail). A knock spell does not afkct a fire trap in any way-as soon as the offending party enters or touches the item, the trap discharges. Thieves and oth- ers have only 1/2 of their normal chance to detect a fire trap (by noticing the character- istic markings required to cast the spell). They have only 1h their normal chance to move the trap (failure detonates the trap immediately). An unsuccessful dispel does not detonate the spell. The caster can use the trapped object without discharging it, as can any individual to w"
+    },
+    "quality_flags": []
+  }
+}

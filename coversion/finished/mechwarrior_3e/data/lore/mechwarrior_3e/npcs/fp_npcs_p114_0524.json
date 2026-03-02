@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "These modificrs arc listed Or tne Melee Combat",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 114,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:30Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p114_0524",
+    "entity_type": "npcs",
+    "name_guess": "These modificrs arc listed Or tne Melee Combat",
+    "breadcrumb_path": "Rules Compendium > Page 114 > npcs > These modificrs arc listed Or tne Melee Combat",
+    "page_refs": [
+      114
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "TN"
+    ],
+    "excerpt": "These modificrs arc listed Or tne Melee Combat BASE TARGET NUMBER Modifiers Table Like ranged cornbal, lhe inelee combat modificrs The base TN for melee attack based tne target\" = are applied (0 the allacker Since the targer also makes Intell gence and/or Reflexes, depending on its nature Action Cneck ne wil need t0 determinc nis Own TN Using Od The base TN t0 hit character who awane of the attack fiers as well Each character $ TN modifiers are calculated baser equal t0 his INT RFL _ on Ihat character' Koa point viev' And siluation_ Tne base TN t0 hit character wtio surprised (p. 119) Or 113"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "vehicles_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "vehicles",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Aerodynes also require 'ong runways which Iand; whereas",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 188,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:13Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_vehicles_p188_0302",
+    "entity_type": "vehicles",
+    "name_guess": "Aerodynes also require 'ong runways which Iand; whereas",
+    "breadcrumb_path": "Rules Compendium > Page 188 > vehicles > Aerodynes also require 'ong runways which Iand; whereas",
+    "page_refs": [
+      188
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Aerodynes also require 'ong runways which Iand; whereas spheroids can make VTOL landings under almost any conditions Spheroid DropShips are therefore more common; particularly for cargo transport and various mili- tary purposes_ The small size ad agility of aerodynes make tnem Idea attack craft, Microgravity uncomfortable ad unhealthy in the long term so most DropShips maintain facsimile of Terran gravity by constantly accelerating for half their journey between the JumpShip ad their destination_ At the haltway point, the cralt reverses its attitude placing its engines toward the intended Iandfall ad decelerating for the second half of the journey: This procedure allows the crew t0 operate the equivalent of Terran gravity for most of the voyage."
+  }
+}

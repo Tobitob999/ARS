@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "teaching you many skills you never thought you'",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 71,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:02Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p071_0250",
+    "entity_type": "history",
+    "name_guess": "teaching you many skills you never thought you'",
+    "breadcrumb_path": "Rules Compendium > Page 071 > history > teaching you many skills you never thought you'",
+    "page_refs": [
+      71
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "teaching you many skills you never thought you' possess; In anticipation of one day stepping into your father\"' place you took job as vehicle maintenance specialist at Kallon Industries on Nanking: Much to your shock, you hated it; Your lackluster performance ended in horrible coolant accident that permanently damaged most of your skin; You cannot tolerate direct sunlight without complete coverage for more than few hours_ Somewhat disillusioned about civil: ian jobs_ but with Iot of money from the accident settlement, you threw yourself into your first love vehicle maintenance and mastered every aspect of it."
+  }
+}

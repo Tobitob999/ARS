@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "CHARACTER_ CREATION DISGRACED ELEMENTAL Once you were the",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 63,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:00Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p063_0272",
+    "entity_type": "npcs",
+    "name_guess": "CHARACTER_ CREATION DISGRACED ELEMENTAL Once you were the",
+    "breadcrumb_path": "Rules Compendium > Page 063 > npcs > CHARACTER_ CREATION DISGRACED ELEMENTAL Once you were the",
+    "page_refs": [
+      63
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "CHARACTER_ CREATION DISGRACED ELEMENTAL Once you were the pride of your sibko, ristar with unlimited potential."
+  }
+}

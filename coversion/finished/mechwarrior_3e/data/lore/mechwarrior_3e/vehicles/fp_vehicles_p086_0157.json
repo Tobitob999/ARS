@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "category": "vehicles_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "vehicles",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "has valuable assets and has only 100 C-bills",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 86,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:09Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_vehicles_p086_0157",
+    "entity_type": "vehicles",
+    "name_guess": "has valuable assets and has only 100 C-bills",
+    "breadcrumb_path": "Rules Compendium > Page 086 > vehicles > has valuable assets and has only 100 C-bills",
+    "page_refs": [
+      86
+    ],
+    "_ref": [],
+    "cost_mentions": [
+      "100 C-bills"
+    ],
+    "weight_mentions": [],
+    "range_mentions": [
+      "0 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "has valuable assets and has only 100 C-bills to purchase starting equip ment: This trait may not be taken combination with Well- Equipped _ Land Grant or Owns Vehicle. PROMOTION Cost: This is not actually trait; but It IS how an increase in the Rank Trait is listed in the Life Path_ Each Promotion adds the Ievel of the character'5 Rank Trait; t0 maximum of 10. number in parentheses adds the number t0 the level ot the character' Rank Trait, to maximum of 10."
+  }
+}

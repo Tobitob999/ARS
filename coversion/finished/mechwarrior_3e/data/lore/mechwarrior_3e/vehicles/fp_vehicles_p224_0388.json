@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "vehicles_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "vehicles",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Cost Strength Body Dexterity Reflexes Intelligence Willpower Charisma",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 224,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:32Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_vehicles_p224_0388",
+    "entity_type": "vehicles",
+    "name_guess": "Cost Strength Body Dexterity Reflexes Intelligence Willpower Charisma",
+    "breadcrumb_path": "Rules Compendium > Page 224 > vehicles > Cost Strength Body Dexterity Reflexes Intelligence Willpower Charisma",
+    "page_refs": [
+      224
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Cost Strength Body Dexterity Reflexes Intelligence Willpower Charisma SKILLS: FILL IN SKILLS AND SKILL POINTS EARNED Edge Skill Skill Points Accumulated Skill Bonus Points Remain Social Standing LIFE PATBS AND EVENTS Affiliation: Early Childhood Path; Age: 10 Late Childhood Path: Age: 16 Higher Education Real Life Path 35 Years; Path Years: Path 5: Years: Path 6: Years: Path Z; Years; Path 8: Yearsi STANDARD SKILL POINT To SKILL BOMUS 3 7 15 57 73 I1 0 +1 +2 +4 +5 +7 +8 +10 Total Skill Point Remainder: Permission given t0 photocopy: MECHWARRIOR@ is Registerod Trademark of FASA Corporation @ 1999 FASA Corporation"
+  }
+}

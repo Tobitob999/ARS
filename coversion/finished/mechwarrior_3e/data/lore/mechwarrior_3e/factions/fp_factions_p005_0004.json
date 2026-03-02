@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "factions_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "factions",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Roner Houser Gregory Hazel, Cod; Hammcar LEAn Cocy;",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 5,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:21Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_factions_p005_0004",
+    "entity_type": "factions",
+    "name_guess": "Roner Houser Gregory Hazel, Cod; Hammcar LEAn Cocy;",
+    "breadcrumb_path": "Rules Compendium > Page 005 > factions > Roner Houser Gregory Hazel, Cod; Hammcar LEAn Cocy;",
+    "page_refs": [
+      5
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Roner Houser Gregory Hazel, Cod; Hammcar LEAn Cocy; Kristen Egrist, Matt HlI; James Cock Lioyo Oales, Scoit McKinlay: Cunningham comimandos Huan Gcuder Bob Kautz Ji Masino; Kicl Pemen Chris Smith; Chris Bones roseen Dmher 5 Jcreruiars Garetn Smith; Kevin Nocdin shaughnessy; Jonathan Broggy: The ISl South Sussex Siaugnterers (Tre Oragon Mears Pavwaie Dcels Matt Giibert. Steve Dorsett: Feedunia Hom Guard. Bryan Nystul."
+  }
+}

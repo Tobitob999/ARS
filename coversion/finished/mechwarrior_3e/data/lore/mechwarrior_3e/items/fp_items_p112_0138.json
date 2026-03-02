@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "ranged combat attack conducted as Skill Check appropriate",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 112,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:29Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p112_0138",
+    "entity_type": "items",
+    "name_guess": "ranged combat attack conducted as Skill Check appropriate",
+    "breadcrumb_path": "Rules Compendium > Page 112 > items > ranged combat attack conducted as Skill Check appropriate",
+    "page_refs": [
+      112
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "ranged combat attack conducted as Skill Check appropriate to the weapon being used; LINE Of siGhT In order t0 Iaunch an attack against target; the attacker must be able to see the target (exception; Indirect Fire p. 1191."
+  }
+}

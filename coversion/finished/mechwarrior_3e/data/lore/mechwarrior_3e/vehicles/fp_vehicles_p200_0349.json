@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "vehicles_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "vehicles",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "METHODS OF WAR Though each House military once",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 200,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:20Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_vehicles_p200_0349",
+    "entity_type": "vehicles",
+    "name_guess": "METHODS OF WAR Though each House military once",
+    "breadcrumb_path": "Rules Compendium > Page 200 > vehicles > METHODS OF WAR Though each House military once",
+    "page_refs": [
+      200
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "METHODS OF WAR Though each House military once boasted the ability to place full BattleMech regiment ad dozen Or more support regiments on nearly every inhabited world_ those days are long gone After the ravages of the First Succession Wal, generals were torced t0 aujust t0 different style of fighting- Throughout the Succession Wars, the Successor States continued t0 vie for control of important worlds ad their indus tres Unable to field divisions ad corps in these operations; commanders often nad t0 rely on single regiment t0 take their objective _ usually battling defending forces of equal lesser size ."
+  }
+}

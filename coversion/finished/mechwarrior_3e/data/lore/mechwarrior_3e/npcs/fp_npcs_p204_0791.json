@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Their affiliations may color their per- characters, While",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 204,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:22Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p204_0791",
+    "entity_type": "npcs",
+    "name_guess": "Their affiliations may color their per- characters, While",
+    "breadcrumb_path": "Rules Compendium > Page 204 > npcs > Their affiliations may color their per- characters, While",
+    "page_refs": [
+      204
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Their affiliations may color their per- characters, While combat does occur, is the interaction between sonal Views and (heir histories already eiven dimension by the unique characters diverse settings that fuels MW3 Life Path system- are starting place t0 get feel for who they Gamemastering is challenging but rewarding experience- are; As the players describe the actions their characters take in can be difficult t0 roleplay plethora of non-player background tne course 0lan adventure they should also consider the characters, but it iS also rewarding t0 see one friends enjoy details Wny are they doing what they do?"
+  }
+}

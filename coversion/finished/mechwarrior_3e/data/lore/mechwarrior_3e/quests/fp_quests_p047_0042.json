@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "quests_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "quests",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Entry requirements are fairly lenient, and tuition is",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 47,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:54Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_quests_p047_0042",
+    "entity_type": "quests",
+    "name_guess": "Entry requirements are fairly lenient, and tuition is",
+    "breadcrumb_path": "Rules Compendium > Page 047 > quests > Entry requirements are fairly lenient, and tuition is",
+    "page_refs": [
+      47
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Entry requirements are fairly lenient, and tuition is affordable Or paid for by the government: Because this path covers SO many possible careers, the player chooses the character' s specific trade (field) and rele- vant subskills subject to the gamemaster' approval: Tlme: year Skllls: Choose the Merchant Field or the following skills: Bureaucracy /Affiliation +3, Career / Any +4 Administration +3 Academic Any +2_ choose two: Art/Any +3, Career / Any +3 Comms Conv +2 Computers +3 Interest/Any +3, Language / Any +3 Piloting Wheeled +2, Training +3 Next Path: Ne'er-Do-Well (4), Civilian Job (4), Free Trader (4_ Merchant Field only) University Events Wild party results in the destruction of dorm building, severa injuries and your expulsion (Bad Reputation , Enemy; to all skills gained from this path may take additional University paths] slave t0 your studies, your pnysical and social skills wither [BOD Introvert] Scandalous romance with protessor; you are expelled Seduction +1, -1 to all skills gained from this path; may take no additional University paths) Studied all day; partied all night (Addiction_ I0 ail skills gained from this path] Worked your way through school [Career /Any +2] Worked as teacher' $ assistant (Training +1, Administration +1 Course 0f study included extensive travel [G- Tolerance Language Any +1, Protocol/Any +1] Made friends with professor who turned out t0 be ex-military intelligence officer [Contact (2)] fast study and sharp test-taker (Fast Learner: reduce the time spent in every University path and subpath Dy one year] Top of your class (Good Reputation, Wealth +1 t0 all skills gained from this Path add +1 t0 all event rolls in Postgraduate Studies Path] [Choose one event or roll twice and apply both results] Trade School Events Slept through class (Interest/Any +2, but 2 t0 all Trade School-granted skillsE Too much time front of computer screen Poor Vision] Picked up bad habit (Addiction] Switched majors mid-course (Add one year t0 the time this path takes] Worked in school office [Administration +1] Worked as teacher = assistant [Training +2] Made friends with an instructor (Contact] Course included offworld travel (Language / Any +2 Zero-G Operations +1] Intensive computer work [Computers +2_ Technician/L lectronics +1_ Well Equipped] Won the lottery and stopped working [Wealth (71 Slow Learner, must take Ne'er Do- Well as next path] [Choose one event or roll twice and apply both results] 48"
+  }
+}

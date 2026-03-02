@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "COMMAND TABLE Trak Potnts Typlcal Command Level Enllsted",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 87,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:09Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p087_0371",
+    "entity_type": "npcs",
+    "name_guess": "COMMAND TABLE Trak Potnts Typlcal Command Level Enllsted",
+    "breadcrumb_path": "Rules Compendium > Page 087 > npcs > COMMAND TABLE Trak Potnts Typlcal Command Level Enllsted",
+    "page_refs": [
+      87
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "COMMAND TABLE Trak Potnts Typlcal Command Level Enllsted Otnilcer none Lance none Company Znd none Company Squad 2nd Battalion Znd Squad Znd Battalion Squad Regiment Znd Platoon Znd Regiment Platoon Brigade Lance Znd Division Lance 2nd Corps Army Successor State SLOW LEARNER Value: slow earner has difficulty learning new things and onten has poor memory Or attention span; such he improves skills with more difficulty than other characters Subtract ? from (ne total the two Link Attributes when determining skill advancement (p."
+  }
+}

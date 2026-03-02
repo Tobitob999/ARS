@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "explosive_runes",
+  "name": "Explosive Runes",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Explosive Runes (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "third",
+    "book_pages": [
+      148
+    ],
+    "pdf_pages": [
+      149
+    ],
+    "raw_block": "Explosive Runes (Alteration)\nRange: Touch\nComponents: V, S\nDuration: Special\nCasting Time: 3\nArea of Effect: 10-foot radius\nSaving Throw: None or 1/2\nBy tracing these mystic runes upon a\nbook, map, scroll, or similar object bearing\nwritten information, the wizard prevents\nunauthorized persons from reading his ma-\nterial. The explosive runes are difficult to\ndetect-5% chance per level of magic use\nexperience of the reader; thieves have only a\n5% chance. But trap detection by spell or\nmagical device always finds these runes.\nWhen read, the explosive runes detonate,\ndelivering 6d4 + 6 points of damage to the\nreader, who gets no saving throw. A like\namount, or half that if saving throws are\nmade, is suffered by each creature within\nthe blast radius. The wizard who cast the\nspell, as well as any he instructs, can read\nthe protected writing without triggering the\nrunes. Likewise, the wizard can remove the\nrunes whenever desired. Others can remove\nthem only with a successful dispel magic or\nerase spell. Explosive runes otherwise last\nuntil the spell is triggered. The item upon\nwhich the runes are placed is destroyed\nwhen the explosion takes place, unless it is\nnot normally subject to destruction by mag-\nical fire (see the Item Saving Throws in the\nDungeon Master’s Guide).\nSource of Effect\nCaster\nOther caster/innate ability\nWand\nStaff\nPotion\nOther magic\nArtif act\nSummary of Dakpel Magic Effects\nResists As Result of Dispel\nNone Dispel automatic\nLeveVHD of other caster\n6th level\n8th level\n12th level Potion destroyed\n12th. unless special *\nDM discretion DM discretion\nEffect negated\n*\n* Effect negated; if cast directly on item, item becomes nonoperational for ld4 rounds."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Explosive Runes",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "Touch",
+      "components": "V, S",
+      "duration": "Special",
+      "casting_time": "3",
+      "area_of_effect": "10-foot radius",
+      "saving_throw": "None or 1/2",
+      "description_excerpt": "By tracing these mystic runes upon a book, map, scroll, or similar object bearing written information, the wizard prevents unauthorized persons from reading his ma- terial. The explosive runes are difficult to detect-5% chance per level of magic use experience of the reader; thieves have only a 5% chance. But trap detection by spell or magical device always finds these runes. When read, the explosive runes detonate, delivering 6d4 + 6 points of damage to the reader, who gets no saving throw. A like amount, or half that if saving throws are made, is suffered by each creature within the blast radius. The wizard who cast the spell, as well as any he instructs, can read the protected writing without triggering the runes. Likewise, the wizard can remove the runes whenever desired. Others can remove them only with a successful dispel magic or erase spell. Explosive runes otherwise last until t"
+    },
+    "quality_flags": []
+  }
+}

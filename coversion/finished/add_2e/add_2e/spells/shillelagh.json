@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "shillelagh",
+  "name": "Shillelagh",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Shillelagh (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "ninth",
+    "book_pages": [
+      202
+    ],
+    "pdf_pages": [
+      203
+    ],
+    "raw_block": "Shillelagh (Alteration)\nSphere: Combat, Plant\nRange: Touch\nComponents: V, S, M\nDuration:. 4 rounds + 1 round/level\nCasting Time: 2\nArea of Effect: 1 normal oaken club\nSaving Throw: None\nThis spell enables the caster to change his\nown oaken cudgel or unshod staff into a\nmagical weapon that gains a + 1 bonus to its\nattack roll and inflicts 2d4 points of damage\non opponents up to man-sized, and Id4 + 1\npoints of damage on larger opponents. The\nspell infIicts no damage to the staff or cud-\ngel. The caster must wield the shillelagh, of\n202\ncourse.\nThe material components of this spell are\na shamrock leaf and the caster’s holy sym-\nbol.\nSecond-Level Spells"
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Shillelagh",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": ". 4 rounds + 1 round/level",
+      "casting_time": "2",
+      "area_of_effect": "1 normal oaken club",
+      "saving_throw": "None",
+      "description_excerpt": "This spell enables the caster to change his own oaken cudgel or unshod staff into a magical weapon that gains a + 1 bonus to its attack roll and inflicts 2d4 points of damage on opponents up to man-sized, and Id4 + 1 points of damage on larger opponents. The spell infIicts no damage to the staff or cud- gel. The caster must wield the shillelagh, of 202 course. The material components of this spell are a shamrock leaf and the caster’s holy sym- bol. Second-Level Spells"
+    },
+    "quality_flags": []
+  }
+}

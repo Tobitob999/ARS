@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Of course, laser pistol block of C8 can",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 151,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:54Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p151_0362",
+    "entity_type": "items",
+    "name_guess": "Of course, laser pistol block of C8 can",
+    "breadcrumb_path": "Rules Compendium > Page 151 > items > Of course, laser pistol block of C8 can",
+    "page_refs": [
+      151
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Of course, laser pistol block of C8 can usually accomplish the same job ~it\"s just noisier and leaves evidence behind Baslc Lock Pick Set (VIbro Lock Plck Set): The basic set contains picks; probes bars; wrenches pliers and the Iike; in short; everything needed to bypass mechanical locking mech- anism_ For cases where ess subtlety required_ small vibro blade that can cut through lock's internal workings can be included (for substantially greater price). This kit allows char- acter t0 use Security Systems Skill on mechanica locks without suffering Lack of Proper Equipment Modifier."
+  }
+}

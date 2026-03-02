@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "This callcd line of signt; or LOS for",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 112,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:29Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p112_0510",
+    "entity_type": "npcs",
+    "name_guess": "This callcd line of signt; or LOS for",
+    "breadcrumb_path": "Rules Compendium > Page 112 > npcs > This callcd line of signt; or LOS for",
+    "page_refs": [
+      112
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "TN"
+    ],
+    "excerpt": "This callcd line of signt; or LOS for short_ The gamemaster determines LOS bascd on the battlefield conditions and each character'5 actions vouarc using maps mniatures t0 show characters positions LOS can bC determined by measuring straight line from the attacker t0 the target; there any obstacle in tne way thal taller than both thc allacker and the target; tne LOS blocked- Cover Not all barriers willl completely obscure LOS Sometimes only part of character will be visible to the attacker; tnis case; an attack can be made, but there will be TN modifier tor the cover the Hit Location rules are being used process resoiving covcr sornewhat different (scc 121)."
+  }
+}

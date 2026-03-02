@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "One trooper is marked off per point aamage",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 129,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:35Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p129_0631",
+    "entity_type": "npcs",
+    "name_guess": "One trooper is marked off per point aamage",
+    "breadcrumb_path": "Rules Compendium > Page 129 > npcs > One trooper is marked off per point aamage",
+    "page_refs": [
+      129
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [
+      "3006"
+    ],
+    "stat_tokens": [
+      "AP",
+      "Armor",
+      "armor",
+      "damage"
+    ],
+    "excerpt": "One trooper is marked off per point aamage until the damage reaches player character This means all eignt NPC troopers are killed, eaving points of damage to hit the player char- acters: There three characters left, SO two 0f them will be hit and one won This determined randomly; this case D6 could be rolled to see which 0f the three characters is safe: on or 2, the first character safe, the second character I5 safe and 5 0r 6 the third character safe The two characters who are hit take the full dam age for the weapon, which i5 AP 10 and 3006: they will need t0 be very lucky indeed t0 survive this attackl Attacks Against Characters Characters are attacked by battlefield units just as they were infantry units of the appropriate type_ If the characters are in battle-armor unit, designate which trooper numbers in each squad or Point are Mw3 characters and make note of on the Battle Armor Record Form: conventional infantry unit; MW3 characters will always be the last troopers tO be hit: Designate the right most troopers the Infantry Record Sheet for the unit as characters (up to the number of Mw3 characters present in the uniti; When the damage reaches trooper designated Mw3 character; rather than crossing off the damage box as usual, inflict the full weapon $ @amage against one Of the characters in tne unit for each point of BattieTech damage remaining (that wasn' used t0 HEAT Dice rolls to avoid ammo explosions and shutdown are han- dled bit differently for BattleMechs piloted by characters with Mw3 game statistics."
+  }
+}

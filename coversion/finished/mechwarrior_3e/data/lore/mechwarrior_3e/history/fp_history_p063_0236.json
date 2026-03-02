@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "The Kurita doctors call post-traumatic stress syndrome_ The",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 63,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:00Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p063_0236",
+    "entity_type": "history",
+    "name_guess": "The Kurita doctors call post-traumatic stress syndrome_ The",
+    "breadcrumb_path": "Rules Compendium > Page 063 > history > The Kurita doctors call post-traumatic stress syndrome_ The",
+    "page_refs": [
+      63
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "The Kurita doctors call post-traumatic stress syndrome_ The Clans call cowardice Declared unfit for duty, you sank into depression, wandering aimlessly from planet to planet until Clan-hat ing storekeeper wrongly accused you of shoplifting: Two years in Combine prison shook you out of your malaise, and kindly old cellmate taught you that not all Spheroids are hateful,6 Now; You seek redemption in whatever way You can find Though your Clan will not take you back; you believe that there must be worthy masters to serve somewhere_ even in tne misguided Inner Sphere Affiliation: Clan (p 31); Stage 1: Eaily Childhood (Trueborn Creche) Event Roll 351."
+  }
+}

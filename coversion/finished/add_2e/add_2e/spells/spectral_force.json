@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "spectral_force",
+  "name": "Spectral Force",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Spectral Force (Illusion/Phantasm) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "third",
+    "book_pages": [
+      153
+    ],
+    "pdf_pages": [
+      154
+    ],
+    "raw_block": "Spectral Force (Illusion/Phantasm)\nRange: 60 yards + 1 yard/level\nComponents: V, S\nDuration: Special\nCasting Time: 3\nArea of Effect: 40' cube + a 10' cube/level\nSaving Throw: Special\nThe spectral force spell creates an illusion\nin which sound, smell, and thermal illusions\nare included. It is otherwise similar to the\nimproved phantusrnal force spell. The spell\nlast for three rounds after concentration\nceases.\nkrggcstioa (Enrhanme!nKh)\nRange: 30 yards\nComponents: V, M\nDuration: 1 hour + 1 hour/level\nCasting Time: 3\nArea of Effect: 1 creature\nSaving Throw: Neg.\nWhen this spell is cast by the wizard, he\ninfluences the actions of the chosen recipient\nby the utterance of a few words-phrases or\na sentence or two-suggesting a course of\naction desirable to the spellcaster. The crea-\nture to be influenced must, of course, be\nable to understand the wizards sug-\ngestion-it must be spoken in a language\nthat the spell recipient understands.\nThe suggestion must be worded in such a\nmanner as to make the action sound reason-\nable; asking the creature to stab itself,\nthrow itself onto a spear, immolate itself, or\ndo some other obviously harmful act auto-\nmatically negates the effect of the spell.\nHowever, a suggestion that a pool of acid\nwas actually pure water and that a quick dip\nwould be refreshing is another matter. Urg-\ning a red dragon to stop attacking the wiz-\nards party so that the dragon and party\ncould jointly loot a rich treasure elsewhere\nis likewise a reasonable use of the spelI's\npower.\nThe course of action of a suggestion can\ncontinue in effect for a considerable dura-\ntion, such as in the case of the red dragon\nmentioned above. Conditions that will trig-\nger a special action can also be specified; if\nthe condition is not met before the spell\nexpires, then the action will not be per-\nformed. If the target successfully rolls its\nsaving throw, the spell has no effect. Note\nthat a very reasonable suggestion causes the\nsaving throw to be made with a penalty\n(such as -1, -2, etc.) at the discretion of\nthe Dungeon Master. Undead are not sub-\nject to suggestion.\nThe material components of this spell are\na snake's tongue and either a bit of honey-\ncomb or a drop of sweet oil."
+  },
+  "mechanics": {
+    "school_or_type": "Illusion/Phantasm",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Spectral Force",
+      "canonical_name_guess": null,
+      "school_or_type": "Illusion/Phantasm",
+      "range": "60 yards + 1 yard/level",
+      "components": "V, S",
+      "duration": "Special",
+      "casting_time": "3",
+      "area_of_effect": "40' cube + a 10' cube/level",
+      "saving_throw": "Special",
+      "description_excerpt": "When this spell is cast by the wizard, he influences the actions of the chosen recipient by the utterance of a few words-phrases or a sentence or two-suggesting a course of action desirable to the spellcaster. The crea- ture to be influenced must, of course, be able to understand the wizards sug- gestion-it must be spoken in a language that the spell recipient understands. The suggestion must be worded in such a manner as to make the action sound reason- able; asking the creature to stab itself, throw itself onto a spear, immolate itself, or do some other obviously harmful act auto- matically negates the effect of the spell. However, a suggestion that a pool of acid was actually pure water and that a quick dip would be refreshing is another matter. Urg- ing a red dragon to stop attacking the wiz- ards party so that the dragon and party could jointly loot a rich treasure elsewhere is like"
+    },
+    "quality_flags": []
+  }
+}

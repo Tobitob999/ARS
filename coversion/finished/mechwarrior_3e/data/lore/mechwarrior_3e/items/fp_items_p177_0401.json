@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Deprivation most often makes itself felt as mere",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 177,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:07Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p177_0401",
+    "entity_type": "items",
+    "name_guess": "Deprivation most often makes itself felt as mere",
+    "breadcrumb_path": "Rules Compendium > Page 177 > items > Deprivation most often makes itself felt as mere",
+    "page_refs": [
+      177
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Deprivation most often makes itself felt as mere inconvenience t0 daily routine Or shortage of luxury items_ Most of the other Inner Sphere worlds_ as well as the most advanced Periphery worlds, more clearly understand the cariousness of the Inner Sphere'= technology: On such worlds, everyday circumstances make people more aware of the frailty of technology: Businessmen may converse via cell phone on their way t0 work but they get there riding norse Or donkey: The latest luxury hovercratt may be parked next to vehicle fueled by methane collected from its owner's farm."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "wall_of_fire",
+  "name": "Wall of Fire",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Wall of Fire (Evocation) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      163,
+      164
+    ],
+    "pdf_pages": [
+      164,
+      165
+    ],
+    "raw_block": "Wall of Fire (Evocation)\nRange: 60 yards\nComponents: V, S, M\nDuration: Special\nCasting Time: 4\nArea of Effect: Special\nSaving Throw: None\nThe wall of fire spell brings forth an\nimmobile, blazing curtain of magical fire of\n.shimmering color-violet or reddish-blue.\nThe spell creates either an opaque sheet of\nflame up to one 20-foot square per level of\nthe spellcaster, or a ring with a radius af up\nto 10 feet + five feet per two levels of expe-\nrience of the wizard. In either form, the wall\nof fire is 20 feet high.\nThe wall of fire must be cast so that it is\nvertical with respect to the caster. One side\nof the wall, selected by the caster, sends\nforth waves of heat, inflicting 2d4 points of\ndamage upon creatures within 10 feet and\nld4 points of damage upon those within u)\nWizard Spells (5th Level,\nfeet. In addition, the wall inflicts 2d6 points\nof damage, plus 1 point of damage per level\nof the spellcaster, upon any creature passing\nthrough it. Creatures especially subject to\nfire may take additional damage, and\nundead always take twice normal damage.\nNote that attempting to catch a moving\ncreature with a newly-created wall of fire is\ndifficult; a successful saving throw enables\nthe creature to avoid the wall, while its rate\nand direction of movement determine\nwhich side of the created wall it is on. The\nwall of fire lasts as long as the wizard con-\ncentrates on maintaining it, or one round\nper level of experience of the wizard, in the\nevent he does not wish to concentrate upon\nit.\nThe material component of the spell is\nphosphorus."
+  },
+  "mechanics": {
+    "school_or_type": "Evocation",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Wall of Fire",
+      "canonical_name_guess": null,
+      "school_or_type": "Evocation",
+      "range": "60 yards",
+      "components": "V, S, M",
+      "duration": "Special",
+      "casting_time": "4",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "The wall of fire spell brings forth an immobile, blazing curtain of magical fire of .shimmering color-violet or reddish-blue. The spell creates either an opaque sheet of flame up to one 20-foot square per level of the spellcaster, or a ring with a radius af up to 10 feet + five feet per two levels of expe- rience of the wizard. In either form, the wall of fire is 20 feet high. The wall of fire must be cast so that it is vertical with respect to the caster. One side of the wall, selected by the caster, sends forth waves of heat, inflicting 2d4 points of damage upon creatures within 10 feet and ld4 points of damage upon those within u) Wizard Spells (5th Level, feet. In addition, the wall inflicts 2d6 points of damage, plus 1 point of damage per level of the spellcaster, upon any creature passing through it. Creatures especially subject to fire may take additional damage, and undead always"
+    },
+    "quality_flags": []
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Much of the Dictum Honorium; detailed code of",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 186,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:12Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p186_0661",
+    "entity_type": "history",
+    "name_guess": "Much of the Dictum Honorium; detailed code of",
+    "breadcrumb_path": "Rules Compendium > Page 186 > history > Much of the Dictum Honorium; detailed code of",
+    "page_refs": [
+      186
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Much of the Dictum Honorium; detailed code of conduct for good Combine citizens_ be Iaid at the fect of Shiro Kurita; the nation' founder: dynamnic man Kho acted as his realm $ spintua as wcll as tem poral leader; ne swrept the people up in pro Combine euphoria that allowed him to bend ideology t0 his Own purposes_ Under the ess-rigid rule of Coordinator Theodore Kurita_ severa major reli- gions have established tentative footholds in the Combine shar- ing the Iringes with those exotic cults tnat have always been low-profile part of Combine society: The Free Worlds League harbors the greatest number of religious conflicts_ Different faiths frequently clash as do sects within taith and even variations 0t difterent sects This frac: tiousness mifrorc the relative lack of central authority that has plagued the League since its inception The League has essen: tially ~created over hundreds of star systems the same con: flicts common among old Terra nations Recurrent strife has limited tne growth of new religions and philosophies_ as well as hindered development for ward religious thinking such as gen- erally prevails the Lyran Alliance and Federated Suns; House Liao holds Up the Capellan Confederation as place true religious harmony: though most claim that narmony ALTERNATIVE RELIGIONS Many sages, the most recent being ComStar's founder Jerome Blake _ have claimed that anyone can define religion: takes two people to form a orthodox religion_ Add third and you llikely get heresy In other words there may be as many permutations of spiritual thought ad practice as there are peo existence The following paragraphs describe three of the best-known alternative faiths The Unfinished Book Founded in the Federated Suns tthe Iate thirtietn centu- tne Unfinished Book movement has capitalized that realm'$ prevailing religious tolerance Put forward by Father Ovidon; tne first Chairman Elder the Suns Intertaith Congress; the Unfinished Book movement attempts collect the holy words and fundamental precepts Many religions single volume This religion nas swept every Successor State and Periphery nation."
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_subsystem",
+  "id": "add_2e_time_movement_system",
+  "name": "AD&D 2e Time & Movement System",
+  "tags": [
+    "add_2e",
+    "time",
+    "movement",
+    "travel",
+    "climbing",
+    "swimming"
+  ],
+  "summary": "Ausarbeitung von Zeitmassstaeben, Bewegung, Reise und Kletterregeln.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "primary_chapter": {
+      "chapter": 14,
+      "slug": "time_and_movement",
+      "book_pages": [
+        119,
+        125
+      ]
+    },
+    "chapter_file": "data/lore/add_2e/chapters/chapter_14_time_and_movement.json"
+  },
+  "mechanics": {
+    "time_scales": {
+      "round": "1 minute",
+      "turn": "10 minutes",
+      "day": "overland/travel abstraction"
+    },
+    "movement_modes": [
+      "combat_move",
+      "jogging_running_optional",
+      "cross_country",
+      "swimming",
+      "climbing"
+    ],
+    "climbing": {
+      "success_model": "table + surface modifiers + actions while climbing",
+      "tools": "rope_pitons_and_special_gear_affect_risk"
+    },
+    "encumbrance_link": "Movement interacts with equipment encumbrance tables 47-50.",
+    "vision_link": "Vision/light (chapter 13) impacts practical movement/engagement ranges.",
+    "reference_tables": [
+      {
+        "table_number": 64,
+        "title": "BASE MOVEMENT RATES"
+      },
+      {
+        "table_number": 65,
+        "title": "BASE CLIMBING SUCCESS RATES"
+      },
+      {
+        "table_number": 66,
+        "title": "CLIMBING MODIFIERS"
+      },
+      {
+        "table_number": 67,
+        "title": "RATES OF CLIMBING"
+      }
+    ]
+  }
+}

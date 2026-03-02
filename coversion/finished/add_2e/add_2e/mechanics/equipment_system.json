@@ -1,0 +1,191 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_subsystem",
+  "id": "add_2e_equipment_system",
+  "name": "AD&D 2e Equipment & Economy System",
+  "tags": [
+    "add_2e",
+    "equipment",
+    "economy",
+    "armor",
+    "encumbrance"
+  ],
+  "summary": "Ausarbeitung von Waehrung, Startgeld, Ausruestung, Ruestung und Traglastregeln.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "primary_chapter": {
+      "chapter": 6,
+      "slug": "money_and_equipment",
+      "book_pages": [
+        66,
+        79
+      ]
+    },
+    "chapter_6_page_blocks": [
+      {
+        "book_page": 66,
+        "pdf_page": 67
+      },
+      {
+        "book_page": 67,
+        "pdf_page": 68
+      },
+      {
+        "book_page": 68,
+        "pdf_page": 69
+      },
+      {
+        "book_page": 69,
+        "pdf_page": 70
+      },
+      {
+        "book_page": 70,
+        "pdf_page": 71
+      },
+      {
+        "book_page": 71,
+        "pdf_page": 72
+      },
+      {
+        "book_page": 72,
+        "pdf_page": 73
+      },
+      {
+        "book_page": 73,
+        "pdf_page": 74
+      },
+      {
+        "book_page": 74,
+        "pdf_page": 75
+      },
+      {
+        "book_page": 75,
+        "pdf_page": 76
+      },
+      {
+        "book_page": 76,
+        "pdf_page": 77
+      },
+      {
+        "book_page": 77,
+        "pdf_page": 78
+      },
+      {
+        "book_page": 78,
+        "pdf_page": 79
+      },
+      {
+        "book_page": 79,
+        "pdf_page": 80
+      }
+    ],
+    "chapter_6_excerpt": "Although your character has some impres- \nsive abilities and skills, he really isn’t going \nto be effective without the equipment neces- \nsary for adventuring. To get this equipment, \nhe needs money. Not only does he need \nmoney to outfit himself, but your character \nalso has to cover his living expenses. \nAlthough there are many different types \nof coins and currencies in the world, all \nprices and treasures in the AD&P rules are \ngiven in standard coinage. Your DM may \nhave specific names for different coins and \nmay have different rates of exchange, but \nthis is material particular to his campaign. \nHe will tell you if there are differences from \nthe coins listed here. The standard rate of \nexchange for each coin is given in Table 42. \nThe basic coins are the copper piece (cp) \nand the silver piece (sp). These form the \nbackbone of the monetary system and are \nthe coins most frequently found in the \nhands of the common folk. Above these two \ncoh is the much rarer gold piece (gp). This \ncoin is seldom found in common use and \nmainly exists on paper as the standard \nmoney of account. This means it is used to \nmeasure the value of property and goods. \nLand values, ship cargoes, gemstones, and \npenalty bonds (royal court fines) are nor- \nmally calculated in gold pieces, although \npayment of such vast sums normally takes \nother forms. \nIn addition to these coins, there are other \nunusual metals used in scchange. Most of \nthese come from failed lzurmlcies. As such, \nthey are viewed with skepticism by many \nhonest folk. Principal among these coins are \nthe eiectrum (ep) and platinum pieces (pp). \nThese coins are rarely circulated, and most are \nhidden away in ancient treasure hoards. \nThe value of each coin can also be figured \nby the following: 10 cp =, 1 sp; 5 sp = 1 ep; \n2ep = 1gp;5gp = lpp. \nHowever, remember that not all wealth is \nmeasured by coins. Wealth can take many \nforms-land, livestock, the right to collect \ntaxes or customs, and jewelry are all mea- \nsures of wealth. Coins have no guaranteed \nvalue. A gold piece can buy a lot in a small \nvillage but won’t go very far in a large city. \nThis makes other forms of wealth, land for \ninstance, all the more valuable. Indeed, \nmany a piece of jewelry is actually a way of \ncarrying one’s wealth. Silver armbands can \nbe traded for goods, a golden brooch can \nbuy a cow, etc. In your adventures, wealth \nand riches may take many different forms. \nFurthermore, in your DMs campaign, \nthere may be special situations or consider- \nations to bear in mind. The Kingdom of \nGonfli may be at war with the neighboring \nPrincipality of Boosk. Patriotic Gonflians \nmight refuse Boosk coins (probably because \nthey think the coins are worthless). Practi- \ncal Booskites might accept the Gonfli florin \nat half normal value (so they can melt them \ndown and mint new Boosk drachmas). Of \nTable 42: STANDARD EXCHANGE RATES \nCoin CP \nExchange Value \nSP EP GP r \nPlatinum Piece (PP) = 500 10 5 1 \ncourse, both groups would send your char- \nacter to the local money changer (if there is \none), who would cheerfully convert your \nforeign coins to the local tender. He will, of \ncourse, charge a small commission (10- \n30%) for this service. \nSituations such as these can affect the val- \nue of any coin. If your characters start flash- \ning about a lot of gold, pumping it into the \nlocal economy, merchants will quickly raise \nprices. As another example, the local lord \nmay commandeer most of the region’s \nhorses for his knights, making those left all \nthat much more expensive. \nStarting Money \nAll player charac- \nters begin with some amount of cash. This \nnest egg may be your character’s life sav- \nings. It may be a gift from his parents to \nstart him out in the world. It may be his \nbooty from an army campaign. Perhaps he \nstumbled across a small treasure chest, \nwhetting his appetite for greater and more \ndangerous prizes. How he came by his \nmoney is not important (although it may be \nfun to know). You are free"
+  },
+  "mechanics": {
+    "currency": {
+      "coins": [
+        "cp",
+        "sp",
+        "ep",
+        "gp",
+        "pp"
+      ],
+      "exchange_core": {
+        "10cp": "1sp",
+        "5sp": "1ep",
+        "2ep": "1gp",
+        "5gp": "1pp"
+      },
+      "economy_note": "Lokale Wirtschaft/Politik kann Kurse und Preise dynamisch veraendern."
+    },
+    "starting_funds": {
+      "warrior": "5d4 x 10 gp",
+      "wizard": "(1d4 + 1) x 10 gp",
+      "priest": "3d6 x 10 gp (Restabgabe an Organisation laut Kapitel)",
+      "rogue": "2d6 x 10 gp"
+    },
+    "equipment_categories": [
+      "clothing",
+      "food_and_lodging",
+      "household_provisioning",
+      "tack_and_harness",
+      "transport",
+      "miscellaneous",
+      "animals",
+      "services",
+      "weapons",
+      "armor"
+    ],
+    "armor_classes": {
+      "none": 10,
+      "shield_only": 9,
+      "leather_or_padded": 8,
+      "studded_or_ring": 7,
+      "scale_or_hide": 6,
+      "chain": 5,
+      "splint_or_banded_or_bronze_plate": 4,
+      "plate": 3,
+      "plate_plus_shield_or_field_plate": 2,
+      "field_plate_plus_shield_or_full_plate": 1,
+      "full_plate_plus_shield": 0
+    },
+    "shields": {
+      "buckler": "AC +1 gegen 1 Angriff/Runde (frei waehlbar).",
+      "small": "AC-Schutz gegen 2 Frontalangriffe.",
+      "medium": "AC-Schutz gegen Front/Flanke, Hand blockiert.",
+      "body": "AC +1 Nahkampf, +2 vs Missile von vorne/front flank; sehr schwer."
+    },
+    "encumbrance": {
+      "effect_chain": [
+        "reduziert Movement",
+        "kann Attack-Roll-Penalties erzeugen",
+        "kann AC-Penalties erzeugen"
+      ],
+      "table_based": [
+        "Table 47",
+        "Table 48",
+        "Table 49",
+        "Table 50"
+      ],
+      "practical_rule": "Vor Kampf schwere Lasten abwerfen, um Mali zu senken."
+    },
+    "weapon_range_notes": {
+      "range_bands": [
+        "short",
+        "medium",
+        "long"
+      ],
+      "default_modifiers": {
+        "medium": -2,
+        "long": -5
+      },
+      "rof": "Rate of Fire ist unabhaengig von melee attacks per round."
+    },
+    "reference_tables": [
+      {
+        "table_number": 42,
+        "title": "STANDARD EXCHANGE RATES"
+      },
+      {
+        "table_number": 43,
+        "title": "INITIAL CHARACTER FUNDS"
+      },
+      {
+        "table_number": 44,
+        "title": "EQUIPME”"
+      },
+      {
+        "table_number": 45,
+        "title": "MISSILE WEAPON RANGES"
+      },
+      {
+        "table_number": 47,
+        "title": "CHARACTER ENCUMBRANCE"
+      },
+      {
+        "table_number": 48,
+        "title": "MODIFIED MOVEMENT RATES"
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "category": "lore_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "lore",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "The Life Path affects minimum values and the",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 56,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:57Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_lore_p056_0109",
+    "entity_type": "lore",
+    "name_guess": "The Life Path affects minimum values and the",
+    "breadcrumb_path": "Rules Compendium > Page 056 > lore > The Life Path affects minimum values and the",
+    "page_refs": [
+      56
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "10. M"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [
+      "TN"
+    ],
+    "excerpt": "The Life Path affects minimum values and the cost increase Attrbute General Untrainod Soclal Standing soctal standing Altributes_ but the final numbers are the Value Deecriptlon TN Mod: Inner Sphore Clan player' t0 determine_ Attributes arc rated Impaired +2 Slave Dark (Bandit) Caste from 1-10. Most characters fall the Terrible Lower Class Laborer Caste 3-7 range."
+  }
+}

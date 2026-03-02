@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_chunk",
+  "tags": [
+    "mechwarrior_3e",
+    "phase2",
+    "movement"
+  ],
+  "summary": "Phase2 Chunk fuer movement aus OCR-Text.",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "generated_at": "2026-03-02T16:50:58Z"
+  },
+  "mechanics": {
+    "topic": "movement",
+    "injection_priority": "support",
+    "keywords": [
+      "movement",
+      "speed",
+      "running",
+      "walking",
+      "hex"
+    ],
+    "page_refs": [
+      112,
+      146,
+      189,
+      111,
+      110,
+      134,
+      222,
+      144
+    ],
+    "raw_text": "[PDF_PAGE 112 | score=33] COMBAT equa to his skill bonus Running; if the character has no skill bonus_ ne can still sprint for single turn. As fast- moving target. sprinting character harder t0 hit with attacks_ MOVEMENT TABLE Movement Mode Walk Run /Evade /Disengage Sprint Maxlmum Metera Moved RA STR RF STR Running Skill Bonus Run Meters EVADING Evading iS Complex Action that allows the character to move as fast as running movernent and makes him con- siderably harder t0 hit as he dodges ad weaves, applying target number modifier equal Acrobatics Skill Bonus +1 sprinting as shown o tie Movement Table Movement can also be restricted by encumbrance the character is wearing heavy armor carrying Iot of gear (see Encumbrance; 1331. Note that character may never perform more than movement action the same turn Maps: the players want more exact system of deter- mining movement and range tney can use square hex erid and use metal miniatures Or paper markers t0 represent each character good scale t0 use meters per hex Or square Divide weapon ranges and movement rates by (rounding up on 5) to find tne equivalent nexes squares on the map. Miniatures: miniatures and ungridded terrain are uscd t0 play the game, mOvement speeds and weapon rangcs can be converted Unto inches or centimeters To convert Eame meters typical 28mm tigures _ multiply movement rates and weapon ranges by 0.7 (round up on 51t0 find the equivalent in inches_ Or multiply by 2 t0 find thc equivalent in centimeters_ Note that these conversions will match the scale of the minia- tures_ but weapon rangcs probably be very long; requiring large playing surface only small play surface available use smaller distance scale: measure game meters directly as centimeters multiply meters Dy 0.35 t0 find inches_ RANGED COMBAT The ranged combat rules are\n[PDF_PAGE 146 | score=9] EQUIPMENT does not stun the character; nor must the character make Knockout Check; Fatigue sustained normally: Type myomer replacement functions as normal limb for damage ourposes. Damage suffered by artificial limbs can repaired with the appropriate skills, such as Technician/ Electronics for Type and limbs . Damaged myomer limbs must be repaired at specially equipped hospital and requires Surgery and Technician/Myomer Skills Modifiers Action Checks for replacement limbs are based on tne modifiers for the Lost Limb Trait (p 831. with slightly less dexterity than the original but can perform all the same functions Any target numbers that use DEX related skills reduce the modifiers from the Lost Limb Trait by three There are no restrictions On movement Type 5: Myomer Replacement Myomer replacements are prohibitively expensive but are the most litelike additional 000 €C bills per limb buys detailed cosmetic finishing that makes the replacement virtual: indistinguishable from the origina without medical exami- nation_ Characters with Type 5 limbs nave no limitations restrictions movement motor control. For all practica poses, the Type replacement functions as natural Iimo Type 1: Simple Limb Tnese primitive artificial limbs include rudimentary func tional prostheses such as hooks Or pegs_ and crude cosmetic replacements_ Any target numbers that use DEX related skills requiring the use of Type limbs reduce the modifiers from the Lost Limb Trait Dy one: character with Type leg cannot run and his walking movement is reduced to one third its original value_ If the character has two Type legs_ his walking move ment reduced to one Leighth original value_ character with two Type legs must use cane 0r crutches 0r make SuC- cessful RFL Check each turn t0 keep from falling; BIONIC E"
+  }
+}

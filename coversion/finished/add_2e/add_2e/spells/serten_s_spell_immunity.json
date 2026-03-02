@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "serten_s_spell_immunity",
+  "name": "Serten's Spell Immunity",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Serten's Spell Immunity (Abjuration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "eighth",
+    "book_pages": [
+      192
+    ],
+    "pdf_pages": [
+      193
+    ],
+    "raw_block": "Serten's Spell Immunity (Abjuration)\nRange: Touch\nComponents: V, S, M\nDuration: 1 turn/level\nCasting Time: 1 round/recipient\nArea of Effect: Creature(s) touched\nSaving Throw: None\nBy use of this spell, the wizard is able to\nconfer virtual immunity to certain spells\nand magical attack forms upon those he\ntouches. For every four levels of experience\nof the wizard, one creature can be pro-\ntected by the Serten's spell immunity spell,\nbut, if more than one is protected, the du-\nration of the protection is divided among\nthe protected creatures. (Example: A 16th-\nlevel wizard can cast the spell upon one\ncreature and it will last 16 turns, or place it\nupon two creatures for eight turns, or upon\nfour creatures for four turns.) The protec-\ntion giGes a bonus to saving throws, ac-\ncording to spell type and level, as shown in\nthe following table.\nSpell level Wizard Spell Priest Spell\n1st-3rd +9* +7\n4th-6th +7 +5\n7th-8th +5 +3\n* Includes beguiling effects.\nThe material component of this spell is a\ndiamond of at least 500 gp value, which\nmust be crushed and sprinkled over the spell\nrecipients. Each such creature must also\nhave m its possession a diamond of at least\none carat size, intact and carried on its per-\nson."
+  },
+  "mechanics": {
+    "school_or_type": "Abjuration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Serten's Spell Immunity",
+      "canonical_name_guess": null,
+      "school_or_type": "Abjuration",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "1 turn/level",
+      "casting_time": "1 round/recipient",
+      "area_of_effect": "Creature(s) touched",
+      "saving_throw": "None",
+      "description_excerpt": "By use of this spell, the wizard is able to confer virtual immunity to certain spells and magical attack forms upon those he touches. For every four levels of experience of the wizard, one creature can be pro- tected by the Serten's spell immunity spell, but, if more than one is protected, the du- ration of the protection is divided among the protected creatures. (Example: A 16th- level wizard can cast the spell upon one creature and it will last 16 turns, or place it upon two creatures for eight turns, or upon four creatures for four turns.) The protec- tion giGes a bonus to saving throws, ac- cording to spell type and level, as shown in the following table. Spell level Wizard Spell Priest Spell 1st-3rd +9* +7 4th-6th +7 +5 7th-8th +5 +3 * Includes beguiling effects. The material component of this spell is a diamond of at least 500 gp value, which must be crushed and sprinkled over the "
+    },
+    "quality_flags": []
+  }
+}

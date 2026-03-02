@@ -2,7 +2,7 @@
 scripts/pdf_scanner.py — PDF-Scanner & Verarbeitungs-Queue
 
 Indiziert rekursiv alle .pdf-Dateien im Projektverzeichnis und erstellt
-data/lore/pdf_queue.json als Verarbeitungs-Queue fuer Codex.
+coversion/pdf_queue.json als Verarbeitungs-Queue fuer die Conversion-Pipeline.
 
 Verwendung:
   py -3 scripts/pdf_scanner.py                    # Scan Projektverzeichnis
@@ -27,24 +27,28 @@ logger = logging.getLogger("ARS.pdf_scanner")
 
 # Projekt-Root (zwei Ebenen ueber scripts/)
 PROJECT_ROOT = Path(__file__).parent.parent
-QUEUE_FILE = PROJECT_ROOT / "data" / "lore" / "pdf_queue.json"
+QUEUE_FILE = PROJECT_ROOT / "coversion" / "pdf_queue.json"
 
 # Heuristische Erkennung des Regelsystems anhand des Dateinamens
 SYSTEM_HINTS: dict[str, str] = {
-    "cthulhu":    "cthulhu_7e",
-    "call_of":    "cthulhu_7e",
-    "coc":        "cthulhu_7e",
-    "keeper":     "cthulhu_7e",
-    "add":        "add_2e",
-    "adnd":       "add_2e",
-    "dungeon":    "add_2e",
-    "forgotten":  "add_2e",
-    "paranoia":   "paranoia_2e",
+    "cthulhu":       "cthulhu_7e",
+    "call_of":       "cthulhu_7e",
+    "coc":           "cthulhu_7e",
+    "keeper":        "cthulhu_7e",
+    "add":           "add_2e",
+    "adnd":          "add_2e",
+    "dungeon":       "add_2e",
+    "forgotten":     "add_2e",
+    "paranoia":      "paranoia_2e",
     "alpha_complex": "paranoia_2e",
-    "shadowrun":  "shadowrun_6",
-    "sr6":        "shadowrun_6",
-    "mad_max":    "mad_max",
-    "wasteland":  "mad_max",
+    "shadowrun":     "shadowrun_6",
+    "sr6":           "shadowrun_6",
+    "mad_max":       "mad_max",
+    "wasteland":     "mad_max",
+    "gurps":         "gurps_4e",
+    "mechwarrior":   "mechwarrior_3e",
+    "battletech":    "mechwarrior_3e",
+    "mech_warrior":  "mechwarrior_3e",
 }
 
 # Scan-Verzeichnisse (relativ zu Projekt-Root)

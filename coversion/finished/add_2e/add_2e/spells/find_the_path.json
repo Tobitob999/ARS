@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "find_the_path",
+  "name": "Find the Path",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Find the Path (Divination) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "sixth",
+    "book_pages": [
+      227
+    ],
+    "pdf_pages": [
+      228
+    ],
+    "raw_block": "Find the Path (Divination)\nReveralble\nSphere: Divination\nRange: Touch\nComponents: V, S, M\nDuration: 1 turn/level\nCasting Time: 3 rounds\nArea of Effect: Creature touched\nSaving Throw: None\nThe recipient of this spell can find the\nshortest, most direct physical route that he\nis seeking, be it the way into or out of a\nlocale. The locale can be outdoors or under\nground, a trap, or even a muze spell. Note\nthat the spell works with respect to locales,\nnot objects or creatures within a locale.\nThus, the spell could not find the way to \"a\nforest where a green dragon lives\" or to the\nlocation of \"a hoard of platinum pieces.\"\nThe location must be in the same plane as\nthe caster.\nThe spell enables the subject to sense the\ncorrect direction that will eventually lead\nhim to his destination, indicating at the\nappropriate times the exact path to follow\n(or physical actions to take-for example,\nwith concentration the spell enables the sub-\nject to sense trip wires or the proper word to\nbypass a glyph). The spell ends when the\ndestination is reached or when one turn for\neach caster level has elapsed. The spell frees\nthe subject, and those with him, from a\nmuze spell in a single ruund, and will con-\ntinue to do so as long as the spell lasts.\nNote that this divination is keyed to the\ncaster, not his companions, and that, like\nthe find trups spell, it does not pndict (w\nallow for the actions of creatures.\nThe spell requires a set of divination\ncounters of the sort favored by the priest-\nbones, ivory counters, sticks, carved -,\nor whatever.\nThe reverse spell, lose the path, makes the\ncreature touched totally lost and mbk to\nfind its way for the duration of the Spctu,\nalthough it can be led, of course."
+  },
+  "mechanics": {
+    "school_or_type": "Divination",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Find the Path",
+      "canonical_name_guess": null,
+      "school_or_type": "Divination",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "1 turn/level",
+      "casting_time": "3 rounds",
+      "area_of_effect": "Creature touched",
+      "saving_throw": "None",
+      "description_excerpt": "although it can be led, of course."
+    },
+    "quality_flags": []
+  }
+}

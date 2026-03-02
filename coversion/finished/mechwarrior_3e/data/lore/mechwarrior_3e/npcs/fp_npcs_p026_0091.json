@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "CHARACTER CREATION options for minimizing or eliminating the",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 26,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:43Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p026_0091",
+    "entity_type": "npcs",
+    "name_guess": "CHARACTER CREATION options for minimizing or eliminating the",
+    "breadcrumb_path": "Rules Compendium > Page 026 > npcs > CHARACTER CREATION options for minimizing or eliminating the",
+    "page_refs": [
+      26
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "CHARACTER CREATION options for minimizing or eliminating the randomness of events_ The most extreme option is to disregard events during char- acter creation_ Ihis does not mean rolling for events and ignoring only the negative ones, however: players should either use the events as described for their characters Or forgo them completely: Alternatively; enterprising players can tailor existing events t0 suit their Own tastes_ If the player has definite story in mind for his character."
+  }
+}

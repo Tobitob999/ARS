@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Tlme: year Attrlbute Minlmums: INT 4 WIL 3_",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 44,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:53Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p044_0161",
+    "entity_type": "history",
+    "name_guess": "Tlme: year Attrlbute Minlmums: INT 4 WIL 3_",
+    "breadcrumb_path": "Rules Compendium > Page 044 > history > Tlme: year Attrlbute Minlmums: INT 4 WIL 3_",
+    "page_refs": [
+      44
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Tlme: year Attrlbute Minlmums: INT 4 WIL 3_ SOC 3 Attrlbute Thresholds: RFL +1, INT +1 Wil SOC +1 Tralts: Promotion Well Equipped Skllls: Academic Any Bureaucracy / Federated Suns +2 Computers +1_ Swimming +2 Flelds= Basic Training Next Path: Advanced Individual Training Subpath (mandatory; part of this pass) Mandatory Subpath: Advanced Jndividual Training (AlT) Basic Training graduates only Tlme: 2 years Traits: Promotion Skills: Leadership +1, Strategy +2, +1 to any two relevant skills +1 to any one field skill Fields: Choose one of the following fields_ subject to the listed restrictions: Aerospace Pilot (minimum DEX 4, RFL 41 Armored Infantry (minimum STR BOD 5) Cavalry DropShip Pilot (minimum DEX 4) Infantry MechWarrior (minimum DEX 3, RFL 41 Events: Do not roll events for Advanced Individual Training Next Path: Tour of Duty (4) or Special Training (3 part of this pass character enters DropShip Pilot , Infantry; MechWarrior or Armored Infantry fields) 43"
+  }
+}

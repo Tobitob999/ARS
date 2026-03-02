@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "These features are sent to selected worlds_ where",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 184,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:11Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p184_0645",
+    "entity_type": "history",
+    "name_guess": "These features are sent to selected worlds_ where",
+    "breadcrumb_path": "Rules Compendium > Page 184 > history > These features are sent to selected worlds_ where",
+    "page_refs": [
+      184
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "These features are sent to selected worlds_ where Iocal vidcasters radio stations and news sheets can choose stories the public might find of inter- est, Ne Y5 of national significance public addresses by promi nent nobles war coverage_ natural disasters and politically important events__is often routed througn an approved source such as multi-worild vidcast networks or ISAP The proliferation of scandal vids however; testifies to the voracious appetite of the general public for the real story: These services rely on the bare minimum of facts using them to formulate wild and often salacious theories_ The biggest draw of the scanda vids_ even for those skeptical of their stories, is their knack for being first with any hint of something newsworthy Though each Successor State has established an overall policy regarding control of the media individual worlds and dis tricts On world may often tighten these guidelines as neces sary: Historically, the Federated Suns and the Lyran nation have practiced minimal censorship, though their governments keep sensitive information secret."
+  }
+}

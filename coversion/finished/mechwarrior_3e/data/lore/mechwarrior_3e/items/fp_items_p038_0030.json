@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Trade School (3) Farm Events Your carelessness cost",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 38,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:51Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p038_0030",
+    "entity_type": "items",
+    "name_guess": "Trade School (3) Farm Events Your carelessness cost",
+    "breadcrumb_path": "Rules Compendium > Page 038 > items > Trade School (3) Farm Events Your carelessness cost",
+    "page_refs": [
+      38
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Trade School (3) Farm Events Your carelessness cost your parents their lives [Addiction / Alcohol, Quirk / Traumatic Flashbacks Stigma Orphan] Trampled in stampede [Lost Limb, Poor Hearingl Family lost the farm [Poverty] Needed an escape from farm life (Addiction) Family had limited farm equipment [Riding +2_ but lose Piloting Skills gained from this path] Young Farmers Club was your second home (Academic Agriculture +15 Career /Farming +1| Hunted often [Rifles +1, Tracking +1] Found valuable minerals on the farm (Wealth] Went to town for school (Academic /Any +1."
+  }
+}

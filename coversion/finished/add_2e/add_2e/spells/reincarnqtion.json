@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "reincarnqtion",
+  "name": "Reincarnqtion",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Reincarnqtion (Necromancy) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "sixth",
+    "book_pages": [
+      181
+    ],
+    "pdf_pages": [
+      182
+    ],
+    "raw_block": "Reincarnqtion (Necromancy)\nRairge:ibuih\nComponents: V, S, M\nDuration: Permanent\nCasting Tie: 1 turn\nArea of Effect: Pc!rson touched\nSaving Throw: None\nWith this spell, the wizard can bring back\nto life a person who died no more than one\nday per level of experience of the wizard\nbefore the casting of the spell. The essence\nof the dead person is transferred to another\nbody, possibly one very different from his\nformer body. Reincarnation does not\nrequire any saving throw, system shock, or\nresurrection survival roll. The corpse is\ntouched, and a new incarnation of the per-\nson will appear in the area in Id6 turns. The\nperson reincarnated recalls the majority of\nhis former life and form, but the character\nclass, if any, of the new incarnation might\nbe different indeed. The new incarnation is\ndetermined on the following table. If a play-\ner character race is indicated, the character\nmust be created.\n24-28 Gnome\n55-59 Hobgoblin\n60-73 Human\nNote: Very good or very evil persons will\nnot be reincarnated as creatures whose gem\neral alignment is the opposite.\nThe material components of the spell are\na small drum and a drop of blood."
+  },
+  "mechanics": {
+    "school_or_type": "Necromancy",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Reincarnqtion",
+      "canonical_name_guess": null,
+      "school_or_type": "Necromancy",
+      "range": null,
+      "components": "V, S, M",
+      "duration": "Permanent",
+      "casting_time": null,
+      "area_of_effect": "Pc!rson touched",
+      "saving_throw": "None",
+      "description_excerpt": "With this spell, the wizard can bring back to life a person who died no more than one day per level of experience of the wizard before the casting of the spell. The essence of the dead person is transferred to another body, possibly one very different from his former body. Reincarnation does not require any saving throw, system shock, or resurrection survival roll. The corpse is touched, and a new incarnation of the per- son will appear in the area in Id6 turns. The person reincarnated recalls the majority of his former life and form, but the character class, if any, of the new incarnation might be different indeed. The new incarnation is determined on the following table. If a play- er character race is indicated, the character must be created. 24-28 Gnome 55-59 Hobgoblin 60-73 Human Note: Very good or very evil persons will not be reincarnated as creatures whose gem eral alignment is t"
+    },
+    "quality_flags": [
+      "missing_standard_fields"
+    ]
+  }
+}

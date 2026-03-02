@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_1_mapping",
+    "tsr_inc_ad_and_d_2nd_edition_phbr05_the_complete_psionics_handbook"
+  ],
+  "summary": "Abgeleiteter Phase-1-Chunk aus Kapitelmarkern fuer TSR Inc - AD&D 2nd Edition - PHBR05 - The Complete Psionics Handbook.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - PHBR05 - The Complete Psionics Handbook",
+    "source_file": "TSR Inc - AD&D 2nd Edition - PHBR05 - The Complete Psionics Handbook.pdf",
+    "chapter_map_file": "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_phbr05_the_complete_psionics_handbook_chapter_map.json",
+    "text": ""
+  },
+  "mechanics": {
+    "topic": "phase_1_skeleton_mapping",
+    "keywords": [
+      "add_2e",
+      "book_conversion",
+      "extensions",
+      "tsr_inc_ad_and_d_2nd_edition_phbr05_the_complete_psionics_handbook"
+    ],
+    "injection_priority": "support",
+    "mapped_skeleton_fields": [
+      "extensions"
+    ],
+    "raw_text": "",
+    "derived_from": [
+      "detected_chapters",
+      "detected_appendices"
+    ]
+  }
+}

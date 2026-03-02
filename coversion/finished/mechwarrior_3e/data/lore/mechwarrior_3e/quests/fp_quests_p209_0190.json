@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "quests_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "quests",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "REWARDS After finishing adventure, the characters expect some",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 209,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:25Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_quests_p209_0190",
+    "entity_type": "quests",
+    "name_guess": "REWARDS After finishing adventure, the characters expect some",
+    "breadcrumb_path": "Rules Compendium > Page 209 > quests > REWARDS After finishing adventure, the characters expect some",
+    "page_refs": [
+      209
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "REWARDS After finishing adventure, the characters expect some kind of reward. Depending on the mission. this mignt be Campaign This award obviously only applies the characters are taking 208"
+  }
+}

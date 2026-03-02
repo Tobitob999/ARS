@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "OCCUPATIONAL FIELDS MILITARY FIeLDB cian Elenental Gunner /dalllstic",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 220,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:31Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p220_0873",
+    "entity_type": "npcs",
+    "name_guess": "OCCUPATIONAL FIELDS MILITARY FIeLDB cian Elenental Gunner /dalllstic",
+    "breadcrumb_path": "Rules Compendium > Page 220 > npcs > OCCUPATIONAL FIELDS MILITARY FIeLDB cian Elenental Gunner /dalllstic",
+    "page_refs": [
+      220
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "OCCUPATIONAL FIELDS MILITARY FIeLDB cian Elenental Gunner /dalllstic Humanoid Gunnert/Lase Humanoig Gunner /Mus sile / Humanoid Martial Afts Danesmm Piloting /Balilesuit Sunsor Oderanons TTactict/Inlanlne= Mlltary Sclentlst 4cademic/Mitar History Careetman Scientist Lompuiers ciypcoprapny Strategy actcs ClIllan Tech Career /lechnician Techcician /Comms Technician / Electronics Hecnnician _ecranice Planetary survayor Prerequisite: Scientist Anorairai Demolltiang haviralon/Grouno Pilotng /croose Onc * 'sunvivji Tracking Lovct Nava ."
+  }
+}

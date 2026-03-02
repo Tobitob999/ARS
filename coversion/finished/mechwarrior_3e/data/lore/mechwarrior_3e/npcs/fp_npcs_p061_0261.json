@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "To find your character' $ starting age add",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 61,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:00Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p061_0261",
+    "entity_type": "npcs",
+    "name_guess": "To find your character' $ starting age add",
+    "breadcrumb_path": "Rules Compendium > Page 061 > npcs > To find your character' $ starting age add",
+    "page_refs": [
+      61
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "To find your character' $ starting age add the years that passed trom any Higher Education and Real Life paths sixteen: Years are listed under each path\" Time header; certain events may also have added years Owns Vehicle your character has the Owns Vehicle Trait. ne 0r sne can- not sell his Or ner vehicle during character creation for cash Tne character can try t0 sell it in actuae game play, but should pos sess the vehicle when play begins_ If it i5 not appropriale for the character t0 have Inis trail."
+  }
+}

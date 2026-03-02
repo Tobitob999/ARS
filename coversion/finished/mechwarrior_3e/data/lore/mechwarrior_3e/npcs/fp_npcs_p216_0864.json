@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "INDEX Marine Field_ Marquess/marquessa: 171-72 Martial Arts 48,",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 216,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:30Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p216_0864",
+    "entity_type": "npcs",
+    "name_guess": "INDEX Marine Field_ Marquess/marquessa: 171-72 Martial Arts 48,",
+    "breadcrumb_path": "Rules Compendium > Page 216 > npcs > INDEX Marine Field_ Marquess/marquessa: 171-72 Martial Arts 48,",
+    "page_refs": [
+      216
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "111 M",
+      "124 M",
+      "137 M",
+      "14 M",
+      "140 M",
+      "144 M",
+      "144 m",
+      "145 M",
+      "147 M",
+      "189 M"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [
+      "damage"
+    ],
+    "excerpt": "INDEX Marine Field_ Marquess/marquessa: 171-72 Martial Arts 48, 51, 102-3 Marital Arts / Military; 35 Mech technician field, 53 MechWartior; 84 damage 126-27 Field_ Phenotype_ 35, 84 Media: 182-83 193_ 205 Medical equipient; 143 46 155 kit, 144 monitors 145 46 school tools 145 Medipack; 144 Medipatch; 144 Medtech, 36.103, 124 Melee combat; 112-14 Melee weanons_ 134-35 Mercenaries 161, 197-98 205 Mercenary brat, 38 Merchant Field Merchant caste 189 Mictocommunicalor 147 Microfr enade_ 137 Micro Dotct pack, 140 Military: 103 academy 40-41 campaigns 205 command structure, 198 99, 201 communicaor 147 enlistment; 41-42 fields, 52-53 methods 199-200 organizational structure 197 200-201 powu pack; 140 Tank school, 25, 38-39 Scientist Field training; 199 Miniatures 111 Minigrenade_ 137 Mnor NPCs, 206 incr realan, Periphery."
+  }
+}

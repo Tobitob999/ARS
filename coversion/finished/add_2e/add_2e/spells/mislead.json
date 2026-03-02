@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "mislead",
+  "name": "Mislead",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Mislead (Illusion/Phantasm) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "sixth",
+    "book_pages": [
+      179
+    ],
+    "pdf_pages": [
+      180
+    ],
+    "raw_block": "Mislead (Illusion/Phantasm)\nRange: 10 yards\nComponent: S\nDuration: 1 round/level\nCasting Time: 1\nArea of Effect: Special .\nSaving Throw: None\nWhen a mislead spell is cast by the wiz-\nard, he actually creates an illusory double at\nthe same time that he is cloaked by\nimproved invisibility magic (see the 4th-\nlevel spell). The wizard is then free to go\nelsewhere while his double seemingly moves\naway. The spell enables the illusion of the\nwizard to speak and gesture as if it were\nreal, and there are full olfactory and touch\ncomponents as well. A tnre seeing spell or a\ngem of seeing will reveal the illusion for\nwhat it is. A detect invisibility or true seeing\nspell, or items such as a gem of seeing or\nrobe of eyes can detect the invisible wizard\n(see the 5th-level wizard spell, shadow\ndoor).\nMonster Summoning IV\n(Conjuration/Summoning)g)\nRange: 60 yards\nComponents: V, S, M\nDuration: 5 rounds + 1 round/level\nCasting Time: 6\nArea of Effect: Special\nSaving Throw: None\nThis spell is much like the 3rd-level mon-\nster summoning I spell, except that this spell\nsummons ld3 4th-level monsters. These\nappear within spell range and attack the\ncaster's opponents, until he commands them\nto cease, the spell duration expires, or the\nmonsters are slam. These creatures do not\n179 179\n-\ncheck morale; they vanish when slain. If no\nopponent exists to fight, summoned mon-\nsters can, if the wizard can communicate\nwith them, and if they are physically capit-\nble, perform other services for the summon-\nThe material components of this spell are\na tiny bag and a small (not necessrrily lit)\ncandle.\ning wizard."
+  },
+  "mechanics": {
+    "school_or_type": "Illusion/Phantasm",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Mislead",
+      "canonical_name_guess": null,
+      "school_or_type": "Illusion/Phantasm",
+      "range": "10 yards",
+      "components": "V, S, M",
+      "duration": "1 round/level",
+      "casting_time": "1",
+      "area_of_effect": "Special .",
+      "saving_throw": "None",
+      "description_excerpt": "monsters are slam. These creatures do not 179 179 - check morale; they vanish when slain. If no opponent exists to fight, summoned mon- sters can, if the wizard can communicate with them, and if they are physically capit- ble, perform other services for the summon- The material components of this spell are a tiny bag and a small (not necessrrily lit) candle. ing wizard."
+    },
+    "quality_flags": [
+      "trimmed_merged_block"
+    ]
+  }
+}

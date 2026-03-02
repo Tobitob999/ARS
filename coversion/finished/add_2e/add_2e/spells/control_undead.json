@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "control_undead",
+  "name": "Control Undead",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Control Undead (Necromancy) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "seventh",
+    "book_pages": [
+      183
+    ],
+    "pdf_pages": [
+      184
+    ],
+    "raw_block": "Control Undead (Necromancy)\nRange: 60 feet\nComponents: V, S, M\nDuration: 3d4 rounds + 1 round/level\nCasting Time: 1 round\nArea of Effect: ld6 undead\nSaving Throw: Special\nThis spell enables the wizard to command\nld6 undead creatures for a short period of\ntime. Upon casting the spell, the wizard se-\nlects one point within range of the spell.\nThose undead nearest to this point are af-\nfected, until either undead equal in Hit Dice\nto the caster‘s level or six undead are af-\nfected. Undead with 3 Hit Dice or less are\nautomatically controlled. Those of greater\nHit Dice are allowed a saving throw vs.\nspell, which if successful negates the attempt\nto control that creature. Regardless of the\nsuccess or failure of the saving throw, each\ncreature required to make a check counts to-\nward the Hit Dice limit of the spell.\nThose creatures under the control of the\nwizard can be commanded by the caster if\nthey are within hearing range. There is no\ntelepathic communication between the\ncaster and the controlled undead. There is\nno language requirement either. Even if\ncommunication is impossible, the con-\ntrolled undead do not attack the spellcaster.\nAt the end of the spell, the controlled un-\ndead revert to their normal behaviors.\nThose not mindless will remember the con-\ntrol exerted by the wizard.\nThe material component for this spell is a\nsmall piece each of bone and raw meat."
+  },
+  "mechanics": {
+    "school_or_type": "Necromancy",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Control Undead",
+      "canonical_name_guess": null,
+      "school_or_type": "Necromancy",
+      "range": "60 feet",
+      "components": "V, S, M",
+      "duration": "3d4 rounds + 1 round/level",
+      "casting_time": "1 round",
+      "area_of_effect": "ld6 undead",
+      "saving_throw": "Special",
+      "description_excerpt": "This spell enables the wizard to command ld6 undead creatures for a short period of time. Upon casting the spell, the wizard se- lects one point within range of the spell. Those undead nearest to this point are af- fected, until either undead equal in Hit Dice to the caster‘s level or six undead are af- fected. Undead with 3 Hit Dice or less are automatically controlled. Those of greater Hit Dice are allowed a saving throw vs. spell, which if successful negates the attempt to control that creature. Regardless of the success or failure of the saving throw, each creature required to make a check counts to- ward the Hit Dice limit of the spell. Those creatures under the control of the wizard can be commanded by the caster if they are within hearing range. There is no telepathic communication between the caster and the controlled undead. There is no language requirement either. Even if commu"
+    },
+    "quality_flags": []
+  }
+}

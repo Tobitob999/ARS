@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_2",
+    "tsr_inc_ad_and_d_2nd_edition_phbr05_the_complete_psionics_handbook",
+    "henchmen_hirelings"
+  ],
+  "summary": "Phase-2 Regelchunk: henchmen_hirelings aus TSR Inc - AD&D 2nd Edition - PHBR05 - The Complete Psionics Handbook.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - PHBR05 - The Complete Psionics Handbook",
+    "source_file": "TSR Inc - AD&D 2nd Edition - PHBR05 - The Complete Psionics Handbook.pdf",
+    "text": "[PDF_PAGE 109 | score=2] ,.n * CHAPTER A Psionics Campaign I This chapter explains how to bring psionics into your AD&D@ games. It examines the role of psionics in a campaign, the attitudes of NPCs toward psionicists, and the relationship between psionics and magic. It offers the DM advice for handling psionic villains and mon- sters. Finally, you'll find out what it's like to experience psionic power. Look What I Got! When something new and exciting comes along, the natural impulse is to rush back to the gaming group, toss it on the table, and let everyone rip into it with full vigor. But that's the wrong way to bring something as powerful as psionics into an existing AD&D campaign. Players are likely to react in o"
+  },
+  "mechanics": {
+    "topic": "henchmen_hirelings",
+    "keywords": [
+      "add_2e",
+      "henchmen_hirelings",
+      "tsr_inc_ad_and_d_2nd_edition_phbr05_the_complete_psionics_handbook"
+    ],
+    "injection_priority": "support",
+    "confidence": 0.05,
+    "page_refs": [
+      109
+    ],
+    "raw_text": "[PDF_PAGE 109 | score=2] ,.n * CHAPTER A Psionics Campaign I This chapter explains how to bring psionics into your AD&D@ games. It examines the role of psionics in a campaign, the attitudes of NPCs toward psionicists, and the relationship between psionics and magic. It offers the DM advice for handling psionic villains and mon- sters. Finally, you'll find out what it's like to experience psionic power. Look What I Got! When something new and exciting comes along, the natural impulse is to rush back to the gaming group, toss it on the table, and let everyone rip into it with full vigor. But that's the wrong way to bring something as powerful as psionics into an existing AD&D campaign. Players are likely to react in o"
+  }
+}

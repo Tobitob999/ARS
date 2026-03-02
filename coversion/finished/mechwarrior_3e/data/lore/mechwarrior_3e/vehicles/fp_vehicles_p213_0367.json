@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "category": "vehicles_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "vehicles",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "165 LSSU: 144 MechWarrior Field_ 37 , 39,",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 213,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:27Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_vehicles_p213_0367",
+    "entity_type": "vehicles",
+    "name_guess": "165 LSSU: 144 MechWarrior Field_ 37 , 39,",
+    "breadcrumb_path": "Rules Compendium > Page 213 > vehicles > 165 LSSU: 144 MechWarrior Field_ 37 , 39,",
+    "page_refs": [
+      213
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "144 M",
+      "167 m",
+      "172 M",
+      "39, m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "165 LSSU: 144 MechWarrior Field_ 37 , 39, makeup t, 167 media, 183 profile_ religion in; 185 Star League and, 160 subskills Succession Wars_ 161 titles/nobility: 172 Mork 177 Careen; 33_ 36, 45 46, 47, 98 Cash; 59 Caste system, 189-90 Cavaly Field_ 37 , 53 Chaos March, 164, 168 Charactet aqvancemeni 209-11 attacks against 128 Character creation affiliation, 21 aCe."
+  }
+}

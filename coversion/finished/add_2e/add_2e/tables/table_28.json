@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.2.1",
+  "id": "table_28",
+  "name": "Table 28: THIEVING SKILL DEXTERITY ADJUSTMENTS",
+  "category": "table",
+  "tags": [
+    "add_2e",
+    "table",
+    "player_handbook",
+    "toc_curated_fill"
+  ],
+  "summary": "PHB Table 28 (THIEVING SKILL DEXTERITY ADJUSTMENTS) - kuratierter Fill fuer vollst?ndige Tabellenabdeckung.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "table_number": 28,
+    "title": "THIEVING SKILL DEXTERITY ADJUSTMENTS",
+    "book_page": null,
+    "pdf_page": null,
+    "raw_page_token": "unknown"
+  },
+  "mechanics": {
+    "source": "manual_fill_from_toc_context",
+    "confidence": "medium",
+    "note": "Page token konnte OCR-bedingt nicht robust extrahiert werden."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "for determining Initiative In combat, Any combat oriented",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 56,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:58Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p056_0048",
+    "entity_type": "items",
+    "name_guess": "for determining Initiative In combat, Any combat oriented",
+    "breadcrumb_path": "Rules Compendium > Page 056 > items > for determining Initiative In combat, Any combat oriented",
+    "page_refs": [
+      56
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "0 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [
+      "armor",
+      "damage"
+    ],
+    "excerpt": "for determining Initiative In combat, Any combat oriented char- acter will benefit from higher Reflexes Attribute_ Strength (STR) character' Strength represents his Or her muscle power Intelligence (INT) and conditioning: Related skills include athletic abilities such as One of the most important Attributes Intelligence repre Acrobatics ad Swimming: Strength also adds t0 the damage sents characier perception comprenension; creativity and character does in melee combat: Any character who expects t0 reasoning abilities This Attribute iS related t0 many skills_ espe get into close combat will likely benefit from better than aver cially those that involve cognitive ability for example age Strength Attribute as will characters who expect t0 wear Computers and Strategy: Because perception based heavy armor Or carry lots of Bear Intelligence, the Attribute combines with Reflexes to determine whethe character can detect and dodge an incoming attack: Body (BOD) As in real life , any character can benefit from high Intelligence."
+  }
+}

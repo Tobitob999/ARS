@@ -1,0 +1,208 @@
+{
+  "module": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "total_turns": 10,
+  "total_latency_ms": 12114.095500000076,
+  "avg_latency_ms": 1211.4095500000076,
+  "avg_response_chars": 215.0,
+  "avg_sentences": 5.2,
+  "total_probes": 0,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich schaue mich im Raum um.",
+      "keeper_response": "Das Licht fällt nüchtern durch die hohen Fenster. Aktenstapel türmen sich auf einem massiven Schreibtisch. Der Geruch von altem Papier und Tinte liegt in der Luft.\n\nWas möchtest du genauer betrachten? [ZEIT_VERGEHT: 0.1h]",
+      "response_chars": 221,
+      "response_sentences": 4,
+      "latency_ms": 1582.064199999877,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich untersuche die Buecher auf dem Schreibtisch.",
+      "keeper_response": "Du siehst eine Reihe von juristischen Büchern. Es sind Bände über Immobilienrecht und Mietverträge. Nichts scheint ungewöhnlich.\n\nWas möchtest du als Nächstes tun? [ZEIT_VERGEHT: 0.1h]",
+      "response_chars": 184,
+      "response_sentences": 4,
+      "latency_ms": 938.741200000095,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich oeffne die Tuer zum Keller.",
+      "keeper_response": "Du suchst nach einer Kellertür. Hier in Mr. Knotts Büro gibt es keine. Du bist in seinem ordentlichen, sachlichen Arbeitszimmer.\n\nWas möchtest du stattdessen tun? [ZEIT_VERGEHT: 0.1h]",
+      "response_chars": 183,
+      "response_sentences": 5,
+      "latency_ms": 1994.7151999999733,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich leuchte mit der Taschenlampe in die Dunkelheit.",
+      "keeper_response": "Die Morgensonne erhellt Mr. Knotts Büro. Es gibt keine Dunkelheit, in die du leuchten könntest. Der Raum ist hell und übersichtlich.\n\nMöchtest du mit Mr. Knott sprechen oder das Büro verlassen? [ZEIT_VERGEHT: 0.1h]",
+      "response_chars": 214,
+      "response_sentences": 6,
+      "latency_ms": 1113.1835999999566,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich rufe nach meinen Begleitern.",
+      "keeper_response": "Du bist allein hier. Mr. Knott ist der einzige Anwesende. Seine Augen fixieren dich erwartungsvoll.\n\nWas möchtest du Mr. Knott fragen? [ZEIT_VERGEHT: 0.1h]",
+      "response_chars": 155,
+      "response_sentences": 6,
+      "latency_ms": 1178.0048999999053,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 6,
+      "player_input": "Ich pruefe die Schriftrollen genauer.",
+      "keeper_response": "Es gibt keine Schriftrollen. Nur Aktenordner, gefüllt mit Mietverträgen und Grundrissen. Alles ist sehr weltlich hier.\n\nDein Blick schweift über das Büro. Was fesselt deine Aufmerksamkeit? [ZEIT_VERGEHT: 0.1h]",
+      "response_chars": 209,
+      "response_sentences": 5,
+      "latency_ms": 968.1454000001395,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 7,
+      "player_input": "Ich versuche das Schloss zu knacken.",
+      "keeper_response": "Welches Schloss möchtest du knacken? Es gibt keine sichtbaren Schlösser, die deine Aufmerksamkeit erregen. Das Büro ist einladend offen.\n\nWas möchtest du stattdessen tun? [ZEIT_VERGEHT: 0.1h]",
+      "response_chars": 191,
+      "response_sentences": 4,
+      "latency_ms": 1121.6859000001023,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 8,
+      "player_input": "Ich spreche den alten Mann an.",
+      "keeper_response": "[STIMME:keeper] Mr. Knott räuspert sich leise. [STIMME:scholar] \"Kann ich Ihnen behilflich sein, mein Freund? Die Zeit drängt.\" [STIMME:keeper] Sein Blick ist durchdringend.\n\nWas möchtest du ihn fragen? [ZEIT_VERGEHT: 0.1h]",
+      "response_chars": 223,
+      "response_sentences": 5,
+      "latency_ms": 914.5840000001044,
+      "tags_found": [
+        "ZEIT_VERGEHT",
+        "STIMME"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 9,
+      "player_input": "Ich fluechte aus dem Raum.",
+      "keeper_response": "Du drehst dich abrupt um und eilst zur Tür. Mr. Knotts Blick folgt dir, verwirrt und leicht irritiert. Du hörst ihn leise murmeln, als du den Raum verlässt.\n\n[STIMME:scholar] \"Merkwürdig. Sehr merkwürdig.\" [STIMME:keeper] Du stehst nun auf dem Flur.\n\nWohin gehst du? [ZEIT_VERGEHT: 0.1h]",
+      "response_chars": 287,
+      "response_sentences": 7,
+      "latency_ms": 1039.2385000000104,
+      "tags_found": [
+        "ZEIT_VERGEHT",
+        "STIMME"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 10,
+      "player_input": "Ich schreibe meine Erkenntnisse auf.",
+      "keeper_response": "Du stehst auf dem Flur und beginnst, Notizen zu machen. Deine Hand kritzelt über das Papier. Du hältst fest, dass Mr. Knotts Büro nüchtern und ordentlich ist. Die Bücher handeln von Recht und Immobilien.\n\nWelche anderen Beobachtungen möchtest du noch festhalten? [ZEIT_VERGEHT: 0.1h]",
+      "response_chars": 283,
+      "response_sentences": 6,
+      "latency_ms": 1263.732599999912,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

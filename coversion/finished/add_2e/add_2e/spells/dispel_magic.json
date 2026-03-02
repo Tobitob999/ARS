@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "dispel_magic",
+  "name": "Dispel Magic",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Dispel Magic (Abjuration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "third",
+    "book_pages": [
+      210
+    ],
+    "pdf_pages": [
+      211
+    ],
+    "raw_block": "Dispel Magic (Abjuration)\nSphere: Protection\nRange: 60 yards\nComponents: V, S\nhation: Special\nCasting Time: 6\nArea of Effect: =foot cube or 1 item\nSaving Throw: None\nWhen a priest casts this spell, it has a\nchance to neutralize or negate the magic it\ncomes in contact with as follows:\nFirst, it has a chance to remove spells and\nspell-like effects (including device effects\nand innate abilities) from creatures or\nobjects. Second, it may disrupt the casting\nor use of these in the area of effect at the\ninstant the dispel is cast. Third, it may\ndestroy magical potions (which are treated\nas Uth level for purposes of this spell).\nEach effect or potion in the spell's area is\nchecked to determine if it is dispelled. The\ncaster can always dispel his own magic; oth-\nerwise the chance depends on the difference\nin level between the magical effect and the\ncaster. The base chance of successfully dis-\npelling is 11 or higher on IdzO. If the caster\nis higher level than the creator of the effect\nto be dispelled, the difference is subtracted\nfrm &is base number needed. If the caster\nis lower bel, then the difference is added to\nthe base. A die roll of 20 always succee&\nand a die roll of 1 always fails. Thus, if a\ncaster is 10 levels higher than the magic he is\ntrying to dispel, only a roll of 1 prevents the\neffect frm being dispelled.\nA dispel magic can affect only a specially\nmchanted item (such as a magical scroll,\nring, wad, rod, staff, miscellaneous item,\nweapon, shield, or armor) if it is cast\ndirectlyupon the item. Thisrenders the item\nnonoperational for Id4 rounds. An item\npossessed or carried by a creature has the\ncreature's saving throw against this effect;\nothcrwiso it is automatically rendered non-\noperational. An interdimensional interface\n(such as a bag of holding) rendered non-\noperational is temporarily closed. Note that\nan item's physical properties are unchanged:\na nonoperational magical sword is still a\nsword.\nArtifacts and relics are not subject to this\nspell, but some of their spell-like effects may\nbe, at the DMs option.\nSummary of Dispel Effects\nSource of Effect Reslsts As\nCaster None\nResult of Dispel\nDispel automatic\nOther caster/innate abilitv Level/HD of other caster J%& nenated\nArtifact DM discretion DM discretion\n* Effect negated; if cast directly on item, item becomes nonoperational for Id4 rounds.\nNote that this spell, if successful, will\nrelease charmed and similarly beguiled crea-\ntures. Certain spells or effects cannot be dis-\npelled; these are listed in the spell\ndescriptions."
+  },
+  "mechanics": {
+    "school_or_type": "Abjuration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Dispel Magic",
+      "canonical_name_guess": null,
+      "school_or_type": "Abjuration",
+      "range": "60 yards",
+      "components": "V, S",
+      "duration": null,
+      "casting_time": "6",
+      "area_of_effect": "=foot cube or 1 item",
+      "saving_throw": "None",
+      "description_excerpt": "When a priest casts this spell, it has a chance to neutralize or negate the magic it comes in contact with as follows: First, it has a chance to remove spells and spell-like effects (including device effects and innate abilities) from creatures or objects. Second, it may disrupt the casting or use of these in the area of effect at the instant the dispel is cast. Third, it may destroy magical potions (which are treated as Uth level for purposes of this spell). Each effect or potion in the spell's area is checked to determine if it is dispelled. The caster can always dispel his own magic; oth- erwise the chance depends on the difference in level between the magical effect and the caster. The base chance of successfully dis- pelling is 11 or higher on IdzO. If the caster is higher level than the creator of the effect to be dispelled, the difference is subtracted frm &is base number needed. "
+    },
+    "quality_flags": [
+      "missing_standard_fields"
+    ]
+  }
+}

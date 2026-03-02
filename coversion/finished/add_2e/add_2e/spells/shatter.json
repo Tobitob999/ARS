@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "shatter",
+  "name": "Shatter",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Shatter (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "second",
+    "book_pages": [
+      145
+    ],
+    "pdf_pages": [
+      146
+    ],
+    "raw_block": "Shatter (Alteration)\nRange: 30 yards + 10 yards/level\nComponents: V, S, M\nDuration: Instantaneous\nCasting Time: 2\nArea of Effect: 3-foot radius\nSaving Throw: Neg.\nThe shatter spell is a sound-based attack\nthat affects nonmagical objects of crystal,\nglass, ceramic, or porcelain, such as vials,\nbottles, flasks, jugs, windows, mirrors, etc.\nAll such objects within a three-foot radius\nof the center of the spell effect are smashed\ninto dozens of pieces by the spell. Objects\nweighing more than one pound per level of\nthe caster are not affected, but all other ob-\njects of the appropriate composition must\nsave vs. crushing blow or be shattered. Al-\nternatively, the spell can be focused against\na single item of up to 10 pounds per caster\nlevel. Crystalline creatures usually suffer\nId6 points of damage per caster level to a\nmaximum of 6d6, with a saving throw vs.\nspell for half damage.\nThe material component of this spell is a\nchip of mica."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Shatter",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "30 yards + 10 yards/level",
+      "components": "V, S, M",
+      "duration": "Instantaneous",
+      "casting_time": "2",
+      "area_of_effect": "3-foot radius",
+      "saving_throw": "Neg.",
+      "description_excerpt": "The shatter spell is a sound-based attack that affects nonmagical objects of crystal, glass, ceramic, or porcelain, such as vials, bottles, flasks, jugs, windows, mirrors, etc. All such objects within a three-foot radius of the center of the spell effect are smashed into dozens of pieces by the spell. Objects weighing more than one pound per level of the caster are not affected, but all other ob- jects of the appropriate composition must save vs. crushing blow or be shattered. Al- ternatively, the spell can be focused against a single item of up to 10 pounds per caster level. Crystalline creatures usually suffer Id6 points of damage per caster level to a maximum of 6d6, with a saving throw vs. spell for half damage. The material component of this spell is a chip of mica."
+    },
+    "quality_flags": []
+  }
+}

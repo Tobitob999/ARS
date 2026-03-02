@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "wup_wood",
+  "name": "Wup Wood",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Wup Wood (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "second",
+    "book_pages": [
+      208
+    ],
+    "pdf_pages": [
+      209
+    ],
+    "raw_block": "Wup Wood (Alteration)\nReversible\nSphere: Plant\nRange: 10 yards/level\nComponents: V, S\nDuration: Permanent\nCasting Time: 5\nArea of Effect: Special\nSaving Throw: Special\nWhen this spell is cast, the priest causes a\nvolume of wood to bend and warp, perma-\nnently destroying its straightness, form, and\nstrength. The range of a warp wood spell is\n10 yards for each level of experience of the\ncaster. It affects approximately a 15-inch\nshaft of wood of up to one-inch diameter\nper level of the caster. Thus, at 1st level, a\ncaster might be able to warp an hand axe\nhandle or four crossbow bolts; at 5th level,\nhe could warp the shaft of a typical spear.\nNote that boards or planks can also be af-\nfected, causing a door to be sprung or a boat\nor ship to leak. Warped missile weapons are\nuseless; warped melee weapons suffer a - 4\npenalty to their attack rolls.\nEnchanted wood is affected only if the\nspellcaster is of higher level than the caster\nof the prior enchantment. The spellcaster\nhas a 20% cumulative chance of success per\nlevel of difference (20% if one level higher,\n40% if two levels higher. etc.). Thus, a door\nmagically held or wizard locked by a 5th-\nlevel wizard is 40% likely to be affected by a\nwarp wood spell cast by a 7th-level priest.\nWooden magical items are considered en-\nchanted at 12th level (or better). Extremely\npowerful items, such as artifacts, are unaf-\nfected by this spell.\nThe reversed spell, straighten wood,\nstraightens bent or crooked wood, or re-\nverses the effects of a warp wood spell, sub-\nject to the same restrictions."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Wup Wood",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "10 yards/level",
+      "components": "V, S",
+      "duration": "Permanent",
+      "casting_time": "5",
+      "area_of_effect": "Special",
+      "saving_throw": "Special",
+      "description_excerpt": "When this spell is cast, the priest causes a volume of wood to bend and warp, perma- nently destroying its straightness, form, and strength. The range of a warp wood spell is 10 yards for each level of experience of the caster. It affects approximately a 15-inch shaft of wood of up to one-inch diameter per level of the caster. Thus, at 1st level, a caster might be able to warp an hand axe handle or four crossbow bolts; at 5th level, he could warp the shaft of a typical spear. Note that boards or planks can also be af- fected, causing a door to be sprung or a boat or ship to leak. Warped missile weapons are useless; warped melee weapons suffer a - 4 penalty to their attack rolls. Enchanted wood is affected only if the spellcaster is of higher level than the caster of the prior enchantment. The spellcaster has a 20% cumulative chance of success per level of difference (20% if one level hig"
+    },
+    "quality_flags": []
+  }
+}

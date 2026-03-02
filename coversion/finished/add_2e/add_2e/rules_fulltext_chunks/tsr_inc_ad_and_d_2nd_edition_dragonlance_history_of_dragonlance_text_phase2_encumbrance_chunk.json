@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_2",
+    "tsr_inc_ad_and_d_2nd_edition_dragonlance_history_of_dragonlance_text",
+    "encumbrance"
+  ],
+  "summary": "Phase-2 Regelchunk: encumbrance aus TSR Inc - AD&D 2nd Edition - Dragonlance_ History of Dragonlance_text.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - Dragonlance_ History of Dragonlance_text",
+    "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ History of Dragonlance_text.pdf",
+    "text": "[PDF_PAGE 15 | score=1] ee yg Excellency, I confess that our conver- sation continued for many more hours—at least, so I have heard from numerous reliable witnesses. My own notes, at this point, become rather inde- cipherable. (I refer Your Lordship to my previous remark regarding hill dwarf. conversational customs.) Too, I must apologize for the delay in scribing this missive. In all honesty, yesterday (the morning after the inter- view) I awakened with a most discom- forting sensation in head and belly. It required the better part of the day and night before I was able to touch quill to parchment without trembling as one with the ague. In closing, I hope that such informa- tion as I have transcribed will prove of\n[PDF_PAGE 19 | score=1] he was trying to throw fireballs at us. The wizard, I mean, not Squisher. Int: Diamonds? You found a chest full of diamonds? Tas: Yes. I took the whole load of diamonds up the tower stairs and threw them off the top, and they made a mar- velous splash. I think the wizard was mad about that, too. I did find the great- est thing in the tower, though! [short pause] Here it is. This. Int: That's . . . it’s a feather. Tas: It's from a goatsucker bird. Isn't it great? Int: A feather from a goatsucker bird. Tas: I think they're beautiful. See? Int: But what about the diamonds? Tas: The diamonds? Int: The diamonds. The ones that— Tas: Oh, they all sank. Int: Right. Fine, then. Now, you said that you\n[PDF_PAGE 145 | score=1] A Woodhen Quest The First and Only Draft of the Comprehensive Final Report on the Long-Awaited Study on the Ultimately Tragic Fate of the Black-Crowned Woodhen of Western Ergoth, by Professor Galopaguslamarkdorwin of the Grand University of Mount Nevermind (Retired) The reader will surely agree that the most vexing issue facing our world since the days of the great Cataclysm, the most critical inquiry in the whole of Krynn, has been the ongoing investigation into the fate of the black-crowned woodhen. Once widely known across western Ansalon as a popular quarry of Istarian priests, goblin soldiers, gully dwarves, and other peoples too mentally or energetically chal- lenged to catch more aggr\n[PDF_PAGE 149 | score=1] put forth every effort to escape the area by the most expedient possible means. They lightened the ship’s load by dumping several hundred gallons of engine oil into the surf, which allowed the ship to float free of the sandbar, then turned the engines up to their most energetic setting and headed for the open sea. I was barely able to get Skylark aboard by throwing him a rope. We had to abandon the ship's lifeboat in our flight. “But the captain!” Skylark screamed at the crewgnomes, once he was aboard again. “We left the cap- tain behind!\" The crew responded by pretending not to hear Skylark or seeming to have trouble under- standing him, mumbling “No speaka you language!” as they hurried of"
+  },
+  "mechanics": {
+    "topic": "encumbrance",
+    "keywords": [
+      "add_2e",
+      "encumbrance",
+      "load",
+      "tsr_inc_ad_and_d_2nd_edition_dragonlance_history_of_dragonlance_text"
+    ],
+    "injection_priority": "core",
+    "confidence": 0.1,
+    "page_refs": [
+      15,
+      19,
+      145,
+      149
+    ],
+    "raw_text": "[PDF_PAGE 15 | score=1] ee yg Excellency, I confess that our conver- sation continued for many more hours—at least, so I have heard from numerous reliable witnesses. My own notes, at this point, become rather inde- cipherable. (I refer Your Lordship to my previous remark regarding hill dwarf. conversational customs.) Too, I must apologize for the delay in scribing this missive. In all honesty, yesterday (the morning after the inter- view) I awakened with a most discom- forting sensation in head and belly. It required the better part of the day and night before I was able to touch quill to parchment without trembling as one with the ague. In closing, I hope that such informa- tion as I have transcribed will prove of\n[PDF_PAGE 19 | score=1] he was trying to throw fireballs at us. The wizard, I mean, not Squisher. Int: Diamonds? You found a chest full of diamonds? Tas: Yes. I took the whole load of diamonds up the tower stairs and threw them off the top, and they made a mar- velous splash. I think the wizard was mad about that, too. I did find the great- est thing in the tower, though! [short pause] Here it is. This. Int: That's . . . it’s a feather. Tas: It's from a goatsucker bird. Isn't it great? Int: A feather from a goatsucker bird. Tas: I think they're beautiful. See? Int: But what about the diamonds? Tas: The diamonds? Int: The diamonds. The ones that— Tas: Oh, they all sank. Int: Right. Fine, then. Now, you said that you\n[PDF_PAGE 145 | score=1] A Woodhen Quest The First and Only Draft of the Comprehensive Final Report on the Long-Awaited Study on the Ultimately Tragic Fate of the Black-Crowned Woodhen of Western Ergoth, by Professor Galopaguslamarkdorwin of the Grand University of Mount Nevermind (Retired) The reader will surely agree that the most vexing issue facing our world since the days of the great Cataclysm, the most critical inquiry in the whole of Krynn, has been the ongoing investigation into the fate of the black-crowned woodhen. Once widely known across western Ansalon as a popular quarry of Istarian priests, goblin soldiers, gully dwarves, and other peoples too mentally or energetically chal- lenged to catch more aggr\n[PDF_PAGE 149 | score=1] put forth every effort to escape the area by the most expedient possible means. They lightened the ship’s load by dumping several hundred gallons of engine oil into the surf, which allowed the ship to float free of the sandbar, then turned the engines up to their most energetic setting and headed for the open sea. I was barely able to get Skylark aboard by throwing him a rope. We had to abandon the ship's lifeboat in our flight. “But the captain!” Skylark screamed at the crewgnomes, once he was aboard again. “We left the cap- tain behind!\" The crew responded by pretending not to hear Skylark or seeming to have trouble under- standing him, mumbling “No speaka you language!” as they hurried of"
+  }
+}

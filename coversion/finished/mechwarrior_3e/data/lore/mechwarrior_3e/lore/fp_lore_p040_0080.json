@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "lore_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "lore",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Attribute Minimums: BOD 3 DEX 4, RFL 3",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 40,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:52Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_lore_p040_0080",
+    "entity_type": "lore",
+    "name_guess": "Attribute Minimums: BOD 3 DEX 4, RFL 3",
+    "breadcrumb_path": "Rules Compendium > Page 040 > lore > Attribute Minimums: BOD 3 DEX 4, RFL 3",
+    "page_refs": [
+      40
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Attribute Minimums: BOD 3 DEX 4, RFL 3 WIL 3, SOC Attrlbute Thresholds: BOD +1, DEX +1 Tralts: Well-Equipped (31, Vehicle (21, Custom Vehicle_ Quirk/Clan Honor; Promotion (to Rank 6) Skllls: Career /Soldier First Aid +2, Interest/Clan Remembrance +3_ Martial Arts / Military +3_ Navigation /Ground +2_ Pistols +2 Flelds: Clan Aerospace Pilot , Elementat MechWarrior (as appropriate phenotype) , Rather than the usual +3 points per skill; four skills have +2 Skill Points two have +4 Skill Points ad one has +6 Skill Points (player' $ choice) Next Path: Tour of Duty: Clan (4) Truebom Sibko Events Training accident [Lost Limb (3) ad wash out of trainingi 39"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "any_creature_at_the_edge",
+  "name": "Any creature at the edge",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Any creature at the edge (within one foot) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      155
+    ],
+    "pdf_pages": [
+      156
+    ],
+    "raw_block": "Any creature at the edge (within one foot)\nof a pit must roll a successful Dexterity\ncheck or fall into the hole. Creatures mov-\ning rapidly toward a pit dug immediately\nbefore them must roll a saving throw vs.\nspell to avoid falling in. Any creature in a\npit being excavated can climb out at a rate\ndecided by the DM. A creature caught in a\ncollapsing pit must roll a saving throw vs.\ndeath to avoid being buried; it escapes the\npit if successful. Tunneling is possible with\nthis spell as long as there is space available\n155\nm\nfor the material removed. Chances for\nlapse are doubled and safe tunneling\ntance is half of the safe excavation d\nunless such construction is most carefully\nbraced and\nof earth and rock, particularly clay golems\nand those from the elemental plane of Earth.\nWhen cast upon such a creature, it suffers\n4d6 points of damage. A successful saving\nthrow vs. spell reduces this damage to half.\nTo activate the spell, the spellcaster needs\na miniature shovel and tiny bucket and\nmust contii\nexcavated.\nconclusion of the spell.\nDimension Door (AI\nRange: 0\nComponen\nDuration: Instantaneous\nCasting Time: 1\nArea of Effect: The caster\nSaving Throw: None\nwizard instantly transfers himself up to 30\nyards distance per level of experience. This\nspecial form of teleportation allows for no\nerror, and the wizard always arrives at\nexactly the spot desired-whether by sim-\nply visualizing the area (within spell tranda\ndistance, of course) or by stating direction\nsuch as, ”300 yards straight downward: or,\n“upward to the northwest, 45 degree angle,\n420 yards.” If the wizard arrives in a place\nthat is already occupied by a solid body, he\nremains trapped in the Astral plane. If dis-\ntances are stated and the spellcaster arrives\nwith no sui\nair), falling\nmagical means are employed. All that the\nwizard wears or carries, subject to a maxi-\nmum weight equal to 500 pounds of nonliv- -\ning matter, or half that amount of living\nmatter, is transferred with the spellcaster.\nRecovery from use of a dimension door\nspell requires one round. ~"
+  },
+  "mechanics": {
+    "school_or_type": "within one foot",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Any creature at the edge",
+      "canonical_name_guess": null,
+      "school_or_type": "within one foot",
+      "range": "0",
+      "components": null,
+      "duration": "Instantaneous",
+      "casting_time": "1",
+      "area_of_effect": "The caster",
+      "saving_throw": "None",
+      "description_excerpt": "wizard instantly transfers himself up to 30 yards distance per level of experience. This special form of teleportation allows for no error, and the wizard always arrives at exactly the spot desired-whether by sim- ply visualizing the area (within spell tranda distance, of course) or by stating direction such as, ”300 yards straight downward: or, “upward to the northwest, 45 degree angle, 420 yards.” If the wizard arrives in a place that is already occupied by a solid body, he remains trapped in the Astral plane. If dis- tances are stated and the spellcaster arrives with no sui air), falling magical means are employed. All that the wizard wears or carries, subject to a maxi- mum weight equal to 500 pounds of nonliv- - ing matter, or half that amount of living matter, is transferred with the spellcaster. Recovery from use of a dimension door spell requires one round. ~"
+    },
+    "quality_flags": [
+      "missing_standard_fields"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Instead successful hit will force the target to",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 121,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:32Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p121_0572",
+    "entity_type": "npcs",
+    "name_guess": "Instead successful hit will force the target to",
+    "breadcrumb_path": "Rules Compendium > Page 121 > npcs > Instead successful hit will force the target to",
+    "page_refs": [
+      121
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "2 M"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [
+      "Wound",
+      "wound"
+    ],
+    "excerpt": "Instead successful hit will force the target to make an immediate Knockout Check, with all the usual modifiers plus additional modifier equal to the wound value of the type of wound the attack would have inflicted_ For example, if the attack would have inflicted Minor Wound the target would take Fatigue and would make Knockout Check with a additional +2 Modifier Some weapons_ such as stunsticks always attack t0 sub- due_ This characteristic listed the Notes column on the Weapon Table (p. 153}."
+  }
+}

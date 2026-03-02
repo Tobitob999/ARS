@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "quests_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "quests",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "17-18 Opposing traits, 23 Optics, 149 Outreach 168",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 216,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:30Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_quests_p216_0201",
+    "entity_type": "quests",
+    "name_guess": "17-18 Opposing traits, 23 Optics, 149 Outreach 168",
+    "breadcrumb_path": "Rules Compendium > Page 216 > quests > 17-18 Opposing traits, 23 Optics, 149 Outreach 168",
+    "page_refs": [
+      216
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "Wound"
+    ],
+    "excerpt": "17-18 Opposing traits, 23 Optics, 149 Outreach 168 Outworlds Alliance, 176. 177 184 education; 180 prafile_ 0xns Vehicle, 84-85 St, Ives 167 St; Ives Compact, 28 Saichel pamteny 140 Satchel charge, 138 Scanalvier 148-49 Sciences major, 46 Scientist Field, Scientist caste_ 189 Scout Field, 54 Scrounge_ 33, 35_ 36 , 39 105 Second Whitting Conference , 165 Security systems 16-17.105 Sequction 105 Sensor operations 105-6 Serious Wound; 117 , 125 Serve an Droteci Ship Crew Field Shotguns 36,106, 135-36 Shots 133 Sian 167 Silencer; 139 Simple Actions 109 Simple Ilmb; 145 Six-sided dice (061."
+  }
+}

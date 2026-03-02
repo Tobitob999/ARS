@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "103 piloting: 104 protocol 104 streedwisc 106 tactics",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 217,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:30Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p217_0475",
+    "entity_type": "items",
+    "name_guess": "103 piloting: 104 protocol 104 streedwisc 106 tactics",
+    "breadcrumb_path": "Rules Compendium > Page 217 > items > 103 piloting: 104 protocol 104 streedwisc 106 tactics",
+    "page_refs": [
+      217
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "103 piloting: 104 protocol 104 streedwisc 106 tactics 107 technician_ 107-8 Succession Wars, 5, 160. 161 175, 194_ 199 Sun Zhang MechWarrior ACademy 44-45 Support laser, 137 Suopoit machine Eun; 137 Suppor #Capans 106, 137 Suppressing fire 119 Surgery 106, 124 Surkai, Rite ol, 190 Surprise, 119-20 Survival, 33.36 49,51, 106 Survival equipment/gear; 146-47. 155 Sweep maneuver; 102,103 Swimming: 33 35, 40 51.106 Sword 134 Transportation 151 Travel; 50-51 152, 157 186-88 Treaty Genera Trinity Alliance; 28 Tri vid set, Truce of Iukayyid, 30 164 Truck, 151 Wnucbdmn creche_ Trueborns 32."
+  }
+}

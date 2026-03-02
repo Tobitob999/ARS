@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Except for those operated on major space stations",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 152,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:55Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p152_0455",
+    "entity_type": "history",
+    "name_guess": "Except for those operated on major space stations",
+    "breadcrumb_path": "Rules Compendium > Page 152 > history > Except for those operated on major space stations",
+    "page_refs": [
+      152
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Except for those operated on major space stations and aerodromes, most of these tube complexes are rather run down and are often populated by an unsavory crowd (making them great place to find underworld contacts). Dive: Dives are better than tubes as you at least get vate room."
+  }
+}

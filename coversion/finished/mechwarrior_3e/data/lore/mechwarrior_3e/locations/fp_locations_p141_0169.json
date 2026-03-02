@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "locations_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "locations",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "The protection offered where the pieces overlap not",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 141,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:39Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_locations_p141_0169",
+    "entity_type": "locations",
+    "name_guess": "The protection offered where the pieces overlap not",
+    "breadcrumb_path": "Rules Compendium > Page 141 > locations > The protection offered where the pieces overlap not",
+    "page_refs": [
+      141
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "armor"
+    ],
+    "excerpt": "The protection offered where the pieces overlap not added together but rather the best protection of the individual pieces other words wearing two flak jackets won do much Eood, but wearing an ablative vest over flak suit will offer addi- tional protection from laser weapons that hit the torso_ In this case the armor values the torso would be 3/5/6/3_ Naturally; the weight of all armor worn added for encum- brance and no additional armor can be stacked the character IS wearing battle armor: High-Capacity Power Packs High-capacity (HC) batteries which come the same vari\" eties as standard packs; hold significantly larger charge Tney are ess common and more expensive Rechargers Unless otherwise noted_ only one power pack can plugged into single recharger at any one time_ The recharger can provide up t0 the indicated number of power points per hour; regardless how many power packs are attached_ Rechargers can be used as direct power sources, but they pro vide only limited supply per hour: FossIl Fuel Recharger: Utilizing petroleum fuel, the fossil fuel recharger is small two four-stroke engine that drives dynamo which turn cnarges the battery: The fossil fuel recharger can accommodate Up to three power packs Kinetic Recharger: The kinetic recharger works the same principle as the fossil fuel recharger, but instead of hav ing a engine t0 drive the dynamo instead needs t0 be man ually cranked: can accommodate Up t0 tnree power packs_ Solar Recharger: The most expensive Of its kind_ the solar recharger is also the most cost efficient."
+  }
+}

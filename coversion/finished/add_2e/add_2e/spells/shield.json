@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "shield",
+  "name": "Shield",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Shield (Evocation) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": null,
+    "book_pages": [
+      137
+    ],
+    "pdf_pages": [
+      138
+    ],
+    "raw_block": "Shield (Evocation)\nRange: 0\nComponents: V, S\nDuration: 5 rounds/level\nCasting Time: 1\nArea of Effect: Special\nSaving Throw: None\nWhen this spell is cast, an invisible barrier\ncomes into being in front of the wizard. This\nshield totally negates magic missile attacks.\nIt provides the equivalent protection of AC\njavelins, spears, etc.), AC 3 against small\ndevice-propelled missiles (arrows, bolts,\nbullets, manticore spikes, sling stones, etc.),\nand AC 4 against all other form of attack.\nThe shield also adds a + 1 bonus to the wiz-\nards saving throws against attacks that are\nbasically frontal. Note that these benefits\napply only if the attacks originate from in\nfront of the wizard, where the shield can\nmove to interpose itself.\n2 against hand-hurled missiles (=a, darts,"
+  },
+  "mechanics": {
+    "school_or_type": "Evocation",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Shield",
+      "canonical_name_guess": null,
+      "school_or_type": "Evocation",
+      "range": "0",
+      "components": "V, S",
+      "duration": "5 rounds/level",
+      "casting_time": "1",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "When this spell is cast, an invisible barrier comes into being in front of the wizard. This shield totally negates magic missile attacks. It provides the equivalent protection of AC javelins, spears, etc.), AC 3 against small device-propelled missiles (arrows, bolts, bullets, manticore spikes, sling stones, etc.), and AC 4 against all other form of attack. The shield also adds a + 1 bonus to the wiz- ards saving throws against attacks that are basically frontal. Note that these benefits apply only if the attacks originate from in front of the wizard, where the shield can move to interpose itself. 2 against hand-hurled missiles (=a, darts,"
+    },
+    "quality_flags": []
+  }
+}

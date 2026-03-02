@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Hideously expensive build Tnd maintain, these WarShins offer",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 198,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:18Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p198_0722",
+    "entity_type": "history",
+    "name_guess": "Hideously expensive build Tnd maintain, these WarShins offer",
+    "breadcrumb_path": "Rules Compendium > Page 198 > history > Hideously expensive build Tnd maintain, these WarShins offer",
+    "page_refs": [
+      198
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Hideously expensive build Tnd maintain, these WarShins offer DropShips and JumpShips tne great- est possible protection Thougn the war Ship flects of the Inner Sphere once numbered in Ihe tnousands; the Reunification War against the Periphery and Kerensky'$ Exodus vastly depleted them The rest were destroyed during the Succession Wars alorg with the technology t0 build them (though ComStar secretly preservcd several warSnips at hiaden bases across the Inner Sphere and beyond)."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "category": "factions_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "factions",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Advanced prototypes well as rare antiqucs and small-run",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 132,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:35Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_factions_p132_0179",
+    "entity_type": "factions",
+    "name_guess": "Advanced prototypes well as rare antiqucs and small-run",
+    "breadcrumb_path": "Rules Compendium > Page 132 > factions > Advanced prototypes well as rare antiqucs and small-run",
+    "page_refs": [
+      132
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "1.08 M"
+    ],
+    "year_mentions": [
+      "3082"
+    ],
+    "stat_tokens": [],
+    "excerpt": "Advanced prototypes well as rare antiqucs and small-run limited edition items fall under this category: EXCHANDE RATEB TABLE spterd axchange retos; 1 Augtet 3082 Target Cunoncy sbi Dam MblReil Leh K-bll startlng Cunoney cbln 1.30 1.30 1.25 1.70 2.20 1.40 S-blli 0.77 1.00 0.96 1.31 1.69 1.08 D-pln 0.77 1.00 0.96 1.31 1.69 1.08 M-blll 0.80 1.04 1.04 1.36 1.76 1.12 R-blll 0.58 0.76 0.76 0.74 0.77 0.82 Lblll 0.45 0.59 0.59 0.57 0.77 0.64 K-blll 0.71 0.93 0.93 0.89 1.21 1.57 Legality While some pieces of equipment can be easily found, their acquisition use might be illegal, For example, ey weapons including lasers, are regulated on all but the most trontier\" worlds_ Likewise operators Of vehi cles such as novercars and aircrait must be licensed else they could face stiff fines caugnt: Level Legallty Unrestricted_ Lega for anyone t0 purchase and The Clan Kerensky is excluded from this exchange-rate table as no use formal method of currency exchange exists between the Clans and Monitored Some legal requirements must the Inner Sphere_ met for purchase Or use Licensed_ Legal purchase and use require gove ernment license which usually easy specialized items (with long waiting period) but that only acquire_ stocks small assor tment of the basic necessitics Controlled."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "vehicles_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "vehicles",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "their use generally restricted umdan 4/8ds Thie pinnacle",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 189,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:13Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_vehicles_p189_0308",
+    "entity_type": "vehicles",
+    "name_guess": "their use generally restricted umdan 4/8ds Thie pinnacle",
+    "breadcrumb_path": "Rules Compendium > Page 189 > vehicles > their use generally restricted umdan 4/8ds Thie pinnacle",
+    "page_refs": [
+      189
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "their use generally restricted umdan 4/8ds Thie pinnacle ot personal transports are vehicles powered compact fusion plants, Such vehicles have become increasingly popular in the past two decades: some_ like the GM Tiger, are widlely regarded &s sta: uS symbols_ Most such vehicles are wheeled and can reach speeds up t0 150 kph: tOp of-the-line models can reach almost 300 *ph on open roads_ Many urban centers_ and Fr?"
+  }
+}

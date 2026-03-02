@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_page",
+  "tags": [
+    "gurps_4e",
+    "fulltext",
+    "pdf_page"
+  ],
+  "summary": "PDF-Seite 307 aus GURPS - 4th Edition - Basic Set.pdf.",
+  "source_text": {
+    "book": "GURPS - 4th Edition - Basic Set",
+    "pdf_page": 307,
+    "text": "Time to Initial Maintenance\nSpell Difficulty Class College Cast Duration Cost Cost Prerequisites Page \nBanish H Special [Will] Necro. 5 sec. – Special – Magery 1, 252\nat least one spell\nfrom 10 colleges\nBlur H Regular L/D 2 sec. 1 min. 1 to 5 S Darkness 250\nBreathe Water H Regular Air, Water 1 sec. 1 min. 4 2 Create Air, 243\nDestroy Water\nClumsiness H Regular [HT] BC 1 sec. 1 min. 1 to 5 H Spasm 244\nCold H Regular Fire 1 min. 1 min. Special S Heat 247\nCommand H Blocking [Will] MC 1 sec. – 2 – Magery 2, 251\nForgetfulness\nContinual Light H Regular L/D 1 sec. Special Special – Light 249\nCounterspell H Regular [Special]Meta 5 sec. – Special – Magery 1, 250\nspell being countered\nCreate Air H Area Air 1 sec. 5 sec.* 1B – Purify Air 243\nCreate Earth H Regular Earth 1 sec. P Special – Earth to Stone 246\nCreate Fire H Area Fire 1 sec. 1 min. 2B H Ignite Fire 246\nCreate Water H Regular Water 1 sec. P 2/gallon – Purify Water 253\nDarkness H Area L/D 1 sec. 1 min. 2B 1 Continual Light 250\nDaze H Regular [HT] MC 2 sec. 1 min. 3 2 Foolishness 250\nDeath Vision H Regular Necro. 3 sec. 1 sec. 2 – Magery 1 251\nDeathtouch H Melee BC 1 sec. – 1 to 3 – Wither Limb 245\nDeflect Energy H Blocking Fire 1 sec. – 1 – Magery 1, 246\nShape Fire\nDeflect Missile H Blocking Move. 1 sec. – 1 – Apportation 251\nDeflect H Ench. Ench. Special – Special – Enchant 480\nDestroy Water H Area Water 1 sec. P 3B – Create Water 253\nDetect Magic H Regular Know. 5 sec. – 2 – Magery 1 249\nDispel Magic H Area [Special] Meta Special P 3B – Counterspell, 250\nat least 12 \nother spells\nEarth to Air H Regular Air, Earth 2 sec. P Special – Create Air, 243\nShape Earth\nEarth to Stone H Regular Earth 1 sec. P 3/cy (min. 3) – Magery 1, 245\nShape Earth\nEnchant VH Ench. Ench. Special – Special – Magery 2, 480\nat least one spell\nfrom 10 other colleges\nEntombment H Regular [HT] Earth 3 sec. P 10* – Magery 2, 246\nfive Earth spells\nExplosive H Missile Fire 1 to 3 sec. Special Special – Fireball 247\nFireball\nExtinguish Fire H Area Fire 1 sec. P 3B – Ignite Fire 247\nFireball H Missile Fire 1 to 3 sec. Special Special – Magery 1, 247\nCreate Fire, \nShape Fire\nFlesh to Stone H Regular [HT] Earth 2 sec. P 10 – Earth to Stone 246\nFog H Area Water 1 sec. 1 min. 2B H Shape Water 253\nFoolishness H Regular [Will] MC 1 sec. 1 min. 1 to 5 H IQ 12+ 250\nForgetfulness H Regular [Special] MC 10 sec. 1 hour 3 3 Magery 1, 250\nFoolishness\nFortify H Ench. Ench. Special – Special – Enchant 480\nGreat Haste VH Regular Move. 3 sec. 10 sec. 5* – Magery 1, 251\nIQ 12+, Haste\nGreat Healing VH Regular Healing 1 min. – 20 – Magery 3, 248\nMajor Healing\nHaste H Regular Move. 2 sec. 1 min. 2* 1* – 251\nHeat H Regular Fire 1 min. 1 min. Special S Create Fire, 247\nShape Fire\nHide Thoughts H Regular C/E 1 sec. 10 min. 3 1 Truthsayer 245\nHinder H Regular [HT] BC, Move. 1 sec. 1 min. 1 to 4 S Clumsiness 244\nor Haste\nIcy Weapon H Regular Water 3 sec. 1 min. 3 1 Create Water 253\nIdentify Spell H Info. Know. 1 sec. – 2 – Detect Magic 249\nIgnite Fire H Regular Fire 1 sec. 1 sec. Special S – 246\nItch H Regular [HT] BC 1 sec. Special 2 – – 244\nLend Energy H Regular Healing 1 sec. – Special – Magery 1 248\nor Empathy\nTRAIT LISTS 305"
+  },
+  "mechanics": {
+    "conversion": "fulltext_page_dump",
+    "generated_at": "2026-03-02T15:00:00"
+  }
+}

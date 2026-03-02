@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "COMBAT Instead_ resolve the attack normally If the",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 123,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:32Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p123_0187",
+    "entity_type": "items",
+    "name_guess": "COMBAT Instead_ resolve the attack normally If the",
+    "breadcrumb_path": "Rules Compendium > Page 123 > items > COMBAT Instead_ resolve the attack normally If the",
+    "page_refs": [
+      123
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "Armor",
+      "Damage",
+      "damage"
+    ],
+    "excerpt": "COMBAT Instead_ resolve the attack normally If the attack strikes part of the target that is behind cover; the attack will strike the cover. which will add t0 the target'$ Armor Value against the attack per tne Barriers rules (above). Splash Damage: Weapons that inflict splash\" damage (including attacks from blast weapons_ sprea thell effects out and as such have nasty tendency t0 cause the most serious damage of the attack to the least armored part of the target."
+  }
+}

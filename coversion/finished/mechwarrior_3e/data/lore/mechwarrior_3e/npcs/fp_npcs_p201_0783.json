@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Five Points LumVOSC Star; Where Inner Sphere lances",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 201,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:21Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p201_0783",
+    "entity_type": "npcs",
+    "name_guess": "Five Points LumVOSC Star; Where Inner Sphere lances",
+    "breadcrumb_path": "Rules Compendium > Page 201 > npcs > Five Points LumVOSC Star; Where Inner Sphere lances",
+    "page_refs": [
+      201
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Five Points LumVOSC Star; Where Inner Sphere lances and companies often merge into larger formations battle Clan Stais almosi always mairtain Iheir conesion; variation tne Star. Ihe Nova. teans OmniMech Star with Elemental Star Tus arrangement provides Clan commanders with additional Wuc 200"
+  }
+}

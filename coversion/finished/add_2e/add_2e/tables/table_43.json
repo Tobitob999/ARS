@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2.0",
+  "id": "table_43",
+  "name": "Table 43: INITIAL CHARACTER FUNDS",
+  "category": "table",
+  "tags": [
+    "add_2e",
+    "table",
+    "player_handbook",
+    "toc_normalized"
+  ],
+  "summary": "PHB Table 43 (INITIAL CHARACTER FUNDS).",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "table_number": 43,
+    "title": "INITIAL CHARACTER FUNDS",
+    "book_page": 66,
+    "pdf_page": 67,
+    "raw_page_token": "66"
+  },
+  "mechanics": {
+    "source": "toc_parse_v3",
+    "confidence": "medium"
+  }
+}

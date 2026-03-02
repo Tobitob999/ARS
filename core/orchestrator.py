@@ -46,6 +46,8 @@ class Orchestrator:
         # Metrics-Logger
         self._metrics_log: list[dict[str, Any]] = []
         self._session_start: float = 0.0
+        # Strukturierter Latenz-Logger
+        self._latency_logger = None  # Lazy-Init in _game_loop
 
     def set_gui_mode(self, enabled: bool = True) -> None:
         """Aktiviert GUI-Modus: Input via Queue, Output via EventBus."""
@@ -199,6 +201,7 @@ class Orchestrator:
                 json.dump(summary, fh, ensure_ascii=False, indent=2)
             logger.info("Session-Metriken gespeichert: %s", path)
 
+            from core.event_bus import EventBus
             bus = EventBus.get()
             bus.emit("game", "metrics_saved", {"path": str(path), "turns": n})
         except Exception as exc:
@@ -226,6 +229,11 @@ class Orchestrator:
         self._time_tracker = TimeTracker()
         if self.engine.ai_backend:
             self.engine.ai_backend.set_time_tracker(self._time_tracker)
+
+        # LatencyLogger instanziieren
+        from core.latency_logger import LatencyLogger
+        self._latency_logger = LatencyLogger()
+
         turn_number = 0
 
         self._session_start = _time.perf_counter()
@@ -330,9 +338,14 @@ class Orchestrator:
 
             print("[SPIELLEITER] ", end="", flush=True)
             self._emit_game("stream_start", "")
+            if self._latency_logger:
+                self._latency_logger.start_turn()
+                self._latency_logger.start("ai")
             _t0 = _time.perf_counter()
             gm_response = self._stream_gm_response(user_input)
             _latency_ms = (_time.perf_counter() - _t0) * 1000.0
+            if self._latency_logger:
+                self._latency_logger.stop("ai")
             print()  # Zeilenumbruch nach Stream-Ende
             self._emit_game("stream_end", gm_response)
 
@@ -415,6 +428,10 @@ class Orchestrator:
                     gm_response,
                 )
 
+            # ── Latency-Logger: Turn abschliessen ────────────────────
+            if self._latency_logger:
+                self._latency_logger.finish_turn(turn_number)
+
             # ── Metrics-Log: Zug-Metriken erfassen ──────────────────
             self._metrics_log.append({
                 "turn": turn_number,
@@ -444,6 +461,12 @@ class Orchestrator:
         mechanics: Any,
     ) -> None:
         """Fuehrt eine angeforderte Probe durch und injiziert das Ergebnis in die KI."""
+        # Alias-Resolution: falsche Skill-Namen korrigieren
+        if hasattr(self.engine, "rules_engine") and self.engine.rules_engine:
+            resolved, was_aliased = self.engine.rules_engine.resolve_skill_alias(skill_name)
+            if was_aliased:
+                logger.info("Probe Skill-Alias: '%s' -> '%s'", skill_name, resolved)
+                skill_name = resolved
         print(f"\n[PROBE angefordert] {skill_name} (Zielwert: {target_value})")
         self._emit_game("probe", f"[PROBE] {skill_name} (Zielwert: {target_value})")
         if not self.engine._voice_enabled and not self._gui_mode:

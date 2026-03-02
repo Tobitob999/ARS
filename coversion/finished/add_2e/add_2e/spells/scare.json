@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "scare",
+  "name": "Scare",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Scare (EnchantmenVCharm) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "second",
+    "book_pages": [
+      145
+    ],
+    "pdf_pages": [
+      146
+    ],
+    "raw_block": "Scare (EnchantmenVCharm)\nRange: 30 yards + 10 yards/level\nComponents: V, S, M\nDuration: ld4 rounds + 1 round/level\nCasting Time: 2\nArea of Effect: 15-foot radius\nSaving Throw: Special\nThis spell causes creatures with fewer\nthan 6 Hit Dice or levels of experience to fall\ninto fits of trembling and shaking. The\nfrightened creatures have a -2 reaction ad-\njustment and may drop items held if encum-\nbered. If cornered, they fight, but with -1\npenalties to attack and damage rolls, and to\nsaving throws as well.\nOnly elves, half-elves, and priests are al-\nlowed saving throws against this spell. Note\nthat this spell has no effect on the undead\n(skeletons, zombies, ghouls, and so on), or\non upper or lower planar creatures of any\nsort.\nThe material component used for this\nspell is a bit of bone from an undead skele-\nton, zombie, ghoul, ghast, or mummy."
+  },
+  "mechanics": {
+    "school_or_type": "EnchantmenVCharm",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Scare",
+      "canonical_name_guess": null,
+      "school_or_type": "EnchantmenVCharm",
+      "range": "30 yards + 10 yards/level",
+      "components": "V, S, M",
+      "duration": "ld4 rounds + 1 round/level",
+      "casting_time": "2",
+      "area_of_effect": "15-foot radius",
+      "saving_throw": "Special",
+      "description_excerpt": "This spell causes creatures with fewer than 6 Hit Dice or levels of experience to fall into fits of trembling and shaking. The frightened creatures have a -2 reaction ad- justment and may drop items held if encum- bered. If cornered, they fight, but with -1 penalties to attack and damage rolls, and to saving throws as well. Only elves, half-elves, and priests are al- lowed saving throws against this spell. Note that this spell has no effect on the undead (skeletons, zombies, ghouls, and so on), or on upper or lower planar creatures of any sort. The material component used for this spell is a bit of bone from an undead skele- ton, zombie, ghoul, ghast, or mummy."
+    },
+    "quality_flags": []
+  }
+}

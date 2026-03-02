@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "protectlon_from_evil",
+  "name": "Protectlon From Evil",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Protectlon From Evil (Abjuration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": null,
+    "book_pages": [
+      137
+    ],
+    "pdf_pages": [
+      138
+    ],
+    "raw_block": "Protectlon From Evil (Abjuration)\nReversible\nRange: Touch\nCompone ts: V, S, M\nCasting Time: 1\nArea of Effect: Creature touched\nSaving Throw: None\nWhen this spell is cast, it creates a magical\nbarrier around the recipient at a distance of\none foot. The barrier moves with the recipi-\nent and has three major effects:\nFirst, all attacks made by evil (or evilly\nenchanted) creatures against the protected\ncreature suffer -2 penalties to attack rolls;\nany saving throws caused by such attacks\nare made with +2 bonuses.\nSecond, any attempt to possess (as by a\nmagic jar attack) or to exercise mental con-\ntrol over (as by a vampire's charm ability)\nthe protected creature is blocked by this\nspell. Note that the protection does not pre-\nvent a vampire's charm itself, but it does\nprevent the exercise of mental control\nthrough the barrier. Likewise, a possessing\nlife force is merely kept out. It would not be\nexpelled if in place before the protection is\ncast.\nThird, the spell prevents bodily contact\nby creatures of an extraplanar or conjured\nnature (such as aerial servants, element&,\nimps, invisible stalkers, salamanders, water\nweirds, xom, and others). This causes the\nnatural (body) weapon attacks of such crea-\ntures to fail and the creatures to recoil, if\nsuch attacks require touching the protected\nbeing. Animals or monsters summoned or\nconjured by spells or similar magic are like-\nwise hedged from the character.\nThis protection ends if the protected char-\nacter makes a melee attack against or tries to\nforce the barrier against the blocked crea-\nture.\nTo complete this spell, the wizard must\ntrace a three-footdiameter circle on the\nfloor (or ground) with powdered silver.\nThis spell can be reversed to become pro-\ntection from good; the second and third\nbenefits remaining unchanged. The material\ncomponent for the reverse is a circle of pow-\ndered iron.\nDuration: z rounddlevel"
+  },
+  "mechanics": {
+    "school_or_type": "Abjuration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Protectlon From Evil",
+      "canonical_name_guess": null,
+      "school_or_type": "Abjuration",
+      "range": "Touch",
+      "components": null,
+      "duration": "z rounddlevel",
+      "casting_time": "1",
+      "area_of_effect": "Creature touched",
+      "saving_throw": "None",
+      "description_excerpt": ""
+    },
+    "quality_flags": [
+      "missing_standard_fields"
+    ]
+  }
+}

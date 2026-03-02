@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Wnile many NPCs will require no real game",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 207,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:24Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p207_0775",
+    "entity_type": "history",
+    "name_guess": "Wnile many NPCs will require no real game",
+    "breadcrumb_path": "Rules Compendium > Page 207 > history > Wnile many NPCs will require no real game",
+    "page_refs": [
+      207
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Wnile many NPCs will require no real game stats, the enemy soldiers security guards. hired thugs and irate bar patrons whom tne player characters run afoul of will need some numbers to back up their combat threat; always helps t0 have game stats for these kinds 0f characters ready before the game so the play doesn\" grind t0 halt while you page through the rules To save ou the trouble coming up with all those num: bers yourself; few pre-Eenerated generic NPCs that can fit in variety of situations are presented below."
+  }
+}

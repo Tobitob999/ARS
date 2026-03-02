@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Throughout three hundred years of conflict; the Successor",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 161,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:57Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p161_0483",
+    "entity_type": "history",
+    "name_guess": "Throughout three hundred years of conflict; the Successor",
+    "breadcrumb_path": "Rules Compendium > Page 161 > history > Throughout three hundred years of conflict; the Successor",
+    "page_refs": [
+      161
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Throughout three hundred years of conflict; the Successor Lords accomplished Iittle save t0 blast humankind virtually back to the Stone Age_ By the end of the third so called Succession War, humanity had lost nearly every technological advance that the Star League had made possible_ Only stringent restrictions destroying JumpShips and other irreplaceable technologies allowed interstellar combat continue _ The fighting ground down t0 endless border skirmishes in which no combat\" ant could Rain significant advantage."
+  }
+}

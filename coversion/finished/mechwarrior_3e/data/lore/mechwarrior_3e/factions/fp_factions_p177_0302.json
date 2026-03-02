@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "factions_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "factions",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "The Clans retain their technological superiority; and Mikely",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 177,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:07Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_factions_p177_0302",
+    "entity_type": "factions",
+    "name_guess": "The Clans retain their technological superiority; and Mikely",
+    "breadcrumb_path": "Rules Compendium > Page 177 > factions > The Clans retain their technological superiority; and Mikely",
+    "page_refs": [
+      177
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "The Clans retain their technological superiority; and Mikely will for some time_ The Inner Sphere has come long way in the past four decades- possibly the quickest renaissance in the history humankind but are still decades benind Kerensky' descendants, and the Periphery realms are in even worse shape. The most advanced of them has barely begun to produce equipment the Successor States have had decades while the technological level of the average Periphery nation is below that of the Inner Sphere at the height the Succession wars."
+  }
+}

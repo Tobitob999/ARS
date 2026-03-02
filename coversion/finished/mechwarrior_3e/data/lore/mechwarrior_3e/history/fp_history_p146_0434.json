@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "For all practica poses, the Type replacement functions",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 146,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:41Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p146_0434",
+    "entity_type": "history",
+    "name_guess": "For all practica poses, the Type replacement functions",
+    "breadcrumb_path": "Rules Compendium > Page 146 > history > For all practica poses, the Type replacement functions",
+    "page_refs": [
+      146
+    ],
+    "_ref": [],
+    "cost_mentions": [
+      "0 ke"
+    ],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "For all practica poses, the Type replacement functions as natural Iimo Type 1: Simple Limb Tnese primitive artificial limbs include rudimentary func tional prostheses such as hooks Or pegs_ and crude cosmetic replacements_ Any target numbers that use DEX related skills requiring the use of Type limbs reduce the modifiers from the Lost Limb Trait Dy one: character with Type leg cannot run and his walking movement is reduced to one third its original value_ If the character has two Type legs_ his walking move ment reduced to one Leighth original value_ character with two Type legs must use cane 0r crutches 0r make SuC- cessful RFL Check each turn t0 keep from falling; BIONIC EAR REPLACEMENT functional replacement for the nuran ear has been avail- able for hundreds years; Modern technology has improved the device So that hearing can be fully restored with no differ- ence sound tone quality."
+  }
+}

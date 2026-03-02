@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_2",
+    "tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_volume_1_text",
+    "encumbrance"
+  ],
+  "summary": "Phase-2 Regelchunk: encumbrance aus TSR Inc - AD&D 2nd Edition - Monstrous Compendium Volume 1_text.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - Monstrous Compendium Volume 1_text",
+    "source_file": "TSR Inc - AD&D 2nd Edition - Monstrous Compendium Volume 1_text.pdf",
+    "text": "[PDF_PAGE 71 | score=2] Horse SS SI a A I a Se EE EG Light Draft Heavy Medium Herbivore Animal (1) Nil Neutral Herbivore Animal (1) Nil Neutral DIET: INTELLIGENCE: TREASURE: ALIGNMENT: Herbivore Animal (1) Nil Neutral Herbivore Animal (1) Nil Neutral Herbivore Animal (1) Nil Herbivore Animal (1) Nil Neutral Herbivore Animal (1) Nil Neutral Herbivore Animal (1) Nil Neutral Nil Nil Nil L Unsteady (5-7) 65 Nil Nil Nil Nil Nil Nil t SPECIAL ATTACKS: SPECIAL DEFENSES: MAGIC RESISTANCE: SIZE: MORALE: L Unsteady (5-7) 120 Unsteady (5-7) 65 XP VALUE: Horses are large hooved mammals often used for transportation or as pack and draft animals by the demihuman races. Horses can be solid white, tan, russet, brown, or black with\n[PDF_PAGE 47 | score=1] Elephant (African) Mammoth DIET: Herbivore Herbivore INTELLIGENCE: Semi- (2-4) Semi- (2-4) TREASURE: Nil Nil ALIGNMENT: Neutral Neutral Mastodon Oliphant Herbivore Herbivore Semi- (2-4) Low (5-7) Nil Nil Neutral Neutral SPECIAL ATTACKS: SPECIAL DEFENSES: MAGIC RESISTANCE: SIZE: L (17 tall) Unsteady (7) Unsteady (7) 4,000 6,000 Elephants have thick, baggy hides, covered with sparse and very coarse tufts of gray hair, The elephant’s most renowned feature is its trunk, which it uses as a grasping limb. Combat: An ele- phant can make up to five attacks at one time in a battle. It can do stabbing damage of 2-16 points (2d8) with each of its two tusks; constricting damage of 2-12 points with its t\n[PDF_PAGE 82 | score=1] Fire Giant Carnivore Non- (0) Carnivore Animal (1) DIET: INTELLIGENCE: TREASURE: ALIGNMENT: B, Q (x10), S, T Nil Neutral Neutral Minotaur Subterranean Carnivore Non- (0) O, P, Q (x5) Neutral Carnivore Non- (0) J-N, Q, C (magic) Neutral SPECIAL ATTACKS: See below See below SPECIAL DEFENSES: See below Nil MAGIC RESISTANCE: Nil Nil SIZE: G(30') H(15‘) MORALE: Steady (11-12) Average (8-10) XP VALUE: 5,000 270 Fire Lizards Fire lizards resemble wingless red dragons and are sometimes called “false dragons.” They are gray-colored with mottled red and brown back and reddish undersides. Hatchlings are light gray in color and darken as they age. Combat: Fire lizards attack with a combination of raking\n[PDF_PAGE 100 | score=1] DIET: INTELLIGENCE: TREASURE: ALIGNMENT: SPECIAL ATTACKS: Charm SPECIAL DEFENSES: Nil MAGIC RESISTANCE: 25% SIZE: $(4') MORALE: Average (8-10) XP VALUE: 120 Nixies are water sprites that live in fresh water lakes, and while they carry no grudge against humankind, they delight in enslav- ing men as their beasts of burden. With webbed fingers and toes, pointed ears, and wide silver eyes, nixies bear little resemblance to their woodland cousins. Most are slim and comely, and they have lightly scaled, pale green skin and dark green hair. Females are attractive, often twin- ing shells and pearl strings in their thick hair, and they modestly dress in tight-fitting wraps woven from colorful seaweed"
+  },
+  "mechanics": {
+    "topic": "encumbrance",
+    "keywords": [
+      "add_2e",
+      "burden",
+      "encumbrance",
+      "tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_volume_1_text"
+    ],
+    "injection_priority": "core",
+    "confidence": 0.125,
+    "page_refs": [
+      47,
+      71,
+      82,
+      100
+    ],
+    "raw_text": "[PDF_PAGE 71 | score=2] Horse SS SI a A I a Se EE EG Light Draft Heavy Medium Herbivore Animal (1) Nil Neutral Herbivore Animal (1) Nil Neutral DIET: INTELLIGENCE: TREASURE: ALIGNMENT: Herbivore Animal (1) Nil Neutral Herbivore Animal (1) Nil Neutral Herbivore Animal (1) Nil Herbivore Animal (1) Nil Neutral Herbivore Animal (1) Nil Neutral Herbivore Animal (1) Nil Neutral Nil Nil Nil L Unsteady (5-7) 65 Nil Nil Nil Nil Nil Nil t SPECIAL ATTACKS: SPECIAL DEFENSES: MAGIC RESISTANCE: SIZE: MORALE: L Unsteady (5-7) 120 Unsteady (5-7) 65 XP VALUE: Horses are large hooved mammals often used for transportation or as pack and draft animals by the demihuman races. Horses can be solid white, tan, russet, brown, or black with\n[PDF_PAGE 47 | score=1] Elephant (African) Mammoth DIET: Herbivore Herbivore INTELLIGENCE: Semi- (2-4) Semi- (2-4) TREASURE: Nil Nil ALIGNMENT: Neutral Neutral Mastodon Oliphant Herbivore Herbivore Semi- (2-4) Low (5-7) Nil Nil Neutral Neutral SPECIAL ATTACKS: SPECIAL DEFENSES: MAGIC RESISTANCE: SIZE: L (17 tall) Unsteady (7) Unsteady (7) 4,000 6,000 Elephants have thick, baggy hides, covered with sparse and very coarse tufts of gray hair, The elephant’s most renowned feature is its trunk, which it uses as a grasping limb. Combat: An ele- phant can make up to five attacks at one time in a battle. It can do stabbing damage of 2-16 points (2d8) with each of its two tusks; constricting damage of 2-12 points with its t\n[PDF_PAGE 82 | score=1] Fire Giant Carnivore Non- (0) Carnivore Animal (1) DIET: INTELLIGENCE: TREASURE: ALIGNMENT: B, Q (x10), S, T Nil Neutral Neutral Minotaur Subterranean Carnivore Non- (0) O, P, Q (x5) Neutral Carnivore Non- (0) J-N, Q, C (magic) Neutral SPECIAL ATTACKS: See below See below SPECIAL DEFENSES: See below Nil MAGIC RESISTANCE: Nil Nil SIZE: G(30') H(15‘) MORALE: Steady (11-12) Average (8-10) XP VALUE: 5,000 270 Fire Lizards Fire lizards resemble wingless red dragons and are sometimes called “false dragons.” They are gray-colored with mottled red and brown back and reddish undersides. Hatchlings are light gray in color and darken as they age. Combat: Fire lizards attack with a combination of raking\n[PDF_PAGE 100 | score=1] DIET: INTELLIGENCE: TREASURE: ALIGNMENT: SPECIAL ATTACKS: Charm SPECIAL DEFENSES: Nil MAGIC RESISTANCE: 25% SIZE: $(4') MORALE: Average (8-10) XP VALUE: 120 Nixies are water sprites that live in fresh water lakes, and while they carry no grudge against humankind, they delight in enslav- ing men as their beasts of burden. With webbed fingers and toes, pointed ears, and wide silver eyes, nixies bear little resemblance to their woodland cousins. Most are slim and comely, and they have lightly scaled, pale green skin and dark green hair. Females are attractive, often twin- ing shells and pearl strings in their thick hair, and they modestly dress in tight-fitting wraps woven from colorful seaweed"
+  }
+}

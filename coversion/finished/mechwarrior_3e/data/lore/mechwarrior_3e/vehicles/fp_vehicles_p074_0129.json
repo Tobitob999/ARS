@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "vehicles_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "vehicles",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "oppaneril IS kncke] pione Field Communicator Pun \"",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 74,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:03Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_vehicles_p074_0129",
+    "entity_type": "vehicles",
+    "name_guess": "oppaneril IS kncke] pione Field Communicator Pun \"",
+    "breadcrumb_path": "Rules Compendium > Page 074 > vehicles > oppaneril IS kncke] pione Field Communicator Pun \"",
+    "page_refs": [
+      74
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "oppaneril IS kncke] pione Field Communicator Pun \" Hedmm are Sled Martial Arls = Vibro !Ockpic* Sel; Iae | Fabcue and adu 206 danaje Solar Recharger 'WNloFi Ialg RFL and higtest Martial Mts Still Movement (WIR/S): 14/24 48 Experience Points: 0 bonus; M sccesstul , opporent makes Knockoul Tesl Permission given to photocopy: MECHWARRIOR@ is Aegistered Trademark of FASA Corporation @ 1999 FASA Corporation"
+  }
+}

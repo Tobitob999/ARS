@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Pointblank Range Pointblank range not Iisted in weapon",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 113,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:30Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p113_0140",
+    "entity_type": "items",
+    "name_guess": "Pointblank Range Pointblank range not Iisted in weapon",
+    "breadcrumb_path": "Rules Compendium > Page 113 > items > Pointblank Range Pointblank range not Iisted in weapon",
+    "page_refs": [
+      113
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Pointblank Range Pointblank range not Iisted in weapon descriptions because IS Ine same ior weapons: you arc meter 0r closer your target, then you are at pointblank range_ the target I5 pointblank rangc and is willing and capable of fighting back: the attack is resolved as melee combat attack instead see below)."
+  }
+}

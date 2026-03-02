@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "vehicles_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "vehicles",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "With plenty of money and no desire for",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 71,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:02Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_vehicles_p071_0126",
+    "entity_type": "vehicles",
+    "name_guess": "With plenty of money and no desire for",
+    "breadcrumb_path": "Rules Compendium > Page 071 > vehicles > With plenty of money and no desire for",
+    "page_refs": [
+      71
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "With plenty of money and no desire for standard job, you have become adept at fixing just about any vehicle and are look- ing for any job that will take you away from boring civilian life However, you can\" seem to set aside your noble origins_ which tend to make you snobbish: Affiliation: Federated Suns (p. 261; Stage 1: Early Childhood (Nobility) Event Roll 341. Stage 2: Late Childhood (Preparatory School} Event Roll 391."
+  }
+}

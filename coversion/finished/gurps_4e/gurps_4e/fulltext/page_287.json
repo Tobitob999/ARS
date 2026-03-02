@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_page",
+  "tags": [
+    "gurps_4e",
+    "fulltext",
+    "pdf_page"
+  ],
+  "summary": "PDF-Seite 287 aus GURPS - 4th Edition - Basic Set.pdf.",
+  "source_text": {
+    "book": "GURPS - 4th Edition - Basic Set",
+    "pdf_page": 287,
+    "text": "TL Armor Location DR Cost Weight LC Notes\nHeadgear\n6 Gas Mask eyes, face 2 $100 4 4 [7]\n6 Steel Pot skull 4 $60 3 4\n7 Frag Helmet skull 5 $125 3 4\n+ Visor eyes, face 1 +$25 +1.5 4 [8]\n8 Ballistic Helmet skull 12 $250 3 3 [3]\n+ Visor eyes, face 10 +$100 +3 3 [3, 8]\nEnvironment Suits\n7 NBC Suit full suit 1 $150 3.5 4 [5, 9]\n7 Space Suit full suit 2 $2,000,000 225 4 [4, 9, 10]\n+ Space Helmet head 3 +$25,000 10 4 [7, 11]\n9 Battlesuit full suit 70/50 $80,000 150 1 [3, 4, 6, 12]\n+ Helmet head 70/50 +$10,000 15 1 [3, 6, 7, 11]\n9 Combat Hardsuit full suit 50/30 $10,000 30 2 [3, 4, 5, 6]\n+ Helmet head 18/12 +$2,000 5 2 [3, 6, 7, 11]\n9 Space Armor full suit 50/30 $20,000 45 2 [3, 4, 6, 10]\n+ Helmet head 40/30 +$3,000 7 2 [3, 6, 7, 11]\n9 Vacc Suit full suit 6* $10,000 25 4 [3, 4, 10]\n+ Vacc Helmet head 6 +$2,000 5 4 [3, 11]\nNotes\nAll TL7+ armor electronics and powered systems (including the battlesuit) work for \n(TL - 6) ¥ 6 hours before they require recharging or refueling.\n[1] Split DR: use the first, higher DR against piercing and cutting attacks; use the second,\nlower DR against all other damage types.\n[2] Concealable as or under clothing.\n[3] DR increases with TL. After the TL of introduction, consult the following table:\nTL DR Multiplier\nIntro ¥1\nIntro+1 ¥1.5\nIntro+2 ¥2\nIntro+3 ¥3\nAny higher ¥4\n[4] Biomedical sensors allow remote monitoring of vital\nsigns, giving +1 to Diagnosis skill when examining the wearer. In addition, the suit\nis climate-controlled.\n[5] Requires NBC Suit skill – but at TL9+, the suit does not limit DX. Worn with a\nmask or a helmet with note [7], the combination provides the Sealed advantage.\n[6] Split DR: use the higher DR only if the attack strikes the torso (if body armor),\nskull (if headgear), or underside of the foot (if footwear).\n[7] Provides Filter Lungs, Protected\nSmell, and Protected Vision – but before\nTL9, italso gives the No Peripheral Vision\ndisadvantage.\n[8] Provides Protected Vision.\n[9] Suit’s DR applies only against\nburning or corrosion damage.\n[10] Requires Vacc Suit skill. If worn\nwith its helmet, the suit gives Doesn’t\nBreathe (for 12 hours), Protected Smell,\nSealed, and Vacuum Support.\n[11] Provides Protected Hearing,\nProtected Vision, and Radio. At TL9+,\nadd Absolute Direction (Requires Signal), Infravision, Night Vision 9, and (TL - 8) levels of Telescopic Vision. TL9+ helmets\nalso include a head-up display (HUD) compatible with “smartgun” electronics (p. 278). Battlesuits add Hyperspectral Vision\nand Laser Communication.\n[12] Requires Battlesuit skill. Gives Lifting ST +10, Striking ST +10, and Super Jump 1. Add +5 to Lifting ST, +5 to Striking\nST, and +1 to Super Jump per TL past TL9. With its helmet in place, it also grants Doesn’t Breathe (for 12 hours), Protected\nSmell, Sealed, and Vacuum Support. Do not count suit weight toward encumbrance!\nEQUIPMENT 285\nArmor is more important in some periods\nthan in others. In some backgrounds, armor\nmight be vital. In others, weapons can penetrate\nanything, and a good Dodge – or shooting first –\nis the best defense.\n"
+  },
+  "mechanics": {
+    "conversion": "fulltext_page_dump",
+    "generated_at": "2026-03-02T15:00:00"
+  }
+}

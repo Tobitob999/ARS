@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Fatal Wound Wound Value: 32 truly devastating attack",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 118,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:31Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p118_0161",
+    "entity_type": "items",
+    "name_guess": "Fatal Wound Wound Value: 32 truly devastating attack",
+    "breadcrumb_path": "Rules Compendium > Page 118 > items > Fatal Wound Wound Value: 32 truly devastating attack",
+    "page_refs": [
+      118
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "Damage",
+      "Wound",
+      "damage"
+    ],
+    "excerpt": "Fatal Wound Wound Value: 32 truly devastating attack can result in damage s0 total that death immediate and certain; This level of destruction rare from personal weapons_ but it can come up more often if the altacker firin support weapon Or vehicular weapon; char- acter that sulfers Fatal Wound is most definitely dead, and there Isn\" much left tO put in the coffin, either: WEAPON CHARACTERISTICS Each weapon profile (see tables beginning on p.153 in the Equipment section) will have the following key information: Damage: number of D6 rolled for the weapon to deter- mine how much aamage does Tnis i5 combined with the Margin Success determine the Damage Factor."
+  }
+}

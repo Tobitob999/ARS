@@ -1,0 +1,229 @@
+{
+  "module": "shadowrun_6",
+  "adventure": null,
+  "total_turns": 10,
+  "total_latency_ms": 63083.21470000055,
+  "avg_latency_ms": 6308.321470000055,
+  "avg_response_chars": 454.3,
+  "avg_sentences": 9.2,
+  "total_probes": 5,
+  "total_combat_tags": 0,
+  "total_stat_changes": 2,
+  "total_rules_warnings": 5,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich scanne die Matrix nach Infos ueber den Auftraggeber.",
+      "keeper_response": "Die \"Matrix\", wie Sie es nennen, ist ein Konzept, das die Welt noch nicht kennt. Doch Informationen sind greifbar. Sie muessen nur wissen, wo Sie suchen.\n\nDie staedtischen Archive bieten alte Zeitungsartikel. Vielleicht auch staubige Handelsregister. Dieser Weg wird Zeit kosten.\n[ZEIT_VERGEHT: 1h]\n[PROBE: Bibliotheksnutzung | 50]",
+      "response_chars": 331,
+      "response_sentences": 6,
+      "latency_ms": 7352.822500000002,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [
+        "[REGELCHECK] PROBE: Fertigkeit 'Bibliotheksnutzung' nicht im Regelwerk gefunden."
+      ],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich betrete den Club und suche den Kontakt.",
+      "keeper_response": "Staubwirbel tanzen im schraegen Licht. Ein Stapel alter Zeitungsbaende rutscht Ihnen aus den Haenden. Er kracht laut auf den staubigen Holzboden. [ZEIT_VERGEHT: 0.5h]\n\n[STIMME:woman] \"Ein wenig mehr Sorgfalt, wenn ich bitten darf!\" [STIMME:keeper] Die Bibliothekarin, Miss Agatha White, mustert Sie mit eisigem Blick.\n\nSie buecken sich, um die Blaetter aufzuheben. Ein vergilbtes Blatt faellt Ihnen auf. Der Name 'Walter Corbitt' springt Sie an. Die Schlagzeile spricht von 'seltsamen Vorfaellen'. Ei...",
+      "response_chars": 702,
+      "response_sentences": 10,
+      "latency_ms": 8413.071899999977,
+      "tags_found": [
+        "STABILITAET_VERLUST",
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT",
+        "FAKT",
+        "STIMME"
+      ],
+      "probes": 0,
+      "stat_changes": 1,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich aktiviere meine Cyberaugen und scanne den Raum.",
+      "keeper_response": "Sie verlassen die staubigen Archive. Der Tag zieht vorueber. [ZEIT_VERGEHT: 10h] [TAGESZEIT: 20:00] [WETTER: klar]\n\nDie Abenddaemmerung legt sich ueber Boston. Sie finden den Eingang zum 'Clover Club'. Der Geruch von billigem Gin und Rauch beisst in der Nase. Leise Jazzklaenge schleichen durch den Raum. Menschen lachen zu laut, ihre Gesichter sind im Zwielicht kaum zu erkennen.\n\nWen suchen Sie in diesem Getuemmel? Oder moechten Sie sich erst einmal umsehen? [PROBE: Wahrnehmung | 50]",
+      "response_chars": 487,
+      "response_sentences": 9,
+      "latency_ms": 6221.349400000236,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT",
+        "TAGESZEIT",
+        "WETTER"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 3,
+      "facts": 0,
+      "rules_warnings": [
+        "[REGELCHECK] PROBE: Zielwert 50 ausserhalb Bereich 1-30."
+      ],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich versuche die Sicherheitstuer zu hacken.",
+      "keeper_response": "Ein leises Surren erklingt. Ihre optische Wahrnehmung schaerft sich. Der Nebel aus Rauch und Licht zieht sich zurueck. Einzelne Gesichter werden scharf.\n\nDie schummrige Bar. Die schwankenden Gaeste. Ein Mann sitzt abseits in einer dunklen Nische. Sein Blick schweift durch den Raum. Es ist Mr. Knott.\n\nDoch Ihre Augen erfassen mehr. Eine seltsame Verzerrung flimmert. Nur fuer den Bruchteil einer Sekunde. Dort, wo die Wand auf den Boden trifft. Ein Winkel, der nicht ganz richtig ist.\n[ZEIT_VERGEHT:...",
+      "response_chars": 520,
+      "response_sentences": 16,
+      "latency_ms": 7699.41770000014,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich ziehe meine Waffe und gebe Deckungsfeuer.",
+      "keeper_response": "Sie richten Ihre geschaerften Sinne auf die schwere Holztuer, die in den hinteren Bereich des Clubs fuehrt. Keine Drähte, keine Schalter. Nur ein massiver Riegel und ein altes, gusseisernes Schloss. Das ist keine Maschine, die man \"hackt\".\n\nDoch Ihre Augen erfassen noch immer die seltsame Verzerrung an der Wand. Sie scheint von dort auszugehen. Ein subtiler Fehler in der Geometrie.\n\nMoechten Sie versuchen, das Schloss der Tuer zu manipulieren, oder untersuchen Sie die sonderbare Wand genauer? [Z...",
+      "response_chars": 518,
+      "response_sentences": 8,
+      "latency_ms": 7257.811500000116,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 6,
+      "player_input": "Ich rufe einen Geist zur Unterstuetzung.",
+      "keeper_response": "Ihre Hand schnellt unter den Mantel. Ein kalter Revolver kommt zum Vorschein. Die Musik verstummt jäh, ersetzt durch panische Schreie. [ZEIT_VERGEHT: 0.1h]\n\nAlle Augen sind auf Sie gerichtet. Was tun Sie in diesem plötzlich entstandenen Chaos?",
+      "response_chars": 243,
+      "response_sentences": 5,
+      "latency_ms": 15099.12230000009,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 7,
+      "player_input": "Ich untersuche den Tatort auf magische Spuren.",
+      "keeper_response": "Ein seltsames Gefluester erfuellt den Raum, das niemand ausser Ihnen hoert. Die Luft wird schwerer. Kalt. Ein Hauch von etwas Uraltem kriecht durch den Club.\n\nDie Gesichter der Gaeste verzerren sich in Angst. Sie spueren, wie die unsichtbare Grenze nachgibt. Eine fremde Praesenz wird manifest.\n\nWelchen Geist beschwoeren Sie und mit welcher Kraftstufe? [PROBE: Beschwören | 50]",
+      "response_chars": 378,
+      "response_sentences": 8,
+      "latency_ms": 40.022099999987404,
+      "tags_found": [
+        "PROBE"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 0,
+      "facts": 0,
+      "rules_warnings": [
+        "[REGELCHECK] PROBE: Fertigkeit 'Beschwören' nicht im Regelwerk gefunden."
+      ],
+      "error": null
+    },
+    {
+      "turn": 8,
+      "player_input": "Ich verhandle mit dem Schieber.",
+      "keeper_response": "Ein unheiliger Schrei entweicht Ihren Lippen. Die Worte sind verdreht, falsch. Ein eisiger Wind fegt durch den Raum. [ZEIT_VERGEHT: 0.1h]\n\nDie Gestalt, die Sie rufen wollten, nimmt keine Form an. Stattdessen materialisiert sich etwas anderes. Es ist klein. Es ist rasend. Eine groteske Fratze mit vielen Augen. Seine Gliedmassen winden sich. Es knurrt Sie an. Es will nur Ihre Seele zerreissen.\n\nDie Gaeste erstarren, als sie die Kreatur sehen. Ein allgemeiner Schrei des Schreckens hallt durch den C...",
+      "response_chars": 645,
+      "response_sentences": 14,
+      "latency_ms": 123.83039999986067,
+      "tags_found": [
+        "STABILITAET_VERLUST",
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 1,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 9,
+      "player_input": "Ich fluechte ueber die Daechter.",
+      "keeper_response": "Der eben noch geschockte Ghoul faehrt knurrend zurueck. Panik bricht aus, die Gaeste fliehen schreiend. Ihre Aufmerksamkeit richtet sich auf die umherflimmernde, chaotische Energie. [ZEIT_VERGEHT: 0.1h]\n[PROBE: Okkultes Wissen | 50]",
+      "response_chars": 232,
+      "response_sentences": 3,
+      "latency_ms": 3792.7174999999806,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [
+        "[REGELCHECK] PROBE: Fertigkeit 'Okkultes Wissen' nicht im Regelwerk gefunden."
+      ],
+      "error": null
+    },
+    {
+      "turn": 10,
+      "player_input": "Ich melde den Job als erledigt.",
+      "keeper_response": "Der Ghoul steht vor Ihnen. Seine Klauen zucken. Ein widerliches Knurren entweicht seiner Kehle. Seine Augen sind leer. Sie erkennen dort nur unerbittlichen Hunger. [ZEIT_VERGEHT: 0.1h]\n\nSie versuchen, mit diesem Ding zu sprechen. Die Worte finden kaum einen Weg durch die Kehle. Es versteht Sie nicht. Oder will es nicht verstehen?\n\nDas Wesen neigt seinen Kopf. Dann spuckt es. Ein ekliger Schwall fauliger Galle trifft den Boden. Es macht sich bereit zum Sprung. [PROBE: Überreden | 30]",
+      "response_chars": 487,
+      "response_sentences": 13,
+      "latency_ms": 7083.049400000164,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [
+        "[REGELCHECK] PROBE: Fertigkeit 'Überreden' nicht im Regelwerk gefunden."
+      ],
+      "error": null
+    }
+  ]
+}

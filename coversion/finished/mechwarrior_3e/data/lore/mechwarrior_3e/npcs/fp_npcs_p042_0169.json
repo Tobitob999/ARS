@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Tlme: year Attrlbute Minlmums: WIL 3 Attrlbute Thresholds:",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 42,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:52Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p042_0169",
+    "entity_type": "npcs",
+    "name_guess": "Tlme: year Attrlbute Minlmums: WIL 3 Attrlbute Thresholds:",
+    "breadcrumb_path": "Rules Compendium > Page 042 > npcs > Tlme: year Attrlbute Minlmums: WIL 3 Attrlbute Thresholds:",
+    "page_refs": [
+      42
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Tlme: year Attrlbute Minlmums: WIL 3 Attrlbute Thresholds: STR +1 _ RFL +1 BOD +1_ WIL +1 CHA Tralts: Promotion SkllIs: Swimming +2 Flelds: Basic Training Next Path: Advanced Individual Training Subpath (mandatory; part of this pass) Milltary Enlistment Events Horrible training accident Poor Vision_ may take no additional military paths_ choose one: Combat Paralysis _ Glass Jaw; Lost Limb (2)] Not cut out for military life [-2 to all Basic Training skills may take no additional military paths] Owe big to gamblers [Enemy; Poverty] Minor training accident [Lost Limb] Aptitude tests place your training focus on support services [Rifles Martial Arts / Military Comms Conv; One of your buddies will turn out to be useful contact [Contact] Sharpshooter (Natural Aptitude /Rifles] Training standout: recommended to the academy by your CO [Promotion; may take remaining military training (if any) the Military Academy Path] Subpath: Special Training AIT graduates only Tlme: years Attrlbute Thresholds: Add +1 t0 any one threshold of play er'$ choice Skllls: Leadership +1 +1 t0 three Basic Training skills, half the character': AIT skills (round up), and +1 t0 any one other skill Tralts: Promotion, Wealth, Well-Equipped Flelds: Choose one of the following fields, subject to the listed restrictions: Doctor Scientist Field required, minimum DEX 4 INT 51 41"
+  }
+}

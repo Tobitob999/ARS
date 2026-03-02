@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "gurps_4e",
+    "book_conversion",
+    "phase_1",
+    "gurps_4th_edition_basic_set"
+  ],
+  "summary": "Phase-1 Skeleton-Mapping-Chunk fuer GURPS Basic Set.",
+  "source_text": {
+    "book": "GURPS - 4th Edition - Basic Set",
+    "source_file": "GURPS - 4th Edition - Basic Set.pdf",
+    "text": "Chapter 1: Creating a Character (first_seen_pdf_page=12)\nChapter 2: Character Traits (first_seen_pdf_page=34)\nChapter 3: Advantages (first_seen_pdf_page=121)\nChapter 4: Disadvantages (first_seen_pdf_page=169)\nChapter 5: Skills (first_seen_pdf_page=236)\nChapter 6: Combat (first_seen_pdf_page=256)\nChapter 7: Injury, Illness, and Fatigue (first_seen_pdf_page=260)"
+  },
+  "mechanics": {
+    "topic": "phase_1_skeleton_mapping",
+    "keywords": [
+      "advantage",
+      "character",
+      "characteristics",
+      "combat",
+      "conditions",
+      "disadvantage",
+      "fatigue",
+      "gurps_4e",
+      "gurps_4th_edition_basic_set",
+      "healing",
+      "injury",
+      "skill",
+      "skills"
+    ],
+    "injection_priority": "permanent",
+    "mapped_skeleton_fields": [
+      "characteristics",
+      "combat",
+      "conditions",
+      "healing",
+      "skills"
+    ],
+    "raw_text": "Chapter 1: Creating a Character (first_seen_pdf_page=12)\nChapter 2: Character Traits (first_seen_pdf_page=34)\nChapter 3: Advantages (first_seen_pdf_page=121)\nChapter 4: Disadvantages (first_seen_pdf_page=169)\nChapter 5: Skills (first_seen_pdf_page=236)\nChapter 6: Combat (first_seen_pdf_page=256)\nChapter 7: Injury, Illness, and Fatigue (first_seen_pdf_page=260)"
+  }
+}

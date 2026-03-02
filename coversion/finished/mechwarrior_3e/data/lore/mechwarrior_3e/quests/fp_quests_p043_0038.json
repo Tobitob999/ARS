@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "quests_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "quests",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Scrounge +1] Got the best professor at the",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 43,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:53Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_quests_p043_0038",
+    "entity_type": "quests",
+    "name_guess": "Scrounge +1] Got the best professor at the",
+    "breadcrumb_path": "Rules Compendium > Page 043 > quests > Scrounge +1] Got the best professor at the",
+    "page_refs": [
+      43
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Scrounge +1] Got the best professor at the school (Add +3 to any one skill learned in this path] Discovered rare text in the Iibrary (Academic / Any History +3_ Wealth, Contact] Made the Dean- List Good Reputation; EDG +1 +1 t0 any three skills gained from this path, and add +2 to the event die roll character' next pass through this path or Postgraduate Studies whichever comes first] [Choose one event or roll twice and apply both results] Subpath: Officer Candidate School (OCS) Entry via event roll only Time: year Attrlbute Thresholds: CHA +1 Tralts: Commission (Rank 1) Flelds: Officer Training Next Path: Per last path followed 42"
+  }
+}

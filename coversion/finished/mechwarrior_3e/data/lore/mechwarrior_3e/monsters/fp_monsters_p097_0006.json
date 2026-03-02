@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "monsters_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "monsters",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Success means the animal is taking the training:",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 97,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:23Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_monsters_p097_0006",
+    "entity_type": "monsters",
+    "name_guess": "Success means the animal is taking the training:",
+    "breadcrumb_path": "Rules Compendium > Page 097 > monsters > Success means the animal is taking the training:",
+    "page_refs": [
+      97
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Success means the animal is taking the training: Failure means the animal is not, and another Check must be made in the following month; After successful Animal Handling Check, second Check can be made t0 see the animal learns new command with the difficulty based on the complexity of the command: Success means the animal has learned the command; failure means nothing new was learned An animal can Iearn limited number of tricks depending on its intelligence_ at the gamemaster' dis cretion."
+  }
+}

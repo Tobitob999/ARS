@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2.0",
+  "id": "table_02",
+  "name": "Table 2: DEXTERITY",
+  "category": "table",
+  "tags": [
+    "add_2e",
+    "table",
+    "player_handbook",
+    "toc_normalized"
+  ],
+  "summary": "PHB Table 2 (DEXTERITY).",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "table_number": 2,
+    "title": "DEXTERITY",
+    "book_page": 14,
+    "pdf_page": 15,
+    "raw_page_token": "14"
+  },
+  "mechanics": {
+    "source": "toc_parse_v3",
+    "confidence": "medium"
+  }
+}

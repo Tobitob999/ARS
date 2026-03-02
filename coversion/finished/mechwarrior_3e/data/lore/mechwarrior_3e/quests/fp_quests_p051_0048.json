@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "quests_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "quests",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "lose all Skill Points provided by this pass",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 51,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:56Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_quests_p051_0048",
+    "entity_type": "quests",
+    "name_guess": "lose all Skill Points provided by this pass",
+    "breadcrumb_path": "Rules Compendium > Page 051 > quests > lose all Skill Points provided by this pass",
+    "page_refs": [
+      51
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "lose all Skill Points provided by this pass through this path; may not take additional police paths) Wounded in the line of duty [Disabled (2)] Your partner is killed in front of you [Introvert, Timid] You make an enemy of the ocal syndicate [Enemy (21] Uneventful duty [+1 t0 any one skill] You serve on the bomb squad Demolitions +3] beat cop_ you see serious aclion [Streetwise / Affiliation +2 , +1 t0 any three skills one Police Field] The department recruits you for deep undercover sting operations, with healthy dose of danger pay [Alternate Identity, Wealth, Stealth +1 Fast Talk +2, Disguise +2_ Streetwise/ Any +2] Your heroic efforts on duty earn you the attention ofthe Ioca nobility [Brave Good Reputation; Contact (21."
+  }
+}

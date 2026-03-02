@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "lore_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "lore",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "in whicn arguments BAMPLE CRIMES AND PUNISHMENTS torand",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 174,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:04Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_lore_p174_0295",
+    "entity_type": "lore",
+    "name_guess": "in whicn arguments BAMPLE CRIMES AND PUNISHMENTS torand",
+    "breadcrumb_path": "Rules Compendium > Page 174 > lore > in whicn arguments BAMPLE CRIMES AND PUNISHMENTS torand",
+    "page_refs": [
+      174
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "6 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "in whicn arguments BAMPLE CRIMES AND PUNISHMENTS torand against case arc presented randomly Crlme Lonient Punishment Harsh Punishment selected panel citizens Slander /libel Fines Indentured servitude that decides the matter Vandalism Fines or community service Work camp some cascs most often Racketeering Fines or imprisonment Work camp those involving complex egal Petty theft Imprisonment (6 months year) Amputation matters appeals; Ine jur Fines or imprisonment (1+ years) Indentured servitude replaced by panel pro: Negligence Assault Imprisonment (1 years) Work camp fessional magistrates Manslaughter Imprisonment (5-10 years) Execution example the Capellan Grand theft Imprisonment (10-25 years) Amputation and work camp Chancellery Courts; Kidnapping Imprisonment (10+ years) Work camp Tne feuda system of gOV\" Murder Imprisonment (10+ years) or execution Execution ernment dominant through- Treason/espionage Execution out known space means that the local ruler often plays part the legal process However; murder the Capcllan Confederation and Ihe Lyran usually as magistrate Alliance is punishable by exccution; while life imprisonment hear appeals: In man; realms the sovereign stands outside the the standard penalty in the Federated Suns."
+  }
+}

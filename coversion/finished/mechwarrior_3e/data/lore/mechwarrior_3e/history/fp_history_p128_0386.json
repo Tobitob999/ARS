@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "DAMAGING MECHWARRIOR Minor NPCs that have standard BattleTech",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 128,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:34Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p128_0386",
+    "entity_type": "history",
+    "name_guess": "DAMAGING MECHWARRIOR Minor NPCs that have standard BattleTech",
+    "breadcrumb_path": "Rules Compendium > Page 128 > history > DAMAGING MECHWARRIOR Minor NPCs that have standard BattleTech",
+    "page_refs": [
+      128
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "Damage",
+      "damage"
+    ],
+    "excerpt": "DAMAGING MECHWARRIOR Minor NPCs that have standard BattleTech skills also take damage following the usual rules (BMR; 151, Player charac ters arc nandled bit differently: since they take damage fol- lowing tne Mw3 rules Unless stated otherwise_ all damage sustained while inside vchicle results from violent tossing around in the cockpit and is considered as melcc M) damage with an S penetration value 0f 0. See the BattleTech Pilot Damage Corversion Table t0 how each type Battlelech damage converied into Mw3 terms."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "quests_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "quests",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "severely overmatched most willl surrender after token resistance",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 189,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:13Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_quests_p189_0152",
+    "entity_type": "quests",
+    "name_guess": "severely overmatched most willl surrender after token resistance",
+    "breadcrumb_path": "Rules Compendium > Page 189 > quests > severely overmatched most willl surrender after token resistance",
+    "page_refs": [
+      189
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "severely overmatched most willl surrender after token resistance Though all but the largest DropShips can make planetary landings, most carry collection of smaller fighters and shut- Iles for detense and t0 tacilitate deep space cargo transiers Shuttle transfers arc quicker ad less dangerous than docking operations between DropShips weighing severae thousand tons Tne time takes t0 travel between system' jump points and planct may vary as widely as twO t0 138 days depending the type of star ad its gravitational field."
+  }
+}

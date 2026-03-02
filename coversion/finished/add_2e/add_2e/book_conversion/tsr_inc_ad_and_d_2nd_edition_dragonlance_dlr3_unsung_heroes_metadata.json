@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "add_2e",
+    "source_book",
+    "pdf_conversion",
+    "tsr_inc_ad_and_d_2nd_edition_dragonlance_dlr3_unsung_heroes"
+  ],
+  "summary": "Metadaten der PDF-zu-JSON-Konvertierung fuer TSR Inc - AD&D 2nd Edition - Dragonlance_ DLR3 - Unsung Heroes.pdf.",
+  "source_text": {
+    "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLR3 - Unsung Heroes.pdf",
+    "source_path": "g:\\meine ablage\\add2e\\tsr inc - ad&d 2nd edition - dragonlance_ dlr3 - unsung heroes.pdf",
+    "format": "pdf",
+    "page_count": 66,
+    "extracted_characters": 194501,
+    "extraction_timestamp": "2026-03-02T10:54:01",
+    "toc_candidate_pages": [
+      2
+    ],
+    "empty_or_unreadable_pages": [
+      1
+    ]
+  },
+  "mechanics": {
+    "extractor": "pypdf.PdfReader.extract_text",
+    "output_files": [
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dragonlance_dlr3_unsung_heroes_pages.jsonl",
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dragonlance_dlr3_unsung_heroes_chapter_map.json",
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dragonlance_dlr3_unsung_heroes_metadata.json"
+    ]
+  }
+}

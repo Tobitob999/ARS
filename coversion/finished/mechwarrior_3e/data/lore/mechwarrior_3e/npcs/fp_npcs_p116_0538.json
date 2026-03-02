@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "FATIGUE Fatigue represents the physical and mental exhaustion",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 116,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:30Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p116_0538",
+    "entity_type": "npcs",
+    "name_guess": "FATIGUE Fatigue represents the physical and mental exhaustion",
+    "breadcrumb_path": "Rules Compendium > Page 116 > npcs > FATIGUE Fatigue represents the physical and mental exhaustion",
+    "page_refs": [
+      116
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "Wound",
+      "armor"
+    ],
+    "excerpt": "FATIGUE Fatigue represents the physical and mental exhaustion 0i combat, which can result from attacks against character as well the effort put behind special maneuvers and other aclions made by the character; Fatigue represents not only ~tiredness put also the various bumps pruises cuts and scrapes that result from combat; None of these injuries will kill character; but they can wear him down Each time a allack successfui; and the target's armor does not reduce the effect below the Fatigue Only' levei on the Wound Table , the target takes Fatigue point ."
+  }
+}

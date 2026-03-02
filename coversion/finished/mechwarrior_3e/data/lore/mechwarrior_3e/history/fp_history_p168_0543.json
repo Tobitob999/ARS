@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Atreus capital worid Atreus surprisingly undeveloped_ with the",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 168,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:01Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p168_0543",
+    "entity_type": "history",
+    "name_guess": "Atreus capital worid Atreus surprisingly undeveloped_ with the",
+    "breadcrumb_path": "Rules Compendium > Page 168 > history > Atreus capital worid Atreus surprisingly undeveloped_ with the",
+    "page_refs": [
+      168
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "5 m"
+    ],
+    "year_mentions": [
+      "3034"
+    ],
+    "stat_tokens": [],
+    "excerpt": "Atreus capital worid Atreus surprisingly undeveloped_ with the exception of fishing and aerospace manufacture_ the plan- et'5 most prominent industry is government: Because Atreus FRee RASALHAGUE REPUBLIC Originally part of the Draconis Combine_ Rasalhague was allowed to secede in 3034 as part of deal between Theodore Kunta ComStar t0 supply the Combine with Star League era 187"
+  }
+}

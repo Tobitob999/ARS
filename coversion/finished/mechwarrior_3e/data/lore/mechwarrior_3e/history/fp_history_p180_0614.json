@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Four-card Drax is the most popular game attracting",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 180,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:09Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p180_0614",
+    "entity_type": "history",
+    "name_guess": "Four-card Drax is the most popular game attracting",
+    "breadcrumb_path": "Rules Compendium > Page 180 > history > Four-card Drax is the most popular game attracting",
+    "page_refs": [
+      180
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Four-card Drax is the most popular game attracting high-stakes players from overy Inner Sphere and Periphery nation. The Federated Suns half of the Commonwealth tends t0 sneer Iittle at the League high-glitz, low-glamour establish ments_ Only the Gambler's World gets ay respect from the FedSuns; which boasts eighteen of the twenty-eight worlds on the of ficia Riviera-style circuit: From the Ammon Ocean Resorts on New Syrtis Dorado Casino City to Sun Prairie\" New Monaco, there no end of getaways for those who can afford them."
+  }
+}

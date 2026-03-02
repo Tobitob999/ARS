@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "lore_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "lore",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Over the centuries especial: since the fall of",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 172,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:04Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_lore_p172_0291",
+    "entity_type": "lore",
+    "name_guess": "Over the centuries especial: since the fall of",
+    "breadcrumb_path": "Rules Compendium > Page 172 > lore > Over the centuries especial: since the fall of",
+    "page_refs": [
+      172
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Over the centuries especial: since the fall of the first Star League_ the concept of noble ruling class has taken hold throughout the Inner Sphere Unlike its historica predecessor; Cameron's system of nobility does not discriminate by gender. Nobility in the thirty-first century largely hereditary; though most sovereigns can grant titles their subjects this practice relatively rare even among MechWarriors those modern day knights. The most common noble titles and their regional equiva lents are described below."
+  }
+}

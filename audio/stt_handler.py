@@ -30,6 +30,7 @@ CHUNK_SIZE  = 512         # Samples pro Chunk ~32ms bei 16kHz (Silero VAD Pflich
 VAD_THRESHOLD     = 0.5   # Konfidenz ab der Sprache erkannt wird
 MAX_SILENCE_CHUNKS = 25   # ~800ms Stille = Äußerung beendet
 MAX_SPEECH_SECONDS = 30   # Sicherheits-Timeout gegen endlose Aufnahme
+RMS_NOISE_GATE    = 0.01  # RMS-Schwelle: Chunks unter diesem Wert werden vor VAD verworfen
 
 
 class STTHandler:
@@ -132,6 +133,15 @@ class STTHandler:
 
                     chunk_flat = chunk.flatten()
                     chunk_count += 1
+
+                    # Noise-Gate: RMS-Check vor VAD (spart CPU bei Stille)
+                    rms = float(np.sqrt(np.mean(chunk_flat ** 2)))
+                    if rms < RMS_NOISE_GATE and not in_speech:
+                        # Unter Noise-Gate und nicht bereits in Sprachaufnahme
+                        db = max(20 * math.log10(rms + 1e-10), -60)
+                        level_pct = min(max((db + 60) / 60 * 100, 0), 100)
+                        self._emit_mic_level(level_pct, 0.0, False)
+                        continue
 
                     # Silero VAD Konfidenz
                     tensor = torch.from_numpy(chunk_flat).unsqueeze(0)

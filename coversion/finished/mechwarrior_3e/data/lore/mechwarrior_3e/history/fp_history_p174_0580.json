@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "are generally concerned with maintaining day-to-day orden Except",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 174,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:05Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p174_0580",
+    "entity_type": "history",
+    "name_guess": "are generally concerned with maintaining day-to-day orden Except",
+    "breadcrumb_path": "Rules Compendium > Page 174 > history > are generally concerned with maintaining day-to-day orden Except",
+    "page_refs": [
+      174
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "are generally concerned with maintaining day-to-day orden Except the smallest communitics Iav: enforcement iS divided Civil Iaw is much more diverse. relying countless cultur into specialized branches: patrolling; investigation. research and religious factors."
+  }
+}

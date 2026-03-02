@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_page",
+  "tags": [
+    "gurps_4e",
+    "fulltext",
+    "pdf_page"
+  ],
+  "summary": "PDF-Seite 84 aus GURPS - 4th Edition - Basic Set.pdf.",
+  "source_text": {
+    "book": "GURPS - 4th Edition - Basic Set",
+    "pdf_page": 84,
+    "text": "Special Enhancements\nExtended Arc: You can scan an arc\ngreater than 120°. A 240° arc (as\ndescribed for Peripheral Vision, p. 74)\nis +75%; a 360° arc (as described for\n360° Vision, p. 34) is +125%.\nLow-Probability Intercept (LPI):\nThis is only available for Radar and\nSonar. You can switch this enhance-\nment on and off. Turning it on makes\nyour signal difficult to detect. This\nhalves range, but your Scanning Sense\ncan only be detected at 1.5 times the\nhalved range. +10%.\nMulti-Mode: This is only available\nfor Radar. You can switch between\nRadar and Imaging Radar. (This is\nmuch cheaper than buying the two\nadvantages separately, because they\noverlap to some extent.) +50%.\nPenetrating: This is only available\nfor Para-Radar. You can “see” inside\nany object within range. This func-\ntions exactly as Penetrating Vision 2\n(p. 74). +50%.\nTargeting: By taking an Aim\nmaneuver, you can “lock onto” any\nobject within range and determine its\nprecise range and speed – just as if you\nhad a high-tech rangefinder. This gives\nyou +3 to hit that target with an aimed\nranged attack. +20%.\nSpecial Limitations\nTargeting Only: As Targeting, but\nyou can only use your sense to “lock\nonto” targets already spotted with\nanother sense; you cannot use it to\nspot things. -40%.\nSealed 31\n15 points\nYou are encased in a gas- and liq-\nuid-impermeable layer. This makes\nyou waterproof, and grants complete\nimmunity to corrosive or toxic agents\nthat must touch skin or exposed\nmachinery to work. You must still\nbreathe, unless you also have Doesn’t\nBreathe (p. 49); however, your exterior\nbreathing apparatus (nose, snorkel,\netc.) is protected by this trait.\nLikewise, you are not automatically\npressurized; for that, take Pressure\nSupport (p. 77) or Vacuum Support\n(p. 96).\nSecurity Clearance 4\nVariable\nA government agency or corpora-\ntion trusts you with access to sensitive\ninformation that would otherwise be\n“off limits” to someone of your Rank\nor Status. For instance, a general\n“cleared” for military secrets commen-\nsurate with his Military Rank would\nnot have to buy Security Clearance\nseparately, but a civilian with exactly\nthe same level of access would have to\npay points for the privilege.\nPoint cost depends on your degree\nof access:\n• You have access to a relatively\nnarrow range of secrets on a “need to\nknow” basis. Example: a strategic\nbomber pilot, who might know secrets\nabout aircraft, weapons, and targets. \n5 points.\n• You have either free access to a\nnarrow range of secrets or “need to\nknow” access to a broad range of\nsecrets. Example: a counterintelli-\ngence officer, who would have limited\naccess to many secrets, as part of his\njob is to protect them. 10 points.\n• You have free access to a broad\nrange of secrets.Example: a cinematic\nsecret agent, who will know almost\n82 ADVANTAGES\n"
+  },
+  "mechanics": {
+    "conversion": "fulltext_page_dump",
+    "generated_at": "2026-03-02T15:00:00"
+  }
+}

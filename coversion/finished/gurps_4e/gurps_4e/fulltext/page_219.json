@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_page",
+  "tags": [
+    "gurps_4e",
+    "fulltext",
+    "pdf_page"
+  ],
+  "summary": "PDF-Seite 219 aus GURPS - 4th Edition - Basic Set.pdf.",
+  "source_text": {
+    "book": "GURPS - 4th Edition - Basic Set",
+    "pdf_page": 219,
+    "text": "Rapier\nsee Melee Weapon, p. 208\nReligious Ritual†\nIQ/Hard\nDefaults: Ritual Magic (same)-6 or\nTheology (same)-4.\nThis is the ability to perform reli-\ngious rites – masses, funerals, wed-\ndings, etc. – before a congregation.\nYou must specialize by religion. This\nskill includes detailed knowledge of\nthe ritual motions, prayers, and trap-\npings of the faith, as well as the ability\nto capture and hold the attention of\nworshipers. For religions that practice\nsacrifice, Religious Ritual also covers\nfamiliarity with sacrificial tools and\nmethods.\nTo be a priest or holy man at TL1+,\nyou must have both Religious Ritual\nand Theology skill (p. 226) for your\nreligion. TL0 shamans need only learn\nReligious Ritual.\nIn worlds where priests can per-\nform miracles, each magical ritual or\nspell is a separate skill, but certain\n“mundane” religious rituals – such as\nsacrifice – can give bonuses to spell\nrolls. You must always make a suc-\ncessful Religious Ritual roll to claim\nsuch a bonus. In other settings, a\npriest’s magic is only as good as his rit-\nual. If this is the case, your roll to work\nmagic is against the lower of Religious\nRitual and your actual spell skill.\nResearch/TL\nIQ/Average\nDefaults:IQ-5 or Writing-3.\nPrerequisite:literacy in at least one\nlanguage (see p. 24)*.\n* At TL8+, Computer Operation is\nalso a prerequisite.\nThis is the ability to do library and\nfile research. Roll against skill to find\na useful piece of data in an appropri-\nate place of research . . . if the infor-\nmation is there to be found.\nAt the GM’s option, when research-\ning material connected with a “book-\nlearned” skill such as Forensics,\nLiterature, or Physics, you may roll\nagainst that skill at -2 instead, if that\nwould be better than your Research\nskill or default (but this is not a \ngeneral default level).\nModifiers: Language modifiers\n(p. 24), for research materials in a for-\neign tongue.\nRiding†\nDX/Average\nDefaults:DX-5 or Animal Handling\n(same)-3.\nThis is the ability to ride a particu-\nlar kind of mount. Make a skill roll\nwhen you first try to mount a riding\nanimal, and again each time some-\nthing happens to frighten or challenge\nthe creature (e.g., a jump).\nYou must specialize by riding\nbeast. Defaults between specialties\nvary from 0 to -10. For instance, if you\nhave Riding (Horse), Riding (Mule) is\nessentially the same skill (no default\npenalty), Riding (Camel) would\ndefault at -3, Riding (Dolphin) at -6,\nand Riding (Dragon) at a whopping\n-10!\nModifiers: +5 if the animal knows\nand likes you; +1 or more for a mount\nwith the Mount skill (p. 210); -10 if the\nanimal has not been trained for riding.\nSKILLS 217\n"
+  },
+  "mechanics": {
+    "conversion": "fulltext_page_dump",
+    "generated_at": "2026-03-02T15:00:00"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "208 Conventional forces 196 Count/countess_ 172 Covcl 111.",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 214,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:28Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p214_0811",
+    "entity_type": "history",
+    "name_guess": "208 Conventional forces 196 Count/countess_ 172 Covcl 111.",
+    "breadcrumb_path": "Rules Compendium > Page 214 > history > 208 Conventional forces 196 Count/countess_ 172 Covcl 111.",
+    "page_refs": [
+      214
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "wound"
+    ],
+    "excerpt": "208 Conventional forces 196 Count/countess_ 172 Covcl 111. 121 Covert operatives_ 47-48 Coyote Clan_ 193 Crew; 132 Critical wound 117 125 Crossbow; 134 Crucis Pact, 27 Crusader Clans; 164 Cryptography: 48 , 98 Culture 174-88. 192-93 Custom Vehicle ."
+  }
+}

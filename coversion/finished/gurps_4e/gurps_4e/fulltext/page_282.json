@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_page",
+  "tags": [
+    "gurps_4e",
+    "fulltext",
+    "pdf_page"
+  ],
+  "summary": "PDF-Seite 282 aus GURPS - 4th Edition - Basic Set.pdf.",
+  "source_text": {
+    "book": "GURPS - 4th Edition - Basic Set",
+    "pdf_page": 282,
+    "text": "Armor-Piercing Discarding-Sabot\n(APDS): A small tungsten dart encased\nin a larger plastic sheath that peels\naway when the round leaves the bar-\nrel, increasing velocity. APDS works\nlike APHC, but also adds 50% to range\nand +1 damage per die. Used by tanks\nat TL6-7 and machine guns at TL8, it\nis available for small arms by TL9. It\nhas five times normal cost and is LC1.\nFirearm Quality\nFine firearms cost double list price,\nand get +1 to Acc and +1 to Malf. Very\nfine firearms cost 5 times list price,\nand get +2 to Acc and +1 to Malf. \nShould this result in a Malf. of 19 or\nmore, the weapon will not malfunction\nunless lack of maintenance lowers\nMalf.\nPresentation firearms (decorated,\ngilded, etc.) are also available. This\nwill further increase cost (and resale\nvalue) by 2 to 20 times.\n280 EQUIPMENT\nUltra-Tech Firearm Table\nBEAM WEAPONS (PISTOL) (DX-4, other Beam Weapons-4, or Guns (Pistol)-4)\nTL Weapon Damage Acc Range Weight RoF Shots ST Bulk Rcl Cost LC Notes\n9 Electrolaser Pistol 1d-3 burn 4 40/80 2.2/0.5 3 180(3) 4 -2 1 $1,800 4 [1, 2, 3]\nlinked HT-4(2) aff\n10 Laser Pistol 3d(2) burn 6 250/750 3.3/0.5 10 400(3) 6 -2 1 $2,800 3 [3]\n11 Blaster Pistol 3d(5) burn 5 300/900 1.6/0.5 3 200(3) 4 -2 1 $2,200 3 [4, 5]\nBEAM WEAPONS (RIFLE) (DX-4, other Beam Weapons-4, or Guns (Rifle)-4)\nTL Weapon Damage Acc Range Weight RoF Shots ST Bulk Rcl Cost LC Notes\n9 Electrolaser Carbine 1d-3 burn 8+1 160/470 3.7/1 3 360(3) 4† -4 1 $3,900 3 [1, 2, 3]\nlinked HT-4(2) aff\n9 Laser Sniper Rifle 5d(2) burn 12+2 1,100/3,300 20/4p 3 75(3) 10† -8 1 $20,000 1 [3]\n10 Laser Rifle 5d(2) burn 12+2 700/2,100 10/2 10 150(3) 7† -4 1 $10,000 2 [3]\n11 Blaster Rifle 6d(5) burn 10+2 700/2,100 10/1 3 50(3) 7† -4 1 $18,000 2 [4, 5]\n11 Heavy Blaster 8d(5) burn 10+4 900/2,700 20/4p 3 90(5) 10† -6 1 $23,000 1 [4]\nNotes\nAll beam weapons include “smartgun” electronics (see\np. 278).\n[1] Weapon requires atmosphere to function.No effect in\ntrace atmosphere or vacuum!\n[2] Burn damage has the Surge damage modifier (p. 105).\nAs well, whether or not any damage penetrates, the target\nmust make a HT roll at -4, plus half the DR on the location\nstruck (due to the armor divisor). On a failure, the electrical\nshock stuns him. He may roll against HT every turn at the\nsame penalty (butwithout the DR bonus) to recover.\n[3] Smoke, fog, rain, cloud, etc. give the target additional\nDR equal to the visibility penalty. For instance, if rain gives a\npenalty of -1 per 100 yards, a laser firing through 2,000 yards\nof rain must penetrate an extra DR 20.\n[4] Burn damage has the Surge damage modifier (p. 105).\n[5] In superscience games, an “omni-blaster” costs twice\nas much, but has a “stun” setting: damage becomes HT-3(3)\naff for a pistol, HT-6(3) aff for a rifle. On a failed HT roll, the\nvictim is unconsciousness for minutes equal to his margin of\nfailure."
+  },
+  "mechanics": {
+    "conversion": "fulltext_page_dump",
+    "generated_at": "2026-03-02T15:00:00"
+  }
+}

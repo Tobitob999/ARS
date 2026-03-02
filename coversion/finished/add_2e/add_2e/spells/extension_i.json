@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "extension_i",
+  "name": "Extension I",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Extension I (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      157
+    ],
+    "pdf_pages": [
+      158
+    ],
+    "raw_block": "Extension I (Alteration)\nRange: 0\nComponents: V\nDuration: Special\nCasting Time: 2\nArea of Mect: Special\nSaving Throw: None\nBy use of an extension I spell, the wizard\nprolongs the duration of a previously cast\n1st-, 2nd-, or 3rd-level spell by 50%. Thus,\na levitation spell can be made to function 15\nminutedlevel, a hold person spell made to\nwork for three rounds/level, etc. Naturally,\nthe spell affects only spells that have dura-\ntions. This spell must be cast immediately\nafter the spell to be extended, either by the\noriginal caster or another wizard. If a com-\nplete round or more elapses, the extension\nfails and is wasted."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Extension I",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "0",
+      "components": "V",
+      "duration": "Special",
+      "casting_time": "2",
+      "area_of_effect": null,
+      "saving_throw": "None",
+      "description_excerpt": "1st-, 2nd-, or 3rd-level spell by 50%. Thus, a levitation spell can be made to function 15 minutedlevel, a hold person spell made to work for three rounds/level, etc. Naturally, the spell affects only spells that have dura- tions. This spell must be cast immediately after the spell to be extended, either by the original caster or another wizard. If a com- plete round or more elapses, the extension fails and is wasted."
+    },
+    "quality_flags": [
+      "missing_standard_fields"
+    ]
+  }
+}

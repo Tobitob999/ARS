@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_page",
+  "tags": [
+    "add_2e",
+    "player_handbook",
+    "fulltext",
+    "pdf_page"
+  ],
+  "summary": "PDF-Seite 107 des AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "pdf_page": 107,
+    "text": "I \n/ \nCombat (Character Death) \nDeath From Massive Damage 1 I \nIn addition to dy- \ning when hit points reach 0, a character also \nruns the risk of dying abruptly when he suf- \nfers massive amounts of damage. A charac- \nter who suffers 50 or more points of damage \nfrom a single attack must roll a successful \nsaving throw vs. death, or he dies. \nThis applies only if the damage was done \nby a single attack. Multiple attacks totaling \n50 points in a single round don’t require a \nsaving throw. \nFor example, a character would be required \nto make a check if a dragon breathed on him \nfor 72 points of damage. He wouldn’t have to \ndo so if eight orcs hit him for a total of 53 \npoints of damage in that round. \nIf the saving throw is successful, the char- \nacter remains alive (unless of course the 50- \nhit-point loss reduced his hit points to 0 or \nbelow!). If the saving throw fails, the char- \nacter immediately dies from the intense \nshock his body has taken. His hit points are \nreduced to 0. \nThe character may still be raised in the \nInescapable Death \nThere are occasions \nwhen death is unavoidable, no matter how \nmany hit points a character has. \nA character could be locked in a room \nwith no exits, with a SO-ton ceiling descend- \ning to crush him. He could be trapped in an \nescape-proof box filled completely with \nacid. These examples are extreme (and ex- \ntremely grisly), but they c \nfantasy world. \nRaking the Dea \nCurative and heal- \ning spells have no effect on a dead \ncharacter-he can only be returned to life \nwith a raise dead or resurrection spell (or a \ndevice that accomplishes one of these ef- \nfects). Each time a character is returned to \nlife, the player must make a resurrection \nsurvival roll based on his current Constitu- \ntion (see Table 3). If the die roll is successful \n(Le., the player rolls equal to or less than his \nresurrection survival percentage), the char- \nacter is restored to life in whatever condi- \ntion is specified by the spell or device. \nA character restored to life in this way has \nhis Constitution permanently lowered by 1 \npoint. This can affect hit points previously \nearned. Should the character’s Constitution \nbonus go down, the character’s hit point to- \ntal is reduced by the appropriate number of. \nhit points (the amount of hit point bonus \nlost is multiplied by the number of levels for \nwhich the character gained extra hit points \nfrom that bonus). When the character’s \nConstitution drops to 0, that character can \nno longer be raised. He is permanently re- \nmoved from play. \n‘ \n1 06"
+  },
+  "mechanics": {
+    "conversion": "fulltext_page_dump",
+    "generated_at": "2026-02-28T16:50:15"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "confusion",
+  "name": "Confusion",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Confusion (EnchantmenVCharm) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "sixth",
+    "book_pages": [
+      231
+    ],
+    "pdf_pages": [
+      232
+    ],
+    "raw_block": "Confusion (EnchantmenVCharm)\nSphere: Charm\nRange: 80 yards\nComponents: V, S, M\nDuration: 1 round/level\nCasting Time: 1 round\nArea of Effect: ld4 creatures within\nSaving Throw: Special\na 40' by 4O'square\nThis spell causes confusion in one or more\ncreatures within the area, creating indeci-\nsion and the inability to take effective\naction. The spell affects ld4 creatures, plus\none creature per two caster levels. Thus,\nseven to ten creatures can be affected by a\n12th- or 13th-level caster, eight to 11 by a\n14th- or 15th-level caster. etc. These crea-"
+  },
+  "mechanics": {
+    "school_or_type": "EnchantmenVCharm",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Confusion",
+      "canonical_name_guess": null,
+      "school_or_type": "EnchantmenVCharm",
+      "range": "80 yards",
+      "components": "V, S, M",
+      "duration": "1 round/level",
+      "casting_time": "1 round",
+      "area_of_effect": "ld4 creatures within",
+      "saving_throw": "Special",
+      "description_excerpt": "a 40' by 4O'square This spell causes confusion in one or more creatures within the area, creating indeci- sion and the inability to take effective action. The spell affects ld4 creatures, plus one creature per two caster levels. Thus, seven to ten creatures can be affected by a 12th- or 13th-level caster, eight to 11 by a 14th- or 15th-level caster. etc. These crea-"
+    },
+    "quality_flags": []
+  }
+}

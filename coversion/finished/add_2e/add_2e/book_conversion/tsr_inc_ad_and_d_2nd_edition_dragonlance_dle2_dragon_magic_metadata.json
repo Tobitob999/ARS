@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "add_2e",
+    "source_book",
+    "pdf_conversion",
+    "tsr_inc_ad_and_d_2nd_edition_dragonlance_dle2_dragon_magic"
+  ],
+  "summary": "Metadaten der PDF-zu-JSON-Konvertierung fuer TSR Inc - AD&D 2nd Edition - Dragonlance_ DLE2 - Dragon Magic.pdf.",
+  "source_text": {
+    "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLE2 - Dragon Magic.pdf",
+    "source_path": "g:\\meine ablage\\add2e\\tsr inc - ad&d 2nd edition - dragonlance_ dle2 - dragon magic.pdf",
+    "format": "pdf",
+    "page_count": 78,
+    "extracted_characters": 365001,
+    "extraction_timestamp": "2026-03-02T10:53:56",
+    "toc_candidate_pages": [
+      3,
+      37,
+      60
+    ],
+    "empty_or_unreadable_pages": [
+      1,
+      31,
+      33,
+      34,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      78
+    ]
+  },
+  "mechanics": {
+    "extractor": "pypdf.PdfReader.extract_text",
+    "output_files": [
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dragonlance_dle2_dragon_magic_pages.jsonl",
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dragonlance_dle2_dragon_magic_chapter_map.json",
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dragonlance_dle2_dragon_magic_metadata.json"
+    ]
+  }
+}

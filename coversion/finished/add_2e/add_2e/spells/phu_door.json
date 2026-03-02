@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "phu_door",
+  "name": "Phu Door",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Phu Door (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "seventh",
+    "book_pages": [
+      185
+    ],
+    "pdf_pages": [
+      186
+    ],
+    "raw_block": "Phu Door (Alteration)\nRange: Touch\nComponents: V\nDuration: 1 usage/2 levels\nCasting Time: 7\nArea of Effect: Special\nSaving Throw: None\nWhen this spell is cast, the wizard attunes\nhis body, and a section of wall is affected as\nif by a passwall spell. The phase door is in-\nvisible to all creatures save the spellcaster,\nand only he can use the space or passage the\nspell creates, disappearing when the phase\ndoor is entered, and appearing when it is ex-\nited. If the caster desires, one other creature\nof man size or less can be taken through the\ndoor; this counts as two uses of the door.\nThe door does not pass light, sound, or spell\neffects, nor can the caster see through it\nwithout using it. Thus the spell can provide\nan escape route, though certain creatures,"
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Phu Door",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "Touch",
+      "components": "V",
+      "duration": "1 usage/2 levels",
+      "casting_time": "7",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "When this spell is cast, the wizard attunes his body, and a section of wall is affected as if by a passwall spell. The phase door is in- visible to all creatures save the spellcaster, and only he can use the space or passage the spell creates, disappearing when the phase door is entered, and appearing when it is ex- ited. If the caster desires, one other creature of man size or less can be taken through the door; this counts as two uses of the door. The door does not pass light, sound, or spell effects, nor can the caster see through it without using it. Thus the spell can provide an escape route, though certain creatures,"
+    },
+    "quality_flags": [
+      "trimmed_merged_block"
+    ]
+  }
+}

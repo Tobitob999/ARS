@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0.0",
+  "category": "factions_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "factions",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "TRAITS Assault 'Mechs (80-100 tons) 206 Federated Suns",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 93,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:23Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_factions_p093_0165",
+    "entity_type": "factions",
+    "name_guess": "TRAITS Assault 'Mechs (80-100 tons) 206 Federated Suns",
+    "breadcrumb_path": "Rules Compendium > Page 093 > factions > TRAITS Assault 'Mechs (80-100 tons) 206 Federated Suns",
+    "page_refs": [
+      93
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [
+      "100 tons",
+      "35 tons",
+      "55 tons",
+      "75 tons"
+    ],
+    "range_mentions": [
+      "66 M",
+      "97 M"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "TRAITS Assault 'Mechs (80-100 tons) 206 Federated Suns DVS-2 Devastator [100] CP-11-A Cyclops [90] GUN 1ERD Gunslinger [85] Lyran Alllance STC 2C Striker [80] STK-5S Stalker [85] PPR-SS Salamander [80] Rasalhague HGN732 Highlander [90] MAL-IR Mauler [90] CGR 3K Charger [80] Assault 'Mechs (80-100 tons) 206 Federated Suns AWS-9Q Awesome [80] VTR-9K Victor [80] VTR-9K Victor [B0] AS7-S Atlas [100] VTR-9B Victor [80] AS7- K Atlas [100] BNC-5S Banshee [95] LGB- 7Q Longbow (85] Lyran Alliance HA1-O Hauptmann (95] ZEU-9S Zeus [80] ZEU 9S Zeus (80] BNC-5S Banshee (95] AS7-S Atlas [100] BRZ 43 Berserker [100] ZEU-6S Zeus [80] EMP6A Emperor [90] Rasalhague HTM 27T Hatamoto Chi [80] ZEU-9S Zeus [80] AS7 K Atlas [100] ZEU-9S Zeus (80] THG-I1E Tnug (80] CRK 5003.2 Crockett [85] BNC-5S Banshee [95] KGC-OOO King Crab [100] VEHICLE ASSIGNMENT TABLE 3-THE CLANS Light (20-35 tons) 206 Front Llne 'Mechs Dasher (Fire Moth) (201 Hankyu [30] Fire Falcon [25] Uller (Kit Fox) [30] Cougar [35] Puma (Adder) [35] Fire Falcon [25] Koshi (Mist Lynx) (25] Koshi (Mist Lynx) [25] Uller (Kit Fox) [30] Puma (Adder) [35] Second Line Mechs Jenner IIC [35] Jenner IIC [35] THE-N Thorn [20] Vixen (Incubus) [30] MON-66 Mongoose [25] Peregrine (Horned Owl) [35] Jenner IIC [35] Piranha (20] Peregrine (Horned Owl) [35] MCY-97 Mercury (20| HSR-?OO-D Hussar [30] Vehlcles Anhur Transport [30]V Asshur Artillery Spotter [20]H Donar (Reconnalssance Variant) [21jV Donar Assault Helicopter [21]v Mithras Light Tank (25]T Odin Scout Tank (20jW Zorya Light Tank [35]T Svantovit Infantry Fighting Vehicle [35]H Svantovit Streak SRM Variant) (351H Indra Infantry Transport (35jW Shamash Reconnaissance Vehicle (11jH Medium (40-55 tons) 206 Front Line 'Mechs Dragonfly (Viper) [40] Fenris (Ice Ferret) [45] Pouncer (40] Nobori-nin [50] Ryoken (Stormcrow) [55] Fenris (lce Ferret) [45] Black Lanner [55] Shadov Cat [45] Pnantom [40] Black Hawk (Nova) [50] Grendel [45] Second Line Mechs Hunchback IIC (50] Hellnound (Conjurer) [50] Goshawk (Vapor Eagle) [55] Clint IIC [401 STN-3L Sentinel (401 Hellhound (Conjurer) [50] Wyvern IIC [45] Clint IIC [40] Great Wyrm (45] Goshawk (Vapor Eagle) (55| CRB-27 Crab [50] Vehicles Ares Medium Tank [40]T Ku Wheeled Assault Tank (50jW Hachiman Fire Support Tank [50jT Ku Wheeled Assault Tank (S0jW Ares Medium Tank [40]T Hachiman Fire Support Tank [50]1 Ku Wheeled Assault Tank [S0jW Ares Medium Tank [40]1 Hachiman Fire Support Tank [501T Arcs Medium Tank [40]T Epona Pursuit Tank (50jh Heavy (60-75 tons) 206 Front Line 'Mechs Mad Cat (Timber Wolf) [75] Crossbow (65] Second Line 'Mechs BL 6-KNT Black Knight [75] Viper Black Python) [75] Vehicles Oro Heavy Tank [60]T Ishtar Heavy Fire Support Tank (65JW Hover Tracked VTOL W Wheeled 92"
+  }
+}

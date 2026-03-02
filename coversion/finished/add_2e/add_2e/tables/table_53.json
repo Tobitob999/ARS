@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2.0",
+  "id": "table_53",
+  "name": "Table 53: CALCULATED THACOS",
+  "category": "table",
+  "tags": [
+    "add_2e",
+    "table",
+    "player_handbook",
+    "toc_normalized"
+  ],
+  "summary": "PHB Table 53 (CALCULATED THACOS).",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "table_number": 53,
+    "title": "CALCULATED THACOS",
+    "book_page": 91,
+    "pdf_page": 92,
+    "raw_page_token": "91"
+  },
+  "mechanics": {
+    "source": "toc_parse_v3",
+    "confidence": "medium"
+  }
+}

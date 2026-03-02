@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "You may add 306 damage and the attack",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 104,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:26Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p104_0454",
+    "entity_type": "npcs",
+    "name_guess": "You may add 306 damage and the attack",
+    "breadcrumb_path": "Rules Compendium > Page 104 > npcs > You may add 306 damage and the attack",
+    "page_refs": [
+      104
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "Armor",
+      "damage"
+    ],
+    "excerpt": "You may add 306 damage and the attack has an Armor Penetration Value of Flying Klck (Attack): Costs Fatigue You can melee attack target up to two meters away: you win the round; the target must make Knockdown Test: In addition_ if the target was not in melee combat with you at the beginning of the round_ he may not inflict damage on you even if he wins this round of combat, Navigation / Naval This is the skill of plotting ad following course through the waters Of planet; whether traveling in surface vessel Or submarine_ NEGOTIATION character with the Negotiation Skill is trained in the fine art of conversation and manipulation_ Negotiation Skill Check will affect the outcome of any negotiation which the charac ter takes part, successful roll will bring concessions but tailed roll could mean stalemate Or worse."
+  }
+}

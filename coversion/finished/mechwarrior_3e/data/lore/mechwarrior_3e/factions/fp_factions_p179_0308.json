@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "factions_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "factions",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Nor has Asian cooking lost any of its",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 179,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:08Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_factions_p179_0308",
+    "entity_type": "factions",
+    "name_guess": "Nor has Asian cooking lost any of its",
+    "breadcrumb_path": "Rules Compendium > Page 179 > factions > Nor has Asian cooking lost any of its",
+    "page_refs": [
+      179
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "0 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Nor has Asian cooking lost any of its popularity; despite hostilities over the years with the Combine and Confederation_ In addition to the quillar, the FedCom known for naranji, purple citrus fruit; and fine wines_ The Lyran Alliance most sought-after export is the Timbiqui line beers_ from the border world of the same name Their famous Timbiqui dark has even attracted the attention of many Clan warriors prompting the Diamond Sharks t0 make generous offer for an exclusive license to import the beverage into Clan space_ The Free Worlds League offers a interesting mix_ slightly favoring Mediterranean over Continenta cuisine Lamb the most popular meat; and spices often tend toward an unusual blend of sharp and sweet: Traditional Asian cooking has come back into favor in the past decade, prompted Dy warmer relations between Houses Marik ad Liao."
+  }
+}

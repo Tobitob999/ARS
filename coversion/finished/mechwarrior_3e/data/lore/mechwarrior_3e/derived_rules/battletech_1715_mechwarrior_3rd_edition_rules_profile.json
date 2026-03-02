@@ -1,0 +1,512 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_profile",
+  "tags": [
+    "mechwarrior_3e",
+    "derived_rules",
+    "profile"
+  ],
+  "summary": "Regelprofil nach OCR-Nachlauf.",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "generated_at": "2026-03-02T16:50:58Z"
+  },
+  "mechanics": {
+    "coverage_by_field": {
+      "dice_system": {
+        "books_count": 1,
+        "top_sources": [
+          {
+            "source_file": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+            "profile_file": "data/lore/mechwarrior_3e/derived_rules/battletech_1715_mechwarrior_3rd_edition_rules_profile.json",
+            "priority": "core",
+            "score": 174,
+            "confidence": 1.0,
+            "page_refs": [
+              14,
+              17,
+              16,
+              115,
+              111,
+              80,
+              120,
+              20
+            ],
+            "excerpt": "[PDF_PAGE 14 | score=54] CHWARRIOR JrD Edi GAME CONCEPTS This section describes the core game system When multiple dice are used in single roll the rules will MechWarrior; Tnird Edition (MW3) , particularly the way dice are describe it like this: 2010 where 2 the number of dice used to determine the success or failure of each character'$ rolled and D1o is the type of dice rolled_ In this example You actions Additional rules for certain kinds of situations can be would roll two D1O and add the results of both dice together found in Combat (p: 109 and Running the Game (p 203), but roll of 406 would be rolling four D6 and adding the results of both of those sections build on the concepts presented here_ the dice together: players and gamemasters should read this chapter carefully: TEN-SIDED DICE (D1O) CHARACTER AbiliTIES Ten-sided dice are the most commonly used dice in the All characters be they player characters or non- player char- game_ Note that most ten-sided dice are numbered from 0 to 9; acters (NPCs) , have their abilities defined by certain numbers ad on these dice the zero actually represents ten_ words that describe their capabilities in game terms. Although Every Action Check iS resolved using roll of two ten-sided there will be more detail about character abilities in the Character dice (2010) and adding the results on the dice together: The Creation section (p. 21), for now you need to know that charac higher the totab on the dice_ the better. ters have , among other abilities Attributes ad skills_ Open-Ended Results ATTRIBUTES Some actions might seem so difficult that they are impos Attributes are nine numbers that describe character'$ raw sible . However, MechWarrior characters can\" Iet that slow them physical and mental capabilities as well as his or her social down Sometimes pur\n[PDF_PAGE 17 | score=24] GAME CONCEPTS If a single Attribute is used in the Check, the base TN is 15 minus the Attribute in question. character has WIL of 6 then the base TN of WIL Check for him would be (15 are used t0 represent the effects the conditions surrounding the action have on the TN: Action Modifiers Characters can take certain special actions that affect the target numbers of their actions_ such as taking extra time t0 be careful and thorough In addition other characters can lend hand t0 help with the action_ These actions are represented by the aptly named action modifiers two Attributes are used in the Check the base TN is 20 character with BOD of and STR minus both Attributes would have base TN of 10 for BOD/STR Check (20 101. MODIFIERS The base TN can be adjusted depending on the difficulty of the particular task at hand and the conditions surrounding the action_ In the example of an attack test, lighting: weather and terrain factors can make the attack more difficult: If the attack- takes careful aim the attack is made easier: In any Action Check the gamemaster may choose apply modifiers to the base TN t0 reflect the current conditions_ Each modifier will raise or lower the target number depend: ing on the condition, as shown on the Target Number Modifiers Table (p. 17). Circumstances that make the action easier lower the TN_ so they are listed as negative numbers When modifi: makes the action more difficult, it is positive number that will raise the Combat Modlflers: Different modifier tables are used specifically for ranged combat (p. 112) and melee combat (p. 113). However; they are both based on this table SkilLS character'$ skills can have profound effect on the suC cess or failure of an Action Check: Before rolling the dice for an Action Check the player must determine if"
+          }
+        ]
+      },
+      "characteristics": {
+        "books_count": 1,
+        "top_sources": [
+          {
+            "source_file": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+            "profile_file": "data/lore/mechwarrior_3e/derived_rules/battletech_1715_mechwarrior_3rd_edition_rules_profile.json",
+            "priority": "core",
+            "score": 216,
+            "confidence": 1.0,
+            "page_refs": [
+              57,
+              56,
+              20,
+              24,
+              16,
+              211,
+              26,
+              83
+            ],
+            "excerpt": "[PDF_PAGE 57 | score=50] CHARACTER CREATION traits for his or her character: Players can increase this total taking on additional negative traits_ as described below_ Traits gained through the Life Path are not part of this equation; their independent costs 0r values have no impact 0n the Character Points player can spend_ Because character' Attributes and traits draw Trom COmMOM pool of Character Points_ therc is bound t0 be bit of back and forth' between them_ For example; the Exceptional Attribute Trait can affect the purchase of Attributes_ However players need not finalize character traits before figuring out Attributes Though your character' Attributes define him or her physi cally and mentally and go long way toward determining how well he 0r she may advance ability, Attributes are not thc be and end-all 0f character performance Mw3: Skills are much more important for most actions than Attributes tew below-average Attributes are not serious handicap; just like real people characters should have weaknesses as well strengths_ ATTRIBUTE MAXIMUMB TABLE Normal Elemental MechWarrlor Pllot Attribute Human Truebom Truebom Trueborn STR 8 (9) 9 (10) 8 (9) BOD 9 (10) DEX (9) (10) (10) RFL 9 (10) (10) INT 8 (9) (10) WIL 8 (91 9 (10) (9) CHA 9 (10) (10 EDG 9 (10) SOC 9 (10) 8 (9) (9) Note: Parenthetical values include the Exceptional Attribute trait: tant as actual knowledge of the subject at hand, Willpower related to many skills Characters also use to resist Fatigue and knockout in combat; so most players have good reason to boost this Attribute_ Purchasing Attributes The cost 0f an Attribute depends on its Attribute threshold, determined through the Life Path and your character'= age (see Age; 601. The threshold for each Attribute should be listed on your character creation worksheet: The cost in \n[PDF_PAGE 56 | score=46] CHARACTER_CREATION ASSIGNING ATTRIBUTES, TRAITs AND SkILLS By now you have history tor your character; along with solid sense of who he is and where he is going The next step to finalize your character's Attributes traits and skills; Before doing S0_ however, review the rules for age on p 60. character who expects t0 sce combat and survive should have at least an average Body Attribute Dexterity (DEX) Dexterity represents character\" hand-eye coordination and motor control, Related skills include those that involve fine manipulation _ such as Forgery and Technician Dexterity is also related t0 most combat skills and so any character expected to make accurate attacks wii benefit above-average Dexterity Attribute ATTRIBUTES Every character has nine Attributes The first seven these numbers together describe the character' raw physical and mental abilities Is he weak or strong? Dumb 0r smart? Reflexes (RFL) Fast or Slow? The eighth Attribute. Edge general measure This Attribute represents character $ agility and quick- of the character' good or bad fortune The ninth Attribute, ness As opposed to Dexterity. Reflexes comes into play when Social Standing represents the character place among the the action requires whole body movement and quick reactions_ social strata f his chosen affiliation_ Players assign their characters spe cific Attribute values after completing the ATTRIBUTE TABLE Lfe Path. The Life Path affects minimum values and the cost increase Attrbute General Untrainod Soclal Standing soctal standing Altributes_ but the final numbers are the Value Deecriptlon TN Mod: Inner Sphore Clan player' t0 determine_ Attributes arc rated Impaired +2 Slave Dark (Bandit) Caste from 1-10. Most characters fall the Terrible Lower Class Laborer Caste 3-7 range. Poor Middle Class Me"
+          }
+        ]
+      },
+      "skills": {
+        "books_count": 1,
+        "top_sources": [
+          {
+            "source_file": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+            "profile_file": "data/lore/mechwarrior_3e/derived_rules/battletech_1715_mechwarrior_3rd_edition_rules_profile.json",
+            "priority": "core",
+            "score": 419,
+            "confidence": 1.0,
+            "page_refs": [
+              96,
+              25,
+              54,
+              59,
+              212,
+              101,
+              105,
+              107
+            ],
+            "excerpt": "[PDF_PAGE 96 | score=71] MECHWARRIOR Jrd EDItIc, SkiLLS In general, Attributes and traits describe what character SUBSKILLS is. By contrast, skills describe what she does. Every character Skills marked on the Skill List (p 59) and in this chapter has set of abilities called skills that together account tor her with an asterisk actually represent groups of related sub- areas of proficiency: It is certain that character will have more skills_ You cannot simply have Technician Skill, for example. You knowledge than her Iist of skills includes_ but such knowledge must have particular kind Technician Skill, such Will be inconsequential compared with nerskills, and only Technician /Electronics areas in which character is skilled is she truly proficient: All Certain skills have very specific lists of subskills while oth- other knowledge is hobby-level at best: ers have wide-open variety definable the players and Bamemaster: Each skill consisting of subskills is defined in the SKILL TYPES individual skill description. Skills can be divided into two broad categories: standard skills and difficult skills Difficult skills are listed in boldface on REGIONAL SUBSKILLS the Skill List (p. 59). Each of these categories is defined below Bureaucracy; Protocol and Streetwise are known as region These two skill types come into play when character al skills Such skills vary considerably by region: character wants t0 attempt something that would require skill they don't who has in-depth knowledge of the yakuza in Combine space have or when determining skill advancement: In general, if may not be able navigate the Free Worlds League underworld character lacks the necessary skill but attempts the action any- at all; This character s Streetwise Skill would not be as useful way, improvising for standard skill is much ea\n[PDF_PAGE 25 | score=69] ORAGTER CREATION er makes for his character in the Life Path_ as well as certain Life Path events_ will determine the balance of character\" $ skills_ After completing the Life Path_ the player can add few extra skills t0 round out his 0r her character. Where path grants skill; the numbers listed after rep resent the Skill Points the character earns toward advancement that Skill: negative number decreases the number of Skill Points earned for that skill, to minimum of Skill Point once that skill is awarded path awards points toward any skill; the player can add those points any skill the character already has_ but not to new Skill Upon finishing the Life Path, the player adds Up the totab points earned for each skill to find its skill bonus using the Skill Points Table (p. 57). The number of Skill Points earned in the Life Path should not be confused with Skill Bonuses granted for Skill advance: ment (see the Character Creation Worksheet; p. 218). For subskills listed as Any, the player may cnoose any sub- skill, appropriate his character'$ affiliation and back ground; For example, character granted Interest /Any Skill mignt choose take Interest /Hiking perhaps Interest/Science Fiction_ You can add these Skill Points to a Any Subskill of the same type whether it is one your character has already earned or a entirely new subskill For example player who chose Interest/Hiking receives another Interest / Any Skill; he can add those Skill Points t0 the Hiking Skill or use them for new Interest Skiii: Occupational Fields Most professions entail certain skills_ Mw3 arranges these sets of skills in occupational fields. Each field consists of sev- eral skills related to particular occupation; The most common fields for MechWarrior characters are shown starting on 52. Fields are u"
+          }
+        ]
+      },
+      "combat": {
+        "books_count": 1,
+        "top_sources": [
+          {
+            "source_file": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+            "profile_file": "data/lore/mechwarrior_3e/derived_rules/battletech_1715_mechwarrior_3rd_edition_rules_profile.json",
+            "priority": "core",
+            "score": 500,
+            "confidence": 1.0,
+            "page_refs": [
+              115,
+              118,
+              116,
+              123,
+              122,
+              120,
+              129,
+              117
+            ],
+            "excerpt": "[PDF_PAGE 115 | score=74] COMBAT Modifiers based the condition Or actions of the opponent are always con sidered based on whatever the opponent did last; even the opponent has not acted vet in thc current turn (in such case; the character' = action from the last turn would apply). WOUND TABLE Wound Value DF+ Wound Type Fatigue Only Grazing Wound Minor Wound Serious Wound Critical Wound Combat Effects Summary +1 to all TNs per pt: of Fatigue above WIL Stunned Stunned; +1 to all TNs Stunned; Knockout Check; +2 to all TN? Stunned; Knockout Check; +3 to all TNs; half movement Automatic knockout Instant death MELEE COMBAT DAMAGE Damage from successful melee combat attack based the Deadly Wound Margin of Success between the two fight- Fatal Wound characters: the Hoxem MoS ISsub tracted from the higher MoS t0 find the For AP 0 attacks _ the DF is decreased by the target'$ BOD Fatigue) . base damage The winner'$ STR added to tnis damage as are the damagc dice of any relee weapon used; the winner are severa steps t0 this process each described below: First, was using ranged weapon; use the damage of that weapon determine the amouni ol damage, also called the Damage and do not add STR, Factor Then consult the Wound Table t0 determine the damage the characters tied. damage Benerated witn no addition effects. the character wearing armor; these effects may be for MoS; Each attacker adds his own STR and weapon damage moditied The specific effects, including Fatigue_ wounds, stun; dice as appropriate knockout and knockdown are applied as detailed below: For example. melee combat Ule character has an MoS of and the other has an MoS 0f 1. The net Mos 3 in favor = of the first character, 50 nis dam age will be based on an MoS 0f 3. the second char- acter had failled with an MoF 0f 2, the damage would be resolved \n[PDF_PAGE 118 | score=68] COMBAT may add his skill bonus to the die roll_ this check is failed_ the character is knocked prone. Critlcal Wound Wound Value: Critical Wounds are very dangerous and life-threatening but will not kill character as quickly as Deadly Wounds fact; very strong (or strong-willed} characters can even continue to fight (or, if they are smart; rush to hospital) while suffering Critical Wound Examples include severed limbs, serious dam age t0 major organs and arterial bleeding: Atter taking Critical Wound character is stunned and must make an immediate Knockout Check (see 116). Also apply +3 Modifier to all the character's TNs for each Critical Wound suffered and divide all movement rates in half (round down): Critically Wounded character does not receive success ful treatment with the First Aid Skill within minute of receiving the wound, the wound value of the Critical Wound increases by This bleeding continues every minute until the character receives treatment or falls unconscious from total wound value_ in which case the bleeding effect rules then apply (P. 1161. WOUND TypE8 The wound types listed on the Wound Table have the fol: owing effects Fatlgue Only Included here for the sake of completeness_ Fatigue Only result not actually wound_ In this case the character only scraped_ bruised or winded by the attack and suffers no last- ing effects_ All the attack does inflict Fatigue point on the target. Grazlng Wound Wound Value: This the classic \"it' $ only flesh wound result. Attacks that barely hit barely get through the target' armor will inflict this kind of wound Examples include minor flesh wound_ bleeding cut, deep and paintul bruise and 50 on The only immediate effect of Grazing Wound is that the character is stunned (see 1161. number 0f Grazing Wounds can add up to "
+          }
+        ]
+      },
+      "economy": {
+        "books_count": 1,
+        "top_sources": [
+          {
+            "source_file": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+            "profile_file": "data/lore/mechwarrior_3e/derived_rules/battletech_1715_mechwarrior_3rd_edition_rules_profile.json",
+            "priority": "support",
+            "score": 85,
+            "confidence": 1.0,
+            "page_refs": [
+              156,
+              133,
+              85,
+              211,
+              90,
+              83,
+              57,
+              183
+            ],
+            "excerpt": "[PDF_PAGE 156 | score=14] EQUIPMENT POWER PACK RECHARGER TABLE Htem Standard Equlpment Ratings Cost Welght Power Capacity Notes Power Pack D/A/A D//A D/A/B D/NA 250 15 € Micro Power Pack Military Powor Pack Satchel Battery 200 100 High-Capacity (HC) Power Pack D/B/A E/C/A D/B/B D/B/A 300 Micro Power Pack Military Power Pack Satchel Battery 120 300 150 Rechargers Fossil Fuel Recharger Kinetic Recharger Solar Recharger Standard Recharger Hcavy-Duty Recharger C/A/A C/a/A D/B/A C/a/a C/n/a 10 kE 2 kg 15 kg 150 400 15 per hourRefueling cost: per hour per hour 45 per hour 50 per hour 200 per hour 200 MEDICAL 6 BURVIVAL EQUIPMENT TABLE Equlpment Ratings Item Modlcal Goar Advanced Medical Kit Artficlal Limbs Type 1; Simple Limb Type Useful Limb Type 3: Prosthesis Iype Advanced Prosthesis Type 5: Myomer Replacement Cost Weight Motes C/B/B 250 BTATF C/B/A D/C/A E/E/A various vanous Vanoms Cost: 750 (Arm /Hand); 250 (Leg) Cost; 500 (Arm / Hand}; 10,000 (Legl Cost: 25,000 (Arm / Hand); 17,500 (Leg) Cost: 200,000 (Arm); 100,000 (Hand}: 125,000 (Legi; 50.000 (Foot) various Bionic Ear Replacement Bionic Eye Replacement Clan LSSU Field Surgical Kit Laser Scalpel Life-Support Unit Medical Kit Medipack Medipatch Portable Medical Monitor Preserving Sleeve Stimpatch Survlval Gear Advanced Fleld Kit Basic Field Kit Bubblle Tent Climbing /Rappelling Kit Electronic Comipass Emergency Rations Light Environment Suit Filter Mask Personal Environ Bag Respirator C/na 100,000 per E/B/A 220,000 pcr eye F/C/D 2,200 DINB 800 D/A/C EXB/B 500 325 11.5 kg 100 22,5 250 400 24 doses; reload cost; 100 Pwr use: 1; range 25 cm Pwr use: /C/D D/NB E/B/B D/VB 12 doses; reload cost; 75 200 13.3 kg 500 Pwr use; 100 15 kg 200/occupant 150 kg empty Pwr usef 1/hr/occupant: patch cost: 5; encumbering 10.3 kE 100 200 Av: 4/1/3/1 (full coverage_\n[PDF_PAGE 133 | score=11] EQUIPMENT Finding the local black market could turn into an adventure. By their very nature tnese seedy sellers are not supposed t0 pe easily found Therefore , characters looking for black mar- ket will need to use their Streetwise Skill to find the right per- Wno can get them in touch with the right people_ perhaps requiring an appropriate bribe threat: Shady contacts are also Ven useful for locating black-market outlets. Whether the equipment question even available will course be Up t0 the gamemaster: then the gamemaster should establish cost based upon its equipment ratings gen- eral, commonly available items can be had for far less than retail price that drum of lubricant just fell out of the DropShip' while rare and highly restricted items can command more than twenty or thirty times the normae going rate Of course_ Eood Negotiation Skills could help t0 bring down the price_ Characters need to exercise some discretion with their new tOys_ Most Iaw enforcement officials do not treat black market dealings lightly: characters are caught with such illega Items_ they coula be slapped with stiff fines even imprsoned depend: ing on what they are apprehended with. Black marketeers prefer maintain Jow profile the characters draw attention t0 themselves and t0 where they may have gotten their Mllega goods, the people they dealt with may decide to pay them non-cordial visit. Characters should realize that their dealings with the black market might have consequences down the road. Ment in poOr condition. Tne old axiom that states Buyer beware: deal that\" too good to be true probably is is just as relevant the thirty first century as when was written: The Basic or the Luxury Model The equipment Iisted in this section i5 representative countless similar products that can be fou"
+          }
+        ]
+      },
+      "conditions": {
+        "books_count": 1,
+        "top_sources": [
+          {
+            "source_file": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+            "profile_file": "data/lore/mechwarrior_3e/derived_rules/battletech_1715_mechwarrior_3rd_edition_rules_profile.json",
+            "priority": "support",
+            "score": 294,
+            "confidence": 1.0,
+            "page_refs": [
+              117,
+              118,
+              116,
+              126,
+              223,
+              125,
+              145,
+              115
+            ],
+            "excerpt": "[PDF_PAGE 117 | score=67] COMBAT Hien levels Fatigue will cause character t0 fall uncon- scious: character $ Fatigue exceeds twice his WIL_ he I5 overwhelmed by fatigue and falls unconscious (see 116). Stun Any wound effect beyond Fatigue Only will result in the char- acter being stunned_ This effect takes place at the end of the phase in which he suffered the wound, stunned character can: not move (and considered to have stood still regardless of his last Movement Action attacked) make attacks until spends Simple Action t0 recover from being stunned and he suffers +2 TN modifier to all actions he must make while stunned such as defending himself in melee combat; stunned character does not suffer any additional effects if he stunned again before he recovers_ Recoverlng Fatigue Fatigue can be recovered during combat by spending Complex Action This recovers 106 Fatigue (to minimum of Fatigue). If the situation is dire character can spend an Edge point and Complex Action to eliminate all of his Fatigue with no die roll required: WOUND EffECTS Wounds represent serious injuries that can cripple or kill character; The more wounds character suffers tne more like Iy it is he will suffer permanent injury or die Each wound type has wound value assigned t0 it (see the Wound Table 1141. This represents the relative severity tne wound and helps determine character' overall condition. Every wound character takes inflicts point of Fatigue on the character. Other specific effects of each type of wound are described in the following sections_ Glass Jaw: Characters with the Glass Jaw Trait add to the wound value of all wounds except the Fatigue Only result, which still has value of Pain Reslstance: Characters with Pain Resistance are not stunned by Grazing Wounds, and the total TN modifiers for all wounds taken b\n[PDF_PAGE 118 | score=57] COMBAT may add his skill bonus to the die roll_ this check is failed_ the character is knocked prone. Critlcal Wound Wound Value: Critical Wounds are very dangerous and life-threatening but will not kill character as quickly as Deadly Wounds fact; very strong (or strong-willed} characters can even continue to fight (or, if they are smart; rush to hospital) while suffering Critical Wound Examples include severed limbs, serious dam age t0 major organs and arterial bleeding: Atter taking Critical Wound character is stunned and must make an immediate Knockout Check (see 116). Also apply +3 Modifier to all the character's TNs for each Critical Wound suffered and divide all movement rates in half (round down): Critically Wounded character does not receive success ful treatment with the First Aid Skill within minute of receiving the wound, the wound value of the Critical Wound increases by This bleeding continues every minute until the character receives treatment or falls unconscious from total wound value_ in which case the bleeding effect rules then apply (P. 1161. WOUND TypE8 The wound types listed on the Wound Table have the fol: owing effects Fatlgue Only Included here for the sake of completeness_ Fatigue Only result not actually wound_ In this case the character only scraped_ bruised or winded by the attack and suffers no last- ing effects_ All the attack does inflict Fatigue point on the target. Grazlng Wound Wound Value: This the classic \"it' $ only flesh wound result. Attacks that barely hit barely get through the target' armor will inflict this kind of wound Examples include minor flesh wound_ bleeding cut, deep and paintul bruise and 50 on The only immediate effect of Grazing Wound is that the character is stunned (see 1161. number 0f Grazing Wounds can add up to "
+          }
+        ]
+      },
+      "healing": {
+        "books_count": 1,
+        "top_sources": [
+          {
+            "source_file": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+            "profile_file": "data/lore/mechwarrior_3e/derived_rules/battletech_1715_mechwarrior_3rd_edition_rules_profile.json",
+            "priority": "support",
+            "score": 68,
+            "confidence": 1.0,
+            "page_refs": [
+              125,
+              145,
+              146,
+              126,
+              124,
+              223,
+              187,
+              176
+            ],
+            "excerpt": "[PDF_PAGE 125 | score=21] COMBAT of wound value the character has suffered in excess of his BOD WIL) Proper equipment iS vitally important this situation: if the character performing First Aid does not have at least medical kit (p. 144), the target number is modified Dy +6 for lack of proper equipment. the character has medical kit but not an advanced medical kit (p. 144), the target number has Modifier: Other modifiers may apply to the TN as usual for Action Checks (see Modifiers; p. 16}. the First Aid Check succeeds; the target character is sta bilized_ and any bleeding wounds stop bleeding; The character who performed First Aid must provide continuing life support, such as CPR, to the target. No additional Checks are required_ bul the treating character must spend Complex Action every turn and stay physical contact with the patient at all times life support i5 not maintained_ the character reverts t0 the con dition he was in before receiving First Aid: resume the count- down t0 death from where you left off. The patient will survive for Iength of time equal to his WIL 5 minutes so long as he receives constant life support; This time doubled to WIL 10 minutes if the treating character is using an advanced medical Any minutes character had remaining to receive First Aid before death are added to this period At the end of this time, the character nas not yet reached medical facility staffed by characters with MedTech and Surgery Skills, he dies before death added to this period At the end of this time, the character has not yet received treatment Irom character with the Surgery Skill, he dies. Surgery Once the patient is prepped and stabilized, character with the Surgery Skill can step in and perform emergency treatment stave off death: The surgery takes hour plus the total wound value of all wo\n[PDF_PAGE 145 | score=12] EQUIPMENT changed centuries Rules for the treatment of injuries can be found in Healing; p. 123_ either draw powe by plugging into cockpit powcr jack use its internal battery; which works for Up to 48 hours_ The pack can dispense up to dozen doses of medications before needing replenishment, though these medications must replaced at least once month whether used Or not,. medipack will deliver dose of medication each time its wearer takes wound Or gets stunned. The dose will prevent the character from being stunned ad will allow him to ignore all TN modifiers caused by Minor Wounds or less (Serious Wounds worse have their usual effects) The wound value of all wounds still counts as usual. Finally: any Knockout Checks are made with Modifier to the TN, So long as the doses have not all been used UP, BASIC EQUIPMENT The most basic of medical equipment enough treat common injuries the case of serious and life-threatening injuries; at best these kits can be stopgap measure that can Keep person alive Iong enough for someone with advanced medical training and equipment take Over_ Medlcal Kit The personal medical kit contains enough bandages and other supplies t0 tend all minor wounds, can also be used to Keep critically wounded character alive long enough tor medic or doctor t0 tend to the wounds: character performing First Aid needs such kit to avoid Lack of Proper Equipment Modifier Clan LSSU The Clans developed more sophisticated version Of the medipack, designated the Life Support Sustaining Unit (LSSU): Initially the L SSUs were only available t0 elementals; but Clan MechWarriors and pilots are now using this device. The Clan LSSU functions like the medipack (above), except contains twice as many doses of medication; Advanced Medical Kit This includes more extensive array "
+          }
+        ]
+      },
+      "experience": {
+        "books_count": 1,
+        "top_sources": [
+          {
+            "source_file": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+            "profile_file": "data/lore/mechwarrior_3e/derived_rules/battletech_1715_mechwarrior_3rd_edition_rules_profile.json",
+            "priority": "support",
+            "score": 98,
+            "confidence": 1.0,
+            "page_refs": [
+              209,
+              211,
+              210,
+              79,
+              138,
+              139,
+              58,
+              204
+            ],
+            "excerpt": "[PDF_PAGE 209 | score=20] RUNNING THE GAME CONTACTS Contacts are NPCs that character has relationship with thanks to the Contact Trait (see 801. Gamemasters should allow contacts to be mere spigots Of information that play- ers can f and off at willl Contacts should be fully devel- oped characters with their Own desires; goals ad motivations Players should have t0 perform some roleplaying gain infor- mation from then, Or at least succeed appropriate skill rolls (such as Negotiation Protoco Checks). Tne gamemaster should consider whether player charac ler $ contacts with the player character' personality. For example. criminal-turned mercenary character not likely t0 nave grand duke as contact, regardless of how many points the player spends. The players and gamemaster should work out these considerations together As always, the gamemas: ter' $ decision I5 final, but should be fair as well: cash; equipment, promotion or simply the satisfaction 0f well done. However; addition to these tangible and intangible rewards every character will improve through training and prac: tice . Few things roleplaying campaign can compare t0 the satistaction of building character Over lhe course of cam Daign until his abilities and fame reach legendary proportions This handled game terms Inrougn the awarding Experience Points (XPI (The use 0f XP t0 improve character iS described on 210.1 Determining how much experience an adventure Korth something that each individual gamemaster Misi decide; this aspect of tne game cruciae to the evolution 0f the player characlers Over lime_ rough guide of Experience Point awards based on select conditions provided below. However, not all roleplaying campaigns are created equal: and whal works nice Iy for one group could be norribly stingy Or disgustingly generous in others Thus up\n[PDF_PAGE 211 | score=15] RUNNING THE GAME AGING TABLE AgB Years Age Attribute Modlilers RF WIL Category Young Young Adult Adult Middle Age Old Very Old STR BOD DEX { 41 -1 CHA Tralts Slow Learner Stigma; Past Prime Slon Learner Glass Jaw This trait applies to Clan warriors only Attributes or even get rid of nasty negative trait, Collectively Lnus process IS known character advancement and through this process that eacn character grows as played simultaneously becoming more effective and more interesting as time passes TrAITs Positive traits purchased_ ncgative traits removed; through expenditure XP. However; the character mUSI nave Pood reason gaining or losing the trait, and in some cascs some traits will simply be out of reach_ This is up t0 tne gamemaster t0 determine based on the campaign. The cost of new trait its value Character Points see the table on D, 575 tires 100 The cost t0 get rid of negative trait is its absolute value (e;, drop thie minus Sign) 0f its Character Point value times 100, For example_ would cost 200 XP t0 get rid of negative Wail itn value 0f character gains trail; the equwalent 01 trait, through game play neither costs gains the character XP, For example character loses limb battlc_ he does not suddenly Gain hundreds 0f Experience Points, Likewise. charac ters can gain money through game play; and Inis does not require thc acquisition of the Wealth Trait; AGING character ages; his Attributes and traits May change; Check the Aging Table every time the character has birthday: the character'- AEL agc LoiCS ponds exactly to one 01 thc ages listed thc Age Years column apply the Attribute mod- Ifiers and traits shown tne corresponding rOw: These effects are cumulativc unlike tnose effects shown the Age Effects Table used at Ine erd of character creation. Also unlike those"
+          }
+        ]
+      },
+      "time": {
+        "books_count": 1,
+        "top_sources": [
+          {
+            "source_file": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+            "profile_file": "data/lore/mechwarrior_3e/derived_rules/battletech_1715_mechwarrior_3rd_edition_rules_profile.json",
+            "priority": "support",
+            "score": 93,
+            "confidence": 1.0,
+            "page_refs": [
+              111,
+              124,
+              110,
+              112,
+              104,
+              125,
+              103,
+              13
+            ],
+            "excerpt": "[PDF_PAGE 111 | score=21] COMBAT INITIATIVE During turn; characters' phases are performed in cer- tain order; The process of determining the order which phas- es are executed called Initiative. At the beginning of each turn; every character rolls 2010 and adds his RFL Attribute to the result: The total is his Initiative score . Note that this roll is open ended Iike an Action Check; any 10s rolled are rolled again ad added to the Initiative total; Characters take their phases in Initiative order; starting with the character who has the highest Initiative score the event 0i the character with the higher RFL Attribute acts first. Further ties are resolved y an additional tie-breaking die roll; character can choose delay part of his phase atter using part 0i It. For example_ character can Simple Action t0 run into position and then declare that he will use nis second Simple Action make an attack against target of opportunity: the stated conditions do not come up at all in the turn, the character'$ delayed phase moves on into the following turn: does not roll Initiative but continues to delay from the previ- ous turn; phase can be held indefinitely in this way: At the end of any turn; character who is delaying can also choose to stop delaying and roll Initiative normally in the next turn_ When the delaying character takes his phase (or the part of his phase that was delayed), all his Action Checks for that phase have TN modifier of +2 because the character must react using snap judgment: Note that it is impossible for single character take more than one phase in single turn. Combat Sense: Characters with the Combat Sense Trait reduce the delaying modifier to +1_ Combat Paralysis: Characters with the Combat Paralysis Trait increase the delaying modifier to +3. Initiative Modifiers The following skill\n[PDF_PAGE 124 | score=12] COMBAT Knockout Check; bleeds every turn] Deadly: Leg severed [WV 12; Knockout Check at +6 TN; Lost Limb (3) Trait; bleeds every turn] HEALING Injured characters will naturally want t0 recover so they can go out ad get into the line of fire again (to the eternal dismay of their physicians). This section describes the process involved treating wounds and what happens to characters their wounds are improperly or incompletely treated Deadly: Arm severed (WV 10; Knockout Check at +6 TN: Lost Limb (31 Trait: bleeds every turn] Chest Minor: Broken ribs [WV 2; +1 to all TNs] Serlous: Minor organ damage [WV 4; Knockout Check; +1 to all TNs] Crltical: Major organ damage ad internal bleeding (WV 8; Knockout Check at +2 TN; +2 t0 all TNs; bleeds every minute] Deadly: Chest cavity crushed heart and lungs destroyed [character instantly killed] FAILED TREATMENT character fumbles any treatment roll (i.e. , rolls 2 on the Action Check dice), the target's condition actually worsens: the case of wounds the wound value of the target wound i5 increased by 1; if he is trying t0 stabilize dying character, the character dies immediately: Foot Minor: Metatarsal bones broken (WV 2; half movement: +1 TN to all RFL-linked Skill Checks] Serlous: Foot crushed [WV 3; half movement] Critical: Foot nearly severed (WV 6; Knockout Check; half movement; +2 TN to all RFL-Iinked Skill Checks; bleeds every minuteE Deadly: Foot destroyed [WV 8; Knockout Check at +5 TN; Lost Limb (2) Trait; bleeds every turn] UNCONSCIOUSNESS Another character can attempt t0 wake up knocked-out character by spending Complex Action. The player of the unconscious character must make an Action Check using the same TN as the Knockout Check (p. 1161, with success indi- cating he will wake up at the beginning of the following turn t"
+          }
+        ]
+      },
+      "senses": {
+        "books_count": 1,
+        "top_sources": [
+          {
+            "source_file": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+            "profile_file": "data/lore/mechwarrior_3e/derived_rules/battletech_1715_mechwarrior_3rd_edition_rules_profile.json",
+            "priority": "support",
+            "score": 53,
+            "confidence": 1.0,
+            "page_refs": [
+              140,
+              54,
+              86,
+              216,
+              105,
+              150,
+              121,
+              55
+            ],
+            "excerpt": "[PDF_PAGE 140 | score=11] EQUIPMENT Flamer Plstol: Flamer pistols are simply cul-down version of the man-pack: Tney suffer from shorter range and much smaller payload but they are favored in some circles because of their smaller size. Heavy Flamer: More akin the flamers used BattleMechs than the ma pack; the heawy flamer covers the same area but Inflicts considerably more damage_ The fuel used even more volatile , making nazardous to its crew: If the crew is hit Dy ranged attack; the gamemaster rolls 2010_ result of 18 greater; the heavy flamer's fuel source explodes and causes the heavy flamer\" damage blast effect (damage type X} from the crew as the point of impact: Recoil Compensators Burst-fire weapons are effective, but the recoil generated finng stream of projectiles at high speed massive. Many devices have been developed t0 reduce the effect of recoil; with varying degrees of success_ One of the most common kinds of recoil compensation gas-vent system that vents the weapon barrel gases at specific vector t0 counter barrel climb_ Support weapons can benefit from gyroscopic harness mounts_ In game terms, if wcapon equipped with any recoil com pensation, it increases the cost ad weight of the weapon by 10 percent; but the weapon' recoil rating increased Dy one point. weapon with recoil rating of 2 (+1 TN Modifier for every two shots fired burst) titted with recoil compensation would have recoil rating of 3 and suffer instead +1 penalty per three shots tired. In addition recoil compensation makes weapon bulkier and more difficult to conceal: apply -3 TN Moditier t0 tne Perception Check any character trying spot such concealed weapon; Sonic Stunner The sonic stunner; like the stunstick; i5 nonlethal weapon meant render target unconscious It projects an ultra high frequency sound that can stun \n[PDF_PAGE 54 | score=8] CHARACTER CREATION OCCUPATIONAL FIELDS List Occupational fields consist of several skills that are most commonly used when per forming particular job_ The following lists do not include every conceivable skill related t0 that field but rather the skills most strongly associated with field that are used most often in day t0 day operations When character receives field during the Life Path, he or she gets three Skill Points for every skill associated with that field. The following list is sample of the most common occupational fields available_ Gamemasters should feel free t0 create new ones as needed t0 represent occupations appropriate t0 their campaigns: Prerequisites are provided for some fields for reference purposes. They help explain why certain skill packages ack what might seem to be basic skills: for example the Infantry Field lacks the basic skill Rifles because characters have already received that skill in the pre required Basic Training Field_ Occupational fields are divided into military and civilian groups alphabetized within each group for ease of reference- MILITARY FIELDs Basic Training Career / Soldier First Aid Navigation /Ground Rifles Martial Arts/Miitary Infantry Prerequisite: Basic Training AnMeny Climbing Comms Conv: Uump Packs Support Weapons Tactics/ Infantry Aerospace Fighter Pilot Prerequisite: Basic Training Gunnery / Ballistic , Heno Gunnery / Laser / Aeio Gunnery / Missile / Aero Navigation/Air Navigation / Space Piloting /Aero Sensor Operations Tactics Space Zero G Operations Cavalry Prerequisite; Basic Training Artillery Gunnery /Ballistic /Conv: Gunnery/Laser/ Conv Gunnery /Missile /Conv: Piloting / choose Sensor Operations Technician/Mechanics Hover Naval, Sub. Tracked, Wheeled Marine Prerequisite: Basic Training Demolitions Gunnery /L"
+          }
+        ]
+      },
+      "travel": {
+        "books_count": 1,
+        "top_sources": [
+          {
+            "source_file": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+            "profile_file": "data/lore/mechwarrior_3e/derived_rules/battletech_1715_mechwarrior_3rd_edition_rules_profile.json",
+            "priority": "support",
+            "score": 134,
+            "confidence": 1.0,
+            "page_refs": [
+              81,
+              89,
+              105,
+              189,
+              94,
+              197,
+              85,
+              52
+            ],
+            "excerpt": "[PDF_PAGE 81 | score=25] TRAITS COMMISSION Cost: 3 Tnis trait can only be taken by character with the Rank Trait who also in military organization of some sort serves a5 sort of 'toggle switch to upgrade the enlisted rank into commissioned (officer) rank: Officer ranks are listed in the description of the Rank Trait (p_ 85). when character receives Commission Trait, he or she immediately reverts t0 Rank 13 unless another rank is listed in parentheses_ such as Commission (Rank 31. cle he has and its technology level. The effects are summarized on the Custom Vehicle Table The effects in the Vehicle Selection column refer to selec: tion within your own affiliation, whether your character comes irom the Inner Sphere the Periphery or the Clans The Clan Vehicle Selection column applies you want Clan-tech vehicle for your character; but the character' chosen affiliation is not Clan Random Assignment Own Affiliation the standard choice and i5 frce. allows the character randomly selected vehicle within nis Own affiliation Draconis Combine MechWarrior chose this option_ he would be assigned t0 ran- domly generated Combine Mech. Random Mech and vehicle assignment tables can be found on pp Additional tables can be found in the various BattleTech Field Manual sourcebooks_ Randorn Assignment any Affiliation allows the player choose an affiliation other than the character' chosen affilia tion when assigning the vehicle, but the precise type is still CONTACT (multiple trait) Cost: 1-3 The Contact Trait provides player character with a ally Or acquaintance who can supply information and aid_ Tne player character purchasing the trait determines the identity of the con tact , subject to gamemaster approval. The gamemaster deter- mines the cost of the trait; based on the following guidelines_ 1 point contact has r\n[PDF_PAGE 89 | score=24] TRAITS TRANSIT DISORIENTATION allowable weight class Or lignter one_ but not heavier one_ SYNDROME The gamemaster may choose instead t0 assign the character Value: particular vehicle rather than rolling randomly: In either case_ Known as TDS this syndrome results in the character suf the choice is not up to the player unless he has the Custom fering more than the usual effects of disorientation and physi- Vehicle Trait (see 801. cal distress following hyperspace jump. Immediately following vehicle gained through the Vehicle Trait does not belong jump the character is considered stunned (p_ 116) and can- to the character (unless he also has the Owns Vehicle Trait , not recover for fifteen minutes For an additional 2D10 hours 841. it i5 property of the unit the character is part 0f , If the after jump; the character nauseated and irritable and suf- character leaves that unit for some reason_ the vehicle stays fers Modifier to all target numbers with the unit. However; if the character joins new unit. he can If the character must endure another jump before recover expect t0 be assigned similar vehicle if one available ing from the effects the first, the effects are more severe Rather than being stunned tne character VEHICLE CLABB TABLE knocked out after second jump; The lingering nausea and disorientation Tralt Polnte BattleMech AeroSpace day, Conventlonal effects persist for an entire plus an Battle Armor 10 additional 2D1O hours_ DropShip: Military Assault DropShip: Civilian UNATTRACTIVE Value: Assault Heavy Heawy The character i5 exceptionally unat: Heavy tractive, through pure physical attributes Medium Medium Heawy horrendous fashion sense, annoying per- combination of Medium sonality or most Often Whatever Light these factors tne specific Light Medium None this unatt"
+          }
+        ]
+      },
+      "henchmen_hirelings": {
+        "books_count": 1,
+        "top_sources": [
+          {
+            "source_file": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+            "profile_file": "data/lore/mechwarrior_3e/derived_rules/battletech_1715_mechwarrior_3rd_edition_rules_profile.json",
+            "priority": "support",
+            "score": 61,
+            "confidence": 1.0,
+            "page_refs": [
+              207,
+              206,
+              198,
+              111,
+              200,
+              103,
+              14,
+              165
+            ],
+            "excerpt": "[PDF_PAGE 207 | score=14] RUNNING THE GAME From dramatic perspective, introducing these important NPCs should vary from the norm t0 let the players know that they have met someone who stands out from the rest of the back- ground. Maybe the way these individuals talk; 0r the way they carry themselves_ Maybe they are bold and walk right UD to the player characters when everyone else snies away: they have been stalking tne players for some time and only now allowed themselves t0 be noticed However accomplished the player characters should probably know when they have met somconc important, lest the entire effort creating the character be wast: ed as they dismiss this fully developed NPC out of hand The character' $ Secondary Skill should be for secondary weapon (if combatant) hobby Interest Skill (for Mon combatants). The Secondary Skill mignt be something unusual such as Martial Arts Stealth or Technician depending on where the NPC encountered and under what circumstances All characters have Language and Perception Skills these are not listed unless the character has an unusually high skill bonus_ Ada them becomes necessary: Bystander This character one of the faceless trillions who fill every inhabited planet; Though rarely threat from combat point of view. bystanders might be held as hostages needing rescue, serve as particularly poor henchmen for bottom-rung criminals MINOR NPCS The vast majority of NPCs encountered by the player char- aclers minor NPCs. from the Buv who sold you that Sternsnacht pistol to tne waiter at the loca bistro, from tne Eruff sergeant to the hapless Street punk who points the way t0 the yakuza hide-out. In most cases minoi NPCs need only personality and briel pnysica description: they possess usetul skills tnat are likely t0 come into play. the gamemaster should note t\n[PDF_PAGE 206 | score=13] RUNNING THE GAME their Clan; Of course once the characters arrive back in Clan space there are many ssues t0 deal with most notably the potential loss honor for being captured in the first place _ The characters may then have t0 work twice as hard t0 regain their positions Regular Military Every affiliation operates standing military; and the char- acters are part 0f it strict chain 0i command provides less freedom than some types of campaigns, but as member of Varge ana Organized army supply and repair are less of prob- Tem Characters can worry less about paying the bills and con- centrate on accomplishing the mission at hand This setup ideal for NOvice gamemasters and ones with limited time since the NPC commanders hand on spe- cific Orders (your adventures which the player characters are obliged to follow: Since the mission can stray little from the patn you sel. helps keep the players track and forces you t0 deal with fewer surdrises. NON-PLAYER CHARACTERS With the exception of the players characters, every person the BattleTech universe is non-player character (NPCE Inat the gamemaster can use as the cast of nis stories. It is up t0 the gamemaster create and portray each of these characters believable and enjoyable manner. Populating campaign with interesting NPCs is no small task so this section devoted to helping gamemasters get started It includes sample NPCs the gamemaster can use as as well as guidelines for creating new NPCs and bringing them t0 llife Media Tne interstellar media big business in the thirty first cen- tury. and your characters are tield reporters investigating the nottest stories In tne war-torn BattleTech universe: more often than not those stories involve combat. putting you in the linc fire t0 get t0 the bottom of the story: Once you ve got"
+          }
+        ]
+      },
+      "extensions": {
+        "books_count": 1,
+        "top_sources": [
+          {
+            "source_file": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+            "profile_file": "data/lore/mechwarrior_3e/derived_rules/battletech_1715_mechwarrior_3rd_edition_rules_profile.json",
+            "priority": "support",
+            "score": 13,
+            "confidence": 1.0,
+            "page_refs": [
+              122,
+              178,
+              93,
+              206,
+              182,
+              145,
+              135,
+              121
+            ],
+            "excerpt": "[PDF_PAGE 122 | score=4] COMBAT This Optional rule adds complexity to the game_ but it also adds realistic element of danger tO represent the ead ilying around typical firefight: Any time ranged attack misses its intended target; there chance the shot will strike nearby character. The maxi mum distance meters potential sccondary target may be from the intended target IS equal the Margin of Faillure of the Attack Check. The secondary target must also be in line of sight of the attacker unless the attack was indirect (p. 1191. If there are no potential secondary targets, the shot i5 clean miss. The secondary target can be any character Or creature_ there multiple targets within range ad LOS_ the victim Cetermined randomly; with no regard t0 whose side they are On. Resolve the secondary attack against the new target using all thc normal rules as if the attacker were making an attack against that target: addition to the normal modifiers appiy an additional +4 Modifier t0 the TN for the second character. If the attack hits resolve damage normally misses, will only nave chance ot striking another character there is another potential target Iying the same direction from the Original target as the secondary target. and Is within the original MoF range from the original target; Resolve the attack against this tertiary target with an addition: +8 Moditier: this attack misses there no further cffect. Suppressing fire not subject t0 this rule_ Blast Attacks: In the case of weapons with blasl eliecl; missed shots will scatter rather than resolving described above moving tne point of impact from the intended target. To find the direction of the scatter; roll either D6 (if play- ing on sketched map, ungridded terrain or hex grid map) or D1o playing square gridded map) ad consult the Scatter Diagram (p; 1201. \n[PDF_PAGE 178 | score=2] SOCIETY AND CULTURE simple mistortune of lying near war-torn borders. Most Periphery planets are Outback worlds with standards of living as far below the core worlds as Third World country was from First World one on ancient Terra What little technology exists I5 treated Iike miracle ad rarely taken for granted_ In some areas the incongruities can strike observers as ludicrous: hunt- ing game with bow and arrow Or nundred-year-old rifle_ oniy bring home and cook microwave_ In the remotest regions backwater planets_ merchant DropShip landing can be cause for local holiday: Most people on these worlds care nothing about politics, though those on border worlds tend to be avid followers military news_ Skirmishes_ victories, defeats and treaties can all have major impact on their lives_ Mechwarrior refrecher The akcoholic drink most associaled wlth MechWarriors Is the PPC , named atter the BattleMech weapon: First intro- duced on Solarls VII; where few \"manly\" MechWarriors point- edly favored drink has become stereotype MechWarrior fiction. In tact, most MechWarriors avold any drink that you have to swallow quickly before your mouth goes numb: Four shots of grain alcohol poured Into brandy snifter are the drinks basic element: Each variant of the PPC is named for a Great House , depending on what is used to dilute the grain alcohol. Steiner cuts with two shots peppermint schnapps_ Marik uses two shots of Ouzo, and Davion either two shots 0f bourbon 0r, in the Capellan March, tequila: The Liao variant cuts the drink with double shot of plum wine, the Kurita version with sake. Taking the grain alcohol straight is sometimes called Periphery PPC or just plain foolish: LANGUAGE Humankind Iikely would never have reached the stars with- out common language through which scientists "
+          }
+        ]
+      },
+      "classes": {
+        "books_count": 1,
+        "top_sources": [
+          {
+            "source_file": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+            "profile_file": "data/lore/mechwarrior_3e/derived_rules/battletech_1715_mechwarrior_3rd_edition_rules_profile.json",
+            "priority": "support",
+            "score": 40,
+            "confidence": 1.0,
+            "page_refs": [
+              55,
+              99,
+              220,
+              68,
+              47,
+              34,
+              208,
+              79
+            ],
+            "excerpt": "[PDF_PAGE 55 | score=10] CHARAGTER CREATION Otficor Tralnlng Prerequisite: Basic Training Administration Bureaucracy / Affiliation Leadership Pistols Tactics / Any Training Detectlve Career /Detective Computers Cryptography Fast Talk Interrogation Perception Scrounge Security Systems Police Offlcer Academic /Law Career /Police Officer First Aid Intimidation Martial Arts /Military Pistols Shotguns Streetwise/ Any Shlp\"9 Crew Career / Ship\"5 Crew Gunnery /Ballistic / Space Gunnery /Laser /Space Gunnery /Missile / Space Technician/Ballistics Technician/Lasers Technician /Missile Zero G Operations Doctor Prerequisite: Scientist Administration Bureaucracy / Any Career / Doctor First Aid MedTech Surgery Police Tactical Officer Prerequisite; Police Officer climbing Demolitions Rifles Running Submachine Guns Support Weapons Tactics / Infantry Spoclal Forcos Prerequisite: Infantry Blades Demolitions Free Fall Stealth Submnachine Guns Survival Tracking DropShlp Pllot Career/Pilot Comms Conv; Navigation / Space Piloting - Kero Piloting /Spheroid Sensor Operations Zero G Operations Polltician Acting Bureaucracy/Any Career/Politician Fast Talk Leadership Negotiation Protocol/Any Engineer Prerequisite Civilian Tech Basic Technician Appraisal Computers Engineering Perception Technician/ Fusion echnician Support WarShip Pllot Prerequisite: JumpShip Pilot Bureaucracy / Affiliation Leadership Strategy Tactics Space Scientlst Career /Scientist Computers Perception Academic Any Training CIVILIAN FIELDS Scout Comms Conv: Disguise Scrounge Security Systems Stealth Streetwise / Any Tracking Jumpship Pilot Prerequisite: DropShip Pilot Administration Computers Navigation/ Jump Drive Technician/ Jump Drive AeroSpace Technlclan Prerequisite: Basic Technician Civillan Tech Technician/Aeronautics Technician/Fusion Technici\n[PDF_PAGE 99 | score=7] SKILLS CAREERS\" This iS catchall category for an infinite number of special skills related t0 professions_ Since there is a endless supply of unique professions in the Battle Tech universe this generic category applies to them all rather than listing them separately: From Judge t0 Librarian, the possibilities are endless_ Of course_ certain professions require additiona skills. For example doctor needs more than Career /Doctor in order t0 practice medicine would also need First Aid MedTech Surgery and other skills In many cases_ the occupational fields 52) offer guidance on these requirements The final arbiter these cases is always the gamemaster; As rule 0t thumb there is an appropriate skill to profession on the Skill List, character must have it to be considered professional. Additionally; the Computers Skill allows player t0 hack into computer systems by making Computers Skill Check: If system operator (sysop} is online when character attempts t0 hack into system; an Opposed Test is instead made using the character' = and sysop'$ Computers Skills If the sysop wins the would-be hacker is forced offline ad any further attempts on the same system receive +2 modifier: the hacking character wins he breaks into the system; but the sysop may be aware of the intrusion. If the hacker' = Margin of Success exceeds the sysop' MoS by three or more, the intrusion goes unnoticed Otherwise_ the sysop is aware of the breach and may shut down the system in 106 turns Once inside system; hacking character can act freely; though complex tasks may require Action Checks (bad failures and fumbles may alert sysop at the gamemaster'= discretion). system IS being shut down; hacking character can make one Computer Check per round in a attempt to extract data; these attempts suffer pressure mod"
+          }
+        ]
+      },
+      "races": {
+        "books_count": 1,
+        "top_sources": [
+          {
+            "source_file": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+            "profile_file": "data/lore/mechwarrior_3e/derived_rules/battletech_1715_mechwarrior_3rd_edition_rules_profile.json",
+            "priority": "support",
+            "score": 241,
+            "confidence": 1.0,
+            "page_refs": [
+              193,
+              33,
+              190,
+              201,
+              192,
+              202,
+              194,
+              166
+            ],
+            "excerpt": "[PDF_PAGE 193 | score=47] ThE CLANS between Clans or t0 discuss matters affecting the Clans whole Its members have far-ranging authority when dealing with Clan-wide matters but their power strictly limited matlers concerning single Clan The Grand Council traditionally meets in Grand Kurultai, face-to face gathering the Hall ot Khans on the Clan capital of Strana Mechty: also meet in virtual kurultai\" via HPG; In times of crisis, the Grand Council can elect an ilKhan war leader with Clan-wide authority: Throughout Clan history, only ten such individuals have been chosen; CLAN POLItiCS Two opposing factions dominate Clan politics The first; known as Wardens_ believes tne Clans should serve as protec tors of the Inner Sphere The second_ called Crusaders advo cates the military conquest of the Inner Sphere and the re formation of the Star League with the Clans at its head; Both factions use the writings and speeches Aleksandr and Nicholas Kerensky t0 justify their positions but demands by the civilian castes t0 return the ~lost paradise\" tne Inner Sphere eventually ed t0 the Crusaders rise Currently. with the destruction of Clan Smoke Jaguar and the Crusaders loss t0 the Inner Sphere the Great Refusal Strana Mechty; the Wardens dominate Clan politics. Though they favor solationism; the Wardens crave martial victories as much as any Clansman: Despite being unwilling participants in the invasion of the Inner Sphere they considered it matter of nonor do their best. That their success capturing territory reduced Crusader influ- ence was added bonus, lesser division within the Clans aiso exists between those chosen to invade the Inner Sphere and those left behind Animosity flares frequently between these two groups, souring relations both Warden and Crusader camps and leading several cross-faction allian\n[PDF_PAGE 33 | score=39] araGTER CREATION their own beliefs however; the Clans were not invincible humiliating truth not lost on many Clansmen these days. Attrlbute Thresholds_ MechWarrior: DEX +1 RFL +1 Elemental: STR +2 , DEX -1, BOD +1 Fighter Pilot: DEX +2, RFL +2, STR -1, BOD -1 Scientist: INT -1 STR -1 Technician: DEX +1, CHA -1 Merchant: CHA +1 BOD -1 Laborer: BOD +1, INT -1 Tralts: Clan characters may not take the Land Grant; Owns Vehicle, Poverty or Wealth traits_ except dark caste characters (see Leaving the Clans_ below). Equlpment: Clan characters who operate within the bound: aries Clan society not have personai possessions. Instead_ their Clan allows them equipment appropriate t0 their caste and assignment: Clan player characters can have any equipment appropriate t0 their occupational fields and skills (with the gamemaster $ permission and following the rules for Equipment Ratings_ p. 1291. However, character who leaves his or her Clan must return the equipment: Clan character who ends the Life Path outside the service of the Clans purchases equipment per normal rules (see Leaving the Clans below). Path Restrictions: Severe path restrictions apply to Clan characters based on their birth status and caste These restric- tions are described at each stage under the Clan Characters heading: Clan characters who do not follow these restrictions are branded as dark caste (see Leaving the Clans). Washing Out of Training: Any event that results washing out of training means that the character failed warrior training because of some fault or shortcoming_ character can also vol: untarily leave training; with the same effects_ The results vary depending on the character'$ status If the character washes out of the Trueborn Creche, he or she moves o to Stage 2_ Clan Apprenticeship Path: If the "
+          }
+        ]
+      },
+      "attribute_bonuses": {
+        "books_count": 1,
+        "top_sources": [
+          {
+            "source_file": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+            "profile_file": "data/lore/mechwarrior_3e/derived_rules/battletech_1715_mechwarrior_3rd_edition_rules_profile.json",
+            "priority": "support",
+            "score": 111,
+            "confidence": 1.0,
+            "page_refs": [
+              17,
+              212,
+              125,
+              111,
+              103,
+              99,
+              59,
+              113
+            ],
+            "excerpt": "[PDF_PAGE 17 | score=24] GAME CONCEPTS If a single Attribute is used in the Check, the base TN is 15 minus the Attribute in question. character has WIL of 6 then the base TN of WIL Check for him would be (15 are used t0 represent the effects the conditions surrounding the action have on the TN: Action Modifiers Characters can take certain special actions that affect the target numbers of their actions_ such as taking extra time t0 be careful and thorough In addition other characters can lend hand t0 help with the action_ These actions are represented by the aptly named action modifiers two Attributes are used in the Check the base TN is 20 character with BOD of and STR minus both Attributes would have base TN of 10 for BOD/STR Check (20 101. MODIFIERS The base TN can be adjusted depending on the difficulty of the particular task at hand and the conditions surrounding the action_ In the example of an attack test, lighting: weather and terrain factors can make the attack more difficult: If the attack- takes careful aim the attack is made easier: In any Action Check the gamemaster may choose apply modifiers to the base TN t0 reflect the current conditions_ Each modifier will raise or lower the target number depend: ing on the condition, as shown on the Target Number Modifiers Table (p. 17). Circumstances that make the action easier lower the TN_ so they are listed as negative numbers When modifi: makes the action more difficult, it is positive number that will raise the Combat Modlflers: Different modifier tables are used specifically for ranged combat (p. 112) and melee combat (p. 113). However; they are both based on this table SkilLS character'$ skills can have profound effect on the suC cess or failure of an Action Check: Before rolling the dice for an Action Check the player must determine if\n[PDF_PAGE 212 | score=15] RUNNING THE GAME acter with tne Ski question (at skill bonus equal higher than the training character) and the Training Skill, the trainer may maxe Training Check using the target character' skill bonus as modifier to the target number If the Action Check IS success- ful. the target character may add hash mark the chosen skill: If the Action Check unsuccessful the target character may not add hash mark t0 the skill; character can score nash mark skill he does not yet have in this way: Skills that have hash marks next to them may be improved bonus (see Skill Advancemeng pelow , When they are improved the nash marks are erased Tnnt Skill Advancement Skill advancement affected by Link Attributes and traits well as successful use and training High Link Attributes make skill advancement faster. while low Link Attributes slow down. This represents tne fact that some people are simply bet- disposed t0 earning certain skills because of their natural abilities For example. strong ad fast characters will pick up on athletic skills faster than couch potatoes and s0 on. Also, diffi: cult skills will be harder t0 increase than standard skills and skills that the character actually uses Or is trained will be eas ier t0 increase than those that are neglected skill bonus can only be increased one level time example you can increase skill from +2 t0 +3 but not from directly to First. the skill must be increased t0 +3 and east one adventure must pass before the skill can increased again The base cost t0 increase the skill bonus is the skill bonus you are increasing For example increasing skill bonus from +2 t0 +3 has base cost 0f 3, To find the actual cost of increasing the skill bonus; you need (0 Knox the aavancement multiplier for that skill. To figure out the multiplier, first add to"
+          }
+        ]
+      },
+      "movement": {
+        "books_count": 1,
+        "top_sources": [
+          {
+            "source_file": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+            "profile_file": "data/lore/mechwarrior_3e/derived_rules/battletech_1715_mechwarrior_3rd_edition_rules_profile.json",
+            "priority": "support",
+            "score": 85,
+            "confidence": 1.0,
+            "page_refs": [
+              112,
+              146,
+              189,
+              111,
+              110,
+              134,
+              222,
+              144
+            ],
+            "excerpt": "[PDF_PAGE 112 | score=33] COMBAT equa to his skill bonus Running; if the character has no skill bonus_ ne can still sprint for single turn. As fast- moving target. sprinting character harder t0 hit with attacks_ MOVEMENT TABLE Movement Mode Walk Run /Evade /Disengage Sprint Maxlmum Metera Moved RA STR RF STR Running Skill Bonus Run Meters EVADING Evading iS Complex Action that allows the character to move as fast as running movernent and makes him con- siderably harder t0 hit as he dodges ad weaves, applying target number modifier equal Acrobatics Skill Bonus +1 sprinting as shown o tie Movement Table Movement can also be restricted by encumbrance the character is wearing heavy armor carrying Iot of gear (see Encumbrance; 1331. Note that character may never perform more than movement action the same turn Maps: the players want more exact system of deter- mining movement and range tney can use square hex erid and use metal miniatures Or paper markers t0 represent each character good scale t0 use meters per hex Or square Divide weapon ranges and movement rates by (rounding up on 5) to find tne equivalent nexes squares on the map. Miniatures: miniatures and ungridded terrain are uscd t0 play the game, mOvement speeds and weapon rangcs can be converted Unto inches or centimeters To convert Eame meters typical 28mm tigures _ multiply movement rates and weapon ranges by 0.7 (round up on 51t0 find the equivalent in inches_ Or multiply by 2 t0 find thc equivalent in centimeters_ Note that these conversions will match the scale of the minia- tures_ but weapon rangcs probably be very long; requiring large playing surface only small play surface available use smaller distance scale: measure game meters directly as centimeters multiply meters Dy 0.35 t0 find inches_ RANGED COMBAT The ranged combat rules are\n[PDF_PAGE 146 | score=9] EQUIPMENT does not stun the character; nor must the character make Knockout Check; Fatigue sustained normally: Type myomer replacement functions as normal limb for damage ourposes. Damage suffered by artificial limbs can repaired with the appropriate skills, such as Technician/ Electronics for Type and limbs . Damaged myomer limbs must be repaired at specially equipped hospital and requires Surgery and Technician/Myomer Skills Modifiers Action Checks for replacement limbs are based on tne modifiers for the Lost Limb Trait (p 831. with slightly less dexterity than the original but can perform all the same functions Any target numbers that use DEX related skills reduce the modifiers from the Lost Limb Trait by three There are no restrictions On movement Type 5: Myomer Replacement Myomer replacements are prohibitively expensive but are the most litelike additional 000 €C bills per limb buys detailed cosmetic finishing that makes the replacement virtual: indistinguishable from the origina without medical exami- nation_ Characters with Type 5 limbs nave no limitations restrictions movement motor control. For all practica poses, the Type replacement functions as natural Iimo Type 1: Simple Limb Tnese primitive artificial limbs include rudimentary func tional prostheses such as hooks Or pegs_ and crude cosmetic replacements_ Any target numbers that use DEX related skills requiring the use of Type limbs reduce the modifiers from the Lost Limb Trait Dy one: character with Type leg cannot run and his walking movement is reduced to one third its original value_ If the character has two Type legs_ his walking move ment reduced to one Leighth original value_ character with two Type legs must use cane 0r crutches 0r make SuC- cessful RFL Check each turn t0 keep from falling; BIONIC E"
+          }
+        ]
+      },
+      "encumbrance": {
+        "books_count": 1,
+        "top_sources": [
+          {
+            "source_file": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+            "profile_file": "data/lore/mechwarrior_3e/derived_rules/battletech_1715_mechwarrior_3rd_edition_rules_profile.json",
+            "priority": "support",
+            "score": 41,
+            "confidence": 1.0,
+            "page_refs": [
+              134,
+              156,
+              142,
+              74,
+              155,
+              138,
+              137,
+              136
+            ],
+            "excerpt": "[PDF_PAGE 134 | score=16] EQUIPMENT Wcnnon in meters_ For vehicles range detines how tar can uavel before needing t0 be refueled_ Recharge Rate: The standard number of power points recharger can produce each hour Refueling Cost: The C-bill cost to refuel venicle 0r item. Reload Cost: The C bill cost of ammunition rounds to fully reload thc weapon. The cost of an individual round can be found oy dividing the Reload Cost by the weapon\" = Snots Shots: The rounds weapon magazine holds (and; extension_ tne number of standard shots character can make before needing to reload}. Skill: Thc skill used Action Checks witn Keapon. Speed: vehicle maximum speed kilomelers per tiour (kph). Type: The type 0f damage inflicted wcapon, #hicn detemines ho Otmor detends against i. Tne four damage Types are melee (Mi ballistic (BI. energy (E and explosive Weight: How neavy the item under standard Ierran grav grams (g1. kilograms (KEI metric tons_ Encumbering Gear: Sore Lear; especially armon bulky creates encumbrance beyond what its weignt alone SUL gests Each piece of gear character carries Inal listed as encumbering\" (see the Notes section of tne equipment tables starting on p. 1531 incrcases his effective encumbrance by one Ievel. after figuring normally: character wno unencim bered but carrying twO pieces encumbering equipment con- sidered t0 be very encumbered character \"ho alternpts t0 carry 50 mucn encumbering gear that his effective level woula increase neiond very encumbered cannot move_ Effects of Encumbrance encumbered characier $ RFL Attribute I5 reduced Dy one; Furthermore SMch character suffers Fatigue point cvcry lmc ne makes Melee dllack OrMoves at sprinting speed. The Bamemaster can also apply TN Modificr (0 ary task that shoula be made more difficult by cncumbrance espe cially those involving agilit\n[PDF_PAGE 156 | score=5] EQUIPMENT POWER PACK RECHARGER TABLE Htem Standard Equlpment Ratings Cost Welght Power Capacity Notes Power Pack D/A/A D//A D/A/B D/NA 250 15 € Micro Power Pack Military Powor Pack Satchel Battery 200 100 High-Capacity (HC) Power Pack D/B/A E/C/A D/B/B D/B/A 300 Micro Power Pack Military Power Pack Satchel Battery 120 300 150 Rechargers Fossil Fuel Recharger Kinetic Recharger Solar Recharger Standard Recharger Hcavy-Duty Recharger C/A/A C/a/A D/B/A C/a/a C/n/a 10 kE 2 kg 15 kg 150 400 15 per hourRefueling cost: per hour per hour 45 per hour 50 per hour 200 per hour 200 MEDICAL 6 BURVIVAL EQUIPMENT TABLE Equlpment Ratings Item Modlcal Goar Advanced Medical Kit Artficlal Limbs Type 1; Simple Limb Type Useful Limb Type 3: Prosthesis Iype Advanced Prosthesis Type 5: Myomer Replacement Cost Weight Motes C/B/B 250 BTATF C/B/A D/C/A E/E/A various vanous Vanoms Cost: 750 (Arm /Hand); 250 (Leg) Cost; 500 (Arm / Hand}; 10,000 (Legl Cost: 25,000 (Arm / Hand); 17,500 (Leg) Cost: 200,000 (Arm); 100,000 (Hand}: 125,000 (Legi; 50.000 (Foot) various Bionic Ear Replacement Bionic Eye Replacement Clan LSSU Field Surgical Kit Laser Scalpel Life-Support Unit Medical Kit Medipack Medipatch Portable Medical Monitor Preserving Sleeve Stimpatch Survlval Gear Advanced Fleld Kit Basic Field Kit Bubblle Tent Climbing /Rappelling Kit Electronic Comipass Emergency Rations Light Environment Suit Filter Mask Personal Environ Bag Respirator C/na 100,000 per E/B/A 220,000 pcr eye F/C/D 2,200 DINB 800 D/A/C EXB/B 500 325 11.5 kg 100 22,5 250 400 24 doses; reload cost; 100 Pwr use: 1; range 25 cm Pwr use: /C/D D/NB E/B/B D/VB 12 doses; reload cost; 75 200 13.3 kg 500 Pwr use; 100 15 kg 200/occupant 150 kg empty Pwr usef 1/hr/occupant: patch cost: 5; encumbering 10.3 kE 100 200 Av: 4/1/3/1 (full coverage_"
+          }
+        ]
+      },
+      "alignment": {
+        "books_count": 1,
+        "top_sources": [
+          {
+            "source_file": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+            "profile_file": "data/lore/mechwarrior_3e/derived_rules/battletech_1715_mechwarrior_3rd_edition_rules_profile.json",
+            "priority": "support",
+            "score": 1,
+            "confidence": 1.0,
+            "page_refs": [
+              193
+            ],
+            "excerpt": "[PDF_PAGE 193 | score=1] ThE CLANS between Clans or t0 discuss matters affecting the Clans whole Its members have far-ranging authority when dealing with Clan-wide matters but their power strictly limited matlers concerning single Clan The Grand Council traditionally meets in Grand Kurultai, face-to face gathering the Hall ot Khans on the Clan capital of Strana Mechty: also meet in virtual kurultai\" via HPG; In times of crisis, the Grand Council can elect an ilKhan war leader with Clan-wide authority: Throughout Clan history, only ten such individuals have been chosen; CLAN POLItiCS Two opposing factions dominate Clan politics The first; known as Wardens_ believes tne Clans should serve as protec tors of the Inner Sphere The second_ called Crusaders advo cates the military conquest of the Inner Sphere and the re formation of the Star League with the Clans at its head; Both factions use the writings and speeches Aleksandr and Nicholas Kerensky t0 justify their positions but demands by the civilian castes t0 return the ~lost paradise\" tne Inner Sphere eventually ed t0 the Crusaders rise Currently. with the destruction of Clan Smoke Jaguar and the Crusaders loss t0 the Inner Sphere the Great Refusal Strana Mechty; the Wardens dominate Clan politics. Though they favor solationism; the Wardens crave martial victories as much as any Clansman: Despite being unwilling participants in the invasion of the Inner Sphere they considered it matter of nonor do their best. That their success capturing territory reduced Crusader influ- ence was added bonus, lesser division within the Clans aiso exists between those chosen to invade the Inner Sphere and those left behind Animosity flares frequently between these two groups, souring relations both Warden and Crusader camps and leading several cross-faction allian"
+          }
+        ]
+      },
+      "magic": {
+        "books_count": 1,
+        "top_sources": [
+          {
+            "source_file": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+            "profile_file": "data/lore/mechwarrior_3e/derived_rules/battletech_1715_mechwarrior_3rd_edition_rules_profile.json",
+            "priority": "support",
+            "score": 3,
+            "confidence": 1.0,
+            "page_refs": [
+              180,
+              126,
+              104
+            ],
+            "excerpt": "[PDF_PAGE 180 | score=1] SOCIETY AND CULTURT character with polyglot origins_ tne Free Worlds League boasts many competing diversions all available tor price Pay-per-view holovid extravaganzas are common_ as are live tours by bands magicians and other entertainers from across the Inner Sphere_ The most profitable national pastime_ however; i5 gambling: The League home to the independent planet ot Kyeinnisan; also known as tne Gambler' $ World_ Eagle Nest; the Cave and Light City are the best known gam bling palaces_ each able t0 house the population of small city within their huge, rambling complexes of casinos hotels; audi- toriums ano ballrooms. Four-card Drax is the most popular game attracting high-stakes players from overy Inner Sphere and Periphery nation. The Federated Suns half of the Commonwealth tends t0 sneer Iittle at the League high-glitz, low-glamour establish ments_ Only the Gambler's World gets ay respect from the FedSuns; which boasts eighteen of the twenty-eight worlds on the of ficia Riviera-style circuit: From the Ammon Ocean Resorts on New Syrtis Dorado Casino City to Sun Prairie\" New Monaco, there no end of getaways for those who can afford them. The Federated Suns Is also home Three House Entertainment; the only agency of its kind with licenses for travel into and out of the Federated Commonwealth_ the Draconis Combine and the Capellan Confederation New Avalon Publishers, the Inner Sphere single largest book publisher; has its home office on the FedSuns capital with remote pub lishing and distribution centers in every nation_ In the Combine the NAP office loose affiliate of Luthien Press The Lyran Alliance has always maintained a impressive mass entertainment industry: Alliance producers are into every thing; from music and sensory discs holovid dramas Surprisingly, rathe\n[PDF_PAGE 126 | score=1] COMBAT treatment and recovery times can be found the Wound Treatment Table 1251. Wound nealing WOUND TAEATMENT TABLE tires are consecutive, nol simuitancous and less wounds heal first . Wound SklII Treatment Rocovery Untreated Once wound is treated the character still suf- Type Requlred Tlme Tlme Heallng Tlme fers half the effects of the wound until the wound IS Bleeding Frst Ald turn fully healed. Strenuous activity while in recovery Grazing First Aid minute day week runs the risk of ruining the treatment and reopening Minor MedTech 30 minutes 106 days 106 weeks the wounds Serious Surgery W 10 minutes 106 weeks 606 weeks AIl medical treatment Action Checks have Critlical Surgery WV 15 minutes 206 weeks ficulty moditier equal t0 the wound value of the Deadly Surgery WV 20 minutes 106+4 months wound being treated_ Otherwise the usual modi: fiers for conditions and actions apply t0medical treatment just as they apply to all Action Checks allowed t0 heal Head: Large , ugly scar Unattractive Trait] Kound not treated successfully Or the character will be afilicted with permanent effccts Leg: Broken bonc knitted in bad position (-1 untrealed meter t0 all movernent rales] based on the location of the wound, as listed below: not using the hit location rules roll on the Hit Location Table (p. 1221 t0 Serious Wound find location for the wound so the lasting effects can be deter- Treatment of Serious Wounds requires thc Surgery Skill mined (plus the player will Knox where tne scar IS)- and considerable Tecovort time Human The specific effects for failed treatment /natural healing are recuperative powers remarkable nowever. and the bleeding ocation. The stanched even described the following sections body Serious Wound WIll heal Oun Even gamemaster should add additional effects when"
+          }
+        ]
+      },
+      "metadata": {
+        "books_count": 1,
+        "top_sources": [
+          {
+            "source_file": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+            "profile_file": "data/lore/mechwarrior_3e/derived_rules/battletech_1715_mechwarrior_3rd_edition_rules_profile.json",
+            "priority": "support",
+            "score": 26,
+            "confidence": 1.0,
+            "page_refs": [
+              5,
+              74,
+              72,
+              68,
+              64,
+              6,
+              225,
+              224
+            ],
+            "excerpt": "[PDF_PAGE 5 | score=7] CREDItS CREDITS Cover Art Marc Gabbana Cover Design John Bridegroom Illustrations Tom Baxa Doug Chaffee Les Dorschied Mark Gibbons Scott James Dave McKay Jim Nelson Matthew Plog Matt wilson Color Section Kevin McCann Additiona Work: Joel Biske John Bridegroom Les Dorschied Fred Hooper Jeff Laubenstein David Martin Chris Moeller Jim Nelson Mike Nielsen Matt Wilson Graphic Design John Bridegroom Jim Nelson BattleTech: Camille The Godmothe \" Kicin Dave Goliball\" Mescher Hen IckY Jonnson Damon Nnjar Burrus, Ed Ronin @enrensen Rod Rice ILamal Noiwcog David Walker; Kitrdatck Pack: Herbert Beas_ JJamc' Jamon Amig qu Ie Fletchi- Fletcher, Kevin Daeiley Heatner Tonnsion David CelticRogue' Shenidan: 3ovenin AnMl Grovo SLDF: Nadin Brzezinski, Unomas ApboTt Solornton Goren Franx Darbe . Eric Swan Gub Jim Apolegarth: The Simgapore Longshoremen sDOnsored Adveniure Gan CS Plus- Drew Collis. Fvans Scolt Hopkins Wonn Kelman Gary Larson Dcick Mancnester Tnomas Mchanon: City Mechivarrirs Lencaril Rich Darr; Brian Golightly Pnil Glottelty Game Design Bryan Nystul Writing Game and Source Material Bryan Nystul Christoffer Trossen Chris Hartford Loren Coleman Diane Piron-Gelman Randall N_ Bills Christopher Hussey Dan Flake Grendell Herbert A. Beas Brief History of the Inner Sphere Michael Stackpole Diane Piron-Gelman By The Numbers Loren Coleman Spoclal Thanks the creaiors BartieTech; Jordan Wcismar Ross Bubcocr and tne olner desirners Lhe first nd Second editons Alchwarnoc Walicr Funt Evan Jamieson Ricnard MelerMiae Nsit _ Lesier Smith and Kevin Stein. Tnis would? nail OceM cossinle mnoui You BatlleTech anc Mechwarnor novelists Khose thrilling stories @o *ell 02,onc board game and really bring Mniveisu Robeft Cnanele Loren Coleman Unomas Gressman_ Andrer Keith, #illam Keitn Stephen ~Lnson Ch\n[PDF_PAGE 74 | score=3] Name Special Forces Operative Tich MARRIOR Afliliation Capellan Confederation Age 23 Height 1.72 m Weight 74 kg character Recod Seet THIRD EDITION ATTRIBUTES TRAITS Value Mod_ Max: Alternate Identity Fast earner Brave Good Repulation: Indicass in CC Strength Commission/Rank (1/: Sao wei olerance Body Contact In For Lite ; Death Commandos Dexterity Enery: Triad on Betelgeuse Wealin Reflexes Enery (3): FS MIIO (Intelligerce) Well-Equipped (2) Intelligence Exceptiona Amtribute: Edge Willpower Charisma GoMBAT INFORMATION BIT Location DIAGRAM Edge Fill in Armor Type (A B. Armor and Wounds per L ocation Social Standing Type A: Ballistic Plare Vest AV (MBIEIX) 4 /6 /5 /4 ype B: Corna: Helmer AV (MBVEIX) 5 /6 /5 /2 8\" SKILLS Type AV (MBIEIX) Type D: AV (MB/EIX) Name Bonus # Blzte Faligue Career Soldier Fatigues WIL KW CareerfTri- D Projector Salesman TN per Fatigue> WIL KIXC Unconscious Fatique = (2 * WIL) 7 Demolitions Disguise Wounds Fast Talk 17-18 Llog First Aid Grazing Wounds (WV 11: Free all Minor Wounds (WV 21; TN ea Gunnery Laser /Space Serious Wounds (WV 4: +2 TN ea Irxeres Entettainment Critical Wounds (WV 8): +3 TN ea Jump Pack Deadly Wounds (WV 161: Knockout Language English Total Wound Value ol all Wounds: LanguagelMandarin (Chinese} total Wound Value (BOD+WIL , Dying Language Russian Hi Locaiion fIl 0i Crtical Hit AV-T Warlal Arts Gung Fu Dodge Sweep Weapon Style Weapons AP-Dmg Type Range Shots Notes Martial Aris Military Aulc-Pistol 406 ( 20 / 45 /105 Neck Jab F Jamanafumile Haymaker : Federared Long Rille '506 / 85 /205 0450 NavigationvGround Feception Knite C8 Blasling Bloc-$ 006 Biast (hall (adius) Pistols Submachine Gun 306 7 16 Jan ona Ilinjle. Cuickdraw Riles ~Burst | 10v31 Recoil Compensalion icluded Sequrily Systems MiSCELLaNEOUS EQUIPMENT AND INFORMATION"
+          }
+        ]
+      },
+      "downtime": {
+        "books_count": 1,
+        "top_sources": [
+          {
+            "source_file": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+            "profile_file": "data/lore/mechwarrior_3e/derived_rules/battletech_1715_mechwarrior_3rd_edition_rules_profile.json",
+            "priority": "support",
+            "score": 12,
+            "confidence": 1.0,
+            "page_refs": [
+              71,
+              101,
+              85,
+              136,
+              108,
+              96,
+              9,
+              8
+            ],
+            "excerpt": "[PDF_PAGE 71 | score=3] CHARACTER CREATION FREELANCE TECHNICIAN Born on the planet Layover; you grew privileged; your father was the count/CEO of the local division of Quickscell Company: Your family sent you t0 preparatory school, where you let them down by falling in love with commoner: Though you stood by him_ you earned the enmity Of fellow noble student dis: gusted by your slumming: In a attempt to raise your standards your parents sent you t0 the prestigious New Avalon Institute Science_ Having grown around vehicles you had natural fascination with machines, so you majored in that subject: School went well; your professor excelled in his field, and you went shooting weekends with your friends at Ine New Avalon Military Academy: You also indulged your love poetry visiting Avalon City's famed Ink District. You soon moved on t0 advanced studies in vehicle maintenance . while continuing your friendship with your buddies at NAMA Your postgraduate studies took you on tour of the major factories in the Federated Suns that produce civilian and combat vehicles. teaching you many skills you never thought you' possess; In anticipation of one day stepping into your father\"' place you took job as vehicle maintenance specialist at Kallon Industries on Nanking: Much to your shock, you hated it; Your lackluster performance ended in horrible coolant accident that permanently damaged most of your skin; You cannot tolerate direct sunlight without complete coverage for more than few hours_ Somewhat disillusioned about civil: ian jobs_ but with Iot of money from the accident settlement, you threw yourself into your first love vehicle maintenance and mastered every aspect of it. With plenty of money and no desire for standard job, you have become adept at fixing just about any vehicle and are look- ing for an\n[PDF_PAGE 101 | score=2] SKILLS Margin of Failure used as positive modifier t0 increase the Forgery Skill Check\" Characters who lack a appropriate Career Skill or Specia Interest must make an untrained Action Check, so their forgeries are unlikely to be convincing nose mounts opposed turrets and emplacements; Includes aerospace and conventional fighters, VTOLS, aerodyne DropShips and other aerodyne spacecraft. Conventional (Conv): This category includes all conven tional ground and naval vehicles (except VTOLs) . including stat ic emplacements Humanoid: This category represents weapons built-in on humanoid body; which includes BattleMechs and battle armor: Space= This category includes spacecraft that fire theii weapons from turrets and emplacements as opposed t0 fixec mounts includes JumpShips WarShips and spheroic DropShips_ FREE FALL This skill is used to safely steer and land in ay free fall situation, including parachuting and Battlel Mecn combat drops_ Modifiers should be applied to the roll for lighting conditions as well as conditions of the area to be landed in (use this skill in place of Piloting when using the Dropping Troops rules Battle Tech Master Rules 72). successful Skill Check results in an on-target landing with no injury: Failure results in off-target landing and damage as trom fall from number of meters equal to the Margin of Failure see Falling; 120). Gunnery / Ballistic This subskill is used for direct-fire weapons that inflict theil damage using bullet or shell_ including autocannons gauss rifles and machine guns Tube artillery uses the Artillery Skill; not this subskill: GAMBLING The Gambling Skill gives character working knowledge of games of chance and helps him cheat or detect cheating tnem; successful Gambling Action Check enables character to cheat during such game"
+          }
+        ]
+      }
+    }
+  }
+}

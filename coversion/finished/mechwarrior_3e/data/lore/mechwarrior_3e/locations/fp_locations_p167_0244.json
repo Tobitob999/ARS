@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "locations_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "locations",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "The planetary capital of for every major power",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 167,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:00Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_locations_p167_0244",
+    "entity_type": "locations",
+    "name_guess": "The planetary capital of for every major power",
+    "breadcrumb_path": "Rules Compendium > Page 167 > locations > The planetary capital of for every major power",
+    "page_refs": [
+      167
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "The planetary capital of for every major power save the Capellan Confederation, as well Avalon City home t0 the Royal Court and t0 one of the Inner as the center 0f long-ago coup attempt. Arable Iand is scarce_ Sphere best known research facilities, the New Avalon limited to the Melrose Valley and the terraced hillsides around Institute ot Science (NAISI- Maria Elcgy: the planetary capital: AIl five of New Avalon $ continents teem with native and Terran life New Avalon wheat is stapie Crod throughout the 188"
+  }
+}

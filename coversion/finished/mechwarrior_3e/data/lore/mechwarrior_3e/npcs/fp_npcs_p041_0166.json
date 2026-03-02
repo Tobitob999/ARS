@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Scientist caste characters follow the University Path; technicians",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 41,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:52Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p041_0166",
+    "entity_type": "npcs",
+    "name_guess": "Scientist caste characters follow the University Path; technicians",
+    "breadcrumb_path": "Rules Compendium > Page 041 > npcs > Scientist caste characters follow the University Path; technicians",
+    "page_refs": [
+      41
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Scientist caste characters follow the University Path; technicians the Technical College Path_ and merchants and laborers the Trade School Path (merchants must take the Merchant Field; labor: ers cannot): MILITARY ACADEMY Cannot have Combat Paralysis Or ay of the following traits above the lowest possible Ievel: Disabled, Lost Limb Poor Hearing Poor Vision The finest warriors in the Inner Sphere graduate from the many military academies operated by the Successor States."
+  }
+}

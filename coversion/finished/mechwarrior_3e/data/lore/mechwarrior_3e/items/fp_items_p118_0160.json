@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Minor Wound Wound Value: Minor Wound is real-",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 118,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:31Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p118_0160",
+    "entity_type": "items",
+    "name_guess": "Minor Wound Wound Value: Minor Wound is real-",
+    "breadcrumb_path": "Rules Compendium > Page 118 > items > Minor Wound Wound Value: Minor Wound is real-",
+    "page_refs": [
+      118
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "Wound",
+      "damage"
+    ],
+    "excerpt": "Minor Wound Wound Value: Minor Wound is real- injury that causes significant pain ad requires medical treatment to heal properly: Examples include cracked bones_ deep cuts into muscle or slow bleeding wounds: For each Minor Wound suffered, the character applies Modifier to all TNs and stunned_ Serlous Wound Wound Value: Serious Wounds are real trouble Player characters are usually tough enough take one two of these and keep on fighting: but Serious Wounds still need prompt first-aid treat ment or the character could suffer permanent disability or even Examples include compound fractures ana damage minor organs_ After taking Serious Wound_ character stunned and must make immediate Knockout Check (see 116)."
+  }
+}

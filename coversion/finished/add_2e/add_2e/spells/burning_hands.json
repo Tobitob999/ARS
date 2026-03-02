@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "burning_hands",
+  "name": "Burning Hands",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Burning Hands (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": null,
+    "book_pages": [
+      131
+    ],
+    "pdf_pages": [
+      132
+    ],
+    "raw_block": "Burning Hands (Alteration)\nRange: 0\nComponents: V, S\nDuration: Instantaneous\nCasting Time 1\nArea of Effect: The caster\nSaving Throw: 112\nWhen the wizard casts this spell, a jet of\nsearing flame shoots from his fingertips. His\nhands must be held so as to send forth a fan-\nlike sheet of flames: the wizards thumbs\nmust touch each other and fingers must be\nspread. The burning hands send out flame\njets of five-foot length in a horizontal arc of\nabout 120 degrees in front of the wizard.\nAny creature in the area of the flames suf-\nfers ld3 hit points of damage, plus 2 points\nfor each level of experience of the spell-\ncaster, to a maximum of Id3 + 20 points of\nfire damage. Those successfully saving vs.\nspell receive half damage. Flammable mate-\nrials touched by the fire bum (e.g., cloth,\npaper, parchment, thin wood, etc.). Such\nmaterials can be extinguished in the next\nround if no other action is taken."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Burning Hands",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "0",
+      "components": "V, S",
+      "duration": "Instantaneous",
+      "casting_time": null,
+      "area_of_effect": "The caster",
+      "saving_throw": "112",
+      "description_excerpt": "When the wizard casts this spell, a jet of searing flame shoots from his fingertips. His hands must be held so as to send forth a fan- like sheet of flames: the wizards thumbs must touch each other and fingers must be spread. The burning hands send out flame jets of five-foot length in a horizontal arc of about 120 degrees in front of the wizard. Any creature in the area of the flames suf- fers ld3 hit points of damage, plus 2 points for each level of experience of the spell- caster, to a maximum of Id3 + 20 points of fire damage. Those successfully saving vs. spell receive half damage. Flammable mate- rials touched by the fire bum (e.g., cloth, paper, parchment, thin wood, etc.). Such materials can be extinguished in the next round if no other action is taken."
+    },
+    "quality_flags": [
+      "missing_standard_fields"
+    ]
+  }
+}

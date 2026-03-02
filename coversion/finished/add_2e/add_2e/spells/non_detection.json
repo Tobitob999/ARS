@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "non_detection",
+  "name": "Non-Detection",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Non-Detection (Abjuration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "third",
+    "book_pages": [
+      152
+    ],
+    "pdf_pages": [
+      153
+    ],
+    "raw_block": "Non-Detection (Abjuration)\nRange: Touch\nComponents: V, S, M\nDuration: 1 hour/level\nCasting Time: 3\nArea of Effect: 1 creature or item\nSaving Throw: None\nBy casting this spell, the wizard makes the\ncreature or object touched undetectable by\ndivination spells such as clairuudience,\nclairvoyance, locate object, ESP, and detect\nspells. It also prevents location by such\nmagical items as crystal balls and ESP me-\ndallions. It does not affect the know align-\nment spell or the ability of intelligent or\nhigh-level beings to detect invisible crea-\ntures. If a divination is attempted, the non-\ndetection caster must roll a saving throw vs.\nspell. If this is successful, the divination\nfails.\nThe material component of the spell is a\npinch of diamond dust worth 300 gp."
+  },
+  "mechanics": {
+    "school_or_type": "Abjuration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Non-Detection",
+      "canonical_name_guess": null,
+      "school_or_type": "Abjuration",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "1 hour/level",
+      "casting_time": "3",
+      "area_of_effect": "1 creature or item",
+      "saving_throw": "None",
+      "description_excerpt": "By casting this spell, the wizard makes the creature or object touched undetectable by divination spells such as clairuudience, clairvoyance, locate object, ESP, and detect spells. It also prevents location by such magical items as crystal balls and ESP me- dallions. It does not affect the know align- ment spell or the ability of intelligent or high-level beings to detect invisible crea- tures. If a divination is attempted, the non- detection caster must roll a saving throw vs. spell. If this is successful, the divination fails. The material component of the spell is a pinch of diamond dust worth 300 gp."
+    },
+    "quality_flags": []
+  }
+}

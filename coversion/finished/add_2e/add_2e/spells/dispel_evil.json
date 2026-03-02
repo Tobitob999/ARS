@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "dispel_evil",
+  "name": "Dispel Evil",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Dispel Evil (Abjuration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "fourth",
+    "book_pages": [
+      222
+    ],
+    "pdf_pages": [
+      223
+    ],
+    "raw_block": "Dispel Evil (Abjuration)\nReversible\nSphere: Protection, Summoning\nRange: Touch\nComponents: V, S, M\nDuration: 1 round/lwel\nCasting Time: 8\nArea of Effect: Creature touched\nSaving Throw: Neg.\nThe priest using this spell causes a sum-\nmoned creatude of wil nature, an evil crea-\nture from another plane, or a creature\nsummoned by an evil caster, to return to its\nown plane or place when the caster success-\nfully strikes it in melee combat. (Examples\nof such creatures are aerial servants, djinn,\nefreet, elementals, and invisible stalkers.)\nAn evil etlchantment (such as a chum spell\ncast by an evil creature) that is subject to a\nnormal dispel magic spell can be automati-\ncally dispelled by the dispel mil spell. Note\nthat this spell lasts for a maximum of one\nround for pach experience level of the caster,\nor until expended. While the spell is in ef-\nfect, all creatures that could be affected by it\nattack with a -7 penalty to their attack\nrolls when engaghg the spellcaster.\n222"
+  },
+  "mechanics": {
+    "school_or_type": "Abjuration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Dispel Evil",
+      "canonical_name_guess": null,
+      "school_or_type": "Abjuration",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "1 round/lwel",
+      "casting_time": "8",
+      "area_of_effect": "Creature touched",
+      "saving_throw": "Neg.",
+      "description_excerpt": "The priest using this spell causes a sum- moned creatude of wil nature, an evil crea- ture from another plane, or a creature summoned by an evil caster, to return to its own plane or place when the caster success- fully strikes it in melee combat. (Examples of such creatures are aerial servants, djinn, efreet, elementals, and invisible stalkers.) An evil etlchantment (such as a chum spell cast by an evil creature) that is subject to a normal dispel magic spell can be automati- cally dispelled by the dispel mil spell. Note that this spell lasts for a maximum of one round for pach experience level of the caster, or until expended. While the spell is in ef- fect, all creatures that could be affected by it attack with a -7 penalty to their attack rolls when engaghg the spellcaster. 222"
+    },
+    "quality_flags": []
+  }
+}

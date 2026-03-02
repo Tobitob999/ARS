@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "ed by physica Iabor Though they often lack",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 190,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:14Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p190_0686",
+    "entity_type": "history",
+    "name_guess": "ed by physica Iabor Though they often lack",
+    "breadcrumb_path": "Rules Compendium > Page 190 > history > ed by physica Iabor Though they often lack",
+    "page_refs": [
+      190
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "ed by physica Iabor Though they often lack the forma educa The Clan lega system reflects the warrior caste promi- tion of other castes laborers are nonetne less highly skilled nence , generally favoring warriors over civilians in cases where tneir areas and play vital role in Clan society: they are pitted against each other. In the most Obvious advan tage warrior can attempt t0 escape guilty verdict by fignting Dark (Bandit) Caste Trial of Refusal against it. If he wins this single combat; the Occasionally; misfit individual expelled from Clan soci- verdict is nullified."
+  }
+}

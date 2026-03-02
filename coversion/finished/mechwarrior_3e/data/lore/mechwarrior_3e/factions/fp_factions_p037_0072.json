@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "category": "factions_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "factions",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Clan Characters: In Stage trueborn characters who have",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 37,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:50Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_factions_p037_0072",
+    "entity_type": "factions",
+    "name_guess": "Clan Characters: In Stage trueborn characters who have",
+    "breadcrumb_path": "Rules Compendium > Page 037 > factions > Clan Characters: In Stage trueborn characters who have",
+    "page_refs": [
+      37
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "2 M",
+      "3 M"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Clan Characters: In Stage trueborn characters who have not washed out of training must take the Trueborn Sibko Path Freeborn characters who want t0 become warriors must enter the Freeborn Sibko Path Other freeborn characters con- tinue their upbringing by taking Clan Apprenticeship_ except for dark caste characters_ who follow the norma path rules tor Inner Sphere characters beyond Stage CLAN APPRENTICESHIP Clan Affiliation only The Clan civilian caste places considerable emphasis on vocational training along with traditional knowledge-based edu- cation; The most common form the apprenticeship where child works alongside knowledgeable tradesman for several hours each day: Attribute Mlnlmums: Scientist caste INT 4; technician caste, DEX 4; merchant caste, CHA laborer caste , BOD Skills: Academic /Clan History +1_ Administration +1 Interest /Any +1 and two other skills by caste: scientist; Academic Any +2 MedTech +1; technician; Technician / Any 2, Scrounge +1; merchant: Negotiation Appraisal laborer: Career /Any +2, Computers +1 Next Path: Scientist caste University (31; technician caste: Technical College (3); merchant caste: Trade School (3 Merchant Field only); laborer caste: Trade School (3 not Merchant Field) BACK WOODS Perhaps you grew Up in the wilderness or ran away from your family: Maybe you washed out of your sibko and fled to the bandit caste."
+  }
+}

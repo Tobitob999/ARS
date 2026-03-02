@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "rope_trick",
+  "name": "Rope Trick",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Rope Trick (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "second",
+    "book_pages": [
+      145
+    ],
+    "pdf_pages": [
+      146
+    ],
+    "raw_block": "Rope Trick (Alteration)\nRange: Touch\nComponents: V, S, M\nDuration: 2 turns/level\nCasting Time: 2\nArea of Effect: Special\nSaving Throw. None\nWhen this spell is cast upon a piece of\nrope from five to 30 feet long, one end of the\nrope rises into the air until the whole hangs\nperpendicular, as if affixed at the upper end.\nThe upper end is, in fact, fastened to an ex-\ntradimensional space. The spellcaster and\nup to seven others can climb up the rope and\ndisappear into this place of safety where no\ncreature can find them. The rope can be\ntaken into the extradimensional space if\nfewer than eight persons have climbed it,\notherwise it simply stays hanging in the air\n(extremely strong creatures might be able to\nremove it, at the DMs option). Spells can-\nnot be cast across the interdimensional,in-\nterface, nor can area effects cross it. Those\nin the extradimensional space can see out of\nit as if there is a 3' x 5' window centered on\nthe rope. The persons in the extradimen-\nsional space must climb down prior to the\nend of the spell, or they are dropped from\nthe height at which they entered the extradi-\nmensional space. The rope can be climbed\nby only one person at a time. Note that the\nrope trick spell enables climbers to reach a\nnormal place if they do not climb all the way\nto the extradimensional space. Also note\nthat creating or taking extradimensional\nspaces into an existing extradimensional\nspace is hazardous.\nThe material components of this spell are\npowdered corn extract and a twisted loop of\nparchment."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Rope Trick",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "2 turns/level",
+      "casting_time": "2",
+      "area_of_effect": "Special",
+      "saving_throw": null,
+      "description_excerpt": "Saving Throw. None When this spell is cast upon a piece of rope from five to 30 feet long, one end of the rope rises into the air until the whole hangs perpendicular, as if affixed at the upper end. The upper end is, in fact, fastened to an ex- tradimensional space. The spellcaster and up to seven others can climb up the rope and disappear into this place of safety where no creature can find them. The rope can be taken into the extradimensional space if fewer than eight persons have climbed it, otherwise it simply stays hanging in the air (extremely strong creatures might be able to remove it, at the DMs option). Spells can- not be cast across the interdimensional,in- terface, nor can area effects cross it. Those in the extradimensional space can see out of it as if there is a 3' x 5' window centered on the rope. The persons in the extradimen- sional space must climb down prior to the en"
+    },
+    "quality_flags": [
+      "missing_standard_fields"
+    ]
+  }
+}

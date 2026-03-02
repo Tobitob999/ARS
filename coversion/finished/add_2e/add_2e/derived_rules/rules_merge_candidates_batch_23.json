@@ -1,0 +1,1236 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_merge_candidates",
+  "tags": [
+    "add_2e",
+    "merge",
+    "candidates",
+    "batch_23"
+  ],
+  "summary": "Kompakte Merge-Kandidaten pro ARS-Skeleton-Feld aus Top-Evidenzprofilen abgeleitet.",
+  "source_text": {
+    "digest_file": "data/lore/add_2e/derived_rules/rules_field_digest_batch_19.json",
+    "timestamp": "2026-03-02T14:15:00"
+  },
+  "mechanics": {
+    "fields": {
+      "combat": [
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Player's Option - Combat & Tactics.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_player_s_option_combat_and_tactics_rules_profile.json",
+          "priority": "permanent",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Unarmed Combat \\lo character is entirely helpless while still conscious and free to move.",
+            "Im- provised weapons such as iron spikes and chairs often lie within easy reach, and a blow from a fist often can be as telling as a dagger thrust.",
+            "Brawling is generally less deadly to the defender than armed combat, but it does, however, carry its own risks.",
+            "Brawling Attacks Against Armed Opponents Any brawling attack provokes an attack of opportunity from any and all opponents who are armed and threat- ening the assailant."
+          ]
+        },
+        {
+          "source_file": "Player s Handbook (2nd Edition) 2101.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/player_s_handbook_2nd_edition_2101_rules_profile.json",
+          "priority": "permanent",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "The AD&W game is an adventure game de- signed to give players a feeling of excitement and danger.",
+            "Characters brave the unknown perils of moldering dungeons and thorn- covered wilderness, facing off against hid- eous monsters and evil villains.",
+            "Thus, it is important for all players to know the basic To create the proper sense of danger and excitement, the rules for combat must be thorough, but they must also be playable and exciting enough to create a vivid picture in the minds of the players.",
+            "Combat in the ADhD game has to allow many different actions and outcomes-as many as the imagination can produce."
+          ]
+        },
+        {
+          "source_file": "player_handbook_2e.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/player_handbook_2e_rules_profile.json",
+          "priority": "permanent",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "The AD&W game is an adventure game de- signed to give players a feeling of excitement and danger.",
+            "Characters brave the unknown perils of moldering dungeons and thorn- covered wilderness, facing off against hid- eous monsters and evil villains.",
+            "Thus, it is important for all players to know the basic To create the proper sense of danger and excitement, the rules for combat must be thorough, but they must also be playable and exciting enough to create a vivid picture in the minds of the players.",
+            "Combat in the ADhD game has to allow many different actions and outcomes-as many as the imagination can produce."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Encyclopedia Magica Volume 1.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_encyclopedia_magica_volume_1_rules_profile.json",
+          "priority": "permanent",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Heartseeker Bow Fire Teeth XP Value: 750 GP Value: 5,000 DRAGON Magazine 127 When fired, this bow ignites any arrow it shoots.",
+            "In addition to regular damage, the arrow causes 1 d6 hit points of fire damage.",
+            "magical fire if shot from this bow; if they fail the save, they catch fire and lose all magical enchant- ments as they leave the bow.",
+            "If they save, magical arrows perform normally."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Priest Spell Compendium Volume 2_text.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_priest_spell_compendium_volume_2_text_rules_profile.json",
+          "priority": "permanent",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "~ Hurl Thunderbolt r the grenade-like missile table in the DMG to determine the point of impact.",
+            "The caster can move up to 2 cubic feet of rock per level.",
+            "Rocks that are too large are felt as such; the priest can choose another rock in the same round.",
+            "If the second rock it is also too large, the spell is wasted."
+          ]
+        }
+      ],
+      "economy": [
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Encyclopedia Magica Volume 1.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_encyclopedia_magica_volume_1_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Balcombe agreed, only then discovering that Hiddukel required him to trap the life forces of Krynn's folk in magic jars and feed them to the insatiable god.",
+            "Hiddukel planned, at the next opportune stellar conjunc- tion, to draw the life forces from the jars and feast upon them.",
+            "As might be expected, Balcombe was killed in the commission of his duties, and the coin found its way into the pack of one Tasslehoff Bunfoot.",
+            "The coin of luck acts as a luckstone, occasion- ally adding a bonus of+2 to any die roll (roll 1d6: odd = +2, even = +0)."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Encyclopedia Magica Volume 2.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_encyclopedia_magica_volume_2_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Gem, Bupu's Emerald 73-78 Soapstone (9 sp) 79 Star Metal (10,000 gp) 80-85 Sulabra (7 sp) 86-91 Tempskya (1 gp) 92-95 Turritella (8 sp) 96-00 Xylopal (22 sp) RoU Shell Type 01-05 Abalone, Red (10 gp) 06-07 Abalone, Green (25 gp) 08-14 Black Helmet (45 gp) 15-2..."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Encyclopedia Magica Volume 4.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_encyclopedia_magica_volume_4_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "\" weapon down does not solve the problem, because it may not like being left on its own.",
+            "When the claus trophobic weapon resu lt is rolled on the modom item chart, the OM should roll another effect and combine the results.",
+            "of Concealed Wizard r y'\" XPValue : +300 GPVa lue: +1,500 Land of Fale This weapon's magica l nature is concealed by enchantment s desi aned 10 cloak its true nature.",
+            "The weapon does nOI respond to detect magic or similar spells, but a legend lore or identify spe ll, or the legend [ore ability of the rawun or harber, can reveal some of its magical nature."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Player's Option - Spells & Magic.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_player_s_option_spells_and_magic_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Equipment Table 16: &pell Components Models and Miniatures Item Acquisition Scarcity Bag, tiny SO, TM Common Balance, golden SO Rare Bell, golden SO Uncommon Bell, tiny SO, TM Common Blade, knife TM Common Bust of caster, tiny SO Rare Cage, silver wire SO Rare..."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Encyclopedia Magica Volume 3.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_encyclopedia_magica_volume_3_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "or ,a.Sinll SO 0< more points of dama,a.",
+            "of .mn ke powder can be comb ined 10 en\",\" billS\"\", '\"\"'\" <hmasing ..",
+            "lu,,250 CI'\\ 'a,uo: 750 IlaAooM J.Upzin< 11 Whc.-n • ~\"\"'\" oondl, i.",
+            "Thi' iK\"'d<1\" canrlOI 'Uf<, mallical .mk.i\"\"\" Solo C umin Sflod Xr\\ 'ol\"., 100 cr \\ 'ol\"t: 3OO Ilo..ooOON M,p\"\"\" JJ When 'prin klcd in the doorway of one's dwell,.\" ,hi."
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "source_file": "Player s Handbook (2nd Edition) 2101.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/player_s_handbook_2nd_edition_2101_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "within a range of 10 feet per experience level of the bard.",
+            "Once theeffect wears off, it can't be renewed if the pectpients are still in battle.",
+            "However, troops who have withdrawn from combat can be reinspired by the bards words.",
+            "A troop of soldiers, inspired by Cwell, could charge into battle."
+          ]
+        },
+        {
+          "source_file": "player_handbook_2e.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/player_handbook_2e_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "within a range of 10 feet per experience level of the bard.",
+            "Once theeffect wears off, it can't be renewed if the pectpients are still in battle.",
+            "However, troops who have withdrawn from combat can be reinspired by the bards words.",
+            "A troop of soldiers, inspired by Cwell, could charge into battle."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Player's Option - Spells & Magic.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_player_s_option_spells_and_magic_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Chapter 3 Powers rules, you can assign the ranger an experience point penalty of 30% plus 1% per point spent.",
+            "If a ranger chooses access to two additional spheres totalling 8 points, his total penalty would be 30% + 13%, or 43%.",
+            "If the DM awards 2,000 experience points for an adventure, the ranger would gain 860 less than normal, only collecting 1,140 experience points.",
+            "This experience penalty will counter some of the character's unusual advantages."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - PHBR03 - The Complete Priest's Handbook.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_phbr03_the_complete_priest_s_handbook_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "I Priest Kits 1 In the last chapter, you were con- ronted with over sixty different riest character classes to choose rom.",
+            "Certainly, that range of hoices will make it easy for your o individualize your pnest charac- er - to make him different from the rest of the campaign's clerics.",
+            "1 In this chapter, we'll make that ken easier.",
+            "i You can further customize your iest by taking a priest kit for A kit is a collection of skills, ciencies, restrictions, benefits hindrances which give the est more background and per- further define his role in paign and in the cam- s cultures, and give him..."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Priest Spell Compendium Volume 2_text.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_priest_spell_compendium_volume_2_text_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "~ Reincarnation Sight - Vedic Karma Points Indian society is founded upon the concepts of future incarnations of a character from that culture, They are gained or lost depending on how exactly a character fulfills his or ber dharma requirements, Each character...",
+            "A character's dharma is determined by alignment and class, Both sets of tenets must be fol- lowed; significant violations of either cost a karma penalty of one point.",
+            "Dual-class or multi-class charac- ters fol ~ Mindnet r ‘The priest can force the subject into combat, but the subject's attack rolls suffer a -2 penalty."
+          ]
+        }
+      ],
+      "senses": [
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Encyclopedia Magica Volume 2.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_encyclopedia_magica_volume_2_rules_profile.json",
+          "priority": "support",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Lamp of Darkness increasingly secretive about it.",
+            "This obsession with the lanthorn will become a form of paranoia as the owner becomes con- vinced that \"they\" want to kill him or her and steal the lanthorn.",
+            "Daoud's wondrous lanthorn is an artifact of great power and worth a vast sum if sold.",
+            "It is known that an offer of 160,000 gp was made for the device, but with just four of the seven prisms available."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Citadel of Light_text.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_citadel_of_light_text_rules_profile.json",
+          "priority": "support",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "If they wish, they can develop one or more of them into miniadventures with a little work.",
+            "Otherwise, they can sit down with the involved players and add ele- ments of these scenarios to the heroes' backgrounds to get them ready to begin A Light in the Darkness.",
+            "Of course, Narrators and players are welcome to come up with recruitment scenarios of their own.",
+            "Mysticism by Egample While adventuring, heroes often find themselves in situations where some- one could lose his or her life unless a little outside help arrives."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Encyclopedia Magica Volume 1.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_encyclopedia_magica_volume_1_rules_profile.json",
+          "priority": "support",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Disintegration Chamber formed of alternating projections of the silvery and ebon metals spreading to form eight legs.",
+            "The whole object is about a foot tall and just over half as broad, with a weight of between three and four pounds.",
+            "Although the dicerion of light and darkness gives off a faint dweomer of its own, it must have specially manufactured candles to function magically.",
+            "A pair of candles must be made from the purest wax, and finely powdered obsidian must be set in alternating layers within the wax."
+          ]
+        },
+        {
+          "source_file": "Player s Handbook (2nd Edition) 2101.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/player_s_handbook_2nd_edition_2101_rules_profile.json",
+          "priority": "support",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Vision and Light (Light) I though on a clear day woods may hide a bear until he is 30 yards away, it is still a clear day for visibility.",
+            "The bear, once seen, can be quickly and easily identified as a bear.",
+            "The DM has more information on spe- cific terrain effects on sighting.",
+            "As a final caveat, the ranges in Table 62 assume Earth-like conditions."
+          ]
+        },
+        {
+          "source_file": "player_handbook_2e.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/player_handbook_2e_rules_profile.json",
+          "priority": "support",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Vision and Light (Light) I though on a clear day woods may hide a bear until he is 30 yards away, it is still a clear day for visibility.",
+            "The bear, once seen, can be quickly and easily identified as a bear.",
+            "The DM has more information on spe- cific terrain effects on sighting.",
+            "As a final caveat, the ranges in Table 62 assume Earth-like conditions."
+          ]
+        }
+      ],
+      "time": [
+        {
+          "source_file": "Player s Handbook (2nd Edition) 2101.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/player_s_handbook_2nd_edition_2101_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "I As in the real world, time passes in all AD&W game worlds.",
+            "Weeks slip away as wizards research spells.",
+            "Days go by as char- acters ride across country.",
+            "There are two different types of time that are talked about in rhm rules."
+          ]
+        },
+        {
+          "source_file": "player_handbook_2e.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/player_handbook_2e_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "I As in the real world, time passes in all AD&W game worlds.",
+            "Weeks slip away as wizards research spells.",
+            "Days go by as char- acters ride across country.",
+            "There are two different types of time that are talked about in rhm rules."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Priest Spell Compendium Volume 2_text.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_priest_spell_compendium_volume_2_text_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Revitalize Animal - Ranger 0 4 Level: 3 Range: Touch Reverse Fossilization Components; V, S, M Casting Time: 1 (Enchantment) Sphere: Combat Duration: 5 rds./level Area of Effect: Weapon(s) touched Saving Throw: None This spell causes stone weapons to become eq...",
+            "‘This spell is not as potent as stoneiron, but is far more common on Athas.",
+            "One large weapon or two small weapons can be enchanted by a single casting of this spell; missiles lose their enchantment when used.",
+            "‘The material component is a piece of fossilized bone, Notes: Uncommon for priests from the DARK SUN setting."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Priest Spell Compendium Volume 1.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_priest_spell_compendium_volume_1_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Bear Hug \\ caster provides a +I bonus, a 4th-level caster a +2 bonus, a 7th level caster a +3, and so on to a maxi- mum of +5 for a 13th-level priest.",
+            "The exact form of the aid or assistance varies from round to round-roll Id6 to see which aspect of the sub- ject's combat abilities are affected in any given round.",
+            "ld6 Effect 1 Nothing happens 2 3 4 5 6 Defenses enhanced, apply bonus to subject AC Luck enhanced, apply bonus to saving throws Accuracy enhanced, apply bonus to attack rolls Damage enhanced, apply bonus to damage rolls Lucky opening!",
+            "Subject gains one extra attack with either enhanced accuracy or damage (subject's choice) An individual who does not make a roll of the specified typ all information about the item has been gained 01 the spell duration expires."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Wizards Spell Compendium Volume 1_text.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_wizards_spell_compendium_volume_1_text_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Demishadow Monsters (Ilusion/Phantasm) (Shadow) Level: 5 Range: 30 yds.",
+            "Components: V, S Casting Time: 5 Duration: 1 rd./level Area of Effect: 20-ft.",
+            "cube Saving Throw: Special This spell is similar to the 4th-level spell shadow monsters, except that the monsters cre- ated are effectively 40% of normal hit points.",
+            "If the saving throw is made, their damage potential is only 40% of normal and their Armor Class is 8."
+          ]
+        }
+      ],
+      "alignment": [
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Encyclopedia Magica Volume 4.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_encyclopedia_magica_volume_4_rules_profile.json",
+          "priority": "support",
+          "confidence": 1.0,
+          "candidate_statements": [
+            ", Weapon Intelligenc e a nd Capabilit ies Tab le RoD Int Communicates Capabilities 01-34 12 Semi-empalhic' I primary ability 35-59 13 Empathic 2 primary abilities 60--79 14 Speech' 2 primary abilities 80-91 15 Speech' 3 primaryabilitics' 1}2-97 16 Speech' ) pr...",
+            "or other se nsation) and feels com pell ing urges when its ability functions.",
+            "%e weapon speaks the charneter's native tongue plus one or more other tongues as indicated on Spoken Languages Table below.",
+            "'The weapon can use either communication modc at will ; wi th language use as any speaki ng 3."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - PHBR03 - The Complete Priest's Handbook.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_phbr03_the_complete_priest_s_handbook_rules_profile.json",
+          "priority": "support",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Sample Priqsthogds -- Good (Philosophy) Just as evil thoughts and deeds create evil energies (see Evil, p.",
+            "good thoughts and deeds cre- ate good energies, resulting in priests of the philosophy of Good.",
+            "The goal of these priests is to counter the spread of evil through- out the universe.",
+            "They work pri- marily to anticipate the deeds of evil beings, head them off, and counter them whenever possible."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Tales of the Lance.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_tales_of_the_lance_rules_profile.json",
+          "priority": "support",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "turn the bearer can also cast suggestion on anyone.",
+            "These suggestions are used to sew dissent and discord.",
+            "The coin can create an anti-magic area with a 20 foot radius at Hiddukel's will.",
+            "Hiddukel summons this ability to place his minion at a disadvantage so that he must bargain further with the god of betrayal for his life."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Monstrous Compendium Volume 1.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/monstrous_compendium_vol1_rules_profile.json",
+          "priority": "support",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Imp Quasit CLIMATETERRAIN: Any FREQUENCY: rare rare ORGANIZATION: Solitary Solitary ACTIVITY CYCLE: Any DIET: Carnivore Carnivore INTELLIGENCE: Average Low TREASURE: Qx3 ALIGNMENT: Lawful evil Chaotic NO.",
+            "APPEARING: ARMOR CLASS: MOVEMENT: 6 , Fl 18 (A) 15 HIT DICE: 2+2 THACO: 19 17 NO: OF ATTACKS: DAMAGEIATTACK: 1-4 1-2/1-2/1-4 SPECIAL ATTACKS: See below See below SPECIAL DEFENSES: See below See below MAGIC RESISTANCE: 25 % 25 % SIZE: T (2' tall) T (2' tall) MO...",
+            "When encountered there is an even chance may be already hired and on their way to a war, rendezvousing a prospective employer, op"
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Encyclopedia Magica Volume 1.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_encyclopedia_magica_volume_1_rules_profile.json",
+          "priority": "support",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "The bracelet itself can be used just eight times in a day; turning the bracelet into a weapon counts as one use, and turning the weapon back into a bracelet counts as one use.",
+            "If the weapon held in the bracelet's enchant- ment is called on and used, then disarmed, the character cannot call on another weapon from the bracelet.",
+            "The bracelet itself is within the weapon.",
+            "The character must retrieve the weapon first, and only then can its magic be used."
+          ]
+        }
+      ],
+      "saving_throws": [
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Priest Spell Compendium Volume 2_text.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_priest_spell_compendium_volume_2_text_rules_profile.json",
+          "priority": "permanent",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Hold Undead - Savant NÝ Hold Plant (Enchantment/Charm) Sphere: Plant Level: 4 Range: 80 yds.",
+            "Components: V, S, M Casting Time: 7 Duration: 1 rd./level Area of Effect: Special Saving Throw: Neg.",
+            "The hold plant spell affects vegetable matter as follows: 1) it causes ambulatory vegetation to cease moving; 2) it prevents vegetable matter from entwining, grasping, closing, or growing: 3) it pre- vents vegetable matter from making any sound or movement tha...",
+            "The spell effects apply to all forms of vegetation, including parasitic and fungoid types, and those magically animated or otherwise magically empowered."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Wizards Spell Compendium Volume 1_text.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_wizards_spell_compendium_volume_1_text_rules_profile.json",
+          "priority": "permanent",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Contingency Duration: 1 day/level Area of Effect: The caster Saving Throw: None By means of this spell, the wizard is able to place another spell upon his person so that the latter spell will come into effect under the condi- tions dictated during the casting...",
+            "The contingency spell and the spell it isto bring into effect are cast at the same time (the one-turn casting time indicated is the total for both castings).",
+            "The spell to be brought into effect by the pre- scribed contingency must be one that affects the Wizard's person (feather fall, levitation, fly, feign death, etc.) and be of a spell level no higher than ofthe caster's experience level (rounded down), but Age t..."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Priest Spell Compendium Volume 1.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_priest_spell_compendium_volume_1_rules_profile.json",
+          "priority": "permanent",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "incantation the priest is assumed to deliver while casting.",
+            "5“ is somatic; that is, measd and precise gestures with the hands, which the priest is assumed to make while casting.",
+            "“M is for moreria$ that is, physical substances or objects that are annihilated by the spell energies in the casting process.",
+            "This abhre- viation sometimes signifies a focus, or device that is I 1 eusahle; sometimes this is a tempmy focus whose memature destruction ends the spell."
+          ]
+        },
+        {
+          "source_file": "Player s Handbook (2nd Edition) 2101.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/player_s_handbook_2nd_edition_2101_rules_profile.json",
+          "priority": "permanent",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Appendix 2: Notes on Spells Spell Descriptions The spalls are orga- nized according to their group (Priest or Wizard) and level, starting an gage 131.",
+            "Within each level, the spells are arranged al- phabetically.",
+            "At the start of each @ de- scription are the following important game statistics: Name: Each spell is identified by name.",
+            "In parentheses after the name is the school (for wizard spells) to which that spell belongs."
+          ]
+        },
+        {
+          "source_file": "player_handbook_2e.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/player_handbook_2e_rules_profile.json",
+          "priority": "permanent",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Appendix 2: Notes on Spells Spell Descriptions The spalls are orga- nized according to their group (Priest or Wizard) and level, starting an gage 131.",
+            "Within each level, the spells are arranged al- phabetically.",
+            "At the start of each @ de- scription are the following important game statistics: Name: Each spell is identified by name.",
+            "In parentheses after the name is the school (for wizard spells) to which that spell belongs."
+          ]
+        }
+      ],
+      "attribute_bonuses": [
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Player's Option - Combat & Tactics.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_player_s_option_combat_and_tactics_rules_profile.json",
+          "priority": "support",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Monsters Hit Location Chart dlO Roll Location 1 Right foreleg/claw/wing 2 Left foreleg/claw/wing 3 Right hind leg 4 Left hind leg 5 Tail (for snakelike or fishlike monsters, 1-5 is tail hit) 6-7 Abdomen 8-9 Torso/chest 10 Head Location: Legs/Wings (1-4) Severi...",
+            "Monsters Hit Location Chart dlO Roll Location 1 Right foreleg/claw/wing 2 Left foreleg/claw/wing 3 Right hind leg 4 Left h"
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Player's Option - Skills & Powers.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_player_s_option_skills_and_powers_rules_profile.json",
+          "priority": "support",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "L Fitness bonus (10): +1 bonus to the character's fitness subability score, due to his hardy heritage.",
+            "The charac- ter's Fmess xore may be up to 5 points higher than his Health subability score.",
+            "lnfravision (10): lrhavision with a 60' range.",
+            "Mining Detection Abilities (5): A character with this skill is familiar with mining, tunneling and stonework By concentrating for one round the character can: Detect any grade or slope in the passage they are passing through, 1 on 1 d4."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Encyclopedia Magica Volume 1.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_encyclopedia_magica_volume_1_rules_profile.json",
+          "priority": "support",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Deck of Illusions of Endless Water II XP Value: 1,000 GP Value: 3,000 DUNGEON MASTER Guide, 1st Edition This stoppered flask looks ordinary but radiates the aura of magic.",
+            "If the stopper is removed, and the proper words spoken, a stream of fresh or salt water pours out, as ordered.",
+            "There are separate command words for the amount as well as the type of water.",
+            "Water can be made to come forth as follows: • Stream: pours out one gallon per round."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Player's Option - Spells & Magic.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_player_s_option_spells_and_magic_rules_profile.json",
+          "priority": "support",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Spells in Combat Wounding Hit Location Chart dlO roll Humanoid Right leg Left leg Abdomen Torso Right arm Left arm 1-2 3-4 5 6-7 8 9 10 Head dlO roll 1 2 3 4 5 6-7 8-9 10 Monster/Animal Right foreleg/wing Left foreleg/wing Right hind leg Left hind leg Tail Abd..."
+          ]
+        },
+        {
+          "source_file": "Player s Handbook (2nd Edition) 2101.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/player_s_handbook_2nd_edition_2101_rules_profile.json",
+          "priority": "support",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Time and Movement (Jogging and Running) Characters can also move faster than the normal walking pace.",
+            "In the dungeon (or anytime the character is using his dungeon movement rate) the character can automati- cally increase his movement to that of his normal walking pace.",
+            "In doing so, however, he suffers a -1 penalty to his chance of being surprised and gives a +1 bonus to others on their chance of being surprised by him (the rapidly moving character is not taking care to conceal the noise of his pas- sage in the echoing confin...",
+            "Furthermore the character does not notice traps, secret doors, or other unu- sual features."
+          ]
+        }
+      ],
+      "characteristics": [
+        {
+          "source_file": "Player s Handbook (2nd Edition) 2101.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/player_s_handbook_2nd_edition_2101_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Chapter I : Player Character Ability Scores To venture into the worlds of the AD&D@ game, you first need to create a character.",
+            "The character you create is your alter ego in the fantasy realms of this game, a make- believe person who is under your control and through whom you vicariously explore the world the Dungeon Master (DM) has created.",
+            "Each character in the AD&D game has six abilities: Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma.",
+            "The first three abilities represent the physical na- ture of the character, while the second three quantify his mental and personality traits."
+          ]
+        },
+        {
+          "source_file": "player_handbook_2e.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/player_handbook_2e_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Chapter I : Player Character Ability Scores To venture into the worlds of the AD&D@ game, you first need to create a character.",
+            "The character you create is your alter ego in the fantasy realms of this game, a make- believe person who is under your control and through whom you vicariously explore the world the Dungeon Master (DM) has created.",
+            "Each character in the AD&D game has six abilities: Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma.",
+            "The first three abilities represent the physical na- ture of the character, while the second three quantify his mental and personality traits."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Encyclopedia Magica Volume 2.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_encyclopedia_magica_volume_2_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Egg, Pink spells are usable, plus all 3rd-level alterations.",
+            "Damage per use is 4 points per spell, again regardless of level.",
+            "Further opening of the egg is impossible for any being with less than 18 Intelligence, 9% chance per hour of study with that score, and nor- mal chances (1% per point per hour) for Intelli- gence 19 and greater.",
+            "Opening damage rises by 10 points per opening thereafter (to 40 points when opening stage 4, 50 points at stage 5, and so forth), and damage per spell used rises propor- tionately (to 6 hit points, 8 hit points, and so on)."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Player's Option - Skills & Powers.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_player_s_option_skills_and_powers_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "I keen can actuallv leap 50 feet forward ,.",
+            "or 20 feet in the air, but they do not gain this ability until they reach 3rd level.",
+            "Detect new construction: The creature has natural skills for mining, and can spot new or unusual construc- tion with the percentage score noted.",
+            "This is similar to the dwatven or gnome abilities as described earlier in this chapter."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Encyclopedia Magica Volume 1.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_encyclopedia_magica_volume_1_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Danleor's Dungeon Chains cast at 5th level, A ranger or paladin who has obtained spelt-user abilities is considered a Spellcaster for purposes of this determination.",
+            "All forms of magic that are equivalent to any wizard spell (such as a monster's innate spell- like abilities or priestal spells that directly dupli- cate wizard spells) are affected by the magic of the censer of thaumaturgy.",
+            "Psionic powers, magical items, and other magical effects are not altered.",
+            "The high level effect of the censer's magic gives any spell cast the range, duration, and effectiveness as if cast by a wizard of the 18th level, but does not allow the casting of any spell the caster did not already possess."
+          ]
+        }
+      ],
+      "races": [
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - PHBR09 - The Complete Book of Gnomes and Halflings.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_phbr09_the_complete_book_of_gnomes_and_halflings_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Note that this stops well short of saying: \"A Mercenary loves to fight and kill.\" A halfling Mercenary must have ability scores of at least 13 in two of these categories: Strength, Dexterity, and Cons ti tu tion.",
+            "Roads to Adventure: It would be a rare halfling who would adopt the Mercenary life- style by choice.",
+            "Mercenaries are almost al- ways outcasts who for some reason or another have been disowned by their families and driven from their villages, forced into a life of violence and danger.",
+            "Many of them are, not surprisingly, quite bitter about this involun- tary exile."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - PHBR06 - The Complete Book of Dwarves.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_phbr06_the_complete_book_of_dwarves_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Table of Contents Introduction .......................................",
+            "4 Chapter 1; The Creation of Dwarves ..................",
+            "7 Cha ter 2: The Dwarf Subraces ......................",
+            "12 Mountain Dwarves ................................."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - PHBR08 - The Complete Book of Elves.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_phbr08_the_complete_book_of_elves_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "INFILTRATOR The Infiltrator is the very model of an elf scout.",
+            "Whether in urban or wilderness situa- tions, the Infiltrator is the master of stealth and disguise.",
+            "When elves need quick and reliable information with a minimum of fuss, they call on an Infiltrator.",
+            "The Infiltrators' motto is \"If it's a secret, it's not.\" Sometimes, the Infiltra- tor will gain information simply for the sheer joy of knowing it."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Time of the Dragon Boxset.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_time_of_the_dragon_boxset_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "P LAYER C HARACTER K ITS Character Player Uigan Quuan Priest Race: Human Sex: Male Homeland: Tamire STR HIT POINTS DEX CON INT WIS CHR ABILITIES Base Rate Hit Dmg wgt Max Op BB/ Prob Rctn Adj HP Adj No of Lang Mag Def Adjus Max No Hench Adj Allow Press Drs LG...",
+            "Quuan priests must be both strong (9 Strength minimum) and wise (9 Wisdom minimum).",
+            "Unlike other war PLAYER C HARACTER K ITS Base Rate Character Player Level SAVING THROWS Elf Clan Wizardress Alignment MOVEMENT Paralyze/ Poison Rod,Staff, or Wand P"
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Classics 15th Anniversary Edition.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_classics_15th_anniversary_edition_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "approaches them, they swing open even though no visible hand touched them.",
+            "He continues through a small entrance hall, and steps into a circular chamber that soars high overhead.",
+            "The huge room has white marble floor and walls.",
+            "Many windows admit sunlight and fresh air."
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Player's Option - Spells & Magic.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_player_s_option_spells_and_magic_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Chapter 8 Vibration Hit Location Chart dlO roll Humanoid Right leg Left leg Abdomen Torso Right arm Left arm 1-2 3^ 5 6-7 8 9 10 Head Location: Severity 1-3 4 5 6 7 8 9 10 11 12 13+ Location: Severity 1-3 4 5 6 7 8 9 10 11 12 13+ Location: Severity 1-3 4 5 9 T..."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Encyclopedia Magica Volume 2.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_encyclopedia_magica_volume_2_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Earring of Seamanship of Seamanship XP Value: 500 GP Value: 2,500 The Book of Marvelous Magic This earring appears to be an earring of defense and is usually found with a matching nonmagical earring.",
+            "A detect invisible spell or similar means reveals the X to be a mast and spar with a faint sail drawn around them.",
+            "When the magical ear- ring is worn in the left earlobe, the user gains all the knowledge of an able-bodied seaman-how to use any sort of seagoing vessel (and any part of it)-and is able to instruct others in its operation.",
+            "of Understanding XP Value: 500 GP Value: 4,000 POLYHEDRON Newszine 82 These earrings are often made of polished wood or silver."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Encyclopedia Magica Volume 1.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_encyclopedia_magica_volume_1_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Visibility Candle blanket a 50-foot-diameter area.",
+            "Except where stated, all characters and creatures within the area of effect are affected, including those who enter the cloud later.",
+            "poison pro- duces no effect; failure to save causes the noted effect to occur.",
+            "The cloud dissipates one turn after the candle is extinguished; it must be doused with water to cease producing vapors."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Tales of the Lance.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_tales_of_the_lance_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "KITIARA UTH MATAR Human Female Fighter, 7th Level ABILITY SCORES: Str: 14 Dex: 18 Con: 14 Int: 13 Wis: 7 Cha: 14 AL: LE AC: 1 hp: 42 Move: 12 Jog: 24 Run: 36 Swim: 6 Quiet: 8 Climb: 4 APPEARANCE: Kitiara is slender, with curly black hair and soft, brown eyes.",
+            "Ht.: 5'9” Wt.: 105 lb Hair: Black Eyes: Brown Age: 24 Birthday: 31 Hidd.",
+            "318 PROFICIENCIES NPP: -3 Weapon: Short Sword (sp), Dagger, Spear, Short Bow Nonweapon: Swimming (Str), Rope Use (Dex), Riding Land-Based (Wis +3), Cooking (Int), Disguise (Cha -1), Read/Write Common/Qualinesti (Int +1) Language: Common, Plainsman, Solamnic SA..."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Encyclopedia Magica Volume 4.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_encyclopedia_magica_volume_4_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Sih'cr As with the gold dragon tooth, a silver dragon's tooth also requires one ingre­ dient from the white dragon list in order to achieve the dual immunity to cold and paralysis.",
+            "Venom from a carrion crawler , giant Portuguese man-a -war, giant wasp, crystal ooze, drider, lene­ braus worm, assassin bug, fire snake, garhug, grell (a large amount), lenta­ mon, or female tiger fly is also needed.",
+            "White Ice load blood, hoar fox blood, ice lizard blood, or a frost man's eye (the one covered by the patch).",
+            "A fier an appropriate ingred ient is found and put into the basin, a low fire is kept burning unde r the basi n, and the tooth is allowed to steep for one hour."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Player's Option - Skills & Powers.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_player_s_option_skills_and_powers_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "create reasonable portrayals of people, landscapes, and monsters, and he possesses a knowledge of perspective, shading, and composition.",
+            "If this proficiency is coupled with the artistic talent trait, the character receives +2 to his base painting score and can create stunningly realistic works, capable of stirring profound reactions in observers-and perhaps worth gold to wealthy NPCs.",
+            "Pottery: The character can create ceramic vessels-jars, bottles, plates, bowls, etc.-of whatever type are in use in the campaign world.",
+            "A serviceable piece of crockery can be made without a proficiency check If the character attempts to make a fine-quality piece, it will take about three days for an average- Nonweapon Proficiencies irrigation system, and weed and pest control."
+          ]
+        },
+        {
+          "source_file": "Player s Handbook (2nd Edition) 2101.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/player_s_handbook_2nd_edition_2101_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Chapter 5: Proficiencies (Optional) Most of what a player character can do is defined by his race, class, and ability scores.",
+            "These three characteristics don't cover every- thing, however.",
+            "Characters can have a wide range of talents, from the potent (and intri- cate) arts of magic to the simple and mundane knowledge of how to build a good fire.",
+            "The character's magical ability (or lack theteoo is defined by his class."
+          ]
+        },
+        {
+          "source_file": "player_handbook_2e.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/player_handbook_2e_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Chapter 5: Proficiencies (Optional) Most of what a player character can do is defined by his race, class, and ability scores.",
+            "These three characteristics don't cover every- thing, however.",
+            "Characters can have a wide range of talents, from the potent (and intri- cate) arts of magic to the simple and mundane knowledge of how to build a good fire.",
+            "The character's magical ability (or lack theteoo is defined by his class."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - PHBR03 - The Complete Priest's Handbook.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_phbr03_the_complete_priest_s_handbook_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "one additional language (or a non- weapon proficiency slot which may only be used for languages): the language chosen must be of a sentient humanoid race.",
+            "Soothing Word (as per the Designing Faiths chapter).",
+            "At 8th level: Charm/ Fascination (as per the Designing Faiths chapter).",
+            "Followers and Strongholds: The followers are received at 8th level, and consist of five third-level priests and five first-level priests of the same order (most act as messen- gers, too), one third-level bard and one third-level thief (who act as fact- finders..."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Dungeon Master Option - High-Level Campaigns.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dungeon_master_option_high_level_campaigns_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Chapter 7 Requirement: Rogue 11 + Relevant Ability: Wisdom/Willpower Success: 5 Cost: 1 (3) Nondetection: Rogues with this skill can shield them­ selves from many types of magical divination, as the 3rd­ level wizard spell of the same name.",
+            "When subjected to a spell such as ESP, cloiroudience , or detect invisibility, or to a magical item such as a crystal boll, a successful skill check defeats the spell or device.",
+            "Even if the roll fails, the rogue is still entitled to any applic­ able saving throws.",
+            "This skill is also effective against the sense danger skill, the priest's detect deception skill, and the ability of intelligent or powerful creatures to detect invisible opponents."
+          ]
+        }
+      ],
+      "movement": [
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Player's Option - Combat & Tactics.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_player_s_option_combat_and_tactics_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Combat System Attacks of Opportunity Attacks of opportunity occur when a threatened charac- ter or creature ignores the enemy next to it or turns its back on a foe.",
+            "The threatening enemy gets to make an immediate melee attack (or sequence of attacks for monsters with multiple attacks) against the threatened creature.",
+            "Attacks of opportunity cannot be performed with missile weapons.",
+            "This is a free attack that does not take the place of any actions the threatening creature had already planned."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - DMGR9 - Of Ships And Sea_text.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dmgr9_of_ships_and_sea_text_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Table 3: Sailing Movement and Winds Wind Movement Rate Modification Light Into -# With 4X Across - Moderate Into -* With +% Across +% Strong Into NM With Double Across +4 Gale/Storm* Into X* With Double Across +% * See the Wind Strength section for special mov...",
+            "Movement Rate Modifications: These refer to the bonuses or penalties applied to the base sailing movement rate.",
+            "The abbreviation NM stands for No Movement; ships have an effective movement rate of 0 if they attempt to sail into a Strong wind.",
+            "A - indicates that the ship moves at its base rate."
+          ]
+        },
+        {
+          "source_file": "Player s Handbook (2nd Edition) 2101.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/player_s_handbook_2nd_edition_2101_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "I Equipment (Encumbrance) @ , modified movement rate of 7.",
+            "He can ve more pounds of gear (total 145 and maintain his speed, or drop ounds of equipment (to 133 and increase his speed to 8.",
+            "The values listed in Table 50 are for standard-sized items.",
+            "It is certainly pos- sible for sacks, chests, and backpacks to be larger or smaller than the sizes The weight capacity, however, li maximum weight the item can regardless of size."
+          ]
+        },
+        {
+          "source_file": "player_handbook_2e.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/player_handbook_2e_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "I Equipment (Encumbrance) @ , modified movement rate of 7.",
+            "He can ve more pounds of gear (total 145 and maintain his speed, or drop ounds of equipment (to 133 and increase his speed to 8.",
+            "The values listed in Table 50 are for standard-sized items.",
+            "It is certainly pos- sible for sacks, chests, and backpacks to be larger or smaller than the sizes The weight capacity, however, li maximum weight the item can regardless of size."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Monstrous Compendium Volume 1.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/monstrous_compendium_vol1_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Mud-man CLIMATETERRAIN: FREQUENCY: rare ORGANIZATION: Pack ACTIVITY CYCLE: DIET: Dweomer INTELLIGENCE: Non- (0) TREASURE: Nil ALIGNMENT: Neutral NO: APPEARING: 2-12 (2d6) ARMOR CLASS: 10 MOVEMENT: HIT DICE: THACO: 19 NO: OF ATTACKS: DAMAGEIATTACK: Special SPEC..."
+          ]
+        }
+      ],
+      "magic": [
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Priest Spell Compendium Volume 2_text.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_priest_spell_compendium_volume_2_text_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Misfire NÝ The material component is the priest's holy symbol.",
+            "Notes: Uncommon for priests from the DARK SUN setting; otherwise, very rare.",
+            "Mirror Vestments (Abjuration) Sphere: Protection Level: 3 Range: 0 Components: V, S Casting Time: 6 Duration: 1 tum +1 rd./3 levels (round down) Area of Effect: The caster Saving Throw: None This spell affects only the caster, outlining his or her clothes (and...",
+            "Magical item effects that duplicate know Join with Astral Traveler Jaws of the Wolf effect."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Priest Spell Compendium Volume 1.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_priest_spell_compendium_volume_1_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Notes: Common for to priests with access to Anyspell (Alteration) Sphere: Charm, Creation Level: 4 Range: 0 Components: V, S Casting Time: 7 Duration: Special Area of Effect: The castes Saving Throw: None This spell allows the caster to read and then lata cast...",
+            "Such a spell is readable via a read magic ability conferred with the casting of anyspell, but only one spell can be read and cast for each casting of anyspell.",
+            "Merely reading the titles of spells on scrolls or in spellbooks to find a desired spell does not exhaust the magic of the anyspell; an entire spell must be read.",
+            "Once anyspell is c - Ecdysis -Dragon - ther attacks."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Wizards Spell Compendium Volume 1_text.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_wizards_spell_compendium_volume_1_text_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "N5 Alamanther's Return ge Alacrity (Alteration) (Chronomancy) Level: 3 Range: 0 Components: V, S, M Casting Time: 1 Duration: 1 turn + | rd./level Area of Effect: The caster Saving Throw: None The use of an alacrity spell allows the wizard to speed up the cast...",
+            "Only spells that are cast within the alacrity spell's duration are affected.",
+            "Casting times of 2-5 are reduced by 1; casting times of 6-9 are reduced by 2; and a casting time of one round is reduced to a casting time of 8.",
+            "Casting times for spells that require more than 1 round are reduced by 20% (e.g., an animate dead spell affected by alacrity could be cast in only 4 rounds)."
+          ]
+        },
+        {
+          "source_file": "Player s Handbook (2nd Edition) 2101.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/player_s_handbook_2nd_edition_2101_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Magic (Magical Research) ;omatic components require free ures (thus the caster cannot be boun ield); material components must ossed, dropped, burned, eaten, brok If the spell components op used in your campaign, your wizard or priest must have these items to c...",
+            "Without them, he is helpless, even if the spell is memorized.",
+            "For simplicity of play, it is best to assume that any spell- r with any sense has a supply of the mon items he is likely to need-wax, ers, paint, sand, sticks, and fluff, r examule.",
+            "For expensive and rare The three different aspects of spe stures could be cast even within dius of a silence spell."
+          ]
+        },
+        {
+          "source_file": "player_handbook_2e.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/player_handbook_2e_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Magic (Magical Research) ;omatic components require free ures (thus the caster cannot be boun ield); material components must ossed, dropped, burned, eaten, brok If the spell components op used in your campaign, your wizard or priest must have these items to c...",
+            "Without them, he is helpless, even if the spell is memorized.",
+            "For simplicity of play, it is best to assume that any spell- r with any sense has a supply of the mon items he is likely to need-wax, ers, paint, sand, sticks, and fluff, r examule.",
+            "For expensive and rare The three different aspects of spe stures could be cast even within dius of a silence spell."
+          ]
+        }
+      ],
+      "experience": [
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Encyclopedia Magica Volume 1.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_encyclopedia_magica_volume_1_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Book of Exalted Deeds Book of the Enlightened Gods once.",
+            "Priests who do not worship that particular god, but do worship some enlightened god, recognize the book for what it is but gain no benefit and take no damage.",
+            "This includes priests of the Pan- theon and the Temple of Ten Thousand Gods.",
+            "Nonpriests who handle the book take 4d6 points of damage when opening it."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Encyclopedia Magica Volume 2.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_encyclopedia_magica_volume_2_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Oil, Zula Zula of Unlocking XP Value: 300 GP Value: 800 POLYHEDRON Newszine 65 This oil is usually found in a tiny, stoppered vial.",
+            "The stopper is a dropper for inserting measured doses into locks.",
+            "One dropper of oil opens any normally-locked door or chest.",
+            "There is only a 30% chance the oil will open a magical lock."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Encyclopedia Magica Volume 4.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_encyclopedia_magica_volume_4_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "The swo rd has a weapon modifier of +4 on attack and damage rolls .",
+            "Once a day, it may be commanded to hea l the wielder by the same amount of damage it inflicts on the next strike.",
+            "For examp le, if the wie lder strikes an opponent for 10 poin ts of damage (including all modifiers for Strengt h and the swor d's +4 weapon mod i­ fier), the wielder recovers 10 lost hit points.",
+            "The user can not gain more hit points than his or her nonnal maximum."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Encyclopedia Magica Volume 3.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_encyclopedia_magica_volume_3_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Ab, inlh ~ ~P \\'.I~ : 100 C P\\'.I\" ~: 500 DoN::>::« M.p..<IQ< )) When '\"pli .",
+            "unril d\"'relle<l, African Ju Ju Xp \",lu\" 100 Gl'Vslu o: J.OO 0.-.; M>garino J) Thi.",
+            "It .1\"\" 1\"\"'1.0, +2 bonu,.\" ,II \"vinS .hrow.",
+            "po:IWdt.-.dds I pOin110 Suen&th for 24 bouts \"\"\"'\" rubbod In.o!he skin of!he oro .."
+          ]
+        },
+        {
+          "source_file": "Player s Handbook (2nd Edition) 2101.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/player_s_handbook_2nd_edition_2101_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "c Chapter 8: Experience After a player‘s character has bravely set out and survived his first adventure, the player will have experienced the entertain- ment of role-playing games.",
+            "But what will the character have gained?",
+            "If the character never improves, he will never be able to sur- vive, let alone overcome the powerful dan- gers that fill the ADLLY game worlds.",
+            "Every time a character goes on an adventure he learns something."
+          ]
+        }
+      ],
+      "healing": [
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - DMGR7 - The Complete Book of Necromancers_text.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dmgr7_the_complete_book_of_necromancers_text_rules_profile.json",
+          "priority": "permanent",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Appendices 2: Italicized spells are described in this book.",
+            "TOM = Tome of Magic; WH = Com- plete Wizard's Handbook; SH- Complete Sha'ir's Handbook; FOR - Forgotten Realms Adventures; AA = Arabian Adven- tures.",
+            "The rest are found in the 2nd Edi- tion Player's Handbook.",
+            "Appendix 2: Wizard Spells (Necromancy) 1st Level Animate Dead Animals Chill Touch Corpse Link Corpse Visage (WH) Corpselight (FOR) Detect Undead Exterminate Locate Remains Spectral Voice 2nd Level Choke (WH) Cloak Undead (FOR) Death Recall (WH) Detect Life (WH..."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Legends and Lore.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_legends_and_lore_rules_profile.json",
+          "priority": "permanent",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Death (Intermediate god) Kos (intermediate god) It is Oealn 's duty to end the life of all intel- \\j ligen!",
+            "He has a set • • quota to kill every hour and he never fails .,.;.,.'~ .- in his assigned task.",
+            "Sometimes he is mis- ~ directed and the ones he plans on killing L_=- ___ J aren 't killed al all, but even oealh must bow to the fates and other more powerful gods of Nehwon.",
+            "Dealh is not affected by time and is able to do years worth of work in a second ."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Encyclopedia Magica Volume 1.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_encyclopedia_magica_volume_1_rules_profile.json",
+          "priority": "permanent",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Hands of the Healing Spirit ing throw against both Otto's irresistible dance and maze spells.",
+            "(If successful, the duration of effect of any spell is reduced by half, rounding up.) These amulets may be worn by any class of character.",
+            "The protection they give is involuntary.",
+            "(The wearer cannot actually communicate tele- pathically, even if he or she so desires.) Protection only extends to 11-44 (1d4xl 1) spell levels before the amulet is exhausted."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Priest Spell Compendium Volume 1.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_priest_spell_compendium_volume_1_rules_profile.json",
+          "priority": "permanent",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Death Curse f Death Curse (Alteration, Neeromantic) Sphere: Necromantic Level: 2 Range: 0 Components: V, S, M Casting Time: 1 rd.",
+            "Duration: Special Area of Effect: 1 being Saving Throw: Neg.",
+            "This spell is used to avenge the imminent death of the caster.",
+            "The barbarian cleric can name an enemy and invent a curse to take effect on the foe-if this enemy was the direct cause of the caster's death."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Priest Spell Compendium Volume 2_text.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_priest_spell_compendium_volume_2_text_rules_profile.json",
+          "priority": "permanent",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Regenerate Critical Wounds (Necromantic) Reversible Sphere: Healing Level: 5 Range: Touch Components: V, S Casting Time: 8 Duration: Special Area of Effect: Creature touched Saving Throw: None This spell is the same as the Ist-level priest spell regenerate lig...",
+            "This spell heals 3d4+6 points of damage at a rate of 1 hit point per round.",
+            "If the recipient is at full hit points when the regenerate critical wounds spell is cast, the spell has no immediate effect.",
+            "Instead, if the individual is later injured (suffers at least 1 point of damage), the regeneration begins at that time."
+          ]
+        }
+      ],
+      "travel": [
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Classics 15th Anniversary Edition.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_classics_15th_anniversary_edition_rules_profile.json",
+          "priority": "support",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "he name of the wretched town was Flotsam, and it was well- named, for it lay upon the shores of the Blood Sea of Istar like the wreckage of a broken vessel tossed upon the rocks.",
+            "Peopled by the dregs of most of the races of Krynn, Flotsam was, in addition, an occupied town now, overrun with draconians, goblins, mercenaries of all races, attracted to the Highlords by high wages and the spoils of war.",
+            "The Companions reach Flotsam, Dragons of Winter Night In this chapter, the heroes travel across Balifor to the aptly named town of Flotsam.",
+            "Perched on the southwestern edge of the Blood Sea, this community was founded on the flotsam of Istar and the dregs of eastern Ansalon cultures."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLE1 - In Search of Dragons.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_dle1_in_search_of_dragons_rules_profile.json",
+          "priority": "support",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "surprised only on 1, track prey by scent with 50% accuracy; AL CE.",
+            "The PCs see a small craft sailing about 50 yards off shore.",
+            "The craft is manned by three minotaurs; the mino- taurs are allegedly on patrol, but they are actually fishing.",
+            "The minotaurs fish for the next 1d6 hours, then sail back to the ship in encounter 5."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLC3 - Classics Volume 3.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_dlc3_classics_volume_3_rules_profile.json",
+          "priority": "support",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Screaming Gate (All tracks) Begin each of the different tracks with the fol- lowing text.",
+            "Read this text the same way each time so the players get the idea that they are reliving the same Encounter.",
+            "As you enter the gate, the terrible scream- ing stops.",
+            "The gate slams shut behind you, blocking the way back."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLC2 - Classics Volume 2.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_dlc2_classics_volume_2_rules_profile.json",
+          "priority": "support",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "The Solamnic Seas A gentle breeze wafts over the shore.",
+            "The quiet life of the Solamnic outpost, far from the war, belies the trouble and fear of its people.",
+            "Here and there, knights canter their horses down the roughly cob- bled streets.",
+            "At this point the players must decide where to go."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLA2 - Dragon Knight.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_dla2_dragon_knight_rules_profile.json",
+          "priority": "support",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Qualinesti, and Kagonesti-are few and far between.",
+            "Players wishing to use elves as PCs are advised to consult the Time of the Dragon set.",
+            "KENDER Kender are very rare on Taladas, but there are small pock- ets of kender whose attitudes are similar to those of their An- salon cousins, though the Taladas kender tend to be more suspicious and distrustful.",
+            "Taladas kender are immune to all types of fear and have the special ability to taunt opponents into reckless attacks by verbally abusing them."
+          ]
+        }
+      ],
+      "encumbrance": [
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Encyclopedia Magica Volume 1.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_encyclopedia_magica_volume_1_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Equus Brooch BroochA brooch is an ornamental piece of jewelry with a pin on the back to allow its owner to fasten the jewelry to clothing.",
+            "Very expensive versions are made from gold or platinum and decorated with gems.",
+            "They may contain any magic, but the most popular ones protect the wearer from damage or theft.",
+            "Abbor Alz's Brooch of Warning XP Value: 1,200 GP Value: 12,000 Rary the Traitor The barbarians of the hills value alertness in bat- tle highly."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Player's Option - Combat & Tactics.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_player_s_option_combat_and_tactics_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Combat System Character Strength 3 4-5 6-7 8-9 10-11 12-13 14-15 16 17 18 18/01 18/51 18/76 18/91 18/00 Lt.",
+            "6 11 21 36 41 46 56 71 86 111 136 161 186 236 336 Encumbrance Category Mod.",
+            "7 14 20 51 59 70 86 101 122 150 175 200 225 275 375 Hvy.",
+            "8 17 39 66 77 94 116 131 158 189 214 239 264 314 414 Severe 10 20 47 81 97 118 146 161 194 228 253 278 303 353 453 A creature's final movement is figured by comparing current encumbrance with natural base movement."
+          ]
+        },
+        {
+          "source_file": "Player s Handbook (2nd Edition) 2101.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/player_s_handbook_2nd_edition_2101_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Equipment (Encumbrance) 1- - - Encumbrance urnament Rule) ed, Light, Moderate, Heavy, an e Encumbrance.",
+            "alculate your character's en category, first figure out the he is carrying (including for clothing).",
+            "The heading at top of that column shows his level of cumbrance .",
+            "Use Table 49 to figure out the e brance category of your chara mount or beast of burden."
+          ]
+        },
+        {
+          "source_file": "player_handbook_2e.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/player_handbook_2e_rules_profile.json",
+          "priority": "core",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Equipment (Encumbrance) 1- - - Encumbrance urnament Rule) ed, Light, Moderate, Heavy, an e Encumbrance.",
+            "alculate your character's en category, first figure out the he is carrying (including for clothing).",
+            "The heading at top of that column shows his level of cumbrance .",
+            "Use Table 49 to figure out the e brance category of your chara mount or beast of burden."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Player's Option - Skills & Powers.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_player_s_option_skills_and_powers_rules_profile.json",
+          "priority": "core",
+          "confidence": 0.75,
+          "candidate_statements": [
+            "I \"; era1 loads minht be lost in the river even if the mules make it across.",
+            "Wten the caravan reaches its destination, the characters can also role-play the bartering of the wool for other goods or treasure.",
+            "In the end, the profp or loss of the mission will be a matter of gaming adventure.",
+            "Alternately, the character might fund a group of NPO to perform this mission."
+          ]
+        }
+      ],
+      "extensions": [
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - DMGR9 - Of Ships And Sea_text.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dmgr9_of_ships_and_sea_text_rules_profile.json",
+          "priority": "flavor",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Table 24: Ramming Action Results (246) Modified Die Roll Result lorless Ramming Ship suffers Critical Miss 2 Ramming ship loses 446 damage points 3 Ramming Ship loses 346 damage points.",
+            "4 Ramming Ship loses 246 damage points 5-6 Complete Miss 7 Glancing Strike: Target loses 146 damage points L] Target loses 2d6 damage points.",
+            "n Target loses 4d6 damage points 12-14 Target suffers Critical Hit 15 Target suffers Critical Hit and loses 2d6 damage points.",
+            "16 Target suffers Critical Hit and loses 346 damage points 17 Target suffers Critical Hit and loses 446."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Encyclopedia Magica Volume 2.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_encyclopedia_magica_volume_2_rules_profile.json",
+          "priority": "flavor",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Orb of Dragonkind II Despairing: This dragon has given up.",
+            "It knows it can never escape from its prison and there is no point in trying.",
+            "Promises, rewards, and threats mean nothing to it.",
+            "All action is pointless and there is even the thought that through inac- tion it might gain release."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Encyclopedia Magica Volume 1.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_encyclopedia_magica_volume_1_rules_profile.json",
+          "priority": "flavor",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "18 Cast warp wood (3/day) 19 Cast weather summoning (1 /day) 20 Cast anti-plant shell (\\/day) Table 1-20: Necromantic These deadly powers are among .the most hideous to be found in any artifact.",
+            "Unless otherwise noted, the artifact must touch the target for the power to be effective.",
+            "Roll Power 1 Cast Abi-Dahlm 's horrid wilting (1 /day) 2 Cast animate dead (3/day) 3 Cast Bloodstone's frightful joining (2/day) 4 Cast Bloodstone's spectral steed (1 /day) 5 Cast breath of death (I/day) 6 Cast cause blindness (1 /day) 7 Cast chill touch (3/da...",
+            "It is neither intelligent nor alive, and immune to most spells; its ir"
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Book of Artifacts.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_book_of_artifacts_rules_profile.json",
+          "priority": "flavor",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "These powers are oriented toward finding and discovering things hidden, but not necessarily unknown Thus, the table includes the power to detect poison, but not that of forseeing the future Learning what is not normally revealed, such as alignment, is covered...",
+            "Unless otherwise noted, these powers are in effect whenever the artifact is held or worn The artifact can Divinations are the counterpart of detections, revealing things unknown or uncertain Unlike most detections, these powers tend to reveal intangibles-thing..."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - PHBR05 - The Complete Psionics Handbook.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_phbr05_the_complete_psionics_handbook_rules_profile.json",
+          "priority": "flavor",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "Brain Mole ~ CLIMATmERRArn: AnylBelow ground FREQUENCY: Very rare ORGANIZATION: Family ACTIVITY CYCLE: Night DIET: Psionic energy INTELLIGENCE: Animal (1) TREASURE: Nil ALIGNMENT: Neutral NO.",
+            "APPEARING: 1-3 ARMOR CLASS: 9 MOVEMENT: 1, Br 3 HIT DICE: 1 hp TUACQ Nil NO.",
+            "OF ATTACKS: Nil DAMAGUATTACk Nil SPECIAL AlTACKS: Psionic SPECIAL DEFENSES: Psionic MAGIC RESISTANCE: Nil SIZE: MORALE: T (3” long) Unsteady (5-7) XP VALUE: 35 These small, furry animals are nearly blind, and they look like normal moles.",
+            "They live in underground tunnels, burrowing through rock as well as dirt."
+          ]
+        }
+      ],
+      "henchmen_hirelings": [
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - PHBR11 - The Complete Ranger's Handbook.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_phbr11_the_complete_ranger_s_handbook_rules_profile.json",
+          "priority": "support",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "The follower sits on its haunches until the ranger breaks the command, at which time the follower resumes its normal actions.",
+            "Variations include Standing, Rearing, Rolling Over, Playing Dead, and other simple physical feats, all of which are distinct tricks and require individual .",
+            "The follower growls, barks, chirps, or makes any other natural sound on command.",
+            "The follower retrieves a specific object and brings it to the ranger."
+          ]
+        },
+        {
+          "source_file": "Player s Handbook (2nd Edition) 2101.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/player_s_handbook_2nd_edition_2101_rules_profile.json",
+          "priority": "support",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "NPCs (Followers) needs to be done in this situation depends entirely upon the DMs campaign.",
+            "Your character may have to skulk through the unsavory bars.of the waterfront, rely on questionable go-betweens, or pay a visit to the thieves' guild (if there is one).",
+            "Just employing one of these characters can be a small adventure in itself.",
+            "Employment costs of hirelings vary from a few gold pieces a month to thousands of gold pieces for an especially dangerous task."
+          ]
+        },
+        {
+          "source_file": "player_handbook_2e.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/player_handbook_2e_rules_profile.json",
+          "priority": "support",
+          "confidence": 1.0,
+          "candidate_statements": [
+            "NPCs (Followers) needs to be done in this situation depends entirely upon the DMs campaign.",
+            "Your character may have to skulk through the unsavory bars.of the waterfront, rely on questionable go-betweens, or pay a visit to the thieves' guild (if there is one).",
+            "Just employing one of these characters can be a small adventure in itself.",
+            "Employment costs of hirelings vary from a few gold pieces a month to thousands of gold pieces for an especially dangerous task."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - DMGR7 - The Complete Book of Necromancers_text.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dmgr7_the_complete_book_of_necromancers_text_rules_profile.json",
+          "priority": "support",
+          "confidence": 0.525,
+          "candidate_statements": [
+            "ing the tower, gathering spell components, and Per- forming other such menial tasks.",
+            "Admittedly, a few of these duties can be accomplished by mindless undead or fiendish familiars, but the simplest, cheapest, and least dangerous way to recruit help has always been to hire on a living apprentice.",
+            "Upon reaching 9th level, a necromancer attracts 1-4 apprentices.",
+            "Naturally, a wizard may refuse to take any students if she or he so desires, but some- times an especially driven student can change a stub- born mind."
+          ]
+        },
+        {
+          "source_file": "TSR Inc - AD&D 2nd Edition - Priest Spell Compendium Volume 2_text.pdf",
+          "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_priest_spell_compendium_volume_2_text_rules_profile.json",
+          "priority": "support",
+          "confidence": 0.475,
+          "candidate_statements": [
+            "Locate Animal Follower - Ranger -------------- The material component is the priest's holy symbol.",
+            "Living Ward (Abjuration, Necromancy) Reversible Sphere: Wards Level: 5 Range: Special Components: V, S Casting Time: 2 turns Duration: 1 turn/level Area of Effect: 5-ft/level cube Saving Throw: None ‘This reverse of the undead ward spell prevents any living pe...",
+            "Animals and monsters are not affected by the ward.",
+            "The caster can protect a cube-shaped area with sides that are 5 feet long per level of the caster."
+          ]
+        }
+      ]
+    },
+    "total_candidate_statements": 376
+  }
+}

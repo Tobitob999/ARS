@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "CHARACTER CREATION major war humanity has fought since",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 28,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:44Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p028_0087",
+    "entity_type": "history",
+    "name_guess": "CHARACTER CREATION major war humanity has fought since",
+    "breadcrumb_path": "Rules Compendium > Page 028 > history > CHARACTER CREATION major war humanity has fought since",
+    "page_refs": [
+      28
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [
+      "2317"
+    ],
+    "stat_tokens": [],
+    "excerpt": "CHARACTER CREATION major war humanity has fought since the twenty-fourth century: Those who focus on the aggression of the recent past, howev er, fail to recognize this mighty realm' true nature Formed with the signing of the Crucis Pact in 2317 the Federated Suns was intended stand against the Terran Heber 'mony' $ unabasted expansion; However, the Federated Suns faced first major challenges from the Capellan Confederation."
+  }
+}

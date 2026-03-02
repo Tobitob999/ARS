@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "statue",
+  "name": "Statue",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Statue (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "seventh",
+    "book_pages": [
+      187
+    ],
+    "pdf_pages": [
+      188
+    ],
+    "raw_block": "Statue (Alteration)\nRange: Touch\nComponents: V, S, M\nDuration: 1 hour/level\nCasting Time: 7\nArea of Effect: Creature touched\nSaving Throw: Special\nWhen a statue spell is cast, the wizard or\nother creature is apparently turned to solid\nstone, along with any garments and equip-\nment worn or carried. The initial transfor-\nmation from flesh to stone requires one full\nround after the spell is cast. During this ini-\ntial transformation, the creature must roll a\nsaving throw of 82% or less, with -1 de-\nducted from the dice roll for each point of\nConstitution, so an 18 Constitution grants\ncertain success. Failure indicates system\nshock and death. Thereafter the creature\ncan withstand any hpection and appear to\nbe a stone statue, although a faint magic is\ndetected from the stone if it is checked for.\nDespite being in this condition, the petri-\nfied individual can see, hear, and smell nor-\nmally. Feeling is limited to those sensations\nthat can affect the granite-hard substance of\nthe individual’s body-i.e., chipping is\nequal to a slight wound, but breaking off\none of the statue’s arms is serious damage.\nThe individual under the magic of a\nstatue spell can return to his normal state in-\nstantly, act, and then return to the statue\nstate, if he so desires, as long as the spell du-\nration is in effect.\nThe material components of this spell are\nlime, sand, and a drop of water stirred by an\niron bar, such as a nail or spike."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Statue",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "1 hour/level",
+      "casting_time": "7",
+      "area_of_effect": "Creature touched",
+      "saving_throw": "Special",
+      "description_excerpt": "When a statue spell is cast, the wizard or other creature is apparently turned to solid stone, along with any garments and equip- ment worn or carried. The initial transfor- mation from flesh to stone requires one full round after the spell is cast. During this ini- tial transformation, the creature must roll a saving throw of 82% or less, with -1 de- ducted from the dice roll for each point of Constitution, so an 18 Constitution grants certain success. Failure indicates system shock and death. Thereafter the creature can withstand any hpection and appear to be a stone statue, although a faint magic is detected from the stone if it is checked for. Despite being in this condition, the petri- fied individual can see, hear, and smell nor- mally. Feeling is limited to those sensations that can affect the granite-hard substance of the individual’s body-i.e., chipping is equal to a slight woun"
+    },
+    "quality_flags": []
+  }
+}

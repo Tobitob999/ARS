@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "enthrall",
+  "name": "Enthrall",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Enthrall (EnchantmenKharm) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "second",
+    "book_pages": [
+      204
+    ],
+    "pdf_pages": [
+      205
+    ],
+    "raw_block": "Enthrall (EnchantmenKharm)\nSphere: Charm\nRange: 0\nComponents: V, S\nDuration: Special\nCasting Time: 1 round\nArea of Effect: %foot radius\nSaving Throw: Neg.\nA priest using this spell can enthrall an\naudience that can fully understand his lan-\nguage. Those in the area of effect must save\nvs. spell or give the caster their undivided\nattention, totally ignoring their surround-\nings. Those of a race or religion unfriendly\nto the caster’s have a +4 bonus to the roll.\nAny Wisdom adjustment also applies. Crea-\ntures with 4 or more levels or Hit Dice, or\nwith a Wisdom of 16 or better, are unaffect-\ned.\nTo cast the spell, the caster must speak\nwithout interruption for a full round.\nThereafter, the enchantment lasts as long as\nthe priest speaks, to a maximum of one\nhour. Those enthralled take no action while\nthe priest speaks, and for ld3 rounds there-\nafter while they discuss the matter. Those\nentering the area of effect must also save or\nbecome enthralled. Those not enthralled are\n50% likely every turn to hoot and jeer in\nunison. If there is excessive jeering, the rest\nare allowed a new saving throw. The speech\nends (but the Id3 round delay still applies) if\nthe priest is successfully attacked or per-\nforms any action other than speaking.\nIf the audience is attacked, the spell ends\nand the audience reacts immediately, rolling\na reaction check with respect to the source\nof the interruption, at a penalty of - 10.\nNote: When handling a large number of\nsaving throws for similar creatures, the DM\ncan assume an average to save time: e.g., a\ncrowd of 20 men with a base saving throw\nof 16 (25% success chance) will have 15 men\nenthralled and five not."
+  },
+  "mechanics": {
+    "school_or_type": "EnchantmenKharm",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Enthrall",
+      "canonical_name_guess": null,
+      "school_or_type": "EnchantmenKharm",
+      "range": "0",
+      "components": "V, S",
+      "duration": "Special",
+      "casting_time": "1 round",
+      "area_of_effect": "%foot radius",
+      "saving_throw": "Neg.",
+      "description_excerpt": "A priest using this spell can enthrall an audience that can fully understand his lan- guage. Those in the area of effect must save vs. spell or give the caster their undivided attention, totally ignoring their surround- ings. Those of a race or religion unfriendly to the caster’s have a +4 bonus to the roll. Any Wisdom adjustment also applies. Crea- tures with 4 or more levels or Hit Dice, or with a Wisdom of 16 or better, are unaffect- ed. To cast the spell, the caster must speak without interruption for a full round. Thereafter, the enchantment lasts as long as the priest speaks, to a maximum of one hour. Those enthralled take no action while the priest speaks, and for ld3 rounds there- after while they discuss the matter. Those entering the area of effect must also save or become enthralled. Those not enthralled are 50% likely every turn to hoot and jeer in unison. If there is excessi"
+    },
+    "quality_flags": []
+  }
+}

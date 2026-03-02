@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_2",
+    "tsr_inc_ad_and_d_2nd_edition_the_magic_encyclopedia_volume_1",
+    "movement"
+  ],
+  "summary": "Phase-2 Regelchunk: movement aus TSR Inc - AD&D 2nd Edition - The Magic Encyclopedia Volume 1.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - The Magic Encyclopedia Volume 1",
+    "source_file": "TSR Inc - AD&D 2nd Edition - The Magic Encyclopedia Volume 1.pdf",
+    "text": "[PDF_PAGE 14 | score=1] Mortimer is the owner and manager of Chemcheaux 223. Mortimer's, large frame makes him appear slow, but he is very dexterous, and his incredible strength makes him a foe to be respected. With occasional assistance from Rhodhan, Mortimer keeps the increas- ing demands of the business at bay. Born in Calimport, Toril, Mortimer was once looked down upon by the na- tive Ravens Bluff people. Since he pur- chased the Chemcheaux franchise from Prismal and Rhodhan, however, his social status has taken a turn for the better. He is now invited to the large balls and elite social gatherings attend- ed by only the very rich, or the very powerful. Mortimer relishes the lime- light. Chemcheaux 223 was onc\n[PDF_PAGE 28 | score=1] Balance Balm Name EP Cost Book/Page Name EP Cost Book/Page Balance A balance is an instrument used to determine weight. The non-magical version uses a beam and counterweights to determine the exact weight of goods. Magical versions, however, are often used to create a balance, to establish an impartial verdict, or to create an even trade of one sort or another. Balance, Conversion Balance, Judgment Balance, Power 5,000 50,000 1,000 5,000 6,000 30,000 AC04-011 AC04-011 AC04-012 Ball Balls are spherical (or at least roughly spherical) objects, constructed from a multitude of elements; from leather to rock, from sculpted wood to crystal. Balls are commonly used to divine answers beyond the user\n[PDF_PAGE 57 | score=1] Eyepatch Figurehead Name EP Cost Book/Page Eyepatch Eyepatches are used to cover the unsightly effects of eye injuries. The patch allows the eye to heal, or (if the eye is completely lost) keeps dirt and other debris from entering the empty cavity. Magical eyepatches generally allow the character to see what he normally would not be able to. Eyepatch, Tenh 2000 15,000 2023-79 Falling Softener Gnomish investigators found that some alchemical substances produce air when mixed together. This discovery led to the falling softener, a safety device intended to limit falling damage. It looks like a thickly padded leather vest with a hood and leg protectors attached. When falling, the user pulls on "
+  },
+  "mechanics": {
+    "topic": "movement",
+    "keywords": [
+      "add_2e",
+      "movement",
+      "tsr_inc_ad_and_d_2nd_edition_the_magic_encyclopedia_volume_1"
+    ],
+    "injection_priority": "core",
+    "confidence": 0.075,
+    "page_refs": [
+      14,
+      28,
+      57
+    ],
+    "raw_text": "[PDF_PAGE 14 | score=1] Mortimer is the owner and manager of Chemcheaux 223. Mortimer's, large frame makes him appear slow, but he is very dexterous, and his incredible strength makes him a foe to be respected. With occasional assistance from Rhodhan, Mortimer keeps the increas- ing demands of the business at bay. Born in Calimport, Toril, Mortimer was once looked down upon by the na- tive Ravens Bluff people. Since he pur- chased the Chemcheaux franchise from Prismal and Rhodhan, however, his social status has taken a turn for the better. He is now invited to the large balls and elite social gatherings attend- ed by only the very rich, or the very powerful. Mortimer relishes the lime- light. Chemcheaux 223 was onc\n[PDF_PAGE 28 | score=1] Balance Balm Name EP Cost Book/Page Name EP Cost Book/Page Balance A balance is an instrument used to determine weight. The non-magical version uses a beam and counterweights to determine the exact weight of goods. Magical versions, however, are often used to create a balance, to establish an impartial verdict, or to create an even trade of one sort or another. Balance, Conversion Balance, Judgment Balance, Power 5,000 50,000 1,000 5,000 6,000 30,000 AC04-011 AC04-011 AC04-012 Ball Balls are spherical (or at least roughly spherical) objects, constructed from a multitude of elements; from leather to rock, from sculpted wood to crystal. Balls are commonly used to divine answers beyond the user\n[PDF_PAGE 57 | score=1] Eyepatch Figurehead Name EP Cost Book/Page Eyepatch Eyepatches are used to cover the unsightly effects of eye injuries. The patch allows the eye to heal, or (if the eye is completely lost) keeps dirt and other debris from entering the empty cavity. Magical eyepatches generally allow the character to see what he normally would not be able to. Eyepatch, Tenh 2000 15,000 2023-79 Falling Softener Gnomish investigators found that some alchemical substances produce air when mixed together. This discovery led to the falling softener, a safety device intended to limit falling damage. It looks like a thickly padded leather vest with a hood and leg protectors attached. When falling, the user pulls on "
+  }
+}

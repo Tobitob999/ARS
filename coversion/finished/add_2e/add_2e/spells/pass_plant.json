@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "pass_plant",
+  "name": "Pass Plant",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Pass Plant (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "fourth",
+    "book_pages": [
+      223
+    ],
+    "pdf_pages": [
+      224
+    ],
+    "raw_block": "Pass Plant (Alteration)\nSphere: Plant\nRange: Touch\nComponents: V, S, M\nDuration: Special\nCasting Time: 8\nArea of Effect: Special\nSaving Throw: None\nBy using this spell, the caster is able to en-\nter a tree and move from inside it to inside\nanother tree of the same type that lies in ap\nproximately the &&ion &red by the\nspell user and is within the range shown in\nthe following table.\nType of Tree\nOak\nAsh\nYew\nElm\nLinden\ndeciduous\nconiferous\nother\nRango of Anea of Effect\n600 yards\n540 yards\n-Yards\n420 yards\n360 yards\n300 Yh\n240 yards\n180 yards\nThe tree entered and that receiving the\ncaster must be of the same type, must both\nbe living, and of girth at least equpl to that\nof the caster. Note that if the caster enters a\ntree, an ash, for example, and wishes to pass\nnorth as far as possible (540 yards), but the\nonly appropriate ash in range is to the\nsouth, the caster will pass to the ash in the\nsouth. The pass plant spell functions 80 that\nthe movement takes only one round. The\ncaster can, at his option, remain within the\nreceiving tree for a maximum of OM rod\nper level of experience. Othawise, h can\nstep forth immediately. Should no like tree\nbe in rahge, the caster simply remains\nwithin the tree, does not pass elsewhere,\nand must step forth in the appropriate num-\nber of rounds. If the occupied tree is\nchopped down or burned, the caster is dain\nif he does not exit befope the process is com-\nplete.\n223"
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Pass Plant",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "Special",
+      "casting_time": "8",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "By using this spell, the caster is able to en- ter a tree and move from inside it to inside another tree of the same type that lies in ap proximately the &&ion &red by the spell user and is within the range shown in the following table. Type of Tree Oak Ash Yew Elm Linden deciduous coniferous other Rango of Anea of Effect 600 yards 540 yards -Yards 420 yards 360 yards 300 Yh 240 yards 180 yards The tree entered and that receiving the caster must be of the same type, must both be living, and of girth at least equpl to that of the caster. Note that if the caster enters a tree, an ash, for example, and wishes to pass north as far as possible (540 yards), but the only appropriate ash in range is to the south, the caster will pass to the ash in the south. The pass plant spell functions 80 that the movement takes only one round. The caster can, at his option, remain within the receiving tree f"
+    },
+    "quality_flags": []
+  }
+}

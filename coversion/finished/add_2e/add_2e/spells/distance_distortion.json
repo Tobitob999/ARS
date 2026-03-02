@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "distance_distortion",
+  "name": "Distance Distortion",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Distance Distortion (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      167
+    ],
+    "pdf_pages": [
+      168
+    ],
+    "raw_block": "Distance Distortion (Alteration)\nRange: 10 yarddlevel\nComponents: V, S, M\nDuration! 2 turns/level\nCasting Time: 5\nArea of Effect: One 10-foot cube per lrvd\nSaving Throw: None\nThis spell can be cast only in an area\npletely surrounded or enclosed by ea&,\nrock, sand, or similar materials. The wizard\nmust also cast a conjure elemental spell to\nsummon an earth elemental. The elemental\nserves without attempting to break free\nwhen the spellcaster announces that his\nintent is to cast a distance distortion spell.\nThe spell places the earth elemental in the\narea of effect, and the elemental then causes\nthe area's dimensions to be either doubled or\nhalved for those traveling over it (spellcud-\ner's choice of which). Thus a 10' x 100' cor-\nridor could seem to be either five feet wide\nand 50 ket long or 20 feet wide and 200 fegt\nlong. When the spell duration has elapsed,\nthe elemental returns to its own plane.\nThe true nature of an area affected by die\ntance distortion is undetectable to any crea-\nture traveling along it, but the area dimly\nradiates magic, and-a true seeing spell can\nreveal that an earth elemental is spread\nwithin the area.\nThe material needed for this spell is a\nsmall lump of soft clay."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Distance Distortion",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "10 yarddlevel",
+      "components": "V, S, M",
+      "duration": "! 2 turns/level",
+      "casting_time": "5",
+      "area_of_effect": "One 10-foot cube per lrvd",
+      "saving_throw": "None",
+      "description_excerpt": "the elemental returns to its own plane. The true nature of an area affected by die tance distortion is undetectable to any crea- ture traveling along it, but the area dimly radiates magic, and-a true seeing spell can reveal that an earth elemental is spread within the area. The material needed for this spell is a small lump of soft clay."
+    },
+    "quality_flags": []
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "category": "fulltext_page",
+  "tags": [
+    "mechwarrior_3e",
+    "fulltext",
+    "page_223"
+  ],
+  "summary": "OCR Volltextseite 223",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 223,
+    "extraction": "easyocr",
+    "ocr_updated_at": "2026-03-02T16:48:39Z"
+  },
+  "mechanics": {
+    "text": "MELEE COMBAT MODIFIERS TABLE\nHit LOCATION TABLE\n2010 Roll\nTarget Is: Base TN Aware of attack Opponent's INT RFL Surprised Lower of opponent\": INT or RFL Disengaging stopping attempt t0 disengage Opponent's STR RFL Inanimate completely immobile\nHit Location Critical Hit -~ Left Foot Left Leg Left Hand Lett Arm Chest Abdomen Right Arm Right Hand Right Leg Right Foot Head\n9-11 12-13 14-15\nCondltlonal Modifiers TN Modifier Character' Fatigue exceeds WIL excess Fatigue) Character wounded Each Minor Wound Each Serious Wound Each Critical Wound Character stunned Character prone Good conditions (on higher ground than opponent) Poor conditions (unsteady footing) Bad conditions (very unsteady footing) Using weapon in off hand Using pistol Using SMG Using rifle or shotgun\n17-18\nRoll again for hit location (reroll 2s) and reduce the get Iocation' AV by tor this attack only.\nBARRIER ARMOR RATINGS\nBarrier Type Window; Standard Glass Window; Safety Glass Interior Wall, Residential Commercial Interior Wall, Industrial, Military or Shipboard Exterior Wall Residential Commercial Window, Ship' Viewport Exterior Wall; Industrial Military Armored Wall or Vault Ship'$ External Bulkhead\nArmor\nActlon Modlflers Friendly character within m of opponent\nTN Modlfler 1/character (max.\nOpponent stunned Opponent evading +(Target's Acrobatics Skill Bonus) Delayed action Aimed Attacks (if Hit Location rules are effect) Chest Arm; Leg \" Abdomen Head_ Hand Foot\nWOUND TREATMENT TABLE\nWound SkilI Type Requlred Bleeding First Aid Grazing First Aid Minor MedTech Serious Surgery Critical Surgery Deadly Surgery\nTreatment Recovery Untreated Tlme Tlme Healing Time turn mnuic day week 30 minutes 106 days 106 weeks mnutes 106 weeks 6D6 wceks 15 minutes 206 weeks 20 minutes 106+4 months\nMOVEMENT TABLE\nMovement Mode Walk Run/Evade/ Disengage Sprint\nMaximum Meters Moved RFL STR RFL STR Running Skill Bonus Run Meters\nQUALITY OF\nWOUND TABLE\nSUCCESSMFAILURE TABLE\nWound Value\nMargin +9 or better +6 t0\nResult Spectacular' Extraordinary Good Adequate Barely made itl Almost. Bad Terrible Abysmall\nDF * Wound Type Fatigue Only Grazing Wound Minor Wound Serious Wound Critical Wound\nCombat Effects Summary +1 to all TNs per pt: of Fatigue above WIL Stunned Stunned; +1 t0 all TNs Stunned; Knockout Check; +2 t0 all TNs Stunned; Knockout Check; +3 to all TNs; nalf movement Automatic knockout Instant death\nDeadly Wound Fatal Wound\nOr worse\nFor AP attacks, the DF is decreased by the target\" $ (BOD Fatigue)."
+  }
+}

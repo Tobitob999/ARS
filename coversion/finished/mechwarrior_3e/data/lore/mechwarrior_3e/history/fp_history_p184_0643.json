@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "From there , they Move up t0 planetary",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 184,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:11Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p184_0643",
+    "entity_type": "history",
+    "name_guess": "From there , they Move up t0 planetary",
+    "breadcrumb_path": "Rules Compendium > Page 184 > history > From there , they Move up t0 planetary",
+    "page_refs": [
+      184
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "From there , they Move up t0 planetary districts served Dy major radio stations and video broadcast companies_ The largest vid casters cover world events as do some news sheets_ which supply the in-depth coverage the vidcasters often gloss over; Vidcast companies typically broadcast holovid material, top-line video that uses three-dimensiona imaging: Few; however, can produce such material."
+  }
+}

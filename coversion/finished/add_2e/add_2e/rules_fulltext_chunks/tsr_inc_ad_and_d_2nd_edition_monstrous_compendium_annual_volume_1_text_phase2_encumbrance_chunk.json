@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_2",
+    "tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_annual_volume_1_text",
+    "encumbrance"
+  ],
+  "summary": "Phase-2 Regelchunk: encumbrance aus TSR Inc - AD&D 2nd Edition - Monstrous Compendium - Annual Volume 1_text.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - Monstrous Compendium - Annual Volume 1_text",
+    "source_file": "TSR Inc - AD&D 2nd Edition - Monstrous Compendium - Annual Volume 1_text.pdf",
+    "text": "[PDF_PAGE 101 | score=2] Skum CLIMATE/TERRAIN: Tropical,temperate subterranean FREQUENCY: Very rare ORGANIZATION: Brood ACTIVITY CYCLE: Night DIET: Omnivore INTELLIGENCE: Animal to average (1-10) TREASURE: Nil ALIGNMENT: Lawful evil NO. APPEARING: 2d4 ARMOR CLASS: Ve MOVEMENT: 6, Sw 15 HIT DICE: 2+2 THACO: 17 NO. OF ATTACKS: 5 DAMAGE/ATTACK: 2d8/1d6 (x2)/1d8 (x2) SPECIAL ATTACKS: Nil SPECIAL DEFENSES: Nil MAGIC RESISTANCE: See below SIZE: M (4’-6’ tall) MORALE: Steady (11-12) XP VALUE: 175 Skum are a race bred by the aboleth (see the MONSTROUS MANUAL tome) from humanoid genetic stock to serve as beasts of burden. Skum do not resemble their ancestors. They have an aboleth-like tail and four extremely strong limbs, ea\n[PDF_PAGE 59 | score=1] Genie, Tasked, Messenger CLIMATE/TERRAIN: Dependent upon task FREQUENCY: Rare ORGANIZATION: Solitary ACTIVITY CYCLE: Day DIET: Omnivore INTELLIGENCE: High TREASURE: U ALIGNMENT: Neutral NO. APPEARING: 1-2 ARMOR CLASS: 5 MOVEMENT: 15, Fl 42(A) HIT DICE: 3 THACO: 17 NO. OF ATTACKS: 1 DAMAGE/ATTACK: 1d8 or by weapon SPECIAL ATTACKS: Spells SPECIAL DEFENSES: See below MAGIC RESISTANCE: Standard SIZE: S (4 tall) MORALE: Unsteady (5-7) XP VALUE: 420 Messenger genies were once djinn, but now serve all genies equally, flitting from plane to plane bearing messages, gifts, treaties, letters, documents, and love letters between noble genies of the various realms. Messenger genies are slim, fluid creatu"
+  },
+  "mechanics": {
+    "topic": "encumbrance",
+    "keywords": [
+      "add_2e",
+      "burden",
+      "encumbrance",
+      "tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_annual_volume_1_text"
+    ],
+    "injection_priority": "core",
+    "confidence": 0.075,
+    "page_refs": [
+      59,
+      101
+    ],
+    "raw_text": "[PDF_PAGE 101 | score=2] Skum CLIMATE/TERRAIN: Tropical,temperate subterranean FREQUENCY: Very rare ORGANIZATION: Brood ACTIVITY CYCLE: Night DIET: Omnivore INTELLIGENCE: Animal to average (1-10) TREASURE: Nil ALIGNMENT: Lawful evil NO. APPEARING: 2d4 ARMOR CLASS: Ve MOVEMENT: 6, Sw 15 HIT DICE: 2+2 THACO: 17 NO. OF ATTACKS: 5 DAMAGE/ATTACK: 2d8/1d6 (x2)/1d8 (x2) SPECIAL ATTACKS: Nil SPECIAL DEFENSES: Nil MAGIC RESISTANCE: See below SIZE: M (4’-6’ tall) MORALE: Steady (11-12) XP VALUE: 175 Skum are a race bred by the aboleth (see the MONSTROUS MANUAL tome) from humanoid genetic stock to serve as beasts of burden. Skum do not resemble their ancestors. They have an aboleth-like tail and four extremely strong limbs, ea\n[PDF_PAGE 59 | score=1] Genie, Tasked, Messenger CLIMATE/TERRAIN: Dependent upon task FREQUENCY: Rare ORGANIZATION: Solitary ACTIVITY CYCLE: Day DIET: Omnivore INTELLIGENCE: High TREASURE: U ALIGNMENT: Neutral NO. APPEARING: 1-2 ARMOR CLASS: 5 MOVEMENT: 15, Fl 42(A) HIT DICE: 3 THACO: 17 NO. OF ATTACKS: 1 DAMAGE/ATTACK: 1d8 or by weapon SPECIAL ATTACKS: Spells SPECIAL DEFENSES: See below MAGIC RESISTANCE: Standard SIZE: S (4 tall) MORALE: Unsteady (5-7) XP VALUE: 420 Messenger genies were once djinn, but now serve all genies equally, flitting from plane to plane bearing messages, gifts, treaties, letters, documents, and love letters between noble genies of the various realms. Messenger genies are slim, fluid creatu"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "true_seeing",
+  "name": "True Seeing",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "True Seeing (Divination) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "sixth",
+    "book_pages": [
+      182
+    ],
+    "pdf_pages": [
+      183
+    ],
+    "raw_block": "True Seeing (Divination)\nRange: Touch\nComponents: V, S, M\nDuration: 1 round/level\nCasting Time: 1 round\nArea of Effect: &foot light range\nSaving Throw: None\nWhen the wizard employs this spell, he\nconfers upon the recipient the ability to see\nall things as they actually are. The spell pen-\netrates normal and magical darkness. Secret\ndoors become plain. The exact location of\ndisplaced things is obvious. Invisible things\nbecome visible. Illusions and apparitions\nare seen through. Polymorphed, changed,\nor enchanted objects are apparent. (The real\nform appears translucently super-imposed\non the apparent form: a gold dragon poly-\nmorphed to human form would appear\nhuman with a ghostly dragon looming over\nthe human form.) Unlike the clerical version\nof this spell, the recipient cannot determine\nalignment. The recipient can focus his\nvision to see into the Ethereal plane or the\nbordering areas of adjacent planes. The\nrange of vision conferred is 60 feet. True see-\ning does not penetrate solid objects: it in no\nway confers X-ray vision or its equivalent.\nFurthermore, the spell effects cannot be\nenhanced with magic.\nThe spell requires an ointment for the\neyes that is made from a very rare mush-\nroom powder, saffron, and fat. It costs no\nless than 300 gp per use and must be aged for\nld6 months."
+  },
+  "mechanics": {
+    "school_or_type": "Divination",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "True Seeing",
+      "canonical_name_guess": null,
+      "school_or_type": "Divination",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "1 round/level",
+      "casting_time": "1 round",
+      "area_of_effect": "&foot light range",
+      "saving_throw": "None",
+      "description_excerpt": "When the wizard employs this spell, he confers upon the recipient the ability to see all things as they actually are. The spell pen- etrates normal and magical darkness. Secret doors become plain. The exact location of displaced things is obvious. Invisible things become visible. Illusions and apparitions are seen through. Polymorphed, changed, or enchanted objects are apparent. (The real form appears translucently super-imposed on the apparent form: a gold dragon poly- morphed to human form would appear human with a ghostly dragon looming over the human form.) Unlike the clerical version of this spell, the recipient cannot determine alignment. The recipient can focus his vision to see into the Ethereal plane or the bordering areas of adjacent planes. The range of vision conferred is 60 feet. True see- ing does not penetrate solid objects: it in no way confers X-ray vision or its equival"
+    },
+    "quality_flags": []
+  }
+}

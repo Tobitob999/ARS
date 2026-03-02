@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "factions_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "factions",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Minimums determined Dy the Life Path_ Maximums depend",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 57,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:59Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_factions_p057_0107",
+    "entity_type": "factions",
+    "name_guess": "Minimums determined Dy the Life Path_ Maximums depend",
+    "breadcrumb_path": "Rules Compendium > Page 057 > factions > Minimums determined Dy the Life Path_ Maximums depend",
+    "page_refs": [
+      57
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Minimums determined Dy the Life Path_ Maximums depend on whether your character iS Clan trueborn; for list of all Attribute max- uuInS see thc Attribute Maximums Table_ The numbers parentheses are the absolute maximum values allowed. takirg into account Clan phenotype and tne Exceptional Attribute Tral."
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "anti_magic_shell",
+  "name": "Anti-Magic Shell",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Anti-Magic Shell (Abjuration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "sixth",
+    "book_pages": [
+      173
+    ],
+    "pdf_pages": [
+      174
+    ],
+    "raw_block": "Anti-Magic Shell (Abjuration)\nRange: 0\nComponents: V, S\nDuration: 1 turn/level\nCasting Time: 1\nArea of Effect: l’/level diameter sphere\nSaving Throw: None\nBy means of this spell, the wizard sur-\nrounds himself with an invisible barrier that\nmoves with him. The area within this bar-\nrier is totally impervious to all magic and\nmagical spell effects, thus preventing the\npassage of spells or their effects. Likewise it\nprevents the functioning of any magical\nitems or spells within its confines. The area\nis also impervious to breath weapons, gaze\nor voice attacks, and similar special attack\nforms.\nThe anti-magic shell also hedges out\ncharmed, summoned, or conjured crea-\ntures. It cannot, however, be forced against\nany creature that it would keep at bay; any\nattempt to do creates a discernible pressure\nagainst the barrier, and continued pressure\nwill break the spell. Normal creatures (a\nnormally encountered troll rather than one\nconjured up, for instance) can enter the\narea, as can normal missiles. Furthermore,\nwhile a magical sword does not function\nmagically within the area, it is still a sword.\nNote that creatures on their home plane are\nnormal creatures there. Thus on the elemen-\ntal plane of Fire, a randomly encountered\nfire elemental cannot be kept at bay by this\nspell. Artifacts, relics, and creatures of\n173\ndemigod or higher status are unaffected by\nmortal magic such as this.\nShould the caster be larger than the area\nenclosed by the barrier, parts of his person\nmay be considered exposed, at the referee’s\noption. A dispel magic spell does not re-\nmove the spell; the caster can end it upon\ncommand.\nBigby’s Forceful Hand (Evocation)\nRange: 10 yards/level\nComponents: V, S, M\nDuration: 1 round/level\nArea of Effect: special\n‘ Casting Time: 6\nSaving Throw: None\nBaby‘s forceful hand is a more powerful\nversion of Bigby’s interposing hand. It cre\nates a man-sized (five feet) to gargantuan-\nsized (21 feet) hand that places itself\nbetween the spellcaster and a chosen oppo-\nnent. This disembodied hand then moves to\nremain between the two, regardless of what\nthe spellcaster does or how the oppomt\ntries to get around it. However, the forceful\nhand also pushes on the opponent. This\nforce can push away a creature weighing\n500 pounds or less, slow movement to 10\nfeet per round if the creature weighs be-\ntween 500 and 2,000 pounds, or slow move-\nment by 50% if the creature weighs more\nthan 2,000 pounds.\nA creature pushed away is pushed to the\nrange limit, or until pd an un-\nyielding surface. The hand itself inflicts no\ndamage. The forceful hand has an Armor\nClass of 0, has as many hit points as its\ncaster in full health, and vanishes whar dq-\nstroyed. The caster can cause it to retmat (to\nrelease a trapped opponent, for exampie) or\ndismiss it on command.\nThe material component is a glove."
+  },
+  "mechanics": {
+    "school_or_type": "Abjuration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Anti-Magic Shell",
+      "canonical_name_guess": null,
+      "school_or_type": "Abjuration",
+      "range": "0",
+      "components": "V, S",
+      "duration": "1 turn/level",
+      "casting_time": "1",
+      "area_of_effect": "l’/level diameter sphere",
+      "saving_throw": "None",
+      "description_excerpt": "Baby‘s forceful hand is a more powerful version of Bigby’s interposing hand. It cre ates a man-sized (five feet) to gargantuan- sized (21 feet) hand that places itself between the spellcaster and a chosen oppo- nent. This disembodied hand then moves to remain between the two, regardless of what the spellcaster does or how the oppomt tries to get around it. However, the forceful hand also pushes on the opponent. This force can push away a creature weighing 500 pounds or less, slow movement to 10 feet per round if the creature weighs be- tween 500 and 2,000 pounds, or slow move- ment by 50% if the creature weighs more than 2,000 pounds. A creature pushed away is pushed to the range limit, or until pd an un- yielding surface. The hand itself inflicts no damage. The forceful hand has an Armor Class of 0, has as many hit points as its caster in full health, and vanishes whar dq- stroyed. The "
+    },
+    "quality_flags": []
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0.0",
+  "category": "factions_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "factions",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Name Disgraced Elemental Ticu MHRRIOB Kallation Clan (Ghost",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 64,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:01Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_factions_p064_0119",
+    "entity_type": "factions",
+    "name_guess": "Name Disgraced Elemental Ticu MHRRIOB Kallation Clan (Ghost",
+    "breadcrumb_path": "Rules Compendium > Page 064 > factions > Name Disgraced Elemental Ticu MHRRIOB Kallation Clan (Ghost",
+    "page_refs": [
+      64
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [
+      "211 kg"
+    ],
+    "range_mentions": [
+      "2.59 m"
+    ],
+    "year_mentions": [
+      "3010"
+    ],
+    "stat_tokens": [
+      "Armor",
+      "TN"
+    ],
+    "excerpt": "Name Disgraced Elemental Ticu MHRRIOB Kallation Clan (Ghost Bear) We 29 Height 2.59 m Weight 211 kg chatacter Recoud Sheet TAIRD EDITION ITTRIBUTES TRAITS Value Mod_ Max_ Brave Poverty Contact (3): Chou Vong Owns Vehicle Strength Combat Paralysis Quirk/Clan Honor Body (Initiative: 3010 and take worst 2] Slow earner Dexterity Enemy: Rival GB Elementa Stigma lnner Sphere Bondsman Rellexes -1 Elemental Phenotype Toughness (AIl wounds value] Inlelligence Lemon Vehicle (2): Medium Battle Armor Willpower Charisma COMBAT INFORMATION BIT Location dlagraM Edge Fill in Armor\" Type (A, B Armor +2 and Wounds per Location Social Standing Type A: Leather Vest AV (MBIEX) /0 Type B: AV (MB/EXX) SKILLS Type C: AV (MB/EIX) Type D: AV (MBIEX) Name Bonus cdatt Blade Fatigue First Aid Fatigues WIL KRMMC Gunnery/Ballistic/Humanoid * +1 TN per Fatigue > WIL MKMM I2-1J Gunnery/Laser/Humanoid * Unconscious Fatigue WIL) GunnerylMissile Humanoid- Wounds Interest Ghost Bear Remembrance I1-18 Intimidation Grazing Wounds (WV 1: LanguageEnglish Minor Wounds (WV 21; TN ea , Martial Arts Batllesuit - Serious Wounds (WV 41\" +2 TN ea."
+  }
+}

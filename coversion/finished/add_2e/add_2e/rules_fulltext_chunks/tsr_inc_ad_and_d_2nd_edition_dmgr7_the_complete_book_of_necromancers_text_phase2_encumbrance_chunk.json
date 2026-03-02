@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_2",
+    "tsr_inc_ad_and_d_2nd_edition_dmgr7_the_complete_book_of_necromancers_text",
+    "encumbrance"
+  ],
+  "summary": "Phase-2 Regelchunk: encumbrance aus TSR Inc - AD&D 2nd Edition - DMGR7 - The Complete Book of Necromancers_text.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - DMGR7 - The Complete Book of Necromancers_text",
+    "source_file": "TSR Inc - AD&D 2nd Edition - DMGR7 - The Complete Book of Necromancers_text.pdf",
+    "text": "[PDF_PAGE 20 | score=1] Forbidden: all Rogue and Warrior. Equipment: This wizard has little or no concern for physical appearance or personal possessions (unless magical, of course). As a result, the Philoso- pher will typically be poorly equipped, wearing unkempt and unfashionable clothing, and carrying little besides spell components and a small weapon. Of course, Kazerabet is an exception to this general- ity because of her past history as a former queen. Special Benefits: The Philosopher has the knowl- edge of a sage regarding spells in the school of Necromancy, necromantic magical items, and the netherworld (particularly the Lower Planes). When questioned on this topic, the wizard has a base 5% chance per leve\n[PDF_PAGE 46 | score=1] Mirtul 17, Year of the Bow Three days after skirting Carcathen, we sighted a west- ward sail—a Nelantherese caravel, Retaliatior, standing high in the wind with a full complement of pirates. We tried to beat them to the Race, but they caught us off Nemesser's Tower, though not within sight of land, or we would have surely been lost. As I was calling the crew to clear for action, one of our passengers, the Lady Doctor Tolbert, came on deck and watched the approaching ship with a look of mixed disgust and annoyance. “My husband hated pirates,” the Lady said. I hastily agreed, for she was a sorceress of sorts, as well as a sur- geon. In the past, when the topic of her husband came up, her eyes "
+  },
+  "mechanics": {
+    "topic": "encumbrance",
+    "keywords": [
+      "add_2e",
+      "encumbrance",
+      "tsr_inc_ad_and_d_2nd_edition_dmgr7_the_complete_book_of_necromancers_text"
+    ],
+    "injection_priority": "core",
+    "confidence": 0.05,
+    "page_refs": [
+      20,
+      46
+    ],
+    "raw_text": "[PDF_PAGE 20 | score=1] Forbidden: all Rogue and Warrior. Equipment: This wizard has little or no concern for physical appearance or personal possessions (unless magical, of course). As a result, the Philoso- pher will typically be poorly equipped, wearing unkempt and unfashionable clothing, and carrying little besides spell components and a small weapon. Of course, Kazerabet is an exception to this general- ity because of her past history as a former queen. Special Benefits: The Philosopher has the knowl- edge of a sage regarding spells in the school of Necromancy, necromantic magical items, and the netherworld (particularly the Lower Planes). When questioned on this topic, the wizard has a base 5% chance per leve\n[PDF_PAGE 46 | score=1] Mirtul 17, Year of the Bow Three days after skirting Carcathen, we sighted a west- ward sail—a Nelantherese caravel, Retaliatior, standing high in the wind with a full complement of pirates. We tried to beat them to the Race, but they caught us off Nemesser's Tower, though not within sight of land, or we would have surely been lost. As I was calling the crew to clear for action, one of our passengers, the Lady Doctor Tolbert, came on deck and watched the approaching ship with a look of mixed disgust and annoyance. “My husband hated pirates,” the Lady said. I hastily agreed, for she was a sorceress of sorts, as well as a sur- geon. In the past, when the topic of her husband came up, her eyes "
+  }
+}

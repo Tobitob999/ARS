@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "wall_of_stone",
+  "name": "Wall of Stone",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Wall of Stone (Evocation) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      173
+    ],
+    "pdf_pages": [
+      174
+    ],
+    "raw_block": "Wall of Stone (Evocation)\nRange: 5 yards/level\nComponents: V, S, M\nDuration: Permanent\nCasting Time: 5\nArea of Effect: Special\nSaving Throw: None\nThis spell creates a wall of granite rock\nthat merges into adjoining rock surfaces. It\nis typically employed to close passages, por-\ntals, and breaches against opponents. The\nwall of stone is 1/4 inch thick and up to 20\nsquare feet per level of experience of the\nwizard casting the spell. Thus, a 12th-level\nwizard can create a wall of stone three\ninches thick and up to 240 square feet in sur-\nface area (a =-foot-wide and 20-foot-high\nwall, for example, to completely close a 10’\nX 16’ passage). The wall created need not\nbe vertical nor need it rest upon any firm\nfoundation (see the wull of iron spell); how-\never, it must merge with and be solidly sup-\nported by existing stone. It can be used to\nbridge a chasm, for instance, or as a ramp.\nFor this use, if the span is more than 20 feet,\nthe wall must be arched and buttressed.\nThis requirement reduces the area of effect\nby half. Thus, a 20th-level caster can create\na span with a surface area of 200 square feet.\nThe wall can be crudely shaped to allow\ncrenelations, battlements, and 80 forth by\nlikewise reducing the area. The stone is per-\nmanent unless destroyed by a dispel magic\nspell or a disintegmte spell, or by normal\nmeans such as breaking or chipping.\nThe material component is a small block\nof granite.\nSixth-Level Spells"
+  },
+  "mechanics": {
+    "school_or_type": "Evocation",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Wall of Stone",
+      "canonical_name_guess": null,
+      "school_or_type": "Evocation",
+      "range": "5 yards/level",
+      "components": "V, S, M",
+      "duration": "Permanent",
+      "casting_time": "5",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "This spell creates a wall of granite rock that merges into adjoining rock surfaces. It is typically employed to close passages, por- tals, and breaches against opponents. The wall of stone is 1/4 inch thick and up to 20 square feet per level of experience of the wizard casting the spell. Thus, a 12th-level wizard can create a wall of stone three inches thick and up to 240 square feet in sur- face area (a =-foot-wide and 20-foot-high wall, for example, to completely close a 10’ X 16’ passage). The wall created need not be vertical nor need it rest upon any firm foundation (see the wull of iron spell); how- ever, it must merge with and be solidly sup- ported by existing stone. It can be used to bridge a chasm, for instance, or as a ramp. For this use, if the span is more than 20 feet, the wall must be arched and buttressed. This requirement reduces the area of effect by half. Thus, a 20th-"
+    },
+    "quality_flags": []
+  }
+}

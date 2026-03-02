@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "add_2e",
+    "chapter_map",
+    "toc",
+    "appendix",
+    "tsr_inc_ad_and_d_2nd_edition_phbr09_the_complete_book_of_gnomes_and_halflings"
+  ],
+  "summary": "Automatisch erkannte Kapitel- und Appendix-Marker aus TSR Inc - AD&D 2nd Edition - PHBR09 - The Complete Book of Gnomes and Halflings.pdf.",
+  "source_text": {
+    "detected_chapters": [
+      {
+        "chapter": "3",
+        "title": "GnomishCulture ..",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "4",
+        "title": "Gnome Character Kits ........ 44",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "I",
+        "title": "Myths of the Halflings ........... 1",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "2",
+        "title": "Halfling Subraces",
+        "first_seen_page": 4
+      },
+      {
+        "chapter": "3",
+        "title": "Haffling Culture ..........",
+        "first_seen_page": 4
+      },
+      {
+        "chapter": "4",
+        "title": "Halfling Character Kits .......",
+        "first_seen_page": 4
+      },
+      {
+        "chapter": "5",
+        "title": "Lindendale",
+        "first_seen_page": 4
+      },
+      {
+        "chapter": "4",
+        "title": "Character Kits). These",
+        "first_seen_page": 84
+      }
+    ],
+    "detected_appendices": [],
+    "detection_note": "Extraktion kann Schreibfehler enthalten; Titel wurden 1:1 aus PDF-Text uebernommen."
+  },
+  "mechanics": {
+    "chapter_regex": "\\bChapter\\s+([0-9IVXLC]+)\\s*[:\\-]\\s*([^\\n\\r]{2,120})",
+    "appendix_regex": "\\bAppendix\\s+([0-9IVXLC]+)\\s*[:\\-]\\s*([^\\n\\r]{2,120})",
+    "unique_chapters": 8,
+    "unique_appendices": 0
+  }
+}

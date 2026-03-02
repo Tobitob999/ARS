@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_chunk",
+  "tags": [
+    "mechwarrior_3e",
+    "phase2",
+    "skills"
+  ],
+  "summary": "Phase2 Chunk fuer skills aus OCR-Text.",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "generated_at": "2026-03-02T16:50:57Z"
+  },
+  "mechanics": {
+    "topic": "skills",
+    "injection_priority": "core",
+    "keywords": [
+      "skill",
+      "gunnery",
+      "piloting",
+      "mechanic",
+      "stealth",
+      "negotiation",
+      "technician"
+    ],
+    "page_refs": [
+      96,
+      25,
+      54,
+      59,
+      212,
+      101,
+      105,
+      107
+    ],
+    "raw_text": "[PDF_PAGE 96 | score=71] MECHWARRIOR Jrd EDItIc, SkiLLS In general, Attributes and traits describe what character SUBSKILLS is. By contrast, skills describe what she does. Every character Skills marked on the Skill List (p 59) and in this chapter has set of abilities called skills that together account tor her with an asterisk actually represent groups of related sub- areas of proficiency: It is certain that character will have more skills_ You cannot simply have Technician Skill, for example. You knowledge than her Iist of skills includes_ but such knowledge must have particular kind Technician Skill, such Will be inconsequential compared with nerskills, and only Technician /Electronics areas in which character is skilled is she truly proficient: All Certain skills have very specific lists of subskills while oth- other knowledge is hobby-level at best: ers have wide-open variety definable the players and Bamemaster: Each skill consisting of subskills is defined in the SKILL TYPES individual skill description. Skills can be divided into two broad categories: standard skills and difficult skills Difficult skills are listed in boldface on REGIONAL SUBSKILLS the Skill List (p. 59). Each of these categories is defined below Bureaucracy; Protocol and Streetwise are known as region These two skill types come into play when character al skills Such skills vary considerably by region: character wants t0 attempt something that would require skill they don't who has in-depth knowledge of the yakuza in Combine space have or when determining skill advancement: In general, if may not be able navigate the Free Worlds League underworld character lacks the necessary skill but attempts the action any- at all; This character s Streetwise Skill would not be as useful way, improvising for standard skill is much ea\n[PDF_PAGE 25 | score=69] ORAGTER CREATION er makes for his character in the Life Path_ as well as certain Life Path events_ will determine the balance of character\" $ skills_ After completing the Life Path_ the player can add few extra skills t0 round out his 0r her character. Where path grants skill; the numbers listed after rep resent the Skill Points the character earns toward advancement that Skill: negative number decreases the number of Skill Points earned for that skill, to minimum of Skill Point once that skill is awarded path awards points toward any skill; the player can add those points any skill the character already has_ but not to new Skill Upon finishing the Life Path, the player adds Up the totab points earned for each skill to find its skill bonus using the Skill Points Table (p. 57). The number of Skill Points earned in the Life Path should not be confused with Skill Bonuses granted for Skill advance: ment (see the Character Creation Worksheet; p. 218). For subskills listed as Any, the player may cnoose any sub- skill, appropriate his character'$ affiliation and back ground; For example, character granted Interest /Any Skill mignt choose take Interest /Hiking perhaps Interest/Science Fiction_ You can add these Skill Points to a Any Subskill of the same type whether it is one your character has already earned or a entirely new subskill For example player who chose Interest/Hiking receives another Interest / Any Skill; he can add those Skill Points t0 the Hiking Skill or use them for new Interest Skiii: Occupational Fields Most professions entail certain skills_ Mw3 arranges these sets of skills in occupational fields. Each field consists of sev- eral skills related to particular occupation; The most common fields for MechWarrior characters are shown starting on 52. Fields are u"
+  }
+}

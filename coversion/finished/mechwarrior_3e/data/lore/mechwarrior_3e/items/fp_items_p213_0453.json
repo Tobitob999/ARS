@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "134 Cold weather Bear, 141 Combal actions 109",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 213,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:28Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p213_0453",
+    "entity_type": "items",
+    "name_guess": "134 Cold weather Bear, 141 Combal actions 109",
+    "breadcrumb_path": "Rules Compendium > Page 213 > items > 134 Cold weather Bear, 141 Combal actions 109",
+    "page_refs": [
+      213
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "110 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [
+      "damage"
+    ],
+    "excerpt": "134 Cold weather Bear, 141 Combal actions 109 boatc 141 damage, 114-17 hit location 121-23 Initiative, 110 modifiers movement, 110-11 Paralysis 79. 110 Sense: 79, 110 types_ 111-14 uniforms 141 vehicular; 126-28 weapons 117-21 Commerce 180-82 212"
+  }
+}

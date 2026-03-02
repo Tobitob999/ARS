@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "quests_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "quests",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Magestrix Emma Centrella hopes to ensure her nation's",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 32,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:47Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_quests_p032_0025",
+    "entity_type": "quests",
+    "name_guess": "Magestrix Emma Centrella hopes to ensure her nation's",
+    "breadcrumb_path": "Rules Compendium > Page 032 > quests > Magestrix Emma Centrella hopes to ensure her nation's",
+    "page_refs": [
+      32
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Magestrix Emma Centrella hopes to ensure her nation's continued survival against the predations of pirates and rogue states in the deeper Periphery; the Canopian military force , though large_ lacks experience and depth. Prlmary Language: English Secondary Languages: Spanish, Greek_ Romanian, Urdu Attribute Thresholds: EDG +1 Bonus Skllls: Streetwise /Periphery +1 choose one: Fast Talk +1 First Aid +1 or Seduction Tralts: As officer ranks the Canopus military are pur- chased_ characters with Commission Trait may not have their Rank Trait at higher level than their Wealth Trait."
+  }
+}

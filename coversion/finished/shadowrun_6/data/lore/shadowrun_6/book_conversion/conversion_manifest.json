@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "shadowrun_6",
+    "manifest",
+    "pipeline"
+  ],
+  "summary": "Batch-Manifest fuer coversion workload processing.",
+  "source_text": {
+    "system_id": "shadowrun_6"
+  },
+  "mechanics": {
+    "batch_01_initial_extraction": {
+      "status": "completed",
+      "timestamp": "2026-03-02T16:20:00",
+      "metrics": {
+        "pdf_total": 1,
+        "processed": 1,
+        "page_count": 90,
+        "extracted_characters": 0,
+        "detected_chapters": 0,
+        "detected_appendices": 0,
+        "empty_or_unreadable_pages": 90
+      },
+      "files": [
+        {
+          "source_file": "10654.sr.wake.of.the.comet.300dpi.aa6.pdf - Scan by Anonymous. Clean.pdf",
+          "slug": "10654_sr_wake_of_the_comet_300dpi_aa6_pdf_scan_by_anonymous_clean",
+          "generated": {
+            "pages_jsonl": "data/lore/shadowrun_6/book_conversion/10654_sr_wake_of_the_comet_300dpi_aa6_pdf_scan_by_anonymous_clean_pages.jsonl",
+            "metadata": "data/lore/shadowrun_6/book_conversion/10654_sr_wake_of_the_comet_300dpi_aa6_pdf_scan_by_anonymous_clean_metadata.json",
+            "chapter_map": "data/lore/shadowrun_6/book_conversion/10654_sr_wake_of_the_comet_300dpi_aa6_pdf_scan_by_anonymous_clean_chapter_map.json"
+          }
+        }
+      ]
+    },
+    "batch_02_phase1_mapping": {
+      "status": "completed",
+      "generated": {
+        "phase1_mapping": "data/lore/shadowrun_6/book_conversion/phase1_skeleton_mapping.json",
+        "rules_fulltext_chunks_dir": "data/lore/shadowrun_6/rules_fulltext_chunks/"
+      }
+    },
+    "batch_03_profile_and_chunks": {
+      "status": "completed",
+      "metrics": {
+        "phase2_fields": 1,
+        "rules_fulltext_chunks": 2
+      },
+      "generated": {
+        "profile": "data/lore/shadowrun_6/derived_rules/10654_sr_wake_of_the_comet_300dpi_aa6_pdf_scan_by_anonymous_clean_rules_profile.json"
+      }
+    },
+    "batch_04_derived_rules": {
+      "status": "completed",
+      "generated": {
+        "coverage": "data/lore/shadowrun_6/derived_rules/ars_skeleton_coverage.json",
+        "digest": "data/lore/shadowrun_6/derived_rules/rules_field_digest.json",
+        "merge_candidates": "data/lore/shadowrun_6/derived_rules/rules_merge_candidates.json"
+      }
+    },
+    "batch_05_final_report": {
+      "status": "completed",
+      "metrics": {
+        "completion_state": "complete"
+      },
+      "generated": {
+        "final_report": "data/lore/shadowrun_6/derived_rules/final_completion_report.json"
+      }
+    }
+  }
+}

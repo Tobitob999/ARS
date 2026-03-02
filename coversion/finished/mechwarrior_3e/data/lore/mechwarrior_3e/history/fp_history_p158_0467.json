@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "EQUIPMENT PERSONAL GEAR AND EXPENSES Item Equipment Ratings",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 158,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:56Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p158_0467",
+    "entity_type": "history",
+    "name_guess": "EQUIPMENT PERSONAL GEAR AND EXPENSES Item Equipment Ratings",
+    "breadcrumb_path": "Rules Compendium > Page 158 > history > EQUIPMENT PERSONAL GEAR AND EXPENSES Item Equipment Ratings",
+    "page_refs": [
+      158
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "Tn"
+    ],
+    "excerpt": "EQUIPMENT PERSONAL GEAR AND EXPENSES Item Equipment Ratings Clothing A/A/A Coat Dress Fedora/ Hat Footwear Jacket/Blazer Pants Running Suit Shirt Snorts Skirt /Kilt Sweatshirt Food Bar / Tavern A/A/B Groceries AAA Fast Food C/a/a Typical Restaurant/Club A/A/A Fancy Restaurant A/B/A Mess Hall Housing Single Becroom Apartment Two Bedroom Apartment/Studio Three Bedroom Apartment/Condo/ House VB/A Hotels Tube CfA/A Die A/AA Standard High Class B /B / E Luxuny Suite B/C/4 Base Officer /Enlisted Quarters B/A/A Cost* Notes 8-55 20 44 12-15 17-50 28-36 8-23 22-25 1-5/drink 30/*cek 175/month 200/month 225/month Total purchase cost: 90,000 3/night; 15/week 7 /night; 30/week 35/night 100 /night 350/ight; 2.000 /week 18/night: 60/week Cost varies depending quality ucm service TRAVEL AND ENTERTAINMENT Item Equipment Ratings Transportatlon Public Transport CiNA Taxi Ridc 8/4/4 Aimosnnetic Flight C/n; Suborpila Flent DropShip Flight Inter-System Travel D/B/A Interstellar Tour D/C/4 Entertainment Tri-Vid Set C/A/A Persona Music Set C/A/A Holovids Tnedicr Rental C/A/A Oen Tn-Vid Camera C/A/A Music Concen C/B/A Musi Chips C/a/4 Prini Media Books C/a/a Newsprint C/A/A Cost Notes 1/10 Vanious various Vamidus 2,200-."
+  }
+}

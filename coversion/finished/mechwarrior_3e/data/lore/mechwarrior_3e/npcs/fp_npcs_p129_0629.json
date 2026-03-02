@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Apply the appropriate MW3 modifiers for range_ target",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 129,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:34Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p129_0629",
+    "entity_type": "npcs",
+    "name_guess": "Apply the appropriate MW3 modifiers for range_ target",
+    "breadcrumb_path": "Rules Compendium > Page 129 > npcs > Apply the appropriate MW3 modifiers for range_ target",
+    "page_refs": [
+      129
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "3 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [
+      "AP",
+      "Armor",
+      "armor",
+      "damage"
+    ],
+    "excerpt": "Apply the appropriate MW3 modifiers for range_ target size and any other special situations (see Ranged Combat Modifiers Table 112). If the character\" unit has moved during the turn, consider the character as having used running movement when determining to-hit moditiers_ Most personal weapons nave Iittle effect on the neavy armor f battlefield units altacks with AP lower then have no chance of causing damage at all: Resolve the attack normally using Armor Value of 10."
+  }
+}

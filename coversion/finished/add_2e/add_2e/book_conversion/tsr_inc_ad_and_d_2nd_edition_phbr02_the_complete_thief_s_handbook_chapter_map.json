@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "add_2e",
+    "chapter_map",
+    "toc",
+    "appendix",
+    "tsr_inc_ad_and_d_2nd_edition_phbr02_the_complete_thief_s_handbook"
+  ],
+  "summary": "Automatisch erkannte Kapitel- und Appendix-Marker aus TSR Inc - AD&D 2nd Edition - PHBR02 - The Complete Thief's Handbook.pdf.",
+  "source_text": {
+    "detected_chapters": [
+      {
+        "chapter": "2",
+        "title": "Proficiencies 16",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "3",
+        "title": "Thief Kits 22",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "4",
+        "title": "Thieves' Guild 51",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "5",
+        "title": "Tools of the Trade 90",
+        "first_seen_page": 4
+      },
+      {
+        "chapter": "6",
+        "title": "The Arts of Deception:",
+        "first_seen_page": 4
+      },
+      {
+        "chapter": "8",
+        "title": "The Thief Campaign  ....  1  16",
+        "first_seen_page": 4
+      },
+      {
+        "chapter": "2",
+        "title": "Proficiencies",
+        "first_seen_page": 17
+      },
+      {
+        "chapter": "4",
+        "title": "Thieves' Guilds",
+        "first_seen_page": 52
+      },
+      {
+        "chapter": "4",
+        "title": "Thieves Guilds. Many of the",
+        "first_seen_page": 122
+      }
+    ],
+    "detected_appendices": [],
+    "detection_note": "Extraktion kann Schreibfehler enthalten; Titel wurden 1:1 aus PDF-Text uebernommen."
+  },
+  "mechanics": {
+    "chapter_regex": "\\bChapter\\s+([0-9IVXLC]+)\\s*[:\\-]\\s*([^\\n\\r]{2,120})",
+    "appendix_regex": "\\bAppendix\\s+([0-9IVXLC]+)\\s*[:\\-]\\s*([^\\n\\r]{2,120})",
+    "unique_chapters": 9,
+    "unique_appendices": 0
+  }
+}

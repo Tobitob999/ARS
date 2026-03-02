@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "feu",
+  "name": "Feu",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Feu (IlIusiodPhantasm) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      157
+    ],
+    "pdf_pages": [
+      158
+    ],
+    "raw_block": "Feu (IlIusiodPhantasm)\nRange: 0\nComponents: V, S, M\nDuration: Special\nCasting Time: 4\nArea of Effect: 60’ long cone, 30’ diameter\nSaving Throw: Neg.\nat end, 5’ at base\nWhen a fear spell is cast, the wizard sends\nforth an invisible cone of terror that causes\ncreatures within its area of effect to turn\naway from the caster and flee in panic.\nAffected creatures are likely to drop what-\never they are holding when struck by the\nspell: the base chance of this is 60% at 1st\nlevel (or at 1 Hit Die), and each level (or Hit\nDie) above this reduces the probability by\n5 % . Thus at 10th level there is only a 15 %\nchance, and at 13th level no chance, of\ndropping items. Creatures affected by fear\nflee at their fastest rate for a number of\nmelee rounds equal to the level of experi-\nence of the spellcaster. Undead and crea-\ntures that successfully roll their saving\nthrows vs. the spell are not affected.\nThe material component of this spell is\neither the heart of a hen or a white feather.\n157"
+  },
+  "mechanics": {
+    "school_or_type": "IlIusiodPhantasm",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Feu",
+      "canonical_name_guess": null,
+      "school_or_type": "IlIusiodPhantasm",
+      "range": "0",
+      "components": "V, S, M",
+      "duration": "Special",
+      "casting_time": "4",
+      "area_of_effect": "60’ long cone, 30’ diameter",
+      "saving_throw": "Neg.",
+      "description_excerpt": "at end, 5’ at base When a fear spell is cast, the wizard sends forth an invisible cone of terror that causes creatures within its area of effect to turn away from the caster and flee in panic. Affected creatures are likely to drop what- ever they are holding when struck by the spell: the base chance of this is 60% at 1st level (or at 1 Hit Die), and each level (or Hit Die) above this reduces the probability by 5 % . Thus at 10th level there is only a 15 % chance, and at 13th level no chance, of dropping items. Creatures affected by fear flee at their fastest rate for a number of melee rounds equal to the level of experi- ence of the spellcaster. Undead and crea- tures that successfully roll their saving throws vs. the spell are not affected. The material component of this spell is either the heart of a hen or a white feather. 157"
+    },
+    "quality_flags": []
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Stunned; Knockout Check; +3 to all TNs; half",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 115,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:30Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p115_0526",
+    "entity_type": "npcs",
+    "name_guess": "Stunned; Knockout Check; +3 to all TNs; half",
+    "breadcrumb_path": "Rules Compendium > Page 115 > npcs > Stunned; Knockout Check; +3 to all TNs; half",
+    "page_refs": [
+      115
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "AP",
+      "DAMAGE",
+      "DF",
+      "Damage",
+      "MoS",
+      "Wound"
+    ],
+    "excerpt": "Stunned; Knockout Check; +3 to all TNs; half movement Automatic knockout Instant death MELEE COMBAT DAMAGE Damage from successful melee combat attack based the Deadly Wound Margin of Success between the two fight- Fatal Wound characters: the Hoxem MoS ISsub tracted from the higher MoS t0 find the For AP 0 attacks _ the DF is decreased by the target'$ BOD Fatigue) ."
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "module": "add_2e",
+  "session_id": 77,
+  "total_turns": 10,
+  "total_latency_ms": 13759.9,
+  "avg_latency_ms": 1376.0,
+  "avg_response_chars": 288.8,
+  "total_probes": 4,
+  "total_combat_tags": 0,
+  "total_rules_warnings": 4,
+  "turns": [
+    {
+      "turn": 1,
+      "latency_ms": 2713.6,
+      "response_chars": 387,
+      "probes": 0,
+      "combat_tags": 0,
+      "stat_changes": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": 0
+    },
+    {
+      "turn": 2,
+      "latency_ms": 1195.1,
+      "response_chars": 299,
+      "probes": 0,
+      "combat_tags": 0,
+      "stat_changes": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": 0
+    },
+    {
+      "turn": 3,
+      "latency_ms": 1320.4,
+      "response_chars": 297,
+      "probes": 1,
+      "combat_tags": 0,
+      "stat_changes": 0,
+      "inventory_changes": 0,
+      "time_changes": 0,
+      "facts": 0,
+      "rules_warnings": 1
+    },
+    {
+      "turn": 4,
+      "latency_ms": 1546.5,
+      "response_chars": 371,
+      "probes": 0,
+      "combat_tags": 0,
+      "stat_changes": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 1,
+      "rules_warnings": 0
+    },
+    {
+      "turn": 5,
+      "latency_ms": 1366.8,
+      "response_chars": 346,
+      "probes": 1,
+      "combat_tags": 0,
+      "stat_changes": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": 1
+    },
+    {
+      "turn": 6,
+      "latency_ms": 929.8,
+      "response_chars": 287,
+      "probes": 0,
+      "combat_tags": 0,
+      "stat_changes": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": 0
+    },
+    {
+      "turn": 7,
+      "latency_ms": 1384.4,
+      "response_chars": 314,
+      "probes": 1,
+      "combat_tags": 0,
+      "stat_changes": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": 1
+    },
+    {
+      "turn": 8,
+      "latency_ms": 1069.1,
+      "response_chars": 244,
+      "probes": 1,
+      "combat_tags": 0,
+      "stat_changes": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": 1
+    },
+    {
+      "turn": 9,
+      "latency_ms": 847.8,
+      "response_chars": 156,
+      "probes": 0,
+      "combat_tags": 0,
+      "stat_changes": 0,
+      "inventory_changes": 0,
+      "time_changes": 0,
+      "facts": 0,
+      "rules_warnings": 0
+    },
+    {
+      "turn": 10,
+      "latency_ms": 1386.4,
+      "response_chars": 187,
+      "probes": 0,
+      "combat_tags": 0,
+      "stat_changes": 0,
+      "inventory_changes": 0,
+      "time_changes": 0,
+      "facts": 0,
+      "rules_warnings": 0
+    }
+  ]
+}

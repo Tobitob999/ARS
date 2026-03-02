@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "category": "lore_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "lore",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "BATTLE ARMOR First designed and fielded by the",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 142,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:39Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_lore_p142_0195",
+    "entity_type": "lore",
+    "name_guess": "BATTLE ARMOR First designed and fielded by the",
+    "breadcrumb_path": "Rules Compendium > Page 142 > lore > BATTLE ARMOR First designed and fielded by the",
+    "page_refs": [
+      142
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "ARMOR",
+      "armor",
+      "damage"
+    ],
+    "excerpt": "BATTLE ARMOR First designed and fielded by the Clans some centuries ago, powered armor still relatively new concept t0 tne Inner Sphere_ The suit can withstand damage from the heaviest of weapons_ While heavy and cumbersome the suit Is relatively flexible Tne pilot $ actions translated into myomer enhanced movements of the suit. hence the term power armor."
+  }
+}

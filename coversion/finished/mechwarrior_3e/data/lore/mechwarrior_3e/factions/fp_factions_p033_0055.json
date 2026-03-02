@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "factions_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "factions",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "However, character who leaves his or her Clan",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 33,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:48Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_factions_p033_0055",
+    "entity_type": "factions",
+    "name_guess": "However, character who leaves his or her Clan",
+    "breadcrumb_path": "Rules Compendium > Page 033 > factions > However, character who leaves his or her Clan",
+    "page_refs": [
+      33
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "However, character who leaves his or her Clan must return the equipment: Clan character who ends the Life Path outside the service of the Clans purchases equipment per normal rules (see Leaving the Clans below). Path Restrictions: Severe path restrictions apply to Clan characters based on their birth status and caste These restric- tions are described at each stage under the Clan Characters heading: Clan characters who do not follow these restrictions are branded as dark caste (see Leaving the Clans)."
+  }
+}

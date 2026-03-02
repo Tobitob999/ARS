@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "vehicles_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "vehicles",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Attrlbute Minimums: BOD DEX RFL 3_ WIL 4,",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 38,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:50Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_vehicles_p038_0055",
+    "entity_type": "vehicles",
+    "name_guess": "Attrlbute Minimums: BOD DEX RFL 3_ WIL 4,",
+    "breadcrumb_path": "Rules Compendium > Page 038 > vehicles > Attrlbute Minimums: BOD DEX RFL 3_ WIL 4,",
+    "page_refs": [
+      38
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Attrlbute Minimums: BOD DEX RFL 3_ WIL 4, SOC 6 Attrlbute Thresholds: BOD +1 WIL +1 Tralts: Well-Equipped (2), Quirk/Clan Honor; Stigma, Freebirth Warrior, Promotion (to Rank 2) Also Vehicle (21, unless the character chooses the Infantry Field_ Skills: Career /Soldier +3, First Aid +2, Interest/Clan Remembrance +2, Brawling +4 Navigation /Ground +2, Pistols +2 choose one: Academic/ Any +1 Interest/Any +1 Streetwise /Clan Flelds: Basic Training and Cavalry or Basic Training and Infantry Clan Aerospace Pilot, Clan Elemental or Clan MechWarrior."
+  }
+}

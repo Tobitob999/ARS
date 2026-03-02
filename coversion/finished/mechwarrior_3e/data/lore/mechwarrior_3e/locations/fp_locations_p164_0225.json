@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "locations_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "locations",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "ComStar; meanwhile split into [O factions OverPrecentor Focht's",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 164,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:58Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_locations_p164_0225",
+    "entity_type": "locations",
+    "name_guess": "ComStar; meanwhile split into [O factions OverPrecentor Focht's",
+    "breadcrumb_path": "Rules Compendium > Page 164 > locations > ComStar; meanwhile split into [O factions OverPrecentor Focht's",
+    "page_refs": [
+      164
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "ComStar; meanwhile split into [O factions OverPrecentor Focht's reforms The reactionary group calling itself Word of Blake_ emigrated to the Free Worlds League planet of Gibson with Thomas Marik's blessing 19 June 3055_ bomb blast at charity event On Tharkad killed the Federated Commonwealth' S beloved Archon; Melissa Steiner. Authorities failed to apprenend suspect."
+  }
+}

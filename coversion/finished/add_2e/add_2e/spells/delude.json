@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "delude",
+  "name": "Delude",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Delude (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "third",
+    "book_pages": [
+      148
+    ],
+    "pdf_pages": [
+      149
+    ],
+    "raw_block": "Delude (Alteration)\nRange: 0\nComponents: V, S\nDuration: 1 turn/level\nCasting Time: 3\nArea of Effect: The caster\nSaving Throw: Neg.\nBy means of a delude spell, the wizard\nconceals his own alignment with that of any\ncreature within a 30-foot radius at the time\nthe spell is cast. The creature must be of\nhigher than animal intelligence for the spell\nto work; its own alignment remains un-\nchanged. The creature receives a saving\nthrow vs. spell and, if successful, the delude\nspell fails. If the spell is successful, any\nknow alignment spell used against the caster\ndiscovers only the assumed alignment. Note\nthat a detect good or detect evil also detects\nthe assumed aura, if the aura is strong\nenough. The creature whose aura has been\nassumed radiates magic, but the wizard ra-\ndiates magic only to the creature whose\nalignment has been assumed. If a delude\nspell is used in conjunction with a change\nself or alter self spell, the class of the wizard\ncan be totally hidden, if he is clever enough\nto carry off the disguise."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Delude",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "0",
+      "components": "V, S",
+      "duration": "1 turn/level",
+      "casting_time": "3",
+      "area_of_effect": "The caster",
+      "saving_throw": "Neg.",
+      "description_excerpt": "By means of a delude spell, the wizard conceals his own alignment with that of any creature within a 30-foot radius at the time the spell is cast. The creature must be of higher than animal intelligence for the spell to work; its own alignment remains un- changed. The creature receives a saving throw vs. spell and, if successful, the delude spell fails. If the spell is successful, any know alignment spell used against the caster discovers only the assumed alignment. Note that a detect good or detect evil also detects the assumed aura, if the aura is strong enough. The creature whose aura has been assumed radiates magic, but the wizard ra- diates magic only to the creature whose alignment has been assumed. If a delude spell is used in conjunction with a change self or alter self spell, the class of the wizard can be totally hidden, if he is clever enough to carry off the disguise."
+    },
+    "quality_flags": []
+  }
+}

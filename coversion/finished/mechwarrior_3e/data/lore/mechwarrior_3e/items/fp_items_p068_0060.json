@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Shotgun Reloads (13) Zero-G Operations Micro Power Packs",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 68,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:01Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p068_0060",
+    "entity_type": "items",
+    "name_guess": "Shotgun Reloads (13) Zero-G Operations Micro Power Packs",
+    "breadcrumb_path": "Rules Compendium > Page 068 > items > Shotgun Reloads (13) Zero-G Operations Micro Power Packs",
+    "page_refs": [
+      68
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Shotgun Reloads (13) Zero-G Operations Micro Power Packs (15 Pwr ea ) Flare Pistol Reloads Solar Recharger C-bills: 3,000 Fu que and a8d 206 camage Movement (WIR/S): /19 38 Experience Points: 0 Permission given to photocopy: MECHWARRIOR@ is Registered Trademark of FASA Corporation @ 1999 FASA Corporation"
+  }
+}

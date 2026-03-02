@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_2",
+    "tsr_inc_ad_and_d_2nd_edition_hr4_a_mighty_fortress_text",
+    "encumbrance"
+  ],
+  "summary": "Phase-2 Regelchunk: encumbrance aus TSR Inc - AD&D 2nd Edition - HR4 - A Mighty Fortress_text.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - HR4 - A Mighty Fortress_text",
+    "source_file": "TSR Inc - AD&D 2nd Edition - HR4 - A Mighty Fortress_text.pdf",
+    "text": "[PDF_PAGE 58 | score=2] weather. On garrison duty or during winter, soldiers were billeted in the homes of civilians, who in turn received a tax break. Even so, providing free room and board for two to four hungry, bored soldiers was a strain on poor families and many resented the burden. Of course, all this free time was occasional- ly interrupted by an actual battle. Armor and Weapons The increasing use of firearms led to a de- crease in the use of armor. It simply wasn't ef- fective protection against bullets, Pikemen and cavalrymen who were likely to get in- volved in melee still wore armor, but most sol- diers wore only a leather (\"buff\") coat or no armor at all. They found that lightening their equipment load\n[PDF_PAGE 35 | score=1] The movement rates described in the Dungeon Master's Guide are appropriate for this period. A gentleman riding a horse would typically travel 20 or 30 miles before stopping at an inn for the evening. Traveling 40 miles per day on horseback was considered fast and hard on the horse. Even so, a government courier or post-rider carrying official dispatches could cover 70 to 150 miles per day with regular horse relays and good weather. A horse could be rented for a round trip, but it was often better to buy a horse and sell it at the journey's end, especially for one-way travel. Elaborate four-wheeled carriages were used by royalty and nobility. With open sides and no springs, the ride was quite"
+  },
+  "mechanics": {
+    "topic": "encumbrance",
+    "keywords": [
+      "add_2e",
+      "burden",
+      "encumbrance",
+      "load",
+      "tsr_inc_ad_and_d_2nd_edition_hr4_a_mighty_fortress_text"
+    ],
+    "injection_priority": "core",
+    "confidence": 0.075,
+    "page_refs": [
+      35,
+      58
+    ],
+    "raw_text": "[PDF_PAGE 58 | score=2] weather. On garrison duty or during winter, soldiers were billeted in the homes of civilians, who in turn received a tax break. Even so, providing free room and board for two to four hungry, bored soldiers was a strain on poor families and many resented the burden. Of course, all this free time was occasional- ly interrupted by an actual battle. Armor and Weapons The increasing use of firearms led to a de- crease in the use of armor. It simply wasn't ef- fective protection against bullets, Pikemen and cavalrymen who were likely to get in- volved in melee still wore armor, but most sol- diers wore only a leather (\"buff\") coat or no armor at all. They found that lightening their equipment load\n[PDF_PAGE 35 | score=1] The movement rates described in the Dungeon Master's Guide are appropriate for this period. A gentleman riding a horse would typically travel 20 or 30 miles before stopping at an inn for the evening. Traveling 40 miles per day on horseback was considered fast and hard on the horse. Even so, a government courier or post-rider carrying official dispatches could cover 70 to 150 miles per day with regular horse relays and good weather. A horse could be rented for a round trip, but it was often better to buy a horse and sell it at the journey's end, especially for one-way travel. Elaborate four-wheeled carriages were used by royalty and nobility. With open sides and no springs, the ride was quite"
+  }
+}

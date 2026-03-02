@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Very healthy or tough characters should have high",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 56,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:58Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p056_0219",
+    "entity_type": "history",
+    "name_guess": "Very healthy or tough characters should have high",
+    "breadcrumb_path": "Rules Compendium > Page 056 > history > Very healthy or tough characters should have high",
+    "page_refs": [
+      56
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Very healthy or tough characters should have high Body val ues_ This Attribute represents resilience stamina and physical Willpower (WIL) Ilbeing; can also represent sheer Size, though small but character' Willpower Attribute drives him 0r her forward tough character can have high Body Attribute_ Body is related any endeavor; representing mix wits. determination and to endurance skills such Climbing and Survival and also sheer guts. Because the drive t0 accomplish is often as impor- plays an mportant role in cnaracter' resistance t0 injury: Any 55"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Forgery Klt The forgery kit should be used",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 151,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:54Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p151_0451",
+    "entity_type": "history",
+    "name_guess": "Forgery Klt The forgery kit should be used",
+    "breadcrumb_path": "Rules Compendium > Page 151 > history > Forgery Klt The forgery kit should be used",
+    "page_refs": [
+      151
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "2 M"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Forgery Klt The forgery kit should be used in concert with noteputer; includes variety Ot inks_ papers, magnetic and electronic readers and writers optical scanners and just about everything else needed t0 forge passes and authorizations character using the forgery kit receives 2 Modifier the Forgery Skill Check: The kit is required for complex forgeries of official documents or licenses It includes enough supplies create Up t0 ten complex or thirty simple forged documents before needs to be replenished for 25 percent of the cost of the entire kit; Jump Pack The jump pack, developed several hundred years ago_ gave infantrymen the ability to overcome just about ay obstacle their way: The jump pack is backpack thruster unit that can either assist person in making powertul leaps Or allow him t0 fly through the air Any use of jump pack is extremely noisy; making stealthy approach impossible_ jump pack contains 1,000 fuel points, The assisted jump mode tne most common and fuel-effi cient way t0 use the pack: The soldier launches himself from tne ground and travels up t0 hundred meters in any direction; passing over obstacles as tall as twenty meters; Characters can make one such powered leap each turn at the cost of Simple Action and can Iand with any desired facing; They must make successful Jump Pack Skill Check with modifiers based on the landing site terrain_ Each such jump expends fuel points_ Alternatively, characters can use the pack t0 fly: an extreme dangerous maneuver that also consumes quite bit of fuel."
+  }
+}

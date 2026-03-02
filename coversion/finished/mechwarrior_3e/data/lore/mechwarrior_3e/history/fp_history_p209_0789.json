@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "ComStar Precentor (31. Varldherre (world ruler) (3) The",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 209,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:25Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p209_0789",
+    "entity_type": "history",
+    "name_guess": "ComStar Precentor (31. Varldherre (world ruler) (3) The",
+    "breadcrumb_path": "Rules Compendium > Page 209 > history > ComStar Precentor (31. Varldherre (world ruler) (3) The",
+    "page_refs": [
+      209
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "ComStar Precentor (31. Varldherre (world ruler) (3) The Periphery: Gambler (17. Lostech Prospector Colonia Marshal (21, Diamond Shark Merchant (21, Explorer Corps Precentor (21, Bandit King The Clans: Sibko Training Officer (17, Solahma Warrior (14."
+  }
+}

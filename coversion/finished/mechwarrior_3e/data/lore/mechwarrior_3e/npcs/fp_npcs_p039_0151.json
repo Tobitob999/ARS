@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "CHARAGTER CREATIO ' [Choose one event or roll",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 39,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:51Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p039_0151",
+    "entity_type": "npcs",
+    "name_guess": "CHARAGTER CREATIO ' [Choose one event or roll",
+    "breadcrumb_path": "Rules Compendium > Page 039 > npcs > CHARAGTER CREATIO ' [Choose one event or roll",
+    "page_refs": [
+      39
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "1 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "CHARAGTER CREATIO ' [Choose one event or roll twice ad apply both results: reroll you get 10 and 11- as those events are mutually exclusive] Parent /guardian lost to mishap/combat; you saw happen [Combat Paralysis_ may not enter Military Academy] Trapped too long on planet with semi-toxic atmos phere Slow Learner; Poison Resistance] Just had to get in trouble on Outreach [Enemy; Streetwise Chaos March +1 may not enter Military Academy] Thougnt dead and left behind You burned much accrued karma making back to civilization [EDG -1, Scrounge +2] Around mercenary unit any helping hand is appreci- ated [Choose twO: Career /Any +1, Technician /Any +1_ Scrounge +1_ Streetwise /Any +1] Spent all your spare time on the DropShip bridge [Comms Conv; +2."
+  }
+}

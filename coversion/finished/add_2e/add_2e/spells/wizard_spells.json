@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.2.1",
+  "id": "wizard_spells",
+  "name": "Wizard Spells",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Wizard Spells (8th Level) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "eighth",
+    "book_pages": [
+      189,
+      190
+    ],
+    "pdf_pages": [
+      190,
+      191
+    ],
+    "raw_block": "Wizard Spells (8th Level)\narea from which it &mot wander by any\nmeans until freed. The spell remains until\nthe magical hedge is somehow broken.\nMetamorphosis: Causes the subject to\nchange to some noncorporeal form, save for\nits head or face. The binding is permanent\nuntil some prescribed act fr&s the subject.\nMinimus Containment: The subject is\nshrunken to a height of one inch or even less\nand held within the hedged prison of some\ngem or similar object. The subject of a mini-\nmus containment, metamorphosis, or\nhedged prison radiates a very faint aura of\n% type of binding does not modify the\nmvimg thmw for the chaining form of the\n@. Shwber allows the subject a +1\nbarn, bound slumber a +2 bonus, hedged\nlprvnr a +3 bonus, metamorphosis a +4\nL d minimus containment a +5\nbd-to the saving throw. However, if the\ndjkt b magically weakened, the referee\n--a -1, -2,oreven -4penaltyto\nthe saving throw. A successful saving throw\nenables the subject to burst its bonds and do\nas it pleases.\nA binding spell can be renewed in the case\nof the first three forms of the syll, for the\nsubject does not have the opportunity to\nbreak the bonds. (If anything has caused a\nweakening of a chaiiing or slumber version,\nsuch as attempts to contact the subject or\nmagically touch it, a normal saving throw\napplies to the renewal of the spell.) Other-\nwise, after one year, and each year thereaf-\nter, the subject gains a normal saving throw\nvs. the spell. Whenever it is successful, the\nbinding spell is broken and the creature is\nfree."
+  },
+  "mechanics": {
+    "school_or_type": "8th Level",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Wizard Spells",
+      "canonical_name_guess": null,
+      "school_or_type": "8th Level",
+      "range": null,
+      "components": null,
+      "duration": null,
+      "casting_time": null,
+      "area_of_effect": null,
+      "saving_throw": null,
+      "description_excerpt": "area from which it &mot wander by any means until freed. The spell remains until the magical hedge is somehow broken. Metamorphosis: Causes the subject to change to some noncorporeal form, save for its head or face. The binding is permanent until some prescribed act fr&s the subject. Minimus Containment: The subject is shrunken to a height of one inch or even less and held within the hedged prison of some gem or similar object. The subject of a mini- mus containment, metamorphosis, or hedged prison radiates a very faint aura of % type of binding does not modify the mvimg thmw for the chaining form of the @. Shwber allows the subject a +1 barn, bound slumber a +2 bonus, hedged lprvnr a +3 bonus, metamorphosis a +4 L d minimus containment a +5 bd-to the saving throw. However, if the djkt b magically weakened, the referee --a -1, -2,oreven -4penaltyto the saving throw. A successful saving t"
+    },
+    "quality_flags": [
+      "missing_standard_fields"
+    ]
+  }
+}

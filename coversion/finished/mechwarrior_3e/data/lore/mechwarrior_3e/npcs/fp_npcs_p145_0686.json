@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "It instantly introduces powerful stimulant into the blood",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 145,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:41Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p145_0686",
+    "entity_type": "npcs",
+    "name_guess": "It instantly introduces powerful stimulant into the blood",
+    "breadcrumb_path": "Rules Compendium > Page 145 > npcs > It instantly introduces powerful stimulant into the blood",
+    "page_refs": [
+      145
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "It instantly introduces powerful stimulant into the blood sup ply, meant t0 help rouse person from Fatigue Or unconscious- ness_ Tne stimpatch also injects chemical meant to tem- porarily increase oxygen flow throughout the body Use of stim- patch will immediately allow character t0 recover from stun and reclaim Fatigue points."
+  }
+}

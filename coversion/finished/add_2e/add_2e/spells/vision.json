@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.2.1",
+  "id": "vision",
+  "name": "Vision",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Vision (Divination) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "seventh",
+    "book_pages": [
+      187,
+      188
+    ],
+    "pdf_pages": [
+      188,
+      189
+    ],
+    "raw_block": "Vision (Divination)\nRange: 0\nComponents: V, S, M\nDuration: Special\nCasting Time: 7\nArea of Effect: The caster\nSaving Throw: None\nAt such time as the wizard wishes to gain\nsupernatural guidance, he cast6 a visiOrr\nspell, calling upon whatever power he ole-\nsires aid from, and askirlg the question far\nwhich a vision is to be given in answer. Two\nsix-sided dite are rolled. If they total 2 to 6,\nthe power is annwed and will cause thewiz-\nard, by an ultra-powerful geas or quest, to\ndo some service, and no questions are an-\nswered. If the dice total 7 to 9, the power is\nindifferent, and some minor vision, posbi-\nbly unrelated to the question, is given. A\nscore of 10 or better indicates that the vision\nis granted.\nThe material component of the spell is thc\nsacrifice of something valued by the spell-\ncaster or by the power supplicated. The\nmore precious the sacrifice, the better the\nchance of spell success. A very precious\nitem grants a bonus of +1 on the dice, one\nthat is extremely precious adds +2, and a\npriceless item adds + 3.\n187\nrn\nWizard Spells (8th Level]\nI I\nI N\nI I\nEighth-Level Spells"
+  },
+  "mechanics": {
+    "school_or_type": "Divination",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Vision",
+      "canonical_name_guess": null,
+      "school_or_type": "Divination",
+      "range": "0",
+      "components": "V, S, M",
+      "duration": "Special",
+      "casting_time": "7",
+      "area_of_effect": "The caster",
+      "saving_throw": "None",
+      "description_excerpt": "At such time as the wizard wishes to gain supernatural guidance, he cast6 a visiOrr spell, calling upon whatever power he ole- sires aid from, and askirlg the question far which a vision is to be given in answer. Two six-sided dite are rolled. If they total 2 to 6, the power is annwed and will cause thewiz- ard, by an ultra-powerful geas or quest, to do some service, and no questions are an- swered. If the dice total 7 to 9, the power is indifferent, and some minor vision, posbi- bly unrelated to the question, is given. A score of 10 or better indicates that the vision is granted. The material component of the spell is thc sacrifice of something valued by the spell- caster or by the power supplicated. The more precious the sacrifice, the better the chance of spell success. A very precious item grants a bonus of +1 on the dice, one that is extremely precious adds +2, and a priceless item "
+    },
+    "quality_flags": [
+      "trimmed_merged_block"
+    ]
+  }
+}

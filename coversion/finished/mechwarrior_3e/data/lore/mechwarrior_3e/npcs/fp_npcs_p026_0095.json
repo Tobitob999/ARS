@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "She decides on: Win local writing contest: Computers",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 26,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:43Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p026_0095",
+    "entity_type": "npcs",
+    "name_guess": "She decides on: Win local writing contest: Computers",
+    "breadcrumb_path": "Rules Compendium > Page 026 > npcs > She decides on: Win local writing contest: Computers",
+    "page_refs": [
+      26
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "She decides on: Win local writing contest: Computers Art/Creative Writing This event has similar combination Of ore fair Iy useful skill at +1 and one minor skill at +2, and fits the stage and the character; the gamemaster allows it: Edge and Events Sometimes a event comes up that you do not want your character experience. In most cases these are negative events: however; sometimes positive event can be undesir- able, depending on your character concept."
+  }
+}

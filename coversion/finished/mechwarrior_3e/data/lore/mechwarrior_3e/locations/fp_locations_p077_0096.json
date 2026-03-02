@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "locations_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "locations",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Your first tour launched you Up the ladder",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 77,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:04Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_locations_p077_0096",
+    "entity_type": "locations",
+    "name_guess": "Your first tour launched you Up the ladder",
+    "breadcrumb_path": "Rules Compendium > Page 077 > locations > Your first tour launched you Up the ladder",
+    "page_refs": [
+      77
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Your first tour launched you Up the ladder as you ventured into the Free Worids League: Tnere you made contact with Word of Blake Precentor and League planetary official, negotiating contract to supply them with parts for the construction of several new HPG stations: Impressed by such lucky break, Jose sent you to open up markets the Capellan Confederation."
+  }
+}

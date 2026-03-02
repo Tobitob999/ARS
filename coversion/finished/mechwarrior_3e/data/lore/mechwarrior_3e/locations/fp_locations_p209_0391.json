@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "locations_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "locations",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Ministry Head (31. MIIO secret SCiv\" Regional Controller",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 209,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:25Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_locations_p209_0391",
+    "entity_type": "locations",
+    "name_guess": "Ministry Head (31. MIIO secret SCiv\" Regional Controller",
+    "breadcrumb_path": "Rules Compendium > Page 209 > locations > Ministry Head (31. MIIO secret SCiv\" Regional Controller",
+    "page_refs": [
+      209
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "31. M"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Ministry Head (31. MIIO secret SCiv\" Regional Controller (3 Capellan Confederation: Philosophical Examiner (17, Zhanzeng de Guarg Guerrilla (11. Death Commando (21."
+  }
+}

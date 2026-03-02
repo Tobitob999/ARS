@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Poor Vision rated at 6 points represents blindness,",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 86,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:09Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p086_0366",
+    "entity_type": "npcs",
+    "name_guess": "Poor Vision rated at 6 points represents blindness,",
+    "breadcrumb_path": "Rules Compendium > Page 086 > npcs > Poor Vision rated at 6 points represents blindness,",
+    "page_refs": [
+      86
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Poor Vision rated at 6 points represents blindness, making impossible for the character to make ranged attacks against targets fartner than Short Range and applying Ine Terrible Visibility Modifier (+51 to all sight-based TNs (including attacks) regardless of the actual lighting conditions Because blind char- acters rely on their hearing they also have the Poor Hearing Trait ; iney must apply the Poor Hearing modifiers ranged attack rolls."
+  }
+}

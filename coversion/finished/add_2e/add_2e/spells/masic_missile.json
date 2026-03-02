@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "masic_missile",
+  "name": "Masic Missile",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Masic Missile (Evocation) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": null,
+    "book_pages": [
+      136
+    ],
+    "pdf_pages": [
+      137
+    ],
+    "raw_block": "Masic Missile (Evocation)\nRange: 60 yards + 10 yardsllevel\nComponents: V, S\nDuration: Instantaneous\nCasting Time: 1\nArea of Effect: 1 or more creatures\nSaving Throw: None __\nUse of the magic missile spell creates up to\nfive missiles of magical energy that dart\nforth from the wizards fingertip and unerr-\ningly strike their target. This includes ene-\nmy creatures in a melee. The target creature\nmust be seen or otherwise detected to be hit,\nhowever, so near-total concealment, such as\nin a 10-foot cube\nthat offered by arrow slits, can render the\nspell ineffective. Likewise, the caster must\nbe able to identify the target. He cannot\ndirect a magic missile to “Strike the com-\nmander of the legion,” unless he can single\nout the commander from the rest of the sol-\ndiers. Specific parts of a creature cannot be\nsingled out. Inanimate objects (locks, etc.)\ncannot be damaged by the spell, and any\nattempt to do so wastes the missiles to no\neffect. Against creatures, each missile\ninflicts ld4 + 1 points of damage.\nFor every two extra levels of experience,\nthe wizard gains an additional missile-he\nhas two at 3rd level, three at 5th level, four\nat 7th level, etc., up to a total of five missiles\nat 9th level. If the wizard has multiple mis-\nsile capability, he can have them strike a sin-\ngle target creature or several creatures, as\ndesired."
+  },
+  "mechanics": {
+    "school_or_type": "Evocation",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Masic Missile",
+      "canonical_name_guess": null,
+      "school_or_type": "Evocation",
+      "range": "60 yards + 10 yardsllevel",
+      "components": "V, S",
+      "duration": "Instantaneous",
+      "casting_time": "1",
+      "area_of_effect": "1 or more creatures",
+      "saving_throw": "None __",
+      "description_excerpt": "Use of the magic missile spell creates up to five missiles of magical energy that dart forth from the wizards fingertip and unerr- ingly strike their target. This includes ene- my creatures in a melee. The target creature must be seen or otherwise detected to be hit, however, so near-total concealment, such as in a 10-foot cube that offered by arrow slits, can render the spell ineffective. Likewise, the caster must be able to identify the target. He cannot direct a magic missile to “Strike the com- mander of the legion,” unless he can single out the commander from the rest of the sol- diers. Specific parts of a creature cannot be singled out. Inanimate objects (locks, etc.) cannot be damaged by the spell, and any attempt to do so wastes the missiles to no effect. Against creatures, each missile inflicts ld4 + 1 points of damage. For every two extra levels of experience, the wizard gains "
+    },
+    "quality_flags": []
+  }
+}

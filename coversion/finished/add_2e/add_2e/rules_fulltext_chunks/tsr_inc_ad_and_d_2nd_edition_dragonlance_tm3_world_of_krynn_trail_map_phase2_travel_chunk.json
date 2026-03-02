@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_2_fallback",
+    "tsr_inc_ad_and_d_2nd_edition_dragonlance_tm3_world_of_krynn_trail_map",
+    "travel"
+  ],
+  "summary": "Fallback Phase-2 Regelchunk: travel aus TSR Inc - AD&D 2nd Edition - Dragonlance_ TM3 - World of Krynn Trail Map.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - Dragonlance_ TM3 - World of Krynn Trail Map",
+    "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ TM3 - World of Krynn Trail Map.pdf",
+    "text": "TSR Inc - AD&D 2nd Edition - Dragonlance_ TM3 - World of Krynn Trail Map.pdf"
+  },
+  "mechanics": {
+    "topic": "travel",
+    "keywords": [
+      "add_2e",
+      "dragonlance",
+      "edition",
+      "fallback",
+      "krynn",
+      "trail",
+      "travel",
+      "tsr_inc_ad_and_d_2nd_edition_dragonlance_tm3_world_of_krynn_trail_map",
+      "world"
+    ],
+    "injection_priority": "support",
+    "confidence": 0.2,
+    "page_refs": [
+      1
+    ],
+    "raw_text": "TSR Inc - AD&D 2nd Edition - Dragonlance_ TM3 - World of Krynn Trail Map.pdf"
+  }
+}

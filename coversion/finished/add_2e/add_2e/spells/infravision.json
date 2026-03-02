@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "infravision",
+  "name": "Infravision",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Infravision (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "third",
+    "book_pages": [
+      150
+    ],
+    "pdf_pages": [
+      151
+    ],
+    "raw_block": "Infravision (Alteration)\nRange: Touch\nComponents: V, S, M\nDuration: 2 hours + 1 hour/level\nCasting Time: 1 round\nArea of Effect: Creature touched\nSaving Throw: None\nBy means of this spell, the wizard enables\nthe recipient to see in normal darkness up to\n60 feet without light. Note that strong\nsources of light (fire, lanterns, torches, etc.)\ntend to blind this vision, so infravision does\nnot function efficiently in the presence of\nsuch light sources. Invisible creatures are\n1 50\nnot detectable by infravision.\nther a pinch of dried carrot or an agate.\nThe material component of this spell is ei-"
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Infravision",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "2 hours + 1 hour/level",
+      "casting_time": "1 round",
+      "area_of_effect": "Creature touched",
+      "saving_throw": "None",
+      "description_excerpt": "By means of this spell, the wizard enables the recipient to see in normal darkness up to 60 feet without light. Note that strong sources of light (fire, lanterns, torches, etc.) tend to blind this vision, so infravision does not function efficiently in the presence of such light sources. Invisible creatures are 1 50 not detectable by infravision. ther a pinch of dried carrot or an agate. The material component of this spell is ei-"
+    },
+    "quality_flags": [
+      "trimmed_merged_block"
+    ]
+  }
+}

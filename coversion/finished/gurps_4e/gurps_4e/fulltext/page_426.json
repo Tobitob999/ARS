@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_page",
+  "tags": [
+    "gurps_4e",
+    "fulltext",
+    "pdf_page"
+  ],
+  "summary": "PDF-Seite 426 aus GURPS - 4th Edition - Basic Set.pdf.",
+  "source_text": {
+    "book": "GURPS - 4th Edition - Basic Set",
+    "pdf_page": 426,
+    "text": "Nonhuman Body Parts\nExtra Arms: If you have three or more arms, a\ncrippled arm (hand) simply reduces the number\nof arms (hands) you can use. You only suffer an\nactual disadvantage if reduced to fewer than two\narms (hands).\nExtra Head: If an extraneous head is crippled,\nyou lose the benefits of that Extra Head; seeExtra\nHead (p. 54).\nExtra Legs: If you have three\nor more legs, see Extra Legs\n(p. 54) for the effects of a crip-\npled foot or leg.\nStriker: You cannot use your\nStriker to attack. If your Striker is\nalso a wing or a tail, see below for\nadditional effects.\nTail: Any advantages the tail\nprovides (e.g., Extra Arm or\nStriker) no longer function. As\nwell, your balance is off: -1 DX,\nexcept for close manual tasks. If\nyou’re a swimmer or winged\nflyer, the DX penalty is -2 and\nyou are at half your usual water\nor air Move (which will also\nhalve your top speed with\nEnhanced Move).\nWing: If you have Flight (Winged), you\ncannot fly – and if you were airborne,\nyou fall. If your wing is also a Striker,\nyou cannot use it to attack.\nDuration of \nCrippling Injuries\nIf you suffer a crippling\ninjury, make a HT roll to see how\nserious it is. For battlefield\ninjuries, roll at the end of combat.\nSuccess means the crippling is \ntemporary, failure means it’s last-\ning, and critical failure means \nit’s permanent. Dismemberment \nis automatically permanent –\ndon’t bother rolling!\nTemporary Crippling: Until you are back at full\nHP, you suffer the disadvantages described\nunder Effects of Crippling Injury, above. Once\nyou are fully healed, these effects disappear.\nLasting Crippling: You suffered a broken bone,\nbadly torn (or burned) muscle, or other lingering\ndamage. Roll 1d. This is the number of months it\nwill take for the injury to heal fully. (If the injury\nis treated by a physician, subtract 3 from the roll\nat medical TL7+, 2 at TL6, or 1 at TL5 – but the\nperiod of healing is never less than one month.)\nPermanent Crippling: You lose the use of that\nbody part. It is either nonfunctional or gone.\nEither way, you acquire a new disadvantage (One\n422 I NJURIES, ILLNESS, AND FATIGUE"
+  },
+  "mechanics": {
+    "conversion": "fulltext_page_dump",
+    "generated_at": "2026-03-02T15:00:00"
+  }
+}

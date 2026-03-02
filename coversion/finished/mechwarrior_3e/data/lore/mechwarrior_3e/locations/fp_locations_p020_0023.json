@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "locations_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "locations",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "This means that recovering the normal level of",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 20,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:41Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_locations_p020_0023",
+    "entity_type": "locations",
+    "name_guess": "This means that recovering the normal level of",
+    "breadcrumb_path": "Rules Compendium > Page 020 > locations > This means that recovering the normal level of",
+    "page_refs": [
+      20
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "This means that recovering the normal level of Edge requires sort of balanc ing of the scales fortune wise_ This can be accomplished in three ways_ as described below: The Golden Rule As they say; what goes around comes around The best way to recover from that extra dose of luck you got I5 t0 give luck to other people in the form of good deeds As such your Edge will bounce back whenever you something selfless or generous. Note that these acts need not be spectacular (saving planet from destruction) but on the other hand cannot be trivial (helping an aged ComStar Precentor cross the street)."
+  }
+}

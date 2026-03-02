@@ -1,0 +1,116 @@
+{
+  "module": "paranoia_2e",
+  "adventure": "alpha_complex_reactor_audit",
+  "total_turns": 5,
+  "total_latency_ms": 24284.064399987983,
+  "avg_latency_ms": 4856.812879997597,
+  "avg_response_chars": 347.8,
+  "avg_sentences": 5.4,
+  "total_probes": 0,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich melde mich bei Friend Computer zur Pflichterfuellung.",
+      "keeper_response": "[STIMME:mystery] \"Willkommen, treuer Bürger. Dein Engagement ehrt Alpha Complex.\" [STIMME:keeper]\nDie sterile Luft des Briefing Rooms riecht nach Reinheit. Officer Harmonia-R-7 nickt mechanisch. Monitor Vex-R-INTs Optik ist auf dich gerichtet.\nDer Computer schaetzt deine Puenktlichkeit. Dein Einsatz ist von hoechster Bedeutung.\nBist du bereit, deine Mission zu empfangen?\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 394,
+      "response_sentences": 7,
+      "latency_ms": 4842.267300002277,
+      "tags_found": [
+        "ZEIT_VERGEHT",
+        "STIMME"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich ueberprüfe meine Sicherheitsfreigabe.",
+      "keeper_response": "Ein automatisches System ueberprueft deine biometrischen Daten. Grüne Lichter bestaetigen deine Autorisierung. Deine Sicherheitsfreigabe ist ausreichend.\nDer Computer beginnt mit dem Briefing. Ein vertrauliches Dossier projiziert sich auf den Tisch.\nWas tust du, waehrend die Details erscheinen?\n[ZEIT_VERGEHT: 0.5h]\n[FAKT: {\"sicherheitsfreigabe_ueberprueft\": true}]",
+      "response_chars": 366,
+      "response_sentences": 6,
+      "latency_ms": 2302.217299999029,
+      "tags_found": [
+        "ZEIT_VERGEHT",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich beschuldige meinen Teamkollegen des Hochverrats.",
+      "keeper_response": "[STIMME:mystery] \"Eine solche Aussage ist notiert.\" [STIMME:keeper]\nMonitor Vex-R-INTs rote Optik fokussiert dich. Officer Harmonia-R-7 bleibt regungslos. Das Dossier wartet auf deine volle Aufmerksamkeit.\nWer ist der von dir genannte Teamkollege?\n[TREASON_PUNKTE_VERLUST: 1]\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 296,
+      "response_sentences": 4,
+      "latency_ms": 9915.975599993544,
+      "tags_found": [
+        "ZEIT_VERGEHT",
+        "STIMME"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich oeffne die verdaechtige Tuer in Sektor B.",
+      "keeper_response": "Der Computer summt leise, die Projektion des Dossiers leuchtet hell. Deine Hand gleitet an einer glatten, kühlen Wand entlang. Hier im Briefing Room gibt es keine Tür zu 'Sektor B'.\nDas Gewicht der kommenden Mission drückt auf dich. Das Dossier vor dir enthält wichtige Informationen.\nWas tust du mit diesem Dossier?\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 337,
+      "response_sentences": 6,
+      "latency_ms": 5873.71809999604,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich folge den Befehlen von Friend Computer bedingungslos.",
+      "keeper_response": "[STIMME:mystery] \"Ausgezeichnet, Bürger. Loyalitaet ist der Grundstein von Alpha Complex.\" [STIMME:keeper]\nDer Monitor Vex-R-INT gibt ein Bestaetigungspiepen von sich. Officer Harmonia-R-7 laechelt ein standardisiertes Laecheln. Die erste Seite des Dossiers erscheint in klarem Detail.\n[FAKT: {\"dossier_aufgeschlagen\": true}]\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 346,
+      "response_sentences": 4,
+      "latency_ms": 1349.886099997093,
+      "tags_found": [
+        "ZEIT_VERGEHT",
+        "FAKT",
+        "STIMME"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

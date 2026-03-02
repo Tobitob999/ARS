@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "gurps_4e",
+    "chapter_map",
+    "toc",
+    "appendix",
+    "gurps_4th_edition_basic_set"
+  ],
+  "summary": "Erweiterte Kapitel-/Appendix-Erkennung aus GURPS - 4th Edition - Basic Set.pdf (TOC + Header-Heuristik).",
+  "source_text": {
+    "detected_chapters": [
+      {
+        "chapter": "1",
+        "title": "Creating a Character",
+        "first_seen_page": 12
+      },
+      {
+        "chapter": "2",
+        "title": "Character Traits",
+        "first_seen_page": 34
+      },
+      {
+        "chapter": "3",
+        "title": "Advantages",
+        "first_seen_page": 121
+      },
+      {
+        "chapter": "4",
+        "title": "Disadvantages",
+        "first_seen_page": 169
+      },
+      {
+        "chapter": "5",
+        "title": "Skills",
+        "first_seen_page": 236
+      },
+      {
+        "chapter": "6",
+        "title": "Combat",
+        "first_seen_page": 256
+      },
+      {
+        "chapter": "7",
+        "title": "Injury, Illness, and Fatigue",
+        "first_seen_page": 260
+      }
+    ],
+    "detected_appendices": [],
+    "detection_note": "Extraktion kann Schreibfehler enthalten; Titel wurden 1:1 aus PDF-Text ?bernommen."
+  },
+  "mechanics": {
+    "chapter_regex": "\\\\bChapter\\\\s+([0-9IVXLC]+)\\\\s*[:\\\\-]\\\\s*([^\\\\n\\\\r]{2,120})",
+    "appendix_regex": "\\\\bAppendix\\\\s+([0-9IVXLC]+)\\\\s*[:\\\\-]\\\\s*([^\\\\n\\\\r]{2,120})",
+    "unique_chapters": 7,
+    "unique_appendices": 0,
+    "detection_mode": "toc_line_regex + chapter_header_fallback"
+  }
+}

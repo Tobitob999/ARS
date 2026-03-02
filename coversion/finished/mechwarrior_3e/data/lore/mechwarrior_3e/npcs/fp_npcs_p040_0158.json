@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "lose Well-Connected but gain Brave you back down",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 40,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:52Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p040_0158",
+    "entity_type": "npcs",
+    "name_guess": "lose Well-Connected but gain Brave you back down",
+    "breadcrumb_path": "Rules Compendium > Page 040 > npcs > lose Well-Connected but gain Brave you back down",
+    "page_refs": [
+      40
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "lose Well-Connected but gain Brave you back down and break off the relationship; keep Well-Connected_ but also become Timid] Weekend cruises with the folks [Piloting /Naval +1] You're great at the Mech sims_ but all that playing rots your brain [Natura Aptitude /Piloting / 'Mech Slow Learner; Piloting / Mech +1 Tactics Mech +1] Every school needs source and you happened to be in the wrong place at the right time (SOC Contact; Wealth, Appraisal +1 Negotiation +2, Streetwise +1] Honor Student [Contact; Academic Any +2, Computers +2, Language Any +1 Relative dies and leaves you his vehicle [Vehicle 3), Owns Vehicle] [Choose one event roll twice and apply both results] TRUEBORN BIBKO Clan Affiliation only At this stage, YOU begin individual training MechWarrior, pilot or elemental skills_ Before Clan children reach what the Inner Sphere considers adulthood_ they have already learned all the skills they need to be full-fledged warriors."
+  }
+}

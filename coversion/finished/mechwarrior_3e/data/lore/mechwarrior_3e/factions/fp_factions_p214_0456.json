@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "factions_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "factions",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "INDEX Commission 23. 41, 42, 43, 45, 80",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 214,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:28Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_factions_p214_0456",
+    "entity_type": "factions",
+    "name_guess": "INDEX Commission 23. 41, 42, 43, 45, 80",
+    "breadcrumb_path": "Rules Compendium > Page 214 > factions > INDEX Commission 23. 41, 42, 43, 45, 80",
+    "page_refs": [
+      214
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "30 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "INDEX Commission 23. 41, 42, 43, 45, 80 Comms Conventional, 45, 98 Comms HPG Communications 147-48 182-83 Compact grenade launcner 137 Complex Actions, 109 Compound bo , 134 Computers 39, 42, 43. 45, 46_ 47 , 48 ComStar, 160 Clan invasion and, 163 currency 0l, 182 Free Rasalnague Republic and, 30 media 182 religion, 185 Word af Blake and, 164 Concord Kapetyn, 160 Conditiona modifiers Consciousness rolls 127 Contact; 38, 39 80."
+  }
+}

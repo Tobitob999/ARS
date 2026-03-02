@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "enervation",
+  "name": "Enervation",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Enervation (Necromancy) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      157
+    ],
+    "pdf_pages": [
+      158
+    ],
+    "raw_block": "Enervation (Necromancy)\nRange: 10 yarddlevel\nComponents: V, S\nDuration: ld4 hours + 1 hour/level\nCasting Time: 4\nArea of Effect: 1 creature\nSaving Throw: Neg.\nThis spell temporarily suppresses the sub-\nject’s life force. The necromancer points his\nfinger and utters the incantation, releasing a\nblack bolt of crackling energy. The subject\nmust roll a saving throw vs. spell, adjusted\nfor Dexterity, to avoid the bolt. Success\nmeans the spell has no effect. Failure means\nthe subject is treated exactly as if he had\nbeen drained of energy levels by a wight,\none level for every four levels of the caster.\nHit Dice, spells, and other character details\ndependent on level are lost or reduced.\nThose drained to 0th level must make a sys-\ntem shock check to survive and are helpless\nuntil the spell expires. The spell effect even-\ntually wears off, either after ld4 hours plus\none hour per caster level, or after six hours\nof complete and undisturbed rest. Level\nabilities are regained, but lost spells must be\nrememorized. Undead are immune to this\nspell.\nEvard’s Black Tentacles\n(ConjuratiodSummoning)\nRange: 30 yards\nComponents: V, S, M\nDuration: 1 hour/level\nCasting Time: 1 round\nArea of Effect: 30 sq. ft./levei\nSaving Throw: None\nThis spell creates many rubbery, black\ntentacles in the area of effect. These waving\nmembers seem to spring forth from the\nearth, floor, or whatever surface is\nunderfoot-including water. Each tentacle\nis 10 feet long, AC 4, and requires as many\npoints of damage to destroy as the level of\nthe wizard who cast the spell. There are ld4\nsuch tentacles, plus one per experience level\nof the spellcaster.\nAny creature within range of the writhing\ntentacles is subject to attack as determined by\nthe DM. The target of a tentacle attack must\nroll a saving throw vs. spell. If this succeeds,\nthe subject suffers Id4 points of damage from\ncontact with the tentacle, and then the tentacle\nis destroyed. Failure to save indicates that the\ndamage inflicted is 2d4 points, the ebon mem-\nber is wrapped around its subj&, and damage\nwill be 3d4 points on the second and 8ucoeEd-\ning rounds. Since these tentacles have no in&\nthat they entwine any ow-a tree, post, pil-\nlar, even the wizard himself-or continue to\nsqueeze a dead opponent. A grasping hokl\nestablished by a tentacle remains until the ten-\ntacle is destroyed by some form of attack or\nuntil it disappears at theend ofthe spell’s dura-\ntion.\nThe component for this spell is a piece of\ntentacle from a giant octopus or giant squid.\nligence to guide them, there is the possibility"
+  },
+  "mechanics": {
+    "school_or_type": "Necromancy",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Enervation",
+      "canonical_name_guess": null,
+      "school_or_type": "Necromancy",
+      "range": "10 yarddlevel",
+      "components": "V, S",
+      "duration": "ld4 hours + 1 hour/level",
+      "casting_time": "4",
+      "area_of_effect": "1 creature",
+      "saving_throw": "Neg.",
+      "description_excerpt": "This spell creates many rubbery, black tentacles in the area of effect. These waving members seem to spring forth from the earth, floor, or whatever surface is underfoot-including water. Each tentacle is 10 feet long, AC 4, and requires as many points of damage to destroy as the level of the wizard who cast the spell. There are ld4 such tentacles, plus one per experience level of the spellcaster. Any creature within range of the writhing tentacles is subject to attack as determined by the DM. The target of a tentacle attack must roll a saving throw vs. spell. If this succeeds, the subject suffers Id4 points of damage from contact with the tentacle, and then the tentacle is destroyed. Failure to save indicates that the damage inflicted is 2d4 points, the ebon mem- ber is wrapped around its subj&, and damage will be 3d4 points on the second and 8ucoeEd- ing rounds. Since these tentacles ha"
+    },
+    "quality_flags": []
+  }
+}

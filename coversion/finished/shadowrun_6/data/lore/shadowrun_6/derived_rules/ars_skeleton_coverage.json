@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_coverage",
+  "tags": [
+    "shadowrun_6",
+    "coverage"
+  ],
+  "summary": "Skeleton-Coverage.",
+  "source_text": {
+    "profiles_scope": "data/lore/shadowrun_6/derived_rules/*_rules_profile.json",
+    "profiles_count": 1,
+    "timestamp": "2026-03-02T16:20:00"
+  },
+  "mechanics": {
+    "coverage_by_field": {
+      "extensions": {
+        "books_count": 1,
+        "top_sources": [
+          {
+            "source_file": "10654.sr.wake.of.the.comet.300dpi.aa6.pdf - Scan by Anonymous. Clean.pdf",
+            "profile_file": "data/lore/shadowrun_6/derived_rules/10654_sr_wake_of_the_comet_300dpi_aa6_pdf_scan_by_anonymous_clean_rules_profile.json",
+            "priority": "support",
+            "score": 1,
+            "confidence": 0.1,
+            "page_refs": [
+              1
+            ],
+            "excerpt": ""
+          }
+        ]
+      }
+    }
+  }
+}

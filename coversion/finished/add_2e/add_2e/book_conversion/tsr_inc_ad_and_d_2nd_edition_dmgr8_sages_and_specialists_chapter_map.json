@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "add_2e",
+    "chapter_map",
+    "toc",
+    "appendix",
+    "tsr_inc_ad_and_d_2nd_edition_dmgr8_sages_and_specialists"
+  ],
+  "summary": "Automatisch erkannte Kapitel- und Appendix-Marker aus TSR Inc - AD&D 2nd Edition - DMGR8 - Sages and Specialists.pdf.",
+  "source_text": {
+    "detected_chapters": [
+      {
+        "chapter": "7",
+        "title": "The Healer........,..................",
+        "first_seen_page": 4
+      },
+      {
+        "chapter": "9",
+        "title": "The Scribe .",
+        "first_seen_page": 4
+      },
+      {
+        "chapter": "10",
+        "title": "The Seer...........",
+        "first_seen_page": 4
+      },
+      {
+        "chapter": "11",
+        "title": "Using Specialists............. . ......120",
+        "first_seen_page": 4
+      }
+    ],
+    "detected_appendices": [],
+    "detection_note": "Extraktion kann Schreibfehler enthalten; Titel wurden 1:1 aus PDF-Text uebernommen."
+  },
+  "mechanics": {
+    "chapter_regex": "\\bChapter\\s+([0-9IVXLC]+)\\s*[:\\-]\\s*([^\\n\\r]{2,120})",
+    "appendix_regex": "\\bAppendix\\s+([0-9IVXLC]+)\\s*[:\\-]\\s*([^\\n\\r]{2,120})",
+    "unique_chapters": 4,
+    "unique_appendices": 0
+  }
+}

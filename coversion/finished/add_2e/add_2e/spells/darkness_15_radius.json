@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "darkness_15_radius",
+  "name": "Darkness, 15' Radius",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Darkness, 15' Radius (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "second",
+    "book_pages": [
+      140
+    ],
+    "pdf_pages": [
+      141
+    ],
+    "raw_block": "Darkness, 15' Radius (Alteration)\nRange: 10 yarddlevel\nComponents: V, S, M\nDuration: 1 turn + 1 round/level\nCasting Time: 2\nArea of Effect: '15-foot radius\nSaving Throw: None\nThis spell causes total, impenetrable\ndarkness in the area of effect. Infravision is\nuseless. Neither normal nor magical lat\nworks unless a light or continual light spell\nis used. In the former event, the darkness\nspell is negated by the light spell and vice\nversa.\nThe material components of this spell are\na bit of bat fur and either a drop of pitch or a\npiece of coal."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Darkness, 15' Radius",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "10 yarddlevel",
+      "components": "V, S, M",
+      "duration": "1 turn + 1 round/level",
+      "casting_time": "2",
+      "area_of_effect": "'15-foot radius",
+      "saving_throw": "None",
+      "description_excerpt": "This spell causes total, impenetrable darkness in the area of effect. Infravision is useless. Neither normal nor magical lat works unless a light or continual light spell is used. In the former event, the darkness spell is negated by the light spell and vice versa. The material components of this spell are a bit of bat fur and either a drop of pitch or a piece of coal."
+    },
+    "quality_flags": []
+  }
+}

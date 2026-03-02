@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "This table makes gross generalizations adoui aging; keep",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 61,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:00Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p061_0263",
+    "entity_type": "npcs",
+    "name_guess": "This table makes gross generalizations adoui aging; keep",
+    "breadcrumb_path": "Rules Compendium > Page 061 > npcs > This table makes gross generalizations adoui aging; keep",
+    "page_refs": [
+      61
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "This table makes gross generalizations adoui aging; keep in mina thal eacn character possesses distinct Attributes and so mignt break the stereotype Fof example your character is stronger than average the effects of aging on Strength will be less apparent tnan the table su@gests Tnhc listed Attribute Threshold Modifiers work just like those Starting Cash Any C bills left over after purchasing equipment become the character cash-on-hand when play begins. (It\" = good idea t0 savc few bills just case VOU need some money before the first paycheck comes in.| 80"
+  }
+}

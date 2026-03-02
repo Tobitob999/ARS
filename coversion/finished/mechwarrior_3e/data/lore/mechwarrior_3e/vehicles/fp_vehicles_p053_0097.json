@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "vehicles_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "vehicles",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "must commit yubitsume (finger cut: ting t0 atone",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 53,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:57Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_vehicles_p053_0097",
+    "entity_type": "vehicles",
+    "name_guess": "must commit yubitsume (finger cut: ting t0 atone",
+    "breadcrumb_path": "Rules Compendium > Page 053 > vehicles > must commit yubitsume (finger cut: ting t0 atone",
+    "page_refs": [
+      53
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "must commit yubitsume (finger cut: ting t0 atone Bad Reputation_ Lost Limb] You fall victim to the substance in which you traffic (Addiction (21] Moderately successful: you receive yourfirst irezu family markings, the famous yakuza tattoos [Intimidation +2] Your loyalty brings you the attention vour oyabun [Contact (20] Numerous successful missions Bive vou severa irezumi [Streetwise/Draconis Combine +2 cnoose (wo: Forgery Gambling Appraisal Tnrowing Weapons +1| DCMS scouts uncover Your natural aptitude 'Mech piloting and offer you position in Ghost Regiment yakuza- staffed regiments in the Combine military (Natural Aptitude Piloting Mech."
+  }
+}

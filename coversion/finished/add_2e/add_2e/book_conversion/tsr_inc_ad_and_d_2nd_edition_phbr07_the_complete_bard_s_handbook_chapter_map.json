@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "add_2e",
+    "chapter_map",
+    "toc",
+    "appendix",
+    "tsr_inc_ad_and_d_2nd_edition_phbr07_the_complete_bard_s_handbook"
+  ],
+  "summary": "Automatisch erkannte Kapitel- und Appendix-Marker aus TSR Inc - AD&D 2nd Edition - PHBR07 - The Complete Bard's Handbook.pdf.",
+  "source_text": {
+    "detected_chapters": [
+      {
+        "chapter": "14",
+        "title": "Time and Movement. It is impor-",
+        "first_seen_page": 70
+      },
+      {
+        "chapter": "14",
+        "title": "Time and Move-",
+        "first_seen_page": 71
+      },
+      {
+        "chapter": "2",
+        "title": "Experience), bards gain ex-",
+        "first_seen_page": 102
+      }
+    ],
+    "detected_appendices": [],
+    "detection_note": "Extraktion kann Schreibfehler enthalten; Titel wurden 1:1 aus PDF-Text uebernommen."
+  },
+  "mechanics": {
+    "chapter_regex": "\\bChapter\\s+([0-9IVXLC]+)\\s*[:\\-]\\s*([^\\n\\r]{2,120})",
+    "appendix_regex": "\\bAppendix\\s+([0-9IVXLC]+)\\s*[:\\-]\\s*([^\\n\\r]{2,120})",
+    "unique_chapters": 3,
+    "unique_appendices": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Characters can then simply return home with their",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 133,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:36Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p133_0235",
+    "entity_type": "items",
+    "name_guess": "Characters can then simply return home with their",
+    "breadcrumb_path": "Rules Compendium > Page 133 > items > Characters can then simply return home with their",
+    "page_refs": [
+      133
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Characters can then simply return home with their new toy\" assuming they can make through customs, as this constitutes smuegiing: So long as characters can justify having the items in some way (\"on; picked that up while was fighting the Jade Falcons on Wolcott\" and are not causing other legal problems_ they will Iikely not be hassled_ EQUIPMENT DATA Weapons and other equipment will have various ratings and mechanics tor reterence game play: Statistics for equipment be tound in the equipment tables peginning p."
+  }
+}

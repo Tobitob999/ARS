@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "vehicles_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "vehicles",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Fifteen meters high and ten wide it took",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 11,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:23Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_vehicles_p011_0028",
+    "entity_type": "vehicles",
+    "name_guess": "Fifteen meters high and ten wide it took",
+    "breadcrumb_path": "Rules Compendium > Page 011 > vehicles > Fifteen meters high and ten wide it took",
+    "page_refs": [
+      11
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Fifteen meters high and ten wide it took up large portion of the wall and was one of two that could be used bring Mechs into the bay: It was also our closest avenue of escape and Jaime could work on under par cover from the crates and the massive feet of the Man 0 War also knew would have the tightest security yet; testa ment t0 the priorities of mankind: The estate was warded with good security; but the measures in place to keep someone from walking off with Mech were as strict as possible."
+  }
+}

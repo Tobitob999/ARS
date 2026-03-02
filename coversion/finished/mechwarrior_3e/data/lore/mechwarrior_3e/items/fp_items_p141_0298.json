@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "When choosing armor; cost is not the only",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 141,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:39Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p141_0298",
+    "entity_type": "items",
+    "name_guess": "When choosing armor; cost is not the only",
+    "breadcrumb_path": "Rules Compendium > Page 141 > items > When choosing armor; cost is not the only",
+    "page_refs": [
+      141
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "Armor",
+      "armor"
+    ],
+    "excerpt": "When choosing armor; cost is not the only factor to take into consid eration as the armors that provide the best protection are also the bulkiest and significantly limit mobility: On the other hand_ the lightest armors have Iittle impact on movement or dexterity and provide adequate protection against light pistois (and reduce the effectiveness of heavier weapons): Armor comes in number of styles_ The armored vest iIS probably the best known and most common; protecting only the wearer' torso, though some of the heavier vests fully cover the upper half of the body: with coverage extending down past the groin."
+  }
+}

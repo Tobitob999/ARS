@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "mending",
+  "name": "Mending",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Mending (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": null,
+    "book_pages": [
+      136
+    ],
+    "pdf_pages": [
+      137
+    ],
+    "raw_block": "Mending (Alteration)\nRange: 30 yards\nComponents: V, S, M\nDuration: Permanent\nCasting Time: 1\nArea of Effect: 1 object\nSaving Throw: None\nThis spell repairs small breaks or tears in\nobjects. It will weld a broken ring, chain\nlink, medallion, or slender dagger, provid-\ning but one break exists. Ceramic or wood-\nen objects with multiple breaks can be\ninvisibly rejoined to be as strong as new. A\nhole in a leather sack or wineskin is com-\npletely heal+ over by a mending spell. This\nspell does no , by itself, repair magical items\nof any type. bn e turn after the spell is cast,\nthe magic of the joining fades, and the effect\ncannot be magically dispelled. The maxi-\nmum volume of material the caster can\nmend is one cubic foot per level.\nThe material components of this spell are\ntwo small magnets of any type (lodestone in\nall likelihood) or two burrs."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Mending",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "30 yards",
+      "components": "V, S, M",
+      "duration": "Permanent",
+      "casting_time": "1",
+      "area_of_effect": "1 object",
+      "saving_throw": "None",
+      "description_excerpt": "This spell repairs small breaks or tears in objects. It will weld a broken ring, chain link, medallion, or slender dagger, provid- ing but one break exists. Ceramic or wood- en objects with multiple breaks can be invisibly rejoined to be as strong as new. A hole in a leather sack or wineskin is com- pletely heal+ over by a mending spell. This spell does no , by itself, repair magical items of any type. bn e turn after the spell is cast, the magic of the joining fades, and the effect cannot be magically dispelled. The maxi- mum volume of material the caster can mend is one cubic foot per level. The material components of this spell are two small magnets of any type (lodestone in all likelihood) or two burrs."
+    },
+    "quality_flags": []
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "The Bamemaster can also apply TN Modificr (0",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 134,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:36Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p134_0653",
+    "entity_type": "npcs",
+    "name_guess": "The Bamemaster can also apply TN Modificr (0",
+    "breadcrumb_path": "Rules Compendium > Page 134 > npcs > The Bamemaster can also apply TN Modificr (0",
+    "page_refs": [
+      134
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "TN"
+    ],
+    "excerpt": "The Bamemaster can also apply TN Modificr (0 ary task that shoula be made more difficult by cncumbrance espe cially those involving agility balance very Encmbcred character RFL Attribute reduced DV o Further; ne suffers Fatigue point every time ne Mnakes ee attack ano cveru I/tne he moves at running evading /dis: ergaging speed. veny encumbcred charactcr\" movement speeds are divided in halt (round up , and the cnaracter Cannot sprint The gamemaster can also apply +3 TN Modifier t0 anv task that should be made more difficult by encumbrance espe cially tnose involving agility balance."
+  }
+}

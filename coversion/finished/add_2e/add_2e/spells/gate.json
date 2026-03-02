@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "gate",
+  "name": "Gate",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Gate (Conjuration6ummoning) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "sixth",
+    "book_pages": [
+      234
+    ],
+    "pdf_pages": [
+      235
+    ],
+    "raw_block": "Gate (Conjuration6ummoning)\nSphere: Summoning\nRange: Wyards\nComponents: V, S\nDuration: Special\nCasting Time: 5\nSaving Throw: None\nCasting a gate spell has two effects: it\ncauses an interdimensional connection\nbetween the plane of existence the priest is in\nand the plane in which dwells a specific\nbeing of great power. The result of this con-\nnection is that the sought-after being can\nstep through the gate or portal, from its\nplane to that of the priest. Uttering the spell\nattracts the attention of the dweller on the\nother plane. When casting the spell, the\npriest must name the entity he desires to\nmake use of the gate and to come to his aid.\nArea of Effect: special\nThere is a 100% chance that something\nsteps through the gate. The actions of the\nbeing that comes through depemd on many\nfactors, including the alignment of the\npriest, the nature of those accompanying\nhim, and who or what opposes or threatens\nthe priest. Your DM will decide the exact\nresult of the spell, based on the creature\ncalled, the desires of the caster and the needs\nof the moment. The being gated in either\nreturns immediately or remains to take\naction. Casting this spell ages the priest five\nyears."
+  },
+  "mechanics": {
+    "school_or_type": "Conjuration6ummoning",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Gate",
+      "canonical_name_guess": null,
+      "school_or_type": "Conjuration6ummoning",
+      "range": "Wyards",
+      "components": "V, S",
+      "duration": "Special",
+      "casting_time": "5",
+      "area_of_effect": "special",
+      "saving_throw": "None",
+      "description_excerpt": "There is a 100% chance that something steps through the gate. The actions of the being that comes through depemd on many factors, including the alignment of the priest, the nature of those accompanying him, and who or what opposes or threatens the priest. Your DM will decide the exact result of the spell, based on the creature called, the desires of the caster and the needs of the moment. The being gated in either returns immediately or remains to take action. Casting this spell ages the priest five years."
+    },
+    "quality_flags": []
+  }
+}

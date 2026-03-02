@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "giving shorter range than many other rifles_ Still",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 136,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:37Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p136_0408",
+    "entity_type": "history",
+    "name_guess": "giving shorter range than many other rifles_ Still",
+    "breadcrumb_path": "Rules Compendium > Page 136 > history > giving shorter range than many other rifles_ Still",
+    "page_refs": [
+      136
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "giving shorter range than many other rifles_ Still , one of the more popular designs come Federated Industries and has been widely copied_ Handguns The slug ' throwing handgun IS relatively Iight and easily con: cealed: It is the standard issue sidearm for most militaries and police agencies and it is the civilian selt defense weapon of choice Revolver: The oldest basic design still in service_ its sim- plicity and rugged design make reliable thougn has limit- ed ammunition capacity: Auto- F Pistol: The auto-loading pistol (often referred to as a automatic feeds ammunilion Iromn detachable magazine, allowing higher capacity and quicker reload time than basic revolver, These weapons are prone jams; any fumbled Action Check using auto-pistol results jam."
+  }
+}

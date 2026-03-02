@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0.0",
+  "category": "ruleset_audit",
+  "tags": [
+    "add_2e",
+    "ruleset",
+    "completeness",
+    "batch_22"
+  ],
+  "summary": "Vollstaendigkeitsaudit fuer add_2e-Regelsektionen inkl. Referenzabdeckung.",
+  "source_text": {
+    "ruleset": "modules/rulesets/add_2e.json",
+    "timestamp": "2026-03-02T14:00:00"
+  },
+  "mechanics": {
+    "sections_total": 27,
+    "sections_with_reference_dict": 27,
+    "sections_without_reference_dict": 0,
+    "missing_sections": [],
+    "status": "complete"
+  }
+}

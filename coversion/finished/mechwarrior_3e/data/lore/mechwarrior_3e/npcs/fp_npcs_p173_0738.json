@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "GOVERNMENT The exact territory governed by = marquess",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 173,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:04Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p173_0738",
+    "entity_type": "npcs",
+    "name_guess": "GOVERNMENT The exact territory governed by = marquess",
+    "breadcrumb_path": "Rules Compendium > Page 173 > npcs > GOVERNMENT The exact territory governed by = marquess",
+    "page_refs": [
+      173
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "GOVERNMENT The exact territory governed by = marquess Or marquessa ranges from single continent on rich world to an entire world multi planet duchy The post of marquess is generally hereditary: though some territories are reserved for the children of dukes, The Lyran title of margrave (or margravine}. though similar in many ways t0 tne rank of marquess temporary title given to the commander of front line military district; not hered itary but iS passed on to the next military commander the region; However."
+  }
+}

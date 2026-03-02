@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Variable Level Traits Many traits have several levels;",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 24,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:42Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p024_0069",
+    "entity_type": "npcs",
+    "name_guess": "Variable Level Traits Many traits have several levels;",
+    "breadcrumb_path": "Rules Compendium > Page 024 > npcs > Variable Level Traits Many traits have several levels;",
+    "page_refs": [
+      24
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Variable Level Traits Many traits have several levels; For example, character can have from one to three levels of the Well-Connected Trait (see 891. Levels are variations in trait' Iisted cost Or value For example the three levels of Well Connected cost 2 , and 6 points respectively: When variable trait is awarded in the Life Path, the char- acter receives at the lowest level listed_ unless the path states otherwise If the character gets trait ne or she already has; increase its level by one."
+  }
+}

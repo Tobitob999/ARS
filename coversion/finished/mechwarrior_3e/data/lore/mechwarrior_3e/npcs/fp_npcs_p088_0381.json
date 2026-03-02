@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Without the title she would still have high",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 88,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:20Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p088_0381",
+    "entity_type": "npcs",
+    "name_guess": "Without the title she would still have high",
+    "breadcrumb_path": "Rules Compendium > Page 088 > npcs > Without the title she would still have high",
+    "page_refs": [
+      88
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Without the title she would still have high degree of influence but Iittle actua power. Tne cost this trait i5 equal the character' s SOC Attribute; the higher the Ievel of nobility. tne more costly Ine title."
+  }
+}

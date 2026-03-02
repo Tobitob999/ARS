@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "divination",
+  "name": "Divination",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Divination (Divination) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "fourth",
+    "book_pages": [
+      217
+    ],
+    "pdf_pages": [
+      218
+    ],
+    "raw_block": "Divination (Divination)\nSphere: Divination\nRange: 0\nComponents: V, S, M\nDuration: Special\nCasting Time: 1 turn\nArea of Effect: Special\nSaving Throw: None\nA divination spell is used to gamer a use-\nful piece of advice concerning a specific\ngoal, event, or activity that will occur with-\nin a one-week period. This can be as simple\nas a short phrase, or it might take the form\nof a cryptic rhyme or omen. Unlike the\naugury spell, this gives a specific piece of\nadvice. For example, if the question is \"Will\nwe do well if we venture to the third level?\"\nand a terrible troll guarding 10,OoO gp and a\nshield +I lurks near the entrance to the\nlevel (the DM estimates the party could beat\nthe troll after a hard fight) the divination\nresponse might be: \"Ready oil and open\nflame light your way to wealth.\" In all cases,\nthe DM controls what information is\nreceived and whether additional divinations\nwill supply additional information. Note\nthat if the information is not acted upon, the\nconditions probably change so that the\ninformation is no longer useful (in the exam-\nple, the troll might move away and take the\ntreasure with it).\nThe base chance for a correct divination\nis 60%, plus 1 I for each experience level of\nthe priest casting the spell. The DM makes\nadjustments to this base chance considering\nthe actions being divined (if, for example,\nunusual precautions against the spell have\nbeen taken). If the dice roll is failed, the cast-\ner knows the spell failed, unless specific\nmagic yielding false information is at work.\nThe material components of the divina-\ntion spell are a sacrificial offering, incense,\nand the holy symbol of the priest. If an\nunusually important divination is attempt-\ned, sacrifice of particularly valuable gems,\njewelry, or magical items may be required."
+  },
+  "mechanics": {
+    "school_or_type": "Divination",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Divination",
+      "canonical_name_guess": null,
+      "school_or_type": "Divination",
+      "range": "0",
+      "components": "V, S, M",
+      "duration": "Special",
+      "casting_time": "1 turn",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "A divination spell is used to gamer a use- ful piece of advice concerning a specific goal, event, or activity that will occur with- in a one-week period. This can be as simple as a short phrase, or it might take the form of a cryptic rhyme or omen. Unlike the augury spell, this gives a specific piece of advice. For example, if the question is \"Will we do well if we venture to the third level?\" and a terrible troll guarding 10,OoO gp and a shield +I lurks near the entrance to the level (the DM estimates the party could beat the troll after a hard fight) the divination response might be: \"Ready oil and open flame light your way to wealth.\" In all cases, the DM controls what information is received and whether additional divinations will supply additional information. Note that if the information is not acted upon, the conditions probably change so that the information is no longer useful ("
+    },
+    "quality_flags": []
+  }
+}

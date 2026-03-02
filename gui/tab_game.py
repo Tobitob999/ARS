@@ -425,36 +425,50 @@ class GameTab(ttk.Frame):
         self._output_text.delete("1.0", tk.END)
         self._output_text.configure(state=tk.DISABLED)
 
-        # 3. KI-History zuruecksetzen
         engine = self.gui.engine
-        if hasattr(engine, "ai_backend") and engine.ai_backend:
-            engine.ai_backend.reset_history()
 
-        # 4. Orchestrator-Session-History leeren
+        # 3. KI-Backend: History + alle Caches leeren
+        if hasattr(engine, "ai_backend") and engine.ai_backend:
+            engine.ai_backend.clear_caches()
+
+        # 4. Orchestrator: Session-History, Metrics, Latency leeren
         if hasattr(engine, "_orchestrator") and engine._orchestrator:
-            engine._orchestrator._session_history.clear()
+            orch = engine._orchestrator
+            orch._session_history.clear()
+            orch._metrics_log.clear()
+            orch._turn_number = 0
+            orch._session_start = 0.0
+            if hasattr(orch, "_latency_logger") and orch._latency_logger:
+                orch._latency_logger.clear()
 
         # 5. Combat-Tracker zuruecksetzen
-        if hasattr(engine, "combat_tracker") and engine.combat_tracker:
-            engine.combat_tracker.end_combat()
+        if hasattr(engine, "_orchestrator") and engine._orchestrator:
+            ct = engine._orchestrator._combat_tracker
+            if ct and hasattr(ct, "end_combat"):
+                ct.end_combat()
 
         # 6. Time-Tracker zuruecksetzen
-        if hasattr(engine, "time_tracker") and engine.time_tracker:
-            tt = engine.time_tracker
-            tt._hour, tt._minute, tt._day = 8, 0, 1
-            tt._weather = "klar"
+        if hasattr(engine, "_orchestrator") and engine._orchestrator:
+            tt = getattr(engine._orchestrator, "_time_tracker", None)
+            if tt:
+                tt._hour, tt._minute, tt._day = 8, 0, 1
+                tt._weather = "klar"
 
-        # 7. KI-Monitor Injection-Log leeren
+        # 7. Adventure-Manager Flags zuruecksetzen
+        if hasattr(engine, "_adv_manager") and engine._adv_manager:
+            engine._adv_manager.reset_flags()
+
+        # 8. KI-Monitor Injection-Log leeren
         if hasattr(self.gui, "tab_ki_monitor"):
             monitor = self.gui.tab_ki_monitor
             if hasattr(monitor, "_rules_injection_log"):
                 monitor._rules_injection_log.clear()
 
-        # 8. Status-Meldung
+        # 9. Status-Meldung
         self._append_timestamp()
         self._append_output("Session zurueckgesetzt. Druecke [Start] fuer neue Session.\n", "system")
 
-        # 9. Zum Session-Tab wechseln
+        # 10. Zum Session-Tab wechseln
         self.gui.notebook.select(self.gui.tab_session)
 
     def _on_save(self) -> None:

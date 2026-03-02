@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Child Iabor is legal in most parts the",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 27,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:44Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p027_0105",
+    "entity_type": "npcs",
+    "name_guess": "Child Iabor is legal in most parts the",
+    "breadcrumb_path": "Rules Compendium > Page 027 > npcs > Child Iabor is legal in most parts the",
+    "page_refs": [
+      27
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [
+      "2303"
+    ],
+    "stat_tokens": [],
+    "excerpt": "Child Iabor is legal in most parts the Combine; if character cannot qualify for any other Stage Stage paths he can go to Stage and enter the worktorce , taking Civilian Job and ignoring the listed prerequisites_ DRACONIS COMBINE (HOUSE KURITAJ The first full-scale interstellar military operation was launched in 2303, and eventually Ied t0 the formation of the Draconis Combine in 2319_ Unlike other Inner Sphere nations_ which were formed through the union of already established alliances of planets_ the Draconis Combine owed its birth t0 one world and the indomitable will of one man: Shiro Kurita."
+  }
+}

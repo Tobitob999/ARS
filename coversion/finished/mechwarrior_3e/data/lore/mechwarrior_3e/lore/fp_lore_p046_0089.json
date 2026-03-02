@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "lore_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "lore",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "your rise meteoric [Vehicle (4), SOC +1; may",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 46,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:53Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_lore_p046_0089",
+    "entity_type": "lore",
+    "name_guess": "your rise meteoric [Vehicle (4), SOC +1; may",
+    "breadcrumb_path": "Rules Compendium > Page 046 > lore > your rise meteoric [Vehicle (4), SOC +1; may",
+    "page_refs": [
+      46
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "your rise meteoric [Vehicle (4), SOC +1; may take Officer Candidate School next, then return and con- tinue the Life Path from the same point] Graduate with honors [Promotion, Vchicle (5), SOC +1; may take Of ficer Candidate Schoo next , tnen return and continue the Life Path from the same point] (Choose one event or roll twice and apply both results] Attrlbute Minimumsz BOD RFL 5, WIL 6 Attrlbute Thresholds: BOD +1 WI +1, CHA -1 Tralts: Pain Resistance, Promotion Well-Equipped (21, In For Life_ Quirk /Loyalty to House Kurita SkilIs= Tactics / Infantry +3_ +1 t0 two Basic Training skills_ +2 t0 half the character' = AIT skills (round up) Flelds: Special Forces Next Path: Tour of Duty (4) or Covert Ops (4) Subpath: Officer Candidate School (OCS) Entry via event roll only Time: year Attrlbute Thresholds: WIL +1 Tralts: Commission (Rank 1) Skills: Leadership +2_ Tactics Any +2 Flelds: Officer Training Next Path: Per last path followed TECHNICAL COLLEOE Technical fields such as computer and vehicle repair are taught in small colleges across the Inner Sphere."
+  }
+}

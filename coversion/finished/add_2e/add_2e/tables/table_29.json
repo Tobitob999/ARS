@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2.0",
+  "id": "table_29",
+  "name": "Table 29: THIEVING SKILL ARMOR ADJUSTMENTS",
+  "category": "table",
+  "tags": [
+    "add_2e",
+    "table",
+    "player_handbook",
+    "toc_normalized"
+  ],
+  "summary": "PHB Table 29 (THIEVING SKILL ARMOR ADJUSTMENTS).",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "table_number": 29,
+    "title": "THIEVING SKILL ARMOR ADJUSTMENTS",
+    "book_page": 39,
+    "pdf_page": 40,
+    "raw_page_token": "39"
+  },
+  "mechanics": {
+    "source": "toc_parse_v3",
+    "confidence": "medium"
+  }
+}

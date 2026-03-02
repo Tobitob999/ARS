@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "AP Zero Attacks: Tougher characters are more resistant",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 116,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:30Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p116_0537",
+    "entity_type": "npcs",
+    "name_guess": "AP Zero Attacks: Tougher characters are more resistant",
+    "breadcrumb_path": "Rules Compendium > Page 116 > npcs > AP Zero Attacks: Tougher characters are more resistant",
+    "page_refs": [
+      116
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "AP",
+      "Damage",
+      "armor"
+    ],
+    "excerpt": "AP Zero Attacks: Tougher characters are more resistant to attacks with base armor penetration of 0, such as unarmed melee attacks In the case attacks with an AP 0f 0, the Damage Factor is decreased by an amount equal to the target' $ BOD Attribute minus his current Fatigue_ This modifier cannot ower than character with BOD who has suffered 5 Fatigue Or more would subtract nothing; Pointblank Range: Ranged weapons usea pointblank range or melee combat add Modifier t0 their AP value. Extreme Range= Ranged weapons used at extreme range apply Modifier to their AP value, minimum 0f 1."
+  }
+}

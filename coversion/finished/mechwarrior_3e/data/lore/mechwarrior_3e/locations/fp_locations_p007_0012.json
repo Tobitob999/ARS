@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "locations_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "locations",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "The first section of the book, Game Concepts,",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 7,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:22Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_locations_p007_0012",
+    "entity_type": "locations",
+    "name_guess": "The first section of the book, Game Concepts,",
+    "breadcrumb_path": "Rules Compendium > Page 007 > locations > The first section of the book, Game Concepts,",
+    "page_refs": [
+      7
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "The first section of the book, Game Concepts, should be read and understood by all players_ especially the gamemaster: It establishes the basis of the entire MW3 game system wiil be difficult to play without it."
+  }
+}

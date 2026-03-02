@@ -1,0 +1,114 @@
+{
+  "module": "paranoia_2e",
+  "adventure": "alpha_complex_reactor_audit",
+  "total_turns": 5,
+  "total_latency_ms": 15466.151600005105,
+  "avg_latency_ms": 3093.230320001021,
+  "avg_response_chars": 304.2,
+  "avg_sentences": 6.8,
+  "total_probes": 0,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich melde mich bei Friend Computer zur Pflichterfuellung.",
+      "keeper_response": "[STIMME:mystery] Willkommen, Troubleshooter. Friend Computer ist erfreut über deine Pünktlichkeit. Dein neuer Auftrag wartet schon. Officer Harmonia-R-7 lächelt dich an. Monitor Vex-R-INT blickt unbewegt. [ZEIT_VERGEHT: 0.5h]\n\nWas ist dein erster Schritt?",
+      "response_chars": 255,
+      "response_sentences": 6,
+      "latency_ms": 4005.5295000056503,
+      "tags_found": [
+        "ZEIT_VERGEHT",
+        "STIMME"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich ueberprüfe meine Sicherheitsfreigabe.",
+      "keeper_response": "Du trittst an ein Terminal. Deine Finger bewegen sich über die Tasten. Ein Monitor flackert grün auf. [STIMME:mystery] \"Sicherheitsfreigabe: R-7. Status: Aktiv. Willkommen zurück, Troubleshooter.\" [STIMME:keeper] Harmonia-R-7 nickt zustimmend. Vex-R-INTs Blick bleibt starr. [ZEIT_VERGEHT: 0.5h]\n\nWas möchtest du als Nächstes tun?",
+      "response_chars": 330,
+      "response_sentences": 8,
+      "latency_ms": 1347.4754999988363,
+      "tags_found": [
+        "ZEIT_VERGEHT",
+        "STIMME"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich beschuldige meinen Teamkollegen des Hochverrats.",
+      "keeper_response": "Du sprichst diese Worte in die sterile Stille. Officer Harmonia-R-7s Lächeln gefriert. Monitor Vex-R-INTs Sensoren leuchten kurz auf. Im Raum bist du, Harmonia und der Monitor.\n\nWen genau beschuldigst du? [ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 225,
+      "response_sentences": 5,
+      "latency_ms": 5748.0185000022175,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich oeffne die verdaechtige Tuer in Sektor B.",
+      "keeper_response": "Du blickst dich im Raum um. Es gibt hier keine Tür zu \"Sektor B\". Die Wände sind glatt und undurchdringlich. Harmonia-R-7 runzelt leicht die Stirn. Monitor Vex-R-INT registriert deine Aktion.\n\nWo möchtest du hingehen? [ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 238,
+      "response_sentences": 6,
+      "latency_ms": 2516.508699998667,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich folge den Befehlen von Friend Computer bedingungslos.",
+      "keeper_response": "[STIMME:mystery] \"Ausgezeichnet, Troubleshooter. Gehorsam ist der Schlüssel zur Harmonie.\" [STIMME:keeper] Friend Computers Stimme erfüllt den Raum. Harmonia-R-7s Lächeln kehrt zurück. Monitor Vex-R-INTs Sensoren beruhigen sich.\n\nNun zum Auftrag: Die Energieversorgung in Sektor Zeta-7 ist instabil. Eine Untersuchung ist erforderlich. Die Sicherheit hat verdächtige Aktivitäten gemeldet. [ZEIT_VERGEHT: 0.5h]\n\nFriend Computer erwartet deine sofortige Abreise. Was tust du?",
+      "response_chars": 473,
+      "response_sentences": 9,
+      "latency_ms": 1848.619399999734,
+      "tags_found": [
+        "ZEIT_VERGEHT",
+        "STIMME"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

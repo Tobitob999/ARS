@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "fire_zap",
+  "name": "Fire Zap",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Fire Zap (Abjuration, Evocation) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "second",
+    "book_pages": [
+      204,
+      205
+    ],
+    "pdf_pages": [
+      205,
+      206
+    ],
+    "raw_block": "Fire Zap (Abjuration, Evocation)\nSphere: Elemental (Fire)\nRange: TOU&\nComponents: V, S, M\nDuration: Permanent until discharged\nCasting Time: 1 turn\nArea of Effect: Object touched\nSaving Throw: 112\nAny closeable item (book, box, bottle,\nchest, coffer, coffin, door, drawer, and so\nforth) can be warded by a fire tnzp spell. The\nspell is centered on a point selected by the\nspellcaster. The item so trapped cannot have\na second closure or warding spell placed\nupon it. A knock spell cannot affect a fire\ntrap in any way-as soon as the offendins\nparty opens the item, the trap dischaw.\nAs with most magical traps, a thief has only\nhalf his normal find traps score to detect a\nfire trap. Failure to remove it swcedulIy\ndetonates it immediately. An unsuccessful\ndispel magic spell will not detonate the\nspell. When the trap is discharged, there will\nbe an exprosion of five4oot radius from the\nspell’s center. All creatures within this area\nmust roll saving throws vs. spell. Damage is\nld4 points plus 1 point per level of the cast-\ner; half that total amount for creatures suc-\ncessfully saving. (Underwater, this ward\ninflicts half damage and creates a large\ncloud of steam.) The item trapped is not\nharmed by this explosion.\nThe caster can use the trapped object\nwithout dkdmging it, as can any individ-\nual to whom the spell was specifically\nattuned when cast (the method usually\ninvolves a keyword).\nTo place this spell, the caster must trace\nthe outline of the closure with a stick of\ncharcoal and touch the center of the effect.\nAttunement to another individual requires a\nhair or similar object from the individual.\nThe material components are holly ber-\nries."
+  },
+  "mechanics": {
+    "school_or_type": "Abjuration, Evocation",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Fire Zap",
+      "canonical_name_guess": null,
+      "school_or_type": "Abjuration, Evocation",
+      "range": "TOU&",
+      "components": "V, S, M",
+      "duration": "Permanent until discharged",
+      "casting_time": "1 turn",
+      "area_of_effect": "Object touched",
+      "saving_throw": "112",
+      "description_excerpt": "Any closeable item (book, box, bottle, chest, coffer, coffin, door, drawer, and so forth) can be warded by a fire tnzp spell. The spell is centered on a point selected by the spellcaster. The item so trapped cannot have a second closure or warding spell placed upon it. A knock spell cannot affect a fire trap in any way-as soon as the offendins party opens the item, the trap dischaw. As with most magical traps, a thief has only half his normal find traps score to detect a fire trap. Failure to remove it swcedulIy detonates it immediately. An unsuccessful dispel magic spell will not detonate the spell. When the trap is discharged, there will be an exprosion of five4oot radius from the spell’s center. All creatures within this area must roll saving throws vs. spell. Damage is ld4 points plus 1 point per level of the cast- er; half that total amount for creatures suc- cessfully saving. (Unde"
+    },
+    "quality_flags": []
+  }
+}

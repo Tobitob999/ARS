@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_subsystem",
+  "id": "add_2e_magic_system",
+  "name": "AD&D 2e Magic System",
+  "tags": [
+    "add_2e",
+    "magic",
+    "wizard",
+    "priest",
+    "spellcasting"
+  ],
+  "summary": "Ausarbeitung des Magie-Kapitels mit Arcane/Divine-Unterbau und Zauberprozess.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "primary_chapter": {
+      "chapter": 7,
+      "slug": "magic",
+      "book_pages": [
+        80,
+        87
+      ]
+    },
+    "chapter_file": "data/lore/add_2e/chapters/chapter_07_magic.json"
+  },
+  "mechanics": {
+    "spellcasting_pipeline": [
+      "prepare_or_pray",
+      "check_components",
+      "set_casting_time",
+      "resolve_interruptions",
+      "apply_effects_and_saves"
+    ],
+    "wizard_magic": {
+      "schools": [
+        "abjuration",
+        "alteration",
+        "conjuration_summoning",
+        "divination",
+        "enchantment_charm",
+        "illusion_phantasm",
+        "invocation_evocation",
+        "necromancy"
+      ],
+      "learning_spells": "Intelligence limits/chance to learn apply.",
+      "specialist_wizards": "School focus with access/tradeoff model."
+    },
+    "priest_magic": {
+      "sphere_model": "Access by deity/mythos and priest type.",
+      "granted_powers": "Class/mythos dependent.",
+      "turn_undead_link": "Interacts with combat subsystem."
+    },
+    "components": {
+      "types": [
+        "V",
+        "S",
+        "M"
+      ],
+      "optional_rule": "Component tracking can be enforced."
+    },
+    "research": {
+      "wizard_research": "Custom spell research available by campaign rules.",
+      "priest_research": "Divine constraints by ethos/sphere."
+    },
+    "references": {
+      "spell_index": "data/lore/add_2e/indices/spell_index.json",
+      "spell_files_dir": "data/lore/add_2e/spells/"
+    },
+    "reference_tables": []
+  }
+}

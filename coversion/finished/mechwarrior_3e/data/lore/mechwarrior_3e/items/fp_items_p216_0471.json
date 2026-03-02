@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "132 Recoil compensators 139 Reflexes (RFL , 55",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 216,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:30Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p216_0471",
+    "entity_type": "items",
+    "name_guess": "132 Recoil compensators 139 Reflexes (RFL , 55",
+    "breadcrumb_path": "Rules Compendium > Page 216 > items > 132 Recoil compensators 139 Reflexes (RFL , 55",
+    "page_refs": [
+      216
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "132 Recoil compensators 139 Reflexes (RFL , 55 Refueling cost, 132 Refusal, Trial 0f , 190 Refusal War; 164 Regiment; 197 Regional subskills_ Religion 18488 193 Reload cost; 132 Repair kits 148 Repairs 133-34 Representative democracy: 170 Respirator, 146 Revolver, 135 Rewards 208-9 Riding; 34_ 105 Rifles, 37 _ 38. 105 135_ 136 Roleplaying award 209 Ronin Wars Rorynex RM- 3/XXI SMG. 135 Roundhouse kick maneuver; 103 Running 105_ 111 Natural Aptitude 84."
+  }
+}

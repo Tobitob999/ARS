@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Note that this roll is open ended Iike",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 111,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:29Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p111_0500",
+    "entity_type": "npcs",
+    "name_guess": "Note that this roll is open ended Iike",
+    "breadcrumb_path": "Rules Compendium > Page 111 > npcs > Note that this roll is open ended Iike",
+    "page_refs": [
+      111
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Note that this roll is open ended Iike an Action Check; any 10s rolled are rolled again ad added to the Initiative total; Characters take their phases in Initiative order; starting with the character who has the highest Initiative score the event 0i the character with the higher RFL Attribute acts first. Further ties are resolved y an additional tie-breaking die roll; character can choose delay part of his phase atter using part 0i It."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "quests_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "quests",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "High School (2), Street (2) Blue Collar Events",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 34,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:49Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_quests_p034_0029",
+    "entity_type": "quests",
+    "name_guess": "High School (2), Street (2) Blue Collar Events",
+    "breadcrumb_path": "Rules Compendium > Page 034 > quests > High School (2), Street (2) Blue Collar Events",
+    "page_refs": [
+      34
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "1 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "High School (2), Street (2) Blue Collar Events You re not that far from the street; you nearly got killed in street fight [Choose one: Combat Paralysis Lost Limb (2)] Times were really tough [Poverty; must also choose Street Path Stage 2] You worked alongside your parents at the factory [Career /Any +1_ Poor Hearing] Another childhood wasted on holovids [Interest /Holovid Shows +2 Career /Any Family worked on asteroid mining facility [G Tolerance Zero G Operations +10 Learned many skills in the kid scouts [First Aid +1_ Survival +1] Already learning how to fix the family car (Natural Aptitude / Technician /ICE] Started early in sports IRFL +1 Interest/Any sport Swimming Your parents were both the military; SO you grew up an army brat' [Career /Soldier +1 Pistols +1 may choose Military School Mercenary Brat as next path] big job promotion in the family [SOC +1 Wealth; may take Preparatory School as next path] [Choose one event roll twice and apply both results] BACK WOODS Raised in the country; You are hardy but unrefined and uneducated: Your parents subsisted on hunting and gathering probably in the remote areas ol the Periphery less prosperous Inner Sphere world Attrlbute Thresholds: STR +1, BOD +1 RFL +1 INT -1, CHA SOC -1 Tralts: Poverty SkIlIs: Language_ Affiliation -1 Scrounge +2, Survival +1 _ choose one: Swimming +1 , Running +1 or Climbing +1 Next Path: Back Woods (2), Farm (2), Street (2) CLAN WAR ORPHAN Lyran Alliance Free Rasalhague Republic or Draconis Combine Atfiliations only Your family was killed or you lost them during the Clan invasion or raid."
+  }
+}

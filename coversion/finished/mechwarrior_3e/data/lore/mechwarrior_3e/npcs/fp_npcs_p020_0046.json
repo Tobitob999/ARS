@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Ultimately; to the gamemaster to decide what deeds",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 20,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:41Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p020_0046",
+    "entity_type": "npcs",
+    "name_guess": "Ultimately; to the gamemaster to decide what deeds",
+    "breadcrumb_path": "Rules Compendium > Page 020 > npcs > Ultimately; to the gamemaster to decide what deeds",
+    "page_refs": [
+      20
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Ultimately; to the gamemaster to decide what deeds are worthy of Edge recovery and how many points are recovered per deed The scale of deeds should also be balanced against the character and his station and means For example donating large sum of money to charity might qualify; but what consti: tutes \"large sum' varies from one character t0 another: example is when the die roll for an important action results in an abysmal failure (especially fumble) ."
+  }
+}

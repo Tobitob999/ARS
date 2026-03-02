@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_page",
+  "tags": [
+    "gurps_4e",
+    "fulltext",
+    "pdf_page"
+  ],
+  "summary": "PDF-Seite 420 aus GURPS - 4th Edition - Basic Set.pdf.",
+  "source_text": {
+    "book": "GURPS - 4th Edition - Basic Set",
+    "pdf_page": 420,
+    "text": "These rules cover attacks that don’t\nsimply bash through the target’s DR to\ninjure him.\nAFFLICTIONS\nAn “affliction” is any attack that\ncauses a baneful effect – blindness,\nchoking, stunning, etc. – instead of\ndamage. Examples include tear gas,\nstun guns, the Affliction advantage\n(p. 35), and most other “nonlethal”\nweapons and powers.\nThe target of an affliction always\ngets a modified HT roll to resist; e.g.,\nHT-3. His DR normally adds to this\nroll; for instance, DR 1 gives +1 to HT.\nHowever, afflictions often have armor\ndivisors or special “penetration modi-\nfiers” (see below) that bypass some or\nall of the target’s DR. For example, DR\ngives no HT bonus against a follow-up\naffliction if the “carrier” attack pene-\ntrates DR.\nOn a failed HT roll, the victim suf-\nfers the effects of the affliction: stun-\nning for high-tech stun guns, choking\nand partial blindness for tear gas, \netc. See Afflictions (p. 428) for descrip-\ntions of the most common effects.\nSince afflictions represent a huge\nvariety of different attacks – from\nbeam weapons to chemical agents to\npsionic mind blasts – you should con-\nsult the footnotes to the relevant\nweapon table for full details.\nLinked Afflictions: Some attacks\nthat inflict ordinary damage have an\naffliction “linked” to them. For exam-\nple, a cattle prod does burning dam-\nage and requires the victim to make a\nHT-3 roll to avoid stunning. Anyone\nhit by such an attack must attempt his\nresistance roll or suffer the affliction,\nregardlessof whether any damage pen-\netrates his DR.\nSide Effects: Certain damaging\nattacks cause an affliction as a “side\neffect” . . . if they inflict injury. The vic-\ntim gets a HT roll to resist, but typi-\ncally at -1 per 2 points of injury.\nSPECIAL\nPENETRATION\nMODIFIERS\nIn addition to armor divisors \n(see Armor Divisors and Penetration\nModifiers, p. 378) and follow-up\nattacks (see Follow-Up Damage,\np. 381), there are several other “pene-\ntration modifiers”:\nBlood Agent: The attack must\nreach an open wound or mucous\nmembrane (eyes, open mouth, nose,\netc.) to be effective. If it does not, it\nhas no effect at all. See Blood Agent\n(p. 110) for detailed rules.\nContact Agent: This is most com-\nmon for contact poison, nerve gas,\nand exotic “hand of death” effects.\nThe attack must touch bare skin or\nporous clothing to have any effect.\nAny DR stops it, unless the DR is lim-\nited with Tough Skin. Exception: If the\nattack is an Area Effect (p. 102) or\nCone (p. 103), it affects everyone in\nthe area who lacks the Sealed advan-\ntage (either innate or granted by a\nsealed suit).\nRespiratory Agent: The attack\naffects only those who inhale it. DR\nhas no effect – but the attack cannot\nharm those who are holding their\nbreath, breathing supplied air (e.g., in\na vacuum suit), or using a gas mask or\nrespirator. It is also totally ineffective\nagainst anyone who has either the\nDoesn’t Breathe or Filter Lungs\nadvantage.\nSense-Based: The attack is chan-\nneled through one or more of the vic-\ntim’s senses (e.g., vision or hearing),\nas specified for the attack. It can only\naffect someone using the targeted\nsense. See Sense-Based (p. 109) for\ndetails.\n416 S PECIAL COMBAT SITUATIONS\nSPECIAL DAMAGE\n"
+  },
+  "mechanics": {
+    "conversion": "fulltext_page_dump",
+    "generated_at": "2026-03-02T15:00:00"
+  }
+}

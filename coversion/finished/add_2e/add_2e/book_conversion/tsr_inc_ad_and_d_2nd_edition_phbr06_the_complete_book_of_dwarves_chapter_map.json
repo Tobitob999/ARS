@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "add_2e",
+    "chapter_map",
+    "toc",
+    "appendix",
+    "tsr_inc_ad_and_d_2nd_edition_phbr06_the_complete_book_of_dwarves"
+  ],
+  "summary": "Automatisch erkannte Kapitel- und Appendix-Marker aus TSR Inc - AD&D 2nd Edition - PHBR06 - The Complete Book of Dwarves.pdf.",
+  "source_text": {
+    "detected_chapters": [
+      {
+        "chapter": "I",
+        "title": "Character Creatlon ...................... 28",
+        "first_seen_page": 4
+      },
+      {
+        "chapter": "6",
+        "title": "Dwarf Kits .............................. 49",
+        "first_seen_page": 4
+      }
+    ],
+    "detected_appendices": [],
+    "detection_note": "Extraktion kann Schreibfehler enthalten; Titel wurden 1:1 aus PDF-Text uebernommen."
+  },
+  "mechanics": {
+    "chapter_regex": "\\bChapter\\s+([0-9IVXLC]+)\\s*[:\\-]\\s*([^\\n\\r]{2,120})",
+    "appendix_regex": "\\bAppendix\\s+([0-9IVXLC]+)\\s*[:\\-]\\s*([^\\n\\r]{2,120})",
+    "unique_chapters": 2,
+    "unique_appendices": 0
+  }
+}

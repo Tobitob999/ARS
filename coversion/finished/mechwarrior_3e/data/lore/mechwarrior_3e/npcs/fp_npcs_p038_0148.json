@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "[Commission (Rank 3). Good Reputation (2). Vehicle (5),",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 38,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:51Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p038_0148",
+    "entity_type": "npcs",
+    "name_guess": "[Commission (Rank 3). Good Reputation (2). Vehicle (5),",
+    "breadcrumb_path": "Rules Compendium > Page 038 > npcs > [Commission (Rank 3). Good Reputation (2). Vehicle (5),",
+    "page_refs": [
+      38
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "[Commission (Rank 3). Good Reputation (2). Vehicle (5), Custom Vehicle (21] FARM Your parents couldn t afford t0 send you off t0 school the academy, SO you stayed on at the farm_ Season after sea son , yoU saw your friends go offplanet while you worked your butt off in the fields You planned to join them someday: Skllls: Animal Handling +2, Career/Farming +1 Piloting /Tracked +1, Piloting /Wheeled +1_ Rifles +1 Next Path: Military Enlistment (3), Ne'er-Do-Well (4)."
+  }
+}

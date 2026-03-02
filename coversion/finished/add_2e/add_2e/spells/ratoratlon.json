@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "ratoratlon",
+  "name": "Ratoratlon",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Ratoratlon (Necromancy) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "sixth",
+    "book_pages": [
+      235
+    ],
+    "pdf_pages": [
+      236
+    ],
+    "raw_block": "Ratoratlon (Necromancy)\nReversible\nSphere: Necromantic\nRange: Touch\nComponents: V, S\nDuration: Permanent\nCasting Time: 3 rounds\nArea of Effect: Creature touched\nSaving Throw: None\nWhen this spell is cast, the life energy\nlevel of the recipient creature is raised by\none. This reverses any previous life energy\nlevel drain of the creature by a force or mon-\nster. Thus, if a 10th-level character had been\nstruck by a wight and drained to 9th level,\nthe restorution spell would bring the charac-\nter up to exactly the number of experience\npoints necessary to restore him to 10th level\nonce again, restoring additional Hit Dice (or\nhit points) and level functions accordingly.\nRestoration is effective only if the spell is\ncast within one day of the recipient's loss of\nlife energy, per experience level of the priest\ncasting it. A restorution spell restores the\nintelligence of a creature affected by a\nfeeblemind spell. It also negates all forms of\ninsanity. Casting this spell ages both the\ncaster and the recipient by two years.\nThe reverse, energy drain, draws away\none life energy level (see such undead as\nspectre, wight, and vampire, in the Mon-\nstrous Compendium). The energy drain\nrequires the victim to be touched. Casting\nthis form of the spell does not age the caster."
+  },
+  "mechanics": {
+    "school_or_type": "Necromancy",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Ratoratlon",
+      "canonical_name_guess": null,
+      "school_or_type": "Necromancy",
+      "range": "Touch",
+      "components": "V, S",
+      "duration": "Permanent",
+      "casting_time": "3 rounds",
+      "area_of_effect": "Creature touched",
+      "saving_throw": "None",
+      "description_excerpt": "When this spell is cast, the life energy level of the recipient creature is raised by one. This reverses any previous life energy level drain of the creature by a force or mon- ster. Thus, if a 10th-level character had been struck by a wight and drained to 9th level, the restorution spell would bring the charac- ter up to exactly the number of experience points necessary to restore him to 10th level once again, restoring additional Hit Dice (or hit points) and level functions accordingly. Restoration is effective only if the spell is cast within one day of the recipient's loss of life energy, per experience level of the priest casting it. A restorution spell restores the intelligence of a creature affected by a feeblemind spell. It also negates all forms of insanity. Casting this spell ages both the caster and the recipient by two years. The reverse, energy drain, draws away one life ene"
+    },
+    "quality_flags": []
+  }
+}

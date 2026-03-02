@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "detect_evil",
+  "name": "Detect Evil",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Detect Evil (Divination) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "ninth",
+    "book_pages": [
+      199
+    ],
+    "pdf_pages": [
+      200
+    ],
+    "raw_block": "Detect Evil (Divination)\nReversible\nSphere: All\nRange: 120 yards\nComponents: V, S, M\nDuration: 1 turn + 5 rounds/level\nCasting Time: 1 round\nArea of Effect: 10-foot path\nSaving Throw: None\nThis spell discovers emanations of evil, or\nof good in the case of the reverse spell, from\nany creature, object, or area. Character\nalignment, however, is revealed only under\nunusual circumstances: characters who are\nstrongly aligned, who do not stray from\ntheir faith, and who are of at least 9th level\nmight radiate good or evil if intent upon ap-\npropriate actions. Powerful monsters, such\nas rakshasas or ki-rin, send forth emana-\ntions of evil or good, even if polymorphed.\nAligned undead radiate evil, for it is this\npower and negative force that enable them\nto continue existing. An evilly cursed object\nor unholy water radiates evil, but a hidden\ntrap or an unintelligent viper does not.\nThe degree of evil (faint, moderate,\nstrong, overwhelming) and possibly its gen-\neral nature (expectant, malignant, gloating,\netc.) can be noted. If the evil is overwhelm-\ning, the priest has a 10% chance per level of\ndetecting its general bent (lawful, neutral,\nchaotic). The duration of a detect ail (or\ndetect good) spel1 is one turn plus five\nrounds per level of the priest. Thus a priest\nof 1st experience level can cast a spell with a\n15-round duration, at 2nd level he can cast a\n20-round duration spell, etc\n1 99\ni.0\npath of detection 10 feet wide in the direc-\ntion in which the priest is facing. The priest\nmust concentrate-stop, have quiet, and in-"
+  },
+  "mechanics": {
+    "school_or_type": "Divination",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Detect Evil",
+      "canonical_name_guess": null,
+      "school_or_type": "Divination",
+      "range": "120 yards",
+      "components": "V, S, M",
+      "duration": "1 turn + 5 rounds/level",
+      "casting_time": "1 round",
+      "area_of_effect": "10-foot path",
+      "saving_throw": "None",
+      "description_excerpt": "1 99 i.0 path of detection 10 feet wide in the direc- tion in which the priest is facing. The priest must concentrate-stop, have quiet, and in-"
+    },
+    "quality_flags": []
+  }
+}

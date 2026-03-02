@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "protecting key facilities or individuals trom such attacks",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 205,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:23Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p205_0440",
+    "entity_type": "items",
+    "name_guess": "protecting key facilities or individuals trom such attacks",
+    "breadcrumb_path": "Rules Compendium > Page 205 > items > protecting key facilities or individuals trom such attacks",
+    "page_refs": [
+      205
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "0 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "protecting key facilities or individuals trom such attacks Explorers The characters are deep space explorers searching for new resource-rich worlds or elusive Star League caches of lostech, perhaps t0 establish contact with wayward civilizations Most affiliations have launched some sort of explorer force project; noping increase the size of their empire Or seek out new trad ing partners and allies your characters are Clan: they may De warriors with civil: ian attachment, sent to locate and possibly recover items from the old Star League_ These treasures would then need to be returned t0 Clan space 0f course [hese Items aren Mkely be given up easily by those who currently possess them or by other forces (Inner Sphere Clan} competing for the same items Whatever the path taken; exploration opens up many pos: sibilities for finding ad interacting with unique societies that may not nave seen oulside human contact centuries Unexplored worids also provide the opportunity to clash with harsh environments and alien creatures CAMPAIGN TypeS The wide varicty of cultures and technology levels present: ed in the BattleTech universe offer an unlimited selection of exciting campaign settings; The following short list of possible starting adventures Or campaign settings intended t0 provide gamemasters with few ideas and t0 get the creative juices flowing: Adventurers The characters are thrill seekers, traveling to exotic Ioca tions throughout the Inner Sphere and Periphery: They may be looking for lost treasure ad relics of the old Star League_ boun hunting just playing the of wandering mercenaries_ ready for any task egal or otnerwise This setting allows the cnaraclers t0 encounter wide range of fringe societa elements in both the Inner Sphere and Periphery: also presents many opportunities for the charac ters t0 make name and reputation ior themselves; Free Traders The characters are merchants plying the space lanes look- Ing tor new markets for their goods just trying t0 pay the bills."
+  }
+}

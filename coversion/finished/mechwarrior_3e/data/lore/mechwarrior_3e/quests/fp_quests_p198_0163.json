@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "quests_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "quests",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "The mosi comimon formation deployed the regiment Forces",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 198,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:18Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_quests_p198_0163",
+    "entity_type": "quests",
+    "name_guess": "The mosi comimon formation deployed the regiment Forces",
+    "breadcrumb_path": "Rules Compendium > Page 198 > quests > The mosi comimon formation deployed the regiment Forces",
+    "page_refs": [
+      198
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "The mosi comimon formation deployed the regiment Forces smaller than regiment are otten deployed on limited assignments_ but such units plten cannot suivive Significant Iosses and therefore cannot effectively prosecute engty campaign Except for specialized units and smaller mercenary comnmands; eacn sub Funi regiment normally contains the sane lype of equipment Mechs tanks and on); Inner Sphere militaries also use formations larger than the standard regiment: Infantry and aimor regiments commonly support BattleMech regiments best exemplified the Federated Commonwealth Regimental Combat Teams."
+  }
+}

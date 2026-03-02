@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "locations_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "locations",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "(If modified event roll result drops or less",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 27,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:44Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_locations_p027_0027",
+    "entity_type": "locations",
+    "name_guess": "(If modified event roll result drops or less",
+    "breadcrumb_path": "Rules Compendium > Page 027 > locations > (If modified event roll result drops or less",
+    "page_refs": [
+      27
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "(If modified event roll result drops or less treat it as result of 2.) Because the lower results bring on the worst events multiple passes through the same path carry greater risk Of mishap: This rule does not apply to subpaths taken immediately fol: lowing path or another subpath because these are considered part of the same path _ The modifier only applies if character returns to the path or subpath after leaving it: AFFILIATIONS The BattleTech universe is vast; with long and checkered history: Its people come from wildly different backgrounds_ interstellar nations that span hundreds of worlds and thou- sands of cultures An MW3 character is born or raised into one of these affiliations which has profound effect on every char acter' development: This section describes the most prominent and powertul affiliations in the BattleTech universe , including background and character creation material for each one_ Players may find helpful to read Brief History of the Inner Sphere (p: 1591 before reading this material; that historical overview will aid in understanding each affiliation as part of the larger BattleTech universe Combine bears striking resemblance to Japan of the shogun era_ where daimyos lords rule their worlds and military dis- tricts while their samurai mostly MechWarriors enforce their word as Iaw: From highest to lowest, all act for the greater glory of the Draconis Combine and its ruling House Kurita With a eye toward keeping its people under strict control, House Kurita has enforced rigid social hierarchy: nobility war: riors middle class workers and unproductives Because rulers place so much emphasis on controlling ad channeling the lives Combine citizens, the realm suffers from deplorable lack of formal education except in the military: which boasts some the finer schools in the Inner Sphere_ The vast majority of Combine citizens are illiterate."
+  }
+}

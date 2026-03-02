@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "lore_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "lore",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "At the other end of the spectrum lie",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 178,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:08Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_lore_p178_0324",
+    "entity_type": "lore",
+    "name_guess": "At the other end of the spectrum lie",
+    "breadcrumb_path": "Rules Compendium > Page 178 > lore > At the other end of the spectrum lie",
+    "page_refs": [
+      178
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "At the other end of the spectrum lie the Free Worlds League and_ slightly lesser extent, the Lyran Alliance Both realms exhibit an individualistic streak, where children grow and search for 'their own angle_ The scion of prosperous well: placed family might follow in his or her parents footsteps but the average person sees nothing wrong with searching scamming -for an alternative It is no coincidence that the Free Worlds League contains higher proportion of lawyers than ay other nation; on some worlds _ they surpass the number of doc tors_ WORK Even the thirty-first century, many children follow their parents into careers On Outback worlds_ entire families often work side by side the same industry: Among the middle class es on all worlds, education largely determines who does what: Apprenticeship is the most common method of schooling; and most parents start their children early in learning trade Only the upper classes or citizens of more advanced, highly devel oped worlds can claim greater freedom of choice_ Upper-class children are born to privilege and most prefer stepping into parent' shoes to striking out on their own; With its neo-feudal system influencing most areas of life_ the Inner Sphere not easy on individualists In the Draconis Combine, which groups its people into four loosely defined classes, sons traditionally follow their fathers, while wives and daughters are relegated t0 the home: Few break out of that pattern unless aptitude tests select child for further training: For all Combine citizens, the military an hon- orable alternative Even owly infantryman in the service of House Kurita garners some respect from the middlc ad lower classes The Capellan Confederation uses similar caste sys tem but encourages its citizens to seek higher caste they nave the talent for iL More important than family tradition is FOOD AND ORINK Food and drink across the Inner Sphere vary from nation to nation and world to world: The Federated Commonwealth favors wnat is still known as Continental cuisine; Irom the old Terran continent of Europe The Lyran half of the Commonwealth leans toward German and Italian cooking_ while the Federated Suns half shows slight bias toward French ad Spanish fare Both substitute the bio engineered quillar; the largest crop the Commonwealth, for many of the usual ingredients."
+  }
+}

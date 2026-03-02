@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "blink",
+  "name": "Blink",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Blink (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "third",
+    "book_pages": [
+      147
+    ],
+    "pdf_pages": [
+      148
+    ],
+    "raw_block": "Blink (Alteration)\nRange: 0\nComponents: V, S\nDuration: 1 round/level\nCasting Time: 1\nArea of Effect: The caster\nSaving Throw: None\nBy means of this spell, the wizard causes\nhis material form to \"blink directly from\none point to another at a random time and\nin a random direction. This means that me-\nlee attacks against the wizard automatically\nmiss if initiative indicates they fall after he\nhas blinked.\nEach round the spell is in effect, the wiz-\nard rolls 2d8 to determine the timing of the\nblink-the result of the dice roll is used as\nthe wizards initiative for that round. The\nwizard disappears and instantaneously re-\nappears 10 feet distant from his previous po-\nsition. (Direction is determined by roll of\nld8: 1 = right ahead, 2 = right, 3 = right\nbehind, 4 = behind, 5 = left behind, 6 =\nleft, 7 left ahead, 8 = ahead.) The caster\ncannot blink into a solid object; if such is in-\ndicated, reroll the direction. Movable ob-\njects of size and mass comparable to the\ncaster are shoved aside when the caster\nblinks in. If blinking is impossible except\ninto a fixed, solid object, the caster is then\ntrapped on the Ethereal plane.\nDuring each round that he blinks, the\nspellcaster can be attacked only by oppo-\nnents who win initiative or by those who are\nable to strike both locations at once (e.g.,\nwith a breath weapon, fireball, or similar\nwide-area attack forms). Opponents with\nmultiple attacks, or those operating under\nhaste or similar effects, can often strike\nearly enough to have at least one attack\nagainst the caster.\nIf the spellcaster holds off his attack (if\nany) until after the blink, the 2d8 delay until\nthe blink is added to his normal ldl0 initia-\ntive roll (thus he probably attacks last in the\nround). Or the spellcaster can try to get his\nattack in before he blinks (he must an-\nnounce his intent before rolling the 2de for\nblink timing and the Id10 for initiative). In\nthis case, the caster compares the two dice\nrolls, hoping that his initiative roll is lower\nthan his blink roll (the two rolls are not\nadded if he is trying to attack before he\nblinks). If so, he attacks according to his ini-\ntiative roll, then blinks according to the\nblink roll. If his blink roll is lower than his\ninitiative roll, however, he blinks out, then\nhe attacks in whatever direction he's facing\n(he must go through with his attack, even if\nhe is facing in the wrong direction to affect\nanyone)."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Blink",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "0",
+      "components": "V, S",
+      "duration": "1 round/level",
+      "casting_time": "1",
+      "area_of_effect": "The caster",
+      "saving_throw": "None",
+      "description_excerpt": "By means of this spell, the wizard causes his material form to \"blink directly from one point to another at a random time and in a random direction. This means that me- lee attacks against the wizard automatically miss if initiative indicates they fall after he has blinked. Each round the spell is in effect, the wiz- ard rolls 2d8 to determine the timing of the blink-the result of the dice roll is used as the wizards initiative for that round. The wizard disappears and instantaneously re- appears 10 feet distant from his previous po- sition. (Direction is determined by roll of ld8: 1 = right ahead, 2 = right, 3 = right behind, 4 = behind, 5 = left behind, 6 = left, 7 left ahead, 8 = ahead.) The caster cannot blink into a solid object; if such is in- dicated, reroll the direction. Movable ob- jects of size and mass comparable to the caster are shoved aside when the caster blinks in. If bl"
+    },
+    "quality_flags": []
+  }
+}

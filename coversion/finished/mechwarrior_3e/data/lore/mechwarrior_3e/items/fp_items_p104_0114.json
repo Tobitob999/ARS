@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Either buy at his price Or go without:",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 104,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:26Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p104_0114",
+    "entity_type": "items",
+    "name_guess": "Either buy at his price Or go without:",
+    "breadcrumb_path": "Rules Compendium > Page 104 > items > Either buy at his price Or go without:",
+    "page_refs": [
+      104
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Either buy at his price Or go without: badly failed roii fumble might result in the merchant becoming insulted and either raising his price Or refusing to sell at alll MEDTECH This skill represents wide range of medical knowledge_ Essentially, this skill covers all areas f advanced medicab care that Surgery does not, including extended care_ pharmacology; physical therapy and 50 on_ Rules on the use of this skill can be found in Healing (p 1231. NAVIGATION\" Simply put , Navigation the skill of finding your way around."
+  }
+}

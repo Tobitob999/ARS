@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "'Here they come; Stephen whispered loudly in my",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 13,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:23Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p013_0044",
+    "entity_type": "history",
+    "name_guess": "'Here they come; Stephen whispered loudly in my",
+    "breadcrumb_path": "Rules Compendium > Page 013 > history > 'Here they come; Stephen whispered loudly in my",
+    "page_refs": [
+      13
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "'Here they come; Stephen whispered loudly in my ear; and then all thoughts of Erik Gray were forgotten_ Almost directly above , Stephen had clipped tether to the rafter and now lowered himself down into the bay at rapid pace_ He hung six meters over the floor; one hand on the thin black nylon rope he swung from and the other spraying fire from his silenced Kyosa_ rose into half-crouch, leveling the Intek Iaser rifle back along the bay and centering at the rush against Two men pitched forward as Stephen fire tore through them: chose another in the Iead and managed burst into his midsection and across his legs cutting them out from beneath him; Tnis stalled the rush, though answering fire cut the air in sharp whistling rush_ One bullet clipped my right arm, and stag gered few steps to the left and continued t0 fire My power clip emptied again just as IOok direct hit in the chest."
+  }
+}

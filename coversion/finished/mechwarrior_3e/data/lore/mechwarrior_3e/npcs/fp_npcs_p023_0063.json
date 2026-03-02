@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "These options appear under the Next Path header",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 23,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:42Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p023_0063",
+    "entity_type": "npcs",
+    "name_guess": "These options appear under the Next Path header",
+    "breadcrumb_path": "Rules Compendium > Page 023 > npcs > These options appear under the Next Path header",
+    "page_refs": [
+      23
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "These options appear under the Next Path header in each path' description: The life stage in which the character follows the path appears after each path name in parentheses The Next Path listing does not take into account path restrictions that your character must follow: Path restrictions may result from certain events your character' s affiliations (see p 26)."
+  }
+}

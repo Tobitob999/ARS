@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Edge general measure This Attribute represents character $",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 56,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:57Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p056_0216",
+    "entity_type": "history",
+    "name_guess": "Edge general measure This Attribute represents character $",
+    "breadcrumb_path": "Rules Compendium > Page 056 > history > Edge general measure This Attribute represents character $",
+    "page_refs": [
+      56
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Edge general measure This Attribute represents character $ agility and quick- of the character' good or bad fortune The ninth Attribute, ness As opposed to Dexterity. Reflexes comes into play when Social Standing represents the character place among the the action requires whole body movement and quick reactions_ social strata f his chosen affiliation_ Players assign their characters spe cific Attribute values after completing the ATTRIBUTE TABLE Lfe Path."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "knock",
+  "name": "Knock",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Knock (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "second",
+    "book_pages": [
+      143
+    ],
+    "pdf_pages": [
+      144
+    ],
+    "raw_block": "Knock (Alteration)\nReversible\nRange: 60 yards\nComponent: V\nDuration: Special\nCasting Time: 1\nArea of Effect: 10 square reerilevel\nSaving Throw: None\nThe knock spell opens stuck, barred,\nlocked, held, or wizard-locked doors. It\nopens secret doors, as well as locked or\ntrick-opening boxes or chests. It also loos-\nens welds, shackles, or chains. If used to\nopen a wizard-locked door, the spell does\nnot remove the former spell, but simply sus-\npends its functioning for one turn. In all\nother cases, it permanently opens locks or\nwelds-although the former could be closed\nand locked again later. It does not raise\nbarred gates or similar impediments (such as\na portcullis), nor does it affect ropes, vines,\nand the like. Note that the effect is limited\nby the area; a 3rd-level wizard can knock a\ndoor of 30 square feet or less (e.g., a stand-\nard 4' x 7' door). Each spell can undo up to\ntwo means of preventing egress through a\nportal. Thus if a door is locked, barred, and\nheld, or triple locked, opening it requires\ntwo knock spells. In all cases, the location of\nthe door or item must be known-the spell\ncannot be used against a wall in hopes of\ndiscovering a secret door.\nThe reverse spell, lock, closes and locks a\ndoor or similar closure, provided there is a\nphysical mechanism. It does not create a\nweld, but it locks physically operated lock-\ning mechanisms, set bars, and so on, up to\ntwo functions. It cannot affect a portcullis."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Knock",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "60 yards",
+      "components": null,
+      "duration": "Special",
+      "casting_time": "1",
+      "area_of_effect": "10 square reerilevel",
+      "saving_throw": "None",
+      "description_excerpt": "The knock spell opens stuck, barred, locked, held, or wizard-locked doors. It opens secret doors, as well as locked or trick-opening boxes or chests. It also loos- ens welds, shackles, or chains. If used to open a wizard-locked door, the spell does not remove the former spell, but simply sus- pends its functioning for one turn. In all other cases, it permanently opens locks or welds-although the former could be closed and locked again later. It does not raise barred gates or similar impediments (such as a portcullis), nor does it affect ropes, vines, and the like. Note that the effect is limited by the area; a 3rd-level wizard can knock a door of 30 square feet or less (e.g., a stand- ard 4' x 7' door). Each spell can undo up to two means of preventing egress through a portal. Thus if a door is locked, barred, and held, or triple locked, opening it requires two knock spells. In all cases"
+    },
+    "quality_flags": [
+      "missing_standard_fields"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "commune",
+  "name": "Commune",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Commune (Divination) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "fourth",
+    "book_pages": [
+      222
+    ],
+    "pdf_pages": [
+      223
+    ],
+    "raw_block": "Commune (Divination)\nSphere: Divination\nRange: 0\nComponents: V, S, M\nDuration: Special\nCasting Time: 1 turn\nArea of Effect: Special\nSaving Throw: None\nBy use of a commune spell, the priest is\nable to contact his divinity-or agents\nthereof-and request information in the\nform of questions that can be answered by a\nsimple \"yes\" or \"no.\" The priest is allowed\none such question for every experience level\nhe has attained. The answers given are cor-\nrect within the limits of the entity's knowl-\nedge (\"I don't know\" is a legitimate answer,\nas powerful outer planar beings are not nec-\nessarily omniscient). Optionally, the DM\nmay give a single short answer, of five\nwords or less. The spell will, at best, pro-\nvide information to aid character decisions.\nEntities communed with structure their an-\nswers to further their own purposes. .It is\nprobable that the DM will limit the use of\ncommune spells to one per adventure, one\nper week, or wen one per month, for the\ngreater powers dislike frequent intermp-\ntions. Likewise, if the caster lags, discusses\nthe answers, or goes off to do anything else,\nthe spell immediately ends.\nThe material components necessary to a\ncommune spell are the priest's religious sym-\nbol, holy (unholy) water, and incense. If a\nparticularly potent commune is needed, a\nsacrifice proportionate with the difficulty of\nobtaining the information is required, and if\nthe offering is insufficient, only partial or no\ninformation is gained,"
+  },
+  "mechanics": {
+    "school_or_type": "Divination",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Commune",
+      "canonical_name_guess": null,
+      "school_or_type": "Divination",
+      "range": "0",
+      "components": "V, S, M",
+      "duration": "Special",
+      "casting_time": "1 turn",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "By use of a commune spell, the priest is able to contact his divinity-or agents thereof-and request information in the form of questions that can be answered by a simple \"yes\" or \"no.\" The priest is allowed one such question for every experience level he has attained. The answers given are cor- rect within the limits of the entity's knowl- edge (\"I don't know\" is a legitimate answer, as powerful outer planar beings are not nec- essarily omniscient). Optionally, the DM may give a single short answer, of five words or less. The spell will, at best, pro- vide information to aid character decisions. Entities communed with structure their an- swers to further their own purposes. .It is probable that the DM will limit the use of commune spells to one per adventure, one per week, or wen one per month, for the greater powers dislike frequent intermp- tions. Likewise, if the caster lags, discusse"
+    },
+    "quality_flags": []
+  }
+}

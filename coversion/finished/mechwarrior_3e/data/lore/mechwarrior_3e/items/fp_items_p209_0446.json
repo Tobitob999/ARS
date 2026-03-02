@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "For example. criminal-turned mercenary character not likely t0",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 209,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:25Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p209_0446",
+    "entity_type": "items",
+    "name_guess": "For example. criminal-turned mercenary character not likely t0",
+    "breadcrumb_path": "Rules Compendium > Page 209 > items > For example. criminal-turned mercenary character not likely t0",
+    "page_refs": [
+      209
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "For example. criminal-turned mercenary character not likely t0 nave grand duke as contact, regardless of how many points the player spends. The players and gamemaster should work out these considerations together As always, the gamemas: ter' $ decision I5 final, but should be fair as well: cash; equipment, promotion or simply the satisfaction 0f well done."
+  }
+}

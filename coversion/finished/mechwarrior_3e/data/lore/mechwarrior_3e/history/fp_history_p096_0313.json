@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Each of these categories is defined below Bureaucracy;",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 96,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:23Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p096_0313",
+    "entity_type": "history",
+    "name_guess": "Each of these categories is defined below Bureaucracy;",
+    "breadcrumb_path": "Rules Compendium > Page 096 > history > Each of these categories is defined below Bureaucracy;",
+    "page_refs": [
+      96
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Each of these categories is defined below Bureaucracy; Protocol and Streetwise are known as region These two skill types come into play when character al skills Such skills vary considerably by region: character wants t0 attempt something that would require skill they don't who has in-depth knowledge of the yakuza in Combine space have or when determining skill advancement: In general, if may not be able navigate the Free Worlds League underworld character lacks the necessary skill but attempts the action any- at all; This character s Streetwise Skill would not be as useful way, improvising for standard skill is much easier (though still to him outside the Draconis Combine hard) than difficult skill (see Untrained Skill Use, 16)."
+  }
+}

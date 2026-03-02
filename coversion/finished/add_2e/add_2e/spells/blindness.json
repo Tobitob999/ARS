@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "blindness",
+  "name": "Blindness",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Blindness (Illusion/Phantasm) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "second",
+    "book_pages": [
+      140
+    ],
+    "pdf_pages": [
+      141
+    ],
+    "raw_block": "Blindness (Illusion/Phantasm)\nRange: 30 yards + 10 yards/level\nComponent: V\nDuration: Special\nCasting Time: 2\nArea of Effect: 1 creature\nSaving Throw: Neg.\nThe blindness spell causes the victim to\nbecome blind, able to see only a grayness\nbefore its eyes. Various cure spells will not\nremove this effect, and only a dispel magic\nor the spellcaster can do away with the\nblindness if the creature fails its initial sav-\ning throw vs. spell. A blinded creature suf-\nfers a -4 penalty to its attack rolls, and its\nopponents gain a +4 bonus to their attack\nrolls."
+  },
+  "mechanics": {
+    "school_or_type": "Illusion/Phantasm",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Blindness",
+      "canonical_name_guess": null,
+      "school_or_type": "Illusion/Phantasm",
+      "range": "30 yards + 10 yards/level",
+      "components": null,
+      "duration": "Special",
+      "casting_time": "2",
+      "area_of_effect": "1 creature",
+      "saving_throw": "Neg.",
+      "description_excerpt": "The blindness spell causes the victim to become blind, able to see only a grayness before its eyes. Various cure spells will not remove this effect, and only a dispel magic or the spellcaster can do away with the blindness if the creature fails its initial sav- ing throw vs. spell. A blinded creature suf- fers a -4 penalty to its attack rolls, and its opponents gain a +4 bonus to their attack rolls."
+    },
+    "quality_flags": [
+      "missing_standard_fields"
+    ]
+  }
+}

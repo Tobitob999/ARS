@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Military service is mandatory in the Magistracy; and",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 67,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:01Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p067_0058",
+    "entity_type": "items",
+    "name_guess": "Military service is mandatory in the Magistracy; and",
+    "breadcrumb_path": "Rules Compendium > Page 067 > items > Military service is mandatory in the Magistracy; and",
+    "page_refs": [
+      67
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Military service is mandatory in the Magistracy; and you were exception_ Within your first few weeks of basic training; your inquisitive nature and aptitude for science earned you place in the acade my on Luxen: You enrolled in the prestigious Canopian Medical Sciences Research and Training Complex_ where you earned your first-ranker diamond as field medic _ You put the tracking Skills from your youth t0 good use during your first tour of duty: leading your squad cache of ostech relics on an uncharted planet 5 AIl did not go so smoothly in your military career, how- Ciel Posted t0 the arctic world of Thraxa you were cap tured in raid by forces from the Marian Hegemony and held prisoner On distant planet for two years_ You managed to escape and make it offworld; cut off from Canopian support; you traveled on any JumpShip you could using your skills guide and medic t0 pay your way: Ultimately, YOu arrived back in Canopian space ad rejoined your old unit; However; the lure of exploration proved too much for you_ After your most recent stretch of boring garrison duty,8 you re looking for change whole galaxy iS out there and you're ready for anything might throw your wayl Affiliation; Periphery /Magistracy Canopus (p_ 301; Stage Early Childhood Back Woods) Event Roll 10 (p, 331."
+  }
+}

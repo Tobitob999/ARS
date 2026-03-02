@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Also_ all charac ters receive 2 Skill Points",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 34,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:49Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p034_0026",
+    "entity_type": "items",
+    "name_guess": "Also_ all charac ters receive 2 Skill Points",
+    "breadcrumb_path": "Rules Compendium > Page 034 > items > Also_ all charac ters receive 2 Skill Points",
+    "page_refs": [
+      34
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Also_ all charac ters receive 2 Skill Points toward Perception_ Players can improve all of these skills as normal; BLUE COLLAR Your family worked for an industrial concern_ perhaps weapons factory Or mining operation_ While you had few advantages your hard-working parents managed to give yoU reasonable education_ and your future prospects are fairly Open. Attribute Minlmums: SOC 3 Skllls: Career /Any +2 Interest/ Any +1 Next Path: Farm (21."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "factions_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "factions",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Immediately after the first successtul test of the",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 183,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:10Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_factions_p183_0331",
+    "entity_type": "factions",
+    "name_guess": "Immediately after the first successtul test of the",
+    "breadcrumb_path": "Rules Compendium > Page 183 > factions > Immediately after the first successtul test of the",
+    "page_refs": [
+      183
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Immediately after the first successtul test of the technology; the Star Leaqua began t0 build HPG stations on planets across know space: ComStar still operates most of the functioning HPGs, almost all ot which trace their origins to Star League tmes. ComStar inherited the HPG network following the fall of the Star League; It held monopoly on interstellar communicatlons for almost two Fand = half centuries, until the events of recent years sundered the organization."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "vehicles_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "vehicles",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "subject to the gamemaster' approval: Time: years Skills:",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 50,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:55Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_vehicles_p050_0087",
+    "entity_type": "vehicles",
+    "name_guess": "subject to the gamemaster' approval: Time: years Skills:",
+    "breadcrumb_path": "Rules Compendium > Page 050 > vehicles > subject to the gamemaster' approval: Time: years Skills:",
+    "page_refs": [
+      50
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "subject to the gamemaster' approval: Time: years Skills: Academic; Any Relevant +3, Academic / Any +2- add +1 to any other skill Choose one: Appraisal +1 Language /Any +1, Survival +1, Training +1 Zero G Operations +1 Next Path: University (3). Ne'er-Do-Well (4), Civilian Job (4), Postgraduate Studies (4), Travel (4) 'If Wealth reaches the maximum (level 10) through these events _ the player may exchange ten Wealth levels for both the Vehicle Civilian DropShip (7) and Owns Vehicle traits NE'ER-DO-WELL This catchall path exists for characters who Just don't fit in."
+  }
+}

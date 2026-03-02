@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "quests_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "quests",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Some Combine soldiers opposed their leaders actions and",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 31,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:47Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_quests_p031_0023",
+    "entity_type": "quests",
+    "name_guess": "Some Combine soldiers opposed their leaders actions and",
+    "breadcrumb_path": "Rules Compendium > Page 031 > quests > Some Combine soldiers opposed their leaders actions and",
+    "page_refs": [
+      31
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [
+      "3050"
+    ],
+    "stat_tokens": [],
+    "excerpt": "Some Combine soldiers opposed their leaders actions and attacked the newborn Republic in what became known as the Ronin Wars the Combine declared them traitors and helped the small Republic army defend its nation Several mercenary units hired during this period took advantage of poorly written contracts or stopped fighting because of them, which fueled strong anti- mercenary sentiment that persists t0 this day\" Tne coming of the Clans in 3050 nearly destroyed Free Rasalhague."
+  }
+}

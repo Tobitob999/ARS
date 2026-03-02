@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "CREDItS CREDITS Cover Art Marc Gabbana Cover Design",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 5,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:21Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p005_0004",
+    "entity_type": "items",
+    "name_guess": "CREDItS CREDITS Cover Art Marc Gabbana Cover Design",
+    "breadcrumb_path": "Rules Compendium > Page 005 > items > CREDItS CREDITS Cover Art Marc Gabbana Cover Design",
+    "page_refs": [
+      5
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "CREDItS CREDITS Cover Art Marc Gabbana Cover Design John Bridegroom Illustrations Tom Baxa Doug Chaffee Les Dorschied Mark Gibbons Scott James Dave McKay Jim Nelson Matthew Plog Matt wilson Color Section Kevin McCann Additiona Work: Joel Biske John Bridegroom Les Dorschied Fred Hooper Jeff Laubenstein David Martin Chris Moeller Jim Nelson Mike Nielsen Matt Wilson Graphic Design John Bridegroom Jim Nelson BattleTech: Camille The Godmothe \" Kicin Dave Goliball\" Mescher Hen IckY Jonnson Damon Nnjar Burrus, Ed Ronin @enrensen Rod Rice ILamal Noiwcog David Walker; Kitrdatck Pack: Herbert Beas_ JJamc' Jamon Amig qu Ie Fletchi- Fletcher, Kevin Daeiley Heatner Tonnsion David CelticRogue' Shenidan: 3ovenin AnMl Grovo SLDF: Nadin Brzezinski, Unomas ApboTt Solornton Goren Franx Darbe ."
+  }
+}

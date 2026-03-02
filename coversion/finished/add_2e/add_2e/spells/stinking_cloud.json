@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "stinking_cloud",
+  "name": "Stinking Cloud",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Stinking Cloud (Evocation) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "second",
+    "book_pages": [
+      145
+    ],
+    "pdf_pages": [
+      146
+    ],
+    "raw_block": "Stinking Cloud (Evocation)\nRange: 30 yards\nComponents: V, S, M\nDuration 1 round/level\nCasting Time:2\nArea of Effect: 20-foot cube\nSaving Throw: Special I\nWhen a stinking cloud is cast, the wizard I\ncreates a billowing mass of nauseous vapors\nup to 30 yards away from his pitien. Any\ncreature caught within the cloud must roll a\nsuccessful saving throw vs. poison or be\nreeling and unable to attack because of MU-\nsea, for ld4 + 1 rounds after leaving the\ncloud. Those who make successful saving\nthrows can leave the cloud without &-\ning any ill effects, although those remaihiRg\nin the cloud must continue to save each\nround. These poisonous effects can be\nslowed or neutralized by appropriate\nmagic. The cloud duration is halved in a\nmoderate breeze (8-18 m.p.h) and is dis-\npersed in one round by a stronger breeze.\nThe material component of the spell is a\nrotten egg or several skunk cabbage leaves.\nI\nI\n1\nI\n145"
+  },
+  "mechanics": {
+    "school_or_type": "Evocation",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Stinking Cloud",
+      "canonical_name_guess": null,
+      "school_or_type": "Evocation",
+      "range": "30 yards",
+      "components": "V, S, M",
+      "duration": "1 round/level",
+      "casting_time": "2",
+      "area_of_effect": "20-foot cube",
+      "saving_throw": "Special I",
+      "description_excerpt": "moderate breeze (8-18 m.p.h) and is dis- persed in one round by a stronger breeze. The material component of the spell is a rotten egg or several skunk cabbage leaves. I I 1 I 145"
+    },
+    "quality_flags": []
+  }
+}

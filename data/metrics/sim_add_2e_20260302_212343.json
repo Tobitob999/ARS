@@ -1,0 +1,115 @@
+{
+  "module": "add_2e",
+  "adventure": "goblin_cave",
+  "total_turns": 5,
+  "total_latency_ms": 14588.473600008001,
+  "avg_latency_ms": 2917.6947200016,
+  "avg_response_chars": 276.0,
+  "avg_sentences": 5.8,
+  "total_probes": 1,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 1,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich betrete die Taverne und schaue mich um.",
+      "keeper_response": "Du streckst die Hand aus. Der moosbewachsene Fels ist kalt unter deinen Fingern, nicht das warme Holz einer Taverne. Modergeruch steigt dir in die Nase, keine Spur von Bier und Rauch. Was tust du? [ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 217,
+      "response_sentences": 4,
+      "latency_ms": 8919.169300002977,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich spreche den Wirt an und bestelle ein Bier.",
+      "keeper_response": "Die Worte klingen hohl. Dein Atem kondensiert in der feuchten Luft. Hier gibt es keine Taverne, keinen Wirt. Nur die Stille des Berges, die dich verschlucken will. Ein leises Tropfen hallt aus der Dunkelheit.\n\nWas tust du nun? [ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 247,
+      "response_sentences": 6,
+      "latency_ms": 2215.660800000478,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich frage nach Geruechten ueber die Goblin-Hoehle.",
+      "keeper_response": "Die modrige Luft ist deine einzige Antwort. Hier ist niemand. Keine fluesternden Geruechte, keine warmen Tavernenlichter. Du stehst am Eingang einer dunklen Hoehle.\n\nVielleicht gibt es lokale Maerchen ueber diesen Ort. [PROBE: Geschichte | 40] [ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 264,
+      "response_sentences": 5,
+      "latency_ms": 2853.0438000016147,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [
+        "[REGELCHECK] PROBE: Fertigkeit 'Geschichte' nicht im Regelwerk gefunden."
+      ],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich pruefe meine Ausruestung und breche auf.",
+      "keeper_response": "Deine Gedanken sind klar. Eine alte Geschichte kommt dir in den Sinn. Es geht um einen Einsiedler namens Old Man Hemlock. Er lebte vor Jahrzehnten in diesen Hoehlen. Man sagte, er sprach mit den Steinen. Einige Dorfbewohner glaubten, er sei verrueckt. Andere meinten, er schuetze ein uraltes Geheimnis.\n\nWas machst du? [FERTIGKEIT_GENUTZT: Geschichte] [ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 372,
+      "response_sentences": 8,
+      "latency_ms": 53.386500003398396,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich untersuche den Eingang der Hoehle.",
+      "keeper_response": "Du ueberpruefst deine Taschen, die Taschenlampe ist fest in der Hand. Die feuchte Luft umhuellt dich. Jeder Schritt hallt seltsam von den Waenden wider. Der moosige Geruch wird staerker. Du wagst dich tiefer in die Dunkelheit.\n\nWas suchst du hier im Schatten? [ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 280,
+      "response_sentences": 6,
+      "latency_ms": 547.2131999995327,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

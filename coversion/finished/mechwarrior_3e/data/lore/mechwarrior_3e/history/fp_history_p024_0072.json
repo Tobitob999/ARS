@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "If the trait has variable levels (see below),",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 24,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:43Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p024_0072",
+    "entity_type": "history",
+    "name_guess": "If the trait has variable levels (see below),",
+    "breadcrumb_path": "Rules Compendium > Page 024 > history > If the trait has variable levels (see below),",
+    "page_refs": [
+      24
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "If the trait has variable levels (see below), or if character can have it more than once (such as Contact or Enemy), the player may choose to take the trait at higher level or second trait of the same type_ as appropriate t0 the character'$ story: Traits awarded to character during the Life Path cost noth: ing: Players can purchase additional traits when assigning Attributes _ traits and skills LEARNING Skills Throughout his her Life Path your character will learn wide variety of skills_ which represent specific areas of knowledge and/or ability: Tne types of skills and the character' = level of pro ficiency depend on the choices you make and the random events life throws in your character' way: complete Iist of skills and what they do appears in the Skills chapter, beginning on All characters start with Language and Perception Skills_ described in Stage of the Life Path (p."
+  }
+}

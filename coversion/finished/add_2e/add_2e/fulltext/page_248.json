@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_page",
+  "tags": [
+    "add_2e",
+    "player_handbook",
+    "fulltext",
+    "pdf_page"
+  ],
+  "summary": "PDF-Seite 248 des AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "pdf_page": 248,
+    "text": "Character Tables \n- - 14 5 5 5 4 4 2 i \n15 5 5 5 5 2 1 \n19 5 5 5 5 5 3 3 3 1 \n20 5 5 5 5 5 4 3 3 2 \nTable 22: WIZARD SPECIALIST REQUIREMENTS \nMinimum \nAbility \nSpecialist School Race Score Opposition School(s) \nAbjurer Abjuration H 15 Wis Alteration & Illusion \nConjurer Conj./Summ. H, l/2 E 15 Con Gr. Divin. & Invocation \nIllusion & Ench./Char \nTransmuter Alteration H, E 15 Dex Abjuration & Necromancy \nTable 27: THIEVING SKILL RACIAL ADJUSTMENTS \nSlCill \nPick Pockets \nopen ~oclcs \nDwarf Elf Gnome Half-elf Halfling \n+5% - +lo% +5% \n+lo% -5% +5% - +5% \n- \n_-_ \n83 3 32-- \n944321-- \n146665321 \n15 6 6 6 6 4 2 1 \n209998752 \n* Usable only by priests with 17 or greater \n** Usable only by priests with 18 or \nWisdom. \ngreater Wisdom. \nI \nBASE SCORES I \nTable 26: THIEVING SKIU \nSkill \nPick Pockets \nBase !hue \n15 % \n10% \nRead Languages 0% \n247"
+  },
+  "mechanics": {
+    "conversion": "fulltext_page_dump",
+    "generated_at": "2026-02-28T16:50:16"
+  }
+}

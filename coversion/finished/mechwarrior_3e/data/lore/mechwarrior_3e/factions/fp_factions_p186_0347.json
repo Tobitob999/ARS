@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "factions_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "factions",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "SOCIETY AND CuLtuRE Buddhism Fundamental Buddhism i5 tradition",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 186,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:12Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_factions_p186_0347",
+    "entity_type": "factions",
+    "name_guess": "SOCIETY AND CuLtuRE Buddhism Fundamental Buddhism i5 tradition",
+    "breadcrumb_path": "Rules Compendium > Page 186 > factions > SOCIETY AND CuLtuRE Buddhism Fundamental Buddhism i5 tradition",
+    "page_refs": [
+      186
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "SOCIETY AND CuLtuRE Buddhism Fundamental Buddhism i5 tradition of thought and prac: tice associated with Siddhartha; the original Buddha It aims at achieving deliverance from the cycle of birth and death and poS- sessing direct knowledge of the universe true nature Of the various Eastern religions, Buddhism tne most strongly favored throughout the Inner Sphere; the Draconis Combine particular virtually endorses the Zen tradition_ contrast; Buddhist temples ad followers were targeted in the Federated Suns intamous Orienta Purge after House Kurita invaded the FedSuns during the First Succession War."
+  }
+}

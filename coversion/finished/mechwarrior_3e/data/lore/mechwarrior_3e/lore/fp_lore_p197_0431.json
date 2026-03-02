@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "lore_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "lore",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Though designed Won all climates and types of",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 197,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:17Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_lore_p197_0431",
+    "entity_type": "lore",
+    "name_guess": "Though designed Won all climates and types of",
+    "breadcrumb_path": "Rules Compendium > Page 197 > lore > Though designed Won all climates and types of",
+    "page_refs": [
+      197
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Though designed Won all climates and types of weather particularly heavy storm especially one with high winds ice and snow severely namper Or even crash fighter; 45 with BattleMechs, many fighters in the past were heir ooms passed from parent t0 child. Now; however. most belong House militaries."
+  }
+}

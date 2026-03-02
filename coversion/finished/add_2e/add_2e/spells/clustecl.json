@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "clustecl",
+  "name": "Clustecl",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Clustecl (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "eighth",
+    "book_pages": [
+      189
+    ],
+    "pdf_pages": [
+      190
+    ],
+    "raw_block": "Clustecl (Alteration)\nRange: Touch\nComponents: V, S, M\nDuration: Permanent\nCasting Time: 8\nArea of Effect: Object touc..ed\nSaving Throw: None\nThe glassteel spell turns normal, non-\nmagical crystal or glass into a transparent\nsubstance that has the tensile strength and\nunbreakability of actual steel. Only a rela-\ntively small volume of material can be\naffected, a maximum weight of 10 pounds\nper level of experience of the spellcaster, and\nit must form one whole object. The Armor\nClass of the substance is 1.\nThe material components of this spell are\na small piece of glass and a small piece of\nsteel."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Clustecl",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "Permanent",
+      "casting_time": "8",
+      "area_of_effect": "Object touc..ed",
+      "saving_throw": "None",
+      "description_excerpt": "The glassteel spell turns normal, non- magical crystal or glass into a transparent substance that has the tensile strength and unbreakability of actual steel. Only a rela- tively small volume of material can be affected, a maximum weight of 10 pounds per level of experience of the spellcaster, and it must form one whole object. The Armor Class of the substance is 1. The material components of this spell are a small piece of glass and a small piece of steel."
+    },
+    "quality_flags": [
+      "trimmed_merged_block"
+    ]
+  }
+}

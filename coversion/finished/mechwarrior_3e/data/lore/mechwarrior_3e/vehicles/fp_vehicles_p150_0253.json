@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "vehicles_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "vehicles",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "animals or vehicles the size of a elephant",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 150,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:54Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_vehicles_p150_0253",
+    "entity_type": "vehicles",
+    "name_guess": "animals or vehicles the size of a elephant",
+    "breadcrumb_path": "Rules Compendium > Page 150 > vehicles > animals or vehicles the size of a elephant",
+    "page_refs": [
+      150
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "animals or vehicles the size of a elephant could be detected up t0 severa kilometers away: Active Mechs can even be seen ten more kilometers away: Weatner and heat status can affect the information: Optics The human eye one 0f the finest instruments_ Dul can see only So far and in only SO many spectra: Literally thousands different manmade instruments have been manufactured enhance the naked eye, but only fev of those have survived the vears Night Vision Devices Night vision devices (also called NVDS) are used by both civilians and soldiers_ They operate number of different principles but the net effect virtual transformation of night into day: Characters using NVDs are not subject to any darkness penalties though other conditionae modifiers still count; such as fOg Or rain_ NVDs nave sevecra drawbacks."
+  }
+}

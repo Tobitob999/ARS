@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "As result; mercs find themselves in every kind",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 206,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:24Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p206_0808",
+    "entity_type": "npcs",
+    "name_guess": "As result; mercs find themselves in every kind",
+    "breadcrumb_path": "Rules Compendium > Page 206 > npcs > As result; mercs find themselves in every kind",
+    "page_refs": [
+      206
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "As result; mercs find themselves in every kind of sit- uation, trom pointless garrison duty t0 high-riSk raids mercenary campaign naturally fits well with MechWarriors other soldiers; However; there is no shortage of support duties be pertormed; irom medics to technicians t0 aircraft spacecratt pilots Some mercenary units are remarkably un: military character llowing civilians and soldiers to work side by side with Iittle the way 0f formal chain of command: get- Ung the job done all that mallers MAJOR NpCS Wnether the players archenemy; major personage the Inner Spnere critical non piayer member 0lthe Dlayers tearn ."
+  }
+}

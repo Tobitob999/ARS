@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "lore_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "lore",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Ihe player can exchange tralt of equivalent cost",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 61,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:00Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_lore_p061_0117",
+    "entity_type": "lore",
+    "name_guess": "Ihe player can exchange tralt of equivalent cost",
+    "breadcrumb_path": "Rules Compendium > Page 061 > lore > Ihe player can exchange tralt of equivalent cost",
+    "page_refs": [
+      61
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Ihe player can exchange tralt of equivalent cost with the gamemaster\" permission; EQUIPMENT Every character starts with 000 C bills (the most widely accepted currency in the Inner Sphere with which to purchase starting equipment; character with the Wealth Trait will have more than 0OO C-bills isee 891. character with tne Poverty Trait (p 85) has only 100 C bills For more information what equipment I5 available and how much costs; sce Equipment; starting on p, 129. Game Effects The Age Effects Table shows the effects of character' $ starting dgC."
+  }
+}

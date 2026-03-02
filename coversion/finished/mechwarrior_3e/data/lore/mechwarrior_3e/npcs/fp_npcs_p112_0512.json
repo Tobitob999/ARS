@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "The base TN to hit character who I5",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 112,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:29Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p112_0512",
+    "entity_type": "npcs",
+    "name_guess": "The base TN to hit character who I5",
+    "breadcrumb_path": "Rules Compendium > Page 112 > npcs > The base TN to hit character who I5",
+    "page_refs": [
+      112
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "5 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [
+      "TN"
+    ],
+    "excerpt": "The base TN to hit character who I5 moving at running_ evading sprinting speed (Or character who has successful disengaged from melee combat) equal t0 nis INT RFL. Tne base TN t0 hit character who is standing still or mov Ing at walking speed equal his INT or RFL, whichever higher. The basc TN t0 hit character who is surprised (p."
+  }
+}

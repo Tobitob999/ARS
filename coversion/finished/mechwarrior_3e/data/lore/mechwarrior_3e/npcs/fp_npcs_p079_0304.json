@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "If Positive traits have cost listed This the",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 79,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:04Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p079_0304",
+    "entity_type": "npcs",
+    "name_guess": "If Positive traits have cost listed This the",
+    "breadcrumb_path": "Rules Compendium > Page 079 > npcs > If Positive traits have cost listed This the",
+    "page_refs": [
+      79
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [
+      "2101"
+    ],
+    "stat_tokens": [],
+    "excerpt": "If Positive traits have cost listed This the cost the subject of the addiction iS rare and/or exceptionally expen- Character Points acquire the trait during the Finishing sive 2-point trait Touches stage of character creation (p. 60}. It also serves as If the character has no access t0 the addiction for twenty: the basis of the Experience Point cost t0 purchase them later in tour hours_ he will become irritable and distracted All target character' = career (see 2101."
+  }
+}

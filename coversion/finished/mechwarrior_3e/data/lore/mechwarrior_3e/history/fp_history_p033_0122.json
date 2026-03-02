@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Freeborn characters are conceived and born in the",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 33,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:49Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p033_0122",
+    "entity_type": "history",
+    "name_guess": "Freeborn characters are conceived and born in the",
+    "breadcrumb_path": "Rules Compendium > Page 033 > history > Freeborn characters are conceived and born in the",
+    "page_refs": [
+      33
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Freeborn characters are conceived and born in the natural way; and few become warriors_ In tact, some Clans prohibit freebirths from attaining warrior status Clan characters must then choose caste which influ- ences all other facets of character creation: warrior, scientist, technician_ merchant; laborer 0r dark (bandit) Trueborn charac ters must choose the warrior caste_ Primary Language: English Secondary Languages: None Attrlbute Minlmums: Warrior: SOC 6; scientist: SOC 5; technician: SOC merchant: SOC 3; laborer: SOC 2: dark: SOC Clan characters ignore Social Standing minimum modifiers in the Life Path unless the path is specifically Clan Path; in those cases the new minimum applies even if ower than the pre- vious minimum These minimums also serve as maximums: at the end of the Life Path_ Clan character' $ Social Standing Attribute must be equal to his Social Standing minimum; 32"
+  }
+}

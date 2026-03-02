@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "CHARACIER CREATION Too much desk work [Rifles Martial",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 42,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:52Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p042_0032",
+    "entity_type": "items",
+    "name_guess": "CHARACIER CREATION Too much desk work [Rifles Martial",
+    "breadcrumb_path": "Rules Compendium > Page 042 > items > CHARACIER CREATION Too much desk work [Rifles Martial",
+    "page_refs": [
+      42
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "CHARACIER CREATION Too much desk work [Rifles Martial Arts /Military Computers +13 Administration +1] Made Eood iriend among the command corps [Contact (21] Rival pushes you t0 exce [Enemy; +1 t0 all Basic Training skills] Qualified for cross-training program [May take second AIT immediately after finishing the first AIT, Special Training or OCS; no more than AlTs may be taken] You 're officer materiall [May take Officer Candidate Schoo next , then return and continue the Life Path Irom the same point] Graduated at the top of your class [Promotion Vehicle (4), Custom Vehicle; may take Officer Candidate School next, then return and continue the Life Path from the same point] (Choose one event Or roll twice and apply both resuits] JumpShip Pilot (DropShip Pilot Field required, minimum INT may not have TDS Trait) Military Scientist (minimum INT 5) Special Forces (Infantry; Marine, MechWarrior; Armored Infantry or Scout Field required, minimum BOD RFL INT 3, WIL Next Path: Tour Duty Covert Ops (4, Special Forces or Military Scientist only) Subpath: Officer Candidate School (OCS) Entry via event roll only Tlme: year Attrlbute Thresholds: CHA +1 Tralts: Commission (Rank 11 Flelds: Officer Training Next Path: Per last path followed; add to its Next Path options the Tour of Duty: Social General\" Path if the character has the Lyran Alliance Affiliation Mandatory Subpath: Advanced Individual Training (AlT) Basic Training graduates only Tlme: years Tralts: Promotion Skllls: Leadership +1 add +1 to three Basic Training Skills and +1 t0 ay one other skill Flelds: Choose one of the following fields_ subject to the listed restrictions: Aerospace Pilot (minimum DEX 4, RFL 4) Aircraft Pilot (minimum DEX 4, RFL 37 Armored Infantry (minimum STR 6, BOD 5) Cavalry DropShip Pilot (minimum DEX 4) Infantry Marine (minimum WIL may not have TDS Trait) MechWarrior (minimum DEX 3, RFL 4) Scientist (minimum INT 3) Scout Ship'$ Crew Events: Do not roll events for Advanced Individual Training Next Path: Tour of Duty (4), Covert Ops (4, Scout only) or Special Training (3 part of this pass; take if character enters Scientist, DropShip Pilot; Intantry; Marine MechWarrior, Armored Infantry or Scout fields) MILITARY ENLISTMENT Cannot have Combat Paralysis Or any of the following traits above the owest possible evel: Lost Limb; Poor Hearing Poor Vision this age of perpetual war; tne military will take just about anyone into its ranks However; without the money Or connections to get into an academy: you must work your way up from the bottom: After finishing military training the character must com plete at least one Tour of Duty Path in the Real Life Stage."
+  }
+}

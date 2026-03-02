@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "factions_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "factions",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "thougn such governments in the Inner Sphere Ilie",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 171,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:04Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_factions_p171_0277",
+    "entity_type": "factions",
+    "name_guess": "thougn such governments in the Inner Sphere Ilie",
+    "breadcrumb_path": "Rules Compendium > Page 171 > factions > thougn such governments in the Inner Sphere Ilie",
+    "page_refs": [
+      171
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "thougn such governments in the Inner Sphere Ilie with the Succession some societies place restrictions such rights usually the Wars, usually through ocal military commanders seizing autnor completion of military service_ ity during crisis and then refusing t0 relinquish it; The Free Worlas League is theoretically representative Dictatorships often depend on the charisma and personal democracy; with each province sending elected representatives force of will of their leaders and rarely survive the death to the Parliament on Atreus However; Resolution 288 grants those leaders rulership successfully passes t0 second gen the Captain-General special powers; Tor this reason; some eration, the government is more correctly termed a oligarchy (if regard the League as de facto military dictatorship; ruled by group) or an autocracy (if ruled by an individual)."
+  }
+}

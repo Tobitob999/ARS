@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "lore_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "lore",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "The Kerenskys are favorite subject; as are great",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 194,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:16Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_lore_p194_0422",
+    "entity_type": "lore",
+    "name_guess": "The Kerenskys are favorite subject; as are great",
+    "breadcrumb_path": "Rules Compendium > Page 194 > lore > The Kerenskys are favorite subject; as are great",
+    "page_refs": [
+      194
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "The Kerenskys are favorite subject; as are great warriors Clan totems and landscapes Media The Clans maintain tight control over print and broadcast media but no two Clans regard them in exactly the same way: At one extreme_ the Smoke Jaguars rarely allowed nonessen tial\" broadcasts and So had virtually media industry: At the other; the Diamond Sharks pioneered the extensive Chatterweb information network_ and their well-developed media empire rivals many in the Inner Sphere The rest of the Clans lie some where in between Where the Inner Sphere broadcast media tend to be profit- driven Clan trideo tends toward indoctrination cven Morc 50 than the Capellan Confederation or the Draconis Combine , where intormation I5 also commonly manipulated withheld."
+  }
+}

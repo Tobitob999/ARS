@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "If the hacker' = Margin of Success exceeds",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 99,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:24Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p099_0321",
+    "entity_type": "history",
+    "name_guess": "If the hacker' = Margin of Success exceeds",
+    "breadcrumb_path": "Rules Compendium > Page 099 > history > If the hacker' = Margin of Success exceeds",
+    "page_refs": [
+      99
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "MoS"
+    ],
+    "excerpt": "If the hacker' = Margin of Success exceeds the sysop' MoS by three or more, the intrusion goes unnoticed Otherwise_ the sysop is aware of the breach and may shut down the system in 106 turns Once inside system; hacking character can act freely; though complex tasks may require Action Checks (bad failures and fumbles may alert sysop at the gamemaster'= discretion)."
+  }
+}

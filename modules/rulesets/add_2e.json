@@ -194,6 +194,41 @@
     "Nonweapon Proficiency Check": {
       "base_formula": "attribute dependent",
       "category": "proficiency"
+    },
+    "Wahrnehmung": {
+      "base": 0,
+      "category": "perception",
+      "notes": "German: Perception / Sense awareness"
+    },
+    "Lauschen": {
+      "base": 0,
+      "category": "perception",
+      "notes": "German: Listen / Hear Noise"
+    },
+    "Heimlichkeit": {
+      "base": 0,
+      "category": "rogue",
+      "notes": "German: Stealth / Hide in Shadows"
+    },
+    "Mechanik": {
+      "base": 0,
+      "category": "proficiency",
+      "notes": "German: Mechanics / Technical repair"
+    },
+    "Ueberreden": {
+      "base": 0,
+      "category": "social",
+      "notes": "German: Persuasion / Reaction Adjustment"
+    },
+    "Geschick": {
+      "base": 0,
+      "category": "rogue",
+      "notes": "German: Sleight of Hand / Pick Pockets"
+    },
+    "Klettern": {
+      "base": 0,
+      "category": "movement",
+      "notes": "German: Climbing / Climb Walls"
     }
   },
   "derived_stats": {

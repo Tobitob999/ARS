@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "would not simply stand by as drunken Capellan",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 210,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:26Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p210_0842",
+    "entity_type": "npcs",
+    "name_guess": "would not simply stand by as drunken Capellan",
+    "breadcrumb_path": "Rules Compendium > Page 210 > npcs > would not simply stand by as drunken Capellan",
+    "page_refs": [
+      210
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "would not simply stand by as drunken Capellan sol dicr Deai UD dcfenseless servitor However; altacking the sol: dier would certainly bring ig trouble down on the character and nis comrades 50 such rash action would place him in grave danger: Thc safe tning t0 do swallow ns pride ana ook the other way: However; the in-character thing t0 do IS stop tnat drunkard and show him what brutality really means. Playing CHARACTER ADVANCEMENT character becomes involved various adventurcs and completes missiOnS he Eains nev insight into his skills."
+  }
+}

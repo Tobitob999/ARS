@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Coins exist in 1, and fen denominations (copper",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 182,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:10Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p182_0632",
+    "entity_type": "history",
+    "name_guess": "Coins exist in 1, and fen denominations (copper",
+    "breadcrumb_path": "Rules Compendium > Page 182 > history > Coins exist in 1, and fen denominations (copper",
+    "page_refs": [
+      182
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Coins exist in 1, and fen denominations (copper alloy); 2 and jiao (silver alloy); and 10 and 50 yuan denominations gold alloy). AII Capellan coins have hole bored through the center, allowing them carried money strings Notes also exist in 10, 50, 100 ad J0OO yuan denom inations but they are considerably less common than coins."
+  }
+}

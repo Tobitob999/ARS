@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_2",
+    "tsr_inc_ad_and_d_2nd_edition_dragonlance_heroes_of_sorcery_text",
+    "encumbrance"
+  ],
+  "summary": "Phase-2 Regelchunk: encumbrance aus TSR Inc - AD&D 2nd Edition - Dragonlance_ Heroes of Sorcery_text.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Heroes of Sorcery_text",
+    "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Heroes of Sorcery_text.pdf",
+    "text": "[PDF_PAGE 29 | score=1] , А \"22 Leds m3 9. м, ARONS. 22 ү?» << <А 8 ~ м са ~ Disadvantages The relationship between the Legion of Steel and the other chivalric orders is the cause of several disadvantages. Legionnaires in lands ruled by the Dark Knights must constantly be on their guard. The enmity the Knights of Takhisis bear toward the Legion means that any Legionnaire hero they capture will be put to death. In addition, Legionnaire sorcerers usually find themselves imprisoned by the Gray Robes and subject to their unique attentions before their executions. А Legionnaire's apprentice can, at times, be a burden on the hero. The mentor is expected to take his charge everywhere with him, even into battle or other da\n[PDF_PAGE 31 | score=1] sury, they can count on substantial support (in terms of both moncy and manpower) for any officially sanctioned knightly council and face a Knight's Trial to prove his worthiness and devo- tion to the principles he will be asked ~ endeavor in which they аге involved. Heroes on a quest for the Solamnics will always be properly equipped. to embody. If the hero succeeds at this action, the council has found him wor- thy and he is immediately recognized as a member of the Solamnic auxiliary. N се itself can seem like a terrible burden to heroes not wholeheartedly committed to Solamnic ideals. The life of a Knight is never truly his own. He is always expected to put others (particularly the poor "
+  },
+  "mechanics": {
+    "topic": "encumbrance",
+    "keywords": [
+      "add_2e",
+      "burden",
+      "encumbrance",
+      "tsr_inc_ad_and_d_2nd_edition_dragonlance_heroes_of_sorcery_text"
+    ],
+    "injection_priority": "core",
+    "confidence": 0.05,
+    "page_refs": [
+      29,
+      31
+    ],
+    "raw_text": "[PDF_PAGE 29 | score=1] , А \"22 Leds m3 9. м, ARONS. 22 ү?» << <А 8 ~ м са ~ Disadvantages The relationship between the Legion of Steel and the other chivalric orders is the cause of several disadvantages. Legionnaires in lands ruled by the Dark Knights must constantly be on their guard. The enmity the Knights of Takhisis bear toward the Legion means that any Legionnaire hero they capture will be put to death. In addition, Legionnaire sorcerers usually find themselves imprisoned by the Gray Robes and subject to their unique attentions before their executions. А Legionnaire's apprentice can, at times, be a burden on the hero. The mentor is expected to take his charge everywhere with him, even into battle or other da\n[PDF_PAGE 31 | score=1] sury, they can count on substantial support (in terms of both moncy and manpower) for any officially sanctioned knightly council and face a Knight's Trial to prove his worthiness and devo- tion to the principles he will be asked ~ endeavor in which they аге involved. Heroes on a quest for the Solamnics will always be properly equipped. to embody. If the hero succeeds at this action, the council has found him wor- thy and he is immediately recognized as a member of the Solamnic auxiliary. N се itself can seem like a terrible burden to heroes not wholeheartedly committed to Solamnic ideals. The life of a Knight is never truly his own. He is always expected to put others (particularly the poor "
+  }
+}

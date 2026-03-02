@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "charac ters can gain money through game play;",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 211,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:26Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p211_0800",
+    "entity_type": "history",
+    "name_guess": "charac ters can gain money through game play;",
+    "breadcrumb_path": "Rules Compendium > Page 211 > history > charac ters can gain money through game play;",
+    "page_refs": [
+      211
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "charac ters can gain money through game play; and Inis does not require thc acquisition of the Wealth Trait; AGING character ages; his Attributes and traits May change; Check the Aging Table every time the character has birthday: the character'- AEL agc LoiCS ponds exactly to one 01 thc ages listed thc Age Years column apply the Attribute mod- Ifiers and traits shown tne corresponding rOw: These effects are cumulativc unlike tnose effects shown the Age Effects Table used at Ine erd of character creation."
+  }
+}

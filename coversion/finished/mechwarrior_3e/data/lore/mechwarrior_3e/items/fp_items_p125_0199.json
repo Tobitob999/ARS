@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "The patient will survive for length of time",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 125,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:33Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p125_0199",
+    "entity_type": "items",
+    "name_guess": "The patient will survive for length of time",
+    "breadcrumb_path": "Rules Compendium > Page 125 > items > The patient will survive for length of time",
+    "page_refs": [
+      125
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "WOUND"
+    ],
+    "excerpt": "The patient will survive for length of time equal to his WIL minutes So ong as he receives constant Iife support: Any minutes character had remaining to receive MedTech care UNTREATED WOUND RECOVERY Grazing_ Minor and Serious Wounds will heal on their Own given enough time and rest, but Minor and Serious Wounds will not heal properly without treatment from characters with the MedTech and/or Surgery Skills Without any medical treatment; wounds recover at the rate week for Grazing Wounds, 106 weeks for Minor Wounds and 606 weeks for Serious Wounds These healing periods are consecutive not simultaneous_ and lesser wounds are healed first, The character must be resting in reasonably clean and area and take no action more strenuous than eating going t0 the bathroom."
+  }
+}

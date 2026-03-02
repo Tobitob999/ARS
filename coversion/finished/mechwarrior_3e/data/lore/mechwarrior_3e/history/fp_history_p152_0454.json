@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Likewise military housing the same, whether barracks_ private",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 152,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:55Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p152_0454",
+    "entity_type": "history",
+    "name_guess": "Likewise military housing the same, whether barracks_ private",
+    "breadcrumb_path": "Rules Compendium > Page 152 > history > Likewise military housing the same, whether barracks_ private",
+    "page_refs": [
+      152
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Likewise military housing the same, whether barracks_ private apartments or prefabricated housing communities Electric /Motor Bike Motorcycles have between two ad four wheels ad are inexpensive t0 operate Hotels Tube: The 'tube literally no arger than coffin giving person just enough room to sleep; Complexes full of tubes are often built in spaceports or jumppoint stations_ They are also built in ghettos, giving transients ad other homeless Tree not clean bed The tubes themselves are lockable, with small adjacent compartment for luggage Each floor of one of these complexes can hold up t0 hundred tubes in addition t0 bath: room facilities ad common area_ There no room service and no concierge."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "factions_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "factions",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "And because these fools are often the most",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 176,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:06Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_factions_p176_0296",
+    "entity_type": "factions",
+    "name_guess": "And because these fools are often the most",
+    "breadcrumb_path": "Rules Compendium > Page 176 > factions > And because these fools are often the most",
+    "page_refs": [
+      176
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "And because these fools are often the most outspoken_ the rest of humanity listens; Only when the likes Newton; Einstein Kearny and Fuchida make their incredible discoveries does the stairway again emerge from the fog of ignorance, allowing u5 continue on our journey; The path slippery: however; and occasionally we fall back- ward Sometimes whole civilizations are lost; as with the wonder- full cities built by the Mayan Indians of lerra' Americas Other times only the knowledge lost. as with the ancient Egyptians Or the Inner Sphere following the fall of the Star League."
+  }
+}

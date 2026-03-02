@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "aid",
+  "name": "Aid",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Aid (Necromancy, Conjuration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "second",
+    "book_pages": [
+      202,
+      203
+    ],
+    "pdf_pages": [
+      203,
+      204
+    ],
+    "raw_block": "Aid (Necromancy, Conjuration)\nSphere: Necromantic\nRange: Touch\nComponents: V, S, M\nDuration: 1 round + 1 round/level\nCasting Time: 5\nArea of Effect: Creature touched\nSaving Throw: None\nThe recipient of this spell gains the benettt\nof a bless spell ( + 1 to attack rolls and saving\nthrows) and a special bonus of Id8 addition-\nal hit points for the duration of the spell.\nThe aid spell enables the recipient to actu-\nally have more hit points than his full nor-\nmal total. m bonus hit points are lost first\nwhen the recipient takes damage; they can-\nnot be regained by curative magic. Exam-\nple; A 1st-level fighter has 8 hit points,\nsuffers 2 points of damage (8 - 2 = 6), and\nthen receives an aid spell that gives 5 addi-\ntional hit points. The fighter now has 11 hit\npoints, 5 of which are temporary. If he is\nthen hit for 7 points of damage, 2 normal hit\npoints and all 5 temporary hit points are\nlost. He then receives a cure light wounds\nspell that heals 4 points of damage, restor-\ning him to his original 8 hit points.\nNote that the operation of the spell is\nunaffected by permanent hit point losses\ndue to energy drain, Hit Die losses, the loss\nof a familiar, or the operation of certain arti-\nfacts; the temporary hit point gain is fii\nfrom the new, lower total.\nThe material components of this spell are\na tiny strip of white cloth with a sticky sub-\nstance (such as tree sap) on the ends, plus\nthe priest’s holy symbol.\nPriest Spells (2nd Level,\nThe priest casting an augury spell seeks to\ndivine whether an action in the immediate\nfuture (within one-half hour) will be for the\nbenefit of, or harmful to, the party. For\nexample, if a party is considering the\ndestruction of a weird seal that closes a por-\ntal, an augury spell can be used to find if\nweal or woe will be the immediate result. If\nthe spell is successful, the DM yields some\nindication of the probable outcome: \"weal,\"\n\"woe,\" or possibly a cryptic puzzle or\nrhyme. The base chance for receiving a\nmeaningful reply is YO%, plus 1% for each\nlevel of the priest casting the spell, e.g., 71%\nat 1st level, 72% at 2nd, etc. Your DM deter-\nmines any adjustments for the particular\nconditions of each augury.\nFor example, if the question is \"Will we do\nwell if we venture to the third level?\" and a\nterrible troll guarding 10,OOO s.p. and a\nshield +I lurks near the entrance to the\nlevel (which the DM estimates the party\ncould beat after a hard fight) the augury\nmight be: \"Great risk brings great reward.\"\nIf the troll is too strong for the party, the\naugury might be: \"Woe and destruction\nawait!\" Likewise, a party casting several\nauguries about the same action in quick suc-\ncession might receive identical answers,\nregardless of the dice rolls.\nThe material component for augury is a\nset of gem-inlaid sticks, dragon bones, or\nsimilar tokens of at least 1,OOO gp value\n(which are not expended in casting)."
+  },
+  "mechanics": {
+    "school_or_type": "Necromancy, Conjuration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Aid",
+      "canonical_name_guess": null,
+      "school_or_type": "Necromancy, Conjuration",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "1 round + 1 round/level",
+      "casting_time": "5",
+      "area_of_effect": "Creature touched",
+      "saving_throw": "None",
+      "description_excerpt": "The aid spell enables the recipient to actu- ally have more hit points than his full nor- mal total. m bonus hit points are lost first when the recipient takes damage; they can- not be regained by curative magic. Exam- ple; A 1st-level fighter has 8 hit points, suffers 2 points of damage (8 - 2 = 6), and then receives an aid spell that gives 5 addi- tional hit points. The fighter now has 11 hit points, 5 of which are temporary. If he is then hit for 7 points of damage, 2 normal hit points and all 5 temporary hit points are lost. He then receives a cure light wounds spell that heals 4 points of damage, restor- ing him to his original 8 hit points. Note that the operation of the spell is unaffected by permanent hit point losses due to energy drain, Hit Die losses, the loss of a familiar, or the operation of certain arti- facts; the temporary hit point gain is fii from the new, lower total."
+    },
+    "quality_flags": []
+  }
+}

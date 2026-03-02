@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "shout",
+  "name": "Shout",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Shout (Evocation) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      163
+    ],
+    "pdf_pages": [
+      164
+    ],
+    "raw_block": "Shout (Evocation)\nRange: 0\nComponents: V,M\nDuration: Instantaneous\nCasting Time: 1\nArea of Effect: 10-foot X =foot cone\nSaving Throw: Special\nWhen a shout spell is cast, the wizard\ngives himself tremendous vocal powers.\nThe caster can emit an ear-splitting noise\nthat has a principal effect in a cone shape\nradiating from his mouth to a point 30 feet\naway. Any creature within this area is deaf-\nened for 2d6 rounds and suffers 2d6 points\nof damage. A successful saving throw vs.\nspell negates the deafness and reduces the\ndamage by half. Any exposed brittle or\ncrystal substance subject to sonic vibrations\nis shattered by a shout, while those brittle\nobjects in the possession of a creature\nreceive the creature’s saving throw. Deaf-\nened creatures suffer a -1 penalty to sur-\nprise rolls, and those that cast spells with\nverbal components are 20% likely to mis-\ncast them.\nThe shout spell cannot‘penetrate the 2nd-\nlevel clerical spell, silence, 10’ radius. This\nspell can be employed but once per day, for\notherwise the caster might permanently\ndeafen himself.\nThe material components for this spell are\na drop of honey, a drop of citric acid, and a\nsmall cone made from a bull or ram horn.\nL"
+  },
+  "mechanics": {
+    "school_or_type": "Evocation",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Shout",
+      "canonical_name_guess": null,
+      "school_or_type": "Evocation",
+      "range": "0",
+      "components": "V,M",
+      "duration": "Instantaneous",
+      "casting_time": "1",
+      "area_of_effect": "10-foot X =foot cone",
+      "saving_throw": "Special",
+      "description_excerpt": "When a shout spell is cast, the wizard gives himself tremendous vocal powers. The caster can emit an ear-splitting noise that has a principal effect in a cone shape radiating from his mouth to a point 30 feet away. Any creature within this area is deaf- ened for 2d6 rounds and suffers 2d6 points of damage. A successful saving throw vs. spell negates the deafness and reduces the damage by half. Any exposed brittle or crystal substance subject to sonic vibrations is shattered by a shout, while those brittle objects in the possession of a creature receive the creature’s saving throw. Deaf- ened creatures suffer a -1 penalty to sur- prise rolls, and those that cast spells with verbal components are 20% likely to mis- cast them. The shout spell cannot‘penetrate the 2nd- level clerical spell, silence, 10’ radius. This spell can be employed but once per day, for otherwise the caster might perma"
+    },
+    "quality_flags": []
+  }
+}

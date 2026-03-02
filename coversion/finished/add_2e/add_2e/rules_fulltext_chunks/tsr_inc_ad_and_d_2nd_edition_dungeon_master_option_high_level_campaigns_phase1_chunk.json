@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_1_mapping",
+    "tsr_inc_ad_and_d_2nd_edition_dungeon_master_option_high_level_campaigns"
+  ],
+  "summary": "Abgeleiteter Phase-1-Chunk aus Kapitelmarkern fuer TSR Inc - AD&D 2nd Edition - Dungeon Master Option - High-Level Campaigns.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - Dungeon Master Option - High-Level Campaigns",
+    "source_file": "TSR Inc - AD&D 2nd Edition - Dungeon Master Option - High-Level Campaigns.pdf",
+    "chapter_map_file": "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dungeon_master_option_high_level_campaigns_chapter_map.json",
+    "text": "Chapter 1: The Seven Maxims . . ....................... . . . 6 (first_seen_pdf_page=5)\nChapter 3: Spells and Magical Items .. .... .. .. .. .. . .. . .. . . 68 (first_seen_pdf_page=5)\nChapter 4: Control Magic ... . . . ... ..... . .. .. ... ..... . . . . 17 Creating Magical Items ................... . .. . . 86 (first_seen_pdf_page=5)\nChapter 5: Create Villains Who Learn .... . ... ........ . .. 24 Magical Duels ..... . ... . .......... . ..... . ... . 96 (first_seen_pdf_page=5)\nChapter 2: Specialist Wizards ... .. ...... . ....... . .... 105 (first_seen_pdf_page=5)\nChapter 6: Technological Aspect ... . ............ . . . ... .51 True Dweomers .. . .. . .. . . ......... . .... . ... . 118 (first_seen_pdf_page=5)\nChapter 7: Table 21 : Magic Resistance .. . . . . . .... . .. ... ... .. . 66 (first_seen_pdf_page=6)\nChapter 1: The &ven Maxims (first_seen_pdf_page=7)\nChapter 2: Adventures (first_seen_pdf_page=31)\nChapter 3: ~pells and (first_seen_pdf_page=69)\nChapter 5: Magical Duels (first_seen_pdf_page=97)\nChapter 6: True Dweomers (first_seen_pdf_page=119)\nChapter 7: High-Level (first_seen_pdf_page=143)"
+  },
+  "mechanics": {
+    "topic": "phase_1_skeleton_mapping",
+    "keywords": [
+      "add_2e",
+      "book_conversion",
+      "magic",
+      "spell",
+      "tsr_inc_ad_and_d_2nd_edition_dungeon_master_option_high_level_campaigns"
+    ],
+    "injection_priority": "core",
+    "mapped_skeleton_fields": [
+      "magic"
+    ],
+    "raw_text": "Chapter 1: The Seven Maxims . . ....................... . . . 6 (first_seen_pdf_page=5)\nChapter 3: Spells and Magical Items .. .... .. .. .. .. . .. . .. . . 68 (first_seen_pdf_page=5)\nChapter 4: Control Magic ... . . . ... ..... . .. .. ... ..... . . . . 17 Creating Magical Items ................... . .. . . 86 (first_seen_pdf_page=5)\nChapter 5: Create Villains Who Learn .... . ... ........ . .. 24 Magical Duels ..... . ... . .......... . ..... . ... . 96 (first_seen_pdf_page=5)\nChapter 2: Specialist Wizards ... .. ...... . ....... . .... 105 (first_seen_pdf_page=5)\nChapter 6: Technological Aspect ... . ............ . . . ... .51 True Dweomers .. . .. . .. . . ......... . .... . ... . 118 (first_seen_pdf_page=5)\nChapter 7: Table 21 : Magic Resistance .. . . . . . .... . .. ... ... .. . 66 (first_seen_pdf_page=6)\nChapter 1: The &ven Maxims (first_seen_pdf_page=7)\nChapter 2: Adventures (first_seen_pdf_page=31)\nChapter 3: ~pells and (first_seen_pdf_page=69)\nChapter 5: Magical Duels (first_seen_pdf_page=97)\nChapter 6: True Dweomers (first_seen_pdf_page=119)\nChapter 7: High-Level (first_seen_pdf_page=143)",
+    "derived_from": [
+      "detected_chapters",
+      "detected_appendices"
+    ]
+  }
+}

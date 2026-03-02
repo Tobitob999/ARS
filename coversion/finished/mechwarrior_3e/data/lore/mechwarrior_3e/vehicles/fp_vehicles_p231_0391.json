@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "vehicles_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "vehicles",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Deup Perialien : WN anen Ilara K] Laela",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 231,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:32Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_vehicles_p231_0391",
+    "entity_type": "vehicles",
+    "name_guess": "Deup Perialien : WN anen Ilara K] Laela",
+    "breadcrumb_path": "Rules Compendium > Page 231 > vehicles > Deup Perialien : WN anen Ilara K] Laela",
+    "page_refs": [
+      231
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Deup Perialien : WN anen Ilara K] Laela @enunating FVeT} (Fena CuturliCO} Nuntiana utual Caf [Eun @ Yood 474 en Slernlldenl Palpl: Tm SIn (oenecni naivy_ 46ie Vueg tanu (dmbie #MaIT aerospace Pilot: Uinli e MDSt muitfies mna Pariqnery. the Qu\" orld? Amance glves AMospace plott supurb IriinIrq ana %opnotch equionent"
+  }
+}

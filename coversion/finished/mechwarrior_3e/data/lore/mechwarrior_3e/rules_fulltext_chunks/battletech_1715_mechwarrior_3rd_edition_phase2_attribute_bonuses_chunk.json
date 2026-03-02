@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_chunk",
+  "tags": [
+    "mechwarrior_3e",
+    "phase2",
+    "attribute_bonuses"
+  ],
+  "summary": "Phase2 Chunk fuer attribute_bonuses aus OCR-Text.",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "generated_at": "2026-03-02T16:50:58Z"
+  },
+  "mechanics": {
+    "topic": "attribute_bonuses",
+    "injection_priority": "support",
+    "keywords": [
+      "modifier",
+      "bonus",
+      "penalty"
+    ],
+    "page_refs": [
+      17,
+      212,
+      125,
+      111,
+      103,
+      99,
+      59,
+      113
+    ],
+    "raw_text": "[PDF_PAGE 17 | score=24] GAME CONCEPTS If a single Attribute is used in the Check, the base TN is 15 minus the Attribute in question. character has WIL of 6 then the base TN of WIL Check for him would be (15 are used t0 represent the effects the conditions surrounding the action have on the TN: Action Modifiers Characters can take certain special actions that affect the target numbers of their actions_ such as taking extra time t0 be careful and thorough In addition other characters can lend hand t0 help with the action_ These actions are represented by the aptly named action modifiers two Attributes are used in the Check the base TN is 20 character with BOD of and STR minus both Attributes would have base TN of 10 for BOD/STR Check (20 101. MODIFIERS The base TN can be adjusted depending on the difficulty of the particular task at hand and the conditions surrounding the action_ In the example of an attack test, lighting: weather and terrain factors can make the attack more difficult: If the attack- takes careful aim the attack is made easier: In any Action Check the gamemaster may choose apply modifiers to the base TN t0 reflect the current conditions_ Each modifier will raise or lower the target number depend: ing on the condition, as shown on the Target Number Modifiers Table (p. 17). Circumstances that make the action easier lower the TN_ so they are listed as negative numbers When modifi: makes the action more difficult, it is positive number that will raise the Combat Modlflers: Different modifier tables are used specifically for ranged combat (p. 112) and melee combat (p. 113). However; they are both based on this table SkilLS character'$ skills can have profound effect on the suC cess or failure of an Action Check: Before rolling the dice for an Action Check the player must determine if\n[PDF_PAGE 212 | score=15] RUNNING THE GAME acter with tne Ski question (at skill bonus equal higher than the training character) and the Training Skill, the trainer may maxe Training Check using the target character' skill bonus as modifier to the target number If the Action Check IS success- ful. the target character may add hash mark the chosen skill: If the Action Check unsuccessful the target character may not add hash mark t0 the skill; character can score nash mark skill he does not yet have in this way: Skills that have hash marks next to them may be improved bonus (see Skill Advancemeng pelow , When they are improved the nash marks are erased Tnnt Skill Advancement Skill advancement affected by Link Attributes and traits well as successful use and training High Link Attributes make skill advancement faster. while low Link Attributes slow down. This represents tne fact that some people are simply bet- disposed t0 earning certain skills because of their natural abilities For example. strong ad fast characters will pick up on athletic skills faster than couch potatoes and s0 on. Also, diffi: cult skills will be harder t0 increase than standard skills and skills that the character actually uses Or is trained will be eas ier t0 increase than those that are neglected skill bonus can only be increased one level time example you can increase skill from +2 t0 +3 but not from directly to First. the skill must be increased t0 +3 and east one adventure must pass before the skill can increased again The base cost t0 increase the skill bonus is the skill bonus you are increasing For example increasing skill bonus from +2 t0 +3 has base cost 0f 3, To find the actual cost of increasing the skill bonus; you need (0 Knox the aavancement multiplier for that skill. To figure out the multiplier, first add to"
+  }
+}

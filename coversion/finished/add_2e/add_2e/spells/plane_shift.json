@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "plane_shift",
+  "name": "Plane Shift",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Plane Shift (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "fourth",
+    "book_pages": [
+      224
+    ],
+    "pdf_pages": [
+      225
+    ],
+    "raw_block": "Plane Shift (Alteration)\nComponents: V, S, M\nDuration: Permanent\nArea of Effect: Creature touched (special)\nSaving Throw: Neg.\nWhen the plane shift spell is cast, the\nriest moves himself or some other creature\nve you app;opriate information as the\nto another plane of existence. The recipient\nof the spell remains in the new plane until\nsent forth by some like means. If several\npersons link hands in a circle, up to eight\ncan be affected by the plane shift at the same\ntime.\nThe material component of this spell is a\nsmall, forked metal rod-the exact size and\nmetal type dictating to which plane of exist-\nence (including sub-planes and alternate\ndimensions) the spell sends the affected\ncreatures. (Your DM will determine specifics\nregarding how and what planes are\nreached.)\nAn unwilling victim must be touched\n(successful attack roll) in order to be sent; in\naddition, the creature is also allowed a sav-\ning throw. If the saving throw is successful,\nthe effect of the spell is negated. Note that\npinpoint accuracy is rarely achieved; arriv-\ning a random distance from an intended des-\ntination is common.\nThc metal rod is not expended when the\nspell is cast. Forked rods keyed to certain\nD~WS mav be difficult to come bv, as decid-"
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Plane Shift",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": null,
+      "components": "V, S, M",
+      "duration": "Permanent",
+      "casting_time": null,
+      "area_of_effect": "Creature touched (special)",
+      "saving_throw": "Neg.",
+      "description_excerpt": "When the plane shift spell is cast, the riest moves himself or some other creature ve you app;opriate information as the to another plane of existence. The recipient of the spell remains in the new plane until sent forth by some like means. If several persons link hands in a circle, up to eight can be affected by the plane shift at the same time. The material component of this spell is a small, forked metal rod-the exact size and metal type dictating to which plane of exist- ence (including sub-planes and alternate dimensions) the spell sends the affected creatures. (Your DM will determine specifics regarding how and what planes are reached.) An unwilling victim must be touched (successful attack roll) in order to be sent; in addition, the creature is also allowed a sav- ing throw. If the saving throw is successful, the effect of the spell is negated. Note that pinpoint accuracy is rarel"
+    },
+    "quality_flags": [
+      "missing_standard_fields"
+    ]
+  }
+}

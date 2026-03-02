@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "factions_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "factions",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "The vast distances between The principal distinction between",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 171,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:03Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_factions_p171_0276",
+    "entity_type": "factions",
+    "name_guess": "The vast distances between The principal distinction between",
+    "breadcrumb_path": "Rules Compendium > Page 171 > factions > The vast distances between The principal distinction between",
+    "page_refs": [
+      171
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [
+      "2630"
+    ],
+    "stat_tokens": [],
+    "excerpt": "The vast distances between The principal distinction between teudal state ad planets made interstellar travel rarity, and since the HPG sys- autocracy /oligarchy is that in the former; good deal of the tem was not developed until 2630, interstellar communication authority iS delegated t0 number of vassals who have sworn was impossible_ This meant that each world enjoyed hign Tealty to the reigning power; In turn these vassals run their fief- degree of autonomy; and the feudal warlords who ruled them doms as sub-states usually as parliamentary monarchy Or an rarely faced the possibility of being overthrown by an invading autocracy; military force This system largely remains place today; result Feudal states are the most common form of government ing in patchwork 0f mostly independent Iocal governments the Inner Sphere, and each of the Great Houses contains some overseen by neo-ieudal lord There are dozens of variations form of noble class The Federated Suns the classic example but the most common are Iisted below."
+  }
+}

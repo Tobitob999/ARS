@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "locations_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "locations",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Most Periphery planets are Outback worlds with standards",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 178,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:08Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_locations_p178_0307",
+    "entity_type": "locations",
+    "name_guess": "Most Periphery planets are Outback worlds with standards",
+    "breadcrumb_path": "Rules Compendium > Page 178 > locations > Most Periphery planets are Outback worlds with standards",
+    "page_refs": [
+      178
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Most Periphery planets are Outback worlds with standards of living as far below the core worlds as Third World country was from First World one on ancient Terra What little technology exists I5 treated Iike miracle ad rarely taken for granted_ In some areas the incongruities can strike observers as ludicrous: hunt- ing game with bow and arrow Or nundred-year-old rifle_ oniy bring home and cook microwave_ In the remotest regions backwater planets_ merchant DropShip landing can be cause for local holiday: Most people on these worlds care nothing about politics, though those on border worlds tend to be avid followers military news_ Skirmishes_ victories, defeats and treaties can all have major impact on their lives_ Mechwarrior refrecher The akcoholic drink most associaled wlth MechWarriors Is the PPC , named atter the BattleMech weapon: First intro- duced on Solarls VII; where few \"manly\" MechWarriors point- edly favored drink has become stereotype MechWarrior fiction."
+  }
+}

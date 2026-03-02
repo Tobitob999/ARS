@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "transmute_metal_to_wood",
+  "name": "Transmute Metal to Wood",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Transmute Metal to Wood (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "sixth",
+    "book_pages": [
+      236
+    ],
+    "pdf_pages": [
+      237
+    ],
+    "raw_block": "Transmute Metal to Wood (Alteration)\nSphere: Elemental (Earth)\nRange: 80 yards\nComponents: V, S, M\nDuration: Permanent\nCasting Time: 1 round\nArea of Effect: 1 metal object\nSaving Throw: Special\nThe transmute metal to wood spell en-\nables the caster to change an object from\nmetal to wood. The volume of metal cannot\nexceed a maximum weight of 10 pounds per\nexperience level of the priest. Magical ob-\njects made of metal are 90% resistant to the\nspell, and those on the person of a creature\nreceive the creature’s saving throw as well.\nArtifacts and relics cannot be transmuted.\nNote that only a wish spell or similar magic\ncan restore a transmuted object to its metal-\nlic state. Otherwise, for example, a metal\ndoor changed to wood would be forever-\nmore a wooden door."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Transmute Metal to Wood",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "80 yards",
+      "components": "V, S, M",
+      "duration": "Permanent",
+      "casting_time": "1 round",
+      "area_of_effect": "1 metal object",
+      "saving_throw": "Special",
+      "description_excerpt": "The transmute metal to wood spell en- ables the caster to change an object from metal to wood. The volume of metal cannot exceed a maximum weight of 10 pounds per experience level of the priest. Magical ob- jects made of metal are 90% resistant to the spell, and those on the person of a creature receive the creature’s saving throw as well. Artifacts and relics cannot be transmuted. Note that only a wish spell or similar magic can restore a transmuted object to its metal- lic state. Otherwise, for example, a metal door changed to wood would be forever- more a wooden door."
+    },
+    "quality_flags": []
+  }
+}

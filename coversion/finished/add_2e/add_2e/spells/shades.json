@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "shades",
+  "name": "Shades",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Shades (IllusiodPhantasm) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "sixth",
+    "book_pages": [
+      181
+    ],
+    "pdf_pages": [
+      182
+    ],
+    "raw_block": "Shades (IllusiodPhantasm)\nRange: 30 yards\nComponents: V, S\nDukation: 1 round/level\nCasting Time: 6\nArea of Effect: 20-foot cube\nSaving Throw: Special\nThis spell is related to the shadow mon-\nsters and demi-shadow monsters spells. The\nshades spell uses material from the plane of\nShadow to form semi-real illusions of one or\nmore monsters, up to 1 Hit Die per caster\nlevel. All shades created by one spell must\nbe of the same sort, and they have 60% of\nthe hit point total the real creatures would\nhave. Those viewing the shades and failing\ntheir saving throws vs. spell believe the illu-\nsion.\nThe shades perform as the real monsters\nwith respect to Armor Class and attack\nforms. Special attack forms such as petrifi-\ncation or level drain do not actually occur,\nbut a subject who believes the shgdes are\nreal will react appropriately, until the illu-\nsion is countered by a dispel magic spell or\nihe condition is countd by a heal spell.\nnose who roll successful saving throws see\n.he shades as transparent images superim-\n)osed on vague shadowy forms. These are\nhor Class 6 and cause only 60% of the\nrue monsters' normal melee damage."
+  },
+  "mechanics": {
+    "school_or_type": "IllusiodPhantasm",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Shades",
+      "canonical_name_guess": null,
+      "school_or_type": "IllusiodPhantasm",
+      "range": "30 yards",
+      "components": "V, S",
+      "duration": null,
+      "casting_time": "6",
+      "area_of_effect": "20-foot cube",
+      "saving_throw": "Special",
+      "description_excerpt": "This spell is related to the shadow mon- sters and demi-shadow monsters spells. The shades spell uses material from the plane of Shadow to form semi-real illusions of one or more monsters, up to 1 Hit Die per caster level. All shades created by one spell must be of the same sort, and they have 60% of the hit point total the real creatures would have. Those viewing the shades and failing their saving throws vs. spell believe the illu- sion. The shades perform as the real monsters with respect to Armor Class and attack forms. Special attack forms such as petrifi- cation or level drain do not actually occur, but a subject who believes the shgdes are real will react appropriately, until the illu- sion is countered by a dispel magic spell or ihe condition is countd by a heal spell. nose who roll successful saving throws see .he shades as transparent images superim- )osed on vague shadowy form"
+    },
+    "quality_flags": [
+      "missing_standard_fields"
+    ]
+  }
+}

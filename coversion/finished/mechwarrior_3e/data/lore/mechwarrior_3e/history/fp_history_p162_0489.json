@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "By attacking the teeth of the Davion onslaught;",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 162,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:57Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p162_0489",
+    "entity_type": "history",
+    "name_guess": "By attacking the teeth of the Davion onslaught;",
+    "breadcrumb_path": "Rules Compendium > Page 162 > history > By attacking the teeth of the Davion onslaught;",
+    "page_refs": [
+      162
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [
+      "3039"
+    ],
+    "stat_tokens": [],
+    "excerpt": "By attacking the teeth of the Davion onslaught; Theodore made Hanse Davion believe the DCMS was stronger than actually Was By October 3039_ Davion chose cut his losses and make peace_ The War of 3039 accomplished Iittle , save t0 remind the Successor States tne severe cost of war."
+  }
+}

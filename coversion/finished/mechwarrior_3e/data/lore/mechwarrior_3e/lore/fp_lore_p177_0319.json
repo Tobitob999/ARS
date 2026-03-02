@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "lore_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "lore",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Naturally; tney cut swath hundreds of light-years across",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 177,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:08Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_lore_p177_0319",
+    "entity_type": "lore",
+    "name_guess": "Naturally; tney cut swath hundreds of light-years across",
+    "breadcrumb_path": "Rules Compendium > Page 177 > lore > Naturally; tney cut swath hundreds of light-years across",
+    "page_refs": [
+      177
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Naturally; tney cut swath hundreds of light-years across through the Inner Sphere We fought them the only way we could: dirty. But we knew that if we hoped to defeat thc Clans had to level the technological playing field. So we assigned scientists to rip apart every bit of Clan technology we cap 178"
+  }
+}

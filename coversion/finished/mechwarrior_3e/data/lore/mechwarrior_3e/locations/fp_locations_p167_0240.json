@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "locations_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "locations",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Officially; the Clan home Formerly part of the",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 167,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:00Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_locations_p167_0240",
+    "entity_type": "locations",
+    "name_guess": "Officially; the Clan home Formerly part of the",
+    "breadcrumb_path": "Rules Compendium > Page 167 > locations > Officially; the Clan home Formerly part of the",
+    "page_refs": [
+      167
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Officially; the Clan home Formerly part of the Federated Commonwealth the Lyran worlds lie in the Deep Periphery; though Clan territory encom- Alliance is one of two realms governed Archon Princess passing roughly 200 light-year sphere, about 300 light-years Katherine Steiner-Davion Originally the Lyran Commonwealth; coreward of Terra -is widely considered distinct region was Once the strongest mercantile power among the Successor For map the Inner Sphere see the beginning of the States_ Recent wars ad perennia secessionist activity in out color pages: Iying regions however; have drained the Lyran economy Located rimward coreward Terra_ the Alliance lost many FEDERATED SUNS worlds in the Clan invasion, including the provincial capital The Federated Suns occupies roughly quarter of tne Inner Tamar (now the Clan Wolf regional capital) ."
+  }
+}

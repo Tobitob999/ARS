@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Players are offered this detailed look inside the",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 6,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:21Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p006_0015",
+    "entity_type": "history",
+    "name_guess": "Players are offered this detailed look inside the",
+    "breadcrumb_path": "Rules Compendium > Page 006 > history > Players are offered this detailed look inside the",
+    "page_refs": [
+      6
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Players are offered this detailed look inside the set: just game in which players take on the roles of BattleMech ting t0 find out what it'$ really like to live_ love and fight there_ pilots In fact, it is quite Iikely the majority of MW3 characters We hope you enjoy the ride. will never set foot in Mech cockpit: As in the Battle Tech and WHAT IS MechWarrior novels the majority of the action in the universe takes place out of the cockpit and off the battlefield and there ROLEPLAYING GAME?"
+  }
+}

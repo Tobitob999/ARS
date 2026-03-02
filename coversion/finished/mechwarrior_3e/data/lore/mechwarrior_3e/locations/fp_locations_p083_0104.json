@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "locations_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "locations",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "GOOD HEARING Cost: 1 This trait makes the",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 83,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:07Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_locations_p083_0104",
+    "entity_type": "locations",
+    "name_guess": "GOOD HEARING Cost: 1 This trait makes the",
+    "breadcrumb_path": "Rules Compendium > Page 083 > locations > GOOD HEARING Cost: 1 This trait makes the",
+    "page_refs": [
+      83
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "TN"
+    ],
+    "excerpt": "GOOD HEARING Cost: 1 This trait makes the character'$ sense of hearing sharper than usual, enough to provide TN modifier to all hearing: based Perception Checks FAST LEARNER Cost: 3 fast learner is quick study and has an excellent memo ry, resulting in faster skill improvement: Add +2 t0 the total of the two Link Attributes when determining the cost of skill advancement (P 211) for all skills GOOD REPUTATION Cost: 1-5 character with good reputation is known far and wide and this reputation can open doors and create opportunities (although it can also make it difficult to blend in' The point cost for this trait is determined by region in the same way as Bad Reputation (p 79)."
+  }
+}

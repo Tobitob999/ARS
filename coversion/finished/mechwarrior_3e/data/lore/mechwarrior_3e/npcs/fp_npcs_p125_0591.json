@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "COMBAT of wound value the character has suffered",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 125,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:33Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p125_0591",
+    "entity_type": "npcs",
+    "name_guess": "COMBAT of wound value the character has suffered",
+    "breadcrumb_path": "Rules Compendium > Page 125 > npcs > COMBAT of wound value the character has suffered",
+    "page_refs": [
+      125
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "wound"
+    ],
+    "excerpt": "COMBAT of wound value the character has suffered in excess of his BOD WIL) Proper equipment iS vitally important this situation: if the character performing First Aid does not have at least medical kit (p. 144), the target number is modified Dy +6 for lack of proper equipment. the character has medical kit but not an advanced medical kit (p."
+  }
+}

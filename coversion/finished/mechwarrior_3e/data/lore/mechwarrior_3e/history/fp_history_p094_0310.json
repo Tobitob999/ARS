@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "TRAITS Thor (Summoner) [70] Nova Cat [70] Vulture",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 94,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:23Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p094_0310",
+    "entity_type": "history",
+    "name_guess": "TRAITS Thor (Summoner) [70] Nova Cat [70] Vulture",
+    "breadcrumb_path": "Rules Compendium > Page 094 > history > TRAITS Thor (Summoner) [70] Nova Cat [70] Vulture",
+    "page_refs": [
+      94
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [
+      "100 tons"
+    ],
+    "range_mentions": [
+      "1 M",
+      "4 M",
+      "67 M",
+      "6M",
+      "98 M"
+    ],
+    "year_mentions": [
+      "3514"
+    ],
+    "stat_tokens": [],
+    "excerpt": "TRAITS Thor (Summoner) [70] Nova Cat [70] Vulture (Mad Dog) [60] Mad Cat (Timber Wolf) [75] Cauldron Born [65] Night Gyr [75] Loki (Hellbringer) [65] Mad Cat (Timber Wolf) [75] Linebacker (65] Thresher [60] Rifleman IIC [65] Galahad (Glass Spider) [60] Guillotine IIC (70] EXT-AD Exterminator [65] Grizzly [70] FLS-8K Flashman [75] Rifleman IIC [65] Matador (60] Oro Heavy Tank [60]T Oro Heavy Tank [60]T Ishtar Heawy Fire Support Tank [65]w Oro Heavy Tank [60jT Ishtar Heavy Fire Support Tank [65JW Oro Heavy Tank [60]T Ishtar Heavy Fire Support Tank (65]w Oro Heavy Tank [60]T Athena Combat Vehicle [75] Assault (80-100 tons) 206 Front Une Mechs Masakari (Warhawk) [85] Turkina (95] Man War (Gargoyle) [80] Gladiator Executioner) [95] Daishi (Dire Woll) [100] Masakan (Warhawk) [85] Kingfisher [90] Daishi (Dire Wolf) [100] Man 0' War (Gargoyle) [80] Gladiator (Executioner) [95] Blood Asp [95] Second Llne 'Mechs Highlander IIC [90] Bchemoth (Stone Rhino) [100] Kraken Bane) [100] CRK-5003-1 Crockett [85| Highlander IIC [90] Supernova [90] Kodiak [100] Supernova [90] Behemoth (Stone Rhino) [100] THG-11E Thug (80] Kodiak (100] Vehicles Huitzilopochtli Assault Tank [85]T Mars Assault Vehicle [100]T Huitzilopochtli Assault Tank (85]T Mars Assaull Vehicle [100jT Mars Assault Vehicle [100]T Mars Assault Vehicle [100jT Mars Assault Vehicle (100jT Huitzilopochtli Assault Tank [85]T Mars Assault Vehicle [100]T Huitzilopochtll Assault Tank [85]T Mars (XL Variant) [100]\" VEHICLE ASSIONMENT TABLE 4 MISCELLANEOUS PERIPHERY 206 Light 'Mechs THE S Thorn ([20] HER-IA Hermes [30] PNT-9R Panther [35] SDR Sv Spider [30] UMR63 UrbanMech [30] JVN-IOP Javelin [30] FS9 H Firestarter [35] COMZ0 Commando [25] MCY-98 Mercury [20] MON-67 Mongoose [25] HSR-3OO-D Hussar [30] Medium 'Mechs CN9 D Centurion [50] TBT SN Trebuchet [50] HCT-5S Hatchetman [45] CDA-2A Cicada [40] 8J 1 Blackjack [45] ASN-23 Assassin [40] WTH- 2 Whitworth [40] VL 2T Vulcan [40| CLNT-2-31 Clint [40] DV 6M Dervish [55] MHL-X1 Marshal [55] Heavy Mechs FLS 7K Flashman (75] GLT-4L Guillotine (70] BMB- 1OD Bombardier [65] CPLT C1 Catapult [65] QKD 4G Quickdraw 601 GHR-5) Grasshopper [70] JM6 5 JagerMech [65] ON1-K Orion [75] LNC25-02 Lancelot [60] EXT 44 Exterminator 65] BL-7-KNT Black Knight (75] Assault 'Mechs CRK 50030 Crockett [85] THG-1OE Tnub [80] AWS-8Q Awesome [801 CP 10 C Cyclops (90] VTR-9K Victor [80] ZEU-9S Zeus [80] CGR 141 Charger [80] BNC-3E Banshee [95] STK-3F Stalker [85] AS7 D Atlas [100] HGN-733 Highlander [90] INNER SPHERE VEHICLES 206 Light Vehicles Medlum Vehicles Heavy Vehicles Yellow Jacket Gunship (30jV Regulator Hovertank [45/H Zukov Tank [75]T Striker Tank (35]w Goblin Tank (4511 Patton Tank [65]\" Mantis Attack VTOL [15jV Hetzer Wheeled Assault Gun [40jW Po Heavy Tank [60jT Hunter Support Tank [35]T Drillson Hovertank [501H Manticore Tank [60jT Saladin Assault Hovertank [351H Maxim Hover Transport (S0jH Pike Support Vehicle I60jT Saracen Hovertank (3514 Vedette Tank [50]1 LRM Carrier (60]T Hawk Moth Gunship [25jV Myrmidon Tank [40jT SRM Carrier [60jT Assault Vehicles Alacorn Mk VI Tank [95]T SturmFeur Tank (85]!"
+  }
+}

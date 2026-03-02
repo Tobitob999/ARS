@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "lore_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "lore",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "All took tneir share planets_ but Clan Wolf",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 163,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:58Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_lore_p163_0231",
+    "entity_type": "lore",
+    "name_guess": "All took tneir share planets_ but Clan Wolf",
+    "breadcrumb_path": "Rules Compendium > Page 163 > lore > All took tneir share planets_ but Clan Wolf",
+    "page_refs": [
+      163
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [
+      "3050"
+    ],
+    "stat_tokens": [],
+    "excerpt": "All took tneir share planets_ but Clan Wolf conquered more worlds than all its compatriots Inner Sphere forces aunched few successful counterattacks_ but those strikes came too Iittle ad too late_ The Clan juggernaut thundered on; halted only when an unlikely catastropne struck: October 3050 Rasalhagian pilot named Tyra Miraborg crashed her Shilone fighter into the Clan flagship Dire Wolf;, killing the Clans' eader: The death of the iIKhan accon: plished what six months of desperate fighting had not; the Clans ended their assaults garrisoned the worlds they had conquered 182"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "solid_fog",
+  "name": "Solid Fog",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Solid Fog (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      163
+    ],
+    "pdf_pages": [
+      164
+    ],
+    "raw_block": "Solid Fog (Alteration)\nRange: 30 yards\nComponents: V, S, M\nDuration: 2d4 rounds + 1 rounaiievei\nCasting Time: 4\nArea of Effect: 20’ x 10’ x 10‘ volume/\nlevel of caster\nSaving Throw: None\nWhen this spell is cast, the wizard creates\na billowing mass of misty vapors similar to\na wall of fog spell. The caster can create less\nvapor if desired, as long as a rectangular or\ncubic mass at least 10 feet dn a side is\nformed. The fog obscures all sight, normal\nand infravision, beyond two feet. However,\nunlike normal fog, only a very strong wind\ncan move these vapors, and any creature\nattempting to move through the solid fog\nprogresses at a rate of but one foot per\nmovement rate of 1 per round. A gust of\nwind spell cannot affect it. A fireball, flame\nstrike, or a wall of fire can bum it away in a\nsingle round.\nThe material components for the spell are\na pinch of dried, powdered peas combined\nwith powdered animal hoof.\nStoneskin (Alt\nRange: Touch\nComponents: V, S, M\nDuration: Special\nCastinn Time: 1\nArea 07 Effect: 1 creature\nSaving Throw: None\nWhen this spell is cast, the affected crea-\nture gains a virtual immunity to any attack\nby cut, blow, projectile, or the like. Even a\nsword of sharpness cannot affect a creature\nprotected by stoneskin, nor can a rock\nhurled by a giant, a snake’s strike, etc. How-\never, magical attacks from such spells as\nfireball, magic missile, lightning bolt, and\nso forth have their normal effects. The spell\nblocks ld4 attacks, plus one attack per two\nlevels of experience the caster has achieved.\nThis limit applies regardless of attack rolls\nand regardless of whether the attack was\nphysical or magical. For example, a\nstoneskin spell cast by a 9th-level wizard\nwould protect against from five to eight\nattacks. An attacking griffon would reduce\nthe protection by three each round; four\nmagic missiles would count as four attacks\nin addition to inflicting their normal dam-\nage.\nThe material components of the spell are\ngranite and diamond dust sprinkled on the\nrecipient’s skin.\n163"
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Solid Fog",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "30 yards",
+      "components": "V, S, M",
+      "duration": "2d4 rounds + 1 rounaiievei",
+      "casting_time": "4",
+      "area_of_effect": "20’ x 10’ x 10‘ volume/",
+      "saving_throw": "None",
+      "description_excerpt": "When this spell is cast, the affected crea- ture gains a virtual immunity to any attack by cut, blow, projectile, or the like. Even a sword of sharpness cannot affect a creature protected by stoneskin, nor can a rock hurled by a giant, a snake’s strike, etc. How- ever, magical attacks from such spells as fireball, magic missile, lightning bolt, and so forth have their normal effects. The spell blocks ld4 attacks, plus one attack per two levels of experience the caster has achieved. This limit applies regardless of attack rolls and regardless of whether the attack was physical or magical. For example, a stoneskin spell cast by a 9th-level wizard would protect against from five to eight attacks. An attacking griffon would reduce the protection by three each round; four magic missiles would count as four attacks in addition to inflicting their normal dam- age. The material components of the"
+    },
+    "quality_flags": []
+  }
+}

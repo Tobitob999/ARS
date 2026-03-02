@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Cnaracters must make Perception Check at +4 TN",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 140,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:39Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p140_0292",
+    "entity_type": "items",
+    "name_guess": "Cnaracters must make Perception Check at +4 TN",
+    "breadcrumb_path": "Rules Compendium > Page 140 > items > Cnaracters must make Perception Check at +4 TN",
+    "page_refs": [
+      140
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "TN"
+    ],
+    "excerpt": "Cnaracters must make Perception Check at +4 TN penalty to successfully notice someone using JAF-05 (the penalty negated tne character making the roll is using a infrared detector; as the JAF-05 cannot mask the weapon heat signa ture). Telescopic Scope Sometimes called sniper scopes these magnify much like pair binoculars or standard telescope."
+  }
+}

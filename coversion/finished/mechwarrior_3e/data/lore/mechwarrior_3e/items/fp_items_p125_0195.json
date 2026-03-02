@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "The patient will survive for Iength of time",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 125,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:33Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p125_0195",
+    "entity_type": "items",
+    "name_guess": "The patient will survive for Iength of time",
+    "breadcrumb_path": "Rules Compendium > Page 125 > items > The patient will survive for Iength of time",
+    "page_refs": [
+      125
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "10 m",
+      "5 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "The patient will survive for Iength of time equal to his WIL 5 minutes so long as he receives constant life support; This time doubled to WIL 10 minutes if the treating character is using an advanced medical Any minutes character had remaining to receive First Aid before death are added to this period At the end of this time, the character nas not yet reached medical facility staffed by characters with MedTech and Surgery Skills, he dies before death added to this period At the end of this time, the character has not yet received treatment Irom character with the Surgery Skill, he dies."
+  }
+}

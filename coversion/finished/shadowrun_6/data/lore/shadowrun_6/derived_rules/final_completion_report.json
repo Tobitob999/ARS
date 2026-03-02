@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "category": "completion_report",
+  "tags": [
+    "shadowrun_6",
+    "finalization"
+  ],
+  "summary": "Finaler Abschlussbericht fuer Volltiefenextrakt.",
+  "source_text": {
+    "generated_at": "2026-03-02T16:20:00",
+    "scope": "single_pdf_full_depth"
+  },
+  "mechanics": {
+    "pdf_status": {
+      "root_pdfs_total": 1,
+      "processed": 1,
+      "triplet_extraction_complete": 1,
+      "merge_ready": 1
+    },
+    "ruleset_status": {
+      "ruleset_file": "modules/rulesets/shadowrun_6.json",
+      "ruleset_present": true,
+      "sections_detected": 1
+    },
+    "derived_artifacts": {
+      "rules_fulltext_chunks": 2,
+      "rules_profiles": 1,
+      "derived_rules_total_files": 4
+    },
+    "completion_state": "complete"
+  }
+}

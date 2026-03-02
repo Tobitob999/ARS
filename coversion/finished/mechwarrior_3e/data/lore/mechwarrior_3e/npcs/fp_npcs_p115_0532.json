@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "AIso, unless specifically stated_ all maneuvers may Only",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 115,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:30Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p115_0532",
+    "entity_type": "npcs",
+    "name_guess": "AIso, unless specifically stated_ all maneuvers may Only",
+    "breadcrumb_path": "Rules Compendium > Page 115 > npcs > AIso, unless specifically stated_ all maneuvers may Only",
+    "page_refs": [
+      115
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "Damage",
+      "MoS",
+      "damage"
+    ],
+    "excerpt": "AIso, unless specifically stated_ all maneuvers may Only be used while unarmed Margin of Success For rangcd attack; usC the Margin Success of tne Attack Check the basc amount damage. For melee attack. use tne net MoS of the Opposed Action Check between the two fighting characters see Melee Combat Damage)."
+  }
+}

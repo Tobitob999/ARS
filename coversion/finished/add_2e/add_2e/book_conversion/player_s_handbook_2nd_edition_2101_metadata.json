@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "add_2e",
+    "source_book",
+    "pdf_conversion",
+    "player_s_handbook_2nd_edition_2101"
+  ],
+  "summary": "Metadaten der PDF-zu-JSON-Konvertierung fuer Player s Handbook (2nd Edition) 2101.pdf.",
+  "source_text": {
+    "source_file": "Player s Handbook (2nd Edition) 2101.pdf",
+    "source_path": "g:\\meine ablage\\add2e\\player s handbook (2nd edition) 2101.pdf",
+    "format": "pdf",
+    "page_count": 258,
+    "extracted_characters": 1445917,
+    "extraction_timestamp": "2026-03-02T10:48:32",
+    "toc_candidate_pages": [
+      5,
+      6,
+      7,
+      101,
+      109,
+      153
+    ],
+    "empty_or_unreadable_pages": [
+      8,
+      20,
+      37,
+      44,
+      52,
+      61,
+      71,
+      78,
+      84,
+      93,
+      111,
+      114,
+      126,
+      157,
+      238
+    ]
+  },
+  "mechanics": {
+    "extractor": "pypdf.PdfReader.extract_text",
+    "output_files": [
+      "data/lore/add_2e/book_conversion/player_s_handbook_2nd_edition_2101_pages.jsonl",
+      "data/lore/add_2e/book_conversion/player_s_handbook_2nd_edition_2101_chapter_map.json",
+      "data/lore/add_2e/book_conversion/player_s_handbook_2nd_edition_2101_metadata.json"
+    ]
+  }
+}

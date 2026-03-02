@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "TRAITS Pegasus Scout Hovertank (3514 Condor Hovertank [50jH",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 95,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:23Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p095_0087",
+    "entity_type": "items",
+    "name_guess": "TRAITS Pegasus Scout Hovertank (3514 Condor Hovertank [50jH",
+    "breadcrumb_path": "Rules Compendium > Page 095 > items > TRAITS Pegasus Scout Hovertank (3514 Condor Hovertank [50jH",
+    "page_refs": [
+      95
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [
+      "100 tons",
+      "45 tons",
+      "70 tons"
+    ],
+    "range_mentions": [
+      "351 M",
+      "4 M"
+    ],
+    "year_mentions": [
+      "3514"
+    ],
+    "stat_tokens": [],
+    "excerpt": "TRAITS Pegasus Scout Hovertank (3514 Condor Hovertank [50jH Scorpion Tank [25]1 Gladius Hovertank [40]H Edgar Hovertank (25]H Light SRM Carrier (40jW Cavalry Attack Helicopter [25]V Fulcrum Hovertank (50jH Bulldog Tank [60jT Von Luckner Tank (751T Pilum Tank [7ojw Tokugawa Tank (60jW INNER SPHERE AEROSPACE FIGHTERS AND DROPSHIPS Schrek PPC Carrier [80]T Partisan Tank [80]T Behemoth Tank [100jT Challenger MBT [90]1 Light 206 (20 45 tons) TR-7 Thrush (25| F-11RR Cheetah [25] SYDZ2A Seydlitz (20] SPR-GD Sparrowhawk [30] SL 21 Sholagar [35] TR-7 Thrush [25] F-11RR Cheetah [25| SYD-ZZA Seydlitz [20] SPR-GD Sparrowhawk [30] SL-21 Sholagar (35] TR-7 Thrush [25] Medlum (50-70 tons) F-92 Stingray [60] TR-10 Transit [50] CSR-V12 Corsair 50] LCF R16 Lucifer [65] SL 17R Shilone [65] F-92 Stingray (60] TR-10 Transit [50] CSR-V12 Corsair [50] LCFR16 Lucifer [65] SL-17R Shilone [65] F92 Stingray [60] Heavy (75-100 tons) SL-15R Slayer [80] TR-134 Transgressor [75] F7O0 Riever [100] STU-D6 Stuka [100] CHPW7 Chippewa (90] SL-1SR Slayer [80] TR-134 Transgressor [75] F.700 Riever [100] STU-D6 Stuka [100] CHPW7 Chippewa 90] SL-1SR Slayer [80] DropShlps (Civilian) Mammoth MonarchA BuccaneerA MuleS BuccaneerA BuccaneerA BuccaneerA MuleS Monarch4 MammothS Behemoth S CLAN AEROSPACE FIGHTERS AND DROPSHIPS 206 Light Avar [35] Vandal [30] Batu (40] Bashkir [20] Sulla [45] Sulla (45| Bashkir [20] Batu [40] Bashkir [20] vandal [30] Avar [351 Medium Jagatai [70] Turk [50] Visigoth (60] Turk [50] \"Both [60] Visigoth [60] Visigoth [60] Turk [50] Visigoth (60] Turk [501 Jagatai [70] Heavy Sabutai [75] Jengiz [80] Scytha [90] Kirghiz (100] Jengiz [80] Scytha [90] Scytha [90] Kirgniz [100| Scytha [90] Jengiz [80] Sabutai (75] DropShips (Clan) Miraborg: Titan^ BroadswordA Union CS Confederate S BroadswordA Confederate: CarrierA SassanidS LionS Overlord-cS Aerodyne Spheroid 94"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "lore_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "lore",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Any such manipulation would be bla: tantly obvious",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 151,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:54Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_lore_p151_0208",
+    "entity_type": "lore",
+    "name_guess": "Any such manipulation would be bla: tantly obvious",
+    "breadcrumb_path": "Rules Compendium > Page 151 > lore > Any such manipulation would be bla: tantly obvious",
+    "page_refs": [
+      151
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "TN"
+    ],
+    "excerpt": "Any such manipulation would be bla: tantly obvious tO ayone Iater trying to access the same infor- mation Verigraphs, because (ney are almost impossible forge (+10 TN Modifier), are usually built into passports and other forms of important identification_ Verigraphed documents are almost universally accepted as identifications all across the Inner Sphere ad Periphery; EVERYDAY LIFE Every MW3 character has persona While the cost of living may vary widely across the stars the items listed this section represent the average for what can be found the mid dle-class areas of most major cities_ The items ad services listed below are the same as found society now; unless oth- erwise noted 150"
+  }
+}

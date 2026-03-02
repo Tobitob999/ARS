@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "geao",
+  "name": "Geao",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Geao (EnchantmenKham) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "sixth",
+    "book_pages": [
+      177
+    ],
+    "pdf_pages": [
+      178
+    ],
+    "raw_block": "Geao (EnchantmenKham)\nRange: IO yards\nComponents: V\nDuration: Special\nCasting Time: 4\nArea of Effect: 1 creature\nSaving Throw: None\nA gem spell places a magical command\nupon a creature (usually human or human-\noid) to carry out some service, or to refrain\nfrom some action or course of activity, as\ndesired by the spellcaster. The creature must\nbe intelligent, conscious, under its own voli-\ntion, and able to understand the caster.\nWhile a geas cannot compel a creature to\nkill itself or to perform acts that are likely to\nresult in certain death, it can cause almost\nany other course of action. The ged crea-\nture must follow the given instructions until\nthe geas is completed. Failure to do so will\ncause the creature to grow sick and die with-\nin ld4 weeks. Deviation from or twisting of\nthe instructions causes corresponding loss\nof Strength points until the deviation ceases.\nA geas can be done away with by a wish\nspell, but a dispel magic or remove curse\nspell will not negate it. Your DM will decide\nany additional details of a geas, for its cast-\ning and fulfillment are tricky, and an\nimproperly cast geas is ignored.\n."
+  },
+  "mechanics": {
+    "school_or_type": "EnchantmenKham",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Geao",
+      "canonical_name_guess": null,
+      "school_or_type": "EnchantmenKham",
+      "range": "IO yards",
+      "components": "V",
+      "duration": "Special",
+      "casting_time": "4",
+      "area_of_effect": "1 creature",
+      "saving_throw": "None",
+      "description_excerpt": "A gem spell places a magical command upon a creature (usually human or human- oid) to carry out some service, or to refrain from some action or course of activity, as desired by the spellcaster. The creature must be intelligent, conscious, under its own voli- tion, and able to understand the caster. While a geas cannot compel a creature to kill itself or to perform acts that are likely to result in certain death, it can cause almost any other course of action. The ged crea- ture must follow the given instructions until the geas is completed. Failure to do so will cause the creature to grow sick and die with- in ld4 weeks. Deviation from or twisting of the instructions causes corresponding loss of Strength points until the deviation ceases. A geas can be done away with by a wish spell, but a dispel magic or remove curse spell will not negate it. Your DM will decide any additional details "
+    },
+    "quality_flags": []
+  }
+}

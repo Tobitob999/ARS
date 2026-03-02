@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "reincarnate",
+  "name": "Reincarnate",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Reincarnate (Necromancy) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "sixth",
+    "book_pages": [
+      234,
+      235
+    ],
+    "pdf_pages": [
+      235,
+      236
+    ],
+    "raw_block": "Reincarnate (Necromancy)\nSphere: Necromantic\nRange: Touch\nComponents: V, S\nDuration: Permanent\nCasting Time: 1 turn\nArea of Effect: Person touched\nSaving Throw: None\nWith this spell, the priest can bring back a\ndead person in another body, if death\noccurred no more than one week before the\ncasting of the spell. Reincarnation does not\nrequire any saving throw, system shock, or\nresurrection survival roll. The corpse is\ntouched, and a new incarnation of the per-\nson appears in the area in ld6 turns. The\nperson reincarnated recalls the majority of\nhis former life and form, but the character\nclass, if any, of the new incarnation might\nbe very different indeed. The new incarna-\ntion is determined on the following table or\nby DM choice. If a player character race is\nindicated, the character must be created. At\nthe DMs option, certain special (expensive)\nincenses can be used that may increase the\nchance for a character to return as a specific\nrace or species. A wish spell can restore a\nreincarnated character to its original form\nand status.\nDlOO\nRoll Incarnation\n01-03 Badger\n04-08 Bear, black\n29-31 Elf\n59-61 Lynx\n62-64\n76-80 Wolf\n81-85 Wolverine\n86-00 DMs choice\nIf an unusual creature form is indicated,\nthe DM can (at his option only) use the\nguidelines for new player character races to\nallow the character to earn experience and\nadvance in levels, although this may not be\nin the same class as before. If the reincarnat-\ned character returns as a creature eligible to\nbe the same class as he was previously (i.e.,\na human fighter returns as an elf), the rein-\ncarnated character has half his previous\nlevels and hit points. If the character returns\nas a new character class, his hit points are\nhalf his previous total, but he must begin\nagain at 1st level. If the character returns as\na creature unable to have a class, he has half\nthe hit points and saving throws of his pre-\nvious incarnation."
+  },
+  "mechanics": {
+    "school_or_type": "Necromancy",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Reincarnate",
+      "canonical_name_guess": null,
+      "school_or_type": "Necromancy",
+      "range": "Touch",
+      "components": "V, S",
+      "duration": "Permanent",
+      "casting_time": "1 turn",
+      "area_of_effect": "Person touched",
+      "saving_throw": "None",
+      "description_excerpt": "With this spell, the priest can bring back a dead person in another body, if death occurred no more than one week before the casting of the spell. Reincarnation does not require any saving throw, system shock, or resurrection survival roll. The corpse is touched, and a new incarnation of the per- son appears in the area in ld6 turns. The person reincarnated recalls the majority of his former life and form, but the character class, if any, of the new incarnation might be very different indeed. The new incarna- tion is determined on the following table or by DM choice. If a player character race is indicated, the character must be created. At the DMs option, certain special (expensive) incenses can be used that may increase the chance for a character to return as a specific race or species. A wish spell can restore a reincarnated character to its original form and status. DlOO Roll Incarna"
+    },
+    "quality_flags": []
+  }
+}

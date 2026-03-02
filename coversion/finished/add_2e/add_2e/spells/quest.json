@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "quest",
+  "name": "Quest",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Quest (EnebnnhnenVChann) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "fourth",
+    "book_pages": [
+      224
+    ],
+    "pdf_pages": [
+      225
+    ],
+    "raw_block": "Quest (EnebnnhnenVChann)\nSphere: Charm\nComponents: V, S, M\nDuration: Until fulfilled\nCasring Time: 8\nArea of Effect: 1 creature\nSaving Throw: Neg.\nThe quest spell enables the priest to\nrequire the affected creature to perform a\nservice and return to the priest with proof\nthat the deed was accomplished. The quest\ncan, for example, require that the creature\nlocate and return some important or valu-\nable object, rescue a notkble person, release\nsome creature, capture a stronghold, slay a\nperson, deliver some item, and so forth. If\nthe quest is not properly followed, due to\ndhmgard, delay, or perversion, the creature\naffected by the spell loses 1 from its saving\nthrow rolls for each day of such action. This\npenalty is not removedantil the quest is\nproperly pursued or the priest cancels it.\nmre are certain circumstances that will\ntemporarily suspend a quest, and others\nthat will discharsx or cancel it: vour DM\nRall$e: 60 yards\nneed to know arises.)\nIf cast upon an unwilling subject, the vic-\ntim is allowed a saving throw. However if\nthe person quested agrees to a task, even if\nthe agreement is gained by force or trickery,\nno saving throw is allowed. If a quest is just\nand deserved, a creature of the priest’s reli-\ngion cannot avoid it, and any mature of the\npriest’s alignment saves with a -4 penalty\nto the saving throw, in any case. A quest\ncannot be dispelled but can be removed by a\npriest of the same religion or of higher level\nthan the caster. Some artifacts and relics\nmight negate the spell, as can direct inter-\nvention by a deity. Likewise, an unjust or\nundeserved quest grants bonuses to its sav-\ning throws, or might even automatically\nfail!\nThe material component of this spell is\nthe priest’s holy symbol."
+  },
+  "mechanics": {
+    "school_or_type": "EnebnnhnenVChann",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Quest",
+      "canonical_name_guess": null,
+      "school_or_type": "EnebnnhnenVChann",
+      "range": null,
+      "components": "V, S, M",
+      "duration": "Until fulfilled",
+      "casting_time": null,
+      "area_of_effect": "1 creature",
+      "saving_throw": "Neg.",
+      "description_excerpt": "The quest spell enables the priest to require the affected creature to perform a service and return to the priest with proof that the deed was accomplished. The quest can, for example, require that the creature locate and return some important or valu- able object, rescue a notkble person, release some creature, capture a stronghold, slay a person, deliver some item, and so forth. If the quest is not properly followed, due to dhmgard, delay, or perversion, the creature affected by the spell loses 1 from its saving throw rolls for each day of such action. This penalty is not removedantil the quest is properly pursued or the priest cancels it. mre are certain circumstances that will temporarily suspend a quest, and others that will discharsx or cancel it: vour DM Rall$e: 60 yards need to know arises.) If cast upon an unwilling subject, the vic- tim is allowed a saving throw. However if the"
+    },
+    "quality_flags": [
+      "missing_standard_fields"
+    ]
+  }
+}

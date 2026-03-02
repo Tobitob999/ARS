@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Game Material Primary Language: English Secondary Languages: French",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 28,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:44Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p028_0091",
+    "entity_type": "history",
+    "name_guess": "Game Material Primary Language: English Secondary Languages: French",
+    "breadcrumb_path": "Rules Compendium > Page 028 > history > Game Material Primary Language: English Secondary Languages: French",
+    "page_refs": [
+      28
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Game Material Primary Language: English Secondary Languages: French German, Hindi , Russian Bonus Skills: Protocol /Federated Suns +1 27"
+  }
+}

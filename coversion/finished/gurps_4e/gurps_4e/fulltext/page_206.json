@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_page",
+  "tags": [
+    "gurps_4e",
+    "fulltext",
+    "pdf_page"
+  ],
+  "summary": "PDF-Seite 206 aus GURPS - 4th Edition - Basic Set.pdf.",
+  "source_text": {
+    "book": "GURPS - 4th Edition - Basic Set",
+    "pdf_page": 206,
+    "text": "Kusari\nsee Melee Weapon, p. 208\nLance\nDX/Average\nDefaults:DX-5 or Spear-3.\nPrerequisite:Riding.\nThe ability to use the lance: a long,\nspear-like weapon wielded from\nhorseback. This is not a Melee\nWeapon skill (see p. 208). You may not\nuse a lance to parry – you must block\nor dodge enemy attacks.\nLasso\nDX/Average\nDefaults:None.\nThis is the skill of throwing the lar-\niat: a long rope or thong with a sliding\nnoose at one end. Its intended purpose\nis to snare animals, but it can also\nentangle opponents in combat – see\nSpecial Ranged Weapons (p. 410).\nLaw†\nIQ/Hard\nDefault: IQ-6.\nThis skill represents knowledge of\nlaw codes and jurisprudence. A suc-\ncessful roll lets you remember,\ndeduce, or figure out the answer to a\nquestion about the law. Few legal\nquestions have clear-cut answers,\nhowever – even an expert will hedge\nhis advice!\nYou must specialize. There are two\ngeneral classes of specialty:\n• The laws of a particular political\nregion (e.g., Canada or France) within\na specific field (constitutional, con-\ntract, criminal, police, etc.). Examples:\nLaw (British Criminal), Law\n(Canadian Constitutional), and Law\n(U.S. Contract).\n• A specialized body of law not\nassociated with a political region.\nExamples: Law (Catholic Canon), Law\n(International), and Law (Space).\nSpecialties within the sameregion,\nsuch as Law (British Criminal) and\nLaw (British Police), or field, such as\nLaw (British Criminal) and Law\n(French Criminal), default to one\nanother at -4. If both region and field\ndiffer, the default is -6 or worse.\nIn some times and places, a Quick\nContest of Law (Criminal) between\nthe defense and prosecution will\ndetermine the outcome of a trial. In\nothers, Law functions as an Influence\nskill (see Influence Rolls, p. 359) used\nto sway the rulings of the judge.\nLaw enforcers nearly always have a\npoint or two in Law (Police) for their\nregion. This represents knowledge of\n“proper procedure” when it comes to\narrests, evidence handling, interroga-\ntion, etc.\nLeadership\nIQ/Average\nDefault: IQ-5.\nThis is the ability to coordinate a\ngroup. Make a Leadership roll to lead\nNPCs into a dangerous or stressful sit-\nuation. (PCs can decide for themselves\nif they want to follow you!)\nYou may attempt a Leadership roll\nin combat if you spend your turn\ndoing nothing but giving orders and\nencouragement. On a success, every-\none on your side who can hear you\n(including PCs) has +1 on all combat-\nrelated Fright Checks and morale\nchecks, and on self-control rolls for\ndisadvantages that would reduce com-\nbat efficiency (such as Berserk and\nCowardice – or Bloodlust, if you wish\nto take prisoners). A critical success\ngives +2. The bonus lasts until your\nnext turn, at which time you may roll\nagain. A group can have only one\nleader, however! If multiple people\nattempt Leadership rolls, no onegets a\nbonus.\nNote that a minimum level of\nLeadership is often a prerequisite for\nhigh Rank (p. 29).\nModifiers: Any bonus for Charisma\n(p. 41); -3 for Low Empathy (p. 142);\n-1 to -4 for Shyness (p. 154). -5 if the\nNPCs have never been in action with\nyou; -5 if you are sending them into\ndanger but not going yourself; +5 if\ntheir loyalty to you is “Good”; +10 if\ntheir loyalty is “Very Good.” If their\nloyalty is “Excellent,” you do not have\nto roll!\n204 SKILLS\n"
+  },
+  "mechanics": {
+    "conversion": "fulltext_page_dump",
+    "generated_at": "2026-03-02T15:00:00"
+  }
+}

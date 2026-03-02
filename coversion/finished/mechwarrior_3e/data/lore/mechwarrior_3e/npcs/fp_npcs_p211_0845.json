@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "The cost of new trait its value Character",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 211,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:26Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p211_0845",
+    "entity_type": "npcs",
+    "name_guess": "The cost of new trait its value Character",
+    "breadcrumb_path": "Rules Compendium > Page 211 > npcs > The cost of new trait its value Character",
+    "page_refs": [
+      211
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "The cost of new trait its value Character Points see the table on D, 575 tires 100 The cost t0 get rid of negative trait is its absolute value (e;, drop thie minus Sign) 0f its Character Point value times 100, For example_ would cost 200 XP t0 get rid of negative Wail itn value 0f character gains trail; the equwalent 01 trait, through game play neither costs gains the character XP, For example character loses limb battlc_ he does not suddenly Gain hundreds 0f Experience Points, Likewise."
+  }
+}

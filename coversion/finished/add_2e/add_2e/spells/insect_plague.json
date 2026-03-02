@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "insect_plague",
+  "name": "Insect Plague",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Insect Plague (Conjuration6ummoning) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "fourth",
+    "book_pages": [
+      223
+    ],
+    "pdf_pages": [
+      224
+    ],
+    "raw_block": "Insect Plague (Conjuration6ummoning)\nSphere: Combat\nRange: 120 yards\nComponents: V, S, M\nDuration: 2 roundsAeve1\nCasting Time: 1 turn\nArea of Effect: 180’ diameter, 60’ high cloud\nSaving Throw: None\nWhen this spell is cast by the priest, a\nhorde of creeping, hopping, and flying in-\nsects gather and swarm in a thick cloud. (In\nan environment free of normal insects, the\nspell fails.) The insects obscure vision, limit-\ning it to 10 feet. Spellcasting within the\ncloud is impossible. Creatures in the insect\nplague sustain 1 point of damage for each\nround they remain within, due to the bites\nand stings of the insects, regardless of Ar-\nmor Class. Invisibility is no protection. All\ncreatures with 2 or fewer Hit Dice will auto-\nmatically move at their fastest possible\nspeed in a random direction until they are\nmore than 240 yards away from the insects.\nCreatures with fewer than 5 Hit Dice must\ncheck morale; failure means they run as de-\nscribed above.\nHeavy smoke drives off insects within its\nbounds. Fire also drives insects away; a wall\nof fire in a ring shape keeps a subsequently\ncast insect plague outside its confines, but a\nfireball simply clears insects from its blast\narea for one round. A single torch is ineffec-\ntive against this vast horde of insects. Light-\nning, cold, or ice are likewi? ineffective,\nwhile a strong wind that covers the entire\nplague area disperses the insects and ends\nthe spell. The plague lasts two rounds for\neach level of the caster, and thereafter the\ninsects disperse.\nThe insects swarm in an area that centers\naround a summoning point determined by\nthe spellcaster; the point can be up to 120\nyards away from the priest. The insect\nplague does not move thereafter for as long\nas it lasts. Note that the spell can be coun-\ntered by a dispel magic spell.\nThe material components of this spell are\na few grains of sugar, some kernels of grain,\nand a smear of fat."
+  },
+  "mechanics": {
+    "school_or_type": "Conjuration6ummoning",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Insect Plague",
+      "canonical_name_guess": null,
+      "school_or_type": "Conjuration6ummoning",
+      "range": "120 yards",
+      "components": "V, S, M",
+      "duration": "2 roundsAeve1",
+      "casting_time": "1 turn",
+      "area_of_effect": "180’ diameter, 60’ high cloud",
+      "saving_throw": "None",
+      "description_excerpt": "When this spell is cast by the priest, a horde of creeping, hopping, and flying in- sects gather and swarm in a thick cloud. (In an environment free of normal insects, the spell fails.) The insects obscure vision, limit- ing it to 10 feet. Spellcasting within the cloud is impossible. Creatures in the insect plague sustain 1 point of damage for each round they remain within, due to the bites and stings of the insects, regardless of Ar- mor Class. Invisibility is no protection. All creatures with 2 or fewer Hit Dice will auto- matically move at their fastest possible speed in a random direction until they are more than 240 yards away from the insects. Creatures with fewer than 5 Hit Dice must check morale; failure means they run as de- scribed above. Heavy smoke drives off insects within its bounds. Fire also drives insects away; a wall of fire in a ring shape keeps a subsequently cast ins"
+    },
+    "quality_flags": []
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "vehicles_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "vehicles",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Tney employ large hover fans protected by hoverskirt;",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 152,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:55Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_vehicles_p152_0258",
+    "entity_type": "vehicles",
+    "name_guess": "Tney employ large hover fans protected by hoverskirt;",
+    "breadcrumb_path": "Rules Compendium > Page 152 > vehicles > Tney employ large hover fans protected by hoverskirt;",
+    "page_refs": [
+      152
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [
+      "20 tons"
+    ],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Tney employ large hover fans protected by hoverskirt; which are powerful enough physically lift the vehicle off the ground, allowing float on cushion of air Most of these are roomy enough seat four Or more persons in addition to cargo_ Truck Only two people can comfortably fit into truck'$ cab_ but can carry UP to tons Of cargo in its bed-or, in Iieu cargo_ twelve people Heavy Cargo Hauler Much larger than standard truck heavy cargo hauler can carry oads of up to 20 tons in its trailer 151"
+  }
+}

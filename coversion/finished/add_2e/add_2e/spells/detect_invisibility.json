@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "detect_invisibility",
+  "name": "Detect invisibility",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Detect invisibility (Divination) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "second",
+    "book_pages": [
+      141
+    ],
+    "pdf_pages": [
+      142
+    ],
+    "raw_block": "Detect invisibility (Divination)\nRange: 10 yarddlevel\nComponents: V, S, M\nDuration: 5 rounds/level\nCasting Time: 2\nArea of Effect: lefoot path\nSaving Throw: None\nWhen the wizard casts a detect inursibility\nspell, he is able to see clearly any objects or\nbeings that are invisible, as well as any that\nare astral, ethereal, or out of phase. In addi-\ntion, it enables the wizard to detect hidden\nor concealed creatures (e.g., thieves in\nshadows, halflings in underbrush, and so\non). It does not reveal the method of con-\ncealment or invisibility, except in the case of\nastral travelers (where the silver cord can be\nseen). It does not reveal illusions or enable\nthe caster to see through physical objects.\nDetection is in the wizards line of sight\nalong a ten-foot-wide path to the range\nlimit.\nThe material components of this spell are\na pinch of talc and a small sprinkling of\npowdered silver."
+  },
+  "mechanics": {
+    "school_or_type": "Divination",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Detect invisibility",
+      "canonical_name_guess": null,
+      "school_or_type": "Divination",
+      "range": "10 yarddlevel",
+      "components": "V, S, M",
+      "duration": "5 rounds/level",
+      "casting_time": "2",
+      "area_of_effect": "lefoot path",
+      "saving_throw": "None",
+      "description_excerpt": "When the wizard casts a detect inursibility spell, he is able to see clearly any objects or beings that are invisible, as well as any that are astral, ethereal, or out of phase. In addi- tion, it enables the wizard to detect hidden or concealed creatures (e.g., thieves in shadows, halflings in underbrush, and so on). It does not reveal the method of con- cealment or invisibility, except in the case of astral travelers (where the silver cord can be seen). It does not reveal illusions or enable the caster to see through physical objects. Detection is in the wizards line of sight along a ten-foot-wide path to the range limit. The material components of this spell are a pinch of talc and a small sprinkling of powdered silver."
+    },
+    "quality_flags": []
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Depth perception also hampered, characteristic that can surprise",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 150,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:54Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p150_0713",
+    "entity_type": "npcs",
+    "name_guess": "Depth perception also hampered, characteristic that can surprise",
+    "breadcrumb_path": "Rules Compendium > Page 150 > npcs > Depth perception also hampered, characteristic that can surprise",
+    "page_refs": [
+      150
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "TN"
+    ],
+    "excerpt": "Depth perception also hampered, characteristic that can surprise someone not used to using an NVD On the other hand, the fact that virtually all penalties for darkness are negated the use of one makes Up for those deficiencies Characters fir- ing ranged weapon rCceive +1 cumulative TN Modifier a each range bracket (+1 at short range +2 at medium range and so on); while they receive standard +1 TN Modifier when per- forming any other delicate action that relies on fine eyesight Night vision scopes for weapons are described on 139 Goggles: Almost every modern military issues NVD goggles their soldiers when night combat is expected_ The goggles can be attached helmet or Won headband; Rangefinder Binoculars Rangefinder binoculars combine principles optical magnification with several microelectronic devices_ Tne magnifi are easily adjusted by two controls With the cation and focus 400- power zoom, characters can see just about anything out t0 the norizon on clear day."
+  }
+}

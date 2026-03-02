@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "add_2e",
+    "source_book",
+    "pdf_conversion",
+    "monstrous_compendium_v1"
+  ],
+  "summary": "Metadaten der OCR-PDF-zu-JSON-Konvertierung des AD&D 2e Monstrous Compendium Volume 1.",
+  "source_text": {
+    "source_file": "TSR Inc - AD&D 2nd Edition - Monstrous Compendium Volume 1.pdf",
+    "source_path": "g:\\meine ablage\\add2e\\tsr inc - ad&d 2nd edition - monstrous compendium volume 1.pdf",
+    "format": "pdf",
+    "page_count": 154,
+    "extracted_characters": 680374,
+    "extraction_timestamp": "2026-03-01T02:02:34",
+    "toc_candidate_pages": [],
+    "empty_or_unreadable_pages": [
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153
+    ]
+  },
+  "mechanics": {
+    "extractor": "easyocr (pymupdf render 150dpi)",
+    "output_files": [
+      "data/lore/add_2e/book_conversion/monstrous_compendium_vol1_pages.jsonl",
+      "data/lore/add_2e/book_conversion/monstrous_compendium_vol1_chapter_map.json",
+      "data/lore/add_2e/book_conversion/monstrous_compendium_vol1_metadata.json"
+    ]
+  }
+}

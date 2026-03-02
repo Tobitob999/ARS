@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_page",
+  "tags": [
+    "gurps_4e",
+    "fulltext",
+    "pdf_page"
+  ],
+  "summary": "PDF-Seite 286 aus GURPS - 4th Edition - Basic Set.pdf.",
+  "source_text": {
+    "book": "GURPS - 4th Edition - Basic Set",
+    "pdf_page": 286,
+    "text": "TL Armor Location DR Cost Weight LC Notes\nHeadgear\n1 Bronze Helmet skull, face 3 $160 7.5 4\n1 Bronze Pot-Helm skull 3 $60 5 4\n1 Cloth Cap skull 1* $5 neg. – [1]\n1 Leather Cap skull 1* $32 neg. 4\n1 Leather Helm skull, face 2 $20 0.5 4\n2 Legionary Helmet skull, face 4 $150 6 3\n2 Mail Coif skull, neck 4/2* $55 4 3 [3]\n3 Barrel Helm skull, face 6 $240 10 3 [4]\n3 Face Mask face 4 $100 2 3\n3 Greathelm skull, face, neck 7 $340 10 3 [4]\n3 Pot-Helm skull 4 $100 5 4\nGloves\n1 Cloth Gloves hands 1* $15 neg. – [1]\n1 Leather Gloves hands 2* $30 neg. –\n2 Gauntlets hands 4 $100 2 4\n3 Heavy Gauntlets hands 5 $250 2.5 3\nFootwear\n0 Sandals feet 0 $25 0.5 – [1, 2]\n1 Shoes feet 1* $40 2 – [1]\n2 Boots feet 2* $80 3 – [1]\n3 Sollerets feet 4 $150 7 3\nNotes\n[1] Concealable as or under clothing.\n[2] Partial coverage: sandals give DR 1 to the underside of the foot, while breastplates protect only from the front.\n[3] Split DR: use the lower DR against crushing attacks.\n[4] Helmet gives wearer the No Peripheral Vision disadvantage (p. 151) while worn.\nHigh- and Ultra-Tech Armor Table\nTL Armor Location DR Cost Weight LC Notes\nBody Armor\n6 Flak Jacket torso 7 $500 20 3\n7 Frag Vest torso, groin 5/2* $350 9 3 [1]\n+ Plate Inserts torso +20 +$300 +15 3\n8 Ballistic Vest torso 8/2* $400 2 3 [1, 2, 3]\n8 Tactical Vest torso, groin 12/5* $900 9 2 [1, 3]\n+ Trauma Plates torso +23 +$600 +9 2\n9 Ballistic Suit body, limbs 12/4* $1,000 6 3 [1, 2, 3]\n9 Tactical Suit full suit 20/10* $3,000 15 2 [1, 3, 4, 5]\nGloves and Footwear\n7 Reinforced Boots feet 5/2 $75 3 – [2, 6]\n9 Assault Boots feet 12/6 $150 3 4 [3, 6]\n9 Ballistic Gloves hands 8/2* $30 neg. 4 [1, 2, 3]\n284 EQUIPMENT\n"
+  },
+  "mechanics": {
+    "conversion": "fulltext_page_dump",
+    "generated_at": "2026-03-02T15:00:00"
+  }
+}

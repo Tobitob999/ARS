@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "The Periphery\" alsa reters the Ives Compact from",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 167,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:00Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p167_0385",
+    "entity_type": "items",
+    "name_guess": "The Periphery\" alsa reters the Ives Compact from",
+    "breadcrumb_path": "Rules Compendium > Page 167 > items > The Periphery\" alsa reters the Ives Compact from",
+    "page_refs": [
+      167
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "The Periphery\" alsa reters the Ives Compact from the Confederation brought Kittery under the cluster of nations in that outer region, including the Outworlds influence Candace Liao, Duchess of St: Ives The presence Alliance_ the Taurian Concordat , the Magistracy Canopus and Liao ruler calmed the situation, though Kittery has recent- numerous pirate kingdoms. Though they encompass large Iy seen an upsurge Capellan nationalism."
+  }
+}

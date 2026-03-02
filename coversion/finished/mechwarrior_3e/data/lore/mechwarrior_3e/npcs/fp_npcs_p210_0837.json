@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "An example 0f miscellaneous award is thc starting",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 210,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:26Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p210_0837",
+    "entity_type": "npcs",
+    "name_guess": "An example 0f miscellaneous award is thc starting",
+    "breadcrumb_path": "Rules Compendium > Page 210 > npcs > An example 0f miscellaneous award is thc starting",
+    "page_refs": [
+      210
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "An example 0f miscellaneous award is thc starting Or res olution 0t subplots Subplots outside the campaign story can add depth and realism t0 the game; and for tne most part it IS up to the players t0 Suggest subplots they would like for their characters and then make sure they follow them to some kind resoiution For starting characters Ineir traits can be natural places t0 seed sunplot ideas_ An Addiction can be very serious providing plenty roleplaying possibilities the course shaking the Addiction or gaining new One Getting rid of that Bad Reputation whether 0r not is deserved can be long: term Eoal fraught with danger: Enemies are another obvious source of subplots as arc othcr traits such as Title , Stigma_ Dependents_ Commission and 0f course Amnesia_ Starting up new subplot, as well as bringing one t0 reso lution; is worth XP award based on the scale severity 0f the subplot ."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "monsters_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "monsters",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "1191. If there are no potential secondary targets,",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 122,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:32Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_monsters_p122_0011",
+    "entity_type": "monsters",
+    "name_guess": "1191. If there are no potential secondary targets,",
+    "breadcrumb_path": "Rules Compendium > Page 122 > monsters > 1191. If there are no potential secondary targets,",
+    "page_refs": [
+      122
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "1191. If there are no potential secondary targets, the shot i5 clean miss. The secondary target can be any character Or creature_ there multiple targets within range ad LOS_ the victim Cetermined randomly; with no regard t0 whose side they are On."
+  }
+}

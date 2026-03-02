@@ -67,8 +67,9 @@ class GameStateTab(ttk.Frame):
             ttk.Label(row, text=f"{stat}:", width=5).pack(side=tk.LEFT)
             bar = ttk.Progressbar(row, orient=tk.HORIZONTAL, length=200, mode="determinate")
             bar.pack(side=tk.LEFT, padx=PAD_SMALL, fill=tk.X, expand=True)
-            lbl = ttk.Label(row, text="—/—", width=10)
+            lbl = ttk.Label(row, text="—/—", width=10, cursor="hand2")
             lbl.pack(side=tk.LEFT)
+            lbl.bind("<Button-1>", lambda e, s=stat: self._on_stat_click(s))
             self._stat_bars[stat] = (bar, lbl)
 
         # Skills Used / Inventar
@@ -265,6 +266,59 @@ class GameStateTab(ttk.Frame):
                 ))
         except Exception as exc:
             logger.warning("Sessions laden fehlgeschlagen: %s", exc)
+
+    # ── Bidirektionale Stat-Bearbeitung ──
+
+    def _on_stat_click(self, stat_name: str) -> None:
+        """Oeffnet einen Mini-Dialog zum Aendern eines Stat-Werts."""
+        engine = self.gui.engine
+        if not engine.character:
+            return
+
+        char = engine.character
+        cur = char._stats.get(stat_name, 0)
+        mx = char._stats_max.get(stat_name, 1)
+        if not isinstance(cur, (int, float)):
+            return
+
+        dialog = tk.Toplevel(self.gui.root)
+        dialog.title(f"{stat_name} aendern")
+        dialog.geometry("250x100")
+        dialog.configure(bg=BG_DARK)
+        dialog.transient(self.gui.root)
+        dialog.grab_set()
+
+        tk.Label(
+            dialog, text=f"{stat_name}: {cur}/{mx}", bg=BG_DARK, fg=FG_ACCENT,
+            font=FONT_BOLD,
+        ).pack(pady=(PAD, PAD_SMALL))
+
+        entry_frame = tk.Frame(dialog, bg=BG_DARK)
+        entry_frame.pack()
+        tk.Label(entry_frame, text="Neuer Wert:", bg=BG_DARK, fg=FG_PRIMARY).pack(side=tk.LEFT, padx=PAD_SMALL)
+        entry = tk.Entry(entry_frame, width=8, bg=BG_INPUT, fg=FG_PRIMARY, insertbackground=FG_PRIMARY)
+        entry.insert(0, str(cur))
+        entry.pack(side=tk.LEFT, padx=PAD_SMALL)
+        entry.select_range(0, tk.END)
+        entry.focus_set()
+
+        def _apply(event=None):
+            try:
+                new_val = int(entry.get())
+            except ValueError:
+                return
+            new_val = max(0, min(new_val, mx if isinstance(mx, (int, float)) else 999))
+            char._stats[stat_name] = new_val
+            char.save()
+            from core.event_bus import EventBus
+            EventBus.get().emit("game", "stat_edited", {
+                "stat": stat_name, "old": cur, "new": new_val, "max": mx,
+            })
+            dialog.destroy()
+            self._refresh_state()
+
+        entry.bind("<Return>", _apply)
+        ttk.Button(dialog, text="OK", command=_apply).pack(pady=PAD_SMALL)
 
     # ── Save / Export ──
 

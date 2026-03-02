@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Depending the characters' weapons_ skill and luck, this",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 129,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:34Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p129_0628",
+    "entity_type": "npcs",
+    "name_guess": "Depending the characters' weapons_ skill and luck, this",
+    "breadcrumb_path": "Rules Compendium > Page 129 > npcs > Depending the characters' weapons_ skill and luck, this",
+    "page_refs": [
+      129
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "TN"
+    ],
+    "excerpt": "Depending the characters' weapons_ skill and luck, this individual-attack option may provide them with more Or ess firepower than standard BattleTech rules. Under the individual-attack option_ each character $ Shot I5 resolved using the MW3 rules with the following modifiers_ Tne base TN t0 hit battlefield unit i5 equal to plus its BattleTech target movement modifier for the tutn times 2_ target with +3 Target Movement Modifier would have base TN of 16 (5 3 = 8; 8 2 = 161. +1 Target Movement Modifier results in base TN of 12 (5 6; 6 121."
+  }
+}

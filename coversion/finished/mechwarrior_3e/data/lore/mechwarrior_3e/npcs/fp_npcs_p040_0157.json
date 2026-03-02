@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "The main advantage of attending such school the",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 40,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:51Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p040_0157",
+    "entity_type": "npcs",
+    "name_guess": "The main advantage of attending such school the",
+    "breadcrumb_path": "Rules Compendium > Page 040 > npcs > The main advantage of attending such school the",
+    "page_refs": [
+      40
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "1 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "The main advantage of attending such school the contacts you make among the upper- class students and their parents_ Attrlbute Thresholds: SOC +1 Tralts: Well-Connected Skllls: Academic_ Any +2, Computers +1, Language/Any +1_ Protocol/Affiliation +2 Next Path: Technical College (3), University (3), Military Academy (31 New Avalon Institute of Science (3 Federated Suns or Lyran Alliance Affiliation only) , Ne 'er- Do-Well (4) Street Events Seriously offended underworld kingpin Enemy (21, Poverty: Streetwise / Affiliation -1 may not enter Yakuza Path] Caugnt and sold Jnto slavery; then escaped [SOC Poverty: Stigma/ Slave] Caugnt gang war [Disabled (2)| Fell in with a even worse crowd [Addiction (2)] Savagely beaten by police [Disabled] Ran errands ocal merchant\" [Contact; Appraisal +1| Successful gambler [Wealth_ Gambling +1] Adopted by wealthy family (SOC Wealth (21] Power ful underworld mentor [Contact (2)."
+  }
+}

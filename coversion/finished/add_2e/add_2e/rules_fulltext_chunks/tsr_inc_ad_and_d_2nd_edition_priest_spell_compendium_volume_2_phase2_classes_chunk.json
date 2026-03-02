@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_2_fallback",
+    "tsr_inc_ad_and_d_2nd_edition_priest_spell_compendium_volume_2",
+    "classes"
+  ],
+  "summary": "Fallback Phase-2 Regelchunk: classes aus TSR Inc - AD&D 2nd Edition - Priest Spell Compendium Volume 2.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - Priest Spell Compendium Volume 2",
+    "source_file": "TSR Inc - AD&D 2nd Edition - Priest Spell Compendium Volume 2.pdf",
+    "text": "TSR Inc - AD&D 2nd Edition - Priest Spell Compendium Volume 2.pdf"
+  },
+  "mechanics": {
+    "topic": "classes",
+    "keywords": [
+      "add_2e",
+      "classes",
+      "compendium",
+      "edition",
+      "fallback",
+      "priest",
+      "spell",
+      "tsr_inc_ad_and_d_2nd_edition_priest_spell_compendium_volume_2",
+      "volume"
+    ],
+    "injection_priority": "core",
+    "confidence": 0.2,
+    "page_refs": [
+      1
+    ],
+    "raw_text": "TSR Inc - AD&D 2nd Edition - Priest Spell Compendium Volume 2.pdf"
+  }
+}

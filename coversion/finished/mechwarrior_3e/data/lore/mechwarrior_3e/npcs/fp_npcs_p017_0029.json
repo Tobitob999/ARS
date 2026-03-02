@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Note also that result of on the dice",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 17,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:41Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p017_0029",
+    "entity_type": "npcs",
+    "name_guess": "Note also that result of on the dice",
+    "breadcrumb_path": "Rules Compendium > Page 017 > npcs > Note also that result of on the dice",
+    "page_refs": [
+      17
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Note also that result of on the dice is fumble and an automatic failure (see p 151, even the acting character has skii bonus t0 add If more than one skill seems to apply to the task , the gamemaster must decide which is the most appropriate If they all seem equally applicable use the one with the best skill bonus Dlfficulty Modlflers As the name states _ the difficulty modifiers are used when the task at hand is deemed more or less difficult than usual."
+  }
+}

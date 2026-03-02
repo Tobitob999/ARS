@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "turn_wood",
+  "name": "Turn Wood",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Turn Wood (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "sixth",
+    "book_pages": [
+      229,
+      230
+    ],
+    "pdf_pages": [
+      230,
+      231
+    ],
+    "raw_block": "Turn Wood (Alteration)\nSphere: Plant\nRange: 0\nComponents: V, S\nDuration: 1 round/level\nCasting Time: 9\nArea of Effect: 120-foot-wide path,\nSaving Throw: None\nWhen this spell is cast, waves of force roll\nforth from the caster, moving in the direc-\ntion he faces, and causing all woodm\nobjects in the path of the spell to be pushed\naway from the caster to the limit of the area\nof effect. Wooden objects above three inch-\nes in diameter that are fixed firmly are not\naffected, but loose objects (movable man-\ntles, siege towers, etc.) move back. Objects\nunder three inches in diameter that are fixed\nsplinter and break, and the pieces move\nwith the wave of force. Thus, objects such\nas wooden shields, spears, wooden weapon\nshafts and hafts, and arrows and bolts are\npushed back, dragging those carrying them\nwith them. If a spear is planted in order to\nprevent this forced movement, it splinters.\nEven magical items with wooden sections\nare turned, although an anti-magic shell\nblocks the effects. A successful dispel magic\nspell ends the effect. Otherwise, the turn\n20 feet long/lewl\n229\n1 A 1"
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Turn Wood",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "0",
+      "components": "V, S",
+      "duration": "1 round/level",
+      "casting_time": "9",
+      "area_of_effect": "120-foot-wide path,",
+      "saving_throw": "None",
+      "description_excerpt": "When this spell is cast, waves of force roll forth from the caster, moving in the direc- tion he faces, and causing all woodm objects in the path of the spell to be pushed away from the caster to the limit of the area of effect. Wooden objects above three inch- es in diameter that are fixed firmly are not affected, but loose objects (movable man- tles, siege towers, etc.) move back. Objects under three inches in diameter that are fixed splinter and break, and the pieces move with the wave of force. Thus, objects such as wooden shields, spears, wooden weapon shafts and hafts, and arrows and bolts are pushed back, dragging those carrying them with them. If a spear is planted in order to prevent this forced movement, it splinters. Even magical items with wooden sections are turned, although an anti-magic shell blocks the effects. A successful dispel magic spell ends the effect. Otherwise, t"
+    },
+    "quality_flags": []
+  }
+}

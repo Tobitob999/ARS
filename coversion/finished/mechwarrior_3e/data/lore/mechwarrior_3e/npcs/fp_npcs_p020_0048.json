@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Rules gaining and spending can found Character Advancement;",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 20,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:41Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p020_0048",
+    "entity_type": "npcs",
+    "name_guess": "Rules gaining and spending can found Character Advancement;",
+    "breadcrumb_path": "Rules Compendium > Page 020 > npcs > Rules gaining and spending can found Character Advancement;",
+    "page_refs": [
+      20
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Rules gaining and spending can found Character Advancement; starting on 209. Karmlc Backlash When something horrible happens t0 your character; there an up side: You will regain lost Edge points Unlike the Golden Rule method , regaining Edge in this manner is never intention: represents the balance that occurs when the cosmic dice are weighted against the character; each stroke of bad luck evens out the books even as it sets the character back: The gamemaster must determine when something iS horri: ble or unlucky enough to warrant Edge recovery. common 19"
+  }
+}

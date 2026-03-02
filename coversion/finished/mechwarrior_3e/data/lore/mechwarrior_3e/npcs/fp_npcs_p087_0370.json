@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "TRAITS character with Sixth Sense may be allowed",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 87,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:09Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p087_0370",
+    "entity_type": "npcs",
+    "name_guess": "TRAITS character with Sixth Sense may be allowed",
+    "breadcrumb_path": "Rules Compendium > Page 087 > npcs > TRAITS character with Sixth Sense may be allowed",
+    "page_refs": [
+      87
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "MoS"
+    ],
+    "excerpt": "TRAITS character with Sixth Sense may be allowed Perception Check (with substantial modifier) to sense approaching danger, such as the approach of an enemy DropShip The character would not detect the ship like radar blip but would simply feel that some thing was amiss pernaps the character\" rolI succeeded by wide MoS he might tell his companions to watcn Ine sky: Sixth Sense iS subile ability that requires cooperation and communication between the gamemaster and the sensitive character. If this not possible, the trait IS best not used (0r restricted to simply the surprise advantage)."
+  }
+}

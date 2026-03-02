@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.2.1",
+  "id": "cone_of_cold",
+  "name": "Cone of Cold",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Cone of Cold (Evocation) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      166,
+      167
+    ],
+    "pdf_pages": [
+      167,
+      168
+    ],
+    "raw_block": "Cone of Cold (Evocation)\nRange: 0\nComponents: V, S, M\nDuration: Instantaneous\nCasting Time: 5\nArea of Effect: Special\nSaving Throw: 1/2\nWhen this spell is cast, it causes a cone-\nshaped area of extreme cold, originating at\nthe wizards hand and extending outward in\na cone five feet long and one foot in diame-\nter per level of the caster. It drains heat and\ncauses ld4 + 1 points of damage per level of\nexperience of the wizard. For example, a\n10th-level wizard would cast a cone of cold\n10 feet in diameter and 50 feet long, causing\n1Od4 + 10 points of damage.\nIts material component is a crystal or\nglass cone of very small size."
+  },
+  "mechanics": {
+    "school_or_type": "Evocation",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Cone of Cold",
+      "canonical_name_guess": null,
+      "school_or_type": "Evocation",
+      "range": "0",
+      "components": "V, S, M",
+      "duration": "Instantaneous",
+      "casting_time": "5",
+      "area_of_effect": "Special",
+      "saving_throw": "1/2",
+      "description_excerpt": "When this spell is cast, it causes a cone- shaped area of extreme cold, originating at the wizards hand and extending outward in a cone five feet long and one foot in diame- ter per level of the caster. It drains heat and causes ld4 + 1 points of damage per level of experience of the wizard. For example, a 10th-level wizard would cast a cone of cold 10 feet in diameter and 50 feet long, causing 1Od4 + 10 points of damage. Its material component is a crystal or glass cone of very small size."
+    },
+    "quality_flags": [
+      "trimmed_merged_block"
+    ]
+  }
+}

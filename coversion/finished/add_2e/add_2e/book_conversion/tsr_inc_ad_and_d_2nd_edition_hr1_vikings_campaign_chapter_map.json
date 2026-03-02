@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "add_2e",
+    "chapter_map",
+    "toc",
+    "appendix",
+    "tsr_inc_ad_and_d_2nd_edition_hr1_vikings_campaign"
+  ],
+  "summary": "Automatisch erkannte Kapitel- und Appendix-Marker aus TSR Inc - AD&D 2nd Edition - HR1 - Vikings Campaign.pdf.",
+  "source_text": {
+    "detected_chapters": [
+      {
+        "chapter": "1",
+        "title": "Introduction. ................. .2 Chapter 8: A Brief Gazetteer . ....",
+        "first_seen_page": 2
+      },
+      {
+        "chapter": "2",
+        "title": "A Mini-Course of Viking History.5",
+        "first_seen_page": 2
+      },
+      {
+        "chapter": "3",
+        "title": "Of Characters and Combat .... .14",
+        "first_seen_page": 2
+      },
+      {
+        "chapter": "4",
+        "title": "Rune Magic ................. .33",
+        "first_seen_page": 2
+      },
+      {
+        "chapter": "5",
+        "title": "... And Monsters ............. .43",
+        "first_seen_page": 2
+      },
+      {
+        "chapter": "7",
+        "title": "The Vilung Cultur?. .......... .69",
+        "first_seen_page": 2
+      },
+      {
+        "chapter": "6",
+        "title": "Equipment and Treasure. ...... .57 Denmark and Hedeby ................. .9",
+        "first_seen_page": 2
+      },
+      {
+        "chapter": "4",
+        "title": "Rune Magic.",
+        "first_seen_page": 24
+      }
+    ],
+    "detected_appendices": [],
+    "detection_note": "Extraktion kann Schreibfehler enthalten; Titel wurden 1:1 aus PDF-Text uebernommen."
+  },
+  "mechanics": {
+    "chapter_regex": "\\bChapter\\s+([0-9IVXLC]+)\\s*[:\\-]\\s*([^\\n\\r]{2,120})",
+    "appendix_regex": "\\bAppendix\\s+([0-9IVXLC]+)\\s*[:\\-]\\s*([^\\n\\r]{2,120})",
+    "unique_chapters": 8,
+    "unique_appendices": 0
+  }
+}

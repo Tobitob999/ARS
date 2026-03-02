@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "history_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "history",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "189-90 nueharn sibko. 39 Tukayyid, 168 Twycross 169",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 217,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:31Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_history_p217_0833",
+    "entity_type": "history",
+    "name_guess": "189-90 nueharn sibko. 39 Tukayyid, 168 Twycross 169",
+    "breadcrumb_path": "Rules Compendium > Page 217 > history > 189-90 nueharn sibko. 39 Tukayyid, 168 Twycross 169",
+    "page_refs": [
+      217
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "damage"
+    ],
+    "excerpt": "189-90 nueharn sibko. 39 Tukayyid, 168 Twycross 169 Society: 174-88, 192-93 Solar recharger; 140 Solid slug shotgun; 136 Sonic stunner Special Forces Field: 54, Special maneuvers 114 Special training 41-42,43 Special traits_ Special capons 138-39 Speed; 133 Splash damage 119,121-22 Sprinting: 111 SRM launcher; 137 Staffs, 106 Standard hotel, 151 Standard power packs 140 Standard recharger; 140 Standard skills. 95 Star League dissolution 0f, 160 formation 0, 160 history 0l, rebirth 0, 165 Stealth, 36 106 Steel Viper Clan; 165, 168 Stemner Melissa 160."
+  }
+}

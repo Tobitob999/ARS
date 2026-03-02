@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Though not used during initial character creation; they",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 60,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:41:59Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p060_0255",
+    "entity_type": "npcs",
+    "name_guess": "Though not used during initial character creation; they",
+    "breadcrumb_path": "Rules Compendium > Page 060 > npcs > Though not used during initial character creation; they",
+    "page_refs": [
+      60
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Though not used during initial character creation; they are shown here t0 a YoU a idea of the skills that will best suit your character oce play begins Gunnery / Laser * Gunnery / Misslle \" Gunsmith Interests - Interrogation Intimidation Jump Packs Languages Leadership Martlal Arts * MedTech Navlgation = Negotiation Perception Piloting\" Pistols Protocol \" Quickdraw: Riding Rifles Running Scrounge Securlty Systems Seduction Sensor Operations Shotguns Staffs Stealth Strategy Streetwise* Submachine Guns Support Weapons Surgery Survival Swimming Tactics Technlclan Throwing Weapons Tracking Training Whips Zero-G Operations DEX /RFL DEX /INT DEX /INT varies CHA/WIL BOD/CHA INT /RF CHA/INT CHA /WIL RFL / WIL INT /CHA INT /WIL CHA/WIL INT {WIL DEX/RFL DEX /RFL CHA/SOC DEX /RFL RFL/WIL DEX /RFL BOD/RFL CHA/EDG DEX /INT CHA/WIL INT /WIL DEX /RFL DEX /RFL INT /RFL INT /WIL CHA/Wil DEX /RFL BOD /DEX DEX /INT BOD/INT BOD/STR INT /WIL DEX /INT DEX /STR INT /WIL CHA/INT DEX /RFL RFL /WIL Eiicult Skllls Difficult skills are shown on the Skill List in boldface Difficult skills cannot be used by reflex and sO are more difficult learn; using them is virtually impossible for untrained char aters_ Like Link Attributes difficult skills are not used in char- ater creation; they are included here for reference_ subekllls Skills marked with an asterisk actually represent groups related subskills Each subskill is separately learned and improved_ and character may have several subskills connecte ed to the same overall skill: Certain skills include specific lists of subskills_ while oth- ers have variety definable by the players and gamemaster."
+  }
+}

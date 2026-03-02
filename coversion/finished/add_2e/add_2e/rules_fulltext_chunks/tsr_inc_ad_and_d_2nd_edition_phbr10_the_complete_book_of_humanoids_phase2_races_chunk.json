@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_2_fallback",
+    "tsr_inc_ad_and_d_2nd_edition_phbr10_the_complete_book_of_humanoids",
+    "races"
+  ],
+  "summary": "Fallback Phase-2 Regelchunk: races aus TSR Inc - AD&D 2nd Edition - PHBR10 - The Complete Book of Humanoids.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - PHBR10 - The Complete Book of Humanoids",
+    "source_file": "TSR Inc - AD&D 2nd Edition - PHBR10 - The Complete Book of Humanoids.pdf",
+    "text": "TSR Inc - AD&D 2nd Edition - PHBR10 - The Complete Book of Humanoids.pdf"
+  },
+  "mechanics": {
+    "topic": "races",
+    "keywords": [
+      "add_2e",
+      "book",
+      "complete",
+      "edition",
+      "fallback",
+      "humanoids",
+      "phbr",
+      "races",
+      "tsr_inc_ad_and_d_2nd_edition_phbr10_the_complete_book_of_humanoids"
+    ],
+    "injection_priority": "core",
+    "confidence": 0.2,
+    "page_refs": [
+      1
+    ],
+    "raw_text": "TSR Inc - AD&D 2nd Edition - PHBR10 - The Complete Book of Humanoids.pdf"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Replace the target numbers the Heat Scale with",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 129,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:35Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p129_0212",
+    "entity_type": "items",
+    "name_guess": "Replace the target numbers the Heat Scale with",
+    "breadcrumb_path": "Rules Compendium > Page 129 > items > Replace the target numbers the Heat Scale with",
+    "page_refs": [
+      129
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "TN"
+    ],
+    "excerpt": "Replace the target numbers the Heat Scale with Computer Skill Check in the case of shutdown avoids with the following TN modifiers for difficulty: Heat Scale 14-17 (-41; Heat Scale 18-21 (-21; Heat Scale 22-25 (+01; Heat Scale 29 (+21; at Heat Scale 30 shutdown unavoidable. Replace ammo explosion avoid rolls with EDG Checks with the following TN modifiers for difficulty: Heat Scale 19 (-1 Heat Scale 23-27 (-2); Heat Scale 28+ (+0). 128"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "reflecting_pool",
+  "name": "Reflecting Pool",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Reflecting Pool (Divination) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "fourth",
+    "book_pages": [
+      219,
+      220
+    ],
+    "pdf_pages": [
+      220,
+      221
+    ],
+    "raw_block": "Reflecting Pool (Divination)\nSphere: Divination\nRange: 10 yards\nComponents: V, S, M\nDuration: 1 round/level\nCasting Time: 2 hours\nArea of Effect: Special\nSaving Throw: None\nThis spell enables the caster to cause a\npool of normal water found in a natural set-\nting to act as a scrying device. The pool can\nbe of no greater diameter than two feet per\nlevel of the caster. The effect is to create a\nscrying device similar to a crystal ball. The\n219\n*I!- Priest Spells (4th Level)\n,-\nscrying can extend only to those planes of\nexistence that are coexistent with or bordeI\non the Prime Material plane-the inner\nplanes (including the para-elemental planes,\nplane of Shadow, etc.). General notes on\nscrying, detection by the subject, and penal-\nties for attempting to scry beyond the cast-\ner's own plane are given in the DMG, as well\nas a description of the crystal bull item.\nThe following spells can be cast through a\nreflecting pool, with a 5% per level chance\nfor operating correctly: detect magic, detect\nsnares and pits, detect poison. Each addi-\ntional detection attempt requires a round of\nconcentration, regardless of success. Infra-\nvision, if available, operates normally\nthrough the reflecting pool.\nThe image is nearly always hazy enough\nto prevent 'ihe reading of scipt of ky ty&.\nThe material compqnent is the oil extract-\ned from such nuts as the hickory and the\nwalnut, refined, and dropped in three mea-\nsures upon the surface of the pool. (A mea-\nsure need be no more than a single ounce of\noil .)\nAt the DMs option, the casting of this\nspell may be limited to once per day."
+  },
+  "mechanics": {
+    "school_or_type": "Divination",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Reflecting Pool",
+      "canonical_name_guess": null,
+      "school_or_type": "Divination",
+      "range": "10 yards",
+      "components": "V, S, M",
+      "duration": "1 round/level",
+      "casting_time": "2 hours",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "This spell enables the caster to cause a pool of normal water found in a natural set- ting to act as a scrying device. The pool can be of no greater diameter than two feet per level of the caster. The effect is to create a scrying device similar to a crystal ball. The 219 *I!- Priest Spells (4th Level) ,- scrying can extend only to those planes of existence that are coexistent with or bordeI on the Prime Material plane-the inner planes (including the para-elemental planes, plane of Shadow, etc.). General notes on scrying, detection by the subject, and penal- ties for attempting to scry beyond the cast- er's own plane are given in the DMG, as well as a description of the crystal bull item. The following spells can be cast through a reflecting pool, with a 5% per level chance for operating correctly: detect magic, detect snares and pits, detect poison. Each addi- tional detection attempt r"
+    },
+    "quality_flags": []
+  }
+}

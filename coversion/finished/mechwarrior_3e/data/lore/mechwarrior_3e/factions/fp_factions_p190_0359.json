@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "factions_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "factions",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Most children enter the same caste as As",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 190,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:14Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_factions_p190_0359",
+    "entity_type": "factions",
+    "name_guess": "Most children enter the same caste as As",
+    "breadcrumb_path": "Rules Compendium > Page 190 > factions > Most children enter the same caste as As",
+    "page_refs": [
+      190
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Most children enter the same caste as As their name suggests_ technicians maintain the equip their parents_ but extensive testing allows scientists t0 deter- ment used various Clan castes_ Many maintain military mine the assigned caste appropriate. During schooling; equipment tor the warrior caste; others serve the merchant and child' skills and aptitudes are constantly assessed; this may laborer castes Technicians can range from armorers_ electrical result change of caste."
+  }
+}

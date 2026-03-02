@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "add_2e",
+    "source_book",
+    "pdf_conversion",
+    "player_handbook"
+  ],
+  "summary": "Metadaten der PDF-zu-JSON-Konvertierung des AD&D 2e Player's Handbook.",
+  "source_text": {
+    "source_file": "Player s Handbook (2nd Edition) 2101.pdf",
+    "source_path": "g:\\Meine Ablage\\ADD2e\\Player s Handbook (2nd Edition) 2101.pdf",
+    "format": "pdf",
+    "page_count": 258,
+    "extracted_characters": 1445917,
+    "extraction_timestamp": "2026-02-28T16:44:05",
+    "toc_candidate_pages": [
+      5,
+      6,
+      7
+    ],
+    "empty_or_unreadable_pages": [
+      8,
+      20,
+      37,
+      52,
+      78,
+      84,
+      111,
+      126,
+      238
+    ]
+  },
+  "mechanics": {
+    "extractor": "pypdf.PdfReader.extract_text",
+    "output_files": [
+      "player_handbook_2e_pages.jsonl",
+      "conversion_manifest.json",
+      "chapter_map.json"
+    ]
+  }
+}

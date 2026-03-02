@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "category": "phase_mapping",
+  "tags": [
+    "mechwarrior_3e",
+    "phase1",
+    "skeleton"
+  ],
+  "summary": "Initiales 12-Phasen Mapping.",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "generated_at": "2026-03-02T15:23:52Z"
+  },
+  "mechanics": {
+    "phases": [
+      {
+        "phase": 1,
+        "status": "open"
+      },
+      {
+        "phase": 2,
+        "status": "open"
+      },
+      {
+        "phase": 3,
+        "status": "open"
+      },
+      {
+        "phase": 4,
+        "status": "open"
+      },
+      {
+        "phase": 5,
+        "status": "open"
+      },
+      {
+        "phase": 6,
+        "status": "open"
+      },
+      {
+        "phase": 7,
+        "status": "open"
+      },
+      {
+        "phase": 8,
+        "status": "open"
+      },
+      {
+        "phase": 9,
+        "status": "open"
+      },
+      {
+        "phase": 10,
+        "status": "open"
+      },
+      {
+        "phase": 11,
+        "status": "open"
+      },
+      {
+        "phase": 12,
+        "status": "open"
+      }
+    ]
+  }
+}

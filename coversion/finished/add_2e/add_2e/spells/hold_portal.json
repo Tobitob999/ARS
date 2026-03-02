@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.2.1",
+  "id": "hold_portal",
+  "name": "Hold Portal",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Hold Portal (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": null,
+    "book_pages": [
+      135
+    ],
+    "pdf_pages": [
+      136
+    ],
+    "raw_block": "Hold Portal (Alteration)\nRange: 20 yards/level\nComponent: V\nDuration: 1 round/level\nCasting Time: 1\nArea of Effect: 20 square feetllevel\nSaving Throw: None\nThis spell magically bars a door, gate, or\nvalve of wood, metal, or stone. The magical\nclosure holds the portal fast, just as if it were\nsecurely closed and locked. Any extra-\nplanar creature (djinn, elemental, etc.) with\n4 or more Hit Dice can shatter the spell and\nburst open the portal. A wizard of 4 or more\nexperience levels higher than the spellcaster\ncan open the held portal at will. A knock\nspell or a successful dispel magic spell can\nnegate the hold portal. Held portals can be\nbroken or physically battered down."
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Hold Portal",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "20 yards/level",
+      "components": null,
+      "duration": "1 round/level",
+      "casting_time": "1",
+      "area_of_effect": "20 square feetllevel",
+      "saving_throw": "None",
+      "description_excerpt": "This spell magically bars a door, gate, or valve of wood, metal, or stone. The magical closure holds the portal fast, just as if it were securely closed and locked. Any extra- planar creature (djinn, elemental, etc.) with 4 or more Hit Dice can shatter the spell and burst open the portal. A wizard of 4 or more experience levels higher than the spellcaster can open the held portal at will. A knock spell or a successful dispel magic spell can negate the hold portal. Held portals can be broken or physically battered down."
+    },
+    "quality_flags": [
+      "missing_standard_fields"
+    ]
+  }
+}

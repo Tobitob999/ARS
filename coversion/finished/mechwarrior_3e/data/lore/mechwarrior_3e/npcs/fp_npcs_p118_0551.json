@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Deadly Wound Wound Value: 16 Deadly Wound is",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 118,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:31Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p118_0551",
+    "entity_type": "npcs",
+    "name_guess": "Deadly Wound Wound Value: 16 Deadly Wound is",
+    "breadcrumb_path": "Rules Compendium > Page 118 > npcs > Deadly Wound Wound Value: 16 Deadly Wound is",
+    "page_refs": [
+      118
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [
+      "Wound"
+    ],
+    "excerpt": "Deadly Wound Wound Value: 16 Deadly Wound is so serious that only immediate ad advanced surgical care will have any chance of saving the char- acter'$ life_ Examples include catastrophic brain heart dam age_ the destruction multiple other major organs such as the lungs or liver and/or the severing of multiple limbs at the trunk; The only' combat effect of Deadly Wound is that the character immediately falls unconscious The gamemaster should then secretly roll 106 and add the character\" BOD Attribute to the result."
+  }
+}

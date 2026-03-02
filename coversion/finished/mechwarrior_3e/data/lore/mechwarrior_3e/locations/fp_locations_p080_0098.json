@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "locations_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "locations",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "For every additional alternate identity character assumes apply",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 80,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:05Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_locations_p080_0098",
+    "entity_type": "locations",
+    "name_guess": "For every additional alternate identity character assumes apply",
+    "breadcrumb_path": "Rules Compendium > Page 080 > locations > For every additional alternate identity character assumes apply",
+    "page_refs": [
+      80
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "For every additional alternate identity character assumes apply Modifier t0 rolls made when the character is investigated or one of his identities questioned: Specifically how bad and why are up to the player to work out: It is also perfectly acceptable (and rather common for player characters) that the bad reputation is undeserved The charac ter might have been framed _ could simple misunderstanding; The number of points Bad Reputation is worth indicate the magnitude of the reputation, and thus how large of an area the character might be known in: For point; the character'$ repu- tation only applies to single planet."
+  }
+}

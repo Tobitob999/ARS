@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "SPECIAL MANEUVERS Characters with Brawling or Martia Arts",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 115,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:30Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p115_0530",
+    "entity_type": "npcs",
+    "name_guess": "SPECIAL MANEUVERS Characters with Brawling or Martia Arts",
+    "breadcrumb_path": "Rules Compendium > Page 115 > npcs > SPECIAL MANEUVERS Characters with Brawling or Martia Arts",
+    "page_refs": [
+      115
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "SPECIAL MANEUVERS Characters with Brawling or Martia Arts Skills have access t0 certain spccial maneuvers, listed the descriptions of those skills (Pp 97 and 1021. These maneuvers may only be used when using the spe- cific skill; and only the character has learned the maneuver The use mdneuver MuSL be declared before rolling the dice tor the round melee combat: Note that choosing mancuver coes not constitute an action for either character."
+  }
+}

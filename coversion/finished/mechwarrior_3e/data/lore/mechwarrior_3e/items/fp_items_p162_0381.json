@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Training; traveling and fight: ing together gave them",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 162,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:57Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p162_0381",
+    "entity_type": "items",
+    "name_guess": "Training; traveling and fight: ing together gave them",
+    "breadcrumb_path": "Rules Compendium > Page 162 > items > Training; traveling and fight: ing together gave them",
+    "page_refs": [
+      162
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [
+      "3028"
+    ],
+    "stat_tokens": [],
+    "excerpt": "Training; traveling and fight: ing together gave them unusual cohesion in the field, making them far more effective fighting force than the enemy units they faced, 3028, the RCTs poured into tne Capellan Confederation seven successive waves cutting it in half; Such large-scale mobilization did not come without cost: The vast demand for JumpShips and DropShips to ferry troops across space reduced commerce between worlds to essentia items_ inflicting economic hardship on many planets; In addi- tion_ ComStar opposed Hanse Davion' war and placed the Federated Suns under interdiction_ relaying no messages t0, from or between Federated Suns worlds."
+  }
+}

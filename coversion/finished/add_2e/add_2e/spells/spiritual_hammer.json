@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "spiritual_hammer",
+  "name": "Spiritual Hammer",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Spiritual Hammer (Invocation) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 4,
+    "spell_list": "priest",
+    "level_band": "second",
+    "book_pages": [
+      207
+    ],
+    "pdf_pages": [
+      208
+    ],
+    "raw_block": "Spiritual Hammer (Invocation)\nSphere: Combat\nRange: 10 yards/level\nComponents: V, S, M\nDuration: 3 rounds + 1 round/level\nCasting Time: 5\nArea of Effect: Special\nSaving Throw: None\nBy calling upon his deity, the caster of a\nspiritual hammer spell brings into existence\na field of force shaped vaguely like a ham-\nmer. As long as the caster concentrates upon\nthe hammer, it strikes at any opponent\nwithin its range, as desired. Each round the\ncaster can choose to attack the same target\nas the previous round or switch to a new tar-\nget that he can see anywhere within his max-\nimum range. The spiritual hammer’s chance\nto successfully hit is equal to that of the\ncaster, without any Strength bonuses. In ad-\ndition, it strikes as a magical weapon with a\nbonus of + 1 for every six experience levels\n(or fraction) of the spellcaster, up to a total\nof +3 to the attack roll and +3 to the dam-\nage roll for a 13th-level caster. The base\ndamage inflicted when it scores a hit is ex-\nactly the same as a normal war hammer\n(ld4+1 vs. opponents of man size or\nsmaller, ld4 upon larger opponents, plus\nthe magical bonus). The hammer strikes in\nthe same direction as the caster is facing, so\nif he is behind the target, all bonuses for rear\nattack are gained along with the loss of any\nmodifications to the target’s AC for shield\nand Dexterity.\nAs soon as the caster ceases concentra-\ntion, the spirituul hammer spell ends. A dis-\npel magic spell that includes either the caster\nor the force in its area of effect has a chance\nto dispel the spiritual hammer. If an at-\ntacked creature has magicresistance, the re-\nsistance is checked the first time the spiritual\nhammer strikes. If the hammer is succes+\nfully resisted, the spell is lost. If not, the\nhammer has its normal full effect for the du-\nration of the spell.\nThe material component of this spell is a\nnormal war hammer that the priest must\nhurl toward opponents while uttering a plea\nto his deity. The hammer disappears when\nthe spell is cast."
+  },
+  "mechanics": {
+    "school_or_type": "Invocation",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Spiritual Hammer",
+      "canonical_name_guess": null,
+      "school_or_type": "Invocation",
+      "range": "10 yards/level",
+      "components": "V, S, M",
+      "duration": "3 rounds + 1 round/level",
+      "casting_time": "5",
+      "area_of_effect": "Special",
+      "saving_throw": "None",
+      "description_excerpt": "By calling upon his deity, the caster of a spiritual hammer spell brings into existence a field of force shaped vaguely like a ham- mer. As long as the caster concentrates upon the hammer, it strikes at any opponent within its range, as desired. Each round the caster can choose to attack the same target as the previous round or switch to a new tar- get that he can see anywhere within his max- imum range. The spiritual hammer’s chance to successfully hit is equal to that of the caster, without any Strength bonuses. In ad- dition, it strikes as a magical weapon with a bonus of + 1 for every six experience levels (or fraction) of the spellcaster, up to a total of +3 to the attack roll and +3 to the dam- age roll for a 13th-level caster. The base damage inflicted when it scores a hit is ex- actly the same as a normal war hammer (ld4+1 vs. opponents of man size or smaller, ld4 upon larger opp"
+    },
+    "quality_flags": []
+  }
+}

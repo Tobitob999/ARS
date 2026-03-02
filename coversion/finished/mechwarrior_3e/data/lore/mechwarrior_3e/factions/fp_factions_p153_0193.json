@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "factions_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "factions",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "can cost double more Print Media While the",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 153,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:55Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_factions_p153_0193",
+    "entity_type": "factions",
+    "name_guess": "can cost double more Print Media While the",
+    "breadcrumb_path": "Rules Compendium > Page 153 > factions > can cost double more Print Media While the",
+    "page_refs": [
+      153
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "can cost double more Print Media While the print media i5 basically dead_shipping paper across interstellar distances carries astronomical price tag Iives on In virtual iorm: Publishing houses still produce written inedia, only instead of physically printing them they store them on data chips that consumers plug into their note puters Or tri-vid sets Some people still prefer hard copy they can carry around with tnem, however _in which case they must physically print the selections they want: variety of written materials available_ from fiction and nonfiction books t0 daily and weekly news reports t0 literally millions of magazines catering every interest."
+  }
+}

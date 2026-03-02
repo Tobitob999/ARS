@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "add_2e",
+    "source_book",
+    "pdf_conversion",
+    "tsr_inc_ad_and_d_2nd_edition_dragonlance_heroes_of_defiance"
+  ],
+  "summary": "Metadaten der PDF-zu-JSON-Konvertierung fuer TSR Inc - AD&D 2nd Edition - Dragonlance_ Heroes of Defiance.pdf.",
+  "source_text": {
+    "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Heroes of Defiance.pdf",
+    "source_path": "g:\\meine ablage\\add2e\\tsr inc - ad&d 2nd edition - dragonlance_ heroes of defiance.pdf",
+    "format": "pdf",
+    "page_count": 162,
+    "extracted_characters": 445066,
+    "extraction_timestamp": "2026-03-02T10:54:47",
+    "toc_candidate_pages": [
+      6,
+      106
+    ],
+    "empty_or_unreadable_pages": [
+      1,
+      2,
+      3,
+      100,
+      102,
+      103,
+      136,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162
+    ]
+  },
+  "mechanics": {
+    "extractor": "pypdf.PdfReader.extract_text",
+    "output_files": [
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dragonlance_heroes_of_defiance_pages.jsonl",
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dragonlance_heroes_of_defiance_chapter_map.json",
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dragonlance_heroes_of_defiance_metadata.json"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.1",
+  "id": "ai_water",
+  "name": "Ai- Water",
+  "compatible_rulesets": [
+    "add_2e"
+  ],
+  "category": "spell",
+  "tags": [
+    "add_2e",
+    "spell",
+    "player_handbook",
+    "appendix_conversion"
+  ],
+  "summary": "Ai- Water (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "source_text": {
+    "book": "Player's Handbook (2nd Edition)",
+    "appendix": 3,
+    "spell_list": "wizard",
+    "level_band": "fourth",
+    "book_pages": [
+      165
+    ],
+    "pdf_pages": [
+      166
+    ],
+    "raw_block": "Ai- Water (Alteration)\nRange: 0\nComponents: V, S, M\nDuration: 1 turn/level\nCasting Time: 5\nArea of Effect: 10‘ radius sphere or\nSaving Throw: None\nThe airy water spell turns normal liquid,\nsuch as water or water-based solutions, into\na less dense, breathable substance. Thus, if\nthe wizard wanted to enter an underwater\nplace, he would step into the water, cast the\nspell and sink downward in a globe of bub-\nbling water. He and any companions in the\nspells area of effect can move freely and\nbreathe just as if the bubbling water were\nair. The globe is centered on and moves with\nthe caster. Water-breathing creatures avoid\na sphere (or hemisphere) of airy water, al-\nthough intelligent ones can enter it if they\nare able to move by means other than swim-\nming. No water-breathers can breathe in an\narea affected by this spell. There is only one\nword that needs to be spoken to actuate the\nmagic, thus it can be cast underwater. The\nspell does not filter or remove solid particles\nof matter.\nThe material component of the spell is a\nsmall handful of alkaline or bromine salts.\n15’ radius hemisphere"
+  },
+  "mechanics": {
+    "school_or_type": "Alteration",
+    "parser": "header_block_v3_1",
+    "spell_card": {
+      "name": "Ai- Water",
+      "canonical_name_guess": null,
+      "school_or_type": "Alteration",
+      "range": "0",
+      "components": "V, S, M",
+      "duration": "1 turn/level",
+      "casting_time": "5",
+      "area_of_effect": "10‘ radius sphere or",
+      "saving_throw": "None",
+      "description_excerpt": "The airy water spell turns normal liquid, such as water or water-based solutions, into a less dense, breathable substance. Thus, if the wizard wanted to enter an underwater place, he would step into the water, cast the spell and sink downward in a globe of bub- bling water. He and any companions in the spells area of effect can move freely and breathe just as if the bubbling water were air. The globe is centered on and moves with the caster. Water-breathing creatures avoid a sphere (or hemisphere) of airy water, al- though intelligent ones can enter it if they are able to move by means other than swim- ming. No water-breathers can breathe in an area affected by this spell. There is only one word that needs to be spoken to actuate the magic, thus it can be cast underwater. The spell does not filter or remove solid particles of matter. The material component of the spell is a small handful"
+    },
+    "quality_flags": []
+  }
+}

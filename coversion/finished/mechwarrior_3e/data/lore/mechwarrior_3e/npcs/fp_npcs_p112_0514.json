@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "npcs_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "npcs",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "SPRINTING Sprinting Complex Action that equires the character",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 112,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:29Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_npcs_p112_0514",
+    "entity_type": "npcs",
+    "name_guess": "SPRINTING Sprinting Complex Action that equires the character",
+    "breadcrumb_path": "Rules Compendium > Page 112 > npcs > SPRINTING Sprinting Complex Action that equires the character",
+    "page_refs": [
+      112
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "SPRINTING Sprinting Complex Action that equires the character t0 focus all his attention on speed, moving as fast as possible_ sprinting character can covcr lot of ground but can maintain the speed tor very long Every sprint action inflicts Fatigue the sprinter (sce Fatigue. 1151. AIso."
+  }
+}

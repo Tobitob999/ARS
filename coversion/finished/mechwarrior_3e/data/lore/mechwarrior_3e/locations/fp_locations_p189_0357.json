@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "locations_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "locations",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Supersonic aircrait and suborbital DropShip flights are sta",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 189,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:43:13Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_locations_p189_0357",
+    "entity_type": "locations",
+    "name_guess": "Supersonic aircrait and suborbital DropShip flights are sta",
+    "breadcrumb_path": "Rules Compendium > Page 189 > locations > Supersonic aircrait and suborbital DropShip flights are sta",
+    "page_refs": [
+      189
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [],
+    "year_mentions": [],
+    "stat_tokens": [],
+    "excerpt": "Supersonic aircrait and suborbital DropShip flights are sta ples of long-distance travel, allowing access (0 any part 0i planel matter of hours, fev worlds, including Terra; boast nigh speed surface trarsport systems like maglev trains that can reach speeds Up t0 Ihousand kph: Because the cost 0f suchl systems exorbitant when compared with suborbita Ilights_ they are lirnited t0 the oldest and most populous worlds_ icw planets also use seagoing transports and dirigibles though sucn methods of travel are regarded more as luxuries than practical ways of getting around 188"
+  }
+}

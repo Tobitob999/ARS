@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0.0",
+  "category": "items_snippet",
+  "tags": [
+    "mechwarrior_3e",
+    "items",
+    "first_pass",
+    "entity"
+  ],
+  "summary": "Strenuous activity while in recovery Grazing First Aid",
+  "source_text": {
+    "pdf": "BattleTech 1715 - MechWarrior (3rd edition).pdf",
+    "page": 126,
+    "extraction": "ocr_fulltext_scan"
+  },
+  "provenance": {
+    "generated_at": "2026-03-02T18:42:33Z",
+    "generated_by": "codex_conversion_entity_extractor_v1",
+    "method": "keyword_window_extraction_v1"
+  },
+  "mechanics": {
+    "entity_id": "fp_items_p126_0200",
+    "entity_type": "items",
+    "name_guess": "Strenuous activity while in recovery Grazing First Aid",
+    "breadcrumb_path": "Rules Compendium > Page 126 > items > Strenuous activity while in recovery Grazing First Aid",
+    "page_refs": [
+      126
+    ],
+    "_ref": [],
+    "cost_mentions": [],
+    "weight_mentions": [],
+    "range_mentions": [
+      "0m",
+      "10 m",
+      "15 m",
+      "20 m",
+      "30 m",
+      "4 m"
+    ],
+    "year_mentions": [],
+    "stat_tokens": [
+      "wound"
+    ],
+    "excerpt": "Strenuous activity while in recovery Grazing First Aid minute day week runs the risk of ruining the treatment and reopening Minor MedTech 30 minutes 106 days 106 weeks the wounds Serious Surgery W 10 minutes 106 weeks 606 weeks AIl medical treatment Action Checks have Critlical Surgery WV 15 minutes 206 weeks ficulty moditier equal t0 the wound value of the Deadly Surgery WV 20 minutes 106+4 months wound being treated_ Otherwise the usual modi: fiers for conditions and actions apply t0medical treatment just as they apply to all Action Checks allowed t0 heal Head: Large , ugly scar Unattractive Trait] Kound not treated successfully Or the character will be afilicted with permanent effccts Leg: Broken bonc knitted in bad position (-1 untrealed meter t0 all movernent rales] based on the location of the wound, as listed below: not using the hit location rules roll on the Hit Location Table (p."
+  }
+}

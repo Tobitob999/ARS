@@ -36,7 +36,8 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--module",
-        required=True,
+        required=False,
+        default=None,
         metavar="RULESET",
         help="Name of the ruleset module to load (e.g. cthulhu_7e)",
     )
@@ -135,6 +136,11 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Launch the developer TechGUI instead of the CLI game loop",
     )
+    parser.add_argument(
+        "--convert-all",
+        action="store_true",
+        help="Batch-process all PDFs in coversion/workload/ (no game session)",
+    )
     return parser.parse_args()
 
 
@@ -149,6 +155,29 @@ def main() -> None:
     if args.preset:
         base_config = SessionConfig.from_preset(args.preset)
     session_config = SessionConfig.from_args(args, base=base_config)
+
+    # --convert-all: Batch-Verarbeitung statt Spielsession (kein --module noetig)
+    if getattr(args, "convert_all", False):
+        from pathlib import Path as _P
+        workload = _P("coversion/workload")
+        if not workload.is_dir():
+            logger.error("coversion/workload/ existiert nicht.")
+            sys.exit(1)
+        pdfs = sorted(workload.glob("*.pdf"))
+        if not pdfs:
+            logger.info("Keine PDFs in coversion/workload/ gefunden.")
+            sys.exit(0)
+        logger.info("Conversion-Batch: %d PDFs gefunden in %s", len(pdfs), workload)
+        for pdf in pdfs:
+            logger.info("  - %s (%s MB)", pdf.name, f"{pdf.stat().st_size / (1024*1024):.1f}")
+        logger.info("Conversion-Pipeline muss manuell oder via Codex-Agent gestartet werden.")
+        logger.info("PDFs: %s", ", ".join(p.name for p in pdfs))
+        sys.exit(0)
+
+    # --module ist Pflicht fuer alle Modi ausser --convert-all
+    if not args.module:
+        logger.error("--module ist erforderlich (z.B. --module cthulhu_7e)")
+        sys.exit(1)
 
     logger.info(
         "Starting ARS — module: %s | difficulty: %s | language: %s",
