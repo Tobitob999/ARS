@@ -1,0 +1,128 @@
+{
+  "module": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "case_id": 2,
+  "case_name": "investigation",
+  "expected_tags": {
+    "PROBE": 3,
+    "FERTIGKEIT_GENUTZT": 1,
+    "FAKT": 1
+  },
+  "total_turns": 5,
+  "total_latency_ms": 7416.8583000064245,
+  "avg_latency_ms": 1483.371660001285,
+  "avg_response_chars": 445.8,
+  "avg_sentences": 6.8,
+  "total_probes": 2,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich nehme den Auftrag an und gehe ins Zeitungsarchiv.",
+      "keeper_response": "Sie nicken Mr. Knott zu. Er laechelt zufrieden, fast mechanisch. Die Umschlaege mit den ersten Dollar wechseln den Besitzer. Sie verlassen sein sachliches Buero.\n\nDer Weg fuehrt Sie durch die erwachenden Strassen Bostons. Alte Zeitungen wirbeln im Wind. Eine Stunde spaeter stehen Sie vor den schweren Eichentueren des Stadtarchivs. Der Geruch von altem Papier und Staub ist allgegenwaertig.\n\nDicke Regale erheben sich wie Klippen. Das Licht ist spaerlich, nur hier und da erhellt eine einzelne Lampe die Gänge. Was tun Sie? [FAKT: {\"auftrag_angenommen\": true}] [ZEIT_VERGEHT: 1h]",
+      "response_chars": 580,
+      "response_sentences": 12,
+      "latency_ms": 1979.3929000006756,
+      "tags_found": [
+        "ZEIT_VERGEHT",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich recherchiere alte Berichte ueber das Corbitt-Haus.",
+      "keeper_response": "Sie betreten das grosse Zeitungsarchiv. Der Geruch von altem Papier und Staub liegt schwer in der Luft. Reihen ueber Reihen von Mikrofilmen und vergilbten Baenden erwarten Sie.\n\nIhre Finger gleiten ueber die Registerkarten. Sie suchen nach Hinweisen auf die 20 Sheafe Street oder Walter Corbitt. [PROBE: Bibliotheksnutzung | 55] [ZEIT_VERGEHT: 1h]",
+      "response_chars": 347,
+      "response_sentences": 5,
+      "latency_ms": 3301.977300005092,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich pruefe die Sterberegister nach Walter Corbitt.",
+      "keeper_response": "Die alten Akten geben ihre Geheimnisse preis. Sie finden nicht nur die erwarteten Berichte, sondern auch eine Reihe obskurerer Artikel. Es sind Meldungen ueber merkwuerdige Unfaelle im Haus. Die Ereignisse wiederholten sich ueber Jahrzehnte. [INVENTAR: Zeitungsausschnitte (Corbitt-Haus) | gefunden] [FAKT: {\"zeitung_unfaelle\": true}] [FERTIGKEIT_GENUTZT: Bibliotheksnutzung] [ZEIT_VERGEHT: 1h]\n\nWas genau moechten Sie sich naeher ansehen?",
+      "response_chars": 439,
+      "response_sentences": 5,
+      "latency_ms": 456.1159000004409,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "INVENTAR",
+        "ZEIT_VERGEHT",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 1,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich untersuche die Kirchenakten auf Hinweise.",
+      "keeper_response": "Das Zeitungsarchiv kann Ihnen diese Art von Informationen nicht bieten. Sie muessen die formalen Wege gehen. Sie verlassen das staubige Archiv. [ZEIT_VERGEHT: 0.5h]\n\nKurze Zeit spaeter stehen Sie vor der Hall of Records. Kuehle Formalitaet herrscht hier vor. Der Geruch von Papier und Stempelfarbe liegt in der Luft.\n\nDie Beamten blicken Sie teilnahmslos an. [PROBE: Recht | 40] [ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 399,
+      "response_sentences": 7,
+      "latency_ms": 1321.0603999978048,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich betrete das Corbitt-Haus und schaue mich im Erdgeschoss um.",
+      "keeper_response": "Die Archivarin, Martha Webb, blickt Sie misstrauisch an. [STIMME:woman] \"Sterberegister sind oeffentlich, aber nicht immer leicht zu finden.\" [STIMME:keeper] Ihre professionelle Art oeffnet dennoch Tueren. Sie gewaehrt Ihnen Zugang zu den alten Baenden. Sie finden den Eintrag zu Walter Corbitt. [INVENTAR: Sterberegisterauszug (Corbitt) | gefunden] [FAKT: {\"sterberegister_corbitt\": true}] [FERTIGKEIT_GENUTZT: Recht] [ZEIT_VERGEHT: 1h]\n\nWas tun Sie als Nächstes?",
+      "response_chars": 464,
+      "response_sentences": 5,
+      "latency_ms": 358.3118000024115,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "INVENTAR",
+        "ZEIT_VERGEHT",
+        "FAKT",
+        "STIMME"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 1,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

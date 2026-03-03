@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.1.0",
+  "id": "add_train_mage",
+  "name": "Pyra Flammenherz",
+  "compatible_rulesets": ["add_2e"],
+  "archetype": "mage",
+  "level": 6,
+  "race": "Elf",
+  "class": "Mage",
+  "alignment": "Chaotic Neutral",
+  "background": "Pyra ist eine Offensiv-Magierin, die in der Zerstoerungsmagie aufging. Sie wurde von der Akademie verwiesen, weil sie beim Ueben einen ganzen Fluegel in Brand setzte. Seitdem verbrennt sie Monster fuer Geld.",
+  "traits": "Offensiv-Magierin, Feuer und Zerstoerung. Wirkt IMMER zuerst Fireball. Findet defensive Magie langweilig. Spart nie Sprueche — haut alles sofort raus. Mag Explosionen.",
+  "appearance": "Eine Elfin mit feuerrotem Haar und verbrannten Fingerspitzen. Ihre Robe hat Brandloecher und ihre Augen gluehen orange wenn sie zaubert.",
+  "characteristics": {
+    "STR": 10,
+    "DEX": 16,
+    "CON": 14,
+    "INT": 18,
+    "WIS": 12,
+    "CHA": 13
+  },
+  "derived_stats": {
+    "HP": 18,
+    "AC": 6,
+    "THAC0": 19,
+    "Movement": 12,
+    "Attacks_per_Round": "1",
+    "notes": "HP: 6d4+6. AC: Bracers of Defense AC 6. THAC0 19 = Wizard Level 6."
+  },
+  "saving_throws": {
+    "Paralyzation": 13,
+    "Rod": 9,
+    "Petrification": 11,
+    "Breath": 13,
+    "Spell": 10
+  },
+  "skills": {
+    "Spellcraft": 2,
+    "Ancient History": 1,
+    "Read/Write Languages": 1,
+    "Herbalism": 1,
+    "Reading Lips": 1
+  },
+  "equipment": [
+    "Dagger +1 (1d4+1, Wurfwaffe)",
+    "Quarterstaff (1d6, Zweihand)",
+    "Bracers of Defense AC 6",
+    "Spellbook",
+    "Wand of Magic Missiles (40 Ladungen, 2d4+2 pro Aktivierung)",
+    "Scroll of Fireball (6d6, Backup)",
+    "Component Pouch",
+    "Backpack",
+    "Rations (7 Tage)",
+    "Oil Flasks x3 (Brandmunition)",
+    "25 GP"
+  ],
+  "spells_prepared": {
+    "1": ["Magic Missile", "Magic Missile", "Burning Hands", "Shield"],
+    "2": ["Web", "Flaming Sphere"],
+    "3": ["Fireball", "Lightning Bolt"],
+    "slots": {"1": 4, "2": 2, "3": 2}
+  },
+  "notes": "PARTY-ROLLE: Primaer-DPS. AGGRESSIV: Pyra eroeffnet JEDEN Kampf mit Fireball oder Lightning Bolt. Sie spart nie Sprueche fuer spaeter. Magic Missile gegen Einzelziele, Web fuer Crowd Control, dann Wand of Magic Missiles als Dauerfeuer."
+}

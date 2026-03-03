@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.1.0",
+  "id": "add_party_cleric",
+  "name": "Bruder Aldhelm",
+  "compatible_rulesets": ["add_2e"],
+  "archetype": "cleric",
+  "level": 6,
+  "race": "Human",
+  "class": "Cleric",
+  "alignment": "Lawful Good",
+  "background": "Bruder Aldhelm diente zwanzig Jahre als Priester des Gottes Tyr im Tempel der Gerechtigkeit zu Silberbrueck. Doch als Plage und Krieg seine Gemeinde dezimierten, verliess er den sicheren Tempel und wurde ein wandernder Heiler — dorthin gehend, wo Not am groessten ist. Er hat die Seuche von Kaltfels geheilt, Verwundete auf dem Schlachtfeld von Dornpass versorgt und Untote in den Katakomben von Alt-Graben vertrieben. Die Valdrak-Expedition ist fuer ihn ein goettlicher Auftrag: Untote vernichten, den Orb sichern, Kameraden am Leben halten.",
+  "traits": "Aldhelm ist geduldig, mitfuehlend und unerschuetterlich in seinem Glauben. Er betet morgens und abends, segnet das Essen und spricht Trost aus, wenn die Gruppe am Abgrund steht. Im Kampf wird er hart — er kennt keine Gnade fuer Untote und betrachtet sie als Beleidigung seines Gottes. Er hat eine tiefe Stimme und eine Art, Dinge zu sagen, die Hoffnung geben — oder Angst machen, je nach Situation.",
+  "appearance": "Ein kräftiger Mann Ende Vierzig mit kurzgeschnittenem grauem Haar und einem sorgsam gepflegten Bart. Sein Gesicht ist wettergegerbt mit tiefen Lachfalten um die Augen und einem ernsten Zug um den Mund. Er traegt eine polierte Plattenruestung ueber einer weissen Robe, an der Brust das goldene Symbol Tyrs — eine Waage mit einem Schwert. Sein Schild traegt dasselbe Emblem.",
+  "characteristics": {
+    "STR": 14,
+    "DEX": 10,
+    "CON": 16,
+    "INT": 12,
+    "WIS": 17,
+    "CHA": 15
+  },
+  "derived_stats": {
+    "HP": 42,
+    "AC": 2,
+    "THAC0": 18,
+    "Movement": 12,
+    "Attacks_per_Round": "1",
+    "notes": "HP: 6d8+12 (CON 16 = +2/die). AC: Plate Mail (3) + Shield (-1) = AC 2. THAC0 18 = Priest Level 6. WIS 17: +3 bonus priest spells (1x 1st, 1x 2nd, 1x 3rd). Turn Undead as 6th level Cleric."
+  },
+  "saving_throws": {
+    "Paralyzation": 9,
+    "Rod": 13,
+    "Petrification": 12,
+    "Breath": 15,
+    "Spell": 14,
+    "notes": "Priest Level 6 base saves. No racial modifiers (Human)."
+  },
+  "skills": {
+    "Healing": 2,
+    "Religion": 1,
+    "Herbalism": 1,
+    "Reading/Writing": 1,
+    "Diagnostics": 1,
+    "notes": "WIS 17: Bonus spells 1st x2, 2nd x2, 3rd x1. Spell failure none. Turn Undead: Skeleton auto, Zombie auto, Ghoul 4, Shadow 7, Wight 10, Ghast 13, Wraith 16, Mummy 19, Spectre 20. Lich: no effect at this level."
+  },
+  "equipment": [
+    "Mace +1 (1d6+1, +1 hit/+1 dmg, bludgeoning)",
+    "Heavy Mace (1d6+1, backup, bludgeoning)",
+    "Plate Mail (AC 3)",
+    "Medium Shield (+1 AC bonus)",
+    "Holy Symbol of Tyr (goldene Waage mit Schwert, erforderlich fuer Zauber)",
+    "Potion of Extra-Healing x1 (heilt 3d8+3 HP)",
+    "Holy Water x3 (2d4 Schaden vs Untote, Wurf)",
+    "Backpack",
+    "Rations (7 days)",
+    "Waterskin",
+    "Healer's Kit (10 uses, +2 on non-magical healing)",
+    "Candles (6)",
+    "Prayer Book",
+    "15 GP"
+  ],
+  "spells_prepared": {
+    "1": ["Cure Light Wounds", "Cure Light Wounds", "Cure Light Wounds", "Bless", "Detect Magic"],
+    "2": ["Hold Person", "Silence 15' Radius", "Spiritual Hammer", "Spiritual Hammer", "Aid"],
+    "3": ["Dispel Magic", "Prayer", "Create Food and Water"],
+    "slots": {
+      "1": 5,
+      "2": 5,
+      "3": 3
+    },
+    "notes": "Cleric Level 6 base slots: 3/3/2. WIS 17 bonus: +2 1st, +2 2nd, +1 3rd = 5/5/3 total. Cure Light Wounds: 1d8 HP. Hold Person: 1-3 targets, RETTUNGSWURF Spell negates, paralyzed 2d6 rounds. Silence 15': no spellcasting in area. Spiritual Hammer: force weapon THAC0 18, 1d4+1, 6 rounds. Aid: +1d8 temp HP + +1 attack/saves. Dispel Magic: removes magic effects. Prayer: +1 attack/damage/saves allies, -1 enemies. Turn Undead: Skeleton/Zombie auto, Wight on 10+."
+  },
+  "notes": "PARTY-ROLLE: Primaer-Heiler, Untoten-Spezialist, sekundaerer Kaempfer. Aldhelm ist der Lebensnerv der Gruppe — ohne seine Heilzauber ueberlebt niemand den Dungeon. 3x Cure Light Wounds pro Tag plus Healer's Kit und Potion. Hold Person und Silence sind starke Crowd-Control-Werkzeuge. KRITISCH: Turn Undead funktioniert automatisch gegen Skelette und Zombies, Wights benoetigen 10+ auf d20. Gegen den Lich ist Turn Undead wirkungslos auf dieser Stufe. Holy Water (3 Flaschen) als Backup gegen Untote. TAKTIK: Zweite Reihe hinter den Tanks. Heilt proaktiv. Setzt Bless/Prayer fuer Gruppenbonus ein. Nutzt Spiritual Hammer als Fernkampf-Option. Turn Undead SOFORT bei Wight-Begegnung."
+}

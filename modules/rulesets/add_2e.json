@@ -3,7 +3,7 @@
     "name": "Advanced Dungeons & Dragons",
     "version": "2nd Edition (PHB-converted)",
     "system": "add_2e",
-    "schema_version": "2.7.0",
+    "schema_version": "2.8.0",
     "tables_file": "add_2e_tables.json",
     "publisher": "TSR",
     "language": "en",
@@ -277,32 +277,272 @@
     "dwarf": {
       "size": "M",
       "movement": 6,
-      "notes": "Demihuman race with class restrictions and level limits."
+      "ability_adjustments": {
+        "CON": 1,
+        "CHA": -1
+      },
+      "ability_min_max": {
+        "STR": [8, 18],
+        "DEX": [3, 17],
+        "CON": [11, 18],
+        "INT": [3, 18],
+        "WIS": [3, 18],
+        "CHA": [3, 16]
+      },
+      "class_options": [
+        "fighter",
+        "thief",
+        "cleric",
+        "fighter_thief",
+        "fighter_cleric"
+      ],
+      "level_limits": {
+        "fighter": 15,
+        "thief": 12,
+        "cleric": 10
+      },
+      "special_abilities": [
+        "infravision_60ft",
+        "detect_grade_slope_83pct",
+        "detect_new_construction_75pct",
+        "detect_sliding_walls_66pct",
+        "detect_traps_50pct",
+        "poison_save_bonus",
+        "magic_save_bonus"
+      ],
+      "saving_throw_bonus": "+1 per 3.5 CON vs magic/poison",
+      "languages": [
+        "common",
+        "dwarvish",
+        "gnome",
+        "goblin",
+        "kobold",
+        "orc"
+      ]
     },
     "elf": {
       "size": "M",
       "movement": 12,
-      "notes": "Keen senses, resistance traits, class restrictions."
+      "ability_adjustments": {
+        "DEX": 1,
+        "CON": -1
+      },
+      "ability_min_max": {
+        "STR": [3, 18],
+        "DEX": [6, 18],
+        "CON": [7, 17],
+        "INT": [8, 18],
+        "WIS": [3, 18],
+        "CHA": [8, 18]
+      },
+      "class_options": [
+        "fighter",
+        "mage",
+        "thief",
+        "cleric",
+        "ranger",
+        "fighter_mage",
+        "fighter_thief",
+        "mage_thief",
+        "fighter_mage_thief"
+      ],
+      "level_limits": {
+        "fighter": 12,
+        "mage": 15,
+        "thief": 12,
+        "cleric": 12,
+        "ranger": 15
+      },
+      "special_abilities": [
+        "infravision_60ft",
+        "detect_secret_doors_1in6_passive",
+        "detect_secret_doors_2in6_active",
+        "90pct_resistance_sleep_charm",
+        "sword_bow_bonus"
+      ],
+      "languages": [
+        "common",
+        "elvish",
+        "gnome",
+        "halfling",
+        "goblin",
+        "hobgoblin",
+        "orc",
+        "gnoll"
+      ]
     },
     "gnome": {
       "size": "S",
       "movement": 6,
-      "notes": "Illusion affinity and race-specific traits."
+      "ability_adjustments": {
+        "INT": 1,
+        "WIS": -1
+      },
+      "ability_min_max": {
+        "STR": [6, 18],
+        "DEX": [3, 18],
+        "CON": [8, 18],
+        "INT": [6, 18],
+        "WIS": [3, 17],
+        "CHA": [3, 18]
+      },
+      "class_options": [
+        "fighter",
+        "thief",
+        "cleric",
+        "illusionist",
+        "fighter_thief",
+        "fighter_cleric",
+        "cleric_thief",
+        "cleric_illusionist"
+      ],
+      "level_limits": {
+        "fighter": 11,
+        "thief": 13,
+        "cleric": 9,
+        "illusionist": 12
+      },
+      "special_abilities": [
+        "infravision_60ft",
+        "detect_grade_slope_80pct",
+        "detect_unsafe_walls_70pct",
+        "determine_depth_60pct",
+        "determine_direction_50pct",
+        "poison_save_bonus",
+        "magic_save_bonus"
+      ],
+      "languages": [
+        "common",
+        "gnomish",
+        "dwarvish",
+        "halfling",
+        "goblin",
+        "kobold",
+        "burrowing_mammals"
+      ]
     },
     "half_elf": {
       "size": "M",
       "movement": 12,
-      "notes": "Hybrid options and broad class access."
+      "ability_adjustments": {},
+      "ability_min_max": {
+        "STR": [3, 18],
+        "DEX": [6, 18],
+        "CON": [6, 18],
+        "INT": [4, 18],
+        "WIS": [3, 18],
+        "CHA": [3, 18]
+      },
+      "class_options": [
+        "fighter",
+        "mage",
+        "cleric",
+        "thief",
+        "ranger",
+        "bard",
+        "druid",
+        "fighter_mage",
+        "fighter_thief",
+        "fighter_cleric",
+        "cleric_ranger",
+        "cleric_mage",
+        "thief_mage",
+        "fighter_mage_cleric",
+        "fighter_mage_thief"
+      ],
+      "level_limits": {
+        "fighter": 14,
+        "mage": 12,
+        "cleric": 14,
+        "thief": 12,
+        "ranger": 16,
+        "bard": "unlimited",
+        "druid": "unlimited"
+      },
+      "special_abilities": [
+        "infravision_60ft",
+        "detect_secret_doors_1in6_passive",
+        "30pct_resistance_sleep_charm"
+      ],
+      "languages": [
+        "common",
+        "elvish",
+        "plus_player_choice"
+      ]
     },
     "halfling": {
       "size": "S",
       "movement": 6,
-      "notes": "Stealth and missile bonuses."
+      "ability_adjustments": {
+        "DEX": 1,
+        "STR": -1
+      },
+      "ability_min_max": {
+        "STR": [7, 17],
+        "DEX": [7, 18],
+        "CON": [10, 18],
+        "INT": [6, 18],
+        "WIS": [3, 17],
+        "CHA": [3, 18]
+      },
+      "class_options": [
+        "fighter",
+        "thief",
+        "cleric",
+        "fighter_thief"
+      ],
+      "level_limits": {
+        "fighter": 9,
+        "thief": 15,
+        "cleric": 8
+      },
+      "special_abilities": [
+        "infravision_30ft_stout_only",
+        "detect_grade_slope_75pct",
+        "determine_direction_50pct",
+        "stealth_surprise_bonus",
+        "poison_save_bonus",
+        "magic_save_bonus",
+        "missile_attack_bonus_plus1"
+      ],
+      "saving_throw_bonus": "+1 per 3.5 CON vs magic/poison",
+      "languages": [
+        "common",
+        "halfling",
+        "dwarvish",
+        "elvish",
+        "gnomish",
+        "goblin",
+        "orc"
+      ]
     },
     "human": {
       "size": "M",
       "movement": 12,
-      "notes": "No level limits in standard PHB baseline."
+      "ability_adjustments": {},
+      "ability_min_max": {
+        "STR": [3, 18],
+        "DEX": [3, 18],
+        "CON": [3, 18],
+        "INT": [3, 18],
+        "WIS": [3, 18],
+        "CHA": [3, 18]
+      },
+      "class_options": [
+        "all"
+      ],
+      "level_limits": {
+        "all": "unlimited"
+      },
+      "special_abilities": [
+        "no_level_limits",
+        "dual_class_eligible",
+        "exceptional_strength_all_warrior"
+      ],
+      "languages": [
+        "common",
+        "plus_int_bonus_languages"
+      ]
     }
   },
   "classes": {

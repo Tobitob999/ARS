@@ -1,0 +1,123 @@
+{
+  "module": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "case_id": 2,
+  "case_name": "investigation",
+  "expected_tags": {
+    "PROBE": 3,
+    "FERTIGKEIT_GENUTZT": 1,
+    "FAKT": 1
+  },
+  "total_turns": 5,
+  "total_latency_ms": 5521.343699998397,
+  "avg_latency_ms": 1104.2687399996794,
+  "avg_response_chars": 327.6,
+  "avg_sentences": 6.0,
+  "total_probes": 2,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich nehme den Auftrag an und gehe ins Zeitungsarchiv.",
+      "keeper_response": "Die Papiere wechseln den Besitzer. Mr. Knotts Blick ist durchdringend. Er nickt kaum merklich, dann versinkt er wieder in seinen Akten.\n\nSie verlassen das trockene Büro. Die Sonne blendet Sie kurz auf der Straße. Der Weg zum Zeitungsarchiv führt Sie durch das geschäftige Treiben der Stadt.\n\nDicke Staubschichten liegen auf alten Regalen. Der Geruch von altem Papier und Druckerschwärze erfuellt den Raum. Gedämpfte Geraeusche von raschelnden Seiten sind zu hoeren.\n\nWas suchen Sie in diesen vergilbten Archiven?\n[ZEIT_VERGEHT: 0.5h]\n[FAKT: {\"auftrag_angenommen\": true}]\n[ORT: Zeitungsarchiv]",
+      "response_chars": 592,
+      "response_sentences": 11,
+      "latency_ms": 1749.0488000039477,
+      "tags_found": [
+        "ZEIT_VERGEHT",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich recherchiere alte Berichte ueber das Corbitt-Haus.",
+      "keeper_response": "Ein modriger Geruch empfängt Sie. Reihen über Reihen vergilbter Zeitungen türmen sich auf. Dicker Staub tanzt im Lichtstrahl, der durch ein Fenster fällt.\n\nSie suchen nach Hinweisen auf die Sheafe Street 20. [PROBE: Bibliotheksnutzung | 55]\n[ZEIT_VERGEHT: 1h]",
+      "response_chars": 259,
+      "response_sentences": 4,
+      "latency_ms": 1783.467199995357,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich pruefe die Sterberegister nach Walter Corbitt.",
+      "keeper_response": "Sie wühlen sich durch endlose Seiten. Namen und Daten verschwimmen vor Ihren Augen. Nichts Bedeutendes springt Sie an.\n\nDie Zeit verrinnt. Ihr Kopf beginnt zu dröhnen. Was tun Sie als Nächstes? [FERTIGKEIT_GENUTZT: Bibliotheksnutzung]\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 255,
+      "response_sentences": 6,
+      "latency_ms": 192.13239999953657,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich untersuche die Kirchenakten auf Hinweise.",
+      "keeper_response": "Sie verlassen das stickige Archiv. Der Weg führt Sie zum Hall of Records. Dort riecht es kühl nach Papier und Stempelkissen.\n\nSie wollen Walter Corbitts Sterberegister einsehen. [PROBE: Recht | 45]\n[ZEIT_VERGEHT: 0.5h]\n[ORT: Hall of Records]",
+      "response_chars": 241,
+      "response_sentences": 4,
+      "latency_ms": 1298.7616999962484,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich betrete das Corbitt-Haus und schaue mich im Erdgeschoss um.",
+      "keeper_response": "Die Beamtin hinter dem Schalter mustert Sie kalt. Sie erklärt Ihnen umständlich die nötigen Formulare. Der Prozess zieht sich unnötig in die Länge.\n\nSie finden keinen schnellen Zugang. Der Name Walter Corbitt scheint auf Misstrauen zu stoßen. [FERTIGKEIT_GENUTZT: Recht]\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 291,
+      "response_sentences": 5,
+      "latency_ms": 497.9336000033072,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

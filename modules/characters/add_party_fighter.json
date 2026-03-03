@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.1.0",
+  "id": "add_party_fighter",
+  "name": "Thorin Eisenschild",
+  "compatible_rulesets": ["add_2e"],
+  "archetype": "fighter",
+  "level": 7,
+  "race": "Dwarf",
+  "class": "Fighter",
+  "alignment": "Lawful Good",
+  "background": "Thorin stammt aus den Tiefenminen von Karak-Durn, wo er als Hauptmann der Minenwache diente. Nach einem verheerenden Orkueberfall, bei dem er als Einziger seiner Einheit ueberlebte, schwor er einen Eid, nie wieder Kameraden im Stich zu lassen. Seitdem zieht er als Soeldner durch die Laender und sucht eine Gemeinschaft, die seines Schutzes wuerdig ist. Als Magister Elric die Valdrak-Expedition ausschrieb, meldete sich Thorin als Erster — nicht wegen des Goldes, sondern weil sechs Kameraden jemanden brauchen, der vorne steht und nicht wankt.",
+  "traits": "Thorin ist stoisch, wortkarg und von unerschuetterlicher Loyalitaet. Er trinkt gerne Zwergenbier und singt melancholische Minenlieder wenn er glaubt, niemand hoert zu. Im Kampf wird er zu einem unbeweglichen Bollwerk — er weicht keinen Schritt zurueck, egal wie ueberlegen der Feind ist. Er misstraut Magie, respektiert aber Elara und Aldhelm fuer ihren Mut.",
+  "appearance": "Ein breitschultriger Zwerg von knapp 1,30 Metern mit einem gewaltigen rotbraunen Bart, der in zwei geflochtenen Zoepfen bis zur Guertelschnalle reicht. Tiefe Narben durchziehen seine linke Wange und sein rechtes Ohr fehlt zur Haelfte. Seine Augen sind stahlgrau und starr wie geschliffener Granit. Die Vollplattenruestung traegt das Wappen von Karak-Durn — ein Amboss unter zwei gekreuzten Aexten.",
+  "characteristics": {
+    "STR": "18/76",
+    "STR_base": 18,
+    "STR_exceptional": 76,
+    "DEX": 12,
+    "CON": 17,
+    "INT": 10,
+    "WIS": 13,
+    "CHA": 8
+  },
+  "derived_stats": {
+    "HP": 72,
+    "AC": 2,
+    "THAC0": 14,
+    "Movement": 6,
+    "Attacks_per_Round": "3/2",
+    "notes": "HP: 7d10+21 (CON 17 = +3/die). AC: Full Plate (1) + Large Shield (-1) = AC 0, ohne Dex-Bonus = AC 2 effektiv mit Dwarf movement penalty. THAC0 14 = Fighter Level 7. 3/2 attacks = Fighter specialization. STR 18/76: +2 hit, +4 damage, Open Doors 14, Bend Bars 30%."
+  },
+  "saving_throws": {
+    "Paralyzation": 7,
+    "Rod": 9,
+    "Petrification": 8,
+    "Breath": 8,
+    "Spell": 10,
+    "notes": "Dwarf CON 17: +3 bonus vs Poison and Magic (Rod, Spell). Base Fighter L7: Para 10, Rod 12, Petri 11, Breath 11, Spell 13 minus Dwarf bonuses."
+  },
+  "skills": {
+    "Weapon Specialization (Battle Axe)": 2,
+    "Weapon Proficiency (Long Sword)": 1,
+    "Weapon Proficiency (Dagger)": 1,
+    "Weapon Proficiency (Heavy Crossbow)": 1,
+    "Endurance": 1,
+    "Armorer": 1,
+    "Blind-Fighting": 1,
+    "notes": "Specialization in Battle Axe grants +1 hit, +2 damage, 3/2 attacks/round. 7 weapon proficiency slots at Fighter 7 (4 base + 3 from levels). Dwarven Infravision 60ft."
+  },
+  "equipment": [
+    "Battle Axe +1 (1d8+1 base, with STR 18/76: +2 hit/+4 dmg, specialized: +1 hit/+2 dmg = total +4 hit/+7 dmg)",
+    "Long Sword (1d8, backup weapon)",
+    "Dagger (1d4, thrown or melee)",
+    "Heavy Crossbow (1d4+1, range 80/160/240)",
+    "Bolts (20)",
+    "Full Plate Armor (AC 1)",
+    "Large Shield (+1 AC bonus)",
+    "Potion of Healing x2 (heilt 2d4+2 HP)",
+    "Potion of Extra-Healing x1 (heilt 3d8+3 HP)",
+    "Rope (50ft, Seil)",
+    "Torches (6)",
+    "Backpack",
+    "Rations (7 days)",
+    "Waterskin",
+    "Flint & Steel",
+    "Iron Spikes (10)",
+    "Hammer (kleiner Schmiedehammer)",
+    "22 GP"
+  ],
+  "spells_prepared": {},
+  "notes": "PARTY-ROLLE: Primaer-Tank. Thorin haelt die Frontlinie mit Sir Aldric und schuetzt die hintere Reihe. Im Dungeon uebernimmt er die Fuehrung bei Kaempfen in engen Gaengen. Battle Axe +1 mit Spezialisierung ist seine Hauptwaffe (effektiv +4 Angriff, +7 Schaden gegen normale AC). Seine Dwarven-Saves machen ihn widerstandsfaehig gegen Magie und Gift. Infravision 60ft ermoeglicht Aufklaerung ohne Fackel. TAKTIK: Steht in der ersten Reihe neben Sir Aldric. Blockt Engpaesse. Nutzt Armbrust fuer initiale Fernkampfrunde. Haelt sich mit der Streitaxt im Nahkampf."
+}

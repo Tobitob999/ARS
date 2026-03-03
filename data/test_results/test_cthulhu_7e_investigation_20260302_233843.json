@@ -1,0 +1,125 @@
+{
+  "module": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "case_id": 2,
+  "case_name": "investigation",
+  "expected_tags": {
+    "PROBE": 3,
+    "FERTIGKEIT_GENUTZT": 1,
+    "FAKT": 1
+  },
+  "total_turns": 5,
+  "total_latency_ms": 13728.858800001035,
+  "avg_latency_ms": 2745.771760000207,
+  "avg_response_chars": 303.8,
+  "avg_sentences": 4.8,
+  "total_probes": 3,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich nehme den Auftrag an und gehe ins Zeitungsarchiv.",
+      "keeper_response": "Mr. Knott nickt zufrieden. Seine Worte sind kurz, praegnant. Du verlaesst sein Buero in die belebten Strassen Arkhams. Das Zeitungsarchiv empfaengt dich mit dem Geruch von altem Papier. Dicker Staub tanzt im Lichtstrahl, der durch ein hohes Fenster faellt. [FAKT: {\"auftrag_angenommen\": true}] [ZEIT_VERGEHT: 0.5h] [PROBE: Bibliotheksnutzung | 55]",
+      "response_chars": 347,
+      "response_sentences": 6,
+      "latency_ms": 4369.577299999946,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT",
+        "FAKT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich recherchiere alte Berichte ueber das Corbitt-Haus.",
+      "keeper_response": "Die endlosen Reihen von Mikrofilmen und vergilbtem Papier verschwimmen vor deinen Augen. Die Hitze des Lesesaals wird drueckend. Du verlierst dich in einem Labyrinth aus Belanglosigkeiten und Fehlinterpretationen. [FERTIGKEIT_GENUTZT: Bibliotheksnutzung] [ZEIT_VERGEHT: 2h] Was ist dein naechster Schritt?",
+      "response_chars": 305,
+      "response_sentences": 4,
+      "latency_ms": 3152.8080999996746,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich pruefe die Sterberegister nach Walter Corbitt.",
+      "keeper_response": "Die vergilbten Zeitungsbaende wachsen zu einem Berg heran. Jeder Hinweis scheint sich zu verstecken. Dein Blick gleitet ueber Dutzende von Schlagzeilen. [PROBE: Bibliotheksnutzung | 55] [ZEIT_VERGEHT: 1h]",
+      "response_chars": 204,
+      "response_sentences": 3,
+      "latency_ms": 4024.212600001192,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich untersuche die Kirchenakten auf Hinweise.",
+      "keeper_response": "Du findest schliesslich, was du suchst. Mehrere Berichte ueber das Corbitt-Haus tauchen auf. Sie sprechen von bizarren Unfaellen und ploetzlichen Auszuegen. Die Ereignisse wiederholen sich ueber Jahrzehnte hinweg. Keine banale Ursache wird genannt. [FERTIGKEIT_GENUTZT: Bibliotheksnutzung] [FAKT: {\"zeitung_unfaelle_gefunden\": true}] [ZEIT_VERGEHT: 0.5h] Was tust du nun?",
+      "response_chars": 371,
+      "response_sentences": 6,
+      "latency_ms": 220.304299997224,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich betrete das Corbitt-Haus und schaue mich im Erdgeschoss um.",
+      "keeper_response": "Du verlaesst das stickige Archiv. Die Schritte fuehren dich zum Hall of Records. Hier herrscht eine kühle, formale Atmosphaere. Der Geruch von Papier und Stempelgeraeuschen liegt in der Luft. Du suchst nach Walter Corbitts Namen in den alten Buechern. [ZEIT_VERGEHT: 0.5h] [PROBE: Recht | 40]",
+      "response_chars": 292,
+      "response_sentences": 5,
+      "latency_ms": 1961.956500002998,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

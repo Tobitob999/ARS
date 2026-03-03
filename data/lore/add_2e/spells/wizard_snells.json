@@ -1,18 +1,18 @@
 {
   "schema_version": "1.2.1",
   "id": "wizard_snells",
-  "name": "Wizard Snells",
+  "name": "[SEKTIONSHEADER] 6th-Level Wizard Spells",
   "compatible_rulesets": [
     "add_2e"
   ],
-  "category": "spell",
+  "category": "index_header",
   "tags": [
     "add_2e",
     "spell",
     "player_handbook",
     "appendix_conversion"
   ],
-  "summary": "Wizard Snells (6th Level) aus dem AD&D 2e Player's Handbook.",
+  "summary": "[KEIN ZAUBER] OCR-Sektionsheader: Seitenheader der 6th-Level Wizard Spells Liste (PHB p.177). 'Snells' = OCR-Fehler fuer 'Spells'.",
   "source_text": {
     "book": "Player's Handbook (2nd Edition)",
     "appendix": 3,
@@ -42,7 +42,7 @@
       "description_excerpt": ""
     },
     "quality_flags": [
-      "missing_standard_fields"
+      "ocr_section_header_not_a_spell"
     ]
   }
 }

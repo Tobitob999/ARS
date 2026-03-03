@@ -1,7 +1,24 @@
 {
-    "id":  "fire_jet_trap",
-    "module_type":  "trap",
-    "trigger_condition":  "Turning wrong wall sconce",
-    "damage":  "2d6",
-    "saving_throw":  "vs. Breath Weapon for half"
+    "id": "fire_jet_trap",
+    "module_type": "trap",
+    "trigger_condition": "Turning wrong wall sconce",
+    "damage": "2d6",
+    "saving_throw": "vs. Breath Weapon for half",
+    "description": "Der eiserne Wandleuchter, der nicht ganz so verrostet wirkt wie seine Nachbarn, verbirgt eine tückische Drehvorrichtung: Eine halbe Umdrehung in die falsche Richtung öffnet ein verdecktes Ventil, und ein Strahl flüssigen Ölfeuers schießt quer durch den Korridor. Die Wände rund um den Mechanismus zeigen versengte Spuren und geschmolzene Fleischgäste aus Jahrzehnten früherer Auslösungen.",
+    "monsters": [],
+    "tactics": "N/A — passive Falle. Brennendes Öl auf dem Boden (2d4 Runden): 1d4 Folgeschaden pro Runde für Charaktere, die die Flammen passieren. Verdampfender Rauch reduziert Sicht auf 5 Fuß für 1 Runde.",
+    "environment": "Korridor mit mehreren identischen Wandleuchtern; der Fallen-Leuchter befindet sich in der Mitte und ist an der entgegengesetzten Seite der Wand von einem kleinen Ventilzeichen markiert (erkennbar mit Suche + Licht).",
+    "difficulty": "moderate",
+    "loot": [],
+    "cr_equivalent": "2-4",
+    "disarm_dc": "Entdecken: Leuchter-Vergleich zeigt unterschiedliche Patina (INT-Probe oder Zwerg: 2-in-6). Diebe: Fallen suchen. Entschärfen: Ventilöffnung mit Wachs oder Lehm verstopfen (Ausrüstungscheck, 1 Runde); oder Auslösung aus Distanz (langer Stab, 10 Fuß Abstand).",
+    "trap_details": {
+        "type": "mechanisch/chemisch/Feuer",
+        "trigger": "Leuchter gegen den Uhrzeigersinn drehen (im Uhrzeigersinn: harmlos, schaltet Licht um)",
+        "area_of_effect": "Feuerstrahl 5 Fuß breit, 15 Fuß lang (Korridor-Kreuz-Schnitt)",
+        "detection": "Versengte Wände: automatisch bei Licht sichtbar; Mechanismus: Suche 2-in-6",
+        "fire_duration": "Brennöl auf Boden: 2d4 Runden; 1d4 Feuerschaden pro Runde beim Überqueren",
+        "smoke": "Dichter Rauch für 1d4 Runden: Sichtweite 5 Fuß; Zauberwirken erfordert KON-Probe",
+        "reset": "Ventil muss manuell nachgefüllt werden (Falle einmalig ohne Nachfüllung)"
+    }
 }

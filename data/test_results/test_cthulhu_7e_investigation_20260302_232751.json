@@ -1,0 +1,127 @@
+{
+  "module": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "case_id": 2,
+  "case_name": "investigation",
+  "expected_tags": {
+    "PROBE": 3,
+    "FERTIGKEIT_GENUTZT": 1,
+    "FAKT": 1
+  },
+  "total_turns": 5,
+  "total_latency_ms": 16387.91889999993,
+  "avg_latency_ms": 3277.5837799999863,
+  "avg_response_chars": 338.2,
+  "avg_sentences": 5.6,
+  "total_probes": 2,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich nehme den Auftrag an und gehe ins Zeitungsarchiv.",
+      "keeper_response": "Mr. Knott nickt knapp. [STIMME:scholar] \"Diskretion ist Ihr bester Freund.\" [STIMME:keeper] Seine Worte hallen in der Stille nach. Sie verlassen das Büro und bewegen sich durch das erwachende Boston.\n\nDie Luft riecht nach Kohlenrauch und frischem Kaffee. Eine halbe Stunde später erreichen Sie das Zeitungsarchiv. Staubige Regale erheben sich wie Klippen.\n\nDer Geruch von altem Papier liegt schwer in der Luft. Überall rascheln Seiten. Was suchen Sie zuerst? [ZEIT_VERGEHT: 0.5h] [TAGESZEIT: 08:30] [ORT: Zeitungsarchiv]",
+      "response_chars": 520,
+      "response_sentences": 10,
+      "latency_ms": 3603.350200006389,
+      "tags_found": [
+        "ZEIT_VERGEHT",
+        "TAGESZEIT",
+        "STIMME"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich recherchiere alte Berichte ueber das Corbitt-Haus.",
+      "keeper_response": "Das staubige Archiv umgibt Sie. Reihen alter Zeitungsbaende erheben sich wie Grabsteine. Der Geruch von altem Papier und Moder liegt in der Luft. [PROBE: Bibliotheksnutzung | 50]",
+      "response_chars": 178,
+      "response_sentences": 3,
+      "latency_ms": 2009.9092000018572,
+      "tags_found": [
+        "PROBE"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 0,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich pruefe die Sterberegister nach Walter Corbitt.",
+      "keeper_response": "Der Staub beisst in Ihrer Nase. Ein ganzer Stapel alter Zeitungen kippt um, die Seiten zerfallen. Sie finden Berichte über unglückliche Zufälle, keine Spur von einem Muster.\n\nWas tun Sie?\n[ZEIT_VERGEHT: 1h]\n[TAGESZEIT: 10:00]\n[FERTIGKEIT_GENUTZT: Bibliotheksnutzung]",
+      "response_chars": 266,
+      "response_sentences": 4,
+      "latency_ms": 6839.5543999940855,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT",
+        "TAGESZEIT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich untersuche die Kirchenakten auf Hinweise.",
+      "keeper_response": "Sie verlassen das staubige Zeitungsarchiv. Die Fahrt führt Sie quer durch die Stadt. Ein formales Gebäude aus grauem Stein erhebt sich vor Ihnen.\n\nDie Hall of Records empfängt Sie mit kühler Stille. Aktenberge stapeln sich hinter Glasscheiben. Sie müssen die Sterberegister einsehen. [PROBE: Recht | 50]\n[ZEIT_VERGEHT: 0.5h]\n[TAGESZEIT: 10:30]\n[ORT: Hall of Records]",
+      "response_chars": 366,
+      "response_sentences": 6,
+      "latency_ms": 3901.483299996471,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT",
+        "TAGESZEIT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich betrete das Corbitt-Haus und schaue mich im Erdgeschoss um.",
+      "keeper_response": "Sie finden den Eintrag zu Walter Corbitt. Seine Todesursache bleibt vage, doch das Datum ist klar. Eine kleine Randnotiz erregt Ihre Aufmerksamkeit.\n\nEs besagt, dass Corbitt \"nicht auf geweihtem Boden\" beigesetzt wurde. Was unternehmen Sie als Nächstes?\n[ZEIT_VERGEHT: 0.5h]\n[TAGESZEIT: 11:00]\n[FAKT: {\"corbitt_nicht_geweiht\": true}]\n[FERTIGKEIT_GENUTZT: Recht]",
+      "response_chars": 361,
+      "response_sentences": 5,
+      "latency_ms": 33.62180000112858,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT",
+        "TAGESZEIT",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "module": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "case_id": 2,
+  "case_name": "investigation",
+  "expected_tags": {
+    "PROBE": 3,
+    "FERTIGKEIT_GENUTZT": 1,
+    "FAKT": 1
+  },
+  "total_turns": 5,
+  "total_latency_ms": 6900.915900005202,
+  "avg_latency_ms": 1380.1831800010405,
+  "avg_response_chars": 288.6,
+  "avg_sentences": 5.6,
+  "total_probes": 2,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich nehme den Auftrag an und gehe ins Zeitungsarchiv.",
+      "keeper_response": "Sie nehmen den Auftrag an. Knott nickt zufrieden. Seine Augen bleiben dabei unergründlich.\n\nSie verlassen sein Büro. Der Morgenwind weht durch die Straßen von Boston. Eine kurze Fahrt bringt Sie zum Zeitungsarchiv.\n\nEin dumpfer Geruch von altem Papier liegt in der Luft. Hohe Regale voller gebundener Bände erstrecken sich bis zur Decke. Ein leises Rascheln von Seiten erfüllt den Raum. Was suchen Sie zuerst? [ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 430,
+      "response_sentences": 10,
+      "latency_ms": 2712.7353999967454,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich recherchiere alte Berichte ueber das Corbitt-Haus.",
+      "keeper_response": "Das Zeitungsarchiv empfängt Sie mit einem Geruch nach Staub und vergilbtem Papier. Reihen von gebundenen Bänden erstrecken sich bis zur hohen Decke. Sie beginnen Ihre Suche nach Berichten über das Corbitt-Haus. [ZEIT_VERGEHT: 2h] [PROBE: Bibliotheksnutzung | 55]",
+      "response_chars": 262,
+      "response_sentences": 3,
+      "latency_ms": 1647.5046000050497,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich pruefe die Sterberegister nach Walter Corbitt.",
+      "keeper_response": "Sie blättern durch unzählige alte Ausgaben. Ein Patzer. Ihre Konzentration schwindet.\n\nDie Zeit verrinnt nutzlos. Sie finden keine relevanten Artikel über das Corbitt-Haus. [FERTIGKEIT_GENUTZT: Bibliotheksnutzung] [ZEIT_VERGEHT: 1h]\n\nWas tun Sie als Nächstes?",
+      "response_chars": 259,
+      "response_sentences": 6,
+      "latency_ms": 304.82219999976223,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich untersuche die Kirchenakten auf Hinweise.",
+      "keeper_response": "Ihr bisheriger Versuch verläuft im Sand. Die Nachmittagssonne scheint durch die hohen Fenster.\n\nSie begeben sich stattdessen zur Hall of Records. Der Geruch von Papier und Tinte liegt in der kühlen Luft.\n\nWas unternehmen Sie dort? [ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 251,
+      "response_sentences": 5,
+      "latency_ms": 519.5291999989422,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich betrete das Corbitt-Haus und schaue mich im Erdgeschoss um.",
+      "keeper_response": "Sie tauchen in die staubigen Kirchenakten ein. Die Seiten sind dünn und brüchig. Namen und Daten verschwimmen vor Ihren Augen.\n\nSie suchen nach Ungereimtheiten in den alten Registern der Kirchgemeinden. [ZEIT_VERGEHT: 1h] [PROBE: Recht | 45]",
+      "response_chars": 241,
+      "response_sentences": 4,
+      "latency_ms": 1716.3245000047027,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

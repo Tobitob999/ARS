@@ -1,0 +1,20 @@
+{
+  "id": "add_training_party",
+  "name": "Die Schinder-Truppe",
+  "compatible_rulesets": ["add_2e"],
+
+  "members": [
+    "add_train_fighter",
+    "add_train_paladin",
+    "add_train_cleric",
+    "add_train_ranger",
+    "add_train_mage",
+    "add_train_thief"
+  ],
+
+  "formation": "AGGRESSIVE MARSCHORDNUNG:\n\nVORDERE REIHE (Nahkampf): Grimjaw Eisenfaust (links) + Sir Kael Zornesklinge (rechts)\n  - Beide stuerzen sich auf den naechsten Gegner. Kein Warten.\n\nMITTLERE REIHE (Feuerkraft): Bruder Mordain (links) + Varn Wildtoeter (rechts)\n  - Mordain: Spiritual Hammer + Streitkolben. Varn: Bogen, dann Dual-Wield.\n\nHINTERE REIHE (Zerstoerung): Pyra Flammenherz (links) + Shade Klingenschatten (rechts)\n  - Pyra: Fireball auf alles. Shade: Schleicht fuer Backstab.\n\nTAKTIK: ANGRIFF IST DIE BESTE VERTEIDIGUNG. Monster sterben schneller als sie Schaden verursachen koennen.",
+
+  "group_funds": "108 GP gemeinsame Kasse + Gruppenverbrauchsgueter: 6x Potion of Healing, 2x Potion of Extra-Healing, 1x Potion of Invisibility, 3x Holy Water, 6x Oil Flasks.",
+
+  "notes": "TRAINING PARTY: Aggressive Zusammenstellung fuer maximale Kampfdichte und Tag-Erzeugung. Alle Mitglieder sind kampfbetont — kein diplomatischer Ansatz, kein Verhandeln. Jeder Kampf wird sofort und maximal aggressiv gefuehrt. Ziel: Moeglichst viele [PROBE:], [ANGRIFF:] und [HP_VERLUST:] Tags pro Zug erzeugen."
+}

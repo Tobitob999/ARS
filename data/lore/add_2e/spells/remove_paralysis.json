@@ -33,16 +33,14 @@
       "name": "Remove Paralysis",
       "canonical_name_guess": null,
       "school_or_type": "Abjuration",
-      "range": null,
+      "range": "10 yards/level",
       "components": "V, S",
       "duration": "Permanent",
       "casting_time": "6",
-      "area_of_effect": "ld4 creatures in a 20' cube",
+      "area_of_effect": "1d4 creatures in a 20' cube",
       "saving_throw": "None",
       "description_excerpt": "By the use of this spell, the priest can free one or more creatures from the effects of any paralyzation or from related magic (such as a ghoul touch, or a hold or slow spell). If the spell is cast on one creature, the paralyzation is negated. If cast on two crea- tures, each receives another saving throw vs. the effect that afflicts it, with a +4 bo- nus. If cast on three or four creatures, each receives another saving throw with a +2 bonus. There must be no physical or magi- cal bamer between the caster and the crea- tures to be affected, or the spell fails and is wasted."
     },
-    "quality_flags": [
-      "missing_standard_fields"
-    ]
+    "quality_flags": []
   }
 }

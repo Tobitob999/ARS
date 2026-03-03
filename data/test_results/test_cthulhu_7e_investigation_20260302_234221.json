@@ -1,0 +1,131 @@
+{
+  "module": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "case_id": 2,
+  "case_name": "investigation",
+  "expected_tags": {
+    "PROBE": 3,
+    "FERTIGKEIT_GENUTZT": 1,
+    "FAKT": 1
+  },
+  "total_turns": 5,
+  "total_latency_ms": 7302.228000007744,
+  "avg_latency_ms": 1460.4456000015489,
+  "avg_response_chars": 369.2,
+  "avg_sentences": 5.6,
+  "total_probes": 2,
+  "total_combat_tags": 0,
+  "total_stat_changes": 1,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich nehme den Auftrag an und gehe ins Zeitungsarchiv.",
+      "keeper_response": "Eine schwere Entscheidung. Die Welt wird nie wieder dieselbe sein. Sie verlassen Knotts Buero. [ZEIT_VERGEHT: 0.5h]\n\nSie finden sich im Zeitungsarchiv wieder. Der Geruch von altem Papier und Staub liegt in der Luft. Hohe Regale voller gebundener Jahrgaenge ragen in die Hoehe.\n\nWas tun Sie? [TAGESZEIT: 08:30]\n[FAKT: {\"auftrag_angenommen\": true}]\n[AKTUELLER_ORT: Zeitungsarchiv]",
+      "response_chars": 378,
+      "response_sentences": 7,
+      "latency_ms": 1372.823800003971,
+      "tags_found": [
+        "ZEIT_VERGEHT",
+        "TAGESZEIT",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich recherchiere alte Berichte ueber das Corbitt-Haus.",
+      "keeper_response": "Der Staub in den Regalen laesst Ihre Nasenschleimhaeute kribbeln. Tausende von vergilbten Seiten warten. Sie beginnen die Suche nach der Sheafe Street 20. [ZEIT_VERGEHT: 0.5h]\n[PROBE: Bibliotheksnutzung | 55]\n[TAGESZEIT: 09:00]",
+      "response_chars": 227,
+      "response_sentences": 3,
+      "latency_ms": 2168.274299998302,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT",
+        "TAGESZEIT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich pruefe die Sterberegister nach Walter Corbitt.",
+      "keeper_response": "Sie finden schnell, was Sie suchen. Ein Bund vergilbter Zeitungsartikel handelt von der 20 Sheafe Street. Viele tragische Unfälle.\n\nJeder Mieter verschwand oder verfiel dem Wahnsinn. Die Muster der Ereignisse sind seltsam. Keine banale Ursache erkennbar. [FAKT: {\"zeitung_unfaelle\": true}]\n[STABILITAET_VERLUST: 0/0]\n[FERTIGKEIT_GENUTZT: Bibliotheksnutzung]\nWas ist Ihr naechster Schritt? [ZEIT_VERGEHT: 1h]\n[TAGESZEIT: 10:00]",
+      "response_chars": 426,
+      "response_sentences": 7,
+      "latency_ms": 454.93720000376925,
+      "tags_found": [
+        "STABILITAET_VERLUST",
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT",
+        "TAGESZEIT",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 1,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich untersuche die Kirchenakten auf Hinweise.",
+      "keeper_response": "Sie verlassen das staubige Zeitungsarchiv. Die Schritte fuehren Sie zum Hall of Records. [ZEIT_VERGEHT: 0.5h]\n\nDort herrscht eine kuehle, formale Atmosphaere. Der Geruch von Papier und Stempelfarbe liegt in der Luft. Sie bitten um Einsicht in die Sterberegister. [TAGESZEIT: 10:30]\n[PROBE: Recht | 40]",
+      "response_chars": 301,
+      "response_sentences": 5,
+      "latency_ms": 1244.375400005083,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT",
+        "TAGESZEIT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich betrete das Corbitt-Haus und schaue mich im Erdgeschoss um.",
+      "keeper_response": "Der Beamte blickt Sie mit grossen Augen an. Er uebergibt Ihnen umgehend die Akte.\n\nDie Eintragung zu Walter Corbitt ist ungewoehnlich detailliert. Sie zeigt: Corbitt wurde 1901 verstorben, beigesetzt auf privatem Grund. Ein Vermerk besagt, dies sei auf ausdruecklichen Wunsch \"der Familie\" geschehen, ungeachtet kirchlicher Einwaende. [ZEIT_VERGEHT: 0.5h]\n[TAGESZEIT: 11:00]\n[FAKT: {\"corbitt_sterbeeintrag_gefunden\": true, \"corbitt_ungeweiht_bestattet\": true}]\n[FERTIGKEIT_GENUTZT: Recht]\nWas tun Sie als Nächstes?",
+      "response_chars": 514,
+      "response_sentences": 6,
+      "latency_ms": 2061.817299996619,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT",
+        "TAGESZEIT",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

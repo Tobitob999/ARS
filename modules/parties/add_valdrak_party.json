@@ -1,0 +1,20 @@
+{
+  "id": "add_valdrak_party",
+  "name": "Die Valdrak-Expedition",
+  "compatible_rulesets": ["add_2e"],
+
+  "members": [
+    "add_party_fighter",
+    "add_party_paladin",
+    "add_party_cleric",
+    "add_party_ranger",
+    "add_party_mage",
+    "add_party_thief"
+  ],
+
+  "formation": "MARSCHORDNUNG (Standard-Dungeon, 10ft breiter Gang):\n\nVORDERE REIHE (Melee): Thorin Eisenschild (links) + Sir Aldric von Strahlenburg (rechts)\n  - Beide in Vollplatte mit Schild, AC 2 und AC 1. Blocken den Gang.\n  - Thorin: Battle Axe +1 (Spezialisierung). Aldric: Holy Sword +2 Strahlenbringer.\n\nMITTLERE REIHE (Support/Ranged): Bruder Aldhelm (links) + Kaelen Windlaeufer (rechts)\n  - Aldhelm: Plate+Shield AC 2, Heilzauber, Turn Undead, Mace +1 als Backup.\n  - Kaelen: Longbow +1 schiesst ueber die Koepfe der Tanks. Long+Short Sword wenn Feinde durchbrechen.\n\nHINTERE REIHE (Casters/Scout): Elara Sternenlicht (links) + Lyra Schattenklinge (rechts)\n  - Elara: Zauberin, bleibt geschuetzt. Fireball/Lightning Bolt bei Bedarf.\n  - Lyra: Schleicht voraus fuer Aufklaerung (30ft), kehrt zurueck, meldet Fallen und Feinde.\n\nAUFKLAERUNG: Lyra geht 30ft voraus, prueft Fallen/Fallen/Schluesser. Meldet per Handzeichen.\nENGE GAENGE: Einerreihe — Thorin, Aldric, Aldhelm, Kaelen, Elara, Lyra.\nOFFENES GELAENDE: Kreis-Formation, Caster in der Mitte.\nRUECKZUG: Kaelen und Thorin decken, Aldhelm heilt, Elara/Lyra zuerst raus.\n\nNACHTWACHE: 3 Schichten a 4 Stunden:\n  Schicht 1: Thorin + Lyra (Infravisio + Horchen)\n  Schicht 2: Kaelen + Aldric (Ranger-Wachsamkeit + Detect Evil)\n  Schicht 3: Aldhelm + Elara (Detect Magic + Infravision)",
+
+  "group_funds": "127 GP gemeinsame Kasse (22+25+15+12+20+14 individuelle GP + 19 GP Gruppenreserve). Zusaetzlich: Gemeinsame Verbrauchsgueter — 6x Potion of Healing, 2x Potion of Extra-Healing, 1x Potion of Invisibility, 3x Holy Water, 3x Oil Flasks, 1x Scroll of Protection from Undead, 1x Scroll of Fireball. Alle Schaetze werden nach Rueckkehr aufgeteilt: gleiche Anteile fuer alle 6, Paladin spendet 10% an die Armen.",
+
+  "notes": "Die Valdrak-Expedition ist eine ausgewogene 6-Personen-Party fuer den toedlichsten Dungeon-Crawl der Region. Zusammengestellt von Magister Elric persoenlich nach dem Verlust der ersten Gruppe. STAERKEN: Zwei Fronkaempfer (Tank+Off-Tank), ein Heiler, eine Zauberin, ein Schuetze, eine Spezialistin — alle Dungeon-Rollen abgedeckt. Mehrere magische Waffen fuer Wights und den Lich. Feuer-Resourcen fuer den Troll (Oil Flasks, Feuerstab, Fireball-Zauber). Gute Rettungswuerfe dank Paladin-Aura und Zwerg/Halfling-Boni. SCHWAECHEN: Elara hat nur 18 HP — ein Treffer kann sie toeten. Kein Ersatz-Heiler wenn Aldhelm faellt. Begrenzte Zaubersprueche pro Tag — langer Dungeon erfordert Ressourcen-Management. Die Gruppe kennt sich erst seit einer Woche — Vertrauen muss erst wachsen."
+}

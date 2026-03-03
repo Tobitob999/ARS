@@ -1,7 +1,7 @@
 {
   "schema_version": "1.2.1",
-  "id": "affect_normal_flrer",
-  "name": "Affect Normal Flrer",
+  "id": "affect_normal_fire",
+  "name": "Affect Normal Fire",
   "compatible_rulesets": [
     "add_2e"
   ],
@@ -12,7 +12,7 @@
     "player_handbook",
     "appendix_conversion"
   ],
-  "summary": "Affect Normal Flrer (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "summary": "Affect Normal Fire (Alteration) aus dem AD&D 2e Player's Handbook.",
   "source_text": {
     "book": "Player's Handbook (2nd Edition)",
     "appendix": null,
@@ -30,19 +30,17 @@
     "school_or_type": "Alteration",
     "parser": "header_block_v3_1",
     "spell_card": {
-      "name": "Affect Normal Flrer",
-      "canonical_name_guess": "Affect Normal Fire",
+      "name": "Affect Normal Fire",
+      "canonical_name_guess": null,
       "school_or_type": "Alteration",
-      "range": "5 yarddlevel",
+      "range": "5 yards/level",
       "components": "V, S",
-      "duration": "2 roundsllevel",
+      "duration": "2 rounds/level",
       "casting_time": "1",
       "area_of_effect": "10-foot radius",
       "saving_throw": "None",
       "description_excerpt": "caster can also extinguish all flames in the area, which expends the spell immediately. The spell does not affect fire elementals or similar creatures."
     },
-    "quality_flags": [
-      "canonical_name_guess_applied"
-    ]
+    "quality_flags": []
   }
 }

@@ -1,0 +1,124 @@
+{
+  "module": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "case_id": 2,
+  "case_name": "investigation",
+  "expected_tags": {
+    "PROBE": 3,
+    "FERTIGKEIT_GENUTZT": 1,
+    "FAKT": 1
+  },
+  "total_turns": 5,
+  "total_latency_ms": 12456.139499998244,
+  "avg_latency_ms": 2491.227899999649,
+  "avg_response_chars": 282.6,
+  "avg_sentences": 4.6,
+  "total_probes": 3,
+  "total_combat_tags": 0,
+  "total_stat_changes": 1,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich nehme den Auftrag an und gehe ins Zeitungsarchiv.",
+      "keeper_response": "Ein Nicken von Mr. Knott. Seine Lippen formen ein stummes \"Diskretion\". Die kalte Luft des Büros weicht der Hektik Bostons.\nDie Stadt erwacht langsam. Du erreichst das Zeitungsarchiv. Es riecht nach altem Papier und feinem Staub.\nWas suchst du dort zuerst? [ZEIT_VERGEHT: 0.5h] [FAKT: {\"auftrag_angenommen\": true}] [ORT: Zeitungsarchiv]",
+      "response_chars": 336,
+      "response_sentences": 8,
+      "latency_ms": 1579.6451000060188,
+      "tags_found": [
+        "ZEIT_VERGEHT",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich recherchiere alte Berichte ueber das Corbitt-Haus.",
+      "keeper_response": "Dicker Staub tanzt im Lichtstrahl, der durch die hohen Fenster fällt. Der Geruch von altem Papier liegt schwer in der Luft. Über Stunden blätterst du durch vergilbte Zeitungsstapel. [ZEIT_VERGEHT: 1h] [PROBE: Bibliotheksnutzung | 50]",
+      "response_chars": 233,
+      "response_sentences": 3,
+      "latency_ms": 2814.0541999964626,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich pruefe die Sterberegister nach Walter Corbitt.",
+      "keeper_response": "Deine Augen schmerzen vom Lesen der winzigen Schrift. Du findest mehrere Berichte über die 20 Sheafe Street. Viele handeln von bizarren Unfällen und plötzlichen Auszügen. Die Ereignisse wiederholen sich. Es gibt keine banale Erklärung dafür. [FERTIGKEIT_GENUTZT: Bibliotheksnutzung] [FAKT: {\"unfallmeldungen_gefunden\": true}] [STABILITAET_VERLUST: 0/0]\nWas tust du als Nächstes?",
+      "response_chars": 378,
+      "response_sentences": 6,
+      "latency_ms": 434.6019000004162,
+      "tags_found": [
+        "STABILITAET_VERLUST",
+        "FERTIGKEIT_GENUTZT",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 1,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 0,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich untersuche die Kirchenakten auf Hinweise.",
+      "keeper_response": "Die staubigen Zeitungsberge weichen den kühlen, formalen Gängen. Du betrittst die Hall of Records. Der Geruch von Papier und Stempelkissen füllt die Luft. [ZEIT_VERGEHT: 0.5h] [ORT: Hall of Records] [PROBE: Recht | 40]",
+      "response_chars": 218,
+      "response_sentences": 3,
+      "latency_ms": 1231.887199995981,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich betrete das Corbitt-Haus und schaue mich im Erdgeschoss um.",
+      "keeper_response": "Du bittest um Zugang zu den Kirchenregistern. Ein mürrischer Angestellter verweist dich an einen hinteren Raum voller ledergebundener Bände. Der Staub in diesem Teil des Archivs ist noch dicker. [ZEIT_VERGEHT: 0.5h] [PROBE: Bibliotheksnutzung | 50]",
+      "response_chars": 248,
+      "response_sentences": 3,
+      "latency_ms": 6395.951099999365,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

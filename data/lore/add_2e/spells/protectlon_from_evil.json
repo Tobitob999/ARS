@@ -1,7 +1,7 @@
 {
   "schema_version": "1.2.1",
-  "id": "protectlon_from_evil",
-  "name": "Protectlon From Evil",
+  "id": "protection_from_evil_wizard",
+  "name": "Protection From Evil",
   "compatible_rulesets": [
     "add_2e"
   ],
@@ -12,7 +12,7 @@
     "player_handbook",
     "appendix_conversion"
   ],
-  "summary": "Protectlon From Evil (Abjuration) aus dem AD&D 2e Player's Handbook.",
+  "summary": "Protection From Evil (Abjuration) aus dem AD&D 2e Player's Handbook. Wizard version (PHB p.137). Reversible to Protection From Good.",
   "source_text": {
     "book": "Player's Handbook (2nd Edition)",
     "appendix": 3,
@@ -30,19 +30,19 @@
     "school_or_type": "Abjuration",
     "parser": "header_block_v3_1",
     "spell_card": {
-      "name": "Protectlon From Evil",
+      "name": "Protection From Evil",
       "canonical_name_guess": null,
       "school_or_type": "Abjuration",
       "range": "Touch",
-      "components": null,
-      "duration": "z rounddlevel",
+      "components": "V, S, M",
+      "duration": "2 rounds/level",
       "casting_time": "1",
       "area_of_effect": "Creature touched",
       "saving_throw": "None",
-      "description_excerpt": ""
+      "description_excerpt": "Creates a magical barrier 1 foot from recipient. Effects: -2 penalty to evil creatures' attack rolls against recipient, +2 bonus to saving throws; blocks mental control/possession; blocks bodily contact by conjured/extraplanar creatures. Ends if recipient attacks blocked creature."
     },
     "quality_flags": [
-      "missing_standard_fields"
+      "ocr_name_corrected"
     ]
   }
 }

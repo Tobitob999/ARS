@@ -1,0 +1,124 @@
+{
+  "module": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "case_id": 2,
+  "case_name": "investigation",
+  "expected_tags": {
+    "PROBE": 3,
+    "FERTIGKEIT_GENUTZT": 1,
+    "FAKT": 1
+  },
+  "total_turns": 5,
+  "total_latency_ms": 8166.866300001857,
+  "avg_latency_ms": 1633.3732600003714,
+  "avg_response_chars": 257.4,
+  "avg_sentences": 5.0,
+  "total_probes": 2,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich nehme den Auftrag an und gehe ins Zeitungsarchiv.",
+      "keeper_response": "Mr. Knott nickt knapp. [STIMME:scholar] \"Diskretion ist alles. Sie finden die Adresse auf dem Dossier.\" [STIMME:keeper] Er schiebt Ihnen ein schmales Kuvert ueber den Schreibtisch. Sie verlassen das Buerogebaeude.\n\nDie Strassen Arkhams erwachen langsam. Der Duft von Kaffee und Abgasen mischt sich. Sie erreichen das staedtische Zeitungsarchiv. Ein Ort der stillen Geschichten.\n\nWas suchen Sie in den alten Zeitungsbaenden? [FAKT: {\"auftrag_angenommen\": true}] [ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 481,
+      "response_sentences": 10,
+      "latency_ms": 1828.632500000822,
+      "tags_found": [
+        "ZEIT_VERGEHT",
+        "FAKT",
+        "STIMME"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich recherchiere alte Berichte ueber das Corbitt-Haus.",
+      "keeper_response": "Sie erreichen das staubige Zeitungsarchiv. Der Geruch von altem Papier liegt schwer in der Luft. Ihre Suche beginnt in den vergilbten Akten. [PROBE: Bibliotheksnutzung | 50] [ZEIT_VERGEHT: 1h]",
+      "response_chars": 192,
+      "response_sentences": 3,
+      "latency_ms": 2942.149000002246,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich pruefe die Sterberegister nach Walter Corbitt.",
+      "keeper_response": "Stunden vergehen im Meer der Worte. Ihre Augen überfliegen Zeilen voller Belanglosigkeiten. Die relevanten Hinweise bleiben verborgen. Was tust du? [FERTIGKEIT_GENUTZT: Bibliotheksnutzung] [ZEIT_VERGEHT: 1h]",
+      "response_chars": 207,
+      "response_sentences": 4,
+      "latency_ms": 1518.9849000016693,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich untersuche die Kirchenakten auf Hinweise.",
+      "keeper_response": "Sie verlassen das Archiv. Die staedtischen Register sind Ihr naechstes Ziel. Der Geruch von Papier und Stempelfarbe empfaengt Sie.\n\nSie suchen nach dem Eintrag von Walter Corbitt. [PROBE: Recht | 40] [ZEIT_VERGEHT: 1h]",
+      "response_chars": 218,
+      "response_sentences": 4,
+      "latency_ms": 1649.9879999973928,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich betrete das Corbitt-Haus und schaue mich im Erdgeschoss um.",
+      "keeper_response": "Die Liste der Verstorbenen ist endlos. Name reiht sich an Name. Corbitts Eintrag bleibt unauffindbar in den verschlungenen Akten. Was tun Sie? [FERTIGKEIT_GENUTZT: Recht] [ZEIT_VERGEHT: 1h]",
+      "response_chars": 189,
+      "response_sentences": 4,
+      "latency_ms": 227.11189999972703,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

@@ -1,56 +1,311 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "2.0.0",
   "id": "add_2e_tables",
   "name": "AD&D 2nd Edition — Lookup Tables",
   "category": "ruleset_tables",
-  "tags": ["add_2e", "tables", "thac0", "saving_throws", "xp", "combat"],
-  "summary": "Maschinenlesbare Regeltabellen fuer die AD&D 2e Rule Engine. Extrahiert aus dem Player's Handbook.",
+  "tags": [
+    "add_2e",
+    "tables",
+    "thac0",
+    "saving_throws",
+    "xp",
+    "combat",
+    "attributes",
+    "weapons",
+    "spells",
+    "equipment"
+  ],
+  "summary": "Maschinenlesbare Regeltabellen fuer die AD&D 2e Rule Engine. Extrahiert aus dem Player's Handbook. v2: Attribut-Boni, Waffentabellen, Zauberschlitze, Turn Undead, NWP, Ausruestungskatalog.",
   "source": "Player's Handbook (2nd Edition), TSR 2101",
-
   "thac0_by_group": {
     "_comment": "Table 53: THAC0 nach Klassengruppe und Level (Index = Level-1). Level 1-20.",
-    "warrior": [20,19,18,17,16,15,14,13,12,11,10, 9, 8, 7, 6, 5, 4, 3, 2, 1],
-    "priest":  [20,20,20,18,18,18,16,16,16,14,14,14,12,12,12,10,10,10, 8, 8],
-    "rogue":   [20,20,19,19,18,18,17,17,16,16,15,15,14,14,13,13,12,12,11,11],
-    "wizard":  [20,20,20,19,19,19,18,18,18,17,17,17,16,16,16,15,15,15,14,14]
+    "warrior": [
+      20,
+      19,
+      18,
+      17,
+      16,
+      15,
+      14,
+      13,
+      12,
+      11,
+      10,
+      9,
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+    ],
+    "priest": [
+      20,
+      20,
+      20,
+      18,
+      18,
+      18,
+      16,
+      16,
+      16,
+      14,
+      14,
+      14,
+      12,
+      12,
+      12,
+      10,
+      10,
+      10,
+      8,
+      8
+    ],
+    "rogue": [
+      20,
+      20,
+      19,
+      19,
+      18,
+      18,
+      17,
+      17,
+      16,
+      16,
+      15,
+      15,
+      14,
+      14,
+      13,
+      13,
+      12,
+      12,
+      11,
+      11
+    ],
+    "wizard": [
+      20,
+      20,
+      20,
+      19,
+      19,
+      19,
+      18,
+      18,
+      18,
+      17,
+      17,
+      17,
+      16,
+      16,
+      16,
+      15,
+      15,
+      15,
+      14,
+      14
+    ]
   },
-
   "saving_throws": {
     "_comment": "Table 60: Rettungswuerfe. Spalten: [Para/Poison, Rod/Staff/Wand, Petrif/Polymorph, Breath, Spell]. Jeder Key = Level-Range.",
     "warrior": {
-      "1-2":   [14,16,15,17,17],
-      "3-4":   [13,15,14,16,16],
-      "5-6":   [11,13,12,13,14],
-      "7-8":   [10,12,11,12,13],
-      "9-10":  [ 8,10, 9,  9,11],
-      "11-12": [ 7, 9, 8,  8,10],
-      "13-14": [ 5, 7, 6,  5, 8],
-      "15-16": [ 4, 6, 5,  4, 7],
-      "17+":   [ 3, 5, 4,  4, 6]
+      "1-2": [
+        14,
+        16,
+        15,
+        17,
+        17
+      ],
+      "3-4": [
+        13,
+        15,
+        14,
+        16,
+        16
+      ],
+      "5-6": [
+        11,
+        13,
+        12,
+        13,
+        14
+      ],
+      "7-8": [
+        10,
+        12,
+        11,
+        12,
+        13
+      ],
+      "9-10": [
+        8,
+        10,
+        9,
+        9,
+        11
+      ],
+      "11-12": [
+        7,
+        9,
+        8,
+        8,
+        10
+      ],
+      "13-14": [
+        5,
+        7,
+        6,
+        5,
+        8
+      ],
+      "15-16": [
+        4,
+        6,
+        5,
+        4,
+        7
+      ],
+      "17+": [
+        3,
+        5,
+        4,
+        4,
+        6
+      ]
     },
     "priest": {
-      "1-3":   [10,14,13,16,15],
-      "4-6":   [ 9,13,12,15,14],
-      "7-9":   [ 7,11,10,13,12],
-      "10-12": [ 6,10, 9,12,11],
-      "13-15": [ 5, 9, 8,11,10],
-      "16-18": [ 4, 8, 7,10, 9],
-      "19+":   [ 2, 6, 5, 8, 7]
+      "1-3": [
+        10,
+        14,
+        13,
+        16,
+        15
+      ],
+      "4-6": [
+        9,
+        13,
+        12,
+        15,
+        14
+      ],
+      "7-9": [
+        7,
+        11,
+        10,
+        13,
+        12
+      ],
+      "10-12": [
+        6,
+        10,
+        9,
+        12,
+        11
+      ],
+      "13-15": [
+        5,
+        9,
+        8,
+        11,
+        10
+      ],
+      "16-18": [
+        4,
+        8,
+        7,
+        10,
+        9
+      ],
+      "19+": [
+        2,
+        6,
+        5,
+        8,
+        7
+      ]
     },
     "rogue": {
-      "1-4":   [13,14,12,16,15],
-      "5-8":   [12,12,11,15,13],
-      "9-12":  [11,10,10,14,11],
-      "13-16": [10, 8, 9,13, 9],
-      "17-20": [ 9, 6, 8,12, 7],
-      "21+":   [ 8, 4, 7,11, 5]
+      "1-4": [
+        13,
+        14,
+        12,
+        16,
+        15
+      ],
+      "5-8": [
+        12,
+        12,
+        11,
+        15,
+        13
+      ],
+      "9-12": [
+        11,
+        10,
+        10,
+        14,
+        11
+      ],
+      "13-16": [
+        10,
+        8,
+        9,
+        13,
+        9
+      ],
+      "17-20": [
+        9,
+        6,
+        8,
+        12,
+        7
+      ],
+      "21+": [
+        8,
+        4,
+        7,
+        11,
+        5
+      ]
     },
     "wizard": {
-      "1-5":   [14,11,13,15,12],
-      "6-10":  [13, 9,11,13,10],
-      "11-15": [11, 7, 9,11, 8],
-      "16-20": [10, 5, 7, 9, 6],
-      "21+":   [ 8, 3, 5, 7, 4]
+      "1-5": [
+        14,
+        11,
+        13,
+        15,
+        12
+      ],
+      "6-10": [
+        13,
+        9,
+        11,
+        13,
+        10
+      ],
+      "11-15": [
+        11,
+        7,
+        9,
+        11,
+        8
+      ],
+      "16-20": [
+        10,
+        5,
+        7,
+        9,
+        6
+      ],
+      "21+": [
+        8,
+        3,
+        5,
+        7,
+        4
+      ]
     },
     "save_types": [
       "paralyzation_poison_death",
@@ -60,129 +315,3152 @@
       "spell"
     ]
   },
-
   "xp_tables": {
     "_comment": "XP-Schwellen fuer Stufenaufstieg. Tables 14, 20, 23, 25. Index = Level-1.",
-    "fighter":  [0, 2000, 4000, 8000, 16000, 32000, 64000, 125000, 250000, 500000, 750000, 1000000, 1250000, 1500000, 1750000, 2000000, 2250000, 2500000, 2750000, 3000000],
-    "paladin":  [0, 2250, 4500, 9000, 18000, 36000, 75000, 150000, 300000, 600000, 900000, 1200000, 1500000, 1800000, 2100000, 2400000, 2700000, 3000000, 3300000, 3600000],
-    "ranger":   [0, 2250, 4500, 9000, 18000, 36000, 75000, 150000, 300000, 600000, 900000, 1200000, 1500000, 1800000, 2100000, 2400000, 2700000, 3000000, 3300000, 3600000],
-    "cleric":   [0, 1500, 3000, 6000, 13000, 27500, 55000, 110000, 225000, 450000, 675000, 900000, 1125000, 1350000, 1575000, 1800000, 2025000, 2250000, 2475000, 2700000],
-    "druid":    [0, 2000, 4000, 7500, 12500, 20000, 35000, 60000, 90000, 125000, 200000, 300000, 750000, 1500000, 3000000, 3500000, 500000, 1000000, 1500000, 2000000],
-    "thief":    [0, 1250, 2500, 5000, 10000, 20000, 40000, 70000, 110000, 160000, 220000, 440000, 660000, 880000, 1100000, 1320000, 1540000, 1760000, 1980000, 2200000],
-    "bard":     [0, 1250, 2500, 5000, 10000, 20000, 40000, 70000, 110000, 160000, 220000, 440000, 660000, 880000, 1100000, 1320000, 1540000, 1760000, 1980000, 2200000],
-    "mage":     [0, 2500, 5000, 10000, 20000, 40000, 60000, 90000, 135000, 250000, 375000, 750000, 1125000, 1500000, 1875000, 2250000, 2625000, 3000000, 3375000, 3750000],
-    "illusionist": [0, 2250, 4500, 9000, 18000, 35000, 60000, 95000, 145000, 220000, 440000, 660000, 880000, 1100000, 1320000, 1540000, 1760000, 1980000, 2200000, 2420000]
+    "fighter": [
+      0,
+      2000,
+      4000,
+      8000,
+      16000,
+      32000,
+      64000,
+      125000,
+      250000,
+      500000,
+      750000,
+      1000000,
+      1250000,
+      1500000,
+      1750000,
+      2000000,
+      2250000,
+      2500000,
+      2750000,
+      3000000
+    ],
+    "paladin": [
+      0,
+      2250,
+      4500,
+      9000,
+      18000,
+      36000,
+      75000,
+      150000,
+      300000,
+      600000,
+      900000,
+      1200000,
+      1500000,
+      1800000,
+      2100000,
+      2400000,
+      2700000,
+      3000000,
+      3300000,
+      3600000
+    ],
+    "ranger": [
+      0,
+      2250,
+      4500,
+      9000,
+      18000,
+      36000,
+      75000,
+      150000,
+      300000,
+      600000,
+      900000,
+      1200000,
+      1500000,
+      1800000,
+      2100000,
+      2400000,
+      2700000,
+      3000000,
+      3300000,
+      3600000
+    ],
+    "cleric": [
+      0,
+      1500,
+      3000,
+      6000,
+      13000,
+      27500,
+      55000,
+      110000,
+      225000,
+      450000,
+      675000,
+      900000,
+      1125000,
+      1350000,
+      1575000,
+      1800000,
+      2025000,
+      2250000,
+      2475000,
+      2700000
+    ],
+    "druid": [
+      0,
+      2000,
+      4000,
+      7500,
+      12500,
+      20000,
+      35000,
+      60000,
+      90000,
+      125000,
+      200000,
+      300000,
+      750000,
+      1500000,
+      3000000,
+      3500000,
+      500000,
+      1000000,
+      1500000,
+      2000000
+    ],
+    "thief": [
+      0,
+      1250,
+      2500,
+      5000,
+      10000,
+      20000,
+      40000,
+      70000,
+      110000,
+      160000,
+      220000,
+      440000,
+      660000,
+      880000,
+      1100000,
+      1320000,
+      1540000,
+      1760000,
+      1980000,
+      2200000
+    ],
+    "bard": [
+      0,
+      1250,
+      2500,
+      5000,
+      10000,
+      20000,
+      40000,
+      70000,
+      110000,
+      160000,
+      220000,
+      440000,
+      660000,
+      880000,
+      1100000,
+      1320000,
+      1540000,
+      1760000,
+      1980000,
+      2200000
+    ],
+    "mage": [
+      0,
+      2500,
+      5000,
+      10000,
+      20000,
+      40000,
+      60000,
+      90000,
+      135000,
+      250000,
+      375000,
+      750000,
+      1125000,
+      1500000,
+      1875000,
+      2250000,
+      2625000,
+      3000000,
+      3375000,
+      3750000
+    ],
+    "illusionist": [
+      0,
+      2250,
+      4500,
+      9000,
+      18000,
+      35000,
+      60000,
+      95000,
+      145000,
+      220000,
+      440000,
+      660000,
+      880000,
+      1100000,
+      1320000,
+      1540000,
+      1760000,
+      1980000,
+      2200000,
+      2420000
+    ]
   },
-
   "hit_dice": {
     "_comment": "Trefferwuerfel pro Level. Nach Level 9: feste HP pro Level (no CON bonus).",
-    "warrior":  {"die": "d10", "max_level_die": 9, "fixed_after_9": 3},
-    "priest":   {"die": "d8",  "max_level_die": 9, "fixed_after_9": 2},
-    "rogue":    {"die": "d6",  "max_level_die": 10, "fixed_after_10": 2},
-    "wizard":   {"die": "d4",  "max_level_die": 10, "fixed_after_10": 1}
+    "warrior": {
+      "die": "d10",
+      "max_level_die": 9,
+      "fixed_after_9": 3
+    },
+    "priest": {
+      "die": "d8",
+      "max_level_die": 9,
+      "fixed_after_9": 2
+    },
+    "rogue": {
+      "die": "d6",
+      "max_level_die": 10,
+      "fixed_after_10": 2
+    },
+    "wizard": {
+      "die": "d4",
+      "max_level_die": 10,
+      "fixed_after_10": 1
+    }
   },
-
   "attacks_per_round": {
     "_comment": "Table 15: Warrior Melee Attacks Per Round.",
     "warrior": [
-      {"levels": "1-6",  "attacks": "1/1"},
-      {"levels": "7-12", "attacks": "3/2"},
-      {"levels": "13+",  "attacks": "2/1"}
+      {
+        "levels": "1-6",
+        "attacks": "1/1"
+      },
+      {
+        "levels": "7-12",
+        "attacks": "3/2"
+      },
+      {
+        "levels": "13+",
+        "attacks": "2/1"
+      }
     ]
   },
-
   "armor_class_table": {
     "_comment": "AC nach Ruestungstyp. Niedrig = besser.",
-    "none":                10,
-    "shield_only":          9,
-    "leather":              8,
-    "padded":               8,
-    "studded_leather":      7,
-    "ring_mail":            7,
-    "scale_mail":           6,
-    "hide":                 6,
-    "chain_mail":           5,
-    "splint_mail":          4,
-    "banded_mail":          4,
-    "bronze_plate":         4,
-    "plate_mail":           3,
-    "field_plate":          2,
-    "full_plate":           1,
-    "shield_bonus":        -1
+    "none": 10,
+    "shield_only": 9,
+    "leather": 8,
+    "padded": 8,
+    "studded_leather": 7,
+    "ring_mail": 7,
+    "scale_mail": 6,
+    "hide": 6,
+    "chain_mail": 5,
+    "splint_mail": 4,
+    "banded_mail": 4,
+    "bronze_plate": 4,
+    "plate_mail": 3,
+    "field_plate": 2,
+    "full_plate": 1,
+    "shield_bonus": -1
   },
-
   "combat_modifiers": {
     "_comment": "Table 51: Situationsmodifikatoren auf Angriffswurf.",
-    "attacker_on_higher_ground":     1,
-    "defender_invisible":           -4,
-    "defender_off_balance":          2,
+    "attacker_on_higher_ground": 1,
+    "defender_invisible": -4,
+    "defender_off_balance": 2,
     "defender_sleeping_or_held": "auto_hit",
-    "defender_stunned_or_prone":     4,
-    "defender_surprised":            1,
-    "missile_medium_range":         -2,
-    "missile_long_range":           -5,
-    "rear_attack":                   2
+    "defender_stunned_or_prone": 4,
+    "defender_surprised": 1,
+    "missile_medium_range": -2,
+    "missile_long_range": -5,
+    "rear_attack": 2
   },
-
   "class_to_group": {
     "_comment": "Zuordnung Klasse → Klassengruppe fuer Tabellen-Lookups.",
-    "fighter":     "warrior",
-    "paladin":     "warrior",
-    "ranger":      "warrior",
-    "cleric":      "priest",
-    "druid":       "priest",
-    "thief":       "rogue",
-    "bard":        "rogue",
-    "mage":        "wizard",
+    "fighter": "warrior",
+    "paladin": "warrior",
+    "ranger": "warrior",
+    "cleric": "priest",
+    "druid": "priest",
+    "thief": "rogue",
+    "bard": "rogue",
+    "mage": "wizard",
     "illusionist": "wizard"
   },
-
   "monster_thac0": {
     "_comment": "THAC0 fuer Monster nach Hit Dice (DMG Table). HD < 1 = THAC0 20.",
     "by_hd": {
       "less_than_1": 20,
-      "1":    20,
-      "1+":   19,
-      "2":    19,
-      "2+":   19,
-      "3":    17,
-      "3+":   17,
-      "4":    17,
-      "4+":   15,
-      "5":    15,
-      "5+":   15,
-      "6":    13,
-      "6+":   13,
-      "7":    13,
-      "8":    12,
-      "9":    12,
-      "10":   10,
-      "11":   10,
-      "12":   9,
-      "13":   9,
-      "14":   8,
-      "15":   7,
-      "16":   5
+      "1": 20,
+      "1+": 19,
+      "2": 19,
+      "2+": 19,
+      "3": 17,
+      "3+": 17,
+      "4": 17,
+      "4+": 15,
+      "5": 15,
+      "5+": 15,
+      "6": 13,
+      "6+": 13,
+      "7": 13,
+      "8": 12,
+      "9": 12,
+      "10": 10,
+      "11": 10,
+      "12": 9,
+      "13": 9,
+      "14": 8,
+      "15": 7,
+      "16": 5
     }
   },
-
   "thieving_skills_base": {
     "_comment": "Table 26: Basis-Prozentsaetze fuer Diebes-Fertigkeiten.",
-    "pick_pockets":      15,
-    "open_locks":        10,
-    "find_remove_traps":  5,
-    "move_silently":     10,
-    "hide_in_shadows":    5,
-    "detect_noise":      15,
-    "climb_walls":       60,
-    "read_languages":     0
+    "pick_pockets": 15,
+    "open_locks": 10,
+    "find_remove_traps": 5,
+    "move_silently": 10,
+    "hide_in_shadows": 5,
+    "detect_noise": 15,
+    "climb_walls": 60,
+    "read_languages": 0
   },
-
   "backstab_multiplier": {
     "_comment": "Table 36: Backstab-Schadensmultiplikator nach Thief-Level.",
-    "1-4":   2,
-    "5-8":   3,
-    "9-12":  4,
-    "13+":   5
-  }
+    "1-4": 2,
+    "5-8": 3,
+    "9-12": 4,
+    "13+": 5
+  },
+  "str_bonuses": {
+    "_comment": "PHB Table 1: Staerke-Boni. Felder: hit_adj, damage_adj, weight_allow (lbs), max_press (lbs), open_doors (d6), bend_bars_pct. Exceptional STR (18/xx) nur fuer Warriors.",
+    "1": {
+      "hit_adj": -5,
+      "damage_adj": -4,
+      "weight_allow": 1,
+      "max_press": 3,
+      "open_doors": 1,
+      "bend_bars_pct": 0
+    },
+    "2": {
+      "hit_adj": -3,
+      "damage_adj": -2,
+      "weight_allow": 1,
+      "max_press": 5,
+      "open_doors": 1,
+      "bend_bars_pct": 0
+    },
+    "3": {
+      "hit_adj": -3,
+      "damage_adj": -1,
+      "weight_allow": 5,
+      "max_press": 10,
+      "open_doors": 2,
+      "bend_bars_pct": 0
+    },
+    "4": {
+      "hit_adj": -2,
+      "damage_adj": -1,
+      "weight_allow": 10,
+      "max_press": 25,
+      "open_doors": 3,
+      "bend_bars_pct": 0
+    },
+    "5": {
+      "hit_adj": -2,
+      "damage_adj": -1,
+      "weight_allow": 10,
+      "max_press": 25,
+      "open_doors": 3,
+      "bend_bars_pct": 0
+    },
+    "6": {
+      "hit_adj": -1,
+      "damage_adj": 0,
+      "weight_allow": 20,
+      "max_press": 55,
+      "open_doors": 4,
+      "bend_bars_pct": 0
+    },
+    "7": {
+      "hit_adj": -1,
+      "damage_adj": 0,
+      "weight_allow": 20,
+      "max_press": 55,
+      "open_doors": 4,
+      "bend_bars_pct": 0
+    },
+    "8": {
+      "hit_adj": 0,
+      "damage_adj": 0,
+      "weight_allow": 35,
+      "max_press": 90,
+      "open_doors": 5,
+      "bend_bars_pct": 1
+    },
+    "9": {
+      "hit_adj": 0,
+      "damage_adj": 0,
+      "weight_allow": 35,
+      "max_press": 90,
+      "open_doors": 5,
+      "bend_bars_pct": 1
+    },
+    "10": {
+      "hit_adj": 0,
+      "damage_adj": 0,
+      "weight_allow": 40,
+      "max_press": 115,
+      "open_doors": 6,
+      "bend_bars_pct": 2
+    },
+    "11": {
+      "hit_adj": 0,
+      "damage_adj": 0,
+      "weight_allow": 40,
+      "max_press": 115,
+      "open_doors": 6,
+      "bend_bars_pct": 2
+    },
+    "12": {
+      "hit_adj": 0,
+      "damage_adj": 0,
+      "weight_allow": 45,
+      "max_press": 140,
+      "open_doors": 7,
+      "bend_bars_pct": 4
+    },
+    "13": {
+      "hit_adj": 0,
+      "damage_adj": 0,
+      "weight_allow": 45,
+      "max_press": 140,
+      "open_doors": 7,
+      "bend_bars_pct": 4
+    },
+    "14": {
+      "hit_adj": 0,
+      "damage_adj": 0,
+      "weight_allow": 55,
+      "max_press": 170,
+      "open_doors": 8,
+      "bend_bars_pct": 7
+    },
+    "15": {
+      "hit_adj": 0,
+      "damage_adj": 0,
+      "weight_allow": 55,
+      "max_press": 170,
+      "open_doors": 8,
+      "bend_bars_pct": 7
+    },
+    "16": {
+      "hit_adj": 0,
+      "damage_adj": 1,
+      "weight_allow": 70,
+      "max_press": 195,
+      "open_doors": 9,
+      "bend_bars_pct": 10
+    },
+    "17": {
+      "hit_adj": 1,
+      "damage_adj": 1,
+      "weight_allow": 85,
+      "max_press": 220,
+      "open_doors": 10,
+      "bend_bars_pct": 13
+    },
+    "18": {
+      "hit_adj": 1,
+      "damage_adj": 2,
+      "weight_allow": 110,
+      "max_press": 255,
+      "open_doors": 11,
+      "bend_bars_pct": 16
+    },
+    "18/01-50": {
+      "hit_adj": 1,
+      "damage_adj": 3,
+      "weight_allow": 135,
+      "max_press": 280,
+      "open_doors": 12,
+      "bend_bars_pct": 20
+    },
+    "18/51-75": {
+      "hit_adj": 2,
+      "damage_adj": 3,
+      "weight_allow": 160,
+      "max_press": 305,
+      "open_doors": 13,
+      "bend_bars_pct": 25
+    },
+    "18/76-90": {
+      "hit_adj": 2,
+      "damage_adj": 4,
+      "weight_allow": 185,
+      "max_press": 330,
+      "open_doors": 14,
+      "bend_bars_pct": 30
+    },
+    "18/91-99": {
+      "hit_adj": 2,
+      "damage_adj": 5,
+      "weight_allow": 235,
+      "max_press": 380,
+      "open_doors": "15(3)",
+      "bend_bars_pct": 35
+    },
+    "18/00": {
+      "hit_adj": 3,
+      "damage_adj": 6,
+      "weight_allow": 335,
+      "max_press": 480,
+      "open_doors": "16(6)",
+      "bend_bars_pct": 40
+    }
+  },
+  "dex_bonuses": {
+    "_comment": "PHB Table 2: Geschicklichkeits-Boni. reaction_adj: Initiative-Modifier. missile_adj: Fernkampf-Treffermodifikator. defensive_adj: AC-Modifier (negativ = besser).",
+    "1": {
+      "reaction_adj": -6,
+      "missile_adj": -6,
+      "defensive_adj": 5
+    },
+    "2": {
+      "reaction_adj": -4,
+      "missile_adj": -4,
+      "defensive_adj": 5
+    },
+    "3": {
+      "reaction_adj": -3,
+      "missile_adj": -3,
+      "defensive_adj": 4
+    },
+    "4": {
+      "reaction_adj": -2,
+      "missile_adj": -2,
+      "defensive_adj": 3
+    },
+    "5": {
+      "reaction_adj": -1,
+      "missile_adj": -1,
+      "defensive_adj": 2
+    },
+    "6": {
+      "reaction_adj": 0,
+      "missile_adj": 0,
+      "defensive_adj": 1
+    },
+    "7": {
+      "reaction_adj": 0,
+      "missile_adj": 0,
+      "defensive_adj": 0
+    },
+    "8": {
+      "reaction_adj": 0,
+      "missile_adj": 0,
+      "defensive_adj": 0
+    },
+    "9": {
+      "reaction_adj": 0,
+      "missile_adj": 0,
+      "defensive_adj": 0
+    },
+    "10": {
+      "reaction_adj": 0,
+      "missile_adj": 0,
+      "defensive_adj": 0
+    },
+    "11": {
+      "reaction_adj": 0,
+      "missile_adj": 0,
+      "defensive_adj": 0
+    },
+    "12": {
+      "reaction_adj": 0,
+      "missile_adj": 0,
+      "defensive_adj": 0
+    },
+    "13": {
+      "reaction_adj": 0,
+      "missile_adj": 0,
+      "defensive_adj": 0
+    },
+    "14": {
+      "reaction_adj": 0,
+      "missile_adj": 0,
+      "defensive_adj": 0
+    },
+    "15": {
+      "reaction_adj": 0,
+      "missile_adj": 0,
+      "defensive_adj": -1
+    },
+    "16": {
+      "reaction_adj": 1,
+      "missile_adj": 1,
+      "defensive_adj": -2
+    },
+    "17": {
+      "reaction_adj": 2,
+      "missile_adj": 2,
+      "defensive_adj": -3
+    },
+    "18": {
+      "reaction_adj": 2,
+      "missile_adj": 2,
+      "defensive_adj": -4
+    },
+    "19": {
+      "reaction_adj": 3,
+      "missile_adj": 3,
+      "defensive_adj": -4
+    }
+  },
+  "con_bonuses": {
+    "_comment": "PHB Table 3: Konstitutions-Boni. hp_adj: HP pro Level (Warriors erhalten bis zu +5 bei CON 18-19). Warrior-Bonusse in Klammern angegeben wo abweichend.",
+    "1": {
+      "hp_adj": -3,
+      "system_shock_pct": 25,
+      "resurrection_pct": 30,
+      "poison_save_adj": 0
+    },
+    "2": {
+      "hp_adj": -2,
+      "system_shock_pct": 30,
+      "resurrection_pct": 35,
+      "poison_save_adj": 0
+    },
+    "3": {
+      "hp_adj": -2,
+      "system_shock_pct": 35,
+      "resurrection_pct": 40,
+      "poison_save_adj": 0
+    },
+    "4": {
+      "hp_adj": -1,
+      "system_shock_pct": 40,
+      "resurrection_pct": 45,
+      "poison_save_adj": 0
+    },
+    "5": {
+      "hp_adj": -1,
+      "system_shock_pct": 45,
+      "resurrection_pct": 50,
+      "poison_save_adj": 0
+    },
+    "6": {
+      "hp_adj": -1,
+      "system_shock_pct": 50,
+      "resurrection_pct": 55,
+      "poison_save_adj": 0
+    },
+    "7": {
+      "hp_adj": 0,
+      "system_shock_pct": 55,
+      "resurrection_pct": 60,
+      "poison_save_adj": 0
+    },
+    "8": {
+      "hp_adj": 0,
+      "system_shock_pct": 60,
+      "resurrection_pct": 65,
+      "poison_save_adj": 0
+    },
+    "9": {
+      "hp_adj": 0,
+      "system_shock_pct": 65,
+      "resurrection_pct": 70,
+      "poison_save_adj": 0
+    },
+    "10": {
+      "hp_adj": 0,
+      "system_shock_pct": 70,
+      "resurrection_pct": 75,
+      "poison_save_adj": 0
+    },
+    "11": {
+      "hp_adj": 0,
+      "system_shock_pct": 75,
+      "resurrection_pct": 80,
+      "poison_save_adj": 0
+    },
+    "12": {
+      "hp_adj": 0,
+      "system_shock_pct": 80,
+      "resurrection_pct": 85,
+      "poison_save_adj": 0
+    },
+    "13": {
+      "hp_adj": 0,
+      "system_shock_pct": 85,
+      "resurrection_pct": 90,
+      "poison_save_adj": 0
+    },
+    "14": {
+      "hp_adj": 0,
+      "system_shock_pct": 88,
+      "resurrection_pct": 92,
+      "poison_save_adj": 0
+    },
+    "15": {
+      "hp_adj": 1,
+      "system_shock_pct": 91,
+      "resurrection_pct": 94,
+      "poison_save_adj": 0,
+      "_note": "Warriors: +1"
+    },
+    "16": {
+      "hp_adj": 2,
+      "system_shock_pct": 95,
+      "resurrection_pct": 96,
+      "poison_save_adj": 0,
+      "_note": "Warriors: +2"
+    },
+    "17": {
+      "hp_adj": 2,
+      "system_shock_pct": 97,
+      "resurrection_pct": 98,
+      "poison_save_adj": 0,
+      "_note": "Warriors: +3, others: +2"
+    },
+    "18": {
+      "hp_adj": 2,
+      "system_shock_pct": 99,
+      "resurrection_pct": 100,
+      "poison_save_adj": 0,
+      "_note": "Warriors: +4, others: +2"
+    },
+    "19": {
+      "hp_adj": 2,
+      "system_shock_pct": 99,
+      "resurrection_pct": 100,
+      "poison_save_adj": 1,
+      "_note": "Warriors: +5, others: +2"
+    }
+  },
+  "int_bonuses": {
+    "_comment": "PHB Table 4: Intelligenz-Boni. spell_level: max erlernbare Zauberstufe. chance_learn_pct: % Chance einen Zauber zu lernen. max_spells_per_level: maximale Zauber pro Stufe im Zauberbuch. 0 = nicht anwendbar.",
+    "1": {
+      "num_languages": 0,
+      "spell_level": 0,
+      "chance_learn_pct": 0,
+      "max_spells_per_level": 0
+    },
+    "2": {
+      "num_languages": 1,
+      "spell_level": 0,
+      "chance_learn_pct": 0,
+      "max_spells_per_level": 0
+    },
+    "3": {
+      "num_languages": 1,
+      "spell_level": 0,
+      "chance_learn_pct": 0,
+      "max_spells_per_level": 0
+    },
+    "4": {
+      "num_languages": 1,
+      "spell_level": 0,
+      "chance_learn_pct": 0,
+      "max_spells_per_level": 0
+    },
+    "5": {
+      "num_languages": 1,
+      "spell_level": 0,
+      "chance_learn_pct": 0,
+      "max_spells_per_level": 0
+    },
+    "6": {
+      "num_languages": 1,
+      "spell_level": 0,
+      "chance_learn_pct": 0,
+      "max_spells_per_level": 0
+    },
+    "7": {
+      "num_languages": 1,
+      "spell_level": 0,
+      "chance_learn_pct": 0,
+      "max_spells_per_level": 0
+    },
+    "8": {
+      "num_languages": 1,
+      "spell_level": 0,
+      "chance_learn_pct": 0,
+      "max_spells_per_level": 0
+    },
+    "9": {
+      "num_languages": 2,
+      "spell_level": 4,
+      "chance_learn_pct": 35,
+      "max_spells_per_level": 6
+    },
+    "10": {
+      "num_languages": 2,
+      "spell_level": 5,
+      "chance_learn_pct": 40,
+      "max_spells_per_level": 7
+    },
+    "11": {
+      "num_languages": 2,
+      "spell_level": 5,
+      "chance_learn_pct": 45,
+      "max_spells_per_level": 7
+    },
+    "12": {
+      "num_languages": 3,
+      "spell_level": 6,
+      "chance_learn_pct": 50,
+      "max_spells_per_level": 7
+    },
+    "13": {
+      "num_languages": 3,
+      "spell_level": 6,
+      "chance_learn_pct": 55,
+      "max_spells_per_level": 9
+    },
+    "14": {
+      "num_languages": 4,
+      "spell_level": 7,
+      "chance_learn_pct": 60,
+      "max_spells_per_level": 11
+    },
+    "15": {
+      "num_languages": 4,
+      "spell_level": 7,
+      "chance_learn_pct": 65,
+      "max_spells_per_level": 11
+    },
+    "16": {
+      "num_languages": 5,
+      "spell_level": 8,
+      "chance_learn_pct": 70,
+      "max_spells_per_level": 14
+    },
+    "17": {
+      "num_languages": 6,
+      "spell_level": 8,
+      "chance_learn_pct": 75,
+      "max_spells_per_level": 14
+    },
+    "18": {
+      "num_languages": 7,
+      "spell_level": 9,
+      "chance_learn_pct": 85,
+      "max_spells_per_level": 18
+    },
+    "19": {
+      "num_languages": 8,
+      "spell_level": 9,
+      "chance_learn_pct": 95,
+      "max_spells_per_level": -1,
+      "_note": "max_spells_per_level -1 = All"
+    }
+  },
+  "wis_bonuses": {
+    "_comment": "PHB Table 5: Weisheits-Boni. magical_def_adj: Bonus auf Rettungswuerfe gegen Zauber. bonus_spells: Array [L1..L7] Bonus-Priesterzauber pro Stufe. spell_failure_pct: Misslingensprozent fuer Priesterzauber.",
+    "1": {
+      "magical_def_adj": -6,
+      "bonus_spells": [],
+      "spell_failure_pct": 80
+    },
+    "2": {
+      "magical_def_adj": -4,
+      "bonus_spells": [],
+      "spell_failure_pct": 60
+    },
+    "3": {
+      "magical_def_adj": -3,
+      "bonus_spells": [],
+      "spell_failure_pct": 50
+    },
+    "4": {
+      "magical_def_adj": -2,
+      "bonus_spells": [],
+      "spell_failure_pct": 45
+    },
+    "5": {
+      "magical_def_adj": -1,
+      "bonus_spells": [],
+      "spell_failure_pct": 40
+    },
+    "6": {
+      "magical_def_adj": 0,
+      "bonus_spells": [],
+      "spell_failure_pct": 35
+    },
+    "7": {
+      "magical_def_adj": 0,
+      "bonus_spells": [],
+      "spell_failure_pct": 30
+    },
+    "8": {
+      "magical_def_adj": 0,
+      "bonus_spells": [],
+      "spell_failure_pct": 25
+    },
+    "9": {
+      "magical_def_adj": 0,
+      "bonus_spells": [],
+      "spell_failure_pct": 20
+    },
+    "10": {
+      "magical_def_adj": 0,
+      "bonus_spells": [],
+      "spell_failure_pct": 15
+    },
+    "11": {
+      "magical_def_adj": 0,
+      "bonus_spells": [],
+      "spell_failure_pct": 10
+    },
+    "12": {
+      "magical_def_adj": 0,
+      "bonus_spells": [],
+      "spell_failure_pct": 5
+    },
+    "13": {
+      "magical_def_adj": 0,
+      "bonus_spells": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "spell_failure_pct": 0
+    },
+    "14": {
+      "magical_def_adj": 0,
+      "bonus_spells": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "spell_failure_pct": 0
+    },
+    "15": {
+      "magical_def_adj": 1,
+      "bonus_spells": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "spell_failure_pct": 0
+    },
+    "16": {
+      "magical_def_adj": 2,
+      "bonus_spells": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "spell_failure_pct": 0
+    },
+    "17": {
+      "magical_def_adj": 3,
+      "bonus_spells": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "spell_failure_pct": 0
+    },
+    "18": {
+      "magical_def_adj": 4,
+      "bonus_spells": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "spell_failure_pct": 0
+    },
+    "19": {
+      "magical_def_adj": 4,
+      "bonus_spells": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "spell_failure_pct": 0,
+      "_note": "WIS 19 via magic item only"
+    }
+  },
+  "cha_bonuses": {
+    "_comment": "PHB Table 6: Charisma-Boni. max_henchmen: maximale Gefolgsleute. loyalty_base: Basis-Loyalitaetsbonus. reaction_adj: Reaktionsmodifikator bei Erstkontakt.",
+    "1": {
+      "max_henchmen": 0,
+      "loyalty_base": -8,
+      "reaction_adj": -7
+    },
+    "2": {
+      "max_henchmen": 1,
+      "loyalty_base": -7,
+      "reaction_adj": -6
+    },
+    "3": {
+      "max_henchmen": 1,
+      "loyalty_base": -6,
+      "reaction_adj": -5
+    },
+    "4": {
+      "max_henchmen": 1,
+      "loyalty_base": -5,
+      "reaction_adj": -4
+    },
+    "5": {
+      "max_henchmen": 2,
+      "loyalty_base": -4,
+      "reaction_adj": -3
+    },
+    "6": {
+      "max_henchmen": 2,
+      "loyalty_base": -3,
+      "reaction_adj": -2
+    },
+    "7": {
+      "max_henchmen": 3,
+      "loyalty_base": -2,
+      "reaction_adj": -1
+    },
+    "8": {
+      "max_henchmen": 3,
+      "loyalty_base": 0,
+      "reaction_adj": 0
+    },
+    "9": {
+      "max_henchmen": 4,
+      "loyalty_base": 0,
+      "reaction_adj": 0
+    },
+    "10": {
+      "max_henchmen": 4,
+      "loyalty_base": 0,
+      "reaction_adj": 0
+    },
+    "11": {
+      "max_henchmen": 4,
+      "loyalty_base": 0,
+      "reaction_adj": 0
+    },
+    "12": {
+      "max_henchmen": 5,
+      "loyalty_base": 0,
+      "reaction_adj": 0
+    },
+    "13": {
+      "max_henchmen": 5,
+      "loyalty_base": 0,
+      "reaction_adj": 1
+    },
+    "14": {
+      "max_henchmen": 6,
+      "loyalty_base": 1,
+      "reaction_adj": 1
+    },
+    "15": {
+      "max_henchmen": 7,
+      "loyalty_base": 3,
+      "reaction_adj": 3
+    },
+    "16": {
+      "max_henchmen": 8,
+      "loyalty_base": 4,
+      "reaction_adj": 5
+    },
+    "17": {
+      "max_henchmen": 10,
+      "loyalty_base": 6,
+      "reaction_adj": 6
+    },
+    "18": {
+      "max_henchmen": 15,
+      "loyalty_base": 8,
+      "reaction_adj": 7
+    },
+    "19": {
+      "max_henchmen": 20,
+      "loyalty_base": 10,
+      "reaction_adj": 8,
+      "_note": "WIS 19 via magic item only"
+    }
+  },
+  "melee_weapons": [
+    {
+      "name": "Battle Axe",
+      "damage_sm": "1d8",
+      "damage_l": "1d8",
+      "speed": 7,
+      "weight": 7,
+      "size": "M",
+      "type": "S",
+      "cost_gp": 5
+    },
+    {
+      "name": "Hand Axe",
+      "damage_sm": "1d6",
+      "damage_l": "1d4",
+      "speed": 4,
+      "weight": 5,
+      "size": "S",
+      "type": "S",
+      "cost_gp": 1
+    },
+    {
+      "name": "Club",
+      "damage_sm": "1d6",
+      "damage_l": "1d3",
+      "speed": 4,
+      "weight": 3,
+      "size": "M",
+      "type": "B",
+      "cost_gp": 0
+    },
+    {
+      "name": "Dagger",
+      "damage_sm": "1d4",
+      "damage_l": "1d3",
+      "speed": 2,
+      "weight": 1,
+      "size": "S",
+      "type": "P",
+      "cost_gp": 2
+    },
+    {
+      "name": "Flail, Footman's",
+      "damage_sm": "1d6+1",
+      "damage_l": "2d4",
+      "speed": 7,
+      "weight": 15,
+      "size": "M",
+      "type": "B",
+      "cost_gp": 15
+    },
+    {
+      "name": "Halberd",
+      "damage_sm": "1d10",
+      "damage_l": "2d6",
+      "speed": 9,
+      "weight": 15,
+      "size": "L",
+      "type": "P/S",
+      "cost_gp": 10
+    },
+    {
+      "name": "Lance, Heavy Horse",
+      "damage_sm": "1d8+1",
+      "damage_l": "3d6",
+      "speed": 8,
+      "weight": 15,
+      "size": "L",
+      "type": "P",
+      "cost_gp": 15
+    },
+    {
+      "name": "Long Sword",
+      "damage_sm": "1d8",
+      "damage_l": "1d12",
+      "speed": 5,
+      "weight": 4,
+      "size": "M",
+      "type": "S",
+      "cost_gp": 15
+    },
+    {
+      "name": "Mace, Footman's",
+      "damage_sm": "1d6+1",
+      "damage_l": "1d6",
+      "speed": 7,
+      "weight": 10,
+      "size": "M",
+      "type": "B",
+      "cost_gp": 8
+    },
+    {
+      "name": "Morning Star",
+      "damage_sm": "2d4",
+      "damage_l": "1d6+1",
+      "speed": 7,
+      "weight": 12,
+      "size": "M",
+      "type": "B",
+      "cost_gp": 10
+    },
+    {
+      "name": "Quarter Staff",
+      "damage_sm": "1d6",
+      "damage_l": "1d6",
+      "speed": 4,
+      "weight": 4,
+      "size": "L",
+      "type": "B",
+      "cost_gp": 0
+    },
+    {
+      "name": "Scimitar",
+      "damage_sm": "1d8",
+      "damage_l": "1d8",
+      "speed": 5,
+      "weight": 4,
+      "size": "M",
+      "type": "S",
+      "cost_gp": 15
+    },
+    {
+      "name": "Short Sword",
+      "damage_sm": "1d6",
+      "damage_l": "1d8",
+      "speed": 3,
+      "weight": 3,
+      "size": "S",
+      "type": "P",
+      "cost_gp": 10
+    },
+    {
+      "name": "Spear",
+      "damage_sm": "1d6",
+      "damage_l": "1d8",
+      "speed": 6,
+      "weight": 5,
+      "size": "M",
+      "type": "P",
+      "cost_gp": 0.8
+    },
+    {
+      "name": "Two-Handed Sword",
+      "damage_sm": "1d10",
+      "damage_l": "3d6",
+      "speed": 10,
+      "weight": 15,
+      "size": "L",
+      "type": "S",
+      "cost_gp": 50
+    },
+    {
+      "name": "War Hammer",
+      "damage_sm": "1d4+1",
+      "damage_l": "1d4",
+      "speed": 4,
+      "weight": 6,
+      "size": "M",
+      "type": "B",
+      "cost_gp": 2
+    },
+    {
+      "name": "Bastard Sword (1-handed)",
+      "damage_sm": "1d8",
+      "damage_l": "1d12",
+      "speed": 6,
+      "weight": 10,
+      "size": "M",
+      "type": "S",
+      "cost_gp": 25
+    },
+    {
+      "name": "Bastard Sword (2-handed)",
+      "damage_sm": "2d4",
+      "damage_l": "2d8",
+      "speed": 8,
+      "weight": 10,
+      "size": "M",
+      "type": "S",
+      "cost_gp": 25
+    },
+    {
+      "name": "Trident",
+      "damage_sm": "1d6+1",
+      "damage_l": "3d4",
+      "speed": 7,
+      "weight": 5,
+      "size": "L",
+      "type": "P",
+      "cost_gp": 15
+    }
+  ],
+  "missile_weapons": [
+    {
+      "name": "Composite Long Bow",
+      "damage_sm": "1d6",
+      "damage_l": "1d6",
+      "rof": "2",
+      "range_s": 60,
+      "range_m": 120,
+      "range_l": 210,
+      "weight": 3,
+      "cost_gp": 100
+    },
+    {
+      "name": "Composite Short Bow",
+      "damage_sm": "1d6",
+      "damage_l": "1d6",
+      "rof": "2",
+      "range_s": 50,
+      "range_m": 100,
+      "range_l": 180,
+      "weight": 2,
+      "cost_gp": 75
+    },
+    {
+      "name": "Long Bow",
+      "damage_sm": "1d6",
+      "damage_l": "1d6",
+      "rof": "2",
+      "range_s": 70,
+      "range_m": 140,
+      "range_l": 210,
+      "weight": 3,
+      "cost_gp": 75
+    },
+    {
+      "name": "Short Bow",
+      "damage_sm": "1d6",
+      "damage_l": "1d6",
+      "rof": "2",
+      "range_s": 50,
+      "range_m": 100,
+      "range_l": 150,
+      "weight": 2,
+      "cost_gp": 30
+    },
+    {
+      "name": "Light Crossbow",
+      "damage_sm": "1d4",
+      "damage_l": "1d4",
+      "rof": "1",
+      "range_s": 60,
+      "range_m": 120,
+      "range_l": 180,
+      "weight": 7,
+      "cost_gp": 35
+    },
+    {
+      "name": "Heavy Crossbow",
+      "damage_sm": "1d4+1",
+      "damage_l": "1d6+1",
+      "rof": "1/2",
+      "range_s": 80,
+      "range_m": 160,
+      "range_l": 240,
+      "weight": 14,
+      "cost_gp": 50
+    },
+    {
+      "name": "Dagger (thrown)",
+      "damage_sm": "1d4",
+      "damage_l": "1d3",
+      "rof": "2",
+      "range_s": 10,
+      "range_m": 20,
+      "range_l": 30,
+      "weight": 1,
+      "cost_gp": 2
+    },
+    {
+      "name": "Hand Axe (thrown)",
+      "damage_sm": "1d6",
+      "damage_l": "1d4",
+      "rof": "1",
+      "range_s": 10,
+      "range_m": 20,
+      "range_l": 30,
+      "weight": 5,
+      "cost_gp": 1
+    },
+    {
+      "name": "Javelin",
+      "damage_sm": "1d6",
+      "damage_l": "1d6",
+      "rof": "1",
+      "range_s": 20,
+      "range_m": 40,
+      "range_l": 60,
+      "weight": 2,
+      "cost_gp": 0.5
+    },
+    {
+      "name": "Sling (bullet)",
+      "damage_sm": "1d4+1",
+      "damage_l": "1d6+1",
+      "rof": "1",
+      "range_s": 50,
+      "range_m": 100,
+      "range_l": 200,
+      "weight": 0,
+      "cost_gp": 0.05
+    },
+    {
+      "name": "Spear (thrown)",
+      "damage_sm": "1d6",
+      "damage_l": "1d8",
+      "rof": "1",
+      "range_s": 10,
+      "range_m": 20,
+      "range_l": 30,
+      "weight": 5,
+      "cost_gp": 0.8
+    },
+    {
+      "name": "Dart",
+      "damage_sm": "1d3",
+      "damage_l": "1d2",
+      "rof": "3",
+      "range_s": 10,
+      "range_m": 20,
+      "range_l": 40,
+      "weight": 0.5,
+      "cost_gp": 0.5
+    }
+  ],
+  "wizard_spell_slots": {
+    "_comment": "PHB Table 22: Zauberer-Zauberschlitze pro Level. Array [L1, L2, L3, L4, L5, L6, L7, L8, L9]. Gilt fuer Mage und Illusionist.",
+    "1": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "2": [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "3": [
+      2,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "4": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "5": [
+      4,
+      2,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "6": [
+      4,
+      2,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "7": [
+      4,
+      3,
+      2,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "8": [
+      4,
+      3,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "9": [
+      4,
+      3,
+      3,
+      2,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "10": [
+      4,
+      4,
+      3,
+      2,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "11": [
+      4,
+      4,
+      4,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "12": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      1,
+      0,
+      0,
+      0
+    ],
+    "13": [
+      5,
+      5,
+      5,
+      4,
+      4,
+      2,
+      0,
+      0,
+      0
+    ],
+    "14": [
+      5,
+      5,
+      5,
+      4,
+      4,
+      2,
+      1,
+      0,
+      0
+    ],
+    "15": [
+      5,
+      5,
+      5,
+      5,
+      4,
+      2,
+      1,
+      0,
+      0
+    ],
+    "16": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      3,
+      2,
+      1,
+      0
+    ],
+    "17": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      3,
+      3,
+      2,
+      0
+    ],
+    "18": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      3,
+      3,
+      2,
+      1
+    ],
+    "19": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      3,
+      3,
+      3,
+      1
+    ],
+    "20": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      4,
+      3,
+      3,
+      2
+    ]
+  },
+  "priest_spell_slots": {
+    "_comment": "PHB Table 17: Priester-Zauberschlitze pro Level. Array [L1, L2, L3, L4, L5, L6, L7]. Gilt fuer Cleric und Druid (Druid leicht abweichend auf hohen Levels).",
+    "1": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "2": [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "3": [
+      2,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "4": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "5": [
+      3,
+      3,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "6": [
+      3,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "7": [
+      3,
+      3,
+      2,
+      1,
+      0,
+      0,
+      0
+    ],
+    "8": [
+      3,
+      3,
+      3,
+      2,
+      0,
+      0,
+      0
+    ],
+    "9": [
+      4,
+      4,
+      3,
+      2,
+      1,
+      0,
+      0
+    ],
+    "10": [
+      4,
+      4,
+      3,
+      3,
+      2,
+      0,
+      0
+    ],
+    "11": [
+      5,
+      4,
+      4,
+      3,
+      2,
+      1,
+      0
+    ],
+    "12": [
+      6,
+      5,
+      5,
+      3,
+      2,
+      2,
+      0
+    ],
+    "13": [
+      6,
+      6,
+      6,
+      4,
+      2,
+      2,
+      0
+    ],
+    "14": [
+      6,
+      6,
+      6,
+      5,
+      3,
+      2,
+      1
+    ],
+    "15": [
+      6,
+      6,
+      6,
+      6,
+      3,
+      2,
+      1
+    ],
+    "16": [
+      7,
+      7,
+      7,
+      6,
+      4,
+      2,
+      1
+    ],
+    "17": [
+      7,
+      7,
+      7,
+      7,
+      5,
+      3,
+      2
+    ],
+    "18": [
+      8,
+      8,
+      8,
+      8,
+      6,
+      4,
+      2
+    ],
+    "19": [
+      9,
+      8,
+      8,
+      8,
+      6,
+      4,
+      2
+    ],
+    "20": [
+      9,
+      9,
+      9,
+      8,
+      7,
+      5,
+      2
+    ]
+  },
+  "ranger_spell_slots": {
+    "_comment": "PHB Table 19: Ranger-Zauberschlitze (Priester-Zauber). Beginnt ab Level 8. Array [Priester L1, L2, L3].",
+    "8": [
+      1,
+      0,
+      0
+    ],
+    "9": [
+      2,
+      0,
+      0
+    ],
+    "10": [
+      2,
+      1,
+      0
+    ],
+    "11": [
+      2,
+      2,
+      0
+    ],
+    "12": [
+      2,
+      2,
+      1
+    ],
+    "13": [
+      3,
+      2,
+      1
+    ],
+    "14": [
+      3,
+      2,
+      2
+    ],
+    "15": [
+      3,
+      3,
+      2
+    ],
+    "16": [
+      3,
+      3,
+      3
+    ]
+  },
+  "paladin_spell_slots": {
+    "_comment": "PHB Table 16: Paladin-Zauberschlitze (Priester-Zauber). Beginnt ab Level 9. Array [Priester L1, L2, L3, L4].",
+    "9": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "10": [
+      2,
+      0,
+      0,
+      0
+    ],
+    "11": [
+      2,
+      1,
+      0,
+      0
+    ],
+    "12": [
+      2,
+      2,
+      0,
+      0
+    ],
+    "13": [
+      2,
+      2,
+      1,
+      0
+    ],
+    "14": [
+      3,
+      2,
+      1,
+      0
+    ],
+    "15": [
+      3,
+      2,
+      1,
+      1
+    ],
+    "16": [
+      3,
+      3,
+      2,
+      1
+    ],
+    "17": [
+      3,
+      3,
+      3,
+      1
+    ],
+    "18": [
+      3,
+      3,
+      3,
+      1
+    ],
+    "19": [
+      3,
+      3,
+      3,
+      2
+    ],
+    "20": [
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  "bard_spell_slots": {
+    "_comment": "PHB Table 27: Barden-Zauberschlitze (Zauberer-Zauber). Beginnt ab Level 2. Array [L1, L2, L3, L4, L5, L6].",
+    "2": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "3": [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "4": [
+      2,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "5": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "6": [
+      3,
+      2,
+      1,
+      0,
+      0,
+      0
+    ],
+    "7": [
+      3,
+      3,
+      2,
+      0,
+      0,
+      0
+    ],
+    "8": [
+      3,
+      3,
+      2,
+      1,
+      0,
+      0
+    ],
+    "9": [
+      3,
+      3,
+      3,
+      2,
+      0,
+      0
+    ],
+    "10": [
+      3,
+      3,
+      3,
+      2,
+      1,
+      0
+    ],
+    "11": [
+      3,
+      3,
+      3,
+      3,
+      2,
+      0
+    ],
+    "12": [
+      3,
+      3,
+      3,
+      3,
+      2,
+      1
+    ],
+    "13": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      2
+    ],
+    "14": [
+      4,
+      3,
+      3,
+      3,
+      3,
+      2
+    ],
+    "15": [
+      4,
+      4,
+      3,
+      3,
+      3,
+      2
+    ],
+    "16": [
+      4,
+      4,
+      4,
+      3,
+      3,
+      2
+    ],
+    "17": [
+      4,
+      4,
+      4,
+      4,
+      3,
+      2
+    ],
+    "18": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      2
+    ],
+    "19": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      3
+    ],
+    "20": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ]
+  },
+  "turn_undead": {
+    "_comment": "PHB Table 61: Untote vertreiben (Turn Undead). Wert = benoetigtes Ergebnis auf W20, T=vertrieben (auto), D=vernichtet (auto), '-'=unmoeglich. Priester-Level als Key.",
+    "1": {
+      "skeleton": 10,
+      "zombie": 13,
+      "ghoul": 16,
+      "shadow": 19,
+      "wight": 20,
+      "ghast": "-",
+      "wraith": "-",
+      "mummy": "-",
+      "spectre": "-",
+      "vampire": "-",
+      "ghost": "-",
+      "lich": "-",
+      "special": "-"
+    },
+    "2": {
+      "skeleton": 7,
+      "zombie": 10,
+      "ghoul": 13,
+      "shadow": 16,
+      "wight": 19,
+      "ghast": 20,
+      "wraith": "-",
+      "mummy": "-",
+      "spectre": "-",
+      "vampire": "-",
+      "ghost": "-",
+      "lich": "-",
+      "special": "-"
+    },
+    "3": {
+      "skeleton": 4,
+      "zombie": 7,
+      "ghoul": 10,
+      "shadow": 13,
+      "wight": 16,
+      "ghast": 19,
+      "wraith": 20,
+      "mummy": "-",
+      "spectre": "-",
+      "vampire": "-",
+      "ghost": "-",
+      "lich": "-",
+      "special": "-"
+    },
+    "4": {
+      "skeleton": "T",
+      "zombie": 4,
+      "ghoul": 7,
+      "shadow": 10,
+      "wight": 13,
+      "ghast": 16,
+      "wraith": 19,
+      "mummy": 20,
+      "spectre": "-",
+      "vampire": "-",
+      "ghost": "-",
+      "lich": "-",
+      "special": "-"
+    },
+    "5": {
+      "skeleton": "T",
+      "zombie": "T",
+      "ghoul": 4,
+      "shadow": 7,
+      "wight": 10,
+      "ghast": 13,
+      "wraith": 16,
+      "mummy": 19,
+      "spectre": 20,
+      "vampire": "-",
+      "ghost": "-",
+      "lich": "-",
+      "special": "-"
+    },
+    "6": {
+      "skeleton": "D",
+      "zombie": "T",
+      "ghoul": "T",
+      "shadow": 4,
+      "wight": 7,
+      "ghast": 10,
+      "wraith": 13,
+      "mummy": 16,
+      "spectre": 19,
+      "vampire": 20,
+      "ghost": "-",
+      "lich": "-",
+      "special": "-"
+    },
+    "7": {
+      "skeleton": "D",
+      "zombie": "D",
+      "ghoul": "T",
+      "shadow": "T",
+      "wight": 4,
+      "ghast": 7,
+      "wraith": 10,
+      "mummy": 13,
+      "spectre": 16,
+      "vampire": 19,
+      "ghost": 20,
+      "lich": "-",
+      "special": "-"
+    },
+    "8": {
+      "skeleton": "D",
+      "zombie": "D",
+      "ghoul": "D",
+      "shadow": "T",
+      "wight": "T",
+      "ghast": 4,
+      "wraith": 7,
+      "mummy": 10,
+      "spectre": 13,
+      "vampire": 16,
+      "ghost": 19,
+      "lich": 20,
+      "special": "-"
+    },
+    "9": {
+      "skeleton": "D",
+      "zombie": "D",
+      "ghoul": "D",
+      "shadow": "D",
+      "wight": "T",
+      "ghast": "T",
+      "wraith": 4,
+      "mummy": 7,
+      "spectre": 10,
+      "vampire": 13,
+      "ghost": 16,
+      "lich": 19,
+      "special": 20
+    },
+    "10": {
+      "skeleton": "D",
+      "zombie": "D",
+      "ghoul": "D",
+      "shadow": "D",
+      "wight": "D",
+      "ghast": "T",
+      "wraith": "T",
+      "mummy": 4,
+      "spectre": 7,
+      "vampire": 10,
+      "ghost": 13,
+      "lich": 16,
+      "special": 19
+    },
+    "11": {
+      "skeleton": "D",
+      "zombie": "D",
+      "ghoul": "D",
+      "shadow": "D",
+      "wight": "D",
+      "ghast": "D",
+      "wraith": "T",
+      "mummy": "T",
+      "spectre": 4,
+      "vampire": 7,
+      "ghost": 10,
+      "lich": 13,
+      "special": 16
+    },
+    "12": {
+      "skeleton": "D",
+      "zombie": "D",
+      "ghoul": "D",
+      "shadow": "D",
+      "wight": "D",
+      "ghast": "D",
+      "wraith": "D",
+      "mummy": "T",
+      "spectre": "T",
+      "vampire": 4,
+      "ghost": 7,
+      "lich": 10,
+      "special": 13
+    },
+    "13": {
+      "skeleton": "D",
+      "zombie": "D",
+      "ghoul": "D",
+      "shadow": "D",
+      "wight": "D",
+      "ghast": "D",
+      "wraith": "D",
+      "mummy": "D",
+      "spectre": "T",
+      "vampire": "T",
+      "ghost": 4,
+      "lich": 7,
+      "special": 10
+    },
+    "14+": {
+      "skeleton": "D",
+      "zombie": "D",
+      "ghoul": "D",
+      "shadow": "D",
+      "wight": "D",
+      "ghast": "D",
+      "wraith": "D",
+      "mummy": "D",
+      "spectre": "D",
+      "vampire": "T",
+      "ghost": "T",
+      "lich": 4,
+      "special": 7
+    }
+  },
+  "nonweapon_proficiencies": [
+    {
+      "name": "Agriculture",
+      "relevant_ability": "INT",
+      "modifier": 0,
+      "slots": 1,
+      "groups": [
+        "general"
+      ]
+    },
+    {
+      "name": "Animal Handling",
+      "relevant_ability": "WIS",
+      "modifier": -1,
+      "slots": 1,
+      "groups": [
+        "general"
+      ]
+    },
+    {
+      "name": "Animal Training",
+      "relevant_ability": "WIS",
+      "modifier": 0,
+      "slots": 1,
+      "groups": [
+        "general"
+      ]
+    },
+    {
+      "name": "Armorer",
+      "relevant_ability": "INT",
+      "modifier": -2,
+      "slots": 2,
+      "groups": [
+        "warrior"
+      ]
+    },
+    {
+      "name": "Artistic Ability",
+      "relevant_ability": "WIS",
+      "modifier": 0,
+      "slots": 1,
+      "groups": [
+        "general"
+      ]
+    },
+    {
+      "name": "Blacksmithing",
+      "relevant_ability": "STR",
+      "modifier": 0,
+      "slots": 1,
+      "groups": [
+        "general"
+      ]
+    },
+    {
+      "name": "Blind-Fighting",
+      "relevant_ability": "NA",
+      "modifier": 0,
+      "slots": 2,
+      "groups": [
+        "warrior",
+        "rogue"
+      ]
+    },
+    {
+      "name": "Bowyer/Fletcher",
+      "relevant_ability": "DEX",
+      "modifier": -1,
+      "slots": 1,
+      "groups": [
+        "warrior"
+      ]
+    },
+    {
+      "name": "Brewing",
+      "relevant_ability": "INT",
+      "modifier": 0,
+      "slots": 1,
+      "groups": [
+        "general"
+      ]
+    },
+    {
+      "name": "Carpentry",
+      "relevant_ability": "STR",
+      "modifier": 0,
+      "slots": 1,
+      "groups": [
+        "general"
+      ]
+    },
+    {
+      "name": "Cobbling",
+      "relevant_ability": "DEX",
+      "modifier": 0,
+      "slots": 1,
+      "groups": [
+        "general"
+      ]
+    },
+    {
+      "name": "Cooking",
+      "relevant_ability": "INT",
+      "modifier": 0,
+      "slots": 1,
+      "groups": [
+        "general"
+      ]
+    },
+    {
+      "name": "Dancing",
+      "relevant_ability": "DEX",
+      "modifier": 0,
+      "slots": 1,
+      "groups": [
+        "general"
+      ]
+    },
+    {
+      "name": "Direction Sense",
+      "relevant_ability": "WIS",
+      "modifier": 1,
+      "slots": 1,
+      "groups": [
+        "general"
+      ]
+    },
+    {
+      "name": "Disguise",
+      "relevant_ability": "CHA",
+      "modifier": -1,
+      "slots": 1,
+      "groups": [
+        "rogue"
+      ]
+    },
+    {
+      "name": "Endurance",
+      "relevant_ability": "CON",
+      "modifier": 0,
+      "slots": 2,
+      "groups": [
+        "warrior"
+      ]
+    },
+    {
+      "name": "Engineering",
+      "relevant_ability": "INT",
+      "modifier": -3,
+      "slots": 2,
+      "groups": [
+        "wizard"
+      ]
+    },
+    {
+      "name": "Etiquette",
+      "relevant_ability": "CHA",
+      "modifier": 0,
+      "slots": 1,
+      "groups": [
+        "general"
+      ]
+    },
+    {
+      "name": "Fire-Building",
+      "relevant_ability": "WIS",
+      "modifier": -1,
+      "slots": 1,
+      "groups": [
+        "general"
+      ]
+    },
+    {
+      "name": "Fishing",
+      "relevant_ability": "WIS",
+      "modifier": -1,
+      "slots": 1,
+      "groups": [
+        "general"
+      ]
+    },
+    {
+      "name": "Forgery",
+      "relevant_ability": "DEX",
+      "modifier": -1,
+      "slots": 1,
+      "groups": [
+        "rogue"
+      ]
+    },
+    {
+      "name": "Gaming",
+      "relevant_ability": "CHA",
+      "modifier": 0,
+      "slots": 1,
+      "groups": [
+        "rogue"
+      ]
+    },
+    {
+      "name": "Gem Cutting",
+      "relevant_ability": "DEX",
+      "modifier": -2,
+      "slots": 2,
+      "groups": [
+        "wizard"
+      ]
+    },
+    {
+      "name": "Healing",
+      "relevant_ability": "WIS",
+      "modifier": -2,
+      "slots": 2,
+      "groups": [
+        "priest"
+      ]
+    },
+    {
+      "name": "Herbalism",
+      "relevant_ability": "INT",
+      "modifier": -2,
+      "slots": 2,
+      "groups": [
+        "priest"
+      ]
+    },
+    {
+      "name": "Heraldry",
+      "relevant_ability": "INT",
+      "modifier": 0,
+      "slots": 1,
+      "groups": [
+        "general"
+      ]
+    },
+    {
+      "name": "Hunting",
+      "relevant_ability": "WIS",
+      "modifier": -1,
+      "slots": 1,
+      "groups": [
+        "warrior"
+      ]
+    },
+    {
+      "name": "Juggling",
+      "relevant_ability": "DEX",
+      "modifier": -1,
+      "slots": 1,
+      "groups": [
+        "rogue"
+      ]
+    },
+    {
+      "name": "Jumping",
+      "relevant_ability": "STR",
+      "modifier": 0,
+      "slots": 1,
+      "groups": [
+        "rogue"
+      ]
+    },
+    {
+      "name": "Languages, Modern",
+      "relevant_ability": "INT",
+      "modifier": 0,
+      "slots": 1,
+      "groups": [
+        "general"
+      ]
+    },
+    {
+      "name": "Languages, Ancient",
+      "relevant_ability": "INT",
+      "modifier": 0,
+      "slots": 1,
+      "groups": [
+        "wizard",
+        "priest"
+      ]
+    },
+    {
+      "name": "Leatherworking",
+      "relevant_ability": "INT",
+      "modifier": 0,
+      "slots": 1,
+      "groups": [
+        "general"
+      ]
+    },
+    {
+      "name": "Local History",
+      "relevant_ability": "CHA",
+      "modifier": 0,
+      "slots": 1,
+      "groups": [
+        "rogue"
+      ]
+    },
+    {
+      "name": "Mining",
+      "relevant_ability": "WIS",
+      "modifier": -3,
+      "slots": 2,
+      "groups": [
+        "general"
+      ]
+    },
+    {
+      "name": "Mountaineering",
+      "relevant_ability": "NA",
+      "modifier": 0,
+      "slots": 1,
+      "groups": [
+        "warrior"
+      ]
+    },
+    {
+      "name": "Musical Instrument",
+      "relevant_ability": "DEX",
+      "modifier": -1,
+      "slots": 1,
+      "groups": [
+        "priest"
+      ]
+    },
+    {
+      "name": "Navigation",
+      "relevant_ability": "INT",
+      "modifier": -2,
+      "slots": 1,
+      "groups": [
+        "warrior",
+        "wizard"
+      ]
+    },
+    {
+      "name": "Pottery",
+      "relevant_ability": "DEX",
+      "modifier": -2,
+      "slots": 1,
+      "groups": [
+        "general"
+      ]
+    },
+    {
+      "name": "Reading/Writing",
+      "relevant_ability": "INT",
+      "modifier": 1,
+      "slots": 1,
+      "groups": [
+        "wizard",
+        "priest"
+      ]
+    },
+    {
+      "name": "Reading Lips",
+      "relevant_ability": "INT",
+      "modifier": -2,
+      "slots": 2,
+      "groups": [
+        "rogue"
+      ]
+    },
+    {
+      "name": "Religion",
+      "relevant_ability": "WIS",
+      "modifier": 0,
+      "slots": 1,
+      "groups": [
+        "priest",
+        "wizard"
+      ]
+    },
+    {
+      "name": "Riding, Airborne",
+      "relevant_ability": "WIS",
+      "modifier": -2,
+      "slots": 2,
+      "groups": [
+        "warrior"
+      ]
+    },
+    {
+      "name": "Riding, Land",
+      "relevant_ability": "WIS",
+      "modifier": 3,
+      "slots": 1,
+      "groups": [
+        "general"
+      ]
+    },
+    {
+      "name": "Rope Use",
+      "relevant_ability": "DEX",
+      "modifier": 0,
+      "slots": 1,
+      "groups": [
+        "general"
+      ]
+    },
+    {
+      "name": "Running",
+      "relevant_ability": "CON",
+      "modifier": -6,
+      "slots": 1,
+      "groups": [
+        "warrior"
+      ]
+    },
+    {
+      "name": "Seamstress/Tailor",
+      "relevant_ability": "DEX",
+      "modifier": -1,
+      "slots": 1,
+      "groups": [
+        "general"
+      ]
+    },
+    {
+      "name": "Set Snares",
+      "relevant_ability": "DEX",
+      "modifier": -1,
+      "slots": 1,
+      "groups": [
+        "rogue"
+      ]
+    },
+    {
+      "name": "Singing",
+      "relevant_ability": "CHA",
+      "modifier": 0,
+      "slots": 1,
+      "groups": [
+        "general"
+      ]
+    },
+    {
+      "name": "Spellcraft",
+      "relevant_ability": "INT",
+      "modifier": -2,
+      "slots": 1,
+      "groups": [
+        "wizard",
+        "priest"
+      ]
+    },
+    {
+      "name": "Stonemasonry",
+      "relevant_ability": "STR",
+      "modifier": -2,
+      "slots": 1,
+      "groups": [
+        "general"
+      ]
+    },
+    {
+      "name": "Survival",
+      "relevant_ability": "INT",
+      "modifier": 0,
+      "slots": 2,
+      "groups": [
+        "warrior"
+      ]
+    },
+    {
+      "name": "Swimming",
+      "relevant_ability": "STR",
+      "modifier": 0,
+      "slots": 1,
+      "groups": [
+        "general"
+      ]
+    },
+    {
+      "name": "Tightrope Walking",
+      "relevant_ability": "DEX",
+      "modifier": 0,
+      "slots": 1,
+      "groups": [
+        "rogue"
+      ]
+    },
+    {
+      "name": "Tracking",
+      "relevant_ability": "WIS",
+      "modifier": 0,
+      "slots": 2,
+      "groups": [
+        "warrior"
+      ]
+    },
+    {
+      "name": "Tumbling",
+      "relevant_ability": "DEX",
+      "modifier": 0,
+      "slots": 1,
+      "groups": [
+        "rogue"
+      ]
+    },
+    {
+      "name": "Ventriloquism",
+      "relevant_ability": "INT",
+      "modifier": -2,
+      "slots": 1,
+      "groups": [
+        "rogue"
+      ]
+    },
+    {
+      "name": "Weaponsmithing",
+      "relevant_ability": "INT",
+      "modifier": -3,
+      "slots": 3,
+      "groups": [
+        "warrior"
+      ]
+    },
+    {
+      "name": "Weather Sense",
+      "relevant_ability": "WIS",
+      "modifier": -1,
+      "slots": 1,
+      "groups": [
+        "general"
+      ]
+    }
+  ],
+  "armor_catalog": [
+    {
+      "name": "Leather Armor",
+      "ac": 8,
+      "weight": 15,
+      "cost_gp": 5,
+      "bulk": "normal"
+    },
+    {
+      "name": "Studded Leather",
+      "ac": 7,
+      "weight": 25,
+      "cost_gp": 20,
+      "bulk": "normal"
+    },
+    {
+      "name": "Ring Mail",
+      "ac": 7,
+      "weight": 30,
+      "cost_gp": 30,
+      "bulk": "bulky"
+    },
+    {
+      "name": "Scale Mail",
+      "ac": 6,
+      "weight": 40,
+      "cost_gp": 120,
+      "bulk": "bulky"
+    },
+    {
+      "name": "Chain Mail",
+      "ac": 5,
+      "weight": 40,
+      "cost_gp": 75,
+      "bulk": "bulky"
+    },
+    {
+      "name": "Splint Mail",
+      "ac": 4,
+      "weight": 40,
+      "cost_gp": 80,
+      "bulk": "bulky"
+    },
+    {
+      "name": "Banded Mail",
+      "ac": 4,
+      "weight": 35,
+      "cost_gp": 200,
+      "bulk": "bulky"
+    },
+    {
+      "name": "Bronze Plate Mail",
+      "ac": 4,
+      "weight": 45,
+      "cost_gp": 400,
+      "bulk": "bulky"
+    },
+    {
+      "name": "Plate Mail",
+      "ac": 3,
+      "weight": 50,
+      "cost_gp": 600,
+      "bulk": "bulky"
+    },
+    {
+      "name": "Field Plate",
+      "ac": 2,
+      "weight": 60,
+      "cost_gp": 2000,
+      "bulk": "bulky"
+    },
+    {
+      "name": "Full Plate",
+      "ac": 1,
+      "weight": 70,
+      "cost_gp": 4000,
+      "bulk": "bulky",
+      "_note": "4000+ gp, individual commission"
+    },
+    {
+      "name": "Shield, Small",
+      "ac": -1,
+      "weight": 5,
+      "cost_gp": 1,
+      "bulk": "normal",
+      "_note": "AC modifier, not base AC"
+    },
+    {
+      "name": "Shield, Medium",
+      "ac": -1,
+      "weight": 10,
+      "cost_gp": 7,
+      "bulk": "normal",
+      "_note": "AC modifier, not base AC"
+    },
+    {
+      "name": "Shield, Large (Body)",
+      "ac": -1,
+      "weight": 15,
+      "cost_gp": 15,
+      "bulk": "bulky",
+      "_note": "AC modifier, not base AC"
+    }
+  ],
+  "adventuring_gear": [
+    {
+      "name": "Backpack",
+      "cost": "2 gp",
+      "weight": 2
+    },
+    {
+      "name": "Bedroll",
+      "cost": "1 sp",
+      "weight": 5
+    },
+    {
+      "name": "Belt Pouch, Large",
+      "cost": "1 gp",
+      "weight": 1
+    },
+    {
+      "name": "Belt Pouch, Small",
+      "cost": "7 sp",
+      "weight": 0.5
+    },
+    {
+      "name": "Candle",
+      "cost": "1 cp",
+      "weight": 0
+    },
+    {
+      "name": "Chain, 10 ft.",
+      "cost": "30 gp",
+      "weight": 3
+    },
+    {
+      "name": "Chest, Small",
+      "cost": "1 gp",
+      "weight": 25
+    },
+    {
+      "name": "Chest, Large",
+      "cost": "2 gp",
+      "weight": 50
+    },
+    {
+      "name": "Crowbar",
+      "cost": "2 gp",
+      "weight": 5
+    },
+    {
+      "name": "Dry Rations, 1 week",
+      "cost": "10 gp",
+      "weight": 10
+    },
+    {
+      "name": "Flint and Steel",
+      "cost": "5 sp",
+      "weight": 0
+    },
+    {
+      "name": "Grappling Hook",
+      "cost": "8 sp",
+      "weight": 4
+    },
+    {
+      "name": "Holy Symbol, Wooden",
+      "cost": "1 gp",
+      "weight": 0
+    },
+    {
+      "name": "Holy Symbol, Silver",
+      "cost": "25 gp",
+      "weight": 0.5
+    },
+    {
+      "name": "Holy Water, Vial",
+      "cost": "25 gp",
+      "weight": 0.5
+    },
+    {
+      "name": "Iron Spikes, 12",
+      "cost": "1 gp",
+      "weight": 5
+    },
+    {
+      "name": "Lantern, Hooded",
+      "cost": "7 gp",
+      "weight": 2
+    },
+    {
+      "name": "Lantern, Bullseye",
+      "cost": "12 gp",
+      "weight": 3
+    },
+    {
+      "name": "Mirror, Small Metal",
+      "cost": "10 gp",
+      "weight": 0.5
+    },
+    {
+      "name": "Oil, Flask",
+      "cost": "1 sp",
+      "weight": 1
+    },
+    {
+      "name": "Pitons, 12",
+      "cost": "3 gp",
+      "weight": 5
+    },
+    {
+      "name": "Pole, 10 ft.",
+      "cost": "3 sp",
+      "weight": 8
+    },
+    {
+      "name": "Quiver",
+      "cost": "8 sp",
+      "weight": 1
+    },
+    {
+      "name": "Rope, Hemp (50 ft.)",
+      "cost": "1 gp",
+      "weight": 20
+    },
+    {
+      "name": "Rope, Silk (50 ft.)",
+      "cost": "10 gp",
+      "weight": 8
+    },
+    {
+      "name": "Sack, Large",
+      "cost": "2 sp",
+      "weight": 0.5
+    },
+    {
+      "name": "Sack, Small",
+      "cost": "5 cp",
+      "weight": 0.5
+    },
+    {
+      "name": "Spellbook, Blank",
+      "cost": "50 gp",
+      "weight": 3
+    },
+    {
+      "name": "Thieves' Picks and Tools",
+      "cost": "30 gp",
+      "weight": 1
+    },
+    {
+      "name": "Tinderbox",
+      "cost": "8 sp",
+      "weight": 1
+    },
+    {
+      "name": "Torches, 6",
+      "cost": "1 sp",
+      "weight": 6
+    },
+    {
+      "name": "Waterskin",
+      "cost": "8 sp",
+      "weight": 4
+    },
+    {
+      "name": "Winter Blanket",
+      "cost": "5 sp",
+      "weight": 3
+    },
+    {
+      "name": "Wineskin",
+      "cost": "8 sp",
+      "weight": 1
+    },
+    {
+      "name": "Chalk, 1 piece",
+      "cost": "1 cp",
+      "weight": 0
+    }
+  ],
+  "_comment_melee_weapons": "PHB Table 44: Nahkampfwaffen. damage_sm: Schaden vs. Small/Medium, damage_l: Schaden vs. Large. speed: Waffengeschwindigkeit (Init-Modifier). weight: Gewicht in Pfund. size: S/M/L. type: B=Bludgeoning, P=Piercing, S=Slashing. cost_gp: Kosten in Goldmuenzen (0 = kostenlos).",
+  "_comment_missile_weapons": "PHB Table 45-46: Fernkampfwaffen. rof: Rate of Fire (Schuss pro Runde). range_s/m/l: Kurz/Mittel/Lang-Reichweite in Yards. weight: Gewicht des Bogens/der Waffe in Pfund. cost_gp: Kosten der Waffe (Munition separat).",
+  "_comment_nonweapon_proficiencies": "PHB Chapter 5: Nicht-Waffenfertigkeiten. relevant_ability: massgebliches Attribut, 'NA' = kein Check. modifier: Modifikator auf den Attributswert. slots: benoetigte Fertigkeitsslots. groups: Klassengruppen (general=alle, sonst Extrakosten).",
+  "_comment_armor_catalog": "PHB Table 43: Ruestungskatalog. ac: Ruestungsklasse. weight: Gewicht in Pfund. cost_gp: Kosten in Goldmuenzen. bulk: normal=kein Malus, bulky=Einschraenkungen bei Geschicklichkeit und Fertigkeiten.",
+  "_comment_adventuring_gear": "PHB Appendix: Abenteuerausruestung. cost: Kosten (Einheit: gp=Goldmuenzen, sp=Silbermuenzen, cp=Kupfermuenzen). weight: Gewicht in Pfund (0 = vernachlaessigbar)."
 }

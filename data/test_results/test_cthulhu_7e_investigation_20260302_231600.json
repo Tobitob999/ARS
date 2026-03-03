@@ -1,0 +1,121 @@
+{
+  "module": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "case_id": 2,
+  "case_name": "investigation",
+  "expected_tags": {
+    "PROBE": 3,
+    "FERTIGKEIT_GENUTZT": 1,
+    "FAKT": 1
+  },
+  "total_turns": 5,
+  "total_latency_ms": 14670.15469999751,
+  "avg_latency_ms": 2934.030939999502,
+  "avg_response_chars": 256.8,
+  "avg_sentences": 4.6,
+  "total_probes": 2,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich nehme den Auftrag an und gehe ins Zeitungsarchiv.",
+      "keeper_response": "Ein nueschternes Nicken von Mr. Knott. Seine Augen sind kalt, aber zufrieden. [STIMME:scholar] \"Diskretion ist alles. Sie finden die Akteure. Ich sorge fuer den Rest.\" [STIMME:keeper] Das Zeitungsarchiv ist ein Labyrinth aus alternden Regalreihen. Der Duft von Staub und vergilbtem Papier liegt schwer in der Luft. Ein leises Rascheln begleitet Sie. [ZEIT_VERGEHT: 0.5h] [AKTUELLER_ORT: Zeitungsarchiv]\n\nWas suchen Sie in diesem Meer aus vergessenen Nachrichten?",
+      "response_chars": 462,
+      "response_sentences": 9,
+      "latency_ms": 2132.0068999993964,
+      "tags_found": [
+        "ZEIT_VERGEHT",
+        "STIMME"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich recherchiere alte Berichte ueber das Corbitt-Haus.",
+      "keeper_response": "Der Geruch von altem Papier und Druckerschwaerze liegt in der Luft. Endlose Reihen vergilbter Zeitungen starren dich an. Du beginnst deine Suche nach Hinweisen zum Corbitt-Haus. [PROBE: Bibliotheksnutzung | 55] [ZEIT_VERGEHT: 2h]",
+      "response_chars": 229,
+      "response_sentences": 3,
+      "latency_ms": 2186.3118999972357,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich pruefe die Sterberegister nach Walter Corbitt.",
+      "keeper_response": "Die Sterberegister liegen nicht hier. Sie sind in den staedtischen Registern verzeichnet. Dort findest du auch alles zu Walter Corbitt. [ZEIT_VERGEHT: 0.5h]\nWirst du zur Hall of Records gehen?",
+      "response_chars": 192,
+      "response_sentences": 4,
+      "latency_ms": 2062.578199998825,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich untersuche die Kirchenakten auf Hinweise.",
+      "keeper_response": "Die Kirchenakten sind nicht hier. Solche sensiblen Dokumente finden sich in der Hall of Records. Dort koenntest du fündig werden. [ZEIT_VERGEHT: 0.5h]\nWas tust du?",
+      "response_chars": 163,
+      "response_sentences": 4,
+      "latency_ms": 3380.089799997222,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich betrete das Corbitt-Haus und schaue mich im Erdgeschoss um.",
+      "keeper_response": "Das Haus an der Sheafe Street 20 steht stumm. Eine unnatürliche Kühle geht von ihm aus. Modergeruch schlägt dir entgegen, als du die Tür öffnest und einen Blick in die dusteren Raeume wirfst. [PROBE: Wahrnehmung | 45] [ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 238,
+      "response_sentences": 3,
+      "latency_ms": 4909.167900004832,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

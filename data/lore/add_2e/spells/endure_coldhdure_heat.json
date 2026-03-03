@@ -1,7 +1,7 @@
 {
   "schema_version": "1.2.1",
-  "id": "endure_coldhdure_heat",
-  "name": "Endure Coldhdure Heat",
+  "id": "endure_cold_endure_heat",
+  "name": "Endure Cold/Endure Heat",
   "compatible_rulesets": [
     "add_2e"
   ],
@@ -12,7 +12,7 @@
     "player_handbook",
     "appendix_conversion"
   ],
-  "summary": "Endure Coldhdure Heat (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "summary": "Endure Cold/Endure Heat (Alteration) aus dem AD&D 2e Player's Handbook. Reversible spell — protects creature from temperature extremes.",
   "source_text": {
     "book": "Player's Handbook (2nd Edition)",
     "appendix": 4,
@@ -30,19 +30,19 @@
     "school_or_type": "Alteration",
     "parser": "header_block_v3_1",
     "spell_card": {
-      "name": "Endure Coldhdure Heat",
+      "name": "Endure Cold/Endure Heat",
       "canonical_name_guess": null,
       "school_or_type": "Alteration",
-      "range": null,
-      "components": null,
-      "duration": null,
-      "casting_time": null,
-      "area_of_effect": null,
-      "saving_throw": null,
-      "description_excerpt": "creature entering the area is subject to this effect. A creature that rolls a successful sav- ing throw vs. spell can escape the area, moving at only 10 feet per round until out of the area. Exceptionally large (gargantuan) or strong creatures may suffer little or no distress from this spell, at the DMs option, based on the strength of the entangling plants. The material component is the caster's holy symbol."
+      "range": "Touch",
+      "components": "V, S",
+      "duration": "1 hour/level",
+      "casting_time": "1 round",
+      "area_of_effect": "Creature touched",
+      "saving_throw": "None",
+      "description_excerpt": "The creature receiving this spell is protected from normal extremes of cold or heat (caster selects at casting). Protects from -30F to 130F without ill effect. [Beschreibung unvollstaendig — siehe PHB p.200]"
     },
     "quality_flags": [
-      "missing_standard_fields"
+      "ocr_name_corrected"
     ]
   }
 }

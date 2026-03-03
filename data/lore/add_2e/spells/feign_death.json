@@ -34,15 +34,13 @@
       "canonical_name_guess": null,
       "school_or_type": "Necromancy",
       "range": "Touch",
-      "components": null,
+      "components": "V",
       "duration": "1 turn + 1 round/level",
-      "casting_time": "V2",
+      "casting_time": "1/2",
       "area_of_effect": "Person touched",
       "saving_throw": "None",
       "description_excerpt": "By means of this spell, the caster or any other willing person can be put into a cata- leptic state that is impossible to distinguish from actual death. Although the person affected can smell, hear, and know what is going on, no feeling or sight of any sort is possible; thus, any wounding or mistreat- ment of the body is not felt, no reaction occurs, and damage is only one-half nor- mal. In addition, paralysis, poison, or energy level drain does not affect a person under the influence of this spell, but poison injected or otherwise introduced into the body becomes effective when the spell recip- ient is no longer under the influence of this spell, although a saving throw is permitted. However, the spell offers no protection from causes of certain death-being crushed under a landslide, etc. Only a willing indi- vidual can be affected by a feign denth spell. The priest is able to end the s"
     },
-    "quality_flags": [
-      "missing_standard_fields"
-    ]
+    "quality_flags": []
   }
 }

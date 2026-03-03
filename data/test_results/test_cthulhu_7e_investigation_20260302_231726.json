@@ -1,0 +1,183 @@
+{
+  "module": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "case_id": 2,
+  "case_name": "investigation",
+  "expected_tags": {
+    "PROBE": 3,
+    "FERTIGKEIT_GENUTZT": 1,
+    "FAKT": 1
+  },
+  "total_turns": 8,
+  "total_latency_ms": 12415.739500014752,
+  "avg_latency_ms": 1551.967437501844,
+  "avg_response_chars": 313.625,
+  "avg_sentences": 4.875,
+  "total_probes": 4,
+  "total_combat_tags": 0,
+  "total_stat_changes": 1,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich nehme den Auftrag an und gehe ins Zeitungsarchiv.",
+      "keeper_response": "Sie nehmen den Auftrag an, die drueckende Luft in Knotts Buero hinter sich lassend. Die Fahrt durch die wachen Strassen Arkhams fuehlt sich schnell an. Sie erreichen das staubige Zeitungsarchiv.\n\nDer Geruch alten Papiers liegt schwer in der Luft. Reihen ueber Reihen von Mikrofilmen und vergilbten Ausgaben warten. [ZEIT_VERGEHT: 0.5h] [PROBE: Bibliotheksnutzung | 55] Was suchen Sie zuerst?",
+      "response_chars": 391,
+      "response_sentences": 6,
+      "latency_ms": 2814.0108000006876,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich recherchiere alte Berichte ueber das Corbitt-Haus.",
+      "keeper_response": "Ihre Recherche ist ungewoehnlich schnell und tiefgruendig. Sie finden nicht nur die Unfallmeldungen, sondern erkennen ein erschreckendes Muster. Die Vorfaelle ereignen sich immer im selben Haus, die Opfer verschwinden oder enden in Wahnsinn.\n\nCorbitt war ein wichtiger Mann der Church of Contemplation. Die Akten sprechen von einem Kult, der dem Kriechenden Chaos dient. Ein kalter Schauer laeuft Ihnen ueber den Ruecken.\n[FAKT: {\"auftrag_dossier\": true}]\n[FAKT: {\"zeitung_unfaelle\": true}]\n[FAKT: {\"zeitung_corbitt\": true}]\n[FAKT: {\"corbitt_kirche\": true}]\n[STABILITAET_VERLUST: 1]\n[FERTIGKEIT_GENUTZT: Bibliotheksnutzung]\n[ZEIT_VERGEHT: 2h]\nWas tun Sie als Naechstes?",
+      "response_chars": 669,
+      "response_sentences": 7,
+      "latency_ms": 3094.4756000026246,
+      "tags_found": [
+        "STABILITAET_VERLUST",
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 1,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 4,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich pruefe die Sterberegister nach Walter Corbitt.",
+      "keeper_response": "Sie finden vergilbte Artikel ueber das Corbitt-Haus. Mehrere Bewohner flohen entsetzt. Sie berichten von unheimlichen Albträumen und Poltergeistaktivitaeten. Eine Familie sprach sogar von Stimmen aus den Wänden.\n\nDas Muster wiederholt sich über Jahrzehnte. Was moechten Sie als naechstes tun? [FAKT: {\"zeitung_unfaelle\": true}] [ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 348,
+      "response_sentences": 6,
+      "latency_ms": 1312.5217000051634,
+      "tags_found": [
+        "ZEIT_VERGEHT",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich untersuche die Kirchenakten auf Hinweise.",
+      "keeper_response": "Sie verlassen das staubige Zeitungsarchiv. Die Hall of Records, ein kuehles, formales Gebaeude, empfaengt Sie mit dem Geruch von Papier und Tinte. Die Suche in den alten Registern verlangt Genauigkeit. [PROBE: Recht | 35] [ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 242,
+      "response_sentences": 3,
+      "latency_ms": 2558.5120000032475,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich betrete das Corbitt-Haus und schaue mich im Erdgeschoss um.",
+      "keeper_response": "Sie kehren zurueck in die Hall of Records. Die alten Kirchenakten sind hier eingelagert. Sie sind voller staubiger Details und vergessener Geschichten. [PROBE: Bibliotheksnutzung | 55] [ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 205,
+      "response_sentences": 3,
+      "latency_ms": 830.8227000015904,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 6,
+      "player_input": "Ich suche nach versteckten Tueren oder Zugaengen.",
+      "keeper_response": "Die Kirchenakten sind ein Labyrinth. Namen, Daten, kleine Geschichten von Gemeindemitgliedern. Sie finden nichts Besonderes ueber Corbitt. Nur allgemeine Eintraege. Die Suche fuehrt ins Leere. [ZEIT_VERGEHT: 1h]\n\nWas tun Sie als naechstes?",
+      "response_chars": 239,
+      "response_sentences": 6,
+      "latency_ms": 428.42479999671923,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 7,
+      "player_input": "Ich oeffne die Kellertuer und steige hinab.",
+      "keeper_response": "Sie durchsuchen das Erdgeschoss, jeden Winkel. Ihr Blick gleitet ueber die Tapeten und moegliche Unregelmaessigkeiten. Der Geruch nach Moder wird staerker. [PROBE: Verborgenes erkennen | 35] [ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 211,
+      "response_sentences": 3,
+      "latency_ms": 776.3974000044982,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 8,
+      "player_input": "Ich untersuche den Sarkophag genauer.",
+      "keeper_response": "Der Kellerzugang ist im Flur. Die schwere Holztuer knarrt leise. Ein kalter Luftzug schlaegt Ihnen entgegen. Sie steigen die modrigen Stufen hinab. [ZEIT_VERGEHT: 0.5h]\n\nDer Keller ist finster und feucht.",
+      "response_chars": 204,
+      "response_sentences": 5,
+      "latency_ms": 600.5745000002207,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

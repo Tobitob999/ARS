@@ -1,0 +1,84 @@
+{
+  "module": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "case_id": 2,
+  "case_name": "investigation",
+  "expected_tags": {
+    "PROBE": 3,
+    "FERTIGKEIT_GENUTZT": 1,
+    "FAKT": 1
+  },
+  "total_turns": 3,
+  "total_latency_ms": 26598.759300002712,
+  "avg_latency_ms": 8866.253100000904,
+  "avg_response_chars": 472.6666666666667,
+  "avg_sentences": 7.0,
+  "total_probes": 1,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich nehme den Auftrag an und gehe ins Zeitungsarchiv.",
+      "keeper_response": "Eine kühle Ernsthaftigkeit legt sich über Knotts Gesicht. [STIMME:scholar] \"Diskretion ist der Schlüssel, mein Freund. Ich erwarte Ergebnisse.\" [STIMME:keeper] Er reicht Ihnen einen Umschlag. Der Blick des Mannes ist bohrend, fast warnend.\n\nSie verlassen sein Büro. Die geschäftige Morgenhektik der Stadt empfängt Sie. Der Weg zum Zeitungsarchiv ist kurz. [ZEIT_VERGEHT: 0.5h] [TAGESZEIT: 08:30]\nDicke Staubschichten liegen auf alten Zeitungsbänden. Die Luft ist schwer und riecht nach Papier und Vergänglichkeit. Leises Rascheln von Seiten und hustende Archivare erfüllen den Raum.\n\nWas suchen Sie in diesen vergilbten Aufzeichnungen?",
+      "response_chars": 635,
+      "response_sentences": 11,
+      "latency_ms": 20491.249899998365,
+      "tags_found": [
+        "ZEIT_VERGEHT",
+        "TAGESZEIT",
+        "STIMME"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich recherchiere alte Berichte ueber das Corbitt-Haus.",
+      "keeper_response": "Das Zeitungsarchiv ist ein Labyrinth aus Stille und altem Papier. Zwischen hohen Regalen liegt der Geruch von vergilbter Geschichte. Sie beginnen Ihre Suche nach Walter Corbitt und seinem Haus. [PROBE: Bibliotheksnutzung | 55] [ZEIT_VERGEHT: 2h]",
+      "response_chars": 245,
+      "response_sentences": 3,
+      "latency_ms": 4620.9364000023925,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich pruefe die Sterberegister nach Walter Corbitt.",
+      "keeper_response": "Sie durchforsten vergilbte Zeitungsstapel und Mikrofilmrollen. Die Artikel sprechen von seltsamen Unfällen. In den letzten Jahrzehnten gab es mehrere Mieterwechsel in der Sheafe Street 20. Stets endeten die Mietverhältnisse abrupt, oft nach mysteriösen Vorfällen und Beschwerden.\n\nImmer wieder ist von unerklärlichen Schäden die Rede, von plötzlichen Krankheiten oder von unerklärlicher Panik der Bewohner. Keine banale Ursache wurde jemals gefunden. [FERTIGKEIT_GENUTZT: Bibliotheksnutzung]\nWas tun Sie als Nächstes? [ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 538,
+      "response_sentences": 7,
+      "latency_ms": 1486.573000001954,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

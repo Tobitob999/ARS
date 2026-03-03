@@ -1,8 +1,24 @@
 {
-    "id":  "bloody_altar",
-    "module_type":  "event",
-    "trigger_condition":  "Examining defiled shrine",
-    "damage":  "none",
-    "saving_throw":  "none",
-    "effect_description":  "Narrative dungeon dressing or encounter hook."
+    "id": "bloody_altar",
+    "module_type": "event",
+    "trigger_condition": "Examining defiled shrine",
+    "damage": "none",
+    "saving_throw": "none",
+    "effect_description": "Ein verfluchter Opferaltar — frisches Blut bedeckt den Stein, und wer die Inschrift liest oder das Opferrequisit berührt, riskiert den Zorn eines dunklen Gottes.",
+    "description": "Ein flacher Steinblock, schwarz vom Blut vergangener Opfer, dominiert den Raum. Frische Blutspuren — noch nicht geronnen — führen zur Altarmitte, wo ein ritueller Dolch aus knochenweißem Obsidian liegt. Aus unsichtbarer Quelle füllt sich der Raum mit dem schwachen Geruch nach verbranntem Fleisch und Weihrauch. Eine eingeritzte Inschrift in der Sprache der Unterwelt flackert, als das Fackellicht die Zeichen streift.",
+    "monsters": [],
+    "tactics": "Kein direkter Kampf, aber magische Konsequenzen: Berühren des Dolches ohne Reinigungsritus löst einen Fluch aus. Ein Kleriker kann mit einer erfolgreichen Wende-Probe die Negativenergie neutralisieren.",
+    "environment": "Rechteckige Kultkammer (15x20 Fuß), der Altar im Zentrum erhöht auf einem zweistufigen Podest. Wandfresken zeigen Opferrituale. Eine rostige Eisentür im Norden ist unverschlossen.",
+    "difficulty": "moderate",
+    "loot": [
+        {"item": "Obsidian-Ritualdolch (magisches Handwerkszeug, 1d4+1 Schaden, böse ausgerichtet)", "value": "80 GM"},
+        {"item": "Silberne Opferschale (blutig)", "value": "25 SM"},
+        {"item": "Beutel mit 15 schwarzen Kerzen (Ritualzubehör)", "value": "3 SM"}
+    ],
+    "cr_equivalent": "2-4",
+    "special_rules": {
+        "touch_curse": "Berühren des Dolches ohne Schutzsegen: Rettungswurf vs. Zauber oder Fluch (-2 auf alle Würfe für 24 Stunden; Kleriker-Zauber 'Fluch brechen' hebt auf)",
+        "cleric_interaction": "Guter Kleriker: Wende-Probe; Erfolg neutralisiert Negativenergie und reinigt Altar (50 XP Bonus). Böser Kleriker: Altar gewährt Segen (+1 auf Zauber für 1 Stunde).",
+        "inscription_read": "Kann nur von jemandem mit 'Böse Sprachen lesen' oder 'Magie lesen' gelesen werden — enthüllt Hinweis auf Dungeonboss oder verborgenen Schatz"
+    }
 }

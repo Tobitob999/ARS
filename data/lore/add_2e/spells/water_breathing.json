@@ -37,12 +37,10 @@
       "components": "V, S",
       "duration": "1 hour/level",
       "casting_time": "6",
-      "area_of_effect": null,
+      "area_of_effect": "Creature touched",
       "saving_throw": "None",
       "description_excerpt": "Note that neither version prevents the recip- ient creature from breathing in its natural element."
     },
-    "quality_flags": [
-      "missing_standard_fields"
-    ]
+    "quality_flags": []
   }
 }

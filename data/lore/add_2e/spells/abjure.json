@@ -1,7 +1,7 @@
 {
   "schema_version": "1.2.1",
   "id": "abjure",
-  "name": "AbJure",
+  "name": "Abjure",
   "compatible_rulesets": [
     "add_2e"
   ],
@@ -12,7 +12,7 @@
     "player_handbook",
     "appendix_conversion"
   ],
-  "summary": "AbJure (Abjuration) aus dem AD&D 2e Player's Handbook.",
+  "summary": "Abjure (Abjuration) aus dem AD&D 2e Player's Handbook.",
   "source_text": {
     "book": "Player's Handbook (2nd Edition)",
     "appendix": 4,
@@ -34,20 +34,17 @@
     "school_or_type": "Abjuration",
     "parser": "header_block_v3_1",
     "spell_card": {
-      "name": "AbJure",
+      "name": "Abjure",
       "canonical_name_guess": null,
       "school_or_type": "Abjuration",
       "range": "10 yards",
       "components": "V, S, M",
       "duration": "Special",
       "casting_time": "1 round",
-      "area_of_effect": null,
-      "saving_throw": null,
-      "description_excerpt": "Area of W: 1 creature saving mow: special This spell can send an extrapmar crea- ture back to its own plane of existence. The spell fails against entities of demigod status or greater, but their servants or midons can be abjured. If the creature has a specific (proper) name, then that must be known and used. Any magic reaicrtance ofthesub- ject must be overcome, or the spell fails. lk priest has a 50% chance of success (a roll of 11 or better on ld20). The roll is adjusted by the difference in level or Hit Dice the caster and the creature being &jd: the number needed is decreased if the priest has more Hit Dice and increased if the crea- ture has more Hit Dice. If the spell is suc- cessful, the creature is instantly hrvkd back to its own plane. The afkatd meatwe must s&ve a system shodc check. If the ape- ture does not have a Conetitutian score, the requiredroll is 70% + 2%/Hit Dieor Icv"
+      "area_of_effect": "1 creature",
+      "saving_throw": "Special",
+      "description_excerpt": "Area of W: 1 creature saving mow: special This spell can send an extrapmar crea- ture back to its own plane of existence. The spell fails against entities of demigod status or greater, but their servants or midons can be abjured. If the creature has a specific (proper) name, then that must be known and used. Any magic reaicrtance ofthesub- ject must be overcome, or the spell fails. lk priest has a 50% chance of success (a roll of 11 or better on ld20). The roll is adjusted by the difference in level or Hit Dice the caster and the creature being &jd: the number needed is decreased if the priest has more Hit Dice and increased if the crea- ture has more Hit Dice. If the spell is suc- cessful, the creature is instantly hrvkd back to its own plane. The afkatd meatwe must s&ve a system shodc check. If the ape- ture does not have a Conetitutian score, the requiredroll is 70% + 2%/Hit Dieor Icv [Beschreibung unvollstaendig — siehe PHB]"
     },
-    "quality_flags": [
-      "missing_standard_fields",
-      "trimmed_merged_block"
-    ]
+    "quality_flags": []
   }
 }

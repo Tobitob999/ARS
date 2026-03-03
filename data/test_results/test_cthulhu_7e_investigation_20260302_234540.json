@@ -1,0 +1,125 @@
+{
+  "module": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "case_id": 2,
+  "case_name": "investigation",
+  "expected_tags": {
+    "PROBE": 3,
+    "FERTIGKEIT_GENUTZT": 1,
+    "FAKT": 1
+  },
+  "total_turns": 5,
+  "total_latency_ms": 10786.067400003958,
+  "avg_latency_ms": 2157.2134800007916,
+  "avg_response_chars": 354.4,
+  "avg_sentences": 5.4,
+  "total_probes": 3,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich nehme den Auftrag an und gehe ins Zeitungsarchiv.",
+      "keeper_response": "Eine kühle, geschäftliche Nicken ist Knotts einzige Reaktion. Er schiebt einen Umschlag über den Schreibtisch. [STIMME:scholar] \"Sorgen Sie für Diskretion.\" [STIMME:keeper] Seine Augen fixieren Sie kurz. Sie verlassen sein Büro.\n\nDie Stadt erwacht langsam um Sie herum. Der Morgenverkehr setzt ein. Sie erreichen das staubige Zeitungsarchiv. Der Geruch von altem Papier liegt schwer in der Luft. Was wollen Sie finden?\n\n[ZEIT_VERGEHT: 0.5h]\n[ORT: Zeitungsarchiv]\n[FAKT: {\"auftrag_angenommen\": true}]\n[INVENTAR: Auftragsakte | gefunden]",
+      "response_chars": 535,
+      "response_sentences": 9,
+      "latency_ms": 1677.9225000063889,
+      "tags_found": [
+        "INVENTAR",
+        "ZEIT_VERGEHT",
+        "FAKT",
+        "STIMME"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 1,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich recherchiere alte Berichte ueber das Corbitt-Haus.",
+      "keeper_response": "Das Zeitungsarchiv riecht nach altem Papier und feinem Staub. Zwischen hohen Regalen suchen Sie nach Berichten über die Sheafe Street 20. Die alten Schlagzeilen verblassen in der dämmrigen Halle. [ZEIT_VERGEHT: 1h]\n[PROBE: Bibliotheksnutzung | 50]",
+      "response_chars": 247,
+      "response_sentences": 3,
+      "latency_ms": 1648.4373999992386,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich pruefe die Sterberegister nach Walter Corbitt.",
+      "keeper_response": "Ihre Finger gleiten über vergilbte Register. Sie finden Artikel, die die Geschichte des Hauses Sheafe Street 20 beleuchten. Immer wieder verschwanden Mieter oder flohen panisch. Die Berichte reichen Jahrzehnte zurück. [FAKT: {\"zeitung_unfaelle_gefunden\": true}]\n[FERTIGKEIT_GENUTZT: Bibliotheksnutzung]\nWas interessiert Sie als Nächstes in diesen alten Zeitungsbänden?",
+      "response_chars": 368,
+      "response_sentences": 5,
+      "latency_ms": 1388.7395999990986,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 0,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich untersuche die Kirchenakten auf Hinweise.",
+      "keeper_response": "Sie legen die alten Zeitungen beiseite. Ein Wechsel des Ortes ist nötig, um offizielle Sterberegister einzusehen. [ZEIT_VERGEHT: 0.5h]\n\nSie erreichen das Hall of Records. Hier herrscht eine kühle, formale Atmosphäre. Der Geruch von Papier und Stempelfarbe liegt in der Luft. [ORT: Hall of Records]\nWas ist Ihr Vorgehen, um die Aufzeichnungen von Walter Corbitt zu finden? [PROBE: Recht | 40]",
+      "response_chars": 391,
+      "response_sentences": 6,
+      "latency_ms": 1844.0603999988525,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich betrete das Corbitt-Haus und schaue mich im Erdgeschoss um.",
+      "keeper_response": "Die Beamtin schnaubt leise bei Ihrer Frage. Kirchenakten sind nicht öffentlich zugänglich. Sie bräuchten einen besonderen Antrag oder direkten Kontakt. Sie müssen tiefer graben. [ZEIT_VERGEHT: 0.5h]\n[PROBE: Bibliotheksnutzung | 55]",
+      "response_chars": 231,
+      "response_sentences": 4,
+      "latency_ms": 4226.9075000003795,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

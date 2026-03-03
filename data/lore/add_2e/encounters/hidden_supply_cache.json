@@ -1,8 +1,28 @@
 {
-    "id":  "hidden_supply_cache",
-    "module_type":  "event",
-    "trigger_condition":  "Successful search of storage wall",
-    "damage":  "none",
-    "saving_throw":  "none",
-    "effect_description":  "Narrative dungeon dressing or encounter hook."
+    "id": "hidden_supply_cache",
+    "module_type": "event",
+    "trigger_condition": "Successful search of storage wall",
+    "damage": "none",
+    "saving_throw": "none",
+    "effect_description": "Eine vergessene oder absichtlich versteckte Vorratskammer belohnt gründliche Sucher mit Ausrüstung, Nahrung und vielleicht einem Hinweis auf frühere Dungeon-Expedition.",
+    "description": "Hinter einer lose sitzenden Wandverkleidung — erkennbar nur durch einen minimalen Hohlklang beim Abklopfen — findet sich ein schmaler Wandschrank, kaum einen Fuß tief aber zwei Meter breit. Wachsgetränkte Leinensäcke schützen den Inhalt vor der Feuchtigkeit. Jemand hat hier mit Bedacht und Heimlichkeit einen Notvorrat angelegt — und musste ihn offensichtlich in Eile zurücklassen.",
+    "monsters": [],
+    "tactics": "Kein Kampf. Aber: Das Öffnen des Verstecks ist laut (Schaber und Klacken von Steinen) — Geräuschprobe für nahe Dungeon-Bewohner (W10 von 1-3: Patrouille in der Nähe wird aufmerksam).",
+    "environment": "Vorratskammer oder Korridor mit mehreren Wandsegmenten; das Versteck sitzt hinter dem dritten Wandpaneel von links, identisch in der Farbe aber mit hohl klingendem Untergrund.",
+    "difficulty": "easy",
+    "loot": [
+        {"item": "Reiseration für 5 Personen, 3 Tage (getrocknetes Fleisch, Hartkäse)", "value": "15 SM"},
+        {"item": "Ölflasche (3 Füllengen für Laternen)", "value": "3 SM"},
+        {"item": "Seil, 30 Fuß, guter Zustand", "value": "1 SM"},
+        {"item": "Verbandsmaterial für 4 Wunden", "value": "4 SM"},
+        {"item": "Versiegelter Brief (an unbekannten Empfänger — Story-Hinweis)", "value": "DM-Ermessen"},
+        {"item": "Kleiner Ledergeldbeutel: 2d6 GM und 3d10 SM", "value": "2d6 GM + 3d10 SM"}
+    ],
+    "cr_equivalent": "1-5",
+    "special_rules": {
+        "discovery_method": "Suche (1-in-6 pro 10-Fuß-Abschnitt Wand) oder Abklopfen (automatisch bei gründlicher Suche mit 1 Runde Zeitaufwand); Diebe: +2 auf Suchwurf",
+        "noise_check": "Öffnen des Verstecks: W10 von 1-3 = Patrouille wird aufmerksam (erscheint in 2d4 Runden)",
+        "trap_on_cache": "W6 von 1: Cache ist gegen Diebstahl gesichert — kleiner Nadel-Giftstich am Griffpunkt (1d4 Schaden + Rettungswurf vs. Gift oder 1d4 STR Verlust für 1d6 Stunden)",
+        "letter_contents": "Der Brief enthüllt: Hinweis auf Dungeonboss (Name, Schwäche, Raumposition) ODER früherer Überlebender wartet auf Hilfe ODER Schatz-Koordinaten (Karte des Dungeon-Flügels)"
+    }
 }

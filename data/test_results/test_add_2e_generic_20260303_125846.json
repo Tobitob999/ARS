@@ -1,0 +1,484 @@
+{
+  "module": "add_2e",
+  "adventure": "crawltraining_full",
+  "case_id": 1,
+  "case_name": "generic",
+  "expected_tags": {},
+  "total_turns": 20,
+  "total_latency_ms": 133611.4601999725,
+  "avg_latency_ms": 6680.573009998625,
+  "avg_response_chars": 1166.9,
+  "avg_sentences": 15.45,
+  "total_probes": 32,
+  "total_combat_tags": 27,
+  "total_stat_changes": 3,
+  "total_rules_warnings": 24,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich betrete die Taverne und schaue mich um.",
+      "keeper_response": "Du findest dich nicht in den warmen Lichtern einer Taverne, sondern in einer gruftaehnlichen Eingangshalle wieder. Kalter, modriger Geruch schlaegt dir entgegen. Der Boden ist mit den Gebeinen unzaehliger Toter bedeckt. Ein leises Scharren erregt deine Aufmerksamkeit am Rande deines Blickfeldes. [PROBE: Wahrnehmung | 12]\nDie Dunkelheit taeuscht deine Augen, laesst Schatten tanzen, wo keine sind. Ein klapperndes Geräusch schwillt an, als die Skelette vor euch zum Angriff übergehen. Ihre rostigen Klingen kommen mit erschreckender Geschwindigkeit auf Grimjaw und Sir Kael zu. [FERTIGKEIT_GENUTZT: Wahrnehmung]\n\n[Runde 1 — Initiative: Spieler 10 vs Monster 6 — Monster handeln zuerst]\n[ANGRIFF: Rostschwert | 19 | 2 | 0] (Skelett auf Grimjaw)\n[ANGRIFF: Rostschwert | 19 | 2 | 0] (Skelett auf Grimjaw)\n[ANGRIFF: Rostschwert | 19 | 1 | 0] (Skelett auf Sir Kael)\n[ANGRIFF: Rostschwert | 19 | 1 | 0] (Skelett auf Sir Kael)\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 941,
+      "response_sentences": 7,
+      "latency_ms": 6723.4972000005655,
+      "tags_found": [
+        "PROBE",
+        "FERTIGKEIT_GENUTZT",
+        "ANGRIFF",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 4,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Grimjaw Eisenfaust: Greift mit seiner Axt eines der Skelette an.\nSir Kael Zornesklinge: Schwingt sein Langschwert gegen das andere Skelett, das Grimjaw attackierte.\nBruder Mordain: Versucht, die Skelette mit einem göttlichen Zornspruch zu vertreiben (Turn Undead).\nVarn Wildtoeter: Zielt mit seinem Bogen auf ein Skelett und schießt einen Pfeil ab.\nPyra Flammenherz: Wirkt den Zauber \"Brennende Hände\", um mehrere Skelette zu erfassen.\nShade Klingenschatten: Wirft einen Dolch auf ein Skelett.",
+      "keeper_response": "Rostige Klingen sausen herab, suchen nach Fleisch und Knochen. Die Skelette schlagen mit unheimlicher Wucht auf Grimjaw und Sir Kael ein. Doch eure Verteidigung ist stark; die meisten Hiebe prallen ab.\n\nGrimjaw laesst seine Axt kreisen, zielt auf den klappernden Feind vor ihm. Sir Kaels Langschwert saust daneben, findet keinen Halt im Knochengeruest. Bruder Mordain erhebt seine Stimme, ein heiliger Zorn durchzuckt die Luft. Die Untoten zucken zusammen, ein unnatuerliches Zittern geht durch ihre Reihen. Varn spannt seinen Bogen, ein Pfeil zischt davon. Pyra breitet die Arme aus, Flammen zucken in ihren Haenden. Shade wirft einen Dolch.\n\n[ANGRIFF: Battle Axe | 14 | 7 | 0] (Grimjaw auf Skelett 1)\n[ANGRIFF: Long Sword | 15 | 7 | 0] (Sir Kael auf Skelett 2)\n[ANGRIFF: Short Bow | 15 | 7 | 0] (Varn auf Skelett 3)\n[RETTUNGSWURF: Zauber | 14] (Skelett 1 gegen Pyras Burning Hands)\n[RETTUNGSWURF: Zauber | 14] (Skelett 2 gegen Pyras Burning Hands)\n[ANGRIFF: Dagger | 16 | 7 | 0] (Shade auf Skelett 4)\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 1023,
+      "response_sentences": 10,
+      "latency_ms": 18496.599199992488,
+      "tags_found": [
+        "ANGRIFF",
+        "RETTUNGSWURF",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 6,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Grimjaw Eisenfaust: Greift mit seiner Axt erneut das Skelett vor sich an.\nSir Kael Zornesklinge: Schwingt sein Langschwert erneut gegen das Skelett.\nBruder Mordain: Erhebt sein heiliges Symbol und versucht, die Untoten zu vertreiben.\nVarn Wildtoeter: Schiesst einen weiteren Pfeil auf das nächste Skelett.\nPyra Flammenherz: Entfesselt einen Kegel aus Flammen auf die Skelette.\nShade Klingenschatten: Wirft einen weiteren seiner scharfen Dolche.",
+      "keeper_response": "Grimjaws Axt pfeift ins Leere, der Schlag verpufft wirkungslos gegen das klappernde Gerippe. Die rostigen Klingen der Skelette schneiden durch die Luft, suchen nach einer Blöße in eurer Verteidigung. Zauberworte hallen durch den Saal, Pfeile zischen. Was tust du inmitten dieses Chaos?\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 306,
+      "response_sentences": 4,
+      "latency_ms": 11236.122999995132,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Grimjaw Eisenfaust: Grimjaw holt mit seiner Axt aus und zielt erneut auf das klappernde Skelett vor ihm.\nSir Kael Zornesklinge: Sir Kael schwingt sein Langschwert mit göttlichem Zorn und versucht, einen Skelettkrieger zu zerschmettern.\nBruder Mordain: Bruder Mordain schlägt mit seinem Streitkolben auf das nächste Untote ein, während er einen kurzen Segensspruch murmelnd.\nVarn Wildtoeter: Varn spannt seinen Bogen und lässt einen weiteren Pfeil auf die Knochenkrieger los.\nPyra Flammenherz: Pyra konzentriert sich und schleudert einen Magischen Geschosshagel auf mehrere Skelette.\nShade Klingenschatten: Shade versucht, sich unbemerkt an ein Skelett heranzuschleichen, um einen präzisen Stich anzubringen.",
+      "keeper_response": "Die klappernden Angriffe der Skelette treffen Grimjaws schwere Rüstung und Sir Kaels Schild. Ein Schlag gleitet über Varns Schulter, doch die Rüstung hält stand. Ein Knochenschwert trifft Varns Seite. [HP_VERLUST: Varn Wildtoeter | 3]\n\n[Runde 3 — Initiative: Spieler 5 vs Monster 8 — Spieler handeln zuerst]\n\nGrimjaws Axt rauscht erneut. Sir Kael schneidet mit seinem Langschwert. Bruder Mordains heiliges Symbol leuchtet hell. Ein Welle reinen Lichts überrollt die verbleibenden Untoten. Ihre leeren Augenhöhlen erlöschen, die Skelette fallen klappernd in sich zusammen und versuchen, zu fliehen. Varn zielt mit seinem Bogen. Pyra entfesselt einen neuen Flammenkegel. Shade wirft seine Klinge.\n\n[ANGRIFF: Battle Axe | 14 | 7 | 0] (Grimjaw auf Skelett 2)\n[ANGRIFF: Long Sword | 15 | 7 | 0] (Sir Kael auf Skelett 3)\n[RETTUNGSWURF: Zauber | 14] (Skelett 2 gegen Pyras Kegel aus Flammen)\n[RETTUNGSWURF: Zauber | 14] (Skelett 3 gegen Pyras Kegel aus Flammen)\n[RETTUNGSWURF: Zauber | 14] (Skelett 4 gegen Pyras Kegel aus Flammen)\n[ANGRIFF: Short Bow | 15 | 7 | 0] (Varn auf Skelett 4)\n[ANGRIFF: Dagger | 16 | 7 | 0] (Shade auf Skelett 4)\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 1153,
+      "response_sentences": 11,
+      "latency_ms": 13272.526300002937,
+      "tags_found": [
+        "ANGRIFF",
+        "RETTUNGSWURF",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 7,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Grimjaw Eisenfaust: Greift die fliehenden Skelette an, die noch in Reichweite sind.\nSir Kael Zornesklinge: Verfolgt die flüchtenden Skelette, um sie zu vernichten.\nBruder Mordain: Wirkt einen Heilzauber auf Varn, um seine Wunden zu versorgen.\nVarn Wildtoeter: Zielt mit seinem Bogen auf die flüchtenden Skelette.\nPyra Flammenherz: Scannt die Halle nach weiteren Untoten oder versteckten Wegen.\nShade Klingenschatten: Sucht sofort nach Fallen und geheimen Türen im Bereich.",
+      "keeper_response": "Die Flammen zünden das letzte Skelett. Ein schreckliches Knistern ertönt, als das Gerippe zu einer rauchenden Ansammlung verkohlter Knochen zerfällt. Die Stille der Halle kehrt zurück, unterbrochen nur vom Wind, der durch die zerbrochenen Säulen pfeift.\n\nDer Kampf ist beendet. Die Gefahr ist gebannt.\n[INVENTAR: Skelett-Krieger | verloren]\n[XP_GEWINN: 65]\n[XP_GEWINN: 260] (Gesamterfahrung für 4 Skelette)\n[ZEIT_VERGEHT: 0.5h]\n\nWas unternimmst du nun in der makabren Halle?",
+      "response_chars": 474,
+      "response_sentences": 6,
+      "latency_ms": 214.79869999166112,
+      "tags_found": [
+        "XP_GEWINN",
+        "INVENTAR",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 2,
+      "combat_tags": 0,
+      "inventory_changes": 1,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 6,
+      "player_input": "Grimjaw Eisenfaust: Grimjaw sichert den Bereich und hält Ausschau nach weiteren Gefahren oder Ausgängen.\nSir Kael Zornesklinge: Sir Kael konzentriert sich, um eventuelle verbleibende böse Präsenzen in der Halle aufzuspüren.\nBruder Mordain: Bruder Mordain tritt zu Varn, um dessen Wunden zu versorgen.\nVarn Wildtoeter: Varn lässt sich von Bruder Mordain behandeln und scannt gleichzeitig die düstere Halle nach Auffälligkeiten.\nPyra Flammenherz: Pyra wirkt einen Lichtzauber, um die Halle besser auszuleuchten und verborgene Details zu erkennen.\nShade Klingenschatten: Shade beginnt, systematisch nach Fallen oder versteckten Türen in der Halle zu suchen.",
+      "keeper_response": "Shade tastet methodisch jeden Stein ab, seine Finger gleiten über rissiges Mauerwerk. Ein hauchdünner Draht, kaum sichtbar, offenbart eine tödliche Falle. Seine unheimliche Präzision entdeckt zudem eine unsichtbare Fuge im kalten Stein. [FERTIGKEIT_GENUTZT: Find/Remove Traps]\n\nBruder Mordains Segen lindert Varns Wunden. Pyra sucht derweil nach neuen Wegen im Dunkel. Was tust du mit Shades Entdeckung?\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 424,
+      "response_sentences": 6,
+      "latency_ms": 2621.979499992449,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 7,
+      "player_input": "Grimjaw Eisenfaust: Stellt sich schützend vor Shade, bereit einzugreifen, falls die Falle wider Erwarten auslöst.\nSir Kael Zornesklinge: Untersucht die unsichtbare Fuge auf jegliche Anzeichen von Magie oder verborgenen Mechanismen.\nBruder Mordain: Bereitet einen Schutzzauber vor, um Shade zu unterstützen, während dieser die Falle entschärft.\nVarn Wildtoeter: Hält die Umgebung im Auge, um sicherzustellen, dass keine weiteren Gefahren auftauchen.\nPyra Flammenherz: Wirkt \"Magie entdecken\" auf die Fuge, um deren Beschaffenheit zu analysieren.\nShade Klingenschatten: Beginnt vorsichtig, den hauchdünnen Draht der Falle zu entschärfen.",
+      "keeper_response": "Grimjaw stellt sich breitbeinig vor Shade, seine Axt fest im Griff. Sir Kael konzentriert sich auf die Fuge, seine Augen suchen nach verräterischen Zeichen. Bruder Mordains Lippen formen lautlose Beschwörungen, ein unsichtbarer Schutz baut sich auf. Varn scannt die leere Halle, achtet auf jedes Geräusch. Pyras Blick fixiert die Fuge, ihre Augen leuchten magisch. Shade beginnt, den Draht zu bearbeiten.\n\n[PROBE: Find/Remove Traps | 40] (Shade – Falle entschärfen)\n[PROBE: Magie entdecken | 12] (Pyra – Magische Analyse der Fuge)\n[ZEIT_VERGEHT: 0.5h]\nShades Finger arbeiten mit unglaublicher Präzision. Der hauchdünne Draht wird ohne Mühe gelöst, die Falle ist entschärft. Ein leises Klicken bestätigt seinen Erfolg. [FERTIGKEIT_GENUTZT: Find/Remove Traps]\n\nPyras \"Magie entdecken\"-Zauber offenbart währenddessen eine schwache magische Aura, die von der Fuge ausgeht. Sie scheint nicht gefährlich zu sein. Was unternimmst du jetzt, da die Falle entschärft und die Fuge erkannt ist?\n[ZEIT_VERGEHT: 0.5h]\nPyras Zauber gleitet wirkungslos an der Fuge ab. Die schwache Aura bleibt für sie ein Geheimnis, ihre wahre Natur verborgen. Die Magie bleibt stumm.\n\nDie Falle ist entschärft, die Fuge in der Wand entdeckt. Was soll als Nächstes geschehen?\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 1264,
+      "response_sentences": 17,
+      "latency_ms": 4302.377699990757,
+      "tags_found": [
+        "PROBE",
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 2,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 3,
+      "facts": 0,
+      "rules_warnings": [
+        "[REGELCHECK] PROBE: Zielwert 40 ausserhalb Bereich 1-20.",
+        "[REGELCHECK] PROBE: Fertigkeit 'Magie entdecken' nicht im Regelwerk gefunden."
+      ],
+      "error": null
+    },
+    {
+      "turn": 8,
+      "player_input": "Grimjaw Eisenfaust: Grimjaw stellt sich bereit, die Fuge bei Bedarf gewaltsam zu öffnen.\nSir Kael Zornesklinge: Sir Kael untersucht die Fuge auf verräterische Spuren oder weitere Gefahren.\nBruder Mordain: Bruder Mordain bereitet einen Schutzzauber vor, bevor die Fuge geöffnet wird.\nVarn Wildtoeter: Varn beobachtet weiterhin die Umgebung auf mögliche weitere Bedrohungen.\nPyra Flammenherz: Pyra konzentriert sich darauf, die magischen Offenbarungen der Fuge zu interpretieren und zu erklären.\nShade Klingenschatten: Shade beginnt, die Fuge nach einem Mechanismus zum Öffnen zu untersuchen.",
+      "keeper_response": "Grimjaw stemmt die Füße in den Boden, seine Muskeln spannen sich an. Sir Kael beugt sich über die Fuge, seine Augen suchen nach Hinweisen. Bruder Mordains Lippen formen lautlose Worte. Varn scannt die leere Halle, seine Sinne sind geschärft. Pyra versucht, die magische Präsenz zu verstehen. Shade tastet mit flinken Fingern über die unsichtbare Linie.\n\n[PROBE: Mechanik | 40] (Shade – Öffnungsmechanismus finden)\n[PROBE: Magie entdecken | 12] (Pyra – Magische Analyse der Fuge)\n[ZEIT_VERGEHT: 0.5h]\nShade entdeckt einen kleinen, unauffälligen Hebel. Er ist geschickt verborgen, aber seine Finger finden den Mechanismus. Ein leises Klicken verheißt, dass die Fuge sich öffnen lässt. [FERTIGKEIT_GENUTZT: Mechanik]\n\nPyra versucht immer noch, die magische Aura zu entschlüsseln. Was unternimmst du mit diesem neu entdeckten Mechanismus?\n[ZEIT_VERGEHT: 0.5h]\nPyras Blick verliert sich in der schwachen Aura der Fuge. Sie kann keine tiefere Bedeutung entziffern, die Magie bleibt ihr Geheimnis. Die Luft bleibt ungelöst.\n\nShade hat einen Hebel gefunden, der die Fuge öffnen könnte. Was ist dein nächster Schritt?\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 1129,
+      "response_sentences": 16,
+      "latency_ms": 3954.4786000042222,
+      "tags_found": [
+        "PROBE",
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 2,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 3,
+      "facts": 0,
+      "rules_warnings": [
+        "[REGELCHECK] PROBE: Zielwert 40 ausserhalb Bereich 1-20.",
+        "[REGELCHECK] PROBE: Fertigkeit 'Magie entdecken' nicht im Regelwerk gefunden."
+      ],
+      "error": null
+    },
+    {
+      "turn": 9,
+      "player_input": "Grimjaw Eisenfaust: Grimjaw stellt sich bereit, um die Fuge bei Bedarf mit physischer Kraft zu unterstützen oder zu schützen.\nSir Kael Zornesklinge: Sir Kael hält seinen Schild bereit und sichert die Gruppe, während die Fuge geöffnet wird.\nBruder Mordain: Bruder Mordain murmelt ein Gebet und hält seine heilige Flamme bereit, um jede Dunkelheit zu vertreiben.\nVarn Wildtoeter: Varn bleibt wachsam und scannt die Umgebung auf Anzeichen weiterer Gefahren, während die Fuge sich öffnet.\nPyra Flammenherz: Pyra intensiviert ihre magische Analyse der Fuge, um die Natur der Magie vor dem Öffnen vollständig zu erfassen.\nShade Klingenschatten: Shade betätigt vorsichtig den Hebel, um die versteckte Fuge zu öffnen.",
+      "keeper_response": "Grimjaw steht bereit, seine Muskeln gespannt. Sir Kael hebt seinen Schild. Bruder Mordains Gebet hallt leise wider. Varn spannt seine Sinne. Pyra konzentriert sich ein letztes Mal auf die Magie. Shade legt vorsichtig Hand an den Hebel.\n\nEin leises Schaben, ein tiefes Grollen, dann schwingt ein Teil der Wand lautlos nach innen. Dahinter offenbart sich ein dunkler Gang, der in die Tiefe führt. Kalte Luft strömt dir entgegen.\n\nWas zieht dich in diesen unbekannten Gang?\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 491,
+      "response_sentences": 10,
+      "latency_ms": 1299.4375999987824,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 10,
+      "player_input": "Grimjaw Eisenfaust: Grimjaw betritt den Gang, seine Axt kampfbereit erhoben, um die Spitze zu bilden.\nSir Kael Zornesklinge: Sir Kael folgt Grimjaw, seinen Schild schützend vor sich haltend und wachsam die Umgebung beobachtend.\nBruder Mordain: Bruder Mordain murmelt ein Gebet und lässt Licht aus seinem heiligen Symbol strahlen, um den Gang zu erhellen.\nVarn Wildtoeter: Varn schleicht vorsichtig an den Rändern des Ganges entlang, seine Sinne geschärft für Geräusche oder Spuren.\nPyra Flammenherz: Pyra konzentriert sich, um magische Auren im neu entdeckten Gang aufzuspüren.\nShade Klingenschatten: Shade bewegt sich leise, um den Gang direkt hinter der Öffnung auf weitere Fallen oder Mechanismen zu überprüfen.",
+      "keeper_response": "Grimjaw schreitet voran, seine Axt ist erhoben. Sir Kael folgt, sein Schild schützt die Flanke. Bruder Mordains Symbol erstrahlt, taucht den Gang in ein mildes, heiliges Licht. Der Gang ist trocken und staubig, die Luft steht. Pyra konzentriert sich, während Varn die Ränder des Ganges absucht. Shade tastet den Boden und die Wände ab.\n\n[PROBE: Wahrnehmung | 12] (Varn – Geräusche/Spuren)\n[PROBE: Magie entdecken | 12] (Pyra – Magische Auren)\n[PROBE: Find/Remove Traps | 40] (Shade – Fallen/Mechanismen)\n[ZEIT_VERGEHT: 0.5h]\nVarn bemerkt einen leichten Luftzug, der aus der Tiefe des Ganges zu kommen scheint. Ein kaum hörbares, schleifendes Geräusch begleitet ihn. Das verrät die Richtung eines möglichen Weitergangs. [FERTIGKEIT_GENUTZT: Wahrnehmung]\n\nPyra und Shade sind noch am Werk. Was zieht dich als Nächstes an?\n[ZEIT_VERGEHT: 0.5h]\nPyras Zauber findet keine Resonanz. Der Gang scheint frei von arkanen Energien zu sein, seine Dunkelheit bewahrt ihre Geheimnisse. Nichts Magisches regt sich.\n\nVarn hat einen leichten Luftzug und ein Schleifgeräusch bemerkt. Shade sucht noch nach Fallen. Was tust du jetzt?\n[ZEIT_VERGEHT: 0.5h]\nShades flinke Finger finden in den ersten Metern des Ganges keine versteckten Fallen oder gefährlichen Mechanismen. Der Weg scheint auf den ersten Blick sicher zu sein. [FERTIGKEIT_GENUTZT: Find/Remove Traps]\n\nDer Luftzug und das Schleifgeräusch aus der Tiefe des Ganges sind nun die einzigen Auffälligkeiten. Wie reagierst du auf diese Hinweise?\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 1503,
+      "response_sentences": 21,
+      "latency_ms": 6958.849300004658,
+      "tags_found": [
+        "PROBE",
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 3,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 4,
+      "facts": 0,
+      "rules_warnings": [
+        "[REGELCHECK] PROBE: Fertigkeit 'Magie entdecken' nicht im Regelwerk gefunden.",
+        "[REGELCHECK] PROBE: Zielwert 40 ausserhalb Bereich 1-20."
+      ],
+      "error": null
+    },
+    {
+      "turn": 11,
+      "player_input": "Grimjaw Eisenfaust: Grimjaw bewegt sich langsam und kampfbereit weiter in den Gang hinein.\nSir Kael Zornesklinge: Sir Kael bleibt wachsam und sichert Grimjaws Flanke.\nBruder Mordain: Bruder Mordain hält sich bereit, um bei Bedarf schützende Magie zu wirken.\nVarn Wildtoeter: Varn versucht, die genaue Quelle des Schleifgeräuschs zu lokalisieren und gibt ein Zeichen.\nPyra Flammenherz: Pyra konzentriert ihre magische Wahrnehmung auf die Richtung, aus der der Luftzug kommt.\nShade Klingenschatten: Shade überprüft den Boden und die Wände vor der Gruppe weiterhin sorgfältig auf Fallen.",
+      "keeper_response": "Grimjaw stößt tiefer in den Gang vor, seine Axt schwingbereit. Sir Kael bleibt dicht an seiner Seite. Bruder Mordains Hand ruht auf seinem Symbol. Varn konzentriert sich, versucht das Schleifgeräusch zu orten. Pyra folgt dem Luftzug mit ihren Sinnen. Shade prüft jeden Stein.\n\n[PROBE: Lauschen | 15] (Varn – Quelle des Schleifgeräuschs)\n[PROBE: Wahrnehmung | 12] (Pyra – Magische Reaktion auf Luftzug)\n[PROBE: Find/Remove Traps | 40] (Shade – Weitere Fallen)\n[ZEIT_VERGEHT: 0.5h]\nVarn lauscht, seine Ohren fangen jedes Geräusch ein. Das Schleifen wird deutlicher. Es ist das Geräusch von Stein auf Stein, ein langsames, schweres Schaben, das aus einer Biegung weiter vorn im Gang zu kommen scheint. Ein metallischer Unterton mischt sich hinzu. [FERTIGKEIT_GENUTZT: Lauschen]\n\nPyra und Shade sind noch am Werk. Was entscheidest du nun, mit dieser neuen Information?\n[ZEIT_VERGEHT: 0.5h]\nPyra spürt eine subtile Veränderung in der Luft. Eine leichte, fast unmerkliche magische Signatur begleitet den Luftzug. Es ist kein Zauber, sondern eher die Nachwirkung einer lang wirkenden Verzauberung oder ein energetischer Abdruck. [FERTIGKEIT_GENUTZT: Wahrnehmung]\n\nVarn hat das Schleifgeräusch lokalisiert, Pyra spürt die Magie im Luftzug. Shade sucht noch nach Fallen. Was unternimmst du jetzt?\n[ZEIT_VERGEHT: 0.5h]\nShades geschulte Finger entdecken einen weiteren Mechanismus im Boden des Ganges. Ein kaum sichtbarer Druckschalter ist dort verborgen. Er ist jedoch nicht direkt mit einer Falle verbunden, eher mit einer Tür oder einem Durchgang. [FERTIGKEIT_GENUTZT: Find/Remove Traps]\n\nDas Schleifgeräusch und der magische Luftzug kommen aus der Biegung. Ein Druckschalter wurde entdeckt. Wie reagierst du auf diese Entdeckungen?\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 1745,
+      "response_sentences": 24,
+      "latency_ms": 6183.246700005839,
+      "tags_found": [
+        "PROBE",
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 3,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 4,
+      "facts": 0,
+      "rules_warnings": [
+        "[REGELCHECK] PROBE: Zielwert 40 ausserhalb Bereich 1-20."
+      ],
+      "error": null
+    },
+    {
+      "turn": 12,
+      "player_input": "Grimjaw Eisenfaust: Er hält seine Axt schlagbereit und bewegt sich vorsichtig weiter voran.\nSir Kael Zornesklinge: Sir Kael hält seinen Schild erhoben und bleibt wachsam an Grimjaws Seite.\nBruder Mordain: Bruder Mordain murmelt ein Schutzgebet und bereitet sich auf mögliche Gefahren vor.\nVarn Wildtoeter: Varn spannt seinen Bogen und versucht, einen Blick um die Biegung zu werfen.\nPyra Flammenherz: Pyra konzentriert sich auf die Quelle des Geräusches und versucht, dessen magische Natur zu ergründen.\nShade Klingenschatten: Shade überprüft weiterhin sorgfältig den Boden und die Wände auf Fallen, die mit dem Geräusch in Verbindung stehen könnten.",
+      "keeper_response": "Grimjaw schiebt sich vorsichtig vorwärts, seine Axt bereit. Sir Kael folgt eng, sein Schild wie eine Festung. Bruder Mordains Gebete mischen sich in das Dröhnen. Varn spannt seinen Bogen, pirscht leise an die Biegung heran. Pyra versucht die Magie zu durchschauen. Shade sucht weiter nach Fallen.\n\n[PROBE: Heimlichkeit | 40] (Varn – Um die Biegung schauen)\n[PROBE: Magie entdecken | 12] (Pyra – Magie des Schleifgeräuschs)\n[PROBE: Find/Remove Traps | 40] (Shade – Fallen am Druckschalter)\n[ZEIT_VERGEHT: 0.5h]\nVarn schmiegt sich an die kalte Steinwand, seine Bewegungen sind kaum hörbar. Er wirft einen schnellen Blick um die Ecke. Ein riesiger, steinerner Golem steht in einem breiteren Bereich des Ganges. Seine Oberfläche ist mit seltsamen Symbolen bedeckt. Das Schleifen kommt von seinen langsamen, mechanischen Bewegungen. [FERTIGKEIT_GENUTZT: Heimlichkeit]\n\nPyra und Shade sind noch beschäftigt. Was unternimmst du jetzt, da du den Golem gesehen hast?\n[ZEIT_VERGEHT: 0.5h]\nPyras Geisteskraft durchdringt die mysteriöse Aura. Sie erkennt, dass der Golem durch eine uralte, komplexe Verzauberung belebt wird. Seine Bewegung ist Teil eines Wächter-Zaubers, der auf unbestimmte Zeit wirken soll. Ein magisches Siegel auf seiner Brust pulsiert schwach. [FERTIGKEIT_GENUTZT: Magie entdecken]\n\nVarn hat den Golem gesehen, Pyra seine magische Natur erkannt. Shade sucht noch nach Fallen. Was ist dein nächster Schritt?\n[ZEIT_VERGEHT: 0.5h]\nShades Finger gleiten über den Druckschalter. Er entdeckt, dass dieser eine unsichtbare Barriere aktivieren würde, wenn jemand ihn unvorsichtig betritt. Eine clevere, unschädliche Warnung. [FERTIGKEIT_GENUTZT: Find/Remove Traps]\n\nDer Golem wurde gesichtet, seine Magie erkannt, und ein unschädlicher Druckschalter entdeckt. Wie reagierst du auf diese umfangreichen Erkenntnisse?\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 1837,
+      "response_sentences": 25,
+      "latency_ms": 5818.809100004728,
+      "tags_found": [
+        "PROBE",
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 3,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 4,
+      "facts": 0,
+      "rules_warnings": [
+        "[REGELCHECK] PROBE: Zielwert 40 ausserhalb Bereich 1-20.",
+        "[REGELCHECK] PROBE: Fertigkeit 'Magie entdecken' nicht im Regelwerk gefunden.",
+        "[REGELCHECK] PROBE: Zielwert 40 ausserhalb Bereich 1-20."
+      ],
+      "error": null
+    },
+    {
+      "turn": 13,
+      "player_input": "Grimjaw Eisenfaust: Grimjaw nimmt eine strategische Kampfstellung ein, um den Golem gezielt angreifen zu können.\nSir Kael Zornesklinge: Sir Kael positioniert sich neben Grimjaw, bereit, den Golem mit göttlicher Kraft zu treffen.\nBruder Mordain: Bruder Mordain erhebt sein Symbol und beginnt, einen Schutzsegen für die Gruppe zu wirken.\nVarn Wildtoeter: Varn legt einen Pfeil auf seinen Bogen und nimmt das Ziel genau ins Visier.\nPyra Flammenherz: Pyra konzentriert sich, um die magischen Signaturen und möglichen Schwachstellen des Golems zu erkennen.\nShade Klingenschatten: Shade sucht schnell die Umgebung nach einem möglichen Deaktivierungsmechanismus für den Golem ab.",
+      "keeper_response": "Grimjaw nimmt eine entschlossene Haltung ein, seine Axt ist erhoben. Sir Kael stellt sich schützend neben ihn, sein Schild bereit zum Blocken. Bruder Mordain murmelt einen Schutzsegen, seine Stimme hallt leise durch den Gang. Varn legt einen Pfeil auf, sein Blick fixiert den Golem. Pyra konzentriert sich auf die magischen Signaturen des Kolosses. Shade sucht fieberhaft nach einem Weg, den Golem zu deaktivieren.\n\n[PROBE: Magie entdecken | 12] (Pyra – Schwachstellen des Golems)\n[PROBE: Mechanik | 40] (Shade – Deaktivierungsmechanismus finden)\n[ZEIT_VERGEHT: 0.5h]\nPyras magische Sinne können die tiefsten Geheimnisse des Golems nicht ergründen. Seine uralte Verzauberung bleibt rätselhaft, Schwachstellen verbergen sich im Dunkel. Die Luft bleibt dicht.\n\nShade sucht noch nach einem Deaktivierungsmechanismus. Wie reagierst du auf diese unerwartete Resistenz des Golems?\n[ZEIT_VERGEHT: 0.5h]\nShade entdeckt, dass das magische Siegel auf der Brust des Golems ein komplexes Mechanismus verbirgt. Es ist kein einfacher Schalter, sondern eine Reihe ineinandergreifender Symbole. Mit Geschick könnte es zu manipulieren sein. [FERTIGKEIT_GENUTZT: Mechanik]\n\nPyra konnte keine Schwachstellen finden. Shade hat jedoch einen potenziellen Deaktivierungsmechanismus entdeckt. Was ist jetzt dein Plan?\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 1314,
+      "response_sentences": 17,
+      "latency_ms": 6906.006499993964,
+      "tags_found": [
+        "PROBE",
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 2,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 3,
+      "facts": 0,
+      "rules_warnings": [
+        "[REGELCHECK] PROBE: Fertigkeit 'Magie entdecken' nicht im Regelwerk gefunden.",
+        "[REGELCHECK] PROBE: Zielwert 40 ausserhalb Bereich 1-20."
+      ],
+      "error": null
+    },
+    {
+      "turn": 14,
+      "player_input": "Grimjaw Eisenfaust: Greift den Golem mit seiner Axt an.\nSir Kael Zornesklinge: Stürmt vor, um den Golem zu binden und seine Kameraden zu schützen.\nBruder Mordain: Wirkt einen Zauber, um die Rüstung des Golems zu schwächen.\nVarn Wildtoeter: Schießt einen präzisen Pfeil auf eine vermutete Schwachstelle des Golems.\nPyra Flammenherz: Schleudert einen Feuerball auf den Koloss.\nShade Klingenschatten: Sucht weiterhin eifrig nach einem Mechanismus, um den Golem zu deaktivieren.",
+      "keeper_response": "Die Luft knistert vor Spannung. Grimjaw stürmt vor, seine Axt erhebt sich dräuend. Sir Kael folgt ihm dicht, sein Schild bereit. Bruder Mordains Stimme schwillt an, ein Zauber formt sich. Varn spannt seinen Bogen, der Pfeil zittert leicht. Pyra hebt die Hände, Flammen zucken auf. Shade konzentriert sich weiter auf die rätselhaften Symbole.\n\n[Runde 1 — Initiative: Spieler 5 vs Monster 8 — Spieler handeln zuerst]\n[ANGRIFF: Battle Axe | 14 | 2 | 0] (Grimjaw auf Golem)\n[ANGRIFF: Long Sword | 15 | 2 | 0] (Sir Kael auf Golem)\n[ANGRIFF: Short Bow | 15 | 2 | 0] (Varn auf Golem)\n[ANGRIFF: Feuerball | 15 | 2 | 0] (Pyra auf Golem)\n[PROBE: Mechanik | 40] (Shade – Deaktivierungsversuch)\n[ZEIT_VERGEHT: 0.5h]\nShade konzentriert sich auf das Siegel, seine Finger ertasten die Symbole. Ein leises Klicken ist zu hören. Der Golem verlangsamt sich, seine Bewegungen werden ruckartiger. Das magische Siegel scheint gestört. [FERTIGKEIT_GENUTZT: Mechanik]\n\nWährend Shade den Golem manipuliert, entfalten sich die Angriffe der Gruppe. Was tut der Golem in seinem verlangsamten Zustand?\n[ANGRIFF: Faust | 13 | 2 | 0] (Golem auf Grimjaw)\n[ANGRIFF: Faust | 13 | 1 | 0] (Golem auf Sir Kael)\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 1195,
+      "response_sentences": 13,
+      "latency_ms": 3410.186299995985,
+      "tags_found": [
+        "PROBE",
+        "FERTIGKEIT_GENUTZT",
+        "ANGRIFF",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 6,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [
+        "[REGELCHECK] PROBE: Zielwert 40 ausserhalb Bereich 1-20."
+      ],
+      "error": null
+    },
+    {
+      "turn": 15,
+      "player_input": "Grimjaw Eisenfaust: Greift den Golem mit einem kräftigen Axtschwung erneut an.\nSir Kael Zornesklinge: Stößt mit seinem Langschwert auf den Golem ein, während er Grimjaw deckt.\nBruder Mordain: Wirkt einen \"Bane\"-Zauber, um die Kampffähigkeit des Golems zu mindern.\nVarn Wildtoeter: Zielt mit einem weiteren Pfeil auf eine sichtbare Fuge des Golems.\nPyra Flammenherz: Versucht, mit einem \"Magic Missile\"-Zauber die Energiekerne des Golems zu treffen.\nShade Klingenschatten: Untersucht das Klicken und versucht, den Mechanismus weiter zu manipulieren.",
+      "keeper_response": "Grimjaws Axt saust erneut auf den Golem nieder. Sir Kaels Schwert sucht einen Ansatzpunkt. Bruder Mordains Worte hallen im Gang, sein Zauber legt sich wie ein Schatten über den Koloss. Varn zielt auf eine Fuge. Pyra schießt ihre magischen Geschosse. Shade konzentriert sich auf die Manipulation des Siegels.\n\n[Runde 2 — Initiative: Spieler 6 vs Monster 7 — Spieler handeln zuerst]\n[ANGRIFF: Battle Axe | 14 | 2 | 0] (Grimjaw auf Golem)\n[ANGRIFF: Long Sword | 15 | 2 | 0] (Sir Kael auf Golem)\n[ANGRIFF: Short Bow | 15 | 2 | 0] (Varn auf Golem)\n[ANGRIFF: Magic Missile | 15 | 2 | 0] (Pyra auf Golem)\n[PROBE: Mechanik | 40] (Shade – Siegel weiter manipulieren)\n[ZEIT_VERGEHT: 0.5h]\nShades Hände arbeiten mit einer unheimlichen Präzision. Er löst eine weitere Verriegelung im Siegel. Ein hörbares Klirren ertönt, als der Golem erstarrt. Seine Augen erlöschen, die magische Aura schwindet. Der Koloss steht regungslos. [FERTIGKEIT_GENUTZT: Mechanik]\n\nDer Golem ist deaktiviert. Die Gefahr ist gebannt.\n[XP_GEWINN: 1500]\n[ZEIT_VERGEHT: 0.5h]\n\nWas unternimmst du in diesem ruhigen Gang, nachdem die Bedrohung verstummt ist?",
+      "response_chars": 1116,
+      "response_sentences": 14,
+      "latency_ms": 3572.2472999914316,
+      "tags_found": [
+        "PROBE",
+        "XP_GEWINN",
+        "FERTIGKEIT_GENUTZT",
+        "ANGRIFF",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 1,
+      "combat_tags": 4,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [
+        "[REGELCHECK] PROBE: Zielwert 40 ausserhalb Bereich 1-20."
+      ],
+      "error": null
+    },
+    {
+      "turn": 16,
+      "player_input": "Grimjaw Eisenfaust: Er stürmt vor und schlägt mit seiner Axt auf den Golem ein.\nSir Kael Zornesklinge: Er schlägt mit seinem Langschwert auf den Golem ein, um eine Schwachstelle zu finden.\nBruder Mordain: Er murmelt einen weiteren Fluch und lässt göttliche Energie auf den Golem herabregnen.\nVarn Wildtoeter: Er zielt sorgfältig auf eine kritische Stelle und schießt einen Pfeil ab.\nPyra Flammenherz: Sie beschwört einen Feuerball und schleudert ihn auf den Golem.\nShade Klingenschatten: Er arbeitet fieberhaft weiter am Siegel des Golems, um es vollständig zu deaktivieren.",
+      "keeper_response": "Grimjaws Axt prallt mit einem lauten *Klonk* vom steinernen Leib des Golems ab. Sir Kaels Langschwert hinterlässt eine kleine Kerbe, doch der Koloss regt sich nicht. Mordains Fluch verpufft an der regungslosen Form, Pyras Feuerball hinterlässt nur Ruß. Varn lässt einen Pfeil ab, der an der harten Oberfläche zersplittert.\n\nShade hingegen arbeitet weiter an dem Siegel. Ein letztes Klicken ist zu hören, die Symbole werden dunkel. Nun ist der Golem vollends verstummt, seine mechanische Seele erloschen.\n\nWas unternimmst du in diesem toten Gang?\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 566,
+      "response_sentences": 8,
+      "latency_ms": 5639.289600003394,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 17,
+      "player_input": "Grimjaw Eisenfaust: Grimjaw sichert den Gang und hält Ausschau nach weiteren Gefahren.\nSir Kael Zornesklinge: Sir Kael untersucht den deaktivierten Golem auf weitere Merkmale.\nBruder Mordain: Bruder Mordain murmelt ein Gebet des Dankes und untersucht den Gang auf unheilige Einflüsse.\nVarn Wildtoeter: Varn überprüft die Wände und den Boden des Ganges auf versteckte Türen oder Passagen.\nPyra Flammenherz: Pyra konzentriert sich darauf, die magischen Rückstände des Golems und des Siegels zu analysieren.\nShade Klingenschatten: Shade durchsucht den Golem und die unmittelbare Umgebung nach Wertgegenständen oder zusätzlichen Mechanismen.",
+      "keeper_response": "Grimjaw sichert den Bereich, seine Augen fixieren die Dunkelheit. Sir Kael untersucht den regungslosen Koloss. Bruder Mordains Gebet mischt sich mit der Stille, während er den Gang nach unheiligen Spuren absucht. Varn prüft jeden Stein auf versteckte Passagen. Pyra konzentriert sich auf die verblassenden magischen Rückstände. Shade durchsucht den Golem und die Umgebung.\n\n[PROBE: Wahrnehmung | 12] (Varn – Versteckte Türen/Passagen)\n[PROBE: Magie entdecken | 12] (Pyra – Magische Rückstände)\n[PROBE: Find/Remove Traps | 40] (Shade – Wertgegenstände/Mechanismen)\n[ZEIT_VERGEHT: 0.5h]\nVarns Blick gleitet über die groben Steinwände, doch er findet keine versteckten Türen oder geheimen Passagen. Der Gang scheint ein einfacher Korridor zu sein. Die Wand bleibt stumm.\n\nPyra und Shade sind noch beschäftigt. Was unternimmst du jetzt?\n[ZEIT_VERGEHT: 0.5h]\nPyras Blick durchdringt die verblassende Magie. Sie erkennt, dass der Golem von einem 'Animate Object'-Zauber der siebten Stufe belebt wurde. Das Siegel enthielt Runen, die ihn zu einem Wächter des Ganges machten, unermüdlich und unerbittlich. [FERTIGKEIT_GENUTZT: Magie entdecken]\n\nVarn fand keine versteckten Passagen. Shade sucht noch nach Wertgegenständen. Was ziehst du aus dieser Erkenntnis?\n[ZEIT_VERGEHT: 0.5h]\nShade findet nichts von Wert am Golem. Der Koloss ist reine, tote Materie, ohne Taschen oder verborgene Fächer. Ein simpler Wächter, nicht mehr und nicht weniger. [FERTIGKEIT_GENUTZT: Find/Remove Traps]\n\nPyra hat die Magie des Golems analysiert. Varn fand keine versteckten Passagen. Was tust du nun, da der Golem als leer befunden wurde?\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 1632,
+      "response_sentences": 23,
+      "latency_ms": 6772.998300002655,
+      "tags_found": [
+        "PROBE",
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 3,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 4,
+      "facts": 0,
+      "rules_warnings": [
+        "[REGELCHECK] PROBE: Fertigkeit 'Magie entdecken' nicht im Regelwerk gefunden.",
+        "[REGELCHECK] PROBE: Zielwert 40 ausserhalb Bereich 1-20."
+      ],
+      "error": null
+    },
+    {
+      "turn": 18,
+      "player_input": "Grimjaw Eisenfaust: Grimjaw prüft die Beschaffenheit der Wände und des Bodens auf weitere Mechanismen.\nSir Kael Zornesklinge: Sir Kael untersucht den besiegten Golem genauer auf Wertgegenstände oder ungewöhnliche Inschriften.\nBruder Mordain: Bruder Mordain spricht einen Gebetszauber, um die Präsenz von unheiligen Energien im gesamten Gang aufzuspüren.\nVarn Wildtoeter: Varn sucht den Boden des Ganges nach Spuren oder Fährten ab, die auf andere Kreaturen hindeuten könnten.\nPyra Flammenherz: Pyra konzentriert sich weiter, um die genaue Quelle und Art der magischen Rückstände zu identifizieren.\nShade Klingenschatten: Shade setzt seine akribische Suche nach Fallen, versteckten Hebeln oder wertvollen Gegenständen in der Umgebung fort.",
+      "keeper_response": "Grimjaw tastet die Wände ab, seine rauen Hände suchen nach Spuren. Sir Kael beugt sich über den Golem, seine Augen scannen die Oberfläche. Bruder Mordain murmelt ein Suchgebet, seine Stimme hallt sanft im Gang wider. Varn kniet nieder, sein Blick fixiert den staubigen Boden. Pyra versucht, die magischen Rückstände zu interpretieren. Shade setzt seine Suche fort.\n\n[PROBE: Wahrnehmung | 12] (Grimjaw – Mechanismen)\n[PROBE: Wahrnehmung | 12] (Sir Kael – Inschriften/Wert)\n[PROBE: Detect Evil | 12] (Bruder Mordain – Unheilige Energien)\n[PROBE: Tracking | 10] (Varn – Spuren anderer Kreaturen)\n[PROBE: Magie entdecken | 12] (Pyra – Magische Rückstände)\n[PROBE: Find/Remove Traps | 40] (Shade – Fallen/Hebel/Wert)\n[ZEIT_VERGEHT: 0.5h]\nGrimjaw entdeckt eine leichte Vertiefung in der Steinwand, die wie eine eingelassene Platte wirkt. Sie ist gut getarnt, könnte aber einen Mechanismus verbergen. Die Wand birgt weitere Geheimnisse. [FERTIGKEIT_GENUTZT: Wahrnehmung]\n\nDie anderen sind noch beschäftigt. Was unternimmst du jetzt mit dieser entdeckten Vertiefung?\n[ZEIT_VERGEHT: 0.5h]\nSir Kael entdeckt am Golem eine Reihe von eingemeißelten Symbolen. Es sind keine Worte, sondern komplizierte Glyphen, die von einer längst vergessenen Kultur zu stammen scheinen. Sie erzählen eine stumme Geschichte. [FERTIGKEIT_GENUTZT: Wahrnehmung]\n\nGrimjaw hat eine Vertiefung in der Wand entdeckt. Die anderen suchen noch. Was unternimmst du mit den gefundenen Glyphen?\n[ZEIT_VERGEHT: 0.5h]\nBruder Mordains Gebet verhallt ohne Echo. Der Gang scheint frei von offen unheiligen Energien zu sein. Die Stille bleibt unverändert.\n\nGrimjaw fand eine Vertiefung, Sir Kael Glyphen am Golem. Die anderen arbeiten noch. Was unternimmst du jetzt?\n[ZEIT_VERGEHT: 0.5h]\nVarns Blick findet auf dem staubigen Boden keine frischen Spuren. Der Golem war offenbar der einzige \"Bewohner\" dieses Ganges. Die Oberfläche bleibt leer.\n\nGrimjaw hat eine Vertiefung gefunden, Sir Kael Glyphen am Golem. Die anderen sind noch beschäftigt. Was lenkt deine Aufmerksamkeit?\n[ZEIT_VERGEHT: 0.5h]\nPyra spürt, wie die magischen Rückstände sich auflösen. Die Energie des Golems zerstreut sich langsam in der Umgebung. Es bleibt nur ein leises Echo einer mächtigen Verzauberung. [FERTIGKEIT_GENUTZT: Magie entdecken]\n\nGrimjaw entdeckte eine Vertiefung, Sir Kael Glyphen. Die anderen suchen noch. Was unternimmst du jetzt?\n[ZEIT_VERGEHT: 0.5h]\nShade entdeckt eine winzige Spalte unter der Vertiefung. Darin verbirgt sich ein verborgener Mechanismus. Er könnte eine geheime Tür öffnen. [FERTIGKEIT_GENUTZT: Find/Remove Traps]\n\nGrimjaw fand eine Vertiefung, Sir Kael Glyphen, Pyra Magie, und Shade einen weiteren Mechanismus. Was unternimmst du nun mit diesen vielfältigen Entdeckungen?\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 2753,
+      "response_sentences": 40,
+      "latency_ms": 10965.730899988557,
+      "tags_found": [
+        "PROBE",
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 6,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 7,
+      "facts": 0,
+      "rules_warnings": [
+        "[REGELCHECK] PROBE: Fertigkeit 'Detect Evil' nicht im Regelwerk gefunden.",
+        "[REGELCHECK] PROBE: Fertigkeit 'Magie entdecken' nicht im Regelwerk gefunden.",
+        "[REGELCHECK] PROBE: Zielwert 40 ausserhalb Bereich 1-20."
+      ],
+      "error": null
+    },
+    {
+      "turn": 19,
+      "player_input": "Grimjaw Eisenfaust: Grimjaw versucht, die Vertiefung in der Wand vorsichtig zu betätigen.\nSir Kael Zornesklinge: Sir Kael stellt sich schützend vor Grimjaw und behält die Umgebung im Auge.\nBruder Mordain: Bruder Mordain hält sich bereit, um bei Bedarf Heilung oder Unterstützung zu leisten.\nVarn Wildtoeter: Varn spannt seinen Bogen und deckt die Flanken ab, bereit für eine plötzliche Gefahr.\nPyra Flammenherz: Pyra konzentriert sich, um magische Signaturen an der Vertiefung zu entdecken.\nShade Klingenschatten: Shade untersucht die Vertiefung auf verborgene Mechanismen oder Fallen.",
+      "keeper_response": "Grimjaw legt vorsichtig Hand an die Vertiefung. Sir Kael positioniert sich schützend. Bruder Mordain ist bereit. Varn spannt den Bogen. Pyra konzentriert ihre Sinne. Shade überprüft die Vertiefung.\n\n[PROBE: Open Doors | 50] (Grimjaw – Vertiefung betätigen)\n[PROBE: Magie entdecken | 12] (Pyra – Magische Signaturen der Vertiefung)\n[PROBE: Find/Remove Traps | 40] (Shade – Fallen/Mechanismen an der Vertiefung)\n[ZEIT_VERGEHT: 0.5h]\nGrimjaws kräftige Hände packen die Vertiefung. Mit einem leisen *Klong* gibt die Steinplatte nach. Ein verborgener Durchgang tut sich auf, der in einen weiteren dunklen Raum führt. Kalte, modrige Luft schlägt dir entgegen. [FERTIGKEIT_GENUTZT: Open Doors]\n\nPyra und Shade sind noch am Werk. Was unternimmst du jetzt mit dem neu entdeckten Durchgang?\n[ZEIT_VERGEHT: 0.5h]\nPyras Magie findet keine Resonanz. Der neu geöffnete Durchgang scheint frei von arkanen Energien zu sein. Seine Geheimnisse bleiben verborgen. Die Luft ist nur modrig.\n\nShade ist noch beschäftigt. Was unternimmst du jetzt, da der Durchgang offensteht?\n[ZEIT_VERGEHT: 0.5h]\nShades Hände gleiten über den Rand des Durchgangs und die angrenzende Wand. Er entdeckt keine offensichtlichen Fallen oder gefährlichen Mechanismen. Der Weg scheint auf den ersten Blick sicher zu sein. [FERTIGKEIT_GENUTZT: Find/Remove Traps]\n\nDer Durchgang ist offen und frei von Fallen. Modrige Luft strömt dir entgegen. Was ist dein nächster Schritt?\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 1448,
+      "response_sentences": 24,
+      "latency_ms": 6300.67590001272,
+      "tags_found": [
+        "PROBE",
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 3,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 4,
+      "facts": 0,
+      "rules_warnings": [
+        "[REGELCHECK] PROBE: Zielwert 50 ausserhalb Bereich 1-20.",
+        "[REGELCHECK] PROBE: Fertigkeit 'Magie entdecken' nicht im Regelwerk gefunden.",
+        "[REGELCHECK] PROBE: Zielwert 40 ausserhalb Bereich 1-20."
+      ],
+      "error": null
+    },
+    {
+      "turn": 20,
+      "player_input": "Grimjaw Eisenfaust: Er betritt vorsichtig den Durchgang, seine Axt bereit.\nSir Kael Zornesklinge: Er folgt Grimjaw dicht, sein Schild erhoben und das Schwert gezogen.\nBruder Mordain: Er murmelt ein Gebet des Schutzes und betritt den Raum, bereit für das Unbekannte.\nVarn Wildtoeter: Er blickt aufmerksam in den neuen Raum, seinen Bogen gespannt und bereit zum Schuss.\nPyra Flammenherz: Sie spricht einen Zauber, um ihren Stab als Lichtquelle für den dunklen Raum zu nutzen.\nShade Klingenschatten: Er schleicht leise hinterher und hält Ausschau nach Fallen oder versteckten Bedrohungen im neuen Bereich.",
+      "keeper_response": "Pyras Stab glüht auf, ein weiches Licht erfüllt den dunklen Raum. Das schlagartig erleuchtete Gewölbe ist von bröckelnden Steinwänden umgeben. Ein süßlicher Geruch von Verwesung mischt sich in die kalte Luft, ein Gefühl der Beklemmung ergreift dich.\n\n[PROBE: Magie entdecken | 12] (Pyra – Magische Signaturen im Raum)\n[PROBE: Find/Remove Traps | 40] (Shade – Fallen oder Bedrohungen im neuen Bereich)\n[ZEIT_VERGEHT: 0.5h]\nPyras magische Sinne nehmen keine arkanen Signaturen wahr. Der Raum scheint leer von Zaubern zu sein. Die muffige Luft bleibt ihr einziges Zeugnis.\n\nShade ist noch beschäftigt. Was unternimmst du jetzt, in diesem neu entdeckten Raum?\n[ZEIT_VERGEHT: 0.5h]\nShade entdeckt eine Reihe von feinen Schnüren, die quer durch den Raum gespannt sind. Sie sind fast unsichtbar. Wer sie berührt, wird eine Glocke auslösen oder etwas Größeres in Bewegung setzen. [FERTIGKEIT_GENUTZT: Find/Remove Traps]\n\nDer Raum ist magisch leer, aber mit Stolperfallen gespickt. Was ist dein nächster Schritt?\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 1024,
+      "response_sentences": 13,
+      "latency_ms": 8961.602499999572,
+      "tags_found": [
+        "PROBE",
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 2,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 3,
+      "facts": 0,
+      "rules_warnings": [
+        "[REGELCHECK] PROBE: Fertigkeit 'Magie entdecken' nicht im Regelwerk gefunden.",
+        "[REGELCHECK] PROBE: Zielwert 40 ausserhalb Bereich 1-20."
+      ],
+      "error": null
+    }
+  ],
+  "tokens": {
+    "prompt_tokens": 960035,
+    "cached_tokens": 390130,
+    "output_tokens": 9047,
+    "think_tokens": 16192,
+    "total_cost_usd": 0.245773
+  },
+  "player_bot_tokens": {
+    "prompt_tokens": 22945,
+    "output_tokens": 3102,
+    "total_cost_usd": 0.014639
+  }
+}

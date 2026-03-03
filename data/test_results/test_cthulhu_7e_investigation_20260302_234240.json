@@ -1,0 +1,125 @@
+{
+  "module": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "case_id": 2,
+  "case_name": "investigation",
+  "expected_tags": {
+    "PROBE": 3,
+    "FERTIGKEIT_GENUTZT": 1,
+    "FAKT": 1
+  },
+  "total_turns": 5,
+  "total_latency_ms": 60626.858699994045,
+  "avg_latency_ms": 12125.371739998809,
+  "avg_response_chars": 286.2,
+  "avg_sentences": 5.2,
+  "total_probes": 2,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich nehme den Auftrag an und gehe ins Zeitungsarchiv.",
+      "keeper_response": "Mr. Knott nickt zufrieden. [STIMME:scholar] \"Diskretion ist alles. Sie finden die Akte unter 'Sheafe Street'.\" [STIMME:keeper] Er winkt Sie zur Tuer. Die Bostoner Morgenluft empfaengt Sie.\n\nSie fahren ins Zeitungsarchiv. Der Geruch von altem Papier liegt in der Luft. Die Gänge sind hoch, vollgestopft mit Geschichte. Was suchen Sie genau?\n[ZEIT_VERGEHT: 0.5h]\n[FAKT: {\"auftrag_angenommen\": true}]",
+      "response_chars": 397,
+      "response_sentences": 9,
+      "latency_ms": 1625.9164000002784,
+      "tags_found": [
+        "ZEIT_VERGEHT",
+        "FAKT",
+        "STIMME"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich recherchiere alte Berichte ueber das Corbitt-Haus.",
+      "keeper_response": "Der Staub tanzt in den Lichtstrahlen der hohen Fenster. Reihen alter, gebundener Zeitungen ragen wie Grabsteine auf. Sie atmen den muffigen Geruch von vergilbtem Papier ein.\n\nSie beginnen, die Register zu durchforsten. [PROBE: Bibliotheksnutzung | 55]\n[ZEIT_VERGEHT: 1h]",
+      "response_chars": 270,
+      "response_sentences": 4,
+      "latency_ms": 55322.663300001295,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich pruefe die Sterberegister nach Walter Corbitt.",
+      "keeper_response": "Die Seiten verschwimmen vor Ihren Augen. Eine Flut von irrelevanten Nachrichten verdeckt jeden klaren Hinweis. Das wahre Muster bleibt verborgen.\n\nWas tun Sie? [FERTIGKEIT_GENUTZT: Bibliotheksnutzung]\n[ZEIT_VERGEHT: 1h]",
+      "response_chars": 219,
+      "response_sentences": 4,
+      "latency_ms": 2113.685099997383,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich untersuche die Kirchenakten auf Hinweise.",
+      "keeper_response": "Sie verlassen das staubige Archiv. Ein kalter Wind pfeift durch die Strassen. Der Weg fuehrt Sie zum Hall of Records.\n\nDort angekommen, beginnen Sie die alten Sterberegister zu durchsuchen. [PROBE: Recht | 45]\n[ZEIT_VERGEHT: 1h]",
+      "response_chars": 228,
+      "response_sentences": 4,
+      "latency_ms": 1305.0849999999627,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich betrete das Corbitt-Haus und schaue mich im Erdgeschoss um.",
+      "keeper_response": "Ihre Suche ist erfolgreich. Zwischen unzaehligen Namen finden Sie den Eintrag Walter Corbitt. Dort steht, er sei \"ohne letzte Riten\" und \"nicht auf geweihtem Boden\" bestattet worden.\n\nDas ist ungewoehnlich. Was unternehmen Sie? [FERTIGKEIT_GENUTZT: Recht]\n[FAKT: {\"sterberegister_corbitt\": true}]\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 317,
+      "response_sentences": 5,
+      "latency_ms": 259.50889999512583,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

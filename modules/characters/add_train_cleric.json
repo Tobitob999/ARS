@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.1.0",
+  "id": "add_train_cleric",
+  "name": "Bruder Mordain",
+  "compatible_rulesets": ["add_2e"],
+  "archetype": "cleric",
+  "level": 6,
+  "race": "Human",
+  "class": "Cleric",
+  "alignment": "Lawful Neutral",
+  "background": "Bruder Mordain ist ein Kriegspriester des Sturmgottes, der glaubt, dass Gebet und Kampf dasselbe sind. Er sieht Heilung als notwendiges Uebel — lieber wuerde er mit dem Streitkolben predigen.",
+  "traits": "Kriegspriester, heilt knapp, kaempft viel. Setzt Spiritual Hammer und Hold Person BEVORZUGT ein. Heilt NUR wenn jemand unter 50% HP ist. Turn Undead ist sein liebster Moment — Untote zu vernichten ist Gottesdienst.",
+  "appearance": "Ein kraeftiger Mann mit kurzem grauem Haar, Kampfnarben im Gesicht und einem Streitkolben, der groesser ist als noetig. Sein heiliges Symbol ist in den Schild eingelassen.",
+  "characteristics": {
+    "STR": 14,
+    "DEX": 10,
+    "CON": 16,
+    "INT": 12,
+    "WIS": 17,
+    "CHA": 15
+  },
+  "derived_stats": {
+    "HP": 42,
+    "AC": 2,
+    "THAC0": 18,
+    "Movement": 12,
+    "Attacks_per_Round": "1",
+    "notes": "HP: 6d8+12. AC: Plate Mail (3) + Shield (-1). THAC0 18 = Priest Level 6. WIS 17: Bonus-Sprueche."
+  },
+  "saving_throws": {
+    "Paralyzation": 9,
+    "Rod": 13,
+    "Petrification": 12,
+    "Breath": 15,
+    "Spell": 14
+  },
+  "skills": {
+    "Healing": 2,
+    "Religion": 1,
+    "Herbalism": 1,
+    "Reading/Writing": 1,
+    "Diagnostics": 1
+  },
+  "equipment": [
+    "Mace +1 (1d6+1, Hauptwaffe)",
+    "Heavy Mace (1d6+1, Zweitwaffe)",
+    "Plate Mail (AC 3)",
+    "Medium Shield (+1 AC)",
+    "Holy Symbol (Sturm-Amulett)",
+    "Potion of Extra-Healing x1",
+    "Holy Water x3",
+    "Backpack",
+    "Rations (7 Tage)",
+    "Healer's Kit (10 uses)",
+    "Prayer Book",
+    "15 GP"
+  ],
+  "spells_prepared": {
+    "1": ["Cure Light Wounds", "Cure Light Wounds", "Bless", "Command", "Detect Magic"],
+    "2": ["Hold Person", "Spiritual Hammer", "Spiritual Hammer", "Aid", "Silence 15' Radius"],
+    "3": ["Dispel Magic", "Prayer", "Create Food and Water"],
+    "slots": {"1": 5, "2": 5, "3": 3}
+  },
+  "notes": "PARTY-ROLLE: Kampf-Heiler und Untoten-Spezialist. AGGRESSIV: Mordain kaempft ZUERST und heilt DANACH. Hold Person gegen Humanoide, Spiritual Hammer als Fernkampf, Bless/Prayer fuer Gruppenbonus. Heilt nur im Notfall. Turn Undead bei jeder Gelegenheit."
+}

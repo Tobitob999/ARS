@@ -1,0 +1,122 @@
+{
+  "module": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "case_id": 2,
+  "case_name": "investigation",
+  "expected_tags": {
+    "PROBE": 3,
+    "FERTIGKEIT_GENUTZT": 1,
+    "FAKT": 1
+  },
+  "total_turns": 5,
+  "total_latency_ms": 69187.41159999627,
+  "avg_latency_ms": 13837.482319999253,
+  "avg_response_chars": 315.4,
+  "avg_sentences": 5.8,
+  "total_probes": 2,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich nehme den Auftrag an und gehe ins Zeitungsarchiv.",
+      "keeper_response": "Mr. Knott nickt knapp. Seine Miene bleibt unbewegt. Der Fall ist nun Ihr Problem.\n\nSie verlassen sein nüchternes Büro. Die Schritte hallen in den Gängen wider. Draußen wartet das geschäftige Treiben der Stadt. [ZEIT_VERGEHT: 0.5h]\n\nDas Zeitungsarchiv empfängt Sie mit trockenem Papiergeruch. Zwischen hohen Regalen herrscht gedämpfte Stille. Staubpartikel tanzen im fahlen Licht.\n\nWas suchen Sie in den alten Zeitungen?",
+      "response_chars": 419,
+      "response_sentences": 11,
+      "latency_ms": 63401.247499998135,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich recherchiere alte Berichte ueber das Corbitt-Haus.",
+      "keeper_response": "Sie finden sich bald im staubigen Zeitungsarchiv wieder. Reihen alter Ausgaben türmen sich auf. Der Geruch von altem Papier liegt schwer in der Luft. [ZEIT_VERGEHT: 0.5h]\n[PROBE: Bibliotheksnutzung | 55]",
+      "response_chars": 203,
+      "response_sentences": 3,
+      "latency_ms": 2150.5546999978833,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich pruefe die Sterberegister nach Walter Corbitt.",
+      "keeper_response": "Die Suche gestaltet sich zäh. Viele Artikel sind irrelevant oder schwer lesbar. Sie finden nur bruchstückhafte, kurze Meldungen. Sie handeln von „seltsamen Todesfällen“ in der Sheafe Street. Die Berichte sind widersprüchlich und weisen auf keinerlei Muster hin. Es scheint, als wären die lokalen Zeitungen bemüht gewesen, die wahren Umstände zu verschleiern.\n\nWas tun Sie als Nächstes? [FERTIGKEIT_GENUTZT: Bibliotheksnutzung] [ZEIT_VERGEHT: 1h]",
+      "response_chars": 445,
+      "response_sentences": 7,
+      "latency_ms": 157.56690000125673,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich untersuche die Kirchenakten auf Hinweise.",
+      "keeper_response": "Sie verlassen das staubige Archiv. Ein kühler, formaler Bau erhebt sich vor Ihnen: die Hall of Records. Der Geruch von Papier und Stempelfarbe liegt in der Luft. [ZEIT_VERGEHT: 0.5h]\n\nSie möchten dort nach den Sterberegistern suchen. [PROBE: Recht | 50]",
+      "response_chars": 253,
+      "response_sentences": 4,
+      "latency_ms": 2652.575699998124,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich betrete das Corbitt-Haus und schaue mich im Erdgeschoss um.",
+      "keeper_response": "Die Archivarin in der Hall of Records ist unkooperativ. Sie verweist auf strenge Vorschriften und fehlende Formulare. Ohne triftigen Grund verweigert sie den Zugang zu sensiblen Registern. [FERTIGKEIT_GENUTZT: Recht] [ZEIT_VERGEHT: 1h]\n\nWas unternehmen Sie?",
+      "response_chars": 257,
+      "response_sentences": 4,
+      "latency_ms": 825.4668000008678,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

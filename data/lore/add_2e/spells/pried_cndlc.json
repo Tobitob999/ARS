@@ -1,18 +1,18 @@
 {
   "schema_version": "1.2.1",
   "id": "pried_cndlc",
-  "name": "Pried Cndlc",
+  "name": "[SEKTIONSHEADER] Priest Spells (OCR-Artefakt: Confusion-Textfragment)",
   "compatible_rulesets": [
     "add_2e"
   ],
-  "category": "spell",
+  "category": "index_header",
   "tags": [
     "add_2e",
     "spell",
     "player_handbook",
     "appendix_conversion"
   ],
-  "summary": "Pried Cndlc (7th I PVP~) aus dem AD&D 2e Player's Handbook.",
+  "summary": "[KEIN ZAUBER] OCR-Sektionsheader (PHB p.232): 'Pried Cndlc' = stark korrumpierter Seitenheader. Enthält Confusion-Spell-Textfragment (6th-level Priest). Kein eigenstaendiger Zauber.",
   "source_text": {
     "book": "Player's Handbook (2nd Edition)",
     "appendix": 4,
@@ -39,11 +39,10 @@
       "casting_time": null,
       "area_of_effect": null,
       "saving_throw": null,
-      "description_excerpt": "the spell\" result occurs. Wandering creatures move as far from the caster as possible in their most typical mode of movement (characters walk, fish swim, bats fly, etc.). This is not panicked flight. Wandering creatures also have a 50% chance of using any special innate move- ment abilities (plane shift, burrowing, flight, etc.). Saving throws and actions are checked at the beginning of each round. Any confused creature that is attacked per- ceives the attacker as an enemy and acts according to its basic nature. The material component of this spell is a set of three nut shells. Note: If there are many creatures involved, the DM may decide to assume avep.age results. For example, if there are 16 orcs affected and 25% could be expected to successfully roll the saving throw, then four are assumed to have succeeded, one wan- ders away, four attack the nearest creature, six stand confused and"
+      "description_excerpt": "the spell\" result occurs. Wandering creatures move as far from the caster as possible in their most typical mode of movement (characters walk, fish swim, bats fly, etc.). This is not panicked flight. Wandering creatures also have a 50% chance of using any special innate move- ment abilities (plane shift, burrowing, flight, etc.). Saving throws and actions are checked at the beginning of each round. Any confused creature that is attacked per- ceives the attacker as an enemy and acts according to its basic nature. The material component of this spell is a set of three nut shells. Note: If there are many creatures involved, the DM may decide to assume avep.age results. For example, if there are 16 orcs affected and 25% could be expected to successfully roll the saving throw, then four are assumed to have succeeded, one wan- ders away, four attack the nearest creature, six stand confused and [Beschreibung unvollstaendig — siehe PHB]"
     },
     "quality_flags": [
-      "missing_standard_fields",
-      "trimmed_merged_block"
+      "ocr_section_header_not_a_spell"
     ]
   }
 }

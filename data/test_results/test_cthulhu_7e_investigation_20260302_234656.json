@@ -1,0 +1,124 @@
+{
+  "module": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "case_id": 2,
+  "case_name": "investigation",
+  "expected_tags": {
+    "PROBE": 3,
+    "FERTIGKEIT_GENUTZT": 1,
+    "FAKT": 1
+  },
+  "total_turns": 5,
+  "total_latency_ms": 10353.696300000593,
+  "avg_latency_ms": 2070.7392600001185,
+  "avg_response_chars": 330.8,
+  "avg_sentences": 5.6,
+  "total_probes": 2,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich nehme den Auftrag an und gehe ins Zeitungsarchiv.",
+      "keeper_response": "Mr. Knott nickt zufrieden. [STIMME:scholar] \"Diskretion ist alles. Sie finden die Akte unter 'Sheafe Street 20'. Viel Erfolg.\" [STIMME:keeper] Er winkt ab.\n\nDie Stadt erwacht langsam um Sie herum. Der Morgenverkehr ist noch ueberschaubar. Eine halbe Stunde spaeter erreichen Sie das Zeitungsarchiv.\n\nEs riecht nach altem Papier und leichter Feuchtigkeit. Hohe Regale voller gebundener Ausgaben ragen empor. Ein alter Mann schlaeft an einem Lesepult.\n\nWas tun Sie?\n[ZEIT_VERGEHT: 0.5h]\n[FAKT: {\"auftrag_angenommen\": true}]\n[AKTUELLE_LOCATION: Zeitungsarchiv]",
+      "response_chars": 557,
+      "response_sentences": 12,
+      "latency_ms": 1871.740900001896,
+      "tags_found": [
+        "ZEIT_VERGEHT",
+        "FAKT",
+        "STIMME"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich recherchiere alte Berichte ueber das Corbitt-Haus.",
+      "keeper_response": "Der Staub knistert in der trockenen Luft. Reihen alter Zeitungsbaende füllen die Regale. Der Geruch von Papier und Vergangenheit ist allgegenwaertig. [PROBE: Bibliotheksnutzung | 55] [ZEIT_VERGEHT: 1h]",
+      "response_chars": 201,
+      "response_sentences": 3,
+      "latency_ms": 1388.3335999998963,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich pruefe die Sterberegister nach Walter Corbitt.",
+      "keeper_response": "Die Seiten rascheln unter Ihren Fingern. Viele lokale Unfälle und kleine Dramen füllen die Spalten. Nichts davon scheint direkt mit dem Corbitt-Haus in Verbindung zu stehen. [FERTIGKEIT_GENUTZT: Bibliotheksnutzung] [ZEIT_VERGEHT: 0.5h]\n\nMöchten Sie weiter nach dem Haus suchen, oder Ihren Fokus ändern?",
+      "response_chars": 302,
+      "response_sentences": 4,
+      "latency_ms": 3933.2976000005146,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich untersuche die Kirchenakten auf Hinweise.",
+      "keeper_response": "Sie verlassen die muffige Stille des Archivs. Die Schritte führen Sie zum imposanten Gebäude der städtischen Registerbehörde. Ein kühler, formaler Geruch von Papier und Stempelfarbe liegt in der Luft. [ZEIT_VERGEHT: 0.5h]\n\nWas suchen Sie genau? [PROBE: Recht | 40]",
+      "response_chars": 264,
+      "response_sentences": 4,
+      "latency_ms": 1182.2600000014063,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich betrete das Corbitt-Haus und schaue mich im Erdgeschoss um.",
+      "keeper_response": "Die Bürokratie Arkhams erweist sich als zäh. Die endlosen Register sind verwirrend geordnet. Nach einiger Zeit finden Sie keinen eindeutigen Eintrag für Walter Corbitt. [FERTIGKEIT_GENUTZT: Recht] [ZEIT_VERGEHT: 0.5h]\n\nMöchten Sie im Hall of Records auf andere Weise nach Corbitt suchen? Oder gehen Sie einem anderen Hinweis nach?",
+      "response_chars": 330,
+      "response_sentences": 5,
+      "latency_ms": 1978.0641999968793,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

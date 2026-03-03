@@ -38,11 +38,9 @@
       "duration": "1 round/level",
       "casting_time": "2",
       "area_of_effect": "1 creature per probe",
-      "saving_throw": null,
+      "saving_throw": "None",
       "description_excerpt": "Saving Thrpw: None When an ESP spell is used, the caster is able to detect the surface thoughts of any creatures in range-except for those of un- dead and creatures without minds (as we know them). The ESP is stopped by two or more feet of rock, two or more inches of any metal other than lead, or a thin sheet of lead foil. The wizard employing the spell is able to probe the surface thoughts of one crea- ture per round, getting simple instinctual thoughts from lower order creatures. Probes can continue on the same creature from round to round or can move on to other creatures. The caster can use the spell to help determine if a creature lurks behind a door, for example, but the ESP does not al- ways reveal what sort of creature it is. If used as part of a program of interrogation, an intelligent and wary subject receives an initial saving throw. If successful, the crea- ture successfully "
     },
-    "quality_flags": [
-      "missing_standard_fields"
-    ]
+    "quality_flags": []
   }
 }

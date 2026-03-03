@@ -1,0 +1,125 @@
+{
+  "module": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "case_id": 2,
+  "case_name": "investigation",
+  "expected_tags": {
+    "PROBE": 3,
+    "FERTIGKEIT_GENUTZT": 1,
+    "FAKT": 1
+  },
+  "total_turns": 5,
+  "total_latency_ms": 64348.46340000513,
+  "avg_latency_ms": 12869.692680001026,
+  "avg_response_chars": 340.0,
+  "avg_sentences": 5.2,
+  "total_probes": 3,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich nehme den Auftrag an und gehe ins Zeitungsarchiv.",
+      "keeper_response": "Ihre Entschlossenheit ist spürbar. Mr. Knott nickt knapp. [STIMME:scholar] \"Diskretion ist alles. Sie wissen, wo Sie mich finden.\" [STIMME:keeper]\n\nDie morgendliche Brise Arkhams weht Ihnen um die Nase. Sie machen sich auf den Weg zum Zeitungsarchiv. Der Geruch von feuchtem Papier und altem Staub empfängt Sie dort. Was suchen Sie im Archiv?\n\n[FAKT: {\"auftrag_angenommen\": true}]\n[ORT: Zeitungsarchiv]\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 423,
+      "response_sentences": 8,
+      "latency_ms": 1760.4858999984572,
+      "tags_found": [
+        "ZEIT_VERGEHT",
+        "FAKT",
+        "STIMME"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich recherchiere alte Berichte ueber das Corbitt-Haus.",
+      "keeper_response": "Der Geruch von altem Papier und Druckerschwärze erfüllt die Luft. Sie finden sich inmitten staubiger Stapel alter Zeitungen wieder. Die Stille wird nur vom Rascheln der Seiten unterbrochen. [PROBE: Bibliotheksnutzung | 55]\n[ZEIT_VERGEHT: 1h]",
+      "response_chars": 241,
+      "response_sentences": 3,
+      "latency_ms": 1633.3490000033635,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich pruefe die Sterberegister nach Walter Corbitt.",
+      "keeper_response": "Die alten Zeitungen erzählen eine unheimliche Geschichte. Sie beschließen, die Hall of Records aufzusuchen. Ein kühler, formaler Geruch von Papier und Stempelfarbe empfängt Sie dort. [ORT: Hall of Records] [ZEIT_VERGEHT: 0.5h]\n\nSie möchten Walter Corbitts Sterberegister finden. Die Akten sind in endlosen Regalen geordnet. Eine formale Anfrage ist notwendig. [PROBE: Recht | 40]",
+      "response_chars": 379,
+      "response_sentences": 6,
+      "latency_ms": 2342.5643000009586,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich untersuche die Kirchenakten auf Hinweise.",
+      "keeper_response": "Sie finden den Eintrag. Walter Corbitt, gestorben 1880. Auffällig ist der Vermerk: \"Nicht auf geweihtem Boden bestattet.\" Das ist höchst ungewöhnlich für die damalige Zeit. [INVENTAR: sterberegister_corbitt | gefunden] [FAKT: {\"sterberegister_corbitt_gefunden\": true}]\n[FERTIGKEIT_GENUTZT: Recht]\nWie gehen Sie weiter vor?",
+      "response_chars": 322,
+      "response_sentences": 4,
+      "latency_ms": 58409.32199999952,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "INVENTAR",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 1,
+      "time_changes": 0,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich betrete das Corbitt-Haus und schaue mich im Erdgeschoss um.",
+      "keeper_response": "Sie verlassen die Hall of Records. Der Gedanke an Corbitts unheilige Ruhestätte bleibt haften. Eine neue Spur führt Sie zurück ins Zeitungsarchiv. [ORT: Zeitungsarchiv] [ZEIT_VERGEHT: 0.5h]\n\nSie suchen nach Informationen über die \"Church of Contemplation\". Diese Gruppe könnte Licht ins Dunkel bringen. [PROBE: Bibliotheksnutzung | 55]",
+      "response_chars": 335,
+      "response_sentences": 5,
+      "latency_ms": 202.74220000283094,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

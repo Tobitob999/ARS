@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.1.0",
+  "id": "add_party_paladin",
+  "name": "Sir Aldric von Strahlenburg",
+  "compatible_rulesets": ["add_2e"],
+  "archetype": "paladin",
+  "level": 6,
+  "race": "Human",
+  "class": "Paladin",
+  "alignment": "Lawful Good",
+  "background": "Sir Aldric entstammt dem verarmten Rittergeschlecht derer von Strahlenburg, dessen Burg vor dreissig Jahren von Untoten ueberrannt wurde. Als einziger Ueberlebender seiner Familie schwor er am Grab seiner Eltern, sein Leben dem Kampf gegen die Dunkelheit zu weihen. Er wurde vom Orden der Silbernen Flamme zum Paladin geweiht und diente seitdem als Untotenjaeger in den verfluchten Laendern. Die Valdrak-Expedition ist fuer ihn persoenlich — ein Lich, der Tote zu seinen Dienern bindet, ist die Verkoerperung alles dessen, was er bekaempft.",
+  "traits": "Sir Aldric ist edel, aufrichtig und von einer fast stoerenden Gerechtigkeitsliebe getrieben. Er kann nicht luegen und weigert sich, Kompromisse mit dem Boesen einzugehen. Gleichzeitig ist er warmherzig und beschuetzerisch gegenueber seinen Kameraden. Er betet vor jedem Kampf, segnet seine Waffe und spricht den Namen jedes gefallenen Kameraden in sein naecheliches Gebet. Er hat Humor, auch wenn er ihn selten zeigt — meist in Form trockener, unerwarteter Bemerkungen.",
+  "appearance": "Ein grosser, breitschultriger Mann Anfang Dreissig mit kurzem blondem Haar und strahlend blauen Augen, die eine fast uebernatuerliche Ruhe ausstrahlen. Sein Kinn ist kantig, sein Blick direkt. Er traegt eine makellose Vollplattenruestung, poliert bis sie gleisst, mit dem Emblem der Silbernen Flamme auf der Brust — eine aufsteigende Flamme in einem Sechseck. Sein Schild traegt dasselbe Wappen. An seiner Huefte haengt ein Langschwert, das bei Naehe zu Untoten leise vibriert.",
+  "characteristics": {
+    "STR": 17,
+    "DEX": 11,
+    "CON": 15,
+    "INT": 12,
+    "WIS": 16,
+    "CHA": 17
+  },
+  "derived_stats": {
+    "HP": 54,
+    "AC": 1,
+    "THAC0": 15,
+    "Movement": 12,
+    "Attacks_per_Round": "1",
+    "notes": "HP: 6d10+6 (CON 15 = +1/die for Warrior). AC: Full Plate (1) + Shield (-1) + Defender Sword (when defending: additional -1 to -3 AC transfer) = AC 1 base, 0 or better when actively defending. THAC0 15 = Warrior Level 6. Paladin: Detect Evil 60ft, Protection from Evil 10' radius, Lay on Hands 12 HP/day (2 HP per level), Turn Undead as Priest Level 4, immune to disease."
+  },
+  "saving_throws": {
+    "Paralyzation": 10,
+    "Rod": 12,
+    "Petrification": 11,
+    "Breath": 12,
+    "Spell": 13,
+    "notes": "Warrior Level 6 base saves. Paladin: +2 bonus to ALL saving throws. Effective: Para 8, Rod 10, Petri 9, Breath 10, Spell 11."
+  },
+  "skills": {
+    "Weapon Proficiency (Long Sword)": 2,
+    "Weapon Proficiency (Lance)": 1,
+    "Weapon Proficiency (Mace)": 1,
+    "Religion": 1,
+    "Riding (Horse)": 1,
+    "Healing": 1,
+    "notes": "Paladin abilities: Detect Evil at will (60ft range). Lay on Hands: heals 12 HP once/day. Protection from Evil 10' radius (constant, as spell). Turn Undead as Priest 4 levels lower (Level 2 Cleric): Skeleton 10, Zombie 13, Ghoul 16, Wight 19. Immune to disease. Holy Sword: Defender +2."
+  },
+  "equipment": [
+    "Holy Sword +2 'Strahlenbringer' (Defender: +2 hit/+2 damage, kann bis zu +2 AC-Bonus auf Traeger uebertragen statt Angriffsbonus)",
+    "Lance (1d6, mounted combat)",
+    "Medium Shield (+1 AC bonus)",
+    "Full Plate Armor (AC 1)",
+    "Holy Symbol of the Silver Flame (silbernes Flammen-Amulett)",
+    "Potion of Healing x2 (heilt 2d4+2 HP)",
+    "Holy Water x2 (2d4 Schaden vs Untote)",
+    "Warhorse-Saddlebags (am Eingang zurueckgelassen)",
+    "Backpack",
+    "Rations (7 days)",
+    "Waterskin",
+    "Torches (4)",
+    "Rope (50ft)",
+    "14 GP"
+  ],
+  "spells_prepared": {
+    "1": ["Bless", "Cure Light Wounds"],
+    "slots": {
+      "1": 2
+    },
+    "notes": "Paladin Level 6 (casts as Priest Level 3): 2 spell slots level 1 only. Bless: +1 attack/morale for allies, 6 rounds. Cure Light Wounds: 1d8 HP healing. Paladin spell list = Priest spell list, combat/healing spheres only."
+  },
+  "notes": "PARTY-ROLLE: Off-Tank, Anti-Undead-Spezialist, Notfall-Heiler. Sir Aldric ist der zweitstaerkste Frontkaempfer nach Thorin und der primaere Untotenjaeger der Gruppe. Holy Sword +2 'Strahlenbringer' ist das staerkste Nahkampfwaffe der Gruppe und trifft auch Lich Valdrak (magische Waffe). Defender-Eigenschaft: Kann +2 vom Angriffsbonus in AC-Bonus umwandeln (AC -1 statt AC 1). KRITISCH: Protection from Evil 10' Radius schuetzt die ganze Gruppe staendig. Detect Evil warnt vor versteckten Untoten. Lay on Hands (12 HP) als Notfall-Heilung. Turn Undead schwaecher als Aldhelms, aber addiert sich. TAKTIK: Erste Reihe neben Thorin. Holy Sword gegen alles was magische Waffen braucht. Bei Untoten: Detect Evil voraus, Turn Undead als Eroeffnung, dann Nahkampf. Im Lich-Kampf: Protection from Evil 10' schuetzt die Gruppe vor Valdraks Paralysierung (gibt neuen Save oder verhindert Beruehrung bei Extraplanar). WARNUNG: Paladin-Kodex — kann nicht luegen, muss Boeses bekaempfen, teilt Schatz mit Bedueftigen."
+}

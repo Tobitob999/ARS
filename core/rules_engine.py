@@ -130,6 +130,36 @@ _KEYWORD_MAP: dict[str, list[str]] = {
         "priester", "priest", "dieb", "thief", "bard", "paladin",
         "ranger", "druide", "druid",
     ],
+    # --- AD&D 2E ---
+    "proficiencies": [
+        "fertigkeit", "proficiency", "proficiencies", "nwp",
+        "waffenfertigkeit", "weapon proficiency", "spezialisierung",
+        "specialization", "nicht-waffen", "nonweapon",
+    ],
+    "racial_abilities": [
+        "rasse", "race", "zwerg", "dwarf", "elf", "gnom", "gnome",
+        "halbling", "halfling", "halbelf", "half-elf", "mensch", "human",
+        "infravision", "nachtsicht", "stufenlimit", "level limit",
+        "rassenfaehigkeit", "racial ability",
+    ],
+    "turn_undead": [
+        "untote", "undead", "vertreiben", "turn", "turn undead",
+        "skelett", "zombie", "ghoul", "vampir", "geist", "ghost",
+        "mumie", "mummy", "wraith", "spectre", "lich",
+    ],
+    "spell_slots": [
+        "zauberplaetze", "spell slot", "memorieren", "memorize",
+        "vorbereiten", "prepare", "zauber pro tag", "spells per day",
+        "spruchliste", "spell list",
+    ],
+    "encumbrance": [
+        "belastung", "encumbrance", "traglast", "gewicht", "weight",
+        "movement rate", "bewegungsrate", "behinderung",
+    ],
+    "surprise": [
+        "ueberraschung", "surprise", "hinterhalt", "ambush",
+        "wachsamkeit", "awareness", "begegnungsdistanz",
+    ],
     # --- Paranoia 2E ---
     "treason": [
         "treason", "verrat", "treasonous", "loyalty", "loyalitaet",
@@ -382,6 +412,9 @@ class RulesEngine:
         # Index tables (AD&D 2e)
         if self._tables:
             self._index_tables()
+
+        # AD&D 2e specific
+        self._index_racial_abilities()
 
         # Index lore chunks from data/lore/{system}/rules_fulltext_chunks/
         self._index_lore_chunks()
@@ -703,8 +736,16 @@ class RulesEngine:
                 original_value={"skill": skill_name, "target": target_value},
             )
 
-        # Range check (Shadowrun uses dice pools, not single die rolls)
-        max_target = 30 if self._is_shadowrun else self._die_max
+        # Range check — systemspezifisch:
+        #  Shadowrun: Dice Pools bis 30
+        #  AD&D 2e:   d20 + Prozent-Skills (Thief: Move Silently 35% etc.) bis 100
+        #  Andere:    default_die Maximalwert
+        if self._is_shadowrun:
+            max_target = 30
+        elif self._is_add2e:
+            max_target = 100
+        else:
+            max_target = self._die_max
         if target_value < 1 or target_value > max_target:
             return ValidationResult(
                 tag_type="PROBE", is_valid=False, severity="warning",
@@ -939,6 +980,8 @@ class RulesEngine:
         "treason", "clones", "clearance",
         # Shadowrun
         "matrix", "cyberware", "edge", "rigger",
+        # AD&D 2e
+        "proficiencies", "racial_abilities", "turn_undead",
     })
 
     def _add_section(self, section: RuleSection) -> None:
@@ -1749,4 +1792,167 @@ class RulesEngine:
                 title="Diebes-Fertigkeiten (Basis)",
                 keywords=["dieb", "thief", "rogue", "schloss", "falle", "schleichen"],
                 text=", ".join(rows),
+            ))
+
+        # Monster THAC0
+        mt = tables.get("monster_thac0", {}).get("by_hd")
+        if mt and isinstance(mt, dict):
+            rows = [f"HD {k}: THAC0 {v}" for k, v in mt.items() if not k.startswith("_")]
+            self._add_section(RuleSection(
+                section_id="tables.monster_thac0",
+                category="tables",
+                title="Monster-THAC0 nach Hit Dice",
+                keywords=["monster", "thac0", "hit dice", "npc", "gegner"],
+                text=". ".join(rows),
+            ))
+
+        # --- New AD&D 2e table indexers (v2.0.0 tables) ---
+
+        # Weapon tables
+        melee = tables.get("melee_weapons")
+        if melee and isinstance(melee, list):
+            rows = []
+            for w in melee[:10]:  # top 10 for injection budget
+                rows.append(
+                    f"{w['name']}: {w['damage_sm']}/{w['damage_l']}, "
+                    f"Spd {w['speed']}, {w['size']}, {w['type']}"
+                )
+            self._add_section(RuleSection(
+                section_id="tables.melee_weapons",
+                category="equipment",
+                title="Nahkampfwaffen-Tabelle",
+                keywords=_KEYWORD_MAP["combat"] + ["waffe", "weapon", "schaden",
+                         "schwert", "axt", "dolch", "keule", "streitkolben"],
+                text="Nahkampfwaffen (Schaden S-M/L, Speed, Groesse, Typ): " + ". ".join(rows),
+            ))
+
+        missile = tables.get("missile_weapons")
+        if missile and isinstance(missile, list):
+            rows = []
+            for w in missile[:8]:
+                rows.append(
+                    f"{w['name']}: {w['damage_sm']}/{w['damage_l']}, "
+                    f"ROF {w['rof']}, Range {w['range_s']}/{w['range_m']}/{w['range_l']}"
+                )
+            self._add_section(RuleSection(
+                section_id="tables.missile_weapons",
+                category="equipment",
+                title="Fernkampfwaffen-Tabelle",
+                keywords=_KEYWORD_MAP["combat"] + ["fernkampf", "bogen", "armbrust",
+                         "missile", "reichweite", "range", "schiessen"],
+                text="Fernkampf (Schaden S-M/L, ROF, Reichweite S/M/L): " + ". ".join(rows),
+            ))
+
+        # Spell slot progression
+        wiz_slots = tables.get("wizard_spell_slots")
+        if wiz_slots and isinstance(wiz_slots, dict):
+            sample = []
+            for lvl in ["1", "5", "10", "15", "20"]:
+                slots = wiz_slots.get(lvl)
+                if slots:
+                    non_zero = [f"L{i+1}:{s}" for i, s in enumerate(slots) if s > 0]
+                    sample.append(f"Wiz L{lvl}: {', '.join(non_zero)}")
+            self._add_section(RuleSection(
+                section_id="tables.wizard_spell_slots",
+                category="magic",
+                title="Magier-Zauberplaetze",
+                keywords=_KEYWORD_MAP.get("spell_slots", []) + ["magier", "wizard", "arkane"],
+                text=". ".join(sample),
+            ))
+
+        pri_slots = tables.get("priest_spell_slots")
+        if pri_slots and isinstance(pri_slots, dict):
+            sample = []
+            for lvl in ["1", "5", "9", "14", "20"]:
+                slots = pri_slots.get(lvl)
+                if slots:
+                    non_zero = [f"L{i+1}:{s}" for i, s in enumerate(slots) if s > 0]
+                    sample.append(f"Priest L{lvl}: {', '.join(non_zero)}")
+            self._add_section(RuleSection(
+                section_id="tables.priest_spell_slots",
+                category="magic",
+                title="Priester-Zauberplaetze",
+                keywords=_KEYWORD_MAP.get("spell_slots", []) + ["priester", "priest", "kleriker",
+                         "cleric", "goettlich", "divine"],
+                text=". ".join(sample),
+            ))
+
+        # Turn Undead
+        tu = tables.get("turn_undead")
+        if tu and isinstance(tu, dict):
+            sample = []
+            for lvl in ["1", "3", "5", "7", "9"]:
+                entry = tu.get(lvl, {})
+                if entry:
+                    vals = [f"{k}:{v}" for k, v in entry.items()
+                            if not k.startswith("_") and v != "-"]
+                    sample.append(f"Priest L{lvl}: {', '.join(vals[:5])}")
+            self._add_section(RuleSection(
+                section_id="tables.turn_undead",
+                category="tables",
+                title="Untote Vertreiben",
+                keywords=_KEYWORD_MAP.get("turn_undead", []),
+                text="Turn Undead (Wuerfelwert oder T=auto, D=zerstoert): " + ". ".join(sample),
+            ))
+
+        # Non-weapon Proficiencies
+        nwp = tables.get("nonweapon_proficiencies")
+        if nwp and isinstance(nwp, list):
+            groups = {}
+            for p in nwp:
+                for g in p.get("groups", ["general"]):
+                    groups.setdefault(g, []).append(p["name"])
+            parts = [f"{g.title()}: {', '.join(names[:8])}"
+                     for g, names in sorted(groups.items())]
+            self._add_section(RuleSection(
+                section_id="tables.proficiencies",
+                category="skills",
+                title="Nicht-Waffen-Fertigkeiten",
+                keywords=_KEYWORD_MAP.get("proficiencies", []),
+                text="NWP nach Gruppe: " + ". ".join(parts),
+            ))
+
+        # Armor catalog
+        armor = tables.get("armor_catalog")
+        if armor and isinstance(armor, list):
+            rows = [f"{a['name']}: AC {a['ac']}, {a['weight']} lb, {a['cost_gp']} gp"
+                    for a in armor if not isinstance(a.get("name"), type(None))]
+            self._add_section(RuleSection(
+                section_id="tables.armor",
+                category="equipment",
+                title="Ruestungs-Katalog",
+                keywords=["ruestung", "armor", "ac", "schild", "shield",
+                          "leder", "kette", "platte", "leather", "chain", "plate"],
+                text=". ".join(rows),
+            ))
+
+    # -- AD&D 2e Racial Abilities (from expanded races in ruleset) ----------
+
+    def _index_racial_abilities(self) -> None:
+        """Index AD&D 2e racial abilities for context injection."""
+        if not self._is_add2e:
+            return
+        races = self._ruleset.get("races", {})
+        if not races:
+            return
+
+        parts: list[str] = []
+        for race_id, data in races.items():
+            if not isinstance(data, dict):
+                continue
+            name = race_id.replace("_", "-").title()
+            adj = data.get("ability_adjustments", {})
+            specials = data.get("special_abilities", [])
+            movement = data.get("movement", 12)
+            adj_str = ", ".join(f"{k}{v:+d}" for k, v in adj.items()) if adj else "keine"
+            spec_str = ", ".join(specials[:4]) if specials else "keine"
+            parts.append(f"{name}: Bew {movement}, Adj {adj_str}, Spezial: {spec_str}")
+
+        if parts:
+            self._add_section(RuleSection(
+                section_id="add2e.racial_abilities",
+                category="classes",
+                title="Rassenfaehigkeiten (AD&D 2e)",
+                keywords=_KEYWORD_MAP.get("racial_abilities", []),
+                text=". ".join(parts),
             ))

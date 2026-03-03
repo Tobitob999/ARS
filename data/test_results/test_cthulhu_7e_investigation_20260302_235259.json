@@ -1,0 +1,128 @@
+{
+  "module": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "case_id": 2,
+  "case_name": "investigation",
+  "expected_tags": {
+    "PROBE": 3,
+    "FERTIGKEIT_GENUTZT": 1,
+    "FAKT": 1
+  },
+  "total_turns": 5,
+  "total_latency_ms": 21199.558700005582,
+  "avg_latency_ms": 4239.911740001116,
+  "avg_response_chars": 375.8,
+  "avg_sentences": 5.2,
+  "total_probes": 2,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich nehme den Auftrag an und gehe ins Zeitungsarchiv.",
+      "keeper_response": "Mr. Knott nickt zufrieden. [STIMME:scholar] \"Diskretion ist Gold wert.\" [STIMME:keeper] Seine Worte hallen in Ihren Ohren nach. Sie verlassen das Buero und machen sich auf den Weg.\n\nDie Stadt erwacht langsam um Sie herum. Sie erreichen das staedtische Zeitungsarchiv. Ein Ort des schweigenden Wissens.\n\nDer Geruch von altem Papier liegt schwer in der Luft. Was genau suchen Sie?\n[ZEIT_VERGEHT: 0.5h]\n[TAGESZEIT: 08:30]",
+      "response_chars": 418,
+      "response_sentences": 9,
+      "latency_ms": 3355.12660000677,
+      "tags_found": [
+        "ZEIT_VERGEHT",
+        "TAGESZEIT",
+        "STIMME"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich recherchiere alte Berichte ueber das Corbitt-Haus.",
+      "keeper_response": "Ein muffiger Geruch von gealtertem Papier liegt in der Luft. Reihen ueber Reihen alter Zeitungen stapeln sich. Die Stunden verrinnen, waehrend Sie nach Berichten zum Corbitt-Haus suchen. [ZEIT_VERGEHT: 2h]\n[TAGESZEIT: 10:30]\n[PROBE: Bibliotheksnutzung | 55]",
+      "response_chars": 257,
+      "response_sentences": 3,
+      "latency_ms": 4483.552199999394,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT",
+        "TAGESZEIT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich pruefe die Sterberegister nach Walter Corbitt.",
+      "keeper_response": "Vergilbte Seiten flüstern Ihnen alte Geschichten zu. Sie finden Berichte über unnatürliche Vorfälle in der Sheafe Street 20, die sich über Jahrzehnte wiederholten. Ein Name taucht dabei häufig auf: Walter Corbitt, genannt in Verbindung mit einer obskuren Kirche.\n\nWas tun Sie als Nächstes?\n[FAKT: {\"zeitung_unfaelle_gefunden\": true}]\n[FAKT: {\"zeitung_corbitt_erste_erwaehnung\": true}]\n[FERTIGKEIT_GENUTZT: Bibliotheksnutzung]",
+      "response_chars": 425,
+      "response_sentences": 4,
+      "latency_ms": 7854.808900003263,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 0,
+      "facts": 2,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich untersuche die Kirchenakten auf Hinweise.",
+      "keeper_response": "Sie verlassen das staubige Archiv und begeben sich zum Hall of Records. Die langen Korridore sind kühl, erfüllt vom Geruch alten Papiers und dem rhythmischen Stempelklang. Sie suchen akribisch nach Walter Corbitts Sterberegister. [ZEIT_VERGEHT: 1h]\n[TAGESZEIT: 11:30]\n[PROBE: Recht | 40]",
+      "response_chars": 287,
+      "response_sentences": 3,
+      "latency_ms": 2710.309199996118,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT",
+        "TAGESZEIT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich betrete das Corbitt-Haus und schaue mich im Erdgeschoss um.",
+      "keeper_response": "Das staubige Papier der Register klebt an Ihren Fingern. Ihre Augen schmerzen vom Kleingedruckten. Nach langem Suchen finden Sie tatsächlich einen Eintrag für Walter Corbitt.\n\nDie Akte weist einen völlig normalen Tod aus. Sie scheint keinerlei Ungereimtheiten zu enthalten. Der Eintrag vermerkt eine Beisetzung auf dem Oakwood Cemetery.\n\nWas ist Ihr nächster Schritt?\n[FAKT: {\"sterberegister_corbitt_normal_gefunden\": true}]\n[FERTIGKEIT_GENUTZT: Recht]\n[ZEIT_VERGEHT: 0.5h]\n[TAGESZEIT: 12:00]",
+      "response_chars": 492,
+      "response_sentences": 7,
+      "latency_ms": 2795.7618000000366,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT",
+        "TAGESZEIT",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

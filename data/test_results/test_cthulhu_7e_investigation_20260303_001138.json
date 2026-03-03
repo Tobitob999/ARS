@@ -1,0 +1,85 @@
+{
+  "module": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "case_id": 2,
+  "case_name": "investigation",
+  "expected_tags": {
+    "PROBE": 3,
+    "FERTIGKEIT_GENUTZT": 1,
+    "FAKT": 1
+  },
+  "total_turns": 3,
+  "total_latency_ms": 25889.035500003956,
+  "avg_latency_ms": 8629.678500001319,
+  "avg_response_chars": 289.0,
+  "avg_sentences": 5.666666666666667,
+  "total_probes": 2,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich nehme den Auftrag an und gehe ins Zeitungsarchiv.",
+      "keeper_response": "Sie haben eine Entscheidung getroffen. Mr. Knott nickt knapp. [STIMME:scholar] \"Diskretion ist alles. Sie wissen, wo Sie mich finden.\" [STIMME:keeper] Er zeigt Ihnen zur Tür.\n\nDie Boston Globe-Zentrale erhebt sich vor Ihnen. Ein alter, staubiger Ort. Das Archiv ist voll von Zeitungsstapeln. [ZEIT_VERGEHT: 0.5h][TAGESZEIT: 08:30]\n[PROBE: Bibliotheksnutzung | 55]",
+      "response_chars": 363,
+      "response_sentences": 8,
+      "latency_ms": 19886.41550000466,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT",
+        "TAGESZEIT",
+        "STIMME"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich recherchiere alte Berichte ueber das Corbitt-Haus.",
+      "keeper_response": "Staubige Akten fallen Ihnen in die Hände. Ihre Suche ist präzise. Sie finden mehrere Berichte über mysteriöse Todesfälle und Unfälle. Alle ereigneten sich in den letzten Jahrzehnten im Haus an der Sheafe Street. [FERTIGKEIT_GENUTZT: Bibliotheksnutzung] [ZEIT_VERGEHT: 1h]\n\nWas tun Sie als Nächstes?",
+      "response_chars": 298,
+      "response_sentences": 5,
+      "latency_ms": 2304.0437000017846,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich pruefe die Sterberegister nach Walter Corbitt.",
+      "keeper_response": "Die staubige Luft knistert. Sie vertiefen sich in die Mikrofilme. Namen und Daten verschwimmen vor Ihren Augen. Sie suchen gezielt nach dem Namen Corbitt. [ZEIT_VERGEHT: 1h]\n[PROBE: Bibliotheksnutzung | 55]",
+      "response_chars": 206,
+      "response_sentences": 4,
+      "latency_ms": 3698.5762999975123,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

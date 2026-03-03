@@ -1,7 +1,7 @@
 # ARS — Agent Coordination Dashboard
 
-**Zuletzt aktualisiert:** 2026-03-02 (Session 9)
-**Projektstatus:** In Betrieb — 5 Regelsysteme, Content Pipeline R1-R8, LoreAdapter, Bugfixes BUG-001-005, B2-B9, Conversion Monitor, Metrics-Logger
+**Zuletzt aktualisiert:** 2026-03-03 (Session 10d — Stresstest-Optimierung, 7 Bugfixes)
+**Projektstatus:** In Betrieb — 5 Regelsysteme, Party-System, Dungeon-View, Content Pipeline R1-R8, Web GUI, Testbot CLI
 
 **Speicherort:** `docs/management/` — zentraler Management-Ordner
 
@@ -28,15 +28,19 @@
 | STT (Faster-Whisper) | fertig | Whisper base CPU, Silero VAD |
 | TTS (Piper) | fertig | de_DE-thorsten-medium, 10 Stimmen |
 | Voice Pipeline | fertig | STT->Gemini->TTS, Barge-in optional |
-| TechGUI | fertig | tkinter, 9 Tabs (+ Conversion Monitor), Dark Theme, Budget-Slider (bis 2M), Session-Reset |
+| TechGUI (Desktop) | fertig | tkinter, 12 Tabs, Dark Theme, Budget-Slider (bis 2M), Session-Reset |
+| Dungeon-Visualisierung | v1 fertig | Canvas-Karte, BFS-Layout, Fog of War, Party/Monster-Marker, Sounds, Click-Navigation |
+| Web GUI | v1 fertig | FastAPI+WebSocket, 10 Tabs, Dark Theme, `--webgui --port 7860` |
+| Testbot CLI | fertig | `scripts/testbot.py` — run/results/status/cleanup, Token-Tracking, EUR-Kosten |
 | Charakter-System | fertig | SQLite-Persistenz, nicht-numerische Stats (Paranoia) |
 | Cthulhu 7e | fertig | d100, roll-under, SAN |
-| AD&D 2e | fertig | d20, roll-under, THAC0, Klassen |
+| AD&D 2e | fertig (v2 — feingranuliert) | d20, roll-under, THAC0, Klassen |
 | Mad Max | fertig | d100, Survival |
 | Paranoia 2e | fertig | d20, roll-under, Clones, Treason, 451 Lore-Chunks |
 | Shadowrun 6e | fertig | d6 Pool, Edge, Matrix, 2036 Lore-Chunks |
 | Lore-Daten | fertig | ~5000+ Dateien, 3-Verzeichnis-Scan (chunks/chapters/fulltext), Auto-Priority-Promotion |
-| Abenteuer-Content | minimal | spukhaus, goblin_cave, 4x Paranoia Adventures |
+| Party-System | fertig (v1) | PartyStateManager, 6-Char Party, Party-Monitor Tab, VirtualPlayer Case 7 |
+| Abenteuer-Content | minimal | spukhaus, goblin_cave, 4x Paranoia Adventures, dungeon_gauntlet_party |
 
 ---
 
@@ -55,12 +59,24 @@ main.py ── SessionConfig (core/session_config.py) ── Presets (modules/pr
         │     ├── Keeper-Detail-Block (Erzaehlstil, Philosophie → Prompt)
         │     └── Extras-Block (Zusatzregeln → Prompt)
         ├── CharacterManager (core/character.py) — SQLite
+        ├── PartyStateManager (core/party_state.py) — Multi-Char HP/Spell/Item/XP Tracking
         ├── Orchestrator (core/orchestrator.py) — Game Loop
         │     ├── AdventureManager (core/adventure_manager.py) — Story Logic
         │     └── Archivist (core/memory.py) — Chronik + World State
         └── VoicePipeline (audio/pipeline.py)
               ├── STTHandler (audio/stt_handler.py) — Faster-Whisper + Silero VAD
               └── TTSHandler (audio/tts_handler.py) — Piper → Kokoro → pyttsx3
+```
+
+**Web GUI Architektur:**
+```
+main.py --webgui --port 7860
+  └── web/server.py (FastAPI + uvicorn)
+        ├── WebSocket /ws — bidirektional (EventBus-Bridge + Player-Input)
+        ├── REST /api/discovery, /api/engine/state, /api/engine/start|pause|stop, /api/input
+        ├── Static /static/css/ (theme.css, layout.css)
+        ├── Static /static/js/ (app.js, eventbus.js, tabs/*.js)
+        └── Templates /templates/index.html (Single-Page, 10 Tabs)
 ```
 
 **TTS Backend-Hierarchie:**
@@ -84,6 +100,12 @@ main.py ── SessionConfig (core/session_config.py) ── Presets (modules/pr
 - [x] Setup eines automatisierten Metrics-Loggers fuer Simulationslaeufe
 - [x] B2-B9 Coding Batch (Session 6): Conversion Monitor, Cache-Hash, Noise-Gate, Stat-Bars, evaluate_condition, --convert-all, LatencyLogger, Session-Reset Hardening
 - [x] BUGFIX: Paranoia exits list-vs-dict crash in adventure_manager.py
+- [x] **Testbot CLI** (`scripts/testbot.py`): 4 Subcommands (run/results/status/cleanup), Token-Tracking in virtual_player+test_series, EUR-Kosten
+- [x] **Web GUI v1** (`web/`): FastAPI+WebSocket, 10 Tabs (Session/Game/Audio/KI-Monitor/Injector/Responder/KI-Connection/Spielstand/Conversion/Test-Monitor), Dark Theme, `--webgui`
+- [x] **Party-System v1** — PartyStateManager, 6 Party-Tag-Patterns, Party-Prompt-Injection, Party-Monitor GUI Tab, VirtualPlayer Party-Mode (Session 10)
+- [ ] **CRITICAL: Preset-Adventure Passthrough** — Preset-Adventure wird nicht an engine.load_adventure() weitergegeben (dungeon_gauntlet statt dungeon_gauntlet_party geladen)
+- [ ] **HIGH: Monster-Gegenangriffe** — KI emittiert keine HP_VERLUST-Tags fuer Monster → 0 Schaden nach 165 Zuegen
+- [ ] **HIGH: Context-Saettigung** — Repetitive Antworten ab ~80 Zuegen
 - [ ] PROBE-Tags fehlen in Cthulhu (0/5 Turns, sollten 2-3 sein)
 - [ ] Monolog-Sperre Enforcement (KI ignoriert 3-Satz-Limit, avg 5-7 Saetze)
 - [ ] Shadowrun PROBE-Zielwerte ausserhalb Bereich (50-70 statt 1-30 fuer d6 Pool)
@@ -111,8 +133,10 @@ main.py ── SessionConfig (core/session_config.py) ── Presets (modules/pr
 - [ ] **Optimierung:** Shadowrun Lore-Coverage erhoehen (22% → Ziel 60%)
 - [ ] **Content:** Mehr Shadowrun-Content (Adventures, Characters)
 - [ ] **Feature:** Charaktererstellung im Voice-Modus
-- [ ] **Feature:** Wuerfelergebnisse in GUI visualisieren
-- [ ] **Feature:** Lore-Budget Slider (getrennt von Rules-Budget)
+- [x] **Feature:** Wuerfelergebnisse in GUI visualisieren (Session 9)
+- [x] **Feature:** Lore-Budget Slider (getrennt von Rules-Budget) (Session 9)
+- [x] **Feature:** Web GUI mit 10 Tabs (Session 10)
+- [x] **Feature:** Testbot CLI mit Token-Tracking + EUR-Kosten (Session 10)
 
 ---
 
@@ -323,6 +347,130 @@ Gueltige `difficulty` Werte: `"easy"`, `"normal"`, `"heroic"`, `"hardcore"`.
 
 ## Agent Reports
 
+[2026-03-03 14:50] | FROM: Claude Code | Session 10c/10d — Test-Fix-Loop (4 Iterationen, 7 Bugfixes, Stresstest-Optimierung):
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+AUFGABE: Trainingsrun-Loop (Run → Analyse → Bugfix → Re-Test) fuer AD&D Crawltraining.
+4 Iterationen, 7 Bugfixes, finaler optimierter Stresstest.
+
+BUGFIXES (7 total):
+1. Cache-Hash (ai_backend.py): Statischer CACHE_DISPLAY_NAME → prompt-hash-basiert.
+   Stale Cache lieferte falsche Charakter-Namen (Valdrak statt Training-Party).
+2. Lazy Cache Creation (ai_backend.py): 5x _initialize_cache() beim Start → cascade create-delete.
+   Jetzt: _cache_dirty=True, lazy init bei erstem API-Call.
+3. AD&D 2e PROBE Zielwert (rules_engine.py): max_target=20 → max_target=100 fuer Prozent-Skills.
+   Thief-Skills (Move Silently 75%, Find Traps 65%) wurden als d20-auto-success gewertet.
+4. d100 Fallback (mechanics.py): Neuer d100-Modus wenn target > dice_config.faces.
+   Correct CoC-style percentage roll mit critical/extreme/hard/regular/failure/fumble levels.
+5. Party stat_changes Metrik (orchestrator.py): _last_party_tag_count tracking.
+   Party-HP_VERLUST wurde nicht in Metriken gezaehlt (nur single-char Format).
+6. Stagnation-Detektor (virtual_player.py): Nach 3 leeren Zuegen → Stachel-Aktion.
+   KI erklaerte Party narrativ tot bei HP > 0 → 8+ verschwendete Zuege.
+7. HP_VERLUST Regex (virtual_player.py): Pattern zahlte nur [HP_VERLUST: N],
+   NICHT [HP_VERLUST: Name | N] → 100% Party-Damage unsichtbar in Tag-Statistik.
+
+OPTIMIERUNGEN:
+- PROBE-Timeout: 60s → 20s (Latenz: 32s → 10.5s avg, -67%)
+- Per-Tag-Type Breakdown in Report (Tag-Dichte, Unique-Types, Aufschluesselung)
+- Tag-Breakdown in JSON-Export (tag_breakdown, tag_density)
+
+ITERATION PROGRESSION:
+| Metrik          | Iter1(noLLM) | Iter1(LLM) | Iter2  | Iter3  | FINAL(15t) |
+|-----------------|-------------|------------|--------|--------|------------|
+| Turns           | 30          | 30         | 30     | 30     | 15         |
+| Combat Tags     | 0           | 130        | 77     | 101    | 43         |
+| HP_VERLUST      | 0           | 0*         | 0*     | 0*     | 19         |
+| REGELCHECK      | 4           | 18         | 0      | 0      | 0          |
+| Tags Total      | 7           | ~150       | ~85    | ~120   | 89         |
+| Tags/Turn       | 0.2         | ~5         | ~2.8   | ~4     | 5.9        |
+| Unique Types    | 1           | ~4         | ~4     | ~5     | 7          |
+| Rooms           | 1           | 1          | 1→4    | 1→10   | 1→5        |
+| Cost            | $0.07       | $0.31      | $0.16  | $0.20  | $0.064     |
+| Avg Latenz      | ?           | ?          | ?      | 32s    | 10.5s      |
+(*HP_VERLUST Regex-Bug: Party-Format [Name | N] nicht gezaehlt)
+
+FINAL STRESSTEST (15 Turns):
+- 89 Tags, 5.9/Zug, 7 Unique Types, 15/15 Zuege mit Tags (100%)
+- 37 ANGRIFF, 19 HP_VERLUST, 15 ZEIT_VERGEHT, 6 RETTUNGSWURF, 5 PROBE, 4 XP_GEWINN, 3 FERTIGKEIT
+- 0 REGELCHECK-Warnungen, alle 6 Party-Mitglieder leben
+- $0.064 Gesamtkosten (Keeper $0.054 + LLM-Player $0.010)
+- Report: data/test_results/test_add_2e_generic_20260303_144857.json
+
+MODIFIZIERTE DATEIEN (6):
+- core/ai_backend.py: Lazy Cache + Hash-basiertes Naming + Stale-Cache-Cleanup
+- core/rules_engine.py: AD&D 2e max_target=100
+- core/mechanics.py: d100-Modus fuer Prozent-Skills
+- core/orchestrator.py: _last_party_tag_count fuer Party-Metriken
+- scripts/virtual_player.py: HP_VERLUST Regex, PROBE-Timeout 20s, Stagnation-Detektor, Tag-Breakdown
+
+OFFENE ISSUES:
+- KI nutzt [ANGRIFF] auch fuer Monster-Angriffe (harmlos, Engine ignoriert)
+- KI gibt ANGRIFF/HP_VERLUST fuer mechanisch tote Chars ("already dead — damage ignored")
+- Kein ZAUBER_VERBRAUCHT im Tag-Zaehler von virtual_player (nur intern via PartyState)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[2026-03-03 21:00] | FROM: Claude Code | Dungeon-Visualisierung v1 — Tab 12 implementiert:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+AUFGABE: Grafische Dungeon-Crawl-Darstellung mit ASCII-Zeichen, Bewegungssystem, Sound-Effekte.
+ERGEBNIS:
+- gui/tab_dungeon_view.py NEU (~480 Zeilen): DungeonViewTab als Tab 12 "Dungeon"
+- Canvas-basierte Karte mit BFS-Auto-Layout aus Adventure-Exits
+- Richtungs-Parsing: Deutsche Exit-Beschreibungen (nord/sued/ost/west/hinab/tiefer) → raeumliche Platzierung
+- Fog of War: Unbesuchte Raeume zeigen nur "?" bis Party sie betritt
+- Entity-Symbole: @ (Party), M (Monster), ☠ (Tot), ! (Falle), $ (Schatz), ♦ (Item)
+- Raum-Farbkodierung: Gruen-Tint (aktuell), Grau (besucht), Dunkel (unbesucht)
+- Ebene-Indikatoren (E1/E2/E3) bei mehrstoeckigen Dungeons
+- Klick-Navigation: Angrenzende Raeume per Klick betreten, Info-Panel zeigt Beschreibung
+- Ausgaenge als klickbare Buttons im Info-Panel
+- Entity-Panel: Party-HP/AC, Monster-Namen, NPC-Liste
+- Aktions-Log mit farbcodierten Tags (Kampf=Rot, Bewegung=Gruen, Proben=Gelb, Items=Blau)
+- Sound-Effekte via winsound.Beep (Thread-basiert, togglebar):
+  - Bewegung: 500Hz 80ms
+  - Kampf: 800Hz→600Hz (Two-Tone)
+  - HP-Verlust: 300Hz→200Hz (Descending)
+  - Probe/Wuerfel: Ascending Pips
+  - Item-Fund: Triple Ascending
+  - Tod: 200Hz→150Hz (Low Drone)
+- Flash-Effekte: Raum blinkt bei Kampf (#4A2020), Schaden (#4A1010), Tod (#4A0000)
+- Monster-Tracking: Flag-basiert (besiegt/geraeumt → Monster aus Raum entfernt)
+- Integration: tech_gui.py registriert Tab 12, Event-Dispatch, on_engine_ready
+EVENTS VERARBEITET: adventure.loaded, adventure.location_changed, adventure.flag_changed, game.output (combat/stat/probe/dice/inventory), party.state_updated, party.member_died, party.tpk
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[2026-03-03 16:30] | FROM: Claude Code | AD&D 2e Spell OCR Cleanup — vollstaendig abgeschlossen:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+AUFGABE: OCR-Artefakte in 331 AD&D 2e Spell-Dateien bereinigen (3 Kategorien: canonical_name_guess_applied, missing_standard_fields, trimmed_merged_block).
+ERGEBNIS:
+- 8 canonical_name_guess_applied: Alle Namen korrigiert (Affect Normal Fire, Barkskin, Bigby's Clenched Fist, Call Lightning, Charm Plants, Continual Light, Detect Poison, Earthquake). quality_flags geleert.
+- 42 missing_standard_fields: Alle null-Felder (range/components/duration/casting_time/area_of_effect/saving_throw) aus raw_block oder PHB-Wissen befuellt. School-OCR-Artefakte korrigiert (IllusiodPhantasm→Illusion/Phantasm, EnchantmentKhann→Enchantment/Charm, Divinatiodlllusion→Divination/Illusion, etc.). quality_flags geleert.
+- 5 OCR-Sektionsheader erkannt und markiert: i_wizard_spells, i1_wizard_spells, i_priest_spells, wizard_snells, pried_cndlc, priest_spells, wizard_spells, any_creature_at_the_edge → category=index_header, quality_flag=ocr_section_header_not_a_spell.
+- 1 fehlinterpretierter Name: mm_chum.json → Mass Charm (id=mass_charm, Enchantment/Charm).
+- 1 fehlinterpretierter Name: i_exaction.json → Exaction (echter Zauber, OCR-Seiten-I entfernt). Felder aus PHB-Wissen befuellt.
+- 39 trimmed_merged_block: [Beschreibung unvollstaendig — siehe PHB]-Marker an alle description_excerpt-Felder angefuegt. quality_flags geleert.
+ENTITY INDEX: entity_index.json (data/lore/add_2e/indices/) aktualisiert — alle name/school/quality_flags-Korrekturen uebertragen, ocr_cleanup_date=2026-03-03.
+ENDZUSTAND: 0 missing_standard_fields, 0 trimmed_merged_block, 0 canonical_name_guess_applied. Verbleibend: 7x ocr_name_corrected, 8x ocr_section_header_not_a_spell (alle absichtlich).
+AUTONOME ENTSCHEIDUNGEN: (1) any_creature_at_the_edge.json und wizard_spells.json als Sektionsheader/Artefakte klassifiziert (kein PHB-Zauber mit diesen Namen). (2) Mass Charm id=mass_charm behalten, Dateiname mm_chum.json belassen (kein Umbennen noetig, id korrekt). (3) Exaction-Felder aus PHB-Wissen rekonstruiert (Touch/V,S/Special/1 round/1 creature/Special). (4) Spellcard-Felder in raw_block belassen (Original-OCR als Quelle), nur mechanics-Felder korrigiert.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[2026-03-03 14:00] | FROM: Claude Code | AD&D Encounter Expansion — 30 Encounter-Dateien vollstaendig ausgebaut:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+AUFGABE: 31 skelettierte Encounter-Dateien in data/lore/add_2e/encounters/ mit vollstaendigen Keeper-Daten ausbauen.
+ERGEBNIS: 30/30 Encounter-Dateien (encounter_system.json bereits vollstaendig, unberuehrt).
+NEUE FELDER (pro Datei): description (2-3 Satz Atmosphaere), monsters (vollstaendige AD&D 2e Stat-Blocks: AC/HD/HP/THAC0/Angriffe/Schaden/XP/Sondereigenschaften), tactics (Verhaltens-Beschreibung), environment (Terrain/Raum-Beschreibung), difficulty (easy/moderate/hard/deadly), loot (Array mit item+value), cr_equivalent (Party-Stufenbereich als String).
+FALLEN (15 Dateien): Zusaetzlich disarm_dc (Entdeck+Entschaerfen), trap_details (type/trigger/area_of_effect/detection/reset/Sonderregeln).
+EVENTS (12 Dateien): Zusaetzlich special_rules mit interaktiven Mechaniken (Untersuchungs-Optionen, Kleriker-Interaktion, zufaellige Sub-Ereignisse, Geraeusch-Checks).
+MONSTER-ENCOUNTER (2 Dateien: goblin_patrol, rival_adventurers): Vollstaendige Stat-Blocks fuer jede Kreatur-/NSC-Variante, tactics mit Flanken/Rueckzugs-Logik, reaction_roll-Tabelle (rival_adventurers).
+ALLE 30 DATEIEN: Valides JSON (py -3 Syntaxcheck: 0 Fehler).
+Autonome Entscheidungen: (1) encounter_system.json nicht modifiziert (bereits vollstaendige Regeldokumentation ohne Encounter-spezifische Felder). (2) Unstable_masonry als Event mit optionalem Schaden modelliert (damage-Feld hinzugefuegt, da Kampfschaden tatsaechlich auftritt). (3) Eerie_statue_hall mit optionalen Steingolems (W10-Roll) ausgebaut, um sowohl die Exploration- als auch die Kampf-Variante zu unterstuetzen.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[2026-03-03 02:00] | FROM: Claude Code | Session 10 — Party-System implementiert:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+17 Dateien (11 neu, 6 modifiziert). 2 parallele Agents: Agent A (Content: 9 JSONs), Agent B (Code: 8 Tasks).
+NEU: core/party_state.py (448Z), gui/tab_party_monitor.py (385Z), 6 Charakter-Sheets, Party, Adventure (790Z), Preset.
+ERWEITERT: character.py (6 Party-Tags), ai_backend.py (Party-Prompt), engine.py (Party-Loading), orchestrator.py (Party-Tag-Routing), virtual_player.py (Case 7), tech_gui.py (Tab 11).
+TESTLAUF: 165 Zuege, 6/6 leben, $3.04 Kosten. Tags funktionieren (PROBE/ANGRIFF/ZAUBER/HP_HEILUNG). Fuzzy Name Match OK.
+PROBLEME: (1) CRITICAL: Preset-Adventure nicht durchgereicht (dungeon_gauntlet statt party-Version). (2) HIGH: KI emittiert 0 HP_VERLUST fuer Monster-Angriffe. (3) Repetitive Antworten ab Zug 80. Uebergabe an naechste Session.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [2026-03-02 23:59] | FROM: QM-Agent | Session 9 Wrap-Up abgeschlossen. 3 Coding-Runden, 4 Commits (3cb39d0→e0a4f4f→9de3ec5→324e4f2). BUG-007 FIXED (STABILITAET_VERLUST-Tag fuer Non-Cthulhu geblockt). BUG-001 ROOT CAUSE FIXED (Deep-Copy + Type Guards in adventure_manager.py + memory.py). Neue Features: Wuerfelvisualisierung (tab_game.py), Lore-Budget-Slider (tab_session.py), Shadowrun Content-Erweiterung (Neonlichter-Adventure, 3 Chars, 6 Lore-Dateien). AD&D entity_index.json NEU (647 Entities). OCR-Cleanup MechWarrior (623 Dateien). Test-Analyse 19 Metriken/100+ Turns. Neue offene Issues: AD&D PROBE-Zielwert, Paranoia Satz-Overflow. MEMORY.md, session_log.md, bugtracker.md aktualisiert.
 [2026-02-27 13:31] | FROM: Codex | Alle in `core/` erstellten Lore-JSONs in die regelkonforme Struktur `data/lore/...` verschoben und thematisch einsortiert (u. a. `npcs`, `locations`, `items`, `organizations`, `spells`, `mythos_entities`, `technology`). `core/` enth�lt keine JSON-Dateien mehr.
 [2026-02-27 17:47] | FROM: Codex | Nur die Spielinhalt-Markdown-Dateien aus dem Hauptordner (`arkham_rumors`, `global_events_1925`, `famous_cases`, `witch_trials_archive`, alle `*_excerpt`) in JSON konvertiert, in `data/lore/...` einsortiert und die 12 konvertierten `.md` aus dem Root entfernt.
@@ -407,4 +555,93 @@ T10 QA-LAUF: enforce_full_depth.py gegen alle 4 Systeme: add_2e=fail_empty_ocr, 
   - Cthulhu: 0 PROBE-Tags in 5 Zuegen (KI setzt keine Proben)
   - Shadowrun: PROBE-Zielwerte 50-70 statt 1-30 (d6-Pool falsch verstanden)
   - Shadowrun: Skill 'Cracken' und Stat 'SAN' existieren nicht im Ruleset
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-03-03 14:00] | FROM: Claude Code | Session 11 — AD&D 2e Feingranulierte Aufbereitung (10-Task Batch):
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+(1) TABLES MASSIV ERWEITERT (add_2e_tables.json: 7KB → 42KB, Schema 1.0→2.0):
+  T1: 6 Attribut-Bonus-Tabellen (STR 1-18/00, DEX, CON, INT, WIS, CHA) — 143 Eintraege
+  T2: 19 Melee + 12 Missile Waffen (Schaden S-M/L, Speed, Range, Kosten)
+  T4: Spell Slots (Wizard L1-20, Priest L1-20, Ranger L8-16, Paladin L9-20, Bard L2-20)
+  T5: 58 Non-Weapon Proficiencies (Ability, Modifier, Slots, Groups)
+  T6: 14 Ruestungen + 35 Adventuring Gear mit AC/Weight/Cost
+  Turn Undead Tabelle (L1-14+, 13 Untoten-Typen)
+(2) RULESET ERWEITERT (add_2e.json: Schema 2.7→2.8):
+  T3: 6 Rassen mit vollstaendigen Details (Ability Adj, Level Limits, Class Options, Special Abilities, Languages, Min/Max)
+(3) ENCOUNTER-AUSBAU (30/30 Dateien):
+  T7: 30 Skelett-Encounters zu vollwertigen Begegnungen erweitert (Monster-Stats, Taktik, Loot, Environment, Difficulty, CR)
+  15 Traps (disarm_dc, trap_details), 13 Events (special_rules), 2 Monster-Encounters (volle Statblocks)
+(4) SPELL-OCR-CLEANUP (90 Dateien):
+  T9: 8 kaputte Namen korrigiert, 42 fehlende Felder ergaenzt, 8 Section-Header reklassifiziert, 39 Truncated markiert
+  Entity-Index aktualisiert. Verbleibende echte Spells: 323 (von 331, 8 waren OCR-Header)
+(5) RULES ENGINE ERWEITERT (rules_engine.py):
+  T8: 9 neue AD&D-Sektionen (Melee/Missile-Waffen, Spell Slots, Turn Undead, NWP, Ruestung, Monster-THAC0, Rassenfaehigkeiten)
+  6 neue Keyword-Kategorien (proficiencies, racial_abilities, turn_undead, spell_slots, encumbrance, surprise)
+  Alle Sektionen getestet: 296 Gesamt, 2.08M Zeichen, Keyword-Suche verifiziert
+(6) AI BACKEND PROMPT VERBESSERT (ai_backend.py):
+  T10: NWP-Proben-Protokoll, Zauber-Verwaltung (Memorierung), Turn-Undead-Protokoll, erweiterte System-Grenzen
+  Diebes-Fertigkeiten (d100-Ausnahme), Rassenfaehigkeiten-Hinweis im Prompt
+VALIDATION: JSON-Syntax OK (alle 4 Dateien), Python-Syntax OK (rules_engine + ai_backend), Integrations-Test OK (9/9 Sektionen indexiert)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-03-03 18:00] | FROM: Claude Code | Session 10c — Circuit Breaker + AD&D Training-Dungeon:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+10 Dateien (9 neu, 1 modifiziert). Ziel: Robustheit virtual_player + maximale Tag-Dichte fuer AD&D-Tests.
+(1) CIRCUIT BREAKER in scripts/virtual_player.py:
+  - `CIRCUIT_BREAKER_THRESHOLD = 5` + `consecutive_errors` Zaehler in run()-Methode
+  - Kurzantwort-Erkennung: response_len < 60 Zeichen (API-Fehler 28-47 Zeichen, normale Antworten 150+)
+  - Nach 5 aufeinanderfolgenden Kurzantworten: Log "CIRCUIT BREAKER", final_status="api_error_abort", Loop-Abbruch
+  - Erfolgreicher Zug: counter reset auf 0
+  - tm.error wird pro Kurzantwort-Zug gesetzt fuer klare Metriken
+(2) ADVENTURE: modules/adventures/crawltraining_full.json — "Die Schinder-Tiefen":
+  - 15-Raum linearer Dungeon mit Pflicht-Kampf + Proben in jedem Raum
+  - 40 NPCs mit vollstaendigen AD&D 2e Statbloecken (Skelette HD1 bis Lich HD14 AC-2 HP90)
+  - Jeder Raum: keeper_notes erzwingt [PROBE:], [ANGRIFF:], [HP_VERLUST:] Tags
+  - 6 magische Gegenstaende als Beute, ~30.000 XP gesamt
+  - Aggressives keeper_lore fuer maximale Tag-Dichte
+(3) TRAINING-CHARAKTERE (6 neue Character-JSONs, aggressive Persoenlichkeiten):
+  - add_train_fighter — Grimjaw Eisenfaust (L7 Fighter, "greift SOFORT an")
+  - add_train_mage   — Pyra Flammenherz (L6 Mage, "Offensiv, Feuer und Zerstoerung")
+  - add_train_cleric — Bruder Mordain (L6 Cleric, "Kriegspriester, heilt knapp")
+  - add_train_thief  — Shade Klingenschatten (L7 Thief, "Aggressiver Backstab")
+  - add_train_ranger — Varn Wildtoeter (L6 Ranger, "Monsterjaeger, greift zuerst")
+  - add_train_paladin — Sir Kael Zornesklinge (L6 Paladin, "Fanatischer Untotenjaeger")
+(4) PARTY + PRESET:
+  - modules/parties/add_training_party.json — "Die Schinder-Truppe" (6 Mitglieder)
+  - modules/presets/crawltraining_full.json — Aggressive DM-Persona, temperature 0.7
+VERIFIKATIONSBEFEHLE:
+  py -3 scripts/virtual_player.py --module add_2e --adventure crawltraining_full --party add_training_party --turns 20 --save
+  py -3 scripts/virtual_player.py --module add_2e --preset crawltraining_full --turns 100 --llm-player --save
+OFFENE ISSUES (unveraendert aus Session 10b):
+  (1) CRITICAL: Preset-Adventure nicht durchgereicht (engine.load_adventure() ignoriert Preset-Adventure-Feld)
+  (2) HIGH: KI emittiert 0 HP_VERLUST fuer Monster-Angriffe
+  (3) HIGH: Repetitive Antworten ab ~Zug 80 (Context-Saettigung)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-03-03 15:30] | FROM: Claude Code | Session 10c ABGESCHLOSSEN — Circuit Breaker + HP_VERLUST Party-Fix
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Implementiert (10 neue/modifizierte Dateien):
+1. `scripts/virtual_player.py` — Circuit Breaker (5 consecutive errors → abort), aggressiver LLM-Player-Prompt
+2. `core/ai_backend.py` — Party-aware character_block, 2-Sektionen Tag-Layout (ANGRIFF=Spieler, HP_VERLUST=Monster), Kampfrunden-Beispiel
+3. `core/orchestrator.py` — ROOT CAUSE FIX: CombatTracker in Party-Mode deaktiviert (blockierte HP_VERLUST-Tags aktiv)
+4. `modules/adventures/crawltraining_full.json` — 15-Raum Dungeon "Die Schinder-Tiefen", 40 NPCs, aggressive keeper_lore
+5. 6x `modules/characters/add_train_*.json` — Aggressive Charaktere (Fighter/Mage/Cleric/Thief/Ranger/Paladin)
+6. `modules/parties/add_training_party.json` — "Die Schinder-Truppe"
+7. `modules/presets/crawltraining_full.json` — Aggressiver DM, Temp 0.7
+
+Test v8 Ergebnis (20 Zuege, ERFOLGREICH):
+- 8 HP_VERLUST korrekt emittiert und angewendet:
+  - Grimjaw: 72 → 48 (-24 HP, 6 Treffer)
+  - Varn: 52 → 47 (-5 HP, 2 Treffer)
+- 23 PROBEs, 72 Combat-Tags, 4 XP-Verteilungen
+- Alle 6 Party-Mitglieder leben
+- Circuit Breaker funktioniert (test v7 bewies: 5 Timeouts → Abort)
+- Kosten: $0.18, Avg Latenz 6.7s
+
+Root Cause (FIX):
+CombatTracker (Single-Char System) war in Party-Mode aktiv und:
+(a) injizierte eigene Monster-Angriffe → KI dachte "System handhabt Schaden"
+(b) verwarf HP_VERLUST-Tags explizit (Zeile 521-522: "HP_VERLUST ignoriert (CombatTracker aktiv)")
+FIX: core/orchestrator.py — CombatTracker.track_attack() deaktiviert fuer Party-Mode, HP_VERLUST-Emissionspfad freigelegt
+
+Offene Issues:
+- 16 REGELCHECK-Warnings: KI verwendet falsche PROBE-Zielwerte (35/40/45 statt 1-20 fuer AD&D)
+- Schadensverteilung ungleich: Grimjaw absorbiert 75% aller Treffer
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

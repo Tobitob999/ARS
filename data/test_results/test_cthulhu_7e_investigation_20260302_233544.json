@@ -1,0 +1,122 @@
+{
+  "module": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "case_id": 2,
+  "case_name": "investigation",
+  "expected_tags": {
+    "PROBE": 3,
+    "FERTIGKEIT_GENUTZT": 1,
+    "FAKT": 1
+  },
+  "total_turns": 5,
+  "total_latency_ms": 60035.54479999002,
+  "avg_latency_ms": 12007.108959998004,
+  "avg_response_chars": 312.8,
+  "avg_sentences": 5.8,
+  "total_probes": 2,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich nehme den Auftrag an und gehe ins Zeitungsarchiv.",
+      "keeper_response": "Ein Nicken von Knott. Er schiebt einen Umschlag ueber den Tisch. [STIMME:scholar] \"Diskretion ist alles, mein Freund. Finden Sie heraus, was dort geschieht.\"\n\nSie verlassen sein buerokratisches Reich. Die Strassen Arkhams sind lebhaft. Eine Stunde spaeter stehen Sie vor den schweren Eichentueren des Zeitungsarchivs.\n\nDer Raum ist erstickend. Ein staubiger Geruch liegt in der Luft. Hohe Regale voller gebundener Zeitungsbaende umgeben Sie. [ZEIT_VERGEHT: 1h] [ORT: Zeitungsarchiv]\n\nWas tun Sie?",
+      "response_chars": 496,
+      "response_sentences": 10,
+      "latency_ms": 55452.65919999656,
+      "tags_found": [
+        "ZEIT_VERGEHT",
+        "STIMME"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich recherchiere alte Berichte ueber das Corbitt-Haus.",
+      "keeper_response": "Das Zeitungsarchiv riecht nach alter Tinte und Papierstaub. Reihen ueber Reihen vergilbter Jahrgaenge starren Sie an. Das Rascheln der Seiten ist das einzige Geräusch.\n\nSie beginnen Ihre Suche nach Erwaehnungen des Corbitt-Hauses. [PROBE: Bibliotheksnutzung | 50] [ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 284,
+      "response_sentences": 4,
+      "latency_ms": 2468.0301999978838,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich pruefe die Sterberegister nach Walter Corbitt.",
+      "keeper_response": "Sie finden erstaunlich schnell die passenden Artikel. Mehrere Meldungen berichten von seltsamen Unfaellen. Immer wieder ist das Haus an der Sheafe Street 20 der Schauplatz.\n\nDie Ereignisse wiederholen sich ueber Jahrzehnte. Keine banale Ursache wird je genannt. [FAKT: {\"unfallmeldungen_gefunden\": true}] Was tun Sie nun? [FERTIGKEIT_GENUTZT: Bibliotheksnutzung]",
+      "response_chars": 362,
+      "response_sentences": 6,
+      "latency_ms": 1320.2469999960158,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 0,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich untersuche die Kirchenakten auf Hinweise.",
+      "keeper_response": "Sie verlassen das Zeitungsarchiv. Der Weg fuehrt Sie zum Hall of Records. Kuehle Luft empfaengt Sie dort.\n\nDie Buecher der Toten warten. [PROBE: Bibliotheksnutzung | 50] [ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 190,
+      "response_sentences": 4,
+      "latency_ms": 104.33270000066841,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich betrete das Corbitt-Haus und schaue mich im Erdgeschoss um.",
+      "keeper_response": "Ihre Suche ist muehsam. Die alten, handschriftlichen Eintraege sind schwer zu entziffern. Namen verschwimmen, Daten verwischen.\n\nCorbitts Name scheint Sie zu meiden. Was tun Sie als Nächstes? [FERTIGKEIT_GENUTZT: Bibliotheksnutzung]",
+      "response_chars": 232,
+      "response_sentences": 5,
+      "latency_ms": 690.2756999988924,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 0,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

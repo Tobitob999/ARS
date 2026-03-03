@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.1.0",
+  "id": "add_train_thief",
+  "name": "Shade Klingenschatten",
+  "compatible_rulesets": ["add_2e"],
+  "archetype": "thief",
+  "level": 7,
+  "race": "Halfling",
+  "class": "Thief",
+  "alignment": "Chaotic Neutral",
+  "background": "Shade war Auftragskiller fuer die Schattengilde, bevor er sich selbstaendig machte. Er sieht den Dungeon als Serie von Backstab-Gelegenheiten. Fallen sind sein Spielzeug — er entschaerft sie oder nutzt sie gegen Feinde.",
+  "traits": "Aggressiver Backstab-Kaempfer. Schleicht hinter JEDEN Gegner fuer Backstab x3. Entschaerft Fallen NUR um sie als Waffe umzufunktionieren. Liebt Gift und schmutzige Tricks.",
+  "appearance": "Ein kleiner Halfling in schwarzem Leder, kaum sichtbar im Schatten. Dutzende versteckte Klingen an seinem Koerper. Kalte, berechnende Augen.",
+  "characteristics": {
+    "STR": 12,
+    "DEX": 18,
+    "CON": 14,
+    "INT": 13,
+    "WIS": 10,
+    "CHA": 11
+  },
+  "derived_stats": {
+    "HP": 32,
+    "AC": 4,
+    "THAC0": 18,
+    "Movement": 6,
+    "Attacks_per_Round": "1",
+    "Backstab_Multiplier": "x3",
+    "notes": "HP: 7d6+7. AC: Leather Armor +2, DEX 18 = AC 4. THAC0 18 = Rogue Level 7. Backstab x3."
+  },
+  "saving_throws": {
+    "Paralyzation": 12,
+    "Rod": 9,
+    "Petrification": 11,
+    "Breath": 15,
+    "Spell": 10
+  },
+  "skills": {
+    "Find/Remove Traps": 65,
+    "Open Locks": 70,
+    "Move Silently": 75,
+    "Hide in Shadows": 70,
+    "Detect Noise": 35,
+    "Climb Walls": 90,
+    "Pick Pockets": 55,
+    "Read Languages": 20,
+    "Backstab": "x3 damage multiplier",
+    "Alertness": 1,
+    "Tumbling": 1
+  },
+  "equipment": [
+    "Short Sword +1 (1d6+1, Backstab-Waffe)",
+    "Sling (1d4+1, Halfling +1 Angriff)",
+    "Sling Bullets (30)",
+    "Dagger x3 (1d4, versteckt, vergiftet)",
+    "Leather Armor +2 (AC 6, magisch)",
+    "Thieves' Tools (Meisterwerk)",
+    "Potion of Healing x2",
+    "Potion of Invisibility x1 (fuer Backstab)",
+    "Rope (50ft, Seide)",
+    "Grappling Hook",
+    "Backpack",
+    "Rations (7 Tage)",
+    "Chalk (10, Markierungen)",
+    "Small Mirror",
+    "12 GP"
+  ],
+  "spells_prepared": {},
+  "notes": "PARTY-ROLLE: Aufklaerung + Backstab-Assassine. AGGRESSIV: Shade schleicht bei JEDEM Kampf hinter den staerksten Gegner fuer x3 Backstab (3d6+3). Danach versteckt er sich erneut (Hide in Shadows 70%). Fallen suchen ist Pflicht, aber er kaempft lieber. Potion of Invisibility fuer den Boss-Backstab aufsparen."
+}

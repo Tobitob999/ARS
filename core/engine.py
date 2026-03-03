@@ -146,6 +146,8 @@ class SimulatorEngine:
         self.extras_data: list[dict[str, Any]] = []
         self.character_template: dict[str, Any] | None = None
         self.party_data: dict[str, Any] | None = None
+        self.party_members: list[dict[str, Any]] | None = None
+        self.party_state = None  # PartyStateManager (aktiv im Party-Modus)
         self.rules_engine = None
         self._voice_enabled = False
         self._orchestrator = None
@@ -212,6 +214,18 @@ class SimulatorEngine:
         if sc and getattr(sc, "party", None):
             self.load_party(sc.party)
 
+        # Party-State initialisieren (Multi-Charakter-Modus)
+        if self.party_members:
+            from core.party_state import PartyStateManager
+            self.party_state = PartyStateManager.from_party_json(
+                party_data=self.party_data or {},
+                characters=self.party_members,
+            )
+            logger.info(
+                "PartyStateManager initialisiert: %d Mitglieder.",
+                len(self.party_members),
+            )
+
         # KI-Backend initialisieren
         from core.ai_backend import GeminiBackend
         self.ai_backend = GeminiBackend(
@@ -221,7 +235,12 @@ class SimulatorEngine:
             keeper=self.keeper_data,
             extras=self.extras_data,
             character_template=self.character_template,
+            party_members=self.party_members,
         )
+
+        # Party-State ans AI-Backend koppeln
+        if self.party_state and self.ai_backend:
+            self.ai_backend.set_party_state(self.party_state)
 
         # Rules Engine an KI-Backend koppeln (fuer dynamische Regel-Injektion)
         if self.rules_engine:
@@ -297,7 +316,7 @@ class SimulatorEngine:
         logger.info("Character template loaded: %s", char_name)
 
     def load_party(self, party_name: str) -> None:
-        """Load a party module from modules/parties/ (placeholder)."""
+        """Load a party module from modules/parties/ and resolve member characters."""
         path = PARTIES_DIR / f"{party_name}.json"
         if not path.exists():
             logger.warning("Party file not found: %s", path)
@@ -305,6 +324,33 @@ class SimulatorEngine:
         with path.open(encoding="utf-8-sig") as fh:
             self.party_data = json.load(fh)
         logger.info("Party loaded: %s", party_name)
+
+        # Resolve member IDs -> load character JSONs
+        member_ids = self.party_data.get("members", [])
+        if not member_ids:
+            logger.warning("Party '%s' hat keine Mitglieder.", party_name)
+            return
+
+        self.party_members = []
+        for member_id in member_ids:
+            char_path = CHARACTERS_DIR / f"{member_id}.json"
+            if not char_path.exists():
+                logger.warning(
+                    "Party-Mitglied '%s' nicht gefunden: %s", member_id, char_path,
+                )
+                continue
+            with char_path.open(encoding="utf-8-sig") as fh:
+                char_data = json.load(fh)
+            self.party_members.append(char_data)
+            logger.info(
+                "Party-Mitglied geladen: %s (%s)",
+                char_data.get("name", member_id), member_id,
+            )
+
+        logger.info(
+            "Party '%s': %d/%d Mitglieder geladen.",
+            party_name, len(self.party_members), len(member_ids),
+        )
 
     def load_adventure(self, adventure_name: str) -> None:
         # Discovery-Validierung: existiert das Abenteuer im Manifest?

@@ -33,7 +33,7 @@
       "name": "Succor",
       "canonical_name_guess": null,
       "school_or_type": "Alteration, Enchantment",
-      "range": null,
+      "range": "Touch",
       "components": "V, S, M",
       "duration": "Special",
       "casting_time": "1 day",
@@ -41,8 +41,6 @@
       "saving_throw": "None",
       "description_excerpt": "By casting this spell, the priest creates a powerful magic in some speciaIly prepared object-a string of prayer beads, a small clay tablet, an ivory baton, etc. This object radiates magic, for it contains the power to instantaneously transport its possessor to the sanctuary of the priest who created its magic. Once the item is enchanted, the priest must give it willingly to an individual, at the same time informing him of a com- mand word to be spoken when the item is to be used. To make use of the item, the recipi- ent must speak the command word at the same time that he rends or breaks the item. When this is done, the individual and all that he is wearing and carrying (up to the maximum encumbrance limit for the char- acter) are instantly transported to the sanc- tuary of the priest, just as if the individual were capable of speaking a word of recall spell. No other creatures can be af"
     },
-    "quality_flags": [
-      "missing_standard_fields"
-    ]
+    "quality_flags": []
   }
 }

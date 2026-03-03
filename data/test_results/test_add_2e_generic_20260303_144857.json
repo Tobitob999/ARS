@@ -1,0 +1,355 @@
+{
+  "module": "add_2e",
+  "adventure": "crawltraining_full",
+  "case_id": 1,
+  "case_name": "generic",
+  "expected_tags": {},
+  "total_turns": 15,
+  "total_latency_ms": 157523.14909998677,
+  "avg_latency_ms": 10501.54327333245,
+  "avg_response_chars": 980.4,
+  "avg_sentences": 9.2,
+  "total_probes": 5,
+  "total_combat_tags": 43,
+  "total_stat_changes": 23,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich betrete die Taverne und schaue mich um.",
+      "keeper_response": "Die feuchte Kaelte der Schinder-Tiefen umfängt dich, nicht die waermende Luft einer Taverne. Knochen knirschen unter deinen Stiefeln im grossen, dunklen Saal. Vier Skelett-Krieger erheben sich klappernd aus dem Schutt. Zwei rostige Schwerter sausen auf Grimjaw herab, ein weiteres Paar trifft Sir Kael.\n\n[HP_VERLUST: Grimjaw Eisenfaust | 4]\n[HP_VERLUST: Grimjaw Eisenfaust | 3]\n[HP_VERLUST: Sir Kael Zornesklinge | 5]\n[HP_VERLUST: Sir Kael Zornesklinge | 4]\n[ZEIT_VERGEHT: 0.5h]\n\nWas unternimmst du gegen diese untoten Angreifer?",
+      "response_chars": 529,
+      "response_sentences": 5,
+      "latency_ms": 6258.677199992235,
+      "tags_found": [
+        "HP_VERLUST",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 4,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Grimjaw Eisenfaust: Greift den Skelett-Krieger an, der ihn getroffen hat.\nSir Kael Zornesklinge: Schlägt mit seinem Zornesklinge auf einen der Skelett-Krieger ein.\nBruder Mordain: Wirkt Segnen auf die ganze Gruppe.\nVarn Wildtoeter: Feuert einen Pfeil auf einen der Skelett-Krieger ab.\nPyra Flammenherz: Wirkt Feuerball auf die Gruppe der Skelett-Krieger.\nShade Klingenschatten: Versucht, einen der Skelett-Krieger von hinten zu erdolchen.",
+      "keeper_response": "Ein eisiger Wind pfeift durch die Halle. Die knöchernen Finger der Untoten greifen nach euren Verteidigern.\n\nBruder Mordain erhebt seine Hand, ein leuchtender Segen umhüllt die Gruppe. Pyra Flammenherz schleudert einen Feuerball in die klappernden Reihen. Eine sengende Explosion erfasst die Skelette. Zwei Untote zerfallen augenblicklich zu glühendem Staub. Die verbleibenden zwei sind stark angeschlagen, doch sie wanken noch.\n\nGrimjaw Eisenfaust schwingt seine Axt auf eines der verkohlten Skelette.\n[ANGRIFF: Battle Axe +1 | 14 | 7 | 4 | Grimjaw Eisenfaust]\nSir Kael Zornesklinge stürzt sich auf den anderen Untoten, sein Schwert leuchtet auf.\n[ANGRIFF: Holy Sword +2 'Zornesklinge' | 15 | 7 | 2 | Sir Kael Zornesklinge]\nVarn Wildtoeter spannt seinen Bogen, ein Pfeil zischt durch die Luft.\n[ANGRIFF: Longbow +1 | 15 | 7 | 0 | Varn Wildtoeter]\nShade Klingenschatten versucht, in den chaotischen Schatten der zersplitterten Säulen zu verschwinden.\n[PROBE: Hide in Shadows | 55 | Shade Klingenschatten]\n[ZAUBER_VERBRAUCHT: Bruder Mordain | Bless | 1]\n[ZAUBER_VERBRAUCHT: Pyra Flammenherz | Fireball | 3]\n[ZEIT_VERGEHT: 0.5h]\n\nEines der Skelette schlägt mit rostigem Schwert auf Grimjaw ein. Das andere kratzt mit seinen Klauen an Sir Kaels Rüstung.\n\n[HP_VERLUST: Grimjaw Eisenfaust | 3]\n[HP_VERLUST: Sir Kael Zornesklinge | 4]\n\nWas passiert als Nächstes?",
+      "response_chars": 1356,
+      "response_sentences": 14,
+      "latency_ms": 36477.582199993776,
+      "tags_found": [
+        "PROBE",
+        "HP_VERLUST",
+        "ANGRIFF",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 2,
+      "combat_tags": 3,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Grimjaw Eisenfaust: Greift das nächste angeschlagene Skelett mit seiner Axt an.\nSir Kael Zornesklinge: Stürmt auf das verbleibende Skelett zu und schlägt mit seinem Schwert zu.\nBruder Mordain: Greift das nächstgelegene Skelett mit seinem Streitkolben an.\nVarn Wildtoeter: Feuert einen präzisen Pfeil auf ein angeschlagenes Skelett.\nPyra Flammenherz: Wirft einen Magiegeschoss-Zauber auf das am meisten angeschlagene Skelett.\nShade Klingenschatten: Schleicht sich hinter das nächste Skelett und versucht einen Hinterhalt.",
+      "keeper_response": "Die Skelette taumeln vom Feuerball, ihre Knochen rauchen. Doch sie halten stand, ihre leeren Augenhöhlen glühen feindselig.\n\nGrimjaw brüllt, seine Axt saust herab und zertrümmert das Skelett vor ihm in Dutzende Knochensplitter. Sir Kael folgt dem Beispiel, sein heiliges Schwert durchschneidet das nächste Untote. Die letzten klappernden Feinde zerfallen zu Haufen von Knochen.\n\nDie unheilvolle Präsenz weicht langsam aus der Halle. Ein schwacher, modriger Geruch bleibt zurück.\n\n[ANGRIFF: Battle Axe +1 | 14 | 7 | 4 | Grimjaw Eisenfaust]\n[ANGRIFF: Holy Sword +2 'Zornesklinge' | 15 | 7 | 2 | Sir Kael Zornesklinge]\n[ANGRIFF: Mace +1 | 18 | 7 | 0 | Bruder Mordain]\n[ANGRIFF: Longbow +1 | 15 | 7 | 0 | Varn Wildtoeter]\n[ANGRIFF: Magic Missile | 19 | 7 | 0 | Pyra Flammenherz]\n[ANGRIFF: Short Sword +1 | 18 | 7 | 0 | Shade Klingenschatten]\n[ZAUBER_VERBRAUCHT: Pyra Flammenherz | Magic Missile | 1]\n[XP_GEWINN: 260]\n[ZEIT_VERGEHT: 0.5h]\n\nDie Stille kehrt in die Eingangshalle zurück, durchbrochen nur vom Echo eurer Schritte. Ein schwacher Luftzug zieht aus einem dunklen Gang im Westen. Was zieht eure Aufmerksamkeit nun auf sich?",
+      "response_chars": 1128,
+      "response_sentences": 10,
+      "latency_ms": 2463.857700000517,
+      "tags_found": [
+        "XP_GEWINN",
+        "ANGRIFF",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 1,
+      "combat_tags": 6,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Grimjaw Eisenfaust: Dringt in den nächsten Raum vor.\nSir Kael Zornesklinge: Dringt in den nächsten Raum vor.\nBruder Mordain: Dringt in den nächsten Raum vor.\nVarn Wildtoeter: Dringt in den nächsten Raum vor.\nPyra Flammenherz: Dringt in den nächsten Raum vor.\nShade Klingenschatten: Dringt in den nächsten Raum vor.",
+      "keeper_response": "Ihr tretet durch einen schmalen Durchgang, der sich zu einem langen Korridor weitet. Die Wände sind hier glatt und unnatürlich eben, als wären sie von etwas Anderem als Steinmetzen geschaffen worden. Ein unheimlicher Geruch nach verrottendem Fleisch und trockenem Blut liegt in der Luft.\n\n[ZEIT_VERGEHT: 0.5h]\n[PROBE: Find/Remove Traps | 65 | Shade Klingenschatten]\nWas entdeckst du in diesem unwirklichen Gang?",
+      "response_chars": 411,
+      "response_sentences": 4,
+      "latency_ms": 22033.714099990902,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Grimjaw Eisenfaust: Stürmt aggressiv den Korridor entlang.\nSir Kael Zornesklinge: Drängt mit gezücktem Schwert voran.\nBruder Mordain: Eilt entschlossen dem Rest der Gruppe hinterher.\nVarn Wildtoeter: Prescht mit wachsamen Augen den Gang entlang.\nPyra Flammenherz: Bewegt sich schnell, bereit zum Zaubern, durch den Korridor.\nShade Klingenschatten: Überprüft flüchtig den Gang auf Fallen und stürmt dann weiter.",
+      "keeper_response": "Der schmale Korridor öffnet sich zu einem weiten Gang, dessen Wände von kunstvollen, doch unheilvollen Reliefs gesäumt sind. Plötzlich spürt Shade ein Zittern unter seinen Füßen, ein leises Klicken, das fast im Knirschen der Knochen untergeht. Seine scharfen Sinne erfassen die feinen Drahtfallen, die sich in den Boden und die Seitenwände schmiegen.\n\n[FERTIGKEIT_GENUTZT: Find/Remove Traps | Shade Klingenschatten]\n\nIn demselben Moment zischen zwei Pfeile aus dunklen Nischen am Ende des Ganges. Einer findet sein Ziel in Grimjaws Schulter, der andere bohrt sich in Sir Kaels Bein. Von den Seitenwänden her schleudern die Fallen scharfe Metallprojektile in den Gang.\n\n[HP_VERLUST: Grimjaw Eisenfaust | 4]\n[HP_VERLUST: Sir Kael Zornesklinge | 3]\n[ZEIT_VERGEHT: 0.5h]\n\nZwei Skelett-Bogenschützen stehen am Ende des Gangs, ihre leeren Augenhöhlen auf euch gerichtet. Die Metallprojektile schlagen krachend in den Steinboden. Was ist deine erste Reaktion?",
+      "response_chars": 952,
+      "response_sentences": 9,
+      "latency_ms": 4907.834599987837,
+      "tags_found": [
+        "HP_VERLUST",
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 2,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 6,
+      "player_input": "Grimjaw Eisenfaust: Grimjaw stürmt vorwärts auf die Skelett-Bogenschützen zu und greift an.\nSir Kael Zornesklinge: Sir Kael folgt Grimjaw und stürmt ebenfalls auf die Bogenschützen zu.\nBruder Mordain: Bruder Mordain spricht einen Segen, um die Gruppe im Kampf zu stärken.\nVarn Wildtoeter: Varn schießt präzise mit seinem Bogen auf einen der Skelett-Bogenschützen.\nPyra Flammenherz: Pyra schleudert einen Blitzschlag auf die Skelett-Bogenschützen.\nShade Klingenschatten: Shade versucht, die Fallen schnell zu umgehen, um die Bogenschützen zu erreichen.",
+      "keeper_response": "Die Luft knistert vor Spannung, als die Gruppe entschlossen vorstürmt. Grimjaw und Sir Kael schmettern auf die Skelett-Bogenschützen ein, ihre Waffen finden knochige Ziele.\n\n[ANGRIFF: Battle Axe +1 | 14 | 7 | 4 | Grimjaw Eisenfaust]\n[ANGRIFF: Holy Sword +2 'Zornesklinge' | 15 | 7 | 2 | Sir Kael Zornesklinge]\n\nVarn Wildtoeter spannt seinen Bogen, ein Pfeil surrt durch die Luft und trifft einen Bogenschützen.\n[ANGRIFF: Longbow +1 | 15 | 7 | 0 | Varn Wildtoeter]\n\nPyra Flammenherz entfesselt einen Blitzschlag, der grell durch den Gang zuckt und einen der Bogenschützen trifft. Der Untote zerfällt zu Asche.\n[ZAUBER_VERBRAUCHT: Pyra Flammenherz | Lightning Bolt | 3]\n\nBruder Mordain murmelt ein Gebet, ein warmer Glanz umgibt die Gruppe.\n[ZAUBER_VERBRAUCHT: Bruder Mordain | Bless | 1]\n\nShade Klingenschatten weicht geschickt den Fallen aus, huscht durch die Gefahrenzone.\n[PROBE: Move Silently | 55 | Shade Klingenschatten]\n\nDer verbleibende Skelett-Bogenschütze zieht einen weiteren Pfeil und schiesst auf Grimjaw.\n[HP_VERLUST: Grimjaw Eisenfaust | 5]\n[ZEIT_VERGEHT: 0.5h]\n\nWas unternimmst du nun?",
+      "response_chars": 1100,
+      "response_sentences": 9,
+      "latency_ms": 22277.944599991315,
+      "tags_found": [
+        "PROBE",
+        "HP_VERLUST",
+        "ANGRIFF",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 1,
+      "combat_tags": 3,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 7,
+      "player_input": "Grimjaw Eisenfaust: Greift den nächsten Skelett-Bogenschützen an.\nSir Kael Zornesklinge: Stürmt vor und schlägt mit seinem heiligen Schwert auf einen weiteren Bogenschützen ein.\nBruder Mordain: Schlägt mit seinem Streitkolben auf den nächsten Feind ein.\nVarn Wildtoeter: Zieht seine Waffen und stürmt auf einen Bogenschützen zu, um ihn im Nahkampf anzugreifen.\nPyra Flammenherz: Wirkt ein Magisches Geschoss auf den verbliebenen Bogenschützen.\nShade Klingenschatten: Versucht, einen verbliebenen Skelett-Bogenschützen von hinten zu erdolchen.",
+      "keeper_response": "Der Geruch von Ozon und verbranntem Knochen erfüllt den Gang. Grimjaw stürmt vor, seine Axt teilt die Luft und trifft den letzten Bogenschützen. Der Untote zerfällt in Staub.\n\n[ANGRIFF: Battle Axe +1 | 14 | 7 | 4 | Grimjaw Eisenfaust]\n[ANGRIFF: Holy Sword +2 'Zornesklinge' | 15 | 7 | 2 | Sir Kael Zornesklinge]\n[ANGRIFF: Mace +1 | 18 | 7 | 0 | Bruder Mordain]\n[ANGRIFF: Long Sword | 15 | 7 | 0 | Varn Wildtoeter]\n[ANGRIFF: Magic Missile | 19 | 7 | 0 | Pyra Flammenherz]\n[ANGRIFF: Short Sword +1 | 18 | 7 | 0 | Shade Klingenschatten]\n[ZAUBER_VERBRAUCHT: Pyra Flammenherz | Magic Missile | 1]\n[XP_GEWINN: 65]\n[ZEIT_VERGEHT: 0.5h]\n\nDie Luft wird dicker, der modrige Geruch verstärkt sich. Weiter im Gang, wo die Bogenschützen standen, öffnet sich eine breite Doppeltür, die aus grobem Holz gefertigt ist und mit eisernen Bändern verstärkt wurde. Schwaches Licht und tiefe, gutturale Laute dringen dahinter hervor. Welches Vorgehen wählt ihr?",
+      "response_chars": 939,
+      "response_sentences": 7,
+      "latency_ms": 2106.970900000306,
+      "tags_found": [
+        "XP_GEWINN",
+        "ANGRIFF",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 1,
+      "combat_tags": 6,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 8,
+      "player_input": "Grimjaw Eisenfaust: Stürmt durch die Doppeltür in den nächsten Raum.\nSir Kael Zornesklinge: Folgt Grimjaw und stößt die Doppeltür auf.\nBruder Mordain: Geht entschlossen durch die Doppeltür in den nächsten Raum.\nVarn Wildtoeter: Betritt vorsichtig aber zügig den nächsten Raum.\nPyra Flammenherz: Bereitet einen Zauber vor und geht durch die Doppeltür.\nShade Klingenschatten: Sucht an der Doppeltür nach Fallen und folgt dann der Gruppe.",
+      "keeper_response": "Der modrige Geruch wird penetranter, als ihr euch der massiven Doppeltür nähert. Shade legt eine Hand an das grobe Holz, seine Finger tasten nach Unebenheiten. Er spürt eine feine Spannung, die sich durch das Material zieht.\n\n[PROBE: Find/Remove Traps | 65 | Shade Klingenschatten]\n[ZEIT_VERGEHT: 0.5h]\n\nWas entdeckt der Halbling an dieser alten Tür?",
+      "response_chars": 350,
+      "response_sentences": 4,
+      "latency_ms": 22040.715800001635,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 9,
+      "player_input": "Grimjaw Eisenfaust: Stürmt gegen die Doppeltür, um sie aufzubrechen.\nSir Kael Zornesklinge: Setzt seine Schulter gegen die Tür, um Grimjaw beim Aufbrechen zu unterstützen.\nBruder Mordain: Bereitet sich mit erhobenem Streitkolben auf den Kampf vor.\nVarn Wildtoeter: Zielt mit seinem Bogen auf die Tür, bereit zu feuern.\nPyra Flammenherz: Konzentriert sich und bereitet einen Feuerball vor, um ihn durch die Tür zu schießen, sobald sie sich öffnet.\nShade Klingenschatten: Versucht, die Falle an der Tür blitzschnell zu entschärfen, um sie sofort zu öffnen.",
+      "keeper_response": "Ein fauliger Geruch dringt durch die Ritzen der Tür. Shade spürt, wie die Falle unter seinen Fingern zuckt. Eine komplizierte Mechanik aus Federn und Bolzen, die bei zu viel Druck eine Salve von Dornen auslösen würde. Er entschärft sie mit präzisen Bewegungen.\n\n[FERTIGKEIT_GENUTZT: Find/Remove Traps | Shade Klingenschatten]\n\nMit einem Knarren geben die Türen nach. Der Raum dahinter ist ein dreckiger Wachposten. Drei Orks, ihre Haupthäupter mit Narben verziert, starren euch mit roten Augen an. Einer von ihnen, ein wuchtigerer Ork-Hauptmann, brüllt eine unverständliche Kriegsansage.\n\n[ZEIT_VERGEHT: 0.5h]\n\nDer Ork-Hauptmann schlägt mit seiner Hellebarde auf Grimjaw ein. Einer der anderen Orks sticht mit seinem Krummschwert nach Sir Kael. Der dritte Ork attackiert Bruder Mordain mit brutaler Kraft.\n\n[HP_VERLUST: Grimjaw Eisenfaust | 6]\n[HP_VERLUST: Sir Kael Zornesklinge | 7]\n[HP_VERLUST: Bruder Mordain | 5]\n\nWie reagiert ihr auf diesen Überraschungsangriff?",
+      "response_chars": 967,
+      "response_sentences": 12,
+      "latency_ms": 2112.2795000119368,
+      "tags_found": [
+        "HP_VERLUST",
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 3,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 10,
+      "player_input": "Grimjaw Eisenfaust: Greift den Ork-Hauptmann an.\nSir Kael Zornesklinge: Schlägt mit seinem Schwert auf den Ork ein.\nBruder Mordain: Wirkt Gebet, um die Gruppe zu stärken.\nVarn Wildtoeter: Schießt einen Pfeil auf einen der Orks.\nPyra Flammenherz: Schleudert ein Magisches Geschoss auf einen Ork.\nShade Klingenschatten: Versucht einen Ork aus dem Hinterhalt zu erstechen.",
+      "keeper_response": "Der Gestank von totem Fleisch und Angst erfüllt den Raum. Grimjaw kontert den Hauptmannschlag, seine Axt trifft den Ork-Krieger mit brutaler Wucht.\n\n[ANGRIFF: Battle Axe +1 | 14 | 7 | 4 | Grimjaw Eisenfaust]\n\nSir Kael Zornesklinge schlägt sein heiliges Schwert in den Leib eines Orks.\n[ANGRIFF: Holy Sword +2 'Zornesklinge' | 15 | 7 | 2 | Sir Kael Zornesklinge]\n\nVarn Wildtoeter spannt seinen Bogen. Ein Pfeil pfeift durch die Luft und durchbohrt einen der Orks.\n[ANGRIFF: Longbow +1 | 15 | 7 | 0 | Varn Wildtoeter]\n\nPyra Flammenherz lässt ein Magisches Geschoss auf den verbleibenden Ork niedersausen.\n[ANGRIFF: Magic Missile | 19 | 7 | 0 | Pyra Flammenherz]\n[ZAUBER_VERBRAUCHT: Pyra Flammenherz | Magic Missile | 1]\n\nBruder Mordain erhebt seinen Streitkolben, ein Gebet rollt von seinen Lippen. Ein unsichtbarer Schild von göttlicher Macht umhüllt euch.\n[ZAUBER_VERBRAUCHT: Bruder Mordain | Prayer | 3]\n\nShade Klingenschatten gleitet lautlos hinter den Ork-Hauptmann. Seine Klinge blitzt auf.\n[ANGRIFF: Short Sword +1 | 18 | 7 | 0 | Shade Klingenschatten]\n\nDer Ork-Hauptmann brüllt und schlägt erneut nach Grimjaw. Die anderen beiden Orks schleudern ihre Krummschwerter auf Sir Kael und Bruder Mordain.\n\n[HP_VERLUST: Grimjaw Eisenfaust | 5]\n[HP_VERLUST: Sir Kael Zornesklinge | 6]\n[HP_VERLUST: Bruder Mordain | 4]\n[ZEIT_VERGEHT: 0.5h]\n\nWas ist euer nächster Zug?",
+      "response_chars": 1364,
+      "response_sentences": 13,
+      "latency_ms": 2878.717500003404,
+      "tags_found": [
+        "HP_VERLUST",
+        "ANGRIFF",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 3,
+      "combat_tags": 5,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 11,
+      "player_input": "Grimjaw Eisenfaust: Greift den nächsten Ork an.\nSir Kael Zornesklinge: Greift den nächsten Ork an.\nBruder Mordain: Schlägt mit seinem Streitkolben auf den Ork ein.\nVarn Wildtoeter: Stürmt vor und greift den Ork im Nahkampf an.\nPyra Flammenherz: Wirkt einen brennenden Hände Zauber auf den Ork.\nShade Klingenschatten: Versucht einen Hinterhaltangriff auf den Ork.",
+      "keeper_response": "Ein Schrei hallt durch den Wachposten. Grimjaws Axt trifft den Ork-Hauptmann, der mit einem gurgelnden Laut zu Boden stürzt.\n\n[ANGRIFF: Battle Axe +1 | 14 | 7 | 4 | Grimjaw Eisenfaust]\n\nSir Kael Zornesklinge drückt sein heiliges Schwert in den Leib eines weiteren Orks. Der Hüne wankt und fällt.\n\n[ANGRIFF: Holy Sword +2 'Zornesklinge' | 15 | 7 | 2 | Sir Kael Zornesklinge]\n\nVarn Wildtoeter stürzt sich in den Kampf, sein Langschwert findet das Ziel. Der letzte Ork fällt, ein klagendes Geräusch entweicht seiner Kehle.\n\n[ANGRIFF: Long Sword | 15 | 7 | 0 | Varn Wildtoeter]\n\nBruder Mordain schlägt seinen Streitkolben auf den bereits fallenden Ork.\n[ANGRIFF: Mace +1 | 18 | 7 | 0 | Bruder Mordain]\n\nPyra Flammenherz entfesselt ihre brennenden Hände, eine Flammenwand lodert kurz auf.\n[ANGRIFF: Burning Hands | 19 | 7 | 0 | Pyra Flammenherz]\n[ZAUBER_VERBRAUCHT: Pyra Flammenherz | Burning Hands | 1]\n\nShade Klingenschatten, bereit zum Hinterhalt, findet kein Ziel mehr.\n[ANGRIFF: Short Sword +1 | 18 | 7 | 0 | Shade Klingenschatten]\n[XP_GEWINN: 260]\n[ZEIT_VERGEHT: 0.5h]\n\nDie Schlacht ist vorbei, der Wachposten liegt in Trümmern. Aus einem weiteren Gang, der sich nach Osten windet, strömt ein schwerer, süsslicher Geruch, der an modrige Erde erinnert. Was ist euer nächster Schritt?",
+      "response_chars": 1283,
+      "response_sentences": 12,
+      "latency_ms": 2608.8140000065323,
+      "tags_found": [
+        "XP_GEWINN",
+        "ANGRIFF",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 1,
+      "combat_tags": 6,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 12,
+      "player_input": "Grimjaw Eisenfaust: Stürmt zum nächsten Ausgang.\nSir Kael Zornesklinge: Drängt vorwärts in den nächsten Raum.\nBruder Mordain: Folgt der Gruppe in den nächsten Bereich.\nVarn Wildtoeter: Durchsucht den Raum kurz und rückt vor.\nPyra Flammenherz: Bereitet einen offensiven Zauber vor und geht vorwärts.\nShade Klingenschatten: Sucht den Ausgang nach Fallen ab und stürmt dann weiter.",
+      "keeper_response": "Der süßliche, modrige Geruch wird intensiver, zieht euch tiefer in die Dunkelheit. Ihr tretet in eine höhlenartige Spalte, die dicht mit klebrigen Spinnweben überzogen ist. Der Boden ist hier glitschig und uneben.\n\nShade tastet den Ausgang ab, seine Finger gleiten über die klebrigen Fäden. Er spürt keine offensichtlichen, mechanischen Fallen, aber die schiere Menge der Netze ist eine Gefahr.\n\n[FERTIGKEIT_GENUTZT: Find/Remove Traps | Shade Klingenschatten]\n\nPlötzlich fallen mehrere riesige Spinnen von der Decke herab, ihre glänzenden, schwarzen Augen fixieren euch. Ihre behaarten Beine rascheln bedrohlich. Grimjaw und Sir Kael werden sofort von ihren Zangen angegriffen.\n\n[HP_VERLUST: Grimjaw Eisenfaust | 4]\n[HP_VERLUST: Sir Kael Zornesklinge | 5]\n[ZEIT_VERGEHT: 0.5h]\n\nWas unternimmst du in dieser klebrigen Gefahr?",
+      "response_chars": 824,
+      "response_sentences": 9,
+      "latency_ms": 3215.4079000029014,
+      "tags_found": [
+        "HP_VERLUST",
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 2,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 13,
+      "player_input": "Grimjaw Eisenfaust: Greift die nächste Riesenspinne mit seiner Axt an.\nSir Kael Zornesklinge: Schlägt mit seinem heiligen Schwert auf eine Spinne ein.\nBruder Mordain: Wirkt den Zauber \"Segen\" auf die Gruppe.\nVarn Wildtoeter: Schießt einen Pfeil auf eine der Riesenspinnen.\nPyra Flammenherz: Wirkt einen \"Feuerball\" auf die Gruppe der Spinnen.\nShade Klingenschatten: Versucht, eine der Riesenspinnen aus dem Hinterhalt anzugreifen.",
+      "keeper_response": "Ein ekelerregendes Zischen durchbricht die Stille, als die Spinnen angreifen. Grimjaws Axt trifft die erste Kreatur, ein ekelhafter grüner Schleim spritzt heraus.\n\n[ANGRIFF: Battle Axe +1 | 14 | 7 | 4 | Grimjaw Eisenfaust]\n\nSir Kael Zornesklinge schlägt mit seinem heiligen Schwert auf eine weitere Riesenspinne.\n[ANGRIFF: Holy Sword +2 'Zornesklinge' | 15 | 7 | 2 | Sir Kael Zornesklinge]\n\nBruder Mordain erhebt die Hand und spendet der Gruppe Segen, der ihre Entschlossenheit stärkt.\n[ZAUBER_VERBRAUCHT: Bruder Mordain | Bless | 1]\n\nVarn Wildtoeter spannt seinen Bogen, ein Pfeil zerreißt die klebrigen Netze. Er trifft eine Spinne, die krächzend zurückzuckt.\n[ANGRIFF: Longbow +1 | 15 | 7 | 0 | Varn Wildtoeter]\n\nPyra Flammenherz konzentriert sich, ein Feuerball formt sich in ihren Händen. Eine verheerende Explosion erfasst die Spinnen. Zwei der Kreaturen werden verbrannt, eine weitere ist schwer verletzt.\n[ZAUBER_VERBRAUCHT: Pyra Flammenherz | Fireball | 3]\n\nShade Klingenschatten versucht, sich im Chaos der raschelnden Netze zu verstecken.\n[PROBE: Hide in Shadows | 55 | Shade Klingenschatten]\n\nDie verbliebene Riesenspinne springt auf Grimjaw zu, ihre Zangen schnappen nach ihm. Eine zweite Spinne, schwer angeschlagen, klettert die Wand hoch und lässt einen fauligen Faden auf Sir Kael fallen.\n\n[HP_VERLUST: Grimjaw Eisenfaust | 3]\n[HP_VERLUST: Sir Kael Zornesklinge | 4]\n[ZEIT_VERGEHT: 0.5h]\n\nWie reagiert ihr auf diese anhaltende Gefahr?",
+      "response_chars": 1451,
+      "response_sentences": 13,
+      "latency_ms": 23128.13830000232,
+      "tags_found": [
+        "PROBE",
+        "HP_VERLUST",
+        "ANGRIFF",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 2,
+      "combat_tags": 3,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 14,
+      "player_input": "Grimjaw Eisenfaust: Grimjaw schwingt seine Axt erneut auf die nächste Riesenspinne.\nSir Kael Zornesklinge: Sir Kael stürzt sich mit seinem heiligen Schwert auf eine weitere Riesenspinne.\nBruder Mordain: Bruder Mordain schlägt mit seinem Streitkolben auf die nächste Riesenspinne ein.\nVarn Wildtoeter: Varn zieht sein Langschwert und stürmt in den Nahkampf gegen eine Spinne.\nPyra Flammenherz: Pyra entfesselt den Feuerball in die Gruppe der Spinnen.\nShade Klingenschatten: Shade schleicht hinter eine Spinne und versucht einen tödlichen Rückenstich.",
+      "keeper_response": "Ein markerschütterndes Zischen erfüllt die Höhle, als die Riesenspinnen in die Offensive gehen. Grimjaws Axt trifft die erste Kreatur, und sie zerbricht mit einem widerlichen Knistern.\n\n[ANGRIFF: Battle Axe +1 | 14 | 7 | 4 | Grimjaw Eisenfaust]\n\nSir Kaels heiliges Schwert durchbohrt eine weitere Spinne, die sich unter dem Schlag windet und dann regungslos zu Boden fällt.\n\n[ANGRIFF: Holy Sword +2 'Zornesklinge' | 15 | 7 | 2 | Sir Kael Zornesklinge]\n\nBruder Mordains Streitkolben saust herab, er zerschmettert die letzte verbleibende Spinne. Der süßliche Geruch der Verwesung weicht einem Hauch von verbranntem Insekt.\n\n[ANGRIFF: Mace +1 | 18 | 7 | 0 | Bruder Mordain]\n\nVarn Wildtoeter, bereits bereit zum Nahkampf, findet kein Ziel mehr.\n[ANGRIFF: Long Sword | 15 | 7 | 0 | Varn Wildtoeter]\n\nPyra Flammenherz lässt einen weiteren Feuerball lodern, doch die Spinnen sind bereits besiegt.\n[ZAUBER_VERBRAUCHT: Pyra Flammenherz | Fireball | 3]\n\nShade Klingenschatten, auf der Lauer, findet ebenfalls kein Ziel mehr.\n[ANGRIFF: Short Sword +1 | 18 | 7 | 0 | Shade Klingenschatten]\n[XP_GEWINN: 260]\n[ZEIT_VERGEHT: 0.5h]\n\nDie klebrigen Netze hängen von den Wänden, doch die Bedrohung ist gebannt. Am Ende der Höhle seht ihr einen dunklen Spalt, aus dem ein kalter Windstoß weht. Was zieht euch dorthin?",
+      "response_chars": 1297,
+      "response_sentences": 11,
+      "latency_ms": 3028.3404999936465,
+      "tags_found": [
+        "XP_GEWINN",
+        "ANGRIFF",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 1,
+      "combat_tags": 5,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 15,
+      "player_input": "Grimjaw Eisenfaust: Grimjaw stürmt in den nächsten Raum vor.\nSir Kael Zornesklinge: Sir Kael folgt Grimjaw in den nächsten Raum.\nBruder Mordain: Bruder Mordain drängt weiter in die Dunkelheit vor.\nVarn Wildtoeter: Varn bewegt sich schnell in den nächsten Bereich.\nPyra Flammenherz: Pyra eilt in den nächsten Raum, bereit einen Zauber zu wirken.\nShade Klingenschatten: Shade huscht vorwärts und sucht den nächsten Raum.",
+      "keeper_response": "Ein frostiger Hauch empfängt euch im nächsten Bereich. Ihr tretet auf eine schmale Brücke aus verwittertem Stein, die über einen gähnenden Abgrund führt. Unten in der Tiefe ist nichts als Schwärze und ein leises Rauschen zu hören.\n\n[ZEIT_VERGEHT: 0.5h]\n\nPlötzlich ertönt ein klagender, wunderschöner Gesang aus der Dunkelheit über dem Abgrund. Der Klang ist betörend, er füllt eure Gedanken mit Sehnsucht und dem Wunsch, euch fallen zu lassen.\n\n[RETTUNGSWURF: Zauber | 14 | Grimjaw Eisenfaust]\n[RETTUNGSWURF: Zauber | 14 | Sir Kael Zornesklinge]\n[RETTUNGSWURF: Zauber | 14 | Bruder Mordain]\n[RETTUNGSWURF: Zauber | 14 | Varn Wildtoeter]\n[RETTUNGSWURF: Zauber | 14 | Pyra Flammenherz]\n[RETTUNGSWURF: Zauber | 14 | Shade Klingenschatten]\n\nWas tut ihr jetzt?",
+      "response_chars": 755,
+      "response_sentences": 6,
+      "latency_ms": 1984.1543000075035,
+      "tags_found": [
+        "RETTUNGSWURF",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 6,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    }
+  ],
+  "tokens": {
+    "prompt_tokens": 244504,
+    "cached_tokens": 161340,
+    "output_tokens": 4868,
+    "think_tokens": 4950,
+    "total_cost_usd": 0.054334
+  },
+  "tag_breakdown": {
+    "HP_VERLUST": 19,
+    "ZEIT_VERGEHT": 15,
+    "PROBE": 5,
+    "ANGRIFF": 37,
+    "XP_GEWINN": 4,
+    "FERTIGKEIT_GENUTZT": 3,
+    "RETTUNGSWURF": 6
+  },
+  "tag_density": 5.933333333333334,
+  "player_bot_tokens": {
+    "prompt_tokens": 18015,
+    "output_tokens": 1819,
+    "total_cost_usd": 0.009952
+  }
+}

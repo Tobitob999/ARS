@@ -1,7 +1,7 @@
 {
   "schema_version": "1.2.1",
-  "id": "cali_lightning",
-  "name": "Cali Lightning",
+  "id": "call_lightning",
+  "name": "Call Lightning",
   "compatible_rulesets": [
     "add_2e"
   ],
@@ -12,7 +12,7 @@
     "player_handbook",
     "appendix_conversion"
   ],
-  "summary": "Cali Lightning (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "summary": "Call Lightning (Alteration) aus dem AD&D 2e Player's Handbook.",
   "source_text": {
     "book": "Player's Handbook (2nd Edition)",
     "appendix": 4,
@@ -30,19 +30,17 @@
     "school_or_type": "Alteration",
     "parser": "header_block_v3_1",
     "spell_card": {
-      "name": "Cali Lightning",
-      "canonical_name_guess": "Call Lightning",
+      "name": "Call Lightning",
+      "canonical_name_guess": null,
       "school_or_type": "Alteration",
       "range": "0",
       "components": "V, S",
       "duration": "1 turn/level",
       "casting_time": "1 turn",
-      "area_of_effect": "=foot radius",
+      "area_of_effect": "10-foot radius",
       "saving_throw": "1/2",
       "description_excerpt": "per caster level. Each bolt causes 2d8 points of electrical damage, plus an additional Id8 points for each of the caster's experience levels. Thus, a 4th-level caster calls down a 6d8 bolt (268 + 4d8). The bolt of lightning flashes down in a vertical stroke at whatever distance the spellcaster decides, up to 360 yards away. Any creature within a 10-foot radius of the path or the point where the lightning strikes suffers full damage unless a successful sav- ing throw vs. spell is rolled, in which case only one-half damage is taken. Because it requires a storm overhead, this spell can only be used outdoors. It does not function under ground or under water."
     },
-    "quality_flags": [
-      "canonical_name_guess_applied"
-    ]
+    "quality_flags": []
   }
 }

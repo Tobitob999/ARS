@@ -37,12 +37,10 @@
       "components": "V",
       "duration": "Special",
       "casting_time": "2",
-      "area_of_effect": null,
+      "area_of_effect": "Special",
       "saving_throw": "None",
       "description_excerpt": "1st-, 2nd-, or 3rd-level spell by 50%. Thus, a levitation spell can be made to function 15 minutedlevel, a hold person spell made to work for three rounds/level, etc. Naturally, the spell affects only spells that have dura- tions. This spell must be cast immediately after the spell to be extended, either by the original caster or another wizard. If a com- plete round or more elapses, the extension fails and is wasted."
     },
-    "quality_flags": [
-      "missing_standard_fields"
-    ]
+    "quality_flags": []
   }
 }

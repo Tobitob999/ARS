@@ -1,0 +1,808 @@
+{
+  "schema_version": "1.0.0",
+  "id": "dungeon_gauntlet",
+  "compatible_rulesets": ["add_2e"],
+  "title": "Der Kerker-Gauntlet: Der Orb der Zeitalter",
+  "setting": "Die Ruinen von Valdrak-Thul, ein dreistoeckiger Dungeon unter einem stuermischen Hochplateau — verfallene Burgkammern, natuehrliche Hoehlen und eine uralte Gruft",
+  "difficulty": "Schwer",
+  "intro": "Vor sieben Jahrhunderten versiegelte der Erzmagier Mordechai Valdrak seinen maechtigsten Artefakt — den Orb der Zeitalter — in den Tiefen seiner Festung und sank dann in Wahnsinn und Dunkel. Der Orb kann Zeit und Raum biegen; falsch eingesetzt koennte er eine Stadt in Asche legen. Jetzt haben spaehende Magier ihn lokalisiert. Der Auftraggeber — Magister Elric von der Akademie Graustein — zahlt 500 Goldmuenzen fuer den sicheren Rueckgang des Orbs. Vor drei Tagen entsandte er eine erste Gruppe: sie kehrte nicht zurueck. Ihr steht am Eingang des Kerkers, Fackeln brennen, Gepaeck geschultert. Der Wind heult ueber das Plateau. Tief unten wartet der Orb — und alles, was Valdrak hinterlassen hat.",
+  "hook": "Steigt durch drei eskalierend gefahrliche Dungeon-Ebenen ab, ueberwindet Fallen, Kaempfe und Kletterpassagen, und bergt den Orb der Zeitalter aus dem Grab des Erzmagiers — bevor die Festung euch begrabt.",
+  "keeper_lore": "SPIELLEITER-DIREKTIVEN fuer dieses Abenteuer:\n\nDIESES ABENTEUER IST EIN TAKTISCHER DUNGEON-CRAWLER. Der Keeper soll AGGRESSIV und KONSEQUENT alle verfuegbaren Tags einsetzen. KEINE lange Beschreibung ohne Aktion. Jede Begegnung soll unmittelbar gefaehrlich wirken.\n\nKAMPF-TAGS (pflichtmaessig bei JEDER Kampfrunde):\n- [ANGRIFF: <Waffe> | THAC0 <Wert> | Ziel-AC <Wert> | <Modifikator oder 'kein Mod'>] — fuer JEDEN Angriff, Spieler UND Monster\n- [HP_VERLUST: N] — bei JEDEM Treffer gegen den Spieler, niemals weglassen\n- [RETTUNGSWURF: <Kategorie> | Zielwert <N>] — bei Giften, Fallen, Spezialen\n- [XP_GEWINN: N] — sofort nach Besiegung jedes Gegners\n- [HP_HEILUNG: Nd4+N] — wenn Heiltrank getrunken oder Rast eingelegt\n\nERKUNDUNG-TAGS (bei jeder Raum-Interaktion):\n- [PROBE: <Fertigkeit> | <Zielwert>] — bei Suchen, Klettern, Springen, Schleichen, Fallen-Entschaerfen\n- [FERTIGKEIT_GENUTZT: <Fertigkeit>] — nach jeder Fertigkeitsanwendung\n- [INVENTAR: <Gegenstand> | gefunden] — bei JEDEM Fund von Gegenstaenden, Gold, Traenken\n- [FAKT: <Schluessel-Tatsache>] — bei Inschriften, Enthuellung von Lore, wichtigen Entdeckungen\n- [FALLEN_AUSGELOEST: <Fallentyp>] — bei Fallenausloesung (custom Tag fuer Keeper-Tracking)\n\nZEIT-TAGS:\n- [ZEIT_VERGEHT: Nh] — nach laengeren Aktionen (Rast, Suchen, Klettern)\n\nSTATISTIKEN:\n- Skelett-Krieger: AC 7, HP 8, THAC0 19, Schaden 1d8 (Langschwert)\n- Skelett-Bogenschuetze: AC 7, HP 6, THAC0 20, Schaden 1d6 (Kurzbogen), Reichweite -2\n- Totenwacht-Ritter: AC 3, HP 22, THAC0 15, Schaden 1d8+2 (Streitaxt), Spezial: Schreckensaura (Rettungswurf vs Magie 13 oder 1 Runde gelahmt)\n- Riesenspinne: AC 6, HP 9, THAC0 18, Schaden 1d8, Spezial: Gift (Rettungswurf vs Gift 14 oder 2d6 Schaden/Runde fuer 3 Runden)\n- Troll: AC 4, HP 32, THAC0 14, Schaden 1d6/1d6/1d10 (Krallen/Krallen/Beiss), Spezial: Regeneration 3HP/Runde (ausser Feuer/Saeure)\n- Schatten-Jaeger (Wight): AC 5, HP 12, THAC0 17, Schaden 1d4, Spezial: Energieentzug (Rettungswurf vs Tod 14 oder -1 Stufe dauerhaft)\n- Lich Valdrak: AC 0, HP 65, THAC0 11, Schaden 1d10+3 (Stab), Spezial: Kaelte-Aura (HP_VERLUST: 1d6 pro Runde Naehekontakt), Paralysierungs-Beruehrung (Rettungswurf vs Lahmung 13), Feuerstoss (RETTUNGSWURF: Atemwaffe | 15, 3d8 Schaden, halb bei Erfolg), immunen gegen nichtmagische Waffen\n\nTAKTIK-HINWEISE:\n- Level 1 (Ruinen): Kaempfe einfach, aber Fallen gefaehrlich. Spieler sollen vorsichtig werden.\n- Level 2 (Hoehlen): Klettern und Springen als echte Gefahr. Troll ist FAST unkillbar ohne Feuer.\n- Level 3 (Gruft): Wights koennen dauerhaft Stufen abziehen. Lich ist toetensgefaehrlich. Flucht-Sequenz verlangt schnelle Entscheidungen.\n- Charakter-Tod ist jederzeit moeglich und vom Abenteuer vorgesehen. Beschreibe Tode dramatisch.",
+  "start_location": "valdrak_eingang",
+  "flags": {
+    "geheimschluessel_gefunden": false,
+    "wachraum_geraeumt": false,
+    "fallenkorridor_passiert": false,
+    "fallenknopf_gefunden": false,
+    "ruestkammer_gepluendert": false,
+    "totenwacht_besiegt": false,
+    "abgrund_ueberquert": false,
+    "bruecke_eingestuerzt": false,
+    "spinnennest_geraeumt": false,
+    "fluss_ueberquert": false,
+    "schacht_erklommen": false,
+    "troll_besiegt": false,
+    "troll_mit_feuer_besiegt": false,
+    "gruft_betreten": false,
+    "giftgas_ueberlebt": false,
+    "wight_wache_besiegt": false,
+    "nadelgauntlet_passiert": false,
+    "valdrak_besiegt": false,
+    "orb_geborgen": false,
+    "festung_entkommen": false,
+    "erste_gruppe_schicksal_bekannt": false
+  },
+  "locations": [
+    {
+      "id": "valdrak_eingang",
+      "name": "Eingang von Valdrak-Thul (Ebene 1 — Ruinen)",
+      "description": "Ein gewaltiger Torbogen aus schwarzem Basalt ragt vor euch auf, halb unter Erdreich begraben. Moosbedeckte Runensteine flankieren den Eingang. Frische Kratzer im Boden — Schuhe, viele Schuhe — fuehren hinein und nirgends mehr heraus. Eine schwere Eisentuer steht angelehnt, ihr Schloss aufgebrochen. Der Geruch von Steinstaub und vermorschtem Holz steigt aus der Dunkelheit auf.",
+      "atmosphere": "Stuermischer Wind peitscht ueber das Plateau, dann Stille sobald man die Schwelle uebertritt. Totenstille. Das Fackellicht wirft tanzende Schatten an die Ritzzeichnungen an den Waenden.",
+      "npcs_present": [],
+      "clues_available": ["eingangs_inschrift", "spur_der_ersten_gruppe"],
+      "exits": {
+        "ruinen_vorhalle": "Der Torbogen fuehrt in eine breite, stuetzenpfeiler-gesaeumte Vorhalle."
+      },
+      "keeper_notes": "Kurze atmosphaerische Einfuehrung. Der Spieler kann die Inschrift lesen (PROBE: Sprachen Alt | 45) und die Spuren untersuchen (PROBE: Spurenlesen | 50). Dann in die Vorhalle treiben. Keine Feinde hier.",
+      "events": [
+        {
+          "trigger": "Spieler untersucht Spuren",
+          "effect": "Frische Blutspuren und ein zerbrochenes Schwertbrueckstueck. Die erste Gruppe ist weiter vorgedrungen. [FAKT: Erste Gruppe hat den Kerker betreten und kaempfte]",
+          "sets_flag": "erste_gruppe_schicksal_bekannt"
+        }
+      ]
+    },
+    {
+      "id": "ruinen_vorhalle",
+      "name": "Die Verlorene Vorhalle (Ebene 1 — Ruinen)",
+      "description": "Eine breite Halle mit acht maechtigen Saeulenstumpfen — die Haelfte eingestuerzt, Gewoelbebruecken daneben zu Trummerhuegeln geworden. Der Boden ist mit Schuttbrocken uebersaet. An der Ostseite lehnt ein verrotteter Waffenstaender, noch mit einer alten Hellebarde darin. In einer eingefallenen Wandnische liegt, halb unter Gestein begraben, ein skelettierter Koerper in zerfetzter Kettenjuppe — einer der Vorabtrupp. In seiner Knochenfaust ein kleiner Messingschluessel.",
+      "atmosphere": "Gewoelbe-Echo bei jedem Schritt. Staubpartikel tanzen im Fackellicht. Das Knirschen von Stein unter den Stiefeln hallt unheimlich.",
+      "npcs_present": [],
+      "clues_available": ["vorabtrupp_skelett", "alte_wandinschrift_vorhalle"],
+      "exits": {
+        "valdrak_eingang": "Zurueck zum Eingang.",
+        "wachraum_untergeschoss": "Eine gewoehlte Bogenoeffnung fuehrt nach Sueden in den Wachraum.",
+        "fallenkorridor_ost": "Ein schmaler Gang nach Osten, Boden mit verdaechtigen Steinplatten gepflastert."
+      },
+      "keeper_notes": "Der Spieler MUSS suchen (PROBE: Suchen | 55) um den Schluessel zu finden. Schluessel oeffnet spaeter den Waffenkasten in der Ruestkammer. Die Hellebarde ist benutzbar (Schaden 1d10, Zweihaender) aber kein Upgrade. FAKT-Tag fuer Inschrift (Warnhinweis des Magiers). Kein Kampf hier.",
+      "events": [
+        {
+          "trigger": "Schluessel gefunden",
+          "effect": "[INVENTAR: Messingschluessel (alt, Ruestkammer) | gefunden] [FAKT: Schluessel gehoert zum verschlossenen Waffenkasten in der Tiefe der Ruine]",
+          "sets_flag": "geheimschluessel_gefunden"
+        }
+      ]
+    },
+    {
+      "id": "wachraum_untergeschoss",
+      "name": "Wachraum der Untoten (Ebene 1 — Ruinen)",
+      "description": "Ein niedriger, rechteckiger Raum — einst Unterkunft der Burgwachen. Strohmatten zu Staub zerfallen, ein umgestossener Tisch, verrostete Eisenkaraffe. Auf den Pritschen liegen noch zwei Gestalten: Knochige, in verrotteter Lederruestung, mit verblichenen Schwertbaendern. Im Schlaf des Todes. Doch als das Fackellicht den Raum flutet, raspeln Knochen gegen Holz — die Skelette richten sich auf, leere Augenhohlen leuchten mit bloeden Licht.",
+      "atmosphere": "Knarrende Knochen, das Rasseln von rostigem Metall, ein Hauch von Verwesung. Die Flamme flackert ohne erkennbaren Luftzug.",
+      "npcs_present": ["skelett_krieger_1", "skelett_krieger_2"],
+      "clues_available": ["wach_journal"],
+      "exits": {
+        "ruinen_vorhalle": "Zurueck zur Vorhalle.",
+        "ruestkammer": "Eine Holztuer im Suedteil, halb aus den Angeln — fuehrt in die Ruestkammer."
+      },
+      "keeper_notes": "SOFORT Kampf wenn der Spieler eintritt. Beide Skelette greifen gleichzeitig an. Erster echter Kampftest. Nach dem Sieg: [XP_GEWINN: 30] fuer beide. Wach-Journal (PROBE: Lesen | 50) enthaelt Hinweis auf Troll in Ebene 2 und empfiehlt Feuer. [ZEIT_VERGEHT: 0.5h] nach Kampf.",
+      "events": [
+        {
+          "trigger": "Spieler betritt den Raum",
+          "effect": "Beide Skelette erwachen sofort. Kein Ueberraschungsangriff moeglich — die leeren Augen reagieren auf Licht.",
+          "sets_flag": null
+        },
+        {
+          "trigger": "Beide Skelette besiegt",
+          "effect": "Die Knochen zerfallen zu Haufen. Stille kehrt zurueck. [XP_GEWINN: 30]",
+          "sets_flag": "wachraum_geraeumt"
+        }
+      ]
+    },
+    {
+      "id": "ruestkammer",
+      "name": "Ruestkammer (Ebene 1 — Ruinen)",
+      "description": "Ein groesserer Raum mit verrotteten Waffenstaendern entlang aller Waende. Die meisten Waffen sind zu Rost zerfallen. Aber an der Nordwand: ein massiver Eichenkasten mit Eisenbeschlaegen — verschlossen. An der Ostwand faellt eine Kletterwand ins Auge: der Boden ist eingebrochen, eine drei Meter hohe Steinkante trennt diesen Raum vom dahinterliegenden Durchgang. Seile haengen herab — alt, aber noch haltbar. Unter dem Schuttberg in der Suedwestecke blitzt etwas Golden.",
+      "atmosphere": "Staubige Enge, Metallrost-Geruch. Das Knarren der Waffenstaender bei jedem Schritt. In der Kletterwand-Ecke: ein kalter Luftzug von oben.",
+      "npcs_present": [],
+      "clues_available": [],
+      "exits": {
+        "wachraum_untergeschoss": "Zurueck zum Wachraum.",
+        "thronsaal_ruinen": "Ueber die Kletterwand (3m Steinkante) in den Gang zum Thronsaal — [PROBE: Klettern | 50]."
+      },
+      "keeper_notes": "KLETTERN: [PROBE: Klettern | 50]. Bei Fehler: 1d6 Fallschaden, zweiter Versuch moeglich. Der Waffenkasten braucht den Messingschluessel ODER [PROBE: Schloesserknacken | 40]. Inhalt: Langschwert +1 (magisch, leicht lumineszierend), Heiltrank x2. Schutt-Schatz: [PROBE: Suchen | 45] findet 18 Goldstuecke und einen Rubin. Zeit_VERGEHT fuer Suchen.",
+      "events": [
+        {
+          "trigger": "Waffenkasten geoeffnet (Schluessel oder Knacken)",
+          "effect": "[INVENTAR: Langschwert +1 (leicht lumineszierend, +1 Angriff und Schaden) | gefunden] [INVENTAR: Heiltrank x2 (heilt 1d6+2 HP) | gefunden] [XP_GEWINN: 25]",
+          "sets_flag": "ruestkammer_gepluendert"
+        },
+        {
+          "trigger": "Schutt durchsucht",
+          "effect": "[INVENTAR: 18 Goldmuenzen | gefunden] [INVENTAR: Roter Rubin (mittelgross) | gefunden]",
+          "sets_flag": null
+        },
+        {
+          "trigger": "Klettern gescheitert",
+          "effect": "Der Spieler stuerzt 3 Meter tief. [HP_VERLUST: 1d6] Knochen schmerzen, aber kein Bruch. Zweiter Versuch ohne weitere Konsequenz.",
+          "sets_flag": null
+        }
+      ]
+    },
+    {
+      "id": "fallenkorridor_ost",
+      "name": "Fallenkorridor (Ebene 1 — Ruinen)",
+      "description": "Ein enger Gang, kaum zwei Schultern breit, fuehrt vom Vorraum nach Osten. Die Steinplatten im Boden sind auffaellig gleichmaessig — zu gleichmaessig. In regelmaessigen Abstaenden sind kleine Loecher in die Waende gebohrt, nicht groesser als ein Finger. Der Gang ist zwanzig Schritt lang. Am Ende luegt eine schwere Eisentuer.",
+      "atmosphere": "Bekaemmend eng. Das eigene Atmen klingt zu laut. Der Gang riecht nach altem Oel und Metall.",
+      "npcs_present": [],
+      "clues_available": ["druckplatten_zeichen", "pfeillocher_wand"],
+      "exits": {
+        "ruinen_vorhalle": "Zurueck zur Vorhalle.",
+        "thronsaal_ruinen": "Die Eisentuer am Ende des Ganges fuehrt in den Thronsaal."
+      },
+      "keeper_notes": "ZWEI Fallen in Sequenz: (1) Grubenfall: Erste Druckplatte (PROBE: Fallen-Suchen | 45 um zu entdecken, PROBE: Fallen-Entschaerfen | 40 oder Umgehen | 55 um zu vermeiden). Bei Ausloesen: 2m Grube, [HP_VERLUST: 1d6], Klettern raus PROBE 45. (2) Pfeil-Salve: Zweite Druckplatte kurz danach (PROBE Fallen-Suchen | 40). Bei Ausloesen: 3 Pfeile, jeder [PROBE: Ausweichen | 50] oder [HP_VERLUST: 1d4]. RETTUNGSWURF nicht noetig hier, aber PROBE-Tags pflichtmaessig. [XP_GEWINN: 30] fuer das Passieren ohne beide Fallen auszuloesen.",
+      "events": [
+        {
+          "trigger": "Erste Druckplatte ausgeloest (Grube)",
+          "effect": "Steinplatte klappt weg. [HP_VERLUST: 1d6] Stoss in die Grube. [FALLEN_AUSGELOEST: Grubenfall 2m]",
+          "sets_flag": null
+        },
+        {
+          "trigger": "Zweite Druckplatte ausgeloest (Pfeile)",
+          "effect": "Pfeilsalve aus den Wandloechern. Bis zu 3 Treffer moeglich. [FALLEN_AUSGELOEST: Pfeil-Salve] [PROBE: Ausweichen | 50] pro Pfeil.",
+          "sets_flag": null
+        },
+        {
+          "trigger": "Korridor vollstaendig passiert",
+          "effect": "Der Spieler hat den Fallenkorridor ueberlebt. [FERTIGKEIT_GENUTZT: Fallen-Suchen] oder [FERTIGKEIT_GENUTZT: Ausweichen]",
+          "sets_flag": "fallenkorridor_passiert"
+        }
+      ]
+    },
+    {
+      "id": "thronsaal_ruinen",
+      "name": "Thronsaal des Totenwacht-Ritters (Ebene 1 — Ruinen)",
+      "description": "Der Thronsaal von Valdrak-Thul, einst maechtig und imposant, jetzt ein Truerfeld von Groesse. Das Gewoelbe ist zur Haelfte eingestuerzt, Mondlicht faellt durch riesige Risse. Der Thron aus schwarzem Stein steht noch — darauf thront eine gepanzerte Gestalt in verrotteter Plattenruestung. Sie bewegt sich nicht. Ein scharlachroter Umhang zerfaellt um sie. Auf dem Boden vor dem Thron: ein aufgeplatzter Abenteurer-Rucksack der Vorabtruppe, Inhalt verstreut. Und zwischen den Trummern: eine verschlossene Eisentruhe mit Kettenschloss.",
+      "atmosphere": "Grandeur des Verfalls. Mondlicht durch das zerstoerte Gewoelbe. Das Pochen des eigenen Herzens in der Stille. Dann ein knackendes Geraeuch — die Ruestung bewegt sich.",
+      "npcs_present": ["totenwacht_ritter"],
+      "clues_available": ["vorabtrupp_rucksack", "wandfresko_valdrak"],
+      "exits": {
+        "fallenkorridor_ost": "Zurueck durch den Fallenkorridor.",
+        "ruestkammer": "Ueber die Wandkante zurueck zur Ruestkammer (Abstieg, leichter als Aufstieg).",
+        "abgrund_bruecke": "Hinter dem Thron: eine breite Steintreppe fuehrt nach unten in Ebene 2."
+      },
+      "keeper_notes": "BOSS-KAMPF Ebene 1. Der Ritter sitzt erst bewegungslos — wenn der Spieler naeher tritt (oder den Rucksack anruehrt) steht er auf. Schreckensaura: [RETTUNGSWURF: Magie | 13] sofort — bei Fehler 1 Runde gelahmt (+4 AC fuer Ritter in dieser Runde). Dann normaler Kampf. [XP_GEWINN: 175] nach Sieg. Truhe (PROBE: Schloesserknacken | 35 oder Gewalt): [INVENTAR: Kettenhemd +1 | gefunden], [INVENTAR: Heiltrank (gross, heilt 2d6+4) | gefunden], [INVENTAR: 35 Goldmuenzen | gefunden]. Rucksack der Vorabtruppe: [INVENTAR: Zunderstein und Feuerstein | gefunden], [INVENTAR: Oelflasche x3 | gefunden] — WICHTIG fuer Troll-Kampf. [ZEIT_VERGEHT: 1h] nach dem Kampf.",
+      "events": [
+        {
+          "trigger": "Spieler tritt naeher als 5 Schritt oder beruehrt Rucksack",
+          "effect": "Der Totenwacht-Ritter erhebt sich mit schleifendem Metall. [RETTUNGSWURF: Magie | 13] — bei Fehler: 1 Runde gelahmt vor Schrecken.",
+          "sets_flag": null
+        },
+        {
+          "trigger": "Totenwacht-Ritter besiegt",
+          "effect": "Die Ruestung bricht auseinander, Knochen poltern auf den Thron. [XP_GEWINN: 175] Die Treppe nach unten ist frei.",
+          "sets_flag": "totenwacht_besiegt"
+        }
+      ]
+    },
+    {
+      "id": "abgrund_bruecke",
+      "name": "Abgrund-Bruecke (Ebene 2 — Hoehlen)",
+      "description": "Die Steintreppe endet abrupt an einer Felskante. Vor euch gaehnt ein Abgrund — dreissig Schritt tief, Dunkelheit ohne Boden. Darueber spannt sich eine alte Haengebruecke aus verwittertem Holz und Hanfseil, kaum anderthalb Meter breit. Sie schwankt schon ohne Last. Auf der anderen Seite: eine Hoehlenoeffnung, das Feuer einer Fackel dahinter. Die Bruecke knarrt warnenend bei jedem Windstoss aus der Tiefe.",
+      "atmosphere": "Kalter Aufwind aus dem Abgrund. Das Knarren der Bruecke. Endlose Dunkelheit unter den Fuessen. Das eigene Gewicht wirkt plotzlich sehr real.",
+      "npcs_present": [],
+      "clues_available": ["abgrund_inschrift"],
+      "exits": {
+        "thronsaal_ruinen": "Zurueck zur Treppe nach Ebene 1.",
+        "spinnennest": "Ueber die Bruecke in die Hoehlen — [PROBE: Balancieren/Klettern | 50] pro Haelfte der Bruecke."
+      },
+      "keeper_notes": "SPRUNG/BALANCIER-HERAUSFORDERUNG. Die Bruecke haelt 2 Mal, dann bricht sie. PROBE: Balancieren | 55 fuer erste Haelfte, PROBE: Balancieren | 50 fuer zweite Haelfte. Bei Fehler auf erster Haelfte: Spieler greift sich fest (PROBE: Klettern | 45 um sich zu retten) oder faellt [HP_VERLUST: 3d6] — wahrscheinlich toelich. Bei Fehler auf zweiter Haelfte: Spieler greift Rand der anderen Seite (PROBE: Klettern | 55 um hochzuziehen, sonst faellt). NACH dem Ueberqueren: Bruecke eingestuerzt — Rueckweg abgeschnitten. [XP_GEWINN: 40] fuer sicheres Ueberqueren. Inschrift: FAKT ueber Valdrak.",
+      "events": [
+        {
+          "trigger": "Bruecke ueberquert",
+          "effect": "Mit einem letzten Knarren und Aechzen brechen die faulenden Seile. Die Bruecke stuerzt in den Abgrund. Der Rueckweg ist abgeschnitten. [XP_GEWINN: 40]",
+          "sets_flag": "bruecke_eingestuerzt"
+        },
+        {
+          "trigger": "Spieler stuerzt in den Abgrund",
+          "effect": "Dreissig Schritt Sturz. [HP_VERLUST: 3d6] — fast sicher toelich. Dramatisch beschreiben.",
+          "sets_flag": null
+        }
+      ]
+    },
+    {
+      "id": "spinnennest",
+      "name": "Das Spinnennest (Ebene 2 — Hoehlen)",
+      "description": "Eine gewoehlte Hoehle, haengt voll dichter Netze wie silbriger Vorhang. Knochen haengen darin — Menschen, Ratten, etwas Groesseres. In einer alten Fackelhalterung brennt noch eine Fackel der Vorabtruppe — jemand ist hierhergekommen. Zwischen den Netzen bewegt sich etwas. Drei Schattenrisse, gross wie ein Hund, mit zu vielen Beinen. Die Riesenspinnen hatten lange nichts zu fressen.",
+      "atmosphere": "Das Raschelgeraeusch der Netzfaeden. Acht gluehende Augenpaare in der Dunkelheit. Klebriges Netz greift nach den Waffen wenn man naeher tritt.",
+      "npcs_present": ["riesenspinne_1", "riesenspinne_2", "riesenspinne_3"],
+      "clues_available": ["vorabtrupp_leiche_netz"],
+      "exits": {
+        "abgrund_bruecke": "Zurueck zur eingestuertzten Bruecke (Sackgasse).",
+        "unterirdischer_fluss": "Ein Gang westlich, frei von Netzen, fuehrt zum unterirdischen Fluss.",
+        "kletterschacht": "Ein senkrechter Schacht in der Hoehlendecke — Eisenringe als Steighilfen, 20 Meter nach oben."
+      },
+      "keeper_notes": "KAMPF gegen 3 Riesenspinnen. Taktisch: Sie greifen nicht alle gleichzeitig an (Raumenge). 1-2 gleichzeitig, dritte wartet. Gift ist brutal: [RETTUNGSWURF: Gift | 14] bei jedem Biss-Treffer. Bei Fehler: [HP_VERLUST: 2d6] sofort PLUS [HP_VERLUST: 2d6] naechste Runde PLUS [HP_VERLUST: 2d6] uebernnaechste Runde. HEILTRANK sollte hier eingesetzt werden wenn HP kritisch. XP: [XP_GEWINN: 65] pro Spinne. Leiche der Vorabtruppe: [INVENTAR: Feuerstab (einmalig, entfacht Feuer) | gefunden]. Netzpassage: PROBE: Durchqueren | 45 oder verlangsamt (AC -2 Runde).",
+      "events": [
+        {
+          "trigger": "Alle drei Spinnen besiegt",
+          "effect": "Der letzte Spinnenkadaver kracht zu Boden. [XP_GEWINN: 65] fuer die letzte Spinne, Gesamt XP fuer alle drei: [XP_GEWINN: 195]. Die Hoehle ist still — nur das Tropfen von Gift.",
+          "sets_flag": "spinnennest_geraeumt"
+        }
+      ]
+    },
+    {
+      "id": "unterirdischer_fluss",
+      "name": "Unterirdischer Fluss (Ebene 2 — Hoehlen)",
+      "description": "Ein schwarz glaenzender Fluss durchquert die Hoehle von Norden nach Sueden, etwa acht Meter breit und traege fliesend. In der Mitte liegt eine kleine Felsinsel — darauf eine mit Ketten gesicherte Eisentruhe. Die Steine rund herum sind mit glitschigem Algenbelag bedreckt. Das Wasser ist kalt und dunkl. Auf der anderen Seite des Flusses: ein gewoehlter Durchgang, der weiter nach Westen fuehrt. Kein Boot, keine Bruecke.",
+      "atmosphere": "Plataschern des Flusses. Kalter Dunst steigt auf. Das Glitzern der Truhe auf der Insel lockt. Das schwarze Wasser verbirgt seinen Boden.",
+      "npcs_present": [],
+      "clues_available": ["truhe_auf_insel"],
+      "exits": {
+        "spinnennest": "Zurueck zum Spinnennest.",
+        "trollhoehle": "Ueber den Fluss (Schwimmen oder Springen auf die Insel, dann weiter) zum westlichen Durchgang und zur Trollhoehle.",
+        "kletterschacht": "Durch das Spinnennest zurueck und dann rauf."
+      },
+      "keeper_notes": "ZWEI Optionen: (A) Schwimmen (PROBE: Schwimmen | 55, zwei Male — hin zur Insel, weiter zum anderen Ufer). Schwimmend: Ruestung hat Abzug -20 auf Schwimmen-Probe. (B) Springen auf die Insel (PROBE: Springen | 50, 4 Meter Abstand, bei Fehler: faellt ins Wasser, [HP_VERLUST: 0] aber Ruestung/Ausruestung muss getrocknet werden). Truhe (Kette, kein Schloss, aber: PROBE: Kraft | 45 oder mit Werkzeug): [INVENTAR: Zauberschriftrolle (Feuerball, einmalig) | gefunden], [INVENTAR: 60 Goldmuenzen | gefunden], [INVENTAR: Saphir (gross) | gefunden]. [XP_GEWINN: 50] fuer Ueberquerung.",
+      "events": [
+        {
+          "trigger": "Spieler faellt ins Wasser",
+          "effect": "Eiskaltes schwarzes Wasser. Ausruestung wird nass und schwerer. Schwimmen aus eigener Kraft moeglich — PROBE: Schwimmen | 45 um das naechste Ufer zu erreichen.",
+          "sets_flag": null
+        },
+        {
+          "trigger": "Truhe geoeffnet",
+          "effect": "[INVENTAR: Zauberschriftrolle (Feuerball, einmalig, Wirkungsradius 6m, 6d6 Schaden, RETTUNGSWURF: Atemwaffe | 15 fuer Halbschaden) | gefunden] [INVENTAR: 60 Goldmuenzen | gefunden] [INVENTAR: Saphir (gross, Schaetzwert 80 GM) | gefunden]",
+          "sets_flag": "fluss_ueberquert"
+        }
+      ]
+    },
+    {
+      "id": "kletterschacht",
+      "name": "Der Kletterschacht (Ebene 2 — Hoehlen)",
+      "description": "Ein senkrechter Schacht, zwanzig Meter tief — oder hoch, je nach Perspektive. In die Wand sind Eisenringe gehaemmert, viele verrostet. Manche fehlen ganz, hinterlassen Luecken von einem bis zwei Metern. Haelfte der Ringe sind noch solide. Der Schacht verbindet Ebene 2 (unten) mit einem Bereich direkt neben der Trollhoehle (oben). Aus dem Schacht weht fauler, feuchter Luft — und ein sehr schwaches, widerwaertiges Grollen.",
+      "atmosphere": "Klaustrophobische Enge. Das Knarren der Eisenringe. Aus der Tiefe: Tropfwasser. Von oben: das ferne Grollen des Trolls.",
+      "npcs_present": [],
+      "clues_available": ["schacht_graffiti"],
+      "exits": {
+        "spinnennest": "Unten: zurueck ins Spinnennest.",
+        "trollhoehle": "Oben: der Schacht endet auf einem Sims neben der Trollhoehle."
+      },
+      "keeper_notes": "KLETTERN in drei Abschnitten: (1) PROBE: Klettern | 50 — erster Abschnitt 7 Meter. (2) PROBE: Klettern | 45 — zweiter Abschnitt, 7 Meter, ein Ring bricht ab (Schrecken, kein Schaden wenn man sich haelt). (3) PROBE: Klettern | 55 — letzter Abschnitt, 6 Meter, groesste Luecke. Bei Fehler je nach Abschnitt: Sturz 1d6/2d6/3d6 Schaden. [ZEIT_VERGEHT: 0.5h] fuer den Aufstieg. [XP_GEWINN: 45] fuer erfolgreichen Aufstieg. Schacht-Graffiti: [FAKT: Troll-Name 'Grugnak der Nachwachsende' und Warnung: Feuer toetet].",
+      "events": [
+        {
+          "trigger": "Schacht erklommen (alle drei Abschnitte bestanden)",
+          "effect": "[XP_GEWINN: 45] Der Spieler erreicht den Sims. Das Grollen ist jetzt laut und nah. [FERTIGKEIT_GENUTZT: Klettern]",
+          "sets_flag": "schacht_erklommen"
+        }
+      ]
+    },
+    {
+      "id": "trollhoehle",
+      "name": "Trollhoehle: Grugnak der Nachwachsende (Ebene 2 — Hoehlen)",
+      "description": "Eine riesige Hoehle, Decke fuenf Meter hoch, Boden mit zernagten Knochen, zerquetschten Ruestungen und dem Gestank von rohem Fleisch bedeckt. In einer Ecke schlaeft ein Troll — drei Meter gross, graugruene warzig Haut, Arme so lang wie ein Mensch gross ist. Er schlaeft nicht tief: ein Auge ist halb offen. Am gegenueberliegenden Ende der Hoehle liegt ein Haufen Beute — Truhen, Beutelsaecke, eine Waffe die metallisch glaenzt. An der Wand haengt eine Fackel. Der Rucksack eines Vorabtrupp-Mitglieds liegt zerrissen nahe am Eingang.",
+      "atmosphere": "Erstickender Gestank. Das schwere Schnarchen des Trolls. Das metallische Glaenzen der Beute. Die Waerme einer gluehenden Fackel — die einzige im Raum.",
+      "npcs_present": ["troll_grugnak"],
+      "clues_available": ["troll_beute", "vorabtrupp_rucksack_2"],
+      "exits": {
+        "kletterschacht": "Zurueck in den Schacht.",
+        "unterirdischer_fluss": "Ein niedriger Durchgang nach Osten zum Fluss.",
+        "gruft_eingang": "Hinter dem Troll-Haufen: ein schwerer Felsbrocken verdeckt die Treppe nach Ebene 3 — braucht Kraft oder den Troll aus dem Weg."
+      },
+      "keeper_notes": "BOSS-KAMPF Ebene 2 — haertester Kampf bis jetzt. TROLL REGENERIERT: Am Anfang jeder Runde regelt er 3 HP, AUSSER er wurde mit Feuer oder Saeure getroffen. PFLICHT: Der Keeper muss jede Runde die Regeneration ansagen: 'Der Troll regeneriert 3 HP'. Feuer (Fackel, Oelflasche, Feuerstab, Feuerball-Schriftrolle) unterdruckt Regeneration fuer diese Runde. Taktisch: Der Spieler MUSS Feuer einsetzen, sonst ist der Troll praktisch unkillbar. Wenn Spieler Feuer einsetzt: [FAKT: Feuer unterdruckt Trollregeneration — Schwachpunkt bestaetigt]. Beute: [INVENTAR: Streitaxt +2 (STARK — THAC0 -2, Schaden 1d8+2) | gefunden], [INVENTAR: 90 Goldmuenzen | gefunden], [INVENTAR: Topas (mittelgross, 40 GM) | gefunden], [INVENTAR: Heiltrank (gross) x2 | gefunden]. [XP_GEWINN: 270] nach Sieg. [ZEIT_VERGEHT: 1.5h] nach Kampf und Plunderung.",
+      "events": [
+        {
+          "trigger": "Spieler betritt Hoehle oder macht Laerm",
+          "effect": "Der Troll erwacht. Er ist HUNGRIG. Er greift sofort an — kein Verhandeln. 'FLEISCH!'",
+          "sets_flag": null
+        },
+        {
+          "trigger": "Feuer gegen den Troll eingesetzt",
+          "effect": "Der Troll bruellt vor Schmerz. Regeneration ausgesetzt fuer diese Runde. [FAKT: Troll-Regeneration durch Feuer unterdrueckt]",
+          "sets_flag": "troll_mit_feuer_besiegt"
+        },
+        {
+          "trigger": "Troll besiegt",
+          "effect": "Der Troll kollabiert mit einem letzten gurgelnden Schrei. [XP_GEWINN: 270] Der schwere Felsbrocken kann jetzt beiseite gewuchtet werden (PROBE: Kraft | 40). Die Treppe nach Ebene 3 ist frei.",
+          "sets_flag": "troll_besiegt"
+        }
+      ]
+    },
+    {
+      "id": "gruft_eingang",
+      "name": "Eingang zur Gruft (Ebene 3 — Krypta)",
+      "description": "Die Steintreppe endet vor einem monumentalen Torweg aus schwarzem Marmor. Reliefs zeigen Szenen des Sterbens: Koenige die knien, Magier die verbrennen, Heere die fallen — alles unter dem Bild eines Mannes mit ausgestreckten Haenden und einem leuchtenden Orb. Valdrak. Der Boden vor dem Tor ist mit feinem Staub bedeckt. Darunter: kaum sichtbare Ritzen in regemaessigem Muster. Die Luft schmeckt bitter — ein schwacher chemischer Geruch, fast wie verbrannter Schwefel.",
+      "atmosphere": "Feierliche Dunkelheit. Das Echo jedes Atemzugs. Der bittere Geschmack in der Luft. Das Gefuehl beobachtet zu werden.",
+      "npcs_present": [],
+      "clues_available": ["gruft_relief_inschrift", "giftgas_falle_zeichen"],
+      "exits": {
+        "trollhoehle": "Die Treppe zurueck zur Trollhoehle in Ebene 2.",
+        "halle_der_krieger": "Das marmorene Tor oeffnet sich schwer in die Halle der Krieger."
+      },
+      "keeper_notes": "GIFTGAS-FALLE: [PROBE: Fallen-Suchen | 45] erkennt die Ritzen. [PROBE: Fallen-Entschaerfen | 35] oder [PROBE: Kraft | 55] (Stein wegbrechen) entschaerft. Wer einfach durchgeht: [RETTUNGSWURF: Gift | 13] — bei Fehler: [HP_VERLUST: 2d6] sofort, Sehkraft fuer 1 Stunde beeintraechtigt (-2 auf alle Proben). Bei Erfolg: nur Husten, kein Schaden. Gruft-Inschrift: [FAKT: Valdrak hat seinen Geist in den Orb gebunden — Orb zerstroren = Valdrak vernichtet]. [XP_GEWINN: 35] fuer Ueberleben der Falle.",
+      "events": [
+        {
+          "trigger": "Giftgas-Falle ausgeloest",
+          "effect": "Gruenlicher Dunst stroemt aus den Bodenritzen. [RETTUNGSWURF: Gift | 13] — bei Fehler: [HP_VERLUST: 2d6] und Sehkraft beeintraechtigt fuer 1 Stunde. [FALLEN_AUSGELOEST: Giftgas]",
+          "sets_flag": null
+        },
+        {
+          "trigger": "Tor betreten",
+          "effect": "Das Gewicht der Gruft ist spuerbar — die Luft ist kaelter, schwerer. [FAKT: Gruft von Valdrak-Thul betreten]",
+          "sets_flag": "gruft_betreten"
+        }
+      ]
+    },
+    {
+      "id": "halle_der_krieger",
+      "name": "Halle der toten Krieger (Ebene 3 — Krypta)",
+      "description": "Eine lange, hohe Halle mit Sarkophagen an beiden Seiten — acht an jeder Seite, sechzehn insgesamt, aus schwarzem Marmor. In der Mitte: ein Gangweg, kaum drei Schritt breit. Die Haende der Sarkophag-Reliefs greifen nach innen. Vier der Deckel stehen offen — und vier dunkle Gestalten stehen in der Halle, reglos, bis ihr Licht sie beruehrt. Wights. Schatten-Jaeger des Lichts. Ihre Augen sind Leere, ihre Gesichter das Abbild eines qualvollen Todes.",
+      "atmosphere": "Grabeskalt. Die Stille drueckt auf Ohren und Brust. Die vier Wights bewegen sich lautlos. Das Fackellicht flackert ohne Ursache.",
+      "npcs_present": ["wight_1", "wight_2", "wight_3", "wight_4"],
+      "clues_available": ["sarkophag_inschriften"],
+      "exits": {
+        "gruft_eingang": "Zurueck zum Gruft-Eingang.",
+        "nadel_gauntlet": "Am Ende der Halle: ein enger Durchgang fuehrt zum Fallengauntlet."
+      },
+      "keeper_notes": "KAMPF gegen 4 Wights. GEFAEHRLICHSTE KAMPFBEGEGNUNG bis jetzt. Wight-Energieentzug: Bei JEDEM Treffer des Wights: [RETTUNGSWURF: Tod | 14]. Bei Fehler: dauerhafter Stufen-Entzug (-1 Stufe) — das ist PERMANENT und sehr ernst. Beschreibe es dramatisch: 'Eine Kaelte dringt in deine Seele, etwas Lebendiges wird herausgesogen.' Wights sind nur durch magische oder gesegnete Waffen verletzbar (das Langschwert +1 funktioniert). Nichtmagische Waffen treffen NICHT. [XP_GEWINN: 120] pro Wight. Nach Sieg: Sarkophag-Inschriften [FAKT: Valdrak hat seine Ritter durch Pakt an die Gruft gebunden].",
+      "events": [
+        {
+          "trigger": "Spieler betritt die Halle",
+          "effect": "Die vier Wights wenden sich gleichzeitig. Kein Ton. Dann bewegen sie sich. Kampf beginnt.",
+          "sets_flag": null
+        },
+        {
+          "trigger": "Alle vier Wights vernichtet",
+          "effect": "[XP_GEWINN: 480] (alle vier zusammen). Die Stille der Halle wirkt jetzt irgendwie weniger feindlich. Der Durchgang ist frei.",
+          "sets_flag": "wight_wache_besiegt"
+        }
+      ]
+    },
+    {
+      "id": "nadel_gauntlet",
+      "name": "Fallengauntlet: Dreifach-Todesfalle (Ebene 3 — Krypta)",
+      "description": "Ein zwanzig Meter langer Korridor — enger, niedriger als alles davor. Drei Abschnitte, jeweils getrennt durch eine flache Schwelle. Im ersten Abschnitt: Pfeilschlitze in doppelter Dichte, Boden mit unsichtbaren Drahtausloesern. Im zweiten: Aus dem Boden ragen Stacheln in Reihen — ein Meter hoch, schmal, metallisch, mit dunkelbrauner Verkrustung (Gift?). Im dritten: Zwei gewaltige Pendelklingen schwingen aus Nischen in die rechte Haelfte des Ganges im Wechsel. Das Ende des Ganges: eine Tuer zum Artefakt-Raum.",
+      "atmosphere": "Das leise Schurren der Pendelklingen. Das metallische Aufblitzen im Fackellicht. Der Geruch von altem Blut. Hier sind Menschen gestorben.",
+      "npcs_present": [],
+      "clues_available": ["fallen_mechanismus_sichtbar"],
+      "exits": {
+        "halle_der_krieger": "Zurueck zur Wight-Halle.",
+        "artefakt_kammer": "Das Ende des Gauntlets — eine schwarze Tuer, kaum sichtbar im Dunkel."
+      },
+      "keeper_notes": "DREI Fallen in Sequenz, alle obligatorisch:\n(1) PFEIL-LABYRINTH: PROBE: Fallen-Suchen | 40 sieht Draehte. PROBE: Fallen-Entschaerfen | 35 entschaerft. Oder PROBE: Schleichen/Kriechen | 50 um die Draehte zu unterkiechen. Bei Ausloesen: Pfeilsalve, 4 Pfeile [PROBE: Ausweichen | 45] pro Pfeil, Treffer [HP_VERLUST: 1d4].\n(2) STACHEL-REIHE: PROBE: Springen | 55 um ueber die erste Reihe zu springen. PROBE: Akrobatik | 50 fuer zweite Reihe. Bei Fehler: Stachel-Treffer [HP_VERLUST: 1d6], PLUS [RETTUNGSWURF: Gift | 12] — Versagen: [HP_VERLUST: 1d6] pro Runde fuer 2 Runden.\n(3) PENDELKLINGEN: PROBE: Beobachten | 45 um Rhythmus zu erkennen. PROBE: Springen/Laufen | 50 um im richtigen Moment durch. Bei Fehler: Klinge trifft [HP_VERLUST: 2d6].\n[XP_GEWINN: 120] fuer Durchqueren des gesamten Gauntlets. Hier koennen Heiltranke lebensrettend sein.",
+      "events": [
+        {
+          "trigger": "Alle drei Fallenabschnitte ueberstanden",
+          "effect": "[XP_GEWINN: 120] Die schwarze Tuer ist unverschlossen — sie schwingt lautlos auf. Dahinter: Kaelte und blaues Licht.",
+          "sets_flag": "nadelgauntlet_passiert"
+        }
+      ]
+    },
+    {
+      "id": "artefakt_kammer",
+      "name": "Artefaktkammer — Grab des Lich Valdrak (Ebene 3 — Krypta)",
+      "description": "Eine kreisrunde Kammer, zehn Meter Durchmesser, Decke aus poliertem schwarzem Marmor. In der Mitte: ein Altar aus einem einzigen Obsidian-Block. Darauf, schwebend in einem Ring aus eisigem blauen Licht: der Orb der Zeitalter — eine Kugel aus reinem Kristall, faustgross, innen rotierend mit Galaxien und Zeitaltern. Vor dem Altar steht — oder schwebt — eine Gestalt in zerfetzten Magier-Roben. Kein Fleisch mehr, nur Knochen, doch die Augen leuchten in intensivem Blaugruen. Ein Stab mit einem Totenschaedel-Knauf in der Knochenhand. Der Lich Valdrak. Er wartet. Er wusste, dass ihr kommt.",
+      "atmosphere": "Totenkaelte. Blaues Licht pulsiert im Rhythmus des Orbits. Die Luft vibriert mit unhoerbarer Magie. Der Lich bewegt sich nicht — er beobachtet nur, mit einer Ruhe die schreckerlicher ist als Wut.",
+      "npcs_present": ["lich_valdrak"],
+      "clues_available": ["orb_der_zeitalter", "valdrak_grabinschrift"],
+      "exits": {
+        "nadel_gauntlet": "Zurueck durch den Gauntlet (Flucht moeglich, Lich folgt nicht weit).",
+        "flucht_korridor": "Nach dem Sieg: Eine versteckte Tuer oeffnet sich in der Nordwand — Flucht-Korridor."
+      },
+      "keeper_notes": "ENDKAMPF. Lich Valdrak ist TOEDLICH. Wichtige Regeln:\n- IMMUN gegen nichtmagische Waffen — nur magische Waffen (Schwert +1, Axt +2) traeffen.\n- KAELTE-AURA: [HP_VERLUST: 1d6] pro Runde fuer JEDEN der in Nah-Reichweite kaempft — automatisch, kein Angriffswurf.\n- PARALYSIERUNGS-BERUEHRUNG: Bei Treffer des Lichs — [RETTUNGSWURF: Lahmung | 13] — bei Fehler: 2d4 Runden gelahmt.\n- FEUERSTOSS (einmal pro Kampf): [RETTUNGSWURF: Atemwaffe | 15] — [HP_VERLUST: 3d8] bei Fehler, Haelfte bei Erfolg.\n- Valdrak spricht! Er versucht, den Spieler mit Worten zu erschuettern. Aber er verhandelt nicht wirklich — Zeitspiel um Magie aufzuladen.\n- SCHWACHPUNKT: Der Orb ist Valdraks Lich-Hort (Phylactery). Wer den Orb ZERSTOERT (mit dem Schwert schlagen, PROBE: Angriff gegen AC 5) vernichtet Valdrak permanent — er zerfaellt zu Staub. Den Orb zu zerstaeren vernichtet seine Zeitmagie aber der Stein bleibt als wertloser Kristall. Die Quest ist: Orb ZURUECKBRINGEN (nicht zerstaeren). Lich besiegen ohne Orb zu zerstaeren = 500 GM Belohnung intakt.\n- [XP_GEWINN: 3000] fuer Sieg ueber Valdrak.\n- NACH Sieg/Orb-Sicherung: Die Kammer bebt. Risse in der Decke. Festung bricht zusammen. Der Flucht-Korridor oeffnet sich.",
+      "events": [
+        {
+          "trigger": "Spieler betritt die Kammer",
+          "effect": "Valdrak dreht sich ohne sich zu bewegen. 'Ihr seid gekommen. Ich habe eure Vorgaenger ihre Schwaeche lehren lassen. Jetzt lehre ich euch.' Der Kampf beginnt nach einem Monolog (maximal 2 Saetze).",
+          "sets_flag": null
+        },
+        {
+          "trigger": "Orb beruehrt oder gegriffen",
+          "effect": "Valdrak reagiert sofort — Feuerstoss ohne Vorwarnung wenn der Orb beruehrt wird waehrend er lebt. [RETTUNGSWURF: Atemwaffe | 15] — [HP_VERLUST: 3d8].",
+          "sets_flag": null
+        },
+        {
+          "trigger": "Valdrak besiegt (HP auf 0) ODER Orb als Hort zerstoert",
+          "effect": "[XP_GEWINN: 3000] Valdrak zerfaellt. Die Kaelte weicht. Das Beben beginnt. Die verborgene Tuer in der Nordwand bricht auf. 'LAUFT!'",
+          "sets_flag": "valdrak_besiegt"
+        },
+        {
+          "trigger": "Orb sicher gegriffen nach Valdraks Tod",
+          "effect": "[INVENTAR: Orb der Zeitalter (Artefakt, pulsierendes Kristallglas, Zeitmagie) | gefunden] Der Orb liegt kuehl in der Hand. Risse breiten sich durch die Decke.",
+          "sets_flag": "orb_geborgen"
+        }
+      ]
+    },
+    {
+      "id": "flucht_korridor",
+      "name": "Flucht aus dem Kerker (Ebene 3 — Krypta)",
+      "description": "Ein enger Korridor, offensichtlich als Geheimgang konzipiert — Valdrak wusste, dass er eines Tages fliehen muesste. Die Waende bersten. Steine fallen. Die Decke senkt sich zentimeterweise. Der Gang fuehrt schraeg aufwaerts — zurueck zu Ebene 2, dann Ebene 1, eine andere Route als der Abstieg. Aber die Festung stirbt um euch herum. Ein gewaltiger Brocken bricht von der Decke — ihr muesst springen. Dann eine Kluft im Boden, frisch gebrochen, einen Meter breit, zwei Meter tief. Dann eine Tuer die sich nicht oeffnen will, eingeklemmt. Alles haengt von den naechsten Minuten ab.",
+      "atmosphere": "Donner von brechendem Stein. Staub in den Augen. Der Boden bebt. Das Knacken und Bersten von sieben Jahrhunderten altem Gestein. Keine Zeit zum Nachdenken.",
+      "npcs_present": [],
+      "clues_available": [],
+      "exits": {
+        "artefakt_kammer": "Zurueck — unmoeglich, alles stuerzt ein."
+      },
+      "keeper_notes": "FLUCHT-SEQUENZ — schnell, dramatisch, KEINE langen Proben-Beschreibungen. Drei Hindernisse:\n(1) Deckenbrocken: [PROBE: Ausweichen | 55] oder [HP_VERLUST: 2d6] Steinschlag.\n(2) Bodenspalt (1m breit): [PROBE: Springen | 45] oder [HP_VERLUST: 1d6] Sturzschaden, kann sich hochziehen (zweite Chance).\n(3) Eingeklemmte Tuer: [PROBE: Kraft | 40] um sie aufzustossen. Bei Fehler: zweiter Versuch mit -10. Bei zwei Fehlern: Korridor-Einsturz — automatisch [HP_VERLUST: 3d6], dann letzter PROBE: Ausweichen | 60 oder Charakter wird verschuettet (Spieler-Tod).\nWenn geschafft: Spieler kommt atemlos auf das Hochplateau. Das Plateau bebt noch. Dann Stille. Die Festung ist verschwunden — nur noch eine Staubwolke wo die Eingangsruine war. Der Spieler steht im stuermendem Wind, den Orb in der Hand. [XP_GEWINN: 200] fuer Flucht. [ZEIT_VERGEHT: 2h] — vom Lich-Kampf bis zur Freiheit.",
+      "events": [
+        {
+          "trigger": "Spieler erreicht das Plateau",
+          "effect": "[XP_GEWINN: 200] Das Erdeben verebbt. Stille. Der Spieler lebt. Die Aufgabe ist erfuellt. [FAKT: Valdrak-Thul ist eingestuerzt — niemand wird hier je wieder einsteigen koennen]",
+          "sets_flag": "festung_entkommen"
+        }
+      ]
+    }
+  ],
+  "npcs": [
+    {
+      "id": "skelett_krieger_1",
+      "name": "Skelett-Krieger I",
+      "description": "Ein Knochengeruest in zerfetzter Kettenruestung, bewaffnet mit einem rostigen Langschwert. Die Knochen sind geschwaaerzt von uraltem Magiebrand.",
+      "stats": {
+        "ac": 7,
+        "hp": 8,
+        "thac0": 19,
+        "damage": "1d8",
+        "hd": 1,
+        "weapon": "Langschwert (verrostet)"
+      },
+      "behavior": "Greift sofort und stumm an. Kein Verhandeln, kein Rueckzug. Kaempft bis zur Zerstoerung."
+    },
+    {
+      "id": "skelett_krieger_2",
+      "name": "Skelett-Krieger II",
+      "description": "Zweites Knochengeruest, in der Lederruestung eines frueheren Wachmanns, bewaffnet mit einer kurzen Hellebarde.",
+      "stats": {
+        "ac": 7,
+        "hp": 7,
+        "thac0": 19,
+        "damage": "1d8",
+        "hd": 1,
+        "weapon": "Kurze Hellebarde"
+      },
+      "behavior": "Flankt den Spieler wenn moeglich. Kaempft bis zur Zerstoerung."
+    },
+    {
+      "id": "totenwacht_ritter",
+      "name": "Totenwacht-Ritter Aldric",
+      "description": "Ein untotes Wesen in verrotteter Plattenruestung, einst der oberste Kaemerling der Festung Valdrak-Thul. Sein Helm verbirgt nichts — dahinter ist ein glasendes Totenantlitz mit dem Ausdruck ewiger Pflicht. Ein scharlachroter Umhang zerfaellt um seine Schultern. In der Hand: eine verwitterte, aber noch scharfe Streitaxt.",
+      "stats": {
+        "ac": 3,
+        "hp": 22,
+        "thac0": 15,
+        "damage": "1d8+2",
+        "hd": 4,
+        "weapon": "Streitaxt (magisch verstehlt, nachwirkend)",
+        "special": "Schreckensaura: RETTUNGSWURF Magie 13 bei Erstkontakt — bei Fehler 1 Runde gelahmt (+4 AC fuer Ritter)"
+      },
+      "behavior": "Bewegt sich langsam aber unaufhaltsam. Kein Rueckzug. Schreckensaura zuerst, dann aggressive Nahkampfbewegung. Ignoriert Schmerz."
+    },
+    {
+      "id": "riesenspinne_1",
+      "name": "Riesenspinne Vadara",
+      "description": "Eine Spinne so gross wie ein Hund, mit schwarzem Panzer und acht rotgluehenden Augen. Ihre Kaue trieft Gift.",
+      "stats": {
+        "ac": 6,
+        "hp": 10,
+        "thac0": 18,
+        "damage": "1d8",
+        "hd": 2,
+        "weapon": "Gift-Biss",
+        "special": "Gift: RETTUNGSWURF Gift 14 oder 2d6 Schaden pro Runde fuer 3 Runden"
+      },
+      "behavior": "Haelt sich im Netz. Greift bevorzugt von oben an. Zieht verwundete Beute in das Netz."
+    },
+    {
+      "id": "riesenspinne_2",
+      "name": "Riesenspinne Kadrix",
+      "description": "Etwas kleiner als die erste, aber schneller. Silbergraue Farbe die sie im Netz fast unsichtbar macht.",
+      "stats": {
+        "ac": 5,
+        "hp": 9,
+        "thac0": 18,
+        "damage": "1d8",
+        "hd": 2,
+        "weapon": "Gift-Biss",
+        "special": "Gift: RETTUNGSWURF Gift 14 oder 2d6/Runde fuer 3 Runden. Bonus: +2 auf Angriff aus Versteck."
+      },
+      "behavior": "Wartet im Netz bis Verbundene abgelenkt ist, dann Ueberraschungsangriff."
+    },
+    {
+      "id": "riesenspinne_3",
+      "name": "Riesenspinne Morva (Mutter)",
+      "description": "Die groesste der drei — ein Weibchen, doppelt so gross wie die anderen, mit einem geschwollenen Abdomen voller Eier. Ihre Bisse sind tiefer, ihr Gift haerter.",
+      "stats": {
+        "ac": 6,
+        "hp": 14,
+        "thac0": 17,
+        "damage": "1d10",
+        "hd": 3,
+        "weapon": "Schwerer Gift-Biss",
+        "special": "Gift: RETTUNGSWURF Gift 12 (schwieriger!) oder 2d6/Runde fuer 3 Runden. Schaden 1d10."
+      },
+      "behavior": "Greift als letzte an — schuetzt ihre Eier. Wenn die anderen fallen, wird sie verzweifelt und wuetend."
+    },
+    {
+      "id": "troll_grugnak",
+      "name": "Grugnak der Nachwachsende",
+      "description": "Drei Meter Verderben in graugruener warziger Haut. Arme fast so lang wie ein Mensch gross ist, mit spatelbreiten Fingern mit schwarzen Klauen. Ein Kopf zu klein fuer den riesigen Koerper, mit einem ewig hungrigen Zaehnefletschen. Er stinkt nach rohem Fleisch und feuchtem Fell. Er regeneriert sichtbar — kleine Wunden schliessen sich vor euren Augen.",
+      "stats": {
+        "ac": 4,
+        "hp": 32,
+        "thac0": 14,
+        "damage": "1d6/1d6/1d10",
+        "hd": 6,
+        "weapon": "Krallen x2 (1d6 je) / Biss (1d10)",
+        "special": "Regeneration: 3 HP/Runde (ausser nach Feuer- oder Saeureschaden in der Runde). Kein Rueckzug, nie."
+      },
+      "behavior": "Greift sofort an. Drei Angriffe pro Runde (beide Krallen + Biss). Prioritaet: Biss gegen den am staerksten beschaedigten Gegner. Regeneriert offen sichtbar — der Keeper muss das JEDE RUNDE ansagen."
+    },
+    {
+      "id": "wight_1",
+      "name": "Schatten-Jaeger Barek",
+      "description": "Einst ein Knappe der Festung. Jetzt eine Leeere in Menschenform — Haut pergamentduenn ueber Knochen, Augen weiss ohne Iris, Bewegungen unheillich lautlos.",
+      "stats": {
+        "ac": 5,
+        "hp": 12,
+        "thac0": 17,
+        "damage": "1d4",
+        "hd": 3,
+        "weapon": "Energieentzug-Beruehrung",
+        "special": "Nur durch magische/gesegnete Waffen verletzbar. Energieentzug: RETTUNGSWURF Tod 14 oder -1 Stufe (dauerhaft)."
+      },
+      "behavior": "Lautlos. Kaempft in Gruppe. Greift bevorzugt den Verwundeten an."
+    },
+    {
+      "id": "wight_2",
+      "name": "Schatten-Jaeger Serya",
+      "description": "Eine weibliche Gestalt, einst Koechin der Festung. Ihre Haende, einst fuer Essen, jetzt fuer das Ausloeschen von Leben.",
+      "stats": {
+        "ac": 5,
+        "hp": 11,
+        "thac0": 17,
+        "damage": "1d4",
+        "hd": 3,
+        "weapon": "Energieentzug-Beruehrung",
+        "special": "Nur magische Waffen. RETTUNGSWURF Tod 14 bei Treffer."
+      },
+      "behavior": "Flankt. Versucht den Spieler zwischen zwei Wights einzuschliessen."
+    },
+    {
+      "id": "wight_3",
+      "name": "Schatten-Jaeger Todrik",
+      "description": "Gross, einst ein Wachsoldat. Seine Grabkleider haengen in Fetzen. Auf seiner Brust: ein Orden — einst Ehre, jetzt Hohn.",
+      "stats": {
+        "ac": 4,
+        "hp": 14,
+        "thac0": 16,
+        "damage": "1d4+1",
+        "hd": 3,
+        "weapon": "Energieentzug (staerker — ehemaliger Offizier)",
+        "special": "Nur magische Waffen. RETTUNGSWURF Tod 13 (haerter — Offizier-Wight)."
+      },
+      "behavior": "Fuehrt die Gruppe. Versucht den Spieler zu isolieren bevor er angreift."
+    },
+    {
+      "id": "wight_4",
+      "name": "Schatten-Jaeger Minna",
+      "description": "Die kleinste der vier. Kaum erkennbar als menschlich — fast durchscheinend, eine Silhouette des Todes.",
+      "stats": {
+        "ac": 5,
+        "hp": 10,
+        "thac0": 17,
+        "damage": "1d4",
+        "hd": 3,
+        "weapon": "Energieentzug-Beruehrung",
+        "special": "Nur magische Waffen. RETTUNGSWURF Tod 14 bei Treffer."
+      },
+      "behavior": "Wartet bis ein anderer Wight angreift, dann kommt von der Seite."
+    },
+    {
+      "id": "lich_valdrak",
+      "name": "Lich Mordechai Valdrak, Erzmagier und Zeitbinder",
+      "description": "Sieben Jahrhunderte alt, unsterblich durch dunkle Magie und den Orb als Lich-Hort. Knochen in zerfetzten Magierroben, aber die Haltung ist koeenighaft. Der Schaedel ist poliert vom Alter. In den Augenhoehlnen brennt intensiv blaues Licht — das Licht des Orbs, das Licht seiner gestohlenen Jahrhunderte. Sein Stab endet in einem Totenschaedel-Knauf. Er war einmal ein Mensch. Das Grauen ist, dass man es noch sieht.",
+      "stats": {
+        "ac": 0,
+        "hp": 65,
+        "thac0": 11,
+        "damage": "1d10+3",
+        "hd": 11,
+        "weapon": "Magierstab des Endes (1d10+3)",
+        "special": "IMMUN nichtmagische Waffen. Kaelte-Aura: 1d6 automatischer Schaden/Runde in Nah-Reichweite. Paralysierungs-Beruehrung: RETTUNGSWURF Lahmung 13 oder 2d4 Runden gelahmt. Feuerstoss 1x/Kampf: RETTUNGSWURF Atemwaffe 15, 3d8 Schaden (Haelfte bei Erfolg). Orb ist Lich-Hort: Zerstaerung des Orbs vernichtet Valdrak permanent."
+      },
+      "behavior": "Spricht zuerst — zwei Saetze, nie mehr. Dann angreifen. Haelt Distanz (Feuerstoss, Stab). Setzt Paralysierungs-Beruehrung ein wenn Spieler in Nahkampf-Reichweite. Kaelte-Aura ist automatisch. Kaempft ohne Gnade bis zur Vernichtung oder des Spielers Tod.",
+      "secrets": "Der Orb der Zeitalter ist Valdraks Lich-Hort (Phylactery). Zerstoerung des Orbs vernichtet Valdrak permanent. Der Spieler muss entscheiden: Orb zurueckbringen (Belohnung) oder Valdrak permanent toeten (Orb wertlos)."
+    }
+  ],
+  "clues": [
+    {
+      "id": "eingangs_inschrift",
+      "location": "valdrak_eingang",
+      "name": "Runensteine-Inschrift",
+      "description": "Alte Runen in einer vergessenen Sprache, eingemeisselt in die schwarzen Basaltbloecke.",
+      "probe_required": "Sprachen Alt | 45",
+      "information": "Hier ruht die Macht des Zeitbinders. Wer einsteigt, laesst Hoffnung hinter sich. Wer den Orb stiehlt, stiehlt von der Zeit selbst.",
+      "leads_to": ["orb_der_zeitalter"]
+    },
+    {
+      "id": "spur_der_ersten_gruppe",
+      "location": "valdrak_eingang",
+      "name": "Spuren und Blutreste der Vorabtruppe",
+      "description": "Frische Fussspuren im Staub, ein zerbrochenes Schwertstueck, Blutflecken.",
+      "probe_required": "Spurenlesen | 50",
+      "information": "Mindestens vier Personen eingetreten. Zeichen eines Kampfes am Eingang selbst — jemand hat sie am Eingang erwartet. Alle Spuren fuehren tiefer, keine fuehren heraus.",
+      "sets_flag": "erste_gruppe_schicksal_bekannt"
+    },
+    {
+      "id": "alte_wandinschrift_vorhalle",
+      "location": "ruinen_vorhalle",
+      "name": "Verwitterte Wandinschrift",
+      "description": "In die Wand der Vorhalle geritzte Warnung, auf Alt-Gemeinsprache.",
+      "probe_required": "Lesen | 40",
+      "information": "Valdrak-Thul — Festung des Ewigen Wachens. Drei Ebenen. Drei Preis. Wer zu tief geht zahlt mit mehr als Gold.",
+      "leads_to": []
+    },
+    {
+      "id": "vorabtrupp_skelett",
+      "location": "ruinen_vorhalle",
+      "name": "Skelettierter Vorgaenger",
+      "description": "Ein menschliches Skelett in der eingefallenen Wandnische, Kettenjuppe zerfetzt.",
+      "probe_required": null,
+      "information": "Ein Mitglied der Vorabtruppe. Er hielt einen Messingschluessel in der Faust — hatte ihn wohl gerade gefunden. Was ihn toeete, ist unklar: keine Wunden, er scheint... einfach aufgehoert zu haben zu atmen.",
+      "leads_to": ["alter_waffenkasten"]
+    },
+    {
+      "id": "wach_journal",
+      "location": "wachraum_untergeschoss",
+      "name": "Journal des letzten Wachmanns",
+      "description": "Ein halb vermodert Lederbuch auf der Pritsche, noch lesbar.",
+      "probe_required": "Lesen | 50",
+      "information": "Eintrag, undatiert: 'Grugnak hat heute wieder einen der Jungs erwischt. Es hilft nur Feuer — immer nur Feuer. Schwerter machen ihn wuetend. Feuer macht ihn still.' Letzter Eintrag: 'Valdrak ruft. Wir alle gehen jetzt zur ewigen Wache.'",
+      "leads_to": ["troll_grugnak"]
+    },
+    {
+      "id": "druckplatten_zeichen",
+      "location": "fallenkorridor_ost",
+      "name": "Regelmaessige Steinplatten",
+      "description": "Die Bodenplatten des Korridors sind auffaellig gleichmaessig — zu gleichmaessig.",
+      "probe_required": "Fallen-Suchen | 45",
+      "information": "Druckplatten-Fallen. Zwei Ausloeser erkennbar — einer nach drei Schritten, einer nach zwoeolf Schritten. Umgehung moeglich wenn man weiss wo zu treten."
+    },
+    {
+      "id": "pfeillocher_wand",
+      "location": "fallenkorridor_ost",
+      "name": "Wandlocher in regelmaessigem Abstand",
+      "description": "Kleine, fingerdick-runde Locher in beiden Waenden des Ganges.",
+      "probe_required": "Beobachten | 40",
+      "information": "Pfeilschlitze. Mechanisch verbunden mit den Druckplatten."
+    },
+    {
+      "id": "vorabtrupp_rucksack",
+      "location": "thronsaal_ruinen",
+      "name": "Rucksack der Vorabtruppe",
+      "description": "Ein aufgeplatzter Abenteurer-Rucksack, Inhalt herausgestossen.",
+      "probe_required": null,
+      "information": "Zunderstein, Feuerstein, drei Oelflaschen. Und eine zerrissene Notiz: 'Troll in Ebene 2 — Feuer ist der Schluessel. Wir haben drei Flaschen. Hoffentlich reicht das.'",
+      "leads_to": ["troll_grugnak"]
+    },
+    {
+      "id": "wandfresko_valdrak",
+      "location": "thronsaal_ruinen",
+      "name": "Wandfresko des Erzmagiers",
+      "description": "Ein gut erhaltenes Fresko hinter dem Thron zeigt Valdrak in seiner Maechtigkeitszeit — jung, stolz, den Orb in beiden Haenden.",
+      "probe_required": null,
+      "information": "Das Fresko zeigt Valdrak in drei Szenen: jung und strahlend mit dem Orb, dann aelter und verbogen, und zuletzt als skelettierte Gestalt — noch immer mit dem Orb. Eine Inschrift darunter: 'Ich werde nicht sterben, solange der Orb lebt. Und der Orb lebt durch mich.'",
+      "leads_to": ["orb_der_zeitalter", "lich_valdrak"]
+    },
+    {
+      "id": "abgrund_inschrift",
+      "location": "abgrund_bruecke",
+      "name": "Inschrift an der Brueckenpforte",
+      "description": "In den Fels ueber dem Brueckenanfang gemeisselt.",
+      "probe_required": "Lesen | 40",
+      "information": "Ebene Zwei erwartet jene die sich nicht von der Tiefe schrecken lassen. Die Spinnen, der Nachwachsende, der nasse Weg — alle Pruefungen Valdraks fuer die Wuerdigen.",
+      "leads_to": ["spinnennest", "troll_grugnak"]
+    },
+    {
+      "id": "vorabtrupp_leiche_netz",
+      "location": "spinnennest",
+      "name": "Leiche im Spinnennetz",
+      "description": "Einer der Vorabtrupp-Mitglieder, mumifiziert im Netz haengend.",
+      "probe_required": "Kraft | 40 (Netz durchschneiden)",
+      "information": "Ausgeruestet mit einem Feuerstab (einmalig benutzbar, entfacht Feuer auf Kommando) und einer Notiz: 'Spinnen hatten uns. Konnte mich nicht befreien. Wenn ihr das lest — geht zurueck. Wenn ihr koennt.'",
+      "leads_to": ["troll_grugnak"]
+    },
+    {
+      "id": "truhe_auf_insel",
+      "location": "unterirdischer_fluss",
+      "name": "Kettensicherung der Truhe",
+      "description": "Eine mit dicken Eisenketten an den Fels gesicherte Truhe auf der kleinen Insel.",
+      "probe_required": null,
+      "information": "Gut gesicherter Schatz. Kette ist ohne Schloss, aber braucht Kraft um gebrochen zu werden. Inhalt ist sichtbar durch einen Riss: ein Kristall, der pulsiert."
+    },
+    {
+      "id": "schacht_graffiti",
+      "location": "kletterschacht",
+      "name": "Schacht-Graffiti",
+      "description": "In die Wand des Schachts geritzte Botschaften verschiedener Abenteurer ueber die Jahre.",
+      "probe_required": "Lesen | 35",
+      "information": "Verschiedene Handschriften, verschiedene Sprachen, aber alle ein Thema. Auf Alt-Gemeinsprache: 'Grugnak der Nachwachsende — nur Feuer toetet ihn bleibend. Saeure auch, wenn ihr welche habt.' Und darunter, frischer: 'Wir haben es versucht. Ohne Feuer ist er unsterblich. -- Die Gruppe des Magister Thorn, 4 von 7 ueberlebt.'",
+      "leads_to": ["troll_grugnak"]
+    },
+    {
+      "id": "troll_beute",
+      "location": "trollhoehle",
+      "name": "Trolls Beutehaufen",
+      "description": "Ein Haufen aus Truhen, Beutelsaecken, zerbrochenen Waffen und einem glaenzenden Gegenstand.",
+      "probe_required": null,
+      "information": "Der Troll hat ueber Jahre alles gesammelt was in seinen Kerker-Bereich fiel. Darunter eine Streitaxt mit einem auffaelligen Blau-Schimmer — Magie."
+    },
+    {
+      "id": "gruft_relief_inschrift",
+      "location": "gruft_eingang",
+      "name": "Torreliefs und Inschrift",
+      "description": "Die Marmorwand erzaehlt Valdraks Geschichte in Szenen — und eine Inschrift bestaetigt die Theorie.",
+      "probe_required": "Lesen | 40",
+      "information": "Hier liegt Mordechai Valdrak, Erzmagier des Zeitbandes, gebunden durch eigene Wahl an den Orb der Zeitalter. Sein Geist weilt im Stein. Zerstaert den Stein — zerstaert den Geist. Bewacht den Stein — bewacht den Geist.",
+      "leads_to": ["orb_der_zeitalter", "lich_valdrak"]
+    },
+    {
+      "id": "giftgas_falle_zeichen",
+      "location": "gruft_eingang",
+      "name": "Bodenritzen-Muster",
+      "description": "Regelmaessige Ritzen in Bodenplatten vor dem Tor.",
+      "probe_required": "Fallen-Suchen | 45",
+      "information": "Giftgas-Falle. Ausloesung durch Gewicht auf den Platten. Entschaerfung durch Schieben der mittleren Platte um 90 Grad (Mechanismus sichtbar wenn man weiss worauf zu achten)."
+    },
+    {
+      "id": "sarkophag_inschriften",
+      "location": "halle_der_krieger",
+      "name": "Sarkophag-Beschriftungen",
+      "description": "Jeder Sarkophag traegt den Namen und Rang des Bewohners eingemeisselt.",
+      "probe_required": "Lesen | 35",
+      "information": "Alle sechzehn Namen sind Soldaten und Bedienstete der Festung. Inschrift: 'Durch Pakt mit Valdrak gebunden, ewige Wacht zu halten.' Sie hatten keine Wahl. Valdrak hat sie nach dem Tod in seine Festung gebunden.",
+      "leads_to": ["lich_valdrak"]
+    },
+    {
+      "id": "fallen_mechanismus_sichtbar",
+      "location": "nadel_gauntlet",
+      "name": "Sichtbare Fallen-Mechanismen",
+      "description": "Die Fallen des Gauntlets sind absichtlich SICHTBAR gebaut — Valdrak wollte, dass Eindringlinge sie sehen und trotzdem nicht entkommen.",
+      "probe_required": "Beobachten | 35",
+      "information": "Die Ausloesedraehte glitzern. Die Pendelklingen haben sichtbare Schienen. Der Rhythmus ist errechenbar. Valdrak war kein Barbar — er wollte sehen ob die Eindringlinge es schaffen.",
+      "leads_to": []
+    },
+    {
+      "id": "orb_der_zeitalter",
+      "location": "artefakt_kammer",
+      "name": "Der Orb der Zeitalter",
+      "description": "Eine faustgrosse Kristallkugel, schwebend im blauen Licht, mit rotierenden Galaxien und Zeitaltern im Inneren.",
+      "probe_required": null,
+      "information": "Der Orb ist gleichzeitig das maechtigste Artefakt des Landes UND Valdraks Lich-Hort. In ihm lebt Valdraks Geist. Mitnahme rettet den Orb — Zerstoerung vernichtet Valdrak permanent, macht den Orb aber wertlos.",
+      "leads_to": ["lich_valdrak"]
+    },
+    {
+      "id": "valdrak_grabinschrift",
+      "location": "artefakt_kammer",
+      "name": "Grabinschrift des Lich",
+      "description": "In den Altar gemeisselt, unter dem schwebenden Orb.",
+      "probe_required": "Lesen | 35",
+      "information": "Hier endet die Zeit fuer die, die einsteigen. Hier beginnt die Ewigkeit fuer mich. Ich, Mordechai Valdrak, habe den Tod ueberwunden. Niemand nimmt mir den Orb. Niemand. — M.V.",
+      "leads_to": []
+    },
+    {
+      "id": "vorabtrupp_rucksack_2",
+      "location": "trollhoehle",
+      "name": "Zerrissener Rucksack der Vorabtruppe (2)",
+      "description": "Ein zweiter Rucksack nahe dem Hoehleneingang, von Trollklauen aufgerissen.",
+      "probe_required": null,
+      "information": "Restinhalt: eine zerbrochene Zauberstabruine (wertlos), eine Karte der Ebene 1 (hatten sie Karte von jemand anders?), und eine letzte Notiz: 'Troll lebt. Feuer hilft. Brauchen mehr. Drei von uns noch. Gehen weiter. Koennt uns folgen oder nicht.'",
+      "leads_to": ["treppe_ebene3"]
+    }
+  ],
+  "resolution": {
+    "success": "Ihr steht auf dem stuermischen Hochplateau, atemlos, vernarbt, mit dem Orb der Zeitalter in der Hand. Hinter euch eine Staubwolke — alles was von Valdrak-Thul geblieben ist. Der Lich ist vernichtet. Magister Elric wartet in der Stadt mit 500 Goldmuenzen und zu vielen Fragen. Was ihr gesehen habt, koennt ihr kaum beschreiben. Was ihr erlebt habt, werdet ihr nie vergessen.",
+    "condition": "valdrak_besiegt == true AND orb_geborgen == true AND festung_entkommen == true",
+    "partial_success": "Wer den Orb mit sich traegt aber die Festung nicht durch den Flucht-Korridor verlaesst, gilt als verschollen. Der Magister schickt keine weitere Gruppe.",
+    "failure": "In den Tiefen von Valdrak-Thul findet man alles — ausser einen Weg heraus."
+  }
+}

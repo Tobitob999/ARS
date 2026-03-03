@@ -35,14 +35,12 @@
       "school_or_type": "Alteration",
       "range": "Touch",
       "components": "V, S, M",
-      "duration": "1 turn + 1 turn/levei",
+      "duration": "1 turn + 1 turn/level",
       "casting_time": "6",
       "area_of_effect": "Special",
-      "saving_throw": null,
+      "saving_throw": "None",
       "description_excerpt": "Saving Throw None By means of this spell, the caster is able to empower one or more creatures to tread upon any liquid as if it were firm ground; this includes mud, quicksand, oil, running water, and snow. The recipient's feet do not touch the surface of the liquid, but oval depressions of his appropriate foot size and two inches deep are left in the mud or snow. The recipient's rate of movement remains normal. If cast underwater, the recipient is borne toward the surface. For every level of the caster above the minimum required to cast the spell (5th level), he can affect another creature. The material components for this spell are a piece of cork and the priest's holy symbol. Fourth-Level Spells"
     },
-    "quality_flags": [
-      "missing_standard_fields"
-    ]
+    "quality_flags": []
   }
 }

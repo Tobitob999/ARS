@@ -1,0 +1,573 @@
+{
+  "turn_number": 15,
+  "party": {
+    "members": {
+      "Grimjaw Eisenfaust": {
+        "name": "Grimjaw Eisenfaust",
+        "char_id": "add_train_fighter",
+        "archetype": "Fighter",
+        "level": 7,
+        "race": "Dwarf",
+        "hp": 35,
+        "hp_max": 72,
+        "ac": 2,
+        "thac0": 14,
+        "characteristics": {
+          "STR": "18/76",
+          "STR_base": 18,
+          "STR_exceptional": 76,
+          "DEX": 12,
+          "CON": 17,
+          "INT": 10,
+          "WIS": 13,
+          "CHA": 8
+        },
+        "saving_throws": {
+          "Paralyzation": 7,
+          "Rod": 9,
+          "Petrification": 8,
+          "Breath": 8,
+          "Spell": 10
+        },
+        "equipment": [
+          "Battle Axe +1 (1d8+1, spezialisiert: +4 hit/+7 dmg gesamt)",
+          "Long Sword (1d8, Zweitwaffe)",
+          "Dagger (1d4, Wurfwaffe)",
+          "Heavy Crossbow (1d4+1, Reichweite 80/160/240)",
+          "Bolts (20)",
+          "Full Plate Armor (AC 1)",
+          "Large Shield (+1 AC)",
+          "Potion of Healing x2",
+          "Potion of Extra-Healing x1",
+          "Rope (50ft)",
+          "Torches (6)",
+          "Backpack",
+          "Rations (7 Tage)",
+          "22 GP"
+        ],
+        "spells_prepared": [],
+        "spells_remaining": {},
+        "xp": 143,
+        "alive": true
+      },
+      "Sir Kael Zornesklinge": {
+        "name": "Sir Kael Zornesklinge",
+        "char_id": "add_train_paladin",
+        "archetype": "Paladin",
+        "level": 6,
+        "race": "Human",
+        "hp": 16,
+        "hp_max": 54,
+        "ac": 1,
+        "thac0": 15,
+        "characteristics": {
+          "STR": 17,
+          "DEX": 11,
+          "CON": 15,
+          "INT": 12,
+          "WIS": 16,
+          "CHA": 17
+        },
+        "saving_throws": {
+          "Paralyzation": 8,
+          "Rod": 10,
+          "Petrification": 9,
+          "Breath": 10,
+          "Spell": 11,
+          "notes": "Warrior L6 base + Paladin +2 bonus auf ALLE Saves."
+        },
+        "equipment": [
+          "Holy Sword +2 'Zornesklinge' (Defender: +2 hit/+2 dmg, kann AC-Bonus uebertragen)",
+          "Lance (1d6, Mounted)",
+          "Medium Shield (+1 AC)",
+          "Full Plate Armor (AC 1)",
+          "Holy Symbol (Flammen-Medaillon)",
+          "Potion of Healing x2",
+          "Holy Water x2",
+          "Backpack",
+          "Rations (7 Tage)",
+          "Torches (4)",
+          "Rope (50ft)",
+          "14 GP"
+        ],
+        "spells_prepared": [
+          "Bless",
+          "Cure Light Wounds"
+        ],
+        "spells_remaining": {
+          "1": 2
+        },
+        "xp": 143,
+        "alive": true
+      },
+      "Bruder Mordain": {
+        "name": "Bruder Mordain",
+        "char_id": "add_train_cleric",
+        "archetype": "Cleric",
+        "level": 6,
+        "race": "Human",
+        "hp": 33,
+        "hp_max": 42,
+        "ac": 2,
+        "thac0": 18,
+        "characteristics": {
+          "STR": 14,
+          "DEX": 10,
+          "CON": 16,
+          "INT": 12,
+          "WIS": 17,
+          "CHA": 15
+        },
+        "saving_throws": {
+          "Paralyzation": 9,
+          "Rod": 13,
+          "Petrification": 12,
+          "Breath": 15,
+          "Spell": 14
+        },
+        "equipment": [
+          "Mace +1 (1d6+1, Hauptwaffe)",
+          "Heavy Mace (1d6+1, Zweitwaffe)",
+          "Plate Mail (AC 3)",
+          "Medium Shield (+1 AC)",
+          "Holy Symbol (Sturm-Amulett)",
+          "Potion of Extra-Healing x1",
+          "Holy Water x3",
+          "Backpack",
+          "Rations (7 Tage)",
+          "Healer's Kit (10 uses)",
+          "Prayer Book",
+          "15 GP"
+        ],
+        "spells_prepared": [
+          "Cure Light Wounds",
+          "Cure Light Wounds",
+          "Bless",
+          "Command",
+          "Detect Magic",
+          "Hold Person",
+          "Spiritual Hammer",
+          "Spiritual Hammer",
+          "Aid",
+          "Silence 15' Radius",
+          "Dispel Magic",
+          "Prayer",
+          "Create Food and Water"
+        ],
+        "spells_remaining": {
+          "1": 2,
+          "2": 5,
+          "3": 2
+        },
+        "xp": 140,
+        "alive": true
+      },
+      "Varn Wildtoeter": {
+        "name": "Varn Wildtoeter",
+        "char_id": "add_train_ranger",
+        "archetype": "Ranger",
+        "level": 6,
+        "race": "Half-Elf",
+        "hp": 52,
+        "hp_max": 52,
+        "ac": 4,
+        "thac0": 15,
+        "characteristics": {
+          "STR": 16,
+          "DEX": 17,
+          "CON": 15,
+          "INT": 13,
+          "WIS": 14,
+          "CHA": 12
+        },
+        "saving_throws": {
+          "Paralyzation": 10,
+          "Rod": 12,
+          "Petrification": 11,
+          "Breath": 12,
+          "Spell": 13
+        },
+        "equipment": [
+          "Longbow +1 (1d8+1, Hauptwaffe Fernkampf)",
+          "Arrows +1 x20 (magisch)",
+          "Arrows (normal) x20",
+          "Long Sword (1d8, Haupthand Nahkampf)",
+          "Short Sword (1d6, Nebenhand)",
+          "Chain Mail (AC 5)",
+          "Potion of Healing x2",
+          "Oil Flasks x3 (Feuer gegen Trolle)",
+          "Backpack",
+          "Rations (7 Tage)",
+          "Rope (50ft)",
+          "Tinderbox",
+          "Torches (4)",
+          "20 GP"
+        ],
+        "spells_prepared": [
+          "Animal Friendship"
+        ],
+        "spells_remaining": {
+          "1": 1
+        },
+        "xp": 140,
+        "alive": true
+      },
+      "Pyra Flammenherz": {
+        "name": "Pyra Flammenherz",
+        "char_id": "add_train_mage",
+        "archetype": "Mage",
+        "level": 6,
+        "race": "Elf",
+        "hp": 18,
+        "hp_max": 18,
+        "ac": 6,
+        "thac0": 19,
+        "characteristics": {
+          "STR": 10,
+          "DEX": 16,
+          "CON": 14,
+          "INT": 18,
+          "WIS": 12,
+          "CHA": 13
+        },
+        "saving_throws": {
+          "Paralyzation": 13,
+          "Rod": 9,
+          "Petrification": 11,
+          "Breath": 13,
+          "Spell": 10
+        },
+        "equipment": [
+          "Dagger +1 (1d4+1, Wurfwaffe)",
+          "Quarterstaff (1d6, Zweihand)",
+          "Bracers of Defense AC 6",
+          "Spellbook",
+          "Wand of Magic Missiles (40 Ladungen, 2d4+2 pro Aktivierung)",
+          "Scroll of Fireball (6d6, Backup)",
+          "Component Pouch",
+          "Backpack",
+          "Rations (7 Tage)",
+          "Oil Flasks x3 (Brandmunition)",
+          "25 GP"
+        ],
+        "spells_prepared": [
+          "Magic Missile",
+          "Magic Missile",
+          "Burning Hands",
+          "Shield",
+          "Web",
+          "Flaming Sphere",
+          "Fireball",
+          "Lightning Bolt"
+        ],
+        "spells_remaining": {
+          "1": 0,
+          "2": 2,
+          "3": 0
+        },
+        "xp": 140,
+        "alive": true
+      },
+      "Shade Klingenschatten": {
+        "name": "Shade Klingenschatten",
+        "char_id": "add_train_thief",
+        "archetype": "Thief",
+        "level": 7,
+        "race": "Halfling",
+        "hp": 32,
+        "hp_max": 32,
+        "ac": 4,
+        "thac0": 18,
+        "characteristics": {
+          "STR": 12,
+          "DEX": 18,
+          "CON": 14,
+          "INT": 13,
+          "WIS": 10,
+          "CHA": 11
+        },
+        "saving_throws": {
+          "Paralyzation": 12,
+          "Rod": 9,
+          "Petrification": 11,
+          "Breath": 15,
+          "Spell": 10
+        },
+        "equipment": [
+          "Short Sword +1 (1d6+1, Backstab-Waffe)",
+          "Sling (1d4+1, Halfling +1 Angriff)",
+          "Sling Bullets (30)",
+          "Dagger x3 (1d4, versteckt, vergiftet)",
+          "Leather Armor +2 (AC 6, magisch)",
+          "Thieves' Tools (Meisterwerk)",
+          "Potion of Healing x2",
+          "Potion of Invisibility x1 (fuer Backstab)",
+          "Rope (50ft, Seide)",
+          "Grappling Hook",
+          "Backpack",
+          "Rations (7 Tage)",
+          "Chalk (10, Markierungen)",
+          "Small Mirror",
+          "12 GP"
+        ],
+        "spells_prepared": [],
+        "spells_remaining": {},
+        "xp": 139,
+        "alive": true
+      }
+    },
+    "alive_count": 6,
+    "total_count": 6,
+    "is_tpk": false,
+    "total_hp": 186,
+    "total_hp_max": 270
+  },
+  "turn_log": [
+    {
+      "action": "damage",
+      "target": "Grimjaw Eisenfaust",
+      "amount": 4,
+      "hp_before": 72,
+      "hp_after": 68,
+      "alive": true
+    },
+    {
+      "action": "damage",
+      "target": "Grimjaw Eisenfaust",
+      "amount": 3,
+      "hp_before": 68,
+      "hp_after": 65,
+      "alive": true
+    },
+    {
+      "action": "damage",
+      "target": "Sir Kael Zornesklinge",
+      "amount": 5,
+      "hp_before": 54,
+      "hp_after": 49,
+      "alive": true
+    },
+    {
+      "action": "damage",
+      "target": "Sir Kael Zornesklinge",
+      "amount": 4,
+      "hp_before": 49,
+      "hp_after": 45,
+      "alive": true
+    },
+    {
+      "action": "damage",
+      "target": "Grimjaw Eisenfaust",
+      "amount": 3,
+      "hp_before": 65,
+      "hp_after": 62,
+      "alive": true
+    },
+    {
+      "action": "damage",
+      "target": "Sir Kael Zornesklinge",
+      "amount": 4,
+      "hp_before": 45,
+      "hp_after": 41,
+      "alive": true
+    },
+    {
+      "action": "spell_used",
+      "caster": "Bruder Mordain",
+      "spell": "Bless",
+      "level": 1,
+      "remaining": 4
+    },
+    {
+      "action": "spell_used",
+      "caster": "Pyra Flammenherz",
+      "spell": "Fireball",
+      "level": 3,
+      "remaining": 1
+    },
+    {
+      "action": "spell_used",
+      "caster": "Pyra Flammenherz",
+      "spell": "Magic Missile",
+      "level": 1,
+      "remaining": 3
+    },
+    {
+      "action": "xp_gain",
+      "amount": 260,
+      "per_member": 43,
+      "alive_count": 6
+    },
+    {
+      "action": "damage",
+      "target": "Grimjaw Eisenfaust",
+      "amount": 4,
+      "hp_before": 62,
+      "hp_after": 58,
+      "alive": true
+    },
+    {
+      "action": "damage",
+      "target": "Sir Kael Zornesklinge",
+      "amount": 3,
+      "hp_before": 41,
+      "hp_after": 38,
+      "alive": true
+    },
+    {
+      "action": "damage",
+      "target": "Grimjaw Eisenfaust",
+      "amount": 5,
+      "hp_before": 58,
+      "hp_after": 53,
+      "alive": true
+    },
+    {
+      "action": "spell_used",
+      "caster": "Pyra Flammenherz",
+      "spell": "Lightning Bolt",
+      "level": 3,
+      "remaining": 0
+    },
+    {
+      "action": "spell_used",
+      "caster": "Bruder Mordain",
+      "spell": "Bless",
+      "level": 1,
+      "remaining": 3
+    },
+    {
+      "action": "spell_used",
+      "caster": "Pyra Flammenherz",
+      "spell": "Magic Missile",
+      "level": 1,
+      "remaining": 2
+    },
+    {
+      "action": "xp_gain",
+      "amount": 65,
+      "per_member": 10,
+      "alive_count": 6
+    },
+    {
+      "action": "damage",
+      "target": "Grimjaw Eisenfaust",
+      "amount": 6,
+      "hp_before": 53,
+      "hp_after": 47,
+      "alive": true
+    },
+    {
+      "action": "damage",
+      "target": "Sir Kael Zornesklinge",
+      "amount": 7,
+      "hp_before": 38,
+      "hp_after": 31,
+      "alive": true
+    },
+    {
+      "action": "damage",
+      "target": "Bruder Mordain",
+      "amount": 5,
+      "hp_before": 42,
+      "hp_after": 37,
+      "alive": true
+    },
+    {
+      "action": "damage",
+      "target": "Grimjaw Eisenfaust",
+      "amount": 5,
+      "hp_before": 47,
+      "hp_after": 42,
+      "alive": true
+    },
+    {
+      "action": "damage",
+      "target": "Sir Kael Zornesklinge",
+      "amount": 6,
+      "hp_before": 31,
+      "hp_after": 25,
+      "alive": true
+    },
+    {
+      "action": "damage",
+      "target": "Bruder Mordain",
+      "amount": 4,
+      "hp_before": 37,
+      "hp_after": 33,
+      "alive": true
+    },
+    {
+      "action": "spell_used",
+      "caster": "Pyra Flammenherz",
+      "spell": "Magic Missile",
+      "level": 1,
+      "remaining": 1
+    },
+    {
+      "action": "spell_used",
+      "caster": "Bruder Mordain",
+      "spell": "Prayer",
+      "level": 3,
+      "remaining": 2
+    },
+    {
+      "action": "spell_used",
+      "caster": "Pyra Flammenherz",
+      "spell": "Burning Hands",
+      "level": 1,
+      "remaining": 0
+    },
+    {
+      "action": "xp_gain",
+      "amount": 260,
+      "per_member": 43,
+      "alive_count": 6
+    },
+    {
+      "action": "damage",
+      "target": "Grimjaw Eisenfaust",
+      "amount": 4,
+      "hp_before": 42,
+      "hp_after": 38,
+      "alive": true
+    },
+    {
+      "action": "damage",
+      "target": "Sir Kael Zornesklinge",
+      "amount": 5,
+      "hp_before": 25,
+      "hp_after": 20,
+      "alive": true
+    },
+    {
+      "action": "damage",
+      "target": "Grimjaw Eisenfaust",
+      "amount": 3,
+      "hp_before": 38,
+      "hp_after": 35,
+      "alive": true
+    },
+    {
+      "action": "damage",
+      "target": "Sir Kael Zornesklinge",
+      "amount": 4,
+      "hp_before": 20,
+      "hp_after": 16,
+      "alive": true
+    },
+    {
+      "action": "spell_used",
+      "caster": "Bruder Mordain",
+      "spell": "Bless",
+      "level": 1,
+      "remaining": 2
+    },
+    {
+      "action": "xp_gain",
+      "amount": 260,
+      "per_member": 43,
+      "alive_count": 6
+    }
+  ]
+}

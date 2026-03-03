@@ -1,0 +1,133 @@
+{
+  "module": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "case_id": 2,
+  "case_name": "investigation",
+  "expected_tags": {
+    "PROBE": 3,
+    "FERTIGKEIT_GENUTZT": 1,
+    "FAKT": 1
+  },
+  "total_turns": 5,
+  "total_latency_ms": 17925.525500009826,
+  "avg_latency_ms": 3585.105100001965,
+  "avg_response_chars": 416.2,
+  "avg_sentences": 5.2,
+  "total_probes": 2,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich nehme den Auftrag an und gehe ins Zeitungsarchiv.",
+      "keeper_response": "Ein Nicken von Mr. Knott besiegelt das Geschaeft. Dein Weg fuehrt dich zum staubigen Zeitungsarchiv. Der Geruch alten Papiers umfaengt dich. Was moechtest du hier finden?\n[ZEIT_VERGEHT: 0.5h]\n[TAGESZEIT: 08:30]\n[AKTUELLE_LOCATION: Zeitungsarchiv]\n[PROBE: Bibliotheksnutzung | 50]",
+      "response_chars": 279,
+      "response_sentences": 5,
+      "latency_ms": 11190.825799996674,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT",
+        "TAGESZEIT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich recherchiere alte Berichte ueber das Corbitt-Haus.",
+      "keeper_response": "Die Archivarin mustert dich kurz. Ihre Augen wandern zu den unendlichen Reihen der Mikrofilme. Du suchst nach Hinweisen auf seltsame Vorfaelle. Alte Zeitungen offenbaren schnell die ersten faulen Fruechte. Ein Bericht ueber Walter Corbitt.\n[INVENTAR: Arkham Advertiser: 'Bizarre Theft at Miskatonic Exhibit' | gefunden]\n[INVENTAR: Arkham Advertiser: 'Sailors Vanish from Docks' | gefunden]\n[INVENTAR: Arkham Advertiser: 'Strange Lights Over Sentinel Hill' | gefunden]\n[ZEIT_VERGEHT: 2h]\n[TAGESZEIT: 10:30]\n[FAKT: {\"zeitungsarchiv_durchsucht\": true}]\n[FERTIGKEIT_GENUTZT: Bibliotheksnutzung]\nWas tust du mit diesen Funden?",
+      "response_chars": 621,
+      "response_sentences": 6,
+      "latency_ms": 730.471300004865,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "INVENTAR",
+        "ZEIT_VERGEHT",
+        "TAGESZEIT",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 3,
+      "time_changes": 2,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich pruefe die Sterberegister nach Walter Corbitt.",
+      "keeper_response": "Du tauchst tief in die staubigen Ordner ein. Jahrzehnte alte Zeitungen gleiten durch deine Finger. Mehrere Artikel beschreiben ungewoehnliche Vorfaelle im Corbitt-Haus. Sie sprechen von ploetzlichen Unfaellen und seltsamen Todesfaellen. All das geschah ueber einen sehr langen Zeitraum.\n[FAKT: {\"zeitungs_unfaelle_gefunden\": true}]\n[ZEIT_VERGEHT: 1h]\n[TAGESZEIT: 09:30]\n[FERTIGKEIT_GENUTZT: Bibliotheksnutzung]\nWas tust du als Nächstes?",
+      "response_chars": 436,
+      "response_sentences": 6,
+      "latency_ms": 3051.4959000065573,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT",
+        "TAGESZEIT",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich untersuche die Kirchenakten auf Hinweise.",
+      "keeper_response": "Du verlaesst das Archiv, die Schwere der alten Nachrichten haftet dir an. Dein Weg fuehrt dich nun zum Hall of Records. Dort herrschen Kaelte und der Geruch von Papier und Stempelfarbe. Eine ernste Beamtin blickt dich fragend an.\n[ZEIT_VERGEHT: 0.5h]\n[TAGESZEIT: 09:30]\n[AKTUELLE_LOCATION: Hall of Records]\n[FAKT: {\"zeitung_corbitt_gefunden\": true}]\n[PROBE: Recht | 40]",
+      "response_chars": 369,
+      "response_sentences": 4,
+      "latency_ms": 1717.4299000034807,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT",
+        "TAGESZEIT",
+        "FAKT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich betrete das Corbitt-Haus und schaue mich im Erdgeschoss um.",
+      "keeper_response": "Die Beamtin nickt wortlos, als du deinen Antrag vorlegst. Ihre Miene bleibt undurchdringlich. Nach kurzer Zeit uebergibt sie dir das Sterberegister. Walter Corbitt wurde nicht auf geweihtem Boden bestattet. Was tust du mit dieser ungewoehnlichen Information?\n[ZEIT_VERGEHT: 0.5h]\n[TAGESZEIT: 10:00]\n[FAKT: {\"sterberegister_corbitt_gefunden\": true}]\n[FERTIGKEIT_GENUTZT: Recht]",
+      "response_chars": 376,
+      "response_sentences": 5,
+      "latency_ms": 1235.3025999982492,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT",
+        "TAGESZEIT",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

@@ -37,13 +37,10 @@
       "components": "S, M",
       "duration": "Special",
       "casting_time": "2",
-      "area_of_effect": "%foot cube",
-      "saving_throw": null,
-      "description_excerpt": "SavingThrow: Neg. When this spell is cast, the wizard Creates a weaving, twisting pattern of subtle colors in the air. This pattern causes any creature looking at it to become fascinated and stand gazing at it as long as the spellcaster main tains the display, plus two rounds there after. The spell can captivate a maximum o 24 levels, or Hit Dice, of creatures (e.g., 21 creatures with 1 Hit Die each, 12 with 2 Hii Dice, etc). All creatures affected must bc within the area of effect, and each is entitlec to a saving throw vs. spell. A damage inflicting attack on an affected creature fre it from the spell immediately. The mage need not utter a sound, but he must gesture appropriately while holding a glowing stick of incense or a crystal rod filled with phosphorescent material."
+      "area_of_effect": "30-foot cube",
+      "saving_throw": "Neg.",
+      "description_excerpt": "SavingThrow: Neg. When this spell is cast, the wizard Creates a weaving, twisting pattern of subtle colors in the air. This pattern causes any creature looking at it to become fascinated and stand gazing at it as long as the spellcaster main tains the display, plus two rounds there after. The spell can captivate a maximum o 24 levels, or Hit Dice, of creatures (e.g., 21 creatures with 1 Hit Die each, 12 with 2 Hii Dice, etc). All creatures affected must bc within the area of effect, and each is entitlec to a saving throw vs. spell. A damage inflicting attack on an affected creature fre it from the spell immediately. The mage need not utter a sound, but he must gesture appropriately while holding a glowing stick of incense or a crystal rod filled with phosphorescent material. [Beschreibung unvollstaendig — siehe PHB]"
     },
-    "quality_flags": [
-      "missing_standard_fields",
-      "trimmed_merged_block"
-    ]
+    "quality_flags": []
   }
 }

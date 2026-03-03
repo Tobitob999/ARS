@@ -1,0 +1,125 @@
+{
+  "module": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "case_id": 2,
+  "case_name": "investigation",
+  "expected_tags": {
+    "PROBE": 3,
+    "FERTIGKEIT_GENUTZT": 1,
+    "FAKT": 1
+  },
+  "total_turns": 5,
+  "total_latency_ms": 5613.42830000649,
+  "avg_latency_ms": 1122.685660001298,
+  "avg_response_chars": 317.6,
+  "avg_sentences": 5.4,
+  "total_probes": 2,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich nehme den Auftrag an und gehe ins Zeitungsarchiv.",
+      "keeper_response": "Ihre Entscheidung ist getroffen. Mr. Knott nickt zufrieden, seine Miene bleibt ernst. Er schiebt Ihnen einen Umschlag zu. Dann stehen Sie wieder auf Bostons Strassen.\n\nDer Weg fuehrt Sie ins staedtische Zeitungsarchiv. Ein Ort der vergessenen Nachrichten. Der Geruch von altem Papier liegt schwer in der Luft.\n\nWas tun Sie als Erstes in diesem Archiv?\n[ZEIT_VERGEHT: 0.5h]\n[AKTUELLER_ORT: Zeitungsarchiv]\n[FAKT: {\"auftrag_angenommen\": true}]",
+      "response_chars": 441,
+      "response_sentences": 9,
+      "latency_ms": 1655.932000001485,
+      "tags_found": [
+        "ZEIT_VERGEHT",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich recherchiere alte Berichte ueber das Corbitt-Haus.",
+      "keeper_response": "Die muffige Luft des Archivs umfängt Sie. Reihen alter Zeitungsbaende warten auf Ihre Aufmerksamkeit. Der Geruch von Staub und vergilbtem Papier liegt schwer in der Nase.\n\nSie beginnen Ihre Suche nach Erwähnungen des Corbitt-Hauses. [PROBE: Bibliotheksnutzung | 55]\n[ZEIT_VERGEHT: 1h]",
+      "response_chars": 284,
+      "response_sentences": 4,
+      "latency_ms": 1814.5642000017688,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich pruefe die Sterberegister nach Walter Corbitt.",
+      "keeper_response": "Sie wühlen sich durch die Jahrgänge. Namen und Daten verschwimmen vor Ihren Augen. Nichts Spezifisches zum Corbitt-Haus will sich finden lassen.\n\nDer alte Band rutscht Ihnen aus den Händen. Was tun Sie als Nächstes? [FERTIGKEIT_GENUTZT: Bibliotheksnutzung]\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 277,
+      "response_sentences": 5,
+      "latency_ms": 420.95010000048205,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich untersuche die Kirchenakten auf Hinweise.",
+      "keeper_response": "Sie lassen die Archive hinter sich. Ein Taxi bringt Sie zum Hall of Records. Das Gebäude strahlt eine kühle, formale Atmosphäre aus.\n\nEin Beamter sitzt hinter einem Schalter. Sie müssen ihn überzeugen, die Sterberegister einzusehen. [PROBE: Recht | 40]\n[AKTUELLER_ORT: Hall of Records]\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 306,
+      "response_sentences": 5,
+      "latency_ms": 977.0764000058989,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich betrete das Corbitt-Haus und schaue mich im Erdgeschoss um.",
+      "keeper_response": "[STIMME:scholar] \"Nun gut\", brummt der Beamte. Sein Blick mustert Sie skeptisch. Er schiebt Ihnen ein verstaubtes Register zu.\n\nSie finden den Eintrag zu Walter Corbitt. [FAKT: {\"sterberegister_corbitt\": true}]\n[ZEIT_VERGEHT: 0.5h]\n[INVENTAR: Grundbuchauszuege-Buendel | gefunden]",
+      "response_chars": 280,
+      "response_sentences": 4,
+      "latency_ms": 744.905599996855,
+      "tags_found": [
+        "INVENTAR",
+        "ZEIT_VERGEHT",
+        "FAKT",
+        "STIMME"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 1,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

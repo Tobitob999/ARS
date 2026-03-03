@@ -1,0 +1,124 @@
+{
+  "module": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "case_id": 2,
+  "case_name": "investigation",
+  "expected_tags": {
+    "PROBE": 3,
+    "FERTIGKEIT_GENUTZT": 1,
+    "FAKT": 1
+  },
+  "total_turns": 5,
+  "total_latency_ms": 9475.950899992313,
+  "avg_latency_ms": 1895.1901799984626,
+  "avg_response_chars": 294.2,
+  "avg_sentences": 5.4,
+  "total_probes": 2,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich nehme den Auftrag an und gehe ins Zeitungsarchiv.",
+      "keeper_response": "Mr. Knott nickt befriedigt. [STIMME:scholar] \"Diskretion ist Gold wert. Ich erwarte Ergebnisse.\" [STIMME:keeper] Seine Augen mustern Sie kurz.\n\nDie Strassen von Boston erwachen langsam. Sie erreichen bald das Zeitungsarchiv. Dort liegt ein schwerer Geruch nach altem Papier und Staub in der Luft.\n\nWas suchen Sie in den Archiven? [ZEIT_VERGEHT: 0.5h]\n[FAKT: {\"auftrag_angenommen\": true}]",
+      "response_chars": 387,
+      "response_sentences": 8,
+      "latency_ms": 2462.662199999613,
+      "tags_found": [
+        "ZEIT_VERGEHT",
+        "FAKT",
+        "STIMME"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich recherchiere alte Berichte ueber das Corbitt-Haus.",
+      "keeper_response": "Der Geruch von altem Papier und Druckerschwärze umfängt Sie. Reihen über Reihen, Jahrgänge in endlosen Bänden. Sie müssen sich durch Berge von Geschichte graben. [ZEIT_VERGEHT: 1h]\n[PROBE: Bibliotheksnutzung | 55]",
+      "response_chars": 213,
+      "response_sentences": 3,
+      "latency_ms": 3169.9984000006225,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich pruefe die Sterberegister nach Walter Corbitt.",
+      "keeper_response": "Sie finden eine Reihe von Artikeln. Immer wieder taucht die Adresse 20 Sheafe Street auf. Es sind Berichte über seltsame Unfälle.\n\nMieter flohen nach nur wenigen Wochen. Sie berichteten von lauten Geräuschen und wandernden Schatten. [ZEIT_VERGEHT: 1h]\n[FAKT: {\"zeitung_unfaelle\": true}]\n[FERTIGKEIT_GENUTZT: Bibliotheksnutzung]\nWas tun Sie als Nächstes?",
+      "response_chars": 353,
+      "response_sentences": 6,
+      "latency_ms": 859.5015999962925,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich untersuche die Kirchenakten auf Hinweise.",
+      "keeper_response": "Sie verlassen das Archiv und begeben sich zum Hall of Records. Die Luft wird kühler, riecht nach Stempelkissen und Formalitäten. Überall stapeln sich Akten.\n\nEine strenge Beamtin blickt Sie misstrauisch an. Sie müssen Zugang zu den Sterberegistern erhalten. [ZEIT_VERGEHT: 0.5h]\n[PROBE: Recht | 40]",
+      "response_chars": 298,
+      "response_sentences": 5,
+      "latency_ms": 1405.6259999997565,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich betrete das Corbitt-Haus und schaue mich im Erdgeschoss um.",
+      "keeper_response": "Die Beamtin schüttelt den Kopf. Sie verweist auf strenge Datenschutzbestimmungen. Ohne triftigen Grund gibt es keine Einsicht.\n\nIhre Anfrage wird förmlich abgelehnt. Was unternehmen Sie als Nächstes? [ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 220,
+      "response_sentences": 5,
+      "latency_ms": 1578.162699996028,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

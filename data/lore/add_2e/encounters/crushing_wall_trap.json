@@ -1,7 +1,23 @@
 {
-    "id":  "crushing_wall_trap",
-    "module_type":  "trap",
-    "trigger_condition":  "Pulling trapped lever",
-    "damage":  "4d4",
-    "saving_throw":  "vs. Petrification/Polymorph for half"
+    "id": "crushing_wall_trap",
+    "module_type": "trap",
+    "trigger_condition": "Pulling trapped lever",
+    "damage": "4d4",
+    "saving_throw": "vs. Petrification/Polymorph for half",
+    "description": "Ein massiver Steinblock, perfekt in einen Wandschlitz eingepasst, schießt mit hydraulischem Knall hervor, sobald ein bestimmter Hebel betätigt wird. Das Mauerwerk auf der gegenüberliegenden Seite zeigt blutbraune Verfärbungen und flache Abdrücke — Zeugnisse früherer Opfer. Wer zwischen den Wänden steht, hat nur den Bruchteil einer Sekunde, um zur Seite zu springen.",
+    "monsters": [],
+    "tactics": "N/A — Falle trifft alle Charaktere, die sich in dem 10 Fuß langen Korriderabschnitt zwischen den Wänden befinden. Charaktere am Rand (Randzone 5 Fuß) erhalten +2 auf den Rettungswurf.",
+    "environment": "T-förmige Kreuzung oder Schatzkammerzugang; der Hebel sitzt an der Wand gegenüber einer Nische. Blutspuren und zerschmettertes Bein-Knochen-Relic auf dem Boden vor dem Schlitz.",
+    "difficulty": "hard",
+    "loot": [],
+    "cr_equivalent": "3-6",
+    "disarm_dc": "Entdecken: Geradlinige Risse im Mauerwerk und Hebel-Draht (Suche, 1-in-6; Diebe: Fallen suchen); Entschärfen: Hebel blockieren (STR 15+, Eisenkeil einschlagen), 1 Runde Arbeit; alternativ langen Stock benutzen und aus sicherer Distanz auslösen",
+    "trap_details": {
+        "type": "mechanisch/hydraulisch",
+        "trigger": "Hebel um mehr als 45 Grad ziehen oder drücken",
+        "area_of_effect": "Rechteck 5 Fuß breit x 10 Fuß lang (gesamter Korriderabschnitt zwischen Wänden)",
+        "detection": "Risse und Blutspuren geben +2 auf Suche. Zwerg: automatisch Mechanismus spüren (1-2/6)",
+        "reset": "Automatischer Reset nach 1 Runde (Hydraulik zieht Wand zurück); kann erneut ausgelöst werden",
+        "stuck_condition": "Auf W6 von 1-2: Wand bleibt geöffnet stecken — Passage dauerhaft blockiert oder dauerhaft offen"
+    }
 }

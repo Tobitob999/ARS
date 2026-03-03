@@ -1,7 +1,7 @@
 {
   "schema_version": "1.2.1",
-  "id": "emdquake",
-  "name": "Emdquake",
+  "id": "earthquake",
+  "name": "Earthquake",
   "compatible_rulesets": [
     "add_2e"
   ],
@@ -12,7 +12,7 @@
     "player_handbook",
     "appendix_conversion"
   ],
-  "summary": "Emdquake (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "summary": "Earthquake (Alteration) aus dem AD&D 2e Player's Handbook.",
   "source_text": {
     "book": "Player's Handbook (2nd Edition)",
     "appendix": 4,
@@ -30,8 +30,8 @@
     "school_or_type": "Alteration",
     "parser": "header_block_v3_1",
     "spell_card": {
-      "name": "Emdquake",
-      "canonical_name_guess": "Earthquake",
+      "name": "Earthquake",
+      "canonical_name_guess": null,
       "school_or_type": "Alteration",
       "range": "120 yards",
       "components": "V, S, M",
@@ -41,8 +41,6 @@
       "saving_throw": "None",
       "description_excerpt": "When this spell is employed, the priest confronts some powerful creature from an- other plane (including devas and other pow- erful minions, for instance, but not demigods or deities of any sort) and requires . of it some duty or quest. A creature of an alignment opposed to the priest (e.g., evil if the priest is good, chaotic if the priest is law- ful) cannot be ordered around unless it is willing. Note that an absolute (true) neutral creature is effectively opposed to both good and evil, and both law and chaos. Earthquake Effects: TERRAIN Cave or cavern Cliffs Ground Marsh Tunnel VEGETATION Small growth Trees STRUCTURES CREATURES __ See 'TERRAIN\" entry -Collapses roof -Crumble, causing landslide -Cracks open, causing the following tractions of creatures to fall in and die: -Size S: 1 in 4 -Size M: 1 in 6 -Size L: 1 in 8 -Drains water off to form muddy, rough ground. -Caves in -NO effec"
     },
-    "quality_flags": [
-      "canonical_name_guess_applied"
-    ]
+    "quality_flags": []
   }
 }

@@ -1,0 +1,49 @@
+{
+  "module": "cthulhu_7e",
+  "session_id": 208,
+  "total_turns": 3,
+  "total_latency_ms": 27081.9,
+  "avg_latency_ms": 9027.3,
+  "avg_response_chars": 386.0,
+  "total_probes": 2,
+  "total_combat_tags": 0,
+  "total_rules_warnings": 0,
+  "turns": [
+    {
+      "turn": 1,
+      "latency_ms": 20490.9,
+      "response_chars": 635,
+      "probes": 0,
+      "combat_tags": 0,
+      "stat_changes": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": 0
+    },
+    {
+      "turn": 2,
+      "latency_ms": 4619.1,
+      "response_chars": 245,
+      "probes": 1,
+      "combat_tags": 0,
+      "stat_changes": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": 0
+    },
+    {
+      "turn": 3,
+      "latency_ms": 1971.9,
+      "response_chars": 278,
+      "probes": 1,
+      "combat_tags": 0,
+      "stat_changes": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": 0
+    }
+  ]
+}

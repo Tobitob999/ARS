@@ -1,0 +1,123 @@
+{
+  "module": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "case_id": 2,
+  "case_name": "investigation",
+  "expected_tags": {
+    "PROBE": 3,
+    "FERTIGKEIT_GENUTZT": 1,
+    "FAKT": 1
+  },
+  "total_turns": 5,
+  "total_latency_ms": 6640.826600014407,
+  "avg_latency_ms": 1328.1653200028813,
+  "avg_response_chars": 310.6,
+  "avg_sentences": 5.4,
+  "total_probes": 2,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich nehme den Auftrag an und gehe ins Zeitungsarchiv.",
+      "keeper_response": "Ein kurzes Nicken von Knott bestaetigt den Handel. Seine Lippen formen ein stilles \"Diskretion\". Der Fall ist Ihr.\n\nSie verlassen sein trockenes Büro. Die Schritte fuehren Sie in die Ruehe des Zeitungsarchivs. Staub und altes Papier liegen in der Luft.\n\nDie schweren Regale wirken wie Gräber alter Nachrichten. Was suchen Sie hier?\n\n[FAKT: {\"auftrag_angenommen\": true}]\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 390,
+      "response_sentences": 8,
+      "latency_ms": 1646.3723999986541,
+      "tags_found": [
+        "ZEIT_VERGEHT",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich recherchiere alte Berichte ueber das Corbitt-Haus.",
+      "keeper_response": "Das Zeitungsarchiv empfaengt Sie mit dem Geruch von altem Papier und Staub. Reihen von Regalen erheben sich hoch. Sie suchen nach Berichten ueber die Sheafe Street 20. [PROBE: Bibliotheksnutzung | 55]\n[ZEIT_VERGEHT: 1h]",
+      "response_chars": 219,
+      "response_sentences": 3,
+      "latency_ms": 1674.3362000052002,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich pruefe die Sterberegister nach Walter Corbitt.",
+      "keeper_response": "Ihre Suche ist muehsam. Die alten Zeitungen sind schlecht katalogisiert. Viele Seiten fehlen, andere sind zerfallen.\n\nSie finden nur vereinzelte, unzusammenhaengende Meldungen. Nichts scheint direkt mit dem Corbitt-Haus zu tun zu haben. Was tun Sie?\n[FERTIGKEIT_GENUTZT: Bibliotheksnutzung]\n[ZEIT_VERGEHT: 1h]",
+      "response_chars": 309,
+      "response_sentences": 6,
+      "latency_ms": 1821.2831000055303,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich untersuche die Kirchenakten auf Hinweise.",
+      "keeper_response": "Das Zeitungsarchiv gibt Ihnen keine Antworten. Ihre Schritte fuehren Sie nun zum Hall of Records. Die Luft dort ist kuehl und riecht nach Papier und Stempelkissen.\n\nSie wollen Walter Corbitts Sterbeeintrag finden. Das wird nicht leicht sein, bei den alten Aufzeichnungen. [PROBE: Recht | 50]\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 312,
+      "response_sentences": 5,
+      "latency_ms": 916.6330000007292,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich betrete das Corbitt-Haus und schaue mich im Erdgeschoss um.",
+      "keeper_response": "Die Beamtin hinter dem Schalter blickt Sie misstrauisch an. Die Suche nach alten Registern ist ein Labyrinth. Nach langer Wartezeit uebergibt sie Ihnen eine zerschlissene Mappe.\n\nSie finden keinen direkten Eintrag fuer Walter Corbitt. Nur eine Randnotiz in einem anderen Fall. [FERTIGKEIT_GENUTZT: Recht]\n[ZEIT_VERGEHT: 1h]",
+      "response_chars": 323,
+      "response_sentences": 5,
+      "latency_ms": 582.2019000042928,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

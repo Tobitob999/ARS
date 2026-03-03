@@ -88,6 +88,8 @@ class TechGUI:
         from gui.tab_responder import ResponderTab
         from gui.tab_conversion_monitor import ConversionMonitorTab
         from gui.tab_test_monitor import TestMonitorTab
+        from gui.tab_party_monitor import PartyMonitorTab
+        from gui.tab_dungeon_view import DungeonViewTab
 
         self.tab_session = SessionTab(self.notebook, self)
         self.tab_game = GameTab(self.notebook, self)
@@ -99,6 +101,8 @@ class TechGUI:
         self.tab_gamestate = GameStateTab(self.notebook, self)
         self.tab_conversion = ConversionMonitorTab(self.notebook, self)
         self.tab_test_monitor = TestMonitorTab(self.notebook, self)
+        self.tab_party_monitor = PartyMonitorTab(self.notebook, self)
+        self.tab_dungeon = DungeonViewTab(self.notebook, self)
 
         self.notebook.add(self.tab_session, text="  Session Setup  ")
         self.notebook.add(self.tab_game, text="  Game  ")
@@ -110,6 +114,8 @@ class TechGUI:
         self.notebook.add(self.tab_gamestate, text="  Spielstand  ")
         self.notebook.add(self.tab_conversion, text="  Conversion  ")
         self.notebook.add(self.tab_test_monitor, text="  Test-Monitor  ")
+        self.notebook.add(self.tab_party_monitor, text="  Party-Monitor  ")
+        self.notebook.add(self.tab_dungeon, text="  Dungeon  ")
 
         # Statusleiste
         self.status_bar = StatusBar(self.root)
@@ -206,8 +212,13 @@ class TechGUI:
             self.tab_gamestate.on_engine_ready()
             self.tab_conversion.on_engine_ready()
             self.tab_test_monitor.on_engine_ready()
-            # Zum Game-Tab wechseln
-            self.notebook.select(self.tab_game)
+            self.tab_party_monitor.on_engine_ready()
+            self.tab_dungeon.on_engine_ready()
+            # Zum Game-Tab wechseln (oder Party-Monitor wenn Party-Modus aktiv)
+            if getattr(self.engine, "party_state", None):
+                self.notebook.select(self.tab_party_monitor)
+            else:
+                self.notebook.select(self.tab_game)
             return
 
         if event == "techgui.engine_error":
@@ -230,6 +241,8 @@ class TechGUI:
         self.tab_gamestate.handle_event(data)
         self.tab_conversion.handle_event(data)
         self.tab_test_monitor.handle_event(data)
+        self.tab_party_monitor.handle_event(data)
+        self.tab_dungeon.handle_event(data)
 
     # ── Mausrad ──
 

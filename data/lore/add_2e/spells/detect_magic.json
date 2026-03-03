@@ -34,15 +34,13 @@
       "canonical_name_guess": null,
       "school_or_type": "Divination",
       "range": "30 yards",
-      "components": null,
+      "components": "V, S, M",
       "duration": "1 turn",
       "casting_time": "1 round",
       "area_of_effect": "10-foot path",
       "saving_throw": "None",
-      "description_excerpt": "When the detect magic ate, strong, overwhelming). The caster has a 10% chance per level to determine the sphere of the magic, but unlike the wiwd thickness, solid metal of holy symbol."
+      "description_excerpt": "When the detect magic spell is cast, the caster detects magical radiations in a path 10 feet wide and up to 30 yards long. The intensity of the magic can also be determined (dim, faint, moderate, strong, overwhelming). [Beschreibung unvollstaendig — siehe PHB p.199]"
     },
-    "quality_flags": [
-      "missing_standard_fields"
-    ]
+    "quality_flags": []
   }
 }

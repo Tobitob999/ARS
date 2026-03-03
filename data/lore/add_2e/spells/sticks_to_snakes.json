@@ -35,14 +35,12 @@
       "school_or_type": "Alteration",
       "range": "30 yards",
       "components": "V, S, M",
-      "duration": null,
+      "duration": "2 rounds/level",
       "casting_time": "7",
-      "area_of_effect": "ld4 sticks + 1 stxk/~evd in a",
+      "area_of_effect": "1d4 sticks + 1 stick/level in a 10-foot cube",
       "saving_throw": "None",
       "description_excerpt": "the sticks to snakes spell according to the level of the priest countering the spell (e.g., a 10th-level priest casting the reverse spell can turn 11-14 snakes back into sticks)."
     },
-    "quality_flags": [
-      "missing_standard_fields"
-    ]
+    "quality_flags": []
   }
 }

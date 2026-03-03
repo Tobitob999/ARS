@@ -1,8 +1,31 @@
 {
-    "id":  "prisoner_cell",
-    "module_type":  "event",
-    "trigger_condition":  "Unlocking rusted barred cell",
-    "damage":  "none",
-    "saving_throw":  "none",
-    "effect_description":  "Narrative dungeon dressing or encounter hook."
+    "id": "prisoner_cell",
+    "module_type": "event",
+    "trigger_condition": "Unlocking rusted barred cell",
+    "damage": "none",
+    "saving_throw": "none",
+    "effect_description": "In der Gefängniszelle wartet ein Gefangener — eine moralische Entscheidung: Retten und die langsame Gruppe riskieren? Und ist der Gefangene wirklich das Opfer?",
+    "description": "Hinter verrosteten Eisenstäben liegt eine in sich zusammengesunkene Gestalt: abgemagert, in Fetzen gekleidet, aber noch lebend. Als das Licht die Zelle erhellt, hebt der Gefangene den Kopf — Augen, die zu lange in Dunkelheit gestarrt haben, blinzeln schmerzhaft. Er flüstert etwas: seinen Namen, um Wasser, oder eine Warnung. Was er weiß, könnte wertvoller sein als alles Gold in diesem Dungeon.",
+    "monsters": [],
+    "tactics": "Kein Kampf (außer der Gefangene ist tatsächlich verkleideter Feind: W10 von 1 = Doppelagent). Der Gefangene verlangsamt die Gruppe um 50% Bewegungsrate bis er erholt ist (1 Stunde Rast, Nahrung und Wasser).",
+    "environment": "Zellenkorridor mit 1d3 Zellen, die meisten leer oder mit Skeletten. Aktive Zelle am Ende des Korridors. Schlechtes Licht (nur durch Gitteröffnung oben). Stroh auf dem Boden, verrostet Kette an der Wand.",
+    "difficulty": "easy",
+    "loot": [
+        {"item": "Gefangener als NSC-Verbündeter (Informationen über Dungeon, Schätze, Schwachstellen)", "value": "Unschätzbar"},
+        {"item": "Versteckt in Zellenwand (Gefangener weiß es): kleines Fach mit 3d6 SM und einer Goldmünze", "value": "3d6 SM + 1 GM"}
+    ],
+    "cr_equivalent": "1-5",
+    "special_rules": {
+        "cell_lock": "Verrostetes Gitterschloss: Dieb-Schlösserknacken -10% (Rost) oder STR 16+ für Gitter verbiegen (laut, 1 Runde) oder Schlüssel (Wachraum nahe)",
+        "prisoner_types": {
+            "w6_roll": {
+                "1": "Verkleideter Feind-Agent (angreift beim Freilassen auf Gelegenheit)",
+                "2-3": "Einfacher Bürger (kaum nützliche Infos; verlangsamt Gruppe)",
+                "4-5": "Früherer Abenteurer (kennt Dungeon-Layout bis Ebene 2; kann kämpfen wenn bewaffnet)",
+                "6": "Wichtige Person (Adeliger, Priester, Gelehrter — Belohnung beim Zurückbringen)"
+            }
+        },
+        "information_value": "Gefangener-Information: 1 konkrete Information über Dungeonraum oder Monster nach 1-stündiger Erholung und Gespräch",
+        "reward_potential": "Wichtige Person zurückgebracht: 2d4 x 100 GM Belohnung + Ansehen-Gewinn"
+    }
 }

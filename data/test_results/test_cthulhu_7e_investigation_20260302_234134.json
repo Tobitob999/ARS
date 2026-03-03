@@ -1,0 +1,122 @@
+{
+  "module": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "case_id": 2,
+  "case_name": "investigation",
+  "expected_tags": {
+    "PROBE": 3,
+    "FERTIGKEIT_GENUTZT": 1,
+    "FAKT": 1
+  },
+  "total_turns": 5,
+  "total_latency_ms": 16426.69219999516,
+  "avg_latency_ms": 3285.338439999032,
+  "avg_response_chars": 317.0,
+  "avg_sentences": 5.2,
+  "total_probes": 1,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich nehme den Auftrag an und gehe ins Zeitungsarchiv.",
+      "keeper_response": "Sie nicken Mr. Knott zu. Sein Blick ist kalt und geschäftlich. Draußen auf der Straße weht ein frischer Morgenwind. Sie steuern das Zeitungsarchiv in Downtown an.\n\nDort erwartet Sie ein Raum voller Geschichte. Der Geruch von altem Papier liegt schwer in der Luft. Hohe Holzregale gefüllt mit gebundenen Jahrgängen säumen die Wände. [ZEIT_VERGEHT: 0.5h]\n[FAKT: {\"auftrag_angenommen\": true}]\n[FAKT: {\"auftragsakte_gelesen\": true}]\nWas suchen Sie in diesen staubigen Archiven? [PROBE: Bibliotheksnutzung | 55]",
+      "response_chars": 506,
+      "response_sentences": 9,
+      "latency_ms": 3217.223200001172,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT",
+        "FAKT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 2,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich recherchiere alte Berichte ueber das Corbitt-Haus.",
+      "keeper_response": "Die staubige Luft des Archivs umfängt Sie, doch Ihre Augen sind scharf. Sie finden alte Artikel über die Sheafe Street 20. Berichte von seltsamen Unfällen wiederholen sich über Jahrzehnte. Ein Name sticht hervor: Walter Corbitt, der letzte Bewohner.\n\nWas tun Sie als Nächstes?\n[ZEIT_VERGEHT: 1h]\n[FAKT: {\"zeitung_corbitt_gefunden\": true}]\n[FAKT: {\"zeitung_unfaelle_gefunden\": true}]\n[FERTIGKEIT_GENUTZT: Bibliotheksnutzung]",
+      "response_chars": 423,
+      "response_sentences": 5,
+      "latency_ms": 4039.7245999993174,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 2,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich pruefe die Sterberegister nach Walter Corbitt.",
+      "keeper_response": "Sie vertiefen sich in die vergilbten Seiten. Ein wiederkehrendes Muster grausamer Unfälle wird sichtbar. Keine banale Ursache konnte je ermittelt werden. Was suchen Sie genau über Walter Corbitt?\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 216,
+      "response_sentences": 4,
+      "latency_ms": 4929.376499996579,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich untersuche die Kirchenakten auf Hinweise.",
+      "keeper_response": "Das Zeitungsarchiv birgt viele Geschichten. Offizielle Sterberegister finden sich dort aber selten. Diese Akten werden sorgfältig im Hall of Records verwahrt.\n\nMöchten Sie sich dorthin begeben?\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 214,
+      "response_sentences": 4,
+      "latency_ms": 2921.78640000202,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich betrete das Corbitt-Haus und schaue mich im Erdgeschoss um.",
+      "keeper_response": "Kirchenakten liegen selten in Zeitungsarchiven. Solche Dokumente werden oft in der Stadtverwaltung bewahrt. Manchmal findet man sie auch in Universitätsbibliotheken.\n\nMöchten Sie zum Hall of Records gehen?\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 226,
+      "response_sentences": 4,
+      "latency_ms": 1318.5814999960712,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

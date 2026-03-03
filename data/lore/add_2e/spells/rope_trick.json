@@ -38,11 +38,9 @@
       "duration": "2 turns/level",
       "casting_time": "2",
       "area_of_effect": "Special",
-      "saving_throw": null,
+      "saving_throw": "None",
       "description_excerpt": "Saving Throw. None When this spell is cast upon a piece of rope from five to 30 feet long, one end of the rope rises into the air until the whole hangs perpendicular, as if affixed at the upper end. The upper end is, in fact, fastened to an ex- tradimensional space. The spellcaster and up to seven others can climb up the rope and disappear into this place of safety where no creature can find them. The rope can be taken into the extradimensional space if fewer than eight persons have climbed it, otherwise it simply stays hanging in the air (extremely strong creatures might be able to remove it, at the DMs option). Spells can- not be cast across the interdimensional,in- terface, nor can area effects cross it. Those in the extradimensional space can see out of it as if there is a 3' x 5' window centered on the rope. The persons in the extradimen- sional space must climb down prior to the en"
     },
-    "quality_flags": [
-      "missing_standard_fields"
-    ]
+    "quality_flags": []
   }
 }

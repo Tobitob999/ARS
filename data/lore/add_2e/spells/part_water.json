@@ -41,10 +41,8 @@
       "casting_time": "1 turn",
       "area_of_effect": "Special",
       "saving_throw": "None",
-      "description_excerpt": "When this spell is cast, the wizard creates an illusion with visual, auditory, olfactory, and thermal elements. The spell can create the illusion of any object, creature, or force, as long as it is within the boundaries of the spell’s area of effect. It affects all creatures that view the illusion, even to the extent of them suffering damage from falling into an illusory pit full of sharp spikes. Creatures that attempt to disbelieve the illusion gain a saving throw vs. spell and, if successful, they see it for what it is and add +4 bonuses to associates’ saving throws, if this knowledge can be communicated effec- tively. Creatures not sensing the spell effect are immune until they become aware of it. The permanent illusion is subject to a dispel magic spell, of course. The material component of the spell is a bit of fleece."
+      "description_excerpt": "When this spell is cast, the wizard creates an illusion with visual, auditory, olfactory, and thermal elements. The spell can create the illusion of any object, creature, or force, as long as it is within the boundaries of the spell’s area of effect. It affects all creatures that view the illusion, even to the extent of them suffering damage from falling into an illusory pit full of sharp spikes. Creatures that attempt to disbelieve the illusion gain a saving throw vs. spell and, if successful, they see it for what it is and add +4 bonuses to associates’ saving throws, if this knowledge can be communicated effec- tively. Creatures not sensing the spell effect are immune until they become aware of it. The permanent illusion is subject to a dispel magic spell, of course. The material component of the spell is a bit of fleece. [Beschreibung unvollstaendig — siehe PHB]"
     },
-    "quality_flags": [
-      "trimmed_merged_block"
-    ]
+    "quality_flags": []
   }
 }

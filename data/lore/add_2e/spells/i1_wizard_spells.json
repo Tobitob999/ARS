@@ -1,18 +1,18 @@
 {
   "schema_version": "1.2.1",
   "id": "i1_wizard_spells",
-  "name": "I1 Wizard Spells",
+  "name": "[SEKTIONSHEADER] 3rd-Level Wizard Spells (Seite 150)",
   "compatible_rulesets": [
     "add_2e"
   ],
-  "category": "spell",
+  "category": "index_header",
   "tags": [
     "add_2e",
     "spell",
     "player_handbook",
     "appendix_conversion"
   ],
-  "summary": "I1 Wizard Spells (3rd Level) aus dem AD&D 2e Player's Handbook.",
+  "summary": "[KEIN ZAUBER] OCR-Sektionsheader: Seitenheader der 3rd-Level Wizard Spells. Enthält Fragment des Haste-Spells (Licorice root component). Kein eigenstaendiger Zauber.",
   "source_text": {
     "book": "Player's Handbook (2nd Edition)",
     "appendix": 3,
@@ -42,7 +42,7 @@
       "description_excerpt": "the recipient by one year, because of sped- up metabolic processes. This spell is not cu- mulative with itself or with other similar magic. Its material component is a shaving of lic- orice root."
     },
     "quality_flags": [
-      "missing_standard_fields"
+      "ocr_section_header_not_a_spell"
     ]
   }
 }

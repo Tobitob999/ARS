@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "ruleset": "add_2e",
+  "adventure": "crawltraining_full",
+  "party": "add_training_party",
+  "difficulty": "heroic",
+  "atmosphere": "Brutaler Dungeon-Crawl. Kein Erbarmen, kein Verhandeln, nur Kampf.",
+  "keeper_persona": "Aggressiver DM. JEDE Antwort MUSS [HP_VERLUST: Name | Zahl] enthalten — Monster TREFFEN die Spieler, IMMER. Tempo: Neuer Raum pro Antwort, nie stagnieren. Kein Smalltalk, nur Action. Beispiel: Der Ork trifft Grimjaw. [HP_VERLUST: Grimjaw Eisenfaust | 6]",
+  "language": "de",
+  "temperature": 0.7,
+  "rules_budget": 200000,
+  "lore_budget_pct": 80
+}

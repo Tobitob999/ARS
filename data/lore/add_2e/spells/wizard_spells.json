@@ -5,14 +5,14 @@
   "compatible_rulesets": [
     "add_2e"
   ],
-  "category": "spell",
+  "category": "index_header",
   "tags": [
     "add_2e",
     "spell",
     "player_handbook",
     "appendix_conversion"
   ],
-  "summary": "Wizard Spells (8th Level) aus dem AD&D 2e Player's Handbook.",
+  "summary": "[KEIN ZAUBER] OCR-Sektionsheader — enthaelt Tail-Fragment des Binding-Zaubers. Kein eigenstaendiger Spell.",
   "source_text": {
     "book": "Player's Handbook (2nd Edition)",
     "appendix": 3,
@@ -44,7 +44,7 @@
       "description_excerpt": "area from which it &mot wander by any means until freed. The spell remains until the magical hedge is somehow broken. Metamorphosis: Causes the subject to change to some noncorporeal form, save for its head or face. The binding is permanent until some prescribed act fr&s the subject. Minimus Containment: The subject is shrunken to a height of one inch or even less and held within the hedged prison of some gem or similar object. The subject of a mini- mus containment, metamorphosis, or hedged prison radiates a very faint aura of % type of binding does not modify the mvimg thmw for the chaining form of the @. Shwber allows the subject a +1 barn, bound slumber a +2 bonus, hedged lprvnr a +3 bonus, metamorphosis a +4 L d minimus containment a +5 bd-to the saving throw. However, if the djkt b magically weakened, the referee --a -1, -2,oreven -4penaltyto the saving throw. A successful saving t"
     },
     "quality_flags": [
-      "missing_standard_fields"
+      "ocr_section_header_not_a_spell"
     ]
   }
 }

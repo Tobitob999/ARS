@@ -57,6 +57,98 @@ RETTUNGSWURF_PATTERN = re.compile(
     re.IGNORECASE,
 )
 
+# ── Party-spezifische Tags (per-Character) ──────────────────────────────────
+# [HP_VERLUST: Thorin Eisenschild | 8]
+PARTY_HP_LOSS_PATTERN = re.compile(
+    r"\[HP_VERLUST:\s*([^\|]+)\|\s*(\d+)\s*\]",
+    re.IGNORECASE,
+)
+# [HP_HEILUNG: Bruder Aldhelm | 2d4+2]
+PARTY_HP_HEAL_PATTERN = re.compile(
+    r"\[HP_HEILUNG:\s*([^\|]+)\|\s*(\d+d\d+(?:\+\d+)?|\d+)\s*\]",
+    re.IGNORECASE,
+)
+# [ZAUBER_VERBRAUCHT: Elara | Fireball | 3]
+PARTY_SPELL_USED_PATTERN = re.compile(
+    r"\[ZAUBER_VERBRAUCHT:\s*([^\|]+)\|\s*([^\|]+)\|\s*(\d+)\s*\]",
+    re.IGNORECASE,
+)
+# [INVENTAR: Heiltrank | gefunden | Lyra]
+PARTY_INVENTAR_PATTERN = re.compile(
+    r"\[INVENTAR:\s*([^\|]+)\|\s*(gefunden|verloren|gekauft|verkauft)\s*\|\s*([^\]]+)\s*\]",
+    re.IGNORECASE,
+)
+# [PROBE: Fallen-Suchen | 45 | Lyra]
+PARTY_PROBE_PATTERN = re.compile(
+    r"\[PROBE:\s*([^\|]+)\|\s*(\d+)\s*\|\s*([^\]]+)\s*\]",
+    re.IGNORECASE,
+)
+# [ANGRIFF: Waffe | THAC0 | AC | Mod | CharName]
+PARTY_ANGRIFF_PATTERN = re.compile(
+    r"\[ANGRIFF:\s*([^\|]+)\|\s*(\d+)\s*\|\s*(-?\d+)\s*\|\s*([+-]?\d+)\s*\|\s*([^\]]+)\s*\]",
+    re.IGNORECASE,
+)
+
+
+def extract_party_stat_changes(text: str) -> list[tuple[str, ...]]:
+    """
+    Extrahiert alle party-spezifischen Tags aus dem KI-Antworttext.
+
+    Returns list of tuples. Format pro Tag-Typ:
+      ("HP_VERLUST", char_name, amount_str)
+      ("HP_HEILUNG", char_name, amount_str)
+      ("ZAUBER_VERBRAUCHT", char_name, spell_name, level_str)
+      ("INVENTAR", item_name, action, char_name)
+      ("PROBE", skill_name, target_str, char_name)
+      ("ANGRIFF", weapon, thac0, ac, mod, char_name)
+
+    Kompatibilitaet: Vorhandene Tags OHNE Pipe-getrennten Namen werden NICHT
+    erfasst — dafuer ist extract_stat_changes() zustaendig (Single-Char-Modus).
+    """
+    results: list[tuple[str, ...]] = []
+
+    for m in PARTY_HP_LOSS_PATTERN.finditer(text):
+        results.append(("HP_VERLUST", m.group(1).strip(), m.group(2).strip()))
+
+    for m in PARTY_HP_HEAL_PATTERN.finditer(text):
+        results.append(("HP_HEILUNG", m.group(1).strip(), m.group(2).strip()))
+
+    for m in PARTY_SPELL_USED_PATTERN.finditer(text):
+        results.append((
+            "ZAUBER_VERBRAUCHT",
+            m.group(1).strip(),
+            m.group(2).strip(),
+            m.group(3).strip(),
+        ))
+
+    for m in PARTY_INVENTAR_PATTERN.finditer(text):
+        results.append((
+            "INVENTAR",
+            m.group(1).strip(),
+            m.group(2).strip().lower(),
+            m.group(3).strip(),
+        ))
+
+    for m in PARTY_PROBE_PATTERN.finditer(text):
+        results.append((
+            "PROBE",
+            m.group(1).strip(),
+            m.group(2).strip(),
+            m.group(3).strip(),
+        ))
+
+    for m in PARTY_ANGRIFF_PATTERN.finditer(text):
+        results.append((
+            "ANGRIFF",
+            m.group(1).strip(),
+            m.group(2).strip(),
+            m.group(3).strip(),
+            m.group(4).strip(),
+            m.group(5).strip(),
+        ))
+
+    return results
+
 
 def extract_stat_changes(text: str) -> list[tuple[str, str]]:
     """

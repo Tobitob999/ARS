@@ -127,6 +127,7 @@ class GeminiBackend:
         keeper: dict[str, Any] | None = None,
         extras: list[dict[str, Any]] | None = None,
         character_template: dict[str, Any] | None = None,
+        party_members: list[dict[str, Any]] | None = None,
     ) -> None:
         self._ruleset = ruleset
         self._adventure = adventure
@@ -135,6 +136,7 @@ class GeminiBackend:
         self._keeper = keeper
         self._extras = extras or []
         self._character_template = character_template
+        self._party_members = party_members
         self._history: list[dict[str, str]] = []  # {"role": "user"|"assistant", "content": "..."}
         self._client = None
         self._cache_name: str | None = None        # Gemini Context Cache Name
@@ -158,7 +160,7 @@ class GeminiBackend:
         self._system_prompt = self._build_system_prompt()
         self._rules_cache_hash = self._compute_rules_hash()
         self._initialize_client()
-        self._initialize_cache()                   # Task 05: Context Caching versuchen
+        self._cache_dirty = True                    # Task 05: Cache lazy beim ersten API-Call
 
     # ------------------------------------------------------------------
     # Öffentliche API
@@ -244,6 +246,20 @@ class GeminiBackend:
         logger.debug("Würfelergebnis injiziert: %s", roll_msg)
         yield from self.chat_stream(roll_msg)
 
+    @property
+    def _effective_max_sentences(self) -> int:
+        """Max Prosa-Saetze: 15 im Party-Modus, 3 im Einzel-Modus."""
+        if self._party_members:
+            return 15
+        return MAX_NARRATIVE_SENTENCES
+
+    @property
+    def _effective_hard_truncate(self) -> int:
+        """Hard-Truncation Limit: 20 im Party-Modus, 5 im Einzel-Modus."""
+        if self._party_members:
+            return 20
+        return MAX_HARD_TRUNCATE_SENTENCES
+
     def _validate_response(self, response: str) -> None:
         """Prueft Monolog-Laenge und Hook-Zwang, speichert Feedback fuer naechsten Turn."""
         bus = EventBus.get()
@@ -259,13 +275,14 @@ class GeminiBackend:
         # Hook pruefen (Frage an Spieler oder PROBE-Tag)
         has_hook = bool(_HOOK_PATTERNS.search(response))
 
+        max_sentences = self._effective_max_sentences
         warnings: list[str] = []
 
-        if sentences > MAX_NARRATIVE_SENTENCES:
+        if sentences > max_sentences:
             fb = (
                 f"STIL-VERSTOSS: Du hast {sentences} Saetze geschrieben "
-                f"(Limit: {MAX_NARRATIVE_SENTENCES}). "
-                f"Kuerze deine naechste Antwort auf maximal {MAX_NARRATIVE_SENTENCES} Saetze."
+                f"(Limit: {max_sentences}). "
+                f"Kuerze deine naechste Antwort auf maximal {max_sentences} Saetze."
             )
             warnings.append(fb)
             self._pending_feedback.append(fb)
@@ -331,29 +348,31 @@ class GeminiBackend:
             sentence_end_positions.append(end_pos)
 
         num_sentences = len(sentence_end_positions)
+        max_soft = self._effective_max_sentences
+        max_hard = self._effective_hard_truncate
 
-        if num_sentences <= MAX_NARRATIVE_SENTENCES:
+        if num_sentences <= max_soft:
             # Kein Problem — gib unveraendert zurueck
             return response
 
-        if num_sentences <= MAX_HARD_TRUNCATE_SENTENCES:
+        if num_sentences <= max_hard:
             # Soft-Limit ueberschritten, aber noch im tolerierten Bereich
             logger.info(
                 "[MONOLOG-CHECK] Soft-Limit: %d Saetze (Limit: %d, Hard: %d).",
-                num_sentences, MAX_NARRATIVE_SENTENCES, MAX_HARD_TRUNCATE_SENTENCES,
+                num_sentences, max_soft, max_hard,
             )
             return response
 
-        # 4. Hard-Truncation: kuerze auf MAX_HARD_TRUNCATE_SENTENCES
-        cut_pos = sentence_end_positions[MAX_HARD_TRUNCATE_SENTENCES - 1]
+        # 4. Hard-Truncation: kuerze auf hard limit
+        cut_pos = sentence_end_positions[max_hard - 1]
         truncated_prose = prose[:cut_pos].rstrip()
         logger.warning(
             "[MONOLOG-TRUNCATION] Antwort hatte %d Saetze — hart auf %d gekuerzt.",
-            num_sentences, MAX_HARD_TRUNCATE_SENTENCES,
+            num_sentences, max_hard,
         )
         EventBus.get().emit("keeper", "response_truncated", {
             "original_sentences": num_sentences,
-            "truncated_to": MAX_HARD_TRUNCATE_SENTENCES,
+            "truncated_to": max_hard,
         })
 
         # 5. Trailing-Tags wieder anhaengen
@@ -389,7 +408,7 @@ class GeminiBackend:
         if new_hash != self._rules_cache_hash:
             self._system_prompt = self._build_system_prompt()
             self._rules_cache_hash = new_hash
-            self._initialize_cache()
+            self._cache_dirty = True
             logger.info("Rules-Cache invalidiert (Hash geaendert), System-Prompt neu gebaut.")
         logger.info("AI-Backend Caches geleert.")
 
@@ -400,7 +419,7 @@ class GeminiBackend:
         # System-Prompt neu bauen damit Lore-Budget sofort wirkt
         self._system_prompt = self._build_system_prompt()
         self._cache_name = None
-        self._initialize_cache()
+        self._cache_dirty = True
         logger.info("Lore-Budget auf %d%% gesetzt (~%d Zeichen).",
                     self._lore_budget_pct, self._get_max_lore_chars())
 
@@ -412,9 +431,9 @@ class GeminiBackend:
         """Aktualisiert den Abenteuern-Kontext (baut System-Prompt + Cache neu)."""
         self._adventure = self._load_and_merge_lore(adventure)
         self._system_prompt = self._build_system_prompt()
-        # Cache mit vollstaendigem Prompt (inkl. Abenteuer-Lore) neu erstellen
+        # Cache mit vollstaendigem Prompt (inkl. Abenteuer-Lore) lazy erstellen
         self._cache_name = None
-        self._initialize_cache()
+        self._cache_dirty = True
         logger.info("Abenteuer in AI-Backend gesetzt: %s", adventure.get("title", "?"))
 
     def _load_and_merge_lore(self, adventure: dict[str, Any]) -> dict[str, Any]:
@@ -595,6 +614,11 @@ class GeminiBackend:
         self._time_tracker = tracker
         logger.info("TimeTracker verbunden.")
 
+    def set_party_state(self, party_state: Any) -> None:
+        """Verbindet den PartyStateManager fuer Party-Kontext-Injektion."""
+        self._party_state = party_state
+        logger.info("PartyStateManager verbunden.")
+
     def set_combat_tracker(self, tracker: Any) -> None:
         """Verbindet/entfernt den CombatTracker fuer Kampfstatus-Injektion."""
         self._combat_tracker = tracker
@@ -617,7 +641,7 @@ class GeminiBackend:
         self._system_prompt = self._build_system_prompt()
         # Invalidate cache so it gets rebuilt with rules included
         self._cache_name = None
-        self._initialize_cache()
+        self._cache_dirty = True
 
     def summarize(self, turns: list[dict[str, str]]) -> str:
         """
@@ -705,30 +729,55 @@ class GeminiBackend:
         try:
             from google.genai import types  # type: ignore[import]
 
+            # Prompt-Hash: unterschiedliche Party/Adventure/Ruleset → eigener Cache
+            prompt_hash = hashlib.md5(self._system_prompt.encode("utf-8")).hexdigest()[:8]
+            cache_tag = f"{CACHE_DISPLAY_NAME}-{prompt_hash}"
+
+            # Wenn wir bereits einen Cache mit gleichem Hash haben → fertig
+            if hasattr(self, "_cache_hash") and self._cache_hash == prompt_hash:
+                return
+
             # Pruefen ob passender Cache bereits existiert
+            stale_caches = []
             for existing in self._client.caches.list():
-                if getattr(existing, "display_name", "") == CACHE_DISPLAY_NAME:
+                dn = getattr(existing, "display_name", "")
+                if dn == cache_tag:
                     self._cache_name = existing.name
+                    self._cache_hash = prompt_hash
                     logger.info(
-                        "Bestehender Context Cache gefunden: %s", existing.name
+                        "Bestehender Context Cache gefunden: %s (hash=%s)",
+                        existing.name, prompt_hash,
                     )
                     return
+                # Merke alte Caches zum Loeschen (auch ohne Hash = legacy)
+                if dn.startswith(CACHE_DISPLAY_NAME) and dn != cache_tag:
+                    stale_caches.append(existing)
+
+            # Alte/stale Caches loeschen
+            for stale in stale_caches:
+                try:
+                    self._client.caches.delete(name=stale.name)
+                    logger.info("Stale Cache geloescht: %s (%s)",
+                                stale.name, getattr(stale, "display_name", "?"))
+                except Exception:
+                    pass
 
             # Neuen Cache erstellen
             cache = self._client.caches.create(
                 model=GEMINI_CACHE_MODEL,
                 config=types.CreateCachedContentConfig(
-                    display_name=CACHE_DISPLAY_NAME,
+                    display_name=cache_tag,
                     system_instruction=self._system_prompt,
                     ttl=CACHE_TTL,
                 ),
             )
             self._cache_name = cache.name
+            self._cache_hash = prompt_hash
             logger.info(
-                "Context Cache erstellt: %s (TTL: %s, Modell: %s)",
+                "Context Cache erstellt: %s (TTL: %s, hash=%s)",
                 cache.name,
                 CACHE_TTL,
-                GEMINI_CACHE_MODEL,
+                prompt_hash,
             )
 
         except Exception as exc:
@@ -767,6 +816,11 @@ class GeminiBackend:
         if self._client is None:
             yield self._stub_response(user_message)
             return
+
+        # Lazy Cache-Erstellung: erst beim ersten API-Call, wenn Prompt vollstaendig ist
+        if getattr(self, "_cache_dirty", False):
+            self._initialize_cache()
+            self._cache_dirty = False
 
         import time as _time
         from google.genai import types  # type: ignore[import]
@@ -950,6 +1004,12 @@ class GeminiBackend:
             combat_ctx = self._combat_tracker.get_context_for_prompt()
             context_parts.append(f"=== AKTIVER KAMPF ===\n{combat_ctx}")
             context_sources.append({"origin": "combat_tracker", "content": combat_ctx})
+
+        # Party-State als Kontext injizieren (Multi-Charakter-Modus)
+        if hasattr(self, "_party_state") and self._party_state:
+            party_ctx = self._party_state.get_summary()
+            context_parts.append(party_ctx)
+            context_sources.append({"origin": "party_state", "content": party_ctx})
 
         # Rules Engine: situationsbasierte Regel-Injektion (Schicht 1)
         if hasattr(self, "_rules_engine") and self._rules_engine:
@@ -1399,10 +1459,39 @@ WICHTIG — NPC-HP-Verwaltung:
   solange das System ihn nicht als [TOT] meldet.
 - Beschreibe Treffer realistisch basierend auf dem gemeldeten Schaden, aber lass den
   NPC weiterkämpfen solange er laut System noch lebt.
-- Setze [HP_VERLUST: N] NUR fuer den Spielercharakter, und nur wenn KEIN [ANGRIFF]-Tag
-  fuer denselben Angriff im gleichen Absatz steht (da das System den Schaden selbst berechnet)."""
+- [ANGRIFF]-Tags sind fuer SPIELER-Angriffe gegen Monster (System berechnet Schaden automatisch).
+- [HP_VERLUST: N] ist fuer MONSTER-Angriffe gegen den Spielercharakter. Wenn ein Monster den
+  Spieler trifft, MUSS ein [HP_VERLUST: N] Tag gesetzt werden mit dem konkreten Schadenswert.
+  Beispiel: Der Ork trifft dich mit dem Schwert. [HP_VERLUST: 6]"""
 
-            character_block = f"""═══ CHARAKTER-ZUSTAND-PROTOKOLL ═══
+            if self._party_members:
+                character_block = f"""═══ CHARAKTER-ZUSTAND-PROTOKOLL (PARTY) ═══
+Das System verwaltet HP und XP automatisch. Verwende diese Tags exakt:
+
+Physischer Schaden — wenn ein MONSTER einen Spielercharakter trifft:
+  [HP_VERLUST: <Charaktername> | <Schadenszahl>]
+  Beispiele: [HP_VERLUST: Grimjaw Eisenfaust | 6]  [HP_VERLUST: Pyra Flammenherz | 4]
+  PFLICHT: JEDER Monstertreffer gegen einen Spielercharakter braucht diesen Tag!
+
+HP-Heilung (Heiltrank, Zauber, Rast):
+  [HP_HEILUNG: <Charaktername> | <Zahl oder Wuerfelausdruck>]
+  Beispiele: [HP_HEILUNG: Grimjaw Eisenfaust | 1d8]  [HP_HEILUNG: Bruder Mordain | 5]
+
+XP-Vergabe (nach Kampf, Raetseln, Rollenspiel):
+  [XP_GEWINN: <Zahl>]
+  Beispiele: [XP_GEWINN: 65]  [XP_GEWINN: 260]
+
+Regeln:
+  - [ANGRIFF]-Tags = SPIELER greifen Monster an (System berechnet Schaden).
+  - [HP_VERLUST]-Tags = MONSTER treffen Spielercharaktere (DU bestimmst den Schaden).
+  - Diese beiden Tag-Typen ergaenzen sich — IMMER beide in einem Kampf verwenden!
+  - Tags NUR nach dem narrativen Text, nie davor.
+  - Bei HP 0: Charakter bewusstlos, in Lebensgefahr.
+  - XP-Vergabe nach besiegten Monstern und geloesten Raetseln.{combat_note}
+
+═══ NICHT-WAFFEN-FERTIGKEITS-PROTOKOLL (AD&D 2e) ═══"""
+            else:
+                character_block = f"""═══ CHARAKTER-ZUSTAND-PROTOKOLL ═══
 Das System verwaltet HP und XP automatisch. Verwende diese Tags exakt:
 
 Physischer Schaden (Kampf, Sturz, Falle):
@@ -1421,12 +1510,53 @@ Regeln:
   - Bei HP 0: {pc_title} bewusstlos, in Lebensgefahr — dramatisch, nicht sofort tot.
   - XP-Vergabe nach besiegten Monstern und geloesten Raetseln.{combat_note}
 
+═══ NICHT-WAFFEN-FERTIGKEITS-PROTOKOLL (AD&D 2e) ═══
+Neben Kampf-Proben kannst du auch Nicht-Waffen-Fertigkeiten (NWP) abfragen:
+- NWP-Check: d20 roll-under gegen Attribut + Modifikator.
+- Format: [PROBE: <NWP-Name> | <Zielwert>]
+- Beispiele:
+  [PROBE: Healing | 13]           — Wunden versorgen (WIS-2)
+  [PROBE: Tracking | 15]          — Spuren folgen (WIS)
+  [PROBE: Herbalism | 10]         — Heilkraeuter bestimmen (INT-2)
+  [PROBE: Navigation | 11]        — Richtung in der Wildnis (INT-2)
+  [PROBE: Survival | 14]          — In der Wildnis ueberleben (INT)
+  [PROBE: Local History | 16]     — Lokales Wissen (CHA)
+  [PROBE: Spellcraft | 12]        — Magischen Effekt identifizieren (INT-2)
+  [PROBE: Religion | 15]          — Gottheit/Ritual erkennen (WIS)
+- Zielwert = Relevantes Attribut + NWP-Modifikator des Charakters.
+- Nur EINE Probe pro Antwort. KEIN narrativer Kommentar zum Wuerfeln.
+
+═══ ZAUBER-VERWALTUNG (AD&D 2e) ═══
+Magie funktioniert per Memorierung (Vorbereitung):
+- Magier: Zauber aus Spruchbuch memorieren. Verbrauchte Slots erst nach Rast erneut verfuegbar.
+- Priester/Kleriker: Goettliche Zauber durch Gebet vorbereiten. Zugang nach Sphaeren.
+- Ranger/Paladin: Eingeschraenkte Priesterzauber ab hoeheren Stufen.
+- Bard: Eingeschraenkte Magierzauber ab Stufe 2.
+- Nach Zauberwirken: [FERTIGKEIT_GENUTZT: <Zaubername>]
+- Bei Konzentrations-Stoerung im Kampf (Schaden waehrend Casting): Zauber GEHT VERLOREN.
+- Komponenten beachten: V=Verbal, S=Somatisch, M=Material. Gefesselt = kein S. Geknebelt = kein V.
+
+═══ UNTOTE VERTREIBEN (AD&D 2e) ═══
+Kleriker und Paladine koennen Untote vertreiben (Turn Undead):
+- Priester praesentiert heiliges Symbol und ruft goettliche Macht an.
+- Ergebnis haengt von Priester-Stufe vs Untoten-Typ ab (Turn-Undead-Tabelle).
+- T = automatisch vertrieben, D = automatisch zerstoert, Zahl = d20-Wurf noetig.
+- Vertriebene Untote fliehen fuer 3d4 Runden. Zerstoerte Untote zerfallen sofort.
+- Nur Priester/Paladin duerfen Turn Undead versuchen, NICHT andere Klassen.
+
 ═══ SYSTEM-GRENZEN (AD&D 2e) ═══
 Du spielst AD&D 2nd Edition. Verwende NUR AD&D-Fertigkeiten aus dem Charakter-Bogen.
-Typisch: Wahrnehmung, Heimlichkeit, Klettern, Lauschen, Geschick, Mechanik, Ueberreden.
+Kampffertigkeiten: d20 roll-under gegen Attribut oder THAC0-basiert.
+NWP: d20 roll-under gegen Attribut + Modifikator.
+Diebes-Fertigkeiten: Prozent-basiert (d100) — nur fuer Diebe/Barden.
+THAC0-Kampf: d20 + Modifikatoren >= Zielwert (20 - THAC0 + AC).
+Typische Fertigkeiten: Wahrnehmung, Heimlichkeit, Klettern, Lauschen, Geschick, Mechanik, Ueberreden,
+  Pick Pockets, Open Locks, Find/Remove Traps, Move Silently, Hide in Shadows, Tracking.
+Rassenfaehigkeiten beachten: Zwerge/Gnome erkennen Neigungen/Fallen, Elfen finden Geheimtueren,
+  Halblinge haben Fernkampf-Bonus und Rettungswurf-Boni.
 VERBOTEN: Geschichte/Bibliotheksnutzung/Psychologie (Cthulhu), SAN/Stabilitaet (Cthulhu),
 Hacken/Elektronik/Feuerwaffen (Shadowrun), Treason Points (Paranoia).
-Wuerfelsystem: d20, THAC0-basiert. KEINE d100-Proben, KEINE Wuerfelpools."""
+Wuerfelsystem: d20, THAC0-basiert. KEINE d100-Proben (ausser Diebes-Fertigkeiten), KEINE Wuerfelpools."""
 
         # Pick a representative skill and target for the probe example
         example_skill = next(iter(skills_def), "Wahrnehmung")
@@ -1435,8 +1565,11 @@ Wuerfelsystem: d20, THAC0-basiert. KEINE d100-Proben, KEINE Wuerfelpools."""
         # ── Setting-Block ─────────────────────────────────────────────
         setting_block = self._build_setting_block()
 
-        # ── Charakter-Block ───────────────────────────────────────────
-        character_block_prompt = self._build_character_block()
+        # ── Charakter-Block (Party oder Einzel) ──────────────────────
+        if self._party_members:
+            character_block_prompt = self._build_party_block()
+        else:
+            character_block_prompt = self._build_character_block()
 
         # ── Extras-Block ──────────────────────────────────────────────
         extras_block = self._build_extras_block()
@@ -1444,27 +1577,12 @@ Wuerfelsystem: d20, THAC0-basiert. KEINE d100-Proben, KEINE Wuerfelpools."""
         # ── Core-Rules-Block (aus RulesEngine) ────────────────────────
         core_rules_block = self._build_core_rules_block()
 
+        speech_style = sc.speech_style if sc else "normal"
+        style_block = self._build_speech_style_block(speech_style, example_skill, example_target)
+
         return f"""{persona_block}
 {setting_block}{character_block_prompt}
-═══ STIL & TTS-REGELN (PFLICHT) ═══
-Du sprichst direkt ins Ohr des Spielers. Deine Worte werden vorgelesen.
-Daher MUESSEN alle Ausgaben diesen Regeln folgen:
-
-1. KURZE SAETZE. Maximal 15 Woerter pro Satz. Punkt. Naechster Satz.
-2. ABSOLUTES LIMIT: MAXIMAL 3 SAETZE. Dann MUSS eine Spieler-Interaktion folgen:
-   eine offene Frage ("Was tust du?") ODER ein [PROBE:]-Tag.
-   NIEMALS mehr als 3 Saetze ohne Rueckgabe an den Spieler.
-   Bei Verstoss erhaeltst du eine STIL-KORREKTUR im naechsten Turn.
-3. KEINE KLAMMERN, KEINE FORMELN, KEINE LISTEN im narrativen Text.
-4. WARTE nach jeder Beschreibung auf die Reaktion des Spielers.
-   Beende JEDE Antwort mit einer offenen Frage oder einem [PROBE:]-Tag.
-   Beispiel: "Was tust du?"  /  "Wohin gehst du?"  /  "Wie reagierst du?"
-5. KEINE METASPRACHE. Sprich niemals ueber Regeln, Tags, Wuerfelwuerfe oder das System.
-   Falsch: "Du musst jetzt eine Probe wuerfeln."
-   Richtig: "Die Stille wird schwerer. Irgendetwas stimmt hier nicht." [PROBE: {example_skill} | {example_target}]
-6. Tags ([PROBE:...], [HP_VERLUST:...] etc.) kommen IMMER ans Ende einer Antwort,
-   NACH der narrativen Beschreibung, NIEMALS mittendrin.
-7. Atmosphaere zuerst. Immer. Kein Wuerfelwurf ohne vorherige Szene.
+{style_block}
 
 ═══ WUERFELPROBEN-PROTOKOLL ═══
 Wenn der Spieler etwas versucht, das scheitern koennte und das Scheitern interessant waere:
@@ -1563,6 +1681,90 @@ Verfuegbare Fertigkeiten:
 - Gib NIEMALS unaufgefordert Spieler-Tipps oder Handlungsempfehlungen.
 - Verwende NIEMALS Klammern oder Aufzaehlungen im narrativen Fluss.
 """.strip()
+
+    def _build_speech_style_block(
+        self, style: str, example_skill: str, example_target: str
+    ) -> str:
+        """Baut den Stil-Block abhaengig vom Sprechstil (normal/sanft/aggressiv)."""
+
+        # ── Anti-Repetition (gilt fuer alle Stile) ──
+        anti_rep = """═══ ABWECHSLUNGSPFLICHT (ANTI-REPETITION) ═══
+VERBOTEN: Wiederholungen zwischen Zuegen. Deine letzte Antwort existiert nicht mehr.
+- Beginne NIEMALS zwei Antworten hintereinander mit dem gleichen Wort oder Satzmuster.
+- Verwende NIEMALS dieselbe Frage zweimal in Folge. Kein "Was tust du?" zweimal.
+  Alternativen: "Wie reagierst du?" / "Wohin fuehrt dich dein Instinkt?" / "Was jetzt?" /
+  "Worauf richtest du deine Aufmerksamkeit?" / "Was zieht dich an?" / "Was treibt dich?"
+- KEINE wiederholten Sinneseindruecke: Wenn du letztes Mal "Staub" beschrieben hast,
+  nutze beim naechsten Mal einen anderen Sinn (Geraeusch, Geruch, Temperatur, Licht).
+- VARIIERE deine Eroeffnungen: Mal Sinneseindruck, mal Handlung, mal Dialog,
+  mal Zeitsprung, mal Umgebungsdetail, mal Stimmung.
+- Vermeide Fuellwoerter: "ploetzlich", "langsam", "vorsichtig" hoechstens 1x pro 5 Zuege.
+"""
+
+        if style == "sanft":
+            style_rules = f"""═══ STIL: SANFT — Erzaehlstil (PFLICHT) ═══
+Du bist eine ruhige, einfuehlsame Stimme. Du malst Bilder mit Worten.
+Dein Tempo ist bedaechtig, dein Ton warm. Du laesst Szenen atmen.
+
+1. SATZLIMIT: 3-4 Saetze pro Antwort. Kein Satz laenger als 18 Woerter.
+   Bevorzuge 3 Saetze. 4 nur wenn die Szene es verlangt.
+2. SINNE: Jede Antwort muss mindestens 2 verschiedene Sinne ansprechen.
+   Geruch + Klang. Licht + Textur. Temperatur + Farbe. Wechsle staendig.
+3. HOOK: Beende jede Antwort mit einer einladenden, offenen Frage oder [PROBE:].
+   Statt "Was tust du?": "Was zieht deine Aufmerksamkeit an?" /
+   "Welchem Impuls folgst du?" / "Was laesst dir keine Ruhe?"
+4. ATMOSPHAERE: Beschreibe Details die man uebersehen wuerde.
+   Das Knarren einer Diele. Der Geruch nach nassem Stein. Der Schatten einer Fliege.
+5. PACING: Lass Stille wirken. Ein kurzer Satz nach einer Beschreibung erzeugt Spannung.
+6. KEINE METASPRACHE. Zeige, erklaere nie.
+   Richtig: "Kuehl streicht die Luft ueber deine Haut. Der Keller atmet." [PROBE: {example_skill} | {example_target}]
+7. Tags am Ende, nach der Erzaehlung. Atmosphaere zuerst.
+"""
+
+        elif style == "aggressiv":
+            style_rules = f"""═══ STIL: AGGRESSIV — Erzaehlstil (PFLICHT) ═══
+Du bist ein harter, ungeduldiger Spielleiter. Kein Wort zu viel. Kein Mitleid.
+Jeder Satz ist ein Faustschlag. Du wartest nicht. Du treibst.
+
+1. SATZLIMIT: MAXIMAL 2 SAETZE. Punkt. Fertig. Rueckgabe an Spieler.
+   Wenn du 3 schreibst, hast du versagt. 1 Satz ist oft genug.
+2. WOERTERLIMIT: Maximal 10 Woerter pro Satz. Hart. Kurz. Trocken.
+3. HOOK: Jede Antwort MUSS mit einer fordernden Rueckfrage oder [PROBE:] enden.
+   Keine weichen Fragen. "Und?" / "Was jetzt?" / "Entscheide." / "Schnell."
+4. KEIN ORNAMENT: Keine Adjektive die nicht toeten, verletzen oder bedrohen.
+   Falsch: "Ein wunderschoener Raum mit feinen Details."
+   Richtig: "Blut an der Wand. Frisch."
+5. AKTION: Dinge passieren. Sofort. Die Welt wartet nicht auf den Spieler.
+   Tueren schlagen zu. Lichter erlischen. Schritte naehern sich. JETZT.
+6. KEINE METASPRACHE. Beschreibe Konsequenzen, keine Regeln.
+   Richtig: "Glas splittert. Dein Arm blutet." [PROBE: {example_skill} | {example_target}]
+7. Tags sofort ans Ende. Keine Vorrede.
+"""
+
+        else:  # "normal"
+            style_rules = f"""═══ STIL & TTS-REGELN (PFLICHT) ═══
+Du sprichst direkt ins Ohr des Spielers. Deine Worte werden vorgelesen.
+Daher MUESSEN alle Ausgaben diesen Regeln folgen:
+
+1. KURZE SAETZE. Maximal 15 Woerter pro Satz. Punkt. Naechster Satz.
+2. ABSOLUTES LIMIT: MAXIMAL 3 SAETZE. Dann MUSS eine Spieler-Interaktion folgen:
+   eine offene Frage ODER ein [PROBE:]-Tag.
+   NIEMALS mehr als 3 Saetze ohne Rueckgabe an den Spieler.
+   Bei Verstoss erhaeltst du eine STIL-KORREKTUR im naechsten Turn.
+3. KEINE KLAMMERN, KEINE FORMELN, KEINE LISTEN im narrativen Text.
+4. WARTE nach jeder Beschreibung auf die Reaktion des Spielers.
+   Beende JEDE Antwort mit einer offenen Frage oder einem [PROBE:]-Tag.
+   VARIIERE die Fragen: "Was tust du?" / "Wohin gehst du?" / "Wie reagierst du?" /
+   "Was faellt dir auf?" / "Worauf konzentrierst du dich?" — nie 2x dieselbe Frage in Folge.
+5. KEINE METASPRACHE. Sprich niemals ueber Regeln, Tags, Wuerfelwuerfe oder das System.
+   Falsch: "Du musst jetzt eine Probe wuerfeln."
+   Richtig: "Die Stille wird schwerer. Irgendetwas stimmt hier nicht." [PROBE: {example_skill} | {example_target}]
+6. Tags ([PROBE:...], [HP_VERLUST:...] etc.) kommen IMMER ans Ende einer Antwort,
+   NACH der narrativen Beschreibung, NIEMALS mittendrin.
+7. Atmosphaere zuerst. Immer. Kein Wuerfelwurf ohne vorherige Szene.
+"""
+
+        return anti_rep + "\n" + style_rules
 
     def _build_adventure_block(self) -> str:
         """
@@ -1953,6 +2155,119 @@ Verfuegbare Fertigkeiten:
             "\n--- Kernregeln (IMMER beachten) ---\n"
             + "\n".join(parts) + "\n"
         )
+
+    def _build_party_block(self) -> str:
+        """Baut den Party-Block fuer den System-Prompt (Multi-Charakter-Modus)."""
+        if not self._party_members:
+            return ""
+
+        lines = [
+            "\n=== DIE GRUPPE (SPIELERCHARAKTERE) ===",
+            f"Du verwaltest {len(self._party_members)} Charaktere gleichzeitig.",
+            "Jeder Charakter handelt pro Runde. Verwende Per-Character Tags:",
+            "",
+            "SPIELER greift Monster an (System wuerfelt Schaden):",
+            "  [ANGRIFF: <Waffe> | <THAC0> | <AC> | <Mod> | <Spielername>]",
+            "  Beispiel: [ANGRIFF: Battle Axe +1 | 14 | 7 | 4 | Grimjaw Eisenfaust]",
+            "",
+            "MONSTER trifft Spieler (DU bestimmst den Schaden):",
+            "  [HP_VERLUST: <Spielername> | <Schadenszahl>]",
+            "  Beispiel: [HP_VERLUST: Grimjaw Eisenfaust | 6]",
+            "  PFLICHT bei jedem Monstertreffer! NIEMALS [ANGRIFF] fuer Monster verwenden!",
+            "",
+            "Weitere Tags:",
+            "  [HP_HEILUNG: <Name> | <Menge>]",
+            "  [ZAUBER_VERBRAUCHT: <Name> | <Zauber> | <Level>]",
+            "  [INVENTAR: <Item> | <Aktion> | <Name>]",
+            "  [PROBE: <Fertigkeit> | <Zielwert> | <Name>]",
+            "",
+        ]
+
+        for c in self._party_members:
+            name = c.get("name", "?")
+            archetype = c.get("archetype", c.get("class", "?"))
+            level = c.get("level", "?")
+            race = c.get("race", "?")
+
+            # Derived stats
+            derived = c.get("derived_stats", {})
+            hp = derived.get("HP", "?")
+            ac = derived.get("AC", "?")
+            thac0 = derived.get("THAC0", "?")
+
+            # Characteristics
+            chars = c.get("characteristics", {})
+            char_str = " ".join(f"{k}:{v}" for k, v in chars.items())
+
+            lines.append(f"--- {name} ({archetype.title()} {level}, {race}) ---")
+            lines.append(f"  {char_str} | HP: {hp}/{hp} | AC: {ac} | THAC0: {thac0}")
+
+            # Equipment (kompakt)
+            equip = c.get("equipment", [])
+            weapons = [e for e in equip if any(
+                kw in e.lower() for kw in (
+                    "sword", "axe", "bow", "dagger", "mace", "staff",
+                    "hammer", "flail", "spear", "crossbow", "schwert",
+                    "axt", "bogen", "dolch", "streitkolben", "stab",
+                )
+            )]
+            armor = [e for e in equip if any(
+                kw in e.lower() for kw in (
+                    "armor", "plate", "mail", "shield", "bracers",
+                    "ruestung", "panzer", "schild",
+                )
+            )]
+            if weapons:
+                lines.append(f"  Waffen: {', '.join(weapons)}")
+            if armor:
+                lines.append(f"  Ruestung: {', '.join(armor)}")
+
+            # Spells
+            spells_prep = c.get("spells_prepared", {})
+            if isinstance(spells_prep, dict) and spells_prep:
+                sp_parts = []
+                for lvl_str, spell_list in sorted(spells_prep.items()):
+                    if isinstance(spell_list, list) and spell_list:
+                        sp_parts.append(f"Level {lvl_str}: {', '.join(spell_list)}")
+                if sp_parts:
+                    lines.append(f"  Sprueche: {'; '.join(sp_parts)}")
+
+            # Skills (kompakt)
+            skills = c.get("skills", {})
+            if skills:
+                skill_str = ", ".join(f"{k}" for k in skills.keys())
+                lines.append(f"  Fertigkeiten: {skill_str}")
+
+            # Background (kurz)
+            bg = c.get("background", "")
+            if bg:
+                # Nur ersten Satz
+                first_sent = bg.split(".")[0] + "." if "." in bg else bg[:120]
+                lines.append(f"  Hintergrund: {first_sent}")
+
+            lines.append("")
+
+        lines.append(
+            "PFLICHT: Lass ALLE Gruppenmitglieder pro Runde handeln. "
+            "Jeder Charakter hat seine Rolle — nutze sie. "
+            "Verwalte Tags per-Character mit dem Namen im Tag.\n\n"
+            "=== KAMPFRUNDE KOMPLETT-BEISPIEL ===\n"
+            "So sieht eine vollstaendige Kampfrunde aus (Spieler UND Monster):\n\n"
+            "Grimjaw stuermt vor und schlaegt auf das Skelett ein.\n"
+            "[ANGRIFF: Battle Axe +1 | 14 | 7 | 4 | Grimjaw Eisenfaust]\n"
+            "Sir Kael schlaegt mit dem Heiligen Schwert zu.\n"
+            "[ANGRIFF: Holy Sword +2 | 15 | 7 | 2 | Sir Kael Zornesklinge]\n"
+            "Das Skelett schlaegt mit dem Rostschwert nach Grimjaw — ein Treffer!\n"
+            "[HP_VERLUST: Grimjaw Eisenfaust | 5]\n"
+            "Ein zweites Skelett kratzt Pyra am Arm.\n"
+            "[HP_VERLUST: Pyra Flammenherz | 3]\n\n"
+            "REGELN:\n"
+            "- [ANGRIFF] = Spielercharakter greift Monster an (NUR fuer Spieler-Waffen)\n"
+            "- [HP_VERLUST] = Monster trifft Spielercharakter (PFLICHT bei jedem Treffer)\n"
+            "- JEDE Kampfrunde enthaelt BEIDES: Spieler-Angriffe UND Monster-Treffer\n"
+            "- Monster treffen IMMER mindestens einen Spieler pro Runde"
+        )
+        return "\n".join(lines)
 
     def _build_character_block(self) -> str:
         """Baut den Charakter-Kontext-Block aus dem Character-Template."""

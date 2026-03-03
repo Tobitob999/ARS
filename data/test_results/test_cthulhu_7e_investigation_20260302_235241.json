@@ -1,0 +1,124 @@
+{
+  "module": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "case_id": 2,
+  "case_name": "investigation",
+  "expected_tags": {
+    "PROBE": 3,
+    "FERTIGKEIT_GENUTZT": 1,
+    "FAKT": 1
+  },
+  "total_turns": 5,
+  "total_latency_ms": 8706.654900001013,
+  "avg_latency_ms": 1741.3309800002025,
+  "avg_response_chars": 360.2,
+  "avg_sentences": 6.0,
+  "total_probes": 2,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich nehme den Auftrag an und gehe ins Zeitungsarchiv.",
+      "keeper_response": "Mr. Knott nickt zufrieden. [STIMME:scholar] \"Diskretion ist Gold wert, junger Mann.\" [STIMME:keeper] Seine Augen mustern dich forschend. Du verlässt das Büro, der Geruch von Papier und billigem Tabak haftet noch an dir.\n\nDie Straßen Arkhams erwachen langsam. Eine halbe Stunde später stehst du vor dem stattlichen Gebäude des Zeitungsarchivs. Innen empfängt dich eine schwere Stille. Reihen über Reihen staubiger Bände ragen empor. Das Licht fällt nur spärlich durch die hohen Fenster.\n\nWas möchtest du hier im Zeitungsarchiv suchen? [ZEIT_VERGEHT: 0.5h] [FAKT: {\"auftrag_angenommen\": true}]",
+      "response_chars": 591,
+      "response_sentences": 10,
+      "latency_ms": 2310.572199996386,
+      "tags_found": [
+        "ZEIT_VERGEHT",
+        "FAKT",
+        "STIMME"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich recherchiere alte Berichte ueber das Corbitt-Haus.",
+      "keeper_response": "Der Geruch von altem Papier und Druckerschwärze empfängt dich. Überall ragen hohe Regale mit vergilbten Ausgaben auf. Du suchst nach Berichten über das Haus in der Sheafe Street. [PROBE: Bibliotheksnutzung | 55] [ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 232,
+      "response_sentences": 3,
+      "latency_ms": 2437.6363000046695,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich pruefe die Sterberegister nach Walter Corbitt.",
+      "keeper_response": "Du verrennst dich in endlosen Mikrofilmen. Ein falsches Datum, ein vertauschter Stapel – die Zeit verrinnt. Deine Augen brennen vom Staub und dem schlechten Licht. Du findest nichts wirklich Relevantes zum Corbitt-Haus. [FERTIGKEIT_GENUTZT: Bibliotheksnutzung] Was tust du nun? [ZEIT_VERGEHT: 1h]",
+      "response_chars": 296,
+      "response_sentences": 5,
+      "latency_ms": 190.50290000450332,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich untersuche die Kirchenakten auf Hinweise.",
+      "keeper_response": "Das Zeitungsarchiv bietet keine Sterberegister. Du musst ins Hall of Records. Die Fahrt dorthin führt dich durch die belebten Straßen. [ZEIT_VERGEHT: 0.5h]\n\nDer schwere Marmorbau der Hall of Records empfängt dich kühl. Ein Geruch von Staub und Tinte liegt in der Luft. Endlose Reihen von Archivschränken erheben sich. Du suchst nach Walter Corbitts Namen. [PROBE: Recht | 40] [ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 396,
+      "response_sentences": 7,
+      "latency_ms": 3195.025799999712,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich betrete das Corbitt-Haus und schaue mich im Erdgeschoss um.",
+      "keeper_response": "Der strenge Beamte am Schalter mustert dich misstrauisch. Deine Argumente wirken unzureichend. Er erklärt dir, die Akten seien nicht öffentlich zugänglich. Du erhältst keinen Einblick in die Sterberegister. [FERTIGKEIT_GENUTZT: Recht] Was versuchst du als Nächstes? [ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 286,
+      "response_sentences": 5,
+      "latency_ms": 572.9176999957417,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

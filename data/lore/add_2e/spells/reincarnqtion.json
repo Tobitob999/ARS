@@ -1,7 +1,7 @@
 {
   "schema_version": "1.2.1",
-  "id": "reincarnqtion",
-  "name": "Reincarnqtion",
+  "id": "reincarnation_wizard",
+  "name": "Reincarnation",
   "compatible_rulesets": [
     "add_2e"
   ],
@@ -12,7 +12,7 @@
     "player_handbook",
     "appendix_conversion"
   ],
-  "summary": "Reincarnqtion (Necromancy) aus dem AD&D 2e Player's Handbook.",
+  "summary": "Reincarnation (Necromancy) aus dem AD&D 2e Player's Handbook. Wizard version (PHB p.181) — transfers dead person's essence into new body.",
   "source_text": {
     "book": "Player's Handbook (2nd Edition)",
     "appendix": 3,
@@ -30,19 +30,19 @@
     "school_or_type": "Necromancy",
     "parser": "header_block_v3_1",
     "spell_card": {
-      "name": "Reincarnqtion",
+      "name": "Reincarnation",
       "canonical_name_guess": null,
       "school_or_type": "Necromancy",
-      "range": null,
+      "range": "Touch",
       "components": "V, S, M",
       "duration": "Permanent",
-      "casting_time": null,
-      "area_of_effect": "Pc!rson touched",
+      "casting_time": "1 turn",
+      "area_of_effect": "Person touched",
       "saving_throw": "None",
       "description_excerpt": "With this spell, the wizard can bring back to life a person who died no more than one day per level of experience of the wizard before the casting of the spell. The essence of the dead person is transferred to another body, possibly one very different from his former body. Reincarnation does not require any saving throw, system shock, or resurrection survival roll. The corpse is touched, and a new incarnation of the per- son will appear in the area in Id6 turns. The person reincarnated recalls the majority of his former life and form, but the character class, if any, of the new incarnation might be different indeed. The new incarnation is determined on the following table. If a play- er character race is indicated, the character must be created. 24-28 Gnome 55-59 Hobgoblin 60-73 Human Note: Very good or very evil persons will not be reincarnated as creatures whose gem eral alignment is t"
     },
     "quality_flags": [
-      "missing_standard_fields"
+      "ocr_name_corrected"
     ]
   }
 }

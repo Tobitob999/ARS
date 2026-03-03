@@ -35,14 +35,12 @@
       "school_or_type": "Abjuration",
       "range": "60 yards",
       "components": "V, S",
-      "duration": null,
+      "duration": "Special",
       "casting_time": "6",
-      "area_of_effect": "=foot cube or 1 item",
+      "area_of_effect": "30-foot cube or 1 item",
       "saving_throw": "None",
       "description_excerpt": "When a priest casts this spell, it has a chance to neutralize or negate the magic it comes in contact with as follows: First, it has a chance to remove spells and spell-like effects (including device effects and innate abilities) from creatures or objects. Second, it may disrupt the casting or use of these in the area of effect at the instant the dispel is cast. Third, it may destroy magical potions (which are treated as Uth level for purposes of this spell). Each effect or potion in the spell's area is checked to determine if it is dispelled. The caster can always dispel his own magic; oth- erwise the chance depends on the difference in level between the magical effect and the caster. The base chance of successfully dis- pelling is 11 or higher on IdzO. If the caster is higher level than the creator of the effect to be dispelled, the difference is subtracted frm &is base number needed. "
     },
-    "quality_flags": [
-      "missing_standard_fields"
-    ]
+    "quality_flags": []
   }
 }

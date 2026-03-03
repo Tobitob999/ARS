@@ -1,0 +1,125 @@
+{
+  "module": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "case_id": 2,
+  "case_name": "investigation",
+  "expected_tags": {
+    "PROBE": 3,
+    "FERTIGKEIT_GENUTZT": 1,
+    "FAKT": 1
+  },
+  "total_turns": 5,
+  "total_latency_ms": 26867.88209999213,
+  "avg_latency_ms": 5373.576419998426,
+  "avg_response_chars": 317.6,
+  "avg_sentences": 5.6,
+  "total_probes": 2,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 1,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich nehme den Auftrag an und gehe ins Zeitungsarchiv.",
+      "keeper_response": "Mr. Knott nickt. Das Geschäft ist besiegelt. Du trittst hinaus in die morgendliche Luft. Ein Taxi bringt dich in die Innenstadt. Bald stehst du vor dem Zeitungsarchiv. Der Geruch von altem Papier liegt in der Luft. Die Stille ist beinahe erdrückend.\n\n[ZEIT_VERGEHT: 0.5h]\n[PROBE: Bibliotheksnutzung | 55]",
+      "response_chars": 304,
+      "response_sentences": 8,
+      "latency_ms": 5313.7720999948215,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich recherchiere alte Berichte ueber das Corbitt-Haus.",
+      "keeper_response": "Der muffige Geruch alter Papiere umfängt dich. Du findest Zeitungsartikel über das Haus in der Sheafe Street. Sie beschreiben unheimliche, sich wiederholende Vorfälle ohne logische Erklärung. Was tust du?\n[DOKUMENT: zeitung_unfaelle | gefunden]\n[DOKUMENT: zeitung_corbitt | gefunden]\n[FERTIGKEIT_GENUTZT: Bibliotheksnutzung]\n[ZEIT_VERGEHT: 1h]",
+      "response_chars": 343,
+      "response_sentences": 4,
+      "latency_ms": 10419.154100003652,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich pruefe die Sterberegister nach Walter Corbitt.",
+      "keeper_response": "Die alten Zeitungsberichte bestätigen ein beunruhigendes Muster. Über Jahrzehnte hinweg flohen Mieter panisch aus dem Haus. Nie gab es eine plausible Erklärung für die Vorkommnisse. Dein Blick fällt auf den Namen Walter Corbitt. Möchtest du gezielt nach seiner Vergangenheit suchen?\n[FERTIGKEIT_GENUTZT: Bibliotheksnutzung]\n[ZEIT_VERGEHT: 0.5h]\n[PROBE: Geschichte | 40]",
+      "response_chars": 369,
+      "response_sentences": 5,
+      "latency_ms": 10776.932599997963,
+      "tags_found": [
+        "PROBE",
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [
+        "[REGELCHECK] PROBE: Zielwert 40 weicht stark vom Charakter-Wert 70 ab."
+      ],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich untersuche die Kirchenakten auf Hinweise.",
+      "keeper_response": "Du tauchst tief in die Archive ein. Dein Blick findet eine Verbindung. Walter Corbitt war eine Schlüsselfigur. Er gehörte zur obskuren \"Church of Contemplation\". Diese Sekte verschwand vor Jahrzehnten spurlos. Was ist dein nächster Schritt?\n[DOKUMENT: Bericht zur Church of Contemplation | gefunden]\n[FERTIGKEIT_GENUTZT: Geschichte]\n[ZEIT_VERGEHT: 1h]",
+      "response_chars": 351,
+      "response_sentences": 6,
+      "latency_ms": 291.6601999968407,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich betrete das Corbitt-Haus und schaue mich im Erdgeschoss um.",
+      "keeper_response": "Du verlässt das Zeitungsarchiv. Dein nächster Weg führt dich zum Hall of Records. Der Bau ist aus grauem Granit, kühl und formal. Ein Beamter am Schalter blickt dich fragend an. Was ist dein Anliegen? [ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 221,
+      "response_sentences": 5,
+      "latency_ms": 66.3630999988527,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "module": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "case_id": 2,
+  "case_name": "investigation",
+  "expected_tags": {
+    "PROBE": 3,
+    "FERTIGKEIT_GENUTZT": 1,
+    "FAKT": 1
+  },
+  "total_turns": 5,
+  "total_latency_ms": 7086.331399994378,
+  "avg_latency_ms": 1417.2662799988757,
+  "avg_response_chars": 313.8,
+  "avg_sentences": 6.0,
+  "total_probes": 2,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich nehme den Auftrag an und gehe ins Zeitungsarchiv.",
+      "keeper_response": "Sie nicken Mr. Knott zu. Er laechelt knapp. Seine Worte sind leise. [STIMME:scholar] \"Diskretion ist alles, mein Freund.\" [STIMME:keeper] Sie verlassen sein buerokratisches Reich. Die Strassen Arkhams sind lebhaft. Ein staubiger Wind weht Ihnen entgegen. Sie erreichen das Zeitungsarchiv. Hier ist die Luft schwer von altem Papier. Ein tiefes Schweigen liegt ueber den Regalen. Was suchen Sie?\n\n[FAKT: {\"auftrag_angenommen\": true}]\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 452,
+      "response_sentences": 11,
+      "latency_ms": 2197.962099999131,
+      "tags_found": [
+        "ZEIT_VERGEHT",
+        "FAKT",
+        "STIMME"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich recherchiere alte Berichte ueber das Corbitt-Haus.",
+      "keeper_response": "Das Zeitungsarchiv riecht nach altem Papier und Staub. Reihen von Mikrofilmen und vergilbten Ausgaben warten. Die Luft ist schwer und stuermisch. [ZEIT_VERGEHT: 2h] [PROBE: Bibliotheksnutzung | 55]",
+      "response_chars": 197,
+      "response_sentences": 3,
+      "latency_ms": 1338.0452999990666,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich pruefe die Sterberegister nach Walter Corbitt.",
+      "keeper_response": "Ihre Finger gleiten über die vergilbten Seiten. Sie finden mehrere Artikel über die Sheafe Street 20. Die Berichte reichen Jahrzehnte zurück. Immer wieder ereigneten sich seltsame Unfälle. Mieter flohen nach wenigen Wochen.\n\nEin alter Nachruf erweckt Ihr Interesse. Walter Corbitt war der letzte bekannte Eigentümer. Er war ein Mitglied der 'Church of Contemplation'.\n[FAKT: {\"zeitung_unfaelle_gefunden\": true}]\n[FAKT: {\"zeitung_corbitt_gefunden\": true}]\n[FERTIGKEIT_GENUTZT: Bibliotheksnutzung]\n[ZEIT_VERGEHT: 1h]\nWas tun Sie als Nächstes?",
+      "response_chars": 540,
+      "response_sentences": 9,
+      "latency_ms": 2160.581199997978,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 2,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich untersuche die Kirchenakten auf Hinweise.",
+      "keeper_response": "Die Registerhalle ist ein Labyrinth aus Akten und Formularen. Ein strenger Beamter bewacht die alten Buecher. Das Licht der Fenster ist kalt und unbarmherzig. [ZEIT_VERGEHT: 1h] [PROBE: Recht | 50]",
+      "response_chars": 197,
+      "response_sentences": 3,
+      "latency_ms": 1192.6075000010314,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich betrete das Corbitt-Haus und schaue mich im Erdgeschoss um.",
+      "keeper_response": "Die Suche in den unendlichen Registern ist muehsam. Ihr Blick gleitet ueber tausende Namen. Walter Corbitts Eintrag bleibt Ihnen verborgen. Es ist ein verwirrendes Dickicht aus Daten.",
+      "response_chars": 183,
+      "response_sentences": 4,
+      "latency_ms": 197.1352999971714,
+      "tags_found": [],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 0,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

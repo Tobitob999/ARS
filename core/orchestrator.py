@@ -214,7 +214,7 @@ class Orchestrator:
     def _game_loop(self) -> None:
         from core.mechanics import MechanicsEngine
         from core.ai_backend import extract_probes
-        from core.character import extract_stat_changes, extract_inventory_changes, extract_time_changes, extract_combat_tags
+        from core.character import extract_stat_changes, extract_inventory_changes, extract_time_changes, extract_combat_tags, extract_party_stat_changes
         from core.memory import extract_facts
         from core.time_tracker import TimeTracker
 
@@ -385,14 +385,18 @@ class Orchestrator:
                 self._handle_probe(skill_name, target_value, mechanics)
 
             # ── Kampf-Tags verarbeiten (AD&D 2e) ────────────────────
+            # Im Party-Modus: CombatTracker deaktiviert — HP wird ueber
+            # [HP_VERLUST: Name | N] Tags in _handle_party_tags() verwaltet.
+            party_state = getattr(self.engine, "party_state", None)
             combat_tags = extract_combat_tags(gm_response)
-            # Initiative-Sortierung: gewinnende Seite zuerst
-            if self._combat_tracker and self._combat_tracker.active and combat_tags:
-                combat_tags = self._sort_by_initiative(combat_tags)
-            for tag_type, data in combat_tags:
-                self._handle_combat(tag_type, data, mechanics)
-                if not self._active:
-                    break  # Spieler tot — restliche Tags ueberspringen
+            if not party_state:
+                # Initiative-Sortierung: gewinnende Seite zuerst
+                if self._combat_tracker and self._combat_tracker.active and combat_tags:
+                    combat_tags = self._sort_by_initiative(combat_tags)
+                for tag_type, data in combat_tags:
+                    self._handle_combat(tag_type, data, mechanics)
+                    if not self._active:
+                        break  # Spieler tot — restliche Tags ueberspringen
 
             if not self._active:
                 break  # Spieler tot — Game Loop beenden
@@ -417,6 +421,22 @@ class Orchestrator:
             for facts in facts_list:
                 self._handle_facts(facts)
 
+            # ── Party-Tags verarbeiten (Multi-Charakter-Modus) ────────
+            self._last_party_tag_count = 0
+            party_state = getattr(self.engine, "party_state", None)
+            if party_state:
+                self._handle_party_tags(gm_response, party_state, mechanics)
+                # TPK-Check: alle tot -> Session beenden
+                if party_state.is_tpk():
+                    tpk_msg = "TOTAL PARTY KILL! Alle Gruppenmitglieder sind gefallen!"
+                    print(f"\n[SYSTEM] {tpk_msg}")
+                    self._emit_game("system", tpk_msg)
+                    from core.event_bus import EventBus
+                    EventBus.get().emit("party", "tpk", {"message": tpk_msg})
+                    self._active = False
+                # Party-Save nach jedem Zug
+                self._handle_party_save(turn_number + 1)
+
             # ── Auto-Save: Turn in DB persistieren ────────────────────
             turn_number += 1
             self._turn_number = turn_number
@@ -439,7 +459,7 @@ class Orchestrator:
                 "response_chars": len(gm_response),
                 "probes": len(probes),
                 "combat_tags": len(combat_tags),
-                "stat_changes": len(stat_changes),
+                "stat_changes": len(stat_changes) + self._last_party_tag_count,
                 "inventory_changes": len(inventory_changes),
                 "time_changes": len(time_changes),
                 "facts": len(facts_list),
@@ -1062,6 +1082,17 @@ class Orchestrator:
         from core.character import (
             extract_stat_changes, extract_inventory_changes, extract_time_changes,
         )
+
+        # Party-Tags haben Vorrang im Party-Modus
+        party_state = getattr(self.engine, "party_state", None)
+        if party_state:
+            self._handle_party_tags(narrative, party_state, mechanics)
+            # Zeit-Tags trotzdem verarbeiten
+            time_changes = extract_time_changes(narrative)
+            for tag_type, value in time_changes:
+                self._handle_time(tag_type, value)
+            return
+
         # Stat-Changes (aber HP_VERLUST im Kampf ueberspringen)
         stat_changes = extract_stat_changes(narrative)
         for change_type, value_str in stat_changes:
@@ -1129,6 +1160,138 @@ class Orchestrator:
 
         print(f"\n{msg}")
         self._emit_game("time", msg)
+
+    # ------------------------------------------------------------------
+    # Party-Tag-Verarbeitung (Multi-Charakter-Modus)
+    # ------------------------------------------------------------------
+
+    def _handle_party_tags(
+        self,
+        gm_response: str,
+        party_state: Any,
+        mechanics: Any,
+    ) -> None:
+        """Verarbeitet Party-spezifische Tags aus der KI-Antwort."""
+        from core.character import extract_party_stat_changes
+        from core.event_bus import EventBus
+        bus = EventBus.get()
+
+        party_tags = extract_party_stat_changes(gm_response)
+        self._last_party_tag_count = len(party_tags) if party_tags else 0
+        if not party_tags:
+            return
+
+        for tag in party_tags:
+            tag_type = tag[0]
+
+            if tag_type == "HP_VERLUST" and len(tag) >= 3:
+                char_name, amount_str = tag[1], tag[2]
+                try:
+                    amount = int(amount_str)
+                except ValueError:
+                    continue
+                msg = party_state.apply_damage(char_name, amount)
+                print(f"\n{msg}")
+                self._emit_game("stat", msg)
+                bus.emit("party", "state_updated", {
+                    "action": "damage",
+                    "character": char_name,
+                    "amount": amount,
+                })
+                # Mitglied-Tod pruefen
+                member = party_state.get_member(char_name)
+                if member and not member.alive:
+                    death_msg = f"{member.name} ist gefallen!"
+                    print(f"[SYSTEM] {death_msg}")
+                    self._emit_game("system", death_msg)
+                    bus.emit("party", "member_died", {
+                        "name": member.name,
+                        "message": death_msg,
+                    })
+
+            elif tag_type == "HP_HEILUNG" and len(tag) >= 3:
+                char_name, amount_str = tag[1], tag[2]
+                try:
+                    amount = mechanics.roll_expression(amount_str)
+                except (ValueError, AttributeError):
+                    try:
+                        amount = int(amount_str)
+                    except ValueError:
+                        continue
+                msg = party_state.apply_healing(char_name, amount)
+                print(f"\n{msg}")
+                self._emit_game("stat", msg)
+                bus.emit("party", "state_updated", {
+                    "action": "healing",
+                    "character": char_name,
+                    "amount": amount,
+                })
+
+            elif tag_type == "ZAUBER_VERBRAUCHT" and len(tag) >= 4:
+                char_name, spell_name, level_str = tag[1], tag[2], tag[3]
+                try:
+                    level = int(level_str)
+                except ValueError:
+                    continue
+                msg = party_state.use_spell(char_name, spell_name, level)
+                print(f"\n{msg}")
+                self._emit_game("stat", msg)
+                bus.emit("party", "state_updated", {
+                    "action": "spell_used",
+                    "character": char_name,
+                    "spell": spell_name,
+                    "level": level,
+                })
+
+            elif tag_type == "INVENTAR" and len(tag) >= 4:
+                item_name, action, char_name = tag[1], tag[2], tag[3]
+                if action in ("gefunden", "gekauft"):
+                    party_state.add_item(char_name, item_name)
+                    msg = f"[INVENTAR] +{item_name} ({action}) -> {char_name}"
+                elif action in ("verloren", "verkauft"):
+                    party_state.remove_item(char_name, item_name)
+                    msg = f"[INVENTAR] -{item_name} ({action}) -> {char_name}"
+                else:
+                    msg = f"[INVENTAR] Unbekannte Aktion: {action}"
+                print(f"\n{msg}")
+                self._emit_game("inventory", msg)
+                bus.emit("party", "state_updated", {
+                    "action": "inventory",
+                    "character": char_name,
+                    "item": item_name,
+                })
+
+        # XP aus Standard-Tags (teilen unter lebenden Mitgliedern)
+        from core.character import extract_stat_changes
+        for change_type, value_str in extract_stat_changes(gm_response):
+            if change_type == "XP_GEWINN":
+                try:
+                    amount = int(value_str)
+                except ValueError:
+                    continue
+                party_state.add_xp(amount)
+                alive = len(party_state.alive_members())
+                share = amount // alive if alive else 0
+                msg = (
+                    f"[XP] +{amount} Erfahrungspunkte "
+                    f"(je ~{share} fuer {alive} Mitglieder)"
+                )
+                print(f"\n{msg}")
+                self._emit_game("stat", msg)
+                bus.emit("party", "state_updated", {
+                    "action": "xp_gain",
+                    "amount": amount,
+                })
+
+    def _handle_party_save(self, turn: int) -> None:
+        """Speichert den Party-State nach jedem Zug."""
+        party_state = getattr(self.engine, "party_state", None)
+        if not party_state:
+            return
+        save_dir = Path(__file__).parent.parent / "data" / "party_saves"
+        module = self.engine.module_name
+        save_path = save_dir / f"party_state_{module}.json"
+        party_state.save_state(str(save_path), turn)
 
     def _update_chronicle(self, turn_number: int) -> None:
         """

@@ -74,6 +74,34 @@ class MechanicsEngine:
         Returns:
             RollResult mit Erfolgsgrad und Beschreibung
         """
+        # AD&D 2e Prozent-Skills: Target > Wuerfelflächen → d100 Modus
+        if target > self.dice_config.faces:
+            roll = self.rng.randint(1, 100)
+            effective_target = max(1, min(target, 100))
+            is_success = roll <= effective_target
+            if roll == 1:
+                level = "critical"
+            elif roll <= effective_target // 5:
+                level = "extreme"
+            elif roll <= effective_target // 2:
+                level = "hard"
+            elif is_success:
+                level = "regular"
+            elif roll >= 96:
+                level = "fumble"
+            else:
+                level = "failure"
+            description = (
+                f"Wurf: {roll} (d100) | Ziel: {effective_target} | "
+                f"{'[OK]' if is_success else '[FEHL]'} "
+                f"{level.replace('critical', 'Kritisch').replace('extreme', 'Extremer Erfolg').replace('hard', 'Harter Erfolg').replace('regular', 'Regulaerer Erfolg').replace('failure', 'Fehlschlag').replace('fumble', 'PATZER')}"
+            )
+            logger.debug("Prozent-Probe: Wurf=%d (d100), Ziel=%d, Ergebnis=%s", roll, effective_target, level)
+            return RollResult(
+                roll=roll, target=effective_target, success_level=level,
+                is_success=is_success, description=description, raw_rolls=[roll],
+            )
+
         effective_target = max(1, min(target, self.dice_config.faces))
         roll, raw_rolls = self._roll_with_modifier(modifier)
         level, is_success = self._evaluate(roll, effective_target)

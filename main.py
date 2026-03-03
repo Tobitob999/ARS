@@ -132,6 +132,12 @@ def parse_args() -> argparse.Namespace:
         help="Override KI temperature (0.0 - 2.0)",
     )
     parser.add_argument(
+        "--speech-style",
+        default=None,
+        choices=["normal", "sanft", "aggressiv"],
+        help="Keeper speech style: normal (balanced), sanft (atmospheric), aggressiv (terse)",
+    )
+    parser.add_argument(
         "--techgui",
         action="store_true",
         help="Launch the developer TechGUI instead of the CLI game loop",
@@ -140,6 +146,17 @@ def parse_args() -> argparse.Namespace:
         "--convert-all",
         action="store_true",
         help="Batch-process all PDFs in coversion/workload/ (no game session)",
+    )
+    parser.add_argument(
+        "--webgui",
+        action="store_true",
+        help="Launch the Web GUI (FastAPI) instead of CLI or TechGUI",
+    )
+    parser.add_argument(
+        "--port",
+        type=int,
+        default=7860,
+        help="Port for the Web GUI (Default: 7860)",
     )
     return parser.parse_args()
 
@@ -186,7 +203,11 @@ def main() -> None:
 
     engine = SimulatorEngine(module_name=args.module, session_config=session_config)
 
-    if args.techgui:
+    if args.webgui:
+        # Web GUI-Modus: FastAPI Server startet Engine on-demand
+        from web.server import run_server
+        run_server(module=args.module, port=args.port)
+    elif args.techgui:
         # TechGUI-Modus: GUI uebernimmt Lifecycle (init, start, stop)
         from gui.tech_gui import TechGUI
         gui = TechGUI(engine)

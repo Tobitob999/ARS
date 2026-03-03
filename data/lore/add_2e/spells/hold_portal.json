@@ -34,15 +34,13 @@
       "canonical_name_guess": null,
       "school_or_type": "Alteration",
       "range": "20 yards/level",
-      "components": null,
+      "components": "V",
       "duration": "1 round/level",
       "casting_time": "1",
-      "area_of_effect": "20 square feetllevel",
+      "area_of_effect": "20 square feet/level",
       "saving_throw": "None",
       "description_excerpt": "This spell magically bars a door, gate, or valve of wood, metal, or stone. The magical closure holds the portal fast, just as if it were securely closed and locked. Any extra- planar creature (djinn, elemental, etc.) with 4 or more Hit Dice can shatter the spell and burst open the portal. A wizard of 4 or more experience levels higher than the spellcaster can open the held portal at will. A knock spell or a successful dispel magic spell can negate the hold portal. Held portals can be broken or physically battered down."
     },
-    "quality_flags": [
-      "missing_standard_fields"
-    ]
+    "quality_flags": []
   }
 }

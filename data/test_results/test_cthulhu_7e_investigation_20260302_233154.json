@@ -1,0 +1,122 @@
+{
+  "module": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "case_id": 2,
+  "case_name": "investigation",
+  "expected_tags": {
+    "PROBE": 3,
+    "FERTIGKEIT_GENUTZT": 1,
+    "FAKT": 1
+  },
+  "total_turns": 5,
+  "total_latency_ms": 11919.470799999544,
+  "avg_latency_ms": 2383.894159999909,
+  "avg_response_chars": 320.0,
+  "avg_sentences": 5.4,
+  "total_probes": 3,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich nehme den Auftrag an und gehe ins Zeitungsarchiv.",
+      "keeper_response": "Knott nickt knapp, seine Miene bleibt ernst. [STIMME:scholar] \"Diskretion ist alles. Sie werden dafuer reichlich entlohnt.\" [STIMME:keeper] Der Wagen bringt Sie durch die lebhaften Strassen Bostons. Bald tauchen Sie ein in die Stille des Zeitungsarchivs.\n\nDer Geruch von altem Papier liegt schwer in der Luft. Staubpartikel tanzen in den Lichtstrahlen, die durch hohe Fenster fallen. Reihen von Regalen erstrecken sich ins Zwielicht.\n[ZEIT_VERGEHT: 0.5h]\nWas suchen Sie in diesem Labyrinth der Vergangenheit?",
+      "response_chars": 508,
+      "response_sentences": 8,
+      "latency_ms": 3563.3084000000963,
+      "tags_found": [
+        "ZEIT_VERGEHT",
+        "STIMME"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich recherchiere alte Berichte ueber das Corbitt-Haus.",
+      "keeper_response": "Sie tauchen ein in Reihen staubiger Jahrgaenge. Die Seiten rascheln leise unter Ihren Fingern. Sie suchen nach Hinweisen auf die 20 Sheafe Street und deren traurige Geschichte. [PROBE: Bibliotheksnutzung | 55] [ZEIT_VERGEHT: 2h]",
+      "response_chars": 228,
+      "response_sentences": 3,
+      "latency_ms": 1810.7137999977567,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich pruefe die Sterberegister nach Walter Corbitt.",
+      "keeper_response": "Der Staub knistert unter Ihren Fingern. Die alten Zeitungen sind schlecht katalogisiert. Ihre Suche fuehrt Sie durch unzusammenhaengende Artikel. Sie finden nur vereinzelte, vage Meldungen ueber Ungluecke in verschiedenen Haeusern Bostons. Die genaue Adresse ist nie genannt. [FERTIGKEIT_GENUTZT: Bibliotheksnutzung]\n\nWas tun Sie als Nächstes?",
+      "response_chars": 343,
+      "response_sentences": 6,
+      "latency_ms": 2281.600399997842,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 0,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich untersuche die Kirchenakten auf Hinweise.",
+      "keeper_response": "Die Arbeit im Archiv war fruchtlos. Sie beschliessen, einen anderen Weg zu gehen. Sie verlassen das staubige Zeitungsarchiv.\n\nEin kurzer Marsch fuehrt Sie zum Hall of Records. Das Gebaeude ist kuehl und formal. Sie erklaeren den Zweck Ihrer Anfrage. [PROBE: Recht | 50] [ZEIT_VERGEHT: 1h]",
+      "response_chars": 288,
+      "response_sentences": 6,
+      "latency_ms": 2101.1115000001155,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich betrete das Corbitt-Haus und schaue mich im Erdgeschoss um.",
+      "keeper_response": "Der Beamte laesst Sie nicht an die Sterberegister. Vielleicht finden Sie einen anderen Weg. Sie kehren zum staubigen Zeitungsarchiv zurueck. Sie suchen dort nach alten Kirchenakten. [PROBE: Bibliotheksnutzung | 55] [ZEIT_VERGEHT: 2h]",
+      "response_chars": 233,
+      "response_sentences": 4,
+      "latency_ms": 2162.736700003734,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

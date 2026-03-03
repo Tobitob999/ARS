@@ -1,0 +1,126 @@
+{
+  "module": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "case_id": 2,
+  "case_name": "investigation",
+  "expected_tags": {
+    "PROBE": 3,
+    "FERTIGKEIT_GENUTZT": 1,
+    "FAKT": 1
+  },
+  "total_turns": 5,
+  "total_latency_ms": 9931.831499998225,
+  "avg_latency_ms": 1986.366299999645,
+  "avg_response_chars": 404.4,
+  "avg_sentences": 6.6,
+  "total_probes": 3,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich nehme den Auftrag an und gehe ins Zeitungsarchiv.",
+      "keeper_response": "Knott nickt knapp. [STIMME:scholar] \"Diskretion ist Ihr bester Freund.\" [STIMME:keeper] Er haendigt Ihnen ein kleines Kuvert aus. Der Inhalt ist eine Abschlagszahlung.\n\nSie verlassen sein kuehles Buero. Die Strasse ist belebt, Arkham erwacht. Ein Taxi bringt Sie zum staedtischen Archiv. Alte Zeitungen warten dort.\n\nDer Raum ist riesig, gefuellt mit dem Geruch von altem Papier. Stille herrscht. Was suchen Sie zuerst in den Jahrgaengen?\n[FAKT: {\"auftrag_angenommen\": true}]\n[INVENTAR: Bestechungskuvert (klein) | gefunden]\n[ZEIT_VERGEHT: 0.5h]\n[PROBE: Bibliotheksnutzung | 55]",
+      "response_chars": 578,
+      "response_sentences": 10,
+      "latency_ms": 3302.2926000048756,
+      "tags_found": [
+        "PROBE",
+        "INVENTAR",
+        "ZEIT_VERGEHT",
+        "FAKT",
+        "STIMME"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 1,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich recherchiere alte Berichte ueber das Corbitt-Haus.",
+      "keeper_response": "Staub liegt schwer in der Luft, vermischt mit dem Geruch alten Papiers. Sie finden sich in den endlosen Reihen des Zeitungsarchivs wieder. Ihre Suche fuehrt Sie schnell zu einer Reihe seltsamer Meldungen.\n\nArtikel beschreiben unerklärliche Unfälle in der Sheafe Street 20. Es gab Brände, Sturz- und Vergiftungsfälle. Diese wiederholten sich ueber Jahrzehnte. [FAKT: {\"unfallmeldungen_gefunden\": true}]\n[FERTIGKEIT_GENUTZT: Bibliotheksnutzung]\n[ZEIT_VERGEHT: 2h]\nWas moechten Sie als Nächstes tun?",
+      "response_chars": 496,
+      "response_sentences": 7,
+      "latency_ms": 1444.0584999974817,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich pruefe die Sterberegister nach Walter Corbitt.",
+      "keeper_response": "Die gedämpfte Stille des Archivs hüllt Sie ein. Finger gleiten über vergilbtes Papier. Sie stoßen auf weitere Artikel, die sich um Walter Corbitt persönlich drehen.\n\nEr galt als exzentrisch, reichte aber in den 1880ern eine Petition ein. Darin forderte er die Anerkennung der \"Church of Contemplation\". Was wissen Sie darueber? [ZEIT_VERGEHT: 0.5h]\n[PROBE: Geschichte | 55]",
+      "response_chars": 373,
+      "response_sentences": 6,
+      "latency_ms": 4575.354600005085,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich untersuche die Kirchenakten auf Hinweise.",
+      "keeper_response": "Du versuchst, die verworrenen Details der lokalen Historie zu entwirren. Viele Fakten entgleiten dir. Die Geschichte der \"Church of Contemplation\" bleibt dir verschlossen.\n\nDu kannst keine weiteren Informationen zu dieser obskuren Gruppe finden. Die Akten sind duenn. [FERTIGKEIT_GENUTZT: Geschichte]\nWas möchtest du als Nächstes tun?",
+      "response_chars": 334,
+      "response_sentences": 6,
+      "latency_ms": 265.9241999936057,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 0,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich betrete das Corbitt-Haus und schaue mich im Erdgeschoss um.",
+      "keeper_response": "Sie verlassen das staubige Zeitungsarchiv. Der Weg fuehrt Sie zum Hall of Records. Der Bau ist aus grauem Granit, kuehl und formal.\n\nHier sind alle wichtigen Dokumente der Stadt gelagert. [ZEIT_VERGEHT: 0.5h]\n[PROBE: Bibliotheksnutzung | 55]",
+      "response_chars": 241,
+      "response_sentences": 4,
+      "latency_ms": 344.20159999717725,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

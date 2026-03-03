@@ -1,7 +1,7 @@
 {
   "schema_version": "1.2.1",
-  "id": "detect_polson",
-  "name": "Detect Polson",
+  "id": "detect_poison",
+  "name": "Detect Poison",
   "compatible_rulesets": [
     "add_2e"
   ],
@@ -12,7 +12,7 @@
     "player_handbook",
     "appendix_conversion"
   ],
-  "summary": "Detect Polson (Divjnatlon) aus dem AD&D 2e Player's Handbook.",
+  "summary": "Detect Poison (Divination) aus dem AD&D 2e Player's Handbook.",
   "source_text": {
     "book": "Player's Handbook (2nd Edition)",
     "appendix": 4,
@@ -29,22 +29,20 @@
     "raw_block": "Detect Polson (Divjnatlon)\nSphere: Divination\nRange: 0\nComponents: V, S, M\nDuration: 1 turn + 1 roun\nCasting Time: 4\nArea of Effect: Special\nSaving Throw: None\npoison is present.\nu,"
   },
   "mechanics": {
-    "school_or_type": "Divjnatlon",
+    "school_or_type": "Divination",
     "parser": "header_block_v3_1",
     "spell_card": {
-      "name": "Detect Polson",
-      "canonical_name_guess": "Detect Poison",
-      "school_or_type": "Divjnatlon",
+      "name": "Detect Poison",
+      "canonical_name_guess": null,
+      "school_or_type": "Divination",
       "range": "0",
       "components": "V, S, M",
-      "duration": "1 turn + 1 roun",
+      "duration": "1 turn + 1 round/level",
       "casting_time": "4",
       "area_of_effect": "Special",
       "saving_throw": "None",
-      "description_excerpt": "poison is present. u,"
+      "description_excerpt": "This spell enables the caster to determine if an object or creature has been poisoned or is poisonous. [Beschreibung unvollstaendig — siehe PHB]"
     },
-    "quality_flags": [
-      "canonical_name_guess_applied"
-    ]
+    "quality_flags": []
   }
 }

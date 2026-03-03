@@ -26,6 +26,7 @@ _DEFAULT_RULES_BUDGET = 6000  # chars (~1500 Tokens)
 _DEFAULT_LORE_BUDGET_PCT = 50  # % of MAX_LORE_CHARS (500K chars)
 
 VALID_DIFFICULTIES = ("easy", "normal", "heroic", "hardcore")
+VALID_SPEECH_STYLES = ("normal", "sanft", "aggressiv")
 
 
 @dataclass
@@ -46,8 +47,15 @@ class SessionConfig:
     temperature: float = _DEFAULT_TEMPERATURE
     rules_budget: int = _DEFAULT_RULES_BUDGET
     lore_budget_pct: int = _DEFAULT_LORE_BUDGET_PCT
+    speech_style: str = "normal"
 
     def __post_init__(self) -> None:
+        if self.speech_style not in VALID_SPEECH_STYLES:
+            logger.warning(
+                "Unknown speech_style '%s', falling back to 'normal'.",
+                self.speech_style,
+            )
+            self.speech_style = "normal"
         if self.difficulty not in VALID_DIFFICULTIES:
             logger.warning(
                 "Unknown difficulty '%s', falling back to '%s'.",
@@ -111,6 +119,8 @@ class SessionConfig:
             cfg.rules_budget = args.rules_budget
         if getattr(args, "lore_budget_pct", None) is not None:
             cfg.lore_budget_pct = args.lore_budget_pct
+        if getattr(args, "speech_style", None) is not None:
+            cfg.speech_style = args.speech_style
 
         cfg.__post_init__()
         return cfg

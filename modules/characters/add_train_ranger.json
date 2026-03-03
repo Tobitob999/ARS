@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.1.0",
+  "id": "add_train_ranger",
+  "name": "Varn Wildtoeter",
+  "compatible_rulesets": ["add_2e"],
+  "archetype": "ranger",
+  "level": 6,
+  "race": "Half-Elf",
+  "class": "Ranger",
+  "alignment": "Chaotic Good",
+  "background": "Varn ist ein obsessiver Monsterjaeger, der jede Kreatur in seinem Notizbuch katalogisiert — mit Schwachstellen und Kill-Methode. Er hat mehr Monster getoetet als die meisten Armeen und ist stolz auf jeden einzelnen Kill.",
+  "traits": "Monsterjaeger, greift zuerst. Kennt die Schwaechen jedes Monsters. Eroeffnet IMMER mit Fernkampf, wechselt dann zu Dual-Wield. Hasst Untote besonders (Favored Enemy). Zaehlt seine Kills laut mit.",
+  "appearance": "Ein drahtiger Halbelf mit Jagdnarben, einem Langbogen der fast so gross ist wie er, und einem Wolfsfell-Umhang. Pfeile stecken ueberall an seinem Koerper verteilt.",
+  "characteristics": {
+    "STR": 16,
+    "DEX": 17,
+    "CON": 15,
+    "INT": 13,
+    "WIS": 14,
+    "CHA": 12
+  },
+  "derived_stats": {
+    "HP": 52,
+    "AC": 4,
+    "THAC0": 15,
+    "Movement": 12,
+    "Attacks_per_Round": "2 (Two-Weapon Fighting)",
+    "notes": "HP: 6d10+6. AC: Chain Mail (5) + DEX 17 (-3). THAC0 15 = Warrior Level 6. Dual-Wield ohne Penalty."
+  },
+  "saving_throws": {
+    "Paralyzation": 10,
+    "Rod": 12,
+    "Petrification": 11,
+    "Breath": 12,
+    "Spell": 13
+  },
+  "skills": {
+    "Tracking": 2,
+    "Weapon Proficiency (Longbow)": 2,
+    "Weapon Proficiency (Long Sword)": 1,
+    "Weapon Proficiency (Short Sword)": 1,
+    "Animal Lore": 1,
+    "Survival (Underground)": 1,
+    "Set Snares": 1,
+    "Alertness": 1
+  },
+  "equipment": [
+    "Longbow +1 (1d8+1, Hauptwaffe Fernkampf)",
+    "Arrows +1 x20 (magisch)",
+    "Arrows (normal) x20",
+    "Long Sword (1d8, Haupthand Nahkampf)",
+    "Short Sword (1d6, Nebenhand)",
+    "Chain Mail (AC 5)",
+    "Potion of Healing x2",
+    "Oil Flasks x3 (Feuer gegen Trolle)",
+    "Backpack",
+    "Rations (7 Tage)",
+    "Rope (50ft)",
+    "Tinderbox",
+    "Torches (4)",
+    "20 GP"
+  ],
+  "spells_prepared": {
+    "1": ["Animal Friendship"],
+    "slots": {"1": 1}
+  },
+  "notes": "PARTY-ROLLE: Ranged DPS + Monsterjaeger. AGGRESSIV: Varn schiesst IMMER zuerst, fragt nie. Longbow +1 mit magischen Pfeilen fuer Fernkampf-Alpha-Strike. Dann Dual-Wield (2 Angriffe/Runde). Oil Flasks gegen Trolle. Favored Enemy Undead: +4 Schaden gegen alle Untoten."
+}

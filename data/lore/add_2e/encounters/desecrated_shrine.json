@@ -1,8 +1,24 @@
 {
-    "id":  "desecrated_shrine",
-    "module_type":  "event",
-    "trigger_condition":  "Opening cracked chapel door",
-    "damage":  "none",
-    "saving_throw":  "none",
-    "effect_description":  "Narrative dungeon dressing or encounter hook."
+    "id": "desecrated_shrine",
+    "module_type": "event",
+    "trigger_condition": "Opening cracked chapel door",
+    "damage": "none",
+    "saving_throw": "none",
+    "effect_description": "Ein einst heiliger Ort wurde durch finstere Kultisten entweiht — Negativenergie durchdringt den Raum und fordert Kleriker zu einer Entscheidung heraus.",
+    "description": "Die rissige Eichentür öffnet sich auf eine kleine Kapelle, deren Symbole des Lichts und des Lebens mit roter und schwarzer Farbe übermalt wurden. Die Götterstatue wurde enthauptet, der Kopf liegt zertrümmert im Eckwinkel. Auf dem Altartisch liegt noch ein frisches Blumenbündel — jemand hat hier kürzlich gebetet, aber zu wem? Ein unangenehmes Kribbeln liegt in der Luft, und Kerzen, die niemand entzündet hat, flackern blau.",
+    "monsters": [],
+    "tactics": "Kein Kampf — aber gute Kleriker spüren die Entweihung sofort als physisches Unbehagen (-1 auf Rettungswürfe solange in der Kammer). Böse Wesen fühlen sich hingegen gestärkt (+1 auf Moral).",
+    "environment": "Kleine Kapelle (15x20 Fuß), Kirchenbänke umgekippt oder zerstört. Ein Seitenraum (hinter zerrissenem Vorhang) diente als Sakristei — dort könnten noch Gegenstände sein.",
+    "difficulty": "easy",
+    "loot": [
+        {"item": "Silbernes Tempelsiegel (Originalreligion, hinter umgestürztem Bett)", "value": "15 SM"},
+        {"item": "Lederbeutel: 3 vergoldete Heiligenmedaillons (beschädigt)", "value": "5 SM je"},
+        {"item": "Kultistenbuch mit Ritualbeschreibungen (Hinweis auf Antagonisten)", "value": "DM-Ermessen"}
+    ],
+    "cr_equivalent": "1-4",
+    "special_rules": {
+        "cleric_restoration": "Ein guter Kleriker kann die Entweihung mit einem Weiheritual aufheben (30 Minuten, Opfergabe von 10 GM Wert). Erfolg: Schrein gibt Segen (+1 RW für 24 Stunden an alle Parteimitglieder, die beten).",
+        "undead_attraction": "Entweihter Schrein: 10% Chance pro Stunde Aufenthalt, dass ein Geist oder Zombie von der Negativenergie angezogen wird",
+        "divine_omen": "Klerikergebet nach Restaurierung enthüllt 1 Hinweis auf den nächsten Dungeon-Hauptraum (DM-Ermessen)"
+    }
 }

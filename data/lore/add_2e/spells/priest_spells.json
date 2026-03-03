@@ -1,18 +1,18 @@
 {
   "schema_version": "1.2.1",
   "id": "priest_spells",
-  "name": "Priest Spells",
+  "name": "[SEKTIONSHEADER] 7th-Level Priest Spells",
   "compatible_rulesets": [
     "add_2e"
   ],
-  "category": "spell",
+  "category": "index_header",
   "tags": [
     "add_2e",
     "spell",
     "player_handbook",
     "appendix_conversion"
   ],
-  "summary": "Priest Spells (7th Level) aus dem AD&D 2e Player's Handbook.",
+  "summary": "[KEIN ZAUBER] OCR-Sektionsheader: Seitenheader der 7th-Level Priest Spells (PHB p.230). Enthält Turn Wood-Textfragment. Kein eigenstaendiger Zauber.",
   "source_text": {
     "book": "Player's Handbook (2nd Edition)",
     "appendix": 4,
@@ -39,11 +39,10 @@
       "casting_time": null,
       "area_of_effect": null,
       "saving_throw": null,
-      "description_excerpt": "pushing back wooden objects in the area of effect at a rate of 40 feet per melee round. The length of the path is 20 feet per level of the caster, thus a 14th-level caster casts a turn wood spell with an area of effect 120 feet wide by 280 feet long, and the spell lasts for 14 rounds. Note that after casting the spell, the path is set and the caster can then do other things or go elsewhere without affecting the spell's power."
+      "description_excerpt": "pushing back wooden objects in the area of effect at a rate of 40 feet per melee round. The length of the path is 20 feet per level of the caster, thus a 14th-level caster casts a turn wood spell with an area of effect 120 feet wide by 280 feet long, and the spell lasts for 14 rounds. Note that after casting the spell, the path is set and the caster can then do other things or go elsewhere without affecting the spell's power. [Beschreibung unvollstaendig — siehe PHB]"
     },
     "quality_flags": [
-      "missing_standard_fields",
-      "trimmed_merged_block"
+      "ocr_section_header_not_a_spell"
     ]
   }
 }

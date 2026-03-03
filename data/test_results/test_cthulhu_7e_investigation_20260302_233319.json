@@ -1,0 +1,130 @@
+{
+  "module": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "case_id": 2,
+  "case_name": "investigation",
+  "expected_tags": {
+    "PROBE": 3,
+    "FERTIGKEIT_GENUTZT": 1,
+    "FAKT": 1
+  },
+  "total_turns": 5,
+  "total_latency_ms": 7456.665699995938,
+  "avg_latency_ms": 1491.3331399991876,
+  "avg_response_chars": 358.4,
+  "avg_sentences": 5.6,
+  "total_probes": 3,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich nehme den Auftrag an und gehe ins Zeitungsarchiv.",
+      "keeper_response": "Mr. Knotts Miene entspannt sich leicht. Der Händedruck ist kurz und fest. Sie verlassen sein sachliches Büro.\n\nDie Stadt erwacht zum Leben. Sie erreichen das staubige Zeitungsarchiv. Dicker Staub tanzt im Lichtstrahl, der durch die hohen Fenster fällt.\n\nWas suchst du in den alten Archiven? [ZEIT_VERGEHT: 0.5h] [TAGESZEIT: 08:30]\n[PROBE: Bibliotheksnutzung | 55]",
+      "response_chars": 363,
+      "response_sentences": 8,
+      "latency_ms": 3059.2579000003752,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT",
+        "TAGESZEIT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich recherchiere alte Berichte ueber das Corbitt-Haus.",
+      "keeper_response": "Staubige Akten schlucken das Licht. Ihre Hände durchkämmen endlose Reihen vergilbter Seiten. Ein beunruhigendes Muster tritt zutage.\n\nÜber Jahrzehnte wiederholen sich die tragischen Zwischenfälle. Sie alle ereigneten sich im Corbitt-Haus. Keine banale Ursache erklärt diese Ereignisse.\n\nWas tun Sie mit dieser verstörenden Erkenntnis? [ZEIT_VERGEHT: 1h] [TAGESZEIT: 09:30]\n[FERTIGKEIT_GENUTZT: Bibliotheksnutzung]\n[FAKT: {\"unfallmeldungen_gefunden\": true}]",
+      "response_chars": 456,
+      "response_sentences": 7,
+      "latency_ms": 3216.1130999957095,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT",
+        "TAGESZEIT",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich pruefe die Sterberegister nach Walter Corbitt.",
+      "keeper_response": "Die Stille des Archivs wird nur durch das Rascheln der Zeitungen unterbrochen. Sie tauchen tiefer in die dunkle Geschichte des Corbitt-Hauses ein. Was genau suchen Sie in diesen alten Berichten? [ZEIT_VERGEHT: 1h] [TAGESZEIT: 10:30]\n[PROBE: Bibliotheksnutzung | 55]",
+      "response_chars": 265,
+      "response_sentences": 3,
+      "latency_ms": 662.6981000008527,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT",
+        "TAGESZEIT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich untersuche die Kirchenakten auf Hinweise.",
+      "keeper_response": "Sie finden einen Artikel, der die Schließung der \"Church of Contemplation\" behandelt. Walter Corbitt wird als führende Figur genannt. Die Schlagzeilen sind voller Andeutungen über obskure Praktiken.\n\nDiese Kirche scheint eine Splittergruppe gewesen zu sein. Sie war in Boston aktiv. [ZEIT_VERGEHT: 0.5h] [TAGESZEIT: 11:00]\n[FERTIGKEIT_GENUTZT: Bibliotheksnutzung]\n[FAKT: {\"church_of_contemplation_gefunden\": true}]",
+      "response_chars": 414,
+      "response_sentences": 5,
+      "latency_ms": 263.68619999993825,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT",
+        "TAGESZEIT",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich betrete das Corbitt-Haus und schaue mich im Erdgeschoss um.",
+      "keeper_response": "Sie verlassen das staubige Archiv. Der Weg führt Sie zur Hall of Records. Es ist ein nüchternes Gebäude aus grauem Stein.\n\nDrinnen riecht es nach altem Papier und Tinte. Eine mürrische Beamtin sitzt hinter einem Schalter. [ZEIT_VERGEHT: 0.5h] [TAGESZEIT: 11:30]\n[PROBE: Bibliotheksnutzung | 55]",
+      "response_chars": 294,
+      "response_sentences": 5,
+      "latency_ms": 254.91039999906207,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT",
+        "TAGESZEIT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

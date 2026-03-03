@@ -33,16 +33,14 @@
       "name": "Plane Shift",
       "canonical_name_guess": null,
       "school_or_type": "Alteration",
-      "range": null,
+      "range": "Touch",
       "components": "V, S, M",
       "duration": "Permanent",
-      "casting_time": null,
+      "casting_time": "8",
       "area_of_effect": "Creature touched (special)",
       "saving_throw": "Neg.",
       "description_excerpt": "When the plane shift spell is cast, the riest moves himself or some other creature ve you app;opriate information as the to another plane of existence. The recipient of the spell remains in the new plane until sent forth by some like means. If several persons link hands in a circle, up to eight can be affected by the plane shift at the same time. The material component of this spell is a small, forked metal rod-the exact size and metal type dictating to which plane of exist- ence (including sub-planes and alternate dimensions) the spell sends the affected creatures. (Your DM will determine specifics regarding how and what planes are reached.) An unwilling victim must be touched (successful attack roll) in order to be sent; in addition, the creature is also allowed a sav- ing throw. If the saving throw is successful, the effect of the spell is negated. Note that pinpoint accuracy is rarel"
     },
-    "quality_flags": [
-      "missing_standard_fields"
-    ]
+    "quality_flags": []
   }
 }

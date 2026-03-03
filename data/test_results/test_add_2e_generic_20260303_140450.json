@@ -1,0 +1,693 @@
+{
+  "module": "add_2e",
+  "adventure": "crawltraining_full",
+  "case_id": 1,
+  "case_name": "generic",
+  "expected_tags": {},
+  "total_turns": 30,
+  "total_latency_ms": 227530.67049998208,
+  "avg_latency_ms": 7584.355683332736,
+  "avg_response_chars": 1665.3333333333333,
+  "avg_sentences": 11.966666666666667,
+  "total_probes": 20,
+  "total_combat_tags": 130,
+  "total_stat_changes": 3,
+  "total_rules_warnings": 18,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich betrete die Taverne und schaue mich um.",
+      "keeper_response": "Die Luft ist dick von Staub und uraltem Verfall. Gebrochene Säulen ragen im dämmrigen Licht empor, Knochen knirschen unter deinen Stiefeln. Aus den Trümmern erheben sich vier knochige Gestalten mit rostigen Klingen.\n[PROBE: Wahrnehmung | 12]\n[ZEIT_VERGEHT: 0.5h]\nDeine Augen erfassen die klappernden Schemen in der Finsternis. Rostige Schwerter blitzen gefährlich in ihren knochigen Händen. Ihre leeren Augenhöhlen glühen schwach rot, als sie sich auf deine Gruppe zubewegen.\n[FERTIGKEIT_GENUTZT: Wahrnehmung]\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 530,
+      "response_sentences": 6,
+      "latency_ms": 12356.17510000884,
+      "tags_found": [
+        "PROBE",
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Grimjaw Eisenfaust: Grimjaw stürmt vor und schlägt mit seiner Axt auf die nächste knochige Gestalt ein.\nSir Kael Zornesklinge: Sir Kael zieht sein Schwert und greift den vordersten Skelettkrieger an.\nBruder Mordain: Bruder Mordain spricht ein Gebet des Segens, um die Gruppe im Kampf zu stärken.\nVarn Wildtoeter: Varn schiesst einen präzisen Pfeil auf eines der Skelette.\nPyra Flammenherz: Pyra entfesselt einen Feuerball auf die Gruppe der Skelette.\nShade Klingenschatten: Shade huscht in den Rücken eines Skeletts, um einen hinterhältigen Angriff auszuführen.",
+      "keeper_response": "[SYSTEM-KONTEXT]\n=== RUNDE 1 — Initiative: Spieler 4 vs Monster 7 — Spieler handeln zuerst ===\n\n=== PARTY STATUS ===\n  Grimjaw Eisenfaust (Fighter 7, Dwarf) [HP:72/72 | AC:2]\n  Sir Kael Zornesklinge (Paladin 6, Human) [HP:54/54 | AC:1] | Spells: L1:2\n  Bruder Mordain (Cleric 6, Human) [HP:42/42 | AC:2] | Spells: L1:5,L2:5,L3:3\n  Varn Wildtoeter (Ranger 6, Half-Elf) [HP:52/52 | AC:4] | Spells: L1:1\n  Pyra Flammenherz (Mage 6, Elf) [HP:18/18 | AC:6] | Spells: L1:4,L2:2,L3:2\n  Shade Klingenschatten (Thief 7, Halfling) [HP:32/32 | AC:4]\n  --- 6/6 alive ---\n\nAnwesende Personen:\n  - Skelett-Krieger 1: \n  - Skelett-Krieger 2: \n  - Skelett-Krieger 3: \n  - Skelett-Krieger 4: \n\n[Keeper-Notiz: Pyra's Feuerball ist ein Flächenzauber. Ich wende ihn auf alle Skelette an. Shade's Hinterhalt erfordert einen Move Silently Check. Danach den Angriff mit Backstab-Multiplikator.]\n\n=== AKTUELLE ZEIT ===\nTag 1, 09:00 (Vormittag) | Wetter: klar\n\n[PROBE: Move Silently | 35] für Shade.\n[/SYSTEM-KONTEXT]\nDie Skelette rücken klappernd vor. Ein Hauch von Moder erfüllt die Luft.\n\nGrimjaw brüllt, seine Axt saust im Bogen herunter. Sir Kael zieht seine Klinge, der Stahl singt. Bruder Mordains Stimme erhebt sich im Gebet, ein schwacher Schimmer umhüllt die Gruppe. Varn spannt seinen Bogen, ein Pfeil zischt durch die Halle. Pyra beginnt, eine Flamme in ihrer Hand zu formen. Shade versucht sich leise hinter die Untoten zu schleichen.\n\n[ANGRIFF: Battle Axe | 14 | 5 | 0] (Grimjaw auf Skelett 1)\n[ANGRIFF: Langschwert | 15 | 5 | 0] (Sir Kael auf Skelett 2)\n[ZAUBER: Bless] (Bruder Mordain auf Gruppe)\n[ANGRIFF: Long Bow | 15 | 5 | 0] (Varn auf Skelett 3)\n[ZAUBER: Fireball] (Pyra auf Skelett-Gruppe)\n[PROBE: Move Silently | 35]\n[SYSTEM-KONTEXT]\n=== RUNDE 1 — Initiative: Spieler 4 vs Monster 7 — Spieler handeln zuerst ===\n\n=== PARTY STATUS ===\n  Grimjaw Eisenfaust (Fighter 7, Dwarf) [HP:72/72 | AC:2]\n  Sir Kael Zornesklinge (Paladin 6, Human) [HP:54/54 | AC:1] | Spells: L1:2\n  Bruder Mordain (Cleric 6, Human) [HP:42/42 | AC:2] | Spells: L1:5,L2:5,L3:3\n  Varn Wildtoeter (Ranger 6, Half-Elf) [HP:52/52 | AC:4] | Spells: L1:1\n  Pyra Flammenherz (Mage 6, Elf) [HP:18/18 | AC:6] | Spells: L1:4,L2:2,L3:2\n  Shade Klingenschatten (Thief 7, Halfling) [HP:32/32 | AC:4]\n  --- 6/6 alive ---\n\nAnwesende Personen:\n  - Skelett-Krieger 1: \n  - Skelett-Krieger 2: \n  - Skelett-Krieger 3: \n  - Skelett-Krieger 4: \n\n[Keeper-Notiz: Pyra's Feuerball ist ein Flächenzauber. Ich wende ihn auf alle Skelette an. Shade's Hinterhalt erfordert einen Move Silently Check. Danach den Angriff mit Backstab-Multiplikator.]\n\n=== AKTUELLE ZEIT ===\nTag 1, 09:00 (Vormittag) | Wetter: klar\n\n[/SYSTEM-KONTEXT]\nShade huscht lautlos wie ein Schatten hinter Skelett 4. Ein Feuerball explodiert in der Mitte der Halle. Knochensplittern fliegen, die Untoten taumeln. Grimjaw und Sir Kael schlagen hart zu. Bruder Mordains Segen stärkt die Entschlossenheit der Gruppe. Varn's Pfeil trifft sein Ziel.\n\n[FERTIGKEIT_GENUTZT: Move Silently]\n[ANGRIFF: Battle Axe | 14 | 5 | 0] (Grimjaw auf Skelett 1)\n[ANGRIFF: Langschwert | 15 | 5 | 0] (Sir Kael auf Skelett 2)\n[ZAUBER: Bless] (Bruder Mordain auf Gruppe)\n[ANGRIFF: Long Bow | 15 | 5 | 0] (Varn auf Skelett 3)\n[ZAUBER: Fireball] (Pyra auf Skelett-Gruppe)\n[ANGRIFF: Kurzschwert | 14 | 5 | 0 | backstab_multiplier: 3] (Shade auf Skelett 4)\n[ZEIT_VERGEHT: 0.1h]\nShades Bewegungen bleiben geschmeidig und unbemerkt. Die Knochenkrieger taumeln vom Feuerball und euren Schlägen. Sie ignorieren ihre Verletzungen und schlagen mit ihren rostigen Schwertern zurück.\n\nZwei Skelette greifen Grimjaw an. Die anderen beiden Untoten richten ihre Klingen auf Sir Kael.\n\n[ANGRIFF: Rostschwert | 19 | 2 | 0] (Skelett 1 auf Grimjaw)\n[ANGRIFF: Rostschwert | 19 | 2 | 0] (Skelett 2 auf Grimjaw)\n[ANGRIFF: Rostschwert | 19 | 1 | 0] (Skelett 3 auf Sir Kael)\n[ANGRIFF: Rostschwert | 19 | 1 | 0] (Skelett 4 auf Sir Kael)\n[FERTIGKEIT_GENUTZT: Move Silently]\n[ZEIT_VERGEHT: 0.1h]",
+      "response_chars": 3951,
+      "response_sentences": 20,
+      "latency_ms": 25048.587400000542,
+      "tags_found": [
+        "PROBE",
+        "FERTIGKEIT_GENUTZT",
+        "ANGRIFF",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 2,
+      "stat_changes": 0,
+      "combat_tags": 11,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [
+        "[REGELCHECK] PROBE: Zielwert 35 ausserhalb Bereich 1-20.",
+        "[REGELCHECK] PROBE: Zielwert 35 ausserhalb Bereich 1-20."
+      ],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Grimjaw Eisenfaust: Greift den Skelett-Krieger 1 an.\nSir Kael Zornesklinge: Greift den Skelett-Krieger 2 an.\nBruder Mordain: Wirkt Segen auf die Gruppe, um ihre Angriffe zu verbessern.\nVarn Wildtoeter: Schießt einen Pfeil auf Skelett-Krieger 3.\nPyra Flammenherz: Wirkt einen Feuerball auf alle vier Skelett-Krieger.\nShade Klingenschatten: Versucht, Skelett-Krieger 4 von hinten zu erdolchen.",
+      "keeper_response": "[SYSTEM-KONTEXT]\n=== RUNDE 2 — Initiative: Spieler 3 vs Monster 8 — Spieler handeln zuerst ===\n\n=== PARTY STATUS ===\n  Grimjaw Eisenfaust (Fighter 7, Dwarf) [HP:72/72 | AC:2]\n  Sir Kael Zornesklinge (Paladin 6, Human) [HP:54/54 | AC:1] | Spells: L1:2\n  Bruder Mordain (Cleric 6, Human) [HP:42/42 | AC:2] | Spells: L1:5,L2:5,L3:3\n  Varn Wildtoeter (Ranger 6, Half-Elf) [HP:52/52 | AC:4] | Spells: L1:1\n  Pyra Flammenherz (Mage 6, Elf) [HP:18/18 | AC:6] | Spells: L1:4,L2:2,L3:2\n  Shade Klingenschatten (Thief 7, Halfling) [HP:32/32 | AC:4]\n  --- 6/6 alive ---\n\nAnwesende Personen:\n  - Skelett-Krieger 1: \n  - Skelett-Krieger 2: \n  - Skelett-Krieger 3: \n  - Skelett-Krieger 4: \n\n=== AKTUELLE ZEIT ===\nTag 1, 09:00 (Vormittag) | Wetter: klar\n\n[/SYSTEM-KONTEXT]\nDie klappernden Skelette wanken, doch ihre roten Augen glühen unvermindert. Grimjaws Axt trifft wieder auf Skelett 1. Sir Kaels Schwert schnellt hervor, um Skelett 2 zu zerteilen. Bruder Mordain verstärkt den Segen seiner Verbündeten, ihre Entschlossenheit wächst. Varn zielt sorgfältig auf Skelett 3. Pyra ruft erneut eine Kugel aus Feuer hervor, die lodernd auf die Untoten zurast. Shade versucht erneut, hinter Skelett 4 zu gelangen.\n\n[ANGRIFF: Battle Axe | 14 | 5 | 0] (Grimjaw auf Skelett 1)\n[ANGRIFF: Langschwert | 15 | 5 | 0] (Sir Kael auf Skelett 2)\n[ZAUBER: Bless] (Bruder Mordain auf Gruppe)\n[ANGRIFF: Long Bow | 15 | 5 | 0] (Varn auf Skelett 3)\n[ZAUBER: Fireball] (Pyra auf Skelett-Gruppe)\n[PROBE: Move Silently | 35]\n[ZEIT_VERGEHT: 0.1h]\n[SYSTEM-KONTEXT]\n=== RUNDE 2 — Initiative: Spieler 3 vs Monster 8 — Spieler handeln zuerst ===\n\n=== PARTY STATUS ===\n  Grimjaw Eisenfaust (Fighter 7, Dwarf) [HP:72/72 | AC:2]\n  Sir Kael Zornesklinge (Paladin 6, Human) [HP:54/54 | AC:1] | Spells: L1:2\n  Bruder Mordain (Cleric 6, Human) [HP:42/42 | AC:2] | Spells: L1:5,L2:5,L3:3\n  Varn Wildtoeter (Ranger 6, Half-Elf) [HP:52/52 | AC:4] | Spells: L1:1\n  Pyra Flammenherz (Mage 6, Elf) [HP:18/18 | AC:6] | Spells: L1:4,L2:2,L3:2\n  Shade Klingenschatten (Thief 7, Halfling) [HP:32/32 | AC:4]\n  --- 6/6 alive ---\n\nAnwesende Personen:\n  - Skelett-Krieger 1: \n  - Skelett-Krieger 2: \n  - Skelett-Krieger 3: \n  - Skelett-Krieger 4: \n\n=== AKTUELLE ZEIT ===\nTag 1, 09:00 (Vormittag) | Wetter: klar\n\n[/SYSTEM-KONTEXT]\nShade stolpert über einen Knochenhaufen, ein lautes Scheppern hallt durch die Halle. Das Skelett dreht sich abrupt um. Pyras Feuerball entfaltet seine volle Zerstörungskraft. Knochen zerspringen, die Luft riecht nach verbranntem Staub. Grimjaws Axt und Sir Kaels Schwert trennen zwei der Untoten. Varn's Pfeil bohrt sich in ein weiteres.\n\n[FERTIGKEIT_GENUTZT: Move Silently]\n[ANGRIFF: Battle Axe | 14 | 5 | 0] (Grimjaw auf Skelett 1)\n[ANGRIFF: Langschwert | 15 | 5 | 0] (Sir Kael auf Skelett 2)\n[ZAUBER: Bless] (Bruder Mordain auf Gruppe)\n[ANGRIFF: Long Bow | 15 | 5 | 0] (Varn auf Skelett 3)\n[ZAUBER: Fireball] (Pyra auf Skelett-Gruppe)\n[ZEIT_VERGEHT: 0.1h]",
+      "response_chars": 2924,
+      "response_sentences": 13,
+      "latency_ms": 12293.043300000136,
+      "tags_found": [
+        "PROBE",
+        "FERTIGKEIT_GENUTZT",
+        "ANGRIFF",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 6,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [
+        "[REGELCHECK] PROBE: Zielwert 35 ausserhalb Bereich 1-20."
+      ],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Grimjaw Eisenfaust: Greift Skelett-Krieger 1 an.\nSir Kael Zornesklinge: Greift Skelett-Krieger 2 an.\nBruder Mordain: Schlägt mit seinem Streitkolben auf Skelett-Krieger 3 ein.\nVarn Wildtoeter: Schießt einen Pfeil auf Skelett-Krieger 4.\nPyra Flammenherz: Wirkt einen Feuerball auf die Gruppe der Skelette.\nShade Klingenschatten: Versucht, Skelett-Krieger 1 von hinten zu erdolchen.",
+      "keeper_response": "[SYSTEM-KONTEXT]\n=== RUNDE 3 — Initiative: Spieler 5 vs Monster 9 — Spieler handeln zuerst ===\n\n=== PARTY STATUS ===\n  Grimjaw Eisenfaust (Fighter 7, Dwarf) [HP:72/72 | AC:2]\n  Sir Kael Zornesklinge (Paladin 6, Human) [HP:54/54 | AC:1] | Spells: L1:2\n  Bruder Mordain (Cleric 6, Human) [HP:42/42 | AC:2] | Spells: L1:5,L2:5,L3:3\n  Varn Wildtoeter (Ranger 6, Half-Elf) [HP:52/52 | AC:4] | Spells: L1:1\n  Pyra Flammenherz (Mage 6, Elf) [HP:18/18 | AC:6] | Spells: L1:4,L2:2,L3:2\n  Shade Klingenschatten (Thief 7, Halfling) [HP:32/32 | AC:4]\n  --- 6/6 alive ---\n\nAnwesende Personen:\n  - Skelett-Krieger 1: [HP:1/8]\n  - Skelett-Krieger 2: [TOT]\n  - Skelett-Krieger 3: [HP:1/8]\n  - Skelett-Krieger 4: [HP:1/8]\n\n=== AKTUELLE ZEIT ===\nTag 1, 09:00 (Vormittag) | Wetter: klar\n\n[/SYSTEM-KONTEXT]\nDie verbliebenen Skelette klappern auf dich zu, ihre Bewegung ist zäher geworden. Grimjaws Axt rauscht erneut auf Skelett 1 herab. Sir Kaels Klinge singt, um Skelett 2 endgültig zu erledigen. Bruder Mordain hebt seinen Streitkolben, bereit, Skelett 3 zu zermalmen. Varn zielt seinen nächsten Pfeil auf Skelett 4. Pyra formt ein weiteres Mal eine glühende Kugel aus Flammen. Shade versucht erneut, unbemerkt zu bleiben und sich hinter Skelett 1 zu schleichen.\n\n[ANGRIFF: Battle Axe | 14 | 5 | 0] (Grimjaw auf Skelett 1)\n[ANGRIFF: Langschwert | 15 | 5 | 0] (Sir Kael auf Skelett 2)\n[ANGRIFF: Mace, Footman's | 15 | 5 | 0] (Bruder Mordain auf Skelett 3)\n[ANGRIFF: Long Bow | 15 | 5 | 0] (Varn auf Skelett 4)\n[ZAUBER: Fireball] (Pyra auf Skelett-Gruppe)\n[PROBE: Move Silently | 35]\n[ZEIT_VERGEHT: 0.1h]\nShade gleitet wie ein Geist, vollkommen lautlos. Er ist hinter Skelett 1, bevor es auch nur den leisesten Hauch einer Gefahr spürt. Pyras Feuerball flammt erneut auf, verschlingt die klappernden Reste. Grimjaws Axt trifft mit donnernder Wucht. Sir Kael schlägt zu, sein Schwert findet kein Ziel mehr. Bruder Mordains Streitkolben zerschmettert Knochen. Varns Pfeil bohrt sich in die letzte Untote.\n\n[FERTIGKEIT_GENUTZT: Move Silently]\n[ANGRIFF: Battle Axe | 14 | 5 | 0] (Grimjaw auf Skelett 1)\n[ANGRIFF: Langschwert | 15 | 5 | 0] (Sir Kael auf Skelett 2)\n[ANGRIFF: Mace, Footman's | 15 | 5 | 0] (Bruder Mordain auf Skelett 3)\n[ANGRIFF: Long Bow | 15 | 5 | 0] (Varn auf Skelett 4)\n[ZAUBER: Fireball] (Pyra auf Skelett-Gruppe)\n[ANGRIFF: Kurzschwert | 14 | 5 | 0 | backstab_multiplier: 3] (Shade auf Skelett 1)\n[ZEIT_VERGEHT: 0.1h]",
+      "response_chars": 2414,
+      "response_sentences": 14,
+      "latency_ms": 9459.127199996146,
+      "tags_found": [
+        "PROBE",
+        "FERTIGKEIT_GENUTZT",
+        "ANGRIFF",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 9,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [
+        "[REGELCHECK] PROBE: Zielwert 35 ausserhalb Bereich 1-20."
+      ],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Grimjaw Eisenfaust: Greift Skelett-Krieger 1 an.\nSir Kael Zornesklinge: Schlägt auf Skelett-Krieger 3 ein.\nBruder Mordain: Wirkt Gebet, um die Gruppe zu stärken.\nVarn Wildtoeter: Stürmt vor und attackiert Skelett-Krieger 4 im Nahkampf.\nPyra Flammenherz: Wirft einen Magischen Geschoss auf einen verbliebenen Skelett-Krieger.\nShade Klingenschatten: Versucht einen Hinterhalt auf den letzten Skelett-Krieger.",
+      "keeper_response": "Die verbliebenen Skelette taumeln schwer getroffen. Ihre knochigen Gliedmaßen bewegen sich langsamer. Grimjaws Axt trifft Skelett 1 erneut. Sir Kael schlägt auf Skelett 3 ein. Bruder Mordain konzentriert sich, um ein weiteres Gebet zu wirken. Varn stürmt mit gezogener Klinge auf Skelett 4 zu. Pyra sammelt arkane Energie. Shade versucht, das letzte stehende Skelett von hinten zu erwischen.\n\n[ANGRIFF: Battle Axe | 14 | 5 | 0] (Grimjaw auf Skelett 1)\n[ANGRIFF: Langschwert | 15 | 5 | 0] (Sir Kael auf Skelett 3)\n[ZAUBER: Prayer] (Bruder Mordain auf Gruppe)\n[ANGRIFF: Langschwert | 15 | 5 | 0] (Varn auf Skelett 4)\n[ZAUBER: Magic Missile] (Pyra auf Skelett 1)\n[PROBE: Move Silently | 35]\n[ZEIT_VERGEHT: 0.1h]\nShade gleitet erneut unbemerkt hinter Skelett 1. Pyras Magisches Geschoss saust pfeilschnell auf Skelett 1 zu. Grimjaws Axt trifft das knochige Ziel mit brutaler Wucht. Sir Kaels Schwert trennt Skelett 3. Bruder Mordains Gebet legt sich wie ein schützender Schleier über die Gruppe. Varns Klinge zerschmettert das letzte Skelett.\n\nDie Stille kehrt in die Halle zurück. Nur das Knirschen von Knochen und der Geruch von verbranntem Staub zeugen vom Kampf.\n\n[FERTIGKEIT_GENUTZT: Move Silently]\n[ANGRIFF: Battle Axe | 14 | 5 | 0] (Grimjaw auf Skelett 1)\n[ANGRIFF: Langschwert | 15 | 5 | 0] (Sir Kael auf Skelett 3)\n[ZAUBER: Prayer] (Bruder Mordain auf Gruppe)\n[ANGRIFF: Langschwert | 15 | 5 | 0] (Varn auf Skelett 4)\n[ZAUBER: Magic Missile] (Pyra auf Skelett 1)\n[ANGRIFF: Kurzschwert | 14 | 5 | 0 | backstab_multiplier: 3] (Shade auf Skelett 1)\n[XP_GEWINN: 260]\n[ZEIT_VERGEHT: 0.1h]\nWas tut ihr nun?",
+      "response_chars": 1604,
+      "response_sentences": 17,
+      "latency_ms": 12807.063500004006,
+      "tags_found": [
+        "PROBE",
+        "XP_GEWINN",
+        "FERTIGKEIT_GENUTZT",
+        "ANGRIFF",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 1,
+      "combat_tags": 7,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [
+        "[REGELCHECK] PROBE: Zielwert 35 ausserhalb Bereich 1-20."
+      ],
+      "error": null
+    },
+    {
+      "turn": 6,
+      "player_input": "Grimjaw Eisenfaust: Grimjaw schlägt mit seiner Axt auf das nächste Skelett ein.\nSir Kael Zornesklinge: Sir Kael greift mit seinem Langschwert das am meisten geschwächte Skelett an.\nBruder Mordain: Bruder Mordain wirkt 'Bless' auf die Gruppe, um ihren Kampfgeist zu stärken.\nVarn Wildtoeter: Varn stürzt sich mit seiner Klinge auf ein weiteres Skelett.\nPyra Flammenherz: Pyra schleudert einen Feuerball auf die Gruppe der Skelette.\nShade Klingenschatten: Shade führt einen tödlichen Rückenstich gegen Skelett 1 aus.",
+      "keeper_response": "Eine gespenstische Stille erfüllt die Halle. Zerborstene Knochen liegen verstreut auf dem staubigen Boden. Die roten Funken in den leeren Augenhöhlen sind erloschen. Die Gefahr ist vorüber.\n\nDie gespenstische Präsenz der Untoten hat sich verzogen.\n[ZEIT_VERGEHT: 0.1h]\nWas möchtet ihr als Nächstes tun?",
+      "response_chars": 302,
+      "response_sentences": 6,
+      "latency_ms": 2267.006499998388,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 7,
+      "player_input": "Grimjaw Eisenfaust: Grimjaw stürmt zur nächsten Tür und stößt sie auf.\nSir Kael Zornesklinge: Sir Kael folgt Grimjaw und hält sein Schwert bereit.\nBruder Mordain: Bruder Mordain drängt mit den anderen in den nächsten Raum.\nVarn Wildtoeter: Varn geht mit gezücktem Bogen in den nächsten Raum.\nPyra Flammenherz: Pyra folgt der Gruppe, bereit einen Zauber zu wirken.\nShade Klingenschatten: Shade schleicht am Rand entlang in den nächsten Raum.",
+      "keeper_response": "Grimjaw stapft entschlossen auf eine schwere Holztür zu, seine Stiefel knirschen auf den Knochen. Die anderen folgen ihm, Waffen bereit, Augen suchend. Sir Kael hält seine Klinge vor sich, Bruder Mordain murmelt leise. Varn spannt seinen Bogen, Pyra ist bereit zu handeln. Shade versucht, unauffällig an der Wand entlangzugleiten.\n\nDie rostige Tür scheint widerwillig, als Grimjaw sie packt.\n[PROBE: Open Doors | 50]\n[ZEIT_VERGEHT: 0.5h]\n[SYSTEM-KONTEXT]\n=== AKTUELLER ORT: Vorraum ===\n\nEin kleiner, enger Raum, dessen Wände mit grotesken Schnitzereien von Leid und Qual bedeckt sind. Ein fauliger Geruch liegt in der Luft. Ein einzelner, schmaler Gang führt tiefer in die Dunkelheit.\n\n=== AKTUELLE ZEIT ===\nTag 1, 09:00 (Vormittag) | Wetter: klar\n\n=== PARTY STATUS ===\n  Grimjaw Eisenfaust (Fighter 7, Dwarf) [HP:72/72 | AC:2]\n  Sir Kael Zornesklinge (Paladin 6, Human) [HP:54/54 | AC:1] | Spells: L1:2\n  Bruder Mordain (Cleric 6, Human) [HP:42/42 | AC:2] | Spells: L1:5,L2:5,L3:3\n  Varn Wildtoeter (Ranger 6, Half-Elf) [HP:52/52 | AC:4] | Spells: L1:1\n  Pyra Flammenherz (Mage 6, Elf) [HP:18/18 | AC:6] | Spells: L1:4,L2:2,L3:2\n  Shade Klingenschatten (Thief 7, Halfling) [HP:32/32 | AC:4]\n  --- 6/6 alive ---\n\n[/SYSTEM-KONTEXT]\nGrimjaw stemmt sich gegen das verrottete Holz. Mit einem knarrenden Seufzer gibt die Tür nach und schwingt auf. Ihr blickt in einen kleinen, engen Raum. Groteske Schnitzereien von Leid bedecken die Wände, ein fauliger Geruch beisst in der Nase. Ein schmaler Gang führt tiefer in die Dunkelheit.\n\n[FERTIGKEIT_GENUTZT: Open Doors]\n[ZEIT_VERGEHT: 0.1h]\nWas zieht eure Aufmerksamkeit auf sich?",
+      "response_chars": 1620,
+      "response_sentences": 15,
+      "latency_ms": 5611.198799990234,
+      "tags_found": [
+        "PROBE",
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [
+        "[REGELCHECK] PROBE: Zielwert 50 ausserhalb Bereich 1-20."
+      ],
+      "error": null
+    },
+    {
+      "turn": 8,
+      "player_input": "Grimjaw Eisenfaust: Grimjaw stürmt in den schmalen Gang voran.\nSir Kael Zornesklinge: Sir Kael folgt Grimjaw dicht in den Gang.\nBruder Mordain: Bruder Mordain betritt den dunklen Gang.\nVarn Wildtoeter: Varn schreitet mit gespanntem Bogen in den Gang.\nPyra Flammenherz: Pyra folgt den anderen in den Gang, bereit für einen Zauber.\nShade Klingenschatten: Shade sucht nach Fallen, während er den Gang betritt.",
+      "keeper_response": "Ihr tretet in den dunklen Gang. Der faulige Geruch wird intensiver, die Schnitzereien scheinen sich in der Dunkelheit zu winden. Jeder Schritt hallt leise, als Grimjaw vorangeht. Shade gleitet aufmerksam am Boden entlang.\n\n[PROBE: Find/Remove Traps | 25]\n[ZEIT_VERGEHT: 0.1h]\nShade tastet mit geschulten Fingern den schmutzigen Boden ab. Nur wenige Schritte im Gang entdeckt er eine fast unsichtbare Stolperdraht, verbunden mit einer verborgenen Öffnung in der Decke. Ein rostiger Käfig würde herabstürzen, gäbe man ihm die Gelegenheit.\n\n[FERTIGKEIT_GENUTZT: Find/Remove Traps]\n[ZEIT_VERGEHT: 0.1h]\nWas unternehmt ihr mit dieser Entdeckung?",
+      "response_chars": 640,
+      "response_sentences": 8,
+      "latency_ms": 20695.58600000164,
+      "tags_found": [
+        "PROBE",
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [
+        "[REGELCHECK] PROBE: Zielwert 25 ausserhalb Bereich 1-20."
+      ],
+      "error": null
+    },
+    {
+      "turn": 9,
+      "player_input": "Grimjaw Eisenfaust: Geht entschlossen weiter in den Gang.\nSir Kael Zornesklinge: Folgt Grimjaw mit gezogener Klinge.\nBruder Mordain: Schließt sich der Gruppe an und schreitet voran.\nVarn Wildtoeter: Hält den Bogen bereit und bewegt sich vorwärts.\nPyra Flammenherz: Bereitet einen offensiven Zauber vor und folgt der Gruppe.\nShade Klingenschatten: Umgeht die Falle und eilt tiefer in den Gang.",
+      "keeper_response": "Shade umgeht den Stolperdraht mit flinken Bewegungen. Die Gruppe folgt vorsichtig, ein gespanntes Schweigen liegt über ihnen. Der Gang wird enger, die geschnitzten Figuren an den Wänden scheinen euch zu beobachten. Ein modriger Geruch vermischt sich mit etwas Schärferem.\n\nNach einigen Metern öffnet sich der Gang zu einer weiteren, größeren Kammer.\n[FAKT: {\"tripline_trap_disarmed\": true}]\n[ZEIT_VERGEHT: 0.5h]\nWas nehmt ihr in diesem neuen Raum wahr?",
+      "response_chars": 452,
+      "response_sentences": 6,
+      "latency_ms": 2521.9049000006635,
+      "tags_found": [
+        "ZEIT_VERGEHT",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 10,
+      "player_input": "Grimjaw Eisenfaust: Er stürmt entschlossen in die Mitte der Kammer.\nSir Kael Zornesklinge: Er folgt Grimjaw dicht, bereit, jede Bedrohung anzugreifen.\nBruder Mordain: Er murmelt ein Gebet, um die Gruppe für den Kampf zu stärken.\nVarn Wildtoeter: Er spannt seinen Bogen und sucht nach potenziellen Zielen.\nPyra Flammenherz: Sie sammelt arkane Energie, bereit, einen Feuerball zu wirken.\nShade Klingenschatten: Er sucht sofort nach Fallen und dem nächsten Ausgang in der Kammer.",
+      "keeper_response": "Die Kammer ist von beunruhigender Größe, ihre Decke verliert sich in der Schwärze. Eine einzelne, riesige Säule aus grob behauenem Stein ragt in der Mitte auf. Am Fuß der Säule liegt ein undefinierbarer Haufen aus Lumpen und Schutt. Aus den Schatten an der Decke tropft unablässig ein zähflüssiges Etwas. Grimjaw stürmt vor. Sir Kael folgt, sein Schwert glänzt im schwachen Licht. Bruder Mordains Lippen bewegen sich stumm im Gebet. Varn hält seinen Bogen gespannt, Pyra sammelt Magie. Shade beginnt, den Raum nach Fallen abzusuchen.\n\n[PROBE: Find/Remove Traps | 25]\n[ZEIT_VERGEHT: 0.5h]\nShade konzentriert sich auf den Boden, seine Wahrnehmung täuscht ihn. Er übersieht die Gefahr von oben. Ein dicker Tropfen zähflüssigen Sekrets fällt auf seine Schulter und lässt die Kleidung rauchen.\n\n[FERTIGKEIT_GENUTZT: Find/Remove Traps]\n[HP_VERLUST: Shade Klingenschatten | 1d4]\n[ZEIT_VERGEHT: 0.1h]\nWie reagiert ihr auf diesen Angriff?",
+      "response_chars": 929,
+      "response_sentences": 13,
+      "latency_ms": 11430.696099996567,
+      "tags_found": [
+        "PROBE",
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [
+        "[REGELCHECK] PROBE: Zielwert 25 ausserhalb Bereich 1-20."
+      ],
+      "error": null
+    },
+    {
+      "turn": 11,
+      "player_input": "Grimjaw Eisenfaust: Stürmt auf den Haufen aus Lumpen und Schutt zu und greift ihn an.\nSir Kael Zornesklinge: Folgt Grimjaw und greift ebenfalls den Haufen am Säulenfuß an.\nBruder Mordain: Wirkt Segen auf die Gruppe, um ihre Angriffe zu verstärken.\nVarn Wildtoeter: Feuert einen Pfeil auf den Haufen am Säulenfuß.\nPyra Flammenherz: Schleudert einen Feuerball auf den verdächtigen Haufen.\nShade Klingenschatten: Versucht, die Säule hochzuklettern, um die Quelle des Tropfens an der Decke anzugreifen.",
+      "keeper_response": "Ein ätzender Schmerz durchzuckt Shaden. Die Kleidung an seiner Schulter beginnt zu rauchen, die Haut darunter brennt.\n\nGrimjaw brüllt und stürmt auf den Haufen aus Lumpen und Schutt zu. Seine Axt schlägt mit einem dumpfen Geräusch in das modrige Gemisch. Sir Kael folgt ihm, seine Klinge zerfetzt sinnlos Stofffetzen. Bruder Mordain murmelt seinen Segen, eine leichte Hoffnung durchweht die Gruppe. Varn schickt einen Pfeil in den Haufen, der nur in den Fasern stecken bleibt. Pyra schleudert einen Feuerball, der den Schutt verbrennt und einen fauligen Gestank freisetzt. Shade aber ignoriert den Haufen. Er versucht, die glitschige Säule hochzuklettern.\n\n[HP_VERLUST: Shade Klingenschatten | 2]\n[PROBE: Climb Walls | 90]\n[ZEIT_VERGEHT: 0.1h]\n[SYSTEM-KONTEXT]\n=== RUNDE 1 — Initiative: Spieler 2 vs Monster 6 — Spieler handeln zuerst ===\n\nAnwesende Personen:\n  - Riesige Schleimkreatur: [HP:28/28]\n\n=== AKTUELLER ORT: Grosse Kammer ===\n\nEin beunruhigend grosser Raum mit einer riesigen Säule in der Mitte. Von der Decke tropft zähflüssiges Sekret.\n\n=== AKTUELLE ZEIT ===\nTag 1, 09:00 (Vormittag) | Wetter: klar\n\n=== PARTY STATUS ===\n  Grimjaw Eisenfaust (Fighter 7, Dwarf) [HP:72/72 | AC:2]\n  Sir Kael Zornesklinge (Paladin 6, Human) [HP:54/54 | AC:1] | Spells: L1:2\n  Bruder Mordain (Cleric 6, Human) [HP:42/42 | AC:2] | Spells: L1:5,L2:5,L3:3\n  Varn Wildtoeter (Ranger 6, Half-Elf) [HP:52/52 | AC:4] | Spells: L1:1\n  Pyra Flammenherz (Mage 6, Elf) [HP:18/18 | AC:6] | Spells: L1:4,L2:2,L3:2\n  Shade Klingenschatten (Thief 7, Halfling) [HP:30/32 | AC:4]\n  --- 6/6 alive ---\n\n[/SYSTEM-KONTEXT]\nShade erklimmt die Säule mit einer Leichtigkeit, die fast übernatürlich wirkt. In der Dunkelheit über euch wird eine riesige, glibberige Masse sichtbar. Sie scheint an der Decke zu kleben, ihre Oberfläche wellt sich bedrohlich. Grimjaws Axt und Sir Kaels Schwert finden im Haufen aus Lumpen und Schutt nichts von Wert. Bruder Mordains Segen stärkt die Gruppe. Varns Pfeil und Pyras Feuerball verfehlen ihr eigentliches Ziel und verbrennen nur den Schutt. Die Kreatur an der Decke scheint nicht beeindruckt.\n\n[FERTIGKEIT_GENUTZT: Climb Walls]\n[ANGRIFF: Kurzschwert | 14 | 8 | 0 | backstab_multiplier: 3] (Shade auf Riesige Schleimkreatur)\n[ANGRIFF: Battle Axe | 14 | 5 | 0] (Grimjaw auf Haufen)\n[ANGRIFF: Langschwert | 15 | 5 | 0] (Sir Kael auf Haufen)\n[ZAUBER: Bless] (Bruder Mordain auf Gruppe)\n[ANGRIFF: Long Bow | 15 | 5 | 0] (Varn auf Haufen)\n[ZAUBER: Fireball] (Pyra auf Haufen)\n[ZEIT_VERGEHT: 0.1h]\nDie riesige Schleimkreatur lässt einen weiteren Tropfen auf Grimjaw fallen.\n[ANGRIFF: Acidic Drop | 19 | 2 | 0] (Riesige Schleimkreatur auf Grimjaw)",
+      "response_chars": 2648,
+      "response_sentences": 20,
+      "latency_ms": 10523.402000006172,
+      "tags_found": [
+        "PROBE",
+        "FERTIGKEIT_GENUTZT",
+        "ANGRIFF",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 5,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [
+        "[REGELCHECK] PROBE: Zielwert 90 ausserhalb Bereich 1-20."
+      ],
+      "error": null
+    },
+    {
+      "turn": 12,
+      "player_input": "Grimjaw Eisenfaust: Grimjaw greift die glitschige Säule an, um die Quelle des Ätzmittels zu zerstören.\nSir Kael Zornesklinge: Sir Kael folgt Grimjaw und schlägt mit seiner Klinge auf die Säule ein.\nBruder Mordain: Bruder Mordain wirkt Segen auf die Gruppe.\nVarn Wildtoeter: Varn schießt einen weiteren Pfeil auf die glitschige Säule.\nPyra Flammenherz: Pyra schleudert einen Blitz auf die glitschige Säule.\nShade Klingenschatten: Shade versucht, die glitschige Säule zu hinterrücks anzugreifen.",
+      "keeper_response": "[SYSTEM-KONTEXT]\n=== RUNDE 2 — Initiative: Spieler 4 vs Monster 7 — Spieler handeln zuerst ===\n\nAnwesende Personen:\n  - Riesige Schleimkreatur: [HP:28/28]\n\n=== AKTUELLER ORT: Grosse Kammer ===\n\nEin beunruhigend grosser Raum mit einer riesigen Säule in der Mitte. Von der Decke tropft zähflüssiges Sekret.\n\n=== AKTUELLE ZEIT ===\nTag 1, 09:00 (Vormittag) | Wetter: klar\n\n=== PARTY STATUS ===\n  Grimjaw Eisenfaust (Fighter 7, Dwarf) [HP:72/72 | AC:2]\n  Sir Kael Zornesklinge (Paladin 6, Human) [HP:54/54 | AC:1] | Spells: L1:2\n  Bruder Mordain (Cleric 6, Human) [HP:42/42 | AC:2] | Spells: L1:5,L2:2,L3:2\n  Varn Wildtoeter (Ranger 6, Half-Elf) [HP:52/52 | AC:4] | Spells: L1:1\n  Pyra Flammenherz (Mage 6, Elf) [HP:18/18 | AC:6] | Spells: L1:4,L2:2,L3:2\n  Shade Klingenschatten (Thief 7, Halfling) [HP:30/32 | AC:4]\n  --- 6/6 alive ---\n\n[/SYSTEM-KONTEXT]\nGrimjaws Axt trifft die Säule, doch sie scheint widerstandsfähig. Sir Kaels Schwert gleitet von der glitschigen Oberfläche ab. Bruder Mordains Segen legt sich erneut auf euch, ein Gefühl der Stärke durchfährt die Gruppe. Varn schießt einen Pfeil, der ohne Wirkung abprallt. Pyra schleudert einen Blitz, der die Säule kurz erhellt. Shade versucht, seine Position für einen Überraschungsangriff zu nutzen.\n\n[HP_VERLUST: Grimjaw Eisenfaust | 3]\n[ANGRIFF: Battle Axe | 14 | 5 | 0] (Grimjaw auf Riesige Schleimkreatur)\n[ANGRIFF: Langschwert | 15 | 5 | 0] (Sir Kael auf Riesige Schleimkreatur)\n[ZAUBER: Bless] (Bruder Mordain auf Gruppe)\n[ANGRIFF: Long Bow | 15 | 5 | 0] (Varn auf Riesige Schleimkreatur)\n[ZAUBER: Lightning Bolt] (Pyra auf Riesige Schleimkreatur)\n[ANGRIFF: Kurzschwert | 14 | 8 | 0 | backstab_multiplier: 3] (Shade auf Riesige Schleimkreatur)\n[ZEIT_VERGEHT: 0.1h]\nDie glitschige Masse an der Decke wölbt sich bedrohlich. Ein gewaltiger Schwall ätzender Flüssigkeit ergießt sich über Grimjaw und Sir Kael.\n[ANGRIFF: Acidic Spray | 19 | 2 | 0] (Riesige Schleimkreatur auf Grimjaw)\n[ANGRIFF: Acidic Spray | 19 | 1 | 0] (Riesige Schleimkreatur auf Sir Kael)",
+      "response_chars": 2015,
+      "response_sentences": 10,
+      "latency_ms": 3830.0514000002295,
+      "tags_found": [
+        "ANGRIFF",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 6,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 13,
+      "player_input": "Grimjaw Eisenfaust: Greift die Schleimkreatur mit seiner Axt an.\nSir Kael Zornesklinge: Schlägt mit seinem Schwert auf die Schleimkreatur ein.\nBruder Mordain: Greift die Schleimkreatur mit seinem Streitkolben an.\nVarn Wildtoeter: Feuert einen weiteren Pfeil auf die Schleimkreatur ab.\nPyra Flammenherz: Wirkt einen Magic Missile auf die Schleimkreatur.\nShade Klingenschatten: Versucht, die Schleimkreatur aus dem Schatten heraus anzugreifen.",
+      "keeper_response": "Ein Schwall ätzender Flüssigkeit trifft Grimjaw und Sir Kael, ihre Rüstungen zischt. Die Säule pulsiert leise, während Grimjaws Axt in die glibberige Masse schlägt. Sir Kaels Schwert dringt ebenfalls tief ein. Bruder Mordains Streitkolben trifft mit einem widerlichen Schmatzen. Varns Pfeil bohrt sich zischend in die Kreatur. Pyras Magische Geschosse finden ihr Ziel. Shade sticht aus dem Schatten zu.\n\n[HP_VERLUST: Grimjaw Eisenfaust | 5]\n[HP_VERLUST: Sir Kael Zornesklinge | 6]\n[ANGRIFF: Battle Axe | 14 | 8 | 0] (Grimjaw auf Riesige Schleimkreatur)\n[ANGRIFF: Langschwert | 15 | 8 | 0] (Sir Kael auf Riesige Schleimkreatur)\n[ANGRIFF: Mace, Footman's | 15 | 8 | 0] (Bruder Mordain auf Riesige Schleimkreatur)\n[ANGRIFF: Long Bow | 15 | 8 | 0] (Varn auf Riesige Schleimkreatur)\n[ZAUBER: Magic Missile] (Pyra auf Riesige Schleimkreatur)\n[ANGRIFF: Kurzschwert | 14 | 8 | 0] (Shade auf Riesige Schleimkreatur)\n[ZEIT_VERGEHT: 0.1h]\nDie Schleimkreatur lässt einen weiteren Tropfen auf Bruder Mordain fallen.\n[ANGRIFF: Acidic Drop | 19 | 2 | 0] (Riesige Schleimkreatur auf Bruder Mordain)",
+      "response_chars": 1082,
+      "response_sentences": 8,
+      "latency_ms": 5645.297800001572,
+      "tags_found": [
+        "ANGRIFF",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 6,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 14,
+      "player_input": "Grimjaw Eisenfaust: Greift die Riesige Schleimkreatur erneut mit seiner Axt an.\nSir Kael Zornesklinge: Schlägt mit seinem Langschwert auf die Schleimkreatur ein.\nBruder Mordain: Schlägt mit seinem Streitkolben auf die glibberige Masse ein.\nVarn Wildtoeter: Zieht seine Klingen und stürmt in den Nahkampf mit der Kreatur.\nPyra Flammenherz: Wirkt einen Feuerball auf die Riesige Schleimkreatur.\nShade Klingenschatten: Versucht, die Kreatur erneut von hinten zu attackieren.",
+      "keeper_response": "[SYSTEM-KONTEXT]\n=== RUNDE 3 — Initiative: Spieler 3 vs Monster 8 — Spieler handeln zuerst ===\n\nAnwesende Personen:\n  - Riesige Schleimkreatur: [HP:28/28]\n\n=== AKTUELLER ORT: Grosse Kammer ===\n\nEin beunruhigend grosser Raum mit einer riesigen Säule in der Mitte. Von der Decke tropft zähflüssiges Sekret.\n\n=== AKTUELLE ZEIT ===\nTag 1, 09:00 (Vormittag) | Wetter: klar\n\n=== PARTY STATUS ===\n  Grimjaw Eisenfaust (Fighter 7, Dwarf) [HP:72/72 | AC:2]\n  Sir Kael Zornesklinge (Paladin 6, Human) [HP:48/54 | AC:1] | Spells: L1:2\n  Bruder Mordain (Cleric 6, Human) [HP:42/42 | AC:2] | Spells: L1:5,L2:2,L3:2\n  Varn Wildtoeter (Ranger 6, Half-Elf) [HP:52/52 | AC:4] | Spells: L1:1\n  Pyra Flammenherz (Mage 6, Elf) [HP:18/18 | AC:6] | Spells: L1:4,L2:2,L3:2\n  Shade Klingenschatten (Thief 7, Halfling) [HP:30/32 | AC:4]\n  --- 6/6 alive ---\n\n[/SYSTEM-KONTEXT]\nBruder Mordain spürt das Ätzen auf seiner Haut. Grimjaws Axt zerteilt die glibberige Oberfläche. Sir Kaels Schwert dringt tief in die Masse ein. Bruder Mordains Streitkolben trifft mit voller Wucht. Varn stürmt mit gezogenen Klingen heran und attackiert die Kreatur. Pyras Feuerball verzehrt Teile der Kreatur mit zischendem Rauch. Shade versucht, unbemerkt zu bleiben und einen tödlichen Stoß zu setzen.\n\n[HP_VERLUST: Bruder Mordain | 2]\n[ANGRIFF: Battle Axe | 14 | 8 | 0] (Grimjaw auf Riesige Schleimkreatur)\n[ANGRIFF: Langschwert | 15 | 8 | 0] (Sir Kael auf Riesige Schleimkreatur)\n[ANGRIFF: Mace, Footman's | 15 | 8 | 0] (Bruder Mordain auf Riesige Schleimkreatur)\n[ANGRIFF: Langschwert | 15 | 8 | 0] (Varn auf Riesige Schleimkreatur)\n[ZAUBER: Fireball] (Pyra auf Riesige Schleimkreatur)\n[PROBE: Move Silently | 35]\n[ZEIT_VERGEHT: 0.1h]\nShade verschwindet wie ein Hauch, die Säule wird zu seinem lautlosen Sprungbrett. Er ist hinter der wabernden Masse, ungesehen, ungespürt. Grimjaws Axt, Sir Kaels Schwert, Bruder Mordains Streitkolben und Varns Klingen schneiden und schlagen in die glibberige Kreatur, doch ihre immense Form scheint die Angriffe ohne sichtbare Wirkung zu absorbieren. Pyras Feuerball verzehrt Teile der Schleimhaut, doch die Kreatur ist zäh.\n\n[FERTIGKEIT_GENUTZT: Move Silently]\n[ANGRIFF: Kurzschwert | 14 | 8 | 0 | backstab_multiplier: 3] (Shade auf Riesige Schleimkreatur)\n[ZEIT_VERGEHT: 0.1h]\nDie glitschige Masse an der Decke wölbt sich erneut. Ein weiterer Schwall ätzender Flüssigkeit spritzt herab und trifft Pyra.\n[ANGRIFF: Acidic Spray | 19 | 6 | 0] (Riesige Schleimkreatur auf Pyra)",
+      "response_chars": 2468,
+      "response_sentences": 15,
+      "latency_ms": 16200.709999990067,
+      "tags_found": [
+        "PROBE",
+        "FERTIGKEIT_GENUTZT",
+        "ANGRIFF",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 6,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [
+        "[REGELCHECK] PROBE: Zielwert 35 ausserhalb Bereich 1-20."
+      ],
+      "error": null
+    },
+    {
+      "turn": 15,
+      "player_input": "Grimjaw Eisenfaust: Greift die Riesige Schleimkreatur mit seiner Axt an.\nSir Kael Zornesklinge: Schlägt mit seinem Schwert auf die Riesige Schleimkreatur ein.\nBruder Mordain: Wirkt den Segen (Bless) auf die Gruppe, um sie im Kampf zu stärken.\nVarn Wildtoeter: Schiesst einen Pfeil auf die Riesige Schleimkreatur.\nPyra Flammenherz: Schleudert einen Feuerball auf die Riesige Schleimkreatur.\nShade Klingenschatten: Führt einen Hinterhalt-Angriff auf die Riesige Schleimkreatur aus.",
+      "keeper_response": "[SYSTEM-KONTEXT]\n=== RUNDE 4 — Initiative: Spieler 2 vs Monster 6 — Spieler handeln zuerst ===\n\nAnwesende Personen:\n  - Riesige Schleimkreatur: [HP:28/28]\n\n=== AKTUELLER ORT: Grosse Kammer ===\n\nEin beunruhigend grosser Raum mit einer riesigen Säule in der Mitte. Von der Decke tropft zähflüssiges Sekret.\n\n=== AKTUELLE ZEIT ===\nTag 1, 09:00 (Vormittag) | Wetter: klar\n\n=== PARTY STATUS ===\n  Grimjaw Eisenfaust (Fighter 7, Dwarf) [HP:72/72 | AC:2]\n  Sir Kael Zornesklinge (Paladin 6, Human) [HP:48/54 | AC:1] | Spells: L1:2\n  Bruder Mordain (Cleric 6, Human) [HP:40/42 | AC:2] | Spells: L1:5,L2:2,L3:2\n  Varn Wildtoeter (Ranger 6, Half-Elf) [HP:52/52 | AC:4] | Spells: L1:1\n  Pyra Flammenherz (Mage 6, Elf) [HP:18/18 | AC:6] | Spells: L1:4,L2:2,L3:2\n  Shade Klingenschatten (Thief 7, Halfling) [HP:30/32 | AC:4]\n  --- 6/6 alive ---\n\n[/SYSTEM-KONTEXT]\nPyras Haut zischt, als die Säure sie trifft. Grimjaws Axt trifft die glibberige Masse erneut, Sir Kaels Schwert folgt. Bruder Mordains Segen stärkt die Gruppe. Varns Pfeil bohrt sich in die Kreatur. Pyras Feuerball verzehrt weitere Teile. Shade sticht aus seinem Versteck hervor.\n\n[HP_VERLUST: Pyra Flammenherz | 4]\n[ANGRIFF: Battle Axe | 14 | 8 | 0] (Grimjaw auf Riesige Schleimkreatur)\n[ANGRIFF: Langschwert | 15 | 8 | 0] (Sir Kael auf Riesige Schleimkreatur)\n[ZAUBER: Bless] (Bruder Mordain auf Gruppe)\n[ANGRIFF: Long Bow | 15 | 8 | 0] (Varn auf Riesige Schleimkreatur)\n[ZAUBER: Fireball] (Pyra auf Riesige Schleimkreatur)\n[ANGRIFF: Kurzschwert | 14 | 8 | 0 | backstab_multiplier: 3] (Shade auf Riesige Schleimkreatur)\n[ZEIT_VERGEHT: 0.1h]\nDie glibberige Kreatur sendet einen weiteren ätzenden Tropfen auf Grimjaw.\n[ANGRIFF: Acidic Drop | 19 | 2 | 0] (Riesige Schleimkreatur auf Grimjaw)",
+      "response_chars": 1741,
+      "response_sentences": 9,
+      "latency_ms": 3794.3479000095977,
+      "tags_found": [
+        "ANGRIFF",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 5,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 16,
+      "player_input": "Grimjaw Eisenfaust: Grimjaw schlägt mit seiner Axt auf die Schleimkreatur ein.\nSir Kael Zornesklinge: Sir Kael stösst sein Schwert in die glibberige Masse.\nBruder Mordain: Bruder Mordain murmelt ein Gebet und stärkt die Gruppe.\nVarn Wildtoeter: Varn feuert einen weiteren Pfeil auf die Kreatur ab.\nPyra Flammenherz: Pyra schleudert Magische Geschosse auf die Schleimkreatur.\nShade Klingenschatten: Shade versucht, die Schleimkreatur aus dem Schatten zu hinterrücks anzugreifen.",
+      "keeper_response": "Grimjaw schreit auf, als der Ätztropfen seine Rüstung durchbrennt. Trotz des Schmerzes schlägt er erneut zu. Sir Kaels Schwert dringt tief in die glibberige Masse ein. Bruder Mordains Gebet hallt durch die Halle, während Varn einen weiteren Pfeil abschießt. Pyra schleudert ihre Magischen Geschosse. Shade gleitet lautlos, bereit für einen weiteren Angriff.\n\n[HP_VERLUST: Grimjaw Eisenfaust | 2]\n[ANGRIFF: Battle Axe | 14 | 8 | 0] (Grimjaw auf Riesige Schleimkreatur)\n[ANGRIFF: Langschwert | 15 | 8 | 0] (Sir Kael auf Riesige Schleimkreatur)\n[ZAUBER: Prayer] (Bruder Mordain auf Gruppe)\n[ANGRIFF: Long Bow | 15 | 8 | 0] (Varn auf Riesige Schleimkreatur)\n[ZAUBER: Magic Missile] (Pyra auf Riesige Schleimkreatur)\n[PROBE: Move Silently | 35]\n[ZEIT_VERGEHT: 0.1h]\n[SYSTEM-KONTEXT]\n=== RUNDE 5 — Initiative: Spieler 1 vs Monster 6 — Spieler handeln zuerst ===\n\nAnwesende Personen:\n  - Riesige Schleimkreatur: [TOT]\n\n=== AKTUELLER ORT: Grosse Kammer ===\n\nEin beunruhigend grosser Raum mit einer riesigen Säule in der Mitte. Von der Decke tropft zähflüssiges Sekret.\n\n=== AKTUELLE ZEIT ===\nTag 1, 09:00 (Vormittag) | Wetter: klar\n\n=== PARTY STATUS ===\n  Grimjaw Eisenfaust (Fighter 7, Dwarf) [HP:70/72 | AC:2]\n  Sir Kael Zornesklinge (Paladin 6, Human) [HP:48/54 | AC:1] | Spells: L1:2\n  Bruder Mordain (Cleric 6, Human) [HP:40/42 | AC:2] | Spells: L1:5,L2:2,L3:2\n  Varn Wildtoeter (Ranger 6, Half-Elf) [HP:52/52 | AC:4] | Spells: L1:1\n  Pyra Flammenherz (Mage 6, Elf) [HP:14/18 | AC:6] | Spells: L1:4,L2:2,L3:2\n  Shade Klingenschatten (Thief 7, Halfling) [HP:30/32 | AC:4]\n  --- 6/6 alive ---\n\n[/SYSTEM-KONTEXT]\nShade gleitet lautlos in Position. Grimjaws Axt spaltet die glibberige Masse. Sir Kaels Schwert dringt tief ein. Bruder Mordains Gebet stärkt euch alle. Varns Pfeil durchschlägt die Kreatur. Pyras Magische Geschosse zerreissen die letzten Überreste. Die riesige Schleimkreatur löst sich mit einem widerlichen Zischen auf, ihr Körper zerfließt zu einer Pfütze aus ätzendem Schleim.\n\nDer Kampf ist vorbei. Die Stille kehrt in die große Kammer zurück, erfüllt vom Gestank nach Säure und Verwesung.\n\n[FERTIGKEIT_GENUTZT: Move Silently]\n[ANGRIFF: Battle Axe | 14 | 8 | 0] (Grimjaw auf Riesige Schleimkreatur)\n[ANGRIFF: Langschwert | 15 | 8 | 0] (Sir Kael auf Riesige Schleimkreatur)\n[ZAUBER: Prayer] (Bruder Mordain auf Gruppe)\n[ANGRIFF: Long Bow | 15 | 8 | 0] (Varn auf Riesige Schleimkreatur)\n[ZAUBER: Magic Missile] (Pyra auf Riesige Schleimkreatur)\n[ANGRIFF: Kurzschwert | 14 | 8 | 0 | backstab_multiplier: 3] (Shade auf Riesige Schleimkreatur)\n[XP_GEWINN: 650]\n[ZEIT_VERGEHT: 0.1h]\nWas tut ihr als Nächstes in diesem Raum?",
+      "response_chars": 2629,
+      "response_sentences": 18,
+      "latency_ms": 6576.296200000797,
+      "tags_found": [
+        "PROBE",
+        "XP_GEWINN",
+        "FERTIGKEIT_GENUTZT",
+        "ANGRIFF",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 1,
+      "combat_tags": 7,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [
+        "[REGELCHECK] PROBE: Zielwert 35 ausserhalb Bereich 1-20."
+      ],
+      "error": null
+    },
+    {
+      "turn": 17,
+      "player_input": "Grimjaw Eisenfaust: Greift die Schleimkreatur mit seiner Axt an.\nSir Kael Zornesklinge: Schlägt mit seinem Langschwert auf die Kreatur ein.\nBruder Mordain: Schwingt seinen Streitkolben gegen die Schleimkreatur.\nVarn Wildtoeter: Schießt einen weiteren Pfeil auf die Kreatur ab.\nPyra Flammenherz: Wirkt einen Feuerball auf die Schleimkreatur.\nShade Klingenschatten: Versucht einen Hinterhaltangriff auf die Kreatur.",
+      "keeper_response": "Eure Waffen schlagen ins Leere, eure Zauber verpuffen. Wo eben noch die glibberige Masse lauerte, ist jetzt nur noch eine dampfende Pfütze auf dem Steinboden. Der beißende Geruch von Säure vermischt sich mit dem Moder der Kammer. Die gewaltige Säule steht nun still.\n\n[ZEIT_VERGEHT: 0.1h]\nWas nehmt ihr in der stillen Kammer wahr?",
+      "response_chars": 330,
+      "response_sentences": 5,
+      "latency_ms": 2404.766199993901,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 18,
+      "player_input": "Grimjaw Eisenfaust: Stürmt voran zum nächsten Ausgang.\nSir Kael Zornesklinge: Folgt Grimjaw entschlossen in den nächsten Bereich.\nBruder Mordain: Schließt sich der Gruppe an und sucht den nächsten Weg.\nVarn Wildtoeter: Hält Ausschau nach weiteren Bedrohungen, während er vorrückt.\nPyra Flammenherz: Bereitet sich auf den nächsten Kampf vor und bewegt sich weiter.\nShade Klingenschatten: Sucht schnell nach einem Ausgang und drängt die Gruppe vorwärts.",
+      "keeper_response": "Die Gruppe bewegt sich durch die Kammer, ihre Schritte hallen leise auf dem kalten Stein. Grimjaw geht voran, seine Augen suchen nach einer Öffnung. Sir Kael folgt ihm dicht. Bruder Mordain geht mit ruhigem Schritt. Varn scannt die Schatten nach neuen Gefahren. Pyra konzentriert ihre magische Energie. Shade huscht entlang der Wände, sein Blick sucht einen Ausgang.\n\nDie Kammer besitzt drei weitere Gänge. Einer im Norden, einer im Westen, einer im Osten.\n[ZEIT_VERGEHT: 0.5h]\nWelchen Gang wählt ihr?",
+      "response_chars": 501,
+      "response_sentences": 10,
+      "latency_ms": 1730.5563999980222,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 19,
+      "player_input": "Grimjaw Eisenfaust: Er stürmt voran in den nördlichen Gang.\nSir Kael Zornesklinge: Er folgt Grimjaw entschlossen in den nördlichen Gang.\nBruder Mordain: Er marschiert mit ernster Miene in den nördlichen Gang.\nVarn Wildtoeter: Er betritt den nördlichen Gang, bereit für jede Gefahr.\nPyra Flammenherz: Sie bewegt sich mit konzentrierter Energie in den nördlichen Gang.\nShade Klingenschatten: Er huscht lautlos voran in den nördlichen Gang.",
+      "keeper_response": "Ihr betretet den nördlichen Gang. Die Luft wird kühler, ein feiner Nebel steigt vom Boden auf und verhüllt die Sicht. Die Wände sind hier glatt, ohne Schnitzereien. Ein Geräusch wie das leise Plätschern von Wasser ist zu hören, schwach und entfernt.\n\n[ZEIT_VERGEHT: 0.5h]\nWas tut ihr in diesem nebligen Gang?",
+      "response_chars": 308,
+      "response_sentences": 5,
+      "latency_ms": 2101.374499994563,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 20,
+      "player_input": "Grimjaw Eisenfaust: Geht aggressiv voran.\nSir Kael Zornesklinge: Folgt Grimjaw dicht.\nBruder Mordain: Schreitet entschlossen vorwärts.\nVarn Wildtoeter: Bewegt sich zügig durch den Nebel.\nPyra Flammenherz: Bereitet einen offensiven Zauber vor, während sie vorrückt.\nShade Klingenschatten: Sucht kurz nach Fallen, dann bewegt er sich weiter.",
+      "keeper_response": "Der Nebel verdichtet sich, schluckt Geräusche und verformt Schatten. Grimjaw drängt voran, seine Axt schwingt leicht. Sir Kael hält seine Klinge bereit, sein Blick durchbohrt den Dampf. Bruder Mordain murmelt ein Gebet, während Varn seinen Bogen spannt. Pyra sammelt arkane Energie, die Luft knistert. Shade kniet nieder, um den Boden abzutasten.\n\n[PROBE: Find/Remove Traps | 25]\n[ZEIT_VERGEHT: 0.5h]\nShade findet eine subtile Vertiefung im Steinboden. Ein Druckschalter, kaum sichtbar unter dem feuchten Nebel, der eine Fallgrube auslösen würde. Der Mechanismus ist alt, aber funktionstüchtig.\n\n[FERTIGKEIT_GENUTZT: Find/Remove Traps]\n[ZEIT_VERGEHT: 0.1h]\nWas ist eure nächste Handlung?",
+      "response_chars": 687,
+      "response_sentences": 10,
+      "latency_ms": 4561.555199994473,
+      "tags_found": [
+        "PROBE",
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [
+        "[REGELCHECK] PROBE: Zielwert 25 ausserhalb Bereich 1-20."
+      ],
+      "error": null
+    },
+    {
+      "turn": 21,
+      "player_input": "Grimjaw Eisenfaust: Geht voran und überwindet die Falle.\nSir Kael Zornesklinge: Folgt Grimjaw und überspringt die Falle.\nBruder Mordain: Schreitet mutig über die Falle hinweg.\nVarn Wildtoeter: Eilt vorwärts, die Falle umgehend.\nPyra Flammenherz: Bewegt sich zügig über die Falle hinweg.\nShade Klingenschatten: Überwindet die gefundene Falle und drängt weiter.",
+      "keeper_response": "Ihr überwindet die Falle gekonnt. Der Gang führt weiter in den dichten Nebel, das Plätschern wird lauter, fast wie ein Flüstern. Die Kälte nimmt zu. Bald weitet sich der Gang zu einem größeren Raum.\n\n[ZEIT_VERGEHT: 0.5h]\nWas ist in diesem neuen Bereich zu sehen?",
+      "response_chars": 262,
+      "response_sentences": 5,
+      "latency_ms": 1681.776900004479,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 22,
+      "player_input": "Grimjaw Eisenfaust: Grimjaw stürmt als Erster in den Raum.\nSir Kael Zornesklinge: Sir Kael folgt Grimjaw mit erhobener Klinge.\nBruder Mordain: Bruder Mordain murmelt ein Kampfgebet und tritt in den Raum.\nVarn Wildtoeter: Varn tritt in den Raum, den gespannten Bogen vor sich.\nPyra Flammenherz: Pyra stürmt voran, arkane Energie sammelt sich in ihren Händen.\nShade Klingenschatten: Shade huscht als Letzter in den Raum, bereit für einen Hinterhalt.",
+      "keeper_response": "Der Nebel lichtet sich. Vor euch erstreckt sich eine riesige, unterirdische Kaverne. Dunkles Wasser füllt den größten Teil, nur wenige Felsvorsprünge ragen heraus. Ein eisiger Hauch umfängt euch. Schwaches, biolumineszentes Leuchten von fremdartigen Pilzen und Moosen erhellt die Szenerie. Das Plätschern kommt von unzähligen Tropfen, die von der hohen Decke in die Fluten fallen.\n\nGrimjaw betritt den Rand des Wassers.\n[ZEIT_VERGEHT: 0.5h]\nWas nehmt ihr im kalten Licht wahr?",
+      "response_chars": 476,
+      "response_sentences": 8,
+      "latency_ms": 5022.8134999924805,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 23,
+      "player_input": "Grimjaw Eisenfaust: Grimjaw watet tiefer ins kalte Wasser, um die Kaverne weiter zu erkunden.\nSir Kael Zornesklinge: Sir Kael folgt Grimjaw ins Wasser, seine Klinge erhoben und bereit zum Kampf.\nBruder Mordain: Bruder Mordain spricht ein Gebet des Segens über die Gruppe, um ihre Angriffe zu stärken.\nVarn Wildtoeter: Varn scannt die Kaverne mit gespanntem Bogen nach ersten Anzeichen von Bewegung oder Feinden.\nPyra Flammenherz: Pyra sammelt arkane Energie, bereit, einen Flammenstrahl auf jede Bedrohung zu schleudern.\nShade Klingenschatten: Shade sucht entlang der Felsvorsprünge nach einem verdeckten Pfad oder versteckten Gefahren.",
+      "keeper_response": "Grimjaw schreitet ins eisige Wasser, das euch bis zu den Knien reicht. Die Kälte beißt in eure Glieder. Sir Kael folgt ihm, seine Klinge spiegelt das schwache Licht. Bruder Mordains Segen legt sich wie ein warmer Mantel um die Gruppe. Varn scannt die weite Kaverne, sein Blick sucht nach der leisesten Bewegung. Pyra bereitet einen Zauber vor, ihre Handflächen glühen schwach. Shade huscht zu den Felsvorsprüngen, seine Augen suchen nach verborgenen Wegen.\n\nDas Leuchten der Pilze wirft unheimliche Schatten.\n[PROBE: Wahrnehmung | 12]\n[ZEIT_VERGEHT: 0.5h]\n[SYSTEM-KONTEXT]\n=== AKTUELLER ORT: Unterirdische Kaverne ===\n\nEine riesige, unterirdische Kaverne mit dunklem Wasser und einigen Felsvorsprüngen. Biolumineszente Pilze und Moose erhellen die Szenerie schwach.\n\nAnwesende Personen:\n  - Riesiger Wasser-Elementar: \n  - Riesiger Wasser-Elementar: \n\n[Keeper-Notiz: Zwei Wasser-Elementare greifen an. Sie haben 1d8 Schaden mit ihrer Schlagen-Attacke.]\n\n=== AKTUELLE ZEIT ===\nTag 1, 09:00 (Vormittag) | Wetter: klar\n\n=== PARTY STATUS ===\n  Grimjaw Eisenfaust (Fighter 7, Dwarf) [HP:70/72 | AC:2]\n  Sir Kael Zornesklinge (Paladin 6, Human) [HP:48/54 | AC:1] | Spells: L1:2\n  Bruder Mordain (Cleric 6, Human) [HP:38/42 | AC:2] | Spells: L1:5,L2:2,L3:2\n  Varn Wildtoeter (Ranger 6, Half-Elf) [HP:52/52 | AC:4] | Spells: L1:1\n  Pyra Flammenherz (Mage 6, Elf) [HP:14/18 | AC:6] | Spells: L1:4,L2:2,L3:2\n  Shade Klingenschatten (Thief 7, Halfling) [HP:30/32 | AC:4]\n  --- 6/6 alive ---\n\n[/SYSTEM-KONTEXT]\nDurch den Nebel und das schwache Leuchten erkennt ihr zwei riesige Wasserwirbel. Sie formen sich zu zwei humanoid anmutenden Gestalten aus wirbelndem Wasser. Ein tiefes Grollen erfüllt die Kaverne. Sie sind auf euch zugekommen.\n\n[FERTIGKEIT_GENUTZT: Wahrnehmung]\n[ZEIT_VERGEHT: 0.1h]\nWas ist eure Reaktion auf diese gewaltigen Kreaturen?",
+      "response_chars": 1836,
+      "response_sentences": 15,
+      "latency_ms": 4828.023800000665,
+      "tags_found": [
+        "PROBE",
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 24,
+      "player_input": "Grimjaw Eisenfaust: Greift den Riesigen im Wasser an.\nSir Kael Zornesklinge: Stürmt auf den Riesigen zu und attackiert.\nBruder Mordain: Greift den Riesigen mit seinem Streitkolben an.\nVarn Wildtoeter: Schießt einen Pfeil auf den Riesigen ab.\nPyra Flammenherz: Schleudert einen Feuerball auf den Riesigen.\nShade Klingenschatten: Versucht, den Riesigen aus dem Schatten zu hintergehen.",
+      "keeper_response": "Die Wassermassen formen sich zu brüllenden, wirbelnden Gestalten. Ein eiskalter Windzug fegt durch die Kaverne. Grimjaw stürzt sich in die Fluten, seine Axt erhebt sich. Sir Kael folgt, seine Klinge schneidet durch das dunkle Wasser. Bruder Mordain schwingt seinen Streitkolben. Varn spannt seinen Bogen, der Pfeil ist auf eine Kreatur gerichtet. Pyra sammelt feurige Energie. Shade versucht, ungesehen an eine der Wassergestalten heranzuschleichen.\n\n[ANGRIFF: Battle Axe | 14 | 2 | 0] (Grimjaw auf Riesiger Wasser-Elementar 1)\n[ANGRIFF: Langschwert | 15 | 2 | 0] (Sir Kael auf Riesiger Wasser-Elementar 1)\n[ANGRIFF: Mace, Footman's | 15 | 2 | 0] (Bruder Mordain auf Riesiger Wasser-Elementar 1)\n[ANGRIFF: Long Bow | 15 | 2 | 0] (Varn auf Riesiger Wasser-Elementar 2)\n[ZAUBER: Fireball] (Pyra auf Riesiger Wasser-Elementar 2)\n[PROBE: Move Silently | 35]\n[ZEIT_VERGEHT: 0.1h]\n[SYSTEM-KONTEXT]\n=== RUNDE 1 — Initiative: Spieler 1 vs Monster 8 — Spieler handeln zuerst ===\n\nAnwesende Personen:\n  - Riesiger Wasser-Elementar 1: [HP:72/72]\n  - Riesiger Wasser-Elementar 2: [HP:72/72]\n\n=== AKTUELLER ORT: Unterirdische Kaverne ===\n\nEine riesige, unterirdische Kaverne mit dunklem Wasser und einigen Felsvorsprüngen. Biolumineszente Pilze und Moose erhellen die Szenerie schwach.\n\n=== AKTUELLE ZEIT ===\nTag 1, 09:00 (Vormittag) | Wetter: klar\n\n=== PARTY STATUS ===\n  Grimjaw Eisenfaust (Fighter 7, Dwarf) [HP:70/72 | AC:2]\n  Sir Kael Zornesklinge (Paladin 6, Human) [HP:48/54 | AC:1] | Spells: L1:2\n  Bruder Mordain (Cleric 6, Human) [HP:38/42 | AC:2] | Spells: L1:5,L2:2,L3:2\n  Varn Wildtoeter (Ranger 6, Half-Elf) [HP:52/52 | AC:4] | Spells: L1:1\n  Pyra Flammenherz (Mage 6, Elf) [HP:14/18 | AC:6] | Spells: L1:4,L2:2,L3:2\n  Shade Klingenschatten (Thief 7, Halfling) [HP:30/32 | AC:4]\n  --- 6/6 alive ---\n\n[/SYSTEM-KONTEXT]\nShade gleitet geschickt durch das knietiefe Wasser. Der Feuerball von Pyra explodiert auf dem Wasser-Elementar 2, das Wasser zischt und verdampft kurzzeitig. Grimjaws Axt, Sir Kaels Schwert und Bruder Mordains Streitkolben durchdringen die wirbelnde Masse des Wasser-Elementars 1. Varns Pfeil bohrt sich in das strudelnde Wasser. Shade sticht zu, doch seine Klinge scheint im Elementar keine Wirkung zu haben.\n\n[FERTIGKEIT_GENUTZT: Move Silently]\n[ANGRIFF: Battle Axe | 14 | 2 | 0] (Grimjaw auf Riesiger Wasser-Elementar 1)\n[ANGRIFF: Langschwert | 15 | 2 | 0] (Sir Kael auf Riesiger Wasser-Elementar 1)\n[ANGRIFF: Mace, Footman's | 15 | 2 | 0] (Bruder Mordain auf Riesiger Wasser-Elementar 1)\n[ANGRIFF: Long Bow | 15 | 2 | 0] (Varn auf Riesiger Wasser-Elementar 2)\n[ZAUBER: Fireball] (Pyra auf Riesiger Wasser-Elementar 2)\n[ANGRIFF: Kurzschwert | 14 | 2 | 0 | backstab_multiplier: 3] (Shade auf Riesiger Wasser-Elementar 2)\n[ZEIT_VERGEHT: 0.1h]\nDie beiden Elementare schlagen mit gewaltigen Wasserpeitschen auf euch ein.\n[ANGRIFF: Water Whip | 15 | 2 | 0] (Riesiger Wasser-Elementar 1 auf Grimjaw)\n[ANGRIFF: Water Whip | 15 | 1 | 0] (Riesiger Wasser-Elementar 1 auf Sir Kael)\n[ANGRIFF: Water Whip | 15 | 4 | 0] (Riesiger Wasser-Elementar 2 auf Varn Wildtoeter)\n[ANGRIFF: Water Whip | 15 | 6 | 0] (Riesiger Wasser-Elementar 2 auf Pyra Flammenherz)",
+      "response_chars": 3164,
+      "response_sentences": 16,
+      "latency_ms": 9525.501600001007,
+      "tags_found": [
+        "PROBE",
+        "FERTIGKEIT_GENUTZT",
+        "ANGRIFF",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 13,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [
+        "[REGELCHECK] PROBE: Zielwert 35 ausserhalb Bereich 1-20."
+      ],
+      "error": null
+    },
+    {
+      "turn": 25,
+      "player_input": "Grimjaw Eisenfaust: Grimjaw schlägt erneut mit seiner Axt auf den Elementar ein.\nSir Kael Zornesklinge: Sir Kael stürmt vor und greift den Elementar mit seinem Langschwert an.\nBruder Mordain: Bruder Mordain schwingt seinen Streitkolben mit Wucht gegen den Elementar.\nVarn Wildtoeter: Varn zieht seine Klingen und stürmt auf den Wasser-Elementar 2 zu.\nPyra Flammenherz: Pyra entfesselt einen Feuerball auf die Gruppe der Wasser-Elementare.\nShade Klingenschatten: Shade versucht, dem Elementar einen hinterhältigen Stich zu versetzen.",
+      "keeper_response": "Ein gewaltiger Schlag aus Wasser trifft Grimjaw. Sir Kael wird von einer Wasserpeitsche getroffen, die ihn fast umreißt. Varn spürt einen kalten Hieb, und Pyra schreit auf, als die eisige Gischt ihre Haut peitscht. Grimjaws Axt trifft den Elementar 1 erneut. Sir Kaels Schwert dringt in die wirbelnde Masse ein. Bruder Mordains Streitkolben saust herunter. Varn stürmt auf Elementar 2 zu, seine Klingen schneiden durch das Wasser. Pyras Feuerball verzehrt Teile der Elementare. Shade versucht, ungesehen an Elementar 2 heranzukommen.\n\n[HP_VERLUST: Grimjaw Eisenfaust | 5]\n[HP_VERLUST: Sir Kael Zornesklinge | 4]\n[HP_VERLUST: Varn Wildtoeter | 3]\n[HP_VERLUST: Pyra Flammenherz | 2]\n[ANGRIFF: Battle Axe | 14 | 2 | 0] (Grimjaw auf Riesiger Wasser-Elementar 1)\n[ANGRIFF: Langschwert | 15 | 2 | 0] (Sir Kael auf Riesiger Wasser-Elementar 1)\n[ANGRIFF: Mace, Footman's | 15 | 2 | 0] (Bruder Mordain auf Riesiger Wasser-Elementar 1)\n[ANGRIFF: Langschwert | 15 | 2 | 0] (Varn auf Riesiger Wasser-Elementar 2)\n[ZAUBER: Fireball] (Pyra auf Riesiger Wasser-Elementar 2)\n[PROBE: Move Silently | 35]\n[ZEIT_VERGEHT: 0.1h]\n[SYSTEM-KONTEXT]\n=== RUNDE 2 — Initiative: Spieler 1 vs Monster 8 — Spieler handeln zuerst ===\n\nAnwesende Personen:\n  - Riesiger Wasser-Elementar 1: [HP:72/72]\n  - Riesiger Wasser-Elementar 2: [HP:72/72]\n\n=== AKTUELLER ORT: Unterirdische Kaverne ===\n\nEine riesige, unterirdische Kaverne mit dunklem Wasser und einigen Felsvorsprüngen. Biolumineszente Pilze und Moose erhellen die Szenerie schwach.\n\n=== AKTUELLE ZEIT ===\nTag 1, 09:00 (Vormittag) | Wetter: klar\n\n=== PARTY STATUS ===\n  Grimjaw Eisenfaust (Fighter 7, Dwarf) [HP:65/72 | AC:2]\n  Sir Kael Zornesklinge (Paladin 6, Human) [HP:44/54 | AC:1] | Spells: L1:2\n  Bruder Mordain (Cleric 6, Human) [HP:38/42 | AC:2] | Spells: L1:5,L2:2,L3:2\n  Varn Wildtoeter (Ranger 6, Half-Elf) [HP:49/52 | AC:4] | Spells: L1:1\n  Pyra Flammenherz (Mage 6, Elf) [HP:12/18 | AC:6] | Spells: L1:4,L2:2,L3:2\n  Shade Klingenschatten (Thief 7, Halfling) [HP:30/32 | AC:4]\n  --- 6/6 alive ---\n\n[/SYSTEM-KONTEXT]\nShade gleitet wie ein Geist durch das kalte Wasser, seine Bewegungen sind perfekt. Grimjaws Axt, Sir Kaels Schwert und Bruder Mordains Streitkolben treffen Elementar 1. Varns Klingen schneiden in Elementar 2. Pyras Feuerball lässt das Wasser dampfen. Shade sticht zu, seine Klinge verschwindet im wirbelnden Wasser.\n\n[FERTIGKEIT_GENUTZT: Move Silently]\n[ANGRIFF: Battle Axe | 14 | 2 | 0] (Grimjaw auf Riesiger Wasser-Elementar 1)\n[ANGRIFF: Langschwert | 15 | 2 | 0] (Sir Kael auf Riesiger Wasser-Elementar 1)\n[ANGRIFF: Mace, Footman's | 15 | 2 | 0] (Bruder Mordain auf Riesiger Wasser-Elementar 1)\n[ANGRIFF: Langschwert | 15 | 2 | 0] (Varn auf Riesiger Wasser-Elementar 2)\n[ZAUBER: Fireball] (Pyra auf Riesiger Wasser-Elementar 2)\n[ANGRIFF: Kurzschwert | 14 | 2 | 0 | backstab_multiplier: 3] (Shade auf Riesiger Wasser-Elementar 2)\n[ZEIT_VERGEHT: 0.1h]\nDie Elementare wirbeln auf, ihre Peitschen aus Wasser zischen durch die Luft.\n[ANGRIFF: Water Whip | 15 | 2 | 0] (Riesiger Wasser-Elementar 1 auf Grimjaw)\n[ANGRIFF: Water Whip | 15 | 1 | 0] (Riesiger Wasser-Elementar 1 auf Sir Kael)\n[ANGRIFF: Water Whip | 15 | 2 | 0] (Riesiger Wasser-Elementar 1 auf Bruder Mordain)\n[ANGRIFF: Water Whip | 15 | 4 | 0] (Riesiger Wasser-Elementar 2 auf Varn Wildtoeter)\n[ANGRIFF: Water Whip | 15 | 6 | 0] (Riesiger Wasser-Elementar 2 auf Pyra Flammenherz)",
+      "response_chars": 3392,
+      "response_sentences": 17,
+      "latency_ms": 8341.991200009943,
+      "tags_found": [
+        "PROBE",
+        "FERTIGKEIT_GENUTZT",
+        "ANGRIFF",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 14,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [
+        "[REGELCHECK] PROBE: Zielwert 35 ausserhalb Bereich 1-20."
+      ],
+      "error": null
+    },
+    {
+      "turn": 26,
+      "player_input": "Grimjaw Eisenfaust: Greift den Riesigen Wasser-Elementar 1 erneut an.\nSir Kael Zornesklinge: Schlägt mit seinem Langschwert auf den Riesigen Wasser-Elementar 1 ein.\nBruder Mordain: Ruft einen göttlichen Segen über die Gruppe, um ihre Angriffe zu stärken.\nVarn Wildtoeter: Greift den Riesigen Wasser-Elementar 2 mit seinen Klingen an.\nPyra Flammenherz: Schleudert einen Blitzschlag auf den Riesigen Wasser-Elementar 2.\nShade Klingenschatten: Versucht, den Riesigen Wasser-Elementar 2 aus dem Hinterhalt anzugreifen.",
+      "keeper_response": "Grimjaw wird von einem Wasserschlag erfasst, Sir Kael weicht knapp aus. Bruder Mordain spürt die Kälte des Wassers auf seiner Haut. Varn Wildtoeter wird von einem Wirbel getroffen, und Pyra spürt die eisige Gewalt. Grimjaws Axt trifft den Elementar 1. Sir Kaels Schwert dringt in die wirbelnde Masse ein. Bruder Mordain spricht ein Gebet des Segens. Varns Klingen schneiden in Elementar 2. Pyras Blitzschlag zuckt auf Elementar 2 zu. Shade versucht erneut einen Hinterhalt auf Elementar 2.\n\n[HP_VERLUST: Grimjaw Eisenfaust | 6]\n[HP_VERLUST: Bruder Mordain | 5]\n[HP_VERLUST: Varn Wildtoeter | 4]\n[HP_VERLUST: Pyra Flammenherz | 3]\n[ANGRIFF: Battle Axe | 14 | 2 | 0] (Grimjaw auf Riesiger Wasser-Elementar 1)\n[ANGRIFF: Langschwert | 15 | 2 | 0] (Sir Kael auf Riesiger Wasser-Elementar 1)\n[ZAUBER: Bless] (Bruder Mordain auf Gruppe)\n[ANGRIFF: Langschwert | 15 | 2 | 0] (Varn auf Riesiger Wasser-Elementar 2)\n[ZAUBER: Lightning Bolt] (Pyra auf Riesiger Wasser-Elementar 2)\n[PROBE: Move Silently | 35]\n[ZEIT_VERGEHT: 0.1h]\n[SYSTEM-KONTEXT]\n=== RUNDE 3 — Initiative: Spieler 1 vs Monster 8 — Spieler handeln zuerst ===\n\nAnwesende Personen:\n  - Riesiger Wasser-Elementar 1: [HP:72/72]\n  - Riesiger Wasser-Elementar 2: [HP:72/72]\n\n=== AKTUELLER ORT: Unterirdische Kaverne ===\n\nEine riesige, unterirdische Kaverne mit dunklem Wasser und einigen Felsvorsprüngen. Biolumineszente Pilze und Moose erhellen die Szenerie schwach.\n\n=== AKTUELLE ZEIT ===\nTag 1, 09:00 (Vormittag) | Wetter: klar\n\n=== PARTY STATUS ===\n  Grimjaw Eisenfaust (Fighter 7, Dwarf) [HP:59/72 | AC:2]\n  Sir Kael Zornesklinge (Paladin 6, Human) [HP:44/54 | AC:1] | Spells: L1:2\n  Bruder Mordain (Cleric 6, Human) [HP:33/42 | AC:2] | Spells: L1:5,L2:2,L3:2\n  Varn Wildtoeter (Ranger 6, Half-Elf) [HP:45/52 | AC:4] | Spells: L1:1\n  Pyra Flammenherz (Mage 6, Elf) [HP:9/18 | AC:6] | Spells: L1:4,L2:2,L3:2\n  Shade Klingenschatten (Thief 7, Halfling) [HP:30/32 | AC:4]\n  --- 6/6 alive ---\n\n[/SYSTEM-KONTEXT]\nShade bewegt sich lautlos im kalten Wasser. Grimjaws Axt trifft Elementar 1, Sir Kaels Schwert dringt tief ein. Bruder Mordains Segen umgibt die Gruppe. Varns Klingen schneiden in Elementar 2, Pyras Blitzschlag zischt auf die Wasserkreatur. Shade sticht zu, doch seine Klinge gleitet an der wirbelnden Masse ab.\n\n[FERTIGKEIT_GENUTZT: Move Silently]\n[ANGRIFF: Battle Axe | 14 | 2 | 0] (Grimjaw auf Riesiger Wasser-Elementar 1)\n[ANGRIFF: Langschwert | 15 | 2 | 0] (Sir Kael auf Riesiger Wasser-Elementar 1)\n[ZAUBER: Bless] (Bruder Mordain auf Gruppe)\n[ANGRIFF: Langschwert | 15 | 2 | 0] (Varn auf Riesiger Wasser-Elementar 2)\n[ZAUBER: Lightning Bolt] (Pyra auf Riesiger Wasser-Elementar 2)\n[ANGRIFF: Kurzschwert | 14 | 2 | 0 | backstab_multiplier: 3] (Shade auf Riesiger Wasser-Elementar 2)\n[ZEIT_VERGEHT: 0.1h]\nEin gewaltiger Schlag aus Wasser trifft Grimjaw. Sir Kael und Bruder Mordain spüren die kalte Wucht. Varn wird von einem Wirbel erfasst, und Pyra schreit auf.\n[ANGRIFF: Water Whip | 15 | 2 | 0] (Riesiger Wasser-Elementar 1 auf Grimjaw)\n[ANGRIFF: Water Whip | 15 | 1 | 0] (Riesiger Wasser-Elementar 1 auf Sir Kael)\n[ANGRIFF: Water Whip | 15 | 2 | 0] (Riesiger Wasser-Elementar 1 auf Bruder Mordain)\n[ANGRIFF: Water Whip | 15 | 4 | 0] (Riesiger Wasser-Elementar 2 auf Varn Wildtoeter)\n[ANGRIFF: Water Whip | 15 | 6 | 0] (Riesiger Wasser-Elementar 2 auf Pyra Flammenherz)",
+      "response_chars": 3339,
+      "response_sentences": 19,
+      "latency_ms": 6594.528000001446,
+      "tags_found": [
+        "PROBE",
+        "FERTIGKEIT_GENUTZT",
+        "ANGRIFF",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 12,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [
+        "[REGELCHECK] PROBE: Zielwert 35 ausserhalb Bereich 1-20."
+      ],
+      "error": null
+    },
+    {
+      "turn": 27,
+      "player_input": "Grimjaw Eisenfaust: Greift Elementar 1 mit seiner Axt an.\nSir Kael Zornesklinge: Greift Elementar 1 mit seinem Schwert an.\nBruder Mordain: Schlägt mit seinem Streitkolben auf Elementar 2 ein.\nVarn Wildtoeter: Schneidet mit seinen Klingen in Elementar 2.\nPyra Flammenherz: Wirkt einen weiteren Blitzschlag auf Elementar 2.\nShade Klingenschatten: Versucht einen Hinterhalt auf Elementar 2.",
+      "keeper_response": "Grimjaw wird von einem Wasserschlag erfasst, Sir Kael weicht knapp aus. Bruder Mordain spürt die Kälte des Wassers auf seiner Haut. Varn Wildtoeter wird von einem Wirbel getroffen, und Pyra schreit auf, als die eisige Gischt ihre Haut peitscht. Grimjaws Axt trifft den Elementar 1. Sir Kaels Schwert dringt in die wirbelnde Masse ein. Bruder Mordains Streitkolben saust auf Elementar 2 herunter. Varns Klingen schneiden in Elementar 2. Pyras Blitzschlag zuckt auf Elementar 2 zu. Shade versucht erneut einen Hinterhalt auf Elementar 2.\n\n[HP_VERLUST: Grimjaw Eisenfaust | 3]\n[HP_VERLUST: Sir Kael Zornesklinge | 5]\n[HP_VERLUST: Bruder Mordain | 7]\n[HP_VERLUST: Varn Wildtoeter | 4]\n[HP_VERLUST: Pyra Flammenherz | 5]\n[ANGRIFF: Battle Axe | 14 | 2 | 0] (Grimjaw auf Riesiger Wasser-Elementar 1)\n[ANGRIFF: Langschwert | 15 | 2 | 0] (Sir Kael auf Riesiger Wasser-Elementar 1)\n[ANGRIFF: Mace, Footman's | 15 | 2 | 0] (Bruder Mordain auf Riesiger Wasser-Elementar 2)\n[ANGRIFF: Langschwert | 15 | 2 | 0] (Varn auf Riesiger Wasser-Elementar 2)\n[ZAUBER: Lightning Bolt] (Pyra auf Riesiger Wasser-Elementar 2)\n[PROBE: Move Silently | 35]\n[ZEIT_VERGEHT: 0.1h]\n[SYSTEM-KONTEXT]\n=== RUNDE 4 — Initiative: Spieler 1 vs Monster 8 — Spieler handeln zuerst ===\n\nAnwesende Personen:\n  - Riesiger Wasser-Elementar 1: [HP:72/72]\n  - Riesiger Wasser-Elementar 2: [HP:72/72]\n\n=== AKTUELLER ORT: Unterirdische Kaverne ===\n\nEine riesige, unterirdische Kaverne mit dunklem Wasser und einigen Felsvorsprüngen. Biolumineszente Pilze und Moose erhellen die Szenerie schwach.\n\n=== AKTUELLE ZEIT ===\nTag 1, 09:00 (Vormittag) | Wetter: klar\n\n=== PARTY STATUS ===\n  Grimjaw Eisenfaust (Fighter 7, Dwarf) [HP:56/72 | AC:2]\n  Sir Kael Zornesklinge (Paladin 6, Human) [HP:39/54 | AC:1] | Spells: L1:2\n  Bruder Mordain (Cleric 6, Human) [HP:26/42 | AC:2] | Spells: L1:5,L2:2,L3:2\n  Varn Wildtoeter (Ranger 6, Half-Elf) [HP:41/52 | AC:4] | Spells: L1:1\n  Pyra Flammenherz (Mage 6, Elf) [HP:4/18 | AC:6] | Spells: L1:4,L2:2,L3:2\n  Shade Klingenschatten (Thief 7, Halfling) [HP:30/32 | AC:4]\n  --- 6/6 alive ---\n\n[/SYSTEM-KONTEXT]\nShade gleitet lautlos durch das Wasser. Grimjaws Axt trifft Elementar 1, Sir Kaels Schwert dringt tief ein. Bruder Mordains Streitkolben trifft Elementar 2, Varns Klingen schneiden in die Wasserkreatur. Pyras Blitzschlag zuckt auf Elementar 2 zu. Shade sticht zu, doch seine Klinge gleitet an der wirbelnden Masse ab.\n\n[FERTIGKEIT_GENUTZT: Move Silently]\n[ANGRIFF: Battle Axe | 14 | 2 | 0] (Grimjaw auf Riesiger Wasser-Elementar 1)\n[ANGRIFF: Langschwert | 15 | 2 | 0] (Sir Kael auf Riesiger Wasser-Elementar 1)\n[ANGRIFF: Mace, Footman's | 15 | 2 | 0] (Bruder Mordain auf Riesiger Wasser-Elementar 2)\n[ANGRIFF: Langschwert | 15 | 2 | 0] (Varn auf Riesiger Wasser-Elementar 2)\n[ZAUBER: Lightning Bolt] (Pyra auf Riesiger Wasser-Elementar 2)\n[ANGRIFF: Kurzschwert | 14 | 2 | 0 | backstab_multiplier: 3] (Shade auf Riesiger Wasser-Elementar 2)\n[ZEIT_VERGEHT: 0.1h]\nDie Elementare wirbeln auf, ihre Peitschen aus Wasser zischen durch die Luft.\n[ANGRIFF: Water Whip | 15 | 2 | 0] (Riesiger Wasser-Elementar 1 auf Grimjaw)\n[ANGRIFF: Water Whip | 15 | 1 | 0] (Riesiger Wasser-Elementar 1 auf Sir Kael)\n[ANGRIFF: Water Whip | 15 | 2 | 0] (Riesiger Wasser-Elementar 1 auf Bruder Mordain)\n[ANGRIFF: Water Whip | 15 | 4 | 0] (Riesiger Wasser-Elementar 2 auf Varn Wildtoeter)\n[ANGRIFF: Water Whip | 15 | 6 | 0] (Riesiger Wasser-Elementar 2 auf Pyra Flammenherz)",
+      "response_chars": 3440,
+      "response_sentences": 17,
+      "latency_ms": 6500.785199998063,
+      "tags_found": [
+        "PROBE",
+        "FERTIGKEIT_GENUTZT",
+        "ANGRIFF",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 14,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [
+        "[REGELCHECK] PROBE: Zielwert 35 ausserhalb Bereich 1-20."
+      ],
+      "error": null
+    },
+    {
+      "turn": 28,
+      "player_input": "Grimjaw Eisenfaust: Grimjaw greift den Riesigen Wasser-Elementar 1 mit seiner Axt an.\nSir Kael Zornesklinge: Sir Kael schlägt mit seinem Schwert auf den Riesigen Wasser-Elementar 1 ein.\nBruder Mordain: Bruder Mordain schwingt seinen Streitkolben auf Elementar 2.\nVarn Wildtoeter: Varn schneidet mit seinen Klingen auf Elementar 2 ein.\nPyra Flammenherz: Pyra schleudert einen Blitzschlag auf Elementar 2.\nShade Klingenschatten: Shade versucht Elementar 2 von hinten anzugreifen.",
+      "keeper_response": "Grimjaw wird von einem wuchtigen Wasserschlag erfasst. Sir Kael und Bruder Mordain spüren die eiskalte Wucht, während Varn von einem Wirbel getroffen wird. Pyra schreit erneut auf, als die eisige Gischt ihre Haut peitscht. Grimjaws Axt trifft den Elementar 1. Sir Kaels Schwert dringt in die wirbelnde Masse ein. Bruder Mordains Streitkolben saust auf Elementar 2 herunter. Varns Klingen schneiden in Elementar 2. Pyras Blitzschlag zuckt auf Elementar 2 zu. Shade versucht erneut einen Hinterhalt auf Elementar 2.\n\n[HP_VERLUST: Grimjaw Eisenfaust | 8]\n[HP_VERLUST: Sir Kael Zornesklinge | 6]\n[HP_VERLUST: Bruder Mordain | 4]\n[HP_VERLUST: Varn Wildtoeter | 5]\n[HP_VERLUST: Pyra Flammenherz | 4]\n[ANGRIFF: Battle Axe | 14 | 2 | 0] (Grimjaw auf Riesiger Wasser-Elementar 1)\n[ANGRIFF: Langschwert | 15 | 2 | 0] (Sir Kael auf Riesiger Wasser-Elementar 1)\n[ANGRIFF: Mace, Footman's | 15 | 2 | 0] (Bruder Mordain auf Riesiger Wasser-Elementar 2)\n[ANGRIFF: Langschwert | 15 | 2 | 0] (Varn auf Riesiger Wasser-Elementar 2)\n[ZAUBER: Lightning Bolt] (Pyra auf Riesiger Wasser-Elementar 2)\n[PROBE: Move Silently | 35]\n[ZEIT_VERGEHT: 0.1h]\n[SYSTEM-KONTEXT]\n=== RUNDE 5 — Initiative: Spieler 1 vs Monster 8 — Spieler handeln zuerst ===\n\nAnwesende Personen:\n  - Riesiger Wasser-Elementar 1: [HP:2/72]\n  - Riesiger Wasser-Elementar 2: [HP:2/72]\n\n=== AKTUELLER ORT: Unterirdische Kaverne ===\n\nEine riesige, unterirdische Kaverne mit dunklem Wasser und einigen Felsvorsprüngen. Biolumineszente Pilze und Moose erhellen die Szenerie schwach.\n\n=== AKTUELLE ZEIT ===\nTag 1, 09:00 (Vormittag) | Wetter: klar\n\n=== PARTY STATUS ===\n  Grimjaw Eisenfaust (Fighter 7, Dwarf) [HP:48/72 | AC:2]\n  Sir Kael Zornesklinge (Paladin 6, Human) [HP:33/54 | AC:1] | Spells: L1:2\n  Bruder Mordain (Cleric 6, Human) [HP:22/42 | AC:2] | Spells: L1:5,L2:2,L3:2\n  Varn Wildtoeter (Ranger 6, Half-Elf) [HP:36/52 | AC:4] | Spells: L1:1\n  Pyra Flammenherz (Mage 6, Elf) [HP:0/18 | AC:6] | Spells: L1:4,L2:2,L3:2\n  Shade Klingenschatten (Thief 7, Halfling) [HP:30/32 | AC:4]\n  --- 5/6 alive ---\n\n[/SYSTEM-KONTEXT]\nShade verschwindet geschickt im glitzernden Wasser. Grimjaws Axt trifft Elementar 1, es schrumpft merklich. Sir Kaels Schwert dringt tief in die wirbelnde Masse ein. Bruder Mordains Streitkolben saust auf Elementar 2 herunter. Varns Klingen schneiden in Elementar 2, das Wasser zischt. Pyras Blitzschlag zuckt auf Elementar 2 zu, doch die Magierin sackt zusammen, ihr Blick wird glasig. Shade sticht zu, seine Klinge findet einen Schwachpunkt im strudelnden Wasser.\n\n[FERTIGKEIT_GENUTZT: Move Silently]\n[ANGRIFF: Battle Axe | 14 | 2 | 0] (Grimjaw auf Riesiger Wasser-Elementar 1)\n[ANGRIFF: Langschwert | 15 | 2 | 0] (Sir Kael auf Riesiger Wasser-Elementar 1)\n[ANGRIFF: Mace, Footman's | 15 | 2 | 0] (Bruder Mordain auf Riesiger Wasser-Elementar 2)\n[ANGRIFF: Langschwert | 15 | 2 | 0] (Varn auf Riesiger Wasser-Elementar 2)\n[ZAUBER: Lightning Bolt] (Pyra auf Riesiger Wasser-Elementar 2)\n[ANGRIFF: Kurzschwert | 14 | 2 | 0 | backstab_multiplier: 3] (Shade auf Riesiger Wasser-Elementar 2)\n[XP_GEWINN: 1300]\n[ZEIT_VERGEHT: 0.1h]\nDie Elementare kollabieren mit einem letzten Gurgeln, zerfallen zu harmlosen Wasserpfützen. Pyra ist bewusstlos in die kalten Fluten gesunken. Was unternehmt ihr?",
+      "response_chars": 3257,
+      "response_sentences": 21,
+      "latency_ms": 8643.653099992662,
+      "tags_found": [
+        "PROBE",
+        "XP_GEWINN",
+        "FERTIGKEIT_GENUTZT",
+        "ANGRIFF",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 1,
+      "combat_tags": 9,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [
+        "[REGELCHECK] PROBE: Zielwert 35 ausserhalb Bereich 1-20."
+      ],
+      "error": null
+    },
+    {
+      "turn": 29,
+      "player_input": "Grimjaw Eisenfaust: Grimjaw greift Elementar 1 mit seiner Axt an.\nSir Kael Zornesklinge: Sir Kael schlägt mit seinem Schwert auf Elementar 1 ein.\nBruder Mordain: Bruder Mordain schlägt mit seinem Streitkolben auf Elementar 2 ein.\nVarn Wildtoeter: Varn greift Elementar 2 mit seinen Klingen an.\nShade Klingenschatten: Shade versucht erneut einen Hinterhalt auf Elementar 2.",
+      "keeper_response": "Eure Waffen schneiden durch das nun ruhige Wasser, eure Angriffe verpuffen ins Nichts. Die riesigen Wasser-Elementare sind verschwunden, zurück bleibt nur die unheimliche Stille der Kaverne und die kalten Fluten. Pyra treibt bewusstlos im Wasser.\n\n[ZEIT_VERGEHT: 0.1h]\nWas ist eure nächste Handlung?",
+      "response_chars": 299,
+      "response_sentences": 4,
+      "latency_ms": 1712.206399999559,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 30,
+      "player_input": "Grimjaw Eisenfaust: Stürmt vorwärts in den nächsten Bereich.\nSir Kael Zornesklinge: Folgt Grimjaw tiefer in die Kaverne.\nBruder Mordain: Drängt nach vorne und hält Ausschau nach Feinden.\nVarn Wildtoeter: Durchsucht kurz die Umgebung und rückt dann vor.\nShade Klingenschatten: Sucht nach Fallen und schleicht dann weiter.",
+      "keeper_response": "Ihr bewegt euch durch das knietiefe Wasser. Pyra wird von Sir Kael vorsichtig aus den Fluten gezogen und gesichert. Grimjaw bahnt sich den Weg durch die Kaverne, seine Axt ist bereit. Bruder Mordain geht voran, sein Blick suchend. Varn scannt die Umgebung nach verborgenen Gefahren. Shade huscht entlang der feuchten Felswände, seine Augen suchen nach Fallen.\n\n[PROBE: Find/Remove Traps | 25]\n[ZEIT_VERGEHT: 0.5h]\nShade entdeckt eine versteckte, schmale Öffnung in der Felswand, fast gänzlich von Moos und Pilzen verdeckt. Es ist kein offensichtlicher Durchgang, eher ein Spalt, der tiefer in die Dunkelheit führt.\n\n[FERTIGKEIT_GENUTZT: Find/Remove Traps]\n[ZEIT_VERGEHT: 0.1h]\nWas ist eure Reaktion auf diese Entdeckung?",
+      "response_chars": 720,
+      "response_sentences": 9,
+      "latency_ms": 2820.644399995217,
+      "tags_found": [
+        "PROBE",
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [
+        "[REGELCHECK] PROBE: Zielwert 25 ausserhalb Bereich 1-20."
+      ],
+      "error": null
+    }
+  ],
+  "tokens": {
+    "prompt_tokens": 957408,
+    "cached_tokens": 300100,
+    "output_tokens": 18752,
+    "think_tokens": 16255,
+    "total_cost_usd": 0.293713
+  },
+  "player_bot_tokens": {
+    "prompt_tokens": 39140,
+    "output_tokens": 3816,
+    "total_cost_usd": 0.021282
+  }
+}

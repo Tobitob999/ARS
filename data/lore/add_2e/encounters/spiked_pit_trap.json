@@ -1,7 +1,30 @@
 {
-    "id":  "spiked_pit_trap",
-    "module_type":  "trap",
-    "trigger_condition":  "Weighted flagstone",
-    "damage":  "1d6 + 1d4",
-    "saving_throw":  "none"
+    "id": "spiked_pit_trap",
+    "module_type": "trap",
+    "trigger_condition": "Weighted flagstone",
+    "damage": "1d6 + 1d4",
+    "saving_throw": "none",
+    "description": "Eine beschwerte Pflasterplatte gibt unter dem Gewicht eines Charakters nach und klappt in eine 10 Fuß tiefe Grube. Anders als bei einfachen Fallgruben ragen am Boden rost-braun verfärbte Eisenpfähle hervor, geschärft und mit alten Blutspuren überzogen. Der Fall endet nicht einfach — er endet an einem halben Dutzend Spitzen.",
+    "monsters": [],
+    "tactics": "N/A — die Spitzen sind das eigentliche Problem. Neben dem Fallschaden addiert sich der Spießschaden. Zusätzlich: Das Herausziehen aus den Spitzen (falls ein Spieß trifft) erfordert einen weiteren STR-Wurf und verursacht 1d4 Schaden. Ohne Seil oder Hilfe ist das Entkommen sehr schwer.",
+    "environment": "Normaler Korridor oder Kammerboden; die Platte ist 4x4 Fuß groß, kaum von normalem Pflaster zu unterscheiden. Im Schacht: fünf bis acht spitze Eisenpfähle, 3-4 Zoll Durchmesser, je 24 Zoll lang, im Schachbrettmuster angeordnet.",
+    "difficulty": "moderate",
+    "loot": [
+        {"item": "Im Schacht (bei den Überresten früherer Opfer): 2d6 GM und 1d4 Heiltränke (Standardqualität, teils beschädigt)", "value": "2d6 GM + 1d4 Tränke"}
+    ],
+    "cr_equivalent": "2-4",
+    "disarm_dc": "Entdecken: Rand der Platte beim Stab-Sondieren spürbar (automatisch bei direkter Berührung); Suche 2-in-6; Diebe: Fallen suchen. Entschärfen: Platte mit Keil sichern; Brett darüberlegen; oder Springen (DEX 13+).",
+    "trap_details": {
+        "type": "mechanisch/physisch",
+        "trigger": "Druckplatte 50+ Pfund Gewicht auf Mittelpunkt",
+        "area_of_effect": "Einzelner Charakter in der Falltür",
+        "damage_breakdown": {
+            "fall_damage": "1d6 (10 Fuß Fall)",
+            "spike_damage": "1d4 (1d3 Spieße treffen; jeder macht 1d4 Schaden; ein Treffer repräsentiert 1d4)",
+            "extraction_damage": "Wenn Spieß-Treffer: zusätzlich 1d4 beim Herausziehen (STR-Probe erforderlich)"
+        },
+        "climbing_out": "Ohne Spieß-Treffer: STR 12+ + Kletterprobe (3 Runden); mit Treffer (eingespießt): STR-Probe zuerst um loszukommen (1 Runde + 1d4 Schaden), dann Klettern",
+        "detection": "Stab-Sondieren: Platte gibt leicht nach (automatisch spürbar). Suche: 2-in-6. Diebe: Fallen suchen. Dunkel: -2 auf Suche.",
+        "reset": "Platte klappt nach 2 Runden zurück (Federmechanismus)"
+    }
 }

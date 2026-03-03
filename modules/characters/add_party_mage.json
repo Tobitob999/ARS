@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.1.0",
+  "id": "add_party_mage",
+  "name": "Elara Sternenlicht",
+  "compatible_rulesets": ["add_2e"],
+  "archetype": "mage",
+  "level": 6,
+  "race": "Elf",
+  "class": "Mage",
+  "alignment": "Chaotic Good",
+  "background": "Elara wurde in den Silberwaeldern von Celendril geboren und studierte an der Akademie Graustein unter Magister Elric persoenlich. Ihre Faszination fuer verlorene Artefakte brachte sie dazu, die akademische Laufbahn aufzugeben und als Feldzauberin durch die gefaehrlichsten Ruinen der Welt zu streifen. Der Orb der Zeitalter ist fuer sie nicht nur ein Auftrag — es ist eine Obsession. Sie kennt die Theorie des Zeitbandes und will beweisen, dass man den Orb kontrollieren kann, ohne Valdraks Fehler zu wiederholen.",
+  "traits": "Elara ist neugierig bis zur Leichtsinnigkeit und redet schneller als sie denkt. Sie hat eine scharfe Zunge und einen noch schaerferen Verstand. Trotz ihrer zierlichen Erscheinung besitzt sie einen unbeugsamen Willen und weigert sich, vor intellektuellen Raetseln zurueckzuweichen — selbst wenn der gesunde Menschenverstand es laengst gebieten wuerde. Sie hat eine Schwaeche fuer uralte Inschriften und vergisst gelegentlich die Gefahr um sie herum.",
+  "appearance": "Eine schlanke Elfin mit silberblondem Haar, das sie in einem lockeren Knoten traegt. Ihre Augen schimmern in einem unnatuerlichen Violett — ein Nebeneffekt jahrelanger Exposition gegenueber arkaner Energie. Sie traegt eine dunkelblaue Robe ueber leichter Reisekleidung und fuehrt einen knorrigen Eschenstab, der mit leuchtenden Runen bedeckt ist. An ihrem Guertel haengt ein Beutel mit Zauberkomponenten und ein abgegriffenes Zauberbuch.",
+  "characteristics": {
+    "STR": 10,
+    "DEX": 16,
+    "CON": 14,
+    "INT": 18,
+    "WIS": 12,
+    "CHA": 13
+  },
+  "derived_stats": {
+    "HP": 18,
+    "AC": 6,
+    "THAC0": 19,
+    "Movement": 12,
+    "Attacks_per_Round": "1",
+    "notes": "HP: 6d4+6 (CON 14 = +0 for Mage, Mage can only get CON HP bonus up to +2). AC: Bracers of Defense AC 6, DEX 16 = +2 Reaction Adj (not applied to Bracers directly in 2E, DM ruling: AC 6 effective). THAC0 19 = Wizard Level 6. Elf: 90% Sleep/Charm resistance, Infravision 60ft, Secret Door detection 1-in-6 passive."
+  },
+  "saving_throws": {
+    "Paralyzation": 13,
+    "Rod": 9,
+    "Petrification": 11,
+    "Breath": 13,
+    "Spell": 10,
+    "notes": "Wizard Level 6 base saves. Elf: 90% resistance to Sleep and Charm spells."
+  },
+  "skills": {
+    "Spellcraft": 2,
+    "Ancient History": 1,
+    "Read/Write Languages": 1,
+    "Herbalism": 1,
+    "Reading Lips": 1,
+    "notes": "INT 18: 18 max spells/level, 85% chance to learn spell, min spell level 9th. Elven Infravision 60ft. Secret door detection."
+  },
+  "equipment": [
+    "Dagger +1 (1d4+1, throwable)",
+    "Quarterstaff (1d6, two-handed)",
+    "Bracers of Defense AC 6",
+    "Spellbook (alle vorbereiteten Zauber plus: Detect Magic, Read Magic, Identify, Feather Fall, Knock, Levitate, Dispel Magic, Fly)",
+    "Wand of Magic Missiles (40 charges, 2 missiles per charge at 6th level, 2d4+2 damage per activation)",
+    "Scroll of Protection from Undead",
+    "Scroll of Fireball (6d6, backup)",
+    "Component Pouch",
+    "Backpack",
+    "Rations (7 days)",
+    "Waterskin",
+    "Ink & Quill",
+    "Chalk (10 pieces)",
+    "Small Mirror",
+    "25 GP"
+  ],
+  "spells_prepared": {
+    "1": ["Magic Missile", "Magic Missile", "Shield", "Charm Person"],
+    "2": ["Invisibility", "Web"],
+    "3": ["Fireball", "Lightning Bolt"],
+    "slots": {
+      "1": 4,
+      "2": 2,
+      "3": 2
+    },
+    "notes": "Mage Level 6 spell slots: 4/2/2. Magic Missile: 3 missiles at L6 (2d4+2 per cast). Fireball: 6d6, 20ft radius, RETTUNGSWURF Atemwaffe fuer Halbschaden. Lightning Bolt: 6d6, 80ft line. Web: 8000 sqft, STR check to break. Shield: AC 2 vs missiles, AC 4 vs melee for 6 rounds. Charm Person: 1 humanoid, RETTUNGSWURF Spell negates."
+  },
+  "notes": "PARTY-ROLLE: Primaer-Schadensausteiler und Schlachtfeldkontrolle. Elara ist die staerkste Offensivkraft der Gruppe mit Fireball und Lightning Bolt. Web kontrolliert Monsterbewegung, Shield schuetzt sie im Notfall. Die Wand of Magic Missiles (40 Ladungen) gibt zuverlaessigen Schaden auch wenn Sprueche verbraucht sind. TAKTIK: Bleibt in der hinteren Reihe mit Lyra. Eroeffnet Kaempfe mit Fireball/Lightning Bolt gegen Gruppen. Nutzt Web fuer Crowd Control. Spart Sprueche fuer kritische Momente — Wand fuer regulaere Kaempfe. Scroll of Protection from Undead ist KRITISCH fuer Ebene 3 (Wights, Lich). WARNUNG: 18 HP — ein Treffer kann toedlich sein. Muss IMMER geschuetzt werden."
+}

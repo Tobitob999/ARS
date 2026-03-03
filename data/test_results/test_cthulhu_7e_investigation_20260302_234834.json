@@ -1,0 +1,121 @@
+{
+  "module": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "case_id": 2,
+  "case_name": "investigation",
+  "expected_tags": {
+    "PROBE": 3,
+    "FERTIGKEIT_GENUTZT": 1,
+    "FAKT": 1
+  },
+  "total_turns": 5,
+  "total_latency_ms": 66841.74509999866,
+  "avg_latency_ms": 13368.349019999732,
+  "avg_response_chars": 315.2,
+  "avg_sentences": 6.2,
+  "total_probes": 2,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich nehme den Auftrag an und gehe ins Zeitungsarchiv.",
+      "keeper_response": "Eine ernste Geste von Mr. Knott begleitet deine Entscheidung. Das Pult scheint dir nun einen Augenblick zu folgen. [FAKT: {\"auftrag_angenommen\": true}]\n\nDie Strassen von Boston erwachen. Taxen hupen, Menschen eilen vorbei. Du erreichst das staedtische Zeitungsarchiv.\n\nEin schwerer Holzgeruch empfaengt dich. Reihen ueber Reihen von vergilbten Baenden erheben sich. Dicker Staub tanzt im Licht. [ZEIT_VERGEHT: 0.5h]\n\nWas suchst du in diesen Annalen vergangener Tage?",
+      "response_chars": 466,
+      "response_sentences": 10,
+      "latency_ms": 1659.4610000029206,
+      "tags_found": [
+        "ZEIT_VERGEHT",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich recherchiere alte Berichte ueber das Corbitt-Haus.",
+      "keeper_response": "Der Geruch von altem Papier und Druckerschwärze erfüllt die Luft. Reihen über Reihen vergilbter Jahrgänge. Ein leises Rascheln von Seiten ist dein einziger Begleiter. [ZEIT_VERGEHT: 1h]\n[PROBE: Bibliotheksnutzung | 55]",
+      "response_chars": 218,
+      "response_sentences": 3,
+      "latency_ms": 2719.7798999986844,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich pruefe die Sterberegister nach Walter Corbitt.",
+      "keeper_response": "Du blätterst durch unzählige Ausgaben. Die Seiten verschwimmen vor deinen Augen. Nur allgemeine Berichte über das Viertel füllst du mühsam. [FERTIGKEIT_GENUTZT: Bibliotheksnutzung]\n\nDeine Suche bleibt oberflächlich. Die eigentlichen Schrecken bleiben im Verborgenen.\n\nWas tust du als Nächstes?",
+      "response_chars": 293,
+      "response_sentences": 6,
+      "latency_ms": 289.05179999856045,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 0,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich untersuche die Kirchenakten auf Hinweise.",
+      "keeper_response": "Du verlässt das staubige Archiv. Ein Taxi bringt dich durch die belebten Strassen. Das Rathaus ragt vor dir auf. [ZEIT_VERGEHT: 0.5h]\n\nDer Hall of Records ist kühl und förmlich. Überall riecht es nach Papier und Stempelfarbe. Eine ruhige, aber strenge Atmosphäre herrscht.\n\nDu bittest um Zugang zu den Sterberegistern. [PROBE: Recht | 45]",
+      "response_chars": 338,
+      "response_sentences": 7,
+      "latency_ms": 62026.371299994935,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich betrete das Corbitt-Haus und schaue mich im Erdgeschoss um.",
+      "keeper_response": "Die Beamtin blickt dich mit kalten Augen an. Sie verweist auf Vorschriften und Formulare. Du findest nur öffentliche Sterbeurkunden, nichts Auffälliges. [FERTIGKEIT_GENUTZT: Recht]\n\nDie Wahrheit scheint tief vergraben zu liegen. Was unternimmst du als Nächstes?",
+      "response_chars": 261,
+      "response_sentences": 5,
+      "latency_ms": 147.081100003561,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 0,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

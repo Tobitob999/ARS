@@ -1,0 +1,130 @@
+{
+  "module": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "case_id": 2,
+  "case_name": "investigation",
+  "expected_tags": {
+    "PROBE": 3,
+    "FERTIGKEIT_GENUTZT": 1,
+    "FAKT": 1
+  },
+  "total_turns": 5,
+  "total_latency_ms": 68912.78009999951,
+  "avg_latency_ms": 13782.556019999902,
+  "avg_response_chars": 303.6,
+  "avg_sentences": 4.4,
+  "total_probes": 3,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich nehme den Auftrag an und gehe ins Zeitungsarchiv.",
+      "keeper_response": "Mr. Knott nickt zufrieden. Seine Worte hallen in deinem Kopf: 'Diskretion ist Gold wert.' Du verlässt sein sachliches Büro und trittst in die geschäftige Stadt. [FAKT: {\"auftrag_angenommen\": true}] [ZEIT_VERGEHT: 0.5h] [TAGESZEIT: 08:30]\n\nDas Zeitungsarchiv empfängt dich mit trockenem Staubgeruch. Reihen von Regalen erheben sich wie Grabsteine. Jede Rolle birgt eine vergangene Geschichte. [PROBE: Bibliotheksnutzung | 55]",
+      "response_chars": 424,
+      "response_sentences": 6,
+      "latency_ms": 4760.010300000431,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT",
+        "TAGESZEIT",
+        "FAKT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich recherchiere alte Berichte ueber das Corbitt-Haus.",
+      "keeper_response": "Du findest rasch, wonach du suchst. Ein vergilbter Artikel beschreibt Walter Corbitt. Er war eine Schlüsselfigur in der obskuren \"Church of Contemplation\". [FAKT: {\"zeitung_corbitt_gefunden\": true}] [FERTIGKEIT_GENUTZT: Bibliotheksnutzung] [ZEIT_VERGEHT: 1h] [TAGESZEIT: 09:30]\nWas tust du?",
+      "response_chars": 290,
+      "response_sentences": 4,
+      "latency_ms": 1937.1033999996143,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT",
+        "TAGESZEIT",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich pruefe die Sterberegister nach Walter Corbitt.",
+      "keeper_response": "Ein neuer Stapel Mikrofilme rattert durch die Maschine. Die Schlagzeilen erzählen von unglücklichen Mietern. Es sind Berichte über seltsame Unfälle und plötzliche Fluchten. [PROBE: Bibliotheksnutzung | 55] [ZEIT_VERGEHT: 1h] [TAGESZEIT: 10:30]",
+      "response_chars": 243,
+      "response_sentences": 3,
+      "latency_ms": 59087.235099999816,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT",
+        "TAGESZEIT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich untersuche die Kirchenakten auf Hinweise.",
+      "keeper_response": "Du verlässt das staubige Archiv und machst dich auf den Weg. Die Stadt ist ein Gewirr aus Stimmen und Gerüchen. Das Hall of Records ist ein kühles, formales Gebäude. [ZEIT_VERGEHT: 0.5h] [TAGESZEIT: 12:00]\n\nEs riecht nach altem Papier und Stempelkissen. Eine Probe könnte den Zugang zu sensiblen Einträgen erleichtern. [PROBE: Recht | 50]",
+      "response_chars": 338,
+      "response_sentences": 5,
+      "latency_ms": 2093.517699999211,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT",
+        "TAGESZEIT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich betrete das Corbitt-Haus und schaue mich im Erdgeschoss um.",
+      "keeper_response": "Die Registratorin mustert dich kühl. Sie verweist auf die langen Wartezeiten. Der Zugang zu den alten Registern ist heute erschwert. [FERTIGKEIT_GENUTZT: Recht] [ZEIT_VERGEHT: 1h] [TAGESZEIT: 13:00]\nWie gehst du weiter vor?",
+      "response_chars": 223,
+      "response_sentences": 4,
+      "latency_ms": 1034.9136000004364,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT",
+        "TAGESZEIT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

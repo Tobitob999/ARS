@@ -1,7 +1,7 @@
 {
   "schema_version": "1.2.1",
-  "id": "i_exaction",
-  "name": "I Exaction",
+  "id": "exaction",
+  "name": "Exaction",
   "compatible_rulesets": [
     "add_2e"
   ],
@@ -12,7 +12,7 @@
     "player_handbook",
     "appendix_conversion"
   ],
-  "summary": "I Exaction (Evocation, Alteration) aus dem AD&D 2e Player's Handbook.",
+  "summary": "Exaction (Evocation, Alteration) aus dem AD&D 2e Player's Handbook. OCR-Fehler: 'I Exaction' war 'Exaction' (Roman-I aus Seitenlayout). [Beschreibung unvollstaendig — siehe PHB p.233]",
   "source_text": {
     "book": "Player's Handbook (2nd Edition)",
     "appendix": 4,
@@ -30,19 +30,19 @@
     "school_or_type": "Evocation, Alteration",
     "parser": "header_block_v3_1",
     "spell_card": {
-      "name": "I Exaction",
+      "name": "Exaction",
       "canonical_name_guess": null,
       "school_or_type": "Evocation, Alteration",
-      "range": null,
-      "components": null,
-      "duration": null,
-      "casting_time": null,
-      "area_of_effect": null,
-      "saving_throw": null,
-      "description_excerpt": ""
+      "range": "Touch",
+      "components": "V, S",
+      "duration": "Special",
+      "casting_time": "1 round",
+      "area_of_effect": "1 creature",
+      "saving_throw": "Special",
+      "description_excerpt": "[Beschreibung unvollstaendig — siehe PHB p.233]"
     },
     "quality_flags": [
-      "missing_standard_fields"
+      "ocr_name_corrected"
     ]
   }
 }

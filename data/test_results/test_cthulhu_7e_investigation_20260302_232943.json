@@ -1,0 +1,124 @@
+{
+  "module": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "case_id": 2,
+  "case_name": "investigation",
+  "expected_tags": {
+    "PROBE": 3,
+    "FERTIGKEIT_GENUTZT": 1,
+    "FAKT": 1
+  },
+  "total_turns": 5,
+  "total_latency_ms": 19967.28840000287,
+  "avg_latency_ms": 3993.4576800005743,
+  "avg_response_chars": 316.4,
+  "avg_sentences": 5.4,
+  "total_probes": 3,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich nehme den Auftrag an und gehe ins Zeitungsarchiv.",
+      "keeper_response": "Du nimmst den Auftrag von Mr. Knott an. Sein Blick verweilt kurz auf dir. Die Welt da draußen wartet bereits. Ein leichter Nieselregen hat begonnen.\n\nDu verlässt sein sachliches Büro. Die Stadt erwacht langsam um dich herum. Bald stehst du vor dem Zeitungsarchiv. [FAKT: {\"auftrag_angenommen\": true}] [ZEIT_VERGEHT: 0.5h] [WETTER: leichter Nieselregen]\n\nEin hoher Raum voller vergilbter Papierstapel umfängt dich. Der Geruch von altem Papier liegt schwer in der Luft. Was suchst du in diesen Archiven? [PROBE: Bibliotheksnutzung | 55]",
+      "response_chars": 534,
+      "response_sentences": 11,
+      "latency_ms": 4930.140900003607,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT",
+        "WETTER",
+        "FAKT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich recherchiere alte Berichte ueber das Corbitt-Haus.",
+      "keeper_response": "Der Geruch von altem Papier füllt deine Lungen. Die Stunden vergehen, während du durch vergilbte Mikrofilme und staubige Zeitungsbände blätterst. Die relevanten Artikel scheinen sich zu verstecken, vergraben unter trivialen Meldungen. [ZEIT_VERGEHT: 2h]\n\nWas tust du als Nächstes im Archiv? [FERTIGKEIT_GENUTZT: Bibliotheksnutzung]",
+      "response_chars": 331,
+      "response_sentences": 4,
+      "latency_ms": 2223.3149000021513,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich pruefe die Sterberegister nach Walter Corbitt.",
+      "keeper_response": "Du tauchst tiefer in die vergessenen Jahrgänge ein. Deine Augen brennen vom winzigen Druck. Es scheint, als würden die Schatten der Vergangenheit sich wehren.\n\n[PROBE: Bibliotheksnutzung | 55]",
+      "response_chars": 192,
+      "response_sentences": 3,
+      "latency_ms": 1709.0161000014632,
+      "tags_found": [
+        "PROBE"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 0,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich untersuche die Kirchenakten auf Hinweise.",
+      "keeper_response": "Die alte Mikrofilmrolle reißt. Wichtige Jahre über Corbitt sind nun unleserlich. Du findest nur allgemeine Meldungen über Brände und Unfälle. [ZEIT_VERGEHT: 3h]\n\nDie Suche hat dich nur frustriert. Was unternimmst du nun? [FERTIGKEIT_GENUTZT: Bibliotheksnutzung]",
+      "response_chars": 261,
+      "response_sentences": 5,
+      "latency_ms": 7726.781599994865,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich betrete das Corbitt-Haus und schaue mich im Erdgeschoss um.",
+      "keeper_response": "Du gibst die nutzlosen Filmrollen zurück. Die staubige Luft des Archivs weicht dem kühleren Wind der Straße. Die Fassade der Hall of Records wirkt kühl und formal.\n\nDer Geruch von Papier und Stempelkissen liegt in der Luft. [ZEIT_VERGEHT: 0.5h] [PROBE: Recht | 50]",
+      "response_chars": 264,
+      "response_sentences": 4,
+      "latency_ms": 3378.0349000007845,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

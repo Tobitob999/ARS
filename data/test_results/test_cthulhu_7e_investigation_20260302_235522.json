@@ -1,0 +1,131 @@
+{
+  "module": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "case_id": 2,
+  "case_name": "investigation",
+  "expected_tags": {
+    "PROBE": 3,
+    "FERTIGKEIT_GENUTZT": 1,
+    "FAKT": 1
+  },
+  "total_turns": 5,
+  "total_latency_ms": 23283.19349999947,
+  "avg_latency_ms": 4656.638699999894,
+  "avg_response_chars": 373.6,
+  "avg_sentences": 4.6,
+  "total_probes": 2,
+  "total_combat_tags": 0,
+  "total_stat_changes": 1,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich nehme den Auftrag an und gehe ins Zeitungsarchiv.",
+      "keeper_response": "Ein Nicken von Mr. Knott besiegelt das Geschaeft. Die Stille seines Bueros weicht dem Lärm der Stadt. Sie steuern das Zeitungsarchiv an. Staubige Luft und der Geruch alten Papiers empfangen Sie dort. [FAKT: {\"auftrag_angenommen\": true}] [ZEIT_VERGEHT: 0.5h] [TAGESZEIT: 08:30]\nSie suchen nach Berichten ueber die 20 Sheafe Street. [PROBE: Bibliotheksnutzung | 55]",
+      "response_chars": 363,
+      "response_sentences": 6,
+      "latency_ms": 3493.9171000005445,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT",
+        "TAGESZEIT",
+        "FAKT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich recherchiere alte Berichte ueber das Corbitt-Haus.",
+      "keeper_response": "Der Staub der Jahre wirbelt auf, als Sie sich durch die Mikrofilme wühlen. Namen der Bewohner der Sheafe Street wechseln, doch die Beschreibungen der Vorkommnisse bleiben gleich. Ein alter Artikel nennt Walter Corbitt, Gründer einer obskuren \"Kirche der Kontemplation\". [FAKT: {\"zeitung_unfaelle_gefunden\": true}] [FAKT: {\"zeitung_corbitt_gefunden\": true}] [STABILITAET_VERLUST: 1] [FERTIGKEIT_GENUTZT: Bibliotheksnutzung] [ZEIT_VERGEHT: 1h] [TAGESZEIT: 09:30]\nWas tun Sie als Nächstes mit diesen Informationen?",
+      "response_chars": 511,
+      "response_sentences": 4,
+      "latency_ms": 7705.818399997952,
+      "tags_found": [
+        "STABILITAET_VERLUST",
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT",
+        "TAGESZEIT",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 1,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 2,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich pruefe die Sterberegister nach Walter Corbitt.",
+      "keeper_response": "Die alten Zeitungsberichte haben Sie bereits eingehend studiert. Sie bestätigten die wiederkehrenden, unerklärlichen Ereignisse in der Sheafe Street. Deutlich wurde auch Walter Corbitts Rolle als Gründer der \"Kirche der Kontemplation\". [ZEIT_VERGEHT: 0.5h] [TAGESZEIT: 10:00]\nKonzentrieren Sie sich nun auf Corbitt oder seine obskure Kirche?",
+      "response_chars": 341,
+      "response_sentences": 4,
+      "latency_ms": 7380.148800002644,
+      "tags_found": [
+        "ZEIT_VERGEHT",
+        "TAGESZEIT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich untersuche die Kirchenakten auf Hinweise.",
+      "keeper_response": "Sie verlassen das Zeitungsarchiv und begeben sich zum Hall of Records. Das Gebäude ist kühl und riecht nach altem Papier und Tinte. Ein leises Stempeln hallt durch die Gänge. [ZEIT_VERGEHT: 0.5h] [TAGESZEIT: 10:30]\nSie möchten Walter Corbitts Sterbeeintrag finden. [PROBE: Recht | 50]",
+      "response_chars": 284,
+      "response_sentences": 4,
+      "latency_ms": 4478.688299997884,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT",
+        "TAGESZEIT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich betrete das Corbitt-Haus und schaue mich im Erdgeschoss um.",
+      "keeper_response": "Sie durchforsten dicke Registerbände. Ihr Blick bleibt an einem Eintrag haften, der nicht ganz zu passen scheint. Walter Corbitt, gestorben 1918. [FAKT: {\"sterberegister_corbitt_gefunden\": true}] [FERTIGKEIT_GENUTZT: Recht] [ZEIT_VERGEHT: 1h] [TAGESZEIT: 11:30]\nDer Eintrag vermerkt: Beisetzung *nicht* auf geweihtem Boden. Was tun Sie mit dieser seltsamen Information?",
+      "response_chars": 369,
+      "response_sentences": 5,
+      "latency_ms": 224.62090000044554,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT",
+        "TAGESZEIT",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

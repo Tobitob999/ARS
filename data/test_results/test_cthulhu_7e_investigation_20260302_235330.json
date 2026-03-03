@@ -1,0 +1,130 @@
+{
+  "module": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "case_id": 2,
+  "case_name": "investigation",
+  "expected_tags": {
+    "PROBE": 3,
+    "FERTIGKEIT_GENUTZT": 1,
+    "FAKT": 1
+  },
+  "total_turns": 5,
+  "total_latency_ms": 17267.14799999172,
+  "avg_latency_ms": 3453.429599998344,
+  "avg_response_chars": 351.8,
+  "avg_sentences": 5.0,
+  "total_probes": 2,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich nehme den Auftrag an und gehe ins Zeitungsarchiv.",
+      "keeper_response": "Mr. Knott nickt zufrieden. Seine Lippen formen ein stummes \"Diskretion\". Der Griff der Buerotuer ist kalt in Ihrer Hand. Sie treten hinaus in den lauten Morgen.\n\n[ZEIT_VERGEHT: 0.5h]\n[TAGESZEIT: 08:30]\n[FAKT: {\"auftrag_angenommen\": true}]\n\nSie finden sich im Zeitungsarchiv wieder. Alte Akten ruhen dort in endlosen Regalen. Die Luft ist schwer vom Geruch alten Papiers. Licht faellt nur gedimmt durch die hohen Fenster.\n\nWas tust du?",
+      "response_chars": 434,
+      "response_sentences": 10,
+      "latency_ms": 2091.16129999893,
+      "tags_found": [
+        "ZEIT_VERGEHT",
+        "TAGESZEIT",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich recherchiere alte Berichte ueber das Corbitt-Haus.",
+      "keeper_response": "Staubmolekuele tanzen im fahlen Licht der hohen Fenster. Der Geruch von altem Papier und Moder kriecht in Ihre Nase. Sie beginnen, durch vergilbte Zeitungsbaende zu blaettern.\n\n[ZEIT_VERGEHT: 2h]\n[TAGESZEIT: 11:00]\n[PROBE: Bibliotheksnutzung | 55]",
+      "response_chars": 247,
+      "response_sentences": 3,
+      "latency_ms": 3826.7348000008496,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT",
+        "TAGESZEIT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich pruefe die Sterberegister nach Walter Corbitt.",
+      "keeper_response": "Ihre Finger gleiten ueber die vergilbten Seiten. Sie finden mehrere Berichte ueber das Haus in der Sheafe Street. Fast alle sprechen von \"unerwarteten Tragödien\" und \"merkwuerdigen Unfaellen\". Die Vorbesitzer wechselten oft.\n\n[FAKT: {\"zeitung_unfaelle\": true}]\n[FAKT: {\"corbitt_haus_geschichte\": \"Vorbesitzer wechselten oft aufgrund von Tragödien und Unfällen.\"}]\n[FERTIGKEIT_GENUTZT: Bibliotheksnutzung]\n[ZEIT_VERGEHT: 0.5h]\n[TAGESZEIT: 11:30]\n\nGibt es noch etwas, das Sie hier suchen wollen?",
+      "response_chars": 493,
+      "response_sentences": 5,
+      "latency_ms": 776.8729000017629,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT",
+        "TAGESZEIT",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 2,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich untersuche die Kirchenakten auf Hinweise.",
+      "keeper_response": "Der Staub in den Buchregalen scheint sich um Sie zu legen. Sie konzentrieren sich auf die Namen in den alten Zeitungsartikeln. Es dauert eine Weile, bis Sie auf eine passende Notiz stossen.\n\n[ZEIT_VERGEHT: 1h]\n[TAGESZEIT: 12:30]\n[PROBE: Bibliotheksnutzung | 55]",
+      "response_chars": 261,
+      "response_sentences": 3,
+      "latency_ms": 2397.4183999962406,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT",
+        "TAGESZEIT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich betrete das Corbitt-Haus und schaue mich im Erdgeschoss um.",
+      "keeper_response": "Sie finden einen Eintrag ueber einen Walter Corbitt. Es ist ein kurzer Nachruf, der seine Mitgliedschaft in der \"Church of Contemplation\" erwaehnt. Mehr Details gibt es hier nicht.\n\n[FAKT: {\"zeitung_corbitt\": true}]\n[FERTIGKEIT_GENUTZT: Bibliotheksnutzung]\n[ZEIT_VERGEHT: 0.5h]\n[TAGESZEIT: 13:00]\n\nWas tun Sie als Naechstes?",
+      "response_chars": 324,
+      "response_sentences": 4,
+      "latency_ms": 8174.960599993938,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT",
+        "TAGESZEIT",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

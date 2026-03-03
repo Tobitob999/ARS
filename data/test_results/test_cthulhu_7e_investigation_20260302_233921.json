@@ -1,0 +1,125 @@
+{
+  "module": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "case_id": 2,
+  "case_name": "investigation",
+  "expected_tags": {
+    "PROBE": 3,
+    "FERTIGKEIT_GENUTZT": 1,
+    "FAKT": 1
+  },
+  "total_turns": 5,
+  "total_latency_ms": 9581.021599995438,
+  "avg_latency_ms": 1916.2043199990876,
+  "avg_response_chars": 277.6,
+  "avg_sentences": 4.8,
+  "total_probes": 2,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich nehme den Auftrag an und gehe ins Zeitungsarchiv.",
+      "keeper_response": "Mr. Knott nickt knapp. [STIMME:keeper] \"Die Diskretion ist entscheidend.\" Der Wagen bringt Sie durch die geschäftigen Straßen. Das Zeitungsarchiv empfängt Sie mit einem Geruch nach altem Papier und Tinte. [ZEIT_VERGEHT: 0.5h] [TAGESZEIT: 08:30]\nEin kalter Hauch weht durch die endlosen Reihen. Jeder Schritt hallt in der Stille wider. Was suchen Sie in diesem Meer aus vergessenen Nachrichten?",
+      "response_chars": 393,
+      "response_sentences": 7,
+      "latency_ms": 3781.115099998715,
+      "tags_found": [
+        "ZEIT_VERGEHT",
+        "TAGESZEIT",
+        "STIMME"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich recherchiere alte Berichte ueber das Corbitt-Haus.",
+      "keeper_response": "Sie suchen die vergilbten Seiten. Staubige Jahrgänge offenbaren eine Chronik der Stadt. Jeder Bericht ist ein Echo aus vergangenen Tagen. [ZEIT_VERGEHT: 0.5h] [PROBE: Bibliotheksnutzung | 55]",
+      "response_chars": 191,
+      "response_sentences": 3,
+      "latency_ms": 1538.3352999997442,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich pruefe die Sterberegister nach Walter Corbitt.",
+      "keeper_response": "Ihre Augen brennen. Die Buchstaben verschwimmen vor Erschöpfung. Nichts von Relevanz taucht in den gesichteten Jahrgängen auf. Sie finden nur banale Vermerke über wechselnde Mieter. [FERTIGKEIT_GENUTZT: Bibliotheksnutzung] [ZEIT_VERGEHT: 1h]\nWas unternehmen Sie als Nächstes?",
+      "response_chars": 275,
+      "response_sentences": 5,
+      "latency_ms": 86.95189999707509,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich untersuche die Kirchenakten auf Hinweise.",
+      "keeper_response": "Sie verlassen das staubige Archiv. Der Weg führt Sie zu den kühlen Hallen der städtischen Register. Überall riecht es nach Papier und Stempelfarbe. [ZEIT_VERGEHT: 0.5h] [TAGESZEIT: 12:00]\nSie bitten um Zugang zu den Sterberegistern. Die Akten sind alt und penibel geordnet. [PROBE: Recht | 45]",
+      "response_chars": 293,
+      "response_sentences": 5,
+      "latency_ms": 4094.509599999583,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT",
+        "TAGESZEIT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich betrete das Corbitt-Haus und schaue mich im Erdgeschoss um.",
+      "keeper_response": "Ihre Anfragen laufen ins Leere. Die strenge Beamtin am Schalter verweigert Ihnen den Zugang. Ohne einen plausiblen Grund bleiben die Register verschlossen. [FERTIGKEIT_GENUTZT: Recht] [ZEIT_VERGEHT: 0.5h]\nWas versuchen Sie als Nächstes?",
+      "response_chars": 236,
+      "response_sentences": 4,
+      "latency_ms": 80.10970000032103,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

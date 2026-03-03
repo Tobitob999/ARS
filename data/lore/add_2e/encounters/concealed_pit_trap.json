@@ -1,7 +1,26 @@
 {
-    "id":  "concealed_pit_trap",
-    "module_type":  "trap",
-    "trigger_condition":  "Stepping on camouflaged floor section",
-    "damage":  "1d8",
-    "saving_throw":  "none"
+    "id": "concealed_pit_trap",
+    "module_type": "trap",
+    "trigger_condition": "Stepping on camouflaged floor section",
+    "damage": "1d8",
+    "saving_throw": "none",
+    "description": "Ein rechteckiges Bodensegment, mit dünnem Putz und Steinstaub kaschiert, klappt beim ersten Schritt des Auftretenden nach innen. Der Fall ist kurz aber brutal — roher Fels wartet 10 Fuß unten. Das Klacken des Falltür-Mechanismus und der aufsteigende Schrei hallen durch den Korridor.",
+    "monsters": [],
+    "tactics": "N/A — der Sturz ist die gesamte Wirkung. Falls Feinde in der Nähe sind, nutzen sie die Verwirrung für einen Hinterhalt (+2 auf Initiative im nächsten Angriff).",
+    "environment": "Gerader Korridor oder Kammereingang; die Falltürfläche (5x5 Fuß) ist mit identischem Steinpflaster überdeckt, nur minimalste Spaltlinie erkennbar. Boden des Schachts: Roher Felsboden.",
+    "difficulty": "easy",
+    "loot": [
+        {"item": "Im Schacht (früherer Opfer): 1d10 SM und ein gebrochener Stab", "value": "1d10 SM"}
+    ],
+    "cr_equivalent": "1-3",
+    "disarm_dc": "Entdecken: Vorsichtiges Sondieren mit Stab (+1-in-6 für jeden 5-Fuß-Abschnitt); Dieb: Fallen suchen. Entschärfen: Falltür mit Keil sichern oder langes Brett auflegen; alternativ einfach springen (GES-Probe DEX 13+)",
+    "trap_details": {
+        "type": "mechanisch/Falltür",
+        "trigger": "Gewicht von 50 Pfund oder mehr auf dem Mittelpunkt",
+        "area_of_effect": "Einzelner Charakter, der die Falltür betritt",
+        "detection": "Licht-Suchaktion: Spaltlinie entdeckt auf 2-in-6; Stab-Sondieren: automatisch bei Berührung; Elfen erkennen auf 1-in-6 passiv",
+        "pit_depth": "10 Fuß (1d8 Fallschaden, keine Rettung)",
+        "climbing_out": "STR 10+ und Kletterwerkzeug oder Kletterprobe (3 Runden); Schacht-Wände sind glatt (-4 auf Kletterproben ohne Werkzeug)",
+        "reset": "Falltür schnappt automatisch zurück nach 1 Runde"
+    }
 }

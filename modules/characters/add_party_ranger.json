@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.1.0",
+  "id": "add_party_ranger",
+  "name": "Kaelen Windlaeufer",
+  "compatible_rulesets": ["add_2e"],
+  "archetype": "ranger",
+  "level": 6,
+  "race": "Half-Elf",
+  "class": "Ranger",
+  "alignment": "Neutral Good",
+  "background": "Kaelen wurde als Sohn eines elfischen Waldlaeufers und einer menschlichen Kraeuterhexe im Grenzwald von Tannheim geboren. Aufgewachsen zwischen den Welten — nicht ganz Elf, nicht ganz Mensch — fand er seine Berufung als Waldlaeufer, der die Wildnis kartiert und Reisende durch gefaehrliches Terrain fuehrt. Jahrelang jagte er Trolle, Oger und schlimmere Kreaturen in den Nebelbergen. Magister Elric engagierte ihn speziell fuer seine Erfahrung mit unterirdischer Navigation und Monsterjagd. Kaelen hat Trolle getoetet — er weiss, was Feuer mit ihnen macht.",
+  "traits": "Kaelen ist ruhig, aufmerksam und spricht nur wenn noetig. Er beobachtet lieber als zu reden und bemerkt Details die anderen entgehen. Er hat eine tiefe Verbundenheit mit der Natur und fuehlt sich in Dungeons unwohl — aber seine Pflicht steht ueber seinem Unbehagen. Er ist ein Perfektionist beim Bogenschiessen und uebt abends, auch nach einem erschoepfenden Marschtag. Er versteht Tiere instinktiv und summt leise Elfenmelodien beim Wachestehen.",
+  "appearance": "Ein schlanker, aber drahtiger Mann von 1,80 Metern mit halblangem dunkelbraunem Haar und leicht spitzen Ohren — das elfische Erbe. Seine Augen sind haselnussbraun und von einer Schaerfe, die Jaeger und Beute gleichermassen beunruhigt. Er traegt ein verschlissenes graugruenes Kettenhemd ueber einer Lederjacke, einen Langbogen auf dem Ruecken und zwei Schwerter an den Hueften. Sein Umhang ist aus Wolfsfell — eine Trophaee seines ersten Kills.",
+  "characteristics": {
+    "STR": 16,
+    "DEX": 17,
+    "CON": 15,
+    "INT": 13,
+    "WIS": 14,
+    "CHA": 12
+  },
+  "derived_stats": {
+    "HP": 52,
+    "AC": 4,
+    "THAC0": 15,
+    "Movement": 12,
+    "Attacks_per_Round": "2 (Two-Weapon Fighting)",
+    "notes": "HP: 6d10+6 (CON 15 = +1/die for Warrior). AC: Chain Mail (5) + DEX 17 (-3 AC reaction) = AC 4 (no shield — two-weapon style). THAC0 15 = Warrior Level 6 (Ranger uses Warrior table). Two-Weapon Fighting: Ranger special ability, no penalties with light off-hand. Half-Elf: 30% resistance to Sleep/Charm, Infravision 60ft, Secret Door detection."
+  },
+  "saving_throws": {
+    "Paralyzation": 10,
+    "Rod": 12,
+    "Petrification": 11,
+    "Breath": 12,
+    "Spell": 13,
+    "notes": "Warrior Level 6 base saves. Half-Elf: 30% resistance to Sleep and Charm. No additional racial save bonuses."
+  },
+  "skills": {
+    "Tracking": 2,
+    "Weapon Proficiency (Longbow)": 2,
+    "Weapon Proficiency (Long Sword)": 1,
+    "Weapon Proficiency (Short Sword)": 1,
+    "Animal Lore": 1,
+    "Survival (Underground)": 1,
+    "Set Snares": 1,
+    "Alertness": 1,
+    "notes": "Ranger abilities: Tracking (base 70% + modifiers), Two-Weapon Fighting (no penalties), Hide in Shadows 41%/Move Silently 52% (Ranger L6, no armor heavier than studded leather — in chain: reduced). Favored Enemy: Undead (+4 damage). Surprise bonus: opponents -1 on surprise rolls. Half-Elf: Infravision 60ft."
+  },
+  "equipment": [
+    "Longbow +1 (1d8+1, +1 hit, range 70/140/210, primary ranged)",
+    "Arrows +1 x20 (magisch, +1 hit/+1 damage)",
+    "Arrows (normal) x20",
+    "Long Sword (1d8, primary melee, main hand)",
+    "Short Sword (1d6, off-hand, Two-Weapon Fighting)",
+    "Chain Mail (AC 5)",
+    "Potion of Healing x2 (heilt 2d4+2 HP)",
+    "Oil Flasks x3 (Feuer-Munition, brennt 2 Runden, 1d6/Runde)",
+    "Backpack",
+    "Rations (7 days)",
+    "Waterskin",
+    "Rope (50ft)",
+    "Tinderbox",
+    "Torches (4)",
+    "Quiver",
+    "20 GP"
+  ],
+  "spells_prepared": {
+    "1": ["Animal Friendship"],
+    "slots": {
+      "1": 1
+    },
+    "notes": "Ranger Level 6: 1 priest spell slot (level 1 only). Animal Friendship: befriends 1 animal permanently, casting time 1 hour. Useful for scouting with animal allies. Druid spell list access."
+  },
+  "notes": "PARTY-ROLLE: Ranged DPS, Aufklaerung, Tracking, Anti-Troll-Spezialist. Kaelen ist der praeziseste Fernkaempfer der Gruppe. Longbow +1 mit Arrows +1 gibt ihm konstanten magischen Fernkampfschaden (1d8+2 pro Schuss, trifft auch magisch-immune Gegner). Two-Weapon Fighting mit Long/Short Sword fuer Nahkampf (2 Angriffe/Runde). KRITISCH fuer Troll-Kampf: 3 Oil Flasks + Tinderbox = Feuerwaffen gegen Grugnak. Favored Enemy Undead (+4 Schaden) macht ihn wertvoll in Ebene 3. TAKTIK: Mittlere Reihe hinter den Tanks, vor den Squishies. Eroeffnet jeden Kampf mit Bogenschuessen. Wechselt zu Schwertern wenn Feinde durchbrechen. Nutzt Tracking fuer Spurenlesen im Dungeon. Oil Flasks gegen den Troll aufheben. WARNUNG: Chain Mail schraenkt Ranger-Schleichfaehigkeit ein — nur Hide/Move Silently in leichter Ruestung effektiv."
+}

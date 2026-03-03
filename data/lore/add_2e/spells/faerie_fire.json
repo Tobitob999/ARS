@@ -34,15 +34,13 @@
       "canonical_name_guess": null,
       "school_or_type": "Alteration",
       "range": "80 yards",
-      "components": null,
-      "duration": "4 roundsAeve1",
+      "components": "V, M",
+      "duration": "4 rounds/level",
       "casting_time": "4",
-      "area_of_effect": "10 sq. feet/level within",
+      "area_of_effect": "10 sq. feet/level within 40-foot radius",
       "saving_throw": "None",
       "description_excerpt": "a 40-foot radius This spell enables the caster to outline one or more objects or creatures with a pale glowing light. The number of subjects out- lined depends upon the number of square feet the caster can affect. Sufficient footage enables several objects or creatures to be outlined by the faehe fire spell, but one must be fully outlined before the next is begun, and all must be within the area of effect. Outlined objects or creatures are visi- ble at 80 yards in the dark, 40 yards if the viewer is near a bright light source. Out- lined creatures are easier to strike, thus opponents gain a +2 bonus to attack rolls in darkness (including moonlit nights) and a outlining can render otherwise invisible creatures visible. However, it cannot out- line noncorporeal, ethereal, or gaseous creatures. Nor does the light come any- where close to sunlight. Therefore it has no special effect on undea"
     },
-    "quality_flags": [
-      "missing_standard_fields"
-    ]
+    "quality_flags": []
   }
 }

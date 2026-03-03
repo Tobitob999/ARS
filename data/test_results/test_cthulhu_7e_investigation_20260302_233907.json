@@ -1,0 +1,126 @@
+{
+  "module": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "case_id": 2,
+  "case_name": "investigation",
+  "expected_tags": {
+    "PROBE": 3,
+    "FERTIGKEIT_GENUTZT": 1,
+    "FAKT": 1
+  },
+  "total_turns": 5,
+  "total_latency_ms": 9566.870899994683,
+  "avg_latency_ms": 1913.3741799989366,
+  "avg_response_chars": 362.2,
+  "avg_sentences": 7.6,
+  "total_probes": 2,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich nehme den Auftrag an und gehe ins Zeitungsarchiv.",
+      "keeper_response": "Sie stimmen dem Auftrag zu. Mr. Knotts Mundwinkel zucken leicht nach oben. Ein seltener Anblick.\n\nDie Strasse empfaengt Sie. Sie fuehrt Sie durch das morgendliche Boston. Autos hupen. Strassenbahnen quietschen.\n\nBald erreichen Sie das Zeitungsarchiv. Es riecht nach altem Papier. Stille herrscht.\n\n[ZEIT_VERGEHT: 1h]\n[TAGESZEIT: 09:00]\n[AKTUELLER_ORT: Zeitungsarchiv]\n[WETTER: klar]\n\nWas wollen Sie im Zeitungsarchiv suchen?",
+      "response_chars": 424,
+      "response_sentences": 12,
+      "latency_ms": 1504.8352999947383,
+      "tags_found": [
+        "ZEIT_VERGEHT",
+        "TAGESZEIT",
+        "WETTER"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 3,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich recherchiere alte Berichte ueber das Corbitt-Haus.",
+      "keeper_response": "Ein leichter Wind streicht durch die Strassen. Das Zeitungsarchiv empfaengt Sie mit muffigem Geruch. Staub tanzt in den Sonnenstrahlen.\n\nDer Raum ist still. Ein Bibliotheksmitarbeiter hustet leise in der Ferne. Sie suchen nach den dunklen Geschichten des Corbitt-Hauses. [ZEIT_VERGEHT: 0.5h] [FAKT: {\"auftrag_angenommen\": true}] [PROBE: Bibliotheksnutzung | 50]",
+      "response_chars": 361,
+      "response_sentences": 6,
+      "latency_ms": 4137.583199997607,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT",
+        "FAKT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich pruefe die Sterberegister nach Walter Corbitt.",
+      "keeper_response": "Sie blättern durch unzählige, vergilbte Seiten. Namen und Daten verschwimmen vor Ihren Augen. Nichts scheint direkt mit dem Corbitt-Haus in Verbindung zu stehen.\n\nDie Zeit verrinnt unbarmherzig. Der Erfolg bleibt Ihnen verwehrt. [ZEIT_VERGEHT: 1h]\n\nWas tun Sie als Nächstes?",
+      "response_chars": 274,
+      "response_sentences": 6,
+      "latency_ms": 791.6852999987896,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich untersuche die Kirchenakten auf Hinweise.",
+      "keeper_response": "Sie verlassen das staubige Archiv. Ein kühlerer Wind weht Ihnen entgegen. Die Hall of Records erwartet Sie.\n\nDort riecht es nach altem Papier und Tinte. Ein leises Stempeln hallt durch die Gänge. [ZEIT_VERGEHT: 0.5h] [FAKT: {\"auftrag_angenommen\": true}] [PROBE: Recht | 45]",
+      "response_chars": 273,
+      "response_sentences": 5,
+      "latency_ms": 963.6165000047185,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT",
+        "FAKT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich betrete das Corbitt-Haus und schaue mich im Erdgeschoss um.",
+      "keeper_response": "Ihre Augen gleiten über die alten Bücher. Plötzlich finden Sie den Eintrag. Es ist Walter Corbitt.\n\nDie Akte offenbart es deutlich. Er wurde *nicht* auf geweihtem Boden bestattet. Sie finden zudem eine Notiz über eine offizielle Ablehnung der St. Augustine Kirche.\n\nDie Kirche verweigerte die Bestattung aufgrund seiner \"ungewöhnlichen Glaubensansichten\". Was tun Sie als Nächstes? [FAKT: {\"sterbeeintrag_corbitt_gefunden\": true}] [FERTIGKEIT_GENUTZT: Recht] [ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 479,
+      "response_sentences": 9,
+      "latency_ms": 2169.1505999988294,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT",
+        "FAKT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

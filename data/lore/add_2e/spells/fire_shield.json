@@ -36,13 +36,11 @@
       "range": "0",
       "components": "V, S, M",
       "duration": "2 rounds + 1 round/level",
-      "casting_time": null,
-      "area_of_effect": null,
+      "casting_time": "4",
+      "area_of_effect": "The caster",
       "saving_throw": "None",
       "description_excerpt": "This spell can be cast in one of two forms: a warm shield that protects against cold-based attacks, or a chill shield that pro- tects against fire-based attacks. Both return damage to creatures making physical attacks against the wizard. The wizard must choose which variation he memorizes when the spell is selected. When casting this spell, the wizard appears to immolate himself, but the flames are thin and wispy, shedding no heat, though giving light equal to only half the illumination of a normal torch. The color of the flames is determined randomly (50% chance of either color)-blue or green if the chill shield is cast, violet or blue if the warm shield is employed. The special powers of each shield are as follows: A) Warm shield. The flames are warm to the touch. Any cold-based attacks are saved against with a +2 bonus; either half normal damage or no damage is sustained. There is no "
     },
-    "quality_flags": [
-      "missing_standard_fields"
-    ]
+    "quality_flags": []
   }
 }

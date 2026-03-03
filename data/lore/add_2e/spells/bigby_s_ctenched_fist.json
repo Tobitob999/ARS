@@ -1,7 +1,7 @@
 {
   "schema_version": "1.2.1",
-  "id": "bigby_s_ctenched_fist",
-  "name": "Bigby's Ctenched Fist",
+  "id": "bigby_s_clenched_fist",
+  "name": "Bigby's Clenched Fist",
   "compatible_rulesets": [
     "add_2e"
   ],
@@ -12,7 +12,7 @@
     "player_handbook",
     "appendix_conversion"
   ],
-  "summary": "Bigby's Ctenched Fist (Evocation) aus dem AD&D 2e Player's Handbook.",
+  "summary": "Bigby's Clenched Fist (Evocation) aus dem AD&D 2e Player's Handbook.",
   "source_text": {
     "book": "Player's Handbook (2nd Edition)",
     "appendix": 3,
@@ -30,8 +30,8 @@
     "school_or_type": "Evocation",
     "parser": "header_block_v3_1",
     "spell_card": {
-      "name": "Bigby's Ctenched Fist",
-      "canonical_name_guess": "Bigby's Clenched Fist",
+      "name": "Bigby's Clenched Fist",
+      "canonical_name_guess": null,
       "school_or_type": "Evocation",
       "range": "5 yards/level",
       "components": "V, S, M",
@@ -41,8 +41,6 @@
       "saving_throw": "None",
       "description_excerpt": "The Bigby's clenchedfist spell brings torth a huge, disembodied hand that is balled into a fist. This magical member is under the mental control of the spellcaster, who can cause it to strike one opponent each round. No concentration is required once the spell is cast. The clenched fist never misses, but it can only strike as directed by the caster. Thus it can be fooled by invisibility or other methods of concealment and misdirection. The effectiveness of its blows varies from round to round. DZO Roll Result 13-16 solid punch-2d6 hp 17-19 hard punch-3d6 hp and opponent is stunned next round 20 Crushing blow*-4d6 hp and opponent is stunned for next three rounds 1-12 glancing blow-ld6 hp The wizard adds +4 to the die rolls of subsequent attacks if the opponent is stunned, as the opponent is not capable of dodging or defending against the attack effectively. The fist has an Armor Class of "
     },
-    "quality_flags": [
-      "canonical_name_guess_applied"
-    ]
+    "quality_flags": []
   }
 }

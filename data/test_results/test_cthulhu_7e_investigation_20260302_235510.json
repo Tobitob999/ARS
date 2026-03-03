@@ -1,0 +1,132 @@
+{
+  "module": "cthulhu_7e",
+  "adventure": "spukhaus",
+  "case_id": 2,
+  "case_name": "investigation",
+  "expected_tags": {
+    "PROBE": 3,
+    "FERTIGKEIT_GENUTZT": 1,
+    "FAKT": 1
+  },
+  "total_turns": 5,
+  "total_latency_ms": 6983.917700003076,
+  "avg_latency_ms": 1396.7835400006152,
+  "avg_response_chars": 383.4,
+  "avg_sentences": 5.2,
+  "total_probes": 3,
+  "total_combat_tags": 0,
+  "total_stat_changes": 1,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich nehme den Auftrag an und gehe ins Zeitungsarchiv.",
+      "keeper_response": "Ein zynisches Lächeln huscht über Knotts Gesicht. [STIMME:keeper] \"Exzellent. Diskretion ist alles, vergessen Sie das nicht.\" [ZEIT_VERGEHT: 0.5h] [FAKT: {\"auftrag_angenommen\": true}]\n\nSie verlassen sein nüchternes Büro. Die Straße ist belebt vom morgendlichen Verkehr. Sie finden sich bald in den staubigen Gängen des Zeitungsarchivs wieder. Was suchen Sie dort? [PROBE: Bibliotheksnutzung | 50] [TAGESZEIT: 08:30]",
+      "response_chars": 415,
+      "response_sentences": 6,
+      "latency_ms": 3341.947100001562,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT",
+        "TAGESZEIT",
+        "FAKT",
+        "STIMME"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 1,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 2,
+      "player_input": "Ich recherchiere alte Berichte ueber das Corbitt-Haus.",
+      "keeper_response": "Die Zeitungen türmen sich meterhoch. Sie verlieren sich in den vergilbten Seiten. Die Suche ist mühselig und bringt kaum brauchbare Ergebnisse. [ZEIT_VERGEHT: 2h] [FERTIGKEIT_GENUTZT: Bibliotheksnutzung]\n\nSie finden nur vage Berichte über seltsame Unfälle. Nichts Konkretes bezüglich Corbitt. Der Staub kriecht in Ihre Lungen.\n\nWas tun Sie als Nächstes? [TAGESZEIT: 10:30]",
+      "response_chars": 372,
+      "response_sentences": 7,
+      "latency_ms": 101.70900000230176,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT",
+        "TAGESZEIT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 3,
+      "player_input": "Ich pruefe die Sterberegister nach Walter Corbitt.",
+      "keeper_response": "Die Luft im Archiv wird dichter, der Geruch von Papier und Moder intensiver. Ihr Blick schweift über endlose Reihen von Mikrofilmen und Aktenbündeln. Die Namen Corbitt oder Sheafe Street sind wie Nadeln im Heuhaufen. [ZEIT_VERGEHT: 1h] [PROBE: Bibliotheksnutzung | 50] [TAGESZEIT: 11:30]",
+      "response_chars": 287,
+      "response_sentences": 3,
+      "latency_ms": 1396.7868000036106,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT",
+        "TAGESZEIT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 4,
+      "player_input": "Ich untersuche die Kirchenakten auf Hinweise.",
+      "keeper_response": "Ein leises Geräusch, das fast wie ein Flüstern klingt, leitet Sie. Zwischen verstaubten Jahrgängen finden Sie schließlich, was Sie suchten. Ein alter Artikel berichtet über Walter Corbitt. Er war eine Schlüsselfigur der obskuren \"Church of Contemplation\". [ZEIT_VERGEHT: 1h] [FERTIGKEIT_GENUTZT: Bibliotheksnutzung] [STABILITAET_VERLUST: 0/1] [INVENTAR: Arkham Advertiser: 'Corbitt und die Church of Contemplation' | gefunden] [TAGESZEIT: 12:30]\n\nWas tun Sie als Nächstes?",
+      "response_chars": 472,
+      "response_sentences": 5,
+      "latency_ms": 1363.9465999949607,
+      "tags_found": [
+        "STABILITAET_VERLUST",
+        "FERTIGKEIT_GENUTZT",
+        "INVENTAR",
+        "ZEIT_VERGEHT",
+        "TAGESZEIT"
+      ],
+      "probes": 0,
+      "stat_changes": 1,
+      "combat_tags": 0,
+      "inventory_changes": 1,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    },
+    {
+      "turn": 5,
+      "player_input": "Ich betrete das Corbitt-Haus und schaue mich im Erdgeschoss um.",
+      "keeper_response": "Sie lassen die stickige Luft des Archivs hinter sich. Die staubigen Straßen Arkhams weichen bald dem kühlen, formalen Ambiente der Hall of Records. Der Geruch von Papier und Stempelfarbe liegt in der Luft. [ZEIT_VERGEHT: 0.5h]\n\nDie Mitarbeiterin hinter dem Tresen wirkt müde. Sie bittet Sie, sich in eine lange Schlange einzureihen. [PROBE: Recht | 40] [TAGESZEIT: 13:00]",
+      "response_chars": 371,
+      "response_sentences": 5,
+      "latency_ms": 779.5282000006409,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT",
+        "TAGESZEIT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 2,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.1.0",
+  "id": "add_train_paladin",
+  "name": "Sir Kael Zornesklinge",
+  "compatible_rulesets": ["add_2e"],
+  "archetype": "paladin",
+  "level": 6,
+  "race": "Human",
+  "class": "Paladin",
+  "alignment": "Lawful Good",
+  "background": "Sir Kael ist ein fanatischer Untotenjaeger des Ordens der Flamme. Er hat geschworen, jede untote Kreatur zu vernichten, die er findet — und er findet sie alle. Sein Eifer grenzt an Besessenheit.",
+  "traits": "Fanatischer Untotenjaeger, greift Untote SOFORT und mit maximaler Gewalt an. Detect Evil permanent aktiv. Stuermt in jeden Raum und sucht nach Boesem. Betet nach jedem Kampf — kurz, laut, kriegerisch.",
+  "appearance": "Ein grosser Mann in gleissender Ruestung mit einem Schwert, das bei der Naehe von Untoten aufflammt. Fanatischer Blick, keine Kompromisse, keine Gnade fuer das Boese.",
+  "characteristics": {
+    "STR": 17,
+    "DEX": 11,
+    "CON": 15,
+    "INT": 12,
+    "WIS": 16,
+    "CHA": 17
+  },
+  "derived_stats": {
+    "HP": 54,
+    "AC": 1,
+    "THAC0": 15,
+    "Movement": 12,
+    "Attacks_per_Round": "1",
+    "notes": "HP: 6d10+6. AC: Full Plate (1) + Shield (-1) + Defender +2. THAC0 15 = Warrior Level 6. Paladin: Detect Evil, Lay on Hands 12 HP, Turn Undead als Priest L2, Protection from Evil 10'."
+  },
+  "saving_throws": {
+    "Paralyzation": 8,
+    "Rod": 10,
+    "Petrification": 9,
+    "Breath": 10,
+    "Spell": 11,
+    "notes": "Warrior L6 base + Paladin +2 bonus auf ALLE Saves."
+  },
+  "skills": {
+    "Weapon Proficiency (Long Sword)": 2,
+    "Weapon Proficiency (Lance)": 1,
+    "Weapon Proficiency (Mace)": 1,
+    "Religion": 1,
+    "Riding (Horse)": 1,
+    "Healing": 1
+  },
+  "equipment": [
+    "Holy Sword +2 'Zornesklinge' (Defender: +2 hit/+2 dmg, kann AC-Bonus uebertragen)",
+    "Lance (1d6, Mounted)",
+    "Medium Shield (+1 AC)",
+    "Full Plate Armor (AC 1)",
+    "Holy Symbol (Flammen-Medaillon)",
+    "Potion of Healing x2",
+    "Holy Water x2",
+    "Backpack",
+    "Rations (7 Tage)",
+    "Torches (4)",
+    "Rope (50ft)",
+    "14 GP"
+  ],
+  "spells_prepared": {
+    "1": ["Bless", "Cure Light Wounds"],
+    "slots": {"1": 2}
+  },
+  "notes": "PARTY-ROLLE: Off-Tank + Anti-Undead-Spezialist. AGGRESSIV: Sir Kael stuermt in jeden Raum mit Detect Evil aktiv. Bei Untoten: Turn Undead als Eroeffnung, dann Holy Sword +2 mit maximaler Gewalt. Protection from Evil 10' schuetzt die Gruppe. Lay on Hands 12 HP als Notfall-Heilung. Kein Erbarmen, kein Verhandeln."
+}

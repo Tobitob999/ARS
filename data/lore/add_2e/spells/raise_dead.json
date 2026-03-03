@@ -33,16 +33,14 @@
       "name": "Raise Dead",
       "canonical_name_guess": null,
       "school_or_type": "Necromancy",
-      "range": null,
+      "range": "30 yards",
       "components": "V, S",
-      "duration": "; Permanent",
+      "duration": "Permanent",
       "casting_time": "1 round",
       "area_of_effect": "1 person",
       "saving_throw": "Special",
       "description_excerpt": "When the priest casts a raise dud spdl, he can restore life to a dwarf, gnome, half-&, halfling, or human (other creatures may be allowed, at the DMs option). The length of time that the person has been dead is of importance, as the priest can raise persons dead only up to a limit of one day for each experience level of the priest (i.e., a 9th- level priest can raise a person who has been dead for up to nine days). Note that the body of the person must be whole, or otherwise missii parts are still missing when the person is brought back to life. Likewise, other ills, such as poison and disease, are not negated. The raised person must roll a SUU resurrection survival check to Survive the ordeal (see Table 3: Constitution) and loses 1 point of Constitu- tion. Furthermore, the raised puson and helpless in any event, and he needs a minimum of one full day of rest in bed for each day or fract"
     },
-    "quality_flags": [
-      "missing_standard_fields"
-    ]
+    "quality_flags": []
   }
 }

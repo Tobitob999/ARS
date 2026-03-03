@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.1.0",
+  "id": "add_train_fighter",
+  "name": "Grimjaw Eisenfaust",
+  "compatible_rulesets": ["add_2e"],
+  "archetype": "fighter",
+  "level": 7,
+  "race": "Dwarf",
+  "class": "Fighter",
+  "alignment": "Chaotic Neutral",
+  "background": "Grimjaw ist ein kampfbesessener Zwergenkrieger, der fuer den Nervenkitzel des Gefechts lebt. Er hat in hundert Schlachten gekaempft und jede einzelne genossen. Narben sind seine Trophaeen, und er zaehlt jeden Kill.",
+  "traits": "Kampflustig, greift SOFORT an ohne zu fragen. Findet Verhandlungen langweilig. Will kaempfen, nicht reden. Provoziert Gegner aktiv. Stuermt als Erster in jeden Raum.",
+  "appearance": "Ein vernarbter Zwerg mit abgebrochenem Horn am Helm und blutverkrustetem Bart. Seine Axt hat mehr Kerben als Zaehne.",
+  "characteristics": {
+    "STR": "18/76",
+    "STR_base": 18,
+    "STR_exceptional": 76,
+    "DEX": 12,
+    "CON": 17,
+    "INT": 10,
+    "WIS": 13,
+    "CHA": 8
+  },
+  "derived_stats": {
+    "HP": 72,
+    "AC": 2,
+    "THAC0": 14,
+    "Movement": 6,
+    "Attacks_per_Round": "3/2",
+    "notes": "HP: 7d10+21. AC: Full Plate (1) + Large Shield (-1). THAC0 14 = Fighter Level 7. STR 18/76: +2 hit, +4 damage."
+  },
+  "saving_throws": {
+    "Paralyzation": 7,
+    "Rod": 9,
+    "Petrification": 8,
+    "Breath": 8,
+    "Spell": 10
+  },
+  "skills": {
+    "Weapon Specialization (Battle Axe)": 2,
+    "Weapon Proficiency (Long Sword)": 1,
+    "Weapon Proficiency (Dagger)": 1,
+    "Weapon Proficiency (Heavy Crossbow)": 1,
+    "Endurance": 1,
+    "Armorer": 1,
+    "Blind-Fighting": 1
+  },
+  "equipment": [
+    "Battle Axe +1 (1d8+1, spezialisiert: +4 hit/+7 dmg gesamt)",
+    "Long Sword (1d8, Zweitwaffe)",
+    "Dagger (1d4, Wurfwaffe)",
+    "Heavy Crossbow (1d4+1, Reichweite 80/160/240)",
+    "Bolts (20)",
+    "Full Plate Armor (AC 1)",
+    "Large Shield (+1 AC)",
+    "Potion of Healing x2",
+    "Potion of Extra-Healing x1",
+    "Rope (50ft)",
+    "Torches (6)",
+    "Backpack",
+    "Rations (7 Tage)",
+    "22 GP"
+  ],
+  "spells_prepared": {},
+  "notes": "PARTY-ROLLE: Primaer-Tank. AGGRESSIV: Grimjaw greift JEDEN Gegner sofort an, ohne auf den Rest der Party zu warten. Er provoziert Monster und stellt sich vor die Gruppe. Taktik: Stuermt vor, haut zu, fragt spaeter."
+}

@@ -41,10 +41,8 @@
       "casting_time": "1 round",
       "area_of_effect": "Special",
       "saving_throw": "Special",
-      "description_excerpt": "is but ld4 + 1 rounds. An individual crea- ture cannot be partially affected; if all of its current hit points are affected, it is blinded, otherwise, it is not. Blindness can be removed by a cure blindness or dispel magic spell."
+      "description_excerpt": "is but ld4 + 1 rounds. An individual crea- ture cannot be partially affected; if all of its current hit points are affected, it is blinded, otherwise, it is not. Blindness can be removed by a cure blindness or dispel magic spell. [Beschreibung unvollstaendig — siehe PHB]"
     },
-    "quality_flags": [
-      "trimmed_merged_block"
-    ]
+    "quality_flags": []
   }
 }

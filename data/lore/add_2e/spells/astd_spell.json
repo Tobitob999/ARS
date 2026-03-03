@@ -1,7 +1,7 @@
 {
   "schema_version": "1.2.1",
-  "id": "astd_spell",
-  "name": "Astd Spell",
+  "id": "astral_spell_priest",
+  "name": "Astral Spell",
   "compatible_rulesets": [
     "add_2e"
   ],
@@ -12,7 +12,7 @@
     "player_handbook",
     "appendix_conversion"
   ],
-  "summary": "Astd Spell (Alteration) aus dem AD&D 2e Player's Handbook.",
+  "summary": "Astral Spell (Alteration) aus dem AD&D 2e Player's Handbook. Priest version (PHB p.231).",
   "source_text": {
     "book": "Player's Handbook (2nd Edition)",
     "appendix": 4,
@@ -30,19 +30,17 @@
     "school_or_type": "Alteration",
     "parser": "header_block_v3_1",
     "spell_card": {
-      "name": "Astd Spell",
+      "name": "Astral Spell",
       "canonical_name_guess": null,
       "school_or_type": "Alteration",
-      "range": null,
+      "range": "Touch",
       "components": "V, S",
       "duration": "Special",
-      "casting_time": "V2 hour",
+      "casting_time": "1/2 hour",
       "area_of_effect": "Special",
       "saving_throw": "None",
       "description_excerpt": "By means of the astral spell, a priest is able to project his astral body into the As- tral plane, leaving his physical body and material possessions behind on the Prime Material plane. As the Astral plane touches upon the first levels of all the outer planes, the priest can travel astrally to the first level of any of these outer planes as he wills. The priest then leaves the Astral plane, forming a body on the plane of existence he has cho- sen to enter. It is also possible to travel as- trally anywhere in the Prime Material plane by means of the astral spell (however, a sec- ond body cannot be formed on the Prime Material plane; see following). As a general rule, a person astrally pro- jected can be seen only by creatures on the Astral plane. The astral body is connected at all times to the material body by a silvery cord. If the cord is broken, the affected per- son is killed, astral"
     },
-    "quality_flags": [
-      "missing_standard_fields"
-    ]
+    "quality_flags": []
   }
 }

@@ -1,0 +1,195 @@
+{
+  "schema_version": "1.1.0",
+  "id": "crawltraining_full",
+  "name": "Die Schinder-Tiefen",
+  "compatible_rulesets": ["add_2e"],
+  "description": "Ein 15-Raum-Trainingsdungeon fuer maximale Kampfdichte und Tag-Erzeugung. Jeder Raum enthaelt mindestens einen Kampf und eine Probe. Konzipiert als Stress-Test fuer das Tag-System.",
+  "difficulty": "heroic",
+  "atmosphere": "Toedlicher Dungeon-Crawl. Jeder Raum ist eine Kampfarena. Keine Gnade, keine Pause.",
+
+  "keeper_lore": "Du bist ein aggressiver, kampfbetonter Dungeon Master. TEMPO-REGEL: Jede Antwort MUSS die Party in den NAECHSTEN Raum bringen. Verweile NICHT in einem Raum — nach einem Kampf geht es SOFORT weiter. KEINE Erkundungsphasen, KEINE langen Beschreibungen. KAMPF-PFLICHT: JEDE Antwort MUSS mindestens einen [HP_VERLUST: Name | Zahl] Tag enthalten — Monster treffen die Spieler! Wenn Monster die Party angreifen, werden Spielercharaktere getroffen und verlieren HP. Das ist PFLICHT. Zusaetzlich: [ANGRIFF:]-Tags fuer Spieler-Angriffe, [PROBE:]-Tags fuer Fertigkeitsproben. Nutze [RETTUNGSWURF:] bei Gift, Fallen und Magie. Nutze [XP_GEWINN:] nach jedem besiegten Monster. BEISPIEL einer guten Antwort: 'Das Skelett trifft Grimjaw mit dem Rostschwert. [HP_VERLUST: Grimjaw Eisenfaust | 5] Grimjaw schlaegt zurueck. [ANGRIFF: Battle Axe +1 | 14 | 7 | 4 | Grimjaw Eisenfaust]'",
+
+  "locations": [
+    {
+      "id": "eingangshalle",
+      "name": "Eingangshalle der Schinder-Tiefen",
+      "description": "Ein grosser, dunkler Saal mit zerbrochenen Saeulen. Knochen bedecken den Boden. Vier Skelette erheben sich klappernd aus den Truemmern, als die Party eintritt. Rostige Schwerter in knochigen Haenden, leere Augenhoehlen gluehen schwach rot.",
+      "connections": ["fallengang"],
+      "keeper_notes": "PFLICHT-TAGS: [PROBE: Wahrnehmung 12] beim Betreten (bemerken die Skelette?). Skelette greifen SOFORT an → [ANGRIFF: Rostschwert 1d6] pro Skelett. Bei Treffern → [HP_VERLUST: Name | N]. Nach Sieg → [XP_GEWINN: 260] (4x65 XP). Thorin und Aldric stehen vorne — sie werden zuerst angegriffen.",
+      "npcs_present": ["skelett_1", "skelett_2", "skelett_3", "skelett_4"]
+    },
+    {
+      "id": "fallengang",
+      "name": "Der Fallengang",
+      "description": "Ein langer, enger Gang mit verdaechtigen Loechern in den Waenden. Am Ende stehen zwei Skelett-Bogenschuetzen hinter einer Barrikade aus Knochen. Zwischen den Loechern liegen Stolperdraehte — kaum sichtbar im Fackelschein.",
+      "connections": ["eingangshalle", "wachposten"],
+      "keeper_notes": "PFLICHT: Lyra MUSS [PROBE: Find/Remove Traps 65] wuerfeln — bei Misserfolg loesen Giftpfeile aus den Waenden aus → [HP_VERLUST: Name | 1d4] + [RETTUNGSWURF: Gift]. Skelett-Bogenschuetzen schiessen sofort → [ANGRIFF: Langbogen 1d6]. Nach Sieg → [XP_GEWINN: 130].",
+      "npcs_present": ["skelett_bogen_1", "skelett_bogen_2"]
+    },
+    {
+      "id": "wachposten",
+      "name": "Der Ork-Wachposten",
+      "description": "Ein befestigter Raum mit einem grob gezimmerten Tisch, wuerfelnden Orks und dem Gestank von verdorbenem Fleisch. Drei Ork-Krieger und ein massiger Ork-Hauptmann mit einer gezackten Hellebarde springen auf, als sie die Party bemerken.",
+      "connections": ["fallengang", "spinnenhoehle"],
+      "keeper_notes": "PFLICHT: [PROBE: Ueberraschung] — wer ueberrascht wen? Orks greifen sofort an → [ANGRIFF: Krummschwert 1d8] pro Ork. Hauptmann: [ANGRIFF: Hellebarde 1d10]. Bei Treffern → [HP_VERLUST: Name | N]. Nach Sieg → [XP_GEWINN: 215] + [INVENTAR: +35 GP]. Der Hauptmann traegt einen Schluessel zum Schatzraum.",
+      "npcs_present": ["ork_1", "ork_2", "ork_3", "ork_hauptmann"]
+    },
+    {
+      "id": "spinnenhoehle",
+      "name": "Die Spinnenhoehle",
+      "description": "Dicke Spinnweben bedecken Decke und Waende. Vier riesige Spinnen von der Groesse eines Hundes lauern in den Netzen. Kokons haengen von der Decke — manche bewegen sich noch. Der Boden ist klebrig.",
+      "connections": ["wachposten", "bruecke"],
+      "keeper_notes": "PFLICHT: [PROBE: Geschicklichkeit 14] — wer bleibt in den Netzen kleben? Spinnen greifen sofort an → [ANGRIFF: Biss 1d6 + Gift]. Bei Biss → [RETTUNGSWURF: Gift] — Misserfolg = [HP_VERLUST: Name | 2d4] Giftschaden. Nach Sieg → [XP_GEWINN: 520] (4x130). Elara kann Kokons mit Feuermagie befreien.",
+      "npcs_present": ["riesenspinne_1", "riesenspinne_2", "riesenspinne_3", "riesenspinne_4"]
+    },
+    {
+      "id": "bruecke",
+      "name": "Die Harpyien-Bruecke",
+      "description": "Eine schmale Steinbruecke ueber einem bodenlosen Abgrund. Zwei Harpyien kreisen ueber der Schlucht und beginnen ihren betörenden Gesang. Die Bruecke ist nur 1.5 Meter breit — kein Platz zum Ausweichen.",
+      "connections": ["spinnenhoehle", "ogerhoehle"],
+      "keeper_notes": "PFLICHT: [PROBE: Geschicklichkeit 12] fuer Balance auf der Bruecke. [RETTUNGSWURF: Zauber] gegen Harpyien-Gesang — Misserfolg = zum Abgrund gezogen. Harpyien greifen mit Klauen an → [ANGRIFF: Klaue 1d4] x2 pro Harpyie. Nach Sieg → [XP_GEWINN: 240]. Kaelen kann mit Bogen schiessen waehrend andere kaempfen.",
+      "npcs_present": ["harpyie_1", "harpyie_2"]
+    },
+    {
+      "id": "ogerhoehle",
+      "name": "Die Ogerhoehle",
+      "description": "Eine stinkende Hoehle voller Knochen und halb aufgefressener Kadaver. Zwei massive Oger, jeder ueber drei Meter gross, schwingen keulenaehnliche Baumstaemme. Der Boden bebt bei jedem Schritt.",
+      "connections": ["bruecke", "schatzraum"],
+      "keeper_notes": "PFLICHT: [PROBE: Staerke 15] — koennen die Tanks den Oger-Angriff blocken? Oger greifen sofort an → [ANGRIFF: Grosse Keule 1d10] pro Oger. Bei Treffer → [HP_VERLUST: Name | N]. Oger haben 30 HP und AC 5 — zaehe Gegner. Nach Sieg → [XP_GEWINN: 540] + [INVENTAR: +Sack mit 80 GP].",
+      "npcs_present": ["oger_1", "oger_2"]
+    },
+    {
+      "id": "schatzraum",
+      "name": "Der Schatzraum",
+      "description": "Ein kleiner Raum voller glitzernder Schaetze — Goldmuenzen, Edelsteine, ein praechtiger Kelch. In der Mitte steht eine grosse, verzierte Truhe. Sie oeffnet sich von selbst und enthuellt ein riesiges, zahnbewehrtes Maul — eine Mimik!",
+      "connections": ["ogerhoehle", "trollbruecke"],
+      "keeper_notes": "PFLICHT: [PROBE: Intelligenz 14] oder [PROBE: Wahrnehmung 14] — erkennt jemand die Mimik? Falls nicht → Ueberraschungsangriff. [ANGRIFF: Biss 3d4] + Klebstoff (Staerke-Check zum Loskommen). Bei Biss → [HP_VERLUST: Name | N] + [RETTUNGSWURF: Konstitution] gegen Mimik-Gift. Nach Sieg → [XP_GEWINN: 975] + [INVENTAR: +Ring of Protection +1] + [INVENTAR: +200 GP].",
+      "npcs_present": ["mimik"]
+    },
+    {
+      "id": "trollbruecke",
+      "name": "Die Trollbruecke",
+      "description": "Eine massive Steinbruecke ueber einem unterirdischen Fluss. Ein riesiger Troll steht in der Mitte und bruellt die Party an. Seine Haut regeneriert sichtbar — Wunden schliessen sich in Sekunden.",
+      "connections": ["schatzraum", "krypta"],
+      "keeper_notes": "PFLICHT: [PROBE: Intelligenz 10] — wissen die Chars, dass Trolle Feuer fuerchten? Troll greift an → [ANGRIFF: Klaue 1d4+4] x2 + [ANGRIFF: Biss 1d8+2]. Regeneration 3 HP/Runde ohne Feuer! Bei Treffern → [HP_VERLUST: Name | N]. Kaelen hat Oil Flasks, Elara hat Fireball. Ohne Feuer kann der Troll NICHT sterben. Nach Sieg → [XP_GEWINN: 1400].",
+      "npcs_present": ["troll"]
+    },
+    {
+      "id": "krypta",
+      "name": "Die Krypta der Ruhelosen",
+      "description": "Ein eiskalter Raum voller Sarkophage. Sechs Zombies schlurfen aus den Graebern, gefolgt von zwei Ghulen mit irrem Blick und scharfen Klauen. Der Gestank des Todes ist ueberwaeltigend.",
+      "connections": ["trollbruecke", "labor"],
+      "keeper_notes": "PFLICHT: Aldhelm MUSS Turn Undead versuchen → [PROBE: Turn Undead]. Zombies = auto-Erfolg, Ghule = 4+ auf d20. Untote greifen an → [ANGRIFF: Klaue 1d4] (Zombie) und [ANGRIFF: Klaue 1d3 + Paralyse] (Ghul). Bei Ghul-Treffer → [RETTUNGSWURF: Paralyse] — Misserfolg = paralysiert 2d6 Runden! Bei Treffern → [HP_VERLUST: Name | N]. Aldric mit Holy Sword +2 macht doppelten Schaden. Nach Sieg → [XP_GEWINN: 490].",
+      "npcs_present": ["zombie_1", "zombie_2", "zombie_3", "zombie_4", "zombie_5", "zombie_6", "ghul_1", "ghul_2"]
+    },
+    {
+      "id": "labor",
+      "name": "Das Labor des Wahnsinns",
+      "description": "Ein alchemistisches Labor voller brodelnder Kessel und verzerrter Glasgefaesse. In der Mitte steht ein Fleischgolem — zusammengenaehte Leichen, belebt durch dunkle Magie. Er bewegt sich langsam aber unaufhaltsam.",
+      "connections": ["krypta", "lavasaal"],
+      "keeper_notes": "PFLICHT: [PROBE: Arkanes Wissen 16] — kennt Elara die Schwaechen des Golems? (Immun gegen die meisten Zauber, Feuer verlangsamt, Blitz heilt!). Golem greift an → [ANGRIFF: Faust 2d8]. Bei Treffer → [HP_VERLUST: Name | N]. WARNUNG: Lightning Bolt HEILT den Golem! Nur physischer Schaden + Feuer wirkt. Nach Sieg → [XP_GEWINN: 2000] + [INVENTAR: +Potion of Extra-Healing] + [INVENTAR: +Scroll of Protection from Magic].",
+      "npcs_present": ["fleischgolem"]
+    },
+    {
+      "id": "lavasaal",
+      "name": "Der Lavasaal",
+      "description": "Ein riesiger Saal, dessen Boden von Lavastroemen durchzogen ist. Schmale Steinpfade fuehren ueber die gluehende Masse. Zwei Feuerelementare erheben sich aus der Lava — Gestalten aus reiner Flamme.",
+      "connections": ["labor", "drachengang"],
+      "keeper_notes": "PFLICHT: [PROBE: Konstitution 13] — Hitzeschaden fuer alle in der Naehe der Lava (1d4 pro Runde ohne Schutz). [RETTUNGSWURF: Atemwaffe] bei Feuer-Attacken. Elementare greifen an → [ANGRIFF: Feuerberuehrung 3d8]. Bei Treffer → [HP_VERLUST: Name | N]. Beruehrbare Waffen brennen (Holzschaefte)! Magische Waffen noetig. Nach Sieg → [XP_GEWINN: 3900] + [INVENTAR: +Feuerfeste Robe].",
+      "npcs_present": ["feuerelementar_1", "feuerelementar_2"]
+    },
+    {
+      "id": "drachengang",
+      "name": "Der Drachengang",
+      "description": "Ein breiter Gang mit Kratzspuren an den Waenden und dem beissenden Geruch von Saeureund Schwefel. Am Ende liegt ein junger roter Drache auf einem Haufen geschmolzenen Goldes. Er hebt den Kopf und fixiert die Party mit gluehenden Augen.",
+      "connections": ["lavasaal", "wight_festung"],
+      "keeper_notes": "PFLICHT: [RETTUNGSWURF: Atemwaffe] gegen Feueratem (8d6 Schaden, Haelfte bei Erfolg). [HP_VERLUST: Name | N] fuer JEDEN getroffenen Charakter. Drache greift an → [ANGRIFF: Biss 2d8] + [ANGRIFF: Klaue 1d6] x2. Elara's Fireball ist NUTZLOS (Drache immun gegen Feuer). Eismagie oder physisch kaempfen. Nach Sieg → [XP_GEWINN: 4000] + [INVENTAR: +500 GP geschmolzenes Gold] + [INVENTAR: +Drachenschuppe-Schild].",
+      "npcs_present": ["junger_drache"]
+    },
+    {
+      "id": "wight_festung",
+      "name": "Die Wight-Festung",
+      "description": "Eine unterirdische Festung aus schwarzem Stein. Drei Wights in verrosteter Ruestung und ein Wight-Champion mit einem leuchtenden Schwert bewachen den Durchgang. Ihre Beruehrung saugt Lebensenergie.",
+      "connections": ["drachengang", "schrein"],
+      "keeper_notes": "PFLICHT: [PROBE: Turn Undead 10] fuer Aldhelm. Wights greifen an → [ANGRIFF: Beruehrung 1d4 + Level Drain]. Bei Treffer → [HP_VERLUST: Name | N] + WARNUNG: Level Drain! -1 Level, -1 HD, permanenter HP-Verlust! Nur magische Waffen treffen Wights. Holy Water: 2d4 Schaden. Aldrics Holy Sword ist KRITISCH. Champion hat 6 HD und AC 3. Nach Sieg → [XP_GEWINN: 3300] + [INVENTAR: +Schwert des Wight-Champions (+1, leuchtet)].",
+      "npcs_present": ["wight_1", "wight_2", "wight_3", "wight_champion"]
+    },
+    {
+      "id": "schrein",
+      "name": "Der Schrein der Daemonenanbeter",
+      "description": "Ein unheiliger Schrein mit blutbeflecktem Altar. Ein Daemonenbeschworer in schwarzer Robe chantet vor einem Pentagramm, aus dem zwei kleinere Daemonen materialisieren. Die Luft vibriert vor dunkler Magie.",
+      "connections": ["wight_festung", "endkammer"],
+      "keeper_notes": "PFLICHT: [PROBE: Weisheit 14] — spuert die Party die daemonische Praesenz? [RETTUNGSWURF: Zauber] gegen Furcht-Aura der Daemonen. Beschworer wirkt Zauber → [ANGRIFF: Todesstrahl 3d6]. Daemonen greifen an → [ANGRIFF: Klaue 2d4 + Feuer] x2. Bei Treffern → [HP_VERLUST: Name | N]. Aldhelm kann Dispel Magic gegen Pentagramm versuchen → verbannt Daemonen. Nach Sieg → [XP_GEWINN: 5000] + [INVENTAR: +Staff of Striking (10 Ladungen)].",
+      "npcs_present": ["daemonenbeschworer", "daemon_1", "daemon_2"]
+    },
+    {
+      "id": "endkammer",
+      "name": "Die Endkammer des Lich",
+      "description": "Ein riesiger Thronsaal aus obsidianem Gestein. Auf einem Thron aus Knochen sitzt ein Lich in praechtiger, aber verrotteter Robe. Sein Phylactery — ein schwarzer Edelstein — pulsiert auf einem Podest hinter dem Thron. Untote Wachen flankieren ihn.",
+      "connections": ["schrein"],
+      "keeper_notes": "PFLICHT: ENDKAMPF. [RETTUNGSWURF: Zauber] gegen Lich-Paralyse-Aura beim Betreten. Lich wirkt Power Word Kill (unter 60 HP → sofort tot!) oder Finger of Death → [RETTUNGSWURF: Zauber]. Lich greift an → [ANGRIFF: Beruehrung 1d10 + Paralyse]. AC -2, HP 90, immun gegen Schlaf/Charm/Kalte/Blitz. [PROBE: Wahrnehmung 16] — findet jemand den Phylactery? MUSS zerstoert werden, sonst regeneriert der Lich. Bei Treffern → [HP_VERLUST: Name | N]. Aldrics Protection from Evil 10' ist KRITISCH. Nach Sieg → [XP_GEWINN: 8000] + [INVENTAR: +Phylactery-Edelstein (wertlos ohne Magie)] + [INVENTAR: +2000 GP Schatzkammer].",
+      "npcs_present": ["lich"]
+    }
+  ],
+
+  "npcs": [
+    {"id": "skelett_1", "name": "Skelett-Krieger", "type": "monster", "stats": {"HD": "1", "HP": 6, "AC": 7, "THAC0": 19, "Attacks": "1 (Rostschwert 1d6)", "XP": 65}},
+    {"id": "skelett_2", "name": "Skelett-Krieger", "type": "monster", "stats": {"HD": "1", "HP": 5, "AC": 7, "THAC0": 19, "Attacks": "1 (Rostschwert 1d6)", "XP": 65}},
+    {"id": "skelett_3", "name": "Skelett-Krieger", "type": "monster", "stats": {"HD": "1", "HP": 7, "AC": 7, "THAC0": 19, "Attacks": "1 (Rostschwert 1d6)", "XP": 65}},
+    {"id": "skelett_4", "name": "Skelett-Krieger", "type": "monster", "stats": {"HD": "1", "HP": 4, "AC": 7, "THAC0": 19, "Attacks": "1 (Rostschwert 1d6)", "XP": 65}},
+    {"id": "skelett_bogen_1", "name": "Skelett-Bogenschuetze", "type": "monster", "stats": {"HD": "1", "HP": 6, "AC": 7, "THAC0": 19, "Attacks": "1 (Langbogen 1d6)", "XP": 65}},
+    {"id": "skelett_bogen_2", "name": "Skelett-Bogenschuetze", "type": "monster", "stats": {"HD": "1", "HP": 5, "AC": 7, "THAC0": 19, "Attacks": "1 (Langbogen 1d6)", "XP": 65}},
+    {"id": "ork_1", "name": "Ork-Krieger", "type": "monster", "stats": {"HD": "1", "HP": 6, "AC": 6, "THAC0": 19, "Attacks": "1 (Krummschwert 1d8)", "XP": 15}},
+    {"id": "ork_2", "name": "Ork-Krieger", "type": "monster", "stats": {"HD": "1", "HP": 7, "AC": 6, "THAC0": 19, "Attacks": "1 (Krummschwert 1d8)", "XP": 15}},
+    {"id": "ork_3", "name": "Ork-Krieger", "type": "monster", "stats": {"HD": "1", "HP": 5, "AC": 6, "THAC0": 19, "Attacks": "1 (Krummschwert 1d8)", "XP": 15}},
+    {"id": "ork_hauptmann", "name": "Ork-Hauptmann Gruk", "type": "monster", "stats": {"HD": "3", "HP": 20, "AC": 4, "THAC0": 17, "Attacks": "1 (Hellebarde 1d10)", "XP": 170, "Special": "Schluessel zum Schatzraum"}},
+    {"id": "riesenspinne_1", "name": "Riesenspinne", "type": "monster", "stats": {"HD": "2+2", "HP": 13, "AC": 6, "THAC0": 17, "Attacks": "1 (Biss 1d6 + Gift)", "XP": 130, "Special": "Gift: RETTUNGSWURF oder 2d4 zusaetzlicher Schaden"}},
+    {"id": "riesenspinne_2", "name": "Riesenspinne", "type": "monster", "stats": {"HD": "2+2", "HP": 11, "AC": 6, "THAC0": 17, "Attacks": "1 (Biss 1d6 + Gift)", "XP": 130, "Special": "Gift: RETTUNGSWURF oder 2d4 zusaetzlicher Schaden"}},
+    {"id": "riesenspinne_3", "name": "Riesenspinne", "type": "monster", "stats": {"HD": "2+2", "HP": 14, "AC": 6, "THAC0": 17, "Attacks": "1 (Biss 1d6 + Gift)", "XP": 130, "Special": "Gift: RETTUNGSWURF oder 2d4 zusaetzlicher Schaden"}},
+    {"id": "riesenspinne_4", "name": "Riesenspinne", "type": "monster", "stats": {"HD": "2+2", "HP": 10, "AC": 6, "THAC0": 17, "Attacks": "1 (Biss 1d6 + Gift)", "XP": 130, "Special": "Gift: RETTUNGSWURF oder 2d4 zusaetzlicher Schaden"}},
+    {"id": "harpyie_1", "name": "Harpyie", "type": "monster", "stats": {"HD": "3", "HP": 16, "AC": 7, "THAC0": 17, "Attacks": "2 (Klaue 1d4, Klaue 1d4) + Gesang", "XP": 120, "Special": "Betoerender Gesang: RETTUNGSWURF Zauber oder zum Abgrund gezogen"}},
+    {"id": "harpyie_2", "name": "Harpyie", "type": "monster", "stats": {"HD": "3", "HP": 18, "AC": 7, "THAC0": 17, "Attacks": "2 (Klaue 1d4, Klaue 1d4) + Gesang", "XP": 120, "Special": "Betoerender Gesang: RETTUNGSWURF Zauber oder zum Abgrund gezogen"}},
+    {"id": "oger_1", "name": "Oger", "type": "monster", "stats": {"HD": "4+1", "HP": 30, "AC": 5, "THAC0": 15, "Attacks": "1 (Grosse Keule 1d10)", "XP": 270}},
+    {"id": "oger_2", "name": "Oger", "type": "monster", "stats": {"HD": "4+1", "HP": 28, "AC": 5, "THAC0": 15, "Attacks": "1 (Grosse Keule 1d10)", "XP": 270}},
+    {"id": "mimik", "name": "Mimik", "type": "monster", "stats": {"HD": "7-8", "HP": 45, "AC": 7, "THAC0": 13, "Attacks": "1 (Biss 3d4 + Klebstoff)", "XP": 975, "Special": "Klebstoff: STR-Check 18 zum Loskommen. Gift: RETTUNGSWURF Konstitution oder -2 STR fuer 1 Stunde"}},
+    {"id": "troll", "name": "Hoehlen-Troll", "type": "monster", "stats": {"HD": "6+6", "HP": 44, "AC": 4, "THAC0": 13, "Attacks": "3 (Klaue 1d4+4, Klaue 1d4+4, Biss 1d8+2)", "XP": 1400, "Special": "Regeneration 3 HP/Runde. Nur Feuer oder Saeure verhindert Regeneration. Kann nicht sterben ohne Feuer/Saeure."}},
+    {"id": "zombie_1", "name": "Zombie", "type": "undead", "stats": {"HD": "2", "HP": 10, "AC": 8, "THAC0": 19, "Attacks": "1 (Klaue 1d8)", "XP": 35}},
+    {"id": "zombie_2", "name": "Zombie", "type": "undead", "stats": {"HD": "2", "HP": 12, "AC": 8, "THAC0": 19, "Attacks": "1 (Klaue 1d8)", "XP": 35}},
+    {"id": "zombie_3", "name": "Zombie", "type": "undead", "stats": {"HD": "2", "HP": 9, "AC": 8, "THAC0": 19, "Attacks": "1 (Klaue 1d8)", "XP": 35}},
+    {"id": "zombie_4", "name": "Zombie", "type": "undead", "stats": {"HD": "2", "HP": 11, "AC": 8, "THAC0": 19, "Attacks": "1 (Klaue 1d8)", "XP": 35}},
+    {"id": "zombie_5", "name": "Zombie", "type": "undead", "stats": {"HD": "2", "HP": 8, "AC": 8, "THAC0": 19, "Attacks": "1 (Klaue 1d8)", "XP": 35}},
+    {"id": "zombie_6", "name": "Zombie", "type": "undead", "stats": {"HD": "2", "HP": 13, "AC": 8, "THAC0": 19, "Attacks": "1 (Klaue 1d8)", "XP": 35}},
+    {"id": "ghul_1", "name": "Ghul", "type": "undead", "stats": {"HD": "2", "HP": 14, "AC": 6, "THAC0": 19, "Attacks": "3 (Klaue 1d3, Klaue 1d3, Biss 1d6 + Paralyse)", "XP": 65, "Special": "Paralyse: RETTUNGSWURF oder paralysiert 2d6 Runden. Elfen immun."}},
+    {"id": "ghul_2", "name": "Ghul", "type": "undead", "stats": {"HD": "2", "HP": 12, "AC": 6, "THAC0": 19, "Attacks": "3 (Klaue 1d3, Klaue 1d3, Biss 1d6 + Paralyse)", "XP": 65, "Special": "Paralyse: RETTUNGSWURF oder paralysiert 2d6 Runden. Elfen immun."}},
+    {"id": "fleischgolem", "name": "Fleischgolem", "type": "construct", "stats": {"HD": "9", "HP": 50, "AC": 9, "THAC0": 11, "Attacks": "2 (Faust 2d8, Faust 2d8)", "XP": 2000, "Special": "Immun gegen die meisten Zauber. Feuer verlangsamt 50%. Blitz HEILT den Golem vollstaendig. Nur magische Waffen +1 oder besser treffen."}},
+    {"id": "feuerelementar_1", "name": "Feuerelementar", "type": "elemental", "stats": {"HD": "8", "HP": 40, "AC": 2, "THAC0": 12, "Attacks": "1 (Feuerberuehrung 3d8)", "XP": 1950, "Special": "Immun gegen Feuer. Doppelter Schaden durch Kaelte/Wasser. Verbrennt nicht-magische Waffen bei Kontakt."}},
+    {"id": "feuerelementar_2", "name": "Feuerelementar", "type": "elemental", "stats": {"HD": "8", "HP": 38, "AC": 2, "THAC0": 12, "Attacks": "1 (Feuerberuehrung 3d8)", "XP": 1950, "Special": "Immun gegen Feuer. Doppelter Schaden durch Kaelte/Wasser. Verbrennt nicht-magische Waffen bei Kontakt."}},
+    {"id": "junger_drache", "name": "Junger Roter Drache", "type": "dragon", "stats": {"HD": "10", "HP": 55, "AC": 1, "THAC0": 11, "Attacks": "3 (Biss 2d8, Klaue 1d6, Klaue 1d6) + Feueratem", "XP": 4000, "Special": "Feueratem: 8d6, Kegel 30ft, RETTUNGSWURF Atemwaffe fuer Haelfte. Immun gegen Feuer. Fliegend. Furchterregend (Moral-Check fuer Soeldner)."}},
+    {"id": "wight_1", "name": "Wight", "type": "undead", "stats": {"HD": "4+3", "HP": 25, "AC": 5, "THAC0": 15, "Attacks": "1 (Beruehrung 1d4 + Level Drain)", "XP": 750, "Special": "Level Drain: -1 Level permanent bei Treffer. Nur magische Waffen +1 oder besser treffen. Holy Water: 2d4 Schaden."}},
+    {"id": "wight_2", "name": "Wight", "type": "undead", "stats": {"HD": "4+3", "HP": 22, "AC": 5, "THAC0": 15, "Attacks": "1 (Beruehrung 1d4 + Level Drain)", "XP": 750, "Special": "Level Drain: -1 Level permanent bei Treffer. Nur magische Waffen +1 oder besser treffen."}},
+    {"id": "wight_3", "name": "Wight", "type": "undead", "stats": {"HD": "4+3", "HP": 27, "AC": 5, "THAC0": 15, "Attacks": "1 (Beruehrung 1d4 + Level Drain)", "XP": 750, "Special": "Level Drain: -1 Level permanent bei Treffer. Nur magische Waffen +1 oder besser treffen."}},
+    {"id": "wight_champion", "name": "Wight-Champion", "type": "undead", "stats": {"HD": "6", "HP": 35, "AC": 3, "THAC0": 13, "Attacks": "1 (Schwert +1 1d8+1 + Level Drain)", "XP": 1050, "Special": "Level Drain: -1 Level permanent bei Treffer. Magisches Schwert +1 (lootbar). AC 3 durch verfallene Plattenruestung."}},
+    {"id": "daemonenbeschworer", "name": "Daemonenbeschworer Malachar", "type": "humanoid", "stats": {"HD": "9", "HP": 35, "AC": 5, "THAC0": 16, "Attacks": "Zauber (Todesstrahl 3d6, Fireball 6d6, Hold Person)", "XP": 2000, "Special": "Zauber: Todesstrahl (3d6, RETTUNGSWURF Zauber fuer Haelfte), Fireball (6d6, 20ft Radius), Hold Person, Darkness 15'. Konzentration auf Pentagramm — wird sie unterbrochen, verschwinden die Daemonen."}},
+    {"id": "daemon_1", "name": "Niederer Daemon", "type": "fiend", "stats": {"HD": "6", "HP": 30, "AC": 1, "THAC0": 13, "Attacks": "2 (Klaue 2d4 + Feuer, Klaue 2d4 + Feuer)", "XP": 1500, "Special": "Furcht-Aura: RETTUNGSWURF Zauber oder -2 auf Angriffe. Feuer-Zusatzschaden 1d4 pro Klauentreffer. Nur magische Waffen +1 treffen. Verschwindet wenn Pentagramm unterbrochen."}},
+    {"id": "daemon_2", "name": "Niederer Daemon", "type": "fiend", "stats": {"HD": "6", "HP": 28, "AC": 1, "THAC0": 13, "Attacks": "2 (Klaue 2d4 + Feuer, Klaue 2d4 + Feuer)", "XP": 1500, "Special": "Furcht-Aura: RETTUNGSWURF Zauber oder -2 auf Angriffe. Verschwindet wenn Pentagramm unterbrochen."}},
+    {"id": "lich", "name": "Lich-Lord Valdrak", "type": "undead", "stats": {"HD": "14", "HP": 90, "AC": -2, "THAC0": 7, "Attacks": "1 (Beruehrung 1d10 + Paralyse) + Zauber", "XP": 8000, "Special": "Paralyse-Aura 60ft: RETTUNGSWURF Zauber beim Betreten. Zauber: Power Word Kill (unter 60 HP = sofort tot), Finger of Death (RETTUNGSWURF oder Tod), Meteor Swarm (4x10d4). Immun gegen Schlaf, Charm, Kaelte, Blitz, Polymorph. Phylactery muss zerstoert werden oder Lich regeneriert in 1d10 Tagen. AC -2 durch magische Schutzzauber."}}
+  ],
+
+  "items": [
+    {"id": "ring_protection", "name": "Ring of Protection +1", "type": "magic_ring", "effect": "AC -1, +1 Rettungswuerfe"},
+    {"id": "feuerfeste_robe", "name": "Feuerfeste Robe", "type": "magic_armor", "effect": "Feuerresistenz: Halbschaden durch Feuer"},
+    {"id": "wight_schwert", "name": "Schwert des Wight-Champions", "type": "magic_weapon", "effect": "+1 Angriff/Schaden, leuchtet schwach blau in der Naehe von Untoten"},
+    {"id": "staff_striking", "name": "Staff of Striking", "type": "magic_weapon", "effect": "10 Ladungen, 1d6+3 Schaden pro Ladung, +3 Angriff"},
+    {"id": "drachenschuppe_schild", "name": "Drachenschuppe-Schild", "type": "magic_shield", "effect": "AC -2, Feuerresistenz +2 auf Rettungswuerfe"},
+    {"id": "scroll_prot_magic", "name": "Scroll of Protection from Magic", "type": "scroll", "effect": "Magieresistenz 100% fuer 1d4 Runden"}
+  ],
+
+  "flags": {
+    "start_location": "eingangshalle",
+    "linear_progression": true,
+    "mandatory_combat": true,
+    "tag_training_mode": true
+  },
+
+  "notes": "TRAININGS-DUNGEON: Konzipiert fuer maximale Tag-Dichte. Jeder Raum erzwingt mindestens [PROBE:], [ANGRIFF:] und [HP_VERLUST:]. Die keeper_notes sind extrem direktiv — sie sagen dem Keeper GENAU welche Tags er nutzen soll. Schwierigkeitsgrad eskaliert linear von Skeletten (HD 1) bis zum Lich (HD 14, AC -2, 90 HP). Gesamte XP im Dungeon: ~30.000. Party sollte 1-2 Level aufsteigen bei vollem Durchlauf."
+}

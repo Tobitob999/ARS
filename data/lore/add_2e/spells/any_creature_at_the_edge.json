@@ -5,14 +5,14 @@
   "compatible_rulesets": [
     "add_2e"
   ],
-  "category": "spell",
+  "category": "index_header",
   "tags": [
     "add_2e",
     "spell",
     "player_handbook",
     "appendix_conversion"
   ],
-  "summary": "Any creature at the edge (within one foot) aus dem AD&D 2e Player's Handbook.",
+  "summary": "[KEIN ZAUBER] OCR-Parsing-Artefakt — enthaelt Fragment des Dig-Spells + Anfang von Dimension Door. Kein eigenstaendiger Spell.",
   "source_text": {
     "book": "Player's Handbook (2nd Edition)",
     "appendix": 3,
@@ -42,7 +42,7 @@
       "description_excerpt": "wizard instantly transfers himself up to 30 yards distance per level of experience. This special form of teleportation allows for no error, and the wizard always arrives at exactly the spot desired-whether by sim- ply visualizing the area (within spell tranda distance, of course) or by stating direction such as, ”300 yards straight downward: or, “upward to the northwest, 45 degree angle, 420 yards.” If the wizard arrives in a place that is already occupied by a solid body, he remains trapped in the Astral plane. If dis- tances are stated and the spellcaster arrives with no sui air), falling magical means are employed. All that the wizard wears or carries, subject to a maxi- mum weight equal to 500 pounds of nonliv- - ing matter, or half that amount of living matter, is transferred with the spellcaster. Recovery from use of a dimension door spell requires one round. ~"
     },
     "quality_flags": [
-      "missing_standard_fields"
+      "ocr_section_header_not_a_spell"
     ]
   }
 }
