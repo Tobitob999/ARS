@@ -1,6 +1,7 @@
 {
-    "id":  "potion_extra_healing",
-    "value_gp":  500,
-    "magical":  true,
-    "effect_description":  "Restores 3d8 hit points when consumed."
+    "id": "potion_extra_healing",
+    "value_gp": 500,
+    "magical": true,
+    "effect_description": "Restores 3d8+3 hit points when consumed.",
+    "use_effect": {"type": "heal", "amount": "3d8+3"}
 }

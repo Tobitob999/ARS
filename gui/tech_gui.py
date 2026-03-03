@@ -90,6 +90,7 @@ class TechGUI:
         from gui.tab_test_monitor import TestMonitorTab
         from gui.tab_party_monitor import PartyMonitorTab
         from gui.tab_dungeon_view import DungeonViewTab
+        from gui.tab_replay_viewer import ReplayViewerTab
 
         self.tab_session = SessionTab(self.notebook, self)
         self.tab_game = GameTab(self.notebook, self)
@@ -103,6 +104,7 @@ class TechGUI:
         self.tab_test_monitor = TestMonitorTab(self.notebook, self)
         self.tab_party_monitor = PartyMonitorTab(self.notebook, self)
         self.tab_dungeon = DungeonViewTab(self.notebook, self)
+        self.tab_replay = ReplayViewerTab(self.notebook, self)
 
         self.notebook.add(self.tab_session, text="  Session Setup  ")
         self.notebook.add(self.tab_game, text="  Game  ")
@@ -116,6 +118,7 @@ class TechGUI:
         self.notebook.add(self.tab_test_monitor, text="  Test-Monitor  ")
         self.notebook.add(self.tab_party_monitor, text="  Party-Monitor  ")
         self.notebook.add(self.tab_dungeon, text="  Dungeon  ")
+        self.notebook.add(self.tab_replay, text="  Replay  ")
 
         # Statusleiste
         self.status_bar = StatusBar(self.root)
@@ -214,8 +217,12 @@ class TechGUI:
             self.tab_test_monitor.on_engine_ready()
             self.tab_party_monitor.on_engine_ready()
             self.tab_dungeon.on_engine_ready()
-            # Zum Game-Tab wechseln (oder Party-Monitor wenn Party-Modus aktiv)
-            if getattr(self.engine, "party_state", None):
+            self.tab_replay.on_engine_ready()
+            # Zum passenden Tab wechseln:
+            # Dungeon-Tab wenn Adventure geladen, Party-Monitor bei Party, sonst Game
+            if hasattr(self.engine, "_adv_manager") and self.engine._adv_manager and self.engine._adv_manager.loaded:
+                self.notebook.select(self.tab_dungeon)
+            elif getattr(self.engine, "party_state", None):
                 self.notebook.select(self.tab_party_monitor)
             else:
                 self.notebook.select(self.tab_game)
@@ -243,6 +250,7 @@ class TechGUI:
         self.tab_test_monitor.handle_event(data)
         self.tab_party_monitor.handle_event(data)
         self.tab_dungeon.handle_event(data)
+        self.tab_replay.handle_event(data)
 
     # ── Mausrad ──
 

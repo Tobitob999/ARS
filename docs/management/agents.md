@@ -1,7 +1,7 @@
 # ARS — Agent Coordination Dashboard
 
-**Zuletzt aktualisiert:** 2026-03-03 (Session 10d — Stresstest-Optimierung, 7 Bugfixes)
-**Projektstatus:** In Betrieb — 5 Regelsysteme, Party-System, Dungeon-View, Content Pipeline R1-R8, Web GUI, Testbot CLI
+**Zuletzt aktualisiert:** 2026-03-03 (Session 13 — TinyCrawl Demo Level 1 + Asset-Archivierung)
+**Projektstatus:** In Betrieb — 5 Regelsysteme, Party-System, Dungeon-View, Content Pipeline R1-R8, Web GUI, Testbot CLI, TinyCrawl Demo
 
 **Speicherort:** `docs/management/` — zentraler Management-Ordner
 
@@ -41,6 +41,8 @@
 | Lore-Daten | fertig | ~5000+ Dateien, 3-Verzeichnis-Scan (chunks/chapters/fulltext), Auto-Priority-Promotion |
 | Party-System | fertig (v1) | PartyStateManager, 6-Char Party, Party-Monitor Tab, VirtualPlayer Case 7 |
 | Abenteuer-Content | minimal | spukhaus, goblin_cave, 4x Paranoia Adventures, dungeon_gauntlet_party |
+| TinyCrawl Demo | Level 1 fertig | Standalone Auto-Battler, Hoehlen-Dungeon 80x60, scrollbar, Fog of War, Minimap, CRT-Scanlines |
+| Tileset-Archiv | 12 Packs | `data/tilesets/` — 1227 PNGs, 6 MB, 0x72 Dungeon v5 + 11 weitere Packs |
 
 ---
 
@@ -103,12 +105,12 @@ main.py --webgui --port 7860
 - [x] **Testbot CLI** (`scripts/testbot.py`): 4 Subcommands (run/results/status/cleanup), Token-Tracking in virtual_player+test_series, EUR-Kosten
 - [x] **Web GUI v1** (`web/`): FastAPI+WebSocket, 10 Tabs (Session/Game/Audio/KI-Monitor/Injector/Responder/KI-Connection/Spielstand/Conversion/Test-Monitor), Dark Theme, `--webgui`
 - [x] **Party-System v1** — PartyStateManager, 6 Party-Tag-Patterns, Party-Prompt-Injection, Party-Monitor GUI Tab, VirtualPlayer Party-Mode (Session 10)
-- [ ] **CRITICAL: Preset-Adventure Passthrough** — Preset-Adventure wird nicht an engine.load_adventure() weitergegeben (dungeon_gauntlet statt dungeon_gauntlet_party geladen)
-- [ ] **HIGH: Monster-Gegenangriffe** — KI emittiert keine HP_VERLUST-Tags fuer Monster → 0 Schaden nach 165 Zuegen
-- [ ] **HIGH: Context-Saettigung** — Repetitive Antworten ab ~80 Zuegen
-- [ ] PROBE-Tags fehlen in Cthulhu (0/5 Turns, sollten 2-3 sein)
-- [ ] Monolog-Sperre Enforcement (KI ignoriert 3-Satz-Limit, avg 5-7 Saetze)
-- [ ] Shadowrun PROBE-Zielwerte ausserhalb Bereich (50-70 statt 1-30 fuer d6 Pool)
+- [x] **CRITICAL: Preset-Adventure Passthrough** — BUG-009 FIXED (Session 12): _set_combo() fuegt fehlende Werte ins Dropdown ein statt silent fallback auf "(keine)". gui/tab_session.py.
+- [x] **HIGH: Monster-Gegenangriffe** — BUG-010 MITIGATED (Session 12): KAMPF-ERINNERUNG Block im System-Prompt + Post-Validation Warning in _validate_response(). Prompt-Compliance nicht 100% garantiert.
+- [ ] **HIGH: Context-Saettigung** — BUG-011 OPEN: Repetitive Antworten ab ~80 Zuegen. Erfordert History-Truncation oder Zusammenfassungs-Mechanismus. Design-Konzept offen.
+- [x] PROBE-Tags fehlen in Cthulhu — FIXED Session 7 (BUG-001/002): Deep-Copy + Type Guards in adventure_manager.py + memory.py. Root Cause Session 9.
+- [x] Monolog-Sperre Enforcement — FIXED Session 7 (BUG-003): _pending_feedback Liste, STIL-KORREKTUR Injection, Prompt-Verschaerfung.
+- [x] Shadowrun PROBE-Zielwerte ausserhalb Bereich — FIXED Session 7 (BUG-002): PROBE-Protokoll check_mode-aware, Pool-Berechnung im Prompt.
 
 ### Content Specialist (Codex)
 - [ ] Expansion des MU-Personal-Katalogs in `/data/lore/university/`
@@ -347,6 +349,123 @@ Gueltige `difficulty` Werte: `"easy"`, `"normal"`, `"heroic"`, `"hardcore"`.
 
 ## Agent Reports
 
+[2026-03-04 00:30] | FROM: Claude Code | TinyCrawl Level 1 + Asset-Archivierung
+
+(1) TinyCrawl Demo komplett neu geschrieben: 847 → 1469 Zeilen
+    - CaveGenerator: Cellular Automata (80x60, 45% Fill, 5x Smoothing, Flood-Fill, 2-Tile Border)
+    - Autotiler: 4-Bit Bitmask → 15 Edge-Tiles + Wall_front Varianten
+    - BFS Distance Map: 1 BFS pro Tick fuer alle Monster (statt pro-Entity)
+    - Viewport + Kamera: Fullscreen, SCALE=2 (32px/Tile), Auto-Follow + WASD/Pfeile, Tile-Snap
+    - Fog of War: 3 Stufen (klar <8, halb 8-12, schwarz >12 Tiles)
+    - Minimap: 160x120 in HUD-Ecke (Hoehle/Held/Monster/Viewport-Rahmen)
+    - CRT-Scanlines: Vorberechnetes Overlay, jede 2. Zeile 55/255 dunkler
+    - Screen-Flash: 2 Ticks weiss bei Wellenstart
+    - Deko-System: Schaedel an Sackgassen, Fackeln an Engstellen (animiert), Truhen in Nischen
+    - Zone-Spawning: 4 Quadranten, progressive Entfernung, 18 Monstertypen
+    - FPS=8 fuer 80er-Retro-Ruckel-Feeling
+
+(2) Asset-Archivierung: mystic_woods_free_2.2/ → data/tilesets/ (12 Packs, 1227 PNGs, 6 MB)
+    Packs: 0x72_dungeon_v5, basic_asset_pack, crystals_ore_24x24, debts_in_the_depths,
+    mystic_woods_sprites, rpg_items_16x16, tiny_rpg_chars_demo/v102/v103, zombie_apocalypse
+    + beholder_pixellab.png, shields_unfinished.png, pumpkin_dude.png
+    ASSET_DIR in tinycrawl_demo.py auf data/tilesets/0x72_dungeon_v5 umgestellt.
+    Originalordner kann geloescht werden.
+
+DATEIEN: tinycrawl_demo.py (REWRITE), data/tilesets/ (NEU, 12 Ordner), docs/management/agents.md (MODIFY)
+
+[2026-03-03 20:15] | FROM: Claude Code | Grid-Engine Bugfixes + Dungeon-Tab Eingabefeld: 3 Bugfixes + 1 Feature implementiert und getestet.
+  (1) Raumwechsel-Erkennung (CORE FIX): _detect_room_change() in orchestrator.py — scannt GM-Antwort nach Ortsnamen erreichbarer Exits + Bewegungsverben, ruft automatisch teleport() auf wenn Score >= 5. Score-basiertes Matching: Verb-Match +5, Location-Name voll +10, Wortmatch +2/Wort, Exit-ID-Woerter +2/Wort. 4/4 Integrationstests bestanden (Vorhalle Score 7, Wachraum Score 11, kein False Positive bei Kampf, Ruestkammer Score 9).
+  (2) FERTIGKEIT_GENUTZT Suppression: AD&D/Paranoia/Shadowrun Skills werden nicht mehr fuer "Steigerungsphase" markiert (nur CoC + Mad Max als d100-Systeme). Beide Handler gefixt: _handle_stat_change() (Solo) + _handle_party_tags() (Party-Modus).
+  (3) STABILITAET_VERLUST Guard fuer Non-CoC (vom User parallel implementiert): SAN-Verlust wird jetzt ebenfalls nur bei CoC/Mad Max verarbeitet.
+  (4) Manuelle Eingabe im Dungeon-Tab: Neues Input-Panel am unteren Rand von tab_dungeon_view.py — Label "Aktion:" + Entry-Feld + "Senden"-Button. Enter-Taste oder Button sendet Input an Orchestrator, stoppt Auto-Crawl automatisch wenn aktiv, Eingabe erscheint im Spiel-Log.
+  GUI Event-Kette vollstaendig verifiziert: teleport() → adventure.location_changed → _on_location_changed_grid() → grid.transition_room() → grid.room_setup + grid.formation_placed → GUI render.
+  DATEIEN: core/orchestrator.py (3 Edits: _detect_room_change NEU ~90Z, _ROOM_CHANGE_VERBS Tupel, FERTIGKEIT_GENUTZT Guard x2), gui/tab_dungeon_view.py (1 Edit: Eingabe-Panel + _on_manual_send())
+
+[2026-03-03 21:45] | FROM: Claude Code | Combat Rules Bridge — 7/7 Tasks completed
+
+Batch: CombatTracker ↔ GridEngine Bridge (Tasks #11-#17)
+
+(1) Task #11: `reach`-Feld (1/2/3) zu allen 19 Nahkampfwaffen in add_2e_tables.json hinzugefuegt
+(2) Task #12: `movement_penalty` (0/-3/-6) zu allen 14 Ruestungseintraegen in add_2e_tables.json hinzugefuegt
+(3) Task #13: 5 neue Lookup-Methoden in core/mechanics.py: lookup_weapon_reach(), lookup_weapon_range(), get_range_modifier(), lookup_armor_movement_penalty(), get_effective_movement()
+(4) Task #14: CombatTracker ↔ GridEngine Bridge — neue Felder (reach, movement_used, armor_name) auf Combatant; set_grid_engine()/set_mechanics() Bridge-Methoden; validate_attack_range() mit Distanzpruefung; consume_movement()/get_movement_remaining()
+(5) Task #15: GridEntity erweitert (base_movement, movement_used); move_entity() mit enforce_budget-Parameter; reset_all_movement()/get_movement_remaining()-Methoden; Grid-Prompt-Kontext zeigt Bewegungsbudget
+(6) Task #16: Orchestrator-Verdrahtung — _start_combat() uebergibt Mechanics + GridEngine an CombatTracker; Ruestung aus Charakter-Inventar abgeleitet; Reichweitenvalidierung vor Angriffswurf mit range_mod-Malus; Grid-Bewegungsreset bei neuem Kampfrunde
+(7) Task #17: Dungeon-View Kampf-Overlays — 5 neue Text-Tags (move_range, reach_zone, range_short/medium/long); _calc_combat_overlay() markiert erreichbare Felder; _render_combat_info() zeigt Bewegungsbalken + Angriffsanzahl im Party-Panel
+
+Dateien: core/combat_tracker.py, core/grid_engine.py, core/mechanics.py, core/orchestrator.py, gui/tab_dungeon_view.py, modules/rulesets/add_2e_tables.json
+Alle Syntax-Checks bestanden.
+
+[2026-03-03 22:00] | FROM: Claude Code | Bugfix-Batch: 2 Bugs gefixt + Bugtracker-Hygiene
+
+(1) BUG-009 FIXED: Preset-Adventure Passthrough — _set_combo() fuegt fehlende Werte ins Dropdown ein statt silent fallback auf "(keine)". 1 Zeile in gui/tab_session.py.
+
+(2) BUG-010 MITIGATED: Monster-HP_VERLUST — Zwei-Ansatz-Fix:
+  a) Prompt: Neuer "KAMPF-ERINNERUNG (KRITISCH)" Block am Ende des System-Prompts
+  b) Post-Validation: _validate_response() prueft jetzt auf Kampfwoerter ohne HP_VERLUST-Tag und emittiert Feedback + Warning
+
+(3) Bugtracker-Hygiene: BUG-009, BUG-010, BUG-011 formalisiert in bugtracker.md
+
+(4) To-Do-Bereinigung: 3 stale Lead-Developer-Tasks (PROBE-Tags fehlen / Monolog-Sperre / Shadowrun PROBE-Zielwerte) als FIXED markiert — alle drei waren bereits in Sessions 7-9 behoben (BUG-001/002/003).
+
+Dateien: core/ai_backend.py (MODIFY), gui/tab_session.py (MODIFY), docs/management/bugtracker.md (MODIFY), docs/management/agents.md (MODIFY)
+
+[2026-03-03 22:30] | FROM: Claude Code | Strategischer Batch: 4 Tasks (2 Bugfixes + Hygiene + Feature)
+
+(1) BUG-009 FIXED — Preset-Adventure Passthrough
+    _set_combo() in gui/tab_session.py fuegt fehlende Werte ins Dropdown ein statt silent fallback.
+    Root Cause: Wenn Preset-Adventure nicht in Combo-Values → combo.current(0) → "(keine)" → adventure=None.
+
+(2) BUG-010 MITIGATED — Monster-HP_VERLUST (KI-Gegenangriffe fehlen)
+    Zwei-Ansatz-Fix in core/ai_backend.py:
+    a) Neuer "KAMPF-ERINNERUNG (KRITISCH)" Block am Prompt-Ende (LLMs folgen Endanweisungen am besten)
+    b) Post-Validation: _validate_response() prueft Kampfwoerter ohne HP_VERLUST-Tag → Feedback-Injektion
+
+(3) Bugtracker + agents.md Hygiene
+    BUG-009/010/011 in bugtracker.md formalisiert. 3 stale To-Dos (Sessions 7-9) als FIXED markiert.
+
+(4) BUG-011 MITIGATED — Context-Saettigung ab ~80 Zuegen
+    Automatische History-Zusammenfassung implementiert in core/ai_backend.py:
+    - _trim_history() ruft jetzt summarize() auf BEVOR alte Turns geloescht werden
+    - Zusammenfassung (3-5 Saetze) wird in _history_summaries gespeichert (max 5 = ~100 Turns)
+    - _build_contents() injiziert Zusammenfassungen als "[FRUEHERE EREIGNISSE]" Block vor der History
+    - Graceful Degradation: bei Fehler → normaler Trim ohne Summary
+    - Kein zusaetzlicher API-Call noetig ausser beim Trim-Zeitpunkt (~alle 40 Turns)
+
+Dateien: core/ai_backend.py (MODIFY), gui/tab_session.py (MODIFY), docs/management/bugtracker.md (MODIFY), docs/management/agents.md (MODIFY)
+Syntax-Check: 2/2 OK (ai_backend.py, tab_session.py)
+
+[2026-03-03 23:55] | FROM: Claude Code | Stresstest 20 Runden + 3 Bugfixes.
+  TEST: 3 Iterationen, 20/20 Zuege im finalen Run. 541 Tags, 27.1/Zug, 11 Unique Types, 0 Crashes.
+  BUGFIXES:
+  1. Cache-Recovery (ai_backend.py): 403 PERMISSION_DENIED bei CachedContent -> Fallback auf System-Prompt.
+  2. UnicodeEncodeError (orchestrator.py): Unicode-Pfeil in print crashte Thread auf Windows cp1252.
+  3. STABILITAET_VERLUST Filter (orchestrator.py): SAN-Tags in Nicht-SAN-Systemen (AD&D etc.) ignoriert.
+
+[2026-03-03 23:30] | FROM: Claude Code | Tag-Abdeckung erweitert (5 Features, 15 Dateien).
+  FEATURES:
+  1. FERTIGKEIT_GENUTZT Party-Modus: Neues PARTY_FERTIGKEIT_PATTERN, extract in character.py,
+     elif-Block in orchestrator._handle_party_tags(), Tag-Anweisung in ai_backend._build_party_block().
+  2. Rundenbasierte Zeit: TimeTracker.advance_rounds(), start/end_combat(), RUNDE Pattern+extract,
+     _handle_time RUNDE branch, AD&D Prompt mit [RUNDE: N] Anweisung.
+  3. GEGENSTAND_BENUTZT Tag: Neues Pattern, PartyStateManager.use_item() mit Fuzzy-Match +
+     Mengen-Decrement (x3->x2->x1->weg), Consumable-Effekt-Katalog, Orchestrator-Handler
+     mit Auto-Healing bei Heal-Effekt, Prompt-Instruktion.
+  4. 8 Loot-JSONs mit use_effect gepatcht (3 Potions, 3 Scrolls, 1 Wand, 1 Climbing-Potion).
+  5. Skill-Anzeige: Skills MIT Werten in Party-Block, 17 deutsche Skill-Aliase fuer AD&D 2e.
+  DATEIEN: core/character.py, core/orchestrator.py, core/ai_backend.py, core/time_tracker.py,
+    core/party_state.py, core/rules_engine.py, scripts/virtual_player.py, 8x data/lore/add_2e/loot/*.json
+  TESTS: Alle Syntax-Checks + Unit-Tests bestanden (Tag-Parser, TimeTracker, use_item, VP Tag Count).
+
+[2026-03-03 22:00] | FROM: Claude Code | Grid-Based Movement Engine implementiert.
+  - core/grid_engine.py NEU (~480Z): GridEngine mit BFS-Pathfinding, Raum-Heuristik (4 Groessen), Formations-Placement, 3-Tier Bewegungs-Inferenz (Combat/HP/Narrative), Distanz/Reichweite, KI-Kontext-Injektion
+  - core/party_state.py EDIT: movement_rate Feld in PartyMember (aus derived_stats.Movement)
+  - core/engine.py EDIT: GridEngine instanziiert, an AI-Backend gekoppelt
+  - core/orchestrator.py EDIT: Grid-Bewegungs-Inferenz nach Party-Tags, Raumwechsel-Handler (adventure.location_changed → transition_room)
+  - core/ai_backend.py EDIT: set_grid_engine(), Grid-Kontext in _build_contents() (Positionen, Nahkampf, Distanzen)
+  - gui/tab_dungeon_view.py EDIT: Dynamische Raumgroesse, _sync_from_grid(), Grid-Events (room_setup/entity_moved/combat_move/formation_placed), GridEngine-Terrain-Rendering
+  - Alle Tests bestanden: Import OK (5 Module), Raum-Setup, BFS-Pathfinding, Party-Placement (0 Overlaps), Raumwechsel, Narrative-Inferenz, KI-Kontext
+
 [2026-03-03 14:50] | FROM: Claude Code | Session 10c/10d — Test-Fix-Loop (4 Iterationen, 7 Bugfixes, Stresstest-Optimierung):
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 AUFGABE: Trainingsrun-Loop (Run → Analyse → Bugfix → Re-Test) fuer AD&D Crawltraining.
@@ -434,6 +553,67 @@ ERGEBNIS:
 - Monster-Tracking: Flag-basiert (besiegt/geraeumt → Monster aus Raum entfernt)
 - Integration: tech_gui.py registriert Tab 12, Event-Dispatch, on_engine_ready
 EVENTS VERARBEITET: adventure.loaded, adventure.location_changed, adventure.flag_changed, game.output (combat/stat/probe/dice/inventory), party.state_updated, party.member_died, party.tpk
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[2026-03-03 17:18] | FROM: Claude Code | Session 11b — SQLite _safe_commit + Stresstest Verifizierung:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+AUFGABE: SQLite "database is locked" Crash fixen (save() bei add_xp, Zeile 501) + Stresstest wiederholen.
+
+BUGFIXES (2 total, kumulativ Session 11: 9):
+8. _safe_commit() Methode (character.py): Zentraler Retry-Wrapper fuer ALLE 7 _conn.commit()-Aufrufe.
+   3 Versuche, 0.2s Pause, kontextbezogenes Logging. Vorher: Nur log_turn() geschuetzt,
+   save()/start_session()/schema-Migrations ungeschuetzt → Crash bei hoher Tag-Dichte.
+9. Combat Loop Detector (virtual_player.py): 5 Kampfzuege ohne XP_GEWINN → Raumwechsel-Nudge.
+   KI-Skelette waren unsterblich → 12 Runden gleicher Raum. COMBAT_LOOP_NUDGE erzwingt Weitermarsch.
+
+STRESSTEST-ERGEBNIS (20 Turns, --pre-damage 50):
+| Metrik              | Vorher (Crash)    | Nachher (_safe_commit) |
+|---------------------|-------------------|------------------------|
+| Turns abgeschlossen | 9/20 (Crash T9)   | **20/20 (100%)**       |
+| Tags gesamt         | 217               | **590**                |
+| Tags/Zug            | 15.5              | **29.5**               |
+| Unique Tag-Typen    | 10                | **10**                 |
+| DB-locked Errors    | 1 (fatal)         | **0**                  |
+| Kosten              | $0.062            | $0.185                 |
+| Avg Latenz          | —                 | 15.1s                  |
+
+TAG-AUFSCHLUESSELUNG (590 Tags):
+  HP_VERLUST: 141, RETTUNGSWURF: 120, PROBE: 98, ANGRIFF: 65,
+  HP_HEILUNG: 47, INVENTAR: 40, XP_GEWINN: 20, ZEIT_VERGEHT: 20,
+  FAKT: 20, STABILITAET_VERLUST: 19
+
+ALLE 20 Zuege haben ALLE 10 Tag-Typen (Zuege 2-20). Rekord-Dichte: 29.5 Tags/Zug.
+Report: data/test_results/test_add_2e_generic_20260303_171757.json
+
+MODIFIZIERTE DATEIEN (1):
+- core/character.py: _safe_commit() Methode, 7x _conn.commit() → _safe_commit()
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[2026-03-03 17:10] | FROM: Claude Code | Session 11 — Stress-Test Scenario Erstellung (3 Dateien):
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+AUFGABE: 3 Dateien fuer maximalen Engine-Stress-Test (20 Zuege, TPK-Ziel, alle Tag-Typen).
+
+ERSTELLTE DATEIEN:
+1. modules/parties/add_stress_party.json
+   - Party "Die Todgeweihten" — dieselben 6 add_train_* Chars
+   - Notes: Alle Chars auf halber HP (Grimjaw 36/72, Kael 27/54, Mordain 21/42, Varn 26/52, Pyra 9/18, Shade 16/32)
+   - Keine Heiltraenke, Mordain halb-verbraucht, Pyra nur 1 Fireball, chaotische Formation
+
+2. modules/adventures/crawltraining_stress.json (schema_version 1.1.0, 22 NPCs, 5 Raeume)
+   - Raum 1 Blutgrube: 6 Oger (THAC0 13-16), Fallenfeld, 3 Pflicht-PROBEs
+   - Raum 2 Gifthoehle: 5 Riesenspinnen, Gift-Rettungswuerfe fuer alle 6 Chars
+   - Raum 3 Nekropole: 3 Wights + Gespenst, Level Drain, Kaelte-Aura 3d6-1
+   - Raum 4 Drachenhort: Roter Drache (8d6 Feueratem) + 4 Feuer-Elementare
+   - Raum 5 Endboss: Lich Malgoran (AC 0, HP 65) + Knochen-Golem
+   - keeper_lore: ALLE 8 Tag-Typen Pflicht, exotische Wuerfel (2d4+3/3d6-1/1d12+5/8d6),
+     Cross-System-Tag Tests (STABILITAET_VERLUST), Dead-Char-Tag Tests,
+     Overflow-Heilung Test (HP_HEILUNG: Grimjaw | 999), falsche Skill-Namen fuer REGELCHECK
+
+3. modules/presets/crawltraining_stress.json
+   - temperature: 1.0, rules_budget: 200000, lore_budget_pct: 80
+   - Brutal Killer-DM Persona, TPK-Ziel explizit
+
+JSON-VALIDIERUNG: Alle 3 Dateien valid, alle ID-Cross-References verifiziert.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 [2026-03-03 16:30] | FROM: Claude Code | AD&D 2e Spell OCR Cleanup — vollstaendig abgeschlossen:
@@ -644,4 +824,44 @@ FIX: core/orchestrator.py — CombatTracker.track_attack() deaktiviert fuer Part
 Offene Issues:
 - 16 REGELCHECK-Warnings: KI verwendet falsche PROBE-Zielwerte (35/40/45 statt 1-20 fuer AD&D)
 - Schadensverteilung ungleich: Grimjaw absorbiert 75% aller Treffer
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-03-03 21:30] | FROM: Claude Code | Audio-System Upgrade — 5 Dateien, 4 Features
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Feature A: Edge TTS Backend (8 neue neurale Stimmen)
+- audio/tts_handler.py: VOICE_REGISTRY auf 18 Rollen erweitert (10 Piper + 8 Edge)
+- Backend-Hierarchie: piper > edge > kokoro_onnx > pyttsx3 > stub
+- _edge_speak(): async Bridge (edge_tts.Communicate → MP3 → soundfile → numpy)
+- EDGE_FALLBACK dict: automatischer Piper-Fallback bei offline
+- _is_edge_available(): lazy import-check + EDGE_TTS_ENABLED env
+
+Feature B: Audio-Effekt-Pipeline
+- audio/effects.py NEU (~170Z): AudioEffects Klasse mit pedalboard
+- 10 Presets: clean, hall, monster, ghost, robot, radio, underwater, cathedral, rage, old
+- ROLE_EFFECTS: Standard-Preset pro Stimmenrolle (monster→monster, mystery→ghost, etc.)
+- pitch_shift() via scipy.signal.resample()
+- Clipping-Schutz, lazy-loading, graceful degradation ohne pedalboard
+
+Feature C: _preprocess_german() Text-Preprocessor
+- NFC + Unicode-Cleanup (Dashes, Smart Quotes, Soft Hyphen, BOM)
+- 15 deutsche Abkuerzungen expandiert (z.B. → zum Beispiel, etc.)
+- Control-Characters entfernt (Kategorie C), Combining Marks (Mn) komplett entfernt
+- Alter Combining-Marks-Filter in _piper_speak() entfernt (war zu aggressiv)
+- Zentraler Aufruf in _speak_sentence() statt redundante NFC-Aufrufe
+
+Feature D: EFFEKT-Tag + GUI
+- audio/tag_filter.py: EFFEKT in _CONTROL_PREFIXES, _EFFECT_RE, effect_callback
+- tts_handler.py: set_effect(preset) Methode
+- gui/tab_audio.py: 18 Rollen-Tabelle mit Backend-Spalte, Effekt-Dropdown + Preview, Edge-Status
+- Scrollbarer Container fuer erweiterten Tab-Inhalt
+
+Neue Dependencies: edge-tts>=7.0.0, soundfile>=0.12.0, pedalboard>=0.9.0
+
+Dateien: audio/effects.py (NEU), audio/tts_handler.py (MODIFY), audio/tag_filter.py (MODIFY), gui/tab_audio.py (MODIFY), requirements.txt (MODIFY)
+Syntax-Check: 4/4 OK
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-03-03 23:45] | FROM: Claude Code | Replay-Viewer implementiert (3 Dateien, ~510 Zeilen)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- scripts/virtual_player.py: TurnMetrics um 8 Grid-Snapshot-Felder erweitert (room_id, room_width, room_height, grid_positions, grid_entities, party_hp, move_events, room_terrain). EventBus-Listener fuer grid.entity_moved/combat_move in _play_turn(). Snapshot-Erfassung nach Response-Verarbeitung. Rueckwaertskompatibel (leere Defaults).
+- gui/tab_replay_viewer.py NEU (~430Z): PanedWindow-Layout (Grid links, Controls+Text+HP rechts). JSON-Report laden, Turn-Slider, Play/Pause mit Speed-Slider (500-5000ms). Grid-Rendering mit identischen Symbolen wie Dungeon-Tab (Waende, Tueren, Monster, Party-Member mit Klassen-Buchstaben). Tag-Highlighting (rot/gelb/gruen/orange). Party-HP-Balken pro Zug.
+- gui/tech_gui.py: Tab 13 "Replay" registriert (Import, Instanz, notebook.add, dispatch).
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

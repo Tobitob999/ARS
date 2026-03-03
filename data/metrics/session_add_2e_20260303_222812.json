@@ -1,0 +1,49 @@
+{
+  "module": "add_2e",
+  "session_id": 260,
+  "total_turns": 3,
+  "total_latency_ms": 26110.0,
+  "avg_latency_ms": 8703.3,
+  "avg_response_chars": 685.3,
+  "total_probes": 0,
+  "total_combat_tags": 0,
+  "total_rules_warnings": 0,
+  "turns": [
+    {
+      "turn": 1,
+      "latency_ms": 15294.8,
+      "response_chars": 423,
+      "probes": 0,
+      "combat_tags": 0,
+      "stat_changes": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": 0
+    },
+    {
+      "turn": 2,
+      "latency_ms": 6727.2,
+      "response_chars": 1326,
+      "probes": 0,
+      "combat_tags": 0,
+      "stat_changes": 9,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": 0
+    },
+    {
+      "turn": 3,
+      "latency_ms": 4088.0,
+      "response_chars": 307,
+      "probes": 0,
+      "combat_tags": 0,
+      "stat_changes": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": 0
+    }
+  ]
+}

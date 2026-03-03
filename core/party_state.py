@@ -44,6 +44,7 @@ class PartyMember:
     spells_prepared: list    # Flache Liste aller vorbereiteten Sprueche
     spells_remaining: dict   # {level_int: slots_remaining}
     xp: int
+    movement_rate: int = 12  # Tiles pro Runde (1 Tile = 10ft), default Human
     alive: bool = True
 
 
@@ -103,6 +104,7 @@ class PartyStateManager:
                         spells_remaining[lvl] = len(spell_list)
 
             xp = char.get("xp", 0)
+            movement_rate = derived.get("Movement", 12)
 
             member = PartyMember(
                 name=name,
@@ -120,6 +122,7 @@ class PartyStateManager:
                 spells_prepared=spells_flat,
                 spells_remaining=spells_remaining,
                 xp=xp,
+                movement_rate=movement_rate,
                 alive=True,
             )
             mgr._members[name] = member
@@ -295,6 +298,105 @@ class PartyStateManager:
                 logger.info("Inventar -: %s -> %s", resolved, removed)
                 return
         logger.warning("Gegenstand '%s' nicht bei %s gefunden.", item, resolved)
+
+    # ------------------------------------------------------------------
+    # Item Usage (Consumables)
+    # ------------------------------------------------------------------
+
+    # Bekannte Verbrauchsgegenstaende mit mechanischem Effekt
+    CONSUMABLE_EFFECTS: dict[str, dict] = {
+        "potion of healing":       {"type": "heal", "amount": "2d4+2"},
+        "potion of extra-healing": {"type": "heal", "amount": "3d8+3"},
+        "potion of extra healing": {"type": "heal", "amount": "3d8+3"},
+        "heiltrank":               {"type": "heal", "amount": "2d4+2"},
+        "potion of invisibility":  {"type": "buff", "effect": "invisibility"},
+        "potion of climbing":      {"type": "buff", "effect": "climbing", "duration_rounds": 6},
+        "holy water":              {"type": "damage_undead", "amount": "2d4"},
+        "scroll of fireball":      {"type": "spell", "spell": "Fireball"},
+        "scroll of magic missile": {"type": "spell", "spell": "Magic Missile"},
+        "scroll of detect magic":  {"type": "spell", "spell": "Detect Magic"},
+        "scroll of shield":        {"type": "spell", "spell": "Shield"},
+        "wand of magic missiles":  {"type": "spell", "spell": "Magic Missile", "charges": True},
+    }
+
+    def use_item(self, char_name: str, item_name: str) -> dict:
+        """
+        Benutzt einen Gegenstand: decrementiert Menge (x2→x1→weg), gibt Effekt zurueck.
+
+        Returns dict mit:
+          found: bool — Gegenstand gefunden
+          effect: dict|None — Effekt-Definition (type, amount, ...)
+          message: str — Status-Nachricht
+        """
+        resolved = self._fuzzy_match(char_name)
+        if not resolved:
+            msg = f"[PARTY] Charakter '{char_name}' nicht gefunden — Gegenstand ignoriert."
+            logger.warning(msg)
+            return {"found": False, "effect": None, "message": msg}
+
+        member = self._members[resolved]
+        if not member.alive:
+            msg = f"[PARTY] {resolved} ist tot — kann nichts benutzen."
+            return {"found": False, "effect": None, "message": msg}
+
+        # Fuzzy-Match im Equipment
+        needle = item_name.strip().lower()
+        match_idx = None
+        for i, existing in enumerate(member.equipment):
+            existing_lower = existing.lower()
+            if needle in existing_lower or existing_lower in needle:
+                match_idx = i
+                break
+
+        # Fallback: difflib
+        if match_idx is None:
+            equip_lower = [e.lower() for e in member.equipment]
+            matches = difflib.get_close_matches(needle, equip_lower, n=1, cutoff=0.5)
+            if matches:
+                match_idx = equip_lower.index(matches[0])
+
+        if match_idx is None:
+            msg = f"[PARTY] '{item_name}' nicht bei {resolved} gefunden — ignoriert."
+            logger.warning(msg)
+            return {"found": False, "effect": None, "message": msg}
+
+        matched_item = member.equipment[match_idx]
+
+        # Mengen-Handling: "Potion of Healing x3" → "x2" → "x1" → entfernen
+        import re as _re
+        qty_match = _re.search(r"\s*x(\d+)\s*$", matched_item, _re.IGNORECASE)
+        if qty_match:
+            qty = int(qty_match.group(1))
+            base_name = matched_item[:qty_match.start()]
+            if qty > 2:
+                member.equipment[match_idx] = f"{base_name} x{qty - 1}"
+            elif qty == 2:
+                member.equipment[match_idx] = f"{base_name} x1"
+            else:
+                member.equipment.pop(match_idx)
+        else:
+            member.equipment.pop(match_idx)
+
+        # Effekt nachschlagen
+        effect = None
+        for key, eff in self.CONSUMABLE_EFFECTS.items():
+            if key in needle or needle in key:
+                effect = dict(eff)
+                break
+
+        msg = f"[GEGENSTAND] {resolved} benutzt '{matched_item}'."
+        if effect:
+            msg += f" Effekt: {effect.get('type', '?')}"
+        logger.info(msg)
+
+        self._turn_log.append({
+            "action": "item_used",
+            "character": resolved,
+            "item": matched_item,
+            "effect": effect,
+        })
+
+        return {"found": True, "effect": effect, "message": msg}
 
     # ------------------------------------------------------------------
     # XP

@@ -599,6 +599,15 @@ class TurnMetrics:
     facts: int = 0
     rules_warnings: list[str] = field(default_factory=list)
     error: str | None = None
+    # NEU: Grid-Snapshot fuer Replay
+    room_id: str = ""
+    room_width: int = 0
+    room_height: int = 0
+    grid_positions: dict = field(default_factory=dict)   # {entity_id: [x, y]}
+    grid_entities: dict = field(default_factory=dict)     # {entity_id: {name, type, symbol, alive}}
+    party_hp: dict = field(default_factory=dict)          # {name: {hp, hp_max, alive, archetype}}
+    move_events: list = field(default_factory=list)       # Gesammelte grid-Events waehrend Zug
+    room_terrain: list = field(default_factory=list)      # [[terrain_str, ...], ...] Terrain-Grid
 
 
 @dataclass
@@ -641,6 +650,9 @@ _TAG_PATTERNS = {
     "ZEIT_VERGEHT": re.compile(r"\[ZEIT_VERGEHT:\s*[^\]]+\]"),
     "TAGESZEIT": re.compile(r"\[TAGESZEIT:\s*[^\]]+\]"),
     "WETTER": re.compile(r"\[WETTER:\s*[^\]]+\]"),
+    "GEGENSTAND_BENUTZT": re.compile(r"\[GEGENSTAND_BENUTZT:\s*[^\]]+\]"),
+    "RUNDE": re.compile(r"\[RUNDE:\s*\d+\s*\]"),
+    "ZAUBER_VERBRAUCHT": re.compile(r"\[ZAUBER_VERBRAUCHT:\s*[^\]]+\]"),
     "FAKT": re.compile(r"\[FAKT:\s*[^\]]+\]"),
     "STIMME": re.compile(r"\[STIMME:\s*[^\]]+\]"),
     "TREASON_POINT": re.compile(r"\[TREASON_POINT:\s*[^\]]+\]"),
@@ -689,6 +701,7 @@ class VirtualPlayer:
         speech_style: str = "normal",
         party: str | None = None,
         llm_player: bool = False,
+        pre_damage: int = 0,
     ) -> None:
         self.module_name = module_name
         self.max_turns = max_turns
@@ -701,6 +714,7 @@ class VirtualPlayer:
         self._party_name = party
         self._party_mode = party is not None
         self._llm_player = llm_player
+        self._pre_damage = pre_damage  # Prozent Vorschaden (0-90)
         self._player_bot: LLMPlayerBot | None = None
 
         # Test Case laden
@@ -777,6 +791,19 @@ class VirtualPlayer:
         # EventBus: Regelcheck-Warnungen + Token-Usage abfangen
         self._bus.on("game.output", self._on_game_event)
         self._bus.on("keeper.usage_update", self._on_usage_update)
+
+        # Pre-Damage: Party-Mitglieder vorschaedigen (Stress-Test)
+        if self._pre_damage > 0 and self._party_mode:
+            party_state = getattr(self._engine, "party_state", None)
+            if party_state:
+                pct = min(90, max(0, self._pre_damage))
+                for m in party_state.members.values():
+                    dmg = int(m.hp_max * pct / 100)
+                    m.hp = max(1, m.hp - dmg)
+                    logger.info(
+                        "Pre-Damage: %s HP %d -> %d/%d (-%d%%)",
+                        m.name, m.hp_max, m.hp, m.hp_max, pct,
+                    )
 
         # LLM Player Bot erstellen (nach Engine-Init, damit party_state existiert)
         if self._llm_player:
@@ -942,23 +969,31 @@ class VirtualPlayer:
         final_status = "completed"
         consecutive_errors = 0
         stagnant_turns = 0
+        combat_loop_turns = 0  # Kampf-Runden ohne XP (gleicher Kampf)
         send_nudge = False
+        nudge_type = "stagnation"  # "stagnation" oder "combat_loop"
         CIRCUIT_BREAKER_THRESHOLD = 5
         STAGNATION_THRESHOLD = 3  # Nach 3 Leer-Zügen: Stachel-Aktion
+        COMBAT_LOOP_THRESHOLD = 5  # Nach 5 Kampf-Runden ohne XP: Monster sind tot
         STAGNATION_NUDGE = (
             "Die Party rafft sich auf und dringt SOFORT in den NAECHSTEN RAUM vor! "
             "Grimjaw tritt die Tuer ein. Alle greifen das erste Monster an, das sie sehen."
+        )
+        COMBAT_LOOP_NUDGE = (
+            "Alle Monster in diesem Raum sind BESIEGT und TOT. "
+            "Die Party sammelt die Beute ein und marschiert SOFORT in den NAECHSTEN RAUM. "
+            "Beschreibe den neuen Raum und die neuen Gegner."
         )
         for turn_idx in range(self.max_turns):
             if not orchestrator._active:
                 logger.info("Session vom Orchestrator beendet (Spieler tot?).")
                 break
 
-            # Aktion waehlen: Stagnation-Nudge > LLM-Player > Party-Rotation > Standard
+            # Aktion waehlen: Nudge > LLM-Player > Party-Rotation > Standard
             if send_nudge:
-                action = STAGNATION_NUDGE
+                action = COMBAT_LOOP_NUDGE if nudge_type == "combat_loop" else STAGNATION_NUDGE
                 send_nudge = False
-                logger.info("Stagnation-Nudge gesendet.")
+                logger.info("Nudge (%s) gesendet.", nudge_type)
             elif self._player_bot and turn_idx > 0 and last_keeper_response:
                 action = self._player_bot.generate_action(last_keeper_response)
             elif self._party_mode and party_action_sequence:
@@ -991,8 +1026,23 @@ class VirtualPlayer:
                     logger.warning("STAGNATION: %d Leer-Züge — sende Stachel-Aktion.", stagnant_turns)
                     stagnant_turns = 0
                     send_nudge = True
+                    nudge_type = "stagnation"
             else:
                 stagnant_turns = 0
+
+            # Combat-Loop-Detektor: Kampf ohne XP = Monster sterben nie
+            turn_tags = count_tags(tm.keeper_response)
+            has_combat = turn_tags.get("ANGRIFF", 0) > 0 or turn_tags.get("HP_VERLUST", 0) > 0
+            has_xp = turn_tags.get("XP_GEWINN", 0) > 0
+            if has_combat and not has_xp:
+                combat_loop_turns += 1
+                if combat_loop_turns >= COMBAT_LOOP_THRESHOLD:
+                    logger.warning("COMBAT LOOP: %d Kampf-Runden ohne XP — erzwinge Raumwechsel.", combat_loop_turns)
+                    combat_loop_turns = 0
+                    send_nudge = True
+                    nudge_type = "combat_loop"
+            else:
+                combat_loop_turns = 0
 
             # Keeper-Antwort fuer naechsten LLM-Player-Zug merken
             last_keeper_response = tm.keeper_response
@@ -1045,6 +1095,20 @@ class VirtualPlayer:
         tm = TurnMetrics(turn=turn_num, player_input=action)
         self._rules_warnings.clear()
 
+        # Grid-Event-Sammlung fuer Replay-Snapshots
+        _move_events: list[dict] = []
+
+        def _on_entity_moved(data: Any) -> None:
+            if isinstance(data, dict):
+                _move_events.append(data)
+
+        def _on_combat_move(data: Any) -> None:
+            if isinstance(data, dict):
+                _move_events.append(data)
+
+        self._bus.on("grid.entity_moved", _on_entity_moved)
+        self._bus.on("grid.combat_move", _on_combat_move)
+
         # Response-Sammlung via Events
         all_responses: list[str] = []
         new_response = threading.Event()  # gesetzt bei jedem stream_end
@@ -1077,12 +1141,12 @@ class VirtualPlayer:
                 "Turn %d: %d PROBE-Tags erkannt, warte auf Narrative-Events.",
                 turn_num, probe_count,
             )
-            # Pro PROBE bis zu 20s warten, abbrechen bei Timeout
+            # Pro PROBE bis zu 5s warten, abbrechen bei Timeout
             for i in range(probe_count):
                 new_response.clear()
-                if not new_response.wait(timeout=20.0):
+                if not new_response.wait(timeout=5.0):
                     logger.warning(
-                        "Turn %d: PROBE-Narrative %d/%d Timeout nach 20s — weiter.",
+                        "Turn %d: PROBE-Narrative %d/%d Timeout nach 5s — weiter.",
                         turn_num, i + 1, probe_count,
                     )
                     break
@@ -1112,6 +1176,46 @@ class VirtualPlayer:
         )
         tm.facts = tags.get("FAKT", 0)
         tm.rules_warnings = list(self._rules_warnings)
+
+        # Grid-Listener deregistrieren
+        self._bus.off("grid.entity_moved", _on_entity_moved)
+        self._bus.off("grid.combat_move", _on_combat_move)
+
+        # Grid-Snapshot erfassen
+        tm.move_events = _move_events
+        grid = getattr(self._engine, "grid_engine", None) if self._engine else None
+        if grid:
+            room = grid.get_current_room()
+            if room:
+                tm.room_id = room.room_id
+                tm.room_width = room.width
+                tm.room_height = room.height
+                tm.grid_positions = {
+                    eid: [e.x, e.y] for eid, e in room.entities.items()
+                }
+                tm.grid_entities = {
+                    eid: {
+                        "name": e.name, "type": e.entity_type,
+                        "symbol": e.symbol, "alive": e.alive,
+                    }
+                    for eid, e in room.entities.items()
+                }
+                tm.room_terrain = [
+                    [room.cells[y][x].terrain for x in range(room.width)]
+                    for y in range(room.height)
+                ]
+
+        # Party-HP-Snapshot
+        party_state = getattr(self._engine, "party_state", None) if self._engine else None
+        if party_state and hasattr(party_state, "members"):
+            tm.party_hp = {
+                m.name: {
+                    "hp": m.hp, "hp_max": m.hp_max,
+                    "alive": m.alive,
+                    "archetype": getattr(m, "archetype", "?"),
+                }
+                for m in party_state.members.values()
+            }
 
         # Zug-Report
         logger.info(
@@ -1343,6 +1447,10 @@ def main() -> None:
         "--llm-player", action="store_true",
         help="LLM-basierter Spielerbot: generiert kontextsensitive Aktionen via Gemini Flash",
     )
+    parser.add_argument(
+        "--pre-damage", type=int, default=0,
+        help="Vorschaden in Prozent (0-90): Party startet mit reduziertem HP (Stress-Test)",
+    )
 
     args = parser.parse_args()
 
@@ -1371,6 +1479,7 @@ def main() -> None:
         speech_style=args.speech_style,
         party=args.party,
         llm_player=args.llm_player,
+        pre_damage=args.pre_damage,
     )
 
     if not args.dry_run:

@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0.0",
+  "title": "Dungeon-Durchmarsch",
+  "setting": "Ein verlassenes Zwergenwerk unter dem Nebelberg — leer, still, voller Relikte.",
+  "difficulty": "Einsteiger",
+  "intro": "Eine alte Zwergenmine, seit Jahrzehnten verlassen. Kein Lebenszeichen — nur Staub, Stille und vergessene Hallen. Die Party soll das Labyrinth kartieren und den Ausgang im Sueden finden.",
+  "hook": "Reiner Erkundungs-Dungeon: 5 Raeume, keine Monster, keine Kaempfe. Ideal zum Testen von Bewegung, Raumwechsel und Grid-Snapshots.",
+  "keeper_lore": "Die Mine wurde vor 80 Jahren aufgegeben, als die Erzadern versiegten. Die Zwerge hinterliessen solide Architektur, aber nichts von Wert. Keine Gefahren — nur Dunkelheit und Staub.",
+  "start_location": "eingang",
+  "flags": {
+    "halle_erkundet": false,
+    "brunnen_untersucht": false,
+    "ausgang_gefunden": false
+  },
+  "locations": [
+    {
+      "id": "eingang",
+      "name": "Mineneingang",
+      "description": "Ein breiter Steinbogen markiert den Eingang. Zwergische Runen zieren den Tuerrahmen. Dahinter fuehrt ein gepflasterter Gang in die Tiefe.",
+      "atmosphere": "Kuehl, trocken, Staub in der Luft. Die Runen schimmern matt im Fackellicht.",
+      "npcs_present": [],
+      "clues_available": [],
+      "exits": {
+        "grosse_halle": "Ein breiter Korridor fuehrt nach Norden in eine grosse Halle."
+      },
+      "keeper_notes": "Sicherer Startpunkt. Die Runen sagen 'Khazad-um-Barak' — Haus des Steins. Wahrnehmungsprobe zeigt frische Luftstroemung von Norden."
+    },
+    {
+      "id": "grosse_halle",
+      "name": "Grosse Halle",
+      "description": "Eine riesige Halle mit vier steinernen Saeulen. Steinbaenke an den Waenden, eine trockene Feuerstelle in der Mitte. Drei Gaenge fuehren weiter.",
+      "atmosphere": "Hoch, hallend, majestätisch trotz des Verfalls. Spinnweben an den Saeulen.",
+      "npcs_present": [],
+      "clues_available": [],
+      "exits": {
+        "eingang": "Zurueck zum Mineneingang nach Sueden.",
+        "werkstatt": "Ein schmaler Gang fuehrt nach Westen zur alten Werkstatt.",
+        "brunnenraum": "Ein breiter Gang fuehrt nach Osten zum Brunnenraum.",
+        "tiefer_gang": "Treppen fuehren nach Norden tiefer hinab."
+      },
+      "keeper_notes": "Zentraler Knotenpunkt. Die Saeulen tragen Reliefs von Zwergenhandwerkern. Die Feuerstelle ist seit Jahrzehnten kalt.",
+      "events": [
+        {
+          "trigger": "Halle erkundet",
+          "effect": "Die Party erkennt die drei Ausgaenge.",
+          "sets_flag": "halle_erkundet"
+        }
+      ]
+    },
+    {
+      "id": "werkstatt",
+      "name": "Alte Werkstatt",
+      "description": "Steinerne Werkbaenke, verrostete Werkzeuge, zerbrochene Tonkruege. Ein Amboss steht unberuehrt in der Ecke.",
+      "atmosphere": "Staubig, still. Der Geruch von altem Eisen und Stein. Alles mit einer dicken Staubschicht bedeckt.",
+      "npcs_present": [],
+      "clues_available": [],
+      "exits": {
+        "grosse_halle": "Zurueck zur Grossen Halle nach Osten."
+      },
+      "keeper_notes": "Sackgasse. Der Amboss ist aus solidem Zwergenstahl — zu schwer zum Mitnehmen. In einer Schublade liegt eine alte Karte der Mine (zeigt alle 5 Raeume)."
+    },
+    {
+      "id": "brunnenraum",
+      "name": "Brunnenraum",
+      "description": "Ein runder Raum mit einem gemauerten Brunnen in der Mitte. Das Wasser ist klar und kalt. Moos waechst an den feuchten Waenden.",
+      "atmosphere": "Feucht, kuehl. Das Echo von Wassertropfen hallt von den Waenden. Ein beruhigender Ort.",
+      "npcs_present": [],
+      "clues_available": [],
+      "exits": {
+        "grosse_halle": "Zurueck zur Grossen Halle nach Westen."
+      },
+      "keeper_notes": "Sackgasse. Der Brunnen fuehrt sauberes Quellwasser. Wer trinkt, fuehlt sich erfrischt. Am Brunnenrand sind Zwergenrunen eingemeisselt: 'Der Stein gibt, der Stein nimmt.'",
+      "events": [
+        {
+          "trigger": "Brunnen untersucht",
+          "effect": "Das Wasser ist trinkbar und erfrischend.",
+          "sets_flag": "brunnen_untersucht"
+        }
+      ]
+    },
+    {
+      "id": "tiefer_gang",
+      "name": "Tiefer Gang — Suedausgang",
+      "description": "Eine lange Treppe fuehrt hinab in einen breiten Gang. Am Ende schimmert Tageslicht durch einen Spalt in der Felswand. Der Suedausgang der Mine.",
+      "atmosphere": "Kuehler Luftzug, das Licht wird staerker. Vogelgezwitscher von draussen.",
+      "npcs_present": [],
+      "clues_available": [],
+      "exits": {
+        "grosse_halle": "Treppen fuehren zurueck nach Sueden zur Grossen Halle."
+      },
+      "keeper_notes": "Ziel-Location. Wenn die Party hier ankommt, ist die Erkundung abgeschlossen. Der Ausgang fuehrt in ein bewaldetes Tal.",
+      "events": [
+        {
+          "trigger": "Ausgang erreicht",
+          "effect": "Die Party hat den Suedausgang gefunden. Die Mine ist kartiert.",
+          "sets_flag": "ausgang_gefunden"
+        }
+      ]
+    }
+  ],
+  "npcs": [],
+  "clues": [],
+  "resolution": {
+    "success": "Die Party hat die verlassene Zwergenmine vollstaendig kartiert und den Suedausgang gefunden. Keine Verluste, keine Kaempfe — ein ruhiger Erkundungstag.",
+    "condition": "ausgang_gefunden == true"
+  }
+}

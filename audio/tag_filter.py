@@ -35,6 +35,7 @@ _CONTROL_PREFIXES = (
     "WUERFELERGEBNIS",
     "WÜRFELERGEBNIS",
     "STIMME",
+    "EFFEKT",
     "ANGRIFF",
     "RETTUNGSWURF",
     "Runde",
@@ -59,17 +60,20 @@ class TagFilteredStream:
     """
 
     _VOICE_RE = re.compile(r"\[STIMME:(\w+)\]", re.IGNORECASE)
+    _EFFECT_RE = re.compile(r"\[EFFEKT:(\w+)\]", re.IGNORECASE)
 
     def __init__(
         self,
         source: Iterator[str],
         voice_callback: Callable[[str], None] | None = None,
+        effect_callback: Callable[[str], None] | None = None,
     ) -> None:
         self._source = source
         self._tags: list[str] = []
         self._full_parts: list[str] = []
         self._buffer = ""
         self._voice_callback = voice_callback
+        self._effect_callback = effect_callback
 
     @property
     def tags(self) -> list[str]:
@@ -137,11 +141,16 @@ class TagFilteredStream:
             if _TAG_RE.match(candidate):
                 # Control-Tag — sammeln, nicht yielden
                 self._tags.append(candidate)
-                # STIMME-Tag: Stimmenwechsel auslösen
+                # STIMME-Tag: Stimmenwechsel ausloesen
                 if self._voice_callback:
                     vm = self._VOICE_RE.match(candidate)
                     if vm:
                         self._voice_callback(vm.group(1).lower())
+                # EFFEKT-Tag: Effektwechsel ausloesen
+                if self._effect_callback:
+                    em = self._EFFECT_RE.match(candidate)
+                    if em:
+                        self._effect_callback(em.group(1).lower())
             else:
                 # Kein Control-Tag — als narrativen Text yielden
                 yield candidate

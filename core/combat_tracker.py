@@ -47,6 +47,10 @@ class Combatant:
     attacks_this_round: int = 0     # Zaehler: wie oft angegriffen
     level: int = 1
     class_group: str = "warrior"    # warrior/priest/rogue/wizard
+    # Bewegungs- und Reichweiten-Bridge (Task #14)
+    reach: int = 1               # Nahkampf-Reichweite in Feldern (1=Standard, 2=Stangenwaffe, 3=Lanze)
+    movement_used: int = 0       # Verbrauchte Bewegung in dieser Runde
+    armor_name: str = ""         # Ruestungsname fuer Bewegungsmalus-Lookup
 
 
 class CombatTracker:
@@ -60,6 +64,9 @@ class CombatTracker:
       find_target(target_ac, attacker)             -> Ziel ermitteln
       can_attack(combatant_id)                     -> Angriffe uebrig?
       register_attack(combatant_id)                -> Angriff zaehlen
+      validate_attack_range(attacker_id, target_id) -> Reichweite pruefen
+      consume_movement(combatant_id, tiles)        -> Bewegung verbrauchen
+      get_movement_remaining(combatant_id)         -> Restbewegung
       get_status_text()                            -> Formatierter Status
       get_context_for_prompt()                     -> Kontext fuer AI
       is_combat_over()                             -> Alle Feinde tot?
@@ -73,6 +80,22 @@ class CombatTracker:
         self._player_initiative: int = 0
         self._monster_initiative: int = 0
         self._player_first: bool = True
+        self._grid_engine: Any = None   # Optional GridEngine-Referenz
+        self._mechanics: Any = None     # Optional Mechanics-Referenz
+
+    # ------------------------------------------------------------------
+    # Bridge: GridEngine + Mechanics
+    # ------------------------------------------------------------------
+
+    def set_grid_engine(self, grid_engine: Any) -> None:
+        """Setzt die GridEngine-Referenz fuer Distanzpruefungen."""
+        self._grid_engine = grid_engine
+        logger.debug("GridEngine-Bridge gesetzt.")
+
+    def set_mechanics(self, mechanics: Any) -> None:
+        """Setzt die Mechanics-Referenz fuer Waffen-/Ruestungs-Lookups."""
+        self._mechanics = mechanics
+        logger.debug("Mechanics-Bridge gesetzt.")
 
     # ------------------------------------------------------------------
     # Kampf starten
@@ -97,6 +120,14 @@ class CombatTracker:
         self._log.clear()
 
         # Spieler hinzufuegen
+        p_weapon = player_stats.get("weapon", "Waffe")
+        p_armor = player_stats.get("armor", "")
+        p_reach = 1
+        p_movement = player_stats.get("movement", 12)
+        if self._mechanics:
+            p_reach = self._mechanics.lookup_weapon_reach(p_weapon)
+            p_movement = self._mechanics.get_effective_movement(p_movement, p_armor)
+
         self._combatants["player"] = Combatant(
             id="player",
             name=player_stats.get("name", "Spieler"),
@@ -104,15 +135,17 @@ class CombatTracker:
             hp_max=player_stats.get("hp_max", 10),
             ac=player_stats.get("ac", 10),
             thac0=player_stats.get("thac0", 20),
-            weapon=player_stats.get("weapon", "Waffe"),
+            weapon=p_weapon,
             damage=player_stats.get("damage", "1d6"),
-            movement=player_stats.get("movement", 12),
+            movement=p_movement,
             position="Nahkampf",
             is_player=True,
             level=player_stats.get("level", 1),
             class_group=player_stats.get("class_group", "warrior"),
             speed_factor=player_stats.get("speed_factor", 5),
             attacks_per_round=player_stats.get("attacks_per_round", "1/1"),
+            reach=p_reach,
+            armor_name=p_armor,
         )
 
         # NPCs hinzufuegen
@@ -130,6 +163,10 @@ class CombatTracker:
 
             # NPC Hit Dice -> Level-Approximation fuer attacks_per_round
             hd = stats.get("hd", 1)
+            n_weapon = stats.get("weapon", "Waffe")
+            n_reach = 1
+            if self._mechanics:
+                n_reach = self._mechanics.lookup_weapon_reach(n_weapon)
 
             self._combatants[npc_id] = Combatant(
                 id=npc_id,
@@ -138,7 +175,7 @@ class CombatTracker:
                 hp_max=stats.get("hp", 4),
                 ac=stats.get("ac", 10),
                 thac0=stats.get("thac0", 20),
-                weapon=stats.get("weapon", "Waffe"),
+                weapon=n_weapon,
                 damage=stats.get("damage", "1d6"),
                 movement=stats.get("movement", 9),
                 position=position,
@@ -146,6 +183,7 @@ class CombatTracker:
                 level=hd,
                 class_group="warrior",
                 attacks_per_round="1/1",  # Monster: default 1
+                reach=n_reach,
             )
 
         loc_name = location.get("name", "Unbekannt")
@@ -172,9 +210,10 @@ class CombatTracker:
         """
         self._round += 1
 
-        # Attack-Zaehler reset
+        # Attack-Zaehler + Bewegung reset
         for c in self._combatants.values():
             c.attacks_this_round = 0
+            c.movement_used = 0
 
         # Gruppen-Initiative: d10, niedriger = zuerst
         self._player_initiative = mechanics.initiative_roll(0)
@@ -243,6 +282,83 @@ class CombatTracker:
         c = self._combatants.get(combatant_id)
         if c:
             c.attacks_this_round += 1
+
+    # ------------------------------------------------------------------
+    # Distanz- & Reichweiten-Bridge
+    # ------------------------------------------------------------------
+
+    def validate_attack_range(
+        self, attacker_id: str, target_id: str,
+    ) -> dict[str, Any]:
+        """
+        Prueft ob ein Angriff von attacker auf target reichweiten-gueltig ist.
+
+        Returns:
+            {valid: bool, distance: int, reach: int, range_mod: int, reason: str}
+        """
+        attacker = self._combatants.get(attacker_id)
+        target = self._combatants.get(target_id)
+        if not attacker or not target:
+            return {"valid": False, "distance": 999, "reach": 0,
+                    "range_mod": 0, "reason": "Teilnehmer nicht gefunden"}
+
+        # Ohne GridEngine: immer gueltig (Fallback)
+        if not self._grid_engine:
+            return {"valid": True, "distance": 0, "reach": attacker.reach,
+                    "range_mod": 0, "reason": "Keine Grid-Engine — kein Distanz-Check"}
+
+        distance = self._grid_engine.get_distance(attacker_id, target_id)
+        if distance >= 999:
+            return {"valid": True, "distance": 0, "reach": attacker.reach,
+                    "range_mod": 0, "reason": "Entities nicht auf Grid"}
+
+        # Fernkampfwaffe?
+        range_data = None
+        if self._mechanics:
+            range_data = self._mechanics.lookup_weapon_range(attacker.weapon)
+
+        if range_data:
+            # Fernkampf: 1 Tile = 10ft = ~3.3 Yards → Distanz in Yards
+            distance_yards = distance * 10  # 1 Tile = 10ft ≈ 10 Yards (AD&D Vereinfachung)
+            range_mod = self._mechanics.get_range_modifier(attacker.weapon, distance_yards)
+            if range_mod <= -99:
+                return {"valid": False, "distance": distance,
+                        "reach": 0, "range_mod": range_mod,
+                        "reason": f"Ausser Reichweite ({distance} Felder / {distance_yards} Yards)"}
+            return {"valid": True, "distance": distance,
+                    "reach": 0, "range_mod": range_mod,
+                    "reason": f"Fernkampf: {distance} Felder, Mod {range_mod}"}
+
+        # Nahkampf: Distanz muss <= reach sein
+        if distance > attacker.reach:
+            return {"valid": False, "distance": distance,
+                    "reach": attacker.reach, "range_mod": 0,
+                    "reason": f"Zu weit fuer Nahkampf ({distance} > {attacker.reach} Reichweite)"}
+
+        return {"valid": True, "distance": distance,
+                "reach": attacker.reach, "range_mod": 0,
+                "reason": f"Nahkampf OK ({distance} <= {attacker.reach})"}
+
+    def consume_movement(self, combatant_id: str, tiles: int) -> int:
+        """
+        Verbraucht Bewegung fuer einen Combatant.
+
+        Returns: Tatsaechlich verbrauchte Tiles (kann weniger sein als angefragt).
+        """
+        c = self._combatants.get(combatant_id)
+        if not c or not c.is_alive:
+            return 0
+        remaining = c.movement - c.movement_used
+        actual = min(tiles, remaining)
+        c.movement_used += actual
+        return actual
+
+    def get_movement_remaining(self, combatant_id: str) -> int:
+        """Gibt die verbleibende Bewegungsrate fuer diese Runde zurueck."""
+        c = self._combatants.get(combatant_id)
+        if not c or not c.is_alive:
+            return 0
+        return max(0, c.movement - c.movement_used)
 
     def get_initiative_order(self) -> list[Combatant]:
         """
@@ -428,10 +544,13 @@ class CombatTracker:
 
             if c.is_alive:
                 atk_info = f"{c.attacks_this_round}/{self.get_max_attacks(c.id)}"
+                mv_info = f"Bew: {c.movement - c.movement_used}/{c.movement}"
+                reach_info = f"Rw: {c.reach}" if c.reach > 1 else ""
+                extra = f" | {reach_info}" if reach_info else ""
                 lines.append(
                     f"{prefix} {c.name} | HP: {c.hp}/{c.hp_max} | "
                     f"AC: {c.ac} | {c.weapon} (Spd {c.speed_factor}) | "
-                    f"Angriffe: {atk_info} | {c.position}"
+                    f"Angriffe: {atk_info} | {mv_info}{extra} | {c.position}"
                 )
             else:
                 lines.append(f"{prefix} {c.name}")
@@ -447,10 +566,13 @@ class CombatTracker:
         for c in self._combatants.values():
             if c.is_alive:
                 max_atk = self.get_max_attacks(c.id)
+                mv_remaining = c.movement - c.movement_used
+                reach_str = f", Reichweite: {c.reach} Felder" if c.reach > 1 else ""
                 lines.append(
                     f"  - {c.name}: HP {c.hp}/{c.hp_max}, AC {c.ac}, "
                     f"THAC0 {c.thac0}, Waffe: {c.weapon} ({c.damage}), "
                     f"Angriffe: {max_atk}/Runde, "
+                    f"Bewegung: {mv_remaining}/{c.movement}{reach_str}, "
                     f"Position: {c.position}"
                 )
             else:

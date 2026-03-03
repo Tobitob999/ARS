@@ -1,8 +1,8 @@
 """
 gui/tab_audio.py — Tab 2: Audio Panel
 
-Audio-Konfiguration, Device-Auswahl, TTS-Stimmentest, STT-Einstellungen,
-VAD-Meter und Barge-in Steuerung.
+Audio-Konfiguration, Device-Auswahl, TTS-Stimmentest (18 Rollen),
+Audio-Effekt-Presets, STT-Einstellungen, VAD-Meter und Barge-in Steuerung.
 """
 
 from __future__ import annotations
@@ -28,23 +28,39 @@ logger = logging.getLogger("ARS.gui.audio")
 _TEST_TEXT_FILE = Path(__file__).parent.parent / "data" / ".tts_test_text"
 _DEFAULT_TEST_TEXT = "Willkommen, Ermittler. Die Nacht ist lang."
 
-# TTS Voice Registry (gleich wie in tts_handler.py)
+# TTS Voice Registry (Piper + Edge) — role: (voice_id, description, backend)
 VOICE_REGISTRY = {
-    "keeper": ("de_DE-thorsten-high", "Standard Erzaehler"),
-    "woman": ("de_DE-kerstin-low", "Weibliche NPCs"),
-    "monster": ("de_DE-pavoque-low", "Antagonisten / Tiefe Stimme"),
-    "scholar": ("de_DE-karlsson-low", "Akademiker / Investigator"),
-    "mystery": ("de_DE-eva_k-x_low", "Geister / Traumwesen"),
-    "emotional": ("de_DE-thorsten_emotional-medium", "Emotionaler Erzaehler"),
-    "narrator": ("de_DE-thorsten-medium", "Neutraler Erzaehler"),
-    "villager": ("de_DE-ramona-low", "Dorfbewohnerin / Buerger"),
-    "crowd": ("de_DE-mls-medium", "Statisten / Generisch"),
-    "whisper": ("de_DE-thorsten-low", "Fluestern / Rau"),
+    # Piper (offline)
+    "keeper":    ("de_DE-thorsten-high",            "Standard Erzaehler",        "Piper"),
+    "woman":     ("de_DE-kerstin-low",              "Weibliche NPCs",            "Piper"),
+    "monster":   ("de_DE-pavoque-low",              "Antagonisten / Tiefe Stimme","Piper"),
+    "scholar":   ("de_DE-karlsson-low",             "Akademiker / Investigator", "Piper"),
+    "mystery":   ("de_DE-eva_k-x_low",              "Geister / Traumwesen",      "Piper"),
+    "emotional": ("de_DE-thorsten_emotional-medium", "Emotionaler Erzaehler",    "Piper"),
+    "narrator":  ("de_DE-thorsten-medium",           "Neutraler Erzaehler",      "Piper"),
+    "villager":  ("de_DE-ramona-low",                "Dorfbewohnerin / Buerger", "Piper"),
+    "crowd":     ("de_DE-mls-medium",                "Statisten / Generisch",    "Piper"),
+    "whisper":   ("de_DE-thorsten-low",              "Fluestern / Rau",          "Piper"),
+    # Edge (online, neural)
+    "child":     ("de-DE-GiselaNeural",              "Kind / Junge Stimme",      "Edge"),
+    "noble":     ("de-DE-RalfNeural",                "Adliger / Wuerdentraeger", "Edge"),
+    "merchant":  ("de-CH-LeniNeural",                "Haendlerin (CH Akzent)",   "Edge"),
+    "austrian":  ("de-AT-JonasNeural",               "Oesterreichisch",          "Edge"),
+    "priestess": ("de-AT-IngridNeural",              "Priesterin / Heilige",     "Edge"),
+    "commander": ("de-DE-KillianNeural",             "Kommandant / Militaer",    "Edge"),
+    "servant":   ("de-DE-AmalaNeural",               "Diener / Unterwuerfig",    "Edge"),
+    "herald":    ("de-DE-ConradNeural",              "Herold / Ausrufer",        "Edge"),
 }
+
+# Effekt-Presets
+EFFECT_PRESETS = [
+    "clean", "hall", "monster", "ghost", "robot",
+    "radio", "underwater", "cathedral", "rage", "old",
+]
 
 
 class AudioTab(ttk.Frame):
-    """Audio Panel Tab — Geraete, TTS-Test, STT-Einstellungen."""
+    """Audio Panel Tab — Geraete, TTS-Test, Effekte, STT-Einstellungen."""
 
     def __init__(self, parent: ttk.Notebook, gui: TechGUI) -> None:
         super().__init__(parent)
@@ -58,12 +74,29 @@ class AudioTab(ttk.Frame):
         self._refresh_devices()
 
     def _build_ui(self) -> None:
-        container = ttk.Frame(self, style="TFrame")
-        container.pack(fill=tk.BOTH, expand=True, padx=PAD_LARGE, pady=PAD)
+        # Scrollbarer Container
+        canvas = tk.Canvas(self, bg=BG_DARK, highlightthickness=0)
+        scrollbar = ttk.Scrollbar(self, orient=tk.VERTICAL, command=canvas.yview)
+        container = ttk.Frame(canvas, style="TFrame")
+
+        container.bind(
+            "<Configure>",
+            lambda e: canvas.configure(scrollregion=canvas.bbox("all")),
+        )
+        canvas.create_window((0, 0), window=container, anchor="nw")
+        canvas.configure(yscrollcommand=scrollbar.set)
+
+        canvas.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+        scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+
+        # Mausrad-Scroll
+        def _on_mousewheel(event):
+            canvas.yview_scroll(int(-1 * (event.delta / 120)), "units")
+        canvas.bind_all("<MouseWheel>", _on_mousewheel)
 
         # ── Geraete ──
         dev_frame = ttk.LabelFrame(container, text=" Geraete ", style="TLabelframe")
-        dev_frame.pack(fill=tk.X, pady=PAD)
+        dev_frame.pack(fill=tk.X, pady=PAD, padx=PAD_LARGE)
 
         ttk.Label(dev_frame, text="Mikrofon").grid(
             row=0, column=0, sticky=tk.W, padx=PAD, pady=PAD_SMALL,
@@ -90,7 +123,7 @@ class AudioTab(ttk.Frame):
 
         # VAD-Meter
         vad_frame = ttk.LabelFrame(container, text=" VAD Live-Meter ", style="TLabelframe")
-        vad_frame.pack(fill=tk.X, pady=PAD)
+        vad_frame.pack(fill=tk.X, pady=PAD, padx=PAD_LARGE)
 
         meter_row = ttk.Frame(vad_frame, style="TFrame")
         meter_row.pack(fill=tk.X, padx=PAD, pady=PAD)
@@ -110,10 +143,10 @@ class AudioTab(ttk.Frame):
         self._mic_status_indicator.pack(side=tk.LEFT)
 
         # ── TTS Stimmen ──
-        tts_frame = ttk.LabelFrame(container, text=" TTS Stimmen ", style="TLabelframe")
-        tts_frame.pack(fill=tk.X, pady=PAD)
+        tts_frame = ttk.LabelFrame(container, text=" TTS Stimmen (18 Rollen) ", style="TLabelframe")
+        tts_frame.pack(fill=tk.X, pady=PAD, padx=PAD_LARGE)
 
-            # Backend-Info + Load-Button
+        # Backend-Info + Load-Button + Edge-Status
         backend_row = ttk.Frame(tts_frame, style="TFrame")
         backend_row.pack(fill=tk.X, padx=PAD, pady=PAD_SMALL)
         ttk.Label(backend_row, text="Backend:").pack(side=tk.LEFT)
@@ -124,22 +157,36 @@ class AudioTab(ttk.Frame):
         )
         self._btn_load_tts.pack(side=tk.LEFT, padx=PAD)
 
-        # Voice-Tabelle
-        cols = ("role", "voice_id", "description")
+        # Edge-Status Indikator
+        self._edge_status_label = tk.Label(
+            backend_row, text=" Edge: ? ", bg=BG_DARK, fg=FG_MUTED, font=FONT_BOLD,
+        )
+        self._edge_status_label.pack(side=tk.RIGHT, padx=PAD)
+
+        # Voice-Tabelle (4 Spalten)
+        cols = ("role", "voice_id", "backend", "description")
         self._voice_tree = ttk.Treeview(
-            tts_frame, columns=cols, show="headings", height=10,
+            tts_frame, columns=cols, show="headings", height=12,
         )
         self._voice_tree.heading("role", text="Rolle")
         self._voice_tree.heading("voice_id", text="Voice-ID")
+        self._voice_tree.heading("backend", text="Backend")
         self._voice_tree.heading("description", text="Beschreibung")
         self._voice_tree.column("role", width=80)
         self._voice_tree.column("voice_id", width=200)
-        self._voice_tree.column("description", width=150)
+        self._voice_tree.column("backend", width=60)
+        self._voice_tree.column("description", width=170)
 
-        for role, (vid, desc) in VOICE_REGISTRY.items():
-            self._voice_tree.insert("", tk.END, values=(role, vid, desc))
+        for role, (vid, desc, backend) in VOICE_REGISTRY.items():
+            self._voice_tree.insert("", tk.END, values=(role, vid, backend, desc))
 
-        self._voice_tree.pack(fill=tk.X, padx=PAD, pady=PAD_SMALL)
+        # Scrollbar fuer Voice-Tabelle
+        voice_scroll = ttk.Scrollbar(tts_frame, orient=tk.VERTICAL, command=self._voice_tree.yview)
+        self._voice_tree.configure(yscrollcommand=voice_scroll.set)
+        voice_frame = ttk.Frame(tts_frame, style="TFrame")
+        voice_frame.pack(fill=tk.X, padx=PAD, pady=PAD_SMALL)
+        self._voice_tree.pack(in_=voice_frame, side=tk.LEFT, fill=tk.X, expand=True)
+        voice_scroll.pack(in_=voice_frame, side=tk.RIGHT, fill=tk.Y)
 
         # Test-Zeile
         test_row = ttk.Frame(tts_frame, style="TFrame")
@@ -164,9 +211,44 @@ class AudioTab(ttk.Frame):
         )
         self._tts_status_label.pack(side=tk.LEFT, padx=PAD)
 
+        # ── Audio-Effekte ──
+        fx_frame = ttk.LabelFrame(container, text=" Audio-Effekte ", style="TLabelframe")
+        fx_frame.pack(fill=tk.X, pady=PAD, padx=PAD_LARGE)
+
+        fx_row = ttk.Frame(fx_frame, style="TFrame")
+        fx_row.pack(fill=tk.X, padx=PAD, pady=PAD)
+
+        ttk.Label(fx_row, text="Preset:").pack(side=tk.LEFT)
+        self._fx_preset_var = tk.StringVar(value="clean")
+        self._fx_combo = ttk.Combobox(
+            fx_row, textvariable=self._fx_preset_var,
+            values=EFFECT_PRESETS, state="readonly", width=15,
+        )
+        self._fx_combo.pack(side=tk.LEFT, padx=PAD)
+
+        self._btn_fx_preview = ttk.Button(
+            fx_row, text="Preview", command=self._preview_effect,
+        )
+        self._btn_fx_preview.pack(side=tk.LEFT, padx=PAD_SMALL)
+
+        self._fx_status_label = tk.Label(
+            fx_row, text=" pedalboard: ? ", bg=BG_DARK, fg=FG_MUTED, font=FONT_BOLD,
+        )
+        self._fx_status_label.pack(side=tk.RIGHT, padx=PAD)
+
+        # Preset-Beschreibungen
+        fx_desc = ttk.Label(
+            fx_frame,
+            text="clean=keine | hall=Reverb | monster=Lowpass+Distortion | ghost=Highpass+Reverb\n"
+                 "robot=Bitcrush+Chorus | radio=Bandpass | underwater=Lowpass+Chorus\n"
+                 "cathedral=Delay+Reverb | rage=Compressor+Distortion | old=Lowpass+leise",
+            style="Muted.TLabel",
+        )
+        fx_desc.pack(fill=tk.X, padx=PAD, pady=(0, PAD))
+
         # ── STT Einstellungen ──
         stt_frame = ttk.LabelFrame(container, text=" STT Einstellungen ", style="TLabelframe")
-        stt_frame.pack(fill=tk.X, pady=PAD)
+        stt_frame.pack(fill=tk.X, pady=PAD, padx=PAD_LARGE)
 
         ttk.Label(stt_frame, text="Whisper-Modell").grid(
             row=0, column=0, sticky=tk.W, padx=PAD, pady=PAD_SMALL,
@@ -196,7 +278,7 @@ class AudioTab(ttk.Frame):
 
         # ── Barge-in ──
         bargein_frame = ttk.LabelFrame(container, text=" Barge-in ", style="TLabelframe")
-        bargein_frame.pack(fill=tk.X, pady=PAD)
+        bargein_frame.pack(fill=tk.X, pady=PAD, padx=PAD_LARGE)
 
         self._bargein_var = tk.BooleanVar(value=True)
         ttk.Checkbutton(
@@ -216,7 +298,7 @@ class AudioTab(ttk.Frame):
 
         # ── Letzte Transkription ──
         trans_frame = ttk.LabelFrame(container, text=" Letzte Transkription ", style="TLabelframe")
-        trans_frame.pack(fill=tk.X, pady=PAD)
+        trans_frame.pack(fill=tk.X, pady=PAD, padx=PAD_LARGE)
         self._last_transcription = tk.Text(
             trans_frame, height=2, bg=BG_PANEL, fg=FG_PRIMARY,
             font=FONT_NORMAL, wrap=tk.WORD, state=tk.DISABLED,
@@ -297,6 +379,13 @@ class AudioTab(ttk.Frame):
                 self.after(0, lambda: self._tts_backend_label.configure(
                     text=f"{backend} (geladen)", style="Green.TLabel",
                 ))
+                # Edge-Status pruefen
+                edge_ok = getattr(tts, "_edge_available", None)
+                if edge_ok is None:
+                    edge_ok = tts._is_edge_available() if hasattr(tts, "_is_edge_available") else False
+                self.after(0, lambda: self._update_edge_status(edge_ok))
+                # Effekt-Status pruefen
+                self.after(0, self._update_fx_status)
             except Exception as exc:
                 logger.warning("TTS laden fehlgeschlagen: %s", exc)
                 self.after(0, lambda: self._tts_backend_label.configure(
@@ -317,6 +406,25 @@ class AudioTab(ttk.Frame):
         tts = TTSHandler()
         engine._tts = tts
         return tts
+
+    def _update_edge_status(self, available: bool) -> None:
+        """Aktualisiert den Edge-Status Indikator."""
+        if available:
+            self._edge_status_label.configure(
+                text=" Edge: Online ", fg=GREEN,
+            )
+        else:
+            self._edge_status_label.configure(
+                text=" Edge: Offline ", fg=RED,
+            )
+
+    def _update_fx_status(self) -> None:
+        """Prueft ob pedalboard verfuegbar ist."""
+        try:
+            import pedalboard  # type: ignore[import]  # noqa: F401
+            self._fx_status_label.configure(text=" pedalboard: OK ", fg=GREEN)
+        except ImportError:
+            self._fx_status_label.configure(text=" pedalboard: fehlt ", fg=RED)
 
     def _play_voice_test(self) -> None:
         """Spielt den Test-Text mit der ausgewaehlten Stimme."""
@@ -346,9 +454,42 @@ class AudioTab(ttk.Frame):
                     text=f"{backend} (geladen)", style="Green.TLabel",
                 ))
                 tts.set_voice(role)
+
+                # Effekt-Preset aus Dropdown anwenden
+                preset = self._fx_preset_var.get()
+                if preset and hasattr(tts, "set_effect"):
+                    tts.set_effect(preset)
+
                 tts.speak(text, stop_event=self._tts_stop_event)
             except Exception as exc:
                 logger.warning("Voice-Test fehlgeschlagen: %s", exc)
+            finally:
+                self._set_tts_status("idle")
+
+        threading.Thread(target=_run, daemon=True).start()
+
+    def _preview_effect(self) -> None:
+        """Spielt den Test-Text mit dem gewaehlten Effekt-Preset (Keeper-Stimme)."""
+        if self._tts_playing:
+            return
+
+        text = self._test_text_var.get().strip()
+        if not text:
+            return
+
+        self._tts_stop_event.clear()
+        self._set_tts_status("playing")
+
+        def _run():
+            try:
+                tts = self._get_or_create_tts()
+                tts.set_voice("keeper")
+                preset = self._fx_preset_var.get()
+                if hasattr(tts, "set_effect"):
+                    tts.set_effect(preset)
+                tts.speak(text, stop_event=self._tts_stop_event)
+            except Exception as exc:
+                logger.warning("Effekt-Preview fehlgeschlagen: %s", exc)
             finally:
                 self._set_tts_status("idle")
 
@@ -365,10 +506,12 @@ class AudioTab(ttk.Frame):
             if status == "playing":
                 self._btn_play.state(["disabled"])
                 self._btn_stop_tts.state(["!disabled"])
+                self._btn_fx_preview.state(["disabled"])
                 self._tts_status_label.configure(text=" Playing... ", fg=GREEN)
             else:
                 self._btn_play.state(["!disabled"])
                 self._btn_stop_tts.state(["disabled"])
+                self._btn_fx_preview.state(["!disabled"])
                 self._tts_status_label.configure(text=" Idle ", fg=FG_MUTED)
         self.after(0, _update)
 

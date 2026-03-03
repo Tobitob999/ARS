@@ -1,6 +1,7 @@
 {
-    "id":  "scroll_magic_missile",
-    "value_gp":  150,
-    "magical":  true,
-    "effect_description":  "Single-use scroll that casts Magic Missile."
+    "id": "scroll_magic_missile",
+    "value_gp": 150,
+    "magical": true,
+    "effect_description": "Single-use scroll that casts Magic Missile.",
+    "use_effect": {"type": "spell", "spell": "Magic Missile"}
 }

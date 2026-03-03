@@ -167,11 +167,12 @@ class MechanicsEngine:
           '3'    -> gibt 3 zurueck
         """
         expr = expr.strip().lower()
-        m = re.match(r"^(\d+)d(\d+)$", expr)
+        m = re.match(r"^(\d+)d(\d+)([+-]\d+)?$", expr)
         if m:
             count = int(m.group(1))
             faces = int(m.group(2))
-            return sum(self.roll_die(faces) for _ in range(count))
+            modifier = int(m.group(3)) if m.group(3) else 0
+            return sum(self.roll_die(faces) for _ in range(count)) + modifier
         try:
             return int(expr)
         except ValueError:
@@ -453,6 +454,96 @@ class MechanicsEngine:
                 if int(parts[0]) <= level <= int(parts[1]):
                     return attacks
         return "1/1"
+
+    # ------------------------------------------------------------------
+    # Waffen-Reichweite und Ruestungs-Bewegung
+    # ------------------------------------------------------------------
+
+    def lookup_weapon_reach(self, weapon_name: str) -> int:
+        """
+        Sucht die Nahkampf-Reichweite einer Waffe (in Feldern, 1 Feld = 10 ft).
+
+        Stangenwaffen (Halberd, Spear, Trident, Quarter Staff) = 2 Felder.
+        Lanzen = 3 Felder. Standard = 1 Feld.
+        """
+        if not weapon_name:
+            return 1
+        wn = weapon_name.lower()
+        for entry in self.tables.get("melee_weapons", []):
+            if entry["name"].lower() in wn or wn in entry["name"].lower():
+                return entry.get("reach", 1)
+        return 1
+
+    def lookup_weapon_range(self, weapon_name: str) -> dict | None:
+        """
+        Sucht Fernkampf-Reichweiten einer Waffe (short/medium/long in Yards).
+
+        Returns: {"range_s": int, "range_m": int, "range_l": int, "rof": str}
+                 oder None wenn keine Fernkampfwaffe.
+        """
+        if not weapon_name:
+            return None
+        wn = weapon_name.lower()
+        for entry in self.tables.get("missile_weapons", []):
+            if entry["name"].lower() in wn or wn in entry["name"].lower():
+                return {
+                    "range_s": entry.get("range_s", 0),
+                    "range_m": entry.get("range_m", 0),
+                    "range_l": entry.get("range_l", 0),
+                    "rof": entry.get("rof", "1"),
+                }
+        return None
+
+    def get_range_modifier(self, weapon_name: str, distance_yards: int) -> int:
+        """
+        Berechnet den Fernkampf-Modifikator basierend auf Distanz.
+
+        Returns:
+            0  = Kurzreichweite (kein Malus)
+            -2 = Mittelreichweite
+            -5 = Langreichweite
+            -99 = Ausserhalb maximaler Reichweite (Angriff unmoeglich)
+        """
+        rng = self.lookup_weapon_range(weapon_name)
+        if rng is None:
+            return 0  # Nahkampfwaffe, kein Range-Mod
+
+        if distance_yards <= rng["range_s"]:
+            return 0
+        elif distance_yards <= rng["range_m"]:
+            return self.tables.get("combat_modifiers", {}).get("missile_medium_range", -2)
+        elif distance_yards <= rng["range_l"]:
+            return self.tables.get("combat_modifiers", {}).get("missile_long_range", -5)
+        else:
+            return -99  # Ausser Reichweite
+
+    def lookup_armor_movement_penalty(self, armor_name: str) -> int:
+        """
+        Sucht den Bewegungsmalus einer Ruestung.
+
+        Returns: 0 (Leder), -3 (Kette), -6 (Platte), etc.
+        """
+        if not armor_name:
+            return 0
+        an = armor_name.lower()
+        for entry in self.tables.get("armor_catalog", []):
+            if entry["name"].lower() in an or an in entry["name"].lower():
+                return entry.get("movement_penalty", 0)
+        return 0
+
+    def get_effective_movement(self, base_movement: int, armor_name: str) -> int:
+        """
+        Berechnet die effektive Bewegungsrate nach Ruestungsmalus.
+
+        Args:
+            base_movement: Basis-Bewegungsrate (z.B. 12 fuer Menschen)
+            armor_name: Name der getragenen Ruestung
+
+        Returns:
+            Effektive Bewegungsrate (Minimum 1 Feld)
+        """
+        penalty = self.lookup_armor_movement_penalty(armor_name)
+        return max(1, base_movement + penalty)
 
     # ------------------------------------------------------------------
     # Interne Helfer

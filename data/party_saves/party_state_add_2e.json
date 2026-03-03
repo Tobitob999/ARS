@@ -1,5 +1,5 @@
 {
-  "turn_number": 15,
+  "turn_number": 10,
   "party": {
     "members": {
       "Grimjaw Eisenfaust": {
@@ -8,7 +8,7 @@
         "archetype": "Fighter",
         "level": 7,
         "race": "Dwarf",
-        "hp": 35,
+        "hp": 72,
         "hp_max": 72,
         "ac": 2,
         "thac0": 14,
@@ -47,7 +47,8 @@
         ],
         "spells_prepared": [],
         "spells_remaining": {},
-        "xp": 143,
+        "xp": 0,
+        "movement_rate": 6,
         "alive": true
       },
       "Sir Kael Zornesklinge": {
@@ -56,7 +57,7 @@
         "archetype": "Paladin",
         "level": 6,
         "race": "Human",
-        "hp": 16,
+        "hp": 54,
         "hp_max": 54,
         "ac": 1,
         "thac0": 15,
@@ -97,7 +98,8 @@
         "spells_remaining": {
           "1": 2
         },
-        "xp": 143,
+        "xp": 0,
+        "movement_rate": 12,
         "alive": true
       },
       "Bruder Mordain": {
@@ -106,7 +108,7 @@
         "archetype": "Cleric",
         "level": 6,
         "race": "Human",
-        "hp": 33,
+        "hp": 42,
         "hp_max": 42,
         "ac": 2,
         "thac0": 18,
@@ -159,7 +161,8 @@
           "2": 5,
           "3": 2
         },
-        "xp": 140,
+        "xp": 0,
+        "movement_rate": 12,
         "alive": true
       },
       "Varn Wildtoeter": {
@@ -209,7 +212,8 @@
         "spells_remaining": {
           "1": 1
         },
-        "xp": 140,
+        "xp": 0,
+        "movement_rate": 12,
         "alive": true
       },
       "Pyra Flammenherz": {
@@ -261,11 +265,12 @@
           "Lightning Bolt"
         ],
         "spells_remaining": {
-          "1": 0,
+          "1": 4,
           "2": 2,
           "3": 0
         },
-        "xp": 140,
+        "xp": 0,
+        "movement_rate": 12,
         "alive": true
       },
       "Shade Klingenschatten": {
@@ -312,65 +317,18 @@
         ],
         "spells_prepared": [],
         "spells_remaining": {},
-        "xp": 139,
+        "xp": 0,
+        "movement_rate": 6,
         "alive": true
       }
     },
     "alive_count": 6,
     "total_count": 6,
     "is_tpk": false,
-    "total_hp": 186,
+    "total_hp": 270,
     "total_hp_max": 270
   },
   "turn_log": [
-    {
-      "action": "damage",
-      "target": "Grimjaw Eisenfaust",
-      "amount": 4,
-      "hp_before": 72,
-      "hp_after": 68,
-      "alive": true
-    },
-    {
-      "action": "damage",
-      "target": "Grimjaw Eisenfaust",
-      "amount": 3,
-      "hp_before": 68,
-      "hp_after": 65,
-      "alive": true
-    },
-    {
-      "action": "damage",
-      "target": "Sir Kael Zornesklinge",
-      "amount": 5,
-      "hp_before": 54,
-      "hp_after": 49,
-      "alive": true
-    },
-    {
-      "action": "damage",
-      "target": "Sir Kael Zornesklinge",
-      "amount": 4,
-      "hp_before": 49,
-      "hp_after": 45,
-      "alive": true
-    },
-    {
-      "action": "damage",
-      "target": "Grimjaw Eisenfaust",
-      "amount": 3,
-      "hp_before": 65,
-      "hp_after": 62,
-      "alive": true
-    },
-    {
-      "action": "damage",
-      "target": "Sir Kael Zornesklinge",
-      "amount": 4,
-      "hp_before": 45,
-      "hp_after": 41,
-      "alive": true
-    },
     {
       "action": "spell_used",
       "caster": "Bruder Mordain",
@@ -380,47 +338,24 @@
     },
     {
       "action": "spell_used",
-      "caster": "Pyra Flammenherz",
-      "spell": "Fireball",
-      "level": 3,
-      "remaining": 1
-    },
-    {
-      "action": "spell_used",
-      "caster": "Pyra Flammenherz",
-      "spell": "Magic Missile",
+      "caster": "Bruder Mordain",
+      "spell": "Bless",
       "level": 1,
       "remaining": 3
     },
     {
-      "action": "xp_gain",
-      "amount": 260,
-      "per_member": 43,
-      "alive_count": 6
+      "action": "spell_used",
+      "caster": "Bruder Mordain",
+      "spell": "Prayer",
+      "level": 3,
+      "remaining": 2
     },
     {
-      "action": "damage",
-      "target": "Grimjaw Eisenfaust",
-      "amount": 4,
-      "hp_before": 62,
-      "hp_after": 58,
-      "alive": true
-    },
-    {
-      "action": "damage",
-      "target": "Sir Kael Zornesklinge",
-      "amount": 3,
-      "hp_before": 41,
-      "hp_after": 38,
-      "alive": true
-    },
-    {
-      "action": "damage",
-      "target": "Grimjaw Eisenfaust",
-      "amount": 5,
-      "hp_before": 58,
-      "hp_after": 53,
-      "alive": true
+      "action": "spell_used",
+      "caster": "Pyra Flammenherz",
+      "spell": "Fireball",
+      "level": 3,
+      "remaining": 1
     },
     {
       "action": "spell_used",
@@ -434,140 +369,7 @@
       "caster": "Bruder Mordain",
       "spell": "Bless",
       "level": 1,
-      "remaining": 3
-    },
-    {
-      "action": "spell_used",
-      "caster": "Pyra Flammenherz",
-      "spell": "Magic Missile",
-      "level": 1,
       "remaining": 2
-    },
-    {
-      "action": "xp_gain",
-      "amount": 65,
-      "per_member": 10,
-      "alive_count": 6
-    },
-    {
-      "action": "damage",
-      "target": "Grimjaw Eisenfaust",
-      "amount": 6,
-      "hp_before": 53,
-      "hp_after": 47,
-      "alive": true
-    },
-    {
-      "action": "damage",
-      "target": "Sir Kael Zornesklinge",
-      "amount": 7,
-      "hp_before": 38,
-      "hp_after": 31,
-      "alive": true
-    },
-    {
-      "action": "damage",
-      "target": "Bruder Mordain",
-      "amount": 5,
-      "hp_before": 42,
-      "hp_after": 37,
-      "alive": true
-    },
-    {
-      "action": "damage",
-      "target": "Grimjaw Eisenfaust",
-      "amount": 5,
-      "hp_before": 47,
-      "hp_after": 42,
-      "alive": true
-    },
-    {
-      "action": "damage",
-      "target": "Sir Kael Zornesklinge",
-      "amount": 6,
-      "hp_before": 31,
-      "hp_after": 25,
-      "alive": true
-    },
-    {
-      "action": "damage",
-      "target": "Bruder Mordain",
-      "amount": 4,
-      "hp_before": 37,
-      "hp_after": 33,
-      "alive": true
-    },
-    {
-      "action": "spell_used",
-      "caster": "Pyra Flammenherz",
-      "spell": "Magic Missile",
-      "level": 1,
-      "remaining": 1
-    },
-    {
-      "action": "spell_used",
-      "caster": "Bruder Mordain",
-      "spell": "Prayer",
-      "level": 3,
-      "remaining": 2
-    },
-    {
-      "action": "spell_used",
-      "caster": "Pyra Flammenherz",
-      "spell": "Burning Hands",
-      "level": 1,
-      "remaining": 0
-    },
-    {
-      "action": "xp_gain",
-      "amount": 260,
-      "per_member": 43,
-      "alive_count": 6
-    },
-    {
-      "action": "damage",
-      "target": "Grimjaw Eisenfaust",
-      "amount": 4,
-      "hp_before": 42,
-      "hp_after": 38,
-      "alive": true
-    },
-    {
-      "action": "damage",
-      "target": "Sir Kael Zornesklinge",
-      "amount": 5,
-      "hp_before": 25,
-      "hp_after": 20,
-      "alive": true
-    },
-    {
-      "action": "damage",
-      "target": "Grimjaw Eisenfaust",
-      "amount": 3,
-      "hp_before": 38,
-      "hp_after": 35,
-      "alive": true
-    },
-    {
-      "action": "damage",
-      "target": "Sir Kael Zornesklinge",
-      "amount": 4,
-      "hp_before": 20,
-      "hp_after": 16,
-      "alive": true
-    },
-    {
-      "action": "spell_used",
-      "caster": "Bruder Mordain",
-      "spell": "Bless",
-      "level": 1,
-      "remaining": 2
-    },
-    {
-      "action": "xp_gain",
-      "amount": 260,
-      "per_member": 43,
-      "alive_count": 6
     }
   ]
 }

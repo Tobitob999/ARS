@@ -138,6 +138,7 @@ class GeminiBackend:
         self._character_template = character_template
         self._party_members = party_members
         self._history: list[dict[str, str]] = []  # {"role": "user"|"assistant", "content": "..."}
+        self._history_summaries: list[str] = []     # Zusammenfassungen getrimmter History-Abschnitte
         self._client = None
         self._cache_name: str | None = None        # Gemini Context Cache Name
         self._archivist: Archivist | None = None   # Task 05: Chronik + World State
@@ -291,6 +292,34 @@ class GeminiBackend:
             fb = (
                 "STIL-VERSTOSS: Keine Spieler-Interaktion. "
                 "Beende deine naechste Antwort mit einer Frage oder [PROBE:]."
+            )
+            warnings.append(fb)
+            self._pending_feedback.append(fb)
+
+        # Kampf-Validation: Wenn Kampfwoerter in der Antwort, aber kein HP_VERLUST
+        _COMBAT_WORDS = re.compile(
+            r"(trifft|schlaegt|kratzt|beisst|sticht|hackt|rammt|schleudert|reisst|"
+            r"verwundet|Schwert|Axt|Klaue|Dolch|Angriff|Hieb|Stich|Schlag)\b",
+            re.IGNORECASE,
+        )
+        has_combat = bool(_COMBAT_WORDS.search(clean))
+        has_hp_verlust = "[HP_VERLUST" in response
+        has_angriff = "[ANGRIFF" in response
+        if has_combat and not has_hp_verlust and not has_angriff:
+            # Kampf beschrieben aber keine mechanischen Tags
+            fb = (
+                "KAMPF-VERSTOSS: Du beschreibst einen Angriff narrativ, aber OHNE "
+                "[HP_VERLUST]-Tag. Monster-Angriffe MUESSEN Schaden verursachen! "
+                "Setze bei deinem naechsten Monstertreffer: [HP_VERLUST: N]"
+            )
+            warnings.append(fb)
+            self._pending_feedback.append(fb)
+        elif has_angriff and not has_hp_verlust and has_combat:
+            # Spieler greift an (ANGRIFF-Tag) aber Monster greift nicht zurueck
+            fb = (
+                "KAMPF-ERINNERUNG: Der Spieler greift an, aber Monster schlagen "
+                "nicht zurueck. Kaempfe muessen beidseitig sein! "
+                "Setze [HP_VERLUST: N] fuer Monster-Gegenangriffe."
             )
             warnings.append(fb)
             self._pending_feedback.append(fb)
@@ -632,6 +661,11 @@ class GeminiBackend:
         self._adv_manager = adv_manager
         logger.info("AdventureManager an AI-Backend gekoppelt.")
 
+    def set_grid_engine(self, grid_engine: Any) -> None:
+        """Verbindet die GridEngine fuer Grid-Positions-Injektion."""
+        self._grid_engine = grid_engine
+        logger.info("GridEngine verbunden.")
+
     def set_rules_engine(self, rules_engine: Any) -> None:
         """Verbindet die RulesEngine fuer dynamische Regel-Injektion."""
         self._rules_engine = rules_engine
@@ -883,6 +917,26 @@ class GeminiBackend:
                     )
                     _time.sleep(wait)
                     continue
+
+                # Cache-Invalidierung: CachedContent nicht mehr verfuegbar
+                is_cache_error = (
+                    "CachedContent" in err_str
+                    or ("403" in err_str and "PERMISSION_DENIED" in err_str)
+                )
+                if is_cache_error and self._cache_name and attempt < max_retries:
+                    logger.warning(
+                        "Cache ungueltig (%s) — Fallback auf System-Prompt (Retry %d/%d).",
+                        self._cache_name, attempt + 1, max_retries,
+                    )
+                    self._cache_name = None
+                    # Rebuild config without cache
+                    gen_config = types.GenerateContentConfig(
+                        system_instruction=self._system_prompt,
+                        temperature=temp,
+                    )
+                    model_name = GEMINI_MODEL
+                    continue
+
                 logger.error("Fehler beim Streaming von Gemini: %s", exc)
                 raise
 
@@ -1011,6 +1065,13 @@ class GeminiBackend:
             context_parts.append(party_ctx)
             context_sources.append({"origin": "party_state", "content": party_ctx})
 
+        # Grid-Engine: Positionen, Distanzen, Nahkampf-Info
+        if hasattr(self, "_grid_engine") and self._grid_engine:
+            grid_ctx = self._grid_engine.get_context_for_prompt()
+            if grid_ctx:
+                context_parts.append(grid_ctx)
+                context_sources.append({"origin": "grid_engine", "content": grid_ctx})
+
         # Rules Engine: situationsbasierte Regel-Injektion (Schicht 1)
         if hasattr(self, "_rules_engine") and self._rules_engine:
             active_combat = (
@@ -1069,6 +1130,26 @@ class GeminiBackend:
                 "parts": [{"text": "Verstanden. Ich beruecksichtige den aktuellen Kontext."}],
             })
 
+        # History-Zusammenfassungen injizieren (fruehe Turns, zusammengefasst)
+        if self._history_summaries:
+            summary_text = "\n\n".join(
+                f"[Abschnitt {i+1}] {s}" for i, s in enumerate(self._history_summaries)
+            )
+            contents.append({
+                "role": "user",
+                "parts": [{"text": (
+                    "[FRUEHERE EREIGNISSE — ZUSAMMENFASSUNG]\n"
+                    "Die folgenden Abschnitte fassen fruehe Spielereignisse zusammen, "
+                    "die nicht mehr im vollen Wortlaut vorliegen. "
+                    "Beruecksichtige sie fuer narrative Kontinuitaet.\n\n"
+                    f"{summary_text}"
+                )}],
+            })
+            contents.append({
+                "role": "model",
+                "parts": [{"text": "Verstanden. Ich behalte die frueheren Ereignisse im Gedaechtnis."}],
+            })
+
         # Konversationshistorie
         for msg in self._history:
             role = "user" if msg["role"] == "user" else "model"
@@ -1079,10 +1160,55 @@ class GeminiBackend:
         return contents
 
     def _trim_history(self) -> None:
-        """Schneidet die History auf MAX_HISTORY_TURNS Runden ab (FIFO)."""
+        """
+        Schneidet die History auf MAX_HISTORY_TURNS Runden ab.
+        Vor dem Trim: aelteste Turns werden zusammengefasst (3-5 Saetze)
+        und als Chronik-Block gespeichert, um narrative Kontinuitaet zu erhalten.
+        Max 5 Zusammenfassungen = ~100 Turns Abdeckung.
+        """
         max_messages = MAX_HISTORY_TURNS * 2  # je Runde: 1 user + 1 assistant
-        if len(self._history) > max_messages:
-            self._history = self._history[-max_messages:]
+        if len(self._history) <= max_messages:
+            return
+
+        # Aelteste Turns extrahieren die getrimmt werden
+        overflow = len(self._history) - max_messages
+        old_messages = self._history[:overflow]
+
+        # In Turn-Dicts konvertieren fuer summarize()
+        turns_to_summarize: list[dict[str, str]] = []
+        i = 0
+        while i < len(old_messages) - 1:
+            user_msg = old_messages[i]
+            asst_msg = old_messages[i + 1] if i + 1 < len(old_messages) else None
+            if user_msg["role"] == "user" and asst_msg and asst_msg["role"] == "assistant":
+                turns_to_summarize.append({
+                    "user": user_msg["content"],
+                    "gm": asst_msg["content"],
+                })
+                i += 2
+            else:
+                i += 1
+
+        # Zusammenfassung erstellen (non-blocking, graceful degradation)
+        if turns_to_summarize and self._client:
+            try:
+                summary = self.summarize(turns_to_summarize)
+                if summary:
+                    self._history_summaries.append(summary)
+                    logger.info(
+                        "History-Zusammenfassung: %d Turns -> %d Zeichen. "
+                        "Gesamt: %d Zusammenfassungen.",
+                        len(turns_to_summarize), len(summary),
+                        len(self._history_summaries),
+                    )
+                    # Max 5 Zusammenfassungen behalten (~100 Turns Abdeckung)
+                    if len(self._history_summaries) > 5:
+                        self._history_summaries = self._history_summaries[-5:]
+            except Exception as exc:
+                logger.warning("History-Zusammenfassung fehlgeschlagen: %s — Trim ohne Summary.", exc)
+
+        # Trim durchfuehren
+        self._history = self._history[-max_messages:]
 
     def _build_system_prompt(self) -> str:
         """
@@ -1544,6 +1670,13 @@ Kleriker und Paladine koennen Untote vertreiben (Turn Undead):
 - Vertriebene Untote fliehen fuer 3d4 Runden. Zerstoerte Untote zerfallen sofort.
 - Nur Priester/Paladin duerfen Turn Undead versuchen, NICHT andere Klassen.
 
+═══ ZEITVERFOLGUNG (AD&D 2e) ═══
+Im Kampf: [RUNDE: 1] nach jeder Kampfrunde (1 Runde = 1 Minute, 10 Runden = 1 Turn).
+Ausserhalb Kampf: [ZEIT_VERGEHT: Xh] wie bisher.
+Gegenstand benutzen: [GEGENSTAND_BENUTZT: <Gegenstandsname> | <Charaktername>]
+  Beispiel: [GEGENSTAND_BENUTZT: Potion of Healing | Bruder Aldhelm]
+  Verwende diesen Tag wenn ein Charakter einen Trank trinkt, eine Schriftrolle liest oder einen Gegenstand aktiviert.
+
 ═══ SYSTEM-GRENZEN (AD&D 2e) ═══
 Du spielst AD&D 2nd Edition. Verwende NUR AD&D-Fertigkeiten aus dem Charakter-Bogen.
 Kampffertigkeiten: d20 roll-under gegen Attribut oder THAC0-basiert.
@@ -1674,7 +1807,15 @@ Erfolgsgrade: {levels_text}
 
 Verfuegbare Fertigkeiten:
 {skills_text}
-{core_rules_block}{adventure_block}{extras_block}═══ ABSOLUTES VERBOT ═══
+{core_rules_block}{adventure_block}{extras_block}═══ KAMPF-ERINNERUNG (KRITISCH) ═══
+Wenn Monster im Kampf angreifen, MUSST du Schaden an Spielercharakteren zufuegen!
+- JEDER beschriebene Monstertreffer braucht SOFORT einen [HP_VERLUST]-Tag.
+- Ohne [HP_VERLUST] ist der Angriff wirkungslos — das zerstoert die Spielmechanik!
+- Kaempfe MUESSEN beidseitig sein: Monster treffen zurueck, sie sind gefaehrlich.
+- Solo: [HP_VERLUST: 6] | Party: [HP_VERLUST: Charaktername | 6]
+- Pro Kampfrunde: Mindestens 1 Monster-Angriff mit [HP_VERLUST] wenn Monster noch leben.
+
+═══ ABSOLUTES VERBOT ═══
 - Sprich NIEMALS ueber Regeln, Tags, das System oder die KI.
 - Erwaehne NIEMALS Wuerfelwuerfe in narrativem Text.
 - Brich NIEMALS die Immersion durch Meta-Kommentare.
@@ -2180,6 +2321,8 @@ Daher MUESSEN alle Ausgaben diesen Regeln folgen:
             "  [ZAUBER_VERBRAUCHT: <Name> | <Zauber> | <Level>]",
             "  [INVENTAR: <Item> | <Aktion> | <Name>]",
             "  [PROBE: <Fertigkeit> | <Zielwert> | <Name>]",
+            "  [FERTIGKEIT_GENUTZT: <Fertigkeitsname> | <Charaktername>]",
+            "  [GEGENSTAND_BENUTZT: <Gegenstandsname> | <Charaktername>]",
             "",
         ]
 
@@ -2232,11 +2375,14 @@ Daher MUESSEN alle Ausgaben diesen Regeln folgen:
                 if sp_parts:
                     lines.append(f"  Sprueche: {'; '.join(sp_parts)}")
 
-            # Skills (kompakt)
+            # Skills (mit Werten)
             skills = c.get("skills", {})
             if skills:
-                skill_str = ", ".join(f"{k}" for k in skills.keys())
+                skill_str = ", ".join(f"{k}:{v}" for k, v in skills.items())
                 lines.append(f"  Fertigkeiten: {skill_str}")
+                lines.append(
+                    "  -> Verwende NUR Fertigkeiten aus diesem Charakter-Bogen. Erfinde KEINE neuen."
+                )
 
             # Background (kurz)
             bg = c.get("background", "")

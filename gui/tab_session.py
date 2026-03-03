@@ -374,7 +374,11 @@ class SessionTab(ttk.Frame):
 
     def _set_combo(self, key: str, value: str | None) -> None:
         combo = self._combos[key]
-        if value and value in (combo["values"] or []):
+        if value:
+            if value not in (combo["values"] or []):
+                # Wert nicht im Dropdown — trotzdem setzen (Preset/Szenario)
+                combo["values"] = list(combo["values"] or []) + [value]
+                logger.debug("_set_combo: '%s' nicht im Dropdown fuer '%s' — hinzugefuegt.", value, key)
             combo.set(value)
         elif combo["values"]:
             combo.current(0)

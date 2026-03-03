@@ -1,0 +1,3205 @@
+{
+  "module": "add_2e",
+  "adventure": "dungeon_walkthrough",
+  "case_id": 1,
+  "case_name": "generic",
+  "expected_tags": {},
+  "total_turns": 10,
+  "total_latency_ms": 81979.72699999809,
+  "avg_latency_ms": 8197.97269999981,
+  "avg_response_chars": 486.8,
+  "avg_sentences": 7.7,
+  "total_probes": 4,
+  "total_combat_tags": 0,
+  "total_stat_changes": 0,
+  "total_rules_warnings": 0,
+  "character_alive": true,
+  "turns": [
+    {
+      "turn": 1,
+      "player_input": "Ich betrete die Taverne und schaue mich um.",
+      "keeper_response": "Die kühle, trockene Luft des Berginneren empfängt dich. Über dir wölbt sich der grob gehauene Fels des Eingangs. Dein Blick fällt auf die matten Zwergenrunen, die den Steinbogen zieren.\n\nEin gepflasterter Gang führt in die Dunkelheit der Mine. Was tust du hier, am Rande der alten Zwergenwerke?\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 315,
+      "response_sentences": 5,
+      "latency_ms": 2451.6185999964364,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null,
+      "room_id": "eingang",
+      "room_width": 7,
+      "room_height": 15,
+      "grid_positions": {
+        "add_train_fighter": [
+          3,
+          6
+        ],
+        "add_train_paladin": [
+          3,
+          8
+        ],
+        "add_train_cleric": [
+          5,
+          6
+        ],
+        "add_train_ranger": [
+          5,
+          8
+        ],
+        "add_train_mage": [
+          5,
+          6
+        ],
+        "add_train_thief": [
+          5,
+          8
+        ]
+      },
+      "grid_entities": {
+        "add_train_fighter": {
+          "name": "Grimjaw Eisenfaust",
+          "type": "party_member",
+          "symbol": "F",
+          "alive": true
+        },
+        "add_train_paladin": {
+          "name": "Sir Kael Zornesklinge",
+          "type": "party_member",
+          "symbol": "P",
+          "alive": true
+        },
+        "add_train_cleric": {
+          "name": "Bruder Mordain",
+          "type": "party_member",
+          "symbol": "C",
+          "alive": true
+        },
+        "add_train_ranger": {
+          "name": "Varn Wildtoeter",
+          "type": "party_member",
+          "symbol": "R",
+          "alive": true
+        },
+        "add_train_mage": {
+          "name": "Pyra Flammenherz",
+          "type": "party_member",
+          "symbol": "M",
+          "alive": true
+        },
+        "add_train_thief": {
+          "name": "Shade Klingenschatten",
+          "type": "party_member",
+          "symbol": "T",
+          "alive": true
+        }
+      },
+      "party_hp": {
+        "Grimjaw Eisenfaust": {
+          "hp": 72,
+          "hp_max": 72,
+          "alive": true,
+          "archetype": "Fighter"
+        },
+        "Sir Kael Zornesklinge": {
+          "hp": 54,
+          "hp_max": 54,
+          "alive": true,
+          "archetype": "Paladin"
+        },
+        "Bruder Mordain": {
+          "hp": 42,
+          "hp_max": 42,
+          "alive": true,
+          "archetype": "Cleric"
+        },
+        "Varn Wildtoeter": {
+          "hp": 52,
+          "hp_max": 52,
+          "alive": true,
+          "archetype": "Ranger"
+        },
+        "Pyra Flammenherz": {
+          "hp": 18,
+          "hp_max": 18,
+          "alive": true,
+          "archetype": "Mage"
+        },
+        "Shade Klingenschatten": {
+          "hp": 32,
+          "hp_max": 32,
+          "alive": true,
+          "archetype": "Thief"
+        }
+      },
+      "move_events": [],
+      "room_terrain": [
+        [
+          "wall",
+          "wall",
+          "wall",
+          "door",
+          "wall",
+          "wall",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall"
+        ]
+      ]
+    },
+    {
+      "turn": 2,
+      "player_input": "Grimjaw Eisenfaust: Stürmt den Gang entlang in die Dunkelheit.\nSir Kael Zornesklinge: Folgt Grimjaw und drängt vorwärts.\nBruder Mordain: Schreitet entschlossen in den dunklen Gang.\nVarn Wildtoeter: Bewegt sich zügig tiefer in die Mine.\nPyra Flammenherz: Eilt den anderen hinterher in den Stollen.\nShade Klingenschatten: Sucht schnell nach Fallen und folgt dann sofort.",
+      "keeper_response": "Ein unheilvoller Geruch von altem Stein und Moder schlägt euch entgegen. Der Tunnel weitet sich zu einer gewaltigen, finsteren Höhle. Mächtige Steinsäulen stützen die Decke.\n\nSpinnweben hängen wie makabre Vorhänge von den hohen Bögen. Der Gang führt nach Norden in eine große Halle. Shade, du suchst nach Fallen.\n[PROBE: Find/Remove Traps | 65 | Shade Klingenschatten]\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 389,
+      "response_sentences": 6,
+      "latency_ms": 6358.354900003178,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null,
+      "room_id": "eingang",
+      "room_width": 7,
+      "room_height": 15,
+      "grid_positions": {
+        "add_train_fighter": [
+          3,
+          4
+        ],
+        "add_train_paladin": [
+          3,
+          6
+        ],
+        "add_train_cleric": [
+          5,
+          4
+        ],
+        "add_train_ranger": [
+          5,
+          6
+        ],
+        "add_train_mage": [
+          5,
+          4
+        ],
+        "add_train_thief": [
+          5,
+          6
+        ]
+      },
+      "grid_entities": {
+        "add_train_fighter": {
+          "name": "Grimjaw Eisenfaust",
+          "type": "party_member",
+          "symbol": "F",
+          "alive": true
+        },
+        "add_train_paladin": {
+          "name": "Sir Kael Zornesklinge",
+          "type": "party_member",
+          "symbol": "P",
+          "alive": true
+        },
+        "add_train_cleric": {
+          "name": "Bruder Mordain",
+          "type": "party_member",
+          "symbol": "C",
+          "alive": true
+        },
+        "add_train_ranger": {
+          "name": "Varn Wildtoeter",
+          "type": "party_member",
+          "symbol": "R",
+          "alive": true
+        },
+        "add_train_mage": {
+          "name": "Pyra Flammenherz",
+          "type": "party_member",
+          "symbol": "M",
+          "alive": true
+        },
+        "add_train_thief": {
+          "name": "Shade Klingenschatten",
+          "type": "party_member",
+          "symbol": "T",
+          "alive": true
+        }
+      },
+      "party_hp": {
+        "Grimjaw Eisenfaust": {
+          "hp": 72,
+          "hp_max": 72,
+          "alive": true,
+          "archetype": "Fighter"
+        },
+        "Sir Kael Zornesklinge": {
+          "hp": 54,
+          "hp_max": 54,
+          "alive": true,
+          "archetype": "Paladin"
+        },
+        "Bruder Mordain": {
+          "hp": 42,
+          "hp_max": 42,
+          "alive": true,
+          "archetype": "Cleric"
+        },
+        "Varn Wildtoeter": {
+          "hp": 52,
+          "hp_max": 52,
+          "alive": true,
+          "archetype": "Ranger"
+        },
+        "Pyra Flammenherz": {
+          "hp": 18,
+          "hp_max": 18,
+          "alive": true,
+          "archetype": "Mage"
+        },
+        "Shade Klingenschatten": {
+          "hp": 32,
+          "hp_max": 32,
+          "alive": true,
+          "archetype": "Thief"
+        }
+      },
+      "move_events": [
+        {
+          "entity_id": "add_train_fighter",
+          "name": "Grimjaw Eisenfaust",
+          "path": [
+            [
+              3,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "move_type": "walk"
+        },
+        {
+          "entity_id": "add_train_paladin",
+          "name": "Sir Kael Zornesklinge",
+          "path": [
+            [
+              3,
+              8
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              3,
+              6
+            ]
+          ],
+          "move_type": "walk"
+        },
+        {
+          "entity_id": "add_train_cleric",
+          "name": "Bruder Mordain",
+          "path": [
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              5,
+              4
+            ]
+          ],
+          "move_type": "walk"
+        },
+        {
+          "entity_id": "add_train_ranger",
+          "name": "Varn Wildtoeter",
+          "path": [
+            [
+              5,
+              8
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "move_type": "walk"
+        },
+        {
+          "entity_id": "add_train_mage",
+          "name": "Pyra Flammenherz",
+          "path": [
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              5,
+              4
+            ]
+          ],
+          "move_type": "walk"
+        },
+        {
+          "entity_id": "add_train_thief",
+          "name": "Shade Klingenschatten",
+          "path": [
+            [
+              5,
+              8
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "move_type": "walk"
+        }
+      ],
+      "room_terrain": [
+        [
+          "wall",
+          "wall",
+          "wall",
+          "door",
+          "wall",
+          "wall",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall"
+        ]
+      ]
+    },
+    {
+      "turn": 3,
+      "player_input": "Grimjaw Eisenfaust: Grimjaw stürmt in die große Halle vor.\nSir Kael Zornesklinge: Sir Kael folgt Grimjaw in die Halle.\nBruder Mordain: Bruder Mordain wirkt Segen auf die Gruppe.\nVarn Wildtoeter: Varn sichert die Flanken und folgt in die Halle.\nPyra Flammenherz: Pyra bereitet einen Feuerball vor und folgt.\nShade Klingenschatten: Shade beendet die Fallensuche und schleicht in die Halle.",
+      "keeper_response": "Ein widerhallendes Echo empfängt euch in der Großen Halle. Hohe, majestätische Steinsäulen ragen in die Schwärze. Dichte Spinnweben hängen wie zerrissene Banner herab.\n\nDie Reliefs an den Säulen zeigen fleißige Zwerge bei der Arbeit. Die gewaltige Feuerstelle in der Mitte ist seit Jahrzehnten kalt. Shade beendet seine Suche. Nichts Auffälliges ist ihm begegnet. Er huscht lautlos hinterher.\n\nGrimjaw und Sir Kael stürmen voran. Varn sichert die Flanken und folgt ihnen. Bruder Mordain erhebt die Stimme und ein heiliger Segen ergießt sich über euch. Pyra murmelt Beschwörungen, und eine kleine Flammenkugel tanzt in ihrer Hand.\n\nWas ist eure nächste Bewegung in der stillen Halle?\n[FERTIGKEIT_GENUTZT: Find/Remove Traps | Shade Klingenschatten]\n[ZAUBER_VERBRAUCHT: Bruder Mordain | Bless | 1]\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 815,
+      "response_sentences": 13,
+      "latency_ms": 11745.43709999125,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT",
+        "ZAUBER_VERBRAUCHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null,
+      "room_id": "eingang",
+      "room_width": 7,
+      "room_height": 15,
+      "grid_positions": {
+        "add_train_fighter": [
+          3,
+          4
+        ],
+        "add_train_paladin": [
+          3,
+          6
+        ],
+        "add_train_cleric": [
+          5,
+          4
+        ],
+        "add_train_ranger": [
+          5,
+          6
+        ],
+        "add_train_mage": [
+          5,
+          4
+        ],
+        "add_train_thief": [
+          5,
+          6
+        ]
+      },
+      "grid_entities": {
+        "add_train_fighter": {
+          "name": "Grimjaw Eisenfaust",
+          "type": "party_member",
+          "symbol": "F",
+          "alive": true
+        },
+        "add_train_paladin": {
+          "name": "Sir Kael Zornesklinge",
+          "type": "party_member",
+          "symbol": "P",
+          "alive": true
+        },
+        "add_train_cleric": {
+          "name": "Bruder Mordain",
+          "type": "party_member",
+          "symbol": "C",
+          "alive": true
+        },
+        "add_train_ranger": {
+          "name": "Varn Wildtoeter",
+          "type": "party_member",
+          "symbol": "R",
+          "alive": true
+        },
+        "add_train_mage": {
+          "name": "Pyra Flammenherz",
+          "type": "party_member",
+          "symbol": "M",
+          "alive": true
+        },
+        "add_train_thief": {
+          "name": "Shade Klingenschatten",
+          "type": "party_member",
+          "symbol": "T",
+          "alive": true
+        }
+      },
+      "party_hp": {
+        "Grimjaw Eisenfaust": {
+          "hp": 72,
+          "hp_max": 72,
+          "alive": true,
+          "archetype": "Fighter"
+        },
+        "Sir Kael Zornesklinge": {
+          "hp": 54,
+          "hp_max": 54,
+          "alive": true,
+          "archetype": "Paladin"
+        },
+        "Bruder Mordain": {
+          "hp": 42,
+          "hp_max": 42,
+          "alive": true,
+          "archetype": "Cleric"
+        },
+        "Varn Wildtoeter": {
+          "hp": 52,
+          "hp_max": 52,
+          "alive": true,
+          "archetype": "Ranger"
+        },
+        "Pyra Flammenherz": {
+          "hp": 18,
+          "hp_max": 18,
+          "alive": true,
+          "archetype": "Mage"
+        },
+        "Shade Klingenschatten": {
+          "hp": 32,
+          "hp_max": 32,
+          "alive": true,
+          "archetype": "Thief"
+        }
+      },
+      "move_events": [],
+      "room_terrain": [
+        [
+          "wall",
+          "wall",
+          "wall",
+          "door",
+          "wall",
+          "wall",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall"
+        ]
+      ]
+    },
+    {
+      "turn": 4,
+      "player_input": "Grimjaw Eisenfaust: Stürmt direkt zum nächsten Ausgang der Halle.\nSir Kael Zornesklinge: Folgt Grimjaw dicht auf den Fersen zum Ausgang.\nBruder Mordain: Eilt der Gruppe hinterher, kampfbereit.\nVarn Wildtoeter: Scannt die Halle nach dem schnellsten Weg und stößt vor.\nPyra Flammenherz: Bewegt sich schnell voran, die Flammenkugel bereit.\nShade Klingenschatten: Sucht den direktesten Weg durch die Halle und sprintet voraus.",
+      "keeper_response": "Ihr durchquert die weite Halle in raschem Tempo. Eure Schritte hallen kurz nach und verklingen. Ein schmalerer Gang öffnet sich im Osten.\n\nDer Geruch von altem Metall und feuchtem Stein wird stärker. Ihr erreicht eine alte Werkstatt. Überall liegt eine dicke Schicht Staub. Was entdeckt ihr zuerst in dieser vergessenen Kammer?\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 348,
+      "response_sentences": 7,
+      "latency_ms": 4307.240699999966,
+      "tags_found": [
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null,
+      "room_id": "eingang",
+      "room_width": 7,
+      "room_height": 15,
+      "grid_positions": {
+        "add_train_fighter": [
+          3,
+          4
+        ],
+        "add_train_paladin": [
+          3,
+          6
+        ],
+        "add_train_cleric": [
+          5,
+          4
+        ],
+        "add_train_ranger": [
+          5,
+          6
+        ],
+        "add_train_mage": [
+          5,
+          4
+        ],
+        "add_train_thief": [
+          5,
+          6
+        ]
+      },
+      "grid_entities": {
+        "add_train_fighter": {
+          "name": "Grimjaw Eisenfaust",
+          "type": "party_member",
+          "symbol": "F",
+          "alive": true
+        },
+        "add_train_paladin": {
+          "name": "Sir Kael Zornesklinge",
+          "type": "party_member",
+          "symbol": "P",
+          "alive": true
+        },
+        "add_train_cleric": {
+          "name": "Bruder Mordain",
+          "type": "party_member",
+          "symbol": "C",
+          "alive": true
+        },
+        "add_train_ranger": {
+          "name": "Varn Wildtoeter",
+          "type": "party_member",
+          "symbol": "R",
+          "alive": true
+        },
+        "add_train_mage": {
+          "name": "Pyra Flammenherz",
+          "type": "party_member",
+          "symbol": "M",
+          "alive": true
+        },
+        "add_train_thief": {
+          "name": "Shade Klingenschatten",
+          "type": "party_member",
+          "symbol": "T",
+          "alive": true
+        }
+      },
+      "party_hp": {
+        "Grimjaw Eisenfaust": {
+          "hp": 72,
+          "hp_max": 72,
+          "alive": true,
+          "archetype": "Fighter"
+        },
+        "Sir Kael Zornesklinge": {
+          "hp": 54,
+          "hp_max": 54,
+          "alive": true,
+          "archetype": "Paladin"
+        },
+        "Bruder Mordain": {
+          "hp": 42,
+          "hp_max": 42,
+          "alive": true,
+          "archetype": "Cleric"
+        },
+        "Varn Wildtoeter": {
+          "hp": 52,
+          "hp_max": 52,
+          "alive": true,
+          "archetype": "Ranger"
+        },
+        "Pyra Flammenherz": {
+          "hp": 18,
+          "hp_max": 18,
+          "alive": true,
+          "archetype": "Mage"
+        },
+        "Shade Klingenschatten": {
+          "hp": 32,
+          "hp_max": 32,
+          "alive": true,
+          "archetype": "Thief"
+        }
+      },
+      "move_events": [],
+      "room_terrain": [
+        [
+          "wall",
+          "wall",
+          "wall",
+          "door",
+          "wall",
+          "wall",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall"
+        ]
+      ]
+    },
+    {
+      "turn": 5,
+      "player_input": "Grimjaw Eisenfaust: Stürmt voran in den nächsten Bereich.\nSir Kael Zornesklinge: Folgt Grimjaw entschlossen in den nächsten Gang.\nBruder Mordain: Marschiert zielstrebig in den nächsten Raum.\nVarn Wildtoeter: Dringt mit gezogener Waffe weiter vor.\nPyra Flammenherz: Begibt sich kampfbereit in den nächsten Raum.\nShade Klingenschatten: Sucht schnell nach Fallen und huscht dann weiter.",
+      "keeper_response": "Der Raum der alten Werkstatt riecht nach kalter Asche und verrostetem Eisen. Ein massiver Amboss thront in der Mitte. Werkzeuge rosten an den Wänden.\n\nÜberall liegt eine dicke, ungestörte Staubschicht. Die Wände sind hier glatt und ungebrochen. Shade sucht flink nach verborgenen Gefahren.\n[PROBE: Find/Remove Traps | 65 | Shade Klingenschatten]\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 366,
+      "response_sentences": 6,
+      "latency_ms": 12828.137399992556,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null,
+      "room_id": "werkstatt",
+      "room_width": 15,
+      "room_height": 9,
+      "grid_positions": {
+        "add_train_fighter": [
+          11,
+          3
+        ],
+        "add_train_paladin": [
+          11,
+          5
+        ],
+        "add_train_cleric": [
+          9,
+          3
+        ],
+        "add_train_ranger": [
+          9,
+          5
+        ],
+        "add_train_mage": [
+          7,
+          3
+        ],
+        "add_train_thief": [
+          7,
+          5
+        ]
+      },
+      "grid_entities": {
+        "add_train_fighter": {
+          "name": "Grimjaw Eisenfaust",
+          "type": "party_member",
+          "symbol": "F",
+          "alive": true
+        },
+        "add_train_paladin": {
+          "name": "Sir Kael Zornesklinge",
+          "type": "party_member",
+          "symbol": "P",
+          "alive": true
+        },
+        "add_train_cleric": {
+          "name": "Bruder Mordain",
+          "type": "party_member",
+          "symbol": "C",
+          "alive": true
+        },
+        "add_train_ranger": {
+          "name": "Varn Wildtoeter",
+          "type": "party_member",
+          "symbol": "R",
+          "alive": true
+        },
+        "add_train_mage": {
+          "name": "Pyra Flammenherz",
+          "type": "party_member",
+          "symbol": "M",
+          "alive": true
+        },
+        "add_train_thief": {
+          "name": "Shade Klingenschatten",
+          "type": "party_member",
+          "symbol": "T",
+          "alive": true
+        }
+      },
+      "party_hp": {
+        "Grimjaw Eisenfaust": {
+          "hp": 72,
+          "hp_max": 72,
+          "alive": true,
+          "archetype": "Fighter"
+        },
+        "Sir Kael Zornesklinge": {
+          "hp": 54,
+          "hp_max": 54,
+          "alive": true,
+          "archetype": "Paladin"
+        },
+        "Bruder Mordain": {
+          "hp": 42,
+          "hp_max": 42,
+          "alive": true,
+          "archetype": "Cleric"
+        },
+        "Varn Wildtoeter": {
+          "hp": 52,
+          "hp_max": 52,
+          "alive": true,
+          "archetype": "Ranger"
+        },
+        "Pyra Flammenherz": {
+          "hp": 18,
+          "hp_max": 18,
+          "alive": true,
+          "archetype": "Mage"
+        },
+        "Shade Klingenschatten": {
+          "hp": 32,
+          "hp_max": 32,
+          "alive": true,
+          "archetype": "Thief"
+        }
+      },
+      "move_events": [
+        {
+          "entity_id": "add_train_fighter",
+          "name": "Grimjaw Eisenfaust",
+          "path": [
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              4
+            ]
+          ],
+          "move_type": "walk"
+        },
+        {
+          "entity_id": "add_train_paladin",
+          "name": "Sir Kael Zornesklinge",
+          "path": [
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "move_type": "walk"
+        },
+        {
+          "entity_id": "add_train_cleric",
+          "name": "Bruder Mordain",
+          "path": [
+            [
+              5,
+              4
+            ]
+          ],
+          "move_type": "walk"
+        },
+        {
+          "entity_id": "add_train_ranger",
+          "name": "Varn Wildtoeter",
+          "path": [
+            [
+              5,
+              6
+            ]
+          ],
+          "move_type": "walk"
+        },
+        {
+          "entity_id": "add_train_mage",
+          "name": "Pyra Flammenherz",
+          "path": [
+            [
+              5,
+              4
+            ]
+          ],
+          "move_type": "walk"
+        },
+        {
+          "entity_id": "add_train_thief",
+          "name": "Shade Klingenschatten",
+          "path": [
+            [
+              5,
+              6
+            ]
+          ],
+          "move_type": "walk"
+        },
+        {
+          "entity_id": "add_train_fighter",
+          "name": "Grimjaw Eisenfaust",
+          "path": [
+            [
+              9,
+              11
+            ],
+            [
+              10,
+              11
+            ],
+            [
+              11,
+              11
+            ]
+          ],
+          "move_type": "walk"
+        },
+        {
+          "entity_id": "add_train_paladin",
+          "name": "Sir Kael Zornesklinge",
+          "path": [
+            [
+              11,
+              11
+            ],
+            [
+              12,
+              11
+            ],
+            [
+              13,
+              11
+            ]
+          ],
+          "move_type": "walk"
+        },
+        {
+          "entity_id": "add_train_cleric",
+          "name": "Bruder Mordain",
+          "path": [
+            [
+              9,
+              9
+            ],
+            [
+              10,
+              9
+            ],
+            [
+              11,
+              9
+            ]
+          ],
+          "move_type": "walk"
+        },
+        {
+          "entity_id": "add_train_ranger",
+          "name": "Varn Wildtoeter",
+          "path": [
+            [
+              11,
+              9
+            ],
+            [
+              12,
+              9
+            ],
+            [
+              13,
+              9
+            ]
+          ],
+          "move_type": "walk"
+        },
+        {
+          "entity_id": "add_train_mage",
+          "name": "Pyra Flammenherz",
+          "path": [
+            [
+              9,
+              7
+            ],
+            [
+              10,
+              7
+            ],
+            [
+              11,
+              7
+            ]
+          ],
+          "move_type": "walk"
+        },
+        {
+          "entity_id": "add_train_thief",
+          "name": "Shade Klingenschatten",
+          "path": [
+            [
+              11,
+              7
+            ],
+            [
+              12,
+              7
+            ],
+            [
+              13,
+              7
+            ]
+          ],
+          "move_type": "walk"
+        }
+      ],
+      "room_terrain": [
+        [
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "door"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall"
+        ]
+      ]
+    },
+    {
+      "turn": 6,
+      "player_input": "Grimjaw Eisenfaust: Sucht aggressiv nach dem nächsten Ausgang aus der Werkstatt.\nSir Kael Zornesklinge: Drängt voran, um den nächsten Weg zu erkunden.\nBruder Mordain: Folgt der Gruppe und macht sich bereit für den Kampf.\nVarn Wildtoeter: Hält Ausschau nach dem nächsten Gang und sichert die Flanken.\nPyra Flammenherz: Scannt den Raum nach magischen Spuren oder dem nächsten Durchgang.\nShade Klingenschatten: Beendet seine Fallensuche und sucht den nächsten Ausgang.",
+      "keeper_response": "Die Stille der Werkstatt wird nur vom leisen Knistern des Staubes gestört. Shade Klingenschatten findet keine Anzeichen von Fallen. Er atmet leise aus.\n\nDie Wände dieses Raumes sind massiv. Sie zeigen keinerlei Spuren weiterer Gänge. Die Luft riecht schwer nach vergangenem Eisen. Pyra spürt keine magischen Energien in der Stille.\n\nWas fängt eure Aufmerksamkeit in dieser verlassenen Kammer?\n[FERTIGKEIT_GENUTZT: Find/Remove Traps | Shade Klingenschatten]\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 477,
+      "response_sentences": 8,
+      "latency_ms": 5849.893000005977,
+      "tags_found": [
+        "FERTIGKEIT_GENUTZT",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null,
+      "room_id": "werkstatt",
+      "room_width": 15,
+      "room_height": 9,
+      "grid_positions": {
+        "add_train_fighter": [
+          11,
+          3
+        ],
+        "add_train_paladin": [
+          11,
+          5
+        ],
+        "add_train_cleric": [
+          9,
+          3
+        ],
+        "add_train_ranger": [
+          9,
+          5
+        ],
+        "add_train_mage": [
+          7,
+          3
+        ],
+        "add_train_thief": [
+          7,
+          5
+        ]
+      },
+      "grid_entities": {
+        "add_train_fighter": {
+          "name": "Grimjaw Eisenfaust",
+          "type": "party_member",
+          "symbol": "F",
+          "alive": true
+        },
+        "add_train_paladin": {
+          "name": "Sir Kael Zornesklinge",
+          "type": "party_member",
+          "symbol": "P",
+          "alive": true
+        },
+        "add_train_cleric": {
+          "name": "Bruder Mordain",
+          "type": "party_member",
+          "symbol": "C",
+          "alive": true
+        },
+        "add_train_ranger": {
+          "name": "Varn Wildtoeter",
+          "type": "party_member",
+          "symbol": "R",
+          "alive": true
+        },
+        "add_train_mage": {
+          "name": "Pyra Flammenherz",
+          "type": "party_member",
+          "symbol": "M",
+          "alive": true
+        },
+        "add_train_thief": {
+          "name": "Shade Klingenschatten",
+          "type": "party_member",
+          "symbol": "T",
+          "alive": true
+        }
+      },
+      "party_hp": {
+        "Grimjaw Eisenfaust": {
+          "hp": 72,
+          "hp_max": 72,
+          "alive": true,
+          "archetype": "Fighter"
+        },
+        "Sir Kael Zornesklinge": {
+          "hp": 54,
+          "hp_max": 54,
+          "alive": true,
+          "archetype": "Paladin"
+        },
+        "Bruder Mordain": {
+          "hp": 42,
+          "hp_max": 42,
+          "alive": true,
+          "archetype": "Cleric"
+        },
+        "Varn Wildtoeter": {
+          "hp": 52,
+          "hp_max": 52,
+          "alive": true,
+          "archetype": "Ranger"
+        },
+        "Pyra Flammenherz": {
+          "hp": 18,
+          "hp_max": 18,
+          "alive": true,
+          "archetype": "Mage"
+        },
+        "Shade Klingenschatten": {
+          "hp": 32,
+          "hp_max": 32,
+          "alive": true,
+          "archetype": "Thief"
+        }
+      },
+      "move_events": [],
+      "room_terrain": [
+        [
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "door"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall"
+        ]
+      ]
+    },
+    {
+      "turn": 7,
+      "player_input": "Grimjaw Eisenfaust: Schlägt mit seiner Axt auf die Wände, um hohle Stellen oder Schwachpunkte zu finden.\nSir Kael Zornesklinge: Untersucht die Wände und den Boden akribisch nach verborgenen Mechanismen oder Schaltern.\nBruder Mordain: Betet um göttliche Führung und sucht gleichzeitig nach einem geheimen Durchgang in den Wänden.\nVarn Wildtoeter: Prüft die Stabilität der Wände und sucht nach versteckten Felsspalten oder Durchgängen.\nPyra Flammenherz: Wirkt einen Zauber, um die Wände auf magische oder strukturelle Schwachstellen zu scannen.\nShade Klingenschatten: Untersucht die Wände und den Boden nach verborgenen Türen, Hebeln oder Platten.",
+      "keeper_response": "Ein dumpfes Geräusch hallt von den Steinwänden. Grimjaw schlägt kraftvoll mit seiner Axt. Der Fels bleibt unnachgiebig. Sir Kael und Varn untersuchen jede Ritze. Bruder Mordain murmelt ein Gebet, während er die Oberfläche abtastet. Pyra spürt keine magischen Schwingungen im alten Gestein.\n\nShade hingegen konzentriert sich auf die verrosteten Werkbänke. Er bemerkt eine kleine, unscheinbare Schublade.\n[PROBE: Find/Remove Traps | 65 | Shade Klingenschatten]\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 479,
+      "response_sentences": 8,
+      "latency_ms": 13471.430000005057,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null,
+      "room_id": "werkstatt",
+      "room_width": 15,
+      "room_height": 9,
+      "grid_positions": {
+        "add_train_fighter": [
+          13,
+          3
+        ],
+        "add_train_paladin": [
+          13,
+          5
+        ],
+        "add_train_cleric": [
+          11,
+          3
+        ],
+        "add_train_ranger": [
+          11,
+          5
+        ],
+        "add_train_mage": [
+          9,
+          3
+        ],
+        "add_train_thief": [
+          9,
+          5
+        ]
+      },
+      "grid_entities": {
+        "add_train_fighter": {
+          "name": "Grimjaw Eisenfaust",
+          "type": "party_member",
+          "symbol": "F",
+          "alive": true
+        },
+        "add_train_paladin": {
+          "name": "Sir Kael Zornesklinge",
+          "type": "party_member",
+          "symbol": "P",
+          "alive": true
+        },
+        "add_train_cleric": {
+          "name": "Bruder Mordain",
+          "type": "party_member",
+          "symbol": "C",
+          "alive": true
+        },
+        "add_train_ranger": {
+          "name": "Varn Wildtoeter",
+          "type": "party_member",
+          "symbol": "R",
+          "alive": true
+        },
+        "add_train_mage": {
+          "name": "Pyra Flammenherz",
+          "type": "party_member",
+          "symbol": "M",
+          "alive": true
+        },
+        "add_train_thief": {
+          "name": "Shade Klingenschatten",
+          "type": "party_member",
+          "symbol": "T",
+          "alive": true
+        }
+      },
+      "party_hp": {
+        "Grimjaw Eisenfaust": {
+          "hp": 72,
+          "hp_max": 72,
+          "alive": true,
+          "archetype": "Fighter"
+        },
+        "Sir Kael Zornesklinge": {
+          "hp": 54,
+          "hp_max": 54,
+          "alive": true,
+          "archetype": "Paladin"
+        },
+        "Bruder Mordain": {
+          "hp": 42,
+          "hp_max": 42,
+          "alive": true,
+          "archetype": "Cleric"
+        },
+        "Varn Wildtoeter": {
+          "hp": 52,
+          "hp_max": 52,
+          "alive": true,
+          "archetype": "Ranger"
+        },
+        "Pyra Flammenherz": {
+          "hp": 18,
+          "hp_max": 18,
+          "alive": true,
+          "archetype": "Mage"
+        },
+        "Shade Klingenschatten": {
+          "hp": 32,
+          "hp_max": 32,
+          "alive": true,
+          "archetype": "Thief"
+        }
+      },
+      "move_events": [
+        {
+          "entity_id": "add_train_fighter",
+          "name": "Grimjaw Eisenfaust",
+          "path": [
+            [
+              11,
+              3
+            ],
+            [
+              12,
+              3
+            ],
+            [
+              13,
+              3
+            ]
+          ],
+          "move_type": "walk"
+        },
+        {
+          "entity_id": "add_train_paladin",
+          "name": "Sir Kael Zornesklinge",
+          "path": [
+            [
+              11,
+              5
+            ],
+            [
+              12,
+              5
+            ],
+            [
+              13,
+              5
+            ]
+          ],
+          "move_type": "walk"
+        },
+        {
+          "entity_id": "add_train_cleric",
+          "name": "Bruder Mordain",
+          "path": [
+            [
+              9,
+              3
+            ],
+            [
+              10,
+              3
+            ],
+            [
+              11,
+              3
+            ]
+          ],
+          "move_type": "walk"
+        },
+        {
+          "entity_id": "add_train_ranger",
+          "name": "Varn Wildtoeter",
+          "path": [
+            [
+              9,
+              5
+            ],
+            [
+              10,
+              5
+            ],
+            [
+              11,
+              5
+            ]
+          ],
+          "move_type": "walk"
+        },
+        {
+          "entity_id": "add_train_mage",
+          "name": "Pyra Flammenherz",
+          "path": [
+            [
+              7,
+              3
+            ],
+            [
+              8,
+              3
+            ],
+            [
+              9,
+              3
+            ]
+          ],
+          "move_type": "walk"
+        },
+        {
+          "entity_id": "add_train_thief",
+          "name": "Shade Klingenschatten",
+          "path": [
+            [
+              7,
+              5
+            ],
+            [
+              8,
+              5
+            ],
+            [
+              9,
+              5
+            ]
+          ],
+          "move_type": "walk"
+        }
+      ],
+      "room_terrain": [
+        [
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "door"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall"
+        ]
+      ]
+    },
+    {
+      "turn": 8,
+      "player_input": "Grimjaw Eisenfaust: Grimjaw schlägt erneut auf eine andere Stelle der Wand ein, um einen Durchbruch zu erzwingen.\nSir Kael Zornesklinge: Sir Kael versucht, eine lose Steinplatte in der Wand mit seinem Schwert aufzubrechen.\nBruder Mordain: Bruder Mordain murmelt ein Gebet des Segens, um die Gruppe auf bevorstehende Gefahren vorzubereiten.\nVarn Wildtoeter: Varn sucht aggressiv nach einem Hebel oder Mechanismus, der einen geheimen Durchgang öffnen könnte.\nPyra Flammenherz: Pyra bereitet einen Feuerball vor, um ihn auf die schwächste Stelle der Wand zu schleudern, sollte sich keine andere Tür finden lassen.\nShade Klingenschatten: Shade versucht die Schublade schnell aufzubrechen, um ihren Inhalt zu plündern und weiterzukommen.",
+      "keeper_response": "Ein weiteres Mal durchdringt der Klang von Metall auf Stein die modrige Luft. Grimjaws Axt trifft nur auf massiven Fels. Sir Kaels Schwert gleitet von der glatten Wand. Varn findet keine Hebel.\n\nPyras Flammenkugel flackert geduldig in ihrer Hand. Bruder Mordain spricht erneut einen Segen. Shade findet keine Fallen an der Schublade. Er konzentriert sich nun darauf, sie zu öffnen.\n[ZAUBER_VERBRAUCHT: Bruder Mordain | Bless | 1]\n[PROBE: Open Locks | 70 | Shade Klingenschatten]\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 499,
+      "response_sentences": 8,
+      "latency_ms": 14418.287399996188,
+      "tags_found": [
+        "PROBE",
+        "ZEIT_VERGEHT",
+        "ZAUBER_VERBRAUCHT"
+      ],
+      "probes": 1,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null,
+      "room_id": "werkstatt",
+      "room_width": 15,
+      "room_height": 9,
+      "grid_positions": {
+        "add_train_fighter": [
+          13,
+          3
+        ],
+        "add_train_paladin": [
+          13,
+          5
+        ],
+        "add_train_cleric": [
+          11,
+          3
+        ],
+        "add_train_ranger": [
+          11,
+          5
+        ],
+        "add_train_mage": [
+          9,
+          3
+        ],
+        "add_train_thief": [
+          9,
+          5
+        ]
+      },
+      "grid_entities": {
+        "add_train_fighter": {
+          "name": "Grimjaw Eisenfaust",
+          "type": "party_member",
+          "symbol": "F",
+          "alive": true
+        },
+        "add_train_paladin": {
+          "name": "Sir Kael Zornesklinge",
+          "type": "party_member",
+          "symbol": "P",
+          "alive": true
+        },
+        "add_train_cleric": {
+          "name": "Bruder Mordain",
+          "type": "party_member",
+          "symbol": "C",
+          "alive": true
+        },
+        "add_train_ranger": {
+          "name": "Varn Wildtoeter",
+          "type": "party_member",
+          "symbol": "R",
+          "alive": true
+        },
+        "add_train_mage": {
+          "name": "Pyra Flammenherz",
+          "type": "party_member",
+          "symbol": "M",
+          "alive": true
+        },
+        "add_train_thief": {
+          "name": "Shade Klingenschatten",
+          "type": "party_member",
+          "symbol": "T",
+          "alive": true
+        }
+      },
+      "party_hp": {
+        "Grimjaw Eisenfaust": {
+          "hp": 72,
+          "hp_max": 72,
+          "alive": true,
+          "archetype": "Fighter"
+        },
+        "Sir Kael Zornesklinge": {
+          "hp": 54,
+          "hp_max": 54,
+          "alive": true,
+          "archetype": "Paladin"
+        },
+        "Bruder Mordain": {
+          "hp": 42,
+          "hp_max": 42,
+          "alive": true,
+          "archetype": "Cleric"
+        },
+        "Varn Wildtoeter": {
+          "hp": 52,
+          "hp_max": 52,
+          "alive": true,
+          "archetype": "Ranger"
+        },
+        "Pyra Flammenherz": {
+          "hp": 18,
+          "hp_max": 18,
+          "alive": true,
+          "archetype": "Mage"
+        },
+        "Shade Klingenschatten": {
+          "hp": 32,
+          "hp_max": 32,
+          "alive": true,
+          "archetype": "Thief"
+        }
+      },
+      "move_events": [],
+      "room_terrain": [
+        [
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "door"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall"
+        ]
+      ]
+    },
+    {
+      "turn": 9,
+      "player_input": "Grimjaw Eisenfaust: Grimjaw schlägt die Schublade mit seiner Axt auf.\nSir Kael Zornesklinge: Sir Kael sucht aggressiv nach weiteren, versteckten Mechanismen an den Wänden.\nBruder Mordain: Bruder Mordain ruft einen göttlichen Zorn herbei, um die massiven Wände zu erschüttern.\nVarn Wildtoeter: Varn schießt einen Pfeil auf eine verdächtig aussehende Stelle an der Wand, um sie zu testen.\nPyra Flammenherz: Pyra entfesselt einen Feuerball auf die Wand, um einen Durchgang zu schaffen.\nShade Klingenschatten: Shade versucht mit aller Kraft, die Schublade aufzubrechen.",
+      "keeper_response": "Grimjaws Axt trifft die alte Schublade mit roher Gewalt. Holz splittert, der Mechanismus gibt ächzend nach. Eine aufgerollte Pergamentrolle liegt darin.\n[INVENTAR: Alte Minenkarte | gefunden]\nSir Kael und Varn suchen vergebens. Bruder Mordains Gebet hallt wirkungslos. Pyras Feuerball hinterlässt nur einen verbrannten Fleck an der Wand. Was tut ihr als Nächstes?\n[ZAUBER_VERBRAUCHT: Bruder Mordain | Prayer | 3]\n[ZAUBER_VERBRAUCHT: Pyra Flammenherz | Fireball | 3]\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 486,
+      "response_sentences": 7,
+      "latency_ms": 8440.886299998965,
+      "tags_found": [
+        "INVENTAR",
+        "ZEIT_VERGEHT",
+        "ZAUBER_VERBRAUCHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 1,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null,
+      "room_id": "werkstatt",
+      "room_width": 15,
+      "room_height": 9,
+      "grid_positions": {
+        "add_train_fighter": [
+          13,
+          3
+        ],
+        "add_train_paladin": [
+          13,
+          5
+        ],
+        "add_train_cleric": [
+          11,
+          3
+        ],
+        "add_train_ranger": [
+          11,
+          5
+        ],
+        "add_train_mage": [
+          9,
+          3
+        ],
+        "add_train_thief": [
+          9,
+          5
+        ]
+      },
+      "grid_entities": {
+        "add_train_fighter": {
+          "name": "Grimjaw Eisenfaust",
+          "type": "party_member",
+          "symbol": "F",
+          "alive": true
+        },
+        "add_train_paladin": {
+          "name": "Sir Kael Zornesklinge",
+          "type": "party_member",
+          "symbol": "P",
+          "alive": true
+        },
+        "add_train_cleric": {
+          "name": "Bruder Mordain",
+          "type": "party_member",
+          "symbol": "C",
+          "alive": true
+        },
+        "add_train_ranger": {
+          "name": "Varn Wildtoeter",
+          "type": "party_member",
+          "symbol": "R",
+          "alive": true
+        },
+        "add_train_mage": {
+          "name": "Pyra Flammenherz",
+          "type": "party_member",
+          "symbol": "M",
+          "alive": true
+        },
+        "add_train_thief": {
+          "name": "Shade Klingenschatten",
+          "type": "party_member",
+          "symbol": "T",
+          "alive": true
+        }
+      },
+      "party_hp": {
+        "Grimjaw Eisenfaust": {
+          "hp": 72,
+          "hp_max": 72,
+          "alive": true,
+          "archetype": "Fighter"
+        },
+        "Sir Kael Zornesklinge": {
+          "hp": 54,
+          "hp_max": 54,
+          "alive": true,
+          "archetype": "Paladin"
+        },
+        "Bruder Mordain": {
+          "hp": 42,
+          "hp_max": 42,
+          "alive": true,
+          "archetype": "Cleric"
+        },
+        "Varn Wildtoeter": {
+          "hp": 52,
+          "hp_max": 52,
+          "alive": true,
+          "archetype": "Ranger"
+        },
+        "Pyra Flammenherz": {
+          "hp": 18,
+          "hp_max": 18,
+          "alive": true,
+          "archetype": "Mage"
+        },
+        "Shade Klingenschatten": {
+          "hp": 32,
+          "hp_max": 32,
+          "alive": true,
+          "archetype": "Thief"
+        }
+      },
+      "move_events": [],
+      "room_terrain": [
+        [
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "door"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall"
+        ]
+      ]
+    },
+    {
+      "turn": 10,
+      "player_input": "Grimjaw Eisenfaust: Schlägt mit seiner Axt auf eine vielversprechende Stelle der Wand ein.\nSir Kael Zornesklinge: Hilft Grimjaw, die Wand mit seinem Schwert und Schild zu bearbeiten.\nBruder Mordain: Spricht einen Segen (Bless) über die Gruppe, um sie für kommende Gefahren zu stärken.\nVarn Wildtoeter: Sucht gezielt nach einem geheimen Durchgang in den Wänden.\nPyra Flammenherz: Wirkt einen Blitzschlag auf eine dicke Wand, in der Hoffnung, einen Durchbruch zu erzwingen.\nShade Klingenschatten: Sucht an den Wänden und am Boden nach Fallen oder versteckten Türen.",
+      "keeper_response": "Grimjaws Axt prallt lautstark vom massiven Stein ab. Sir Kaels Versuche, die Wand zu bearbeiten, sind ebenso fruchtlos. Varn findet keine verborgenen Gänge. Pyras Blitzschlag erhellt die Kammer nur kurz, der Fels bleibt unversehrt.\n[ZAUBER_VERBRAUCHT: Pyra Flammenherz | Lightning Bolt | 3]\nBruder Mordain spricht einen Segen über die Gruppe. Shade entrollt die alte Pergamentkarte. Sie zeigt ein einfaches Layout der Mine mit fünf Räumen: den Eingang, die große Halle, diese Werkstatt, einen Brunnenraum und einen Ausgang im Süden. Nun wisst ihr, wo ihr seid.\n\nWas ist euer nächster Schritt in dieser alten Zwergenwerkstatt?\n[ZAUBER_VERBRAUCHT: Bruder Mordain | Bless | 1]\n[ZEIT_VERGEHT: 0.5h]",
+      "response_chars": 694,
+      "response_sentences": 9,
+      "latency_ms": 2108.4416000085184,
+      "tags_found": [
+        "ZEIT_VERGEHT",
+        "ZAUBER_VERBRAUCHT"
+      ],
+      "probes": 0,
+      "stat_changes": 0,
+      "combat_tags": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": [],
+      "error": null,
+      "room_id": "werkstatt",
+      "room_width": 15,
+      "room_height": 9,
+      "grid_positions": {
+        "add_train_fighter": [
+          13,
+          3
+        ],
+        "add_train_paladin": [
+          13,
+          5
+        ],
+        "add_train_cleric": [
+          11,
+          3
+        ],
+        "add_train_ranger": [
+          11,
+          5
+        ],
+        "add_train_mage": [
+          9,
+          3
+        ],
+        "add_train_thief": [
+          9,
+          5
+        ]
+      },
+      "grid_entities": {
+        "add_train_fighter": {
+          "name": "Grimjaw Eisenfaust",
+          "type": "party_member",
+          "symbol": "F",
+          "alive": true
+        },
+        "add_train_paladin": {
+          "name": "Sir Kael Zornesklinge",
+          "type": "party_member",
+          "symbol": "P",
+          "alive": true
+        },
+        "add_train_cleric": {
+          "name": "Bruder Mordain",
+          "type": "party_member",
+          "symbol": "C",
+          "alive": true
+        },
+        "add_train_ranger": {
+          "name": "Varn Wildtoeter",
+          "type": "party_member",
+          "symbol": "R",
+          "alive": true
+        },
+        "add_train_mage": {
+          "name": "Pyra Flammenherz",
+          "type": "party_member",
+          "symbol": "M",
+          "alive": true
+        },
+        "add_train_thief": {
+          "name": "Shade Klingenschatten",
+          "type": "party_member",
+          "symbol": "T",
+          "alive": true
+        }
+      },
+      "party_hp": {
+        "Grimjaw Eisenfaust": {
+          "hp": 72,
+          "hp_max": 72,
+          "alive": true,
+          "archetype": "Fighter"
+        },
+        "Sir Kael Zornesklinge": {
+          "hp": 54,
+          "hp_max": 54,
+          "alive": true,
+          "archetype": "Paladin"
+        },
+        "Bruder Mordain": {
+          "hp": 42,
+          "hp_max": 42,
+          "alive": true,
+          "archetype": "Cleric"
+        },
+        "Varn Wildtoeter": {
+          "hp": 52,
+          "hp_max": 52,
+          "alive": true,
+          "archetype": "Ranger"
+        },
+        "Pyra Flammenherz": {
+          "hp": 18,
+          "hp_max": 18,
+          "alive": true,
+          "archetype": "Mage"
+        },
+        "Shade Klingenschatten": {
+          "hp": 32,
+          "hp_max": 32,
+          "alive": true,
+          "archetype": "Thief"
+        }
+      },
+      "move_events": [],
+      "room_terrain": [
+        [
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "door"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall"
+        ]
+      ]
+    }
+  ],
+  "tokens": {
+    "prompt_tokens": 134764,
+    "cached_tokens": 96160,
+    "output_tokens": 1472,
+    "think_tokens": 9113,
+    "total_cost_usd": 0.040928
+  },
+  "tag_breakdown": {
+    "ZEIT_VERGEHT": 10,
+    "PROBE": 4,
+    "FERTIGKEIT_GENUTZT": 2,
+    "ZAUBER_VERBRAUCHT": 6,
+    "INVENTAR": 1
+  },
+  "tag_density": 2.3,
+  "player_bot_tokens": {
+    "prompt_tokens": 9415,
+    "output_tokens": 1256,
+    "total_cost_usd": 0.005964
+  }
+}

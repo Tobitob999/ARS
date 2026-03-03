@@ -46,6 +46,7 @@ INVENTAR_PATTERN = re.compile(
 ZEIT_PATTERN = re.compile(r"\[ZEIT_VERGEHT:\s*([\d.]+)h?\s*\]", re.IGNORECASE)
 TAGESZEIT_PATTERN = re.compile(r"\[TAGESZEIT:\s*(\d{1,2}):(\d{2})\s*\]", re.IGNORECASE)
 WETTER_PATTERN = re.compile(r"\[WETTER:\s*([^\]]+)\s*\]", re.IGNORECASE)
+RUNDE_PATTERN = re.compile(r"\[RUNDE:\s*(\d+)\s*\]", re.IGNORECASE)
 
 # AD&D 2e Kampf-Tags
 ANGRIFF_PATTERN = re.compile(
@@ -78,6 +79,14 @@ PARTY_INVENTAR_PATTERN = re.compile(
     r"\[INVENTAR:\s*([^\|]+)\|\s*(gefunden|verloren|gekauft|verkauft)\s*\|\s*([^\]]+)\s*\]",
     re.IGNORECASE,
 )
+# [FERTIGKEIT_GENUTZT: Move Silently | Lyra]
+PARTY_FERTIGKEIT_PATTERN = re.compile(
+    r"\[FERTIGKEIT_GENUTZT:\s*([^\|]+)\|\s*([^\]]+)\s*\]", re.IGNORECASE,
+)
+# [GEGENSTAND_BENUTZT: Potion of Healing | Bruder Aldhelm]
+PARTY_ITEM_USED_PATTERN = re.compile(
+    r"\[GEGENSTAND_BENUTZT:\s*([^\|]+)\|\s*([^\]]+)\s*\]", re.IGNORECASE,
+)
 # [PROBE: Fallen-Suchen | 45 | Lyra]
 PARTY_PROBE_PATTERN = re.compile(
     r"\[PROBE:\s*([^\|]+)\|\s*(\d+)\s*\|\s*([^\]]+)\s*\]",
@@ -99,6 +108,8 @@ def extract_party_stat_changes(text: str) -> list[tuple[str, ...]]:
       ("HP_HEILUNG", char_name, amount_str)
       ("ZAUBER_VERBRAUCHT", char_name, spell_name, level_str)
       ("INVENTAR", item_name, action, char_name)
+      ("FERTIGKEIT_GENUTZT", skill_name, char_name)
+      ("GEGENSTAND_BENUTZT", item_name, char_name)
       ("PROBE", skill_name, target_str, char_name)
       ("ANGRIFF", weapon, thac0, ac, mod, char_name)
 
@@ -127,6 +138,20 @@ def extract_party_stat_changes(text: str) -> list[tuple[str, ...]]:
             m.group(1).strip(),
             m.group(2).strip().lower(),
             m.group(3).strip(),
+        ))
+
+    for m in PARTY_FERTIGKEIT_PATTERN.finditer(text):
+        results.append((
+            "FERTIGKEIT_GENUTZT",
+            m.group(1).strip(),
+            m.group(2).strip(),
+        ))
+
+    for m in PARTY_ITEM_USED_PATTERN.finditer(text):
+        results.append((
+            "GEGENSTAND_BENUTZT",
+            m.group(1).strip(),
+            m.group(2).strip(),
         ))
 
     for m in PARTY_PROBE_PATTERN.finditer(text):
@@ -221,6 +246,8 @@ def extract_time_changes(text: str) -> list[tuple[str, str | tuple[int, int]]]:
         results.append(("TAGESZEIT", (int(m.group(1)), int(m.group(2)))))
     for m in WETTER_PATTERN.finditer(text):
         results.append(("WETTER", m.group(1).strip()))
+    for m in RUNDE_PATTERN.finditer(text):
+        results.append(("RUNDE", m.group(1)))
     return results
 
 
@@ -268,13 +295,40 @@ class CharacterManager:
         self._conn: sqlite3.Connection | None = None
 
     # ------------------------------------------------------------------
+    # DB Safety
+    # ------------------------------------------------------------------
+
+    def _safe_commit(self, context: str = "unknown") -> bool:
+        """
+        Fuehrt _conn.commit() mit Retry-Logik aus (3 Versuche, 0.2s Pause).
+        Schuetzt gegen 'database is locked' bei konkurrierenden Schreibzugriffen.
+        Returns True bei Erfolg, False bei Fehlschlag.
+        """
+        import time as _t
+        for attempt in range(3):
+            try:
+                self._conn.commit()
+                return True
+            except sqlite3.OperationalError as exc:
+                if "locked" in str(exc) and attempt < 2:
+                    logger.warning(
+                        "DB locked bei %s (Versuch %d/3) — warte 0.2s",
+                        context, attempt + 1,
+                    )
+                    _t.sleep(0.2)
+                else:
+                    logger.error("DB-Fehler bei %s: %s", context, exc)
+                    return False
+        return False
+
+    # ------------------------------------------------------------------
     # Lifecycle
     # ------------------------------------------------------------------
 
     def connect(self) -> None:
         """Oeffnet die DB-Verbindung und stellt sicher dass das Schema existiert."""
         DB_PATH.parent.mkdir(parents=True, exist_ok=True)
-        self._conn = sqlite3.connect(str(DB_PATH), check_same_thread=False)
+        self._conn = sqlite3.connect(str(DB_PATH), check_same_thread=False, timeout=10.0)
         self._conn.row_factory = sqlite3.Row
         self._ensure_schema()
 
@@ -479,7 +533,7 @@ class CharacterManager:
                 ),
             )
             self._char_id = cur.lastrowid
-            self._conn.commit()
+            self._safe_commit("save/insert")
             logger.debug("Charakter neu erstellt (ID=%d).", self._char_id)
         else:
             self._conn.execute(
@@ -498,7 +552,7 @@ class CharacterManager:
                     self._char_id,
                 ),
             )
-            self._conn.commit()
+            self._safe_commit("save/update")
             logger.debug("Charakter gespeichert (ID=%d).", self._char_id)
 
     def start_session(self) -> int:
@@ -514,7 +568,7 @@ class CharacterManager:
                VALUES (?, ?, ?, ?)""",
             (self._module, self._char_id, now, now),
         )
-        self._conn.commit()
+        self._safe_commit("start_session")
         session_id = cur.lastrowid
         logger.info("Session in DB angelegt (ID=%d).", session_id)
         return session_id
@@ -549,7 +603,7 @@ class CharacterManager:
             "UPDATE sessions SET last_active = ? WHERE id = ?",
             (now, session_id),
         )
-        self._conn.commit()
+        self._safe_commit("log_turn")
 
     def get_conn(self) -> sqlite3.Connection | None:
         """Gibt die interne DB-Verbindung zurueck (fuer Archivist-Sharing)."""
@@ -630,7 +684,7 @@ class CharacterManager:
                 created_at    TEXT    NOT NULL DEFAULT ''
             );
         """)
-        self._conn.commit()
+        self._safe_commit("ensure_schema")
 
         # Migrations fuer bestehende DBs aus Task 01 (optionale Spalten hinzufuegen)
         _migrations = [
@@ -653,7 +707,7 @@ class CharacterManager:
         for table, col, defn in _migrations:
             try:
                 self._conn.execute(f"ALTER TABLE {table} ADD COLUMN {col} {defn}")
-                self._conn.commit()
+                self._safe_commit(f"migration/{table}.{col}")
                 logger.debug("Migration: %s.%s hinzugefuegt.", table, col)
             except sqlite3.OperationalError:
                 pass  # Spalte existiert bereits
@@ -704,7 +758,7 @@ class CharacterManager:
                    COALESCE(last_saved,    '')
             FROM _characters_task01_backup;
         """)
-        self._conn.commit()
+        self._safe_commit("migrate_characters")
         logger.info("characters-Migration abgeschlossen.")
 
     def _create_default_character(self) -> None:

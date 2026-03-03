@@ -3,14 +3,17 @@ audio/tts_handler.py — Text-to-Speech Handler
 
 Backend-Hierarchie (auto-detected):
   1. "piper"       — Piper TTS (lokal, Deutsch: de_DE-thorsten-medium/high)
-  2. "kokoro_onnx" — Kokoro-82M ONNX via kokoro-onnx (Englisch)
-  3. "pyttsx3"     — System-TTS (offline-Fallback, Windows SAPI)
-  4. "stub"        — stdout-Ausgabe (Dev / kein Audio-Device)
+  2. "edge"        — Microsoft Edge Neural TTS (online, kostenlos, 8+ deutsche Stimmen)
+  3. "kokoro_onnx" — Kokoro-82M ONNX via kokoro-onnx (Englisch)
+  4. "pyttsx3"     — System-TTS (offline-Fallback, Windows SAPI)
+  5. "stub"        — stdout-Ausgabe (Dev / kein Audio-Device)
 
 Features:
   - Sentence-Streaming: Sprachausgabe startet sobald der erste Satz fertig ist
   - Barge-in: threading.Event stoppt die Wiedergabe sofort wenn gesetzt
   - speak_streaming(): nimmt LLM-Text-Chunks entgegen, puffert bis Satzgrenze
+  - Audio-Effekte: Reverb, Distortion, Filter etc. via pedalboard (optional)
+  - 18 Stimmenrollen: 10 Piper (offline) + 8 Edge (online, neural)
 
 Konfiguration via .env:
   PIPER_VOICE=de_DE-thorsten-medium  # Piper Stimmen-ID
@@ -18,6 +21,7 @@ Konfiguration via .env:
   KOKORO_VOICE=af_heart              # Kokoro Stimmen-ID (Englisch-Fallback)
   KOKORO_SPEED=1.0                   # Sprechgeschwindigkeit
   TTS_LANG=en-us                     # Sprach-Code fuer kokoro-onnx
+  EDGE_TTS_ENABLED=1                 # Edge TTS aktivieren (default: 1)
 """
 
 from __future__ import annotations
@@ -33,7 +37,7 @@ from typing import Any, Iterator
 logger = logging.getLogger("ARS.audio.tts")
 
 KOKORO_SAMPLE_RATE = 24_000   # Hz — Kokoro-82M Output
-PLAYBACK_CHUNK     = 2048     # Samples pro Playback-Iteration (Barge-in Granularität)
+PLAYBACK_CHUNK     = 2048     # Samples pro Playback-Iteration (Barge-in Granularitaet)
 
 # Piper Model-Cache Verzeichnis
 PIPER_MODEL_DIR = Path(__file__).parent.parent / "data" / "models" / "piper"
@@ -41,22 +45,43 @@ PIPER_MODEL_DIR = Path(__file__).parent.parent / "data" / "models" / "piper"
 # Satzgrenzen-Regex: trennt nach . ! ? … gefolgt von Leerzeichen/Zeilenumbruch
 SENTENCE_PATTERN = re.compile(r"(?<=[.!?…])\s+")
 
-# Alle verfuegbaren deutschen Piper-Stimmen
+# ── Stimmenregister: Piper (offline) + Edge (online) ──
+
 VOICE_REGISTRY = {
-    # --- Kernrollen ---
+    # --- Piper Stimmen (offline) ---
     "keeper":       "de_DE-thorsten-high",              # Standard Erzaehler (maennlich, klar)
     "woman":        "de_DE-kerstin-low",                # Weibliche NPCs
     "monster":      "de_DE-pavoque-low",                # Tiefe, raue Stimme (Antagonisten)
     "scholar":      "de_DE-karlsson-low",               # Akademiker / Investigator
     "mystery":      "de_DE-eva_k-x_low",                # Geister / Traumwesen (weiblich)
-    # --- Erweiterte Stimmen ---
     "emotional":    "de_DE-thorsten_emotional-medium",   # Emotionaler Erzaehler
     "narrator":     "de_DE-thorsten-medium",             # Neutraler Erzaehler (medium quality)
     "villager":     "de_DE-ramona-low",                  # Dorfbewohnerin / Buerger (weiblich)
     "crowd":        "de_DE-mls-medium",                  # Generische Stimme / Statisten
     "whisper":      "de_DE-thorsten-low",                # Leise/Fluestern (low quality = rauer)
+    # --- Edge Stimmen (online, neural) ---
+    "child":        "edge:de-DE-GiselaNeural",           # Kind / junge Stimme
+    "noble":        "edge:de-DE-RalfNeural",             # Adliger / Wuerdentraeger
+    "merchant":     "edge:de-CH-LeniNeural",             # Haendlerin (Schweizer Akzent)
+    "austrian":     "edge:de-AT-JonasNeural",            # Oesterreichischer Akzent
+    "priestess":    "edge:de-AT-IngridNeural",           # Priesterin / Heilige
+    "commander":    "edge:de-DE-KillianNeural",          # Kommandant / Militaer
+    "servant":      "edge:de-DE-AmalaNeural",            # Diener / unterwuerfig
+    "herald":       "edge:de-DE-ConradNeural",           # Herold / Ausrufer
 }
 DEFAULT_VOICE = "keeper"
+
+# Fallback-Mapping: Edge-Rolle → naechstbeste Piper-Stimme (wenn offline)
+EDGE_FALLBACK = {
+    "child":     "de_DE-kerstin-low",        # woman
+    "noble":     "de_DE-karlsson-low",        # scholar
+    "merchant":  "de_DE-ramona-low",          # villager
+    "austrian":  "de_DE-thorsten-medium",     # narrator
+    "priestess": "de_DE-eva_k-x_low",        # mystery
+    "commander": "de_DE-pavoque-low",         # monster
+    "servant":   "de_DE-kerstin-low",         # woman
+    "herald":    "de_DE-thorsten-high",       # keeper
+}
 
 # Auswahl an vordefinierten Keeper-Stimmen (Archetypen)
 KEEPER_VOICES = {
@@ -66,27 +91,94 @@ KEEPER_VOICES = {
     "sachlich":   "de_DE-karlsson-low",                # Praeziser, sachlicher
 }
 
+# Deutsche Abkuerzungen fuer TTS-Expansion
+_ABBREVIATIONS = {
+    "z.B.":  "zum Beispiel",
+    "z. B.": "zum Beispiel",
+    "d.h.":  "das heisst",
+    "d. h.": "das heisst",
+    "u.a.":  "unter anderem",
+    "u. a.": "unter anderem",
+    "o.ae.": "oder aehnliches",
+    "o. ae.":"oder aehnliches",
+    "bzw.":  "beziehungsweise",
+    "ca.":   "circa",
+    "etc.":  "et cetera",
+    "evtl.": "eventuell",
+    "ggf.":  "gegebenenfalls",
+    "inkl.": "inklusive",
+    "Nr.":   "Nummer",
+    "usw.":  "und so weiter",
+    "vgl.":  "vergleiche",
+}
+
+
+def _preprocess_german(text: str) -> str:
+    """
+    Bereinigt Text fuer deutsche TTS-Synthese.
+
+    1. NFC-Normalisierung (Umlaute als precomposed)
+    2. Unicode-Ersetzungen (Dashes, Smart Quotes, Ellipsis)
+    3. Deutsche Abkuerzungen expandieren
+    4. Control-Characters entfernen (ausser \\n, \\t)
+    5. Verbleibende Combining Marks (Mn) entfernen
+    """
+    # 1. NFC — Umlaute als einzelne Zeichen
+    text = unicodedata.normalize("NFC", text)
+
+    # 2. Unicode-Sonderzeichen → ASCII-Aequivalente
+    text = text.replace("\u2013", "-")    # En-Dash
+    text = text.replace("\u2014", " - ")  # Em-Dash
+    text = text.replace("\u2018", "'")    # Left single quote
+    text = text.replace("\u2019", "'")    # Right single quote
+    text = text.replace("\u201C", '"')    # Left double quote
+    text = text.replace("\u201D", '"')    # Right double quote
+    text = text.replace("\u2026", "...")   # Ellipsis
+    text = text.replace("\u00AD", "")     # Soft Hyphen
+    text = text.replace("\u200B", "")     # Zero-Width Space
+    text = text.replace("\uFEFF", "")     # BOM
+
+    # 3. Abkuerzungen expandieren (laengste zuerst)
+    for abbr, expansion in _ABBREVIATIONS.items():
+        text = text.replace(abbr, expansion)
+
+    # 4. Control-Characters entfernen (Kategorie C), Newline/Tab behalten
+    text = "".join(
+        c for c in text
+        if c in ("\n", "\t") or not unicodedata.category(c).startswith("C")
+    )
+
+    # 5. Verbleibende Combining Marks entfernen (nach NFC sind Umlaute safe)
+    text = "".join(
+        c for c in text
+        if unicodedata.category(c) != "Mn"
+    )
+
+    return text
+
 
 def split_sentences(text: str) -> list[str]:
-    """Zerlegt Text in Sätze für Streaming-TTS."""
+    """Zerlegt Text in Saetze fuer Streaming-TTS."""
     return [s.strip() for s in SENTENCE_PATTERN.split(text) if s.strip()]
 
 
 class TTSHandler:
     """
-    Kokoro-82M TTS mit Sentence-Streaming und Barge-in Support.
+    Multi-Backend TTS mit Sentence-Streaming, Barge-in und Audio-Effekten.
 
-    Öffentliche API:
-      speak(text, stop_event)          → Blockiert; gibt True zurück wenn vollständig
-      speak_streaming(iter, stop_event)→ Nimmt Text-Chunks vom LLM entgegen
-      stop()                           → Unterbricht sofort
+    Oeffentliche API:
+      speak(text, stop_event)          -> Blockiert; gibt True zurueck wenn vollstaendig
+      speak_streaming(iter, stop_event)-> Nimmt Text-Chunks vom LLM entgegen
+      set_voice(role)                  -> Wechselt Stimme + Effekt-Preset
+      set_effect(preset)               -> Wechselt Effekt-Preset manuell
+      stop()                           -> Unterbricht sofort
     """
 
     def __init__(self) -> None:
         # Keeper-Profil aus .env lesen und die Standard-Stimme setzen
         keeper_profile = os.getenv("KEEPER_VOICE_PROFILE", "standard").lower()
         default_keeper_voice_id = KEEPER_VOICES.get(keeper_profile, KEEPER_VOICES["standard"])
-        
+
         # Aktualisiere die Standard-Keeper-Stimme in der Registry zur Laufzeit
         VOICE_REGISTRY["keeper"] = default_keeper_voice_id
         logger.info("Keeper-Stimmenprofil: '%s' -> %s", keeper_profile, default_keeper_voice_id)
@@ -94,10 +186,15 @@ class TTSHandler:
         # Piper config
         self._piper_voice_id: str = VOICE_REGISTRY[DEFAULT_VOICE]
         self._piper_speed: float = float(os.getenv("PIPER_SPEED", "1.0"))
-        self._piper_models: dict[str, Any] = {}  # Cache für geladene Modelle
-        self._active_piper: Any = None           # Aktuell genutztes Modell
+        self._piper_models: dict[str, Any] = {}  # Cache fuer geladene Modelle
+        self._active_piper: Any = None            # Aktuell genutztes Modell
         self._piper_sample_rate: int = 22050
-        self._piper_failed_voices: set[str] = set()  # Per-Voice Tracking statt globalem Flag
+        self._piper_failed_voices: set[str] = set()  # Per-Voice Tracking
+
+        # Edge TTS config
+        self._edge_available: bool | None = None
+        self._current_edge_voice: str = "de-DE-ConradNeural"
+
         # Kokoro config
         self._voice:    str = os.getenv("KOKORO_VOICE", "af_heart")
         self._speed:    float = float(os.getenv("KOKORO_SPEED", "1.0"))
@@ -106,19 +203,50 @@ class TTSHandler:
         self._kokoro_load_failed: bool = False
         self._engine:   Any = None          # pyttsx3
         self._stop_event = threading.Event()
+
+        # Audio-Effekte
+        self._current_preset: str = "clean"
+        self._effects: Any = None
+        self._effects_loaded: bool = False
+
+        # Aktive Rolle (fuer Backend-Routing)
+        self._current_role: str = DEFAULT_VOICE
+
         self._backend: str = self._detect_backend()
         logger.info("TTS initialisiert — Backend: %s", self._backend)
 
+    def _ensure_effects(self) -> Any:
+        """Lazy-Load der AudioEffects Instanz."""
+        if not self._effects_loaded:
+            self._effects_loaded = True
+            try:
+                from audio.effects import AudioEffects
+                self._effects = AudioEffects()
+                logger.info("AudioEffects geladen.")
+            except Exception as exc:
+                logger.warning("AudioEffects nicht verfuegbar: %s", exc)
+                self._effects = None
+        return self._effects
+
+    def _apply_effects(self, samples, sample_rate: int):
+        """Wendet das aktive Effekt-Preset auf Samples an."""
+        if self._current_preset == "clean":
+            return samples
+        fx = self._ensure_effects()
+        if fx is None:
+            return samples
+        return fx.apply(samples, sample_rate, self._current_preset)
+
     # ------------------------------------------------------------------
-    # Öffentliche API
+    # Oeffentliche API
     # ------------------------------------------------------------------
 
     def speak(self, text: str, stop_event: threading.Event | None = None) -> bool:
         """
         Spricht den gesamten Text.
 
-        Intern: zerlegt in Sätze, synthesisiert + spielt jeden sofort.
-        Returns True wenn vollständig, False wenn durch stop_event unterbrochen.
+        Intern: zerlegt in Saetze, synthesisiert + spielt jeden sofort.
+        Returns True wenn vollstaendig, False wenn durch stop_event unterbrochen.
         """
         if not text.strip():
             return True
@@ -132,7 +260,7 @@ class TTSHandler:
 
         for sentence in sentences:
             if evt.is_set():
-                logger.info("TTS unterbrochen vor Satz: '%s…'", sentence[:40])
+                logger.info("TTS unterbrochen vor Satz: '%s...'", sentence[:40])
                 return False
             if not self._speak_sentence(sentence, evt):
                 return False
@@ -142,15 +270,46 @@ class TTSHandler:
     def set_voice(self, role: str) -> bool:
         """
         Wechselt die aktive Stimme basierend auf einer Rolle (keeper, monster, etc.).
-        Lädt das Modell bei Bedarf nach.
+        Setzt auch das zugehoerige Effekt-Preset.
         """
         if role not in VOICE_REGISTRY:
             logger.warning("Unbekannte Rolle '%s'. Bleibe bei aktueller Stimme.", role)
             return False
-        
+
         target_id = VOICE_REGISTRY[role]
-        self._piper_voice_id = target_id
+        self._current_role = role
+
+        if target_id.startswith("edge:"):
+            self._current_edge_voice = target_id[5:]
+            # Piper-Fallback setzen falls Edge offline
+            if role in EDGE_FALLBACK:
+                self._piper_voice_id = EDGE_FALLBACK[role]
+        else:
+            self._piper_voice_id = target_id
+
+        # Effekt-Preset aus Rollen-Mapping
+        try:
+            from audio.effects import AudioEffects
+            self._current_preset = AudioEffects.get_role_preset(role)
+        except ImportError:
+            self._current_preset = "clean"
+
+        logger.debug("Stimme: %s -> %s (Effekt: %s)", role, target_id, self._current_preset)
         return True
+
+    def set_effect(self, preset: str) -> bool:
+        """Setzt das Effekt-Preset manuell (clean, hall, monster, etc.)."""
+        try:
+            from audio.effects import AudioEffects
+            if preset in AudioEffects.PRESET_NAMES:
+                self._current_preset = preset
+                logger.info("Effekt-Preset: %s", preset)
+                return True
+            logger.warning("Unbekanntes Effekt-Preset: '%s'", preset)
+            return False
+        except ImportError:
+            logger.warning("AudioEffects nicht verfuegbar.")
+            return False
 
     def speak_streaming(
         self,
@@ -158,10 +317,10 @@ class TTSHandler:
         stop_event: threading.Event | None = None,
     ) -> bool:
         """
-        Nimmt LLM-Text-Chunks entgegen und spricht Satz für Satz sobald
+        Nimmt LLM-Text-Chunks entgegen und spricht Satz fuer Satz sobald
         eine Satzgrenze erkannt wird.
 
-        Ermöglicht < 500ms First-Audio-Latenz beim Streaming-LLM.
+        Ermoeglicht < 500ms First-Audio-Latenz beim Streaming-LLM.
         """
         evt = stop_event or self._stop_event
         evt.clear()
@@ -173,16 +332,16 @@ class TTSHandler:
 
             buffer += chunk
 
-            # Prüfe auf vollständige Sätze im Puffer
+            # Pruefe auf vollstaendige Saetze im Puffer
             parts = SENTENCE_PATTERN.split(buffer)
             if len(parts) > 1:
-                # Alle vollständigen Sätze aussprechen (letzter Teil ist Reste-Puffer)
+                # Alle vollstaendigen Saetze aussprechen (letzter Teil ist Reste-Puffer)
                 for sentence in parts[:-1]:
                     sentence = sentence.strip()
                     if sentence:
                         if not self._speak_sentence(sentence, evt):
                             return False
-                buffer = parts[-1]  # Rest für nächsten Chunk aufheben
+                buffer = parts[-1]  # Rest fuer naechsten Chunk aufheben
 
         # Restlichen Puffer sprechen
         remainder = buffer.strip()
@@ -203,16 +362,21 @@ class TTSHandler:
     def _speak_sentence(self, sentence: str, stop_event: threading.Event) -> bool:
         """
         Synthetisiert einen Satz und spielt ihn ab.
-        Prüft stop_event zwischen Playback-Chunks (Barge-in Granularität).
-        Returns True wenn vollständig abgespielt.
+        Prueft stop_event zwischen Playback-Chunks (Barge-in Granularitaet).
+        Returns True wenn vollstaendig abgespielt.
         """
-        # NFC-Normalisierung: verhindert dass Umlaute (ü, ö, ä) als
-        # zwei separate Vokale gesprochen werden (NFD → NFC)
-        sentence = unicodedata.normalize("NFC", sentence)
-        logger.debug("TTS: '%s…'", sentence[:50])
+        sentence = _preprocess_german(sentence)
+        logger.debug("TTS: '%s...'", sentence[:50])
+
+        # Edge-Routing: wenn aktive Stimme eine Edge-Stimme ist
+        voice_id = VOICE_REGISTRY.get(self._current_role, "")
+        if voice_id.startswith("edge:") and self._is_edge_available():
+            return self._edge_speak(sentence, stop_event)
 
         if self._backend == "piper":
             return self._piper_speak(sentence, stop_event)
+        elif self._backend == "edge":
+            return self._edge_speak(sentence, stop_event)
         elif self._backend == "kokoro_onnx":
             return self._kokoro_speak(sentence, stop_event)
         elif self._backend == "pyttsx3":
@@ -226,26 +390,39 @@ class TTSHandler:
             print(f"[TTS] {sentence}")
             return True
 
+    def _playback_with_effects(
+        self, samples, sample_rate: int, stop_event: threading.Event
+    ) -> bool:
+        """Wendet Effekte an und spielt Audio mit Barge-in Check ab."""
+        import sounddevice as sd
+        import time
+
+        # Effekte anwenden
+        samples = self._apply_effects(samples, sample_rate)
+
+        if stop_event.is_set():
+            return False
+
+        # Non-blocking play + poll fuer Barge-in
+        sd.play(samples, samplerate=sample_rate, blocking=False)
+        while sd.get_stream().active:
+            if stop_event.is_set():
+                sd.stop()
+                logger.info("TTS Barge-in: Wiedergabe gestoppt.")
+                return False
+            time.sleep(0.02)  # 20ms Poll-Intervall
+
+        return True
+
     def _piper_speak(self, sentence: str, stop_event: threading.Event) -> bool:
         """Piper TTS Synthese + non-blocking Wiedergabe mit Barge-in Check."""
         try:
-            import sounddevice as sd
             import numpy as np
-            import time
 
             self._ensure_piper_loaded(self._piper_voice_id)
             if self._active_piper is None:
                 # Downgrade zu Kokoro
                 return self._kokoro_speak(sentence, stop_event)
-
-            # Sonderzeichen entfernen die Pipers Phoneme-Map nicht kennt
-            import unicodedata
-            sentence = unicodedata.normalize("NFC", sentence)
-            sentence = "".join(
-                c for c in sentence
-                if unicodedata.category(c) != "Mn"  # Combining marks entfernen
-                or c in ("\u0308", "\u0300", "\u0301")  # Umlaute/Akzente behalten
-            )
 
             chunks = list(self._active_piper.synthesize(sentence))
             if not chunks:
@@ -254,30 +431,75 @@ class TTSHandler:
             samples = np.concatenate([c.audio_float_array for c in chunks])
             sample_rate = chunks[0].sample_rate
 
-            if stop_event.is_set():
-                return False
-
-            # Non-blocking play + poll für Barge-in
-            sd.play(samples, samplerate=sample_rate, blocking=False)
-            while sd.get_stream().active:
-                if stop_event.is_set():
-                    sd.stop()
-                    logger.info("TTS Barge-in: Piper-Wiedergabe gestoppt.")
-                    return False
-                time.sleep(0.02)  # 20ms Poll-Intervall
-
-            return True
+            return self._playback_with_effects(samples, sample_rate, stop_event)
 
         except Exception as exc:
             logger.error("Piper Wiedergabe-Fehler: %s — Downgrade zu Kokoro", exc)
             return self._kokoro_speak(sentence, stop_event)
 
+    def _edge_speak(self, sentence: str, stop_event: threading.Event) -> bool:
+        """Edge TTS Synthese (async) + non-blocking Wiedergabe."""
+        try:
+            import asyncio
+            import io
+            import numpy as np
+            import soundfile as sf  # type: ignore[import]
+
+            async def _synthesize() -> bytes:
+                import edge_tts  # type: ignore[import]
+                communicate = edge_tts.Communicate(
+                    sentence, self._current_edge_voice
+                )
+                audio_bytes = b""
+                async for chunk in communicate.stream():
+                    if chunk["type"] == "audio":
+                        audio_bytes += chunk["data"]
+                return audio_bytes
+
+            # Event-Loop: async Bridge
+            try:
+                loop = asyncio.get_running_loop()
+            except RuntimeError:
+                loop = None
+
+            if loop and loop.is_running():
+                # Innerhalb eines laufenden Loops: neuen Thread nutzen
+                import concurrent.futures
+                with concurrent.futures.ThreadPoolExecutor(max_workers=1) as pool:
+                    mp3_bytes = pool.submit(
+                        lambda: asyncio.run(_synthesize())
+                    ).result(timeout=30)
+            else:
+                mp3_bytes = asyncio.run(_synthesize())
+
+            if not mp3_bytes or stop_event.is_set():
+                return not stop_event.is_set()
+
+            # MP3 → numpy float32
+            audio_buf = io.BytesIO(mp3_bytes)
+            samples, sample_rate = sf.read(audio_buf, dtype="float32")
+
+            # Stereo → Mono falls noetig
+            if samples.ndim > 1:
+                samples = samples.mean(axis=1)
+
+            return self._playback_with_effects(samples, sample_rate, stop_event)
+
+        except Exception as exc:
+            logger.error("Edge TTS Fehler: %s — Fallback auf Piper", exc)
+            # Fallback auf Piper mit Edge-Fallback-Stimme
+            if self._current_role in EDGE_FALLBACK:
+                old_voice = self._piper_voice_id
+                self._piper_voice_id = EDGE_FALLBACK[self._current_role]
+                result = self._piper_speak(sentence, stop_event)
+                self._piper_voice_id = old_voice
+                return result
+            return self._piper_speak(sentence, stop_event)
+
     def _kokoro_speak(self, sentence: str, stop_event: threading.Event) -> bool:
         """Kokoro-82M (kokoro-onnx) Synthese + non-blocking Wiedergabe."""
         try:
-            import sounddevice as sd
             import numpy as np
-            import time
 
             self._ensure_kokoro_loaded()
             if self._kokoro is None:
@@ -291,19 +513,7 @@ class TTSHandler:
                 lang=self._lang,
             )
 
-            if stop_event.is_set():
-                return False
-
-            # Non-blocking play + poll für Barge-in
-            sd.play(samples, samplerate=sample_rate, blocking=False)
-            while sd.get_stream().active:
-                if stop_event.is_set():
-                    sd.stop()
-                    logger.info("TTS Barge-in: Kokoro-Wiedergabe gestoppt.")
-                    return False
-                time.sleep(0.02)
-
-            return True
+            return self._playback_with_effects(samples, sample_rate, stop_event)
 
         except Exception as exc:
             logger.error("Kokoro-ONNX Wiedergabe-Fehler: %s", exc)
@@ -332,6 +542,26 @@ class TTSHandler:
             print(f"[TTS-Stub] {text}")
 
     # ------------------------------------------------------------------
+    # Edge TTS Verfuegbarkeit
+    # ------------------------------------------------------------------
+
+    def _is_edge_available(self) -> bool:
+        """Prueft ob Edge TTS verfuegbar ist (import + env)."""
+        if self._edge_available is not None:
+            return self._edge_available
+        if os.getenv("EDGE_TTS_ENABLED", "1") == "0":
+            self._edge_available = False
+            return False
+        try:
+            import edge_tts  # type: ignore[import]  # noqa: F401
+            import soundfile  # type: ignore[import]  # noqa: F401
+            self._edge_available = True
+        except ImportError:
+            self._edge_available = False
+            logger.info("edge-tts/soundfile nicht installiert — Edge Stimmen deaktiviert.")
+        return self._edge_available
+
+    # ------------------------------------------------------------------
     # Model-Lazy-Loading
     # ------------------------------------------------------------------
 
@@ -355,11 +585,6 @@ class TTSHandler:
             PIPER_MODEL_DIR.mkdir(parents=True, exist_ok=True)
 
             # Pfade konstruieren
-            # Stimmen-ID zerlegen: de_DE-thorsten-medium → de/de_DE/thorsten/medium
-            # Beachte: Manche IDs haben Unterstriche im Speaker/Quality,
-            # z.B. de_DE-eva_k-x_low → de/de_DE/eva_k/x_low
-            # Strategie: lang_code ist alles vor dem ersten "-",
-            # dann Quality-Suffix von hinten matchen (bekannte Werte).
             first_dash = voice_id.index("-")
             lang_code = voice_id[:first_dash]          # de_DE
             lang_short = lang_code[:2]                  # de
@@ -371,7 +596,7 @@ class TTSHandler:
             quality = "medium"
             for suffix in _quality_suffixes:
                 if remainder.endswith(suffix):
-                    quality = suffix[1:]  # ohne führendes "-"
+                    quality = suffix[1:]  # ohne fuehrendes "-"
                     speaker = remainder[: -len(suffix)]
                     break
 
@@ -405,16 +630,12 @@ class TTSHandler:
             logger.info("Piper Stimme geladen: %s", voice_id)
 
         except Exception as exc:
-            logger.warning("Piper Laden für '%s' fehlgeschlagen: %s", voice_id, exc)
+            logger.warning("Piper Laden fuer '%s' fehlgeschlagen: %s", voice_id, exc)
             self._piper_failed_voices.add(voice_id)
 
     def _ensure_kokoro_loaded(self) -> None:
         """
         Laedt Kokoro-82M ONNX Modell v1.0 (lazy).
-
-        Modell-Dateien (kokoro-v1.0.onnx + voices-v1.0.bin) werden einmalig
-        von GitHub Releases heruntergeladen und in data/models/ gecacht.
-        Bei erneutem Start werden die lokalen Dateien direkt verwendet.
         """
         if self._kokoro is not None or self._kokoro_load_failed:
             return
@@ -450,6 +671,7 @@ class TTSHandler:
                 else:
                     logger.debug("Kokoro-Datei '%s' bereits im Cache.", fname)
 
+            from kokoro_onnx import Kokoro  # type: ignore[import]
             self._kokoro = Kokoro(str(model_path), str(voices_path))
             logger.info("Kokoro-82M v1.0 bereit.")
 
@@ -471,6 +693,12 @@ class TTSHandler:
             return "piper"
         except ImportError:
             pass
+        if self._is_edge_available():
+            try:
+                import sounddevice  # type: ignore[import]  # noqa: F401
+                return "edge"
+            except ImportError:
+                pass
         try:
             import kokoro_onnx  # type: ignore[import]  # noqa: F401
             import sounddevice  # type: ignore[import]  # noqa: F401

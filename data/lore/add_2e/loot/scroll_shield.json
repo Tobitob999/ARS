@@ -1,6 +1,7 @@
 {
-    "id":  "scroll_shield",
-    "value_gp":  120,
-    "magical":  true,
-    "effect_description":  "Single-use scroll that casts Shield."
+    "id": "scroll_shield",
+    "value_gp": 120,
+    "magical": true,
+    "effect_description": "Single-use scroll that casts Shield.",
+    "use_effect": {"type": "spell", "spell": "Shield"}
 }

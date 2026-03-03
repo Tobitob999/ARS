@@ -1,6 +1,7 @@
 {
-    "id":  "potion_invisibility",
-    "value_gp":  400,
-    "magical":  true,
-    "effect_description":  "Drinker becomes invisible for 1 turn or until attacking."
+    "id": "potion_invisibility",
+    "value_gp": 400,
+    "magical": true,
+    "effect_description": "Drinker becomes invisible for 1 turn or until attacking.",
+    "use_effect": {"type": "buff", "effect": "invisibility", "duration_rounds": 24}
 }

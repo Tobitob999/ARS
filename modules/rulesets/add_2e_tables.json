@@ -1424,6 +1424,7 @@
       "_note": "WIS 19 via magic item only"
     }
   },
+  "_melee_comment": "reach = Nahkampf-Reichweite in Feldern (1 Feld = 10 ft). Standard=1, Stangenwaffen=2, Lanze=3.",
   "melee_weapons": [
     {
       "name": "Battle Axe",
@@ -1433,7 +1434,8 @@
       "weight": 7,
       "size": "M",
       "type": "S",
-      "cost_gp": 5
+      "cost_gp": 5,
+      "reach": 1
     },
     {
       "name": "Hand Axe",
@@ -1443,7 +1445,8 @@
       "weight": 5,
       "size": "S",
       "type": "S",
-      "cost_gp": 1
+      "cost_gp": 1,
+      "reach": 1
     },
     {
       "name": "Club",
@@ -1453,7 +1456,8 @@
       "weight": 3,
       "size": "M",
       "type": "B",
-      "cost_gp": 0
+      "cost_gp": 0,
+      "reach": 1
     },
     {
       "name": "Dagger",
@@ -1463,7 +1467,8 @@
       "weight": 1,
       "size": "S",
       "type": "P",
-      "cost_gp": 2
+      "cost_gp": 2,
+      "reach": 1
     },
     {
       "name": "Flail, Footman's",
@@ -1473,7 +1478,8 @@
       "weight": 15,
       "size": "M",
       "type": "B",
-      "cost_gp": 15
+      "cost_gp": 15,
+      "reach": 1
     },
     {
       "name": "Halberd",
@@ -1483,7 +1489,8 @@
       "weight": 15,
       "size": "L",
       "type": "P/S",
-      "cost_gp": 10
+      "cost_gp": 10,
+      "reach": 2
     },
     {
       "name": "Lance, Heavy Horse",
@@ -1493,7 +1500,8 @@
       "weight": 15,
       "size": "L",
       "type": "P",
-      "cost_gp": 15
+      "cost_gp": 15,
+      "reach": 3
     },
     {
       "name": "Long Sword",
@@ -1503,7 +1511,8 @@
       "weight": 4,
       "size": "M",
       "type": "S",
-      "cost_gp": 15
+      "cost_gp": 15,
+      "reach": 1
     },
     {
       "name": "Mace, Footman's",
@@ -1513,7 +1522,8 @@
       "weight": 10,
       "size": "M",
       "type": "B",
-      "cost_gp": 8
+      "cost_gp": 8,
+      "reach": 1
     },
     {
       "name": "Morning Star",
@@ -1523,7 +1533,8 @@
       "weight": 12,
       "size": "M",
       "type": "B",
-      "cost_gp": 10
+      "cost_gp": 10,
+      "reach": 1
     },
     {
       "name": "Quarter Staff",
@@ -1533,7 +1544,8 @@
       "weight": 4,
       "size": "L",
       "type": "B",
-      "cost_gp": 0
+      "cost_gp": 0,
+      "reach": 2
     },
     {
       "name": "Scimitar",
@@ -1543,7 +1555,8 @@
       "weight": 4,
       "size": "M",
       "type": "S",
-      "cost_gp": 15
+      "cost_gp": 15,
+      "reach": 1
     },
     {
       "name": "Short Sword",
@@ -1553,7 +1566,8 @@
       "weight": 3,
       "size": "S",
       "type": "P",
-      "cost_gp": 10
+      "cost_gp": 10,
+      "reach": 1
     },
     {
       "name": "Spear",
@@ -1563,7 +1577,8 @@
       "weight": 5,
       "size": "M",
       "type": "P",
-      "cost_gp": 0.8
+      "cost_gp": 0.8,
+      "reach": 2
     },
     {
       "name": "Two-Handed Sword",
@@ -1573,7 +1588,8 @@
       "weight": 15,
       "size": "L",
       "type": "S",
-      "cost_gp": 50
+      "cost_gp": 50,
+      "reach": 1
     },
     {
       "name": "War Hammer",
@@ -1583,7 +1599,8 @@
       "weight": 6,
       "size": "M",
       "type": "B",
-      "cost_gp": 2
+      "cost_gp": 2,
+      "reach": 1
     },
     {
       "name": "Bastard Sword (1-handed)",
@@ -1593,7 +1610,8 @@
       "weight": 10,
       "size": "M",
       "type": "S",
-      "cost_gp": 25
+      "cost_gp": 25,
+      "reach": 1
     },
     {
       "name": "Bastard Sword (2-handed)",
@@ -1603,7 +1621,8 @@
       "weight": 10,
       "size": "M",
       "type": "S",
-      "cost_gp": 25
+      "cost_gp": 25,
+      "reach": 1
     },
     {
       "name": "Trident",
@@ -1613,7 +1632,8 @@
       "weight": 5,
       "size": "L",
       "type": "P",
-      "cost_gp": 15
+      "cost_gp": 15,
+      "reach": 2
     }
   ],
   "missile_weapons": [
@@ -3177,76 +3197,87 @@
       ]
     }
   ],
+  "_armor_comment": "movement_penalty = Abzug auf Basis-Bewegungsrate (12 Felder). 0=keine Einschraenkung, -3=mittel, -6=schwer.",
   "armor_catalog": [
     {
       "name": "Leather Armor",
       "ac": 8,
       "weight": 15,
       "cost_gp": 5,
-      "bulk": "normal"
+      "bulk": "normal",
+      "movement_penalty": 0
     },
     {
       "name": "Studded Leather",
       "ac": 7,
       "weight": 25,
       "cost_gp": 20,
-      "bulk": "normal"
+      "bulk": "normal",
+      "movement_penalty": 0
     },
     {
       "name": "Ring Mail",
       "ac": 7,
       "weight": 30,
       "cost_gp": 30,
-      "bulk": "bulky"
+      "bulk": "bulky",
+      "movement_penalty": -3
     },
     {
       "name": "Scale Mail",
       "ac": 6,
       "weight": 40,
       "cost_gp": 120,
-      "bulk": "bulky"
+      "bulk": "bulky",
+      "movement_penalty": -3
     },
     {
       "name": "Chain Mail",
       "ac": 5,
       "weight": 40,
       "cost_gp": 75,
-      "bulk": "bulky"
+      "bulk": "bulky",
+      "movement_penalty": -3
     },
     {
       "name": "Splint Mail",
       "ac": 4,
       "weight": 40,
       "cost_gp": 80,
-      "bulk": "bulky"
+      "bulk": "bulky",
+      "movement_penalty": -6
     },
     {
       "name": "Banded Mail",
       "ac": 4,
       "weight": 35,
       "cost_gp": 200,
-      "bulk": "bulky"
+      "bulk": "bulky",
+      "movement_penalty": -6
     },
     {
       "name": "Bronze Plate Mail",
       "ac": 4,
       "weight": 45,
       "cost_gp": 400,
-      "bulk": "bulky"
+      "bulk": "bulky",
+      "movement_penalty": -6
     },
     {
       "name": "Plate Mail",
       "ac": 3,
       "weight": 50,
       "cost_gp": 600,
-      "bulk": "bulky"
+      "bulk": "bulky",
+      "movement_penalty": -6
     },
     {
       "name": "Field Plate",
       "ac": 2,
       "weight": 60,
       "cost_gp": 2000,
-      "bulk": "bulky"
+      "bulk": "bulky",
+      "movement_penalty": -6
     },
     {
       "name": "Full Plate",
@@ -3254,6 +3285,7 @@
       "weight": 70,
       "cost_gp": 4000,
       "bulk": "bulky",
+      "movement_penalty": -6,
       "_note": "4000+ gp, individual commission"
     },
     {
@@ -3262,6 +3294,7 @@
       "weight": 5,
       "cost_gp": 1,
       "bulk": "normal",
+      "movement_penalty": 0,
       "_note": "AC modifier, not base AC"
     },
     {
@@ -3270,6 +3303,7 @@
       "weight": 10,
       "cost_gp": 7,
       "bulk": "normal",
+      "movement_penalty": 0,
       "_note": "AC modifier, not base AC"
     },
     {
@@ -3278,6 +3312,7 @@
       "weight": 15,
       "cost_gp": 15,
       "bulk": "bulky",
+      "movement_penalty": -3,
       "_note": "AC modifier, not base AC"
     }
   ],

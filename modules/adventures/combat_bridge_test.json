@@ -1,0 +1,262 @@
+{
+  "schema_version": "1.0.0",
+  "title": "Kampfbrücken-Stresstest",
+  "setting": "Ein Gladiatorenkomplex mit verschiedenen Arenen, die verschiedene Kampfszenarien erzwingen.",
+  "difficulty": "Schwer",
+  "intro": "Ihr wurdet in den Gladiatorenkomplex von Barador verschleppt. Nur wer alle vier Arenen ueberlebt, erlangt die Freiheit. Jede Arena testet andere Kampftechniken.",
+  "hook": "Kampfdichter Stresstest: Nahkampf-Reichweite, Fernkampf-Distanzen, Bewegungsbudget, Ruestungsmalus.",
+  "keeper_lore": "Jede Arena erzwingt einen anderen Kampfstil. Die Monster haben bewusst verschiedene Waffenreichweiten und Positionen. JEDER Kampf muss mit echten ANGRIFF-Tags und HP_VERLUST-Tags gespielt werden. Monster greifen SOFORT an.",
+  "start_location": "arena_melee",
+  "flags": {
+    "arena1_clear": false,
+    "arena2_clear": false,
+    "arena3_clear": false,
+    "arena4_clear": false
+  },
+  "locations": [
+    {
+      "id": "arena_melee",
+      "name": "Arena des Nahkampfs",
+      "description": "Eine kleine, runde Arena. Keine Deckung, kein Ausweichen. Nur rohe Gewalt zaehlt. In der Mitte steht ein gepanzerter Ork mit einer Hellebarde.",
+      "atmosphere": "Das Publikum johlt. Sand knirscht unter den Fuessen. Der Ork schwingt seine Hellebarde in weiten Boegen.",
+      "npcs_present": ["halberd_orc", "shield_goblin"],
+      "clues_available": [],
+      "exits": {
+        "arena_ranged": "Ein eisernes Gitter oeffnet sich zur naechsten Arena im Osten."
+      },
+      "keeper_notes": "KAMPF SOFORT. Der Ork hat Reichweite 2 (Halberd). Der Goblin hat ein Schild und blockt. Beide greifen sofort an. PFLICHT: Mindestens 3 ANGRIFF-Tags und 3 HP_VERLUST-Tags in diesem Raum. Monsterbewegung nutzen: Der Ork haelt Distanz mit seiner Hellebarde."
+    },
+    {
+      "id": "arena_ranged",
+      "name": "Grosse Halle der Schuetzen",
+      "description": "Eine riesige, langgestreckte Halle. Am fernen Ende stehen Goblin-Bogenschuetzen auf einer erhoehten Plattform. Die Distanz betraegt gut 40 Meter.",
+      "atmosphere": "Pfeile zischen durch die Luft. Die Bogenschuetzen feuern aus sicherer Entfernung.",
+      "npcs_present": ["goblin_archer_1", "goblin_archer_2", "goblin_archer_3"],
+      "clues_available": [],
+      "exits": {
+        "arena_melee": "Zurueck zur Nahkampf-Arena im Westen.",
+        "arena_mixed": "Ein Tunnel fuehrt zur naechsten Arena im Sueden."
+      },
+      "keeper_notes": "FERNKAMPF-TEST. Die Bogenschuetzen stehen auf einer Plattform am anderen Ende der Halle (Distanz ca. 40 Yards = Mittelreichweite fuer Langbogen). Spieler muessen entweder mit eigenen Fernkampfwaffen zurueckschiessen (mit Distanzmalus) oder die ganze Halle durchqueren (kostet Bewegung). PFLICHT: Bogenschuetzen schiessen jede Runde. Fernkampf-Modifikatoren beachten."
+    },
+    {
+      "id": "arena_mixed",
+      "name": "Arena der Taktik",
+      "description": "Ein labyrinthartiger Saal mit Saeulen und Barrikaden. Monster lauern hinter Deckung. Nahkaempfer mit Speeren flankieren, waehrend ein Ork-Schleuder aus der Ferne feuert.",
+      "atmosphere": "Taktische Kampfsituation. Deckung ist entscheidend. Verschiedene Feinde auf verschiedenen Distanzen.",
+      "npcs_present": ["spear_hobgoblin_1", "spear_hobgoblin_2", "orc_slinger"],
+      "clues_available": [],
+      "exits": {
+        "arena_ranged": "Zurueck zur Schuetzenhalle im Norden.",
+        "arena_boss": "Schwere Steintueren fuehren zur letzten Arena im Osten."
+      },
+      "keeper_notes": "GEMISCHTER KAMPF. Hobgoblins haben Speere (Reichweite 2 Felder) und versuchen die Party auf Distanz zu halten. Der Schleuder-Ork feuert aus der Ferne (Schleuder: Kurzreichweite 4 Yards, Mittel 8, Lang 16). Spieler muessen Bewegung planen: Zu den Hobgoblins vordringen kostet Runden. PFLICHT: Bewegungs-Tags und verschiedene Distanzen."
+    },
+    {
+      "id": "arena_boss",
+      "name": "Thronsaal des Champions",
+      "description": "Eine grosse Kathedrale aus Knochen. Der Champion traegt volle Plattenruestung und fuehrt eine Lanze. Zwei Leibwaechter mit Hellebarden flankieren ihn. Die Halle ist so gross, dass Fernkampf moeglich ist.",
+      "atmosphere": "Epische Bosskampf-Atmosphaere. Der Champion steht am anderen Ende der Kathedrale. Seine Leibwaechter ruecken langsam vor.",
+      "npcs_present": ["champion_knight", "guard_halberd_1", "guard_halberd_2"],
+      "clues_available": [],
+      "exits": {
+        "arena_mixed": "Zurueck zur Taktik-Arena im Westen."
+      },
+      "keeper_notes": "BOSSKAMPF. Der Champion hat Lanze (Reichweite 3!) und volle Platte (AC 1, Movement Penalty -6). Er ist langsam aber toedlich. Die Hellebardiere (Reichweite 2) ruecken vor und decken den Champion. ALLE Kampfmechaniken muessen greifen: Reichweiten-Check, Bewegungsbudget, Ruestungsmalus, Angriffslimits. PFLICHT: Mindestens 5 Kampfrunden, viele Tags."
+    }
+  ],
+  "npcs": [
+    {
+      "id": "halberd_orc",
+      "name": "Gorrak der Hellebardier",
+      "description": "Ein massiger Ork, der eine schwere Hellebarde in weiten Boegen schwingt. Er haelt Gegner auf Distanz.",
+      "type": "hostile",
+      "stats": {
+        "ac": 5,
+        "hp": 18,
+        "thac0": 17,
+        "hd": 3,
+        "weapon": "Halberd",
+        "damage": "1d10",
+        "movement": 9,
+        "speed_factor": 9
+      },
+      "behavior": "Greift sofort an. Haelt Distanz mit der Hellebarde (Reichweite 2). Tritt zurueck wenn Gegner zu nah kommen."
+    },
+    {
+      "id": "shield_goblin",
+      "name": "Klirr der Schildgoblin",
+      "description": "Ein untersetzter Goblin hinter einem grossen Schild. Blockt und sticht mit einem Kurzschwert.",
+      "type": "hostile",
+      "stats": {
+        "ac": 4,
+        "hp": 6,
+        "thac0": 20,
+        "hd": 1,
+        "weapon": "Short Sword",
+        "damage": "1d6",
+        "movement": 6,
+        "speed_factor": 3
+      },
+      "behavior": "Versteckt sich hinter dem Schild. Sticht opportunistisch zu. Langsam (Movement 6 wegen grossem Schild)."
+    },
+    {
+      "id": "goblin_archer_1",
+      "name": "Goblin-Bogenschuetze",
+      "description": "Drahtiger Goblin mit kurzem Bogen auf einer erhoehten Plattform.",
+      "type": "hostile",
+      "stats": {
+        "ac": 7,
+        "hp": 4,
+        "thac0": 20,
+        "hd": 1,
+        "weapon": "Short Bow",
+        "damage": "1d6",
+        "movement": 6,
+        "speed_factor": 6
+      },
+      "behavior": "Schiesst aus der Ferne. Flieht wenn Nahkaempfer nahekommen."
+    },
+    {
+      "id": "goblin_archer_2",
+      "name": "Goblin-Bogenschuetze",
+      "description": "Goblin mit Kurzbogen, feuert im Doppelschuss.",
+      "type": "hostile",
+      "stats": {
+        "ac": 7,
+        "hp": 3,
+        "thac0": 20,
+        "hd": 1,
+        "weapon": "Short Bow",
+        "damage": "1d6",
+        "movement": 6,
+        "speed_factor": 6
+      },
+      "behavior": "Fernkampf. Weicht aus wenn bedroht."
+    },
+    {
+      "id": "goblin_archer_3",
+      "name": "Goblin-Bogenschuetze",
+      "description": "Der erfahrenste der drei Schuetzen. Zielt ruhig.",
+      "type": "hostile",
+      "stats": {
+        "ac": 6,
+        "hp": 5,
+        "thac0": 19,
+        "hd": 2,
+        "weapon": "Short Bow",
+        "damage": "1d6",
+        "movement": 6,
+        "speed_factor": 6
+      },
+      "behavior": "Praezisionsschuesse. Fokussiert den gefaehrlichsten Spieler."
+    },
+    {
+      "id": "spear_hobgoblin_1",
+      "name": "Hobgoblin-Speerkaempfer",
+      "description": "Disziplinierter Hobgoblin mit langem Speer und Kettenhemd.",
+      "type": "hostile",
+      "stats": {
+        "ac": 5,
+        "hp": 10,
+        "thac0": 18,
+        "hd": 2,
+        "weapon": "Spear",
+        "damage": "1d6",
+        "movement": 9,
+        "speed_factor": 6
+      },
+      "behavior": "Haelt Formation mit Speer (Reichweite 2). Sticht zu bevor Gegner nah genug fuer Schwertkaempfe sind."
+    },
+    {
+      "id": "spear_hobgoblin_2",
+      "name": "Hobgoblin-Speerkaempfer",
+      "description": "Zweiter Hobgoblin-Speerkaempfer, flankiert die Party.",
+      "type": "hostile",
+      "stats": {
+        "ac": 5,
+        "hp": 9,
+        "thac0": 18,
+        "hd": 2,
+        "weapon": "Spear",
+        "damage": "1d6",
+        "movement": 9,
+        "speed_factor": 6
+      },
+      "behavior": "Flankiert und sticht mit Speer (Reichweite 2). Koordiniert mit Partner."
+    },
+    {
+      "id": "orc_slinger",
+      "name": "Grug der Schleuder-Ork",
+      "description": "Ein drahtiger Ork mit einer Lederschleuder. Feuert Bleikugeln aus sicherer Entfernung.",
+      "type": "hostile",
+      "stats": {
+        "ac": 6,
+        "hp": 8,
+        "thac0": 19,
+        "hd": 2,
+        "weapon": "Sling",
+        "damage": "1d4+1",
+        "movement": 9,
+        "speed_factor": 6
+      },
+      "behavior": "Fernkampf mit Schleuder. Haelt maximale Distanz. Flieht bei Nahkampf."
+    },
+    {
+      "id": "champion_knight",
+      "name": "Ser Valthor der Unbesiegbare",
+      "description": "Ein riesiger Ritter in voller Plattenruestung. Seine Lanze ist legendaer — er kann Gegner auf 3 Felder Entfernung treffen.",
+      "type": "hostile",
+      "stats": {
+        "ac": 1,
+        "hp": 32,
+        "thac0": 14,
+        "hd": 7,
+        "weapon": "Lance",
+        "damage": "1d8+4",
+        "movement": 6,
+        "speed_factor": 8
+      },
+      "behavior": "Kaempft mit Lanze (Reichweite 3!). Extrem langsam wegen voller Platte (Movement 6). Greift den staerksten Gegner an."
+    },
+    {
+      "id": "guard_halberd_1",
+      "name": "Leibwache Kron",
+      "description": "Veteranischer Wachmann mit Hellebarde und Kettenhemd.",
+      "type": "hostile",
+      "stats": {
+        "ac": 4,
+        "hp": 14,
+        "thac0": 17,
+        "hd": 3,
+        "weapon": "Halberd",
+        "damage": "1d10",
+        "movement": 9,
+        "speed_factor": 9
+      },
+      "behavior": "Deckt den Champion mit Hellebarde (Reichweite 2). Rueckt langsam vor."
+    },
+    {
+      "id": "guard_halberd_2",
+      "name": "Leibwache Dorn",
+      "description": "Zweiter Leibwaechter, identisch bewaffnet.",
+      "type": "hostile",
+      "stats": {
+        "ac": 4,
+        "hp": 13,
+        "thac0": 17,
+        "hd": 3,
+        "weapon": "Halberd",
+        "damage": "1d10",
+        "movement": 9,
+        "speed_factor": 9
+      },
+      "behavior": "Flankiert zusammen mit dem anderen Waechter. Hellebarde Reichweite 2."
+    }
+  ],
+  "clues": [],
+  "resolution": {
+    "success": "Alle Arenen sind gesaeubert. Die Gladiatoren sind frei!",
+    "condition": "arena4_clear == true"
+  }
+}

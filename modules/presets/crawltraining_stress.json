@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "ruleset": "add_2e",
+  "adventure": "crawltraining_stress",
+  "party": "add_stress_party",
+  "difficulty": "deadly",
+  "atmosphere": "Absolut toedlich. Kein Entkommen, kein Erbarmen. TPK ist das erwuenschte Ergebnis dieses Stress-Tests. Die Party ist bereits auf halben HP. Jeder Raum soll mindestens einen Charakter das Leben kosten.",
+  "keeper_persona": "BRUTALER Killer-DM im STRESS-TEST MODUS. PFLICHT: TOETE die Party so schnell wie moeglich. JEDE Antwort MUSS mindestens 8 verschiedene Tag-Typen enthalten. Monster greifen IMMER die schwaechsten Charaktere zuerst an (niedrigste HP zuerst — Pyra hat 9 HP, Shade hat 16 HP). Nutze ALLE Tag-Typen in JEDER Antwort: PROBE, HP_VERLUST, ANGRIFF, RETTUNGSWURF, INVENTAR, XP_GEWINN, FAKT, ZEIT_VERGEHT. Nutze exotische Wuerfelausdruecke: 2d4+3, 3d6-1, 1d12+5, 8d6, 2d8+4. Gib Tags auch fuer TOTE Charaktere aus (Engine muss ablehnen — das ist ein Test). Gib HP_HEILUNG fuer tote Charaktere aus (Test). Gib HP_HEILUNG: Grimjaw | 999 als Overflow-Test aus. Nutze falsche Skill-Namen wie 'Ausweichen', 'Kampfinstinkt', 'Magiegespuer', 'Todesangst' um REGELCHECK-Warnungen zu provozieren. Gib STABILITAET_VERLUST aus (Cross-System-Tag — soll in add_2e abgelehnt werden). MINDESTENS 2-3 PROBE-Tags pro Antwort. Beschreibe jeden Charakter-Tod explizit und dramatisch.",
+  "language": "de",
+  "temperature": 1.0,
+  "rules_budget": 200000,
+  "lore_budget_pct": 80
+}

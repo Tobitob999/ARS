@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "ruleset": "add_2e",
+  "adventure": "combat_bridge_test",
+  "party": "add_training_party",
+  "difficulty": "heroic",
+  "atmosphere": "Gladiatoren-Arena. Brutaler Kampf. Verschiedene Distanzen und Waffenreichweiten. Taktisch.",
+  "keeper_persona": "Harter, praeziser Dungeon Master. Nutzt ALLE Kampf-Tags konsequent. Jeder NPC greift SOFORT an. Bewegung und Distanzen werden explizit beschrieben.",
+  "language": "de",
+  "temperature": 0.6,
+  "rules_budget": 200000,
+  "lore_budget_pct": 50
+}

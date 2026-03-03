@@ -1,0 +1,25 @@
+{
+  "module": "add_2e",
+  "session_id": 247,
+  "total_turns": 1,
+  "total_latency_ms": 5633.4,
+  "avg_latency_ms": 5633.4,
+  "avg_response_chars": 284.0,
+  "total_probes": 0,
+  "total_combat_tags": 0,
+  "total_rules_warnings": 0,
+  "turns": [
+    {
+      "turn": 1,
+      "latency_ms": 5633.4,
+      "response_chars": 284,
+      "probes": 0,
+      "combat_tags": 0,
+      "stat_changes": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": 0
+    }
+  ]
+}

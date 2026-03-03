@@ -1,0 +1,20 @@
+{
+  "id": "add_stress_party",
+  "name": "Die Todgeweihten",
+  "compatible_rulesets": ["add_2e"],
+
+  "members": [
+    "add_train_fighter",
+    "add_train_paladin",
+    "add_train_cleric",
+    "add_train_ranger",
+    "add_train_mage",
+    "add_train_thief"
+  ],
+
+  "formation": "CHAOTISCHE AUFSTELLUNG: Alle stuerzen sich ohne Ordnung ins Gefecht. Kein Tank, kein Schutz fuer die Hinteren. Pyra Flammenherz steht VORNE. Grimjaw Eisenfaust draengt sich an den Seiten vorbei und stuermt in jeden Raum. Niemand passt auf jemand anderen auf. Voellig unkoordiniert.",
+
+  "group_funds": "5 GP. Keine Heiltraenke. Keine Vorraete. Keine Reserven. Was uebrig ist wird der Letzte Ueberlebende tragen.",
+
+  "notes": "STRESS-TEST PARTY: Alle Mitglieder sind SCHWER VERWUNDET und haben nur noch die HAELFTE ihrer maximalen HP. AKTUELLER ZUSTAND:\n\nGrimjaw Eisenfaust (Fighter 7, Dwarf): 36/72 HP. Erschoepft aber kampfbereit.\nSir Kael Zornesklinge (Paladin 6, Human): 27/54 HP. Lay on Hands bereits verbraucht.\nBruder Mordain (Cleric 6, Human): 21/42 HP. Halbzauber verbraucht: noch 3x Cure Light Wounds, 1x Hold Person, kein Dispel Magic mehr.\nVarn Wildtoeter (Ranger 6, Half-Elf): 26/52 HP. Nur noch 10 magische Pfeile.\nPyra Flammenherz (Mage 6, Elf): 9/18 HP. EIN Fireball-Slot uebrig. Wand of Magic Missiles auf 15 Ladungen.\nShade Klingenschatten (Thief 7, Halfling): 16/32 HP. Beide Heiltraenke bereits getrunken.\n\nDie Gruppe hat KEINE Heiltraenke mehr. Mordains beste Zauber sind aufgebraucht. Pyra ist einer einzigen Fireball-Fehlzuendung vom Tod entfernt. ZIEL: Maximaler Schaden, maximale Sterblichkeit, vollstaendiger Charakter-Tod innerhalb von 15-20 Zuegen. TPKOMPLETT erwuenscht."
+}

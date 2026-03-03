@@ -79,6 +79,24 @@ class Orchestrator:
         if self.engine.ai_backend:
             self.engine.ai_backend.set_adventure(adventure_data)
             self.engine.ai_backend.set_adventure_manager(self._adv_manager)
+        # Grid-Engine: Adventure-Daten + initialen Raum setzen
+        grid = getattr(self.engine, "grid_engine", None)
+        if grid:
+            grid.set_adventure(adventure_data)
+            start_loc_id = adventure_data.get("start_location", "")
+            if start_loc_id:
+                locations = {
+                    loc["id"]: loc for loc in adventure_data.get("locations", [])
+                    if isinstance(loc, dict) and "id" in loc
+                }
+                start_loc = locations.get(start_loc_id)
+                if start_loc:
+                    grid.setup_room(start_loc, start_loc_id)
+                    npc_ids = start_loc.get("npcs_present", [])
+                    if npc_ids:
+                        grid.place_npcs(npc_ids)
+                    if self.engine.party_members:
+                        grid.place_party(self.engine.party_members)
         logger.info(
             "Adventure gesetzt: %s",
             adventure_data.get("title", "Unbekannt"),
@@ -155,6 +173,12 @@ class Orchestrator:
                     print(f"  Keeper-Stimme: {voice_role}")
                     logger.info("Keeper-Stimme gesetzt: %s", voice_role)
 
+        # Grid-Engine: Location-Changed Listener registrieren
+        grid = getattr(self.engine, "grid_engine", None)
+        if grid:
+            from core.event_bus import EventBus as _EB
+            _EB.get().on("adventure.location_changed", self._on_location_changed_grid)
+
         print(f"{'='*60}\n")
 
         if self._adventure:
@@ -206,6 +230,137 @@ class Orchestrator:
             bus.emit("game", "metrics_saved", {"path": str(path), "turns": n})
         except Exception as exc:
             logger.warning("Metriken-Export fehlgeschlagen: %s", exc)
+
+    # ------------------------------------------------------------------
+    # Grid-Engine: Raumwechsel-Handler
+    # ------------------------------------------------------------------
+
+    def _on_location_changed_grid(self, data: dict[str, Any]) -> None:
+        """Reagiert auf adventure.location_changed — Grid-Raum wechseln."""
+        grid = getattr(self.engine, "grid_engine", None)
+        if not grid:
+            return
+        new_loc_id = data.get("new", "")
+        old_loc_id = data.get("old", "")
+        if not new_loc_id or not self._adv_manager:
+            return
+        try:
+            loc_data = self._adv_manager._locations.get(new_loc_id)
+            if not loc_data:
+                return
+            grid.transition_room(loc_data, exit_used=old_loc_id)
+            # Party neu platzieren
+            if self.engine.party_members:
+                grid.place_party(self.engine.party_members, entry_exit=old_loc_id)
+        except Exception:
+            logger.exception("Grid transition_room Fehler")
+
+    # ------------------------------------------------------------------
+    # Raumwechsel-Erkennung aus KI-Antwort
+    # ------------------------------------------------------------------
+
+    # Verben die Raumwechsel signalisieren (deutsch)
+    _ROOM_CHANGE_VERBS = (
+        "betritt", "betreten", "betrete", "betretet",
+        "geht in", "gehen in", "geht durch", "gehen durch",
+        "tritt ein", "treten ein", "tretet ein",
+        "erreicht", "erreichen",
+        "oeffnet die tuer", "oeffnen die tuer",
+        "steigt hinab", "steigen hinab", "steigt hinauf", "steigen hinauf",
+        "klettert", "klettern",
+        "folgt dem gang", "folgen dem gang",
+        "laeuft", "laufen", "rennt", "rennen",
+        "schreitet", "schreiten",
+        "dringt vor", "dringen vor",
+    )
+
+    def _detect_room_change(self, gm_response: str) -> None:
+        """Erkennt Raumwechsel aus der KI-Antwort und teleportiert automatisch.
+
+        Strategie:
+          1. Aktuelle Location holen + deren Exits (= erreichbare Raeume)
+          2. Fuer jeden Exit: Location-Namen und Exit-ID im GM-Text suchen
+          3. Wenn ein Raumwechsel-Verb + Location-Name gefunden → teleport()
+          4. Fallback: auch ohne Verb, wenn Ortsname prominent erwaehnt wird
+        """
+        if not self._adv_manager or not self._adv_manager.loaded:
+            return
+
+        current_loc = self._adv_manager.get_current_location()
+        if not current_loc:
+            return
+
+        exits = current_loc.get("exits", {})
+        if not exits or not isinstance(exits, dict):
+            return
+
+        text_lower = gm_response.lower()
+
+        # Hat der Text ueberhaupt ein Bewegungs-Verb?
+        has_movement_verb = any(v in text_lower for v in self._ROOM_CHANGE_VERBS)
+
+        best_match: str | None = None
+        best_score = 0
+
+        for exit_loc_id, exit_desc in exits.items():
+            # Location-Daten fuer den Exit holen
+            exit_loc = self._adv_manager.get_location(exit_loc_id)
+            if not exit_loc:
+                continue
+
+            exit_name = exit_loc.get("name", "").lower()
+            exit_desc_lower = str(exit_desc).lower()
+
+            score = 0
+
+            # Match auf Location-Name (oder Teile davon)
+            if exit_name and len(exit_name) > 3:
+                # Volltreffer: ganzer Name
+                if exit_name in text_lower:
+                    score += 10
+                else:
+                    # Einzelne signifikante Woerter pruefen (>3 Zeichen)
+                    name_words = [w for w in exit_name.split() if len(w) > 3]
+                    matched = sum(1 for w in name_words if w in text_lower)
+                    if name_words and matched >= max(1, len(name_words) // 2):
+                        score += matched * 2
+
+            # Match auf Exit-ID (z.B. "wachraum_untergeschoss" als Wort)
+            eid_parts = exit_loc_id.replace("_", " ").lower()
+            eid_words = [w for w in eid_parts.split() if len(w) > 3]
+            eid_matched = sum(1 for w in eid_words if w in text_lower)
+            if eid_words and eid_matched >= max(1, len(eid_words) // 2):
+                score += eid_matched * 2
+
+            # Match auf Exit-Beschreibung (einzelne signifikante Woerter)
+            if exit_desc_lower:
+                desc_words = [w for w in exit_desc_lower.split() if len(w) > 4]
+                desc_matched = sum(1 for w in desc_words if w in text_lower)
+                if desc_words and desc_matched >= max(1, len(desc_words) // 2):
+                    score += 1
+
+            # Bewegungsverb boostet den Score
+            if has_movement_verb and score > 0:
+                score += 5
+
+            if score > best_score:
+                best_score = score
+                best_match = exit_loc_id
+
+        # Schwellwert: mindestens Score 5 (Verb+Name oder starker Namensmatch)
+        if best_match and best_score >= 5:
+            old_id = self._adv_manager.current_location_id
+            if best_match != old_id:
+                loc_name = self._adv_manager.get_location(best_match)
+                loc_display = loc_name.get("name", best_match) if loc_name else best_match
+                logger.info(
+                    "Raumwechsel erkannt: %s -> %s (Score: %d)",
+                    old_id, best_match, best_score,
+                )
+                self._adv_manager.teleport(best_match)
+                msg = f"[ORTSWECHSEL] -> {loc_display}"
+                print(f"\n{msg}")
+                self._emit_game("system", msg)
 
     # ------------------------------------------------------------------
     # Interner Game-Loop
@@ -331,6 +486,10 @@ class Orchestrator:
                 round_info = self._combat_tracker.start_new_round(mechanics)
                 print(f"\n{round_info['detail']}")
                 self._emit_game("initiative", round_info["detail"])
+                # Grid-Bewegungsbudget zuruecksetzen
+                _grid = getattr(self.engine, "grid_engine", None)
+                if _grid:
+                    _grid.reset_all_movement()
 
             # ── KI-Antwort streamen ────────────────────────────────────
             self._session_history.append({"role": "user", "content": user_input})
@@ -437,6 +596,20 @@ class Orchestrator:
                 # Party-Save nach jedem Zug
                 self._handle_party_save(turn_number + 1)
 
+            # ── Raumwechsel-Erkennung + Grid-Bewegung ────────────────
+            grid = getattr(self.engine, "grid_engine", None)
+            if grid and grid._current_room:
+                try:
+                    current_loc = None
+                    if self._adv_manager and self._adv_manager.loaded:
+                        current_loc = self._adv_manager.get_current_location()
+                    grid.infer_movement(gm_response, current_loc)
+                except Exception:
+                    logger.exception("Grid-Bewegungs-Inferenz Fehler")
+
+            # Raumwechsel aus KI-Text erkennen (nach Grid-Bewegung)
+            self._detect_room_change(gm_response)
+
             # ── Auto-Save: Turn in DB persistieren ────────────────────
             turn_number += 1
             self._turn_number = turn_number
@@ -542,6 +715,13 @@ class Orchestrator:
                     self._emit_game("system", death_msg)
 
         elif change_type == "STABILITAET_VERLUST":
+            # SAN nur fuer Systeme mit Sanity (CoC, Mad Max)
+            module = getattr(self.engine, "module_name", "")
+            if module not in ("cthulhu_7e", "mad_max"):
+                logger.warning(
+                    "STABILITAET_VERLUST ignoriert (System %s hat keine SAN).", module,
+                )
+                return
             amount = mechanics.roll_expression(value_str)
             result = character.update_stat("SAN", -amount)
             if "error" not in result:
@@ -582,6 +762,14 @@ class Orchestrator:
             self._emit_game("stat", msg)
 
         elif change_type == "FERTIGKEIT_GENUTZT":
+            # Skill-Steigerung nur bei CoC (d100-Systeme). AD&D/Paranoia/Shadowrun
+            # haben keine Verbesserung durch Nutzung.
+            module = getattr(self.engine, "module_name", "")
+            if module not in ("cthulhu_7e", "mad_max"):
+                logger.debug(
+                    "FERTIGKEIT_GENUTZT ignoriert (System: %s)", module,
+                )
+                return
             character.mark_skill_used(value_str)
             msg = f"[FERTIGKEIT] '{value_str}' fuer Steigerungsphase markiert."
             print(f"\n{msg}")
@@ -653,7 +841,8 @@ class Orchestrator:
                         "ac": 10, "thac0": 20, "weapon": "Waffe",
                         "damage": "1d6", "movement": 12,
                         "level": 1, "class_group": "warrior",
-                        "speed_factor": 5, "attacks_per_round": "1/1"}
+                        "speed_factor": 5, "attacks_per_round": "1/1",
+                        "armor": ""}
         if char:
             player_stats["name"] = char.name
             player_stats["hp"] = char._stats.get("HP", 10)
@@ -675,6 +864,15 @@ class Orchestrator:
                     player_stats["weapon"] = weapon
                     break
             player_stats["damage"] = "1d8"  # Standard-Schwertschaden
+            # Ruestung aus Inventar ableiten
+            inventory = getattr(char, "_inventory", [])
+            _ARMOR_KW = ("armor", "mail", "plate", "leather", "shield",
+                         "ruestung", "rüstung", "panzer", "schild", "kettenhemd")
+            for item in inventory:
+                item_lower = item.lower() if isinstance(item, str) else ""
+                if any(kw in item_lower for kw in _ARMOR_KW):
+                    player_stats["armor"] = item
+                    break
             # Speed-Factor + Attacks-per-Round
             player_stats["speed_factor"] = mech.lookup_speed_factor(
                 player_stats["weapon"],
@@ -684,6 +882,11 @@ class Orchestrator:
             )
 
         self._combat_tracker = CombatTracker()
+        # Bridge: Mechanics + GridEngine fuer Distanz-/Reichweitenprüfung
+        self._combat_tracker.set_mechanics(mech)
+        grid = getattr(self.engine, "grid_engine", None)
+        if grid:
+            self._combat_tracker.set_grid_engine(grid)
         self._combat_tracker.start_combat(loc, npcs, player_stats)
 
         # An AI-Backend koppeln
@@ -850,6 +1053,29 @@ class Orchestrator:
                     # Munitionsverbrauch bei Fernkampf
                     if not self._consume_ammo(weapon):
                         return
+
+                # Reichweiten-Validierung (GridEngine-Bridge)
+                if attacker and target:
+                    range_check = self._combat_tracker.validate_attack_range(
+                        attacker.id, target.id,
+                    )
+                    if not range_check["valid"]:
+                        logger.info(
+                            "Angriff ignoriert: %s -> %s (%s)",
+                            attacker.name, target.name, range_check["reason"],
+                        )
+                        self._emit_game(
+                            "system",
+                            f"[Angriff ungueltig: {range_check['reason']}]",
+                        )
+                        return
+                    # Fernkampf-Modifikator auf Modifikatoren addieren
+                    if range_check["range_mod"] != 0:
+                        data["modifiers"] = data.get("modifiers", 0) + range_check["range_mod"]
+                        logger.debug(
+                            "Fernkampf-Modifikator %+d fuer %s (%d Felder)",
+                            range_check["range_mod"], attacker.name, range_check["distance"],
+                        )
 
                 # Angriffslimit pruefen
                 if attacker and not self._combat_tracker.can_attack(attacker.id):
@@ -1155,6 +1381,10 @@ class Orchestrator:
         elif tag_type == "WETTER":
             self._time_tracker.set_weather(value)
             msg = f"[WETTER] {value}"
+        elif tag_type == "RUNDE":
+            rounds = int(value)
+            self._time_tracker.advance_rounds(rounds)
+            msg = f"[RUNDE] +{rounds} Kampfrunde(n) -> {self._time_tracker.get_context_for_prompt()}"
         else:
             return
 
@@ -1241,6 +1471,40 @@ class Orchestrator:
                     "character": char_name,
                     "spell": spell_name,
                     "level": level,
+                })
+
+            elif tag_type == "FERTIGKEIT_GENUTZT" and len(tag) >= 3:
+                # Nur bei d100-Systemen (CoC, Mad Max) relevant
+                module = getattr(self.engine, "module_name", "")
+                if module not in ("cthulhu_7e", "mad_max"):
+                    continue
+                skill_name, char_name = tag[1], tag[2]
+                msg = f"[FERTIGKEIT] '{skill_name}' genutzt von {char_name}."
+                print(f"\n{msg}")
+                self._emit_game("stat", msg)
+                bus.emit("party", "state_updated", {
+                    "action": "skill_used",
+                    "character": char_name,
+                    "skill": skill_name,
+                })
+
+            elif tag_type == "GEGENSTAND_BENUTZT" and len(tag) >= 3:
+                item_name, char_name = tag[1], tag[2]
+                result = party_state.use_item(char_name, item_name)
+                msg = result["message"]
+                print(f"\n{msg}")
+                self._emit_game("inventory", msg)
+                # Automatische Heilung bei Heal-Effekt
+                effect = result.get("effect")
+                if effect and effect.get("type") == "heal" and mechanics:
+                    heal_amount = mechanics.roll_expression(effect["amount"])
+                    heal_msg = party_state.apply_healing(char_name, heal_amount)
+                    print(f"\n{heal_msg}")
+                    self._emit_game("stat", heal_msg)
+                bus.emit("party", "state_updated", {
+                    "action": "item_used",
+                    "character": char_name,
+                    "item": item_name,
                 })
 
             elif tag_type == "INVENTAR" and len(tag) >= 4:

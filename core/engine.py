@@ -148,6 +148,7 @@ class SimulatorEngine:
         self.party_data: dict[str, Any] | None = None
         self.party_members: list[dict[str, Any]] | None = None
         self.party_state = None  # PartyStateManager (aktiv im Party-Modus)
+        self.grid_engine = None   # GridEngine (Tile-basierte Bewegung)
         self.rules_engine = None
         self._voice_enabled = False
         self._orchestrator = None
@@ -226,6 +227,13 @@ class SimulatorEngine:
                 len(self.party_members),
             )
 
+        # Grid-Engine initialisieren (Tile-basierte Bewegung)
+        from core.grid_engine import GridEngine
+        self.grid_engine = GridEngine()
+        if self.party_data:
+            self.grid_engine.set_formation(self.party_data.get("formation", ""))
+        logger.info("GridEngine initialisiert.")
+
         # KI-Backend initialisieren
         from core.ai_backend import GeminiBackend
         self.ai_backend = GeminiBackend(
@@ -241,6 +249,10 @@ class SimulatorEngine:
         # Party-State ans AI-Backend koppeln
         if self.party_state and self.ai_backend:
             self.ai_backend.set_party_state(self.party_state)
+
+        # Grid-Engine ans AI-Backend koppeln
+        if self.grid_engine and self.ai_backend:
+            self.ai_backend.set_grid_engine(self.grid_engine)
 
         # Rules Engine an KI-Backend koppeln (fuer dynamische Regel-Injektion)
         if self.rules_engine:

@@ -299,6 +299,25 @@ SKILL_ALIASES: dict[str, dict[str, str]] = {
         "Hacken": "",               # Shadowrun-Skill
         "Elektronik": "",           # Shadowrun-Skill
         "Feuerwaffen": "",          # Shadowrun-Skill
+        # Deutsche Aliase → kanonische AD&D 2e Skill-Namen
+        "Fallen entdecken": "Find/Remove Traps",
+        "Fallen suchen": "Find/Remove Traps",
+        "Fallen-Suchen": "Find/Remove Traps",
+        "Schloesser oeffnen": "Open Locks",
+        "Schloss oeffnen": "Open Locks",
+        "Lautlos bewegen": "Move Silently",
+        "Schleichen": "Move Silently",
+        "Im Schatten verbergen": "Hide in Shadows",
+        "Verstecken": "Hide in Shadows",
+        "Faehrtensuche": "Tracking",
+        "Faehrten lesen": "Tracking",
+        "Heilkunde": "Healing",
+        "Erste Hilfe": "Healing",
+        "Taschendiebstahl": "Pick Pockets",
+        "Mauern erklimmen": "Climb Walls",
+        "Klettern": "Climb Walls",
+        "Geraeusche hoeren": "Detect Noise",
+        "Lauschen": "Detect Noise",
     },
     "cthulhu_7e": {
         # English → German canonical

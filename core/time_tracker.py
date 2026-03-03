@@ -42,6 +42,10 @@ class TimeTracker:
         self._minute = minute
         self._day = day
         self._weather = weather
+        # Runden-Tracking (AD&D 2e: 1 Kampfrunde = 1 Minute, 10 Runden = 1 Turn)
+        self._round_total: int = 0
+        self._round_current_combat: int = 0
+        self._in_combat: bool = False
 
     # ------------------------------------------------------------------
     # Oeffentliche API
@@ -98,15 +102,46 @@ class TimeTracker:
             return "Abend"
         return "Nacht"
 
+    def advance_rounds(self, n: int) -> None:
+        """
+        Laesst n Kampfrunden vergehen (AD&D 2e: 1 Runde = 1 Minute).
+        Ruft intern advance() auf um die Uhrzeit mitzufuehren.
+        """
+        self._round_total += n
+        if self._in_combat:
+            self._round_current_combat += n
+        self.advance(n / 60.0)  # n Minuten in Stunden
+        logger.info(
+            "Runden vorgerueckt: +%d (Gesamt: %d, Kampf: %d)",
+            n, self._round_total, self._round_current_combat,
+        )
+
+    def start_combat(self) -> None:
+        """Markiert den Beginn eines Kampfes — setzt Kampfrunden-Zaehler zurueck."""
+        self._in_combat = True
+        self._round_current_combat = 0
+        logger.info("Kampf begonnen (Runde 0).")
+
+    def end_combat(self) -> None:
+        """Markiert das Ende eines Kampfes."""
+        rounds = self._round_current_combat
+        self._in_combat = False
+        self._round_current_combat = 0
+        logger.info("Kampf beendet nach %d Runden.", rounds)
+
     def get_context_for_prompt(self) -> str:
         """
         Gibt einen kompakten Kontextstring fuer den System-Prompt zurueck.
         Beispiel: "Tag 1, 14:30 (Nachmittag) | Wetter: klar"
+        Im Kampf zusaetzlich: "Kampfrunde: N"
         """
-        return (
+        base = (
             f"Tag {self._day}, {self._hour:02d}:{self._minute:02d} "
             f"({self.get_time_of_day()}) | Wetter: {self._weather}"
         )
+        if self._in_combat:
+            base += f" | Kampfrunde: {self._round_current_combat}"
+        return base
 
     # ------------------------------------------------------------------
     # Properties
@@ -127,3 +162,11 @@ class TimeTracker:
     @property
     def weather(self) -> str:
         return self._weather
+
+    @property
+    def round_total(self) -> int:
+        return self._round_total
+
+    @property
+    def in_combat(self) -> bool:
+        return self._in_combat

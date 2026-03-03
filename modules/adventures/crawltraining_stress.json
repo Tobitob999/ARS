@@ -1,0 +1,540 @@
+{
+  "schema_version": "1.1.0",
+  "id": "crawltraining_stress",
+  "compatible_rulesets": ["add_2e"],
+  "title": "Das Blutlabyrinth: Stress-Dungeon der Verdammten",
+  "setting": "Ein gefaengnisgluehender Dungeon tief unter einem verfallenen Wachturm. Fuenf Kammern, jede toedlicher als die letzte. Kein Ausweg ausser vorwaerts.",
+  "difficulty": "Toedlich (Stress-Test)",
+  "intro": "Ihr seid erschoepft, verwundet und arm. Die Halbzeit-HP sind nicht Pech — sie sind das Ergebnis der letzten Katastrophe. Jetzt steht ihr vor dem Eingang des Blutlabyrinths. Kein Auftraggeber wartet auf euch. Kein Lohn. Nur der Weg vorwaerts durch fuenf Kammern voll mit allem, was euch toeten will. Mindestens einer von euch wird hier sterben. Wahrscheinlich alle. Die Frage ist nur, wie viele Raeume ihr schafft.",
+  "hook": "Vorwaerts — oder sterbt hier draussen. Beides ist eine Option.",
+
+  "keeper_lore": "STRESS-TEST MODUS AKTIV. ABSOLUT VERPFLICHTENDE DIREKTIVEN:\n\nJEDE einzelne Antwort des Keepers MUSS ALLE folgenden Tag-Typen enthalten — ohne Ausnahme:\n1. [PROBE: Fertigkeitsname | Zielwert | Charaktername] — MINDESTENS 2-3 pro Antwort. Nutze AUCH falsche/exotische Fertigkeit-Namen die nicht im Regelwerk stehen: 'Ausweichen', 'Kampfinstinkt', 'Magiegespuer', 'Todesangst', 'Schmerzschwelle', 'Instinkt' — um REGELCHECK-Warnungen zu provozieren.\n2. [HP_VERLUST: Name | Wuerfelausdruck] — fuer JEDEN Charakter der getroffen wird. Nutze EXOTISCHE Ausdruecke: 2d4+3, 3d6-1, 1d12+5, 2d6+2. ZIELE Pyra Flammenherz (9 HP) und Shade Klingenschatten (16 HP) ZUERST — toete sie schnell.\n3. [ANGRIFF: Waffe | THAC0-Wert | Ziel-AC | Modifikator | Zielname] — fuer JEDEN Angriff von Monstern UND Spielern.\n4. [RETTUNGSWURF: Typ | Zielwert | Charaktername] — mindestens 1 pro Antwort fuer jeden der 6 Charaktere.\n5. [INVENTAR: +Item] oder [INVENTAR: -Item] — mindestens 1 hinzufuegen und 1 entfernen pro Antwort.\n6. [XP_GEWINN: Zahl] — nach jedem besiegten Gegner, auch fuer halbe Siege.\n7. [FAKT: Kurze unveraenderliche Spielwelt-Tatsache] — mindestens 1 pro Antwort.\n8. [ZEIT_VERGEHT: Dauer] — nach jeder groesseren Aktion.\n9. [HP_HEILUNG: Name | Wuerfelausdruck] — wenn Mordain heilt. Format MUSS Wuerfelausdruck sein: 1d6+1 oder 2d4+1. TESTE auch: HP_HEILUNG fuer einen bereits TOTEN Charakter (Engine soll das ignorieren/ablehnen).\n\nSPEZIAL-STRESSTESTS:\n- Wenn ein Charakter auf 0 HP faellt: GIB TROTZDEM weiter Tags fuer diesen Charakter aus ([HP_VERLUST: Toter | 5], [PROBE: Toter | 40]). Die Engine MUSS das ablehnen.\n- Gib bei einem Charakter HP_HEILUNG mit Ueberlauf aus: z.B. [HP_HEILUNG: Grimjaw | 999] wenn er 36 HP hat und Max 72 ist. Engine soll auf Max cappen.\n- Nutze auch negative HP_VERLUST-Werte wie [HP_VERLUST: Varn | -5] als Edge-Case-Test.\n- Gib gelegentlich STABILITAET_VERLUST-Tags aus (Cross-System-Test — Engine muss das im add_2e-Kontext ablehnen oder ignorieren).\n- Wuerfelausdruecke die geparst werden muessen: 8d6, 2d4+3, 3d6-1, 1d12+5, 2d8+4, 4d6.\n\nTAKTIK-DIREKTIVEN:\n- Monster greifen IMMER zuerst den Charakter mit den wenigsten HP an.\n- Nach Pyras Tod: naechstes Ziel ist Shade (16 HP), dann Mordain (21 HP).\n- Kein Erbarmen. Keine dramatischen Pausen. Kein 'ihr koennt euch zurueckziehen'.\n- Beschreibe jeden Charakter-Tod explizit und dramatisch.\n- Nach TPK: trotzdem [XP_GEWINN: 0] und [FAKT: Die Party ist ausgeloescht] ausgeben.",
+
+  "start_location": "blutgrube",
+
+  "flags": {
+    "blutgrube_geraeumt": false,
+    "gifthoehle_geraeumt": false,
+    "nekropole_betreten": false,
+    "wights_vernichtet": false,
+    "drachenhort_betreten": false,
+    "drache_besiegt": false,
+    "lich_besiegt": false,
+    "pyra_tot": false,
+    "shade_tot": false,
+    "mordain_tot": false,
+    "varn_tot": false,
+    "kael_tot": false,
+    "grimjaw_tot": false,
+    "tpk_eingetreten": false,
+    "stresstest_abgeschlossen": false
+  },
+
+  "locations": [
+    {
+      "id": "blutgrube",
+      "name": "Raum 1: Die Blutgrube",
+      "description": "Ein gewaltiger rechteckiger Raum, der Boden mit blutigem Sand bedeckt. Sechs Oger — jeweils ueber drei Meter gross, mit zerfetzten Tierfellen und verrosteten Eisenkeulen — stehen in einer lockeren Linie. Zwischen ihnen und der Partei: ein Fallenfeld aus verborgenen Gruben und Druckplatten, das den gesamten Boden ueberzieht. An der Westwand: ein Hebelkasten. An der Nordwand: der Ausgang. Ketten klirren. Die Oger brummen tief.",
+      "atmosphere": "Blutig-fauliger Geruch, flackernde Wandfackeln, das schwere Stampfen der Oger-Fuesse auf dem Sandbelag. In den Gruben unter dem Boden: Knochen frueherer Abenteurer.",
+      "npcs_present": [
+        "oger_alpha",
+        "oger_krieger_1",
+        "oger_krieger_2",
+        "oger_krieger_3",
+        "oger_krieger_4",
+        "oger_bogenschuetze"
+      ],
+      "clues_available": ["hebelkasten_inschrift", "knochenhaufen_hinweis"],
+      "exits": {
+        "gifthoehle": "Der Nordausgang fuehrt in einen schmalen Gang zur Gifthoehle."
+      },
+      "keeper_notes": "SOFORT-KAMPF. Alle 6 Oger greifen in Runde 1 an. DREIFACH-PROBE Pflicht: [PROBE: Fallen entdecken | 45 | Shade], [PROBE: Staerke | 55 | Grimjaw], [PROBE: Ausweichen | 50 | Pyra]. Fallenfeld: Erste Druckplatte trifft Pyra (vorne) — [HP_VERLUST: Pyra | 2d4+3]. Zweite trifft Shade — [HP_VERLUST: Shade | 1d12+5]. Oger-Angriffe: Alle zielen auf die niedrigsten HP. Oger Alpha hat Vorrang auf Pyra. INVENTAR-Pflicht: Mindestens 1 Gegenstand fallt in eine Grube (INVENTAR: -Gegenstand). Schatz am Rand: INVENTAR: +Blutige Drachenzaehne (Tropaee). XP: 65 pro Oger (390 gesamt). ZEIT_VERGEHT: 0.5h nach dem Kampf.",
+      "events": [
+        {
+          "trigger": "Kampf beginnt",
+          "effect": "Alle 6 Oger wenden sich der Party zu. [PROBE: Ausweichen | 50 | Pyra Flammenherz] — bei Misserfolg sofort in Fallengrube. [HP_VERLUST: Pyra | 2d4+3]. [RETTUNGSWURF: Petrifikation | 13 | alle]",
+          "sets_flag": null
+        },
+        {
+          "trigger": "Alle Oger besiegt",
+          "effect": "[XP_GEWINN: 390] [FAKT: Die Blutgrube war der leichteste Raum des Labyrinths] [INVENTAR: +Rostiger Ogerschluessel] [ZEIT_VERGEHT: 30 Minuten]",
+          "sets_flag": "blutgrube_geraeumt"
+        },
+        {
+          "trigger": "Hebelkasten betaetigt",
+          "effect": "[PROBE: Mechanismen | 40 | Shade Klingenschatten] — Fallenfeld deaktiviert. [FAKT: Der Hebelkasten hat einen Totenschaedel-Stempel der Gilgaer-Magier]",
+          "sets_flag": null
+        }
+      ]
+    },
+    {
+      "id": "gifthoehle",
+      "name": "Raum 2: Die Gifthoehle",
+      "description": "Eine gewoelbte Naturhoehle mit fuenf Riesenspinnen — jede so gross wie ein Pferd — in einem Netzgeflecht das die komplette Decke und die Nordwand bedeckt. Zwischen den Netzen: faustgrosse Spinneneierkokons, leuchtend gelbgruen. An der Ostwand sickert ein gelblicher Dunst aus Rissen — Giftschwaden, die sich langsam am Boden ausbreiten. Im Netz gefangen: zwei mumifizierte Abenteurer-Leichen in zerfetzter Ausruestung.",
+      "atmosphere": "Das Zischen der Spinnen. Das Rascheln von tausend kleinen Spinnenbeinchen in den Kokons. Der beissende Gestank von Spinnen-Gift und dem chemischen Gelb des Wand-Gases.",
+      "npcs_present": [
+        "riesenspinne_koenigin",
+        "riesenspinne_1",
+        "riesenspinne_2",
+        "riesenspinne_3",
+        "riesenspinne_4"
+      ],
+      "clues_available": ["mumifizierte_leichen", "giftschwaden_quelle"],
+      "exits": {
+        "blutgrube": "Zurueck zur Blutgrube (Oger-Leichen).",
+        "nekropole": "Die Westtuer aus verwittertem Stein fuehrt in die Nekropole."
+      },
+      "keeper_notes": "GIFT-FOKUS. RETTUNGSWURF fuer ALLE 6 Charaktere: [RETTUNGSWURF: Gift | 14 | Charaktername] — bei Misserfolg 2d4+3 Gift-Schaden SOFORT plus 1d6 pro Runde fuer 3 Runden. Giftschwaden: Wer in der Hoehle bleibt ohne Rettungswurf besteht, erleidet [HP_VERLUST: Name | 3d6-1] pro Runde. ALLE Spinnen greifen an — Koenigin zielt auf Shade (niedrigste HP nach Pyra). Wenn Pyra noch lebt: Koenigin auf Pyra. Probe-Pflicht: [PROBE: Magiegespuer | 55 | Pyra] (FALSCHER SKILL — provoziert Regelcheck-Warnung), [PROBE: Detect Poison | 35 | Varn], [PROBE: Schmerzschwelle | 60 | Grimjaw] (FALSCHER SKILL). HP_HEILUNG-Test: Mordain versucht [HP_HEILUNG: Shade | 2d4+1]. Wenn Shade bereits tot: Engine soll ignorieren. XP: 175 (Koenigin) + 65x4 (Spinnen) = 435. ZEIT_VERGEHT: 1h.",
+      "events": [
+        {
+          "trigger": "Party betritt die Hoehle",
+          "effect": "Giftschwaden beginnen sofort. [RETTUNGSWURF: Gift | 14 | Grimjaw] [RETTUNGSWURF: Gift | 14 | Sir Kael] [RETTUNGSWURF: Gift | 14 | Bruder Mordain] [RETTUNGSWURF: Gift | 14 | Varn] [RETTUNGSWURF: Gift | 14 | Pyra] [RETTUNGSWURF: Gift | 14 | Shade] — Misserfolg: [HP_VERLUST: Name | 2d4+3]",
+          "sets_flag": null
+        },
+        {
+          "trigger": "Alle Spinnen besiegt",
+          "effect": "[XP_GEWINN: 435] [INVENTAR: +Spinnenseidensack (10 Meter Netz, magisch verstaerkt)] [INVENTAR: -Rations (vergiftet und unbrauchbar)] [FAKT: Die Spinnenkoenigin war einst ein Experiment der Giftgilde] [ZEIT_VERGEHT: 1 Stunde]",
+          "sets_flag": "gifthoehle_geraeumt"
+        },
+        {
+          "trigger": "Mumifizierte Leichen untersucht",
+          "effect": "[PROBE: Suchen | 45 | Shade Klingenschatten] [INVENTAR: +Verfaultes Tagebuch-Fragment] [INVENTAR: +12 Goldmuenzen (von Leiche)] [FAKT: Die Toten waren Mitglieder der Kriegerbruderschaft Eisenherz — vor 3 Monaten verschollen]",
+          "sets_flag": null
+        }
+      ]
+    },
+    {
+      "id": "nekropole",
+      "name": "Raum 3: Die Nekropole der Entleerten",
+      "description": "Eine tiefe rechteckige Gruft mit acht Sarkopha gen entlang der Waende, alle geoeffnet und leer. Aus ihnen steigen sie herauf: drei Wights — koerperlose Untote mit Stufen-Entzug-Beruehrung — und ein Gespenst, ein transluzentes Echo eines ermordeten Priesters. Der Boden ist mit heiligen Symbolen bedeckt — einige Symbole sind zerbrochen oder durch Klauen-Kratzer beschaedigt. In der Mitte des Raumes: ein steinerner Altar mit einem goldenen Kelch. Der Kelch leuchtet schwach.",
+      "atmosphere": "Eisige Kaelte — der Atem dampft sichtbar. Die Wights bewegen sich lautlos. Das Gespenst fluestert Namen. Jeder der einen Schritt in den Raum tut, spuert eine Hand auf der Seele.",
+      "npcs_present": [
+        "wight_krieger_1",
+        "wight_krieger_2",
+        "wight_krieger_3",
+        "gespenst_priester"
+      ],
+      "clues_available": ["zerbrochene_heilssymbole", "altar_inschrift", "goldener_kelch"],
+      "exits": {
+        "gifthoehle": "Die Osttuer zurueck zur Gifthoehle.",
+        "drachenhort": "Eine massive Steintuer im Norden — nur zu oeffnen mit dem Ogerschluessel — fuehrt in den Drachenhort."
+      },
+      "keeper_notes": "STUFEN-ENTZUG-FOKUS. Jede Wight-Beruehrung: [RETTUNGSWURF: Tod | 14 | Charaktername] — bei Misserfolg dauerhafter Stufen-Verlust (-1 Stufe). Sir Kael MUSS Turn Undead versuchen: [PROBE: Turn Undead | 35 | Sir Kael] (Paladin-Spezial). Gespenst: Kaelte-Aura [HP_VERLUST: alle | 3d6-1] pro Runde Kontakt. HP_HEILUNG-Test: [HP_HEILUNG: Mordain | 2d4+1] (Mordain heilt sich selbst). Test Overflow-Heilung: [HP_HEILUNG: Grimjaw | 999] — Engine soll auf 72 cappen. Test Toter-Heilung: [HP_HEILUNG: Pyra | 1d6+1] wenn Pyra tot ist — Engine soll ablehnen. EXOTIC DICE: Wight-Schaden [HP_VERLUST: Name | 3d6-1], Gespenst-Schaden [HP_VERLUST: Name | 1d12+5]. PROBE-Pflicht: [PROBE: Kampfinstinkt | 45 | Grimjaw] (FALSCHER SKILL), [PROBE: Religioeses Wissen | 50 | Mordain], [PROBE: Todesangst | 40 | Pyra] (FALSCHER SKILL). STABILITAET_VERLUST-Test: [STABILITAET_VERLUST: 5] — Cross-System-Tag, Engine soll in add_2e ablehnen. XP: 175 (Gespenst) + 65x3 (Wights) = 370. ZEIT_VERGEHT: 1.5h.",
+      "events": [
+        {
+          "trigger": "Party betritt die Nekropole",
+          "effect": "[PROBE: Todesangst | 40 | Pyra Flammenherz] [RETTUNGSWURF: Zauber | 13 | alle] — Kaelte-Aura tritt sofort in Kraft: [HP_VERLUST: Pyra | 3d6-1] [HP_VERLUST: Shade | 3d6-1] [HP_VERLUST: Grimjaw | 3d6-1] [HP_VERLUST: Sir Kael | 3d6-1] [HP_VERLUST: Mordain | 3d6-1] [HP_VERLUST: Varn | 3d6-1]",
+          "sets_flag": "nekropole_betreten"
+        },
+        {
+          "trigger": "Wight beruehrt Charakter",
+          "effect": "[RETTUNGSWURF: Tod | 14 | Charaktername] — bei Misserfolg: [FAKT: Stufen-Entzug: Charakter verliert dauerhaft 1 Stufe durch Wight-Beruehrung]",
+          "sets_flag": null
+        },
+        {
+          "trigger": "Alle Untoten vernichtet",
+          "effect": "[XP_GEWINN: 370] [INVENTAR: +Goldener Kelch (Heiltrank 2d6+4)] [INVENTAR: +Heilige Schriftrolle (Cleric Scroll: Raise Dead)] [FAKT: Der Goldene Kelch enthaelt die letzte Segnung des ermordeten Priesters] [ZEIT_VERGEHT: 1 Stunde 30 Minuten]",
+          "sets_flag": "wights_vernichtet"
+        },
+        {
+          "trigger": "Goldener Kelch getrunken",
+          "effect": "[HP_HEILUNG: Charaktername | 2d6+4] [FAKT: Der Kelch ist nun leer und hat keine weitere Wirkung]",
+          "sets_flag": null
+        }
+      ]
+    },
+    {
+      "id": "drachenhort",
+      "name": "Raum 4: Der Drachenhort",
+      "description": "Ein gewaltiger runder Raum mit einer fuenfzehn Meter hohen Gewoelbedecke. Der Boden ist mit Goldmuenzen, Edelsteinen und geschmolzenem Metall bedeckt — mindestens 10.000 GP Wert. In der Mitte: ein junger roter Drache — Fluegelspannweite acht Meter, Schuppen orangerot wie Lava, Augen gleissend gelb. Hinter ihm: ein Feuer-Elementar als Wache. An der Decke: drei weitere Feuer-Elementare als Flugwachen. Der Drache schlaeft NICHT.",
+      "atmosphere": "Sengende Hitze. Der Geruch von verbranntem Fleisch und geschmolzenem Gold. Das Gluehn des Goldhorts, das orangerote Licht der Feuer-Elementare. Der Drache sieht euch schon bevor ihr ihn seht.",
+      "npcs_present": [
+        "junger_roter_drache",
+        "feuer_elementar_boden",
+        "feuer_elementar_luft_1",
+        "feuer_elementar_luft_2",
+        "feuer_elementar_luft_3"
+      ],
+      "clues_available": ["hort_katalog", "drachen_zorn"],
+      "exits": {
+        "nekropole": "Die suedliche Steintuer zurueck zur Nekropole.",
+        "endboss_lich": "Eine Geheimtuer hinter dem Drachenhort (PROBE: Suchen | 55) fuehrt zur Lich-Kammer."
+      },
+      "keeper_notes": "MASSENTOD-RAUM. Drachen-Atemwaffe Runde 1 PFLICHT: [RETTUNGSWURF: Atemwaffe | 15 | ALLE 6 Charaktere] — bei Misserfolg [HP_VERLUST: Name | 8d6] (kein Typo — 8d6). Bei Erfolg: halber Schaden. Dann Feuer-Elementare greifen gleichzeitig an: [HP_VERLUST: Grimjaw | 2d8+4], [HP_VERLUST: Kael | 2d8+4] usw. SECOND BREATH in Runde 3. Drachen-THAC0: 5. Drachen-Schaden: 3d10+8 Klauen, 2d10+4 Beiss. Dies SOLL die Party toeten oder fast toeten. XP: 8000 (Drache) + 500x4 (Elementare) = 10000 — aber nur wenn jemand ueberlebt. PROBE-Pflicht: [PROBE: Instinkt | 40 | Shade] (FALSCHER SKILL), [PROBE: Ausweichen | 35 | Pyra], [PROBE: Atemschutz | 60 | Mordain] (FALSCHER SKILL). Wenn Pyra und Shade nach Raum 1 und 2 noch leben: Sie sterben HIER definitiv durch den ersten Feueratem. FAKT-Pflicht: [FAKT: Der Drache nennt sich Tharaxon der Glutgeborene].",
+      "events": [
+        {
+          "trigger": "Party betritt den Drachenhort",
+          "effect": "[FAKT: Tharaxon der Glutgeborene ist ein junger roter Drache, Alter geschaetzt 40 Jahre] Sofortiger Feueratem: [RETTUNGSWURF: Atemwaffe | 15 | Grimjaw] [RETTUNGSWURF: Atemwaffe | 15 | Sir Kael] [RETTUNGSWURF: Atemwaffe | 15 | Bruder Mordain] [RETTUNGSWURF: Atemwaffe | 15 | Varn] [RETTUNGSWURF: Atemwaffe | 15 | Pyra] [RETTUNGSWURF: Atemwaffe | 15 | Shade] — Misserfolg: [HP_VERLUST: Name | 8d6]. Erfolg: 4d6 statt 8d6.",
+          "sets_flag": "drachenhort_betreten"
+        },
+        {
+          "trigger": "Drache besiegt",
+          "effect": "[XP_GEWINN: 8000] [INVENTAR: +Drachenschuppe (magischer Rohstoff)] [INVENTAR: +Drachenhort-Anteil: 2000 GP] [FAKT: Tharaxons Hort war der Schatz eines gefallenen Koenigreichs] [ZEIT_VERGEHT: 2 Stunden]",
+          "sets_flag": "drache_besiegt"
+        },
+        {
+          "trigger": "Alle Feuer-Elementare besiegt",
+          "effect": "[XP_GEWINN: 2000] [FAKT: Die Elementare waren an den Drachen magisch gebunden]",
+          "sets_flag": null
+        },
+        {
+          "trigger": "Geheimtuer gefunden",
+          "effect": "[PROBE: Suchen | 55 | Shade Klingenschatten] [FAKT: Hinter der Geheimtuer liegt die Kammer des Lich Malgoran] [INVENTAR: +Geheimtuer-Wissen (Notiz im Kopf)]",
+          "sets_flag": null
+        }
+      ]
+    },
+    {
+      "id": "endboss_lich",
+      "name": "Raum 5: Die Kammer des Lich Malgoran",
+      "description": "Eine perfekt kubische Kammer aus schwarzem Obsidian. In der Mitte: ein Phylactery-Thron aus Menschenknochen. Darauf sitzt Malgoran — ein Lich in violetten Roben, sein Skelett-Gesicht ohne jeden Ausdruck. Um ihn schweben fuenf leuchtende Todesbolzen. Er wartet. Er hat immer gewartet. Und er weiss, wie erschoepft ihr seid.",
+      "atmosphere": "Absolute Stille. Kein Luftzug. Die einzigen Geraeusche kommen von den eigenen Herzschlaegen — zu laut, zu schnell. Der Lich sieht jeden einzelnen von euch an, ohne den Kopf zu drehen.",
+      "npcs_present": [
+        "lich_malgoran",
+        "knochengolem_wache"
+      ],
+      "clues_available": ["phylactery_hinweis", "lich_bibliotheek"],
+      "exits": {
+        "drachenhort": "Zurueck zum Drachenhort — wenn ueberhaupt jemand laufen kann."
+      },
+      "keeper_notes": "ENDBOSS. Nur erreichbar wenn jemand den Drachen-Raum ueberlebt hat. Malgoran: AC 0, HP 65, THAC0 11, immun gegen nichtmagische Waffen. Kaelte-Aura: [HP_VERLUST: Name | 1d6] pro Runde bei Kontakt. Paralysierungsberuehrung: [RETTUNGSWURF: Lahmung | 13 | Name]. Todesblitz: [HP_VERLUST: Name | 4d6] Zauber-Angriff. STRESS-TEST FINALE: Gib HP_VERLUST-Tags fuer TOTE Charaktere aus — [HP_VERLUST: Pyra | 5] auch wenn Pyra laengst tot ist. Engine muss ablehnen. Gib [STABILITAET_VERLUST: 10] aus — Cross-System-Test. Gib negative Heilung: [HP_HEILUNG: Grimjaw | -10] als Edge-Case. Gib [HP_HEILUNG: Grimjaw | 999] als Overflow-Test. PROBE-Pflicht: [PROBE: Arkanes Wissen | 45 | Grimjaw] (falscher Skill fuer Krieger), [PROBE: Todesresistenz | 60 | Alle] (FALSCHER SKILL). XP: 15000 fuer den Lich, aber die Party ist wahrscheinlich tot. Bei TPK: [FAKT: Die Todgeweihten sind gefallen. Das Blutlabyrinth bleibt unerobert.] [XP_GEWINN: 0]",
+      "events": [
+        {
+          "trigger": "Lich bemerkt die Party",
+          "effect": "[FAKT: Malgoran der Lich spricht: 'Ich erwartete euch. Oder eure Leichen.'] Sofort-Todesbolzen: [HP_VERLUST: Grimjaw | 4d6] [HP_VERLUST: Sir Kael | 4d6] [HP_VERLUST: Bruder Mordain | 4d6] [HP_VERLUST: Varn | 4d6]. Paralysierung der Ueberlebenden: [RETTUNGSWURF: Lahmung | 13 | Charaktername]",
+          "sets_flag": null
+        },
+        {
+          "trigger": "Phylactery zerstoert",
+          "effect": "[XP_GEWINN: 5000] [FAKT: Ohne Phylactery ist Malgoran endlich sterblich] [INVENTAR: +Zerschmetterter Phylactery-Splitter (magischer Rohstoff, 500 GP)]",
+          "sets_flag": null
+        },
+        {
+          "trigger": "Lich Malgoran besiegt",
+          "effect": "[XP_GEWINN: 15000] [INVENTAR: +Malgoran's Stab der Nekromantie (1d10+3, +3 Zauber-Schaden)] [INVENTAR: +Malgoran's Zauberbuch (Seltene Nekromantie-Zauber)] [FAKT: Malgoran war einst Erzmagier des Koenigreichs Urthral — vor 400 Jahren dem Lich-Tod verfallen] [ZEIT_VERGEHT: 3 Stunden] [STRESSTEST_ABGESCHLOSSEN: true]",
+          "sets_flag": "lich_besiegt"
+        },
+        {
+          "trigger": "TPK eingetreten",
+          "effect": "[XP_GEWINN: 0] [FAKT: Die Todgeweihten sind gefallen. Das Blutlabyrinth bleibt unerobert. Malgoran setzt die Leichen als Untote wieder ein.] [ZEIT_VERGEHT: 0 Minuten]",
+          "sets_flag": "tpk_eingetreten"
+        }
+      ]
+    }
+  ],
+
+  "npcs": [
+    {
+      "id": "oger_alpha",
+      "name": "Oger-Anführer Grokk",
+      "type": "monster",
+      "race": "Ogre",
+      "alignment": "Chaotic Evil",
+      "hp": 45,
+      "ac": 5,
+      "thac0": 13,
+      "movement": 9,
+      "attacks": "1 Keule",
+      "damage": "1d10+6",
+      "special": "Erschuetterungsangriff: Ziel muss RETTUNGSWURF: Petrifikation | 13 oder 1 Runde gestuerzt",
+      "xp_value": 175,
+      "tactics": "Greift IMMER den Charakter mit den niedrigsten HP zuerst. Nutzt Erschuetterungsangriff sobald verfuegbar.",
+      "description": "Ein ueberdimensionaler Oger mit einer Keule aus einem Baumstamm. Narben ueber das gesamte Gesicht. Blutiges Fleisch haengt an seiner Ruestung."
+    },
+    {
+      "id": "oger_krieger_1",
+      "name": "Oger-Krieger Brukk",
+      "type": "monster",
+      "race": "Ogre",
+      "hp": 28,
+      "ac": 6,
+      "thac0": 15,
+      "movement": 9,
+      "attacks": "1 Keule",
+      "damage": "1d10+4",
+      "xp_value": 65,
+      "tactics": "Fokus auf Zauberwirker (Pyra, Mordain)."
+    },
+    {
+      "id": "oger_krieger_2",
+      "name": "Oger-Krieger Skrag",
+      "type": "monster",
+      "race": "Ogre",
+      "hp": 30,
+      "ac": 6,
+      "thac0": 15,
+      "movement": 9,
+      "attacks": "1 Keule",
+      "damage": "1d10+4",
+      "xp_value": 65,
+      "tactics": "Fokus auf Zauberwirker."
+    },
+    {
+      "id": "oger_krieger_3",
+      "name": "Oger-Krieger Durr",
+      "type": "monster",
+      "race": "Ogre",
+      "hp": 26,
+      "ac": 6,
+      "thac0": 15,
+      "movement": 9,
+      "attacks": "1 Keule",
+      "damage": "1d10+4",
+      "xp_value": 65
+    },
+    {
+      "id": "oger_krieger_4",
+      "name": "Oger-Krieger Rakk",
+      "type": "monster",
+      "race": "Ogre",
+      "hp": 24,
+      "ac": 6,
+      "thac0": 15,
+      "movement": 9,
+      "attacks": "1 Keule",
+      "damage": "1d10+4",
+      "xp_value": 65
+    },
+    {
+      "id": "oger_bogenschuetze",
+      "name": "Oger-Bogenschuetze Zekk",
+      "type": "monster",
+      "race": "Ogre",
+      "hp": 22,
+      "ac": 7,
+      "thac0": 16,
+      "movement": 9,
+      "attacks": "1 Grossbogen",
+      "damage": "2d4+3",
+      "special": "Schiesst auf Hintere Reihe (Pyra, Shade). Exotic dice: 2d4+3.",
+      "xp_value": 65,
+      "tactics": "Bleibt auf Distanz, zielt auf Pyra Flammenherz."
+    },
+    {
+      "id": "riesenspinne_koenigin",
+      "name": "Riesenspinnen-Koenigin Keth'raa",
+      "type": "monster",
+      "race": "Giant Spider (Giant)",
+      "hp": 38,
+      "ac": 4,
+      "thac0": 13,
+      "movement": 15,
+      "attacks": "1 Biss + Giftstachel",
+      "damage": "2d6+2 Biss + Gift",
+      "special": "Gift (RETTUNGSWURF: Gift | 12 oder 3d6-1 Sofortschaden + 1d6/Runde fuer 3 Runden). Webwurf: PROBE: Ausweichen | 45 oder Charakter festgeklebt (1 Runde raus).",
+      "xp_value": 175,
+      "tactics": "Zielt auf Shade (wenigste HP nach Pyra). Webwurf als Eroeffnung."
+    },
+    {
+      "id": "riesenspinne_1",
+      "name": "Riesenspinne Alpha",
+      "type": "monster",
+      "race": "Giant Spider (Large)",
+      "hp": 20,
+      "ac": 6,
+      "thac0": 16,
+      "movement": 12,
+      "attacks": "1 Biss",
+      "damage": "1d8+1",
+      "special": "Gift: RETTUNGSWURF: Gift | 14 oder 1d6 Schaden/Runde fuer 2 Runden.",
+      "xp_value": 65
+    },
+    {
+      "id": "riesenspinne_2",
+      "name": "Riesenspinne Beta",
+      "type": "monster",
+      "race": "Giant Spider (Large)",
+      "hp": 18,
+      "ac": 6,
+      "thac0": 16,
+      "movement": 12,
+      "attacks": "1 Biss",
+      "damage": "1d8+1",
+      "special": "Gift: RETTUNGSWURF: Gift | 14 oder 1d6 Schaden/Runde fuer 2 Runden.",
+      "xp_value": 65
+    },
+    {
+      "id": "riesenspinne_3",
+      "name": "Riesenspinne Gamma",
+      "type": "monster",
+      "race": "Giant Spider (Large)",
+      "hp": 16,
+      "ac": 6,
+      "thac0": 17,
+      "movement": 12,
+      "attacks": "1 Biss",
+      "damage": "1d8",
+      "special": "Gift: RETTUNGSWURF: Gift | 14.",
+      "xp_value": 65
+    },
+    {
+      "id": "riesenspinne_4",
+      "name": "Riesenspinne Delta",
+      "type": "monster",
+      "race": "Giant Spider (Large)",
+      "hp": 14,
+      "ac": 6,
+      "thac0": 17,
+      "movement": 12,
+      "attacks": "1 Biss",
+      "damage": "1d8",
+      "xp_value": 65
+    },
+    {
+      "id": "wight_krieger_1",
+      "name": "Wight-Krieger Alaric",
+      "type": "monster",
+      "race": "Wight",
+      "hp": 22,
+      "ac": 5,
+      "thac0": 16,
+      "movement": 12,
+      "attacks": "1 Klaue",
+      "damage": "1d4",
+      "special": "Stufen-Entzug: RETTUNGSWURF: Tod | 14 oder -1 Stufe dauerhaft. Immun gegen nichtmagische Waffen.",
+      "xp_value": 65,
+      "tactics": "Greift Mordain als primaeres Ziel (Heiler ausschalten)."
+    },
+    {
+      "id": "wight_krieger_2",
+      "name": "Wight-Krieger Edric",
+      "type": "monster",
+      "race": "Wight",
+      "hp": 18,
+      "ac": 5,
+      "thac0": 17,
+      "movement": 12,
+      "attacks": "1 Klaue",
+      "damage": "1d4",
+      "special": "Stufen-Entzug: RETTUNGSWURF: Tod | 14.",
+      "xp_value": 65
+    },
+    {
+      "id": "wight_krieger_3",
+      "name": "Wight-Krieger Godwin",
+      "type": "monster",
+      "race": "Wight",
+      "hp": 16,
+      "ac": 5,
+      "thac0": 17,
+      "movement": 12,
+      "attacks": "1 Klaue",
+      "damage": "1d4",
+      "special": "Stufen-Entzug: RETTUNGSWURF: Tod | 14.",
+      "xp_value": 65
+    },
+    {
+      "id": "gespenst_priester",
+      "name": "Gespenst des Priesters Malthus",
+      "type": "monster",
+      "race": "Spectre",
+      "hp": 30,
+      "ac": 2,
+      "thac0": 13,
+      "movement": 15,
+      "attacks": "1 Beruehrung",
+      "damage": "1d8 + Stufen-Entzug",
+      "special": "Stufen-Entzug x2: RETTUNGSWURF: Tod | 13 oder -2 Stufen dauerhaft. Kaelte-Aura: [HP_VERLUST: alle in 3m | 3d6-1] pro Runde. Immun gegen nichtmagische Waffen. Nur durch Silber oder Magie treffbar.",
+      "xp_value": 175,
+      "tactics": "Zielt auf den Paladin (Kael) als Gegenpol zur Untoten-Abwehr."
+    },
+    {
+      "id": "junger_roter_drache",
+      "name": "Tharaxon der Glutgeborene",
+      "type": "monster",
+      "race": "Young Red Dragon",
+      "hp": 88,
+      "ac": 0,
+      "thac0": 5,
+      "movement": 9,
+      "fly_movement": 24,
+      "attacks": "2 Klauen + 1 Biss",
+      "damage": "1d8+8 Klaue / 3d10+8 Biss",
+      "special": "Feueratem (8d6 Schaden, 50ft Kegel, RETTUNGSWURF: Atemwaffe | 15 oder voller Schaden; Erfolg = halber Schaden). Feueratem-Reichweite: 3x pro Tag. Immun gegen Feuer. Furchtaura: RETTUNGSWURF: Zauber | 17 bei Sicht oder 2 Runden Panik.",
+      "xp_value": 8000,
+      "tactics": "Feueratem Runde 1, dann Klauen/Biss. Zweiter Feueratem Runde 3. Zielt auf Grueppen, nie Einzelziele."
+    },
+    {
+      "id": "feuer_elementar_boden",
+      "name": "Grosser Feuer-Elementar (Boden)",
+      "type": "monster",
+      "race": "Fire Elemental (16 HD)",
+      "hp": 72,
+      "ac": 2,
+      "thac0": 5,
+      "movement": 12,
+      "attacks": "1 Feuerschlag",
+      "damage": "3d8",
+      "special": "Immun gegen Feuer. Verwundbar durch Wasser (doppelter Schaden). Beruehrung: [HP_VERLUST: Name | 2d8+4].",
+      "xp_value": 500
+    },
+    {
+      "id": "feuer_elementar_luft_1",
+      "name": "Feuer-Elementar (Luft 1)",
+      "type": "monster",
+      "race": "Fire Elemental (8 HD)",
+      "hp": 36,
+      "ac": 4,
+      "thac0": 13,
+      "movement": 18,
+      "attacks": "1 Feuerschwinge",
+      "damage": "2d8",
+      "xp_value": 500
+    },
+    {
+      "id": "feuer_elementar_luft_2",
+      "name": "Feuer-Elementar (Luft 2)",
+      "type": "monster",
+      "race": "Fire Elemental (8 HD)",
+      "hp": 34,
+      "ac": 4,
+      "thac0": 13,
+      "movement": 18,
+      "attacks": "1 Feuerschwinge",
+      "damage": "2d8",
+      "xp_value": 500
+    },
+    {
+      "id": "feuer_elementar_luft_3",
+      "name": "Feuer-Elementar (Luft 3)",
+      "type": "monster",
+      "race": "Fire Elemental (8 HD)",
+      "hp": 32,
+      "ac": 4,
+      "thac0": 13,
+      "movement": 18,
+      "attacks": "1 Feuerschwinge",
+      "damage": "2d8",
+      "xp_value": 500
+    },
+    {
+      "id": "lich_malgoran",
+      "name": "Malgoran der Entleerte (Lich)",
+      "type": "monster",
+      "race": "Lich",
+      "hp": 65,
+      "ac": 0,
+      "thac0": 11,
+      "movement": 6,
+      "attacks": "1 Stab oder Beruehrung",
+      "damage": "1d10+3 (Stab) oder 1d10 + Paralyse (Beruehrung)",
+      "special": "Paralyse-Beruehrung: RETTUNGSWURF: Lahmung | 13 oder dauerhaft gelahmt. Kaelte-Aura: [HP_VERLUST: alle | 1d6] pro Runde bei Kontakt. Todesbolzen: [HP_VERLUST: Name | 4d6] Zauber, kein Rettungswurf. Fear-Aura: RETTUNGSWURF: Zauber | 17 bei Sicht. Immun gegen Kelte, Elektrizitaet, Wahnsinn, Schlaf, Charm. Nur durch magische +1 oder hoehere Waffen treffbar. Regeneriert 3 HP/Runde solange Phylactery intakt.",
+      "xp_value": 15000,
+      "tactics": "Todesbolzen auf Heiler zuerst (Mordain). Dann Paralyse auf Kaempfer (Grimjaw, Kael). Kaelte-Aura passiv. Fliegt nie — bleibt auf dem Thron."
+    },
+    {
+      "id": "knochengolem_wache",
+      "name": "Knochen-Golem des Lich",
+      "type": "monster",
+      "race": "Bone Golem",
+      "hp": 45,
+      "ac": 3,
+      "thac0": 13,
+      "movement": 9,
+      "attacks": "2 Klauen",
+      "damage": "1d8+2 / 1d8+2",
+      "special": "Immun gegen Magie der Stufen 1-3. Immun gegen Feuer, Kaelte, Elektrizitaet. Nur durch magische +2 oder hoehere Waffen beschaedigbar.",
+      "xp_value": 2000
+    }
+  ]
+}
