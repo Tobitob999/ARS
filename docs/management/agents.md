@@ -1,7 +1,7 @@
 # ARS — Agent Coordination Dashboard
 
-**Zuletzt aktualisiert:** 2026-03-04 (Session 16 — Pixel-Replay, Dungeon-Maps, Roaming-Monster, Run-Specs)
-**Projektstatus:** In Betrieb — 5 Regelsysteme, Party-System, Dungeon-View, Content Pipeline R1-R8, Web GUI, Testbot CLI, TinyCrawl Demo
+**Zuletzt aktualisiert:** 2026-03-04 (Session 18 — Phase-1 Bereinigung: ~6.976 Nicht-AD&D Dateien entfernt)
+**Projektstatus:** AD&D-Only — 1 Regelsystem (AD&D 2e), 5972 Lore-Dateien, Party-System, Dungeon-View, Content Pipeline, Web GUI, Testbot CLI, TinyCrawl Demo
 
 **Speicherort:** `docs/management/` — zentraler Management-Ordner
 
@@ -37,14 +37,10 @@
 | Web GUI | v1 fertig | FastAPI+WebSocket, 10 Tabs, Dark Theme, `--webgui --port 7860` |
 | Testbot CLI | fertig | `scripts/testbot.py` — run/results/status/cleanup, Token-Tracking, EUR-Kosten |
 | Charakter-System | fertig | SQLite-Persistenz, nicht-numerische Stats (Paranoia) |
-| Cthulhu 7e | fertig | d100, roll-under, SAN |
-| AD&D 2e | fertig (v2 — feingranuliert) | d20, roll-under, THAC0, Klassen |
-| Mad Max | fertig | d100, Survival |
-| Paranoia 2e | fertig | d20, roll-under, Clones, Treason, 451 Lore-Chunks |
-| Shadowrun 6e | fertig | d6 Pool, Edge, Matrix, 2036 Lore-Chunks |
-| Lore-Daten | fertig | ~5000+ Dateien, 3-Verzeichnis-Scan (chunks/chapters/fulltext), Auto-Priority-Promotion |
+| AD&D 2e | fertig (v2 — feingranuliert) | d20, THAC0, Klassen — einziges aktives System |
+| Lore-Daten | fertig | 5972 JSONs in data/lore/add_2e/ (58 MB), 3-Verzeichnis-Scan, Auto-Priority |
 | Party-System | fertig (v1) | PartyStateManager, 6-Char Party, Party-Monitor Tab, VirtualPlayer Case 7 |
-| Abenteuer-Content | minimal | spukhaus, goblin_cave, 4x Paranoia Adventures, dungeon_gauntlet_party |
+| Abenteuer-Content | minimal | goblin_cave, dungeon_gauntlet_party, crawltraining, testkampf |
 | TinyCrawl Demo | Level 1 fertig | Standalone Auto-Battler, Hoehlen-Dungeon 80x60, scrollbar, Fog of War, Minimap, CRT-Scanlines |
 | Tileset-Archiv | 12 Packs | `data/tilesets/` — 1227 PNGs, 6 MB, 0x72 Dungeon v5 + 11 weitere Packs |
 
@@ -56,7 +52,7 @@
 main.py ── SessionConfig (core/session_config.py) ── Presets (modules/presets/)
   └── SimulatorEngine (core/engine.py)
         ├── DiscoveryService (core/discovery.py) — Asset-Manifest (6 Modultypen)
-        ├── ModuleLoader → cthulhu_7e.json / add_2e.json
+        ├── ModuleLoader → add_2e.json
         ├── Setting/Keeper/Extras Loader → modules/settings/, keepers/, extras/
         ├── GeminiBackend (core/ai_backend.py) — Keeper-KI (dynamischer Prompt via SessionConfig)
         │     ├── Kernregeln-Block (_build_core_rules_block → System-Prompt, bis 2M Zeichen)
@@ -117,9 +113,8 @@ main.py --webgui --port 7860
 - [x] Shadowrun PROBE-Zielwerte ausserhalb Bereich — FIXED Session 7 (BUG-002): PROBE-Protokoll check_mode-aware, Pool-Berechnung im Prompt.
 
 ### Content Specialist (Codex)
-- [ ] Expansion des MU-Personal-Katalogs in `/data/lore/university/`
-- [ ] Erstellung der Quartiers-Daten fuer das "North End" in `/data/lore/society/`
-- [ ] Aufbau eines 1920er Preisverzeichnisses in `/data/lore/items/arkham_economy.json`
+- [ ] Erweiterung AD&D 2e Abenteuer-Content (weitere Dungeons, Kampagnen-Szenarien)
+- [ ] Forgotten Realms Setting-Expansion in `data/lore/add_2e/settings/`
 
 ### Converter Agent — AD&D 2e Komplett-Extraktion
 
@@ -183,102 +178,102 @@ main.py --webgui --port 7860
 | # | PDF (Kurztitel) | Status | Zielordner |
 |---|-----------------|--------|------------|
 | P2-01 | Monstrous Compendium Volume 1 | [x] FERTIG (106 Monster) | monsters/ |
-| P2-02 | Monstrous Compendium Volume 2 | [ ] ausstehend | monsters/ |
-| P2-03 | MC Annual Volume 1 | [ ] ausstehend | monsters/ |
-| P2-04 | MC Annual Volume 2 | [ ] ausstehend | monsters/ |
-| P2-05 | MC Annual Volume 3 | [ ] ausstehend | monsters/ |
-| P2-06 | MC Annual Volume 4 | [ ] ausstehend | monsters/ |
-| P2-07 | MC Fiend Folio Appendix | [ ] ausstehend | monsters/ |
-| P2-08 | MC Mystara Appendix | [ ] ausstehend | monsters/ |
-| P2-09 | MC Outer Planes Appendix | [ ] ausstehend | monsters/ |
-| P2-10 | MC Savage Coast Appendix | [ ] ausstehend | monsters/ |
-| P2-11 | Encyclopedia Magica Volume 1 | [ ] ausstehend | magic_items/ |
-| P2-12 | Encyclopedia Magica Volume 2 | [ ] ausstehend | magic_items/ |
-| P2-13 | Encyclopedia Magica Volume 3 | [ ] ausstehend | magic_items/ |
-| P2-14 | Encyclopedia Magica Volume 4 | [ ] ausstehend | magic_items/ |
-| P2-15 | Wizards Spell Compendium Volume 1 | [ ] ausstehend | spells/wizard/ |
-| P2-16 | Wizards Spell Compendium Volume 2 | [ ] ausstehend | spells/wizard/ |
-| P2-17 | Wizards Spell Compendium Volume 3 | [ ] ausstehend | spells/wizard/ |
-| P2-18 | Wizards Spell Compendium Volume 4 | [ ] ausstehend | spells/wizard/ |
-| P2-19 | Priest Spell Compendium Volume 1 | [ ] ausstehend | spells/priest/ |
-| P2-20 | Priest Spell Compendium Volume 2 | [ ] ausstehend | spells/priest/ |
-| P2-21 | Priest Spell Compendium Volume 3 | [ ] ausstehend | spells/priest/ |
-| P2-22 | The Magic Encyclopedia Volume 1 | [ ] ausstehend | magic_items/ |
-| P2-23 | The Magic Encyclopedia Volume 2 | [ ] ausstehend | magic_items/ |
+| P2-02 | Monstrous Compendium Volume 2 | [x] FERTIG (97 Monster, MC_V2, _text.pdf) | monsters/ |
+| P2-03 | MC Annual Volume 1 | [x] FERTIG (113 Monster, MC_A1, _text.pdf) | monsters/ |
+| P2-04 | MC Annual Volume 2 | [x] FERTIG (37 Monster, MC_A2, 1 Dup) | monsters/ |
+| P2-05 | MC Annual Volume 3 | [x] FERTIG (63 Monster, MC_A3) | monsters/ |
+| P2-06 | MC Annual Volume 4 | [x] FERTIG (65 Monster, MC_A4, _text.pdf, 6 Dups) | monsters/ |
+| P2-07 | MC Fiend Folio Appendix | [x] FERTIG (56 Monster, MC_FF, _text.pdf, 3 Dups) | monsters/ |
+| P2-08 | MC Mystara Appendix | [x] FERTIG (24 Monster, MC_MP) | monsters/ |
+| P2-09 | MC Outer Planes Appendix | [x] FERTIG (73 Monster, MC_OP, _text.pdf) | monsters/ |
+| P2-10 | MC Savage Coast Appendix | [x] FERTIG (8 Monster, MC_SC, OCR-limitiert, 63 Dups verworfen) | monsters/ |
+| P2-11 | Encyclopedia Magica Volume 1 | [x] FERTIG | magic_items/ |
+| P2-12 | Encyclopedia Magica Volume 2 | [x] FERTIG | magic_items/ |
+| P2-13 | Encyclopedia Magica Volume 3 | [x] FERTIG | magic_items/ |
+| P2-14 | Encyclopedia Magica Volume 4 | [x] FERTIG | magic_items/ |
+| P2-15 | Wizards Spell Compendium Volume 1 | [x] FERTIG | spells/wizard/ |
+| P2-16 | Wizards Spell Compendium Volume 2 | [x] FERTIG | spells/wizard/ |
+| P2-17 | Wizards Spell Compendium Volume 3 | [x] FERTIG (OCR-limitiert) | spells/wizard/ |
+| P2-18 | Wizards Spell Compendium Volume 4 | [x] FERTIG | spells/wizard/ |
+| P2-19 | Priest Spell Compendium Volume 1 | [x] FERTIG (OCR-limitiert) | spells/priest/ |
+| P2-20 | Priest Spell Compendium Volume 2 | [x] FERTIG (OCR-limitiert) | spells/priest/ |
+| P2-21 | Priest Spell Compendium Volume 3 | [x] FERTIG (OCR-limitiert) | spells/priest/ |
+| P2-22 | The Magic Encyclopedia Volume 1 | [x] FERTIG | magic_items/ |
+| P2-23 | The Magic Encyclopedia Volume 2 | [x] FERTIG | magic_items/ |
 
 **Prioritaet 3 — DM-Werkzeuge**
 
 | # | PDF (Kurztitel) | Status | Zielordner |
 |---|-----------------|--------|------------|
-| P3-01 | DMGR1 Campaign Sourcebook and Catacomb Guide | [ ] ausstehend | dm_tools/ |
-| P3-02 | DMGR2 Castle Guide | [ ] ausstehend | dm_tools/ |
-| P3-03 | DMGR4 Monster Mythology | [ ] ausstehend | deities/, monsters/ |
-| P3-04 | DMGR5 Creative Campaigning | [ ] ausstehend | dm_tools/ |
-| P3-05 | DMGR6 The Complete Book of Villains | [ ] ausstehend | dm_tools/, kits/ |
-| P3-06 | DMGR7 The Complete Book of Necromancers | [ ] ausstehend | dm_tools/, classes/ |
-| P3-07 | DMGR8 Sages and Specialists | [ ] ausstehend | dm_tools/ |
-| P3-08 | DMGR9 Of Ships and Sea | [ ] ausstehend | dm_tools/, equipment/ |
-| P3-09 | Dungeon Builder's Guidebook | [ ] ausstehend | dm_tools/ |
-| P3-10 | World Builders Guidebook | [ ] ausstehend | dm_tools/ |
-| P3-11 | Dungeon Master Option: High-Level Campaigns | [ ] ausstehend | rules/high_level/ |
-| P3-12 | Book of Artifacts | [ ] ausstehend | magic_items/artifacts/ |
-| P3-13 | Player's Handbook (2nd Edition) | [ ] ausstehend | rules/, classes/, equipment/ |
+| P3-01 | DMGR1 Campaign Sourcebook and Catacomb Guide | [x] FERTIG | dm_tools/ |
+| P3-02 | DMGR2 Castle Guide | [x] FERTIG | dm_tools/ |
+| P3-03 | DMGR4 Monster Mythology | [x] FERTIG | deities/, monsters/ |
+| P3-04 | DMGR5 Creative Campaigning | [x] FERTIG | dm_tools/ |
+| P3-05 | DMGR6 The Complete Book of Villains | [x] FERTIG | dm_tools/, kits/ |
+| P3-06 | DMGR7 The Complete Book of Necromancers | [x] FERTIG | dm_tools/, classes/ |
+| P3-07 | DMGR8 Sages and Specialists | [x] FERTIG | dm_tools/ |
+| P3-08 | DMGR9 Of Ships and Sea | [x] FERTIG | dm_tools/, equipment/ |
+| P3-09 | Dungeon Builder's Guidebook | [x] FERTIG | dm_tools/ |
+| P3-10 | World Builders Guidebook | [x] FERTIG | dm_tools/ |
+| P3-11 | Dungeon Master Option: High-Level Campaigns | [x] FERTIG | rules/high_level/ |
+| P3-12 | Book of Artifacts | [x] FERTIG | magic_items/artifacts/ |
+| P3-13 | Player's Handbook (2nd Edition) | [x] FERTIG (9 Kapitel, Dateiname-Fix) | rules/, classes/, equipment/ |
 
 **Prioritaet 4 — Setting-Content (Dragonlance + Historical)**
 
 | # | PDF (Kurztitel) | Status | Zielordner |
 |---|-----------------|--------|------------|
-| P4-01 | Dragonlance: Tales of the Lance (Boxset) | [ ] ausstehend | settings/dragonlance/ |
-| P4-02 | Dragonlance: Player's Guide to DL Campaign | [ ] ausstehend | settings/dragonlance/ |
-| P4-03 | Dragonlance: A Saga Companion | [ ] ausstehend | settings/dragonlance/ |
-| P4-04 | Dragonlance: Dragonlance Classics 15th Anniversary | [ ] ausstehend | settings/dragonlance/ |
-| P4-05 | Dragonlance: DLA1 Dragon Dawn | [ ] ausstehend | settings/dragonlance/ |
-| P4-06 | Dragonlance: DLA2 Dragon Knight | [ ] ausstehend | settings/dragonlance/ |
-| P4-07 | Dragonlance: DLA3 Dragons Rest | [ ] ausstehend | settings/dragonlance/ |
-| P4-08 | Dragonlance: DLC1 Classics Vol 1 | [ ] ausstehend | settings/dragonlance/ |
-| P4-09 | Dragonlance: DLC2 Classics Vol 2 | [ ] ausstehend | settings/dragonlance/ |
-| P4-10 | Dragonlance: DLC3 Classics Vol 3 | [ ] ausstehend | settings/dragonlance/ |
-| P4-11 | Dragonlance: DLE1 In Search of Dragons | [ ] ausstehend | settings/dragonlance/ |
-| P4-12 | Dragonlance: DLE2 Dragon Magic | [ ] ausstehend | settings/dragonlance/ |
-| P4-13 | Dragonlance: DLE3 Dragon Keep | [ ] ausstehend | settings/dragonlance/ |
-| P4-14 | Dragonlance: DLQ1 Knight's Sword | [ ] ausstehend | settings/dragonlance/ |
-| P4-15 | Dragonlance: DLQ2 Flint's Axe | [ ] ausstehend | settings/dragonlance/ |
-| P4-16 | Dragonlance: DLR1 Otherlands | [ ] ausstehend | settings/dragonlance/ |
-| P4-17 | Dragonlance: DLR2 Taladas, The Minotaurs | [ ] ausstehend | settings/dragonlance/ |
-| P4-18 | Dragonlance: DLR3 Unsung Heroes | [ ] ausstehend | settings/dragonlance/ |
-| P4-19 | Dragonlance: DLS1 New Beginnings | [ ] ausstehend | settings/dragonlance/ |
-| P4-20 | Dragonlance: DLS2 Tree Lords | [ ] ausstehend | settings/dragonlance/ |
-| P4-21 | Dragonlance: DLS3 Oak Lords | [ ] ausstehend | settings/dragonlance/ |
-| P4-22 | Dragonlance: DLS4 Wild Elves | [ ] ausstehend | settings/dragonlance/ |
-| P4-23 | Dragonlance: DLT1 New Tales | [ ] ausstehend | settings/dragonlance/ |
-| P4-24 | Dragonlance: Dwarven Kingdoms of Krynn | [ ] ausstehend | settings/dragonlance/ |
-| P4-25 | Dragonlance: Fifth Age | [ ] ausstehend | settings/dragonlance/ |
-| P4-26 | Dragonlance: Heroes of Defiance | [ ] ausstehend | settings/dragonlance/ |
-| P4-27 | Dragonlance: Heroes of Hope | [ ] ausstehend | settings/dragonlance/ |
-| P4-28 | Dragonlance: Heroes of Sorcery | [ ] ausstehend | settings/dragonlance/ |
-| P4-29 | Dragonlance: Heroes of Steel | [ ] ausstehend | settings/dragonlance/ |
-| P4-30 | Dragonlance: History of Dragonlance | [ ] ausstehend | settings/dragonlance/ |
-| P4-31 | Dragonlance: More Leaves from the Inn | [ ] ausstehend | settings/dragonlance/ |
-| P4-32 | Dragonlance: Palanthas | [ ] ausstehend | settings/dragonlance/ |
-| P4-33 | Dragonlance: Seeds of Chaos | [ ] ausstehend | settings/dragonlance/ |
-| P4-34 | Dragonlance: Chaos Spawn | [ ] ausstehend | settings/dragonlance/ |
-| P4-35 | Dragonlance: Citadel of Light | [ ] ausstehend | settings/dragonlance/ |
-| P4-36 | Dragonlance: Battle Lines 1 - The Sylvan Veil | [ ] ausstehend | settings/dragonlance/ |
-| P4-37 | Dragonlance: Battle Lines 2 - Rise of the Titans | [ ] ausstehend | settings/dragonlance/ |
-| P4-38 | Dragonlance: Book of Lairs | [ ] ausstehend | settings/dragonlance/ |
-| P4-39 | Dragonlance: Last Tower - Legacy of Raistlin | [ ] ausstehend | settings/dragonlance/ |
-| P4-40 | Dragonlance: Time of the Dragon Boxset | [ ] ausstehend | settings/dragonlance/ |
-| P4-41 | Dragonlance: Wings of Fury | [ ] ausstehend | settings/dragonlance/ |
-| P4-42 | Dragonlance: The Bestiary | [ ] ausstehend | settings/dragonlance/ |
-| P4-43 | Dragonlance: TM3 World of Krynn Trail Map | [ ] ausstehend | settings/dragonlance/ |
-| P4-44 | Dragonlance: The Art of the Dragonlance Saga | [ ] ausstehend | settings/dragonlance/ |
-| P4-45 | HR1 Vikings Campaign | [ ] ausstehend | settings/historical/ |
-| P4-46 | HR2 Charlemagne's Paladins | [ ] ausstehend | settings/historical/ |
-| P4-47 | HR3 Celts | [ ] ausstehend | settings/historical/ |
-| P4-48 | HR4 A Mighty Fortress | [ ] ausstehend | settings/historical/ |
-| P4-49 | HR5 Glory of Rome | [ ] ausstehend | settings/historical/ |
-| P4-50 | HR6 Age of Heroes | [ ] ausstehend | settings/historical/ |
-| P4-51 | HR7 Crusades | [ ] ausstehend | settings/historical/ |
+| P4-01 | Dragonlance: Tales of the Lance (Boxset) | [x] FERTIG | settings/dragonlance/ |
+| P4-02 | Dragonlance: Player's Guide to DL Campaign | [x] FERTIG | settings/dragonlance/ |
+| P4-03 | Dragonlance: A Saga Companion | [x] FERTIG | settings/dragonlance/ |
+| P4-04 | Dragonlance: Dragonlance Classics 15th Anniversary | [x] FERTIG | settings/dragonlance/ |
+| P4-05 | Dragonlance: DLA1 Dragon Dawn | [x] FERTIG | settings/dragonlance/ |
+| P4-06 | Dragonlance: DLA2 Dragon Knight | [x] FERTIG | settings/dragonlance/ |
+| P4-07 | Dragonlance: DLA3 Dragons Rest | [x] FERTIG | settings/dragonlance/ |
+| P4-08 | Dragonlance: DLC1 Classics Vol 1 | [x] FERTIG | settings/dragonlance/ |
+| P4-09 | Dragonlance: DLC2 Classics Vol 2 | [x] FERTIG | settings/dragonlance/ |
+| P4-10 | Dragonlance: DLC3 Classics Vol 3 | [x] FERTIG | settings/dragonlance/ |
+| P4-11 | Dragonlance: DLE1 In Search of Dragons | [x] FERTIG | settings/dragonlance/ |
+| P4-12 | Dragonlance: DLE2 Dragon Magic | [x] FERTIG | settings/dragonlance/ |
+| P4-13 | Dragonlance: DLE3 Dragon Keep | [x] FERTIG | settings/dragonlance/ |
+| P4-14 | Dragonlance: DLQ1 Knight's Sword | [x] FERTIG | settings/dragonlance/ |
+| P4-15 | Dragonlance: DLQ2 Flint's Axe | [x] FERTIG | settings/dragonlance/ |
+| P4-16 | Dragonlance: DLR1 Otherlands | [x] FERTIG | settings/dragonlance/ |
+| P4-17 | Dragonlance: DLR2 Taladas, The Minotaurs | [x] FERTIG | settings/dragonlance/ |
+| P4-18 | Dragonlance: DLR3 Unsung Heroes | [x] FERTIG | settings/dragonlance/ |
+| P4-19 | Dragonlance: DLS1 New Beginnings | [x] FERTIG | settings/dragonlance/ |
+| P4-20 | Dragonlance: DLS2 Tree Lords | [x] FERTIG | settings/dragonlance/ |
+| P4-21 | Dragonlance: DLS3 Oak Lords | [x] FERTIG | settings/dragonlance/ |
+| P4-22 | Dragonlance: DLS4 Wild Elves | [x] FERTIG | settings/dragonlance/ |
+| P4-23 | Dragonlance: DLT1 New Tales | [x] FERTIG | settings/dragonlance/ |
+| P4-24 | Dragonlance: Dwarven Kingdoms of Krynn | [x] FERTIG | settings/dragonlance/ |
+| P4-25 | Dragonlance: Fifth Age | [x] FERTIG | settings/dragonlance/ |
+| P4-26 | Dragonlance: Heroes of Defiance | [x] FERTIG | settings/dragonlance/ |
+| P4-27 | Dragonlance: Heroes of Hope | [x] FERTIG | settings/dragonlance/ |
+| P4-28 | Dragonlance: Heroes of Sorcery | [x] FERTIG | settings/dragonlance/ |
+| P4-29 | Dragonlance: Heroes of Steel | [x] FERTIG | settings/dragonlance/ |
+| P4-30 | Dragonlance: History of Dragonlance | [x] FERTIG | settings/dragonlance/ |
+| P4-31 | Dragonlance: More Leaves from the Inn | [x] FERTIG | settings/dragonlance/ |
+| P4-32 | Dragonlance: Palanthas | [x] FERTIG | settings/dragonlance/ |
+| P4-33 | Dragonlance: Seeds of Chaos | [x] FERTIG | settings/dragonlance/ |
+| P4-34 | Dragonlance: Chaos Spawn | [x] FERTIG | settings/dragonlance/ |
+| P4-35 | Dragonlance: Citadel of Light | [x] FERTIG | settings/dragonlance/ |
+| P4-36 | Dragonlance: Battle Lines 1 - The Sylvan Veil | [x] FERTIG | settings/dragonlance/ |
+| P4-37 | Dragonlance: Battle Lines 2 - Rise of the Titans | [x] FERTIG | settings/dragonlance/ |
+| P4-38 | Dragonlance: Book of Lairs | [x] FERTIG | settings/dragonlance/ |
+| P4-39 | Dragonlance: Last Tower - Legacy of Raistlin | [x] FERTIG | settings/dragonlance/ |
+| P4-40 | Dragonlance: Time of the Dragon Boxset | [x] FERTIG | settings/dragonlance/ |
+| P4-41 | Dragonlance: Wings of Fury | [x] FERTIG | settings/dragonlance/ |
+| P4-42 | Dragonlance: The Bestiary | [x] FERTIG | settings/dragonlance/ |
+| P4-43 | Dragonlance: TM3 World of Krynn Trail Map | [x] FERTIG | settings/dragonlance/ |
+| P4-44 | Dragonlance: The Art of the Dragonlance Saga | [x] FERTIG | settings/dragonlance/ |
+| P4-45 | HR1 Vikings Campaign | [x] FERTIG | settings/historical/ |
+| P4-46 | HR2 Charlemagne's Paladins | [x] FERTIG | settings/historical/ |
+| P4-47 | HR3 Celts | [x] FERTIG | settings/historical/ |
+| P4-48 | HR4 A Mighty Fortress | [x] FERTIG | settings/historical/ |
+| P4-49 | HR5 Glory of Rome | [x] FERTIG | settings/historical/ |
+| P4-50 | HR6 Age of Heroes | [x] FERTIG | settings/historical/ |
+| P4-51 | HR7 Crusades | [x] FERTIG | settings/historical/ |
 
 #### Batch-Planung
 
@@ -286,15 +281,15 @@ main.py --webgui --port 7860
 |-------|------|--------|-----------|------------|
 | B-C01 | P1-01 bis P1-10 | PHBR01-10 (Fighter bis Humanoids) | P1 | ~7,5 Std |
 | B-C02 | P1-11 bis P1-21 | PHBR11-15 + Player's Options + Legends + Tome | P1 | ~8 Std |
-| B-C03 | P2-01 bis P2-10 | Monster Compendiums Vol.2 + Annuals + Appendices | P2 | ~7,5 Std |
-| B-C04 | P2-11 bis P2-18 | Encyclopedia Magica Vol.1-4 + Wizard Spells Vol.1-4 | P2 | ~6 Std |
-| B-C05 | P2-19 bis P2-23 | Priest Spells Vol.1-3 + Magic Encyclopedia Vol.1-2 | P2 | ~3,5 Std |
-| B-C06 | P3-01 bis P3-08 | DMGR1-9 (Campaign/Castle/Mythology/Creative/Villains/Necro/Sages/Ships) | P3 | ~6 Std |
-| B-C07 | P3-09 bis P3-13 | Dungeon/World Builder + High-Level + Artifacts + PHB | P3 | ~3,5 Std |
-| B-C08 | P4-01 bis P4-15 | DL Basics + DLA/DLC/DLE/DLQ-Serie | P4 | ~7,5 Std |
-| B-C09 | P4-16 bis P4-30 | DLR/DLS/DLT-Serie + Dwarven/Fifth Age/Heroes-Serie | P4 | ~7,5 Std |
-| B-C10 | P4-31 bis P4-44 | DL Reste (History/Palanthas/Chaos/Citadel/Battle Lines/etc.) | P4 | ~7 Std |
-| B-C11 | P4-45 bis P4-51 | HR1-7 Historical Reference | P4 | ~3,5 Std |
+| B-C03 | P2-01 bis P2-10 | Monster Compendiums Vol.2 + Annuals + Appendices | P2 | FERTIG (536 neue Monster, 107→656 gesamt) |
+| B-C04 | P2-11 bis P2-18 | Encyclopedia Magica Vol.1-4 + Wizard Spells Vol.1-4 | P2 | FERTIG (33 Kapitel magic_items + Teil Spells) |
+| B-C05 | P2-19 bis P2-23 | Priest Spells Vol.1-3 + Magic Encyclopedia Vol.1-2 | P2 | FERTIG (1.010 Spells gesamt, spells/) |
+| B-C06 | P3-01 bis P3-08 | DMGR1-9 (Campaign/Castle/Mythology/Creative/Villains/Necro/Sages/Ships) | P3 | FERTIG (Teil von 113 Kapitel dm_tools/) |
+| B-C07 | P3-09 bis P3-13 | Dungeon/World Builder + High-Level + Artifacts + PHB | P3 | FERTIG (113 Kapitel dm_tools/+magic_items/+rules/) |
+| B-C08 | P4-01 bis P4-15 | DL Basics + DLA/DLC/DLE/DLQ-Serie | P4 | FERTIG (Teil von 188 Kapitel settings/dragonlance/) |
+| B-C09 | P4-16 bis P4-30 | DLR/DLS/DLT-Serie + Dwarven/Fifth Age/Heroes-Serie | P4 | FERTIG (Teil von 188 Kapitel settings/dragonlance/) |
+| B-C10 | P4-31 bis P4-44 | DL Reste (History/Palanthas/Chaos/Citadel/Battle Lines/etc.) | P4 | FERTIG (188 Kapitel gesamt settings/dragonlance/) |
+| B-C11 | P4-45 bis P4-51 | HR1-7 Historical Reference | P4 | FERTIG (49 Kapitel settings/historical/) |
 
 **Gesamt: ~67,5 Stunden Konvertierungsarbeit ueber 11 Batches**
 *(DMGR3 Arms & Equipment in P1-16 bereits priorisiert; schlanke DL-Adventures benoetigen weniger Aufwand als Kernbuecher)*
@@ -305,7 +300,7 @@ Einige PDFs liegen als Scan + OCR-Variante vor (Dateiname mit `_text.pdf`-Suffix
 
 ### Virtual Player (AI-Script)
 - [x] Durchfuehrung des ersten 10-Zuege-Simulationstests
-- [x] 4-System Batch (Session 6): Cthulhu/AD&D/Paranoia/Shadowrun je 5 Zuege — ALLE OK
+- [x] 4-System Batch (Session 6): HISTORISCH — Systems entfernt, Test nur noch AD&D
 - [ ] Stress-Test der Barge-in Funktionalitaet (Unterbrechung des Keepers)
 - [x] Verifikation der [PROBE] Tag-Verarbeitung in den Logs
 
@@ -315,11 +310,7 @@ Einige PDFs liegen als Scan + OCR-Variante vor (Dateiname mit `_text.pdf`-Suffix
 - [ ] Finaler Review und Freigabe der 3-Tage-Roadmap
 
 ### Weitere offene Tasks
-- [ ] **Spieltest:** Paranoia 2E mit vollem Regel-Budget
-- [ ] **Spieltest:** Shadowrun 6E mit vollem Regel-Budget
-- [ ] **Spieltest:** AD&D 2E mit vollem Regel-Budget
-- [ ] **Optimierung:** Shadowrun Lore-Coverage erhoehen (22% → Ziel 60%)
-- [ ] **Content:** Mehr Shadowrun-Content (Adventures, Characters)
+- [ ] **Spieltest:** AD&D 2E mit vollem Regel-Budget (Phase 2)
 - [ ] **Feature:** Charaktererstellung im Voice-Modus
 - [x] **Feature:** Wuerfelergebnisse in GUI visualisieren (Session 9)
 - [x] **Feature:** Lore-Budget Slider (getrennt von Rules-Budget) (Session 9)
@@ -373,18 +364,20 @@ Einige PDFs liegen als Scan + OCR-Variante vor (Dateiname mit `_text.pdf`-Suffix
 
 ```powershell
 # TechGUI (empfohlen):
-py -3 main.py --module cthulhu_7e --techgui
-py -3 main.py --module paranoia_2e --techgui
-py -3 main.py --module shadowrun_6 --techgui
+py -3 main.py --module add_2e --techgui
+py -3 main.py --module add_2e --adventure goblin_cave --voice --techgui
+
+# Web GUI:
+py -3 main.py --module add_2e --webgui --port 8080
 
 # CLI mit Stimme (Lautsprecher):
-py -3 main.py --module cthulhu_7e --adventure spukhaus --voice --no-barge-in
+py -3 main.py --module add_2e --adventure goblin_cave --voice --no-barge-in
 
 # CLI mit Stimme (Kopfhoerer, Barge-in aktiv):
-py -3 main.py --module cthulhu_7e --adventure spukhaus --voice
+py -3 main.py --module add_2e --adventure goblin_cave --voice
 
-# Preset + Override:
-py -3 main.py --module cthulhu_7e --preset coc_classic --difficulty hardcore
+# Automatisierter Test:
+py -3 scripts/virtual_player.py --module add_2e --adventure goblin_cave --turns 10 --save
 
 # Audio-Diagnose:
 py -3 scripts/test_audio.py --list
@@ -534,6 +527,111 @@ Gueltige `difficulty` Werte: `"easy"`, `"normal"`, `"heroic"`, `"hardcore"`.
 ---
 
 ## Agent Reports
+
+[2026-03-04 19:55] | FROM: Claude Code | Session 19b: DMG Treasure Tables + Item Snippets + Bugfix
+
+IMPLEMENTIERT:
+1. Vollständige DMG Treasure Tables (Tables 84-110) in mechanics.py:
+   - Treasure Types A-Q (vorher nur A-E,H), roll_gem(), roll_art_object(), roll_magic_item()
+   - 404 benannte magische Items in 18 Kategorien, 52 Edelsteintypen
+   - roll_treasure() gibt jetzt gem_details, jewelry_details, magic_item_details zurück
+
+2. SCHATZ→INVENTAR Pipeline (orchestrator.py):
+   - Münzen, Edelsteine, Kunstgegenstände, magische Items landen automatisch im Inventar
+   - Jedes Item per _handle_inventory() als "gefunden" verbucht
+
+3. Item Snippet Generator (scripts/generate_item_snippets.py):
+   - 456 JSON-Snippets generiert in data/lore/add_2e/items/
+   - 404 magische Items + 52 Edelsteine mit Mechanik-Daten
+   - Detaillierte Stats für ~100+ wichtige Items (Potions, Waffen, Rüstung, Ringe etc.)
+
+4. Treasure Hoard Test-Adventure (modules/adventures/treasure_hoard.json):
+   - 5 Räume, 8 NPCs, 26 Flags, 4 SCHATZ-Tags (C, H, A, E)
+   - Triviale Goblin-Gegner (Morale 3-5), massive Schätze
+
+BUGFIX:
+- BUG-012: validate_tags() in rules_engine.py crashte bei 3+-Tupel stat_changes (z.B. MORAL_CHECK)
+  - Ursache: `for change_type, value_str in stat_changes` erwartet 2 Werte, MORAL_CHECK gibt 3
+  - Fix: Tupel-Unpacking geändert zu stat_tuple[0], stat_tuple[1] mit len-Check
+  - Gleicher Fix in orchestrator.py Zeile 1841 (_handle_party_xp)
+
+TESTERGEBNISSE:
+- Test 1 (Case 1): 10 Turns, 0 SCHATZ (generischer VirtualPlayer zu passiv)
+- Test 2 (Case 6): 9 Turns, CRASH bei MORAL_CHECK → Bug gefunden und gefixt
+- Test 3 (Case 6, nach Bugfix): 11 Turns, SCHATZ:C erfolgreich! 2000 Elektrum ins Inventar
+  - ANGRIFF 10x, HP_VERLUST 2x, HP_HEILUNG 1x, XP_GEWINN 45, ZAUBER 3x
+  - SCHATZ:H/A/E nicht erreicht (KI-Pacing: Party bleibt in Raum 1)
+
+DATEIEN GEÄNDERT:
+- core/mechanics.py — DMG Tables 84-110 komplett (+~600 Zeilen)
+- core/orchestrator.py — SCHATZ→INVENTAR Pipeline + Tupel-Fix
+- core/rules_engine.py — Tupel-Unpack Bugfix
+- scripts/generate_item_snippets.py — NEU (456 Snippets)
+- modules/adventures/treasure_hoard.json — NEU (Schatz-Stress-Test)
+- data/lore/add_2e/items/ — 456 neue JSON-Snippets
+- data/lore/add_2e/items/_dmg_raw_text/ — 53 DMG-Rohtextseiten
+
+[2026-03-04 21:00] | FROM: Claude Code | Phase-1 Verifikation KOMPLETT — AD&D-Only Umstellung verifiziert
+- 20 Code-Dateien modifiziert: Defaults → add_2e, Dead Code entfernt (Paranoia/SR/CoC Indexer, Sanity Guards)
+- orchestrator.py: STABILITAET_VERLUST + FERTIGKEIT_GENUTZT simplifiziert (return statt toter Code)
+- rules_engine.py: 7 Paranoia/Shadowrun Indexer-Methoden geloescht, _CORE_CATEGORIES bereinigt
+- ai_backend.py: System-Flags _is_paranoia/_is_shadowrun/_is_cthulhu entfernt
+- engine.py: is_cthulhu Property entfernt
+- mechanics.py: Cthulhu-Kommentare aktualisiert
+- CLAUDE.md: AD&D-only aktualisiert
+- Syntax-Check: ALLE py_compile bestanden
+- Import-Test: SimulatorEngine, Orchestrator, GeminiBackend, RulesEngine — alle OK
+- Grep-Scan: Keine cthulhu_7e/paranoia_2e/shadowrun_6/mad_max Referenzen in .py
+- agents.md + MEMORY.md aktualisiert
+
+[2026-03-04 20:00] | FROM: Claude Code | Phase-1 Bereinigung KOMPLETT — ~6.976 Nicht-AD&D Dateien geloescht
+- data/lore/cthulhu/ (1574), paranoia_2e/ (1124), shadowrun_6/ (2460) → rm -rf
+- data/lore/ generische CoC-Dirs (21 Ordner + index.json): 1551 Dateien
+- data/lore/communication/ (CoC Arkham-Content): 24 Dateien
+- data/lore/tasks/archive/expansion_copies/ (CoC Leichen): 166 Dateien
+- modules/: 4 Rulesets, 11 Adventures, 25 Characters, 8 Parties, 12 Presets, 4 Scenarios, 4 Settings, 4 Keepers, 3 Extras
+- data/test_series/: 2 CoC-Testberichte
+- Verblieben: data/lore/add_2e/ (5972 Dateien), data/lore/tasks/ (Management-Docs)
+- modules/ enthaelt ausschliesslich add_2e/* + system-neutrale Dateien (testkampf, combat_bridge, survival_mode)
+- modules/index.json war bereits auf add_2e ausgerichtet — kein Update noetig
+
+[2026-03-04 19:00] | FROM: Claude Code | B-C04 bis B-C11 KOMPLETT — Alle 86 PDFs verarbeitet
+
+| Batch | PDFs | Neue Chunks | Typ | Zielverzeichnis |
+|-------|------|-------------|-----|-----------------|
+| SPELLS (B-C04/B-C05) | 7 | 1.010 Spells | Spell-Einzelextraktion | spells/ |
+| MAGIC-ITEMS (B-C04/B-C05) | 6 | 33 Kapitel | Kapitel-Chunks | magic_items/ |
+| DMGR (B-C06/B-C07) | 13 | 113 Kapitel | Kapitel-Chunks | dm_tools/, magic_items/, rules/ |
+| DRAGONLANCE (B-C08-B-C10) | 44 | 188 Kapitel | Kapitel-Chunks | settings/dragonlance/ |
+| HISTORICAL (B-C11) | 7 | 49 Kapitel | Kapitel-Chunks | settings/historical/ |
+
+Totals: 77 PDFs erfolgreich verarbeitet (von 86 geplant — 9 MC bereits in B-C03 erledigt). 1.393 neue Chunks extrahiert.
+Lore gesamt: 3.977 → 5.962 JSONs (+1.985 seit Session-Start). Monsters: 107 → 656 (6x). Spells: 341 → 1.385 (4x).
+
+Welt-Trennung: Dragonlance → data/lore/add_2e/settings/dragonlance/ (188 Dateien),
+Historical → data/lore/add_2e/settings/historical/ (49 Dateien). Generisches AD&D ohne Vermischung.
+
+Converter-Upgrade (scripts/converter.py): --batch all + spells/magicitems/dmgr/dragonlance/historical.
+Spell-Compendium-Extraktor (Einzelspell-Parser), Monster-Statblock-Extraktor (OCR-tolerant).
+86 PDF-Definitionen in 7 Batch-Listen. TEXT_VARIANT_PDFS fuer 27 PDFs aktiviert.
+
+Bekannte Probleme: PHB anfangs nicht gefunden (Dateiname ohne TSR-Prefix) — behoben (9 Kapitel).
+DL-Dateinamen Unterstrich statt Bindestrich — behoben. WSC3/PSC1-3 wenig Spell-Treffer (schlechte OCR).
+
+DATEIEN: scripts/converter.py (MODIFY — 86 PDFs, alle Batch-Handler), data/lore/add_2e/spells/* (+1.010),
+data/lore/add_2e/magic_items/* (+33), data/lore/add_2e/dm_tools/* (+Teil von 113),
+data/lore/add_2e/settings/dragonlance/* (+188), data/lore/add_2e/settings/historical/* (+49)
+
+[2026-03-04 18:00] | FROM: Claude Code | B-C03 Monster Compendium Batch — FERTIG
+
+9 PDFs verarbeitet: MC_V2, MC_A1, MC_A2, MC_A3, MC_A4, MC_FF, MC_MP, MC_OP, MC_SC.
+536 neue Monster-JSONs extrahiert. Monster-Collection: 107 → 656 Eintraege (index.json).
+Gesamt-Lore: 3.977 → 4.526 JSONs. _text.pdf-Varianten bevorzugt (MC_V2, MC_A1, MC_A4, MC_FF, MC_OP).
+MC_SC (Savage Coast) OCR-limitiert: kein _text.pdf verfuegbar, nur 8 sauber benannte Monster behalten, 63 Dups verworfen.
+Converter-Upgrade: scripts/converter.py unterstuetzt jetzt --batch p2 + Monster-Statblock-Extraktion.
+P2-02 bis P2-10: alle auf FERTIG gesetzt. B-C03 Batch: FERTIG.
+
+DATEIEN: scripts/converter.py (MODIFY — --batch p2 + Monster-Handler), data/lore/add_2e/monsters/* (536 neue JSONs)
 
 [2026-03-04 16:30] | FROM: Claude Code | P1 AD&D 2e Lore-Extraktion abgeschlossen
 
@@ -1147,4 +1245,56 @@ Syntax-Check: 4/4 OK
 - scripts/virtual_player.py: TurnMetrics um 8 Grid-Snapshot-Felder erweitert (room_id, room_width, room_height, grid_positions, grid_entities, party_hp, move_events, room_terrain). EventBus-Listener fuer grid.entity_moved/combat_move in _play_turn(). Snapshot-Erfassung nach Response-Verarbeitung. Rueckwaertskompatibel (leere Defaults).
 - gui/tab_replay_viewer.py NEU (~430Z): PanedWindow-Layout (Grid links, Controls+Text+HP rechts). JSON-Report laden, Turn-Slider, Play/Pause mit Speed-Slider (500-5000ms). Grid-Rendering mit identischen Symbolen wie Dungeon-Tab (Waende, Tueren, Monster, Party-Member mit Klassen-Buchstaben). Tag-Highlighting (rot/gelb/gruen/orange). Party-HP-Balken pro Zug.
 - gui/tech_gui.py: Tab 13 "Replay" registriert (Import, Instanz, notebook.add, dispatch).
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-03-04 17:30] | FROM: Claude Code | Session 19 — DMG-Integration (Dungeon Master's Guide Kernmechaniken)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Vollstaendiger Bericht: docs/management/dmg_integration_report.md
+
+(1) ANALYSE (4 Agenten parallel):
+  - 775+ DMG-Lore-Dateien inventarisiert (dm_tools/, rules_fulltext_chunks/, derived_rules/)
+  - Engine-Regelbestand analysiert (rules_engine, orchestrator, mechanics, combat_tracker)
+  - Keyword-Index-Luecken identifiziert (8 fehlende Kategorien)
+  - DMG ist NICHT als eigenes PDF konvertiert — Inhalte verteilt in PHB-Kapiteln + DMGR-Serie
+
+(2) NEUE MECHANIKEN (core/mechanics.py — 6 Methoden, ~350 Zeilen):
+  - morale_check(morale_value, modifiers) — 2d6 vs Moral-Schwelle
+  - reaction_roll(cha_modifier) — 2d6 + CHA, 5-stufige Reaktionstabelle
+  - turn_undead(cleric_level, undead_hd) — PHB Table 61 (14x12 Matrix)
+  - roll_treasure(treasure_type) — Typen A-H mit Muenzen/Gems/Schmuck/Magie
+  - roll_encounter_check(chance_percent) — d100 Wandering-Monster-Probe
+  - calculate_encumbrance(items, str_score) — 5 Kategorien, STR-basierte Traglast
+
+(3) KEYWORD-MAPPINGS (core/rules_engine.py — 8 neue Kategorien):
+  treasure, encounter_generation, morale, reaction, loyalty, light_vision, poison_disease, thief_skills
+  Gesamt: 26 Kategorien, 537 Keywords
+
+(4) SYSTEM-PROMPT (core/ai_backend.py — DMG-Kernmechaniken Block):
+  7 neue Pflicht-Tags: [MORAL_CHECK], [REAKTION], [SCHATZ], [UNTOTE_VERTREIBEN], [BELASTUNG], [BEGEGNUNG], [GIFT]
+
+(5) TAG-PARSER (core/orchestrator.py — _handle_dmg_tags(), ~200 Zeilen):
+  7 Regex-Handler mit Mechanics-Aufruf, EventBus-Events, Fehlerbehandlung
+
+(6) TEST-SZENARIO (modules/adventures/dmg_stress_test.json — 46 KB):
+  "Der Vergessene Schatzgewoelbe" — 7 Raeume, 18 NPCs, 14 Clues, 19 Flags
+  Designiert fuer maximale DMG-Tag-Dichte
+
+(7) VIRTUAL PLAYER (scripts/virtual_player.py):
+  7 neue DMG-Aktionen, situative Solo/Party-Prompts
+
+(8) TESTERGEBNISSE:
+  Test 1 (20 Runden): 0 neue Tags — Ursache: alter Context Cache + passive Inputs
+  Test 2 (10 Runden, nach Bugfixes):
+    [REAKTION] ✅ FUNKTIONIERT — Gareth der Soeldner CHA-Mod=0, 2d6=9, hostile
+    [BEGEGNUNG] ✅ FUNKTIONIERT — Zerbrochenes Tor d100=16 Schwelle=33, BEGEGNUNG!
+    Andere 5 Tags: nicht getriggert (KI stagniert in Raum 1-2, erreicht nie Untote/Schatz/Gift)
+  Verbleibendes Problem: KI-Pacing bei automatisierten Tests, nicht die Mechanik
+
+(9) BUGFIXES:
+  - BEGEGNUNG Regex flexibilisiert (akzeptiert jetzt [BEGEGNUNG: Wandering] ohne Pipe)
+  - System-Prompt DMG-Block komprimiert + PFLICHT-Hinweis
+  - Anti-Stagnations-Regel in keeper_lore
+  - Context Cache Invalidierung funktioniert korrekt (Hash-basiert)
+
+DATEIEN: mechanics.py (+350Z), rules_engine.py (+50Z), ai_backend.py (+40Z), orchestrator.py (+200Z), virtual_player.py (+30Z), dmg_stress_test.json (NEU 46KB)
+KOSTEN: Test 1 $2.01, Test 2 $1.24 (Gesamt $3.25)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

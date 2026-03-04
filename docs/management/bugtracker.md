@@ -15,6 +15,7 @@ Quelle: 4-System Virtual Player Test (Session 6, 2026-03-02)
 | BUG-009 | CRITICAL | All Systems | FIXED | Preset-Adventure Passthrough: _set_combo() in gui/tab_session.py schlaegt still fehl wenn Preset-Adventure nicht im Dropdown steht. Setzt auf "(keine)" zurueck. Fix: Wert wird jetzt in Dropdown eingefuegt wenn nicht vorhanden. |
 | BUG-010 | HIGH | All Systems (Kampf) | MITIGATED | Monster-HP_VERLUST fehlt: KI emittiert keine [HP_VERLUST]-Tags fuer Monster-Gegenangriffe trotz expliziter Prompt-Anweisung. Kaempfe risikolos. Fix: (1) Prompt-Verstaerkung am Ende des System-Prompts (KAMPF-ERINNERUNG Block), (2) Post-Validation Warning in _validate_response() wenn Kampfwoerter ohne HP_VERLUST-Tag. Status MITIGATED weil Prompt-Compliance nicht 100% garantiert. |
 | BUG-011 | HIGH | All Systems | OPEN | Context-Saettigung ab ~80 Zuegen: KI-Antworten werden repetitiv bei langen Sessions. Erfordert History-Truncation oder Zusammenfassungs-Mechanismus. Design-Konzept noch offen. |
+| BUG-012 | HIGH | AD&D 2e | FIXED | validate_tags() crashte bei 3+-Tupel stat_changes (MORAL_CHECK). Ursache: `for change_type, value_str in stat_changes` erwartet 2 Werte, MORAL_CHECK gibt (check_type, dc, modifier). Fix Session 19b: Tupel-Unpacking auf stat_tuple[0], stat_tuple[1] mit len-Check in rules_engine.py und orchestrator.py. |
 
 ## Test-Ergebnisse (Session 7, Post-Fix)
 
@@ -40,3 +41,5 @@ Quelle: 4-System Virtual Player Test (Session 6, 2026-03-02)
 - 2026-03-03: BUG-009 (Preset-Adventure Passthrough) + BUG-010 (Monster-HP_VERLUST) + BUG-011 (Context-Saettigung) eroeffnet (Session 12, QM-Report)
 - 2026-03-03: BUG-009 FIXED (Session 12) — _set_combo() fuegt fehlende Werte ins Dropdown ein (gui/tab_session.py)
 - 2026-03-03: BUG-010 MITIGATED (Session 12) — KAMPF-ERINNERUNG Block im System-Prompt + Post-Validation Warning in _validate_response() (core/ai_backend.py)
+- 2026-03-04: BUG-012 (validate_tags Tupel-Crash bei MORAL_CHECK) eroeffnet (Session 19b)
+- 2026-03-04: BUG-012 FIXED (Session 19b) — Tupel-Unpacking mit len-Check in rules_engine.py + orchestrator.py
