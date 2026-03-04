@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "add_2e",
+    "chapter_map",
+    "toc",
+    "appendix",
+    "tsr_inc_ad_and_d_2nd_edition_hr2_charlemagne_s_paladins"
+  ],
+  "summary": "Automatisch erkannte Kapitel- und Appendix-Marker aus TSR Inc - AD&D 2nd Edition - HR2 - Charlemagne's Paladins.pdf.",
+  "source_text": {
+    "detected_chapters": [
+      {
+        "chapter": "2",
+        "title": "A Survey of Carolingian History . , 4",
+        "first_seen_page": 2
+      },
+      {
+        "chapter": "3",
+        "title": "Character Design 11",
+        "first_seen_page": 2
+      },
+      {
+        "chapter": "4",
+        "title": "The Setting .................... 25",
+        "first_seen_page": 2
+      },
+      {
+        "chapter": "6",
+        "title": "\"The Tales of",
+        "first_seen_page": 16
+      }
+    ],
+    "detected_appendices": [],
+    "detection_note": "Extraktion kann Schreibfehler enthalten; Titel wurden 1:1 aus PDF-Text uebernommen."
+  },
+  "mechanics": {
+    "chapter_regex": "\\bChapter\\s+([0-9IVXLC]+)\\s*[:\\-]\\s*([^\\n\\r]{2,120})",
+    "appendix_regex": "\\bAppendix\\s+([0-9IVXLC]+)\\s*[:\\-]\\s*([^\\n\\r]{2,120})",
+    "unique_chapters": 4,
+    "unique_appendices": 0
+  }
+}

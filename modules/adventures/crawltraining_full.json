@@ -16,7 +16,35 @@
       "description": "Ein grosser, dunkler Saal mit zerbrochenen Saeulen. Knochen bedecken den Boden. Vier Skelette erheben sich klappernd aus den Truemmern, als die Party eintritt. Rostige Schwerter in knochigen Haenden, leere Augenhoehlen gluehen schwach rot.",
       "connections": ["fallengang"],
       "keeper_notes": "PFLICHT-TAGS: [PROBE: Wahrnehmung 12] beim Betreten (bemerken die Skelette?). Skelette greifen SOFORT an → [ANGRIFF: Rostschwert 1d6] pro Skelett. Bei Treffern → [HP_VERLUST: Name | N]. Nach Sieg → [XP_GEWINN: 260] (4x65 XP). Thorin und Aldric stehen vorne — sie werden zuerst angegriffen.",
-      "npcs_present": ["skelett_1", "skelett_2", "skelett_3", "skelett_4"]
+      "npcs_present": ["skelett_1", "skelett_2", "skelett_3", "skelett_4"],
+      "map": {
+        "terrain": [
+          ["wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","obstacle","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","obstacle","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","wall","wall","wall","wall","wall","wall","wall","wall","door","wall","wall","wall","wall","wall","wall","wall","wall","wall"]
+        ],
+        "exits": {
+          "fallengang": [9, 10]
+        },
+        "decorations": [
+          {"x": 2, "y": 2, "type": "obstacle"},
+          {"x": 16, "y": 2, "type": "obstacle"}
+        ],
+        "spawns": {
+          "skelett_1": [12, 4],
+          "skelett_2": [14, 5],
+          "skelett_3": [12, 7],
+          "skelett_4": [15, 7]
+        }
+      }
     },
     {
       "id": "fallengang",
@@ -24,7 +52,44 @@
       "description": "Ein langer, enger Gang mit verdaechtigen Loechern in den Waenden. Am Ende stehen zwei Skelett-Bogenschuetzen hinter einer Barrikade aus Knochen. Zwischen den Loechern liegen Stolperdraehte — kaum sichtbar im Fackelschein.",
       "connections": ["eingangshalle", "wachposten"],
       "keeper_notes": "PFLICHT: Lyra MUSS [PROBE: Find/Remove Traps 65] wuerfeln — bei Misserfolg loesen Giftpfeile aus den Waenden aus → [HP_VERLUST: Name | 1d4] + [RETTUNGSWURF: Gift]. Skelett-Bogenschuetzen schiessen sofort → [ANGRIFF: Langbogen 1d6]. Nach Sieg → [XP_GEWINN: 130].",
-      "npcs_present": ["skelett_bogen_1", "skelett_bogen_2"]
+      "npcs_present": ["skelett_bogen_1", "skelett_bogen_2"],
+      "map": {
+        "terrain": [
+          ["wall","wall","wall","door","wall","wall","wall"],
+          ["wall","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","obstacle","floor","obstacle","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","wall"],
+          ["wall","wall","wall","door","wall","wall","wall"]
+        ],
+        "exits": {
+          "eingangshalle": [3, 0],
+          "wachposten": [3, 20]
+        },
+        "decorations": [
+          {"x": 2, "y": 11, "type": "obstacle"},
+          {"x": 4, "y": 11, "type": "obstacle"}
+        ],
+        "spawns": {
+          "skelett_bogen_1": [2, 13],
+          "skelett_bogen_2": [4, 13]
+        }
+      }
     },
     {
       "id": "wachposten",
@@ -32,7 +97,34 @@
       "description": "Ein befestigter Raum mit einem grob gezimmerten Tisch, wuerfelnden Orks und dem Gestank von verdorbenem Fleisch. Drei Ork-Krieger und ein massiger Ork-Hauptmann mit einer gezackten Hellebarde springen auf, als sie die Party bemerken.",
       "connections": ["fallengang", "spinnenhoehle"],
       "keeper_notes": "PFLICHT: [PROBE: Ueberraschung] — wer ueberrascht wen? Orks greifen sofort an → [ANGRIFF: Krummschwert 1d8] pro Ork. Hauptmann: [ANGRIFF: Hellebarde 1d10]. Bei Treffern → [HP_VERLUST: Name | N]. Nach Sieg → [XP_GEWINN: 215] + [INVENTAR: +35 GP]. Der Hauptmann traegt einen Schluessel zum Schatzraum.",
-      "npcs_present": ["ork_1", "ork_2", "ork_3", "ork_hauptmann"]
+      "npcs_present": ["ork_1", "ork_2", "ork_3", "ork_hauptmann"],
+      "map": {
+        "terrain": [
+          ["wall","wall","wall","wall","wall","wall","wall","door","wall","wall","wall","wall","wall","wall","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","obstacle","floor","obstacle","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","wall","wall","wall","wall","wall","wall","door","wall","wall","wall","wall","wall","wall","wall"]
+        ],
+        "exits": {
+          "fallengang": [7, 0],
+          "spinnenhoehle": [7, 8]
+        },
+        "decorations": [
+          {"x": 6, "y": 4, "type": "obstacle"},
+          {"x": 8, "y": 4, "type": "obstacle"}
+        ],
+        "spawns": {
+          "ork_1": [9, 3],
+          "ork_2": [11, 5],
+          "ork_3": [9, 6],
+          "ork_hauptmann": [11, 3]
+        }
+      }
     },
     {
       "id": "spinnenhoehle",
@@ -40,7 +132,42 @@
       "description": "Dicke Spinnweben bedecken Decke und Waende. Vier riesige Spinnen von der Groesse eines Hundes lauern in den Netzen. Kokons haengen von der Decke — manche bewegen sich noch. Der Boden ist klebrig.",
       "connections": ["wachposten", "bruecke"],
       "keeper_notes": "PFLICHT: [PROBE: Geschicklichkeit 14] — wer bleibt in den Netzen kleben? Spinnen greifen sofort an → [ANGRIFF: Biss 1d6 + Gift]. Bei Biss → [RETTUNGSWURF: Gift] — Misserfolg = [HP_VERLUST: Name | 2d4] Giftschaden. Nach Sieg → [XP_GEWINN: 520] (4x130). Elara kann Kokons mit Feuermagie befreien.",
-      "npcs_present": ["riesenspinne_1", "riesenspinne_2", "riesenspinne_3", "riesenspinne_4"]
+      "npcs_present": ["riesenspinne_1", "riesenspinne_2", "riesenspinne_3", "riesenspinne_4"],
+      "map": {
+        "terrain": [
+          ["wall","wall","wall","wall","wall","wall","wall","wall","door","wall","wall","wall","wall","wall","wall","wall","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","wall","floor","obstacle","floor","floor","floor","floor","floor","floor","floor","obstacle","floor","wall","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","obstacle","floor","floor","floor","obstacle","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","water","floor","floor","floor","floor","floor","floor","floor","water","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","obstacle","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","obstacle","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","wall","wall","wall","wall","wall","wall","wall","door","wall","wall","wall","wall","wall","wall","wall","wall"]
+        ],
+        "exits": {
+          "wachposten": [8, 0],
+          "bruecke": [8, 12]
+        },
+        "decorations": [
+          {"x": 4, "y": 2, "type": "obstacle"},
+          {"x": 12, "y": 2, "type": "obstacle"},
+          {"x": 6, "y": 4, "type": "obstacle"},
+          {"x": 10, "y": 4, "type": "obstacle"},
+          {"x": 2, "y": 8, "type": "obstacle"},
+          {"x": 14, "y": 8, "type": "obstacle"}
+        ],
+        "spawns": {
+          "riesenspinne_1": [4, 5],
+          "riesenspinne_2": [12, 5],
+          "riesenspinne_3": [4, 9],
+          "riesenspinne_4": [12, 9]
+        }
+      }
     },
     {
       "id": "bruecke",
@@ -48,7 +175,35 @@
       "description": "Eine schmale Steinbruecke ueber einem bodenlosen Abgrund. Zwei Harpyien kreisen ueber der Schlucht und beginnen ihren betörenden Gesang. Die Bruecke ist nur 1.5 Meter breit — kein Platz zum Ausweichen.",
       "connections": ["spinnenhoehle", "ogerhoehle"],
       "keeper_notes": "PFLICHT: [PROBE: Geschicklichkeit 12] fuer Balance auf der Bruecke. [RETTUNGSWURF: Zauber] gegen Harpyien-Gesang — Misserfolg = zum Abgrund gezogen. Harpyien greifen mit Klauen an → [ANGRIFF: Klaue 1d4] x2 pro Harpyie. Nach Sieg → [XP_GEWINN: 240]. Kaelen kann mit Bogen schiessen waehrend andere kaempfen.",
-      "npcs_present": ["harpyie_1", "harpyie_2"]
+      "npcs_present": ["harpyie_1", "harpyie_2"],
+      "map": {
+        "terrain": [
+          ["wall","wall","door","wall","wall","wall","wall"],
+          ["water","water","floor","water","water","water","water"],
+          ["water","water","floor","water","water","water","water"],
+          ["water","water","floor","water","water","water","water"],
+          ["water","water","floor","water","water","water","water"],
+          ["water","water","floor","water","water","water","water"],
+          ["water","water","floor","water","water","water","water"],
+          ["water","water","floor","water","water","water","water"],
+          ["water","water","floor","water","water","water","water"],
+          ["water","water","floor","water","water","water","water"],
+          ["water","water","floor","water","water","water","water"],
+          ["water","water","floor","water","water","water","water"],
+          ["water","water","floor","water","water","water","water"],
+          ["water","water","floor","water","water","water","water"],
+          ["wall","wall","door","wall","wall","wall","wall"]
+        ],
+        "exits": {
+          "spinnenhoehle": [2, 0],
+          "ogerhoehle": [2, 14]
+        },
+        "decorations": [],
+        "spawns": {
+          "harpyie_1": [2, 11],
+          "harpyie_2": [2, 12]
+        }
+      }
     },
     {
       "id": "ogerhoehle",
@@ -56,7 +211,34 @@
       "description": "Eine stinkende Hoehle voller Knochen und halb aufgefressener Kadaver. Zwei massive Oger, jeder ueber drei Meter gross, schwingen keulenaehnliche Baumstaemme. Der Boden bebt bei jedem Schritt.",
       "connections": ["bruecke", "schatzraum"],
       "keeper_notes": "PFLICHT: [PROBE: Staerke 15] — koennen die Tanks den Oger-Angriff blocken? Oger greifen sofort an → [ANGRIFF: Grosse Keule 1d10] pro Oger. Bei Treffer → [HP_VERLUST: Name | N]. Oger haben 30 HP und AC 5 — zaehe Gegner. Nach Sieg → [XP_GEWINN: 540] + [INVENTAR: +Sack mit 80 GP].",
-      "npcs_present": ["oger_1", "oger_2"]
+      "npcs_present": ["oger_1", "oger_2"],
+      "map": {
+        "terrain": [
+          ["wall","wall","wall","wall","wall","wall","wall","door","wall","wall","wall","wall","wall","wall","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","obstacle","floor","floor","floor","floor","floor","floor","floor","obstacle","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","wall","wall","wall","wall","wall","wall","door","wall","wall","wall","wall","wall","wall","wall"]
+        ],
+        "exits": {
+          "bruecke": [7, 0],
+          "schatzraum": [7, 10]
+        },
+        "decorations": [
+          {"x": 3, "y": 3, "type": "obstacle"},
+          {"x": 11, "y": 3, "type": "obstacle"}
+        ],
+        "spawns": {
+          "oger_1": [5, 7],
+          "oger_2": [9, 7]
+        }
+      }
     },
     {
       "id": "schatzraum",
@@ -64,7 +246,33 @@
       "description": "Ein kleiner Raum voller glitzernder Schaetze — Goldmuenzen, Edelsteine, ein praechtiger Kelch. In der Mitte steht eine grosse, verzierte Truhe. Sie oeffnet sich von selbst und enthuellt ein riesiges, zahnbewehrtes Maul — eine Mimik!",
       "connections": ["ogerhoehle", "trollbruecke"],
       "keeper_notes": "PFLICHT: [PROBE: Intelligenz 14] oder [PROBE: Wahrnehmung 14] — erkennt jemand die Mimik? Falls nicht → Ueberraschungsangriff. [ANGRIFF: Biss 3d4] + Klebstoff (Staerke-Check zum Loskommen). Bei Biss → [HP_VERLUST: Name | N] + [RETTUNGSWURF: Konstitution] gegen Mimik-Gift. Nach Sieg → [XP_GEWINN: 975] + [INVENTAR: +Ring of Protection +1] + [INVENTAR: +200 GP].",
-      "npcs_present": ["mimik"]
+      "npcs_present": ["mimik"],
+      "map": {
+        "terrain": [
+          ["wall","wall","wall","wall","door","wall","wall","wall","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","obstacle","floor","floor","floor","obstacle","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","obstacle","floor","floor","floor","obstacle","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","wall","wall","wall","door","wall","wall","wall","wall"]
+        ],
+        "exits": {
+          "ogerhoehle": [4, 0],
+          "trollbruecke": [4, 8]
+        },
+        "decorations": [
+          {"x": 2, "y": 2, "type": "obstacle"},
+          {"x": 6, "y": 2, "type": "obstacle"},
+          {"x": 2, "y": 5, "type": "obstacle"},
+          {"x": 6, "y": 5, "type": "obstacle"}
+        ],
+        "spawns": {
+          "mimik": [4, 4]
+        }
+      }
     },
     {
       "id": "trollbruecke",
@@ -72,7 +280,38 @@
       "description": "Eine massive Steinbruecke ueber einem unterirdischen Fluss. Ein riesiger Troll steht in der Mitte und bruellt die Party an. Seine Haut regeneriert sichtbar — Wunden schliessen sich in Sekunden.",
       "connections": ["schatzraum", "krypta"],
       "keeper_notes": "PFLICHT: [PROBE: Intelligenz 10] — wissen die Chars, dass Trolle Feuer fuerchten? Troll greift an → [ANGRIFF: Klaue 1d4+4] x2 + [ANGRIFF: Biss 1d8+2]. Regeneration 3 HP/Runde ohne Feuer! Bei Treffern → [HP_VERLUST: Name | N]. Kaelen hat Oil Flasks, Elara hat Fireball. Ohne Feuer kann der Troll NICHT sterben. Nach Sieg → [XP_GEWINN: 1400].",
-      "npcs_present": ["troll"]
+      "npcs_present": ["troll"],
+      "map": {
+        "terrain": [
+          ["wall","wall","wall","wall","door","wall","wall","wall","wall"],
+          ["water","water","floor","water","floor","water","floor","water","water"],
+          ["water","water","floor","water","floor","water","floor","water","water"],
+          ["water","water","floor","water","floor","water","floor","water","water"],
+          ["water","water","floor","water","floor","water","floor","water","water"],
+          ["water","water","floor","water","floor","water","floor","water","water"],
+          ["water","water","floor","water","floor","water","floor","water","water"],
+          ["water","water","floor","water","floor","water","floor","water","water"],
+          ["water","water","floor","water","floor","water","floor","water","water"],
+          ["water","water","floor","water","floor","water","floor","water","water"],
+          ["water","water","floor","water","floor","water","floor","water","water"],
+          ["water","water","floor","water","floor","water","floor","water","water"],
+          ["water","water","floor","water","floor","water","floor","water","water"],
+          ["water","water","floor","water","floor","water","floor","water","water"],
+          ["water","water","floor","water","floor","water","floor","water","water"],
+          ["water","water","floor","water","floor","water","floor","water","water"],
+          ["water","water","floor","water","floor","water","floor","water","water"],
+          ["water","water","floor","water","floor","water","floor","water","water"],
+          ["wall","wall","wall","wall","door","wall","wall","wall","wall"]
+        ],
+        "exits": {
+          "schatzraum": [4, 0],
+          "krypta": [4, 18]
+        },
+        "decorations": [],
+        "spawns": {
+          "troll": [4, 9]
+        }
+      }
     },
     {
       "id": "krypta",
@@ -80,7 +319,44 @@
       "description": "Ein eiskalter Raum voller Sarkophage. Sechs Zombies schlurfen aus den Graebern, gefolgt von zwei Ghulen mit irrem Blick und scharfen Klauen. Der Gestank des Todes ist ueberwaeltigend.",
       "connections": ["trollbruecke", "labor"],
       "keeper_notes": "PFLICHT: Aldhelm MUSS Turn Undead versuchen → [PROBE: Turn Undead]. Zombies = auto-Erfolg, Ghule = 4+ auf d20. Untote greifen an → [ANGRIFF: Klaue 1d4] (Zombie) und [ANGRIFF: Klaue 1d3 + Paralyse] (Ghul). Bei Ghul-Treffer → [RETTUNGSWURF: Paralyse] — Misserfolg = paralysiert 2d6 Runden! Bei Treffern → [HP_VERLUST: Name | N]. Aldric mit Holy Sword +2 macht doppelten Schaden. Nach Sieg → [XP_GEWINN: 490].",
-      "npcs_present": ["zombie_1", "zombie_2", "zombie_3", "zombie_4", "zombie_5", "zombie_6", "ghul_1", "ghul_2"]
+      "npcs_present": ["zombie_1", "zombie_2", "zombie_3", "zombie_4", "zombie_5", "zombie_6", "ghul_1", "ghul_2"],
+      "map": {
+        "terrain": [
+          ["wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","door","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","obstacle","floor","floor","floor","obstacle","floor","floor","floor","floor","floor","floor","floor","obstacle","floor","floor","floor","obstacle","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","door","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall"]
+        ],
+        "exits": {
+          "trollbruecke": [10, 0],
+          "labor": [10, 12]
+        },
+        "decorations": [
+          {"x": 2, "y": 2, "type": "obstacle"},
+          {"x": 6, "y": 2, "type": "obstacle"},
+          {"x": 14, "y": 2, "type": "obstacle"},
+          {"x": 18, "y": 2, "type": "obstacle"}
+        ],
+        "spawns": {
+          "zombie_1": [4, 6],
+          "zombie_2": [8, 6],
+          "zombie_3": [12, 6],
+          "zombie_4": [16, 6],
+          "zombie_5": [4, 9],
+          "zombie_6": [16, 9],
+          "ghul_1": [8, 9],
+          "ghul_2": [12, 9]
+        }
+      }
     },
     {
       "id": "labor",
@@ -88,7 +364,31 @@
       "description": "Ein alchemistisches Labor voller brodelnder Kessel und verzerrter Glasgefaesse. In der Mitte steht ein Fleischgolem — zusammengenaehte Leichen, belebt durch dunkle Magie. Er bewegt sich langsam aber unaufhaltsam.",
       "connections": ["krypta", "lavasaal"],
       "keeper_notes": "PFLICHT: [PROBE: Arkanes Wissen 16] — kennt Elara die Schwaechen des Golems? (Immun gegen die meisten Zauber, Feuer verlangsamt, Blitz heilt!). Golem greift an → [ANGRIFF: Faust 2d8]. Bei Treffer → [HP_VERLUST: Name | N]. WARNUNG: Lightning Bolt HEILT den Golem! Nur physischer Schaden + Feuer wirkt. Nach Sieg → [XP_GEWINN: 2000] + [INVENTAR: +Potion of Extra-Healing] + [INVENTAR: +Scroll of Protection from Magic].",
-      "npcs_present": ["fleischgolem"]
+      "npcs_present": ["fleischgolem"],
+      "map": {
+        "terrain": [
+          ["wall","wall","wall","wall","wall","wall","door","wall","wall","wall","wall","wall","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","obstacle","floor","floor","floor","floor","floor","floor","floor","obstacle","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","wall","wall","wall","wall","wall","door","wall","wall","wall","wall","wall","wall"]
+        ],
+        "exits": {
+          "krypta": [6, 0],
+          "lavasaal": [6, 8]
+        },
+        "decorations": [
+          {"x": 2, "y": 2, "type": "obstacle"},
+          {"x": 10, "y": 2, "type": "obstacle"}
+        ],
+        "spawns": {
+          "fleischgolem": [6, 4]
+        }
+      }
     },
     {
       "id": "lavasaal",
@@ -96,7 +396,35 @@
       "description": "Ein riesiger Saal, dessen Boden von Lavastroemen durchzogen ist. Schmale Steinpfade fuehren ueber die gluehende Masse. Zwei Feuerelementare erheben sich aus der Lava — Gestalten aus reiner Flamme.",
       "connections": ["labor", "drachengang"],
       "keeper_notes": "PFLICHT: [PROBE: Konstitution 13] — Hitzeschaden fuer alle in der Naehe der Lava (1d4 pro Runde ohne Schutz). [RETTUNGSWURF: Atemwaffe] bei Feuer-Attacken. Elementare greifen an → [ANGRIFF: Feuerberuehrung 3d8]. Bei Treffer → [HP_VERLUST: Name | N]. Beruehrbare Waffen brennen (Holzschaefte)! Magische Waffen noetig. Nach Sieg → [XP_GEWINN: 3900] + [INVENTAR: +Feuerfeste Robe].",
-      "npcs_present": ["feuerelementar_1", "feuerelementar_2"]
+      "npcs_present": ["feuerelementar_1", "feuerelementar_2"],
+      "map": {
+        "terrain": [
+          ["wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","door","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","water","water","water","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","water","water","water","floor","floor","wall"],
+          ["wall","floor","water","water","water","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","water","water","water","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","water","water","water","water","water","water","water","water","water","water","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","water","water","water","water","water","water","water","water","water","water","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","water","water","water","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","water","water","water","floor","floor","wall"],
+          ["wall","floor","water","water","water","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","water","water","water","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","door","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall"]
+        ],
+        "exits": {
+          "labor": [11, 0],
+          "drachengang": [11, 14]
+        },
+        "decorations": [],
+        "spawns": {
+          "feuerelementar_1": [5, 7],
+          "feuerelementar_2": [17, 7]
+        }
+      }
     },
     {
       "id": "drachengang",
@@ -104,7 +432,47 @@
       "description": "Ein breiter Gang mit Kratzspuren an den Waenden und dem beissenden Geruch von Saeureund Schwefel. Am Ende liegt ein junger roter Drache auf einem Haufen geschmolzenen Goldes. Er hebt den Kopf und fixiert die Party mit gluehenden Augen.",
       "connections": ["lavasaal", "wight_festung"],
       "keeper_notes": "PFLICHT: [RETTUNGSWURF: Atemwaffe] gegen Feueratem (8d6 Schaden, Haelfte bei Erfolg). [HP_VERLUST: Name | N] fuer JEDEN getroffenen Charakter. Drache greift an → [ANGRIFF: Biss 2d8] + [ANGRIFF: Klaue 1d6] x2. Elara's Fireball ist NUTZLOS (Drache immun gegen Feuer). Eismagie oder physisch kaempfen. Nach Sieg → [XP_GEWINN: 4000] + [INVENTAR: +500 GP geschmolzenes Gold] + [INVENTAR: +Drachenschuppe-Schild].",
-      "npcs_present": ["junger_drache"]
+      "npcs_present": ["junger_drache"],
+      "map": {
+        "terrain": [
+          ["wall","wall","wall","wall","door","wall","wall","wall","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","obstacle","floor","floor","floor","obstacle","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","obstacle","floor","floor","floor","obstacle","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","obstacle","floor","floor","floor","obstacle","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","wall","wall","wall","door","wall","wall","wall","wall"]
+        ],
+        "exits": {
+          "lavasaal": [4, 0],
+          "wight_festung": [4, 20]
+        },
+        "decorations": [
+          {"x": 2, "y": 3, "type": "obstacle"},
+          {"x": 6, "y": 3, "type": "obstacle"},
+          {"x": 2, "y": 7, "type": "obstacle"},
+          {"x": 6, "y": 7, "type": "obstacle"},
+          {"x": 2, "y": 11, "type": "obstacle"},
+          {"x": 6, "y": 11, "type": "obstacle"}
+        ],
+        "spawns": {
+          "junger_drache": [4, 17]
+        }
+      }
     },
     {
       "id": "wight_festung",
@@ -112,7 +480,40 @@
       "description": "Eine unterirdische Festung aus schwarzem Stein. Drei Wights in verrosteter Ruestung und ein Wight-Champion mit einem leuchtenden Schwert bewachen den Durchgang. Ihre Beruehrung saugt Lebensenergie.",
       "connections": ["drachengang", "schrein"],
       "keeper_notes": "PFLICHT: [PROBE: Turn Undead 10] fuer Aldhelm. Wights greifen an → [ANGRIFF: Beruehrung 1d4 + Level Drain]. Bei Treffer → [HP_VERLUST: Name | N] + WARNUNG: Level Drain! -1 Level, -1 HD, permanenter HP-Verlust! Nur magische Waffen treffen Wights. Holy Water: 2d4 Schaden. Aldrics Holy Sword ist KRITISCH. Champion hat 6 HD und AC 3. Nach Sieg → [XP_GEWINN: 3300] + [INVENTAR: +Schwert des Wight-Champions (+1, leuchtet)].",
-      "npcs_present": ["wight_1", "wight_2", "wight_3", "wight_champion"]
+      "npcs_present": ["wight_1", "wight_2", "wight_3", "wight_champion"],
+      "map": {
+        "terrain": [
+          ["wall","wall","wall","wall","wall","wall","wall","wall","wall","door","wall","wall","wall","wall","wall","wall","wall","wall","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","obstacle","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","obstacle","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","obstacle","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","obstacle","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","wall","wall","wall","wall","wall","wall","wall","wall","door","wall","wall","wall","wall","wall","wall","wall","wall","wall"]
+        ],
+        "exits": {
+          "drachengang": [9, 0],
+          "schrein": [9, 12]
+        },
+        "decorations": [
+          {"x": 2, "y": 2, "type": "obstacle"},
+          {"x": 16, "y": 2, "type": "obstacle"},
+          {"x": 2, "y": 5, "type": "obstacle"},
+          {"x": 16, "y": 5, "type": "obstacle"}
+        ],
+        "spawns": {
+          "wight_1": [4, 8],
+          "wight_2": [9, 8],
+          "wight_3": [14, 8],
+          "wight_champion": [9, 10]
+        }
+      }
     },
     {
       "id": "schrein",
@@ -120,7 +521,36 @@
       "description": "Ein unheiliger Schrein mit blutbeflecktem Altar. Ein Daemonenbeschworer in schwarzer Robe chantet vor einem Pentagramm, aus dem zwei kleinere Daemonen materialisieren. Die Luft vibriert vor dunkler Magie.",
       "connections": ["wight_festung", "endkammer"],
       "keeper_notes": "PFLICHT: [PROBE: Weisheit 14] — spuert die Party die daemonische Praesenz? [RETTUNGSWURF: Zauber] gegen Furcht-Aura der Daemonen. Beschworer wirkt Zauber → [ANGRIFF: Todesstrahl 3d6]. Daemonen greifen an → [ANGRIFF: Klaue 2d4 + Feuer] x2. Bei Treffern → [HP_VERLUST: Name | N]. Aldhelm kann Dispel Magic gegen Pentagramm versuchen → verbannt Daemonen. Nach Sieg → [XP_GEWINN: 5000] + [INVENTAR: +Staff of Striking (10 Ladungen)].",
-      "npcs_present": ["daemonenbeschworer", "daemon_1", "daemon_2"]
+      "npcs_present": ["daemonenbeschworer", "daemon_1", "daemon_2"],
+      "map": {
+        "terrain": [
+          ["wall","wall","wall","wall","wall","wall","wall","door","wall","wall","wall","wall","wall","wall","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","obstacle","floor","floor","obstacle","floor","floor","obstacle","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","wall","wall","wall","wall","wall","wall","door","wall","wall","wall","wall","wall","wall","wall"]
+        ],
+        "exits": {
+          "wight_festung": [7, 0],
+          "endkammer": [7, 10]
+        },
+        "decorations": [
+          {"x": 4, "y": 4, "type": "obstacle"},
+          {"x": 7, "y": 4, "type": "obstacle"},
+          {"x": 10, "y": 4, "type": "obstacle"}
+        ],
+        "spawns": {
+          "daemonenbeschworer": [7, 6],
+          "daemon_1": [4, 8],
+          "daemon_2": [10, 8]
+        }
+      }
     },
     {
       "id": "endkammer",
@@ -128,7 +558,42 @@
       "description": "Ein riesiger Thronsaal aus obsidianem Gestein. Auf einem Thron aus Knochen sitzt ein Lich in praechtiger, aber verrotteter Robe. Sein Phylactery — ein schwarzer Edelstein — pulsiert auf einem Podest hinter dem Thron. Untote Wachen flankieren ihn.",
       "connections": ["schrein"],
       "keeper_notes": "PFLICHT: ENDKAMPF. [RETTUNGSWURF: Zauber] gegen Lich-Paralyse-Aura beim Betreten. Lich wirkt Power Word Kill (unter 60 HP → sofort tot!) oder Finger of Death → [RETTUNGSWURF: Zauber]. Lich greift an → [ANGRIFF: Beruehrung 1d10 + Paralyse]. AC -2, HP 90, immun gegen Schlaf/Charm/Kalte/Blitz. [PROBE: Wahrnehmung 16] — findet jemand den Phylactery? MUSS zerstoert werden, sonst regeneriert der Lich. Bei Treffern → [HP_VERLUST: Name | N]. Aldrics Protection from Evil 10' ist KRITISCH. Nach Sieg → [XP_GEWINN: 8000] + [INVENTAR: +Phylactery-Edelstein (wertlos ohne Magie)] + [INVENTAR: +2000 GP Schatzkammer].",
-      "npcs_present": ["lich"]
+      "npcs_present": ["lich"],
+      "map": {
+        "terrain": [
+          ["wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","door","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","obstacle","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","obstacle","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","obstacle","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","obstacle","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","obstacle","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall"]
+        ],
+        "exits": {
+          "schrein": [10, 0]
+        },
+        "decorations": [
+          {"x": 3, "y": 3, "type": "obstacle"},
+          {"x": 17, "y": 3, "type": "obstacle"},
+          {"x": 3, "y": 10, "type": "obstacle"},
+          {"x": 17, "y": 10, "type": "obstacle"},
+          {"x": 10, "y": 14, "type": "obstacle"}
+        ],
+        "spawns": {
+          "lich": [10, 5]
+        }
+      }
     }
   ],
 

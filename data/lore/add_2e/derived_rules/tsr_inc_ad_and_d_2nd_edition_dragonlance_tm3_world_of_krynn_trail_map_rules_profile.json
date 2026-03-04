@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_profile",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "rules_profile",
+    "tsr_inc_ad_and_d_2nd_edition_dragonlance_tm3_world_of_krynn_trail_map",
+    "fallback"
+  ],
+  "summary": "Fallback-Regelprofil (Metadata/Chapter-Map) fuer TSR Inc - AD&D 2nd Edition - Dragonlance_ TM3 - World of Krynn Trail Map.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - Dragonlance_ TM3 - World of Krynn Trail Map",
+    "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ TM3 - World of Krynn Trail Map.pdf",
+    "pages_jsonl": "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dragonlance_tm3_world_of_krynn_trail_map_pages.jsonl",
+    "chapter_map": "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dragonlance_tm3_world_of_krynn_trail_map_chapter_map.json",
+    "page_count_detected": 30
+  },
+  "mechanics": {
+    "extraction_mode": "fallback_title_chaptermap_inference",
+    "detected_fields": [
+      {
+        "field": "extensions",
+        "score": 1,
+        "confidence": 0.1,
+        "priority": "flavor",
+        "page_refs": [
+          1
+        ],
+        "keyword_matches": [
+          "edition",
+          "dragonlance",
+          "world",
+          "krynn",
+          "trail"
+        ],
+        "evidence_excerpt": "TSR Inc - AD&D 2nd Edition - Dragonlance_ TM3 - World of Krynn Trail Map.pdf"
+      },
+      {
+        "field": "travel",
+        "score": 1,
+        "confidence": 0.2,
+        "priority": "support",
+        "page_refs": [
+          1
+        ],
+        "keyword_matches": [
+          "edition",
+          "dragonlance",
+          "world",
+          "krynn",
+          "trail"
+        ],
+        "evidence_excerpt": "TSR Inc - AD&D 2nd Edition - Dragonlance_ TM3 - World of Krynn Trail Map.pdf"
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_2",
+    "tsr_inc_ad_and_d_2nd_edition_dmgr8_sages_and_specialists",
+    "henchmen_hirelings"
+  ],
+  "summary": "Phase-2 Regelchunk: henchmen_hirelings aus TSR Inc - AD&D 2nd Edition - DMGR8 - Sages and Specialists.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - DMGR8 - Sages and Specialists",
+    "source_file": "TSR Inc - AD&D 2nd Edition - DMGR8 - Sages and Specialists.pdf",
+    "text": "[PDF_PAGE 123 | score=3] —_ Playerscangenerateany kind of specialist that they like, although they must comeup with some a rationalization asto why the specialist keepsin touch with their character—and vice versa. Otherwise, there is no reasonfor any kind of special relationship and the specialist is then reduced to the level of a regular NPC. If this is the case,the players should have nothing to do with creating and presenting thesespecialists. I ' | _ -- -'*' . .-r - I -', . In I. | _ I . ‘..- . I _ . -' -_ -|_ Once the player or Dungeon Master creates a specialist, he must attach it to a specific player or party. Attached specialistsare NPCs who have a closerelationship with a particular hero or group of heroes."
+  },
+  "mechanics": {
+    "topic": "henchmen_hirelings",
+    "keywords": [
+      "add_2e",
+      "henchmen_hirelings",
+      "tsr_inc_ad_and_d_2nd_edition_dmgr8_sages_and_specialists"
+    ],
+    "injection_priority": "support",
+    "confidence": 0.075,
+    "page_refs": [
+      123
+    ],
+    "raw_text": "[PDF_PAGE 123 | score=3] —_ Playerscangenerateany kind of specialist that they like, although they must comeup with some a rationalization asto why the specialist keepsin touch with their character—and vice versa. Otherwise, there is no reasonfor any kind of special relationship and the specialist is then reduced to the level of a regular NPC. If this is the case,the players should have nothing to do with creating and presenting thesespecialists. I ' | _ -- -'*' . .-r - I -', . In I. | _ I . ‘..- . I _ . -' -_ -|_ Once the player or Dungeon Master creates a specialist, he must attach it to a specific player or party. Attached specialistsare NPCs who have a closerelationship with a particular hero or group of heroes."
+  }
+}

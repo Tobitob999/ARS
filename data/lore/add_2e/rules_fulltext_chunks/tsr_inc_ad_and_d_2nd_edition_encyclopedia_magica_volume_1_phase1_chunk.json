@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_1_mapping",
+    "tsr_inc_ad_and_d_2nd_edition_encyclopedia_magica_volume_1"
+  ],
+  "summary": "Abgeleiteter Phase-1-Chunk aus Kapitelmarkern fuer TSR Inc - AD&D 2nd Edition - Encyclopedia Magica Volume 1.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - Encyclopedia Magica Volume 1",
+    "source_file": "TSR Inc - AD&D 2nd Edition - Encyclopedia Magica Volume 1.pdf",
+    "chapter_map_file": "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_encyclopedia_magica_volume_1_chapter_map.json",
+    "text": "Appendix II: Children of the Night (first_seen_pdf_page=196)"
+  },
+  "mechanics": {
+    "topic": "phase_1_skeleton_mapping",
+    "keywords": [
+      "add_2e",
+      "book_conversion",
+      "extensions",
+      "tsr_inc_ad_and_d_2nd_edition_encyclopedia_magica_volume_1"
+    ],
+    "injection_priority": "support",
+    "mapped_skeleton_fields": [
+      "extensions"
+    ],
+    "raw_text": "Appendix II: Children of the Night (first_seen_pdf_page=196)",
+    "derived_from": [
+      "detected_chapters",
+      "detected_appendices"
+    ]
+  }
+}

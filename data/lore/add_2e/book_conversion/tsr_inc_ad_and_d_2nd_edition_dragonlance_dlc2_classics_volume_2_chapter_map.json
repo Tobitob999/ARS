@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "add_2e",
+    "chapter_map",
+    "toc",
+    "appendix",
+    "tsr_inc_ad_and_d_2nd_edition_dragonlance_dlc2_classics_volume_2"
+  ],
+  "summary": "Automatisch erkannte Kapitel- und Appendix-Marker aus TSR Inc - AD&D 2nd Edition - Dragonlance_ DLC2 - Classics Volume 2.pdf.",
+  "source_text": {
+    "detected_chapters": [
+      {
+        "chapter": "1",
+        "title": "The Fall of Tarsis  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "first_seen_page": 4
+      },
+      {
+        "chapter": "2",
+        "title": "The Ice Reaches  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "first_seen_page": 4
+      },
+      {
+        "chapter": "3",
+        "title": "The Ice Folk . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  .",
+        "first_seen_page": 4
+      },
+      {
+        "chapter": "4",
+        "title": "Icewall Castle  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "first_seen_page": 4
+      },
+      {
+        "chapter": "5",
+        "title": "Icemountain Bay . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .2",
+        "first_seen_page": 4
+      },
+      {
+        "chapter": "6",
+        "title": "Awash on Ergoth  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29",
+        "first_seen_page": 4
+      },
+      {
+        "chapter": "7",
+        "title": "The Wilds of Ergoth . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "first_seen_page": 4
+      },
+      {
+        "chapter": "8",
+        "title": "Foghaven Vale  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38",
+        "first_seen_page": 4
+      },
+      {
+        "chapter": "9",
+        "title": "The Stone Dragon of Ergoth . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 42",
+        "first_seen_page": 4
+      },
+      {
+        "chapter": "10",
+        "title": "Winter Councils . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 52",
+        "first_seen_page": 4
+      },
+      {
+        "chapter": "11",
+        "title": "The Last Bastion  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 60",
+        "first_seen_page": 4
+      },
+      {
+        "chapter": "12",
+        "title": "The Tower . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 63",
+        "first_seen_page": 4
+      },
+      {
+        "chapter": "13",
+        "title": "The Silver Messenger ..................................................................... 72",
+        "first_seen_page": 5
+      },
+      {
+        "chapter": "15",
+        "title": "Sanction ....................................................................................... 79",
+        "first_seen_page": 5
+      },
+      {
+        "chapter": "16",
+        "title": "The Lords of Doom ........................................................................ 86",
+        "first_seen_page": 5
+      },
+      {
+        "chapter": "17",
+        "title": "War in the Skies ........................................................................... 92",
+        "first_seen_page": 5
+      }
+    ],
+    "detected_appendices": [],
+    "detection_note": "Extraktion kann Schreibfehler enthalten; Titel wurden 1:1 aus PDF-Text uebernommen."
+  },
+  "mechanics": {
+    "chapter_regex": "\\bChapter\\s+([0-9IVXLC]+)\\s*[:\\-]\\s*([^\\n\\r]{2,120})",
+    "appendix_regex": "\\bAppendix\\s+([0-9IVXLC]+)\\s*[:\\-]\\s*([^\\n\\r]{2,120})",
+    "unique_chapters": 16,
+    "unique_appendices": 0
+  }
+}

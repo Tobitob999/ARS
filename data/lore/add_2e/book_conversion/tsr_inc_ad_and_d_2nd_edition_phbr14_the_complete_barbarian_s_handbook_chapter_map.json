@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "add_2e",
+    "chapter_map",
+    "toc",
+    "appendix",
+    "tsr_inc_ad_and_d_2nd_edition_phbr14_the_complete_barbarian_s_handbook"
+  ],
+  "summary": "Automatisch erkannte Kapitel- und Appendix-Marker aus TSR Inc - AD&D 2nd Edition - PHBR14 - The Complete Barbarian's Handbook.pdf.",
+  "source_text": {
+    "detected_chapters": [
+      {
+        "chapter": "2",
+        "title": "Special characteristics - ....................................... 19",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "3",
+        "title": "Barbarian Kits ........................................................ 36",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "4",
+        "title": "Proficienfies ........................................................... 67",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "7",
+        "title": "Role-playing ......................................................... 113",
+        "first_seen_page": 3
+      }
+    ],
+    "detected_appendices": [],
+    "detection_note": "Extraktion kann Schreibfehler enthalten; Titel wurden 1:1 aus PDF-Text uebernommen."
+  },
+  "mechanics": {
+    "chapter_regex": "\\bChapter\\s+([0-9IVXLC]+)\\s*[:\\-]\\s*([^\\n\\r]{2,120})",
+    "appendix_regex": "\\bAppendix\\s+([0-9IVXLC]+)\\s*[:\\-]\\s*([^\\n\\r]{2,120})",
+    "unique_chapters": 4,
+    "unique_appendices": 0
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "add_2e",
+    "chapter_map",
+    "toc",
+    "appendix",
+    "tsr_inc_ad_and_d_2nd_edition_dmgr5_creative_campaigning_text"
+  ],
+  "summary": "Automatisch erkannte Kapitel- und Appendix-Marker aus TSR Inc - AD&D 2nd Edition - DMGR5 - Creative Campaigning_text.pdf.",
+  "source_text": {
+    "detected_chapters": [
+      {
+        "chapter": "1",
+        "title": "Alternate Campaigns The Joys of Research ..... Campaigns in Historical Time Periods . Single Class Campaigns Single Race",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "2",
+        "title": "Alternate Adventures",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "3",
+        "title": "Wh;",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "4",
+        "title": "Freestyle Campaigning .",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "5",
+        "title": "Handling Fui n ——MÓ à",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "6",
+        "title": "The Grand Tou",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "7",
+        "title": "The Medieval Mindset",
+        "first_seen_page": 3
+      }
+    ],
+    "detected_appendices": [],
+    "detection_note": "Extraktion kann Schreibfehler enthalten; Titel wurden 1:1 aus PDF-Text uebernommen."
+  },
+  "mechanics": {
+    "chapter_regex": "\\bChapter\\s+([0-9IVXLC]+)\\s*[:\\-]\\s*([^\\n\\r]{2,120})",
+    "appendix_regex": "\\bAppendix\\s+([0-9IVXLC]+)\\s*[:\\-]\\s*([^\\n\\r]{2,120})",
+    "unique_chapters": 7,
+    "unique_appendices": 0
+  }
+}

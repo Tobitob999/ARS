@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "add_2e",
+    "source_book",
+    "pdf_conversion",
+    "tsr_inc_ad_and_d_2nd_edition_dragonlance_wings_of_fury_text"
+  ],
+  "summary": "Metadaten der PDF-zu-JSON-Konvertierung fuer TSR Inc - AD&D 2nd Edition - Dragonlance_ Wings of Fury_text.pdf.",
+  "source_text": {
+    "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Wings of Fury_text.pdf",
+    "source_path": "g:\\meine ablage\\add2e\\tsr inc - ad&d 2nd edition - dragonlance_ wings of fury_text.pdf",
+    "format": "pdf",
+    "page_count": 205,
+    "extracted_characters": 607085,
+    "extraction_timestamp": "2026-03-02T10:58:35",
+    "toc_candidate_pages": [
+      8,
+      140
+    ],
+    "empty_or_unreadable_pages": [
+      3,
+      4,
+      5,
+      46,
+      51,
+      61,
+      63,
+      78,
+      86,
+      136,
+      161,
+      191
+    ]
+  },
+  "mechanics": {
+    "extractor": "pypdf.PdfReader.extract_text",
+    "output_files": [
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dragonlance_wings_of_fury_text_pages.jsonl",
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dragonlance_wings_of_fury_text_chapter_map.json",
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dragonlance_wings_of_fury_text_metadata.json"
+    ]
+  }
+}

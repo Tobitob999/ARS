@@ -16,21 +16,24 @@
                     │ Freigaben       │
                     └───────┬─────────┘
                             │
-              ┌─────────────┼─────────────┐
-              │             │             │
-    ┌─────────▼──────┐ ┌────▼─────────┐ ┌─▼──────────────┐
-    │ Strategic Lead │ │Lead Developer│ │Content Specialist│
-    │   (Gemini)     │ │(Claude Code) │ │    (Codex)      │
-    │ Keeper-KI      │ │ Engine, GUI  │ │ Lore, Module    │
-    └─────────┬──────┘ └────┬─────────┘ └─┬──────────────┘
-              │             │             │
-              └─────────────┼─────────────┘
+        ┌───────────────────┼───────────────────┐
+        │                   │                   │
+┌───────▼────────┐ ┌────────▼───────┐ ┌────────▼──────────┐
+│ Strategic Lead │ │Lead Developer  │ │Content Specialist  │
+│   (Gemini)     │ │(Claude Code)   │ │    (Codex)         │
+│ Keeper-KI      │ │ Engine, GUI    │ │ Lore, Module       │
+└───────┬────────┘ └────────┬───────┘ └────────┬──────────┘
+        │                   │                   │
+        └───────────────────┼───────────────────┘
                             │
-                   ┌────────▼────────┐
-                   │ Virtual Player  │
-                   │  (AI-Script)    │
-                   │ Spieltest, QA   │
-                   └─────────────────┘
+               ┌────────────┼────────────┐
+               │                         │
+      ┌────────▼────────┐     ┌──────────▼──────────┐
+      │ Virtual Player  │     │     Converter        │
+      │  (AI-Script)    │     │  (Claude Code /      │
+      │ Spieltest, QA   │     │   Codex Autopilot)   │
+      └─────────────────┘     │ PDF→JSON Extraktion  │
+                              └─────────────────────┘
 ```
 
 ---
@@ -89,6 +92,21 @@
 | **Outputs** | Test-Reports, Bug-Meldungen, Regelwerk-Inkonsistenzen |
 | **Status** | Implementiert (Session 5) — `scripts/virtual_player.py`, N-Zug-Simulation, Metriken-Export nach `data/metrics/` |
 
+### Converter (Claude Code / Codex Autopilot)
+
+| Aspekt | Detail |
+|--------|--------|
+| **Rolle** | Vollautomatische PDF-zu-JSON-Extraktion fuer das ARS Lore-System |
+| **Verantwortung** | Alle PDFs in `ADD2e/` nach `data/lore/add_2e/` konvertieren; 12-Phasen-Pipeline einhalten; Entity-Index + QA-Report je PDF erstellen |
+| **Zustaendigkeit** | AD&D 2e Komplett-Bibliothek (108 PDFs) — Regelwerke, Monster Compendiums, Spell Compendiums, Magic Items, DM-Guides, Dragonlance-Setting, Historical Reference |
+| **Arbeitsweise** | Batch-basiert (10er-Batches), priorisiert nach Spielrelevanz (P1 Kern-Mechanik → P4 Setting) |
+| **Staerken** | Massenverarbeitung von Quelltexten, schema-konforme JSON-Generierung, Entity-First-Extraktion, 100%-Snippet-Abdeckung |
+| **Outputs** | Lore-Chunks in `data/lore/add_2e/{kategorie}/`, Entity-Index je Batch, QA-Reports, Conversion-Status-Tabelle |
+| **Eingabepfad** | `G:\Meine Ablage\ARS\ADD2e\` — 108 eindeutige PDFs (manche als Scan + OCR-Variante vorhanden) |
+| **Ausgabepfad** | `data/lore/add_2e/` — bestehende Verzeichnisse: monsters/, spells/, equipment/, items/, encounters/, tables/, mechanics/, chapters/ |
+| **Regeln** | Muss vor jeder Aktion [agents.md](agents.md) lesen; nach jedem Batch vollstaendigen Report schreiben; [Book_ARS_Tool.md](Book_ARS_Tool.md) und [conversion_workflow.md](conversion_workflow.md) sind bindend |
+| **Status** | Geplant — Batch 1 (P1 PHBR01-15) ausstehend |
+
 ---
 
 ## Kommunikationsregeln
@@ -116,4 +134,6 @@
 | [suggestions.md](suggestions.md) | Strategische Planung, Feature-Brainstorming, Lore-Ideen | Strategic Lead |
 | [WCR.md](WCR.md) | World Creation Rules — JSON-Schema-Spezifikation | Content Specialist |
 | [Book_ARS_Tool.md](Book_ARS_Tool.md) | Buch-Konvertierungs-Pipeline (12 Phasen) | Content Specialist |
+| [conversion_workflow.md](conversion_workflow.md) | Autopilot-Workflow fuer PDF-Konvertierung | Converter |
+| [bugtracker.md](bugtracker.md) | Bug-Tracking (BUG-NNN), Severity, Status, Massnahmen | Lead Developer |
 | [organization.md](organization.md) | Dieses Dokument — Rollen & Verantwortlichkeiten | Human Lead |

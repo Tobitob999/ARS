@@ -34,5 +34,8 @@ Thumbs.db
 .DS_Store
 desktop.ini
 
+# Temp extraction directories (large, already merged)
+ADD2e/
+
 # Claude Code
 .claude/

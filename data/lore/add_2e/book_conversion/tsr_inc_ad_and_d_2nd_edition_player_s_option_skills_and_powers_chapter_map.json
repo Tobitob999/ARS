@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "add_2e",
+    "chapter_map",
+    "toc",
+    "appendix",
+    "tsr_inc_ad_and_d_2nd_edition_player_s_option_skills_and_powers"
+  ],
+  "summary": "Automatisch erkannte Kapitel- und Appendix-Marker aus TSR Inc - AD&D 2nd Edition - Player's Option - Skills & Powers.pdf.",
+  "source_text": {
+    "detected_chapters": [
+      {
+        "chapter": "1",
+        "title": "Character Points .............. -6",
+        "first_seen_page": 5
+      },
+      {
+        "chapter": "2",
+        "title": "Ability Scores ........",
+        "first_seen_page": 5
+      },
+      {
+        "chapter": "4",
+        "title": "Character Classes.. .... AC",
+        "first_seen_page": 5
+      },
+      {
+        "chapter": "5",
+        "title": "Character Kits ............... .64",
+        "first_seen_page": 5
+      },
+      {
+        "chapter": "8",
+        "title": "New Schools of Magic ........ 136 Thug ........... .................... 84",
+        "first_seen_page": 6
+      },
+      {
+        "chapter": "6",
+        "title": "Noweapon Proficiencies ...... 86",
+        "first_seen_page": 6
+      },
+      {
+        "chapter": "7",
+        "title": "Weapon Proficiency and Mastery ........ 1 12",
+        "first_seen_page": 6
+      },
+      {
+        "chapter": "9",
+        "title": "Psia 12",
+        "first_seen_page": 6
+      },
+      {
+        "chapter": "7",
+        "title": "Weapons",
+        "first_seen_page": 121
+      }
+    ],
+    "detected_appendices": [],
+    "detection_note": "Extraktion kann Schreibfehler enthalten; Titel wurden 1:1 aus PDF-Text uebernommen."
+  },
+  "mechanics": {
+    "chapter_regex": "\\bChapter\\s+([0-9IVXLC]+)\\s*[:\\-]\\s*([^\\n\\r]{2,120})",
+    "appendix_regex": "\\bAppendix\\s+([0-9IVXLC]+)\\s*[:\\-]\\s*([^\\n\\r]{2,120})",
+    "unique_chapters": 9,
+    "unique_appendices": 0
+  }
+}

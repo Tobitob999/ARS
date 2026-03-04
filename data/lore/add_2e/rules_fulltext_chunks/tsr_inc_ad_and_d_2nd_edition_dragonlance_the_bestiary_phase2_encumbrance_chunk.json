@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_2",
+    "tsr_inc_ad_and_d_2nd_edition_dragonlance_the_bestiary",
+    "encumbrance"
+  ],
+  "summary": "Phase-2 Regelchunk: encumbrance aus TSR Inc - AD&D 2nd Edition - Dragonlance_ The Bestiary.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - Dragonlance_ The Bestiary",
+    "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ The Bestiary.pdf",
+    "text": "[PDF_PAGE 15 | score=1] cards. (If the victim is a character, she loses 3 Endurance points per minute until she has none left.) At this point, the victim is unconscious and will die in one minute. Prompt first aid can prolong life, but only neutralizing the poison with mystic healing or antitoxins can save her. Not all poisons need be deadly ones, however. The effects of a nonlethal poison can mimic the effects of infect, delude, par- alyze, or any other special ability the Nar- rator deems appropriate. Pounce Using its special ability to pounce, a crea- ture can leap upon its foes from hiding. Any attempt to avoid surprise by a creature who can pounce becomes one degree more difficult than normal. If the creature \n[PDF_PAGE 49 | score=1] Before the Silvanesti Shield went up, you could see Windriders on their griffin mounts patrolling the skies over the forest and surrounding plains any time, day or night. I know all this because I had Alhana tell the story three times while we were flying from Tarsis to Sil- vanost during the War of the Lance. In all, I would have gladly taken the extra weeks to walk, if time had not been such a worry. The griffin I rode was a fine animal, its shoulders as tall as my nose and covered in a thick, soft fur. There was no doubt in my mind, despite its gentle manner, that in its chest beat the heart of a mighty hunter. When I climbed onto its back, though, I couldn’t find a comfortable way to sit\n[PDF_PAGE 52 | score=1] son. In fact, Flint nearly ruined the whole thing for us with his sneezing and blustering about not want- ing anything to do with such a “monstrous beast.” In the end, though, it took only one word from the Master, and the pegasus bowed and allowed us all to climb aboard. Imagine, the entire company riding astride one pegasus. I say again, no greater steed walks on the face of Krynn or above it! The only group I know of who has ever managed to gather an entire force of pegasus riders is the Knights of Solamnia. I have no doubt that the Knights’ steadfast devotion to Paladine allowed this to happen. Even in the days when the powers of the world looked unfavorably on belief in the true gods, a"
+  },
+  "mechanics": {
+    "topic": "encumbrance",
+    "keywords": [
+      "add_2e",
+      "encumbrance",
+      "tsr_inc_ad_and_d_2nd_edition_dragonlance_the_bestiary"
+    ],
+    "injection_priority": "core",
+    "confidence": 0.075,
+    "page_refs": [
+      15,
+      49,
+      52
+    ],
+    "raw_text": "[PDF_PAGE 15 | score=1] cards. (If the victim is a character, she loses 3 Endurance points per minute until she has none left.) At this point, the victim is unconscious and will die in one minute. Prompt first aid can prolong life, but only neutralizing the poison with mystic healing or antitoxins can save her. Not all poisons need be deadly ones, however. The effects of a nonlethal poison can mimic the effects of infect, delude, par- alyze, or any other special ability the Nar- rator deems appropriate. Pounce Using its special ability to pounce, a crea- ture can leap upon its foes from hiding. Any attempt to avoid surprise by a creature who can pounce becomes one degree more difficult than normal. If the creature \n[PDF_PAGE 49 | score=1] Before the Silvanesti Shield went up, you could see Windriders on their griffin mounts patrolling the skies over the forest and surrounding plains any time, day or night. I know all this because I had Alhana tell the story three times while we were flying from Tarsis to Sil- vanost during the War of the Lance. In all, I would have gladly taken the extra weeks to walk, if time had not been such a worry. The griffin I rode was a fine animal, its shoulders as tall as my nose and covered in a thick, soft fur. There was no doubt in my mind, despite its gentle manner, that in its chest beat the heart of a mighty hunter. When I climbed onto its back, though, I couldn’t find a comfortable way to sit\n[PDF_PAGE 52 | score=1] son. In fact, Flint nearly ruined the whole thing for us with his sneezing and blustering about not want- ing anything to do with such a “monstrous beast.” In the end, though, it took only one word from the Master, and the pegasus bowed and allowed us all to climb aboard. Imagine, the entire company riding astride one pegasus. I say again, no greater steed walks on the face of Krynn or above it! The only group I know of who has ever managed to gather an entire force of pegasus riders is the Knights of Solamnia. I have no doubt that the Knights’ steadfast devotion to Paladine allowed this to happen. Even in the days when the powers of the world looked unfavorably on belief in the true gods, a"
+  }
+}

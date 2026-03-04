@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_2_fallback",
+    "tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_annual_volume_4",
+    "extensions"
+  ],
+  "summary": "Fallback Phase-2 Regelchunk: extensions aus TSR Inc - AD&D 2nd Edition - Monstrous Compendium - Annual Volume 4.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - Monstrous Compendium - Annual Volume 4",
+    "source_file": "TSR Inc - AD&D 2nd Edition - Monstrous Compendium - Annual Volume 4.pdf",
+    "text": "TSR Inc - AD&D 2nd Edition - Monstrous Compendium - Annual Volume 4.pdf"
+  },
+  "mechanics": {
+    "topic": "extensions",
+    "keywords": [
+      "add_2e",
+      "annual",
+      "compendium",
+      "edition",
+      "extensions",
+      "fallback",
+      "monstrous",
+      "tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_annual_volume_4",
+      "volume"
+    ],
+    "injection_priority": "flavor",
+    "confidence": 0.1,
+    "page_refs": [
+      1
+    ],
+    "raw_text": "TSR Inc - AD&D 2nd Edition - Monstrous Compendium - Annual Volume 4.pdf"
+  }
+}

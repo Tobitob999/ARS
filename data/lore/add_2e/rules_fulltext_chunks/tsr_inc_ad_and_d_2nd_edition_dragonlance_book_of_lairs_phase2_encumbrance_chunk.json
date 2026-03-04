@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_2",
+    "tsr_inc_ad_and_d_2nd_edition_dragonlance_book_of_lairs",
+    "encumbrance"
+  ],
+  "summary": "Phase-2 Regelchunk: encumbrance aus TSR Inc - AD&D 2nd Edition - Dragonlance_ Book Of Lairs.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Book Of Lairs",
+    "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Book Of Lairs.pdf",
+    "text": "[PDF_PAGE 44 | score=1] ELVES (K AGONESTI ) ( 7) Terrain: Forest Total Party Levels: 12 (average 2) Total gp XP: 360 Monster XP: 2,510 Story XP: Complete: 5,000 Defeat: 1,000 Retreat: 500 SET U P • The PCs hear tales of attacks by wild elves on miners and settlers in a nearby forest. • A priest of Chislev wants the PCs to enter a for- est and return with a bag full of seeds from a rare tree. All the PCs have to do is pay their respects to the local kagonesti chief and then look for the seeds. The priest offers the PCs a treasure map in return for the seeds. • A drunken NPC wants to hire the party as body- guards. He says he knows where a steel mine is located and promises to make the PCs rich. The next morning, the\n[PDF_PAGE 75 | score=1] Terrain: Forest Total Party Levels: 30 (average 5) Total gp XP: 1,967 Monster XP: 8,440 Story XP: Complete: 20,000 Defeat: 9,000 Retreat: 3,000 SET U P • An elusive and cruel group of bandits has been plaguing the trails through a local forest recently. Though greedy for treasure, these bandits also make a point of killing or captur- ing everyone they attack. They never leave survivors. • A charismatic young priest is roaming the for- est with a flock of robed followers in tow. He is exhorting whole villages to join him on a pilgrimage. Several villages seem to have answered the call because now they are empty. • A small local fane dedicated to Mishakal recently burned to the ground. What wa"
+  },
+  "mechanics": {
+    "topic": "encumbrance",
+    "keywords": [
+      "add_2e",
+      "encumbrance",
+      "tsr_inc_ad_and_d_2nd_edition_dragonlance_book_of_lairs"
+    ],
+    "injection_priority": "core",
+    "confidence": 0.05,
+    "page_refs": [
+      44,
+      75
+    ],
+    "raw_text": "[PDF_PAGE 44 | score=1] ELVES (K AGONESTI ) ( 7) Terrain: Forest Total Party Levels: 12 (average 2) Total gp XP: 360 Monster XP: 2,510 Story XP: Complete: 5,000 Defeat: 1,000 Retreat: 500 SET U P • The PCs hear tales of attacks by wild elves on miners and settlers in a nearby forest. • A priest of Chislev wants the PCs to enter a for- est and return with a bag full of seeds from a rare tree. All the PCs have to do is pay their respects to the local kagonesti chief and then look for the seeds. The priest offers the PCs a treasure map in return for the seeds. • A drunken NPC wants to hire the party as body- guards. He says he knows where a steel mine is located and promises to make the PCs rich. The next morning, the\n[PDF_PAGE 75 | score=1] Terrain: Forest Total Party Levels: 30 (average 5) Total gp XP: 1,967 Monster XP: 8,440 Story XP: Complete: 20,000 Defeat: 9,000 Retreat: 3,000 SET U P • An elusive and cruel group of bandits has been plaguing the trails through a local forest recently. Though greedy for treasure, these bandits also make a point of killing or captur- ing everyone they attack. They never leave survivors. • A charismatic young priest is roaming the for- est with a flock of robed followers in tow. He is exhorting whole villages to join him on a pilgrimage. Several villages seem to have answered the call because now they are empty. • A small local fane dedicated to Mishakal recently burned to the ground. What wa"
+  }
+}

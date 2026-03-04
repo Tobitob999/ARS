@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_2",
+    "monstrous_compendium_vol1",
+    "henchmen_hirelings"
+  ],
+  "summary": "Phase-2 Regelchunk: henchmen_hirelings aus TSR Inc - AD&D 2nd Edition - Monstrous Compendium Volume 1.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - Monstrous Compendium Volume 1",
+    "source_file": "TSR Inc - AD&D 2nd Edition - Monstrous Compendium Volume 1.pdf",
+    "text": "[PDF_PAGE 7 | score=2] Waterborne; Salt water Waterborne, Fresh water City or Town, Day City or Town, Night Lyc, sca wolf Spider, water Press gang Noble or official Dragon turtle Spider, water Rake Gentleman Nymph Lizard man NPC notable Day table Warship, Lizard man Pilgrim NPC notable Warship, small Navigational hazard Mercenary Mercenary Pirates , boats Merrow Goodwife Courtesan Pirates, warship Nymph 8 City Gambler or beggar Fishermen Fisherman Tradesman Drunk 10 Merchant ship, small 10 Fisherman 10 Tradesman 10 Watch 11 Merchant ship, small 11 Merchant ship, small 11 Merchant 11 Watch 12 Merchant ship, 12 Merchant small 12 Laborer 12 Thief 13 Warship, small 13 Warship, small 13 Beggar 13 Thiel 14 Koalinth 14 K\n[PDF_PAGE 5 | score=1] Arctic (all terrain) Subarctic Plain or Scrub Subarctic Forest Subarctic Rough or Hills# Pudding, white Dragon, white Treant Dragon, white white Snake, poisonous Ogre mage Remorhaz Remorhaz Mammoth or mastodon Bear; Cave Bear, brown Owl, giant (night) 5 Bear; brown 5 Rat; giant 5 Gnoll Snake, constrictor Berserker or NPC party Berserker or NPC party Owl, giant or rat, giant Herd animal Tribesman Tribesman Bear;, cave Herd animal 8 Tribesman 8 Herd animal Tribesman or NPC party Herd animal Herd animal Herd animal Tribesman 10 Tribesman 10 Herd animal 10 Oliphant 10 11 Bear, polar T1 Oliphant 11 Bear, brown I1 Wolf 12 Blizzard or unsafe ice 12 Wolf 12 Lynx, giant Or tiger 12 Wolf 13 Wolf 13 Og\n[PDF_PAGE 56 | score=1] Giant, Frost CLIMATEITERRAIN: Arctic lands FREQUENCY: Very rare ORGANIZATION: Tribal ACTIITY CYCLE: DIET: Omnivorous INTELLIGENCE: Low to average (5-10) TREASURE: ALIGNMENT: Chaotic evil NO. APPEARING: 1-8 ARMOR CLASS: 0 (5 MOVEMENT: 12 (15) HIT DICE: 14 1-4 hit points THACO: 7 or 5 NO. OF ATTACKS: DAMAGEIATTACK: 1-8, by weapon (2-16 +9) SPECIAL ATTACKS: Hurling rocks for 2-20 (2d10) SPECIAL DEFENSES: Impervious to cold MAGIC RESISTANCE: Nil SIZE: H (21\") MORALE: Very Steady (13-14) XP VALUE: 7,000 Infant Nil Juvenile 270 Juvenile 975 Juvenile 4,000 Shaman /Witch doctor, Ist 8,000 Habitat Society: Frost giants live in bands consisting of a Shaman/ Witch doctor; Znd 8,000 chief , his henchmen\n[PDF_PAGE 125 | score=1] Spectre CLIMATETERRAIN: Desolate dungeons and ruins FREQUENCY: Rare ORGANIZATION: Solitary ACTIVITY CYCLE: Darkness and night DIET: Nil INTELLIGENCE: High (13-14) TREASURE: Q(x3), X, Y ALIGNMENT: Lawful evil NO: APPEARING: 1-6 ARMOR CLASS: 2 MOVEMENT: 15, FI 30 (B) HIT DICE: 7+3 THACO: 13 NO. OF ATTACKS: DAMAGEIATTACK: 1-8 SPECIAL ATTACKS: Energy drain SPECIAL DEFENSES: +1 or better weapon to hit MAGIC RESISTANCE: See below SIZE: M (6' tall) MORALE: Champion (15) XP VALUE: 3,000 Spectres are powerful undead that haunt the most desolate and to drain mortals of life. This lead spectre is known as the master deserted of places hate all life and light. spectre (always with maximum hit points per"
+  },
+  "mechanics": {
+    "topic": "henchmen_hirelings",
+    "keywords": [
+      "add_2e",
+      "henchmen",
+      "henchmen_hirelings",
+      "monstrous_compendium_vol1"
+    ],
+    "injection_priority": "support",
+    "confidence": 0.125,
+    "page_refs": [
+      5,
+      7,
+      56,
+      125
+    ],
+    "raw_text": "[PDF_PAGE 7 | score=2] Waterborne; Salt water Waterborne, Fresh water City or Town, Day City or Town, Night Lyc, sca wolf Spider, water Press gang Noble or official Dragon turtle Spider, water Rake Gentleman Nymph Lizard man NPC notable Day table Warship, Lizard man Pilgrim NPC notable Warship, small Navigational hazard Mercenary Mercenary Pirates , boats Merrow Goodwife Courtesan Pirates, warship Nymph 8 City Gambler or beggar Fishermen Fisherman Tradesman Drunk 10 Merchant ship, small 10 Fisherman 10 Tradesman 10 Watch 11 Merchant ship, small 11 Merchant ship, small 11 Merchant 11 Watch 12 Merchant ship, 12 Merchant small 12 Laborer 12 Thief 13 Warship, small 13 Warship, small 13 Beggar 13 Thiel 14 Koalinth 14 K\n[PDF_PAGE 5 | score=1] Arctic (all terrain) Subarctic Plain or Scrub Subarctic Forest Subarctic Rough or Hills# Pudding, white Dragon, white Treant Dragon, white white Snake, poisonous Ogre mage Remorhaz Remorhaz Mammoth or mastodon Bear; Cave Bear, brown Owl, giant (night) 5 Bear; brown 5 Rat; giant 5 Gnoll Snake, constrictor Berserker or NPC party Berserker or NPC party Owl, giant or rat, giant Herd animal Tribesman Tribesman Bear;, cave Herd animal 8 Tribesman 8 Herd animal Tribesman or NPC party Herd animal Herd animal Herd animal Tribesman 10 Tribesman 10 Herd animal 10 Oliphant 10 11 Bear, polar T1 Oliphant 11 Bear, brown I1 Wolf 12 Blizzard or unsafe ice 12 Wolf 12 Lynx, giant Or tiger 12 Wolf 13 Wolf 13 Og\n[PDF_PAGE 56 | score=1] Giant, Frost CLIMATEITERRAIN: Arctic lands FREQUENCY: Very rare ORGANIZATION: Tribal ACTIITY CYCLE: DIET: Omnivorous INTELLIGENCE: Low to average (5-10) TREASURE: ALIGNMENT: Chaotic evil NO. APPEARING: 1-8 ARMOR CLASS: 0 (5 MOVEMENT: 12 (15) HIT DICE: 14 1-4 hit points THACO: 7 or 5 NO. OF ATTACKS: DAMAGEIATTACK: 1-8, by weapon (2-16 +9) SPECIAL ATTACKS: Hurling rocks for 2-20 (2d10) SPECIAL DEFENSES: Impervious to cold MAGIC RESISTANCE: Nil SIZE: H (21\") MORALE: Very Steady (13-14) XP VALUE: 7,000 Infant Nil Juvenile 270 Juvenile 975 Juvenile 4,000 Shaman /Witch doctor, Ist 8,000 Habitat Society: Frost giants live in bands consisting of a Shaman/ Witch doctor; Znd 8,000 chief , his henchmen\n[PDF_PAGE 125 | score=1] Spectre CLIMATETERRAIN: Desolate dungeons and ruins FREQUENCY: Rare ORGANIZATION: Solitary ACTIVITY CYCLE: Darkness and night DIET: Nil INTELLIGENCE: High (13-14) TREASURE: Q(x3), X, Y ALIGNMENT: Lawful evil NO: APPEARING: 1-6 ARMOR CLASS: 2 MOVEMENT: 15, FI 30 (B) HIT DICE: 7+3 THACO: 13 NO. OF ATTACKS: DAMAGEIATTACK: 1-8 SPECIAL ATTACKS: Energy drain SPECIAL DEFENSES: +1 or better weapon to hit MAGIC RESISTANCE: See below SIZE: M (6' tall) MORALE: Champion (15) XP VALUE: 3,000 Spectres are powerful undead that haunt the most desolate and to drain mortals of life. This lead spectre is known as the master deserted of places hate all life and light. spectre (always with maximum hit points per"
+  }
+}

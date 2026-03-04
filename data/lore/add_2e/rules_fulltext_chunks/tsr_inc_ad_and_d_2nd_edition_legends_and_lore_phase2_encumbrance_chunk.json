@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_2",
+    "tsr_inc_ad_and_d_2nd_edition_legends_and_lore",
+    "encumbrance"
+  ],
+  "summary": "Phase-2 Regelchunk: encumbrance aus TSR Inc - AD&D 2nd Edition - Legends and Lore.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - Legends and Lore",
+    "source_file": "TSR Inc - AD&D 2nd Edition - Legends and Lore.pdf",
+    "text": "[PDF_PAGE 45 | score=1] Aztec Mythology them their one cherished possession. the wooden image of their terrible god, Huitzilopochtli. When the worshipers of Huitzilopochtli entered the Valley of Mexico. all the good land was taken and they were 100 weak to conquer any of the established city-states. Largely because of their brutal religiou s practices, they were branded as savage outlaws and chased from place to place by the de­ scendanlsof their own Chichimec heritage. At last, however, they persuaded Coxcox. the ruler of Culhuacan , to lei them have a palch of sterile, snake-infes ted land near his city. Here. they buill a temple to their god and lived by killing and eating the snakes which infested their new hom\n[PDF_PAGE 60 | score=1] Architecture The Celts are noted for the structures of standing stones they left behind. Stonehenge is only the most wide ly known of these. Indications are that many of these structures were in fact not of Celtic make , but of much earlier sun-worshipper peoples-the Celts merely adopted them and built additional structures on those designs. In any event, they have acquired a different significance. Circular stone patterns often helped map out the patterns of constellations. the moon, sun, and seasons. For any cul­ ture that relics on agriculture, such knowledge is vital. Stones were often erected in circu lar patterns in honor of par­ ticular local gods or goddesses. Simple r standing stone"
+  },
+  "mechanics": {
+    "topic": "encumbrance",
+    "keywords": [
+      "add_2e",
+      "encumbrance",
+      "tsr_inc_ad_and_d_2nd_edition_legends_and_lore"
+    ],
+    "injection_priority": "core",
+    "confidence": 0.05,
+    "page_refs": [
+      45,
+      60
+    ],
+    "raw_text": "[PDF_PAGE 45 | score=1] Aztec Mythology them their one cherished possession. the wooden image of their terrible god, Huitzilopochtli. When the worshipers of Huitzilopochtli entered the Valley of Mexico. all the good land was taken and they were 100 weak to conquer any of the established city-states. Largely because of their brutal religiou s practices, they were branded as savage outlaws and chased from place to place by the de­ scendanlsof their own Chichimec heritage. At last, however, they persuaded Coxcox. the ruler of Culhuacan , to lei them have a palch of sterile, snake-infes ted land near his city. Here. they buill a temple to their god and lived by killing and eating the snakes which infested their new hom\n[PDF_PAGE 60 | score=1] Architecture The Celts are noted for the structures of standing stones they left behind. Stonehenge is only the most wide ly known of these. Indications are that many of these structures were in fact not of Celtic make , but of much earlier sun-worshipper peoples-the Celts merely adopted them and built additional structures on those designs. In any event, they have acquired a different significance. Circular stone patterns often helped map out the patterns of constellations. the moon, sun, and seasons. For any cul­ ture that relics on agriculture, such knowledge is vital. Stones were often erected in circu lar patterns in honor of par­ ticular local gods or goddesses. Simple r standing stone"
+  }
+}

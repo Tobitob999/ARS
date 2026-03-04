@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_2",
+    "monstrous_compendium_vol1",
+    "encumbrance"
+  ],
+  "summary": "Phase-2 Regelchunk: encumbrance aus TSR Inc - AD&D 2nd Edition - Monstrous Compendium Volume 1.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - Monstrous Compendium Volume 1",
+    "source_file": "TSR Inc - AD&D 2nd Edition - Monstrous Compendium Volume 1.pdf",
+    "text": "[PDF_PAGE 71 | score=2] Horse Draft Heavy Medium Light Pony Wild Riding Mule CLIMATEI Any non- Any non- Any non- Any non Any non - Any non - Any non- Any non- TERRAIN: mountainous mountainous mountainous mountainous mountainous mountainous mountainous mountainous FREQUENCY: Common Uncommon Uncommon Uncommon Uncommon Uncommon Common Common ORGANIZATION: Herd Herd Herd Herd Herd Herd Herd Herd ACTIVITY CYCLE: Day Day Day Day Day Day DIET: Herbivore Herbivore Herbivore Herbivore Herbivore Herbivore Herbivore Herbivore INTELLIGENCE: Animal (1) Animal (11 Animal (1) Animal (1) Animal (1) Animal (1) Animal (1) Animal (1) TREASURE: Nil Nil Nil Nil Nil Nil Nil Nil ALIGNMENT: Neutral Neutral Neutral Neutral Neutral Neutral \n[PDF_PAGE 47 | score=1] Elephant Elephant (African) Mammoth Mastodon Oliphant CLIMATETERRAIN: Subtropical to tropical Subarctic plains Subarctic plains Temperate to subarctic jungle and plains plains and tundra FREQUENCY: Common Very rare (Common) Very rare (Common) Rare ORGANIZATION: Herd Herd Herd Herd ACTIVITY CYCLE: Dawn, dusk; early morn- and early evening DIET: Herbivore Herbivore Herbivore Herbivore INTELLIGENCE: Semi- (2-4) Semi- (2-4) Semi- (2-4) (5-7) TREASURE: Nil Nil Nil Nil ALIGNMENT: Neutral Neutral Neutral Neutral NO: APPEARING: 1-12 1-12 1-12 1-8 ARMOR CLASS: MOVEMENT: 15 15 15 HIT DICE: 11 13 12 8 +4 (10 + 5) THACO: 10 8 +4 Hit Dice: 12 10 +5 Hit Dice: 10 NO: OF ATTACKS: DAMAGEIATTACK: 2-16/2-16/2-\n[PDF_PAGE 82 | score=1] Lizard Fire Giant Minotaur Subterranean CLIMATETERRAIN: warm land warm land Tropical hills subterranean and mountains FREQUENCY: Very rare Uncommon Rare Uncommon ORGANIZATION: Solitary Solitary Solitary Solitary ACTIVITY CYCLE: Day Day DIET: Carnivore Carnivore Carnivore Carnivore INTELLIGENCE: Animal (1) (0) Non - (0) Non- (0) TREASURE: B, Q (xlO), S, T Nil J-N, Q, € (magic) O, P; Q (x5) ALIGNMENT: Neutral Neutral Neutral Neutral NO: APPEARING: 1-4 2-12 (2d6) 1-8 1-6 ARMOR CLASS: 3 MOVEMENT: 15 12 HIT DICE: 10 3+1 THACO: 11 17 13 15 NO OF ATTACKS: DAMAGEIATTACK: 1-8/1-8/2-16 1-8 2-12/2-12/3-18 2-12 SPECIAL ATTACKS: See below See below See below See below SPECIAL DEFENSES: See below Nil Nil \n[PDF_PAGE 100 | score=1] Nixie CLIMATE TERRAIN: Temperate lakes FREQUENCY: Rare ORGANIZATION: Tribe ACTIVITY CYCLE: DIET: Fish INTELLIGENCE: Very (12) TREASURE: Q (C) ALIGNMENT: Neutral NO. APPEARING: 20-80 (2d8x10) ARMOR CLASS: MOVEMENT: 6, Sw 12 HIT DICE: 1-4 hit points THACO: 20 NO. OF ATTACKS: DAMAGEIATTACK: By weapon type SPECIAL ATTACKS: Charm SPECIAL DEFENSES: Nil MAGIC RESISTANCE: 25 % SIZE: 5 (4') MORALE: Average (8-10) XP VALUE: 120 Nixies are water sprites that live in fresh water lakes, and while carry no grudge against humankind, delight in enslav- men as their beasts of burden . With webbed and toes, pointed ears, and wide silver distance under 20 feet (it is impossible to detect from farther away eyes"
+  },
+  "mechanics": {
+    "topic": "encumbrance",
+    "keywords": [
+      "add_2e",
+      "burden",
+      "encumbrance",
+      "monstrous_compendium_vol1"
+    ],
+    "injection_priority": "core",
+    "confidence": 0.125,
+    "page_refs": [
+      47,
+      71,
+      82,
+      100
+    ],
+    "raw_text": "[PDF_PAGE 71 | score=2] Horse Draft Heavy Medium Light Pony Wild Riding Mule CLIMATEI Any non- Any non- Any non- Any non Any non - Any non - Any non- Any non- TERRAIN: mountainous mountainous mountainous mountainous mountainous mountainous mountainous mountainous FREQUENCY: Common Uncommon Uncommon Uncommon Uncommon Uncommon Common Common ORGANIZATION: Herd Herd Herd Herd Herd Herd Herd Herd ACTIVITY CYCLE: Day Day Day Day Day Day DIET: Herbivore Herbivore Herbivore Herbivore Herbivore Herbivore Herbivore Herbivore INTELLIGENCE: Animal (1) Animal (11 Animal (1) Animal (1) Animal (1) Animal (1) Animal (1) Animal (1) TREASURE: Nil Nil Nil Nil Nil Nil Nil Nil ALIGNMENT: Neutral Neutral Neutral Neutral Neutral Neutral \n[PDF_PAGE 47 | score=1] Elephant Elephant (African) Mammoth Mastodon Oliphant CLIMATETERRAIN: Subtropical to tropical Subarctic plains Subarctic plains Temperate to subarctic jungle and plains plains and tundra FREQUENCY: Common Very rare (Common) Very rare (Common) Rare ORGANIZATION: Herd Herd Herd Herd ACTIVITY CYCLE: Dawn, dusk; early morn- and early evening DIET: Herbivore Herbivore Herbivore Herbivore INTELLIGENCE: Semi- (2-4) Semi- (2-4) Semi- (2-4) (5-7) TREASURE: Nil Nil Nil Nil ALIGNMENT: Neutral Neutral Neutral Neutral NO: APPEARING: 1-12 1-12 1-12 1-8 ARMOR CLASS: MOVEMENT: 15 15 15 HIT DICE: 11 13 12 8 +4 (10 + 5) THACO: 10 8 +4 Hit Dice: 12 10 +5 Hit Dice: 10 NO: OF ATTACKS: DAMAGEIATTACK: 2-16/2-16/2-\n[PDF_PAGE 82 | score=1] Lizard Fire Giant Minotaur Subterranean CLIMATETERRAIN: warm land warm land Tropical hills subterranean and mountains FREQUENCY: Very rare Uncommon Rare Uncommon ORGANIZATION: Solitary Solitary Solitary Solitary ACTIVITY CYCLE: Day Day DIET: Carnivore Carnivore Carnivore Carnivore INTELLIGENCE: Animal (1) (0) Non - (0) Non- (0) TREASURE: B, Q (xlO), S, T Nil J-N, Q, € (magic) O, P; Q (x5) ALIGNMENT: Neutral Neutral Neutral Neutral NO: APPEARING: 1-4 2-12 (2d6) 1-8 1-6 ARMOR CLASS: 3 MOVEMENT: 15 12 HIT DICE: 10 3+1 THACO: 11 17 13 15 NO OF ATTACKS: DAMAGEIATTACK: 1-8/1-8/2-16 1-8 2-12/2-12/3-18 2-12 SPECIAL ATTACKS: See below See below See below See below SPECIAL DEFENSES: See below Nil Nil \n[PDF_PAGE 100 | score=1] Nixie CLIMATE TERRAIN: Temperate lakes FREQUENCY: Rare ORGANIZATION: Tribe ACTIVITY CYCLE: DIET: Fish INTELLIGENCE: Very (12) TREASURE: Q (C) ALIGNMENT: Neutral NO. APPEARING: 20-80 (2d8x10) ARMOR CLASS: MOVEMENT: 6, Sw 12 HIT DICE: 1-4 hit points THACO: 20 NO. OF ATTACKS: DAMAGEIATTACK: By weapon type SPECIAL ATTACKS: Charm SPECIAL DEFENSES: Nil MAGIC RESISTANCE: 25 % SIZE: 5 (4') MORALE: Average (8-10) XP VALUE: 120 Nixies are water sprites that live in fresh water lakes, and while carry no grudge against humankind, delight in enslav- men as their beasts of burden . With webbed and toes, pointed ears, and wide silver distance under 20 feet (it is impossible to detect from farther away eyes"
+  }
+}

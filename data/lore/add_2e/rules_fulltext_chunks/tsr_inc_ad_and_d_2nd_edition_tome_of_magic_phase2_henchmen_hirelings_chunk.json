@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_2",
+    "tsr_inc_ad_and_d_2nd_edition_tome_of_magic",
+    "henchmen_hirelings"
+  ],
+  "summary": "Phase-2 Regelchunk: henchmen_hirelings aus TSR Inc - AD&D 2nd Edition - Tome of Magic.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - Tome of Magic",
+    "source_file": "TSR Inc - AD&D 2nd Edition - Tome of Magic.pdf",
+    "text": "[PDF_PAGE 13 | score=2] How to Use Tome of Magic ior counterparts (when such an option exists, such as in a large temple). If the hierarchy of a temple has been destroyed, then the best of the junior echelons may be granted quest spells. Some cases may not offer as many options as to the recipient of a quest spell. If the nearest priest to the site of a mission is of a lower level than priests at a faraway temple, the chances are good that this priest will be granted a quest spell rather than awaiting the arrival of a faraway su- perior. Similarly, if the senior priests of a temple are too old to travel or are needed to maintain order at the temple, a priest of a lower level may be granted the quest spell. In some \n[PDF_PAGE 4 | score=1] Chapter i: How to Use Tome of Magic An apprentice stands in the laboratory of his ancient wizard master. The youth's eyes stray across tables cluttered with alembics, retorts, beakers, bat wings, and phials, and beyond to shelves of scrolls and books. A musty old vol- ume, bound in cracked green leather with glitter- ing silver hinges, catches his attention. His master is elsewhere, so the curious student pulls the heavy volume from the shelf and, with a puff of breath, blows away a thick layer of dust. \"Tome of Magic\" it reads, spelled out in silver leaf on the brittle cover. The apprentice can't believe his discovery. He's never seen this book before. What secrets has his master been keepi"
+  },
+  "mechanics": {
+    "topic": "henchmen_hirelings",
+    "keywords": [
+      "add_2e",
+      "henchmen_hirelings",
+      "tsr_inc_ad_and_d_2nd_edition_tome_of_magic"
+    ],
+    "injection_priority": "support",
+    "confidence": 0.075,
+    "page_refs": [
+      4,
+      13
+    ],
+    "raw_text": "[PDF_PAGE 13 | score=2] How to Use Tome of Magic ior counterparts (when such an option exists, such as in a large temple). If the hierarchy of a temple has been destroyed, then the best of the junior echelons may be granted quest spells. Some cases may not offer as many options as to the recipient of a quest spell. If the nearest priest to the site of a mission is of a lower level than priests at a faraway temple, the chances are good that this priest will be granted a quest spell rather than awaiting the arrival of a faraway su- perior. Similarly, if the senior priests of a temple are too old to travel or are needed to maintain order at the temple, a priest of a lower level may be granted the quest spell. In some \n[PDF_PAGE 4 | score=1] Chapter i: How to Use Tome of Magic An apprentice stands in the laboratory of his ancient wizard master. The youth's eyes stray across tables cluttered with alembics, retorts, beakers, bat wings, and phials, and beyond to shelves of scrolls and books. A musty old vol- ume, bound in cracked green leather with glitter- ing silver hinges, catches his attention. His master is elsewhere, so the curious student pulls the heavy volume from the shelf and, with a puff of breath, blows away a thick layer of dust. \"Tome of Magic\" it reads, spelled out in silver leaf on the brittle cover. The apprentice can't believe his discovery. He's never seen this book before. What secrets has his master been keepi"
+  }
+}

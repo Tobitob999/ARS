@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "add_2e",
+    "source_book",
+    "pdf_conversion",
+    "tsr_inc_ad_and_d_2nd_edition_the_magic_encyclopedia_volume_1"
+  ],
+  "summary": "Metadaten der PDF-zu-JSON-Konvertierung fuer TSR Inc - AD&D 2nd Edition - The Magic Encyclopedia Volume 1.pdf.",
+  "source_text": {
+    "source_file": "TSR Inc - AD&D 2nd Edition - The Magic Encyclopedia Volume 1.pdf",
+    "source_path": "g:\\meine ablage\\add2e\\tsr inc - ad&d 2nd edition - the magic encyclopedia volume 1.pdf",
+    "format": "pdf",
+    "page_count": 65,
+    "extracted_characters": 277847,
+    "extraction_timestamp": "2026-03-02T11:08:56",
+    "toc_candidate_pages": [
+      3,
+      5,
+      7,
+      27,
+      30,
+      31,
+      32,
+      35,
+      38,
+      44,
+      47
+    ],
+    "empty_or_unreadable_pages": [
+      1,
+      65
+    ]
+  },
+  "mechanics": {
+    "extractor": "pypdf.PdfReader.extract_text",
+    "output_files": [
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_the_magic_encyclopedia_volume_1_pages.jsonl",
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_the_magic_encyclopedia_volume_1_chapter_map.json",
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_the_magic_encyclopedia_volume_1_metadata.json"
+    ]
+  }
+}

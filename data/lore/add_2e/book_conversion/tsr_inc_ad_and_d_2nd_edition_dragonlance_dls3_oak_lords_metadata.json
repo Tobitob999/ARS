@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "add_2e",
+    "source_book",
+    "pdf_conversion",
+    "tsr_inc_ad_and_d_2nd_edition_dragonlance_dls3_oak_lords"
+  ],
+  "summary": "Metadaten der PDF-zu-JSON-Konvertierung fuer TSR Inc - AD&D 2nd Edition - Dragonlance_ DLS3 - Oak Lords.pdf.",
+  "source_text": {
+    "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLS3 - Oak Lords.pdf",
+    "source_path": "g:\\meine ablage\\add2e\\tsr inc - ad&d 2nd edition - dragonlance_ dls3 - oak lords.pdf",
+    "format": "pdf",
+    "page_count": 38,
+    "extracted_characters": 108529,
+    "extraction_timestamp": "2026-03-02T10:54:02",
+    "toc_candidate_pages": [
+      3,
+      19,
+      21,
+      27
+    ],
+    "empty_or_unreadable_pages": [
+      1,
+      2,
+      4,
+      16,
+      33,
+      34
+    ]
+  },
+  "mechanics": {
+    "extractor": "pypdf.PdfReader.extract_text",
+    "output_files": [
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dragonlance_dls3_oak_lords_pages.jsonl",
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dragonlance_dls3_oak_lords_chapter_map.json",
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dragonlance_dls3_oak_lords_metadata.json"
+    ]
+  }
+}

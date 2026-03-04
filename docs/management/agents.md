@@ -1,6 +1,6 @@
 # ARS — Agent Coordination Dashboard
 
-**Zuletzt aktualisiert:** 2026-03-03 (Session 13 — TinyCrawl Demo Level 1 + Asset-Archivierung)
+**Zuletzt aktualisiert:** 2026-03-04 (Session 16 — Pixel-Replay, Dungeon-Maps, Roaming-Monster, Run-Specs)
 **Projektstatus:** In Betrieb — 5 Regelsysteme, Party-System, Dungeon-View, Content Pipeline R1-R8, Web GUI, Testbot CLI, TinyCrawl Demo
 
 **Speicherort:** `docs/management/` — zentraler Management-Ordner
@@ -30,6 +30,10 @@
 | Voice Pipeline | fertig | STT->Gemini->TTS, Barge-in optional |
 | TechGUI (Desktop) | fertig | tkinter, 12 Tabs, Dark Theme, Budget-Slider (bis 2M), Session-Reset |
 | Dungeon-Visualisierung | v1 fertig | Canvas-Karte, BFS-Layout, Fog of War, Party/Monster-Marker, Sounds, Click-Navigation |
+| Pixel-Art Renderer | v2 fertig | pixel_renderer.py (shared): PixelTileset, Autotiler, render_room_to_image() |
+| Replay-Viewer | Pixel-Art fertig | tab_replay_viewer.py REWRITE: Canvas+PIL statt ASCII, Move-Trails (Gruen/Rot/Gelb), Auto-Scale |
+| Dungeon-Maps | v1 fertig | crawltraining_stress (5 Raeume) + crawltraining_full (15 Raeume) mit Map+Spawns |
+| Roaming-Monster | v1 fertig | auto_roam_idle_monsters() in grid_engine.py: 30% Patrouille idle Monster |
 | Web GUI | v1 fertig | FastAPI+WebSocket, 10 Tabs, Dark Theme, `--webgui --port 7860` |
 | Testbot CLI | fertig | `scripts/testbot.py` — run/results/status/cleanup, Token-Tracking, EUR-Kosten |
 | Charakter-System | fertig | SQLite-Persistenz, nicht-numerische Stats (Paranoia) |
@@ -116,6 +120,188 @@ main.py --webgui --port 7860
 - [ ] Expansion des MU-Personal-Katalogs in `/data/lore/university/`
 - [ ] Erstellung der Quartiers-Daten fuer das "North End" in `/data/lore/society/`
 - [ ] Aufbau eines 1920er Preisverzeichnisses in `/data/lore/items/arkham_economy.json`
+
+### Converter Agent — AD&D 2e Komplett-Extraktion
+
+**Ziel:** Alle 108 PDFs aus `ADD2e/` vollstaendig nach `data/lore/add_2e/` extrahieren.
+**Methode:** 12-Phasen-Pipeline ([Book_ARS_Tool.md](Book_ARS_Tool.md)), Entity-First, 100%-Snippet-Abdeckung.
+**Aufwand:** ~81 Stunden (108 PDFs × ~45 Min/PDF), aufgeteilt in 11 Batches.
+**Bestehende Basis:** monsters/ (106), spells/ (331), items/ (50), equipment/ (1), encounters/ (31), tables/ (68), mechanics/ (6) — Monstrous Compendium Vol.1 bereits konvertiert.
+
+#### Zielordner je Quelltyp
+
+| Quelltyp | Zielordner in `data/lore/add_2e/` | Haupt-Entitaetstypen |
+|----------|----------------------------------|----------------------|
+| PHBR-Handbooks (Klassen) | `classes/`, `kits/` | kit, class_option, proficiency |
+| PHBR-Handbooks (Rassen) | `races/` | race, racial_ability, subrace |
+| Monster Compendiums | `monsters/` | monster, stat_block, ecology |
+| Spell Compendiums (Wizard) | `spells/wizard/` | spell, spell_table |
+| Spell Compendiums (Priest) | `spells/priest/` | spell, spell_table |
+| Encyclopedia Magica | `magic_items/` | magic_item, artifact |
+| Magic Encyclopedia | `magic_items/` | magic_item |
+| Arms & Equipment Guide | `equipment/` | weapon, armor, gear |
+| Player's Options | `rules/player_options/` | rule, combat_system, skill_variant |
+| Tome of Magic | `spells/wizard/`, `spells/priest/` | spell, wild_magic, shadow_magic |
+| Legends and Lore | `deities/` | deity, pantheon, divine_power |
+| DM Guide Series (DMGR) | `dm_tools/` | rule, encounter_table, dm_advice |
+| Dungeon/World Builders | `dm_tools/` | rule, dungeon_design, world_design |
+| DM Option: High-Level | `rules/high_level/` | rule, epic_table |
+| Book of Artifacts | `magic_items/artifacts/` | artifact, relic |
+| Dragonlance Series | `settings/dragonlance/` | lore, location, npc, faction |
+| Historical Reference (HR) | `settings/historical/` | lore, culture, equipment |
+
+#### Konvertierungsstatus je Prioritaet
+
+**Prioritaet 1 — Kern-Spielmechanik (sofort spielrelevant)**
+
+| # | PDF (Kurztitel) | Status | Zielordner |
+|---|-----------------|--------|------------|
+| P1-01 | PHBR01 Complete Fighter's Handbook | [x] FERTIG | classes/, kits/ |
+| P1-02 | PHBR02 Complete Thief's Handbook | [x] FERTIG | classes/, kits/ |
+| P1-03 | PHBR03 Complete Priest's Handbook | [x] FERTIG | classes/, kits/ |
+| P1-04 | PHBR04 Complete Wizard's Handbook | [x] FERTIG | classes/, kits/ |
+| P1-05 | PHBR05 Complete Psionics Handbook | [x] FERTIG (Chapters, keine Einzel-Kits) | classes/, kits/ |
+| P1-06 | PHBR06 Complete Book of Dwarves | [x] FERTIG (Chapters, keine Einzel-Kits) | races/, kits/ |
+| P1-07 | PHBR07 Complete Bard's Handbook | [x] FERTIG (Chapters, keine Einzel-Kits) | classes/, kits/ |
+| P1-08 | PHBR08 Complete Book of Elves | [x] FERTIG (Chapters, keine Einzel-Kits) | races/, kits/ |
+| P1-09 | PHBR09 Complete Book of Gnomes and Halflings | [x] FERTIG (Chapters, keine Einzel-Kits) | races/, kits/ |
+| P1-10 | PHBR10 Complete Book of Humanoids | [x] FERTIG | races/, kits/ |
+| P1-11 | PHBR11 Complete Ranger's Handbook | [x] FERTIG | classes/, kits/ |
+| P1-12 | PHBR12 Complete Paladin's Handbook | [x] FERTIG | classes/, kits/ |
+| P1-13 | PHBR13 Complete Druid's Handbook | [x] FERTIG | classes/, kits/ |
+| P1-14 | PHBR14 Complete Barbarian's Handbook | [x] FERTIG | classes/, kits/ |
+| P1-15 | PHBR15 Complete Ninja's Handbook | [x] FERTIG (Chapters, keine Einzel-Kits) | classes/, kits/ |
+| P1-16 | DMGR3 Arms and Equipment Guide | [x] FERTIG | equipment/ |
+| P1-17 | Player's Option: Combat & Tactics | [x] FERTIG | rules/player_options/ |
+| P1-18 | Player's Option: Skills & Powers | [x] FERTIG | rules/player_options/ |
+| P1-19 | Player's Option: Spells & Magic | [x] FERTIG | rules/player_options/ |
+| P1-20 | Legends and Lore | [x] FERTIG | deities/ |
+| P1-21 | Tome of Magic | [x] FERTIG | spells/wizard/, spells/priest/ |
+
+**Prioritaet 2 — Monster & Magie (Content-Erweiterung)**
+
+| # | PDF (Kurztitel) | Status | Zielordner |
+|---|-----------------|--------|------------|
+| P2-01 | Monstrous Compendium Volume 1 | [x] FERTIG (106 Monster) | monsters/ |
+| P2-02 | Monstrous Compendium Volume 2 | [ ] ausstehend | monsters/ |
+| P2-03 | MC Annual Volume 1 | [ ] ausstehend | monsters/ |
+| P2-04 | MC Annual Volume 2 | [ ] ausstehend | monsters/ |
+| P2-05 | MC Annual Volume 3 | [ ] ausstehend | monsters/ |
+| P2-06 | MC Annual Volume 4 | [ ] ausstehend | monsters/ |
+| P2-07 | MC Fiend Folio Appendix | [ ] ausstehend | monsters/ |
+| P2-08 | MC Mystara Appendix | [ ] ausstehend | monsters/ |
+| P2-09 | MC Outer Planes Appendix | [ ] ausstehend | monsters/ |
+| P2-10 | MC Savage Coast Appendix | [ ] ausstehend | monsters/ |
+| P2-11 | Encyclopedia Magica Volume 1 | [ ] ausstehend | magic_items/ |
+| P2-12 | Encyclopedia Magica Volume 2 | [ ] ausstehend | magic_items/ |
+| P2-13 | Encyclopedia Magica Volume 3 | [ ] ausstehend | magic_items/ |
+| P2-14 | Encyclopedia Magica Volume 4 | [ ] ausstehend | magic_items/ |
+| P2-15 | Wizards Spell Compendium Volume 1 | [ ] ausstehend | spells/wizard/ |
+| P2-16 | Wizards Spell Compendium Volume 2 | [ ] ausstehend | spells/wizard/ |
+| P2-17 | Wizards Spell Compendium Volume 3 | [ ] ausstehend | spells/wizard/ |
+| P2-18 | Wizards Spell Compendium Volume 4 | [ ] ausstehend | spells/wizard/ |
+| P2-19 | Priest Spell Compendium Volume 1 | [ ] ausstehend | spells/priest/ |
+| P2-20 | Priest Spell Compendium Volume 2 | [ ] ausstehend | spells/priest/ |
+| P2-21 | Priest Spell Compendium Volume 3 | [ ] ausstehend | spells/priest/ |
+| P2-22 | The Magic Encyclopedia Volume 1 | [ ] ausstehend | magic_items/ |
+| P2-23 | The Magic Encyclopedia Volume 2 | [ ] ausstehend | magic_items/ |
+
+**Prioritaet 3 — DM-Werkzeuge**
+
+| # | PDF (Kurztitel) | Status | Zielordner |
+|---|-----------------|--------|------------|
+| P3-01 | DMGR1 Campaign Sourcebook and Catacomb Guide | [ ] ausstehend | dm_tools/ |
+| P3-02 | DMGR2 Castle Guide | [ ] ausstehend | dm_tools/ |
+| P3-03 | DMGR4 Monster Mythology | [ ] ausstehend | deities/, monsters/ |
+| P3-04 | DMGR5 Creative Campaigning | [ ] ausstehend | dm_tools/ |
+| P3-05 | DMGR6 The Complete Book of Villains | [ ] ausstehend | dm_tools/, kits/ |
+| P3-06 | DMGR7 The Complete Book of Necromancers | [ ] ausstehend | dm_tools/, classes/ |
+| P3-07 | DMGR8 Sages and Specialists | [ ] ausstehend | dm_tools/ |
+| P3-08 | DMGR9 Of Ships and Sea | [ ] ausstehend | dm_tools/, equipment/ |
+| P3-09 | Dungeon Builder's Guidebook | [ ] ausstehend | dm_tools/ |
+| P3-10 | World Builders Guidebook | [ ] ausstehend | dm_tools/ |
+| P3-11 | Dungeon Master Option: High-Level Campaigns | [ ] ausstehend | rules/high_level/ |
+| P3-12 | Book of Artifacts | [ ] ausstehend | magic_items/artifacts/ |
+| P3-13 | Player's Handbook (2nd Edition) | [ ] ausstehend | rules/, classes/, equipment/ |
+
+**Prioritaet 4 — Setting-Content (Dragonlance + Historical)**
+
+| # | PDF (Kurztitel) | Status | Zielordner |
+|---|-----------------|--------|------------|
+| P4-01 | Dragonlance: Tales of the Lance (Boxset) | [ ] ausstehend | settings/dragonlance/ |
+| P4-02 | Dragonlance: Player's Guide to DL Campaign | [ ] ausstehend | settings/dragonlance/ |
+| P4-03 | Dragonlance: A Saga Companion | [ ] ausstehend | settings/dragonlance/ |
+| P4-04 | Dragonlance: Dragonlance Classics 15th Anniversary | [ ] ausstehend | settings/dragonlance/ |
+| P4-05 | Dragonlance: DLA1 Dragon Dawn | [ ] ausstehend | settings/dragonlance/ |
+| P4-06 | Dragonlance: DLA2 Dragon Knight | [ ] ausstehend | settings/dragonlance/ |
+| P4-07 | Dragonlance: DLA3 Dragons Rest | [ ] ausstehend | settings/dragonlance/ |
+| P4-08 | Dragonlance: DLC1 Classics Vol 1 | [ ] ausstehend | settings/dragonlance/ |
+| P4-09 | Dragonlance: DLC2 Classics Vol 2 | [ ] ausstehend | settings/dragonlance/ |
+| P4-10 | Dragonlance: DLC3 Classics Vol 3 | [ ] ausstehend | settings/dragonlance/ |
+| P4-11 | Dragonlance: DLE1 In Search of Dragons | [ ] ausstehend | settings/dragonlance/ |
+| P4-12 | Dragonlance: DLE2 Dragon Magic | [ ] ausstehend | settings/dragonlance/ |
+| P4-13 | Dragonlance: DLE3 Dragon Keep | [ ] ausstehend | settings/dragonlance/ |
+| P4-14 | Dragonlance: DLQ1 Knight's Sword | [ ] ausstehend | settings/dragonlance/ |
+| P4-15 | Dragonlance: DLQ2 Flint's Axe | [ ] ausstehend | settings/dragonlance/ |
+| P4-16 | Dragonlance: DLR1 Otherlands | [ ] ausstehend | settings/dragonlance/ |
+| P4-17 | Dragonlance: DLR2 Taladas, The Minotaurs | [ ] ausstehend | settings/dragonlance/ |
+| P4-18 | Dragonlance: DLR3 Unsung Heroes | [ ] ausstehend | settings/dragonlance/ |
+| P4-19 | Dragonlance: DLS1 New Beginnings | [ ] ausstehend | settings/dragonlance/ |
+| P4-20 | Dragonlance: DLS2 Tree Lords | [ ] ausstehend | settings/dragonlance/ |
+| P4-21 | Dragonlance: DLS3 Oak Lords | [ ] ausstehend | settings/dragonlance/ |
+| P4-22 | Dragonlance: DLS4 Wild Elves | [ ] ausstehend | settings/dragonlance/ |
+| P4-23 | Dragonlance: DLT1 New Tales | [ ] ausstehend | settings/dragonlance/ |
+| P4-24 | Dragonlance: Dwarven Kingdoms of Krynn | [ ] ausstehend | settings/dragonlance/ |
+| P4-25 | Dragonlance: Fifth Age | [ ] ausstehend | settings/dragonlance/ |
+| P4-26 | Dragonlance: Heroes of Defiance | [ ] ausstehend | settings/dragonlance/ |
+| P4-27 | Dragonlance: Heroes of Hope | [ ] ausstehend | settings/dragonlance/ |
+| P4-28 | Dragonlance: Heroes of Sorcery | [ ] ausstehend | settings/dragonlance/ |
+| P4-29 | Dragonlance: Heroes of Steel | [ ] ausstehend | settings/dragonlance/ |
+| P4-30 | Dragonlance: History of Dragonlance | [ ] ausstehend | settings/dragonlance/ |
+| P4-31 | Dragonlance: More Leaves from the Inn | [ ] ausstehend | settings/dragonlance/ |
+| P4-32 | Dragonlance: Palanthas | [ ] ausstehend | settings/dragonlance/ |
+| P4-33 | Dragonlance: Seeds of Chaos | [ ] ausstehend | settings/dragonlance/ |
+| P4-34 | Dragonlance: Chaos Spawn | [ ] ausstehend | settings/dragonlance/ |
+| P4-35 | Dragonlance: Citadel of Light | [ ] ausstehend | settings/dragonlance/ |
+| P4-36 | Dragonlance: Battle Lines 1 - The Sylvan Veil | [ ] ausstehend | settings/dragonlance/ |
+| P4-37 | Dragonlance: Battle Lines 2 - Rise of the Titans | [ ] ausstehend | settings/dragonlance/ |
+| P4-38 | Dragonlance: Book of Lairs | [ ] ausstehend | settings/dragonlance/ |
+| P4-39 | Dragonlance: Last Tower - Legacy of Raistlin | [ ] ausstehend | settings/dragonlance/ |
+| P4-40 | Dragonlance: Time of the Dragon Boxset | [ ] ausstehend | settings/dragonlance/ |
+| P4-41 | Dragonlance: Wings of Fury | [ ] ausstehend | settings/dragonlance/ |
+| P4-42 | Dragonlance: The Bestiary | [ ] ausstehend | settings/dragonlance/ |
+| P4-43 | Dragonlance: TM3 World of Krynn Trail Map | [ ] ausstehend | settings/dragonlance/ |
+| P4-44 | Dragonlance: The Art of the Dragonlance Saga | [ ] ausstehend | settings/dragonlance/ |
+| P4-45 | HR1 Vikings Campaign | [ ] ausstehend | settings/historical/ |
+| P4-46 | HR2 Charlemagne's Paladins | [ ] ausstehend | settings/historical/ |
+| P4-47 | HR3 Celts | [ ] ausstehend | settings/historical/ |
+| P4-48 | HR4 A Mighty Fortress | [ ] ausstehend | settings/historical/ |
+| P4-49 | HR5 Glory of Rome | [ ] ausstehend | settings/historical/ |
+| P4-50 | HR6 Age of Heroes | [ ] ausstehend | settings/historical/ |
+| P4-51 | HR7 Crusades | [ ] ausstehend | settings/historical/ |
+
+#### Batch-Planung
+
+| Batch | PDFs | Inhalt | Prioritaet | Schaetzung |
+|-------|------|--------|-----------|------------|
+| B-C01 | P1-01 bis P1-10 | PHBR01-10 (Fighter bis Humanoids) | P1 | ~7,5 Std |
+| B-C02 | P1-11 bis P1-21 | PHBR11-15 + Player's Options + Legends + Tome | P1 | ~8 Std |
+| B-C03 | P2-01 bis P2-10 | Monster Compendiums Vol.2 + Annuals + Appendices | P2 | ~7,5 Std |
+| B-C04 | P2-11 bis P2-18 | Encyclopedia Magica Vol.1-4 + Wizard Spells Vol.1-4 | P2 | ~6 Std |
+| B-C05 | P2-19 bis P2-23 | Priest Spells Vol.1-3 + Magic Encyclopedia Vol.1-2 | P2 | ~3,5 Std |
+| B-C06 | P3-01 bis P3-08 | DMGR1-9 (Campaign/Castle/Mythology/Creative/Villains/Necro/Sages/Ships) | P3 | ~6 Std |
+| B-C07 | P3-09 bis P3-13 | Dungeon/World Builder + High-Level + Artifacts + PHB | P3 | ~3,5 Std |
+| B-C08 | P4-01 bis P4-15 | DL Basics + DLA/DLC/DLE/DLQ-Serie | P4 | ~7,5 Std |
+| B-C09 | P4-16 bis P4-30 | DLR/DLS/DLT-Serie + Dwarven/Fifth Age/Heroes-Serie | P4 | ~7,5 Std |
+| B-C10 | P4-31 bis P4-44 | DL Reste (History/Palanthas/Chaos/Citadel/Battle Lines/etc.) | P4 | ~7 Std |
+| B-C11 | P4-45 bis P4-51 | HR1-7 Historical Reference | P4 | ~3,5 Std |
+
+**Gesamt: ~67,5 Stunden Konvertierungsarbeit ueber 11 Batches**
+*(DMGR3 Arms & Equipment in P1-16 bereits priorisiert; schlanke DL-Adventures benoetigen weniger Aufwand als Kernbuecher)*
+
+#### Hinweis zu _text.pdf Duplikaten
+
+Einige PDFs liegen als Scan + OCR-Variante vor (Dateiname mit `_text.pdf`-Suffix). Die OCR-Variante ist bevorzugt einzusetzen, da Volltext-Extraktion direkt moeglich. Wo beide vorhanden: OCR-Variante verwenden, Scan-Variante als Fallback fuer Tabellen/Grafiken.
 
 ### Virtual Player (AI-Script)
 - [x] Durchfuehrung des ersten 10-Zuege-Simulationstests
@@ -348,6 +534,103 @@ Gueltige `difficulty` Werte: `"easy"`, `"normal"`, `"heroic"`, `"hardcore"`.
 ---
 
 ## Agent Reports
+
+[2026-03-04 16:30] | FROM: Claude Code | P1 AD&D 2e Lore-Extraktion abgeschlossen
+
+scripts/converter.py NEU (~760Z): PyMuPDF-basierter PDF→JSON Extraktor.
+CLI: --pdf, --type, --batch p1, --stats. Chapter-Segmentierung, Kit/Psionic/Deity/Equipment Spezial-Handler.
+
+21 P1-PDFs verarbeitet (PHBR01-15, DMGR3, Player's Options x3, Tome of Magic, Legends & Lore).
+Ergebnis: 930 → 3977 JSON-Dateien in data/lore/add_2e/.
+Neue Verzeichnisse: kits/ (76), classes/ (48), races/ (25), psionics/ (20), deities/ (2),
+rules_options/ (175), derived_rules/ (149), rules_fulltext_chunks/ (2251), equipment/ (1→8).
+
+Bekannte Limitierungen: OCR-Artefakte in einigen Kit-Namen, PHBR05/06/07/08/09/15 ohne
+individuelle Kit-Extraktion (Content in Chapter-Chunks erfasst).
+
+DATEIEN: scripts/converter.py (NEU), data/lore/add_2e/* (3047 neue JSONs), .gitignore (MODIFY)
+
+[2026-03-04 15:00] | FROM: Claude Code | Session 16: Pixel-Replay, Dungeon-Maps, Roaming-Monster, Run-Specs. 9 Dateien, ~1200Z netto. pixel_renderer.py NEU (shared Render-Modul), tab_replay_viewer.py REWRITE (Pixel-Art statt ASCII), 20 Dungeon-Maps (5+15 Raeume), auto_roam_idle_monsters() (30% Patrol), MONSTER_BEWEGT Tag-Support. Integration-Test bestanden.
+
+(a) gui/pixel_renderer.py NEU (~290Z): Shared Render-Modul herausgeloest aus tab_dungeon_pixel.py.
+    PixelTileset (Asset-Cache), Autotiler (4-Bit Bitmask), render_terrain_image(), render_room_to_image().
+    CLASS_MAP + MONSTER_MAP erweitert: +spinne, +troll, +drache, +lich, +golem, +wight, +ghul, +harpyie, +mimik.
+
+(b) gui/tab_replay_viewer.py REWRITE (~370Z): ASCII-Map-Widget ersetzt durch Canvas + PIL.
+    Nutzt PixelTileset + render_room_to_image() aus pixel_renderer. Move-Trail Overlays:
+    Gruen (Party), Rot (Monster), Gelb (Combat). Auto-Scale bei Canvas-Overflow. Legende als Labels.
+
+(c) gui/tab_dungeon_pixel.py MODIFY (-80Z): _Autotiler, _CLASS_MAP, _MONSTER_MAP, _tint, _load_asset entfernt.
+    Importiert jetzt aus gui/pixel_renderer.py (DRY-Refactor).
+
+(d) modules/adventures/crawltraining_stress.json MODIFY (+~200Z): 5 Raeume mit vollstaendigen Maps.
+    blutgrube (25x17), gifthoehle (21x19), nekropole (23x15), drachenhort (27x21), endboss_lich (19x19).
+    Alle NPCs haben spawns-Koordinaten.
+
+(e) modules/adventures/crawltraining_full.json MODIFY (+~400Z): 15 Raeume mit Maps.
+    Von eingangshalle (19x11) bis endkammer (21x18). Alle NPCs mit spawns.
+
+(f) core/grid_engine.py MODIFY (+30Z): _map_spawns Dict in __init__+_setup_from_map. place_npcs()
+    nutzt Map-Spawns wenn verfuegbar, sonst heuristisch. auto_roam_idle_monsters(moved_ids):
+    30% Chance idle Monster 1 Tile zufaellig bewegen.
+
+(g) core/orchestrator.py MODIFY (+6Z): Nach execute_monster_moves(): moved_ids sammeln,
+    auto_roam_idle_monsters() aufrufen.
+
+(h) scripts/virtual_player.py MODIFY (+3Z): MONSTER_BEWEGT zu _TAG_PATTERNS, Case 6+7 expected_tags erweitert.
+
+(i) docs/management/rules.md MODIFY (+6Z): Test 5 (Grid-Stress) zu §10 hinzugefuegt
+    mit crawltraining_stress Kommando.
+
+Verifizierung: Alle Imports OK. Integration Test: GridEngine+Maps+Spawns+Renderer → 800x544px Bild.
+Roaming Test: 4/6 idle Monster bewegt. JSON-Validierung: Alle 20 Raeume korrekt (Map + passende Spawns).
+
+DATEIEN: gui/pixel_renderer.py (NEU), gui/tab_replay_viewer.py (REWRITE), gui/tab_dungeon_pixel.py (MODIFY),
+core/grid_engine.py (MODIFY), core/orchestrator.py (MODIFY), modules/adventures/crawltraining_stress.json (MODIFY),
+modules/adventures/crawltraining_full.json (MODIFY), scripts/virtual_player.py (MODIFY),
+docs/management/rules.md (MODIFY)
+
+[2026-03-04 11:00] | FROM: QM Agent | Converter-Agent definiert — ADD2e Komplett-Extraktionsplan angelegt
+
+Aufgabe: Neuen "Converter"-Agenten in Governance-Dokumente integrieren und vollstaendigen Konvertierungsplan fuer alle 108 AD&D 2e PDFs aus ADD2e/ erstellen.
+
+(1) organization.md: Converter-Rollendefinition eingefuegt (nach Virtual Player, vor Kommunikationsregeln).
+    Organigramm erweitert: Converter-Box als zweite Instanz unter Human Lead + Agenten-Schicht.
+    Dokumenten-Matrix: bugtracker.md und conversion_workflow.md ergaenzt (fehlten bisher).
+
+(2) agents.md: Neuer Abschnitt "Converter Agent — AD&D 2e Komplett-Extraktion" eingefuegt (nach Content Specialist, vor Virtual Player).
+    Enthaelt: Zielordner-Tabelle, vollstaendige Statusliste aller 107 ausstehenden PDFs (P1-01 bis P4-51),
+    Batch-Plan (B-C01 bis B-C11, ~67,5h), Hinweis zu _text.pdf OCR-Duplikaten.
+    Bestandsstatus: Monstrous Compendium Vol.1 als [x] FERTIG markiert (106 Monster bereits vorhanden).
+
+(3) suggestions.md: Strategischer Eintrag "ADD2e Langzeit-Konvertierungsprojekt" hinzugefuegt
+    (Kontext, Ziel, Auswirkung auf Spielqualitaet, Empfehlung zur Priorisierung).
+
+Istzustand ADD2e Lore: monsters/ 106, spells/ 331, items/ 50, encounters/ 31, tables/ 68, mechanics/ 6.
+Zielzustand nach Vollabschluss: +classes/ +kits/ +races/ +equipment/ (vollst.) +magic_items/ +dm_tools/ +deities/ +rules/ +settings/dragonlance/ +settings/historical/
+
+DATEIEN: docs/management/organization.md (MODIFY), docs/management/agents.md (MODIFY), docs/management/suggestions.md (MODIFY)
+
+[2026-03-04 00:10] | FROM: Claude Code | Grid-SSOT Architektur-Shift implementiert
+
+Grid als Single Source of Truth — 3 Dateien modifiziert, ~175 Zeilen netto.
+
+(a) parse_player_movement() in orchestrator.py: Spieler-Bewegung VOR KI-Aufruf ausgewertet
+    (Richtung, Kampf-Approach, Exploration). Ersetzt Tier-3 Narrative-Inferenz.
+
+(b) execute_monster_moves() + _resolve_direction() in grid_engine.py:
+    KI-gesteuerte Monster-Bewegung via [MONSTER_BEWEGT: Name | Richtung] Tags (NACH KI-Aufruf).
+    Richtungen: naeher, angriff, weg, patrouille, lauern.
+
+(c) Erweitertes get_context_for_prompt() in grid_engine.py:
+    Raum-ID, Dimensionen, Party/Monster-Listen, Terrain, Sichtbarkeit als KI-Kontext-Block.
+
+(d) System-Prompt in ai_backend.py: Monster-Bewegungs-Protokoll ergaenzt.
+
+Regressionstest: 5 Turns add_2e/goblin_cave bestanden.
+Integrations-Test: Alle Bewegungstypen verifiziert (walk, combat_approach, naeher, angriff, weg, patrouille, lauern).
+
+DATEIEN: core/grid_engine.py, core/orchestrator.py, core/ai_backend.py (MODIFY)
 
 [2026-03-04 00:30] | FROM: Claude Code | TinyCrawl Level 1 + Asset-Archivierung
 

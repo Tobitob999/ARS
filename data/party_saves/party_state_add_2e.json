@@ -1,5 +1,5 @@
 {
-  "turn_number": 10,
+  "turn_number": 14,
   "party": {
     "members": {
       "Grimjaw Eisenfaust": {
@@ -8,7 +8,7 @@
         "archetype": "Fighter",
         "level": 7,
         "race": "Dwarf",
-        "hp": 72,
+        "hp": 65,
         "hp_max": 72,
         "ac": 2,
         "thac0": 14,
@@ -47,7 +47,7 @@
         ],
         "spells_prepared": [],
         "spells_remaining": {},
-        "xp": 0,
+        "xp": 66,
         "movement_rate": 6,
         "alive": true
       },
@@ -57,7 +57,7 @@
         "archetype": "Paladin",
         "level": 6,
         "race": "Human",
-        "hp": 54,
+        "hp": 51,
         "hp_max": 54,
         "ac": 1,
         "thac0": 15,
@@ -98,7 +98,7 @@
         "spells_remaining": {
           "1": 2
         },
-        "xp": 0,
+        "xp": 66,
         "movement_rate": 12,
         "alive": true
       },
@@ -157,11 +157,11 @@
           "Create Food and Water"
         ],
         "spells_remaining": {
-          "1": 2,
+          "1": 3,
           "2": 5,
-          "3": 2
+          "3": 3
         },
-        "xp": 0,
+        "xp": 65,
         "movement_rate": 12,
         "alive": true
       },
@@ -212,7 +212,7 @@
         "spells_remaining": {
           "1": 1
         },
-        "xp": 0,
+        "xp": 65,
         "movement_rate": 12,
         "alive": true
       },
@@ -265,11 +265,11 @@
           "Lightning Bolt"
         ],
         "spells_remaining": {
-          "1": 4,
+          "1": 0,
           "2": 2,
           "3": 0
         },
-        "xp": 0,
+        "xp": 65,
         "movement_rate": 12,
         "alive": true
       },
@@ -317,7 +317,7 @@
         ],
         "spells_prepared": [],
         "spells_remaining": {},
-        "xp": 0,
+        "xp": 63,
         "movement_rate": 6,
         "alive": true
       }
@@ -325,7 +325,7 @@
     "alive_count": 6,
     "total_count": 6,
     "is_tpk": false,
-    "total_hp": 270,
+    "total_hp": 260,
     "total_hp_max": 270
   },
   "turn_log": [
@@ -338,16 +338,24 @@
     },
     {
       "action": "spell_used",
-      "caster": "Bruder Mordain",
-      "spell": "Bless",
+      "caster": "Pyra Flammenherz",
+      "spell": "Magic Missile",
       "level": 1,
       "remaining": 3
     },
     {
+      "action": "damage",
+      "target": "Sir Kael Zornesklinge",
+      "amount": 3,
+      "hp_before": 54,
+      "hp_after": 51,
+      "alive": true
+    },
+    {
       "action": "spell_used",
-      "caster": "Bruder Mordain",
-      "spell": "Prayer",
-      "level": 3,
+      "caster": "Pyra Flammenherz",
+      "spell": "Magic Missile",
+      "level": 1,
       "remaining": 2
     },
     {
@@ -358,18 +366,58 @@
       "remaining": 1
     },
     {
-      "action": "spell_used",
-      "caster": "Pyra Flammenherz",
-      "spell": "Lightning Bolt",
-      "level": 3,
-      "remaining": 0
+      "action": "xp_gain",
+      "amount": 65,
+      "per_member": 10,
+      "alive_count": 6
+    },
+    {
+      "action": "xp_gain",
+      "amount": 65,
+      "per_member": 10,
+      "alive_count": 6
+    },
+    {
+      "action": "damage",
+      "target": "Grimjaw Eisenfaust",
+      "amount": 7,
+      "hp_before": 72,
+      "hp_after": 65,
+      "alive": true
     },
     {
       "action": "spell_used",
       "caster": "Bruder Mordain",
       "spell": "Bless",
       "level": 1,
-      "remaining": 2
+      "remaining": 3
+    },
+    {
+      "action": "spell_used",
+      "caster": "Pyra Flammenherz",
+      "spell": "Fireball",
+      "level": 3,
+      "remaining": 0
+    },
+    {
+      "action": "spell_used",
+      "caster": "Pyra Flammenherz",
+      "spell": "Magic Missile",
+      "level": 1,
+      "remaining": 1
+    },
+    {
+      "action": "spell_used",
+      "caster": "Pyra Flammenherz",
+      "spell": "Magic Missile",
+      "level": 1,
+      "remaining": 0
+    },
+    {
+      "action": "xp_gain",
+      "amount": 260,
+      "per_member": 43,
+      "alive_count": 6
     }
   ]
 }

@@ -342,7 +342,7 @@ TEST_CASES: dict[int, TestCaseConfig] = {
             ],
         },
         adventures={"add_2e": "dungeon_gauntlet", "cthulhu_7e": "spukhaus"},
-        expected_tags={"ANGRIFF": 5, "HP_VERLUST": 3, "PROBE": 3, "INVENTAR": 2, "RETTUNGSWURF": 1},
+        expected_tags={"ANGRIFF": 5, "HP_VERLUST": 3, "PROBE": 3, "INVENTAR": 2, "RETTUNGSWURF": 1, "MONSTER_BEWEGT": 3},
     ),
     7: TestCaseConfig(
         case_id=7,
@@ -371,7 +371,7 @@ TEST_CASES: dict[int, TestCaseConfig] = {
             ],
         },
         adventures={"add_2e": "dungeon_gauntlet"},
-        expected_tags={"ANGRIFF": 3, "HP_VERLUST": 2, "PROBE": 3, "ZAUBER_VERBRAUCHT": 1},
+        expected_tags={"ANGRIFF": 3, "HP_VERLUST": 2, "PROBE": 3, "ZAUBER_VERBRAUCHT": 1, "MONSTER_BEWEGT": 2},
     ),
 }
 
@@ -658,6 +658,7 @@ _TAG_PATTERNS = {
     "TREASON_POINT": re.compile(r"\[TREASON_POINT:\s*[^\]]+\]"),
     "CLONE_TOD": re.compile(r"\[CLONE_TOD\]"),
     "EDGE": re.compile(r"\[EDGE:\s*[^\]]+\]"),
+    "MONSTER_BEWEGT": re.compile(r"\[MONSTER_BEWEGT:\s*[^\]]+\]"),
 }
 
 

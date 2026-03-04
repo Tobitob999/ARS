@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "add_2e",
+    "chapter_map",
+    "toc",
+    "appendix",
+    "tsr_inc_ad_and_d_2nd_edition_dragonlance_dla2_dragon_knight"
+  ],
+  "summary": "Automatisch erkannte Kapitel- und Appendix-Marker aus TSR Inc - AD&D 2nd Edition - Dragonlance_ DLA2 - Dragon Knight.pdf.",
+  "source_text": {
+    "detected_chapters": [
+      {
+        "chapter": "1",
+        "title": "G RIDMIRE ...................................... 10",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "2",
+        "title": "S OUTHERN  S TEAMWALL ........................... 18",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "3",
+        "title": "P IRIM .......................................... 41",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "4",
+        "title": "S ARGOHGG ..................................... 45",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "5",
+        "title": "A HHAR ........................................ 48",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "6",
+        "title": "K OR I SLAND AND  B EYOND ......................... 52",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "I",
+        "title": "G RIDMIRE",
+        "first_seen_page": 12
+      },
+      {
+        "chapter": "2",
+        "title": "S OUTHERN  S TEAMWALL",
+        "first_seen_page": 20
+      },
+      {
+        "chapter": "3",
+        "title": "P IRIM",
+        "first_seen_page": 43
+      },
+      {
+        "chapter": "4",
+        "title": "S ARGOHGG",
+        "first_seen_page": 47
+      },
+      {
+        "chapter": "5",
+        "title": "A HHAR",
+        "first_seen_page": 50
+      },
+      {
+        "chapter": "6",
+        "title": "K OR I SLAND AND  B EYOND",
+        "first_seen_page": 54
+      }
+    ],
+    "detected_appendices": [],
+    "detection_note": "Extraktion kann Schreibfehler enthalten; Titel wurden 1:1 aus PDF-Text uebernommen."
+  },
+  "mechanics": {
+    "chapter_regex": "\\bChapter\\s+([0-9IVXLC]+)\\s*[:\\-]\\s*([^\\n\\r]{2,120})",
+    "appendix_regex": "\\bAppendix\\s+([0-9IVXLC]+)\\s*[:\\-]\\s*([^\\n\\r]{2,120})",
+    "unique_chapters": 12,
+    "unique_appendices": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_2",
+    "tsr_inc_ad_and_d_2nd_edition_dragonlance_dlq1_knight_s_sword",
+    "movement"
+  ],
+  "summary": "Phase-2 Regelchunk: movement aus TSR Inc - AD&D 2nd Edition - Dragonlance_ DLQ1 - Knight's Sword.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLQ1 - Knight's Sword",
+    "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLQ1 - Knight's Sword.pdf",
+    "text": "[PDF_PAGE 5 | score=2] Sourcebook and Catacomb Guide. This book pro- vides insight into problems that face every DM, as well as suggested answers to those problems. Some refereeing conventions include the use of boxed text and abbreviations for monsters and NPCs. Text surrounded by a box means that the DM is to read or paraphrase the enclosed text to the players. Any text not so surrounded is informa- tion for the DM only, to be given to the players as he or she sees fit. This information may or may not be discovered by the players’ characters as they examine the encounter. Whether they do or not should depend purely on their actions. When the PCs encounter monsters, the typical format of the presentation is as fo\n[PDF_PAGE 25 | score=1] Visiting Solanius If the players are intent on riding off to confront Solanius immediately, remind them that their characters need hard evidence before they can bring him to justice. Unless they can somehow positively identify him as the culprit, they must continue to conduct their investigation in Solan- thus. They may wish to spy on him in order to as- certain whether he is the culprit. Allow this to happen, but they should not be able to discover the evidence for which they search. However, the numerous dogs that Kellin keeps will bark franti- cally the whole time unless the characters take precautions against detection. Once the characters head for Solanius’ castle, ask them what proof t\n[PDF_PAGE 32 | score=1] succumbed to old age. He passed his sword to Be- dal, his only child. Bedal proved himself another heroic Brightblade by holding a strategic pass against fierce desert nomads until reinforcements arrived-by himself. Yet few bards sang of his prowess, for there were other knights performing deeds nearly as heroic. This was the time of the knighthood’s bloom, and its members were intent on proving themselves and the Oath and Measure. The fortunes of the Brightblade family blossomed with the Orders of the Solamnic Knights. The sword continued its history with the family for the next three millenia, with a few minor diver- sions. After the Cataclysm, when the sword was to go to Bayard Brightblad"
+  },
+  "mechanics": {
+    "topic": "movement",
+    "keywords": [
+      "add_2e",
+      "movement",
+      "tsr_inc_ad_and_d_2nd_edition_dragonlance_dlq1_knight_s_sword"
+    ],
+    "injection_priority": "core",
+    "confidence": 0.1,
+    "page_refs": [
+      5,
+      25,
+      32
+    ],
+    "raw_text": "[PDF_PAGE 5 | score=2] Sourcebook and Catacomb Guide. This book pro- vides insight into problems that face every DM, as well as suggested answers to those problems. Some refereeing conventions include the use of boxed text and abbreviations for monsters and NPCs. Text surrounded by a box means that the DM is to read or paraphrase the enclosed text to the players. Any text not so surrounded is informa- tion for the DM only, to be given to the players as he or she sees fit. This information may or may not be discovered by the players’ characters as they examine the encounter. Whether they do or not should depend purely on their actions. When the PCs encounter monsters, the typical format of the presentation is as fo\n[PDF_PAGE 25 | score=1] Visiting Solanius If the players are intent on riding off to confront Solanius immediately, remind them that their characters need hard evidence before they can bring him to justice. Unless they can somehow positively identify him as the culprit, they must continue to conduct their investigation in Solan- thus. They may wish to spy on him in order to as- certain whether he is the culprit. Allow this to happen, but they should not be able to discover the evidence for which they search. However, the numerous dogs that Kellin keeps will bark franti- cally the whole time unless the characters take precautions against detection. Once the characters head for Solanius’ castle, ask them what proof t\n[PDF_PAGE 32 | score=1] succumbed to old age. He passed his sword to Be- dal, his only child. Bedal proved himself another heroic Brightblade by holding a strategic pass against fierce desert nomads until reinforcements arrived-by himself. Yet few bards sang of his prowess, for there were other knights performing deeds nearly as heroic. This was the time of the knighthood’s bloom, and its members were intent on proving themselves and the Oath and Measure. The fortunes of the Brightblade family blossomed with the Orders of the Solamnic Knights. The sword continued its history with the family for the next three millenia, with a few minor diver- sions. After the Cataclysm, when the sword was to go to Bayard Brightblad"
+  }
+}

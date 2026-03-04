@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "add_2e",
+    "source_book",
+    "pdf_conversion",
+    "tsr_inc_ad_and_d_2nd_edition_dungeon_builder_s_guidebook"
+  ],
+  "summary": "Metadaten der PDF-zu-JSON-Konvertierung fuer TSR Inc - AD&D 2nd Edition - Dungeon Builder's Guidebook.pdf.",
+  "source_text": {
+    "source_file": "TSR Inc - AD&D 2nd Edition - Dungeon Builder's Guidebook.pdf",
+    "source_path": "g:\\meine ablage\\add2e\\tsr inc - ad&d 2nd edition - dungeon builder's guidebook.pdf",
+    "format": "pdf",
+    "page_count": 84,
+    "extracted_characters": 71785,
+    "extraction_timestamp": "2026-03-02T10:58:36",
+    "toc_candidate_pages": [
+      3,
+      15,
+      30,
+      37
+    ],
+    "empty_or_unreadable_pages": [
+      1,
+      4,
+      17,
+      31,
+      33,
+      34,
+      39,
+      42,
+      66,
+      68,
+      71
+    ]
+  },
+  "mechanics": {
+    "extractor": "pypdf.PdfReader.extract_text",
+    "output_files": [
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dungeon_builder_s_guidebook_pages.jsonl",
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dungeon_builder_s_guidebook_chapter_map.json",
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dungeon_builder_s_guidebook_metadata.json"
+    ]
+  }
+}

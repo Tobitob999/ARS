@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_1_mapping",
+    "tsr_inc_ad_and_d_2nd_edition_phbr15_the_complete_ninja_s_handbook"
+  ],
+  "summary": "Abgeleiteter Phase-1-Chunk aus Kapitelmarkern fuer TSR Inc - AD&D 2nd Edition - PHBR15 - The Complete Ninja's Handbook.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - PHBR15 - The Complete Ninja's Handbook",
+    "source_file": "TSR Inc - AD&D 2nd Edition - PHBR15 - The Complete Ninja's Handbook.pdf",
+    "chapter_map_file": "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_phbr15_the_complete_ninja_s_handbook_chapter_map.json",
+    "text": "Chapter 1: The Ninja Class ............ 5 (first_seen_pdf_page=3)\nChapter 2: Ninja Kits ................ 12 (first_seen_pdf_page=3)\nChapter 3: Shinobi . Spies, and Killers . . -23 (first_seen_pdf_page=3)\nChapter 4: hoficiencies and Marthl Arts ......... 30 (first_seen_pdf_page=3)\nChapter 5: Tools of the Trade ......... 62 (first_seen_pdf_page=3)\nChapter 6: Country and Chn ......... .88 (first_seen_pdf_page=4)\nChapter 1: The Ninja Class provides char- (first_seen_pdf_page=5)\nChapter 2: Ninja Kits details kits that (first_seen_pdf_page=5)\nChapter 3: Shinobi, Spies, and Killers (first_seen_pdf_page=5)\nChapter 5: Tools of the Trade describes (first_seen_pdf_page=5)\nChapter 6: Country and Clan discusses the (first_seen_pdf_page=5)\nChapter 7: Playing the Ninja provides (first_seen_pdf_page=5)\nChapter 8: Campaigning the Ninja talks (first_seen_pdf_page=5)\nChapter 9: Examples is full of easily cus- (first_seen_pdf_page=5)\nChapter 3: also tend to fall (first_seen_pdf_page=96)"
+  },
+  "mechanics": {
+    "topic": "phase_1_skeleton_mapping",
+    "keywords": [
+      "add_2e",
+      "book_conversion",
+      "class",
+      "classes",
+      "tsr_inc_ad_and_d_2nd_edition_phbr15_the_complete_ninja_s_handbook"
+    ],
+    "injection_priority": "core",
+    "mapped_skeleton_fields": [
+      "classes"
+    ],
+    "raw_text": "Chapter 1: The Ninja Class ............ 5 (first_seen_pdf_page=3)\nChapter 2: Ninja Kits ................ 12 (first_seen_pdf_page=3)\nChapter 3: Shinobi . Spies, and Killers . . -23 (first_seen_pdf_page=3)\nChapter 4: hoficiencies and Marthl Arts ......... 30 (first_seen_pdf_page=3)\nChapter 5: Tools of the Trade ......... 62 (first_seen_pdf_page=3)\nChapter 6: Country and Chn ......... .88 (first_seen_pdf_page=4)\nChapter 1: The Ninja Class provides char- (first_seen_pdf_page=5)\nChapter 2: Ninja Kits details kits that (first_seen_pdf_page=5)\nChapter 3: Shinobi, Spies, and Killers (first_seen_pdf_page=5)\nChapter 5: Tools of the Trade describes (first_seen_pdf_page=5)\nChapter 6: Country and Clan discusses the (first_seen_pdf_page=5)\nChapter 7: Playing the Ninja provides (first_seen_pdf_page=5)\nChapter 8: Campaigning the Ninja talks (first_seen_pdf_page=5)\nChapter 9: Examples is full of easily cus- (first_seen_pdf_page=5)\nChapter 3: also tend to fall (first_seen_pdf_page=96)",
+    "derived_from": [
+      "detected_chapters",
+      "detected_appendices"
+    ]
+  }
+}

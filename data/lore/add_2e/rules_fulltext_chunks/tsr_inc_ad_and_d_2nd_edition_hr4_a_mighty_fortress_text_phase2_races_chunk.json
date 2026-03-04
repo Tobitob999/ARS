@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_2",
+    "tsr_inc_ad_and_d_2nd_edition_hr4_a_mighty_fortress_text",
+    "races"
+  ],
+  "summary": "Phase-2 Regelchunk: races aus TSR Inc - AD&D 2nd Edition - HR4 - A Mighty Fortress_text.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - HR4 - A Mighty Fortress_text",
+    "source_file": "TSR Inc - AD&D 2nd Edition - HR4 - A Mighty Fortress_text.pdf",
+    "text": "[PDF_PAGE 89 | score=3] water, so depriving them of eggshells hampers their mobility); * an eclipse portends great evil; * a comet predicts the death of a king. Monsters and Baleful Creatures Many sinister beasts prowled the shadows and remote regions of Elizabethan Europe. The most important were the faeries, the elves, and the restless dead. Faeries The term “faerie” encompasses little people (and some not-so-little people) of many vari- eties. In AD&D® game terms it includes fair- ies, nymphs, sylphs, pixies, brownies, satyrs, pans, fauns, leprechauns, and others of their ilk. By this time it is generally believed that the fairie kingdoms have relocated away from Eu- rope to more remote climes. Any faeries en- c\n[PDF_PAGE 90 | score=1] Some aspect of its life is unfulfilled. It must bring reparation for harm it caused in life or retribution for harm done to it, or warn of danger, or reveal foul play, or sometimes even protect a hidden treasure. Those who knew the person in life will rec- ognize the ghost in afterlife. But a ghost speaks only to a person it has a message for, and only in response to questions. A ghost never initiates a conversation or volunteers information, A ghost can be summoned by someone who knows the rite of exorcism and who speaks Latin. Summoning or questioning a ghost is risky, however. Evil spirits sometimes mas- querade as ghosts with valuable information. Just as they win their victim's confiden"
+  },
+  "mechanics": {
+    "topic": "races",
+    "keywords": [
+      "add_2e",
+      "races",
+      "tsr_inc_ad_and_d_2nd_edition_hr4_a_mighty_fortress_text"
+    ],
+    "injection_priority": "core",
+    "confidence": 0.1,
+    "page_refs": [
+      89,
+      90
+    ],
+    "raw_text": "[PDF_PAGE 89 | score=3] water, so depriving them of eggshells hampers their mobility); * an eclipse portends great evil; * a comet predicts the death of a king. Monsters and Baleful Creatures Many sinister beasts prowled the shadows and remote regions of Elizabethan Europe. The most important were the faeries, the elves, and the restless dead. Faeries The term “faerie” encompasses little people (and some not-so-little people) of many vari- eties. In AD&D® game terms it includes fair- ies, nymphs, sylphs, pixies, brownies, satyrs, pans, fauns, leprechauns, and others of their ilk. By this time it is generally believed that the fairie kingdoms have relocated away from Eu- rope to more remote climes. Any faeries en- c\n[PDF_PAGE 90 | score=1] Some aspect of its life is unfulfilled. It must bring reparation for harm it caused in life or retribution for harm done to it, or warn of danger, or reveal foul play, or sometimes even protect a hidden treasure. Those who knew the person in life will rec- ognize the ghost in afterlife. But a ghost speaks only to a person it has a message for, and only in response to questions. A ghost never initiates a conversation or volunteers information, A ghost can be summoned by someone who knows the rite of exorcism and who speaks Latin. Summoning or questioning a ghost is risky, however. Evil spirits sometimes mas- querade as ghosts with valuable information. Just as they win their victim's confiden"
+  }
+}

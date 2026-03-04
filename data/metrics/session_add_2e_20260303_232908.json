@@ -1,0 +1,37 @@
+{
+  "module": "add_2e",
+  "session_id": 263,
+  "total_turns": 2,
+  "total_latency_ms": 14451.6,
+  "avg_latency_ms": 7225.8,
+  "avg_response_chars": 418.0,
+  "total_probes": 0,
+  "total_combat_tags": 0,
+  "total_rules_warnings": 0,
+  "turns": [
+    {
+      "turn": 1,
+      "latency_ms": 8808.4,
+      "response_chars": 424,
+      "probes": 0,
+      "combat_tags": 0,
+      "stat_changes": 1,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 0,
+      "rules_warnings": 0
+    },
+    {
+      "turn": 2,
+      "latency_ms": 5643.2,
+      "response_chars": 412,
+      "probes": 0,
+      "combat_tags": 0,
+      "stat_changes": 0,
+      "inventory_changes": 0,
+      "time_changes": 1,
+      "facts": 1,
+      "rules_warnings": 0
+    }
+  ]
+}

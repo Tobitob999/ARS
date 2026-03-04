@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "add_2e",
+    "chapter_map",
+    "toc",
+    "appendix",
+    "tsr_inc_ad_and_d_2nd_edition_hr7_crusades"
+  ],
+  "summary": "Automatisch erkannte Kapitel- und Appendix-Marker aus TSR Inc - AD&D 2nd Edition - HR7 - Crusades.pdf.",
+  "source_text": {
+    "detected_chapters": [
+      {
+        "chapter": "1",
+        "title": "Through Crusaders’ Eyes .... .4",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "3",
+        "title": "Characters ................ .16",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "6",
+        "title": "Magic, Monsters,",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "7",
+        "title": "Tales of the Crusaders ...... .70",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "8",
+        "title": "Adventuring Ideas ......... .86",
+        "first_seen_page": 3
+      }
+    ],
+    "detected_appendices": [],
+    "detection_note": "Extraktion kann Schreibfehler enthalten; Titel wurden 1:1 aus PDF-Text uebernommen."
+  },
+  "mechanics": {
+    "chapter_regex": "\\bChapter\\s+([0-9IVXLC]+)\\s*[:\\-]\\s*([^\\n\\r]{2,120})",
+    "appendix_regex": "\\bAppendix\\s+([0-9IVXLC]+)\\s*[:\\-]\\s*([^\\n\\r]{2,120})",
+    "unique_chapters": 5,
+    "unique_appendices": 0
+  }
+}

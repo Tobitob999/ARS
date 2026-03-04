@@ -91,6 +91,7 @@ class TechGUI:
         from gui.tab_party_monitor import PartyMonitorTab
         from gui.tab_dungeon_view import DungeonViewTab
         from gui.tab_replay_viewer import ReplayViewerTab
+        from gui.tab_dungeon_pixel import DungeonPixelTab
 
         self.tab_session = SessionTab(self.notebook, self)
         self.tab_game = GameTab(self.notebook, self)
@@ -105,6 +106,7 @@ class TechGUI:
         self.tab_party_monitor = PartyMonitorTab(self.notebook, self)
         self.tab_dungeon = DungeonViewTab(self.notebook, self)
         self.tab_replay = ReplayViewerTab(self.notebook, self)
+        self.tab_pixel = DungeonPixelTab(self.notebook, self)
 
         self.notebook.add(self.tab_session, text="  Session Setup  ")
         self.notebook.add(self.tab_game, text="  Game  ")
@@ -119,6 +121,7 @@ class TechGUI:
         self.notebook.add(self.tab_party_monitor, text="  Party-Monitor  ")
         self.notebook.add(self.tab_dungeon, text="  Dungeon  ")
         self.notebook.add(self.tab_replay, text="  Replay  ")
+        self.notebook.add(self.tab_pixel, text="  Pixel-Dungeon  ")
 
         # Statusleiste
         self.status_bar = StatusBar(self.root)
@@ -218,6 +221,7 @@ class TechGUI:
             self.tab_party_monitor.on_engine_ready()
             self.tab_dungeon.on_engine_ready()
             self.tab_replay.on_engine_ready()
+            self.tab_pixel.on_engine_ready()
             # Zum passenden Tab wechseln:
             # Dungeon-Tab wenn Adventure geladen, Party-Monitor bei Party, sonst Game
             if hasattr(self.engine, "_adv_manager") and self.engine._adv_manager and self.engine._adv_manager.loaded:
@@ -251,6 +255,7 @@ class TechGUI:
         self.tab_party_monitor.handle_event(data)
         self.tab_dungeon.handle_event(data)
         self.tab_replay.handle_event(data)
+        self.tab_pixel.handle_event(data)
 
     # ── Mausrad ──
 

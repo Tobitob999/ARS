@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_1_mapping",
+    "tsr_inc_ad_and_d_2nd_edition_hr6_age_of_heroes"
+  ],
+  "summary": "Abgeleiteter Phase-1-Chunk aus Kapitelmarkern fuer TSR Inc - AD&D 2nd Edition - HR6 - Age of Heroes.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - HR6 - Age of Heroes",
+    "source_file": "TSR Inc - AD&D 2nd Edition - HR6 - Age of Heroes.pdf",
+    "chapter_map_file": "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_hr6_age_of_heroes_chapter_map.json",
+    "text": "Chapter 1: An Overview (first_seen_pdf_page=3)\nChapter 6: Adventures (first_seen_pdf_page=3)\nChapter 3: Greek Life ................................. 46 (first_seen_pdf_page=3)\nAppendix 1: Predesigned (first_seen_pdf_page=3)\nAppendix 2: Glossary.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .93 (first_seen_pdf_page=3)\nAppendix 3: Tactics and Siege Engines ......... 95 (first_seen_pdf_page=3)"
+  },
+  "mechanics": {
+    "topic": "phase_1_skeleton_mapping",
+    "keywords": [
+      "add_2e",
+      "book_conversion",
+      "extensions",
+      "siege",
+      "tsr_inc_ad_and_d_2nd_edition_hr6_age_of_heroes"
+    ],
+    "injection_priority": "support",
+    "mapped_skeleton_fields": [
+      "extensions"
+    ],
+    "raw_text": "Chapter 1: An Overview (first_seen_pdf_page=3)\nChapter 6: Adventures (first_seen_pdf_page=3)\nChapter 3: Greek Life ................................. 46 (first_seen_pdf_page=3)\nAppendix 1: Predesigned (first_seen_pdf_page=3)\nAppendix 2: Glossary.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .93 (first_seen_pdf_page=3)\nAppendix 3: Tactics and Siege Engines ......... 95 (first_seen_pdf_page=3)",
+    "derived_from": [
+      "detected_chapters",
+      "detected_appendices"
+    ]
+  }
+}

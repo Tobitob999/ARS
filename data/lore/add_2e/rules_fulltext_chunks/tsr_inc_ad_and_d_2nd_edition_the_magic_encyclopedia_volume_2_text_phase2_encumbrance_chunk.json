@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_2",
+    "tsr_inc_ad_and_d_2nd_edition_the_magic_encyclopedia_volume_2_text",
+    "encumbrance"
+  ],
+  "summary": "Phase-2 Regelchunk: encumbrance aus TSR Inc - AD&D 2nd Edition - The Magic Encyclopedia Volume 2_text.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - The Magic Encyclopedia Volume 2_text",
+    "source_file": "TSR Inc - AD&D 2nd Edition - The Magic Encyclopedia Volume 2_text.pdf",
+    "text": "[PDF_PAGE 19 | score=1] Horse Name EP Cost Book/Page Horn, Azure Sea 750 5,000 2023-080 Horn, Barrier Peaks 3,000 18,000 2023-081 Horn, Blasting 5,000 55,000 2100-171 Horn, Bubbles - 1,200 2100-172 Horn, Change Relic 20,000 2011-158 Horn, Collapsing 1,500 25,000 2100-172 Horn, Command 2,000 20,000 FR10-84 Horn, Death's Head 3,000 15,000 POLY058-07 Horn, Dolphins 750 3,250 DLRI-81 Horn, Drinking, Bottomless 1,000 10,000 HR1-65 Horn, Fog 400 4,000 2100-172 Horn, Geryon, of Relic R 2016-22 Horn, Gjaller Relic Р 2006-25 Horn, Hard Hearts 500 2,500 АС04-040 Horn, Plenty 2,000 20,000 АС04-041 Horn, September 1,000 10,000 АС04-041 Horn, Shoo 500 2,500 AC04-041 Horn, Signaling 1,000 5,000 АС04-041 Horn, Tritons, of the 2,0\n[PDF_PAGE 51 | score=1] Quarrel Name EP Cost Book/Page Quarrel Quarrels, or bolts (see page 32), are the ammunition fired by crossbows. A quarrel is shaped something like an arrow, but its shaft is much shorter and thicker. Quarrels used in warfare are tipped cone-or pyramid-shaped heads made from the toughest material availa- ble, usually iron or hardened steel. See the Arrow and Bolt entries for more information. Quarrel *1 25 175 1011-42 Quarrel *2 50 350 new item Quarrel *3 75 525 new item Quarrel *4 100 700 new item Quarrel +5 125 875 new item Quarrel -1 - 25 new item Quarrel -2 - 50 new item Quarrel, Biting 30 100 1060-117 Quarterstaff Ч Quarterstaff +1 Quarterstaff *2 Quarterstaff *3 Quarterstaff +4 Quarters\n[PDF_PAGE 76 | score=1] Sword Name EP Sword, Spellblade (7th Level) +2 1,700 Sword, Stalker +3 1,800 Sword, Sunblade +1 1,500 Sword, Sunblade +2 3,000 Sword, Sunblade +3 4,500 Sword, Susk +3 2,500 Sword, Syrar’s Silver +1 1,000 Sword, Taragarth +3 1,000 Sword, Telvaran’s Enchanted Blade 2,500 Sword, Tideripper +4 2,200 Sword, Translating 1,000 Sword, Undead +1/+3 3,000 Sword, Venom 700 Sword, Vorpal +1 6,000 Sword, Vorpal +2 8,000 Sword, Vorpal +3 10,000 Sword, Warbringer +3 1,800 Sword, Warlord of the Shield Lands 1,600 Sword, Watching 1,000 Sword, Whirlwind +1 500 Sword, Wishes +1 2,000 Sword, Wishing 1,800 Sword, Wounding +1 4,400 Sword, Wounding +2 6,800 Sword, Wyrmsbane +2 2,000 Sword, Wyrmslayer +3 3,000 Swor"
+  },
+  "mechanics": {
+    "topic": "encumbrance",
+    "keywords": [
+      "add_2e",
+      "encumbrance",
+      "tsr_inc_ad_and_d_2nd_edition_the_magic_encyclopedia_volume_2_text"
+    ],
+    "injection_priority": "core",
+    "confidence": 0.075,
+    "page_refs": [
+      19,
+      51,
+      76
+    ],
+    "raw_text": "[PDF_PAGE 19 | score=1] Horse Name EP Cost Book/Page Horn, Azure Sea 750 5,000 2023-080 Horn, Barrier Peaks 3,000 18,000 2023-081 Horn, Blasting 5,000 55,000 2100-171 Horn, Bubbles - 1,200 2100-172 Horn, Change Relic 20,000 2011-158 Horn, Collapsing 1,500 25,000 2100-172 Horn, Command 2,000 20,000 FR10-84 Horn, Death's Head 3,000 15,000 POLY058-07 Horn, Dolphins 750 3,250 DLRI-81 Horn, Drinking, Bottomless 1,000 10,000 HR1-65 Horn, Fog 400 4,000 2100-172 Horn, Geryon, of Relic R 2016-22 Horn, Gjaller Relic Р 2006-25 Horn, Hard Hearts 500 2,500 АС04-040 Horn, Plenty 2,000 20,000 АС04-041 Horn, September 1,000 10,000 АС04-041 Horn, Shoo 500 2,500 AC04-041 Horn, Signaling 1,000 5,000 АС04-041 Horn, Tritons, of the 2,0\n[PDF_PAGE 51 | score=1] Quarrel Name EP Cost Book/Page Quarrel Quarrels, or bolts (see page 32), are the ammunition fired by crossbows. A quarrel is shaped something like an arrow, but its shaft is much shorter and thicker. Quarrels used in warfare are tipped cone-or pyramid-shaped heads made from the toughest material availa- ble, usually iron or hardened steel. See the Arrow and Bolt entries for more information. Quarrel *1 25 175 1011-42 Quarrel *2 50 350 new item Quarrel *3 75 525 new item Quarrel *4 100 700 new item Quarrel +5 125 875 new item Quarrel -1 - 25 new item Quarrel -2 - 50 new item Quarrel, Biting 30 100 1060-117 Quarterstaff Ч Quarterstaff +1 Quarterstaff *2 Quarterstaff *3 Quarterstaff +4 Quarters\n[PDF_PAGE 76 | score=1] Sword Name EP Sword, Spellblade (7th Level) +2 1,700 Sword, Stalker +3 1,800 Sword, Sunblade +1 1,500 Sword, Sunblade +2 3,000 Sword, Sunblade +3 4,500 Sword, Susk +3 2,500 Sword, Syrar’s Silver +1 1,000 Sword, Taragarth +3 1,000 Sword, Telvaran’s Enchanted Blade 2,500 Sword, Tideripper +4 2,200 Sword, Translating 1,000 Sword, Undead +1/+3 3,000 Sword, Venom 700 Sword, Vorpal +1 6,000 Sword, Vorpal +2 8,000 Sword, Vorpal +3 10,000 Sword, Warbringer +3 1,800 Sword, Warlord of the Shield Lands 1,600 Sword, Watching 1,000 Sword, Whirlwind +1 500 Sword, Wishes +1 2,000 Sword, Wishing 1,800 Sword, Wounding +1 4,400 Sword, Wounding +2 6,800 Sword, Wyrmsbane +2 2,000 Sword, Wyrmslayer +3 3,000 Swor"
+  }
+}

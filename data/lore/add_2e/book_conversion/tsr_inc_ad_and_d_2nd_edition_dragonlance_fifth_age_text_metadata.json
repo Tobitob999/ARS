@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "add_2e",
+    "source_book",
+    "pdf_conversion",
+    "tsr_inc_ad_and_d_2nd_edition_dragonlance_fifth_age_text"
+  ],
+  "summary": "Metadaten der PDF-zu-JSON-Konvertierung fuer TSR Inc - AD&D 2nd Edition - Dragonlance_ Fifth Age_text.pdf.",
+  "source_text": {
+    "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Fifth Age_text.pdf",
+    "source_path": "g:\\meine ablage\\add2e\\tsr inc - ad&d 2nd edition - dragonlance_ fifth age_text.pdf",
+    "format": "pdf",
+    "page_count": 228,
+    "extracted_characters": 891755,
+    "extraction_timestamp": "2026-03-02T10:54:46",
+    "toc_candidate_pages": [
+      153,
+      179,
+      185
+    ],
+    "empty_or_unreadable_pages": [
+      1,
+      3,
+      133
+    ]
+  },
+  "mechanics": {
+    "extractor": "pypdf.PdfReader.extract_text",
+    "output_files": [
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dragonlance_fifth_age_text_pages.jsonl",
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dragonlance_fifth_age_text_chapter_map.json",
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dragonlance_fifth_age_text_metadata.json"
+    ]
+  }
+}

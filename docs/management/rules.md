@@ -74,6 +74,13 @@ py -3 scripts/virtual_player.py \
 | 2 | `add_2e` | `goblin_cave` | Fantasy-Verhalten |
 | 3 | `paranoia_2e` | `alpha_complex_reactor_audit` | KI-API-Stress |
 | 4 | `shadowrun_6` | (default) | Moderne-Mechaniken |
+| 5 | `add_2e` | `crawltraining_stress` | Grid-Stress + Monster-Roaming |
+
+**Test 5 (Grid-Stress) Kommando:**
+```bash
+py -3 scripts/virtual_player.py --module add_2e --adventure crawltraining_stress \
+  --party add_training_party --turns 10 --case 7 --llm-player --save --turn-delay 2.0
+```
 
 ### OK-Kriterien (ein Test bestanden ≡ alle erfüllt)
 - ✓ **Kein Crash** (Bluescreen/Exception)

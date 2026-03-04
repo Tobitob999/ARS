@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "add_2e",
+    "source_book",
+    "pdf_conversion",
+    "tsr_inc_ad_and_d_2nd_edition_hr1_vikings_campaign"
+  ],
+  "summary": "Metadaten der PDF-zu-JSON-Konvertierung fuer TSR Inc - AD&D 2nd Edition - HR1 - Vikings Campaign.pdf.",
+  "source_text": {
+    "source_file": "TSR Inc - AD&D 2nd Edition - HR1 - Vikings Campaign.pdf",
+    "source_path": "g:\\meine ablage\\add2e\\tsr inc - ad&d 2nd edition - hr1 - vikings campaign.pdf",
+    "format": "pdf",
+    "page_count": 106,
+    "extracted_characters": 251537,
+    "extraction_timestamp": "2026-03-02T11:02:15",
+    "toc_candidate_pages": [
+      2
+    ],
+    "empty_or_unreadable_pages": [
+      1,
+      40,
+      47,
+      48,
+      57,
+      69,
+      73,
+      80,
+      91,
+      99,
+      101,
+      102,
+      103,
+      104,
+      105
+    ]
+  },
+  "mechanics": {
+    "extractor": "pypdf.PdfReader.extract_text",
+    "output_files": [
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_hr1_vikings_campaign_pages.jsonl",
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_hr1_vikings_campaign_chapter_map.json",
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_hr1_vikings_campaign_metadata.json"
+    ]
+  }
+}

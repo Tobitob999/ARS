@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "add_2e",
+    "source_book",
+    "pdf_conversion",
+    "tsr_inc_ad_and_d_2nd_edition_dragonlance_chaos_spawn_text"
+  ],
+  "summary": "Metadaten der PDF-zu-JSON-Konvertierung fuer TSR Inc - AD&D 2nd Edition - Dragonlance_ Chaos Spawn_text.pdf.",
+  "source_text": {
+    "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Chaos Spawn_text.pdf",
+    "source_path": "g:\\meine ablage\\add2e\\tsr inc - ad&d 2nd edition - dragonlance_ chaos spawn_text.pdf",
+    "format": "pdf",
+    "page_count": 66,
+    "extracted_characters": 244517,
+    "extraction_timestamp": "2026-03-02T10:52:38",
+    "toc_candidate_pages": [
+      2,
+      50
+    ],
+    "empty_or_unreadable_pages": []
+  },
+  "mechanics": {
+    "extractor": "pypdf.PdfReader.extract_text",
+    "output_files": [
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dragonlance_chaos_spawn_text_pages.jsonl",
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dragonlance_chaos_spawn_text_chapter_map.json",
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dragonlance_chaos_spawn_text_metadata.json"
+    ]
+  }
+}

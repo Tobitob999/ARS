@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "add_2e",
+    "source_book",
+    "pdf_conversion",
+    "tsr_inc_ad_and_d_2nd_edition_dragonlance_dlt1_new_tales"
+  ],
+  "summary": "Metadaten der PDF-zu-JSON-Konvertierung fuer TSR Inc - AD&D 2nd Edition - Dragonlance_ DLT1 - New Tales.pdf.",
+  "source_text": {
+    "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLT1 - New Tales.pdf",
+    "source_path": "g:\\meine ablage\\add2e\\tsr inc - ad&d 2nd edition - dragonlance_ dlt1 - new tales.pdf",
+    "format": "pdf",
+    "page_count": 104,
+    "extracted_characters": 307881,
+    "extraction_timestamp": "2026-03-02T10:54:04",
+    "toc_candidate_pages": [
+      5,
+      17,
+      23
+    ],
+    "empty_or_unreadable_pages": [
+      1,
+      2,
+      3,
+      4,
+      15,
+      52,
+      63,
+      92,
+      100,
+      101,
+      102,
+      103,
+      104
+    ]
+  },
+  "mechanics": {
+    "extractor": "pypdf.PdfReader.extract_text",
+    "output_files": [
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dragonlance_dlt1_new_tales_pages.jsonl",
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dragonlance_dlt1_new_tales_chapter_map.json",
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dragonlance_dlt1_new_tales_metadata.json"
+    ]
+  }
+}

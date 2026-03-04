@@ -2,8 +2,8 @@
 gui/tab_replay_viewer.py — Tab 13: Replay-Viewer fuer Testlaeufe
 
 Spielt JSON-Reports aus virtual_player.py visuell ab:
-  - Grid-Ansicht mit Terrain, Entities, Party-Member (gleiche Symbole wie Dungeon-Tab)
-  - Animierte Charakter-Bewegung via move_events
+  - Pixel-Art Grid-Ansicht mit Terrain, Entities, Party-Member (0x72 Tileset)
+  - Animierte Move-Trails (gruen=Party, rot=Monster, gelb=Combat)
   - Party-HP-Balken pro Zug
   - Keeper-Text mit farbig hervorgehobenen Tags
   - Play/Pause, Prev/Next, Speed-Slider, Turn-Slider
@@ -33,22 +33,23 @@ if TYPE_CHECKING:
 
 logger = logging.getLogger("ARS.gui.replay")
 
-# ═══════════════════════════════════════════════════════════════════════════════
-# Symbole (identisch mit tab_dungeon_view)
-# ═══════════════════════════════════════════════════════════════════════════════
+# ── PIL + Pixel-Renderer ────────────────────────────────────────────────────
 
-W_H = "\u2550"          # ═
-W_V = "\u2551"          # ║
-W_TL = "\u2554"         # ╔
-W_TR = "\u2557"         # ╗
-W_BL = "\u255A"         # ╚
-W_BR = "\u255D"         # ╝
-S_DOOR = "\u25A1"       # □
-S_FLOOR = "\u00B7"      # ·
-S_MONSTER = "\u2666"    # ♦
-S_DEAD = "\u2620"       # ☠
-S_WATER = "~"
-S_RUBBLE = "#"
+try:
+    from PIL import Image, ImageDraw, ImageTk
+    HAS_PIL = True
+except ImportError:
+    HAS_PIL = False
+
+try:
+    from gui.pixel_renderer import (
+        PixelTileset, render_room_to_image, TILE, SCALE,
+    )
+    HAS_RENDERER = True
+except ImportError:
+    HAS_RENDERER = False
+
+# ── Klassen-Symbole ─────────────────────────────────────────────────────────
 
 _CLS: dict[str, str] = {
     "fighter": "F", "kaempfer": "F", "mage": "M", "magier": "M", "wizard": "M",
@@ -65,28 +66,23 @@ _TAG_COLORS: dict[str, str] = {
     "HP_VERLUST": RED,
     "STABILITAET_VERLUST": RED,
     "RETTUNGSWURF": RED,
+    "MONSTER_BEWEGT": RED,
     "PROBE": YELLOW,
     "FERTIGKEIT_GENUTZT": YELLOW,
+    "ZAUBER_VERBRAUCHT": YELLOW,
     "FAKT": GREEN,
     "HP_HEILUNG": GREEN,
     "XP_GEWINN": GREEN,
     "INVENTAR": BLUE,
+    "STIMME": BLUE,
     "ZEIT_VERGEHT": ORANGE,
     "TAGESZEIT": ORANGE,
     "WETTER": ORANGE,
 }
 
-# Map-Font
-F_MAP = ("Consolas", 12)
-F_MAP_B = ("Consolas", 12, "bold")
-F_LOG = ("Consolas", 9)
-
-# Animation
-ANIM_FRAME_MS = 200  # ms pro Animations-Schritt
-
 
 class ReplayViewerTab(ttk.Frame):
-    """Replay-Viewer: Testlaeufe visuell abspielen."""
+    """Replay-Viewer: Testlaeufe visuell abspielen mit Pixel-Art."""
 
     def __init__(self, parent: ttk.Notebook, gui: "TechGUI") -> None:
         super().__init__(parent)
@@ -94,14 +90,22 @@ class ReplayViewerTab(ttk.Frame):
         self.configure(style="TFrame")
 
         # State
-        self._data: dict | None = None      # Geladener JSON-Report
-        self._turns: list[dict] = []         # turns-Liste
+        self._data: dict | None = None
+        self._turns: list[dict] = []
         self._current_idx: int = 0
         self._playing: bool = False
         self._play_after_id: str | None = None
-        self._anim_after_id: str | None = None
-        self._speed_ms: int = 2000           # ms pro Zug im Play-Modus
-        self._entity_color_map: dict[str, int] = {}  # entity_id -> Farb-Index
+        self._speed_ms: int = 2000
+        self._entity_color_map: dict[str, int] = {}
+
+        # Pixel-Renderer
+        self._tileset: PixelTileset | None = None
+        self._tk_image: Any = None  # GC-Schutz
+        self._canvas_img_id: int | None = None
+
+        if HAS_PIL and HAS_RENDERER:
+            self._tileset = PixelTileset()
+            self._tileset.load()
 
         self._build_ui()
 
@@ -109,11 +113,10 @@ class ReplayViewerTab(ttk.Frame):
 
     def _build_ui(self) -> None:
         """4-Panel-Layout: Grid links, Controls+Text+HP rechts, Datei-Bar unten."""
-        # Haupt-PanedWindow (horizontal)
         pane = ttk.PanedWindow(self, orient=tk.HORIZONTAL)
         pane.pack(fill=tk.BOTH, expand=True, padx=PAD, pady=PAD)
 
-        # ── Linkes Panel: Grid-Ansicht ────────────────────────────────────────
+        # ── Linkes Panel: Grid-Ansicht (Canvas) ─────────────────────────────
         left = ttk.Frame(pane, style="Dark.TFrame")
         pane.add(left, weight=2)
 
@@ -123,15 +126,17 @@ class ReplayViewerTab(ttk.Frame):
         self._room_label = ttk.Label(left, text="", style="Muted.TLabel")
         self._room_label.pack(anchor=tk.W, padx=PAD)
 
-        self._map = tk.Text(
-            left, bg=BG_PANEL, fg=FG_PRIMARY, font=F_MAP,
-            wrap=tk.NONE, state=tk.DISABLED, cursor="arrow",
-            borderwidth=0, highlightthickness=0,
+        # Canvas fuer Pixel-Art (statt tk.Text)
+        self._canvas = tk.Canvas(
+            left, bg="#050308", highlightthickness=0, cursor="arrow",
         )
-        self._map.pack(fill=tk.BOTH, expand=True, padx=PAD, pady=PAD)
-        self._configure_map_tags()
+        self._canvas.pack(fill=tk.BOTH, expand=True, padx=PAD, pady=PAD)
 
-        # ── Rechtes Panel: Controls + Keeper-Text + HP ────────────────────────
+        # Legende unter dem Canvas
+        self._legend_frame = ttk.Frame(left, style="Dark.TFrame")
+        self._legend_frame.pack(fill=tk.X, padx=PAD, pady=(0, PAD))
+
+        # ── Rechtes Panel: Controls + Keeper-Text + HP ──────────────────────
         right = ttk.Frame(pane, style="Dark.TFrame")
         pane.add(right, weight=3)
 
@@ -206,21 +211,6 @@ class ReplayViewerTab(ttk.Frame):
         self._file_label = ttk.Label(file_bar, text="Keine Datei geladen", style="Muted.TLabel")
         self._file_label.pack(side=tk.LEFT, padx=8)
 
-    def _configure_map_tags(self) -> None:
-        """Text-Tags fuer die Grid-Ansicht."""
-        self._map.tag_configure("wall", foreground="#6C7086")
-        self._map.tag_configure("door", foreground=YELLOW)
-        self._map.tag_configure("floor", foreground="#45475A")
-        self._map.tag_configure("monster", foreground=RED)
-        self._map.tag_configure("dead", foreground="#6C7086")
-        self._map.tag_configure("water", foreground="#74C7EC")
-        self._map.tag_configure("rubble", foreground="#9399B2")
-        self._map.tag_configure("info", foreground=FG_ACCENT, font=FONT_SMALL)
-        self._map.tag_configure("desc", foreground=FG_SECONDARY, font=FONT_SMALL)
-        # Party-Farben c0..c5
-        for i, color in enumerate(_COLORS):
-            self._map.tag_configure(f"c{i}", foreground=color, font=F_MAP_B)
-
     def _configure_keeper_tags(self) -> None:
         """Text-Tags fuer die Keeper-Textansicht."""
         self._keeper_text.tag_configure("player", foreground=FG_ACCENT, font=FONT_BOLD)
@@ -231,7 +221,7 @@ class ReplayViewerTab(ttk.Frame):
         self._keeper_text.tag_configure("tag_orange", foreground=ORANGE, font=FONT_BOLD)
         self._keeper_text.tag_configure("tag_blue", foreground=BLUE, font=FONT_BOLD)
 
-    # ── Datei laden ────────────────────────────────────────────────────────────
+    # ── Datei laden ──────────────────────────────────────────────────────────
 
     def _load_file(self) -> None:
         """JSON-Report laden und Replay vorbereiten."""
@@ -276,12 +266,10 @@ class ReplayViewerTab(ttk.Frame):
         adventure = self._data.get("adventure", "?")
         self._file_label.configure(text=f"{fname}  ({module} / {adventure})")
 
-        # Ersten Zug anzeigen
         self._goto_turn(0)
-
         logger.info("Replay geladen: %s (%d Zuege)", fname, len(self._turns))
 
-    # ── Navigation ─────────────────────────────────────────────────────────────
+    # ── Navigation ───────────────────────────────────────────────────────────
 
     def _goto_turn(self, idx: int) -> None:
         """Zeigt einen bestimmten Zug an."""
@@ -315,7 +303,7 @@ class ReplayViewerTab(ttk.Frame):
         self._speed_ms = ms
         self._speed_label.configure(text=f"{ms / 1000:.1f}s")
 
-    # ── Play/Pause ─────────────────────────────────────────────────────────────
+    # ── Play/Pause ───────────────────────────────────────────────────────────
 
     def _play_toggle(self) -> None:
         if self._playing:
@@ -337,54 +325,105 @@ class ReplayViewerTab(ttk.Frame):
             self._goto_turn(self._current_idx + 1)
             self._play_after_id = self.after(self._speed_ms, self._play_step)
         else:
-            # Ende erreicht
             self._playing = False
             self._btn_play.configure(text="\u25B6 Play")
 
-    # ── Grid-Rendering ─────────────────────────────────────────────────────────
+    # ── Grid-Rendering (Pixel-Art) ───────────────────────────────────────────
 
     def _render_grid(self, turn: dict) -> None:
-        """Rendert die Grid-Ansicht fuer einen Zug."""
-        self._map.configure(state=tk.NORMAL)
-        self._map.delete("1.0", tk.END)
-
+        """Rendert die Grid-Ansicht fuer einen Zug als Pixel-Art."""
         room_id = turn.get("room_id", "")
         terrain = turn.get("room_terrain", [])
         positions = turn.get("grid_positions", {})
         entities = turn.get("grid_entities", {})
-        w = turn.get("room_width", 0)
-        h = turn.get("room_height", 0)
+        move_events = turn.get("move_events", [])
 
-        if not terrain or not w or not h:
-            # Kein Grid-Snapshot — nur Text-Info
-            self._map.insert(tk.END, "\n  Kein Grid-Snapshot fuer diesen Zug.\n", "info")
-            if room_id:
-                self._map.insert(tk.END, f"  Raum: {room_id}\n", "desc")
-            self._room_label.configure(text=room_id or "—")
-            self._map.configure(state=tk.DISABLED)
+        self._room_label.configure(text=room_id or "\u2014")
+
+        if not terrain or not self._tileset or not HAS_PIL:
+            # Kein Grid-Snapshot — Fallback-Text auf Canvas
+            self._canvas.delete("all")
+            msg = "Kein Grid-Snapshot" if not terrain else "PIL nicht verfuegbar"
+            self._canvas.create_text(
+                120, 40, text=msg, fill=FG_MUTED, font=FONT_NORMAL, anchor=tk.W,
+            )
+            self._update_legend(entities, turn.get("party_hp", {}))
             return
 
-        self._room_label.configure(text=room_id)
+        # Entity-Liste fuer Renderer aufbauen
+        entity_list: list[dict] = []
+        for eid, pos in positions.items():
+            if not pos or len(pos) < 2:
+                continue
+            einfo = entities.get(eid, {})
+            entity_list.append({
+                "entity_id": eid,
+                "x": int(pos[0]),
+                "y": int(pos[1]),
+                "type": einfo.get("type", ""),
+                "name": einfo.get("name", eid),
+                "symbol": einfo.get("symbol", "?"),
+                "alive": einfo.get("alive", True),
+            })
 
-        # Grid aufbauen: [y][x] = (char, tag)
-        grid = self._build_grid_from_snapshot(w, h, terrain, positions, entities)
+        # Move-Trails aufbereiten
+        trails: list[dict] = []
+        for me in move_events:
+            trail_type = me.get("move_type", "party_member")
+            trails.append({
+                "move_type": trail_type,
+                "path": me.get("path", []),
+                "from": me.get("from"),
+                "to": me.get("to"),
+            })
 
         # Rendern
-        self._map.insert(tk.END, "\n", "floor")
-        for row in grid:
-            self._map.insert(tk.END, "    ", "floor")
-            for ch, tag in row:
-                self._map.insert(tk.END, ch, tag)
-            self._map.insert(tk.END, "\n", "floor")
+        img = render_room_to_image(
+            terrain, self._tileset,
+            room_id=room_id,
+            entities=entity_list,
+            party_color_map=self._entity_color_map,
+            move_trails=trails if self._playing else None,
+            scale=SCALE,
+        )
 
-        # Legende: Party-Member
-        self._map.insert(tk.END, "\n", "floor")
-        party_hp = turn.get("party_hp", {})
+        if img is None:
+            return
+
+        # Auto-Center: Canvas-Groesse anpassen
+        cw = self._canvas.winfo_width()
+        ch = self._canvas.winfo_height()
+        iw, ih = img.width, img.height
+
+        # Wenn Bild groesser als Canvas: runterskalieren
+        if cw > 10 and ch > 10 and (iw > cw or ih > ch):
+            ratio = min(cw / iw, ch / ih)
+            if ratio < 1.0:
+                nw = max(1, int(iw * ratio))
+                nh = max(1, int(ih * ratio))
+                img = img.resize((nw, nh), Image.NEAREST)
+
+        self._tk_image = ImageTk.PhotoImage(img)
+        if self._canvas_img_id is None:
+            self._canvas_img_id = self._canvas.create_image(
+                0, 0, anchor=tk.NW, image=self._tk_image,
+            )
+        else:
+            self._canvas.itemconfig(self._canvas_img_id, image=self._tk_image)
+
+        # Legende aktualisieren
+        self._update_legend(entities, turn.get("party_hp", {}))
+
+    def _update_legend(self, entities: dict, party_hp: dict) -> None:
+        """Aktualisiert die Legende unter dem Canvas."""
+        for w in self._legend_frame.winfo_children():
+            w.destroy()
+
         for eid, einfo in entities.items():
             if einfo.get("type") != "party_member":
                 continue
             ci = self._entity_color_map.get(eid, 0)
-            tag = f"c{ci}"
+            color = _COLORS[ci % len(_COLORS)]
             name = einfo.get("name", eid)
             symbol = einfo.get("symbol", "?")
             alive = einfo.get("alive", True)
@@ -392,73 +431,14 @@ class ReplayViewerTab(ttk.Frame):
             hp = hp_info.get("hp", "?")
             hp_max = hp_info.get("hp_max", "?")
             status = "TOT" if not alive else f"HP {hp}/{hp_max}"
-            self._map.insert(tk.END, f"    {symbol}", tag)
-            self._map.insert(tk.END, f" = {name} ({status})  ", "desc")
+            lbl = tk.Label(
+                self._legend_frame,
+                text=f" {symbol} {name} ({status}) ",
+                fg=color, bg=BG_DARK, font=FONT_SMALL,
+            )
+            lbl.pack(side=tk.LEFT, padx=2)
 
-        self._map.insert(tk.END, "\n", "floor")
-        self._map.configure(state=tk.DISABLED)
-
-    def _build_grid_from_snapshot(
-        self, w: int, h: int,
-        terrain: list[list[str]],
-        positions: dict[str, list],
-        entities: dict[str, dict],
-    ) -> list[list[tuple[str, str]]]:
-        """Baut Grid[y][x] = (char, tag) aus Snapshot-Daten."""
-        g: list[list[tuple[str, str]]] = [
-            [(S_FLOOR, "floor") for _ in range(w)] for _ in range(h)
-        ]
-
-        # Terrain einzeichnen
-        for y in range(min(h, len(terrain))):
-            row = terrain[y]
-            for x in range(min(w, len(row))):
-                t = row[x]
-                if t == "wall":
-                    if y == 0 and x == 0:
-                        g[y][x] = (W_TL, "wall")
-                    elif y == 0 and x == w - 1:
-                        g[y][x] = (W_TR, "wall")
-                    elif y == h - 1 and x == 0:
-                        g[y][x] = (W_BL, "wall")
-                    elif y == h - 1 and x == w - 1:
-                        g[y][x] = (W_BR, "wall")
-                    elif y == 0 or y == h - 1:
-                        g[y][x] = (W_H, "wall")
-                    else:
-                        g[y][x] = (W_V, "wall")
-                elif t == "door":
-                    g[y][x] = (S_DOOR, "door")
-                elif t == "water":
-                    g[y][x] = (S_WATER, "water")
-                elif t == "obstacle":
-                    g[y][x] = (S_RUBBLE, "rubble")
-
-        # Entities einzeichnen (Positionen ueberschreiben Terrain)
-        for eid, pos in positions.items():
-            if not pos or len(pos) < 2:
-                continue
-            ex, ey = int(pos[0]), int(pos[1])
-            if not (0 <= ex < w and 0 <= ey < h):
-                continue
-            einfo = entities.get(eid, {})
-            etype = einfo.get("type", "")
-            alive = einfo.get("alive", True)
-            symbol = einfo.get("symbol", "?")
-
-            if not alive:
-                g[ey][ex] = (S_DEAD, "dead")
-            elif etype == "party_member":
-                ci = self._entity_color_map.get(eid, 0)
-                g[ey][ex] = (symbol, f"c{ci}")
-            elif etype in ("monster", "npc"):
-                g[ey][ex] = (S_MONSTER, "monster")
-            else:
-                g[ey][ex] = (symbol, "info")
-
-        return g
-
-    # ── Keeper-Text mit Tag-Highlighting ───────────────────────────────────────
+    # ── Keeper-Text mit Tag-Highlighting ─────────────────────────────────────
 
     def _update_keeper_text(self, turn: dict) -> None:
         """Zeigt Player-Input + Keeper-Response mit Tag-Highlighting."""
@@ -470,15 +450,12 @@ class ReplayViewerTab(ttk.Frame):
         turn_num = turn.get("turn", 0)
         latency = turn.get("latency_ms", 0)
 
-        # Header
         self._keeper_text.insert(tk.END, f"Zug {turn_num}", "player")
         self._keeper_text.insert(tk.END, f"  ({latency:.0f}ms)\n", "normal")
 
-        # Player-Input
         if player:
             self._keeper_text.insert(tk.END, f"\u25B6 {player}\n\n", "player")
 
-        # Keeper-Response mit Tag-Highlighting
         if response:
             self._insert_highlighted(response)
 
@@ -489,7 +466,6 @@ class ReplayViewerTab(ttk.Frame):
         parts = _TAG_RE.split(text)
         for part in parts:
             if _TAG_RE.match(part):
-                # Tag-Typ bestimmen
                 tag_type = part.split(":")[0].strip("[")
                 color_name = _TAG_COLORS.get(tag_type)
                 if color_name == RED:
@@ -506,7 +482,7 @@ class ReplayViewerTab(ttk.Frame):
             else:
                 self._keeper_text.insert(tk.END, part, "normal")
 
-    # ── Party-HP-Balken ────────────────────────────────────────────────────────
+    # ── Party-HP-Balken ──────────────────────────────────────────────────────
 
     def _update_party_hp(self, party_hp: dict) -> None:
         """Zeichnet HP-Balken pro Party-Member."""
@@ -533,7 +509,6 @@ class ReplayViewerTab(ttk.Frame):
             ratio = max(0, min(1, hp / max(1, hp_max)))
             bar_w = int(max_bar_w * ratio)
 
-            # Farbe nach HP-Prozent
             if not alive:
                 bar_color = "#6C7086"
             elif ratio > 0.5:
@@ -546,24 +521,20 @@ class ReplayViewerTab(ttk.Frame):
             sym = _CLS.get(archetype.lower(), "?")
             label = f"{sym} {name}"
 
-            # Label
             self._hp_canvas.create_text(
                 4, y + bar_h // 2, text=label, fill=FG_PRIMARY,
                 font=FONT_SMALL, anchor=tk.W,
             )
-            # Bar-Hintergrund
             bx = 130
             self._hp_canvas.create_rectangle(
                 bx, y, bx + max_bar_w, y + bar_h,
                 fill=BG_INPUT, outline="",
             )
-            # Bar-Fuellung
             if bar_w > 0:
                 self._hp_canvas.create_rectangle(
                     bx, y, bx + bar_w, y + bar_h,
                     fill=bar_color, outline="",
                 )
-            # HP-Text
             hp_text = "TOT" if not alive else f"{hp}/{hp_max}"
             self._hp_canvas.create_text(
                 bx + max_bar_w + 8, y + bar_h // 2, text=hp_text,
@@ -572,11 +543,10 @@ class ReplayViewerTab(ttk.Frame):
 
             y += bar_h + spacing
 
-        # Canvas-Hoehe anpassen
         total_h = max(80, y + 4)
         self._hp_canvas.configure(height=total_h)
 
-    # ── Event-Handler (No-Op fuer Live-Engine) ─────────────────────────────────
+    # ── Event-Handler (No-Op fuer Live-Engine) ───────────────────────────────
 
     def handle_event(self, data: dict[str, Any]) -> None:
         """Kein Live-Engine-Bedarf — No-Op."""

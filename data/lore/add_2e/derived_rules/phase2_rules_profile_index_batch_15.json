@@ -1,0 +1,3732 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_profile_index",
+  "tags": [
+    "add_2e",
+    "rules_profile",
+    "batch_15"
+  ],
+  "summary": "Volltext-basierte Regelprofil-Ableitung inkl. Fallback fuer alle vorhandenen pages.jsonl-Dateien.",
+  "source_text": {
+    "scope": "all_pages_jsonl_files",
+    "books_processed": 142,
+    "timestamp": "2026-03-02T12:30:00"
+  },
+  "mechanics": {
+    "profiles_generated": 142,
+    "phase2_chunks_generated": 2251,
+    "coverage_by_field": {
+      "alignment": 110,
+      "attribute_bonuses": 105,
+      "characteristics": 110,
+      "classes": 113,
+      "combat": 111,
+      "conditions": 110,
+      "economy": 110,
+      "encumbrance": 62,
+      "experience": 109,
+      "extensions": 132,
+      "healing": 110,
+      "henchmen_hirelings": 48,
+      "magic": 114,
+      "movement": 102,
+      "races": 111,
+      "saving_throws": 110,
+      "senses": 111,
+      "skills": 110,
+      "time": 110,
+      "travel": 112
+    },
+    "entries": [
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - DMGR3 - Arms and Equipment Guide_text.pdf",
+        "slug": "dmgr3_arms_equipment_guide",
+        "profile_file": "data/lore/add_2e/derived_rules/dmgr3_arms_equipment_guide_rules_profile.json",
+        "detected_fields": [
+          "combat",
+          "economy",
+          "classes",
+          "senses",
+          "time",
+          "alignment",
+          "saving_throws",
+          "attribute_bonuses",
+          "characteristics",
+          "races",
+          "conditions",
+          "skills",
+          "movement",
+          "magic",
+          "experience",
+          "healing",
+          "travel",
+          "encumbrance",
+          "extensions"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Monstrous Compendium Volume 1.pdf",
+        "slug": "monstrous_compendium_vol1",
+        "profile_file": "data/lore/add_2e/derived_rules/monstrous_compendium_vol1_rules_profile.json",
+        "detected_fields": [
+          "combat",
+          "alignment",
+          "classes",
+          "saving_throws",
+          "time",
+          "characteristics",
+          "experience",
+          "magic",
+          "movement",
+          "conditions",
+          "senses",
+          "healing",
+          "travel",
+          "races",
+          "attribute_bonuses",
+          "economy",
+          "extensions",
+          "skills",
+          "encumbrance",
+          "henchmen_hirelings"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "player_handbook_2e.pdf",
+        "slug": "player_handbook_2e",
+        "profile_file": "data/lore/add_2e/derived_rules/player_handbook_2e_rules_profile.json",
+        "detected_fields": [
+          "magic",
+          "saving_throws",
+          "classes",
+          "time",
+          "combat",
+          "characteristics",
+          "alignment",
+          "skills",
+          "attribute_bonuses",
+          "senses",
+          "experience",
+          "economy",
+          "races",
+          "healing",
+          "movement",
+          "conditions",
+          "travel",
+          "henchmen_hirelings",
+          "encumbrance",
+          "extensions"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "combat",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "Player s Handbook (2nd Edition) 2101.pdf",
+        "slug": "player_s_handbook_2nd_edition_2101",
+        "profile_file": "data/lore/add_2e/derived_rules/player_s_handbook_2nd_edition_2101_rules_profile.json",
+        "detected_fields": [
+          "magic",
+          "saving_throws",
+          "classes",
+          "time",
+          "combat",
+          "characteristics",
+          "alignment",
+          "skills",
+          "attribute_bonuses",
+          "senses",
+          "experience",
+          "economy",
+          "races",
+          "healing",
+          "movement",
+          "conditions",
+          "travel",
+          "henchmen_hirelings",
+          "encumbrance",
+          "extensions"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "combat",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Book of Artifacts.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_book_of_artifacts",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_book_of_artifacts_rules_profile.json",
+        "detected_fields": [
+          "saving_throws",
+          "alignment",
+          "extensions",
+          "magic",
+          "classes",
+          "time",
+          "combat",
+          "healing",
+          "economy",
+          "characteristics",
+          "conditions",
+          "senses",
+          "attribute_bonuses",
+          "skills",
+          "races",
+          "travel",
+          "experience",
+          "movement",
+          "henchmen_hirelings"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "combat",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - DMGR1 - Campaign Sourcebook and Catacomb Guide.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dmgr1_campaign_sourcebook_and_catacomb_guide",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dmgr1_campaign_sourcebook_and_catacomb_guide_rules_profile.json",
+        "detected_fields": [
+          "time",
+          "alignment",
+          "travel",
+          "classes",
+          "combat",
+          "senses",
+          "saving_throws",
+          "healing",
+          "magic",
+          "economy",
+          "experience",
+          "races",
+          "skills",
+          "conditions",
+          "characteristics",
+          "extensions",
+          "movement",
+          "encumbrance",
+          "henchmen_hirelings"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - DMGR2 - Castle Guide.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dmgr2_castle_guide",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dmgr2_castle_guide_rules_profile.json",
+        "detected_fields": [
+          "time",
+          "classes",
+          "extensions",
+          "economy",
+          "alignment",
+          "combat",
+          "saving_throws",
+          "races",
+          "magic",
+          "skills",
+          "conditions",
+          "healing",
+          "attribute_bonuses",
+          "senses",
+          "experience",
+          "encumbrance",
+          "movement",
+          "characteristics",
+          "travel"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - DMGR3 - Arms and Equipment Guide.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dmgr3_arms_and_equipment_guide",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dmgr3_arms_and_equipment_guide_rules_profile.json",
+        "detected_fields": [
+          "economy"
+        ],
+        "top_priority_fields": []
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - DMGR3 - Arms and Equipment Guide_text.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dmgr3_arms_and_equipment_guide_text",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dmgr3_arms_and_equipment_guide_text_rules_profile.json",
+        "detected_fields": [
+          "combat",
+          "economy",
+          "classes",
+          "senses",
+          "time",
+          "alignment",
+          "saving_throws",
+          "attribute_bonuses",
+          "characteristics",
+          "races",
+          "conditions",
+          "skills",
+          "movement",
+          "magic",
+          "experience",
+          "healing",
+          "travel",
+          "encumbrance",
+          "extensions"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - DMGR4 - Monster Mythology.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dmgr4_monster_mythology",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dmgr4_monster_mythology_rules_profile.json",
+        "detected_fields": [
+          "extensions"
+        ],
+        "top_priority_fields": []
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - DMGR4 - Monster Mythology_text.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dmgr4_monster_mythology_text",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dmgr4_monster_mythology_text_rules_profile.json",
+        "detected_fields": [
+          "classes",
+          "alignment",
+          "combat",
+          "races",
+          "saving_throws",
+          "time",
+          "healing",
+          "characteristics",
+          "magic",
+          "senses",
+          "economy",
+          "conditions",
+          "skills",
+          "attribute_bonuses",
+          "experience",
+          "travel",
+          "movement",
+          "extensions",
+          "henchmen_hirelings"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - DMGR5 - Creative Campaigning.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dmgr5_creative_campaigning",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dmgr5_creative_campaigning_rules_profile.json",
+        "detected_fields": [
+          "travel"
+        ],
+        "top_priority_fields": []
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - DMGR5 - Creative Campaigning_text.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dmgr5_creative_campaigning_text",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dmgr5_creative_campaigning_text_rules_profile.json",
+        "detected_fields": [
+          "alignment",
+          "classes",
+          "time",
+          "combat",
+          "saving_throws",
+          "characteristics",
+          "races",
+          "travel",
+          "magic",
+          "extensions",
+          "experience",
+          "economy",
+          "healing",
+          "skills",
+          "conditions",
+          "senses",
+          "attribute_bonuses",
+          "encumbrance",
+          "movement"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - DMGR6 - The Complete Book of Villains.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dmgr6_the_complete_book_of_villains",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dmgr6_the_complete_book_of_villains_rules_profile.json",
+        "detected_fields": [
+          "alignment",
+          "classes",
+          "time",
+          "characteristics",
+          "travel",
+          "magic",
+          "healing",
+          "combat",
+          "economy",
+          "races",
+          "saving_throws",
+          "extensions",
+          "experience",
+          "skills",
+          "henchmen_hirelings",
+          "senses",
+          "conditions",
+          "attribute_bonuses",
+          "movement"
+        ],
+        "top_priority_fields": [
+          "healing",
+          "combat",
+          "saving_throws"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - DMGR7 - The Complete Book of Necromancers.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dmgr7_the_complete_book_of_necromancers",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dmgr7_the_complete_book_of_necromancers_rules_profile.json",
+        "detected_fields": [
+          "magic"
+        ],
+        "top_priority_fields": []
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - DMGR7 - The Complete Book of Necromancers_text.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dmgr7_the_complete_book_of_necromancers_text",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dmgr7_the_complete_book_of_necromancers_text_rules_profile.json",
+        "detected_fields": [
+          "saving_throws",
+          "magic",
+          "classes",
+          "healing",
+          "alignment",
+          "time",
+          "combat",
+          "skills",
+          "experience",
+          "characteristics",
+          "conditions",
+          "economy",
+          "senses",
+          "attribute_bonuses",
+          "extensions",
+          "travel",
+          "henchmen_hirelings",
+          "movement",
+          "races",
+          "encumbrance"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "healing",
+          "combat"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - DMGR8 - Sages and Specialists.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dmgr8_sages_and_specialists",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dmgr8_sages_and_specialists_rules_profile.json",
+        "detected_fields": [
+          "skills",
+          "time",
+          "economy",
+          "experience",
+          "saving_throws",
+          "attribute_bonuses",
+          "classes",
+          "magic",
+          "characteristics",
+          "combat",
+          "alignment",
+          "healing",
+          "conditions",
+          "races",
+          "travel",
+          "extensions",
+          "movement",
+          "senses",
+          "henchmen_hirelings"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "combat",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - DMGR9 - Of Ships And Sea.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dmgr9_of_ships_and_sea",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dmgr9_of_ships_and_sea_rules_profile.json",
+        "detected_fields": [
+          "travel"
+        ],
+        "top_priority_fields": []
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - DMGR9 - Of Ships And Sea_text.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dmgr9_of_ships_and_sea_text",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dmgr9_of_ships_and_sea_text_rules_profile.json",
+        "detected_fields": [
+          "combat",
+          "extensions",
+          "saving_throws",
+          "magic",
+          "time",
+          "attribute_bonuses",
+          "movement",
+          "classes",
+          "travel",
+          "senses",
+          "characteristics",
+          "skills",
+          "economy",
+          "experience",
+          "conditions",
+          "races",
+          "alignment",
+          "healing",
+          "encumbrance"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ A Saga Companion.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_a_saga_companion",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_a_saga_companion_rules_profile.json",
+        "detected_fields": [
+          "extensions"
+        ],
+        "top_priority_fields": []
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ A Saga Companion_text.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_a_saga_companion_text",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_a_saga_companion_text_rules_profile.json",
+        "detected_fields": [
+          "magic",
+          "saving_throws",
+          "combat",
+          "races",
+          "time",
+          "attribute_bonuses",
+          "alignment",
+          "skills",
+          "economy",
+          "characteristics",
+          "travel",
+          "classes",
+          "experience",
+          "senses",
+          "healing",
+          "conditions",
+          "extensions",
+          "movement"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "combat",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Battle Lines Adventure 1 - The Sylvan Veil.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_battle_lines_adventure_1_the_sylvan_veil",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_battle_lines_adventure_1_the_sylvan_veil_rules_profile.json",
+        "detected_fields": [
+          "combat",
+          "extensions"
+        ],
+        "top_priority_fields": [
+          "combat"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Battle Lines Adventure 1 - The Sylvan Veil_text.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_battle_lines_adventure_1_the_sylvan_veil_text",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_battle_lines_adventure_1_the_sylvan_veil_text_rules_profile.json",
+        "detected_fields": [
+          "races",
+          "combat",
+          "time",
+          "characteristics",
+          "attribute_bonuses",
+          "saving_throws",
+          "travel",
+          "classes",
+          "senses",
+          "alignment",
+          "healing",
+          "magic",
+          "experience",
+          "skills",
+          "conditions",
+          "economy",
+          "extensions",
+          "movement"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Battle Lines Adventure 2 - Rise of the Titans.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_battle_lines_adventure_2_rise_of_the_titans",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_battle_lines_adventure_2_rise_of_the_titans_rules_profile.json",
+        "detected_fields": [
+          "combat",
+          "extensions"
+        ],
+        "top_priority_fields": [
+          "combat"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Battle Lines Adventure 2 - Rise of the Titans_text.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_battle_lines_adventure_2_rise_of_the_titans_text",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_battle_lines_adventure_2_rise_of_the_titans_text_rules_profile.json",
+        "detected_fields": [
+          "combat",
+          "time",
+          "characteristics",
+          "travel",
+          "saving_throws",
+          "attribute_bonuses",
+          "magic",
+          "experience",
+          "alignment",
+          "classes",
+          "races",
+          "senses",
+          "extensions",
+          "skills",
+          "conditions",
+          "healing",
+          "economy"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Book Of Lairs.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_book_of_lairs",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_book_of_lairs_rules_profile.json",
+        "detected_fields": [
+          "experience",
+          "combat",
+          "saving_throws",
+          "time",
+          "economy",
+          "classes",
+          "magic",
+          "senses",
+          "races",
+          "attribute_bonuses",
+          "conditions",
+          "alignment",
+          "healing",
+          "extensions",
+          "characteristics",
+          "travel",
+          "skills",
+          "movement",
+          "encumbrance"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Chaos Spawn.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_chaos_spawn",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_chaos_spawn_rules_profile.json",
+        "detected_fields": [
+          "extensions"
+        ],
+        "top_priority_fields": []
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Chaos Spawn_text.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_chaos_spawn_text",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_chaos_spawn_text_rules_profile.json",
+        "detected_fields": [
+          "combat",
+          "saving_throws",
+          "alignment",
+          "classes",
+          "time",
+          "senses",
+          "experience",
+          "magic",
+          "conditions",
+          "healing",
+          "characteristics",
+          "movement",
+          "economy",
+          "attribute_bonuses",
+          "travel",
+          "races",
+          "skills",
+          "extensions"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Citadel of Light.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_citadel_of_light",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_citadel_of_light_rules_profile.json",
+        "detected_fields": [
+          "extensions",
+          "senses"
+        ],
+        "top_priority_fields": []
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Citadel of Light_text.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_citadel_of_light_text",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_citadel_of_light_text_rules_profile.json",
+        "detected_fields": [
+          "senses",
+          "time",
+          "magic",
+          "alignment",
+          "experience",
+          "healing",
+          "combat",
+          "characteristics",
+          "races",
+          "saving_throws",
+          "travel",
+          "extensions",
+          "attribute_bonuses",
+          "economy",
+          "skills",
+          "classes",
+          "conditions",
+          "movement"
+        ],
+        "top_priority_fields": [
+          "healing",
+          "combat",
+          "saving_throws"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Classics 15th Anniversary Edition.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_classics_15th_anniversary_edition",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_classics_15th_anniversary_edition_rules_profile.json",
+        "detected_fields": [
+          "travel",
+          "alignment",
+          "time",
+          "saving_throws",
+          "races",
+          "senses",
+          "combat",
+          "classes",
+          "healing",
+          "characteristics",
+          "magic",
+          "extensions",
+          "attribute_bonuses",
+          "conditions",
+          "economy",
+          "experience",
+          "skills",
+          "movement",
+          "encumbrance",
+          "henchmen_hirelings"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "combat",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLA1 - Dragon Dawn.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_dla1_dragon_dawn",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_dla1_dragon_dawn_rules_profile.json",
+        "detected_fields": [
+          "saving_throws",
+          "time",
+          "classes",
+          "combat",
+          "magic",
+          "skills",
+          "travel",
+          "alignment",
+          "senses",
+          "races",
+          "experience",
+          "healing",
+          "characteristics",
+          "attribute_bonuses",
+          "conditions",
+          "economy",
+          "movement",
+          "extensions"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "combat",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLA2 - Dragon Knight.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_dla2_dragon_knight",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_dla2_dragon_knight_rules_profile.json",
+        "detected_fields": [
+          "travel",
+          "combat",
+          "saving_throws",
+          "time",
+          "economy",
+          "alignment",
+          "classes",
+          "races",
+          "attribute_bonuses",
+          "characteristics",
+          "healing",
+          "skills",
+          "magic",
+          "conditions",
+          "senses",
+          "experience",
+          "movement",
+          "extensions"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLA3 - Dragons Rest.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_dla3_dragons_rest",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_dla3_dragons_rest_rules_profile.json",
+        "detected_fields": [
+          "combat",
+          "time",
+          "saving_throws",
+          "alignment",
+          "senses",
+          "magic",
+          "characteristics",
+          "travel",
+          "classes",
+          "races",
+          "conditions",
+          "healing",
+          "attribute_bonuses",
+          "experience",
+          "skills",
+          "movement",
+          "economy"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLC1 - Classics Volume 1.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_dlc1_classics_volume_1",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_dlc1_classics_volume_1_rules_profile.json",
+        "detected_fields": [
+          "time",
+          "saving_throws",
+          "travel",
+          "senses",
+          "alignment",
+          "combat",
+          "economy",
+          "races",
+          "characteristics",
+          "classes",
+          "healing",
+          "magic",
+          "conditions",
+          "attribute_bonuses",
+          "movement",
+          "skills",
+          "extensions",
+          "experience",
+          "encumbrance"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "combat",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLC2 - Classics Volume 2.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_dlc2_classics_volume_2",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_dlc2_classics_volume_2_rules_profile.json",
+        "detected_fields": [
+          "alignment",
+          "travel",
+          "combat",
+          "time",
+          "characteristics",
+          "classes",
+          "extensions",
+          "senses",
+          "races",
+          "saving_throws",
+          "healing",
+          "movement",
+          "magic",
+          "economy",
+          "conditions",
+          "attribute_bonuses",
+          "skills",
+          "experience",
+          "encumbrance",
+          "henchmen_hirelings"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLC3 - Classics Volume 3.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_dlc3_classics_volume_3",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_dlc3_classics_volume_3_rules_profile.json",
+        "detected_fields": [
+          "combat",
+          "time",
+          "travel",
+          "characteristics",
+          "alignment",
+          "senses",
+          "classes",
+          "saving_throws",
+          "extensions",
+          "races",
+          "attribute_bonuses",
+          "healing",
+          "magic",
+          "movement",
+          "conditions",
+          "economy",
+          "skills",
+          "experience",
+          "encumbrance"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLE1 - In Search of Dragons.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_dle1_in_search_of_dragons",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_dle1_in_search_of_dragons_rules_profile.json",
+        "detected_fields": [
+          "travel",
+          "alignment",
+          "combat",
+          "saving_throws",
+          "time",
+          "characteristics",
+          "economy",
+          "races",
+          "senses",
+          "attribute_bonuses",
+          "conditions",
+          "classes",
+          "healing",
+          "magic",
+          "movement",
+          "extensions",
+          "skills",
+          "experience"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLE2 - Dragon Magic.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_dle2_dragon_magic",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_dle2_dragon_magic_rules_profile.json",
+        "detected_fields": [
+          "alignment",
+          "time",
+          "combat",
+          "saving_throws",
+          "senses",
+          "characteristics",
+          "healing",
+          "travel",
+          "classes",
+          "attribute_bonuses",
+          "experience",
+          "movement",
+          "economy",
+          "magic",
+          "conditions",
+          "races",
+          "skills"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLE3 - Dragon Keep.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_dle3_dragon_keep",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_dle3_dragon_keep_rules_profile.json",
+        "detected_fields": [
+          "alignment",
+          "combat",
+          "time",
+          "travel",
+          "characteristics",
+          "saving_throws",
+          "magic",
+          "senses",
+          "healing",
+          "classes",
+          "races",
+          "attribute_bonuses",
+          "conditions",
+          "skills",
+          "economy",
+          "movement",
+          "experience"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLQ1 - Knight's Sword.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_dlq1_knight_s_sword",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_dlq1_knight_s_sword_rules_profile.json",
+        "detected_fields": [
+          "time",
+          "alignment",
+          "classes",
+          "senses",
+          "combat",
+          "experience",
+          "saving_throws",
+          "travel",
+          "characteristics",
+          "economy",
+          "healing",
+          "conditions",
+          "races",
+          "skills",
+          "attribute_bonuses",
+          "magic",
+          "movement",
+          "extensions"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLQ2 - Flints Axe.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_dlq2_flints_axe",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_dlq2_flints_axe_rules_profile.json",
+        "detected_fields": [
+          "alignment",
+          "races",
+          "classes",
+          "time",
+          "combat",
+          "saving_throws",
+          "economy",
+          "travel",
+          "experience",
+          "senses",
+          "healing",
+          "skills",
+          "conditions",
+          "characteristics",
+          "magic",
+          "extensions",
+          "movement",
+          "attribute_bonuses"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLR1 - Otherlands.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_dlr1_otherlands",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_dlr1_otherlands_rules_profile.json",
+        "detected_fields": [
+          "alignment",
+          "classes",
+          "time",
+          "characteristics",
+          "saving_throws",
+          "combat",
+          "magic",
+          "races",
+          "senses",
+          "healing",
+          "extensions",
+          "conditions",
+          "attribute_bonuses",
+          "experience",
+          "skills",
+          "travel",
+          "economy",
+          "movement",
+          "henchmen_hirelings"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "combat",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLR2 - Taladas, The Minotaurs.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_dlr2_taladas_the_minotaurs",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_dlr2_taladas_the_minotaurs_rules_profile.json",
+        "detected_fields": [
+          "alignment",
+          "time",
+          "classes",
+          "economy",
+          "races",
+          "healing",
+          "combat",
+          "saving_throws",
+          "experience",
+          "skills",
+          "magic",
+          "characteristics",
+          "extensions",
+          "conditions",
+          "travel",
+          "attribute_bonuses",
+          "senses",
+          "movement",
+          "encumbrance"
+        ],
+        "top_priority_fields": [
+          "healing",
+          "combat",
+          "saving_throws"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLR3 - Unsung Heroes.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_dlr3_unsung_heroes",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_dlr3_unsung_heroes_rules_profile.json",
+        "detected_fields": [
+          "characteristics",
+          "alignment",
+          "classes",
+          "races",
+          "time",
+          "economy",
+          "combat",
+          "saving_throws",
+          "healing",
+          "senses",
+          "travel",
+          "magic",
+          "extensions",
+          "skills",
+          "conditions",
+          "experience",
+          "attribute_bonuses",
+          "movement",
+          "henchmen_hirelings"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLS1 - New Beginnings.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_dls1_new_beginnings",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_dls1_new_beginnings_rules_profile.json",
+        "detected_fields": [
+          "classes",
+          "time",
+          "alignment",
+          "combat",
+          "races",
+          "saving_throws",
+          "magic",
+          "travel",
+          "economy",
+          "characteristics",
+          "senses",
+          "movement",
+          "experience",
+          "skills",
+          "attribute_bonuses",
+          "conditions",
+          "healing"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLS2 - Tree Lords.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_dls2_tree_lords",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_dls2_tree_lords_rules_profile.json",
+        "detected_fields": [
+          "alignment",
+          "races",
+          "time",
+          "experience",
+          "combat",
+          "classes",
+          "economy",
+          "skills",
+          "senses",
+          "saving_throws",
+          "characteristics",
+          "attribute_bonuses",
+          "healing",
+          "travel",
+          "magic",
+          "conditions",
+          "movement",
+          "extensions"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLS3 - Oak Lords.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_dls3_oak_lords",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_dls3_oak_lords_rules_profile.json",
+        "detected_fields": [
+          "races",
+          "alignment",
+          "time",
+          "classes",
+          "senses",
+          "combat",
+          "economy",
+          "characteristics",
+          "healing",
+          "travel",
+          "saving_throws",
+          "attribute_bonuses",
+          "conditions",
+          "experience",
+          "magic",
+          "extensions",
+          "skills"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "healing",
+          "saving_throws"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLS4 - Wild Elves.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_dls4_wild_elves",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_dls4_wild_elves_rules_profile.json",
+        "detected_fields": [
+          "saving_throws",
+          "alignment",
+          "combat",
+          "travel",
+          "classes",
+          "conditions",
+          "time",
+          "magic",
+          "attribute_bonuses",
+          "skills",
+          "economy",
+          "senses",
+          "races",
+          "characteristics",
+          "healing",
+          "experience",
+          "movement",
+          "extensions"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "combat",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLT1 - New Tales.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_dlt1_new_tales",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_dlt1_new_tales_rules_profile.json",
+        "detected_fields": [
+          "saving_throws",
+          "alignment",
+          "time",
+          "races",
+          "combat",
+          "experience",
+          "classes",
+          "economy",
+          "attribute_bonuses",
+          "senses",
+          "travel",
+          "characteristics",
+          "skills",
+          "conditions",
+          "healing",
+          "magic",
+          "extensions",
+          "encumbrance",
+          "movement"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "combat",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Dwarven Kingdoms of Krynn.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_dwarven_kingdoms_of_krynn",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_dwarven_kingdoms_of_krynn_rules_profile.json",
+        "detected_fields": [
+          "time",
+          "races",
+          "alignment",
+          "senses",
+          "combat",
+          "characteristics",
+          "travel",
+          "economy",
+          "conditions",
+          "extensions",
+          "classes",
+          "movement",
+          "saving_throws",
+          "skills",
+          "experience",
+          "healing",
+          "encumbrance",
+          "attribute_bonuses",
+          "magic"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Fifth Age.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_fifth_age",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_fifth_age_rules_profile.json",
+        "detected_fields": [
+          "extensions"
+        ],
+        "top_priority_fields": []
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Fifth Age_text.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_fifth_age_text",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_fifth_age_text_rules_profile.json",
+        "detected_fields": [
+          "combat",
+          "races",
+          "time",
+          "alignment",
+          "magic",
+          "saving_throws",
+          "characteristics",
+          "senses",
+          "healing",
+          "travel",
+          "economy",
+          "skills",
+          "extensions",
+          "classes",
+          "conditions",
+          "attribute_bonuses",
+          "experience",
+          "movement",
+          "encumbrance",
+          "henchmen_hirelings"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Heroes of Defiance.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_heroes_of_defiance",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_heroes_of_defiance_rules_profile.json",
+        "detected_fields": [
+          "races",
+          "classes",
+          "time",
+          "senses",
+          "attribute_bonuses",
+          "combat",
+          "alignment",
+          "characteristics",
+          "healing",
+          "extensions",
+          "economy",
+          "travel",
+          "skills",
+          "conditions",
+          "experience",
+          "saving_throws",
+          "magic",
+          "encumbrance",
+          "henchmen_hirelings"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "healing",
+          "saving_throws"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Heroes of Hope.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_heroes_of_hope",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_heroes_of_hope_rules_profile.json",
+        "detected_fields": [
+          "magic",
+          "races",
+          "alignment",
+          "time",
+          "saving_throws",
+          "healing",
+          "senses",
+          "combat",
+          "attribute_bonuses",
+          "experience",
+          "skills",
+          "economy",
+          "characteristics",
+          "extensions",
+          "travel",
+          "classes",
+          "henchmen_hirelings",
+          "conditions",
+          "movement"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "healing",
+          "combat"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Heroes of Sorcery.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_heroes_of_sorcery",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_heroes_of_sorcery_rules_profile.json",
+        "detected_fields": [
+          "extensions"
+        ],
+        "top_priority_fields": []
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Heroes of Sorcery_text.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_heroes_of_sorcery_text",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_heroes_of_sorcery_text_rules_profile.json",
+        "detected_fields": [
+          "magic",
+          "saving_throws",
+          "time",
+          "combat",
+          "economy",
+          "attribute_bonuses",
+          "classes",
+          "skills",
+          "races",
+          "alignment",
+          "travel",
+          "healing",
+          "senses",
+          "characteristics",
+          "experience",
+          "extensions",
+          "conditions",
+          "movement",
+          "encumbrance"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "combat",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Heroes of Steel.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_heroes_of_steel",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_heroes_of_steel_rules_profile.json",
+        "detected_fields": [
+          "combat",
+          "characteristics",
+          "attribute_bonuses",
+          "races",
+          "time",
+          "extensions",
+          "senses",
+          "travel",
+          "alignment",
+          "healing",
+          "economy",
+          "saving_throws",
+          "magic",
+          "experience",
+          "conditions",
+          "skills",
+          "classes",
+          "movement"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "healing",
+          "saving_throws"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ History of Dragonlance.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_history_of_dragonlance",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_history_of_dragonlance_rules_profile.json",
+        "detected_fields": [
+          "extensions"
+        ],
+        "top_priority_fields": []
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ History of Dragonlance_text.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_history_of_dragonlance_text",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_history_of_dragonlance_text_rules_profile.json",
+        "detected_fields": [
+          "time",
+          "races",
+          "senses",
+          "alignment",
+          "extensions",
+          "classes",
+          "saving_throws",
+          "travel",
+          "characteristics",
+          "healing",
+          "combat",
+          "conditions",
+          "skills",
+          "economy",
+          "magic",
+          "experience",
+          "movement",
+          "encumbrance"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "healing",
+          "combat"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ More Leaves from the Inn of the Last Home.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_more_leaves_from_the_inn_of_the_last_home",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_more_leaves_from_the_inn_of_the_last_home_rules_profile.json",
+        "detected_fields": [
+          "extensions"
+        ],
+        "top_priority_fields": []
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ More Leaves from the Inn of the Last Home_text.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_more_leaves_from_the_inn_of_the_last_home_text",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_more_leaves_from_the_inn_of_the_last_home_text_rules_profile.json",
+        "detected_fields": [
+          "time",
+          "races",
+          "senses",
+          "alignment",
+          "classes",
+          "saving_throws",
+          "skills",
+          "characteristics",
+          "conditions",
+          "extensions",
+          "travel",
+          "healing",
+          "economy",
+          "magic",
+          "movement",
+          "combat",
+          "experience",
+          "encumbrance",
+          "henchmen_hirelings"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "healing",
+          "combat"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Palanthas.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_palanthas",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_palanthas_rules_profile.json",
+        "detected_fields": [
+          "extensions"
+        ],
+        "top_priority_fields": []
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Palanthas_text.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_palanthas_text",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_palanthas_text_rules_profile.json",
+        "detected_fields": [
+          "time",
+          "alignment",
+          "extensions",
+          "races",
+          "classes",
+          "economy",
+          "senses",
+          "skills",
+          "healing",
+          "travel",
+          "magic",
+          "characteristics",
+          "conditions",
+          "saving_throws",
+          "experience",
+          "combat",
+          "attribute_bonuses"
+        ],
+        "top_priority_fields": [
+          "healing",
+          "saving_throws",
+          "combat"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Player's Guide to the Dragonlance Campaign.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_player_s_guide_to_the_dragonlance_campaign",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_player_s_guide_to_the_dragonlance_campaign_rules_profile.json",
+        "detected_fields": [
+          "alignment",
+          "time",
+          "races",
+          "senses",
+          "classes",
+          "saving_throws",
+          "magic",
+          "extensions",
+          "healing",
+          "characteristics",
+          "skills",
+          "conditions",
+          "combat",
+          "travel",
+          "economy",
+          "experience",
+          "encumbrance",
+          "attribute_bonuses",
+          "henchmen_hirelings"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "healing",
+          "combat"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Seeds of Chaos.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_seeds_of_chaos",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_seeds_of_chaos_rules_profile.json",
+        "detected_fields": [
+          "extensions"
+        ],
+        "top_priority_fields": []
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Seeds of Chaos_text.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_seeds_of_chaos_text",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_seeds_of_chaos_text_rules_profile.json",
+        "detected_fields": [
+          "combat",
+          "classes",
+          "time",
+          "alignment",
+          "experience",
+          "senses",
+          "saving_throws",
+          "travel",
+          "characteristics",
+          "healing",
+          "economy",
+          "movement",
+          "extensions",
+          "magic",
+          "attribute_bonuses",
+          "conditions",
+          "skills",
+          "races"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Tales of the Lance.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_tales_of_the_lance",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_tales_of_the_lance_rules_profile.json",
+        "detected_fields": [
+          "alignment",
+          "classes",
+          "saving_throws",
+          "combat",
+          "time",
+          "races",
+          "economy",
+          "senses",
+          "characteristics",
+          "healing",
+          "conditions",
+          "skills",
+          "attribute_bonuses",
+          "magic",
+          "experience",
+          "travel",
+          "extensions",
+          "movement",
+          "encumbrance",
+          "henchmen_hirelings"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "combat",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ The Art of the Dragonlance Saga.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_the_art_of_the_dragonlance_saga",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_the_art_of_the_dragonlance_saga_rules_profile.json",
+        "detected_fields": [
+          "races",
+          "alignment",
+          "classes",
+          "time",
+          "senses",
+          "saving_throws",
+          "healing",
+          "characteristics",
+          "conditions",
+          "magic",
+          "extensions"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ The Bestiary.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_the_bestiary",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_the_bestiary_rules_profile.json",
+        "detected_fields": [
+          "combat",
+          "time",
+          "saving_throws",
+          "conditions",
+          "healing",
+          "alignment",
+          "senses",
+          "races",
+          "characteristics",
+          "magic",
+          "travel",
+          "classes",
+          "skills",
+          "experience",
+          "extensions",
+          "economy",
+          "attribute_bonuses",
+          "movement",
+          "encumbrance"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ The Last Tower - Legacy of Raistlin.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_the_last_tower_legacy_of_raistlin",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_the_last_tower_legacy_of_raistlin_rules_profile.json",
+        "detected_fields": [
+          "saving_throws",
+          "combat",
+          "magic",
+          "time",
+          "senses",
+          "attribute_bonuses",
+          "races",
+          "classes",
+          "healing",
+          "characteristics",
+          "economy",
+          "alignment",
+          "travel",
+          "extensions",
+          "conditions",
+          "skills",
+          "movement",
+          "experience",
+          "encumbrance"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "combat",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Time of the Dragon Boxset.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_time_of_the_dragon_boxset",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_time_of_the_dragon_boxset_rules_profile.json",
+        "detected_fields": [
+          "saving_throws",
+          "races",
+          "alignment",
+          "time",
+          "classes",
+          "magic",
+          "combat",
+          "senses",
+          "attribute_bonuses",
+          "economy",
+          "healing",
+          "characteristics",
+          "conditions",
+          "skills",
+          "movement",
+          "experience",
+          "extensions",
+          "travel",
+          "encumbrance"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "combat",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ TM3 - World of Krynn Trail Map.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_tm3_world_of_krynn_trail_map",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_tm3_world_of_krynn_trail_map_rules_profile.json",
+        "detected_fields": [
+          "extensions",
+          "travel"
+        ],
+        "top_priority_fields": []
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ TM3 - World of Krynn Trail Map_text.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_tm3_world_of_krynn_trail_map_text",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_tm3_world_of_krynn_trail_map_text_rules_profile.json",
+        "detected_fields": [
+          "extensions"
+        ],
+        "top_priority_fields": []
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Wings of Fury.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_wings_of_fury",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_wings_of_fury_rules_profile.json",
+        "detected_fields": [
+          "extensions"
+        ],
+        "top_priority_fields": []
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Wings of Fury_text.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dragonlance_wings_of_fury_text",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dragonlance_wings_of_fury_text_rules_profile.json",
+        "detected_fields": [
+          "time",
+          "combat",
+          "alignment",
+          "races",
+          "senses",
+          "characteristics",
+          "healing",
+          "extensions",
+          "travel",
+          "saving_throws",
+          "conditions",
+          "magic",
+          "classes",
+          "attribute_bonuses",
+          "experience",
+          "skills",
+          "economy",
+          "movement",
+          "encumbrance"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "healing",
+          "saving_throws"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dungeon Builder's Guidebook.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dungeon_builder_s_guidebook",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dungeon_builder_s_guidebook_rules_profile.json",
+        "detected_fields": [
+          "time",
+          "combat",
+          "senses",
+          "races",
+          "travel",
+          "alignment",
+          "saving_throws",
+          "economy",
+          "experience",
+          "extensions",
+          "attribute_bonuses",
+          "conditions",
+          "skills",
+          "magic",
+          "characteristics",
+          "classes",
+          "healing",
+          "movement"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Dungeon Master Option - High-Level Campaigns.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_dungeon_master_option_high_level_campaigns",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_dungeon_master_option_high_level_campaigns_rules_profile.json",
+        "detected_fields": [
+          "saving_throws",
+          "magic",
+          "classes",
+          "combat",
+          "time",
+          "skills",
+          "economy",
+          "characteristics",
+          "attribute_bonuses",
+          "healing",
+          "alignment",
+          "travel",
+          "senses",
+          "movement",
+          "experience",
+          "conditions",
+          "races",
+          "extensions",
+          "henchmen_hirelings",
+          "encumbrance"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "combat",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Encyclopedia Magica Volume 1.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_encyclopedia_magica_volume_1",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_encyclopedia_magica_volume_1_rules_profile.json",
+        "detected_fields": [
+          "economy",
+          "saving_throws",
+          "experience",
+          "combat",
+          "magic",
+          "time",
+          "classes",
+          "alignment",
+          "characteristics",
+          "attribute_bonuses",
+          "senses",
+          "extensions",
+          "healing",
+          "conditions",
+          "races",
+          "travel",
+          "skills",
+          "movement",
+          "encumbrance",
+          "henchmen_hirelings"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "combat",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Encyclopedia Magica Volume 2.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_encyclopedia_magica_volume_2",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_encyclopedia_magica_volume_2_rules_profile.json",
+        "detected_fields": [
+          "economy",
+          "saving_throws",
+          "experience",
+          "magic",
+          "combat",
+          "time",
+          "classes",
+          "alignment",
+          "characteristics",
+          "senses",
+          "extensions",
+          "attribute_bonuses",
+          "conditions",
+          "healing",
+          "skills",
+          "races",
+          "travel",
+          "movement",
+          "encumbrance",
+          "henchmen_hirelings"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "combat",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Encyclopedia Magica Volume 3.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_encyclopedia_magica_volume_3",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_encyclopedia_magica_volume_3_rules_profile.json",
+        "detected_fields": [
+          "saving_throws",
+          "economy",
+          "experience",
+          "magic",
+          "time",
+          "alignment",
+          "classes",
+          "combat",
+          "races",
+          "conditions",
+          "attribute_bonuses",
+          "extensions",
+          "senses",
+          "healing",
+          "skills",
+          "characteristics",
+          "encumbrance",
+          "travel"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "combat",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Encyclopedia Magica Volume 4.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_encyclopedia_magica_volume_4",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_encyclopedia_magica_volume_4_rules_profile.json",
+        "detected_fields": [
+          "saving_throws",
+          "magic",
+          "alignment",
+          "combat",
+          "time",
+          "classes",
+          "economy",
+          "experience",
+          "attribute_bonuses",
+          "senses",
+          "characteristics",
+          "healing",
+          "conditions",
+          "extensions",
+          "races",
+          "skills",
+          "travel",
+          "movement",
+          "encumbrance",
+          "henchmen_hirelings"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "combat",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - HR1 - Vikings Campaign.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_hr1_vikings_campaign",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_hr1_vikings_campaign_rules_profile.json",
+        "detected_fields": [
+          "time",
+          "alignment",
+          "classes",
+          "combat",
+          "characteristics",
+          "economy",
+          "senses",
+          "saving_throws",
+          "extensions",
+          "skills",
+          "travel",
+          "healing",
+          "races",
+          "attribute_bonuses",
+          "magic",
+          "experience",
+          "movement",
+          "conditions",
+          "henchmen_hirelings"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - HR2 - Charlemagne's Paladins.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_hr2_charlemagne_s_paladins",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_hr2_charlemagne_s_paladins_rules_profile.json",
+        "detected_fields": [
+          "classes",
+          "alignment",
+          "economy",
+          "time",
+          "senses",
+          "magic",
+          "combat",
+          "healing",
+          "skills",
+          "travel",
+          "saving_throws",
+          "races",
+          "experience",
+          "extensions",
+          "characteristics",
+          "conditions",
+          "attribute_bonuses",
+          "movement",
+          "henchmen_hirelings"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "healing",
+          "saving_throws"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - HR3 - Celts.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_hr3_celts",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_hr3_celts_rules_profile.json",
+        "detected_fields": [
+          "extensions"
+        ],
+        "top_priority_fields": []
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - HR3 - Celts_text.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_hr3_celts_text",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_hr3_celts_text_rules_profile.json",
+        "detected_fields": [
+          "classes",
+          "time",
+          "alignment",
+          "combat",
+          "saving_throws",
+          "characteristics",
+          "magic",
+          "skills",
+          "economy",
+          "attribute_bonuses",
+          "healing",
+          "experience",
+          "races",
+          "conditions",
+          "travel",
+          "senses",
+          "movement",
+          "henchmen_hirelings",
+          "extensions"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - HR4 - A Mighty Fortress.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_hr4_a_mighty_fortress",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_hr4_a_mighty_fortress_rules_profile.json",
+        "detected_fields": [
+          "extensions"
+        ],
+        "top_priority_fields": []
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - HR4 - A Mighty Fortress_text.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_hr4_a_mighty_fortress_text",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_hr4_a_mighty_fortress_text_rules_profile.json",
+        "detected_fields": [
+          "time",
+          "classes",
+          "alignment",
+          "economy",
+          "combat",
+          "skills",
+          "characteristics",
+          "attribute_bonuses",
+          "saving_throws",
+          "magic",
+          "extensions",
+          "healing",
+          "conditions",
+          "senses",
+          "experience",
+          "travel",
+          "henchmen_hirelings",
+          "movement",
+          "races",
+          "encumbrance"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - HR5 - Glory of Rome.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_hr5_glory_of_rome",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_hr5_glory_of_rome_rules_profile.json",
+        "detected_fields": [
+          "classes",
+          "economy",
+          "alignment",
+          "time",
+          "skills",
+          "attribute_bonuses",
+          "saving_throws",
+          "healing",
+          "magic",
+          "combat",
+          "experience",
+          "conditions",
+          "senses",
+          "races",
+          "characteristics",
+          "travel",
+          "extensions",
+          "movement"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "healing",
+          "combat"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - HR6 - Age of Heroes.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_hr6_age_of_heroes",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_hr6_age_of_heroes_rules_profile.json",
+        "detected_fields": [
+          "classes",
+          "economy",
+          "time",
+          "extensions",
+          "skills",
+          "saving_throws",
+          "alignment",
+          "magic",
+          "characteristics",
+          "travel",
+          "combat",
+          "senses",
+          "conditions",
+          "healing",
+          "attribute_bonuses",
+          "experience",
+          "races",
+          "movement"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "combat",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - HR7 - Crusades.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_hr7_crusades",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_hr7_crusades_rules_profile.json",
+        "detected_fields": [
+          "classes",
+          "extensions",
+          "time",
+          "alignment",
+          "magic",
+          "saving_throws",
+          "economy",
+          "travel",
+          "healing",
+          "combat",
+          "characteristics",
+          "senses",
+          "conditions",
+          "skills",
+          "races",
+          "attribute_bonuses",
+          "experience",
+          "movement"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "healing",
+          "combat"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Legends and Lore.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_legends_and_lore",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_legends_and_lore_rules_profile.json",
+        "detected_fields": [
+          "classes",
+          "alignment",
+          "saving_throws",
+          "combat",
+          "time",
+          "magic",
+          "healing",
+          "characteristics",
+          "economy",
+          "senses",
+          "conditions",
+          "experience",
+          "skills",
+          "travel",
+          "attribute_bonuses",
+          "extensions",
+          "races",
+          "movement",
+          "henchmen_hirelings",
+          "encumbrance"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "combat",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Monstrous Compendium - Annual Volume 1.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_annual_volume_1",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_annual_volume_1_rules_profile.json",
+        "detected_fields": [
+          "extensions"
+        ],
+        "top_priority_fields": []
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Monstrous Compendium - Annual Volume 1_text.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_annual_volume_1_text",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_annual_volume_1_text_rules_profile.json",
+        "detected_fields": [
+          "combat",
+          "saving_throws",
+          "alignment",
+          "magic",
+          "time",
+          "classes",
+          "characteristics",
+          "experience",
+          "movement",
+          "attribute_bonuses",
+          "healing",
+          "conditions",
+          "extensions",
+          "senses",
+          "travel",
+          "races",
+          "economy",
+          "skills",
+          "encumbrance"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Monstrous Compendium - Annual Volume 2.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_annual_volume_2",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_annual_volume_2_rules_profile.json",
+        "detected_fields": [
+          "combat",
+          "alignment",
+          "saving_throws",
+          "classes",
+          "time",
+          "characteristics",
+          "magic",
+          "conditions",
+          "movement",
+          "senses",
+          "experience",
+          "healing",
+          "attribute_bonuses",
+          "races",
+          "travel",
+          "economy",
+          "skills",
+          "extensions",
+          "henchmen_hirelings",
+          "encumbrance"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Monstrous Compendium - Annual Volume 3.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_annual_volume_3",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_annual_volume_3_rules_profile.json",
+        "detected_fields": [
+          "combat",
+          "alignment",
+          "saving_throws",
+          "time",
+          "classes",
+          "characteristics",
+          "magic",
+          "experience",
+          "movement",
+          "races",
+          "healing",
+          "conditions",
+          "senses",
+          "attribute_bonuses",
+          "travel",
+          "economy",
+          "extensions",
+          "skills"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Monstrous Compendium - Annual Volume 4.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_annual_volume_4",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_annual_volume_4_rules_profile.json",
+        "detected_fields": [
+          "extensions"
+        ],
+        "top_priority_fields": []
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Monstrous Compendium - Annual Volume 4_text.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_annual_volume_4_text",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_annual_volume_4_text_rules_profile.json",
+        "detected_fields": [
+          "combat",
+          "saving_throws",
+          "alignment",
+          "magic",
+          "time",
+          "characteristics",
+          "classes",
+          "senses",
+          "conditions",
+          "attribute_bonuses",
+          "experience",
+          "movement",
+          "extensions",
+          "healing",
+          "races",
+          "skills",
+          "travel",
+          "economy"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Monstrous Compendium - Fiend Folio Appendix.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_fiend_folio_appendix",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_fiend_folio_appendix_rules_profile.json",
+        "detected_fields": [
+          "extensions"
+        ],
+        "top_priority_fields": []
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Monstrous Compendium - Fiend Folio Appendix_text.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_fiend_folio_appendix_text",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_fiend_folio_appendix_text_rules_profile.json",
+        "detected_fields": [
+          "combat",
+          "alignment",
+          "saving_throws",
+          "time",
+          "classes",
+          "characteristics",
+          "magic",
+          "senses",
+          "experience",
+          "movement",
+          "healing",
+          "conditions",
+          "attribute_bonuses",
+          "travel",
+          "races",
+          "skills",
+          "economy",
+          "extensions"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Monstrous Compendium - Mystara Appendix.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_mystara_appendix",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_mystara_appendix_rules_profile.json",
+        "detected_fields": [
+          "combat",
+          "alignment",
+          "saving_throws",
+          "time",
+          "classes",
+          "magic",
+          "characteristics",
+          "attribute_bonuses",
+          "conditions",
+          "senses",
+          "healing",
+          "movement",
+          "experience",
+          "travel",
+          "races",
+          "skills",
+          "economy",
+          "encumbrance",
+          "extensions",
+          "henchmen_hirelings"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Monstrous Compendium - Outer Planes Appendix.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_outer_planes_appendix",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_outer_planes_appendix_rules_profile.json",
+        "detected_fields": [
+          "extensions"
+        ],
+        "top_priority_fields": []
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Monstrous Compendium - Outer Planes Appendix_text.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_outer_planes_appendix_text",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_outer_planes_appendix_text_rules_profile.json",
+        "detected_fields": [
+          "combat",
+          "alignment",
+          "saving_throws",
+          "time",
+          "magic",
+          "classes",
+          "characteristics",
+          "senses",
+          "experience",
+          "movement",
+          "conditions",
+          "attribute_bonuses",
+          "healing",
+          "travel",
+          "races",
+          "skills",
+          "economy",
+          "extensions"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Monstrous Compendium - Savage Coast Appendix.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_savage_coast_appendix",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_savage_coast_appendix_rules_profile.json",
+        "detected_fields": [
+          "combat",
+          "alignment",
+          "saving_throws",
+          "classes",
+          "time",
+          "characteristics",
+          "attribute_bonuses",
+          "experience",
+          "movement",
+          "magic",
+          "conditions",
+          "senses",
+          "healing",
+          "races",
+          "skills",
+          "travel",
+          "economy",
+          "extensions",
+          "encumbrance"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Monstrous Compendium Volume 1.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_volume_1",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_volume_1_rules_profile.json",
+        "detected_fields": [
+          "extensions"
+        ],
+        "top_priority_fields": []
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Monstrous Compendium Volume 1_text.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_volume_1_text",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_volume_1_text_rules_profile.json",
+        "detected_fields": [
+          "combat",
+          "alignment",
+          "classes",
+          "saving_throws",
+          "time",
+          "characteristics",
+          "magic",
+          "experience",
+          "senses",
+          "conditions",
+          "healing",
+          "races",
+          "travel",
+          "attribute_bonuses",
+          "economy",
+          "extensions",
+          "movement",
+          "skills",
+          "encumbrance",
+          "henchmen_hirelings"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Monstrous Compendium Volume 2.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_volume_2",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_volume_2_rules_profile.json",
+        "detected_fields": [
+          "extensions"
+        ],
+        "top_priority_fields": []
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Monstrous Compendium Volume 2_text.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_volume_2_text",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_monstrous_compendium_volume_2_text_rules_profile.json",
+        "detected_fields": [
+          "combat",
+          "alignment",
+          "classes",
+          "saving_throws",
+          "time",
+          "characteristics",
+          "attribute_bonuses",
+          "magic",
+          "senses",
+          "movement",
+          "experience",
+          "travel",
+          "conditions",
+          "races",
+          "economy",
+          "healing",
+          "extensions",
+          "skills",
+          "henchmen_hirelings"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - PHBR01 - The Complete Fighter's Handbook.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_phbr01_the_complete_fighter_s_handbook",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_phbr01_the_complete_fighter_s_handbook_rules_profile.json",
+        "detected_fields": [
+          "combat",
+          "classes",
+          "economy",
+          "time",
+          "attribute_bonuses",
+          "alignment",
+          "skills",
+          "characteristics",
+          "races",
+          "senses",
+          "saving_throws",
+          "healing",
+          "travel",
+          "conditions",
+          "magic",
+          "extensions",
+          "experience",
+          "movement"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - PHBR02 - The Complete Thief's Handbook.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_phbr02_the_complete_thief_s_handbook",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_phbr02_the_complete_thief_s_handbook_rules_profile.json",
+        "detected_fields": [
+          "classes",
+          "alignment",
+          "skills",
+          "economy",
+          "time",
+          "characteristics",
+          "races",
+          "saving_throws",
+          "combat",
+          "attribute_bonuses",
+          "experience",
+          "conditions",
+          "senses",
+          "travel",
+          "healing",
+          "magic",
+          "extensions",
+          "henchmen_hirelings",
+          "encumbrance",
+          "movement"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "combat",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - PHBR03 - The Complete Priest's Handbook.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_phbr03_the_complete_priest_s_handbook",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_phbr03_the_complete_priest_s_handbook_rules_profile.json",
+        "detected_fields": [
+          "classes",
+          "alignment",
+          "skills",
+          "characteristics",
+          "combat",
+          "healing",
+          "economy",
+          "races",
+          "time",
+          "experience",
+          "magic",
+          "saving_throws",
+          "senses",
+          "attribute_bonuses",
+          "travel",
+          "extensions",
+          "conditions",
+          "henchmen_hirelings"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "healing",
+          "saving_throws"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - PHBR04 - The Complete Wizard's Handbook.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_phbr04_the_complete_wizard_s_handbook",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_phbr04_the_complete_wizard_s_handbook_rules_profile.json",
+        "detected_fields": [
+          "magic",
+          "saving_throws",
+          "classes",
+          "combat",
+          "alignment",
+          "time",
+          "economy",
+          "skills",
+          "attribute_bonuses",
+          "characteristics",
+          "healing",
+          "senses",
+          "experience",
+          "conditions",
+          "races",
+          "movement",
+          "travel",
+          "extensions",
+          "encumbrance"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "combat",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - PHBR05 - The Complete Psionics Handbook.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_phbr05_the_complete_psionics_handbook",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_phbr05_the_complete_psionics_handbook_rules_profile.json",
+        "detected_fields": [
+          "time",
+          "economy",
+          "extensions",
+          "characteristics",
+          "combat",
+          "saving_throws",
+          "classes",
+          "alignment",
+          "senses",
+          "attribute_bonuses",
+          "travel",
+          "magic",
+          "skills",
+          "experience",
+          "healing",
+          "races",
+          "conditions",
+          "movement",
+          "henchmen_hirelings"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - PHBR06 - The Complete Book of Dwarves.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_phbr06_the_complete_book_of_dwarves",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_phbr06_the_complete_book_of_dwarves_rules_profile.json",
+        "detected_fields": [
+          "races",
+          "skills",
+          "alignment",
+          "classes",
+          "economy",
+          "attribute_bonuses",
+          "characteristics",
+          "combat",
+          "time",
+          "senses",
+          "experience",
+          "saving_throws",
+          "healing",
+          "travel",
+          "conditions",
+          "movement",
+          "extensions",
+          "magic",
+          "encumbrance"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - PHBR07 - The Complete Bard's Handbook.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_phbr07_the_complete_bard_s_handbook",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_phbr07_the_complete_bard_s_handbook_rules_profile.json",
+        "detected_fields": [
+          "classes",
+          "saving_throws",
+          "skills",
+          "magic",
+          "time",
+          "combat",
+          "attribute_bonuses",
+          "alignment",
+          "characteristics",
+          "economy",
+          "races",
+          "experience",
+          "travel",
+          "conditions",
+          "healing",
+          "movement",
+          "senses",
+          "extensions",
+          "henchmen_hirelings"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "combat",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - PHBR08 - The Complete Book of Elves.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_phbr08_the_complete_book_of_elves",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_phbr08_the_complete_book_of_elves_rules_profile.json",
+        "detected_fields": [
+          "races",
+          "classes",
+          "time",
+          "attribute_bonuses",
+          "magic",
+          "combat",
+          "characteristics",
+          "saving_throws",
+          "skills",
+          "alignment",
+          "economy",
+          "senses",
+          "healing",
+          "travel",
+          "experience",
+          "movement",
+          "conditions",
+          "extensions",
+          "encumbrance"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - PHBR09 - The Complete Book of Gnomes and Halflings.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_phbr09_the_complete_book_of_gnomes_and_halflings",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_phbr09_the_complete_book_of_gnomes_and_halflings_rules_profile.json",
+        "detected_fields": [
+          "races",
+          "skills",
+          "characteristics",
+          "time",
+          "classes",
+          "attribute_bonuses",
+          "alignment",
+          "combat",
+          "economy",
+          "senses",
+          "travel",
+          "saving_throws",
+          "conditions",
+          "magic",
+          "experience",
+          "extensions",
+          "healing",
+          "movement",
+          "encumbrance"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - PHBR10 - The Complete Book of Humanoids.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_phbr10_the_complete_book_of_humanoids",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_phbr10_the_complete_book_of_humanoids_rules_profile.json",
+        "detected_fields": [
+          "races"
+        ],
+        "top_priority_fields": []
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - PHBR10 - The Complete Book of Humanoids_text.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_phbr10_the_complete_book_of_humanoids_text",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_phbr10_the_complete_book_of_humanoids_text_rules_profile.json",
+        "detected_fields": [
+          "classes",
+          "characteristics",
+          "alignment",
+          "attribute_bonuses",
+          "skills",
+          "races",
+          "combat",
+          "time",
+          "economy",
+          "saving_throws",
+          "travel",
+          "experience",
+          "senses",
+          "healing",
+          "magic",
+          "conditions",
+          "extensions",
+          "movement",
+          "henchmen_hirelings"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - PHBR11 - The Complete Ranger's Handbook.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_phbr11_the_complete_ranger_s_handbook",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_phbr11_the_complete_ranger_s_handbook_rules_profile.json",
+        "detected_fields": [
+          "classes",
+          "henchmen_hirelings",
+          "skills",
+          "magic",
+          "time",
+          "saving_throws",
+          "alignment",
+          "attribute_bonuses",
+          "experience",
+          "combat",
+          "characteristics",
+          "economy",
+          "travel",
+          "races",
+          "healing",
+          "movement",
+          "senses",
+          "extensions",
+          "conditions",
+          "encumbrance"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "combat",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - PHBR12 - The Complete Paladin's Handbook.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_phbr12_the_complete_paladin_s_handbook",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_phbr12_the_complete_paladin_s_handbook_rules_profile.json",
+        "detected_fields": [
+          "classes",
+          "skills"
+        ],
+        "top_priority_fields": []
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - PHBR12 - The Complete Paladin's Handbook_text.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_phbr12_the_complete_paladin_s_handbook_text",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_phbr12_the_complete_paladin_s_handbook_text_rules_profile.json",
+        "detected_fields": [
+          "classes",
+          "alignment",
+          "economy",
+          "attribute_bonuses",
+          "skills",
+          "experience",
+          "time",
+          "saving_throws",
+          "combat",
+          "magic",
+          "characteristics",
+          "healing",
+          "conditions",
+          "senses",
+          "extensions",
+          "travel",
+          "henchmen_hirelings",
+          "races",
+          "movement",
+          "encumbrance"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "combat",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - PHBR13 - The Complete Druid's Handbook.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_phbr13_the_complete_druid_s_handbook",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_phbr13_the_complete_druid_s_handbook_rules_profile.json",
+        "detected_fields": [
+          "classes",
+          "saving_throws",
+          "alignment",
+          "magic",
+          "time",
+          "attribute_bonuses",
+          "economy",
+          "combat",
+          "skills",
+          "experience",
+          "travel",
+          "characteristics",
+          "healing",
+          "extensions",
+          "races",
+          "conditions",
+          "senses",
+          "movement",
+          "henchmen_hirelings"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "combat",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - PHBR14 - The Complete Barbarian's Handbook.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_phbr14_the_complete_barbarian_s_handbook",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_phbr14_the_complete_barbarian_s_handbook_rules_profile.json",
+        "detected_fields": [
+          "classes",
+          "skills",
+          "combat",
+          "alignment",
+          "economy",
+          "time",
+          "attribute_bonuses",
+          "characteristics",
+          "saving_throws",
+          "experience",
+          "magic",
+          "healing",
+          "conditions",
+          "movement",
+          "travel",
+          "senses",
+          "encumbrance",
+          "races",
+          "extensions"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - PHBR15 - The Complete Ninja's Handbook.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_phbr15_the_complete_ninja_s_handbook",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_phbr15_the_complete_ninja_s_handbook_rules_profile.json",
+        "detected_fields": [
+          "combat",
+          "skills",
+          "classes",
+          "saving_throws",
+          "time",
+          "magic",
+          "alignment",
+          "attribute_bonuses",
+          "characteristics",
+          "economy",
+          "experience",
+          "senses",
+          "races",
+          "movement",
+          "conditions",
+          "healing",
+          "travel",
+          "henchmen_hirelings",
+          "extensions"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Player's Option - Combat & Tactics.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_player_s_option_combat_and_tactics",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_player_s_option_combat_and_tactics_rules_profile.json",
+        "detected_fields": [
+          "combat",
+          "time",
+          "attribute_bonuses",
+          "economy",
+          "characteristics",
+          "saving_throws",
+          "classes",
+          "movement",
+          "senses",
+          "skills",
+          "conditions",
+          "magic",
+          "healing",
+          "alignment",
+          "travel",
+          "extensions",
+          "encumbrance",
+          "races",
+          "experience"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Player's Option - Skills & Powers.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_player_s_option_skills_and_powers",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_player_s_option_skills_and_powers_rules_profile.json",
+        "detected_fields": [
+          "classes",
+          "skills",
+          "characteristics",
+          "attribute_bonuses",
+          "economy",
+          "combat",
+          "time",
+          "saving_throws",
+          "magic",
+          "extensions",
+          "races",
+          "senses",
+          "alignment",
+          "experience",
+          "healing",
+          "travel",
+          "movement",
+          "conditions",
+          "encumbrance",
+          "henchmen_hirelings"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Player's Option - Spells & Magic.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_player_s_option_spells_and_magic",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_player_s_option_spells_and_magic_rules_profile.json",
+        "detected_fields": [
+          "magic",
+          "saving_throws",
+          "classes",
+          "time",
+          "economy",
+          "combat",
+          "attribute_bonuses",
+          "characteristics",
+          "conditions",
+          "skills",
+          "alignment",
+          "healing",
+          "senses",
+          "movement",
+          "experience",
+          "races",
+          "extensions",
+          "travel",
+          "encumbrance",
+          "henchmen_hirelings"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "combat",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Priest Spell Compendium Volume 1.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_priest_spell_compendium_volume_1",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_priest_spell_compendium_volume_1_rules_profile.json",
+        "detected_fields": [
+          "magic",
+          "saving_throws",
+          "time",
+          "classes",
+          "combat",
+          "alignment",
+          "attribute_bonuses",
+          "characteristics",
+          "healing",
+          "senses",
+          "races",
+          "economy",
+          "conditions",
+          "experience",
+          "movement",
+          "extensions",
+          "skills",
+          "travel",
+          "henchmen_hirelings",
+          "encumbrance"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "combat",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Priest Spell Compendium Volume 2.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_priest_spell_compendium_volume_2",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_priest_spell_compendium_volume_2_rules_profile.json",
+        "detected_fields": [
+          "classes",
+          "extensions",
+          "magic"
+        ],
+        "top_priority_fields": []
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Priest Spell Compendium Volume 2_text.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_priest_spell_compendium_volume_2_text",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_priest_spell_compendium_volume_2_text_rules_profile.json",
+        "detected_fields": [
+          "magic",
+          "saving_throws",
+          "time",
+          "classes",
+          "combat",
+          "attribute_bonuses",
+          "senses",
+          "characteristics",
+          "healing",
+          "alignment",
+          "conditions",
+          "races",
+          "economy",
+          "extensions",
+          "skills",
+          "experience",
+          "movement",
+          "travel",
+          "henchmen_hirelings",
+          "encumbrance"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "combat",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Priest Spell Compendium Volume 3.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_priest_spell_compendium_volume_3",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_priest_spell_compendium_volume_3_rules_profile.json",
+        "detected_fields": [
+          "magic",
+          "saving_throws",
+          "time",
+          "classes",
+          "combat",
+          "attribute_bonuses",
+          "characteristics",
+          "healing",
+          "alignment",
+          "races",
+          "senses",
+          "conditions",
+          "movement",
+          "experience",
+          "extensions",
+          "economy",
+          "travel",
+          "skills",
+          "henchmen_hirelings",
+          "encumbrance"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "combat",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - The Magic Encyclopedia Volume 1.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_the_magic_encyclopedia_volume_1",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_the_magic_encyclopedia_volume_1_rules_profile.json",
+        "detected_fields": [
+          "economy",
+          "saving_throws",
+          "classes",
+          "magic",
+          "time",
+          "senses",
+          "healing",
+          "combat",
+          "alignment",
+          "characteristics",
+          "extensions",
+          "travel",
+          "races",
+          "experience",
+          "skills",
+          "conditions",
+          "movement",
+          "attribute_bonuses",
+          "encumbrance"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "healing",
+          "combat"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - The Magic Encyclopedia Volume 2.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_the_magic_encyclopedia_volume_2",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_the_magic_encyclopedia_volume_2_rules_profile.json",
+        "detected_fields": [
+          "extensions",
+          "magic"
+        ],
+        "top_priority_fields": []
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - The Magic Encyclopedia Volume 2_text.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_the_magic_encyclopedia_volume_2_text",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_the_magic_encyclopedia_volume_2_text_rules_profile.json",
+        "detected_fields": [
+          "saving_throws",
+          "economy",
+          "senses",
+          "magic",
+          "classes",
+          "combat",
+          "time",
+          "healing",
+          "extensions",
+          "conditions",
+          "travel",
+          "alignment",
+          "characteristics",
+          "skills",
+          "experience",
+          "attribute_bonuses",
+          "races",
+          "movement",
+          "encumbrance"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "combat",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Tome of Magic.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_tome_of_magic",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_tome_of_magic_rules_profile.json",
+        "detected_fields": [
+          "magic",
+          "saving_throws",
+          "classes",
+          "time",
+          "combat",
+          "alignment",
+          "attribute_bonuses",
+          "characteristics",
+          "senses",
+          "healing",
+          "economy",
+          "conditions",
+          "movement",
+          "experience",
+          "travel",
+          "extensions",
+          "skills",
+          "races",
+          "encumbrance",
+          "henchmen_hirelings"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "combat",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Wizards Spell Compendium Volume 1.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_wizards_spell_compendium_volume_1",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_wizards_spell_compendium_volume_1_rules_profile.json",
+        "detected_fields": [
+          "classes",
+          "extensions",
+          "magic"
+        ],
+        "top_priority_fields": []
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Wizards Spell Compendium Volume 1_text.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_wizards_spell_compendium_volume_1_text",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_wizards_spell_compendium_volume_1_text_rules_profile.json",
+        "detected_fields": [
+          "magic",
+          "saving_throws",
+          "time",
+          "classes",
+          "combat",
+          "characteristics",
+          "healing",
+          "senses",
+          "alignment",
+          "attribute_bonuses",
+          "economy",
+          "conditions",
+          "extensions",
+          "movement",
+          "experience",
+          "skills",
+          "races",
+          "travel",
+          "encumbrance"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "combat",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Wizards Spell Compendium Volume 2.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_wizards_spell_compendium_volume_2",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_wizards_spell_compendium_volume_2_rules_profile.json",
+        "detected_fields": [
+          "magic",
+          "saving_throws",
+          "time",
+          "combat",
+          "classes",
+          "senses",
+          "characteristics",
+          "attribute_bonuses",
+          "economy",
+          "healing",
+          "conditions",
+          "alignment",
+          "extensions",
+          "experience",
+          "movement",
+          "races",
+          "skills",
+          "travel",
+          "encumbrance"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "combat",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Wizards Spell Compendium Volume 3.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_wizards_spell_compendium_volume_3",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_wizards_spell_compendium_volume_3_rules_profile.json",
+        "detected_fields": [
+          "magic",
+          "saving_throws",
+          "time",
+          "classes",
+          "combat",
+          "attribute_bonuses",
+          "senses",
+          "characteristics",
+          "economy",
+          "conditions",
+          "alignment",
+          "extensions",
+          "healing",
+          "movement",
+          "skills",
+          "races",
+          "experience",
+          "travel",
+          "encumbrance"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "combat",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - Wizards Spell Compendium Volume 4.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_wizards_spell_compendium_volume_4",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_wizards_spell_compendium_volume_4_rules_profile.json",
+        "detected_fields": [
+          "magic",
+          "saving_throws",
+          "time",
+          "classes",
+          "combat",
+          "characteristics",
+          "senses",
+          "healing",
+          "attribute_bonuses",
+          "alignment",
+          "economy",
+          "conditions",
+          "extensions",
+          "experience",
+          "races",
+          "movement",
+          "skills",
+          "travel",
+          "encumbrance"
+        ],
+        "top_priority_fields": [
+          "saving_throws",
+          "combat",
+          "healing"
+        ]
+      },
+      {
+        "source_file": "TSR Inc - AD&D 2nd Edition - World Builders Guidebook.pdf",
+        "slug": "tsr_inc_ad_and_d_2nd_edition_world_builders_guidebook",
+        "profile_file": "data/lore/add_2e/derived_rules/tsr_inc_ad_and_d_2nd_edition_world_builders_guidebook_rules_profile.json",
+        "detected_fields": [
+          "alignment",
+          "races",
+          "classes",
+          "time",
+          "travel",
+          "senses",
+          "magic",
+          "economy",
+          "extensions",
+          "characteristics",
+          "conditions",
+          "combat",
+          "experience",
+          "saving_throws",
+          "skills",
+          "movement",
+          "healing",
+          "henchmen_hirelings"
+        ],
+        "top_priority_fields": [
+          "combat",
+          "saving_throws",
+          "healing"
+        ]
+      }
+    ]
+  }
+}

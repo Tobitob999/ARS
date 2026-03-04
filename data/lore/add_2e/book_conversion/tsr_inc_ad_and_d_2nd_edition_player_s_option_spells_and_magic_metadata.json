@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "add_2e",
+    "source_book",
+    "pdf_conversion",
+    "tsr_inc_ad_and_d_2nd_edition_player_s_option_spells_and_magic"
+  ],
+  "summary": "Metadaten der PDF-zu-JSON-Konvertierung fuer TSR Inc - AD&D 2nd Edition - Player's Option - Spells & Magic.pdf.",
+  "source_text": {
+    "source_file": "TSR Inc - AD&D 2nd Edition - Player's Option - Spells & Magic.pdf",
+    "source_path": "g:\\meine ablage\\add2e\\tsr inc - ad&d 2nd edition - player's option - spells & magic.pdf",
+    "format": "pdf",
+    "page_count": 194,
+    "extracted_characters": 906383,
+    "extraction_timestamp": "2026-03-02T11:07:37",
+    "toc_candidate_pages": [
+      5,
+      6,
+      65
+    ],
+    "empty_or_unreadable_pages": [
+      1,
+      31,
+      59,
+      90,
+      115,
+      151,
+      178,
+      194
+    ]
+  },
+  "mechanics": {
+    "extractor": "pypdf.PdfReader.extract_text",
+    "output_files": [
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_player_s_option_spells_and_magic_pages.jsonl",
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_player_s_option_spells_and_magic_chapter_map.json",
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_player_s_option_spells_and_magic_metadata.json"
+    ]
+  }
+}

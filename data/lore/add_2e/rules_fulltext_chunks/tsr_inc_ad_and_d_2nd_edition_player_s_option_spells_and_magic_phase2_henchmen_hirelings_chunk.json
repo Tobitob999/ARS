@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_2",
+    "tsr_inc_ad_and_d_2nd_edition_player_s_option_spells_and_magic",
+    "henchmen_hirelings"
+  ],
+  "summary": "Phase-2 Regelchunk: henchmen_hirelings aus TSR Inc - AD&D 2nd Edition - Player's Option - Spells & Magic.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - Player's Option - Spells & Magic",
+    "source_file": "TSR Inc - AD&D 2nd Edition - Player's Option - Spells & Magic.pdf",
+    "text": "[PDF_PAGE 62 | score=2] Proficiencies and thorough investigation. Priests who are associated with the local government may be called upon to solve common crimes against the state, while other priests may be inquisi- tors or theological investigators. The DM may allow the PC to attempt a proficiency check when the player is missing an obvious line of inquiry or step of deductive reasoning, although this should be a rare use of this ability. An investigation proficiency check can also be used to discover clues at the scene of a crime or to extract information from a witness or suspect. Law: A character with this proficiency is thoroughly familiar with the legal system of his homeland and is skilled in representing ca"
+  },
+  "mechanics": {
+    "topic": "henchmen_hirelings",
+    "keywords": [
+      "add_2e",
+      "henchmen_hirelings",
+      "tsr_inc_ad_and_d_2nd_edition_player_s_option_spells_and_magic"
+    ],
+    "injection_priority": "support",
+    "confidence": 0.05,
+    "page_refs": [
+      62
+    ],
+    "raw_text": "[PDF_PAGE 62 | score=2] Proficiencies and thorough investigation. Priests who are associated with the local government may be called upon to solve common crimes against the state, while other priests may be inquisi- tors or theological investigators. The DM may allow the PC to attempt a proficiency check when the player is missing an obvious line of inquiry or step of deductive reasoning, although this should be a rare use of this ability. An investigation proficiency check can also be used to discover clues at the scene of a crime or to extract information from a witness or suspect. Law: A character with this proficiency is thoroughly familiar with the legal system of his homeland and is skilled in representing ca"
+  }
+}

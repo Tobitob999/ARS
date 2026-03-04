@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_1_mapping",
+    "tsr_inc_ad_and_d_2nd_edition_dragonlance_dla3_dragons_rest"
+  ],
+  "summary": "Abgeleiteter Phase-1-Chunk aus Kapitelmarkern fuer TSR Inc - AD&D 2nd Edition - Dragonlance_ DLA3 - Dragons Rest.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLA3 - Dragons Rest",
+    "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLA3 - Dragons Rest.pdf",
+    "chapter_map_file": "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dragonlance_dla3_dragons_rest_chapter_map.json",
+    "text": "Chapter 2: I NTERLUDES ................................ 24 (first_seen_pdf_page=3)\nChapter 3: S CHEDULED  E VENTS ..................... 43 (first_seen_pdf_page=3)\nChapter I: E BORIUM (first_seen_pdf_page=11)\nChapter 2: I NTERLUDES (first_seen_pdf_page=26)\nChapter 3: S CHEDULED E VENTS (first_seen_pdf_page=45)\nChapter 4: T HE F INAL B ATTLE (first_seen_pdf_page=53)"
+  },
+  "mechanics": {
+    "topic": "phase_1_skeleton_mapping",
+    "keywords": [
+      "add_2e",
+      "book_conversion",
+      "extensions",
+      "tsr_inc_ad_and_d_2nd_edition_dragonlance_dla3_dragons_rest"
+    ],
+    "injection_priority": "support",
+    "mapped_skeleton_fields": [
+      "extensions"
+    ],
+    "raw_text": "Chapter 2: I NTERLUDES ................................ 24 (first_seen_pdf_page=3)\nChapter 3: S CHEDULED  E VENTS ..................... 43 (first_seen_pdf_page=3)\nChapter I: E BORIUM (first_seen_pdf_page=11)\nChapter 2: I NTERLUDES (first_seen_pdf_page=26)\nChapter 3: S CHEDULED E VENTS (first_seen_pdf_page=45)\nChapter 4: T HE F INAL B ATTLE (first_seen_pdf_page=53)",
+    "derived_from": [
+      "detected_chapters",
+      "detected_appendices"
+    ]
+  }
+}

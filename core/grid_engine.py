@@ -132,6 +132,18 @@ _CLS_SYM: dict[str, str] = {
     "ritter": "P", "bard": "B", "barde": "B", "druid": "D", "druide": "D",
 }
 
+# Spieler-Input-Patterns (fuer parse_player_movement, VOR KI-Aufruf)
+_PLAYER_MOVE_VERBS = re.compile(
+    r"\b(geh|lauf|renn|schleich|beweg|betret|folg|fluecht|wander|"
+    r"marschier|kletter|spring|schwimm|kriech)\w*\b", re.I,
+)
+_PLAYER_COMBAT_VERBS = re.compile(
+    r"\b(greif|angriff|attackier|schlag|schiess|wuerf|cast|zaub)\w*\b", re.I,
+)
+_PLAYER_EXPLORE_VERBS = re.compile(
+    r"\b(untersuch|such|pruef|oeffn|schau|betracht|tast|hoer|lausch)\w*\b", re.I,
+)
+
 # Ranged-Waffen-Keywords
 _RANGED_KW = re.compile(
     r"bogen|bow|armbrust|crossbow|schleuder|sling|wurf|thrown|pfeil|arrow|bolzen|bolt",
@@ -238,6 +250,7 @@ class GridEngine:
         self._formation_text: str = ""  # Raw-Formation aus Party-JSON
         self._adventure_data: dict = {}
         self._npc_index: dict[str, dict] = {}  # npc_id -> npc_data
+        self._map_spawns: dict[str, list[int]] = {}  # npc_id -> [x, y]
 
     # ------------------------------------------------------------------
     # Setup
@@ -268,6 +281,11 @@ class GridEngine:
             room = self._rooms_cache[rid]
             self._current_room = room
             return room
+
+        # Vordefinierte Karte?
+        map_data = location.get("map")
+        if map_data:
+            return self._setup_from_map(map_data, rid, location)
 
         # NPCs und Exits zaehlen
         npc_ids = location.get("npcs_present", [])
@@ -380,6 +398,47 @@ class GridEngine:
             for sx, sy in [(4, 3), (w - 5, 3), (4, h - 4), (w - 5, h - 4)]:
                 if 1 <= sx < w - 1 and 1 <= sy < h - 1:
                     room.cells[sy][sx] = GridCell(walkable=False, terrain="obstacle")
+
+    def _setup_from_map(self, map_data: dict, rid: str, location: dict) -> RoomGrid:
+        """Baut RoomGrid aus vordefiniertem Map-Feld (Hybrid-Map-Support)."""
+        terrain_grid = map_data.get("terrain", [])
+        h = len(terrain_grid)
+        w = len(terrain_grid[0]) if terrain_grid else 15
+        room = RoomGrid(w, h, rid)
+
+        for y, row in enumerate(terrain_grid):
+            for x, t in enumerate(row):
+                walkable = t not in ("wall",)
+                room.cells[y][x] = GridCell(walkable=walkable, terrain=t)
+
+        # Exits aus Map-Daten
+        for eid, pos in map_data.get("exits", {}).items():
+            ex, ey = pos[0], pos[1]
+            if room.in_bounds(ex, ey):
+                room.cells[ey][ex] = GridCell(walkable=True, terrain="door")
+                room.exits[eid] = (ex, ey)
+
+        # Deko-Positionen
+        for deco in map_data.get("decorations", []):
+            dx, dy = deco["x"], deco["y"]
+            if room.in_bounds(dx, dy):
+                room.cells[dy][dx].terrain = deco.get("type", "floor")
+
+        # Spawns merken (fuer place_npcs)
+        self._map_spawns: dict[str, list[int]] = map_data.get("spawns", {})
+
+        self._rooms_cache[rid] = room
+        self._current_room = room
+
+        self._bus.emit("grid", "room_setup", {
+            "room_id": rid,
+            "width": w,
+            "height": h,
+            "exits": dict(room.exits),
+        })
+        logger.info("Grid-Raum aus Map geladen: %s (%dx%d, %d Exits)",
+                     rid, w, h, len(room.exits))
+        return room
 
     # ------------------------------------------------------------------
     # Party-Placement
@@ -526,7 +585,11 @@ class GridEngine:
     # ------------------------------------------------------------------
 
     def place_npcs(self, npc_ids: list[str]) -> None:
-        """Platziert NPCs/Monster auf dem Grid."""
+        """Platziert NPCs/Monster auf dem Grid.
+
+        Wenn Map-Spawns definiert sind (via _setup_from_map), werden NPCs
+        an vordefinierten Koordinaten platziert. Sonst heuristisch.
+        """
         room = self._current_room
         if not room:
             return
@@ -536,15 +599,20 @@ class GridEngine:
             if room.entities[eid].entity_type in ("npc", "monster"):
                 room.remove_entity(eid)
 
+        spawns = getattr(self, "_map_spawns", {})
+
         for i, npc_id in enumerate(npc_ids):
             npc_data = self._npc_index.get(npc_id, {})
             name = npc_data.get("name", npc_id)
             npc_type = npc_data.get("type", "monster")
             entity_type = "npc" if npc_type == "friendly" else "monster"
 
-            # Gegenueber der Party platzieren (rechte Raumhaelfte)
-            mx = room.width - 4 - (i % 3) * 2
-            my = 2 + (i // 3) * 2
+            # Spawn-Position: Map-definiert oder heuristisch
+            if npc_id in spawns:
+                mx, my = spawns[npc_id][0], spawns[npc_id][1]
+            else:
+                mx = room.width - 4 - (i % 3) * 2
+                my = 2 + (i // 3) * 2
             mx = max(1, min(room.width - 2, mx))
             my = max(1, min(room.height - 2, my))
 
@@ -558,7 +626,8 @@ class GridEngine:
             )
             room.place_entity(entity)
 
-        logger.info("NPCs platziert: %d in %s", len(npc_ids), room.room_id)
+        logger.info("NPCs platziert: %d in %s (%d Map-Spawns)",
+                     len(npc_ids), room.room_id, len(spawns))
 
     # ------------------------------------------------------------------
     # Bewegung
@@ -608,33 +677,246 @@ class GridEngine:
         return path
 
     # ------------------------------------------------------------------
-    # Bewegungs-Inferenz (3-Tier)
+    # Spieler-Bewegung VOR KI-Aufruf (Single Source of Truth)
+    # ------------------------------------------------------------------
+
+    def parse_player_movement(self, user_input: str) -> bool:
+        """Parst Spieler-Input nach Bewegungs-Absicht. Bewegt Party VOR KI-Aufruf.
+
+        Erkennt:
+        - Richtungen: "gehe nach Norden", "ich laufe suedlich"
+        - Ziele: "gehe zur Tuer", "betrete den Gang", "zum Ausgang"
+        - Kampf-Approach: "greife an", "Angriff auf den Goblin"
+        - Exploration: "untersuche die Truhe", "suche nach Fallen"
+
+        Returns True wenn Bewegung stattfand.
+        """
+        room = self._current_room
+        if not room:
+            return False
+
+        text_lower = user_input.lower()
+        moved = False
+
+        # ── Richtungs-Bewegung ────────────────────────────────────
+        if _PLAYER_MOVE_VERBS.search(user_input):
+            direction: tuple[int, int] | None = None
+            for keyword, dvec in _DIR_MAP.items():
+                if keyword in text_lower:
+                    if dvec == (0, 0):
+                        direction = self._direction_to_nearest_exit()
+                    else:
+                        direction = dvec
+                    break
+
+            if direction:
+                dx, dy = direction
+                for eid, entity in self._party_members.items():
+                    if not entity.alive:
+                        continue
+                    nx = max(1, min(room.width - 2, entity.x + dx * 3))
+                    ny = max(1, min(room.height - 2, entity.y + dy * 3))
+                    if room.is_walkable(nx, ny):
+                        path = self.move_entity(eid, nx, ny)
+                        if path:
+                            self._bus.emit("grid", "entity_moved", {
+                                "entity_id": eid,
+                                "name": entity.name,
+                                "path": path,
+                                "move_type": "walk",
+                            })
+                            moved = True
+                if moved:
+                    return True
+
+        # ── Kampf-Approach ────────────────────────────────────────
+        if _PLAYER_COMBAT_VERBS.search(user_input):
+            leader = self._get_party_leader()
+            if leader:
+                target = self._find_nearest_enemy(leader, entity_type="monster")
+                if target:
+                    adj = self._get_adjacent_to(target.x, target.y)
+                    if adj:
+                        path = self.move_entity(leader.entity_id, adj[0], adj[1])
+                        if path:
+                            self._bus.emit("grid", "entity_moved", {
+                                "entity_id": leader.entity_id,
+                                "name": leader.name,
+                                "path": path,
+                                "move_type": "combat_approach",
+                            })
+                            return True
+
+        # ── Explorations-Approach ─────────────────────────────────
+        if _PLAYER_EXPLORE_VERBS.search(user_input):
+            leader = self._get_party_leader()
+            if leader:
+                target = self._find_nearest_deco(leader)
+                if target:
+                    self._move_toward_target(leader, target[0], target[1],
+                                             max_tiles=2, action="explore")
+                    return True
+
+        return False
+
+    def _get_party_leader(self) -> GridEntity | None:
+        """Erster lebender Party-Member."""
+        for ent in self._party_members.values():
+            if ent.alive:
+                return ent
+        return None
+
+    # ------------------------------------------------------------------
+    # KI-gesteuerte Monster-Bewegung (Post-KI)
+    # ------------------------------------------------------------------
+
+    def execute_monster_moves(self, moves: list[tuple[str, str]]) -> None:
+        """Fuehrt KI-gesteuerte Monster-Bewegungen aus.
+
+        Args:
+            moves: Liste von (monster_name, richtung) Tupeln aus [MONSTER_BEWEGT:] Tags.
+        """
+        for name, direction in moves:
+            entity = self._find_entity_by_name(name)
+            if not entity or entity.entity_type == "party_member":
+                continue  # Nur Monster bewegen
+            if not entity.alive:
+                continue
+
+            target = self._resolve_direction(entity, direction)
+            if target:
+                path = self.move_entity(entity.entity_id, target[0], target[1])
+                if path:
+                    self._bus.emit("grid", "entity_moved", {
+                        "entity_id": entity.entity_id,
+                        "name": entity.name,
+                        "path": path,
+                        "move_type": "monster",
+                        "direction": direction,
+                    })
+                    logger.debug("Monster %s bewegt: %s → (%d,%d)",
+                                 entity.name, direction, path[-1][0], path[-1][1])
+
+    def auto_roam_idle_monsters(self, moved_ids: set[str]) -> None:
+        """Idle-Monster patrouillieren: 30% Chance, 1 Tile zufaellige Richtung.
+
+        Args:
+            moved_ids: Entity-IDs die bereits via MONSTER_BEWEGT bewegt wurden.
+        """
+        import random
+
+        room = self._current_room
+        if not room:
+            return
+
+        _CARDINAL = [(1, 0), (-1, 0), (0, 1), (0, -1)]
+
+        for ent in list(room.entities.values()):
+            if ent.entity_type != "monster" or not ent.alive:
+                continue
+            if ent.entity_id in moved_ids:
+                continue
+            if random.random() > 0.30:
+                continue
+
+            # Zufaellige Richtung
+            dirs = list(_CARDINAL)
+            random.shuffle(dirs)
+            for dx, dy in dirs:
+                nx, ny = ent.x + dx, ent.y + dy
+                if room.is_walkable(nx, ny):
+                    path = self.move_entity(ent.entity_id, nx, ny)
+                    if path:
+                        self._bus.emit("grid", "entity_moved", {
+                            "entity_id": ent.entity_id,
+                            "name": ent.name,
+                            "path": path,
+                            "move_type": "monster",
+                            "direction": "patrouille",
+                        })
+                    break
+
+    def _resolve_direction(self, entity: GridEntity, direction: str) -> tuple[int, int] | None:
+        """Loest semantische Richtung in Zielkoordinaten auf."""
+        import random
+
+        room = self._current_room
+        if not room:
+            return None
+
+        _DIR_RESOLVE = {
+            "norden": (0, -2), "sueden": (0, 2),
+            "osten": (2, 0), "westen": (-2, 0),
+        }
+
+        direction = direction.strip().lower()
+
+        # Kardinal-Richtung
+        if direction in _DIR_RESOLVE:
+            dx, dy = _DIR_RESOLVE[direction]
+            nx, ny = entity.x + dx, entity.y + dy
+            nx = max(1, min(room.width - 2, nx))
+            ny = max(1, min(room.height - 2, ny))
+            if room.is_walkable(nx, ny):
+                return (nx, ny)
+            return None
+
+        # Auf Party zu / Angriff
+        if direction in ("naeher", "angriff"):
+            target = self._find_nearest_enemy(entity, entity_type="party_member")
+            if target:
+                adj = self._get_adjacent_to(target.x, target.y)
+                return adj
+            return None
+
+        # Von Party weg
+        if direction == "weg":
+            alive = [e for e in self._party_members.values() if e.alive]
+            if alive:
+                avg_x = sum(e.x for e in alive) / len(alive)
+                avg_y = sum(e.y for e in alive) / len(alive)
+                dx = -1 if entity.x < avg_x else 1
+                dy = -1 if entity.y < avg_y else 1
+                nx = max(1, min(room.width - 2, entity.x + dx * 2))
+                ny = max(1, min(room.height - 2, entity.y + dy * 2))
+                if room.is_walkable(nx, ny):
+                    return (nx, ny)
+            return None
+
+        # Patrouille: zufaelliger Nachbar
+        if direction == "patrouille":
+            candidates = []
+            for ddx, ddy in _DIRS_8:
+                nx, ny = entity.x + ddx, entity.y + ddy
+                if room.is_walkable(nx, ny):
+                    candidates.append((nx, ny))
+            return random.choice(candidates) if candidates else None
+
+        # "lauern" oder unbekannt → keine Bewegung
+        return None
+
+    # ------------------------------------------------------------------
+    # Bewegungs-Inferenz (Post-KI, 2-Tier — Tier 3 entfernt)
     # ------------------------------------------------------------------
 
     def infer_movement(self, gm_response: str, current_location: dict | None = None) -> None:
         """
-        Inferiert Bewegungen aus der KI-Antwort.
+        Inferiert Bewegungen aus der KI-Antwort (Post-KI).
 
-        3 Stufen:
+        2 Stufen (Tier 3 Narrative entfernt — Party wird jetzt in
+        parse_player_movement() VOR dem KI-Aufruf bewegt):
           1. Combat-Tags: [ANGRIFF:] → Melee/Ranged Bewegung
           2. HP_VERLUST: Angreifer zum Ziel bewegen
-          3. Narrative Keywords: Richtungsverben → Richtungsbewegung
         """
         room = self._current_room
         if not room:
             return
 
-        moved = False
-
         # Tier 1: Combat-Tags
-        moved |= self._infer_combat_movement(gm_response)
+        self._infer_combat_movement(gm_response)
 
         # Tier 2: HP-Tags fuer Positionierung
-        moved |= self._infer_hp_movement(gm_response)
-
-        # Tier 3: Narrative Keywords
-        if not moved:
-            self._infer_narrative_movement(gm_response)
+        self._infer_hp_movement(gm_response)
 
     def _infer_combat_movement(self, text: str) -> bool:
         """ANGRIFF-Tags: Melee → zum Ziel, Ranged → stehen bleiben."""
@@ -770,6 +1052,127 @@ class GridEngine:
                     })
 
     # ------------------------------------------------------------------
+    # Aktions-Bewegungs-Inferenz (Nicht-Kampf-Tags)
+    # ------------------------------------------------------------------
+
+    def infer_action_movement(self, gm_response: str) -> None:
+        """Mappt Nicht-Kampf-Tags auf raeumliche Charakter-Bewegung.
+
+        Wird vom Orchestrator NACH infer_movement() aufgerufen.
+        Tags: [PROBE:], [INVENTAR: +Item], [ZAUBER_VERBRAUCHT:]
+        """
+        room = self._current_room
+        if not room:
+            return
+
+        # [PROBE: Skill Zielwert] oder [PROBE: Name | Skill Zielwert]
+        for m in re.finditer(
+            r"\[PROBE:\s*(?:([^|\]]+)\s*\|)?\s*([^|\]]+?)(?:\s+\d+)?\s*]",
+            gm_response, re.I,
+        ):
+            actor_name = m.group(1).strip() if m.group(1) else None
+            actor = self._find_actor_for_action(actor_name)
+            if actor:
+                target = self._find_interaction_target(actor)
+                if target:
+                    self._move_toward_target(actor, target[0], target[1],
+                                             max_tiles=2, action="probe")
+
+        # [INVENTAR: +Item] oder [INVENTAR: Name | +Item]
+        for m in re.finditer(
+            r"\[INVENTAR:\s*(?:([^|\]]+)\s*\|)?\s*\+([^]]+)]",
+            gm_response, re.I,
+        ):
+            actor_name = m.group(1).strip() if m.group(1) else None
+            actor = self._find_actor_for_action(actor_name)
+            if actor:
+                deco_pos = self._find_nearest_deco(actor)
+                if deco_pos:
+                    self._move_toward_target(actor, deco_pos[0], deco_pos[1],
+                                             max_tiles=3, action="loot")
+
+        # [ZAUBER_VERBRAUCHT: Spell] oder [ZAUBER_VERBRAUCHT: Name | Spell]
+        for m in re.finditer(
+            r"\[ZAUBER_VERBRAUCHT:\s*(?:([^|\]]+)\s*\|)?\s*([^]]+)]",
+            gm_response, re.I,
+        ):
+            actor_name = m.group(1).strip() if m.group(1) else None
+            actor = self._find_actor_for_action(actor_name)
+            if actor:
+                ny = max(1, actor.y - 1)
+                if room.is_walkable(actor.x, ny):
+                    self._move_toward_target(actor, actor.x, ny,
+                                             max_tiles=1, action="cast")
+
+    def _find_actor_for_action(self, name: str | None) -> GridEntity | None:
+        """Findet den Actor — per Name oder ersten lebenden Party-Member."""
+        if name:
+            found = self._find_entity_by_name(name)
+            if found:
+                return found
+        for ent in self._party_members.values():
+            if ent.alive:
+                return ent
+        return None
+
+    def _find_interaction_target(self, actor: GridEntity) -> tuple[int, int] | None:
+        """Findet ein interaktives Ziel in der Naehe (Tuer, Obstacle, Exit)."""
+        room = self._current_room
+        if not room:
+            return None
+        best: tuple[int, int] | None = None
+        best_dist = 999
+        for dy in range(-5, 6):
+            for dx in range(-5, 6):
+                nx, ny = actor.x + dx, actor.y + dy
+                if not room.in_bounds(nx, ny):
+                    continue
+                t = room.cells[ny][nx].terrain
+                if t in ("door", "obstacle", "water", "trap"):
+                    d = abs(dx) + abs(dy)
+                    if d < best_dist:
+                        best_dist = d
+                        best = (nx, ny)
+        return best
+
+    def _find_nearest_deco(self, actor: GridEntity) -> tuple[int, int] | None:
+        """Findet das naechste Deko-Feld (nicht-floor, nicht-wall)."""
+        room = self._current_room
+        if not room:
+            return None
+        best: tuple[int, int] | None = None
+        best_dist = 999
+        for dy in range(-5, 6):
+            for dx in range(-5, 6):
+                nx, ny = actor.x + dx, actor.y + dy
+                if not room.in_bounds(nx, ny):
+                    continue
+                t = room.cells[ny][nx].terrain
+                if t in ("obstacle", "door"):
+                    d = abs(dx) + abs(dy)
+                    if d < best_dist:
+                        best_dist = d
+                        best = (nx, ny)
+        return best
+
+    def _move_toward_target(self, actor: GridEntity, tx: int, ty: int,
+                            max_tiles: int = 2, action: str = "") -> None:
+        """Bewegt Actor Richtung Ziel, maximal max_tiles Schritte."""
+        adj = self._get_adjacent_to(tx, ty)
+        if not adj:
+            adj = (tx, ty)
+        path = self.move_entity(actor.entity_id, adj[0], adj[1])
+        if path:
+            path = path[:max_tiles + 1]
+            self._bus.emit("grid", "entity_moved", {
+                "entity_id": actor.entity_id,
+                "name": actor.name,
+                "path": path,
+                "move_type": "action",
+                "action": action,
+            })
+
+    # ------------------------------------------------------------------
     # Bewegungsbudget-Verwaltung
     # ------------------------------------------------------------------
 
@@ -861,29 +1264,52 @@ class GridEngine:
     # ------------------------------------------------------------------
 
     def get_context_for_prompt(self) -> str:
-        """Generiert einen kompakten Grid-Kontext fuer die KI-Injektion."""
+        """Generiert erweiterten Grid-Kontext fuer die KI-Injektion.
+
+        Enthaelt: Raum-ID, Dimensionen, Party-Positionen, Monster-Liste,
+        Nahkampf-Paare, Distanzen, Terrain-Objekte, Sichtbarkeit.
+        """
         room = self._current_room
         if not room or not room.entities:
             return ""
 
-        parts: list[str] = []
+        lines: list[str] = ["=== GRID-POSITIONEN ==="]
 
-        # Positionen + Restbewegung
-        pos_parts = []
-        for ent in room.entities.values():
-            if ent.alive:
-                mv_left = ent.movement_rate - ent.movement_used
-                if ent.movement_used > 0:
-                    pos_parts.append(f"{ent.name}({ent.x},{ent.y} Bew:{mv_left}/{ent.movement_rate})")
+        # ── Raum-Info ─────────────────────────────────────────────
+        lines.append(f"Raum: {room.room_id} ({room.width}x{room.height})")
+
+        # ── Party-Positionen ──────────────────────────────────────
+        party_parts = []
+        party_ids = []
+        for eid, ent in room.entities.items():
+            if ent.entity_type == "party_member" and ent.alive:
+                party_ids.append(eid)
+                party_parts.append(f"{ent.name}({ent.x},{ent.y})")
+        if party_parts:
+            lines.append("Party: " + " ".join(party_parts))
+
+        # ── Monster-Liste ─────────────────────────────────────────
+        monster_parts = []
+        enemy_ids = []
+        alive_count = 0
+        dead_count = 0
+        for eid, ent in room.entities.items():
+            if ent.entity_type == "monster":
+                if ent.alive:
+                    enemy_ids.append(eid)
+                    alive_count += 1
+                    monster_parts.append(f"{ent.name}({ent.x},{ent.y})")
                 else:
-                    pos_parts.append(f"{ent.name}({ent.x},{ent.y})")
-        if pos_parts:
-            parts.append(" ".join(pos_parts))
+                    dead_count += 1
+        if monster_parts:
+            summary = f" [{alive_count} lebend"
+            if dead_count:
+                summary += f", {dead_count} tot"
+            summary += "]"
+            lines.append("Monster: " + " ".join(monster_parts) + summary)
 
-        # Nahkampf-Paare
+        # ── Nahkampf-Paare ────────────────────────────────────────
         melee_pairs = []
-        party_ids = [eid for eid, e in room.entities.items() if e.entity_type == "party_member" and e.alive]
-        enemy_ids = [eid for eid, e in room.entities.items() if e.entity_type == "monster" and e.alive]
         for pid in party_ids:
             for mid in enemy_ids:
                 if self.is_in_melee_range(pid, mid):
@@ -891,9 +1317,9 @@ class GridEngine:
                     mn = room.entities[mid].name
                     melee_pairs.append(f"{pn}\u2194{mn}")
         if melee_pairs:
-            parts.append("Nahkampf: " + ", ".join(melee_pairs))
+            lines.append("Nahkampf: " + ", ".join(melee_pairs))
 
-        # Distanzen (Party → naechster Feind)
+        # ── Distanzen (Party → Feinde) ────────────────────────────
         if enemy_ids and party_ids:
             dist_parts = []
             for pid in party_ids:
@@ -908,12 +1334,34 @@ class GridEngine:
                 if nearest and min_dist > 1:
                     dist_parts.append(f"{pe.name}\u2192{nearest}:{min_dist}")
             if dist_parts:
-                parts.append("Distanz: " + ", ".join(dist_parts))
+                lines.append("Distanz: " + ", ".join(dist_parts))
 
-        if not parts:
-            return ""
+        # ── Terrain-Objekte im Sichtfeld ──────────────────────────
+        terrain_objs = self._get_visible_terrain()
+        if terrain_objs:
+            t_parts = [f"{t}({x},{y})" for t, x, y in terrain_objs]
+            lines.append("Terrain: " + " ".join(t_parts))
 
-        return "=== GRID-POSITIONEN ===\n" + " | ".join(parts)
+        # ── Sichtbarkeits-Zusammenfassung ─────────────────────────
+        visible_items: list[str] = []
+        if alive_count:
+            names = set()
+            for mid in enemy_ids:
+                base = room.entities[mid].name.split("_")[0]
+                names.add(base)
+            for name in sorted(names):
+                cnt = sum(1 for mid in enemy_ids if room.entities[mid].name.startswith(name))
+                visible_items.append(f"{cnt} {name}" if cnt > 1 else name)
+        terrain_types = set()
+        for t, _, _ in terrain_objs:
+            terrain_types.add(t)
+        for t in sorted(terrain_types):
+            cnt = sum(1 for tt, _, _ in terrain_objs if tt == t)
+            visible_items.append(f"{cnt} {t}" if cnt > 1 else t)
+        if visible_items:
+            lines.append("Sichtbar: Party sieht " + ", ".join(visible_items))
+
+        return "\n".join(lines) if len(lines) > 1 else ""
 
     def get_all_positions(self) -> dict[str, tuple[int, int]]:
         """Alle Entity-Positionen als Dict zurueckgeben."""
@@ -936,6 +1384,41 @@ class GridEngine:
     # ------------------------------------------------------------------
     # Hilfsfunktionen
     # ------------------------------------------------------------------
+
+    def _get_visible_terrain(self, radius: int = 8) -> list[tuple[str, int, int]]:
+        """Terrain-Objekte im Sichtradius der Party (nicht-floor, nicht-wall)."""
+        room = self._current_room
+        if not room:
+            return []
+
+        # Party-Zentrum berechnen
+        alive = [e for e in self._party_members.values() if e.alive]
+        if not alive:
+            return []
+        cx = int(sum(e.x for e in alive) / len(alive))
+        cy = int(sum(e.y for e in alive) / len(alive))
+
+        _TERRAIN_LABELS = {
+            "door": "Tuer", "obstacle": "Hindernis", "water": "Wasser",
+            "trap": "Falle", "stairs": "Treppe",
+        }
+        result: list[tuple[str, int, int]] = []
+        for dy in range(-radius, radius + 1):
+            for dx in range(-radius, radius + 1):
+                nx, ny = cx + dx, cy + dy
+                if not room.in_bounds(nx, ny):
+                    continue
+                t = room.cells[ny][nx].terrain
+                if t not in ("floor", "wall"):
+                    label = _TERRAIN_LABELS.get(t, t.capitalize())
+                    result.append((label, nx, ny))
+
+        # Exits hinzufuegen
+        for eid, (ex, ey) in room.exits.items():
+            if abs(ex - cx) <= radius and abs(ey - cy) <= radius:
+                result.append((f"Ausgang_{eid}", ex, ey))
+
+        return result
 
     def _find_entity_by_name(self, name: str) -> GridEntity | None:
         """Findet eine Entity per Name (case-insensitive, Teilstring)."""

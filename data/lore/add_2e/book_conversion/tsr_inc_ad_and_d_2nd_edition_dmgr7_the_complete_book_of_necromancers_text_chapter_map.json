@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "add_2e",
+    "chapter_map",
+    "toc",
+    "appendix",
+    "tsr_inc_ad_and_d_2nd_edition_dmgr7_the_complete_book_of_necromancers_text"
+  ],
+  "summary": "Automatisch erkannte Kapitel- und Appendix-Marker aus TSR Inc - AD&D 2nd Edition - DMGR7 - The Complete Book of Necromancers_text.pdf.",
+  "source_text": {
+    "detected_chapters": [
+      {
+        "chapter": "1",
+        "title": "Necromancers ............... eese e eee eee e eonun 8",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "2",
+        "title": "Dark Gifts ........................................ 25",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "3",
+        "title": "The Price ........................................ 39",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "4",
+        "title": "The Dark Art.................................... 45",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "5",
+        "title": "Death Priests .................................. 65",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "6",
+        "title": "The Priest Sphere ............................ 77",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "7",
+        "title": "Allies .ee 87",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "8",
+        "title": "Tools of the Trade .......................... 97",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "9",
+        "title": "The Campaign .............................. 107",
+        "first_seen_page": 4
+      }
+    ],
+    "detected_appendices": [
+      {
+        "appendix": "1",
+        "title": "Common Spells",
+        "first_seen_page": 4
+      },
+      {
+        "appendix": "2",
+        "title": "Wizard Spells in the",
+        "first_seen_page": 4
+      },
+      {
+        "appendix": "3",
+        "title": "Priest Spells in the",
+        "first_seen_page": 4
+      },
+      {
+        "appendix": "4",
+        "title": "Master Index of",
+        "first_seen_page": 4
+      },
+      {
+        "appendix": "2",
+        "title": "Wizard Spells",
+        "first_seen_page": 127
+      },
+      {
+        "appendix": "3",
+        "title": "Priest Spells",
+        "first_seen_page": 127
+      }
+    ],
+    "detection_note": "Extraktion kann Schreibfehler enthalten; Titel wurden 1:1 aus PDF-Text uebernommen."
+  },
+  "mechanics": {
+    "chapter_regex": "\\bChapter\\s+([0-9IVXLC]+)\\s*[:\\-]\\s*([^\\n\\r]{2,120})",
+    "appendix_regex": "\\bAppendix\\s+([0-9IVXLC]+)\\s*[:\\-]\\s*([^\\n\\r]{2,120})",
+    "unique_chapters": 9,
+    "unique_appendices": 6
+  }
+}

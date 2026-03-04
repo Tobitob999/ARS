@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_1_mapping",
+    "tsr_inc_ad_and_d_2nd_edition_phbr02_the_complete_thief_s_handbook"
+  ],
+  "summary": "Abgeleiteter Phase-1-Chunk aus Kapitelmarkern fuer TSR Inc - AD&D 2nd Edition - PHBR02 - The Complete Thief's Handbook.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - PHBR02 - The Complete Thief's Handbook",
+    "source_file": "TSR Inc - AD&D 2nd Edition - PHBR02 - The Complete Thief's Handbook.pdf",
+    "chapter_map_file": "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_phbr02_the_complete_thief_s_handbook_chapter_map.json",
+    "text": "Chapter 2: Proficiencies 16 (first_seen_pdf_page=3)\nChapter 3: Thief Kits 22 (first_seen_pdf_page=3)\nChapter 4: Thieves' Guild 51 (first_seen_pdf_page=3)\nChapter 5: Tools of the Trade 90 (first_seen_pdf_page=4)\nChapter 6: The Arts of Deception: (first_seen_pdf_page=4)\nChapter 8: The Thief Campaign  ....  1  16 (first_seen_pdf_page=4)\nChapter 2: Proficiencies (first_seen_pdf_page=17)\nChapter 4: Thieves' Guilds (first_seen_pdf_page=52)\nChapter 4: Thieves Guilds. Many of the (first_seen_pdf_page=122)"
+  },
+  "mechanics": {
+    "topic": "phase_1_skeleton_mapping",
+    "keywords": [
+      "add_2e",
+      "book_conversion",
+      "profic",
+      "skills",
+      "tsr_inc_ad_and_d_2nd_edition_phbr02_the_complete_thief_s_handbook"
+    ],
+    "injection_priority": "core",
+    "mapped_skeleton_fields": [
+      "skills"
+    ],
+    "raw_text": "Chapter 2: Proficiencies 16 (first_seen_pdf_page=3)\nChapter 3: Thief Kits 22 (first_seen_pdf_page=3)\nChapter 4: Thieves' Guild 51 (first_seen_pdf_page=3)\nChapter 5: Tools of the Trade 90 (first_seen_pdf_page=4)\nChapter 6: The Arts of Deception: (first_seen_pdf_page=4)\nChapter 8: The Thief Campaign  ....  1  16 (first_seen_pdf_page=4)\nChapter 2: Proficiencies (first_seen_pdf_page=17)\nChapter 4: Thieves' Guilds (first_seen_pdf_page=52)\nChapter 4: Thieves Guilds. Many of the (first_seen_pdf_page=122)",
+    "derived_from": [
+      "detected_chapters",
+      "detected_appendices"
+    ]
+  }
+}

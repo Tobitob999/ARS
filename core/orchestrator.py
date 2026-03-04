@@ -12,6 +12,7 @@ from __future__ import annotations
 import json
 import logging
 import queue
+import re
 import time as _time
 from pathlib import Path
 from typing import TYPE_CHECKING, Any
@@ -20,6 +21,17 @@ if TYPE_CHECKING:
     from core.engine import SimulatorEngine
 
 logger = logging.getLogger("ARS.orchestrator")
+
+# ── Monster-Bewegungs-Tag-Parser ─────────────────────────────────────
+_RE_MONSTER_MOVE = re.compile(
+    r"\[MONSTER_BEWEGT:\s*([^|]+?)\s*\|\s*([^]]+?)\s*]", re.I,
+)
+
+
+def _extract_monster_moves(text: str) -> list[tuple[str, str]]:
+    """Extrahiert [MONSTER_BEWEGT: Name | Richtung] Tags aus KI-Antwort."""
+    return [(m.group(1).strip(), m.group(2).strip().lower())
+            for m in _RE_MONSTER_MOVE.finditer(text)]
 
 
 class Orchestrator:
@@ -481,6 +493,14 @@ class Orchestrator:
                     print("[SYSTEM] Kein Abenteuer geladen.\n")
                 continue
 
+            # ── Spieler-Bewegung VOR KI-Aufruf (Grid als SSOT) ─────
+            _grid_pre = getattr(self.engine, "grid_engine", None)
+            if _grid_pre and _grid_pre._current_room:
+                try:
+                    _grid_pre.parse_player_movement(user_input)
+                except Exception:
+                    logger.exception("Pre-AI Grid-Bewegung Fehler")
+
             # ── Neue Kampfrunde starten (vor AI-Aufruf) ─────────────
             if self._combat_tracker and self._combat_tracker.active:
                 round_info = self._combat_tracker.start_new_round(mechanics)
@@ -604,8 +624,24 @@ class Orchestrator:
                     if self._adv_manager and self._adv_manager.loaded:
                         current_loc = self._adv_manager.get_current_location()
                     grid.infer_movement(gm_response, current_loc)
+                    grid.infer_action_movement(gm_response)
                 except Exception:
                     logger.exception("Grid-Bewegungs-Inferenz Fehler")
+
+                # ── Monster-Bewegung aus KI-Tags ──────────────────
+                try:
+                    monster_moves = _extract_monster_moves(gm_response)
+                    if monster_moves:
+                        grid.execute_monster_moves(monster_moves)
+                    # Idle-Monster patrouillieren (30% Chance pro Monster)
+                    moved_ids: set[str] = set()
+                    for name, _ in monster_moves:
+                        ent = grid._find_entity_by_name(name)
+                        if ent:
+                            moved_ids.add(ent.entity_id)
+                    grid.auto_roam_idle_monsters(moved_ids)
+                except Exception:
+                    logger.exception("Monster-Bewegungs-Verarbeitung Fehler")
 
             # Raumwechsel aus KI-Text erkennen (nach Grid-Bewegung)
             self._detect_room_change(gm_response)

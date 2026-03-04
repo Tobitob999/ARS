@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_2",
+    "tsr_inc_ad_and_d_2nd_edition_dragonlance_dlt1_new_tales",
+    "movement"
+  ],
+  "summary": "Phase-2 Regelchunk: movement aus TSR Inc - AD&D 2nd Edition - Dragonlance_ DLT1 - New Tales.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLT1 - New Tales",
+    "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLT1 - New Tales.pdf",
+    "text": "[PDF_PAGE 18 | score=1] Hobgoblins (24): AC 5; MV 9; HD 2+2; hp 18; THAC0 19; #AT 1; Dmg 1d8 (long sword); 1d8 (spear); AL LE; ML 20; XP 65 Each hobgoblin is armed with a long sword and a spear and carries a purse with 1d4 sp. They fight with a religious mania and keep screaming “Usk- Do!” (the hobgoblin name for Hiddukel). Because of their mission to protect the scales, the hobgob- lins’ morale is fanatic. 6. Trophy Room This room appears to be a waste disposal area, as its sandy floor is dotted with broken items. This is where the inhabitants of the cave keep mementos of past victims. Rather than displaying them neatly, however, the relics are simply cast about like so much refuse on the sandy cavern floor. The P\n[PDF_PAGE 36 | score=1] 32 with a cocoon that ranges from four to six feet in length. A skeletal limb protrudes from one or two cocoons. From one cocoon, however, there comes frantic movement. The cocoon is about four feet in length. It hangs from a section of the ceiling that is 30 feet from the shaft. Obviously, the spiders do not tolerate strangers invading the sanctity of their lair. They rise up to attack any intruders. The whisper spiders attack first, since by their strides they reach the PCs before their smaller cousins do. This reaction assumes that the PCs are attempt- ing a frontal assault. Considering the fact that kender are supposed to make up the majority of the party, such a maneuver would be unlike"
+  },
+  "mechanics": {
+    "topic": "movement",
+    "keywords": [
+      "add_2e",
+      "movement",
+      "tsr_inc_ad_and_d_2nd_edition_dragonlance_dlt1_new_tales"
+    ],
+    "injection_priority": "core",
+    "confidence": 0.05,
+    "page_refs": [
+      18,
+      36
+    ],
+    "raw_text": "[PDF_PAGE 18 | score=1] Hobgoblins (24): AC 5; MV 9; HD 2+2; hp 18; THAC0 19; #AT 1; Dmg 1d8 (long sword); 1d8 (spear); AL LE; ML 20; XP 65 Each hobgoblin is armed with a long sword and a spear and carries a purse with 1d4 sp. They fight with a religious mania and keep screaming “Usk- Do!” (the hobgoblin name for Hiddukel). Because of their mission to protect the scales, the hobgob- lins’ morale is fanatic. 6. Trophy Room This room appears to be a waste disposal area, as its sandy floor is dotted with broken items. This is where the inhabitants of the cave keep mementos of past victims. Rather than displaying them neatly, however, the relics are simply cast about like so much refuse on the sandy cavern floor. The P\n[PDF_PAGE 36 | score=1] 32 with a cocoon that ranges from four to six feet in length. A skeletal limb protrudes from one or two cocoons. From one cocoon, however, there comes frantic movement. The cocoon is about four feet in length. It hangs from a section of the ceiling that is 30 feet from the shaft. Obviously, the spiders do not tolerate strangers invading the sanctity of their lair. They rise up to attack any intruders. The whisper spiders attack first, since by their strides they reach the PCs before their smaller cousins do. This reaction assumes that the PCs are attempt- ing a frontal assault. Considering the fact that kender are supposed to make up the majority of the party, such a maneuver would be unlike"
+  }
+}

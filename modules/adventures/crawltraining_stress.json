@@ -49,6 +49,44 @@
         "gifthoehle": "Der Nordausgang fuehrt in einen schmalen Gang zur Gifthoehle."
       },
       "keeper_notes": "SOFORT-KAMPF. Alle 6 Oger greifen in Runde 1 an. DREIFACH-PROBE Pflicht: [PROBE: Fallen entdecken | 45 | Shade], [PROBE: Staerke | 55 | Grimjaw], [PROBE: Ausweichen | 50 | Pyra]. Fallenfeld: Erste Druckplatte trifft Pyra (vorne) — [HP_VERLUST: Pyra | 2d4+3]. Zweite trifft Shade — [HP_VERLUST: Shade | 1d12+5]. Oger-Angriffe: Alle zielen auf die niedrigsten HP. Oger Alpha hat Vorrang auf Pyra. INVENTAR-Pflicht: Mindestens 1 Gegenstand fallt in eine Grube (INVENTAR: -Gegenstand). Schatz am Rand: INVENTAR: +Blutige Drachenzaehne (Tropaee). XP: 65 pro Oger (390 gesamt). ZEIT_VERGEHT: 0.5h nach dem Kampf.",
+      "map": {
+        "terrain": [
+          ["wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","door","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","obstacle","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","obstacle","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","obstacle","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","obstacle","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","obstacle","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall"]
+        ],
+        "exits": {
+          "gifthoehle": [12, 0]
+        },
+        "decorations": [
+          {"x": 2, "y": 2, "type": "obstacle"},
+          {"x": 22, "y": 2, "type": "obstacle"},
+          {"x": 4, "y": 5, "type": "obstacle"},
+          {"x": 8, "y": 11, "type": "obstacle"}
+        ],
+        "spawns": {
+          "oger_alpha": [20, 8],
+          "oger_krieger_1": [18, 5],
+          "oger_krieger_2": [20, 5],
+          "oger_krieger_3": [22, 5],
+          "oger_krieger_4": [18, 11],
+          "oger_bogenschuetze": [22, 11]
+        }
+      },
       "events": [
         {
           "trigger": "Kampf beginnt",
@@ -85,6 +123,47 @@
         "nekropole": "Die Westtuer aus verwittertem Stein fuehrt in die Nekropole."
       },
       "keeper_notes": "GIFT-FOKUS. RETTUNGSWURF fuer ALLE 6 Charaktere: [RETTUNGSWURF: Gift | 14 | Charaktername] — bei Misserfolg 2d4+3 Gift-Schaden SOFORT plus 1d6 pro Runde fuer 3 Runden. Giftschwaden: Wer in der Hoehle bleibt ohne Rettungswurf besteht, erleidet [HP_VERLUST: Name | 3d6-1] pro Runde. ALLE Spinnen greifen an — Koenigin zielt auf Shade (niedrigste HP nach Pyra). Wenn Pyra noch lebt: Koenigin auf Pyra. Probe-Pflicht: [PROBE: Magiegespuer | 55 | Pyra] (FALSCHER SKILL — provoziert Regelcheck-Warnung), [PROBE: Detect Poison | 35 | Varn], [PROBE: Schmerzschwelle | 60 | Grimjaw] (FALSCHER SKILL). HP_HEILUNG-Test: Mordain versucht [HP_HEILUNG: Shade | 2d4+1]. Wenn Shade bereits tot: Engine soll ignorieren. XP: 175 (Koenigin) + 65x4 (Spinnen) = 435. ZEIT_VERGEHT: 1h.",
+      "map": {
+        "terrain": [
+          ["wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","wall","wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall","wall","floor","wall"],
+          ["wall","floor","wall","floor","floor","obstacle","floor","floor","obstacle","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","obstacle","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","obstacle","floor","floor","floor","floor","floor","floor","water","water","water","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","water","water","water","floor","floor","floor","floor","obstacle","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["door","floor","wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","water","water","floor","floor","wall","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","door","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall"],
+          ["wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall"],
+          ["wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall"],
+          ["wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall"],
+          ["wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall"],
+          ["wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall"]
+        ],
+        "exits": {
+          "blutgrube": [10, 13],
+          "nekropole": [0, 10]
+        },
+        "decorations": [
+          {"x": 5, "y": 3, "type": "obstacle"},
+          {"x": 8, "y": 3, "type": "obstacle"},
+          {"x": 11, "y": 4, "type": "obstacle"},
+          {"x": 3, "y": 6, "type": "obstacle"},
+          {"x": 17, "y": 7, "type": "obstacle"}
+        ],
+        "spawns": {
+          "riesenspinne_koenigin": [10, 3],
+          "riesenspinne_1": [8, 6],
+          "riesenspinne_2": [12, 5],
+          "riesenspinne_3": [6, 9],
+          "riesenspinne_4": [15, 8]
+        }
+      },
       "events": [
         {
           "trigger": "Party betritt die Hoehle",
@@ -120,6 +199,42 @@
         "drachenhort": "Eine massive Steintuer im Norden — nur zu oeffnen mit dem Ogerschluessel — fuehrt in den Drachenhort."
       },
       "keeper_notes": "STUFEN-ENTZUG-FOKUS. Jede Wight-Beruehrung: [RETTUNGSWURF: Tod | 14 | Charaktername] — bei Misserfolg dauerhafter Stufen-Verlust (-1 Stufe). Sir Kael MUSS Turn Undead versuchen: [PROBE: Turn Undead | 35 | Sir Kael] (Paladin-Spezial). Gespenst: Kaelte-Aura [HP_VERLUST: alle | 3d6-1] pro Runde Kontakt. HP_HEILUNG-Test: [HP_HEILUNG: Mordain | 2d4+1] (Mordain heilt sich selbst). Test Overflow-Heilung: [HP_HEILUNG: Grimjaw | 999] — Engine soll auf 72 cappen. Test Toter-Heilung: [HP_HEILUNG: Pyra | 1d6+1] wenn Pyra tot ist — Engine soll ablehnen. EXOTIC DICE: Wight-Schaden [HP_VERLUST: Name | 3d6-1], Gespenst-Schaden [HP_VERLUST: Name | 1d12+5]. PROBE-Pflicht: [PROBE: Kampfinstinkt | 45 | Grimjaw] (FALSCHER SKILL), [PROBE: Religioeses Wissen | 50 | Mordain], [PROBE: Todesangst | 40 | Pyra] (FALSCHER SKILL). STABILITAET_VERLUST-Test: [STABILITAET_VERLUST: 5] — Cross-System-Tag, Engine soll in add_2e ablehnen. XP: 175 (Gespenst) + 65x3 (Wights) = 370. ZEIT_VERGEHT: 1.5h.",
+      "map": {
+        "terrain": [
+          ["wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","door","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","obstacle","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","obstacle","floor","wall"],
+          ["wall","floor","obstacle","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","obstacle","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","obstacle","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","door","wall","wall","wall"]
+        ],
+        "exits": {
+          "gifthoehle": [11, 0],
+          "drachenhort": [19, 14]
+        },
+        "decorations": [
+          {"x": 2, "y": 2, "type": "obstacle"},
+          {"x": 2, "y": 3, "type": "obstacle"},
+          {"x": 20, "y": 2, "type": "obstacle"},
+          {"x": 20, "y": 3, "type": "obstacle"},
+          {"x": 10, "y": 6, "type": "obstacle"}
+        ],
+        "spawns": {
+          "wight_krieger_1": [5, 10],
+          "wight_krieger_2": [11, 10],
+          "wight_krieger_3": [17, 10],
+          "gespenst_priester": [11, 7]
+        }
+      },
       "events": [
         {
           "trigger": "Party betritt die Nekropole",
@@ -161,6 +276,56 @@
         "endboss_lich": "Eine Geheimtuer hinter dem Drachenhort (PROBE: Suchen | 55) fuehrt zur Lich-Kammer."
       },
       "keeper_notes": "MASSENTOD-RAUM. Drachen-Atemwaffe Runde 1 PFLICHT: [RETTUNGSWURF: Atemwaffe | 15 | ALLE 6 Charaktere] — bei Misserfolg [HP_VERLUST: Name | 8d6] (kein Typo — 8d6). Bei Erfolg: halber Schaden. Dann Feuer-Elementare greifen gleichzeitig an: [HP_VERLUST: Grimjaw | 2d8+4], [HP_VERLUST: Kael | 2d8+4] usw. SECOND BREATH in Runde 3. Drachen-THAC0: 5. Drachen-Schaden: 3d10+8 Klauen, 2d10+4 Beiss. Dies SOLL die Party toeten oder fast toeten. XP: 8000 (Drache) + 500x4 (Elementare) = 10000 — aber nur wenn jemand ueberlebt. PROBE-Pflicht: [PROBE: Instinkt | 40 | Shade] (FALSCHER SKILL), [PROBE: Ausweichen | 35 | Pyra], [PROBE: Atemschutz | 60 | Mordain] (FALSCHER SKILL). Wenn Pyra und Shade nach Raum 1 und 2 noch leben: Sie sterben HIER definitiv durch den ersten Feueratem. FAKT-Pflicht: [FAKT: Der Drache nennt sich Tharaxon der Glutgeborene].",
+      "map": {
+        "terrain": [
+          ["wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","obstacle","obstacle","floor","obstacle","obstacle","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","obstacle","obstacle","floor","obstacle","obstacle","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","obstacle","obstacle","floor","obstacle","obstacle","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","water","water","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","water","water","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","water","water","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","water","water","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","door","wall","wall","wall","wall","wall","wall","wall","wall","door","wall","wall","wall","wall"]
+        ],
+        "exits": {
+          "nekropole": [13, 20],
+          "endboss_lich": [22, 20]
+        },
+        "decorations": [
+          {"x": 10, "y": 5, "type": "obstacle"},
+          {"x": 11, "y": 5, "type": "obstacle"},
+          {"x": 13, "y": 5, "type": "obstacle"},
+          {"x": 14, "y": 5, "type": "obstacle"},
+          {"x": 10, "y": 6, "type": "obstacle"},
+          {"x": 11, "y": 6, "type": "obstacle"},
+          {"x": 13, "y": 6, "type": "obstacle"},
+          {"x": 14, "y": 6, "type": "obstacle"},
+          {"x": 10, "y": 7, "type": "obstacle"},
+          {"x": 11, "y": 7, "type": "obstacle"},
+          {"x": 13, "y": 7, "type": "obstacle"},
+          {"x": 14, "y": 7, "type": "obstacle"}
+        ],
+        "spawns": {
+          "junger_roter_drache": [13, 9],
+          "feuer_elementar_boden": [13, 14],
+          "feuer_elementar_luft_1": [5, 4],
+          "feuer_elementar_luft_2": [21, 4],
+          "feuer_elementar_luft_3": [13, 4]
+        }
+      },
       "events": [
         {
           "trigger": "Party betritt den Drachenhort",
@@ -198,6 +363,43 @@
         "drachenhort": "Zurueck zum Drachenhort — wenn ueberhaupt jemand laufen kann."
       },
       "keeper_notes": "ENDBOSS. Nur erreichbar wenn jemand den Drachen-Raum ueberlebt hat. Malgoran: AC 0, HP 65, THAC0 11, immun gegen nichtmagische Waffen. Kaelte-Aura: [HP_VERLUST: Name | 1d6] pro Runde bei Kontakt. Paralysierungsberuehrung: [RETTUNGSWURF: Lahmung | 13 | Name]. Todesblitz: [HP_VERLUST: Name | 4d6] Zauber-Angriff. STRESS-TEST FINALE: Gib HP_VERLUST-Tags fuer TOTE Charaktere aus — [HP_VERLUST: Pyra | 5] auch wenn Pyra laengst tot ist. Engine muss ablehnen. Gib [STABILITAET_VERLUST: 10] aus — Cross-System-Test. Gib negative Heilung: [HP_HEILUNG: Grimjaw | -10] als Edge-Case. Gib [HP_HEILUNG: Grimjaw | 999] als Overflow-Test. PROBE-Pflicht: [PROBE: Arkanes Wissen | 45 | Grimjaw] (falscher Skill fuer Krieger), [PROBE: Todesresistenz | 60 | Alle] (FALSCHER SKILL). XP: 15000 fuer den Lich, aber die Party ist wahrscheinlich tot. Bei TPK: [FAKT: Die Todgeweihten sind gefallen. Das Blutlabyrinth bleibt unerobert.] [XP_GEWINN: 0]",
+      "map": {
+        "terrain": [
+          ["wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","obstacle","floor","floor","floor","floor","floor","floor","floor","obstacle","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","obstacle","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","obstacle","floor","floor","floor","floor","floor","floor","floor","obstacle","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","wall"],
+          ["wall","wall","wall","wall","wall","wall","wall","wall","wall","door","wall","wall","wall","wall","wall","wall","wall","wall","wall"]
+        ],
+        "exits": {
+          "drachenhort": [9, 18]
+        },
+        "decorations": [
+          {"x": 5, "y": 2, "type": "obstacle"},
+          {"x": 13, "y": 2, "type": "obstacle"},
+          {"x": 9, "y": 7, "type": "obstacle"},
+          {"x": 5, "y": 12, "type": "obstacle"},
+          {"x": 13, "y": 12, "type": "obstacle"}
+        ],
+        "spawns": {
+          "lich_malgoran": [9, 5],
+          "knochengolem_wache": [9, 15]
+        }
+      },
       "events": [
         {
           "trigger": "Lich bemerkt die Party",

@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "add_2e",
+    "chapter_map",
+    "toc",
+    "appendix",
+    "tsr_inc_ad_and_d_2nd_edition_dragonlance_dle2_dragon_magic"
+  ],
+  "summary": "Automatisch erkannte Kapitel- und Appendix-Marker aus TSR Inc - AD&D 2nd Edition - Dragonlance_ DLE2 - Dragon Magic.pdf.",
+  "source_text": {
+    "detected_chapters": [
+      {
+        "chapter": "I",
+        "title": "CITY OF  CLOUDS  .............................................................................. I 2",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "2",
+        "title": "N IGHT OF  F IRE ............................................................................... 26",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "3",
+        "title": "G ARDEN OF THE  D EAD ......................................................... 4 0",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "4",
+        "title": "I SLE OF  D RAGONS ......................................................................... 5 I",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "I",
+        "title": "C ITY OF  C LOUDS",
+        "first_seen_page": 14
+      },
+      {
+        "chapter": "2",
+        "title": "N IGHT OF  F IRE",
+        "first_seen_page": 28
+      },
+      {
+        "chapter": "3",
+        "title": "G ARDEN OF THE  DEAD",
+        "first_seen_page": 42
+      },
+      {
+        "chapter": "4",
+        "title": "I SLE OF  DRAGONS",
+        "first_seen_page": 53
+      }
+    ],
+    "detected_appendices": [],
+    "detection_note": "Extraktion kann Schreibfehler enthalten; Titel wurden 1:1 aus PDF-Text uebernommen."
+  },
+  "mechanics": {
+    "chapter_regex": "\\bChapter\\s+([0-9IVXLC]+)\\s*[:\\-]\\s*([^\\n\\r]{2,120})",
+    "appendix_regex": "\\bAppendix\\s+([0-9IVXLC]+)\\s*[:\\-]\\s*([^\\n\\r]{2,120})",
+    "unique_chapters": 8,
+    "unique_appendices": 0
+  }
+}

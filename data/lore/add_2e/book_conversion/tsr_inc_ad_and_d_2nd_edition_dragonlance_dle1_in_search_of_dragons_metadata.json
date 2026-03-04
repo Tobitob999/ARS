@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "add_2e",
+    "source_book",
+    "pdf_conversion",
+    "tsr_inc_ad_and_d_2nd_edition_dragonlance_dle1_in_search_of_dragons"
+  ],
+  "summary": "Metadaten der PDF-zu-JSON-Konvertierung fuer TSR Inc - AD&D 2nd Edition - Dragonlance_ DLE1 - In Search of Dragons.pdf.",
+  "source_text": {
+    "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLE1 - In Search of Dragons.pdf",
+    "source_path": "g:\\meine ablage\\add2e\\tsr inc - ad&d 2nd edition - dragonlance_ dle1 - in search of dragons.pdf",
+    "format": "pdf",
+    "page_count": 78,
+    "extracted_characters": 358294,
+    "extraction_timestamp": "2026-03-02T10:53:55",
+    "toc_candidate_pages": [
+      3,
+      38,
+      47
+    ],
+    "empty_or_unreadable_pages": [
+      1,
+      2,
+      33,
+      34,
+      36,
+      42,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      78
+    ]
+  },
+  "mechanics": {
+    "extractor": "pypdf.PdfReader.extract_text",
+    "output_files": [
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dragonlance_dle1_in_search_of_dragons_pages.jsonl",
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dragonlance_dle1_in_search_of_dragons_chapter_map.json",
+      "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_dragonlance_dle1_in_search_of_dragons_metadata.json"
+    ]
+  }
+}

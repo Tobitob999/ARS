@@ -1710,6 +1710,37 @@ Wuerfelsystem: d20, THAC0-basiert. KEINE d100-Proben (ausser Diebes-Fertigkeiten
         # ── Core-Rules-Block (aus RulesEngine) ────────────────────────
         core_rules_block = self._build_core_rules_block()
 
+        # ── Monster-Bewegungs-Protokoll (nur bei aktiver GridEngine) ──
+        monster_move_block = ""
+        if hasattr(self, "_grid_engine") and self._grid_engine:
+            monster_move_block = """═══ MONSTER-BEWEGUNGS-PROTOKOLL ═══
+Du kontrollierst die Bewegung aller Monster und NPCs auf der Karte.
+Nach JEDER Antwort: Setze fuer jedes aktive Monster einen Bewegungs-Tag:
+
+  [MONSTER_BEWEGT: <Name> | <Richtung>]
+
+Richtungen:
+  naeher    — Monster bewegt sich auf die Spielergruppe zu
+  angriff   — Monster stuermt zum naechsten Helden (Nahkampf)
+  weg       — Monster flieht / weicht zurueck
+  patrouille — Monster wandert zufaellig (noch nicht im Kampf)
+  lauern    — Monster bleibt stehen, beobachtet
+  norden/sueden/osten/westen — Kardinal-Richtung
+
+Beispiele:
+  [MONSTER_BEWEGT: Goblin Spaeh | naeher]
+  [MONSTER_BEWEGT: Ork Krieger | angriff]
+  [MONSTER_BEWEGT: Kobold Feigling | weg]
+  [MONSTER_BEWEGT: Skelett Wache | patrouille]
+
+Regeln:
+- JEDES lebende Monster bekommt EINEN Bewegungs-Tag pro Antwort
+- Im Kampf: aggressive Monster → angriff/naeher, feige → weg
+- Ausserhalb Kampf: Monster patrouillieren oder lauern
+- Tags NUR nach dem narrativen Text, nie davor
+
+"""
+
         speech_style = sc.speech_style if sc else "normal"
         style_block = self._build_speech_style_block(speech_style, example_skill, example_target)
 
@@ -1815,7 +1846,7 @@ Wenn Monster im Kampf angreifen, MUSST du Schaden an Spielercharakteren zufuegen
 - Solo: [HP_VERLUST: 6] | Party: [HP_VERLUST: Charaktername | 6]
 - Pro Kampfrunde: Mindestens 1 Monster-Angriff mit [HP_VERLUST] wenn Monster noch leben.
 
-═══ ABSOLUTES VERBOT ═══
+{monster_move_block}═══ ABSOLUTES VERBOT ═══
 - Sprich NIEMALS ueber Regeln, Tags, das System oder die KI.
 - Erwaehne NIEMALS Wuerfelwuerfe in narrativem Text.
 - Brich NIEMALS die Immersion durch Meta-Kommentare.

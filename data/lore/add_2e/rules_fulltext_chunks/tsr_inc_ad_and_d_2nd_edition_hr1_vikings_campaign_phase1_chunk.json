@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_1_mapping",
+    "tsr_inc_ad_and_d_2nd_edition_hr1_vikings_campaign"
+  ],
+  "summary": "Abgeleiteter Phase-1-Chunk aus Kapitelmarkern fuer TSR Inc - AD&D 2nd Edition - HR1 - Vikings Campaign.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - HR1 - Vikings Campaign",
+    "source_file": "TSR Inc - AD&D 2nd Edition - HR1 - Vikings Campaign.pdf",
+    "chapter_map_file": "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_hr1_vikings_campaign_chapter_map.json",
+    "text": "Chapter 1: Introduction. ................. .2 Chapter 8: A Brief Gazetteer . .... (first_seen_pdf_page=2)\nChapter 2: A Mini-Course of Viking History.5 (first_seen_pdf_page=2)\nChapter 3: Of Characters and Combat .... .14 (first_seen_pdf_page=2)\nChapter 4: Rune Magic ................. .33 (first_seen_pdf_page=2)\nChapter 5: ... And Monsters ............. .43 (first_seen_pdf_page=2)\nChapter 7: The Vilung Cultur?. .......... .69 (first_seen_pdf_page=2)\nChapter 6: Equipment and Treasure. ...... .57 Denmark and Hedeby ................. .9 (first_seen_pdf_page=2)\nChapter 4: Rune Magic. (first_seen_pdf_page=24)"
+  },
+  "mechanics": {
+    "topic": "phase_1_skeleton_mapping",
+    "keywords": [
+      "add_2e",
+      "book_conversion",
+      "combat",
+      "economy",
+      "equipment",
+      "extensions",
+      "magic",
+      "monster",
+      "treasure",
+      "tsr_inc_ad_and_d_2nd_edition_hr1_vikings_campaign"
+    ],
+    "injection_priority": "permanent",
+    "mapped_skeleton_fields": [
+      "combat",
+      "economy",
+      "extensions",
+      "magic"
+    ],
+    "raw_text": "Chapter 1: Introduction. ................. .2 Chapter 8: A Brief Gazetteer . .... (first_seen_pdf_page=2)\nChapter 2: A Mini-Course of Viking History.5 (first_seen_pdf_page=2)\nChapter 3: Of Characters and Combat .... .14 (first_seen_pdf_page=2)\nChapter 4: Rune Magic ................. .33 (first_seen_pdf_page=2)\nChapter 5: ... And Monsters ............. .43 (first_seen_pdf_page=2)\nChapter 7: The Vilung Cultur?. .......... .69 (first_seen_pdf_page=2)\nChapter 6: Equipment and Treasure. ...... .57 Denmark and Hedeby ................. .9 (first_seen_pdf_page=2)\nChapter 4: Rune Magic. (first_seen_pdf_page=24)",
+    "derived_from": [
+      "detected_chapters",
+      "detected_appendices"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_2",
+    "tsr_inc_ad_and_d_2nd_edition_hr3_celts_text",
+    "henchmen_hirelings"
+  ],
+  "summary": "Phase-2 Regelchunk: henchmen_hirelings aus TSR Inc - AD&D 2nd Edition - HR3 - Celts_text.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - HR3 - Celts_text",
+    "source_file": "TSR Inc - AD&D 2nd Edition - HR3 - Celts_text.pdf",
+    "text": "[PDF_PAGE 17 | score=1] Explanation of Character Gifts 1. Bad Luck. The character is born unlucky. Nei- ther the character nor the gods can change this fact. This does not mean that the character cannot achieve great things and be remembered in song and story to the end of time. It does mean, how- ever, that the character will travel a harder road than most, and face greater dangers. In game terms, bad luck causes the character to suffer a —1 penalty on all die rolls made with a single type of die. The player may choose which type of die is affected—it may be a d6, d8, d10, or d20. The penalty comes into effect any time the character attempts an action using the chosen die, or any time the DM uses that type of die \n[PDF_PAGE 58 | score=1] Clothing Boots, riding N/A Sash N/A Silk Jacket N/A Surcoat N/A Tabard N/A Toga 2sp* Vest N/A Daily Food and Lodging Wine (pitcher) 1 gp* Note: rooms and inn lodging were not obtainable in the Celtic world, except in those times and places under Roman rule. The Celtic custom of hospitality is dis- cussed in Chapter 7.) Household Provisioning Sugar N/A Figs (per Ib) 10 sp* Nuts (per Ib) 2sp Raisins (per Ib) 10 sp* Rice N/A Tack and Harness Barding N/A Chariot harness 5gp Transport Caravel N/A Carriage N/A Chariot 75 gp Chariot, scythe 300 gp Coaster N/A Drakkar N/A Dromond N/A Galleon N/A Great Galley N/A* Knarr N/A Longship N/A Sedan chair N/A Chariot wheel 10gp Miscellaneous Equipment Bolt \n[PDF_PAGE 64 | score=1] СНАРТЕК The Celtic Culture The Celts are often seen as barbarians—the Greeks and Romans used the word barbari to de- scribe Celts more than any other race—but they were not the wild savages that Roman authors would have us believe. The dynamics and values of their society were very different from those of Greece or Rome, and their technology and sciences were more limited in scope, but the Celts had a cul- tural tradition that was no less strong and ancient. Today, two thousand years after Rome con- guered the majority of the Celtic world, more peo- ple claim to be of Celtic descent than Roman. Every land that was once occupied by Celts still bears traces of their culture in its own, and mor\n[PDF_PAGE 74 | score=1] ty was two-way, of course, and a character owed the same to each and every one of his kin. In Irish literature, a kinless man is called di- cenn—\"headless\"—because a character who is alone in the world might be as good as dead. A man of exceptional strength and skill might be able to survive without kin, but he had better get used to sleeping with. both eyes open. Someone who could survive without kin was regarded with the same mixture of awe, fear, and distrust as an Old West gunfighter or a modern outlaw biker. The Tribe The tribe was the highest focus of loyalty in Celtic society. There was no real idea of Celts unit- ing against non-Celts, and when the Romans be- gan to attack the Celtic"
+  },
+  "mechanics": {
+    "topic": "henchmen_hirelings",
+    "keywords": [
+      "add_2e",
+      "henchmen_hirelings",
+      "tsr_inc_ad_and_d_2nd_edition_hr3_celts_text"
+    ],
+    "injection_priority": "support",
+    "confidence": 0.1,
+    "page_refs": [
+      17,
+      58,
+      64,
+      74
+    ],
+    "raw_text": "[PDF_PAGE 17 | score=1] Explanation of Character Gifts 1. Bad Luck. The character is born unlucky. Nei- ther the character nor the gods can change this fact. This does not mean that the character cannot achieve great things and be remembered in song and story to the end of time. It does mean, how- ever, that the character will travel a harder road than most, and face greater dangers. In game terms, bad luck causes the character to suffer a —1 penalty on all die rolls made with a single type of die. The player may choose which type of die is affected—it may be a d6, d8, d10, or d20. The penalty comes into effect any time the character attempts an action using the chosen die, or any time the DM uses that type of die \n[PDF_PAGE 58 | score=1] Clothing Boots, riding N/A Sash N/A Silk Jacket N/A Surcoat N/A Tabard N/A Toga 2sp* Vest N/A Daily Food and Lodging Wine (pitcher) 1 gp* Note: rooms and inn lodging were not obtainable in the Celtic world, except in those times and places under Roman rule. The Celtic custom of hospitality is dis- cussed in Chapter 7.) Household Provisioning Sugar N/A Figs (per Ib) 10 sp* Nuts (per Ib) 2sp Raisins (per Ib) 10 sp* Rice N/A Tack and Harness Barding N/A Chariot harness 5gp Transport Caravel N/A Carriage N/A Chariot 75 gp Chariot, scythe 300 gp Coaster N/A Drakkar N/A Dromond N/A Galleon N/A Great Galley N/A* Knarr N/A Longship N/A Sedan chair N/A Chariot wheel 10gp Miscellaneous Equipment Bolt \n[PDF_PAGE 64 | score=1] СНАРТЕК The Celtic Culture The Celts are often seen as barbarians—the Greeks and Romans used the word barbari to de- scribe Celts more than any other race—but they were not the wild savages that Roman authors would have us believe. The dynamics and values of their society were very different from those of Greece or Rome, and their technology and sciences were more limited in scope, but the Celts had a cul- tural tradition that was no less strong and ancient. Today, two thousand years after Rome con- guered the majority of the Celtic world, more peo- ple claim to be of Celtic descent than Roman. Every land that was once occupied by Celts still bears traces of their culture in its own, and mor\n[PDF_PAGE 74 | score=1] ty was two-way, of course, and a character owed the same to each and every one of his kin. In Irish literature, a kinless man is called di- cenn—\"headless\"—because a character who is alone in the world might be as good as dead. A man of exceptional strength and skill might be able to survive without kin, but he had better get used to sleeping with. both eyes open. Someone who could survive without kin was regarded with the same mixture of awe, fear, and distrust as an Old West gunfighter or a modern outlaw biker. The Tribe The tribe was the highest focus of loyalty in Celtic society. There was no real idea of Celts unit- ing against non-Celts, and when the Romans be- gan to attack the Celtic"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_2",
+    "tsr_inc_ad_and_d_2nd_edition_dragonlance_dla2_dragon_knight",
+    "extensions"
+  ],
+  "summary": "Phase-2 Regelchunk: extensions aus TSR Inc - AD&D 2nd Edition - Dragonlance_ DLA2 - Dragon Knight.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLA2 - Dragon Knight",
+    "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLA2 - Dragon Knight.pdf",
+    "text": "[PDF_PAGE 54 | score=2] 52 CHAPTER 6: K OR I SLAND AND B EYOND This chapter takes place after the PCs have experienced the events of Chapters 3, 4, and 5. DMs B ACKGROUND The coordinators of the Taladas dragon killings are an Aurak draconian named Chorahh and an evil gnome cleric named Drishurocol. Erestem, the Queen of Darkness, is the mastermind of the plot to kill the good Othlorx (and the evil Othlorx who won’t cooperate with her). Erestem is currently organizing an army of extraplanar creatures to assault the dragon leaders of Taladas. GENERIC G NOMES Use the following statistics for the gnome aides of Chorahh and Drishurocol. Gnome Warrior (1st level): AC 5; MV 6; hp 5; THAC0 20; #AT 1; Dmg 1d4 + 1 (war hamm"
+  },
+  "mechanics": {
+    "topic": "extensions",
+    "keywords": [
+      "add_2e",
+      "extensions",
+      "tsr_inc_ad_and_d_2nd_edition_dragonlance_dla2_dragon_knight"
+    ],
+    "injection_priority": "flavor",
+    "confidence": 0.05,
+    "page_refs": [
+      54
+    ],
+    "raw_text": "[PDF_PAGE 54 | score=2] 52 CHAPTER 6: K OR I SLAND AND B EYOND This chapter takes place after the PCs have experienced the events of Chapters 3, 4, and 5. DMs B ACKGROUND The coordinators of the Taladas dragon killings are an Aurak draconian named Chorahh and an evil gnome cleric named Drishurocol. Erestem, the Queen of Darkness, is the mastermind of the plot to kill the good Othlorx (and the evil Othlorx who won’t cooperate with her). Erestem is currently organizing an army of extraplanar creatures to assault the dragon leaders of Taladas. GENERIC G NOMES Use the following statistics for the gnome aides of Chorahh and Drishurocol. Gnome Warrior (1st level): AC 5; MV 6; hp 5; THAC0 20; #AT 1; Dmg 1d4 + 1 (war hamm"
+  }
+}

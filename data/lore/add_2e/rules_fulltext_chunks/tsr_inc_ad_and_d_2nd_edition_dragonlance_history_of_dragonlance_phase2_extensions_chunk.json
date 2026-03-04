@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_2_fallback",
+    "tsr_inc_ad_and_d_2nd_edition_dragonlance_history_of_dragonlance",
+    "extensions"
+  ],
+  "summary": "Fallback Phase-2 Regelchunk: extensions aus TSR Inc - AD&D 2nd Edition - Dragonlance_ History of Dragonlance.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - Dragonlance_ History of Dragonlance",
+    "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ History of Dragonlance.pdf",
+    "text": "TSR Inc - AD&D 2nd Edition - Dragonlance_ History of Dragonlance.pdf"
+  },
+  "mechanics": {
+    "topic": "extensions",
+    "keywords": [
+      "add_2e",
+      "dragonlance",
+      "edition",
+      "extensions",
+      "fallback",
+      "history",
+      "tsr_inc_ad_and_d_2nd_edition_dragonlance_history_of_dragonlance"
+    ],
+    "injection_priority": "flavor",
+    "confidence": 0.1,
+    "page_refs": [
+      1
+    ],
+    "raw_text": "TSR Inc - AD&D 2nd Edition - Dragonlance_ History of Dragonlance.pdf"
+  }
+}

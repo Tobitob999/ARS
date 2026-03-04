@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_2",
+    "tsr_inc_ad_and_d_2nd_edition_priest_spell_compendium_volume_2_text",
+    "encumbrance"
+  ],
+  "summary": "Phase-2 Regelchunk: encumbrance aus TSR Inc - AD&D 2nd Edition - Priest Spell Compendium Volume 2_text.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - Priest Spell Compendium Volume 2_text",
+    "source_file": "TSR Inc - AD&D 2nd Edition - Priest Spell Compendium Volume 2_text.pdf",
+    "text": "[PDF_PAGE 88 | score=3] Lightning Lance it, reducing its attack and saving throw rolls by 4 and worsening its Armor Class by 4. The caster can extinguish the light at any time by uttering a single word. Light spells are not cumulative—mul- tiple castings do not provide a brighter light. The spell is reversible, causing darkness in the same area and under the same conditions as the light spell, but with half the duration. Magical darkness is equal to that of an unlit interior room—pitch darkness. Any normal light source or magical light source of lesser intensity than full daylight does not function in magical darkness. A darkness spell cast directly against a light spell cancels both, and vice versa. Notes: Common \n[PDF_PAGE 25 | score=1] Greed, Abbathor’s - spell once. If the individual behind the threat fails a saving throw vs. spell, the savant glimpses a momen- tary vision of the enemy—lich, demon, necromancer, paladin, and so on. An enemy who makes a success- ful saving throw vs. spell also glimpses a vision of the savant. At the DM’s discretion, this spell might be used on behalf of another individual not directly con- nected with the savant’s religion. Notes: Restricted to savant-clerics, common. (Updated from DraGoN Magazine.) Greed, Abbathor’s See Abbathor’s greed. Greenwood (Alteration) Sphere: Plant Level: 3 Range: 10 yds./level Components: V, S, M Casting Time: 6 Duration: | turn/level Area of Effect: 9 cu. ft.+1 \n[PDF_PAGE 248 | score=1] Sense Nature of Spirit — Shaman Ne A seeking sword moves with Strength enough to parry and hold back another blade wielded by a strong human or humanoid. It can be used to shat- ter glass objects, spike open doors, puncture sacks, or search for unseen opponents by sweeping through apparently empty spaces or across win- dowsills and thresholds, The material components are a drop of mercury and a human hair. Notes: Granted by Helm the Vigilant of the FORGOTTEN REALMS setting. Segojan’s Armor — Gnome (Abjuration, Enchantment/Charm) Sphere: Plant Level: 1 Range: Touch Components: V, S, M Casting Time: 1 rd. Duration: | day Area of Effect: Creates | suit of armor Saving Throw: None Segojan's armo"
+  },
+  "mechanics": {
+    "topic": "encumbrance",
+    "keywords": [
+      "add_2e",
+      "encumbrance",
+      "tsr_inc_ad_and_d_2nd_edition_priest_spell_compendium_volume_2_text"
+    ],
+    "injection_priority": "core",
+    "confidence": 0.125,
+    "page_refs": [
+      25,
+      88,
+      248
+    ],
+    "raw_text": "[PDF_PAGE 88 | score=3] Lightning Lance it, reducing its attack and saving throw rolls by 4 and worsening its Armor Class by 4. The caster can extinguish the light at any time by uttering a single word. Light spells are not cumulative—mul- tiple castings do not provide a brighter light. The spell is reversible, causing darkness in the same area and under the same conditions as the light spell, but with half the duration. Magical darkness is equal to that of an unlit interior room—pitch darkness. Any normal light source or magical light source of lesser intensity than full daylight does not function in magical darkness. A darkness spell cast directly against a light spell cancels both, and vice versa. Notes: Common \n[PDF_PAGE 25 | score=1] Greed, Abbathor’s - spell once. If the individual behind the threat fails a saving throw vs. spell, the savant glimpses a momen- tary vision of the enemy—lich, demon, necromancer, paladin, and so on. An enemy who makes a success- ful saving throw vs. spell also glimpses a vision of the savant. At the DM’s discretion, this spell might be used on behalf of another individual not directly con- nected with the savant’s religion. Notes: Restricted to savant-clerics, common. (Updated from DraGoN Magazine.) Greed, Abbathor’s See Abbathor’s greed. Greenwood (Alteration) Sphere: Plant Level: 3 Range: 10 yds./level Components: V, S, M Casting Time: 6 Duration: | turn/level Area of Effect: 9 cu. ft.+1 \n[PDF_PAGE 248 | score=1] Sense Nature of Spirit — Shaman Ne A seeking sword moves with Strength enough to parry and hold back another blade wielded by a strong human or humanoid. It can be used to shat- ter glass objects, spike open doors, puncture sacks, or search for unseen opponents by sweeping through apparently empty spaces or across win- dowsills and thresholds, The material components are a drop of mercury and a human hair. Notes: Granted by Helm the Vigilant of the FORGOTTEN REALMS setting. Segojan’s Armor — Gnome (Abjuration, Enchantment/Charm) Sphere: Plant Level: 1 Range: Touch Components: V, S, M Casting Time: 1 rd. Duration: | day Area of Effect: Creates | suit of armor Saving Throw: None Segojan's armo"
+  }
+}

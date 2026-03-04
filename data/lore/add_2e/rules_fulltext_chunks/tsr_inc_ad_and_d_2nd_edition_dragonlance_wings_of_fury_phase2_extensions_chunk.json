@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_2_fallback",
+    "tsr_inc_ad_and_d_2nd_edition_dragonlance_wings_of_fury",
+    "extensions"
+  ],
+  "summary": "Fallback Phase-2 Regelchunk: extensions aus TSR Inc - AD&D 2nd Edition - Dragonlance_ Wings of Fury.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Wings of Fury",
+    "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Wings of Fury.pdf",
+    "text": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Wings of Fury.pdf"
+  },
+  "mechanics": {
+    "topic": "extensions",
+    "keywords": [
+      "add_2e",
+      "dragonlance",
+      "edition",
+      "extensions",
+      "fallback",
+      "fury",
+      "tsr_inc_ad_and_d_2nd_edition_dragonlance_wings_of_fury",
+      "wings"
+    ],
+    "injection_priority": "flavor",
+    "confidence": 0.1,
+    "page_refs": [
+      1
+    ],
+    "raw_text": "TSR Inc - AD&D 2nd Edition - Dragonlance_ Wings of Fury.pdf"
+  }
+}

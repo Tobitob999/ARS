@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_2",
+    "tsr_inc_ad_and_d_2nd_edition_dragonlance_dlr2_taladas_the_minotaurs",
+    "movement"
+  ],
+  "summary": "Phase-2 Regelchunk: movement aus TSR Inc - AD&D 2nd Edition - Dragonlance_ DLR2 - Taladas, The Minotaurs.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLR2 - Taladas, The Minotaurs",
+    "source_file": "TSR Inc - AD&D 2nd Edition - Dragonlance_ DLR2 - Taladas, The Minotaurs.pdf",
+    "text": "[PDF_PAGE 62 | score=1] Children of the Sea CLIMATE/TERRAIN: FREQUENCY: ORGANIZATION: ACTIVITY CYCLE: DIET: INTELLIGENCE: TREASURE: ALIGNMENT: NO. APPEARING: Standard Accantus Ocean, Temperate Ocean, Coastal Rare Very rare Solitary Solitary Any Any Omnivorous Omnivorous Very (11-12) Average (8-10) See below Nil Neutral Chaotic Neutral 1-2 1 ARMOR CLASS: 75 MOVEMENT: 12, Sw 12 6, Sw 15 HIT DICE: 2 4 THAC0: 19 17 NO. OF ATTACKS: 1 2 DAMAGE/ATTACK: By weapon 1-8/1-8 SPECIAL ATTACKS: Nil See below SPECIAL DEFENSES: Nil See below MAGIC RESISTANCE: Nil Nil SIZE: M (5’-7’) M (5’-7’) MORALE: Average (8-10) Steady (11-12) XP VALUE: 120 650 In the secluded villages, there are people who are not quite peo- ple. Their faces be\n[PDF_PAGE 63 | score=1] Grain Nymph CLIMATE/TERRAIN: Farmland FREQUENCY: Rare ORGANIZATION: Solitary ACTIVITY CYCLE: Any DIET: Nil INTELLIGENCE: Exceptional (16) TREASURE: Nil ALIGNMENT: Neutral NO. APPEARING: 1-2 ARMOR CLASS: 7 MOVEMENT: 15 HIT DICE: 3 THAC0: 17 NO. OF ATTACKS: 0 DAMAGE/ATTACK: Nil SPECIAL ATTACKS: See below SPECIAL DEFENSES: See below MAGIC RESISTANCE: 50% SIZE: M (5’-6’) MORALE: Unsteady (7) XP VALUE: 1,400 Grain nymphs are the cultivated version of their woodland sis- ters. These too are extraordinarily beautiful, possessing great ap- peal for most males. They are native to the League of Minotaurs, originally hailing from the farmland areas. They speak the nymph tongue, minotaur, and common (Au\n[PDF_PAGE 64 | score=1] Yrasda Aphelka Thanic Ushama CLIMATE/TERRAIN: Temperate Subtropical Any Salt Water Fresh Water Salt Water FREQUENCY: Very Rare Very Rare Very Rare ORGANIZATION: Solitary Solitary Pod ACTIVITY CYCLE: DIET: INTELLIGENCE: Any Any Any Carnivore Omnivore Carnivore Very Very to High High (11-12) (11-14) (13-14) TREASURE: Nil ALIGNMENT: Neutral Any Evil NO. APPEARING: 1-2 Q Q (U) Any Good 1 2-12 ARMOR CLASS: MOVEMENT: HIT DICE: 875 12, Sw 3, 12, Sw 12 Sw 18 jet 12 43 5 THAC0: 17 18 16 NO. OF ATTACKS: 1 or 11 1 1 DAMAGE/ATTACK: By weapon 1-6 3-12 or 1 (x8), 1-4 SPECIAL ATTACKS: See below See below See below SPECIAL DEFENSES: See below See below See below MAGIC RESISTANCE: Nil Nil Nil SIZE: MORALE: X"
+  },
+  "mechanics": {
+    "topic": "movement",
+    "keywords": [
+      "add_2e",
+      "movement",
+      "tsr_inc_ad_and_d_2nd_edition_dragonlance_dlr2_taladas_the_minotaurs"
+    ],
+    "injection_priority": "core",
+    "confidence": 0.075,
+    "page_refs": [
+      62,
+      63,
+      64
+    ],
+    "raw_text": "[PDF_PAGE 62 | score=1] Children of the Sea CLIMATE/TERRAIN: FREQUENCY: ORGANIZATION: ACTIVITY CYCLE: DIET: INTELLIGENCE: TREASURE: ALIGNMENT: NO. APPEARING: Standard Accantus Ocean, Temperate Ocean, Coastal Rare Very rare Solitary Solitary Any Any Omnivorous Omnivorous Very (11-12) Average (8-10) See below Nil Neutral Chaotic Neutral 1-2 1 ARMOR CLASS: 75 MOVEMENT: 12, Sw 12 6, Sw 15 HIT DICE: 2 4 THAC0: 19 17 NO. OF ATTACKS: 1 2 DAMAGE/ATTACK: By weapon 1-8/1-8 SPECIAL ATTACKS: Nil See below SPECIAL DEFENSES: Nil See below MAGIC RESISTANCE: Nil Nil SIZE: M (5’-7’) M (5’-7’) MORALE: Average (8-10) Steady (11-12) XP VALUE: 120 650 In the secluded villages, there are people who are not quite peo- ple. Their faces be\n[PDF_PAGE 63 | score=1] Grain Nymph CLIMATE/TERRAIN: Farmland FREQUENCY: Rare ORGANIZATION: Solitary ACTIVITY CYCLE: Any DIET: Nil INTELLIGENCE: Exceptional (16) TREASURE: Nil ALIGNMENT: Neutral NO. APPEARING: 1-2 ARMOR CLASS: 7 MOVEMENT: 15 HIT DICE: 3 THAC0: 17 NO. OF ATTACKS: 0 DAMAGE/ATTACK: Nil SPECIAL ATTACKS: See below SPECIAL DEFENSES: See below MAGIC RESISTANCE: 50% SIZE: M (5’-6’) MORALE: Unsteady (7) XP VALUE: 1,400 Grain nymphs are the cultivated version of their woodland sis- ters. These too are extraordinarily beautiful, possessing great ap- peal for most males. They are native to the League of Minotaurs, originally hailing from the farmland areas. They speak the nymph tongue, minotaur, and common (Au\n[PDF_PAGE 64 | score=1] Yrasda Aphelka Thanic Ushama CLIMATE/TERRAIN: Temperate Subtropical Any Salt Water Fresh Water Salt Water FREQUENCY: Very Rare Very Rare Very Rare ORGANIZATION: Solitary Solitary Pod ACTIVITY CYCLE: DIET: INTELLIGENCE: Any Any Any Carnivore Omnivore Carnivore Very Very to High High (11-12) (11-14) (13-14) TREASURE: Nil ALIGNMENT: Neutral Any Evil NO. APPEARING: 1-2 Q Q (U) Any Good 1 2-12 ARMOR CLASS: MOVEMENT: HIT DICE: 875 12, Sw 3, 12, Sw 12 Sw 18 jet 12 43 5 THAC0: 17 18 16 NO. OF ATTACKS: 1 or 11 1 1 DAMAGE/ATTACK: By weapon 1-6 3-12 or 1 (x8), 1-4 SPECIAL ATTACKS: See below See below See below SPECIAL DEFENSES: See below See below See below MAGIC RESISTANCE: Nil Nil Nil SIZE: MORALE: X"
+  }
+}

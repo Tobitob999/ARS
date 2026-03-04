@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0.0",
+  "category": "book_conversion",
+  "tags": [
+    "add_2e",
+    "chapter_map",
+    "toc",
+    "appendix",
+    "tsr_inc_ad_and_d_2nd_edition_dragonlance_dlc3_classics_volume_3"
+  ],
+  "summary": "Automatisch erkannte Kapitel- und Appendix-Marker aus TSR Inc - AD&D 2nd Edition - Dragonlance_ DLC3 - Classics Volume 3.pdf.",
+  "source_text": {
+    "detected_chapters": [
+      {
+        "chapter": "1",
+        "title": "Griffon’s Flight . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "2",
+        "title": "The Bleeding Forest . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "3",
+        "title": "Hollow Glory . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "4",
+        "title": "The Web of Shadow & Night . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "5",
+        "title": "The Prophecy . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "6",
+        "title": "Flotsam . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "7",
+        "title": "The Blood Sea of Istar . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "8",
+        "title": "Istar of the Deep . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "9",
+        "title": "Friends in Need . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "10",
+        "title": "A Hidden Refuge . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "first_seen_page": 3
+      },
+      {
+        "chapter": "11",
+        "title": "Land of Dark Empires . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "first_seen_page": 4
+      },
+      {
+        "chapter": "12",
+        "title": "Dark Passages . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "first_seen_page": 4
+      },
+      {
+        "chapter": "13",
+        "title": "Glitterpalace . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "first_seen_page": 4
+      },
+      {
+        "chapter": "14",
+        "title": "The Neraka Plains . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "first_seen_page": 4
+      },
+      {
+        "chapter": "15",
+        "title": "Neraka . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "first_seen_page": 4
+      },
+      {
+        "chapter": "16",
+        "title": "The Temple of Darkness . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "first_seen_page": 4
+      }
+    ],
+    "detected_appendices": [],
+    "detection_note": "Extraktion kann Schreibfehler enthalten; Titel wurden 1:1 aus PDF-Text uebernommen."
+  },
+  "mechanics": {
+    "chapter_regex": "\\bChapter\\s+([0-9IVXLC]+)\\s*[:\\-]\\s*([^\\n\\r]{2,120})",
+    "appendix_regex": "\\bAppendix\\s+([0-9IVXLC]+)\\s*[:\\-]\\s*([^\\n\\r]{2,120})",
+    "unique_chapters": 16,
+    "unique_appendices": 0
+  }
+}

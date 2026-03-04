@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "category": "rules_fulltext_chunk",
+  "tags": [
+    "add_2e",
+    "book_conversion",
+    "phase_1_mapping",
+    "tsr_inc_ad_and_d_2nd_edition_tome_of_magic"
+  ],
+  "summary": "Abgeleiteter Phase-1-Chunk aus Kapitelmarkern fuer TSR Inc - AD&D 2nd Edition - Tome of Magic.pdf.",
+  "source_text": {
+    "book": "TSR Inc - AD&D 2nd Edition - Tome of Magic",
+    "source_file": "TSR Inc - AD&D 2nd Edition - Tome of Magic.pdf",
+    "chapter_map_file": "data/lore/add_2e/book_conversion/tsr_inc_ad_and_d_2nd_edition_tome_of_magic_chapter_map.json",
+    "text": "Chapter 1: How to Use Tome of Magic 3 (first_seen_pdf_page=3)\nChapter 2: Wizard Spells 16 (first_seen_pdf_page=3)\nChapter 3: Priest Spells 49 (first_seen_pdf_page=3)\nChapter 4: Magical Items 123 (first_seen_pdf_page=3)\nChapter i: How to Use Tome of Magic (first_seen_pdf_page=4)\nChapter 2: Wizard Spells (first_seen_pdf_page=17)\nChapter 3: Priest Spells (first_seen_pdf_page=50)\nChapter 4: Magical Items (Tables) (first_seen_pdf_page=124)\nAppendix 1: Wizard Spells by School 149 (first_seen_pdf_page=3)\nAppendix 2: Priest Spells by Sphere 152 (first_seen_pdf_page=3)\nAppendix 3: Alphabetical Index of Spells 155 (first_seen_pdf_page=3)\nAppendix i: Wizard Spells by School (first_seen_pdf_page=150)\nAppendix 1: Wizard Spells by School (first_seen_pdf_page=151)\nAppendix 2: Priest Spells by Sphere (first_seen_pdf_page=153)\nAppendix 3: Alphabetical Spell Index (first_seen_pdf_page=156)"
+  },
+  "mechanics": {
+    "topic": "phase_1_skeleton_mapping",
+    "keywords": [
+      "add_2e",
+      "book_conversion",
+      "magic",
+      "spell",
+      "tsr_inc_ad_and_d_2nd_edition_tome_of_magic"
+    ],
+    "injection_priority": "core",
+    "mapped_skeleton_fields": [
+      "magic"
+    ],
+    "raw_text": "Chapter 1: How to Use Tome of Magic 3 (first_seen_pdf_page=3)\nChapter 2: Wizard Spells 16 (first_seen_pdf_page=3)\nChapter 3: Priest Spells 49 (first_seen_pdf_page=3)\nChapter 4: Magical Items 123 (first_seen_pdf_page=3)\nChapter i: How to Use Tome of Magic (first_seen_pdf_page=4)\nChapter 2: Wizard Spells (first_seen_pdf_page=17)\nChapter 3: Priest Spells (first_seen_pdf_page=50)\nChapter 4: Magical Items (Tables) (first_seen_pdf_page=124)\nAppendix 1: Wizard Spells by School 149 (first_seen_pdf_page=3)\nAppendix 2: Priest Spells by Sphere 152 (first_seen_pdf_page=3)\nAppendix 3: Alphabetical Index of Spells 155 (first_seen_pdf_page=3)\nAppendix i: Wizard Spells by School (first_seen_pdf_page=150)\nAppendix 1: Wizard Spells by School (first_seen_pdf_page=151)\nAppendix 2: Priest Spells by Sphere (first_seen_pdf_page=153)\nAppendix 3: Alphabetical Spell Index (first_seen_pdf_page=156)",
+    "derived_from": [
+      "detected_chapters",
+      "detected_appendices"
+    ]
+  }
+}
