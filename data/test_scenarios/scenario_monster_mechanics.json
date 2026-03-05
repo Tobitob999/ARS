@@ -1,0 +1,66 @@
+{
+  "id": "scenario_monster_mechanics",
+  "name": "Monster-Mechaniken: Gift, Furcht, Regeneration, Atem",
+  "setup": {
+    "player": {
+      "name": "Testkaempfer",
+      "hp": 25,
+      "ac": 2,
+      "thac0": 16,
+      "weapon": "Langschwert",
+      "damage": "1d8+2"
+    },
+    "seed": 42
+  },
+  "steps": [
+    {
+      "synthetic_response": "Die Riesenspinne beisst zu! [GIFT: Riesenspinne | tod | -2] Du spuerst das Gift in deinen Adern!",
+      "assertions": [
+        {"type": "tag_extracted", "tag": "GIFT", "count": 1},
+        {"type": "validation_passes"}
+      ]
+    },
+    {
+      "synthetic_response": "Der Troll regeneriert! [REGENERATION: Troll | 3] Seine Wunden schliessen sich vor deinen Augen.",
+      "assertions": [
+        {"type": "tag_extracted", "tag": "REGENERATION", "count": 1},
+        {"type": "validation_passes"}
+      ]
+    },
+    {
+      "synthetic_response": "Der Drache speit Feuer! [ATEM_WAFFE: Roter Drache | feuer | 8d6] Eine Flammenwand rast auf dich zu!",
+      "assertions": [
+        {"type": "tag_extracted", "tag": "ATEM_WAFFE", "count": 1},
+        {"type": "validation_passes"}
+      ]
+    },
+    {
+      "synthetic_response": "Die Banshee kreischt! [FURCHT: Testkaempfer | flucht | 1d6] Du laeuft in Panik davon!",
+      "assertions": [
+        {"type": "tag_extracted", "tag": "FURCHT", "count": 1},
+        {"type": "validation_passes"}
+      ]
+    },
+    {
+      "synthetic_response": "Der Beholder fixiert dich. [MAGIC_RESISTANCE: Beholder | 55] Dein Zauber prallt ab!",
+      "assertions": [
+        {"type": "tag_extracted", "tag": "MAGIC_RESISTANCE", "count": 1},
+        {"type": "validation_passes"}
+      ]
+    },
+    {
+      "synthetic_response": "Der Werwolf knurrt. [WAFFEN_IMMUNITAET: Werwolf | +1] Nur magische Waffen verletzen ihn!",
+      "assertions": [
+        {"type": "tag_extracted", "tag": "WAFFEN_IMMUNITAET", "count": 1},
+        {"type": "validation_passes"}
+      ]
+    },
+    {
+      "synthetic_response": "Der Vampir saugt deine Lebenskraft! [LEVEL_DRAIN: Testkaempfer | 2] Du fuehlst dich schwaecher.",
+      "assertions": [
+        {"type": "tag_extracted", "tag": "LEVEL_DRAIN", "count": 1},
+        {"type": "validation_passes"}
+      ]
+    }
+  ]
+}

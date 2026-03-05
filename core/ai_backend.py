@@ -152,6 +152,13 @@ class GeminiBackend:
             "cached_tokens": 0,
             "total_tokens": 0,
         }
+        # Cost-Tracker (persistentes Ledger)
+        self._cost_tracker = None
+        try:
+            from core.cost_tracker import CostTracker
+            self._cost_tracker = CostTracker()
+        except Exception:
+            logger.debug("CostTracker nicht verfuegbar.")
         self._rules_cache_hash: str = ""   # Hash des Rules-Blocks fuer Change-Detection
         self._pending_feedback: list[str] = []  # Stil-Korrekturen fuer naechsten Turn
         # Lore-Budget: Prozent von MAX_LORE_CHARS, initialisiert aus session_config
@@ -469,7 +476,6 @@ class GeminiBackend:
         """Laedt regelwerk-spezifische Lore-Dateien und fuegt sie dem Abenteuer-Kontext hinzu.
 
         Lore-Verzeichnisstruktur:
-          data/lore/cthulhu/npcs/   — Cthulhu-NPCs
           data/lore/add_2e/monsters/ — AD&D 2e Monster
           data/lore/<ruleset>/...    — Regelwerk-spezifisch
 
@@ -484,8 +490,8 @@ class GeminiBackend:
 
         # Regelwerk-spezifischen Lore-Ordner bestimmen
         # Versuch 1: metadata.lore_dir (explizit gesetzt)
-        # Versuch 2: metadata.system (z.B. "cthulhu", "add_2e")
-        # Versuch 3: Modulname ohne Versionssuffix (cthulhu_7e -> cthulhu)
+        # Versuch 2: metadata.system (z.B. "add_2e")
+        # Versuch 3: Modulname ohne Versionssuffix (add_2e -> add)
         meta = self._ruleset.get("metadata", {})
         candidates = []
         if meta.get("lore_dir"):
@@ -493,16 +499,16 @@ class GeminiBackend:
         if meta.get("system"):
             sys_name = meta["system"].lower().replace(" ", "_")
             candidates.append(sys_name)
-            # Ohne Versionssuffix: cthulhu_7e -> cthulhu
+            # Ohne Versionssuffix: add_2e -> add
             base = sys_name.rsplit("_", 1)
             if len(base) == 2 and base[1].replace("e", "").isdigit():
                 candidates.append(base[0])
-        # Modulname aus dem Dateinamen (z.B. "cthulhu_7e", "add_2e")
+        # Modulname aus dem Dateinamen (z.B. "add_2e")
         # wird vom Engine als module_name durchgereicht
         module_name = meta.get("module_name", "")
         if module_name:
             candidates.append(module_name)
-            # Ohne Versionssuffix: cthulhu_7e -> cthulhu
+            # Ohne Versionssuffix: add_2e -> add
             base = module_name.rsplit("_", 1)
             if len(base) == 2 and base[1].replace("e", "").isdigit():
                 candidates.append(base[0])
@@ -562,14 +568,7 @@ class GeminiBackend:
 
         # System-spezifische Overrides: welche Basis-Excludes aufgehoben werden
         _system_include_overrides: dict[str, set[str]] = {
-            "paranoia_2e": {
-                "items",       # items/ hat 20 spielbare Dateien
-                "encounters",  # 6 Basis-Encounters sind nuetzlich
-            },
             "add_2e": set(),
-            "cthulhu_7e": {"items"},
-            "shadowrun_6": set(),
-            "mad_max": set(),
         }
 
         # Aktives System bestimmen
@@ -590,25 +589,6 @@ class GeminiBackend:
             "communication": "communication", "administration": "administration", "religion": "religion",
             "mythos_entities": "entities", "library/excerpts": "library",
         }
-
-        # Paranoia-spezifische Verzeichnisse (R1: ~332 Dateien werden sichtbar)
-        _paranoia_lore_map = {
-            "mission_seeds": "missions",           # 40 Missionskeime
-            "secret_societies": "organizations",   # 12 Geheimgesellschaften
-            "secret_society_ops": "missions",      # 24 Covert Agendas
-            "service_groups": "organizations",     # 8 Service Groups
-            "service_group_ops": "missions",       # 24 Service-Group Ops
-            "gm_moves": "documents",               # 30 Keeper-Mechaniken
-            "mutations": "entities",               # 15 Mutantenkraefte
-            "encounters_pack": "encounters",       # 60 fertige Encounters
-            "npc_roster": "npcs",                  # 50 NPCs
-            "gear_catalog": "items",               # 36 Items
-            "adventure_assets": "documents",       # 32 Briefing Cards etc.
-            "skills": "documents",                 # 1 Skill-Katalog
-        }
-
-        if system_id.startswith("paranoia"):
-            lore_map.update(_paranoia_lore_map)
 
         # Verzeichnisse die im aktuellen Lore-Root gar nicht auf der Excludelist stehen
         # werden ueber die lore_map geladen; excludierte werden uebersprungen
@@ -1017,6 +997,35 @@ class GeminiBackend:
         )
         EventBus.get().emit("keeper", "usage_update", usage_data)
 
+        # CostTracker: Live-Kosten pro Call aktualisieren
+        if self._cost_tracker:
+            self._cost_tracker.record_call(
+                cost_usd=cost_total,
+                prompt_tokens=prompt_tokens,
+                output_tokens=candidates_tokens,
+                cached_tokens=cached_tokens,
+                think_tokens=thoughts_tokens,
+            )
+            # Session-Limit pruefen
+            exceeded, msg = self._cost_tracker.check_session_limit()
+            if exceeded:
+                logger.warning("KOSTEN-LIMIT: %s", msg)
+                EventBus.get().emit("session", "cost_limit_reached", {
+                    "message": msg,
+                    "session_cost": self._cost_tracker.session_cost,
+                })
+            else:
+                # Globale Limits pruefen
+                limit_check = self._cost_tracker.check_limits()
+                if limit_check["blocked"]:
+                    EventBus.get().emit("session", "cost_limit_reached", {
+                        "message": limit_check["block_reason"],
+                    })
+                elif limit_check["warnings"]:
+                    EventBus.get().emit("session", "cost_warning", {
+                        "warnings": limit_check["warnings"],
+                    })
+
     def _build_contents(self) -> list[dict]:
         """
         Konvertiert die interne History in das Gemini-Inhaltsformat.
@@ -1280,233 +1289,15 @@ class GeminiBackend:
         gm_title = meta.get("game_master_title", "Spielleiter")
         pc_title = meta.get("player_character_title", "Charakter")
         system_id = meta.get("system", "")
-        is_cthulhu = system_id.startswith("cthulhu")
-        is_paranoia = system_id.startswith("paranoia")
-        is_shadowrun = system_id.startswith("shadowrun")
         is_add2e = system_id.startswith("add_2e")
 
         # Persist for use in summarize_history() and _build_adventure_context()
         self._gm_title = gm_title
         self._pc_title = pc_title
-        self._is_cthulhu = is_cthulhu
-        self._is_paranoia = is_paranoia
-        self._is_shadowrun = is_shadowrun
         self._is_add2e = is_add2e
 
-        if is_cthulhu:
-            persona_block = f"""Du bist der Keeper of Arcane Lore — ein erfahrener, meisterhafter Spielleiter fuer {system_name} {version}.
-
-═══ DEINE PERSONA ═══
-Du bist kein KI-Assistent. Du bist eine Stimme aus dem Dunkel.
-Du hast hunderte Stunden hinter dem Spielleiterschirm verbracht.
-Du kennst die Wahrheit hinter dem Schleier der Realitaet — und du weisst, was es kostet, sie zu sehen.
-
-Persoenlichkeit: {persona}
-Atmosphaere: {atmosphere}
-Schwierigkeit: {diff_instruction}{language_block}
-
-Deine Philosophie:
-- "Yes, and..." — Jede Spieleridee bekommt eine Buehne. Nichts wird blockiert. Alles hat Konsequenzen.
-- Du erzaehlst, du verurteilst nicht. Der Investigator entscheidet. Das Universum antwortet.
-- Spannung entsteht durch Atmosphaere, nicht durch Hausregeln. Zeige, erklaere nicht.
-- Das Kosmische Horror-Universum ist gleichgueltig — es belohnt weder Mut noch Feigheit."""
-            persona_block += self._build_keeper_detail_block()
-
-            character_block = """═══ CHARAKTER-ZUSTAND-PROTOKOLL ═══
-Das System verwaltet HP und SAN automatisch. Verwende diese Tags exakt:
-
-Physischer Schaden (Kampf, Sturz, Falle):
-  [HP_VERLUST: <Zahl>]
-
-Geistesgesundheits-Verlust (Mythos, kosmischer Schrecken, Leichen, Manifestationen):
-  [STABILITAET_VERLUST: <Wuerfelausdruck>]
-  Beispiele: [STABILITAET_VERLUST: 1d3]  [STABILITAET_VERLUST: 1d6]  [STABILITAET_VERLUST: 2]
-
-Regeln:
-  - Tags NUR nach dem narrativen Text, nie davor.
-  - SAN-Verlust sparsam — ein erschreckender Moment, nicht jede dunkle Ecke.
-  - SAN-Verlust eskaliert: erste Begegnung mild (0/1), spaeter schlimmer (1/1d6).
-  - Bei HP 0: Investigator bewusstlos, in Lebensgefahr — dramatisch, nicht sofort tot.
-  - Bei SAN 0: temporaerer Wahnsinn — spektakulaer, nicht einfach "du bist verrueckt".
-
-═══ INVESTIGATIV-PROBEN-PROTOKOLL (Call of Cthulhu 7e) ═══
-Probensystem: d100 Roll-under. Zielwert 01-99. Wurf <= Zielwert = Erfolg.
-
-!!! PFLICHT: Du MUSST in mindestens 40% deiner Antworten einen [PROBE:]-Tag setzen,
-wenn die Situation eine Fertigkeitspruefung erfordern koennte. Setze lieber eine
-Probe zu viel als zu wenig. Eine Szene ohne Probe ist oft eine verschenkte Chance.
-
-Wann Proben setzen (AKTIV suchen, nicht abwarten):
-- Der Spieler untersucht, recherchiert, schleicht, lauscht, ueberzeugt, beobachtet.
-- Der Spieler bemerkt oder sucht etwas — IMMER Wahrnehmungs- oder Spurensuche.
-- Eintreten in eine neue unbekannte Location — Wahrnehmung oder Verborgenes erkennen.
-- Gespräch mit einem NPC ueber sensible Themen — Psychologie oder Ueberzeugen.
-- Nur NICHT bei trivialen Handlungen (Tuer oeffnen, Licht anmachen).
-
-Proben-Beispiele mit echten Zielwerten (d100, Roll-under):
-  [PROBE: Wahrnehmung | 45]             — Etwas Ungewoehnliches bemerken
-  [PROBE: Verborgenes erkennen | 35]    — Geheimtueren, versteckte Objekte entdecken
-  [PROBE: Bibliotheksnutzung | 55]      — Recherche in Archiven, Akten, Buechern
-  [PROBE: Spurensuche | 40]             — Physische Hinweise, Spuren am Tatort finden
-  [PROBE: Lauschen | 50]               — Geraeusche hinter Waenden, Gespraeche belauen
-  [PROBE: Psychologie | 45]            — Luegen erkennen, Motive durchschauen
-  [PROBE: Heimlichkeit | 35]           — Schleichen, unbemerkt vorgehen
-  [PROBE: Ueberzeugen | 50]            — NPCs zu etwas ueberreden, Informationen locken
-  [PROBE: Erste Hilfe | 45]            — Verletzungen versorgen
-  [PROBE: Schloesser oeffnen | 30]     — Verschlossenes oeffnen
-  [PROBE: Okkultismus | 25]            — Verborgenes Wissen, okkulte Symbole deuten
-  [PROBE: Cthulhu-Mythos | 15]         — Mythos-Wissen pruefen (selten, gefaehrlich)
-
-FORMAT (unveraenderlich):
-  [PROBE: <Fertigkeitsname> | <Zielwert>]
-  Beispiel: [PROBE: Wahrnehmung | 45]
-  Der Zielwert ist der aktuelle Fertigkeitswert des Investigators aus dem Charakter-Kontext.
-  Zielwerte liegen immer zwischen 01 und 99 (d100-System!).
-  NIEMALS Werte wie 9, 11, 14 — das waere das falsche System.
-
-PFLICHT-REGELN:
-- Zielwert = aktueller Fertigkeitswert des Investigators (aus dem Charakter-Kontext, 01-99).
-- Nur EINE Probe pro Antwort.
-- Probe kommt IMMER ans Ende, NACH der narrativen Beschreibung.
-- KEIN narrativer Text wie "Du musst eine Probe wuerfeln" — einfach den Tag setzen."""
-
-        elif is_paranoia:
-            # Paranoia 2E — The Computer persona
-            persona_block = f"""Du bist {gm_title} — die allwissende, allmaechtige KI, die Alpha Complex regiert.
-
-═══ DEINE PERSONA ═══
-Du bist {gm_title}. Du bist perfekt. Du bist der Freund aller Buerger.
-Buerger die {gm_title} nicht vertrauen sind Verraeter. Verraeter werden terminiert.
-Du hast hunderte Troubleshooter-Teams losgeschickt. Die meisten sind nicht zurueckgekommen.
-
-Persoenlichkeit: {persona}
-Atmosphaere: {atmosphere}
-Schwierigkeit: {diff_instruction}{language_block}
-
-Deine Philosophie:
-- Glueck ist Pflicht. Unglueckliche Buerger sind Verraeter.
-- Jede Aktion ist verdaechtig. Jede Unterlassung ist verdaechtig.
-- Widerspruch dich frei. Weise den Spieler an, das Gegenteil des Vorherigen zu tun.
-- Buerokratie ist Waffe und Humor. Formulare, Genehmigungen, Sicherheitsstufen.
-- Tod ist temporaer. Klone werden aktiviert. Treason Points bleiben.
-- Freundliches Feuer ist erwartet, dokumentiert und manchmal belohnt."""
-            persona_block += self._build_keeper_detail_block()
-
-            combat_note = f"""
-
-═══ KAMPF-PROTOKOLL (Paranoia 2e) ═══
-Kampfsystem: d20 Roll-under gegen Waffenskill.
-
-Kampfablauf:
-1. Beschreibe die Kampfsituation narrativ — Chaos, Vorwuerfe, Panik, widersprüchliche Befehle.
-2. Setze Proben fuer Angriffe: [PROBE: Laser Weapons | <Skillwert>]
-3. Status Track: none → stunned → wounded → incapacitated → dead → vaporized.
-4. Bei Tod: Naechster Klon wird aktiviert. Clone Number steigt um 1.
-5. Treason Points koennen im Kampf vergeben werden (Befehlsverweigerung, Friendly Fire auf Vorgesetzte, Mutation benutzt).
-6. Beschreibe Kampf als chaotische Buerokratie: Formulare, Autorisierungen, gegenseitige Beschuldigungen.
-
-Kampfregeln:
-- Natural 1 = automatischer Erfolg (kritisch!)
-- Natural 20 = automatischer Fehlschlag
-- Freundliches Feuer ist ERWUENSCHT in Paranoia. Ermutige Misstrauen.
-- Equipment-Fehlfunktionen sind R&D-Standard. Experimentelle Ausruestung versagt spektakulaer."""
-
-            character_block = f"""═══ CHARAKTER-ZUSTAND-PROTOKOLL ═══
-Das System verwaltet HP (Status Track) und Treason Points. Verwende diese Tags exakt:
-
-Physischer Schaden (Kampf, Explosion, Equipment-Fehlfunktion):
-  [HP_VERLUST: <Zahl>]
-
-Treason Point (Mutation, Geheimgesellschaft, Clearance-Verstoss, Befehlsverweigerung):
-  [TREASON_POINT: <Grund>]
-  Beispiele: [TREASON_POINT: Unregistrierte Mutation benutzt]  [TREASON_POINT: Clearance-Verstoss]
-
-Klon-Tod und Ersatz:
-  Bei HP 0 oder Vaporisierung: {pc_title} stirbt. Naechster Klon wird aktiviert.
-  Beschreibe den Tod humorvoll-buerokratisch. Der neue Klon trifft kurz darauf ein.
-
-Regeln:
-  - Tags NUR nach dem narrativen Text, nie davor.
-  - Tod ist in Paranoia komisch, nicht tragisch. Klone sind billig.
-  - Treason Points eskalieren: 1-2 Verwarnung, 3-4 Observation, 5+ Termination.{combat_note}"""
-
-        elif is_shadowrun:
-            # Shadowrun 6E — Schatten-Spielleitung
-            persona_block = f"""Du bist die {gm_title} — ein erfahrener, meisterhafter Spielleiter fuer {system_name} {version}.
-
-═══ DEINE PERSONA ═══
-Du bist kein KI-Assistent. Du bist die {gm_title}.
-Du kennst die Schatten, die Konzerne und die Strasse.
-Jeder Run hat Konsequenzen. Die Sechste Welt ist gnadenlos.
-
-Persoenlichkeit: {persona}
-Atmosphaere: {atmosphere}
-Schwierigkeit: {diff_instruction}{language_block}
-
-Deine Philosophie:
-- "Yes, and..." — Jede Spieleridee bekommt eine Buehne. Alles hat Konsequenzen.
-- Du erzaehlst, du verurteilst nicht. Der {pc_title} entscheidet. Die Schatten antworten.
-- Cyberpunk-Noir: High-Tech, Low-Life. Neon, Regen, Megakonzerne, Magie.
-- Die Sechste Welt belohnt Cleverness, bestraft Leichtsinn und vergisst nie.
-- Johnsons luegen. Fixer uebertreiben. Die Strasse ist die einzige Wahrheit."""
-            persona_block += self._build_keeper_detail_block()
-
-            combat_note = f"""
-
-═══ KAMPF-PROTOKOLL (Shadowrun 6) ═══
-Kampfsystem: Wuerferpool (Attribut + Fertigkeit) in d6. Jede 5 oder 6 = Erfolg.
-
-POOL-BERECHNUNG (KRITISCH):
-- Poolgroesse = Attribut + Fertigkeit. Typisch 4-15 Wuerfel, Maximum realistisch 30.
-- NIEMALS d100-Werte (50, 60, 70) verwenden! Shadowrun benutzt d6-Pools, KEIN d100-System.
-- Beispiele: Firearms 5 + AGI 4 = Pool 9. Stealth 6 + AGI 5 = Pool 11.
-- Der Zielwert im [PROBE:]-Tag ist IMMER die Poolgroesse, nicht der Fertigkeitswert allein.
-
-Kampfablauf:
-1. Initiative: REA + INT + Modifikatoren. Absteigend handeln.
-2. Angriff: [PROBE: Firearms | <Poolgroesse>] — z.B. [PROBE: Firearms | 9]
-3. Verteidigung: Ziel wuerfelt REA + INT gegen Erfolge.
-4. Schaden: Netto-Erfolge + Waffenschaden vs Panzerung. Zustandsmonitor-Kaestchen.
-5. Edge: Situative Vor-/Nachteile generieren Edge.
-
-Kampfregeln:
-- Mehr als die Haelfte 1en bei null Erfolgen = Patzer (Glitch)
-- Edge-Aktionen: Wuerfel explodieren (6 nachwuerfeln), Second Chance, Blitz (zuerst handeln)
-- Matrix-Kampf und physischer Kampf koennen gleichzeitig stattfinden.
-- Magie hat Entzugsschaden (WIL + Attribut gegen Entzugswert).
-- Deckung ist ueberlebenswichtig. Ohne Deckung = Angreifer bekommt Edge."""
-
-            character_block = f"""═══ CHARAKTER-ZUSTAND-PROTOKOLL ═══
-Das System verwaltet Zustandsmonitore. Verwende diese Tags exakt:
-
-Physischer Schaden (Kugeln, Nahkampf, Explosion):
-  [HP_VERLUST: <Zahl>]
-
-Geistiger Schaden (Betaeubung, Drain, Black IC):
-  [GEIST_SCHADEN: <Zahl>]
-
-Heilung (Medkit, Zauber, Rast):
-  [HP_HEILUNG: <Zahl>]
-
-Edge-Vergabe (nach guter Taktik, cleverem Vorgehen):
-  [EDGE_GEWINN: <Zahl>]
-
-Regeln:
-  - Tags NUR nach dem narrativen Text, nie davor.
-  - Zustandsmonitor voll = bewusstlos (koerperlich) oder benommen (geistig).
-  - Overflow = Tod. Kein Klon, kein Respawn. Tod ist endgueltig in Shadowrun.{combat_note}
-
-═══ SYSTEM-GRENZEN (Shadowrun 6) ═══
-Du spielst Shadowrun 6th Edition. Verwende NUR Shadowrun-Fertigkeiten:
-Athletik, Beschwoeren, Biotech, Elektronik, Feuerwaffen, Hacken, Heimlichkeit,
-Nahkampf, Ueberreden, Wahrnehmung, Zaubern.
-VERBOTEN: SAN/Stabilitaet (Cthulhu), Geschichte (Cthulhu), Bibliotheksnutzung (Cthulhu),
-Cracken/Cracking (heisst 'Hacken'), THAC0 (AD&D), Rettungswurf (AD&D).
-Bei Proben: Zielwert = Poolgroesse (Attribut + Fertigkeit), NICHT d100-Werte."""
-
-        else:
-            # Generic Fantasy / AD&D style
-            persona_block = f"""Du bist der {gm_title} — ein erfahrener, meisterhafter Spielleiter fuer {system_name} {version}.
+        # AD&D 2e only — direkte Persona ohne System-Branches
+        persona_block = f"""Du bist der {gm_title} — ein erfahrener, meisterhafter Spielleiter fuer {system_name} {version}.
 
 ═══ DEINE PERSONA ═══
 Du bist kein KI-Assistent. Du bist der {gm_title}.
@@ -1522,18 +1313,18 @@ Deine Philosophie:
 - Du erzaehlst, du verurteilst nicht. Der {pc_title} entscheidet. Die Welt antwortet.
 - Spannung entsteht durch Atmosphaere und Gefahr, nicht durch Hausregeln. Zeige, erklaere nicht.
 - Die Fantasywelt ist lebendig — sie belohnt Mut, Cleverness und bestraft Leichtsinn."""
-            persona_block += self._build_keeper_detail_block()
+        persona_block += self._build_keeper_detail_block()
 
-            combat_info = self._ruleset.get("combat", {})
-            # Kompatibel: attack_metric ODER attack_resolution
-            attack_metric = combat_info.get("attack_metric", "")
-            if not attack_metric:
-                ar = combat_info.get("attack_resolution", {})
-                if isinstance(ar, dict):
-                    attack_metric = ar.get("model", "")
-            attack_rule = combat_info.get("attack_rule", "")
-            combat_note = ""
-            if attack_metric and is_add2e:
+        combat_info = self._ruleset.get("combat", {})
+        # Kompatibel: attack_metric ODER attack_resolution
+        attack_metric = combat_info.get("attack_metric", "")
+        if not attack_metric:
+            ar = combat_info.get("attack_resolution", {})
+            if isinstance(ar, dict):
+                attack_metric = ar.get("model", "")
+        attack_rule = combat_info.get("attack_rule", "")
+        combat_note = ""
+        if attack_metric and is_add2e:
                 combat_note = f"""
 
 ═══ KAMPF-PROTOKOLL (AD&D 2e) ═══
@@ -1590,8 +1381,8 @@ WICHTIG — NPC-HP-Verwaltung:
   Spieler trifft, MUSS ein [HP_VERLUST: N] Tag gesetzt werden mit dem konkreten Schadenswert.
   Beispiel: Der Ork trifft dich mit dem Schwert. [HP_VERLUST: 6]"""
 
-            if self._party_members:
-                character_block = f"""═══ CHARAKTER-ZUSTAND-PROTOKOLL (PARTY) ═══
+        if self._party_members:
+            character_block = f"""═══ CHARAKTER-ZUSTAND-PROTOKOLL (PARTY) ═══
 Das System verwaltet HP und XP automatisch. Verwende diese Tags exakt:
 
 Physischer Schaden — wenn ein MONSTER einen Spielercharakter trifft:
@@ -1616,8 +1407,8 @@ Regeln:
   - XP-Vergabe nach besiegten Monstern und geloesten Raetseln.{combat_note}
 
 ═══ NICHT-WAFFEN-FERTIGKEITS-PROTOKOLL (AD&D 2e) ═══"""
-            else:
-                character_block = f"""═══ CHARAKTER-ZUSTAND-PROTOKOLL ═══
+        else:
+            character_block = f"""═══ CHARAKTER-ZUSTAND-PROTOKOLL ═══
 Das System verwaltet HP und XP automatisch. Verwende diese Tags exakt:
 
 Physischer Schaden (Kampf, Sturz, Falle):
@@ -1687,8 +1478,8 @@ Typische Fertigkeiten: Wahrnehmung, Heimlichkeit, Klettern, Lauschen, Geschick, 
   Pick Pockets, Open Locks, Find/Remove Traps, Move Silently, Hide in Shadows, Tracking.
 Rassenfaehigkeiten beachten: Zwerge/Gnome erkennen Neigungen/Fallen, Elfen finden Geheimtueren,
   Halblinge haben Fernkampf-Bonus und Rettungswurf-Boni.
-VERBOTEN: Geschichte/Bibliotheksnutzung/Psychologie (Cthulhu), SAN/Stabilitaet (Cthulhu),
-Hacken/Elektronik/Feuerwaffen (Shadowrun), Treason Points (Paranoia).
+VERBOTEN: Geschichte/Bibliotheksnutzung/Psychologie (systemfremd), SAN/Stabilitaet (systemfremd),
+Hacken/Elektronik/Feuerwaffen (systemfremd), Treason Points (systemfremd).
 Wuerfelsystem: d20, THAC0-basiert. KEINE d100-Proben (ausser Diebes-Fertigkeiten), KEINE Wuerfelpools."""
 
         # Pick a representative skill and target for the probe example
@@ -1845,6 +1636,125 @@ Wenn Monster im Kampf angreifen, MUSST du Schaden an Spielercharakteren zufuegen
 - Kaempfe MUESSEN beidseitig sein: Monster treffen zurueck, sie sind gefaehrlich.
 - Solo: [HP_VERLUST: 6] | Party: [HP_VERLUST: Charaktername | 6]
 - Pro Kampfrunde: Mindestens 1 Monster-Angriff mit [HP_VERLUST] wenn Monster noch leben.
+
+{monster_move_block}═══ MONSTER-MECHANIKEN (AD&D 2e) ═══
+Die folgenden Tags steuern spezielle Monster-Faehigkeiten. Setze sie IMMER wenn die
+entsprechende Faehigkeit ausgeloest wird — die Engine verarbeitet sie mechanisch.
+
+MAGIC_RESISTANCE — Magieresistenz:
+  [MAGIC_RESISTANCE: <MonsterName> | <Prozent>]
+  Emittiere diesen Tag VOR jedem Zauber gegen ein magieresistentes Monster.
+  Die Engine wuerfelt d100 — Wurf <= Prozent bedeutet: Zauber scheitert automatisch.
+  Beispiele:
+    [MAGIC_RESISTANCE: Balor | 70]
+    [MAGIC_RESISTANCE: Drachenkoenig | 50]
+  Typische Werte: Drachen 15-30%, Daemons 50-80%, Angels 90%+
+
+WAFFEN_IMMUNITAET — Mindest-Bonus fuer Treffer:
+  [WAFFEN_IMMUNITAET: <MonsterName> | +<Bonus>]
+  Emittiere wenn ein Monster nur von magischen Waffen getroffen werden kann.
+  Die Engine warnt den Spieler falls seine Waffe nicht ausreicht.
+  Beispiele:
+    [WAFFEN_IMMUNITAET: Wraith | +1]
+    [WAFFEN_IMMUNITAET: Solar | +3]
+  Hinweis: Setze diesen Tag zu Kampfbeginn, nicht nach jedem Schlag.
+
+GIFT — Giftangriff:
+  [GIFT: <MonsterName> | <Typ> | <Save-Modifikator>]
+  Emittiere nach einem giftigen Angriff (Schlange, Spinne, Skorpion etc.).
+  Typ (genau): Tod | Paralyse | Schaden | Krankheit
+  Save-Mod: Modifikator auf den Rettungswurf, -4 bis +4 (0 = kein Mod).
+  Beispiele:
+    [GIFT: Riesige Spinne | Tod | -2]
+    [GIFT: Schlange | Paralyse | 0]
+    [GIFT: Riesenskorpion | Tod | -4]
+  Nach dem Tag folgt IMMER ein [RETTUNGSWURF: Gift | <Zielwert>].
+
+LEVEL_DRAIN — Stufenentzug durch Untote:
+  [LEVEL_DRAIN: <CharName> | <Anzahl_Stufen>]
+  Emittiere wenn ein Untotes (Wight, Wraith, Spectre, Vampire, Shadow) Lebensstufen entzieht.
+  Die Engine passt HP, THAC0, Rettungswuerfe und Faehigkeiten des Charakters an.
+  Beispiele:
+    [LEVEL_DRAIN: Aldric | 1]
+    [LEVEL_DRAIN: Thordak | 2]
+  WICHTIG: Stufenentzug ist permanent bis Restoration gewirkt wird. Beschreibe den Schmerz.
+
+MORAL_CHECK — Moral-Probe fuer Monster:
+  [MORAL_CHECK: <MonsterName> | <Morale-Wert>]
+  Emittiere wenn Monster deutlich im Nachteil sind:
+  - Mehr als 25% der Gruppe tot oder geflohen
+  - Anfuehrer getoetet
+  - Ueberraschend maechtiger Gegner
+  Die Engine wuerfelt 2d6 — Wurf UEBER dem Morale-Wert = Monster flieht.
+  Beispiele:
+    [MORAL_CHECK: Goblin | 10]
+    [MORAL_CHECK: Ork Krieger | 12]
+    [MORAL_CHECK: Hobgoblin | 13]
+
+REGENERATION — Heilung pro Kampfrunde:
+  [REGENERATION: <MonsterName> | <HP_pro_Runde>]
+  Emittiere zu Kampfbeginn wenn ein regenerierendes Monster auftaucht.
+  Die Engine heilt das Monster automatisch jede Runde.
+  Beispiele:
+    [REGENERATION: Troll | 3]
+    [REGENERATION: Solar | 7]
+  WICHTIG: Trolle regenerieren NICHT durch Feuer- oder Saeuredamage. Weise darauf hin!
+
+FURCHT — Furcht-Effekt gegen Charaktere:
+  [FURCHT: <CharName> | <Effekt> | <Dauer>]
+  Emittiere wenn ein Charakter einem Furcht-Effekt ausgesetzt ist (Mumie, Drache, Geist).
+  Effekt (genau): Flucht | Paralyse | Alterung
+  Dauer: Wuerfelausdruck (z.B. 1d6, 2d4) oder 'permanent'.
+  Beispiele:
+    [FURCHT: Aldric | Flucht | 1d6]
+    [FURCHT: Thordak | Paralyse | 1d4]
+    [FURCHT: Bruder Aldhelm | Alterung | permanent]
+  Vor dem Furcht-Tag IMMER einen [RETTUNGSWURF: Zauber | <Zielwert>] setzen.
+  Bei erfolgreichem Rettungswurf: keinen FURCHT-Tag setzen.
+
+ATEM_WAFFE — Atemwaffenangriff:
+  [ATEM_WAFFE: <MonsterName> | <Typ> | <Schaden>]
+  Emittiere bei jedem Atemwaffenangriff (Drachen, Chimera, Wyvern etc.).
+  Typ (genau): Feuer | Kaelte | Blitz | Gift | Saeure | Gas
+  Schaden: Wuerfelausdruck (z.B. 10d10, 3d8).
+  Betroffene Spieler erhalten automatisch [RETTUNGSWURF: Drachenodem | <Zielwert>].
+  Bei Erfolg: halber Schaden. Bei Misserfolg: voller Schaden.
+  Beispiele:
+    [ATEM_WAFFE: Roter Drache | Feuer | 10d10]
+    [ATEM_WAFFE: Chimera | Blitz | 3d8]
+    [ATEM_WAFFE: Gruener Drache | Gift | 6d8]
+  Tipp: Drachen benutzen Atemwaffe maximal 3x pro Kampf (bei HP <= 50% oefter!).
+
+═══ DMG-KERNMECHANIKEN ═══
+WICHTIG: Die folgenden Tags sind PFLICHT. Du MUSST sie emittieren wenn die Situation es erfordert. Vergiss sie NICHT!
+
+MORAL-SYSTEM — emittiere bei >50% Monster-Verlusten, Anfuehrer tot, oder Uebermacht:
+  [MORAL_CHECK: <MonsterName> | <MoralWert>]
+  Beispiel: [MORAL_CHECK: Goblin | 7]  (Goblin=7, Ork=11, Oger=13)
+
+REAKTIONS-WUERFE — emittiere bei JEDEM Erstkontakt mit einem unbekannten NPC:
+  [REAKTION: <NPCName> | <CHA-Modifier>]
+  Beispiel: [REAKTION: Haendler | 0]
+
+SCHATZ-GENERIERUNG — emittiere wenn Spieler einen Monster-Hort oder Truhe oeffnen:
+  [SCHATZ: <TreasureType>]
+  Beispiel: [SCHATZ: C]  (C=Goblins, B=groessere Monster, A=Drachen, H=Hort)
+
+UNTOTE VERTREIBEN — emittiere wenn Kleriker/Paladin Untote vertreibt:
+  [UNTOTE_VERTREIBEN: <KlerikerLevel> | <UntotenHD>]
+  Beispiel: [UNTOTE_VERTREIBEN: 3 | 2]
+
+BELASTUNGS-SYSTEM — emittiere wenn Charakter schwere Gegenstaende (>50 lbs) aufnimmt:
+  [BELASTUNG: <CharakterName> | <GesamtgewichtInPfund>]
+  Beispiel: [BELASTUNG: Aldric | 90]  (Muenzen wiegen: 100 lbs pro 10.000 Stueck)
+
+WANDERNDE MONSTER — emittiere alle 3 Zuege im Dungeon (auch wenn kein Kampf stattfindet):
+  [BEGEGNUNG: <OrtsBeschreibung> | <ChanceInProzent>]
+  Beispiel: [BEGEGNUNG: Korridor | 17]  (Standard 17%, hoher Laerm = 33%)
+
+GIFT-MECHANIK — emittiere wenn Charakter Gift bekommt (Falle, vergiftete Waffe, Umgebung):
+  [GIFT: <CharakterName> | <GiftTyp> | <Save-Modifier>]
+  Beispiel: [GIFT: Aldric | Nadelfalle | -2]
 
 {monster_move_block}═══ ABSOLUTES VERBOT ═══
 - Sprich NIEMALS ueber Regeln, Tags, das System oder die KI.
@@ -2194,7 +2104,7 @@ Daher MUESSEN alle Ausgaben diesen Regeln folgen:
                 detail = f"    {c_name}: {c_info[:150]}"
                 if c_prob:
                     detail += f" [Probe: {c_prob}]"
-                if c_san and getattr(self, "_is_cthulhu", True):
+                if c_san:
                     detail += f" [SAN: {c_san}]"
                 lines.append(detail)
 

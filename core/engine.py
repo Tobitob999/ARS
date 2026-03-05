@@ -161,12 +161,6 @@ class SimulatorEngine:
         meta = self.ruleset.get("metadata", {}) if self.ruleset else {}
         return meta.get("player_character_title", "Charakter")
 
-    @property
-    def is_cthulhu(self) -> bool:
-        """True if the loaded ruleset is a Cthulhu variant."""
-        meta = self.ruleset.get("metadata", {}) if self.ruleset else {}
-        return meta.get("system", "").startswith("cthulhu")
-
     # -- lifecycle -----------------------------------------------------------
 
     def initialize(self) -> None:

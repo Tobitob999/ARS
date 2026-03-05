@@ -15,7 +15,7 @@ Punktesystem (100 Punkte):
 Bestanden: Score >= 60
 
 Verwendung:
-  py -3 scripts/test_evaluator.py data/test_results/test_cthulhu_7e_investigation_*.json
+  py -3 scripts/test_evaluator.py data/test_results/test_add_2e_investigation_*.json
   py -3 scripts/test_evaluator.py --all
   py -3 scripts/test_evaluator.py --compare file1.json file2.json
   py -3 scripts/test_evaluator.py --all --report data/test_results/report.md

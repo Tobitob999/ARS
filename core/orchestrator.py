@@ -12,6 +12,7 @@ from __future__ import annotations
 import json
 import logging
 import queue
+import random
 import re
 import time as _time
 from pathlib import Path
@@ -582,8 +583,8 @@ class Orchestrator:
 
             # ── Zustandsaenderungs-Tags verarbeiten ────────────────────
             stat_changes = extract_stat_changes(gm_response)
-            for change_type, value_str in stat_changes:
-                self._handle_stat_change(change_type, value_str, mechanics)
+            for stat_tuple in stat_changes:
+                self._handle_stat_change(stat_tuple[0], stat_tuple[1] if len(stat_tuple) > 1 else "", mechanics, stat_tuple[2:] if len(stat_tuple) > 2 else ())
 
             # ── INVENTAR-Tags verarbeiten ────────────────────────────
             inventory_changes = extract_inventory_changes(gm_response)
@@ -615,6 +616,9 @@ class Orchestrator:
                     self._active = False
                 # Party-Save nach jedem Zug
                 self._handle_party_save(turn_number + 1)
+
+            # ── DMG-Mechanik-Tags verarbeiten ─────────────────────────
+            self._handle_dmg_tags(gm_response, mechanics)
 
             # ── Raumwechsel-Erkennung + Grid-Bewegung ────────────────
             grid = getattr(self.engine, "grid_engine", None)
@@ -675,6 +679,23 @@ class Orchestrator:
                 "rules_warnings": _rules_warning_count,
             })
 
+            # ── Kosten-Limit pruefen ──────────────────────────────
+            ai = self.engine.ai_backend
+            if ai and getattr(ai, "_cost_tracker", None):
+                ct = ai._cost_tracker
+                exceeded, msg = ct.check_session_limit()
+                if not exceeded:
+                    lim = ct.check_limits()
+                    if lim["blocked"]:
+                        exceeded, msg = True, lim["block_reason"]
+                if exceeded:
+                    warn = f"[KOSTEN] Session beendet: {msg}"
+                    logger.warning(warn)
+                    self._gm_print(warn)
+                    self._emit_game("system", warn)
+                    self.stop_session()
+                    break
+
             # ── Chronik-Update alle SUMMARY_INTERVAL Runden ───────────
             if self._archivist and self._archivist.should_summarize(turn_number):
                 self._update_chronicle(turn_number)
@@ -721,10 +742,15 @@ class Orchestrator:
         change_type: str,
         value_str: str,
         mechanics: Any,
+        extra: tuple = (),
     ) -> None:
         """
-        Verarbeitet HP_VERLUST, STABILITAET_VERLUST und FERTIGKEIT_GENUTZT Tags.
+        Verarbeitet HP_VERLUST, STABILITAET_VERLUST, FERTIGKEIT_GENUTZT und
+        alle 8 Monster-Mechanik-Tags (Session 19).
         Alle Aenderungen werden sofort in die SQLite-DB geschrieben.
+
+        extra: zusaetzliche Werte fuer Tags mit mehr als 2 Parametern
+               z.B. bei GIFT: extra = (typ, save_mod_str)
         """
         character = self.engine.character
         if character is None:
@@ -751,28 +777,9 @@ class Orchestrator:
                     self._emit_game("system", death_msg)
 
         elif change_type == "STABILITAET_VERLUST":
-            # SAN nur fuer Systeme mit Sanity (CoC, Mad Max)
-            module = getattr(self.engine, "module_name", "")
-            if module not in ("cthulhu_7e", "mad_max"):
-                logger.warning(
-                    "STABILITAET_VERLUST ignoriert (System %s hat keine SAN).", module,
-                )
-                return
-            amount = mechanics.roll_expression(value_str)
-            result = character.update_stat("SAN", -amount)
-            if "error" not in result:
-                msg = (
-                    f"[SAN-VERLUST] -{amount} "
-                    f"(Wurf: {value_str}) | "
-                    f"SAN: {result['old_value']} -> {result['new_value']}"
-                    f"/{result['max_value']}"
-                )
-                print(f"\n{msg}")
-                self._emit_game("stat", msg)
-                if character.is_insane:
-                    insane_msg = f"Der {self.engine.pc_title} verliert den Verstand!"
-                    print(f"[SYSTEM] {insane_msg}")
-                    self._emit_game("system", insane_msg)
+            # SAN nicht unterstuetzt in AD&D 2e — Tag wird ignoriert
+            logger.debug("STABILITAET_VERLUST ignoriert (AD&D 2e hat keine SAN).")
+            return
 
         elif change_type == "HP_HEILUNG":
             amount = mechanics.roll_expression(value_str)
@@ -798,18 +805,182 @@ class Orchestrator:
             self._emit_game("stat", msg)
 
         elif change_type == "FERTIGKEIT_GENUTZT":
-            # Skill-Steigerung nur bei CoC (d100-Systeme). AD&D/Paranoia/Shadowrun
-            # haben keine Verbesserung durch Nutzung.
-            module = getattr(self.engine, "module_name", "")
-            if module not in ("cthulhu_7e", "mad_max"):
-                logger.debug(
-                    "FERTIGKEIT_GENUTZT ignoriert (System: %s)", module,
+            # Skill-Steigerung nicht bei AD&D 2e (kein Improvement durch Nutzung).
+            logger.debug("FERTIGKEIT_GENUTZT ignoriert (AD&D 2e hat kein Skill-Improvement).")
+            return
+
+        # ── Monster-Mechanik-Tags (Session 19) ─────────────────────────────
+
+        elif change_type == "MAGIC_RESISTANCE":
+            # value_str = monster_name, extra[0] = prozent_str
+            monster_name = value_str
+            try:
+                prozent = int(extra[0]) if extra else 0
+            except (ValueError, IndexError):
+                prozent = 0
+            wurf = random.randint(1, 100)
+            if wurf <= prozent:
+                msg = (
+                    f"Magieresistenz von {monster_name}: {wurf}% — Zauber scheitert! "
+                    f"(Resistenz: {prozent}%)"
                 )
-                return
-            character.mark_skill_used(value_str)
-            msg = f"[FERTIGKEIT] '{value_str}' fuer Steigerungsphase markiert."
+            else:
+                msg = (
+                    f"Magieresistenz von {monster_name}: {wurf}% — Zauber durchdringt! "
+                    f"(Resistenz: {prozent}%)"
+                )
+            print(f"\n[MAGIC_RESISTANCE] {msg}")
+            self._emit_game("combat", f"[MAGIC_RESISTANCE] {msg}")
+
+        elif change_type == "WAFFEN_IMMUNITAET":
+            # value_str = monster_name, extra[0] = mindest_bonus
+            monster_name = value_str
+            bonus = extra[0] if extra else "magisch"
+            msg = (
+                f"[WARNUNG] {monster_name} kann nur von Waffen mit "
+                f"+{bonus} oder besser getroffen werden!"
+            )
+            print(f"\n{msg}")
+            self._emit_game("combat", msg)
+
+        elif change_type == "GIFT":
+            # value_str = monster_name, extra[0] = typ, extra[1] = save_mod_str
+            monster_name = value_str
+            gift_typ = extra[0].strip().lower() if extra else "schaden"
+            try:
+                save_mod = int(extra[1]) if len(extra) > 1 else 0
+            except (ValueError, IndexError):
+                save_mod = 0
+            # Rettungswurf vs. Gift
+            try:
+                # Standardwert fuer Rettungswurf vs. Gift/Paralyse/Tod (AD&D 2e Tabelle 60)
+                # Typischer Zielwert fuer mittlere Charakterstufe: 16
+                save_result = mechanics.saving_throw(
+                    target=16,
+                    modifiers=save_mod,
+                )
+                save_success = save_result.is_success
+            except Exception:
+                # Fallback: einfacher d20-Wurf gegen 16 + Modifikator
+                roll = random.randint(1, 20)
+                save_success = (roll + save_mod) >= 16
+            if not save_success:
+                if gift_typ in ("tod", "toedlich", "death"):
+                    msg = f"[GIFT] Toedliches Gift von {monster_name}! Rettungswurf MISSLUNGEN — lebensgefaehrlich!"
+                elif gift_typ in ("paralyse", "paralysis"):
+                    msg = f"[GIFT] Gift von {monster_name}! Rettungswurf MISSLUNGEN — Paralyse fuer 1d6 Runden!"
+                elif gift_typ in ("krankheit", "disease"):
+                    msg = f"[GIFT] Krankheit von {monster_name}! Rettungswurf MISSLUNGEN — Krankheit kontrahiert!"
+                else:
+                    msg = f"[GIFT] Gift von {monster_name}! Rettungswurf MISSLUNGEN — zusaetzlicher Giftschaden!"
+            else:
+                msg = f"[GIFT] Gift von {monster_name}! Rettungswurf GELUNGEN — kein Effekt!"
+            print(f"\n{msg}")
+            self._emit_game("combat", msg)
+
+        elif change_type == "LEVEL_DRAIN":
+            # value_str = char_name, extra[0] = stufen_str
+            char_name = value_str
+            try:
+                stufen = int(extra[0]) if extra else 1
+            except (ValueError, IndexError):
+                stufen = 1
+            # Level reduzieren (falls vorhanden)
+            char = self.engine.character
+            if char:
+                current_level = char._stats.get("Level", 1)
+                if isinstance(current_level, (int, float)):
+                    new_level = max(0, int(current_level) - stufen)
+                    update_result = char.update_stat("Level", new_level - int(current_level))
+                    level_info = f"Neues Level: {new_level}"
+                    if "error" in update_result:
+                        level_info = "(Level-Stat nicht gefunden)"
+                else:
+                    level_info = "(Level-Tracking nicht verfuegbar)"
+                # HP-Verlust: 1d8 pro Stufe
+                hp_loss = sum(random.randint(1, 8) for _ in range(stufen))
+                char.update_stat("HP", -hp_loss)
+                msg = (
+                    f"[LEVEL_DRAIN] {char_name} verliert {stufen} "
+                    f"Erfahrungsstufe(n)! {level_info} "
+                    f"| -{hp_loss} HP"
+                )
+            else:
+                msg = (
+                    f"[LEVEL_DRAIN] {char_name} verliert {stufen} "
+                    f"Erfahrungsstufe(n)! (Kein Charakter geladen)"
+                )
             print(f"\n{msg}")
             self._emit_game("stat", msg)
+
+        elif change_type == "MORAL_CHECK":
+            # value_str = monster_name, extra[0] = schwelle_str
+            monster_name = value_str
+            try:
+                schwelle = int(extra[0]) if extra else 7
+            except (ValueError, IndexError):
+                schwelle = 7
+            wurf = random.randint(1, 6) + random.randint(1, 6)
+            if wurf > schwelle:
+                msg = (
+                    f"[MORAL] {monster_name}: Moral-Check 2d6={wurf} > {schwelle} "
+                    f"— Monster FLIEHT!"
+                )
+            else:
+                msg = (
+                    f"[MORAL] {monster_name}: Moral-Check 2d6={wurf} <= {schwelle} "
+                    f"— Monster kaempft weiter!"
+                )
+            print(f"\n{msg}")
+            self._emit_game("combat", msg)
+
+        elif change_type == "REGENERATION":
+            # value_str = monster_name, extra[0] = hp_pro_runde_str
+            monster_name = value_str
+            try:
+                hp_per_round = int(extra[0]) if extra else 1
+            except (ValueError, IndexError):
+                hp_per_round = 1
+            # Im CombatTracker registrieren (falls aktiv)
+            if self._combat_tracker and self._combat_tracker.active:
+                self._combat_tracker.register_regeneration(monster_name, hp_per_round)
+            msg = f"[REGENERATION] {monster_name} regeneriert {hp_per_round} HP pro Runde."
+            print(f"\n{msg}")
+            self._emit_game("combat", msg)
+
+        elif change_type == "FURCHT":
+            # value_str = char_name, extra[0] = effekt, extra[1] = dauer_str
+            char_name = value_str
+            effekt = extra[0].strip().lower() if extra else "flucht"
+            dauer = extra[1].strip() if len(extra) > 1 else "unbekannt"
+            if effekt in ("flucht", "flee", "flieht"):
+                msg = f"[FURCHT] {char_name} ergreift die Flucht! Dauer: {dauer} Runden"
+            elif effekt in ("paralyse", "gelähmt", "gelaehmt", "paralysis"):
+                msg = f"[FURCHT] {char_name} ist vor Furcht gelaehmt! Dauer: {dauer} Runden"
+            elif effekt in ("alterung", "aging", "altert"):
+                msg = f"[FURCHT] {char_name} altert schlagartig! (Uebernatuerliche Furcht)"
+            else:
+                msg = f"[FURCHT] {char_name}: {effekt}. Dauer: {dauer} Runden"
+            print(f"\n{msg}")
+            self._emit_game("combat", msg)
+
+        elif change_type == "ATEM_WAFFE":
+            # value_str = monster_name, extra[0] = typ, extra[1] = schaden_str
+            monster_name = value_str
+            atem_typ = extra[0].strip() if extra else "Feuer"
+            schaden_str = extra[1].strip() if len(extra) > 1 else "1d6"
+            try:
+                total = mechanics.roll_expression(schaden_str)
+            except Exception:
+                # Fallback: einfach 1d10
+                total = random.randint(1, 10)
+            msg = (
+                f"[ATEM_WAFFE] {monster_name} setzt {atem_typ}-Atem ein! "
+                f"Voller Schaden: {total}. Rettungswurf gegen Atemwaffe = "
+                f"halber Schaden ({total // 2})."
+            )
+            print(f"\n{msg}")
+            self._emit_game("combat", msg)
 
     # ------------------------------------------------------------------
     # Task 05 — Archivist-Methoden
@@ -1357,10 +1528,11 @@ class Orchestrator:
 
         # Stat-Changes (aber HP_VERLUST im Kampf ueberspringen)
         stat_changes = extract_stat_changes(narrative)
-        for change_type, value_str in stat_changes:
+        for stat_tuple in stat_changes:
+            change_type = stat_tuple[0]
             if change_type == "HP_VERLUST" and self._combat_tracker and self._combat_tracker.active:
                 continue  # Tracker verwaltet HP mechanisch
-            self._handle_stat_change(change_type, value_str, mechanics)
+            self._handle_stat_change(change_type, stat_tuple[1] if len(stat_tuple) > 1 else "", mechanics, stat_tuple[2:] if len(stat_tuple) > 2 else ())
 
         # Inventar
         inventory_changes = extract_inventory_changes(narrative)
@@ -1510,19 +1682,8 @@ class Orchestrator:
                 })
 
             elif tag_type == "FERTIGKEIT_GENUTZT" and len(tag) >= 3:
-                # Nur bei d100-Systemen (CoC, Mad Max) relevant
-                module = getattr(self.engine, "module_name", "")
-                if module not in ("cthulhu_7e", "mad_max"):
-                    continue
-                skill_name, char_name = tag[1], tag[2]
-                msg = f"[FERTIGKEIT] '{skill_name}' genutzt von {char_name}."
-                print(f"\n{msg}")
-                self._emit_game("stat", msg)
-                bus.emit("party", "state_updated", {
-                    "action": "skill_used",
-                    "character": char_name,
-                    "skill": skill_name,
-                })
+                # Nicht relevant fuer AD&D 2e (kein Skill-Improvement durch Nutzung)
+                continue
 
             elif tag_type == "GEGENSTAND_BENUTZT" and len(tag) >= 3:
                 item_name, char_name = tag[1], tag[2]
@@ -1561,9 +1722,142 @@ class Orchestrator:
                     "item": item_name,
                 })
 
+            # ── Monster-Mechanik-Tags (Session 19) — Party-Modus ──────────
+
+            elif tag_type == "MAGIC_RESISTANCE" and len(tag) >= 3:
+                monster_name, prozent_str = tag[1], tag[2]
+                try:
+                    prozent = int(prozent_str)
+                except ValueError:
+                    prozent = 0
+                wurf = random.randint(1, 100)
+                if wurf <= prozent:
+                    msg = f"[MAGIC_RESISTANCE] Magieresistenz von {monster_name}: {wurf}% — Zauber scheitert! (Resistenz: {prozent}%)"
+                else:
+                    msg = f"[MAGIC_RESISTANCE] Magieresistenz von {monster_name}: {wurf}% — Zauber durchdringt! (Resistenz: {prozent}%)"
+                print(f"\n{msg}")
+                self._emit_game("combat", msg)
+
+            elif tag_type == "WAFFEN_IMMUNITAET" and len(tag) >= 3:
+                monster_name, bonus = tag[1], tag[2]
+                msg = f"[WARNUNG] {monster_name} kann nur von Waffen mit +{bonus} oder besser getroffen werden!"
+                print(f"\n{msg}")
+                self._emit_game("combat", msg)
+
+            elif tag_type == "GIFT" and len(tag) >= 4:
+                monster_name, gift_typ_raw, save_mod_str = tag[1], tag[2], tag[3]
+                gift_typ = gift_typ_raw.strip().lower()
+                try:
+                    save_mod = int(save_mod_str)
+                except ValueError:
+                    save_mod = 0
+                try:
+                    # Standardwert fuer Rettungswurf vs. Gift/Paralyse/Tod (AD&D 2e Tabelle 60)
+                    save_result = mechanics.saving_throw(
+                        target=16,
+                        modifiers=save_mod,
+                    )
+                    save_success = save_result.is_success
+                except Exception:
+                    roll = random.randint(1, 20)
+                    save_success = (roll + save_mod) >= 16
+                if not save_success:
+                    if gift_typ in ("tod", "toedlich", "death"):
+                        msg = f"[GIFT] Toedliches Gift von {monster_name}! Rettungswurf MISSLUNGEN — lebensgefaehrlich!"
+                    elif gift_typ in ("paralyse", "paralysis"):
+                        msg = f"[GIFT] Gift von {monster_name}! Rettungswurf MISSLUNGEN — Paralyse fuer 1d6 Runden!"
+                    elif gift_typ in ("krankheit", "disease"):
+                        msg = f"[GIFT] Krankheit von {monster_name}! Rettungswurf MISSLUNGEN — Krankheit kontrahiert!"
+                    else:
+                        msg = f"[GIFT] Gift von {monster_name}! Rettungswurf MISSLUNGEN — zusaetzlicher Giftschaden!"
+                else:
+                    msg = f"[GIFT] Gift von {monster_name}! Rettungswurf GELUNGEN — kein Effekt!"
+                print(f"\n{msg}")
+                self._emit_game("combat", msg)
+
+            elif tag_type == "LEVEL_DRAIN" and len(tag) >= 3:
+                char_name, stufen_str = tag[1], tag[2]
+                try:
+                    stufen = int(stufen_str)
+                except ValueError:
+                    stufen = 1
+                member = party_state.get_member(char_name)
+                if member:
+                    hp_loss = sum(random.randint(1, 8) for _ in range(stufen))
+                    msg_hp = party_state.apply_damage(char_name, hp_loss)
+                    msg = (
+                        f"[LEVEL_DRAIN] {char_name} verliert {stufen} Erfahrungsstufe(n)! "
+                        f"| {msg_hp}"
+                    )
+                else:
+                    msg = f"[LEVEL_DRAIN] {char_name} verliert {stufen} Erfahrungsstufe(n)! (Charakter nicht in Party)"
+                print(f"\n{msg}")
+                self._emit_game("stat", msg)
+                bus.emit("party", "state_updated", {
+                    "action": "level_drain",
+                    "character": char_name,
+                    "levels": stufen,
+                })
+
+            elif tag_type == "MORAL_CHECK" and len(tag) >= 3:
+                monster_name, schwelle_str = tag[1], tag[2]
+                try:
+                    schwelle = int(schwelle_str)
+                except ValueError:
+                    schwelle = 7
+                wurf = random.randint(1, 6) + random.randint(1, 6)
+                if wurf > schwelle:
+                    msg = f"[MORAL] {monster_name}: Moral-Check 2d6={wurf} > {schwelle} — Monster FLIEHT!"
+                else:
+                    msg = f"[MORAL] {monster_name}: Moral-Check 2d6={wurf} <= {schwelle} — Monster kaempft weiter!"
+                print(f"\n{msg}")
+                self._emit_game("combat", msg)
+
+            elif tag_type == "REGENERATION" and len(tag) >= 3:
+                monster_name, hp_str = tag[1], tag[2]
+                try:
+                    hp_per_round = int(hp_str)
+                except ValueError:
+                    hp_per_round = 1
+                if self._combat_tracker and self._combat_tracker.active:
+                    self._combat_tracker.register_regeneration(monster_name, hp_per_round)
+                msg = f"[REGENERATION] {monster_name} regeneriert {hp_per_round} HP pro Runde."
+                print(f"\n{msg}")
+                self._emit_game("combat", msg)
+
+            elif tag_type == "FURCHT" and len(tag) >= 4:
+                char_name, effekt_raw, dauer = tag[1], tag[2], tag[3]
+                effekt = effekt_raw.strip().lower()
+                if effekt in ("flucht", "flee", "flieht"):
+                    msg = f"[FURCHT] {char_name} ergreift die Flucht! Dauer: {dauer} Runden"
+                elif effekt in ("paralyse", "gelähmt", "gelaehmt", "paralysis"):
+                    msg = f"[FURCHT] {char_name} ist vor Furcht gelaehmt! Dauer: {dauer} Runden"
+                elif effekt in ("alterung", "aging", "altert"):
+                    msg = f"[FURCHT] {char_name} altert schlagartig! (Uebernatuerliche Furcht)"
+                else:
+                    msg = f"[FURCHT] {char_name}: {effekt_raw}. Dauer: {dauer} Runden"
+                print(f"\n{msg}")
+                self._emit_game("combat", msg)
+
+            elif tag_type == "ATEM_WAFFE" and len(tag) >= 4:
+                monster_name, atem_typ, schaden_str = tag[1], tag[2], tag[3]
+                try:
+                    total = mechanics.roll_expression(schaden_str.strip())
+                except Exception:
+                    total = random.randint(1, 10)
+                msg = (
+                    f"[ATEM_WAFFE] {monster_name} setzt {atem_typ}-Atem ein! "
+                    f"Voller Schaden: {total}. Rettungswurf gegen Atemwaffe = "
+                    f"halber Schaden ({total // 2})."
+                )
+                print(f"\n{msg}")
+                self._emit_game("combat", msg)
+
         # XP aus Standard-Tags (teilen unter lebenden Mitgliedern)
         from core.character import extract_stat_changes
-        for change_type, value_str in extract_stat_changes(gm_response):
+        for stat_tuple in extract_stat_changes(gm_response):
+            change_type = stat_tuple[0]
+            value_str = stat_tuple[1] if len(stat_tuple) > 1 else ""
             if change_type == "XP_GEWINN":
                 try:
                     amount = int(value_str)
@@ -1582,6 +1876,266 @@ class Orchestrator:
                     "action": "xp_gain",
                     "amount": amount,
                 })
+
+    # ------------------------------------------------------------------
+    # DMG-Mechanik-Tags (Session 20)
+    # ------------------------------------------------------------------
+
+    # Regulaere Ausdruecke fuer alle 7 neuen DMG-Tags
+    _RE_DMG_MORAL_CHECK    = re.compile(r"\[MORAL_CHECK:\s*([^|]+)\|\s*(\d+)\]")
+    _RE_DMG_REAKTION       = re.compile(r"\[REAKTION:\s*([^|]+)\|\s*([+-]?\d+)\]")
+    _RE_DMG_SCHATZ         = re.compile(r"\[SCHATZ:\s*([A-Za-z])\]")
+    _RE_DMG_UNTOTE         = re.compile(r"\[UNTOTE_VERTREIBEN:\s*(\d+)\s*\|\s*(\d+(?:\.\d+)?)\]")
+    _RE_DMG_BELASTUNG      = re.compile(r"\[BELASTUNG:\s*([^|]+)\|\s*(\d+(?:\.\d+)?)\]")
+    _RE_DMG_BEGEGNUNG      = re.compile(r"\[BEGEGNUNG:\s*([^|\]]+?)(?:\s*\|\s*(\d+))?\s*\]")
+    _RE_DMG_GIFT           = re.compile(r"\[GIFT:\s*([^|]+)\|\s*([^|]+)\|\s*([+-]?\d+)\]")
+
+    def _handle_dmg_tags(self, response_text: str, mechanics: Any) -> None:
+        """
+        Verarbeitet DMG-Mechanik-Tags aus der KI-Antwort.
+
+        Unterstuetzte Tags:
+          [MORAL_CHECK: Name | MoralWert]      — Moral-Probe (2d6 vs Schwelle)
+          [REAKTION: NPCName | CHA-Mod]        — NPC-Reaktionswurf (2d6 + CHA-Mod)
+          [SCHATZ: Typ]                         — Schatz wuerfeln (Typ A-Z)
+          [UNTOTE_VERTREIBEN: Level | HD]       — Kleriker vertreibt Untote
+          [BELASTUNG: Name | Gewicht]           — Tragekapazitaet pruefen
+          [BEGEGNUNG: LocationTyp | Chance%]    — Wandering-Monster-Probe
+          [GIFT: Name | Typ | Save-Mod]         — Rettungswurf gegen Gift
+        """
+        from core.event_bus import EventBus
+        bus = EventBus.get()
+
+        # ── [MORAL_CHECK: Name | MoralWert] ───────────────────────────────
+        for m in self._RE_DMG_MORAL_CHECK.finditer(response_text):
+            monster_name = m.group(1).strip()
+            morale_value_str = m.group(2).strip()
+            try:
+                morale_value = int(morale_value_str)
+                result = mechanics.morale_check(morale_value)
+                msg = f"[MORAL_CHECK] {monster_name}: {result.description}"
+                print(f"\n{msg}")
+                self._emit_game("combat", msg)
+                bus.emit("game", "morale_check", {
+                    "monster": monster_name,
+                    "morale_value": morale_value,
+                    "roll": result.roll,
+                    "success": result.is_success,
+                    "description": result.description,
+                })
+                logger.info("MORAL_CHECK: %s Moral=%d Wurf=%d -> %s",
+                            monster_name, morale_value, result.roll,
+                            "bleibt" if result.is_success else "flieht")
+            except Exception as exc:
+                logger.warning("MORAL_CHECK Fehler fuer '%s': %s", monster_name, exc)
+
+        # ── [REAKTION: NPCName | CHA-Mod] ────────────────────────────────
+        for m in self._RE_DMG_REAKTION.finditer(response_text):
+            npc_name = m.group(1).strip()
+            cha_mod_str = m.group(2).strip()
+            try:
+                cha_mod = int(cha_mod_str)
+                result = mechanics.reaction_roll(cha_mod)
+                msg = (
+                    f"[REAKTION] {npc_name}: {result['description']}"
+                )
+                print(f"\n{msg}")
+                self._emit_game("combat", msg)
+                bus.emit("game", "reaction_roll", {
+                    "npc": npc_name,
+                    "cha_modifier": cha_mod,
+                    "roll": result["roll"],
+                    "modified_roll": result["modified_roll"],
+                    "reaction_level": result["reaction_level"],
+                    "description": result["description"],
+                })
+                logger.info("REAKTION: %s CHA-Mod=%d Ergebnis=%s",
+                            npc_name, cha_mod, result["reaction_level"])
+            except Exception as exc:
+                logger.warning("REAKTION Fehler fuer '%s': %s", npc_name, exc)
+
+        # ── [SCHATZ: Typ] ─────────────────────────────────────────────────
+        for m in self._RE_DMG_SCHATZ.finditer(response_text):
+            treasure_type = m.group(1).strip().upper()
+            try:
+                result = mechanics.roll_treasure(treasure_type)
+                msg = f"[SCHATZ] {result['description']}"
+                print(f"\n{msg}")
+                self._emit_game("inventory", msg)
+
+                # ── Muenzen ins Inventar ──────────────────────────────
+                for coin_type, amount in result["coins"].items():
+                    if amount > 0:
+                        coin_names = {"cp": "Kupfermuenzen", "sp": "Silbermuenzen",
+                                      "ep": "Elektrummuenzen", "gp": "Goldmuenzen",
+                                      "pp": "Platinmuenzen"}
+                        coin_item = f"{amount} {coin_names.get(coin_type, coin_type)}"
+                        self._handle_inventory(coin_item, "gefunden")
+
+                # ── Edelsteine ins Inventar ────────────────────────────
+                for gem in result.get("gem_details", []):
+                    gem_item = f"{gem['name']} ({gem['actual_value']} GP)"
+                    self._handle_inventory(gem_item, "gefunden")
+
+                # ── Kunstgegenstaende ins Inventar ─────────────────────
+                for art in result.get("jewelry_details", []):
+                    self._handle_inventory(art["description"], "gefunden")
+
+                # ── Magische Gegenstaende ins Inventar ─────────────────
+                for magic in result.get("magic_item_details", []):
+                    self._handle_inventory(magic["name"], "gefunden")
+
+                bus.emit("game", "treasure_found", {
+                    "treasure_type": treasure_type,
+                    "coins": result["coins"],
+                    "gems": result["gems"],
+                    "jewelry": result["jewelry"],
+                    "magic_items": result["magic_items"],
+                    "gem_details": result.get("gem_details", []),
+                    "jewelry_details": result.get("jewelry_details", []),
+                    "magic_item_details": result.get("magic_item_details", []),
+                    "total_gp_value": result["total_gp_value"],
+                    "description": result["description"],
+                })
+                logger.info("SCHATZ Typ %s: ~%d GP Wert", treasure_type, result["total_gp_value"])
+            except Exception as exc:
+                logger.warning("SCHATZ Fehler fuer Typ '%s': %s", treasure_type, exc)
+
+        # ── [UNTOTE_VERTREIBEN: Level | HD] ──────────────────────────────
+        for m in self._RE_DMG_UNTOTE.finditer(response_text):
+            level_str = m.group(1).strip()
+            hd_str    = m.group(2).strip()
+            try:
+                cleric_level = int(level_str)
+                undead_hd    = float(hd_str)
+                result = mechanics.turn_undead(cleric_level, undead_hd)
+                msg = f"[UNTOTE_VERTREIBEN] {result['description']}"
+                print(f"\n{msg}")
+                self._emit_game("combat", msg)
+                bus.emit("game", "turn_undead", {
+                    "cleric_level": cleric_level,
+                    "undead_hd": undead_hd,
+                    "success": result["success"],
+                    "result_type": result["result_type"],
+                    "roll": result.get("roll"),
+                    "target": result.get("target"),
+                    "description": result["description"],
+                })
+                logger.info("UNTOTE_VERTREIBEN: Kleriker L%d vs HD%.1f -> %s",
+                            cleric_level, undead_hd, result["result_type"])
+            except Exception as exc:
+                logger.warning("UNTOTE_VERTREIBEN Fehler: %s", exc)
+
+        # ── [BELASTUNG: Name | Gewicht] ───────────────────────────────────
+        for m in self._RE_DMG_BELASTUNG.finditer(response_text):
+            char_name  = m.group(1).strip()
+            weight_str = m.group(2).strip()
+            try:
+                total_weight = float(weight_str)
+                # STR-Wert aus Charakter oder Party-State bestimmen
+                str_score = 10  # Fallback-Wert
+                party_state = getattr(self.engine, "party_state", None)
+                if party_state:
+                    member = party_state.get_member(char_name)
+                    if member:
+                        str_score = member.stats.get("Staerke", member.stats.get("STR", 10))
+                elif self.engine.character:
+                    char = self.engine.character
+                    str_score = char._stats.get("Staerke", char._stats.get("STR", 10))
+                # Gewicht als Gesamt-Nutzlast uebergeben (ein Pseudo-Item-Eintrag)
+                result = mechanics.calculate_encumbrance(
+                    [("Gesamtausruestung", total_weight)],
+                    int(str_score),
+                )
+                msg = f"[BELASTUNG] {char_name}: {result['description']}"
+                print(f"\n{msg}")
+                self._emit_game("stat", msg)
+                bus.emit("game", "encumbrance_update", {
+                    "character": char_name,
+                    "total_weight": result["total_weight"],
+                    "max_allowance": result["max_allowance"],
+                    "category": result["category"],
+                    "movement_factor": result["movement_factor"],
+                    "description": result["description"],
+                })
+                logger.info("BELASTUNG: %s %.1f Pfund (STR %d) -> %s",
+                            char_name, total_weight, int(str_score), result["category"])
+            except Exception as exc:
+                logger.warning("BELASTUNG Fehler fuer '%s': %s", char_name, exc)
+
+        # ── [BEGEGNUNG: LocationTyp | Chance%] ───────────────────────────
+        # Akzeptiert auch [BEGEGNUNG: Wandering] ohne Prozent-Angabe (Default 17%)
+        for m in self._RE_DMG_BEGEGNUNG.finditer(response_text):
+            location_type = m.group(1).strip()
+            chance_raw    = m.group(2)   # None wenn Pipe-Teil fehlt
+            try:
+                chance = int(chance_raw.strip()) if chance_raw else 17
+                result = mechanics.roll_encounter_check(chance)
+                status = "BEGEGNUNG" if result["occurred"] else "Keine Begegnung"
+                msg = f"[BEGEGNUNG] {location_type}: {result['description']}"
+                print(f"\n{msg}")
+                self._emit_game("combat" if result["occurred"] else "system", msg)
+                bus.emit("game", "encounter_check", {
+                    "location_type": location_type,
+                    "chance": chance,
+                    "roll": result["roll"],
+                    "occurred": result["occurred"],
+                    "description": result["description"],
+                })
+                logger.info("BEGEGNUNG %s: d100=%d Schwelle=%d -> %s",
+                            location_type, result["roll"], chance, status)
+            except Exception as exc:
+                logger.warning("BEGEGNUNG Fehler fuer '%s': %s", location_type, exc)
+
+        # ── [GIFT: Name | Typ | Save-Mod] ────────────────────────────────
+        # Hinweis: GIFT wird AUCH als Monster-Mechanik-Tag (Session 19) verarbeitet.
+        # Dieser Handler verarbeitet die neue zweiparametrige Form aus DMG-Mechaniken:
+        # [GIFT: CharName | Typ | Save-Mod] — explizit mit 3 Parametern.
+        for m in self._RE_DMG_GIFT.finditer(response_text):
+            char_name   = m.group(1).strip()
+            gift_typ    = m.group(2).strip().lower()
+            save_mod_str = m.group(3).strip()
+            try:
+                save_mod = int(save_mod_str)
+                # Standard-Rettungswurf vs. Gift (Save-Typ 0: Para/Poison/Tod)
+                # Zielwert 14 = Krieger Level 1 (PHB Table 60), moderat fuer Anfaenger
+                save_result = mechanics.saving_throw(target=14, modifiers=save_mod)
+                if not save_result.is_success:
+                    if gift_typ in ("tod", "toedlich", "death", "deadly"):
+                        effekt_msg = "lebensgefaehrlich!"
+                    elif gift_typ in ("paralyse", "paralysis", "laehmt"):
+                        effekt_msg = "Paralyse fuer 1d6 Runden!"
+                    elif gift_typ in ("krankheit", "disease", "seuche"):
+                        effekt_msg = "Krankheit kontrahiert!"
+                    elif gift_typ in ("schaden", "damage"):
+                        effekt_msg = "Giftschaden erleidet!"
+                    else:
+                        effekt_msg = f"Effekt: {gift_typ}!"
+                    msg = (
+                        f"[GIFT] {char_name} — Typ: {gift_typ} | "
+                        f"Rettungswurf MISSLUNGEN ({save_result.description}) — {effekt_msg}"
+                    )
+                else:
+                    msg = (
+                        f"[GIFT] {char_name} — Typ: {gift_typ} | "
+                        f"Rettungswurf GELUNGEN ({save_result.description}) — kein Effekt!"
+                    )
+                print(f"\n{msg}")
+                self._emit_game("combat", msg)
+                bus.emit("game", "poison_save", {
+                    "character": char_name,
+                    "poison_type": gift_typ,
+                    "save_modifier": save_mod,
+                    "roll": save_result.roll,
+                    "target": save_result.target,
+                    "success": save_result.is_success,
+                    "description": save_result.description,
+                })
+                logger.info("GIFT: %s Typ=%s Save-Mod=%d Wurf=%d -> %s",
+                            char_name, gift_typ, save_mod, save_result.roll,
+                            "gerettet" if save_result.is_success else "MISSLUNGEN")
+            except Exception as exc:
+                logger.warning("GIFT Fehler fuer '%s': %s", char_name, exc)
 
     def _handle_party_save(self, turn: int) -> None:
         """Speichert den Party-State nach jedem Zug."""

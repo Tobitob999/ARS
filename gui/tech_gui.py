@@ -92,6 +92,7 @@ class TechGUI:
         from gui.tab_dungeon_view import DungeonViewTab
         from gui.tab_replay_viewer import ReplayViewerTab
         from gui.tab_dungeon_pixel import DungeonPixelTab
+        from gui.tab_sprite_workshop import SpriteWorkshopTab
 
         self.tab_session = SessionTab(self.notebook, self)
         self.tab_game = GameTab(self.notebook, self)
@@ -107,6 +108,7 @@ class TechGUI:
         self.tab_dungeon = DungeonViewTab(self.notebook, self)
         self.tab_replay = ReplayViewerTab(self.notebook, self)
         self.tab_pixel = DungeonPixelTab(self.notebook, self)
+        self.tab_sprites = SpriteWorkshopTab(self.notebook, self)
 
         self.notebook.add(self.tab_session, text="  Session Setup  ")
         self.notebook.add(self.tab_game, text="  Game  ")
@@ -122,6 +124,7 @@ class TechGUI:
         self.notebook.add(self.tab_dungeon, text="  Dungeon  ")
         self.notebook.add(self.tab_replay, text="  Replay  ")
         self.notebook.add(self.tab_pixel, text="  Pixel-Dungeon  ")
+        self.notebook.add(self.tab_sprites, text="  Sprite-Werkstatt  ")
 
         # Statusleiste
         self.status_bar = StatusBar(self.root)

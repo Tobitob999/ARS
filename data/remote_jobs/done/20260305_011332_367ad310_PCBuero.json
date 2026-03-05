@@ -1,0 +1,26 @@
+{
+  "job_id": "367ad310",
+  "job_type": "testbot",
+  "requester": "PCBuero",
+  "created_at": "2026-03-05T01:13:32",
+  "status": "done",
+  "params": {
+    "type": "rules",
+    "rules_mode": "unit",
+    "seed": 42
+  },
+  "server": {
+    "hostname": "PCBuero",
+    "pid": 28320,
+    "started_at": "2026-03-05T01:13:42",
+    "finished_at": "2026-03-05T01:13:51",
+    "exit_code": 0
+  },
+  "result": {
+    "stdout_tail": "  \u001b[92m[OK]\u001b[0m probe_move_silently_gueltig\n  \u001b[92m[OK]\u001b[0m probe_unbekannte_fertigkeit_warnung\n  \u001b[92m[OK]\u001b[0m morale_check_gueltig\n  \u001b[92m[OK]\u001b[0m magic_resistance_30_gueltig\n  \u001b[92m[OK]\u001b[0m magic_resistance_150_warnung\n  \u001b[92m[OK]\u001b[0m waffen_immunitaet_plus2_gueltig\n  \u001b[92m[OK]\u001b[0m gift_tod_gueltig\n  \u001b[92m[OK]\u001b[0m level_drain_2_gueltig\n  \u001b[92m[OK]\u001b[0m regeneration_3_gueltig\n  \u001b[92m[OK]\u001b[0m furcht_gueltig\n  \u001b[92m[OK]\u001b[0m atem_waffe_gueltig\n\n\u001b[1m\u001b[96m[combat_tracker]\u001b[0m\n  \u001b[92m[OK]\u001b[0m apply_damage_reduziert_hp\n  \u001b[92m[OK]\u001b[0m apply_damage_toetet_bei_null\n  \u001b[92m[OK]\u001b[0m apply_damage_hp_nicht_negativ\n  \u001b[92m[OK]\u001b[0m apply_damage_toter_gegner_kein_crash\n  \u001b[92m[OK]\u001b[0m heal_erhoeht_hp\n  \u001b[92m[OK]\u001b[0m heal_kapped_bei_max\n  \u001b[92m[OK]\u001b[0m get_max_attacks_1_1_ist_1\n  \u001b[92m[OK]\u001b[0m get_max_attacks_2_1_ist_2\n  \u001b[92m[OK]\u001b[0m get_max_attacks_3_2_ungerade_1\n  \u001b[92m[OK]\u001b[0m get_max_attacks_3_2_gerade_2\n  \u001b[92m[OK]\u001b[0m can_attack_frische_runde\n  \u001b[92m[OK]\u001b[0m can_attack_nach_register_false\n  \u001b[92m[OK]\u001b[0m start_new_round_setzt_angriffe_zurueck\n  \u001b[92m[OK]\u001b[0m start_new_round_erhoet_runde\n  \u001b[92m[OK]\u001b[0m regeneration_heilt_monster\n  \u001b[92m[OK]\u001b[0m regeneration_kapped_bei_max\n\n============================================================\n\u001b[1mERGEBNIS:\u001b[0m  \u001b[92m219 OK\u001b[0m  \u001b[91m0 Fehl\u001b[0m  \u001b[93m0 Fehler\u001b[0m  | 219 Tests gesamt\nDauer: 8.4s | Run-ID: 12\n\n Run  Modus         Gestartet                  OK   Fehl   Err    Dauer  Commit  \n--------------------------------------------------------------------------------\n    12  unit          2026-03-05 00:13:42       \u001b[92m219\u001b[0m     \u001b[91m0\u001b[0m    \u001b[93m0\u001b[0m     8.3s  c8a3dab3\n\n  Testbot: Regelwerk-Test (deterministisch, kein AI)\n  Modus: unit | Seed: 42 | Matrix-Iter: 1000\n\n\n  ============================================================\n  Regelwerk-Test BESTANDEN\n  ============================================================\n\n--- STDERR ---\nUnbekannter Wuerfelausdruck 'xyz' -- nehme Wert 1 an.\nKeine THAC0-Tabelle fuer Gruppe 'unknown_class'\nKeine Save-Tabelle fuer Gruppe 'unknown'",
+    "report_path": null,
+    "error": null,
+    "autofix_attempted": false,
+    "autofix_result": null
+  }
+}

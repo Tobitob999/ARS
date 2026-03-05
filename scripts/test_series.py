@@ -232,7 +232,7 @@ def run_series(
     from concurrent.futures import ThreadPoolExecutor, as_completed
 
     # Case-Name ermitteln
-    case_names = {1: "generic", 2: "investigation", 3: "combat", 4: "horror", 5: "social", 6: "dungeon_crawl"}
+    case_names = {1: "generic", 2: "investigation", 3: "combat", 4: "social", 5: "dungeon_crawl", 6: "party_dungeon_crawl"}
     case_name = case_names.get(case_id, "generic")
 
     _PROGRESS_DIR.mkdir(parents=True, exist_ok=True)
@@ -492,7 +492,7 @@ def main() -> None:
         description="ARS Test Series — Automatisierte Testreihe mit statistischer Auswertung",
     )
     parser.add_argument("--runs", "-n", type=int, default=10, help="Anzahl Testlaeufe (Default: 10)")
-    parser.add_argument("--module", "-m", default="cthulhu_7e", help="Regelsystem (Default: cthulhu_7e)")
+    parser.add_argument("--module", "-m", default="add_2e", help="Regelsystem (Default: add_2e)")
     parser.add_argument("--case", "-c", type=int, default=1, choices=[1, 2, 3, 4, 5, 6], help="Test Case (Default: 1)")
     parser.add_argument("--turns", "-t", type=int, default=5, help="Zuege pro Run (Default: 5)")
     parser.add_argument("--parallel", "-p", type=int, default=2, help="Max parallele Runs (Default: 2)")

@@ -6,7 +6,7 @@ Keeper, Extras, Characters und Parties und stellt ein Manifest bereit.
 Die Engine nutzt das Manifest zur Validierung von Argumenten.
 
 Scan-Verzeichnisse:
-  modules/rulesets/*.json    — Regelsaetze (cthulhu_7e, etc.)
+  modules/rulesets/*.json    — Regelsaetze (add_2e, etc.)
   modules/adventures/*.json  — Abenteuer-Szenarien
   modules/settings/*.json    — Welt-Settings
   modules/keepers/*.json     — Keeper-Persoenlichkeiten

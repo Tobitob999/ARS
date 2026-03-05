@@ -1,0 +1,295 @@
+{
+  "metadata": {
+    "name": "Advanced Dungeons & Dragons",
+    "version": "1st Edition (Grundgeruest)",
+    "system": "add_1e",
+    "schema_version": "1.0.0",
+    "publisher": "TSR",
+    "language": "en",
+    "game_master_title": "Dungeon Master",
+    "player_character_title": "Adventurer",
+    "notes": "Grundgeruest fuer AD&D 1e. Wird nach Crawl + Konvertierung der 1e-PDFs erweitert. Basiert auf PHB (1978), DMG (1979), Monster Manual (1977)."
+  },
+  "dice_system": {
+    "default_die": "d20",
+    "check_mode": "attack_matrix",
+    "bonus_penalty_die": null,
+    "notes": "1e verwendet Attack-Matrices (Angriffstabellen) statt THAC0. THAC0 wurde erst in 2e als primäres System eingeführt. Saving Throws sind 5 Kategorien. Ability Checks: d20 roll-under (Variante, nicht offiziell im PHB).",
+    "success_levels": {
+      "critical": 20,
+      "fumble": 1
+    }
+  },
+  "characteristics": {
+    "STR": {
+      "label": "Strength",
+      "roll": "3d6",
+      "multiplier": 1,
+      "notes": "Exceptional Strength (18/01-18/00) nur fuer Fighter-Klassen"
+    },
+    "INT": {
+      "label": "Intelligence",
+      "roll": "3d6",
+      "multiplier": 1
+    },
+    "WIS": {
+      "label": "Wisdom",
+      "roll": "3d6",
+      "multiplier": 1
+    },
+    "DEX": {
+      "label": "Dexterity",
+      "roll": "3d6",
+      "multiplier": 1
+    },
+    "CON": {
+      "label": "Constitution",
+      "roll": "3d6",
+      "multiplier": 1
+    },
+    "CHA": {
+      "label": "Charisma",
+      "roll": "3d6",
+      "multiplier": 1
+    }
+  },
+  "skills": {
+    "Open Doors": {
+      "base": 0,
+      "category": "ability_check",
+      "linked_stat": "STR",
+      "notes": "d20 roll-under STR"
+    },
+    "Bend Bars / Lift Gates": {
+      "base": 0,
+      "category": "ability_check",
+      "linked_stat": "STR",
+      "notes": "Percentage roll, STR-abhaengig"
+    },
+    "System Shock": {
+      "base": 0,
+      "category": "ability_check",
+      "linked_stat": "CON",
+      "notes": "Percentage, CON-Tabelle"
+    },
+    "Find Traps": {
+      "base": 0,
+      "category": "thief_skill",
+      "linked_stat": "DEX",
+      "notes": "Thief-only, Prozent-basiert"
+    },
+    "Move Silently": {
+      "base": 0,
+      "category": "thief_skill",
+      "linked_stat": "DEX"
+    },
+    "Hide in Shadows": {
+      "base": 0,
+      "category": "thief_skill",
+      "linked_stat": "DEX"
+    },
+    "Pick Pockets": {
+      "base": 0,
+      "category": "thief_skill",
+      "linked_stat": "DEX"
+    },
+    "Open Locks": {
+      "base": 0,
+      "category": "thief_skill",
+      "linked_stat": "DEX"
+    },
+    "Hear Noise": {
+      "base": 0,
+      "category": "thief_skill",
+      "linked_stat": "INT"
+    },
+    "Climb Walls": {
+      "base": 0,
+      "category": "thief_skill",
+      "linked_stat": "DEX"
+    },
+    "Read Languages": {
+      "base": 0,
+      "category": "thief_skill",
+      "linked_stat": "INT"
+    }
+  },
+  "races": {
+    "Human": {
+      "stat_mods": {},
+      "allowed_classes": ["Fighter", "Paladin", "Ranger", "Cleric", "Druid", "Magic-User", "Illusionist", "Thief", "Assassin", "Monk", "Bard"],
+      "level_limits": {},
+      "notes": "Keine Klassenbeschraenkung, keine Level-Limits"
+    },
+    "Dwarf": {
+      "stat_mods": {"CON": 1, "CHA": -1},
+      "allowed_classes": ["Fighter", "Thief", "Assassin"],
+      "level_limits": {"Fighter": 9, "Thief": "unlimited", "Assassin": 9},
+      "infravision": 60,
+      "notes": "Level-Limits fuer nicht-menschliche Rassen"
+    },
+    "Elf": {
+      "stat_mods": {"DEX": 1, "CON": -1},
+      "allowed_classes": ["Fighter", "Magic-User", "Thief", "Assassin"],
+      "level_limits": {"Fighter": 7, "Magic-User": 11, "Thief": "unlimited", "Assassin": 10},
+      "infravision": 60
+    },
+    "Half-Elf": {
+      "stat_mods": {},
+      "allowed_classes": ["Fighter", "Ranger", "Cleric", "Druid", "Magic-User", "Thief", "Assassin"],
+      "level_limits": {"Fighter": 8, "Ranger": 8, "Cleric": 5, "Druid": "unlimited", "Magic-User": 8, "Thief": "unlimited", "Assassin": 11},
+      "infravision": 60
+    },
+    "Halfling": {
+      "stat_mods": {"STR": -1, "DEX": 1},
+      "allowed_classes": ["Fighter", "Thief"],
+      "level_limits": {"Fighter": 6, "Thief": "unlimited"},
+      "infravision": 30
+    },
+    "Gnome": {
+      "stat_mods": {},
+      "allowed_classes": ["Fighter", "Illusionist", "Thief", "Assassin"],
+      "level_limits": {"Fighter": 6, "Illusionist": 7, "Thief": "unlimited", "Assassin": 8},
+      "infravision": 60
+    },
+    "Half-Orc": {
+      "stat_mods": {"STR": 1, "CON": 1, "CHA": -2},
+      "allowed_classes": ["Fighter", "Cleric", "Thief", "Assassin"],
+      "level_limits": {"Fighter": 10, "Cleric": 4, "Thief": 8, "Assassin": "unlimited"},
+      "infravision": 60,
+      "notes": "In 2e entfernt, 1e-exklusiv"
+    }
+  },
+  "classes": {
+    "Fighter": {
+      "hit_die": "d10",
+      "prime_requisite": "STR",
+      "attack_table": "fighter",
+      "min_stats": {"STR": 9},
+      "notes": "Exceptional Strength bei STR 18"
+    },
+    "Paladin": {
+      "hit_die": "d10",
+      "prime_requisite": "STR",
+      "attack_table": "fighter",
+      "min_stats": {"STR": 12, "INT": 9, "WIS": 13, "CON": 9, "CHA": 17},
+      "notes": "Detect Evil, Lay on Hands, Protection from Evil 10', Turn Undead (3rd level)"
+    },
+    "Ranger": {
+      "hit_die": "d8+d8",
+      "prime_requisite": "STR",
+      "attack_table": "fighter",
+      "min_stats": {"STR": 13, "INT": 13, "WIS": 14, "CON": 14},
+      "notes": "Two d8 HD at 1st level (1e), limited Druid + Magic-User spells at higher levels"
+    },
+    "Cleric": {
+      "hit_die": "d8",
+      "prime_requisite": "WIS",
+      "attack_table": "cleric",
+      "min_stats": {"WIS": 9},
+      "notes": "Turn Undead, Spells ab Level 1"
+    },
+    "Druid": {
+      "hit_die": "d8",
+      "prime_requisite": "WIS",
+      "attack_table": "cleric",
+      "min_stats": {"WIS": 12, "CHA": 15},
+      "notes": "Subklasse des Cleric in 1e"
+    },
+    "Magic-User": {
+      "hit_die": "d4",
+      "prime_requisite": "INT",
+      "attack_table": "magic_user",
+      "min_stats": {"INT": 9},
+      "notes": "Keine Ruestung, Spell-Memorisation (Vancian)"
+    },
+    "Illusionist": {
+      "hit_die": "d4",
+      "prime_requisite": "INT",
+      "attack_table": "magic_user",
+      "min_stats": {"INT": 15, "DEX": 16},
+      "notes": "Eigene Klasse in 1e (nicht Subklasse)"
+    },
+    "Thief": {
+      "hit_die": "d6",
+      "prime_requisite": "DEX",
+      "attack_table": "thief",
+      "min_stats": {"DEX": 9},
+      "notes": "Backstab (x2-x5 Schaden)"
+    },
+    "Assassin": {
+      "hit_die": "d6",
+      "prime_requisite": "DEX",
+      "attack_table": "thief",
+      "min_stats": {"STR": 12, "INT": 11, "DEX": 12},
+      "notes": "1e-exklusiv, in 2e entfernt. Assassination Table, Disguise"
+    },
+    "Monk": {
+      "hit_die": "d4+special",
+      "prime_requisite": "STR",
+      "attack_table": "monk",
+      "min_stats": {"STR": 15, "WIS": 15, "DEX": 15, "CON": 11},
+      "notes": "1e-exklusiv, in 2e entfernt. Open Hand, Stunning, Quivering Palm"
+    },
+    "Bard": {
+      "hit_die": "d6",
+      "prime_requisite": "CHA",
+      "attack_table": "fighter",
+      "min_stats": {"STR": 15, "INT": 12, "WIS": 15, "DEX": 15, "CON": 10, "CHA": 15},
+      "notes": "1e Bard: Dual-Class Fighter→Thief→Druid Pfad (extrem hohe Anforderungen)"
+    }
+  },
+  "combat": {
+    "system": "attack_matrix",
+    "initiative": "d6 per side (Gruppeninitiative)",
+    "segments": true,
+    "attack_resolution": "Angreifer-Klasse + Level → Attack-Matrix → Wuerfelergebnis vs Ziel-AC",
+    "armor_class": {
+      "direction": "descending",
+      "unarmored": 10,
+      "best": -10,
+      "notes": "AC 10 (nackt) bis AC -10 (goettlich). Niedrigere AC = besserer Schutz. Gegenteil von 2e THAC0-System."
+    },
+    "notes": "1e verwendet Attack-Matrices statt THAC0. THAC0 existiert im DMG als optionale Abkuerzung, wird aber erst in 2e Standard. Segmente (1/10 Runde) bestimmen Spell-Casting-Zeiten und Waffengeschwindigkeiten."
+  },
+  "saving_throws": {
+    "categories": [
+      "Paralyzation, Poison, or Death Magic",
+      "Petrification or Polymorph",
+      "Rod, Staff, or Wand",
+      "Breath Weapon",
+      "Spells"
+    ],
+    "notes": "5 Kategorien (gleich wie 2e). Werte klassenabhaengig, verbesserung mit Level."
+  },
+  "magic": {
+    "system": "vancian",
+    "components": ["Verbal", "Somatic", "Material"],
+    "casting_time_segments": true,
+    "spell_levels_mu": 9,
+    "spell_levels_cleric": 7,
+    "spell_levels_druid": 7,
+    "spell_levels_illusionist": 7,
+    "notes": "Vancian Memorisation: Spell wird bei Zaubern 'vergessen' und muss neu memorisiert werden. Casting Time in Segmenten (1-9 für die meisten Spells). Material-Komponenten strenger als in 2e."
+  },
+  "alignment": {
+    "axes": ["law-chaos", "good-evil"],
+    "values": [
+      "Lawful Good", "Lawful Neutral", "Lawful Evil",
+      "Neutral Good", "True Neutral", "Neutral Evil",
+      "Chaotic Good", "Chaotic Neutral", "Chaotic Evil"
+    ],
+    "notes": "9-Punkt Alignment-System (identisch mit 2e)"
+  },
+  "key_differences_from_2e": {
+    "thac0": "1e verwendet Attack-Matrices, nicht THAC0 als primaeres System",
+    "ac_direction": "AC ist absteigend (10 = schlecht, -10 = gut)",
+    "classes": "Assassin, Monk, Illusionist als eigene Klassen (in 2e entfernt/umgebaut)",
+    "races": "Half-Orc spielbar (in 2e entfernt)",
+    "level_limits": "Strenge Rassen-Level-Limits fuer Nicht-Menschen",
+    "dual_class_multi_class": "Multi-Classing bei Demihumans, Dual-Classing nur bei Menschen",
+    "initiative": "Gruppeninitiative (d6 pro Seite), Segmente fuer Aktionsreihenfolge",
+    "xp_for_gold": "1 GP = 1 XP (primaere XP-Quelle neben Monstern)",
+    "weapon_proficiency": "Einfacher als 2e NWP-System, keine Non-Weapon-Proficiencies"
+  }
+}

@@ -1,0 +1,15 @@
+[Unit]
+Description=ARS Remote Job Watcher
+After=network.target
+
+[Service]
+Type=simple
+User=tobias
+WorkingDirectory=/mnt/nas/ARS
+ExecStart=/usr/bin/python3 scripts/job_watcher.py
+Restart=on-failure
+RestartSec=30
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target

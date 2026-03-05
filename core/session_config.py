@@ -18,8 +18,8 @@ PRESETS_DIR = Path(__file__).parent.parent / "modules" / "presets"
 
 # Default values
 _DEFAULT_DIFFICULTY = "normal"
-_DEFAULT_ATMOSPHERE = "1920s Cosmic Horror"
-_DEFAULT_PERSONA = "Mysterioes, detailverliebt, zynisch"
+_DEFAULT_ATMOSPHERE = "Klassische Fantasy, Schwerter und Magie"
+_DEFAULT_PERSONA = "Episch, detailverliebt, gerecht"
 _DEFAULT_LANGUAGE = "de-DE"
 _DEFAULT_TEMPERATURE = 0.92
 _DEFAULT_RULES_BUDGET = 6000  # chars (~1500 Tokens)
@@ -33,7 +33,7 @@ VALID_SPEECH_STYLES = ("normal", "sanft", "aggressiv")
 class SessionConfig:
     """Session-level configuration injected into the KI system prompt."""
 
-    ruleset: str = "cthulhu_7e"
+    ruleset: str = "add_2e"
     adventure: str | None = None
     setting: str | None = None
     keeper: str | None = None

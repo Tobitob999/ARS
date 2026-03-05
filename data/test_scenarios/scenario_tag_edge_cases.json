@@ -1,0 +1,55 @@
+{
+  "id": "scenario_tag_edge_cases",
+  "name": "Tag Edge-Cases: Mehrfach-Tags, leere Antworten, Gross-/Kleinschreibung",
+  "setup": {
+    "player": {
+      "name": "Testabenteurer",
+      "hp": 18,
+      "ac": 7,
+      "thac0": 19,
+      "weapon": "Kurzschwert",
+      "damage": "1d6"
+    },
+    "seed": 42
+  },
+  "steps": [
+    {
+      "synthetic_response": "Zwei Angriffe! [HP_VERLUST: 2] Und noch einer! [HP_VERLUST: 4]",
+      "assertions": [
+        {"type": "tag_extracted", "tag": "HP_VERLUST", "count": 2},
+        {"type": "stat_changed", "stat": "HP", "expected_value": 12}
+      ]
+    },
+    {
+      "synthetic_response": "Stille. Nichts passiert. Die Fackel flackert.",
+      "assertions": [
+        {"type": "tag_not_present", "tag": "HP_VERLUST"},
+        {"type": "tag_not_present", "tag": "XP_GEWINN"},
+        {"type": "tag_not_present", "tag": "HP_HEILUNG"},
+        {"type": "stat_changed", "stat": "HP", "expected_value": 12}
+      ]
+    },
+    {
+      "synthetic_response": "Du wirst belohnt! [XP_GEWINN: 100] Und findest Gold! [XP_GEWINN: 50]",
+      "assertions": [
+        {"type": "tag_extracted", "tag": "XP_GEWINN", "count": 2},
+        {"type": "stat_changed", "stat": "XP", "expected_value": 150}
+      ]
+    },
+    {
+      "synthetic_response": "[hp_verlust: 1] Auch kleingeschrieben funktioniert der Tag.",
+      "assertions": [
+        {"type": "tag_extracted", "tag": "HP_VERLUST", "count": 1},
+        {"type": "stat_changed", "stat": "HP", "expected_value": 11}
+      ]
+    },
+    {
+      "synthetic_response": "Absurd hoher Schaden! [HP_VERLUST: 999]",
+      "assertions": [
+        {"type": "tag_extracted", "tag": "HP_VERLUST", "count": 1},
+        {"type": "stat_changed", "stat": "HP", "expected_value": 0},
+        {"type": "validation_warns"}
+      ]
+    }
+  ]
+}

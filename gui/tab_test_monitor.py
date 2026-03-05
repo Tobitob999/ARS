@@ -39,7 +39,7 @@ _PROGRESS_DIR = _PROJECT_ROOT / "data" / "test_progress"
 _RESULTS_DIR = _PROJECT_ROOT / "data" / "test_results"
 
 # Verfuegbare Module
-_MODULES = ["cthulhu_7e", "add_2e", "paranoia_2e", "shadowrun_6", "mad_max"]
+_MODULES = ["add_2e"]
 
 # Test Cases
 _CASES = {

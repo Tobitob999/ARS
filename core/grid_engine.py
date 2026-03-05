@@ -49,6 +49,7 @@ class GridEntity:
     base_movement: int = 12  # Basis-Bewegungsrate (vor Ruestungsmalus)
     movement_used: int = 0   # Verbrauchte Bewegung in dieser Runde
     alive: bool = True
+    size: str = "M"          # AD&D-Groesse: S/M/L/H/G
 
 
 class RoomGrid:

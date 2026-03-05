@@ -82,6 +82,8 @@ class CombatTracker:
         self._player_first: bool = True
         self._grid_engine: Any = None   # Optional GridEngine-Referenz
         self._mechanics: Any = None     # Optional Mechanics-Referenz
+        # Regenerations-Tracking: {monster_name: hp_per_round}
+        self._regenerating: dict[str, int] = {}
 
     # ------------------------------------------------------------------
     # Bridge: GridEngine + Mechanics
@@ -96,6 +98,67 @@ class CombatTracker:
         """Setzt die Mechanics-Referenz fuer Waffen-/Ruestungs-Lookups."""
         self._mechanics = mechanics
         logger.debug("Mechanics-Bridge gesetzt.")
+
+    # ------------------------------------------------------------------
+    # Regenerations-System (Session 19)
+    # ------------------------------------------------------------------
+
+    def register_regeneration(self, name: str, hp_per_round: int) -> None:
+        """
+        Registriert Regeneration fuer ein Monster.
+
+        Args:
+            name: Monster-Name (wird normalisiert auf lowercase)
+            hp_per_round: HP pro Runde (positiver Wert)
+        """
+        self._regenerating[name.strip()] = max(1, hp_per_round)
+        logger.debug("Regeneration registriert: %s +%d HP/Runde", name, hp_per_round)
+
+    def apply_regeneration(self) -> list[str]:
+        """
+        Heilt alle registrierten Monster um ihre HP-pro-Runde.
+
+        Returns: Liste von Meldungsstrings fuer jede Heilung.
+        """
+        messages: list[str] = []
+        for name, hp_per_round in list(self._regenerating.items()):
+            # Combatant per Name suchen (case-insensitive)
+            target = self._find_combatant_by_name(name)
+            if target is None or not target.is_alive:
+                # Totes Monster aus Regenerationsliste entfernen
+                if target and not target.is_alive:
+                    del self._regenerating[name]
+                continue
+            old_hp = target.hp
+            target.hp = min(target.hp_max, target.hp + hp_per_round)
+            healed = target.hp - old_hp
+            if healed > 0:
+                msg = (
+                    f"[REGENERATION] {target.name} regeneriert +{healed} HP "
+                    f"({old_hp} -> {target.hp}/{target.hp_max})"
+                )
+                self._log.append(msg)
+                logger.info(msg)
+                messages.append(msg)
+        return messages
+
+    def clear_regeneration(self) -> None:
+        """Loescht alle registrierten Regenerationen (bei Kampfende)."""
+        self._regenerating.clear()
+        logger.debug("Regenerations-Liste geleert.")
+
+    def _find_combatant_by_name(self, name: str) -> "Combatant | None":
+        """Sucht Combatant per Name (case-insensitive, Teilstring-Match)."""
+        name_lower = name.strip().lower()
+        # Exakter Match
+        for c in self._combatants.values():
+            if c.name.lower() == name_lower:
+                return c
+        # Teilstring-Match
+        for c in self._combatants.values():
+            if name_lower in c.name.lower() or c.name.lower() in name_lower:
+                return c
+        return None
 
     # ------------------------------------------------------------------
     # Kampf starten
@@ -242,12 +305,19 @@ class CombatTracker:
         self._log.append(detail)
         logger.info(detail)
 
+        # Regeneration am Rundenanfang anwenden
+        regen_msgs = self.apply_regeneration()
+        if regen_msgs:
+            for rmsg in regen_msgs:
+                logger.info(rmsg)
+
         return {
             "player_init": self._player_initiative,
             "monster_init": self._monster_initiative,
             "player_first": self._player_first,
             "round": self._round,
             "detail": detail,
+            "regen_messages": regen_msgs,
         }
 
     def get_max_attacks(self, combatant_id: str) -> int:
@@ -596,10 +666,13 @@ class CombatTracker:
         self._round += 1
         self._log.append(f"--- Runde {self._round} ---")
         logger.debug("Kampfrunde %d", self._round)
+        # Regeneration am Rundenanfang anwenden
+        self.apply_regeneration()
 
     def end_combat(self) -> None:
         """Beendet den Kampf."""
         self._active = False
+        self.clear_regeneration()
         logger.info("Kampf beendet nach %d Runden.", self._round)
         self._log.append(f"Kampf beendet (Runde {self._round})")
 

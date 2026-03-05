@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """
 converter.py — AD&D 2e PDF → JSON Lore Converter
-Extrahiert Kapitel und Kits aus P1-PDFs und schreibt JSON-Chunks nach data/lore/add_2e/
+Extrahiert Kapitel, Kits und Monster aus PDFs und schreibt JSON-Chunks nach data/lore/add_2e/
 
 Usage:
     py -3 scripts/converter.py --batch p1
+    py -3 scripts/converter.py --batch p2
     py -3 scripts/converter.py --pdf "PHBR01.pdf" --type phbr
     py -3 scripts/converter.py --stats
 """
@@ -29,7 +30,7 @@ except ImportError:
 # ---------------------------------------------------------------------------
 SCRIPT_DIR = Path(__file__).parent
 BASE_DIR = SCRIPT_DIR.parent
-PDF_DIR = BASE_DIR  # PDFs liegen im ADD2e/ Wurzelverzeichnis
+PDF_DIR = BASE_DIR / "ADD2e"  # PDFs liegen im ADD2e/ Unterverzeichnis
 LORE_BASE = BASE_DIR / "data" / "lore" / "add_2e"
 
 # ---------------------------------------------------------------------------
@@ -82,10 +83,227 @@ P1_PDFS = [
 ]
 
 # ---------------------------------------------------------------------------
+# P2-Batch-Definition (Monster Compendiums)
+# ---------------------------------------------------------------------------
+P2_PDFS = [
+    # (Dateiname, Typ, Zielordner-Kategorie, Code, Basis-Tags)
+    ("TSR Inc - AD&D 2nd Edition - Monstrous Compendium Volume 2.pdf",
+     "monster", "monsters", "MC_V2", ["monster", "compendium"]),
+    ("TSR Inc - AD&D 2nd Edition - Monstrous Compendium - Annual Volume 1.pdf",
+     "monster", "monsters", "MC_A1", ["monster", "annual"]),
+    ("TSR Inc - AD&D 2nd Edition - Monstrous Compendium - Annual Volume 2.pdf",
+     "monster", "monsters", "MC_A2", ["monster", "annual"]),
+    ("TSR Inc - AD&D 2nd Edition - Monstrous Compendium - Annual Volume 3.pdf",
+     "monster", "monsters", "MC_A3", ["monster", "annual"]),
+    ("TSR Inc - AD&D 2nd Edition - Monstrous Compendium - Annual Volume 4.pdf",
+     "monster", "monsters", "MC_A4", ["monster", "annual"]),
+    ("TSR Inc - AD&D 2nd Edition - Monstrous Compendium - Fiend Folio Appendix.pdf",
+     "monster", "monsters", "MC_FF", ["monster", "fiend_folio"]),
+    ("TSR Inc - AD&D 2nd Edition - Monstrous Compendium - Mystara Appendix.pdf",
+     "monster", "monsters", "MC_MP", ["monster", "mystara"]),
+    ("TSR Inc - AD&D 2nd Edition - Monstrous Compendium - Outer Planes Appendix.pdf",
+     "monster", "monsters", "MC_OP", ["monster", "outer_planes"]),
+    ("TSR Inc - AD&D 2nd Edition - Monstrous Compendium - Savage Coast Appendix.pdf",
+     "monster", "monsters", "MC_SC", ["monster", "savage_coast"]),
+]
+
+# ---------------------------------------------------------------------------
+# P3-Batch: Spell Compendiums + Encyclopedia Magica (Generisch)
+# ---------------------------------------------------------------------------
+SPELL_PDFS = [
+    ("TSR Inc - AD&D 2nd Edition - Wizards Spell Compendium Volume 1.pdf",
+     "spell_compendium", "spells", "WSC1", ["spell", "wizard"]),
+    ("TSR Inc - AD&D 2nd Edition - Wizards Spell Compendium Volume 2.pdf",
+     "spell_compendium", "spells", "WSC2", ["spell", "wizard"]),
+    ("TSR Inc - AD&D 2nd Edition - Wizards Spell Compendium Volume 3.pdf",
+     "spell_compendium", "spells", "WSC3", ["spell", "wizard"]),
+    ("TSR Inc - AD&D 2nd Edition - Wizards Spell Compendium Volume 4.pdf",
+     "spell_compendium", "spells", "WSC4", ["spell", "wizard"]),
+    ("TSR Inc - AD&D 2nd Edition - Priest Spell Compendium Volume 1.pdf",
+     "spell_compendium", "spells", "PSC1", ["spell", "priest"]),
+    ("TSR Inc - AD&D 2nd Edition - Priest Spell Compendium Volume 2.pdf",
+     "spell_compendium", "spells", "PSC2", ["spell", "priest"]),
+    ("TSR Inc - AD&D 2nd Edition - Priest Spell Compendium Volume 3.pdf",
+     "spell_compendium", "spells", "PSC3", ["spell", "priest"]),
+]
+
+MAGICITEM_PDFS = [
+    ("TSR Inc - AD&D 2nd Edition - Encyclopedia Magica Volume 1.pdf",
+     "sourcebook", "magic_items", "EM1", ["magic_item", "encyclopedia"]),
+    ("TSR Inc - AD&D 2nd Edition - Encyclopedia Magica Volume 2.pdf",
+     "sourcebook", "magic_items", "EM2", ["magic_item", "encyclopedia"]),
+    ("TSR Inc - AD&D 2nd Edition - Encyclopedia Magica Volume 3.pdf",
+     "sourcebook", "magic_items", "EM3", ["magic_item", "encyclopedia"]),
+    ("TSR Inc - AD&D 2nd Edition - Encyclopedia Magica Volume 4.pdf",
+     "sourcebook", "magic_items", "EM4", ["magic_item", "encyclopedia"]),
+    ("TSR Inc - AD&D 2nd Edition - The Magic Encyclopedia Volume 1.pdf",
+     "sourcebook", "magic_items", "ME1", ["magic_item", "encyclopedia"]),
+    ("TSR Inc - AD&D 2nd Edition - The Magic Encyclopedia Volume 2.pdf",
+     "sourcebook", "magic_items", "ME2", ["magic_item", "encyclopedia"]),
+]
+
+# ---------------------------------------------------------------------------
+# P3-Batch: DMGR Series + DM Core Books (Generisch)
+# ---------------------------------------------------------------------------
+DMGR_PDFS = [
+    ("TSR Inc - AD&D 2nd Edition - DMGR1 - Campaign Sourcebook and Catacomb Guide.pdf",
+     "sourcebook", "dm_tools", "DMGR1", ["dm", "campaign"]),
+    ("TSR Inc - AD&D 2nd Edition - DMGR2 - Castle Guide.pdf",
+     "sourcebook", "dm_tools", "DMGR2", ["dm", "castle"]),
+    ("TSR Inc - AD&D 2nd Edition - DMGR4 - Monster Mythology.pdf",
+     "sourcebook", "dm_tools", "DMGR4", ["dm", "monster", "mythology", "deities"]),
+    ("TSR Inc - AD&D 2nd Edition - DMGR5 - Creative Campaigning.pdf",
+     "sourcebook", "dm_tools", "DMGR5", ["dm", "campaign"]),
+    ("TSR Inc - AD&D 2nd Edition - DMGR6 - The Complete Book of Villains.pdf",
+     "sourcebook", "dm_tools", "DMGR6", ["dm", "villain", "npc"]),
+    ("TSR Inc - AD&D 2nd Edition - DMGR7 - The Complete Book of Necromancers.pdf",
+     "sourcebook", "dm_tools", "DMGR7", ["dm", "necromancer", "undead"]),
+    ("TSR Inc - AD&D 2nd Edition - DMGR8 - Sages and Specialists.pdf",
+     "sourcebook", "dm_tools", "DMGR8", ["dm", "sage", "npc"]),
+    ("TSR Inc - AD&D 2nd Edition - DMGR9 - Of Ships And Sea.pdf",
+     "sourcebook", "dm_tools", "DMGR9", ["dm", "ships", "naval"]),
+]
+
+DM_CORE_PDFS = [
+    ("TSR Inc - AD&D 2nd Edition - Dungeon Builder's Guidebook.pdf",
+     "sourcebook", "dm_tools", "DBG", ["dm", "dungeon"]),
+    ("TSR Inc - AD&D 2nd Edition - World Builders Guidebook.pdf",
+     "sourcebook", "dm_tools", "WBG", ["dm", "world"]),
+    ("TSR Inc - AD&D 2nd Edition - Dungeon Master Option - High-Level Campaigns.pdf",
+     "sourcebook", "dm_tools", "DMO_HLC", ["dm", "high_level", "rules"]),
+    ("TSR Inc - AD&D 2nd Edition - Book of Artifacts.pdf",
+     "sourcebook", "magic_items", "BOA", ["magic_item", "artifact"]),
+    ("Player s Handbook (2nd Edition) 2101.pdf",
+     "sourcebook", "rules", "PHB", ["rules", "core", "player"]),
+]
+
+# ---------------------------------------------------------------------------
+# P4-Batch: Dragonlance (Eigene Welt — NICHT mit Generic AD&D mischen!)
+# Output: data/lore/add_2e/settings/dragonlance/
+# ---------------------------------------------------------------------------
+DL_PDFS = [
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ Tales of the Lance.pdf",
+     "sourcebook", "settings/dragonlance", "DL_TTL", ["dragonlance", "krynn", "sourcebook"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ Player's Guide to the Dragonlance Campaign.pdf",
+     "sourcebook", "settings/dragonlance", "DL_PG", ["dragonlance", "krynn", "player"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ A Saga Companion.pdf",
+     "sourcebook", "settings/dragonlance", "DL_SC", ["dragonlance", "krynn", "saga"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ Classics 15th Anniversary Edition.pdf",
+     "sourcebook", "settings/dragonlance", "DL_C15", ["dragonlance", "krynn", "adventure"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ DLA1 - Dragon Dawn.pdf",
+     "sourcebook", "settings/dragonlance", "DLA1", ["dragonlance", "krynn", "adventure"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ DLA2 - Dragon Knight.pdf",
+     "sourcebook", "settings/dragonlance", "DLA2", ["dragonlance", "krynn", "adventure"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ DLA3 - Dragons Rest.pdf",
+     "sourcebook", "settings/dragonlance", "DLA3", ["dragonlance", "krynn", "adventure"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ DLC1 - Classics Volume 1.pdf",
+     "sourcebook", "settings/dragonlance", "DLC1", ["dragonlance", "krynn", "adventure"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ DLC2 - Classics Volume 2.pdf",
+     "sourcebook", "settings/dragonlance", "DLC2", ["dragonlance", "krynn", "adventure"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ DLC3 - Classics Volume 3.pdf",
+     "sourcebook", "settings/dragonlance", "DLC3", ["dragonlance", "krynn", "adventure"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ DLE1 - In Search of Dragons.pdf",
+     "sourcebook", "settings/dragonlance", "DLE1", ["dragonlance", "krynn", "adventure"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ DLE2 - Dragon Magic.pdf",
+     "sourcebook", "settings/dragonlance", "DLE2", ["dragonlance", "krynn", "adventure"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ DLE3 - Dragon Keep.pdf",
+     "sourcebook", "settings/dragonlance", "DLE3", ["dragonlance", "krynn", "adventure"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ DLQ1 - Knight's Sword.pdf",
+     "sourcebook", "settings/dragonlance", "DLQ1", ["dragonlance", "krynn", "adventure"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ DLQ2 - Flints Axe.pdf",
+     "sourcebook", "settings/dragonlance", "DLQ2", ["dragonlance", "krynn", "adventure"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ DLR1 - Otherlands.pdf",
+     "sourcebook", "settings/dragonlance", "DLR1", ["dragonlance", "krynn", "region"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ DLR2 - Taladas, The Minotaurs.pdf",
+     "sourcebook", "settings/dragonlance", "DLR2", ["dragonlance", "krynn", "taladas"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ DLR3 - Unsung Heroes.pdf",
+     "sourcebook", "settings/dragonlance", "DLR3", ["dragonlance", "krynn", "npc"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ DLS1 - New Beginnings.pdf",
+     "sourcebook", "settings/dragonlance", "DLS1", ["dragonlance", "krynn", "adventure"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ DLS2 - Tree Lords.pdf",
+     "sourcebook", "settings/dragonlance", "DLS2", ["dragonlance", "krynn", "adventure"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ DLS3 - Oak Lords.pdf",
+     "sourcebook", "settings/dragonlance", "DLS3", ["dragonlance", "krynn", "adventure"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ DLS4 - Wild Elves.pdf",
+     "sourcebook", "settings/dragonlance", "DLS4", ["dragonlance", "krynn", "adventure"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ DLT1 - New Tales.pdf",
+     "sourcebook", "settings/dragonlance", "DLT1", ["dragonlance", "krynn", "adventure"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ Dwarven Kingdoms of Krynn.pdf",
+     "sourcebook", "settings/dragonlance", "DL_DKK", ["dragonlance", "krynn", "dwarf"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ Fifth Age.pdf",
+     "sourcebook", "settings/dragonlance", "DL_5A", ["dragonlance", "krynn", "fifth_age"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ Heroes of Defiance.pdf",
+     "sourcebook", "settings/dragonlance", "DL_HOD", ["dragonlance", "krynn", "heroes"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ Heroes of Hope.pdf",
+     "sourcebook", "settings/dragonlance", "DL_HOH", ["dragonlance", "krynn", "heroes"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ Heroes of Sorcery.pdf",
+     "sourcebook", "settings/dragonlance", "DL_HOS", ["dragonlance", "krynn", "heroes"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ Heroes of Steel.pdf",
+     "sourcebook", "settings/dragonlance", "DL_HOST", ["dragonlance", "krynn", "heroes"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ History of Dragonlance.pdf",
+     "sourcebook", "settings/dragonlance", "DL_HIST", ["dragonlance", "krynn", "history"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ More Leaves from the Inn of the Last Home.pdf",
+     "sourcebook", "settings/dragonlance", "DL_MLFH", ["dragonlance", "krynn", "sourcebook"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ Palanthas.pdf",
+     "sourcebook", "settings/dragonlance", "DL_PAL", ["dragonlance", "krynn", "city", "palanthas"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ Seeds of Chaos.pdf",
+     "sourcebook", "settings/dragonlance", "DL_SOC", ["dragonlance", "krynn", "adventure"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ Chaos Spawn.pdf",
+     "sourcebook", "settings/dragonlance", "DL_CS", ["dragonlance", "krynn", "adventure"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ Citadel of Light.pdf",
+     "sourcebook", "settings/dragonlance", "DL_COL", ["dragonlance", "krynn", "sourcebook"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ Battle Lines Adventure 1 - The Sylvan Veil.pdf",
+     "sourcebook", "settings/dragonlance", "DL_BL1", ["dragonlance", "krynn", "adventure"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ Battle Lines Adventure 2 - Rise of the Titans.pdf",
+     "sourcebook", "settings/dragonlance", "DL_BL2", ["dragonlance", "krynn", "adventure"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ Book Of Lairs.pdf",
+     "sourcebook", "settings/dragonlance", "DL_BOL", ["dragonlance", "krynn", "adventure"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ The Last Tower - Legacy of Raistlin.pdf",
+     "sourcebook", "settings/dragonlance", "DL_LT", ["dragonlance", "krynn", "adventure"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ Time of the Dragon Boxset.pdf",
+     "sourcebook", "settings/dragonlance", "DL_TOTD", ["dragonlance", "krynn", "taladas"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ Wings of Fury.pdf",
+     "sourcebook", "settings/dragonlance", "DL_WOF", ["dragonlance", "krynn", "adventure"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ The Bestiary.pdf",
+     "sourcebook", "settings/dragonlance", "DL_BEST", ["dragonlance", "krynn", "monster"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ TM3 - World of Krynn Trail Map.pdf",
+     "sourcebook", "settings/dragonlance", "DL_TM3", ["dragonlance", "krynn", "map"]),
+    ("TSR Inc - AD&D 2nd Edition - Dragonlance_ The Art of the Dragonlance Saga.pdf",
+     "sourcebook", "settings/dragonlance", "DL_ART", ["dragonlance", "krynn", "art"]),
+]
+
+# ---------------------------------------------------------------------------
+# P4-Batch: Historical Reference (Generisch, echte Geschichte)
+# Output: data/lore/add_2e/settings/historical/
+# ---------------------------------------------------------------------------
+HR_PDFS = [
+    ("TSR Inc - AD&D 2nd Edition - HR1 - Vikings Campaign.pdf",
+     "sourcebook", "settings/historical", "HR1", ["historical", "vikings", "norse"]),
+    ("TSR Inc - AD&D 2nd Edition - HR2 - Charlemagne's Paladins.pdf",
+     "sourcebook", "settings/historical", "HR2", ["historical", "medieval", "charlemagne"]),
+    ("TSR Inc - AD&D 2nd Edition - HR3 - Celts.pdf",
+     "sourcebook", "settings/historical", "HR3", ["historical", "celtic"]),
+    ("TSR Inc - AD&D 2nd Edition - HR4 - A Mighty Fortress.pdf",
+     "sourcebook", "settings/historical", "HR4", ["historical", "renaissance"]),
+    ("TSR Inc - AD&D 2nd Edition - HR5 - Glory of Rome.pdf",
+     "sourcebook", "settings/historical", "HR5", ["historical", "roman"]),
+    ("TSR Inc - AD&D 2nd Edition - HR6 - Age of Heroes.pdf",
+     "sourcebook", "settings/historical", "HR6", ["historical", "greek"]),
+    ("TSR Inc - AD&D 2nd Edition - HR7 - Crusades.pdf",
+     "sourcebook", "settings/historical", "HR7", ["historical", "crusades"]),
+]
+
+# ---------------------------------------------------------------------------
 # OCR-Varianten: bevorzuge _text.pdf falls vorhanden
 # ---------------------------------------------------------------------------
 TEXT_VARIANT_PDFS = {
-    "PHBR10", "PHBR12", "DMGR3"
+    "PHBR10", "PHBR12", "DMGR3",
+    "MC_V2", "MC_A1", "MC_A4", "MC_FF", "MC_OP",
+    "WSC1", "PSC2", "ME2",
+    "DMGR4", "DMGR5", "DMGR7", "DMGR9",
+    "DL_SC", "DL_5A", "DL_HOS", "DL_HIST", "DL_MLFH", "DL_PAL",
+    "DL_SOC", "DL_CS", "DL_COL", "DL_BL1", "DL_BL2", "DL_WOF", "DL_TM3",
+    "HR3", "HR4",
 }
 
 
@@ -463,6 +681,511 @@ def extract_deities(pages: list[dict], source: str) -> list[dict]:
 
 
 # ---------------------------------------------------------------------------
+# Spell-Compendium-Extraktion (Wizard/Priest Spell Compendium)
+# ---------------------------------------------------------------------------
+
+SPELL_STAT_LABELS = [
+    ("level", re.compile(r"^Level:", re.IGNORECASE)),
+    ("range", re.compile(r"^Range:", re.IGNORECASE)),
+    ("components", re.compile(r"^Components:", re.IGNORECASE)),
+    ("casting_time", re.compile(r"^Casting Time:", re.IGNORECASE)),
+    ("duration", re.compile(r"^Duration:", re.IGNORECASE)),
+    ("area_of_effect", re.compile(r"^Area of Effect:", re.IGNORECASE)),
+    ("saving_throw", re.compile(r"^Saving Throw:", re.IGNORECASE)),
+]
+
+# Erkennung von Spell-School-Zeilen: (School) oder (School, School)
+SCHOOL_PATTERN = re.compile(
+    r"^\((?:Abjuration|Alteration|Conjuration|Summoning|Divination|Enchantment|Charm|"
+    r"Evocation|Illusion|Phantasm|Invocation|Necromancy|Chronomancy|"
+    r"Greater Divination|Lesser Divination|Wild Magic|Geometry|"
+    r"Song|Elemental|Shadow|Alchemy|Artifice|Mentalism|Water|"
+    r"Air|Fire|Earth|Animal|Plant|Sun|Weather|Healing|Creation|"
+    r"Guardian|Chaos|Combat|Numbers|Thought|Time|Travelers|Wards|War|Law)",
+    re.IGNORECASE
+)
+
+
+def find_spell_boundaries(pages: list[dict]) -> list[dict]:
+    """
+    Findet Spell-Eintraege in Spell-Compendium-Seiten.
+    Erkennt: Name-Zeile gefolgt von School und Level innerhalb von 8 Zeilen.
+    Gibt Liste von {name, school, start_page, text} zurueck.
+    """
+    # Kombiniere alle Seiten zu Zeilen mit Seiten-Tracking
+    all_lines = []
+    for p in pages:
+        for line in p["text"].split("\n"):
+            all_lines.append((line.strip(), p["page"]))
+
+    spells = []
+    i = 0
+    while i < len(all_lines):
+        line, page = all_lines[i]
+
+        # Kandidat: Nicht-leere Zeile, 3-60 Zeichen, beginnt mit Grossbuchstabe
+        # Gefolgt von School-Pattern oder Level: innerhalb von 8 Zeilen
+        if (line and 3 <= len(line) <= 60 and line[0].isupper()
+                and not line.startswith(("Level:", "Range:", "Components:", "Casting",
+                                         "Duration:", "Area of", "Saving", "Notes:",
+                                         "The ", "This ", "A ", "An ", "If ", "When "))):
+
+            # Suche Level: in den naechsten 8 Zeilen
+            found_level = False
+            school = ""
+            for j in range(1, min(9, len(all_lines) - i)):
+                check_line = all_lines[i + j][0]
+                if SCHOOL_PATTERN.match(check_line):
+                    school = check_line
+                if check_line.startswith("Level:"):
+                    found_level = True
+                    break
+
+            if found_level:
+                # Sammle Text bis zum naechsten Spell
+                spell_text_lines = [line]
+                k = i + 1
+                while k < len(all_lines):
+                    next_line, next_page = all_lines[k]
+
+                    # Naechster Spell? Pruefe ob neuer Name + Level folgt
+                    if (next_line and 3 <= len(next_line) <= 60 and next_line[0].isupper()
+                            and not next_line.startswith(("Level:", "Range:", "Components:",
+                                                           "Casting", "Duration:", "Area of",
+                                                           "Saving", "Notes:", "The ", "This ",
+                                                           "A ", "An ", "If ", "When "))
+                            and k + 8 < len(all_lines)):
+                        # Lookahead: hat naechster Block ein Level:?
+                        has_next_level = False
+                        for m in range(1, min(9, len(all_lines) - k)):
+                            if all_lines[k + m][0].startswith("Level:"):
+                                has_next_level = True
+                                break
+                        if has_next_level:
+                            break  # Neuer Spell beginnt
+
+                    spell_text_lines.append(next_line)
+                    k += 1
+
+                full_text = "\n".join(spell_text_lines)
+                spells.append({
+                    "name": line,
+                    "school": school.strip("()"),
+                    "start_page": page,
+                    "text": full_text,
+                })
+                i = k
+                continue
+        i += 1
+
+    return spells
+
+
+def parse_spell_stats(text: str) -> dict:
+    """Parst Spell-Stat-Felder aus einem Spell-Text-Block."""
+    stats = {}
+    for line in text.split("\n"):
+        line = line.strip()
+        for field_name, pattern in SPELL_STAT_LABELS:
+            if pattern.match(line):
+                value = line.split(":", 1)[1].strip() if ":" in line else ""
+                if value:
+                    stats[field_name] = value
+                break
+    return stats
+
+
+def extract_spells_compendium(pages: list[dict], source: str, code: str,
+                              base_tags: list[str]) -> list[dict]:
+    """Extrahiert einzelne Spells aus Wizard/Priest Spell Compendium."""
+    spell_blocks = find_spell_boundaries(pages)
+    spells = []
+
+    for block in spell_blocks:
+        name = block["name"]
+        # Bereinige Name
+        name = re.sub(r"\s+", " ", name).strip()
+        # Skip offensichtliche Nicht-Spells
+        if len(name) < 3 or any(skip in name.lower() for skip in
+            ["about this", "table of", "appendix", "index", "introduction",
+             "chapter", "glossary", "credits", "reversed form", "reversible",
+             "sphere:", "school:", "note:", "optional"]):
+            continue
+        # Skip: Name ist nur "Reversible" oder beginnt mit Erklaerungstext
+        if name in ("Reversible", "Reversable"):
+            continue
+
+        stats = parse_spell_stats(block["text"])
+        # Qualitaets-Check: muss mindestens Level haben
+        if "level" not in stats:
+            continue
+
+        spell_id = slugify(name)
+        if not spell_id:
+            continue
+
+        spell = {
+            "name": name,
+            "id": spell_id,
+            "source": source,
+            "source_page": block["start_page"],
+            "school": block.get("school", ""),
+            "category": "spell",
+            "priority": "core",
+            "system_id": "add_2e",
+            "schema_version": "1.0.0",
+            "tags": list(dict.fromkeys(base_tags + ["spell"])),
+        }
+
+        # Stat-Felder uebernehmen
+        for field in ["level", "range", "components", "casting_time",
+                      "duration", "area_of_effect", "saving_throw"]:
+            if field in stats:
+                spell[field] = stats[field]
+
+        spell["raw_text"] = block["text"][:6000]
+        spells.append(spell)
+
+    return spells
+
+
+# ---------------------------------------------------------------------------
+# Monster-Extraktion (Monstrous Compendium)
+# ---------------------------------------------------------------------------
+
+# Regex fuer CLIMATE/TERRAIN Marker (OCR-tolerant: Kyrillische Zeichen, fehlende Zeichen)
+CLIMATE_MARKER = re.compile(
+    r"CLIMAT|CLIMATE[/\s]*TERRAIN",
+    re.IGNORECASE
+)
+
+# Stat-Feld-Labels mit OCR-toleranten Patterns
+MONSTER_STAT_LABELS = [
+    ("climate_terrain",  re.compile(r"CLIMAT.*?TERRAIN|CLIMATETERRAIN", re.IGNORECASE)),
+    ("frequency",        re.compile(r"FREQUEN", re.IGNORECASE)),
+    ("organization",     re.compile(r"ORGANIZ", re.IGNORECASE)),
+    ("activity_cycle",   re.compile(r"ACTIVIT.*?CYCL", re.IGNORECASE)),
+    ("diet",             re.compile(r"^DIET", re.IGNORECASE)),
+    ("intelligence",     re.compile(r"INTELLIG", re.IGNORECASE)),
+    ("treasure_type",    re.compile(r"TREASURE", re.IGNORECASE)),
+    ("alignment",        re.compile(r"ALIGNM", re.IGNORECASE)),
+    ("number_appearing", re.compile(r"NO\.?\s*APPEAR|APPEARING", re.IGNORECASE)),
+    ("ac",               re.compile(r"ARMO.*?CLASS", re.IGNORECASE)),
+    ("movement",         re.compile(r"^MOVE", re.IGNORECASE)),
+    ("hit_dice",         re.compile(r"HIT\s*DIC", re.IGNORECASE)),
+    ("thac0",            re.compile(r"THAC", re.IGNORECASE)),
+    ("number_of_attacks",re.compile(r"NO\.?\s*OF\s*ATTACK|ATTACKS", re.IGNORECASE)),
+    ("damage",           re.compile(r"DAMAGE", re.IGNORECASE)),
+    ("special_attacks",  re.compile(r"SPECIAL\s*ATTACK", re.IGNORECASE)),
+    ("special_defenses", re.compile(r"SPECIAL\s*DEFEN", re.IGNORECASE)),
+    ("magic_resistance", re.compile(r"MAGI.*?RESIS", re.IGNORECASE)),
+    ("size",             re.compile(r"^SIZE", re.IGNORECASE)),
+    ("morale",           re.compile(r"^MORAL", re.IGNORECASE)),
+    ("xp_value",         re.compile(r"XP\s*VALUE|EXPERIENCE", re.IGNORECASE)),
+]
+
+
+def find_monster_blocks(pages: list[dict]) -> list[dict]:
+    """
+    Findet Monster-Eintraege ueber CLIMATE/TERRAIN Marker.
+    Gibt Liste von {name, start_page, pages_text} zurueck.
+    """
+    blocks = []
+
+    # Jede Seite einzeln pruefen auf CLIMATE/TERRAIN Marker
+    # Ein Monster-Block beginnt wenn CLIMATE/TERRAIN gefunden wird
+    monster_pages = []  # (page_num, text, is_start)
+
+    for p in pages:
+        text = p["text"]
+        if CLIMATE_MARKER.search(text):
+            monster_pages.append((p["page"], text, True))
+        elif monster_pages and not monster_pages[-1][2]:
+            # Continuation page (nach Start, vor naechstem Start)
+            monster_pages.append((p["page"], text, False))
+        elif monster_pages:
+            # Seite zwischen zwei Monstern (Narrative-Fortsetzung)
+            monster_pages.append((p["page"], text, False))
+
+    # Gruppiere: jeder CLIMATE/TERRAIN Start beginnt neuen Block
+    current_block = None
+    for page_num, text, is_start in monster_pages:
+        if is_start:
+            if current_block:
+                blocks.append(current_block)
+            # Monster-Name ist Text VOR dem CLIMATE Marker
+            match = CLIMATE_MARKER.search(text)
+            pre_climate = text[:match.start()] if match else ""
+            # Name: letzte nicht-leere Zeilen vor dem Marker
+            pre_lines = [l.strip() for l in pre_climate.split("\n") if l.strip()]
+            # Filter: Ueberspringe Seiten die nur Tabellen/Index sind
+            if not pre_lines:
+                monster_name = f"Unknown_Page_{page_num}"
+            else:
+                # Monster-Name: suche nach echten Monster-Namen
+                # Ignoriere kurze OCR-Artefakte, Seitenzahlen, Varianten-Labels
+                OCR_GARBAGE = {"JJJ", "M", "I", "II", "III", "IV", "V", "VI",
+                               "VII", "VIII", "IX", "X", "i", "ii", "iii",
+                               "OO", "OOO", "AAA", "MENU", "—", "--", "`"}
+                name_candidates = []
+                for line in pre_lines:
+                    # Skip: reine Zahlen, Seitenzahlen
+                    if re.match(r"^\d+$", line):
+                        continue
+                    # Skip: sehr kurze Zeilen (< 3 Zeichen) oder bekannte Artefakte
+                    if len(line) < 3 or line in OCR_GARBAGE:
+                        continue
+                    # Skip: Varianten-Header
+                    if len(pre_lines) > 2 and line in ("Common", "Giant",
+                        "Lesser", "Greater", "Dracolisk", "Major", "Minor"):
+                        continue
+                    # Skip: Zeilen die wie Narrative aussehen (>50 chars, Kleinbuchstaben-Start)
+                    if len(line) > 50 and line[0].islower():
+                        continue
+                    # Skip: Zeilen mit Satzzeichen-Mustern (Narrative-Fragmente)
+                    if len(line) > 40 and (", " in line or ". " in line):
+                        continue
+                    name_candidates.append(line)
+                monster_name = name_candidates[0] if name_candidates else f"Page_{page_num}"
+
+            current_block = {
+                "name": monster_name.strip(),
+                "start_page": page_num,
+                "pages_text": text,
+            }
+        else:
+            if current_block:
+                current_block["pages_text"] += "\n\n" + text
+
+    if current_block:
+        blocks.append(current_block)
+
+    return blocks
+
+
+def parse_monster_stats(block_text: str) -> dict:
+    """
+    Parst Stat-Block-Felder aus einem Monster-Text-Block.
+    Gibt Dict mit erkannten Feldern zurueck.
+    """
+    lines = block_text.split("\n")
+    stats = {}
+    current_field = None
+    narrative_start = -1
+    xp_found = False
+
+    for i, raw_line in enumerate(lines):
+        line = raw_line.strip()
+        if not line:
+            continue
+
+        # Prüfe ob Zeile ein Stat-Label ist
+        matched_field = None
+        for field_name, pattern in MONSTER_STAT_LABELS:
+            if pattern.search(line):
+                matched_field = field_name
+                break
+
+        if matched_field:
+            current_field = matched_field
+            # Wert kann auf gleicher Zeile sein (nach Doppelpunkt)
+            colon_pos = line.find(":")
+            if colon_pos >= 0:
+                value = line[colon_pos + 1:].strip()
+                if value:
+                    stats[current_field] = value
+            if matched_field == "xp_value":
+                xp_found = True
+            continue
+
+        # Wenn wir in einem Feld sind und der Wert noch fehlt
+        if current_field and current_field not in stats:
+            stats[current_field] = line
+            if current_field == "xp_value":
+                xp_found = True
+            current_field = None
+            continue
+
+        # XP wurde gefunden und keine weiteren Stat-Labels -> Narrative beginnt
+        if xp_found and not matched_field:
+            # Narrative Text: alles ab hier (XP-Wert-Zeilen ueberspringen)
+            if len(line) > 20 and not re.match(r"^\d[\d,\s]*$", line):
+                narrative_start = i
+                break
+
+    # Narrative zusammenbauen
+    narrative = ""
+    if narrative_start > 0:
+        narrative_lines = [l.strip() for l in lines[narrative_start:] if l.strip()]
+        narrative = "\n".join(narrative_lines)
+
+    stats["_narrative"] = narrative
+    return stats
+
+
+def infer_name_from_narrative(text: str) -> Optional[str]:
+    """Versucht Monster-Name aus Narrativ-Text zu erraten."""
+    narrative_lines = [l.strip() for l in text.split("\n") if l.strip() and len(l.strip()) > 15]
+    if not narrative_lines:
+        return None
+
+    # Strategie 1: Suche "The X is/are..." Muster in ersten 5 Zeilen
+    for line in narrative_lines[:5]:
+        m = re.match(
+            r"(?:These|The|A|An)\s+(.+?)\s+(?:is|are|was|were|has|have|resemble|look|appear|dwell|live|inhabit|can|exist)",
+            line, re.IGNORECASE
+        )
+        if m:
+            name = m.group(1).strip()
+            words = name.split()[:4]
+            name = " ".join(words)
+            name = re.sub(r"[,;:.\(\)].*$", "", name).strip()
+            if 2 < len(name) < 50:
+                return name.title()
+
+    # Strategie 2: Suche "X are creatures/monsters/beings..." oder "X is a creature..."
+    for line in narrative_lines[:5]:
+        m = re.match(
+            r"([A-Z][a-z]+(?:\s+[a-z]+){0,2})\s+(?:are|is)\s+(?:a\s+)?(?:creature|monster|being|race|species|type|form|kind|beast|animal|undead|fiend|demon|devil|dragon|humanoid|plant|construct|elemental|ooze|aberration|fey|giant|celestial)",
+            line
+        )
+        if m:
+            name = m.group(1).strip()
+            if 2 < len(name) < 50:
+                return name.title()
+
+    # Strategie 3: Erster Satz — suche Eigenname am Anfang (Gross, 1-3 Woerter, vor Verb)
+    first = narrative_lines[0]
+    m = re.match(r"^([A-Z][a-z]+(?:[,\s]+[A-Z][a-z]+){0,2})\s+(?:are|is|has|have|live|dwell|inhabit|appear|resemble|can)", first)
+    if m:
+        name = m.group(1).strip().rstrip(",")
+        if 2 < len(name) < 50:
+            return name.title()
+
+    return None
+
+
+def extract_monsters(pages: list[dict], source: str, code: str,
+                     base_tags: list[str]) -> list[dict]:
+    """
+    Extrahiert Monster-Eintraege aus Monstrous Compendium PDFs.
+    Gibt Liste von Schema-A Monster-Dicts zurueck.
+    """
+    blocks = find_monster_blocks(pages)
+    monsters = []
+
+    # Skip-Filter fuer Nicht-Monster-Seiten
+    skip_names = {"alphabetical index", "monster summoning", "temperate encounter",
+                  "tropical encounter", "arctic encounter", "dungeon level",
+                  "how to use", "calculating experience", "encounter tables",
+                  "appendix", "credits", "table of contents", "beyond random",
+                  "monster manual", "introduction", "preface", "foreword",
+                  "index for monstrous", "about the author", "experience points",
+                  "summoning tables"}
+
+    # Stat-Felder die fuer einen echten Monster-Eintrag vorhanden sein muessen
+    REQUIRED_STATS = {"ac", "hit_dice"}
+    MIN_STAT_COUNT = 5
+
+    for block in blocks:
+        name = block["name"]
+
+        # Bereinige Monster-Name
+        name = re.sub(r"\s+", " ", name).strip()
+        name = re.sub(r"^[\d\s]+", "", name).strip()
+        name = re.sub(r"\s*[\|#@\*]+\s*$", "", name).strip()
+
+        stats = parse_monster_stats(block["pages_text"])
+
+        # Qualitaets-Check: genuegend Stat-Felder vorhanden?
+        stat_fields = {k for k in stats if not k.startswith("_")}
+        if len(stat_fields) < MIN_STAT_COUNT:
+            continue
+        if not stat_fields & REQUIRED_STATS:
+            continue
+
+        # Name-Fallback: aus Narrativ-Text ableiten
+        if not name or len(name) < 2 or name.startswith("Unknown_") or name.startswith("Page_"):
+            inferred = infer_name_from_narrative(stats.get("_narrative", ""))
+            if inferred:
+                name = inferred
+            else:
+                name = f"Unknown_{code}_p{block['start_page']}"
+
+        # Skip: offensichtlich keine Monster-Eintraege
+        if any(skip in name.lower() for skip in skip_names):
+            continue
+
+        monster_id = slugify(name)
+        if not monster_id:
+            continue
+
+        monster = {
+            "name": name,
+            "id": monster_id,
+            "source": source,
+            "source_page": block["start_page"],
+            "category": "monster",
+            "priority": "core",
+            "system_id": "add_2e",
+            "schema_version": "1.0.0",
+            "tags": list(dict.fromkeys(base_tags + ["monster", name.lower().split()[0]])),
+        }
+
+        # Stat-Felder uebernehmen
+        for field in ["climate_terrain", "frequency", "organization", "activity_cycle",
+                      "diet", "intelligence", "treasure_type", "alignment",
+                      "number_appearing", "ac", "movement", "hit_dice", "thac0",
+                      "number_of_attacks", "damage", "special_attacks",
+                      "special_defenses", "magic_resistance", "size", "morale",
+                      "xp_value"]:
+            if field in stats:
+                monster[field] = stats[field]
+
+        # Raw Text = ganzer Block (begrenzt auf 10K)
+        monster["raw_text"] = block["pages_text"][:10000]
+
+        monsters.append(monster)
+
+    return monsters
+
+
+def rebuild_monster_index():
+    """Rebuild monsters/index.json mit allen vorhandenen Monster-Dateien."""
+    monsters_dir = LORE_BASE / "monsters"
+    if not monsters_dir.exists():
+        return
+
+    entries = []
+    for f in sorted(monsters_dir.glob("*.json")):
+        if f.name == "index.json":
+            continue
+        try:
+            with open(f, "r", encoding="utf-8-sig") as fh:
+                data = json.load(fh)
+            entries.append({
+                "id": data.get("id", f.stem),
+                "name": data.get("name", f.stem),
+                "file": f.name,
+                "source": data.get("source", ""),
+                "source_page": data.get("source_page", 0),
+            })
+        except (json.JSONDecodeError, KeyError):
+            entries.append({"id": f.stem, "name": f.stem, "file": f.name})
+
+    index = {
+        "type": "monster_index",
+        "system_id": "add_2e",
+        "total": len(entries),
+        "entries": entries,
+    }
+    index_path = monsters_dir / "index.json"
+    with open(index_path, "w", encoding="utf-8") as fh:
+        json.dump(index, fh, ensure_ascii=False, indent=2)
+    print(f"  Index aktualisiert: {len(entries)} Monster in {index_path.name}")
+
+
+# ---------------------------------------------------------------------------
 # Generische Chunk-Fabrik
 # ---------------------------------------------------------------------------
 
@@ -540,7 +1263,7 @@ def process_pdf(pdf_filename: str, pdf_type: str, target_category: str,
         return stats
 
     # Kurzname des Buches (ohne Verlag-Prefix)
-    match = re.search(r"(PHBR\d+|DMGR\d+|Player.s Option|Tome of Magic|Legends and Lore|PO_\w+)", pdf_filename)
+    match = re.search(r"(PHBR\d+|DMGR\d+|MC_\w+|Player.s Option|Tome of Magic|Legends and Lore|PO_\w+|Monstrous Compendium[^.]*)", pdf_filename)
     short_source = match.group(0) if match else code
     # Vollstaendiger Buchtitel
     full_source = pdf_filename.replace(".pdf", "").replace("TSR Inc - AD&D 2nd Edition - ", "")
@@ -589,6 +1312,51 @@ def process_pdf(pdf_filename: str, pdf_type: str, target_category: str,
                 stats["kits_written"] += 1
             else:
                 stats["kits_skipped"] += 1
+
+    # --- Sonder-Handling fuer Spell Compendium ---
+    elif pdf_type == "spell_compendium":
+        print(f"  Extrahiere Spells ...", end=" ", flush=True)
+        spell_list = extract_spells_compendium(pages, full_source, code, base_tags)
+        print(f"{len(spell_list)} Spells erkannt")
+
+        spells_dir = LORE_BASE / target_category
+        cnt_written = 0
+        cnt_skipped = 0
+        for sp in spell_list:
+            fname = sp["id"] + ".json"
+            written = write_json(sp, spells_dir, fname)
+            if written:
+                cnt_written += 1
+            else:
+                cnt_skipped += 1
+        stats["chapters_written"] = cnt_written
+        stats["chapters_skipped"] = cnt_skipped
+        print(f"  -> Spells: {cnt_written} neu, {cnt_skipped} uebersprungen")
+
+    # --- Sonder-Handling fuer Sourcebooks (Kapitel-Extraktion) ---
+    elif pdf_type == "sourcebook":
+        # Keine Kits, nur Kapitel-Chunks
+        pass  # Standard-Kapitel oben bereits verarbeitet
+
+    # --- Sonder-Handling fuer Monster ---
+    elif pdf_type == "monster":
+        print(f"  Extrahiere Monster ...", end=" ", flush=True)
+        monsters = extract_monsters(pages, full_source, code, base_tags)
+        print(f"{len(monsters)} Monster-Bloecke erkannt")
+
+        monsters_dir = LORE_BASE / "monsters"
+        cnt_written = 0
+        cnt_skipped = 0
+        for m in monsters:
+            fname = m["id"] + ".json"
+            written = write_json(m, monsters_dir, fname)
+            if written:
+                cnt_written += 1
+            else:
+                cnt_skipped += 1
+        stats["chapters_written"] = cnt_written
+        stats["chapters_skipped"] = cnt_skipped
+        print(f"  -> Monster: {cnt_written} neu, {cnt_skipped} uebersprungen")
 
     # --- Sonder-Handling fuer Psionics ---
     elif pdf_type == "psionics":
@@ -678,14 +1446,159 @@ def cmd_batch_p1(args):
     print(f"\nReport gespeichert: {report_path}")
 
 
+def cmd_batch_p2(args):
+    """Verarbeite alle 9 P2-PDFs (Monster Compendiums)."""
+    print(f"\n=== P2-BATCH START ({len(P2_PDFS)} Monster Compendiums) ===\n")
+    all_stats = []
+    total_monsters = 0
+    total_skipped = 0
+    errors = []
+
+    for i, (filename, pdf_type, target_cat, code, base_tags) in enumerate(P2_PDFS):
+        print(f"[{i+1:02d}/{len(P2_PDFS)}] {code}: {filename[:70]}")
+        s = process_pdf(filename, pdf_type, target_cat, code, base_tags)
+        all_stats.append(s)
+        total_monsters += s["chapters_written"]
+        total_skipped += s["chapters_skipped"]
+        if s["error"]:
+            errors.append(f"{code}: {s['error']}")
+        print(f"  -> Monster: {s['chapters_written']} neu, {s['chapters_skipped']} dup | "
+              f"{s['pages']} Seiten")
+        print()
+
+    # Index neu bauen
+    print("Aktualisiere Monster-Index ...")
+    rebuild_monster_index()
+
+    print("\n=== P2-BATCH ABGESCHLOSSEN ===")
+    print(f"Monster gesamt:   {total_monsters} neu")
+    print(f"Duplikate:        {total_skipped} uebersprungen")
+    if errors:
+        print(f"\nFEHLER ({len(errors)}):")
+        for e in errors:
+            print(f"  - {e}")
+
+    show_stats()
+
+    # JSON-Report speichern
+    report_path = LORE_BASE / "conversion_p2_report.json"
+    with open(report_path, "w", encoding="utf-8") as f:
+        json.dump({
+            "batch": "p2",
+            "total_pdfs": len(P2_PDFS),
+            "total_monsters_new": total_monsters,
+            "total_duplicates": total_skipped,
+            "errors": errors,
+            "per_pdf": all_stats,
+        }, f, ensure_ascii=False, indent=2)
+    print(f"\nReport gespeichert: {report_path}")
+
+
+def run_batch(name: str, pdf_list: list, args):
+    """Generische Batch-Funktion fuer beliebige PDF-Listen."""
+    print(f"\n=== {name} START ({len(pdf_list)} PDFs) ===\n")
+    all_stats = []
+    total_new = 0
+    total_skipped = 0
+    errors = []
+
+    for i, (filename, pdf_type, target_cat, code, base_tags) in enumerate(pdf_list):
+        print(f"[{i+1:02d}/{len(pdf_list)}] {code}: {filename[:70]}")
+        s = process_pdf(filename, pdf_type, target_cat, code, base_tags)
+        all_stats.append(s)
+        total_new += s["chapters_written"]
+        total_skipped += s["chapters_skipped"]
+        if s["error"]:
+            errors.append(f"{code}: {s['error']}")
+        print(f"  -> {s['chapters_written']} neu, {s['chapters_skipped']} dup | "
+              f"{s['pages']} Seiten")
+        print()
+
+    print(f"=== {name} ABGESCHLOSSEN ===")
+    print(f"Chunks gesamt: {total_new} neu, {total_skipped} dup")
+    if errors:
+        print(f"\nFEHLER ({len(errors)}):")
+        for e in errors:
+            print(f"  - {e}")
+
+    show_stats()
+
+    # Report speichern
+    safe_name = slugify(name)
+    report_path = LORE_BASE / f"conversion_{safe_name}_report.json"
+    with open(report_path, "w", encoding="utf-8") as f:
+        json.dump({
+            "batch": name,
+            "total_pdfs": len(pdf_list),
+            "total_new": total_new,
+            "total_skipped": total_skipped,
+            "errors": errors,
+            "per_pdf": all_stats,
+        }, f, ensure_ascii=False, indent=2)
+    print(f"\nReport: {report_path}")
+    return {"total_new": total_new, "total_skipped": total_skipped, "errors": errors}
+
+
+def cmd_batch_spells(args):
+    """Alle Spell Compendiums (Wizard + Priest)."""
+    run_batch("SPELLS", SPELL_PDFS, args)
+
+
+def cmd_batch_magicitems(args):
+    """Encyclopedia Magica + Magic Encyclopedia."""
+    run_batch("MAGIC-ITEMS", MAGICITEM_PDFS, args)
+
+
+def cmd_batch_dmgr(args):
+    """DMGR Serie + DM Core Books."""
+    run_batch("DMGR", DMGR_PDFS + DM_CORE_PDFS, args)
+
+
+def cmd_batch_dragonlance(args):
+    """Alle Dragonlance PDFs — eigene Welt!"""
+    run_batch("DRAGONLANCE", DL_PDFS, args)
+
+
+def cmd_batch_historical(args):
+    """Historical Reference HR1-HR7."""
+    run_batch("HISTORICAL", HR_PDFS, args)
+
+
+def cmd_batch_all(args):
+    """Alle verbleibenden Batches in Reihenfolge."""
+    batches = [
+        ("SPELLS", SPELL_PDFS),
+        ("MAGIC-ITEMS", MAGICITEM_PDFS),
+        ("DMGR", DMGR_PDFS + DM_CORE_PDFS),
+        ("DRAGONLANCE", DL_PDFS),
+        ("HISTORICAL", HR_PDFS),
+    ]
+    grand_total_new = 0
+    grand_total_errors = 0
+    for name, pdf_list in batches:
+        result = run_batch(name, pdf_list, args)
+        grand_total_new += result["total_new"]
+        grand_total_errors += len(result["errors"])
+
+    # Monster-Index aktualisieren
+    rebuild_monster_index()
+
+    print(f"\n{'='*60}")
+    print(f"ALLE BATCHES ABGESCHLOSSEN")
+    print(f"Neue Chunks gesamt: {grand_total_new}")
+    print(f"Fehler gesamt: {grand_total_errors}")
+    show_stats()
+
+
 def cmd_single_pdf(args):
     """Verarbeite ein einzelnes PDF."""
     pdf_filename = args.pdf
     pdf_type = args.type or "phbr"
 
-    # Lookup in P1-Liste
+    # Lookup in allen Listen
+    all_lists = P1_PDFS + P2_PDFS + SPELL_PDFS + MAGICITEM_PDFS + DMGR_PDFS + DM_CORE_PDFS + DL_PDFS + HR_PDFS
     entry = None
-    for row in P1_PDFS:
+    for row in all_lists:
         if row[3] in pdf_filename or row[0] in pdf_filename:
             entry = row
             break
@@ -718,11 +1631,14 @@ Beispiele:
   py -3 scripts/converter.py --stats
         """,
     )
-    parser.add_argument("--batch", choices=["p1"], help="Batch-Modus: p1 = alle 21 P1-PDFs")
+    parser.add_argument("--batch", choices=["p1", "p2", "spells", "magicitems", "dmgr",
+                                             "dragonlance", "historical", "all"],
+                        help="Batch-Modus")
     parser.add_argument("--pdf", type=str, help="Einzelne PDF-Datei verarbeiten")
     parser.add_argument("--type", type=str,
                         choices=["phbr", "phbr_race", "psionics", "equipment",
-                                 "rules_option", "spells", "deities"],
+                                 "rules_option", "spells", "deities", "monster",
+                                 "spell_compendium", "sourcebook"],
                         help="PDF-Typ (nur mit --pdf)")
     parser.add_argument("--stats", action="store_true", help="Statistik anzeigen")
 
@@ -734,6 +1650,34 @@ Beispiele:
 
     if args.batch == "p1":
         cmd_batch_p1(args)
+        return
+
+    if args.batch == "p2":
+        cmd_batch_p2(args)
+        return
+
+    if args.batch == "spells":
+        cmd_batch_spells(args)
+        return
+
+    if args.batch == "magicitems":
+        cmd_batch_magicitems(args)
+        return
+
+    if args.batch == "dmgr":
+        cmd_batch_dmgr(args)
+        return
+
+    if args.batch == "dragonlance":
+        cmd_batch_dragonlance(args)
+        return
+
+    if args.batch == "historical":
+        cmd_batch_historical(args)
+        return
+
+    if args.batch == "all":
+        cmd_batch_all(args)
         return
 
     if args.pdf:

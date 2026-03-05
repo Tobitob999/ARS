@@ -31,20 +31,10 @@ QUEUE_FILE = PROJECT_ROOT / "coversion" / "pdf_queue.json"
 
 # Heuristische Erkennung des Regelsystems anhand des Dateinamens
 SYSTEM_HINTS: dict[str, str] = {
-    "cthulhu":       "cthulhu_7e",
-    "call_of":       "cthulhu_7e",
-    "coc":           "cthulhu_7e",
-    "keeper":        "cthulhu_7e",
     "add":           "add_2e",
     "adnd":          "add_2e",
     "dungeon":       "add_2e",
     "forgotten":     "add_2e",
-    "paranoia":      "paranoia_2e",
-    "alpha_complex": "paranoia_2e",
-    "shadowrun":     "shadowrun_6",
-    "sr6":           "shadowrun_6",
-    "mad_max":       "mad_max",
-    "wasteland":     "mad_max",
     "gurps":         "gurps_4e",
     "mechwarrior":   "mechwarrior_3e",
     "battletech":    "mechwarrior_3e",
@@ -54,8 +44,6 @@ SYSTEM_HINTS: dict[str, str] = {
 # Scan-Verzeichnisse (relativ zu Projekt-Root)
 SCAN_DIRS = [
     PROJECT_ROOT,
-    PROJECT_ROOT.parent / "paranoia",
-    PROJECT_ROOT.parent / "shadowrun",
     Path("G:/Meine Ablage"),
 ]
 
@@ -75,9 +63,6 @@ def assign_priority(path: Path, system: str) -> int:
     # Core-Buecher haben hoechste Prioritaet
     if any(k in name for k in ("core", "grundregeln", "main", "base", "rulebook")):
         return 1
-    # Bekannte Systeme mit Lore-Luecken
-    if system in ("shadowrun_6",):
-        return 2
     # Supplements
     if any(k in name for k in ("supplement", "erweiterung", "companion", "sourcebook")):
         return 3

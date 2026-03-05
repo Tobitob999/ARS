@@ -143,7 +143,7 @@ class SessionTab(ttk.Frame):
         ttk.Label(fine_frame, text="Atmosphaere").grid(
             row=1, column=0, sticky=tk.W, padx=PAD, pady=PAD_SMALL,
         )
-        self._atmosphere_var = tk.StringVar(value="1920s Cosmic Horror")
+        self._atmosphere_var = tk.StringVar(value="Klassische Fantasy, Schwerter und Magie")
         tk.Entry(
             fine_frame, textvariable=self._atmosphere_var,
             bg=BG_INPUT, fg=FG_PRIMARY, insertbackground=FG_PRIMARY,
@@ -154,7 +154,7 @@ class SessionTab(ttk.Frame):
         ttk.Label(fine_frame, text="Keeper-Persona").grid(
             row=2, column=0, sticky=tk.W, padx=PAD, pady=PAD_SMALL,
         )
-        self._persona_var = tk.StringVar(value="Mysterioes, detailverliebt, zynisch")
+        self._persona_var = tk.StringVar(value="Episch, detailverliebt, gerecht")
         tk.Entry(
             fine_frame, textvariable=self._persona_var,
             bg=BG_INPUT, fg=FG_PRIMARY, insertbackground=FG_PRIMARY,
@@ -513,7 +513,7 @@ class SessionTab(ttk.Frame):
         extras = [name for name, var in self._extras_vars.items() if var.get()]
 
         return SessionConfig(
-            ruleset=self._combos["ruleset"].get() or "cthulhu_7e",
+            ruleset=self._combos["ruleset"].get() or "add_2e",
             adventure=adventure if adventure != "(keine)" else None,
             setting=setting if setting != "(keine)" else None,
             keeper=keeper if keeper != "(keine)" else None,

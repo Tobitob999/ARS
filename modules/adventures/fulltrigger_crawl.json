@@ -1,0 +1,591 @@
+{
+  "schema_version": "1.0.0",
+  "id": "fulltrigger_crawl",
+  "compatible_rulesets": ["add_2e"],
+  "title": "Die Arena der Absoluten Pruefung",
+  "setting": "Eine magische Arena, erschaffen vom wahnsinnigen Erzmagier Xanthorath Grimveil, der in seinem Wahnsinn beschloss, JEDE denkbare Herausforderung der Abenteuererwelt in einem einzigen Raum zu konzentrieren. Die Arena existiert ausserhalb von Zeit und Raum — kein Ausgang, bis die Pruefung bestanden ist oder alle tot sind.",
+  "difficulty": "Absolut (Mechanik-Vollabdeckungs-Stresstest)",
+  "intro": "Ihr erwacht in einer magisch beleuchteten Arena — nein, das Licht erloscht sofort. Absolute Dunkelheit. Der Boden vibriert. Knochen klappern. Etwas Grosses bewegt sich. Irgendwo weint ein Mensch. Irgendwo lacht ein Wahnsinniger. Und an der Wand leuchtet in rotem Feuer eine Inschrift: 'BEWEIST EUREN WERT — ODER STERBT.' Willkommen in der Arena von Xanthorath Grimveil. Es gibt keinen Ausgang. Nur Sieg — oder Tod.",
+  "hook": "Ueberlebt 20 Kampfrunden in der Arena. Besiegt oder bezwingt alle Feinde, erkennt alle Fallen, bergt den Schatz — und entkommt der Pruefung des wahnsinnigen Magiers.",
+  "keeper_lore": "=== ARENA-BRIEFING (DM-INTERN) ===\nDies ist ein MECHANIK-VOLLABDECKUNGS-TEST. JEDER implementierte Tag MUSS mindestens einmal ausgeloest werden. Weiche keiner Situation aus. Erzwinge alle Tags aktiv.\n\n=== RAUMINHALT ===\nEIN einziger Raum: Die Arena. 30x30 Meter. Absolute Dunkelheit beim Start (Infravision oder Licht noetig). Folgende Elemente sind gleichzeitig praesennt:\n\nUNTOTE (SOFORT SICHTBAR nach Lichtquelle):\n- 4 Skelette (HD 1, AC 7, HP 5 je, THAC0 20, Morale 12 [Untote fleehen nie — aber Vertreibung zwingt sie zurueck])\n- 2 Zombies (HD 2, AC 8, HP 12 je, THAC0 19, Morale 12, Initiative immer zuletzt)\n- 1 Ghoul (HD 3, AC 6, HP 15, THAC0 17, Paralyse bei Treffer — Rettungswurf!)\n- 1 Wraith (HD 5+3, AC 3, HP 28, THAC0 15, Level Drain 1 Stufe pro Treffer, nur durch magische Waffen treffbar)\n\nLEBENDE FEINDE:\n- 1 Oger-Anfuehrer 'Krugg' (HD 4+1, AC 5, HP 24, THAC0 15, Morale 13, Schatz Type H am Guertel)\n- 3 Goblin-Bogenschuetzen (HD 1-1, AC 6, HP 4 je, THAC0 20, Morale 7, Fernkampf 2 Runden dann Nahkampf)\n- 1 Riesenschlange 'Venomia' (HD 3, AC 5, HP 18, THAC0 17, Giftbiss — Save vs Gift mit -2)\n\nGEFANGENE / NEUTRALE NPCs:\n- Haendler Aldric Morn (Mensch, neutral, CHA 12, +1 CHA-Mod fuer Reaktionswuerfe, angekettet an Suedwand)\n- Soeldner 'Rote Karin' (Mensch-Kaempfer, HD 3, momentan feindlich wegen Misstrauen, wird durch gute Reaktion Verbundete)\n- Xanthorath Grimveil (Wahnsinniger Erzmagier, HD 10, BEOBACHTET NUR — greift NICHT an, hilft bei perfekter Reaktion mit 1 Zauberspruch)\n\nSCHATZE:\n- Eisentruhe (Suedostecke): Enthalt Treasure Type A + magisches Schwert +1. FALLE: Giftige Nadeln bei Oeffnen ohne Suche (Save vs Gift -2)\n- Lederbeutel (nahe Zombies): Treasure Type C\n- Oger-Guertel: Treasure Type H\n- 10.000 Kupfermuenzen offen auf dem Boden (100 Pfund — SOFORTIGER Encumbrance-Trigger)\n- Heiltrank (2d4+2 HP) auf einem Sockel in der Mitte der Arena\n\nFALLEN:\n- Druckplatte (Nordseite): Feuerstoß — Save vs Breath Weapon oder 3d6 Schaden\n- Giftige Nadeln (an Truhe): Save vs Gift -2 oder Schlangengift-Effekt\n\nWANDERING MONSTERS: Alle 2 Runden (statt Standard-3) — wuerfle d6:\n  1-2: 1d4 Ratten (HD 0, last resort — minimal)\n  3-4: 1 weiterer Goblin taucht aus einer versteckten Luke auf\n  5-6: Xanthorath schickt einen magischen Stein (1d4 Schaden Magiedruck — behandle als BEGEGNUNG-Tag)\n\n=== PFLICHT-TAG-CHECKLISTE (JEDER TAG MINDESTENS 1x IN 20 RUNDEN) ===\n\n** RUNDE 1-2: NPC-REAKTIONEN **\n[REAKTION: Aldric Morn | +1] — Sofort beim ersten Kontakt mit dem Haendler emittieren. Aldric reagiert freundlich, gibt Info ueber die Arena.\n[REAKTION: Rote Karin | -1] — Karin ist misstrauisch. Emittiere Tag. Bei Erfolg (gut) wird sie Verbundete.\n[REAKTION: Xanthorath Grimveil | 0] — Der Magier beobachtet. Emittiere bei erstem Augenkontakt.\n\n** RUNDE 1-3: UNTOTE VERTREIBEN **\n[UNTOTE_VERTREIBEN: KlerikerLevel | UntotenHD] — WENN ein Kleriker oder Paladin in der Gruppe ist, MUSS dieser in den ersten 3 Runden Untote vertreiben. Emittiere den Tag. Nutze Turn-Undead-Tabelle. Bei Erfolg fliehen Skelette und Zombies. Ghoul und Wraith sind haerter.\n\n** RUNDE 2-4: KAMPF-GRUNDTAGS **\n[ANGRIFF: Kurzschwert | THAC0 | AC | 0] — Bei JEDEM Nahkampfangriff eines Charakters oder Monsters emittieren.\n[HP_VERLUST: N] — Bei JEDEM erfolgreichen Treffer sofort emittieren. Kein Angriff ohne HP_VERLUST wenn getroffen.\n\n** RUNDE 3-5: MORALE-CHECKS **\n[MORAL_CHECK: Krugg der Oger | 13] — Sofort emittieren wenn Krugg 50% HP verliert (12 HP oder weniger). Bei Ergebnis < 13 auf 2d6: Krugg kaempft weiter. Bei >= 13: er versucht zu fliehen (schlaegt auf Wand).\n[MORAL_CHECK: Goblin-Bogenschuetze | 7] — Emittieren wenn 1 Goblin stirbt. Bei Ergebnis >= 7 auf 2d6: Goblins fliehen und huddeln in einer Ecke.\n\n** RUNDE 4-6: RETTUNGSWUERFE **\n[RETTUNGSWURF: Gift] — Sofort wenn Riesenschlange trifft ODER Nadelfalle ausloesl wird.\n[RETTUNGSWURF: Atemwaffe] — Sofort wenn Druckplatten-Falle ausgeloest wird (Feuerstoss).\n[RETTUNGSWURF: Laehmung] — Sofort wenn Ghoul einen Charakter trifft.\n\n** RUNDE 5-8: GIFT-MECHANIK **\n[GIFT: CharName | Schlangengift | -2] — Emittieren wenn Save vs Gift fehlschlaegt (Schlange ODER Nadelfalle). Schlangengift: Typ Tod in 1d6 Runden ohne Gegenmittel (dramatisch, nicht sofort).\n[GIFT: CharName | Fallengift | -2] — Separat fuer die Nadelfallevariante.\n\n** RUNDE 5-8: KAMPF-SPEZIALTAGS **\n[LEVEL_DRAIN: CharName | 1] — Emittieren wenn Wraith einen Charakter erfolgreich trifft. Sofort 1 Stufe verlieren.\n[ATEM_WAFFE: Feuerfalle | Feuer | 3d6] — Bei Ausloesung der Druckplatten-Falle emittieren (als Umgebungseffekt).\n[FURCHT: CharName | Flucht | 1d4] — Emittieren wenn ein Charakter den Wraith zum ersten Mal sieht und einen Weisheits-Check fehlschlaegt.\n\n** RUNDE 5-10: SCHATZ-UND-ENCUMBRANCE **\n[SCHATZ: A] — Emittieren sobald die Eisentruhe geoeffnet wird.\n[SCHATZ: C] — Emittieren sobald der Lederbeutel aufgehoben wird.\n[SCHATZ: H] — Emittieren vom Oger-Guertel nach Kruggs Tod.\n[BELASTUNG: CharName | 120] — Sofort emittieren wenn ein Charakter die 10.000 Kupfermuenzen (100 Pfund) aufhebt. Encumbrance-Stufe berechnen. Schwerer belastete Charaktere verlieren Bewegungsrate und Initiativebonus.\n[BELASTUNG: CharName | GesamtGewicht] — Auch emittieren wenn magisches Schwert + Schatz zusammen ueber Traglimit des Charakters gehen.\n\n** RUNDE 6-20: WANDERING MONSTERS / BEGEGNUNG **\n[BEGEGNUNG: Arena | 33] — Alle 2 Runden emittieren. 33% Chance = Wuerfel. Bei Erfolg erscheint ein neues Monster aus der Wandering-Monster-Tabelle.\n\n** RUNDE 1-20: DAUERTAGS **\n[ZEIT_VERGEHT: 0.5h] — JEDE Runde emittieren. Eine Arena-Runde = 30 Minuten In-Game-Zeit.\n[PROBE: Fertigkeit | Zielwert] — Bei JEDER Nicht-Kampf-Aktion emittieren (Schloesser knacken: Geschick 13, Fallen suchen: Intelligenz 14, Klettern: Staerke 12, Verstecken: Geschicklichkeit 11, Kenntnis Magie: Intelligenz 15 um Xanths Zauber zu erkennen).\n\n** VARIABLE RUNDEN: SONDERTAGS **\n[HP_HEILUNG: 2d4+2] — Emittieren wenn ein Charakter den Heiltrank auf dem Sockel trinkt. Sofortige Wirkung.\n[ZAUBER_VERBRAUCHT: ZauberName] — Emittieren wenn ein Magier oder Kleriker einen Zauber wirkt. BEIDE Typen: Kampfzauber UND Heilzauber zaehlen.\n[INVENTAR: +Magisches Schwert +1] — Emittieren wenn das Schwert aus der Truhe aufgehoben wird.\n[INVENTAR: +Heiltrank] — Emittieren wenn Heiltrank aufgehoben wird.\n[INVENTAR: +Treasure Type A Inhalt] — Nach Schatz-Inventarisierung.\n[XP_GEWINN: 2400] — Am Ende emittieren: Skelette (65 XP je x4=260) + Zombies (65 XP je x2=130) + Ghoul (175 XP) + Wraith (975 XP) + Oger (975 XP) + Goblins (15 XP je x3=45) + Schlange (175 XP) = 2735 XP Basis. Anpassen je nach Ueberlebenden.\n[FAKT: Die Arena existiert ausserhalb der Zeit — Gegner respawnieren nie, Zeit steht still] — Beim ersten Erkunden emittieren.\n[REGENERATION: Ghoul | 2] — Falls Ghoul nicht durch Feuer oder Heilige Waffe getoetet wird, regeneriert er 2 HP/Runde.\n[MAGIC_RESISTANCE: Wraith | 35] — Emittieren wenn ein Zauber gegen den Wraith gewirkt wird. 35% Chance dass Zauber wirkungslos ist.\n[WAFFEN_IMMUNITAET: Wraith | +1] — Emittieren wenn ein Charakter den Wraith mit normalen (nicht-magischen) Waffen angreift. Trefferwirkungslos.\n\n=== PACING-PLAN (DRAMATISCHE KURVE) ===\n\nRUNDE 1: Dunkelheit — Charakter braucht Licht. [PROBE: Intelligenz | 14] um Arena-Groesse zu schatzen. Aldric ruft um Hilfe. Skelette rascheln.\nRUNDE 2: Licht an — alle Feinde sichtbar. Erster NPC-Kontakt: [REAKTION: Aldric Morn | +1]. Goblins feuern sofort Pfeile. [ANGRIFF]-Tags starten.\nRUNDE 3: Kleriker: [UNTOTE_VERTREIBEN] jetzt oder nie. Ghoul greift an — [RETTUNGSWURF: Laehmung] sofort. Xanthorath lacht.\nRUNDE 4: Oger Krugg stuermt aus der Suedwest-Ecke. [ANGRIFF: Riesige Keule | 15 | AC | 0]. Schlange taucht neben Truhe auf. Druckplatte-Gefahr erkennbar [PROBE: Weisheit | 12].\nRUNDE 5: Wraith materialisiert — [FURCHT]-Check. [MAGIC_RESISTANCE] wenn Magier zaubert. Wandering Monster: [BEGEGNUNG: Arena | 33].\nRUNDE 6: Schlange greift an: [ANGRIFF: Giftbiss | 17 | AC | -2] dann [RETTUNGSWURF: Gift]. Bei Fehlschlag: [GIFT: Name | Schlangengift | -2].\nRUNDE 7: Krugg unter 12 HP: [MORAL_CHECK: Krugg der Oger | 13]. Goblin stirbt: [MORAL_CHECK: Goblin-Bogenschuetze | 7].\nRUNDE 8: Heiltrank sichtbar auf Sockel — Charakter greift danach. [PROBE: Geschicklichkeit | 13] um ihn zu erreichen ohne Druckplatte. [HP_HEILUNG: 2d4+2] bei Trinken.\nRUNDE 9: Truhe-Bereich erreichbar. [PROBE: Intelligenz | 14] um Falle zu erkennen. Bei Fehlschlag: [RETTUNGSWURF: Gift]. Nadelgift: [GIFT: Name | Fallengift | -2].\nRUNDE 10: Truhe offen: [SCHATZ: A]. Magisches Schwert: [INVENTAR: +Magisches Schwert +1]. Lederbeutel-Bereich: [SCHATZ: C].\nRUNDE 11: 10.000 Kupfermuenzen auf Boden — Charakter versucht aufzuheben: [BELASTUNG: Name | 120]. Bewegung halbiert wenn ueber Limit.\nRUNDE 12: Wraith schlaegt durch — [LEVEL_DRAIN: CharName | 1]. Sofort Stufe neu berechnen.\nRUNDE 13: Druckplatte ausgeloest (entweder durch Unachtsamkeit oder gezielt): [ATEM_WAFFE: Feuerfalle | Feuer | 3d6]. [RETTUNGSWURF: Atemwaffe] fuer alle in der Naehe.\nRUNDE 14: Magier wirkt Zauber: [ZAUBER_VERBRAUCHT: Magic Missile]. Kleriker: [ZAUBER_VERBRAUCHT: Cure Light Wounds].\nRUNDE 15-17: Letzte Monster raeumen — [BEGEGNUNG: Arena | 33] Runde 15, 17. Oger tot: [SCHATZ: H].\nRUNDE 18: Karin-Reaktion klaert sich: [REAKTION: Rote Karin | -1] — wenn Spieler vorher gut gehandelt hat, wird sie jetzt freundlich. Sie hilft beim letzten Kampf.\nRUNDE 19: Alle Hauptgegner down. [XP_GEWINN: 2735] berechnen und emittieren. [ZEIT_VERGEHT: 0.5h] fuer jede Runde rueckwirkend.\nRUNDE 20: Xanthorath klatscht. Die Arena-Wand oeffnet sich. Pruefung bestanden. Alle Tags gesetzt. [FAKT: Xanthorath erkennt wahre Helden] emittieren.\n\n=== ANTI-STAGNATIONS-REGELN ===\n- Wenn 2 aufeinanderfolgende Runden KEIN Kampf-Tag emittiert wurde: Ein Monster greift sofort an. Keine Ausrede.\n- Wenn Spieler passiv sind (nur beobachten): Aldric schreit 'HELFT MIR!' und ein Goblin schiesst auf ihn. Erzwinge Reaktion.\n- Wenn Spieler Truhe ignorieren: Xanthorath friert Zeit ein, zeigt auf Truhe, Zeit laeuft weiter. [FAKT: Der Magier will dass ihr den Schatz bergt]\n- Wenn kein Cleric/Paladin: Ersetze UNTOTE_VERTREIBEN durch extra [MORAL_CHECK] nach schwerem Treffer auf Undead.\n- Wenn kein Magier: Ersetze ZAUBER_VERBRAUCHT durch Scroll-Fund in der Truhe (Charakter liest Scroll: selber Tag).\n\n=== XANTHORATH-INTERAKTION ===\nBei CHA-Probe 16+ UND freundlicher Ansprache: Xanthorath wirkt EINMALIG einen Zauberspell fuer die Gruppe (Magic Missile auf staerksten Feind). Emittiere: [REAKTION: Xanthorath Grimveil | 0] und dann [ZAUBER_VERBRAUCHT: Xanthroraths Feuerball].\n\n=== AUFLOESUNG ===\nErfolgsbedingung: all_monsters_dead = true UND arena_escaped = true\nXanthorath oeffnet den Ausgang wenn MINDESTENS 15 der 17 Pflicht-Tags mindestens einmal emittiert wurden.\nWenn Gruppe scheitert: Xanthorath teleportiert sie zurueck zum Eingang — kein echter Tod, neue Chance. (Dies ist ein Test, kein Massaker.)",
+  "start_location": "die_arena",
+  "flags": {
+    "undead_turned": false,
+    "skelette_getrieben": false,
+    "zombie_getrieben": false,
+    "ghoul_getoetet": false,
+    "wraith_getoetet": false,
+    "oger_dead": false,
+    "goblins_fled": false,
+    "schlange_tot": false,
+    "treasure_found": false,
+    "truhe_geoeffnet": false,
+    "truhe_falle_ausgeloest": false,
+    "druckplatte_ausgeloest": false,
+    "poison_encountered": false,
+    "heiltrank_genutzt": false,
+    "magisches_schwert_gefunden": false,
+    "level_drain_aufgetreten": false,
+    "merchant_reaction_done": false,
+    "karin_reaction_done": false,
+    "xanthorath_reaction_done": false,
+    "karin_verbundete": false,
+    "encumbrance_ausgeloest": false,
+    "fear_check_wraith": false,
+    "all_monsters_dead": false,
+    "arena_escaped": false,
+    "mindestens_15_tags": false,
+    "wandering_monster_runde_6": false,
+    "wandering_monster_runde_8": false,
+    "wandering_monster_runde_10": false,
+    "wandering_monster_runde_12": false,
+    "wandering_monster_runde_14": false,
+    "wandering_monster_runde_16": false
+  },
+  "locations": [
+    {
+      "id": "die_arena",
+      "name": "Die Arena der Absoluten Pruefung",
+      "description": "Ein magischer Raum, 30 mal 30 Meter. Die Waende aus schwarzem Obsidian reflektieren nichts — sie schlucken Licht. In der Mitte: ein Sockel mit einem Heiltrank. In der Suedostecke: eine schwere Eisentruhe mit goldenen Beschlaegen. Auf dem Boden verstreut: 10.000 Kupfermuenzen, die in absolutem Dunkel schimmern. An der Suedwand: Haendler Aldric Morn, angekettet. Irgendwo im Dunkel: Knochen. Irgendwo: ein Atemgeraeusch das nicht menschlich ist. Und ueberall: die unsichtbare Praesenz von Dingen die tot sein sollten, es aber nicht sind.",
+      "atmosphere": "Absolute Dunkelheit. Kein Ausgang sichtbar. Stallgeruch und Grabkaelte vermischen sich mit Schwefel. Das Lachen eines Wahnsinnigen hallt von ueberall gleichzeitig. Zeit steht still — und bewegt sich dennoch weiter.",
+      "npcs_present": [
+        "skelett_1", "skelett_2", "skelett_3", "skelett_4",
+        "zombie_1", "zombie_2",
+        "ghoul_venomand",
+        "wraith_shadowheart",
+        "krugg_der_oger",
+        "goblin_bogenschuetze_1", "goblin_bogenschuetze_2", "goblin_bogenschuetze_3",
+        "venomia_die_schlange",
+        "aldric_morn",
+        "rote_karin",
+        "xanthorath_grimveil"
+      ],
+      "clues_available": [
+        "Inschrift an der Wand: 'Beweist euren Wert — oder sterbt'",
+        "Druckplatte auf dem Boden (Nordseite, Weisheits-Probe um sie zu erkennen)",
+        "Die Kupfermuenzen-Halde: 10.000 Stueck. Zu viel zum Tragen ohne Konsequenzen.",
+        "Sockel in der Mitte mit Heiltrank (2d4+2)",
+        "Eisentruhe Suedostecke (mit Fallenmechanismus)"
+      ],
+      "exits": [],
+      "keeper_notes": "KEIN AUSGANG bis Xanthorath die Wand oeffnet. Xanthorath oeffnet die Wand wenn: all_monsters_dead UND mindestens_15_tags gesetzt sind. Alternativ: Xanthorath oeffnet fruehzeitig wenn Gruppe geschlossen kapituliert — sie werden dann zum Start teleportiert und koennen nochmals beginnen. Der Raum hat KEINE Geheimgaenge, KEINE weiteren Tueren. Einzige Variablen: die Kreaturen und die Fallen.",
+      "events": [
+        {
+          "trigger": "Beginn (Runde 1)",
+          "effect": "Absolute Dunkelheit. Aldric schreit um Hilfe. Goblins schreien Alarmsignale. Skelette beginnen zu rascheln.",
+          "sets_flag": null
+        },
+        {
+          "trigger": "Lichtquelle aktiviert",
+          "effect": "Gesamter Rauminhalt wird sichtbar. Alle Feinde reagieren. Goblins schiessen sofort.",
+          "sets_flag": null
+        },
+        {
+          "trigger": "Druckplatte ausgeloest (Nordseite)",
+          "effect": "Feuerstoss: 3d6 Schaden, Save vs Breath Weapon (alle in 3m Radius). ATEM_WAFFE-Tag emittieren.",
+          "sets_flag": "druckplatte_ausgeloest"
+        },
+        {
+          "trigger": "Truhe geoeffnet ohne Fallen-Suche (Probe Intelligenz 14)",
+          "effect": "Nadeln schiessen heraus: Save vs Gift -2 oder Schlangengifteffekt. RETTUNGSWURF-Tag, dann GIFT-Tag.",
+          "sets_flag": "truhe_falle_ausgeloest"
+        },
+        {
+          "trigger": "Heiltrank getrunken",
+          "effect": "HP_HEILUNG: 2d4+2 sofort. INVENTAR: -Heiltrank vom Sockel.",
+          "sets_flag": "heiltrank_genutzt"
+        },
+        {
+          "trigger": "Krugg unter 12 HP (50%)",
+          "effect": "MORAL_CHECK: Krugg der Oger | 13. Bei 2d6 >= 13: Krugg versucht zu fliehen (laeuft gegen Wand, dreht sich dann wutend um).",
+          "sets_flag": null
+        },
+        {
+          "trigger": "Erster Goblin stirbt",
+          "effect": "MORAL_CHECK: Goblin-Bogenschuetze | 7. Bei 2d6 >= 7: alle Goblins fliehen in Suedwest-Ecke und ducken sich.",
+          "sets_flag": "goblins_fled"
+        },
+        {
+          "trigger": "Wraith erscheint (Runde 5)",
+          "effect": "FURCHT-Check: Weisheits-Probe. Bei Fehlschlag: FURCHT-Tag, Charakter laeuft 1d4 Runden weg.",
+          "sets_flag": "fear_check_wraith"
+        },
+        {
+          "trigger": "Wraith trifft Charakter",
+          "effect": "LEVEL_DRAIN: CharName | 1. Sofortige Stufenreduktion. Charakter verliert alle Faehigkeiten der hoechsten Stufe.",
+          "sets_flag": "level_drain_aufgetreten"
+        },
+        {
+          "trigger": "10.000 Kupfermuenzen aufgehoben",
+          "effect": "BELASTUNG-Tag emittieren. 100 Pfund extra. Bewegung auf 1/4 reduziert, Kampfinitiative -4.",
+          "sets_flag": "encumbrance_ausgeloest"
+        },
+        {
+          "trigger": "Alle Monster tot",
+          "effect": "Xanthorath applaudiert. XP_GEWINN emittieren. all_monsters_dead = true. Arena-Ausgang oeffnet sich wenn auch mindestens_15_tags = true.",
+          "sets_flag": "all_monsters_dead"
+        },
+        {
+          "trigger": "Runde 6, 8, 10, 12, 14, 16 (gerade Runden ab 6)",
+          "effect": "BEGEGNUNG: Arena | 33. Wuerfle d6: 1-2 Ratten, 3-4 Extra-Goblin aus Luke, 5-6 Xanthroraths Magiestein (1d4 Schaden).",
+          "sets_flag": null
+        },
+        {
+          "trigger": "Magisches Schwert +1 aus Truhe genommen",
+          "effect": "INVENTAR: +Magisches Schwert +1. Ab jetzt kann Wraith von diesem Traeger getroffen werden.",
+          "sets_flag": "magisches_schwert_gefunden"
+        },
+        {
+          "trigger": "Karin wird zu Verbundeter (gute Reaktion)",
+          "effect": "Karin kaempft als Verbundete. HD 3, AC 5, HP 18, THAC0 16. Greift bevorzugt Oger an.",
+          "sets_flag": "karin_verbundete"
+        },
+        {
+          "trigger": "Xanthorath: perfekte Reaktion (CHA-Probe 16+)",
+          "effect": "Xanthorath wirkt Magic Missile auf staerksten Feind. ZAUBER_VERBRAUCHT: Xanthroraths Magic Missile emittieren.",
+          "sets_flag": "xanthorath_reaction_done"
+        },
+        {
+          "trigger": "Pruefung bestanden (all_monsters_dead UND mindestens_15_tags)",
+          "effect": "Xanthorath oeffnet Obsidian-Wand. Freier Ausgang. Voller XP-Bonus: +500 XP fuer das Bestehen.",
+          "sets_flag": "arena_escaped"
+        }
+      ]
+    }
+  ],
+  "npcs": [
+    {
+      "id": "skelett_1",
+      "name": "Skelett der Arena",
+      "role": "Feind (Untot)",
+      "description": "Ein Menschenskelett in verrostetem Ruestungsgeruest. Knochen klappern rhythmisch mit jedem Schritt.",
+      "personality": "Untot — keine Persoenlichkeit, nur Angriffsbefehl.",
+      "secrets": "Einst ein Ritter, den Xanthorath als ersten Pruefungsstein aufgestellt hat.",
+      "stats": {
+        "hd": 1,
+        "hp": 5,
+        "ac": 7,
+        "thac0": 20,
+        "attacks": "1",
+        "damage": "1d6",
+        "morale": 12,
+        "treasure_type": null,
+        "special": "Untot: immun gegen Schlaf, Charm, Kalteschaden halbiert. Turn Undead moeglich.",
+        "movement": 12,
+        "xp": 65
+      }
+    },
+    {
+      "id": "skelett_2",
+      "name": "Skelett der Arena",
+      "role": "Feind (Untot)",
+      "description": "Ein zweites Skelett, dieses mit einem rostigen Speer statt Schwert.",
+      "personality": "Untot — keine Persoenlichkeit.",
+      "secrets": null,
+      "stats": {
+        "hd": 1,
+        "hp": 5,
+        "ac": 7,
+        "thac0": 20,
+        "attacks": "1",
+        "damage": "1d6",
+        "morale": 12,
+        "treasure_type": null,
+        "special": "Untot: immun gegen Schlaf, Charm. Turn Undead moeglich.",
+        "movement": 12,
+        "xp": 65
+      }
+    },
+    {
+      "id": "skelett_3",
+      "name": "Skelett der Arena",
+      "role": "Feind (Untot)",
+      "description": "Ein drittes Skelett mit gebrochenem Schild.",
+      "personality": "Untot — keine Persoenlichkeit.",
+      "secrets": null,
+      "stats": {
+        "hd": 1,
+        "hp": 4,
+        "ac": 7,
+        "thac0": 20,
+        "attacks": "1",
+        "damage": "1d6",
+        "morale": 12,
+        "treasure_type": null,
+        "special": "Untot. Turn Undead moeglich.",
+        "movement": 12,
+        "xp": 65
+      }
+    },
+    {
+      "id": "skelett_4",
+      "name": "Skelett der Arena",
+      "role": "Feind (Untot)",
+      "description": "Das vierte Skelett — kleiner als die anderen, wohl einst ein Halbling.",
+      "personality": "Untot — keine Persoenlichkeit.",
+      "secrets": null,
+      "stats": {
+        "hd": 1,
+        "hp": 6,
+        "ac": 7,
+        "thac0": 20,
+        "attacks": "1",
+        "damage": "1d6",
+        "morale": 12,
+        "treasure_type": null,
+        "special": "Untot. Turn Undead moeglich.",
+        "movement": 12,
+        "xp": 65
+      }
+    },
+    {
+      "id": "zombie_1",
+      "name": "Zombie der Arena",
+      "role": "Feind (Untot)",
+      "description": "Ein langsam schlurfender Zombie in zerfetzter Ruestung. Stinkt nach Verwesung.",
+      "personality": "Untot — immer zuletzt in Initiative.",
+      "secrets": null,
+      "stats": {
+        "hd": 2,
+        "hp": 12,
+        "ac": 8,
+        "thac0": 19,
+        "attacks": "1",
+        "damage": "1d8",
+        "morale": 12,
+        "treasure_type": null,
+        "special": "Untot. Initiative immer zuletzt. Turn Undead moeglich. Feuer macht normalen Schaden.",
+        "movement": 6,
+        "xp": 65
+      }
+    },
+    {
+      "id": "zombie_2",
+      "name": "Zombie der Arena",
+      "role": "Feind (Untot)",
+      "description": "Ein zweiter Zombie — dieser groesser, mit den Armen eines Ogres.",
+      "personality": "Untot — immer zuletzt in Initiative.",
+      "secrets": null,
+      "stats": {
+        "hd": 2,
+        "hp": 14,
+        "ac": 8,
+        "thac0": 19,
+        "attacks": "1",
+        "damage": "1d8",
+        "morale": 12,
+        "treasure_type": null,
+        "special": "Untot. Initiative immer zuletzt. Turn Undead moeglich.",
+        "movement": 6,
+        "xp": 65
+      }
+    },
+    {
+      "id": "ghoul_venomand",
+      "name": "Ghoul Venomand",
+      "role": "Feind (Untot, Laehmer)",
+      "description": "Ein Ghoul mit langen gelben Klauen und einem Geruch nach frischem Grab. Bewegt sich erschreckend schnell fuer einen Untoten.",
+      "personality": "Tierisch hungrig. Zielt immer auf den Charakter mit den wenigsten HP.",
+      "secrets": "Venomand war einst ein Dieb. Xanthorath hat ihn als Gefaelligkeitsdienst eines Lich verwandelt.",
+      "stats": {
+        "hd": 3,
+        "hp": 15,
+        "ac": 6,
+        "thac0": 17,
+        "attacks": "3 (2 Klauen + 1 Biss)",
+        "damage": "1d3/1d3/1d6",
+        "morale": 12,
+        "treasure_type": null,
+        "special": "Paralyse: jeder Treffer erfordert Save vs Laehmung (Elfen immun). Turn Undead moeglich (schwerer, 4HD-Kategorie). Regeneration 2 HP/Runde wenn nicht durch Feuer oder geweihte Waffe getoetet.",
+        "movement": 9,
+        "xp": 175
+      }
+    },
+    {
+      "id": "wraith_shadowheart",
+      "name": "Wraith Shadowheart",
+      "role": "Feind (Untot, Stufenraeuber)",
+      "description": "Eine huellende Schatten-Gestalt ohne Gesicht. Bewegt sich lautlos. Kann durch Waende gleiten. Kalter Hauch begleitet jede Bewegung.",
+      "personality": "Kalt, berechnend. Greift den Charaktere mit hoechster Stufe zuerst an (wertvollstes Ziel fuer Stufenentzug).",
+      "secrets": "Shadowheart IST Xanthroraths frue Schueler, der bei einem Experiment starb. Der Magier kann ihn nicht mehr kontrollieren — er haelt ihn nur durch die Arena-Magie gebunden.",
+      "stats": {
+        "hd": "5+3",
+        "hp": 28,
+        "ac": 3,
+        "thac0": 15,
+        "attacks": "1",
+        "damage": "1d6 + 1 Stufe Level Drain",
+        "morale": 12,
+        "treasure_type": null,
+        "special": "Level Drain: 1 Stufe bei jedem Treffer (LEVEL_DRAIN-Tag emittieren). Nur durch magische Waffen (+1 oder besser) treffbar (WAFFEN_IMMUNITAET-Tag bei normalen Waffen). Magic Resistance 35% (MAGIC_RESISTANCE-Tag bei Zauber). Erscheint erst in Runde 5 (materialisiert aus Wand). FURCHT-Check bei Erstblick (Weisheits-Probe). Untot: Turn Undead moeglich (sehr schwer, nur Hochstufige Kleriker vertreiben ihn).",
+        "movement": 12,
+        "xp": 975
+      }
+    },
+    {
+      "id": "krugg_der_oger",
+      "name": "Krugg der Oger-Anfuehrer",
+      "role": "Feind (Lebend, Boss)",
+      "description": "Ein massiger Oger in verbeulter Plattenruestung-Brust. Haelt eine riesige Eisenkeule. Am Guertel haengt ein Lederbeutel voll Muenzen und ein Schluessel.",
+      "personality": "Krugg ist bruetal, gierig und feige wenn er in der Unterzahl ist. Kaempft bis 50% HP, dann Moral-Check.",
+      "secrets": "Krugg ist ANGESTELLT von Xanthorath — er kriegt Gold dafuer, in der Arena zu kaempfen. Er hasst diesen Job.",
+      "stats": {
+        "hd": "4+1",
+        "hp": 24,
+        "ac": 5,
+        "thac0": 15,
+        "attacks": "1",
+        "damage": "1d10",
+        "morale": 13,
+        "treasure_type": "H",
+        "special": "Moral-Check bei 50% HP: MORAL_CHECK: Krugg der Oger | 13. Traegt Treasure Type H am Guertel. Kann Goblin-Befehle geben: wenn Krugg lebt, greifen Goblins gezielt an (nicht wildly).",
+        "movement": 9,
+        "xp": 975
+      }
+    },
+    {
+      "id": "goblin_bogenschuetze_1",
+      "name": "Goblin-Bogenschuetze Splatt",
+      "role": "Feind (Lebend, Fernkaempfer)",
+      "description": "Ein kleiner gruener Goblin mit einem kurzen Bogen und einem Kocher mit 12 Pfeilen.",
+      "personality": "Feige. Schiesst aus der Distanz. Flieht sofort wenn Verbundeter stirbt.",
+      "secrets": "Splatt hat Angst vor dem Wraith. Rennt bei Wraith-Erscheinung zuerst weg.",
+      "stats": {
+        "hd": "1-1",
+        "hp": 4,
+        "ac": 6,
+        "thac0": 20,
+        "attacks": "1 (Bogen)",
+        "damage": "1d6",
+        "morale": 7,
+        "treasure_type": null,
+        "special": "Fernkampf bis 15m. Nach 2 Runden Fernkampf oder bei Nahkampfzwang: schiesst weiter oder flieht. Morale 7: MORAL_CHECK nach erstem Goblin-Tod.",
+        "movement": 6,
+        "xp": 15
+      }
+    },
+    {
+      "id": "goblin_bogenschuetze_2",
+      "name": "Goblin-Bogenschuetze Kratz",
+      "role": "Feind (Lebend, Fernkaempfer)",
+      "description": "Ein etwas groesserer Goblin mit einem schlechter zielenden Bogen — aber dafuer aggressiver.",
+      "personality": "Weniger feige als Splatt, aber immer noch kein Held.",
+      "secrets": null,
+      "stats": {
+        "hd": "1-1",
+        "hp": 5,
+        "ac": 6,
+        "thac0": 20,
+        "attacks": "1 (Bogen)",
+        "damage": "1d6",
+        "morale": 7,
+        "treasure_type": null,
+        "special": "Fernkampf. Morale 7.",
+        "movement": 6,
+        "xp": 15
+      }
+    },
+    {
+      "id": "goblin_bogenschuetze_3",
+      "name": "Goblin-Bogenschuetze Muzz",
+      "role": "Feind (Lebend, Fernkaempfer)",
+      "description": "Der dritte Goblin schiesst aus der Deckung hinter einem Schatzstapel.",
+      "personality": "Nutzt die Kupfermuenzen-Halde als Deckung. Listiger als seine Brueder.",
+      "secrets": "Muzz hat einen Heiltrank in der Tasche — den er NICHT teilt. Wenn kampfunfaehig, bietet er ihn als Loesegeld an.",
+      "stats": {
+        "hd": "1-1",
+        "hp": 4,
+        "ac": 6,
+        "thac0": 20,
+        "attacks": "1 (Bogen)",
+        "damage": "1d6",
+        "morale": 7,
+        "treasure_type": null,
+        "special": "Deckung hinter Kupfermuenzen-Halde: -2 auf Trefferwuerfe gegen ihn. Morale 7. Traegt versteckten Heiltrank (Verhandlungsoption).",
+        "movement": 6,
+        "xp": 15
+      }
+    },
+    {
+      "id": "venomia_die_schlange",
+      "name": "Venomia die Riesenschlange",
+      "role": "Feind (Lebend, Gift)",
+      "description": "Eine 4 Meter lange Riesenschlange mit gelbgruenen Schuppen. Liegt aufgerollt nahe der Eisentruhe — bewacht sie als natuuerlicher Waechter.",
+      "personality": "Reaktiv. Greift nur an wenn bedroht oder jemand die Truhe beruehrt. Sonst liegt sie still.",
+      "secrets": "Venomia ist ein Haustier Xanthroraths. Wenn der Magier laut ihren Namen ruft, zieht sie sich zurueck. Dies kann als Reaktion auf gute Reaktion passieren.",
+      "stats": {
+        "hd": 3,
+        "hp": 18,
+        "ac": 5,
+        "thac0": 17,
+        "attacks": "1 (Biss)",
+        "damage": "1d4 + Gift",
+        "morale": 10,
+        "treasure_type": null,
+        "special": "Gift: GIFT-Tag bei Treffer. Save vs Gift mit -2 (Modifikator). Schlangengift-Typ Tod: 1d6 Runden ohne Gegenmittel. Bewacht die Truhe: greift sofort an wenn Truhe beruehrt wird ohne Venomia zuerst zu bekaempfen.",
+        "movement": 15,
+        "xp": 175
+      }
+    },
+    {
+      "id": "aldric_morn",
+      "name": "Aldric Morn (Gefangener Haendler)",
+      "role": "NPC (Neutral, Hilfe-suchend)",
+      "description": "Ein dicker Haendler mittleren Alters in zerrissener Kaufmannskleidung. Angekettet an die Suedwand. Sieht erschoepft aus, ist aber unverletzt.",
+      "personality": "Dankbar wenn befreit. Gibt nuetzliche Infos ueber die Arena (er ist nicht der erste Gefangene). Freundlich, redefreudig.",
+      "secrets": "Aldric weiss wo ein Geheimfach in der Truhe ist (extra 50 Goldmuenzen), wenn er befreit wird. Er hat auch den Wandering-Monster-Timing beobachtet (alle 2 Runden).",
+      "stats": {
+        "cha": 12,
+        "cha_mod": 1,
+        "hd": 1,
+        "hp": 6,
+        "ac": 9,
+        "thac0": 20
+      },
+      "reaction_tag": "REAKTION: Aldric Morn | +1",
+      "reaction_note": "Sofort beim ersten Augenkontakt/Ansprache emittieren. Aldric ist erleichtert und hilfsbereit."
+    },
+    {
+      "id": "rote_karin",
+      "name": "Rote Karin (Soeldner-Gefangene)",
+      "role": "NPC (Initial feindlich, potenziell Verbundete)",
+      "description": "Eine muskuloese Frau Mitte 30 mit roten Haaren und einem zerschlagenen Kettenhemd. Sitzt in der Nordostecke, die Arme um die Knie. Blickt misstrauisch.",
+      "personality": "Misstrauisch wegen schlechter Erfahrungen. Wird zur Verbundeten bei guter Behandlung und erfolgreichen Reaktion-Checks. Kaempft dann loyal und kompetent.",
+      "secrets": "Karin war ein Mitglied von Xanthroraths frueherer Abenteurer-Gruppe. Sie hat als einzige ueberlebt. Der Magier haelt sie als 'Erinnerung'. Sie hasst ihn — aber auch versteht ihn.",
+      "stats": {
+        "cha": 10,
+        "cha_mod": -1,
+        "hd": 3,
+        "hp": 18,
+        "ac": 5,
+        "thac0": 16,
+        "attacks": "1",
+        "damage": "1d8",
+        "morale": 14
+      },
+      "reaction_tag": "REAKTION: Rote Karin | -1",
+      "reaction_note": "Emittieren bei erster Ansprache. -1 Malus wegen Misstrauen. Bei Ergebnis gut (2d6+CHA-Mod der Gruppe >= 8): Karin wird Verbundete. Karin_verbundete = true."
+    },
+    {
+      "id": "xanthorath_grimveil",
+      "name": "Xanthorath Grimveil (Wahnsinniger Erzmagier)",
+      "role": "NPC (Beobachter, bedingt neutral)",
+      "description": "Ein hagerer alter Mann im purpurnen Gewand, der auf einem schwebenden Kristallthron in 3 Metern Hoehe sitzt. Kichert gelegentlich. Macht Notizen in einem Buch. Greift NIEMALS an.",
+      "personality": "Wahnsinnig, aber methodisch. Testet Abenteurer als wissenschaftliches Experiment. Respektiert Kompetenz. Hasst Weinerlichkeit.",
+      "secrets": "Xanthorath ist eigentlich UNSTERBLICH — er hat den Stein des Ewigen Lebens verschluckt und kann nicht sterben. Die Arena ist sein ewiger Zeitvertreib. Er hat schon Tausende von Gruppen getestet. Niemand hat je alle 17 Tags ausgeloest.",
+      "stats": {
+        "hd": 10,
+        "hp": 45,
+        "ac": 3,
+        "thac0": 11,
+        "attacks": "Greift nicht an",
+        "damage": null,
+        "morale": 20,
+        "special": "Unsterblich. Greift nie an. Kann einmal helfen (Magic Missile) bei perfekter CHA-Reaktion (Probe 16+). Oeffnet Ausgang bei arena_escaped-Bedingung."
+      },
+      "reaction_tag": "REAKTION: Xanthorath Grimveil | 0",
+      "reaction_note": "Emittieren bei erstem Augenkontakt oder direkter Ansprache. Neutral-Basis. CHA-Probe 16+ fuer Hilfe."
+    }
+  ],
+  "clues": [
+    {
+      "id": "inschrift_an_der_wand",
+      "text": "In rotem Feuer: 'BEWEIST EUREN WERT — ODER STERBT. 17 Pruefungen. 20 Runden. Kein Erbarmen.' Darunter kleiner: 'P.S.: Der Heiltrank ist echt. — X.G.'"
+    },
+    {
+      "id": "aldrics_info_wandering_monsters",
+      "text": "Aldric fluistert: 'Ich bin jetzt 3 Tage hier. Alle zwei Runden erscheint etwas Neues aus den Waenden. Ich weiss nicht woher. Aber es ist prazise wie eine Uhr.'",
+      "requires_flag": "merchant_reaction_done"
+    },
+    {
+      "id": "aldrics_info_truhen_fach",
+      "text": "Aldric sagt: 'Die Truhe hat ein Geheimfach — rechts unten, man muss gleichzeitig zwei Knoepfe druecken. Ich hab's durch den Riss gesehen. 50 Goldmuenzen, mindestens.'",
+      "requires_flag": "merchant_reaction_done"
+    },
+    {
+      "id": "karins_info_wraith",
+      "text": "Karin fluistert: 'Der Schatten erscheint immer in der fuenften Runde. Immer. Und normale Waffen... ich hab zugesehen. Sie gehen einfach durch ihn hindurch.'",
+      "requires_flag": "karin_verbundete"
+    },
+    {
+      "id": "druckplatten_hinweis",
+      "text": "An der Nordwand ist eine leicht verblasste Linie auf dem Boden — der Steinschnitt ist neuer als der Rest. Weisheits-Probe um es zu bemerken.",
+      "probe": "Weisheit | 12"
+    }
+  ],
+  "wandering_monster_table": {
+    "frequency_rounds": 2,
+    "check_dc": 33,
+    "table": [
+      {"roll": "1-2", "encounter": "1d4 Ratten (HD 0, HP 1, AC 7, Schaden 1, minimale Gefahr — eher Ablenkung)"},
+      {"roll": "3-4", "encounter": "1 zusaetzlicher Goblin-Bogenschuetze (wie goblin_bogenschuetze_1, taucht aus versteckter Luke auf)"},
+      {"roll": "5-6", "encounter": "Xanthroraths Magiestein (unsichtbares Geschoss, 1d4 magischer Schaden auf zufaelligen Charakter — Xanthorath 'hilft' bei der Pruefung)"}
+    ]
+  },
+  "treasure_catalog": {
+    "truhe_type_a": {
+      "location": "Eisentruhe Suedostecke",
+      "type": "A",
+      "contents": [
+        "2d6 x 100 Goldmuenzen",
+        "1d6 x 10 Silbermuenzen",
+        "1d3 Edelsteine (je 50-100 GP Wert)",
+        "Magisches Schwert +1 (Langschwert, leuchtet blau in 3m Radius bei Untoten)",
+        "Scrollrolle mit Schutzspruch (1x Schutz vor Untoten, 1 Stunde)"
+      ],
+      "falle": "Giftige Nadeln — Save vs Gift -2 bei Oeffnen ohne Suche (Probe Intelligenz 14)"
+    },
+    "lederbeutel_type_c": {
+      "location": "Nahe Zombie_1, auf dem Boden",
+      "type": "C",
+      "contents": [
+        "3d6 x 10 Kupfermuenzen",
+        "1d3 Silbermuenzen",
+        "1 zufaelliger Edelstein (10-50 GP)"
+      ],
+      "falle": null
+    },
+    "oger_guertel_type_h": {
+      "location": "An Krugg dem Oger (nach seinem Tod)",
+      "type": "H",
+      "contents": [
+        "5d8 x 10 Goldmuenzen",
+        "2d10 Platinmuenzen",
+        "1d4 Edelsteine (100-500 GP je)",
+        "Schluessel zur Truhe (macht Fallensuche unnoetig)"
+      ],
+      "falle": null
+    },
+    "kupferberg": {
+      "location": "Offen auf dem Boden (Nordmitte)",
+      "type": "Sonder",
+      "contents": "10.000 Kupfermuenzen = 100 Pfund",
+      "encumbrance_note": "Sofort BELASTUNG-Tag emittieren wenn aufgehoben. Ein normaler Mensch traegt max 35-50 Pfund comfortably."
+    },
+    "heiltrank_sockel": {
+      "location": "Sockel in der Mitte der Arena",
+      "type": "Sonder",
+      "contents": "1 Heiltrank (2d4+2 HP)"
+    }
+  },
+  "xp_breakdown": {
+    "skelett_x4": 260,
+    "zombie_x2": 130,
+    "ghoul": 175,
+    "wraith": 975,
+    "krugg_oger": 975,
+    "goblin_x3": 45,
+    "venomia_schlange": 175,
+    "bonus_alle_tags_ausgeloest": 500,
+    "total_base": 2735,
+    "total_with_bonus": 3235,
+    "note": "XP_GEWINN am Ende emittieren. Bei Teilabschluss anteilig."
+  },
+  "resolution": {
+    "success": "Alle Monster besiegt, mindestens 15 der 17 Pflicht-Tags emittiert. Xanthorath oeffnet die Obsidian-Wand. Die Pruefung ist bestanden. Die Gruppe tritt hinaus in das Licht und traegt den Ruhm — und den Schatz — der Arena davon.",
+    "partial_success": "Monster besiegt aber nicht alle Tags ausgeloest. Xanthorath begruest die Gruppe, lacht leise, und sagt: 'Nahe genug. Diesmal.' Ausgang oeffnet sich.",
+    "failure": "Gruppe scheitert — Xanthorath teleportiert sie unverletzt zurueck zum Arenaeingang. 'Nochmal. Ihr koennt es besser.' Keine XP, neue Chance.",
+    "condition": "all_monsters_dead == true",
+    "bonus_condition": "mindestens_15_tags == true"
+  }
+}

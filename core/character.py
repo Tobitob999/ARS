@@ -98,6 +98,40 @@ PARTY_ANGRIFF_PATTERN = re.compile(
     re.IGNORECASE,
 )
 
+# ── Monster-Mechanik-Tags (Session 19) ──────────────────────────────────────
+# [MAGIC_RESISTANCE: MonsterName | Prozent]
+MAGIC_RESISTANCE_PATTERN = re.compile(
+    r"\[MAGIC_RESISTANCE:\s*([^\|]+)\|\s*(\d+)\s*\]", re.IGNORECASE,
+)
+# [WAFFEN_IMMUNITAET: MonsterName | Mindest-Bonus]
+WAFFEN_IMMUNITAET_PATTERN = re.compile(
+    r"\[WAFFEN_IMMUNITAET:\s*([^\|]+)\|\s*([^\]]+)\s*\]", re.IGNORECASE,
+)
+# [GIFT: MonsterName | Typ | Save-Modifikator]
+GIFT_PATTERN = re.compile(
+    r"\[GIFT:\s*([^\|]+)\|\s*([^\|]+)\|\s*(-?\d+)\s*\]", re.IGNORECASE,
+)
+# [LEVEL_DRAIN: CharName | Stufen]
+LEVEL_DRAIN_PATTERN = re.compile(
+    r"\[LEVEL_DRAIN:\s*([^\|]+)\|\s*(\d+)\s*\]", re.IGNORECASE,
+)
+# [MORAL_CHECK: MonsterName | Schwelle]
+MORAL_CHECK_PATTERN = re.compile(
+    r"\[MORAL_CHECK:\s*([^\|]+)\|\s*(\d+)\s*\]", re.IGNORECASE,
+)
+# [REGENERATION: MonsterName | HP_pro_Runde]
+REGENERATION_PATTERN = re.compile(
+    r"\[REGENERATION:\s*([^\|]+)\|\s*(\d+)\s*\]", re.IGNORECASE,
+)
+# [FURCHT: CharName | Effekt | Dauer]
+FURCHT_PATTERN = re.compile(
+    r"\[FURCHT:\s*([^\|]+)\|\s*([^\|]+)\|\s*([^\]]+)\s*\]", re.IGNORECASE,
+)
+# [ATEM_WAFFE: MonsterName | Typ | Schaden]
+ATEM_WAFFE_PATTERN = re.compile(
+    r"\[ATEM_WAFFE:\s*([^\|]+)\|\s*([^\|]+)\|\s*([^\]]+)\s*\]", re.IGNORECASE,
+)
+
 
 def extract_party_stat_changes(text: str) -> list[tuple[str, ...]]:
     """
@@ -112,6 +146,15 @@ def extract_party_stat_changes(text: str) -> list[tuple[str, ...]]:
       ("GEGENSTAND_BENUTZT", item_name, char_name)
       ("PROBE", skill_name, target_str, char_name)
       ("ANGRIFF", weapon, thac0, ac, mod, char_name)
+      -- Monster-Mechanik-Tags (gleiches Format wie extract_stat_changes) --
+      ("MAGIC_RESISTANCE", monster_name, prozent_str)
+      ("WAFFEN_IMMUNITAET", monster_name, bonus_str)
+      ("GIFT", monster_name, typ, save_mod_str)
+      ("LEVEL_DRAIN", char_name, stufen_str)
+      ("MORAL_CHECK", monster_name, schwelle_str)
+      ("REGENERATION", monster_name, hp_str)
+      ("FURCHT", char_name, effekt, dauer_str)
+      ("ATEM_WAFFE", monster_name, typ, schaden_str)
 
     Kompatibilitaet: Vorhandene Tags OHNE Pipe-getrennten Namen werden NICHT
     erfasst — dafuer ist extract_stat_changes() zustaendig (Single-Char-Modus).
@@ -172,17 +215,46 @@ def extract_party_stat_changes(text: str) -> list[tuple[str, ...]]:
             m.group(5).strip(),
         ))
 
+    # Monster-Mechanik-Tags (beide Modi: Party und Solo nutzen dieselben Patterns)
+    for m in MAGIC_RESISTANCE_PATTERN.finditer(text):
+        results.append(("MAGIC_RESISTANCE", m.group(1).strip(), m.group(2).strip()))
+    for m in WAFFEN_IMMUNITAET_PATTERN.finditer(text):
+        results.append(("WAFFEN_IMMUNITAET", m.group(1).strip(), m.group(2).strip()))
+    for m in GIFT_PATTERN.finditer(text):
+        results.append(("GIFT", m.group(1).strip(), m.group(2).strip(), m.group(3).strip()))
+    for m in LEVEL_DRAIN_PATTERN.finditer(text):
+        results.append(("LEVEL_DRAIN", m.group(1).strip(), m.group(2).strip()))
+    for m in MORAL_CHECK_PATTERN.finditer(text):
+        results.append(("MORAL_CHECK", m.group(1).strip(), m.group(2).strip()))
+    for m in REGENERATION_PATTERN.finditer(text):
+        results.append(("REGENERATION", m.group(1).strip(), m.group(2).strip()))
+    for m in FURCHT_PATTERN.finditer(text):
+        results.append(("FURCHT", m.group(1).strip(), m.group(2).strip(), m.group(3).strip()))
+    for m in ATEM_WAFFE_PATTERN.finditer(text):
+        results.append(("ATEM_WAFFE", m.group(1).strip(), m.group(2).strip(), m.group(3).strip()))
+
     return results
 
 
-def extract_stat_changes(text: str) -> list[tuple[str, str]]:
+def extract_stat_changes(text: str) -> list[tuple[str, ...]]:
     """
     Parst alle Zustandsaenderungs-Tags aus dem GM-Text.
-    Returns list of (tag_type, value_str) tuples.
-      tag_type: "HP_VERLUST" | "HP_HEILUNG" | "STABILITAET_VERLUST"
-              | "XP_GEWINN" | "FERTIGKEIT_GENUTZT"
+    Returns list of tuples (tag_type, *values).
+      ("HP_VERLUST", amount_str)
+      ("HP_HEILUNG", amount_str)
+      ("STABILITAET_VERLUST", amount_str)
+      ("XP_GEWINN", amount_str)
+      ("FERTIGKEIT_GENUTZT", skill_name)
+      ("MAGIC_RESISTANCE", monster_name, prozent_str)
+      ("WAFFEN_IMMUNITAET", monster_name, bonus_str)
+      ("GIFT", monster_name, typ, save_mod_str)
+      ("LEVEL_DRAIN", char_name, stufen_str)
+      ("MORAL_CHECK", monster_name, schwelle_str)
+      ("REGENERATION", monster_name, hp_str)
+      ("FURCHT", char_name, effekt, dauer_str)
+      ("ATEM_WAFFE", monster_name, typ, schaden_str)
     """
-    results: list[tuple[str, str]] = []
+    results: list[tuple[str, ...]] = []
     for m in HP_LOSS_PATTERN.finditer(text):
         results.append(("HP_VERLUST", m.group(1)))
     for m in HP_HEAL_PATTERN.finditer(text):
@@ -193,6 +265,23 @@ def extract_stat_changes(text: str) -> list[tuple[str, str]]:
         results.append(("XP_GEWINN", m.group(1)))
     for m in SKILL_USED_PATTERN.finditer(text):
         results.append(("FERTIGKEIT_GENUTZT", m.group(1).strip()))
+    # Monster-Mechanik-Tags
+    for m in MAGIC_RESISTANCE_PATTERN.finditer(text):
+        results.append(("MAGIC_RESISTANCE", m.group(1).strip(), m.group(2).strip()))
+    for m in WAFFEN_IMMUNITAET_PATTERN.finditer(text):
+        results.append(("WAFFEN_IMMUNITAET", m.group(1).strip(), m.group(2).strip()))
+    for m in GIFT_PATTERN.finditer(text):
+        results.append(("GIFT", m.group(1).strip(), m.group(2).strip(), m.group(3).strip()))
+    for m in LEVEL_DRAIN_PATTERN.finditer(text):
+        results.append(("LEVEL_DRAIN", m.group(1).strip(), m.group(2).strip()))
+    for m in MORAL_CHECK_PATTERN.finditer(text):
+        results.append(("MORAL_CHECK", m.group(1).strip(), m.group(2).strip()))
+    for m in REGENERATION_PATTERN.finditer(text):
+        results.append(("REGENERATION", m.group(1).strip(), m.group(2).strip()))
+    for m in FURCHT_PATTERN.finditer(text):
+        results.append(("FURCHT", m.group(1).strip(), m.group(2).strip(), m.group(3).strip()))
+    for m in ATEM_WAFFE_PATTERN.finditer(text):
+        results.append(("ATEM_WAFFE", m.group(1).strip(), m.group(2).strip(), m.group(3).strip()))
     return results
 
 

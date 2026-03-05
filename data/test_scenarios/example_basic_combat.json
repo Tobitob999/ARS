@@ -1,0 +1,51 @@
+{
+  "id": "scenario_basic_combat",
+  "name": "Grundlegender Kampf-Test",
+  "setup": {
+    "player": {
+      "name": "Testheldin",
+      "hp": 15,
+      "ac": 5,
+      "thac0": 18,
+      "weapon": "Schwert",
+      "damage": "1d8"
+    },
+    "seed": 42
+  },
+  "steps": [
+    {
+      "synthetic_response": "Der Goblin greift an! [HP_VERLUST: 3] Du verlierst 3 TP.",
+      "assertions": [
+        {
+          "type": "tag_extracted",
+          "tag": "HP_VERLUST",
+          "count": 1
+        },
+        {
+          "type": "stat_changed",
+          "stat": "HP",
+          "expected_value": 12
+        }
+      ]
+    },
+    {
+      "synthetic_response": "Du findest einen Heiltrank. [INVENTAR: Heiltrank | gefunden]",
+      "assertions": [
+        {
+          "type": "tag_not_present",
+          "tag": "HP_VERLUST"
+        }
+      ]
+    },
+    {
+      "synthetic_response": "Guter Angriff! [XP_GEWINN: 50]",
+      "assertions": [
+        {
+          "type": "tag_extracted",
+          "tag": "XP_GEWINN",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

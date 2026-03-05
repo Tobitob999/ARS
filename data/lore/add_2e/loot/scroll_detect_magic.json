@@ -1,7 +1,0 @@
-{
-    "id": "scroll_detect_magic",
-    "value_gp": 100,
-    "magical": true,
-    "effect_description": "Single-use scroll that casts Detect Magic.",
-    "use_effect": {"type": "spell", "spell": "Detect Magic"}
-}

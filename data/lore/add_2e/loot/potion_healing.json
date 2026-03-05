@@ -1,7 +1,0 @@
-{
-    "id": "potion_healing",
-    "value_gp": 300,
-    "magical": true,
-    "effect_description": "Restores 2d4+2 hit points when consumed.",
-    "use_effect": {"type": "heal", "amount": "2d4+2"}
-}

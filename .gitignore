@@ -37,5 +37,54 @@ desktop.ini
 # Temp extraction directories (large, already merged)
 ADD2e/
 
+# Lore data (internal snippets, not for public repo)
+data/lore/
+
+# Generated maps (test output)
+data/generated_maps/
+
+# Cost tracking & runtime data
+data/costs/
+data/metrics/
+data/test_results/
+data/test_series/
+data/party_saves/
+data/sounds/
+
+# PDFs (never commit)
+*.pdf
+
+# Conversion tools (internal)
+coversion/
+
+# Crawler tool (separate tool, internal)
+crawlerTool/
+
+# Software tools (internal)
+software/
+
+# Web server (internal)
+web/
+
+# Management docs (internal)
+docs/management/
+
+# Cleanup / Trash
+_trash/
+_cleanup_archive/
+
+# Old planning docs (moved to _trash)
+phistory.md
+stand.md
+blaupause.md
+plan.md
+logikbaum.md
+Bugreport1.md
+GUI.md
+BUGS.md
+tinycrawl_demo.py
+dungeon_test.log
+agents.md
+
 # Claude Code
 .claude/

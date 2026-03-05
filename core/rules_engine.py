@@ -81,18 +81,7 @@ _KEYWORD_MAP: dict[str, list[str]] = {
     ],
     "combat.vehicle": [
         "fahrzeug", "rammen", "vehicle", "ram", "sideswipe",
-        "montiert", "mounted", "war rig",
-    ],
-    "sanity": [
-        "san", "stabilitaet", "wahnsinn", "insanity", "geistesgesundheit",
-        "verstand", "trauma", "schrecken", "horror", "mythos",
-        "geistige", "sanity", "grauenhaft", "entsetzlich", "abscheulich",
-        "albtraum", "wahnsinnig", "verrueckt", "angst",
-    ],
-    "survival": [
-        "wasser", "treibstoff", "hitze", "dehydrierung", "strahlung",
-        "ueberleben", "water", "fuel", "heat", "radiation", "survival",
-        "guzzoline", "durst", "verdursten",
+        "montiert", "mounted",
     ],
     "magic": [
         "zauber", "magie", "spell", "magic", "wirken", "cast",
@@ -160,61 +149,38 @@ _KEYWORD_MAP: dict[str, list[str]] = {
         "ueberraschung", "surprise", "hinterhalt", "ambush",
         "wachsamkeit", "awareness", "begegnungsdistanz",
     ],
-    # --- Paranoia 2E ---
-    "treason": [
-        "treason", "verrat", "treasonous", "loyalty", "loyalitaet",
-        "treasonpoint", "treason point", "termination", "terminate",
-        "execution", "executed", "hinrichtung",
+    "treasure": [
+        "schatz", "treasure", "loot", "beute", "gold", "muenzen", "edelstein",
+        "schmuck", "gems", "jewelry", "hort", "truhe", "chest", "schaetze",
     ],
-    "clones": [
-        "clone", "klon", "replacement", "ersatz", "clone family",
-        "clone number", "vaporized", "terminated", "dead clone",
-        "klonfamilie", "klonnummer",
+    "encounter_generation": [
+        "begegnung", "encounter", "wandering", "monster_check", "zufallsbegegnung",
+        "wandernde_monster", "patrouille", "streifzug",
     ],
-    "mutations_paranoia": [
-        "mutation", "mutant", "mutantenpower", "power", "registered",
-        "unregistered", "telekinesis", "mental blast", "chameleon",
-        "adrenaline control", "empathy", "pyrokinesis",
+    "morale": [
+        "moral", "morale", "flucht", "fliehen", "flee", "retreat", "mut",
+        "kampfmoral", "desertieren", "aufgeben", "surrender",
     ],
-    "service_groups": [
-        "service group", "hpd", "armed forces", "internal security",
-        "intsec", "tech services", "cpu", "power services",
-        "production", "r&d", "research", "plc",
+    "reaction": [
+        "reaktion", "reaction", "einstellung", "attitude", "gesinnung",
+        "freundlich", "feindlich", "neutral", "npc_reaktion",
     ],
-    "secret_societies": [
-        "secret society", "geheimgesellschaft", "sierra club",
-        "free enterprise", "communists", "purge", "illuminati",
-        "death leopard", "psion", "fccc",
+    "loyalty": [
+        "loyalitaet", "loyalty", "gefolge", "henchman", "henchmen", "hireling",
+        "soeldner", "gefolgsmann", "treue", "diener",
     ],
-    "clearance": [
-        "clearance", "sicherheitsstufe", "infrared", "infrarot",
-        "above clearance", "below clearance", "unauthorized",
-        "ultraviolet", "ultraviolett",
+    "light_vision": [
+        "licht", "light", "dunkelheit", "darkness", "fackel", "torch", "laterne",
+        "lantern", "sicht", "vision", "infravision", "sichtweite", "beleuchtung",
     ],
-    # --- Shadowrun 6E ---
-    "matrix": [
-        "matrix", "decker", "hacker", "hacken", "hack", "cyberdeck",
-        "kommlink", "host", "ic", "intrusion", "blackout",
-        "brute force", "databomb", "noise", "rauschen",
+    "poison_disease": [
+        "gift", "poison", "krankheit", "disease", "vergiftung", "gegengift",
+        "antidot", "antidote", "seuche", "infektion",
     ],
-    "cyberware": [
-        "cyberware", "bioware", "essenz", "essence", "augmentation",
-        "implant", "cyberbein", "cyberauge", "cyberarm",
-        "wired reflexes", "reflex", "augmentierung",
-    ],
-    "edge_shadowrun": [
-        "edge", "edgepunkt", "edge point", "glueck", "luck",
-        "edge action", "edge boost",
-    ],
-    "magic_shadowrun": [
-        "adept", "schamane", "shaman", "hermetiker", "hermetic",
-        "beschwoeren", "summon", "drain", "entzug",
-        "geist", "spirit", "fokus", "focus", "astral",
-        "astrale wahrnehmung", "astral perception",
-    ],
-    "rigger": [
-        "rigger", "drohne", "drone", "fernsteuerung",
-        "remote control", "jumped in", "rigging",
+    "thief_skills": [
+        "diebeskuenste", "thief_skill", "schleichen", "verstecken", "hide",
+        "move_silently", "schloss_knacken", "pick_lock", "taschendiebstahl",
+        "pick_pocket", "fallen_finden", "find_trap", "klettern", "climb",
     ],
 }
 
@@ -230,22 +196,11 @@ _VALID_SAVE_CATEGORIES = {
 # ---------------------------------------------------------------------------
 # Cross-System Tag Boundaries
 # ---------------------------------------------------------------------------
-# Tags that are ONLY valid for specific systems. When the active system is
-# NOT in the allowed set, the tag is blocked and a warning is emitted.
-# This prevents Cthulhu-specific sanity mechanics from leaking into games
-# that have no sanity system (Shadowrun, AD&D, Paranoia, Mad Max).
-
-_CTHULHU_ONLY_TAGS: frozenset[str] = frozenset({
+# Tags that require a sanity system — AD&D 2e has none, so these are always invalid.
+_SANITY_ONLY_TAGS: frozenset[str] = frozenset({
     "STABILITAET_VERLUST",
     "SANITY_CHECK",
     "SAN_LOSS",
-})
-
-# Systems that legitimately support Cthulhu-style sanity tags
-_SANITY_SYSTEMS: frozenset[str] = frozenset({
-    "cthulhu_7e",
-    # Note: mad_max uses 'survival' not 'sanity' — STABILITAET_VERLUST is
-    # Cthulhu-specific and should NOT appear in mad_max sessions either.
 })
 
 # ---------------------------------------------------------------------------
@@ -257,48 +212,11 @@ _SANITY_SYSTEMS: frozenset[str] = frozenset({
 # ---------------------------------------------------------------------------
 
 SKILL_ALIASES: dict[str, dict[str, str]] = {
-    "shadowrun_6": {
-        # English / cross-system contamination → canonical German Shadowrun names
-        "Cracking": "Hacken",
-        "Cracken": "Hacken",
-        "Hacking": "Hacken",
-        "Computer": "Elektronik",
-        "Electronics": "Elektronik",
-        "Firearms": "Feuerwaffen",
-        "Shooting": "Feuerwaffen",
-        "Schiessen": "Feuerwaffen",
-        "Schusswaffen": "Feuerwaffen",
-        "Stealth": "Heimlichkeit",
-        "Schleichen": "Heimlichkeit",
-        "Perception": "Wahrnehmung",
-        "Close Combat": "Nahkampf",
-        "Melee": "Nahkampf",
-        "Sorcery": "Zaubern",
-        "Conjuring": "Beschwoeren",
-        "Persuasion": "Ueberreden",
-        "Athletics": "Athletik",
-        "Medicine": "Biotech",
-        "First Aid": "Biotech",
-        "Erste Hilfe": "Biotech",
-        # Cross-system contamination
-        "SAN": "",             # Shadowrun hat keine Sanity
-        "Geschichte": "",      # Cthulhu-Skill, gibt es nicht in Shadowrun
-        "Bibliotheksnutzung": "",  # Cthulhu-Skill
-        "Psychologie": "",     # Cthulhu-Skill
-    },
     "add_2e": {
-        # Cross-system contamination → canonical AD&D names
-        "Geschichte": "",           # Cthulhu-Skill, gibt es nicht in AD&D
-        "Bibliotheksnutzung": "",   # Cthulhu-Skill
-        "Psychologie": "",          # Cthulhu-Skill
-        "Cthulhu Mythos": "",       # Cthulhu-only
-        "SAN": "",                  # AD&D hat keine Sanity
+        # Englische Aliase → kanonische AD&D 2e Namen
         "Stealth": "Heimlichkeit",
         "Perception": "Wahrnehmung",
         "Persuasion": "Ueberreden",
-        "Hacken": "",               # Shadowrun-Skill
-        "Elektronik": "",           # Shadowrun-Skill
-        "Feuerwaffen": "",          # Shadowrun-Skill
         # Deutsche Aliase → kanonische AD&D 2e Skill-Namen
         "Fallen entdecken": "Find/Remove Traps",
         "Fallen suchen": "Find/Remove Traps",
@@ -318,28 +236,6 @@ SKILL_ALIASES: dict[str, dict[str, str]] = {
         "Klettern": "Climb Walls",
         "Geraeusche hoeren": "Detect Noise",
         "Lauschen": "Detect Noise",
-    },
-    "cthulhu_7e": {
-        # English → German canonical
-        "Spot Hidden": "Wahrnehmung",
-        "Library Use": "Bibliotheksnutzung",
-        "Listen": "Lauschen",
-        "Psychology": "Psychologie",
-        "First Aid": "Erste Hilfe",
-        "Stealth": "Heimlichkeit",
-        "Dodge": "Ausweichen",
-        # Cross-system contamination
-        "Hacken": "",               # Shadowrun-Skill
-        "Feuerwaffen": "",          # Shadowrun-Skill
-        "Elektronik": "",           # Shadowrun-Skill
-    },
-    "paranoia_2e": {
-        # Cross-system contamination
-        "Geschichte": "",
-        "Bibliotheksnutzung": "",
-        "SAN": "",
-        "Hacken": "",
-        "Feuerwaffen": "",
     },
 }
 
@@ -387,8 +283,6 @@ class RulesEngine:
         self._system = meta.get("system", "")
         self._module_name = meta.get("module_name", self._system)
         self._is_add2e = self._system.startswith("add_2e")
-        self._is_paranoia = self._system.startswith("paranoia")
-        self._is_shadowrun = self._system.startswith("shadowrun")
 
     def set_rules_budget(self, chars: int) -> None:
         """Set the injection budget (in characters). Clamped to valid range."""
@@ -416,17 +310,6 @@ class RulesEngine:
         self._index_magic()
         self._index_saving_throws()
         self._index_classes()
-
-        # Paranoia-specific
-        self._index_treason()
-        self._index_clones()
-        self._index_clearance()
-        self._index_mutations_paranoia()
-
-        # Shadowrun-specific
-        self._index_matrix()
-        self._index_cyberware()
-        self._index_edge()
 
         # Index tables (AD&D 2e)
         if self._tables:
@@ -666,29 +549,26 @@ class RulesEngine:
             if vr.severity != "ok":
                 results.append(vr)
 
-        for change_type, value_str in (stat_changes or []):
-            # ── Cross-system tag boundary check ──────────────────────────
-            # Block Cthulhu-only sanity tags when the active system has no
-            # sanity mechanics.  This prevents STABILITAET_VERLUST (and
-            # related tags) from leaking into Shadowrun, Paranoia, AD&D etc.
-            if change_type in _CTHULHU_ONLY_TAGS:
-                if self._system not in _SANITY_SYSTEMS:
-                    msg = (
-                        f"[Cross-System Tag geblockt] Tag '{change_type}' gehoert "
-                        f"zum Cthulhu-Sanity-System und ist fuer '{self._system}' "
-                        f"ungueltig. KI-Anweisung pruefen."
-                    )
-                    logger.warning(msg)
-                    vr = ValidationResult(
-                        tag_type=change_type,
-                        is_valid=False,
-                        severity="error",
-                        message=msg,
-                        original_value=value_str,
-                    )
-                    results.append(vr)
-                    # Do not route to validate_san_loss — tag is fully blocked
-                    continue
+        for stat_tuple in (stat_changes or []):
+            change_type = stat_tuple[0]
+            value_str = stat_tuple[1] if len(stat_tuple) > 1 else ""
+            # ── Sanity-Tag Guard ──────────────────────────────────────────
+            # AD&D 2e hat kein Sanity-System. Blocke Sanity-Tags.
+            if change_type in _SANITY_ONLY_TAGS:
+                msg = (
+                    f"[Sanity-Tag geblockt] Tag '{change_type}' ist fuer "
+                    f"'{self._system}' ungueltig (kein Sanity-System)."
+                )
+                logger.warning(msg)
+                vr = ValidationResult(
+                    tag_type=change_type,
+                    is_valid=False,
+                    severity="error",
+                    message=msg,
+                    original_value=value_str,
+                )
+                results.append(vr)
+                continue
             # ── Normal per-tag routing ────────────────────────────────────
             if change_type == "STABILITAET_VERLUST":
                 vr = self.validate_san_loss(value_str, character_stats)
@@ -698,6 +578,23 @@ class RulesEngine:
                 vr = self.validate_xp_gain(value_str)
             elif change_type == "FERTIGKEIT_GENUTZT":
                 vr = self.validate_skill_used(value_str)
+            # ── Monster-Mechanik Tags ─────────────────────────────────────
+            elif change_type == "MAGIC_RESISTANCE":
+                vr = self.validate_magic_resistance(value_str)
+            elif change_type == "WAFFEN_IMMUNITAET":
+                vr = self.validate_weapon_immunity(value_str)
+            elif change_type == "GIFT":
+                vr = self.validate_poison(value_str)
+            elif change_type == "LEVEL_DRAIN":
+                vr = self.validate_level_drain(value_str)
+            elif change_type == "MORAL_CHECK":
+                vr = self.validate_morale_check(value_str)
+            elif change_type == "REGENERATION":
+                vr = self.validate_regeneration(value_str)
+            elif change_type == "FURCHT":
+                vr = self.validate_fear(value_str)
+            elif change_type == "ATEM_WAFFE":
+                vr = self.validate_breath_weapon(value_str)
             else:
                 continue
             if vr.severity != "ok":
@@ -755,16 +652,8 @@ class RulesEngine:
                 original_value={"skill": skill_name, "target": target_value},
             )
 
-        # Range check — systemspezifisch:
-        #  Shadowrun: Dice Pools bis 30
-        #  AD&D 2e:   d20 + Prozent-Skills (Thief: Move Silently 35% etc.) bis 100
-        #  Andere:    default_die Maximalwert
-        if self._is_shadowrun:
-            max_target = 30
-        elif self._is_add2e:
-            max_target = 100
-        else:
-            max_target = self._die_max
+        # Range check — AD&D 2e: d20 + Prozent-Skills (Thief: Move Silently 35% etc.) bis 100
+        max_target = 100
         if target_value < 1 or target_value > max_target:
             return ValidationResult(
                 tag_type="PROBE", is_valid=False, severity="warning",
@@ -983,6 +872,382 @@ class RulesEngine:
             message="", original_value=skill_name,
         )
 
+    # -- Monster-Mechanik Validatoren ----------------------------------------
+
+    def validate_magic_resistance(self, value_str: str) -> ValidationResult:
+        """Validiert [MAGIC_RESISTANCE: MonsterName | Prozent].
+
+        Erwartet Format: "MonsterName | Prozent" (Prozent 1-100).
+        """
+        parts = [p.strip() for p in value_str.split("|")]
+        if len(parts) != 2:
+            return ValidationResult(
+                tag_type="MAGIC_RESISTANCE", is_valid=False, severity="error",
+                message=(
+                    f"MAGIC_RESISTANCE erwartet 'MonsterName | Prozent', "
+                    f"erhalten: '{value_str}'"
+                ),
+                original_value=value_str,
+            )
+        monster_name, pct_str = parts
+        if not monster_name:
+            return ValidationResult(
+                tag_type="MAGIC_RESISTANCE", is_valid=False, severity="error",
+                message="MonsterName darf nicht leer sein.",
+                original_value=value_str,
+            )
+        try:
+            pct = int(pct_str)
+        except ValueError:
+            return ValidationResult(
+                tag_type="MAGIC_RESISTANCE", is_valid=False, severity="error",
+                message=f"Prozent '{pct_str}' ist keine gueltige Zahl.",
+                original_value=value_str,
+            )
+        if not 1 <= pct <= 100:
+            return ValidationResult(
+                tag_type="MAGIC_RESISTANCE", is_valid=False, severity="warning",
+                message=f"Magieresistenz {pct}% ausserhalb gueltiger Bereich 1-100.",
+                original_value=value_str,
+                suggested_value=max(1, min(pct, 100)),
+            )
+        return ValidationResult(
+            tag_type="MAGIC_RESISTANCE", is_valid=True, severity="ok",
+            message="", original_value=value_str,
+        )
+
+    def validate_weapon_immunity(self, value_str: str) -> ValidationResult:
+        """Validiert [WAFFEN_IMMUNITAET: MonsterName | +N].
+
+        Erwartet Format: "MonsterName | +N" (Bonus +1 bis +5).
+        """
+        parts = [p.strip() for p in value_str.split("|")]
+        if len(parts) != 2:
+            return ValidationResult(
+                tag_type="WAFFEN_IMMUNITAET", is_valid=False, severity="error",
+                message=(
+                    f"WAFFEN_IMMUNITAET erwartet 'MonsterName | +N', "
+                    f"erhalten: '{value_str}'"
+                ),
+                original_value=value_str,
+            )
+        monster_name, bonus_str = parts
+        if not monster_name:
+            return ValidationResult(
+                tag_type="WAFFEN_IMMUNITAET", is_valid=False, severity="error",
+                message="MonsterName darf nicht leer sein.",
+                original_value=value_str,
+            )
+        # Akzeptiere "+1", "+2" etc. oder auch "1", "2"
+        bonus_clean = bonus_str.lstrip("+").strip()
+        try:
+            bonus = int(bonus_clean)
+        except ValueError:
+            return ValidationResult(
+                tag_type="WAFFEN_IMMUNITAET", is_valid=False, severity="error",
+                message=f"Mindest-Bonus '{bonus_str}' ist nicht erkennbar (erwartet: +1 bis +5).",
+                original_value=value_str,
+            )
+        if not 1 <= bonus <= 5:
+            return ValidationResult(
+                tag_type="WAFFEN_IMMUNITAET", is_valid=False, severity="warning",
+                message=f"Waffen-Bonus +{bonus} ausserhalb gueltiger Bereich +1 bis +5.",
+                original_value=value_str,
+                suggested_value=max(1, min(bonus, 5)),
+            )
+        return ValidationResult(
+            tag_type="WAFFEN_IMMUNITAET", is_valid=True, severity="ok",
+            message="", original_value=value_str,
+        )
+
+    _VALID_GIFT_TYPEN: frozenset[str] = frozenset({
+        "tod", "paralyse", "schaden", "krankheit",
+    })
+
+    def validate_poison(self, value_str: str) -> ValidationResult:
+        """Validiert [GIFT: MonsterName | Typ | Save-Modifikator].
+
+        Erwartet Format: "MonsterName | Typ | Save-Mod" (-4 bis +4).
+        Typen: Tod, Paralyse, Schaden, Krankheit.
+        """
+        parts = [p.strip() for p in value_str.split("|")]
+        if len(parts) != 3:
+            return ValidationResult(
+                tag_type="GIFT", is_valid=False, severity="error",
+                message=(
+                    f"GIFT erwartet 'MonsterName | Typ | Save-Mod', "
+                    f"erhalten: '{value_str}'"
+                ),
+                original_value=value_str,
+            )
+        monster_name, typ, save_mod_str = parts
+        if not monster_name:
+            return ValidationResult(
+                tag_type="GIFT", is_valid=False, severity="error",
+                message="MonsterName darf nicht leer sein.",
+                original_value=value_str,
+            )
+        if typ.lower() not in self._VALID_GIFT_TYPEN:
+            return ValidationResult(
+                tag_type="GIFT", is_valid=False, severity="warning",
+                message=(
+                    f"Gift-Typ '{typ}' ungueltig. "
+                    f"Erlaubt: Tod, Paralyse, Schaden, Krankheit."
+                ),
+                original_value=value_str,
+            )
+        try:
+            save_mod = int(save_mod_str)
+        except ValueError:
+            return ValidationResult(
+                tag_type="GIFT", is_valid=False, severity="error",
+                message=f"Save-Modifikator '{save_mod_str}' ist keine gueltige Zahl.",
+                original_value=value_str,
+            )
+        if not -4 <= save_mod <= 4:
+            return ValidationResult(
+                tag_type="GIFT", is_valid=False, severity="warning",
+                message=f"Save-Modifikator {save_mod:+d} ausserhalb gueltiger Bereich -4 bis +4.",
+                original_value=value_str,
+                suggested_value=max(-4, min(save_mod, 4)),
+            )
+        return ValidationResult(
+            tag_type="GIFT", is_valid=True, severity="ok",
+            message="", original_value=value_str,
+        )
+
+    def validate_level_drain(self, value_str: str) -> ValidationResult:
+        """Validiert [LEVEL_DRAIN: CharName | Stufen].
+
+        Erwartet Format: "CharName | Anzahl_Stufen" (1-4).
+        """
+        parts = [p.strip() for p in value_str.split("|")]
+        if len(parts) != 2:
+            return ValidationResult(
+                tag_type="LEVEL_DRAIN", is_valid=False, severity="error",
+                message=(
+                    f"LEVEL_DRAIN erwartet 'CharName | Stufen', "
+                    f"erhalten: '{value_str}'"
+                ),
+                original_value=value_str,
+            )
+        char_name, stufen_str = parts
+        if not char_name:
+            return ValidationResult(
+                tag_type="LEVEL_DRAIN", is_valid=False, severity="error",
+                message="CharName darf nicht leer sein.",
+                original_value=value_str,
+            )
+        try:
+            stufen = int(stufen_str)
+        except ValueError:
+            return ValidationResult(
+                tag_type="LEVEL_DRAIN", is_valid=False, severity="error",
+                message=f"Stufen '{stufen_str}' ist keine gueltige Zahl.",
+                original_value=value_str,
+            )
+        if not 1 <= stufen <= 4:
+            return ValidationResult(
+                tag_type="LEVEL_DRAIN", is_valid=False, severity="warning",
+                message=f"Level-Drain {stufen} Stufen ausserhalb gueltiger Bereich 1-4.",
+                original_value=value_str,
+                suggested_value=max(1, min(stufen, 4)),
+            )
+        return ValidationResult(
+            tag_type="LEVEL_DRAIN", is_valid=True, severity="ok",
+            message="", original_value=value_str,
+        )
+
+    def validate_morale_check(self, value_str: str) -> ValidationResult:
+        """Validiert [MORAL_CHECK: MonsterName | Schwelle].
+
+        Erwartet Format: "MonsterName | Schwelle" (2-20).
+        """
+        parts = [p.strip() for p in value_str.split("|")]
+        if len(parts) != 2:
+            return ValidationResult(
+                tag_type="MORAL_CHECK", is_valid=False, severity="error",
+                message=(
+                    f"MORAL_CHECK erwartet 'MonsterName | Schwelle', "
+                    f"erhalten: '{value_str}'"
+                ),
+                original_value=value_str,
+            )
+        monster_name, schwelle_str = parts
+        if not monster_name:
+            return ValidationResult(
+                tag_type="MORAL_CHECK", is_valid=False, severity="error",
+                message="MonsterName darf nicht leer sein.",
+                original_value=value_str,
+            )
+        try:
+            schwelle = int(schwelle_str)
+        except ValueError:
+            return ValidationResult(
+                tag_type="MORAL_CHECK", is_valid=False, severity="error",
+                message=f"Schwelle '{schwelle_str}' ist keine gueltige Zahl.",
+                original_value=value_str,
+            )
+        if not 2 <= schwelle <= 20:
+            return ValidationResult(
+                tag_type="MORAL_CHECK", is_valid=False, severity="warning",
+                message=f"Moral-Schwelle {schwelle} ausserhalb gueltiger Bereich 2-20.",
+                original_value=value_str,
+                suggested_value=max(2, min(schwelle, 20)),
+            )
+        return ValidationResult(
+            tag_type="MORAL_CHECK", is_valid=True, severity="ok",
+            message="", original_value=value_str,
+        )
+
+    def validate_regeneration(self, value_str: str) -> ValidationResult:
+        """Validiert [REGENERATION: MonsterName | HP_pro_Runde].
+
+        Erwartet Format: "MonsterName | HP" (1-20).
+        """
+        parts = [p.strip() for p in value_str.split("|")]
+        if len(parts) != 2:
+            return ValidationResult(
+                tag_type="REGENERATION", is_valid=False, severity="error",
+                message=(
+                    f"REGENERATION erwartet 'MonsterName | HP_pro_Runde', "
+                    f"erhalten: '{value_str}'"
+                ),
+                original_value=value_str,
+            )
+        monster_name, hp_str = parts
+        if not monster_name:
+            return ValidationResult(
+                tag_type="REGENERATION", is_valid=False, severity="error",
+                message="MonsterName darf nicht leer sein.",
+                original_value=value_str,
+            )
+        try:
+            hp = int(hp_str)
+        except ValueError:
+            return ValidationResult(
+                tag_type="REGENERATION", is_valid=False, severity="error",
+                message=f"HP/Runde '{hp_str}' ist keine gueltige Zahl.",
+                original_value=value_str,
+            )
+        if not 1 <= hp <= 20:
+            return ValidationResult(
+                tag_type="REGENERATION", is_valid=False, severity="warning",
+                message=f"Regeneration {hp} HP/Runde ausserhalb gueltiger Bereich 1-20.",
+                original_value=value_str,
+                suggested_value=max(1, min(hp, 20)),
+            )
+        return ValidationResult(
+            tag_type="REGENERATION", is_valid=True, severity="ok",
+            message="", original_value=value_str,
+        )
+
+    _VALID_FURCHT_EFFEKTE: frozenset[str] = frozenset({
+        "flucht", "paralyse", "alterung",
+    })
+    # Akzeptierte Dauer-Muster: Wuerfelausdruck oder 'permanent'
+    _FURCHT_DAUER_PATTERN = re.compile(r"^\d+d\d+$|^permanent$", re.IGNORECASE)
+
+    def validate_fear(self, value_str: str) -> ValidationResult:
+        """Validiert [FURCHT: CharName | Effekt | Dauer].
+
+        Erwartet Format: "CharName | Effekt | Dauer".
+        Effekte: Flucht, Paralyse, Alterung.
+        Dauer: Wuerfelausdruck (z.B. 1d6) oder 'permanent'.
+        """
+        parts = [p.strip() for p in value_str.split("|")]
+        if len(parts) != 3:
+            return ValidationResult(
+                tag_type="FURCHT", is_valid=False, severity="error",
+                message=(
+                    f"FURCHT erwartet 'CharName | Effekt | Dauer', "
+                    f"erhalten: '{value_str}'"
+                ),
+                original_value=value_str,
+            )
+        char_name, effekt, dauer = parts
+        if not char_name:
+            return ValidationResult(
+                tag_type="FURCHT", is_valid=False, severity="error",
+                message="CharName darf nicht leer sein.",
+                original_value=value_str,
+            )
+        if effekt.lower() not in self._VALID_FURCHT_EFFEKTE:
+            return ValidationResult(
+                tag_type="FURCHT", is_valid=False, severity="warning",
+                message=(
+                    f"Furcht-Effekt '{effekt}' ungueltig. "
+                    f"Erlaubt: Flucht, Paralyse, Alterung."
+                ),
+                original_value=value_str,
+            )
+        if not self._FURCHT_DAUER_PATTERN.match(dauer):
+            return ValidationResult(
+                tag_type="FURCHT", is_valid=False, severity="warning",
+                message=(
+                    f"Furcht-Dauer '{dauer}' ungueltig. "
+                    f"Erwartet: Wuerfelausdruck (z.B. '1d6') oder 'permanent'."
+                ),
+                original_value=value_str,
+            )
+        return ValidationResult(
+            tag_type="FURCHT", is_valid=True, severity="ok",
+            message="", original_value=value_str,
+        )
+
+    _VALID_ATEM_TYPEN: frozenset[str] = frozenset({
+        "feuer", "kaelte", "blitz", "gift", "saeure", "gas",
+    })
+    # Wuerfelausdruck: NdN oder NdN+M oder NdN-M
+    _DICE_EXPR_PATTERN = re.compile(r"^\d+d\d+([+-]\d+)?$", re.IGNORECASE)
+
+    def validate_breath_weapon(self, value_str: str) -> ValidationResult:
+        """Validiert [ATEM_WAFFE: MonsterName | Typ | Schaden].
+
+        Erwartet Format: "MonsterName | Typ | Schaden".
+        Typen: Feuer, Kaelte, Blitz, Gift, Saeure, Gas.
+        Schaden: Wuerfelausdruck (z.B. 10d10, 3d8).
+        """
+        parts = [p.strip() for p in value_str.split("|")]
+        if len(parts) != 3:
+            return ValidationResult(
+                tag_type="ATEM_WAFFE", is_valid=False, severity="error",
+                message=(
+                    f"ATEM_WAFFE erwartet 'MonsterName | Typ | Schaden', "
+                    f"erhalten: '{value_str}'"
+                ),
+                original_value=value_str,
+            )
+        monster_name, typ, schaden = parts
+        if not monster_name:
+            return ValidationResult(
+                tag_type="ATEM_WAFFE", is_valid=False, severity="error",
+                message="MonsterName darf nicht leer sein.",
+                original_value=value_str,
+            )
+        if typ.lower() not in self._VALID_ATEM_TYPEN:
+            return ValidationResult(
+                tag_type="ATEM_WAFFE", is_valid=False, severity="warning",
+                message=(
+                    f"Atemwaffe-Typ '{typ}' ungueltig. "
+                    f"Erlaubt: Feuer, Kaelte, Blitz, Gift, Saeure, Gas."
+                ),
+                original_value=value_str,
+            )
+        if not self._DICE_EXPR_PATTERN.match(schaden):
+            return ValidationResult(
+                tag_type="ATEM_WAFFE", is_valid=False, severity="warning",
+                message=(
+                    f"Schaden '{schaden}' ist kein gueltiger Wuerfelausdruck "
+                    f"(erwartet: z.B. '10d10', '3d8')."
+                ),
+                original_value=value_str,
+            )
+        return ValidationResult(
+            tag_type="ATEM_WAFFE", is_valid=True, severity="ok",
+            message="", original_value=value_str,
+        )
+
     # ======================================================================
     # Private — Section Indexers
     # ======================================================================
@@ -995,10 +1260,6 @@ class RulesEngine:
     _CORE_CATEGORIES = frozenset({
         "tables", "magic", "healing", "conditions", "classes",
         "skills", "economy", "movement", "advancement", "equipment",
-        # Paranoia
-        "treason", "clones", "clearance",
-        # Shadowrun
-        "matrix", "cyberware", "edge", "rigger",
         # AD&D 2e
         "proficiencies", "racial_abilities", "turn_undead",
     })
@@ -1470,133 +1731,6 @@ class RulesEngine:
                 keywords=_KEYWORD_MAP.get("classes", []),
                 text=". ".join(parts),
             ))
-
-    # -- Paranoia 2E ---------------------------------------------------------
-
-    def _index_treason(self) -> None:
-        """Index Paranoia treason/loyalty mechanics."""
-        if not self._is_paranoia:
-            return
-        ds = self._ruleset.get("derived_stats", {})
-        tp = ds.get("Treason Points", {})
-        ext = self._ruleset.get("extensions", {})
-        scs = ext.get("security_clearance_system", {})
-        parts = []
-        if tp:
-            parts.append(f"Treason Points: {tp.get('notes', 'Escalating penalties.')}")
-        parts.append("Verrat kann durch Mutation, Geheimgesellschaft, Clearance-Verstoss oder Befehlsverweigerung entstehen.")
-        if scs:
-            parts.append(f"Regel: {scs.get('rule', '')}")
-        self._add_section(RuleSection(
-            section_id="treason.overview",
-            category="treason",
-            title="Treason & Loyalty",
-            keywords=_KEYWORD_MAP.get("treason", []),
-            text=" ".join(parts),
-        ))
-
-    def _index_clones(self) -> None:
-        """Index Paranoia clone mechanics."""
-        if not self._is_paranoia:
-            return
-        ds = self._ruleset.get("derived_stats", {})
-        cn = ds.get("Clone Number", {})
-        healing = self._ruleset.get("healing", {})
-        death = healing.get("death_and_replacement", "")
-        text = f"Clone Number: {cn.get('notes', '1-6 per family')}. {death}".strip()
-        self._add_section(RuleSection(
-            section_id="clones.overview",
-            category="clones",
-            title="Clone System",
-            keywords=_KEYWORD_MAP.get("clones", []),
-            text=text,
-        ))
-
-    def _index_clearance(self) -> None:
-        """Index Paranoia security clearance system."""
-        if not self._is_paranoia:
-            return
-        ext = self._ruleset.get("extensions", {})
-        scs = ext.get("security_clearance_system", {})
-        if scs:
-            levels = scs.get("levels", [])
-            text = f"Clearance Levels: {', '.join(levels)}. {scs.get('rule', '')}"
-        else:
-            text = "Clearance: Infrared < Red < Orange < Yellow < Green < Blue < Indigo < Violet < Ultraviolet. Zugriff oberhalb der eigenen Stufe ist Verrat."
-        self._add_section(RuleSection(
-            section_id="clearance.overview",
-            category="clearance",
-            title="Security Clearance",
-            keywords=_KEYWORD_MAP.get("clearance", []),
-            text=text,
-        ))
-
-    def _index_mutations_paranoia(self) -> None:
-        """Index Paranoia mutation system."""
-        if not self._is_paranoia:
-            return
-        ext = self._ruleset.get("extensions", {})
-        mp = ext.get("mutant_powers", {})
-        if mp:
-            text = f"Mutant Powers: {mp.get('notes', 'Treasonous unless registered.')}. Aktivierung per Power-Attribut (d20 roll-under)."
-        else:
-            text = "Mutant Powers sind verraeterisch, es sei denn registriert. Registrierung ist ebenfalls verdaechtig. Aktivierung per Power-Attribut (d20 roll-under)."
-        self._add_section(RuleSection(
-            section_id="mutations.overview",
-            category="mutations",
-            title="Mutant Powers",
-            keywords=_KEYWORD_MAP.get("mutations_paranoia", []),
-            text=text,
-        ))
-
-    # -- Shadowrun 6E --------------------------------------------------------
-
-    def _index_matrix(self) -> None:
-        """Index Shadowrun Matrix mechanics."""
-        if not self._is_shadowrun:
-            return
-        skills = self._ruleset.get("skills", {})
-        if "Hacken" in skills:
-            text = ("Matrix: Wuerferpool = LOG + Hacken. Hosts haben Stufen. "
-                    "IC (Intrusion Countermeasures) bekaempft Eindringlinge. "
-                    "Illegale Aktionen erzeugen Overwatch-Score.")
-            self._add_section(RuleSection(
-                section_id="matrix.overview",
-                category="matrix",
-                title="Matrix & Hacking",
-                keywords=_KEYWORD_MAP.get("matrix", []),
-                text=text,
-            ))
-
-    def _index_cyberware(self) -> None:
-        """Index Shadowrun cyberware/essence mechanics."""
-        if not self._is_shadowrun:
-            return
-        text = ("Cyberware senkt Essenz. Essenz 0 = Tod. "
-                "Magie-Attribut kann nicht ueber Essenz steigen. "
-                "Bioware ist vertraeglicher als Cyberware (halber Essenz-Verlust).")
-        self._add_section(RuleSection(
-            section_id="cyberware.overview",
-            category="cyberware",
-            title="Cyberware & Essenz",
-            keywords=_KEYWORD_MAP.get("cyberware", []),
-            text=text,
-        ))
-
-    def _index_edge(self) -> None:
-        """Index Shadowrun Edge mechanics."""
-        if not self._is_shadowrun:
-            return
-        text = ("Edge: Gluecks-Ressource. Edge-Boost: +1 Wuerfel nachtraeglich. "
-                "Edge-Aktion: Wuerfel explodieren (6 = nachwuerfeln). "
-                "Edge wird durch situative Vor-/Nachteile gewonnen/verloren.")
-        self._add_section(RuleSection(
-            section_id="edge.overview",
-            category="edge",
-            title="Edge-System",
-            keywords=_KEYWORD_MAP.get("edge_shadowrun", []),
-            text=text,
-        ))
 
     # -- Lore Chunks (fulltext rules from data/lore/) --------------------------
 

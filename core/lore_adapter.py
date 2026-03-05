@@ -168,75 +168,6 @@ def _adapt_entity_generic(ent: dict[str, Any]) -> bool:
 
 
 # ---------------------------------------------------------------------------
-# Paranoia 2E Adapter
-# ---------------------------------------------------------------------------
-
-def _adapt_paranoia(adventure: dict[str, Any]) -> int:
-    """Paranoia-spezifisch: Service Group + Clearance als Role, etc."""
-    count = 0
-
-    for npc in adventure.get("npcs", []):
-        mech = npc.get("mechanics", {})
-        changed = False
-
-        # Role: Service Group + Clearance
-        if not npc.get("role") and not npc.get("occupation"):
-            sg = mech.get("service_group", "")
-            cl = mech.get("clearance", "")
-            if sg or cl:
-                npc["role"] = f"{sg} — {cl}".strip(" —") if sg and cl else (sg or cl)
-                changed = True
-
-        # Personality: trait
-        if not npc.get("personality") and not npc.get("description") and not npc.get("traits"):
-            trait = mech.get("trait", "")
-            if trait:
-                npc["personality"] = trait
-                changed = True
-            elif npc.get("summary"):
-                npc["personality"] = npc["summary"]
-                changed = True
-
-        # Secrets: secret_society + mutation
-        if not npc.get("secrets") and not npc.get("secret"):
-            secret_parts = []
-            if mech.get("secret_society"):
-                secret_parts.append(f"Secret Society: {mech['secret_society']}")
-            if mech.get("mutation"):
-                secret_parts.append(f"Mutation: {mech['mutation']}")
-            if secret_parts:
-                npc["secrets"] = secret_parts
-                changed = True
-
-        # Dialogue hints: use_in_play
-        if not npc.get("dialogue_hints"):
-            use = mech.get("use_in_play", "")
-            if use:
-                npc["dialogue_hints"] = [f"Use-in-play: {use}"]
-                changed = True
-
-        if changed:
-            count += 1
-
-    # Items: gear_catalog Felder
-    for item in adventure.get("items", []):
-        if _adapt_item_generic(item):
-            count += 1
-
-    # Organizations: secret_societies + service_groups
-    for org in adventure.get("organizations", []):
-        if _adapt_org_generic(org):
-            count += 1
-
-    # Entities: mutations
-    for ent in adventure.get("entities", []):
-        if _adapt_entity_generic(ent):
-            count += 1
-
-    return count
-
-
-# ---------------------------------------------------------------------------
 # AD&D 2E Adapter
 # ---------------------------------------------------------------------------
 
@@ -283,85 +214,9 @@ def _adapt_add2e(adventure: dict[str, Any]) -> int:
 
 
 # ---------------------------------------------------------------------------
-# Cthulhu 7E Adapter
-# ---------------------------------------------------------------------------
-
-def _adapt_cthulhu(adventure: dict[str, Any]) -> int:
-    """Cthulhu 7e: meist bereits gut gemappt, nur Luecken fuellen."""
-    count = 0
-    for npc in adventure.get("npcs", []):
-        if _adapt_npc_generic(npc):
-            count += 1
-    for item in adventure.get("items", []):
-        if _adapt_item_generic(item):
-            count += 1
-    for org in adventure.get("organizations", []):
-        if _adapt_org_generic(org):
-            count += 1
-    for ent in adventure.get("entities", []):
-        if _adapt_entity_generic(ent):
-            count += 1
-    return count
-
-
-# ---------------------------------------------------------------------------
-# Shadowrun 6 Adapter
-# ---------------------------------------------------------------------------
-
-def _adapt_shadowrun(adventure: dict[str, Any]) -> int:
-    """Shadowrun 6: Archetype als Role, Metatyp in Personality."""
-    count = 0
-
-    for npc in adventure.get("npcs", []):
-        mech = npc.get("mechanics", {})
-        changed = False
-
-        if not npc.get("role") and not npc.get("occupation"):
-            archetype = mech.get("archetype", mech.get("role", ""))
-            metatype = mech.get("metatype", "")
-            if archetype:
-                npc["role"] = f"{archetype} ({metatype})" if metatype else archetype
-                changed = True
-
-        if not npc.get("personality") and not npc.get("description") and not npc.get("traits"):
-            summary = npc.get("summary", "")
-            if summary:
-                npc["personality"] = summary
-                changed = True
-
-        if not npc.get("secrets") and not npc.get("secret"):
-            affiliation = mech.get("affiliation", mech.get("faction", ""))
-            if affiliation:
-                npc["secrets"] = [f"Affiliation: {affiliation}"]
-                changed = True
-
-        if changed:
-            count += 1
-
-    for item in adventure.get("items", []):
-        if _adapt_item_generic(item):
-            count += 1
-    for org in adventure.get("organizations", []):
-        if _adapt_org_generic(org):
-            count += 1
-    for ent in adventure.get("entities", []):
-        if _adapt_entity_generic(ent):
-            count += 1
-
-    return count
-
-
-# ---------------------------------------------------------------------------
 # Registry
 # ---------------------------------------------------------------------------
 
 _SYSTEM_ADAPTERS: dict[str, Any] = {
-    "paranoia_2e": _adapt_paranoia,
-    "paranoia": _adapt_paranoia,
     "add_2e": _adapt_add2e,
-    "cthulhu_7e": _adapt_cthulhu,
-    "cthulhu": _adapt_cthulhu,
-    "shadowrun_6": _adapt_shadowrun,
-    "shadowrun": _adapt_shadowrun,
-    "mad_max": _adapt_generic,
 }

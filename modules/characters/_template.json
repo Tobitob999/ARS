@@ -3,7 +3,7 @@
 
   "id": "PFLICHT — snake_case, eindeutig (z.B. 'professor_armitage')",
   "name": "PFLICHT — Anzeigename des Charakters",
-  "compatible_rulesets": ["PFLICHT — Array von Ruleset-IDs, z.B. ['cthulhu_7e']"],
+  "compatible_rulesets": ["PFLICHT — Array von Ruleset-IDs, z.B. ['add_2e']"],
 
   "archetype": "Klasse / Beruf / Archetyp (z.B. 'Fighter', 'Antiquarian', 'Cleric')",
   "level": 1,

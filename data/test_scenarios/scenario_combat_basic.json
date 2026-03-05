@@ -1,0 +1,52 @@
+{
+  "id": "scenario_combat_basic",
+  "name": "Basiskampf: Angriff, Treffer, Heilung",
+  "setup": {
+    "player": {
+      "name": "Testkrieger",
+      "hp": 15,
+      "ac": 5,
+      "thac0": 18,
+      "weapon": "Langschwert",
+      "damage": "1d8"
+    },
+    "seed": 42
+  },
+  "steps": [
+    {
+      "synthetic_response": "Der Goblin springt aus dem Schatten und trifft dich mit seinem rostigen Dolch! [HP_VERLUST: 3] Du blutest aus einer Schnittwunde am Arm.",
+      "assertions": [
+        {"type": "tag_extracted", "tag": "HP_VERLUST", "count": 1},
+        {"type": "stat_changed", "stat": "HP", "expected_value": 12}
+      ]
+    },
+    {
+      "synthetic_response": "Ein zweiter Goblin wirft einen Stein! [HP_VERLUST: 2] Der Aufprall schmerzt.",
+      "assertions": [
+        {"type": "tag_extracted", "tag": "HP_VERLUST", "count": 1},
+        {"type": "stat_changed", "stat": "HP", "expected_value": 10}
+      ]
+    },
+    {
+      "synthetic_response": "Du trinkst den Heiltrank und spuerst Linderung. [HP_HEILUNG: 5]",
+      "assertions": [
+        {"type": "tag_not_present", "tag": "HP_VERLUST"},
+        {"type": "stat_changed", "stat": "HP", "expected_value": 15}
+      ]
+    },
+    {
+      "synthetic_response": "Du besiegst den Goblin! [XP_GEWINN: 65] Sein Kopf rollt ueber den Boden.",
+      "assertions": [
+        {"type": "tag_extracted", "tag": "XP_GEWINN", "count": 1},
+        {"type": "tag_not_present", "tag": "HP_VERLUST"}
+      ]
+    },
+    {
+      "synthetic_response": "Du findest ein Kurzschwert. [INVENTAR: Kurzschwert | gefunden] Es glaenzt im Fackelschein.",
+      "assertions": [
+        {"type": "tag_not_present", "tag": "HP_VERLUST"},
+        {"type": "tag_not_present", "tag": "XP_GEWINN"}
+      ]
+    }
+  ]
+}

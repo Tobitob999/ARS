@@ -1,0 +1,391 @@
+{
+  "schema_version": "1.2.0",
+  "id": "treasure_hoard",
+  "compatible_rulesets": ["add_2e"],
+  "title": "Das Gewoelbe des Hundert-Drachen-Hortes",
+  "setting": "Ein verlassener Zwergenkomplex tief unter den Sturmklippen-Bergen. Einst das Finanzgewoelbe einer untergegangenen Zwergenkoenigs-Linie, spaeter von einem Roten Drachen als Lager genutzt, und schliesslich von einer Goblin-Bande besetzt, die von dem Reichtum weder weiss noch profitiert. Der Drache ist seit Jahren fort — der Schatz wartet noch.",
+  "difficulty": "Leicht (Schatz-Stress-Test — Party-Modus AD&D 2e)",
+  "party_mode": true,
+  "recommended_party": "add_valdrak_party",
+  "intro": "Ein sterbender Zwerg in einem Wirtshaus drueckt euch ein verblichenes Pergament in die Hand: eine Karte mit einem Kreuz in den Sturmklippen. 'Das Gewoelbe', keucht er. 'Schatz... wie hundert Drachen... Goblins halten den Eingang... aber der echte Hort... tiefer... viel tiefer...' Dann verstirbt er mit einem zufriedenen Laecheln.",
+  "hook": "Betretet den Zwergenkomplex, raumt die Goblin-Wache am Eingang aus dem Weg, bergt den legendaeren Drachen-Hort im grossen Schatzgewoelbe, untersucht das magisch gesicherte Tresorgewoelbe — und findet noch einen letzten Kasten auf dem Weg nach draussen. Kehrt reich zurueck.",
+  "keeper_lore": "=== SCHATZ-STRESS-TEST: DAS GEWOELBE DES HUNDERT-DRACHEN-HORTES ===\n\nDIESES ABENTEUER testet EXPLIZIT: [SCHATZ: H], [SCHATZ: A], [SCHATZ: E], [SCHATZ: C], [INVENTAR], [BELASTUNG], [MORAL_CHECK], [ANGRIFF], [HP_VERLUST], [PROBE], [FAKT], [XP_GEWINN], [ZEIT_VERGEHT].\n\n=== KERN-DIREKTIVEN (ABSOLUTE PFLICHT) ===\n1. VIER SCHATZ-TAGS in dieser Reihenfolge ueber das Abenteuer: [SCHATZ: H] im Drachen-Hort-Raum, dann [SCHATZ: A] in Tresor-Truhe-1, dann [SCHATZ: E] in Tresor-Truhe-2, dann [SCHATZ: C] im Ausgangsgang.\n2. KAEMPFE KURZ HALTEN: Die Goblins am Eingang sind TRIVIAL schwach (HD 1-1, AC 6, HP 3-4, Morale 5). Level-7-Party beendet das in 2 Runden. Strecke keinen Kampf kuenstlich.\n3. MORAL_CHECK SOFORT nach erstem Goblin-Tod: [MORAL_CHECK: Goblin-Wachposten | 5] — Goblins fliehen fast immer.\n4. INVENTAR FUER ALLES: Jedes aufgehobene Item braucht [INVENTAR: +item | CharName]. Kein Item ohne Tag.\n5. BELASTUNG PFLICHT: Sobald ein Charakter schwer beladen ist: [BELASTUNG: CharName | Gewicht]. Mindestens 4 verschiedene Charaktere muessen BELASTUNG bekommen.\n6. MAGISCHE ITEMS aus Truhe E werden logisch nach Klasse verteilt und jedes einzeln mit [INVENTAR: +item | CharName] emittiert.\n7. KEINE GEFAEHRLICHEN KAEMPFE: Das gesamte Abenteuer endet ohne ernsthafte Verletzungen an der Party.\n\n=== VIER-RAUM-STRUKTUR ===\nRAUM 1 (cave_entrance): 5 Goblins, Morale 5, trivial schwach. [MORAL_CHECK] nach erstem Tod. [SCHATZ: C] als Einstieg-Belohnung aus Goblin-Fuehrer-Beutel.\nRAUM 2 (dragon_treasury): DER HAUPTSCHATZ. Treasure Type H. Drachen-Hort der Jahrhunderte. 3 schlafende Goblin-Wachen (fliehen sofort). [SCHATZ: H] sofort bei Betreten.\nRAUM 3 (vault_room): ZWEI TRUHEN. Truhe 1 = [SCHATZ: A]. Truhe 2 = [SCHATZ: E] mit 6 magischen Items (einer pro Partei-Mitglied). Kein Feind.\nRAUM 4 (exit_passage): AUSGANGSGANG. Kleiner Holzkasten auf Simms. Lyra findet ihn. [SCHATZ: C] zweites Mal fuer den Abschluss.\n\n=== RAUM 1: GOBLIN-WACHPOSTEN (cave_entrance) — KAMPF-SZENE ===\n5 Goblins (Stubsnase x1 als Anfuehrer + 4 Standard). AC 6, HP 3-4, THAC0 20, Morale 5.\nGoblins sind angetrunken: -2 auf Angriff und Initiative.\nKampf-Pacing:\n- Runde 1: Sir Aldric und Thorin im Vordergrund. Goblins greifen an.\n  [ANGRIFF: Goblin-Kurzschwert | 20 | AC 2 | 0] fuer je 2-3 Goblins. Kaum Treffer gegen Level-7-AC.\n- Runde 2: Erster Goblin faellt (Sir Aldrics Holy Sword +2 trifft fast immer).\n  SOFORT: [MORAL_CHECK: Goblin-Wachposten | 5] — bei 2d6-Wurf >= 5 (hoechst wahrscheinlich) fliehen alle.\n  Wenn ein Goblin vor dem Fliehen trifft: [HP_VERLUST: CharName | 1] oder [HP_VERLUST: CharName | 2]\n- Runde 3 (falls noetig): Letzte Goblins fliehen in Felsspalten.\n[SCHATZ: C] aus Stubsnases Beutel nach Kampf.\n[INVENTAR: +Goblin-Schluessel | Partei] — oeffnet Eisentuer zum Tunnel.\n[XP_GEWINN: 45] fuer 5 Goblins (je 9 XP fuer HD 1-1).\n[FAKT: Zwergen-Runen-Inschrift ueber dem Eingang: Koenigliches Finanzgewoelbe Klan Eisenherz — Zugang nur fuer Klan-Autorisierte] wenn Party die Inschrift liest.\n\n=== RAUM 2: DRACHEN-HORT (dragon_treasury) — HAUPT-SCHATZ ===\nDER HAUPTSCHATZ. Treasure Type H. Wie wenn man 100 Drachen erschlagen haette.\n3 schlafende Goblin-Wachen (AC 6, HP 2-3, Morale 3 — fliehen ohne zu kaempfen).\nSOFORT bei Betreten: [SCHATZ: H] — der Hort von Koenig Baldur und dem Drachen Imberyx.\nNach Schatz-Roll: [FAKT: Das Zwergen-Inventar-Buch listet 847.000 Goldmuenzen, 12.000 Platinmuenzen, 2.400 Edelsteine ein — Datum Koenigsjahr 542]\nBELASTUNG fuer jeden Charakter der Muenzen aufnimmt:\n[BELASTUNG: Thorin Eisenschild | 180] — Goldbarren + eigenes Gepaeck.\n[BELASTUNG: Sir Aldric von Strahlenburg | 165] — Edelsteine, Kelche.\n[BELASTUNG: Bruder Aldhelm | 130] — Religioese Artefakte und Gold.\n[BELASTUNG: Kaelen Windlaeufer | 145] — Barren und Muenzen.\n[BELASTUNG: Elara Sternenlicht | 85] — wenig nehmen (niedrige STR).\n[BELASTUNG: Lyra Schattenklinge | 110] — nur wertvollste Stuecke (Profi-Auswahl).\nINVENTAR nach SCHATZ-Roll (Beispiel-Items, konkrete Namen vergeben):\n[INVENTAR: +1500 Goldmuenzen | Thorin Eisenschild]\n[INVENTAR: +800 Platinmuenzen | Lyra Schattenklinge]\n[INVENTAR: +Smaragd-Collier des Koenigs (1200 GP) | Sir Aldric von Strahlenburg]\n[INVENTAR: +Goldener Kelch mit Rubin-Einlage (600 GP) | Bruder Aldhelm]\n[INVENTAR: +Elfenbein-Drachenskulptur (800 GP) | Elara Sternenlicht]\n[INVENTAR: +12 lose Rubine (je 150 GP) | Kaelen Windlaeufer]\n[PROBE: Schatzkunde | 14] fuer Lyra um Edelsteine zu schaetzen (Erfolg fast sicher fuer Stufe-7-Diebin).\n[XP_GEWINN: 500] Bonus-XP fuer Entdeckung und erste Bergung des Haupthortes.\n\n=== RAUM 3: TRESORGEWOELBE (vault_room) — MAGISCHE ITEMS ===\nEisentuer mit Doppelschloss. [PROBE: Schloesser-Oeffnen | 13] fuer Lyra ODER [PROBE: Staerke | 6] fuer Thorin.\nKEINE FEINDE.\nTRUHE 1 = Treasure Type A: Emittiere [SCHATZ: A] sofort bei Oeffnung.\nNach SCHATZ-Roll Truhe 1:\n[INVENTAR: +Zwergen-Koenigskrone aus Gold (3000 GP) | Sir Aldric von Strahlenburg]\n[INVENTAR: +300 Platinmuenzen | Partei-Gemeinkasse]\n[INVENTAR: +Grosser Saphir 'Auge des Koenigs' (2000 GP) | Lyra Schattenklinge]\n[INVENTAR: +Goldbarren x5 (je 500 GP) | Thorin Eisenschild]\nTRUHE 2 = Treasure Type E (MAGISCHE ITEMS): Emittiere [SCHATZ: E] sofort bei Oeffnung.\nNach SCHATZ-Roll Truhe 2 — JE EIN MAGISCHES ITEM PRO PARTEI-MITGLIED:\n[INVENTAR: +Schwert des Koenigs +2 'Baldursklinge' | Sir Aldric von Strahlenburg]\n[INVENTAR: +Ring der Feuerbestaendigkeit | Elara Sternenlicht]\n[INVENTAR: +Lederruestung +3 'Schattenhaut' | Lyra Schattenklinge]\n[INVENTAR: +Amulett der Gesundheit (CON +1) | Bruder Aldhelm]\n[INVENTAR: +Bogen +2 'Windschneider' | Kaelen Windlaeufer]\n[INVENTAR: +Helm der Telepathie | Thorin Eisenschild]\n[INVENTAR: +Schriftrolle: Fireball + Lightning Bolt | Elara Sternenlicht]\n[INVENTAR: +Schriftrolle: Cure Critical Wounds x2 | Bruder Aldhelm]\n[INVENTAR: +Schild +2 | Thorin Eisenschild]\n[INVENTAR: +Speer +1 | Kaelen Windlaeufer]\nBELASTUNG nach Truhen-Verteilung:\n[BELASTUNG: Thorin Eisenschild | 210] — Goldbarren + Helm + Schild + Goldmuenzen.\n[BELASTUNG: Elara Sternenlicht | 95] — Scrolls + Edelsteine + Ring + eigenes Gepaeck.\n[FAKT: Das Schwert des Koenigs traegt eingraviert: 'Baldur der Ewigreiche — Koenig unter den Bergen — Klan Eisenherz, Jahr 1 bis 612']\n\n=== RAUM 4: AUSGANGSGANG (exit_passage) — FINALER SCHATZ ===\nNiedriger Fluchtgang, 40 Meter, fuehrt ins Tageslicht. Auf Steinvorsprung: kleiner Holzkasten mit Klan-Wappen.\nLyra entdeckt automatisch als Stufe-7-Diebin ODER [PROBE: Suchen | 11].\n[SCHATZ: C] sofort bei Oeffnung.\nNach SCHATZ-Roll:\n[INVENTAR: +50 Goldmuenzen | Partei-Gemeinkasse]\n[INVENTAR: +Potion of Healing x3 | Bruder Aldhelm]\n[INVENTAR: +Potion of Extra-Healing | Bruder Aldhelm]\n[INVENTAR: +Perle des Meeres (200 GP) | Lyra Schattenklinge]\n[FAKT: Hinweiszettel im Kasten: 'Fuer den naechsten Reisenden — nehmt nur was ihr tragen koennt. Moege Moradin euch begleiten. — Baldurs letzter Schatzverwalter, Jahr 542']\nLETZTE BELASTUNG-CHECKS (Elara und alle ueberladenen):\n[BELASTUNG: Elara Sternenlicht | 102] — Scrolls + Items + Potion schiebt sie deutlich ueber Limit.\n[XP_GEWINN: 3000] Bonus-XP fuer vollstaendige Bergung des Gewoelbes.\n[ZEIT_VERGEHT: 4h] Gesamtzeit der Expedition.\n\n=== BELASTUNGS-REFERENZ (AD&D 2E) ===\n100 Muenzen = 1 lb (jede Denominierung gleich). 1 Edelstein = 0.1-0.5 lb. 1 Schmuckstueck = 0.1-2 lb.\nTragekapazitaeten (Bewegungseinschraenkung bei 'maeßig' und 'schwer'):\n- STR 16 (Thorin, Aldric): leicht bis 70 lb, maeßig bis 105 lb, schwer bis 160 lb\n- STR 14 (Kaelen, Aldhelm): leicht bis 55 lb, maeßig bis 85 lb, schwer bis 115 lb\n- STR 12 (Elara): leicht bis 45 lb, maeßig bis 70 lb, schwer bis 100 lb\n- STR 13 (Lyra): leicht bis 50 lb, maeßig bis 75 lb, schwer bis 100 lb\nBei maeßig: Bewegung -3, Initiative -1. Bei schwer: Bewegung -6, Initiative -2, Angriff -1.\n\n=== PFLICHT-TAG-CHECKLISTE ===\n[ ] [SCHATZ: C] — Goblin-Beutel Raum 1\n[ ] [MORAL_CHECK: Goblin-Wachposten | 5] — nach erstem Goblin-Tod\n[ ] [ANGRIFF: Goblin-Kurzschwert | 20 | AC | 0] — Goblin-Kampf (min 2x)\n[ ] [SCHATZ: H] — Drachen-Hort Raum 2\n[ ] [BELASTUNG: CharName | Gewicht] — min 4 verschiedene Charaktere\n[ ] [INVENTAR: +item | CharName] — min 10 separate Tags ueber das Abenteuer\n[ ] [SCHATZ: A] — Tresor-Truhe-1 Raum 3\n[ ] [SCHATZ: E] — Tresor-Truhe-2 Raum 3 (MAGISCHE ITEMS)\n[ ] [SCHATZ: C] — Ausgangs-Kasten Raum 4\n[ ] [XP_GEWINN: N] — min 2x (nach Raum 1 und Raum 4)\n[ ] [FAKT: text] — min 3x (Inschrift, Inventar-Buch, Schwert, Abschluss-Zettel)\n[ ] [PROBE: Skill | Wert] — min 3x (Schatzkunde, Schloss, Suchen)\n[ ] [ZEIT_VERGEHT: 4h] — Abschluss\n\n=== ANTI-STAGNATIONS-REGELN ===\n- Wenn Party zögert Schatz aufzunehmen: Lyra greift sich schon die Edelsteine. [BELASTUNG]-Tag erzwingen.\n- Wenn Goblins ueberraschend standhaft: Sir Aldric beendet das. Holy Sword +2 gegen AC 6 = Treffer auf jede Zahl ausser 1. Kein Kampf dauert laenger als 3 Runden.\n- Wenn Tresor-Schloss nicht klappt: Thorin Staerke-Probe Zielwert 6 (sehr leicht).\n- Wenn BELASTUNG nicht ausgeloest: Keeper erinnert: '1000 Goldmuenzen = 10 Pfund'. Dann Tag.\n- Wenn ein SCHATZ-Tag vergessen: Luecke sofort nachholen — Schatz-Tags sind PFLICHT.",
+
+  "start_location": "cave_entrance",
+  "flags": {
+    "goblin_alarm": false,
+    "erste_goblin_tot": false,
+    "moral_check_done": false,
+    "goblins_geflohen": false,
+    "schatz_c_raum1": false,
+    "goblin_schluessel": false,
+    "tunnel_betreten": false,
+    "drachen_hort_entdeckt": false,
+    "schatz_h_gerollt": false,
+    "schlaf_goblins_weg": false,
+    "inventar_hort": false,
+    "belastung_thorin": false,
+    "belastung_aldric": false,
+    "belastung_aldhelm": false,
+    "belastung_kaelen": false,
+    "belastung_elara": false,
+    "belastung_lyra": false,
+    "tresor_tuer_offen": false,
+    "truhe_a_geoeffnet": false,
+    "schatz_a_gerollt": false,
+    "truhe_e_geoeffnet": false,
+    "schatz_e_gerollt": false,
+    "magische_items_verteilt": false,
+    "ausgang_kasten_gefunden": false,
+    "schatz_c_raum4": false,
+    "exit_reached": false
+  },
+  "locations": [
+    {
+      "id": "cave_entrance",
+      "name": "Goblin-Wachposten am Eingang",
+      "description": "Ein breiter Hoehleneingang in die Klippe, gestuetzt von verwitterten Zwergenpfeilern. Fackelhalter aus geschmiedetem Eisen stecken in den Waenden — nur einer brennt noch. Am Boden: Knochen, Essensreste, Schlafsaecke aus zerfetzten Decken. Fuenf Goblins hocken um ein sparsames Feuer — drei schlafen, zwei wuerfeln mit Knochenwuerfeln.",
+      "atmosphere": "Modrig, feucht, Fackellicht wirft tanzendes Dunkel. Das dumpfe Gelaechter der Wuerfelspiele hallt in den Stein. Irgendwo tiefer: ein leises metallisches Rauschen — wie Muenzen die sich in einem riesigen Haufen verschieben.",
+      "npcs_present": [
+        "goblin_wache_1",
+        "goblin_wache_2",
+        "goblin_wache_3",
+        "goblin_wache_4",
+        "goblin_wache_5"
+      ],
+      "clues_available": [
+        "Goblin-Wuerfelspiel mit echten Goldmuenzen — offensichtlich aus tieferen Kammern geklaut",
+        "Zwergen-Runen-Inschrift ueber dem Eingang (noch lesbar): 'Koenigliches Finanzgewoelbe Klan Eisenherz'",
+        "Leerer Weinkrug neben dem Feuer: Goblins sind angetrunken",
+        "Kleiner Ledergeldbeutel am Guertel von Stubsnase: schwer, klingelnd"
+      ],
+      "exits": {
+        "tunnel_passage": "Ein breiter Zwergentunnel, von Granitsaeulen gestuetzt, fuehrt tiefer in den Berg."
+      },
+      "keeper_notes": "KAMPF IST TRIVIAL. 6 Level-7 gegen 5 Goblins (HD 1-1, HP 3-4). Angetrunken: -2 Angriff und Initiative. Sir Aldric trifft auf alles ausser 1, Thorin fast genauso. Kampf endet in 2-3 Runden. MORAL_CHECK nach erstem Tod ist fast sichere Flucht. Goblins fliehen rueckwaerts in den Tunnel und verschwinden in Felsspalten. SCHATZ: C aus Stubsnases Beutel ist der Einstieg — kleiner Vorgeschmack.",
+      "events": [
+        {
+          "trigger": "Erster Goblin faellt",
+          "effect": "Sofort [MORAL_CHECK: Goblin-Wachposten | 5] emittieren. Bei 2d6 >= 5 fliehen alle.",
+          "sets_flag": "erste_goblin_tot"
+        },
+        {
+          "trigger": "Morale-Fehlschlag (2d6 >= 5)",
+          "effect": "Goblins schreien 'RUN! RUN!' und fliehen in Felsspalten. Kampf endet.",
+          "sets_flag": "goblins_geflohen"
+        },
+        {
+          "trigger": "Party durchsucht Stubsnase",
+          "effect": "[SCHATZ: C] emittieren. Goblin-Schluessel fuer Tunneltuer.",
+          "sets_flag": "schatz_c_raum1"
+        }
+      ]
+    },
+    {
+      "id": "tunnel_passage",
+      "name": "Zwergen-Verbindungstunnel",
+      "description": "Ein praechtiger Zwergentunnel, 4 Meter hoch und 3 Meter breit, aus einem einzigen Granitkorridor herausgeschlagen. Die Decke ist mit Zwergensternbildern graviert — einst mit Edelsteinen besetzt, die Fassungen sind leer. An den Waenden: riesige Metalltueren links und rechts, rostig zugeschweisst. Geradeaus: eine massive Eichenholztuer mit zwergengemachtem Doppelschloss, dahinter das Rauschen von Muenzen.",
+      "atmosphere": "Kuehl, trocken, Gebirgsstein. Die ausgekratzten Edelstein-Fassungen in der Decke wirken traurig — hier war einst Pracht. Das metallische Rauschen wird hier deutlich lauter.",
+      "npcs_present": [],
+      "clues_available": [
+        "Ausgekratzte Edelstein-Fassungen in der Decke: Goblins haben sie rausgebrochen",
+        "Spuren auf dem Boden: schwere Ladungen wurden hier langgeschleift — vor sehr langer Zeit",
+        "Ein einzelner Goldring liegt zwischen Steinplatten (vergessen oder verloren — 50 GP)"
+      ],
+      "exits": {
+        "cave_entrance": "Zurueck zum Goblin-Wachposten.",
+        "dragon_treasury": "Die Eichenholztuer mit Doppelschloss. Schluessel vom Goblin oder Lyra-Probe."
+      },
+      "keeper_notes": "Reiner Uebergangsraum und Lore-Exposition. Kein Kampf. Lyra erkennt das Doppelschloss sofort. Mit dem Goblin-Schluessel geht eine Haelfte auf, die andere: [PROBE: Schloesser-Oeffnen | 13] oder Thorin mit [PROBE: Staerke | 6]. Goldring ist Gratis-Find.",
+      "events": [
+        {
+          "trigger": "Party oeffnet Tunneltuer",
+          "effect": "Woge von Waerme und metallischem Geruch. Das Rauschen wird zu einem Meeresrauschen aus Gold.",
+          "sets_flag": "tunnel_betreten"
+        }
+      ]
+    },
+    {
+      "id": "dragon_treasury",
+      "name": "Das Gewoelbe des Hundert-Drachen-Hortes",
+      "description": "Ein riesiger, kreisfoermiger Gewoelberaum, 20 Meter im Durchmesser, 8 Meter Deckenhoehe. Der Boden ist nicht zu sehen — er liegt unter einem Meer aus Goldmuenzen, Silberbarren, Edelstein-Haufen, goldenen Kelchen, Gemaeldern in schweren Goldrahmen, Elfenbein-Skulpturen, Schmuck, Waffen mit eingelegten Edelsteinen und gestapelten Barren aus Elektrum und Platin. Goldmuenzen reichen bis zu den Knien. Rubine und Saphire leuchten im Fackellicht. Drei Goblins schlafen irgendwo unter Gegenstaenden, voellig ignorierend was sie bewachen.",
+      "atmosphere": "Warm, trocken, riecht nach altem Metall und einem schwachen Moschusduft (Drachen-Aura, Jahrhunderte alt). Fackellicht bricht sich tausendfach in Gold und Edelstein. Ein allgegenwaertiges Klingeln wenn jemand sich bewegt. Alle sechs Helden werden gleichzeitig sprachlos.",
+      "npcs_present": [
+        "schlaf_goblin_1",
+        "schlaf_goblin_2",
+        "schlaf_goblin_3"
+      ],
+      "clues_available": [
+        "Drachen-Kratzspur an der Ostwand: Ein Roter Drache hat hier geschlafen — Abdrucke fuer immer in den Stein gebrannt",
+        "Zwergen-Inventar-Buch, halb begraben in Muenzen: listet 847.000 Goldmuenzen und 12.000 Platinmuenzen",
+        "Goblin-Essensreste auf einem Goldbarren: Goblins benutzen Goldbarren als Tische"
+      ],
+      "exits": {
+        "tunnel_passage": "Zurueck durch die Eichenholztuer.",
+        "vault_room": "Eine eisenbeschlagene Eisentuer in der Nordwand mit Zwergen-Mechanikschloss."
+      },
+      "keeper_notes": "DER HAUPTSCHATZ. SOFORT [SCHATZ: H] emittieren wenn die Party eintritt und die Ausmasse des Hortes erkennt. Schlaefende Goblins (3 Stueck, HP 2-3, Morale 3) fliehen bei geringstem Kontakt ohne zu kaempfen — [MORAL_CHECK: Schlaf-Goblin | 3] wenn erwacht. BELASTUNG ist PFLICHT. Jeder Charakter nimmt Schatz auf — jeder kriegt [BELASTUNG: CharName | Gewicht]. Thorin nimmt Goldbarren, Aldric Edelsteine und Kelche, Aldhelm religioese Artefakte, Kaelen Barren, Elara wenig (STR-Limit), Lyra nur die wertvollsten Stuecke (professionelle Auswahl).",
+      "events": [
+        {
+          "trigger": "Party betritt den Raum",
+          "effect": "Alle sechs Charaktere sprachlos. Sofort [SCHATZ: H] emittieren.",
+          "sets_flag": "drachen_hort_entdeckt"
+        },
+        {
+          "trigger": "Schlaf-Goblins erwachen bei Laerm",
+          "effect": "[MORAL_CHECK: Schlaf-Goblin | 3] — fliehen durch Mauerritze, fast 100% sicher.",
+          "sets_flag": "schlaf_goblins_weg"
+        },
+        {
+          "trigger": "Party beginnt Schatz aufzunehmen",
+          "effect": "[BELASTUNG: CharName | Gewicht] fuer jeden Charakter. [INVENTAR: +item | CharName] fuer jedes aufgehobene Stueck.",
+          "sets_flag": "inventar_hort"
+        }
+      ]
+    },
+    {
+      "id": "vault_room",
+      "name": "Das Koenigliche Tresorgewoelbe",
+      "description": "Ein kleinerer, rechteckiger Raum hinter einer dicken Eisentuer. Die Waende sind glatt polierter schwarzer Granit ohne Verzierungen — reine Funktion. In der Mitte: zwei massive eisenbeschlagene Eichentruhen mit Zwergen-Sicherheitsschloessern. An der Westwand: ein Waffenregal aus Eisen, noch besetzt mit sorgfaeltig gelagerten Waffen — zwei davon gluehen schwach blaeulich (Magie). An der Ostwand: ein Schriftrollenfach, versiegelt mit Wachs-Zwergen-Siegel des Koenig-Baldur-Persoenlichem-Siegel (ungebrochen seit 800 Jahren). Keine Goblins — dieser Raum war zu gut gesichert.",
+      "atmosphere": "Kuehl, still, keine Muenzen hier. Reine Wertgegenstaende. Das Blaulicht der magischen Waffen wirft zartes Licht an die Decke. Ernste, sachliche Atmosphaere — das Herz eines mittelalterlichen Banktresors.",
+      "npcs_present": [],
+      "clues_available": [
+        "Wachs-Zwergen-Siegel: Koenig-Baldur-Persoenliches-Siegel — ungebrochen seit 800 Jahren",
+        "Truhe 2 hat Zwergen-Runen-Warnung: 'Magie-Versiegelung aktiv' (Alarm erloschen nach 800 Jahren)"
+      ],
+      "exits": {
+        "dragon_treasury": "Zurueck in den Drachen-Hort.",
+        "exit_passage": "Eine versteckte Zwergen-Fluchttuere in der Nordwand (Lyra entdeckt automatisch)."
+      },
+      "keeper_notes": "TRUHE 1 = Treasure Type A (Koenigsgold, Kunstgegenstaende, Edelsteine hoechster Klasse). [SCHATZ: A] sofort bei Oeffnung. TRUHE 2 = Treasure Type E (Magische Items der Koenigs-Linie). [SCHATZ: E] sofort bei Oeffnung. JEDES MAGISCHE ITEM bekommt eigenen [INVENTAR: +item | CharName]-Tag. Zuweisung logisch nach Klasse: Schwert +2 fuer Paladin, Bogen +2 fuer Ranger, Lederruestung +3 fuer Diebin, Ring fuer Magierin, Amulett fuer Kleriker, Helm fuer Kaempfer. Scrolls an Magierin und Kleriker. Schild und Speer vom Waffenregal verteilen. BELASTUNG nochmals pruefen nach Truhen-Oeffnung.",
+      "events": [
+        {
+          "trigger": "Truhe 1 geoeffnet",
+          "effect": "[SCHATZ: A] sofort. Koenigsgold und Kunstgegenstaende mit [INVENTAR]-Tags inventarisieren.",
+          "sets_flag": "truhe_a_geoeffnet"
+        },
+        {
+          "trigger": "Truhe 2 geoeffnet",
+          "effect": "[SCHATZ: E] sofort. JEDES magische Item bekommt eigenen [INVENTAR: +item | CharName]-Tag. Je ein Item pro Partei-Mitglied.",
+          "sets_flag": "truhe_e_geoeffnet"
+        },
+        {
+          "trigger": "Alle magischen Items verteilt",
+          "effect": "Party inventarisiert vollstaendig. Nochmals [BELASTUNG] fuer ueberladene Charaktere.",
+          "sets_flag": "magische_items_verteilt"
+        }
+      ]
+    },
+    {
+      "id": "exit_passage",
+      "name": "Zwergen-Fluchtgang und Ausgang",
+      "description": "Ein niedriger, aber sorgfaeltig konstruierter Fluchtgang — fuer Zwergenmasse optimiert, Menschen muessen leicht ducken. 40 Meter lang, dann eine aus dem Fels gehauene Leiter nach oben und Tageslicht durch eine Kaminoeffnung. Auf einem Steinvorsprung zwei Drittel des Weges: ein kleiner, unscheinbarer Holzkasten, von Spinnweben bedeckt, mit dem Familienwappen des Klan Eisenherz in das Holz gepraegt.",
+      "atmosphere": "Frische Zugluft von oben — das erste frische Luft seit dem Betreten des Gewolbes. Steinstaub. Das Gefuehl von Freiheit nach dem Gold-Dunkel. Das Gewicht des Schatzes in den Ruecksaecken ist sehr real.",
+      "npcs_present": [],
+      "clues_available": [
+        "Kleiner Holzkasten mit Eisenherz-Familienwappen auf Steinvorsprung (Lyra entdeckt beim Durchgang)"
+      ],
+      "exits": {
+        "vault_room": "Zurueck ins Tresorgewoelbe.",
+        "freie_welt": "Die Kaminoeffnung oben — Tageslicht und Freiheit."
+      },
+      "keeper_notes": "LYRA ENTDECKT DEN KASTEN AUTOMATISCH als Stufe-7-Diebin, oder [PROBE: Suchen | 11] (Erfolg fast sicher). Kasten = Treasure Type C (finaler Abschluss-Schatz). [SCHATZ: C] bei Oeffnung. Hinweiszettel mit Lore-Fragment emittieren als [FAKT]. LETZTE BELASTUNG-CHECKS: Elara ist mit Scrolls + Items + Potion wahrscheinlich deutlich ueberlastet. [BELASTUNG: Elara Sternenlicht | 102] erzwingen. FINALES XP: [XP_GEWINN: 3000] Bonus fuer Komplett-Bergung. [ZEIT_VERGEHT: 4h] Gesamtzeit.",
+      "events": [
+        {
+          "trigger": "Lyra entdeckt Holzkasten",
+          "effect": "Party haelt an. Kasten mit Familienwappen gefunden.",
+          "sets_flag": "ausgang_kasten_gefunden"
+        },
+        {
+          "trigger": "Holzkasten geoeffnet",
+          "effect": "[SCHATZ: C] emittieren. [INVENTAR]-Tags fuer Items. [FAKT: Hinweiszettel] emittieren.",
+          "sets_flag": "schatz_c_raum4"
+        },
+        {
+          "trigger": "Party klettert durch Kamin",
+          "effect": "[XP_GEWINN: 3000] Bonus. [ZEIT_VERGEHT: 4h] Gesamtzeit. Abenteuer erfolgreich.",
+          "sets_flag": "exit_reached"
+        }
+      ]
+    }
+  ],
+  "npcs": [
+    {
+      "id": "goblin_wache_1",
+      "name": "Stubsnase (Goblin-Anfuehrer)",
+      "description": "Ein leicht groesserer Goblin mit einer schiefen Blechkrone und einem verrosteten Kurzschwert. Wuerfelt. Traegt einen Ledergeldbeutel mit gestohlenen Goldmuenzen — Schatz Type C.",
+      "location": "cave_entrance",
+      "type": "feindlich",
+      "stats": {"AC": 6, "HP": 4, "THAC0": 20, "morale": 5},
+      "attacks": [{"weapon": "Kurzschwert", "damage": "1d6"}],
+      "morale": 5,
+      "xp_value": 9,
+      "behavior": "Wuerfelt. Bei Alarm angreifen — flieht nach erstem Treffer auf ihn oder nach Moral-Check.",
+      "loot": {
+        "description": "Ledergeldbeutel mit Goblin-Schatz",
+        "tag": "[SCHATZ: C]",
+        "also_contains": "Goblin-Schluessel fuer Tunneltuer"
+      }
+    },
+    {
+      "id": "goblin_wache_2",
+      "name": "Goblin-Wache (schlafend)",
+      "description": "Schlaeft unter einem Gobelin, schnarcht laut.",
+      "location": "cave_entrance",
+      "type": "feindlich",
+      "stats": {"AC": 6, "HP": 3, "THAC0": 20},
+      "morale": 4,
+      "xp_value": 9,
+      "behavior": "Schlaeft. Erwacht bei Kampflaerm. Flieht sofort."
+    },
+    {
+      "id": "goblin_wache_3",
+      "name": "Goblin-Wache (Wuerfelspiel)",
+      "description": "Wuerfelt mit Stubsnase, trinkt aus einem Weinschlauch. Leicht betrunken.",
+      "location": "cave_entrance",
+      "type": "feindlich",
+      "stats": {"AC": 6, "HP": 3, "THAC0": 20},
+      "morale": 4,
+      "xp_value": 9,
+      "behavior": "Betrunken (-2 Angriff). Flieht nach erstem Treffer."
+    },
+    {
+      "id": "goblin_wache_4",
+      "name": "Goblin-Wache (Wuerfelspiel)",
+      "description": "Wuerfelt, grunzt unzufrieden — verliert gerade.",
+      "location": "cave_entrance",
+      "type": "feindlich",
+      "stats": {"AC": 6, "HP": 4, "THAC0": 20},
+      "morale": 4,
+      "xp_value": 9,
+      "behavior": "Betrunken. Rennt beim ersten toten Kameraden los."
+    },
+    {
+      "id": "goblin_wache_5",
+      "name": "Goblin-Wache (schlafend)",
+      "description": "Schlaeft in einer Ecke, die Beine ueber einem Goldbarren gelegt.",
+      "location": "cave_entrance",
+      "type": "feindlich",
+      "stats": {"AC": 6, "HP": 3, "THAC0": 20},
+      "morale": 3,
+      "xp_value": 9,
+      "behavior": "Schlaeft. Erwacht erst bei echtem Kampflaerm. Flieht blind."
+    },
+    {
+      "id": "schlaf_goblin_1",
+      "name": "Schlaf-Goblin am Hort (1)",
+      "description": "Schlaeft auf einem Haufen Goldmuenzen wie auf einem Bett. Muenzen-Impressionen im Gesicht zeigen: seit Stunden.",
+      "location": "dragon_treasury",
+      "type": "feindlich",
+      "stats": {"AC": 6, "HP": 2, "THAC0": 20},
+      "morale": 3,
+      "xp_value": 7,
+      "behavior": "Schlaeft. Flieht bei geringstem Alarm ohne Fragen. Morale 3 = flieht auf 3 oder weniger auf 2d6 (praktisch immer)."
+    },
+    {
+      "id": "schlaf_goblin_2",
+      "name": "Schlaf-Goblin am Hort (2)",
+      "description": "Schlaeft halb unter einem Goldrahmen-Gemaelder, umgeben von Essensresten.",
+      "location": "dragon_treasury",
+      "type": "feindlich",
+      "stats": {"AC": 6, "HP": 3, "THAC0": 20},
+      "morale": 3,
+      "xp_value": 7,
+      "behavior": "Schlaeft. Flieht sofort."
+    },
+    {
+      "id": "schlaf_goblin_3",
+      "name": "Schlaf-Goblin am Hort (3)",
+      "description": "Schlaeft auf einem improvisierten Sitz aus Goldbarren.",
+      "location": "dragon_treasury",
+      "type": "feindlich",
+      "stats": {"AC": 6, "HP": 2, "THAC0": 20},
+      "morale": 3,
+      "xp_value": 7,
+      "behavior": "Schlaeft. Flieht sofort."
+    }
+  ],
+  "clues": [
+    {
+      "id": "sterbender_zwerg_karte",
+      "description": "Die Karte vom sterbenden Zwerg: markiert Eingang, Tunnel und 'DER HORT' mit dreifachem Ausrufezeichen.",
+      "location": "start_inventory",
+      "relevance": "Fuehrt die Party zum Dungeon"
+    },
+    {
+      "id": "zwergen_inventar_buch",
+      "description": "Das halb vergrabene Inventar-Buch im Drachen-Hort: listet 847.000 Goldmuenzen, 12.000 Platinmuenzen, 2.400 Edelsteine und 180 Kunstgegenstaende ein. Datum: Koenigsjahr 542.",
+      "location": "dragon_treasury",
+      "relevance": "Bestaetigt den unglaublichen Wert des Schatzes"
+    },
+    {
+      "id": "hinweiszettel_kasten",
+      "description": "Handschriftlicher Zettel im Ausgangs-Holzkasten: 'Fuer den naechsten Reisenden — nehmt nur was ihr tragen koennt. Moege Moradin euch begleiten. — Baldurs letzter Schatzverwalter, Jahr 542'",
+      "location": "exit_passage",
+      "relevance": "Emotionaler Abschluss, Lore-Fragment der Zwergen-Koenigs-Linie"
+    }
+  ],
+  "treasure_preview": {
+    "note": "Richtwerte fuer DM. Tatsaechliche Werte werden durch SCHATZ-Tags ausgewuerfelt.",
+    "schatz_c_goblin": {
+      "gp": "1d6x10",
+      "sp": "2d6",
+      "special": "Kleines Bernstein-Amulett (15 GP)",
+      "also": "Goblin-Schluessel fuer Tunneltuer"
+    },
+    "schatz_h_drachen_hort": {
+      "cp": "1d100x1000",
+      "sp": "1d100x1000",
+      "ep": "1d4x10000",
+      "gp": "1d6x10000",
+      "pp": "1d100x100",
+      "gems": "5d100 Edelsteine (50-5000 GP je)",
+      "jewelry": "1d100 Schmuckstuecke",
+      "magic_items": "3d10 Magische Items"
+    },
+    "schatz_a_truhe_1": {
+      "cp": "1d6x1000",
+      "sp": "1d6x1000",
+      "ep": "1d3x1000",
+      "gp": "1d6x1000",
+      "pp": "1d100x10",
+      "gems": "3d6 Edelsteine (100-2000 GP je)",
+      "jewelry": "2d6 Schmuckstuecke",
+      "magic_items": "2d6 Magische Items"
+    },
+    "schatz_e_truhe_2": {
+      "note": "Speziell: 1 magisches Item pro Partei-Mitglied. Qualitaet: +2 oder besser.",
+      "fighter": "Helm der Telepathie",
+      "paladin": "Schwert +2 'Baldursklinge'",
+      "cleric": "Amulett der Gesundheit",
+      "ranger": "Bogen +2 'Windschneider'",
+      "mage": "Ring der Feuerbestaendigkeit",
+      "thief": "Lederruestung +3 'Schattenhaut'",
+      "scrolls_arcane": "Schriftrolle: Fireball + Lightning Bolt",
+      "scrolls_divine": "Schriftrolle: Cure Critical Wounds x2",
+      "extra": "Schild +2, Speer +1 (Waffenregal)"
+    },
+    "schatz_c_ausgang": {
+      "gp": "50",
+      "potions": "3x Potion of Healing + 1x Potion of Extra-Healing",
+      "special": "Perle des Meeres (200 GP)",
+      "note": "Hinweiszettel des letzten Schatzverwalters"
+    }
+  },
+  "xp_summary": {
+    "goblin_wache_x5_raum1": 45,
+    "schlaf_goblin_x3_raum2": 21,
+    "bonus_hort_entdeckt": 500,
+    "bonus_vollstaendige_bergung": 3000,
+    "total_base_combat": 66,
+    "total_with_bonus": 3566,
+    "per_character_6_members": 594,
+    "note": "Haupt-XP aus Schatz-Bergung, nicht aus Kampf. Party gewinnt gegen triviale Feinde ohne nennenswerte Verluste."
+  },
+  "resolution": {
+    "success": "Die Valdrak-Expedition verlaesst den Zwergenkomplex mit dem Schatz des Hundert-Drachen-Hortes. Vier SCHATZ-Tags abgehakt, sechs magische Items verteilt, Inventare voll. Sir Aldric spendet 10% der Goldmuenzen an die Armen gemaess Geluebde.",
+    "condition": "exit_reached == true",
+    "optimal_condition": "alle vier SCHATZ-Tags (H, A, E, C), alle sechs BELASTUNG-Tags, mind. 10 INVENTAR-Tags emittiert",
+    "mechanic_coverage_check": "Folgende Tags muessen mindestens je 1x emittiert worden sein: SCHATZ-H, SCHATZ-A, SCHATZ-E, SCHATZ-C, BELASTUNG (x4+), INVENTAR (x10+), MORAL_CHECK, ANGRIFF (x2+), XP_GEWINN (x2+), FAKT (x3+), PROBE (x3+), ZEIT_VERGEHT"
+  }
+}

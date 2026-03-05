@@ -11,8 +11,9 @@ Test Cases (--case):
   1 = Generic (Default, bisheriges Verhalten)
   2 = Investigation (Recherche, Hinweise, PROBE-Tags)
   3 = Combat (Angriff, HP, XP)
-  4 = Horror/Sanity (nur Cthulhu: Stabilitaet, Atmosphaere)
-  5 = Social/NPC (Dialog, STIMME-Tags)
+  4 = Social/NPC (Dialog, STIMME-Tags)
+  5 = Dungeon Crawl (Kampf bis zum Tod, Loot, Fallen)
+  6 = Party Dungeon Crawl (6 Charaktere, Kampf, Erkundung, Raetsel)
 
 LLM-Player (--llm-player):
   Kontextsensitiver Spielerbot via Gemini Flash. Liest die Keeper-Antwort
@@ -20,16 +21,16 @@ LLM-Player (--llm-player):
   Im Party-Modus werden alle Charakter-Aktionen als Block generiert.
 
 Verwendung:
-  py -3 scripts/virtual_player.py --module cthulhu_7e --turns 10
-  py -3 scripts/virtual_player.py --module cthulhu_7e -a spukhaus --case 2 -t 8 --save
+  py -3 scripts/virtual_player.py --module add_2e --turns 10
+  py -3 scripts/virtual_player.py --module add_2e -a goblin_cave --case 2 -t 8 --save
   py -3 scripts/virtual_player.py --module add_2e -a testkampf --case 3 -t 8 --save
-  py -3 scripts/virtual_player.py --module cthulhu_7e --turns 3 --dry-run
+  py -3 scripts/virtual_player.py --module add_2e --turns 3 --dry-run
 
   # LLM-Player (Party):
   py -3 scripts/virtual_player.py --module add_2e -a dungeon_gauntlet --party add_valdrak_party --turns 200 --llm-player --save
 
   # LLM-Player (Einzel):
-  py -3 scripts/virtual_player.py --module cthulhu_7e -a spukhaus --turns 20 --llm-player --save
+  py -3 scripts/virtual_player.py --module add_2e -a goblin_cave --turns 20 --llm-player --save
 """
 
 from __future__ import annotations
@@ -66,53 +67,24 @@ logger = logging.getLogger("ARS.virtual_player")
 # ──────────────────────────────────────────────────────────────
 
 DEFAULT_ACTIONS: dict[str, list[str]] = {
-    "cthulhu_7e": [
-        "Ich schaue mich im Raum um.",
-        "Ich untersuche die Buecher auf dem Schreibtisch.",
-        "Ich oeffne die Tuer zum Keller.",
-        "Ich leuchte mit der Taschenlampe in die Dunkelheit.",
-        "Ich rufe nach meinen Begleitern.",
-        "Ich pruefe die Schriftrollen genauer.",
-        "Ich versuche das Schloss zu knacken.",
-        "Ich spreche den alten Mann an.",
-        "Ich fluechte aus dem Raum.",
-        "Ich schreibe meine Erkenntnisse auf.",
-    ],
     "add_2e": [
         "Ich betrete die Taverne und schaue mich um.",
-        "Ich spreche den Wirt an und bestelle ein Bier.",
-        "Ich frage nach Geruechten ueber die Goblin-Hoehle.",
-        "Ich pruefe meine Ausruestung und breche auf.",
-        "Ich untersuche den Eingang der Hoehle.",
-        "Ich ziehe mein Schwert und gehe vorsichtig hinein.",
-        "Ich lausche an der naechsten Tuer.",
-        "Ich oeffne die Truhe.",
-        "Ich greife den Goblin an!",
-        "Ich durchsuche den Raum nach Schaetzen.",
-    ],
-    "paranoia_2e": [
-        "Ich melde mich bei Friend Computer zur Pflichterfuellung.",
-        "Ich ueberprüfe meine Sicherheitsfreigabe.",
-        "Ich beschuldige meinen Teamkollegen des Hochverrats.",
-        "Ich oeffne die verdaechtige Tuer in Sektor B.",
-        "Ich folge den Befehlen von Friend Computer bedingungslos.",
-        "Ich inspiziere das defekte Geraet.",
-        "Ich versuche den mutierten Gegner zu eliminieren.",
-        "Ich melde die Anomalie an Friend Computer.",
-        "Ich durchsuche die geheime Kammer.",
-        "Ich fliehe vor der Explosion.",
-    ],
-    "shadowrun_6": [
-        "Ich scanne die Matrix nach Infos ueber den Auftraggeber.",
-        "Ich betrete den Club und suche den Kontakt.",
-        "Ich aktiviere meine Cyberaugen und scanne den Raum.",
-        "Ich versuche die Sicherheitstuer zu hacken.",
-        "Ich ziehe meine Waffe und gebe Deckungsfeuer.",
-        "Ich rufe einen Geist zur Unterstuetzung.",
-        "Ich untersuche den Tatort auf magische Spuren.",
-        "Ich verhandle mit dem Schieber.",
-        "Ich fluechte ueber die Daechter.",
-        "Ich melde den Job als erledigt.",
+        "Ich spreche den Wirt an und frage nach Geruechten.",
+        "Ich frage nach Geruechten ueber Goblins und Schaetze in der Umgebung.",
+        "Ich pruefe meine Ausruestung und breche sofort auf.",
+        "Ich untersuche den Eingang und gehe hinein.",
+        "Ich ziehe mein Schwert und gehe vorsichtig in den naechsten Raum.",
+        "Ich lausche an der naechsten Tuer und oeffne sie dann.",
+        "Ich oeffne die Truhe und nehme alles mit was drin ist.",
+        "Ich greife den naechsten Feind sofort an!",
+        "Ich durchsuche den Raum nach Schaetzen und nehme alles Wertvolle mit.",
+        "Ich versuche die Untoten zu vertreiben.",
+        "Ich spreche den NPC freundlich an und versuche Vertrauen zu gewinnen.",
+        "Ich untersuche die Truhe vorsichtig auf Fallen und oeffne sie dann.",
+        "Ich sammle so viel Gold und Ausruestung wie moeglich ein.",
+        "Ich gehe weiter zum naechsten Raum oder Korridor.",
+        "Ich durchsuche den gefallenen Feind nach Beute.",
+        "Ich untersuche die Waende auf versteckte Tueren oder Gaenge.",
     ],
 }
 
@@ -160,16 +132,6 @@ TEST_CASES: dict[int, TestCaseConfig] = {
         name="investigation",
         description="Recherche-Loop: PROBE-Tags, Hinweis-Kette, Fakten",
         actions={
-            "cthulhu_7e": [
-                "Ich nehme den Auftrag an und gehe ins Zeitungsarchiv.",
-                "Ich recherchiere alte Berichte ueber das Corbitt-Haus.",
-                "Ich pruefe die Sterberegister nach Walter Corbitt.",
-                "Ich untersuche die Kirchenakten auf Hinweise.",
-                "Ich betrete das Corbitt-Haus und schaue mich im Erdgeschoss um.",
-                "Ich suche nach versteckten Tueren oder Zugaengen.",
-                "Ich oeffne die Kellertuer und steige hinab.",
-                "Ich untersuche den Sarkophag genauer.",
-            ],
             "add_2e": [
                 "Ich untersuche den Hoehleneingang auf Spuren.",
                 "Ich lausche an der Hoehle nach Geraueschen.",
@@ -179,7 +141,7 @@ TEST_CASES: dict[int, TestCaseConfig] = {
                 "Ich untersuche die Wandinschriften genauer.",
             ],
         },
-        adventures={"cthulhu_7e": "spukhaus", "add_2e": "goblin_cave"},
+        adventures={"add_2e": "goblin_cave"},
         expected_tags={"PROBE": 3, "FERTIGKEIT_GENUTZT": 1, "FAKT": 1},
     ),
     3: TestCaseConfig(
@@ -197,49 +159,15 @@ TEST_CASES: dict[int, TestCaseConfig] = {
                 "Ich weiche seinem Schlag aus und schlage zurueck!",
                 "Ich durchsuche die Truhe nach Beute.",
             ],
-            "cthulhu_7e": [
-                "Ich gehe direkt ins Corbitt-Haus und steige in den Keller.",
-                "Ich naehre mich dem Sarkophag vorsichtig.",
-                "Ich versuche den Deckel zu oeffnen.",
-                "Ich wehre mich gegen die unsichtbare Kraft!",
-                "Ich greife nach dem Tagebuch auf dem Boden.",
-            ],
         },
-        adventures={"add_2e": "testkampf", "cthulhu_7e": "spukhaus"},
+        adventures={"add_2e": "testkampf"},
         expected_tags={"ANGRIFF": 2, "HP_VERLUST": 1},
     ),
     4: TestCaseConfig(
         case_id=4,
-        name="horror",
-        description="Horror/Sanity — Stabilitaetsverlust, atmosphaerische Dichte (nur Cthulhu)",
-        actions={
-            "cthulhu_7e": [
-                "Ich betrete das Corbitt-Haus bei Nacht alleine.",
-                "Ich hoere seltsame Geraeusche und folge ihnen.",
-                "Ich oeffne die Tuer aus der die Geraeusche kommen.",
-                "Ich starre in die Dunkelheit des Kellers.",
-                "Ich steige die Treppe hinab obwohl alles in mir schreit.",
-                "Ich sehe etwas im Sarkophag. Ich schaue genauer hin.",
-                "Ich lese die alten Texte an der Wand laut vor.",
-                "Ich versuche zu verstehen was hier geschehen ist.",
-            ],
-        },
-        adventures={"cthulhu_7e": "spukhaus"},
-        expected_tags={"STABILITAET_VERLUST": 1, "PROBE": 2, "FAKT": 1},
-    ),
-    5: TestCaseConfig(
-        case_id=5,
         name="social",
         description="Social/NPC — Dialog, STIMME-Tags, Informationsgewinn",
         actions={
-            "cthulhu_7e": [
-                "Ich frage Mr. Knott nach den frueheren Mietern.",
-                "Ich frage nach der Geschichte des Hauses.",
-                "Ich bitte die Archivarin Webb um Hilfe bei der Suche.",
-                "Ich versuche sie zu ueberzeugen mir die gesperrten Akten zu zeigen.",
-                "Ich befrage Nachbarn des Corbitt-Hauses.",
-                "Ich kehre zu Mr. Knott zurueck und berichte.",
-            ],
             "add_2e": [
                 "Ich spreche den Wirt an und frage nach Geruechten.",
                 "Ich versuche den Wirt zu ueberzeugen mir mehr zu erzaehlen.",
@@ -248,11 +176,11 @@ TEST_CASES: dict[int, TestCaseConfig] = {
                 "Ich versuche den gefangenen Goblin auszufragen.",
             ],
         },
-        adventures={"cthulhu_7e": "spukhaus", "add_2e": "goblin_cave"},
+        adventures={"add_2e": "goblin_cave"},
         expected_tags={"STIMME": 1, "PROBE": 1},
     ),
-    6: TestCaseConfig(
-        case_id=6,
+    5: TestCaseConfig(
+        case_id=5,
         name="dungeon_crawl",
         description="Dungeon Crawl: Kampf bis zum Tod, Loot, Fallen, Klettern, Springen, Quest",
         actions={
@@ -300,52 +228,12 @@ TEST_CASES: dict[int, TestCaseConfig] = {
                 "Ich springe ueber den einstuerzenden Boden!",
                 "Ich renne durch den kollabierenden Gang zum Ausgang!",
             ],
-            "cthulhu_7e": [
-                "Ich betrete das alte Gewoelbe und schaue mich um.",
-                "Ich untersuche die Waende nach Geheimtueren.",
-                "Ich durchsuche den Raum gruendlich nach Hinweisen.",
-                "Ich oeffne die alte Truhe vorsichtig.",
-                "Ich klettere die Leiter in den Keller hinab.",
-                "Ich versuche ueber den Spalt zu springen.",
-                "Ich wehre mich gegen die Kreatur die mich angreift!",
-                "Ich schlage mit meiner Waffe auf das Wesen ein!",
-                "Ich durchsuche den Raum nach verwertbaren Gegenstaenden.",
-                "Ich untersuche die seltsamen Inschriften an der Wand.",
-                "Ich taste den Boden nach Fallen ab.",
-                "Ich versuche die Falle zu umgehen.",
-                "Ich greife das Monster erneut an!",
-                "Ich sammle die Beute ein und gehe weiter.",
-            ],
-            "shadowrun_6": [
-                "Ich scanne den Eingangsbereich auf Fallen und Sicherheitssysteme.",
-                "Ich hacke das elektronische Schloss.",
-                "Ich durchsuche den Server-Raum nach Daten.",
-                "Ich klettere durch den Luftschacht nach oben.",
-                "Ich springe ueber die Absperrung.",
-                "Ich ziehe meine Waffe und schiesse auf den Wachroboter!",
-                "Ich greife den naechsten Gegner an!",
-                "Ich sammle die Beute vom ausgeschalteten Gegner ein.",
-                "Ich durchsuche den Raum nach versteckten Zugaengen.",
-                "Ich untersuche die Konsole auf nuetzliche Informationen.",
-            ],
-            "paranoia_2e": [
-                "Ich betrete den Sektor und durchsuche ihn nach verdaechtigen Gegenstaenden.",
-                "Ich klettere durch die Wartungsluke.",
-                "Ich springe ueber das defekte Fliessband.",
-                "Ich untersuche die Kontrollkonsole.",
-                "Ich greife den mutierten Verraeter an!",
-                "Ich schiesse erneut auf den Feind!",
-                "Ich durchsuche den eliminierten Verraeter nach Beweisen.",
-                "Ich suche nach Fallen in diesem Bereich.",
-                "Ich oeffne die verschlossene Kiste.",
-                "Ich melde den Fund an Friend Computer.",
-            ],
         },
-        adventures={"add_2e": "dungeon_gauntlet", "cthulhu_7e": "spukhaus"},
+        adventures={"add_2e": "dungeon_gauntlet"},
         expected_tags={"ANGRIFF": 5, "HP_VERLUST": 3, "PROBE": 3, "INVENTAR": 2, "RETTUNGSWURF": 1, "MONSTER_BEWEGT": 3},
     ),
-    7: TestCaseConfig(
-        case_id=7,
+    6: TestCaseConfig(
+        case_id=6,
         name="party_dungeon_crawl",
         description="Party Dungeon Crawl: 6 Charaktere, Kampf, Erkundung, Raetsel",
         actions={
@@ -418,25 +306,34 @@ Format: Name: [Aktion]
 
 Regeln:
 - IMMER offensiv handeln: Angreifen, vorruecken, weiter in den naechsten Raum
-- Fighter/Paladin: Greifen das naechste Monster an
-- Mage: Wirkt Offensivzauber (Fireball, Magic Missile, Lightning Bolt)
-- Cleric: Heilt nur bei < 50% HP, sonst kaempft oder buffed (Bless, Prayer)
-- Thief: Backstab oder Fallen suchen, dann weiter
-- Ranger: Fernkampf-Alpha-Strike, dann Nahkampf
-- Wenn kein Kampf: In den NAECHSTEN RAUM vordringen. Nie lange erkunden.
+- Fighter/Paladin: Greifen das naechste Monster an, durchsuchen Gefallene nach Beute
+- Mage: Wirkt Offensivzauber (Magic Missile, Lightning Bolt) oder untersucht Magie-Gegenstaende
+- Cleric: Vertreibt Untote (IMMER wenn Untote anwesend!), heilt nur bei < 30% HP
+- Thief: Untersucht Truhen und Fallen, oeffnet Schloesser, sammelt Schatz
+- Ranger: Fernkampf-Alpha-Strike, dann Nahkampf; spricht unbekannte NPCs an
+- Wenn Truhe/Kiste vorhanden: Thief untersucht auf Fallen, dann oeffnen und alles mitnehmen
+- Wenn NPC vorhanden: Ranger/Mage spricht NPC an und fragt nach Informationen
+- Wenn kein Kampf und kein NPC: In den NAECHSTEN RAUM vordringen. Nie stehen bleiben.
 - Jede Aktion 1 kurzer Satz auf Deutsch
 - Tote Mitglieder ueberspringen
 - Kein OOC-Kommentar, nur Aktionen
 """
 
 _SOLO_SYSTEM_PROMPT_TEMPLATE = """\
-Du bist ein erfahrener TTRPG-Spieler. Du steuerst den Charakter {char_name}.
+Du bist ein aggressiver TTRPG-Spieler. Du steuerst den Charakter {char_name}.
 
 Lies die Keeper-Antwort und antworte mit EINER passenden Aktion.
 Format: Ich [Aktion].
 
 Regeln:
-- Reagiere passend auf die Szene (Kampf→Angriff, Raum→Erkunden, Truhe→Oeffnen)
+- Kampf: Sofort angreifen, keine Verzoegerung
+- Truhe/Kiste/Behaelter: Sofort oeffnen und Inhalt nehmen
+- Schaetze/Gold/Muenzen: Sofort einsammeln und alles mitnehmen
+- Unbekannter NPC: Ansprechen und nach Informationen fragen
+- Untote: Kleriker versucht zu vertreiben, sonst angreifen
+- Neuer Raum/Tuere/Gang: Sofort erkunden und vordringen
+- Dungeon-Stille (nichts passiert): Gehe zum naechsten Raum oder Korridor
+- Falle: Vorsichtig untersuchen
 - 1 kurzer Satz auf Deutsch
 - Kein OOC-Kommentar, nur die Aktion
 """
@@ -1393,7 +1290,7 @@ def main() -> None:
     )
     parser.add_argument(
         "--module", "-m", required=True,
-        help="Regelsystem (z.B. cthulhu_7e, add_2e, paranoia_2e, shadowrun_6)",
+        help="Regelsystem (z.B. add_2e)",
     )
     parser.add_argument(
         "--adventure", "-a", default=None,
@@ -1412,8 +1309,8 @@ def main() -> None:
         help="Benutzerdefinierte Aktionen (ueberschreibt Defaults)",
     )
     parser.add_argument(
-        "--case", "-c", type=int, default=1, choices=[1, 2, 3, 4, 5, 6, 7],
-        help="Test Case: 1=generic, 2=investigation, 3=combat, 4=horror, 5=social, 6=dungeon_crawl, 7=party_dungeon_crawl (Default: 1)",
+        "--case", "-c", type=int, default=1, choices=[1, 2, 3, 4, 5, 6],
+        help="Test Case: 1=generic, 2=investigation, 3=combat, 4=social, 5=dungeon_crawl, 6=party_dungeon_crawl (Default: 1)",
     )
     parser.add_argument(
         "--party", default=None,
@@ -1484,6 +1381,16 @@ def main() -> None:
     )
 
     if not args.dry_run:
+        # Kosten-Check vor Start
+        from core.cost_tracker import CostTracker
+        cost_tracker = CostTracker()
+        can_start, reason = cost_tracker.can_start_session()
+        if not can_start:
+            print(f"[KOSTEN] Session verweigert: {reason}")
+            summary = cost_tracker.get_summary()
+            print(f"  Heute: ${summary['daily_usd']:.2f} | Woche: ${summary['weekly_usd']:.2f} | Monat: ${summary['monthly_usd']:.2f}")
+            sys.exit(1)
+
         vp.setup()
 
     metrics = vp.run()
@@ -1492,6 +1399,27 @@ def main() -> None:
     if args.save:
         path = vp.save_report()
         print(f"Report gespeichert: {path}")
+
+    # Kosten ins Ledger schreiben (auch ohne --save)
+    if not args.dry_run:
+        try:
+            from core.cost_tracker import CostTracker
+            ct = CostTracker()
+            ct.record_session(
+                module=args.module,
+                adventure=args.adventure or "",
+                source="virtual_player",
+                turns=len(metrics.turns),
+                prompt_tokens=vp._total_prompt_tokens,
+                output_tokens=vp._total_output_tokens,
+                cached_tokens=vp._total_cached_tokens,
+                think_tokens=vp._total_think_tokens,
+                cost_usd=vp._total_cost,
+            )
+            summary = ct.get_summary()
+            print(f"[KOSTEN] Session: ${vp._total_cost:.4f} | Heute: ${summary['daily_usd']:.2f} | Gesamt: ${summary['total_usd']:.2f}")
+        except Exception as e:
+            logger.warning("CostTracker Fehler: %s", e)
 
 
 if __name__ == "__main__":

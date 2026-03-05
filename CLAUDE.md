@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-ARS (Advanced Roleplay Simulator) is a TTRPG engine with an AI game master (Keeper) powered by Gemini 2.5 Flash. It supports 5 rule systems (Call of Cthulhu 7e, AD&D 2e, Mad Max, Paranoia 2e, Shadowrun 6e), voice I/O (STT/TTS), and three interface modes: CLI, TechGUI (tkinter), and Web GUI (FastAPI + WebSocket).
+ARS (Advanced Roleplay Simulator) is a TTRPG engine with an AI game master (Keeper) powered by Gemini 2.5 Flash. It is focused on AD&D 2nd Edition, with voice I/O (STT/TTS), and three interface modes: CLI, TechGUI (tkinter), and Web GUI (FastAPI + WebSocket).
 
 **Language:** All code, comments, and documentation are in German. The AI Keeper responds in German by default.
 
@@ -18,28 +18,27 @@ pip install -r requirements.txt
 # For voice: pip install torch --index-url https://download.pytorch.org/whl/cpu
 
 # Run with TechGUI (primary dev mode)
-py -3 main.py --module cthulhu_7e --techgui
-py -3 main.py --module cthulhu_7e --adventure spukhaus --voice --techgui
+py -3 main.py --module add_2e --techgui
+py -3 main.py --module add_2e --adventure goblin_cave --voice --techgui
 
 # Run with Web GUI
-py -3 main.py --module cthulhu_7e --webgui --port 8080
+py -3 main.py --module add_2e --webgui --port 8080
 
 # Run CLI mode
-py -3 main.py --module cthulhu_7e --adventure spukhaus --voice --no-barge-in
+py -3 main.py --module add_2e --adventure goblin_cave --voice --no-barge-in
 
 # Automated test run (10 turns, saves metrics JSON)
-py -3 scripts/virtual_player.py --module cthulhu_7e --adventure spukhaus --turns 10 --save
+py -3 scripts/virtual_player.py --module add_2e --adventure goblin_cave --turns 10 --save
 
 # Test batch via testbot
-py -3 scripts/testbot.py run -t combat -n 3 -m cthulhu_7e --turns 10
+py -3 scripts/testbot.py run -t combat -n 3 -m add_2e --turns 10
 py -3 scripts/testbot.py results
 py -3 scripts/testbot.py status
 
-# 4-system standard test batch (rules.md §10)
-py -3 scripts/virtual_player.py --module cthulhu_7e --adventure spukhaus --turns 10 --save --turn-delay 2.0
+# AD&D 2e standard test batch (rules.md §10)
 py -3 scripts/virtual_player.py --module add_2e --adventure goblin_cave --turns 10 --save --turn-delay 2.0
-py -3 scripts/virtual_player.py --module paranoia_2e --adventure alpha_complex_reactor_audit --turns 10 --save --turn-delay 2.0
-py -3 scripts/virtual_player.py --module shadowrun_6 --turns 10 --save --turn-delay 2.0
+py -3 scripts/virtual_player.py --module add_2e --adventure dungeon_gauntlet --case 5 --turns 10 --save --turn-delay 2.0
+py -3 scripts/virtual_player.py --module add_2e --adventure dungeon_gauntlet --party add_valdrak_party --case 6 --turns 10 --save --turn-delay 2.0
 ```
 
 There is no formal test suite (pytest/unittest). Testing is done via `virtual_player.py` and `testbot.py` which run live AI sessions and score results.
@@ -68,11 +67,13 @@ main.py → SimulatorEngine → Orchestrator (game loop)
 ### AI Response Tags
 
 The AI Keeper emits structured tags in its prose that the Orchestrator parses:
-- `[PROBE: Skill Zielwert]` — skill check
+- `[PROBE: Skill Zielwert]` — skill check (d20 roll-under for AD&D 2e)
 - `[HP_VERLUST: N]` or `[HP_VERLUST: Name | N]` (party mode)
-- `[STABILITAET_VERLUST: N]` — sanity loss (CoC only)
-- `[ANGRIFF: Waffe Schaden]` — attack
+- `[ANGRIFF: Waffe Schaden]` — attack roll
+- `[RETTUNGSWURF: Typ]` — saving throw
+- `[ZAUBER_VERBRAUCHT: Zauber]` — spell slot consumed
 - `[XP_GEWINN: N]`, `[FAKT: text]`, `[ZEIT_VERGEHT: duration]`, `[INVENTAR: +/-item]`
+- `[MONSTER_BEWEGT: Name | Richtung]` — monster movement for grid engine
 - Party variants use `Name | Value` format for per-character targeting
 
 ### Module System
@@ -104,6 +105,38 @@ The Web GUI (`web/`) mirrors the same architecture: FastAPI REST endpoints + Web
 
 Three-tier: `testbot.py` (CLI dispatcher) → `test_series.py` (parallel batch runner via ThreadPoolExecutor) → `virtual_player.py` (actual AI game session). Results scored 0-100 on tags, monolog length, cross-system accuracy, survival, hook presence, latency. Pass threshold: >=60.
 
+### Remote Job Dispatch System
+
+File-based job queue for running tests on a remote server (Ubuntu) triggered from any workstation. No ports, no cloud — uses the shared ARS folder as message bus.
+
+**Architecture:** `data/remote_jobs/` with subdirectories `pending/`, `running/`, `done/`, `failed/`, `logs/`. Client drops Job-JSON into `pending/`, server daemon (`job_watcher.py`) polls and executes.
+
+**Key files:**
+- `scripts/job_watcher.py` — Server-side polling daemon (~340 lines). Scans `pending/`, executes via subprocess, moves to `done/` or `failed/`. Supports auto-fix via `claude --print` on startup errors (1 retry). Run as systemd service or foreground.
+- `scripts/job_client.py` — Client library: `submit_job()`, `wait_for_job()`, `list_jobs()`. Atomic JSON writes via temp-file + replace.
+- `scripts/ars-job-watcher.service` — systemd unit file (adjust paths for target server).
+
+**Supported job types:** `testbot`, `rules_tester`, `virtual_player`, `script` (path-validated).
+
+**Job-JSON format:** `{timestamp}_{job_id}_{requester}.json` with fields: `job_id`, `job_type`, `requester`, `status`, `params`, `server` (hostname/pid/timestamps/exit_code), `result` (stdout_tail/report_path/error/autofix).
+
+**Status flow:** `pending → running → done | failed → (autofix_running → done | failed_permanent)`
+
+```bash
+# Client: submit a remote job
+py -3 scripts/testbot.py remote run -t rules --wait
+py -3 scripts/testbot.py remote run -t dungeon_crawl --runs 5 --turns 10
+py -3 scripts/testbot.py remote run -t virtual_player --adventure goblin_cave
+
+# Client: check status
+py -3 scripts/testbot.py remote status
+py -3 scripts/testbot.py remote list --hours 48
+
+# Server: run watcher (foreground for testing)
+python scripts/job_watcher.py --interval 30 --timeout 600
+python scripts/job_watcher.py --no-autofix -v
+```
+
 ## Mandatory Process Rules
 
 These rules are defined in `docs/management/rules.md` and `docs/management/organization.md`. They are binding.
@@ -128,9 +161,9 @@ These rules are defined in `docs/management/rules.md` and `docs/management/organ
 
 ### Standard Test Protocol (rules.md §10)
 
-Run 4-system batch before each release. Per system: 10 turns, 2s delay, with `--save`.
+Run AD&D 2e test batch before each release. Per run: 10 turns, 2s delay, with `--save`.
 
-**Test order:** (1) `cthulhu_7e` / `spukhaus`, (2) `add_2e` / `goblin_cave`, (3) `paranoia_2e` / `alpha_complex_reactor_audit`, (4) `shadowrun_6` / default.
+**Test order:** (1) `add_2e` / `goblin_cave` (investigation), (2) `add_2e` / `dungeon_gauntlet` case 5 (dungeon crawl), (3) `add_2e` / `dungeon_gauntlet` party mode case 6.
 
 **Pass criteria (all must be met):**
 - No crash/exception
@@ -144,13 +177,13 @@ Run 4-system batch before each release. Per system: 10 turns, 2s delay, with `--
 ### Tester Mode (rules.md §11)
 
 Activated by user saying "tester mode". Runs a continuous Test-Fix-Report loop:
-1. TEST: 4-system batch
+1. TEST: AD&D 2e standard batch (3 runs)
 2. REPORT: update `agents.md`
 3. FIX: top-3 bugs by impact
 4. COMMIT: `git add . && git commit -m "[TESTER] Iteration N: ..."`
 5. REPEAT
 
-**Stop conditions:** User says "STOP", all bugs solved, or 3 consecutive green runs (3/4+ tests pass).
+**Stop conditions:** User says "STOP", all bugs solved, or 3 consecutive green runs (all 3 tests pass).
 
 ### Bug Tracking
 
@@ -211,11 +244,7 @@ Every JSON file in `modules/` MUST carry `schema_version` (semver). Version bump
 
 | ID | System | Dice | Key Mechanic |
 |---|---|---|---|
-| `cthulhu_7e` | Call of Cthulhu 7e | d100 | Sanity, skill checks |
-| `add_2e` | AD&D 2nd Edition | d20 | THAC0, classes, spells |
-| `mad_max` | Mad Max Wasteland | d100 | Survival, vehicles |
-| `paranoia_2e` | Paranoia 2nd Edition | d20 roll-under | Clones, treason |
-| `shadowrun_6` | Shadowrun 6th Edition | d6 pool | Edge, Matrix, cyberware |
+| `add_2e` | AD&D 2nd Edition | d20 | THAC0, classes, spells, saving throws |
 
 ## Key Constants
 

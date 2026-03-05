@@ -39,7 +39,7 @@ def parse_args() -> argparse.Namespace:
         required=False,
         default=None,
         metavar="RULESET",
-        help="Name of the ruleset module to load (e.g. cthulhu_7e)",
+        help="Name of the ruleset module to load (e.g. add_2e)",
     )
     parser.add_argument(
         "--adventure",
@@ -67,7 +67,7 @@ def parse_args() -> argparse.Namespace:
         "--preset",
         default=None,
         metavar="PRESET",
-        help="Load a session preset from modules/presets/ (e.g. coc_classic)",
+        help="Load a session preset from modules/presets/ (e.g. add2e_classic)",
     )
     parser.add_argument(
         "--difficulty",
@@ -97,7 +97,7 @@ def parse_args() -> argparse.Namespace:
         "--setting",
         default=None,
         metavar="SETTING",
-        help="Setting module to load (e.g. cthulhu_1920, forgotten_realms)",
+        help="Setting module to load (e.g. forgotten_realms)",
     )
     parser.add_argument(
         "--keeper",
@@ -116,7 +116,7 @@ def parse_args() -> argparse.Namespace:
         "--character",
         default=None,
         metavar="CHARACTER",
-        help="Character template to load (e.g. coc_investigator, add_fighter)",
+        help="Character template to load (e.g. add_fighter, add_thief)",
     )
     parser.add_argument(
         "--party",
@@ -193,7 +193,7 @@ def main() -> None:
 
     # --module ist Pflicht fuer alle Modi ausser --convert-all
     if not args.module:
-        logger.error("--module ist erforderlich (z.B. --module cthulhu_7e)")
+        logger.error("--module ist erforderlich (z.B. --module add_2e)")
         sys.exit(1)
 
     logger.info(

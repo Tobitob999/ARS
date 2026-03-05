@@ -1,0 +1,59 @@
+{
+  "id": "scenario_healing",
+  "name": "Heilungs-Szenarien: HP-Cap, Mehrfach-Heilung",
+  "setup": {
+    "player": {
+      "name": "Testkleriker",
+      "hp": 20,
+      "ac": 3,
+      "thac0": 18,
+      "weapon": "Streitkolben",
+      "damage": "1d6+1"
+    },
+    "seed": 42
+  },
+  "steps": [
+    {
+      "synthetic_response": "Der Oger schlaegt zu! [HP_VERLUST: 8] Ein brutaler Treffer!",
+      "assertions": [
+        {"type": "tag_extracted", "tag": "HP_VERLUST", "count": 1},
+        {"type": "stat_changed", "stat": "HP", "expected_value": 12}
+      ]
+    },
+    {
+      "synthetic_response": "Du wirkst Heile Leichte Wunden. [HP_HEILUNG: 5]",
+      "assertions": [
+        {"type": "tag_extracted", "tag": "HP_HEILUNG", "count": 1},
+        {"type": "stat_changed", "stat": "HP", "expected_value": 17}
+      ]
+    },
+    {
+      "synthetic_response": "Die Priesterin heilt dich ebenfalls. [HP_HEILUNG: 10]",
+      "assertions": [
+        {"type": "tag_extracted", "tag": "HP_HEILUNG", "count": 1},
+        {"type": "stat_changed", "stat": "HP", "expected_value": 20}
+      ]
+    },
+    {
+      "synthetic_response": "Du rastest und erholst dich. Kein Kampf, kein Schaden.",
+      "assertions": [
+        {"type": "tag_not_present", "tag": "HP_VERLUST"},
+        {"type": "tag_not_present", "tag": "HP_HEILUNG"},
+        {"type": "stat_changed", "stat": "HP", "expected_value": 20}
+      ]
+    },
+    {
+      "synthetic_response": "Ein Giftpfeil trifft dich! [HP_VERLUST: 15] Du bist schwer verwundet.",
+      "assertions": [
+        {"type": "tag_extracted", "tag": "HP_VERLUST", "count": 1},
+        {"type": "stat_changed", "stat": "HP", "expected_value": 5}
+      ]
+    },
+    {
+      "synthetic_response": "Du trinkst einen maechtigen Heiltrank. [HP_HEILUNG: 20] Deine Wunden schliessen sich.",
+      "assertions": [
+        {"type": "stat_changed", "stat": "HP", "expected_value": 20}
+      ]
+    }
+  ]
+}

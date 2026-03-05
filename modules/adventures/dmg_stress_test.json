@@ -1,0 +1,574 @@
+{
+  "schema_version": "1.0.0",
+  "id": "dmg_stress_test",
+  "compatible_rulesets": ["add_2e"],
+  "title": "Der Vergessene Schatzgewoelbe",
+  "setting": "Die Tiefen einer verfallenen Zwergenfestung unter den Trummern von Burg Eisengrau — dunkle Kammern, vergiftete Fallen, ruhelos wandernde Untote und ein legendaerer Schatz, der seit zwei Jahrhunderten unberuehrt wartet.",
+  "difficulty": "Mittel-Schwer (DMG-Mechanik-Stress-Test)",
+  "intro": "Unter den Trummern von Burg Eisengrau schlummert ein Schatz, der Legenden schreibt. Vor zweihundert Jahren versiegelten die Zwerge des Klans Granitfaust ihre Schatzkammer, als Orks die Festung stuermten. Sie kehrten nie zurueck. Jetzt hat ein sterbender Bettler einem Abenteurer eine verwitterte Karte hinterlassen. Die Karte zeigt sieben Kammern. Darunter steht in zitternder Hand: 'Nimm nur was du tragen kannst. Die Dunkelheit ist lebendig. Und die Toten schlafen nie.'",
+  "hook": "Dringt in das vergessene Schatzgewoelbe vor, ueberwindet Fallen, Untote und wandernde Monster, und bergt den legendaeren Schatz von Klan Granitfaust — doch Gier und Leichtsinn werden euch das Leben kosten.",
+  "keeper_lore": "SPIELLEITER-DIREKTIVEN fuer DER VERGESSENE SCHATZGEWOELBE:\n\n=== PACING-REGEL (ANTI-STAGNATION) ===\nNach MAXIMAL 2 Spielerzuegen in derselben Kammer MUSS der Keeper den Spieler aktiv in den naechsten Raum draengen:\n- Neue Bedrohung taucht auf (Wandering Monster)\n- Ein Geraeusch aus dem naechsten Raum lockt\n- Die aktuelle Kammer ist vollstaendig erforscht — sagte explizit 'Hier gibt es nichts mehr zu tun'\n- Nenne direkt die Tuer oder den Gang zum naechsten Raum\nVERBOTEN: Mehr als 3 Zuege in derselben Kammer ohne Szenenwechsel oder Wandering Monster.\n\nDIESES ABENTEUER IST EIN DMG-MECHANIK-STRESS-TEST. Der Keeper MUSS systematisch alle AD&D 2e DMG-Kernmechaniken triggern. Jede Kammer ist auf mindestens eine Pflichts-Mechanik ausgelegt. KEINE Kammer ohne mindestens einen spezifischen DMG-Tag.\n\n=== PFLICHT-TAGS UND WANN SIE EMITTIERT WERDEN MUESSEN ===\n\n[MORAL_CHECK: MonsterName | Schwelle] — PFLICHT bei:\n- Jedem Monster das unter 50% HP faellt\n- Nach Tod des Anfuehrers fuer alle Untergebenen\n- Goblins: Schwelle 7, Söldner: Schwelle 8, Anführer: Schwelle 10\n- Beispiel: [MORAL_CHECK: Goblin-Bodyguard | 7] — bei Fehlschlag fliehen sie sofort\n\n[REAKTION: NPC-Name | CHA-Mod] — PFLICHT beim:\n- ERSTEN Kontakt mit jedem nicht-feindlichen NPC\n- Ergebnis bestimmt ob NPC hilft (freundlich), neutral ist oder angreift\n- Beispiel: [REAKTION: Gareth der Soeldner | +1] fuer einen Charakter mit CHA 13\n- Ergebnis 2d6+CHA-Mod: 2-5 feindlich, 6-8 neutral, 9-12 freundlich\n\n[UNTOTE_VERTREIBEN: Klerikerstufe | UntotenHD] — PFLICHT wenn:\n- Ein Kleriker Untote vertreiben will\n- Skelette HD 1, Zombies HD 2, Ghule HD 2, Wraith HD 5\n- Beispiel: [UNTOTE_VERTREIBEN: 3 | 1] fuer Kleriker Stufe 3 gegen Skelette\n- Turns erfolgreicher Vertreibung mit [XP_GEWINN] belohnen\n\n[BELASTUNG: Charname | Gewicht] — PFLICHT wenn:\n- Spieler schwere Items aufheben will (ueber 35 lbs Gesamtlast = schwer beladen)\n- Enge Passagen mit Belastungs-Check: [PROBE: Konstitution | 12] fuer schwer Beladene\n- 100 Muenzen = 10 lbs, schwere Ruestung = 30 lbs, Schatztruhe voll = 80 lbs\n- Beispiel: [BELASTUNG: Thorin | 67] wenn Held zu schwer beladen\n\n[BEGEGNUNG: Wandering] — PFLICHT:\n- Alle 3 Spielerrunden eine Zufallsbegegnung pruefen (Wurf 1d6, bei 1 erscheinen Wandering Monsters)\n- Mindestens 2 Wandering Monster Begegnungen im gesamten Abenteuer\n- Bei Lautstarm (Kampf, offene Türen eintreten) sofortiger Check auf 1-2\n- Wandering Monster-Tabelle (1d6): 1-2=1d4 Skelette, 3-4=1d3 Zombies, 5=1d2 Ghule, 6=1d4 Goblins\n\n[GIFT: MonsterName | Typ | Save-Mod] — PFLICHT bei:\n- Giftfalle in Raum 4 (Nadelgift: Typ=Tod, Save-Mod=-2)\n- Vergiftete Waffe des Wachhauptmanns (Typ=Schaden, Save-Mod=0, 2d6 Extra-Schaden)\n- Immer vor dem Rettungswurf emittieren: [GIFT: Giftnadel | Tod | -2]\n- Dann sofort: [RETTUNGSWURF: Gift | Zielwert 14]\n\n[SCHATZ: TreasureType] — PFLICHT bei jedem Schatzfund:\n- Emittieren sobald Charaktere eine Truhe/Schatzhaufen entdecken\n- Immer BEVOR der Inhalt beschrieben wird\n- Beispiele: [SCHATZ: C], [SCHATZ: A], [SCHATZ: H]\n- Dann Inhalt aufschlüsseln: Muenzen + magische Items + Juwelen\n\n=== ZUSAETZLICHE PFLICHT-TAGS (Basis-Tags immer aktiv) ===\n[ANGRIFF: Waffe | THAC0 N | Ziel-AC N | Mod] — bei JEDEM Angriff\n[HP_VERLUST: N] — bei JEDEM Treffer gegen Spieler\n[XP_GEWINN: N] — nach jeder Besiegung\n[PROBE: Fertigkeit | Zielwert] — bei Suchen, Schleichen, Klettern, Fallen entschaerfen\n[RETTUNGSWURF: Typ | Zielwert] — bei Gift, Lahmung, Spruchs\n[INVENTAR: +item] / [INVENTAR: -item] — bei jedem Fund / Verbrauch\n[FAKT: Text] — bei wichtigen Entdeckungen, Inschriften, Lore-Enthüllungen\n[ZEIT_VERGEHT: Nd] — nach Rasten, laengerem Suchen (d = Dungeon-Turns = 10 Min)\n\n=== MONSTER-STATISTIKEN ===\nSkelett: AC 7, HP 8, THAC0 19, Schaden 1d6 (Kurzschwert), Immun gegen Schlaf/Bezauberung, Halber Schaden durch schneidende Waffen\nZombie: AC 8, HP 12, THAC0 19, Schaden 1d8 (Schlag), Letzter in Initiative-Reihenfolge, Immun gegen Schlaf/Bezauberung/Gift\nGhul: AC 6, HP 10, THAC0 18, Schaden 1d3/1d3/1d6 (Kralle/Kralle/Beiss), Spezial: Lahmung (RETTUNGSWURF: Lahmung | 13 oder 1d6+1 Runden gelahmt), Immun gegen Schlaf/Bezauberung\nWraith: AC 4, HP 30, THAC0 15, Schaden 1d6, Spezial: Energieentzug (RETTUNGSWURF: Tod | 16 oder dauerhaft -1 Stufe), Nur durch magische Waffen treffbar, Kein Tageslicht\nGoblin: AC 6, HP 4, THAC0 20, Schaden 1d6 (Kurzschwert), Morale 7\nGoblin-Bodyguard: AC 5, HP 7, THAC0 19, Schaden 1d8 (Langschwert), Morale 8\nSnaggle (Handler): AC 7, HP 5, THAC0 20, Schaden 1d4 (Dolch), Morale 5 — flieht bei erster Gelegenheit wenn feindlich\nGareth (Soeldner): AC 4 (Kettenhemd), HP 6/12 (verletzt), THAC0 18, Schaden 1d8 (Langschwert)\nHauptmann Voss: AC 3 (Plattenhemd), HP 22, THAC0 16, Schaden 1d8+2 (magisches Langschwert +1, vergiftet), Morale 10\nSoeldner-Trupp (Voss' Maenner): AC 5, HP 10, THAC0 18, Schaden 1d8, Morale 8 — sinkt auf Morale 4 wenn Voss stirbt\n\n=== LICHT UND DUNKELHEIT ===\nAlle Kammern sind DUNKEL ausser Raum 1 (Tageslicht durch Breschen) und Raum 6 (Lagerfeuer der Soeldner).\nOhne Lichtquelle (Fackel, Laterne, Zauber): Keine Ranged-Angriffe, -4 auf alle Angriffswuerfe, Fallen nicht zu erkennen.\nInfravision (Zwerge, Halborks, Elfen): Sieht Lebewesen/Waerme im Dunkeln 60 Fuss weit — KEINE Farben, keine Schrift.\nFackel: 60 Fuss Radius, 1 Stunde pro Fackel. Fackel verbrauch mit [INVENTAR: -Fackel] tracken.\n\n=== WANDERING MONSTERS — WANN PRUEFEN ===\n1. Alle 3 Spieler-Aktionsrunden automatisch (1d6, Ergebnis 1 = Begegnung)\n2. Bei lautem Kampflaerm (Waffen, Schuesse): zusaetzlicher Check auf 1-2\n3. Nach dem Oeffnen schwerer Tueren: Check auf 1\n4. Bei jeder Rast laenger als 1 Stunde: automatische Begegnung\nBei jeder Pruefung emittieren: [BEGEGNUNG: Wandering]\nBei tatsaechlicher Begegnung: Monster aus Tabelle wuerfeln und sofort einleiten",
+  "start_location": "zerbrochenes_tor",
+  "flags": {
+    "gareth_gerettet": false,
+    "gareth_feindlich": false,
+    "wachraum_geraeumt": false,
+    "skelette_vertrieben": false,
+    "snaggle_freundlich": false,
+    "snaggle_tot": false,
+    "giftkorridor_passiert": false,
+    "giftnagel_ausgeloest": false,
+    "krypta_betreten": false,
+    "untote_krypta_geraeumt": false,
+    "ghul_gelahmt_spieler": false,
+    "soeldner_verbündet": false,
+    "voss_tot": false,
+    "soeldner_geflohen": false,
+    "schatzkammer_betreten": false,
+    "wraith_besiegt": false,
+    "hauptschatz_gefunden": false,
+    "zweite_nadelfalle_ausgeloest": false,
+    "abenteuer_abgeschlossen": false
+  },
+  "locations": [
+    {
+      "id": "zerbrochenes_tor",
+      "name": "Zerbrochenes Tor (Eingang)",
+      "description": "Das mächtige Zwergentор von Burg Eisengrau liegt in Trümmern. Mächtige Granitblöcke — jeder leicht eine halbe Tonne — versperren den linken Durchgang. Nur ein schmaler Pfad durch die Mitte bleibt frei. Im Staub liegt ein Mann: ein Söldner in zerschlagenem Kettenhemd, das Bein unter einem Stein eingeklemmt. Er ist bewusst aber erschöpft. Tageslicht fällt durch Bresche im eingestürzten Gewölbe. Jenseits beginnt die Dunkelheit.",
+      "atmosphere": "Herbstwind peitscht durch die Breschen. Taubenflügelrauschen. Der Söldner stöhnt leise. Irgendwo tief unten: ein rhythmisches Knirschen.",
+      "npcs_present": ["gareth_soeldner"],
+      "clues_available": ["zwergeninschrift_tor", "soeldner_warnung"],
+      "exits": {
+        "grosse_halle": "Durch den Schuttkorridor führt eine Zwergentür aus schwarzem Eisenholz in die große Halle."
+      },
+      "keeper_notes": "REAKTION PFLICHT: Beim ersten Kontakt mit Gareth sofort [REAKTION: Gareth der Soeldner | CHA-Mod des Spielers] emittieren. Bei freundlichem Ergebnis (9+): Gareth warnt vor Skeletten und der Giftnadel, gibt einen Hinweis auf den Wandering Monster Check ('alle paar Minuten kommen Knochen durch die Halle'). Bei feindlichem Ergebnis (5-): Gareth greift an wenn befreit, setzt Flag gareth_feindlich. BELASTUNG: Die Granitbloecke sind je 400 lbs — ein Charakter allein kann sie nicht heben (STR 18 braucht [PROBE: Staerke | 18] und verursacht trotzdem [BEGEGNUNG: Wandering]-Check wegen Laerm). Gareth kann nur mit Hebelstange oder STR 16+ befreit werden. Bei Befreiung: gareth_gerettet = true. LICHT: Einzige Kammer mit natuerlichem Licht. Nach Innen wird es stockdunkel — Lichtquellen verteilen. ZWERGENINSCHRIFT: [PROBE: Zwergensprache | 50] oder Begleiter noetig — [FAKT: Inschrift warnt vor den Wachgeistern und der vergifteten Schwelle].",
+      "events": [
+        {
+          "trigger": "Erstkontakt mit Gareth",
+          "effect": "[REAKTION: Gareth der Soeldner | CHA-Mod] — bestimmt Garreth's Haltung. Bei 9+ teilt er alles mit was er weiss.",
+          "sets_flag": null
+        },
+        {
+          "trigger": "Gareth befreit (Stein entfernt)",
+          "effect": "Gareth ist dankbar (oder feindlich wenn Flag gesetzt). Er kann als NPC-Begleiter dienen mit HP 6/12. [XP_GEWINN: 20]",
+          "sets_flag": "gareth_gerettet"
+        },
+        {
+          "trigger": "Granitblock mit Lärm bewegt",
+          "effect": "Dröhnendes Schaben hallt durch das Gewölbe. Sofortiger [BEGEGNUNG: Wandering]-Check mit erschwertem Wurf (1-3 auf 1d6).",
+          "sets_flag": null
+        },
+        {
+          "trigger": "Spieler verlässt Kammer in Dunkelheit ohne Licht",
+          "effect": "Absolute Dunkelheit. Ohne Fackel, Laterne oder Infravision: -4 auf alle Angriffe, Fallen unsichtbar, Navigation unmöglich. [FAKT: Dunkelheit beginnt hinter dem Torrahmen]",
+          "sets_flag": null
+        }
+      ]
+    },
+    {
+      "id": "grosse_halle",
+      "name": "Grosse Halle der Bankett (Ebene 1)",
+      "description": "Die Banketthalle der Zwergenfestung — einst strahlend, jetzt ein Friedhof des Glanzes. Zerbrochene Steintische, umgestürzte Bänke, verschimmelte Wandteppiche die zu Asche zerfallen. An den Wänden: sechs Fackelhalter aus Bronze, die Fackeln darin zu Staub verbrannt. ABER — im Halbdunkel regt sich Bewegung. Knöcherne Gestalten in Zwergenrüstungsresten schleichen durch die Trümmer. Vier Skelette patrouillieren in langsamen Bahnen. Unter den umgestürzten Tischen: das Glänzen von Gold.",
+      "atmosphere": "Knochenrasseln in einer Stille die fast körperlich ist. Der Atem kondensiert in der Kälte. Irgendwo tropft Wasser in regelmäßigen Abständen.",
+      "npcs_present": ["skelett_1", "skelett_2", "skelett_3", "skelett_4"],
+      "clues_available": ["zwergen_wandfresko", "schatz_typ_c"],
+      "exits": {
+        "zerbrochenes_tor": "Zurück zum Eingang.",
+        "lagerraum": "Eine niedrige Zwergentür im Nordflügel — frische Kratzspuren am Boden.",
+        "giftkorridor": "Ein enger Durchgang im Südostwinkel — Zwergenhöhe, für Menschen leicht gebückt."
+      },
+      "keeper_notes": "UNTOTE VERTREIBEN: Wenn ein Kleriker dabei ist, SOFORT [UNTOTE_VERTREIBEN: Klerikerstufe | 1] emittieren und das Ergebnis ausspielen. Erfolgreich vertriebene Skelette fliehen durch Wände/Ausgänge — [XP_GEWINN: 15] pro vertriebenes Skelett. Nicht vertriebene kaempfen normal. WANDERING MONSTER: Diese Kammer ist das Herzstück. Alle 3 Runden [BEGEGNUNG: Wandering] pruefen. Jede neue Wandering Monster-Gruppe erscheint zuerst in dieser Halle. SCHATZ: [SCHATZ: C] wenn Spieler die Trümmer durchsuchen ([PROBE: Suchen | 50]). Inhalt: 320 Silber, 80 Gold, 1 Heiltrank (1d6+1). Die Silbermünzen WIEGEN: 320 SM = 32 lbs. BELASTUNG prüfen wenn sie alles mitnehmen wollen. LICHT: Fackelhalter können mit eigenen Fackeln bestückt werden — beleuchtet dann dauerhaft den Raum (verbraucht Ressourcen). TAKTIK: Die Skelette reagieren auf Licht und Geräusche. Vorsichtige Spieler können an 1-2 vorbeischleichen [PROBE: Schleichen | 55].",
+      "events": [
+        {
+          "trigger": "Kleriker versucht Untote zu vertreiben",
+          "effect": "[UNTOTE_VERTREIBEN: Klerikerstufe | 1] — Ergebnis: Klerikerstufe 1-3: möglicherweise vertrieben, 4+: automatisch. Bei Erfolg fliehen die Skelette. [XP_GEWINN: 15 pro Skelett]",
+          "sets_flag": "skelette_vertrieben"
+        },
+        {
+          "trigger": "Wandering Monster Check (alle 3 Runden oder bei Lärm)",
+          "effect": "[BEGEGNUNG: Wandering] Würfel: 1=1d4 Skelette kommen durch Nordgang, 2-3=1d3 Zombies schlurfen herein, 4-5=keine Begegnung, 6=1d2 Ghoule tauchen aus Schatten auf",
+          "sets_flag": null
+        },
+        {
+          "trigger": "Trümmer nach Schatz durchsucht (Probe bestanden)",
+          "effect": "[SCHATZ: C] Unter den Tischen: 320 Silbermünzen (32 lbs!), 80 Goldmünzen (8 lbs), 1 Heiltrank. [INVENTAR: +320 Silber] [INVENTAR: +80 Gold] [INVENTAR: +Heiltrank (1d6+1)]",
+          "sets_flag": null
+        },
+        {
+          "trigger": "Alle Skelette besiegt oder vertrieben",
+          "effect": "Die Halle liegt still. [XP_GEWINN: 60] für alle besiegten Skelette zusammen. Wandering Monster kommen jedoch weiterhin.",
+          "sets_flag": "wachraum_geraeumt"
+        }
+      ]
+    },
+    {
+      "id": "lagerraum",
+      "name": "Lagerraum (Goblin-Händler)",
+      "description": "Ein kleiner Lagerraum mit gestapelten Kisten und Bündeln. Der Geruch von Rauch, Leder und schimmelndem Käse. Hinter einem improvisierten Ladentisch aus zwei Kisten sitzt ein Goblin mit einer auffälligen gelben Handelsfahne — das universelle Zeichen für 'ich bin hier um zu handeln, nicht zu sterben'. Neben ihm zwei breitschultrige Goblin-Bodyguards mit Langschwertern. Der Händler grinst zahnlückig: 'Willkommen bei Snaggle's Notversorgung! Beste Preise im ganzen Dungeon!' Die Waren: Fackeln, Seile, ein Heiltrank, ein Flaschen Öl.",
+      "atmosphere": "Warm und rauchig verglichen mit dem Rest. Eine kleine Öllampe brennt auf dem Tresen. Der Händler strahlt nervöse Energie aus.",
+      "npcs_present": ["snaggle_haendler", "goblin_bodyguard_1", "goblin_bodyguard_2"],
+      "clues_available": ["snaggle_geruecht_wraith", "snaggle_warnung_gift"],
+      "exits": {
+        "grosse_halle": "Zurück in die Banketthalle.",
+        "giftkorridor": "Snaggle zeigt auf eine versteckte Tür hinter den Kisten — 'Kurzschluss, aber gefährlich!'"
+      },
+      "keeper_notes": "REAKTION PFLICHT: Beim Betreten sofort [REAKTION: Snaggle der Haendler | CHA-Mod] emittieren. Bei freundlich (9+): Normaler Handel, Snaggle teilt Gerüchte. Bei neutral (6-8): Handel möglich aber karg. Bei feindlich (5-): Bodyguards greifen an, Snaggle flieht. MORALE: Goblin-Bodyguards haben Morale 8 — bei erstem Verlust [MORAL_CHECK: Goblin-Bodyguard | 8]. Snaggle selbst hat Morale 5 — flieht beim ersten Anzeichen von Gefahr (schneller als die Bodyguards). Bei Tod des ersten Bodyguards: [MORAL_CHECK: Goblin-Bodyguard-2 | 8] — sehr wahrscheinliches Fliehen. HANDEL (wenn freundlich): Fackeln 1 GP pro 3, Seil 50 Fuss 1 GP, Heiltrank 30 GP, Ölflaschen 5 SP je. BELASTUNG: Wenn Spieler Waren kaufen — prüfen ob Belastungsgrenze überschritten. Snaggle-Waren zusammen ~20 lbs. GERÜCHTE SNAGGLE (wenn freundlich): (1) Wraith in Schatzkammer — 'nur magische Waffen, Freund!', (2) Giftnadel im Südkorridor — 'Ich bin drum herum geklettert', (3) Söldner weiter unten — 'die klingen gefährlich'.",
+      "events": [
+        {
+          "trigger": "Erstkontakt mit Snaggle",
+          "effect": "[REAKTION: Snaggle der Haendler | CHA-Mod] — 9+ = freundlich/Handel, 6-8 = neutral/misstrauisch, 5- = feindlich/Kampf",
+          "sets_flag": null
+        },
+        {
+          "trigger": "Erster Bodyguard fällt",
+          "effect": "[MORAL_CHECK: Goblin-Bodyguard | 8] — bei Fehlschlag (2d6 > 8) flieht er sofort durch die versteckte Tür.",
+          "sets_flag": null
+        },
+        {
+          "trigger": "Snaggle unter Bedrohung oder allein",
+          "effect": "[MORAL_CHECK: Snaggle | 5] — Snaggle flieht fast immer. Er wirft seine Waren als Ablenkung und rennt.",
+          "sets_flag": "snaggle_tot"
+        },
+        {
+          "trigger": "Freundlicher Handel abgeschlossen",
+          "effect": "Snaggle teilt alle 3 Gerüchte. [FAKT: Wraith in der Schatzkammer, nur magische Waffen] [FAKT: Giftnadelfalle im engen Korridor] [FAKT: Söldnergruppe bewacht den unteren Eingang]",
+          "sets_flag": "snaggle_freundlich"
+        }
+      ]
+    },
+    {
+      "id": "giftkorridor",
+      "name": "Gift-Korridor (Enger Durchgang)",
+      "description": "Ein enger Korridor — Zwergenhöhe bedeutet für Menschen einen leicht gebeugten Gang, für schwer Bepackte ein echtes Problem. Die Wände sind glatt gemeißelter Granit. In der Mitte des Ganges: eine alte Holztruhe mit Eisenbeschlägen, die Oberfläche fein graviert. Die Gravur zeigt Zwergensymbole. Das Schloss glänzt noch metallisch — neu für diese Ruine, verdächtig neu. Am Ende des Korridors: eine Tür aus schwarzem Eisenholz.",
+      "atmosphere": "Eng, kalt, der eigene Atem hallt von den Wänden. Kein Lärm dringt hierher. Die Truhe scheint die Aufmerksamkeit zu saugen.",
+      "npcs_present": [],
+      "clues_available": ["truhen_gravur", "schatz_typ_b_inhalt"],
+      "exits": {
+        "grosse_halle": "Zurück in die Banketthalle.",
+        "lagerraum": "Die versteckte Tür (nur von dieser Seite sichtbar) führt zum Lagerraum.",
+        "krypta": "Die Eisenholztür am Ende führt in die Krypta."
+      },
+      "keeper_notes": "BELASTUNG PFLICHT: Der Korridor ist eng. Charakter mit Belastung über 60 lbs muss [PROBE: Konstitution | 14] bestehen oder verliert eine Runde. Mit über 100 lbs Last: [PROBE: Konstitution | 18] oder Korridor nicht passierbar ohne Gepäck ablegen. Explizit [BELASTUNG: Charaktername | aktuelle_Last_in_lbs] emittieren wenn sie die Truhe öffnen wollen ohne Gepäck abzulegen. GIFT-FALLE PFLICHT: Die Truhe hat eine Nadelgiftfalle im Schloss. [PROBE: Fallen-Suchen | 55] entdeckt sie (Snaggle's Hinweis gibt +10). [PROBE: Fallen-Entschärfen | 50] deaktiviert sie. Bei Fehler oder Ignorieren: [GIFT: Giftnadel | Tod | -2] sofort emittieren, dann [RETTUNGSWURF: Gift | 14]. Bei Fehlschlag: Charakter verstirbt in 1d4 Runden ohne Gegengift. SCHATZ TYP B: [SCHATZ: B] wenn Truhe geöffnet. Inhalt: 200 Elektrum (20 lbs!), 50 Gold, 1 Zauberschriftrolle (Magic Missile), 1 Amethyst (wert 50 GP). Silber/Elektrum zusammen mit früherem Fund kann BELASTUNGSGRENZE überschreiten. WANDERING CHECK: Nach Öffnen der Truhe (Metall-Geräusch): [BEGEGNUNG: Wandering].",
+      "events": [
+        {
+          "trigger": "Charakter nähert sich der Truhe mit schwerer Last",
+          "effect": "[BELASTUNG: Charaktername | Gewicht_lbs] — Keeper explizit ansprechen ob der Charakter das Gepäck ablegen will bevor er sich in den Engbereich zwängt.",
+          "sets_flag": null
+        },
+        {
+          "trigger": "Schloss berührt ohne Falle zu suchen oder zu entschärfen",
+          "effect": "[GIFT: Giftnadel | Tod | -2] — eine haarfeine Nadel schießt aus dem Schloss. [RETTUNGSWURF: Gift | 14] sofort. Fehler: 1d4 Runden bis Tod ohne Gegengift.",
+          "sets_flag": "giftnagel_ausgeloest"
+        },
+        {
+          "trigger": "Falle entdeckt und entschärft",
+          "effect": "[PROBE: Fallen-Entschaerfen | 50] — bei Erfolg: Die Nadel wird sicher entfernt. [XP_GEWINN: 50] für das Entschärfen. Truhe sicher.",
+          "sets_flag": null
+        },
+        {
+          "trigger": "Truhe geöffnet (sicher oder nach Fallentrigger)",
+          "effect": "[SCHATZ: B] Inhalt: 200 Elektrum (20 lbs), 50 Gold (5 lbs), Schriftrolle Magic Missile, Amethyst 50 GP. [INVENTAR: +200 Elektrum] [INVENTAR: +50 Gold] [INVENTAR: +Schriftrolle Magic Missile] [INVENTAR: +Amethyst (50 GP)]",
+          "sets_flag": null
+        },
+        {
+          "trigger": "Korridor passiert (beide Enden erreicht)",
+          "effect": "[BEGEGNUNG: Wandering] nach dem metallischen Geräusch der Truhe. Dann [XP_GEWINN: 30] für das Überwinden des Korridors.",
+          "sets_flag": "giftkorridor_passiert"
+        }
+      ]
+    },
+    {
+      "id": "krypta",
+      "name": "Krypta der Granitfaust-Ahnen (Ebene 2)",
+      "description": "Absolute Dunkelheit — die Art von Dunkel die drückt und atmet. Beim Entzünden einer Fackel: eine hohe Kammer mit Nischengräbern an allen vier Wänden. In jeder Nische ein Sarkophag mit Zwergenwappen. Zwölf Nischen. Acht Sarkophage geschlossen. Vier offen und leer. AUS den offenen kriechen langsam Gestalten heraus: zerfetzte Leinenbinden, weiße Augen ohne Pupille, träge Bewegungen — Zombies. Und zwischen den Sarkophagen: eine schnellere, geschmeidigere Präsenz. Ein Ghul, der bereits auf allen vieren kriecht.",
+      "atmosphere": "Stille die sich anfühlt wie Druck auf den Trommelfellen. Kein Tropfen, kein Wind. Nur das Rascheln von Leinen und das Kratzen von Knochen auf Stein.",
+      "npcs_present": ["zombie_1", "zombie_2", "zombie_3", "ghul_schatten"],
+      "clues_available": ["sarkophag_hauptahnin", "schatz_typ_a"],
+      "exits": {
+        "giftkorridor": "Die Eisenholztür zurück in den Giftkorridor.",
+        "wachposten": "Eine Treppe aus dem Boden — ein Holzrahmen mit Eisenleiter führt tiefer."
+      },
+      "keeper_notes": "UNTOTE VERTREIBEN PFLICHT: Sofort [UNTOTE_VERTREIBEN: Klerikerstufe | 2] für Zombies und Ghul wenn Kleriker anwesend. Zombies HD 2, Ghul HD 2. Kleriker Stufe 1: Muss 2d6 würfeln, 7+ für Zombies, 10+ für Ghul. Stufe 3+: automatisch Zombies, 7+ für Ghul. Erfolgreich Vertriebene fliehen in die dunkelsten Ecken und greifen nicht an. GHUL LAHMUNG: Wenn Ghul trifft — sofort [RETTUNGSWURF: Lahmung | 13]. Bei Fehler: Charakter ist 1d6+1 Runden gelähmt, AC sinkt auf 10. [HP_VERLUST] wie normal, aber kein Gegenwehr. Flag ghul_gelahmt_spieler setzen. MORALE NACH 50% VERLUST: Wenn 2 von 4 Untoten besiegt — [MORAL_CHECK: Zombie | 12] (Zombies reagieren immer, bleiben meistens), [MORAL_CHECK: Ghul | 8] — Ghul kann fliehen wenn verwundet. SCHATZ TYP A: [SCHATZ: A] im Hauptsarkophag (der größte, mit Zwergenköniginnen-Gravur). [PROBE: Suchen | 45] findet verdeckte Nische. Inhalt: 500 Kupfer (50 lbs!), 200 Silber (20 lbs), 30 Gold, 1 magisches Schwert +1 (luminesziert schwach blau). BELASTUNG: Kupfer ist das größte GEWICHTS-Problem im Dungeon — 500 KP wiegen 50 lbs allein. LICHT ABSOLUT NOETIG hier: Ohne Licht keine Chance gegen Untote.",
+      "events": [
+        {
+          "trigger": "Betreten der Krypta",
+          "effect": "Absolute Dunkelheit. Ohne Licht: [FAKT: Komplette Dunkelheit — ohne Fackel, Laterne oder Infravision ist hier kein Kampf möglich]. Alle Proben erschwert um 4.",
+          "sets_flag": "krypta_betreten"
+        },
+        {
+          "trigger": "Kleriker versucht Vertreibung",
+          "effect": "[UNTOTE_VERTREIBEN: Klerikerstufe | 2] — Zombies und Ghul gleichzeitig. Bei Erfolg fliehen alle betroffenen Untoten. [XP_GEWINN: 25 pro Zombie, 50 für Ghul]",
+          "sets_flag": null
+        },
+        {
+          "trigger": "Ghul-Treffer (Klaue oder Biss)",
+          "effect": "[RETTUNGSWURF: Lahmung | 13] sofort. Bei Fehlschlag: Charakter gelähmt 1d6+1 Runden. Ghul priorisiert gelähmte Ziele.",
+          "sets_flag": "ghul_gelahmt_spieler"
+        },
+        {
+          "trigger": "50% der Untoten besiegt (2 von 4)",
+          "effect": "[MORAL_CHECK: Zombie | 12] — Zombies wanken weiter. [MORAL_CHECK: Ghul | 8] — Ghul kann abbrechen und fliehen.",
+          "sets_flag": null
+        },
+        {
+          "trigger": "Sarkophag durchsucht (Probe bestanden)",
+          "effect": "[SCHATZ: A] — Inhalt: 500 KP (50 lbs!), 200 SM (20 lbs), 30 GM, Langschwert +1 (blau lumineszierend). [INVENTAR: +500 Kupfer] [INVENTAR: +200 Silber] [INVENTAR: +30 Gold] [INVENTAR: +Langschwert +1]",
+          "sets_flag": null
+        },
+        {
+          "trigger": "Alle Untoten besiegt oder vertrieben",
+          "effect": "Stille kehrt zurück. [XP_GEWINN: 120] für alle Untoten. [ZEIT_VERGEHT: 1d] nach dem Kampf.",
+          "sets_flag": "untote_krypta_geraeumt"
+        }
+      ]
+    },
+    {
+      "id": "wachposten",
+      "name": "Wachposten der Söldner (Ebene 2)",
+      "description": "Eine natürliche Höhlenkammer, umfunktioniert zum Lager. Vier Söldner in leichter Rüstung sitzen um ein Lagerfeuer — das einzige Licht auf dieser Ebene. Sie haben Proviant, Wachen und eine klare Verteidigungsposition hinter umgestürzten Steintischen. Ihr Anführer — Hauptmann Voss in glänzendem Plattenhemd, eine Narbe quer über die Nase — beobachtet den Eingang. Er hat eine Hand am Schwert. Die andere hält einen Becher. Er mustert euch kalt.",
+      "atmosphere": "Warmes Lagerfeuer, Rauch, Bratgeruch. Die Geborgenheit wirkt fast unwirklich nach der Kälte der Krypta. Aber vier Schwerter sind griffbereit.",
+      "npcs_present": ["hauptmann_voss", "soeldner_a", "soeldner_b", "soeldner_c", "soeldner_d"],
+      "clues_available": ["voss_information_wraith", "soeldner_karten"],
+      "exits": {
+        "krypta": "Die Eisenleiter zurück in die Krypta.",
+        "schatzkammer": "Eine massiver Granitblock, halb zur Seite gerückt — dahinter eine Treppe abwärts."
+      },
+      "keeper_notes": "REAKTION PFLICHT: Beim Betreten sofort [REAKTION: Hauptmann Voss | CHA-Mod des Führers der Gruppe] emittieren. 9+: Voss ist bereit zu verhandeln — will 20% des Schatzes oder Bezahlung von 100 GM für freien Durchgang. 6-8: Misstrauisch, aber kein Kampf wenn Spieler nicht aggressiv sind — kann durch Reden zu 7+ gebracht werden mit [PROBE: Ueberredung | 55]. 5-: Voss greift an, seine Männer folgen. MORALE NACH VOSS-TOD PFLICHT: Wenn Voss stirbt — sofort [MORAL_CHECK: Soeldner | 4] (war 8, -4 durch Anführertod). Die meisten Söldner fliehen. WANDERING MONSTER: Lagerfeuer und Lärm ziehen Wandering Monsters an — bei jedem Kampf hier [BEGEGNUNG: Wandering] mit erhöhter Wahrscheinlichkeit (1-3 auf 1d6). VERGIFTETES SCHWERT VOSS: Wenn Voss angreift und trifft — [GIFT: Voss' Schwert | Schaden | 0] dann [RETTUNGSWURF: Gift | 13]. Bei Fehlschlag: zusätzlich 2d6 Giftschaden. INFORMATIONEN VOSS (wenn freundlich): Wraith in der Schatzkammer, Schatzmenge, dass die Truhe SEHR schwer ist. [ZEIT_VERGEHT: 1d] für Verhandlungen.",
+      "events": [
+        {
+          "trigger": "Erstkontakt mit Hauptmann Voss",
+          "effect": "[REAKTION: Hauptmann Voss | CHA-Mod] — 9+ Verhandlung, 6-8 Misstrauen, 5- Angriff sofort",
+          "sets_flag": null
+        },
+        {
+          "trigger": "Einigung mit Voss erreicht (freundlich)",
+          "effect": "Voss akzeptiert Bedingungen. [FAKT: Wraith in der Schatzkammer, nur magische Waffen] [FAKT: Hauptschatz wiegt mindestens 200 lbs — plant sorgfältig]. Söldner lassen passieren.",
+          "sets_flag": "soeldner_verbündet"
+        },
+        {
+          "trigger": "Voss trifft mit vergiftetem Schwert",
+          "effect": "[GIFT: Voss Schwert | Schaden | 0] — [RETTUNGSWURF: Gift | 13]. Bei Fehler: +2d6 Schaden sofort.",
+          "sets_flag": null
+        },
+        {
+          "trigger": "Voss stirbt",
+          "effect": "[MORAL_CHECK: Soeldner | 4] — fast sicheres Fliehen. Söldner fliehen in die Krypta oder den Korridor.",
+          "sets_flag": "voss_tot"
+        },
+        {
+          "trigger": "Söldner-Morale bricht",
+          "effect": "Die Söldner werfen Waffen hin und fliehen schreiend. Lagerfeuer bleibt zurück — Lichtquelle gesichert.",
+          "sets_flag": "soeldner_geflohen"
+        },
+        {
+          "trigger": "Kampf im Wachposten",
+          "effect": "[BEGEGNUNG: Wandering] mit erhöhter Wahrscheinlichkeit — Lärm und Feuer ziehen Untote an.",
+          "sets_flag": null
+        }
+      ]
+    },
+    {
+      "id": "schatzkammer",
+      "name": "Die Schatzkammer von Klan Granitfaust (Ebene 3)",
+      "description": "Die Kammer ist rund, gewölbt, aus poliertem Granit — die einzige perfekt erhaltene Kammer der ganzen Festung. Und sie ist voll. Münzberge bis zur Hüfte. Schmuckkisten aus Ebenholz. Ein Schwert auf einem Sockel, in Stasis-Runen eingeschlossen. Zehn Wandfackeln in goldenen Haltern brennen ewig — magisches Feuer. Aber in der Mitte schwebt etwas. Etwas das kein Licht wirft sondern Licht verschluckt. Ein Wraith, dessen Umriss dort aufhört wo Schatten anfangen sollte. Er dreht sich langsam. Er bemerkt euch.",
+      "atmosphere": "Goldenes Licht der ewigen Fackeln. Der Reichtum riecht nach altem Metall und Staub. Aber in der Mitte: eine Kälte die bis in die Knochen kriecht. Der Wraith macht kein Geräusch.",
+      "npcs_present": ["wraith_waechter"],
+      "clues_available": ["zwerg_inschrift_schatz", "schatz_typ_h"],
+      "exits": {
+        "wachposten": "Die Treppe zurück zum Wachposten."
+      },
+      "keeper_notes": "WRAITH KAMPF: Wraith kann NUR durch magische Waffen getroffen werden — nichtmagische Waffen gehen direkt durch ihn. Immun gegen Gift, Schlaf, Lähmung, Kälte. ENERGIEENTZUG: Bei jedem Treffer [RETTUNGSWURF: Tod | 16]. Bei Fehlschlag: dauerhafter Verlust einer Erfahrungsstufe. UNTOTE VERTREIBEN: Kleriker kann versuchen [UNTOTE_VERTREIBEN: Klerikerstufe | 5]. Wraith HD 5 — erst Stufe 7+ kann ihn automatisch vertreiben. Stufe 5-6: muss 2d6 würfeln. Unter Stufe 5: unmöglich. ZWEITE GIFTNADEL: Die Schatztruhe mit dem magischen Schwert hat eine ZWEITE Giftnadelfalle. [PROBE: Fallen-Suchen | 60] (schwieriger). [GIFT: Schatz-Nadelgift | Tod | -4] wenn nicht entdeckt. [RETTUNGSWURF: Gift | 16] — schwerste Gift im Dungeon. SCHATZ TYP H PFLICHT: [SCHATZ: H] sofort beim Betreten sichtbar. Inhalt: 10.000 KP (1000 lbs!), 3.000 SM (300 lbs), 1.000 GM (100 lbs), 2 Juwelen (Saphir 500 GP, Rubin 250 GP), 1 Heiltrank (4d4), Schwert +2 (in Stasis-Truhe). BELASTUNG KRITISCH: Der volle Schatz wiegt über 1.400 lbs — unmöglich alles zu tragen. Spieler müssen AUSWÄHLEN was sie mitnehmen. Gold: 100 GM = 10 lbs. Priorisierung erzwingen: [BELASTUNG: Charname | Ziel-Gewicht]. Soeldner als Träger (wenn Verbündete): können 50 lbs pro Mann zusätzlich tragen. LICHT: Ewige Fackeln — kein Licht-Problem mehr. [XP_GEWINN: 1000] für Wraith-Besiegung. [XP_GEWINN: 500] für das Erreichen der Schatzkammer.",
+      "events": [
+        {
+          "trigger": "Eintreten in die Schatzkammer",
+          "effect": "[SCHATZ: H] — Sofort sichtbar: Münzberge, Juwelen, magisches Schwert. Wraith reagiert sofort. [XP_GEWINN: 500] für das Erreichen dieser Kammer.",
+          "sets_flag": "schatzkammer_betreten"
+        },
+        {
+          "trigger": "Kleriker versucht Wraith zu vertreiben",
+          "effect": "[UNTOTE_VERTREIBEN: Klerikerstufe | 5] — HD 5. Nur Stufe 7+ automatisch. Stufe 5-6: 2d6 Roll 7+ nötig. Unter Stufe 5: unmöglich, Kleriker verliert 1 Runde.",
+          "sets_flag": null
+        },
+        {
+          "trigger": "Wraith trifft (mit Energieentzug)",
+          "effect": "[RETTUNGSWURF: Tod | 16] sofort. Bei Fehlschlag: dauerhaft -1 Stufe. Charakter verliert Erfahrungspunkte entsprechend.",
+          "sets_flag": null
+        },
+        {
+          "trigger": "Stasis-Truhe berührt ohne Suchen",
+          "effect": "[GIFT: Schatz-Nadelgift | Tod | -4] — schwerste Variante. [RETTUNGSWURF: Gift | 16]. Fehler: Tod in 1 Runde.",
+          "sets_flag": "zweite_nadelfalle_ausgeloest"
+        },
+        {
+          "trigger": "Spieler wollen Schatz bergen",
+          "effect": "[BELASTUNG: Charaktername | berechnetes_Gewicht] — Keeper rechnet explizit: 100 GM = 10 lbs, 100 SM = 10 lbs, 100 KP = 10 lbs. Spieler müssen priorisieren.",
+          "sets_flag": null
+        },
+        {
+          "trigger": "Wraith besiegt",
+          "effect": "[XP_GEWINN: 1000] Wraith löst sich in Schatten auf. Der Schatz ist frei. [ZEIT_VERGEHT: 2d] um den Schatz zu sichten und zu verteilen.",
+          "sets_flag": "wraith_besiegt"
+        },
+        {
+          "trigger": "Schatz endgültig geborgen und Kammer verlassen",
+          "effect": "[FAKT: Der Schatz von Klan Granitfaust ist geborgen. Der Klan kann eines Tages neu gegründet werden.] [XP_GEWINN: 2000] für das Abschließen des Abenteuers.",
+          "sets_flag": "hauptschatz_gefunden"
+        }
+      ]
+    }
+  ],
+  "npcs": [
+    {
+      "id": "gareth_soeldner",
+      "name": "Gareth der Söldner",
+      "description": "Ein schlanker Mann mittlerer Jahre mit grauem Schläfenhaar und einem ehrlichen Gesicht. Seine Ausrüstung ist gut gepflegt aber alt. Das eingeklemmte Bein schwillt an — er hat Schmerzen aber hält durch. Sein Kettenhemd hat eine frische Delle vom Sturz.",
+      "stats": {"ac": 4, "hp": 6, "hp_max": 12, "thac0": 18, "schaden": "1d8 (Langschwert)"},
+      "behavior": "Reagiert auf CHA-Wurf. Freundlich: will Hilfe, teilt Informationen, begleitet als Träger (trägt bis 80 lbs). Feindlich: greift an wenn befreit — hinterlistig, wartet auf falsches Moment.",
+      "secrets": "Gareth war Teil einer früheren Expedition vor 3 Jahren. Er weiß dass die Giftnadel echt ist — er hat einen Kameraden daran verloren.",
+      "reaction": "1d6 Wandering Monster Check wenn befreit (Geräusch beim Stein-Entfernen)"
+    },
+    {
+      "id": "snaggle_haendler",
+      "name": "Snaggle der Goblin-Händler",
+      "description": "Ein ungewöhnlich gut gekleideter Goblin mit einer gelben Fahne am Rücken und einem Ledergürtel voller kleiner Beutel. Die Augen sind zu clever für einen normalen Goblin. Er spricht akzentfreies Gemeinsam.",
+      "stats": {"ac": 7, "hp": 5, "thac0": 20, "schaden": "1d4 (Dolch)", "morale": 5},
+      "behavior": "Freundlich bei 9+ Reaktion: Handel, Gerüchte, Warnung. Neutral: knapper Handel, keine Gerüchte. Feindlich: flieht sofort, Bodyguards decken Flucht.",
+      "secrets": "Snaggle hat selbst den Schatz gesehen — durch ein Loch in der Decke. Er weiß genau wie viel dort liegt. Er ist deshalb HIER und wartet auf Abenteurer die die schwere Arbeit erledigen und von denen er dann kaufen kann.",
+      "inventory": ["Fackeln x6 (1 GP für 3)", "Seil 50 Fuss (1 GP)", "Heiltrank 1d6+1 (30 GP)", "Ölflasche x4 (5 SP je)", "Hartes Brot x5 (2 KP je)"]
+    },
+    {
+      "id": "goblin_bodyguard_1",
+      "name": "Goblin-Bodyguard Krix",
+      "description": "Ein breitschultriger Goblin mit einem zu großen Langschwert und einem selbstbewussten Grinsen. Er ist echte Bedrohung.",
+      "stats": {"ac": 5, "hp": 7, "thac0": 19, "schaden": "1d8 (Langschwert)", "morale": 8},
+      "behavior": "Folgt Snaggle's Befehlen. Kämpft bis Morale bricht."
+    },
+    {
+      "id": "goblin_bodyguard_2",
+      "name": "Goblin-Bodyguard Vrix",
+      "description": "Krix' kleinerer Bruder — genauso brutal, etwas schneller. Hat einen Kurzspeer zusätzlich.",
+      "stats": {"ac": 5, "hp": 6, "thac0": 19, "schaden": "1d6 (Kurzspeer) oder 1d8 (Langschwert)", "morale": 8},
+      "behavior": "Kämpft solidarisch mit Krix. Wenn Krix fällt: [MORAL_CHECK: Vrix | 6]."
+    },
+    {
+      "id": "skelett_1",
+      "name": "Zwergenskelett (Wache)",
+      "description": "Ein Skelett in verrosteter Zwergenkettenjuppe, bewaffnet mit einem Kurzschwert aus rostfreiem Stahl.",
+      "stats": {"ac": 7, "hp": 8, "thac0": 19, "schaden": "1d6", "morale": 12},
+      "behavior": "Patrouilliert. Greift alles Lebende an. Immun gegen Schlaf, Bezauberung, Kälte. Halber Schaden durch Schwerter/Pfeile."
+    },
+    {
+      "id": "skelett_2",
+      "name": "Zwergenskelett (Bogenschütze)",
+      "description": "Ein Skelett mit einem kurzen Zwergen-Kompositbogen und Pfeilköcher.",
+      "stats": {"ac": 7, "hp": 6, "thac0": 20, "schaden": "1d6 (Bogen, Reichweite 50/100/150 Fuss)", "morale": 12},
+      "behavior": "Bleibt auf Distanz, schießt auf Lebende. Immun gegen Schlaf/Bezauberung."
+    },
+    {
+      "id": "skelett_3",
+      "name": "Zwergenskelett (Speer)",
+      "description": "Ein Skelett mit einem langen Speer — greift aus zweiter Reihe an.",
+      "stats": {"ac": 7, "hp": 7, "thac0": 19, "schaden": "1d6 (Speer, Reichweite)", "morale": 12},
+      "behavior": "Nutzt Reichweitenvorteil. Kämpft methodisch."
+    },
+    {
+      "id": "skelett_4",
+      "name": "Zwergenskelett (Streitaxt)",
+      "description": "Das größte Skelett — ein ehemaliger Krieger, trägt eine rostige Streitaxt.",
+      "stats": {"ac": 7, "hp": 9, "thac0": 18, "schaden": "1d8 (Streitaxt)", "morale": 12},
+      "behavior": "Aggressivster der Skelette. Zielt auf stärksten sichtbaren Gegner."
+    },
+    {
+      "id": "zombie_1",
+      "name": "Zwergenzombie",
+      "description": "Ein aufgedunsener Zwergenleichnam, die Gesichtszüge nicht mehr erkennbar. Bewegt sich zielstrebig aber langsam.",
+      "stats": {"ac": 8, "hp": 12, "thac0": 19, "schaden": "1d8 (Schlag)", "morale": 12},
+      "behavior": "Immer letzter in Initiative. Immun gegen Schlaf, Bezauberung, Gift, Kälte. Bewegt sich auf nächstes Lebewesen zu."
+    },
+    {
+      "id": "zombie_2",
+      "name": "Zwergenzombie",
+      "description": "Identisch zum ersten Zombie. Zwei wandern oft gemeinsam.",
+      "stats": {"ac": 8, "hp": 11, "thac0": 19, "schaden": "1d8", "morale": 12},
+      "behavior": "Wie Zombie_1. Flankiert wenn möglich."
+    },
+    {
+      "id": "zombie_3",
+      "name": "Zwergenzombie (größer)",
+      "description": "Ein besonders massiver Zombie — vielleicht ein ehemaliger Steinbrecher. Der Schlag ist schwerer.",
+      "stats": {"ac": 8, "hp": 14, "thac0": 18, "schaden": "1d10 (schwerer Schlag)", "morale": 12},
+      "behavior": "Zielt auf schwer gerüstete Ziele. Ignoriert Schmerz völlig."
+    },
+    {
+      "id": "ghul_schatten",
+      "name": "Ghul der Tiefe",
+      "description": "Eine schnelle, gebeugte Gestalt mit vier zu langen Gliedmaßen. Die Augen glühen grün. Die Klauen — das ist das Gefährlichste — sehen frisch aus.",
+      "stats": {"ac": 6, "hp": 10, "thac0": 18, "schaden": "1d3/1d3/1d6 (Kralle/Kralle/Beiss)", "morale": 9},
+      "behavior": "Lähmung bei Treffer — [RETTUNGSWURF: Lahmung | 13]. Priorisiert gelähmte Ziele. Kämpft schlau, kein blinder Draufgänger. Bei Morale-Fehlschlag flieht er in Nischen.",
+      "special": "Lähmungs-Angriff: Jeder Treffer löst Rettungswurf aus. Elfenvolk immun gegen Lähmung."
+    },
+    {
+      "id": "hauptmann_voss",
+      "name": "Hauptmann Voss",
+      "description": "Ein mittelgroßer Mann mit einem Gesicht wie verwitterter Stein. Das Plattenhemd ist geputzt. Das Schwert ist zu gut für einen normalen Söldner. Die Narbe quer über die Nase gibt ihm einen einschüchternden Ausdruck. Er hat kalte, rechnende Augen.",
+      "stats": {"ac": 3, "hp": 22, "thac0": 16, "schaden": "1d8+2 (Langschwert +1, vergiftet)", "morale": 10},
+      "behavior": "Kaltes Kalkül. Verhandelt wenn es sich lohnt, kämpft wenn nicht. Vergiftetes Schwert: [GIFT: Voss Schwert | Schaden | 0] bei Treffer.",
+      "secrets": "Voss hat drei weitere Expedition-Söldner auf dem Rückweg verloren. Er ist der einzige Überlebende seiner Gruppe und will lebend heraus — mit Gold. Das macht ihn verhandelbar."
+    },
+    {
+      "id": "soeldner_a",
+      "name": "Söldner Werner",
+      "description": "Junger Mann, nervöse Hände. Zu jung für diesen Job.",
+      "stats": {"ac": 5, "hp": 9, "thac0": 18, "schaden": "1d8", "morale": 8},
+      "behavior": "Folgt Voss. Bei Voss-Tod: [MORAL_CHECK: Werner | 4] — flieht fast sicher."
+    },
+    {
+      "id": "soeldner_b",
+      "name": "Söldnerin Marta",
+      "description": "Erfahrene Kämpferin, kurzes graues Haar. Respektiert Kompetenz.",
+      "stats": {"ac": 5, "hp": 12, "thac0": 18, "schaden": "1d8", "morale": 8},
+      "behavior": "Kämpft solide. Bei Voss-Tod: kann verhandelt werden [PROBE: Ueberredung | 55] — sie trägt dann Schatz wenn fair bezahlt."
+    },
+    {
+      "id": "soeldner_c",
+      "name": "Söldner Brann",
+      "description": "Massiver Mann, redet wenig, trägt einen Zweihänder.",
+      "stats": {"ac": 6, "hp": 14, "thac0": 17, "schaden": "2d6 (Zweihänder)", "morale": 9},
+      "behavior": "Stärkster der Söldner. Bei Voss-Tod: [MORAL_CHECK: Brann | 4]."
+    },
+    {
+      "id": "soeldner_d",
+      "name": "Söldner Pip",
+      "description": "Kleiner, flinker Halblingsgröße. Spricht zu viel wenn nervös.",
+      "stats": {"ac": 4, "hp": 7, "thac0": 19, "schaden": "1d6", "morale": 7},
+      "behavior": "Ersten Anzeichen von Gefahr: [MORAL_CHECK: Pip | 7] — flieht früh."
+    },
+    {
+      "id": "wraith_waechter",
+      "name": "Der Wraith von Granitfaust",
+      "description": "Einst der letzte Wächter des Klans, nun ein ätherischer Schrecken. Kein Gesicht, keine Gestalt — nur ein Schatten der sich gegen die Richtung des Lichts bewegt. Die Kälte die er ausstrahlt ist körperlich spürbar.",
+      "stats": {"ac": 4, "hp": 30, "thac0": 15, "schaden": "1d6 + Energieentzug", "morale": 12},
+      "behavior": "Bewacht die Kammer. Greift alles an das nicht Untot ist. NUR durch magische Waffen verwundbar. Energieentzug bei JEDEM Treffer: [RETTUNGSWURF: Tod | 16]. Kein Morale-Check — verteidigt bis zur Zerstörung.",
+      "special": "Immun gegen: Gift, Kälte, Schlaf, Lähmung, Geist-Zauber. Nicht treffbar durch nichtmagische Waffen. Turn Undead möglich nur ab Klerikerstufe 5."
+    }
+  ],
+  "clues": [
+    {
+      "id": "zwergeninschrift_tor",
+      "description": "Eine Warninschrift in Zwergisch: 'Wer Granitfausts Gold begehrt, zahle mit Schweiß, Blut und Verstand. Die Wächter schlafen nicht. Die Dunkelheit lebt. Nimm nur was du tragen kannst.'",
+      "location": "zerbrochenes_tor",
+      "skill_required": "Zwergensprache",
+      "difficulty": 50
+    },
+    {
+      "id": "soeldner_warnung",
+      "description": "Gareth flüstert atemlos: 'Die Skelette kommen alle paar Minuten — immer wieder neue. Und die Truhe im engen Gang — um Gottes willen nicht einfach öffnen.'",
+      "location": "zerbrochenes_tor",
+      "skill_required": null,
+      "difficulty": 0
+    },
+    {
+      "id": "zwergen_wandfresko",
+      "description": "Ein verblasstes Wandfresko zeigt Zwerge die Schätze stapeln, darüber einen geisterhaften Wächter — und darunter den Text: 'Der Granitfaust-Geist bleibt bis der letzte Klan-Erbe zurückkehrt.'",
+      "location": "grosse_halle",
+      "skill_required": "Geschichte",
+      "difficulty": 45
+    },
+    {
+      "id": "schatz_typ_c",
+      "description": "Unter den Trümmern der Banketttische glänzt Silber. Eine Ledertasche voller Münzen, aufgeplöst vom Alter.",
+      "location": "grosse_halle",
+      "skill_required": "Suchen",
+      "difficulty": 50
+    },
+    {
+      "id": "snaggle_geruecht_wraith",
+      "description": "Snaggle flüstert: 'Der Wraith in der untersten Kammer — nur magische Waffen! Ich habe einen Söldner mit einem normalen Schwert hineingehen sehen. Das Schwert ging durch. Der Mann... blieb dort.'",
+      "location": "lagerraum",
+      "skill_required": null,
+      "difficulty": 0
+    },
+    {
+      "id": "snaggle_warnung_gift",
+      "description": "Snaggle zeigt seinen rechten Zeigefinger — eine kleine Narbe. 'Die Truhe im engen Gang. Ich bin drum herum geklettert. Mein Vorgänger nicht. Er ist... nicht mehr hier.'",
+      "location": "lagerraum",
+      "skill_required": null,
+      "difficulty": 0
+    },
+    {
+      "id": "truhen_gravur",
+      "description": "Die Gravur auf der Truhe zeigt zwei gekreuzte Hämmer — das Symbol der Granitfaust-Schmiede — und darunter eine Warnung in Zwergisch: 'Ungebetene Hand: Tod.'",
+      "location": "giftkorridor",
+      "skill_required": "Zwergensprache",
+      "difficulty": 45
+    },
+    {
+      "id": "schatz_typ_b_inhalt",
+      "description": "Die Truhe enthält Münzen in einem Ledersack und eine versiegelte Schriftrollenröhre.",
+      "location": "giftkorridor",
+      "skill_required": null,
+      "difficulty": 0
+    },
+    {
+      "id": "sarkophag_hauptahnin",
+      "description": "Der größte Sarkophag trägt die Gravur: 'Hier ruht Grorin Granitfaust, Ahnmutter des Klans. Möge ihr Schwert das Gold der Kammer für ewig hüten.'",
+      "location": "krypta",
+      "skill_required": "Zwergensprache",
+      "difficulty": 40
+    },
+    {
+      "id": "schatz_typ_a",
+      "description": "Hinter einer verdeckten Nische im Sarkophag liegt eine Schatulle mit dem Granitfaust-Wappen und das Schwert der Ahnmutter.",
+      "location": "krypta",
+      "skill_required": "Suchen",
+      "difficulty": 45
+    },
+    {
+      "id": "voss_information_wraith",
+      "description": "Voss erzählt nüchtern: 'Wir haben drei Mann verloren bevor wir begriffen haben dass normale Waffen dort unten nutzlos sind. Der Wraith... er saugt die Lebenskraft aus. Wer ohne magische Waffe kämpft, stirbt.'",
+      "location": "wachposten",
+      "skill_required": null,
+      "difficulty": 0
+    },
+    {
+      "id": "soeldner_karten",
+      "description": "Marta zeigt eine grob gezeichnete Karte des Dungeons — Söldner-Stil, aber präzise. Die Schatzkammer ist eingezeichnet, darunter: '200+ lbs MINIMUM. Brauchen Träger oder leichtes Equipment.'",
+      "location": "wachposten",
+      "skill_required": null,
+      "difficulty": 0
+    },
+    {
+      "id": "zwerg_inschrift_schatz",
+      "description": "Über dem Eingang der Schatzkammer in großen Lettern gemeißelt: 'Alles was hier liegt gehört dem Klan. Nimmt ein Fremder es, geht der Fluch des Granitfaust-Geistes mit ihm — bis ein Klan-Erbe es zurückfordert oder der Fremde es für das Wohl der Welt einsetzt.'",
+      "location": "schatzkammer",
+      "skill_required": "Zwergensprache",
+      "difficulty": 35
+    },
+    {
+      "id": "schatz_typ_h",
+      "description": "Der legendäre Schatz von Klan Granitfaust: Münzberge, Juwelen, ein magisches Schwert auf einem Sockel. Mindestens 1400 lbs Gesamtgewicht. Kein Mensch kann das allein tragen.",
+      "location": "schatzkammer",
+      "skill_required": null,
+      "difficulty": 0
+    }
+  ],
+  "resolution": {
+    "success": "Der Wraith ist besiegt, der Schatz — so viel sie tragen konnten — ist geborgen. Klan Granitfaust ist nicht vergessen. Was sie trugen, bestimmt ihren Reichtum. Was sie zurückließen, wartet vielleicht auf eine Rückkehr.",
+    "partial_success": "Der Schatz ist teilweise geborgen aber der Wraith trieb sie zurück. Gareth (wenn gerettet) führt sie heraus. Der Dungeon liegt noch.",
+    "failure": "Niemand kehrt zurück. Die Fackeln in der Schatzkammer brennen ewig über dem unberührten Reichtum.",
+    "condition": "hauptschatz_gefunden == true",
+    "xp_summary": {
+      "skelette_4x": 60,
+      "zombies_3x": 75,
+      "ghul": 120,
+      "wraith": 1000,
+      "voss_und_soeldner": 200,
+      "goblin_bodyguards": 40,
+      "fallen_entschaerft": 100,
+      "gareth_gerettet": 20,
+      "schatzkammer_erreicht": 500,
+      "abenteuer_abgeschlossen": 2000,
+      "gesamt_maximum": 4115
+    }
+  }
+}

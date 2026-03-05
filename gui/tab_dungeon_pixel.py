@@ -246,7 +246,7 @@ class DungeonPixelTab(ttk.Frame):
         self._door_img = A("door_open.png")
 
         # Deko
-        self._column_img = A("column.png", (TILE, 32))
+        self._column_img = A("column.png", fallback_size=(TILE, 32))
         self._chest_img = A("chest_closed.png")
         self._skull_img = A("skull.png")
 
@@ -269,8 +269,30 @@ class DungeonPixelTab(ttk.Frame):
         # NPC-Sprites
         self._npc_img = A("npc_merchant.png")
 
-        logger.info("Pixel-Dungeon Assets geladen (%d Heroes, %d Monster)",
-                     len(self._hero_imgs), len(self._monster_imgs))
+        # Generierte Sprites (von SpriteExtractor)
+        self._load_generated_sprites()
+
+        logger.info("Pixel-Dungeon Assets geladen (%d Heroes, %d Monster, %d generated)",
+                     len(self._hero_imgs), len(self._monster_imgs),
+                     len(getattr(self, "_generated_sprites", {})))
+
+    def _load_generated_sprites(self) -> None:
+        """Laedt generierte Sprites aus data/tilesets/generated/."""
+        from gui.pixel_renderer import GENERATED_DIR as _GEN_DIR
+        self._generated_sprites: dict[str, "Image.Image"] = {}
+        if not os.path.isdir(_GEN_DIR):
+            return
+        for fname in os.listdir(_GEN_DIR):
+            if not fname.endswith(".png") or fname.startswith("_"):
+                continue
+            if fname.startswith("sprite_"):
+                sprite_id = fname[len("sprite_"):-len(".png")]
+                self._generated_sprites[sprite_id] = _load_asset(
+                    fname, _GEN_DIR)
+            elif fname.startswith("monster_") and fname.endswith("_01.png"):
+                key = fname[len("monster_"):-len("_01.png")]
+                if key not in self._monster_imgs:
+                    self._monster_imgs[key] = _load_asset(fname, _GEN_DIR)
 
     # ── Event-Handler ────────────────────────────────────────────────────────
 
@@ -609,8 +631,15 @@ class DungeonPixelTab(ttk.Frame):
                 continue
 
             sprite = self._get_entity_sprite(ent)
+            sp_w, sp_h = sprite.size
             px, py = vx * TILE, vy * TILE
-            src.paste(sprite, (px, py), sprite)
+            # Grosse Sprites zentriert auf Tile-Position
+            if sp_w > TILE or sp_h > TILE:
+                offset_x = -(sp_w - TILE) // 2
+                offset_y = -(sp_h - TILE) // 2
+                src.paste(sprite, (px + offset_x, py + offset_y), sprite)
+            else:
+                src.paste(sprite, (px, py), sprite)
 
             # HP-Balken
             bw = TILE
@@ -829,11 +858,33 @@ class DungeonPixelTab(ttk.Frame):
     # ── Entity-Sprite-Zuordnung ──────────────────────────────────────────────
 
     def _get_entity_sprite(self, ent: Any) -> "Image.Image":
-        """Mappt GridEntity auf ein Pixel-Art-Sprite."""
+        """Mappt GridEntity auf ein Pixel-Art-Sprite.
+
+        Prioritaet:
+          1. sprite_{entity_id}.png in generated/ (exakter ID-Match)
+          2. Name-Keywords in generated/ + monster_imgs
+          3. MONSTER_MAP Fallback
+        """
         if ent.entity_type == "party_member":
             sym = ent.symbol if ent.symbol in self._hero_imgs else "?"
             return self._hero_imgs.get(sym, self._hero_imgs["?"])
 
+        # Fuer Monster und NPCs: generierte Sprites zuerst pruefen
+        gen = getattr(self, "_generated_sprites", {})
+
+        # 1. Exakter ID-Match
+        eid = getattr(ent, "entity_id", "")
+        if eid and eid in gen:
+            return gen[eid]
+
+        # 2. Normalisierter Name-Match
+        import re as _re
+        name_norm = _re.sub(r"[^a-z0-9_]", "_", ent.name.lower())
+        name_norm = _re.sub(r"_+", "_", name_norm).strip("_")
+        if name_norm in gen:
+            return gen[name_norm]
+
+        # 3. Keyword-Match in monster_imgs
         if ent.entity_type == "monster":
             name_lower = ent.name.lower()
             for keyword, img in self._monster_imgs.items():

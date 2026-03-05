@@ -5,18 +5,29 @@ Zentrale Steuerung fuer automatisierte Testreihen.
 
 Subcommands:
   run       Startet einen Testbatch (wraps test_series.run_series)
+  run -t rules  Deterministischer Regelwerk-Test (kein AI, kein Netzwerk)
   results   Uebersichtstabelle aller Serien oder Detail-Ansicht
   status    Zeigt laufende Tests (pollt progress-Files)
   cleanup   Loescht alte Ergebnisse
 
 Verwendung:
   py -3 scripts/testbot.py run -t investigation -n 10
-  py -3 scripts/testbot.py run -t 6 -n 5 -m add_2e --turns 8
+  py -3 scripts/testbot.py run -t 5 -n 5 -m add_2e --turns 8
+  py -3 scripts/testbot.py run -t rules
+  py -3 scripts/testbot.py run -t rules --rules-mode unit --seed 42
+  py -3 scripts/testbot.py run -t rules --rules-mode matrix --matrix-iterations 500
   py -3 scripts/testbot.py results
-  py -3 scripts/testbot.py results --job series_cthulhu_7e_case2_100runs_20260302.json
+  py -3 scripts/testbot.py results --job series_add_2e_case2_10runs_20260302.json
   py -3 scripts/testbot.py status
   py -3 scripts/testbot.py cleanup --older-than 7
   py -3 scripts/testbot.py cleanup --older-than 30 --dry-run
+
+Remote-Jobs (Ausfuehrung auf Server via Shared Folder):
+  py -3 scripts/testbot.py remote run -t rules --wait
+  py -3 scripts/testbot.py remote run -t dungeon_crawl --runs 5 --turns 10
+  py -3 scripts/testbot.py remote run -t virtual_player --adventure goblin_cave
+  py -3 scripts/testbot.py remote status
+  py -3 scripts/testbot.py remote list --hours 48
 """
 
 from __future__ import annotations
@@ -44,12 +55,15 @@ CASE_NAMES: dict[str, int] = {
     "generic": 1,
     "investigation": 2,
     "combat": 3,
-    "horror": 4,
-    "social": 5,
-    "dungeon_crawl": 6,
-    "party_dungeon_crawl": 7,
+    "social": 4,
+    "dungeon_crawl": 5,
+    "party_dungeon_crawl": 6,
+    "rules": 7,
 }
 CASE_IDS: dict[int, str] = {v: k for k, v in CASE_NAMES.items()}
+
+# Sonder-Case: rules_tester (kein AI, deterministisch)
+_RULES_CASE_ID = 7
 
 
 def _resolve_case(value: str) -> int:
@@ -85,10 +99,17 @@ def _fmt_size(size_bytes: int) -> str:
 # ── run ─────────────────────────────────────────────────────────────
 
 def cmd_run(args: argparse.Namespace) -> None:
-    """Startet einen Testbatch via test_series.run_series()."""
+    """Startet einen Testbatch via test_series oder rules_tester."""
+    case_id = _resolve_case(args.type)
+
+    # ── Sonderfall: deterministischer Regelwerk-Test ─────────────────
+    if case_id == _RULES_CASE_ID:
+        _cmd_run_rules(args)
+        return
+
+    # ── Standard: AI-basierte Testreihe ─────────────────────────────
     from scripts.test_series import run_series, analyze_series, save_series_report
 
-    case_id = _resolve_case(args.type)
     case_name = CASE_IDS[case_id]
 
     print(f"\n  Testbot: Starte Batch")
@@ -115,6 +136,53 @@ def cmd_run(args: argparse.Namespace) -> None:
     json_path = save_series_report(results, report, args.module, case_id)
     print(f"  Report gespeichert: {json_path}")
     print(f"  Text-Report: {json_path.with_suffix('.txt')}\n")
+
+
+def _cmd_run_rules(args: argparse.Namespace) -> None:
+    """Deterministischer Regelwerk-Test via rules_tester.py (kein AI)."""
+    import subprocess
+
+    rules_mode = getattr(args, "rules_mode", "all")
+    seed = getattr(args, "seed", 42)
+    matrix_iter = getattr(args, "matrix_iterations", 1000)
+    group = getattr(args, "group", None)
+
+    print(f"\n  Testbot: Regelwerk-Test (deterministisch, kein AI)")
+    print(f"  Modus: {rules_mode} | Seed: {seed} | Matrix-Iter: {matrix_iter}")
+    if group:
+        print(f"  Gruppe: {group}")
+    print()
+
+    cmd = [
+        sys.executable,
+        str(_ROOT / "scripts" / "rules_tester.py"),
+        "run",
+        f"--{rules_mode}",
+        "--seed", str(seed),
+        "--matrix-iterations", str(matrix_iter),
+    ]
+    if group:
+        cmd.extend(["--group", group])
+
+    result = subprocess.run(cmd, cwd=str(_ROOT))
+
+    # Status/Trends nach erfolgreichem Lauf anzeigen
+    if result.returncode == 0:
+        print(f"\n  {'='*60}")
+        print(f"  Regelwerk-Test BESTANDEN")
+        print(f"  {'='*60}")
+        # Kurzstatus
+        subprocess.run(
+            [sys.executable, str(_ROOT / "scripts" / "rules_tester.py"),
+             "status", "--last", "1"],
+            cwd=str(_ROOT),
+        )
+    else:
+        print(f"\n  {'='*60}")
+        print(f"  Regelwerk-Test FEHLGESCHLAGEN (Exit-Code: {result.returncode})")
+        print(f"  {'='*60}")
+
+    sys.exit(result.returncode)
 
 
 # ── results ─────────────────────────────────────────────────────────
@@ -420,6 +488,147 @@ def cmd_cleanup(args: argparse.Namespace) -> None:
     print()
 
 
+# ── remote ─────────────────────────────────────────────────────────
+
+def cmd_remote(args: argparse.Namespace) -> None:
+    """Dispatch fuer remote-Subcommands."""
+    sub = getattr(args, "remote_command", None)
+    if sub == "run":
+        _remote_run(args)
+    elif sub == "status":
+        _remote_status(args)
+    elif sub == "list":
+        _remote_list(args)
+    else:
+        print("  Unbekannter remote-Subcommand. Verwende: run, status, list")
+
+
+def _remote_run(args: argparse.Namespace) -> None:
+    """Reicht einen Job via job_client ein."""
+    from scripts.job_client import submit_job, wait_for_job
+
+    case_name = args.type
+    # Job-Typ bestimmen
+    if case_name == "virtual_player":
+        job_type = "virtual_player"
+        params = {
+            "module": args.module,
+            "adventure": args.adventure,
+            "turns": args.turns,
+            "save": True,
+            "turn_delay": 2.0,
+        }
+    elif case_name == "rules":
+        job_type = "testbot"
+        params = {
+            "type": "rules",
+            "rules_mode": getattr(args, "rules_mode", "all"),
+            "seed": getattr(args, "seed", 42),
+            "matrix_iterations": getattr(args, "matrix_iterations", 1000),
+            "group": getattr(args, "group", None),
+        }
+    else:
+        job_type = "testbot"
+        params = {
+            "type": case_name,
+            "module": args.module,
+            "runs": args.runs,
+            "turns": args.turns,
+            "adventure": args.adventure,
+        }
+
+    job = submit_job(job_type, params)
+    job_id = job["job_id"]
+    print(f"\n  Remote-Job eingereicht: {job_id}")
+    print(f"  Typ: {job_type} | Params: {json.dumps(params, ensure_ascii=False)}")
+
+    if args.wait:
+        print(f"  Warte auf Ergebnis (Timeout: {args.wait_timeout}s)...\n")
+        result = wait_for_job(job_id, poll_interval=10, timeout=args.wait_timeout)
+        if result:
+            status = result.get("status", "?")
+            exit_code = result.get("server", {}).get("exit_code", "?")
+            print(f"\n  {'='*60}")
+            print(f"  Job {job_id}: {status.upper()} (exit_code: {exit_code})")
+            if result.get("result", {}).get("report_path"):
+                print(f"  Report: {result['result']['report_path']}")
+            if result.get("result", {}).get("error"):
+                print(f"  Fehler: {result['result']['error']}")
+            stdout_tail = result.get("result", {}).get("stdout_tail", "")
+            if stdout_tail:
+                print(f"\n  --- Letzte Ausgabe ---")
+                for line in stdout_tail.splitlines()[-20:]:
+                    print(f"  {line}")
+            print(f"  {'='*60}")
+        else:
+            print(f"\n  Timeout — Job {job_id} laeuft moeglicherweise noch.")
+            print(f"  Pruefe mit: py -3 scripts/testbot.py remote status")
+    else:
+        print(f"\n  Job laeuft im Hintergrund.")
+        print(f"  Status pruefen: py -3 scripts/testbot.py remote status")
+    print()
+
+
+def _remote_status(args: argparse.Namespace) -> None:
+    """Zeigt Status aller Remote-Jobs."""
+    from scripts.job_client import list_jobs
+
+    jobs = list_jobs(max_age_hours=getattr(args, "hours", 24))
+    if not jobs:
+        print("  Keine Remote-Jobs gefunden.")
+        return
+
+    print(f"\n  {'ID':<10} {'Typ':<16} {'Status':<18} {'Von':<14} "
+          f"{'Erstellt':<20} {'Exit':>5}")
+    print(f"  {'-'*10} {'-'*16} {'-'*18} {'-'*14} {'-'*20} {'-'*5}")
+
+    for j in jobs:
+        jid = j.get("job_id", "?")
+        jtype = j.get("job_type", "?")
+        status = j.get("status", j.get("_dir", "?"))
+        req = j.get("requester", "?")
+        created = j.get("created_at", "?")[:19]
+        exit_code = j.get("server", {}).get("exit_code", "")
+        exit_str = str(exit_code) if exit_code is not None else ""
+        print(f"  {jid:<10} {jtype:<16} {status:<18} {req:<14} {created:<20} {exit_str:>5}")
+
+    print(f"\n  Gesamt: {len(jobs)} Jobs\n")
+
+
+def _remote_list(args: argparse.Namespace) -> None:
+    """Listet Remote-Jobs mit mehr Detail."""
+    from scripts.job_client import list_jobs
+
+    hours = getattr(args, "hours", 24)
+    jobs = list_jobs(max_age_hours=hours)
+    if not jobs:
+        print(f"  Keine Remote-Jobs in den letzten {hours}h gefunden.")
+        return
+
+    print(f"\n  Remote-Jobs (letzte {hours}h): {len(jobs)}\n")
+    for j in jobs:
+        jid = j.get("job_id", "?")
+        status = j.get("status", j.get("_dir", "?"))
+        jtype = j.get("job_type", "?")
+        req = j.get("requester", "?")
+        created = j.get("created_at", "?")
+        server = j.get("server", {})
+        result = j.get("result", {})
+
+        print(f"  [{status.upper()}] {jid} — {jtype} (von {req}, {created})")
+        if server.get("hostname"):
+            print(f"    Server: {server['hostname']} (PID {server.get('pid', '?')})")
+        if server.get("exit_code") is not None:
+            print(f"    Exit: {server['exit_code']}")
+        if result.get("report_path"):
+            print(f"    Report: {result['report_path']}")
+        if result.get("error"):
+            print(f"    Fehler: {result['error']}")
+        if result.get("autofix_attempted"):
+            print(f"    Auto-Fix: {result.get('autofix_result', '?')}")
+        print()
+
+
 # ── CLI ─────────────────────────────────────────────────────────────
 
 def main() -> None:
@@ -431,15 +640,24 @@ def main() -> None:
     # run
     p_run = sub.add_parser("run", help="Testbatch starten")
     p_run.add_argument("--type", "-t", required=True,
-                        help="Test Case: Name (investigation, dungeon_crawl, ...) oder Nummer (1-6)")
+                        help="Test Case: Name (investigation, dungeon_crawl, rules, ...) oder Nummer (1-7)")
     p_run.add_argument("--runs", "-n", type=int, default=10, help="Anzahl Runs (Default: 10)")
-    p_run.add_argument("--module", "-m", default="cthulhu_7e", help="Regelsystem (Default: cthulhu_7e)")
+    p_run.add_argument("--module", "-m", default="add_2e", help="Regelsystem (Default: add_2e)")
     p_run.add_argument("--turns", type=int, default=5, help="Zuege pro Run (Default: 5)")
     p_run.add_argument("--parallel", "-p", type=int, default=2, help="Max parallele Runs (Default: 2)")
     p_run.add_argument("--adventure", "-a", default=None, help="Adventure (optional)")
     p_run.add_argument("--speech-style", "-s", default="normal",
                         choices=["normal", "sanft", "aggressiv"],
                         help="Keeper-Sprechstil (Default: normal)")
+    # rules_tester-spezifische Optionen (nur fuer --type rules)
+    p_run.add_argument("--rules-mode", default="all",
+                        choices=["unit", "scenario", "matrix", "all"],
+                        help="Rules-Tester Modus (Default: all)")
+    p_run.add_argument("--seed", type=int, default=42, help="RNG-Seed fuer rules_tester (Default: 42)")
+    p_run.add_argument("--matrix-iterations", type=int, default=1000,
+                        help="Iterationen pro Matrix-Zelle (Default: 1000)")
+    p_run.add_argument("--group", default=None,
+                        help="Unit-Test Gruppe filtern (z.B. mechanics.attack_roll)")
 
     # results
     p_results = sub.add_parser("results", help="Ergebnis-Uebersicht")
@@ -458,6 +676,38 @@ def main() -> None:
     p_clean.add_argument("--keep-series", action="store_true",
                          help="test_series/ nicht anraeumen")
 
+    # remote
+    p_remote = sub.add_parser("remote", help="Remote-Jobs (Server-Ausfuehrung)")
+    remote_sub = p_remote.add_subparsers(dest="remote_command", required=True)
+
+    # remote run
+    p_rr = remote_sub.add_parser("run", help="Remote-Job einreichen")
+    p_rr.add_argument("--type", "-t", required=True,
+                      help="Job-Typ: rules, investigation, dungeon_crawl, virtual_player, ...")
+    p_rr.add_argument("--module", "-m", default="add_2e", help="Regelsystem")
+    p_rr.add_argument("--runs", "-n", type=int, default=10, help="Anzahl Runs")
+    p_rr.add_argument("--turns", type=int, default=5, help="Zuege pro Run")
+    p_rr.add_argument("--adventure", "-a", default=None, help="Adventure")
+    p_rr.add_argument("--wait", "-w", action="store_true",
+                      help="Blockiert bis Job fertig")
+    p_rr.add_argument("--wait-timeout", type=int, default=3600,
+                      help="Max Wartezeit in Sekunden (Default: 3600)")
+    p_rr.add_argument("--rules-mode", default="all",
+                      choices=["unit", "scenario", "matrix", "all"])
+    p_rr.add_argument("--seed", type=int, default=42)
+    p_rr.add_argument("--matrix-iterations", type=int, default=1000)
+    p_rr.add_argument("--group", default=None)
+
+    # remote status
+    p_rs = remote_sub.add_parser("status", help="Job-Status anzeigen")
+    p_rs.add_argument("--hours", type=int, default=24,
+                      help="Jobs der letzten N Stunden (Default: 24)")
+
+    # remote list
+    p_rl = remote_sub.add_parser("list", help="Jobs auflisten (Detail)")
+    p_rl.add_argument("--hours", type=int, default=24,
+                      help="Jobs der letzten N Stunden (Default: 24)")
+
     args = parser.parse_args()
 
     if args.command == "run":
@@ -468,6 +718,8 @@ def main() -> None:
         cmd_status(args)
     elif args.command == "cleanup":
         cmd_cleanup(args)
+    elif args.command == "remote":
+        cmd_remote(args)
 
 
 if __name__ == "__main__":
